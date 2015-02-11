@@ -1,0 +1,3 @@
+#!/bin/bash
+BASE_DIR=$(readlink -m `dirname $0`/..);
+python ${BASE_DIR}/missal1962/missal.py $@
