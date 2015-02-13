@@ -57,6 +57,12 @@ class Missal(list):
                 return ii
 
 
+    def get_day_by_id(self, dayid):
+        for day in self:
+            if dayid in day[1]:
+                return day
+
+
     def calc_varday__dom_ressurectionis(self, year):
         """ Ressurection (Easter) Sunday
         """
