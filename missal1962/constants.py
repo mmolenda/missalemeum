@@ -210,7 +210,7 @@ vardays__post_epiphania = [
     'sab_post_epiphania_6',
 ]
 
-vardays__pascha = [
+vardays__ressurectionis = [
     'dom_septuagesima',
     'f2_septuagesima',
     'f3_septuagesima',
@@ -491,6 +491,9 @@ vardays__pascha = [
     'f5_post_pentecost_23',
     'f6_post_pentecost_23',
     'sab_post_pentecost_23',
+]
+
+vardays__hebd_post_pentecost_24 = [
     'dom_post_pentecost_24',
     'f2_post_pentecost_24',
     'f3_post_pentecost_24',
