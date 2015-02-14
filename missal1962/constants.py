@@ -493,6 +493,13 @@ vardays__ressurectionis = [
     'sab_post_pentecost_23',
 ]
 
+vardays__quattour_septembris = [
+    'f4_quattuor_septembris',
+    '',
+    'f6_quattuor_septembris',
+    'sab_quattuor_septembris'
+]
+
 vardays__hebd_post_pentecost_24 = [
     'dom_post_pentecost_24',
     'f2_post_pentecost_24',

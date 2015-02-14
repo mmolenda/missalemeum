@@ -49,6 +49,9 @@ class Missal(list):
             reverse=True,
             overwrite=False)
         self._insert_block(
+            self._calc_varday__quattour_septembris(year),
+            constants.vardays__quattour_septembris)
+        self._insert_block(
             self._calc_varday__dom_adventus(year),
             constants.vardays__advent)
 
@@ -195,6 +198,22 @@ class Missal(list):
         moved here to "fill the gap"
         """
         return self._calc_varday__dom_post_pentecost_24(year) - timedelta(days=1)
+
+    def _calc_varday__quattour_septembris(self, year):
+        """ Feria Quarta Quattuor Temporum Septembris
+
+        Ember Wednesday in September is Wednesday after third Sunday
+        of September according to John XXIII's motu proprio
+        Rubricarum instructum of June 25 1960.
+        """
+        d = date(year, 9, 1)
+        while d.month == 9:
+            # third Sunday
+            if d.weekday() == 6 and 15 <= d.day <= 21:
+                break
+            d += timedelta(days=1)
+        # Wednesday after third Sunday
+        return d + timedelta(days=3)
 
 
 if __name__ == '__main__':
