@@ -121,6 +121,8 @@ class Missal(list):
             index = day_index + ii if not reverse else day_index - ii
             if self[index][1] and not overwrite:
                 break
+            if not day:
+                continue
             self[index][1] = [day]
 
     def _get_date_index(self, date_):

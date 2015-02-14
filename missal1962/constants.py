@@ -173,7 +173,7 @@ vardays__post_epiphania = [
     'f5_post_epiphania_1',
     'f6_post_epiphania_1',
     'sab_post_epiphania_1',
-    'dom_post_epiphania_1',
+    'dom_post_epiphania_2',
     'f2_post_epiphania_2',
     'f3_post_epiphania_2',
     'f4_post_epiphania_2',
