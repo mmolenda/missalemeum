@@ -374,6 +374,18 @@ vardays__advent = [
     'sab_adventus_4',
 ]
 
+vardays__sanctissimi_nominis_jesu = [
+    'sanctissimi_nominis_jesu'
+]
+
+vardays__jesu_christi_regis = [
+    'jesu-christi-regis'
+]
+
+vardays__dom_octavam_nativitatis = [
+    'dom_octavam_nativitatis'
+]
+
 fixdays = [
     '01-01.octavae_nativitatis',
     '01-05',
@@ -420,9 +432,9 @@ fixdays = [
     '02-14',
     '02-15',
     '02-18',
-    '02-22.cathedra_petri ',
+    '02-22.cathedra_petri',
     '02-23',
-    '02-24.matthiae_apostoli ',
+    '02-24.matthiae_apostoli',
     '02-27',
     '03-04',
     '03-04',
@@ -461,7 +473,7 @@ fixdays = [
     '04-30',
     '05-01.joseph_opificis',
     '05-02',
-    '05-03.mariae_reginae_ploniae',
+    '05-03.mariae_reginae_poloniae',
     '05-04',
     '05-05',
     '05-07',
@@ -470,7 +482,7 @@ fixdays = [
     '05-09',
     '05-10',
     '05-10',
-    '05-11.philippi_et_jacobi ',
+    '05-11.philippi_et_jacobi',
     '05-12',
     '05-13',
     '05-14',
@@ -483,7 +495,7 @@ fixdays = [
     '05-19',
     '05-20',
     '05-21',
-    '05-24.???',
+    '05-24.mariae_auxiliae',
     '05-25',
     '05-25',
     '05-26',
@@ -616,7 +628,7 @@ fixdays = [
     '09-10',
     '09-11',
     '09-12',
-    '09-14.exaltatione_crucis ',
+    '09-14.exaltatione_crucis',
     '09-15.septem_dolorum_bmv',
     '09-15',
     '09-16',
@@ -668,8 +680,8 @@ fixdays = [
     '10-25',
     '10-26',
     '10-28.simonis_et_judae',
-    '11-01.omnium_sanctorum ',
-    '11-02.omnium_fidelium_defunctorum ',
+    '11-01.omnium_sanctorum',
+    '11-02.omnium_fidelium_defunctorum',
     '11-04',
     '11-04',
     '11-08',
@@ -720,7 +732,7 @@ fixdays = [
     '12-25.nativitate_domini',
     '12-25',
     '12-26.stephani',
-    '12-27.joannis_apostoli ',
+    '12-27.joannis_apostoli',
     '12-28.innocentium',
     '12-29.d5_post_nativitatem',
     '12-29',

@@ -2,7 +2,7 @@
 Missal 1962
 """
 
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 from dateutil.easter import easter
 import sys
 import constants
@@ -17,7 +17,7 @@ class Missal(list):
       for example:
       ...
       [datetime.date(2008, 5, 3), ['sab_post_ascension',
-                                   '05-03.mariae_reginae_ploniae']]
+                                   '05-03.mariae_reginae_poloniae']]
       [datetime.date(2008, 5, 4), ['dom_post_ascension', '05-04']]
       [datetime.date(2008, 5, 5), ['f2_hebd_post_ascension', '05-05']]
       [datetime.date(2008, 5, 6), ['f3_hebd_post_ascension']]
@@ -53,7 +53,8 @@ class Missal(list):
             constants.vardays__quattour_septembris)
         self._insert_block(
             self._calc_varday__dom_adventus(year),
-            constants.vardays__advent)
+            constants.vardays__advent,
+            stop_date=date(year, 12, 23))
 
         # fill in fixed days
         for date_, contents in self:
@@ -75,7 +76,8 @@ class Missal(list):
             if dayid in day[1]:
                 return day
 
-    def _insert_block(self, start_date, block, reverse=False, overwrite=True):
+    def _insert_block(self, start_date, block, stop_date=None, reverse=False,
+                      overwrite=True):
         """ Insert a block of related liturgical days'identifiers.
 
         :param start_date: date where first or last (if `reverse`=True)
@@ -83,8 +85,10 @@ class Missal(list):
         :type start_date: date object
         :param block: list of identifiers in established order
         :type block: list of strings
+        :param stop_date: last date to insert block element
+        :type stop_date: date object
         :param reverse: if False, identifiers will be put in days
-                        followingv`start_date` otherwise they'll
+                        following `start_date` otherwise they'll
                         be put in leading up days
         :param overwrite: if True, overwrite existing identifiers,
                           else quit on first non empty day
@@ -122,10 +126,15 @@ class Missal(list):
         day_index = self._get_date_index(start_date)
         for ii, day in enumerate(block):
             index = day_index + ii if not reverse else day_index - ii
-            if self[index][1] and not overwrite:
-                break
+            # skip on empty day in a block
             if not day:
                 continue
+            # break on first non-empty day
+            if self[index][1] and not overwrite:
+                break
+            # break on stop date
+            if stop_date == self[index - 1][0]:
+                break
             self[index][1] = [day]
 
     def _get_date_index(self, date_):
@@ -214,6 +223,29 @@ class Missal(list):
             d += timedelta(days=1)
         # Wednesday after third Sunday
         return d + timedelta(days=3)
+
+    def _calc_varday__sanctissimi_nominis_jesu(self, year):
+        """ Sanctissimi Nominis Jesu
+
+        The Feast of the Holy Name of Jesus. Kept on the First
+        Sunday of the year; but if this Sunday falls on
+        1st, 6th or 7th January, the feast is kept on 2nd January.
+        """
+        raise NotImplementedError
+
+    def _calc_varday__jesu_christi_regis(self, year):
+        """ Jesu Christi Regis
+
+        The Feast of Christ the King, last Sunday of October
+        """
+        raise NotImplementedError
+
+    def _calc_varday__dom_octavam_nativitatis(self, year):
+        """ Dominica infra octavam Nativitatis
+
+        Sunday within the Octave of Christmas, Sunday after Dec 25
+        """
+        raise NotImplementedError
 
 
 if __name__ == '__main__':
