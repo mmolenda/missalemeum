@@ -9,7 +9,7 @@ class TestMissal(unittest.TestCase):
     def _to_date_obj(self, date_str):
         return datetime.strptime(date_str, '%Y-%m-%d').date() if date_str else None
 
-    def test_missal(self):
+    def test_vardays(self):
         with open('vardays_fixtures.json') as fh:
             expected = json.load(fh)
 

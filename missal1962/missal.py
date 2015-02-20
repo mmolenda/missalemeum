@@ -231,14 +231,25 @@ class Missal(list):
         Sunday of the year; but if this Sunday falls on
         1st, 6th or 7th January, the feast is kept on 2nd January.
         """
-        raise NotImplementedError
+        d = date(year, 1, 1)
+        while d.day <= 7:
+            wd = d.weekday()
+            if d.day in (1, 6, 7) and wd == 6:
+                return date(year, 1, 2)
+            if wd == 6:
+                return d
+            d += timedelta(days=1)
 
     def _calc_varday__jesu_christi_regis(self, year):
         """ Jesu Christi Regis
 
         The Feast of Christ the King, last Sunday of October
         """
-        raise NotImplementedError
+        d = date(year, 10, 31)
+        while d.month == 10:
+            if d.weekday() == 6:
+                return d
+            d -= timedelta(days=1)
 
     def _calc_varday__dom_octavam_nativitatis(self, year):
         """ Dominica infra octavam Nativitatis
@@ -253,4 +264,4 @@ if __name__ == '__main__':
     missal = Missal(year)
 
     for ii in missal:
-        print ii[0].strftime('%A'), ii
+            print ii[0].strftime('%A'), ii
