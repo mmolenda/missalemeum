@@ -34,6 +34,7 @@ class Missal(list):
             day += timedelta(days=1)
 
         # fill in variable days
+        # main blocks
         self._insert_block(
             self._calc_varday__dom_sanctae_familiae(year),
             constants.vardays__post_epiphania)
@@ -41,20 +42,34 @@ class Missal(list):
             self._calc_varday__dom_septuagesima(year),
             constants.vardays__ressurectionis)
         self._insert_block(
-            self._calc_varday__dom_post_pentecost_24(year),
-            constants.vardays__hebd_post_pentecost_24)
-        self._insert_block(
             self._calc_varday__sab_before_dom_post_pentecost_24(year),
             constants.vardays__post_epiphania,
             reverse=True,
             overwrite=False)
         self._insert_block(
-            self._calc_varday__quattour_septembris(year),
-            constants.vardays__quattour_septembris)
+            self._calc_varday__dom_post_pentecost_24(year),
+            constants.vardays__hebd_post_pentecost_24)
         self._insert_block(
             self._calc_varday__dom_adventus(year),
             constants.vardays__advent,
             stop_date=date(year, 12, 23))
+        # additional blocks
+        self._insert_block(
+            self._calc_varday__sanctissimi_nominis_jesu(year),
+            constants.vardays__sanctissimi_nominis_jesu
+        )
+        self._insert_block(
+            self._calc_varday__quattour_septembris(year),
+            constants.vardays__quattour_septembris)
+        self._insert_block(
+            self._calc_varday__jesu_christi_regis(year),
+            constants.vardays__jesu_christi_regis
+        )
+        if self._calc_varday__dom_octavam_nativitatis(year):
+            self._insert_block(
+                self._calc_varday__dom_octavam_nativitatis(year),
+                constants.vardays__dom_octavam_nativitatis
+            )
 
         # fill in fixed days
         for date_, contents in self:
@@ -158,30 +173,31 @@ class Missal(list):
 
         First Sunday after Epiphany (06 January)
         """
-        epiphany = date(year, 1, 6)
-        wd = epiphany.weekday() 
+        d = date(year, 1, 6)
+        wd = d.weekday()
         delta = 6 - wd if wd < 6 else 7
-        return epiphany + timedelta(days=delta)
+        return d + timedelta(days=delta)
 
     def _calc_varday__dom_septuagesima(self, year):
-        """ Dominica in Septuagesima - beginning of
-        the pre-Lenten season
+        """ Dominica in Septuagesima
 
+        Beginning of the pre-Lenten season
         First day of the Ressurection Sunday - related block.
         It's 63 days before Ressurection.
         """
         return self._calc_varday__dom_ressurectionis(year) - timedelta(days=63)
 
     def _calc_varday__dom_adventus(self, year):
-        """ Dominica I Adventus - first Sunday of Advent
+        """ Dominica I Adventus
 
-        November 27 if it's Sunday or closest Sunday
+        First Sunday of Advent - November 27 if it's Sunday
+        or closest Sunday
         """
-        advent = date(year, 11, 27)
-        wd = advent.weekday()
+        d = date(year, 11, 27)
+        wd = d.weekday()
         if wd != 6:
-            advent += timedelta(days=6-wd)
-        return advent
+            d += timedelta(days=6 - wd)
+        return d
 
     def _calc_varday__dom_post_pentecost_24(self, year):
         """ Dominica XXIV Post Pentecosten
@@ -254,10 +270,15 @@ class Missal(list):
     def _calc_varday__dom_octavam_nativitatis(self, year):
         """ Dominica infra octavam Nativitatis
 
-        Sunday within the Octave of Christmas, Sunday after Dec 25
+        Sunday within the Octave of Christmas, Sunday between
+        Dec 26 and Dec 31
         """
-        raise NotImplementedError
-
+        d = date(year, 12, 27)
+        while d.year == year:
+            if d.weekday() == 6:
+                return d
+            d += timedelta(days=1)
+        return None
 
 if __name__ == '__main__':
     year = int(sys.argv[1]) if len(sys.argv) > 1 else 2008

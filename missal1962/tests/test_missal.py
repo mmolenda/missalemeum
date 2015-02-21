@@ -27,6 +27,13 @@ class TestMissal(unittest.TestCase):
                 missal.get_day_by_id('dom_post_epiphania_4') else None
             self.assertEqual(self._to_date_obj(dates[7]), actual)
             self.assertEqual(self._to_date_obj(dates[8]), missal.get_day_by_id('sab_quattuor_septembris')[0])
+            self.assertEqual(self._to_date_obj(dates[9]), missal.get_day_by_id('sanctissimi_nominis_jesu')[0])
+            self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id('jesu-christi-regis')[0])
+            # dom_octavam_nativitatis might not exist in given year, then None is returned
+            actual = missal.get_day_by_id('dom_octavam_nativitatis')[0] if \
+                missal.get_day_by_id('dom_octavam_nativitatis') else None
+            self.assertEqual(self._to_date_obj(dates[11]), actual)
+
 
 if __name__ == '__main__':
     unittest.main()
