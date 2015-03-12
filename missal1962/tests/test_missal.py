@@ -17,7 +17,7 @@ class TestMissal(unittest.TestCase):
             missal = Missal(int(year))
             self.assertEqual(self._to_date_obj(dates[0]), missal.get_day_by_id('dom_septuagesima')[0])
             self.assertEqual(self._to_date_obj(dates[1]), missal.get_day_by_id('f4_cinerum')[0])
-            self.assertEqual(self._to_date_obj(dates[2]), missal.get_day_by_id('DOM_RESSURECTIONIS')[0])
+            self.assertEqual(self._to_date_obj(dates[2]), missal.get_day_by_id('dom_resurrectionis')[0])
             self.assertEqual(self._to_date_obj(dates[3]), missal.get_day_by_id('ascensione_domini')[0])
             self.assertEqual(self._to_date_obj(dates[4]), missal.get_day_by_id('pentecost')[0])
             self.assertEqual(self._to_date_obj(dates[5]), missal.get_day_by_id('corporis_christi')[0])
@@ -28,7 +28,7 @@ class TestMissal(unittest.TestCase):
             self.assertEqual(self._to_date_obj(dates[7]), actual)
             self.assertEqual(self._to_date_obj(dates[8]), missal.get_day_by_id('sab_quattuor_septembris')[0])
             self.assertEqual(self._to_date_obj(dates[9]), missal.get_day_by_id('sanctissimi_nominis_jesu')[0])
-            self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id('jesu-christi-regis')[0])
+            self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id('jesu_christi_regis')[0])
             # dom_octavam_nativitatis might not exist in given year, then None is returned
             actual = missal.get_day_by_id('dom_octavam_nativitatis')[0] if \
                 missal.get_day_by_id('dom_octavam_nativitatis') else None

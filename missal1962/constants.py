@@ -64,7 +64,7 @@ vardays__ressurectionis = [
     'f4_cinerum',
     'f5_post_cineres',
     'f6_post_cineres',
-    'f7_post_cineres',
+    'sab_post_cineres',
     'dom_quadragesima_1',
     'f2_quadragesima_1',
     'f3_quadragesima_1',
@@ -107,7 +107,7 @@ vardays__ressurectionis = [
     'f5_in_coena',
     'f6_in_parasceve',
     'sab_sancto',
-    'DOM_RESSURECTIONIS',
+    'dom_resurrectionis',
     'd2_octavam_paschae',
     'd3_octavam_paschae',
     'd4_octavam_paschae',
@@ -379,7 +379,7 @@ vardays__sanctissimi_nominis_jesu = [
 ]
 
 vardays__jesu_christi_regis = [
-    'jesu-christi-regis'
+    'jesu_christi_regis'
 ]
 
 vardays__dom_octavam_nativitatis = [
