@@ -4,6 +4,7 @@ Missal 1962
 
 from datetime import date, timedelta
 from dateutil.easter import easter
+from missal1962.rules import ruleset
 import sys
 import constants
 
@@ -73,10 +74,22 @@ class Missal(list):
 
         # fill in fixed days
         for date_, contents in self:
-            date_id = date_.strftime("%m-%d")
+            date_id = date_.strftime("%m_%d")
             days = list(set([ii for ii in constants.fixdays
                              if ii.startswith(date_id)]))
             contents.extend(days)
+
+        # at this point missal is prepopulated with days' IDs
+        # now apply rules to resolve the conflicts when
+        # more than two days appeared on the same date
+        for date_, contents in self:
+            if len(contents) > 2:
+                # if more than 2 ids, cut the lowest class
+                # ['03_08_1:3', 'sab_quadragesima_4:2', '03_08_2:4']
+                #                 vvvv
+                # ['sab_quadragesima_4:2', '03_08_1:3']
+                contents.remove(
+                    sorted(contents, key=lambda x: x.split(':')[1])[-1])
 
     def get_day_by_id(self, dayid):
         """ Return a list representing single day.
@@ -285,4 +298,4 @@ if __name__ == '__main__':
     missal = Missal(year)
 
     for ii in missal:
-            print ii[0].strftime('%A'), ii
+            print ii[0].strftime('%A'), len(ii)
