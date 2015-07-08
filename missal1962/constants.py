@@ -1,742 +1,721 @@
-vardays__post_epiphania = [
-    'dom_sanctae_familiae:1',
-    'f2_post_epiphania_1:2',
-    'f3_post_epiphania_1:2',
-    'f4_post_epiphania_1:2',
-    'f5_post_epiphania_1:2',
-    'f6_post_epiphania_1:2',
-    'sab_post_epiphania_1:2',
-    'dom_post_epiphania_2:1',
-    'f2_post_epiphania_2:2',
-    'f3_post_epiphania_2:2',
-    'f4_post_epiphania_2:2',
-    'f5_post_epiphania_2:2',
-    'f6_post_epiphania_2:2',
-    'sab_post_epiphania_2:2',
-    'dom_post_epiphania_3:1',
-    'f2_post_epiphania_3:2',
-    'f3_post_epiphania_3:2',
-    'f4_post_epiphania_3:2',
-    'f5_post_epiphania_3:2',
-    'f6_post_epiphania_3:2',
-    'sab_post_epiphania_3:2',
-    'dom_post_epiphania_4:1',
-    'f2_post_epiphania_4:2',
-    'f3_post_epiphania_4:2',
-    'f4_post_epiphania_4:2',
-    'f5_post_epiphania_4:2',
-    'f6_post_epiphania_4:2',
-    'sab_post_epiphania_4:2',
-    'dom_post_epiphania_5:1',
-    'f2_post_epiphania_5:2',
-    'f3_post_epiphania_5:2',
-    'f4_post_epiphania_5:2',
-    'f5_post_epiphania_5:2',
-    'f6_post_epiphania_5:2',
-    'sab_post_epiphania_5:2',
-    'dom_post_epiphania_6:1',
-    'f2_post_epiphania_6:2',
-    'f3_post_epiphania_6:2',
-    'f4_post_epiphania_6:2',
-    'f5_post_epiphania_6:2',
-    'f6_post_epiphania_6:2',
-    'sab_post_epiphania_6:2',
-]
 
-vardays__ressurectionis = [
-    'dom_septuagesima:1',
-    'f2_septuagesima:2',
-    'f3_septuagesima:2',
-    'f4_septuagesima:2',
-    'f5_septuagesima:2',
-    'f6_septuagesima:2',
-    'sab_septuagesima:2',
-    'dom_sexagesima:1',
-    'f2_sexagesima:2',
-    'f3_sexagesima:2',
-    'f4_sexagesima:2',
-    'f5_sexagesima:2',
-    'f6_sexagesima:2',
-    'sab_sexagesima:2',
-    'dom_quinquagesima:1',
-    'f2_quinquagesima:2',
-    'f3_quinquagesima:2',
-    'f4_cinerum:2',
-    'f5_post_cineres:2',
-    'f6_post_cineres:2',
-    'sab_post_cineres:2',
-    'dom_quadragesima_1:1',
-    'f2_quadragesima_1:2',
-    'f3_quadragesima_1:2',
-    'f4_quattuor_quadragesima:2',
-    'f5_quadragesima_1:2',
-    'f6_quattuor_quadragesima:2',
-    'sab_quattuor_quadragesima:2',
-    'dom_quadragesima_2:1',
-    'f2_quadragesima_2:2',
-    'f3_quadragesima_2:2',
-    'f4_quadragesima_2:2',
-    'f5_quadragesima_2:2',
-    'f6_quadragesima_2:2',
-    'sab_quadragesima_2:2',
-    'dom_quadragesima_3:1',
-    'f2_quadragesima_3:2',
-    'f3_quadragesima_3:2',
-    'f4_quadragesima_3:2',
-    'f5_quadragesima_3:2',
-    'f6_quadragesima_3:2',
-    'sab_quadragesima_3:2',
-    'dom_quadragesima_4:1',
-    'f2_quadragesima_4:2',
-    'f3_quadragesima_4:2',
-    'f4_quadragesima_4:2',
-    'f5_quadragesima_4:2',
-    'f6_quadragesima_4:2',
-    'sab_quadragesima_4:2',
-    'dom_passionis:1',
-    'f2_passionis:2',
-    'f3_passionis:2',
-    'f4_passionis:2',
-    'f5_passionis:2',
-    'f6_passionis:2',
-    'sab_passionis:2',
-    'dom_in_palmis:1',
-    'f2_hebd_sanctae:2',
-    'f3_hebd_sanctae:2',
-    'f4_hebd_sanctae:2',
-    'f5_in_coena:2',
-    'f6_in_parasceve:2',
-    'sab_sancto:2',
-    'dom_resurrectionis:1',
-    'd2_octavam_paschae:2',
-    'd3_octavam_paschae:2',
-    'd4_octavam_paschae:2',
-    'd5_octavam_paschae:2',
-    'd6_octavam_paschae:2',
-    'sab_in_albis:2',
-    'dom_in_albis:1',
-    'f2_post_octavam_paschae_1:2',
-    'f3_post_octavam_paschae_1:2',
-    'f4_post_octavam_paschae_1:2',
-    'f5_post_octavam_paschae_1:2',
-    'f6_post_octavam_paschae_1:2',
-    'sab_post_octavam_paschae_1:2',
-    'dom_post_pascha_2:1',
-    'f2_post_octavam_paschae_2:2',
-    'f3_post_octavam_paschae_2:2',
-    'f4_post_octavam_paschae_2:2',
-    'f5_post_octavam_paschae_2:2',
-    'f6_post_octavam_paschae_2:2',
-    'sab_post_octavam_paschae_2:2',
-    'dom_post_pascha_3:1',
-    'f2_post_octavam_paschae_3:2',
-    'f3_post_octavam_paschae_3:2',
-    'f4_post_octavam_paschae_3:2',
-    'f5_post_octavam_paschae_3:2',
-    'f6_post_octavam_paschae_3:2',
-    'sab_post_octavam_paschae_3:2',
-    'dom_post_pascha_4:1',
-    'f2_post_octavam_paschae_4:2',
-    'f3_post_octavam_paschae_4:2',
-    'f4_post_octavam_paschae_4:2',
-    'f5_post_octavam_paschae_4:2',
-    'f6_post_octavam_paschae_4:2',
-    'sab_post_octavam_paschae_4:2',
-    'dom_post_pascha_5:1',
-    'f2_post_octavam_paschae_5:2',
-    'f3_post_octavam_paschae_5:2',
-    'vigilia_ascensionis:2',
-    'ascensione_domini:2',
-    'f6_post_ascension:2',
-    'sab_post_ascension:2',
-    'dom_post_ascension:1',
-    'f2_hebd_post_ascension:2',
-    'f3_hebd_post_ascension:2',
-    'f4_hebd_post_ascension:2',
-    'f5_hebd_post_ascension:2',
-    'f6_hebd_post_ascension:2',
-    'vigilia_pentecost:2',
-    'pentecost:1',
-    'd2_octavam_pentecost:2',
-    'd3_octavam_pentecost:2',
-    'f4_quattuor_pentecost:2',
-    'd5_octavam_pentecost:2',
-    'f6_quattuor_pentecost:2',
-    'sab_quattuor_pentecost:2',
-    'dom_sanctissimae_trinitatis:1',
-    'f2_post_pentecost_1:2',
-    'f3_post_pentecost_1:2',
-    'f4_post_pentecost_1:2',
-    'corporis_christi:2',
-    'f6_post_pentecost_1:2',
-    'sab_post_pentecost_1:2',
-    'dom_post_pentecost_2:1',
-    'f2_post_pentecost_2:2',
-    'f3_post_pentecost_2:2',
-    'f4_post_pentecost_2:2',
-    'f5_post_pentecost_2:2',
-    'sanctissimi_cordis_jesu_christi:2',
-    'sab_post_pentecost_2:2',
-    'dom_post_pentecost_3:1',
-    'f2_post_pentecost_3:2',
-    'f3_post_pentecost_3:2',
-    'f4_post_pentecost_3:2',
-    'f5_post_pentecost_3:2',
-    'f6_post_pentecost_3:2',
-    'sab_post_pentecost_3:2',
-    'dom_post_pentecost_4:1',
-    'f2_post_pentecost_4:2',
-    'f3_post_pentecost_4:2',
-    'f4_post_pentecost_4:2',
-    'f5_post_pentecost_4:2',
-    'f6_post_pentecost_4:2',
-    'sab_post_pentecost_4:2',
-    'dom_post_pentecost_5:1',
-    'f2_post_pentecost_5:2',
-    'f3_post_pentecost_5:2',
-    'f4_post_pentecost_5:2',
-    'f5_post_pentecost_5:2',
-    'f6_post_pentecost_5:2',
-    'sab_post_pentecost_5:2',
-    'dom_post_pentecost_6:1',
-    'f2_post_pentecost_6:2',
-    'f3_post_pentecost_6:2',
-    'f4_post_pentecost_6:2',
-    'f5_post_pentecost_6:2',
-    'f6_post_pentecost_6:2',
-    'sab_post_pentecost_6:2',
-    'dom_post_pentecost_7:1',
-    'f2_post_pentecost_7:2',
-    'f3_post_pentecost_7:2',
-    'f4_post_pentecost_7:2',
-    'f5_post_pentecost_7:2',
-    'f6_post_pentecost_7:2',
-    'sab_post_pentecost_7:2',
-    'dom_post_pentecost_8:1',
-    'f2_post_pentecost_8:2',
-    'f3_post_pentecost_8:2',
-    'f4_post_pentecost_8:2',
-    'f5_post_pentecost_8:2',
-    'f6_post_pentecost_8:2',
-    'sab_post_pentecost_8:2',
-    'dom_post_pentecost_9:1',
-    'f2_post_pentecost_9:2',
-    'f3_post_pentecost_9:2',
-    'f4_post_pentecost_9:2',
-    'f5_post_pentecost_9:2',
-    'f6_post_pentecost_9:2',
-    'sab_post_pentecost_9:2',
-    'dom_post_pentecost_10:1',
-    'f2_post_pentecost_10:2',
-    'f3_post_pentecost_10:2',
-    'f4_post_pentecost_10:2',
-    'f5_post_pentecost_10:2',
-    'f6_post_pentecost_10:2',
-    'sab_post_pentecost_10:2',
-    'dom_post_pentecost_11:1',
-    'f2_post_pentecost_11:2',
-    'f3_post_pentecost_11:2',
-    'f4_post_pentecost_11:2',
-    'f5_post_pentecost_11:2',
-    'f6_post_pentecost_11:2',
-    'sab_post_pentecost_11:2',
-    'dom_post_pentecost_12:1',
-    'f2_post_pentecost_12:2',
-    'f3_post_pentecost_12:2',
-    'f4_post_pentecost_12:2',
-    'f5_post_pentecost_12:2',
-    'f6_post_pentecost_12:2',
-    'sab_post_pentecost_12:2',
-    'dom_post_pentecost_13:1',
-    'f2_post_pentecost_13:2',
-    'f3_post_pentecost_13:2',
-    'f4_post_pentecost_13:2',
-    'f5_post_pentecost_13:2',
-    'f6_post_pentecost_13:2',
-    'sab_post_pentecost_13:2',
-    'dom_post_pentecost_14:1',
-    'f2_post_pentecost_14:2',
-    'f3_post_pentecost_14:2',
-    'f4_post_pentecost_14:2',
-    'f5_post_pentecost_14:2',
-    'f6_post_pentecost_14:2',
-    'sab_post_pentecost_14:2',
-    'dom_post_pentecost_15:1',
-    'f2_post_pentecost_15:2',
-    'f3_post_pentecost_15:2',
-    'f4_post_pentecost_15:2',
-    'f5_post_pentecost_15:2',
-    'f6_post_pentecost_15:2',
-    'sab_post_pentecost_15:2',
-    'dom_post_pentecost_16:1',
-    'f2_post_pentecost_16:2',
-    'f3_post_pentecost_16:2',
-    'f4_post_pentecost_16:2',
-    'f5_post_pentecost_16:2',
-    'f6_post_pentecost_16:2',
-    'sab_post_pentecost_16:2',
-    'dom_post_pentecost_17:1',
-    'f2_post_pentecost_17:2',
-    'f3_post_pentecost_17:2',
-    'f4_post_pentecost_17:2',
-    'f5_post_pentecost_17:2',
-    'f6_post_pentecost_17:2',
-    'sab_post_pentecost_17:2',
-    'dom_post_pentecost_18:1',
-    'f2_post_pentecost_18:2',
-    'f3_post_pentecost_18:2',
-    'f4_post_pentecost_18:2',
-    'f5_post_pentecost_18:2',
-    'f6_post_pentecost_18:2',
-    'sab_post_pentecost_18:2',
-    'dom_post_pentecost_19:1',
-    'f2_post_pentecost_19:2',
-    'f3_post_pentecost_19:2',
-    'f4_post_pentecost_19:2',
-    'f5_post_pentecost_19:2',
-    'f6_post_pentecost_19:2',
-    'sab_post_pentecost_19:2',
-    'dom_post_pentecost_20:1',
-    'f2_post_pentecost_20:2',
-    'f3_post_pentecost_20:2',
-    'f4_post_pentecost_20:2',
-    'f5_post_pentecost_20:2',
-    'f6_post_pentecost_20:2',
-    'sab_post_pentecost_20:2',
-    'dom_post_pentecost_21:1',
-    'f2_post_pentecost_21:2',
-    'f3_post_pentecost_21:2',
-    'f4_post_pentecost_21:2',
-    'f5_post_pentecost_21:2',
-    'f6_post_pentecost_21:2',
-    'sab_post_pentecost_21:2',
-    'dom_post_pentecost_22:1',
-    'f2_post_pentecost_22:2',
-    'f3_post_pentecost_22:2',
-    'f4_post_pentecost_22:2',
-    'f5_post_pentecost_22:2',
-    'f6_post_pentecost_22:2',
-    'sab_post_pentecost_22:2',
-    'dom_post_pentecost_23:1',
-    'f2_post_pentecost_23:2',
-    'f3_post_pentecost_23:2',
-    'f4_post_pentecost_23:2',
-    'f5_post_pentecost_23:2',
-    'f6_post_pentecost_23:2',
-    'sab_post_pentecost_23:2',
-]
+VAR_DOM_SANCTAE_FAMILIAE = 'var_dom_sanctae_familiae:1'
+VAR_F2_POST_EPIPHANIA_1 = 'var_f2_post_epiphania_1:2'
+VAR_F3_POST_EPIPHANIA_1 = 'var_f3_post_epiphania_1:2'
+VAR_F4_POST_EPIPHANIA_1 = 'var_f4_post_epiphania_1:2'
+VAR_F5_POST_EPIPHANIA_1 = 'var_f5_post_epiphania_1:2'
+VAR_F6_POST_EPIPHANIA_1 = 'var_f6_post_epiphania_1:2'
+VAR_SAB_POST_EPIPHANIA_1 = 'var_sab_post_epiphania_1:2'
+VAR_DOM_POST_EPIPHANIA_2 = 'var_dom_post_epiphania_2:1'
+VAR_F2_POST_EPIPHANIA_2 = 'var_f2_post_epiphania_2:2'
+VAR_F3_POST_EPIPHANIA_2 = 'var_f3_post_epiphania_2:2'
+VAR_F4_POST_EPIPHANIA_2 = 'var_f4_post_epiphania_2:2'
+VAR_F5_POST_EPIPHANIA_2 = 'var_f5_post_epiphania_2:2'
+VAR_F6_POST_EPIPHANIA_2 = 'var_f6_post_epiphania_2:2'
+VAR_SAB_POST_EPIPHANIA_2 = 'var_sab_post_epiphania_2:2'
+VAR_DOM_POST_EPIPHANIA_3 = 'var_dom_post_epiphania_3:1'
+VAR_F2_POST_EPIPHANIA_3 = 'var_f2_post_epiphania_3:2'
+VAR_F3_POST_EPIPHANIA_3 = 'var_f3_post_epiphania_3:2'
+VAR_F4_POST_EPIPHANIA_3 = 'var_f4_post_epiphania_3:2'
+VAR_F5_POST_EPIPHANIA_3 = 'var_f5_post_epiphania_3:2'
+VAR_F6_POST_EPIPHANIA_3 = 'var_f6_post_epiphania_3:2'
+VAR_SAB_POST_EPIPHANIA_3 = 'var_sab_post_epiphania_3:2'
+VAR_DOM_POST_EPIPHANIA_4 = 'var_dom_post_epiphania_4:1'
+VAR_F2_POST_EPIPHANIA_4 = 'var_f2_post_epiphania_4:2'
+VAR_F3_POST_EPIPHANIA_4 = 'var_f3_post_epiphania_4:2'
+VAR_F4_POST_EPIPHANIA_4 = 'var_f4_post_epiphania_4:2'
+VAR_F5_POST_EPIPHANIA_4 = 'var_f5_post_epiphania_4:2'
+VAR_F6_POST_EPIPHANIA_4 = 'var_f6_post_epiphania_4:2'
+VAR_SAB_POST_EPIPHANIA_4 = 'var_sab_post_epiphania_4:2'
+VAR_DOM_POST_EPIPHANIA_5 = 'var_dom_post_epiphania_5:1'
+VAR_F2_POST_EPIPHANIA_5 = 'var_f2_post_epiphania_5:2'
+VAR_F3_POST_EPIPHANIA_5 = 'var_f3_post_epiphania_5:2'
+VAR_F4_POST_EPIPHANIA_5 = 'var_f4_post_epiphania_5:2'
+VAR_F5_POST_EPIPHANIA_5 = 'var_f5_post_epiphania_5:2'
+VAR_F6_POST_EPIPHANIA_5 = 'var_f6_post_epiphania_5:2'
+VAR_SAB_POST_EPIPHANIA_5 = 'var_sab_post_epiphania_5:2'
+VAR_DOM_POST_EPIPHANIA_6 = 'var_dom_post_epiphania_6:1'
+VAR_F2_POST_EPIPHANIA_6 = 'var_f2_post_epiphania_6:2'
+VAR_F3_POST_EPIPHANIA_6 = 'var_f3_post_epiphania_6:2'
+VAR_F4_POST_EPIPHANIA_6 = 'var_f4_post_epiphania_6:2'
+VAR_F5_POST_EPIPHANIA_6 = 'var_f5_post_epiphania_6:2'
+VAR_F6_POST_EPIPHANIA_6 = 'var_f6_post_epiphania_6:2'
+VAR_SAB_POST_EPIPHANIA_6 = 'var_sab_post_epiphania_6:2'
 
-vardays__quattour_septembris = [
-    'f4_quattuor_septembris:2',
-    '',
-    'f6_quattuor_septembris:2',
-    'sab_quattuor_septembris:2'
-]
+VAR_DOM_SEPTUAGESIMA = 'var_dom_septuagesima:1'
+VAR_F2_SEPTUAGESIMA = 'var_f2_septuagesima:2'
+VAR_F3_SEPTUAGESIMA = 'var_f3_septuagesima:2'
+VAR_F4_SEPTUAGESIMA = 'var_f4_septuagesima:2'
+VAR_F5_SEPTUAGESIMA = 'var_f5_septuagesima:2'
+VAR_F6_SEPTUAGESIMA = 'var_f6_septuagesima:2'
+VAR_SAB_SEPTUAGESIMA = 'var_sab_septuagesima:2'
+VAR_DOM_SEXAGESIMA = 'var_dom_sexagesima:1'
+VAR_F2_SEXAGESIMA = 'var_f2_sexagesima:2'
+VAR_F3_SEXAGESIMA = 'var_f3_sexagesima:2'
+VAR_F4_SEXAGESIMA = 'var_f4_sexagesima:2'
+VAR_F5_SEXAGESIMA = 'var_f5_sexagesima:2'
+VAR_F6_SEXAGESIMA = 'var_f6_sexagesima:2'
+VAR_SAB_SEXAGESIMA = 'var_sab_sexagesima:2'
+VAR_DOM_QUINQUAGESIMA = 'var_dom_quinquagesima:1'
+VAR_F2_QUINQUAGESIMA = 'var_f2_quinquagesima:2'
+VAR_F3_QUINQUAGESIMA = 'var_f3_quinquagesima:2'
+VAR_F4_CINERUM = 'var_f4_cinerum:2'
+VAR_F5_POST_CINERES = 'var_f5_post_cineres:2'
+VAR_F6_POST_CINERES = 'var_f6_post_cineres:2'
+VAR_SAB_POST_CINERES = 'var_sab_post_cineres:2'
+VAR_DOM_QUADRAGESIMA_1 = 'var_dom_quadragesima_1:1'
+VAR_F2_QUADRAGESIMA_1 = 'var_f2_quadragesima_1:2'
+VAR_F3_QUADRAGESIMA_1 = 'var_f3_quadragesima_1:2'
+VAR_F4_QUATTUOR_QUADRAGESIMA = 'var_f4_quattuor_quadragesima:2'
+VAR_F5_QUADRAGESIMA_1 = 'var_f5_quadragesima_1:2'
+VAR_F6_QUATTUOR_QUADRAGESIMA = 'var_f6_quattuor_quadragesima:2'
+VAR_SAB_QUATTUOR_QUADRAGESIMA = 'var_sab_quattuor_quadragesima:2'
+VAR_DOM_QUADRAGESIMA_2 = 'var_dom_quadragesima_2:1'
+VAR_F2_QUADRAGESIMA_2 = 'var_f2_quadragesima_2:2'
+VAR_F3_QUADRAGESIMA_2 = 'var_f3_quadragesima_2:2'
+VAR_F4_QUADRAGESIMA_2 = 'var_f4_quadragesima_2:2'
+VAR_F5_QUADRAGESIMA_2 = 'var_f5_quadragesima_2:2'
+VAR_F6_QUADRAGESIMA_2 = 'var_f6_quadragesima_2:2'
+VAR_SAB_QUADRAGESIMA_2 = 'var_sab_quadragesima_2:2'
+VAR_DOM_QUADRAGESIMA_3 = 'var_dom_quadragesima_3:1'
+VAR_F2_QUADRAGESIMA_3 = 'var_f2_quadragesima_3:2'
+VAR_F3_QUADRAGESIMA_3 = 'var_f3_quadragesima_3:2'
+VAR_F4_QUADRAGESIMA_3 = 'var_f4_quadragesima_3:2'
+VAR_F5_QUADRAGESIMA_3 = 'var_f5_quadragesima_3:2'
+VAR_F6_QUADRAGESIMA_3 = 'var_f6_quadragesima_3:2'
+VAR_SAB_QUADRAGESIMA_3 = 'var_sab_quadragesima_3:2'
+VAR_DOM_QUADRAGESIMA_4 = 'var_dom_quadragesima_4:1'
+VAR_F2_QUADRAGESIMA_4 = 'var_f2_quadragesima_4:2'
+VAR_F3_QUADRAGESIMA_4 = 'var_f3_quadragesima_4:2'
+VAR_F4_QUADRAGESIMA_4 = 'var_f4_quadragesima_4:2'
+VAR_F5_QUADRAGESIMA_4 = 'var_f5_quadragesima_4:2'
+VAR_F6_QUADRAGESIMA_4 = 'var_f6_quadragesima_4:2'
+VAR_SAB_QUADRAGESIMA_4 = 'var_sab_quadragesima_4:2'
+VAR_DOM_PASSIONIS = 'var_dom_passionis:1'
+VAR_F2_PASSIONIS = 'var_f2_passionis:2'
+VAR_F3_PASSIONIS = 'var_f3_passionis:2'
+VAR_F4_PASSIONIS = 'var_f4_passionis:2'
+VAR_F5_PASSIONIS = 'var_f5_passionis:2'
+VAR_F6_PASSIONIS = 'var_f6_passionis:2'
+VAR_SAB_PASSIONIS = 'var_sab_passionis:2'
+VAR_DOM_IN_PALMIS = 'var_dom_in_palmis:1'
+VAR_F2_HEBD_SANCTAE = 'var_f2_hebd_sanctae:2'
+VAR_F3_HEBD_SANCTAE = 'var_f3_hebd_sanctae:2'
+VAR_F4_HEBD_SANCTAE = 'var_f4_hebd_sanctae:2'
+VAR_F5_IN_COENA = 'var_f5_in_coena:2'
+VAR_F6_IN_PARASCEVE = 'var_f6_in_parasceve:2'
+VAR_SAB_SANCTO = 'var_sab_sancto:2'
+VAR_DOM_RESURRECTIONIS = 'var_dom_resurrectionis:1'
+VAR_D2_OCTAVAM_PASCHAE = 'var_d2_octavam_paschae:2'
+VAR_D3_OCTAVAM_PASCHAE = 'var_d3_octavam_paschae:2'
+VAR_D4_OCTAVAM_PASCHAE = 'var_d4_octavam_paschae:2'
+VAR_D5_OCTAVAM_PASCHAE = 'var_d5_octavam_paschae:2'
+VAR_D6_OCTAVAM_PASCHAE = 'var_d6_octavam_paschae:2'
+VAR_SAB_IN_ALBIS = 'var_sab_in_albis:2'
+VAR_DOM_IN_ALBIS = 'var_dom_in_albis:1'
+VAR_F2_POST_OCTAVAM_PASCHAE_1 = 'var_f2_post_octavam_paschae_1:2'
+VAR_F3_POST_OCTAVAM_PASCHAE_1 = 'var_f3_post_octavam_paschae_1:2'
+VAR_F4_POST_OCTAVAM_PASCHAE_1 = 'var_f4_post_octavam_paschae_1:2'
+VAR_F5_POST_OCTAVAM_PASCHAE_1 = 'var_f5_post_octavam_paschae_1:2'
+VAR_F6_POST_OCTAVAM_PASCHAE_1 = 'var_f6_post_octavam_paschae_1:2'
+VAR_SAB_POST_OCTAVAM_PASCHAE_1 = 'var_sab_post_octavam_paschae_1:2'
+VAR_DOM_POST_PASCHA_2 = 'var_dom_post_pascha_2:1'
+VAR_F2_POST_OCTAVAM_PASCHAE_2 = 'var_f2_post_octavam_paschae_2:2'
+VAR_F3_POST_OCTAVAM_PASCHAE_2 = 'var_f3_post_octavam_paschae_2:2'
+VAR_F4_POST_OCTAVAM_PASCHAE_2 = 'var_f4_post_octavam_paschae_2:2'
+VAR_F5_POST_OCTAVAM_PASCHAE_2 = 'var_f5_post_octavam_paschae_2:2'
+VAR_F6_POST_OCTAVAM_PASCHAE_2 = 'var_f6_post_octavam_paschae_2:2'
+VAR_SAB_POST_OCTAVAM_PASCHAE_2 = 'var_sab_post_octavam_paschae_2:2'
+VAR_DOM_POST_PASCHA_3 = 'var_dom_post_pascha_3:1'
+VAR_F2_POST_OCTAVAM_PASCHAE_3 = 'var_f2_post_octavam_paschae_3:2'
+VAR_F3_POST_OCTAVAM_PASCHAE_3 = 'var_f3_post_octavam_paschae_3:2'
+VAR_F4_POST_OCTAVAM_PASCHAE_3 = 'var_f4_post_octavam_paschae_3:2'
+VAR_F5_POST_OCTAVAM_PASCHAE_3 = 'var_f5_post_octavam_paschae_3:2'
+VAR_F6_POST_OCTAVAM_PASCHAE_3 = 'var_f6_post_octavam_paschae_3:2'
+VAR_SAB_POST_OCTAVAM_PASCHAE_3 = 'var_sab_post_octavam_paschae_3:2'
+VAR_DOM_POST_PASCHA_4 = 'var_dom_post_pascha_4:1'
+VAR_F2_POST_OCTAVAM_PASCHAE_4 = 'var_f2_post_octavam_paschae_4:2'
+VAR_F3_POST_OCTAVAM_PASCHAE_4 = 'var_f3_post_octavam_paschae_4:2'
+VAR_F4_POST_OCTAVAM_PASCHAE_4 = 'var_f4_post_octavam_paschae_4:2'
+VAR_F5_POST_OCTAVAM_PASCHAE_4 = 'var_f5_post_octavam_paschae_4:2'
+VAR_F6_POST_OCTAVAM_PASCHAE_4 = 'var_f6_post_octavam_paschae_4:2'
+VAR_SAB_POST_OCTAVAM_PASCHAE_4 = 'var_sab_post_octavam_paschae_4:2'
+VAR_DOM_POST_PASCHA_5 = 'var_dom_post_pascha_5:1'
+VAR_F2_POST_OCTAVAM_PASCHAE_5 = 'var_f2_post_octavam_paschae_5:2'
+VAR_F3_POST_OCTAVAM_PASCHAE_5 = 'var_f3_post_octavam_paschae_5:2'
+VAR_VIGILIA_ASCENSIONIS = 'var_vigilia_ascensionis:2'
+VAR_ASCENSIONE_DOMINI = 'var_ascensione_domini:2'
+VAR_F6_POST_ASCENSION = 'var_f6_post_ascension:2'
+VAR_SAB_POST_ASCENSION = 'var_sab_post_ascension:2'
+VAR_DOM_POST_ASCENSION = 'var_dom_post_ascension:1'
+VAR_F2_HEBD_POST_ASCENSION = 'var_f2_hebd_post_ascension:2'
+VAR_F3_HEBD_POST_ASCENSION = 'var_f3_hebd_post_ascension:2'
+VAR_F4_HEBD_POST_ASCENSION = 'var_f4_hebd_post_ascension:2'
+VAR_F5_HEBD_POST_ASCENSION = 'var_f5_hebd_post_ascension:2'
+VAR_F6_HEBD_POST_ASCENSION = 'var_f6_hebd_post_ascension:2'
+VAR_VIGILIA_PENTECOST = 'var_vigilia_pentecost:2'
+VAR_PENTECOST = 'var_pentecost:1'
+VAR_D2_OCTAVAM_PENTECOST = 'var_d2_octavam_pentecost:2'
+VAR_D3_OCTAVAM_PENTECOST = 'var_d3_octavam_pentecost:2'
+VAR_F4_QUATTUOR_PENTECOST = 'var_f4_quattuor_pentecost:2'
+VAR_D5_OCTAVAM_PENTECOST = 'var_d5_octavam_pentecost:2'
+VAR_F6_QUATTUOR_PENTECOST = 'var_f6_quattuor_pentecost:2'
+VAR_SAB_QUATTUOR_PENTECOST = 'var_sab_quattuor_pentecost:2'
+VAR_DOM_SANCTISSIMAE_TRINITATIS = 'var_dom_sanctissimae_trinitatis:1'
+VAR_F2_POST_PENTECOST_1 = 'var_f2_post_pentecost_1:2'
+VAR_F3_POST_PENTECOST_1 = 'var_f3_post_pentecost_1:2'
+VAR_F4_POST_PENTECOST_1 = 'var_f4_post_pentecost_1:2'
+VAR_CORPORIS_CHRISTI = 'var_corporis_christi:2'
+VAR_F6_POST_PENTECOST_1 = 'var_f6_post_pentecost_1:2'
+VAR_SAB_POST_PENTECOST_1 = 'var_sab_post_pentecost_1:2'
+VAR_DOM_POST_PENTECOST_2 = 'var_dom_post_pentecost_2:1'
+VAR_F2_POST_PENTECOST_2 = 'var_f2_post_pentecost_2:2'
+VAR_F3_POST_PENTECOST_2 = 'var_f3_post_pentecost_2:2'
+VAR_F4_POST_PENTECOST_2 = 'var_f4_post_pentecost_2:2'
+VAR_F5_POST_PENTECOST_2 = 'var_f5_post_pentecost_2:2'
+VAR_SANCTISSIMI_CORDIS_JESU_CHRISTI = 'var_sanctissimi_cordis_jesu_christi:2'
+VAR_SAB_POST_PENTECOST_2 = 'var_sab_post_pentecost_2:2'
+VAR_DOM_POST_PENTECOST_3 = 'var_dom_post_pentecost_3:1'
+VAR_F2_POST_PENTECOST_3 = 'var_f2_post_pentecost_3:2'
+VAR_F3_POST_PENTECOST_3 = 'var_f3_post_pentecost_3:2'
+VAR_F4_POST_PENTECOST_3 = 'var_f4_post_pentecost_3:2'
+VAR_F5_POST_PENTECOST_3 = 'var_f5_post_pentecost_3:2'
+VAR_F6_POST_PENTECOST_3 = 'var_f6_post_pentecost_3:2'
+VAR_SAB_POST_PENTECOST_3 = 'var_sab_post_pentecost_3:2'
+VAR_DOM_POST_PENTECOST_4 = 'var_dom_post_pentecost_4:1'
+VAR_F2_POST_PENTECOST_4 = 'var_f2_post_pentecost_4:2'
+VAR_F3_POST_PENTECOST_4 = 'var_f3_post_pentecost_4:2'
+VAR_F4_POST_PENTECOST_4 = 'var_f4_post_pentecost_4:2'
+VAR_F5_POST_PENTECOST_4 = 'var_f5_post_pentecost_4:2'
+VAR_F6_POST_PENTECOST_4 = 'var_f6_post_pentecost_4:2'
+VAR_SAB_POST_PENTECOST_4 = 'var_sab_post_pentecost_4:2'
+VAR_DOM_POST_PENTECOST_5 = 'var_dom_post_pentecost_5:1'
+VAR_F2_POST_PENTECOST_5 = 'var_f2_post_pentecost_5:2'
+VAR_F3_POST_PENTECOST_5 = 'var_f3_post_pentecost_5:2'
+VAR_F4_POST_PENTECOST_5 = 'var_f4_post_pentecost_5:2'
+VAR_F5_POST_PENTECOST_5 = 'var_f5_post_pentecost_5:2'
+VAR_F6_POST_PENTECOST_5 = 'var_f6_post_pentecost_5:2'
+VAR_SAB_POST_PENTECOST_5 = 'var_sab_post_pentecost_5:2'
+VAR_DOM_POST_PENTECOST_6 = 'var_dom_post_pentecost_6:1'
+VAR_F2_POST_PENTECOST_6 = 'var_f2_post_pentecost_6:2'
+VAR_F3_POST_PENTECOST_6 = 'var_f3_post_pentecost_6:2'
+VAR_F4_POST_PENTECOST_6 = 'var_f4_post_pentecost_6:2'
+VAR_F5_POST_PENTECOST_6 = 'var_f5_post_pentecost_6:2'
+VAR_F6_POST_PENTECOST_6 = 'var_f6_post_pentecost_6:2'
+VAR_SAB_POST_PENTECOST_6 = 'var_sab_post_pentecost_6:2'
+VAR_DOM_POST_PENTECOST_7 = 'var_dom_post_pentecost_7:1'
+VAR_F2_POST_PENTECOST_7 = 'var_f2_post_pentecost_7:2'
+VAR_F3_POST_PENTECOST_7 = 'var_f3_post_pentecost_7:2'
+VAR_F4_POST_PENTECOST_7 = 'var_f4_post_pentecost_7:2'
+VAR_F5_POST_PENTECOST_7 = 'var_f5_post_pentecost_7:2'
+VAR_F6_POST_PENTECOST_7 = 'var_f6_post_pentecost_7:2'
+VAR_SAB_POST_PENTECOST_7 = 'var_sab_post_pentecost_7:2'
+VAR_DOM_POST_PENTECOST_8 = 'var_dom_post_pentecost_8:1'
+VAR_F2_POST_PENTECOST_8 = 'var_f2_post_pentecost_8:2'
+VAR_F3_POST_PENTECOST_8 = 'var_f3_post_pentecost_8:2'
+VAR_F4_POST_PENTECOST_8 = 'var_f4_post_pentecost_8:2'
+VAR_F5_POST_PENTECOST_8 = 'var_f5_post_pentecost_8:2'
+VAR_F6_POST_PENTECOST_8 = 'var_f6_post_pentecost_8:2'
+VAR_SAB_POST_PENTECOST_8 = 'var_sab_post_pentecost_8:2'
+VAR_DOM_POST_PENTECOST_9 = 'var_dom_post_pentecost_9:1'
+VAR_F2_POST_PENTECOST_9 = 'var_f2_post_pentecost_9:2'
+VAR_F3_POST_PENTECOST_9 = 'var_f3_post_pentecost_9:2'
+VAR_F4_POST_PENTECOST_9 = 'var_f4_post_pentecost_9:2'
+VAR_F5_POST_PENTECOST_9 = 'var_f5_post_pentecost_9:2'
+VAR_F6_POST_PENTECOST_9 = 'var_f6_post_pentecost_9:2'
+VAR_SAB_POST_PENTECOST_9 = 'var_sab_post_pentecost_9:2'
+VAR_DOM_POST_PENTECOST_10 = 'var_dom_post_pentecost_10:1'
+VAR_F2_POST_PENTECOST_10 = 'var_f2_post_pentecost_10:2'
+VAR_F3_POST_PENTECOST_10 = 'var_f3_post_pentecost_10:2'
+VAR_F4_POST_PENTECOST_10 = 'var_f4_post_pentecost_10:2'
+VAR_F5_POST_PENTECOST_10 = 'var_f5_post_pentecost_10:2'
+VAR_F6_POST_PENTECOST_10 = 'var_f6_post_pentecost_10:2'
+VAR_SAB_POST_PENTECOST_10 = 'var_sab_post_pentecost_10:2'
+VAR_DOM_POST_PENTECOST_11 = 'var_dom_post_pentecost_11:1'
+VAR_F2_POST_PENTECOST_11 = 'var_f2_post_pentecost_11:2'
+VAR_F3_POST_PENTECOST_11 = 'var_f3_post_pentecost_11:2'
+VAR_F4_POST_PENTECOST_11 = 'var_f4_post_pentecost_11:2'
+VAR_F5_POST_PENTECOST_11 = 'var_f5_post_pentecost_11:2'
+VAR_F6_POST_PENTECOST_11 = 'var_f6_post_pentecost_11:2'
+VAR_SAB_POST_PENTECOST_11 = 'var_sab_post_pentecost_11:2'
+VAR_DOM_POST_PENTECOST_12 = 'var_dom_post_pentecost_12:1'
+VAR_F2_POST_PENTECOST_12 = 'var_f2_post_pentecost_12:2'
+VAR_F3_POST_PENTECOST_12 = 'var_f3_post_pentecost_12:2'
+VAR_F4_POST_PENTECOST_12 = 'var_f4_post_pentecost_12:2'
+VAR_F5_POST_PENTECOST_12 = 'var_f5_post_pentecost_12:2'
+VAR_F6_POST_PENTECOST_12 = 'var_f6_post_pentecost_12:2'
+VAR_SAB_POST_PENTECOST_12 = 'var_sab_post_pentecost_12:2'
+VAR_DOM_POST_PENTECOST_13 = 'var_dom_post_pentecost_13:1'
+VAR_F2_POST_PENTECOST_13 = 'var_f2_post_pentecost_13:2'
+VAR_F3_POST_PENTECOST_13 = 'var_f3_post_pentecost_13:2'
+VAR_F4_POST_PENTECOST_13 = 'var_f4_post_pentecost_13:2'
+VAR_F5_POST_PENTECOST_13 = 'var_f5_post_pentecost_13:2'
+VAR_F6_POST_PENTECOST_13 = 'var_f6_post_pentecost_13:2'
+VAR_SAB_POST_PENTECOST_13 = 'var_sab_post_pentecost_13:2'
+VAR_DOM_POST_PENTECOST_14 = 'var_dom_post_pentecost_14:1'
+VAR_F2_POST_PENTECOST_14 = 'var_f2_post_pentecost_14:2'
+VAR_F3_POST_PENTECOST_14 = 'var_f3_post_pentecost_14:2'
+VAR_F4_POST_PENTECOST_14 = 'var_f4_post_pentecost_14:2'
+VAR_F5_POST_PENTECOST_14 = 'var_f5_post_pentecost_14:2'
+VAR_F6_POST_PENTECOST_14 = 'var_f6_post_pentecost_14:2'
+VAR_SAB_POST_PENTECOST_14 = 'var_sab_post_pentecost_14:2'
+VAR_DOM_POST_PENTECOST_15 = 'var_dom_post_pentecost_15:1'
+VAR_F2_POST_PENTECOST_15 = 'var_f2_post_pentecost_15:2'
+VAR_F3_POST_PENTECOST_15 = 'var_f3_post_pentecost_15:2'
+VAR_F4_POST_PENTECOST_15 = 'var_f4_post_pentecost_15:2'
+VAR_F5_POST_PENTECOST_15 = 'var_f5_post_pentecost_15:2'
+VAR_F6_POST_PENTECOST_15 = 'var_f6_post_pentecost_15:2'
+VAR_SAB_POST_PENTECOST_15 = 'var_sab_post_pentecost_15:2'
+VAR_DOM_POST_PENTECOST_16 = 'var_dom_post_pentecost_16:1'
+VAR_F2_POST_PENTECOST_16 = 'var_f2_post_pentecost_16:2'
+VAR_F3_POST_PENTECOST_16 = 'var_f3_post_pentecost_16:2'
+VAR_F4_POST_PENTECOST_16 = 'var_f4_post_pentecost_16:2'
+VAR_F5_POST_PENTECOST_16 = 'var_f5_post_pentecost_16:2'
+VAR_F6_POST_PENTECOST_16 = 'var_f6_post_pentecost_16:2'
+VAR_SAB_POST_PENTECOST_16 = 'var_sab_post_pentecost_16:2'
+VAR_DOM_POST_PENTECOST_17 = 'var_dom_post_pentecost_17:1'
+VAR_F2_POST_PENTECOST_17 = 'var_f2_post_pentecost_17:2'
+VAR_F3_POST_PENTECOST_17 = 'var_f3_post_pentecost_17:2'
+VAR_F4_POST_PENTECOST_17 = 'var_f4_post_pentecost_17:2'
+VAR_F5_POST_PENTECOST_17 = 'var_f5_post_pentecost_17:2'
+VAR_F6_POST_PENTECOST_17 = 'var_f6_post_pentecost_17:2'
+VAR_SAB_POST_PENTECOST_17 = 'var_sab_post_pentecost_17:2'
+VAR_DOM_POST_PENTECOST_18 = 'var_dom_post_pentecost_18:1'
+VAR_F2_POST_PENTECOST_18 = 'var_f2_post_pentecost_18:2'
+VAR_F3_POST_PENTECOST_18 = 'var_f3_post_pentecost_18:2'
+VAR_F4_POST_PENTECOST_18 = 'var_f4_post_pentecost_18:2'
+VAR_F5_POST_PENTECOST_18 = 'var_f5_post_pentecost_18:2'
+VAR_F6_POST_PENTECOST_18 = 'var_f6_post_pentecost_18:2'
+VAR_SAB_POST_PENTECOST_18 = 'var_sab_post_pentecost_18:2'
+VAR_DOM_POST_PENTECOST_19 = 'var_dom_post_pentecost_19:1'
+VAR_F2_POST_PENTECOST_19 = 'var_f2_post_pentecost_19:2'
+VAR_F3_POST_PENTECOST_19 = 'var_f3_post_pentecost_19:2'
+VAR_F4_POST_PENTECOST_19 = 'var_f4_post_pentecost_19:2'
+VAR_F5_POST_PENTECOST_19 = 'var_f5_post_pentecost_19:2'
+VAR_F6_POST_PENTECOST_19 = 'var_f6_post_pentecost_19:2'
+VAR_SAB_POST_PENTECOST_19 = 'var_sab_post_pentecost_19:2'
+VAR_DOM_POST_PENTECOST_20 = 'var_dom_post_pentecost_20:1'
+VAR_F2_POST_PENTECOST_20 = 'var_f2_post_pentecost_20:2'
+VAR_F3_POST_PENTECOST_20 = 'var_f3_post_pentecost_20:2'
+VAR_F4_POST_PENTECOST_20 = 'var_f4_post_pentecost_20:2'
+VAR_F5_POST_PENTECOST_20 = 'var_f5_post_pentecost_20:2'
+VAR_F6_POST_PENTECOST_20 = 'var_f6_post_pentecost_20:2'
+VAR_SAB_POST_PENTECOST_20 = 'var_sab_post_pentecost_20:2'
+VAR_DOM_POST_PENTECOST_21 = 'var_dom_post_pentecost_21:1'
+VAR_F2_POST_PENTECOST_21 = 'var_f2_post_pentecost_21:2'
+VAR_F3_POST_PENTECOST_21 = 'var_f3_post_pentecost_21:2'
+VAR_F4_POST_PENTECOST_21 = 'var_f4_post_pentecost_21:2'
+VAR_F5_POST_PENTECOST_21 = 'var_f5_post_pentecost_21:2'
+VAR_F6_POST_PENTECOST_21 = 'var_f6_post_pentecost_21:2'
+VAR_SAB_POST_PENTECOST_21 = 'var_sab_post_pentecost_21:2'
+VAR_DOM_POST_PENTECOST_22 = 'var_dom_post_pentecost_22:1'
+VAR_F2_POST_PENTECOST_22 = 'var_f2_post_pentecost_22:2'
+VAR_F3_POST_PENTECOST_22 = 'var_f3_post_pentecost_22:2'
+VAR_F4_POST_PENTECOST_22 = 'var_f4_post_pentecost_22:2'
+VAR_F5_POST_PENTECOST_22 = 'var_f5_post_pentecost_22:2'
+VAR_F6_POST_PENTECOST_22 = 'var_f6_post_pentecost_22:2'
+VAR_SAB_POST_PENTECOST_22 = 'var_sab_post_pentecost_22:2'
+VAR_DOM_POST_PENTECOST_23 = 'var_dom_post_pentecost_23:1'
+VAR_F2_POST_PENTECOST_23 = 'var_f2_post_pentecost_23:2'
+VAR_F3_POST_PENTECOST_23 = 'var_f3_post_pentecost_23:2'
+VAR_F4_POST_PENTECOST_23 = 'var_f4_post_pentecost_23:2'
+VAR_F5_POST_PENTECOST_23 = 'var_f5_post_pentecost_23:2'
+VAR_F6_POST_PENTECOST_23 = 'var_f6_post_pentecost_23:2'
+VAR_SAB_POST_PENTECOST_23 = 'var_sab_post_pentecost_23:2'
 
-vardays__hebd_post_pentecost_24 = [
-    'dom_post_pentecost_24:2',
-    'f2_post_pentecost_24:2',
-    'f3_post_pentecost_24:2',
-    'f4_post_pentecost_24:2',
-    'f5_post_pentecost_24:2',
-    'f6_post_pentecost_24:2',
-    'sab_post_pentecost_24:2',
-]
+VAR_F4_QUATTUOR_SEPTEMBRIS = 'var_f4_quattuor_septembris:2'
+VAR_F6_QUATTUOR_SEPTEMBRIS = 'var_f6_quattuor_septembris:2'
+VAR_SAB_QUATTUOR_SEPTEMBRIS = 'var_sab_quattuor_septembris:2'
+VAR_DOM_POST_PENTECOST_24 = 'var_dom_post_pentecost_24:2'
+VAR_F2_POST_PENTECOST_24 = 'var_f2_post_pentecost_24:2'
+VAR_F3_POST_PENTECOST_24 = 'var_f3_post_pentecost_24:2'
+VAR_F4_POST_PENTECOST_24 = 'var_f4_post_pentecost_24:2'
+VAR_F5_POST_PENTECOST_24 = 'var_f5_post_pentecost_24:2'
+VAR_F6_POST_PENTECOST_24 = 'var_f6_post_pentecost_24:2'
+VAR_SAB_POST_PENTECOST_24 = 'var_sab_post_pentecost_24:2'
+VAR_DOM_ADVENTUS_1 = 'var_dom_adventus_1:2'
+VAR_F2_ADVENTUS_1 = 'var_f2_adventus_1:2'
+VAR_F3_ADVENTUS_1 = 'var_f3_adventus_1:2'
+VAR_F4_ADVENTUS_1 = 'var_f4_adventus_1:2'
+VAR_F5_ADVENTUS_1 = 'var_f5_adventus_1:2'
+VAR_F6_ADVENTUS_1 = 'var_f6_adventus_1:2'
+VAR_SAB_ADVENTUS_1 = 'var_sab_adventus_1:2'
+VAR_DOM_ADVENTUS_2 = 'var_dom_adventus_2:2'
+VAR_F2_ADVENTUS_2 = 'var_f2_adventus_2:2'
+VAR_F3_ADVENTUS_2 = 'var_f3_adventus_2:2'
+VAR_F4_ADVENTUS_2 = 'var_f4_adventus_2:2'
+VAR_F5_ADVENTUS_2 = 'var_f5_adventus_2:2'
+VAR_F6_ADVENTUS_2 = 'var_f6_adventus_2:2'
+VAR_SAB_ADVENTUS_2 = 'var_sab_adventus_2:2'
+VAR_DOM_ADVENTUS_3 = 'var_dom_adventus_3:2'
+VAR_F2_ADVENTUS_3 = 'var_f2_adventus_3:2'
+VAR_F3_ADVENTUS_3 = 'var_f3_adventus_3:2'
+VAR_F4_QUATTUOR_ADVENTUS = 'var_f4_quattuor_adventus:2'
+VAR_F5_ADVENTUS_3 = 'var_f5_adventus_3:2'
+VAR_F6_QUATTUOR_ADVENTUS = 'var_f6_quattuor_adventus:2'
+VAR_SAB_QUATTUOR_ADVENTUS = 'var_sab_quattuor_adventus:2'
+VAR_DOM_ADVENTUS_4 = 'var_dom_adventus_4:2'
+VAR_F2_ADVENTUS_4 = 'var_f2_adventus_4:2'
+VAR_F3_ADVENTUS_4 = 'var_f3_adventus_4:2'
+VAR_F4_ADVENTUS_4 = 'var_f4_adventus_4:2'
+VAR_F5_ADVENTUS_4 = 'var_f5_adventus_4:2'
+VAR_F6_ADVENTUS_4 = 'var_f6_adventus_4:2'
+VAR_SAB_ADVENTUS_4 = 'var_sab_adventus_4:2'
+VAR_SANCTISSIMI_NOMINIS_JESU = 'var_sanctissimi_nominis_jesu:1'
+VAR_JESU_CHRISTI_REGIS = 'var_jesu_christi_regis:1'
+VAR_DOM_OCTAVAM_NATIVITATIS = 'var_dom_octavam_nativitatis:1'
 
-vardays__advent = [
-    'dom_adventus_1:2',
-    'f2_adventus_1:2',
-    'f3_adventus_1:2',
-    'f4_adventus_1:2',
-    'f5_adventus_1:2',
-    'f6_adventus_1:2',
-    'sab_adventus_1:2',
-    'dom_adventus_2:2',
-    'f2_adventus_2:2',
-    'f3_adventus_2:2',
-    'f4_adventus_2:2',
-    'f5_adventus_2:2',
-    'f6_adventus_2:2',
-    'sab_adventus_2:2',
-    'dom_adventus_3:2',
-    'f2_adventus_3:2',
-    'f3_adventus_3:2',
-    'f4_quattuor_adventus:2',
-    'f5_adventus_3:2',
-    'f6_quattuor_adventus:2',
-    'sab_quattuor_adventus:2',
-    'dom_adventus_4:2',
-    'f2_adventus_4:2',
-    'f3_adventus_4:2',
-    'f4_adventus_4:2',
-    'f5_adventus_4:2',
-    'f6_adventus_4:2',
-    'sab_adventus_4:2',
-]
+FIX_01_01_OCTAVAE_NATIVITATIS = 'fix_01_01_octavae_nativitatis:2'
+FIX_01_05_1 = 'fix_01_05_1:3'
+FIX_01_06_EPIPHANIA = 'fix_01_06_epiphania:1'
+FIX_01_11_1 = 'fix_01_11_1:3'
+FIX_01_13_BAPTISMATIS_DOMINI = 'fix_01_13_baptismatis_domini:2'
+FIX_01_14_1 = 'fix_01_14_1:3'
+FIX_01_14_2 = 'fix_01_14_2:4'
+FIX_01_15_1 = 'fix_01_15_1:3'
+FIX_01_15_2 = 'fix_01_15_2:4'
+FIX_01_16_1 = 'fix_01_16_1:3'
+FIX_01_17_1 = 'fix_01_17_1:3'
+FIX_01_18_1 = 'fix_01_18_1:3'
+FIX_01_19_1 = 'fix_01_19_1:3'
+FIX_01_19_2 = 'fix_01_19_2:4'
+FIX_01_20_1 = 'fix_01_20_1:3'
+FIX_01_21_1 = 'fix_01_21_1:3'
+FIX_01_22_1 = 'fix_01_22_1:3'
+FIX_01_23_1 = 'fix_01_23_1:3'
+FIX_01_23_2 = 'fix_01_23_2:4'
+FIX_01_24_1 = 'fix_01_24_1:3'
+FIX_01_25_1 = 'fix_01_25_1:3'
+FIX_01_26_1 = 'fix_01_26_1:3'
+FIX_01_27_1 = 'fix_01_27_1:3'
+FIX_01_28_1 = 'fix_01_28_1:3'
+FIX_01_28_2 = 'fix_01_28_2:4'
+FIX_01_29_1 = 'fix_01_29_1:3'
+FIX_01_30_1 = 'fix_01_30_1:3'
+FIX_01_31_1 = 'fix_01_31_1:3'
+FIX_02_01_1 = 'fix_02_01_1:3'
+FIX_02_02_PURIFICATIONE_MARIAE = 'fix_02_02_purificatione_mariae:1'
+FIX_02_03_1 = 'fix_02_03_1:3'
+FIX_02_04_1 = 'fix_02_04_1:3'
+FIX_02_05_1 = 'fix_02_05_1:3'
+FIX_02_06_1 = 'fix_02_06_1:3'
+FIX_02_06_2 = 'fix_02_06_2:4'
+FIX_02_07_1 = 'fix_02_07_1:3'
+FIX_02_08_1 = 'fix_02_08_1:3'
+FIX_02_09_1 = 'fix_02_09_1:3'
+FIX_02_09_2 = 'fix_02_09_2:4'
+FIX_02_10_1 = 'fix_02_10_1:3'
+FIX_02_11_1 = 'fix_02_11_1:3'
+FIX_02_12_1 = 'fix_02_12_1:3'
+FIX_02_14_1 = 'fix_02_14_1:3'
+FIX_02_15_1 = 'fix_02_15_1:3'
+FIX_02_18_1 = 'fix_02_18_1:3'
+FIX_02_22_CATHEDRA_PETRI = 'fix_02_22_cathedra_petri:2'
+FIX_02_23_1 = 'fix_02_23_1:3'
+FIX_02_24_MATTHIAE_APOSTOLI = 'fix_02_24_matthiae_apostoli:2'
+FIX_02_27_1 = 'fix_02_27_1:3'
+FIX_03_04_1 = 'fix_03_04_1:3'
+FIX_03_04_2 = 'fix_03_04_2:4'
+FIX_03_06_1 = 'fix_03_06_1:3'
+FIX_03_07_1 = 'fix_03_07_1:3'
+FIX_03_08_1 = 'fix_03_08_1:3'
+FIX_03_08_2 = 'fix_03_08_2:4'
+FIX_03_09_1 = 'fix_03_09_1:3'
+FIX_03_10_1 = 'fix_03_10_1:3'
+FIX_03_12_1 = 'fix_03_12_1:3'
+FIX_03_15_1 = 'fix_03_15_1:3'
+FIX_03_17_1 = 'fix_03_17_1:3'
+FIX_03_18_1 = 'fix_03_18_1:3'
+FIX_03_19_JOSEPH_SPONSI = 'fix_03_19_joseph_sponsi:2'
+FIX_03_21_1 = 'fix_03_21_1:3'
+FIX_03_24_1 = 'fix_03_24_1:3'
+FIX_03_25_ANNUNTIATIONE_MARIAE = 'fix_03_25_annuntiatione_mariae:2'
+FIX_03_27_1 = 'fix_03_27_1:3'
+FIX_03_28_1 = 'fix_03_28_1:3'
+FIX_04_11_1 = 'fix_04_11_1:3'
+FIX_04_13_1 = 'fix_04_13_1:3'
+FIX_04_14_1 = 'fix_04_14_1:3'
+FIX_04_14_2 = 'fix_04_14_2:4'
+FIX_04_17_1 = 'fix_04_17_1:3'
+FIX_04_21_1 = 'fix_04_21_1:3'
+FIX_04_22_1 = 'fix_04_22_1:3'
+FIX_04_23_ADALBERTI = 'fix_04_23_adalberti:2'
+FIX_04_23_2 = 'fix_04_23_2:4'
+FIX_04_24_1 = 'fix_04_24_1:3'
+FIX_04_25_MARCI = 'fix_04_25_marci:2'
+FIX_04_25_2 = 'fix_04_25_2:4'
+FIX_04_26_1 = 'fix_04_26_1:3'
+FIX_04_27_1 = 'fix_04_27_1:3'
+FIX_04_28_1 = 'fix_04_28_1:3'
+FIX_04_29_1 = 'fix_04_29_1:3'
+FIX_04_30_1 = 'fix_04_30_1:3'
+FIX_05_01_JOSEPH_OPIFICIS = 'fix_05_01_joseph_opificis:1'
+FIX_05_02_1 = 'fix_05_02_1:3'
+FIX_05_03_MARIAE_REGINAE_POLONIAE = 'fix_05_03_mariae_reginae_poloniae:1'
+FIX_05_04_1 = 'fix_05_04_1:3'
+FIX_05_05_1 = 'fix_05_05_1:3'
+FIX_05_07_1 = 'fix_05_07_1:3'
+FIX_05_07_2 = 'fix_05_07_2:4'
+FIX_05_08_STANISLAUS = 'fix_05_08_stanislaus:2'
+FIX_05_09_1 = 'fix_05_09_1:3'
+FIX_05_10_1 = 'fix_05_10_1:3'
+FIX_05_10_2 = 'fix_05_10_2:4'
+FIX_05_11_PHILIPPI_ET_JACOBI = 'fix_05_11_philippi_et_jacobi:2'
+FIX_05_12_1 = 'fix_05_12_1:3'
+FIX_05_13_1 = 'fix_05_13_1:3'
+FIX_05_14_1 = 'fix_05_14_1:3'
+FIX_05_15_1 = 'fix_05_15_1:3'
+FIX_05_16_1 = 'fix_05_16_1:3'
+FIX_05_16_2 = 'fix_05_16_2:4'
+FIX_05_17_1 = 'fix_05_17_1:3'
+FIX_05_18_1 = 'fix_05_18_1:3'
+FIX_05_19_1 = 'fix_05_19_1:3'
+FIX_05_19_2 = 'fix_05_19_2:4'
+FIX_05_20_1 = 'fix_05_20_1:3'
+FIX_05_21_1 = 'fix_05_21_1:3'
+FIX_05_24_MARIAE_AUXILIAE = 'fix_05_24_mariae_auxiliae:2'
+FIX_05_25_1 = 'fix_05_25_1:3'
+FIX_05_25_2 = 'fix_05_25_2:4'
+FIX_05_26_1 = 'fix_05_26_1:3'
+FIX_05_26_2 = 'fix_05_26_2:4'
+FIX_05_27_1 = 'fix_05_27_1:3'
+FIX_05_27_2 = 'fix_05_27_2:4'
+FIX_05_28_1 = 'fix_05_28_1:3'
+FIX_05_29_1 = 'fix_05_29_1:3'
+FIX_05_30_1 = 'fix_05_30_1:3'
+FIX_05_31_MARIAE_REGINAE = 'fix_05_31_mariae_reginae:2'
+FIX_05_31_2 = 'fix_05_31_2:4'
+FIX_06_01_1 = 'fix_06_01_1:3'
+FIX_06_01_2 = 'fix_06_01_2:4'
+FIX_06_02_1 = 'fix_06_02_1:3'
+FIX_06_02_2 = 'fix_06_02_2:4'
+FIX_06_04_1 = 'fix_06_04_1:3'
+FIX_06_05_1 = 'fix_06_05_1:3'
+FIX_06_06_1 = 'fix_06_06_1:3'
+FIX_06_09_1 = 'fix_06_09_1:3'
+FIX_06_10_1 = 'fix_06_10_1:3'
+FIX_06_10_2 = 'fix_06_10_2:4'
+FIX_06_11_1 = 'fix_06_11_1:3'
+FIX_06_12_1 = 'fix_06_12_1:3'
+FIX_06_12_2 = 'fix_06_12_2:4'
+FIX_06_13_1 = 'fix_06_13_1:3'
+FIX_06_14_1 = 'fix_06_14_1:3'
+FIX_06_15_1 = 'fix_06_15_1:3'
+FIX_06_15_2 = 'fix_06_15_2:4'
+FIX_06_17_1 = 'fix_06_17_1:3'
+FIX_06_18_1 = 'fix_06_18_1:3'
+FIX_06_18_2 = 'fix_06_18_2:4'
+FIX_06_19_1 = 'fix_06_19_1:3'
+FIX_06_19_2 = 'fix_06_19_2:4'
+FIX_06_20_1 = 'fix_06_20_1:3'
+FIX_06_21_1 = 'fix_06_21_1:3'
+FIX_06_22_1 = 'fix_06_22_1:3'
+FIX_06_23_VIGILIA_JOHANNIS_BAPTISTAE = 'fix_06_23_vigilia_johannis_baptistae:2'
+FIX_06_24_NATIVITATE_JOHANNIS_BAPTISTAE = 'fix_06_24_nativitate_johannis_baptistae:2'
+FIX_06_25_1 = 'fix_06_25_1:3'
+FIX_06_26_1 = 'fix_06_26_1:3'
+FIX_06_28_VIGILIA_PETRI_ET_PAULI = 'fix_06_28_vigilia_petri_et_pauli:2'
+FIX_06_29_PETRI_ET_PAULI = 'fix_06_29_petri_et_pauli:2'
+FIX_06_30_1 = 'fix_06_30_1:3'
+FIX_07_01_PRETIOSISSIMI_SANGUINIS_JESU = 'fix_07_01_pretiosissimi_sanguinis_jesu:2'
+FIX_07_02_VISITATIONE_BMV = 'fix_07_02_visitatione_bmv:2'
+FIX_07_02_2 = 'fix_07_02_2:4'
+FIX_07_03_1 = 'fix_07_03_1:3'
+FIX_07_05_1 = 'fix_07_05_1:3'
+FIX_07_07_1 = 'fix_07_07_1:3'
+FIX_07_08_1 = 'fix_07_08_1:3'
+FIX_07_10_1 = 'fix_07_10_1:3'
+FIX_07_11_1 = 'fix_07_11_1:3'
+FIX_07_12_1 = 'fix_07_12_1:3'
+FIX_07_12_2 = 'fix_07_12_2:4'
+FIX_07_14_1 = 'fix_07_14_1:3'
+FIX_07_15_1 = 'fix_07_15_1:3'
+FIX_07_16_1 = 'fix_07_16_1:3'
+FIX_07_17_1 = 'fix_07_17_1:3'
+FIX_07_18_1 = 'fix_07_18_1:3'
+FIX_07_18_2 = 'fix_07_18_2:4'
+FIX_07_19_1 = 'fix_07_19_1:3'
+FIX_07_20_1 = 'fix_07_20_1:3'
+FIX_07_20_2 = 'fix_07_20_2:4'
+FIX_07_21_1 = 'fix_07_21_1:3'
+FIX_07_21_2 = 'fix_07_21_2:4'
+FIX_07_22_1 = 'fix_07_22_1:3'
+FIX_07_23_1 = 'fix_07_23_1:3'
+FIX_07_23_2 = 'fix_07_23_2:4'
+FIX_07_24_1 = 'fix_07_24_1:3'
+FIX_07_24_2 = 'fix_07_24_2:4'
+FIX_07_25_JACOBI = 'fix_07_25_jacobi:2'
+FIX_07_25_2 = 'fix_07_25_2:4'
+FIX_07_26_ANNAE_MATRIS_BMV = 'fix_07_26_annae_matris_bmv:2'
+FIX_07_27_1 = 'fix_07_27_1:3'
+FIX_07_28_1 = 'fix_07_28_1:3'
+FIX_07_29_1 = 'fix_07_29_1:3'
+FIX_07_29_2 = 'fix_07_29_2:4'
+FIX_07_30_1 = 'fix_07_30_1:3'
+FIX_07_31_1 = 'fix_07_31_1:3'
+FIX_08_01_1 = 'fix_08_01_1:3'
+FIX_08_02_1 = 'fix_08_02_1:3'
+FIX_08_02_2 = 'fix_08_02_2:4'
+FIX_08_04_1 = 'fix_08_04_1:3'
+FIX_08_05_1 = 'fix_08_05_1:3'
+FIX_08_06_TRANSFIGURATIONE = 'fix_08_06_transfiguratione:1'
+FIX_08_06_2 = 'fix_08_06_2:4'
+FIX_08_07_1 = 'fix_08_07_1:3'
+FIX_08_07_2 = 'fix_08_07_2:4'
+FIX_08_08_1 = 'fix_08_08_1:3'
+FIX_08_08_2 = 'fix_08_08_2:4'
+FIX_08_09_1 = 'fix_08_09_1:3'
+FIX_08_09_2 = 'fix_08_09_2:4'
+FIX_08_10_LAURENTII = 'fix_08_10_laurentii:2'
+FIX_08_11_1 = 'fix_08_11_1:3'
+FIX_08_12_1 = 'fix_08_12_1:3'
+FIX_08_13_1 = 'fix_08_13_1:3'
+FIX_08_14_VIGILIA_ASSUMPTIONIS_BMV = 'fix_08_14_vigilia_assumptionis_bmv:2'
+FIX_08_14_2 = 'fix_08_14_2:4'
+FIX_08_15_ASSUMPTIONE_BMV = 'fix_08_15_assumptione_bmv:2'
+FIX_08_16_JOACHIM = 'fix_08_16_joachim:2'
+FIX_08_17_1 = 'fix_08_17_1:3'
+FIX_08_18_1 = 'fix_08_18_1:3'
+FIX_08_18_2 = 'fix_08_18_2:4'
+FIX_08_19_1 = 'fix_08_19_1:3'
+FIX_08_20_1 = 'fix_08_20_1:3'
+FIX_08_21_1 = 'fix_08_21_1:3'
+FIX_08_22_IMMACULATI_CORDIS_BMV = 'fix_08_22_immaculati_cordis_bmv:2'
+FIX_08_22_2 = 'fix_08_22_2:4'
+FIX_08_23_1 = 'fix_08_23_1:3'
+FIX_08_24_BARTHOLOMAEI = 'fix_08_24_bartholomaei:2'
+FIX_08_25_1 = 'fix_08_25_1:3'
+FIX_08_26_BMV_CLAROMONTANUS = 'fix_08_26_bmv_claromontanus:2'
+FIX_08_27_1 = 'fix_08_27_1:3'
+FIX_08_28_1 = 'fix_08_28_1:3'
+FIX_08_28_2 = 'fix_08_28_2:4'
+FIX_08_29_1 = 'fix_08_29_1:3'
+FIX_08_29_2 = 'fix_08_29_2:4'
+FIX_08_30_1 = 'fix_08_30_1:3'
+FIX_08_30_2 = 'fix_08_30_2:4'
+FIX_08_31_1 = 'fix_08_31_1:3'
+FIX_09_01_1 = 'fix_09_01_1:3'
+FIX_09_01_2 = 'fix_09_01_2:4'
+FIX_09_02_1 = 'fix_09_02_1:3'
+FIX_09_03_1 = 'fix_09_03_1:3'
+FIX_09_05_1 = 'fix_09_05_1:3'
+FIX_09_07_1 = 'fix_09_07_1:3'
+FIX_09_08_NATIVITATE_BMV = 'fix_09_08_nativitate_bmv:2'
+FIX_09_08_2 = 'fix_09_08_2:4'
+FIX_09_09_1 = 'fix_09_09_1:3'
+FIX_09_10_1 = 'fix_09_10_1:3'
+FIX_09_11_1 = 'fix_09_11_1:3'
+FIX_09_12_1 = 'fix_09_12_1:3'
+FIX_09_14_EXALTATIONE_CRUCIS = 'fix_09_14_exaltatione_crucis:2'
+FIX_09_15_SEPTEM_DOLORUM_BMV = 'fix_09_15_septem_dolorum_bmv:2'
+FIX_09_15_2 = 'fix_09_15_2:4'
+FIX_09_16_1 = 'fix_09_16_1:3'
+FIX_09_16_2 = 'fix_09_16_2:4'
+FIX_09_17_1 = 'fix_09_17_1:3'
+FIX_09_18_1 = 'fix_09_18_1:3'
+FIX_09_19_1 = 'fix_09_19_1:3'
+FIX_09_20_1 = 'fix_09_20_1:3'
+FIX_09_21_MATTHEI = 'fix_09_21_matthei:2'
+FIX_09_22_1 = 'fix_09_22_1:3'
+FIX_09_22_2 = 'fix_09_22_2:4'
+FIX_09_23_1 = 'fix_09_23_1:3'
+FIX_09_23_2 = 'fix_09_23_2:4'
+FIX_09_24_1 = 'fix_09_24_1:3'
+FIX_09_25_1 = 'fix_09_25_1:3'
+FIX_09_26_1 = 'fix_09_26_1:3'
+FIX_09_27_1 = 'fix_09_27_1:3'
+FIX_09_28_1 = 'fix_09_28_1:3'
+FIX_09_29_MICHAELIS_ARCHANGELIS = 'fix_09_29_michaelis_archangelis:2'
+FIX_09_30_1 = 'fix_09_30_1:3'
+FIX_10_01_1 = 'fix_10_01_1:3'
+FIX_10_01_2 = 'fix_10_01_2:4'
+FIX_10_02_1 = 'fix_10_02_1:3'
+FIX_10_03_1 = 'fix_10_03_1:3'
+FIX_10_04_1 = 'fix_10_04_1:3'
+FIX_10_05_1 = 'fix_10_05_1:3'
+FIX_10_06_1 = 'fix_10_06_1:3'
+FIX_10_07_BMV_ROSARIO = 'fix_10_07_bmv_rosario:2'
+FIX_10_07_2 = 'fix_10_07_2:4'
+FIX_10_08_1 = 'fix_10_08_1:3'
+FIX_10_08_2 = 'fix_10_08_2:4'
+FIX_10_09_1 = 'fix_10_09_1:3'
+FIX_10_09_2 = 'fix_10_09_2:4'
+FIX_10_10_1 = 'fix_10_10_1:3'
+FIX_10_10_2 = 'fix_10_10_2:4'
+FIX_10_11_MATERNITATIS_BMV = 'fix_10_11_maternitatis_bmv:2'
+FIX_10_13_1 = 'fix_10_13_1:3'
+FIX_10_14_1 = 'fix_10_14_1:3'
+FIX_10_15_1 = 'fix_10_15_1:3'
+FIX_10_16_1 = 'fix_10_16_1:3'
+FIX_10_17_1 = 'fix_10_17_1:3'
+FIX_10_18_LUCAE = 'fix_10_18_lucae:3'
+FIX_10_19_1 = 'fix_10_19_1:3'
+FIX_10_20_1 = 'fix_10_20_1:3'
+FIX_10_21_1 = 'fix_10_21_1:3'
+FIX_10_21_2 = 'fix_10_21_2:4'
+FIX_10_23_1 = 'fix_10_23_1:3'
+FIX_10_24_1 = 'fix_10_24_1:3'
+FIX_10_25_1 = 'fix_10_25_1:3'
+FIX_10_26_1 = 'fix_10_26_1:3'
+FIX_10_28_SIMONIS_ET_JUDAE = 'fix_10_28_simonis_et_judae:2'
+FIX_11_01_OMNIUM_SANCTORUM = 'fix_11_01_omnium_sanctorum:1'
+FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM = 'fix_11_02_omnium_fidelium_defunctorum:2'
+FIX_11_04_1 = 'fix_11_04_1:3'
+FIX_11_04_2 = 'fix_11_04_2:4'
+FIX_11_08_1 = 'fix_11_08_1:3'
+FIX_11_09_BASILICAE_SALVATORIS = 'fix_11_09_basilicae_salvatoris:2'
+FIX_11_09_2 = 'fix_11_09_2:4'
+FIX_11_10_1 = 'fix_11_10_1:3'
+FIX_11_10_2 = 'fix_11_10_2:4'
+FIX_11_11_1 = 'fix_11_11_1:3'
+FIX_11_11_2 = 'fix_11_11_2:4'
+FIX_11_12_1 = 'fix_11_12_1:3'
+FIX_11_12_2 = 'fix_11_12_2:4'
+FIX_11_13_STANISLAUS = 'fix_11_13_stanislaus:2'
+FIX_11_13_2 = 'fix_11_13_2:4'
+FIX_11_14_1 = 'fix_11_14_1:3'
+FIX_11_15_1 = 'fix_11_15_1:3'
+FIX_11_16_1 = 'fix_11_16_1:3'
+FIX_11_17_1 = 'fix_11_17_1:3'
+FIX_11_17_2 = 'fix_11_17_2:4'
+FIX_11_18_1 = 'fix_11_18_1:3'
+FIX_11_19_1 = 'fix_11_19_1:3'
+FIX_11_19_2 = 'fix_11_19_2:4'
+FIX_11_20_1 = 'fix_11_20_1:3'
+FIX_11_21_1 = 'fix_11_21_1:3'
+FIX_11_22_1 = 'fix_11_22_1:3'
+FIX_11_23_1 = 'fix_11_23_1:3'
+FIX_11_23_2 = 'fix_11_23_2:4'
+FIX_11_24_1 = 'fix_11_24_1:3'
+FIX_11_24_2 = 'fix_11_24_2:4'
+FIX_11_25_1 = 'fix_11_25_1:3'
+FIX_11_26_1 = 'fix_11_26_1:3'
+FIX_11_26_2 = 'fix_11_26_2:4'
+FIX_11_29_1 = 'fix_11_29_1:3'
+FIX_11_30_ANDREAE = 'fix_11_30_andreae:2'
+FIX_12_02_1 = 'fix_12_02_1:3'
+FIX_12_03_1 = 'fix_12_03_1:3'
+FIX_12_04_1 = 'fix_12_04_1:3'
+FIX_12_04_2 = 'fix_12_04_2:4'
+FIX_12_05_1 = 'fix_12_05_1:3'
+FIX_12_06_1 = 'fix_12_06_1:3'
+FIX_12_07_1 = 'fix_12_07_1:3'
+FIX_12_08_CONCEPTIONE_IMMACULATA_BMV = 'fix_12_08_conceptione_immaculata_bmv:2'
+FIX_12_10_1 = 'fix_12_10_1:3'
+FIX_12_11_1 = 'fix_12_11_1:3'
+FIX_12_13_1 = 'fix_12_13_1:3'
+FIX_12_16_1 = 'fix_12_16_1:3'
+FIX_12_21_THOMAE = 'fix_12_21_thomae:2'
+FIX_12_24_VIGILIA_NATIVITATIS_DOMINI = 'fix_12_24_vigilia_nativitatis_domini:1'
+FIX_12_25_NATIVITATE_DOMINI = 'fix_12_25_nativitate_domini:1'
+FIX_12_25_2 = 'fix_12_25_2:4'
+FIX_12_26_STEPHANI = 'fix_12_26_stephani:2'
+FIX_12_27_JOANNIS_APOSTOLI = 'fix_12_27_joannis_apostoli:2'
+FIX_12_28_INNOCENTIUM = 'fix_12_28_innocentium:2'
+FIX_12_29_D5_POST_NATIVITATEM = 'fix_12_29_d5_post_nativitatem:2'
+FIX_12_29_2 = 'fix_12_29_2:4'
+FIX_12_30_D6_POST_NATIVITATEM = 'fix_12_30_d6_post_nativitatem:2'
+FIX_12_31_D7_POST_NATIVITATEM = 'fix_12_31_d7_post_nativitatem:2'
+FIX_12_31_2 = 'fix_12_31_2:4'
 
-vardays__sanctissimi_nominis_jesu = [
-    'sanctissimi_nominis_jesu:1'
-]
-
-vardays__jesu_christi_regis = [
-    'jesu_christi_regis:1'
-]
-
-vardays__dom_octavam_nativitatis = [
-    'dom_octavam_nativitatis:1'
-]
-
-fixdays = [
-    '01_01_octavae_nativitatis:2',
-    '01_05_1:3',
-    '01_06_epiphania:1',
-    '01_11_1:3',
-    '01_13_baptismatis_domini:2',
-    '01_14_1:3',
-    '01_14_2:4',
-    '01_15_1:3',
-    '01_15_2:4',
-    '01_16_1:3',
-    '01_17_1:3',
-    '01_18_1:3',
-    '01_19_1:3',
-    '01_19_2:4',
-    '01_20_1:3',
-    '01_21_1:3',
-    '01_22_1:3',
-    '01_23_1:3',
-    '01_23_2:4',
-    '01_24_1:3',
-    '01_25_1:3',
-    '01_26_1:3',
-    '01_27_1:3',
-    '01_28_1:3',
-    '01_28_2:4',
-    '01_29_1:3',
-    '01_30_1:3',
-    '01_31_1:3',
-    '02_01_1:3',
-    '02_02_purificatione_mariae:1',
-    '02_03_1:3',
-    '02_04_1:3',
-    '02_05_1:3',
-    '02_06_1:3',
-    '02_06_2:4',
-    '02_07_1:3',
-    '02_08_1:3',
-    '02_09_1:3',
-    '02_09_2:4',
-    '02_10_1:3',
-    '02_11_1:3',
-    '02_12_1:3',
-    '02_14_1:3',
-    '02_15_1:3',
-    '02_18_1:3',
-    '02_22_cathedra_petri:2',
-    '02_23_1:3',
-    '02_24_matthiae_apostoli:2',
-    '02_27_1:3',
-    '03_04_1:3',
-    '03_04_2:4',
-    '03_06_1:3',
-    '03_07_1:3',
-    '03_08_1:3',
-    '03_08_2:4',
-    '03_09_1:3',
-    '03_10_1:3',
-    '03_12_1:3',
-    '03_15_1:3',
-    '03_17_1:3',
-    '03_18_1:3',
-    '03_19_joseph_sponsi:2',
-    '03_21_1:3',
-    '03_24_1:3',
-    '03_25_annuntiatione_mariae:2',
-    '03_27_1:3',
-    '03_28_1:3',
-    '04_11_1:3',
-    '04_13_1:3',
-    '04_14_1:3',
-    '04_14_2:4',
-    '04_17_1:3',
-    '04_21_1:3',
-    '04_22_1:3',
-    '04_23_adalberti:2',
-    '04_23_2:4',
-    '04_24_1:3',
-    '04_25_marci:2',
-    '04_25_2:4',
-    '04_26_1:3',
-    '04_27_1:3',
-    '04_28_1:3',
-    '04_29_1:3',
-    '04_30_1:3',
-    '05_01_joseph_opificis:1',
-    '05_02_1:3',
-    '05_03_mariae_reginae_poloniae:1',
-    '05_04_1:3',
-    '05_05_1:3',
-    '05_07_1:3',
-    '05_07_2:4',
-    '05_08_stanislaus:2',
-    '05_09_1:3',
-    '05_10_1:3',
-    '05_10_2:4',
-    '05_11_philippi_et_jacobi:2',
-    '05_12_1:3',
-    '05_13_1:3',
-    '05_14_1:3',
-    '05_15_1:3',
-    '05_16_1:3',
-    '05_16_2:4',
-    '05_17_1:3',
-    '05_18_1:3',
-    '05_19_1:3',
-    '05_19_2:4',
-    '05_20_1:3',
-    '05_21_1:3',
-    '05_24_mariae_auxiliae:2',
-    '05_25_1:3',
-    '05_25_2:4',
-    '05_26_1:3',
-    '05_26_2:4',
-    '05_27_1:3',
-    '05_27_2:4',
-    '05_28_1:3',
-    '05_29_1:3',
-    '05_30_1:3',
-    '05_31_mariae_reginae:2',
-    '05_31_2:4',
-    '06_01_1:3',
-    '06_01_2:4',
-    '06_02_1:3',
-    '06_02_2:4',
-    '06_04_1:3',
-    '06_05_1:3',
-    '06_06_1:3',
-    '06_09_1:3',
-    '06_10_1:3',
-    '06_10_2:4',
-    '06_11_1:3',
-    '06_12_1:3',
-    '06_12_2:4',
-    '06_13_1:3',
-    '06_14_1:3',
-    '06_15_1:3',
-    '06_15_2:4',
-    '06_17_1:3',
-    '06_18_1:3',
-    '06_18_2:4',
-    '06_19_1:3',
-    '06_19_2:4',
-    '06_20_1:3',
-    '06_21_1:3',
-    '06_22_1:3',
-    '06_23_vigilia_johannis_baptistae:2',
-    '06_24_nativitate_johannis_baptistae:2',
-    '06_25_1:3',
-    '06_26_1:3',
-    '06_28_vigilia_petri_et_pauli:2',
-    '06_29_petri_et_pauli:2',
-    '06_30_1:3',
-    '07_01_pretiosissimi_sanguinis_jesu:2',
-    '07_02_visitatione_bmv:2',
-    '07_02_2:4',
-    '07_03_1:3',
-    '07_05_1:3',
-    '07_07_1:3',
-    '07_08_1:3',
-    '07_10_1:3',
-    '07_11_1:3',
-    '07_12_1:3',
-    '07_12_2:4',
-    '07_14_1:3',
-    '07_15_1:3',
-    '07_16_1:3',
-    '07_17_1:3',
-    '07_18_1:3',
-    '07_18_2:4',
-    '07_19_1:3',
-    '07_20_1:3',
-    '07_20_2:4',
-    '07_21_1:3',
-    '07_21_2:4',
-    '07_22_1:3',
-    '07_23_1:3',
-    '07_23_2:4',
-    '07_24_1:3',
-    '07_24_2:4',
-    '07_25_jacobi:2',
-    '07_25_2:4',
-    '07_26_annae_matris_bmv:2',
-    '07_27_1:3',
-    '07_28_1:3',
-    '07_29_1:3',
-    '07_29_2:4',
-    '07_30_1:3',
-    '07_31_1:3',
-    '08_01_1:3',
-    '08_02_1:3',
-    '08_02_2:4',
-    '08_04_1:3',
-    '08_05_1:3',
-    '08_06_transfiguratione:1',
-    '08_06_2:4',
-    '08_07_1:3',
-    '08_07_2:4',
-    '08_08_1:3',
-    '08_08_2:4',
-    '08_09_1:3',
-    '08_09_2:4',
-    '08_10_laurentii:2',
-    '08_11_1:3',
-    '08_12_1:3',
-    '08_13_1:3',
-    '08_14_vigilia_assumptionis_bmv:2',
-    '08_14_2:4',
-    '08_15_assumptione_bmv:2',
-    '08_16_joachim:2',
-    '08_17_1:3',
-    '08_18_1:3',
-    '08_18_2:4',
-    '08_19_1:3',
-    '08_20_1:3',
-    '08_21_1:3',
-    '08_22_immaculati_cordis_bmv:2',
-    '08_22_2:4',
-    '08_23_1:3',
-    '08_24_bartholomaei:2',
-    '08_25_1:3',
-    '08_26_bmv_claromontanus:2',
-    '08_27_1:3',
-    '08_28_1:3',
-    '08_28_2:4',
-    '08_29_1:3',
-    '08_29_2:4',
-    '08_30_1:3',
-    '08_30_2:4',
-    '08_31_1:3',
-    '09_01_1:3',
-    '09_01_2:4',
-    '09_02_1:3',
-    '09_03_1:3',
-    '09_05_1:3',
-    '09_07_1:3',
-    '09_08_nativitate_bmv:2',
-    '09_08_2:4',
-    '09_09_1:3',
-    '09_10_1:3',
-    '09_11_1:3',
-    '09_12_1:3',
-    '09_14_exaltatione_crucis:2',
-    '09_15_septem_dolorum_bmv:2',
-    '09_15_2:4',
-    '09_16_1:3',
-    '09_16_2:4',
-    '09_17_1:3',
-    '09_18_1:3',
-    '09_19_1:3',
-    '09_20_1:3',
-    '09_21_matthei:2',
-    '09_22_1:3',
-    '09_22_2:4',
-    '09_23_1:3',
-    '09_23_2:4',
-    '09_24_1:3',
-    '09_25_1:3',
-    '09_26_1:3',
-    '09_27_1:3',
-    '09_28_1:3',
-    '09_29_michaelis_archangelis:2',
-    '09_30_1:3',
-    '10_01_1:3',
-    '10_01_2:4',
-    '10_02_1:3',
-    '10_03_1:3',
-    '10_04_1:3',
-    '10_05_1:3',
-    '10_06_1:3',
-    '10_07_bmv_rosario:2',
-    '10_07_2:4',
-    '10_08_1:3',
-    '10_08_2:4',
-    '10_09_1:3',
-    '10_09_2:4',
-    '10_10_1:3',
-    '10_10_2:4',
-    '10_11_maternitatis_bmv:2',
-    '10_13_1:3',
-    '10_14_1:3',
-    '10_15_1:3',
-    '10_16_1:3',
-    '10_17_1:3',
-    '10_18_lucae:3',
-    '10_19_1:3',
-    '10_20_1:3',
-    '10_21_1:3',
-    '10_21_2:4',
-    '10_23_1:3',
-    '10_24_1:3',
-    '10_25_1:3',
-    '10_26_1:3',
-    '10_28_simonis_et_judae:2',
-    '11_01_omnium_sanctorum:1',
-    '11_02_omnium_fidelium_defunctorum:2',
-    '11_04_1:3',
-    '11_04_2:4',
-    '11_08_1:3',
-    '11_09_basilicae_salvatoris:2',
-    '11_09_2:4',
-    '11_10_1:3',
-    '11_10_2:4',
-    '11_11_1:3',
-    '11_11_2:4',
-    '11_12_1:3',
-    '11_12_2:4',
-    '11_13_stanislaus:2',
-    '11_13_2:4',
-    '11_14_1:3',
-    '11_15_1:3',
-    '11_16_1:3',
-    '11_17_1:3',
-    '11_17_2:4',
-    '11_18_1:3',
-    '11_19_1:3',
-    '11_19_2:4',
-    '11_20_1:3',
-    '11_21_1:3',
-    '11_22_1:3',
-    '11_23_1:3',
-    '11_23_2:4',
-    '11_24_1:3',
-    '11_24_2:4',
-    '11_25_1:3',
-    '11_26_1:3',
-    '11_26_2:4',
-    '11_29_1:3',
-    '11_30_andreae:2',
-    '12_02_1:3',
-    '12_03_1:3',
-    '12_04_1:3',
-    '12_04_2:4',
-    '12_05_1:3',
-    '12_06_1:3',
-    '12_07_1:3',
-    '12_08_conceptione_immaculata_bmv:2',
-    '12_10_1:3',
-    '12_11_1:3',
-    '12_13_1:3',
-    '12_16_1:3',
-    '12_21_thomae:2',
-    '12_24_vigilia_nativitatis_domini:1',
-    '12_25_nativitate_domini:1',
-    '12_25_2:4',
-    '12_26_stephani:2',
-    '12_27_joannis_apostoli:2',
-    '12_28_innocentium:2',
-    '12_29_d5_post_nativitatem:2',
-    '12_29_2:4',
-    '12_30_d6_post_nativitatem:2',
-    '12_31_d7_post_nativitatem:2',
-    '12_31_2:4',
-]
+EMPTY = ''

@@ -4,9 +4,12 @@ Missal 1962
 
 from datetime import date, timedelta
 from dateutil.easter import easter
-from missal1962.rules import ruleset
 import sys
-import constants
+import blocks
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+log = logging.getLogger(__name__)
 
 
 class Missal(list):
@@ -28,68 +31,63 @@ class Missal(list):
         """ Build an empty missal and fill it in with liturgical days'
         identifiers.
         """
-        # build empty missal
+        self._build_empty_missal(year)
+        self._fill_in_variable_days(year)
+        self._fill_in_fixed_days()
+        self._resolve_conflicts()
+
+    def _build_empty_missal(self, year):
         day = date(year, 1, 1)
         while day.year == year:
             self.append([day, []])
             day += timedelta(days=1)
 
-        # fill in variable days
-        # main blocks
+    def _fill_in_variable_days(self, year):
         self._insert_block(
             self._calc_varday__dom_sanctae_familiae(year),
-            constants.vardays__post_epiphania)
+            blocks.vardays__post_epiphania)
         self._insert_block(
             self._calc_varday__dom_septuagesima(year),
-            constants.vardays__ressurectionis)
+            blocks.vardays__ressurectionis)
         self._insert_block(
             self._calc_varday__sab_before_dom_post_pentecost_24(year),
-            constants.vardays__post_epiphania,
+            blocks.vardays__post_epiphania,
             reverse=True,
             overwrite=False)
         self._insert_block(
             self._calc_varday__dom_post_pentecost_24(year),
-            constants.vardays__hebd_post_pentecost_24)
+            blocks.vardays__hebd_post_pentecost_24)
         self._insert_block(
             self._calc_varday__dom_adventus(year),
-            constants.vardays__advent,
+            blocks.vardays__advent,
             stop_date=date(year, 12, 23))
         # additional blocks
         self._insert_block(
             self._calc_varday__sanctissimi_nominis_jesu(year),
-            constants.vardays__sanctissimi_nominis_jesu
+            blocks.vardays__sanctissimi_nominis_jesu
         )
         self._insert_block(
             self._calc_varday__quattour_septembris(year),
-            constants.vardays__quattour_septembris)
+            blocks.vardays__quattour_septembris)
         self._insert_block(
             self._calc_varday__jesu_christi_regis(year),
-            constants.vardays__jesu_christi_regis
+            blocks.vardays__jesu_christi_regis
         )
         if self._calc_varday__dom_octavam_nativitatis(year):
             self._insert_block(
                 self._calc_varday__dom_octavam_nativitatis(year),
-                constants.vardays__dom_octavam_nativitatis
+                blocks.vardays__dom_octavam_nativitatis
             )
 
-        # fill in fixed days
+    def _resolve_conflicts(self):
+        pass
+
+    def _fill_in_fixed_days(self):
         for date_, contents in self:
             date_id = date_.strftime("%m_%d")
-            days = list(set([ii for ii in constants.fixdays
-                             if ii.startswith(date_id)]))
+            days = list(set([ii for ii in blocks.fixdays
+                             if ii.startswith("fix_{}".format(date_id))]))
             contents.extend(days)
-
-        # at this point missal is prepopulated with days' IDs
-        # now apply rules to resolve the conflicts when
-        # more than two days appeared on the same date
-        for date_, contents in self:
-            if len(contents) > 2:
-                # if more than 2 ids, cut the lowest class
-                # ['03_08_1:3', 'sab_quadragesima_4:2', '03_08_2:4']
-                #                 vvvv
-                # ['sab_quadragesima_4:2', '03_08_1:3']
-                contents.remove(
-                    sorted(contents, key=lambda x: x.split(':')[1])[-1])
 
     def get_day_by_id(self, dayid):
         """ Return a list representing single day.
@@ -298,4 +296,4 @@ if __name__ == '__main__':
     missal = Missal(year)
 
     for ii in missal:
-            print ii[0].strftime('%A'), len(ii)
+        log.info("%s %s", ii[0].strftime('%A'), ii)
