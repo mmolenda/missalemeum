@@ -2,7 +2,7 @@ import unittest
 from missal1962.constants import *
 from missal1962.missal import Missal
 from missal1962.models import LiturgicalDay
-from datetime import datetime
+from datetime import datetime, date
 import json
 
 
@@ -36,11 +36,33 @@ class TestMissal(unittest.TestCase):
                 missal.get_day_by_id(VAR_DOM_OCTAVAM_NATIVITATIS) else None
             self.assertEqual(self._to_date_obj(dates[11]), actual)
 
-    def test_liturgical_day_model(self):
-        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA).rank, 1)
-        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA).weekday, 6)
-        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_4).rank, 2)
-        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_4).weekday, 2)
+    def test_liturgical_day_model_simple_case(self):
+        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).weekday, 2)
+        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA, date(2002, 1, 27)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA, date(2002, 1, 27)).weekday, 6)
+        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA, date(2002, 1, 28)).weekday, 6)
+
+    def test_liturgical_day_model_variable_rank_advent(self):
+        # 2002
+        self.assertEqual(LiturgicalDay(VAR_F2_ADVENTUS_3, date(2015, 12, 16)).rank, 3)
+        self.assertEqual(LiturgicalDay(VAR_F3_ADVENTUS_3, date(2015, 12, 17)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F4_QUATTUOR_ADVENTUS, date(2015, 12, 18)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F5_ADVENTUS_3, date(2015, 12, 19)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F6_QUATTUOR_ADVENTUS, date(2015, 12, 20)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_SAB_QUATTUOR_ADVENTUS, date(2015, 12, 21)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_DOM_ADVENTUS_4, date(2015, 12, 22)).rank, 1)
+        self.assertEqual(LiturgicalDay(VAR_F2_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
+        # 2015
+        self.assertEqual(LiturgicalDay(VAR_F3_ADVENTUS_3, date(2015, 12, 15)).rank, 3)
+        self.assertEqual(LiturgicalDay(VAR_F4_QUATTUOR_ADVENTUS, date(2015, 12, 16)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F5_ADVENTUS_3, date(2015, 12, 17)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F6_QUATTUOR_ADVENTUS, date(2015, 12, 18)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_SAB_QUATTUOR_ADVENTUS, date(2015, 12, 19)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_DOM_ADVENTUS_4, date(2015, 12, 20)).rank, 1)
+        self.assertEqual(LiturgicalDay(VAR_F2_ADVENTUS_4, date(2015, 12, 21)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F3_ADVENTUS_4, date(2015, 12, 22)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F4_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
 
 
 if __name__ == '__main__':

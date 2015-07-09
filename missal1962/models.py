@@ -1,6 +1,7 @@
 
 import re
 from missal1962.constants import *
+from missal1962.rules import determine_rank
 
 class LiturgicalDay(object):
     """
@@ -25,18 +26,16 @@ class LiturgicalDay(object):
         'dom': 6
     }
 
-    def __init__(self, day_id, weekday=None):
+    def __init__(self, day_id, day):
         flexibility, name, rank = re.match(
             '([\w]+?)_([\w]+):([\d]+)', day_id).groups()
         self.id = day_id
         self.name = name
-        self.rank = int(rank)
+        self.rank = determine_rank(day_id, day)
         if flexibility == TYPE_VAR:
             self.weekday = self.WEEKDAY_MAPPING[name.split('_')[0]]
         else:
-            self.weekday = None
+            self.weekday = day.weekday()
 
     def __repr__(self):
         return "<{}>".format(self.name) 
-
-

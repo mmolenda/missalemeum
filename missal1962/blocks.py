@@ -1,7 +1,7 @@
 
 from constants import *
 
-vardays__post_epiphania = (
+VARDAYS__POST_EPIPHANIA = (
     VAR_DOM_SANCTAE_FAMILIAE,
     VAR_F2_POST_EPIPHANIA_1,
     VAR_F3_POST_EPIPHANIA_1,
@@ -46,7 +46,7 @@ vardays__post_epiphania = (
     VAR_SAB_POST_EPIPHANIA_6,
 )
 
-vardays__ressurectionis = (
+VARDAYS__RESSURECTIONIS = (
     VAR_DOM_SEPTUAGESIMA,
     VAR_F2_SEPTUAGESIMA,
     VAR_F3_SEPTUAGESIMA,
@@ -329,14 +329,14 @@ vardays__ressurectionis = (
     VAR_SAB_POST_PENTECOST_23,
 )
 
-vardays__quattour_septembris = (
+VARDAYS__QUATTOUR_SEPTEMBRIS = (
     VAR_F4_QUATTUOR_SEPTEMBRIS,
     EMPTY,
     VAR_F6_QUATTUOR_SEPTEMBRIS,
     VAR_SAB_QUATTUOR_SEPTEMBRIS,
 )
 
-vardays__hebd_post_pentecost_24 = (
+VARDAYS__HEBD_POST_PENTECOST_24 = (
     VAR_DOM_POST_PENTECOST_24,
     VAR_F2_POST_PENTECOST_24,
     VAR_F3_POST_PENTECOST_24,
@@ -346,7 +346,7 @@ vardays__hebd_post_pentecost_24 = (
     VAR_SAB_POST_PENTECOST_24,
 )
 
-vardays__advent = (
+VARDAYS__ADVENT = (
     VAR_DOM_ADVENTUS_1,
     VAR_F2_ADVENTUS_1,
     VAR_F3_ADVENTUS_1,
@@ -377,19 +377,19 @@ vardays__advent = (
     VAR_SAB_ADVENTUS_4,
 )
 
-vardays__sanctissimi_nominis_jesu = (
+VARDAYS__SANCTISSIMI_NOMINIS_JESU = (
     VAR_SANCTISSIMI_NOMINIS_JESU,
 )
 
-vardays__jesu_christi_regis = (
+VARDAYS__JESU_CHRISTI_REGIS = (
     VAR_JESU_CHRISTI_REGIS,
 )
 
-vardays__dom_octavam_nativitatis = (
+VARDAYS__DOM_OCTAVAM_NATIVITATIS = (
     VAR_DOM_OCTAVAM_NATIVITATIS,
 )
 
-fixdays = (
+FIXDAYS = (
     FIX_01_01_OCTAVAE_NATIVITATIS,
     FIX_01_05_1,
     FIX_01_06_EPIPHANIA,

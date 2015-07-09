@@ -37,59 +37,6 @@ class Missal(list):
         self._fill_in_fixed_days()
         self._resolve_conflicts()
 
-    def _build_empty_missal(self, year):
-        day = date(year, 1, 1)
-        while day.year == year:
-            self.append([day, []])
-            day += timedelta(days=1)
-
-    def _fill_in_variable_days(self, year):
-        self._insert_block(
-            self._calc_varday__dom_sanctae_familiae(year),
-            blocks.vardays__post_epiphania)
-        self._insert_block(
-            self._calc_varday__dom_septuagesima(year),
-            blocks.vardays__ressurectionis)
-        self._insert_block(
-            self._calc_varday__sab_before_dom_post_pentecost_24(year),
-            blocks.vardays__post_epiphania,
-            reverse=True,
-            overwrite=False)
-        self._insert_block(
-            self._calc_varday__dom_post_pentecost_24(year),
-            blocks.vardays__hebd_post_pentecost_24)
-        self._insert_block(
-            self._calc_varday__dom_adventus(year),
-            blocks.vardays__advent,
-            stop_date=date(year, 12, 23))
-        # additional blocks
-        self._insert_block(
-            self._calc_varday__sanctissimi_nominis_jesu(year),
-            blocks.vardays__sanctissimi_nominis_jesu
-        )
-        self._insert_block(
-            self._calc_varday__quattour_septembris(year),
-            blocks.vardays__quattour_septembris)
-        self._insert_block(
-            self._calc_varday__jesu_christi_regis(year),
-            blocks.vardays__jesu_christi_regis
-        )
-        if self._calc_varday__dom_octavam_nativitatis(year):
-            self._insert_block(
-                self._calc_varday__dom_octavam_nativitatis(year),
-                blocks.vardays__dom_octavam_nativitatis
-            )
-
-    def _resolve_conflicts(self):
-        pass
-
-    def _fill_in_fixed_days(self):
-        for date_, contents in self:
-            date_id = date_.strftime("%m_%d")
-            days = list(set([LiturgicalDay(ii) for ii in blocks.fixdays
-                             if ii.startswith("fix_{}".format(date_id))]))
-            contents.extend(days)
-
     def get_day_by_id(self, day_id):
         """ Return a list representing single day.
 
@@ -102,6 +49,68 @@ class Missal(list):
         for day in self:
             if day_id in [ii.id for ii in day[1]]:
                 return day
+
+    def _get_date_index(self, date_):
+        """ Return list index where `date_` is located.
+
+        :param date_: date to look up
+        :type date_: date object
+        :return: index of the list
+        :rtype: integer
+        """
+        for ii, day in enumerate(self):
+            if day[0] == date_:
+                return ii
+
+    def _build_empty_missal(self, year):
+        day = date(year, 1, 1)
+        while day.year == year:
+            self.append([day, []])
+            day += timedelta(days=1)
+
+    def _fill_in_variable_days(self, year):
+        self._insert_block(
+            self._calc_varday__dom_sanctae_familiae(year),
+            blocks.VARDAYS__POST_EPIPHANIA)
+        self._insert_block(
+            self._calc_varday__dom_septuagesima(year),
+            blocks.VARDAYS__RESSURECTIONIS)
+        self._insert_block(
+            self._calc_varday__sab_before_dom_post_pentecost_24(year),
+            blocks.VARDAYS__POST_EPIPHANIA,
+            reverse=True,
+            overwrite=False)
+        self._insert_block(
+            self._calc_varday__dom_post_pentecost_24(year),
+            blocks.VARDAYS__HEBD_POST_PENTECOST_24)
+        self._insert_block(
+            self._calc_varday__dom_adventus(year),
+            blocks.VARDAYS__ADVENT,
+            stop_date=date(year, 12, 23))
+        # additional blocks
+        self._insert_block(
+            self._calc_varday__sanctissimi_nominis_jesu(year),
+            blocks.VARDAYS__SANCTISSIMI_NOMINIS_JESU
+        )
+        self._insert_block(
+            self._calc_varday__quattour_septembris(year),
+            blocks.VARDAYS__QUATTOUR_SEPTEMBRIS)
+        self._insert_block(
+            self._calc_varday__jesu_christi_regis(year),
+            blocks.VARDAYS__JESU_CHRISTI_REGIS
+        )
+        if self._calc_varday__dom_octavam_nativitatis(year):
+            self._insert_block(
+                self._calc_varday__dom_octavam_nativitatis(year),
+                blocks.VARDAYS__DOM_OCTAVAM_NATIVITATIS
+            )
+
+    def _fill_in_fixed_days(self):
+        for date_, contents in self:
+            date_id = date_.strftime("%m_%d")
+            days = list(set([LiturgicalDay(ii, date_) for ii in blocks.FIXDAYS
+                             if ii.startswith("fix_{}".format(date_id))]))
+            contents.extend(days)
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
                       overwrite=True):
@@ -162,19 +171,10 @@ class Missal(list):
             # break on stop date
             if stop_date == self[index - 1][0]:
                 break
-            self[index][1] = [LiturgicalDay(day_id)]
+            self[index][1] = [LiturgicalDay(day_id, self[index][0])]
 
-    def _get_date_index(self, date_):
-        """ Return list index where `date_` is located.
-
-        :param date_: date to look up
-        :type date_: date object
-        :return: index of the list
-        :rtype: integer
-        """
-        for ii, day in enumerate(self):
-            if day[0] == date_:
-                return ii
+    def _resolve_conflicts(self):
+        pass
 
     def _calc_varday__dom_ressurectionis(self, year):
         """ Dominica Ressurectionis - Easter Sunday """
@@ -293,7 +293,7 @@ class Missal(list):
         return None
 
 if __name__ == '__main__':
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2008
+    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2002
     missal = Missal(year)
 
     for ii in missal:
