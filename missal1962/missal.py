@@ -6,6 +6,7 @@ from datetime import date, timedelta
 from dateutil.easter import easter
 import sys
 import blocks
+from models import LiturgicalDay
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -85,11 +86,11 @@ class Missal(list):
     def _fill_in_fixed_days(self):
         for date_, contents in self:
             date_id = date_.strftime("%m_%d")
-            days = list(set([ii for ii in blocks.fixdays
+            days = list(set([LiturgicalDay(ii) for ii in blocks.fixdays
                              if ii.startswith("fix_{}".format(date_id))]))
             contents.extend(days)
 
-    def get_day_by_id(self, dayid):
+    def get_day_by_id(self, day_id):
         """ Return a list representing single day.
 
         :param dayid: liturgical days'identifier, for example
@@ -99,7 +100,7 @@ class Missal(list):
         :rtype: list(datetime, list)
         """
         for day in self:
-            if dayid in day[1]:
+            if day_id in [ii.id for ii in day[1]]:
                 return day
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
@@ -150,10 +151,10 @@ class Missal(list):
         if reverse:
             block = reversed(block)
         day_index = self._get_date_index(start_date)
-        for ii, day in enumerate(block):
+        for ii, day_id in enumerate(block):
             index = day_index + ii if not reverse else day_index - ii
             # skip on empty day in a block
-            if not day:
+            if not day_id:
                 continue
             # break on first non-empty day
             if self[index][1] and not overwrite:
@@ -161,7 +162,7 @@ class Missal(list):
             # break on stop date
             if stop_date == self[index - 1][0]:
                 break
-            self[index][1] = [day]
+            self[index][1] = [LiturgicalDay(day_id)]
 
     def _get_date_index(self, date_):
         """ Return list index where `date_` is located.

@@ -1,6 +1,7 @@
 import unittest
 from missal1962.constants import *
 from missal1962.missal import Missal
+from missal1962.models import LiturgicalDay
 from datetime import datetime
 import json
 
@@ -34,6 +35,12 @@ class TestMissal(unittest.TestCase):
             actual = missal.get_day_by_id(VAR_DOM_OCTAVAM_NATIVITATIS)[0] if \
                 missal.get_day_by_id(VAR_DOM_OCTAVAM_NATIVITATIS) else None
             self.assertEqual(self._to_date_obj(dates[11]), actual)
+
+    def test_liturgical_day_model(self):
+        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA).rank, 1)
+        self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA).weekday, 6)
+        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_4).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_4).weekday, 2)
 
 
 if __name__ == '__main__':
