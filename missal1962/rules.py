@@ -1,32 +1,30 @@
 # -*- coding: utf-8 -*-
 
 """
-14. Niedzielę obchodzi się w jej własnym dniu, według rubryk. Nie odprawia
-się wcześniej ani później Mszy i Oficjum niedzieli, która napotkała przeszkodę.
+15. Niedziela I klasy w razie spotkania ma pierwszeństwo przed wszystkimi świętami.
+Jednak święto Niepokalanego Poczęcia NMP ma pierwszeństwo przed napotkaną niedzielą Adwentu.
 
-15. Niedziela I klasy w razie spotkania ma pierwszeństwo przed wszystkimi
-świętami. Jednak święto Niepokalanego Poczęcia NMP ma pierwszeństwo przed
-napotkaną niedzielą Adwentu.
-
-16. Niedziela II klasy w razie zbieżności (occurentia) ma pierwszeństwo
-przed świętami 2 klasy.
+16. Niedziela II klasy w razie zbieżności (occurentia) ma pierwszeństwo przed świętami 2 klasy.
 Jednak:
 
-a) święto Pańskie 1 i 2 klasy przypadające w niedzielę 2 klasy zajmuje
-miejsce niedzieli z wszystkimi prawami i przywilejami; dlatego nie wspomina
-się niedzieli;
+a) święto Pańskie 1 i 2 klasy przypadające w niedzielę 2 klasy zajmuje miejsce niedzieli
+z wszystkimi prawami i przywilejami; dlatego nie wspomina się niedzieli;
 b) niedziela 2 klasy ma pierwszeństwo przed Dniem Zadusznym;
 
-17. Zasadniczo na niedzielę nie wolno wyznaczać na stałe świąt.
-Wyjątek stanowią:
+---
+a) dni Adwentu od 17 do 23 grudnia;
+b) Suche Dni Adwentu, Wielkiego Postu i wrześniowe;
 
-a) święto Najświętszego Imienia Jezus, które obchodzi się w niedzielę przypadającą od 2 do 5 stycznia (lub 2 stycznia);
-b) święto Świętej Rodziny Jezusa, Maryi i Józefa, które obchodzi się w pierwszą niedzielę po Objawieniu;
-c) święto Najświętszej Trójcy, które obchodzi się w pierwszą niedzielę po Zesłaniu Ducha Świętego;
-d) święto Chrystusa Króla, które obchodzi się w ostatnią niedzielę miesiąca października;
-e) święta Pańskie 1 klasy, które obecnie wyznaczone są na niedziele 2 klasy w kalendarzach partykularnych;
+Te dni mają pierwszeństwo przed partykularnymi świętami 2 klasy, a jeżeli napotykają przeszkodę, muszą być wspomniane.
 
-Te święta zajmują miejsce przypadające niedzieli z wszystkimi prawami i przywilejami, dlatego nie wspomina się niedzieli.
+---
+25. Dniami powszednimi III klasy są:
+a) dni Wielkiego Postu i Męki Pańskiej od czwartku po Popielcu aż do soboty przed drugą
+niedzielą Męki Pańskiej włącznie, z wyjątkiem wymienionych wyżej; mają one pierwszeństwo przed świętami 3 klasy;
+b) dni Adwentu aż do dnia 16 grudnia włącznie, nie wymienione wyżej; ustępują one świętom 3 klasy
 
+Te dni, jeżeli napotkają przeszkodę, muszą być wspomniane.
+
+26. Wszystkie dni niewymienione w numerach 23-25 są dniami powszednimi IV klasy; jeżeli napotykają przeszkodę, nigdy się ich nie wspomina.
 """
 
