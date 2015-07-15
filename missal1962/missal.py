@@ -293,7 +293,7 @@ class Missal(list):
         return None
 
 if __name__ == '__main__':
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2002
+    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2015
     missal = Missal(year)
 
     for ii in missal:

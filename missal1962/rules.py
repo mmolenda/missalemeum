@@ -29,31 +29,4 @@ e) święta Pańskie 1 klasy, które obecnie wyznaczone są na niedziele 2 klasy
 Te święta zajmują miejsce przypadające niedzieli z wszystkimi prawami i przywilejami, dlatego nie wspomina się niedzieli.
 
 """
-import re
 
-
-pattern__advent_feria_17_23 = re.compile('var_[fs][^_]+_adventus')
-
-VARIABLE_RANK_MAP = (
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 17, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 18, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 19, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 20, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 21, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 22, "rank": 2},
-    {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 23, "rank": 2},
-)
-
-def determine_rank(day_id, day):
-    """
-    Some liturgical days' ranks depend on calendar day
-    a liturgay occur, for example:
-      Advent feria days between 17 and 23 December are 2 class,
-      while other feria Advent days are 3 class;
-    """
-    for case in VARIABLE_RANK_MAP:
-        if re.match(case['pattern'], day_id) \
-                and day.month == case['month'] \
-                and day.day == case['day']:
-            return case['rank']
-    return int(day_id.split(':')[1])

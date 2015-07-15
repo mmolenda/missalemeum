@@ -37,7 +37,7 @@ class TestMissal(unittest.TestCase):
             self.assertEqual(self._to_date_obj(dates[11]), actual)
 
     def test_liturgical_day_model_simple_case(self):
-        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 2)
+        self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 4)
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).weekday, 2)
         self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA, date(2002, 1, 27)).rank, 2)
         self.assertEqual(LiturgicalDay(VAR_DOM_SEPTUAGESIMA, date(2002, 1, 27)).weekday, 6)
@@ -63,6 +63,48 @@ class TestMissal(unittest.TestCase):
         self.assertEqual(LiturgicalDay(VAR_F2_ADVENTUS_4, date(2015, 12, 21)).rank, 2)
         self.assertEqual(LiturgicalDay(VAR_F3_ADVENTUS_4, date(2015, 12, 22)).rank, 2)
         self.assertEqual(LiturgicalDay(VAR_F4_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
+
+    def test_liturgical_day_compare(self):
+        rank_1_1 = LiturgicalDay(VAR_PENTECOST, date(2015, 5, 24))
+        rank_1_2 = LiturgicalDay(FIX_11_01_OMNIUM_SANCTORUM, date(2015, 11, 1))
+        rank_2_1 = LiturgicalDay(VAR_DOM_SANCTAE_FAMILIAE, date(2015, 1, 11))
+        rank_2_2 = LiturgicalDay(FIX_01_13_BAPTISMATIS_DOMINI, date(2015, 1, 13))
+        rank_3_1 = LiturgicalDay(VAR_F6_PASSIONIS, date(2015, 3, 27))
+        rank_3_2 = LiturgicalDay(FIX_03_28_1, date(2015, 3, 28))
+        rank_4_1 = LiturgicalDay(VAR_F2_POST_PENTECOST_1, date(2015, 6, 1))
+        rank_4_2 = LiturgicalDay(FIX_08_09_2, date(2015, 8, 9))
+
+        self.assertEqual(rank_1_1, rank_1_2)
+        self.assertGreaterEqual(rank_1_1, rank_1_2)
+        self.assertLessEqual(rank_1_1, rank_1_2)
+        self.assertNotEqual(rank_1_1, rank_2_1)
+        self.assertGreater(rank_1_1, rank_2_1)
+        self.assertGreater(rank_1_1, rank_3_1)
+        self.assertGreater(rank_1_1, rank_4_1)
+
+        self.assertLess(rank_2_1, rank_1_1)
+        self.assertEqual(rank_2_1, rank_2_2)
+        self.assertGreaterEqual(rank_2_1, rank_2_2)
+        self.assertLessEqual(rank_2_1, rank_2_2)
+        self.assertNotEqual(rank_2_1, rank_3_2)
+        self.assertGreater(rank_2_1, rank_3_1)
+        self.assertGreater(rank_2_1, rank_4_1)
+
+        self.assertLess(rank_3_1, rank_1_1)
+        self.assertLess(rank_3_1, rank_2_1)
+        self.assertEqual(rank_3_1, rank_3_2)
+        self.assertGreaterEqual(rank_3_1, rank_3_2)
+        self.assertLessEqual(rank_3_1, rank_3_2)
+        self.assertNotEqual(rank_3_1, rank_4_1)
+        self.assertGreater(rank_3_1, rank_4_1)
+
+        self.assertLess(rank_4_1, rank_1_1)
+        self.assertLess(rank_4_1, rank_2_1)
+        self.assertLess(rank_4_1, rank_3_1)
+        self.assertNotEqual(rank_4_1, rank_3_1)
+        self.assertEqual(rank_4_1, rank_4_2)
+        self.assertGreaterEqual(rank_4_1, rank_4_2)
+        self.assertLessEqual(rank_4_1, rank_4_2)
 
 
 if __name__ == '__main__':
