@@ -101,6 +101,7 @@ class Missal(OrderedDict):
             days = list(set([LiturgicalDay(ii, date_) for ii in blocks.FIXDAYS
                              if ii.startswith("fix:{}".format(date_id))]))
             contents.extend(days)
+            contents.sort(reverse=True)
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
                       overwrite=True):
@@ -290,4 +291,6 @@ if __name__ == '__main__':
     missal = Missal(year)
 
     for k, v in missal.iteritems():
+        if k.weekday() == 6:
+            log.info("---")
         log.info("%s %s %s", k.strftime('%A'), k, v)
