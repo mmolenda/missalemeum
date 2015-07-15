@@ -2,7 +2,7 @@
 import re
 from missal1962.constants import *
 
-pattern__advent_feria_17_23 = re.compile('var_[fs][^_]+_adventus')
+pattern__advent_feria_17_23 = re.compile('var:[fs][^_]+_adventus')
 
 VARIABLE_RANK_MAP = (
     {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 17, "rank": 2},
@@ -31,36 +31,61 @@ class LiturgicalDay(object):
     day's class/rank and human readable identifier.
 
     Example:
-        'var_f3_post_epiphania_2:2'
-        rank: 2
-        weekday: 1
-        name = var_f3_post_epiphania_2
+      'var:f3_post_epiphania_2:2'
+      rank: 2
+      weekday: 1
+      name = var:f3_post_epiphania_2
+
+    Each identifier consists of three colon-separated elements:
+      flexibility - determines if it's a fixed- (fix) or movable- (var)
+        date liturgical day
+      identifier - a unique human readable day identifier. In case of movable
+        days it's a day's name, in case of fixed days it contains a date
+        in format %m_%s and either consecutive number or human readable
+        days name (in case of 1 and 2 class days, just for readability)
+      rank - day's class, a number between 1 and 4
+
+    Example:
+      'var:f3_post_epiphania_2:2' - means movable day of second class
+        which is third feria day in second week after Epiphany
+      'fix:11_19_2:4' - means second fixed day of fourth class
+        falling on 19 Nov
+      'fix:12_26_stephani:2' - means fixed day of second class
+         falling on 26 Dec, which happens to be st. Stephen's day
     """
     def __init__(self, day_id, day):
-        flexibility, name, rank = re.match(
-            '([\w]+?)_([\w]+):([\d]+)', day_id).groups()
+        """ Build a Liturgical day out of identifier and calendar date
+
+        :param day_id: liturgical day identifier in format
+                       <flexibility>:<identifier>:<rank>
+        :type day_id: string
+        :param day: specific date in which the liturgical day is supposed
+                    to be placed. For some variable days its rank (class)
+                    depends on which calendar day they occur
+        :type day: `date ` object
+        """
+        flexibility, name, rank = day_id.split(':')
         self.id = day_id
         self.flexibility = flexibility
         self.name = name
-        self.rank = self._determine_rank(day_id, day)
+        self.rank = self._determine_rank(day_id, day, int(rank))
         if flexibility == TYPE_VAR:
             self.weekday = WEEKDAY_MAPPING[name.split('_')[0]]
         else:
             self.weekday = day.weekday()
 
-    def _determine_rank(self, day_id, day):
+    def _determine_rank(self, day_id, day, original_rank):
         """
         Some liturgical days' ranks depend on calendar day
-        a liturgay occur, for example:
+        they occur, for example:
           Advent feria days between 17 and 23 December are 2 class,
           while other feria Advent days are 3 class;
         """
         for case in VARIABLE_RANK_MAP:
-            if re.match(case['pattern'], day_id) \
-                    and day.month == case['month'] \
-                    and day.day == case['day']:
+            if day.month == case['month'] and day.day == case['day'] \
+                    and re.match(case['pattern'], day_id):
                 return case['rank']
-        return int(day_id.split(':')[1])
+        return original_rank
 
     def __repr__(self):
         return "<{}>".format(self.id)

@@ -1,6 +1,7 @@
 """
 Missal 1962
 """
+from collections import OrderedDict
 
 from datetime import date, timedelta
 from dateutil.easter import easter
@@ -13,59 +14,48 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
 
 
-class Missal(list):
-    """ Class representing a missal.
+class Missal(OrderedDict):
+    """ Class representing a Missal.
 
-    It's a list of lists, each one representing one day as following
-    structure:
-      [<date object>, [<list of day identifiers]]
-      for example:
+    It's an ordered dict of lists where each key is a `date` object and value
+    is a list containing `LiturgicalDay` objects. Example:
+
+    {
       ...
-      [datetime.date(2008, 5, 3), ['sab_post_ascension',
-                                   '05-03.mariae_reginae_poloniae']]
-      [datetime.date(2008, 5, 4), ['dom_post_ascension', '05-04']]
-      [datetime.date(2008, 5, 5), ['f2_hebd_post_ascension', '05-05']]
-      [datetime.date(2008, 5, 6), ['f3_hebd_post_ascension']]
+      datetime.date(2008, 5, 3): [<var:sab_post_ascension:4>,
+                                  <fix:05-03.mariae_reginae_poloniae:1>],
+      datetime.date(2008, 5, 4): [<var:dom_post_ascension:4>, <fix:05-04>],
+      datetime.date(2008, 5, 5): [<var:f2_hebd_post_ascension:4>, <fix:05-05>],
+      datetime.date(2008, 5, 6): [<var:f3_hebd_post_ascension:4>],
       ...
+    }
     """
     def __init__(self, year):
-        """ Build an empty missal and fill it in with liturgical days'
-        identifiers.
+        """ Build an empty missal and fill it in with liturgical days' objects
         """
+        super(Missal, self).__init__()
         self._build_empty_missal(year)
         self._fill_in_variable_days(year)
         self._fill_in_fixed_days()
-        self._resolve_conflicts()
+        # self._resolve_conflicts()
 
     def get_day_by_id(self, day_id):
-        """ Return a list representing single day.
+        """ Return a day representation by liturgical day ID
 
         :param dayid: liturgical days'identifier, for example
-                      'f2_sexagesima'
+                      'var:f2_septuagesima:4'
         :type dayid: string
-        :return: liturgical day
+        :return: day representation
         :rtype: list(datetime, list)
         """
-        for day in self:
+        for day in self.iteritems():
             if day_id in [ii.id for ii in day[1]]:
                 return day
-
-    def _get_date_index(self, date_):
-        """ Return list index where `date_` is located.
-
-        :param date_: date to look up
-        :type date_: date object
-        :return: index of the list
-        :rtype: integer
-        """
-        for ii, day in enumerate(self):
-            if day[0] == date_:
-                return ii
 
     def _build_empty_missal(self, year):
         day = date(year, 1, 1)
         while day.year == year:
-            self.append([day, []])
+            self[day] = []
             day += timedelta(days=1)
 
     def _fill_in_variable_days(self, year):
@@ -106,20 +96,20 @@ class Missal(list):
             )
 
     def _fill_in_fixed_days(self):
-        for date_, contents in self:
+        for date_, contents in self.iteritems():
             date_id = date_.strftime("%m_%d")
             days = list(set([LiturgicalDay(ii, date_) for ii in blocks.FIXDAYS
-                             if ii.startswith("fix_{}".format(date_id))]))
+                             if ii.startswith("fix:{}".format(date_id))]))
             contents.extend(days)
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
                       overwrite=True):
-        """ Insert a block of related liturgical days'identifiers.
+        """ Insert a block of related `LiturgicalDay` objects.
 
         :param start_date: date where first or last (if `reverse`=True)
                            element of the block will be inserted
         :type start_date: date object
-        :param block: list of identifiers in established order
+        :param block: list of day identifiers in established order
         :type block: list of strings
         :param stop_date: last date to insert block element
         :type stop_date: date object
@@ -132,46 +122,49 @@ class Missal(list):
         Example:
         start_date=2008-01-13, reverse=False
         block = [
-            'dom_sanctae_familiae',
-            'f2_post_epiphania_1',
-            'f3_post_epiphania_1',
+            'var:dom_sanctae_familiae:2',
+            'var:f2_post_epiphania_1:4',
+            'var:f3_post_epiphania_1:4',
         ]
         Result:
+        {
         ...
-        [datetime.date(2008, 1, 13), ['dom_sanctae_familiae']]
-        [datetime.date(2008, 1, 14), ['f2_post_epiphania_1', '01-14']]
-        [datetime.date(2008, 1, 15), ['f3_post_epiphania_1', '01-15']]
+          datetime.date(2008, 1, 13): [<var:dom_sanctae_familiae:2>],
+          datetime.date(2008, 1, 14): [<var:f2_post_epiphania_1:4>, <fix:01-14_1:3>],
+          datetime.date(2008, 1, 15): [<var:f3_post_epiphania_1:4', <fix:01-15_1:3>],
         ...
+        }
 
         Example:
         start_date=2008-11-22, reverse=True
         block = [
-            'f5_post_epiphania_6',
-            'f6_post_epiphania_6',
-            'sab_post_epiphania_6'
+            'var:f5_post_epiphania_6:4',
+            'var:f6_post_epiphania_6:4',
+            'var:sab_post_epiphania_6:4'
         ]
         Result:
+        {
         ...
-        [datetime.date(2008, 11, 20), ['f5_post_epiphania_6']]
-        [datetime.date(2008, 11, 21), ['f6_post_epiphania_6']]
-        [datetime.date(2008, 11, 22), ['sab_post_epiphania_6']]
+          datetime.date(2008, 11, 20): [<var:f5_post_epiphania_6:4>],
+          datetime.date(2008, 11, 21): [<var:f6_post_epiphania_6:4>],
+          datetime.date(2008, 11, 22): [<var:sab_post_epiphania_6:4>],
         ...
+        }
         """
         if reverse:
             block = reversed(block)
-        day_index = self._get_date_index(start_date)
         for ii, day_id in enumerate(block):
-            index = day_index + ii if not reverse else day_index - ii
+            index = start_date + timedelta(days=ii if not reverse else -ii)
             # skip on empty day in a block
             if not day_id:
                 continue
             # break on first non-empty day
-            if self[index][1] and not overwrite:
+            if self[index] and not overwrite:
                 break
             # break on stop date
-            if stop_date == self[index - 1][0]:
+            if stop_date == self[index - timedelta(days=1)]:
                 break
-            self[index][1] = [LiturgicalDay(day_id, self[index][0])]
+            self[index] = [LiturgicalDay(day_id, index)]
 
     def _resolve_conflicts(self):
         pass
@@ -239,7 +232,7 @@ class Missal(list):
     def _calc_varday__quattour_septembris(self, year):
         """ Feria Quarta Quattuor Temporum Septembris
 
-        Ember Wednesday in September is Wednesday after third Sunday
+        Ember Wednesday in September is a Wednesday after third Sunday
         of September according to John XXIII's motu proprio
         Rubricarum instructum of June 25 1960.
         """
@@ -296,5 +289,5 @@ if __name__ == '__main__':
     year = int(sys.argv[1]) if len(sys.argv) > 1 else 2015
     missal = Missal(year)
 
-    for ii in missal:
-        log.info("%s %s", ii[0].strftime('%A'), ii)
+    for k, v in missal.iteritems():
+        log.info("%s %s %s", k.strftime('%A'), k, v)
