@@ -36,6 +36,16 @@ class TestMissal(unittest.TestCase):
                 missal.get_day_by_id(VAR_DOM_OCTAVAM_NATIVITATIS) else None
             self.assertEqual(self._to_date_obj(dates[11]), actual)
 
+    def test_semi_fixed_days_all_souls(self):
+        missal = Missal(2008)
+        self.assertEqual(date(2008, 11, 3), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
+        missal = Missal(2014)
+        self.assertEqual(date(2014, 11, 3), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
+        missal = Missal(2015)
+        self.assertEqual(date(2015, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
+        missal = Missal(2063)
+        self.assertEqual(date(2063, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
+
     def test_liturgical_day_model_simple_case(self):
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 4)
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).weekday, 2)

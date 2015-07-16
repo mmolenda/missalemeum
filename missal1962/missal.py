@@ -9,6 +9,7 @@ import sys
 import blocks
 from models import LiturgicalDay
 import logging
+from constants import *
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
@@ -37,6 +38,7 @@ class Missal(OrderedDict):
         self._build_empty_missal(year)
         self._fill_in_variable_days(year)
         self._fill_in_fixed_days()
+        self._fill_in_semi_fixed_days(year)
         # self._resolve_conflicts()
 
     def get_day_by_id(self, day_id):
@@ -59,6 +61,10 @@ class Missal(OrderedDict):
             day += timedelta(days=1)
 
     def _fill_in_variable_days(self, year):
+        """
+        Days depending on variable date, such as Easter or Advent
+        """
+        # main blocks
         self._insert_block(
             self._calc_varday__dom_sanctae_familiae(year),
             blocks.VARDAYS__POST_EPIPHANIA)
@@ -96,12 +102,24 @@ class Missal(OrderedDict):
             )
 
     def _fill_in_fixed_days(self):
+        """
+        Days ascribed to specific date
+        """
         for date_, contents in self.iteritems():
             date_id = date_.strftime("%m_%d")
             days = list(set([LiturgicalDay(ii, date_) for ii in blocks.FIXDAYS
                              if ii.startswith("fix:{}".format(date_id))]))
             contents.extend(days)
             contents.sort(reverse=True)
+
+    def _fill_in_semi_fixed_days(self, year):
+        """
+        Days normally ascribed to specific date, but in
+        certain conditions moved to other dates
+        """
+        day = self._calc_fixday__omnium_fidelium_defunctorum(year)
+        self[day].append(LiturgicalDay(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM, day))
+        self[day].sort(reverse=True)
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
                       overwrite=True):
@@ -285,6 +303,16 @@ class Missal(OrderedDict):
                 return d
             d += timedelta(days=1)
         return None
+
+    def _calc_fixday__omnium_fidelium_defunctorum(self, year):
+        """ Commemoratione Omnium Fidelium Defunctorum
+
+        All Souls Day; if not Sunday - Nov 2, else Nov 3
+        """
+        d = date(year, 11, 2)
+        if d.weekday() == 6:
+            return date(year, 11, 3)
+        return d
 
 if __name__ == '__main__':
     year = int(sys.argv[1]) if len(sys.argv) > 1 else 2015
