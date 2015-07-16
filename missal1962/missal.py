@@ -1,6 +1,7 @@
 """
 Missal 1962
 """
+import re
 import sys
 import logging
 from collections import OrderedDict
@@ -40,7 +41,7 @@ class Missal(OrderedDict):
         self._fill_in_variable_days(year)
         self._fill_in_fixed_days()
         self._fill_in_semi_fixed_days(year)
-        # self._resolve_conflicts()
+        self._resolve_concurrency()
 
     def get_day_by_id(self, day_id):
         """ Return a day representation by liturgical day ID
@@ -194,8 +195,19 @@ class Missal(OrderedDict):
                 break
             self[index] = [LiturgicalDay(day_id, index) for day_id in day_ids]
 
-    def _resolve_conflicts(self):
-        pass
+    def _resolve_concurrency(self):
+        patterm__var_dom_adventus = re.compile('var:dom_adventus')
+
+        for day, lit_days in self.iteritems():
+            lit_days_ids = [ld.id for ld in lit_days]
+
+            if FIX_12_08_CONCEPTIONE_IMMACULATA_BMV in lit_days_ids and day.weekday() == 6:
+                new_days = []
+                for pattern in (FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, patterm__var_dom_adventus):
+                    for lit_day in lit_days:
+                        if re.match(pattern, lit_day.id):
+                            new_days.append(lit_day)
+                self[day] = new_days
 
     def _calc_varday__dom_ressurectionis(self, year):
         """ Dominica Ressurectionis - Easter Sunday """

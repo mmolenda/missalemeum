@@ -62,6 +62,14 @@ class TestMissal(unittest.TestCase):
         self.assertEqual(date(2018, 2, 24), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
         self.assertEqual(date(2018, 2, 27), missal.get_day_by_id(FIX_02_27_1)[0])
 
+    def test_concurrency_12_08_conceptione_immaculata_bmv(self):
+        self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_DOM_ADVENTUS_2],
+                         [i.id for i in Missal(1907)[date(1907, 12, 8)]])
+        self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_DOM_ADVENTUS_2],
+                         [i.id for i in Missal(1912)[date(1912, 12, 8)]])
+        self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_F2_ADVENTUS_2],
+                         [i.id for i in Missal(1913)[date(1913, 12, 8)]])
+
     def test_liturgical_day_model_simple_case(self):
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 4)
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).weekday, 2)
