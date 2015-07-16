@@ -154,10 +154,10 @@ class Missal(OrderedDict):
         """
         if reverse:
             block = reversed(block)
-        for ii, day_id in enumerate(block):
+        for ii, day_ids in enumerate(block):
             index = start_date + timedelta(days=ii if not reverse else -ii)
             # skip on empty day in a block
-            if not day_id:
+            if not day_ids:
                 continue
             # break on first non-empty day
             if self[index] and not overwrite:
@@ -165,7 +165,7 @@ class Missal(OrderedDict):
             # break on stop date
             if stop_date == self[index - timedelta(days=1)]:
                 break
-            self[index] = [LiturgicalDay(day_id, index)]
+            self[index] = [LiturgicalDay(day_id, index) for day_id in day_ids]
 
     def _resolve_conflicts(self):
         pass
