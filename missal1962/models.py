@@ -1,6 +1,7 @@
 
 import re
-from missal1962.constants import *
+
+from .constants import *
 
 pattern__advent_feria_17_23 = re.compile('var:[fs][^_]+_adventus')
 

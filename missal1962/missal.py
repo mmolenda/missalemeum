@@ -1,15 +1,16 @@
 """
 Missal 1962
 """
+import sys
+import logging
 from collections import OrderedDict
-
+from calendar import isleap
 from datetime import date, timedelta
 from dateutil.easter import easter
-import sys
-import blocks
-from models import LiturgicalDay
-import logging
-from constants import *
+
+from missal1962 import blocks
+from missal1962.constants import *
+from missal1962.models import LiturgicalDay
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
@@ -117,8 +118,16 @@ class Missal(OrderedDict):
         Days normally ascribed to specific date, but in
         certain conditions moved to other dates
         """
-        day = self._calc_fixday__omnium_fidelium_defunctorum(year)
+        day = self._calc_fixday__11_02_omnium_fidelium_defunctorum(year)
         self[day].append(LiturgicalDay(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM, day))
+        self[day].sort(reverse=True)
+
+        day = self._calc_fixday__02_24_matthiae_apostoli(year)
+        self[day].append(LiturgicalDay(FIX_02_24_MATTHIAE_APOSTOLI, day))
+        self[day].sort(reverse=True)
+
+        day = self._calc_fixday__02_27(year)
+        self[day].append(LiturgicalDay(FIX_02_27_1, day))
         self[day].sort(reverse=True)
 
     def _insert_block(self, start_date, block, stop_date=None, reverse=False,
@@ -304,7 +313,7 @@ class Missal(OrderedDict):
             d += timedelta(days=1)
         return None
 
-    def _calc_fixday__omnium_fidelium_defunctorum(self, year):
+    def _calc_fixday__11_02_omnium_fidelium_defunctorum(self, year):
         """ Commemoratione Omnium Fidelium Defunctorum
 
         All Souls Day; if not Sunday - Nov 2, else Nov 3
@@ -314,8 +323,25 @@ class Missal(OrderedDict):
             return date(year, 11, 3)
         return d
 
+    def _calc_fixday__02_24_matthiae_apostoli(self, year):
+        """ Matthiae Apostoli
+
+        saint Matthew the Apostle, normally on Feb 24
+        but in leap year on Feb 25
+        """
+        return date(year, 2, 24) if not isleap(year) else date(year, 2, 25)
+
+    def _calc_fixday__02_27(self, year):
+        """ Feb 27
+
+        Feb 27, normally on Feb 27
+        but in leap year on Feb 28
+        """
+        return date(year, 2, 27) if not isleap(year) else date(year, 2, 28)
+
+
 if __name__ == '__main__':
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2015
+    year = int(sys.argv[1]) if len(sys.argv) > 1 else 2012
     missal = Missal(year)
 
     for k, v in missal.iteritems():

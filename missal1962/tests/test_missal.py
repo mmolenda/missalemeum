@@ -1,9 +1,11 @@
+
+import json
 import unittest
+from datetime import datetime, date
+
 from missal1962.constants import *
 from missal1962.missal import Missal
 from missal1962.models import LiturgicalDay
-from datetime import datetime, date
-import json
 
 
 class TestMissal(unittest.TestCase):
@@ -45,6 +47,20 @@ class TestMissal(unittest.TestCase):
         self.assertEqual(date(2015, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
         missal = Missal(2063)
         self.assertEqual(date(2063, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
+
+    def test_semi_fixed_days_feb_24_related(self):
+        missal = Missal(2012)
+        self.assertEqual(date(2012, 2, 25), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
+        self.assertEqual(date(2012, 2, 28), missal.get_day_by_id(FIX_02_27_1)[0])
+        missal = Missal(2016)
+        self.assertEqual(date(2016, 2, 25), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
+        self.assertEqual(date(2016, 2, 28), missal.get_day_by_id(FIX_02_27_1)[0])
+        missal = Missal(2017)
+        self.assertEqual(date(2017, 2, 24), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
+        self.assertEqual(date(2017, 2, 27), missal.get_day_by_id(FIX_02_27_1)[0])
+        missal = Missal(2018)
+        self.assertEqual(date(2018, 2, 24), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
+        self.assertEqual(date(2018, 2, 27), missal.get_day_by_id(FIX_02_27_1)[0])
 
     def test_liturgical_day_model_simple_case(self):
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 4)
