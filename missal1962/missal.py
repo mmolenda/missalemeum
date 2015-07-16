@@ -195,18 +195,25 @@ class Missal(OrderedDict):
                 break
             self[index] = [LiturgicalDay(day_id, index) for day_id in day_ids]
 
+    def _inner_resolve_concurrency(self, condition, patterns, lit_days):
+        if condition:
+            new_days = []
+            for pattern in patterns:
+                for lit_day in lit_days:
+                    if re.match(pattern, lit_day.id):
+                        new_days.append(lit_day)
+            return new_days
+
     def _resolve_concurrency(self):
-        patterm__var_dom_adventus = re.compile('var:dom_adventus')
+        pattern__var_dom_adventus = re.compile('var:dom_adventus')
 
         for day, lit_days in self.iteritems():
             lit_days_ids = [ld.id for ld in lit_days]
-
-            if FIX_12_08_CONCEPTIONE_IMMACULATA_BMV in lit_days_ids and day.weekday() == 6:
-                new_days = []
-                for pattern in (FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, patterm__var_dom_adventus):
-                    for lit_day in lit_days:
-                        if re.match(pattern, lit_day.id):
-                            new_days.append(lit_day)
+            new_days = self._inner_resolve_concurrency(
+                FIX_12_08_CONCEPTIONE_IMMACULATA_BMV in lit_days_ids and day.weekday() == 6,
+                (FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, pattern__var_dom_adventus),
+                lit_days)
+            if new_days:
                 self[day] = new_days
 
     def _calc_varday__dom_ressurectionis(self, year):
