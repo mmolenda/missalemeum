@@ -65,10 +65,10 @@ class LiturgicalDay(object):
         :type day: `date ` object
         """
         flexibility, name, rank = day_id.split(':')
-        self.id = day_id
         self.flexibility = flexibility
         self.name = name
         self.rank = self._determine_rank(day_id, day, int(rank))
+        self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
         if flexibility == TYPE_VAR:
             self.weekday = WEEKDAY_MAPPING[name.split('_')[0]]
         else:
