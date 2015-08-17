@@ -4,7 +4,7 @@ import unittest
 from datetime import datetime, date
 
 from missal1962.constants import *
-from missal1962.missal import Missal
+from missal1962.missal import Missal, MissalFactory
 from missal1962.models import LiturgicalDay
 
 
@@ -18,7 +18,7 @@ class TestMissal(unittest.TestCase):
             expected = json.load(fh)
 
         for year, dates in sorted(expected.iteritems()):
-            missal = Missal(int(year))
+            missal = MissalFactory.create(int(year))
             self.assertEqual(self._to_date_obj(dates[0]), missal.get_day_by_id(VAR_DOM_SEPTUAGESIMA)[0])
             self.assertEqual(self._to_date_obj(dates[1]), missal.get_day_by_id(VAR_F4_CINERUM)[0])
             self.assertEqual(self._to_date_obj(dates[2]), missal.get_day_by_id(VAR_DOM_RESURRECTIONIS)[0])
@@ -39,36 +39,58 @@ class TestMissal(unittest.TestCase):
             self.assertEqual(self._to_date_obj(dates[11]), actual)
 
     def test_semi_fixed_days_all_souls(self):
-        missal = Missal(2008)
+        missal = MissalFactory.create(2008)
         self.assertEqual(date(2008, 11, 3), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
-        missal = Missal(2014)
+        missal = MissalFactory.create(2014)
         self.assertEqual(date(2014, 11, 3), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
-        missal = Missal(2015)
+        missal = MissalFactory.create(2015)
         self.assertEqual(date(2015, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
-        missal = Missal(2063)
+        missal = MissalFactory.create(2063)
         self.assertEqual(date(2063, 11, 2), missal.get_day_by_id(FIX_11_02_OMNIUM_FIDELIUM_DEFUNCTORUM)[0])
 
     def test_semi_fixed_days_feb_24_related(self):
-        missal = Missal(2012)
+        missal = MissalFactory.create(2012)
         self.assertEqual(date(2012, 2, 25), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
         self.assertEqual(date(2012, 2, 28), missal.get_day_by_id(FIX_02_27_1)[0])
-        missal = Missal(2016)
+        missal = MissalFactory.create(2016)
         self.assertEqual(date(2016, 2, 25), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
         self.assertEqual(date(2016, 2, 28), missal.get_day_by_id(FIX_02_27_1)[0])
-        missal = Missal(2017)
+        missal = MissalFactory.create(2017)
         self.assertEqual(date(2017, 2, 24), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
         self.assertEqual(date(2017, 2, 27), missal.get_day_by_id(FIX_02_27_1)[0])
-        missal = Missal(2018)
+        missal = MissalFactory.create(2018)
         self.assertEqual(date(2018, 2, 24), missal.get_day_by_id(FIX_02_24_MATTHIAE_APOSTOLI)[0])
         self.assertEqual(date(2018, 2, 27), missal.get_day_by_id(FIX_02_27_1)[0])
 
     def test_concurrency_12_08_conceptione_immaculata_bmv(self):
         self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_DOM_ADVENTUS_2],
-                         [i.id for i in Missal(1907)[date(1907, 12, 8)]])
+                         [i.id for i in MissalFactory.create(1907)[date(1907, 12, 8)]])
         self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_DOM_ADVENTUS_2],
-                         [i.id for i in Missal(1912)[date(1912, 12, 8)]])
+                         [i.id for i in MissalFactory.create(1912)[date(1912, 12, 8)]])
         self.assertEqual([FIX_12_08_CONCEPTIONE_IMMACULATA_BMV, VAR_F2_ADVENTUS_2],
-                         [i.id for i in Missal(1913)[date(1913, 12, 8)]])
+                         [i.id for i in MissalFactory.create(1913)[date(1913, 12, 8)]])
+
+    def test_concurrency_1_2_class_feast_of_the_Lord_occurring_on_sunday_2_class(self):
+        self.assertEqual([FIX_01_06_EPIPHANIA],
+                         [i.id for i in MissalFactory.create(2013)[date(2013, 1, 6)]])
+        self.assertEqual([FIX_01_06_EPIPHANIA],
+                         [i.id for i in MissalFactory.create(2036)[date(2036, 1, 6)]])
+
+        self.assertEqual([VAR_DOM_SANCTAE_FAMILIAE],
+                         [i.id for i in MissalFactory.create(2013)[date(2013, 1, 13)]])
+        self.assertEqual([VAR_DOM_SANCTAE_FAMILIAE],
+                         [i.id for i in MissalFactory.create(2036)[date(2036, 1, 13)]])
+
+        self.assertEqual([FIX_08_06_TRANSFIGURATIONE],
+                         [i.id for i in MissalFactory.create(1911)[date(1911, 8, 6)]])
+        self.assertEqual([FIX_08_06_TRANSFIGURATIONE],
+                         [i.id for i in MissalFactory.create(1922)[date(1922, 8, 6)]])
+
+    def test_concurrency_vigil_nativitatis(self):
+        self.assertEqual([FIX_12_24_VIGILIA_NATIVITATIS_DOMINI],
+                         [i.id for i in MissalFactory.create(1950)[date(1950, 12, 24)]])
+        self.assertEqual([FIX_12_24_VIGILIA_NATIVITATIS_DOMINI],
+                         [i.id for i in MissalFactory.create(2000)[date(2000, 12, 24)]])
 
     def test_liturgical_day_model_simple_case(self):
         self.assertEqual(LiturgicalDay(VAR_F4_POST_EPIPHANIA_2, date(2002, 1, 23)).rank, 4)

@@ -11,4 +11,4 @@ def get_year_by_date_and_weekday(month, day, weekday):
 
 
 if __name__ == '__main__':
-    get_year_by_date_and_weekday(11, 2, 6)
+    get_year_by_date_and_weekday(12, 24, 6)

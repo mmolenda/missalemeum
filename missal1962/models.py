@@ -1,5 +1,6 @@
-
+from collections import OrderedDict
 import re
+from datetime import date, timedelta
 
 from .constants import *
 
@@ -24,6 +25,49 @@ WEEKDAY_MAPPING = {
     'sab': 5,
     'dom': 6
 }
+
+
+class Missal(OrderedDict):
+    """ Class representing a Missal.
+
+    It's an ordered dict of lists where each key is a `date` object and value
+    is a list containing `LiturgicalDay` objects. Example:
+
+    {
+      ...
+      datetime.date(2008, 5, 3): [<var:sab_post_ascension:4>,
+                                  <fix:05-03.mariae_reginae_poloniae:1>],
+      datetime.date(2008, 5, 4): [<var:dom_post_ascension:4>, <fix:05-04>],
+      datetime.date(2008, 5, 5): [<var:f2_hebd_post_ascension:4>, <fix:05-05>],
+      datetime.date(2008, 5, 6): [<var:f3_hebd_post_ascension:4>],
+      ...
+    }
+    """
+    def __init__(self, year):
+        """ Build an empty missal and fill it in with liturgical days' objects
+        """
+        super(Missal, self).__init__()
+        self._build_empty_missal(year)
+
+    def _build_empty_missal(self, year):
+        day = date(year, 1, 1)
+        while day.year == year:
+            self[day] = []
+            day += timedelta(days=1)
+
+    def get_day_by_id(self, day_id):
+        """ Return a day representation by liturgical day ID
+
+        :param dayid: liturgical days'identifier, for example
+                      'var:f2_septuagesima:4'
+        :type dayid: string
+        :return: day representation
+        :rtype: list(datetime, list)
+        """
+        for day in self.iteritems():
+            if day_id in [ii.id for ii in day[1]]:
+                return day
+
 
 class LiturgicalDay(object):
     """
