@@ -4,9 +4,9 @@ from datetime import date, timedelta
 
 from .constants import *
 
-pattern__advent_feria_17_23 = re.compile('var:[fs][^_]+_adventus')
+pattern__advent_feria_17_23 = re.compile('tempora:[fs][^_]+_adventus')
 
-VARIABLE_RANK_MAP = (
+TEMPORAIABLE_RANK_MAP = (
     {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 17, "rank": 2},
     {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 18, "rank": 2},
     {"pattern": pattern__advent_feria_17_23, "month": 12, "day": 19, "rank": 2},
@@ -24,6 +24,13 @@ WEEKDAY_MAPPING = {
     'f6': 4,
     'sab': 5,
     'dom': 6
+    # '0': 6,
+    # '1': 0,
+    # '2': 1,
+    # '3': 2,
+    # '4': 3,
+    # '5': 4,
+    # '6': 5,
 }
 
 
@@ -35,11 +42,11 @@ class Missal(OrderedDict):
 
     {
       ...
-      datetime.date(2008, 5, 3): [<var:sab_post_ascension:4>,
-                                  <fix:05-03.mariae_reginae_poloniae:1>],
-      datetime.date(2008, 5, 4): [<var:dom_post_ascension:4>, <fix:05-04>],
-      datetime.date(2008, 5, 5): [<var:f2_hebd_post_ascension:4>, <fix:05-05>],
-      datetime.date(2008, 5, 6): [<var:f3_hebd_post_ascension:4>],
+      datetime.date(2008, 5, 3): [<tempora:sab_post_ascension:4>,
+                                  <sancti:05-03.mariae_reginae_poloniae:1>],
+      datetime.date(2008, 5, 4): [<tempora:dom_post_ascension:4>, <sancti:05-04>],
+      datetime.date(2008, 5, 5): [<tempora:f2_hebd_post_ascension:4>, <sancti:05-05>],
+      datetime.date(2008, 5, 6): [<tempora:f3_hebd_post_ascension:4>],
       ...
     }
     """
@@ -59,7 +66,7 @@ class Missal(OrderedDict):
         """ Return a day representation by liturgical day ID
 
         :param dayid: liturgical days'identifier, for example
-                      'var:f2_septuagesima:4'
+                      'tempora:f2_septuagesima:4'
         :type dayid: string
         :return: day representation
         :rtype: list(datetime, list)
@@ -76,26 +83,26 @@ class LiturgicalDay(object):
     day's class/rank and human readable identifier.
 
     Example:
-      'var:f3_post_epiphania_2:2'
+      'tempora:f3_post_epiphania_2:2'
       rank: 2
       weekday: 1
-      name = var:f3_post_epiphania_2
+      name = tempora:f3_post_epiphania_2
 
     Each identifier consists of three colon-separated elements:
-      flexibility - determines if it's a fixed- (fix) or movable- (var)
+      flexibility - determines if it's a sanctied- (sancti) or movable- (tempora)
         date liturgical day
       identifier - a unique human readable day identifier. In case of movable
-        days it's a day's name, in case of fixed days it contains a date
+        days it's a day's name, in case of sanctied days it contains a date
         in format %m_%s and either consecutive number or human readable
         days name (in case of 1 and 2 class days, just for readability)
       rank - day's class, a number between 1 and 4
 
     Example:
-      'var:f3_post_epiphania_2:2' - means movable day of second class
+      'tempora:f3_post_epiphania_2:2' - means movable day of second class
         which is third feria day in second week after Epiphany
-      'fix:11_19_2:4' - means second fixed day of fourth class
+      'sancti:11_19_2:4' - means second sanctied day of fourth class
         falling on 19 Nov
-      'fix:12_26_stephani:2' - means fixed day of second class
+      'sancti:12_26_stephani:2' - means sanctied day of second class
          falling on 26 Dec, which happens to be st. Stephen's day
     """
     def __init__(self, day_id, day):
@@ -105,7 +112,7 @@ class LiturgicalDay(object):
                        <flexibility>:<identifier>:<rank>
         :type day_id: string
         :param day: specific date in which the liturgical day is supposed
-                    to be placed. For some variable days its rank (class)
+                    to be placed. For some Sancti days its rank (class)
                     depends on which calendar day they occur
         :type day: `date ` object
         """
@@ -114,7 +121,7 @@ class LiturgicalDay(object):
         self.name = name
         self.rank = self._determine_rank(day_id, day, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
-        if flexibility == TYPE_VAR:
+        if flexibility == TYPE_TEMPORA:
             self.weekday = WEEKDAY_MAPPING[name.split('_')[0]]
         else:
             self.weekday = day.weekday()
@@ -126,7 +133,7 @@ class LiturgicalDay(object):
           Advent feria days between 17 and 23 December are 2 class,
           while other feria Advent days are 3 class;
         """
-        for case in VARIABLE_RANK_MAP:
+        for case in TEMPORAIABLE_RANK_MAP:
             if day.month == case['month'] and day.day == case['day'] \
                     and re.match(case['pattern'], day_id):
                 return case['rank']
