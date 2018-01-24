@@ -1,6 +1,7 @@
 
 from datetime import date
 
+
 def get_year_by_date_and_weekday(month, day, weekday):
     """
     Print years where certain date is on specific weekday
