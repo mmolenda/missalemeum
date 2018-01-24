@@ -214,7 +214,7 @@ class MissalFactory(object):
         if _calc_temporaday__dom_octavam_nativitatis(year):
             cls._insert_block(
                 _calc_temporaday__dom_octavam_nativitatis(year),
-                blocks.TEMPORADAYS__DOM_OCTAVAM_NATIVITATIS
+                blocks.TEMPORADAYS__F0_OCTAVAM_NATIVITATIS
             )
 
     @classmethod
