@@ -21,16 +21,16 @@ class TestMissal(unittest.TestCase):
             missal = MissalFactory.create(int(year))
             self.assertEqual(self._to_date_obj(dates[0]), missal.get_day_by_id(TEMPORA_QUADP1_0)[0])
             self.assertEqual(self._to_date_obj(dates[1]), missal.get_day_by_id(TEMPORA_QUADP3_3)[0])
-            self.assertEqual(self._to_date_obj(dates[2]), missal.get_day_by_id(TEMPORA_F0_RESURRECTIONIS)[0])
-            self.assertEqual(self._to_date_obj(dates[3]), missal.get_day_by_id(TEMPORA_ASCENSIONE_F0INI)[0])
-            self.assertEqual(self._to_date_obj(dates[4]), missal.get_day_by_id(TEMPORA_PENTECOST)[0])
-            self.assertEqual(self._to_date_obj(dates[5]), missal.get_day_by_id(TEMPORA_CORPORIS_CHRISTI)[0])
+            self.assertEqual(self._to_date_obj(dates[2]), missal.get_day_by_id(TEMPORA_PASC0_0)[0])
+            self.assertEqual(self._to_date_obj(dates[3]), missal.get_day_by_id(TEMPORA_PASC5_4)[0])
+            self.assertEqual(self._to_date_obj(dates[4]), missal.get_day_by_id(TEMPORA_PASC7_0)[0])
+            self.assertEqual(self._to_date_obj(dates[5]), missal.get_day_by_id(TEMPORA_PENT01_4)[0])
             self.assertEqual(self._to_date_obj(dates[6]), missal.get_day_by_id(TEMPORA_F0_ADVENTUS_1)[0])
             # dom_post_epiphania_4 might not exist in given year, then None is returned
             actual = missal.get_day_by_id(TEMPORA_EPI4_0)[0] if \
                 missal.get_day_by_id(TEMPORA_EPI4_0) else None
             self.assertEqual(self._to_date_obj(dates[7]), actual)
-            self.assertEqual(self._to_date_obj(dates[8]), missal.get_day_by_id(TEMPORA_F6_QUATTUOR_SEPTEMBRIS)[0])
+            self.assertEqual(self._to_date_obj(dates[8]), missal.get_day_by_id(TEMPORA_PENT_6)[0])
             self.assertEqual(self._to_date_obj(dates[9]), missal.get_day_by_id(TEMPORA_SANCTISSIMI_NOMINIS_JESU)[0])
             self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id(TEMPORA_JESU_CHRISTI_REGIS)[0])
             # dom_octavam_nativitatis might not exist in given year, then None is returned
@@ -121,13 +121,13 @@ class TestMissal(unittest.TestCase):
         self.assertEqual(LiturgicalDay(TEMPORA_F3_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
 
     def test_liturgical_day_compare(self):
-        rank_1_1 = LiturgicalDay(TEMPORA_PENTECOST, date(2015, 5, 24))
+        rank_1_1 = LiturgicalDay(TEMPORA_PASC7_0, date(2015, 5, 24))
         rank_1_2 = LiturgicalDay(SANCTI_11_01_OMNIUM_SANCTORUM, date(2015, 11, 1))
         rank_2_1 = LiturgicalDay(TEMPORA_EPI1_0, date(2015, 1, 11))
         rank_2_2 = LiturgicalDay(SANCTI_01_13_BAPTISMATIS_DOMINI, date(2015, 1, 13))
-        rank_3_1 = LiturgicalDay(TEMPORA_F5_PASSIONIS, date(2015, 3, 27))
+        rank_3_1 = LiturgicalDay(TEMPORA_QUAD5_5, date(2015, 3, 27))
         rank_3_2 = LiturgicalDay(SANCTI_03_28_1, date(2015, 3, 28))
-        rank_4_1 = LiturgicalDay(TEMPORA_F1_POST_PENTECOST_1, date(2015, 6, 1))
+        rank_4_1 = LiturgicalDay(TEMPORA_PENT01_1, date(2015, 6, 1))
         rank_4_2 = LiturgicalDay(SANCTI_08_09_2, date(2015, 8, 9))
 
         self.assertEqual(rank_1_1, rank_1_2)
