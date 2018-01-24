@@ -10,10 +10,11 @@ from calendar import isleap
 from datetime import date, timedelta
 from dateutil.easter import easter
 
-from missal1962 import blocks
-from missal1962.constants import *
-from missal1962.models import LiturgicalDay, Missal
-from missal1962.rules import rules
+from .blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
+    EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
+from .constants import *
+from .models import LiturgicalDay, Missal
+from .rules import rules
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
@@ -180,38 +181,38 @@ class MissalFactory(object):
         # main blocks
         cls._insert_block(
             calc_holy_family(year),
-            blocks.POST_EPIPHANY)
+            POST_EPIPHANY)
         cls._insert_block(
             calc_septuagesima(year),
-            blocks.FROM_PRE_LENT_TO_POST_PENTECOST)
+            FROM_PRE_LENT_TO_POST_PENTECOST)
         cls._insert_block(
             calc_saturday_before_24_sunday_after_pentecost(year),
-            blocks.POST_EPIPHANY,
+            POST_EPIPHANY,
             reverse=True,
             overwrite=False)
         cls._insert_block(
             calc_24_sunday_after_pentecost(year),
-            blocks.WEEK_24_AFTER_PENTECOST)
+            WEEK_24_AFTER_PENTECOST)
         cls._insert_block(
             calc_first_advent_sunday(year),
-            blocks.ADVENT,
+            ADVENT,
             stop_date=date(year, 12, 23))
         # additional blocks
         cls._insert_block(
             calc_holy_name(year),
-            blocks.HOLY_NAME
+            HOLY_NAME
         )
         cls._insert_block(
             calc_ember_wednesday_september(year),
-            blocks.EMBER_DAYS_SEPTEMBER)
+            EMBER_DAYS_SEPTEMBER)
         cls._insert_block(
             calc_christ_king(year),
-            blocks.CHRIST_KING
+            CHRIST_KING
         )
         if calc_sunday_christmas_octave(year):
             cls._insert_block(
                 calc_sunday_christmas_octave(year),
-                blocks.SUNDAY_IN_CHRISTMAS_OCTAVE
+                SUNDAY_IN_CHRISTMAS_OCTAVE
             )
 
     @classmethod
@@ -221,8 +222,8 @@ class MissalFactory(object):
         """
         for date_, contents in cls.missal.items():
             date_id = date_.strftime("%m-%d")
-            days = list(set([LiturgicalDay(ii, date_) for ii in blocks.SANCTI
-                             if ii.startswith("sancti:{}".format(date_id))]))
+            days = [LiturgicalDay(ii, date_) for ii in SANCTI
+                    if ii.startswith("sancti:{}".format(date_id))]
             contents.extend(days)
             contents.sort(reverse=True)
 

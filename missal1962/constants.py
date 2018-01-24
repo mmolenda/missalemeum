@@ -1,6 +1,6 @@
 
-TEMPORA = 'tempora'
-SANCTI = 'sancti'
+TYPE_TEMPORA = 'tempora'
+TYPE_SANCTI = 'sancti'
 
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 

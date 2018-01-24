@@ -1,5 +1,5 @@
 
-from constants import *
+from .constants import *
 
 POST_EPIPHANY = (
     (TEMPORA_EPI1_0, ),

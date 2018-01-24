@@ -8,7 +8,7 @@ def get_year_by_date_and_weekday(month, day, weekday):
     """
     for year in range(1900, 2100):
         if date(year, month, day).weekday() == weekday:
-            print year
+            print(year)
 
 
 if __name__ == '__main__':
