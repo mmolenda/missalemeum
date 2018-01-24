@@ -25,17 +25,17 @@ class TestMissal(unittest.TestCase):
             self.assertEqual(self._to_date_obj(dates[3]), missal.get_day_by_id(TEMPORA_PASC5_4)[0])
             self.assertEqual(self._to_date_obj(dates[4]), missal.get_day_by_id(TEMPORA_PASC7_0)[0])
             self.assertEqual(self._to_date_obj(dates[5]), missal.get_day_by_id(TEMPORA_PENT01_4)[0])
-            self.assertEqual(self._to_date_obj(dates[6]), missal.get_day_by_id(TEMPORA_F0_ADVENTUS_1)[0])
+            self.assertEqual(self._to_date_obj(dates[6]), missal.get_day_by_id(TEMPORA_ADV1_0)[0])
             # dom_post_epiphania_4 might not exist in given year, then None is returned
             actual = missal.get_day_by_id(TEMPORA_EPI4_0)[0] if \
                 missal.get_day_by_id(TEMPORA_EPI4_0) else None
             self.assertEqual(self._to_date_obj(dates[7]), actual)
             self.assertEqual(self._to_date_obj(dates[8]), missal.get_day_by_id(TEMPORA_PENT_6)[0])
-            self.assertEqual(self._to_date_obj(dates[9]), missal.get_day_by_id(TEMPORA_SANCTISSIMI_NOMINIS_JESU)[0])
-            self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id(TEMPORA_JESU_CHRISTI_REGIS)[0])
+            self.assertEqual(self._to_date_obj(dates[9]), missal.get_day_by_id(NAT2_0)[0])
+            self.assertEqual(self._to_date_obj(dates[10]), missal.get_day_by_id(SANCTI_10_DU)[0])
             # dom_octavam_nativitatis might not exist in given year, then None is returned
-            actual = missal.get_day_by_id(TEMPORA_F0_OCTAVAM_NATIVITATIS)[0] if \
-                missal.get_day_by_id(TEMPORA_F0_OCTAVAM_NATIVITATIS) else None
+            actual = missal.get_day_by_id(NAT1_0)[0] if \
+                missal.get_day_by_id(NAT1_0) else None
             self.assertEqual(self._to_date_obj(dates[11]), actual)
 
     def test_semi_sanctied_days_all_souls(self):
@@ -63,11 +63,11 @@ class TestMissal(unittest.TestCase):
         self.assertEqual(date(2018, 2, 27), missal.get_day_by_id(SANCTI_02_27_1)[0])
 
     def test_concurrency_12_08_conceptione_immaculata_bmv(self):
-        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_F0_ADVENTUS_2],
+        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_ADV2_0],
                          [i.id for i in MissalFactory.create(1907)[date(1907, 12, 8)]])
-        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_F0_ADVENTUS_2],
+        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_ADV2_0],
                          [i.id for i in MissalFactory.create(1912)[date(1912, 12, 8)]])
-        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_F1_ADVENTUS_2],
+        self.assertEqual([SANCTI_12_08_CONCEPTIONE_IMMACULATA_BMV, TEMPORA_ADV2_1],
                          [i.id for i in MissalFactory.create(1913)[date(1913, 12, 8)]])
 
     def test_concurrency_1_2_class_feast_of_the_Lord_occurring_on_sunday_2_class(self):
@@ -101,24 +101,24 @@ class TestMissal(unittest.TestCase):
 
     def test_liturgical_day_model_temporaiable_rank_advent(self):
         # 2002
-        self.assertEqual(LiturgicalDay(TEMPORA_F1_ADVENTUS_3, date(2015, 12, 16)).rank, 3)
-        self.assertEqual(LiturgicalDay(TEMPORA_F2_ADVENTUS_3, date(2015, 12, 17)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F3_QUATTUOR_ADVENTUS, date(2015, 12, 18)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F4_ADVENTUS_3, date(2015, 12, 19)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F5_QUATTUOR_ADVENTUS, date(2015, 12, 20)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F6_QUATTUOR_ADVENTUS, date(2015, 12, 21)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F0_ADVENTUS_4, date(2015, 12, 22)).rank, 1)
-        self.assertEqual(LiturgicalDay(TEMPORA_F1_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_1, date(2015, 12, 16)).rank, 3)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_2, date(2015, 12, 17)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_3, date(2015, 12, 18)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_4, date(2015, 12, 19)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_5, date(2015, 12, 20)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_6, date(2015, 12, 21)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_0, date(2015, 12, 22)).rank, 1)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_1, date(2015, 12, 23)).rank, 2)
         # 2015
-        self.assertEqual(LiturgicalDay(TEMPORA_F2_ADVENTUS_3, date(2015, 12, 15)).rank, 3)
-        self.assertEqual(LiturgicalDay(TEMPORA_F3_QUATTUOR_ADVENTUS, date(2015, 12, 16)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F4_ADVENTUS_3, date(2015, 12, 17)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F5_QUATTUOR_ADVENTUS, date(2015, 12, 18)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F6_QUATTUOR_ADVENTUS, date(2015, 12, 19)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F0_ADVENTUS_4, date(2015, 12, 20)).rank, 1)
-        self.assertEqual(LiturgicalDay(TEMPORA_F1_ADVENTUS_4, date(2015, 12, 21)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F2_ADVENTUS_4, date(2015, 12, 22)).rank, 2)
-        self.assertEqual(LiturgicalDay(TEMPORA_F3_ADVENTUS_4, date(2015, 12, 23)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_2, date(2015, 12, 15)).rank, 3)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_3, date(2015, 12, 16)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_4, date(2015, 12, 17)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_5, date(2015, 12, 18)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV3_6, date(2015, 12, 19)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_0, date(2015, 12, 20)).rank, 1)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_1, date(2015, 12, 21)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_2, date(2015, 12, 22)).rank, 2)
+        self.assertEqual(LiturgicalDay(TEMPORA_ADV4_3, date(2015, 12, 23)).rank, 2)
 
     def test_liturgical_day_compare(self):
         rank_1_1 = LiturgicalDay(TEMPORA_PASC7_0, date(2015, 5, 24))
