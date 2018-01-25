@@ -2,7 +2,7 @@ from collections import OrderedDict
 import re
 from datetime import date, timedelta
 
-from .constants import *
+from constants import *
 
 patterns = {
     'advent-sunday': re.compile(r'^tempora:Adv\d-0'),

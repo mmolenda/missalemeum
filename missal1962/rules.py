@@ -4,9 +4,9 @@
 Rules for solving conflicts between liturgical days occurring at same date
 """
 
-from .blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
-from .constants import *
-from .models import patterns
+from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
+from constants import *
+from models import patterns
 
 rules = (
     # Immaculate Conception of BMV takes precedence before encountered Advent Sunday.
