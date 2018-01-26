@@ -334,7 +334,7 @@ class MissalFactory(object):
 
 
 if __name__ == '__main__':
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else 1950
+    year = int(sys.argv[1]) if len(sys.argv) > 1 else date.today().year
     missal = MissalFactory.create(year)
 
     for k, v in missal.items():
