@@ -29,7 +29,8 @@ WEEKDAY_MAPPING = {
     '3': 2,
     '4': 3,
     '5': 4,
-    '6': 5
+    '6': 5,
+    '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
 }
 
 

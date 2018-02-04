@@ -3,6 +3,7 @@
 """
 Missal 1962
 """
+import os
 import re
 import sys
 import logging

@@ -374,7 +374,6 @@ ADVENT = (
     (TEMPORA_ADV4_3, ),
     (TEMPORA_ADV4_4, ),
     (TEMPORA_ADV4_5, ),
-    (TEMPORA_ADV4_6, ),
 )
 
 HOLY_NAME = (

@@ -372,11 +372,10 @@ TEMPORA_ADV4_2 = 'tempora:Adv4-2:3'
 TEMPORA_ADV4_3 = 'tempora:Adv4-3:3'
 TEMPORA_ADV4_4 = 'tempora:Adv4-4:3'
 TEMPORA_ADV4_5 = 'tempora:Adv4-5:3'
-TEMPORA_ADV4_6 = 'tempora:Adv4-6:3'
 
 NAT1_0 = 'tempora:Nat1-0:2'  # Sunday in the Octave of Nativity
 NAT2_0 = 'tempora:Nat2-0:2'  # Feast of the Holy Name of Jesus
-SANCTI_10_DUr = 'tempora:10-DUr-0:2'  # Feast of Christ the King
+SANCTI_10_DUr = 'sancti:10-DUr:2'  # Feast of Christ the King; last Sunday of October
 EPI1_0A = 'tempora:Epi1-0a:2'  # 1st Sunday after Epiphany
 PENT01_0A = 'tempora:Pent01-0a:2'  # 1st Sunday after Pentecost
 
