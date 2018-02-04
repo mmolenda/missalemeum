@@ -116,7 +116,7 @@ class LiturgicalDay(object):
         self.rank = self._determine_rank(day_id, day, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
         if flexibility == TYPE_TEMPORA:
-            self.weekday = WEEKDAY_MAPPING[name.split('-')[-1]]
+            self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = day.weekday()
 

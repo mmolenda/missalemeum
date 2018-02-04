@@ -235,15 +235,15 @@ class MissalFactory(object):
         """
         day = calc_all_souls(year)
         cls.missal[day].append(
-            LiturgicalDay(SANCTI_11_02_1, day))
+            LiturgicalDay(SANCTI_11_02, day))
         cls.missal[day].sort(reverse=True)
 
         day = calc_st_matthias(year)
-        cls.missal[day].append(LiturgicalDay(SANCTI_02_24_1, day))
+        cls.missal[day].append(LiturgicalDay(SANCTI_02_24, day))
         cls.missal[day].sort(reverse=True)
 
         day = calc_feb_27(year)
-        cls.missal[day].append(LiturgicalDay(SANCTI_02_27_1, day))
+        cls.missal[day].append(LiturgicalDay(SANCTI_02_27, day))
         cls.missal[day].sort(reverse=True)
 
     @classmethod

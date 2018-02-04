@@ -46,19 +46,19 @@ def test_tempora(year, dates):
 
 @pytest.mark.parametrize("day_id,expected_date", [
     # All Souls Day; if not Sunday - Nov 2, else Nov 3
-    (SANCTI_11_02_1, (2008, 11, 3)),
-    (SANCTI_11_02_1, (2014, 11, 3)),
-    (SANCTI_11_02_1, (2015, 11, 2)),
-    (SANCTI_11_02_1, (2063, 11, 2)),
+    (SANCTI_11_02, (2008, 11, 3)),
+    (SANCTI_11_02, (2014, 11, 3)),
+    (SANCTI_11_02, (2015, 11, 2)),
+    (SANCTI_11_02, (2063, 11, 2)),
     # Days dependent on a leap year
-    (SANCTI_02_24_1, (2012, 2, 25)),
-    (SANCTI_02_27_1, (2012, 2, 28)),
-    (SANCTI_02_24_1, (2016, 2, 25)),
-    (SANCTI_02_27_1, (2016, 2, 28)),
-    (SANCTI_02_24_1, (2017, 2, 24)),
-    (SANCTI_02_27_1, (2017, 2, 27)),
-    (SANCTI_02_24_1, (2018, 2, 24)),
-    (SANCTI_02_27_1, (2018, 2, 27))
+    (SANCTI_02_24, (2012, 2, 25)),
+    (SANCTI_02_27, (2012, 2, 28)),
+    (SANCTI_02_24, (2016, 2, 25)),
+    (SANCTI_02_27, (2016, 2, 28)),
+    (SANCTI_02_24, (2017, 2, 24)),
+    (SANCTI_02_27, (2017, 2, 27)),
+    (SANCTI_02_24, (2018, 2, 24)),
+    (SANCTI_02_27, (2018, 2, 27))
 ])
 def test_semi_sancti_days_fall_on_proper_date(day_id, expected_date):
     assert MissalFactory.create(expected_date[0]).get_day_by_id(day_id)[0] == date(*expected_date)
@@ -66,19 +66,19 @@ def test_semi_sancti_days_fall_on_proper_date(day_id, expected_date):
 
 @pytest.mark.parametrize("date_,expected_day_ids", [
     # Dec 08 Immaculate Conception of BVM
-    ((1907, 12, 8), [SANCTI_12_08_1, TEMPORA_ADV2_0]),
-    ((1912, 12, 8), [SANCTI_12_08_1, TEMPORA_ADV2_0]),
-    ((1913, 12, 8), [SANCTI_12_08_1, TEMPORA_ADV2_1]),
+    ((1907, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_0]),
+    ((1912, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_0]),
+    ((1913, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_1]),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
-    ((2013, 1, 6), [SANCTI_01_06_1]),
-    ((2036, 1, 6), [SANCTI_01_06_1]),
+    ((2013, 1, 6), [SANCTI_01_06]),
+    ((2036, 1, 6), [SANCTI_01_06]),
     ((2013, 1, 13), [TEMPORA_EPI1_0]),
     ((2036, 1, 13), [TEMPORA_EPI1_0]),
-    ((1911, 8, 6), [SANCTI_08_06_1]),
-    ((1922, 8, 6), [SANCTI_08_06_1]),
+    ((1911, 8, 6), [SANCTI_08_06]),
+    ((1922, 8, 6), [SANCTI_08_06]),
     # Nativity_vigil
-    ((1950, 12, 24), [SANCTI_12_24_1]),
-    ((2000, 12, 24), [SANCTI_12_24_1])
+    ((1950, 12, 24), [SANCTI_12_24]),
+    ((2000, 12, 24), [SANCTI_12_24])
 ])
 def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)]] == expected_day_ids
@@ -123,13 +123,13 @@ def test_liturgical_days_have_proper_ranks(day_id, date_, expected_rank):
 
 def test_liturgical_day_compare():
     rank_1_1 = LiturgicalDay(TEMPORA_PASC7_0, date(2015, 5, 24))
-    rank_1_2 = LiturgicalDay(SANCTI_11_01_1, date(2015, 11, 1))
+    rank_1_2 = LiturgicalDay(SANCTI_11_01, date(2015, 11, 1))
     rank_2_1 = LiturgicalDay(TEMPORA_EPI1_0, date(2015, 1, 11))
-    rank_2_2 = LiturgicalDay(SANCTI_01_13_1, date(2015, 1, 13))
+    rank_2_2 = LiturgicalDay(SANCTI_01_13, date(2015, 1, 13))
     rank_3_1 = LiturgicalDay(TEMPORA_QUAD5_5, date(2015, 3, 27))
-    rank_3_2 = LiturgicalDay(SANCTI_03_28_1, date(2015, 3, 28))
+    rank_3_2 = LiturgicalDay(SANCTI_03_28, date(2015, 3, 28))
     rank_4_1 = LiturgicalDay(TEMPORA_PENT01_1, date(2015, 6, 1))
-    rank_4_2 = LiturgicalDay(SANCTI_08_09_2, date(2015, 8, 9))
+    rank_4_2 = LiturgicalDay(SANCTI_08_09, date(2015, 8, 9))
 
     assert rank_1_1 == rank_1_2
     assert rank_1_1 >= rank_1_2
@@ -159,6 +159,6 @@ def test_liturgical_day_compare():
     assert rank_4_1 < rank_2_1
     assert rank_4_1 < rank_3_1
     assert rank_4_1 != rank_3_1
-    assert rank_4_1 == rank_4_2
+    assert rank_4_1 < rank_4_2
     assert rank_4_1 >= rank_4_2
     assert rank_4_1 <= rank_4_2
