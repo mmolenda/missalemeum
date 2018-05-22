@@ -76,7 +76,7 @@ def calc_saturday_before_24_sunday_after_pentecost(year):
 
     This is the end of potentially "empty" period that might appear
     between 23rd and 24th Sunday after Pentecost if Easter is early.
-    In such case one more Sundays after Epiphany (TEMPORA_EPI*_0) are moved here to "fill the gap"
+    In such case one or more Sundays after Epiphany (TEMPORA_EPI*_0) are moved here to "fill the gap"
     """
     return calc_24_sunday_after_pentecost(year) - timedelta(days=1)
 
@@ -180,41 +180,18 @@ class MissalFactory(object):
         Days depending on variable date, such as Easter or Advent
         """
         # main blocks
-        cls._insert_block(
-            calc_holy_family(year),
-            POST_EPIPHANY)
-        cls._insert_block(
-            calc_septuagesima(year),
-            FROM_PRE_LENT_TO_POST_PENTECOST)
-        cls._insert_block(
-            calc_saturday_before_24_sunday_after_pentecost(year),
-            POST_EPIPHANY,
-            reverse=True,
-            overwrite=False)
-        cls._insert_block(
-            calc_24_sunday_after_pentecost(year),
-            WEEK_24_AFTER_PENTECOST)
-        cls._insert_block(
-            calc_first_advent_sunday(year),
-            ADVENT,
-            stop_date=date(year, 12, 23))
+        cls._insert_block(calc_holy_family(year), POST_EPIPHANY)
+        cls._insert_block(calc_septuagesima(year), FROM_PRE_LENT_TO_POST_PENTECOST)
+        cls._insert_block(calc_saturday_before_24_sunday_after_pentecost(year), POST_EPIPHANY,
+                          reverse=True, overwrite=False)
+        cls._insert_block(calc_24_sunday_after_pentecost(year), WEEK_24_AFTER_PENTECOST)
+        cls._insert_block(calc_first_advent_sunday(year), ADVENT, stop_date=date(year, 12, 23))
         # additional blocks
-        cls._insert_block(
-            calc_holy_name(year),
-            HOLY_NAME
-        )
-        cls._insert_block(
-            calc_ember_wednesday_september(year),
-            EMBER_DAYS_SEPTEMBER)
-        cls._insert_block(
-            calc_christ_king(year),
-            CHRIST_KING
-        )
+        cls._insert_block(calc_holy_name(year), HOLY_NAME)
+        cls._insert_block(calc_ember_wednesday_september(year), EMBER_DAYS_SEPTEMBER)
+        cls._insert_block(calc_christ_king(year), CHRIST_KING)
         if calc_sunday_christmas_octave(year):
-            cls._insert_block(
-                calc_sunday_christmas_octave(year),
-                SUNDAY_IN_CHRISTMAS_OCTAVE
-            )
+            cls._insert_block(calc_sunday_christmas_octave(year), SUNDAY_IN_CHRISTMAS_OCTAVE)
 
     @classmethod
     def _fill_in_sancti_days(cls):
@@ -223,8 +200,7 @@ class MissalFactory(object):
         """
         for date_, lit_day_container in cls.missal.items():
             date_id = date_.strftime("%m-%d")
-            days = [LiturgicalDay(ii, date_) for ii in SANCTI
-                    if ii.startswith("sancti:{}".format(date_id))]
+            days = [LiturgicalDay(ii, date_) for ii in SANCTI if ii.startswith("sancti:{}".format(date_id))]
             lit_day_container.propers.extend(days)
             lit_day_container.propers.sort(reverse=True)
 
@@ -234,22 +210,15 @@ class MissalFactory(object):
         Days normally ascribed to a specific date, but in
         certain conditions moved to other dates
         """
-        day = calc_all_souls(year)
-        cls.missal[day].propers.append(
-            LiturgicalDay(SANCTI_11_02, day))
-        cls.missal[day].propers.sort(reverse=True)
-
-        day = calc_st_matthias(year)
-        cls.missal[day].propers.append(LiturgicalDay(SANCTI_02_24, day))
-        cls.missal[day].propers.sort(reverse=True)
-
-        day = calc_feb_27(year)
-        cls.missal[day].propers.append(LiturgicalDay(SANCTI_02_27, day))
-        cls.missal[day].propers.sort(reverse=True)
+        for calc_func, day_id in ((calc_all_souls, SANCTI_11_02),
+                                  (calc_st_matthias, SANCTI_02_24),
+                                  (calc_feb_27, SANCTI_02_27)):
+            day = calc_func(year)
+            cls.missal[day].propers.append(LiturgicalDay(day_id, day))
+            cls.missal[day].propers.sort(reverse=True)
 
     @classmethod
-    def _insert_block(cls, start_date, block, stop_date=None,
-                      reverse=False, overwrite=True):
+    def _insert_block(cls, start_date, block, stop_date=None, reverse=False, overwrite=True):
         """ Insert a block of related `LiturgicalDay` objects.
 
         :param start_date: date where first or last (if `reverse`=True)
@@ -276,10 +245,8 @@ class MissalFactory(object):
         {
         ...
           datetime.date(2008, 1, 13): [<tempora:epi1-0:2>],
-          datetime.date(2008, 1, 14): [<tempora:epi1-1:4>,
-                                       <sancti:01-14_1:3>],
-          datetime.date(2008, 1, 15): [<tempora:epi1-2:4',
-                                       <sancti:01-15_1:3>],
+          datetime.date(2008, 1, 14): [<tempora:epi1-1:4>],
+          datetime.date(2008, 1, 15): [<tempora:epi1-2:4'],
         ...
         }
 

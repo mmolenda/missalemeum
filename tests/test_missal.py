@@ -24,23 +24,23 @@ with open(os.path.join(HERE, 'tempora_fixtures.json')) as fh:
 @pytest.mark.parametrize("year,dates", sorted(expected.items()))
 def test_tempora(year, dates):
     missal = MissalFactory.create(int(year))
-    assert _to_date_obj(dates[0]) == missal.get_day_by_id(TEMPORA_QUADP1_0)[0]
-    assert _to_date_obj(dates[1]) == missal.get_day_by_id(TEMPORA_QUADP3_3)[0]
-    assert _to_date_obj(dates[2]) == missal.get_day_by_id(TEMPORA_PASC0_0)[0]
-    assert _to_date_obj(dates[3]) == missal.get_day_by_id(TEMPORA_PASC5_4)[0]
-    assert _to_date_obj(dates[4]) == missal.get_day_by_id(TEMPORA_PASC7_0)[0]
-    assert _to_date_obj(dates[5]) == missal.get_day_by_id(TEMPORA_PENT01_4)[0]
-    assert _to_date_obj(dates[6]) == missal.get_day_by_id(TEMPORA_ADV1_0)[0]
+    assert _to_date_obj(dates[0]) == missal.get_day(TEMPORA_QUADP1_0)[0]
+    assert _to_date_obj(dates[1]) == missal.get_day(TEMPORA_QUADP3_3)[0]
+    assert _to_date_obj(dates[2]) == missal.get_day(TEMPORA_PASC0_0)[0]
+    assert _to_date_obj(dates[3]) == missal.get_day(TEMPORA_PASC5_4)[0]
+    assert _to_date_obj(dates[4]) == missal.get_day(TEMPORA_PASC7_0)[0]
+    assert _to_date_obj(dates[5]) == missal.get_day(TEMPORA_PENT01_4)[0]
+    assert _to_date_obj(dates[6]) == missal.get_day(TEMPORA_ADV1_0)[0]
     # TEMPORA_EPI4_0 might not exist in given year, then None is returned
-    actual = missal.get_day_by_id(TEMPORA_EPI4_0)[0] if \
-        missal.get_day_by_id(TEMPORA_EPI4_0) else None
+    actual = missal.get_day(TEMPORA_EPI4_0)[0] if \
+        missal.get_day(TEMPORA_EPI4_0) else None
     assert _to_date_obj(dates[7]) == actual
-    assert _to_date_obj(dates[8]) == missal.get_day_by_id(TEMPORA_PENT_6)[0]
-    assert _to_date_obj(dates[9]) == missal.get_day_by_id(NAT2_0)[0]
-    assert _to_date_obj(dates[10]) == missal.get_day_by_id(SANCTI_10_DUr)[0]
+    assert _to_date_obj(dates[8]) == missal.get_day(TEMPORA_PENT_6)[0]
+    assert _to_date_obj(dates[9]) == missal.get_day(NAT2_0)[0]
+    assert _to_date_obj(dates[10]) == missal.get_day(SANCTI_10_DUr)[0]
     # NAT1_0 might not exist in given year, then None is returned
-    actual = missal.get_day_by_id(NAT1_0)[0] if \
-        missal.get_day_by_id(NAT1_0) else None
+    actual = missal.get_day(NAT1_0)[0] if \
+        missal.get_day(NAT1_0) else None
     assert _to_date_obj(dates[11]) == actual
 
 
@@ -61,13 +61,13 @@ def test_tempora(year, dates):
     (SANCTI_02_27, (2018, 2, 27))
 ])
 def test_semi_sancti_days_fall_on_proper_date(day_id, expected_date):
-    assert MissalFactory.create(expected_date[0]).get_day_by_id(day_id)[0] == date(*expected_date)
+    assert MissalFactory.create(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
 
 
 @pytest.mark.parametrize("date_,expected_day_ids", [
     # Dec 08 Immaculate Conception of BVM
-    ((1907, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_0]),
-    ((1912, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_0]),
+    ((1907, 12, 8), [SANCTI_12_08]),
+    ((1912, 12, 8), [SANCTI_12_08]),
     ((1913, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_1]),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
     ((2013, 1, 6), [SANCTI_01_06]),

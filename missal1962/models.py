@@ -1,40 +1,18 @@
-from collections import OrderedDict
 import re
+from collections import OrderedDict
 from datetime import date, timedelta
 
-from constants import *
-
-patterns = {
-    'advent-sunday': re.compile(r'^tempora:Adv\d-0'),
-    'advent-feria-between-17-and-23': re.compile('tempora:Adv\d-[1-6]'),
-    'tempora-sunday-class-2': re.compile(r'^tempora:.*-0:2$'),
-    'sancti-sunday-class-1-or-2': re.compile(r'^sancti:.*:[12]$')
-}
-
-
-TEMPORA_RANK_MAP = (
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 17, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 18, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 19, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 20, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 21, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 22, "rank": 2},
-    {"pattern": patterns['advent-feria-between-17-and-23'], "month": 12, "day": 23, "rank": 2},
-)
-
-WEEKDAY_MAPPING = {
-    '0': 6,
-    '1': 0,
-    '2': 1,
-    '3': 2,
-    '4': 3,
-    '5': 4,
-    '6': 5,
-    '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
-}
+from constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
 
 
 class LiturgicalDayContainer(object):
+    """ Class used to keep `LiturgicalDay` objects for particular days of Missal.
+
+    It contains three lists: `tempora`, `propers` and `commemoration`.
+    On Missal's creation the lists are filled in so that `tempora` always contains `LiturgicalDay` representing
+    given variable day, `propers` contains a LiturgicalDay representing proper for this day's mass and `commemoration`
+    contains zero or more `LiturgicalDays` that should be commemorated with the main proper.
+    """
     tempora = None
     propers = None
     commemoration = None
@@ -51,21 +29,24 @@ class LiturgicalDayContainer(object):
 class Missal(OrderedDict):
     """ Class representing a Missal.
 
-    It's an ordered dict of LiturgicalDayContainers where each key is a `date` object and value
-    is a list containing `LiturgicalDay` objects. Example:
+    It's an ordered dict of `LiturgicalDayContainer`s where each key is a `date` object and value
+    is a `LiturgicalDayContainer` containing `LiturgicalDay` objects organized inside container's members. Example:
 
     {
       ...
-      datetime.date(2008, 5, 3): [<tempora:Pasc5-6:4>,
-                                  <sancti:05-03-1:1>],
-      datetime.date(2008, 5, 4): [<tempora:Pasc6-0:2>, <sancti:05-04-1:3>],
-      datetime.date(2008, 5, 5): [<tempora:Pasc6-1:4>, <sancti:05-05-1:3>],
-      datetime.date(2008, 5, 6): [<tempora:Pasc6-2:4>],
+      datetime.date(2008, 5, 3): LiturgicalDayContainer(tempora:[<tempora:Pasc5-6:4>]
+                                                        propers:[<tempora:Pasc5-6:4>, <sancti:05-03-1:1>])
+      datetime.date(2008, 5, 4): LiturgicalDayContainer(tempora:[<tempora:Pasc6-0:2>],
+                                                        propers:[<tempora:Pasc6-0:2>, <sancti:05-04-1:3>])
+      datetime.date(2008, 5, 5): LiturgicalDayContainer(tempora:[<tempora:Pasc6-1:4>],
+                                                        propers:[<tempora:Pasc6-1:4>, <sancti:05-05-1:3>])
+      datetime.date(2008, 5, 6): LiturgicalDayContainer(tempora:[<tempora:Pasc6-2:4>],
+                                                        propers:[<tempora:Pasc6-2:4>])
       ...
     }
     """
     def __init__(self, year):
-        """ Build an empty missal and fill it in with liturgical days' objects
+        """ Build a missal and fill it in with empty `LiturgicalDayContainer` objects
         """
         super(Missal, self).__init__()
         self._build_empty_missal(year)
@@ -76,11 +57,11 @@ class Missal(OrderedDict):
             self[day] = LiturgicalDayContainer()
             day += timedelta(days=1)
 
-    def get_day_by_id(self, day_id):
+    def get_day(self, day_id):
         """ Return a day representation by liturgical day ID
 
-        :param dayid: liturgical days'identifier, for example TEMPORA_EPI6_0
-        :type dayid: string
+        :param day_id: liturgical days'identifier, for example TEMPORA_EPI6_0
+        :type day_id: string
         :return: day representation
         :rtype: list(datetime, list)
         """
@@ -99,20 +80,19 @@ class LiturgicalDay(object):
       'tempora:Epi2-4:4'
       rank: 4
       weekday: 3
-      name = Epi2-4
+      name: Epi2-4
 
     Each identifier consists of three colon-separated elements:
       flexibility - determines if it's a fixed (sancti) or movable (tempora) liturgical day
       identifier - a unique human readable day identifier. In case of movable
         days it's a day's name, in case of 'sancti' days it contains a date
-        in format %m-%d and a consecutive number
+        in format %m-%d
       rank - day's class, a number between 1 and 4
 
     Example:
       'tempora:Epi2-3:4' - means movable day of fourth class
         which is third feria day (Wednesday) in second week after Epiphany
-      'sancti:11_19_2:4' - means second fixed day of fourth class
-        falling on 19 Nov
+      'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
     """
     def __init__(self, day_id, day):
         """ Build a Liturgical day out of identifier and calendar date
@@ -142,8 +122,7 @@ class LiturgicalDay(object):
           while other feria Advent days are 3 class;
         """
         for case in TEMPORA_RANK_MAP:
-            if day.month == case['month'] and day.day == case['day'] \
-                    and re.match(case['pattern'], day_id):
+            if day.month == case['month'] and day.day == case['day'] and re.match(case['pattern'], day_id):
                 return case['rank']
         return original_rank
 
