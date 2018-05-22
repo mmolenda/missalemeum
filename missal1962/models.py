@@ -8,22 +8,22 @@ from constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
 class LiturgicalDayContainer(object):
     """ Class used to keep `LiturgicalDay` objects for particular days of Missal.
 
-    It contains three lists: `tempora`, `propers` and `commemoration`.
+    It contains three lists: `tempora`, `celebration` and `commemoration`.
     On Missal's creation the lists are filled in so that `tempora` always contains `LiturgicalDay` representing
-    given variable day, `propers` contains a LiturgicalDay representing proper for this day's mass and `commemoration`
-    contains zero or more `LiturgicalDays` that should be commemorated with the main proper.
+    given variable day, `celebration` contains a LiturgicalDay representing proper for this day's mass and
+    `commemoration` contains zero or more `LiturgicalDays` that should be commemorated with the main proper.
     """
     tempora = None
-    propers = None
+    celebration = None
     commemoration = None
 
     def __init__(self):
         self.tempora = []
-        self.propers = []
+        self.celebration = []
         self.commemoration = []
 
     def __str__(self):
-        return str(self.tempora) + str(self.propers)
+        return str(self.tempora) + str(self.celebration)
 
 
 class Missal(OrderedDict):
@@ -66,7 +66,7 @@ class Missal(OrderedDict):
         :rtype: list(datetime, list)
         """
         for day in self.items():
-            if day_id in [ii.id for ii in day[1].propers]:
+            if day_id in [ii.id for ii in day[1].celebration]:
                 return day
 
 

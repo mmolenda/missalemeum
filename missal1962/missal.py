@@ -201,8 +201,8 @@ class MissalFactory(object):
         for date_, lit_day_container in cls.missal.items():
             date_id = date_.strftime("%m-%d")
             days = [LiturgicalDay(ii, date_) for ii in SANCTI if ii.startswith("sancti:{}".format(date_id))]
-            lit_day_container.propers.extend(days)
-            lit_day_container.propers.sort(reverse=True)
+            lit_day_container.celebration.extend(days)
+            lit_day_container.celebration.sort(reverse=True)
 
     @classmethod
     def _fill_in_semi_sancti_days(cls, year):
@@ -214,8 +214,8 @@ class MissalFactory(object):
                                   (calc_st_matthias, SANCTI_02_24),
                                   (calc_feb_27, SANCTI_02_27)):
             day = calc_func(year)
-            cls.missal[day].propers.append(LiturgicalDay(day_id, day))
-            cls.missal[day].propers.sort(reverse=True)
+            cls.missal[day].celebration.append(LiturgicalDay(day_id, day))
+            cls.missal[day].celebration.sort(reverse=True)
 
     @classmethod
     def _insert_block(cls, start_date, block, stop_date=None, reverse=False, overwrite=True):
@@ -274,18 +274,18 @@ class MissalFactory(object):
             if not day_ids:
                 continue
             # break on first non-empty day
-            if cls.missal[index].propers and not overwrite:
+            if cls.missal[index].celebration and not overwrite:
                 break
             # break on stop date
-            if stop_date == cls.missal[index - timedelta(days=1)].propers:
+            if stop_date == cls.missal[index - timedelta(days=1)].celebration:
                 break
             cls.missal[index].tempora = [LiturgicalDay(day_id, index) for day_id in day_ids]
-            cls.missal[index].propers = copy(cls.missal[index].tempora)
+            cls.missal[index].celebration = copy(cls.missal[index].tempora)
 
     @classmethod
     def _resolve_concurrency(cls):
         for day, lit_days in cls.missal.items():
-            cls.missal[day].propers = cls._inner_resolve_concurrency(day, lit_days.propers)
+            cls.missal[day].celebration = cls._inner_resolve_concurrency(day, lit_days.celebration)
 
     @classmethod
     def _inner_resolve_concurrency(cls, day, lit_days):
