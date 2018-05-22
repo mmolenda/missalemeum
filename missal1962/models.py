@@ -34,10 +34,24 @@ WEEKDAY_MAPPING = {
 }
 
 
+class LiturgicalDayContainer(object):
+    tempora = None
+    propers = None
+    commemoration = None
+
+    def __init__(self):
+        self.tempora = []
+        self.propers = []
+        self.commemoration = []
+
+    def __str__(self):
+        return str(self.tempora) + str(self.propers)
+
+
 class Missal(OrderedDict):
     """ Class representing a Missal.
 
-    It's an ordered dict of lists where each key is a `date` object and value
+    It's an ordered dict of LiturgicalDayContainers where each key is a `date` object and value
     is a list containing `LiturgicalDay` objects. Example:
 
     {
@@ -59,7 +73,7 @@ class Missal(OrderedDict):
     def _build_empty_missal(self, year):
         day = date(year, 1, 1)
         while day.year == year:
-            self[day] = []
+            self[day] = LiturgicalDayContainer()
             day += timedelta(days=1)
 
     def get_day_by_id(self, day_id):
@@ -71,7 +85,7 @@ class Missal(OrderedDict):
         :rtype: list(datetime, list)
         """
         for day in self.items():
-            if day_id in [ii.id for ii in day[1]]:
+            if day_id in [ii.id for ii in day[1].propers]:
                 return day
 
 

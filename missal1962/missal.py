@@ -3,11 +3,11 @@
 """
 Missal 1962
 """
-import os
 import re
 import sys
 import logging
 from calendar import isleap
+from copy import copy
 from datetime import date, timedelta
 from dateutil.easter import easter
 
@@ -221,12 +221,12 @@ class MissalFactory(object):
         """
         Days ascribed to a specific date
         """
-        for date_, contents in cls.missal.items():
+        for date_, lit_day_container in cls.missal.items():
             date_id = date_.strftime("%m-%d")
             days = [LiturgicalDay(ii, date_) for ii in SANCTI
                     if ii.startswith("sancti:{}".format(date_id))]
-            contents.extend(days)
-            contents.sort(reverse=True)
+            lit_day_container.propers.extend(days)
+            lit_day_container.propers.sort(reverse=True)
 
     @classmethod
     def _fill_in_semi_sancti_days(cls, year):
@@ -235,17 +235,17 @@ class MissalFactory(object):
         certain conditions moved to other dates
         """
         day = calc_all_souls(year)
-        cls.missal[day].append(
+        cls.missal[day].propers.append(
             LiturgicalDay(SANCTI_11_02, day))
-        cls.missal[day].sort(reverse=True)
+        cls.missal[day].propers.sort(reverse=True)
 
         day = calc_st_matthias(year)
-        cls.missal[day].append(LiturgicalDay(SANCTI_02_24, day))
-        cls.missal[day].sort(reverse=True)
+        cls.missal[day].propers.append(LiturgicalDay(SANCTI_02_24, day))
+        cls.missal[day].propers.sort(reverse=True)
 
         day = calc_feb_27(year)
-        cls.missal[day].append(LiturgicalDay(SANCTI_02_27, day))
-        cls.missal[day].sort(reverse=True)
+        cls.missal[day].propers.append(LiturgicalDay(SANCTI_02_27, day))
+        cls.missal[day].propers.sort(reverse=True)
 
     @classmethod
     def _insert_block(cls, start_date, block, stop_date=None,
@@ -307,18 +307,18 @@ class MissalFactory(object):
             if not day_ids:
                 continue
             # break on first non-empty day
-            if cls.missal[index] and not overwrite:
+            if cls.missal[index].propers and not overwrite:
                 break
             # break on stop date
-            if stop_date == cls.missal[index - timedelta(days=1)]:
+            if stop_date == cls.missal[index - timedelta(days=1)].propers:
                 break
-            cls.missal[index] = [LiturgicalDay(day_id, index)
-                                 for day_id in day_ids]
+            cls.missal[index].tempora = [LiturgicalDay(day_id, index) for day_id in day_ids]
+            cls.missal[index].propers = copy(cls.missal[index].tempora)
 
     @classmethod
     def _resolve_concurrency(cls):
         for day, lit_days in cls.missal.items():
-            cls.missal[day] = cls._inner_resolve_concurrency(day, lit_days)
+            cls.missal[day].propers = cls._inner_resolve_concurrency(day, lit_days.propers)
 
     @classmethod
     def _inner_resolve_concurrency(cls, day, lit_days):
@@ -342,3 +342,9 @@ if __name__ == '__main__':
         if k.weekday() == 6:
             log.info("---")
         log.info("%s %s %s", k.strftime('%A'), k, v)
+
+        # for fn in v:
+        #     pth = "/Users/mmolenda/prv/divinum-officium/web/www/missa/Polski/{}/{}.txt".format(
+        #         fn.flexibility.capitalize(), fn.name)
+        #     if not os.path.isfile(pth):
+        #         print("Missing " + pth)

@@ -81,7 +81,7 @@ def test_semi_sancti_days_fall_on_proper_date(day_id, expected_date):
     ((2000, 12, 24), [SANCTI_12_24])
 ])
 def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
-    assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)]] == expected_day_ids
+    assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)].propers] == expected_day_ids
 
 
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
