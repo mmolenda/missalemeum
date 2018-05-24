@@ -1,7 +1,13 @@
 import re
 
+TYPE_TEMPORA = 'tempora'
+TYPE_SANCTI = 'sancti'
+
+PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
 PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]')
+PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0:\d$')
+PATTERN_TEMPORA_SUNDAY_CLASS_1 = re.compile(r'^tempora:.*-0:1$')
 PATTERN_TEMPORA_SUNDAY_CLASS_2 = re.compile(r'^tempora:.*-0:2$')
 PATTERN_SANCTI_CLASS_1_OR_2 = re.compile(r'^sancti:.*:[12]$')
 TEMPORA_RANK_MAP = (
@@ -23,9 +29,6 @@ WEEKDAY_MAPPING = {
     '6': 5,
     '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
 }
-
-TYPE_TEMPORA = 'tempora'
-TYPE_SANCTI = 'sancti'
 
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 

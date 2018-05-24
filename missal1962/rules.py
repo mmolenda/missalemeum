@@ -3,26 +3,41 @@
 """
 Rules for solving conflicts between liturgical days occurring at same date
 """
+from calendar import isleap
 
 from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
-from constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0
+from constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_11_24, SANCTI_02_24, \
+    SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY
 from constants import PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
 
 rules = (
     # Immaculate Conception of BMV takes precedence before encountered Advent Sunday.
-    (lambda day, lit_days_ids: SANCTI_12_08 in lit_days_ids and day.weekday() == 6,
-     (SANCTI_12_08, )),
+    (lambda day, ids: SANCTI_12_08 in ids and day.weekday() == 6,
+     ((SANCTI_12_08, ), (), ())),
+
+    # Nativity Vigil takes place of 4th Advent Sunday.
+    (lambda day, ids: SANCTI_12_24 in ids and day.weekday() == 6,
+     ((SANCTI_12_24, ), (), ())),
 
     # A 1st or 2nd class feast of the Lord occurring on a Sunday
     # takes the place of that Sunday with all rights and privileges;
     # hence there is no commemoration of the Sunday.
-    (lambda day, lit_days_ids: SANCTI_01_13 in lit_days_ids and TEMPORA_EPI1_0 in lit_days_ids,
-     (TEMPORA_EPI1_0,)),
-    (lambda day, lit_days_ids: set(FEASTS_OF_JESUS_CLASS_1_AND_2).intersection(set(lit_days_ids)) and
-                               any([PATTERN_TEMPORA_SUNDAY_CLASS_2.match(i) for i in lit_days_ids]),
-     (PATTERN_SANCTI_CLASS_1_OR_2, )),
+    (lambda day, ids: SANCTI_01_13 in ids and TEMPORA_EPI1_0 in ids,
+     ((TEMPORA_EPI1_0, ), (), ())),
+    (lambda day, ids: set(FEASTS_OF_JESUS_CLASS_1_AND_2).intersection(set(ids)) and
+                               any([PATTERN_TEMPORA_SUNDAY_CLASS_2.match(i) for i in ids]),
+     ((PATTERN_SANCTI_CLASS_1_OR_2, ), (), ())),
 
-    # Nativity Vigil takes place of 4th Advent Sunday.
-    (lambda day, lit_days_ids: SANCTI_12_24 in lit_days_ids and day.weekday() == 6,
-     (SANCTI_12_24, ))
+    # St. Matthias the Apostle, normally on Feb 24, but in leap year on Feb 25
+    (lambda day, ids: SANCTI_02_24 in ids and isleap(day.year) and day.day == 24,
+     ((PATTERN_TEMPORA, ), (), ((2, 25, SANCTI_02_24), ))),
+
+    # Feb 27, normally on Feb 27 but in leap year on Feb 28
+    (lambda day, ids: SANCTI_02_27 in ids and isleap(day.year) and day.day == 27,
+     ((PATTERN_TEMPORA, ), (), ((2, 28, SANCTI_02_27), ))),
+
+    # All Souls Day; if not Sunday - Nov 2, else Nov 3
+    (lambda day, ids: SANCTI_11_02 in ids and day.weekday() == 6,
+     ((PATTERN_TEMPORA_SUNDAY, ), (), ((11, 3, SANCTI_11_02), ))),
+
 )

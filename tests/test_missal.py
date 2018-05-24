@@ -60,7 +60,7 @@ def test_tempora(year, dates):
     (SANCTI_02_24, (2018, 2, 24)),
     (SANCTI_02_27, (2018, 2, 27))
 ])
-def test_semi_sancti_days_fall_on_proper_date(day_id, expected_date):
+def test_sancti_shifted(day_id, expected_date):
     assert MissalFactory.create(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
 
 

@@ -3,10 +3,9 @@
 """
 Missal 1962
 """
-import re
 import sys
 import logging
-from calendar import isleap
+from collections import defaultdict
 from copy import copy
 from datetime import date, timedelta
 from dateutil.easter import easter
@@ -137,30 +136,6 @@ def calc_sunday_christmas_octave(year):
     return None
 
 
-def calc_all_souls(year):
-    """
-    All Souls Day; if not Sunday - Nov 2, else Nov 3
-    """
-    d = date(year, 11, 2)
-    if d.weekday() == 6:
-        return date(year, 11, 3)
-    return d
-
-
-def calc_st_matthias(year):
-    """
-    St. Matthias the Apostle, normally on Feb 24, but in leap year on Feb 25
-    """
-    return date(year, 2, 24) if not isleap(year) else date(year, 2, 25)
-
-
-def calc_feb_27(year):
-    """
-    Feb 27, normally on Feb 27 but in leap year on Feb 28
-    """
-    return date(year, 2, 27) if not isleap(year) else date(year, 2, 28)
-
-
 class MissalFactory(object):
 
     missal = None
@@ -170,7 +145,6 @@ class MissalFactory(object):
         cls.missal = Missal(year)
         cls._fill_in_tempora_days(year)
         cls._fill_in_sancti_days()
-        cls._fill_in_semi_sancti_days(year)
         cls._resolve_concurrency()
         return cls.missal
 
@@ -203,19 +177,6 @@ class MissalFactory(object):
             days = [LiturgicalDay(ii, date_) for ii in SANCTI if ii.startswith("sancti:{}".format(date_id))]
             lit_day_container.celebration.extend(days)
             lit_day_container.celebration.sort(reverse=True)
-
-    @classmethod
-    def _fill_in_semi_sancti_days(cls, year):
-        """
-        Days normally ascribed to a specific date, but in
-        certain conditions moved to other dates
-        """
-        for calc_func, day_id in ((calc_all_souls, SANCTI_11_02),
-                                  (calc_st_matthias, SANCTI_02_24),
-                                  (calc_feb_27, SANCTI_02_27)):
-            day = calc_func(year)
-            cls.missal[day].celebration.append(LiturgicalDay(day_id, day))
-            cls.missal[day].celebration.sort(reverse=True)
 
     @classmethod
     def _insert_block(cls, start_date, block, stop_date=None, reverse=False, overwrite=True):
@@ -284,21 +245,37 @@ class MissalFactory(object):
 
     @classmethod
     def _resolve_concurrency(cls):
-        for day, lit_days in cls.missal.items():
-            cls.missal[day].celebration = cls._inner_resolve_concurrency(day, lit_days.celebration)
+        shifted_all = defaultdict(list)
+        for day, lit_day_container in cls.missal.items():
+            celebration, commemoration, shifted = cls._resolve_day_concurrency(
+                day, lit_day_container.celebration + shifted_all.pop(day, []))
+            cls.missal[day].celebration = celebration
+            cls.missal[day].commemoration = commemoration
+            for k, v in shifted.items():
+                shifted_all[k].extend(v)
 
     @classmethod
-    def _inner_resolve_concurrency(cls, day, lit_days):
-        lit_days_ids = [ld.id for ld in lit_days]
-        for condition, patterns in rules:
+    def _resolve_day_concurrency(cls, day, celebration_org):
+        lit_days_ids = [ld.id for ld in celebration_org]
+        for condition, patterns_sets in rules:
             if condition(day, lit_days_ids):
-                new_days = []
-                for pattern in patterns:
-                    for lit_day in lit_days:
+                celebration = commemoration = []
+                shifted = defaultdict(list)
+                celebration_patterns, commemoration_patterns, shifted_patterns = patterns_sets
+                for pattern in celebration_patterns:
+                    for lit_day in celebration_org:
                         if re.match(pattern, lit_day.id):
-                            new_days.append(lit_day)
-                return new_days
-        return lit_days
+                            celebration.append(lit_day)
+                for pattern in commemoration_patterns:
+                    for lit_day in celebration_org:
+                        if re.match(pattern, lit_day.id):
+                            commemoration.append(lit_day)
+                for shifted_month, shifted_day, pattern in shifted_patterns:
+                    for lit_day in celebration_org:
+                        if re.match(pattern, lit_day.id):
+                            shifted[date(day.year, shifted_month, shifted_day)].append(lit_day)
+                return celebration, commemoration, shifted
+        return celebration_org, [], {}
 
 
 if __name__ == '__main__':
