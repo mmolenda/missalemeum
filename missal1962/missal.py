@@ -259,7 +259,8 @@ class MissalFactory(object):
         lit_days_ids = [ld.id for ld in celebration_org]
         for condition, patterns_sets in rules:
             if condition(day, lit_days_ids):
-                celebration = commemoration = []
+                celebration = []
+                commemoration = []
                 shifted = defaultdict(list)
                 celebration_patterns, commemoration_patterns, shifted_patterns = patterns_sets
                 for pattern in celebration_patterns:

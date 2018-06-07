@@ -9,6 +9,8 @@ PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]')
 PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0:\d$')
 PATTERN_TEMPORA_SUNDAY_CLASS_1 = re.compile(r'^tempora:.*-0:1$')
 PATTERN_TEMPORA_SUNDAY_CLASS_2 = re.compile(r'^tempora:.*-0:2$')
+PATTERN_SANCTI_CLASS_1 = re.compile(r'^sancti:.*:1$')
+PATTERN_SANCTI_CLASS_2 = re.compile(r'^sancti:.*:2$')
 PATTERN_SANCTI_CLASS_1_OR_2 = re.compile(r'^sancti:.*:[12]$')
 TEMPORA_RANK_MAP = (
     {"pattern": PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, "month": 12, "day": 17, "rank": 2},

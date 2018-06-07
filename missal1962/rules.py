@@ -7,7 +7,7 @@ from calendar import isleap
 
 from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
 from constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_11_24, SANCTI_02_24, \
-    SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY
+    SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, PATTERN_SANCTI_CLASS_2
 from constants import PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
 
 rules = (
@@ -40,4 +40,8 @@ rules = (
     (lambda day, ids: SANCTI_11_02 in ids and day.weekday() == 6,
      ((PATTERN_TEMPORA_SUNDAY, ), (), ((11, 3, SANCTI_11_02), ))),
 
+    # When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
+    (lambda day, ids: any([PATTERN_TEMPORA_SUNDAY_CLASS_2.match(i) for i in ids]) and
+                      any([PATTERN_SANCTI_CLASS_2.match(i) for i in ids]),
+     ((PATTERN_TEMPORA_SUNDAY_CLASS_2, ), (PATTERN_SANCTI_CLASS_2, ), ())),
 )

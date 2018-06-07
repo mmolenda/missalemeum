@@ -83,6 +83,17 @@ def test_sancti_shifted(day_id, expected_date):
 def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)].celebration] == expected_day_ids
 
+@pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
+    ((1996, 9, 8), [TEMPORA_PENT15_0], [SANCTI_09_08]),
+    ((2009, 7, 26), [TEMPORA_PENT08_0], [SANCTI_07_26]),
+    ((2019, 9, 15), [TEMPORA_PENT14_0], [SANCTI_09_15]),
+    ((2018, 10, 7), [TEMPORA_PENT20_0], [SANCTI_10_07]),
+])
+def test_occurence_of_2nd_class_sunday_and_2nd_class_feast(date_, expected_celebration, expected_commemoration):
+    missal = MissalFactory.create(date_[0])
+    assert [i.id for i in missal[date(*date_)].celebration] == expected_celebration
+    assert [i.id for i in missal[date(*date_)].commemoration] == expected_commemoration
+
 
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
     (TEMPORA_EPI2_3, (2002, 1, 23), 2),
