@@ -23,7 +23,7 @@ class LiturgicalDayContainer(object):
         self.commemoration = []
 
     def __str__(self):
-        return str(self.tempora) + str(self.celebration)
+        return str(self.tempora) + str(self.celebration) + str(self.commemoration)
 
 
 class Missal(OrderedDict):

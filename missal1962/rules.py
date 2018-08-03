@@ -7,7 +7,8 @@ from calendar import isleap
 
 from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
 from constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_11_24, SANCTI_02_24, \
-    SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, PATTERN_SANCTI_CLASS_2
+    SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, PATTERN_SANCTI_CLASS_2, TEMPORA_QUADP3_3, TEMPORA_QUAD6_1, \
+    TEMPORA_QUAD6_2, TEMPORA_QUAD6_3, TEMPORA_QUAD6_4, TEMPORA_QUAD6_5, TEMPORA_QUAD6_6, TEMPORA_PASC0_0
 from constants import PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
 
 rules = (
@@ -44,4 +45,15 @@ rules = (
     (lambda day, ids: any([PATTERN_TEMPORA_SUNDAY_CLASS_2.match(i) for i in ids]) and
                       any([PATTERN_SANCTI_CLASS_2.match(i) for i in ids]),
      ((PATTERN_TEMPORA_SUNDAY_CLASS_2, ), (PATTERN_SANCTI_CLASS_2, ), ())),
+
+    # Ash wednesday and holy week always wins
+    (lambda day, ids: {TEMPORA_QUAD6_1,
+                       TEMPORA_QUAD6_2,
+                       TEMPORA_QUAD6_3,
+                       TEMPORA_QUAD6_4,
+                       TEMPORA_QUAD6_5,
+                       TEMPORA_QUAD6_6,
+                       TEMPORA_PASC0_0,
+                       TEMPORA_QUADP3_3}.intersection(set(ids)),
+     ((PATTERN_TEMPORA, ), (), ())),
 )

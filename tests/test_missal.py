@@ -83,13 +83,27 @@ def test_sancti_shifted(day_id, expected_date):
 def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)].celebration] == expected_day_ids
 
+
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
+    # occurence of 2nd class sunday and 2nd class feast
     ((1996, 9, 8), [TEMPORA_PENT15_0], [SANCTI_09_08]),
     ((2009, 7, 26), [TEMPORA_PENT08_0], [SANCTI_07_26]),
     ((2019, 9, 15), [TEMPORA_PENT14_0], [SANCTI_09_15]),
     ((2018, 10, 7), [TEMPORA_PENT20_0], [SANCTI_10_07]),
+    # ash wednesday and weeks of holy week always win
+    ((2008, 2, 6), [TEMPORA_QUADP3_3], []),
+    ((2011, 3, 9), [TEMPORA_QUADP3_3], []),
+    ((2012, 2, 22), [TEMPORA_QUADP3_3], []),
+    ((2015, 2, 18), [TEMPORA_QUADP3_3], []),
+    ((2044, 4, 11), [TEMPORA_QUAD6_1], []),
+    ((2018, 3, 27), [TEMPORA_QUAD6_2], []),
+    ((2044, 4, 13), [TEMPORA_QUAD6_3], []),
+    ((2044, 4, 14), [TEMPORA_QUAD6_4], []),
+    ((1952, 4, 11), [TEMPORA_QUAD6_5], []),
+    ((1954, 4, 17), [TEMPORA_QUAD6_6], []),
+    ((1960, 4, 17), [TEMPORA_PASC0_0], []),
 ])
-def test_occurence_of_2nd_class_sunday_and_2nd_class_feast(date_, expected_celebration, expected_commemoration):
+def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = MissalFactory.create(date_[0])
     assert [i.id for i in missal[date(*date_)].celebration] == expected_celebration
     assert [i.id for i in missal[date(*date_)].commemoration] == expected_commemoration
