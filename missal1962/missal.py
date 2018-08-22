@@ -12,9 +12,8 @@ from dateutil.easter import easter
 
 from blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
     EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
-from constants import *
 from models import LiturgicalDay, Missal
-from rules import rules
+import rules
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
@@ -247,36 +246,21 @@ class MissalFactory(object):
     def _resolve_concurrency(cls):
         shifted_all = defaultdict(list)
         for day, lit_day_container in cls.missal.items():
-            celebration, commemoration, shifted = cls._resolve_day_concurrency(
+            celebration, commemoration, shifted = cls._apply_rules(
                 day, lit_day_container.celebration + shifted_all.pop(day, []))
             cls.missal[day].celebration = celebration
             cls.missal[day].commemoration = commemoration
-            for k, v in shifted.items():
+            for k, v in shifted:
                 shifted_all[k].extend(v)
 
     @classmethod
-    def _resolve_day_concurrency(cls, day, celebration_org):
-        lit_days_ids = [ld.id for ld in celebration_org]
-        for condition, patterns_sets in rules:
-            if condition(day, lit_days_ids):
-                celebration = []
-                commemoration = []
-                shifted = defaultdict(list)
-                celebration_patterns, commemoration_patterns, shifted_patterns = patterns_sets
-                for pattern in celebration_patterns:
-                    for lit_day in celebration_org:
-                        if re.match(pattern, lit_day.id):
-                            celebration.append(lit_day)
-                for pattern in commemoration_patterns:
-                    for lit_day in celebration_org:
-                        if re.match(pattern, lit_day.id):
-                            commemoration.append(lit_day)
-                for shifted_month, shifted_day, pattern in shifted_patterns:
-                    for lit_day in celebration_org:
-                        if re.match(pattern, lit_day.id):
-                            shifted[date(day.year, shifted_month, shifted_day)].append(lit_day)
-                return celebration, commemoration, shifted
-        return celebration_org, [], {}
+    def _apply_rules(cls, day, celebration_org):
+        for rule_name in [i for i in dir(rules) if i.startswith('rule')]:
+            results = getattr(rules, rule_name)(day, celebration_org)
+            if results is None or not any(results):
+                continue
+            return results
+        return celebration_org, [], []
 
 
 if __name__ == '__main__':
