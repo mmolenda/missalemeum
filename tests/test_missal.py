@@ -102,6 +102,11 @@ def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     ((1952, 4, 11), [TEMPORA_QUAD6_5], []),
     ((1954, 4, 17), [TEMPORA_QUAD6_6], []),
     ((1960, 4, 17), [TEMPORA_PASC0_0], []),
+    # advent feria 17-24, ember days of lent, september and advent give away to 2nd class feast
+    ((2018, 2, 24), [SANCTI_02_24], [TEMPORA_QUAD1_6]),
+    ((1972, 2, 25), [SANCTI_02_24], [TEMPORA_QUAD1_6]),
+    ((2019, 9, 21), [SANCTI_09_21], [TEMPORA_PENT_6]),
+    ((2018, 12, 21), [SANCTI_12_21], [TEMPORA_ADV3_5]),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = MissalFactory.create(date_[0])

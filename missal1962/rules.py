@@ -6,12 +6,13 @@ Rules for solving conflicts between liturgical days occurring at same date
 import datetime
 from calendar import isleap
 
-from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2
+from blocks import FEASTS_OF_JESUS_CLASS_1_AND_2, EMBER_DAYS
 from constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_02_24, \
     SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, PATTERN_SANCTI_CLASS_2, TEMPORA_QUADP3_3, TEMPORA_QUAD6_1, \
-    TEMPORA_QUAD6_2, TEMPORA_QUAD6_3, TEMPORA_QUAD6_4, TEMPORA_QUAD6_5, TEMPORA_QUAD6_6, TEMPORA_PASC0_0
-from constants import PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
-from utils import ids, match
+    TEMPORA_QUAD6_2, TEMPORA_QUAD6_3, TEMPORA_QUAD6_4, TEMPORA_QUAD6_5, TEMPORA_QUAD6_6, TEMPORA_PASC0_0, \
+    PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23
+from missal1962.constants import PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
+from missal1962.utils import match
 
 
 def rule01_immaculate_coneption(day, lit_days):
@@ -74,3 +75,9 @@ def rule09_1st_class_feria(day, lit_days):
                         TEMPORA_PASC0_0,
                         TEMPORA_QUADP3_3]):
         return [match(lit_days, PATTERN_TEMPORA)], [], []
+
+
+def rule10_2nd_class_feast_takes_over_advent_feria_and_ember_days(day, lit_days):
+    look_for = EMBER_DAYS + (PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, )
+    if match(lit_days, look_for) and match(lit_days, PATTERN_SANCTI_CLASS_2):
+        return [match(lit_days, PATTERN_SANCTI_CLASS_2)], [match(lit_days, look_for)], []

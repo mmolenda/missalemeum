@@ -1,5 +1,5 @@
 
-from constants import *
+from missal1962.constants import *
 
 POST_EPIPHANY = (
     (TEMPORA_EPI1_0, ),
@@ -695,7 +695,7 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
     SANCTI_08_06,
 )
 
-EMBER_DAYS = [
+EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
     TEMPORA_QUAD1_5,  # Ember Friday of Lent
     TEMPORA_QUAD1_6,  # Ember Saturday of Lent
@@ -705,4 +705,4 @@ EMBER_DAYS = [
     TEMPORA_ADV3_3,  # Ember Wednesday in Advent
     TEMPORA_ADV3_5,  # Ember Friday in Advent
     TEMPORA_ADV3_6,  # Ember Saturday in Advent
-]
+)

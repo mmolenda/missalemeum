@@ -10,10 +10,10 @@ from copy import copy
 from datetime import date, timedelta
 from dateutil.easter import easter
 
-from blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
+from missal1962.blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
     EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
-from models import LiturgicalDay, Missal
-import rules
+from missal1962.models import LiturgicalDay, Missal
+from missal1962 import rules
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
