@@ -68,7 +68,7 @@ def test_sancti_shifted(day_id, expected_date):
     # Dec 08 Immaculate Conception of BVM
     ((1907, 12, 8), [SANCTI_12_08]),
     ((1912, 12, 8), [SANCTI_12_08]),
-    ((1913, 12, 8), [SANCTI_12_08, TEMPORA_ADV2_1]),
+    ((1913, 12, 8), [SANCTI_12_08]),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
     ((2013, 1, 6), [SANCTI_01_06]),
     ((2036, 1, 6), [SANCTI_01_06]),
@@ -104,7 +104,7 @@ def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     ((1960, 4, 17), [TEMPORA_PASC0_0], []),
     # advent feria 17-24, ember days of lent, september and advent give away to 2nd class feast
     ((2018, 2, 24), [SANCTI_02_24], [TEMPORA_QUAD1_6]),
-    ((1972, 2, 25), [SANCTI_02_24], [TEMPORA_QUAD1_6]),
+    ((1972, 2, 25), [SANCTI_02_24], [TEMPORA_QUAD1_5]),
     ((2019, 9, 21), [SANCTI_09_21], [TEMPORA_PENT_6]),
     ((2018, 12, 21), [SANCTI_12_21], [TEMPORA_ADV3_5]),
 ])

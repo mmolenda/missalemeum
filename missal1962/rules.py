@@ -81,3 +81,15 @@ def rule10_2nd_class_feast_takes_over_advent_feria_and_ember_days(day, lit_days)
     look_for = EMBER_DAYS + (PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, )
     if match(lit_days, look_for) and match(lit_days, PATTERN_SANCTI_CLASS_2):
         return [match(lit_days, PATTERN_SANCTI_CLASS_2)], [match(lit_days, look_for)], []
+
+
+def rule100(day, lit_days):
+    if len(lit_days) == 0:
+        return [], [], []
+    elif len(lit_days) == 1:
+        return lit_days, [], []
+    else:
+        sorted_days = sorted(lit_days, key=lambda x: x.rank)
+        if sorted_days[0].rank == sorted_days[1].rank:
+            sorted_days = sorted(lit_days, key=lambda x: x.flexibility)
+        return [sorted_days[0]], [sorted_days[1]], []
