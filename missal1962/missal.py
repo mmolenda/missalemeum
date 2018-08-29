@@ -276,18 +276,16 @@ if __name__ == '__main__':
         collect = []
         padding = 40
         for i in ('tempora', 'celebration', 'commemoration'):
-            title = str(getattr(v, i)[0].title) if getattr(v, i) else '-'
-            if len(title) > padding:
-                title = title[:padding - 3] + '…'
-            collect.append(title)
+            items = getattr(v, i, None)
+            if not items:
+                collect.append('-')
+            else:
+                repr_ = f"[{items[0].name}] {items[0].title}"
+                if len(repr_) > padding:
+                    repr_ = repr_[:padding - 3] + '…'
+                collect.append(repr_)
         te, ce, co = collect
         if te == ce:
             te = '-'
         log.info("%s %s %s %s", k.strftime('%A %Y-%m-%d').ljust(padding),
                  te.ljust(padding), ce.ljust(padding), co.ljust(padding))
-
-        # for fn in v:
-        #     pth = "/Users/mmolenda/prv/divinum-officium/web/www/missa/Polski/{}/{}.txt".format(
-        #         fn.flexibility.capitalize(), fn.name)
-        #     if not os.path.isfile(pth):
-        #         print("Missing " + pth)

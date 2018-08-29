@@ -89,7 +89,5 @@ def rule100(day, lit_days):
     elif len(lit_days) == 1:
         return lit_days, [], []
     else:
-        sorted_days = sorted(lit_days, key=lambda x: x.rank)
-        if sorted_days[0].rank == sorted_days[1].rank:
-            sorted_days = sorted(lit_days, key=lambda x: x.flexibility)
-        return [sorted_days[0]], [sorted_days[1]], []
+        first, second = sorted(lit_days, key=lambda x: (x.rank, x.flexibility))[:2]
+        return [first], [], []
