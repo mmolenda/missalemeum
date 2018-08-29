@@ -3,6 +3,7 @@ from collections import OrderedDict
 from datetime import date, timedelta
 
 from constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
+from resources import titles_pl
 
 
 class LiturgicalDayContainer(object):
@@ -110,6 +111,7 @@ class LiturgicalDay(object):
         self.name = name
         self.rank = self._determine_rank(day_id, day, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
+        self.title = titles_pl.titles.get(day_id)
         if flexibility == TYPE_TEMPORA:
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:

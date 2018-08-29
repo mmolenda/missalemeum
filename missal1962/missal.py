@@ -266,7 +266,6 @@ class MissalFactory(object):
 if __name__ == '__main__':
     year = int(sys.argv[1]) if len(sys.argv) > 1 else date.today().year
     missal = MissalFactory.create(year)
-    padding = 28
 
     for k, v in missal.items():
         if k.weekday() == 6:
@@ -274,11 +273,18 @@ if __name__ == '__main__':
         if k.day == 1:
             log.info(f"\n\n=== {k.month} ===\n")
 
-        tempora = str(v.tempora[0]) if v.tempora else '-'
-        celebration = str(v.celebration[0]) if v.celebration else '-'
-        commemoration = str(v.commemoration[0]) if v.commemoration else '-'
-        log.info("%s %s %s %s", k.strftime('%A %Y-%m-%d').ljust(padding), tempora.ljust(padding),
-                 celebration.ljust(padding), commemoration.ljust(padding))
+        collect = []
+        padding = 40
+        for i in ('tempora', 'celebration', 'commemoration'):
+            title = str(getattr(v, i)[0].title) if getattr(v, i) else '-'
+            if len(title) > padding:
+                title = title[:padding - 3] + '…'
+            collect.append(title)
+        te, ce, co = collect
+        if te == ce:
+            te = '-'
+        log.info("%s %s %s %s", k.strftime('%A %Y-%m-%d').ljust(padding),
+                 te.ljust(padding), ce.ljust(padding), co.ljust(padding))
 
         # for fn in v:
         #     pth = "/Users/mmolenda/prv/divinum-officium/web/www/missa/Polski/{}/{}.txt".format(
