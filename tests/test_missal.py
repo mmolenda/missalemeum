@@ -54,7 +54,6 @@ def test_tempora(year, dates):
     (SANCTI_02_24, (2012, 2, 25)),
     (SANCTI_02_27, (2012, 2, 28)),
     (SANCTI_02_24, (2016, 2, 25)),
-    (SANCTI_02_27, (2016, 2, 28)),
     (SANCTI_02_24, (2017, 2, 24)),
     (SANCTI_02_27, (2017, 2, 27)),
     (SANCTI_02_24, (2018, 2, 24)),
@@ -87,6 +86,11 @@ def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     ((2018, 12, 24), [PATTERN_ADVENT]),
     ((2018, 12, 25), [PATTERN_ADVENT]),
     ((2018, 12, 26), [PATTERN_ADVENT]),
+    ((2018, 1, 14), [SANCTI_01_14]),
+    ((2018, 1, 21), [SANCTI_01_21]),
+    ((2018, 1, 21), [SANCTI_01_21]),
+    ((2018, 11, 25), [SANCTI_11_25]),
+    ((2016, 2, 28), [SANCTI_02_27]),  # leap year
 ])
 def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     assert not match(MissalFactory.create(date_[0])[date(*date_)].all, not_expected_day_ids)

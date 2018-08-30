@@ -90,6 +90,6 @@ def rule100(day, lit_days):
         return lit_days, [], []
     else:
         first, second = sorted(lit_days, key=lambda x: (x.rank, x.flexibility))[:2]
-        if second.rank <= 3:
+        if second.rank <= 3 and not match([first], PATTERN_TEMPORA_SUNDAY):
             return [first], [second], []
         return [first], [], []
