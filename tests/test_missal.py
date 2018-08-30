@@ -8,7 +8,7 @@ import pytest
 from missal1962.constants import *
 from missal1962.missal import MissalFactory
 from missal1962.models import LiturgicalDay
-
+from utils import match
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
@@ -65,7 +65,6 @@ def test_sancti_shifted(day_id, expected_date):
 
 
 @pytest.mark.parametrize("date_,expected_day_ids", [
-    # Dec 08 Immaculate Conception of BVM
     ((1907, 12, 8), [SANCTI_12_08]),
     ((1912, 12, 8), [SANCTI_12_08]),
     ((1913, 12, 8), [SANCTI_12_08]),
@@ -82,6 +81,15 @@ def test_sancti_shifted(day_id, expected_date):
 ])
 def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)].celebration] == expected_day_ids
+
+
+@pytest.mark.parametrize("date_,not_expected_day_ids", [
+    ((2018, 12, 24), [PATTERN_ADVENT]),
+    ((2018, 12, 25), [PATTERN_ADVENT]),
+    ((2018, 12, 26), [PATTERN_ADVENT]),
+])
+def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
+    assert not match(MissalFactory.create(date_[0])[date(*date_)].all, not_expected_day_ids)
 
 
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [

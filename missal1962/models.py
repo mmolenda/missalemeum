@@ -23,6 +23,10 @@ class LiturgicalDayContainer(object):
         self.celebration = []
         self.commemoration = []
 
+    @property
+    def all(self):
+        return self.tempora + self.celebration + self.commemoration
+
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)
 

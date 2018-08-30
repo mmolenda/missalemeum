@@ -4,9 +4,12 @@ url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [dev-packages]
 
 pytest = ">=3.3.1"
+coverage = "*"
+
 
 [packages]
 

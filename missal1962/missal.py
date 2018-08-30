@@ -237,7 +237,7 @@ class MissalFactory(object):
             if cls.missal[index].celebration and not overwrite:
                 break
             # break on stop date
-            if stop_date == cls.missal[index - timedelta(days=1)].celebration:
+            if stop_date == index - timedelta(days=1):
                 break
             cls.missal[index].tempora = [LiturgicalDay(day_id, index) for day_id in day_ids]
             cls.missal[index].celebration = copy(cls.missal[index].tempora)

@@ -4,6 +4,7 @@ TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
 
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
+PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
 PATTERN_ADVENT_FERIA = re.compile('tempora:Adv\d-[1-6]')
 PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]:2')
