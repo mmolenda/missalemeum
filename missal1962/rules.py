@@ -90,4 +90,6 @@ def rule100(day, lit_days):
         return lit_days, [], []
     else:
         first, second = sorted(lit_days, key=lambda x: (x.rank, x.flexibility))[:2]
+        if second.rank <= 3:
+            return [first], [second], []
         return [first], [], []
