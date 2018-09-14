@@ -13,7 +13,7 @@ from dateutil.easter import easter
 from missal1962.blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
     EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
 from missal1962.models import LiturgicalDay, Missal
-from missal1962 import rules
+from missal1962.rules import rules
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 log = logging.getLogger(__name__)
@@ -255,8 +255,8 @@ class MissalFactory(object):
 
     @classmethod
     def _apply_rules(cls, day, celebration_org):
-        for rule_name in [i for i in dir(rules) if i.startswith('rule')]:
-            results = getattr(rules, rule_name)(day, celebration_org)
+        for rule in rules:
+            results = rule(day, celebration_org)
             if results is None or not any(results):
                 continue
             return results
