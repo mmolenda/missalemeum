@@ -674,3 +674,50 @@ EMBER_DAYS = (
     TEMPORA_ADV3_5,  # Ember Friday in Advent
     TEMPORA_ADV3_6,  # Ember Saturday in Advent
 )
+
+TABLE_OF_PRECEDENCE = (
+    # 1st class feasts
+    SANCTI_12_25,  # Nativity
+    TEMPORA_PASC0_0,  # Resurrection Sunday
+    TEMPORA_PASC7_0,  # Pentecost
+    TEMPORA_QUAD6_4,  # Maundy Thursday
+    TEMPORA_QUAD6_5,  # Good Friday
+    TEMPORA_QUAD6_6,  # Holy Saturday
+    SANCTI_01_06,  # Epiphany
+    TEMPORA_PASC5_4,  # Ascension
+    TEMPORA_PENT01_0,  # Trinity Sunday
+    TEMPORA_PENT01_4,  # Corpus Christi
+    TEMPORA_PENT02_5,  # Feast of the Sacred Heart
+    SANCTI_10_DUr,  # Feast of Christ the King; last Sunday of October
+    SANCTI_12_08,  # Immaculate Conception of the Blessed Virgin Mary
+    SANCTI_08_15,  # Assumption of Mary
+    SANCTI_12_24,  # Vigil of the Nativity of the Lord
+    SANCTI_01_01,  # Octave of the Nativity
+    PATTERN_ADVENT_SUNDAY,
+    PATTERN_LENT_SUNDAY,
+    TEMPORA_PASC1_0,  # Low Sunday
+    TEMPORA_QUADP3_3,  # Ash Wednesday
+    TEMPORA_QUAD6_1,  # Monday of Holy Week
+    TEMPORA_QUAD6_2,  # Tuesday of Holy Week
+    TEMPORA_QUAD6_3,  # Wednesday of Holy Week
+    SANCTI_11_02,  # All Souls' Day
+    TEMPORA_PASC6_6,  # Vigil of Pentecost
+    TEMPORA_PASC0_1,  # Resurrection Octave
+    TEMPORA_PASC0_2,
+    TEMPORA_PASC0_3,
+    TEMPORA_PASC0_4,
+    TEMPORA_PASC0_5,
+    TEMPORA_PASC0_6,
+    TEMPORA_PASC7_1,  # Pentecost Octave
+    TEMPORA_PASC7_2,
+    TEMPORA_PASC7_3,
+    TEMPORA_PASC7_4,
+    TEMPORA_PASC7_5,
+    TEMPORA_PASC7_6,
+    PATTERN_CLASS_1,
+    # 2nd class feasts
+
+    # 3rd class feasts
+
+    # 4th class feasts
+)
