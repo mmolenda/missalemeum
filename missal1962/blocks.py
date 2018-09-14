@@ -718,6 +718,7 @@ TABLE_OF_PRECEDENCE = (
     # 2nd class feasts
     TEMPORA_PASC5_3,  # Vigil of Ascension
     SANCTI_01_13,  # Baptism of the Lord
+    SANCTI_08_06, # Transfiguration
     PATTERN_TEMPORA_SUNDAY_CLASS_2,
     PATTERN_CLASS_2,
     SANCTI_12_26,  # Octave of Nativity
