@@ -83,7 +83,12 @@ def rule10_2nd_class_feast_takes_over_advent_feria_and_ember_days(day, lit_days)
         return [match(lit_days, PATTERN_SANCTI_CLASS_2)], [match(lit_days, look_for)], []
 
 
+def rule11_bmv_office_on_saturday(day, lit_days):
+    pass
+
+
 def rule100(day, lit_days):
+    # TODO: apply precedence table
     if len(lit_days) == 0:
         return [], [], []
     elif len(lit_days) == 1:

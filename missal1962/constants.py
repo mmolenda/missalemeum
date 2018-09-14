@@ -22,6 +22,7 @@ PATTERN_SANCTI_CLASS_3 = re.compile(r'^sancti:.*:3$')
 PATTERN_SANCTI_CLASS_1_OR_2 = re.compile(r'^sancti:.*:[12]$')
 PATTERN_CLASS_1 = re.compile(r'^[a-z]+:.*:1$')
 PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2$')
+PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3$')
 TEMPORA_RANK_MAP = (
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 17, "rank": 2},
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 18, "rank": 2},
