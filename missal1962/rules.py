@@ -94,7 +94,7 @@ def rule_precedence(day, lit_days):
     elif len(lit_days) == 1:
         return lit_days, [], []
     else:
-        first, second = sorted(lit_days, key=lambda x: (x.rank, x.flexibility))[:2]
+        first, second = sorted(lit_days, key=lambda x: (x.priority, x.rank, x.flexibility))[:2]
         if second.rank <= 3 and not match([first], PATTERN_TEMPORA_SUNDAY):
             return [first], [second], []
         return [first], [], []

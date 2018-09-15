@@ -2,6 +2,7 @@ import re
 from collections import OrderedDict
 from datetime import date, timedelta
 
+from blocks import TABLE_OF_PRECEDENCE
 from constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
 from resources import titles_pl
 
@@ -120,6 +121,7 @@ class LiturgicalDay(object):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = day.weekday()
+        self.priority = self._determine_priority()
 
     def _determine_rank(self, day_id, day, original_rank):
         """
@@ -131,6 +133,14 @@ class LiturgicalDay(object):
             if day.month == case['month'] and day.day == case['day'] and re.match(case['pattern'], day_id):
                 return case['rank']
         return original_rank
+
+    def _determine_priority(self):
+        """
+        Determine priority according to the Precedence Table.
+        """
+        for priority, pattern in enumerate(TABLE_OF_PRECEDENCE):
+            if re.match(pattern, self.id):
+                return priority
 
     def __repr__(self):
         return "<{}>".format(self.id)

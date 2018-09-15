@@ -285,7 +285,5 @@ if __name__ == '__main__':
                     repr_ = repr_[:padding - 3] + '…'
                 collect.append(repr_)
         te, ce, co = collect
-        if te == ce:
-            te = '-'
         log.info("%s %s %s %s", k.strftime('%A %Y-%m-%d').ljust(padding),
                  te.ljust(padding), ce.ljust(padding), co.ljust(padding))

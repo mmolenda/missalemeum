@@ -755,6 +755,7 @@ TABLE_OF_PRECEDENCE = (
     TEMPORA_QUAD5_4,
     TEMPORA_QUAD5_5,
     TEMPORA_QUAD5_6,
-    PATTERN_CLASS_3
+    PATTERN_CLASS_3,
     # 4th class feasts
+    '.*'
 )
