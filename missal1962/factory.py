@@ -132,8 +132,7 @@ class MissalFactory(object):
     def _resolve_concurrency(cls):
         shifted_all = defaultdict(list)
         for date_, lit_day_container in cls.missal.items():
-            celebration, commemoration, shifted = cls._apply_rules(
-                date_, lit_day_container.tempora, lit_day_container.celebration + shifted_all.pop(date_, []))
+            celebration, commemoration, shifted = cls._apply_rules(date_, shifted_all.pop(date_, []))
             cls.missal[date_].celebration = celebration
             cls.missal[date_].commemoration = commemoration
             for k, v in shifted:
@@ -142,15 +141,17 @@ class MissalFactory(object):
     @classmethod
     def _apply_rules(cls,
                      date_: date,
-                     tempora: List[LiturgicalDay],
-                     celebration_org: List[LiturgicalDay]) -> \
+                     shifted: List[LiturgicalDay]) -> \
             Tuple[List[LiturgicalDay], List[LiturgicalDay], List[LiturgicalDay]]:
         for rule in rules:
-            results = rule(date_, tempora, celebration_org)
+            results = rule(cls.missal,
+                           date_,
+                           cls.missal[date_].tempora,
+                           cls.missal[date_].celebration + shifted)
             if results is None or not any(results):
                 continue
             return results
-        return celebration_org, [], []
+        return cls.missal[date_].celebration, [], []
 
     @classmethod
     def calc_easter_sunday(cls, year: int) -> date:
@@ -286,7 +287,7 @@ if __name__ == '__main__':
             if not items:
                 collect.append('-')
             else:
-                repr_ = f"[{items[0].name}] {items[0].title}"
+                repr_ = f"[{items[0].name}:{items[0].rank}] {items[0].title}"
                 if len(repr_) > padding:
                     repr_ = repr_[:padding - 3] + '…'
                 collect.append(repr_)

@@ -1,21 +1,22 @@
 import re
 from datetime import date
 
-from . import match
-from .blocks import FROM_PRE_LENT_TO_POST_PENTECOST, SANCTI
-from .constants import PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA_CLASS_3, PATTERN_TEMPORA_CLASS_1, \
+from missal1962 import match
+from missal1962.blocks import FROM_PRE_LENT_TO_POST_PENTECOST, SANCTI
+from missal1962.constants import PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA_CLASS_3, PATTERN_TEMPORA_CLASS_1, \
     PATTERN_TEMPORA_CLASS_2, PATTERN_SANCTI_CLASS_1, PATTERN_SANCTI_CLASS_3, PATTERN_CLASS_2
-from .factory import MissalFactory
-from .resources.titles_pl import titles
+from missal1962.factory import MissalFactory
+from missal1962.resources.titles_pl import titles
 
 
-def get_year_by_date_and_weekday(month, day, weekday):
+def get_year_by_date_and_weekday():
     """
     Print years where certain date is on specific weekday
     """
     for year in range(1900, 2100):
-        if date(year, month, day).weekday() == weekday:
-            print(year)
+        missal = MissalFactory.create(year)
+        # if date(year, month, day).weekday() == weekday:
+        # print(year)
 
 
 def get_year_by_feast_class_and_weekday(rank, weekday):
@@ -32,12 +33,12 @@ def get_year_by_feast_class_and_weekday(rank, weekday):
 
 
 def match_all_patterns():
-    for day_id in  [i[0] for i in FROM_PRE_LENT_TO_POST_PENTECOST] + list(SANCTI):
+    for day_id in [i[0] for i in FROM_PRE_LENT_TO_POST_PENTECOST] + list(SANCTI):
         if re.match(PATTERN_CLASS_2, day_id):
             print(day_id, titles[day_id])
 
 
 if __name__ == '__main__':
     # get_year_by_feast_class_and_weekday(1, 6)
-    match_all_patterns()
+    get_year_by_date_and_weekday()
 

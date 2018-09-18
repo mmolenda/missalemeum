@@ -57,7 +57,25 @@ def test_tempora(year, dates):
     (c.SANCTI_02_24, (2017, 2, 24)),
     (c.SANCTI_02_27, (2017, 2, 27)),
     (c.SANCTI_02_24, (2018, 2, 24)),
-    (c.SANCTI_02_27, (2018, 2, 27))
+    (c.SANCTI_02_27, (2018, 2, 27)),
+    # St Joseph
+    (c.SANCTI_03_19, (2023, 3, 20)),
+    (c.SANCTI_03_19, (2028, 3, 20)),
+    (c.SANCTI_03_19, (2000, 3, 20)),
+    # Annunciation
+    (c.SANCTI_03_25, (2018, 4, 9)),
+    (c.SANCTI_03_25, (2027, 4, 5)),
+    (c.SANCTI_03_25, (2057, 3, 26)),
+    # St Joseph worker
+    (c.SANCTI_05_01, (2038, 5, 3)),
+    # St. John Baptist
+    (c.SANCTI_06_24, (2022, 6, 25)),
+    (c.SANCTI_06_24, (2033, 6, 25)),
+    # Ss. Peter and Paul
+    (c.SANCTI_06_29, (2057, 6, 30)),
+    (c.SANCTI_06_29, (2068, 6, 30)),
+
+
 ])
 def test_sancti_shifted(day_id, expected_date):
     assert get_missal(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
