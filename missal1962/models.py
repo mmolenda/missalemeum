@@ -1,10 +1,11 @@
 import re
 from collections import OrderedDict
 from datetime import date, timedelta
+from typing import Tuple
 
-from blocks import TABLE_OF_PRECEDENCE
-from constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
-from resources import titles_pl
+from .blocks import TABLE_OF_PRECEDENCE
+from .constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
+from .resources import titles_pl
 
 
 class LiturgicalDayContainer(object):
@@ -40,30 +41,34 @@ class Missal(OrderedDict):
 
     {
       ...
-      datetime.date(2008, 5, 3): LiturgicalDayContainer(tempora:[<tempora:Pasc5-6:4>]
-                                                        propers:[<tempora:Pasc5-6:4>, <sancti:05-03-1:1>])
-      datetime.date(2008, 5, 4): LiturgicalDayContainer(tempora:[<tempora:Pasc6-0:2>],
-                                                        propers:[<tempora:Pasc6-0:2>, <sancti:05-04-1:3>])
-      datetime.date(2008, 5, 5): LiturgicalDayContainer(tempora:[<tempora:Pasc6-1:4>],
-                                                        propers:[<tempora:Pasc6-1:4>, <sancti:05-05-1:3>])
-      datetime.date(2008, 5, 6): LiturgicalDayContainer(tempora:[<tempora:Pasc6-2:4>],
-                                                        propers:[<tempora:Pasc6-2:4>])
+      datetime.date(2008, 5, 3): LiturgicalDayContainer(tempora:[LiturgicalDay<tempora:Pasc5-6:4>]
+                                                        celebration:[LiturgicalDay<sancti:05-03-1:1>],
+                                                        commemoration:[])
+      datetime.date(2008, 5, 4): LiturgicalDayContainer(tempora:[LiturgicalDay<tempora:Pasc6-0:2>],
+                                                        celebration:[LiturgicalDay<sancti:05-04-1:3>]
+                                                        commemoration:[])
+      datetime.date(2008, 5, 5): LiturgicalDayContainer(tempora:[LiturgicalDay<tempora:Pasc6-1:4>],
+                                                        celebration:[LiturgicalDay<sancti:05-05-1:3>]
+                                                        commemoration:[])
+      datetime.date(2008, 5, 6): LiturgicalDayContainer(tempora:[LiturgicalDay<tempora:Pasc6-2:4>],
+                                                        celebration:[LiturgicalDay<tempora:Pasc6-2:4>]
+                                                        commemoration:[])
       ...
     }
     """
-    def __init__(self, year):
+    def __init__(self, year: int):
         """ Build a missal and fill it in with empty `LiturgicalDayContainer` objects
         """
         super(Missal, self).__init__()
         self._build_empty_missal(year)
 
-    def _build_empty_missal(self, year):
+    def _build_empty_missal(self, year: int):
         day = date(year, 1, 1)
         while day.year == year:
             self[day] = LiturgicalDayContainer()
             day += timedelta(days=1)
 
-    def get_day(self, day_id):
+    def get_day(self, day_id: str) -> Tuple[date, LiturgicalDayContainer]:
         """ Return a day representation by liturgical day ID
 
         :param day_id: liturgical days'identifier, for example TEMPORA_EPI6_0
@@ -100,7 +105,7 @@ class LiturgicalDay(object):
         which is third feria day (Wednesday) in second week after Epiphany
       'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
     """
-    def __init__(self, day_id, day):
+    def __init__(self, day_id: str, day: date):
         """ Build a Liturgical day out of identifier and calendar date
 
         :param day_id: liturgical day identifier in format
@@ -114,16 +119,16 @@ class LiturgicalDay(object):
         flexibility, name, rank = day_id.split(':')
         self.flexibility = flexibility
         self.name = name
-        self.rank = self._determine_rank(day_id, day, int(rank))
+        self.rank = self._calc_rank(day_id, day, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
         self.title = titles_pl.titles.get(day_id)
         if flexibility == TYPE_TEMPORA:
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = day.weekday()
-        self.priority = self._determine_priority()
+        self.priority = self._calc_priority()
 
-    def _determine_rank(self, day_id, day, original_rank):
+    def _calc_rank(self, day_id: str, day: date, original_rank: int) -> int:
         """
         Some liturgical days' ranks depend on calendar day on which they fall, for example:
           Advent feria days between 17 and 23 December are 2 class,
@@ -134,9 +139,9 @@ class LiturgicalDay(object):
                 return case['rank']
         return original_rank
 
-    def _determine_priority(self):
+    def _calc_priority(self) -> int:
         """
-        Determine priority according to the Precedence Table.
+        Calculate priority according to the Precedence Table.
         """
         for priority, pattern in enumerate(TABLE_OF_PRECEDENCE):
             if re.match(pattern, self.id):

@@ -1,4 +1,4 @@
-from missal import MissalFactory
+from missal1962.factory import MissalFactory
 
 missal_buffer = {}
 
