@@ -247,16 +247,16 @@ class MissalFactory(object):
         shifted_all = defaultdict(list)
         for day, lit_day_container in cls.missal.items():
             celebration, commemoration, shifted = cls._apply_rules(
-                day, lit_day_container.celebration + shifted_all.pop(day, []))
+                day, lit_day_container.tempora, lit_day_container.celebration + shifted_all.pop(day, []))
             cls.missal[day].celebration = celebration
             cls.missal[day].commemoration = commemoration
             for k, v in shifted:
                 shifted_all[k].extend(v)
 
     @classmethod
-    def _apply_rules(cls, day, celebration_org):
+    def _apply_rules(cls, day, tempora, celebration_org):
         for rule in rules:
-            results = rule(day, celebration_org)
+            results = rule(day, tempora, celebration_org)
             if results is None or not any(results):
                 continue
             return results

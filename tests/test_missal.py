@@ -6,8 +6,8 @@ from datetime import datetime, date
 import pytest
 
 from missal1962.constants import *
-from missal1962.missal import MissalFactory
 from missal1962.models import LiturgicalDay
+from tests.conftest import get_missal
 from utils import match
 
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -23,7 +23,7 @@ with open(os.path.join(HERE, 'tempora_fixtures.json')) as fh:
 
 @pytest.mark.parametrize("year,dates", sorted(expected.items()))
 def test_tempora(year, dates):
-    missal = MissalFactory.create(int(year))
+    missal = get_missal(int(year))
     assert _to_date_obj(dates[0]) == missal.get_day(TEMPORA_QUADP1_0)[0]
     assert _to_date_obj(dates[1]) == missal.get_day(TEMPORA_QUADP3_3)[0]
     assert _to_date_obj(dates[2]) == missal.get_day(TEMPORA_PASC0_0)[0]
@@ -60,26 +60,47 @@ def test_tempora(year, dates):
     (SANCTI_02_27, (2018, 2, 27))
 ])
 def test_sancti_shifted(day_id, expected_date):
-    assert MissalFactory.create(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
+    assert get_missal(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
 
 
-@pytest.mark.parametrize("date_,expected_day_ids", [
-    ((1907, 12, 8), [SANCTI_12_08]),
-    ((1912, 12, 8), [SANCTI_12_08]),
-    ((1913, 12, 8), [SANCTI_12_08]),
+@pytest.mark.parametrize("date_,celebration,commemoration", [
+    ((1907, 12, 8), [SANCTI_12_08], []),
+    ((1912, 12, 8), [SANCTI_12_08], []),
+    ((1913, 12, 8), [SANCTI_12_08], []),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
-    ((2013, 1, 6), [SANCTI_01_06]),
-    ((2036, 1, 6), [SANCTI_01_06]),
-    ((2013, 1, 13), [TEMPORA_EPI1_0]),
-    ((2036, 1, 13), [TEMPORA_EPI1_0]),
-    ((1911, 8, 6), [SANCTI_08_06]),
-    ((1922, 8, 6), [SANCTI_08_06]),
+    ((2013, 1, 6), [SANCTI_01_06], []),
+    ((2036, 1, 6), [SANCTI_01_06], []),
+    ((2013, 1, 13), [TEMPORA_EPI1_0], []),
+    ((2036, 1, 13), [TEMPORA_EPI1_0], []),
+    ((1911, 8, 6), [SANCTI_08_06], []),
+    ((1922, 8, 6), [SANCTI_08_06], []),
     # Nativity_vigil
-    ((1950, 12, 24), [SANCTI_12_24]),
-    ((2000, 12, 24), [SANCTI_12_24])
+    ((1950, 12, 24), [SANCTI_12_24], []),
+    ((2000, 12, 24), [SANCTI_12_24], []),
+    # Commemorations
+    ((2018, 2, 15), [TEMPORA_QUADP3_4], [SANCTI_02_15]),
+    ((2018, 4, 22), [TEMPORA_PASC3_0], []),
+    ((2018, 4, 25), [SANCTI_04_25], []),  # St. Mark, Evangelist
+    ((2018, 5, 10), [TEMPORA_PASC5_4], []),  # Ascension, no comm.
+    ((2018, 5, 19), [TEMPORA_PASC6_6], []),  # Vigil of Pentecost, no comm.
+    ((2018, 5, 21), [TEMPORA_PASC7_1], []),  # Pentecost Octave, no comm.
+    ((2018, 5, 22), [TEMPORA_PASC7_2], []),
+    ((2018, 5, 23), [TEMPORA_PASC7_3], []),
+    ((2018, 5, 24), [TEMPORA_PASC7_4], []),
+    ((2018, 5, 25), [TEMPORA_PASC7_5], []),
+    ((2018, 5, 26), [TEMPORA_PASC7_6], []),
+    ((2018, 5, 27), [TEMPORA_PENT01_0], []),  # Trinity Sunday, no comm.
+    ((2018, 5, 31), [TEMPORA_PENT01_4], []),  # Corpus Christi, no comm.
+    ((2018, 6, 10), [TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
+    ((2018, 10, 28), [SANCTI_10_DUr], []),  # Feast of Christ the King; no comm
+    ((2018, 11, 14), [SANCTI_11_14], []),
+    ((2018, 11, 26), [SANCTI_11_26], []),
+    ((2018, 12, 5), [TEMPORA_ADV1_3], [SANCTI_12_05]),
+    ((2018, 12, 10), [TEMPORA_ADV2_1], [SANCTI_12_10]),
 ])
-def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
-    assert [i.id for i in MissalFactory.create(date_[0])[date(*date_)].celebration] == expected_day_ids
+def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
+    assert [i.id for i in get_missal(date_[0])[date(*date_)].celebration] == celebration
+    assert [i.id for i in get_missal(date_[0])[date(*date_)].commemoration] == commemoration
 
 
 @pytest.mark.parametrize("date_,not_expected_day_ids", [
@@ -93,7 +114,7 @@ def test_given_date_contains_proper_day_ids(date_, expected_day_ids):
     ((2016, 2, 28), [SANCTI_02_27]),  # leap year
 ])
 def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
-    assert not match(MissalFactory.create(date_[0])[date(*date_)].all, not_expected_day_ids)
+    assert not match(get_missal(date_[0])[date(*date_)].all, not_expected_day_ids)
 
 
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
@@ -121,7 +142,7 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2018, 12, 21), [SANCTI_12_21], [TEMPORA_ADV3_5]),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
-    missal = MissalFactory.create(date_[0])
+    missal = get_missal(date_[0])
     assert [i.id for i in missal[date(*date_)].celebration] == expected_celebration
     assert [i.id for i in missal[date(*date_)].commemoration] == expected_commemoration
 

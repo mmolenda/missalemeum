@@ -72,7 +72,7 @@ class Missal(OrderedDict):
         :rtype: list(datetime, list)
         """
         for day in self.items():
-            if day_id in [ii.id for ii in day[1].celebration] + [ii.id for ii in day[1].commemoration]:
+            if day_id in [ii.id for ii in day[1].all]:
                 return day
 
 
