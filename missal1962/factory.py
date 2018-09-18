@@ -131,22 +131,22 @@ class MissalFactory(object):
     @classmethod
     def _resolve_concurrency(cls):
         shifted_all = defaultdict(list)
-        for day, lit_day_container in cls.missal.items():
+        for date_, lit_day_container in cls.missal.items():
             celebration, commemoration, shifted = cls._apply_rules(
-                day, lit_day_container.tempora, lit_day_container.celebration + shifted_all.pop(day, []))
-            cls.missal[day].celebration = celebration
-            cls.missal[day].commemoration = commemoration
+                date_, lit_day_container.tempora, lit_day_container.celebration + shifted_all.pop(date_, []))
+            cls.missal[date_].celebration = celebration
+            cls.missal[date_].commemoration = commemoration
             for k, v in shifted:
                 shifted_all[k].extend(v)
 
     @classmethod
     def _apply_rules(cls,
-                     day: date,
+                     date_: date,
                      tempora: List[LiturgicalDay],
                      celebration_org: List[LiturgicalDay]) -> \
             Tuple[List[LiturgicalDay], List[LiturgicalDay], List[LiturgicalDay]]:
         for rule in rules:
-            results = rule(day, tempora, celebration_org)
+            results = rule(date_, tempora, celebration_org)
             if results is None or not any(results):
                 continue
             return results

@@ -63,10 +63,10 @@ class Missal(OrderedDict):
         self._build_empty_missal(year)
 
     def _build_empty_missal(self, year: int):
-        day = date(year, 1, 1)
-        while day.year == year:
-            self[day] = LiturgicalDayContainer()
-            day += timedelta(days=1)
+        date_ = date(year, 1, 1)
+        while date_.year == year:
+            self[date_] = LiturgicalDayContainer()
+            date_ += timedelta(days=1)
 
     def get_day(self, day_id: str) -> Tuple[date, LiturgicalDayContainer]:
         """ Return a day representation by liturgical day ID
@@ -76,9 +76,9 @@ class Missal(OrderedDict):
         :return: day representation
         :rtype: list(datetime, list)
         """
-        for day in self.items():
-            if day_id in [ii.id for ii in day[1].all]:
-                return day
+        for date_, lit_day_container in self.items():
+            if day_id in [ii.id for ii in lit_day_container.all]:
+                return date_, lit_day_container
 
 
 class LiturgicalDay(object):
@@ -105,7 +105,7 @@ class LiturgicalDay(object):
         which is third feria day (Wednesday) in second week after Epiphany
       'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
     """
-    def __init__(self, day_id: str, day: date):
+    def __init__(self, day_id: str, date_: date):
         """ Build a Liturgical day out of identifier and calendar date
 
         :param day_id: liturgical day identifier in format
@@ -119,23 +119,23 @@ class LiturgicalDay(object):
         flexibility, name, rank = day_id.split(':')
         self.flexibility = flexibility
         self.name = name
-        self.rank = self._calc_rank(day_id, day, int(rank))
+        self.rank = self._calc_rank(day_id, date_, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
         self.title = titles_pl.titles.get(day_id)
         if flexibility == TYPE_TEMPORA:
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
-            self.weekday = day.weekday()
+            self.weekday = date_.weekday()
         self.priority = self._calc_priority()
 
-    def _calc_rank(self, day_id: str, day: date, original_rank: int) -> int:
+    def _calc_rank(self, day_id: str, date_: date, original_rank: int) -> int:
         """
         Some liturgical days' ranks depend on calendar day on which they fall, for example:
           Advent feria days between 17 and 23 December are 2 class,
           while other feria Advent days are 3 class;
         """
         for case in TEMPORA_RANK_MAP:
-            if day.month == case['month'] and day.day == case['day'] and re.match(case['pattern'], day_id):
+            if date_.month == case['month'] and date_.day == case['day'] and re.match(case['pattern'], day_id):
                 return case['rank']
         return original_rank
 
