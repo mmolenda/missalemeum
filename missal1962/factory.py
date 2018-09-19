@@ -3,8 +3,6 @@
 """
 Missal 1962
 """
-import sys
-import logging
 from collections import defaultdict
 from copy import copy
 from datetime import date, timedelta
@@ -15,9 +13,6 @@ from missal1962.blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WE
     EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
 from missal1962.models import LiturgicalDay, Missal
 from missal1962.rules import rules
-
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-log = logging.getLogger(__name__)
 
 
 class MissalFactory(object):
@@ -268,29 +263,3 @@ class MissalFactory(object):
                 return d
             d += timedelta(days=1)
         return None
-
-
-if __name__ == '__main__':
-    year = int(sys.argv[1]) if len(sys.argv) > 1 else date.today().year
-    missal = MissalFactory.create(year)
-
-    for k, v in missal.items():
-        if k.weekday() == 6:
-            log.info("---")
-        if k.day == 1:
-            log.info(f"\n\n=== {k.month} ===\n")
-
-        collect = []
-        padding = 40
-        for i in ('tempora', 'celebration', 'commemoration'):
-            items = getattr(v, i, None)
-            if not items:
-                collect.append('-')
-            else:
-                repr_ = f"[{items[0].name}:{items[0].rank}] {items[0].title}"
-                if len(repr_) > padding:
-                    repr_ = repr_[:padding - 3] + '…'
-                collect.append(repr_)
-        te, ce, co = collect
-        log.info("%s %s %s %s", k.strftime('%A %Y-%m-%d').ljust(padding),
-                 te.ljust(padding), ce.ljust(padding), co.ljust(padding))
