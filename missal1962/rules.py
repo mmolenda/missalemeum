@@ -17,12 +17,14 @@ import datetime
 from calendar import isleap
 from copy import copy
 
-from .blocks import FEASTS_OF_JESUS_CLASS_1_AND_2, EMBER_DAYS
-from .constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_02_24, \
+from missal1962.models import LiturgicalDay
+from missal1962.blocks import FEASTS_OF_JESUS_CLASS_1_AND_2, EMBER_DAYS
+from missal1962.constants import SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, TEMPORA_EPI1_0, SANCTI_11_02, SANCTI_02_24, \
     SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, PATTERN_SANCTI_CLASS_2, TEMPORA_QUADP3_3, TEMPORA_QUAD6_1, \
     TEMPORA_QUAD6_2, TEMPORA_QUAD6_3, TEMPORA_QUAD6_4, TEMPORA_QUAD6_5, TEMPORA_QUAD6_6, TEMPORA_PASC0_0, \
-    PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, PATTERN_CLASS_1, PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2
-from . import match
+    PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, PATTERN_CLASS_1, PATTERN_TEMPORA_SUNDAY_CLASS_2, \
+    PATTERN_SANCTI_CLASS_1_OR_2, C_10A, PATTERN_ADVENT, C_10B, TEMPORA_QUAD6_3, C_10C, PATTERN_EASTER, C_10PASC, C_10T
+from missal1962 import match
 
 
 def rule_immaculate_coneption(missal, date_, tempora, lit_days):
@@ -53,6 +55,32 @@ def rule_all_souls(missal, date_, tempora, lit_days):
     # All Souls Day; if not Sunday - Nov 2, else Nov 3
     if match(lit_days, SANCTI_11_02) and date_.weekday() == 6:
         return [match(lit_days, PATTERN_TEMPORA_SUNDAY)], [], [[datetime.date(date_.year, 11, 3), [match(lit_days, SANCTI_11_02)]]]
+
+
+def rule_bmv_office_on_saturday(missal, date_, tempora, lit_days):
+    # On feria Saturdays (4th class) the celebration is B. M. V. Saturdays on given period
+
+    def _calc_proper_for_given_period():
+        if match(tempora, PATTERN_ADVENT):
+            return C_10A  # B. M. V. Saturdays in Advent
+
+        if date_ >= datetime.date(date_.year, 12, 25) or date_ < datetime.date(date_.year, 2, 2):
+            return C_10B  # B. M. V. Saturdays between Nativity and Purification
+
+        wednesday_in_holy_week, _ = missal.get_day(TEMPORA_QUAD6_3)
+        if datetime.date(date_.year, 2, 2) <= date_ < wednesday_in_holy_week:
+            return C_10C  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+
+        if match(tempora, PATTERN_EASTER):
+            return C_10PASC  # B. M. V. Saturdays in Easter period
+
+        return C_10T  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+
+    if date_.weekday() == 5:
+        ranks = set([i.rank for i in lit_days])
+        if len(ranks) == 0 or (len(ranks) == 1 and ranks.pop() == 4):
+            bmv_office = LiturgicalDay(_calc_proper_for_given_period(), date_)
+            return [bmv_office], [i for i in lit_days if i.flexibility == 'sancti'][:1], []
 
 
 def rule_shift_conflicting_1st_class_feasts(missal, date_, tempora, lit_days):
@@ -115,10 +143,6 @@ def rule_2nd_class_feast_takes_over_advent_feria_and_ember_days(missal, date_, t
     look_for = EMBER_DAYS + (PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, )
     if match(lit_days, look_for) and match(lit_days, PATTERN_SANCTI_CLASS_2):
         return [match(lit_days, PATTERN_SANCTI_CLASS_2)], [match(lit_days, look_for)], []
-
-
-def rule_bmv_office_on_saturday(missal, date_, tempora, lit_days):
-    pass
 
 
 def rule_precedence(missal, date_, tempora, lit_days):

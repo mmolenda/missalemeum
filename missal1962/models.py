@@ -4,7 +4,7 @@ from datetime import date, timedelta
 from typing import Tuple
 
 from .blocks import TABLE_OF_PRECEDENCE
-from .constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA
+from .constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, C_10A, C_10B, C_10C, C_10PASC, C_10T
 from .resources import titles_pl
 
 
@@ -122,7 +122,7 @@ class LiturgicalDay(object):
         self.rank = self._calc_rank(day_id, date_, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
         self.title = titles_pl.titles.get(day_id)
-        if flexibility == TYPE_TEMPORA:
+        if flexibility == TYPE_TEMPORA and day_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = date_.weekday()

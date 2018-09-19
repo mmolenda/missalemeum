@@ -5,6 +5,7 @@ TYPE_SANCTI = 'sancti'
 
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
+PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
 PATTERN_ADVENT_FERIA = re.compile('tempora:Adv\d-[1-6]')
 PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]:2')
@@ -418,9 +419,14 @@ NAT2_0 = 'tempora:Nat2-0:2'  # Feast of the Holy Name of Jesus
 SANCTI_10_DUr = 'sancti:10-DUr:1'  # Feast of Christ the King; last Sunday of October
 EPI1_0A = 'tempora:Epi1-0a:2'  # 1st Sunday after Epiphany
 PENT01_0A = 'tempora:Pent01-0a:2'  # 1st Sunday after Pentecost
+C_10A = 'tempora:C10a:4'  # B. M. V. Saturdays in Advent
+C_10B = 'tempora:C10b:4'  # B. M. V. Saturdays between Nativity and Purification
+C_10C = 'tempora:C10c:4'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+C_10PASC = 'tempora:C10Pasc:4'  # B. M. V. Saturdays in Easter period
+C_10T = 'tempora:C10t:4'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 
-# TEMPORA - days which have fixed date
+# SANCTI - days which have fixed date
 
 SANCTI_01_01 = 'sancti:01-01:1'  # Octave of the Nativity
 SANCTI_01_06 = 'sancti:01-06:1'  # Epiphany
@@ -527,8 +533,8 @@ SANCTI_05_29 = 'sancti:05-29:3'
 SANCTI_05_30 = 'sancti:05-30:4'
 SANCTI_05_31 = 'sancti:05-31:2'  # Mary the Queen
 
-SANCTI_06_01 = 'sancti:06-01:4'  # particular-PL: 'sancti:06-01pl:3'
-SANCTI_06_02 = 'sancti:06-02:3'
+SANCTI_06_01 = 'sancti:06-01:3'  # particular-PL: 'sancti:06-01pl:3'
+SANCTI_06_02 = 'sancti:06-02:4'
 SANCTI_06_04 = 'sancti:06-04:3'
 SANCTI_06_05 = 'sancti:06-05:3'
 SANCTI_06_06 = 'sancti:06-06:3'
@@ -597,7 +603,7 @@ SANCTI_08_14 = 'sancti:08-14:2'  # Vigil of Assumption of Mary
 SANCTI_08_15 = 'sancti:08-15r:1'  # Assumption of Mary
 SANCTI_08_16 = 'sancti:08-16:2'  # St. Joachim
 SANCTI_08_17 = 'sancti:08-17:3'
-SANCTI_08_18 = 'sancti:08-18r:3'
+SANCTI_08_18 = 'sancti:08-18r:4'
 SANCTI_08_19 = 'sancti:08-19:3'
 SANCTI_08_20 = 'sancti:08-20:3'
 SANCTI_08_21 = 'sancti:08-21:3'

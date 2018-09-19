@@ -115,6 +115,16 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 11, 26), [c.SANCTI_11_26], []),
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
     ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
+    # Sanctae Mariae Sabbato
+    ((2019, 1, 5), [c.C_10B], []),
+    ((2019, 1, 12), [c.C_10B], []),
+    ((2019, 1, 19), [c.C_10B], [c.SANCTI_01_19]),
+    ((2019, 2, 16), [c.C_10C], []),
+    ((2015, 2, 14), [c.C_10C], [c.SANCTI_02_14]),
+    ((2019, 7, 6), [c.C_10T], []),
+    ((2019, 7, 27), [c.C_10T], [c.SANCTI_07_27]),
+    ((2016, 4, 23), [c.C_10PASC], [c.SANCTI_04_23]),
+    ((2017, 5, 6), [c.C_10PASC], []),
 ])
 def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
     assert [i.id for i in get_missal(date_[0])[date(*date_)].celebration] == celebration
