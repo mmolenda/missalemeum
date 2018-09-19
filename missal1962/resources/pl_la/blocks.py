@@ -460,6 +460,7 @@ SANCTI = (
     constants.SANCTI_04_30,
     constants.SANCTI_05_01,
     constants.SANCTI_05_02,
+    constants.SANCTI_05_03,
     constants.SANCTI_05_04,
     constants.SANCTI_05_05,
     constants.SANCTI_05_07,
@@ -660,111 +661,4 @@ SANCTI = (
     constants.SANCTI_12_29,
     constants.SANCTI_12_30,
     constants.SANCTI_12_31,
-)
-
-FEASTS_OF_JESUS_CLASS_1_AND_2 = (
-    constants.SANCTI_01_06,
-    constants.SANCTI_01_13,
-    constants.SANCTI_08_06,
-)
-
-EMBER_DAYS = (
-    constants.TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
-    constants.TEMPORA_QUAD1_5,  # Ember Friday of Lent
-    constants.TEMPORA_QUAD1_6,  # Ember Saturday of Lent
-    constants.TEMPORA_PENT_3,  # Ember Wednesday in September
-    constants.TEMPORA_PENT_5,  # Ember Friday in September
-    constants.TEMPORA_PENT_6,  # Ember Saturday in September
-    constants.TEMPORA_ADV3_3,  # Ember Wednesday in Advent
-    constants.TEMPORA_ADV3_5,  # Ember Friday in Advent
-    constants.TEMPORA_ADV3_6,  # Ember Saturday in Advent
-)
-
-TABLE_OF_PRECEDENCE = (
-    # 1st class feasts
-    constants.SANCTI_12_25_1,  # Nativity
-    constants.SANCTI_12_25_2,  # Nativity
-    constants.SANCTI_12_25_3,  # Nativity
-    constants.TEMPORA_PASC0_0,  # Resurrection Sunday
-    constants.TEMPORA_PASC7_0,  # Pentecost
-    constants.TEMPORA_QUAD6_4,  # Maundy Thursday
-    constants.TEMPORA_QUAD6_5,  # Good Friday
-    constants.TEMPORA_QUAD6_6,  # Holy Saturday
-    constants.SANCTI_01_06,  # Epiphany
-    constants.TEMPORA_PASC5_4,  # Ascension
-    constants.TEMPORA_PENT01_0,  # Trinity Sunday
-    constants.TEMPORA_PENT01_4,  # Corpus Christi
-    constants.TEMPORA_PENT02_5,  # Feast of the Sacred Heart
-    constants.SANCTI_10_DUr,  # Feast of Christ the King; last Sunday of October
-    constants.SANCTI_12_08,  # Immaculate Conception of the Blessed Virgin Mary
-    constants.SANCTI_08_15,  # Assumption of Mary
-    constants.SANCTI_12_24,  # Vigil of the Nativity of the Lord
-    constants.SANCTI_01_01,  # Octave of the Nativity
-    constants.PATTERN_ADVENT_SUNDAY,
-    constants.PATTERN_LENT_SUNDAY,
-    constants.TEMPORA_PASC1_0,  # Low Sunday
-    constants.TEMPORA_QUADP3_3,  # Ash Wednesday
-    constants.TEMPORA_QUAD6_1,  # Monday of Holy Week
-    constants.TEMPORA_QUAD6_2,  # Tuesday of Holy Week
-    constants.TEMPORA_QUAD6_3,  # Wednesday of Holy Week
-    constants.SANCTI_11_02_1,  # All Souls' Day
-    constants.SANCTI_11_02_2,  # All Souls' Day
-    constants.SANCTI_11_02_3,  # All Souls' Day
-    constants.TEMPORA_PASC6_6,  # Vigil of Pentecost
-    constants.TEMPORA_PASC0_1,  # Resurrection Octave
-    constants.TEMPORA_PASC0_2,
-    constants.TEMPORA_PASC0_3,
-    constants.TEMPORA_PASC0_4,
-    constants.TEMPORA_PASC0_5,
-    constants.TEMPORA_PASC0_6,
-    constants.TEMPORA_PASC7_1,  # Pentecost Octave
-    constants.TEMPORA_PASC7_2,
-    constants.TEMPORA_PASC7_3,
-    constants.TEMPORA_PASC7_4,
-    constants.TEMPORA_PASC7_5,
-    constants.TEMPORA_PASC7_6,
-    constants.PATTERN_CLASS_1,
-    # 2nd class feasts
-    constants.TEMPORA_PASC5_3,  # Vigil of Ascension
-    constants.SANCTI_01_13,  # Baptism of the Lord
-    constants.SANCTI_08_06, # Transfiguration
-    constants.PATTERN_TEMPORA_SUNDAY_CLASS_2,
-    constants.PATTERN_CLASS_2,
-    constants.SANCTI_12_26,  # Octave of Nativity
-    constants.SANCTI_12_27,
-    constants.SANCTI_12_28,
-    constants.SANCTI_12_29,
-    constants.SANCTI_12_30,
-    constants.SANCTI_12_31,
-    # 3rd class feasts
-    constants.TEMPORA_QUAD1_1,  # Feria in Lent (except Ember Days)
-    constants.TEMPORA_QUAD1_2,
-    constants.TEMPORA_QUAD1_4,
-    constants.TEMPORA_QUAD2_1,
-    constants.TEMPORA_QUAD2_2,
-    constants.TEMPORA_QUAD2_3,
-    constants.TEMPORA_QUAD2_4,
-    constants.TEMPORA_QUAD2_5,
-    constants.TEMPORA_QUAD2_6,
-    constants.TEMPORA_QUAD3_1,
-    constants.TEMPORA_QUAD3_2,
-    constants.TEMPORA_QUAD3_3,
-    constants.TEMPORA_QUAD3_4,
-    constants.TEMPORA_QUAD3_5,
-    constants.TEMPORA_QUAD3_6,
-    constants.TEMPORA_QUAD4_1,
-    constants.TEMPORA_QUAD4_2,
-    constants.TEMPORA_QUAD4_3,
-    constants.TEMPORA_QUAD4_4,
-    constants.TEMPORA_QUAD4_5,
-    constants.TEMPORA_QUAD4_6,
-    constants.TEMPORA_QUAD5_1,
-    constants.TEMPORA_QUAD5_2,
-    constants.TEMPORA_QUAD5_3,
-    constants.TEMPORA_QUAD5_4,
-    constants.TEMPORA_QUAD5_5,
-    constants.TEMPORA_QUAD5_6,
-    constants.PATTERN_CLASS_3,
-    # 4th class feasts
-    '.*'
 )

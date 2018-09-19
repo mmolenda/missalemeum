@@ -1,44 +1,12 @@
 import re
-from datetime import date
 
-from missal1962 import match
-from missal1962.blocks import FROM_PRE_LENT_TO_POST_PENTECOST, SANCTI
-from missal1962.constants import PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA_CLASS_3, PATTERN_TEMPORA_CLASS_1, \
-    PATTERN_TEMPORA_CLASS_2, PATTERN_SANCTI_CLASS_1, PATTERN_SANCTI_CLASS_3, PATTERN_CLASS_2
-from missal1962.factory import MissalFactory
-from missal1962.resources.titles_pl import titles
+from typing import Union, List
 
 
-def get_year_by_date_and_weekday():
-    """
-    Print years where certain date is on specific weekday
-    """
-    for year in range(1900, 2100):
-        missal = MissalFactory.create(year)
-        # if date(year, month, day).weekday() == weekday:
-        # print(year)
-
-
-def get_year_by_feast_class_and_weekday(rank, weekday):
-    for year in range(1970, 2020):
-        missal = MissalFactory.create(year)
-        for date_, lit_day_container in missal.items():
-            lit_days = lit_day_container.celebration
-            if match(lit_days, PATTERN_TEMPORA_CLASS_3) and match(lit_days, [PATTERN_TEMPORA_CLASS_1,
-                                                                             PATTERN_TEMPORA_CLASS_2,
-                                                                             PATTERN_SANCTI_CLASS_1,
-                                                                             PATTERN_SANCTI_CLASS_2,
-                                                                             PATTERN_SANCTI_CLASS_3]):
-                print(date_, lit_day_container.celebration)
-
-
-def match_all_patterns():
-    for day_id in [i[0] for i in FROM_PRE_LENT_TO_POST_PENTECOST] + list(SANCTI):
-        if re.match(PATTERN_CLASS_2, day_id):
-            print(day_id, titles[day_id])
-
-
-if __name__ == '__main__':
-    # get_year_by_feast_class_and_weekday(1, 6)
-    get_year_by_date_and_weekday()
-
+def match(lit_days, patterns: Union[List[str], str]):
+    if not isinstance(patterns, (list, tuple)):
+        patterns = [patterns]
+    for lit_day in lit_days:
+        for pattern in patterns:
+            if re.match(pattern, lit_day.id):
+                return lit_day

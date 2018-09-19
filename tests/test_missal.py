@@ -7,10 +7,11 @@ import pytest
 
 from missal1962 import constants as c
 from missal1962.models import LiturgicalDay
-from missal1962 import match
+from utils import match
 from tests.conftest import get_missal
 
 HERE = os.path.abspath(os.path.dirname(__file__))
+locale = 'pl_la'
 
 
 def _to_date_obj(date_str):
@@ -186,7 +187,7 @@ def test_conflicts(date_, expected_celebration, expected_commemoration):
     (c.TEMPORA_QUADP1_0, (2002, 1, 28), 6)
 ])
 def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday):
-    assert LiturgicalDay(day_id, date(*date_)).weekday == expected_weekday
+    assert LiturgicalDay(day_id, date(*date_), locale).weekday == expected_weekday
 
 
 @pytest.mark.parametrize("day_id,date_,expected_rank", [
@@ -214,18 +215,18 @@ def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday)
     (c.TEMPORA_ADV4_3, (2015, 12, 23), 2)
 ])
 def test_liturgical_days_have_proper_ranks(day_id, date_, expected_rank):
-    assert LiturgicalDay(day_id, date(*date_)).rank == expected_rank
+    assert LiturgicalDay(day_id, date(*date_), locale).rank == expected_rank
 
 
 def test_liturgical_day_compare():
-    rank_1_1 = LiturgicalDay(c.TEMPORA_PASC7_0, date(2015, 5, 24))
-    rank_1_2 = LiturgicalDay(c.SANCTI_11_01, date(2015, 11, 1))
-    rank_2_1 = LiturgicalDay(c.TEMPORA_EPI1_0, date(2015, 1, 11))
-    rank_2_2 = LiturgicalDay(c.SANCTI_01_13, date(2015, 1, 13))
-    rank_3_1 = LiturgicalDay(c.TEMPORA_QUAD5_5, date(2015, 3, 27))
-    rank_3_2 = LiturgicalDay(c.SANCTI_03_28, date(2015, 3, 28))
-    rank_4_1 = LiturgicalDay(c.TEMPORA_PENT01_1, date(2015, 6, 1))
-    rank_4_2 = LiturgicalDay(c.SANCTI_08_09, date(2015, 8, 9))
+    rank_1_1 = LiturgicalDay(c.TEMPORA_PASC7_0, date(2015, 5, 24), locale)
+    rank_1_2 = LiturgicalDay(c.SANCTI_11_01, date(2015, 11, 1), locale)
+    rank_2_1 = LiturgicalDay(c.TEMPORA_EPI1_0, date(2015, 1, 11), locale)
+    rank_2_2 = LiturgicalDay(c.SANCTI_01_13, date(2015, 1, 13), locale)
+    rank_3_1 = LiturgicalDay(c.TEMPORA_QUAD5_5, date(2015, 3, 27), locale)
+    rank_3_2 = LiturgicalDay(c.SANCTI_03_28, date(2015, 3, 28), locale)
+    rank_4_1 = LiturgicalDay(c.TEMPORA_PENT01_1, date(2015, 6, 1), locale)
+    rank_4_2 = LiturgicalDay(c.SANCTI_08_09, date(2015, 8, 9), locale)
 
     assert rank_1_1 == rank_1_2
     assert rank_1_1 >= rank_1_2

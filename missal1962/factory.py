@@ -4,13 +4,13 @@
 Missal 1962
 """
 from collections import defaultdict
+
+import importlib
 from copy import copy
 from datetime import date, timedelta
 from dateutil.easter import easter
 from typing import List, Tuple, Union
 
-from missal1962.blocks import POST_EPIPHANY, FROM_PRE_LENT_TO_POST_PENTECOST, WEEK_24_AFTER_PENTECOST, ADVENT, HOLY_NAME, \
-    EMBER_DAYS_SEPTEMBER, CHRIST_KING, SUNDAY_IN_CHRISTMAS_OCTAVE, SANCTI
 from missal1962.models import LiturgicalDay, Missal
 from missal1962.rules import rules
 
@@ -18,9 +18,13 @@ from missal1962.rules import rules
 class MissalFactory(object):
 
     missal = None
+    locale = None
+    blocks = None
 
     @classmethod
-    def create(cls, year: int) -> Missal:
+    def create(cls, year: int, locale: str='pl_la') -> Missal:
+        cls.locale = locale
+        cls.blocks = importlib.import_module(f'resources.{cls.locale}.blocks')
         cls.missal: Missal = Missal(year)
         cls._fill_in_tempora_days(year)
         cls._fill_in_sancti_days()
@@ -32,19 +36,20 @@ class MissalFactory(object):
         """
         Days depending on variable date, such as Easter or Advent
         """
+
         # main blocks
-        cls._insert_block(cls.calc_holy_family(year), POST_EPIPHANY)
-        cls._insert_block(cls.calc_septuagesima(year), FROM_PRE_LENT_TO_POST_PENTECOST)
-        cls._insert_block(cls.calc_saturday_before_24_sunday_after_pentecost(year), POST_EPIPHANY,
+        cls._insert_block(cls.calc_holy_family(year), cls.blocks.POST_EPIPHANY)
+        cls._insert_block(cls.calc_septuagesima(year), cls.blocks.FROM_PRE_LENT_TO_POST_PENTECOST)
+        cls._insert_block(cls.calc_saturday_before_24_sunday_after_pentecost(year), cls.blocks.POST_EPIPHANY,
                           reverse=True, overwrite=False)
-        cls._insert_block(cls.calc_24_sunday_after_pentecost(year), WEEK_24_AFTER_PENTECOST)
-        cls._insert_block(cls.calc_first_advent_sunday(year), ADVENT, stop_date=date(year, 12, 23))
+        cls._insert_block(cls.calc_24_sunday_after_pentecost(year), cls.blocks.WEEK_24_AFTER_PENTECOST)
+        cls._insert_block(cls.calc_first_advent_sunday(year), cls.blocks.ADVENT, stop_date=date(year, 12, 23))
         # additional blocks
-        cls._insert_block(cls.calc_holy_name(year), HOLY_NAME)
-        cls._insert_block(cls.calc_ember_wednesday_september(year), EMBER_DAYS_SEPTEMBER)
-        cls._insert_block(cls.calc_christ_king(year), CHRIST_KING)
+        cls._insert_block(cls.calc_holy_name(year), cls.blocks.HOLY_NAME)
+        cls._insert_block(cls.calc_ember_wednesday_september(year), cls.blocks.EMBER_DAYS_SEPTEMBER)
+        cls._insert_block(cls.calc_christ_king(year), cls.blocks.CHRIST_KING)
         if cls.calc_sunday_christmas_octave(year):
-            cls._insert_block(cls.calc_sunday_christmas_octave(year), SUNDAY_IN_CHRISTMAS_OCTAVE)
+            cls._insert_block(cls.calc_sunday_christmas_octave(year), cls.blocks.SUNDAY_IN_CHRISTMAS_OCTAVE)
 
     @classmethod
     def _fill_in_sancti_days(cls):
@@ -53,7 +58,7 @@ class MissalFactory(object):
         """
         for date_, lit_day_container in cls.missal.items():
             date_id = date_.strftime("%m-%d")
-            days = [LiturgicalDay(ii, date_) for ii in SANCTI if ii.startswith("sancti:{}".format(date_id))]
+            days = [LiturgicalDay(ii, date_, cls.locale) for ii in cls.blocks.SANCTI if ii.startswith("sancti:{}".format(date_id))]
             lit_day_container.celebration.extend(days)
             lit_day_container.celebration.sort(reverse=True)
 
@@ -120,7 +125,7 @@ class MissalFactory(object):
             # break on stop date
             if stop_date == index - timedelta(days=1):
                 break
-            cls.missal[index].tempora = [LiturgicalDay(day_id, index) for day_id in day_ids]
+            cls.missal[index].tempora = [LiturgicalDay(day_id, index, cls.locale) for day_id in day_ids]
             cls.missal[index].celebration = copy(cls.missal[index].tempora)
 
     @classmethod
@@ -142,7 +147,8 @@ class MissalFactory(object):
             results = rule(cls.missal,
                            date_,
                            cls.missal[date_].tempora,
-                           cls.missal[date_].celebration + shifted)
+                           cls.missal[date_].celebration + shifted,
+                           cls.locale)
             if results is None or not any(results):
                 continue
             return results

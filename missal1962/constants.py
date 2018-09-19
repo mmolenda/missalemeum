@@ -473,12 +473,14 @@ SANCTI_02_27 = 'sancti:02-27:3'
 SANCTI_03_04 = 'sancti:03-04:3'
 SANCTI_03_06 = 'sancti:03-06:3'
 SANCTI_03_07 = 'sancti:03-07:3'
-SANCTI_03_08 = 'sancti:03-08:3'  # particular-PL: 'sancti:03-08pl:3'
+SANCTI_03_08 = 'sancti:03-08:3'
+SANCTI_03_08PL = 'sancti:03-08pl:3'
 SANCTI_03_09 = 'sancti:03-09:3'
 SANCTI_03_10 = 'sancti:03-10:3'
 SANCTI_03_12 = 'sancti:03-12:3'
-# particular-PL: 'sancti:03-15pl:3'
-SANCTI_03_17 = 'sancti:03-17:3'  # particular-PL: 'sancti:03-17pl:3'
+SANCTI_03_15PL = 'sancti:03-15pl:3'
+SANCTI_03_17 = 'sancti:03-17:3'
+SANCTI_03_17PL = 'sancti:03-17pl:3'
 SANCTI_03_18 = 'sancti:03-18:3'
 SANCTI_03_19 = 'sancti:03-19:1'  # Saint Joseph's Day
 SANCTI_03_21 = 'sancti:03-21:3'
@@ -496,7 +498,8 @@ SANCTI_04_14 = 'sancti:04-14:3'
 SANCTI_04_17 = 'sancti:04-17:4'
 SANCTI_04_21 = 'sancti:04-21:3'
 SANCTI_04_22 = 'sancti:04-22:3'
-SANCTI_04_23 = 'sancti:04-23:4'  # paricular-PL (St. Adalbert) 'sancti:04-23:1PL'
+SANCTI_04_23 = 'sancti:04-23:4'
+SANCTI_04_23PL = 'sancti:04-23pl:1'
 SANCTI_04_24 = 'sancti:04-24:3'
 SANCTI_04_25 = 'sancti:04-25:2'  # St. Mark, Evangelist
 SANCTI_04_26 = 'sancti:04-26:3'
@@ -507,11 +510,12 @@ SANCTI_04_30 = 'sancti:04-30:3'
 
 SANCTI_05_01 = 'sancti:05-01r:1'  # St. Joseph the Worker
 SANCTI_05_02 = 'sancti:05-02:3'
-SANCTI_05_03 = 'sancti:05-03:4'  # particular-PL (Our Lady Queen od Poland) 'sancti:05-03pl:1'
+SANCTI_05_03 = 'sancti:05-03:4'
+SANCTI_05_03PL = 'sancti:05-03pl:1'
 SANCTI_05_04 = 'sancti:05-04:3'
 SANCTI_05_05 = 'sancti:05-05:3'
 SANCTI_05_07 = 'sancti:05-07:3'
-# particular-PL (St. Stanislaus) 'sancti:05-08pl:1'
+SANCTI_05_08PL = 'sancti:05-08pl:1'
 SANCTI_05_09 = 'sancti:05-09:3'
 SANCTI_05_10 = 'sancti:05-10:3'
 SANCTI_05_11 = 'sancti:05-11r:2'  # SS. Philip and James, Apostles
@@ -519,12 +523,13 @@ SANCTI_05_12 = 'sancti:05-12:3'
 SANCTI_05_13 = 'sancti:05-13:3'
 SANCTI_05_14 = 'sancti:05-14:4'
 SANCTI_05_15 = 'sancti:05-15:3'
-SANCTI_05_16 = 'sancti:05-16:4'  # particular-PL: 'sancti:05-16pl:3'
+SANCTI_05_16 = 'sancti:05-16:4'
+SANCTI_05_16PL = 'sancti:05-16pl:3'
 SANCTI_05_17 = 'sancti:05-17:3'
 SANCTI_05_18 = 'sancti:05-18:3'
 SANCTI_05_19 = 'sancti:05-19:3'
 SANCTI_05_20 = 'sancti:05-20:3'
-# particular-PL (Mary Help of Christians) 'sancti:05-24pl:2'
+SANCTI_05_24PL = 'sancti:05-24pl:2'
 SANCTI_05_25 = 'sancti:05-25:3'
 SANCTI_05_26 = 'sancti:05-26:3'
 SANCTI_05_27 = 'sancti:05-27:3'
@@ -533,13 +538,15 @@ SANCTI_05_29 = 'sancti:05-29:3'
 SANCTI_05_30 = 'sancti:05-30:4'
 SANCTI_05_31 = 'sancti:05-31:2'  # Mary the Queen
 
-SANCTI_06_01 = 'sancti:06-01:3'  # particular-PL: 'sancti:06-01pl:3'
+SANCTI_06_01 = 'sancti:06-01:3'
+SANCTI_06_01PL = 'sancti:06-01pl:3'
 SANCTI_06_02 = 'sancti:06-02:4'
 SANCTI_06_04 = 'sancti:06-04:3'
 SANCTI_06_05 = 'sancti:06-05:3'
 SANCTI_06_06 = 'sancti:06-06:3'
 SANCTI_06_09 = 'sancti:06-09:4'
-SANCTI_06_10 = 'sancti:06-10:3'  # particular-PL: 'sancti:06-10pl:3'
+SANCTI_06_10 = 'sancti:06-10:3'
+SANCTI_06_10PL = 'sancti:06-10pl:3'
 SANCTI_06_11 = 'sancti:06-11:3'
 SANCTI_06_12 = 'sancti:06-12:3'
 SANCTI_06_13 = 'sancti:06-13:3'
@@ -572,13 +579,16 @@ SANCTI_07_14 = 'sancti:07-14:3'
 SANCTI_07_15 = 'sancti:07-15:3'
 SANCTI_07_16 = 'sancti:07-16:4'
 SANCTI_07_17 = 'sancti:07-17:4'
-SANCTI_07_18 = 'sancti:07-18:3'  # particular-PL: 'sancti:07-18pl:3'
+SANCTI_07_18 = 'sancti:07-18:3'
+SANCTI_07_18PL = 'sancti:07-18pl:3'
 SANCTI_07_19 = 'sancti:07-19:3'
-SANCTI_07_20 = 'sancti:07-20:3'  # particular-PL: 'sancti:07-20pl:3'
+SANCTI_07_20 = 'sancti:07-20:3'
+SANCTI_07_20PL = 'sancti:07-20pl:3'
 SANCTI_07_21 = 'sancti:07-21r:3'
 SANCTI_07_22 = 'sancti:07-22:3'
 SANCTI_07_23 = 'sancti:07-23:3'
-SANCTI_07_24 = 'sancti:07-24r:4'  # particular-PL: 'sancti:07-24pl:3'
+SANCTI_07_24 = 'sancti:07-24r:4'
+SANCTI_07_24PL = 'sancti:07-24pl:3'
 SANCTI_07_25 = 'sancti:07-25:2'  # St. James, Apostle
 SANCTI_07_26 = 'sancti:07-26:2'  # St. Anna, Mary's Mother
 SANCTI_07_27 = 'sancti:07-27:4'
@@ -611,18 +621,20 @@ SANCTI_08_22 = 'sancti:08-22r:2'  # Immaculate Heart of Mary
 SANCTI_08_23 = 'sancti:08-23:3'
 SANCTI_08_24 = 'sancti:08-24:2'  # St. Bartholomew, Apostle
 SANCTI_08_25 = 'sancti:08-25:3'
-SANCTI_08_26 = 'sancti:08-26:4'  # particular-PL (Mary Claromontanus) 'sancti:08-26pl:1'
+SANCTI_08_26 = 'sancti:08-26:4'
+SANCTI_08_26PL = 'sancti:08-26pl:1'
 SANCTI_08_27 = 'sancti:08-27:3'
 SANCTI_08_28 = 'sancti:08-28:3'
 SANCTI_08_29 = 'sancti:08-29:3'
 SANCTI_08_30 = 'sancti:08-30:3'
 SANCTI_08_31 = 'sancti:08-31:3'
 
-SANCTI_09_01 = 'sancti:09-01:4'  # particular-PL: 'sancti:09-01pl:3'
+SANCTI_09_01 = 'sancti:09-01:4'
+SANCTI_09_01PL = 'sancti:09-01pl:3'
 SANCTI_09_02 = 'sancti:09-02:3'
 SANCTI_09_03 = 'sancti:09-03r:3'
 SANCTI_09_05 = 'sancti:09-05:3'
-# particular-PL: 'sancti:09-07pl:3'
+SANCTI_09_07PL = 'sancti:09-07pl:3'
 SANCTI_09_08 = 'sancti:09-08:2'  # Nativity of Mary
 SANCTI_09_09 = 'sancti:09-09:4'
 SANCTI_09_10 = 'sancti:09-10:3'
@@ -639,14 +651,15 @@ SANCTI_09_21 = 'sancti:09-21:2'  # St. Matthew, Apostle and Evangelist
 SANCTI_09_22 = 'sancti:09-22:3'
 SANCTI_09_23 = 'sancti:09-23:3'
 SANCTI_09_24 = 'sancti:09-24:4'
-# particular-PL: 'sancti:09-25pl:3'
+SANCTI_09_25PL = 'sancti:09-25pl:3'
 SANCTI_09_26 = 'sancti:09-26:4'
 SANCTI_09_27 = 'sancti:09-27:3'
 SANCTI_09_28 = 'sancti:09-28:3'
 SANCTI_09_29 = 'sancti:09-29:1'  # St. Michael the Archangel
 SANCTI_09_30 = 'sancti:09-30r:3'
 
-SANCTI_10_01 = 'sancti:10-01:4'  # particular-PL: 'sancti:10-01pl:3'
+SANCTI_10_01 = 'sancti:10-01:4'
+SANCTI_10_01PL = 'sancti:10-01pl:3'
 SANCTI_10_02 = 'sancti:10-02:3'
 SANCTI_10_03 = 'sancti:10-03:3'
 SANCTI_10_04 = 'sancti:10-04:3'
@@ -681,7 +694,8 @@ SANCTI_11_09 = 'sancti:11-09:2'  # Dedication of the Lateran Basilica in Rome
 SANCTI_11_10 = 'sancti:11-10:3'
 SANCTI_11_11 = 'sancti:11-11:3'
 SANCTI_11_12 = 'sancti:11-12:3'
-SANCTI_11_13 = 'sancti:11-13:4'  # particular-PL (St. Stanislaus) 'sancti:11-13pl:2'
+SANCTI_11_13 = 'sancti:11-13:4'
+SANCTI_11_13PL = 'sancti:11-13pl:2'
 SANCTI_11_14 = 'sancti:11-14:3'
 SANCTI_11_15 = 'sancti:11-15:3'
 SANCTI_11_16 = 'sancti:11-16:3'
@@ -720,3 +734,109 @@ SANCTI_12_28 = 'sancti:12-28:2'  # Holy Innocents
 SANCTI_12_29 = 'sancti:12-29r:2'
 SANCTI_12_30 = 'sancti:12-30:2'
 SANCTI_12_31 = 'sancti:12-31:2'
+
+EMBER_DAYS = (
+    TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
+    TEMPORA_QUAD1_5,  # Ember Friday of Lent
+    TEMPORA_QUAD1_6,  # Ember Saturday of Lent
+    TEMPORA_PENT_3,  # Ember Wednesday in September
+    TEMPORA_PENT_5,  # Ember Friday in September
+    TEMPORA_PENT_6,  # Ember Saturday in September
+    TEMPORA_ADV3_3,  # Ember Wednesday in Advent
+    TEMPORA_ADV3_5,  # Ember Friday in Advent
+    TEMPORA_ADV3_6,  # Ember Saturday in Advent
+)
+TABLE_OF_PRECEDENCE = (
+    # 1st class feasts
+    SANCTI_12_25_1,  # Nativity
+    SANCTI_12_25_2,  # Nativity
+    SANCTI_12_25_3,  # Nativity
+    TEMPORA_PASC0_0,  # Resurrection Sunday
+    TEMPORA_PASC7_0,  # Pentecost
+    TEMPORA_QUAD6_4,  # Maundy Thursday
+    TEMPORA_QUAD6_5,  # Good Friday
+    TEMPORA_QUAD6_6,  # Holy Saturday
+    SANCTI_01_06,  # Epiphany
+    TEMPORA_PASC5_4,  # Ascension
+    TEMPORA_PENT01_0,  # Trinity Sunday
+    TEMPORA_PENT01_4,  # Corpus Christi
+    TEMPORA_PENT02_5,  # Feast of the Sacred Heart
+    SANCTI_10_DUr,  # Feast of Christ the King; last Sunday of October
+    SANCTI_12_08,  # Immaculate Conception of the Blessed Virgin Mary
+    SANCTI_08_15,  # Assumption of Mary
+    SANCTI_12_24,  # Vigil of the Nativity of the Lord
+    SANCTI_01_01,  # Octave of the Nativity
+    PATTERN_ADVENT_SUNDAY,
+    PATTERN_LENT_SUNDAY,
+    TEMPORA_PASC1_0,  # Low Sunday
+    TEMPORA_QUADP3_3,  # Ash Wednesday
+    TEMPORA_QUAD6_1,  # Monday of Holy Week
+    TEMPORA_QUAD6_2,  # Tuesday of Holy Week
+    TEMPORA_QUAD6_3,  # Wednesday of Holy Week
+    SANCTI_11_02_1,  # All Souls' Day
+    SANCTI_11_02_2,  # All Souls' Day
+    SANCTI_11_02_3,  # All Souls' Day
+    TEMPORA_PASC6_6,  # Vigil of Pentecost
+    TEMPORA_PASC0_1,  # Resurrection Octave
+    TEMPORA_PASC0_2,
+    TEMPORA_PASC0_3,
+    TEMPORA_PASC0_4,
+    TEMPORA_PASC0_5,
+    TEMPORA_PASC0_6,
+    TEMPORA_PASC7_1,  # Pentecost Octave
+    TEMPORA_PASC7_2,
+    TEMPORA_PASC7_3,
+    TEMPORA_PASC7_4,
+    TEMPORA_PASC7_5,
+    TEMPORA_PASC7_6,
+    PATTERN_CLASS_1,
+    # 2nd class feasts
+    TEMPORA_PASC5_3,  # Vigil of Ascension
+    SANCTI_01_13,  # Baptism of the Lord
+    SANCTI_08_06, # Transfiguration
+    PATTERN_TEMPORA_SUNDAY_CLASS_2,
+    PATTERN_CLASS_2,
+    SANCTI_12_26,  # Octave of Nativity
+    SANCTI_12_27,
+    SANCTI_12_28,
+    SANCTI_12_29,
+    SANCTI_12_30,
+    SANCTI_12_31,
+    # 3rd class feasts
+    TEMPORA_QUAD1_1,  # Feria in Lent (except Ember Days)
+    TEMPORA_QUAD1_2,
+    TEMPORA_QUAD1_4,
+    TEMPORA_QUAD2_1,
+    TEMPORA_QUAD2_2,
+    TEMPORA_QUAD2_3,
+    TEMPORA_QUAD2_4,
+    TEMPORA_QUAD2_5,
+    TEMPORA_QUAD2_6,
+    TEMPORA_QUAD3_1,
+    TEMPORA_QUAD3_2,
+    TEMPORA_QUAD3_3,
+    TEMPORA_QUAD3_4,
+    TEMPORA_QUAD3_5,
+    TEMPORA_QUAD3_6,
+    TEMPORA_QUAD4_1,
+    TEMPORA_QUAD4_2,
+    TEMPORA_QUAD4_3,
+    TEMPORA_QUAD4_4,
+    TEMPORA_QUAD4_5,
+    TEMPORA_QUAD4_6,
+    TEMPORA_QUAD5_1,
+    TEMPORA_QUAD5_2,
+    TEMPORA_QUAD5_3,
+    TEMPORA_QUAD5_4,
+    TEMPORA_QUAD5_5,
+    TEMPORA_QUAD5_6,
+    PATTERN_CLASS_3,
+    # 4th class feasts
+    '.*'
+)
+
+FEASTS_OF_JESUS_CLASS_1_AND_2 = (
+    SANCTI_01_06,
+    SANCTI_01_13,
+    SANCTI_08_06,
+)

@@ -34,9 +34,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--year', '-y', help='A year for which the missal will be generated',
                         type=int, default=datetime.datetime.utcnow().year)
+    parser.add_argument('--locale', '-l', default='pl_la')
+
 
     args = parser.parse_args()
-    missal = MissalFactory.create(args.year)
+    missal = MissalFactory.create(args.year, args.locale)
     print_all(missal)
 
 

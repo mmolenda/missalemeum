@@ -1,11 +1,11 @@
+import importlib
 import re
 from collections import OrderedDict
 from datetime import date, timedelta
 from typing import Tuple
 
-from .blocks import TABLE_OF_PRECEDENCE
-from .constants import TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, C_10A, C_10B, C_10C, C_10PASC, C_10T
-from .resources import titles_pl
+from .constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
+                        C_10PASC, C_10T)
 
 
 class LiturgicalDayContainer(object):
@@ -105,7 +105,7 @@ class LiturgicalDay(object):
         which is third feria day (Wednesday) in second week after Epiphany
       'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
     """
-    def __init__(self, day_id: str, date_: date):
+    def __init__(self, day_id: str, date_: date, locale):
         """ Build a Liturgical day out of identifier and calendar date
 
         :param day_id: liturgical day identifier in format
@@ -116,12 +116,13 @@ class LiturgicalDay(object):
                     depends on which calendar day they occur.
         :type day: `date ` object
         """
+        titles = importlib.import_module(f'resources.{locale}.titles')
         flexibility, name, rank = day_id.split(':')
         self.flexibility = flexibility
         self.name = name
         self.rank = self._calc_rank(day_id, date_, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
-        self.title = titles_pl.titles.get(day_id)
+        self.title = titles.titles.get(day_id)
         if flexibility == TYPE_TEMPORA and day_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
