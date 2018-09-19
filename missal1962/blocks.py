@@ -613,7 +613,9 @@ SANCTI = (
     constants.SANCTI_10_25,
     constants.SANCTI_10_28,
     constants.SANCTI_11_01,
-    constants.SANCTI_11_02,
+    constants.SANCTI_11_02_1,
+    constants.SANCTI_11_02_2,
+    constants.SANCTI_11_02_3,
     constants.SANCTI_11_04,
     constants.SANCTI_11_08,
     constants.SANCTI_11_09,
@@ -649,7 +651,9 @@ SANCTI = (
     constants.SANCTI_12_16,
     constants.SANCTI_12_21,
     constants.SANCTI_12_24,
-    constants.SANCTI_12_25,
+    constants.SANCTI_12_25_1,
+    constants.SANCTI_12_25_2,
+    constants.SANCTI_12_25_3,
     constants.SANCTI_12_26,
     constants.SANCTI_12_27,
     constants.SANCTI_12_28,
@@ -678,7 +682,9 @@ EMBER_DAYS = (
 
 TABLE_OF_PRECEDENCE = (
     # 1st class feasts
-    constants.SANCTI_12_25,  # Nativity
+    constants.SANCTI_12_25_1,  # Nativity
+    constants.SANCTI_12_25_2,  # Nativity
+    constants.SANCTI_12_25_3,  # Nativity
     constants.TEMPORA_PASC0_0,  # Resurrection Sunday
     constants.TEMPORA_PASC7_0,  # Pentecost
     constants.TEMPORA_QUAD6_4,  # Maundy Thursday
@@ -701,7 +707,9 @@ TABLE_OF_PRECEDENCE = (
     constants.TEMPORA_QUAD6_1,  # Monday of Holy Week
     constants.TEMPORA_QUAD6_2,  # Tuesday of Holy Week
     constants.TEMPORA_QUAD6_3,  # Wednesday of Holy Week
-    constants.SANCTI_11_02,  # All Souls' Day
+    constants.SANCTI_11_02_1,  # All Souls' Day
+    constants.SANCTI_11_02_2,  # All Souls' Day
+    constants.SANCTI_11_02_3,  # All Souls' Day
     constants.TEMPORA_PASC6_6,  # Vigil of Pentecost
     constants.TEMPORA_PASC0_1,  # Resurrection Octave
     constants.TEMPORA_PASC0_2,

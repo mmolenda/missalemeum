@@ -46,10 +46,10 @@ def test_tempora(year, dates):
 
 @pytest.mark.parametrize("day_id,expected_date", [
     # All Souls Day; if not Sunday - Nov 2, else Nov 3
-    (c.SANCTI_11_02, (2008, 11, 3)),
-    (c.SANCTI_11_02, (2014, 11, 3)),
-    (c.SANCTI_11_02, (2015, 11, 2)),
-    (c.SANCTI_11_02, (2063, 11, 2)),
+    (c.SANCTI_11_02_1, (2008, 11, 3)),
+    (c.SANCTI_11_02_1, (2014, 11, 3)),
+    (c.SANCTI_11_02_1, (2015, 11, 2)),
+    (c.SANCTI_11_02_1, (2063, 11, 2)),
     # Days dependent on a leap year
     (c.SANCTI_02_24, (2012, 2, 25)),
     (c.SANCTI_02_27, (2012, 2, 28)),
@@ -74,8 +74,6 @@ def test_tempora(year, dates):
     # Ss. Peter and Paul
     (c.SANCTI_06_29, (2057, 6, 30)),
     (c.SANCTI_06_29, (2068, 6, 30)),
-
-
 ])
 def test_sancti_shifted(day_id, expected_date):
     assert get_missal(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
@@ -125,6 +123,13 @@ def test_sancti_shifted(day_id, expected_date):
     ((2019, 7, 27), [c.C_10T], [c.SANCTI_07_27]),
     ((2016, 4, 23), [c.C_10PASC], [c.SANCTI_04_23]),
     ((2017, 5, 6), [c.C_10PASC], []),
+    # Days with multiple celebrations
+    ((2009, 12, 25), [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
+    ((2017, 12, 25), [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
+    ((2009, 11, 2), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2017, 11, 2), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2008, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2014, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
 ])
 def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
     assert [i.id for i in get_missal(date_[0])[date(*date_)].celebration] == celebration
