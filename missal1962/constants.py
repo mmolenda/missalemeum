@@ -1,4 +1,7 @@
+import os
 import re
+
+THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
@@ -840,3 +843,50 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
     SANCTI_01_13,
     SANCTI_08_06,
 )
+
+
+# Related to specific propers' printing
+
+THIS_DIR = os.path.dirname(os.path.realpath(__file__))
+DIVOFF_DIR = '/Users/mmolenda/prv/divinum-officium/'
+CUSTOM_DIVOFF_DIR = '/Users/mmolenda/prv/divoff2epub/divoff2epub/data/divinum-officium-custom/'
+
+EXCLUDE_SECTIONS = (
+    'Evangelium1',
+    'Evangelium2',
+    'Evangelium3',
+    'Evangelium4',
+    'Lectio1',
+    'Prelude(rubrica 1570)',
+    'Rank1570',
+    'Rank1960',
+    'RankNewcal',
+    'RankTrident',
+    'Rank',
+    'Rank (rubrica 1955 aut rubrica 1960)',
+    'Rank (rubrica 1960)',
+    'Rank (rubrica innovata)',
+    'Rank (si rubrica 1960)',
+    'Rank (si rubrica innovata)',
+    'Rule',
+    'Tractus1',
+    'Munda Cor Passionis',
+    'GradualeF',
+    'Footnotes',
+    'Name'
+)
+EXCLUDE_SECTIONS_TITLES = (
+    'Commemoratio Oratio',
+    'Commemoratio Postcommunio',
+    'Commemoratio Secreta',
+    'Comment',
+    'Prelude',
+    'Prelude(rubrica 1960)',
+    'Maundi',
+    'Post Missam'
+)
+
+REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
+SECTION_REGEX = re.compile(r'^### *(.*)')
+FOOTNOTE_REF_REGEX = re.compile(r'\[\^\d+\][^:]*')
+FOOTNOTE_REGEX = re.compile(r'^\[\^\d+\]: ')

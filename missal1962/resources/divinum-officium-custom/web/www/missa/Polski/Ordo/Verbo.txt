@@ -1,0 +1,148 @@
+[Prelude]
+# Liturgia słowa
+
+! Ta część obejmuje śpiewy, modlitwy oraz czytania wyjęte z ksiąg Pisma świętego Starego i Nowego Testamentu.
+! Podczas Mszy z asystą kapłan okadza ołtarz, następnie diakon okadza celebransa jako przedstawiciela Chrystusa.
+
+[Antyfona na Wejście]
+
+! Jeśli Antyfona nie została odśpiewana przez chór, kapłan przechodzi na prawą stronę ołtarza i odczytuje antyfonę na wejście przypadającą na dany dzień.
+! Ongiś chór na przemian z wiernymi śpiewał psalm, przeplatany antyfoną podczas gdy duchowieństwo w uroczystej procesji zdążało do ołtarza. Obecnie z psalmu pozostał tylko jeden wiersz.
+
+! Zaczynając antyfonę na wejście kapłan żegna się.
+
+– Tekst w dzisiejszej Mszy –
+
+[Kyrie]
+
+! Kyrie jest pozostałością odmawianej pierwotnie obszernej Litanii. Diakon śpiewał wezwania, wierni zaś odpowiadali: Panie, zmiłuj się. Język grecki, w którym zachowały się owe odpowiedzi, był pierwotnym językiem liturgii rzymskiej. Błagania nasze zanosimy do Trójcy Przenajświętszej, żebrząc Jej miłosierdzia.
+
+! Kapłan staje na środku ołtarza.
+
+Panie, zmiłuj się.
+Panie, zmiłuj się.
+Panie, zmiłuj się.
+
+Chryste, zmiłuj się.
+Chryste, zmiłuj się.
+Chryste, zmiłuj się.
+
+Panie, zmiłuj się.
+Panie, zmiłuj się.
+Panie, zmiłuj się.[^1]
+
+[Gloria]
+
+! Gloria nosi nazwę hymnu anielskiego ze względu na pierwsze słowa, którymi aniołowie wielbili narodzonego w Betlejem Chrystusa.
+! Jest to radosna pieśń chwały ku czci Trójcy Przenajświętszej, dlatego śpiewa się ją we Mszach mających charakter radosny (niedziele, Okres Bożego Narodzenia i Wielkanocy, uroczystości Pańskie, Matki Bożej i Świętych, itp.). Opuszcza się natomiast w innych Mszach.
+
+Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli.
+Chwalimy Cię. Błogosławimy Cię. Wielbimy Cię. Wysławiamy Cię.
+Dzięki Ci składamy, bo wielka jest chwała Twoja.
+Panie Boże, Królu nieba, Boże Ojcze wszechmogący. Panie, Synu Jednorodzony, Jezu Chryste.
+Panie Boże, Baranku Boży, Synu Ojca.
+Który gładzisz grzechy świata, zmiłuj się nad nami.
+Który gładzisz grzechy świata, przyjm błaganie nasze.
+Który siedzisz po prawicy Ojca, zmiłuj się nad nami.
+Albowiem tylko Tyś jest święty. Tylko Tyś jest Panem. Tylko Tyś Najwyższy, Jezu Chryste.
+Z Duchem Świętym + w chwale Boga Ojca. Amen.[^2]
+
+V. Pan z wami.
+R. I z duchem twoim.[^3]
+
+[Kolekta]
+
+! Kapłan wraca do mszału, aby przeczytać kolektę zgromadzenia.
+! W kolekcie kapłan niejako zbiera i przedstawia Bogu uczucia i prośby wiernych powstałe pod wpływem obchodzonej tajemnicy.
+! Do głównej kolekty dodaje się czasem dodatkowe.
+
+V. Módlmy się.[^4]
+
+– Tekst w dzisiejszej Mszy –
+
+R. Amen.
+
+[Lekcja]
+
+! Pierwsze czytanie jest wyjęte z pism Starego Testamentu lub z Listów i Dziejów Apostolskich. Pan Bóg odpowiada tu na nasze modlitwy, pouczając nas słowem natchnionym o sobie i naszych obowiązkach względem Niego. Czytając w ciągu roku kościelnego słowo Boże, wcielamy w życie zawartą tam naukę.
+! We mszach z asystą subdiakon śpiewa lekcję. W innych Mszach celebrans śpiewa ją lub głośno czyta.
+
+– Tekst w dzisiejszej Mszy –
+
+R. Bogu dzięki. [^5]
+
+[Graduał i Alleluja lub Traktus]
+
+! Tekst śpiewu międzylekcyjnego, wyjęty przeważnie z Psałterza, streszcza pobożne uczucia, jakie nam nasunęło czytanie Pisma świętego. Alleluja – słowo hebrajskie – znaczy: śpiewajcie Panu z weselem.
+! W dni postne Alleluja jest zastąpione przez traktus – czyli psalm. W Okresie Wielkanocnym śpiewa się Alleluja również w miejsce graduału.
+
+– Tekst w dzisiejszej Mszy –
+
+[Ewangelia]
+
+! Celebrans przechodzi na środek ołtarza i jeżeli Msza jest bez asysty głęboko pochylony odmawia poniższą modlitwę.
+! Wargi żadnego człowieka nie są dość czyste, aby głosić słowa samego Boga.
+
+Oczyść serce i wargi moje, wszechmogący Boże, któryś wargi proroka Izajasza oczyścił kamykiem ognistym. W łaskawym zmiłowaniu Swoim racz mię tak oczyścić, abym godnie zdołał głosić Twą świętą Ewangelię. Przez Chrystusa, Pana naszego. Amen.[^6]
+
+! Błogosławieństwo opuszcza się we Mszach żałobnych.
+
+Racz pobłogosławić, Panie. Pan niech będzie w sercu moim i na wargach moich, bym godnie i należycie głosił Jego Ewangelię. Amen.[^7]
+
+! We Mszach z asystą diakon przed odśpiewaniem Ewangelii odmawia modlitwę i prosi kapłana o błogosławieństwo:
+
+Racz pobłogosławić, ojcze.[^8]
+
+! Kapłan odpowiada:
+
+Pan niech będzie w sercu twoim i na wargach twoich, byś godnie i należycie głosił Jego Ewangelię. W imię Ojca i Syna + i Ducha Świętego. Amen.[^9]
+
+! Kapłan przechodzi na lewą stronę ołtarza i czyta lub śpiewa Ewangelię. We Mszach z asystą czyni to diakon. Wierni wraz z kapłanem czynią znak krzyża na czole, ustach i piersi.
+
+V. Pan z wami.
+R. I z duchem twoim.
++ Ciąg dalszy (albo: Początek) Ewangelii świętej według N.
+R. Chwała Tobie, Panie.[^10]
+
+! Ewangelii słuchamy stojąc, przez uszanowanie dla słowa Bożego. We Mszy z asystą diakon w uroczystym pochodzie podąża do pulpitu, gdzie odśpiewuje ją wiernym, okadziwszy uprzednio świętą księgę
+
+– Tekst w dzisiejszej Mszy –
+
+! Skończywszy czytać Ewangelię kapłan całuje mszał i mówi po cichu (z wyjątkiem Mszy żałobnych):
+
+V. Niech słowa Ewangelii zgładzą nasze grzechy.
+R. Chwała Tobie, Chryste.[^11]
+
+[Credo]
+
+! Kapłan przechodzi na środek ołtarza.
+! Uroczyste wyznanie wiary jest naszą odpowiedzią na pouczenia, które otrzymaliśmy w Lekcji i Ewangelii.
+! Credo odmawia się: w niedziele; w święta 1 klasy; w święta 2 klasy Chrystusa Pana i Najświętszej Maryi Panny; w czasie oktaw Bożego Narodzenia, Wielkanocy i Zesłania Ducha Świętego; w główne święta Apostołów i Ewangelistów, oraz w święto Katedry św. Piotra, Apostoła.
+
+Wierzę w jednego Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.
+I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami.
+Bóg z Boga, światłość ze światłości. Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało.
+ On to dla nas, ludzi i dla naszego zbawienia zstąpił z nieba. (tu się przyklęka)
+I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem.
+Ukrzyżowany również za nas, pod Poncjuszem Piłatem został umęczony i pogrzebany.
+I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca.
+I powtórnie przyjdzie w chwale sądzić żywych i umarłych: A Królestwu Jego nie będzie końca.
+Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę. Który mówił przez Proroków.
+Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych. I życia + wiecznego w przyszłym świecie. Amen.[^12]
+
+[Footnotes]
+[^1]: Kýrie, eléison. Kýrie, eléison. Kýrie, eléison. Christe, eléison. Christe, eléison. Christe, eléison. Kýrie, eléison. Kýrie, eléison. Kýrie, eléison.
+[^2]: Gloria in excelsis Deo Et in terra pax homínibus bonæ voluntátis. Laudámus te. Benedícimus te. Adorámus te. Glorificámus te. Grátias ágimus tibi propter magnam glóriam tuam. Dómine Deus, Rex coeléstis, Deus Pater omnípotens. Dómine Fili unigénite, Iesu Christe. Dómine Deus, Agnus Dei, Fílius Patris. Qui tollis peccáta mundi, miserére nobis. Qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus. Tu solus Dóminus. Tu solus Altíssimus, Iesu Christe. Cum Sancto Spíritu ☩ in glória Dei Patris. Amen.
+[^3]: V. Dóminus vobíscum. R. Et cum spiritu tuo.
+[^4]: Orémus.
+[^5]: R. Deo gratias.
+[^6]: Munda cor meum, ac labia mea, omnípotens Deus, qui labia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, Dóminum nostrum. Amen.
+[^7]: Iube, Dómine, benedícere. Dóminus sit in corde meo et in lábiis meis: ut digne et competénter annúntiem Evangélium suum. Amen.
+[^8]: Iube, domne, benedícere.
+[^9]: Dóminus sit in corde tuo et in lábiis tuis: ut digne et competénter annúntiem Evangélium suum. In nómine Patris, ☩ et Fílii, et Spíritus Sancti. Amen.
+[^10]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Sequéntia (Initium) + sancti Evangélii secúndum N. R. Gloria tibi, Domine.
+[^11]: V. Per Evangelica dicta, deleantur nostra delicta. R. Laus tibi, Christe!
+[^12]: Credo in unum Deum, Patrem omnipoténtem, factórem coeli et terræ, visibílium ómnium et in visibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saecula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de coelis. Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in coelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostólicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et exspécto resurrectiónem mortuórum. Et vitam ventúri saeculi. Amen.
+
+
+

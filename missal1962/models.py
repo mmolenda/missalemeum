@@ -116,13 +116,13 @@ class LiturgicalDay(object):
                     depends on which calendar day they occur.
         :type day: `date ` object
         """
-        titles = importlib.import_module(f'resources.{locale}.titles')
+        translation = importlib.import_module(f'resources.{locale}.translation')
         flexibility, name, rank = day_id.split(':')
         self.flexibility = flexibility
         self.name = name
         self.rank = self._calc_rank(day_id, date_, int(rank))
         self.id = ':'.join((self.flexibility, self.name, str(self.rank)))
-        self.title = titles.titles.get(day_id)
+        self.title = translation.titles.get(day_id)
         if flexibility == TYPE_TEMPORA and day_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:

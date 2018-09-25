@@ -1,5 +1,6 @@
 from missal1962 import constants
-from ..pl_la.titles import titles
+from ..pl_la.translation import (titles, chapters, chapters_multi, paternoster, transformations,
+                                 divoff_lang, divoff_lang_latin)
 
 titles[constants.SANCTI_03_08PL] = 'Bł. Winentego Kadłubka, Biskupa i Wyznawcy'
 titles[constants.SANCTI_03_15PL] = 'Św. Klemensa Marii Dworzaka (Hofbauera)'

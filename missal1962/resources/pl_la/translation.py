@@ -1,4 +1,9 @@
+import re
+
 from missal1962 import constants
+
+divoff_lang = 'Polski'
+divoff_lang_latin = 'Latin'
 
 titles = {
     constants.TEMPORA_EPI1_0: 'Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa.',
@@ -647,3 +652,95 @@ titles = {
     constants.SANCTI_12_30: 'Dzień szósty w Oktawie Narodzenia Pańskiego',
     constants.SANCTI_12_31: 'Dzień siódmy w Oktawie Narodzenia Pańskiego'
 }
+
+
+chapters = {
+    'Communicantes': 'Communicantes',
+    'CommunioP': 'Antyfona na Komunię (Okres Wielkanocny)',
+    'Communio': 'Antyfona na Komunię',
+    'Evangelium': 'Ewangelia',
+    'GradualeP': 'Alleluja Wielkanocne',
+    'Graduale': 'Graduał',
+    'Introitus': 'Introit',
+    'Lectio': 'Lekcja',
+    'OffertoriumP': 'Antyfona na Ofiarowanie (Okres Wielkanocny)',
+    'Offertorium': 'Antyfona na Ofiarowanie',
+    'Oratio': 'Kolekta',
+    'Postcommunio': 'Pokomunia',
+    'Secreta': 'Sekreta',
+    'Sequentia': 'Sekwencja',
+    'Super populum': 'Modlitwa nad ludem',
+    'Prefatio': 'Prefacja',
+    'Tractus': 'Traktus'}
+
+chapters_multi = {
+    'GradualeL1': '1 Graduał',
+    'GradualeL2': '2 Graduał',
+    'GradualeL3': '3 Graduał',
+    'GradualeL4': '4 Graduał',
+    'GradualeL5': '5 Graduał',
+    'Graduale': '6 Graduał',
+    'LectioL1': '1 Lekcja',
+    'LectioL2': '2 Lekcja',
+    'LectioL3': '3 Lekcja',
+    'LectioL4': '4 Lekcja',
+    'LectioL5': '5 Lekcja',
+    'Lectio': '6 Lekcja',
+    'OratioL1': '2 Kolekta',
+    'OratioL2': '3 Kolekta',
+    'OratioL3': '4 Kolekta',
+    'OratioL4': '5 Kolekta',
+    'OratioL5': '6 Kolekta',
+    'Oratio': '1 Kolekta'}
+
+paternoster = (
+    "Ojcze nasz, któryś jest w niebie: "
+    "Święć się Imię Twoje, "
+    "Przyjdź królestwo Twoje, "
+    "Bądź wola Twoja jako w niebie tak i na ziemi.\n"
+    "Chleba naszego powszedniego daj nam dzisiaj "
+    "I odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. "
+    "I nie wódź nas na pokuszenie. "
+    "Ale nas zbaw ode złego. Amen.",
+
+    "Pater noster, qui es in caelis, "
+    "Sanctificetur nomen tuum. "
+    "Adveniat regnum tuum. "
+    "Fiat voluntas tua, sicut in coelo et in terra. "
+    "Panem nostrum quotidianum da nobis hodie. "
+    "Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. "
+    "Et ne nos inducas in tentationem: "
+    "Sed libera nos a malo. ")
+
+
+transformations = (
+        (re.compile(r'\+\+'), {None: '☩'}),
+        (re.compile(r'\+'), {None: '☩'}),
+        (re.compile(r'^#'), {None: '##'}),
+        (re.compile(r'^!x!'), {None: '!'}),
+        (re.compile(r'^!! *(.*)'), {None: '### \\1'}),
+        (re.compile(r'^\[([^\]^]*)\]'), {None: '### \\1'}),
+        (re.compile(r'^! *(.*)'), {None: '*\\1*'}),
+        (re.compile(r'^v\. *'), {None: ''}),
+        (re.compile(r'^_'), {None: ''}),
+        (re.compile(r'\(\('), {None: '('}),
+        (re.compile(r'\)\)'), {None: ')'}),
+        (re.compile(r'\['), {None: '('}),
+        (re.compile(r'\]'), {None: ')'}),
+        (re.compile(r'\((\^\d+)\)'), {None: '[\\1]'}),  # preserving footnotes, like [^1], [^1]:
+        (re.compile(r'^.*`.*$'), {None: ''}),
+        (re.compile(r'^[&$]Gloria\.*'), {'Polski': 'Chwała Ojcu.', 'Latin': 'Glória Patri.'}),
+        (re.compile(r'^\$Per Dominum eiusdem\.*'), {'Polski': 'Przez Pana.', 'Latin': 'Per Dominum.'}),
+        (re.compile(r'^\$Per Dominum\.*'), {'Polski': 'Przez Pana.', 'Latin': 'Per Dominum.'}),
+        (re.compile(r'^\$Per eu[mn]dem\.*'), {'Polski': 'Przez tegoż Pana.', 'Latin': 'Per eúndem.'}),
+        (re.compile(r'^\$Qui tecum eiusdem\.*'), {'Polski': 'Który z Tobą.', 'Latin': 'Qui tecum.'}),
+        (re.compile(r'^\$Qui tecum\.*'), {'Polski': 'Który z Tobą.', 'Latin': 'Qui tecum.'}),
+        (re.compile(r'^\$Qui vivis\.*'), {'Polski': 'Który żyjesz.', 'Latin': 'Qui vivis.'}),
+        (re.compile(r'^\$Deo [Gg]ratias\.*'), {'Polski': 'Bogu dzięki.', 'Latin': 'Deo gratias.'}),
+        (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), {'Polski': 'V. Pan z wami.    \n\rR. I z duchem twoim.',
+                                                       'Latin': 'V. Dóminus vobíscum.    \n\rR. Et cum spíritu tuo.'}),
+        (re.compile(r'^\*Modlitwa nad ludem\*.*'), {None: ''}),
+        (re.compile(r'^\$Pater noster.*'), {'Polski': paternoster[0], 'Latin': paternoster[1]}),
+        (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), {None: ''}),
+        (re.compile(r'\(deinde dicuntur semper\)'), {None: ''}),
+    )
