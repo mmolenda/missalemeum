@@ -80,13 +80,14 @@ class DivoffFormatter(object):
                                 nested_path = cls._get_full_path(path_bit + '.txt', lang) if path_bit else partial_path
                                 nested_content = cls.parse_file(nested_path, lang=lang, lookup_section=nested_section)
                                 try:
-                                    sections[-1]['body'].extend(nested_content[nested_section])
+                                    sections[-1]['body'].extend(nested_content[0]['body'])
                                 except KeyError:
                                     log.warning("Section `%s` referenced from `%s` is missing in `%s`",
                                                 nested_section, full_path, nested_path)
                             else:
                                 # Reference to the other section in current file
-                                sections[-1]['body'].extend(sections[nested_section])
+                                nested_section_body = [i['body'] for i in sections if i['id'] == nested_section][0]
+                                sections[-1]['body'].extend(nested_section_body)
                         else:
                             # Finally, a regular line...
                             # Line ending with `~` indicates that next line
@@ -99,7 +100,7 @@ class DivoffFormatter(object):
                             concat_line = True if ln.endswith('~') else False
         sections = cls._strip_contents(sections)
         sections = cls._resolve_conditionals(sections)
-        if 'Ordo' not in partial_path:
+        if 'Ordo' not in partial_path and not lookup_section:
             sections = cls._add_prefaces(sections, lang)
             sections = cls._translate_section_titles(sections, lang)
         return sections
