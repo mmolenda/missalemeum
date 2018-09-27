@@ -105,7 +105,7 @@ class LiturgicalDay(object):
         which is third feria day (Wednesday) in second week after Epiphany
       'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
     """
-    def __init__(self, day_id: str, date_: date, locale):
+    def __init__(self, day_id: str, date_: date, lang):
         """ Build a Liturgical day out of identifier and calendar date
 
         :param day_id: liturgical day identifier in format
@@ -116,7 +116,7 @@ class LiturgicalDay(object):
                     depends on which calendar day they occur.
         :type day: `date ` object
         """
-        translation = importlib.import_module(f'resources.{locale}.translation')
+        translation = importlib.import_module(f'resources.{lang}.translation')
         flexibility, name, rank = day_id.split(':')
         self.flexibility = flexibility
         self.name = name

@@ -3,6 +3,7 @@
 import click
 import datetime
 import importlib
+import json
 
 from exceptions import InvalidInput
 from factory import MissalFactory
@@ -19,8 +20,8 @@ def cli():
 
 @click.command()
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
-@click.option('--locale', default=default_language)
-def calendar(year, locale):
+@click.option('--language', default=default_language)
+def calendar(year, language):
     def _print_all(missal):
         for date_, lit_day_container in missal.items():
             # if not {1, 2}.intersection(set([i.rank for i in lit_day_container.all])):
@@ -46,20 +47,17 @@ def calendar(year, locale):
             print(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
                   f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
-    missal = MissalFactory.create(year, locale)
+    missal = MissalFactory.create(year, language)
     _print_all(missal)
 
 
 @click.command()
 @click.argument('proper_id')
-@click.option('--locale', default=default_language)
-def proper(proper_id, locale):
+@click.option('--language', default=default_language)
+def proper(proper_id, language):
     try:
-        vernacular, latin = DivoffFormatter.run(proper_id, locale)
-        for title, contents in vernacular.items():
-            print(title, contents)
-        for title, contents in latin.items():
-            print(title, contents)
+        vernacular, latin = DivoffFormatter.run(proper_id, language)
+        print(json.dumps({language: vernacular, "Latin": latin}, indent=2))
     except InvalidInput as e:
         print(e)
     except FileNotFoundError:
@@ -68,10 +66,10 @@ def proper(proper_id, locale):
 
 @click.command()
 @click.argument('date')
-@click.option('--locale', default=default_language)
-def date(date, locale):
+@click.option('--language', default=default_language)
+def date(date, language):
     yy, mm, dd = date.split('-')
-    missal = MissalFactory.create(int(yy), locale)
+    missal = MissalFactory.create(int(yy), language)
     lit_day_container = missal[datetime.date(int(yy), int(mm), int(dd))]
     print(date)
     print('tempora', [i.title for i in lit_day_container.tempora])
@@ -80,9 +78,9 @@ def date(date, locale):
 
 @click.command()
 @click.argument('search_string')
-@click.option('--locale', default=default_language)
-def search(search_string, locale):
-    titles = importlib.import_module(f'resources.{locale}.translation')
+@click.option('--language', default=default_language)
+def search(search_string, language):
+    titles = importlib.import_module(f'resources.{language}.translation')
     for id_, title in titles.titles.items():
         if search_string.strip().lower() in title.lower():
             print(':'.join(id_.split(':')[:2]), title)

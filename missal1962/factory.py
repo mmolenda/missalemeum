@@ -18,13 +18,13 @@ from missal1962.rules import rules
 class MissalFactory(object):
 
     missal = None
-    language = None
+    lang = None
     blocks = None
 
     @classmethod
-    def create(cls, year: int, language: str='Polski') -> Missal:
-        cls.language = language
-        cls.blocks = importlib.import_module(f'resources.{cls.language}.blocks')
+    def create(cls, year: int, lang: str='Polski') -> Missal:
+        cls.lang = lang
+        cls.blocks = importlib.import_module(f'resources.{cls.lang}.blocks')
         cls.missal: Missal = Missal(year)
         cls._fill_in_tempora_days(year)
         cls._fill_in_sancti_days()
@@ -58,7 +58,7 @@ class MissalFactory(object):
         """
         for date_, lit_day_container in cls.missal.items():
             date_id = date_.strftime("%m-%d")
-            days = [LiturgicalDay(ii, date_, cls.language) for ii in cls.blocks.SANCTI if ii.startswith("sancti:{}".format(date_id))]
+            days = [LiturgicalDay(ii, date_, cls.lang) for ii in cls.blocks.SANCTI if ii.startswith("sancti:{}".format(date_id))]
             lit_day_container.celebration.extend(days)
             lit_day_container.celebration.sort(reverse=True)
 
@@ -125,7 +125,7 @@ class MissalFactory(object):
             # break on stop date
             if stop_date == index - timedelta(days=1):
                 break
-            cls.missal[index].tempora = [LiturgicalDay(day_id, index, cls.language) for day_id in day_ids]
+            cls.missal[index].tempora = [LiturgicalDay(day_id, index, cls.lang) for day_id in day_ids]
             cls.missal[index].celebration = copy(cls.missal[index].tempora)
 
     @classmethod
@@ -148,7 +148,7 @@ class MissalFactory(object):
                            date_,
                            cls.missal[date_].tempora,
                            cls.missal[date_].celebration + shifted,
-                           cls.language)
+                           cls.lang)
             if results is None or not any(results):
                 continue
             return results

@@ -651,44 +651,46 @@ titles = {
 }
 
 
-chapters = {
+section_labels = {
     'Communicantes': 'Communicantes',
-    'CommunioP': 'Antyfona na Komunię (Okres Wielkanocny)',
-    'Communio': 'Antyfona na Komunię',
-    'Evangelium': 'Ewangelia',
-    'GradualeP': 'Alleluja Wielkanocne',
-    'Graduale': 'Graduał',
-    'Introitus': 'Introit',
-    'Lectio': 'Lekcja',
-    'OffertoriumP': 'Antyfona na Ofiarowanie (Okres Wielkanocny)',
-    'Offertorium': 'Antyfona na Ofiarowanie',
-    'Oratio': 'Kolekta',
-    'Postcommunio': 'Pokomunia',
-    'Secreta': 'Sekreta',
-    'Sequentia': 'Sekwencja',
-    'Super populum': 'Modlitwa nad ludem',
-    'Prefatio': 'Prefacja',
-    'Tractus': 'Traktus'}
+    'CommunioP': 'CommunioP',
+    'Communio': 'Communio',
+    'Evangelium': 'Evangelium',
+    'GradualeP': 'GradualeP',
+    'Graduale': 'Graduale',
+    'Introitus': 'Introitus',
+    'Lectio': 'Lectio',
+    'OffertoriumP': 'OffertoriumP',
+    'Offertorium': 'Offertorium',
+    'Oratio': 'Oratio',
+    'Postcommunio': 'Postcommunio',
+    'Secreta': 'Secreta',
+    'Sequentia': 'Sequentia',
+    'Super populum': 'Super populum',
+    'Prefatio': 'Prefatio',
+    'Tractus': 'Tractus'
+}
 
-chapters_multi = {
-    'GradualeL1': '1 Graduał',
-    'GradualeL2': '2 Graduał',
-    'GradualeL3': '3 Graduał',
-    'GradualeL4': '4 Graduał',
-    'GradualeL5': '5 Graduał',
-    'Graduale': '6 Graduał',
-    'LectioL1': '1 Lekcja',
-    'LectioL2': '2 Lekcja',
-    'LectioL3': '3 Lekcja',
-    'LectioL4': '4 Lekcja',
-    'LectioL5': '5 Lekcja',
-    'Lectio': '6 Lekcja',
-    'OratioL1': '2 Kolekta',
-    'OratioL2': '3 Kolekta',
-    'OratioL3': '4 Kolekta',
-    'OratioL4': '5 Kolekta',
-    'OratioL5': '6 Kolekta',
-    'Oratio': '1 Kolekta'}
+section_labels_multi = {
+    'GradualeL1': 'GradualeL1',
+    'GradualeL2': 'GradualeL2',
+    'GradualeL3': 'GradualeL3',
+    'GradualeL4': 'GradualeL4',
+    'GradualeL5': 'GradualeL5',
+    'Graduale': 'Graduale',
+    'LectioL1': 'LectioL1',
+    'LectioL2': 'LectioL2',
+    'LectioL3': 'LectioL3',
+    'LectioL4': 'LectioL4',
+    'LectioL5': 'LectioL5',
+    'Lectio': 'Lectio',
+    'OratioL1': 'OratioL1',
+    'OratioL2': 'OratioL2',
+    'OratioL3': 'OratioL3',
+    'OratioL4': 'OratioL4',
+    'OratioL5': 'OratioL5',
+    'Oratio': 'Oratio'
+}
 
 paternoster = (
     "Ojcze nasz, któryś jest w niebie: "
