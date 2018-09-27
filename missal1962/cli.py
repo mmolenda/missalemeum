@@ -7,8 +7,7 @@ import json
 
 from exceptions import InvalidInput
 from factory import MissalFactory
-from formatters.divoff import DivoffFormatter
-
+from parsers import ProperParser
 
 default_language = 'Polski'
 
@@ -24,9 +23,6 @@ def cli():
 def calendar(year, language):
     def _print_all(missal):
         for date_, lit_day_container in missal.items():
-            # if not {1, 2}.intersection(set([i.rank for i in lit_day_container.all])):
-            #     continue
-
             if date_.weekday() == 6:
                 print("---")
             if date_.day == 1:
@@ -56,8 +52,8 @@ def calendar(year, language):
 @click.option('--language', default=default_language)
 def proper(proper_id, language):
     try:
-        vernacular, latin = DivoffFormatter.run(proper_id, language)
-        print(json.dumps({language: vernacular, "Latin": latin}, indent=2))
+        vernacular, latin = ProperParser.run(proper_id, language)
+        print(json.dumps({language: vernacular.to_python(), "Latin": latin.to_python()}, indent=2))
     except InvalidInput as e:
         print(e)
     except FileNotFoundError:

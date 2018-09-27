@@ -1,11 +1,13 @@
 import importlib
+import json
 import re
 from collections import OrderedDict
 from datetime import date, timedelta
 from typing import Tuple
 
-from .constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
-                        C_10PASC, C_10T)
+from exceptions import MissalException
+from constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
+                       C_10PASC, C_10T)
 
 
 class LiturgicalDayContainer(object):
@@ -168,3 +170,56 @@ class LiturgicalDay(object):
 
     def __le__(self, other):
         return not other.rank > self.rank
+
+
+class ProperSectionContainer(list):
+    def to_python(self):
+        return [i.to_python() for i in self]
+
+    def to_json(self):
+        return json.dumps(self.to_python())
+
+    def get_section(self, section_id):
+        sections = [i for i in self if i.id == section_id]
+        if not sections:
+            raise MissalException(f'Section `{section_id}` not found in the Container')
+        if len(sections) > 1:
+            raise MissalException(f'More than one member with ID `{section_id}` found in the Container')
+        return sections[0]
+
+    @property
+    def section_ids(self):
+        return [i.id for i in self]
+
+
+class ProperSection:
+    id = None
+    label = None
+    body = None
+
+    def __init__(self, id_: str, body: list=None, label: str=None):
+        self.id = id_
+        self.body = body if body is not None else []
+        self.label = label if label is not None else id_
+
+    def set_label(self, label: str):
+        self.label = label
+
+    def extend_body(self, body_part: list):
+        self.body.extend(body_part)
+
+    def append_to_body(self, body_part: list):
+        self.body.append(body_part)
+
+    def to_python(self):
+        return {'id': self.id, 'label': self.label, 'body': self.body}
+
+    def to_json(self):
+        return json.dumps(self.to_python())
+
+    def __str__(self):
+        body_short = ' '.join(self.body)[:32]
+        return f'{self.id} ({self.label}) {body_short}'
+
+    def __repr__(self):
+        return f'Section<{self.label}>'
