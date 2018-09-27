@@ -2,9 +2,6 @@ import re
 
 from missal1962 import constants
 
-divoff_lang = 'Polski'
-divoff_lang_latin = 'Latin'
-
 titles = {
     constants.TEMPORA_EPI1_0: 'Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa.',
     constants.TEMPORA_EPI1_1: 'Poniedziałek po 1 Niedzieli po Objawieniu',

@@ -3,6 +3,7 @@ import re
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
+LANGUAGE_LATIN = 'Latin'
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
 

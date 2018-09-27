@@ -1,4 +1,4 @@
-from ..pl_la.blocks import *
+from ..Latin.blocks import *
 
 
 SANCTI = (

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import click
 import datetime
 import importlib
@@ -7,7 +9,7 @@ from factory import MissalFactory
 from formatters.divoff import DivoffFormatter
 
 
-default_locale = 'pl_pl'
+default_language = 'Polski'
 
 
 @click.group()
@@ -17,7 +19,7 @@ def cli():
 
 @click.command()
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
-@click.option('--locale', default=default_locale)
+@click.option('--locale', default=default_language)
 def calendar(year, locale):
     def _print_all(missal):
         for date_, lit_day_container in missal.items():
@@ -50,7 +52,7 @@ def calendar(year, locale):
 
 @click.command()
 @click.argument('proper_id')
-@click.option('--locale', default=default_locale)
+@click.option('--locale', default=default_language)
 def proper(proper_id, locale):
     try:
         vernacular, latin = DivoffFormatter.run(proper_id, locale)
@@ -66,7 +68,7 @@ def proper(proper_id, locale):
 
 @click.command()
 @click.argument('date')
-@click.option('--locale', default=default_locale)
+@click.option('--locale', default=default_language)
 def date(date, locale):
     yy, mm, dd = date.split('-')
     missal = MissalFactory.create(int(yy), locale)
@@ -78,7 +80,7 @@ def date(date, locale):
 
 @click.command()
 @click.argument('search_string')
-@click.option('--locale', default=default_locale)
+@click.option('--locale', default=default_language)
 def search(search_string, locale):
     titles = importlib.import_module(f'resources.{locale}.translation')
     for id_, title in titles.titles.items():

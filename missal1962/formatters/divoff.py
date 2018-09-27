@@ -1,18 +1,12 @@
 # -*- coding: utf-8 -*-
 
-"""
-TODO:
-* eundem/eundem w plikach zrodlowych
-"""
-import contextlib
 import importlib
 import re
 import os
 from collections import OrderedDict
 import logging
-import sys
 
-from constants import REFERENCE_REGEX, SECTION_REGEX, THIS_DIR
+from constants import REFERENCE_REGEX, SECTION_REGEX, THIS_DIR, LANGUAGE_LATIN
 from exceptions import InvalidInput
 
 log = logging.getLogger()
@@ -20,28 +14,28 @@ log = logging.getLogger()
 
 class DivoffFormatter(object):
 
-    locale = None
+    language = None
     translation = None
     prefationes_a = None
     prefationes_b = None
     footnotes = []
 
     @classmethod
-    def run(cls, proper_id: str, locale: str):
+    def run(cls, proper_id: str, language: str):
         collect = []
         log.info("Starting the process")
         log.debug("Reading Ordo/Prefationes.txt")
-        cls.locale = locale
-        cls.translation = importlib.import_module(f'missal1962.resources.{cls.locale}.translation')
-        cls.prefaces_vernacular = cls.parse_file('Ordo/Prefationes.txt', cls.translation.divoff_lang)
-        cls.prefaces_latin = cls.parse_file('Ordo/Prefationes.txt', lang=cls.translation.divoff_lang_latin)
+        cls.language = language
+        cls.translation = importlib.import_module(f'missal1962.resources.{cls.language}.translation')
+        cls.prefaces_vernacular = cls.parse_file('Ordo/Prefationes.txt', cls.language)
+        cls.prefaces_latin = cls.parse_file('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
         try:
             partial_path = f'{proper_id.split(":")[0].capitalize()}/{proper_id.split(":")[1]}.txt'
         except IndexError:
             raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
         log.debug("Parsing file `%s`", partial_path)
-        contents_vernacular = cls.parse_file(partial_path, cls.translation.divoff_lang)
-        contents_latin = cls.parse_file(partial_path, cls.translation.divoff_lang_latin)
+        contents_vernacular = cls.parse_file(partial_path, cls.language)
+        contents_latin = cls.parse_file(partial_path, LANGUAGE_LATIN)
         return contents_vernacular, contents_latin
 
     @classmethod
