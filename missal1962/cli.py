@@ -1,11 +1,12 @@
 #!/usr/bin/env python
+import sys
 
 import click
 import datetime
 import importlib
 import json
 
-from exceptions import InvalidInput
+from exceptions import InvalidInput, ProperNotFound
 from factory import MissalFactory
 from parsers import ProperParser
 
@@ -54,22 +55,30 @@ def proper(proper_id, language):
     try:
         vernacular, latin = ProperParser.run(proper_id, language)
         print(json.dumps({language: vernacular.to_python(), "Latin": latin.to_python()}, indent=2))
-    except InvalidInput as e:
-        print(e)
-    except FileNotFoundError:
-        print(f'No proper found for ID `{proper_id}`')
+    except (InvalidInput, ProperNotFound) as e:
+        sys.stderr.write(str(e))
 
 
 @click.command()
 @click.argument('date')
 @click.option('--language', default=default_language)
 def date(date, language):
-    yy, mm, dd = date.split('-')
-    missal = MissalFactory.create(int(yy), language)
-    lit_day_container = missal[datetime.date(int(yy), int(mm), int(dd))]
+    date_object = datetime.date(*[int(i) for i in date.split('-')])
+    missal = MissalFactory.create(date_object.year, language)
+    lit_day_container = missal[date_object]
+    celebration = [i.title for i in lit_day_container.celebration]
+    try:
+        vernacular, latin = lit_day_container.celebration[0].get_proper()
+    except (IndexError, ProperNotFound):
+        while date_object.weekday() != 6:  # Sunday
+            date_object = date_object - datetime.timedelta(days=1)
+        vernacular, latin = missal[date_object].celebration[0].get_proper()
+        celebration = missal[date_object].celebration[0].title
     print(date)
-    print('tempora', [i.title for i in lit_day_container.tempora])
-    print('celebration', [i.title for i in lit_day_container.celebration])
+    print('tempora:', [i.title for i in lit_day_container.tempora])
+    print('celebration:', celebration)
+    print('commemoration:', [i.title for i in lit_day_container.commemoration])
+    print(json.dumps({language: vernacular.to_python()}, indent=2))
 
 
 @click.command()

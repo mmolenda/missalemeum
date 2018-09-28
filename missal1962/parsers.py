@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import re
@@ -7,11 +8,62 @@ from typing import Tuple
 
 from constants import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, EXCLUDE_SECTIONS_TITLES, \
     THIS_DIR
-from exceptions import InvalidInput
-from models import ProperSectionContainer, ProperSection
-
+from exceptions import InvalidInput, ProperNotFound, MissalException
 
 log = logging.getLogger(__name__)
+
+
+class ProperSectionContainer(list):
+    def to_python(self):
+        return [i.to_python() for i in self]
+
+    def to_json(self):
+        return json.dumps(self.to_python())
+
+    def get_section(self, section_id):
+        sections = [i for i in self if i.id == section_id]
+        if not sections:
+            raise MissalException(f'Section `{section_id}` not found in the Container')
+        if len(sections) > 1:
+            raise MissalException(f'More than one member with ID `{section_id}` found in the Container')
+        return sections[0]
+
+    @property
+    def section_ids(self):
+        return [i.id for i in self]
+
+
+class ProperSection:
+    id = None
+    label = None
+    body = None
+
+    def __init__(self, id_: str, body: list=None, label: str=None):
+        self.id = id_
+        self.body = body if body is not None else []
+        self.label = label if label is not None else id_
+
+    def set_label(self, label: str):
+        self.label = label
+
+    def extend_body(self, body_part: list):
+        self.body.extend(body_part)
+
+    def append_to_body(self, body_part: list):
+        self.body.append(body_part)
+
+    def to_python(self):
+        return {'id': self.id, 'label': self.label, 'body': self.body}
+
+    def to_json(self):
+        return json.dumps(self.to_python())
+
+    def __str__(self):
+        body_short = ' '.join(self.body)[:32]
+        return f'{self.id} ({self.label}) {body_short}'
+
+    def __repr__(self):
+        return f'Section<{self.label}>'
 
 
 class ProperParser:
@@ -28,6 +80,7 @@ class ProperParser:
     def run(cls, proper_id: str, lang: str) -> Tuple[ProperSectionContainer, ProperSectionContainer]:
         log.info("Starting the process")
         log.debug("Reading Ordo/Prefationes.txt")
+        proper_id = ':'.join(proper_id.split(':')[:2])
         cls.lang = lang
         cls.translations[cls.lang] = importlib.import_module(f'missal1962.resources.{cls.lang}.translation')
         cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'missal1962.resources.{LANGUAGE_LATIN}.translation')
@@ -38,8 +91,11 @@ class ProperParser:
         except IndexError:
             raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
         log.debug("Parsing file `%s`", partial_path)
-        container_vernacular: ProperSectionContainer = cls.parse_file(partial_path, cls.lang)
-        container_latin: ProperSectionContainer = cls.parse_file(partial_path, LANGUAGE_LATIN)
+        try:
+            container_vernacular: ProperSectionContainer = cls.parse_file(partial_path, cls.lang)
+            container_latin: ProperSectionContainer = cls.parse_file(partial_path, LANGUAGE_LATIN)
+        except FileNotFoundError:
+            raise ProperNotFound(f'Proper `{proper_id}` not found.')
         return container_vernacular, container_latin
 
     @classmethod
@@ -136,7 +192,7 @@ class ProperParser:
         for section in sections:
             if section.id in EXCLUDE_SECTIONS + EXCLUDE_SECTIONS_TITLES:
                 continue
-            section.set_label(section_labels[section.id])
+            section.set_label(section_labels.get(section.id, section.id))
         return sections
 
     @classmethod

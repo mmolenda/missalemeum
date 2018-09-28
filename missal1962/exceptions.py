@@ -5,3 +5,7 @@ class MissalException(Exception):
 
 class InvalidInput(MissalException):
     pass
+
+
+class ProperNotFound(MissalException):
+    pass
