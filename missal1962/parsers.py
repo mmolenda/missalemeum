@@ -4,6 +4,7 @@ import os
 import re
 
 import importlib
+from collections import OrderedDict
 from typing import Tuple
 
 from constants import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, EXCLUDE_SECTIONS_TITLES, \
@@ -13,24 +14,19 @@ from exceptions import InvalidInput, ProperNotFound, MissalException
 log = logging.getLogger(__name__)
 
 
-class ProperSectionContainer(list):
+class ProperSectionContainer(OrderedDict):
     def to_python(self):
-        return [i.to_python() for i in self]
+        return [v.to_python() for k, v in self.items() if k not in EXCLUDE_SECTIONS]
 
     def to_json(self):
         return json.dumps(self.to_python())
 
     def get_section(self, section_id):
-        sections = [i for i in self if i.id == section_id]
-        if not sections:
-            raise MissalException(f'Section `{section_id}` not found in the Container')
-        if len(sections) > 1:
-            raise MissalException(f'More than one member with ID `{section_id}` found in the Container')
-        return sections[0]
+        return self.get(section_id)
 
     @property
     def section_ids(self):
-        return [i.id for i in self]
+        return self.keys()
 
 
 class ProperSection:
@@ -133,7 +129,7 @@ class ProperParser:
 
                 if not lookup_section or lookup_section == section_name:
                     if re.match(SECTION_REGEX, ln):
-                        section_container.append(ProperSection(section_name))
+                        section_container[section_name] = ProperSection(section_name)
                     else:
                         if REFERENCE_REGEX.match(ln):
                             path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(ln)[0]
@@ -142,14 +138,14 @@ class ProperParser:
                                 nested_path = cls._get_full_path(path_bit + '.txt', lang) if path_bit else partial_path
                                 nested_content = cls.parse_file(nested_path, lang=lang, lookup_section=nested_section_name)
                                 try:
-                                    section_container[-1].extend_body(nested_content[0].body)
+                                    section_container[nested_section_name].extend_body(nested_content[nested_section_name].body)
                                 except KeyError:
                                     log.warning("Section `%s` referenced from `%s` is missing in `%s`",
                                                 nested_section_name, full_path, nested_path)
                             else:
                                 # Reference to the other section in current file
                                 nested_section_body = section_container.get_section(nested_section_name).body
-                                section_container[-1].extend_body(nested_section_body)
+                                section_container[nested_section_name].extend_body(nested_section_body)
 
                         else:
                             # Finally, a regular line...
@@ -157,9 +153,9 @@ class ProperParser:
                             # should be treated as its continuation
                             appendln = ln.replace('~', ' ')
                             if concat_line:
-                                section_container[-1].body[-1] += appendln
+                                section_container[section_name].body[-1] += appendln
                             else:
-                                section_container[-1].append_to_body(appendln)
+                                section_container[section_name].append_to_body(appendln)
                             concat_line = True if ln.endswith('~') else False
         section_container = cls._strip_contents(section_container)
         section_container = cls._resolve_conditionals(section_container)
@@ -176,20 +172,20 @@ class ProperParser:
 
     @staticmethod
     def _strip_contents(sections):
-        for section in sections:
+        for section in sections.values():
             while section.body and not section.body[-1]:
                 section.body.pop(-1)
         return sections
 
     @classmethod
     def _translate_section_titles(cls, sections, lang):
-        sections_ids = [i.id for i in sections]
+        sections_ids = sections.keys()
         section_labels = {}
         section_labels.update(cls.translations[lang].section_labels)
         if 'GradualeL1' in sections_ids:
             section_labels.update(cls.translations[lang].section_labels_multi)
 
-        for section in sections:
+        for section in sections.values():
             if section.id in EXCLUDE_SECTIONS + EXCLUDE_SECTIONS_TITLES:
                 continue
             section.set_label(section_labels.get(section.id, section.id))
@@ -198,13 +194,13 @@ class ProperParser:
     @classmethod
     def _add_prefaces(cls, sections, lang):
         preface_id = 'Trinitate'
-        for section in sections:
+        for section in sections.values():
             if section.id == 'Rule':
                 rule_preface = [i for i in section.body if i.startswith('Prefatio=')]
                 if rule_preface:
                     preface_id = rule_preface[0].split('=')[1]
                     break
-        sections_ids = [i.id for i in sections]
+        sections_ids = sections.keys()
         communion_index = sections_ids.index('Communio')
         preface_item = [i for i in cls.prefaces[lang] if i.id == preface_id][0]
         sections.insert(communion_index, ProperSection('Prefatio', body=preface_item.body))
@@ -212,7 +208,7 @@ class ProperParser:
 
     @staticmethod
     def _resolve_conditionals(sections):
-        for itr, section in enumerate(sections):
+        for section_name, section in sections.items():
             new_content = []
             omit = False
             iter_body = iter(section.body)
@@ -236,7 +232,7 @@ class ProperParser:
                 if omit:
                     continue
                 new_content.append(ln)
-            sections[itr].body = new_content
+            sections[section_name].body = new_content
         return sections
 
     @staticmethod
