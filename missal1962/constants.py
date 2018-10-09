@@ -48,6 +48,42 @@ WEEKDAY_MAPPING = {
     '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
 }
 
+SECTION_ORDER = [
+    'Comment',
+    'Introitus',
+    'Oratio',
+    'OratioL1',
+    'OratioL2',
+    'OratioL3',
+    'OratioL4',
+    'OratioL5',
+    'Lectio',
+    'LectioL1',
+    'LectioL2',
+    'LectioL3',
+    'LectioL4',
+    'LectioL5',
+    'Graduale',
+    'GradualeP',
+    'GradualeL1',
+    'GradualeL2',
+    'GradualeL3',
+    'GradualeL4',
+    'GradualeL5',
+    'Tractus',
+    'Sequentia',
+    'Evangelium',
+    'Offertorium',
+    'OffertoriumP',
+    'Secreta',
+    'Prefatio',
+    'Communicantes',
+    'Communio',
+    'CommunioP',
+    'Postcommunio',
+    'Super populum'
+]
+
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 
 TEMPORA_EPI1_0 = 'tempora:Epi1-0:2'  # Feast of the Holy Family

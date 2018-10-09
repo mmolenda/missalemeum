@@ -4,25 +4,37 @@ import os
 import re
 
 import importlib
-from collections import OrderedDict
 from typing import Tuple
 
 from constants import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, EXCLUDE_SECTIONS_TITLES, \
-    THIS_DIR
-from exceptions import InvalidInput, ProperNotFound, MissalException
+    THIS_DIR, SECTION_ORDER
+from exceptions import InvalidInput, ProperNotFound
 
 log = logging.getLogger(__name__)
 
 
-class ProperSectionContainer(OrderedDict):
+class ProperSectionContainer(dict):
     def to_python(self):
-        return [v.to_python() for k, v in self.items() if k not in EXCLUDE_SECTIONS]
+        list_ = [v.to_python() for k, v in self.items() if k not in EXCLUDE_SECTIONS]
+        return sorted(list_, key=lambda x: SECTION_ORDER.index(x['id']))
 
     def to_json(self):
         return json.dumps(self.to_python())
 
     def get_section(self, section_id):
         return self.get(section_id)
+
+    def get_rule(self, rule_name):
+        rules = {'preface': None, 'vide': None}
+        section = self.get_section('Rule')
+        if section:
+            preface = [i for i in section.body if i.startswith('Prefatio=')]
+            vide = [i for i in section.body if 'vide' in i]
+            if preface:
+                rules['preface'] = preface[0].split('=')[1]
+            if vide:
+                rules['vide'] = vide[0].split(' ')[-1].strip(';')
+        return rules.get(rule_name)
 
     @property
     def section_ids(self):
@@ -118,7 +130,15 @@ class ProperParser:
                     # from the referenced file and continue with the sections from the current one.
                     path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
                     # Recursively read referenced file
-                    nested_path = cls._get_full_path(path_bit + '.txt', lang) if path_bit else partial_path
+                    nested_path = cls._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
+                    section_container = cls.parse_file(nested_path, lang=lang)
+                    continue
+
+                vide = section_container.get_rule('vide')
+                if vide:
+                    # reference in Rule section in 'vide' clause - load all sections
+                    # from the referenced file and continue with the sections from the current one.
+                    nested_path = cls._get_full_path(f'Commune/{vide}.txt', lang)
                     section_container = cls.parse_file(nested_path, lang=lang)
                     continue
 
@@ -193,17 +213,9 @@ class ProperParser:
 
     @classmethod
     def _add_prefaces(cls, sections, lang):
-        preface_id = 'Trinitate'
-        for section in sections.values():
-            if section.id == 'Rule':
-                rule_preface = [i for i in section.body if i.startswith('Prefatio=')]
-                if rule_preface:
-                    preface_id = rule_preface[0].split('=')[1]
-                    break
-        sections_ids = sections.keys()
-        communion_index = sections_ids.index('Communio')
-        preface_item = [i for i in cls.prefaces[lang] if i.id == preface_id][0]
-        sections.insert(communion_index, ProperSection('Prefatio', body=preface_item.body))
+        preface_name = sections.get_rule('preface') or 'Trinitate'
+        preface_item = cls.prefaces[lang][preface_name]
+        sections['Prefatio'] = ProperSection('Prefatio', body=preface_item.body)
         return sections
 
     @staticmethod

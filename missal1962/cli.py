@@ -63,7 +63,8 @@ def proper(proper_id, language):
 @click.argument('date')
 @click.option('--language', default=default_language)
 def date(date, language):
-    date_object = datetime.date(*[int(i) for i in date.split('-')])
+    yy, mm, dd = date.split('-')
+    date_object = datetime.date(int(yy), int(mm), int(dd))
     missal = MissalFactory.create(date_object.year, language)
     lit_day_container = missal[date_object]
     celebration = [i.title for i in lit_day_container.celebration]
@@ -71,14 +72,16 @@ def date(date, language):
         vernacular, latin = lit_day_container.celebration[0].get_proper()
     except (IndexError, ProperNotFound):
         while date_object.weekday() != 6:  # Sunday
+            if date_object == datetime.date(int(yy), 1, 1):
+                break
             date_object = date_object - datetime.timedelta(days=1)
         vernacular, latin = missal[date_object].celebration[0].get_proper()
         celebration = missal[date_object].celebration[0].title
-    print(date)
+    print('==', date)
     print('tempora:', [i.title for i in lit_day_container.tempora])
     print('celebration:', celebration)
     print('commemoration:', [i.title for i in lit_day_container.commemoration])
-    print(json.dumps({language: vernacular.to_python()}, indent=2))
+    print(json.dumps({language: vernacular.to_python(), 'Latin': latin.to_python()}, indent=2))
 
 
 @click.command()
