@@ -48,8 +48,9 @@ WEEKDAY_MAPPING = {
     '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
 }
 
-SECTION_ORDER = [
+VISIBLE_SECTIONS = [
     'Comment',
+    'Prelude',
     'Introitus',
     'Oratio',
     'OratioL1',
@@ -57,6 +58,7 @@ SECTION_ORDER = [
     'OratioL3',
     'OratioL4',
     'OratioL5',
+    'Commemoratio Oratio',
     'Lectio',
     'LectioL1',
     'LectioL2',
@@ -76,25 +78,28 @@ SECTION_ORDER = [
     'Offertorium',
     'OffertoriumP',
     'Secreta',
+    'Commemoratio Secreta',
     'Prefatio',
     'Communicantes',
     'Communio',
     'CommunioP',
     'Postcommunio',
+    'Commemoratio Postcommunio',
     'Super populum'
 ]
 
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 
-TEMPORA_EPI1_0 = 'tempora:Epi1-0:2'  # Feast of the Holy Family
-TEMPORA_EPI1_1 = 'tempora:Epi1-1:4'  # Monday after 1st week of Epiphany
-TEMPORA_EPI1_2 = 'tempora:Epi1-2:4'  # Tuesday after 1st week of Epiphany
-TEMPORA_EPI1_3 = 'tempora:Epi1-3:4'  # Wednesday after 1st week of Epiphany
-TEMPORA_EPI1_4 = 'tempora:Epi1-4:4'  # Thursday after 1st week of Epiphany
-TEMPORA_EPI1_5 = 'tempora:Epi1-5:4'  # Friday after 1st week of Epiphany
-TEMPORA_EPI1_6 = 'tempora:Epi1-6:4'  # Saturday after 1st week of Epiphany
-TEMPORA_EPI2_0 = 'tempora:Epi2-0:2'  # Sunday after 2nd week of Epiphany
-TEMPORA_EPI2_1 = 'tempora:Epi2-1:4'  # Monday after 2nd week of Epiphany
+TEMPORA_EPI1_0 = 'tempora:Epi1-0:2'    # Feast of the Holy Family
+TEMPORA_EPI1_0A = 'tempora:Epi1-0a:2'  # First Sunday after Epiphany
+TEMPORA_EPI1_1 = 'tempora:Epi1-1:4'    # Monday after 1st week of Epiphany
+TEMPORA_EPI1_2 = 'tempora:Epi1-2:4'    # Tuesday after 1st week of Epiphany
+TEMPORA_EPI1_3 = 'tempora:Epi1-3:4'    # Wednesday after 1st week of Epiphany
+TEMPORA_EPI1_4 = 'tempora:Epi1-4:4'    # Thursday after 1st week of Epiphany
+TEMPORA_EPI1_5 = 'tempora:Epi1-5:4'    # Friday after 1st week of Epiphany
+TEMPORA_EPI1_6 = 'tempora:Epi1-6:4'    # Saturday after 1st week of Epiphany
+TEMPORA_EPI2_0 = 'tempora:Epi2-0:2'    # Sunday after 2nd week of Epiphany
+TEMPORA_EPI2_1 = 'tempora:Epi2-1:4'    # Monday after 2nd week of Epiphany
 TEMPORA_EPI2_2 = 'tempora:Epi2-2:4'
 TEMPORA_EPI2_3 = 'tempora:Epi2-3:4'
 TEMPORA_EPI2_4 = 'tempora:Epi2-4:4'

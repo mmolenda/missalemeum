@@ -25,7 +25,7 @@ class MissalFactory(object):
     def create(cls, year: int, lang: str='Polski') -> Missal:
         cls.lang = lang
         cls.blocks = importlib.import_module(f'resources.{cls.lang}.blocks')
-        cls.missal: Missal = Missal(year)
+        cls.missal: Missal = Missal(year, cls.lang)
         cls._fill_in_tempora_days(year)
         cls._fill_in_sancti_days()
         cls._resolve_concurrency()

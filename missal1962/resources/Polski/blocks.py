@@ -104,7 +104,7 @@ SANCTI = (
     constants.SANCTI_06_05,
     constants.SANCTI_06_06,
     constants.SANCTI_06_09,
-    constants.SANCTI_06_10PL,
+    constants.SANCTI_06_10,
     constants.SANCTI_06_11,
     constants.SANCTI_06_12,
     constants.SANCTI_06_13,

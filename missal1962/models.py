@@ -1,11 +1,15 @@
+import datetime
 import importlib
 import re
 from collections import OrderedDict
+
+from copy import copy
 from datetime import date, timedelta
 from typing import Tuple
 
 from constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
-                       C_10PASC, C_10T)
+                       C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A)
+from exceptions import ProperNotFound
 from parsers import ProperParser
 
 
@@ -17,11 +21,14 @@ class LiturgicalDayContainer(object):
     given variable day, `celebration` contains a LiturgicalDay representing proper for this day's mass and
     `commemoration` contains zero or more `LiturgicalDays` that should be commemorated with the main proper.
     """
+    missal = None
     tempora = None
     celebration = None
     commemoration = None
 
-    def __init__(self):
+    def __init__(self, date_, missal):
+        self.date = date_
+        self.missal = missal
         self.tempora = []
         self.celebration = []
         self.commemoration = []
@@ -29,6 +36,36 @@ class LiturgicalDayContainer(object):
     @property
     def all(self):
         return self.tempora + self.celebration + self.commemoration
+
+    def get_tempora_name(self):
+        if self.tempora:
+            return self.tempora[0].title
+
+    def get_celebration_name(self):
+        if self.celebration:
+            return self.celebration[0].title
+
+    def get_proper(self):
+        """
+        Get proper that is used in today Mass. If given day does not have a dedicated proper,
+        use the one from the latest Sunday.
+        :return:
+        """
+        if self.celebration:
+            try:
+                return self.celebration[0].get_proper()
+            except ProperNotFound:
+                pass
+        date_ = copy(self.date)
+        while date_.weekday() != 6:  # Sunday
+            if date_ == datetime.date(self.date.year, 1, 1):
+                break
+            date_ = date_ - datetime.timedelta(days=1)
+        lit_day_container = self.missal[date_]
+        # Handling exceptions
+        if lit_day_container.celebration[0].id == TEMPORA_EPI1_0:
+            return ProperParser.run(TEMPORA_EPI1_0A, self.missal.lang)
+        return lit_day_container.get_proper()
 
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)
@@ -57,16 +94,20 @@ class Missal(OrderedDict):
       ...
     }
     """
-    def __init__(self, year: int):
+
+    lang = None
+
+    def __init__(self, year: int, lang):
         """ Build a missal and fill it in with empty `LiturgicalDayContainer` objects
         """
         super(Missal, self).__init__()
+        self.lang = lang
         self._build_empty_missal(year)
 
     def _build_empty_missal(self, year: int):
         date_ = date(year, 1, 1)
         while date_.year == year:
-            self[date_] = LiturgicalDayContainer()
+            self[date_] = LiturgicalDayContainer(date_, self)
             date_ += timedelta(days=1)
 
     def get_day(self, day_id: str) -> Tuple[date, LiturgicalDayContainer]:

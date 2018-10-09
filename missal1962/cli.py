@@ -5,12 +5,19 @@ import click
 import datetime
 import importlib
 import json
+import logging
 
 from exceptions import InvalidInput, ProperNotFound
 from factory import MissalFactory
 from parsers import ProperParser
 
 default_language = 'Polski'
+
+
+logging.basicConfig(
+    stream=sys.stdout,
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s: %(message)s')
 
 
 @click.group()
@@ -67,20 +74,13 @@ def date(date, language):
     date_object = datetime.date(int(yy), int(mm), int(dd))
     missal = MissalFactory.create(date_object.year, language)
     lit_day_container = missal[date_object]
-    celebration = [i.title for i in lit_day_container.celebration]
-    try:
-        vernacular, latin = lit_day_container.celebration[0].get_proper()
-    except (IndexError, ProperNotFound):
-        while date_object.weekday() != 6:  # Sunday
-            if date_object == datetime.date(int(yy), 1, 1):
-                break
-            date_object = date_object - datetime.timedelta(days=1)
-        vernacular, latin = missal[date_object].celebration[0].get_proper()
-        celebration = missal[date_object].celebration[0].title
+    vernacular, latin = lit_day_container.get_proper()
     print('==', date)
-    print('tempora:', [i.title for i in lit_day_container.tempora])
-    print('celebration:', celebration)
-    print('commemoration:', [i.title for i in lit_day_container.commemoration])
+    print('tempora:', lit_day_container.get_tempora_name())
+    print('celebration:', lit_day_container.get_celebration_name())
+    print(vernacular.to_python()[0]['body'][0])
+    print(vernacular.to_python()[1]['body'][0:2])
+    print()
     print(json.dumps({language: vernacular.to_python(), 'Latin': latin.to_python()}, indent=2))
 
 

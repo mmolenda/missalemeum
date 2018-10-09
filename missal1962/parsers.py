@@ -7,7 +7,7 @@ import importlib
 from typing import Tuple
 
 from constants import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, EXCLUDE_SECTIONS_TITLES, \
-    THIS_DIR, SECTION_ORDER
+    THIS_DIR, VISIBLE_SECTIONS
 from exceptions import InvalidInput, ProperNotFound
 
 log = logging.getLogger(__name__)
@@ -15,8 +15,8 @@ log = logging.getLogger(__name__)
 
 class ProperSectionContainer(dict):
     def to_python(self):
-        list_ = [v.to_python() for k, v in self.items() if k not in EXCLUDE_SECTIONS]
-        return sorted(list_, key=lambda x: SECTION_ORDER.index(x['id']))
+        list_ = [v.to_python() for k, v in self.items() if k in VISIBLE_SECTIONS]
+        return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
 
     def to_json(self):
         return json.dumps(self.to_python())
@@ -29,9 +29,10 @@ class ProperSectionContainer(dict):
         section = self.get_section('Rule')
         if section:
             preface = [i for i in section.body if i.startswith('Prefatio=')]
-            vide = [i for i in section.body if 'vide' in i]
             if preface:
                 rules['preface'] = preface[0].split('=')[1]
+
+            vide = [i for i in section.body if 'vide' in i]
             if vide:
                 rules['vide'] = vide[0].split(' ')[-1].strip(';')
         return rules.get(rule_name)
@@ -86,8 +87,6 @@ class ProperParser:
 
     @classmethod
     def run(cls, proper_id: str, lang: str) -> Tuple[ProperSectionContainer, ProperSectionContainer]:
-        log.info("Starting the process")
-        log.debug("Reading Ordo/Prefationes.txt")
         proper_id = ':'.join(proper_id.split(':')[:2])
         cls.lang = lang
         cls.translations[cls.lang] = importlib.import_module(f'missal1962.resources.{cls.lang}.translation')
@@ -98,7 +97,6 @@ class ProperParser:
             partial_path = f'{proper_id.split(":")[0].capitalize()}/{proper_id.split(":")[1]}.txt'
         except IndexError:
             raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
-        log.debug("Parsing file `%s`", partial_path)
         try:
             container_vernacular: ProperSectionContainer = cls.parse_file(partial_path, cls.lang)
             container_latin: ProperSectionContainer = cls.parse_file(partial_path, LANGUAGE_LATIN)
@@ -158,7 +156,7 @@ class ProperParser:
                                 nested_path = cls._get_full_path(path_bit + '.txt', lang) if path_bit else partial_path
                                 nested_content = cls.parse_file(nested_path, lang=lang, lookup_section=nested_section_name)
                                 try:
-                                    section_container[nested_section_name].extend_body(nested_content[nested_section_name].body)
+                                    section_container[section_name].extend_body(nested_content[nested_section_name].body)
                                 except KeyError:
                                     log.warning("Section `%s` referenced from `%s` is missing in `%s`",
                                                 nested_section_name, full_path, nested_path)
@@ -213,8 +211,11 @@ class ProperParser:
 
     @classmethod
     def _add_prefaces(cls, sections, lang):
-        preface_name = sections.get_rule('preface') or 'Trinitate'
-        preface_item = cls.prefaces[lang][preface_name]
+        preface_name = sections.get_rule('preface') or 'Communis'
+        try:
+            preface_item = cls.prefaces[lang][preface_name]
+        except KeyError:
+            preface_item = cls.prefaces[lang]['Communis']
         sections['Prefatio'] = ProperSection('Prefatio', body=preface_item.body)
         return sections
 
