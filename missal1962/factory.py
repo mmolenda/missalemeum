@@ -11,6 +11,7 @@ from datetime import date, timedelta
 from dateutil.easter import easter
 from typing import List, Tuple, Union
 
+from constants import NAT2_0, SANCTI_10_DUr, NAT1_0
 from missal1962.models import LiturgicalDay, Missal
 from missal1962.rules import rules
 
@@ -37,19 +38,25 @@ class MissalFactory(object):
         Days depending on variable date, such as Easter or Advent
         """
 
-        # main blocks
+        # Inserting blocks
         cls._insert_block(cls.calc_holy_family(year), cls.blocks.POST_EPIPHANY)
         cls._insert_block(cls.calc_septuagesima(year), cls.blocks.FROM_PRE_LENT_TO_POST_PENTECOST)
         cls._insert_block(cls.calc_saturday_before_24_sunday_after_pentecost(year), cls.blocks.POST_EPIPHANY,
                           reverse=True, overwrite=False)
         cls._insert_block(cls.calc_24_sunday_after_pentecost(year), cls.blocks.WEEK_24_AFTER_PENTECOST)
         cls._insert_block(cls.calc_first_advent_sunday(year), cls.blocks.ADVENT, stop_date=date(year, 12, 23))
-        # additional blocks
-        cls._insert_block(cls.calc_holy_name(year), cls.blocks.HOLY_NAME)
         cls._insert_block(cls.calc_ember_wednesday_september(year), cls.blocks.EMBER_DAYS_SEPTEMBER)
-        cls._insert_block(cls.calc_christ_king(year), cls.blocks.CHRIST_KING)
-        if cls.calc_sunday_christmas_octave(year):
-            cls._insert_block(cls.calc_sunday_christmas_octave(year), cls.blocks.SUNDAY_IN_CHRISTMAS_OCTAVE)
+
+        # Inserting single days
+        date_ = cls.calc_holy_name(year)
+        cls.missal[date_].celebration = [LiturgicalDay(NAT2_0, date_, cls.lang)]
+
+        date_ = cls.calc_christ_king(year)
+        cls.missal[date_].celebration = [LiturgicalDay(SANCTI_10_DUr, date_, cls.lang)]
+
+        date_ = cls.calc_sunday_christmas_octave(year)
+        if date_:
+            cls.missal[date_].celebration = [LiturgicalDay(NAT1_0, date_, cls.lang)]
 
     @classmethod
     def _fill_in_sancti_days(cls):

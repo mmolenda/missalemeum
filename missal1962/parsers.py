@@ -34,7 +34,7 @@ class ProperSectionContainer(dict):
 
             vide = [i for i in section.body if 'vide' in i]
             if vide:
-                rules['vide'] = vide[0].split(' ')[-1].strip(';')
+                rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
         return rules.get(rule_name)
 
     @property
@@ -100,8 +100,8 @@ class ProperParser:
         try:
             container_vernacular: ProperSectionContainer = cls.parse_file(partial_path, cls.lang)
             container_latin: ProperSectionContainer = cls.parse_file(partial_path, LANGUAGE_LATIN)
-        except FileNotFoundError:
-            raise ProperNotFound(f'Proper `{proper_id}` not found.')
+        except FileNotFoundError as e:
+            raise ProperNotFound(f'Proper `{e.filename}` not found.')
         return container_vernacular, container_latin
 
     @classmethod
@@ -234,7 +234,7 @@ class ProperParser:
                     # skip next line; do not append current one
                     next(iter_body)
                     continue
-                if '(deinde dicuntur)' in ln:
+                if '(deinde dicuntur)' in ln or '(sed communi Summorum Pontificum dicitur)' in ln:
                     # start skipping lines from now on
                     omit = True
                     continue

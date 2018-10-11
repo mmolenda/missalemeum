@@ -1,5 +1,6 @@
 import datetime
 import importlib
+import logging
 import re
 from collections import OrderedDict
 
@@ -8,9 +9,13 @@ from datetime import date, timedelta
 from typing import Tuple
 
 from constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
-                       C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A)
+                       C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A, TEMPORA_PENT01_0, PENT01_0A, SANCTI_07_01,
+                       SANCTI_10_DUr)
 from exceptions import ProperNotFound
 from parsers import ProperParser
+
+
+log = logging.getLogger(__name__)
 
 
 class LiturgicalDayContainer(object):
@@ -54,8 +59,9 @@ class LiturgicalDayContainer(object):
         if self.celebration:
             try:
                 return self.celebration[0].get_proper()
-            except ProperNotFound:
-                pass
+            except ProperNotFound as e:
+                if self.celebration[0].flexibility == 'sancti':
+                    log.error(e)
         date_ = copy(self.date)
         while date_.weekday() != 6:  # Sunday
             if date_ == datetime.date(self.date.year, 1, 1):
@@ -64,7 +70,21 @@ class LiturgicalDayContainer(object):
         lit_day_container = self.missal[date_]
         # Handling exceptions
         if lit_day_container.celebration[0].id == TEMPORA_EPI1_0:
+            # "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
+            # following days without the own proper
             return ProperParser.run(TEMPORA_EPI1_0A, self.missal.lang)
+        if lit_day_container.celebration[0].id == TEMPORA_PENT01_0:
+            # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
+            # following days without the own proper
+            return ProperParser.run(PENT01_0A, self.missal.lang)
+        if lit_day_container.celebration[0].id == SANCTI_07_01:
+            # "Feast of the Most Precious Blood" replaces "x Sunday after Pentecost"; use the latter in
+            # following days without the own proper
+            return lit_day_container.tempora[0].get_proper()
+        if lit_day_container.celebration[0].id == SANCTI_10_DUr:
+            # "Feast of Christ the King" replaces "x Sunday after Pentecost"; use the latter in
+            # following days without the own proper
+            return lit_day_container.tempora[0].get_proper()
         return lit_day_container.get_proper()
 
     def __str__(self):
