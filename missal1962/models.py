@@ -9,8 +9,7 @@ from datetime import date, timedelta
 from typing import Tuple
 
 from constants import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
-                       C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A, TEMPORA_PENT01_0, PENT01_0A, SANCTI_07_01,
-                       SANCTI_10_DUr)
+                       C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A, TEMPORA_PENT01_0, PENT01_0A)
 from exceptions import ProperNotFound
 from parsers import ProperParser
 
@@ -77,15 +76,10 @@ class LiturgicalDayContainer(object):
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
             return ProperParser.run(PENT01_0A, self.missal.lang)
-        if lit_day_container.celebration[0].id == SANCTI_07_01:
-            # "Feast of the Most Precious Blood" replaces "x Sunday after Pentecost"; use the latter in
-            # following days without the own proper
+
+        if lit_day_container.tempora:
             return lit_day_container.tempora[0].get_proper()
-        if lit_day_container.celebration[0].id == SANCTI_10_DUr:
-            # "Feast of Christ the King" replaces "x Sunday after Pentecost"; use the latter in
-            # following days without the own proper
-            return lit_day_container.tempora[0].get_proper()
-        return lit_day_container.get_proper()
+        return lit_day_container.celebration[0].get_proper()
 
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)
@@ -238,5 +232,3 @@ class LiturgicalDay(object):
 
     def __le__(self, other):
         return not other.rank > self.rank
-
-

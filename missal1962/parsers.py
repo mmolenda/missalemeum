@@ -37,10 +37,6 @@ class ProperSectionContainer(dict):
                 rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
         return rules.get(rule_name)
 
-    @property
-    def section_ids(self):
-        return self.keys()
-
 
 class ProperSection:
     id = None

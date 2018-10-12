@@ -1,13 +1,19 @@
+from datetime import date
 
 import pytest
 
 from exceptions import InvalidInput, ProperNotFound
 from missal1962 import constants as c
+from models import LiturgicalDay
 from parsers import ProperParser
+from tests.conftest import get_missal
+
+
+language = 'Polski'
 
 
 def test_parse_proper_no_refs():
-    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_01_06, 'Polski')
+    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_01_06, language)
 
     assert 'Objawienie' in proper_vernacular['Comment'].body[0]
     assert 'Ml 3:1' in proper_vernacular['Introitus'].body[0]
@@ -34,7 +40,7 @@ def test_parse_proper_no_refs():
 
 
 def test_parse_proper_refs_inside_sections_and_in_vide():
-    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_01_22, 'Polski')
+    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_01_22, language)
 
     assert '## 22 I – ŚŚ. Wincentego' in proper_vernacular['Comment'].body[0]
     assert '*Ps 78:11-12; 78:10*' in proper_vernacular['Introitus'].body[0]
@@ -63,7 +69,7 @@ def test_parse_proper_refs_inside_sections_and_in_vide():
 
 
 def test_parse_proper_ref_outside_sections():
-    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_10_DUr, 'Polski')
+    proper_vernacular, proper_latin = ProperParser.run(c.SANCTI_10_DUr, language)
     assert '## Chrystusa Króla' in proper_vernacular['Comment'].body[0]
     assert '*Ap 5:12; 1:6*' in proper_vernacular['Introitus'].body[0]
     assert '*Apoc 5:12; 1:6*' in proper_latin['Introitus'].body[0]
@@ -71,9 +77,50 @@ def test_parse_proper_ref_outside_sections():
 
 def test_invalid_proper_id():
     with pytest.raises(InvalidInput):
-        ProperParser.run('bla', 'Polski')
+        ProperParser.run('bla', language)
 
 
 def test_proper_not_found():
     with pytest.raises(ProperNotFound):
-        ProperParser.run('tempora:bla', 'Polski')
+        ProperParser.run('tempora:bla', language)
+
+
+def test_get_proper_from_liturgical_day():
+    proper_vernacular, proper_latin = LiturgicalDay(c.SANCTI_01_06, date(2018, 1, 6), language).get_proper()
+    assert 'Objawienie' in proper_vernacular['Comment'].body[0]
+    assert 'Ml 3:1' in proper_vernacular['Introitus'].body[0]
+    assert 'Malach 3:1' in proper_latin['Introitus'].body[0]
+    assert 'Deus, qui hodiérna die' in proper_latin['Oratio'].body[0]
+
+
+def test_get_proper_from_liturgical_day_container():
+    missal = get_missal(2018, language)
+    proper_vernacular, proper_latin = missal[date(2018, 1, 6)].get_proper()
+    assert 'Objawienie' in proper_vernacular['Comment'].body[0]
+    assert 'Ml 3:1' in proper_vernacular['Introitus'].body[0]
+    assert 'Malach 3:1' in proper_latin['Introitus'].body[0]
+    assert 'Deus, qui hodiérna die' in proper_latin['Oratio'].body[0]
+
+
+@pytest.mark.parametrize("date_,proper", [
+    ((2018, 1, 4), 'In Circumcisione Domini'),
+    ((2018, 1, 12), 'Dominica infra Octavam Epiphaniae'),  # Feast of the Holy Family
+    ((2018, 2, 13), 'Dominica in Quinquagesima'),
+    ((2018, 7, 4), 'Dominica VI Post Pentecosten'),
+    ((2018, 7, 9), 'Dominica VII Post Pentecosten'),  # Feast of the Most Precious Blood
+    ((2018, 10, 31), 'Dominica XXIII Post Pentecosten'),  # Feast of Christ the King
+])
+def test_get_proper_for_day_without_own_proper(date_, proper):
+    # For days without their own propers we show the proper from the last Sunday
+    missal = get_missal(date_[0], language)
+    _, proper_latin = missal[date(*date_)].get_proper()
+    assert proper in proper_latin['Rank'].body[0]
+
+
+def test_get_repr():
+    missal = get_missal(2018, language)
+    container = missal[date(2018, 1, 13)]
+    assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
+    assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
+    assert str(container) == '[<tempora:Epi1-6:4>][<sancti:01-13:2>][]'
+
