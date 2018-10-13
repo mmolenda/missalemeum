@@ -45,7 +45,7 @@ SANCTI = (
     constants.SANCTI_03_04,
     constants.SANCTI_03_06,
     constants.SANCTI_03_07,
-    constants.SANCTI_03_08PL,
+    constants.SANCTI_03_08,
     constants.SANCTI_03_09,
     constants.SANCTI_03_10,
     constants.SANCTI_03_12,

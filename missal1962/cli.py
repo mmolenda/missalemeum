@@ -55,13 +55,21 @@ def calendar(year, language):
     _print_all(missal)
 
 
+def _print_proper(language, proper):
+    print(f'\n=== {language} ===\n')
+    for section in proper.to_python():
+        print(f'\n== {section["label"]} ==')
+        print('\n'.join(section["body"]))
+
+
 @click.command()
 @click.argument('proper_id')
 @click.option('--language', default=default_language)
 def proper(proper_id, language):
     try:
         vernacular, latin = ProperParser.run(proper_id, language)
-        print(json.dumps({language: vernacular.to_python(), "Latin": latin.to_python()}, indent=2))
+        _print_proper(language, vernacular)
+        _print_proper('Latin', latin)
     except (InvalidInput, ProperNotFound) as e:
         sys.stderr.write(str(e))
 
@@ -75,14 +83,12 @@ def date(date, language):
     missal = MissalFactory.create(date_object.year, language)
     lit_day_container = missal[date_object]
     vernacular, latin = lit_day_container.get_proper()
-    print('==', date)
+    print(f'=== {date} ===')
     print('tempora:', lit_day_container.get_tempora_name())
     print('celebration:', lit_day_container.get_celebration_name())
     print(vernacular.to_python()[0]['body'][0])
-    print(vernacular.to_python()[1]['body'][0:2])
-    print()
-    print(json.dumps({language: vernacular.to_python(), 'Latin': latin.to_python()}, indent=2))
-
+    _print_proper(language, vernacular)
+    _print_proper('Latin', latin)
 
 @click.command()
 @click.argument('search_string')
