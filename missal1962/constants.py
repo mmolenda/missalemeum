@@ -710,8 +710,8 @@ SANCTI_10_03 = 'sancti:10-03:3'
 SANCTI_10_04 = 'sancti:10-04:3'
 SANCTI_10_05 = 'sancti:10-05:4'
 SANCTI_10_06 = 'sancti:10-06:3'
-SANCTI_10_07 = 'sancti:10-07:2'  # Our Lady of the Rosary
-SANCTI_10_08 = 'sancti:10-08:3'
+SANCTI_10_07 = 'sancti:10-07r:2'  # Our Lady of the Rosary
+SANCTI_10_08 = 'sancti:10-08r:3'
 SANCTI_10_09 = 'sancti:10-09:3'
 SANCTI_10_10 = 'sancti:10-10:3'
 SANCTI_10_11 = 'sancti:10-11:2'  # Maternity of the Blessed Virgin Mary
@@ -733,7 +733,7 @@ SANCTI_11_01 = 'sancti:11-01:1'  # All Saints
 SANCTI_11_02_1 = 'sancti:11-02m1:1'  # All Souls' Day
 SANCTI_11_02_2 = 'sancti:11-02m2:1'
 SANCTI_11_02_3 = 'sancti:11-02m3:1'
-SANCTI_11_04 = 'sancti:11-04:3'
+SANCTI_11_04 = 'sancti:11-04r:3'
 SANCTI_11_08 = 'sancti:11-08r:4'
 SANCTI_11_09 = 'sancti:11-09:2'  # Dedication of the Lateran Basilica in Rome
 SANCTI_11_10 = 'sancti:11-10:3'
@@ -778,7 +778,7 @@ SANCTI_12_27 = 'sancti:12-27:2'  # St. John, Apostle and Evangelist
 SANCTI_12_28 = 'sancti:12-28:2'  # Holy Innocents
 SANCTI_12_29 = 'sancti:12-29r:2'
 SANCTI_12_30 = 'sancti:12-30:2'
-SANCTI_12_31 = 'sancti:12-31:2'
+SANCTI_12_31 = 'sancti:12-31r:2'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
@@ -887,11 +887,10 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
 )
 
 
-# Related to specific propers' printing
+# Related to propers' printing
 
-THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-DIVOFF_DIR = '/Users/mmolenda/prv/divinum-officium/'
-CUSTOM_DIVOFF_DIR = '/Users/mmolenda/prv/divoff2epub/divoff2epub/data/divinum-officium-custom/'
+DIVOFF_DIR = os.path.join(THIS_DIR, 'resources', 'divinum-officium')
+CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, 'resources', 'divinum-officium-custom')
 
 EXCLUDE_SECTIONS = (
     'Evangelium1',
@@ -930,5 +929,3 @@ EXCLUDE_SECTIONS_TITLES = (
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')
-FOOTNOTE_REF_REGEX = re.compile(r'\[\^\d+\][^:]*')
-FOOTNOTE_REGEX = re.compile(r'^\[\^\d+\]: ')

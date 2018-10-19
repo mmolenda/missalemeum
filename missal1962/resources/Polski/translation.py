@@ -2,7 +2,6 @@ from missal1962 import constants
 from ..Latin.translation import titles, paternoster, transformations
 
 titles[constants.SANCTI_03_15PL] = 'Św. Klemensa Marii Dworzaka (Hofbauera)'
-titles[constants.SANCTI_03_17PL] = 'Św. Jana Sarkandra, Męczennika'
 titles[constants.SANCTI_04_23PL] = 'Św. Wojciecha, Biskupa i Męczennika'
 titles[constants.SANCTI_05_03PL] = 'N. M. P., Królowej Polski, Głównej Patronki Polski'
 titles[constants.SANCTI_05_08PL] = 'Św. Stanisława, Biskupa i Męczennika'

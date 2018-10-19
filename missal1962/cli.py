@@ -4,7 +4,6 @@ import sys
 import click
 import datetime
 import importlib
-import json
 import logging
 
 from exceptions import InvalidInput, ProperNotFound
@@ -89,6 +88,7 @@ def date(date, language):
     print(vernacular.to_python()[0]['body'][0])
     _print_proper(language, vernacular)
     _print_proper('Latin', latin)
+
 
 @click.command()
 @click.argument('search_string')

@@ -7,7 +7,7 @@ import importlib
 from typing import Tuple
 
 from constants import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, EXCLUDE_SECTIONS_TITLES, \
-    THIS_DIR, VISIBLE_SECTIONS
+    VISIBLE_SECTIONS, CUSTOM_DIVOFF_DIR, DIVOFF_DIR
 from exceptions import InvalidInput, ProperNotFound
 
 log = logging.getLogger(__name__)
@@ -32,10 +32,18 @@ class ProperSectionContainer(dict):
             if preface:
                 rules['preface'] = preface[0].split('=')[1]
 
-            vide = [i for i in section.body if 'vide' in i]
+            vide = [i for i in section.body if i.startswith('vide ') or i.startswith('ex ')]
             if vide:
-                rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
+                vide = vide[0].split(' ')[-1].split(';')[0]
+                if '/' not in vide:
+                    vide = f'Commune/{vide}'
+                rules['vide'] = vide
         return rules.get(rule_name)
+
+    def merge(self, section_container):
+        for k, v in section_container.items():
+            if k not in self:
+                self[k] = v
 
 
 class ProperSection:
@@ -125,16 +133,10 @@ class ProperParser:
                     path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
                     # Recursively read referenced file
                     nested_path = cls._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
-                    section_container = cls.parse_file(nested_path, lang=lang)
+                    section_container.merge(cls.parse_file(nested_path, lang=lang))
                     continue
 
-                vide = section_container.get_rule('vide')
-                if vide:
-                    # reference in Rule section in 'vide' clause - load all sections
-                    # from the referenced file and continue with the sections from the current one.
-                    nested_path = cls._get_full_path(f'Commune/{vide}.txt', lang)
-                    section_container = cls.parse_file(nested_path, lang=lang)
-                    continue
+
 
                 ln = cls._normalize(ln, lang)
 
@@ -163,14 +165,25 @@ class ProperParser:
 
                         else:
                             # Finally, a regular line...
-                            # Line ending with `~` indicates that next line
+                            # Line ending with `~` indicates that the next line
                             # should be treated as its continuation
                             appendln = ln.replace('~', ' ')
+                            if section_name not in section_container:
+                                section_container[section_name] = ProperSection(section_name)
                             if concat_line:
                                 section_container[section_name].body[-1] += appendln
                             else:
                                 section_container[section_name].append_to_body(appendln)
                             concat_line = True if ln.endswith('~') else False
+
+        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
+        # from the referenced file and get sections that are not explicitly defined in the current proper.
+        vide = section_container.get_rule('vide')
+        if vide:
+            nested_path = cls._get_full_path(f'{vide}.txt', lang)
+            section_container.merge(cls.parse_file(nested_path, lang=lang))
+
+        # Postprocessing obtained sections
         section_container = cls._strip_contents(section_container)
         section_container = cls._resolve_conditionals(section_container)
         if 'Ordo' not in partial_path and not lookup_section:
@@ -248,7 +261,7 @@ class ProperParser:
     def _get_full_path(partial_path, lang):
         if os.path.exists(partial_path):
             return partial_path
-        full_path = os.path.join(THIS_DIR, 'resources', 'divinum-officium-custom', 'web', 'www', 'missa', lang, partial_path)
+        full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
         if not os.path.exists(full_path):
-            full_path = os.path.join(THIS_DIR, 'resources', 'divinum-officium', 'web', 'www', 'missa', lang, partial_path)
+            full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
         return full_path
