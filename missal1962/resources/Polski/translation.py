@@ -36,7 +36,10 @@ section_labels = {
     'Sequentia': 'Sekwencja',
     'Super populum': 'Modlitwa nad ludem',
     'Prefatio': 'Prefacja',
-    'Tractus': 'Traktus'
+    'Tractus': 'Traktus',
+    'De Benedictione Candelarum': 'Poświęcenie Świec',
+    'De Distributione Candelarum': 'Rozdawanie Świec',
+    'De Processione': 'Procesja'
 }
 
 section_labels_multi = {

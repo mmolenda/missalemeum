@@ -668,7 +668,10 @@ section_labels = {
     'Sequentia': 'Sequentia',
     'Super populum': 'Super populum',
     'Prefatio': 'Prefatio',
-    'Tractus': 'Tractus'
+    'Tractus': 'Tractus',
+    'De Benedictione Candelarum': 'De Benedictione Candelarum',
+    'De Distributione Candelarum': 'De Distributione Candelarum',
+    'De Processione': 'De Processione'
 }
 
 section_labels_multi = {

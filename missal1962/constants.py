@@ -50,6 +50,9 @@ WEEKDAY_MAPPING = {
 
 VISIBLE_SECTIONS = [
     'Comment',
+    'De Benedictione Candelarum',  # 02-02, feast of the Purification of the B.V.M.
+    'De Distributione Candelarum',  # 02-02, feast of the Purification of the B.V.M.
+    'De Processione',  # 02-02, feast of the Purification of the B.V.M.
     'Prelude',
     'Introitus',
     'Oratio',
