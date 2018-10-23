@@ -22,22 +22,21 @@ Msza Święta
 ! Szaty fioletowe
 Podobnie jak zmienia się kolor szat kapłana, tak zmienia się i treść liturgii. Msza święta stanowi uderzający kontrast z procesją. Tchnie smutkiem i boleścią cierpiącego Zbawiciela. Czytamy opis Męki Pańskiej, której znaczenie wyjaśnia lekcja. Chrystus z miłości ku Ojcu i ku nam stał się posłusznym aż do śmierci, a Jego posłuszeństwo stało się naszym zbawieniem. Takie jest prawo chrześcijańskiego życia: przez udział w cierpieniach i krzyżu Chrystusa chrześcijanin zdąża ku zmartwychwstaniu i chwale wiekuistej.
 
-[Prelude]
-!! Poświęcenie Palm
+[Benedictio Palmorum]
 ! Kapłan, pomijając aspersję, podchodzi wraz z asystą by pobłogosławić palmy lub gałązki oliwne lub gałązki innych drzew, które znajdują się na ołtarzu, po stronie Lekcji. Westymenta Celebransa i asysty są czerwone.
 !Mt 21:9
-Ant. Hosanna Synowi Dawidowemu, błogosławiony, który przychodzi w imię Pańskie. O Królu izraelski: Hosanna na wysokościach.[^1]
+Ant. Hosanna Synowi Dawidowemu, błogosławiony, który przychodzi w imię Pańskie. O Królu izraelski: Hosanna na wysokościach.
 _
 ! Celebrans, stojąc po stronie Lekcji, zwraca się do ludu i ze złączonymi rękoma śpiewa:
 V. Pan z wami.
 R. I z duchem twoim.
 v. Módlmy się.
 Pobłogo + sław, prosimy Cię, Panie, te gałązki palm i spraw, aby Twój lud, obchodząc w dzisiejszym dniu tę zewnętrzną uroczystość ku czci Twojej, dopełnił jej z największą pobożnością w sposób duchowy: niech odniesie zwycięstwo nad wrogiem i rozmiłuje się w uczynkach miłosierdzia. Przez Chrystusa, Pana naszego.
-R. Amen.[^2]
+R. Amen.
 ! Kapłan trzykrotnie kropi palmy leżące przed nim i trzymane w rękach przez wiernych oraz okadza ja.
 _
 _
-!!Rozdawanie Gałązek
+[De distributione ramorum]
 ! Celebrans rozdaje poświęcone palmy najpierw duchowieństwu, potem ministrantom, w końcu wiernym lub ich przedstawicielom. W czasie rozdawania palm śpiewa się następujące antyfony.
 Ant. Dzieci żydowskie niosąc gałązki oliwne wyszły naprzeciw Panu, wołając i mówiąc: «Hosanna na wysokościach».
 !Ps 23:1-2; 23:7-10
@@ -51,7 +50,7 @@ v. Bramy, podnieście swe szczyty i rozstąpcie się, prastare podwoje, * aby m�
 «Któż jest tym Królem chwały?» * «Pan Zastępów: On sam Królem chwały».
 Ant. Dzieci żydowskie niosąc gałązki oliwne wyszły naprzeciw Panu, wołając i mówiąc: «Hosanna na wysokościach».
 $Gloria
-Ant. Dzieci żydowskie niosąc gałązki oliwne wyszły naprzeciw Panu, wołając i mówiąc: «Hosanna na wysokościach».[^3] 
+Ant. Dzieci żydowskie niosąc gałązki oliwne wyszły naprzeciw Panu, wołając i mówiąc: «Hosanna na wysokościach». 
 _
 _
 !Psalm 46
@@ -71,26 +70,26 @@ Ant. Dzieci żydowskie uścielały sukniami drogę i wołały mówiąc: «Hosann
 v. Połączyli się władcy narodów * z ludem Boga Abrahama. Bo możni świata należą do Boga: * On zaś jest najwyższy.
 Ant. Dzieci żydowskie uścielały sukniami drogę i wołały mówiąc: «Hosanna Synowi Dawidowemu: Błogosławiony, który idzie w imię Pańskie».
 $Gloria
-Ant. Dzieci żydowskie uścielały sukniami drogę i wołały mówiąc: «Hosanna Synowi Dawidowemu: Błogosławiony, który idzie w imię Pańskie».[^4]
+Ant. Dzieci żydowskie uścielały sukniami drogę i wołały mówiąc: «Hosanna Synowi Dawidowemu: Błogosławiony, który idzie w imię Pańskie».
 _
 _
-!!Czytanie Ewangelii
+[De lectione Evangelica]
 ! Po rozdaniu palm diakon kładzie księgę Ewangelii na ołtarzu, a Kapłan nakłada kadzidło do kadzielnicy, po czym diakon śpiewa urywek Ewangelii opisujący wjazd Pana Jezusa do Jerozolimy.
 v. Oczyść serce i wargi moje, wszechmogący Boże, któryś wargi proroka Izajasza oczyścił kamykiem ognistym. W łaskawym zmiłowaniu Swoim racz mię tak oczyścić, abym godnie zdołał głosić Twą świętą Ewangelię. Przez Chrystusa, Pana naszego. Amen.
 D. Racz pobłogosławić, ojcze.
 !Celebrans odpowiada:
 S. Pan niech będzie w sercu twoim i na wargach twoich, byś godnie i należycie głosił Jego Ewangelię. W imię Ojca, i Syna, + i Ducha Świętego. Amen.
-$Dominus vobiscum[^5]
-!! Ewangelia
+$Dominus vobiscum
+
 Ciąg dalszy ++ Ewangelii świętej według Mateusza.
 R. Chwała Tobie Panie.
 !Mt 21:1-9
 Onego czasu: Gdy Jezus przybliżał się do Jeruzalem i przyszedł do Betfage na Górze Oliwnej, wtedy wysłał dwóch uczniów mówiąc im: «Idźcie do wsi, która jest przed wami, a niebawem znajdziecie oślicę przywiązaną i oślę z nią: odwiążcie i przywiedźcie do mnie. A jeśliby wam kto co mówił, powiedzcie, że Pan ich potrzebuje, a natychmiast puści je». A wszystko to się stało, aby się wypełniło, co powiedziane jest przez Proroka mówiącego: Powiedzcie córce Syjońskiej: Oto zdąża ku tobie król twój cichy i siedzący na oślicy i na oślęciu, synu podjarzemnej. Idąc tedy uczniowie uczynili jako im przykazał Jezus. I przewiedli oślicę z oślęciem i włożyli na nie szaty swoje, a Jego posadzili na nie. A wielka rzesza słała szaty swoje na drodze, a drudzy obcinali gałązki z drzew i rzucali na drogę. Rzesze zaś, które wyprzedzały i które postępowały za Nim, wołały mówiąc: «Hosanna Synowi Dawidowemu. Błogosławiony, który przybywa w imię Pańskie».
 R. Chwała Tobie, Chryste.
-S. Niech słowa Ewangelii zgładzą nasze grzechy.[^6] 
+S. Niech słowa Ewangelii zgładzą nasze grzechy. 
 _
 _
-!!Procesja z Poświęconymi Palmami
+[De processione cum ramis benedictis]
 ! Po nałożeniu przez Kapłana kadzidła do kadzielnicy, diakon zwraca się do wiernych i śpiewa:
 V. Idźmy w pokoju.
 ! Wierni odpowiadają:
@@ -102,14 +101,14 @@ v. Spieszą tłumy z kwiatami i palmami Zbawicielowi naprzeciw i chwalebnemu Zwy
 _
 v. Wraz z Aniołami i chłopiętami wiernie śpiewajmy Zwycięzcy śmierci, wołając: «Hosanna na wysokościach».
 _
-v. Rzesza wielka zgromadzona na dzień święta wołała do Pana: «Błogosławiony, który idzie w imię Pańskie: Hosanna na wysokościach».[^7]
+v. Rzesza wielka zgromadzona na dzień święta wołała do Pana: «Błogosławiony, który idzie w imię Pańskie: Hosanna na wysokościach».
 _
 !Łk 19:37, 38 
-v. Poczęła cała rzesza schodzących ((z Góry Oliwnej)), weseląc się, wielkim głosem chwalić Boga za wszystkie cuda, które widziała, wołając: «Błogosławiony Król, który przybywa w imię Pańskie. Pokój na ziemi i chwała na wysokościach».[^8]
+v. Poczęła cała rzesza schodzących ((z Góry Oliwnej)), weseląc się, wielkim głosem chwalić Boga za wszystkie cuda, które widziała, wołając: «Błogosławiony Król, który przybywa w imię Pańskie. Pokój na ziemi i chwała na wysokościach».
 ! Następnie śpiewa się hymn. Wierni powinni powtarzać refren: Gloria, laus po każdej zwrotce.
 _
 _
-!!Hymn ku Czci Chrystusa Króla
+[Hymnus ad Christum Regem]
 _
 ! Chór:
 v. Hołd Tobie, sława i cześć, o Chryste Królu i Zbawco: Któremu niegdyś chłopięcy chór nabożnie śpiewał Hosanna.
@@ -134,11 +133,11 @@ Hołd Tobie, sława i cześć, o Chryste Królu i Zbawco: Któremu niegdyś chł
 ! Chór:
 v. Oddanie ich wdzięcznie przyjąłeś, łaskawie przyjmij i nasze: O Królu dobry, rozdawco łask, miłe Ci wszystko co dobre.
 ! Wszyscy:
-Hołd Tobie, sława i cześć, o Chryste Królu i Zbawco: Któremu niegdyś chłopięcy chór nabożnie śpiewał Hosanna.[^9]
+Hołd Tobie, sława i cześć, o Chryste Królu i Zbawco: Któremu niegdyś chłopięcy chór nabożnie śpiewał Hosanna.
 _
 _
-!!Psalm 147
 Ant. Wszyscy wychwalają imię Twoje i mówią: «Błogosławiony, który idzie w imię Pańskie: Hosanna na wysokościach».
+!Ps 147
 v. Chwal, Jerozolimo, Pana: * chwal Boga twego, Syjonie.
 Umocnił bowiem zawory bram twoich: * pobłogosławił synom twoim w tobie!
 Zapewnił pokój twoim granicom: * nasyca ciebie pszenicą najlepszą.
@@ -149,22 +148,22 @@ Słowo swe wypowiada i roztapia rzeki: * dąć każe swemu wiatrowi, a spływaj�
 Oznajmił słowo swoje Jakubowi: * Izraelowi ustawy swe i przykazania.
 Tak nie uczynił żadnemu ludowi: * przykazań swoich im nie objawił.
 $Gloria
-Ant. Wszyscy wychwalają imię Twoje i mówią: «Błogosławiony, który idzie w imię Pańskie: Hosanna na wysokościach».[^10]
+Ant. Wszyscy wychwalają imię Twoje i mówią: «Błogosławiony, który idzie w imię Pańskie: Hosanna na wysokościach».
 _
 _
 v. Powiewając gałązkami palmowymi padajmy na kolana przed nadchodzącym Panem, wyjdźmy wszyscy na Jego spotkanie z hymnami i pieśniami na ustach, wielbiąc Go i śpiewając: «Błogosławiony Pan».
-v. Witaj, o Królu nasz, Synu Dawida, Odkupicielu świata, o którym Prorocy śpiewali, iż przyjdzie ocalić dom Izraela. Ciebie bowiem Ojciec zesłał na świat jako ofiarę dla jego zbawienia, Ciebie, którego oczekiwali wszyscy święci od początku świata; a teraz: «Hosanna Synowi Dawidowemu! Błogosławiony, który idzie w imię Pańskie! Hosanna na wysokościach!»[^11]
+v. Witaj, o Królu nasz, Synu Dawida, Odkupicielu świata, o którym Prorocy śpiewali, iż przyjdzie ocalić dom Izraela. Ciebie bowiem Ojciec zesłał na świat jako ofiarę dla jego zbawienia, Ciebie, którego oczekiwali wszyscy święci od początku świata; a teraz: «Hosanna Synowi Dawidowemu! Błogosławiony, który idzie w imię Pańskie! Hosanna na wysokościach!»
 _
 _
 ! Gdy procesja wchodzi do kościoła, rozpoczyna się ostatnią antyfonę.
 v. Gdy wchodził Pan do miasta świętego, chłopięta żydowskie, zmartwychwstanie Żywota przepowiadając, z gałązkami palmowymi w ręku wołały: «Hosanna na wysokościach».
-V. Gdy lud usłyszał, że Jezus przychodzi do Jerozolimy, wyszedł Mu na przeciw z palmowymi gałązkami i wołał: «Hosanna na wysokościach».[^12]
+V. Gdy lud usłyszał, że Jezus przychodzi do Jerozolimy, wyszedł Mu na przeciw z palmowymi gałązkami i wołał: «Hosanna na wysokościach».
 _
 _
 ! Kapłan z asystującymi wstępuje na stopnie ołtarza i zwrócony do wiernych śpiewa:
 $Dominus vobiscum
 v. Módlmy się.
-Panie Jezu Chryste, Królu i odkupicielu nasz, na Twoją cześć, trzymając w rękach palmy, śpiewaliśmy uroczyste pienia. Dozwól łaskawie, niech błogosławieństwo Twoje zstąpi wszędzie tam, gdzie te gałązki zostaną zaniesione. Niech prawica Twoja zniweczy wszelką przewrotność i ułudę szatańską, ochrania tych, których odkupiła. Który żyjesz i królujesz na wieki wieków.[^13]
+Panie Jezu Chryste, Królu i odkupicielu nasz, na Twoją cześć, trzymając w rękach palmy, śpiewaliśmy uroczyste pienia. Dozwól łaskawie, niech błogosławieństwo Twoje zstąpi wszędzie tam, gdzie te gałązki zostaną zaniesione. Niech prawica Twoja zniweczy wszelką przewrotność i ułudę szatańską, ochrania tych, których odkupiła. Który żyjesz i królujesz na wieki wieków.
 ! Wszyscy odpowiadają:
 R. Amen.
 ! Po modlitwie kapłan i asystujący zdejmują szaty czerwone i zakładają fioletowe. W czasie śpiewania Męki Pańskiej nie trzyma się palm w rękach.
@@ -181,21 +180,10 @@ R. Amen.
 [Graduale]
 @Tempora/Quad6-0:Graduale
 
-[Munda Cor Passionis]
-Oczyść serce i wargi moje, wszechmogący Boże, któryś wargi proroka Izajasza oczyścił kamykiem ognistym. W łaskawym zmiłowaniu Swoim racz mię tak oczyścić, abym godnie zdołał głosić Twą świętą Ewangelię. Przez Chrystusa, Pana naszego. Amen.
-D. Racz pobłogosławić, ojcze.
-S. Pan niech będzie w sercu twoim i na wargach twoich, byś godnie i należycie głosił Jego Ewangelię. W imię Ojca, i Syna, + i Ducha Świętego.
-D. Amen.
-
-[Evangelium1]
+[Evangelium]
 v. Pasja Pana naszego Jezusa Chrystusa według Mateusza.
 !Mt 26:36-75; 27:1-60
 !x! J = słowa Chrystusa; C = opowiadanie Ewangelisty; S = słowa innych osób.
-
-[Evangelium]
-@:Munda Cor Passionis
-_
-@:Evangelium1
 @Tempora/Quad6-0:Evangelium3
 
 [Offertorium]
@@ -209,18 +197,3 @@ _
 
 [Postcommunio]
 @Tempora/Quad6-0:Postcommunio
-
-[Footnotes]
-[^1]: Ant. Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis.
-[^2]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Orémus. Bene ☩ dic, quǽsumus, Dómine, hos palmárum ramos: et præsta; ut, quod pópulus tuus in tui veneratiónem hodiérna die corporáliter agit, hoc spirituáliter summa devotióne perfíciat, de hoste victóriam reportándo et opus misericórdiæ summópere diligéndo. Per Christum Dominum nostrum. R. Amen.
-[^3]: Ant. Púeri Hebræórum, portántes ramos olivárum, obviavérunt Dómino, clamántes et dicéntes: Hosánna in excélsis. Dómini est terra et plenitúdo eius, orbis terrárum et univérsi qui hábitant in eo. Quia ipse super mária fundávit eum et super flúmina præparávit eum. Ant. Púeri Hebræórum. Attóllite portas, príncipes, vestras: et elevámini, portæ æternáles: et introíbit rex glóriæ. Quis est iste rex glóriæ? Dóminus fortis et potens: Dóminus potens in prǽlio. Ant. Púeri Hebræórum. Attóllite portas, príncipes, vestras: et elevámini, portæ æternáles: et introíbit rex glóriæ. Quis est iste rex glóriæ? Dóminus virtútum ipse est rex glóriæ. Ant. Púeri Hebræórum. V. Glória Patri, et Fílio, et Spirítui Sancto. R. Sicut erat in princípio, et nunc, et semper, et in saecula saeculórum. Amen Ant. Púeri Hebræórum.
-[^4]: Ant. Púeri Hebræórum vestiménta prosternébant in via, et clamábant dicéntes: Hosánna filio David; benedíctus qui venit in nómine Dómini. Omnes gentes pláudite mánibus: iubiláte Deo in voce exultatiónis. Quóniam Dóminus excélsus, terríbilis, rex magnus super omnem terram. Ant. Púeri Hebræórum. Subiécit pópulos nobis: et gentes sub pédibus nóstris. Elegit nobis hereditátem suam: spéciem Iacob quam diléxit. Ant. Púeri Hebræórum. Ascéndit Deus in iúbilo: et Dóminus in voce tubæ. Psállite Deo nostro, psállite: psállite regi nostro, psállite. Ant. Púeri Hebræórum. Quóniam rex omnis terræ Deus: psállite sapiénter. Regnávit Deus super gentes: Deus sedit super sedem sanctam suam. Ant. Púeri Hebræórum. Príncipes populórum congregáti sunt cum Deo Abraham: quóniam Dei fortes terræ veheménter elevati sunt. Ant. Púeri Hebræórum. V. Glória Patri, et Fílio, et Spirítui Sancto. R. Sicut erat in princípio, et nunc, et semper, et in saecula saeculórum. Amen Ant. Púeri Hebræórum.
-[^5]: Munda cor meum ac labia mea, omnípotens Deus, qui labia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, D óminum nostrum. Amen. D. Iube, domne, benedícere. S. Dóminus sit in corde tuo et in lábiis tuis: ut digne et competénter annúnties Evangélium suum: In nómine Patris, et Fílii, ☩ et Spíritus Sancti. Amen. V. Dóminus vobíscum. R. Et cum spiritu tuo.
-[^6]: Sequéntia ✠ sancti Evangélii secúndum Matthǽum. *Matt 21:1-9* R. Glória tibi, Dómine. In illo témpore: Cum appropinquásset Iesus Ierosólymis, et venísset Béthphage ad montem Olivéti: tunc misit duos discípulos suos, dicens eis: Ite in castéllum, quod contra vos est, et statim inveniétis ásinam alligátam et pullum cum ea: sólvite et addúcite mihi: et si quis vobis áliquid dixerit, dícite, quia Dóminus his opus habet, et conféstim dimíttet eos. Hoc autem totum factum est, ut adimplerétur, quod dictum est per Prophétam, dicéntem: Dícite fíliae Sion: Ecce, Rex tuus venit tibi mansuétus, sedens super ásinam et pullum, fílium subiugális. Eúntes autem discípuli, fecérunt, sicut præcépit illis Iesus. Et adduxérunt ásinam et pullum: et imposuérunt super eos vestiménta sua, et eum désuper sedére tecérunt. Plúrima autem turba stravérunt vestiménta sua in via: álii autem cædébant ramos de arbóribus, et sternébant in via: turbæ autem, quæ præcedébant et quæ sequebántur, clamábant, dicéntes: Hosánna fílio David: benedíctus, qui venit in nómine Dómini. R. Laus tibi, Christe! S. Per Evangelica dicta, deleantur nostra delicta.
-[^7]: V. Procedámus in pace. R. In nómine Christi. Amen. Occúrrunt turbæ cum flóribus et palmis Redemptóri óbviam: et victóri triumphánti digna dant obséquia: Fílium Dei ore gentes prædicant: et in laudem Christi voces tonant per núbila: «Hosánna in excélsis». Cum Angelis et púeris fidéles inveniántur, triumphatóri mortis damántes: «Hosánna in excélsis». Turba multa, quæ convénerat ad diem festum, clamábat Dómino: Benedíctus, qui venit in nómine Dómini: «Hosánna in excélsis».
-[^8]: *Luc 19:37, 38* Cœpérunt omnes turbæ descendéntium gaudéntes laudáre Deum voce magna, super ómnibus quas víderant virtútibus, dicéntes: «Benedíctus qui venit Rex in nómine Dómini; pax in terra, et glória in excélsis».
-[^9]: Glória, laus et honor tibi sit, Rex Christe, Redémptor: Cui pueríle decus prompsit Hosánna pium. Glória, laus et honor. Israël es tu Rex, Davidis et ínclita proles: Nómine qui in Dómini, Rex benedícte, venis. Glória, laus et honor. Coetus in excélsis te laudat caelicus omnis, Et mortális homo, et cuncta creáta simul. Glória, laus et honor. Plebs Hebraea tibi cum palmis óbvia venit: Cum prece, voto, hymnis, ádsumus ecce tibi. Glória, laus et honor. Hi tibi passúro solvébant múnia laudis: Nos tibi regnánti pángimus ecce melos. Glória, laus et honor. Hi placuére tibi, pláceat devótio nostra: Rex bone, Rex clemens, cui bona cuncta placent. Glória, laus et honor.
-[^10]: *Psalmus 147* Ant. Omnes colláudant nomen tuum, et dicunt: «Benedíctus qui venit in nómine Dómini: Hosánna in excélsis». Lauda, Ierúsalem, Dóminum: * lauda Deum tuum, Sion. Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te. Qui pósuit fines tuos pacem: * et ádipe fruménti sátiat te. Qui emíttit elóquium suum terræ: * velóciter currit sermo eius. Qui dat nivem sicut lanam: * nébulam sicut cínerem spargit. Mittit crystállum suam sicut buccéllas: * ante fáciem frígoris eius quis sustinébit? Emíttet verbum suum, et liquefáciet ea: * flabit spíritus eius, et fluent aquæ. Qui annúntiat verbum suum Iacob: * iustítias, et iudícia sua Israël. Non fecit táliter omni natióni: * et iudícia sua non manifestávit eis. V. Glória Patri, et Fílio, et Spirítui Sancto. R. Sicut erat in princípio, et nunc, et semper, et in saecula saeculórum. Amen Ant. Omnes colláudant nomen tuum, et dicunt: «Benedíctus qui venit in nómine Dómini: Hosánna in excélsis».
-[^11]: Fulgéntibus palmis prostérnimur adveniénti Dómino: huic omnes occurrámus cum hymnis et cánticis, glorificántes et dicéntes: «Benedíctus Dóminus». Ave, Rex noster, Fili David, Redémptor mundi, quem prophétæ praedixérunt Salvatórem dómui Israël esse ventúrum. Te enim ad salutárem víctimam Pater misit in mundum, quem exspectábant omnes sancti ab orígine mundi, et nunc: «Hosánna Fílio David. Benedíctus qui venit in nómine Dómini. Hosánna in excélsis».
-[^12]: Ingrediénte Dómino in sanctam civitátem, Hebræórum púeri resurrectiónem vitæ pronuntiántes, Cum ramis palmárum: «Hosánna, clamábant, in excélsis». Cum audísset pópulus, quod Iesus veníret Ierosólymam, exiérunt óbviam ei. Cum ramis palmárum: «Hosánna, clamábant, in excélsis».
-[^13]: V. Dóminus vobíscum. R. Et cum spiritu tuo. Oremus. Dómine Iesu Christe, Rex ac Redémptor noster, in cuius honórem, hoc ramos gestántes, solémnes laudes decantávimus: concéde propítius ut, quocúmque hi rami deportáti fúerint, ibi tuæ benedictiónis grátia descéndat, et quavis dǽmonum iniquitáte vel illusióne profligáta, déxtera tua prótegat, quos redémit: Qui vivis et regnas in sǽcula sæculórum. R. Amen.

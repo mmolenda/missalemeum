@@ -50,10 +50,18 @@ WEEKDAY_MAPPING = {
 
 VISIBLE_SECTIONS = [
     'Comment',
-    'De Benedictione Candelarum',  # 02-02, feast of the Purification of the B.V.M.
-    'De Distributione Candelarum',  # 02-02, feast of the Purification of the B.V.M.
-    'De Processione',  # 02-02, feast of the Purification of the B.V.M.
-    'Prelude',
+    # Atypical sections
+    # 02-02, feast of the Purification of the B.V.M.
+    'De Benedictione Candelarum',
+    'De Distributione Candelarum',
+    'De Processione',
+    # Quad6-0r, Dominica II Passionis seu in Palmis
+    'Benedictio Palmorum',
+    'De distributione ramorum',
+    'De lectione Evangelica',
+    'De processione cum ramis benedictis',
+    'Hymnus ad Christum Regem',
+    # Common sections
     'Introitus',
     'Oratio',
     'OratioL1',

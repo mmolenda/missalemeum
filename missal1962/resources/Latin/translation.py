@@ -669,9 +669,16 @@ section_labels = {
     'Super populum': 'Super populum',
     'Prefatio': 'Prefatio',
     'Tractus': 'Tractus',
+    # 02-02, feast of the Purification of the B.V.M.
     'De Benedictione Candelarum': 'De Benedictione Candelarum',
     'De Distributione Candelarum': 'De Distributione Candelarum',
-    'De Processione': 'De Processione'
+    'De Processione': 'De Processione',
+    # Quad6-0r, Dominica II Passionis seu in Palmis
+    'Benedictio Palmorum': 'Benedictio Palmorum',
+    'De distributione ramorum': 'De distributione ramorum',
+    'De lectione Evangelica': 'De lectione Evangelica',
+    'De processione cum ramis benedictis': 'De processione cum ramis benedictis',
+    'Hymnus ad Christum Regem': 'Hymnus ad Christum Regem',
 }
 
 section_labels_multi = {

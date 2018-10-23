@@ -37,9 +37,16 @@ section_labels = {
     'Super populum': 'Modlitwa nad ludem',
     'Prefatio': 'Prefacja',
     'Tractus': 'Traktus',
+    # 02-02, feast of the Purification of the B.V.M.
     'De Benedictione Candelarum': 'Poświęcenie Świec',
     'De Distributione Candelarum': 'Rozdawanie Świec',
-    'De Processione': 'Procesja'
+    'De Processione': 'Procesja',
+    # Quad6-0r, Dominica II Passionis seu in Palmis
+    'Benedictio Palmorum': 'Poświęcenie Palm',
+    'De distributione ramorum': 'Rozdawanie Gałązek',
+    'De lectione Evangelica': 'Czytanie Ewangelii',
+    'De processione cum ramis benedictis': 'Procesja z Poświęconymi Palmami',
+    'Hymnus ad Christum Regem': 'Hymn ku Czci Chrystusa Króla'
 }
 
 section_labels_multi = {
