@@ -46,7 +46,11 @@ section_labels = {
     'De distributione ramorum': 'Rozdawanie Gałązek',
     'De lectione Evangelica': 'Czytanie Ewangelii',
     'De processione cum ramis benedictis': 'Procesja z Poświęconymi Palmami',
-    'Hymnus ad Christum Regem': 'Hymn ku Czci Chrystusa Króla'
+    'Hymnus ad Christum Regem': 'Hymn ku Czci Chrystusa Króla',
+    # Quad6-4r, Feria Quinta in Coena Domini
+    'Maundi': 'Mandatum, czyli Umywanie Nóg',
+    'Post Missam': 'Uroczyste Przeniesienie i Złożenie Najświętszego Sakramentu',
+    'Denudatione altaris': 'Obnażenie Ołtarzy'
 }
 
 section_labels_multi = {

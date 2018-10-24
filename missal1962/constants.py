@@ -48,6 +48,7 @@ WEEKDAY_MAPPING = {
     '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
 }
 
+
 VISIBLE_SECTIONS = [
     'Comment',
     # Atypical sections
@@ -86,6 +87,7 @@ VISIBLE_SECTIONS = [
     'Tractus',
     'Sequentia',
     'Evangelium',
+    'Maundi',  # Quad6-4r, Feria Quinta in Coena Domini
     'Offertorium',
     'OffertoriumP',
     'Secreta',
@@ -96,9 +98,10 @@ VISIBLE_SECTIONS = [
     'CommunioP',
     'Postcommunio',
     'Commemoratio Postcommunio',
-    'Super populum'
+    'Super populum',
+    'Post Missam',  # Quad6-4r, Feria Quinta in Coena Domini
+    'Denudatione altaris'  # Quad6-4r, Feria Quinta in Coena Domini
 ]
-
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 
 TEMPORA_EPI1_0 = 'tempora:Epi1-0:2'    # Feast of the Holy Family
@@ -934,8 +937,6 @@ EXCLUDE_SECTIONS_TITLES = (
     'Comment',
     'Prelude',
     'Prelude(rubrica 1960)',
-    'Maundi',
-    'Post Missam'
 )
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')

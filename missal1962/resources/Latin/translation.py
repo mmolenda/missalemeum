@@ -679,6 +679,10 @@ section_labels = {
     'De lectione Evangelica': 'De lectione Evangelica',
     'De processione cum ramis benedictis': 'De processione cum ramis benedictis',
     'Hymnus ad Christum Regem': 'Hymnus ad Christum Regem',
+    # Quad6-4r, Feria Quinta in Coena Domini
+    'Maundi': 'De lotione pedum',
+    'Post Missam': 'Solemnem translationem et repositionem Sacramenti',
+    'Denudatione altaris': 'Denudatione altaris'
 }
 
 section_labels_multi = {
