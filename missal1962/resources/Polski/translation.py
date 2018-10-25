@@ -50,7 +50,14 @@ section_labels = {
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'Mandatum, czyli Umywanie Nóg',
     'Post Missam': 'Uroczyste Przeniesienie i Złożenie Najświętszego Sakramentu',
-    'Denudatione altaris': 'Obnażenie Ołtarzy'
+    'Denudatione altaris': 'Obnażenie Ołtarzy',
+    # Quad6-5r, Feria Sexta in Parasceve
+    'Lectiones': 'Część Pierwsza: Czytania',
+    'Passio': 'Pasja',
+    'Oratio Fidelium': 'Część Druga: Uroczyste Modły zwane «Modlitwą Wiernych»',
+    'Crucis Adoratione': 'Część Trzecia: Uroczysta Adoracja Krzyża',
+    'CommunioQ': 'Część Czwarta: Komunia Święta'
+
 }
 
 section_labels_multi = {

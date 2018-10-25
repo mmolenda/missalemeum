@@ -62,6 +62,12 @@ VISIBLE_SECTIONS = [
     'De lectione Evangelica',
     'De processione cum ramis benedictis',
     'Hymnus ad Christum Regem',
+    # Quad6-5r, Feria Sexta in Parasceve
+    'Lectiones',
+    'Passio',
+    'Oratio Fidelium',
+    'Crucis Adoratione',
+    'CommunioQ',
     # Common sections
     'Introitus',
     'Oratio',

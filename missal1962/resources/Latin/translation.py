@@ -682,7 +682,13 @@ section_labels = {
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'De lotione pedum',
     'Post Missam': 'Solemnem translationem et repositionem Sacramenti',
-    'Denudatione altaris': 'Denudatione altaris'
+    'Denudatione altaris': 'Denudatione altaris',
+    # Quad6-5r, Feria Sexta in Parasceve
+    'Lectiones': 'De prima parte: Lectiones',
+    'Passio': 'Passio',
+    'Oratio Fidelium': 'De secunda parte: De Orationibus Solemnibus, quae etiam «Oratio Fidelium» dicuntur',
+    'Crucis Adoratione': 'De tertia parte: De Solemni Sanctae Crucis Adoratione',
+    'CommunioQ': 'De quarta parte: Communio'
 }
 
 section_labels_multi = {

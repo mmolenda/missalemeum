@@ -22,14 +22,12 @@ Aby zaznaczyć jedność ofiary Wieczernika, tj. Mszy świętej, z krwawą ofiar
 5. Boży Grób
 Około w. X powstał zwyczaj przechowywanie Eucharystii na specjalnym ołtarzu przypominającym spoczynek Ciała Chrystusowego w grobie. Z czasem wprowadzono wystawienie Najświętszego Sakramentu i figurę martwego Chrystusa w dolnej części ołtarza. «Boży Grób» uzmysławia wielkość ofiary Zbawiciela i ciężkość grzechu, który wymagał takiego okupu.
 
-[Prelude]
-
-!! Część Pierwsza: Czytania
+[Lectiones]
 
 !Celebrans i asystujący, ubrani w alby i czarne stuły, w zupełnej ciszy udają się do ołtarza i padają przed nim na twarz. Wszyscy obecni klękają i rozważają przez chwilę mękę Pańską. Celebrans podnosi się i stojąc przed stopniami ołtarza śpiewa:
 
 v. Boże, Ty przez mękę Twego Pomazańca, a naszego Pana zniweczyłeś śmierć, która wynikła z pradawnego grzechu, i jak dziedzictwo przeszła na wszystkie następne pokolenia; spraw, abyśmy upodobnieni do Chrystusa przez łaskę uświęcającą tak nosili obraz Boży, jak z konieczności nosiliśmy piętno Adamowej natury. Przez tegoż Chrystusa Pana naszego.
-R. Amen. [^1]
+R. Amen. 
 _
 _
 
@@ -37,7 +35,7 @@ _
 
 ! 1 Lekcja
 !Oz 6:1-6
-To mówi Pan: W utrapieniu swoim będą mnie szukać: Pójdźcie! Wróćmy do Pana; On rozszarpał, On nas uleczy; On uderzył, On zawiąże nasze rany. Ożywi nas po dwóch dniach, dnia trzeciego wzbudzi nas, i żyć będziemy przed obliczem Jego. Poznajmy tedy, pobiegnijmy, aby poznać Pana! Jak jutrzenka jest pewne Jego przyjście. I przyjdzie do nas jak deszcz, jak późny deszcz, który ziemię orzeźwia. Cóż mam ci uczynić, Efraimie? Cóż mam ci uczynić, Judo? Bo miłość wasza jest jak mgła poranna i jako rosa, która prędko znika. Dlatego to ciosałem przez Proroków i zabijałem słowami mych ust, a sąd mój wschodzi jak światło. Miłości chcę, a nie krwawej ofiary, znajomości Boga więcej niż całopaleń. [^2]
+To mówi Pan: W utrapieniu swoim będą mnie szukać: Pójdźcie! Wróćmy do Pana; On rozszarpał, On nas uleczy; On uderzył, On zawiąże nasze rany. Ożywi nas po dwóch dniach, dnia trzeciego wzbudzi nas, i żyć będziemy przed obliczem Jego. Poznajmy tedy, pobiegnijmy, aby poznać Pana! Jak jutrzenka jest pewne Jego przyjście. I przyjdzie do nas jak deszcz, jak późny deszcz, który ziemię orzeźwia. Cóż mam ci uczynić, Efraimie? Cóż mam ci uczynić, Judo? Bo miłość wasza jest jak mgła poranna i jako rosa, która prędko znika. Dlatego to ciosałem przez Proroków i zabijałem słowami mych ust, a sąd mój wschodzi jak światło. Miłości chcę, a nie krwawej ofiary, znajomości Boga więcej niż całopaleń. 
 
 _
 !Responsorium
@@ -47,7 +45,7 @@ v. Panie, słyszałem zapowiedź Twoją i uląkłem się: ujrzałem w duchu dzie
 V. Między dwoma zwierzętami ukażesz się, gdy przyjdą lata, dasz się poznać, gdy nadejdzie pora, objawisz się.
 V. Wówczas gdy dusza moja będzie się trwożyć, Ty w gniewie pomnij na swe miłosierdzie.
 V. Bóg z Libanu przyjdzie i Święty z góry pokrytej cieniem i mrokiem.
-V. Majestat Jego okrył niebiosa i chwały Jego pełna jest ziemia. [^3]
+V. Majestat Jego okrył niebiosa i chwały Jego pełna jest ziemia. 
 _
 ! Po ukonczeniu responosrium wszyscy wstają. Celebrans śpiewa:
 v. Módlmy się.
@@ -56,14 +54,14 @@ R. Wstańcie.
 
 ! Kolekta
 Boże, od Ciebie Judasz otrzymał karę za swoją zbrodnię, a łotr nagrodę za wyznanie winy; daj nam doznać skutków miłosierdzia Twego, a jak w czasie swojej męki Pan nasz Jezus Chrystus obydwom oddał różną zapłatę według ich uczynków, tak niech zgładzi w nas zastarzały błąd i udzieli nam łaski zmartwychwstania:
-$Qui tecum [^4]
+$Qui tecum 
 _
 _
 ! Po kolejcie wszyscy siadają i słuchają drugiej lekcji.
 
 ! 2 Lekcja 
 !Wj 12:1-11
-W one dni: Rzekł Pan do Mojżesza i Aarona w ziemi egipskiej: Miesiąc ten jako początek miesięcy będzie dla was pierwszy wśród miesięcy roku. Mówcie do wszystkiego zgromadzenia synów Izraela i rzeczcie im: Dziesiątego dnia tego miesiąca niechaj każdy dla rodziny i domu swego weźmie baranka. Jeśli zaś mniejsza jest liczba, niż to wystarcza do spożycia baranka, niech weźmie sąsiada swego, co obok jego domu mieszka, ze względu na liczbę ludzi wystarczającą do spożycia baranka. Baranek zaś będzie bez skazy, samczyk, jednoroczny; według tegoż przepisu weźmiecie też kozła. I zachowacie go aż do dnia czternastego tego miesiąca, i ofiaruje go pod wieczór całe zgromadzenie synów Izraela. I wezmą krew jego, i pomażą podwoje i górne belki drzwi w domach, gdzie będą go pożywać. I nocy tej będą jeść mięso na ogniu upieczone i chleb przaśny z sałatą. Nie będziecie zeń nic surowego pożywać ani w wodzie ugotowanego, lecz wszystko upieczone na ogniu; spożyjecie głowę jego wraz z nogami i wnętrznościami. I nic zeń nie pozostanie aż do ranka. Jeśliby co zostało, spalicie ogniem. W ten sposób będziecie go spożywać: przepaszecie biodra wasze i będziecie mieli obuwie na nogach, trzymając laski w rękach, a spożywać będziecie spiesznie: jest to bowiem Phase [to znaczy Przejście] Pańskie. [^5]
+W one dni: Rzekł Pan do Mojżesza i Aarona w ziemi egipskiej: Miesiąc ten jako początek miesięcy będzie dla was pierwszy wśród miesięcy roku. Mówcie do wszystkiego zgromadzenia synów Izraela i rzeczcie im: Dziesiątego dnia tego miesiąca niechaj każdy dla rodziny i domu swego weźmie baranka. Jeśli zaś mniejsza jest liczba, niż to wystarcza do spożycia baranka, niech weźmie sąsiada swego, co obok jego domu mieszka, ze względu na liczbę ludzi wystarczającą do spożycia baranka. Baranek zaś będzie bez skazy, samczyk, jednoroczny; według tegoż przepisu weźmiecie też kozła. I zachowacie go aż do dnia czternastego tego miesiąca, i ofiaruje go pod wieczór całe zgromadzenie synów Izraela. I wezmą krew jego, i pomażą podwoje i górne belki drzwi w domach, gdzie będą go pożywać. I nocy tej będą jeść mięso na ogniu upieczone i chleb przaśny z sałatą. Nie będziecie zeń nic surowego pożywać ani w wodzie ugotowanego, lecz wszystko upieczone na ogniu; spożyjecie głowę jego wraz z nogami i wnętrznościami. I nic zeń nie pozostanie aż do ranka. Jeśliby co zostało, spalicie ogniem. W ten sposób będziecie go spożywać: przepaszecie biodra wasze i będziecie mieli obuwie na nogach, trzymając laski w rękach, a spożywać będziecie spiesznie: jest to bowiem Phase [to znaczy Przejście] Pańskie. 
 _
 !Responsorium
 !Ps 139:2-10, 14
@@ -77,10 +75,10 @@ V. Mówię do Pana: Tyś jest Bogiem moim, usłysz, o Panie, głos mego błagani
 V. Panie Boże, potężna ma pomocy! w dniu walki głowę mą osłaniasz.
 V. Nie dopuść, Panie, pragnień niegodziwca, zamiarów jego nie spełniaj!
 V. Podnosza głowę, którzy wokół mnie stoją, niech złość własnych warg ich przywali:
-V. Zaiste sprawiedliwi będą sławić Twe imię przed Twym obliczem będą mieszkać prawi. [^6]
+V. Zaiste sprawiedliwi będą sławić Twe imię przed Twym obliczem będą mieszkać prawi. 
 _
 _
-!!Pasja
+[Passio]
 
 ! Następnie czyta się lub śpiewa opis Męki Pańskiej według św. Jana, który był naocznym świadkiem śmierci krzyżowej Zbawiciela.
 
@@ -107,10 +105,10 @@ A pod krzyżem Jezusowym stała Matka Jego, i siostra Matki Jego, Maria Kleofaso
 Potem Jezus świadom, że wszystko już się wykonało, aby się wypełniło Pismo, rzekł: J. Pragnę. C. A było tam postawione naczynie napełnione octem. A oni włożywszy na trzcinę gąbkę nasiąkniętą octem, podali Mu do ust. Jezus zaś, gdy skosztował octu, rzekł: J. Wykonało się. C. I skłoniwszy głowę oddał ducha. (Wszyscy klękają i modlą się w milczeniu)
 Żydzi tedy [ponieważ był to dzień Przygotowania], aby przez szabat ciała nie zostały na krzyżu, [albowiem on dzień szabatu był uroczystym], prosili Piłata, aby im połamano nogi i zdjęto ich. Przyszli przeto żołnierze i połamali nogi pierwszemu i drugiemu, którzy z Nim byli ukrzyżowani. A skoro podeszli do Jezusa i zobaczyli, że już umarł, nie łamali nóg Jego, ale jeden z żołnierzy włócznia otworzył bok Jego, a natychmiast wypłynęła krew i woda. A ten, który widział, dał świadectwo i prawdziwe jest świadectwo jego. I wie on, że prawdę mówi, abyście i wy uwierzyli. Stało się to bowiem, aby się wypełniło Pismo: Kości Jego łamać nie
 będziecie. A na innym miejscu mówi Pismo: Zobaczą, kogo przebodli.
-A potem prosił Piłata Józef z Arymatei [dlatego że był uczniem Jezusa, lecz w ukryciu, z obawy przed żydami), ażeby mógł zabrać ciało Jezusowe. I Piłat pozwolił. Przyszedł tedy i zabrał ciało Jezusa. A przybył też i Nikodem, ten, który dawniej przyszedł był w nocy do Jezusa, niosąc około stu funtów przyprawy mirry i aloesu. Wzięli tedy ciało Jezusowe i obwiązali je w prześcieradła z wonnościami, jak jest zwyczajem grzebać u żydów. A na miejscu, gdzie Go ukrzyżowano, był ogród, w ogrodzie zaś grobowiec nowy, w którym nikt jeszcze nie był złożony. Tam tedy, z powodu żydowskiego dnia Przygotowania, bo grobowiec był blisko, złożyli Jezusa. [^7]
+A potem prosił Piłata Józef z Arymatei [dlatego że był uczniem Jezusa, lecz w ukryciu, z obawy przed żydami), ażeby mógł zabrać ciało Jezusowe. I Piłat pozwolił. Przyszedł tedy i zabrał ciało Jezusa. A przybył też i Nikodem, ten, który dawniej przyszedł był w nocy do Jezusa, niosąc około stu funtów przyprawy mirry i aloesu. Wzięli tedy ciało Jezusowe i obwiązali je w prześcieradła z wonnościami, jak jest zwyczajem grzebać u żydów. A na miejscu, gdzie Go ukrzyżowano, był ogród, w ogrodzie zaś grobowiec nowy, w którym nikt jeszcze nie był złożony. Tam tedy, z powodu żydowskiego dnia Przygotowania, bo grobowiec był blisko, złożyli Jezusa. 
 _
-_ 
-!! Część Druga: Uroczyste Modły zwane «Modlitwą Wiernych»
+_
+[Oratio Fidelium]
 ! W starożytności «modlitwa wiernych», to jest ochrzczonych, odbywała się po odesłaniu katechumenów i stanowiła zakończenie pouczającej części Mszy świętej. W Wielki Piątek po kazaniu również odprawiano te modlitwy. W Wielki Piątek zachowała się pierwotna forma zebrania liturgicznego gminy rzymskiej.
 ! Po ukończeniu czytania Męki Pańskiej celebrans i asystujący wkładają czarne szaty. Usługujący rozkładają na ołtarzu jeden obrus i ustawiają mszał. Celebrans udaje się do ołtarza i rozpoczyna uroczyste modlitwy. Odprawia się je w następujący sposób: Celebrans śpiewa wezwanie podające intencję modlitwy. Następnie śpiewa: Oremus. Flectamus genua. Wszyscy klękają i modlą się we wskazanej intencji. Na wezwanie: Levate, wszyscy wstają i celebrans w głośnej modlitwie przedstawia Bogu ciche prośby wiernych.
 
@@ -120,7 +118,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże. Tyś w Chrystusie objawił Swoją chwałę wszystkim narodom; strzeż dzieła miłosierdzia Twego, aby Kościół Twój rozszerzony na cały świat, trwał z niewzruszoną wiarą w wyznawaniu Twojego imienia. Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^8]
+R. Amen. 
 _
 _
 ! 2. Za Ojca świętego
@@ -129,7 +127,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, na Twoich postanowieniach wszystko się opiera. Wejrzyj łaskawie na prośby nasze i w Twojej dobroci racz zachować wybranego dla nas Pasterza, a lud chrześcijański, który od Ciebie otrzymuje przewodników, niech pod zwierzchnictwem takiego Pasterza wzrasta w zasługach swej wiary. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^9]
+R. Amen. 
 _
 _
 ! 3. Za Duchowieństwo i Wiernych
@@ -138,7 +136,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący wieczny Boże, Duch Twój uświęca całe mistyczne Ciało Kościoła i rządzi nim; wysłuchaj korne błagania nasze za wiernych wszystkich stanów, aby za łaską Twoją wszyscy wiernie Tobie służyli. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności tegoż Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^10]
+R. Amen. 
 _
 _
 ! 4. Za rządzących państwami
@@ -147,7 +145,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, w Twoim ręku jest wszelka władza i prawa wszystkich ludów; wejrzyj łaskawie na tych, którzy nami rządzą, aby pod opieką Twojej prawicy nieustannie religia cieszyła się nieskażonym rozwojem, a Ojczyzna bezpieczeństwem. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności tegoż Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^11]
+R. Amen. 
 _
 _
 ! 5. Za przygotowujących się do Chrztu św.
@@ -156,7 +154,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, Ty ciągle ubogacasz Twój Kościół nowym potomstwem; pomnóż wiarę i zrozumienie u naszych katechumenów, aby odrodzeni w wodzie Chrztu świętego zostali zaliczeni w poczet Twoich przybranych dzieci. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^12]
+R. Amen. 
 _
 _
 ! 6. W potrzebach Wiernych
@@ -165,7 +163,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, pociecho strapionych i mocy cierpiących, niechaj dojdą do Ciebie prośby tych, którzy w jakimkolwiek utrapieniu wołają do Ciebie, aby wszyscy mogli się radować, że doznali w swoich potrzebach Twego miłosierdzia. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^13]
+R. Amen. 
 _
 _
 ! 7. O jedność Kościoła
@@ -174,7 +172,7 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, Ty wszystkich zbawiasz i nie chcesz, aby ktokolwiek zginął; wejrzyj na dusze zwiedzione przez podstęp szatana; niech serca błądzących opamiętają się i porzuciwszy heretyckie błędy, powrócą do jedności Twojej wiary. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^14]
+R. Amen. 
 _
 _
 ! 8. Za Żydów
@@ -184,7 +182,7 @@ V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący wieczny Boże, który chcesz, aby wszyscy ludzie zostali zbawieni i doszli do poznania Prawdy, spraw łaskawie, aby cały Izrael został zbawiony, kiedy wszystkie narody wejdą do Twego Kościoła.~
 Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^15]
+R. Amen. 
 _
 _
 ! 8. O nawrócenie pogan
@@ -193,10 +191,10 @@ S. Módlmy się.
 V. Klęknijmy.
 R. Wstańcie.
 v. Wszechmogący, wieczny Boże, Ty zawsze zabiegasz o życie grzeszników, a nie o ich śmierć; przyjmij łaskawie naszą modlitwę i wyzwól pogan od bałwochwalstwa, a przyłącz do Twego świętego Kościoła na cześć i chwałę Twojego imienia. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków.
-R. Amen. [^16]
+R. Amen. 
 _
 _
-!! Część Trzecia: Uroczysta Adoracja Krzyża
+[Crucis Adoratione]
 
 ! Po skończeniu modlitw celebrans zdejmuje kapę, asystujący zaś swoje szaty liturgiczne. Diakon udaje się do zakrystii, skąd w otoczeniu dwu ministrantów trzymających zapalone świece przynosi wielki krzyż okryty fioletową zasłoną. Gdy diakon wejdzie do prezbiterium, celebrans wraz z subdiakonem wychodzi na jego spotkanie i odbiera od niego krzyż na środku przed ołtarzem. Następnie staje u stopni ołtarza po stronie lekcji zwrócony do ludu, odsłania wierzch krzyża i śpiewa:
 
@@ -208,7 +206,7 @@ na którym zawisło zbawienie świata.
 
 ! Wszyscy odpowiadają:
 
-R. Pójdźmy, pokłońmy się. [^17]
+R. Pójdźmy, pokłońmy się. 
 
 ! Po skończeniu śpiewu wszyscy z wyjątkiem celebransa padają na kolana i przez chwilę adorują w milczeniu, po czym wstają. Następnie celebrans wstępuje na stopnie ołtarza, odsłania prawe ramię krzyża i śpiewa wyższym tonem: Ecce lignum Crucis. Wszyscy przyklękają znowu i śpiewają jak poprzednio. W końcu celebrans staje przed środkiem ołtarza, odkrywa cały krzyż, wznosi go ku górze powtarzając jeszcze wyższym tonem: Ecce lignum Crucis. Pozostali znowu śpiewają i adorują jak powyżej.
 ! Kapłan oddaje krzyż dwom ministrantom, którzy trzymają go przed ołtarzem, sam zaś zdejmuje obuwie i podąża ku wejściu do prezbiterium. Wracając przyklęka trzykrotnie na jedno kolano i całuje stop Ukrzyżowanego. Potem adorują krzyż asystujący, duchowieństwo i ministranci.
@@ -219,7 +217,7 @@ R. Pójdźmy, pokłońmy się. [^17]
 ! Dwa chóry śpiewają werset Popule meus, aż do Hagios o Theos.
 
 V. Ludu mój, ludu, cóżem ci uczynił lub czym cię zasmuciłem, odpowiedz mi.
-V. Czyż dlatego, żem cię wyprowadził z ziemi egipskiej, zgotowałeś krzyż Zbawcy swemu. [^18]
+V. Czyż dlatego, żem cię wyprowadził z ziemi egipskiej, zgotowałeś krzyż Zbawcy swemu. 
 
 ! Następnie kolejno oba chóry śpiewają po grecku i po łacinie:
 
@@ -228,11 +226,11 @@ R. Święty Boże!
 R. Święty mocny!
 R. Święty mocny!
 R. Święty nieśmiertelny, zmiłuj się nad nami.
-R. Święty nieśmiertelny, zmiłuj się nad nami. [^19]
+R. Święty nieśmiertelny, zmiłuj się nad nami. 
 
 ! Oba chóry śpiewają:
 
-V. Czyż dlatego, że cię na pustyni przez czterdzieści lat prowadziłem, nakarmiłem manną i wprowadziłem do ziemi doskonałej, przygotowałeś krzyż Zbawcy swemu. [^20]
+V. Czyż dlatego, że cię na pustyni przez czterdzieści lat prowadziłem, nakarmiłem manną i wprowadziłem do ziemi doskonałej, przygotowałeś krzyż Zbawcy swemu. 
 
 ! Następnie kolejno oba chóry śpiewają po grecku i po łacinie:
 
@@ -241,11 +239,11 @@ R. Święty Boże!
 R. Święty mocny!
 R. Święty mocny!
 R. Święty nieśmiertelny, zmiłuj się nad nami.
-R. Święty nieśmiertelny, zmiłuj się nad nami. [^21]
+R. Święty nieśmiertelny, zmiłuj się nad nami. 
 
 ! Oba chóry śpiewają:
 
-V. Co więcej uczynić mogłem dla ciebie, a nie uczyniłem? Zasadziłem cię jako najpiękniejszą z winnic moich, a ty bardzo gorzkim mi się stałeś; bo gdym był spragniony, octem mnie napoiłeś i włócznią przebodłeś bok Zbawcy swemu. [^22]
+V. Co więcej uczynić mogłem dla ciebie, a nie uczyniłem? Zasadziłem cię jako najpiękniejszą z winnic moich, a ty bardzo gorzkim mi się stałeś; bo gdym był spragniony, octem mnie napoiłeś i włócznią przebodłeś bok Zbawcy swemu. 
 
 ! Następnie kolejno oba chóry śpiewają po grecku i po łacinie:
 
@@ -254,7 +252,7 @@ R. Święty Boże!
 R. Święty mocny!
 R. Święty mocny!
 R. Święty nieśmiertelny, zmiłuj się nad nami.
-R. Święty nieśmiertelny, zmiłuj się nad nami. [^23]
+R. Święty nieśmiertelny, zmiłuj się nad nami. 
 _
 _
 ! Następnie kolejno oba chóry śpiewają:
@@ -276,16 +274,16 @@ V. Ludu mój, ludu, cóżem ci uczynił lub czym cię zasmuciłem, odpowiedz mi.
 V. Dałem ci berło królewskie, a tyś mi włożył na głowę koronę cierniową.
 V. Ludu mój, ludu, cóżem ci uczynił lub czym cię zasmuciłem, odpowiedz mi.
 V. Wywyższyłem cię mocą wielką, a tyś mnie zawiesił na szubienicy krzyża.
-V. Ludu mój, ludu, cóżem ci uczynił lub czym cię zasmuciłem, odpowiedz mi. [^24]
+V. Ludu mój, ludu, cóżem ci uczynił lub czym cię zasmuciłem, odpowiedz mi. 
 
 ! Po czym śpiewa się następującą antyfonę:
 
 ! Antyfona
-Ant. Wielbimy Krzyż Twój, Panie: chwalimy i wysławiamy Twoje święte Zmartwychwstanie: przez to drzewo bowiem przyszła radość na cały świat. [^25]
+Ant. Wielbimy Krzyż Twój, Panie: chwalimy i wysławiamy Twoje święte Zmartwychwstanie: przez to drzewo bowiem przyszła radość na cały świat. 
 
 ! Ps 66,2
 Niech Bóg się zmiłuje nad nami i nam błogosławi: niech nam ukaże pogodne oblicze i zmiłuje się nad nami.
-Ant. Wielbimy Krzyż Twój, Panie: chwalimy i wysławiamy Twoje święte Zmartwychwstanie: przez to drzewo bowiem przyszła radość na cały świat. [^26]
+Ant. Wielbimy Krzyż Twój, Panie: chwalimy i wysławiamy Twoje święte Zmartwychwstanie: przez to drzewo bowiem przyszła radość na cały świat. 
 _
 _
 !Hymn
@@ -331,17 +329,17 @@ v. Niech przyjmie szczęśliwa Trójca wiekuistej chwały hymn:
 Ojciec, Syn i Duch Najświętszy w równej mierze godzien czci,
 Imię Trójcy i Jedności niechaj wielbi cały świat.
 Amen.
-Ant. Słodkie drzewo, słodkie gwoździe, słodki ciężar dźwigasz nam. [^27]
+Ant. Słodkie drzewo, słodkie gwoździe, słodki ciężar dźwigasz nam. 
 _
 _
 ! Po skończeniu adoracji krzyż umieszcza się na środku ołtarza. Celebrans i asystujący wkładają fioletowe szaty. Diakon poprzedzony przez dwu ministrantów z zapalonymi świecami przynosi Najświętszy Sakrament z miejsca, gdzie go wczoraj włożono. W czasie przenoszenia Najświętszego Sakramentu śpiewa się następujące antyfony:
 
 v. Kłaniamy Ci się, Chryste i błogosławimy Tobie, żeś przez Krzyż swój odkupił świat.
 v. Przez drzewo poszliśmy w niewolę, i przez Krzyż zostaliśmy oswobodzeni: owoc z drzewa nas uwiódł, a Syn Boży nas odkupił.
-v. Zbawicielu świata, ocal nas! Ty przez Krzyż i Krew swoją odkupiłeś nas, wspomóż nas, prosimy Cię, Boże nasz. [^28]
+v. Zbawicielu świata, ocal nas! Ty przez Krzyż i Krew swoją odkupiłeś nas, wspomóż nas, prosimy Cię, Boże nasz. 
 _
 _
-!! Część Czwarta: Komunia Święta
+[CommunioQ]
 
 ! Po przybyciu do głównego ołtarza diakon umieszcza Najświętszy Sakrament na korporale, a ministranci stawiają świece obok krzyża. Wówczas celebrans odmawia głośno wstęp do Modlitwy Pańskiej:
 
@@ -363,25 +361,25 @@ Amen.
 _
 
 ! Sam celebrans mówi dalej:
-v. Wybaw nas, prosimy Cię, Panie od wszelkiego zła przeszłego, teraźniejszego i przyszłego, a za przyczyną Najświętszej i chwalebnej zawsze Dziewicy Bogarodzicy Maryi, świętych Apostołów Twoich Piotra i Pawła oraz Andrzeja i wszystkich Świętych, użycz nam miłościwie pokoju za dni naszych, miłosierdzie zaś Twoje niechaj nas wspomoże, abyśmy zawsze byli wolni od grzechu i bezpieczni od wszelkiego zamętu. Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków. [^29]
+v. Wybaw nas, prosimy Cię, Panie od wszelkiego zła przeszłego, teraźniejszego i przyszłego, a za przyczyną Najświętszej i chwalebnej zawsze Dziewicy Bogarodzicy Maryi, świętych Apostołów Twoich Piotra i Pawła oraz Andrzeja i wszystkich Świętych, użycz nam miłościwie pokoju za dni naszych, miłosierdzie zaś Twoje niechaj nas wspomoże, abyśmy zawsze byli wolni od grzechu i bezpieczni od wszelkiego zamętu. Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego Bóg przez wszystkie wieki wieków. 
 
 ! Wszyscy odpowiadają: 
 R. Amen.
 _ `
 ! Następnie celebrans cicho odmawia: 
-v. Panie Jezu Chryste, przyjęcie Ciała Twego, które ja niegodny ośmielam się spożyć, niech mi nie wyjdzie na sąd i potępienie, ale z miłościwej dobroci Twojej niech będzie dla mnie ochroną duszy i ciała oraz skutecznym lekarstwem: Który żyjesz i królujesz z Bogiem Ojcem w jedności Ducha Świętego Bóg, przez wszystkie wieki wieków. Amen. [^30]
+v. Panie Jezu Chryste, przyjęcie Ciała Twego, które ja niegodny ośmielam się spożyć, niech mi nie wyjdzie na sąd i potępienie, ale z miłościwej dobroci Twojej niech będzie dla mnie ochroną duszy i ciała oraz skutecznym lekarstwem: Który żyjesz i królujesz z Bogiem Ojcem w jedności Ducha Świętego Bóg, przez wszystkie wieki wieków. Amen. 
 _ `
 ! Otworzywszy puszkę celebrans bierze w rękę jeden komunikant i uderzając się w pierś trzykrotnie powtarza:
 v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja.
 v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja.
-v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja. [^31]
+v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja. 
 
 ! Żegnając się Najświętszym Sakramentem kapłan mówi:
-v. Ciało Pana naszego Jezusa Chrystusa niech strzeże duszy mojej na żywot wieczny. Amen. [^32]
+v. Ciało Pana naszego Jezusa Chrystusa niech strzeże duszy mojej na żywot wieczny. Amen. 
 
 ! i ze czcią spożywa Hostię.
 ! Celebrans, zwrócony do ludu, mówi:
-v. Niech się zmiłuje nad wami wszechmogący Bóg, a odpuściwszy wam grzechy, doprowadzi was do życia wiecznego. [^33]
+v. Niech się zmiłuje nad wami wszechmogący Bóg, a odpuściwszy wam grzechy, doprowadzi was do życia wiecznego. 
 
 !Wszyscy odpowiadają: 
 Amen.
@@ -389,73 +387,31 @@ Amen.
 !Celebrans kontynuuje:
 v. Przebaczenia, + odpuszczenia i darowania grzechów niech wam udzieli wszechmogący i miłosierny Pan.
 !Wszyscy odpowiadają: 
-Amen. [^34]
+Amen. 
 
 ! Celebrans unosi jedną partykułę ponad kustodią lub pateną i, odwracając się do przyjmujących Komunię, na środku ołtarza, mówi:
-v. Oto Baranek Boży: oto, który gładzi grzechy świata. [^35]
+v. Oto Baranek Boży: oto, który gładzi grzechy świata. 
 
 !Wszyscy powtarzają trzykrotnie: 
 v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja.
 v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja.
-v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja. [^36]
+v. Panie, nie jestem godzien, abyś wszedł do przybytku mego, ale rzeknij tylko słowo, a będzie uzdrowiona dusza moja. 
 
 ! Następuje Komunia duchowieństwa i wiernych, którą rozdaje się ze zwykłymi obrzędami. Rozdaje się Hostie konsekrowane podczas Mszy Wielkiego Czwartku.
 _ 
 _
 v. Módlmy się.
 Prosimy Cię, Panie, niech obfite błogosławieństwo spłynie na Twój lud, który nabożnym umysłem rozważał mękę i śmierć Twego Syna: Odpuść mu winy, udziel pocieszenia, umocnij w świętej wierze i zapewnij wieczne zbawienie. Przez tegoż Chrystusa, Pana naszego.
-R. Amen. [^37]
+R. Amen. 
 _ `
 v. Módlmy się. 
 Wszechmogący i miłosierny Boże, któryś nas odkupił przez świętą mękę i śmierć Chrystusa, zachowaj dzieło Twego miłosierdzia, abyśmy przez udział w tej tajemnicy żyli zawsze dla Ciebie. Przez tegoż Chrystusa, Pana naszego.
-R. Amen. [^38]
+R. Amen. 
 _ `
 v. Módlmy się. 
 Pomnij, Panie, na Twe miłosierdzie i Swą odwieczną opieką prowadź do świętości Twoje sługi, dla których Chrystus, Syn Twój, ustanowił misterium wielkanocne we Krwi swojej. Przez tegoż Chrystusa, Pana naszego.
-R. Amen. [^39]
+R. Amen. 
 _
 _
 !! Część Piąta: Procesja do «Bożego Grobu»
 ! W Polsce i w kilku innych krajach przenosi się Najświętszy Sakrament do ołtarza przedstawiającego Boży Grób. Celebrans zmienia fioletowy ornat na fioletową kapę, umieszcza Najświętszy Sakrament w monstrancji, którą okrywa przejrzystym welonem, i procesjonalnie odnosi do «Bożego Grobu». W czasie procesji śpiewa się responsorium Recessit Pastor noster albo odpowiednią pieśń. Celebrans umieszcza Najświętszy Sakrament na tronie i okadza. Następnie przed wielkim ołtarzem odmawia się modlitwę wieczorną Kościoła [Kompletę], po czym obnaża się główny ołtarz. Wierni nawiedzają i adorują Najświętszy Sakrament aż do Wigilii Wielkanocnej.
-
-[Footnotes]
-[^1]: Deus, qui peccati veteris hereditariam mortem, in qua posteritatis genus omne successerat, Christi tui, Domini nostri, passione solvisti: da, ut, conformes eidem facti; sicut imaginem terrenae naturae necessitate portavimus, ita imaginem coelestis gratiae sanctificatione portemus. Per eundem Christum Dominum nostrum. R. Amen.
-[^2]: *Osee 6:1-6* Haec dicit Dominus: In tribulatione sua mane consurgent ad me: Venite, et revertamur ad Dominum: quia ipse cepit, et sanabit nos: percutiet, et curabit nos. Vivificabit nos post duos dies: in die tertia suscitabit nos, et vivemus in conspectu eius. Sciemus, sequemurque, ut cognoscamus Dominum: quasi diluculum praeparatus est egressus eius, et veniet quasi imber nobis temporaneus, et serotinus terrae. Quid faciam tibi Ephraim? quid faciam tibi Iuda? Misericordia vestra quasi nubes matutina, et quasi ros mane pertransiens. Propter hoc dolavi in prophetis, occidi eos in verbis oris mei: et iudicia tua quasi lux egredientur. Quia misericordiam volui, et non sacrificium, et scientiam Dei plus quam holocausta.
-[^3]: Domine, audivi auditum tuum, et timui: consideravi opera tua, et expavi. V. In medio duorum animalium innotesceris: dum appropinquaverint anni cognosceris: dum advenerit, tempus, ostenderis. V. In eo, dum conturbata fuerit anima mea: in ira, misericordiae memor eris. V. Deus a Libano veniet, et Sanctus de monte umbroso, et condenso. V. Operuit coelos maiestas eius: et laudis eius plena est terra. 
-[^4]: Oremus. V. Flectamus genua. R. Levate. Deus, a quo et Iudas reatus sui poenam, et confessionis suae latro praemium sumpsit, concede novis tuae propitiationis effectum: ut sicut in passione sua Iesus Christus Dominus noster diversa utrisque intulit stipendia meritorum; ita nobis, ablato vetustatis errore, resurrectionis suae gratiam largiatur: Qui tecum. 
-[^5]: *Exodus 12:1-11* In diebus illis: Dixit Dominus ad Moysen et Aaron in terra Aegypti: Mensis iste, vobis principium mensium: primus erit in mensibus anni. Loquimini ad universum coetum filiorum Israel, et dicite eis: Decima die mensis huius tollat unusquisque agnum per familias et domos suas. Sin autem minor est numerus, ut sufficere possit ad venscendum agnum, assumet vicinum suum qui iunctus est domui suae, iuxta numerum animarum quae sufficere possunt ad esum agni. Erit autem agnus absque macula, masculus, anniculus: iuxta quem ritum tolletis et haedum. Et servabitis eum usque ad quartamdecimam diem mensis huius: immolabitque eum universa multitudo filiorum Israel ad vesperam. Et sument de sanguine eius, ac ponent super utrumque postem, et in superliminaribus domorum, in quibus comedent illum. Et edent carnes nocte illa assas igni, et azymos panes cum lactucis agrestibus. Non comedetis ex eo crudum quid, nec coctum aqua, sed tantum assum igni: caput cum pedibus eius et intestinis vorabitis. Nec remanebit quidquam ex eo usque mane. Si quid residuum fuerit, igne comburetis. Sic autem comedetis illum: renes vestros accingetis, et calceamenta habebitis in pedibus, tenentes baculos in manibus, et comedetis festinanter: est enim Phase id est transitus Domini.
-[^6]: *Ps 139:2-10, 14* Eripe me, Domine, ab homine malo: a viro iniquo libera me. V. Qui cogitaverunt malitias in corde: tota die constituebant praelia. V. Acuerunt linguas suas sicut serpentis: venenum aspidum sub labiis eorum. V. Custodi me, Domine, de manu peccatoris: et ab hominibus iniquis libera me. V. Qui cogitaverunt supplantare gressus meos: absconderunt superbi laqueum mihi. V. Et funes extenderunt in laqueum pedibus meis, iuxta iter scandalum posuerunt mihi. V. Dixi Domino, Deus meus es tu: exaudi, Domine, vocem orationis meae. V. Domine, Domine virtus salutis meae obumbra caput meum in die belli. V. Ne tradas me a desiderio meo peccatori: cogitaverunt adversus me: ne derelinquas me, ne unquam exaltentur. V. Caput circuitus eorum: labor labiorum ipsorum operiet eos. V. Verumtamen iusti confitebuntur nomini tuo: et habitabunt recti cum vultu tuo.
-[^7]: Passio Domini nostri Iesu Christi secundum Ioannem. *Joannes 18:1-40; 19:1-42* In illo tempore: Egressus est Iesus cum discipulis suis trans torrentem Cedron, ubi erat hortus, in quem introivit ipse, et discipuli eius Sciebat autem et Iudas, qui tradebat eum, locum: quia frequenter Iesus convenerat illuc cum discipulis suis. Iudas ergo cum accepisset cohortem, et a pontificibus et pharisaeis ministros, venit illuc cum laternis, et facibus, et armis. Iesus itaque sciens omnia quae ventura erant super eum, processit, et dixit eis: J. Quem quaeritis? C. Responderunt ei: S. Iesum Nazarenum. C. Dicit eis Iesus: J. Ego sum. C. Stabat autem et Iudas, qui tradebat eum, cum ipsis. Ut ergo dixit eis: Ego sum: abierunt retrorsum, et ceciderunt in terram. Iterum ergo interrogavit eos: J. Quem quaeritis? C. Illi autem dixerunt, S. Iesum Nazarenum. C. Respondit Iesus: J. Dixi vobis, quia ego sum: si ergo me quaeritis, sinite hos abire. C. Ut impleretur sermo, quem dixit: Quia quos dedisti mihi, non perdidi ex eis quemquam. Simon ergo Petrus habens gladium eduxit eum: et percussit pontificis servum: et abscidit auriculam eius dexteram. Erat autem nomen servo Malchus. Dixit ergo Iesus Petro: J. Mitte gladium tuum in vaginam. Calicem, quem didit mihi Pater, non bibam illum? C. Cohors ergo, et tribunus, et ministri Iudaeorum comprehenderunt Iesum, et ligaverunt eum: et adduxerunt eum ad Annam primum; erat autem socer Caiphae, qui erat pontifex anni illius. Erat autem Caiphas, quo consilium dederat Iudaeis: Quia expedit unum hominem mori pro populo. Sequebatur autem Iesum Simon Petrus, et alius discipulus. Discipulus autem ille erat notus pontifici, et introivit cum Iesu in atrium pontificis. Petrus autem stabat ad ostium foris. Exivit ergo discipulus alius, qui erat notus pontifici, et dixit ostiariae: et introduxit Petrum. Dicit ergo Petro ancilla ostiaria: S. Numquid et tu ex discipulis es hominis istius? C. Dicit ille: S. Non sum. C. Stabant autem servi, et ministri ad prunas, quia frigus erat, et calefaciebant se. Erat autem cum eis et Petrus stans, et califaciens se. Pontifex ergo interrogavit Iesum de discipulis suis, et de doctrina eius. Respondit ei Iesus: J. Ego palam locutus sum mundo: ego semper docui in synagoga, et in templo, quo omnes Iudaei conveniunt: et in occulto locutus sum nihil. Quid me interrogas? interroga eos, qui audierunt quid locutus sim ipsis: ecce hi sciunt quae dixerim ego. C. Haec autem cum dixisset, unus assistens ministrorum dedit alapam Iesu, dicens: S. Sic respondes pontifici? C. Respondit ei Iesus: J. Si male locutus sum, testimonium perhibe de malo: si autem bene, quid me caedis? C. Et misit eum Annas ligatum ad Caipham pontificem. Erat autem Simon Petrus stans, et calefaciens se. Dixerunt ergo ei: S. Numquid et tu ex discipulis eius es? C. Negavit ille, et dixerit: S. Non sum. C. Dicit ei unus ex servis pontificis, cognatus eius, cuius abscidit Petrus auriculam: S. Nonne ego te vidi in horto cum illo? C. Iterum ergo negavit Petrus: et statim gallus cantavit. Adducunt ergo Iesum a Caipha in praetorium. Erat autem mane: et ipsi non introierunt in praetorium, ut non contaminarentur, sed ut manducarent pascha. Exivit ergo Pilatus ad eos foras, et dixit: S. Quam accusationem affertis adversus hominem hunc? C. Responderunt, et dixerunt ei: S. Si non esset hic malefactor, non tibi tradidissemus eum. C. Dixit ergo eis Pilatus: S. Accipite eum vos, et secundum legem vestram iudicate eum. C. Dixerunt ergo ei Iudaei: S. Nobis non licet interficere quemquam. C. Ut sermo Iesu impleretur, quem dixit, significans qua morte esset moriturus. Introivit ergo iterum in praetorium Pilatus et vocavit Iesum, et dixit ei: S. Tu es Rex Iudaeorum? C. Respondit Iesus: J. A temetipso hoc dicis, an alii dixerunt tibi de me? C. Respondit Pilatus: S. Numquid ego Iudaeus sum? Gens tua, et pontifices tradiderunt te mihi: quid fecisti? C. Respondit Iesus: J. Regnum meum non est de hoc mundo. Si ex hoc mundo esset regnum meum, ministri mei utique decertarent ut non traderer Iudaeis: nun autem regnum meum non est hinc. C. Dixit itaque est Pilatus: S. Ergo Rex es tu? C. Respondit Iesus: J. Tu dicis quia Rex sum ego. Ego in hoc natus sum, et ad hoc veni in mundum, ut testimonium perhibeam veritati: omnis, qui est ex veritate, audit vocem meam. C. Dicit ei Pilatus: S. Quid est veritas? C. Et cum hoc dixisset, iterum exivit ad Iudaeos, et dicit eis: S. Ego nullam invenio in eo causam. Est autem consuetudo vobis ut unum dimittam vobis in Pascha: vultis ergo dimittam vobis Regem Iudaeorum? C. Clamverunt ergo rursum omnes, dicentes: S. Non hunc, sed Barabbam. C. Erat autem Barabbas latro. Tunc ergo apprehendit Pilatus Iesum, et flagellavit. Et milites plectentes coronam de spinis, imposuerunt capiti eius: et veste purpurea circumdederunt eum. Et veniebant ad eum, et dicebant: S. Ave Rex Iudaeorum. C. Et dabant ei alapas. Exivit ergo iterum Pilatus foras, et dicit eis: S. Ecce adduco vobis eum foras, ut cognoscatis quia nullam invenio in eo causam. C. Exivit ergo Iesus portans coronam spineam, et purpureum vestimentum. Et dicit eis: S. Ecce homo. C. Cum ergo vidissent cum pontifices et ministri, clamabant, dicentes: S. Crucifige, crucifige eum. C. Dicit eis Pilatus: S. Accpipte eum vos, et crucifigite: ego enim non invenio in eo causam. C. Responderunt ei Iudaei: S. Nos legem habemus, et secundum legem debet mori, quia Filium Dei se fecit. C. Cum ergo audisset Pilatus hunc sermonem, magis timuit. Et ingressus est praetorium iterum: et dixit ad Iesum: S. Unde es tu? C. Iesus autem responsum non dedit ei. Dicit ergo ei Pilatus: S. Mihi non loqueris? Nescis quia potestatem habeo crucifigere te, et potestatem habeo dimittere te? C. Respondit Iesus: J. Non haberes potestatem adversum me ullam, nisi tibi datum esset desuper. Propterea qui me tradidit tibi, maius peccatum habet. C. Et exinde quaerebat Pilatus dimittere eum. Iudaei autem clamabant, dicentes: S. Si hunc dimittis, non es amicus Caesaris. Omnis enim qui se regem facit, contradicit Caesari. C. Pilatus autem cum audisset hos sermones, adduxit foras Iesum, et sedit pro tribunali, in loco qui dicitur Lithostrotos, hebraice autem Gabbatha. Erat autem Parasceve Paschae, hora quasi sexta, et dicit Iudaeis: S. Ecce Rex vester. C. Illi autem clamabant: S. Tolle, tolle, crucifige eum. C. Dicit eis Pilatus: S. Regem vestrum crucifigam? C. Responderunt pontifices: S. Non habemus regem, nisi Caesarem. C. Tunc ergo tradidit eis illum ut crucifigeretur. Susceperunt autem Iesum, et eduxerunt. Et baiulans sibi crucem, exivit in eum, qui dicitur Calvariae, locum, hebraice autem Golgotha: ubi crucifixerunt eum, et cum eo alios duos hinc et hinc, medium autem Iesum. Scripsit autem et titulum Pilatus: et posuit super crucem. Erat autem scriptum: Iesus Nazarenus, Rex Iudaeorum. Hunc ergo titulum multi Iudaeorum legerunt, quia prope civitatem erat locus ubi crucifixus est Iesus. Et erat scriptum hebraice, graece et latine. Dicebant ergo Pilato pontifices Iudaeorum: S. Noli scribere, Rex Iudaeorum, sed quia ipse dixit: Rex sum Iudaeorum. C. Respondit Pilatus: S. Quod scripsi, scripsi. C. Milites ergo cum crucifixissent eum, acceperunt vestimenta eius et fecerunt quatuor partes: unicuique militi partem, et tunicam. Erat autem tunica inconsutilis, desuper contexta per totum. Dixerunt ergo ad invicem: S. Non scindamus eam, sed sortiamur de illa cuius sit. C. Ut Scriptura impleretur, dicens: Partiti sunt vestimenta mea sibi: et in vestem meam miserunt sortem. Et milites quidem haec fecerunt. Stabant autem iuxta crucem Iesu mater eius, et soror matris eius Maria Cleophae, et Maria Magdalene. Cum videsset ergo Iesus matrem, et discipulum stantem, quem diligebat, dicit matri suae: J. Mulier, ecce filius tuus. C. Deinde dicit discipulo: J. Ecce mater tua. C. Et ex illa hora accepit eam discipulus in sua. Postea sciens Iesus quia omnia consummata sunt, ut consummaretur Scriptura, dixit: J. Sitio. C. Vas ergo erat positum aceto plenum. Illi autem spongiam plenam aceto, hyssopo circumponentes, obtulerunt ori eius. Cum ergo accepisset Iesus acetum, dixit: J. Consummatum est. C. Et inclinato capite, tradidit spiritum. *Hie genuflectitur, et pausatur aliquantulum.* Iudaei ergo quoniam Parasceve erat ut non remanerent in cruce corpora sabbato erat enim magnus dies ille sabbati) rogaverunt Pilaum, ut frangerentur eorum crura, et tollerentur. Venerunt ergo milites: et primi quidem fregerunt crura, et alterius qui crucifixus est cum eo. Ad Iesum autem cum venissent, ut viderunt eum iam mortuum, non fregerunt eius crura: sed unus militum lancea latus eius aperuit, et continuo exivit sanguis et aqua. Et qui vidit, testimonium perhibuit: et verum est testimonium eius. Et ille scit, quia vera dicit: ut et vos credatis. Facta sunt enim haec ut Scriptura impleretur: Os non comminuetis ex eo. Et iterum alia Scriptura dicit: Videbunt in quem transfixerunt. Post haec autem rogavit Pilatum Ioseph ab Arimathaea eo quod esset discipulus Iesu, occultus autem propter metum Iudaeorum, ut tolleret corpus Iesu. Et permisit Pilatus. Venit ergo, et tulit corpus Iesu. Venit autem et Nicodemus, qui venerat ad Iesum nocte primum, ferens mixturam myrrhae, et aloes, quasi libras centum. Acceperunt ergo corpus Iesu, et ligaverunt illud linteis cum aromatibus, sicut mos est Iudaeis sepelire. Erat autem in loco, ubi crucifixus est, hortus: et in horto monumentum novum, in quo nondum quisquam positus erat. Ibi ergo propter Parasceven Iudaeorum, quia iuxta erat monumentum, posuerunt Iesum.
-[^8]: Oremus, dilectissimi nobis, pro Ecclesia sancta Dei: ut eam Deus et Dominus noster pacificare, adunare, et custodire dignetur toto orbe terrarum: subiiciens ei principatus, et potestates: detque nobis quietam et tranquilam vitam degentibus, glorificare Deum Patrem omnipotentem. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, qui gloriam tuam omnibus in Christo gentibus revelasti: custodi opera misericordiae tuae; ut Ecclesia tua toto orbe diffusa, stabili fide in confessione tui nominis perseveret. Per eundem Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^9]: Oremus et pro beatissimo Papa nostro N., ut Deus et Dominus noster, qui elegit eum in ordine episcopatus, salvum atque incolumem custodiat Ecclesiae suae sanctae, ad regendum populum sanctum Dei. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, cuius iudicio universa fundantur: respice propitius ad preces nostras, et electum nobis Antistitem tua pietate conserva; ut christiana plebs, quae te gubernatur auctore, sub tanto pontifice, credulitatis suae meritis augeatur. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^10]: Oremus et pro omnibus Episcopis, Presbyteris, Diaconibus, Subdiaconibus, Acolythis, Exorcistis, Lectoribus, Ostiariis, Confessionibus, Virginibus, Viduis: et pro omni populi sancto Dei. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, cuius spiritu totum corpus Ecclesiae sanctificatur et regitur: exaudi nos pro universis ordinibus supplicantes; ut gratiae tuae munere, ab omnibus tibi gradibus fideliter serviatur. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate eiusdem Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^11]: Oremus et pro omnibus res publicas moderantibus, eorumque ministeriis et potestatibus: ut Deus et Dominus noster mentes et corda eorum secundum voluntatem suam dirigat ad nostram perpetuam pacem. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, in cuius manu sunt omnium potestates et omnium iura populorum: respice benignus ad eos, qui nos in potestate regunt; ut ubique terrarum, dextera tua protegente, et religionis integritas, et patriae securitas indesinenter consistat. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^12]: Oremus et pro catechumenis nostris: ut Deus et Dominus noster adaperiat aures praecordiorum ipsorum, ianuamque misericordiae; ut per lavacrum regenerationis accepta remissione omnium peccatorum, et ipsi inveniantur in Christo Iesu Domino nostro. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, qui Ecclesiam tuam nova semper prole foecundas: auge fidem et intellectum catechumenis nostris; ut renati fonte baptismatis, adoptionis tuae filiis aggregentur. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^13]: Oremus, dilectissimi nobis, Deum Patrem omnipotentem, ut cunctis mundum purget erroribus: morbos auferat: famem depellat: aperiat carceres: vincula dissolvat: peregrinantibus reditum: infirmantibus sanitatem: navigantibus portum salutis indulgeat. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, moestorum consolatio, laborantium fortitudo: perveniant ad te preces de quacumque tribulatione clamantium; ut omnes sibi in necessitatibus suis misericordiam tuam gaudeant affuisse. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^14]: Oremus et pro haereticis et schismaticis: ut Deus et Dominus noster eruat eos ab erroribus universis; et ad sanctam matrem Ecclesiam Catholicam atque Apostolicam revocare dignetur. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, qui salvas omnes, et neminem vis perire: respice ad animas diabolica fraude deceptas; ut omni haeretica pravitatae deposita, errantium corda resipiscant, et ad veritatis tuae redeant unitatem. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^15]: Orémus et pro Iudaeis: ut Deus et Dóminus noster áuferat velámen de córdibus eórum; ut et ipsi agnóscant Iesum Christum, Dóminum nostrum. S. Oremus. V. Flectamus genua. R. Levate. Omnípotens sempitérne Deus, qui étiam iudáicam perfídiam a tua misericórdia non repéllis: exáudi preces nostras, quas pro illíus pópuli obcæcatióne deférimus; ut, ágnita veritátis tuæ luce, quæ Christus est, a suis ténebris eruántur. Per eundem Dominum nostrum Iesum Christum filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia saecula saeculorum. R. Amen.
-[^16]: Oremus et pro paganis: ut Deus omnipotens auferat iniquitatem a cordibus eorum; ut relictis idolis suis, convertantur ad Deum vivum et verum, et unicum Filium eius Iesum Christum Deum et Dominum nostrum. S. Oremus. V. Flectamus genua. R. Levate. Omnipotens sempiterne Deus, qui non mortem peccatorum, sed vitam semper inquiris: suscipe pro vitam semper inquiris: suscipe propitius orationem nostram, et libera eos ab idolorum cultura; et aggrega Ecclesiae tuae sanctae ad laudem et gloriam nominis tui. Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^17]: V. Ecce lignum Crucis, in quo salus mundi pependit. R. Venite, adoremus. V. Ecce lignum Crucis, in quo salus mundi pependit. R. Venite, adoremus. V. Ecce lignum Crucis, in quo salus mundi pependit. R. Venite, adoremus.
-[^18]: V. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Quia eduxi te de terra Aegypti, parasti crucem Salvatori tuo. 
-[^19]: R. Agios o Theos! R. Sanctus Deus! R. Agios ischyros! R. Sanctus fortis! R. Agios athanatos, eleison imas. R. Sanctus immortalis, miserere nobis.
-[^20]: V. Quia eduxi te per desertum quadraginta annis, et manna cibavi te, et introduxi te in terram satis bonam: parasti Crucem Salvatori tuo.
-[^21]: R. Agios o Theos! R. Sanctus Deus! R. Agios ischyros! R. Sanctus fortis! R. Agios athanatos, eleison imas. R. Sanctus immortalis, miserere nobis.
-[^22]: V. Quid ultra debui facere tibi, et non feci? Ego quidem plantavi te vineam meam speciosissimam: et tu facta es mihi nimis amara: aceto namque sitim meam potasti: et lancea perforasti latus Salvatori tuo.
-[^23]: R. Agios o Theos! R. Sanctus Deus! R. Agios ischyros! R. Sanctus fortis! R. Agios athanatos, eleison imas. R. Sanctus immortalis, miserere nobis.
-[^24]: V. Ego propter te flagellavi Aegyptum cum primogenitus suis: et tu me flagellatum tradidisti. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego eduxi te de Aegypto, demerso Pharaone in Mare Rubrum: et tu me tradidisti principibus sacerdotum. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego ante te aperui mare: et tu aperuisti lancea latus meum. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego ante te praeivi in columna nubis: et tu me duxisti ad praetorium Pilati. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego te pavi manna per desertum: et tu me cecidisti alapis et flagellis. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego te potavi aqua salutis de petra: et tu me potasti felle, et aceto. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego propter te Chananaeorum reges percussi: et tu percussisti arundine caput meum. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego dedi tibi sceptrum regale: et tu dedisti capiti meo spineam coronam. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. V. Ego te exaltavi magna virtute: et tu me suspendisti in patibulo Crucis. R. Popule meus, quid feci tibi? aut in quo contristavi te? Responde mihi. 
-[^25]: Ant. Crucem tuam * adoramus, Domine: et sanctam resurrectionem tuam laudamus, et glorificamus: ecce enim propter lignum venit gaudium in universo mundo. Deus misereatur nostri, et benedicat nobis.
-[^26]: *Ps 66,2* Illuminet vultum suum super nos, et misereatur nostri. Ant. Crucem tuam * adoramus, Domine: et sanctam resurrectionem tuam laudamus, et glorificamus: ecce enim propter lignum venit gaudium in universo mundo. Deus misereatur nostri, et benedicat nobis.
-[^27]: Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine, * Dulce lignum, dulces clavos, Dulce pondus sustinet. *1 Hymnus* Pange, lingua, gloriosi, Lauream certaminis, Et super Crucis trophaeo Dic triumphum nobilem: Qualiter Redemptor orbis Immolatus vicerit. Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine. De parentis protoplasti Fraude Factor condolens, Quando pomi noxialis In necem morsu ruit: Ipse lignum tunc notavit. Damna ligni ut solveret. Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet. *1* Hoc opus nostrae salutis Ordo depoposcerat: Multiformis proditoris Ars ut artem falleret: Et medelam ferret inde, Hostes unde laeserat. Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine. *1* Quando venit ergo sacri Plenitudo temporis, Missus est ab arce Patris Natus, orbis Conditor: Atque ventre virginali Carne amictus prodiit. Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet. *1* Vagit infans inter arcta Conditus praesepia: Membra pannis involuta Virgo Mater alligat: Et Dei manus, pedesque Stricta cingit fascia. Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine. *1* Lustra sex qui iam peregit, Tempus implens corporis, Sponte libera Redemptor Passioni deditus, Agnus in Crucis levatur Immolandus stipite. Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet. *1* Felle potus ecce languet: Spina, clavi, lancea, Mite corpus perforarunt, Unda manat, et cruor: Terra, pontus, astra, mundus. Quo lavantur flumine! Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine. *1* Flecte ramos, arbor alta, Tensa lax viscera, Et rigor lentescat ille, Quem dedit nativitas: Et superni membra Regis Tende miti stipite. Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet. *1* Sola digna tu fuisti Ferre mundi victimam: Atque portum praeparare Arca mundo naufrago: Quam sacer cruor perunxit, Fusus Agni corpore. Ant. Crux fidelis, inter omnes Arbor una nobilis! Nulla silva talem profert, Fronde, flore, germine. *Conclusio numquam omittenda:* *1* Sempiterna sit beatae Trinitate gloria: Aequa Patri, Filioque; Par decus Paraclito: Unus Trinique nomen Laudet universitas. Amen. Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet. 
-[^28]: Adoramus te, Christe, et benedicimus tibi, quia per Crucem tuam redemisti mundum. Per lignum servi facti sumus, et per sanctam Crucem liberati sumus: fructus arboris seduxit nos, Filius Dei redemit nos. Salvator mundi, salva nos: qui per Crucem et Sanguinem tuum redemisti nos, auxiliare nobis, te deprecamur, Deus noster.
-[^29]: Libera nos, quǽsumus, Domine, ab omnibus malis, praeteritis, praesentibus, et futuris: et intercidente beata et gloriosa semper Virgine Dei Genetrice Maria, cum beatis Apostolis tuis Petro et Paulo, atque Andrea, et omnibus Sanctis, da propitius pacem in diebus nostris: ut ope misericordiae tuae adiuti, et a peccato simus semper liberi, et ab omni perturbatione securi. Per eumdem Christum Dominum nostrum Iesum Christum Filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. R. Amen.
-[^30]: Perceptio Corporis tui, Domine Iesu Christe, quod ego indignus sumere praesumo, non mihi proveniat in iudicium et condemnationem: sed pro tua pietate prosit mihi ad tutamentum mentis, et corporis, et ad medalem percipiendam. Qui vivis et regnas cum Deo Patre in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. Amen.
-[^31]: Domine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanabitur anima mea.
-[^32]: Corpus Domini nostri Iesu Christi custodiat animam meam in vitam aeternam. Amen.
-[^33]: Misereatur vestri omnipotens Deus, et, dimissis peccatis vestris, perducat vos ad vitam aeternam. R. Amen.
-[^34]: Indulgentiam, absolutionem ☩ et remissionem peccatorum vestrorum tribuat vobis omnipotens et misericors Dominus. R. Amen.
-[^35]: Ecce Agnus Dei, ecce qui tollit peccata mundi.
-[^36]: Domine, non sum dignus, ut intres sub tectum meum: sed tantum die verbo, et sanabitur anima mea
-[^37]: Oremus. Super populum tuum quǽsumus, Domine, qui passionem et mortem Filii tui devota mente recoluit, benedictio copiosa descendat, indulgentia veniat, consolatio tribuatur, fides sancta succrescat, redemptio sempiterna firmetur. Per eundem Christum Dominum nostrum. R. Amen.
-[^38]: Oremus. Omnipotens et misericors Deus, qui Christi tui beata passione et morte nos reparasti: conserva in nobis operam misericordiae tuae; ut huius mysterii participatione, perpetua devotione vivamus. Per eundem Christum Dominum nostrum. R. Amen.
-[^39]: Oremus. Reminiscere miserationum tuarum, Domine, et famulos tuos aeterna protectione sanctifica, pro quibus Christus, Filius tuus, per suum cruorem instituit paschale mysterium. Per eundem Christum Dominum nostrum. R. Amen.
- 
