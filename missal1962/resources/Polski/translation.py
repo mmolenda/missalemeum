@@ -69,7 +69,8 @@ section_labels = {
     'De altera parte Litaniarum': 'Druga Część Litanii',
     'De Missa solemni Vigiliae paschalis': 'Uroczysta Msza Rezurekcyjna',
     'Pro Laudibus': 'Laudes',
-    'Conclusio': 'Zakończenie'
+    'Conclusio': 'Zakończenie',
+    'Benedictio cinerum': 'Poświęcenie Popiołu'
 
 }
 

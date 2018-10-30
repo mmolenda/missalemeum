@@ -701,7 +701,8 @@ section_labels = {
     'De altera parte Litaniarum': 'De altera parte Litaniarum',
     'De Missa solemni Vigiliae paschalis': 'De Missa solemni Vigiliæ paschalis',
     'Pro Laudibus': 'Pro Laudibus',
-    'Conclusio': 'Conclusio'
+    'Conclusio': 'Conclusio',
+    'Benedictio cinerum': 'Benedictio cinerum'
 }
 
 section_labels_multi = {

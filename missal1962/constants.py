@@ -79,6 +79,8 @@ VISIBLE_SECTIONS = [
     'De renovatione promissionum baptismatis',
     'De altera parte Litaniarum',
     'De Missa solemni Vigiliae paschalis',
+    # Feria IV Cinerum
+    'Benedictio cinerum',
     # Common sections
     'Introitus',
     'Oratio',
