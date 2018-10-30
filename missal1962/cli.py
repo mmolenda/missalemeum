@@ -31,9 +31,9 @@ def calendar(year, language):
     def _print_all(missal):
         for date_, lit_day_container in missal.items():
             if date_.weekday() == 6:
-                print("---")
+                click.echo("---")
             if date_.day == 1:
-                print(f"\n\n=== {date_.month} ===\n")
+                click.echo(f"\n\n=== {date_.month} ===\n")
 
             collect = []
             padding = 40
@@ -47,18 +47,18 @@ def calendar(year, language):
                         repr_ = repr_[:padding - 3] + '…'
                     collect.append(repr_)
             te, ce, co = collect
-            print(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
-                  f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
+            click.echo(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
+                       f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
     missal = MissalFactory.create(year, language)
     _print_all(missal)
 
 
 def _print_proper(language, proper):
-    print(f'\n=== {language} ===\n')
+    click.echo(f'\n=== {language} ===\n')
     for section in proper.to_python():
-        print(f'\n== {section["label"]} ==')
-        print('\n'.join(section["body"]))
+        click.echo(f'\n== {section["label"]} ==')
+        click.echo('\n'.join(section["body"]))
 
 
 @click.command()
@@ -82,10 +82,10 @@ def date(date, language):
     missal = MissalFactory.create(date_object.year, language)
     lit_day_container = missal[date_object]
     vernacular, latin = lit_day_container.get_proper()
-    print(f'=== {date} ===')
-    print('tempora:', lit_day_container.get_tempora_name())
-    print('celebration:', lit_day_container.get_celebration_name())
-    print(vernacular.to_python()[0]['body'][0])
+    click.echo(f'=== {date} ===')
+    click.echo('tempora:', lit_day_container.get_tempora_name())
+    click.echo('celebration:', lit_day_container.get_celebration_name())
+    click.echo(vernacular.to_python()[0]['body'][0])
     _print_proper(language, vernacular)
     _print_proper('Latin', latin)
 
@@ -97,7 +97,7 @@ def search(search_string, language):
     titles = importlib.import_module(f'resources.{language}.translation')
     for id_, title in titles.titles.items():
         if search_string.strip().lower() in title.lower():
-            print(':'.join(id_.split(':')[:2]), title)
+            click.echo(':'.join(id_.split(':')[:2]), title)
 
 
 cli.add_command(calendar)

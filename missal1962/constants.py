@@ -68,6 +68,17 @@ VISIBLE_SECTIONS = [
     'Oratio Fidelium',
     'Crucis Adoratione',
     'CommunioQ',
+    # Quad6-5r, Sabbato Sancto
+    'Benedictio ignis',
+    'De benedictione cerei Paschalis',
+    'De solemni processione',
+    'De praeconio paschali',
+    'De lectionibus',
+    'De prima parte Litaniarum',
+    'De benedictione aquae baptismalis',
+    'De renovatione promissionum baptismatis',
+    'De altera parte Litaniarum',
+    'De Missa solemni Vigiliae paschalis',
     # Common sections
     'Introitus',
     'Oratio',
@@ -99,11 +110,13 @@ VISIBLE_SECTIONS = [
     'Secreta',
     'Commemoratio Secreta',
     'Prefatio',
+    'Pro Laudibus'  # Quad6-5r, Sabbato Sancto
     'Communicantes',
     'Communio',
     'CommunioP',
     'Postcommunio',
     'Commemoratio Postcommunio',
+    'Conclusio'  # Quad6-5r, Sabbato Sancto
     'Super populum',
     'Post Missam',  # Quad6-4r, Feria Quinta in Coena Domini
     'Denudatione altaris'  # Quad6-4r, Feria Quinta in Coena Domini

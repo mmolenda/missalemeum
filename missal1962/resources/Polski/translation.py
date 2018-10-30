@@ -56,7 +56,20 @@ section_labels = {
     'Passio': 'Pasja',
     'Oratio Fidelium': 'Część Druga: Uroczyste Modły zwane «Modlitwą Wiernych»',
     'Crucis Adoratione': 'Część Trzecia: Uroczysta Adoracja Krzyża',
-    'CommunioQ': 'Część Czwarta: Komunia Święta'
+    'CommunioQ': 'Część Czwarta: Komunia Święta',
+    # Quad6-5r, Sabbato Sancto
+    'Benedictio ignis': 'Poświęcenie nowego ognia',
+    'De benedictione cerei Paschalis': 'Poświęcenie Paschału',
+    'De solemni processione': 'Uroczysta Procesja',
+    'De praeconio paschali': 'Orędzie Wielkanocne',
+    'De lectionibus': 'Czytania',
+    'De prima parte Litaniarum': 'Pierwsza Część Litanii',
+    'De benedictione aquae baptismalis': 'Poświęcenie Wody Chrzcielnej',
+    'De renovatione promissionum baptismatis': 'Odnowienie Przyrzeczeń Chrztu Świętego',
+    'De altera parte Litaniarum': 'Druga Część Litanii',
+    'De Missa solemni Vigiliae paschalis': 'Uroczysta Msza Rezurekcyjna',
+    'Pro Laudibus': 'Laudes',
+    'Conclusio': 'Zakończenie'
 
 }
 

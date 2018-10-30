@@ -23,8 +23,7 @@ Chrystus Pan zmartwychwstał w nocy z soboty na niedzielę. Ta noc «prawdziwie 
 Wigilia, czyli Jutrznia Wielkanocna, ma szczególną budowę, ponieważ w tę najważniejszą noc roku kościelnego odbywa się z zasady Chrzest dorosłych i odnowienie obietnic na Chrzcie św. złożonych. Wedle nauki św. Pawła Chrzest św. dokonuje wszczepienia chrześcijanina w podobieństwo śmierci i zmartwychwstania Pańskiego. Dlatego w pierwszych wiekach Kościoła zabiegano o to, aby katechumeni rodzili się do życia łaski i przyjmowali pierwszą Komunię św. w noc Zmartwychwstania Pańskiego. Z Wigilią łączy się bezpośrednio uroczysta Msza Zmartwychwstania Pańskiego i skrócona modlitwa ranna Kościoła, tzw. Laudes.
 W ceremoniach Wigilii Wielkanocnej łatwo odróżniamy dwie części: 1) poświęcenie nowego światła i ogłoszenie Zmartwychwstania; 2) odrodzenie chrzestne. Uczestnicy Wigilii Wielkanocnej winni być zaopatrzeni w świece.
 
-[Prelude]
-!! Poświęcenie nowego ognia
+[Benedictio ignis]
 ! Aby nam dopomóc w poznaniu rzeczy niewidzialnych, Kościół zwykle posługuje się znakami materialnymi; gdy mamy przeżyć fundamentalną tajemnicę chrześcijaństwa, wprzęga w świętą akcję żywioły: ogień, światło i wodę. Liturgia tej nocy zmierza do tego, aby przez kontrast ciemności i światła, ognia i wody, bieli i fioletu uzmysłowić nam prawdę, że ze śmierci Chrystusa wytrysnęło nowe życie.
 ! W liturgii noc jest symbolem mocy szatana i śmierci. Chrystus zmartwychwstając pokonał szatana i śmierć, odnowił nasze życie nadprzyrodzone i dał nam rękojmię zmartwychwstania naszych ciał. Symbolem Chrystusa zmartwychwstałego jest wielkanocna świeca: paschał. Wśród uroczystych obrzędów poświęca się ogień, którym paschał ma być zapalony, a później samą świecę.
 
@@ -33,12 +32,12 @@ W ceremoniach Wigilii Wielkanocnej łatwo odróżniamy dwie części: 1) poświ�
 &DominusVobiscum
 v. Módlmy się.
 Boże, Ty przez Swojego Syna, który jest prawdziwym kamieniem węgielnym, udzieliłeś wiernym ognia Twojej światłości; po + święć ten nowy ogień wykrzesany z kamienia dla naszego użytku i przez te święta wielkanocne rozpal w nas niebiańskie pragnienia, abyśmy z czystym sercem mogli dostąpić świąt wiekuistej światłości. Przez tegoż Chrystusa, Pana naszego.
-R. Amen. [^1]
+R. Amen. 
 
 ! Celebrans kropi ogień święconą wodą i okadza.
 _
 _
-!! Poświęcenie Paschału
+[De benedictione cerei Paschalis]
 
 ! Jeden z ministrantów przynosi przed celebransa paschał. Celebrans żłobi rylcem na świecy paschalnej krzyż, pierwszą i ostatnią literę alfabetu greckiego oraz cztery cyfry bieżącego roku.
 
@@ -49,7 +48,7 @@ i Omega; (żłobi literę Ω pod pionowym ramieniem)
 Jego są czasy (żłobi pierwszą cyfrę bieżącego roku w lewym górnym rogu krzyża)
 i wieki; (żłobi drugą cyfrę bieżącego roku w prawym górnym rogu krzyża)
 Jemu chwała i panowanie (żłobi trzecią cyfrę bieżącego roku w lewym dolnym rogu krzyża)
-przez wszystkie wieki wieków. Amen. (żłobi czwartą cyfrę bieżącego roku w prawym dolnym rogu krzyża) [^2]
+przez wszystkie wieki wieków. Amen. (żłobi czwartą cyfrę bieżącego roku w prawym dolnym rogu krzyża) 
 _
 ! Następnie diakon lub ministrant podaje celebransowi pięć ziaren kadzidła. Jeżeli nie są one poświęcone, celebrans kropi je święconą wodą i okadza, po czym wkłada je w przygotowane otwory na końcu ramion oraz w przecięciu wyrytego krzyża jako symbol chwalebnych ran Chrystusowych.
 
@@ -57,23 +56,23 @@ Przez swoje święte rany
 chwalebne
 niech nas strzeże
 i zachowuje
-Chrystus Pan. Amen. [^3]
+Chrystus Pan. Amen. 
 _
 ! Diakon podaje następnie świecę zapaloną od poświęconego ognia, którą celebrans zapala paschał, mówiąc:
 
-v. Niech światło Chrystusa chwalebnie zmartwychwstałego rozproszy ciemności serca i umysłu naszego. [^4]
+v. Niech światło Chrystusa chwalebnie zmartwychwstałego rozproszy ciemności serca i umysłu naszego. 
 
 ! Potem celebrans poświęca paschał:
 
 &DominusVobiscum
 v. Módlmy się.
 Błagamy Cię, wszechmogący Boże, niechaj spłynie obfite błogo + sławieństwo Twoje na tę zapaloną świecę. O niewidzialny Dawco nowego życia, wejrzyj na ten płomień jaśniejący wśród nocy. Niech ofiara składana tej nocy rozbłyśnie tajemniczą jasnością Twojego światła. A na każdym miejscu, gdzie zostanie zaniesiony płomień ze świętego misterium, niech po usunięciu niegodziwych podstępów szatana okaże się potęgo Twojego majestatu. Przez Chrystusa, Pana naszego.
-R. Amen. [^5]
+R. Amen. 
 _
 ! Światła w kościele są zgaszone.
 _
 _
-!! Uroczysta Procesja
+[De solemni processione]
 ! Do ciemnego kościoła wnosi się paschał – symbol Chrystusa zmartwychwstałego. Procesja ze światłem to obrazowe przedstawienie Zmartwychwstania, wywodzące się z Jerozolimy. Duchowieństwo tamtejsze zamykało się w Grobie Pańskim i wychodziło z niego z symbolicznym światłem, podobnie jak Chrystus wyszedł z grobu w blasku chwały. Procesja z paschałem jest więc najstarszą formą procesji rezurekcyjnej.
 ! Przez swoje zmartwychwstanie Chrystus wkroczył w nowe, chwalebniejsze życie. To nowe życie od Chrystusa spływa przez Kościół na Jego wyznawców. Wyraża to inny niż zwykle porządek procesji.
 ! Na czele diakon ubrany w białą dalmatykę (lub sam celebrans) niesie paschał. Za nim postępuje duchowieństwo, na końcu wierni. Procesja zatrzymuje się trzy razy: przy wejściu, na środku kościoła i w środku prezbiterium. Po zatrzymaniu się procesji diakon stojąc unosi wysoko paschał i śpiewa w coraz wyższym tonie :
@@ -81,7 +80,7 @@ _
 V. Światło Chrystusa.
 
 ! Za każdym razem wszyscy klękają zwróceni w stronę paschału i odpowiadają:
-R. Bogu dzięki. [^6]
+R. Bogu dzięki. 
 
 ! Po pierwszym Lumen Christi zapala się świecę celebransa
 V. Światło Chrystusa.
@@ -95,13 +94,13 @@ R. Bogu dzięki.
 ! Diakon umieszcza paschał na świeczniku w środku prezbiterium.
 _
 _
-!! Orędzie Wielkanocne
+[De praeconio paschali]
 ! Teraz diakon bierze księgę i prosi o błogosławieństwo celebransa:
 
 Racz pobłogosławić, ojcze.
 
 ! Celebrans odpowiada:
-Pan niechaj będzie w sercu twoim i na wargach twoich: abyś godnie i należycie wygłosił wielkanocne orędzie: w imię Ojca i Syna + i Ducha Świętego. [^7]
+Pan niechaj będzie w sercu twoim i na wargach twoich: abyś godnie i należycie wygłosił wielkanocne orędzie: w imię Ojca i Syna + i Ducha Świętego. 
 
 ! Diakon odpowiada:
 
@@ -116,7 +115,7 @@ R. I z duchem twoim.
 V. W górę serca.
 R. Wznieśliśmy je ku Panu.
 V. Dzięki składajmy Panu Bogu naszemu.
-V. Godne to i sprawiedliwe. [^8]
+V. Godne to i sprawiedliwe. 
 
 v. Zaprawdę godne to i sprawiedliwe, abyśmy z całego serca i z całej duszy pełnym głosem sławili niewidzialnego Boga, Ojca wszechmogącego, oraz Jednorodzonego Syna Jego Jezusa Chrystusa, Pana naszego. On bowiem spłacił za nas Ojcu Przedwiecznemu dług Adama i krwią serdeczną zmazał dłużny zapis starodawnej winy.
 Te są bowiem święta paschalne, w czasie których zabija się owego prawdziwego Baranka, a Jego krwią poświęca podwoje wierzących.
@@ -134,12 +133,12 @@ O zaiste błogosławiona noc, która wydarła łupy Egipcjanom, wzbogaciła Hebr
 Prosimy Cię przeto, Panie, niech ta świeca poświęcona na chwałę Twojego imienia nieustannie płonie, aby rozproszyć mroki tej nocy. Przyjęta jako woń przyjemna, niechaj się złączy ze światłami nieba. Niechaj jej płomień zastanie ranny brzask Słońca, tego Słońca, które nie zna zachodu, które wróciwszy z otchłani pogodnie zajaśniało ludzkości.
 Błagamy Cię więc, o Panie, racz nam udzielić dni spokojnych i wśród tych wielkanocnych radości racz kierować i zachować w nieustannej opiece nas sługi Twoje, całe duchowieństwo i oddany Ci lud razem z Ojcem świętym papieżem N. i biskupem naszym N.
 Wejrzyj również na tych, którzy sprawują rządy nad nami, i w niewymownej Twojej dobroci i miłosierdziu kieruj ich myśli ku sprawiedliwości i pokojowi, aby po ziemskiej działalności przeszli do ojczyzny niebieskiej z całym Twym ludem. Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego, Bóg przez wszystkie wieki wieków.
-R. Amen. [^9]
+R. Amen. 
 
 ! Po skończeniu orędzia wielkanocnego wszyscy gaszą świece i siadają. Diakon wraca do celebransa i wkłada z powrotem szaty fioletowe.
 _
 _
-!! Czytania
+[De lectionibus]
 ! Następują czytania przygotowujące nas do poświęcenia wody chrzcielnej i odnowienia przyrzeczeń złożonych na Chrzcie świętym. Te czytania, wybrane z natchnionych kart Starego Testamentu, ukazują stopniowy rozwój dzieła Odkupienia i zapowiadają odrodzenie w Chrystusie.
 ! Lekcje czyta lektor, stojąc przy pulpicie na środku prezbiterium twarzą zwrócony do paschału. Wszyscy obecni słuchają siedząc. Na modlitwę wszyscy wstają. Na wezwanie diakona: Flectamus genua wszyscy klękają i modlą się w skupieniu. Gdy diakon zaśpiewa: Levate, wszyscy powstają i stoją w czasie modlitwy śpiewanej przez celebransa.
 
@@ -158,57 +157,57 @@ Tak stworzył Bóg człowieka na swe wyobrażenie, na wyobrażenie Boga go stwor
 Po czym błogosławił im mówiąc do nich: «Bądźcie płodni i rozmnażajcie się, abyście zaludnili ziemię i uczynili ją wam poddaną; abyście panowali nad rybami morskimi, nad ptactwem powietrznym i nad wszelką istotą żywą, która chodzi po ziemi».
 I rzekł Bóg: «Oto wam daję wszelką roślinę przynoszącą ziarno po całej ziemi i wszelkie drzewo, którego owoc ma w sobie nasienie; dla was będą one na pokarm. A dla wszelkiego zwierzęcia polnego i wszelkiego ptactwa powietrznego i dla wszelkiego płazu ziemnego, w którym jest pierwiastek życia, będzie na pokarm wszelka trawa zielona». I stało się tak. Bóg widział, że wszystko, co uczynił, było bardzo dobre. I tak upłynął wieczór i poranek – dzień szósty.
 W ten sposób zostały ukończone niebo i ziemia oraz wszystkie ich zastępy stworzeń.
-A gdy Bóg ukończył w dniu szóstym swe dzieło, nad którym był pracował, odpoczął dnia siódmego po całym swym trudzie, jaki podjął. [^10]
+A gdy Bóg ukończył w dniu szóstym swe dzieło, nad którym był pracował, odpoczął dnia siódmego po całym swym trudzie, jaki podjął. 
 _`
 v. Módlmy się. 
 V. Klęknijmy. 
 R. Wstańcie.
 Boże, który w przedziwny sposób stworzyłeś człowieka, a jeszcze dziwniej odkupiłeś, spraw, prosimy, abyśmy siłą ducha opierali się powabom grzechu i zasłużyli osiągnąć wieczne radości.
-$Per Dominum [^11]
+$Per Dominum 
 _
 _
 ! 2 Lekcja
 !Wj 14:24-31; 15:1
 !x! Przejście przez Morze Czerwone było warunkiem wyzwolenia Izraelitów z niewoli egipskiej i wprowadzenia do Ziemi Obiecanej. Jest to zapowiedź Chrztu świętego, który wyzwala chrześcijan z jarzma szatana i wprowadza ich do Kościoła świętego.
 W one dni: O czasie straży porannej spojrzał Pan ze słupa ognistego i z obłoku na wojsko Egipcjan i wprawił ich w zamieszanie: załamał koła ich wozów, tak że z trudem tylko posuwać się mogli. Rzekli więc Egipcjanie: «Uciekajmy przed Izraelem, albowiem Pan walczy w obronie ich przeciwko nam». I rzekł Pan do Mojżesza: «Wyciągnij rękę twoją na morze, by zawróciły wody na Egipcjan, na ich wozy i jezdnych!» A kiedy Mojżesz wyciągnął rękę ku morzu, zawróciło o wczesnym poranku na dawne miejsce, a uciekający Egipcjanie szli naprzeciw niemu. Tak pogrążył ich Pan w bałwanach morskich. Zawróciły wody i okryły wozy i jezdnych wszystkiego wojska faraonowego, które w pogoni [za Izraelem] weszło w morze; ani jeden z nich nie został. Synowie zaś Izraela szli po suchym dnie morza, a wody stanęły jak mur po prawej i po lewej ich stronie.
-Tak to dnia owego wyzwolił Pan Izraela z ręki Egipcjan. I widziano Egipcjan martwych na brzegu morskim i oglądano wielką potęgę, jakiej Pan użył przeciwko nim. Uląkł się tedy lud Pana i uwierzył Panu i Mojżeszowi, Jego słudze. Wtedy Mojżesz z synami Izraela wyśpiewał Panu pieśń następującą: [^12]
+Tak to dnia owego wyzwolił Pan Izraela z ręki Egipcjan. I widziano Egipcjan martwych na brzegu morskim i oglądano wielką potęgę, jakiej Pan użył przeciwko nim. Uląkł się tedy lud Pana i uwierzył Panu i Mojżeszowi, Jego słudze. Wtedy Mojżesz z synami Izraela wyśpiewał Panu pieśń następującą: 
 _`
 ! Pieśń
 !Wj 15:1-2
 Śpiewajmy Panu, bo bardzo się wsławił, konie i jeźdźców wtrącił w morze. Stał się wspomożycielem i obrońcą i wybawił mnie.
 V. On Bogiem moim, więc chwalić Go będę, Bogiem ojca mego, więc będę Go sławić.
-V. Pan wiedzie boje. PAN jest imię Jego. [^13]
+V. Pan wiedzie boje. PAN jest imię Jego. 
 _`
 v. Módlmy się. 
 V. Klęknijmy. 
 R. Wstańcie.
 Wiemy, o Boże, że i w naszych czasach jaśnieją Twe pradawne cuda. Dla zbawienia wszystkich narodów działasz dzisiaj przez wodę odrodzenia to, co uczyniłeś dla jednego narodu wybawiając go mocą Swojej prawicy z egipskiej niewoli. Spraw, aby cała ludzkość weszła do liczby synów Abrahama i dostąpiła godności wybranego ludu izraelskiego.
-$Per Dominum [^14]
+$Per Dominum 
 _
 _
 ! 3 Lekcja
 !Iz 4:2-6
 !x! Ocalona z pogromu cząstka Izraela stała się wybraną winnicą Bożą. Przez cierpienia Bóg oczyścił winy narodu i otoczył go troskliwą opieką. Podobnie spośród ludzkości Pan Bóg wybiera członków swojego Kościoła, który jest dzisiaj wybraną winnicą Bożą.
 W onym dniu będzie naród Pański okazałością i chwałą, a owoc ziemi zaszczytem i ozdobą dla tych, co ocaleją z Izraela. I stanie się: kto pozostanie na Syjonie i kto ostoi się w Jeruzalem, ten świętym będzie zwany, wszelki kto zapisany jest za życia w Jerozolimie.
-Gdy Pan obmyje brudy córek Syjonu i oczyści Jeruzalem z przelanej krwi podmuchem sądu i podmuchem pożaru, wtedy nad całym miejscem góry Syjon i nad miejscem jej zgromadzeń stworzy Pan obłok w dzień, a dym i blask ognia płonący w nocy. Bo ponad wszystkim chwała będzie dachem ochronnym i namiotem, aby za dnia dać cień od skwaru i służyć za schron i ukrycie przed deszczem i burzą. [^15]
+Gdy Pan obmyje brudy córek Syjonu i oczyści Jeruzalem z przelanej krwi podmuchem sądu i podmuchem pożaru, wtedy nad całym miejscem góry Syjon i nad miejscem jej zgromadzeń stworzy Pan obłok w dzień, a dym i blask ognia płonący w nocy. Bo ponad wszystkim chwała będzie dachem ochronnym i namiotem, aby za dnia dać cień od skwaru i służyć za schron i ukrycie przed deszczem i burzą. 
 _`
 ! Pieśń
 !Iz 5:1-2
 Winnicę miał mój przyjaciel na urodzajnym wzgórzu.
 V. I skopał ją, i oczyścił z kamieni, i zasadził w niej winorośl wyborną, i pośrodku wieżę zbudował.
-V. I wykuł tam także tłocznię. Winnicą Pana Zastępów jest dom Izraela. [^16]
+V. I wykuł tam także tłocznię. Winnicą Pana Zastępów jest dom Izraela. 
 _`
 v. Módlmy się. 
 V. Klęknijmy. 
 R. Wstańcie.
 Boże, Ty przez usta świętych Proroków objawiłeś wszystkim dzieciom swojego Kościoła, że na każdym miejscu Twego panowania zasiewasz dobre ziarno i pielęgnujesz wybrane latorośle; daj Twoim ludom, które nazwałeś winnicą i rolą, aby wykorzeniły ciernie i osty i przyniosły obfity plon.
-$Per Dominum [^17]
+$Per Dominum 
 _
 _
 ! 4 Lekcja
 !Pp 31:22-30
 !x! Do wszystkich gotujących się do Chrztu świętego i do wszystkich ochrzczonych kieruje Kościół św. ostatnie napomnienia Mojżesza, wzywającego lud, aby zachował wierność swojemu Bogu.
-W one dni napisał Mojżesz pieśń i nauczył jej synów Izraela. A Pan przykazał Jozuemu, synowi Nuna, mówiąc: «Bądź mężny i pełen otuchy, ty bowiem wprowadzisz synów Izraelowych do ziemi, którą im obiecałem; a Ja będę z tobą». Kiedy więc Mojżesz spisał słowa tego prawa w księdze aż do końca, taki dał rozkaz lewitom, którzy nosili skrzynię przymierza Pańskiego: «Weźmijcie tę księgę i połóżcie ją obok skrzyni przymierza Pana, Boga waszego; niech tam będzie na świadectwo przeciwko tobie, Izraelu. Znam ja przecie upór twój i kark twój bardzo twardy. Jeżeli za mojego życia, gdy ciągle byłem z wami, buntowaliście się przeciw Panu, cóż dopiero będzie po mojej śmierci? Zawołajcie więc do mnie wszystkich waszych starszych z każdego pokolenia i nauczycieli: chcę wobec nich wygłosić te słowa i wezwać niebo i ziemię na świadectwo przeciwko wam. Wiem dobrze, iż po mojej śmierci będziecie czynić przewrotnie i wkrótce zejdziecie z drogi, którą wam wskazałem. Dlatego też w niedługim czasie spotkają was nieszczęścia, gdy będziecie postępować źle wobec Pana i drażnić Go robotą rąk waszych». Słuchało tedy całe zgromadzenie Izraela, a Mojżesz wygłosił słowa tej pieśni aż do końca. [^18]
+W one dni napisał Mojżesz pieśń i nauczył jej synów Izraela. A Pan przykazał Jozuemu, synowi Nuna, mówiąc: «Bądź mężny i pełen otuchy, ty bowiem wprowadzisz synów Izraelowych do ziemi, którą im obiecałem; a Ja będę z tobą». Kiedy więc Mojżesz spisał słowa tego prawa w księdze aż do końca, taki dał rozkaz lewitom, którzy nosili skrzynię przymierza Pańskiego: «Weźmijcie tę księgę i połóżcie ją obok skrzyni przymierza Pana, Boga waszego; niech tam będzie na świadectwo przeciwko tobie, Izraelu. Znam ja przecie upór twój i kark twój bardzo twardy. Jeżeli za mojego życia, gdy ciągle byłem z wami, buntowaliście się przeciw Panu, cóż dopiero będzie po mojej śmierci? Zawołajcie więc do mnie wszystkich waszych starszych z każdego pokolenia i nauczycieli: chcę wobec nich wygłosić te słowa i wezwać niebo i ziemię na świadectwo przeciwko wam. Wiem dobrze, iż po mojej śmierci będziecie czynić przewrotnie i wkrótce zejdziecie z drogi, którą wam wskazałem. Dlatego też w niedługim czasie spotkają was nieszczęścia, gdy będziecie postępować źle wobec Pana i drażnić Go robotą rąk waszych». Słuchało tedy całe zgromadzenie Izraela, a Mojżesz wygłosił słowa tej pieśni aż do końca. 
 _`
 ! Pieśń
 !Pp 32:1-4
@@ -216,16 +215,16 @@ Słuchajcie, niebiosa, a będę mówił, niech słucha ziemia mowy ust moich.
 V. Niech spływa jak deszcz nauka moja i niech zstąpią jak rosa słowa moje.
 V. Jak ulewa na trawę i jak krople dżdżu na zioła, gdyż imię Pańskie opiewać będę.
 V. Oddajcie chwałę Bogu naszemu. Dzieła Boże są doskonałe, a wszystkie drogi Jego sprawiedliwe.
-V. Bóg wierny i bez skazy, Pan sprawiedliwy i święty. [^19]
+V. Bóg wierny i bez skazy, Pan sprawiedliwy i święty. 
 _`
 v. Módlmy się. 
 V. Klęknijmy. 
 R. Wstańcie.
 Boże, wielkości pokornych i mocy sprawiedliwych, Ty przez świętego sługę Swego Mojżesza chciałeś pouczyć Swój lud słowami świętej pieśni tak, aby to przypomnienie prawa stało się także dla nas nauką. Okaż Swą potęgę wszystkim narodom przez Ciebie usprawiedliwionym i obdarz je radością, łagodząc ich lęk. Odpuść im i zgładź wszystkie grzechy, aby zapowiedziana im kara zamieniła się w łaskę zbawienia.
-$Per Dominum [^20]
+$Per Dominum 
 _
 _
-!! Pierwsza Część Litanii
+[De prima parte Litaniarum]
 ! W najważniejszych swoich obrzędach Kościół wzywa zawsze wstawiennictwa Wszystkich Świętych. Czyni to również przystępując do poświęcenia wody chrzcielnej.
 
 V. Kyrie, eleison.
@@ -281,13 +280,13 @@ V. Święta Cecylio. R. Módl się za nami.
 V. Święta Agato. R. Módl się za nami.
 V. Święta Anastazjo. R. Módlcie się za nami.
 V. Wszystkie święte Dziewice i Wdowy. R. Módlcie się za nami.
-V. Wszyscy Święci i Święte Boże. R. Przyczyńcie się za nami. [^21]
+V. Wszyscy Święci i Święte Boże. R. Przyczyńcie się za nami. 
 
 ! W kościołach, które nie mają chrzcielnicy, po wezwaniu: Omnes Sancti et Sanctae Dei przystępuje się bezpośrednio do odnowienia przyrzeczeń złożonych na Chrzcie świętym.
 ! W kościołach katedralnych i parafialnych odbywa się na środku prezbiterium przed paschałem poświęcenie wody chrzcielnej.
 _
 _
-!! Poświęcenie Wody Chrzcielnej
+[De benedictione aquae baptismalis]
 &DominusVobiscum
 v. Módlmy się.
 Wszechmogący, wiekuisty Boże, bądź obecny w tych tajemnicach Twej wielkiej dobroci, bądź obecny w sakramentach i ześlij ducha przybrania, aby dać nowe życie ludowi, który rodzi się w źródle chrzcielnym. Spraw, aby poświęcenie, które ma się dokonać przez naszą niegodną posługę, otrzymało skuteczność dzięki Twojej mocy. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego, Bóg.
@@ -298,66 +297,66 @@ R. I z duchem twoim.
 V. W górę serca.
 R. Wznieśliśmy je ku Panu.
 V. Dzięki składajmy Panu, Bogu naszemu.
-R. Godne to i sprawiedliwe. [^22]
+R. Godne to i sprawiedliwe. 
 
 v. Zaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący wieczny Boże! Twoja niewidzialna moc nadaje sakramentom cudowną skuteczność i chociaż jesteśmy niegodni sprawować tak wielkie tajemnice, Ty nie zapominasz o darach Twej łaski i skłaniasz miłościwie ucho nawet ku naszym prośbom.
 Duch Twój, o Boże, unosił się nad wodami w samym zaraniu świata, aby już wtedy żywioł wody otrzymał zaczątek mocy uświęcania. Boże, Ty obmywając wodą zbrodnie występnego świata, potop uczyniłeś obrazem mającego nadejść odrodzenia przez Chrzest, ten sam bowiem żywioł wody w tajemniczy sposób kładzie kres występkom i stanowi początek cnót.
-Wejrzyj, Panie, na oblicze Kościoła Twojego i pomnóż w nim zastęp Twych dzieci. Ty rozweselasz królestwo Twoje obfitym strumieniem Swoich łask i otwierasz źródło chrzcielna do odrodzenia ludów pogańskich na całej kuli ziemskiej. Niech z woli Twego majestatu woda ta otrzyma łaskę Twego Jednorodzonego Syna z Ducha Świętego. [^23]
+Wejrzyj, Panie, na oblicze Kościoła Twojego i pomnóż w nim zastęp Twych dzieci. Ty rozweselasz królestwo Twoje obfitym strumieniem Swoich łask i otwierasz źródło chrzcielna do odrodzenia ludów pogańskich na całej kuli ziemskiej. Niech z woli Twego majestatu woda ta otrzyma łaskę Twego Jednorodzonego Syna z Ducha Świętego. 
 
 ! Kapłan czyni na wodzie znak krzyża.
 
 v. Niech Duch Święty przez tajemnicze działanie swej mocy uczyni płodną tę wodę przygotowaną do odrodzenia ludzi, aby z czystego łona tego Bożego źródła wynurzyło się niebiańskie pokolenie poczęte w świętości i zrodzone do nowego życia. Niech łaska jak matka zrodzi ich do jednego dziecięctwa, mimo różnic płci i wieku.
-Niech więc, o Panie, na Twój rozkaz precz stąd uchodzi wszelki duch nieczysty, niech precz odstąpi cała przewrotność zdradzieckiego szatana. Niech nie znajdzie tu przystępu wpływ wrażej mocy, niech nie krąży ona gotując zasadzki, niech się nie wkrada po kryjomu, niech się nie waży psuć i zarażać. [^24]
+Niech więc, o Panie, na Twój rozkaz precz stąd uchodzi wszelki duch nieczysty, niech precz odstąpi cała przewrotność zdradzieckiego szatana. Niech nie znajdzie tu przystępu wpływ wrażej mocy, niech nie krąży ona gotując zasadzki, niech się nie wkrada po kryjomu, niech się nie waży psuć i zarażać. 
 
 ! Kapłan dotyka wody ręką.
 
 v. Niech to święte i niewinne stworzenie będzie wolne od wszelkiej napaści przeciwnika i oczyszczone przez usunięcie wszelkiej nieprawości. Niech będzie źródłem życia, wodą odradzającą, falą oczyszczającą, aby wszyscy, którzy zostaną obmyci w tej zbawiennej kąpieli, otrzymali łaskę doskonałego oczyszczenia za sprawą Ducha Świętego.
-Przeto błogosławię cię, wodo, w imię Boga + żywego, w imię Boga + prawdziwego, w imię Boga + świętego, w imię Boga, który na początku słowem oddzielił cię od suchej ziem, którego Duch unosił się nad tobą. [^25]
+Przeto błogosławię cię, wodo, w imię Boga + żywego, w imię Boga + prawdziwego, w imię Boga + świętego, w imię Boga, który na początku słowem oddzielił cię od suchej ziem, którego Duch unosił się nad tobą. 
 
 ! Kapłan rozlewa wodę na cztery strony świata.
 
-v. On to sprawił, żeś wytrysnęła z rajskiego źródła i czterema strumieniami zrosiła całą ziemię; On to na puszczy, gdyś była gorzką, przemienił cię w słodką i zdatną do picia oraz wyprowadził cię ze skały dla napojenia spragnionego ludu. Błogo + sławię cię w imię Jezusa Chrystusa, Jego Jedynego Syna a Pana naszego, który w Kanie Galilejskiej przemienił cię w wino przedziwnym cudem swej potęgi. On to własnymi stopami chodził po tobie i w twoich falach został ochrzczony przez Jana w Jordanie. On cię wytoczył ze Swego boku razem z krwią, uczniom swoim kazał tobą chrzcić wierzących, mówiąc : «Idźcie i nauczajcie wszystkie narody, chrzcząc je w imię Ojca i Syna, i Ducha Świętego. [^26]
+v. On to sprawił, żeś wytrysnęła z rajskiego źródła i czterema strumieniami zrosiła całą ziemię; On to na puszczy, gdyś była gorzką, przemienił cię w słodką i zdatną do picia oraz wyprowadził cię ze skały dla napojenia spragnionego ludu. Błogo + sławię cię w imię Jezusa Chrystusa, Jego Jedynego Syna a Pana naszego, który w Kanie Galilejskiej przemienił cię w wino przedziwnym cudem swej potęgi. On to własnymi stopami chodził po tobie i w twoich falach został ochrzczony przez Jana w Jordanie. On cię wytoczył ze Swego boku razem z krwią, uczniom swoim kazał tobą chrzcić wierzących, mówiąc : «Idźcie i nauczajcie wszystkie narody, chrzcząc je w imię Ojca i Syna, i Ducha Świętego. 
 
 ! Kapłan zmienia ton i mówi czytając:
 
-Gdy będziemy spełniać to przykazanie, Ty, Boże wszechmogący, przybądź nam łaskawie z pomocą i w dobroci Twojej ześlij tchnienie Twego Ducha. [^27]
+Gdy będziemy spełniać to przykazanie, Ty, Boże wszechmogący, przybądź nam łaskawie z pomocą i w dobroci Twojej ześlij tchnienie Twego Ducha. 
 
 ! Kapłan tchnie trzykrotnie na wodę w kształcie krzyża i mówi:
 
-v. Pobłogosław tę czystą wodę tchnieniem Twoich ust, aby oprócz naturalnej właściwości oczyszczania ciał tych, którzy się nią myją, otrzymała moc oczyszczania dusz. [^28]
+v. Pobłogosław tę czystą wodę tchnieniem Twoich ust, aby oprócz naturalnej właściwości oczyszczania ciał tych, którzy się nią myją, otrzymała moc oczyszczania dusz. 
 
 ! Kapłan trzykrotnie zanurza paschał w wodzie i śpiewa w tonie prefacji:
 
-v. Niech moc Ducha Świętego zstąpi w wodę wypełniającą to źródło chrzcielne. [^29]
+v. Niech moc Ducha Świętego zstąpi w wodę wypełniającą to źródło chrzcielne. 
 
 ! Następnie trzymając paschał w wodzie kapłan tchnie trzykrotnie w wodę formując grecką literę Ψ, od której rozpoczyna się wyraz PSYCHE, to znaczy dusza.
 
-v. Niech zapłodni całą tę wodę dając jej moc odradzania. [^30]
+v. Niech zapłodni całą tę wodę dając jej moc odradzania. 
 
 ! Kapłan wyjmuje paschał z wody i śpiewa dalej:
 
-v. Niech tutaj zostaną obmyte zmazy grzechów. Niech tutaj natura stworzona na Twój obraz i przywrócona do pierwotnej godności zostanie oczyszczona od wszelkich zastarzałych brudów, aby każdy człowiek, który przystąpi do tego sakramentu odrodzenia, odżył jako nowe dziecko w prawdziwej niewinności. [^31]
+v. Niech tutaj zostaną obmyte zmazy grzechów. Niech tutaj natura stworzona na Twój obraz i przywrócona do pierwotnej godności zostanie oczyszczona od wszelkich zastarzałych brudów, aby każdy człowiek, który przystąpi do tego sakramentu odrodzenia, odżył jako nowe dziecko w prawdziwej niewinności. 
 
 ! Kapłan kończy prefację czytając:
 
 Przez Pana naszego Jezusa Chrystusa, Syna Twego, który przyjdzie sądzić żywych i umarłych i świat przez ogień.
-R. Amen. [^32]
+R. Amen. 
 _
 _
 ! Jeden z usługujących nabiera poświęconej wody do kropielnicy. Następnie kapłan wlewa do wody chrzcielnej Olej katechumenów, mówiąc:
 
 v. Niech Olej zbawienia uświęci tę wodę + i da jej moc odradzania na życie wieczne.
-R. Amen. [^33]
+R. Amen. 
 
 ! Kapłan wlewa Krzyżmo święte mówiąc:
 
 v. Wlanie Krzyżma Pana naszego Jezusa Chrystusa i Ducha Świętego Pocieszyciela niech się dokona w imię Trójcy Świętej.
-R. Amen. [^34]
+R. Amen. 
 
 ! Trzymając w rękach ampułki z Olejem katechumenów i Krzyżmem świętym, kapłan wlewa równocześnie oba oleje mówiąc:
 
 v. Zmieszanie Krzyżma uświęcającego, Oleju namaszczenia i wody chrzcielnej niechaj się dokona w imię Oj + ca i Sy + na i Ducha + Świętego.
-R. Amen [^35]
+R. Amen 
 _
 ! Jeżeli są jakieś osoby dorosłe lub dzieci do Chrztu, celebrans udziela tego sakramentu. Następnie odnosi się procesjonalnie poświęconą wodę do chrzcielnicy.
 ! W czasie procesji śpiewa się część psalmu 41:
@@ -366,27 +365,27 @@ _
 !Ps 41:2-4
 v. Jak jeleń spragniony dąży do strumieni wody, tak dusza ma tęskni za Tobą, Boże.
 V. Tęskni ma dusza za Bogiem żywym, kiedyż przyjdę i stanę przed Bożym obliczem?
-V. Łzy moje są mi pokarmem we dnie i w nocy, gdy mówią do mnie co dzień «Gdzież jest twój Bóg?» [^36]
+V. Łzy moje są mi pokarmem we dnie i w nocy, gdy mówią do mnie co dzień «Gdzież jest twój Bóg?» 
 
 ! Po umieszczeniu wody w chrzcielnicy celebrans śpiewa:
 
 &DominusVobiscum
 v. Módlmy się
 Wszechmogący, wieczny Boże, wejrzyj łaskawie na pobożność mającego się odrodzić ludu, który jak jeleń pragnie źródła Twoich wód; dozwól litościwie, aby pragnienie wiary uświęciło jego duszę i ciało przez sakrament Chrztu świętego. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego, Bóg przez wszystkie wieki wieków.
-R. Amen. [^37]
+R. Amen. 
 
 ! Celebrans okadza chrzcielnicę. Następnie duchowieństwo wraca do głównego ołtarza. Wszyscy zapalają swoje świece.
 _
 _
-!! Odnowienie Przyrzeczeń Chrztu Świętego
+[De renovatione promissionum baptismatis]
 ! Celebrans wkłada białą kapę i okadziwszy paschał stojąc przed nim lub na kazalnicy przemawia do wiernych:
 
 
-v. Najmilsi bracia, tej najświętszej nocy Kościół święty, Matka nasza, wspominając śmierć i pogrzeb Pana naszego Jezusa Chrystusa, czuwa, by Mu odpłacić miłością za miłość, obchodząc zaś Jego chwalebne Zmartwychwstanie, weseli się, pełen radości. [^38]
+v. Najmilsi bracia, tej najświętszej nocy Kościół święty, Matka nasza, wspominając śmierć i pogrzeb Pana naszego Jezusa Chrystusa, czuwa, by Mu odpłacić miłością za miłość, obchodząc zaś Jego chwalebne Zmartwychwstanie, weseli się, pełen radości. 
 
-v. Ponieważ zaś, jak uczy Apostoł, przez Chrzest zostaliśmy wespół z Chrystusem pogrzebani w śmierci Jego, przeto jak Chrystus powstał z martwych, tak i my powinniśmy chodzić w nowości żywota, wiedząc, że stary nasz człowiek został z Chrystusem wespół ukrzyżowany, abyśmy nadal nie służyli grzechowi. Zrozumiejmy więc, żeśmy umarli dla grzechu, a żyjemy dla Boga, w Chrystusie Jezusie, Panu naszym. [^39]
+v. Ponieważ zaś, jak uczy Apostoł, przez Chrzest zostaliśmy wespół z Chrystusem pogrzebani w śmierci Jego, przeto jak Chrystus powstał z martwych, tak i my powinniśmy chodzić w nowości żywota, wiedząc, że stary nasz człowiek został z Chrystusem wespół ukrzyżowany, abyśmy nadal nie służyli grzechowi. Zrozumiejmy więc, żeśmy umarli dla grzechu, a żyjemy dla Boga, w Chrystusie Jezusie, Panu naszym. 
 
-v. Dlatego, bracia najmilsi, po ukończeniu czterdziestodniowego postu, odnówmy przyrzeczenia Chrztu świętego, w którym niegdyś odrzekliśmy się ducha złego i spraw jego, oraz świata, będącego nieprzyjacielem Boga, a przyrzekliśmy służyć Bogu w świętym Kościele katolickim. [^40]
+v. Dlatego, bracia najmilsi, po ukończeniu czterdziestodniowego postu, odnówmy przyrzeczenia Chrztu świętego, w którym niegdyś odrzekliśmy się ducha złego i spraw jego, oraz świata, będącego nieprzyjacielem Boga, a przyrzekliśmy służyć Bogu w świętym Kościele katolickim. 
 
 A zatem:
 S. Czy odrzekacie się ducha złego?
@@ -401,17 +400,17 @@ S. Czy wierzycie w Jezusa Chrystusa, Syna Jego Jedynego, Pana naszego, narodzone
 O. Wierzymy.
 S. Czy wierzycie w Ducha Świętego, święty Kościół powszechny, Świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie i żywot wieczny?
 O. Wierzymy.
-S. Teraz zaś módlmy się do Boga wszyscy razem tak, jak nas nauczył modlić się Pan nasz Jezus Chrystus. [^41]
+S. Teraz zaś módlmy się do Boga wszyscy razem tak, jak nas nauczył modlić się Pan nasz Jezus Chrystus. 
 
-O. Ojcze nasz, któryś jest w niebie: święć się Imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie. Ale nas zbaw ode złego. [^42]
+O. Ojcze nasz, któryś jest w niebie: święć się Imię Twoje, przyjdź królestwo Twoje, bądź wola Twoja jako w niebie tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. I nie wódź nas na pokuszenie. Ale nas zbaw ode złego. 
 
 S. A Bóg wszechmogący, Ojciec Pana naszego Jezusa Chrystusa, który nas odrodził z wody i Ducha Świętego i który udzielił nam odpuszczenia grzechów, niechaj nas strzeże łaską Swoją w tymże Chrystusie Jezusie Panu naszym na życie wieczne.
-O. Amen. [^43]
+O. Amen. 
 
 ! Celebrans kropi wiernych wodą święconą.
 _
 _
-!! Druga Część Litanii
+[De altera parte Litaniarum]
 ! Po odnowieniu przyrzeczeń Chrztu świętego kantorzy śpiewają drugą część litanii do Wszystkich Świętych. Wierni klęcząc odpowiadają na wezwania. Paschał umieszcza się przy ołtarzu po stronie ewangelii, a celebrans i asystujący nakładają w zakrystii białe szaty do uroczystej Mszy Świętej.
 
 V. Bądź nam miłościw. R. Przepuść nam, Panie.
@@ -446,29 +445,29 @@ V. Baranku Boży, który gładzisz grzechy świata. R. Przepuść nam, Panie.
 V. Baranku Boży, który gładzisz grzechy świata. R. Wysłuchaj nas, Panie.
 V. Baranku Boży, który gładzisz grzechy świata. R. Zmiłuj się nad nami.
 V. Chryste, usłysz nas.
-R. Chryste, wysłuchaj nas. [^44]
+R. Chryste, wysłuchaj nas. 
 _
 _
-!! Uroczysta Msza Rezurekcyjna
+[De Missa solemni Vigiliae paschalis]
 ! Odnowiwszy w sobie łaskę Chrztu, który nas wszczepił w misterium śmierci i Zmartwychwstania Pańskiego, składamy ofiarę Mszy świętej, W tej Ofierze w sakramentalny sposób stanie się obecne misterium paschalne, to jest tajemnicze przejście Chrystusa przez śmierć do nowego życia.
 !Msza głosi chwałę Chrystusa Zmartwychwstałego (Gloria, Alleluja, ewangelia, prefacja) i dusz, które przez Chrzest święty rozpoczęły nowe życie (lekcja, kolekta, Hanc igitur).
 ! Pod koniec litanii kantorzy intonują uroczyste Kyrie, eleison w tonie wielkanocnym. 
 ! Celebrans udaje się do ołtarza i nie odmawiając modlitw u stopni okadza go w zwykły sposób.
 _
 _
-!!Kolekta
+[Oratio]
 
 
 Boże, który tę najświętszą noc uświetniasz chwałą Zmartwychwstania Pańskiego, zachowaj w nowych Twych dzieciach ducha przybrania, któregoś im użyczył: aby odnowieni na duchu i ciele mogli Ci służyć w nieskazitelności.
-$Per eundem [^45]
+$Per eundem 
 
 !x! Chrzest, który dał nam udział w zmartwychwstaniu, zobowiązuje nas do pielęgnowania nowego życia; żyjmy już odtąd jako zmartwychwstali, opromienieni nadzieją niebieskiej chwały.
 _
 _
-!! Lekcja 
+[Lectio]
 Czytanie z Listu świętego Pawła Apostoła do Kolosan.
 !Kol 3:1-4
-Bracia: Jeżeli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze jest, gdzie Chrystus siedzi po prawicy Boga. Starajcie się o to, co w górze jest, nie o to, co jest na ziemi. Umarliście bowiem, a życie wasze ukryte jest z Chrystusem w Bogu. Gdy ukaże się Chrystus, życie nasze, wtedy i wy ukażecie się razem z Nim w chwale. [^46]
+Bracia: Jeżeli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze jest, gdzie Chrystus siedzi po prawicy Boga. Starajcie się o to, co w górze jest, nie o to, co jest na ziemi. Umarliście bowiem, a życie wasze ukryte jest z Chrystusem w Bogu. Gdy ukaże się Chrystus, życie nasze, wtedy i wy ukażecie się razem z Nim w chwale. 
 _
 _
 !! Alleluja
@@ -489,36 +488,36 @@ _`
 ! Ps 117, 1
 V. Dziękujcie Panu, bo jest dobry, bo miłosierdzie Jego na wieki.
 
-!! Traktus
+[Tractus]
 
 ! Ps 116
 V. Chwalcie Pana, wszystkie narody, wysławiajcie Go, wszystkie ludy.
-V. Bo Jego miłosierdzie nad nami utwierdzone, a wierność Pańska trwa na wieki. [^47]
+V. Bo Jego miłosierdzie nad nami utwierdzone, a wierność Pańska trwa na wieki. 
 _
 _
-!! Ewangelia
+[Evangelium]
 
 ! Do śpiewania ewangelii nie niesie się świec, ponieważ przyświeca paschał.
 
 v. Ciąg dalszy + Ewangelii świętej według Mateusza.
 !Mt 28: 1-7
-A późno po szabacie, gdy świtało na pierwszy dzień tygodnia, przyszła Maria Magdalena i druga Maria obejrzeć grób. A oto stało się wielkie trzęsienie ziemi. Anioł bowiem Pański zstąpił z nieba i przystąpiwszy odsunął kamień i usiadł na nim. I było wejrzenie jego jako błyskawica, a szaty jego jako śnieg. A z bojaźni przed nim przerazili się strażnicy i stali się jakoby umarli. A odpowiadając Anioł rzekł niewiastom: «Nie bójcie się wy. Wiem bowiem, że szukacie Jezusa, który był ukrzyżowany. Nie masz Go tu, albowiem zmartwychwstał, jako zapowiedział. Pójdźcie, a oglądajcie miejsce, gdzie Pan był złożony. I idąc śpiesznie, powiedzcie uczniom Jego, że zmartwychwstał i oto zdąża przed wami do Galilei: tam Go ujrzycie. Otom wam zapowiedział». [^48]
+A późno po szabacie, gdy świtało na pierwszy dzień tygodnia, przyszła Maria Magdalena i druga Maria obejrzeć grób. A oto stało się wielkie trzęsienie ziemi. Anioł bowiem Pański zstąpił z nieba i przystąpiwszy odsunął kamień i usiadł na nim. I było wejrzenie jego jako błyskawica, a szaty jego jako śnieg. A z bojaźni przed nim przerazili się strażnicy i stali się jakoby umarli. A odpowiadając Anioł rzekł niewiastom: «Nie bójcie się wy. Wiem bowiem, że szukacie Jezusa, który był ukrzyżowany. Nie masz Go tu, albowiem zmartwychwstał, jako zapowiedział. Pójdźcie, a oglądajcie miejsce, gdzie Pan był złożony. I idąc śpiesznie, powiedzcie uczniom Jego, że zmartwychwstał i oto zdąża przed wami do Galilei: tam Go ujrzycie. Otom wam zapowiedział». 
 _
 _
 ! Nie odmawia się Credo, ani antyfony na ofiarowanie.
 
-!! Sekreta
+[Secreta]
 v. Prosimy Cię, Panie, przyjmij modlitwy wiernych wraz z darami ofiarnymi: aby ofiara, która wzięła początek w misterium paschalnym, za łaską Twoją stała się dla nas lekarstwem na wieczność.
-$Per Dominum [^49]
+$Per Dominum 
 _
 _
-!! Prefacja
+[Prefatio]
 ! Prefacja Wielkanocna
 v. Zaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza tej nocy uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.
-Przeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca: [^50]
+Przeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca: 
 _
 _
-!! Laudes
+[Pro Laudibus]
 
 ! Po Komunii wiernych chór zaczyna śpiewać Laudes: poranną modlitwę Kościoła, skróconą do jednego psalmu i kantyku.
 
@@ -532,7 +531,7 @@ Ant. Alleluja, alleluja, alleluja.
 ~(150:5) Chwalcie Go na dźwięcznych cymbałach, chwalcie na cymbałach brzęczących: * niech chwali Pana wszystko, co żyje.
 V. Chwała Ojcu, i Synowi, * i Duchowi Świętemu.
 R. Jak była na początku, teraz i zawsze, * i na wieki wieków. Amen.
-Ant. Alleluja, alleluja, alleluja. [^51]
+Ant. Alleluja, alleluja, alleluja. 
 _
 _
 ! Celebrans intonuje antyfonę do kantyku:
@@ -558,75 +557,19 @@ By oświecić tych, co siedzą w mrokach i w cieniu śmierci, * by skierować st
 Chwała Ojcu i Synowi * i Duchowi Świętemu.
 Jak była na początku, teraz i zawsze * i na wieki wieków. Amen.
 
-Ant. I bardzo rano, * w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja. [^52]
+Ant. I bardzo rano, * w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja. 
 _
 _
 ! Po powtórnym odśpiewaniu antyfony celebrans śpiewa:
 
 &DominusVobiscum
 
-!! Pokomunia
+[Postcommunio]
 
 Tchnij w nas, o Panie, Twojego Ducha miłości i w dobroci Swojej zjednocz tych, których nasyciłeś wielkanocnym Sakramentem.
-$Per Dominum eiusdem [^53]
+$Per Dominum eiusdem 
 _
 _
-!!Zakończenie
+[Conclusio]
 V. Idźcie, ofiara spełniona, alleluja, alleluja.
-R. Bogu dzięki, alleluja, alleluja. [^54]
-
-[Footnotes]
-[^1]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Orémus. Deus, qui per Fílium tuum, angulárem scílicet lápidem, claritátis tuæ ignem fidélibus contulísti: prodúctum e sílice, nostris profutúrum úsibus, novum hunc ignem sanctí ☩ fica: et concéde nobis, ita per hæc festa paschália cœléstibus desidériis inflammári; ut ad perpétuæ claritátis, puris méntibus, valeámus festa pertíngere. Per eúndem Christum Dóminum nostrum. R. Amen. 
-[^2]: Christus heri et hódie, r. Princípium et Finis, r. Alpha r. et Omega; r. Ipsíus sunt témpora r. et sǽcula; r. Ipsi gloria et imperium r. per universa æternitátis sǽcula. Amen. r. 
-[^3]: Per sua sancta vúlnera r. gloriósa r. custódiat r. et consérvet nos r. Christus Dóminus. Amen. 
-[^4]: Lumen Christi glorióse resurgéntis Díssipet ténebras cordis et mentis.
-[^5]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Orémus. Véniat, quǽsumus, omnípotens Deus, super hoc incénsum céreum larga tuæ bene ☩ dictiónis infúsio: et hunc noctúrnum splendórem invisíbilis regenerátor, inténde; ut non solum sacrifícium, quod hac nocte litátum est, arcána lúminis tui admixtióne refúlgeat; sed in quocúmque loco ex hujus sanctificatiónis mystério aliquid fúerit deportátum, expúlsa diabólicæ fraudis nequítia, virtus tuæ majestátis assístat. Per Christum Dóminum nostrum. R. Amen.  *Interim luminaria ecclesiæ exstinguuntur.*
-[^6]: V. Lumen Christi. R. Deo grátias.
-[^7]: Iube, domne, benedícere. Dóminus sit in corde tuo, et in lábiis tuis, ut digne et competénter annúntiem suum paschále præcónium: in nómine Patris, et Fílii, ☩ et Spíritus Sancti. Amen. 
-[^8]: Exsúltet iam Angélica turba coelórum: exsúltent divína mystéria: et pro tanti Regis victória tuba ínsonet salutáris. Gáudeat et tellus tantis irradiáta fulgóribus: et ætérni Regis splendóre illustráta, totíus orbis se séntiat amisísse calíginem. Lætétur et mater Ecclésia, tanti lúminis adornáta fulgóribus: et magnis populórum vócibus hæc aula resúltet. Quaprópter astántes vos, fratres caríssimi, ad tam miram huius sancti lúminis claritátem, una mecum, quæso, Dei omnipoténtis misericórdiam invocáte. Ut, qui me non meis méritis intra Levitárum númerum dignatus est aggregáre: lúminis sui claritátem infúndens, Cérei huius laudem implére perfíciat. Per Dominum nostrum Jesum Christum, Fílium suum: qui cum eo vivit et regnat in unitáte Spíritus Sancti Deus: Per omnia sǽcula sæculórum. R. Amen. V. Dóminus vobíscum. R. Et cum Spíritu tuo. V. Sursum corda. R. Habémus ad Dóminum. V. Grátias agámus Dómino Deo nostro. R. Dignum et iustum est. 
-[^9]: Vere dignum et iustum est, invísibilem Deum Patrem omnipoténtem Filiúmque eius unigénitum, Dominum nostrum Iesum Christum, toto cordis ac mentis afféctu et vocis ministério personáre. Qui pro nobis ætérno Patri Adæ débitum solvit: et véteris piáculi cautiónem pio cruóre detérsit. Hæc sunt enim festa paschália, in quibus verus ille Agnus occíditur, cuius sánguine postes fidelium consecrántur. Hæc nox est, in qua primum patres nostros, fílios Israël edúctos de Ægýpto, Mare Rubrum sicco vestígio transire fecísti. Hæc ígitur nox est, quæ peccatórum ténebras colúmnæ illuminatióne purgávit. Hæc nox est, quæ hódie per univérsum mundum in Christo credéntes, a vítiis sǽculi et calígine peccatórum segregátos, reddit grátiæ, sóciat sanctitáti. Hæc nox est, in qua, destrúctis vínculis mortis, Christus ab ínferis victor ascéndit. Nihil enim nobis nasci prófuit, nisi rédimi profuísset. O mira circa nos tuæ pietátis dignátio! O inæstimábilis diléctio caritátis: ut servum redimeres, Fílium tradidísti! O certe necessárium Adæ peccátum, quod Christi morte delétum est! O felix culpa, quæ talem ac tantum méruit habére Redemptórem! O vere beáta nox, quæ sola méruit scire tempus et horam, in qua Christus ab ínferis resurréxit! Hæc nox est, de qua scriptum est: Et nox sicut dies illuminábitur: Et nox illuminátio mea in deliciis meis. Huius ígitur sanctificátio noctis fugat scélera, culpas lavat: et reddit innocéntiam lapsis et mæstis lætítiam. Fugat ódia, concórdiam parat et curvat impéria.  In huius ígitur noctis grátia, súscipe, sancte Pater, incénsi huius sacrifícium vespertínum: quod tibi in hac Cérei oblatióne solémni, per ministrórum manus de opéribus apum, sacrosáncta reddit Ecclésia. Sed iam colúmnæ huius præcónia nóvimus, quam in honórem Dei rútilans ignis accéndit. Qui licet sit divísus in partes, mutuáti tamen lúminis detriménta non novit. Alitur enim liquántibus ceris, quas in substántiam pretiósæ huius lámpadis apis mater edúxit. O vere beáta nox, quæ exspoliávit Ægýptios, ditávit Hebrǽos! Nox, in qua terrénis cæléstia, humánis divína iungúntur.  Orámus ergo te, Dómine: ut Céreus iste in honórem tui nóminis consecrátus, ad noctis huius calíginem destruéndam, indefíciens persevéret. Et in odórem suavitátis accéptus, supérnis lumináribus misceátur. Flammas eius lúcifer matutínus invéniat. Ille, inquam, lúcifer, qui nescit occásum. Ille, qui regréssus ab ínferis, humáno géneri serénus illúxit. Precámur ergo te, Dómine: ut nos fámulos tuos, omnémque clerum, et devotíssimum pópulum: una cum beatíssimo Papa nostro N., et Antístite nostro N., quiéte témporum concéssa, in his paschálibus gáudiis, assídua protectióne régere, gubernáre et conserváre digneris. Réspice étiam ad eos, qui nos in potestáte regunt, et, ineffábili pietátis et misericórdiæ tuæ múnere, dírige cogitatiónes eórum ad iustítiam et pacem, ut de terréna operositáte ad cæléstem pátriam pervéniant cum omni populo tuo. Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus: per ómnia sǽcula sæculórum. R. Amen.
-[^10]: *Gen. 1:1-31; 2:1-2* In principio creavit Deus cælum et terram. Terra autem erat inanis et vacua, et tenebræ erant super faciem abyssi: et Spiritus Dei ferebatur super aquas. Dixitque Deus: Fiat lux. Et facta est lux. Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris. Appellavitque lucem Diem, et tenebras Noctem: factumque est vespere et mane, dies unus. Dixit quoque Deus: Fiat firmamentum in medio aquarum: et dividat aquas ab aquis. Et fecit Deus firmamentum, divisitque aquas quæ erant sub firmamento, ab his quæ erant super firmentum. Et factum est ita. Vocavit Deus firmamentum Cælum: et factum est vespere et mane, dies secundus. Dixit vero Deus: Congregentur aquæ, quæ sub cælo sunt, in locum unum: et appareat arida. Et factum est ita. Et vocavit Deus aridam, Terram, congregationisque aquarum appellavit Maria. Et vidit Deus quod esset bonum. Et ait: Germinet terra herbam virentem, et facientem semen, et lignum pomiferum faciens fructum iuxta genus suum, cuius semen in semetipso sit super terram. Et factum est ita. Et protulit terra herbam virentem, et facientem semen iuxta genus suum, lignumque faciens fructum, et habens unumquodque sementem secundum speciem suam. Et vidit Deus quod esset bonum. Et factum est vespere et mane, dies tertius. Dixit autem Deus: Fiant luminaria in firmamento cæli, et dividant diem ac noctem, et sint in signa et tempora, et dies et annos: ut luminent terram. Et factum est ita. Fecitque Deus duo luminaria magna: luminaria maius, ut præesset diei, et luminarie minus, ut præesset nocti: et stellas. Et posuit eas in firmamento cæli, ut lucerent super terram, et præessent diei ac nocti, et dividerent lucem ac tenebras. Et vidit Deus quod esset bonum. Et factum est vespere et mane, dies quartus. Dixit etiam Deus: Producant aquæ reptile animæ viventis, et volatile super terram sub firmamento cæli. Creavitque Deus cete grandia, et omnem animam viventem atque motabilem, quam produxerant aquæ in species suas, et omne volatile secundum genus suum. Et vidit Deus quod esset bonum. Benedixitque eis, dicens: Crescite, et multiplicamini, et replete aquas maris: avesque multiplicentur super terram. Et factum est vespere et mane, dies quintus. Dixit quoque Deus: Producat terra animam viventem in genere suo: iumenta, et reptilia, et bestias terræ secundum species suas. Factumque est ita. Et fecit Deus quod esset bonum, et ait: Faciamus hominem ad imaginem et similitudinem nostram: et præsit piscibus maris, et volatilibus cæli, et bestiis, universæque terræ, omnique reptili quod movetur in terra. Et creavit Deus hominem ad imaginem suam: ad imaginem Dei creavit illum, masculum et feminam creavit eos. Benedixitque illis Deus, et ait: Crescite et multiplicamini, et replete terram, et subiicite eam, et dominamini piscibus maris, et volatilibus cæli, et universis animantibus, quæ moventur super terram. Dixitque Deus: Ecce dedi vobis omnem herbam afferentem semen super terram, et universa ligna quæ habent in semetipsis sementum generis sui, ut sint vobis in escam: et cunctis animantibus terræ, omnique volucri cæli, et universis, quæ moventur in terra, et in quibus est anima vivens, ut habeant ad vescendum. Et factum est ita. Viditque Deus cuncta quæ fecerat: et erant valde bona. Et factum est vespere et mane, dies sextus. Igitur perfecti sunt cæli et terra, et omnis ornatus eorum. Complevitque Deus die septimo opus suum quod fecerat: et requievit die septimo ab universo opere quod patrarat.
-[^11]: Oremus. V. Flectamus genua. R. Levate. Deus, qui mirabiliter creasti hominem, et mirabilius redemisti: da nobis, quǽsumus, contra oblectamenta peccati, mentis ratione persistere; ut mereamur ad æterna gaudia pervenire. Per Dominum. 
-[^12]: *Exod 14:24-31; 15:1* In diebus illis: Factum est in vigilia matutina, et ecce respiciens Dominus super castra Aegyptiorum per columnam ignis et nubis, interfecit exercitum eorum: et subvertit rotas curruum, ferebanturque in profundum. Dixerunt ergo Aegyptii: Fugiamus Israëlem: Dominus enim pugnat pro eis contra nos. Et ait Dominus ad Moysen: Extende manum tuam super mare, ut revertantur aquæ ad Aegyptios super currus et equites eorum. Cumque extendisset Moyses manum contra mare, reversum est primo diluculo ad priorem locum: fugientibusque Aegyptiis occurrerunt aquæ, et involvit eos Dominus in mediis fluctibus. Reversæque sunt aquæ, et operuerunt currus et equites cuncti exercitus Pharaonis, qui sequentes ingressi fuerant mare: nec unus quidem superfuit ex eis. Filii autem Israël perrexerunt per medium sicci maris, et aquæ eis erant quasi pro muro a dextris et a sinistris: liberavitque Dominus in die illa Israël de manu Aegyptiorum. Et viderunt Aegyptios mortuos super littus maris, et manum magnam. quam exercuerat Dominus contra eos: timuitque populus Dominum, et crediderunt Domino, et Moysi servo eius. Tunc cecinit Moyses, et filii Israël carmen hoc Domino, et dixerunt:
-[^13]: *Exod 15:1-2* Cantemus Domino: gloriose enim honorificatus est: equum et ascensorum proiecit in mare: adiutor, et protector factus est mihi in salutem. V. Hic Deus meus, et honorificabo eum: Deus patris mei, et exaltabo eum. V. Dominus conterens bella: Dominus nomen est illi. 
-[^14]: Oremus. V. Flectamus genua. R. Levate. Deus, cuius antiqua miracula etiam nostris sæculis coruscare sentimus: dum quod uni populo, a persecutione Aegyptiaca liberando, dexteræ tuæ potentia contulisti, id in salutem gentium per aquam regenerationis operaris: præsta; ut in Abrahæ filios, et in Israëliticam dignitatem, totius mundi transeat plenitudo. Per Dominum.
-[^15]: *Isa 4:2-6* In die illa erit germen Domini in magnificentia, et gloria, et fructus terræ sublimis, et exultatio his, qui salvati fuerint de Israël. Et erit: Omnis qui relictus fuerit in Sion, et residuus in Ierusalem, sanctus vocabitur, omnis qui scriptus est in vita in Ierusalem. Si abluerit Dominus sordes filiarum Sion, et sanguinem Ierusalem laverit de medio eius, in spiritu iudicii, et spiritu ardoris. Et creabit Dominus super omnem locum montis Sion, et ubi invocatus est, nubem per diem, et fumum, et splendorem ignis flammantis in nocte: super omnem enim gloriam protectio. Et tabernaculum erit in umbraculum diei ab æstu, et in securitatem, et absconsionem a turbine, et a pluvia.
-[^16]: *Isa 5:1-2* Vinea facta est dilecto in cornu, in loco uberi. V. Et maceriam circumdedit, et circumfodit: et plantavit vineam Sorec: et ædificavit turrim in medio eius. V. Et torcular fodit in ea: vinea enim Domini Sabaoth, domus Israël est.
-[^17]: Oremus. V. Flectamus genua. R. Levate. Deus, qui in omnibus Ecclesiæ tuæ filiis sanctorum prophetarum voce manifestasti, in omni loco dominationis tuæ, satorem te bonorum seminum, et electorum palmitum esse cultorem: tribue populis tuis, qui et vinearum apud te nomine censentur, et segetum; ut, spinarum et tribulorum squalore resecato, digna efficiantur fruge fecundi. Per Dominum. 
-[^18]: *Deut 31:22-30* In diebus illis: Scripsit ergo Moyses canticum et docuit filios Israël. Præcepitque Dominus Iosue filio Nun et ait: Confortare, et esto robustus: tu enim introduces filios Israël in terram, quam pollicitus sum, et ego ero tecum. Postquam ergo scripsit Moses verba legis huius in volumine, atque conplevit: præcepit Levitis, qui portabant arcam foederis Domini dicens: Tollite librum istum, et ponite eum in latere arcæ foederis Domini Dei vestri: ut sit ibi contra te in testimonium. Ego enim scio contentionem tuam, et cervicem tuam durissimam. Adhuc vivente me, et ingrediente vobiscum, semper contentiose egistis contra Dominum: quanto magis cum mortuus fuero? Congregate ad me omnes maiores natu per tribus vestras, atque doctores, et loquar audientibus eis sermones istos, et invocabo contra eos cælum et terram. Novi enim quod post mortem meam inique agetis, et declinabitis cito de via, quam præcepi vobis: et occurrent vobis mala in extremo tempore, quando feceritis malum in conspectu Domini, ut irritetis eum per opera manuum vestrarum. Locutus est ergo Moyses, audiente universo coetu Israël, verba carminis huius, et ad finem usque conplevit: 
-[^19]: *Deut. 32:1-4* Attende, cælum, et loquar: et audiat terra verba ex ore meo. V. Exspectetur sicut pluvia eloquium meum: et descendant sicut ros verba mea, sicut imber super gramina. V. Et sicut nix super fænum: quia nomen Domini invocabo. V. Date magnitudinem Deo nostro: Deus, vera opera eius, et omnes viæ eius iudicia. V. Deus fidelis, in quo non est iniquitas: iustus et sanctus Dominus.
-[^20]: Oremus. V. Flectamus genua. R. Levate. Deus, celsitudo humilium et fortitudo rectorum, qui per sanctum Moysen puerum tuum, ita erudire populum tuum sacri carminis tui decantatione voluisti, ut illa legis iteratio fieret etiam nostra directio: excita in omnem iustificatarum gentium plenitudinem potentiam tuam, et da lætitiam, mitigando terrorem; ut, omnium peccatis tua remissione deletis, quod denuntiatum est in ultionem, transeat in salutem. Per Dominum.
-[^21]: V. Kýrie eléison. R. Kýrie eléison. V. Christe eléison. R. Christe eléison. V. Kýrie eléison. R. Kýrie eléison. V. Pater de cǽlis, Deus. R. Miserére nobis. V. Fili Redémptor mundi, Deus. R. Miserére nobis. V. Spíritus Sancte, Deus. R. Miserére nobis. V. Sancta Trínitas, unus Deus. R. Miserére nobis. V. Sancta María. R. Ora pro nobis. V. Sancta Dei Génetrix. R. Ora pro nobis. V. Sancta Virgo vírginum. R. Ora pro nobis. V. Sancte Míchaël. R. Ora pro nobis. V. Sancte Gábriel. R. Ora pro nobis. V. Sancte Ráphaël. R. Ora pro nobis. V. Omnes sancti Angeli et Archángeli. R. Oráte pro nobis. V. Omnes sancti beatórum Spirítuum órdines. R. Oráte pro nobis.  V. Sancte Ioánnes Baptísta. R. Ora pro nobis. V. Sancte Ioseph. R. Ora pro nobis. V. Omnes sancte Patriárchæ et Prophétæ. R. Oráte pro nobis.  V. Sancte Petre. R. Ora pro nobis. V. Sancte Paule. R. Ora pro nobis. V. Sancte Andréa. R. Ora pro nobis. V. Sancte Ioánnes. R. Ora pro nobis. V. Omnes sancti Apóstoli et Evangelístæ. R. Oráte pro nobis. V. Omnes sancti Discípuli Dómini. R. Oráte pro nobis.  V. Sancte Stéphane. R. Ora pro nobis. V. Sancte Laurénti. R. Ora pro nobis. V. Sancte Vincénti. R. Ora pro nobis. V. Omnes sancti Mártyres. R. Oráte pro nobis. V. Sancte Silvéster. R. Ora pro nobis. V. Sancte Gregóri. R. Ora pro nobis. V. Sancte Augustíne. R. Ora pro nobis. V. Omnes sancti Pontífices et Confessóres. R. Oráte pro nobis. V. Omnes sancti Doctóres. R. Oráte pro nobis.  V. Sancte Antóni. R. Ora pro nobis. V. Sancte Benedícte. R. Ora pro nobis. V. Sancte Domínice. R. Ora pro nobis. V. Sancte Francísce. R. Ora pro nobis. V. Omnes sancti Sacerdótes et Levítæ. R. Oráte pro nobis. V. Omnes sancti Mónachi et Eremítæ. R. Oráte pro nobis.  V. Sancta María Magdaléna. R. Ora pro nobis. V. Sancta Agnes. R. Ora pro nobis. V. Sancta Cæcília. R. Ora pro nobis. V. Sancta Agatha. R. Ora pro nobis. V. Sancta Anastásia. R. Ora pro nobis. V. Omnes sanctæ Vírgines et Víduæ. R. Oráte pro nobis. V. Omnes Sancti et Sanctæ Dei. R. Intercédite pro nobis. 
-[^22]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Orémus. Omnípotens sempitérne Deus, adésto magnæ pietátis tuæ mystériis, adésto sacraméntis: et ad recreándos novos pópulos, quos tibi fons baptismátis párturit, spíritum adoptiónis emítte ; ut, quod nostræ humilitátis geréndum est ministério, virtútis tuæ impleátur efféctu. Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus: Per ómnia sǽcula sæculórum. R. Amen. V. Dóminus vobíscum. R. Et cum spíritu tuo. V. Sursum corda. R. Habémus ad Dóminum. V. Grátias agámus Dómino Deo nostro. R. Dignum et iustum est. 
-[^23]: Vere dignum et iustum est, æquum et salutare, nos tibi semper et ubique gratias agere, Domine, sancte Pater, omnipotens æterne Deus: qui invisibili potentia, sacramentorum tuorum mirabiliter operaris effectum: et licet nos tantis mysteriis exsequendis simus indigni: tu tamen gratiæ tuæ dona non deserens, etiam ad nostras preces aures tuæ pietatis inclinas. Deus, cuius Spiritus super aquas inter ipsa munda primordia ferebatur: ut iam tunc virtutem sanctificationis, aquarum natura conciperet. Deus, qui nocentis mundi crimina per aquas abluens, regenerationis speciem in ipsa diluvii effusione signasti: ut, unius eiusdemque elementi mysterio, et finis esset vitiis, et origo virtutibus. Respice, Domine, in faciem Ecclesiæ tuæ, et multiplica in ea regenerationes tuas, qui gratiæ tuæ affluentis impetu lætificas civitatem tuam: fontemque baptismatis aperis toto orbe terrarum gentibus innovandis: ut, tuæ maiestatis imperio, sumat Unigeniti tui gratiam de Spiritu Sancto.
-[^24]: Qui hanc aquam, regenerandis hominibus præparatam, arcana sui numinis admixtione fecundet: ut, sanctificatione concepta, ab immaculato divini fontis utero, in novam renata creaturam, progenies cælestis emergat: et quos aut sexus in corpore, aut ætas discernit in tempore, omnes in unam pariat gratia mater infantiam. Procul ergo hinc, iubente te, Domine, omnis spiritus immundus abscedat: procul tota nequitia diabolicæ fraudis absistat. Nihil hoc loci habeat contrariæ virtutis admixtio: non insidiando cicumvolet: non latendo subrepat: non inficiendo corrumpat.
-[^25]: Sit hæc sancta et innocens creatura, libera ab omni impugnatoris incursu, et totius nequitiæ purgata discessu. Sit fons vivus, aqua regenerans, unda purificans: ut omnes hoc lavacro salutifero diluendi, operante in eis Spiritu Sancto, perfectæ purgationis indulgentiam consequantur. Unde benedico te, creatura aquæ, per Deum ☩ vivum, per Deum ☩ verum, per Deum ☩ sanctum: per Deum, qui te, in principio, verbo separavit ab arida: cuius Spiritus super te ferebatur.
-[^26]: Qui te paradisi fonte manare fecit, et in quatuor fluminibus totam terram rigare præcepit. Qui te in deserto amaram, suavitate indita, fecit esse potabilem, et sitienti populo de petra produxit. Bene ☩ dico te et per Iesum Christum Filium eius unicum, Dominum nostrum: qui te in Cana Galilææ signo admirabili, sua potentia convertit in vinum. Qui pedibus super te ambulavit: et a Ioanne in Iordane in te baptizatus est. Qui te una cum sanguine de latere suo produxit: et discipulis suis iussit, ut credentes baptizarentur in te, dicens: Ite, docete omnes gentes, baptizantes eos in nomine Patris, et Filii, et Spiritus Sancti.
-[^27]: Hæc nobis præcepta servantibus tu, Deus omnipotens, clemens adesto: tu benignus aspira. 
-[^28]: Tu has simplices aquas tuo ore benedicito: ut præter naturalem emundationem, quam lavandis possunt adhibere corporibus, sint etiam purificandis mentibus efficaces.
-[^29]: Descendat in hanc plenitudinem fontis virtus Spiritus Sancti.
-[^30]: Totamque huius aquæ substantiam, regenerandi fecundet effectu.
-[^31]: Hic omnium peccatorum maculæ deleantur: hic natura ad imaginem tuam condita, et ad honorem sui reformata principii, conctis vetustatis squaloribus emundetur: ut omnis homo, sacramentum hoc regenerationis ingressus, in veræ innocentiæ novam infantium renascatur.
-[^32]: Per Dominum nostrum Iesum Christum Filium tuum: qui venturus est iudicare vivos et mortuos, et sæculum per ignem. R. Amen.
-[^33]: Sanctificetur ☩ et fecundetur fons iste Oleo salutis renascentibus ex eo, in vitam æternam. R. Amen.
-[^34]: Infusio Chrismatis Domini nostri Iesu Christi, et Spiritus Sancti Paracliti, fiat in nomine santæ Trinitatis. R. Amen.
-[^35]: Commixtio Chrismatis sanctificationis, et Olei unctionis, et aquæ baptismatis, pariter fiat in nomine Pa ☩ tris, et Fi ☩ lii, et Spiritus ☩ Sancti. R. Amen.
-[^36]: *Ps 41:2-4* Sicut cervus desiderat ad fontes aquarum: ita desiderat anima mea ad te, Deus. V. Sitivit anima mea ad Deum vivum, quando veniam, et apparebo ante faciem Dei? V. Fuerunt mihi lacrymæ meæ panes die ac nocte, dum dicitur mihi per singulos dies: Ubi est Deus tuus? 
-[^37]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Oremus Omnipotens sempiterne Deus, respice propitius ad devotionem populi renascentis, qui sicut cervus, aquarum tuarum expetit fontem: et concede propitius; ut fidei ipsius sitis, baptismatis mysterio, animam corpusque sanctificet. Per Dominum nostrum Iesum Christum, qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia sǽcula sæculórum. R. Amen.
-[^38]: Hac sacratissima nocte, fratres carissimi, sancta Mater Ecclesia, recolens Domini nostri Iesu Christi mortem ei sepulturam, eum redamando vigilat; et, celebrans eiusdem gloriosam resurrectionem, lætabunda gaudet.
-[^39]: Quoniam vero, ut docet Apostolus, consepulti sumus cum Christo per baptismum in mortem, quomodo Christus resurrexit a mortuis, ita et nos in novitate vitæ oportet ambulare; scientes, veterem hominem nostrum simul cum Christo crucifixem esse, ut ultra non serviamus peccato. Existimemus ergo nos mortuos quidem esse peccato, viventis autem Deo in Christo Iesu Domino nostro.
-[^40]: Quapropter, fratres carissimi, quadragesimali exercitatione absoluta, sancti baptismatis promissionis renovemus, quibus olim satanæ et operibus eius, sicut et mundo, qui inimicus est Dei, abrenuntiavimus, et Deo in sancta Ecclesia catholica fideliter servire promisimus.  
-[^41]: Itaque: S. Abrenuntiatis Satanæ? O. Abrenuntiamus. S. Et omnibus operibus eius? O. Abrenuntiamus. S. Et omnibus pompis eius? O. Abrenuntiamus. S. Creditis in Deum, Patrem omnipotentem, Creatorem coeli et terræ? O. Credimus. S. Creditis in Iesum Christum, Filium eius unicum, Dominum nostrum, natum et passum? O. Credimus. S. Creditis et in Spiritum Sanctum, sanctam Ecclesiam catholicam, Sanctorum communionem, remissionem peccatorem, carnis resurrectionem, et vitam æternam? O. Credimus. S. Nunc autem una simul Deum precemur, sicut Dominus noster Iesus Christus orare nos docuit:
-[^42]: Pater noster, qui es in coelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in coelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittibus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. 
-[^43]: Et Deus omnipotens, Pater Domini nostri Iesu Christi, qui nos regeneravit ex aqua et Spiritu Sancto, quique nobis dedit remissionem peccatorum, ipse nos custodiat gratia sua in eodem Christo Iesu Domino nostro in vitam æternam. O. Amen.
-[^44]: V. Propítius esto. R. Parce nobis, Dómine. V. Propítius esto. R. Exaudi nos, Dómine. V. Ab omni malo. R. Líbera nos, Dómine. V. Ab omni peccáto. R. Líbera nos, Dómine. V. A morte perpétua. R. Líbera nos, Dómine. V. Per mystérium sanctæ Incarnatiónis tuæ. R. Líbera nos, Dómine. V. Per advéntum tuum. R. Líbera nos, Dómine. V. Per nativitátem tuum. R. Líbera nos, Dómine. V. Per baptísmum et sanctum ieiúnium tuum. R. Líbera nos, Dómine. V. Per crucem et passiónem tuam. R. Líbera nos, Dómine. V. Per mortem et sepultúram tuam. R. Líbera nos, Dómine. V. Per sanctam resurrectiónem tuam. R. Líbera nos, Dómine. V. Per admirábilem ascensiónem tuam. R. Líbera nos, Dómine. V. Per advéntum Spíritus Sancti Parácliti. R. Líbera nos, Dómine. V. In die iudícii. R. Líbera nos, Dómine.  V. Peccatóres. R. Te rogámus, audi nos. V. Ut nobis parcas. R. Te rogámus, audi nos. V. Ut Ecclésiam tuam sanctam régere et conserváre dignéris. R. Te rogámus, audi nos. V. Ut domnum apostólicum et omnes ecclesiásticos órdines in sancta religióne conserváre dignéris. R. Te rogámus, audi nos. V. Ut inimícos sanctæ Ecclésiæ humiliáre dignéris. R. Te rogámus, audi nos. V. Ut régibus et princípibus christiánis, pacem et veram concórdiam donáre dignéris. R. Te rogámus, audi nos. V. Ut nosmetípsos in tuo sancto servítio confortáre et conserváre dignéris. R. Te rogámus, audi nos. V. Ut ómnibus benefactóribus nostris sempitérna bona retríbuas. R. Te rogámus, audi nos V. Ut fructus terræ dare et conserváre dignéris. R. Te rogámus, audi nos. V. Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris. R. Te rogámus, audi nos. V. Ut nos exaudíre dignéris. R. Te rogámus, audi nos.  V. Agnus Dei, qui tollis peccáta mundi. R. Parce nobis, Dómine. V. Agnus Dei, qui tollis peccáta mundi. R. Exaudi nos, Dómine. V. Agnus Dei, qui tollis peccáta mundi. R. Miserére nobis. V. Christe, audi nos. R. Christe, exáudi nos.
-[^45]: Deus, qui hanc sacratíssimum noctem gloria domínicæ Resurrectiónis illústras: consérva in nova famíliæ tuæ progénie adoptiónis spíritum, quem dedísti; ut, córpore et mente renováti, puram tibi exhíbeant servitútem. Per eúndem.
-[^46]: Lectio Epistolæ beati Pauli apostoli ad Colossenses. *Col 3:1-4* Fratres: si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens: quæ sursum sunt sápite, non quæ super terram. Mórtui enim estis, et vita vestra est abscóndita cum Christo in Deo. Cum Christus apparúerit, vita vestra: tunc et vos apparébitis cum ipso in glória.
-[^47]: V. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia eius. *Ps. 116* V. Laudáte Dominum omnes gentes: et collaudáte eum, omnes pópuli. V. Quóniam confirmáta est super nos misericórdia eius: et véritas Dómini manet in ætérnum.
-[^48]: Sequéntia ☩ sancti Evangélii secundum Mattheum. *Matt 28: 1-7* Véspere autem sábbati, quæ lucéscit in prima sábbati, venit María Magdaléne, et áltera María vidére sepúlcrum. Et ecce terræmótus factus est magnus. Angelus enim Dómini descéndit de cælo: et accédens revólvit lápidem, et sedébat super eum: erat autem aspéctus eius sicut fulgur: et vestiméntum eius sicut nix. Præ timóre autem eius extérriti sunt custódes, et factu sunt velut mórtui. Respóndens autem Angelus, dixit muliéribus: «Nolíte timére vos: scio enim, quod Iesum, qui crucifíxus est, quǽritis: non est hic: surréxit enim, sicut dixit. Veníte, et vidéte locum, ubi pósitus erat Dóminus. Et cito eúntes dícite discípulis eius, quia surréxit et ecce præcédit vos in Galilǽam: ibi eum vidébitis. Ecce prædíxi vobis».
-[^49]: Suscipe, quǽsumus, Domine, preces populi tui, cum oblationibus hostiarum: ut paschalibus initiata mysteriis, ad æternitatis nobis medelam, te operante, proficiant. Per Dominum.
-[^50]: Vere dignum et iustum est, æquum et salutare, te quidem Domine omni tempore, sed in hoc potissimum nocte gloriosis prædicare, cum Pascha nostrum immolatus est Christus. Ipse enim verus est Angus qui abstulit peccáta mundi. Qui mortem nostram moriendo destruxit, et vitam resurgendo reparavit. Et ideo cum Angelis et Archangelis, cum Thronis et Dominationibus, cumque omnia milita coelestis exercitus, hymnum gloriæ tuæ canimus, sine fine dicentes: 
-[^51]: *Psalmus 150.*  (150:1) Laudáte Dóminum in sanctis eius * laudáte eum in firmaménto virtútis eius.  (150:2) Laudáte eum in virtútibus eius, * laudáte eum secúndum multitúdinem magnitúdinis eius.  (150:3) Laudáte eum in sono tubæ, * laudáte eum in psaltério, et cíthara.  (150:4) Laudáte eum in týmpano, et choro: * laudáte eum in chordis et órgano.  (150:5) Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis iubilatiónis: * omnes spíritus laudet Dóminum. V. Glória Patri, et Fílio, * et Spirítui Sancto. R. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. Ant. Allelúia, allelúia, allelúia. 
-[^52]: Ant. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia. r. Benedíctus ☩ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ: r. Et eréxit cornu salútis nobis: * in domo David, púeri sui. r. Sicut locútus est per os sanctórum, * qui a sæculo sunt, prophetárum ejus: r. Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos. r. Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti. r. Jusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis: r. Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi. r. In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris. r. Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus: r. Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum: r. Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto: r. Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis. r. Glória Patri, et Fílio, * et Spirítui Sancto. r. Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. Ant. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia. 
-[^53]: V. Dóminus vobíscum. R. Et cum spíritu tuo. Orémus. Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis Paschálibus satiásti tua fácias pietáte concórdes. Per Dominum.
-[^54]: V. Ite, Missa est, allelúia, allelúia. R. Deo grátias, allelúia, allelúia.
+R. Bogu dzięki, alleluja, alleluja. 

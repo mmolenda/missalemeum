@@ -220,6 +220,8 @@ class ProperParser:
 
     @classmethod
     def _add_prefaces(cls, sections, lang):
+        if 'Prefatio' not in sections:
+            return sections
         preface_name = sections.get_rule('preface') or 'Communis'
         try:
             preface_item = cls.prefaces[lang][preface_name]

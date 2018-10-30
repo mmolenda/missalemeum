@@ -688,7 +688,20 @@ section_labels = {
     'Passio': 'Passio',
     'Oratio Fidelium': 'De secunda parte: De Orationibus Solemnibus, quae etiam «Oratio Fidelium» dicuntur',
     'Crucis Adoratione': 'De tertia parte: De Solemni Sanctae Crucis Adoratione',
-    'CommunioQ': 'De quarta parte: Communio'
+    'CommunioQ': 'De quarta parte: Communio',
+    # Quad6-5r, Sabbato Sancto
+    'Benedictio ignis': 'Benedictio ignis',
+    'De benedictione cerei Paschalis': 'De benedictione cerei Paschalis',
+    'De solemni processione': 'De solemni processione',
+    'De praeconio paschali': 'De praeconio paschali',
+    'De lectionibus': 'De lectionibus',
+    'De prima parte Litaniarum': 'De prima parte Litaniarum',
+    'De benedictione aquae baptismalis': 'De benedictione aquae baptismalis',
+    'De renovatione promissionum baptismatis': 'De renovatione promissionum baptismatis',
+    'De altera parte Litaniarum': 'De altera parte Litaniarum',
+    'De Missa solemni Vigiliae paschalis': 'De Missa solemni Vigiliæ paschalis',
+    'Pro Laudibus': 'Pro Laudibus',
+    'Conclusio': 'Conclusio'
 }
 
 section_labels_multi = {
