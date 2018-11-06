@@ -7,8 +7,8 @@ import importlib
 import logging
 
 from exceptions import InvalidInput, ProperNotFound
-from factory import MissalFactory
-from parsers import ProperParser
+from kalendar.factory import MissalFactory
+from propers.parser import ProperParser
 
 default_language = 'Polski'
 
@@ -22,6 +22,13 @@ logging.basicConfig(
 @click.group()
 def cli():
     pass
+
+
+def _print_proper(language, proper):
+    click.echo(f'\n=== {language} ===\n')
+    for section in proper.serialize():
+        click.echo(f'\n== {section["label"]} ==')
+        click.echo('\n'.join(section["body"]))
 
 
 @click.command()
@@ -54,21 +61,14 @@ def calendar(year, language):
     _print_all(missal)
 
 
-def _print_proper(language, proper):
-    click.echo(f'\n=== {language} ===\n')
-    for section in proper.to_python():
-        click.echo(f'\n== {section["label"]} ==')
-        click.echo('\n'.join(section["body"]))
-
-
 @click.command()
 @click.argument('proper_id')
 @click.option('--language', default=default_language)
 def proper(proper_id, language):
     try:
-        vernacular, latin = ProperParser.run(proper_id, language)
-        _print_proper(language, vernacular)
-        _print_proper('Latin', latin)
+        proper_vernacular, proper_latin = ProperParser.parse(proper_id, language)
+        _print_proper(language, proper_vernacular)
+        _print_proper('Latin', proper_latin)
     except (InvalidInput, ProperNotFound) as e:
         sys.stderr.write(str(e))
 
@@ -80,24 +80,27 @@ def date(date, language):
     yy, mm, dd = date.split('-')
     date_object = datetime.date(int(yy), int(mm), int(dd))
     missal = MissalFactory.create(date_object.year, language)
-    lit_day_container = missal[date_object]
-    vernacular, latin = lit_day_container.get_proper()
+    lit_day_container = missal.get_day(date_object)
+    propers = lit_day_container.get_proper()
     click.echo(f'=== {date} ===')
-    click.echo('tempora:', lit_day_container.get_tempora_name())
-    click.echo('celebration:', lit_day_container.get_celebration_name())
-    click.echo(vernacular.to_python()[0]['body'][0])
-    _print_proper(language, vernacular)
-    _print_proper('Latin', latin)
+    click.echo('tempora: {}'.format(lit_day_container.get_tempora_name()))
+    click.echo('celebration: {}'.format(lit_day_container.get_celebration_name()))
+    for itr, (vernacular, latin) in enumerate(propers, 1):
+        if len(propers) > 1:
+            click.echo(f'\n--- Missa {itr} ---')
+        click.echo(vernacular.serialize()[0]['body'][0])
+        _print_proper(language, vernacular)
+        _print_proper('Latin', latin)
 
 
 @click.command()
 @click.argument('search_string')
 @click.option('--language', default=default_language)
 def search(search_string, language):
-    titles = importlib.import_module(f'resources.{language}.translation')
+    titles = importlib.import_module(f'constants.{language}.translation')
     for id_, title in titles.titles.items():
         if search_string.strip().lower() in title.lower():
-            click.echo(':'.join(id_.split(':')[:2]), title)
+            click.echo(f"{':'.join(id_.split(':')[:2])} {title}")
 
 
 cli.add_command(calendar)

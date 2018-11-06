@@ -5,8 +5,8 @@ from datetime import datetime, date
 
 import pytest
 
-from missal1962 import constants as c
-from missal1962.models import LiturgicalDay
+from constants import common as c
+from kalendar.models import Observance
 from utils import match
 from tests.conftest import get_missal
 
@@ -25,23 +25,23 @@ with open(os.path.join(HERE, 'tempora_fixtures.json')) as fh:
 @pytest.mark.parametrize("year,dates", sorted(expected.items()))
 def test_tempora(year, dates):
     missal = get_missal(int(year))
-    assert _to_date_obj(dates[0]) == missal.get_day(c.TEMPORA_QUADP1_0)[0]
-    assert _to_date_obj(dates[1]) == missal.get_day(c.TEMPORA_QUADP3_3)[0]
-    assert _to_date_obj(dates[2]) == missal.get_day(c.TEMPORA_PASC0_0)[0]
-    assert _to_date_obj(dates[3]) == missal.get_day(c.TEMPORA_PASC5_4)[0]
-    assert _to_date_obj(dates[4]) == missal.get_day(c.TEMPORA_PASC7_0)[0]
-    assert _to_date_obj(dates[5]) == missal.get_day(c.TEMPORA_PENT01_4)[0]
-    assert _to_date_obj(dates[6]) == missal.get_day(c.TEMPORA_ADV1_0)[0]
+    assert _to_date_obj(dates[0]) == missal.find_day(c.TEMPORA_QUADP1_0)[0]
+    assert _to_date_obj(dates[1]) == missal.find_day(c.TEMPORA_QUADP3_3)[0]
+    assert _to_date_obj(dates[2]) == missal.find_day(c.TEMPORA_PASC0_0)[0]
+    assert _to_date_obj(dates[3]) == missal.find_day(c.TEMPORA_PASC5_4)[0]
+    assert _to_date_obj(dates[4]) == missal.find_day(c.TEMPORA_PASC7_0)[0]
+    assert _to_date_obj(dates[5]) == missal.find_day(c.TEMPORA_PENT01_4)[0]
+    assert _to_date_obj(dates[6]) == missal.find_day(c.TEMPORA_ADV1_0)[0]
     # TEMPORA_EPI4_0 might not exist in given year, then None is returned
-    actual = missal.get_day(c.TEMPORA_EPI4_0)[0] if \
-        missal.get_day(c.TEMPORA_EPI4_0) else None
+    actual = missal.find_day(c.TEMPORA_EPI4_0)[0] if \
+        missal.find_day(c.TEMPORA_EPI4_0) else None
     assert _to_date_obj(dates[7]) == actual
-    assert _to_date_obj(dates[8]) == missal.get_day(c.TEMPORA_PENT_6)[0]
-    assert _to_date_obj(dates[9]) == missal.get_day(c.NAT2_0)[0]
-    assert _to_date_obj(dates[10]) == missal.get_day(c.SANCTI_10_DUr)[0]
+    assert _to_date_obj(dates[8]) == missal.find_day(c.TEMPORA_PENT_6)[0]
+    assert _to_date_obj(dates[9]) == missal.find_day(c.NAT2_0)[0]
+    assert _to_date_obj(dates[10]) == missal.find_day(c.SANCTI_10_DUr)[0]
     # NAT1_0 might not exist in given year, then None is returned
-    actual = missal.get_day(c.NAT1_0)[0] if \
-        missal.get_day(c.NAT1_0) else None
+    actual = missal.find_day(c.NAT1_0)[0] if \
+        missal.find_day(c.NAT1_0) else None
     assert _to_date_obj(dates[11]) == actual
 
 
@@ -77,7 +77,7 @@ def test_tempora(year, dates):
     (c.SANCTI_06_29, (2068, 6, 30)),
 ])
 def test_sancti_shifted(day_id, expected_date):
-    assert get_missal(expected_date[0]).get_day(day_id)[0] == date(*expected_date)
+    assert get_missal(expected_date[0]).find_day(day_id)[0] == date(*expected_date)
 
 
 @pytest.mark.parametrize("date_,celebration,commemoration", [
@@ -133,8 +133,8 @@ def test_sancti_shifted(day_id, expected_date):
     ((2014, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
 ])
 def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
-    assert [i.id for i in get_missal(date_[0])[date(*date_)].celebration] == celebration
-    assert [i.id for i in get_missal(date_[0])[date(*date_)].commemoration] == commemoration
+    assert [i.id for i in get_missal(date_[0]).get_day(date(*date_)).celebration] == celebration
+    assert [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration] == commemoration
 
 
 @pytest.mark.parametrize("date_,not_expected_day_ids", [
@@ -148,7 +148,7 @@ def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
     ((2016, 2, 28), [c.SANCTI_02_27]),  # leap year
 ])
 def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
-    assert not match(get_missal(date_[0])[date(*date_)].all, not_expected_day_ids)
+    assert not match(get_missal(date_[0]).get_day(date(*date_)).all, not_expected_day_ids)
 
 
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
@@ -177,8 +177,8 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
-    assert [i.id for i in missal[date(*date_)].celebration] == expected_celebration
-    assert [i.id for i in missal[date(*date_)].commemoration] == expected_commemoration
+    assert [i.id for i in missal.get_day(date(*date_)).celebration] == expected_celebration
+    assert [i.id for i in missal.get_day(date(*date_)).commemoration] == expected_commemoration
 
 
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
@@ -187,7 +187,7 @@ def test_conflicts(date_, expected_celebration, expected_commemoration):
     (c.TEMPORA_QUADP1_0, (2002, 1, 28), 6)
 ])
 def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday):
-    assert LiturgicalDay(day_id, date(*date_), language).weekday == expected_weekday
+    assert Observance(day_id, date(*date_), language).weekday == expected_weekday
 
 
 @pytest.mark.parametrize("day_id,date_,expected_rank", [
@@ -215,18 +215,18 @@ def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday)
     (c.TEMPORA_ADV4_3, (2015, 12, 23), 2)
 ])
 def test_liturgical_days_have_proper_ranks(day_id, date_, expected_rank):
-    assert LiturgicalDay(day_id, date(*date_), language).rank == expected_rank
+    assert Observance(day_id, date(*date_), language).rank == expected_rank
 
 
 def test_liturgical_day_compare():
-    rank_1_1 = LiturgicalDay(c.TEMPORA_PASC7_0, date(2015, 5, 24), language)
-    rank_1_2 = LiturgicalDay(c.SANCTI_11_01, date(2015, 11, 1), language)
-    rank_2_1 = LiturgicalDay(c.TEMPORA_EPI1_0, date(2015, 1, 11), language)
-    rank_2_2 = LiturgicalDay(c.SANCTI_01_13, date(2015, 1, 13), language)
-    rank_3_1 = LiturgicalDay(c.TEMPORA_QUAD5_5, date(2015, 3, 27), language)
-    rank_3_2 = LiturgicalDay(c.SANCTI_03_28, date(2015, 3, 28), language)
-    rank_4_1 = LiturgicalDay(c.TEMPORA_PENT01_1, date(2015, 6, 1), language)
-    rank_4_2 = LiturgicalDay(c.SANCTI_08_09, date(2015, 8, 9), language)
+    rank_1_1 = Observance(c.TEMPORA_PASC7_0, date(2015, 5, 24), language)
+    rank_1_2 = Observance(c.SANCTI_11_01, date(2015, 11, 1), language)
+    rank_2_1 = Observance(c.TEMPORA_EPI1_0, date(2015, 1, 11), language)
+    rank_2_2 = Observance(c.SANCTI_01_13, date(2015, 1, 13), language)
+    rank_3_1 = Observance(c.TEMPORA_QUAD5_5, date(2015, 3, 27), language)
+    rank_3_2 = Observance(c.SANCTI_03_28, date(2015, 3, 28), language)
+    rank_4_1 = Observance(c.TEMPORA_PENT01_1, date(2015, 6, 1), language)
+    rank_4_2 = Observance(c.SANCTI_08_09, date(2015, 8, 9), language)
 
     assert rank_1_1 == rank_1_2
     assert rank_1_1 >= rank_1_2

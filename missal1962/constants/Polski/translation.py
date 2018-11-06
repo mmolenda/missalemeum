@@ -1,23 +1,23 @@
-from missal1962 import constants
+from missal1962.constants import common
 from ..Latin.translation import titles, paternoster, transformations
 
-titles[constants.SANCTI_03_15PL] = 'Św. Klemensa Marii Dworzaka (Hofbauera)'
-titles[constants.SANCTI_04_23PL] = 'Św. Wojciecha, Biskupa i Męczennika'
-titles[constants.SANCTI_05_03PL] = 'N. M. P., Królowej Polski, Głównej Patronki Polski'
-titles[constants.SANCTI_05_08PL] = 'Św. Stanisława, Biskupa i Męczennika'
-titles[constants.SANCTI_05_16PL] = 'Św. Andrzeja Boboli, Męczennika'
-titles[constants.SANCTI_05_24PL] = 'N. M. P. Wspomożycielki Wiernych'
-titles[constants.SANCTI_06_01PL] = 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy'
-titles[constants.SANCTI_06_10PL] = 'Bł. Bogumiła, Biskupa i Wyznawcy'
-titles[constants.SANCTI_07_18PL] = 'Bł. Szymona z Lipnicy, Wyznawcy'
-titles[constants.SANCTI_07_20PL] = 'Bł. Czesława, Wyznawcy'
-titles[constants.SANCTI_07_24PL] = 'Bł. Kingi, Dziewicy'
-titles[constants.SANCTI_08_26PL] = 'N. M. P. Jasnogórskiej czyli Częstochowskiej'
-titles[constants.SANCTI_09_01PL] = 'Bł. Bronisławy, Dziewicy'
-titles[constants.SANCTI_09_07PL] = 'Bł. Melchiora Grodzieckiego, Męczennika'
-titles[constants.SANCTI_09_25PL] = 'Bł. Władysława z Gielniowa, Wyznawcy'
-titles[constants.SANCTI_10_01PL] = 'Bł. Jana z Dukli'
-titles[constants.SANCTI_11_13PL] = 'Św. Stanisława Kostki, Wyznawcy'
+titles[common.SANCTI_03_15PL] = 'Św. Klemensa Marii Dworzaka (Hofbauera)'
+titles[common.SANCTI_04_23PL] = 'Św. Wojciecha, Biskupa i Męczennika'
+titles[common.SANCTI_05_03PL] = 'N. M. P., Królowej Polski, Głównej Patronki Polski'
+titles[common.SANCTI_05_08PL] = 'Św. Stanisława, Biskupa i Męczennika'
+titles[common.SANCTI_05_16PL] = 'Św. Andrzeja Boboli, Męczennika'
+titles[common.SANCTI_05_24PL] = 'N. M. P. Wspomożycielki Wiernych'
+titles[common.SANCTI_06_01PL] = 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy'
+titles[common.SANCTI_06_10PL] = 'Bł. Bogumiła, Biskupa i Wyznawcy'
+titles[common.SANCTI_07_18PL] = 'Bł. Szymona z Lipnicy, Wyznawcy'
+titles[common.SANCTI_07_20PL] = 'Bł. Czesława, Wyznawcy'
+titles[common.SANCTI_07_24PL] = 'Bł. Kingi, Dziewicy'
+titles[common.SANCTI_08_26PL] = 'N. M. P. Jasnogórskiej czyli Częstochowskiej'
+titles[common.SANCTI_09_01PL] = 'Bł. Bronisławy, Dziewicy'
+titles[common.SANCTI_09_07PL] = 'Bł. Melchiora Grodzieckiego, Męczennika'
+titles[common.SANCTI_09_25PL] = 'Bł. Władysława z Gielniowa, Wyznawcy'
+titles[common.SANCTI_10_01PL] = 'Bł. Jana z Dukli'
+titles[common.SANCTI_11_13PL] = 'Św. Stanisława Kostki, Wyznawcy'
 
 section_labels = {
     'Communicantes': 'Communicantes',

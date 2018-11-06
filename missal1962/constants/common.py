@@ -97,7 +97,7 @@ VISIBLE_SECTIONS = [
     'LectioL4',
     'LectioL5',
     'Graduale',
-    'GradualeP',
+    # 'GradualeP',  Ignoring for now
     'GradualeL1',
     'GradualeL2',
     'GradualeL3',
@@ -108,14 +108,14 @@ VISIBLE_SECTIONS = [
     'Evangelium',
     'Maundi',  # Quad6-4r, Feria Quinta in Coena Domini
     'Offertorium',
-    'OffertoriumP',
+    # 'OffertoriumP',  Ignoring for now
     'Secreta',
     'Commemoratio Secreta',
     'Prefatio',
     'Pro Laudibus'  # Quad6-5r, Sabbato Sancto
     'Communicantes',
     'Communio',
-    'CommunioP',
+    # 'CommunioP',  Ignoring for now
     'Postcommunio',
     'Commemoratio Postcommunio',
     'Conclusio'  # Quad6-5r, Sabbato Sancto
@@ -924,8 +924,8 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
 
 # Related to propers' printing
 
-DIVOFF_DIR = os.path.join(THIS_DIR, 'resources', 'divinum-officium')
-CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, 'resources', 'divinum-officium-custom')
+DIVOFF_DIR = os.path.join(THIS_DIR, '..', 'resources', 'divinum-officium')
+CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', 'resources', 'divinum-officium-custom')
 
 EXCLUDE_SECTIONS = (
     'Evangelium1',

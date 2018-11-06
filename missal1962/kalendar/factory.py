@@ -11,29 +11,29 @@ from datetime import date, timedelta
 from dateutil.easter import easter
 from typing import List, Tuple, Union
 
-from constants import NAT2_0, SANCTI_10_DUr, NAT1_0
-from missal1962.models import LiturgicalDay, Missal
-from missal1962.rules import rules
+from constants.common import NAT2_0, SANCTI_10_DUr, NAT1_0
+from kalendar.models import Observance, Calendar
+from kalendar.rules import rules
 
 
-class MissalFactory(object):
+class MissalFactory:
 
-    missal = None
-    lang = None
+    calendar: Calendar = None
+    lang: str = None
     blocks = None
 
     @classmethod
-    def create(cls, year: int, lang: str='Polski') -> Missal:
+    def create(cls, year: int, lang: str='Polski') -> Calendar:
         cls.lang = lang
-        cls.blocks = importlib.import_module(f'resources.{cls.lang}.blocks')
-        cls.missal: Missal = Missal(year, cls.lang)
+        cls.blocks = importlib.import_module(f'constants.{cls.lang}.blocks')
+        cls.calendar = Calendar(year, cls.lang)
         cls._fill_in_tempora_days(year)
         cls._fill_in_sancti_days()
         cls._resolve_concurrency()
-        return cls.missal
+        return cls.calendar
 
     @classmethod
-    def _fill_in_tempora_days(cls, year: int):
+    def _fill_in_tempora_days(cls, year: int) -> None:
         """
         Days depending on variable date, such as Easter or Advent
         """
@@ -49,30 +49,32 @@ class MissalFactory(object):
 
         # Inserting single days
         date_ = cls.calc_holy_name(year)
-        cls.missal[date_].celebration = [LiturgicalDay(NAT2_0, date_, cls.lang)]
+        cls.calendar.get_day(date_).celebration = [Observance(NAT2_0, date_, cls.lang)]
 
         date_ = cls.calc_christ_king(year)
-        cls.missal[date_].celebration = [LiturgicalDay(SANCTI_10_DUr, date_, cls.lang)]
+        cls.calendar.get_day(date_).celebration = [Observance(SANCTI_10_DUr, date_, cls.lang)]
 
         date_ = cls.calc_sunday_christmas_octave(year)
         if date_:
-            cls.missal[date_].celebration = [LiturgicalDay(NAT1_0, date_, cls.lang)]
+            cls.calendar.get_day(date_).celebration = [Observance(NAT1_0, date_, cls.lang)]
 
     @classmethod
-    def _fill_in_sancti_days(cls):
+    def _fill_in_sancti_days(cls) -> None:
         """
         Days ascribed to a specific date
         """
-        for date_, lit_day_container in cls.missal.items():
+        for date_, day in cls.calendar.items():
             date_id = date_.strftime("%m-%d")
-            days = [LiturgicalDay(ii, date_, cls.lang) for ii in cls.blocks.SANCTI if ii.startswith("sancti:{}".format(date_id))]
-            lit_day_container.celebration.extend(days)
-            lit_day_container.celebration.sort(reverse=True)
+            days = [Observance(ii, date_, cls.lang)
+                    for ii in cls.blocks.SANCTI
+                    if ii.startswith("sancti:{}".format(date_id))]
+            day.celebration.extend(days)
+            day.celebration.sort(reverse=True)
 
     @classmethod
     def _insert_block(cls, start_date: date, block: tuple, stop_date: date = None,
-                      reverse: bool = False, overwrite: bool = True):
-        """ Insert a block of related `LiturgicalDay` objects.
+                      reverse: bool = False, overwrite: bool = True) -> None:
+        """ Insert a block of related `Day` objects.
 
         :param start_date: date where first or last (if `reverse`=True)
                            element of the block will be inserted
@@ -121,45 +123,43 @@ class MissalFactory(object):
         """
         if reverse:
             block = reversed(block)
-        for ii, day_ids in enumerate(block):
-            index = start_date + timedelta(days=ii if not reverse else -ii)
+        for ii, observance_ids in enumerate(block):
+            date_ = start_date + timedelta(days=ii if not reverse else -ii)
             # skip on empty day in a block
-            if not day_ids:
+            if not observance_ids:
                 continue
             # break on first non-empty day
-            if cls.missal[index].celebration and not overwrite:
+            if cls.calendar.get_day(date_).celebration and not overwrite:
                 break
             # break on stop date
-            if stop_date == index - timedelta(days=1):
+            if stop_date == date_ - timedelta(days=1):
                 break
-            cls.missal[index].tempora = [LiturgicalDay(day_id, index, cls.lang) for day_id in day_ids]
-            cls.missal[index].celebration = copy(cls.missal[index].tempora)
+            cls.calendar.get_day(date_).tempora = [Observance(obs_id, date_, cls.lang) for obs_id in observance_ids]
+            cls.calendar.get_day(date_).celebration = copy(cls.calendar.get_day(date_).tempora)
 
     @classmethod
-    def _resolve_concurrency(cls):
+    def _resolve_concurrency(cls) -> None:
         shifted_all = defaultdict(list)
-        for date_, lit_day_container in cls.missal.items():
+        for date_, day in cls.calendar.items():
             celebration, commemoration, shifted = cls._apply_rules(date_, shifted_all.pop(date_, []))
-            cls.missal[date_].celebration = celebration
-            cls.missal[date_].commemoration = commemoration
+            cls.calendar.get_day(date_).celebration = celebration
+            cls.calendar.get_day(date_).commemoration = commemoration
             for k, v in shifted:
                 shifted_all[k].extend(v)
 
     @classmethod
-    def _apply_rules(cls,
-                     date_: date,
-                     shifted: List[LiturgicalDay]) -> \
-            Tuple[List[LiturgicalDay], List[LiturgicalDay], List[LiturgicalDay]]:
+    def _apply_rules(cls, date_: date, shifted: List[Observance]) \
+            -> Tuple[List[Observance], List[Observance], List[Observance]]:
         for rule in rules:
-            results = rule(cls.missal,
+            results = rule(cls.calendar,
                            date_,
-                           cls.missal[date_].tempora,
-                           cls.missal[date_].celebration + shifted,
+                           cls.calendar.get_day(date_).tempora,
+                           cls.calendar.get_day(date_).celebration + shifted,
                            cls.lang)
             if results is None or not any(results):
                 continue
             return results
-        return cls.missal[date_].celebration, [], []
+        return cls.calendar.get_day(date_).celebration, [], []
 
     @classmethod
     def calc_easter_sunday(cls, year: int) -> date:

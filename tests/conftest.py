@@ -1,5 +1,5 @@
-from constants import LANGUAGE_LATIN
-from missal1962.factory import MissalFactory
+from missal1962.constants.common import LANGUAGE_LATIN
+from kalendar.factory import MissalFactory
 
 missal_buffer = {}
 
