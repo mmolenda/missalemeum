@@ -1,14 +1,14 @@
 
 import json
 import os
-from datetime import datetime, date
+from datetime import date, datetime
 
 import pytest
 
 from constants import common as c
 from kalendar.models import Observance
-from utils import match
 from tests.conftest import get_missal
+from utils import match
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 language = 'Polski'

@@ -2,17 +2,17 @@ import datetime
 import importlib
 import logging
 import re
-from collections import OrderedDict, _OrderedDictItemsView
-
+from collections import OrderedDict
 from copy import copy
 from datetime import date, timedelta
-from typing import Tuple, List, Union, Iterator, ItemsView
-
-from constants.common import (TEMPORA_RANK_MAP, WEEKDAY_MAPPING, TYPE_TEMPORA, TABLE_OF_PRECEDENCE, C_10A, C_10B, C_10C,
-                              C_10PASC, C_10T, TEMPORA_EPI1_0, TEMPORA_EPI1_0A, TEMPORA_PENT01_0, PENT01_0A)
 from exceptions import ProperNotFound
-from propers.parser import ProperParser
+from typing import ItemsView, List, Tuple, Union
 
+from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, PENT01_0A,
+                              TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
+                              TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
+                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING)
+from propers.parser import ProperParser
 
 log = logging.getLogger(__name__)
 
@@ -38,7 +38,7 @@ class Observance:
     Example:
       'tempora:Epi2-3:4' - means movable day of fourth class
         which is third feria day (Wednesday) in second week after Epiphany
-      'sancti:11_19:4' - means a fixed day of fourth class falling on 19 Nov
+      'sancti:11-19:4' - means a fixed day of fourth class falling on 19 Nov
     """
 
     lang = None
@@ -117,8 +117,8 @@ class Day:
 
     It contains three lists: `tempora`, `celebration` and `commemoration`.
     On Missal's creation the lists are filled in so that `tempora` always contains `Observance` representing
-    given variable day, `celebration` contains an `Observance`s representing propers for this day's mass and
-    `commemoration` contains zero or more `Observance`s that should be commemorated with the main proper.
+    given variable day, `celebration` contains an `Observance`s to be celebrated in this day and
+    `commemoration` contains zero or more `Observance`s that should be commemorated with the main celebration.
     """
     calendar: 'Calendar' = None
     tempora: List['Observance'] = None
@@ -148,7 +148,6 @@ class Day:
         """
         Get proper that is used in today Mass. If given day does not have a dedicated proper,
         use the one from the latest Sunday.
-        :return:
         """
         if self.celebration:
             try:
@@ -183,7 +182,8 @@ class Day:
 
 
 class Calendar:
-    """ Class representing a Calendar.
+    """
+    Class representing a Calendar.
 
     Internally it keeps the data in an ordered dict of `Days`s where each key is a `date` object and value
     is a `Day` containing `Observance` objects organized inside Day's members. Example:
@@ -205,7 +205,6 @@ class Calendar:
       ...
     }
     """
-
     lang = None
     _container = None
 
@@ -226,7 +225,7 @@ class Calendar:
         return self._container.get(date_)
 
     def find_day(self, observance_id: str) -> Union[None, Tuple[date, Day]]:
-        """ Return a day representation by observance ID
+        """ Return a day representation by observance ID, if any
 
         :param observance_id: observance's identifier, for example TEMPORA_EPI6_0
         :type observance_id: string

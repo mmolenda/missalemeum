@@ -1,6 +1,5 @@
 import re
-
-from typing import Union, List
+from typing import List, Union
 
 
 def match(lit_days, patterns: Union[List[str], str]):

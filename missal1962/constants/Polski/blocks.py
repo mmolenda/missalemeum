@@ -1,6 +1,5 @@
 from ..Latin.blocks import *
 
-
 SANCTI = (
     constants.SANCTI_01_01,
     constants.SANCTI_01_06,

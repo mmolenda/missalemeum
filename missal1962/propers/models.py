@@ -1,11 +1,16 @@
 import json
-from typing import List, Union, KeysView, ValuesView, ItemsView
+from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS
 
 
 class Proper:
+    """
+    Class representing a Proper for given observance.
 
+    Internally it keeps the data in a dict of sections where each key is a section's ID and the value
+    is a `ProperSection` object keeping actual content of the section.
+    """
     _container: dict = None
 
     def __init__(self) -> None:

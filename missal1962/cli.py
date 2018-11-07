@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-import sys
-
-import click
 import datetime
 import importlib
 import logging
-
+import sys
 from exceptions import InvalidInput, ProperNotFound
+
+import click
+
 from kalendar.factory import MissalFactory
 from propers.parser import ProperParser
 

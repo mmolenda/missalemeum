@@ -1,5 +1,6 @@
 from missal1962.constants import common
-from ..Latin.translation import titles, paternoster, transformations
+
+from ..Latin.translation import paternoster, titles, transformations
 
 titles[common.SANCTI_03_15PL] = 'Św. Klemensa Marii Dworzaka (Hofbauera)'
 titles[common.SANCTI_04_23PL] = 'Św. Wojciecha, Biskupa i Męczennika'

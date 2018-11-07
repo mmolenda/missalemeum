@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Rules for solving conflicts between observances occurring at same date.
+Rules for solving conflicts between observances occurring at the same date.
 
 Each rule accepts the date for which calculations are being made (`date`), a list containing `Observance`s
 representing this day's "tempora" and a list of `Observance`s falling on given date.
@@ -13,18 +13,26 @@ Each rule returns a tuple consisting of three lists:
    `Observance` should be moved and the `Observance` itself.
 """
 
-from datetime import date, timedelta
 from calendar import isleap
 from copy import copy
+from datetime import date, timedelta
 from typing import List
 
-from kalendar.models import Observance, Calendar
-from constants.common import EMBER_DAYS, FEASTS_OF_JESUS_CLASS_1_AND_2, SANCTI_12_08, SANCTI_01_13, SANCTI_12_24, \
-    TEMPORA_EPI1_0, SANCTI_11_02_1, SANCTI_02_24, SANCTI_02_27, PATTERN_TEMPORA, PATTERN_TEMPORA_SUNDAY, \
-    PATTERN_SANCTI_CLASS_2, TEMPORA_QUADP3_3, TEMPORA_QUAD6_1, TEMPORA_QUAD6_2, TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,\
-    TEMPORA_QUAD6_6, TEMPORA_PASC0_0, PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, PATTERN_CLASS_1,\
-    PATTERN_TEMPORA_SUNDAY_CLASS_2, PATTERN_SANCTI_CLASS_1_OR_2, C_10A, PATTERN_ADVENT, C_10B, TEMPORA_QUAD6_3, \
-    C_10C, PATTERN_EASTER, C_10PASC, C_10T, SANCTI_12_25_1
+from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, EMBER_DAYS,
+                              FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
+                              PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23,
+                              PATTERN_CLASS_1, PATTERN_EASTER,
+                              PATTERN_SANCTI_CLASS_1_OR_2,
+                              PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA,
+                              PATTERN_TEMPORA_SUNDAY,
+                              PATTERN_TEMPORA_SUNDAY_CLASS_2, SANCTI_01_13,
+                              SANCTI_02_24, SANCTI_02_27, SANCTI_11_02_1,
+                              SANCTI_12_08, SANCTI_12_24, SANCTI_12_25_1,
+                              TEMPORA_EPI1_0, TEMPORA_PASC0_0, TEMPORA_QUAD6_1,
+                              TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
+                              TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
+                              TEMPORA_QUAD6_6, TEMPORA_QUADP3_3)
+from kalendar.models import Calendar, Observance
 from utils import match
 
 
@@ -178,6 +186,7 @@ def rule_2nd_class_feast_takes_over_advent_feria_and_ember_days(
 
 def rule_precedence(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # Default rule for situations not handled by any of the above
     if len(observances) == 0:
         return [], [], []
     elif len(observances) == 1:

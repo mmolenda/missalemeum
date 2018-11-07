@@ -1,23 +1,22 @@
 # -*- coding: utf-8 -*-
-
-"""
-Missal 1962
-"""
-from collections import defaultdict
-
 import importlib
+from collections import defaultdict
 from copy import copy
 from datetime import date, timedelta
-from dateutil.easter import easter
 from typing import List, Tuple, Union
 
-from constants.common import NAT2_0, SANCTI_10_DUr, NAT1_0
-from kalendar.models import Observance, Calendar
+from dateutil.easter import easter
+
+from constants.common import NAT1_0, NAT2_0, SANCTI_10_DUr
+from kalendar.models import Calendar, Observance
 from kalendar.rules import rules
 
 
 class MissalFactory:
-
+    """
+    MissalFactory instantiates `kalendar.models.Calendar` and fills it in with `kalendar.models.Day`
+    objects for given year.
+    """
     calendar: Calendar = None
     lang: str = None
     blocks = None
@@ -37,7 +36,6 @@ class MissalFactory:
         """
         Days depending on variable date, such as Easter or Advent
         """
-
         # Inserting blocks
         cls._insert_block(cls.calc_holy_family(year), cls.blocks.POST_EPIPHANY)
         cls._insert_block(cls.calc_septuagesima(year), cls.blocks.FROM_PRE_LENT_TO_POST_PENTECOST)
@@ -76,18 +74,15 @@ class MissalFactory:
                       reverse: bool = False, overwrite: bool = True) -> None:
         """ Insert a block of related `Day` objects.
 
-        :param start_date: date where first or last (if `reverse`=True)
-                           element of the block will be inserted
+        :param start_date: date where first or last (if `reverse`=True) element of the block will be inserted
         :type start_date: date object
         :param block: list of day identifiers in established order
         :type block: list of strings
         :param stop_date: last date to insert block element
         :type stop_date: date object
-        :param reverse: if False, identifiers will be put in days
-                        following `start_date` otherwise they'll
+        :param reverse: if False, identifiers will be put in days following `start_date` otherwise they'll
                         be put in leading up days
-        :param overwrite: if True, overwrite existing identifiers,
-                          else quit on first non empty day
+        :param overwrite: if True, overwrite existing identifiers, else quit on first non empty day
 
         Example:
         start_date=2008-01-13, reverse=False
@@ -139,6 +134,10 @@ class MissalFactory:
 
     @classmethod
     def _resolve_concurrency(cls) -> None:
+        """
+        Apply `kalendar.rules.*` to the initially instantiated Calendar to fix the situations
+        where more than one Observance falls in the same day.
+        """
         shifted_all = defaultdict(list)
         for date_, day in cls.calendar.items():
             celebration, commemoration, shifted = cls._apply_rules(date_, shifted_all.pop(date_, []))

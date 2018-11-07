@@ -1,13 +1,13 @@
+import importlib
 import logging
 import os
 import re
-
-import importlib
+from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple
 
-from constants.common import LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_SECTIONS, \
-    EXCLUDE_SECTIONS_TITLES, CUSTOM_DIVOFF_DIR, DIVOFF_DIR
-from exceptions import InvalidInput, ProperNotFound
+from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, EXCLUDE_SECTIONS,
+                              EXCLUDE_SECTIONS_TITLES, LANGUAGE_LATIN,
+                              REFERENCE_REGEX, SECTION_REGEX)
 from propers.models import Proper, ProperSection
 
 log = logging.getLogger(__name__)
@@ -194,8 +194,6 @@ class ProperParser:
 
     @staticmethod
     def _get_full_path(partial_path, lang):
-        if os.path.exists(partial_path):
-            return partial_path
         full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
         if not os.path.exists(full_path):
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)

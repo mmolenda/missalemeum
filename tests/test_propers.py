@@ -1,13 +1,12 @@
 from datetime import date
+from exceptions import InvalidInput, ProperNotFound
 
 import pytest
 
-from exceptions import InvalidInput, ProperNotFound
 from constants import common as c
 from kalendar.models import Observance
 from propers.parser import ProperParser
 from tests.conftest import get_missal
-
 
 language = 'Polski'
 
@@ -123,4 +122,3 @@ def test_get_repr():
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
     assert str(container) == '[<tempora:Epi1-6:4>][<sancti:01-13:2>][]'
-
