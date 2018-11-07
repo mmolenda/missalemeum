@@ -3,11 +3,16 @@ import datetime
 import importlib
 import logging
 import sys
+
+from typing import List, Tuple
+
 from exceptions import InvalidInput, ProperNotFound
 
 import click
 
 from kalendar.factory import MissalFactory
+from kalendar.models import Calendar, Day
+from propers.models import Proper
 from propers.parser import ProperParser
 
 default_language = 'Polski'
@@ -36,7 +41,7 @@ def _print_proper(language, proper):
 @click.option('--language', default=default_language)
 def calendar(year, language):
     def _print_all(missal):
-        for date_, lit_day_container in missal.items():
+        for date_, day in missal.items():
             if date_.weekday() == 6:
                 click.echo("---")
             if date_.day == 1:
@@ -45,7 +50,7 @@ def calendar(year, language):
             collect = []
             padding = 40
             for i in ('tempora', 'celebration', 'commemoration'):
-                items = getattr(lit_day_container, i, None)
+                items = getattr(day, i, None)
                 if not items:
                     collect.append('-')
                 else:
@@ -64,7 +69,7 @@ def calendar(year, language):
 @click.command()
 @click.argument('proper_id')
 @click.option('--language', default=default_language)
-def proper(proper_id, language):
+def proper(proper_id: str, language: str):
     try:
         proper_vernacular, proper_latin = ProperParser.parse(proper_id, language)
         _print_proper(language, proper_vernacular)
@@ -76,21 +81,21 @@ def proper(proper_id, language):
 @click.command()
 @click.argument('date')
 @click.option('--language', default=default_language)
-def date(date, language):
+def date(date: str, language: str):
     yy, mm, dd = date.split('-')
     date_object = datetime.date(int(yy), int(mm), int(dd))
-    missal = MissalFactory.create(date_object.year, language)
-    lit_day_container = missal.get_day(date_object)
-    propers = lit_day_container.get_proper()
+    missal: Calendar = MissalFactory.create(date_object.year, language)
+    day: Day = missal.get_day(date_object)
+    propers: List[Tuple[Proper, Proper]] = day.get_proper()
     click.echo(f'=== {date} ===')
-    click.echo('tempora: {}'.format(lit_day_container.get_tempora_name()))
-    click.echo('celebration: {}'.format(lit_day_container.get_celebration_name()))
-    for itr, (vernacular, latin) in enumerate(propers, 1):
+    click.echo('tempora: {}'.format(day.get_tempora_name()))
+    click.echo('celebration: {}'.format(day.get_celebration_name()))
+    for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
-        click.echo(vernacular.serialize()[0]['body'][0])
-        _print_proper(language, vernacular)
-        _print_proper('Latin', latin)
+        click.echo(proper_vernacular.serialize()[0]['body'][0])
+        _print_proper(language, proper_vernacular)
+        _print_proper('Latin', proper_latin)
 
 
 @click.command()

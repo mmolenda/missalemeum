@@ -84,7 +84,7 @@ def test_proper_not_found():
         ProperParser.parse('tempora:bla', language)
 
 
-def test_get_proper_from_liturgical_day():
+def test_get_proper_from_observance():
     proper_vernacular, proper_latin = Observance(c.SANCTI_01_06, date(2018, 1, 6), language).get_proper()
     assert 'Objawienie' in proper_vernacular.get_section('Comment').body[0]
     assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
@@ -92,7 +92,7 @@ def test_get_proper_from_liturgical_day():
     assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
 
 
-def test_get_proper_from_liturgical_day_container():
+def test_get_proper_from_day():
     missal = get_missal(2018, language)
     proper_vernacular, proper_latin = missal.get_day(date(2018, 1, 6)).get_proper()[0]
     assert 'Objawienie' in proper_vernacular.get_section('Comment').body[0]

@@ -186,7 +186,7 @@ def test_conflicts(date_, expected_celebration, expected_commemoration):
     (c.TEMPORA_QUADP1_0, (2002, 1, 27), 6),
     (c.TEMPORA_QUADP1_0, (2002, 1, 28), 6)
 ])
-def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday):
+def test_observance_falls_in_proper_weekday(day_id, date_, expected_weekday):
     assert Observance(day_id, date(*date_), language).weekday == expected_weekday
 
 
@@ -214,11 +214,11 @@ def test_liturgical_days_fall_in_proper_weedays(day_id, date_, expected_weekday)
     (c.TEMPORA_ADV4_2, (2015, 12, 22), 2),
     (c.TEMPORA_ADV4_3, (2015, 12, 23), 2)
 ])
-def test_liturgical_days_have_proper_ranks(day_id, date_, expected_rank):
+def test_observance_has_proper_rank(day_id, date_, expected_rank):
     assert Observance(day_id, date(*date_), language).rank == expected_rank
 
 
-def test_liturgical_day_compare():
+def test_observance_compare():
     rank_1_1 = Observance(c.TEMPORA_PASC7_0, date(2015, 5, 24), language)
     rank_1_2 = Observance(c.SANCTI_11_01, date(2015, 11, 1), language)
     rank_2_1 = Observance(c.TEMPORA_EPI1_0, date(2015, 1, 11), language)

@@ -96,7 +96,7 @@ class ProperParser:
                             else:
                                 # Reference to the other section in current file
                                 nested_section_body = proper.get_section(nested_section_name).body
-                                proper.get_section(nested_section_name).extend_body(nested_section_body)
+                                proper.get_section(section_name).extend_body(nested_section_body)
 
                         else:
                             # Finally, a regular line...
