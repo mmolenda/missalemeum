@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 import datetime
-import importlib
 import logging
 import sys
-
-from typing import List, Tuple
-
 from exceptions import InvalidInput, ProperNotFound
+from typing import List, Tuple
 
 import click
 
-from kalendar.factory import MissalFactory
+import controller
 from kalendar.models import Calendar, Day
 from propers.models import Proper
-from propers.parser import ProperParser
+from webapp import app
 
 default_language = 'Polski'
 
@@ -62,7 +59,7 @@ def calendar(year, language):
             click.echo(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
                        f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
-    missal = MissalFactory.create(year, language)
+    missal: Calendar = controller.get_calendar(year, language)
     _print_all(missal)
 
 
@@ -71,7 +68,7 @@ def calendar(year, language):
 @click.option('--language', default=default_language)
 def proper(proper_id: str, language: str):
     try:
-        proper_vernacular, proper_latin = ProperParser.parse(proper_id, language)
+        proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, language)
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
     except (InvalidInput, ProperNotFound) as e:
@@ -84,9 +81,9 @@ def proper(proper_id: str, language: str):
 def date(date: str, language: str):
     yy, mm, dd = date.split('-')
     date_object = datetime.date(int(yy), int(mm), int(dd))
-    missal: Calendar = MissalFactory.create(date_object.year, language)
+    missal: Calendar = controller.get_calendar(date_object.year, language)
     day: Day = missal.get_day(date_object)
-    propers: List[Tuple[Proper, Proper]] = day.get_proper()
+    propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
     click.echo(f'=== {date} ===')
     click.echo('tempora: {}'.format(day.get_tempora_name()))
     click.echo('celebration: {}'.format(day.get_celebration_name()))
@@ -102,16 +99,20 @@ def date(date: str, language: str):
 @click.argument('search_string')
 @click.option('--language', default=default_language)
 def search(search_string, language):
-    titles = importlib.import_module(f'constants.{language}.translation')
-    for id_, title in titles.titles.items():
-        if search_string.strip().lower() in title.lower():
-            click.echo(f"{':'.join(id_.split(':')[:2])} {title}")
+    for result in controller.search(search_string, language):
+        click.echo(f'id:{result.id}, title:{result.title}')
+
+
+@click.command()
+def runserver():
+    app.run()
 
 
 cli.add_command(calendar)
 cli.add_command(date)
 cli.add_command(proper)
 cli.add_command(search)
+cli.add_command(runserver)
 
 
 if __name__ == '__main__':

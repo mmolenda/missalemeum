@@ -20,9 +20,6 @@ class Proper:
         list_ = [v.serialize() for k, v in self._container.items() if k in VISIBLE_SECTIONS]
         return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
 
-    def to_json(self) -> str:
-        return json.dumps(self.serialize())
-
     def get_section(self, section_id: str) -> Union[None, 'ProperSection']:
         return self._container.get(section_id)
 
@@ -81,9 +78,6 @@ class ProperSection:
 
     def serialize(self) -> dict:
         return {'id': self.id, 'label': self.label, 'body': self.body}
-
-    def to_json(self) -> str:
-        return json.dumps(self.serialize())
 
     def __str__(self):
         body_short = ' '.join(self.body)[:32]

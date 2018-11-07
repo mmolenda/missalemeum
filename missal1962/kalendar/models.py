@@ -71,6 +71,9 @@ class Observance:
     def get_proper(self) -> Tuple['Proper', 'Proper']:
         return ProperParser.parse(self.id, self.lang)
 
+    def serialize(self) -> dict:
+        return {'id': self.id, 'rank': self.rank, 'title': self.title}
+
     def _calc_rank(self, observance_id: str, date_: date, original_rank: int) -> int:
         """
         Some observance's ranks depend on calendar day on which they fall, for example:
@@ -177,6 +180,12 @@ class Day:
             return [day.tempora[0].get_proper()]
         return [day.celebration[0].get_proper()]
 
+    def serialize(self) -> dict:
+        serialized = {}
+        for container in ('tempora', 'celebration', 'commemoration'):
+            serialized[container] = [i.serialize() for i in getattr(self, container)]
+        return serialized
+
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)
 
@@ -238,3 +247,9 @@ class Calendar:
 
     def items(self) -> ItemsView[date, Day]:
         return self._container.items()
+
+    def serialize(self) -> dict:
+        serialized = {}
+        for date_, day in self.items():
+            serialized[date_.strftime('%Y-%m-%d')] = day.serialize()
+        return serialized
