@@ -27,8 +27,8 @@ class ProperParser:
     def parse(cls, proper_id: str, lang: str) -> Tuple[Proper, Proper]:
         proper_id: str = ':'.join(proper_id.split(':')[:2])
         cls.lang = lang
-        cls.translations[cls.lang] = importlib.import_module(f'missal1962.constants.{cls.lang}.translation')
-        cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'missal1962.constants.{LANGUAGE_LATIN}.translation')
+        cls.translations[cls.lang] = importlib.import_module(f'constants.{cls.lang}.translation')
+        cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
         cls.prefaces[cls.lang] = cls.parse_file('Ordo/Prefationes.txt', cls.lang)
         cls.prefaces[LANGUAGE_LATIN] = cls.parse_file('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
         try:

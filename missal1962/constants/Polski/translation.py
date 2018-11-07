@@ -1,4 +1,4 @@
-from missal1962.constants import common
+from constants import common
 
 from ..Latin.translation import paternoster, titles, transformations
 
