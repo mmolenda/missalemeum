@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #999;
+}
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+
+.container-fluid {
+    padding: 60px;
+    background-color: #fffdec;
+}
+
+.container-fluid h1 {
+    font-size: 1.4em;
+}
+
+.container-fluid h2 {
+    font-size: 1.1em;
+}
+
+
+#sidebar {
+    background: indianred;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #fff48c;
+    color: #626262;
+    transition: all 0.3s;
+    padding-top: 80px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #626262;
+    background: #fffdec;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #626262;
+    background: #f2e56d ;
+}
+
+#sidebar ul li .tempora {
+    color: #cd5c5c;
+    font-size: 0.7em;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
