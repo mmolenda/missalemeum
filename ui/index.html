@@ -12,11 +12,17 @@
 <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <button id="sidebarCollapse" class="navbar-toggler" type="button">
+            <span>≡</span>
+        </button>
+
         <a class="navbar-brand" href="#">Mszał Rzymski</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span>⋮</span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -32,6 +38,7 @@
 
 <div class="wrapper">
     <nav id="sidebar">
+        <input id="search-input" type="search" placeholder="Szukaj..." class="form-control" />
         <ul class="list-unstyled">
             <li>
                 <a href="#">
@@ -71,9 +78,8 @@
             </li>
         </ul>
     </nav>
-    <div role="main" class="container-fluid">
+    <div id="content" role="main" class="container-fluid">
         <main class="col-md-9">
-            <a href="#" id="sidebarCollapse">« menu</a>
             <h1 class="display-8">21 Niedziela po Zesłaniu Ducha Świętego</h1>
             <p><em class="rubric">2 klasy</em> | <em class="rubric">Szaty zielone</em></p>
             <p>Podobnie jak Izraelici dążyli z Egiptu do Ziemi Obiecanej, tak my dążymy do obiecanej nam
@@ -213,7 +219,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
+            $('#sidebar, #content').toggleClass('active');
         });
     });
 </script>
