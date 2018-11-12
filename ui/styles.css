@@ -8,7 +8,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
     font-weight: 300;
-    color: #999;
+    color: #494949;
 }
 
 
@@ -20,6 +20,10 @@ a:focus {
     transition: all 0.3s;
 }
 
+.rubric {
+    color: #cd5c5c;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -28,29 +32,26 @@ a:focus {
 
 
 .container-fluid {
-    padding: 60px;
-    background-color: #fffdec;
+    padding: 60px 1%;
+    background-color: #fffdf1;
 }
 
 .container-fluid h1 {
     font-size: 1.4em;
+    color: #565656;
 }
 
 .container-fluid h2 {
     font-size: 1.1em;
+    color: #565656;
 }
 
-
-#sidebar {
-    background: indianred;
-    transition: all 0.3s;
-}
 
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #fff48c;
-    color: #626262;
+    background: #fffbdc;
+    color: #565656;
     transition: all 0.3s;
     padding-top: 80px;
 }
@@ -77,17 +78,16 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: #626262;
-    background: #fffdec;
+    background: #fffdf1;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #626262;
-    background: #f2e56d ;
+    background: #faf4c2 ;
 }
 
 #sidebar ul li .tempora {
-    color: #cd5c5c;
     font-size: 0.7em;
 }
 
