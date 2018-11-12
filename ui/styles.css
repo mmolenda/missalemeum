@@ -57,10 +57,35 @@ a:focus {
 
 
 #search-input {
-    width: 90%;
-    margin: 5%;
+    display: inline-block;
+    width: 70%;
+    margin: 5% 0 0 5%;
     border-radius: 0.25em;
     border: 1px solid #daa200;
+}
+
+#datetimepicker4 {
+    display: inline-block;
+    width: 20%;
+}
+
+#datetimepicker4 .input-group-text {
+    border-radius: 0.25em;
+    border: 1px solid #daa200;
+    height: 36px;
+}
+
+.bootstrap-datetimepicker-widget {
+    background-color: #fffdf1;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td span.active {
+    background-color: #cd5c5c;
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: #cd5c5c;
 }
 
 #sidebar {
@@ -113,6 +138,14 @@ a[aria-expanded="true"] {
     font-size: 0.7em;
 }
 
+#langSwitch {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    display: none;
+    opacity: 0.75;
+}
+
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -125,5 +158,8 @@ a[aria-expanded="true"] {
     }
     #content.active {
         width: calc(100% - 250px);
+    }
+    #langSwitch {
+        display: block;
     }
 }
