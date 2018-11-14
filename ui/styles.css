@@ -57,7 +57,7 @@ a:focus {
     margin-left: -250px;
 }
 
-#sidebar ul {
+#sidebar > ul.list-unstyled {
     padding-top: 65px;
 }
 
@@ -92,6 +92,10 @@ a[aria-expanded="true"] {
     font-size: 0.7em;
 }
 
+#sidebar ul li.sidebar-propers-item ul li a {
+    padding-left: 20px;
+    font-size: 0.9em;
+}
 
 #search-input {
     display: inline-block;
