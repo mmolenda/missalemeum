@@ -9,8 +9,14 @@ from propers.models import Proper
 from propers.parser import ProperParser
 
 
+missals = {}
+
+
 def get_calendar(year: int, lang) -> Calendar:
-    return MissalFactory.create(year, lang)
+    if year not in missals:
+        missal = MissalFactory.create(year, lang)
+        missals[year] = missal
+    return missals[year]
 
 
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:

@@ -26,6 +26,15 @@ class Proper:
     def set_section(self, section_name: str, section: 'ProperSection') -> None:
         self._container[section_name] = section
 
+    def pop_section(self, section_id: str) -> Union[None, 'ProperSection']:
+        try:
+            body = self._container[section_id]
+        except KeyError:
+            return
+        else:
+            del self._container[section_id]
+            return body
+
     def keys(self) -> KeysView[str]:
         return self._container.keys()
 
@@ -66,6 +75,9 @@ class ProperSection:
         self.id = id_
         self.body = body if body is not None else []
         self.label = label if label is not None else id_
+
+    def get_body(self) -> List[str]:
+        return self.body
 
     def set_label(self, label: str) -> None:
         self.label = label

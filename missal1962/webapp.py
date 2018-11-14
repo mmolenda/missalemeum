@@ -1,13 +1,15 @@
 import datetime
 from flask import Flask, jsonify
+from flask_cors import CORS
 from typing import List, Tuple
 
 import controller
 from exceptions import InvalidInput, ProperNotFound
-from kalendar.models import Calendar
-from propers.models import Proper
+from kalendar.models import Calendar, Day
+from propers.models import Proper, ProperSection
 
 app = Flask(__name__)
+CORS(app)
 
 
 lang = 'Polski'
@@ -19,17 +21,52 @@ def index():
     return date(datetime.datetime.now().strftime('%Y-%m-%d'))
 
 
+def _parse_comment(comment: ProperSection) -> dict:
+    retval = {
+        "description": "",
+        "additional_info": []
+    }
+    for ln in comment.get_body():
+        if ln.startswith('#'):
+            continue
+        elif ln.startswith('*') and ln.endswith('*'):
+            retval['additional_info'].append(ln.replace('*', ''))
+        else:
+            retval['description'] += ln
+    return retval
+
+
 @app.route('/date/<string:date_>')
 def date(date_: str):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
-        propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, lang)
+        missal: Calendar = controller.get_calendar(date_object.year, lang)
+        day: Day = missal.get_day(date_object)
+        propers: List[Tuple[Proper, Proper]] = day.get_proper()
+        propers_vernacular, propers_latin = propers[0]
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     else:
-        return jsonify([propers[0][0].serialize(), propers[0][1].serialize()])
+        celebration_name: str = day.get_celebration_name()
+        tempora_name: str = day.get_tempora_name()
+        info = {
+            "title": celebration_name,
+            "description": None,
+            "additional_info": None,
+            "tempora": tempora_name if tempora_name != celebration_name else None,
+            "date": date_,
+        }
+        comment: ProperSection = propers_vernacular.pop_section('Comment')
+        if comment is not None:
+            info.update(_parse_comment(comment))
+
+        return jsonify({
+            "info": info,
+            "proper_vernacular": propers_vernacular.serialize(),
+            "proper_latin": propers_latin.serialize()
+        })
 
 
 @app.route('/proper/<string:proper_id>')
