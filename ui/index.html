@@ -300,6 +300,46 @@
             document.location.hash = this.value;
         });
 
+
+        $(window).on('hashchange', function() {
+            let date = document.location.hash.replace("#", "");
+            $.getJSON( "http://localhost:5000/date/" + date, function( data ) {
+                let title = data['info'].title;
+                let descritpion = data['info'].description;
+                let sectionsVernacular = data.proper_vernacular;
+                let sectionsLatin = data.proper_latin;
+                let additional_info = [data['info'].date];
+                if (data['info'].tempora != null) {
+                    additional_info.push(data['info'].tempora);
+                }
+                if (data['info'].additional_info != null) {
+                    $.merge(additional_info, data['info'].additional_info);
+                }
+
+                let main = $("main");
+                main.empty();
+                main.scrollTop();
+
+                let intro = "<h1 class=\"display-8\">" + title + "</h1><p><em class=\"rubric\"'>";
+                intro += additional_info.join("</em> | <em class=\"rubric\">");
+                intro += "</em></p><p>" + descritpion +  "</p>";
+                $(intro).appendTo(main);
+
+                $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
+                    $.each(sections, function(x, y) {sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
+
+                });
+                for (let i = 0; i < sectionsVernacular.length; i++) {
+                    let row = "<div class=\"row\"><div class=\"col-md-6\"><h2>" + sectionsVernacular[i].label +
+                        "</h2><p>"+ sectionsVernacular[i].body.split("\n").join("<br />") +"</p></div><div class=\"col-md-6\"><h2>" + sectionsLatin[i].label +
+                        "</h2><p>"+ sectionsLatin[i].body.split("\n").join("<br />") +"</p></div></div>";
+                    $(row).appendTo(main);
+                }
+
+            });
+        });
+
+
     });
 </script>
 
