@@ -89,7 +89,7 @@ class ProperSection:
         self.body.append(body_part)
 
     def serialize(self) -> dict:
-        return {'id': self.id, 'label': self.label, 'body': self.body}
+        return {'id': self.id, 'label': self.label, 'body': '\n'.join(self.body)}
 
     def __str__(self):
         body_short = ' '.join(self.body)[:32]

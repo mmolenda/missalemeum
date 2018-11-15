@@ -30,7 +30,7 @@ def _print_proper(language, proper):
     click.echo(f'\n=== {language} ===\n')
     for section in proper.serialize():
         click.echo(f'\n== {section["label"]} ==')
-        click.echo('\n'.join(section["body"]))
+        click.echo(section["body"])
 
 
 @click.command()
