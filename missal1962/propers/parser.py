@@ -159,7 +159,7 @@ class ProperParser:
         preface_name = proper.get_rule('preface') or 'Communis'
         preface_item = cls.prefaces[lang].get_section(preface_name)
         if preface_item is None:
-            preface_item = cls.prefaces[lang].get_day('Communis')
+            preface_item = cls.prefaces[lang].get_section('Communis')
         proper.set_section('Prefatio', ProperSection('Prefatio', body=preface_item.body))
         return proper
 

@@ -18,7 +18,7 @@
             <span>≡</span>
         </button>
 
-        <a class="navbar-brand" href="#">Mszał Rzymski</a>
+        <a class="navbar-brand" href="/">Mszał Rzymski</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -285,12 +285,20 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
+
+        // making :contains case insensitive
+        $.expr[":"].contains = $.expr.createPseudo(function(arg) {
+            return function( elem ) {
+                return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+            };
+        });
+
         $('#sidebarCollapse').on('click', function () {
             $('#sidebar, #content').toggleClass('active');
         });
 
         $('#datetimepicker4').datetimepicker({
-            format: 'YYYY-M-DD',
+            format: 'YYYY-MM-DD',
             widgetPositioning: {
                 horizontal: 'right'
             }
@@ -300,9 +308,41 @@
             document.location.hash = this.value;
         });
 
+        $('input#search-input').on('input', function () {
+            let searchString = $(this).val();
+            let itemsAll = $('.sidebar-calendar-item');
+            if (searchString === '') {
+                itemsAll.show();
+            } else {
+                itemsAll.hide();
+                $('li.sidebar-calendar-item div:contains("' + searchString + '")').parent().parent().show("fast");
+            }
+        });
 
-        $(window).on('hashchange', function() {
-            let date = document.location.hash.replace("#", "");
+        function togglePropersSidebarItem(date) {
+            function markItemActive(date) {
+                $("nav#sidebar li.sidebar-calendar-item").removeClass("active");
+                let newActive = $("li#sidebar-calendar-item-" + date);
+                newActive.addClass("active");
+                let sidebar = $('nav#sidebar');
+
+                let itemPosition = newActive.position().top;
+                let sidebarPosition = Math.abs(sidebar.find('ul').position().top);
+
+                if (Math.abs(itemPosition) > sidebar.height() * 0.6) {
+                    sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+                }
+            }
+
+            let newActive = $("li#sidebar-calendar-item-" + date);
+            if (newActive.length == 0) {
+                loadPropersSidebar(date, markItemActive);
+            } else {
+                markItemActive(date);
+            }
+        }
+
+        function loadProperByDate(date) {
             $.getJSON( "http://localhost:5000/date/" + date, function( data ) {
                 let title = data['info'].title;
                 let descritpion = data['info'].description;
@@ -318,7 +358,7 @@
 
                 let main = $("main");
                 main.empty();
-                main.scrollTop();
+                main.scrollTop(0);
 
                 let intro = "<h1 class=\"display-8\">" + title + "</h1><p><em class=\"rubric\"'>";
                 intro += additional_info.join("</em> | <em class=\"rubric\">");
@@ -335,11 +375,69 @@
                         "</h2><p>"+ sectionsLatin[i].body.split("\n").join("<br />") +"</p></div></div>";
                     $(row).appendTo(main);
                 }
-
+                togglePropersSidebarItem(date);
             });
+        }
+
+        function loadPropersSidebar(date, markItemActiveCallback) {
+            let year = date.split('-')[0];
+            $.getJSON( "http://localhost:5000/calendar/" + year, function( data ) {
+                let sidebar = $('nav#sidebar>ul');
+                sidebar.empty();
+
+                let prevYear = parseInt(year) - 1;
+                let prevYearLastDay = prevYear + '-12-31';
+                $("<li class=\"sidebar-calendar-item\"><a href=\"#" + prevYearLastDay +
+                "\"><div class=\"tempora rubric\">" + prevYear + " ⬏</div></a></li>").appendTo(sidebar);
+
+                $.each(data, function(date, day) {
+                    let additional_info = [date];
+                    let celebration;
+                    if (day.celebration.length > 0) {
+                        celebration = day.celebration[0].title;
+                    } else {
+                        celebration = date;
+                    }
+                    if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
+                        additional_info.push(day.tempora[0].title);
+                    }
+
+                    let row = "<li id=\"sidebar-calendar-item-" + date + "\"" + " class=\"sidebar-calendar-item\"><a href=\"#" + date +
+                        "\"><div>" + celebration + "</div><div class=\"tempora rubric\">" + additional_info.join(" | ") +  "</div></a></li>"
+                    $(row).appendTo(sidebar);
+
+
+                });
+
+                let nextYear = parseInt(year) + 1;
+                let nextYearFirstDay = nextYear + '-01-01';
+                $("<li class=\"sidebar-calendar-item\"><a href=\"#" + nextYearFirstDay +
+                    "\"><div class=\"tempora rubric\">" + nextYear + " ⬎</div></a></li>").appendTo(sidebar);
+
+                markItemActiveCallback(date);
+                $('input#search-input').attr("placeholder", "Szukaj w " + year + "...");
+            });
+        }
+
+
+
+        $(window).on('hashchange', function() {
+            console.log('Hash changed to ' + document.location.hash);
+            let date = document.location.hash.replace("#", "");
+            loadProperByDate(date);
         });
 
+        let date = document.location.hash.replace("#", "");
+        let month;
+        if (date == '') {
+            date = new Date();
 
+        } else {
+            date = new Date(date);
+        }
+        month = date.getMonth() + 1;
+        let dateStr = date.getFullYear() + '-' + month + '-' + date.getDate();
+        loadProperByDate(dateStr);
     });
 </script>
 
