@@ -43,6 +43,7 @@
 
         <div id="sidebar-tools">
             <input id="search-input" type="search" placeholder="Szukaj..." class="form-control" />
+            <span id="search-clear">╳</span>
             <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
                 <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
                     <div class="input-group-text"><i class="fa fa-calendar"></i></div>
@@ -307,6 +308,10 @@
 
         $('#datetimepicker4 input').on('input', function () {
             document.location.hash = this.value;
+            $('input#search-input').val("").trigger("input");
+        });
+
+        $('#search-clear').on('click', function () {
             $('input#search-input').val("").trigger("input");
         });
 
