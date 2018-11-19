@@ -299,6 +299,7 @@
 
         $('#datetimepicker4').datetimepicker({
             format: 'YYYY-MM-DD',
+            useCurrent: false,
             widgetPositioning: {
                 horizontal: 'right'
             }
@@ -306,6 +307,7 @@
 
         $('#datetimepicker4 input').on('input', function () {
             document.location.hash = this.value;
+            $('input#search-input').val("").trigger("input");
         });
 
         $('input#search-input').on('input', function () {
@@ -317,6 +319,7 @@
                 itemsAll.hide();
                 $('li.sidebar-calendar-item div:contains("' + searchString + '")').parent().parent().show("fast");
             }
+            togglePropersSidebarItem(activeDate);
         });
 
         function togglePropersSidebarItem(date) {
@@ -422,22 +425,21 @@
 
 
         $(window).on('hashchange', function() {
-            console.log('Hash changed to ' + document.location.hash);
-            let date = document.location.hash.replace("#", "");
-            loadProperByDate(date);
+            activeDate = document.location.hash.replace("#", "");
+            loadProperByDate(activeDate);
         });
 
-        let date = document.location.hash.replace("#", "");
+        let tmpDate = document.location.hash.replace("#", "");
         let month;
-        if (date == '') {
-            date = new Date();
+        if (tmpDate == '') {
+            tmpDate = new Date();
 
         } else {
-            date = new Date(date);
+            tmpDate = new Date(tmpDate);
         }
-        month = date.getMonth() + 1;
-        let dateStr = date.getFullYear() + '-' + month + '-' + date.getDate();
-        loadProperByDate(dateStr);
+        month = tmpDate.getMonth() + 1;
+        let activeDate = tmpDate.getFullYear() + '-' + month + '-' + tmpDate.getDate();
+        loadProperByDate(activeDate);
     });
 </script>
 
