@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#">Kalendarz<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Formularze</a>
+                    <a class="nav-link" href="#">O Mszale</a>
                 </li>
             </ul>
         </div>
@@ -156,7 +156,7 @@
                 dzisiaj o pomoc
                 Bożą w tej walce (kolekta, antyfona na komunię)</p>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Introit</h2>
                     <p><em>Est 13:9; 13:10-11</em></p>
                     <p>Na mocy Twojej, Panie, wszystko się opiera i nikt nie może sprzeciwić się Twej woli. Ty
@@ -175,7 +175,7 @@
                         wszystkich
                         rzeczy.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Introitus</h2>
                     <p><em>Esth 13:9; 13:10-11</em></p>
                     <p>In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti
@@ -198,7 +198,7 @@
             </div>
             <div class="line"></div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Kolekta</h2>
                     <p>Prosimy Cię, Panie, strzeż nieustannie Twojej rodziny z ojcowską dobrocią, aby pod Twoją
                         opieką
@@ -206,7 +206,7 @@
                         wolna od wszelkich przeciwności, i przez dobre czyny oddana chwale Twego imienia. Przez
                         Pana.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Oratio</h2>
                     <p>Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a cunctis adversitátibus, te
                         protegénte,
@@ -215,7 +215,7 @@
             </div>
             <div class="line"></div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Lekcja</h2>
                     <p>Czytanie z Listu świętego Pawła Apostoła do Efezjan.</p>
                     <p><em>Ef 6:10-17</em></p>
@@ -240,7 +240,7 @@
                         zbawienia i
                         weźmijcie miecz ducha, którym jest Słowo Boże.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h2>Lectio</h2>
                     <p>Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.</p>
                     <p><em>Ephes 6:10-17</em></p>
@@ -378,8 +378,8 @@
 
                 });
                 for (let i = 0; i < sectionsVernacular.length; i++) {
-                    let row = "<div class=\"row\"><div class=\"col-md-6\"><h2>" + sectionsVernacular[i].label +
-                        "</h2><p>"+ sectionsVernacular[i].body.split("\n").join("<br />") +"</p></div><div class=\"col-md-6\"><h2>" + sectionsLatin[i].label +
+                    let row = "<div class=\"row\"><div class=\"col-sm-6\"><h2>" + sectionsVernacular[i].label +
+                        "</h2><p>"+ sectionsVernacular[i].body.split("\n").join("<br />") +"</p></div><div class=\"col-sm-6\"><h2>" + sectionsLatin[i].label +
                         "</h2><p>"+ sectionsLatin[i].body.split("\n").join("<br />") +"</p></div></div>";
                     $(row).appendTo(main);
                 }
