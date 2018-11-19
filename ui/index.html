@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 </head>
 <body>
 
@@ -156,7 +157,7 @@
                 dzisiaj o pomoc
                 Bożą w tej walce (kolekta, antyfona na komunię)</p>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-vernacular">
                     <h2>Introit</h2>
                     <p><em>Est 13:9; 13:10-11</em></p>
                     <p>Na mocy Twojej, Panie, wszystko się opiera i nikt nie może sprzeciwić się Twej woli. Ty
@@ -175,7 +176,7 @@
                         wszystkich
                         rzeczy.</p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-latin">
                     <h2>Introitus</h2>
                     <p><em>Esth 13:9; 13:10-11</em></p>
                     <p>In voluntáte tua, Dómine, univérsa sunt pósita, et non est, qui possit resístere voluntáti
@@ -198,7 +199,7 @@
             </div>
             <div class="line"></div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-vernacular">
                     <h2>Kolekta</h2>
                     <p>Prosimy Cię, Panie, strzeż nieustannie Twojej rodziny z ojcowską dobrocią, aby pod Twoją
                         opieką
@@ -206,7 +207,7 @@
                         wolna od wszelkich przeciwności, i przez dobre czyny oddana chwale Twego imienia. Przez
                         Pana.</p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-latin">
                     <h2>Oratio</h2>
                     <p>Famíliam tuam, quǽsumus, Dómine, contínua pietáte custódi: ut a cunctis adversitátibus, te
                         protegénte,
@@ -215,7 +216,7 @@
             </div>
             <div class="line"></div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-vernacular">
                     <h2>Lekcja</h2>
                     <p>Czytanie z Listu świętego Pawła Apostoła do Efezjan.</p>
                     <p><em>Ef 6:10-17</em></p>
@@ -240,7 +241,7 @@
                         zbawienia i
                         weźmijcie miecz ducha, którym jest Słowo Boże.</p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 section-latin">
                     <h2>Lectio</h2>
                     <p>Lectio Epistolæ beáti Pauli Apóstoli ad Ephésios.</p>
                     <p><em>Ephes 6:10-17</em></p>
@@ -263,15 +264,15 @@
                         Dei.</p>
                 </div>
             </div>
-            <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active">
-                    <input type="radio" name="lang-switch" id="option1" autocomplete="off" checked> pol
-                </label>
-                <label class="btn btn-secondary">
-                    <input type="radio" name="lang-switch" id="option2" autocomplete="off"> łac
-                </label>
-            </div>
         </main>
+        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
+            </label>
+        </div>
     </div>
 </div>
 
@@ -282,6 +283,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
 
 <script type="text/javascript">
@@ -301,6 +303,7 @@
         $('#datetimepicker4').datetimepicker({
             format: 'YYYY-MM-DD',
             useCurrent: false,
+            locale: 'pl',
             widgetPositioning: {
                 horizontal: 'right'
             }
@@ -366,7 +369,7 @@
 
                 let main = $("main");
                 main.empty();
-                main.scrollTop(0);
+                window.scrollTo(0, 0);
 
                 let intro = "<h1 class=\"display-8\">" + title + "</h1><p><em class=\"rubric\"'>";
                 intro += additional_info.join("</em> | <em class=\"rubric\">");
@@ -378,8 +381,8 @@
 
                 });
                 for (let i = 0; i < sectionsVernacular.length; i++) {
-                    let row = "<div class=\"row\"><div class=\"col-sm-6\"><h2>" + sectionsVernacular[i].label +
-                        "</h2><p>"+ sectionsVernacular[i].body.split("\n").join("<br />") +"</p></div><div class=\"col-sm-6\"><h2>" + sectionsLatin[i].label +
+                    let row = "<div class=\"row\"><div class=\"col-sm-6 section-vernacular\"><h2>" + sectionsVernacular[i].label +
+                        "</h2><p>"+ sectionsVernacular[i].body.split("\n").join("<br />") +"</p></div><div class=\"col-sm-6 section-latin\"><h2>" + sectionsLatin[i].label +
                         "</h2><p>"+ sectionsLatin[i].body.split("\n").join("<br />") +"</p></div></div>";
                     $(row).appendTo(main);
                 }
@@ -428,7 +431,37 @@
             });
         }
 
+        $('input[type=radio][name=lang-switch]').change(function() {
+            if (this.id == 'lang-switch-vernacular') {
+                $('div.section-vernacular').show();
+                $('div.section-latin').hide();
+            } else {
+                $('div.section-vernacular').hide();
+                $('div.section-latin').show();
+            }
+        });
 
+        function toggleLanguageColumns() {
+            if ($(window).width() >= 576) {
+                $('div.section-vernacular').show();
+                $('div.section-latin').show();
+            } else {
+                let langId = $('#lang-switch>label.active>input').attr("id");
+                if (langId == 'lang-switch-vernacular') {
+                    $('div.section-vernacular').show();
+                    $('div.section-latin').hide();
+                } else {
+                    $('div.section-vernacular').hide();
+                    $('div.section-latin').show();
+                }
+            }
+        }
+
+
+        $(window).on('resize', function(){
+            console.log($(window).width());
+            toggleLanguageColumns();
+        });
 
         $(window).on('hashchange', function() {
             activeDate = document.location.hash.replace("#", "");
@@ -446,6 +479,7 @@
         month = tmpDate.getMonth() + 1;
         let activeDate = tmpDate.getFullYear() + '-' + month + '-' + tmpDate.getDate();
         loadProperByDate(activeDate);
+        toggleLanguageColumns();
     });
 </script>
 

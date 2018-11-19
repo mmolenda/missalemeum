@@ -50,7 +50,7 @@ a:focus {
     color: #565656;
     transition: all 0.3s;
     overflow: scroll;
-    border-right: 2px solid #faf4c2;
+    border-right: 1px solid #e4d768;
 }
 
 #sidebar.active {
@@ -69,6 +69,10 @@ a:focus {
 #sidebar ul p {
     color: #fff;
     padding: 10px;
+}
+
+#sidebar ul>li {
+    border-bottom: 1px dashed #c3b37e;
 }
 
 #sidebar ul li a {
@@ -121,6 +125,7 @@ a[aria-expanded="true"] {
     background-color: #faf4c2;
     padding: 0 0 25px 0;
     border-bottom: 1px solid #e4d768;
+    border-right: 1px solid #e4d768;
     width: 250px;
     height: 65px;
     position: fixed;
@@ -216,12 +221,11 @@ a[aria-expanded="true"] {
     #content.active {
         width: calc(100% - 250px);
     }
+}
+
+@media (max-width: 575px) {
     #lang-switch {
         display: block;
     }
 }
 
-
-.bgred {
-    background-color: indianred;
-}
