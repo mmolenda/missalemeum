@@ -23,6 +23,7 @@ $(document).ready(function()    {
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
     const $sidebar = $("nav#sidebar");
+    const $sidebarAndContent = $("#sidebar, #content");
 
     function init() {
         moment.locale("pl");
@@ -176,7 +177,7 @@ $(document).ready(function()    {
 
     /**
       * Mark sidebar element for given `date` as active. If an element is not present, reload the sidebar
-      * with data for proper year.
+      * with the data for proper year.
      **/
     function toggleSidebarItem(date) {
         function markItemActive(date) {
@@ -222,9 +223,9 @@ $(document).ready(function()    {
     }
 
     /**
-     *
-     * Bindings
-     *
+      *
+      * Bindings
+      *
      **/
 
     $window.on("resize", function(){
@@ -245,16 +246,38 @@ $(document).ready(function()    {
         }
     });
 
+    /**
+     * When the date is selected from datepicker update url hash and clear the search input
+     **/
     $datetimepicker4.find("input").on("input", function () {
         document.location.hash = this.value;
-        // clear the search input after choosing the date
         $searchInput.val("").trigger("input");
     });
 
+    /**
+     * Toggle sidebar on hamburger menu click ..
+     **/
     $("#sidebar-collapse").on("click", function () {
-        $("#sidebar, #content").toggleClass("active");
+        $sidebarAndContent.toggleClass("active");
     });
 
+    /**
+     * .. and on swipe
+     **/
+    let sidebarTouchXPos = 0;
+    $sidebar.on("touchstart", function (e) {
+        sidebarTouchXPos = e.originalEvent.touches[0].pageX;
+    }).on("touchend", function (e) {
+        if (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 30) {
+            $sidebarAndContent.toggleClass("active");
+        }
+    });
+
+    /**
+     * filter out the elements in the sidebar;
+     * start filtering from 3 characters on;
+     * show all elements on empty input
+     **/
     $searchInput.on("input", function () {
         let searchString = $(this).val();
         if (searchString === "") {
@@ -268,10 +291,17 @@ $(document).ready(function()    {
         }
     });
 
+    /**
+     * X button in the search input clears current search
+     **/
+    //
     $("#search-clear").on("click", function () {
         $searchInput.val("").trigger("input");
     });
 
+    /**
+     * Switch between lang versions on small screens, where the switch is visible
+     **/
     $("input[type=radio][name=lang-switch]").change(function() {
         if (this.id == "lang-switch-vernacular") {
             $("div.section-vernacular").show();

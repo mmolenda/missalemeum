@@ -47,7 +47,7 @@ a:focus {
     z-index: 2;
     background: #fffbdc;
     color: #565656;
-    transition: all 0.3s;
+    transition: all 0.2s;
     overflow: scroll;
     border-right: 1px solid #e4d768;
 }
