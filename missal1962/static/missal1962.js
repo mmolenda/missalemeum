@@ -11,7 +11,7 @@ $(document).ready(function()    {
 
     moment.locale("pl");
 
-    $('#sidebarCollapse').on('click', function () {
+    $('#sidebar-collapse').on('click', function () {
         $('#sidebar, #content').toggleClass('active');
     });
 
