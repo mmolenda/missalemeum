@@ -10,7 +10,6 @@ import click
 import controller
 from kalendar.models import Calendar, Day
 from propers.models import Proper
-from webapp import app
 
 default_language = 'Polski'
 
@@ -95,24 +94,9 @@ def date(date: str, language: str):
         _print_proper('Latin', proper_latin)
 
 
-@click.command()
-@click.argument('search_string')
-@click.option('--language', default=default_language)
-def search(search_string, language):
-    for result in controller.search(search_string, language):
-        click.echo(f'id:{result.id}, title:{result.title}')
-
-
-@click.command()
-def runserver():
-    app.run()
-
-
 cli.add_command(calendar)
 cli.add_command(date)
 cli.add_command(proper)
-cli.add_command(search)
-cli.add_command(runserver)
 
 
 if __name__ == '__main__':

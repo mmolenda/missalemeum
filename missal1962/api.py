@@ -1,5 +1,7 @@
+import os
+
 import datetime
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_file
 from flask_cors import CORS
 from typing import List, Tuple
 
@@ -16,9 +18,14 @@ lang = 'Polski'
 
 
 @app.route('/')
-@app.route('/date')
-def index():
-    return date(datetime.datetime.now().strftime('%Y-%m-%d'))
+@app.route('/<path:path>')
+def frontend(path=''):
+    file_path = os.path.join(app.static_folder, path)
+    if os.path.isfile(file_path):
+        return send_file(file_path)
+    else:
+        index_path = os.path.join(app.static_folder, 'index.html')
+        return send_file(index_path)
 
 
 def _parse_comment(comment: ProperSection) -> dict:
@@ -88,9 +95,5 @@ def calendar(year: int = None):
     return jsonify(missal.serialize())
 
 
-@app.route('/search/<string:token>')
-def search(token: str):
-    payload = {}
-    for result in controller.search(token, lang):
-        payload[result.id] = result.title
-    return jsonify(payload)
+if __name__ == '__main__':
+    app.run()
