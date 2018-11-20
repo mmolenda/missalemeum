@@ -19,6 +19,10 @@ $(document).ready(function()    {
     const templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
     const templateContentIntro = $("#template-content-intro").text();
     const templateContentColumns = $("#template-content-columns").text();
+    const $window = $(window);
+    const $datetimepicker4 = $("#datetimepicker4");
+    const $searchInput = $("input#search-input");
+    const $sidebar = $("nav#sidebar");
 
     function init() {
         moment.locale("pl");
@@ -68,18 +72,18 @@ $(document).ready(function()    {
       * the sidebar with <li> elements.
       * Once populated, fire the callback function to activate selected item and clear the search input.
      **/
-    function loadPropersSidebar(date, markItemActiveCallback) {
+    function loadSidebar(date, markItemActiveCallback) {
         let year = date.split("-")[0];
         $.getJSON( calendarEndpoint + year, function( data ) {
-            let sidebar = $("nav#sidebar>ul");
-            sidebar.empty();
+            let sidebarUl = $sidebar.find("ul");
+            sidebarUl.empty();
 
             let prevYear = parseInt(year) - 1;
             let prevYearLastDay = prevYear + "-12-31";
             $(renderTemplate(templateSidebarCalendarItemYear, {
                 date: prevYearLastDay,
                 year: prevYear
-            })).appendTo(sidebar);
+            })).appendTo(sidebarUl);
 
             $.each(data, function(date, day) {
                 let additional_info = [date];
@@ -97,7 +101,7 @@ $(document).ready(function()    {
                     date: date,
                     celebration: celebration,
                     additional_info: additional_info.join(" | ")
-                })).appendTo(sidebar);
+                })).appendTo(sidebarUl);
 
 
             });
@@ -107,10 +111,10 @@ $(document).ready(function()    {
             $(renderTemplate(templateSidebarCalendarItemYear, {
                 date: nextYearFirstDay,
                 year: nextYear
-            })).appendTo(sidebar);
+            })).appendTo(sidebarUl);
 
             markItemActiveCallback(date);
-            $("input#search-input").attr("placeholder", "Szukaj w " + year + "...");
+            $searchInput.attr("placeholder", "Szukaj w " + year + "...");
         });
     }
 
@@ -147,6 +151,7 @@ $(document).ready(function()    {
             })).appendTo(main);
 
             $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
+                // replacing all surrounding asterisks with surrounding <em>s in body
                 $.each(sections, function(x, y) {sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
 
             });
@@ -164,8 +169,8 @@ $(document).ready(function()    {
                     sectionLatin: sectionLatin.body.split("\n").join("<br />")
                 })).appendTo(main);
             }
-            togglePropersSidebarItem(date);
-            $("#datetimepicker4").datetimepicker("date", date);
+            toggleSidebarItem(date);
+            $datetimepicker4.datetimepicker("date", date);
         });
     }
 
@@ -173,24 +178,23 @@ $(document).ready(function()    {
       * Mark sidebar element for given `date` as active. If an element is not present, reload the sidebar
       * with data for proper year.
      **/
-    function togglePropersSidebarItem(date) {
+    function toggleSidebarItem(date) {
         function markItemActive(date) {
-            $("nav#sidebar li.sidebar-calendar-item").removeClass("active");
+            $sidebar.find("li.sidebar-calendar-item").removeClass("active");
             let newActive = $("li#sidebar-calendar-item-" + date);
             newActive.addClass("active");
-            let sidebar = $("nav#sidebar");
 
             let itemPosition = newActive.position().top;
-            let sidebarPosition = Math.abs(sidebar.find("ul").position().top);
+            let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
 
-            if (Math.abs(itemPosition) > sidebar.height() * 0.6) {
-                sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+            if (Math.abs(itemPosition) > $sidebar.height() * 0.6) {
+                $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
             }
         }
 
         let newActive = $("li#sidebar-calendar-item-" + date);
         if (newActive.length == 0) {
-            loadPropersSidebar(date, markItemActive);
+            loadSidebar(date, markItemActive);
         } else {
             markItemActive(date);
         }
@@ -223,15 +227,15 @@ $(document).ready(function()    {
      *
      **/
 
-    $(window).on("resize", function(){
+    $window.on("resize", function(){
         adaptSectionColumns();
     });
 
-    $(window).on("hashchange", function() {
+    $window.on("hashchange", function() {
         loadProper(getDate());
     });
 
-    $("#datetimepicker4").datetimepicker({
+    $datetimepicker4.datetimepicker({
         format: "YYYY-MM-DD",
         useCurrent: false,
         locale: "pl",
@@ -241,22 +245,22 @@ $(document).ready(function()    {
         }
     });
 
-    $("#datetimepicker4 input").on("input", function () {
+    $datetimepicker4.find("input").on("input", function () {
         document.location.hash = this.value;
         // clear the search input after choosing the date
-        $("input#search-input").val("").trigger("input");
+        $searchInput.val("").trigger("input");
     });
 
     $("#sidebar-collapse").on("click", function () {
         $("#sidebar, #content").toggleClass("active");
     });
 
-    $("input#search-input").on("input", function () {
+    $searchInput.on("input", function () {
         let searchString = $(this).val();
         if (searchString === "") {
             let itemsAll = $(".sidebar-calendar-item");
             itemsAll.show();
-            togglePropersSidebarItem(getDate());
+            toggleSidebarItem(getDate());
         } else if (searchString.length > 2) {
             let itemsAll = $(".sidebar-calendar-item");
             itemsAll.hide();
@@ -265,7 +269,7 @@ $(document).ready(function()    {
     });
 
     $("#search-clear").on("click", function () {
-        $("input#search-input").val("").trigger("input");
+        $searchInput.val("").trigger("input");
     });
 
     $("input[type=radio][name=lang-switch]").change(function() {
