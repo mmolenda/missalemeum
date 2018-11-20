@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mszał Rzymski</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">Mszał Rzymski</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span>⋮</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Kalendarz<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about.html">O Mszale</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="wrapper">
+    <div id="content" role="main" class="container-fluid">
+        <main class="col-md-9">
+            <h1>Mszał Rzymski – informacje</h1>
+            <p>Strona Mszał Rzymski powstała na chwałę Boską i pożytek człowieczy.</p>
+        </main>
+        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
+            </label>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
