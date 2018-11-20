@@ -296,6 +296,8 @@
             };
         });
 
+        moment.locale("pl");
+
         $('#sidebarCollapse').on('click', function () {
             $('#sidebar, #content').toggleClass('active');
         });
@@ -371,6 +373,9 @@
                 main.empty();
                 window.scrollTo(0, 0);
 
+                if (title == null) {
+                    title = moment(data['info'].date, "YYYY-MM-DD").format("DD MMMM");
+                }
                 let intro = "<h1 class=\"display-8\">" + title + "</h1><p><em class=\"rubric\"'>";
                 intro += additional_info.join("</em> | <em class=\"rubric\">");
                 intro += "</em></p><p>" + descritpion +  "</p>";
@@ -408,7 +413,7 @@
                     if (day.celebration.length > 0) {
                         celebration = day.celebration[0].title;
                     } else {
-                        celebration = date;
+                        celebration = moment(date, "YYYY-MM-DD").format("DD MMMM");
                     }
                     if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
                         additional_info.push(day.tempora[0].title);
