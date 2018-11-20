@@ -151,11 +151,17 @@ $(document).ready(function()    {
 
             });
             for (let i = 0; i < sectionsVernacular.length; i++) {
+                let sectionVernacular = sectionsVernacular[i];
+                let sectionLatin = sectionsLatin[i];
+                if (sectionLatin == null) {
+                    sectionLatin = {label: "", body: ""};
+                    console.error("Latin sections missing in " + date);
+                }
                 $(renderTemplate(templateContentColumns, {
-                    labelVernacular: sectionsVernacular[i].label,
-                    sectionVernacular: sectionsVernacular[i].body.split("\n").join("<br />"),
-                    labelLatin: sectionsLatin[i].label,
-                    sectionLatin: sectionsLatin[i].body.split("\n").join("<br />")
+                    labelVernacular: sectionVernacular.label,
+                    sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
+                    labelLatin: sectionLatin.label,
+                    sectionLatin: sectionLatin.body.split("\n").join("<br />")
                 })).appendTo(main);
             }
             togglePropersSidebarItem(date);
