@@ -40,12 +40,11 @@ a:focus {
 #sidebar {
     width: 250px;
     margin-top: 55px;
-    /*padding-top:65px;*/
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
-    z-index: 999;
+    height: calc(100% - 55px);
+    z-index: 2;
     background: #fffbdc;
     color: #565656;
     transition: all 0.3s;
@@ -58,7 +57,7 @@ a:focus {
 }
 
 #sidebar > ul.list-unstyled {
-    padding: 65px 0 65px 0;
+    padding: 65px 0 0 0;
 }
 
 #sidebar ul.components {
@@ -74,6 +73,11 @@ a:focus {
 #sidebar ul>li {
     border-bottom: 1px dashed #c3b37e;
 }
+
+#sidebar ul>li:last-child {
+    border-bottom: 0;
+}
+
 
 #sidebar ul li a {
     padding: 10px;

@@ -459,7 +459,6 @@
 
 
         $(window).on('resize', function(){
-            console.log($(window).width());
             toggleLanguageColumns();
         });
 
@@ -469,15 +468,13 @@
         });
 
         let tmpDate = document.location.hash.replace("#", "");
-        let month;
         if (tmpDate == '') {
-            tmpDate = new Date();
+            tmpDate = moment();
 
         } else {
-            tmpDate = new Date(tmpDate);
+            tmpDate = moment(tmpDate, "YYYY-MM-DD");
         }
-        month = tmpDate.getMonth() + 1;
-        let activeDate = tmpDate.getFullYear() + '-' + month + '-' + tmpDate.getDate();
+        let activeDate = tmpDate.format("YYYY-MM-DD");
         loadProperByDate(activeDate);
         toggleLanguageColumns();
     });
