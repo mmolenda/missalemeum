@@ -51,10 +51,16 @@
             <p>Wszelkie uwagi, pomysły, zapytania, zgłoszenia błędów można kierować za pośrednictwem poniższego
             formularza</p>
             <p>
-            <form action="https://formspree.io/spamm@molenda.eu" method="POST">
-            Tekst: <textarea type="text" name="name"></textarea><br/>
-                Email: <input type="email" name="_replyto">
-                <input type="submit" value="Wyślij">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="input-text">Treść</label>
+                    <textarea class="form-control" id="input-text" type="text" name="name" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="input-email">Email</label>
+                    <input type="email" class="form-control" id="input-email" name="_replyto">
+                </div>
+                <button type="submit" class="btn btn-secondary">Wyślij</button>
             </form>
             </p>
             <p>Autorzy polecają się modlitwie.</p>
