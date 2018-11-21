@@ -208,6 +208,17 @@ a[aria-expanded="true"] {
     background-color: #1e1e1e;
 }
 
+#content-tools {
+    display: none;
+}
+
+#content-tools a {
+    float: right;
+    position: relative;
+    z-index: 5;
+    margin: 2px;
+}
+
 /*
  ======== Media ========
 */
@@ -227,9 +238,16 @@ a[aria-expanded="true"] {
     }
 }
 
+@media (min-width: 768px) {
+    #content-tools {
+        display: block;
+    }
+}
+
 @media (max-width: 575px) {
     #lang-switch {
         display: block;
     }
 }
+
 

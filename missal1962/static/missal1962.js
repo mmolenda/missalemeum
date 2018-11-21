@@ -19,6 +19,7 @@ $(document).ready(function()    {
     const templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
     const templateContentIntro = $("#template-content-intro").text();
     const templateContentColumns = $("#template-content-columns").text();
+    const templateContentPrint = $("#template-content-print").text();
     const $window = $(window);
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
@@ -281,11 +282,11 @@ $(document).ready(function()    {
     $searchInput.on("input", function () {
         let searchString = $(this).val();
         if (searchString === "") {
-            let itemsAll = $(".sidebar-calendar-item");
+            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
             itemsAll.show();
             toggleSidebarItem(getDate());
         } else if (searchString.length > 2) {
-            let itemsAll = $(".sidebar-calendar-item");
+            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
             itemsAll.hide();
             $('li.sidebar-calendar-item div:contains("' + searchString + '")').parent().parent().show("fast");
         }
@@ -310,5 +311,14 @@ $(document).ready(function()    {
             $("div.section-vernacular").hide();
             $("div.section-latin").show();
         }
+    });
+
+    $("#print").on("click", function () {
+        let newWindow = window.open('','', "width=650, height=750");
+        let newContent = renderTemplate(templateContentPrint, {main: $("main").html()});
+        newWindow.document.write(newContent);
+        newWindow.document.close();
+        newWindow.focus();
+        return true;
     });
 });
