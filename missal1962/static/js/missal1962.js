@@ -76,7 +76,7 @@ $(document).ready(function()    {
      **/
     function loadSidebar(date, markItemActiveCallback) {
         let year = date.split("-")[0];
-        $.getJSON( calendarEndpoint + year, function( data ) {
+        $.getJSON( config.calendarEndpoint + year, function( data ) {
             let sidebarUl = $sidebar.find("ul");
             sidebarUl.empty();
 
@@ -130,7 +130,7 @@ $(document).ready(function()    {
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
     function loadProper(date) {
-        $.getJSON( dateEndpoint + date, function( data ) {
+        $.getJSON( config.dateEndpoint + date, function( data ) {
             let title = data["info"].title;
             let description = data["info"].description;
             let sectionsVernacular = data.proper_vernacular;
@@ -243,8 +243,8 @@ $(document).ready(function()    {
 
     $datetimepicker4.datetimepicker({
         format: "YYYY-MM-DD",
-        minDate: "2017-01-01",
-        maxDate: "2019-12-31",
+        minDate: config.minDate,
+        maxDate: config.maxDate,
         useCurrent: false,
         locale: "pl",
         widgetPositioning: {
