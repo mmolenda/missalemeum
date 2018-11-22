@@ -25,7 +25,7 @@ The application can work without the API. In such a case it utilizes a limited s
 To run in this mode simply navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
 
 ```bash
-cd missal1962/static
+$ cd missal1962/static
 $ python -m http.server 8000
 ```
 
@@ -80,7 +80,7 @@ $ python missal1962/cli.py date 2018-05-03
 
 Show Proprium Missae for given observance
 
-*Observance ID can be obtained either from calendar's output*
+*Observance ID can be obtained from calendar's output*
 ```bash
 # Second Sunday of Advent
 $ python missal1962/cli.py proper tempora:Adv2-0
