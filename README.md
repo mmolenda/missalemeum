@@ -1,31 +1,66 @@
 # Missal 1962
 
-1962 Roman Catholic Missal for the Traditional Latin Mass
+1962 Roman Catholic Missal for the Traditional Latin Mass.
+
+The application consists of Python/Flask API, serving calendar and propers for a given day, and Bootstrap UI consuming 
+and presenting the data. The application utilizes data files from
+ [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
+ [git submodule](missal1962/resources/divinum-officium).
 
 ## Features 
 
-* Calculate the calendar for given liturgical year
-* Show Proprium Missae for given date
-* Show Proprium Missae for given observance
-* Search for the observances containing given word in the title
+* Calculates the calendar for given liturgical year
+* Shows Proprium Missae for a given date
+* Shows Proprium Missae for a given observance
 
-At the moment the only supported language is Polish.
+At the moment the only supported vernacular language is Polish, but since the data for many other languages
+is available in Divinum Officium, it will be relatively easy to support them. Volunteers are welcome to contribute. 
 
-## Installation
+## Running the application
+
+### Static mode
+
+The application can work without the API. In such a case it utilizes a limited set of [generated data files](missal1962/static/data).
+
+To run in this mode simply navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
+
+```bash
+cd missal1962/static
+$ python -m http.server 8000
+```
+
+and navigate to http://0.0.0.0:8000/.
+
+### API mode
 
 Prerequisites:
 
-* Python 3
+* Python 3.6
 * [Pipenv](https://pipenv.readthedocs.io/en/latest/)
 
-As of now the only way to install is by cloning the repository. Use `--recursive` switch
-to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium) as 
-a submodule - it's used to display propers.
+Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
+as a submodule - it's used to display propers.
 
 Once cloned, go to the project's dir and call `pipenv install` to install a dedicated virtualenv with
 required dependencies. Then `pipenv shell` to activate the environment.
 
-## Usage
+In [index.html](static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
+
+Run the API:
+
+```bash
+$ python missal1962/api.py
+```
+
+and navigate to http://0.0.0.0:8000/.
+
+#### API endpoints:
+
+* `GET /` serve the static files 
+* `GET /calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
+* `GET /date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
+* `GET /proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for fourth Advent Sunday 
+
 
 ### Command line (CLI)
 
@@ -45,7 +80,7 @@ $ python missal1962/cli.py date 2018-05-03
 
 Show Proprium Missae for given observance
 
-*Observance ID can be obtained either from calendar or from search command's output*
+*Observance ID can be obtained either from calendar's output*
 ```bash
 # Second Sunday of Advent
 $ python missal1962/cli.py proper tempora:Adv2-0
