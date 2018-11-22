@@ -5,7 +5,7 @@
 The application consists of Python/Flask API, serving calendar and propers for a given day, and Bootstrap UI consuming 
 and presenting the data. The application utilizes data files from
  [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
- [git submodule](missal1962/resources/divinum-officium).
+ [git submodule](missal1962/resources).
 
 ## Features 
 
@@ -44,7 +44,7 @@ as a submodule - it's used to display propers.
 Once cloned, go to the project's dir and call `pipenv install` to install a dedicated virtualenv with
 required dependencies. Then `pipenv shell` to activate the environment.
 
-In [index.html](static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
+In [index.html](missal1962/static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
 
 Run the API:
 
