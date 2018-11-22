@@ -153,7 +153,7 @@ $(document).ready(function()    {
             $(renderTemplate(templateContentIntro, {
                 title: title,
                 additional_info: additional_info.join('</em> | <em class="rubric">'),
-                description: description
+                description: description.split("\n").join("<br />")
             })).appendTo(main);
 
             $.each([sectionsVernacular, sectionsLatin], function(i, sections) {

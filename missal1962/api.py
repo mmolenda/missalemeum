@@ -39,7 +39,7 @@ def _parse_comment(comment: ProperSection) -> dict:
         elif ln.startswith('*') and ln.endswith('*'):
             retval['additional_info'].append(ln.replace('*', ''))
         else:
-            retval['description'] += ln
+            retval['description'] += ln + '\n'
     return retval
 
 
