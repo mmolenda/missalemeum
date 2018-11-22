@@ -1,0 +1,141 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-08-20", 
+    "description": "\u015aw. Bernard urodzi\u0142 si\u0119 pod Dijon we Francji w roku 1090. Maj\u0105c dwadzie\u015bcia dwa lata wst\u0105pi\u0142 do opactwa Cysters\u00f3w w Citeaux, poci\u0105gaj\u0105c za sob\u0105 30 towarzyszy m\u0142odo\u015bci. Trzy lata p\u00f3\u017aniej za\u0142o\u017cy\u0142 opactwo w Clairvaux i by\u0142 jego prze\u0142o\u017conym a\u017c do \u015bmierci.\u015aw. Bernard by\u0142 nie tylko gorliwym opatem swojej rodziny zakonnej, lecz wywar\u0142 wp\u0142yw na \u017cycie Ko\u015bcio\u0142a w swojej epoce. Po\u0142o\u017cy\u0142 kres schizmie Anakleta w Rzymie, obali\u0142 herezj\u0119 Abelarda i zdemaskowa\u0142 b\u0142\u0119dy Arnolda z Brescji. Z polecenia papie\u017ca g\u0142osi\u0142 drug\u0105 krucjat\u0119. Nadzwyczajny dar wymowy zjedna\u0142 mu tytu\u0142 Doktora Miodop\u0142ynnego. By\u0142 jednym z najwi\u0119kszych piewc\u00f3w Matki Bo\u017cej. Zostawi\u0142 wiele homilii i modlitw ku Jej czci, kt\u00f3re a\u017c do dzisiaj karmi\u0105 nasz\u0105 pobo\u017cno\u015b\u0107. Zmar\u0142 w Clairvaux 20 sierpnia 1153 roku.Msza wsp\u00f3lna nr 20 In medio", 
+    "tempora": "Poniedzia\u0142ek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Bernarda, Opata i Doktora Ko\u015bcio\u0142a"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Eccli 15:5.*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum\n*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui p\u00f3pulo tuo \u00e6t\u00e9rn\u00e6 sal\u00fatis be\u00e1tum Bern\u00e1rdum min\u00edstrum tribu\u00edsti: pr\u00e6sta, qu\u01fdsumus; ut, quem Doct\u00f3rem vit\u00e6 hab\u00faimus in terris, intercess\u00f3rem hab\u00e9re mere\u00e1mur in coelis.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Infra Octavam Assumptionis*\nFamulorum tu\u00f3rum, qu\u01fdsumus, D\u00f3mine, del\u00edctis ign\u00f3sce: ut, qui tibi plac\u00e9re de \u00e1ctibus nostris non val\u00e9mus; Genetr\u00edcis F\u00edlii tui, D\u00f3mini nostri, intercessi\u00f3ne salv\u00e9mur:\nQui tecum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 39:6-14*\nJustus cor suum tradet ad vigil\u00e1ndum dil\u00faculo ad D\u00f3minum, qui fecit illum, et in consp\u00e9ctu Alt\u00edssimi deprec\u00e1bitur. Ap\u00e9riet os suum in orati\u00f3ne, et pro del\u00edctis suis deprec\u00e1bitur. Si enim D\u00f3minus magnus vol\u00faerit, sp\u00edritu intelleg\u00e9nti\u00e6 repl\u00e9bit illum: et ipse tamquam imbres mittet el\u00f3quia sapi\u00e9nti\u00e6 su\u00e6, et in orati\u00f3ne confit\u00e9bitur D\u00f3mino: et ipse d\u00edriget cons\u00edlium ejus et discipl\u00ednam, et in absc\u00f3nditis suis consili\u00e1bitur. Ipse palam f\u00e1ciet discipl\u00ednam doctr\u00edn\u00e6 su\u00e6, et in lege testam\u00e9nti D\u00f3mini glori\u00e1bitur. Collaud\u00e1bunt multi sapi\u00e9ntiam ejus, et usque in saeculum non del\u00e9bitur. Non rec\u00e9det mem\u00f3ria ejus, et nomen ejus requir\u00e9tur a generati\u00f3ne in generati\u00f3nem. Sapi\u00e9ntiam ejus enarr\u00e1bunt gentes, et laudem ejus enunti\u00e1bit eccl\u00e9sia.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja\n*Ps 45:9*\nAm\u00e1vit eum D\u00f3minus, et orn\u00e1vit eum: stolam gl\u00f3ri\u00e6 \u00ednduit eum. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 5:13-19*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Vos estis sal terr\u00e6. Quod si sal evan\u00faerit, in quo sali\u00e9tur? Ad n\u00edhilum valet ultra, nisi ut mitt\u00e1tur foras, et conculc\u00e9tur ab hom\u00ednibus. Vos estis lux mundi. Non potest c\u00edvitas absc\u00f3ndi supra montem p\u00f3sita. Neque acc\u00e9ndunt luc\u00e9rnam, et ponunt eam sub m\u00f3dio, sed super candel\u00e1brum, ut l\u00faceat \u00f3mnibus, qui in domo sunt. Si l\u00faceat lux vestra coram hom\u00ednibus, ut videant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum, qui in coelis est. Nol\u00edte putare, qu\u00f3niam veni s\u00f3lvere legem aut proph\u00e9tas: non veni s\u00f3lvere, sed adimpl\u00e9re. Amen, quippe dico vobis, donec tr\u00e1nseat coelum et terra, jota unum aut unus apex non pr\u00e6ter\u00edbit a lege, donec \u00f3mnia fiant. Qui ergo solvent unum de mand\u00e1tis istis m\u00ednimis, et doc\u00faerit sic h\u00f3mines, m\u00ednimus voc\u00e1bitur in regno coel\u00f3rum: qui autem f\u00e9cerit et doc\u00faerit, hic magnus voc\u00e1bitur in regno coel\u00f3rum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus, qu\u00e6 in L\u00edbano est, multiplic\u00e1bitur.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Sancti Bernardi Confess\u00f3ris tui atque Doctoris nobis, D\u00f3mine, pia non desit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Infra Octavam Assumptionis*\nSubv\u00e9niat, D\u00f3mine, plebi tu\u00e6 Dei Genetr\u00edcis or\u00e1tio: quam etsi pro conditi\u00f3ne carnis migr\u00e1sse cogn\u00f3scimus, in coel\u00e9sti gl\u00f3ria apud te pro nobis interc\u00e9dere senti\u00e1mus. Per e\u00fandem D\u00f3minum nostrum. Pr\u00e6fatio de Octava.\nPer e\u00fandem.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ut nobis, D\u00f3mine, tua sacrif\u00edcia dent sal\u00fatem: be\u00e1tus Bern\u00e1rdus Conf\u00e9ssor tuus et Doctor egr\u00e9gius, qu\u01fdsumus, prec\u00e1tor acc\u00e9dat.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Infra Octavam Assumptionis*\nMens\u00e6 coelestis part\u00edcipes eff\u00e9cti, implor\u00e1mus clem\u00e9ntiam tuam, D\u00f3mine, Deus noster: ut, qui Assumpti\u00f3nem Dei Genetr\u00edcis c\u00f3limus, a cunctis malis immin\u00e9ntibus, ejus intercessi\u00f3ne, liber\u00e9mur.\nPer e\u00fandem.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty\u015b da\u0142 ludowi Swemu \u015bwi\u0119tego Bernarda za po\u015brednika zbawienia wiecznego, spraw, prosimy Ci\u0119, aby\u015bmy mogli mie\u0107 or\u0119downikiem w niebie tego, kt\u00f3ry na ziemi by\u0142 dla nas mistrzem \u017cycia.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Syr 39:6-14*\nSprawiedliwy ju\u017c od zarania czujnie zwraca swe serce do Pana, kt\u00f3ry go stworzy\u0142, i przed obliczem Najwy\u017cszego si\u0119 modli. Otwiera usta swe do modlitwy i za w\u0142asne winy przeprasza. Je\u017celi bowiem zechce wielki B\u00f3g, to go nape\u0142ni duchem zrozumienia, a wtedy na kszta\u0142t deszczu wyda on z siebie s\u0142owa m\u0105dro\u015bci i b\u0119dzie wielbi\u0142 Pana modlitw\u0105. W\u0142a\u015bciwie kieruje sw\u0105 rad\u0119 i wiedz\u0119, i wnika my\u015bl\u0105 w Bo\u017ce tajemnice. Jawnie ukazuje wyuczon\u0105 m\u0105dro\u015b\u0107 i chlubi si\u0119 z Prawa Pa\u0144skiego. Wielu b\u0119dzie wys\u0142awia\u0107 jego roztropno\u015b\u0107, a nigdy nie ulegnie on zapomnieniu. Pami\u0119\u0107 o nim nie zaginie, a imi\u0119 jego b\u0119dzie \u017cywe z pokolenia na pokolenie. Narody b\u0119d\u0105 opowiada\u0142y jego m\u0105dro\u015b\u0107, a zgromadzenie wiernych g\u0142osi\u0107 b\u0119dzie jego chwa\u0142\u0119.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w sercu jego, a kroki si\u0119 jego nie chwiej\u0105. Alleluja, alleluja.\n*Syr 45:9*\nUmi\u0142owa\u0142 go Pan i przyozdobi\u0142, przyodzia\u0142 go szat\u0105 chwa\u0142y. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abWy jeste\u015bcie sol\u0105 ziemi. A je\u015bli s\u00f3l zwietrzeje, czym\u017ce si\u0119 soli\u0107 b\u0119dzie? Na nic si\u0119 wi\u0119cej nie przyda, jeno aby by\u0142a precz wyrzucona i podeptana przez ludzi. Wy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Nie mo\u017ce skry\u0107 si\u0119 miasto na g\u00f3rze le\u017c\u0105ce. Ani te\u017c nie zapalaj\u0105 \u015bwiecy i nie k\u0142ad\u0105 jej pod korzec, ale na \u015bwieczniku, aby \u015bwieci\u0142a wszystkim, kt\u00f3rzy s\u0105 w domu. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech. Nie mniemajcie, \u017cem przyszed\u0142 rozwi\u0105zywa\u0107 Zakon i Prorok\u00f3w: nie przyszed\u0142em rozwi\u0105zywa\u0107, ale wype\u0142ni\u0107. Zaprawd\u0119 bowiem powiadam wam: Dop\u00f3ki nie przemin\u0105 niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni si\u0119 w Zakonie, a\u017c si\u0119 wszystko wype\u0142ni. Kto by tedy przest\u0105pi\u0142 jedno z tych przykaza\u0144 najmniejszych i tak by ludzi naucza\u0142, b\u0119dzie zwany najmniejszym w Kr\u00f3lestwie Niebieskim. A kto by wype\u0142nia\u0142 i naucza\u0142, ten b\u0119dzie zwany wielkim w Kr\u00f3lestwie Niebieskim\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, niech nam nie zabraknie serdecznej modlitwy \u015bwi\u0119tego Bernarda, Twego Biskupa i Doktora, kt\u00f3ra zaleci Tobie nasz\u0105 ofiar\u0119 i wyjedna nam Twoje przebaczenie.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postawi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, niech \u015bwi\u0119ty Bernard, Tw\u00f3j Biskup i znamienity Doktor, wstawi si\u0119 jako or\u0119downik, aby ta ofiara Twoja da\u0142a nam zbawienie.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

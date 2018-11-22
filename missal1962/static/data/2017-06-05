@@ -1,0 +1,127 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Piotra w Okowach", 
+      "1 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2017-06-05", 
+    "description": "Duch \u015awi\u0119ty udziela si\u0119 duszom w sakramentach. Przez Chrzest zapocz\u0105tkowuje w nas \u017cycie Bo\u017ce, przez Bierzmowanie umacnia je, a przez Eucharysti\u0119 rozwija i doskonali.W dniu dzisiejszym Ko\u015bci\u00f3\u0142 przypomina ochrzczonym wielko\u015b\u0107 \u017cycia nadprzyrodzonego, kt\u00f3re rozpocz\u0119li przyjmuj\u0105c Chrzest.", 
+    "tempora": null, 
+    "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 80:17.*\nCib\u00e1vit eos ex \u00e1dipe frum\u00e9nti, allel\u00faja: et de petra, melle satur\u00e1vit eos, allel\u00faja, allel\u00faja.\n*Ps 80:2*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob.\nGl\u00f3ria Patri.\nCib\u00e1vit eos ex \u00e1dipe frum\u00e9nti, allel\u00faja: et de petra, melle satur\u00e1vit eos, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui Ap\u00f3stolis tuis Sanctum ded\u00edsti Sp\u00edritum: conc\u00e9de plebi tu\u00e6 pi\u00e6 petiti\u00f3nis eff\u00e9ctum; ut, quibus ded\u00edsti fidem, largi\u00e1ris et pacem.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Actuum Apostol\u00f3rum.\n*Acts 10:34; 10:42-48*\nIn di\u00e9bus illis: Ap\u00e9riens Petrus os suum, dixit: Viri fratres, nobis pr\u00e6c\u00e9pit D\u00f3minus pr\u00e6dic\u00e1re p\u00f3pulo: et testific\u00e1ri, quia ipse est, qui constit\u00fatus est a Deo judex viv\u00f3rum et mortu\u00f3rum. Huic omnes Proph\u00e9t\u00e6 testim\u00f3nium p\u00e9rhibent, remissi\u00f3nem peccat\u00f3rum acc\u00edpere per nomen ejus omnes, qui credunt in eum. Adhuc loqu\u00e9nte Petro verba h\u00e6c, cecidit Sp\u00edritus Sanctus super omnes, qui audi\u00e9bant verbum. Et obstupu\u00e9runt ex circumcisi\u00f3ne fid\u00e9les, qui v\u00e9nerant cum Petro: quia et in nati\u00f3nes gr\u00e1tia Sp\u00edritus Sancti eff\u00fasa est. Audi\u00e9bant enim illos loqu\u00e9ntes linguis et magnific\u00e1ntes Deum. Tunc resp\u00f3ndit Petrus: Numquid aquam quis prohib\u00e9re potest, ut non baptiz\u00e9ntur hi, qui Sp\u00edritum Sanctum accep\u00e9runt sicut et nos? Et jussit eos baptiz\u00e1ri in n\u00f3mine D\u00f3mini Jesu Christi.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja, allel\u00faja\n*Acts 2:4*\nLoqueb\u00e1ntur v\u00e1riis linguis Ap\u00f3stoli magn\u00e1lia Dei. Allel\u00faja. (Hic genuflectitur)\nV. Veni, Sancte Spiritus, reple tuorum corda fid\u00e9lium: et tui am\u00f3ris in eis ignem acc\u00e9nde.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Veni, Sancte Sp\u00edritus,\net em\u00edtte caelitus\nlucis tu\u00e6 r\u00e1dium.\n\nVeni, pater p\u00e1uperum;\nveni, dator m\u00fanerum;\nveni, lumen c\u00f3rdium.\n\nConsol\u00e1tor \u00f3ptime,\ndulcis hospes \u00e1nim\u00e6,\ndulce refrig\u00e9rium.\n\nIn lab\u00f3re r\u00e9quies,\nin \u00e6stu temp\u00e9ries,\nin fletu sol\u00e1cium.\n\nO lux beat\u00edssima,\nreple cordis \u00edntima\ntu\u00f3rum fid\u00e9lium.\n\nSine tuo n\u00famine\nnihil est in h\u00f3mine,\nnihil est inn\u00f3xium.\n\nLava quod est s\u00f3rdidum,\nriga quod est \u00e1ridum,\nsana quod est s\u00e1ucium.\n\nFlecte quod est r\u00edgidum,\nfove quod est fr\u00edgidum,\nrege quod est d\u00e9vium.\n\nDa tuis fid\u00e9libus,\nin te confid\u00e9ntibus,\nsacrum septen\u00e1rium.\n\nDa virt\u00fatis m\u00e9ritum,\nda sal\u00fatis \u00e9xitum,\nda per\u00e9nne g\u00e1udium.\nAmen. Allel\u00faja.", 
+      "id": "Sequentia", 
+      "label": "Sequentia"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 3:16-21*\nIn illo t\u00e9mpore: Dixit Jesus Nicod\u00e9mo: Sic Deus dil\u00e9xit mundum, ut F\u00edlium suum unig\u00e9nitum daret: ut omnis, qui credit in eum, non p\u00e9reat, sed h\u00e1beat vitam \u00e6t\u00e9rnam. Non enim misit Deus F\u00edlium suum in mundum, ut j\u00fadicet mundum, sed ut salv\u00e9tur mundus per ipsum. Qui credit in eum, non judic\u00e1tur; qui autem non credit, jam judic\u00e1tus est: quia non credit in n\u00f3mine unig\u00e9niti F\u00edlii Dei. Hoc est autem jud\u00edcium: quia lux venit in mundum, et dilex\u00e9runt h\u00f3mines magis t\u00e9nebras quam lucem: erant enim e\u00f3rum mala \u00f3pera. Omnis enim, qui male agit, odit lucem, et non venit ad lucem, ut non argu\u00e1ntur \u00f3pera ejus: qui autem facit verit\u00e1tem, venit ad lucem, ut manifest\u00e9ntur \u00f3pera ejus, quia in Deo sunt facta.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 17:14 et 16.*\nInt\u00f3nuit de coelo D\u00f3minus, et Alt\u00edssimus dedit vocem suam: et apparu\u00e9runt fontes aqu\u00e1rum, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Prop\u00edtius, D\u00f3mine, qu\u01fdsumus, h\u00e6c dona sanct\u00edfica: et, h\u00f3sti\u00e6 spirit\u00e1lis oblati\u00f3ne susc\u00e9pta, nosmet\u00edpsos tibi p\u00e9rfice munus \u00e6t\u00e9rnum.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Spiritu Sancto*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Qui, asc\u00e9ndens super omnes coelos sed\u00e9nsque ad d\u00e9xteram tuam, prom\u00edssum Sp\u00edritum Sanctum * * in f\u00edlios adopti\u00f3nis eff\u00fadit. Quapr\u00f3pter prof\u00fasis g\u00e1udiis totus in orbe terr\u00e1rum mundus exs\u00faltat. Sed et sup\u00e9rn\u00e6 Virt\u00fates atque ang\u00e9lic\u00e6 Potest\u00e1tes hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00f3ncinunt, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 14:26*\nSp\u00edritus Sanctus doc\u00e9bit vos, allel\u00faja: qu\u00e6c\u00famque d\u00edxero vobis, allel\u00faja, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ad\u00e9sto, qu\u01fdsumus, D\u00f3mine, p\u00f3pulo tuo: et, quem myst\u00e9riis coel\u00e9stibus imbu\u00edsti, ab h\u00f3stium fur\u00f3re def\u00e9nde.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 80:17*\nNakarmi\u0142 ich wyborn\u0105 pszenic\u0105, alleluja, alleluja, i nasyci\u0142 miodem z opoki, alleluja, alleluja.\n*Ps 80:2*\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Boga Jakuba.\nChwa\u0142a Ojcu.\nNakarmi\u0142 ich wyborn\u0105 pszenic\u0105, alleluja, alleluja, i nasyci\u0142 miodem z opoki, alleluja, alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty\u015b zes\u0142a\u0142 Ducha \u015awi\u0119tego na Swoich Aposto\u0142\u00f3w; spe\u0142nij pobo\u017cne pro\u015bby Swego ludu i racz obdarzy\u0107 pokojem tych, kt\u00f3rym da\u0142e\u015b \u0142ask\u0119 wiary.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 10:34; 10:42-48*\n*\u015aw. Piotr pouczony widzeniem uda\u0142 si\u0119 do domu oficera rzymskiego, aby przyj\u0105\u0107 go do Ko\u015bcio\u0142a. Duch \u015awi\u0119ty zst\u0119puj\u0105c na t\u0119 rodzin\u0119 okaza\u0142, \u017ce Ko\u015bci\u00f3\u0142 winien by\u0107 otwarty dla wszystkich narod\u00f3w.*\nW one dni: Otworzywszy usta swoje Piotr rzek\u0142: \u00abM\u0119\u017cowie bracia, Pan rozkaza\u0142 nam, aby\u015bmy g\u0142osili ludowi i \u015bwiadczyli, \u017ce On jest ustanowionym przez Boga s\u0119dzi\u0105 \u017cywych i umar\u0142ych. O Nim \u015bwiadcz\u0105 wszyscy Prorocy, \u017ce ci wszyscy, kt\u00f3rzy we\u0144 wierz\u0105, dost\u0119puj\u0105 odpuszczenia grzech\u00f3w przez imi\u0119 Jego\u00bb. A gdy Piotr jeszcze m\u00f3wi\u0142 te s\u0142owa, zst\u0105pi\u0142 Duch \u015awi\u0119ty na wszystkich s\u0142uchaj\u0105cych mowy. I zdumieli si\u0119 nawr\u00f3ceni \u017bydzi, kt\u00f3rzy przybyli z Piotrem, \u017ce i na pogan \u0142aska Ducha \u015awi\u0119tego si\u0119 wyla\u0142a. S\u0142yszeli ich bowiem m\u00f3wi\u0105cych j\u0119zykami i wielbi\u0105cych Boga. Wtedy odpowiedzia\u0142 Piotr \u00abCzy\u017c mo\u017ce kto wzbroni\u0107 wody, \u017ceby nie byli ochrzczeni ci, kt\u00f3rzy otrzymali Ducha \u015awi\u0119tego jako i my?\u00bb I rozkaza\u0142 ich ochrzci\u0107 w imi\u0119 Pana Jezusa Chrystusa.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja, alleluja\n*Dz 2:4*\nOpowiadali Aposto\u0142owie rozmaitymi j\u0119zykami wielkie dzie\u0142a Bo\u017ce. Alleluja. (Tu si\u0119 przykl\u0119ka)\nV. Przyjd\u017a, Duchu \u015awi\u0119ty, nape\u0142nij serca Twych wiernych i zapal w nich ogie\u0144 Twojej mi\u0142o\u015bci.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*B\u0142agalna sekwencja w poetyckiej formie opisuje dzia\u0142anie Ducha \u015awi\u0119tego w duszach wiernych.*\nPrzyb\u0105d\u017a Duchu \u015awi\u0119ty\nZe\u015blij na nas z nieba\nPromie\u0144 Twego \u015bwiat\u0142a.\n\nPrzyjd\u017a, ojcze ubogich,\nPrzyb\u0105d\u017a, dawco dar\u00f3w,\nPrzyb\u0105d\u017a, serc \u015bwiat\u0142o\u015bci.\n\nPrzyjd\u017a, Pocieszycielu,\nS\u0142odki go\u015bciu duszy,\nS\u0142odkie pokrzepienie.\n\nTy\u015b spoczynkiem w pracy,\nTy\u015b och\u0142od\u0105 w skwarze,\nTy\u015b pociech\u0105 w p\u0142aczu.\n\nO \u015bwiat\u0142o\u015bci b\u0142oga,\nNape\u0142\u0144 wn\u0119trze serca\nWszystkich Twoich wiernych.\n\nBez Twej Boskiej Woli\nNie ma nic w cz\u0142owieku,\nNie ma nic bez winy.\n\nObmyj to, co brudne,\nZro\u015b to, co jest osch\u0142e,\nUlecz, co zranione.\n\nZegnij, co oporne,\nOgrzej, co jest zimne,\nSprostuj to, co b\u0142\u0119dne.\n\nUdziel Twoim wiernym,\nTobie ufaj\u0105cym,\nSiedem \u015bwi\u0119tych dar\u00f3w.\n\nDaj zas\u0142ug\u0119 cnoty,\nDaj zbawienny koniec,\nDaj wieczyst\u0105 rado\u015b\u0107.\nAmen. Alleluja.", 
+      "id": "Sequentia", 
+      "label": "Sekwencja"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 3:16-21*\n*Wiara w Jezusa Zbawiciela \u015bwiata jest koniecznym warunkiem zbawienia.*\nOnego czasu: Rzek\u0142 Jezus do Nikodema: \u00abTak B\u00f3g umi\u0142owa\u0142 \u015bwiat, \u017ce Syna swego Jednorodzonego da\u0142, by ka\u017cdy, kt\u00f3ry wierzy we\u0144, nie umar\u0142, ale mia\u0142 \u017cywot wieczny. Bo nie pos\u0142a\u0142 B\u00f3g Syna swego na \u015bwiat, aby \u015bwiat s\u0105dzi\u0142, ale aby \u015bwiat by\u0142 zbawiony przez Niego. Kto wierzy we\u0144, nie jest s\u0105dzony, a kto nie wierzy, ju\u017c jest os\u0105dzony, \u017ce nie uwierzy\u0142 w imi\u0119 Jednorodzonego Syna Bo\u017cego. A wyrok na tym polega, \u017ce \u015bwiat\u0142o\u015b\u0107 przysz\u0142a na \u015bwiat, ale ludzie umi\u0142owali bardziej ciemno\u015bci ni\u017c \u015bwiat\u0142o\u015b\u0107, bo by\u0142y z\u0142e ich uczynki. Ka\u017cdy bowiem, kto \u017ale czyni, nienawidzi \u015bwiat\u0142o\u015bci i nie zbli\u017ca si\u0119 do \u015bwiat\u0142a, aby nie zganiono uczynk\u00f3w jego, ale kto czyni prawd\u0119, d\u0105\u017cy do \u015bwiat\u0142a, aby wysz\u0142y na jaw uczynki jego, \u017ce w Bogu by\u0142y dokonane\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 17:14; 17:16*\nZagrzmia\u0142 Pan na niebiosach, Najwy\u017cszy da\u0142 s\u0142ysze\u0107 sw\u00f3j g\u0142os; i otworzy\u0142y si\u0119 \u017ar\u00f3d\u0142a wody, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 mi\u0142o\u015bciwie te dary, a przyjmuj\u0105c z\u0142o\u017con\u0105 Ci ofiar\u0119 duchow\u0105 spraw, by\u015bmy sami stali si\u0119 wieczystym darem dla Ciebie.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Duchu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce: przez Chrystusa, Pana naszego.\nOn to wst\u0105piwszy ponad wszystkie niebiosa i siedz\u0105c na prawicy Twojej zes\u0142a\u0142 (w dniu dzisiejszym) obiecanego Ducha \u015awi\u0119tego na przybrane dzieci. Dlatego ca\u0142y okr\u0105g ziemi tonie w nadmiarze rado\u015bci. Lecz i Moce niebieskie, i anielskie Pot\u0119gi \u015bpiewaj\u0105 hymn ku Twojej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 14:26*\nDuch \u015awi\u0119ty nauczy was, alleluja, wszystkiego, cokolwiek wam powiedzia\u0142em, alleluja, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, przyjd\u017a z pomoc\u0105 ludowi Twojemu, kt\u00f3ry pouczy\u0142e\u015b niebieskimi tajemnicami, i bro\u0144 go przed zaciek\u0142o\u015bci\u0105 wrog\u00f3w.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

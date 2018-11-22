@@ -1,0 +1,121 @@
+{
+  "info": {
+    "additional_info": [
+      "2 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-10-11", 
+    "description": "W roku 431 sob\u00f3r powszechny zebrany w Efezie uroczy\u015bcie og\u0142osi\u0142, \u017ce Maryja jest Matk\u0105 Bo\u017c\u0105.W 1900-letni\u0105 rocznic\u0119 og\u0142oszenia tego dogmatu papie\u017c Pius XI poleci\u0142 obchodzi\u0107 \u015bwi\u0119to Macierzy\u0144stwa Naj\u015bwi\u0119tszej Maryi Panny 11 pa\u017adziernika.Godno\u015b\u0107 Matki Bo\u017cej jest podstaw\u0105 wszystkich innych przywilej\u00f3w Maryi.", 
+    "tempora": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "Macierzy\u0144stwa N. M. P."
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Isa 7:14.*\nEcce Virgo conc\u00edpiet, et p\u00e1riet f\u00edlium, et voc\u00e1bitur nomen ejus Emm\u00e1nuel.\n*Ps 97:1.*\nCant\u00e1te D\u00f3mino c\u00e1nticum novum: quia mirab\u00edlia fecit.\nGl\u00f3ria Patri.\nEcce Virgo conc\u00edpiet, et p\u00e1riet f\u00edlium, et voc\u00e1bitur nomen ejus Emm\u00e1nuel.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui de be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis \u00fatero Verbum tuum, Angelo nunti\u00e1nte, carnem susc\u00edpere volu\u00edsti: pr\u00e6sta suppl\u00edcibus tuis; ut, qui vere eam Genitr\u00edcem Dei cr\u00e9dimus, ejus apud te intercessi\u00f3nibus adjuv\u00e9mur.\nPer e\u00fandem.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 24:23-31*\nEgo quasi vitis fructific\u00e1vi suavit\u00e1tem od\u00f3ris: et flores mei, fructus hon\u00f3ris et honest\u00e1tis. Ego mater pulchr\u00e6 dilecti\u00f3nis, et tim\u00f3ris, et agniti\u00f3nis, et sanct\u00e6 spei. In me gr\u00e1tia omnis vi\u00e6 et verit\u00e1tis: in me omnis spes vit\u00e6 et virt\u00fatis. Trans\u00edte ad me omnes qui concup\u00edscitis me, et a generati\u00f3nibus meis impl\u00e9mini. Sp\u00edritus enim meus super mel dulcis, et her\u00e9ditas mea super mel et favum. Mem\u00f3ria mea in generati\u00f3nes s\u00e6cul\u00f3rum. Qui edunt me, adhuc es\u00farient: et qui bibunt me, adhuc s\u00edtient. Qui audit me, non confund\u00e9tur: et qui oper\u00e1ntur in me, non pecc\u00e1bunt. Qui el\u00facidant me, vitam \u00e6t\u00e9rnam hab\u00e9bunt.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Isa 11:1-2.*\nEgredi\u00e9tur virga de r\u00e1dice Jesse, et flos de r\u00e1dice ejus asc\u00e9ndet.\nV. Et requi\u00e9scet super eum Sp\u00edritus D\u00f3mini. Allel\u00faja, allel\u00faja.\nV. Virgo Dei G\u00e9nitrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Bened\u00edcta et vener\u00e1bilis es, Virgo Mar\u00eda: qu\u00e6 sine tactu pud\u00f3ris inv\u00e9nia es Mater Salvat\u00f3ris.\nV. Virgo, Dei G\u00e9netrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo.\n**\nGaude, Mar\u00eda Virgo, cunctas h\u01fdreses sola interem\u00edsti.\nV. Qu\u00e6 Gabri\u00e9lis Arch\u00e1ngeli dictis credid\u00edsti.\nV. Dum Virgo Deum et h\u00f3minem genu\u00edsti: et post partum, Virgo, inviol\u00e1ta permans\u00edsti.\nV. Dei G\u00e9netrix, interc\u00e9de pro nobis.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:43-51*\nIn illo t\u00e9mpore: Cum red\u00edrent, rem\u00e1nsit puer Jesus in Jer\u00fasalem, et non cognov\u00e9runt par\u00e9ntes ejus. Existim\u00e1ntes autem illum esse in comit\u00e1tu, ven\u00e9runt iter diei, et requir\u00e9bant eum inter cogn\u00e1tos, et notos. Et non inveni\u00e9ntes, regr\u00e9ssi sunt in Jer\u00fasalem, requir\u00e9ntes eum. Et factum est, post tr\u00edduum inven\u00e9runt illum in templo sed\u00e9ntem in m\u00e9dio doct\u00f3rum, audi\u00e9ntem illos, et interrog\u00e1ntem eos. Stup\u00e9bant autem omnes, qui eum audi\u00e9bant, super prud\u00e9ntia et resp\u00f3nsis ejus. Et vid\u00e9ntes admir\u00e1ti sunt. Et dixit mater ejus ad illum: Fili, quid fec\u00edsti nobis sic? ecce pater tuus, et ego dol\u00e9ntes qu\u00e6reb\u00e1mus te. Et ait ad illos: Quid est quod me qu\u00e6reb\u00e1tis? nescieb\u00e1tis quia in his, qu\u00e6 Patris mei sunt, op\u00f3rtet me esse. Et ipsi non intellex\u00e9runt verbum, quod loc\u00fatus est ad eos. Et desc\u00e9ndit cum eis, et venit N\u00e1zareth: et erat s\u00fabditus illis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Matt 1:18*\nCum esset despons\u00e1ta mater ejus Mar\u00eda Joseph, inv\u00e9nta est in \u00fatero habens de Sp\u00edritu Sancto.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Tua, D\u00f3mine, propitiati\u00f3ne, et be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis, Unig\u00e9niti tui matris intercessi\u00f3ne, ad perp\u00e9tuam atque pr\u00e6s\u00e9ntem h\u00e6c obl\u00e1tio nobis prof\u00edciat prosperit\u00e1tem, et pacem.\nPer e\u00fandem.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "**\nBe\u00e1ta v\u00edscera Mar\u00ed\u00e6 V\u00edrginis, qu\u00e6 portav\u00e9runt \u00e6t\u00e9rni Patris F\u00edlium.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "H\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1ta V\u00edrgine Dei Genitr\u00edce Mar\u00eda, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer e\u00fandem.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Iz 7:14*\nOto Panna pocznie i porodzi Syna i nazw\u0105 imi\u0119 Jego Emmanuel (B\u00f3g z nami).\n*Ps 97:1*\n\u015apiewajcie Panu pie\u015b\u0144 nowa, albowiem cuda uczyni\u0142.\nChwa\u0142a Ojcu.\nOto Panna pocznie i porodzi Syna i nazw\u0105 imi\u0119 Jego Emmanuel (B\u00f3g z nami).", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b zrz\u0105dzi\u0142, \u017ce za zwiastowaniem Anielskim w \u017cywocie Naj\u015bwi\u0119tszej Maryi Panny S\u0142owo Twoje Cia\u0142em si\u0119 sta\u0142o, pokornie b\u0142agamy, spraw, aby wspomaga\u0142o nas wstawiennictwo Tej, w kt\u00f3rej Bo\u017ce macierzy\u0144stwo g\u0142\u0119boko wierzymy.\nPrzez tego\u017c Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Syr 24:23-31*\nJako krzew winny wyda\u0142am wdzi\u0119czn\u0105 wo\u0144, a kwiaty moje owocem czci i godno\u015bci. Jam matk\u0105 pi\u0119knej mi\u0142o\u015bci i boja\u017ani, i rozeznania, i \u015bwi\u0119tej nadziei. We mnie \u0142aska wszelkiej drogi i prawdy, we mnie ca\u0142a nadzieja \u017cycia i cnoty. Przyjd\u017acie do mnie wszyscy, kt\u00f3rzy mnie pragniecie, i nape\u0142nijcie si\u0119 owocami moimi. Duch m\u00f3j bowiem s\u0142odszy jest nad mi\u00f3d, a dziedzictwo moje nad plaster miodu. Pami\u0119\u0107 moja na wieczne pokolenia. Kt\u00f3rzy mnie po\u017cywaj\u0105, nadal mnie b\u0119d\u0105 \u0142akn\u0105\u0107, a kt\u00f3rzy mnie pij\u0105, nadal b\u0119d\u0105 mnie pragn\u0105\u0107. Kto mnie s\u0142ucha, nie b\u0119dzie zawstydzon a kt\u00f3rzy przeze mnie dzia\u0142aj\u0105 nie zgrzesz\u0105. Kt\u00f3rzy mnie obja\u015bniaj\u0105, posiada \u017cywot wieczny.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Iz 11:1-2*\nWyjdzie r\u00f3\u017cd\u017cka z korzenia Jessego, a kwiat z korzenia jego wzejdzie.\nV. I spocznie na nim Duch Pana. Alleluja, alleluja.\nV. Bogarodzico Dziewico, Ten, kt\u00f3rego ca\u0142y \u015bwiat nie zdo\u0142a ogarn\u0105\u0107, zamkn\u0105\u0142 si\u0119 w Twoim \u0142onie, stawszy si\u0119 cz\u0142owiekiem. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:43-51*\nOnego czasu: Gdy wracali, zosta\u0142o Dzieci\u0119 Jezus w Jerozolimie, a nie wiedzieli o tym rodzice Jego. I mniemaj\u0105c, \u017ce jest On w gromadzie, uszli dzie\u0144 drogi i szukali go mi\u0119dzy krewnymi i znajomymi. A nie znalaz\u0142szy wr\u00f3cili do Jerozolimy, szukaj\u0105c Go. I sta\u0142o si\u0119, \u017ce po up\u0142ywie dni trzech znale\u017ali Go w \u015bwi\u0105tyni, siedz\u0105cego wpo\u015br\u00f3d doktor\u00f3w, s\u0142uchaj\u0105cego ich i zadaj\u0105cego im pytania. A zdumiewali si\u0119 wszyscy, kt\u00f3rzy Go s\u0142uchali, nad rozumem i nad odpowiedziami Jego. I ujrzawszy Go, zdziwili si\u0119. I rzek\u0142a do\u0144 Matka Jego: \u00abSynu, c\u00f3\u017ce\u015b to nam uczyni\u0142? Oto ojciec Tw\u00f3j i ja, bolej\u0105c, szukali\u015bmy Ciebie\u00bb. I rzek\u0142 do nich: \u00abC\u00f3\u017c jest, \u017ce\u015bcie mnie szukali? Czy\u017c nie wiedzieli\u015bcie, \u017ce w tym, co jest Ojca mego, by\u0107 winienem?\u00bb Lecz oni nie zrozumieli tych s\u0142\u00f3w, kt\u00f3re im m\u00f3wi\u0142. I uda\u0142 si\u0119 z nimi, i przyszed\u0142 do Nazaretu, a by\u0142 im poddany.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Mt 1:18*\nGdy po\u015blubiona by\u0142a Matka Jego, Maryja, J\u00f3zefowi, okaza\u0142o si\u0119, \u017ce pocz\u0119\u0142a z Ducha \u015awi\u0119tego.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, niech z Tego zmi\u0142owania, a za przyczyn\u0105 b\u0142ogos\u0142awionej Maryi zawsze Dziewicy, Matki Syna Twego Jednorodzonego, ofiara ta wyjedna nam wieczne i doczesne szcz\u0119\u015bcie oraz pok\u00f3j.\nPrzez tego\u017c Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "B\u0142ogos\u0142awione wn\u0119trzno\u015bci Maryi Panny, kt\u00f3re nosi\u0142y Syna Ojca Przedwiecznego.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Niech ta Komunia, o Panie, oczy\u015bci nas z grzech\u00f3w i za przyczyn\u0105 Naj\u015bwi\u0119tszej Dziewicy Bogarodzicy Maryi stanie si\u0119 dla nas niebieskim lekarstwem.\nPrzez tego\u017c Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Piotra", 
+      "2 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2019-03-16", 
+    "description": "Obch\u00f3d Suchych Dni ko\u0144czy\u0142 si\u0119 zawsze wigili\u0105, czyli czuwaniem na molitwie przez ca\u0142\u0105 noc z soboty na niedziel\u0119. Pozosta\u0142o\u015bci\u0105 wigilii s\u0105 lekcje i modlitwy dzisiejszej Mszy \u015bwi\u0119tej. Podkre\u015blaj\u0105 one, \u017ce Ko\u015bci\u00f3\u0142 jest dziedzicem obietnic danych Izraelowi. Chrystus \u2013 nowy Moj\u017cesz zawar\u0142 nowe i wieczne przymierze mi\u0119dzy swoim ludem i Bogiem. Przymierze to zapewnia nam szczeg\u00f3ln\u0105 opiek\u0119 Bo\u017c\u0105, ale nak\u0142ada na nas obowi\u0105zek wierno\u015bci. Zjawienie si\u0119 Moj\u017cesza i Eliasza przy Przemienieniu Pa\u0144skim by\u0142o potwierdzeniem, \u017ce w Nim wype\u0142ni\u0142y si\u0119 proroctwa Starego Testamentu.W scenie Przemienienia wyst\u0119puj\u0105 trzej pos\u0142a\u0144cy Boga, kt\u00f3rzy zostawili nam przyk\u0142ady 40-dniowego postu, przytaczane w liturgii ko\u0144cz\u0105cego si\u0119 tygodnia. Za ich wzorem przez post i modlitw\u0119 d\u0105\u017cymy do przemienienia naszych dusz i do chwa\u0142y niebieskiej.We Mszy konwentualnej oraz we Mszy ze \u015bwi\u0119ceniami odczytuje si\u0119 wszystkie modlitwy i lekcje. Natomiast w innych Mszach po pierwszym graduale mo\u017cna odm\u00f3wi\u0107 Dominus vobiscum i drug\u0105 modlitw\u0119 bez Flectamus genua, po czym bezpo\u015brednio czyta si\u0119 sz\u00f3st\u0105 lekcj\u0119.", 
+    "tempora": null, 
+    "title": "Sobota Suchych Dni Wielkiego Postu"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 87:3*\nIntret or\u00e1tio mea in consp\u00e9ctu tuo: incl\u00edna aurem tuam ad precem meam, D\u00f3mine.\n*Ps 87:2*\nD\u00f3mine, Deus sal\u00fatis me\u00e6: in die clam\u00e1vi, et nocte coram te.\nGl\u00f3ria Patri.\nIntret or\u00e1tio mea in consp\u00e9ctu tuo: incl\u00edna aurem tuam ad precem meam, D\u00f3mine.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "P\u00f3pulum tuum, qu\u01fdsumus, D\u00f3mine, prop\u00edtius r\u00e9spice: atque ab eo flag\u00e9lla tu\u00e6 irac\u00fandi\u00e6 clem\u00e9nter av\u00e9rte.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "Prot\u00e9ctor noster, \u00e1spice, Deus: ut, qui mal\u00f3rum nostr\u00f3rum p\u00f3ndere pr\u00e9mimur, perc\u00e9pta miseric\u00f3rdia, l\u00edbera tibi mente famul\u00e9mur.\nPer Dominum.", 
+      "id": "OratioL1", 
+      "label": "OratioL1"
+    }, 
+    {
+      "body": "Ad\u00e9sto, qu\u01fdsumus, D\u00f3mine, supplicati\u00f3nibus nostris: ut esse, te largi\u00e9nte, mere\u00e1mur et inter pr\u00f3spera h\u00familes, et inter adv\u00e9rsa sec\u00fari.\nPer Dominum.", 
+      "id": "OratioL2", 
+      "label": "OratioL2"
+    }, 
+    {
+      "body": "Preces p\u00f3puli tui, qu\u01fdsumus, D\u00f3mine, clem\u00e9nter ex\u00e1udi: ut, qui juste pro pecc\u00e1tis nostris affl\u00edgimur, pro tui n\u00f3minis gl\u00f3ria miseric\u00f3rditer liber\u00e9mur.\nPer Dominum.", 
+      "id": "OratioL3", 
+      "label": "OratioL3"
+    }, 
+    {
+      "body": "Ati\u00f3nes nostras, qu\u01fdsumus, D\u00f3mine, aspir\u00e1ndo praeveni, et adjuv\u00e1ndo pros\u00e9quere: ut cuncta nostra or\u00e1tio et oper\u00e1tio a te semper inc\u00edpiat, et per te coepta fini\u00e1tur.\nPer Dominum.", 
+      "id": "OratioL4", 
+      "label": "OratioL4"
+    }, 
+    {
+      "body": "Deus, qui tribus p\u00faeris mitig\u00e1sti flammas \u00edgnium: conc\u00e9de prop\u00edtius; ut nos f\u00e1mulos tuos non ex\u00farat flamma viti\u00f3rum.\nPer Dominum.", 
+      "id": "OratioL5", 
+      "label": "OratioL5"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Thessalonic\u00e9nses\n*1 Thess 5:14-23*\nFratres: Rog\u00e1mus vos, corr\u00edpite inqui\u00e9tos, consol\u00e1mini pusill\u00e1nimes, susc\u00edpite infirmos, pati\u00e9ntes est\u00f3te ad omnes. Vid\u00e9te, ne quis malum pro malo alicui reddat: sed semper quod bonum est sect\u00e1mini in \u00ednvicem, et in omnes. Semper gaud\u00e9te. Sine intermissi\u00f3ne or\u00e1te. In \u00f3mnibus gr\u00e1tias \u00e1gite: h\u00e6c est enim vol\u00fantas Dei in Christo Jesu in \u00f3mnibus vobis. Sp\u00edritum nol\u00edte exst\u00ednguere. Prophet\u00edas nol\u00edte sp\u00e9rnere. Omnia autem prob\u00e1te: quod bonum est ten\u00e9te. Ab omni sp\u00e9cie mala abstin\u00e9te vos. Ipse autem Deus pacis sanct\u00edficet vos per \u00f3mnia: ut \u00ednteger sp\u00edritus vester, et \u00e1nima, et corpus sine quer\u00e9la, in adv\u00e9ntu D\u00f3mini nostri Jesu Christi serv\u00e9tur.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Deuteron\u00f3mii.\n*Deut 26:12-19*\nIn di\u00e9bus illis: Loc\u00fatus est M\u00f3yses ad p\u00f3pulum, dicens: Quando compl\u00e9veris d\u00e9cimam cunct\u00e1rum frugum tu\u00e1rum, loqu\u00e9ris in consp\u00e9ctu D\u00f3mini, Dei tui: Abstuli, quod sanctific\u00e1tum est de domo mea, et dedi illud lev\u00edt\u00e6 et \u00e1dven\u00e6 et pup\u00edllo ac v\u00eddu\u00e6, sicut juss\u00edsti mihi: non pr\u00e6ter\u00edvi mand\u00e1ta tua, nec sum obl\u00edtus imp\u00e9rii tui. Oboed\u00edvi voci D\u00f3mini, Dei mei, et feci \u00f3mnia, sicut pr\u00e6cep\u00edsti mihi. R\u00e9spice de sanctu\u00e1rio tuo et de exc\u00e9lso coel\u00f3rum habit\u00e1culo, et benedic p\u00f3pulo tuo Isra\u00ebl, et terr\u00e6, quam ded\u00edsti nobis, sicut jur\u00e1sti p\u00e1tribus nostris, terr\u00e6 lacte et melle man\u00e1nti. H\u00f3die D\u00f3minus, Deus tuus, pr\u00e6c\u00e9pit tibi, ut f\u00e1cias mand\u00e1ta h\u00e6c atque jud\u00edcia: et cust\u00f3dias et \u00edmpleas ex toto corde tuo et ex tota \u00e1nima tua. D\u00f3minum eleg\u00edsti h\u00f3die, ut sit tibi Deus, et \u00e1mbules in viis ejus, et cust\u00f3dias c\u00e6rem\u00f3nias ill\u00edus et mand\u00e1ta atque jud\u00edcia, et oboedias ejus imp\u00e9rio. Et D\u00f3minus elegit te h\u00f3die, ut sis ei p\u00f3pulus peculi\u00e1ris, sicut loc\u00fatus est tibi, et cust\u00f3dias \u00f3mnia pr\u00e6c\u00e9pta ill\u00edus: et f\u00e1ciat te excelsi\u00f3rem cunctis g\u00e9ntibus, quas cre\u00e1vit in laudem et nomen et gl\u00f3riam suam: ut sis populus sanctus D\u00f3mini, Dei tui, sicut loc\u00fatus est.\nDeo gratias.", 
+      "id": "LectioL1", 
+      "label": "LectioL1"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Deuteron\u00f3mii.\n*Deut 11:22-25*\nIn di\u00e9bus illis: Dixit M\u00f3yses f\u00edliis Isra\u00ebl: Si custodi\u00e9ritis mand\u00e1ta, qu\u00e6 ego pr\u00e6c\u00edpio vobis, et fec\u00e9ritis ea, ut dilig\u00e1tis D\u00f3minum, Deum vestrum, et ambul\u00e9tis in \u00f3mnibus viis ejus, adh\u00e6r\u00e9n-tes ei, disp\u00e9rdet D\u00f3minus omnes gentes istas ante f\u00e1ciem vestram, et possid\u00e9bitis eas, qu\u00e6 maj\u00f3res et forti\u00f3res vobis sunt. Omnis locus quem calc\u00e1verit pes vester, vester erit. A des\u00e9rto et a L\u00edbano, a fl\u00famine magno Euphr\u00e1te usque ad mare Occident\u00e1le, erunt t\u00e9rmini vestri. Nullus stabit contra vos: terr\u00f3rem vestrum et form\u00eddinem dabit D\u00f3minus, Deus vester, super omnem terram, quam calcat\u00fari estis, sicut loc\u00fatus est vobis D\u00f3minus, Deus vester.\nDeo gratias.", 
+      "id": "LectioL2", 
+      "label": "LectioL2"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Machab\u00e6\u00f3rum.\n*2 Mach l:23-26; 1:27*\nIn di\u00e9bus illis: Orati\u00f3nem faciebant omnes sacerdotes, dum consummar\u00e9tur sacrif\u00edcium, J\u00f3natha incho\u00e1nte, c\u00e9teris autem respond\u00e9ntibus. Et Nehem\u00ed\u00e6 erat or\u00e1tio hunc habens modum: D\u00f3mine Deus, \u00f3mnium Cre\u00e1tor, terr\u00edbilis et fortis, justus et mis\u00e9ricors, qui solus es bonus rex, solus pr\u00e6stans, solus justus et omn\u00edpotens et \u00e6t\u00e9rnus, qui l\u00edberas Isra\u00ebl de omni malo, qui fec\u00edsti patres electos et sanctific\u00e1sti eos: accipe sacrif\u00edcium pro univ\u00e9rso p\u00f3pulo tuo Isra\u00ebl, et cust\u00f3di partem tuam et sanct\u00edfica: ut sciant gentes, quia tu es Deus noster.\nDeo gratias.", 
+      "id": "LectioL3", 
+      "label": "LectioL3"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapientiae.\n*Eccli 36:1-10*\nMiser\u00e9re nostri, Deus \u00f3mnium, et r\u00e9spice nos, et ost\u00e9nde nobis lucem miserati\u00f3num tu\u00e1rum: et imm\u00edtte tim\u00f3rem tuum super gentes, qu\u00e6 non exquisi\u00e9runt te, ut cogn\u00f3scant, quia non est Deus nisi tu, et en\u00e1rrent magn\u00e1lia tua. Alleva manum tuam super gentes ali\u00e9nas, ut v\u00eddeant pot\u00e9ntiam tuam. Sicut enim in consp\u00e9ctu e\u00f3rum sanctific\u00e1tus es in nobis, sic in consp\u00e9ctu nostro magnific\u00e1beris in eis, ut cogn\u00f3scant te, sicut et nos cogn\u00f3vimus, qu\u00f3niam non est Deus pr\u00e6ter te, D\u00f3mine. Innova signa et imm\u00fata mirab\u00edlia. Glor\u00edfica manum et br\u00e1chium dextrum. Excita fur\u00f3rem et eff\u00fande iram. Tolle advers\u00e1rium et affl\u00edge inim\u00edcum. Fest\u00edna tempus et mem\u00e9nto finis, ut en\u00e1rrent mirab\u00edlia tua, D\u00f3mine, Deus noster.\nDeo gratias.", 
+      "id": "LectioL4", 
+      "label": "LectioL4"
+    }, 
+    {
+      "body": "L\u00e9ctio Dani\u00e9lis Proph\u00e9t\u00e6.\n*Dan 3:47-51*\nIn di\u00e9bus illis: Angelus D\u00f3mini desc\u00e9ndit cum Azar\u00eda et s\u00f3ciis ejus in forn\u00e1cem: et exc\u00fassit flammam ignis de forn\u00e1ce, et fecit m\u00e9dium forn\u00e1cis quasi ventum roris flantem. Flamma autem effundeb\u00e1tur super forn\u00e1cem c\u00fabitis quadrag\u00ednta novem: et er\u00fapit, et inc\u00e9ndit, quos r\u00e9pperit juxta forn\u00e1cem de Chaldaeis, min\u00edstros regis, qui eam incend\u00e9bant. Et non t\u00e9tigit eos omn\u00edno ignis, neque contristavit, nec quidquam mol\u00e9sti\u00e6 \u00edntulit. Tunc hi tres quasi ex uno ore lau-d\u00e1bant, et glorific\u00e1bant, et benedic\u00e9bant Deum in forn\u00e1ce, dic\u00e9ntes:\n\n*Hymnus.*\n*Dan 3:52-53*\nBened\u00edctus es, D\u00f3mine, Deus patrum nostr\u00f3rum. Et laud\u00e1bilis et glori\u00f3sus in saecula. Et bened\u00edctum nomen gl\u00f3ri\u00e6 tu\u00e6, quod est sanctum. Et laud\u00e1bile et glori\u00f3sum in saecula. Bened\u00edctus es in templo sancto gl\u00f3ri\u00e6 tu\u00e6. Et laud\u00e1bilis et glori\u00f3sus in saecula. Bened\u00edctus es super thronum sanctum regni tui. Et laud\u00e1bilis et glori\u00f3sus in saecula. Bened\u00edctus es super sceptrum divinit\u00e1tis tu\u00e6. Et laud\u00e1bilis et glori\u00f3sus in saecula. Bened\u00edctus es, qui sedes super Ch\u00e9rubim, \u00edntuens ab\u00fdssos. Et laud\u00e1bilis et glori\u00f3sus in saecula. Bened\u00edctus es, qui \u00e1mbulas super pennas vent\u00f3rum et super undas maris. Et laud\u00e1bilis et glori\u00f3sus in saecula. Bened\u00edcant te omnes Angeli et Sancti tui. Et laudent te et glor\u00edficent in saecula. Bened\u00edcant te coeli, terra, mare, et \u00f3mnia qu\u00e6 in eis sunt. Et laudent te et glor\u00edficent in saecula. Gl\u00f3ria Patri, et F\u00edlio, et Spir\u00edtui Sancto. Et laud\u00e1bili et glori\u00f3so in saecula. Sicut erat in princ\u00edpio, et nunc, et semper: et in saecula s\u00e6cul\u00f3rum. Amen. Et laud\u00e1bili et glori\u00f3so in saecula. Bened\u00edctus es, D\u00f3mine, Deus patrum nostr\u00f3rum. Et laud\u00e1bilis et glori\u00f3sus in saecula.", 
+      "id": "LectioL5", 
+      "label": "LectioL5"
+    }, 
+    {
+      "body": "*Ps 116:1-2*\nLaud\u00e1te D\u00f3minum, omnes gentes: et collaud\u00e1te eum, omnes p\u00f3puli.\nV. Qu\u00f3niam confirm\u00e1ta est super nos miseric\u00f3rdia ejus: et v\u00e9ritas D\u00f3mini manet in \u00e6t\u00e9rnum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 78:9; 78:10*\nProp\u00edtius esto, D\u00f3mine, pecc\u00e1tis nostris: ne quando dicant gentes: Ubi est Deus e\u00f3rum?\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter hon\u00f3rem n\u00f3minis tui, D\u00f3mine, l\u00edbera nos.", 
+      "id": "GradualeL1", 
+      "label": "GradualeL1"
+    }, 
+    {
+      "body": "*Ps 83:10; 83:9*\nProt\u00e9ctor noster, \u00e1spice, Deus, et r\u00e9spice super servos tuos.\nV.  D\u00f3mine, Deus virt\u00fatum, ex\u00e1udi preces serv\u00f3rum tu\u00f3rum.", 
+      "id": "GradualeL2", 
+      "label": "GradualeL2"
+    }, 
+    {
+      "body": "*Ps 89:13; 89:1*\nConv\u00e9rtere, D\u00f3mine, aliqu\u00e1ntulum, et deprec\u00e1re super servos tuos.\nV. D\u00f3mine, ref\u00fagium factus es nobis, a generati\u00f3ne et prog\u00e9nie.", 
+      "id": "GradualeL3", 
+      "label": "GradualeL3"
+    }, 
+    {
+      "body": "*Ps 140:2*\nDirig\u00e1tur or\u00e1tio mea sicut inc\u00e9nsum in consp\u00e9ctu tuo, D\u00f3mine.\nV. Elev\u00e1tio m\u00e1nuum me\u00e1rum sacrif\u00edcium vespert\u00ednum.", 
+      "id": "GradualeL4", 
+      "label": "GradualeL4"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 17:1-9*\nIn illo t\u00e9mpore: Ass\u00fampsit Jesus Petrum, et Jac\u00f3bum, et Jo\u00e1nnem fratrem ejus, et duxit illos in montem exc\u00e9lsum se\u00f3rsum: et transfigur\u00e1tus est ante eos. Et respl\u00e9nduit f\u00e1cies ejus sicut sol: vestim\u00e9nta autem ejus facta sunt alba sicut nix. Et ecce, apparu\u00e9runt illis Moyses et El\u00edas cum eo loqu\u00e9ntes. Resp\u00f3ndens autem Petrus, dixit ad Jesum: D\u00f3mine, bonum est nos hic esse: si vis, faci\u00e1mus hic tria tabern\u00e1cula, tibi unum, M\u00f3ysi unum et El\u00ed\u00e6 unum. Adhuc eo loqu\u00e9nte, ecce, nubes l\u00facida obumbr\u00e1vit eos. Et ecce vox de nube, dicens: Hic est F\u00edlius meus dil\u00e9ctus, in quo mihi bene compl\u00e1cui: ipsum aud\u00edte. Et audi\u00e9ntes disc\u00edpuli, cecid\u00e9runt in f\u00e1ciem suam, et timu\u00e9runt valde. Et acc\u00e9ssit Jesus, et t\u00e9tigit eos, dix\u00edtque eis: S\u00fargite, et nol\u00edte tim\u00e9re. Lev\u00e1ntes autem \u00f3culos suos, n\u00e9minem vid\u00e9runt nisi solum Jesum. Et descend\u00e9ntibus illis de monte, pr\u00e6c\u00e9pit eis Jesus, dicens: N\u00e9mini dix\u00e9ritis visi\u00f3nem, donec F\u00edlius h\u00f3minis a m\u00f3rtuis res\u00fargat.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 87:2-3*\nD\u00f3mine, Deus sal\u00fatis me\u00e6, in die clam\u00e1vi et nocte coram te: intret or\u00e1tio mea in consp\u00e9ctu tuo, D\u00f3mine.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Pr\u00e6s\u00e9ntibus sacrif\u00edciis, qu\u01fdsumus, D\u00f3mine, jej\u00fania nostra sanct\u00edfica: ut, quod observ\u00e1ntia nostra profit\u00e9tur extr\u00ednsecus, int\u00e9rius oper\u00e9tur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 7:2*\nD\u00f3mine, Deus meus, in te sper\u00e1vi: l\u00edbera me ab \u00f3mnibus persequ\u00e9ntibus me, et \u00e9ripe me.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Sanctificati\u00f3nibus tuis, omn\u00edpotens Deus, et v\u00edtia nostra cur\u00e9ntur, et rem\u00e9dia nobis \u00e6t\u00e9rna prov\u00e9niant.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 87:3*\nNiech dojdzie do Ciebie moja modlitwa, nak\u0142o\u0144 ucha Swego na pro\u015bb\u0119 moj\u0105, Panie.\n*Ps 87:2*\nPanie Bo\u017ce, Zbawicielu m\u00f3j, podczas dnia wo\u0142am i w nocy \u017cal\u0119 si\u0119 przed Tob\u0105.\nChwa\u0142a Ojcu.\nNiech dojdzie do Ciebie moja modlitwa, nak\u0142o\u0144 ucha Swego na pro\u015bb\u0119 moj\u0105, Panie.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, wejrzyj mi\u0142o\u015bciwie na Tw\u00f3j lud i odwr\u00f3\u0107 ode\u0144 ch\u0142ost\u0119 Twego zagniewania.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "1 Kolekta"
+    }, 
+    {
+      "body": "Bo\u017ce, obro\u0144co nasz, wejrzyj na nas przygniecionych ci\u0119\u017carem w\u0142asnych grzech\u00f3w, aby\u015bmy doznawszy Twego mi\u0142osierdzia s\u0142u\u017cyli Tobie swobodn\u0105 dusz\u0105.\nPrzez Pana.", 
+      "id": "OratioL1", 
+      "label": "2 Kolekta"
+    }, 
+    {
+      "body": "Przychyl si\u0119, Panie, ku pro\u015bbom naszym, aby\u015bmy za \u0142ask\u0105 Twoj\u0105 byli pokorni w powodzeniu i bezpieczni w\u015br\u00f3d przeciwno\u015bci.\nPrzez Pana.", 
+      "id": "OratioL2", 
+      "label": "3 Kolekta"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, wys\u0142uchaj \u0142askawie modlitwy Twego ludu i chocia\u017c s\u0142usznie cierpimy za nasze grzechy, wybaw nas mi\u0142o\u015bciwie dla chwa\u0142y Swojego imienia.\nPrzez Pana.", 
+      "id": "OratioL3", 
+      "label": "4 Kolekta"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, uprzedzaj czyny nasze Twoim natchnieniem i pomoc\u0105 wspieraj, aby ka\u017cda nasza modlitwa i praca zawsze od Ciebie si\u0119 zaczyna\u0142a i przez Ciebie ko\u0144czy\u0142a.\nPrzez Pana.", 
+      "id": "OratioL4", 
+      "label": "5 Kolekta"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b z\u0142agodzi\u0142 p\u0142omie\u0144 ognia dla trzech m\u0142odzie\u0144c\u00f3w, spraw \u0142askawie, aby nas, s\u0142ug Twoich, nie po\u017car\u0142 p\u0142omie\u0144 nami\u0119tno\u015bci.\nPrzez Pana.", 
+      "id": "OratioL5", 
+      "label": "6 Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tesaloniczan.\n*1 Tes 5:14-23*\n*W oczekiwaniu na przyj\u015bcie Chrystusa chrze\u015bcijanin winien trwa\u0107 w wierze i okazywa\u0107 sw\u0105 mi\u0142o\u015b\u0107 przez dobre uczynki.*\nBracia: Prosimy was, upominajcie krn\u0105brnych, pocieszajcie boja\u017aliwych, przygarniajcie s\u0142abych, a cierpliwi b\u0105d\u017acie wzgl\u0119dem wszystkich. Baczcie, aby jeden drugiem, z\u0142em za z\u0142o nie oddawa\u0142, ale zawsze usi\u0142ujcie czyni\u0107 wzajemnie i wzgl\u0119dem wszystkich to, co dobre. Zawsze si\u0119 weselcie, a m\u00f3dlcie si\u0119 bez przerwy. Za wszystko sk\u0142adajcie dzi\u0119ki, bo taka jest wola Bo\u017ca w Chrystusie Jezusie wzgl\u0119dem was wszystkich. Ducha nie ga\u015bcie. Proroctwa nie lekcewa\u017ccie. Do\u015bwiadczajcie wszystkiego, a to, co dobre jest, zachowujcie. Unikajcie wszystkiego, co ma cho\u0107by poz\u00f3r z\u0142a.\nA sam B\u00f3g pokoju niech was we wszystkim u\u015bwi\u0119ca, aby wszystek duch wasz i dusza, i cia\u0142o zachowane by\u0142y bez zarzutu na przyj\u015bcie Pana naszego Jezusa Chrystusa.", 
+      "id": "Lectio", 
+      "label": "6 Lekcja"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Powt\u00f3rzonego Prawa.\n*Pp 26:12-19*\nW one dni m\u00f3wi\u0142 Moj\u017cesz do ludu: Gdy dope\u0142nisz dziesi\u0119ciny z wszystkich plon\u00f3w twoich, powiesz przed oczyma Pana, Boga twego: \u00abWynios\u0142em, co jest po\u015bwi\u0119cone, z domu mego, i da\u0142em to lewicie i przychodniowi, i sierocie, i wdowie, jak mi rozkaza\u0142e\u015b; nie przest\u0105pi\u0142em przykazania Twego anim zapomnia\u0142 rozkazania Twego. By\u0142em pos\u0142uszny g\u0142osowi Pana, Boga mego, i uczyni\u0142em wszystko, jak mi przykaza\u0142e\u015b. Wejrzyj ze \u015bwi\u0105tyni Twojej i z wysokiego niebios mieszkania, a b\u0142ogos\u0142aw ludowi Twemu izraelskiemu i ziemi, kt\u00f3r\u0105\u015b nam da\u0142, jak przysi\u0105g\u0142e\u015b ojcom naszym, ziemi mlekiem i miodem p\u0142yn\u0105cej\u00bb.\nDzisiaj Pan, B\u00f3g tw\u00f3j, Przykaza\u0142 tobie, aby\u015b wykonywa\u0142 te przykazania i prawa i strzeg\u0142, i pe\u0142ni\u0142 je ze wszystkiego serca twego i ze wszystkiej duszy twojej. Pana dzi\u015b obra\u0142e\u015b, aby ci by\u0142 Bogiem i \u017ceby\u015b chodzi\u0142 drogami Jego i strzeg\u0142 ustaw Jego i przykaza\u0144, i praw, i by\u0142 pos\u0142uszny rozkazaniu Jego. I Pan obra\u0142 ci\u0119 dzi\u015b, aby\u015b Mu by\u0142 ludem osobliwym, tak jak ci powiedzia\u0142, i \u017ceby\u015b strzeg\u0142 wszystkich przykaza\u0144 Jego, i \u017ceby ci\u0119 uczyni\u0142 wy\u017cszym nad wszystkie narody, kt\u00f3re stworzy\u0142 ku chwale i imieniu, i s\u0142awie swojej, aby\u015b by\u0142 ludem \u015bwi\u0119tym Pana, Boga twego, jak powiedzia\u0142.\nBogu dzi\u0119ki.", 
+      "id": "LectioL1", 
+      "label": "1 Lekcja"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Powt\u00f3rzonego Prawa.\n*Pp 11:22-25*\n*\u017bycie katolik\u00f3w zgodne z prawem Bo\u017cym zapewnia Ko\u015bcio\u0142owi moc promieniowania na ca\u0142\u0105 ziemi\u0119.*\nW one dni m\u00f3wi\u0142 Moj\u017cesz synom Izraela: Je\u015bli strzec b\u0119dziecie przykaza\u0144, kt\u00f3re ja wam daj\u0119, i pe\u0142ni\u0107 je b\u0119dziecie, \u017ce b\u0119dziecie mi\u0142owali Pana, Boga waszego, i chodzili wszystkimi drogami Jego, trzymaj\u0105c si\u0119 Go, wytraci Pan wszystkie te narody przed obliczem waszym i zaw\u0142adniecie nimi, chocia\u017c s\u0105 wi\u0119ksze i mocniejsze ni\u017ali wy. Wszelkie miejsce, na kt\u00f3re st\u0105pi noga wasza, wasze b\u0119dzie. Od puszczy i od Libanu, od rzeki wielkiej Eufratu a\u017c do Morza Zachodniego b\u0119d\u0105 granice wasze. Nikt nie ostoi si\u0119 przed wami, strach przed wami i boja\u017a\u0144 pu\u015bci Pan, B\u00f3g wasz, na ka\u017cd\u0105 ziemi\u0119, kt\u00f3r\u0105 depta\u0107 b\u0119dziecie, jak wam powiedzia\u0142 Pan, B\u00f3g wasz.\nBogu dzi\u0119ki.", 
+      "id": "LectioL2", 
+      "label": "2 Lekcja"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Machabejskiej.\n*2 Mch 1:23-26; 1:27*\n*W Ko\u015bciele, podobnie jak w Starym Testamencie, sk\u0142adanie ofiar i modlitwa za wiernych s\u0105 powierzone kap\u0142anom.*\nW one dni, gdy si\u0119 ofiara dokonywa\u0142a, wszyscy kap\u0142an odprawiali modlitw\u0119, przy czym Jonata zaczyna\u0142, a inni odpowiadali. A modlitwa Nehemiasza taka by\u0142a: \u00abPanie Bo\u017ce, wszystkich Stworzycielu, straszliwy i mocny, sprawiedliwy i mi\u0142osierny, kt\u00f3ry jeste\u015b sam dobrym kr\u00f3lem, sam szczodrobliwy, sam sprawiedliwy i wszechmocny, i wieczny; kt\u00f3ry wybawiasz Izraela z wszelkiego z\u0142a; kt\u00f3ry uczyni\u0142e\u015b ojc\u00f3w wybranymi i po\u015bwi\u0119ci\u0142e\u015b ich, przyjmij ofiar\u0119 za wszystek lud Tw\u00f3j izraelski i zachowaj cz\u0105stk\u0119 Tw\u0105 i po\u015bwi\u0119\u0107, aby poznali poganie, \u017ce Ty jeste\u015b Bogiem naszym\u00bb.\nBogu dzi\u0119ki.", 
+      "id": "LectioL3", 
+      "label": "3 Lekcja"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 36:1-10*\n*Lud Bo\u017cy, \u015bwiadomy, \u017ce jego grzechy s\u0105 powodem trudno\u015bci w spe\u0142nieniu Bo\u017cego pos\u0142annictwa, prosi o mi\u0142osierdzie i skr\u00f3cenie czasu pr\u00f3by.*\nZmi\u0142uj si\u0119 nad nami, Bo\u017ce wszystkiego stworzenia, a wejrzyj na nas i uka\u017c nam \u015bwiat\u0142o\u015b\u0107 zmi\u0142owania Twego; i ze\u015blij strach Tw\u00f3j na narody, kt\u00f3re Cie nie szuka\u0142y, aby pozna\u0142y, \u017ce nie ma Boga, jeno Ty, i \u017ceby opowiada\u0142y wielkie dzie\u0142a Twoje. Podnie\u015b r\u0119k\u0119 Tw\u0105 na obce narody, aby ogl\u0105da\u0142y moc Twoj\u0105. Bo jak przed oczyma ich pokaza\u0142e\u015b sw\u0105 \u015bwi\u0119to\u015b\u0107 na nas, tak przed oczyma naszymi b\u0119dziesz uwielbiony w nich, aby Ci\u0119 poznali, jak i my\u015bmy poznali, i\u017c nie ma Boga pr\u00f3cz Ciebie, Panie.\nWzn\u00f3w znaki i powt\u00f3rz cuda! Uwielbij r\u0119k\u0119 i prawe rami\u0119. Wzbud\u017a zapalczywo\u015b\u0107 i wylej gniew! Zg\u0142ad\u017a przeciwnika i utrap nieprzyjaciela! Przy\u015bpiesz czas i pomnij na koniec, aby wys\u0142awiano dziwne dzie\u0142a Twoje, Panie, Bo\u017ce nasz.\nBogu dzi\u0119ki.", 
+      "id": "LectioL4", 
+      "label": "4 Lekcja"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Proroka Daniela.\n*Dn 3:47-51*\n*Powa\u017cn\u0105 przeszkod\u0105 do zbawienia s\u0105 nasze nami\u0119tno\u015bci, kt\u00f3re wykorzystuje szatan i \u015bwiat. Jak Anio\u0142 \u0142agodzi\u0142 p\u0142omienie ognia, tak Chrystus u\u015bmierzy nasze nami\u0119tno\u015bci i wybawi nas od z\u0142a.*\nW one dni Anio\u0142 Pa\u0144ski zst\u0105pi\u0142 z Azariaszem i z towarzyszami jego w piec i wyrzuci\u0142 p\u0142omie\u0144 ognia z pieca, i uczyni\u0142 w\u015br\u00f3d pieca jakby wiatr rosisty przewiewaj\u0105cy, a p\u0142omie\u0144 rozchodzi\u0142 si\u0119 nad piecem na czterdzie\u015bci dziewi\u0119\u0107 \u0142okci, i wypad\u0142, i popali\u0142 tych Chaldejczyk\u00f3w, kt\u00f3rych znalaz\u0142 ko\u0142o pieca, s\u0142ugi kr\u00f3lewskie, kt\u00f3rzy podniecali ogie\u0144. (Azariasza i jego towarzyszy) nie dotkn\u0105\u0142 si\u0119 wcale ogie\u0144, ani ich nie zasmuci\u0142, ani \u017cadnej przykro\u015bci nie uczyni\u0142. Wtedy ci trzej jakby jednymi usty chwalili i wys\u0142awiali, i b\u0142ogos\u0142awili Boga w piecu m\u00f3wi\u0105c:\n\n*Hymn*\n*Dn 3:52-53*\nB\u0142ogos\u0142awiony jeste\u015b, Panie, Bo\u017ce ojc\u00f3w naszych: i chwalebny, i s\u0142awny na wieki.\nI b\u0142ogos\u0142awione prze\u015bwietne imi\u0119 Twoje, kt\u00f3re jest \u015bwi\u0119te: i chwalebne, i s\u0142awne na wieki.\nB\u0142ogos\u0142awiony jeste\u015b w \u015bwi\u0119tym przybytku chwa\u0142y Twojej: i chwalebny, i s\u0142awny na wieki\nB\u0142ogos\u0142awiony jeste\u015b na \u015bwi\u0119tym tronie Kr\u00f3lestwa Twego: i chwalebny, i s\u0142awny na wieki.\nB\u0142ogos\u0142awiony jeste\u015b dla Boskiej w\u0142adzy i rz\u0105d\u00f3w Twoich: i chwalebny, i s\u0142awny na wieki.\nB\u0142ogos\u0142awiony jeste\u015b, kt\u00f3ry siedzisz na Cherubach, a wzrokiem zg\u0142\u0119biasz przepa\u015bci: i chwalebny, i s\u0142awny na wieki.\nB\u0142ogos\u0142awiony jeste\u015b, kt\u00f3ry si\u0119 unosisz na skrzyd\u0142ach wichru i chodzisz po falach morskich: i chwalebny, i s\u0142awny na wieki.\nNiech Ci\u0119 b\u0142ogos\u0142awi\u0105 wszyscy Anio\u0142owie i \u015awi\u0119ci Twoi: i niech Ci\u0119 chwal\u0105 i s\u0142awi\u0105 na wieki.\nNiech Ci\u0119 b\u0142ogos\u0142awi\u0105 niebiosa, ziemia, morze, i wszystko, co si\u0119 w nich znajduje: i niech Ci\u0119 chwal\u0105, i b\u0142ogos\u0142awi\u0105 na wieki.\nChwa\u0142a Ojcu i Synowi, i Duchowi \u015awi\u0119temu: i chwalebnemu, i s\u0142awnemu na wieki.\nJak by\u0142a na pocz\u0105tku i teraz, i zawsze, i na wieki wiek\u00f3w, amen: i chwalebnemu, i s\u0142awnemu na wieki.\nB\u0142ogos\u0142awiony jeste\u015b, Panie, Bo\u017ce ojc\u00f3w naszych: i chwalebny, i s\u0142awny na wieki.", 
+      "id": "LectioL5", 
+      "label": "5 Lekcja"
+    }, 
+    {
+      "body": "*Ps 116:1-2*\nChwalcie Pana, wszystkie narody, wys\u0142awiajcie Go, wszystkie ludy.\nV. Bo mi\u0142osierdzie Jego, nad nami utwierdzone, a wierno\u015b\u0107 Pa\u0144ska trwa na wieki.", 
+      "id": "Graduale", 
+      "label": "6 Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 78:9; 78:10*\nO Panie, przebacz nam grzechy, aby poganie z nas nie drwili: \u00abGdzie\u017c jest ich B\u00f3g?\u00bb\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y Swego imienia wybaw nas, Panie.", 
+      "id": "GradualeL1", 
+      "label": "1 Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 83:10; 83:9*\nSpojrzyj, obro\u0144co nasz, Bo\u017ce, i wejrzyj na s\u0142ugi Swoje.\nV. Panie, Bo\u017ce Zast\u0119p\u00f3w, wys\u0142uchaj pro\u015bby s\u0142ug Swoich.", 
+      "id": "GradualeL2", 
+      "label": "2 Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 89:13; 89:1*\nZwr\u00f3\u0107 si\u0119 ku nam, Panie, na chwil\u0119 i daj si\u0119 ub\u0142aga\u0107 s\u0142ugom Swoim.\nV. Panie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie.", 
+      "id": "GradualeL3", 
+      "label": "3 Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 140:2*\nNiech si\u0119 wzbija ku Tobie modlitwa ma, Panie, niby kadzid\u0142o.\nV. Wznoszenie r\u0105k moich jak ofiara wieczorna.", 
+      "id": "GradualeL4", 
+      "label": "4 Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 17:1-9*\n*Ewangelia jak w nast\u0119pn\u0105 niedziel\u0119.*\nOnego czasu: Wzi\u0105\u0142 Jezus Piotra i Jakuba, i Jana brata jego, i zaprowadzi\u0142 ich na g\u00f3r\u0119 wysok\u0105 na uboczu. I przemieni\u0142 si\u0119 przed nimi: i rozja\u015bnia\u0142o oblicze Jego jako s\u0142o\u0144ce, szaty za\u015b Jego sta\u0142y si\u0119 bia\u0142e jako \u015bnieg. I oto ukazali si\u0119 im Moj\u017cesz i Eliasz, rozmawiaj\u0105cy z Nim. A odpowiadaj\u0105c Piotr rzek\u0142 do Jezusa: \u00abPanie, dobrze nam tu by\u0107; je\u017celi chcesz uczy\u0144my tu trzy przybytki: Tobie jeden, Moj\u017ceszowi jeden i Eliaszowi jeden\u00bb. Gdy on to jeszcze m\u00f3wi\u0142, oto ob\u0142ok jasny okry\u0142 ich. I oto g\u0142os z ob\u0142oku m\u00f3wi\u0105cy: \u00abTen jest Syn m\u00f3j mi\u0142y, w kt\u00f3rym upodoba\u0142em sobie: Jego s\u0142uchajcie\u00bb. A s\u0142ysz\u0105c to uczniowie padli na oblicze swoje i zl\u0119kli si\u0119 bardzo. I przyst\u0105pi\u0142 Jezus, dotkn\u0105\u0142 ich i rzek\u0142 im: \u00abWsta\u0144cie, a nie l\u0119kajcie si\u0119\u00bb. A podni\u00f3s\u0142szy oczy swe, nikogo nie widzieli, jeno samego Jezusa.\nA gdy zst\u0119powali z g\u00f3ry, przykaza\u0142 im Jezus m\u00f3wi\u0105c: \u00abNikomu nie m\u00f3wcie o widzeniu, a\u017c Syn Cz\u0142owieczy zmartwychwstanie\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 87:2-3*\nPanie Bo\u017ce, Zbawicielu m\u00f3j, podczas dnia wo\u0142am i w nocy \u017cal\u0119 si\u0119 przed Tob\u0105, niech moja modlitwa dojdzie do Ciebie, Panie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 przez t\u0119 ofiar\u0119 nasze posty, aby w naszym wn\u0119trzu dokona\u0142o si\u0119 to, co wyra\u017caj\u0105 nasze zewn\u0119trzne wyrzeczenia.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 7:2*\nPanie, Bo\u017ce m\u00f3j, w Tobie pok\u0142adam nadziej\u0119, wybaw mnie od wszystkich wrog\u00f3w moich i ratuj mnie.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Wszechmog\u0105cy Bo\u017ce, niech Twoje u\u015bwi\u0119caj\u0105ce tajemnice ulecz\u0105 nasze wady i stan\u0105 si\u0119 dla nas r\u0119kojmi\u0105 \u017cycia wiecznego.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

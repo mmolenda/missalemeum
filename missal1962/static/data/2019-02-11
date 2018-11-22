@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-02-11", 
+    "description": "11 lutego 1858 r., 4 lata po og\u0142oszeniu dogmatu Niepokalanego Pocz\u0119cia, Matka Bo\u017ca objawi\u0142a si\u0119 czternastoletniej pasterce \u015bw. Bernadecie Soubirous. W czasie nast\u0119pnych objawie\u0144 Matka Bo\u017ca wzywa\u0142a do modlitwy i pokuty oraz poleci\u0142a wznie\u015b\u0107 na tym miejscu ko\u015bci\u00f3\u0142. 25 marca objawi\u0142a swoje imi\u0119: \u00abJa jestem Niepokalane Pocz\u0119cie\u00bb. Wkr\u00f3tce Lourdes zas\u0142yn\u0119\u0142o z licznych uzdrowie\u0144 i nawr\u00f3ce\u0144. Obok groty, w ktr\u00f3rej wytrysn\u0119\u0142o cudowne \u017ar\u00f3d\u0142o, wznosz\u0105 si\u0119 dwie bazyliki obs\u0142uguj\u0105ce wci\u0105\u017c rosn\u0105cy ruch pielgrzymkowy. Lourdes sta\u0142o si\u0119 \u015bwiatowym centrum czci Matki Bo\u017cej.", 
+    "tempora": "Poniedzia\u0142ek po 5 Niedzieli po Objawieniu", 
+    "title": "Objawienie si\u0119 N. M. P. Niepokalanie Pocz\u0119tej w Lourdes"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Apoc 21:2.*\nVidi civit\u00e1tem sanctam, Jer\u00fasalem novam, descend\u00e9ntem de coelo a Deo, par\u00e1tam sicut sponsam orn\u00e1tam viro suo.\n*Ps 44,2.*\nEruct\u00e1vit cor meum verbum bonum: dico ego \u00f3pera mea Regi.\nGl\u00f3ria Patri.\nVidi civit\u00e1tem sanctam, Jer\u00fasalem novam, descend\u00e9ntem de coelo a Deo, par\u00e1tam sicut sponsam orn\u00e1tam viro suo.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui per immacul\u00e1tam V\u00edrginis Concepti\u00f3nem dignum Filio tuo habit\u00e1culum pr\u00e6par\u00e1sti: s\u00fapplices a te qu\u01fdsumus; ut, ej\u00fasdem V\u00edrginis Appariti\u00f3nem celebr\u00e1ntes, sal\u00fatem mentis et c\u00f3rporis consequ\u00e1mur.\nPer e\u00fandem.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Apocal\u00fdpsis be\u00e1ti Jo\u00e1nnis Ap\u00f3stoli\n*Apoc 11:19; 12, 1 et 10.*\nAp\u00e9rtum est templum Dei in coelo: et visa est arca testam\u00e9nti ejus in templo ejus, et facta sunt f\u00falgura et voces et terr\u00e6m\u00f3tus et grando magna. Et signum magnum app\u00e1ruit in coelo: M\u00falier am\u00edcta sole, et luna sub p\u00e9dibus ejus, et in c\u00e1pite ejus cor\u00f3na stell\u00e1rum du\u00f3decim. Et aud\u00edvi vocem magnam in coelo dic\u00e9ntem: Nunc facta est salus et virtus, et regnum Dei nostri et pot\u00e9stas Christi ejus.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Cant 2:12.*\nFlores apparu\u00e9runt in terra nostra, tempus putati\u00f3nis adv\u00e9nit, vox t\u00farturis aud\u00edta est in terra nostra.\n*Cant 2:10 et l4.*\nSurge, am\u00edca mea, speci\u00f3sa mea, et veni: col\u00famba mea in foram\u00ednibus petr\u00e6, in cav\u00e9rna mac\u00e9ri\u00e6. Allel\u00faja, allel\u00faja.\nV. Ost\u00e9nde mihi f\u00e1ciem tuam, sonet vox tua in \u00e1uribus meis: vox enim tua dulcis, et f\u00e1cies tua dec\u00f3ra. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Judith 15:10.*\nTu gl\u00f3ria Jer\u00fasalem, tu l\u00e6t\u00edtia Isra\u00ebl, tu honorific\u00e9ntia p\u00f3puli nostri.\n*Cant 4:7.*\nTota pulchra es, Mar\u00eda: et m\u00e1cula origin\u00e1lis non est in te.\nV. Felix es, sacra Virgo Mar\u00eda, et omni laude dign\u00edssima, qu\u00e6 serp\u00e9ntis caput virg\u00edneo pede contriv\u00edsti.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 1:26-31.*\nIn illo t\u00e9mpore: Missus est Angelus G\u00e1briel a Deo in civit\u00e1tem Galilae\u00e6, cui nomen N\u00e1zareth, ad V\u00edrginem despons\u00e1tam viro, cui nomen erat Joseph, de domo David, et nomen V\u00edrginis Mar\u00eda. Et ingr\u00e9ssus Angelus ad eam dixit: Ave, gr\u00e1tia plena; D\u00f3minus tecum: bened\u00edcta tu in muli\u00e9ribus. Qu\u00e6 cum aud\u00edsset, turb\u00e1ta est in serm\u00f3ne ejus: et cogit\u00e1bat, qualis esset ista salut\u00e1tio. Et ait Angelus ei: Ne t\u00edmeas, Mar\u00eda, inven\u00edsti enim gr\u00e1tiam apud Deum: ecce, conc\u00edpies in \u00fatero et p\u00e1ries f\u00edlium, et voc\u00e1bis nomen ejus Jesum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Luc 1:28.*\nAve, gr\u00e1tia plena; D\u00f3minus tecum: bened\u00edcta tu in muli\u00e9ribus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00f3stia laudis, quam tibi, D\u00f3mine, per m\u00e9rita glori\u00f3s\u00e6 et immacul\u00e1t\u00e6 V\u00edrginis off\u00e9rimus, sit tibi in od\u00f3rem suavit\u00e1tis, et nobis opt\u00e1tam c\u00f3nferat c\u00f3rporis et \u00e1nim\u00e6 sanit\u00e1tem.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 64:10.*\nVisit\u00e1sti terram et inebri\u00e1sti eam, multiplic\u00e1sti locuplet\u00e1re eam.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Quos coel\u00e9sti, D\u00f3mine, alim\u00e9nto sati\u00e1sti, s\u00fablevet dextera Genetr\u00edcis tu\u00e6 immacul\u00e1t\u00e6: ut ad \u00e6t\u00e9rnam p\u00e1triam, ipsa adjuv\u00e1nte, perven\u00edre mere\u00e1mur:\nQui vivis.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ap 21:2*\nUjrza\u0142em \u015bwi\u0119te miasto, Jeruzalem nowe, zst\u0119puj\u0105ce z nieba od Boga, gotowe jak oblubienica strojna dla m\u0119\u017ca swego.\n*Ps 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nChwa\u0142a Ojcu.\nUjrza\u0142em \u015bwi\u0119te miasto, Jeruzalem nowe, zst\u0119puj\u0105ce z nieba od Boga, gotowe jak oblubienica strojna dla m\u0119\u017ca swego.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b przez Niepokalane Pocz\u0119cie Naj\u015bwi\u0119tszej Dziewicy przygotowa\u0142 Synowi Swojemu godne mieszkanie, kornie Ci\u0119 prosimy, aby\u015bmy obchodz\u0105c \u015bwi\u0119to Jej objawienia, osi\u0105gn\u0119li zdrowie duszy i cia\u0142a.\nPrzez tego\u017c Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Apokalipsy \u015bwi\u0119tego Jana Aposto\u0142a.\n*Ap 11:19; 12:1; 12:10*\nOtwar\u0142a si\u0119 \u015bwi\u0105tynia Bo\u017ca w niebiesiech i zjawi\u0142a si\u0119 arka testamentu Jego w \u015bwi\u0105tyni. I sta\u0142y si\u0119 b\u0142yskawice i wo\u0142ania, trz\u0119sienie ziemi i grad wielki.\nI ukaza\u0142 si\u0119 znak wielki na niebie: Niewiasta obleczone w s\u0142o\u0144ce i ksi\u0119\u017cyc u jej st\u00f3p, a na g\u0142owie jej korona z gwiazd dwunastu.\nI us\u0142ysza\u0142em g\u0142os dono\u015bny w niebie, m\u00f3wi\u0105cy: \u00abTeraz sta\u0142o si\u0119 zbawienie i pot\u0119ga, i kr\u00f3lowanie Boga naszego, i w\u0142adza Chrystusa Jego\u00bb.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Pnp 2:12*\n*Matka Bo\u017ca objawi\u0142a si\u0119 w grocie skalnej, obok kt\u00f3rej zakwit\u0142 krzew r\u00f3\u017cy.*\nUkaza\u0142y si\u0119 kwiaty na ziemi naszej, przyszed\u0142 czas obrzynania winnic, g\u0142os synogarlicy us\u0142yszano w ziemi naszej.\n*Pnp 2:10; 2:14*\nPowsta\u0144 przyjaci\u00f3\u0142ko moja pi\u0119kna i przyjd\u017a; go\u0142\u0119bico moja w\u015br\u00f3d skalnych rozpadlin, w szczelinie muru. Alleluja, alleluja.\nV. Uka\u017c mi oblicze twoje, niechaj g\u0142os tw\u00f3j zabrzmi w uszach moich: albowiem g\u0142os tw\u00f3j jest wdzi\u0119czny, a oblicze twoje pi\u0119kne. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Jdt 15:10*\n*Wed\u0142ug s\u0142\u00f3w \u015bw. Bernadety \u017caden wizerunek ziemski nie mo\u017ce odda\u0107 pi\u0119kno\u015bci Maryi.*\nTy\u015b chwa\u0142\u0105 Jeruzalem, Ty\u015b weselem Izraela, Ty\u015b chlub\u0105 ludu naszego.\n*Pnp 4:7*\nCa\u0142a pi\u0119kna jeste\u015b, Maryjo, i zmazy pierworodnej nie ma w Tobie.\nV. B\u0142ogos\u0142awiona i godna czci jeste\u015b, Panno Maryjo, kt\u00f3ra\u015b dziewicz\u0105 stop\u0105 star\u0142a g\u0142ow\u0119 w\u0119\u017ca.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 1:26-31*\nOnego czasu: Pos\u0142any jest Anio\u0142 Gabriel od Boga do miasta galilejskiego, kt\u00f3re zwano Nazaret, do Panny po\u015blubionej m\u0119\u017cowi, kt\u00f3remu by\u0142o na imi\u0119 J\u00f3zef, z domu Dawidowego, a imi\u0119 Panny Maryja. I wszed\u0142szy do Niej Anio\u0142 rzek\u0142: \u00abB\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami\u00bb.\nA Ona, gdy pos\u0142ysza\u0142a, zatrwo\u017cy\u0142a si\u0119 na s\u0142owa jego i rozwa\u017ca\u0142a, c\u00f3\u017c by to by\u0142o za pozdrowienie. I rzek\u0142 Jej Anio\u0142: \u00abNie l\u0119kaj si\u0119, Maryjo, albowiem znalaz\u0142a\u015b \u0142ask\u0119 u Boga! Oto poczniesz w \u0142onie i porodzisz syna, i nadasz Mu imi\u0119 Jezus\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*\u0141k 1:28*\nZdrowa\u015b Maryjo, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Ofiara uwielbienia, kt\u00f3r\u0105 Tobie, Panie, sk\u0142adamy przez zas\u0142ugi chwalebnej i Niepokalanej Dziewicy, niech Ci b\u0119dzie jako wonno\u015b\u0107 mi\u0142a, nam za\u015b niech wyjedna upragnione zdrowie cia\u0142a i duszy.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 64:10*\n*W grocie Massabielskiej wytrysn\u0119\u0142o \u017ar\u00f3d\u0142o obdarzone cudown\u0105 moc\u0105.*\nTy\u015b ziemi\u0119 nawiedzi\u0142 i nawodni\u0142, obficie j\u0105 wzbogaci\u0142e\u015b.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech\u017ce nas, kt\u00f3rych posili\u0142e\u015b pokarmem niebieskim, d\u017awiga prawica Niepokalanej Rodzicielki Twojej, aby\u015bmy przy Jej pomocy zas\u0142u\u017cyli na doj\u015bcie do wiekuistej ojczyzny:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

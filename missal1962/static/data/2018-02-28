@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Cecylii", 
+      "3 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2018-02-28", 
+    "description": "Lekcja zawiera modlitw\u0119 Mardocheusza za nar\u00f3d \u017cydowski, kt\u00f3ry Pan usi\u0142uje zgubi\u0107. Mardocheusz b\u0142aga, aby B\u00f3g przemieni\u0142 smutek jego ludu w rado\u015b\u0107. Podobnie chrze\u015bcijanie s\u0105 pogr\u0105\u017ceni w pokucie wielkopostnej i oczekuj\u0105 rado\u015bci wielkanocnych. Aby na nie zas\u0142u\u017cy\u0107, trzeba wzi\u0105\u0107 udzia\u0142 w kielichu m\u0119ki przez wyrzeczenie i cierpliwe znoszenie do\u015bwiadcze\u0144 (ewangelia).", 
+    "tempora": null, 
+    "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 37:22-23.*\nNe derel\u00ednquas me, D\u00f3mine, Deus meus, ne disc\u00e9das a me: int\u00e9nde in adjut\u00f3rium meum, D\u00f3mine, virtus sal\u00fatis me\u00e6.\n*Ps 37:2*\nD\u00f3mine, ne in fur\u00f3re tuo \u00e1rguas me: neque in ira tua corr\u00edpias me.\nGl\u00f3ria Patri.\nNe derel\u00ednquas me, D\u00f3mine, Deus meus, ne disc\u00e9das a me: int\u00e9nde in adjut\u00f3rium meum, D\u00f3mine, virtus sal\u00fatis me\u00e6.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "P\u00f3pulum tuum, qu\u01fdsumus, D\u00f3mine, prop\u00edtius r\u00e9spice: et, quos ab escis carn\u00e1libus praecipis abstin\u00e9re, a noxiis quoque v\u00edtiis cess\u00e1re conc\u00e9de.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Esther.\n*Esth 13:8-11; 13:15-17*\nIn di\u00e9bus illis: Or\u00e1vit Mardochaeus ad D\u00f3minum, dicens: D\u00f3mine, D\u00f3mine, Rex omn\u00edpotens, in dici\u00f3ne enim tua cuncta sunt p\u00f3sita, et non est, qui possit tu\u00e6 res\u00edstere volunt\u00e1ti, si decr\u00e9veris salv\u00e1re Isra\u00ebl. Tu fec\u00edsti coelum et terram, et quidquid coeli \u00e1mbitu contin\u00e9tur. D\u00f3minus \u00f3mnium es, nec est, qui res\u00edstat majest\u00e1ti tu\u00e6. Et nunc, D\u00f3mine Rex, Deus Abraham, miser\u00e9re p\u00f3puli tui, quia volunt nos inim\u00edci nostri p\u00e9rdere, et heredit\u00e1tem tuam del\u00e9re. Ne desp\u00edcias partem tuam, quam redem\u00edsti tibi de \u00c6g\u00fdpto. Ex\u00e1udi deprecati\u00f3nem meam, et prop\u00edtius esto sorti et fun\u00edculo tuo, et conv\u00e9rte luctum nostrum in g\u00e1udium, ut viv\u00e9ntes laud\u00e9mus nomen tuum, D\u00f3mine, et ne claudas ora te can\u00e9ntium, D\u00f3mine, Deus noster.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 27:9; 27:1*\nSalvum fac p\u00f3pulum tuum, D\u00f3mine, et b\u00e9nedic heredit\u00e1ti tu\u00e6.\nV. Ad te, D\u00f3mine, clam\u00e1vi: Deus meus, ne s\u00edleas a me, et ero s\u00edmilis descend\u00e9ntibus in lacum.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis\n*Ps 78:8-9*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 20:17-28*\nIn illo t\u00e9mpore: Asc\u00e9ndens Jesus Jeros\u00f3lymam, ass\u00fampsit du\u00f3decim disc\u00edpulos secr\u00e9to, et ait illis: Ecce, asc\u00e9ndimus Jeros\u00f3lymam, et F\u00edlius h\u00f3minis trad\u00e9tur princ\u00edpibus sacerd\u00f3tum, et scribis, et condemn\u00e1bunt eum morte, et tradent eum G\u00e9ntibus ad illud\u00e9ndum, et flagell\u00e1ndum, et crucifig\u00e9ndum, et t\u00e9rtia die res\u00farget. Tunc acc\u00e9ssit ad eum mater fili\u00f3rum Zebedaei cum f\u00edliis suis, ad\u00f3rans et petens \u00e1liquid ab eo. Qui dixit ei: Quid vis? Ait illi: Dic, ut s\u00e9deant hi duo f\u00edlii mei, unus ad d\u00e9xteram tuam et unus ad sin\u00edstram in regno tuo. Resp\u00f3ndens autem Jesus, dixit: Nesc\u00edtis, quid pet\u00e1tis. Pot\u00e9stis b\u00edbere c\u00e1licem, quem ego bibit\u00farus sum? Dicunt ei: P\u00f3ssumus. Ait illis: C\u00e1licem quidem meum bib\u00e9tis: sed\u00e9re autem ad d\u00e9xteram meam vel sin\u00edstram, non est meum dare vobis, sed quibus par\u00e1tum est a Patre meo. Et audi\u00e9ntes decem, indign\u00e1ti sunt de du\u00f3bus fr\u00e1tribus. Jesus autem voc\u00e1vit eos ad se, et ait: Scitis, quia pr\u00edncipes g\u00e9ntium domin\u00e1ntur e\u00f3rum: et qui maj\u00f3res sunt, potest\u00e1tem ex\u00e9rcent in eos. Non ita erit inter vos: sed quic\u00famque vol\u00faerit inter vos major f\u00ederi, sit vester min\u00edster: et qui vol\u00faerit inter vos primus esse, erit vester servus. Sicut F\u00edlius h\u00f3minis non venit ministr\u00e1ri, sed ministr\u00e1re, et dare \u00e1nimam suam, redempti\u00f3nem pro multis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 24:1-3*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam: neque irr\u00eddeant me inim\u00edci mei: \u00e9tenim univ\u00e9rsi, qui te exsp\u00e9ctant, non confund\u00e9ntur.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00f3stias, D\u00f3mine, quas tibi off\u00e9rimus, prop\u00edtius r\u00e9spice: et, per h\u00e6c sancta comm\u00e9rcia, v\u00edncula peccat\u00f3rum nostr\u00f3rum abs\u00f3lve.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 10:8*\nJustus D\u00f3minus, et just\u00edtiam dil\u00e9xit: \u00e6quit\u00e1tem vidit vultus ejus.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Sumptis, D\u00f3mine, sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 37:22-23*\nNie opuszczaj mnie, Panie, Bo\u017ce m\u00f3j, nie odst\u0119puj ode mnie, spiesz mi na pomoc, Panie, zbawienie moje.\n*Ps 37:2*\nNie kar\u0107 mnie, Panie, w gniewie Twoim, ani mnie nie karz w Twej zapalczywo\u015bci.\nChwa\u0142a Ojcu.\nNie opuszczaj mnie, Panie, Bo\u017ce m\u00f3j, nie odst\u0119puj ode mnie, spiesz mi na pomoc, Panie, zbawienie moje.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, wejrzyj \u0142askawie na Tw\u00f3j lud i spraw, aby ci, kt\u00f3rym nakaza\u0142e\u015b wstrzemi\u0119\u017aliwo\u015b\u0107 od pokarm\u00f3w mi\u0119snych, zaprzestali r\u00f3wnie\u017c zgubnych wyst\u0119pk\u00f3w.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Estery.\n*Est 13:8-11; 13:15-17*\nW one dni: Mardocheusz modli\u0142 si\u0119 do Pana pami\u0119taj\u0105c o wszystkich sprawach Jego i rzek\u0142: \u00abPanie, Panie, Kr\u00f3lu wszechmog\u0105cy, bo w mocy Twojej wszystko jest po\u0142o\u017cone, i nie masz, kto by si\u0119 m\u00f3g\u0142 woli Twej sprzeciwi\u0107, je\u015bli b\u0119dziesz chcia\u0142 zachowa\u0107 Izraela. Ty\u015b stworzy\u0142 niebo i ziemi\u0119, i cokolwiek si\u0119 okr\u0119giem niebieskim zamyka. Panem wszystkich jeste\u015b i nie masz, kto by si\u0119 sprzeciwi\u0142 majestatowi Twemu. A teraz, Panie, Kr\u00f3lu, Bo\u017ce Abraham\u00f3w, zmi\u0142uj si\u0119 nad ludem Twym, bo nas chc\u0105 nieprzyjaciele nasi wytraci\u0107 i dziedzictwo Twoje wygubi\u0107. Nie gard\u017a cz\u0105stk\u0105 Twoj\u0105, kt\u00f3r\u0105\u015b sobie wykupi\u0142 z Egiptu. Wys\u0142uchaj pro\u015bb\u0119 moj\u0105, a b\u0105d\u017a mi\u0142o\u015bciw dzia\u0142owi i sznurowi Twemu, a obr\u00f3\u0107 \u017ca\u0142ob\u0119 nasz\u0105 w wesele, aby\u015bmy \u017cywi b\u0119d\u0105c, chwalili imi\u0119 Twoje, Panie, a nie zamykaj ust o Tobie \u015bpiewaj\u0105cych, Panie Bo\u017ce nasz\u00bb.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 27:9; 27:1*\nOcal lud Tw\u00f3j, o Panie, i b\u0142ogos\u0142aw Twojemu dziedzictwu.\nV. Do Ciebie, Panie, wo\u0142am, Bo\u017ce m\u00f3j, nie milcz i nie odwracaj si\u0119 ode mnie, bym si\u0119 nie sta\u0142 podobny do tych, co w gr\u00f3b zst\u0119puj\u0105.\n\n*Tractus*\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 20:17-28*\nOnego czasu: Jezus wst\u0119puj\u0105c do Jeruzalem wzi\u0105\u0142 dwunastu uczni\u00f3w na osobno\u015b\u0107, i rzek\u0142 im: \u00abOto wst\u0119pujemy do Jeruzalem i Syn Cz\u0142owieczy b\u0119dzie wydany przedniejszym kap\u0142anom i uczonym w Pi\u015bmie. I ska\u017c\u0105 go na \u015bmier\u0107, i wydadz\u0105 poganom na po\u015bmiewisko, ubiczowanie i ukrzy\u017cowanie. A dnia trzeciego zmartwychwstanie\u00bb.\nWtedy przyst\u0105pi\u0142a do Niego matka syn\u00f3w Zebedeuszowych z synami swymi, sk\u0142adaj\u0105c Mu pok\u0142on i o co\u015b Go prosz\u0105c. A On rzek\u0142 jej: \u00abCzeg\u00f3\u017c chcesz?\u00bb Rzek\u0142a Mu: \u00abPowiedz, aby ci dwaj synowie moi zasiedli w Kr\u00f3lestwie Twoim, jeden po prawicy Twojej, a drugi po lewicy\u00bb. A Jezus odpowiadaj\u0105c rzek\u0142: \u00abNie wiecie, o co prosicie. Czy mo\u017cecie pi\u0107 kielich, kt\u00f3ry ja pi\u0107 b\u0119d\u0119?\u00bb M\u00f3wi\u0105 Mu: \u00abMo\u017cemy\u00bb. Rzek\u0142 im: \u00abKielich m\u00f3j wprawdzie pi\u0107 b\u0119dziecie, ale aby zasi\u0105\u015b\u0107 po prawicy mojej albo po lewicy, nie jest moj\u0105 rzecz\u0105 da\u0107 wam, lecz tylko tym, kt\u00f3rym jest to zgotowane od Ojca mego\u00bb.\nPos\u0142yszawszy to, dziesi\u0119ciu innych obruszy\u0142o si\u0119 na obydwu braci. Lecz Jezus wezwa\u0142 ich do siebie i rzek\u0142: \u00abWiecie, \u017ce ksi\u0105\u017c\u0119ta narod\u00f3w panuj\u0105 nad nimi, a mo\u017cniejsi rozci\u0105gaj\u0105 nad nimi sw\u0105 w\u0142adz\u0119. Mi\u0119dzy wami tak nie b\u0119dzie. Ale ktobykolwiek mi\u0119dzy wami chcia\u0142 by\u0107 wi\u0119kszym, b\u0119dzie s\u0142ug\u0105 waszym, a ktobykolwiek mi\u0119dzy wami chcia\u0142 by\u0107 pierwszym, ma by\u0107 waszym s\u0142ug\u0105. Tak jako Syn Cz\u0142owieczy nie przyszed\u0142, aby mu s\u0142u\u017cono, ale aby s\u0142u\u017cy\u0107 i dusz\u0119 sw\u0105 odda\u0107 na okup za wielu\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 24:1-3*\nKu Tobie wznosz\u0119 dusz\u0119 moj\u0105, Panie, Bo\u017ce m\u00f3j, Tobie ja ufam: niech nie doznam wstydu, niech si\u0119 nie \u015bmiej\u0105 ze mnie moi wrogowie. Wszyscy bowiem, co Tobie ufaj\u0105, nie doznaj\u0105 wstydu.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "*Msza \u015bwi\u0119ta jest wymian\u0105 mi\u0119dzy niebem a ziemi\u0105, spotkaniem Ko\u015bcio\u0142a z Bogiem, kt\u00f3ry przyjmuje ofiar\u0119 i udziela \u0142aski.*\nPanie, wejrzyj \u0142askawie na ofiary, kt\u00f3re Ci sk\u0142adamy, i przez t\u0119 \u015bwi\u0119t\u0105 wymian\u0119 wyzw\u00f3l nas z wi\u0119z\u00f3w naszych grzech\u00f3w.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 10:8*\nSprawiedliwy jest Pan i sprawiedliwo\u015b\u0107 mi\u0142uje, uczciwi zobacz\u0105 twarz Jego.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, aby przez przyj\u0119cie Sakramentu wzrasta\u0142a w nas \u0142aska wiecznego Odkupienia.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

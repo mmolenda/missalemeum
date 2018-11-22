@@ -1,0 +1,56 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2019-05-18", 
+    "description": "\u015aw. Wenancjusz by\u0142 biskupem Salony w Dalmacji. Poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 oko\u0142o roku 250. Relikwie przeniesiono do Rzymu.W Okresie Wielkanocnym Msza wsp\u00f3lna nr 16 Protexisti,poza Okresem Wielkanocnym Msza wsp\u00f3lna nr 11 In virtute, w obu przypadkach z wyj\u0105tkiem Kolekty.", 
+    "tempora": "Sobota po 3 Niedzieli po Wielkanocy", 
+    "title": "\u015aw. Wenancjusza, M\u0119czennika"
+  }, 
+  "proper_latin": [
+    {
+      "body": "Deus, qui hunc diem be\u00e1ti Ven\u00e1ntii Martyris tui tri\u00fampho consecr\u00e1sti: ex\u00e1udi preces p\u00f3puli tui et pr\u00e6sta: ut, qui ejus m\u00e9rita vener\u00e1mur, f\u00eddei const\u00e1ntiam imit\u00e9mur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "Hanc oblati\u00f3nem, omn\u00edpotens Deus, be\u00e1ti Ven\u00e1ntii m\u00e9rita tibi reddant acc\u00e9ptam: ut, ips\u00edus subsidiis adjuti, gl\u00f3ri\u00e6 ejus consortes effici\u00e1mur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "S\u00fampsimus, D\u00f3mine, \u00e6t\u00e9rn\u00e6 vit\u00e6 sacram\u00e9nta, te humiliter deprec\u00e1ntes: ut, be\u00e1to Ven\u00e1ntio M\u00e1rtyre tuo pro nobis deprec\u00e1nte, v\u00e9niam nobis conc\u00edlient et gr\u00e1tiam.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b ten dzie\u0144 ws\u0142awi\u0142 zwyci\u0119stwe \u015bw. M\u0119czennika Twojego Wenancjusza, wys\u0142uchaj pr\u00f3\u015bb Swojego ludu i spraw, by\u015bmy czcz\u0105c jego zas\u0142ugi, na\u015bladowali sta\u0142o\u015b\u0107\u00a0w wierze.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Wszechmog\u0105cy Bo\u017ce, niech zas\u0142ugi \u015bw. Wenancjusza uczyni\u0105 t\u0119 ofiar\u0119 mi\u0142\u0105 Tobie, aby\u015bmy wsparci jego pomoc\u0105, stali si\u0119 uczestnikami jego chwa\u0142y.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "Przyj\u0119li\u015bmy, Panie, Sakrament \u017cycia wiecznego, pokornie Ci\u0119 b\u0142agaj\u0105c, aby przez modlitwy \u015bw. M\u0119czennika Twego Wenancjusza, da\u0142 nam przebaczenie i \u0142ask\u0119.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "info": {
+    "additional_info": [], 
+    "date": "2019-01-05", 
+    "description": "Msza przeznaczona na soboty w czasie od Bo\u017cego Narodzenia do Oczyszczenia N. M. P.", 
+    "tempora": null, 
+    "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 44:13; 44:15; 44:16*\nVultum tuum deprecab\u00fantur omnes d\u00edvites plebis: adduc\u00e9ntur Regi V\u00edrgines post eam: pr\u00f3xim\u00e6 ejus adduc\u00e9ntur tibi in l\u00e6t\u00edtia et exsultati\u00f3ne.\n*Ps 44:2*\nEruct\u00e1vit cor meum verbum bonum: dico ego \u00f3pera mea Regi.\nGl\u00f3ria Patri.\nVultum tuum deprecab\u00fantur omnes d\u00edvites plebis: adduc\u00e1ntur Regi V\u00edrgines post eam: pr\u00f3xim\u00e6 ejus adduc\u00e9ntur tibi in l\u00e6t\u00edtia et exsultati\u00f3ne.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui sal\u00fatis \u00e6t\u00e9rn\u00e6, be\u00e1t\u00e6 Mar\u00ed\u00e6 virginit\u00e1te f\u0153c\u00fanda, hum\u00e1no generi pr\u00e6mia pr\u00e6stit\u00edsti: tr\u00edbue, qu\u01fdsumus; ut ipsam pro nobis interc\u00e9dere senti\u00e1mus, per quam mer\u00faimus auct\u00f3rem vit\u00e6 susc\u00edpere, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Titum.\n*Tit 3:4-7.*\nCar\u00edssime: App\u00e1ruit ben\u00edgnitas et hum\u00e1nitas Salvat\u00f3ris nostri Dei: non ex op\u00e9ribus just\u00edti\u00e6, qu\u00e6 f\u00e9cimus nos, sed sec\u00fandum suam miseric\u00f3rdiam salvos nos fecit, per lav\u00e1crum regenerati\u00f3nis et renovati\u00f3nis Sp\u00edritus Sancti, quem eff\u00fadit in nos ab\u00fande per Jesum Christum, Salvat\u00f3rem nostrum: ut, justific\u00e1ti gr\u00e1tia ips\u00edus, her\u00e9des simus sec\u00fandum spem vit\u00e6 \u00e6t\u00e9rn\u00e6: in Christo Jesu, D\u00f3mino nostro.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 44:3; 44:2*\nSpeci\u00f3sus forma pr\u00e6 f\u00edliis h\u00f3minum: diff\u00fasa est gr\u00e1tia in l\u00e1biis tuis.\nV. Eruct\u00e1vit cor meum verbum bonum: dico ego \u00f3pera mea Regi: lingua mea c\u00e1lamus scrib\u00e6 vel\u00f3citer scrib\u00e9ntis. Allel\u00faja, allel\u00faja.\nV. Post partum, Virgo, inviol\u00e1ta permans\u00edsti: Dei G\u00e9netrix, interc\u00e9de pro nobis. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Speci\u00f3sus forma pr\u00e6 f\u00edliis h\u00f3minum: diff\u00fasa est gr\u00e1tia in l\u00e1biis tuis.\nV. Eruct\u00e1vit cor meum verbum bonum: dico ego \u00f3pera mea Regi: lingua mea c\u00e1lamus scrib\u00e6 vel\u00f3citer scrib\u00e9ntis.\n**\nGaude, Mar\u00eda Virgo, cunctas h\u01fdreses sola interem\u00edsti.\nV. Qu\u00e6 Gabri\u00e9lis Arch\u00e1ngeli dictis credid\u00edsti.\nV. Dum Virgo Deum et h\u00f3minem genu\u00edsti: et post partum, Virgo, inviol\u00e1ta permans\u00edsti.\nV. Dei G\u00e9netrix, interc\u00e9de pro nobis.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:15-20*\nIn illo t\u00e9mpore: Past\u00f3res loqueb\u00e1ntur ad \u00ednvicem: Transe\u00e1mus usque B\u00e9thlehem, et vide\u00e1mus hoc verbum, quod factum est, quod D\u00f3minus ost\u00e9ndit nobis. Et ven\u00e9runt festin\u00e1ntes, et inven\u00e9runt Mar\u00edam, et Joseph, et Inf\u00e1ntem p\u00f3situm in pr\u00e6s\u00e9pio. Vid\u00e9ntes autem cognov\u00e9runt de verbo, quod dictum erat illis de P\u00faero hoc. Et omnes, qui audi\u00e9runt, mir\u00e1ti sunt: et de his, qu\u00e6 dicta erant a past\u00f3ribus ad ipsos. Mar\u00eda autem conserv\u00e1bat \u00f3mnia verba h\u00e6c, c\u00f3nferens in corde suo. Et rev\u00e9rsi sunt pastores, glorific\u00e1ntes et laud\u00e1ntes Deum in \u00f3mnibus, qu\u00e6 aud\u00ederant et v\u00edderant, sicut dictum est ad illos.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "**\nFelix namque es, sacra Virgo Mar\u00eda, et omni laude dign\u00edssima: quia ex te ortus est sol just\u00edti\u00e6, Christus, Deus noster.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "D\u00f3mine, propitiati\u00f3ne, et be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis intercessi\u00f3ne, ad perp\u00e9tuam atque pr\u00e6s\u00e9ntem h\u00e6c obl\u00e1tio nobis prof\u00edciat prosperit\u00e1tem et pacem.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "**\nBe\u00e1ta v\u00edscera Mar\u00ed\u00e6 V\u00edrginis, qu\u00e6 portav\u00e9runt \u00e6t\u00e9rni Patris F\u00edlium.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "H\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1ta V\u00edrgine Dei Genetr\u00edce Mar\u00eda, c\u0153l\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer e\u00fandem.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 44:13; 44:15; 44:16*\nKsi\u0105\u017c\u0119ta ludu szukaj\u0105 Twych wzgl\u0119d\u00f3w. Za Ni\u0105 prowadz\u0105 do Kr\u00f3la dziewice, Jej druhny wiod\u0105 do Niego z rado\u015bci\u0105 i weselem.\n*Ps 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo: pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nChwa\u0142a Ojcu.\nKsi\u0105\u017c\u0119ta ludu szukaj\u0105 Twych wzgl\u0119d\u00f3w. Za Ni\u0105 prowadz\u0105 do Kr\u00f3la dziewice, Jej druhny wiod\u0105 do Niego z rado\u015bci\u0105 i weselem.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b przez dziewicze macierzy\u0144stwo Naj\u015bwi\u0119tszej Maryi Panny obdarzy\u0142 rodzaj ludzki \u0142ask\u0105 zbawienia wiecznego, daj, prosimy, aby\u015bmy doznawali or\u0119downictwa Tej, przez kt\u00f3r\u0105 otrzymali\u015bmy Dawc\u0119 \u017cycia wiecznego, Pana naszego Jezusa Chrystusa, Syna Twojego:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tytusa.\n*Tt 3:4-7*\nNajmilszy: Okaza\u0142a si\u0119 dobro\u0107 i \u0142askawo\u015b\u0107 Boga, Zbawiciela naszego: zbawi\u0142 On nas nie dla uczynk\u00f3w sprawiedliwych, kt\u00f3rych dokonali\u015bmy, ale z mi\u0142osierdzia Swego przez obmycie odrodzenia i odnowienia w Duchu \u015awi\u0119tym. Zes\u0142a\u0142 Go nam obficie przez Jezusa Chrystusa, Zbawiciela naszego, aby\u015bmy \u0142ask\u0105 Jego usprawiedliwieni, stali si\u0119 wed\u0142ug nadziei dziedzicami \u017cywota wiecznego: w Chrystusie Jezusie, Panu naszym.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 44:3; 44:2*\nPostaci\u0105 Ty\u015b pi\u0119kniejsza nad syn\u00f3w ludzkich, wdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach.\nV. Z mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la; m\u00f3j j\u0119zyk jest jak rylec sprawnego pisarza. Alleluja, alleluja.\nV. Po porodzeniu, Dziewico, pozosta\u0142a\u015b nienaruszona; Bogarodzico, przyczy\u0144 si\u0119 za nami. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Postaci\u0105 Ty\u015b pi\u0119kniejsza nad syn\u00f3w ludzkich, wdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach.\nV. Z mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la; m\u00f3j j\u0119zyk jest jak rylec sprawnego pisarza.\nRaduj si\u0119, Maryjo Panno: wszystkie herezje sama pokona\u0142a\u015b.\nV. Ty, co uwierzy\u0142a\u015b s\u0142owom Archanio\u0142a Gabriela.\nV. Jako Dziewica zrodzi\u0142a\u015b Boga-Cz\u0142owieka, a porodziwszy, Panno, pozosta\u0142a\u015b nienaruszon\u0105.\nV. Bogarodzico, przyczy\u0144 si\u0119\u00a0za nami.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:15-20*\nOnego czasu; M\u00f3wili pasterze jeden do drugiego: \u00abP\u00f3jd\u017amy a\u017c do Betlejem i zobaczmy to, co si\u0119 sta\u0142o, o czym oznajmi\u0142 nam Pan\u00bb. I spiesz\u0105c si\u0119 przybyli, i znale\u017ali Maryj\u0119 i J\u00f3zefa oraz Dzieci\u0105tko z\u0142o\u017cone w \u017c\u0142obie. A ujrzawszy, zrozumieli s\u0142owa, kt\u00f3re im oznajmione by\u0142y o tym Dzieci\u0105tku. A wszyscy, kt\u00f3rzy s\u0142yszeli, zdumiewali si\u0119; tak\u017ce i temu, co im m\u00f3wili pasterze. Maryja za\u015b zachowywa\u0142a wszystkie te s\u0142owa, rozwa\u017caj\u0105c je w sercu swoim. I wr\u00f3cili pasterze wielbi\u0105c i chwal\u0105c Boga za wszystko, co s\u0142yszeli i widzieli, jako im by\u0142o powiedziane.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "Szcz\u0119\u015bliwa jeste\u015b, \u015bwi\u0119ta Dziewico Maryjo, i wszelkiej chwa\u0142y najgodniejsza, z Ciebie bowiem narodzi\u0142o si\u0119 S\u0142o\u0144ce sprawiedliwo\u015bci, Chrystus, nasz B\u00f3g.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, niech z Twego zmi\u0142owania, a za przyczyn\u0105 b\u0142ogos\u0142awionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i doczesne szcz\u0119\u015bcie oraz pok\u00f3j.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "B\u0142ogos\u0142awione wn\u0119trzno\u015bci Maryi Panny, kt\u00f3re nosi\u0142y Syna Ojca Przedwiecznego.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Niech ta Komunia, o Panie, oczy\u015bci nas z grzech\u00f3w i za przyczyn\u0105 Naj\u015bwi\u0119tszej Dziewicy Bogarodzicy Maryi stanie si\u0119 dla nas niebieskim lekarstwem.\nPrzez tego\u017c Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

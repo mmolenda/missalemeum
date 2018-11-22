@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+      "1 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2017-12-24", 
+    "description": "Liturgi\u0119 Wigilii Bo\u017cego Narodzenia przenika rado\u015b\u0107 bliskiego ju\u017c \u015bwi\u0119ta. W lekcji \u015bw. Pawe\u0142 streszcza nauk\u0119 o Osobie Zbawiciela: \u00abSyn Dawida wed\u0142ug cia\u0142a, Syn Bo\u017cy w mocy\u00bb. W Betlejem rozpoczyna On ziemsk\u0105 pielgrzymk\u0119, kt\u00f3ra zaprowadzi Go na krzy\u017c i do Zmartwychwstania. Bramy Ko\u015bcio\u0142a s\u0105 otwarte na wej\u015bcie niebieskiego Kr\u00f3la. Trzeba otworzy\u0107 przed Nim bramy naszych dusz. Wigilia to ostatni dzie\u0144 przygotowania. Godnym i serdecznym przyj\u0119ciem naprawmy zniewag\u0119, kt\u00f3rej Jezus dozna\u0142 w Betlejem i doznaje poprzez wieki od tych, kt\u00f3rzy Go nie przyjmuj\u0105.", 
+    "tempora": null, 
+    "title": "Wigilia Bo\u017cego Narodzenia"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Exod 16:6; 16:7*\nH\u00f3die sci\u00e9tis, quia v\u00e9niet D\u00f3minus et salv\u00e1bit nos: et mane vid\u00e9bitis gl\u00f3riam ejus\n*Ps 23:1*\nD\u00f3mini est terra, et plenit\u00fado ejus: orbis terr\u00e1rum, et univ\u00e9rsi, qui h\u00e1bitant in eo.\nGl\u00f3ria Patri.\nH\u00f3die sci\u00e9tis, quia v\u00e9niet D\u00f3minus et salv\u00e1bit nos: et mane vid\u00e9bitis gl\u00f3riam ejus", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui nos redempti\u00f3nis nostr\u00e6 \u00e1nnua exspectati\u00f3ne l\u00e6t\u00edficas: pr\u00e6sta; ut Unig\u00e9nitum tuum, quem Redempt\u00f3rem l\u00e6ti susc\u00edpimus, veni\u00e9ntem quoque J\u00fadicem sec\u00fari vide\u00e1mus, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "Lectio Ep\u00edstol\u00e6 beati Pauli Apostoli ad Rom\u00e1nos\n*Rom 1:1-6*\nPaulus, servus Jesu Christi, voc\u00e1tus Ap\u00f3stolus, segreg\u00e1tus in Evang\u00e9lium Dei, quod ante prom\u00edserat per Proph\u00e9tas suos in Script\u00faris sanctis de F\u00edlio suo, qui factus est ei ex s\u00e9mine David sec\u00fandum carnem: qui pr\u00e6destin\u00e1tus est F\u00edlius Dei in virt\u00fate sec\u00fandum sp\u00edritum sanctificati\u00f3nis ex resurrecti\u00f3ne mortu\u00f3rum Jesu Christi, D\u00f3mini nostri: per quem acc\u00e9pimus gr\u00e1tiam, et apostol\u00e1tum ad oboedi\u00e9ndum f\u00eddei in \u00f3mnibus g\u00e9ntibus pro n\u00f3mine ejus, in quibus estis et vos voc\u00e1ti Jesu Christi, D\u00f3mini nostri.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Exod 16:6; 16:7*\nH\u00f3die sci\u00e9tis, quia v\u00e9niet D\u00f3minus et salv\u00e1bit nos: et mane vid\u00e9bitis gl\u00f3riam ejus.\n*Ps 79:2-3*\nQui regis Isra\u00ebl, int\u00e9nde: qui ded\u00facis, velut ovem, Joseph: qui sedes super Ch\u00e9rubim, app\u00e1re coram Ephraim, B\u00e9njamin, et Man\u00e1sse.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii secundum Matth\u01fdum.\n*Matt 1:18-21*\nCum esset despons\u00e1ta Mater Jesu Maria Joseph, \u00e1ntequam conven\u00edrent, inventa est in \u00fatero habens de Spiritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam trad\u00facere, v\u00f3luit occ\u00falte dim\u00edttere eam. H\u00e6c autem eo cogit\u00e1nte, ecce, Angelus D\u00f3mini app\u00e1ruit in somnis ei, dicens: Joseph, fili David, noli tim\u00e9re acc\u00edpere Mar\u00edam c\u00f3njugem tuam: quod enim in ea natum est, de Sp\u00edritu Sancto est. P\u00e1riet autem f\u00edlium, et voc\u00e1bis nomen ejus Jesum: ipse enim salvum f\u00e1ciet p\u00f3pulum suum a pecc\u00e1tis e\u00f3rum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 23:7*\nT\u00f3llite portas, principes, vestras: et elev\u00e1mini, port\u00e6 \u00e6tern\u00e1les, et intro\u00edbit Rex gl\u00f3ri\u00e6.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Da nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, sicut ador\u00e1nda F\u00edlii tui natal\u00edtia pr\u00e6ven\u00edmus, sic ejus m\u00fanera capi\u00e1mus sempit\u00e9rna gaud\u00e9ntes:\nQui tecum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Isa 40:5*\nRevel\u00e1bitur gl\u00f3ria D\u00f3mini: et vid\u00e9bit omnis caro salut\u00e1re Dei nostri.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Da nobis, qu\u01fdsumus, D\u00f3mine: unig\u00e9niti F\u00edlii tui recens\u00edta nativit\u00e1te respir\u00e1re; cujus coel\u00e9sti myst\u00e9rio p\u00e1scimur et pot\u00e1mur.\nPer e\u00fandem.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Wj 16:6; 16:7*\nDzi\u015b poznacie, \u017ce przyjdzie Pan i zbawi nas; a rano ujrzycie chwa\u0142\u0119 Jego.\n*Ps 23:1*\nPana jest ziemia i co j\u0105 nape\u0142nia, kr\u0105g ziemi i jego mieszka\u0144cy.\nChwa\u0142a Ojcu.\nDzi\u015b poznacie, \u017ce przyjdzie Pan i zbawi nas; a rano ujrzycie chwa\u0142\u0119 Jego.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, co roku uweselasz nas oczekiwaniem naszego Odkupiciela: dozw\u00f3l, aby\u015bmy przyjmuj\u0105c rado\u015bnie Jednorodzonego Syna Twego jako Odkupiciela, mogli Go bez trwogi ogl\u0105da\u0107, gdy przyjdzie jako S\u0119dzia, Pan nasz Jezus Chrystus, Syn Tw\u00f3j:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 1:1-6*\nPawe\u0142, s\u0142uga Jezusa Chrystusa, powo\u0142any na Aposto\u0142a, przeznaczony do Ewangelii Bo\u017cej, kt\u00f3r\u0105 niegdy\u015b B\u00f3g zapowiedzia\u0142 by\u0142 przez Prorok\u00f3w swoich w Pismach \u015bwi\u0119tych o Synu swoim. Ten za\u015b, b\u0119d\u0105c wed\u0142ug cia\u0142a potomkiem Dawida, przeznaczony by\u0142, aby wed\u0142ug ducha po\u015bwi\u0119cenia przez powstanie z martwych okaza\u0142 si\u0119 Synem Bo\u017cym w mocy, Jezusem Chrystusem, Panem naszym. Przez Niego otrzymali\u015bmy \u0142ask\u0119 i apostolstwo, aby\u015bmy dla imienia Jego sk\u0142aniali ku pos\u0142usze\u0144stwu wierze wszystkie narody. W\u015br\u00f3d nich jeste\u015bcie i wy, powo\u0142ani Jezusa Chrystusa, Pana naszego.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Wj 16:6; 16:7*\nDzi\u015b poznacie, \u017ce przyjdzie Pan i zbawi nas; a rano ujrzycie chwa\u0142\u0119 Jego.\n*Ps 79:2-3*\nPasterzu Izraela, pos\u0142uchaj: Ty, co jak trzod\u0119 wiedziesz r\u00f3d J\u00f3zefa. Zab\u0142y\u015bnij, kt\u00f3ry siedzisz na Cherubach, przed Efraimem, Beniaminem, Manassesem.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 1:18-21*\nGdy po\u015blubiona by\u0142a Matka Jezusa; Maryja, J\u00f3zefowi, pierwej, ni\u017ali si\u0119 zeszli, okaza\u0142o si\u0119, \u017ce pocz\u0119\u0142a z Ducha \u015awi\u0119tego. A J\u00f3zef, m\u0105\u017c Jej, b\u0119d\u0105c sprawiedliwym i nie chc\u0105c Jej znies\u0142awia\u0107, zamierza\u0142 J\u0105 potajemnie opu\u015bci\u0107. A gdy nad tym przemy\u015bliwa\u0142, oto Anio\u0142 Pa\u0144ski ukaza\u0142 mu si\u0119 we \u015bnie, m\u00f3wi\u0105c: \u00abJ\u00f3zefie, synu Dawid\u00f3w, nie b\u00f3j si\u0119 przyj\u0105\u0107 Maryi, ma\u0142\u017conki swojej, albowiem, co si\u0119 w Niej \u03c1\u03bf\u03c2z\u03b5\u03af\u03bf, z Ducha \u015awi\u0119tego jest. A porodzi syna i nazwiesz imi\u0119 Jego Jezus, albowiem On wybawi lud sw\u00f3j od grzech\u00f3w jego\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 23:7*\nBramy, podnie\u015bcie swe szczyty i rozst\u0105pcie si\u0119, prastare podwoje, aby m\u00f3g\u0142 wkroczy\u0107 Kr\u00f3l chwa\u0142y.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Obchodz\u0105c wigili\u0119 chwalebnych narodzin Twojego Syna, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby\u015bmy z rado\u015bci\u0105 odebrali Jego wiekuiste dary:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Iz 40:5*\nObjawi si\u0119 chwa\u0142a Pa\u0144ska i ujrzy wszelkie cia\u0142o zbawienie Boga naszego.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, niech odnowi nasze \u017cycie obch\u00f3d narodzin Jednorodzonego Syna Twojego, kt\u00f3rego niebieska tajemnica nas karmi i poi.\nPrzez tego\u017c Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

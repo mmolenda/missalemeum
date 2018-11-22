@@ -1,0 +1,116 @@
+{
+  "info": {
+    "additional_info": [
+      "1 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2017-05-01", 
+    "description": "Obowi\u0105zek pracy na\u0142o\u017cy\u0142 Pan B\u00f3g na cz\u0142owieka ju\u017c u progu jego istnienia (kolekta). Umie\u015bci\u0142 go w raju, \u00ababy go uprawia\u0142 i strzeg\u0142\u00bb. B\u0142ogos\u0142awi\u0105c pierwszej parze ludzkiej wyda\u0142 jej B\u00f3g polecenie : \u00abczy\u0144cie sobie ziemi\u0119 poddan\u0105\u00bb. Przez prac\u0119 cz\u0142owiek zdobywa sobie \u015brodki do \u017cycia oraz rozwija swoje si\u0142y fizyczne i duchowe. Sumienna praca pomaga cz\u0142owiekowi w ujarzmianiu nami\u0119tno\u015bci i zabezpiecza go przed pokusami. Syn Bo\u017cy chcia\u0142 si\u0119 urodzi\u0107 w rodzinie ubogiej, \u017cyj\u0105cej z pracy r\u0105k. Przybranym ojcem Jezusa Chrystusa by\u0142 cie\u015bla (ewangelia, antyfona na komunie). \u015aw. J\u00f3zef ch\u0119tnie poddawa\u0142 si\u0119 obowi\u0105zkowi pracy, oddaj\u0105c w ten spos\u00f3b chwa\u0142\u0119 Bogu i zas\u0142uguj\u0105c na nagrod\u0119 wieczn\u0105 (lekcja). Pius XII og\u0142osi\u0142 go Patronem wszystkich pracuj\u0105cych, aby od niego uczyli si\u0119 pracowa\u0107 z po\u017cytkiem materialnym i duchowym.", 
+    "tempora": "Poniedzia\u0142ek po 2 Niedzieli po Wielkanocy", 
+    "title": "\u015aw. J\u00f3zefa Robotnika, Oblubie\u0144ca N. M. P"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Sap. 10:17*\nSapi\u00e9ntia r\u00e9ddidit justis merc\u00e9dem lab\u00f3rum su\u00f3rum, et ded\u00faxit illos in via mir\u00e1bili, et fuit illis in velam\u00e9nto di\u00e9i et in luce stell\u00e1rum per noctem, allel\u00faja, allel\u00faja.\n*Ps 126:1*\nNisi D\u00f3minus aedific\u00e1verit domum, in vanum lab\u00f3rant qui aed\u00edficant eam.\nGl\u00f3ria Patri.\nSapi\u00e9ntia r\u00e9ddidit justis merc\u00e9dem lab\u00f3rum su\u00f3rum, et ded\u00faxit illos in via mir\u00e1bili, et fuit illis in velam\u00e9nto di\u00e9i et in luce stell\u00e1rum per noctem, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Rerum c\u00f3nditor Deus, qui legem lab\u00f3ris hum\u00e1no g\u00e9neri statu\u00edsti: conc\u00e9de prop\u00edtius; ut, sancti Joseph ex\u00e9mplo et patroc\u00ednio, \u00f3pera perfici\u00e1mus quae praecipis, et praemia consequ\u00e1mur quae prom\u00edttis.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstolae be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses.\n*Col. 3:14-15, 17, 23-24*\nFratres: Carit\u00e1tem hab\u00e9te, quod est v\u00ednculum perfecti\u00f3nis, et pax Christi exs\u00faltet in c\u00f3rdibus vestris, in qua et voc\u00e1ti estis in uno c\u00f3rpore, et grati est\u00f3te. Omne quodc\u00famque f\u00e1citis in verbo aut in \u00f3pere, \u00f3mnia in n\u00f3mine D\u00f3mini Jesu Christi, gr\u00e1tias ag\u00e9ntes Deo et Patri per ipsum. Quodc\u00famque f\u00e1citis, ex \u00e1nimo oper\u00e1mini sicut D\u00f3mino, et non hom\u00ednibus, sci\u00e9ntes quod a D\u00f3mino accipi\u00e9tis retributi\u00f3nem heredit\u00e1tis. D\u00f3mino Christo serv\u00edte.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja, allel\u00faja.\nDe quac\u00famque tribulati\u00f3ne clam\u00e1verint ad me, ex\u00e1udiam eos, et ero prot\u00e9ctor e\u00f3rum semper. Allel\u00faja.\nV. Fac nos inn\u00f3cuam, Joseph, dec\u00farrere vitam: sitque tuo semper tuta patroc\u00ednio. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:54-58*\nIn illo t\u00e9mpore: V\u00e9niens Jesus in p\u00e1triam suam, doc\u00e9bat eos in synag\u00f3gis e\u00f3rum, ita ut mirar\u00e9ntur et d\u00edcerent: Unde huic sapi\u00e9ntia haec et virt\u00fates? Nonne hic est fabri f\u00edlius? Nonne mater ejus d\u00edcitur Mar\u00eda, et fratres ejus Jac\u00f3bus et Joseph et Simon et Judas? Et sor\u00f3res ejus nonne omnes apud nos sunt? Unde ergo huic \u00f3mnia ista? Et scandalizab\u00e1ntur in eo. Jesus autem dixit eis: Non est proph\u00e9ta sine hon\u00f3re nisi in p\u00e1tria sua et in domo sua. Et non fecit ibi virt\u00fates multas propter incredulit\u00e1tem ill\u00f3rum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 89:17*\nB\u00f3nitas D\u00f3mini Dei nostri sit super nos, et opus m\u00e1nuum nostr\u00e1rum sec\u00fanda nobis, et opus m\u00e1nuum nostr\u00e1rum sec\u00fanda, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Quas tibi, D\u00f3mine, de op\u00e9ribus m\u00e1nuum nostr\u00e1rum off\u00e9rimus h\u00f3stias, sancti Joseph interp\u00f3sito suffr\u00e1gio, pignus f\u00e1cias nobis unit\u00e1tis et pacis.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de S. Joseph*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Venerati\u00f3ne* be\u00e1ti Joseph d\u00e9bitis magnific\u00e1re pr\u00e6c\u00f3niis, bened\u00edcere et pr\u00e6dic\u00e1re. Qui et vir justus, a te De\u00edpar\u00e6 V\u00edrgini Sponsus est datus: et fid\u00e9lis servus ac prudens, super Fam\u00edliam tuam est constit\u00fatus: ut Unig\u00e9nitum tuum, Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9ptum, paterna vice custod\u00edret, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 13:54-55*\nUnde huic sapi\u00e9ntia haec et virt\u00fates? Nonne hic est fabri f\u00edlius? Nonne mater ejus d\u00edcitur Mar\u00eda? Allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Haec sancta quae s\u00fampsimus, D\u00f3mine, per intercessi\u00f3nem be\u00e1ti Joseph; et operati\u00f3nem nostram c\u00f3mpleant, et praemia conf\u00edrment.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Mdr 10:17*\nM\u0105dro\u015b\u0107 odda\u0142a sprawiedliwym nagrod\u0119 za ich prac\u0119 i prowadzi\u0142a ich przedziwn\u0105 drog\u0105, i by\u0142a im we dnie zas\u0142on\u0105, a w nocy \u015bwiat\u0142o\u015bci\u0105 gwiazd. (O. W. Alleluja, alleluja.)\n*Ps 126:1*\nJe\u017celi domu Pan nie zbuduje, darmo si\u0119 trudz\u0105 ci, kt\u00f3rzy go wznosz\u0105.\nChwa\u0142a Ojcu.\nM\u0105dro\u015b\u0107 odda\u0142a sprawiedliwym nagrod\u0119 za ich prac\u0119 i prowadzi\u0142a ich przedziwn\u0105 drog\u0105, i by\u0142a im we dnie zas\u0142on\u0105, a w nocy \u015bwiat\u0142o\u015bci\u0105 gwiazd. (O. W. Alleluja, alleluja.)", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Stw\u00f3rco wszechrzeczy, kt\u00f3ry na\u0142o\u017cy\u0142e\u015b na rodzaj ludzki obowi\u0105zek pracy, spraw \u0142askawie, aby\u015bmy za przyk\u0142adem i pod opiek\u0105 \u015bw. J\u00f3zefa wykonywali prace, kt\u00f3re nam nakazujesz, i otrzymali nagrod\u0119, kt\u00f3r\u0105 nam przyrzekasz.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 3:14-15, 17, 23-24*\nBracia: Miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest w\u0119z\u0142em doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech z rado\u015bci\u0105 zamieszka w sercach waszych i b\u0105d\u017acie wdzi\u0119czni. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c przez Niego Bogu Ojcu. Cokolwiek Czynicie, z serca czy\u0144cie jako Panu, a nie ludziom, wiedz\u0105c, \u017ce od Pana otrzymacie zap\u0142at\u0119 dziedzictwa. Panu Chrystusowi s\u0142u\u017ccie.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja, alleluja\nW jakimkolwiek nieszcz\u0119\u015bciu wzywa\u0107 mnie b\u0119d\u0105, wys\u0142ucham ich, i b\u0119d\u0119 ich opiekunem. Alleluja.\nV. Spraw, \u015bw. J\u00f3zefie, aby\u015bmy wiedli \u017cycie nieskalane; niech ono b\u0119dzie bezpieczne pod twoj\u0105 opiek\u0105. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:54-58*\nOnego czasu: Jezus przyszed\u0142szy do ojczyzny swojej naucza\u0142 ich w synagogach, tak \u017ce zdumiewali si\u0119 i m\u00f3wili: \u00abSk\u0105d\u017ce Mu ta m\u0105dro\u015b\u0107 i moc? Czy\u017c nie jest to syn cie\u015bli i czy\u017c Matki Jego nie zw\u0105 Maryja, a braci Jego \u2013 Jakubem i J\u00f3zefem, Szymonem i Jud\u0105? A siostry Jego, czy\u017c nie wszystkie znajduj\u0105 si\u0119 w\u015br\u00f3d nas? Sk\u0105d\u017ce Mu tedy to wszystko?\u00bb I gorszyli si\u0119 z Niego. A Jezus rzek\u0142 im: \u00abProrok bez czci jest tylko w ojczy\u017anie swojej i w domu swoim\u00bb. I nie uczyni\u0142 tam cud\u00f3w wielu dla niedowiarstwa ich.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 89:17*\nDobro\u0107 Pana Boga naszego niechaj b\u0119dzie nad nami; szcz\u0119\u015b\u0107 nam w pracy r\u0105k naszych i poszcz\u0119\u015b\u0107 dzie\u0142u r\u0105k naszych. (O. W. Alleluja.)", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Dary, kt\u00f3re sk\u0142adamy Ci, Panie, z pracy r\u0105k naszych, niech si\u0119 stan\u0105 za przyczyn\u0105 \u015bw. J\u00f3zefa zadatkiem naszej jedno\u015bci i pokoju.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o \u015bw. J\u00f3zefie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci sk\u0142adali nale\u017cne uwielbienie, b\u0142ogos\u0142awili Ci\u0119 i wys\u0142awiali obchodz\u0105c uroczysto\u015b\u0107 (czcz\u0105c) \u015bw. J\u00f3zefa. Jako m\u0119\u017ca sprawiedliwego da\u0142e\u015b go Bogarodzicy Dziewicy za oblubie\u0144ca, a jako wiernego i roztropnego s\u0142ug\u0119 postawi\u0142e\u015b go nad rodzin\u0105 swoj\u0105, aby ojcowsk\u0105 opiek\u0105 otacza\u0142 pocz\u0119tego za spraw\u0105 Ducha \u015awi\u0119tego Jednorodzonego Syna Twego, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 13:54-55*\nSk\u0105d\u017ce Mu ta m\u0105dro\u015b\u0107 i moc? Czy\u017c nie jest to syn cie\u015bli i czy\u017c matki Jego nie zw\u0105 Maryja? (O. W. Alleluja.)", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech te \u015bwi\u0119te dary, kt\u00f3re spo\u017cyli\u015bmy, dope\u0142ni\u0105 za wstawiennictwem \u015bw. J\u00f3zefa nasze dzia\u0142anie i zapewni\u0105 nam nagrod\u0119.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e", 
+      "W Polsce"
+    ], 
+    "date": "2017-07-20", 
+    "description": "B\u0142. Czes\u0142aw urodzi\u0142 si\u0119 w Kamieniu na \u015al\u0105sku oko\u0142o roku 1180. By\u0142 krewnym \u015bw. Jacka i razem z nim studiowa\u0142 w Pary\u017cu i Bolonii. Obaj wst\u0105pili do nowo powsta\u0142ego Zakonu Kaznodziejskiego i otrzymali habit z r\u0105k \u015bw. Dominika. Jako dominikanin b\u0142. Czes\u0142aw pracowa\u0142 w Czechach, Saksonii i Prusach, zak\u0142adaj\u0105c klasztory swojego zakonu. Dwa lata przebywa\u0142 b\u0142. Czes\u0142aw w Krakowie, po czym wyruszy\u0142 na \u015al\u0105sk i za\u0142o\u017cy\u0142 klasztor \u015bw. Wojciecha we Wroc\u0142awiu. W roku 1235 zosta\u0142 prowincja\u0142em polskich Dominikan\u00f3w. Umar\u0142 15 lipca 1242 roku we Wroc\u0142awiu. Tam r\u00f3wnie\u017c w ko\u015bciele \u015bw. Wojciecha spoczywaj\u0105 jego relikwie.Msza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem kolekty i Ewangelii", 
+    "tempora": "Czwartek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "B\u0142. Czes\u0142awa, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui beatum Ceslaum virgineo morum candore praeditum, et salutis animarum zelo succensum, in diversis nationum populis operum sanctitate et fidei propagatione mirabilem effecisti: praesta, quaesumus; ut, eius intercessione, simus semper in fide stabiles, et ad te, qui solus es aeternae salutis auctor ac largitor, misericordiae tuae munere pervenire valeamus.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 31:8-11.*\nBe\u00e1tus vir, qui inv\u00e9ntus est sine m\u00e1cula, et qui post aurum non \u00e1biit, nec sper\u00e1vit in pec\u00fania et thes\u00e1uris. Quis est hic, et laud\u00e1bimus eum? fecit enim mirab\u00edlia in vita sua. Qui prob\u00e1tus est in illo, et perf\u00e9ctus est, erit illi gl\u00f3ria \u00e6t\u00e9rna: qui potuit tr\u00e1nsgredi, et non est transgr\u00e9ssus: f\u00e1cere mala, et non fecit: \u00eddeo stabil\u00edta sunt bona ill\u00edus in D\u00f3mino, et eleem\u00f3synas ill\u00edus enarr\u00e1bit omnis eccl\u00e9sia sanct\u00f3rum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja\n*Ja 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dic\u00e9bat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte portare sacculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 24:46-47.*\nBe\u00e1tus servus, quem, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntem: amen, dico vobis, super \u00f3mnia bona sua const\u00edtuet eum.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty obdarzy\u0142e\u015b b\u0142ogos\u0142awionego Czes\u0142awa dziewicz\u0105 czysto\u015bci\u0105 obyczaj\u00f3w i rozpaliwszy w nim gorliwo\u015b\u0107 o zbawienie dusz, uczyni\u0142e\u015b go podziwu godnym w\u015br\u00f3d wielu narod\u00f3w dzi\u0119ki \u015bwi\u0119to\u015bci czyn\u00f3w i rozkrzewianiu wiary; spraw, prosimy Ci\u0119, aby\u015bmy za jego wstawiennictwem byli zawsze stali w wierze i zdo\u0142ali dzi\u0119ki Twemu mi\u0142osierdziu doj\u015b\u0107 do Ciebie, jedynego sprawcy i szafarza zbawienia wiecznego.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 31:8-11*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry okaza\u0142 si\u0119 bez zmazy i kt\u00f3ry nie ubiega\u0142 si\u0119 za z\u0142otem, i nadziei nie pok\u0142ada\u0142 w pieni\u0105dzach i skarbach. Kt\u00f3\u017c to jest? \u2013 a chwali\u0107 go b\u0119dziemy. Bo w \u017cyciu swym dziw\u00f3w dokona\u0142. Kto w tej sprawie jest do\u015bwiadczony i doskona\u0142y, b\u0119dzie mia\u0142 wieczn\u0105 chwa\u0142\u0119: kt\u00f3ry m\u00f3g\u0142 przest\u0105pi\u0107, a nie przest\u0105pi\u0142, \u017ale czyni\u0107, a nie uczyni\u0142; przeto pewne s\u0105 skarby jego u Pana, a ja\u0142mu\u017cny jego wys\u0142awia\u0107 b\u0119dzie zgromadzenie \u015bwi\u0119tych.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

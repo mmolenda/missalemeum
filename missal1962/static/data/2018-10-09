@@ -1,0 +1,156 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-10-09", 
+    "description": "\u015aw. Jan Leonardi urodzi\u0142 si\u0119 w Diecimo w Toskanii w 1543 roku. Po\u015bwi\u0119ciwszy si\u0119 stanowi duchownemu, za\u0142o\u017cy\u0142 zgromadzenie Kleryk\u00f3w Regularnych Matki Bo\u017cej, kt\u00f3re przez gorliw\u0105 prac\u0119 duszpastersk\u0105 odnowi\u0142o \u017cycie duchowe Lukki. Pragn\u0105\u0142 po\u015bwi\u0119ci\u0107 si\u0119 misjom zagranicznym. Pod wp\u0142ywem \u015bw. Filipa Nereusza zaniecha\u0142 tego zamiaru i zaj\u0105\u0142 si\u0119 kszta\u0142ceniem kandydat\u00f3w na misjonarzy. Dzie\u0142o jego rozwin\u0119\u0142o si\u0119 w Kolegium Rozkrzewiania Wiary, kt\u00f3re nadal kszta\u0142ci kap\u0142an\u00f3w dla misji. Zmar\u0142 w Rzymie 9 pa\u017adziernika 1609 roku.", 
+    "tempora": "Wtorek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Jana Leonardi, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Eccli 42:15-16.*\nIn serm\u00f3nibus D\u00f3mini \u00f3pera ejus: sol ill\u00faminans per \u00f3mnia resp\u00e9xit, et gl\u00f3ria D\u00f3mini plenum est opus ejus.\n*Ps 95:1*\nCant\u00e1te D\u00f3mino c\u00e1nticum novum: cant\u00e1te D\u00f3mino, omnis terra.\nGl\u00f3ria Patri.\nIn serm\u00f3nibus D\u00f3mini \u00f3pera ejus: sol ill\u00faminans per \u00f3mnia resp\u00e9xit, et gl\u00f3ria D\u00f3mini plenum est opus ejus.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui be\u00e1tum Jo\u00e1nnem Confess\u00f3rem tuum ad fidem in g\u00e9ntibus propag\u00e1ndam mirab\u00edliter excit\u00e1re dign\u00e1tus es, ac per eum in erudi\u00e9ndis fid\u00e9libus novam in Eccl\u00e9sia tua fam\u00edliam congreg\u00e1sti: da nobis f\u00e1mulis tuis; ita ejus instit\u00fatis prof\u00edcere, ut praemia consequ\u00e1mur \u00e6t\u00e9rna.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nDeus, qui hodi\u00e9rna die be\u00e1tum Dion\u00fdsium, M\u00e1rtyrem tuum atque Pont\u00edficem, virt\u00fate constanti\u00e6 in passi\u00f3ne robor\u00e1sti, quique illi, ad pr\u00e6dic\u00e1ndum g\u00e9ntibus gl\u00f3riam tuam, R\u00fasticum et Eleuth\u00e9rium soci\u00e1re dign\u00e1tus es: tr\u00edbue nobis, qu\u01fdsumus; e\u00f3rum imitati\u00f3ne, pro am\u00f3re tuo pr\u00f3spera mundi desp\u00edcere, et nulla ejus adv\u00e9rsa formid\u00e1re.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*2 Cor 4:1-6 et 15-18*\nFratres: Hab\u00e9ntes administrati\u00f3nem juxta quod miseric\u00f3rdiam consec\u00fati sumus, non def\u00edcimus, sed abdic\u00e1mus occ\u00falta ded\u00e9coris, non ambul\u00e1ntes in ast\u00fatia, neque adulter\u00e1ntes verbum Dei, sed in manifestati\u00f3ne verit\u00e1tis commend\u00e1ntes nosmet\u00edpsos ad omnem consci\u00e9ntiam h\u00f3minum coram Deo. Quod si \u00e9tiam op\u00e9rtum est Evang\u00e9lium nostrum : in iis, qui p\u00e9reunt, est op\u00e9rtum: in quibus Deus hujus saeculi exc\u00e6c\u00e1vit mentes infid\u00e9lium, ut non f\u00falgeat illis illumin\u00e1tio Evang\u00e9lii gl\u00f3ri\u00e6 Christi, qui est im\u00e1go Dei. Non enim nosmet\u00edpsos pr\u00e6dic\u00e1mus, sed Jesum Christum D\u00f3minum nostrum: nos autem servos vestros per Jesum: qu\u00f3niam Deus, qui dixit de t\u00e9nebris lucem splend\u00e9scere, ipse ill\u00faxit in c\u00f3rdibus nostris ad illuminati\u00f3nem sci\u00e9nti\u00e6 clarit\u00e1tis Dei, in f\u00e1cie Christi Jesu. Omnia enim propter vos: ut gr\u00e1tia ab\u00fandans, per multos in grati\u00e1rum actione, ab\u00fandet in gl\u00f3riam Dei. Propter quod non deficimus: sed licet is, qui foris est, noster homo corrump\u00e1tur: tamen is, qui intus est, renovatur de die in diem. Id enim, quod in praesenti est moment\u00e1neum et leve tribulati\u00f3nis nostr\u00e6, supra modum in sublimit\u00e1te \u00e6t\u00e9rnum gl\u00f3ri\u00e6 pondus oper\u00e1tur in nobis, non contempl\u00e1ntibus nobis qu\u00e6 vid\u00e9ntur, sed qu\u00e6 non vid\u00e9ntur. Qu\u00e6 enim vid\u00e9ntur, tempor\u00e1lia sunt: qu\u00e6 autem non vid\u00e9ntur, \u00e6t\u00e9rna sunt.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 72:21; 68:10*\nInflamm\u00e1tum est cor meum, et renes mei commut\u00e1ti sunt: zelus domus tu\u00e6 com\u00e9dit me.\n*Isa 49:2*\nP\u00f3suit os meum quasi gl\u00e1dium acutum: in umbra manus su\u00e6 prot\u00e9xit me, et p\u00f3suit me sicut sag\u00edttam el\u00e9ctam. Allel\u00faja, allel\u00faja.\n*Ps 70:7*\nTamquam prod\u00edgium factus sum multis: et tu adj\u00fator fortis, Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 54:3-4; 64:17*\nContrist\u00e1tus sum in exercitati\u00f3ne mea: et conturb\u00e1tus sum a voce inim\u00edci, et a tribulati\u00f3ne peccat\u00f3ris.\nV. Qu\u00f3niam declinav\u00e9runt in me iniquit\u00e1tes: et in ira mol\u00e9sti erant mihi.\nV. Ego autem ad Deum clam\u00e1vi: et D\u00f3minus salv\u00e1bit me.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dicebat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo d\u00f3minum messis ut mittat oper\u00e1rios in messem suam. Ite: ecce ego mitto vos sicut agnos inter lupos. Nol\u00edte port\u00e1re saeculum, neque peram, neque calceam\u00e9nta: et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revertetur. In e\u00e1dem autem domo man\u00e9te ed\u00e9ntes, et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim operarius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te, qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Col 1:25*\nChristi factus sum ego min\u00edster sec\u00fandum dispensati\u00f3nem Dei, qu\u00e6 data est mihi, ut \u00edmpleam verbum D\u00f3mini.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "S\u00fascipe, D\u00f3mine, oblati\u00f3nem mundam salut\u00e1ris h\u00f3sti\u00e6: et pr\u00e6sta; ut, interced\u00e9nte be\u00e1to Jo\u00e1nne Confess\u00f3re tuo, \u00fabique g\u00e9ntium j\u00fagiter offer\u00e1tur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nObl\u00e1ta tibi, D\u00f3mine, m\u00fanera p\u00f3puli tui, pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum, s\u00fascipe prop\u00edtius, qu\u01fdsumus: et e\u00f3rum nos intercessi\u00f3ne sanct\u00edfica.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Phil 3:7*\nQu\u00e6 mihi f\u00faerunt lucra, h\u00e6c arbitr\u00e1tus sum propter Christum detrim\u00e9nta.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Preti\u00f3si c\u00f3rporis, et s\u00e1nguinis tui sacris ref\u00e9cti myst\u00e9riis, D\u00f3mine, adprec\u00e1mur: ut be\u00e1ti Jo\u00e1nnis Confess\u00f3ris tui ex\u00e9mplo, stude\u00e1mus confit\u00e9ri quod cr\u00e9didit, et \u00f3pere exerc\u00e9re quod d\u00f3cuit:\nQui vivis.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nSumptis, D\u00f3mine, sacram\u00e9ntis, qu\u01fdsumus: ut, interced\u00e9ntibus be\u00e1tis Mart\u00fdribus tuis Dion\u00fdsio, R\u00fastico et Eleuth\u00e9rio, ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6 proficiamus augm\u00e9ntum.\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Syr 42:15-16*\n*Gorliwa dzia\u0142alno\u015b\u0107 \u015bw. Jana przyczynia\u0142a si\u0119 do rozszerzenia \u015bwiata wiary.*\nW s\u0142owach Pa\u0144skich jego dzie\u0142a: ja\u015bniej\u0105ce s\u0142o\u0144ce patrzy na wszystko i chwa\u0142y Pa\u0144skiej pe\u0142ne jest jego dzie\u0142o.\n*Ps 95:1*\n\u015apiewajcie Panu pie\u015b\u0144 now\u0105, \u015bpiewajcie Panu, wszystkie krainy.\nChwa\u0142a Ojcu.\nW s\u0142owach Pa\u0144skich jego dzie\u0142a: ja\u015bniej\u0105ce s\u0142o\u0144ce patrzy na wszystko i chwa\u0142y Pa\u0144skiej pe\u0142ne jest jego dzie\u0142o.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry raczy\u0142e\u015b przedziwnie powo\u0142a\u0107 \u015bw. Jana, Twego Wyznawc\u0119, do krzewienia wiary w\u015br\u00f3d pogan, i przez niego zgromadzi\u0142e\u015b w Ko\u015bciele Twoim now\u0105 rodzin\u0119 zakonn\u0105 dla pouczania wiernych, daj nam, s\u0142ugom Twoim, tak post\u0119powa\u0107 wed\u0142ug jego wskaza\u0144, aby\u015bmy dost\u0105pili wiecznej nagrody.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nBo\u017ce, kt\u00f3ry \u015bwi\u0119tego Dionizego, Twego M\u0119czennika i Biskupa, w dniu dzisiejszym uzbroi\u0142e\u015b cnot\u0105 sta\u0142o\u015bci w\u015br\u00f3d cierpie\u0144 i raczy\u0142e\u015b z nim z\u0142\u0105czy\u0107 Rustyka i Eleuteriusza dla g\u0142oszenia Twej chwa\u0142y poganom, daj nam, prosimy Ci\u0119, za ich przyk\u0142adem gardzi\u0107 dobrami \u015bwiata i nie l\u0119ka\u0107 si\u0119 \u017cadnych jego przeciwno\u015bci.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*2 Kor 4:1-6; 15-18*\nBracia: Maj\u0105c z mi\u0142osierdzia okazanego nam ten urz\u0105d pos\u0142ugi, nie ustajemy w pracy, ale odrzucamy skryt\u0105 nieprzystojno\u015b\u0107, nie post\u0119puj\u0105c chytrze ani te\u017c nie fa\u0142szuj\u0105c s\u0142owa Bo\u017cego, lecz okazaniem prawdy zalecaj\u0105c samych siebie przed Bogiem sumieniu wszystkich ludzi. A je\u015bli nawet Ewangelia nasza jest zakryta, zakryta jest dla tych,  kt\u00f3rzy gin\u0105: mianowicie dla niewiernych, kt\u00f3rym b\u00f3g tego \u015bwiata za\u015blepi\u0142 umys\u0142, aby nie zaja\u015bnia\u0142 dla nich blask Ewangelii chwa\u0142y Chrystusa, b\u0119d\u0105cego obrazem Boga.\nBo nie samych siebie g\u0142osimy, ale Jezusa Chrystusa, Pana naszego, a siebie uwa\u017camy za s\u0142ugi wasze przez Jezusa. B\u00f3g bowiem, kt\u00f3ry rozkaza\u0142, aby z ciemno\u015bci zab\u0142ys\u0142a \u015bwiat\u0142o\u015b\u0107, sam o\u015bwieci\u0142 serca nasze, aby\u015bmy zaja\u015bnieli blaskiem poznania jasno\u015bci Bo\u017cej w obliczu Chrystusa Jezusa.\nWszystko bowiem dla was, aby \u0142aska obfituj\u0105c przez dzi\u0119kczynienie wielu, tym wi\u0119cej chwale Bo\u017cej s\u0142u\u017cy\u0142a. Dlatego nie ustajemy w pracy. I chocia\u017c niszczeje w nas cz\u0142owiek zewn\u0119trzny, jednak ten, kt\u00f3ry wewn\u0105trz jest, odnawia si\u0119 z dniem ka\u017cdym. Dzisiejsze bowiem utrapienie nasze, lekkie i przemijaj\u0105ce, chwa\u0142\u0119 wiekuista wagi niezmiernej sprawuje w nas.  Jeste\u015bmy bowiem zapatrzeni nie w to, co widzialne, lecz w to, co niewidzialne: to bowiem, co widzimy, doczesne jest, a czego nie widzimy \u2013 wieczne.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 72:21; 68:10*\nRozpali\u0142o si\u0119 serce moje, a sumienie moje si\u0119 wzruszy\u0142o: gorliwo\u015b\u0107 o dom Tw\u00f3j po\u017cera mnie.\n*Iz 49:2*\nUsta moje uczyni\u0142 ostrym mieczem, ukry\u0142 mi\u0119 pod os\u0142on\u0105 swej r\u0119ki i czyni\u0142 mnie jakby strza\u0142\u0105 wyborn\u0105. Alleluja, alleluja\n*Ps 70:7*\nJak gdyby dziwem wielu si\u0119 wyda\u0142em; Ty bowiem by\u0142e\u015b pomoc\u0105 m\u0105 dzieln\u0105. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Kol 1:25*\nSta\u0142em si\u0119 s\u0142ug\u0105 Chrystusa w zleconym mi w\u0142odarstwie, abym wype\u0142nia\u0142 s\u0142owo Pa\u0144skie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "*Dzi\u0119ki misjonarzom wychowanym w Kolegium Rozkrzewiania Wiary, za\u0142o\u017conym przez \u015bw. Jana, Msza \u015bwi\u0119ta jest odprawiana we wszystkich cz\u0119\u015bciach \u015bwiata.*\nPrzyjmij, Panie, czyst\u0105 ofiar\u0119 zbawczej Hostii i spraw, aby za wstawiennictwem \u015bwi\u0119tego Jana, Twego Wyznawcy, sk\u0142adano Ci j\u0105 nieustannie w\u015br\u00f3d wszystkich narod\u00f3w.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nProsimy Ci\u0119, Panie, przyjmij \u0142askawie dary, kt\u00f3re Ci sk\u0142ada Tw\u00f3j lud ku czci Twoich \u015awi\u0119tych i u\u015bwi\u0119\u0107 nas za ich wstawiennictwem.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Flp 3:7*\nCo by\u0142o mi zyskiem, ze wzgl\u0119du na Chrystusa poczyta\u0142em za szkod\u0119.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Pokrzepieni \u015bwi\u0119tymi tajemnicami drogocennego Cia\u0142a i Krwi Twojej, prosimy Ci\u0119, Panie, aby\u015bmy starali si\u0119 na\u015bladowa\u0107 przyk\u0142ad Twego Wyznawcy \u015bw. Jana, wyznaj\u0105c to, w co on wierzy\u0142 i pe\u0142ni\u0105c to, czego naucza\u0142:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Ss. Dionysii Ep., Rustici et Eleutherii, Mm*\nPrzyj\u0105wszy Sakrament, prosimy Ci\u0119, Panie, aby za wstawiennictwem \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Dionizego, Rustyka i Eleuteriusza wzrasta\u0142a w nas \u0142aska wiecznego odkupienia.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2017-05-04", 
+    "description": "\u015aw. Monika, urodzona w Taga\u015bcie, w p\u00f3\u0142nocnej Afryce, oko\u0142o roku 330, po\u015blubi\u0142a poganina o gwa\u0142townym charakterze, kt\u00f3rego u schy\u0142ku jego \u017cycia pozyska\u0142a dla wiary chrze\u015bcija\u0144skiej swoj\u0105 \u0142agodno\u015bci\u0105 i cierpliwo\u015bci\u0105. Odt\u0105d g\u0142\u00f3wn\u0105 jej trosk\u0105 sta\u0142o si\u0119 nawr\u00f3cenie syna Augustyna, kt\u00f3ry ulega\u0142 wp\u0142ywom heretyk\u00f3w i prowadzi\u0142 grzeszne \u017cycie. Swoimi \u0142zami i modlitwami wyprosi\u0142a nawr\u00f3cenie syna, kt\u00f3ry z czasem zosta\u0142 biskupem i jednym z wielkich Doktor\u00f3w Ko\u015bcio\u0142a. \u015aw. Monika do\u017cy\u0142a jego Chrztu i wkr\u00f3tce potem zmar\u0142a w Ostii w 387 r. Jest wzorem \u017cony i matki chrze\u015bcija\u0144skiej, kt\u00f3ra troszczy si\u0119 r\u00f3wnie\u017c o dobro duchowe rodziny.", 
+    "tempora": "Czwartek po 2 Niedzieli po Wielkanocy", 
+    "title": "\u015aw. Moniki, Wdowy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "Deus, m\u00e6r\u00e9ntium consol\u00e1tor et in te sper\u00e1ntium salus, qui be\u00e1t\u00e6 M\u00f3nic\u00e6 pias l\u00e1crimas in conversi\u00f3ne f\u00edlii sui August\u00edni miseric\u00f3rditer suscep\u00edsti: da nobis utri\u00fasque interv\u00e9ntu; pecc\u00e1ta nostra deplor\u00e1re, et gr\u00e1ti\u00e6 tu\u00e6 indulg\u00e9ntiam inven\u00edre.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum.\n*1 Tim 5:3-10.*\nCar\u00edssime: V\u00edduas hon\u00f3ra, qu\u00e6 vere v\u00eddu\u00e6 sunt. Si qua autem vidua f\u00edlios aut nep\u00f3tes habet, discat primum domum suam r\u00e9gere, et m\u00fatuam vicem r\u00e9ddere par\u00e9ntibus: hoc enim acc\u00e9ptum est coram Deo. Qu\u00e6 autem vere vidua est et desol\u00e1ta, speret in Deum, et instet obsecrati\u00f3nibus et orati\u00f3nibus nocte ac die. Nam qu\u00e6 in del\u00edciis est, vivens m\u00f3rtua est. Et hoc praecipe, ut irreprehens\u00edbiles sint. Si quis autem su\u00f3rum, et m\u00e1xime domestic\u00f3rum curam non habet, fidem neg\u00e1vit, et est infid\u00e9li det\u00e9rior. Vidua elig\u00e1tur non minus sexag\u00ednta ann\u00f3rum, qu\u00e6 f\u00faerit unius viri uxor, in op\u00e9ribus bonis testim\u00f3nium habens, si f\u00edlios educ\u00e1vit, si hosp\u00edtio rec\u00e9pit, si sanct\u00f3rum pedes lavit, si tribulati\u00f3nem pati\u00e9ntibus subministr\u00e1vit, si omne opus bonum subsec\u00fata est.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 7:11-16*\nIn illo t\u00e9mpore: Ibat Jesus in civit\u00e1tem, qu\u00e6 voc\u00e1tur Na\u00efm: et ibant cum eo disc\u00edpuli ejus et turba copi\u00f3sa. Cum autem appropinqu\u00e1ret port\u00e6 civit\u00e1tis, ecce, def\u00fanctus effereb\u00e1tur f\u00edlius \u00fanicus matris su\u00e6: et h\u00e6c v\u00eddua erat, et turba civit\u00e1tis multa cum illa. Quam cum vid\u00edsset D\u00f3minus, miseric\u00f3rdia motus super eam, dixit illi: Noli flere. Et acc\u00e9ssit et t\u00e9tigit l\u00f3culum. - Hi autem, qui port\u00e1bant, stet\u00e9runt - Et ait: Adol\u00e9scens, tibi dico, surge. Et res\u00e9dit, qui erat m\u00f3rtuus, et coepit loqui. Et dedit illum matri su\u00e6. Acc\u00e9pit autem omnes timor: et magnific\u00e1bant Deum, dic\u00e9ntes: Quia Proph\u00e9ta magnus surr\u00e9xit in nobis: et quia Deus visit\u00e1vit plebem suam.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 118:75; 118:120*\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie prawem Pana.\nChwa\u0142a Ojcu.\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, pocieszycielu zasmuconych i nadziejo ufaj\u0105cych Tobie, kt\u00f3ry\u015b mi\u0142osiernie przyj\u0105\u0142 rzewne \u0142zy \u015bw. Moniki, udzielaj\u0105c \u0142aski nawr\u00f3cenia jej synowi Augustynowi; daj nam za przyczyn\u0105 ich obojga op\u0142akiwa\u0107 nasze grzechy i znale\u017a\u0107 przebaczenie dzi\u0119ki Twej \u0142asce.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*1 Tm 5:3-10*\nNajmilszy: Szanuj wdowy, kt\u00f3re prawdziwie s\u0105 wdowami. Lecz je\u015bli kt\u00f3ra wdowa ma dzieci lub wnuk\u00f3w, niech uczy si\u0119 naprz\u00f3d domem swoim zarz\u0105dza\u0107 i wyp\u0142aca\u0107 si\u0119 rodzicom, bo to mi\u0142e jest u Boga. A kt\u00f3ra prawdziwie jest wdow\u0105 i opuszczon\u0105, niechaj ma nadziej\u0119 w Bogu i trwa na pro\u015bbach i modlitwach we dnie i w nocy. Bo kt\u00f3ra w rozkoszach \u017cyje, ju\u017c za \u017cycia jest umar\u0142\u0105. A to przykazuj, aby by\u0142y nienaganne. Je\u015bli kto o swoich, a zw\u0142aszcza o domownikach, nie ma pieczy, wiary si\u0119 zapar\u0142 i gorszy jest od poganina. Wdow\u0119 nale\u017cy obiera\u0107 nie m\u0142odsz\u0105 ni\u017c lat sze\u015b\u0107dziesi\u0119ciu, kt\u00f3ra mia\u0142a jednego tylko m\u0119\u017ca i ma za sob\u0105 \u015bwiadectwo dobrych uczynk\u00f3w, \u017ce dzieci wychowa\u0142a, \u017ce by\u0142a go\u015bcinna, \u017ce nogi \u015bwi\u0119tym obmywa\u0142a, \u017ce wspomaga\u0142a b\u0119d\u0105cych w potrzebie i \u017ce wszelkie dobre uczynki wype\u0142nia\u0142a.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 44:3; 44:5*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.\nV. W obronie wiary i sprawiedliwo\u015bci niech cud\u00f3w dokona Twoja prawica. Alleluja, alleluja.\n*Ps 44:5*\nW chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 7:11-16*\nOnego czasu: Jezus szed\u0142 do miasta, kt\u00f3re zowi\u0105 Naim, a z nim szli uczniowie Jego i rzesza wielka.\nA gdy si\u0119 przybli\u017cy\u0142 do bramy miejskiej, oto wynoszono umar\u0142ego, jedynaka matki jego, a ta by\u0142a wdow\u0105, i liczna rzesza miejska sz\u0142a z ni\u0105. A gdy j\u0105 ujrza\u0142 Pan, ulitowa\u0142 si\u0119 nad ni\u0105 i rzek\u0142 jej: \u00abnie p\u0142acz\u00bb. I przyst\u0105pi\u0142, i dotkn\u0105\u0142 si\u0119 mar (a ci, co nie\u015bli, stan\u0119li). I rzek\u0142: \u00abM\u0142odzie\u0144cze, tobie m\u00f3wi\u0119, wsta\u0144!\u00bb. I usiad\u0142 umar\u0142y, i pocz\u0105\u0142 m\u00f3wi\u0107. I odda\u0142 go matce jego.\nA wszystkich zdj\u0105\u0142 strach i wielbili Boga, m\u00f3wi\u0105c: \u00abProrok wielki powsta\u0142 w\u015br\u00f3d nas, a B\u00f3g nawiedzi\u0142 lud sw\u00f3j\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 44:3*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci Twoich \u015awi\u0119tych, uznaj\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 44:8*\nMi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Nasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas stale za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

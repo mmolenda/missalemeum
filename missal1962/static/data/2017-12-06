@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2017-12-06", 
+    "description": "\u015aw. Miko\u0142aj by\u0142 biskupem Miry w Azji Mniejszej na pocz\u0105tku IV wieku. Kult jego rozszerzy\u0142 si\u0119 na Zachodzie po przeniesieniu relikwii do Bari w Italii. W dzia\u0142alno\u015bci pasterskiej odznacza\u0142 si\u0119 mi\u0142osierdziem. B\u00f3g wynagrodzi\u0142 jego gorliwo\u015b\u0107 i mi\u0142o\u015b\u0107\u00a0darem czynienia cud\u00f3w. Legenda g\u0142osi, \u017ce w nocy wrzuca\u0142 ja\u0142mu\u017cn\u0119 do dom\u00f3w potrzebuj\u0105cych. St\u0105d zwyczaj obdarowywania dzieci z okazji jego \u015bwi\u0119ta.", 
+    "tempora": "\u015aroda po 1 Niedzieli Adwentu", 
+    "title": "\u015aw. Miko\u0142aja, Biskupa i Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Eccli 45:30.*\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii dignitas in \u00e6t\u00e9rnum\n*Ps 131:1*\nMem\u00e9nto, D\u00f3mine, David: et omnis mansuet\u00fadinis ejus.\nGl\u00f3ria Patri.\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii dignitas in \u00e6t\u00e9rnum", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui be\u00e1tum Nicol\u00e1um Pont\u00edficem inn\u00fameris decor\u00e1sti mir\u00e1culis: tr\u00edbue, qu\u01fdsumus; ut ejus m\u00e9ritis et pr\u00e9cibus a geh\u00e9nn\u00e6 inc\u00e9ndiis liber\u00e9mur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebraeos.\n*Hebr 13:7-17.*\nFratres: Mement\u00f3te pr\u00e6posit\u00f3rum vestr\u00f3rum, qui vobis loc\u00fati sunt verbum Dei: quorum intu\u00e9ntes \u00e9xitum conversati\u00f3nis, imit\u00e1mini fidem. Jesus Christus heri et h\u00f3die: ipse et in saecula. Doctr\u00ednis v\u00e1riis et peregr\u00ednis nol\u00edte abd\u00faci. Optimum est enim gr\u00e1tia stabil\u00edre cor, non escis, qu\u00e6 non profu\u00e9runt ambul\u00e1ntibus in eis. Hab\u00e9mus alt\u00e1re, de quo \u00e9dere non habent potest\u00e1tem, qui tabern\u00e1culo deserviunt. Quorum enim anim\u00e1lium inf\u00e9rtur sanguis pro pecc\u00e1to in Sancta per pont\u00edficem, horum c\u00f3rpora crem\u00e1ntur extra castra. Propter quod et Jesus, ut sanctific\u00e1ret per suum s\u00e1nguinem p\u00f3pulum, extra portam passus est. Exe\u00e1mus \u00edgitur ad eum extra castra, improp\u00e9rium ejus port\u00e1ntes. Non enim hab\u00e9mus hic man\u00e9ntem civit\u00e1tem, sed fut\u00faram inqu\u00edrimus. Per ipsum ergo offer\u00e1mus h\u00f3stiam laudis semper Deo, id est fructum labi\u00f3rum confit\u00e9ntium n\u00f3mini ejus. Benefic\u00e9nti\u00e6 autem et communi\u00f3nis nol\u00edte obliv\u00edsci: t\u00e1libus enim h\u00f3stiis promer\u00e9tur Deus. Oboed\u00edte pr\u00e6p\u00f3sitis vestris et subjac\u00e9te eis. Ipsi enim perv\u00edgilant, quasi rati\u00f3nem pro anim\u00e1bus vestris reddit\u00fari.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 88:21-23.*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum.\nV. Nihil prof\u00edciet inim\u00edcus in eo, et f\u00edlius iniquit\u00e1tis non noc\u00e9bit ei. Allel\u00faja, allel\u00faja\n*Ps 91:13.*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Eccli 44:16.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20*\nNon est inv\u00e9ntus s\u00edmilis illi, qui conserv\u00e1ret legem Exc\u00e9lsi.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 25:14-23*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Homo p\u00e9regre profic\u00edscens voc\u00e1vit servos suos, et tr\u00e1didit illis bona sua. Et uni dedit quinque tal\u00e9nta, \u00e1lii autem duo, \u00e1lii vero unum, unic\u00faique sec\u00fandum pr\u00f3priam virt\u00fatem, et prof\u00e9ctus est statim. Abiit autem, qui quinque tal\u00e9nta acc\u00e9perat, et oper\u00e1tus est in eis, et lucr\u00e1tus est \u00e1lia quinque. Sim\u00edliter et, qui duo acc\u00e9perat, lucr\u00e1tus est \u00e1lia duo. Qui autem unum acc\u00e9perat, \u00e1biens fodit in terram, et absc\u00f3ndit pec\u00faniam d\u00f3mini sui. Post multum vero t\u00e9mporis venit d\u00f3minus serv\u00f3rum ill\u00f3rum, et p\u00f3suit rati\u00f3nem cum eis. Et acc\u00e9dens qui quinque tal\u00e9nta acc\u00e9perat, \u00f3btulit \u00e1lia quinque tal\u00e9nta, dicens: D\u00f3mine, quinque tal\u00e9nta tradid\u00edsti mihi, ecce, \u00e1lia quinque superlucr\u00e1tus sum. Ait illi d\u00f3minus ejus: Euge, serve bone et fid\u00e9lis, quia super pauca fu\u00edsti fid\u00e9lis, super multa te const\u00edtuam: intra in g\u00e1udium d\u00f3mini tui. Accessit autem et qui duo tal\u00e9nta acc\u00e9perat, et ait: D\u00f3mine, duo tal\u00e9nta tradid\u00edsti mihi, ecce, alia duo lucr\u00e1tus sum. Ait illi d\u00f3minus ejus: Euge, serve bone et fid\u00e9lis, quia super pauca fu\u00edsti fid\u00e9lis, super multa te const\u00edtuam: intra in g\u00e1udium d\u00f3mini tui.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Sanct\u00edfica, qu\u01fdsumus, D\u00f3mine Deus, h\u00e6c m\u00fanera, qu\u00e6 in sollemnit\u00e1te sancti Ant\u00edstitis tui Nicol\u00e1i off\u00e9rimus: ut per ea vita nostra inter adv\u00e9rsa et pr\u00f3spera \u00fabique dirig\u00e1tur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 88:36-38.*\nSemel jur\u00e1vi in sancto meo: Semen ejus in \u00e6t\u00e9rnum manebit, et sedes ejus sicut sol in consp\u00e9ctu meo, et sicut luna perf\u00e9cta in \u00e6t\u00e9rnum, et testis in coelo fid\u00e9lis.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Sacrif\u00edcia, qu\u00e6 s\u00fampsimus, D\u00f3mine, pro sollemnit\u00e1te sancti Pont\u00edficis tui Nicol\u00e1i, sempit\u00e9rna nos protecti\u00f3ne cons\u00e9rvent.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Syr 45:30*\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b \u015bw. Miko\u0142aja, Biskupa, ws\u0142awi\u0142 niezliczonymi cudami, spraw, by\u015bmy przez jego zas\u0142ugi i modlitwy uszli ognia piekielnego.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Hebrajczyk\u00f3w.\n*Hbr 13:7-17*\nBracia: Pami\u0119tajcie o prze\u0142o\u017conych waszych, kt\u00f3rzy wam g\u0142osili s\u0142owo Bo\u017ce: b\u0119d\u0105c \u015bwiadkami ko\u0144ca ich \u017cycia na\u015bladujcie ich wiar\u0119. Jezus Chrystus wczoraj i dzi\u015b, ten\u017ce sam i na wieki.\nNie dajcie si\u0119 zwodzi\u0107 przer\u00f3\u017cnym i obcym naukom. Najlepsz\u0105 bowiem rzecz\u0105 jest serca utwierdza\u0107 \u0142ask\u0105, nie pokarmami, kt\u00f3re nie pomog\u0142y tym, co si\u0119 o nie ubiegali.\nMamy o\u0142tarz, z kt\u00f3rego nie maj\u0105 prawa je\u015b\u0107 ci, co przybytkowi s\u0142u\u017c\u0105. Albowiem cia\u0142a tych zwierz\u0105t, kt\u00f3rych krew wnosi arcykap\u0142an do miejsca \u015bwi\u0119tego, palone s\u0105 poza obozem. Dlatego te\u017c i Jezus, aby u\u015bwi\u0119ci\u0107 lud przez w\u0142asn\u0105 krew, poni\u00f3s\u0142 \u015bmier\u0107 za bram\u0105 miasta. Wynijd\u017amy\u017c tedy do Niego za ob\u00f3z, maj\u0105c udzia\u0142 w Jego zniewadze. Nie mamy bowiem tutaj miasta trwa\u0142ego, ale przysz\u0142ego szukamy.\nPrzez Niego wi\u0119c zawsze sk\u0142adajmy Bogu ofiar\u0119 chwa\u0142y, tj. owoc warg wyznaj\u0105cych imi\u0119 Jego. A nie zapominajcie o dobroczynno\u015bci i niesieniu sobie wzajemnej pomocy, przez takie bowiem ofiary zas\u0142ug\u0119 mamy u Boga. B\u0105d\u017acie pos\u0142uszni prze\u0142o\u017conym waszym i ulegajcie im. Oni bowiem czuwaj\u0105 jako ci, kt\u00f3rzy za dusze wasze s\u0105 odpowiedzialni.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 88:21-23*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.\nV. Nic nie zyska w nim nieprzyjaciel, a duch nieprawo\u015bci mu nie zaszkodzi. Alleluja, alleluja\n*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abCz\u0142owiek pewien odje\u017cd\u017caj\u0105c daleko, zwo\u0142a\u0142 s\u0142ugi swoje i odda\u0142 im maj\u0119tno\u015b\u0107 swoj\u0105. I jednemu da\u0142 pi\u0119\u0107 talent\u00f3w, a drugiemu dwa, a innemu jeden: ka\u017cdemu wed\u0142ug jego zdolno\u015bci. I wnet odjecha\u0142. A ten, kt\u00f3ry by\u0142 wzi\u0105\u0142 pi\u0119\u0107 talent\u00f3w, poszed\u0142 i zarabia\u0142 nimi, a zyska\u0142 drugie pi\u0119\u0107. Podobnie i ten, kt\u00f3ry dwa otrzyma\u0142, zyska\u0142 drugie dwa. Ale ten, kt\u00f3ry otrzyma\u0142 by\u0142 jeden, odszed\u0142szy, zakopa\u0142 go w ziemi i skry\u0142 pieni\u0105dze pana swego.\nA po d\u0142ugim czasie wr\u00f3ci\u0142 pan s\u0142ug onych i pocz\u0105\u0142 rozlicza\u0107 si\u0119 z nimi. I przyst\u0105piwszy ten, kt\u00f3ry pi\u0119\u0107 talent\u00f3w otrzyma\u0142, wr\u0119czy\u0142 mu drugie pi\u0119\u0107 talent\u00f3w, m\u00f3wi\u0105c: Panie, da\u0142e\u015b mi pi\u0119\u0107 talent\u00f3w, otom drugie pi\u0119\u0107 zyska\u0142. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twego. Przyst\u0105pi\u0142 te\u017c i ten, kt\u00f3ry dwa talenty otrzyma\u0142, i rzek\u0142: Panie, da\u0142e\u015b mi dwa talenty, otom zyska\u0142 drugie dwa. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twojego.\u00bb", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim imieniu moc jego wzro\u015bnie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie Bo\u017ce, po\u015bwi\u0119\u0107 te dary sk\u0142adane w uroczysto\u015b\u0107 \u015bwi\u0119tego Biskupa Twego Miko\u0142aja: niech one wsz\u0119dzie kieruj\u0105 naszym \u017cyciem: tak w przeciwno\u015bciach, jak i w pomy\u015blno\u015bci.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 88:36-38*\nRaz przysi\u0105g\u0142em na \u015bwi\u0119to\u015b\u0107 moj\u0105: potomstwo jego trwa\u0107 b\u0119dzie na wieki i jego tron b\u0119dzie przede mn\u0105 jak s\u0142o\u0144ce, jak ksi\u0119\u017cyc, co na wieki zostaje, jako wierny \u015bwiadek na niebie.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech dary ofiarne przyj\u0119te z powodu uroczysto\u015bci \u015bw. Biskupa Twego Miko\u0142aja otaczaj\u0105 nas nieustann\u0105 opiek\u0105.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

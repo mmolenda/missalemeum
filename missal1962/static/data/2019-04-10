@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Marcelego", 
+      "3 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2019-04-10", 
+    "description": "Jezus wyznaje sw\u0105 jedno\u015b\u0107 z Bogiem, kt\u00f3ry m\u00f3wi\u0142 na Synaju. Za to wyznanie zostanie skazany na \u015bmier\u0107. \u015amier\u0107 nie mo\u017ce jednak pokona\u0107 Boga. Dlatego w \u015bpiewach dzisiejszej Mszy Chrystus zapowiada swoje Zmartwychwstanie.", 
+    "tempora": null, 
+    "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 17:48-49*\nLiber\u00e1tor meus de g\u00e9ntibus irac\u00fandis: ab insurg\u00e9ntibus in me exalt\u00e1bis me: a viro in\u00edquo er\u00edpies me, D\u00f3mine.\n*Ps 17:2-3*\nD\u00edligam te, D\u00f3mine, virtus mea: D\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus.\nLiber\u00e1tor meus de g\u00e9ntibus irac\u00fandis: ab insurg\u00e9ntibus in me exalt\u00e1bis me: a viro in\u00edquo er\u00edpies me, D\u00f3mine.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Sanctific\u00e1to hoc jej\u00fanio, Deus, tu\u00f3rum corda fid\u00e9lium miser\u00e1tor ill\u00fastra: et quibus devoti\u00f3nis pr\u00e6stas aff\u00e9ctum, pr\u00e6be supplic\u00e1ntibus pium ben\u00edgnus aud\u00edtum.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Lev\u00edtici.\n*Lev 19:1-2, 11-19, 25*\nIn di\u00e9bus illis: Loc\u00fatus est D\u00f3minus ad M\u00f3ysen, dicens: L\u00f3quere ad omnem coetum fili\u00f3rum Isra\u00ebl, et dices ad eos: Ego D\u00f3minus, Deus vester. Non faci\u00e9tis furtum. Non menti\u00e9mini, nec dec\u00edpiet unusqu\u00edsque pr\u00f3ximum suum. Non perjur\u00e1bis in n\u00f3mine meo, nec p\u00f3llues nomen Dei ;ui. Ego D\u00f3minus. Non f\u00e1cies cal\u00famniam pr\u00f3ximo tuo: nec vi \u00f3pprimes eum. Non mor\u00e1bitur opus mercenn\u00e1rii tui apud te usque mane. Non maled\u00edces surdo, nec coram c\u00e6co pones offend\u00edculum: sed tim\u00e9bis D\u00f3minum, Deum tuum, quia ego sum D\u00f3minus. Non f\u00e1cies quod in\u00edquum est, nec inj\u00faste judic\u00e1bis. Non cons\u00edderes pers\u00f3nam p\u00e1uperis, nec hon\u00f3res vultum pot\u00e9ntis. Juste j\u00fadica pr\u00f3ximo tuo. Non eris crimin\u00e1tor, nec sus\u00farro in p\u00f3pulo. Non stabis contra s\u00e1nguinem pr\u00f3ximi tui. Ego D\u00f3minus. Non \u00f3deris fratrem tuum in corde tuo, sed p\u00fablice \u00e1rgue eum, ne h\u00e1beas super illo pecc\u00e1tum. Non qu\u00e6ras ulti\u00f3nem, nec memor eris inj\u00fariae c\u00edvium tu\u00f3rum. D\u00edliges am\u00edcum tuum sicut te\u00edpsum. Ego D\u00f3minus. Leges meas custod\u00edte. Ego enim sum D\u00f3minus, Deus vester.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 29:2-4*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me: nec delect\u00e1sti inim\u00edcos meos super me.\nV. D\u00f3mine, Deus meus, clam\u00e1vi ad te, et san\u00e1sti me: D\u00f3mine, abstrax\u00edsti ab \u00ednferis \u00e1nimam meam, salv\u00e1sti me a descend\u00e9ntibus in lacum.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9*\nV. D\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 10:22-38*\nIn illo t\u00e9mpore: Facta sunt Encaenia in Jeros\u00f3lymis: et hiems erat. Et ambul\u00e1bat Jesus in templo, in p\u00f3rticu Salom\u00f3nis. Circumded\u00e9runt ergo eum Judaei, et dic\u00e9bant ei: Quo\u00fasque \u00e1nimam nostram tollis? Si tu es Christus, dic nobis palam. Resp\u00f3ndit eis Jesus: Loquor vobis, et non cr\u00e9ditis: Opera, qu\u00e6 ego f\u00e1cio in n\u00f3mine Patris mei, h\u00e6c testim\u00f3nium p\u00e9rhibent de me: sed vos non cr\u00e9ditis, quia non estis ex \u00f3vibus meis. Oves me\u00e6 vocem meam \u00e1udiunt: et ego cogn\u00f3sco eas, et sequ\u00fantur me: et ego vitam \u00e6t\u00e9rnam do eis: et non per\u00edbunt in \u00e6t\u00e9rnum, et non r\u00e1piet eas quisquam de manu mea. Pater meus quod dedit mihi, majus \u00f3mnibus est: et nemo potest r\u00e1pere de manu Patris mei. Ego et Pater unum sumus. Sustul\u00e9runt ergo l\u00e1pides Judaei, ut lapid\u00e1rent eum.  Resp\u00f3ndit eis Jesus: Multa bona \u00f3pera ost\u00e9ndi vobis ex Patre meo, propter quod e\u00f3rum opus me lapid\u00e1tis? Respond\u00e9runt ei Judaei: De bono \u00f3pere non lapid\u00e1mus te, sed de blasph\u00e9mia: et quia tu, homo cum sis, facis te\u00edpsum Deum. Resp\u00f3ndit eis Jesus: Nonne scriptum est in lege vestra: quia Ego dixi, dii estis? Si illos dixit deos, ad quos sermo Dei factus est, et non potest solvi Script\u00fara: quem Pater sanctific\u00e1vit, et misit in mundum, vos dicitis: Quia blasph\u00e9mas: quia dixi, F\u00edlius Dei sum? Si non f\u00e1cio \u00f3pera Patris mei, nol\u00edte cr\u00e9dere mihi. Si autem f\u00e1cio, et si mihi non vultis cr\u00e9dere, op\u00e9ribus cr\u00e9dite, ut cognosc\u00e1tis et cred\u00e1tis, quia Pater in me est et ego in Patre.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 58:2*\nEripe me de inim\u00edcis meis, Deus meus: et ab insurg\u00e9ntibus in me l\u00edbera me, D\u00f3mine.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Annue, mis\u00e9ricors Deus: ut h\u00f3stias placati\u00f3nis et laudis sinc\u00e9ro tibi defer\u00e1mus obs\u00e9quio.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Sancta Cruce*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui sal\u00fatem hum\u00e1ni g\u00e9neris in ligno Crucis constitu\u00edsti: ut, unde mors orieb\u00e1tur, inde vita res\u00fargeret: et, qui in ligno vinc\u00e9bat, in ligno quoque vincer\u00e9tur: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 25:6-7*\nLav\u00e1bo inter innoc\u00e9ntes manus meas, et circu\u00edbo alt\u00e1re tuum, D\u00f3mine: ut \u00e1udiam vocem laudis tu\u00e6, et en\u00e1rrem univ\u00e9rsa mirab\u00edlia tua.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Coel\u00e9stis doni benedicti\u00f3ne perc\u00e9pta: s\u00fapplices te, Deus omn\u00edpotens, deprec\u00e1mur; ut hoc idem nobis et sacram\u00e9nti causa sit et sal\u00fatis.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 17:48-49*\nWybawicielu od gniewnych narod\u00f3w: Ty mnie wywy\u017cszysz ponad przeciwnik\u00f3w moich, od gwa\u0142townika mi\u0119 wyrwiesz.\n*Ps 17:2-3*\nMi\u0142uj\u0119 Ci\u0119, Panie, mocy moja; Pan opok\u0105 i ucieczk\u0105 moj\u0105. On moim wybawicielem.\nWybawicielu od gniewnych narod\u00f3w: Ty mnie wywy\u017cszysz ponad przeciwnik\u00f3w moich, od gwa\u0142townika mi\u0119 wyrwiesz.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, u\u015bwi\u0119\u0107 ten post i o\u015bwie\u0107 mi\u0142o\u015bciwie serca Twoich wiernych, a w dobroci Twojej wys\u0142uchaj \u0142askawie pr\u00f3\u015bb tych, kt\u00f3rych sam sk\u0142aniasz do pobo\u017cno\u015bci.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Kap\u0142a\u0144skiej.\n*Kp\u0142 19:1-2, 11-19, 25*\nW one dni: Rzek\u0142 Pan do Moj\u017cesza, m\u00f3wi\u0105c: \u00abM\u00f3w do ca\u0142ego zgromadzenia syn\u00f3w Izraelowych i rzeczesz do nich: Ja, Pan, B\u00f3g wasz. Nie b\u0119dziecie czyni\u0107 kradzie\u017cy, nie b\u0119dziecie k\u0142ama\u0107, nie b\u0119dzie oszukiwa\u0142 nikt bli\u017aniego swego. Nie b\u0119dziesz krzywoprzysi\u0119ga\u0142 w imi\u0119 moje i nie zbezcze\u015bcisz imienia Boga twego. Ja Pan. Nie b\u0119dziesz rzuca\u0142 potwarzy na bli\u017aniego twego ani go gwa\u0142tem nie uci\u015bniesz: nie pozostanie zap\u0142ata najemnika twego u ciebie a\u017c do rana. Nie b\u0119dziesz z\u0142orzeczy\u0142 g\u0142uchemu ani przed \u015blepym nie b\u0119dziesz k\u0142ad\u0142 zawady, ale si\u0119 b\u0119dziesz ba\u0142 Pana, Boga twego, bom ja jest Pan. Nie b\u0119dziesz czyni\u0142 nieprawo\u015bci ani niesprawiedliwie s\u0105dzi\u0107 nie b\u0119dziesz. Nie patrz na osob\u0119 ubogiego ani nie czcij oblicza mo\u017cnego, sprawiedliwie s\u0105d\u017a bli\u017aniego twego. Nie b\u0119dziesz potwarc\u0105 ani podszczuwaczem mi\u0119dzy ludem. Nie b\u0119dziesz nastawa\u0142 na krew bli\u017aniego twego. Ja Pan. Nie miej w nienawi\u015bci brata twego w sercu twoim, ale go jawnie kar\u0107, aby\u015b nie mia\u0142 grzechu dla niego. Nie szukaj pomsty ani pami\u0119ta\u0107 b\u0119dziesz krzywdy od s\u0105siad\u00f3w twoich. B\u0119dziesz mi\u0142owa\u0142 przyjaciela twego, jak samego siebie. Ja Pan. Praw moich strze\u017ccie. Ja bowiem jestem Pan, B\u00f3g wasz\u00bb.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 29:2-4*\nS\u0142awi\u0107 Ci\u0119 b\u0119d\u0119, Panie, bo mnie wybawi\u0142e\u015b i nie sprawi\u0142e\u015b ze mnie uciechy mym wrogom.\nV. Panie, Bo\u017ce m\u00f3j, do Ciebie wo\u0142a\u0142em, a Ty\u015b mnie uzdrowi\u0142. Panie, wywiod\u0142e\u015b m\u0105 dusz\u0119 z otch\u0142ani: wybawi\u0142e\u015b mnie spo\u015br\u00f3d schodz\u0105cych do grobu.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 10:22-38*\nOnego czasu: Przypad\u0142a w Jerozolimie uroczysto\u015b\u0107 Po\u015bwi\u0119cenia \u015awi\u0105tyni, a by\u0142a zima. I przechadza\u0142 si\u0119 Jezus w \u015bwi\u0105tyni, w kru\u017cganku Salomona. Obst\u0105pili Go tedy \u017cydzi i rzekli Mu: \u00abDok\u0105d\u017ce nas trzyma\u0107 b\u0119dziesz w niepewno\u015bci? Je\u015bli Ty jeste\u015b Chrystusem, powiedz nam jawnie\u00bb. Odpowiedzia\u0142 im Jezus: \u00abM\u00f3wi\u0119 wam, a nie wierzycie. Czyny, kt\u00f3re ja wykonywam w imi\u0119 Ojca mego, \u015bwiadcz\u0105 o mnie, ale wy nie wierzycie, bo nie jeste\u015bcie z owiec moich. Owce moje s\u0142uchaj\u0105 g\u0142osu mego, a ja je znam i one id\u0105 za mn\u0105. I daj\u0119 im \u017cycie wieczne, a nie zgin\u0105 na wieki ani ich nikt nie wyrwie z r\u0119ki mojej. To, co mi da\u0142 Ojciec m\u00f3j, wi\u0119ksze jest ni\u017c wszystko i nikt nie mo\u017ce wydrze\u0107 z r\u0105k Ojca mego. Ja i Ojciec jedno jeste\u015bmy\u00bb.\nChwycili tedy \u017cydzi kamienie, aby Go ukamienowa\u0107. Odpowiedzia\u0142 im Jezus: \u00abWiele dobrych uczynk\u00f3w ukaza\u0142em wam od Ojca mego; za kt\u00f3ry z tych uczynk\u00f3w kamienujecie mnie?\u00bb Odpowiedzieli Mu \u017cydzi: \u00abNie kamienujemy Ciebie za dobry uczynek, ale za blu\u017anierstwo, za to, \u017ce Ty, b\u0119d\u0105c cz\u0142owiekiem, czynisz siebie Bogiem\u00bb. Odpowiedzia\u0142 im Jezus: \u00abCzy\u017c w Prawie waszym nie napisano: Jam rzek\u0142: bogami jeste\u015bcie? Je\u015bli nazwa\u0142 bogami tych, dla kt\u00f3rych przeznaczone by\u0142o s\u0142owo Bo\u017ce, a Pismo myli\u0107 si\u0119 nie mo\u017ce, o tym, kt\u00f3rego Ojciec u\u015bwi\u0119ci\u0142 i pos\u0142a\u0142 na \u015bwiat, wy powiadacie, \u017ce blu\u017ani, bo powiedzia\u0142em, \u017ce jestem Synem Bo\u017cym. Je\u015bli nie wype\u0142niam uczynk\u00f3w Ojca mego, nie wierzcie mi. Ale je\u015bli wype\u0142niam, cho\u0107by\u015bcie mnie wierzy\u0107 nie chcieli, wierzcie uczynkom, aby\u015bcie poznali i uwierzyli, \u017ce Ojciec jest we mnie, a ja w Ojcu\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 58:2*\nOd nieprzyjaci\u00f3\u0142 moich wyrwij mnie, m\u00f3j Bo\u017ce, zachowaj mi\u0119, Panie, od powstaj\u0105cych na mnie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Spraw, mi\u0142osierny Bo\u017ce, aby\u015bmy Ci z\u0142o\u017cyli ofiar\u0119 przeb\u0142agania i chwa\u0142y ze szczerym oddaniem.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Krzy\u017cu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b postanowi\u0142 dokona\u0107 zbawienia rodzaju ludzkiego na drzewie krzy\u017ca, aby sk\u0105d smier\u0107 wzi\u0119\u0142a pocz\u0105tek, stamt\u0105d i \u017cycie zmartwychwsta\u0142o, i aby ten, kt\u00f3ry na drzewie zwyci\u0119\u017cy\u0142, na drzewie r\u00f3wnie\u017c zosta\u0142 pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 25:6-7*\nR\u0119ce moje umywam na znak niewinno\u015bci i o\u0142tarz Tw\u00f3j, Panie, obchodz\u0119, by jawnie og\u0142asza\u0107 chwa\u0142\u0119 i rozpowiada\u0107 wszystkie cuda Twoje.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Po przyj\u0119ciu b\u0142ogos\u0142awionego daru niebieskiego, pokornie Ci\u0119 prosimy, wszechmog\u0105cy Bo\u017ce, aby ten dar sta\u0142 si\u0119 \u017ar\u00f3d\u0142em \u0142aski sakramentalnej i zbawienia.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

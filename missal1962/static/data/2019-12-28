@@ -1,0 +1,157 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Paw\u0142a za Murami", 
+      "2 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2019-12-28", 
+    "description": "\u015aw. Jan pisze o Panu Jezusie: \u00abPrzyszed\u0142 do swej w\u0142asno\u015bci, a swoi Go nie przyj\u0119li\u00bb. Jeszcze w niemowl\u0119cym wieku spotka\u0142 si\u0119 Pan Jezus ze sprzeciwem. Aby utr\u0105ci\u0107 rzekomego pretendenta do tronu, Herod wyda\u0142 okrutny rozkaz wymordowania betlejemskich m\u0142odziank\u00f3w. Oddaj\u0105c \u017cycie za Pana Jezusa otrzymali oni Chrzest krwi i osi\u0105gn\u0119li podw\u00f3jn\u0105 aureol\u0119: dziewictwa i m\u0119cze\u0144stwa. We Mszy dzisiejszej s\u0142awimy Boga za chwa\u0142\u0119, jakiej udzieli\u0142 \u015bwi\u0119tym dzieciom (antyfona na wej\u015bcie, lekcja, gradua\u0142), i op\u0142akujemy zbrodni\u0119 Heroda wymierzon\u0105 przeciw Zbawicielowi (traktus, antyfona na komuni\u0119). W \u015bredniowieczu obchodzono w dniu dzisiejszym \u015bwi\u0119to patronalne ko\u015bcielnych ch\u00f3r\u00f3w ch\u0142opi\u0119cych.", 
+    "tempora": null, 
+    "title": "\u015awi\u0119tych M\u0142odziank\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 8:3.*\nEx ore inf\u00e1ntium, Deus, et lact\u00e9ntium perfec\u00edsti laudem propter inimicos tuos.\n*Ps 8:2*\nD\u00f3mine, D\u00f3minus noster: quam admir\u00e1bile est nomen tuum in univ\u00e9rsa terra!\nGl\u00f3ria Patri.\nEx ore inf\u00e1ntium, Deus, et lact\u00e9ntium perfec\u00edsti laudem propter inimicos tuos.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, cujus hodierna die pr\u00e6c\u00f3nium Innoc\u00e9ntes M\u00e1rtyres non loqu\u00e9ndo, sed mori\u00e9ndo conf\u00e9ssi sunt: \u00f3mnia in nobis viti\u00f3rum mala mort\u00edfica; ut fidem tuam, quam lingua nostra l\u00f3quitur, \u00e9tiam m\u00f3ribus vita fate\u00e1tur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nConc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut nos Unig\u00e9niti tui nova per carnem Nat\u00edvitas l\u00edberet; quos sub pecc\u00e1ti jugo vet\u00fasta s\u00e9rvitus tenet.\nPer e\u00fandem.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Apocal\u00fdpsis be\u00e1ti Jo\u00e1nnis Ap\u00f3stoli.\n*Apoc 14:1-5*\nIn di\u00e9bus illis: Vidi supra montem Sion Agnum stantem, et cum eo centum quadrag\u00ednta quatuor m\u00edlia, hab\u00e9ntes nomen ejus, et nomen Patris ejus scriptum in fr\u00f3ntibus suis. Et aud\u00edvi vocem de coelo, tamquam vocem aqu\u00e1rum mult\u00e1rum, et tamquam vocem ton\u00edtrui magni: et vocem, quam aud\u00edvi, sicut citharoer\u00f3rum cithariz\u00e1ntium in c\u00edtharis suis. Et cant\u00e1bant quasi c\u00e1nticum novum ante sedem, et ante qu\u00e1tuor anim\u00e1lia, et seni\u00f3res: et nemo p\u00f3terat d\u00edcere c\u00e1nticum, nisi illa centum quadrag\u00ednta qu\u00e1tuor m\u00edlia, qui empti sunt de terra. Hi sunt, qui cum muli\u00e9ribus non sunt coinquin\u00e1ti: v\u00edrgines enim sunt. Hi sequ\u00fantur Agnum, quoc\u00famque \u00ederit. Hi empti sunt ex hom\u00ednibus prim\u00edti\u00e6 Deo, et Agno: et in ore e\u00f3rum non est inv\u00e9ntum mend\u00e1cium: sine m\u00e1cula enim sunt ante thronum Dei.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 123:7-8*\nAnima nostra, sicut passer, er\u00e9pta est de l\u00e1queo ven\u00e1ntium.\nV. L\u00e1queus contr\u00edtus est, et nos liber\u00e1ti sumus: adjut\u00f3rium nostrum in n\u00f3mine D\u00f3mini, qui fecit coelum et terram. Allel\u00faja, allel\u00faja\n*Ps 112:1*\nLaud\u00e1te, p\u00faeri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 78:3; 78:10*\nEffud\u00e9runt s\u00e1nguinem Sanct\u00f3rum, velut aquam, in circuitu Jer\u00fasalem,\nV. Et non erat, qui sepel\u00edret.\nV.V\u00edndica, D\u00f3mine, s\u00e1nguinem\nSanct\u00f3rum tu\u00f3rum, qui eff\u00fasus est super terram.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii secundum Matth\u01fdum\n*Matt 2:13-18*\nIn illo t\u00e9mpore: Angelus D\u00f3mini app\u00e1ruit in somnis Joseph, dicens: Surge, et \u00e1ccipe P\u00faerum et Matrem ejus, et fuge in \u00c6g\u00fdptum, et esto ibi, usque dum dicam tibi. Fut\u00farum est enim, ut Her\u00f3des qu\u00e6rat P\u00faerum ad perd\u00e9ndum eum. Qui cons\u00fargens acc\u00e9pit P\u00faerum et Matrem ejus nocte, et sec\u00e9ssit in \u00c6g\u00fdptum: et erat ibi usque ad \u00f3bitum Her\u00f3dis: ut adimpler\u00e9tur quod dictum est a D\u00f3mino per Proph\u00e9tam dic\u00e9ntem: Ex \u00c6g\u00fdpto voc\u00e1vi F\u00edlium meum. Tunc Her\u00f3des videns, qu\u00f3niam ill\u00fasus esset a Magis, ir\u00e1tus est valde, et mittens occ\u00eddit omnes p\u00faeros, qui erant in B\u00e9thlehem et in \u00f3mnibus f\u00ednibus ejus, a bim\u00e1tu et infra, sec\u00fandum tempus, quod exquis\u00ederat a Magis. Tunc adimpl\u00e9tum est, quod dictum est per Jerem\u00edam Prophetam dic\u00e9ntem: Vox in Rama aud\u00edta est, plor\u00e1tus et ulul\u00e1tus multus: Rachel plorans f\u00edlios suos, et n\u00f3luit consol\u00e1ri, quia non sunt.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 123:7*\nAnima nostra, sicut passer, er\u00e9pta est de l\u00e1queo ven\u00e1ntium: l\u00e1queus contr\u00edtus est, et nos liber\u00e1ti sumus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Sanct\u00f3rum tu\u00f3rum, D\u00f3mine, nobis pia non desit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet, et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nObl\u00e1ta, D\u00f3mine, m\u00fanera, nova Unig\u00e9niti tui Nativit\u00e1te sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer e\u00fandem.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 2:18.*\nVox in Rama aud\u00edta est, plor\u00e1tus, et ulul\u00e1tus: Rachel plorans f\u00edlios suos, et n\u00f3luit consol\u00e1ri, quia non sunt.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Vot\u00edva, D\u00f3mine, dona perc\u00e9pimus: qu\u00e6 Sanct\u00f3rum nobis pr\u00e9cibus, et pr\u00e6s\u00e9ntis, qu\u01fdsumus, vit\u00e6 p\u00e1riter et \u00e6t\u00e9rn\u00e6 tr\u00edbue conf\u00e9rre subs\u00eddium.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut natus h\u00f3die Salv\u00e1tor mundi, sicut div\u00edn\u00e6 nobis generati\u00f3nis est auctor; ita et immortalit\u00e1tis sit ipse larg\u00edtor:\nQui tecum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 8:3*\nZ ust dzieci i niemowl\u0105t zgotowa\u0142e\u015b sobie chwa\u0142\u0119, Bo\u017ce, wbrew przeciwnikom Twoim.\n*Ps 8:2*\nO Panie, Panie nasz, jak przedziwne Twe imi\u0119 po wszystkiej ziemi.\nChwa\u0142a Ojcu.\nZ ust dzieci i niemowl\u0105t zgotowa\u0142e\u015b sobie chwa\u0142\u0119, Bo\u017ce, wbrew przeciwnikom Twoim.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, \u015bwi\u0119ci M\u0142odziankowie obwie\u015bcili Tw\u0105 chwa\u0142\u0119 nie s\u0142owami, lecz \u015bmierci\u0105; racz wyniszczy\u0107 w nas wszystkie \u017ar\u00f3d\u0142a grzech\u00f3w, aby\u015bmy ca\u0142ym \u017cyciem wyznawali wiar\u0119 w Ciebie, kt\u00f3r\u0105 g\u0142osimy s\u0142owami.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nDozw\u00f3l, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby nowe narodzenie si\u0119 w ciele Jednorodzonego Syna Twego wyzwoli\u0142o nas z jarzma grzechu, w kt\u00f3rym nas trzyma dawna niewola.\nPrzez tego\u017c Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Apokalipsy \u015bwi\u0119tego Jana Aposto\u0142a.\n*Ap 14:1-5*\n*Przytaczaj\u0105c pi\u0119kn\u0105 wizj\u0119 \u015bw. Jana, Ko\u015bci\u00f3\u0142 wskazuje na chwa\u0142\u0119 zgotowan\u0105 w niebie tym, kt\u00f3rzy urzeczywistniaj\u0105 idea\u0142 dziewictwa i m\u0119cze\u0144stwa.*\nW one dni widzia\u0142em Baranka stoj\u0105cego na g\u00f3rze Syjon, a wraz z Nim sto czterdzie\u015bci cztery tysi\u0105ce tych, kt\u00f3rzy maj\u0105 imi\u0119 Jego i imi\u0119 Ojca Jego napisane na czo\u0142ach. I us\u0142ysza\u0142em g\u0142os z nieba, niby g\u0142os wielu w\u00f3d i niby huk wielkiego gromu, a ton, kt\u00f3ry da\u0142 si\u0119 s\u0142ysze\u0107, podobny by\u0142 do tonu cytrzyst\u00f3w graj\u0105cych na cytrach. A \u015bpiewali jakby now\u0105 pie\u015b\u0144 przed tronem i przed czterema zwierz\u0119tami, i starszymi. A nikt nie m\u00f3g\u0142 \u015bpiewa\u0107 onej pie\u015bni, jeno one sto czterdzie\u015bci i cztery tysi\u0105ce, kt\u00f3rzy byli wykupieni z ziemi. To s\u0105 ci, kt\u00f3rzy nie pokalali si\u0119 z niewiastami, bo dziewicami s\u0105. Pod\u0105\u017caj\u0105 oni za Barankiem, dok\u0105dkolwiek idzie. S\u0105 oni wykupionymi z ludzi pierwocinami Bogu i Barankowi. W ustach ich nie posta\u0142o k\u0142amstwo, albowiem s\u0105 nienaganni przed tronem Bo\u017cym.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 123:7-8*\nDusza nasza niby ptak wyrwa\u0142a si\u0119 z sid\u0142a \u0142owc\u00f3w.\nV. Sid\u0142o si\u0119 podar\u0142o, a my zostali\u015bmy uwolnieni. Wspomo\u017cenie nasze w imieniu Pana, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119. Alleluja, alleluja.\n*Ps 112:1*\nChwalcie, o dziatki, Pana, chwalcie imi\u0119 Pa\u0144skie. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 78:3; 78:10*\nKrew \u015awi\u0119tych rozlali jak wod\u0119 wok\u00f3\u0142 Jeruzalem.\nV. I nie by\u0142o komu pogrzeba\u0107.\nV. Pom\u015bcij, o Panie, krew \u015awi\u0119tych Twoich, kt\u00f3r\u0105 wylano na ziemi.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 2:13-18*\nOnego czasu: Anio\u0142 Pa\u0144ski ukaza\u0142 si\u0119 we \u015bnie J\u00f3zefowi m\u00f3wi\u0105c: \u00abWsta\u0144, a we\u017amij Dzieci\u0119 i Matk\u0119 Jego i uchod\u017a do Egiptu. A pozosta\u0144 tam, a\u017c ci oznajmi\u0119. Albowiem stanie si\u0119, \u017ce Herod szuka\u0107 b\u0119dzie Dzieci\u0119cia, aby Je zg\u0142adzi\u0107\u00bb. A on powsta\u0142, wzi\u0105\u0142 Dzieci\u0119 i Matk\u0119 Jego w nocy i uszed\u0142 do Egiptu. I pozosta\u0142 tam a\u017c do \u015bmierci Heroda, aby si\u0119 spe\u0142ni\u0142o, co powiedziane jest od Pana przez Proroka, m\u00f3wi\u0105cego: \u00abZ Egiptu wezwa\u0142em Syna mojego\u00bb. Wtedy Herod widz\u0105c, \u017ce go M\u0119drcy zawiedli, rozgniewa\u0142 si\u0119 bardzo i pos\u0142awszy pozabija\u0142 wszystkie dzieci, kt\u00f3re by\u0142y w Betlejem i we wszystkich granicach jego, w wieku od dw\u00f3ch lat i ni\u017cej wed\u0142ug czasu, o kt\u00f3ry si\u0119 by\u0142 pyta\u0142 M\u0119drc\u00f3w. W\u00f3wczas wype\u0142ni\u0142o si\u0119, co jest powiedziane przez Jeremiasza proroka, m\u00f3wi\u0105cego: \u00abG\u0142os us\u0142yszano w Rama, p\u0142acz i j\u0119k wielki: Rachel op\u0142akuj\u0105ca syn\u00f3w swoich, i nie chcia\u0142a si\u0119 da\u0107 pocieszy\u0107, bo ich nie ma\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 123:7*\nDusza nasza niby ptak wyrwa\u0142a si\u0119 z sid\u0142a \u0142owc\u00f3w. Sid\u0142o si\u0119 podar\u0142o, a my zostali\u015bmy uwolnieni.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Niechaj nie braknie nam, Panie, pobo\u017cnej modlitwy \u015awi\u0119tych Twoich: niech ona uczyni mi\u0142ymi nasze dary, a nam zawsze wyjedna Twoje przebaczenie.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nU\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone dary przez nowe narodzenie Jedynego Syna Twojego i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez tego\u017c Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 2:18*\n*Rachel, kt\u00f3ra op\u0142akiwa\u0142a zaginionych syn\u00f3w, J\u00f3zefa i Beniamina, jest symbolem zbola\u0142ych matek betlejemskich.*\nG\u0142os us\u0142yszano w Rama, p\u0142acz i j\u0119k wielki: Rachel op\u0142akuj\u0105ca syn\u00f3w swoich, i nie chcia\u0142a si\u0119 da\u0107 pocieszy\u0107, bo ich nie ma.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Spo\u017cyli\u015bmy, Panie, po\u015bwi\u0119cone Tobie dary. Spraw, prosimy, aby dzi\u0119ki modlitwom Twoich \u015awi\u0119tych przynios\u0142y nam pomoc w \u017cyciu doczesnym i przysz\u0142ym.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nWszechmog\u0105cy Bo\u017ce, narodzony dzisiaj Zbawiciel \u015bwiata przywr\u00f3ci\u0142 nam synostwo Bo\u017ce; spraw, prosimy, aby nam udzieli\u0142 daru nie\u015bmiertelno\u015bci:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

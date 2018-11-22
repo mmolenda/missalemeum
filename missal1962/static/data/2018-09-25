@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e", 
+      "W Polsce"
+    ], 
+    "date": "2018-09-25", 
+    "description": "B\u0142. W\u0142adys\u0142aw urodzi\u0142 si\u0119 w Gielniowie ko\u0142o Opoczna w roku 1440. Jako student Akademii Krakowskiej przyja\u017ani\u0142 si\u0119 ze \u015bw. Janem Kantym i b\u0142. Szymonem z Lipnicy. Pod wp\u0142ywem kaza\u0144 \u015bw. Jana Kapistrana wst\u0105pi\u0142 do Bernardyn\u00f3w i odby\u0142 nowicjat w Warszawie. Zas\u0142yn\u0105\u0142 jako wybitny kaznodzieja i tw\u00f3rca religijnych pie\u015bni ludowych. Przez pi\u0119tna\u015bcie lat by\u0142 prowincja\u0142em swego zakonu, dwukrotnie pielgrzymowa\u0142 do Rzymu o \u017cebranym chlebie. Po z\u0142o\u017ceniu urz\u0119du osiad\u0142 w Warszawie i tam umar\u0142 4 maja 1505 roku. Jest patronem Warszawy.Msza wsp\u00f3lna nr 22 Iustus ut palma, z wyj\u0105tkiem kolekty, sekrety i pokomunii", 
+    "tempora": "Wtorek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "B\u0142. W\u0142adys\u0142awa z Gielniowa, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 91:13-14*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)\n*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui beatum Ladislaum religiosa perfectione voluisti omnibus praelucere: concede propitius; ut eius exemplo in virtutibus iugiter proficiamus.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios\n*1 Cor 4:9-14*\nFratres: Spect\u00e1culum facti sumus mundo et Angelis et hom\u00ednibus. Nos stulti propter Christum, vos autem prud\u00e9ntes in Christo: nos inf\u00edrmi, vos autem fortes: vos n\u00f3biles, nos autem ign\u00f3biles. Usque in hanc horam et esur\u00edmus, et sit\u00edmus, et nudi sumus, et c\u00f3laphis c\u01fddimur, et inst\u00e1biles sumus, et labor\u00e1mus oper\u00e1ntes m\u00e1nibus nostris: maled\u00edcimur, et bened\u00edcimus: persecuti\u00f3nem p\u00e1timur, et sustin\u00e9mus: blasphem\u00e1mur, et obsecr\u00e1mus: tamquam purgam\u00e9nta hujus mundi facti sumus, \u00f3mnium perips\u00e9ma usque adhuc. Non ut conf\u00fandant vos, h\u00e6c scribo, sed ut f\u00edlios meos car\u00edssimos m\u00f3neo: in Christo Jesu, D\u00f3mino nostro.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja\n*Ps 111:1*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 12:32-34*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Nol\u00edte tim\u00e9re, pus\u00edllus grex, quia compl\u00e1cuit Patri vestro dare vobis regnum. V\u00e9ndite qu\u00e6 possid\u00e9tis, et date eleem\u00f3synam. F\u00e1cite vobis s\u00e1cculos, qui non veter\u00e1scunt, thes\u00e1urum non defici\u00e9ntem in c\u0153lis: quo fur non appr\u00f3piat, neque t\u00ednea corr\u00fampit. Ubi enim thes\u00e1urus vester est, ibi et cor vestrum erit.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 20:2-3*\nIn virt\u00fate tua, D\u00f3mine, l\u00e6t\u00e1bitur justus, et super salut\u00e1re tuum exsult\u00e1bit vehem\u00e9nter: desid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei. (Allel\u00faja.)", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Hostias ad altare tuum offerentibus, Domine, da nobis illum pietatis affectum, quem beato Ladislao Confessori tuo infudisti: ut pura mente ac fervido corde rei sacrae attendamus, et sacrificium tibi placitum nobisque proficuum immolemus.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 19:28 et 29.*\nAmen, dico vobis: quod vos, qui reliqu\u00edstis \u00f3mnia et sec\u00fati estis me, c\u00e9ntuplum accipi\u00e9tis, et vitam \u00e6t\u00e9rnam possid\u00e9bitis. (Allel\u00faja.)", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Tribuat nobis, omnipotens Deus, suffragantibus beati Ladislai Confessoris tui precibus, refectio sacra subsidium: ut et castitatis munditiam observemus in corpore, et lumen veritatis exhibeamus in opere.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry sprawi\u0142e\u015b, \u017ce b\u0142ogos\u0142awiony W\u0142adys\u0142aw przy\u015bwieca\u0142 wszystkim jako wz\u00f3r doskona\u0142o\u015bci zakonnej; daj \u0142askawie, aby\u015bmy za jego przyk\u0142adem ci\u0105gle czynili post\u0119py w cnotach.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem stali\u015bmy si\u0119 dla \u015bwiata, dla Anio\u0142\u00f3w i ludzi. My g\u0142upi dla Chrystusa, a wy m\u0105drzy w Chrystusie; my s\u0142abi, a wy mocni, wy we czci, a my w pogardzie. A\u017c do tej chwili i \u0142akniemy, i pragniemy, i nadzy jeste\u015bmy, i policzkuj\u0105 nas, i tu\u0142amy si\u0119, i mozolimy si\u0119, pracuj\u0105c swymi r\u0119koma. Z\u0142orzecz\u0105 nam, a my b\u0142ogos\u0142awimy, prze\u015bladuj\u0105, a my znosimy, potwarzaj\u0105 nas, a my si\u0119 modlimy. Stali\u015bmy si\u0119 jako \u015bmiecie \u015bwiata tego, odraz\u0105 dla wszystkich a\u017c do tej chwili. Nie \u017ceby was zawstydzi\u0107 to pisz\u0119, ale jako dzieci moje najdro\u017csze upominam: w Chrystusie Jezusie, Panu naszym.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w jego sercu, a kroki si\u0119 jego nie chwiej\u0105. Alleluja, alleluja.\n*Ps 111:1*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 12:32-34*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abNie l\u0119kaj si\u0119, trz\u00f3dko ma\u0142a, gdy\u017c spodoba\u0142o si\u0119 Ojcu waszemu da\u0107 wam Kr\u00f3lestwo. Sprzedajcie, co posiadacie i dajcie ja\u0142mu\u017cn\u0119. Sprawcie sobie trzosy, kt\u00f3re nie niszczej\u0105, skarbiec niewyczerpany w niebiesiech, dok\u0105d z\u0142odziej si\u0119 nie zbli\u017cy i gdzie m\u00f3l nie psuje. Albowiem gdzie jest skarb wasz, tam i serce wasze b\u0119dzie\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 20:2-3*\nZ pot\u0119gi Twej, Panie, weseli, si\u0119 sprawiedliwy, i z pomocy Twojej bardzo si\u0119 cieszy: spe\u0142ni\u0142e\u015b pragnienie jego serca. (O. W. Alleluja.)", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, gdy sk\u0142adamy ofiary na o\u0142tarzu Twoim, daj nam takie uczucie pobo\u017cno\u015bci, jakim obdarzy\u0142e\u015b b\u0142ogos\u0142awionego W\u0142adys\u0142awa, Twojego Wyznawc\u0119, aby\u015bmy czyst\u0105 my\u015bl\u0105 i gor\u0105cym sercem uczestniczyli w \u015bwi\u0119tych czynno\u015bciach i z\u0142o\u017cyli ofiar\u0119 Tobie mi\u0142\u0105, a dla nas zbawienn\u0105.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 19:28-29*\nZaprawd\u0119 powiadam wam, \u017ce wy, kt\u00f3rzy\u015bcie opu\u015bcili wszystko i poszli\u015bcie za mn\u0105, stokro\u0107 wi\u0119cej otrzymacie i posi\u0105dziecie \u017cycie wieczne. (O. W. Alleluja.)", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Wszechmog\u0105cy Bo\u017ce, niech za wstawiennictwem b\u0142ogos\u0142awionego Wyznawcy Twojego W\u0142adys\u0142awa \u015bwi\u0119ta uczta udzieli nam pomocy, aby\u015bmy zachowali czysto\u015b\u0107 cia\u0142a i w czynach okazywali \u015bwiat\u0142o prawdy.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

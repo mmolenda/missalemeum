@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "Wspomnienie", 
+      "Szaty czerwone"
+    ], 
+    "date": "2019-02-15", 
+    "description": "\u015awi\u0119ci Faustyn i Jowita zostali \u015bci\u0119ci w Brescji we W\u0142oszech z pocz\u0105tkiem II wieku. Legenda g\u0142osi, \u017ce byli bra\u0107mi, nie jest to jednak pewne.", 
+    "tempora": "Pi\u0105tek po 5 Niedzieli po Objawieniu", 
+    "title": "\u015a\u015b. Faustyna i Jowity, M\u0119czennik\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 36:39*\nSalus autem just\u00f3rum a D\u00f3mino: et prot\u00e9ctor e\u00f3rum est in t\u00e9mpore tribulati\u00f3nis.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nSalus autem just\u00f3rum a D\u00f3mino: et prot\u00e9ctor e\u00f3rum est in t\u00e9mpore tribulati\u00f3nis.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui nos \u00e1nnua sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Faust\u00edni et Jov\u00edt\u00e6 sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, quorum gaud\u00e9mus m\u00e9ritis, accend\u00e1mur ex\u00e9mplis.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebraeos.\n*Hebr 10:32-38*\nFratres: Rememor\u00e1mini pr\u00edstinos dies, in quibus illumin\u00e1ti magnum cert\u00e1men sustinu\u00edstis passi\u00f3num: et in \u00e1ltero quidem oppr\u00f3briis et tribulati\u00f3nibus spect\u00e1culum facti: in \u00e1ltero autem s\u00f3cii t\u00e1liter convers\u00e1ntium eff\u00e9cti. Nam et vinctis comp\u00e1ssi estis, et rap\u00ednam bon\u00f3rum vestr\u00f3rum cum g\u00e1udio suscep\u00edstis, cognosc\u00e9ntes vos habere meli\u00f3rem et man\u00e9ntem subst\u00e1ntiam. Nol\u00edte itaque am\u00edttere! confid\u00e9ntiam vestram, qu\u00e6 magnam habet remunerati\u00f3nem. Pati\u00e9ntia enim vobis nec\u00e9ssaria est: ut, volunt\u00e1tem Dei faci\u00e9ntes, report\u00e9tis promissi\u00f3nem. Adhuc enim m\u00f3dicum aliqu\u00e1ntulum, qui vent\u00farus est, v\u00e9niet, et non tard\u00e1bit. Justus autem meus ex fide vivit.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 33:18-19*\nClamav\u00e9runt justi, et D\u00f3minus exaud\u00edvit eos: et ex \u00f3mnibus tribulati\u00f3nibus e\u00f3rum liber\u00e1vit eos.\nV. Juxta est D\u00f3minus his, qui tribul\u00e1to sunt corde: et h\u00familes sp\u00edritu salv\u00e1bit. Allel\u00faja, allel\u00faja.\nV. Te M\u00e1rtyrum candid\u00e1tus laudat ex\u00e9rcitus, D\u00f3mine. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 33:18-19*\nClamav\u00e9runt justi, et D\u00f3minus exaud\u00edvit eos: et ex \u00f3mnibus tribulati\u00f3nibus e\u00f3rum liber\u00e1vit eos.\nV. Juxta est D\u00f3minus his, qui tribul\u00e1to sunt corde: et h\u00familes sp\u00edritu salv\u00e1bit.\n*Ps 125:5-6*\nQui s\u00e9minant in l\u00e1crimis, in g\u00e1udio metent.\nV. E\u00fantes ibant et fl\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 12:1-8*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Att\u00e9ndite a ferm\u00e9nto pharis\u00e6\u00f3rum, quod est hyp\u00f3crisis. Nihil autem op\u00e9rtum est, quod non revel\u00e9tur: neque absc\u00f3nditum, quod non sci\u00e1tur. Qu\u00f3niam, qu\u00e6 in t\u00e9nebris dix\u00edstis, in l\u00famine dic\u00e9ntur: et quod in aurem locuti estis in cub\u00edculis, pr\u00e6dic\u00e1bitur in tectis. Dico autem vobis am\u00edcis meis: Ne terre\u00e1mini ab his, qui occ\u00eddunt corpus, et post h\u00e6c non habent \u00e1mplius quid f\u00e1ciant. Ost\u00e9ndam autem vobis, quem time\u00e1tis: tim\u00e9te eum, qui, postquam occ\u00eddent, habet potest\u00e1tem m\u00edttere in geh\u00e9nnam. Ita dico vobis: hunc tim\u00e9te. Nonne quinque p\u00e1sseres v\u00e9neunt dip\u00f3ndio, et unus ex illis non est in oblivi\u00f3ne coram Deo? Sed et cap\u00edlli c\u00e1pitis vestri omnes numer\u00e1ri sunt. Nol\u00edte ergo tim\u00e9re: multis pass\u00e9ribus pluris estis vos. Dico autem vobis: Omnis, quic\u00famque conf\u00e9ssus f\u00faerit me coram hom\u00ednibus, et F\u00edlius h\u00f3minis confit\u00e9ntur illum coram Angelis Dei.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Sap 3:1-3*\nJust\u00f3rum \u00e1nim\u00e6 in manu Dei sunt, et non tanget illos torm\u00e9ntum mal\u00edtiae: visi sunt \u00f3culis insipi\u00e9ntium mori: illi autem sunt in pace, allel\u00faja.\n(sed post Septuagesimam dicitur)\npace.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Ad\u00e9sto, D\u00f3mine, supplicati\u00f3nibus nostris, quas in Sanct\u00f3rum tu\u00f3rum commemorati\u00f3ne def\u00e9rimus: ut, qui nostr\u00e6 just\u00edti\u00e6 fid\u00faciam non hab\u00e9mus, e\u00f3rum, qui tibi placu\u00e9runt, m\u00e9ritis adjuv\u00e9mur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 10:27*\nQuod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine, dicit D\u00f3minus: et quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Qu\u01fdsumus, D\u00f3mine, salut\u00e1ribus repl\u00e9ti myst\u00e9riis: ut, quorum soll\u00e9mnia celebr\u00e1mus, e\u00f3rum orati\u00f3nibus adjuv\u00e9mur.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 36:39*\nZbawienie sprawiedliwych pochodzi od Pana: On ich ucieczk\u0105 w czasie utrapienia.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nZbawienie sprawiedliwych pochodzi od Pana: On ich ucieczk\u0105 w czasie utrapienia.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty co roku uweselasz nas uroczysto\u015bci\u0105 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Faustyna i Jowity, spraw \u0142askawie, aby\u015bmy zapalali si\u0119 przyk\u0142adami tych, kt\u00f3rych zas\u0142ugi nas ciesz\u0105.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Hebrajczyk\u00f3w.\n*Hbr 10:32-38*\nBracia: Przypomnijcie sobie dni dawniejsze, w kt\u00f3rych po swym o\u015bwieceniu przetrwali\u015bcie udr\u0119ki w wielkiej walce, wtedy, gdy\u015bcie si\u0119 stali widowiskiem przez zniewagi i uciski, i wtedy, gdy\u015bcie si\u0119 stali uczestnikami tych, co tego\u017c do\u015bwiadczyli. Albowiem cierpieli\u015bcie wsp\u00f3lnie z uwi\u0119zionymi i nawet zrabowanie waszego mienia przyj\u0119li\u015bcie z weselem, wiedz\u0105c, \u017ce posiadacie maj\u0119tno\u015b\u0107 lepsz\u0105 i trwalsz\u0105.\nNie tra\u0107cie\u017c wi\u0119c otuchy waszej, kt\u00f3ra ma wielk\u0105 zap\u0142at\u0119. Potrzeba wam tylko cierpliwo\u015bci, aby\u015bcie, spe\u0142niaj\u0105c wol\u0119 Bo\u017c\u0105, dost\u0105pili obietnicy. Bo ju\u017c za niewielk\u0105 chwil\u0119 przyjdzie, kt\u00f3ry ma przyj\u015b\u0107, i nie b\u0119dzie zwleka\u0142. A sprawiedliwy m\u00f3j z wiary \u017cyje.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 33:18-19*\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.\nV. Bliski jest Pan dla skruszonych w sercu i wybawia z\u0142amanych na duchu. Alleluja, alleluja.\nV. Ciebie, Panie, wielbi \u015bwietlany zast\u0119p M\u0119czennik\u00f3w. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 33:18-19*\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.\nV. Bliski jest Pan dla skruszonych w sercu i wybawia z\u0142amanych na duchu.\n*Ps 125:5-6*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew.\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 12:1-8*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abStrze\u017ccie si\u0119 kwasu faryzeusz\u00f3w, to jest ob\u0142udy. A nie masz nic ukrytego, co by nie mia\u0142o by\u0107 ujawnione, ani te\u017c tajemnego, o czym by si\u0119 dowiedzie\u0107 nie miano. Albowiem co m\u00f3wili\u015bcie w mroku, w \u015bwietle powiedziane b\u0119dzie, i co\u015bcie do ucha szeptali w komorach, na dachach og\u0142oszone b\u0119dzie.\nA powiadam Wam, przyjacio\u0142om moim: Nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, a potem nic wi\u0119cej uczyni\u0107 nie mog\u0105. Ale wska\u017c\u0119 wam, kogo si\u0119 l\u0119ka\u0107 macie: l\u0119kajcie si\u0119 Tego, kt\u00f3ry po \u015bmierci ma moc wrzuci\u0107 do piek\u0142a. Zaiste, m\u00f3wi\u0119 wam, tego si\u0119 l\u0119kajcie. Czy\u017c nie sprzedaje si\u0119 pi\u0119ciu wr\u00f3bli za dwa pieni\u0105\u017cki, a ani jeden z nich nie jest w zapomnieniu u Boga? Ale i w\u0142osy na g\u0142owie waszej wszystkie s\u0105 policzone. Nie l\u0119kajcie si\u0119 t\u0119dy, wi\u0119cej znaczycie przecie\u017c ni\u017c wiele wr\u00f3bli.\nA powiadam wam: Ktokolwiek wyzna\u0142by mi\u0119 przed lud\u017ami, i Syn Cz\u0142owieczy wyzna go przed Anio\u0142ami Bo\u017cymi\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Mdr 3:1-3*\nDusze sprawiedliwych s\u0105 w r\u0119ku Boga i nie dosi\u0119gnie ich m\u0119ka. Zda\u0142o si\u0119 oczom g\u0142upich, \u017ce pomarli, a oni trwaj\u0105 w pokoju. Alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Wys\u0142uchaj, Panie, pro\u015bby nasze, kt\u00f3re zanosimy czcz\u0105c pami\u0119\u0107 Twych \u015awi\u0119tych, a skoro nie ufamy w\u0142asnej sprawiedliwo\u015bci, niech nas wspieraj\u0105 zas\u0142ugi tych, kt\u00f3rzy Tobie si\u0119 podobali.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 10:27*\nCo wam m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle \u2013 m\u00f3wi Pan \u2013 i co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Nasyceni zbawiennym Sakramentem prosimy Ci\u0119, Panie, aby wspiera\u0142y nas mod\u0142y tych, kt\u00f3rych uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

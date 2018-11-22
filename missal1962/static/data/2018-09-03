@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-09-03", 
+    "description": "J\u00f3zef Sarto urodzi\u0142 si\u0119 w Riese ko\u0142o Wenecji w 1835 roku jako drugie z dziesi\u0119ciorga dzieci wiejskiego listonosza. Uko\u0144czywszy chlubnie studia teologiczne by\u0142 kolejno wikarym, proboszczem ojcem duchownym seminarium, biskupem Mantui, wreszcie kardyna\u0142em i patriarch\u0105 Wenecji. W roku 1903 zosta\u0142 wybrany papie\u017cem. Jako pasterz ca\u0142ego Ko\u015bcio\u0142a odrodzi\u0142 \u017cycie eucharystyczne, wydaj\u0105c dekrety o cz\u0119stej Komunii \u015bwi\u0119tej i wczesnej Komunii dzieci. Zapocz\u0105tkowa\u0142 odrodzenie liturgii przez reform\u0119 kalendarza ko\u015bcielnego, brewiarza i \u015bpiewu. Odnowi\u0142 studia biblijne i skodyfikowa\u0142 prawo ko\u015bcielne. Energicznie zwalcza\u0142 b\u0142\u0119dy modernizmu. Przez ca\u0142e \u017cycie odznacza\u0142 si\u0119 pokor\u0105, \u0142agodno\u015bci\u0105, mi\u0142osierdziem dla biednych i umi\u0142owaniem ub\u00f3stwa. Zmar\u0142 20 sierpnia 1914 roku.", 
+    "tempora": "Poniedzia\u0142ek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Piusa X, Papie\u017ca i Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 88:20-22*\nExtuli electum de populo, oleo sancto meo unxi eum: ut manus mea sit semper cum eo, et bracchium meum confirm et eum.\n*Ps. 88:2*\nGratias Domini in seternum cantabo: per omnes generationes annuntiabo fidelitatem tuam ore meo.\nGl\u00f3ria Patri.\nExtuli electum de populo, oleo sancto meo unxi eum: ut manus mea sit semper cum eo, et bracchium meum confirm et eum.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui ad tu\u00e9ndam cath\u00f3licam fidem, et univ\u00e9rsa in Christo instaur\u00e1nda sanctum Pium, Summum Pont\u00edficem, c\u00e6l\u00e9sti sapi\u00e9ntia et apost\u00f3lica fortit\u00fadine replev\u00edsti: conc\u00e9de prop\u00edtius; ut, ejus instit\u00fata et ex\u00e9mpla sect\u00e1ntes, praemia consequ\u00e1mur \u00e6t\u00e9rna.\nPer e\u00fandem.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "Lectio prima Sancti Pauli apostoli ad Thessalonicesnses\n*1 Thess 2:2-8*\nFratres: Fiduciam habuimus in Deo nostro, loqui ad vos Evangelium Dei in multa sollicitudine. Exhortatio enim nostra non de errore, neque de immunditia, neque in dolo, sed sicut probati sumus a Deo ut crederetur nobis Evangelium: ita loquimur non quasi hominibus placentes, sed Deo, qui probat corda nostra. Neque enim aliquando fuimus in sermone adulationis, sicut scitis: neque in occasione avaritiae: Deus testis est: nec quaerentes ab hominibus gloriam, neque a vobis, neque ab aliis. Cum possemus vobis oneri esse ut Christi apostoli: sed facti sumus parvuli in medio vestrum, tamquam si nutrix foveat filios suos. Ita desiderantes vos, cupide volebamus tradere vobis non solum Evangelium Dei, sed etiam animas nostras: quoniam carissimi nobis facti estis.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 39:10-11*\nAnnuntiavi justitiam tuam in coetu magno; ecce labia mea non cohibui: Domine, tu nosti.\nV. Justitiam tuam non abscondi in corde meo; fidelitatem tuam et auxilium tuum narravi. Alleluia, alleluia.\n*Ps 22:5-6*\nParas mihi mensam, inungis oleo caput meum, calix meus uberrimus est. Alleluia.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 131:16-18*\nSacerdotes ejus induam salute, et sancti ejus exsultantes exsultabunt.\nV. Illic David suscitabo cornu, parabo lucernam uncto meo.\nV. Inimicos ejus induam confusione, super ipsum autem fulgebit diadema meum.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequentia Sancti evangelii secundum Joannem\n*Joannes 21:15-17*\nIn illo tempore, dicit Jesus Simoni Petro: Simon Joannis, diligis me plus his? Dicit ei: Etiam Domine, tu scis quia amo te. Dicit ei: Pasce agnos meos. Dicit ei iterum: Simon Joannis, diligis me? Ait illi: Etiam Domine, tu scis quia amo te. Dicit ei: Pasce agnos meos. Dicit ei tertio: Simon Joannis, amas me? Contristatus est Petrus, quia dixit ei tertio: Amas me? et dixit ei: Domine, tu omnia nosti, tu scis quia amo te. Dixit ei: Pasce oves meas.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 33:12*\nVenite, filii; audite me: timorem Domini docebo vos.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Oblationibus nostris, qu\u01fdsumus, Domine, benigne susceptis, da nobis, ut haec divina mysteria, sancto Pio Summo Pontifice intercedente, sinceris tractemus obsequiis et fideli mente sumamus.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 6:56-57*\nCaro enim mea vere est cibus: et sanguis meus, vere est potus; qui manducat meam carnem et bibit meum sanguinem, in me manet, et ego in illo.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Mensae caelestis virtute refecti, qu\u01fdsumus, Domine Deus noster: ut, interveniente sancto Pio Summo Pontifice; fortes efficiamur in fide, et in tua simus caritate Concordes\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 88:20-22*\nWynios\u0142em wybra\u0144ca z ludu, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by moja r\u0119ka zawsze z nim by\u0142a, i rami\u0119 moje go umacnia\u0142o.\n*Ps 88:2*\nNa wieki b\u0119d\u0119 opiewa\u0142 \u0142aski Pana, ustami mymi b\u0119d\u0119 zwiastowa\u0142 Tw\u0105 wierno\u015b\u0107 przez wszystkie pokolenia.\nChwa\u0142a Ojcu.\nWynios\u0142em wybra\u0144ca z ludu, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by moja r\u0119ka zawsze z nim by\u0142a, i rami\u0119 moje go umacnia\u0142o.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "*Tekst kolekty nawi\u0105zuje do dewizy \u015bw. Piusa X: \u00abOdnowi\u0107 wszystko w Chrystusie\u00bb.*\nBo\u017ce, kt\u00f3ry dla obrony wiary katolickiej i odnowienia wszystkiego w Chrystusie nape\u0142ni\u0142e\u015b \u015bwi\u0119tego Piusa, Papie\u017ca, niebiesk\u0105 m\u0105dro\u015bci\u0105 i apostolsk\u0105 moc\u0105, spraw \u0142askawie, aby\u015bmy id\u0105c za jego wskazaniami i przyk\u0142adem osi\u0105gn\u0119li wieczn\u0105 nagrod\u0119.\nPrzez tego\u017c Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tesaloniczan.\n*1 Tes 2:2-8*\nBracia: Zaufawszy Bogu naszemu g\u0142osili\u015bmy wam Ewangeli\u0119 z wielk\u0105 troskliwo\u015bci\u0105. A upominanie nasze nie wyp\u0142ywa\u0142o z b\u0142\u0119du, nieczystej pobudki albo podst\u0119pu, lecz jako byli\u015bmy przez Boga uznani za godnych, aby nam zwierzona by\u0142a Ewangelia, tak te\u017c i przepowiadamy, aby si\u0119 nie ludziom podoba\u0107, ale Bogu, kt\u00f3ry bada serca nasze. Nigdy bowiem nie m\u00f3wili\u015bmy s\u0142owami pochlebnymi, jako wiecie, ani\u015bmy te\u017c powodowali si\u0119 chciwo\u015bci\u0105, jak tego \u015bwiadkiem jest B\u00f3g. Nie szukali\u015bmy r\u00f3wnie\u017c chwa\u0142y u ludzi, ani u was, ani u innych. I mog\u0105c, jako aposto\u0142owie, by\u0107 wam ci\u0119\u017carem, stali\u015bmy si\u0119 raczej maluczkimi po\u015br\u00f3d was, jako \u017cywicielka tul\u0105ca dzieci swoje. Tak was umi\u0142owali\u015bmy, \u017ce pragn\u0119li\u015bmy gor\u0105co da\u0107 wam nie tylko Ewangeli\u0119 Bo\u017c\u0105, ale odda\u0107 nawet i \u017cycie nasze, bo stali\u015bcie si\u0119 dla nas najdro\u017cszymi. Wszak pami\u0119tacie, bracia, prac\u0119 nasz\u0105 i trud.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 39:10-11*\nTw\u0105 sprawiedliwo\u015b\u0107 g\u0142osi\u0142em w wielkim zgromadzeniu, oto nie pow\u015bci\u0105ga\u0142em warg moich, Ty wiesz, o Panie.\nV. Sprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em; wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc. Alleluia, alleluia.\n*Ps 22:5-6*\nSt\u00f3\u0142 dla mnie zastawiasz, olejkiem mi g\u0142ow\u0119 namaszczasz; m\u00f3j kielich jest przeobfity. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 106:32; 106:31*\nNiechaj Go s\u0142awi\u0105 ludy w zgromadzeniu, i na zebraniu starc\u00f3w niechaj Go chwal\u0105.\nV. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za jego cuda dla syn\u00f3w cz\u0142owieczych.\n*Ps 39:10-11*\nTw\u0105 sprawiedliwo\u015b\u0107 g\u0142osi\u0142em w wielkim zgromadzeniu, oto nie pow\u015bci\u0105ga\u0142em warg moich, Ty wiesz, o Panie.\nV. Sprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em; wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc.\nV. Nie zatai\u0142em Twej \u0142aski ani Twej wierno\u015bci przed wielkim zgromadzeniem.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 21:15-17*\nOnego czasu: Rzek\u0142 Jezus do Szymona Piotra: \u00abSzymonie, synu Jana! Mi\u0142ujesz mnie wi\u0119cej ni\u017c ci?\u00bb Rzecze mu: \u00abTak, Panie, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu \u00abPa\u015b baranki moje\u00bb. Rzecze mu powt\u00f3rnie: \u00abSzymonie, synu Jana, mi\u0142ujesz mnie?\u00bb M\u00f3wi Mu: \u00abTak, Panie, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu: \u00abPa\u015b baranki moje\u00bb. Rzecze mu po raz trzeci: \u00abSzymonie, synu Jana, mi\u0142ujesz mnie?\u00bb Zasmuci\u0142 si\u0119 Piotr, \u017ce mu po raz trzeci rzek\u0142: Mi\u0142ujesz mnie? i powiedzia\u0142 do Niego: \u00abPanie, Ty wszystko wiesz, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu: \u00abPa\u015b owce moje\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 33:12*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie: naucz\u0119 was Pa\u0144skiej boja\u017ani.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyj\u0105wszy \u0142askawie nasze ofiary, daj nam, prosimy Ci\u0119, Panie, aby\u015bmy za wstawiennictwem \u015bw. Piusa, Papie\u017ca, sprawowali te boskie misteria ze szczer\u0105 uleg\u0142o\u015bci\u0105, i wiernym sercem przyjmowali.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 6:56-57*\nCia\u0142o moje prawdziwie jest pokarmem, a Krew moja prawdziwie jest napojem. Kto po\u017cywa moje Cia\u0142o i pije moj\u0105 Krew, we mnie mieszka, a ja w nim.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Pokrzepieni moc\u0105 uczty niebieskiej prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tego Piusa, Papie\u017ca, stali si\u0119 mocni w wierze i zgodni byli w Twojej mi\u0142o\u015bci.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

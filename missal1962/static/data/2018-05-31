@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "1 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-05-31", 
+    "description": "Rocznica ustanowienia Naj\u015bwi\u0119tszego Sakramentu, Wielki Czwartek, zbyt bliski jest m\u0119ki i \u015bmierci Chrystusa, aby mo\u017cna by\u0142o odda\u0107 si\u0119 niezm\u0105conej rado\u015bci. Dlatego w pierwszy czwartek po zako\u0144czeniu okresu Wielkanocnego zosta\u0142o ustanowione specjalne \u015bwi\u0119to, kt\u00f3re- go celem jest okazanie wdzi\u0119czno\u015bci Bogu za ustanowienie Naj\u015bwi\u0119tszego Sakramentu i za wszystkie \u0142aski, kt\u00f3re nieustannie sp\u0142ywaj\u0105 z niego na Ko\u015bci\u00f3\u0142. Do ustanowienia \u015bwi\u0119ta Bo\u017cego Cia\u0142a przyczyni\u0142y si\u0119 pro\u015bby \u015bw. Julianny z Cornillon (zm. 1258). Na ca\u0142y Ko\u015bci\u00f3\u0142 rozci\u0105gn\u0105\u0142 je papie\u017c Urban IV. Procesj\u0119 dodano dopiero w XV wieku.Teksty mszalne przypominaj\u0105 nam, \u017ce Eucharystia jest przede wszystkim ofiar\u0105 uobecniaj\u0105c\u0105 krzy\u017cow\u0105 \u015bmier\u0107 Pana Jezusa oraz pokarmem dusz podtrzymuj\u0105cym nas w drodze do wiecznej ojczyzny. Eucharystia jest r\u00f3wnie\u017c najg\u0142\u0119bszym wyrazem jedno\u015bci Ko\u015bcio\u0142a. Kto godzi w jedno\u015b\u0107 Ko\u015bcio\u0142a, ur\u0105ga Eucharystii.", 
+    "tempora": null, 
+    "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 80:17.*\nCib\u00e1vit eos ex \u00e1dipe frum\u00e9nti, allel\u00faja: et de petra, melle satur\u00e1vit eos, allel\u00faja, allel\u00faja, allel\u00faja.\n*Ps 80:2*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob.\nGl\u00f3ria Patri.\nCib\u00e1vit eos ex \u00e1dipe frum\u00e9nti, allel\u00faja: et de petra, melle satur\u00e1vit eos, allel\u00faja, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui nobis sub Sacram\u00e9nto mir\u00e1bili passi\u00f3nis tu\u00e6 mem\u00f3riam reliqu\u00edsti: tr\u00edbue, qu\u01fdsumus, ita nos C\u00f3rporis et S\u00e1nguinis tui sacra myst\u00e9ria vener\u00e1ri; ut redempti\u00f3nis tu\u00e6 fructum in nobis j\u00fagiter senti\u00e1mus:\nQui vivis.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Epistol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios\n*1 Cor 11:23-29*\nFratres: Ego enim acc\u00e9pi a D\u00f3mino quod et tr\u00e1didi vobis, qu\u00f3niam D\u00f3minus Jesus, in qua nocte tradeb\u00e1tur, acc\u00e9pit panem, et gr\u00e1tias agens fregit, et dixit: Acc\u00edpite, et manduc\u00e1te: hoc est corpus meum, quod pro vobis trad\u00e9tur: hoc f\u00e1cite in meam commemorati\u00f3nem. Sim\u00edliter ei c\u00e1licem, postquam cen\u00e1vit, dicens: Hic calix novum Testam\u00e9ntum est in meo s\u00e1nguine. Hoc f\u00e1cite, quotiesc\u00famque bib\u00e9tis, in meam commemorati\u00f3nem. Quotiesc\u00famque enim manduc\u00e1bitis panem hunc et c\u00e1licem bib\u00e9tis, mortem D\u00f3mini annunti\u00e1bitis, donec v\u00e9niat. Itaque quic\u00famque manduc\u00e1verit panem hunc vel b\u00edberit c\u00e1licem D\u00f3mini ind\u00edgne, reus erit c\u00f3rporis et s\u00e1nguinis D\u00f3mini. Probet autem se\u00edpsum homo: et sic de pane illo edat et de calice bibat. Qui enim m\u00e1nducat et bibit ind\u00edgne, jud\u00edcium sibi m\u00e1nducat et bibit: non dij\u00fadicans corpus D\u00f3mini.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 144:15-16*\nOculi \u00f3mnium in te sperant, D\u00f3mine: et tu das illis escam in t\u00e9mpore opport\u00fano,\nV. Aperis tu manum tuam: et imples omne animal benedicti\u00f3ne. Allel\u00faja, allel\u00faja,\n*Joannes 6:56-57*\nCaro mea vere est cibus, et sanguis meus vere est potus: qui mand\u00facat meam carnem et bibit meum s\u00e1nguinem, in me manet et ego in eo. Alleluia.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Thom\u00e6 de Aquino. (infra octavam ad libitum Celebrantis omitti potest, juxta Rubricas.)*\nLauda, Sion, Salvat\u00f3rem,\nlauda ducem et past\u00f3rem\nin hymnis et c\u00e1nticis.\n\nQuantum potes, tantum aude:\nquia major omni laude,\nnec laud\u00e1re s\u00fafficis.\n\nLaudis thema speci\u00e1lis,\npanis vivus et vit\u00e1lis\nh\u00f3die prop\u00f3nitur.\n\nQuem in sacr\u00e6 mensa cen\u00e6\nturb\u00e6 fratrum duod\u00e9n\u00e6\ndatum non amb\u00edgitur.\n\nSit laus plena, sit son\u00f3ra,\nsit juc\u00fanda, sit dec\u00f3ra\nmentis jubil\u00e1tio.\n\nDies enim soll\u00e9mnis agitur,\nin qua mens\u00e6 prima rec\u00f3litur\nhujus instit\u00fatio.\n\nIn hac mensa novi Regis,\nnovum Pascha nov\u00e6 legis\nPhase vetus t\u00e9rminat.\n\nVetust\u00e1tem n\u00f3vitas,\numbram fugat v\u00e9ritas,\nnoctem lux el\u00edminat.\n\nQuod in coena Christus gessit,\nfaci\u00e9ndum hoc expr\u00e9ssit\nin sui mem\u00f3riam.\n\nDocti sacris instit\u00fatis,\npanem, vinum in sal\u00fatis\nconsecr\u00e1mus h\u00f3stiam.\n\nDogma datur Christi\u00e1nis,\nquod in carnem transit panis\net vinum in s\u00e1nguinem.\n\nQuod non capis, quod non vides,\nanimosa f\u00edrmat fides,\npr\u00e6ter rerum \u00f3rdinem.\n\nSub div\u00e9rsis speci\u00e9bus,\nsignis tantum, et non rebus,\nlatent res ex\u00edmi\u00e6.\n\nCaro cibus, sanguis potus:\nmanet tamen Christus totus\nsub utr\u00e1que sp\u00e9cie.\n\nA sum\u00e9nte non conc\u00edsus,\nnon confr\u00e1ctus, non div\u00edsus:\n\u00ednteger acc\u00edpitur.\n\nSumit unus, sumunt mille:\nquantum isti, tantum ille:\nnec sumptus cons\u00famitur.\n\nSumunt boni, sumunt mali\nsorte tamen in\u00e6qu\u00e1li,\nvit\u00e6 vel int\u00e9ritus.\n\nMors est malis, vita bonis:\nvide, paris sumpti\u00f3nis\nquam sit dispar \u00e9xitus.\n\nFracto demum sacram\u00e9nto,\nne vac\u00edlles, sed mem\u00e9nto,\ntantum esse sub fragm\u00e9nto,\nquantum toto t\u00e9gitur.\n\nNulla rei fit sciss\u00fara:\nsigni tantum fit fract\u00fara:\nqua nec status nec stat\u00fara\nsign\u00e1ti min\u00faitur.\n\nEcce panis Angel\u00f3rum,\nfactus cibus viat\u00f3rum:\nvere panis fili\u00f3rum,\nnon mitt\u00e9ndus c\u00e1nibus.\n\nIn fig\u00faris pr\u00e6sign\u00e1tur,\ncum Isaac immol\u00e1tur:\nagnus pasch\u00e6 deput\u00e1tur:\ndatur manna p\u00e1tribus.\n\nBone pastor, panis vere,\nJesu, nostri miser\u00e9re:\ntu nos pasce, nos tu\u00e9re:\ntu nos bona fac vid\u00e9re\nin terra viv\u00e9ntium.\n\nTu, qui cuncta scis et vales:\nqui nos pascis hic mort\u00e1les:\ntuos ibi commens\u00e1les,\ncoher\u00e9des et sod\u00e1les\nfac sanct\u00f3rum c\u00edvium.\nAmen. Allel\u00faja.", 
+      "id": "Sequentia", 
+      "label": "Sequentia"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia sancti Evang\u00e9li sec\u00fandum Jo\u00e1nnem.\n*Joann 6:56-59*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Caro mea vere est cibus et sanguis meus vere est potus. Qui mand\u00facat meam carnem et bibit meum s\u00e1nguinem, in me manet et ego in illo. Sicut misit me vivens Pater, et ego vivo propter Patrem: et qui mand\u00facat me, et ipse vivet propter me. Hic est panis, qui de coelo desc\u00e9ndit. Non sicut manducav\u00e9runt patres vestri manna, et m\u00f3rtui sunt. Qui manducat hunc panem, vivet in \u00e6t\u00e9rnum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Levit 21:6*\nSacerd\u00f3tes D\u00f3mini inc\u00e9nsum et panes \u00f3fferunt Deo: et ideo sancti erunt Deo suo, et non p\u00f3lluent nomen ejus, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Eccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, unit\u00e1tis et pacis prop\u00edtius dona conc\u00e9de: qu\u00e6 sub obl\u00e1tis mun\u00e9ribus m\u00fdstice design\u00e1ntur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*1 Cor 11:26-27*\nQuotiesc\u00famque manduc\u00e1bitis panem hunc et c\u00e1licem bib\u00e9tis, mortem D\u00f3mini annunti\u00e1bitis, donec v\u00e9niat: itaque quic\u00famque manduc\u00e1verit panem vel b\u00edberit calicem D\u00f3mini ind\u00edgne, reus erit c\u00f3rporis et s\u00e1nguinis D\u00f3mini, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Fac nos, qu\u01fdsumus, D\u00f3mine, divinit\u00e1tis tu\u00e6 sempit\u00e9rna fruiti\u00f3ne repl\u00e9ri: quam preti\u00f3si Corporis et Sanguinis tui temporalis perc\u00e9ptio pr\u00e6fig\u00farat:\nQui vivis.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 80:17*\nNakarmi\u0142 ich pszenic\u0105 przewyborn\u0105, alleluja. A z opoki miodem nasyci\u0142 ich, alleluja, alleluja, alleluja.\n*Ps 80:2*\n\u015apiewajcie z rado\u015bci\u0105 Bogu, mocy naszej, wzno\u015bcie okrzyki Bogu Jakuba.\nChwa\u0142a Ojcu.\nNakarmi\u0142 ich pszenic\u0105 przewyborn\u0105, alleluja. A z opoki miodem nasyci\u0142 ich, alleluja, alleluja, alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry w przedziwnym Sakramencie zostawi\u0142e\u015b nam pami\u0105tk\u0119 Swej m\u0119ki, dozw\u00f3l, prosimy, tak\u0105 czci\u0105 otacza\u0107 \u015bwi\u0119te tajemnice Cia\u0142a i Krwi Twojej, aby\u015bmy nieustannie doznawali w sobie owoc\u00f3w Twojego Odkupienia:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 11:23-29*\n*\u015aw. Pawe\u0142 zapewnia nas, \u017ce udzia\u0142 we Mszy \u015bwi\u0119tej jest \u00abzwiastowaniem \u015bmierci Pa\u0144skiej\u00bb.*\nBracia: Ja bowiem otrzyma\u0142em od Pana co te\u017c wam poda\u0142em, \u017ce Pan Jezus tej nocy, w kt\u00f3rej by\u0142 wydany, wzi\u0105\u0142 chleb i dzi\u0119ki uczyniwszy \u0142ama\u0142 i rzek\u0142 \u00abBierzcie i jedzcie, to jest cia\u0142o moje, kt\u00f3re za was b\u0119dzie wydane: to czy\u0144cie ma moj\u0105 pami\u0105tk\u0119\u00bb. Tak\u017ce i kielich, po wieczerzy, m\u00f3wi\u0105c: \u00abTen kielich jest Nowym Testamentem we krwi mojej. To czy\u0144cie, ilekro\u0107 pi\u0107 b\u0119dziecie, na pami\u0105tk\u0119 moj\u0105\u00bb. Ilekro\u0107 bowiem ten chleb po\u017cywa\u0107, a kielich pi\u0107 b\u0119dziecie, \u015bmier\u0107 Pa\u0144sk\u0105 b\u0119dziecie zwiastowa\u0107, a\u017c przyb\u0119dzie. Tak wi\u0119c ktokolwiek by po\u017cywa\u0142 ten chleb albo pi\u0142 kielich Pa\u0144ski niegodnie, winien b\u0119dzie cia\u0142a i krwi Pa\u0144skiej. Niechaj\u017ce tedy do\u015bwiadcza cz\u0142owiek samego siebie, a tak niechaj po\u017cywa chleba tego i z kiclicha pije. Kto bowiem po\u017cywa i pije niegodnie, pot\u0119pienie dla siebie po\u017cywa i pije, nie bacz\u0105c na cia\u0142o Pa\u0144skie.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 144:15-16*\nOczy wszystkich w Tobie, Panie, pok\u0142adaj\u0105 nadziej\u0119, a Ty im dajesz pokarm we w\u0142a\u015bciwym czasie.\nV. Ty otwierasz sw\u0105 r\u0119k\u0119 i wszystko, co \u017cyje, \u017cyczliwie nasycasz. Alleluja, alleluja.\n*J 6:56-57*\nCia\u0142o moje prawdziwe jest pokarmem, a Krew moja prawdziwie jest napojem. Kto po\u017cywa Cia\u0142o moje i pije Krew moj\u0105, we Mnie mieszka, a ja w nim. Alelluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Zbawiciela chwal, Syjonie,\nW hymn\u00f3w i kantyk\u00f3w tonie,\nWodza i pasterza.\n\nZ ca\u0142ej duszy chwal Go \u015bmia\u0142o,\nGdy\u017c przewy\u017csza wszystko chwa\u0142\u0105\nI co pie\u015b\u0144 zamierza.\n\nPrzedmiot chwa\u0142y dzi\u015b przedziwny,\nChleb \u017cyj\u0105cy i po\u017cywny\nB\u0119dzie opiewany,\n\nCo przy \u015bwi\u0119tej uczty stole\nBy\u0142 w dwunastu uczni\u00f3w kole\nNajprawdziwiej dany.\n\nNiech pie\u015b\u0144 jasna i dono\u015bna,\nPe\u0142na wdzi\u0119ku i radosna\nCieszy nas pospo\u0142u,\n\nGdy\u017c obchodzim dzie\u0144 \u015bwi\u0105teczny,\nBy w pami\u0119ci wa\u017cy\u0107 wieczny\nPrawz\u00f3r tego sto\u0142u.\n\nUczt\u0105 t\u0105 Kr\u00f3l nowy dawa\nNowej Paschy nowe prawa\nI dawna usta\u0142a.\n\nPrzed nowo\u015bci\u0105 przesz\u0142o\u015b\u0107 znika,\nCie\u0144 od prawdy precz umyka,\n\u015awiat\u0142o\u015b\u0107 noc wygna\u0142a.\n\nCo Pan czyni\u0142 przy wieczerzy,\nRzek\u0142, \u017ce czyni\u0107 nam nale\u017cy\nDla Jego wspomnienia.\n\nPouczani t\u0105 godzin\u0105,\nPrzemieniamy chleb i wino\nW ofiar\u0119 zbawienia.\n\nJest pewno\u015bci naszej ska\u0142a,\n\u017be si\u0119 chleb przemienia w Cia\u0142o,\nWino Krwi\u0105 si\u0119 staje,\n\nChocia\u017c my\u015bl i wzrok nie pojmie,\nWiara naszych dusz r\u0119kojmi\u0105,\nWbrew jawie nam daje.\n\nPod r\u00f3\u017cnymi postaciami,\nZewn\u0119trznymi pozorami,\nSkryty cud ogromny.\n\nCia\u0142o straw\u0105, Krew napojem,\nLecz Pan ca\u0142y z b\u00f3stwem swoim,\nW obu jest przytomny.\n\nPrzez bior\u0105cych nie kruszony,\nNie \u0142amany, nie dzielony,\nCa\u0142y w nich si\u0119 mie\u015bci.\n\nBierze jeden, tysi\u0105c bierze,\nTen i \u00f3w w jednakiej mierze,\nNic nie ginie z tre\u015bci.\n\nBior\u0105 dobrzy i grzeszniki,\nLecz nier\u00f3wne s\u0105 wyniki,\n\u017bycie lub zag\u0142ada.\n\nDla z\u0142ych \u015bmier\u0107, dla dobrych \u017cycie;\nCho\u0107 jednakie jest spo\u017cycie,\nJak r\u00f3\u017cny los pada.\n\nHostii \u015bwi\u0119tej okruszyna\nNiech ci wiernie przypomina,\n\u017be to samo odrobina,\nCo ca\u0142o\u015b\u0107 ukrywa.\n\nNic nie dzieli si\u0119 w przedmiocie,\nTylko znak si\u0119 kruszy w krocie,\nLecz nie w stanie i istocie\nPana nie ubywa.\n\nOto boski chleb anio\u0142\u00f3w,\nDla pielgrzym\u00f3w w\u015br\u00f3d pado\u0142\u00f3w,\nDla synowskich jeno sto\u0142\u00f3w;\nPsom nie rzuca\u0107 chleba.\n\nStare mie\u015bci go przymierze:\nIzaak dany w ofierze,\nJagni\u0119 \u2013 na paschy wieczerz\u0119,\nManna \u2013 ojcom z nieba.\n\nO pasterzu, chlebie \u017cywy,\nJezu, b\u0105d\u017a nam lito\u015bciwy,\nNakarm nas i nie gub m\u015bciwy,\nDaj nam ujrze\u0107 b\u0142ogie dziwy\nW \u017cyj\u0105cych krainie.\n\nZnawco naszych dusz tajnik\u00f3w,\nCo nas \u017cywisz, \u015bmiertelnik\u00f3w,\nUczy\u0144 nas wsp\u00f3\u0142biesiadnik\u00f3w,\nWsp\u00f3\u0142dziedzic\u00f3w i wsp\u00f3lnik\u00f3w\nW wybranych rodzinie.\nAmen. Alleluja.", 
+      "id": "Sequentia", 
+      "label": "Sekwencja"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 6:56-59*\nOnego czasu: Rzek\u0142 Jezus rzeszom \u017cydowskim: \u00abCia\u0142o moje prawdziwie jest pokarmem, a krew moja prawdziwie jest napojem. Kto po\u017cywa moje cia\u0142o i pije moj\u0105 krew, we mnie mieszka, a ja w nim. Jako mi\u0119 pos\u0142a\u0142 \u017cyj\u0105cy Ojciec \u2013 i ja \u017cyj\u0119 dla Ojca, a kto po\u017cywa mnie, i on \u017cy\u0107 b\u0119dzie dla mnie. To jest chleb, kt\u00f3ry zst\u0105pi\u0142 z nieba. Nie jako ojcowie wasi spo\u017cywali mann\u0119 i pomarli. Kto po\u017cywa tego chleba, \u017cy\u0107 b\u0119dzie na wieki\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Kp\u0142 21:6*\nKap\u0142ani Pa\u0144scy kadzenie i chleb sk\u0142adaj\u0105 Bogu w ofierze, przeto \u015bwi\u0119tymi by\u0107 powinni wobec Boga swego, by nie zha\u0144bili Jego Imienia, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ciebie, Panie, u\u017cycz \u0142askawie Ko\u015bcio\u0142owi Twemu dar\u00f3w jedno\u015bci i pokoju, kt\u00f3re mistycznie wyra\u017ca ofiara przez nas sk\u0142adana.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*1 Kor 11:26-27*\nIlekro\u0107 ten chleb po\u017cywa\u0107, a kielich pi\u0107 b\u0119dziecie, \u015bmier\u0107 Pa\u0144sk\u0105 b\u0119dziecie zwiastowa\u0107, a\u017c przyb\u0119dzie. Tak wi\u0119c ktokolwiek by po\u017cywa\u0142 ten chleb albo pi\u0142 kielich Pa\u0144ski niegodnie, winien b\u0119dzie cia\u0142a i krwi Pa\u0144skiej, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Spraw, prosimy Ci\u0119 Panie, aby w wieczno\u015bci nape\u0142nia\u0142a nas rado\u015b\u0107 z posiadania B\u00f3stwa Twojego, co wyobra\u017ca ju\u017c doczesne spo\u017cycie przenaj\u015bwi\u0119tszego Cia\u0142a i Krwi Twojej.\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

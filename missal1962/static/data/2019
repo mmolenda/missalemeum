@@ -1,0 +1,6203 @@
+{
+  "2019-01-01": {
+    "celebration": [
+      {
+        "id": "sancti:01-01:1", 
+        "rank": 1, 
+        "title": "Oktawa Bo\u017cego Narodzenia"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-02": {
+    "celebration": [
+      {
+        "id": "tempora:Nat2-0:2", 
+        "rank": 2, 
+        "title": "Naj\u015bwi\u0119tszego Imienia Jezus"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-03": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-04": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-05": {
+    "celebration": [
+      {
+        "id": "tempora:C10b:4", 
+        "rank": 4, 
+        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-06": {
+    "celebration": [
+      {
+        "id": "sancti:01-06:1", 
+        "rank": 1, 
+        "title": "Objawienie Pa\u0144skie"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-07": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-08": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-09": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-10": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-11": {
+    "celebration": [], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-12": {
+    "celebration": [
+      {
+        "id": "tempora:C10b:4", 
+        "rank": 4, 
+        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-01-13": {
+    "celebration": [
+      {
+        "id": "tempora:Epi1-0:2", 
+        "rank": 2, 
+        "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-0:2", 
+        "rank": 2, 
+        "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa."
+      }
+    ]
+  }, 
+  "2019-01-14": {
+    "celebration": [
+      {
+        "id": "sancti:01-14:3", 
+        "rank": 3, 
+        "title": "\u015aw. Hilarego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-15": {
+    "celebration": [
+      {
+        "id": "sancti:01-15:3", 
+        "rank": 3, 
+        "title": "\u015aw. Paw\u0142a, Pierwszego Pustelnika, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-16": {
+    "celebration": [
+      {
+        "id": "sancti:01-16:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marcelego I, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-17": {
+    "celebration": [
+      {
+        "id": "sancti:01-17:3", 
+        "rank": 3, 
+        "title": "\u015aw. Antoniego, Opata"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-18": {
+    "celebration": [
+      {
+        "id": "sancti:01-18r:4", 
+        "rank": 4, 
+        "title": "\u015aw. Pryski, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-19": {
+    "celebration": [
+      {
+        "id": "tempora:C10b:4", 
+        "rank": 4, 
+        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:01-19:4", 
+        "rank": 4, 
+        "title": "\u015a\u015a. Mariusza, Marty, Audifaksa i Abachuma"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Epi1-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 1 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-20": {
+    "celebration": [
+      {
+        "id": "tempora:Epi2-0:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Objawieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-0:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-21": {
+    "celebration": [
+      {
+        "id": "sancti:01-21:3", 
+        "rank": 3, 
+        "title": "\u015aw. Agnieszki, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-22": {
+    "celebration": [
+      {
+        "id": "sancti:01-22:3", 
+        "rank": 3, 
+        "title": "\u015a\u015a. Wincentego i Anastazego, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-23": {
+    "celebration": [
+      {
+        "id": "sancti:01-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Rajmunda z Pennafort, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-24": {
+    "celebration": [
+      {
+        "id": "sancti:01-24:3", 
+        "rank": 3, 
+        "title": "\u015aw. Tymoteusza, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-25": {
+    "celebration": [
+      {
+        "id": "sancti:01-25r:3", 
+        "rank": 3, 
+        "title": "Nawr\u00f3cenie \u015bw. Paw\u0142a, Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-26": {
+    "celebration": [
+      {
+        "id": "sancti:01-26:3", 
+        "rank": 3, 
+        "title": "\u015aw. Polikarpa, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi2-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 2 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-27": {
+    "celebration": [
+      {
+        "id": "tempora:Epi3-0:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Objawieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-0:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-28": {
+    "celebration": [
+      {
+        "id": "sancti:01-28:3", 
+        "rank": 3, 
+        "title": "\u015aw. Piotra Nolasco, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-29": {
+    "celebration": [
+      {
+        "id": "sancti:01-29:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszka Salezego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-30": {
+    "celebration": [
+      {
+        "id": "sancti:01-30:3", 
+        "rank": 3, 
+        "title": "\u015aw. Martyny, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-01-31": {
+    "celebration": [
+      {
+        "id": "sancti:01-31:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Bosco, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-01": {
+    "celebration": [
+      {
+        "id": "sancti:02-01:3", 
+        "rank": 3, 
+        "title": "\u015aw. Ignacego, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-02": {
+    "celebration": [
+      {
+        "id": "sancti:02-02:2", 
+        "rank": 2, 
+        "title": "Oczyszczenie N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi3-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 3 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-03": {
+    "celebration": [
+      {
+        "id": "tempora:Epi4-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Objawieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-04": {
+    "celebration": [
+      {
+        "id": "sancti:02-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Andrzeja Corsini, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-05": {
+    "celebration": [
+      {
+        "id": "sancti:02-05:3", 
+        "rank": 3, 
+        "title": "\u015aw. Agaty, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-06": {
+    "celebration": [
+      {
+        "id": "sancti:02-06:3", 
+        "rank": 3, 
+        "title": "\u015aw. Tytusa, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-07": {
+    "celebration": [
+      {
+        "id": "sancti:02-07:3", 
+        "rank": 3, 
+        "title": "\u015aw. Romualda, Opata"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-08": {
+    "celebration": [
+      {
+        "id": "sancti:02-08:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana z Maty, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-09": {
+    "celebration": [
+      {
+        "id": "sancti:02-09:3", 
+        "rank": 3, 
+        "title": "\u015aw. Cyryla Aleksandryjskiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi4-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 4 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-10": {
+    "celebration": [
+      {
+        "id": "tempora:Epi5-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Objawieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-11": {
+    "celebration": [
+      {
+        "id": "sancti:02-11:3", 
+        "rank": 3, 
+        "title": "Objawienie si\u0119 N. M. P. Niepokalanie Pocz\u0119tej w Lourdes"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-12": {
+    "celebration": [
+      {
+        "id": "sancti:02-12:3", 
+        "rank": 3, 
+        "title": "Siedmiu Za\u0142o\u017cycieli Zakonu Serwit\u00f3w N. M. P., Wyznawc\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-13": {
+    "celebration": [
+      {
+        "id": "tempora:Epi5-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 5 Niedzieli po Objawieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-14": {
+    "celebration": [
+      {
+        "id": "sancti:02-14:4", 
+        "rank": 4, 
+        "title": "\u015aw. Walentego, Kap\u0142ana i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-15": {
+    "celebration": [
+      {
+        "id": "sancti:02-15:4", 
+        "rank": 4, 
+        "title": "\u015a\u015b. Faustyna i Jowity, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-16": {
+    "celebration": [
+      {
+        "id": "tempora:C10c:4", 
+        "rank": 4, 
+        "title": "3 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Epi5-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 5 Niedzieli po Objawieniu"
+      }
+    ]
+  }, 
+  "2019-02-17": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp1-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Siedemdziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-18": {
+    "celebration": [
+      {
+        "id": "sancti:02-18:4", 
+        "rank": 4, 
+        "title": "\u015aw. Symeona, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-19": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp1-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-20": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp1-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-21": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp1-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-22": {
+    "celebration": [
+      {
+        "id": "sancti:02-22:2", 
+        "rank": 2, 
+        "title": "Katedry \u015bw. Piotra Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-23": {
+    "celebration": [
+      {
+        "id": "sancti:02-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Piotra Damiana, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp1-6:4", 
+        "rank": 4, 
+        "title": "Sobota po Niedzieli Siedemdziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-24": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp2-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:02-24:2", 
+        "rank": 2, 
+        "title": "\u015aw. Macieja Aposto\u0142a"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-25": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp2-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-26": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp2-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-27": {
+    "celebration": [
+      {
+        "id": "sancti:02-27:3", 
+        "rank": 3, 
+        "title": "\u015aw. Gabriela od Matki Bo\u017cej Bolesnej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-02-28": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp2-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-01": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp2-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-02": {
+    "celebration": [
+      {
+        "id": "tempora:C10c:4", 
+        "rank": 4, 
+        "title": "3 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp2-6:4", 
+        "rank": 4, 
+        "title": "Sobota po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-03": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp3-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Pi\u0119\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-0:2", 
+        "rank": 2, 
+        "title": "Niedziela Pi\u0119\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-04": {
+    "celebration": [
+      {
+        "id": "sancti:03-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Kazimierza, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-05": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp3-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+      }
+    ]
+  }, 
+  "2019-03-06": {
+    "celebration": [
+      {
+        "id": "tempora:Quadp3-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Popielcowa"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Popielcowa"
+      }
+    ]
+  }, 
+  "2019-03-07": {
+    "celebration": [
+      {
+        "id": "sancti:03-07:3", 
+        "rank": 3, 
+        "title": "\u015aw. Tomasza z Akwinu, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po Popielcu"
+      }
+    ]
+  }, 
+  "2019-03-08": {
+    "celebration": [
+      {
+        "id": "sancti:03-08:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Bo\u017cego, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po Popielcu"
+      }
+    ]
+  }, 
+  "2019-03-09": {
+    "celebration": [
+      {
+        "id": "sancti:03-09:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszki Rzymianki, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quadp3-6:3", 
+        "rank": 3, 
+        "title": "Sobota po Popielcu"
+      }
+    ]
+  }, 
+  "2019-03-10": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-11": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 1 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 1 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-12": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 1 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-12:3", 
+        "rank": 3, 
+        "title": "\u015aw. Grzegorza Wielkiego, Papie\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 1 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-13": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-14": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 1 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 1 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-15": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-15pl:3", 
+        "rank": 3, 
+        "title": "\u015aw. Klemensa Marii Dworzaka (Hofbauera)"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-16": {
+    "celebration": [
+      {
+        "id": "tempora:Quad1-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad1-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-17": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-0:1", 
+        "rank": 1, 
+        "title": "2 Niedziela Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-0:1", 
+        "rank": 1, 
+        "title": "2 Niedziela Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-18": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-18:3", 
+        "rank": 3, 
+        "title": "\u015aw. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-19": {
+    "celebration": [
+      {
+        "id": "sancti:03-19:1", 
+        "rank": 1, 
+        "title": "\u015aw. J\u00f3zefa, Oblubie\u0144ca N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-20": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-21": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 2 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-21:3", 
+        "rank": 3, 
+        "title": "\u015aw. Benedykta, Opata"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-22": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-23": {
+    "celebration": [
+      {
+        "id": "tempora:Quad2-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 2 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad2-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 2 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-24": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-0:1", 
+        "rank": 1, 
+        "title": "3 Niedziela Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-0:1", 
+        "rank": 1, 
+        "title": "3 Niedziela Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-25": {
+    "celebration": [
+      {
+        "id": "sancti:03-25:1", 
+        "rank": 1, 
+        "title": "Zwiastowanie N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-26": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 3 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-27": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 3 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-27:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Damasce\u0144skiego, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-28": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 3 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:03-28:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Kapistrana, Wyznawcy"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-29": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 3 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-30": {
+    "celebration": [
+      {
+        "id": "tempora:Quad3-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 3 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad3-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 3 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-03-31": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-0:1", 
+        "rank": 1, 
+        "title": "4 Niedziela Wielkiego Postu (Niedziela Laetare)"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-0:1", 
+        "rank": 1, 
+        "title": "4 Niedziela Wielkiego Postu (Niedziela Laetare)"
+      }
+    ]
+  }, 
+  "2019-04-01": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-02": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-03": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-04": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-05": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-06": {
+    "celebration": [
+      {
+        "id": "tempora:Quad4-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 4 Niedzieli Wielkiego Postu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad4-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 4 Niedzieli Wielkiego Postu"
+      }
+    ]
+  }, 
+  "2019-04-07": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-08": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-09": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-10": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-11": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:04-11:3", 
+        "rank": 3, 
+        "title": "\u015aw. Leona Wielkiego, Papie\u017ca, Wyznawcy i Dokotra Ko\u015bcio\u0142a"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-12": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-5Feria:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-5Feria:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-13": {
+    "celebration": [
+      {
+        "id": "tempora:Quad5-6:3", 
+        "rank": 3, 
+        "title": "Sobota po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:04-13:3", 
+        "rank": 3, 
+        "title": "\u015aw. Hermenegilda, M\u0119czennika"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Quad5-6:3", 
+        "rank": 3, 
+        "title": "Sobota po Niedzieli M\u0119ki Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-14": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-0r:1", 
+        "rank": 1, 
+        "title": "2 Niedziela M\u0119ki Pa\u0144skiej czyli Niedziela Palmowa"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-0r:1", 
+        "rank": 1, 
+        "title": "2 Niedziela M\u0119ki Pa\u0144skiej czyli Niedziela Palmowa"
+      }
+    ]
+  }, 
+  "2019-04-15": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-1:1", 
+        "rank": 1, 
+        "title": "Wielki Poniedzia\u0142ek"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-1:1", 
+        "rank": 1, 
+        "title": "Wielki Poniedzia\u0142ek"
+      }
+    ]
+  }, 
+  "2019-04-16": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-2:1", 
+        "rank": 1, 
+        "title": "Wielki Wtorek"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-2:1", 
+        "rank": 1, 
+        "title": "Wielki Wtorek"
+      }
+    ]
+  }, 
+  "2019-04-17": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-3:1", 
+        "rank": 1, 
+        "title": "Wielka \u015aroda"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-3:1", 
+        "rank": 1, 
+        "title": "Wielka \u015aroda"
+      }
+    ]
+  }, 
+  "2019-04-18": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-4r:1", 
+        "rank": 1, 
+        "title": "Wielki Czwartek Wieczerzy Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-4r:1", 
+        "rank": 1, 
+        "title": "Wielki Czwartek Wieczerzy Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-19": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-5r:1", 
+        "rank": 1, 
+        "title": "Wielki Pi\u0105tek M\u0119ki i \u015amierci Pa\u0144skiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-5r:1", 
+        "rank": 1, 
+        "title": "Wielki Pi\u0105tek M\u0119ki i \u015amierci Pa\u0144skiej"
+      }
+    ]
+  }, 
+  "2019-04-20": {
+    "celebration": [
+      {
+        "id": "tempora:Quad6-6r:1", 
+        "rank": 1, 
+        "title": "Niedziela Zmartwychwstania Pa\u0144skiego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Quad6-6r:1", 
+        "rank": 1, 
+        "title": "Niedziela Zmartwychwstania Pa\u0144skiego"
+      }
+    ]
+  }, 
+  "2019-04-21": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-0:1", 
+        "rank": 1, 
+        "title": "Msza w Dzie\u0144 Zmartwychwstania Pa\u0144skiego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-0:1", 
+        "rank": 1, 
+        "title": "Msza w Dzie\u0144 Zmartwychwstania Pa\u0144skiego"
+      }
+    ]
+  }, 
+  "2019-04-22": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-1:1", 
+        "rank": 1, 
+        "title": "Poniedzia\u0142ek Wielkanocny"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-1:1", 
+        "rank": 1, 
+        "title": "Poniedzia\u0142ek Wielkanocny"
+      }
+    ]
+  }, 
+  "2019-04-23": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-2:1", 
+        "rank": 1, 
+        "title": "Wtorek Wielkanocny"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-2:1", 
+        "rank": 1, 
+        "title": "Wtorek Wielkanocny"
+      }
+    ]
+  }, 
+  "2019-04-24": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Wielkanocna"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Wielkanocna"
+      }
+    ]
+  }, 
+  "2019-04-25": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-4:1", 
+        "rank": 1, 
+        "title": "Czwartek Wielkanocny"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-4:1", 
+        "rank": 1, 
+        "title": "Czwartek Wielkanocny"
+      }
+    ]
+  }, 
+  "2019-04-26": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-5:1", 
+        "rank": 1, 
+        "title": "Pi\u0105tek Wielkanocny"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-5:1", 
+        "rank": 1, 
+        "title": "Pi\u0105tek Wielkanocny"
+      }
+    ]
+  }, 
+  "2019-04-27": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc0-6:1", 
+        "rank": 1, 
+        "title": "Sobota Bia\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc0-6:1", 
+        "rank": 1, 
+        "title": "Sobota Bia\u0142a"
+      }
+    ]
+  }, 
+  "2019-04-28": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc1-0:1", 
+        "rank": 1, 
+        "title": "Niedziela Bia\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-0:1", 
+        "rank": 1, 
+        "title": "Niedziela Bia\u0142a"
+      }
+    ]
+  }, 
+  "2019-04-29": {
+    "celebration": [
+      {
+        "id": "sancti:04-23pl:1", 
+        "rank": 1, 
+        "title": "\u015aw. Wojciecha, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-04-30": {
+    "celebration": [
+      {
+        "id": "sancti:04-30:3", 
+        "rank": 3, 
+        "title": "\u015aw. Katarzyny Siene\u0144skiej, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-05-01": {
+    "celebration": [
+      {
+        "id": "sancti:05-01r:1", 
+        "rank": 1, 
+        "title": "\u015aw. J\u00f3zefa Robotnika, Oblubie\u0144ca N. M. P"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-05-02": {
+    "celebration": [
+      {
+        "id": "sancti:05-02:3", 
+        "rank": 3, 
+        "title": "\u015aw. Atanazego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-05-03": {
+    "celebration": [
+      {
+        "id": "sancti:05-03pl:1", 
+        "rank": 1, 
+        "title": "N. M. P., Kr\u00f3lowej Polski, G\u0142\u00f3wnej Patronki Polski"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-05-04": {
+    "celebration": [
+      {
+        "id": "sancti:05-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Moniki, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc1-6:4", 
+        "rank": 4, 
+        "title": "Sobota po Niedzieli Bia\u0142ej"
+      }
+    ]
+  }, 
+  "2019-05-05": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc2-0:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-0:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-06": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc2-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-07": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc2-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 2 Niedzieli po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-08": {
+    "celebration": [
+      {
+        "id": "sancti:05-08pl:1", 
+        "rank": 1, 
+        "title": "\u015aw. Stanis\u0142awa, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-3Feria:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-09": {
+    "celebration": [
+      {
+        "id": "sancti:05-09:3", 
+        "rank": 3, 
+        "title": "\u015aw. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-4Feria:4", 
+        "rank": 4, 
+        "title": "Czwartek po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-10": {
+    "celebration": [
+      {
+        "id": "sancti:05-10:3", 
+        "rank": 3, 
+        "title": "\u015aw. Antonina, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-5Feria:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-11": {
+    "celebration": [
+      {
+        "id": "sancti:05-11r:2", 
+        "rank": 2, 
+        "title": "\u015awi\u0119tych Filipa i Jakuba, Aposto\u0142\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc2-6Feria:4", 
+        "rank": 4, 
+        "title": "Sobota po 2 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-12": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc3-0r:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-0r:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-13": {
+    "celebration": [
+      {
+        "id": "sancti:05-13:3", 
+        "rank": 3, 
+        "title": "\u015aw. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-1Feria:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-14": {
+    "celebration": [
+      {
+        "id": "sancti:05-14:4", 
+        "rank": 4, 
+        "title": "\u015aw. Bonifacego, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-2Feria:4", 
+        "rank": 4, 
+        "title": "Wtorek po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-15": {
+    "celebration": [
+      {
+        "id": "sancti:05-15:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Chrzciciela de la Salle, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-3Feria:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-16": {
+    "celebration": [
+      {
+        "id": "sancti:05-16pl:3", 
+        "rank": 3, 
+        "title": "\u015aw. Andrzeja Boboli, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-17": {
+    "celebration": [
+      {
+        "id": "sancti:05-17:3", 
+        "rank": 3, 
+        "title": "\u015aw. Paschalisa Baylon, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-18": {
+    "celebration": [
+      {
+        "id": "sancti:05-18:3", 
+        "rank": 3, 
+        "title": "\u015aw. Wenancjusza, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc3-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 3 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-19": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc4-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-20": {
+    "celebration": [
+      {
+        "id": "sancti:05-20:3", 
+        "rank": 3, 
+        "title": "\u015aw. Bernardyna ze Sieny, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-21": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc4-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 4 Niedzieli po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-22": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc4-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 4 Niedzieli po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-23": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc4-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 4 Niedzieli po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-24": {
+    "celebration": [
+      {
+        "id": "sancti:05-24pl:2", 
+        "rank": 2, 
+        "title": "N. M. P. Wspomo\u017cycielki Wiernych"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-25": {
+    "celebration": [
+      {
+        "id": "sancti:05-25:3", 
+        "rank": 3, 
+        "title": "\u015aw. Grzegorza VII, Papie\u017ca i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc4-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 4 Niedzieli po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-26": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc5-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Wielkanocy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Wielkanocy"
+      }
+    ]
+  }, 
+  "2019-05-27": {
+    "celebration": [
+      {
+        "id": "sancti:05-27:3", 
+        "rank": 3, 
+        "title": "\u015aw. Bedy Czcigodnego, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-1:4", 
+        "rank": 4, 
+        "title": "Litanie mniejsze"
+      }
+    ]
+  }, 
+  "2019-05-28": {
+    "celebration": [
+      {
+        "id": "sancti:05-28:3", 
+        "rank": 3, 
+        "title": "\u015aw. Augustyna z Canterbury, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-2:4", 
+        "rank": 4, 
+        "title": "Litanie mniejsze 2 ??"
+      }
+    ]
+  }, 
+  "2019-05-29": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc5-3:2", 
+        "rank": 2, 
+        "title": "Wigilia Wniebowst\u0105pienia Pa\u0144skiego"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:05-29:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marii Magdaleny Pazzi, Dziewicy"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-3:2", 
+        "rank": 2, 
+        "title": "Wigilia Wniebowst\u0105pienia Pa\u0144skiego"
+      }
+    ]
+  }, 
+  "2019-05-30": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc5-4:1", 
+        "rank": 1, 
+        "title": "Wniebowst\u0105pienie Pa\u0144skie"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-4:1", 
+        "rank": 1, 
+        "title": "Wniebowst\u0105pienie Pa\u0144skie"
+      }
+    ]
+  }, 
+  "2019-05-31": {
+    "celebration": [
+      {
+        "id": "sancti:05-31:2", 
+        "rank": 2, 
+        "title": "N. M. P. Kr\u00f3lowej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-01": {
+    "celebration": [
+      {
+        "id": "sancti:06-01pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Jakuba Strzemi\u0119, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc5-6:4", 
+        "rank": 4, 
+        "title": "Sobota po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-02": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc6-0:2", 
+        "rank": 2, 
+        "title": "Niedziela po Wniebowst\u0105pieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-0:2", 
+        "rank": 2, 
+        "title": "Niedziela po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-03": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc6-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-04": {
+    "celebration": [
+      {
+        "id": "sancti:06-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszka Caracciolo, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-05": {
+    "celebration": [
+      {
+        "id": "sancti:06-05:3", 
+        "rank": 3, 
+        "title": "\u015aw. Bonifacego, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-06": {
+    "celebration": [
+      {
+        "id": "sancti:06-06:3", 
+        "rank": 3, 
+        "title": "\u015aw. Norberta, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-4r:4", 
+        "rank": 4, 
+        "title": "Czwartek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-07": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc6-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli po Wniebowst\u0105pieniu"
+      }
+    ]
+  }, 
+  "2019-06-08": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc6-6:1", 
+        "rank": 1, 
+        "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc6-6:1", 
+        "rank": 1, 
+        "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-09": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-0:1", 
+        "rank": 1, 
+        "title": "Niedziela Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-0:1", 
+        "rank": 1, 
+        "title": "Niedziela Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-10": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-1:1", 
+        "rank": 1, 
+        "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-1:1", 
+        "rank": 1, 
+        "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-11": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-2:1", 
+        "rank": 1, 
+        "title": "Wtorek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-2:1", 
+        "rank": 1, 
+        "title": "Wtorek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-12": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-3:1", 
+        "rank": 1, 
+        "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-13": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-4:1", 
+        "rank": 1, 
+        "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-4:1", 
+        "rank": 1, 
+        "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-14": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-5:1", 
+        "rank": 1, 
+        "title": "Pi\u0105tek Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-5:1", 
+        "rank": 1, 
+        "title": "Pi\u0105tek Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-15": {
+    "celebration": [
+      {
+        "id": "tempora:Pasc7-6:1", 
+        "rank": 1, 
+        "title": "Sobota Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pasc7-6:1", 
+        "rank": 1, 
+        "title": "Sobota Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-16": {
+    "celebration": [
+      {
+        "id": "tempora:Pent01-0r:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Tr\u00f3jcy Przenaj\u015bwi\u0119tszej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-0r:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Tr\u00f3jcy Przenaj\u015bwi\u0119tszej"
+      }
+    ]
+  }, 
+  "2019-06-17": {
+    "celebration": [
+      {
+        "id": "sancti:06-17r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Grzegorza Barbarigo, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-18": {
+    "celebration": [
+      {
+        "id": "sancti:06-18:3", 
+        "rank": 3, 
+        "title": "\u015aw. Efrema, Diakona, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-19": {
+    "celebration": [
+      {
+        "id": "sancti:06-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. Juliany Falconieri, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-20": {
+    "celebration": [
+      {
+        "id": "tempora:Pent01-4:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-4:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+      }
+    ]
+  }, 
+  "2019-06-21": {
+    "celebration": [
+      {
+        "id": "sancti:06-21:3", 
+        "rank": 3, 
+        "title": "\u015aw. Alojzego Gonzagi, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-22": {
+    "celebration": [
+      {
+        "id": "sancti:06-22:3", 
+        "rank": 3, 
+        "title": "\u015aw. Paulina, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent01-6:4", 
+        "rank": 4, 
+        "title": "Sobota po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-23": {
+    "celebration": [
+      {
+        "id": "tempora:Pent02-0r:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:06-23:2", 
+        "rank": 2, 
+        "title": "Wigilia Narodzenia \u015aw. Jana Chrzciciela"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-0r:2", 
+        "rank": 2, 
+        "title": "2 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-24": {
+    "celebration": [
+      {
+        "id": "sancti:06-24:1", 
+        "rank": 1, 
+        "title": "Narodzenie \u015aw. Jana Chrzciciela"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-25": {
+    "celebration": [
+      {
+        "id": "sancti:06-25:3", 
+        "rank": 3, 
+        "title": "\u015aw. Wilhelma, Opata"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-26": {
+    "celebration": [
+      {
+        "id": "sancti:06-26r:3", 
+        "rank": 3, 
+        "title": "\u015a\u015b. Jana i Paw\u0142a, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-27": {
+    "celebration": [
+      {
+        "id": "tempora:Pent02-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-28": {
+    "celebration": [
+      {
+        "id": "tempora:Pent02-5:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Naj\u015bwi\u0119tszego Serca Pana Jezusa"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-5:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Naj\u015bwi\u0119tszego Serca Pana Jezusa"
+      }
+    ]
+  }, 
+  "2019-06-29": {
+    "celebration": [
+      {
+        "id": "sancti:06-29:1", 
+        "rank": 1, 
+        "title": "\u015awi\u0119tych Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent02-6Feria:4", 
+        "rank": 4, 
+        "title": "Sobota po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-06-30": {
+    "celebration": [
+      {
+        "id": "tempora:Pent03-0r:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-0r:2", 
+        "rank": 2, 
+        "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-01": {
+    "celebration": [
+      {
+        "id": "sancti:07-01:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Najdro\u017cszej Krwi Pana Naszego Jezusa Chrystusa"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-1Feria:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-02": {
+    "celebration": [
+      {
+        "id": "sancti:07-02:2", 
+        "rank": 2, 
+        "title": "Nawiedzenia N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-2Feria:4", 
+        "rank": 4, 
+        "title": "Wtorek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-03": {
+    "celebration": [
+      {
+        "id": "sancti:07-03r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Ireneusza, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-3Feria:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-04": {
+    "celebration": [
+      {
+        "id": "tempora:Pent03-4Feria:4", 
+        "rank": 4, 
+        "title": "Czwartek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-4Feria:4", 
+        "rank": 4, 
+        "title": "Czwartek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-05": {
+    "celebration": [
+      {
+        "id": "sancti:07-05:3", 
+        "rank": 3, 
+        "title": "\u015aw. Antoniego Marii Zaccaria, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-5Feria:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-06": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent03-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-07": {
+    "celebration": [
+      {
+        "id": "tempora:Pent04-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-0:2", 
+        "rank": 2, 
+        "title": "4 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-08": {
+    "celebration": [
+      {
+        "id": "sancti:07-08:3", 
+        "rank": 3, 
+        "title": "\u015aw. El\u017cbiety, Kr\u00f3lowej i Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-09": {
+    "celebration": [
+      {
+        "id": "tempora:Pent04-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-10": {
+    "celebration": [
+      {
+        "id": "sancti:07-10:3", 
+        "rank": 3, 
+        "title": "Siedmiu Braci M\u0119czennik\u00f3w oraz \u015a\u015b. Rufiny i Sekundy, Dziewic i M\u0119czennic"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-11": {
+    "celebration": [
+      {
+        "id": "sancti:07-11:4", 
+        "rank": 4, 
+        "title": "\u015aw. Piusa I, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-12": {
+    "celebration": [
+      {
+        "id": "sancti:07-12:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Gwalberta, Opata"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-13": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent04-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-14": {
+    "celebration": [
+      {
+        "id": "tempora:Pent05-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-0:2", 
+        "rank": 2, 
+        "title": "5 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-15": {
+    "celebration": [
+      {
+        "id": "sancti:07-15:3", 
+        "rank": 3, 
+        "title": "\u015aw. Henryka, Cesarza i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-16": {
+    "celebration": [
+      {
+        "id": "sancti:07-16:4", 
+        "rank": 4, 
+        "title": "Wspomnienie N. M. P. z G\u00f3ry Karmelu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-17": {
+    "celebration": [
+      {
+        "id": "sancti:07-17:4", 
+        "rank": 4, 
+        "title": "\u015aw. Aleksego, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-18": {
+    "celebration": [
+      {
+        "id": "sancti:07-18pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Szymona z Lipnicy, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-19": {
+    "celebration": [
+      {
+        "id": "sancti:07-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. Wincentego a Paulo, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-20": {
+    "celebration": [
+      {
+        "id": "sancti:07-20pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Czes\u0142awa, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent05-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-21": {
+    "celebration": [
+      {
+        "id": "tempora:Pent06-0:2", 
+        "rank": 2, 
+        "title": "6 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-0:2", 
+        "rank": 2, 
+        "title": "6 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-22": {
+    "celebration": [
+      {
+        "id": "sancti:07-22:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marii Magdaleny, Pokutnicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-23": {
+    "celebration": [
+      {
+        "id": "sancti:07-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Apolinarego, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-24": {
+    "celebration": [
+      {
+        "id": "sancti:07-24pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Kingi, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-25": {
+    "celebration": [
+      {
+        "id": "sancti:07-25:2", 
+        "rank": 2, 
+        "title": "\u015aw. Jakuba, Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-26": {
+    "celebration": [
+      {
+        "id": "sancti:07-26:2", 
+        "rank": 2, 
+        "title": "\u015aw. Anny, Matki N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-27": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:07-27:4", 
+        "rank": 4, 
+        "title": "\u015aw. Pantaleona, M\u0119czennika"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pent06-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-28": {
+    "celebration": [
+      {
+        "id": "tempora:Pent07-0:2", 
+        "rank": 2, 
+        "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-0:2", 
+        "rank": 2, 
+        "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-29": {
+    "celebration": [
+      {
+        "id": "sancti:07-29:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marty, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-30": {
+    "celebration": [
+      {
+        "id": "sancti:07-30:4", 
+        "rank": 4, 
+        "title": "\u015a\u015b. Abdona i Sennena, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-07-31": {
+    "celebration": [
+      {
+        "id": "sancti:07-31:3", 
+        "rank": 3, 
+        "title": "\u015aw. Ignacego Loyoli, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-01": {
+    "celebration": [
+      {
+        "id": "sancti:08-01r:4", 
+        "rank": 4, 
+        "title": "Siedmiu Braci Machabejskich, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-02": {
+    "celebration": [
+      {
+        "id": "sancti:08-02:3", 
+        "rank": 3, 
+        "title": "\u015aw. Alfonsa Marii Liguori, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-03": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent07-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-04": {
+    "celebration": [
+      {
+        "id": "tempora:Pent08-0:2", 
+        "rank": 2, 
+        "title": "8 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-0:2", 
+        "rank": 2, 
+        "title": "8 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-05": {
+    "celebration": [
+      {
+        "id": "sancti:08-05:3", 
+        "rank": 3, 
+        "title": "Rocznica Konsekracji N. M. P. \u015anie\u017cnej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-06": {
+    "celebration": [
+      {
+        "id": "sancti:08-06:2", 
+        "rank": 2, 
+        "title": "Przemienienie Pa\u0144skie"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-07": {
+    "celebration": [
+      {
+        "id": "sancti:08-07:3", 
+        "rank": 3, 
+        "title": "\u015aw. Kajetana, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-08": {
+    "celebration": [
+      {
+        "id": "sancti:08-08r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Marii Vianney, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-09": {
+    "celebration": [
+      {
+        "id": "sancti:08-09t:3", 
+        "rank": 3, 
+        "title": "Wigilia \u015bw. Wawrzy\u0144ca, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-10": {
+    "celebration": [
+      {
+        "id": "sancti:08-10:2", 
+        "rank": 2, 
+        "title": "\u015aw. Wawrzy\u0144ca"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent08-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-11": {
+    "celebration": [
+      {
+        "id": "tempora:Pent09-0:2", 
+        "rank": 2, 
+        "title": "9 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-0:2", 
+        "rank": 2, 
+        "title": "9 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-12": {
+    "celebration": [
+      {
+        "id": "sancti:08-12:3", 
+        "rank": 3, 
+        "title": "\u015aw. Klary, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-13": {
+    "celebration": [
+      {
+        "id": "sancti:08-13:4", 
+        "rank": 4, 
+        "title": "\u015a\u015b. Hipolita i Kasjana, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-14": {
+    "celebration": [
+      {
+        "id": "sancti:08-14:2", 
+        "rank": 2, 
+        "title": "Wigilia Wniebowzi\u0119cia N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-15": {
+    "celebration": [
+      {
+        "id": "sancti:08-15r:1", 
+        "rank": 1, 
+        "title": "Wniebowzi\u0119cie N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-16": {
+    "celebration": [
+      {
+        "id": "sancti:08-16:2", 
+        "rank": 2, 
+        "title": "\u015aw. Joachima, Ojca N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-17": {
+    "celebration": [
+      {
+        "id": "sancti:08-17:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jacka, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent09-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-18": {
+    "celebration": [
+      {
+        "id": "tempora:Pent10-0:2", 
+        "rank": 2, 
+        "title": "10 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-0:2", 
+        "rank": 2, 
+        "title": "10 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-19": {
+    "celebration": [
+      {
+        "id": "sancti:08-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Eudes, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-20": {
+    "celebration": [
+      {
+        "id": "sancti:08-20:3", 
+        "rank": 3, 
+        "title": "\u015aw. Bernarda, Opata i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-21": {
+    "celebration": [
+      {
+        "id": "sancti:08-21:3", 
+        "rank": 3, 
+        "title": "\u015aw. Joanny Franciszki Fr\u00e9miot de Chantal, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-22": {
+    "celebration": [
+      {
+        "id": "sancti:08-22r:2", 
+        "rank": 2, 
+        "title": "Uroczysto\u015b\u0107 Niepokalanego Serca N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-23": {
+    "celebration": [
+      {
+        "id": "sancti:08-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Filipa Benicjusza, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-24": {
+    "celebration": [
+      {
+        "id": "sancti:08-24:2", 
+        "rank": 2, 
+        "title": "\u015aw. Bart\u0142omieja, Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent10-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-25": {
+    "celebration": [
+      {
+        "id": "tempora:Pent11-0:2", 
+        "rank": 2, 
+        "title": "11 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-0:2", 
+        "rank": 2, 
+        "title": "11 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-26": {
+    "celebration": [
+      {
+        "id": "sancti:08-26pl:1", 
+        "rank": 1, 
+        "title": "N. M. P. Jasnog\u00f3rskiej czyli Cz\u0119stochowskiej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-27": {
+    "celebration": [
+      {
+        "id": "sancti:08-27:3", 
+        "rank": 3, 
+        "title": "\u015aw. J\u00f3zefa Kalasantego, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-28": {
+    "celebration": [
+      {
+        "id": "sancti:08-28:3", 
+        "rank": 3, 
+        "title": "\u015aw. Augustyna, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-29": {
+    "celebration": [
+      {
+        "id": "sancti:08-29:3", 
+        "rank": 3, 
+        "title": "\u015aci\u0119cie \u015aw. Jana Chrzciciela"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-30": {
+    "celebration": [
+      {
+        "id": "sancti:08-30:3", 
+        "rank": 3, 
+        "title": "\u015aw. R\u00f3\u017cy z Limy, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-08-31": {
+    "celebration": [
+      {
+        "id": "sancti:08-31:3", 
+        "rank": 3, 
+        "title": "\u015aw. Rajmunda Nonnata, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent11-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-01": {
+    "celebration": [
+      {
+        "id": "tempora:Pent12-0:2", 
+        "rank": 2, 
+        "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-0:2", 
+        "rank": 2, 
+        "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-02": {
+    "celebration": [
+      {
+        "id": "sancti:09-02:3", 
+        "rank": 3, 
+        "title": "\u015aw. Stefana, Kr\u00f3la i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-03": {
+    "celebration": [
+      {
+        "id": "sancti:09-03r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Piusa X, Papie\u017ca i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-04": {
+    "celebration": [
+      {
+        "id": "tempora:Pent12-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-05": {
+    "celebration": [
+      {
+        "id": "sancti:09-05:3", 
+        "rank": 3, 
+        "title": "\u015aw. Wawrzy\u0144ca Justiniani, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-06": {
+    "celebration": [
+      {
+        "id": "tempora:Pent12-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-07": {
+    "celebration": [
+      {
+        "id": "sancti:09-07pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Melchiora Grodzieckiego, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent12-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-08": {
+    "celebration": [
+      {
+        "id": "tempora:Pent13-0:2", 
+        "rank": 2, 
+        "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:09-08:2", 
+        "rank": 2, 
+        "title": "Narodzenie N. M. P."
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-0:2", 
+        "rank": 2, 
+        "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-09": {
+    "celebration": [
+      {
+        "id": "sancti:09-09:4", 
+        "rank": 4, 
+        "title": "\u015aw. Gorgoniusza, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-10": {
+    "celebration": [
+      {
+        "id": "sancti:09-10:3", 
+        "rank": 3, 
+        "title": "\u015aw. Miko\u0142aja z Tolentynu, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-11": {
+    "celebration": [
+      {
+        "id": "sancti:09-11:4", 
+        "rank": 4, 
+        "title": "\u015aw. Prota i Jacka, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-12": {
+    "celebration": [
+      {
+        "id": "sancti:09-12:3", 
+        "rank": 3, 
+        "title": "Naj\u015bwi\u0119tszego Imienia Maryi"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-13": {
+    "celebration": [
+      {
+        "id": "tempora:Pent13-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-14": {
+    "celebration": [
+      {
+        "id": "sancti:09-14:2", 
+        "rank": 2, 
+        "title": "Podwy\u017cszenia \u015awi\u0119tego Krzy\u017ca"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent13-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-15": {
+    "celebration": [
+      {
+        "id": "tempora:Pent14-0:2", 
+        "rank": 2, 
+        "title": "14 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:09-15:2", 
+        "rank": 2, 
+        "title": "Siedmiu Bole\u015bci N. M. P."
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pent14-0:2", 
+        "rank": 2, 
+        "title": "14 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-16": {
+    "celebration": [
+      {
+        "id": "sancti:09-16:3", 
+        "rank": 3, 
+        "title": "\u015aw. Korneliusza, Papie\u017ca i Cypriana, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent14-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-17": {
+    "celebration": [
+      {
+        "id": "sancti:09-17:4", 
+        "rank": 4, 
+        "title": "Stygmat\u00f3w \u015bw. Franciszka, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent14-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-18": {
+    "celebration": [
+      {
+        "id": "tempora:093-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:09-18r:3", 
+        "rank": 3, 
+        "title": "\u015aw. J\u00f3zefa z Kupertynu, Wyznawcy"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:093-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+      }
+    ]
+  }, 
+  "2019-09-19": {
+    "celebration": [
+      {
+        "id": "sancti:09-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. Januarego i Towarzyszy, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent14-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-20": {
+    "celebration": [
+      {
+        "id": "tempora:093-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:09-20:4", 
+        "rank": 4, 
+        "title": "\u015aw. Eustachego i Towarzyszy, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:093-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+      }
+    ]
+  }, 
+  "2019-09-21": {
+    "celebration": [
+      {
+        "id": "sancti:09-21:2", 
+        "rank": 2, 
+        "title": "\u015aw. Mateusza, Aposto\u0142a i Ewangelisty"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "tempora:093-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Wrze\u015bniowych"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:093-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Wrze\u015bniowych"
+      }
+    ]
+  }, 
+  "2019-09-22": {
+    "celebration": [
+      {
+        "id": "tempora:Pent15-0:2", 
+        "rank": 2, 
+        "title": "15 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-0:2", 
+        "rank": 2, 
+        "title": "15 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-23": {
+    "celebration": [
+      {
+        "id": "sancti:09-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Linusa, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-24": {
+    "celebration": [
+      {
+        "id": "sancti:09-24:4", 
+        "rank": 4, 
+        "title": "N. M. P. od Wykupu Je\u0144c\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-25": {
+    "celebration": [
+      {
+        "id": "sancti:09-25pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. W\u0142adys\u0142awa z Gielniowa, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-26": {
+    "celebration": [
+      {
+        "id": "sancti:09-26:4", 
+        "rank": 4, 
+        "title": "\u015a\u015b. Cypriana i Justyny, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-27": {
+    "celebration": [
+      {
+        "id": "sancti:09-27:3", 
+        "rank": 3, 
+        "title": "\u015aw. Kosmy i Damiana, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-28": {
+    "celebration": [
+      {
+        "id": "sancti:09-28:3", 
+        "rank": 3, 
+        "title": "\u015aw. Wac\u0142awa, Ksi\u0119cia i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent15-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-29": {
+    "celebration": [
+      {
+        "id": "sancti:09-29:1", 
+        "rank": 1, 
+        "title": "\u015awi\u0119tego Micha\u0142a Archanio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-0:2", 
+        "rank": 2, 
+        "title": "16 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-09-30": {
+    "celebration": [
+      {
+        "id": "sancti:09-30r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Hieronima, Kap\u0142ana, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-01": {
+    "celebration": [
+      {
+        "id": "sancti:10-01pl:3", 
+        "rank": 3, 
+        "title": "B\u0142. Jana z Dukli"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-02": {
+    "celebration": [
+      {
+        "id": "sancti:10-02:3", 
+        "rank": 3, 
+        "title": "\u015awi\u0119tych Anio\u0142\u00f3w Str\u00f3\u017c\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-03": {
+    "celebration": [
+      {
+        "id": "sancti:10-03:3", 
+        "rank": 3, 
+        "title": "\u015aw. Teresy od Dzieci\u0105tka Jezus, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-04": {
+    "celebration": [
+      {
+        "id": "sancti:10-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszka, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-05": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:10-05:4", 
+        "rank": 4, 
+        "title": "\u015a\u015b. Placyda i Towarzyszy, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Pent16-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-06": {
+    "celebration": [
+      {
+        "id": "tempora:Pent17-0:2", 
+        "rank": 2, 
+        "title": "17 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-0:2", 
+        "rank": 2, 
+        "title": "17 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-07": {
+    "celebration": [
+      {
+        "id": "sancti:10-07r:2", 
+        "rank": 2, 
+        "title": "N. M. P. R\u00f3\u017ca\u0144cowej"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-08": {
+    "celebration": [
+      {
+        "id": "sancti:10-08r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Brygidy, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-09": {
+    "celebration": [
+      {
+        "id": "sancti:10-09:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jana Leonardi, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-10": {
+    "celebration": [
+      {
+        "id": "sancti:10-10:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszka Borgiasza, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-11": {
+    "celebration": [
+      {
+        "id": "sancti:10-11:2", 
+        "rank": 2, 
+        "title": "Macierzy\u0144stwa N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-12": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent17-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-13": {
+    "celebration": [
+      {
+        "id": "tempora:Pent18-0:2", 
+        "rank": 2, 
+        "title": "18 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-0:2", 
+        "rank": 2, 
+        "title": "18 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-14": {
+    "celebration": [
+      {
+        "id": "sancti:10-14:3", 
+        "rank": 3, 
+        "title": "\u015aw. Kaliksta, papie\u017ca i m\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-15": {
+    "celebration": [
+      {
+        "id": "sancti:10-15:3", 
+        "rank": 3, 
+        "title": "\u015aw. Teresy z Avili, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-16": {
+    "celebration": [
+      {
+        "id": "sancti:10-16:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jadwigi, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-17": {
+    "celebration": [
+      {
+        "id": "sancti:10-17:3", 
+        "rank": 3, 
+        "title": "\u015aw. Ma\u0142gorzaty Marii Alacoque, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-18": {
+    "celebration": [
+      {
+        "id": "sancti:10-18:2", 
+        "rank": 2, 
+        "title": "\u015aw. \u0141ukasza, Ewangelisty"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-19": {
+    "celebration": [
+      {
+        "id": "sancti:10-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. Piotra z Alkantary, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent18-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-20": {
+    "celebration": [
+      {
+        "id": "tempora:Pent19-0:2", 
+        "rank": 2, 
+        "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-0:2", 
+        "rank": 2, 
+        "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-21": {
+    "celebration": [
+      {
+        "id": "sancti:10-21:3", 
+        "rank": 3, 
+        "title": "\u015aw. Urszuli i jej Towarzyszek, M\u0119czennic"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-22": {
+    "celebration": [
+      {
+        "id": "tempora:Pent19-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-23": {
+    "celebration": [
+      {
+        "id": "sancti:10-23r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Antoniego Marii Claret, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-24": {
+    "celebration": [
+      {
+        "id": "sancti:10-24:3", 
+        "rank": 3, 
+        "title": "\u015aw. Rafa\u0142a Archanio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-25": {
+    "celebration": [
+      {
+        "id": "sancti:10-25:4", 
+        "rank": 4, 
+        "title": "\u015a\u015a. Chryzanta i Darii, M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-26": {
+    "celebration": [
+      {
+        "id": "tempora:C10t:4", 
+        "rank": 4, 
+        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent19-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-27": {
+    "celebration": [
+      {
+        "id": "sancti:10-DUr:1", 
+        "rank": 1, 
+        "title": "Chrystusa Kr\u00f3la"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-0:2", 
+        "rank": 2, 
+        "title": "20 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-28": {
+    "celebration": [
+      {
+        "id": "sancti:10-28:2", 
+        "rank": 2, 
+        "title": "\u015awi\u0119tych Szymona i Judy Tadeusza, Aposto\u0142ow"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-29": {
+    "celebration": [
+      {
+        "id": "tempora:Pent20-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-30": {
+    "celebration": [
+      {
+        "id": "tempora:Pent20-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-10-31": {
+    "celebration": [
+      {
+        "id": "tempora:Pent20-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-01": {
+    "celebration": [
+      {
+        "id": "sancti:11-01:1", 
+        "rank": 1, 
+        "title": "Uroczysto\u015b\u0107 Wszystkich \u015awi\u0119tych"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-02": {
+    "celebration": [
+      {
+        "id": "sancti:11-02m1:1", 
+        "rank": 1, 
+        "title": "Dzie\u0144 Zaduszny \u2013 Pierwsza Msza"
+      }, 
+      {
+        "id": "sancti:11-02m2:1", 
+        "rank": 1, 
+        "title": "Dzie\u0144 Zaduszny \u2013 Druga Msza"
+      }, 
+      {
+        "id": "sancti:11-02m3:1", 
+        "rank": 1, 
+        "title": "Dzie\u0144 Zaduszny \u2013 Trzecia Msza"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent20-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-03": {
+    "celebration": [
+      {
+        "id": "tempora:Pent21-0:2", 
+        "rank": 2, 
+        "title": "21 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-0:2", 
+        "rank": 2, 
+        "title": "21 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-04": {
+    "celebration": [
+      {
+        "id": "sancti:11-04r:3", 
+        "rank": 3, 
+        "title": "\u015aw. Karola Boromeusza, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-05": {
+    "celebration": [
+      {
+        "id": "tempora:Pent21-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-06": {
+    "celebration": [
+      {
+        "id": "tempora:Pent21-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-07": {
+    "celebration": [
+      {
+        "id": "tempora:Pent21-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-08": {
+    "celebration": [
+      {
+        "id": "sancti:11-08r:4", 
+        "rank": 4, 
+        "title": "\u015awi\u0119tych Czterech Ukoronowanych M\u0119czennik\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-09": {
+    "celebration": [
+      {
+        "id": "sancti:11-09:2", 
+        "rank": 2, 
+        "title": "Rocznica Konsekracji Bazyliki Naj\u015bwi\u0119tszego Zbawiciela na Lateranie"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent21-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-10": {
+    "celebration": [
+      {
+        "id": "tempora:Pent22-0:2", 
+        "rank": 2, 
+        "title": "22 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-0:2", 
+        "rank": 2, 
+        "title": "22 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-11": {
+    "celebration": [
+      {
+        "id": "sancti:11-11:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marcina, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-12": {
+    "celebration": [
+      {
+        "id": "sancti:11-12:3", 
+        "rank": 3, 
+        "title": "\u015aw. Marcina I, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-13": {
+    "celebration": [
+      {
+        "id": "sancti:11-13pl:2", 
+        "rank": 2, 
+        "title": "\u015aw. Stanis\u0142awa Kostki, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-14": {
+    "celebration": [
+      {
+        "id": "sancti:11-14:3", 
+        "rank": 3, 
+        "title": "\u015aw. Jozafata, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-15": {
+    "celebration": [
+      {
+        "id": "sancti:11-15:3", 
+        "rank": 3, 
+        "title": "\u015aw. Alberta Wielkiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-16": {
+    "celebration": [
+      {
+        "id": "sancti:11-16:3", 
+        "rank": 3, 
+        "title": "\u015aw. Gertrudy, Dziewicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent22-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-17": {
+    "celebration": [
+      {
+        "id": "tempora:Pent23-0:2", 
+        "rank": 2, 
+        "title": "23 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-0:2", 
+        "rank": 2, 
+        "title": "23 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-18": {
+    "celebration": [
+      {
+        "id": "sancti:11-18r:3", 
+        "rank": 3, 
+        "title": "Rocznica Konsekracji Bazylik \u015awi\u0119tych Aposto\u0142\u00f3w Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-19": {
+    "celebration": [
+      {
+        "id": "sancti:11-19:3", 
+        "rank": 3, 
+        "title": "\u015aw. El\u017cbiety, Wdowy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-20": {
+    "celebration": [
+      {
+        "id": "sancti:11-20:3", 
+        "rank": 3, 
+        "title": "\u015aw. Feliksa Walezego, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-21": {
+    "celebration": [
+      {
+        "id": "sancti:11-21:3", 
+        "rank": 3, 
+        "title": "Ofiarowanie N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-22": {
+    "celebration": [
+      {
+        "id": "sancti:11-22:3", 
+        "rank": 3, 
+        "title": "\u015aw. Cecylii, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-23": {
+    "celebration": [
+      {
+        "id": "sancti:11-23:3", 
+        "rank": 3, 
+        "title": "\u015aw. Klemensa I, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent23-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-24": {
+    "celebration": [
+      {
+        "id": "tempora:Pent24-0:2", 
+        "rank": 2, 
+        "title": "24 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-0:2", 
+        "rank": 2, 
+        "title": "24 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-25": {
+    "celebration": [
+      {
+        "id": "sancti:11-25:3", 
+        "rank": 3, 
+        "title": "\u015aw. Katarzyny, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-1:4", 
+        "rank": 4, 
+        "title": "Poniedzia\u0142ek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-26": {
+    "celebration": [
+      {
+        "id": "sancti:11-26:3", 
+        "rank": 3, 
+        "title": "\u015aw. Sylwestra, Opata"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-2:4", 
+        "rank": 4, 
+        "title": "Wtorek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-27": {
+    "celebration": [
+      {
+        "id": "tempora:Pent24-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-3:4", 
+        "rank": 4, 
+        "title": "\u015aroda po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-28": {
+    "celebration": [
+      {
+        "id": "tempora:Pent24-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-4:4", 
+        "rank": 4, 
+        "title": "Czwartek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-29": {
+    "celebration": [
+      {
+        "id": "sancti:11-29r:4", 
+        "rank": 4, 
+        "title": "\u015aw. Saturnina, M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-5:4", 
+        "rank": 4, 
+        "title": "Pi\u0105tek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-11-30": {
+    "celebration": [
+      {
+        "id": "sancti:11-30:2", 
+        "rank": 2, 
+        "title": "\u015aw. Andrzeja, Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Pent24-6:4", 
+        "rank": 4, 
+        "title": "Sobota po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+      }
+    ]
+  }, 
+  "2019-12-01": {
+    "celebration": [
+      {
+        "id": "tempora:Adv1-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-0:1", 
+        "rank": 1, 
+        "title": "1 Niedziela Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-02": {
+    "celebration": [
+      {
+        "id": "sancti:12-02:3", 
+        "rank": 3, 
+        "title": "\u015aw. Bibiany, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-03": {
+    "celebration": [
+      {
+        "id": "sancti:12-03:3", 
+        "rank": 3, 
+        "title": "\u015aw. Franciszka Ksawerego, Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-04": {
+    "celebration": [
+      {
+        "id": "sancti:12-04:3", 
+        "rank": 3, 
+        "title": "\u015aw. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-05": {
+    "celebration": [
+      {
+        "id": "tempora:Adv1-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 1 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:12-05:4", 
+        "rank": 4, 
+        "title": "\u015aw. Saby, Opata"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-06": {
+    "celebration": [
+      {
+        "id": "sancti:12-06:3", 
+        "rank": 3, 
+        "title": "\u015aw. Miko\u0142aja, Biskupa i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-07": {
+    "celebration": [
+      {
+        "id": "sancti:12-07:3", 
+        "rank": 3, 
+        "title": "\u015aw. Ambro\u017cego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv1-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 1 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-08": {
+    "celebration": [
+      {
+        "id": "sancti:12-08:1", 
+        "rank": 1, 
+        "title": "Niepokalane Pocz\u0119cie N. M. P."
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-0:1", 
+        "rank": 1, 
+        "title": "2 Niedziela Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-09": {
+    "celebration": [
+      {
+        "id": "tempora:Adv2-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-10": {
+    "celebration": [
+      {
+        "id": "tempora:Adv2-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 2 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:12-10:4", 
+        "rank": 4, 
+        "title": "\u015aw. Melchiadesa, Papie\u017ca i M\u0119czennika"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-2:3", 
+        "rank": 3, 
+        "title": "Wtorek po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-11": {
+    "celebration": [
+      {
+        "id": "sancti:12-11:3", 
+        "rank": 3, 
+        "title": "\u015aw. Damazego, Papie\u017ca i Wyznawcy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-3:3", 
+        "rank": 3, 
+        "title": "\u015aroda po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-12": {
+    "celebration": [
+      {
+        "id": "tempora:Adv2-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 2 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-4:3", 
+        "rank": 3, 
+        "title": "Czwartek po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-13": {
+    "celebration": [
+      {
+        "id": "sancti:12-13r:3", 
+        "rank": 3, 
+        "title": "\u015aw. \u0141ucji, Dziewicy i M\u0119czennicy"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-5:3", 
+        "rank": 3, 
+        "title": "Pi\u0105tek po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-14": {
+    "celebration": [
+      {
+        "id": "tempora:Adv2-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 2 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv2-6:3", 
+        "rank": 3, 
+        "title": "Sobota po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-15": {
+    "celebration": [
+      {
+        "id": "tempora:Adv3-0:1", 
+        "rank": 1, 
+        "title": "3 Niedziela Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-0:1", 
+        "rank": 1, 
+        "title": "3 Niedziela Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-16": {
+    "celebration": [
+      {
+        "id": "sancti:12-16:3", 
+        "rank": 3, 
+        "title": "\u015aw. Euzebiusza, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-1:3", 
+        "rank": 3, 
+        "title": "Poniedzia\u0142ek po 3 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-17": {
+    "celebration": [
+      {
+        "id": "tempora:Adv3-2:2", 
+        "rank": 2, 
+        "title": "Wtorek po 3 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-2:2", 
+        "rank": 2, 
+        "title": "Wtorek po 3 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-18": {
+    "celebration": [
+      {
+        "id": "tempora:Adv3-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-3:2", 
+        "rank": 2, 
+        "title": "\u015aroda Suchych Dni Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-19": {
+    "celebration": [
+      {
+        "id": "tempora:Adv3-4:2", 
+        "rank": 2, 
+        "title": "Czwartek po 3 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-4:2", 
+        "rank": 2, 
+        "title": "Czwartek po 3 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-20": {
+    "celebration": [
+      {
+        "id": "tempora:Adv3-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-5:2", 
+        "rank": 2, 
+        "title": "Pi\u0105tek Suchych Dni Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-21": {
+    "celebration": [
+      {
+        "id": "sancti:12-21:2", 
+        "rank": 2, 
+        "title": "\u015aw. Tomasza, Aposto\u0142a"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "tempora:Adv3-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Adwentu"
+      }
+    ], 
+    "tempora": [
+      {
+        "id": "tempora:Adv3-6:2", 
+        "rank": 2, 
+        "title": "Sobota Suchych Dni Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-22": {
+    "celebration": [
+      {
+        "id": "tempora:Adv4-0:1", 
+        "rank": 1, 
+        "title": "4 Niedziela Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv4-0:1", 
+        "rank": 1, 
+        "title": "4 Niedziela Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-23": {
+    "celebration": [
+      {
+        "id": "tempora:Adv4-1:2", 
+        "rank": 2, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": [
+      {
+        "id": "tempora:Adv4-1:2", 
+        "rank": 2, 
+        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+      }
+    ]
+  }, 
+  "2019-12-24": {
+    "celebration": [
+      {
+        "id": "sancti:12-24:1", 
+        "rank": 1, 
+        "title": "Wigilia Bo\u017cego Narodzenia"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-25": {
+    "celebration": [
+      {
+        "id": "sancti:12-25m1:1", 
+        "rank": 1, 
+        "title": "Bo\u017ce Narodzenie \u2014 Msza o P\u00f3\u0142nocy"
+      }, 
+      {
+        "id": "sancti:12-25m2:1", 
+        "rank": 1, 
+        "title": "Bo\u017ce Narodzenie \u2014 Msza o \u015bwicie"
+      }, 
+      {
+        "id": "sancti:12-25m3:1", 
+        "rank": 1, 
+        "title": "Bo\u017ce Narodzenie \u2014 Msza o w dzie\u0144"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-26": {
+    "celebration": [
+      {
+        "id": "sancti:12-26:2", 
+        "rank": 2, 
+        "title": "\u015aw. Szczepana, Pierwszego M\u0119czennika"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-27": {
+    "celebration": [
+      {
+        "id": "sancti:12-27:2", 
+        "rank": 2, 
+        "title": "\u015aw. Jana, Aposto\u0142a i Ewangelisty"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-28": {
+    "celebration": [
+      {
+        "id": "sancti:12-28:2", 
+        "rank": 2, 
+        "title": "\u015awi\u0119tych M\u0142odziank\u00f3w"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-29": {
+    "celebration": [
+      {
+        "id": "tempora:Nat1-0:2", 
+        "rank": 2, 
+        "title": "Niedziela w Oktawie Bo\u017cego Narodzenia"
+      }
+    ], 
+    "commemoration": [
+      {
+        "id": "sancti:12-29r:2", 
+        "rank": 2, 
+        "title": "29 XII - \u015aw. Tomasza z Canterbury, Biskupa i M\u0119czennika"
+      }
+    ], 
+    "tempora": []
+  }, 
+  "2019-12-30": {
+    "celebration": [
+      {
+        "id": "sancti:12-30:2", 
+        "rank": 2, 
+        "title": "Dzie\u0144 sz\u00f3sty w Oktawie Narodzenia Pa\u0144skiego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }, 
+  "2019-12-31": {
+    "celebration": [
+      {
+        "id": "sancti:12-31r:2", 
+        "rank": 2, 
+        "title": "Dzie\u0144 si\u00f3dmy w Oktawie Narodzenia Pa\u0144skiego"
+      }
+    ], 
+    "commemoration": [], 
+    "tempora": []
+  }
+}

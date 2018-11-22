@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Witalisa", 
+      "3 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2019-03-22", 
+    "description": "Lekcja i ewangelia m\u00f3wi\u0105 w obrazach o bliskiej m\u0119ce Chrystusa. Wspomniany w lekcji J\u00f3zef egipski to typ biblijny Chrystusa. Syn w\u0142a\u015bciciela winnicy zabity przez dzier\u017cawc\u00f3w to obraz Zbawiciela. Reakcja przedniejszych kap\u0142an\u00f3w i faryzeuszy na s\u0142owa Pana Jezusa oddaje nastroje panuj\u0105ce w\u015br\u00f3d starszyzny \u017cydowskiej w Niedziele Palmow\u0105.", 
+    "tempora": null, 
+    "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 16:15*\nEgo autem cum just\u00edtia appar\u00e9bo in consp\u00e9ctu tuo: sati\u00e1bor, dum manifest\u00e1bitur gl\u00f3ria tua.\n*Ps 16:1*\nEx\u00e1udi, D\u00f3mine, justitiam meam: int\u00e9nde deprecati\u00f3ni me\u00e6.\nGl\u00f3ria Patri.\nEgo autem cum just\u00edtia appar\u00e9bo in consp\u00e9ctu tuo: sati\u00e1bor, dum manifest\u00e1bitur gl\u00f3ria tua.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Da, qu\u01fdsumus, omn\u00edpotens Deus: ut, sacro nos purific\u00e1nte jej\u00fanio, sinc\u00e9ris m\u00e9ntibus ad sancta vent\u00fara f\u00e1cias perven\u00edre.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Genesis.\n*Gen 37:6-22*\nIn di\u00e9bus illis: Dixit Joseph fr\u00e1tribus suis: Aud\u00edte s\u00f3mnium meum, quod vidi: Put\u00e1bam nos lig\u00e1re man\u00edpulos in agro: et quasi cons\u00fargere man\u00edpulum meum et stare, vestr\u00f3sque man\u00edpulos circumst\u00e1ntes ador\u00e1re man\u00edpulum meum. Respond\u00e9runt fratres ejus: Numquid rex noster eris? aut subjici\u00e9mur dici\u00f3ni tu\u00e6? H\u00e6c ergo causa somni\u00f3rum atque serm\u00f3num, inv\u00eddi\u00e6 et \u00f3dii f\u00f3mitem ministr\u00e1vit. Aliud quoque vidit s\u00f3mnium, quod narrans fr\u00e1tribus, ait: Vidi per s\u00f3mnium, quasi solem et lunam et stellas \u00fandecim ador\u00e1re me. Quod cum patri suo et fr\u00e1tribus rettul\u00edsset, increp\u00e1vit eum pater suus, et dixit: Quid sibi vult hoc s\u00f3mnium, quod vid\u00edsti? Num ego et mater tua et fratres tui ador\u00e1bimus te super terram? Invid\u00e9bant ei igitur fratres sui: pater vero rem t\u00e1citus consider\u00e1bat. Cumque fratres ill\u00edus in pasc\u00e9ndis gr\u00e9gibus patris morar\u00e9ntur in Sichem, dixit ad eum Isra\u00ebl: Fratres tui pascunt oves in S\u00edchimis: veni, mittam te ad eos. Quo respond\u00e9nte: Pr\u00e6sto sum, ait ei: Vade et vide, si cuncta pr\u00f3spera sint erga fratres tuos et p\u00e9cora: et ren\u00fantia mihi, quid agatur. Missus de valle Hebron, venit in Sichem: inven\u00edtque eum vir err\u00e1ntem in agro, et interrog\u00e1vit, quid quaereret. At ille resp\u00f3ndit: Fratres meos qu\u00e6ro: \u00edndica mihi, ubi pascant greges. Dix\u00edtque ei vir: Recess\u00e9runt de loco isto: aud\u00edvi autem eos dic\u00e9ntes: E\u00e1mus in D\u00f3thain. Perr\u00e9xit ergo Joseph post fratres suos, et inv\u00e9nit eos in D\u00f3thain. Qui cum vid\u00edssent eum procul, \u00e1ntequam acc\u00e9deret ad eos, cogitav\u00e9runt illum occ\u00eddere, et m\u00fatuo loqueb\u00e1ntur: Ecce, somni\u00e1tor venit; ven\u00edte, occid\u00e1mus eum, et mitt\u00e1mus in cist\u00e9rnam v\u00e9terem, dicem\u00fasque: Fera p\u00e9ssima devor\u00e1vit eum: et tunc appar\u00e9bit, quid illi prosint s\u00f3mnia sua. Audiens autem hoc Ruben, niteb\u00e1tur liber\u00e1re eum de m\u00e1nibus e\u00f3rum, et dic\u00e9bat: Non interfici\u00e1tis \u00e1nimam ejus, nec effund\u00e1tis s\u00e1nguinem: sed proj\u00edcite eum in cist\u00e9rnam hanc, qu\u00e6 est in solit\u00fadine, man\u00fasque vestras serv\u00e1te inn\u00f3xias: hoc autem dic\u00e9bat, volens er\u00edpere eum de m\u00e1nibus e\u00f3rum, et r\u00e9ddere patri suo.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 119:1-2*\nAd D\u00f3minum, cum tribul\u00e1rer, clam\u00e1vi, et exaud\u00edvit me.\nV. D\u00f3mine, l\u00edbera \u00e1nimam meam a l\u00e1biis in\u00edquis et a lingua dol\u00f3sa.\n*Tractus 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis\n*Ps 78:8-9*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum\n*Matt 21:33-46*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum et princ\u00edpibus sacerd\u00f3tum par\u00e1bolam hanc: Homo erat paterfam\u00edlias, qui plant\u00e1vit v\u00edneam, et sepem circ\u00famdedit ei, et fodit in ea t\u00f3rcular, et \u00e6dific\u00e1vit turrim, et loc\u00e1vit eam agr\u00edcolis, et p\u00e9regre prof\u00e9ctus est. Cum autem tempus fr\u00factuum appropinqu\u00e1sset, misit servos suos ad agr\u00edcolas, ut acc\u00edperent fructus ejus. Et agr\u00edcol\u00e6, appreh\u00e9nsis servis ejus, alium cecid\u00e9runt, alium occid\u00e9runt, \u00e1lium vero lapidav\u00e9runt. Iterum misit \u00e1lios servos plures pri\u00f3ribus, et fec\u00e9runt illis sim\u00edliter. Nov\u00edssime autem misit ad eos f\u00edlium suum, dicens: Vereb\u00fantur f\u00edlium meum. Agr\u00edcol\u00e6 autem vid\u00e9ntes f\u00edlium, dix\u00e9runt intra se: Hic est heres, ven\u00edte, occid\u00e1mus eum, et hab\u00e9bimus heredit\u00e1tem ejus. Et appreh\u00e9nsum eum ejec\u00e9runt extra v\u00edneam, et occid\u00e9runt. Cum ergo v\u00e9nerit d\u00f3minus v\u00edne\u00e6, quid f\u00e1ciet agr\u00edcolis illis? Ajunt illi: Malos male perdet: et v\u00edneam suam loc\u00e1bit \u00e1liis agr\u00edcolis, qui reddant ei fructum temp\u00f3ribus suis. Dicit illis Jesus: Numquam leg\u00edstis in Script\u00faris: L\u00e1pidem, quem reprobav\u00e9runt \u00e6dific\u00e1ntes, hic factus est in caput \u00e1nguli? A D\u00f3mino factum est istud, et est mir\u00e1bile in \u00f3culis nostris. Ideo dico vobis, quia aufer\u00e9tur a vobis regnum Dei, et d\u00e1bitur genti faci\u00e9nti fructus ejus. Et qui cec\u00edderit super l\u00e1pidem istum, confring\u00e9tur: super quem vero cec\u00edderit, c\u00f3nteret eum. Et cum aud\u00edssent pr\u00edncipes sacerd\u00f3tum et pharisaei par\u00e1bolas ejus, cognov\u00e9runt, quod de ipsis d\u00edceret. Et qu\u00e6r\u00e9ntes eum ten\u00e9re, timu\u00e9runt turbas: qu\u00f3niam sicut Proph\u00e9tam eum hab\u00e9bant.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 39:14; 39:15*\nD\u00f3mine, in aux\u00edlium meum r\u00e9spice: confund\u00e1ntur et revere\u00e1ntur, qui qu\u00e6runt \u00e1nimam meam, ut \u00e1uferant eam: D\u00f3mine, in aux\u00edlium meum r\u00e9spice.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00e6c in nobis sacrif\u00edcia, Deus, et acti\u00f3ne perm\u00e1neant, et operati\u00f3ne firm\u00e9ntur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 11:8*\nTu, D\u00f3mine, serv\u00e1bis nos, et cust\u00f3dies nos a generati\u00f3ne hac in \u00e6t\u00e9rnum.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Fac nos, qu\u01fdsumus, D\u00f3mine: acc\u00e9pto p\u00edgnore sal\u00fatis \u00e6t\u00e9rn\u00e6, sic t\u00e9ndere congru\u00e9nter; ut ad eam perven\u00edre p\u00f3ssimus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 16:15*\nJa za\u015b w sprawiedliwo\u015bci uka\u017c\u0119 si\u0119 przed Twoim obliczem, nasyc\u0119 si\u0119, gdy si\u0119 objawi chwa\u0142a Twoja.\n*Ps 16:1*\nWys\u0142uchaj, Panie, s\u0142usznej pro\u015bby mojej, zwa\u017c na me wo\u0142anie.\nChwa\u0142a Ojcu.\nJa za\u015b w sprawiedliwo\u015bci uka\u017c\u0119 si\u0119 przed Twoim obliczem, nasyc\u0119 si\u0119, gdy si\u0119 objawi chwa\u0142a Twoja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby\u015bmy oczyszczeni \u015bwi\u0119tym postem mogli si\u0119 doczeka\u0107 zbli\u017caj\u0105cych si\u0119 \u015bwi\u0105t.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Wyj\u015bcia.\n*Wj 37:6-22*\n*Dzieje J\u00f3zefa to jeden z najbardziej wyrazistych typ\u00f3w biblijnych m\u0119ki i zmartwychwstania Chrystusa. J\u00f3zef zosta\u0142 sprzedany przez swych braci poganom. Po trzech latach pobytu w wi\u0119zieniu egipskim zostai uwolniony, wyniesiony do wysokiej godno\u015bci i nazwany zbawicielem \u015bwiata. Uratowa\u0142 od g\u0142odu Egipt, a tak\u017ce swych braci. Podobnie Jezus zosta\u0142 sprzedany przez Judasza i wydany poganom. Trzeciego dnia po \u015bmierci zmartwychwsta\u0142, wst\u0105pi\u0142 do nieba i zasiad\u0142 po prawicy Ojca niebieskiego jako Zbawiciel pogan i \u017cyd\u00f3w.*\nW one dni rzeki J\u00f3zef do braci swoich: \u00abPos\u0142uchajcie, jaki mia\u0142em sen. \u015ani\u0142o mi si\u0119, \u017ce wi\u0105zali\u015bmy snopy na polu i wtedy snop m\u00f3j podni\u00f3s\u0142 si\u0119 i stan\u0105\u0142, a snopy wasze otoczy\u0142y go ko\u0142em i odda\u0142y mu pok\u0142on\u00bb. Rzekli mu bracia jego: \u00abCzy\u017c mia\u0142by\u015b jako kr\u00f3l panowa\u0107 nad nami i rz\u0105dzi\u0107 nami jak w\u0142adca?\u00bb I jeszcze wi\u0119cej go nienawidzili z powodu snu, kt\u00f3ry im opowiedzia\u0142. A potem (J\u00f3zef) mia\u0142 jeszcze inny sen i opowiedzia\u0142 go braciom swym tak: \u00ab\u015anini\u0142o mi si\u0119 jeszcze, \u017ce s\u0142o\u0144ce, ksi\u0119\u017cyc i jedena\u015bcie gwiazd oddaj\u0105 mi pok\u0142on\u00bb. A gdy to powiedzia\u0142 ojcu i braciom, ojciec skarci\u0142 go m\u00f3wi\u0105c: \u00abCo mia\u0142by znaczy\u0107 \u00f3w sen? Czy\u017c ja, matka twoja i twoi bracia mieliby\u015bmy (kiedy\u015b) przyj\u015b\u0107 do ciebie i nisko ci si\u0119 k\u0142ania\u0107?\u00bb Podczas gdy bracia zazdro\u015bcili J\u00f3zefowi, ojciec jego zapami\u0119ta\u0142 sobie \u00f3w sen.\nKiedy bracia J\u00f3zefa poszli pa\u015b\u0107 trzody do Sychem, Izrael rzek\u0142 do niego: \u00abWiesz, \u017ce bracia twoi pas\u0105 trzody w Sychem. Chc\u0119 ci\u0119 wi\u0119c pos\u0142a\u0107 do nich\u00bb. Odpowiedzia\u0142 mu J\u00f3zef: \u00abJestem got\u00f3w (i\u015b\u0107)\u00bb. Wtedy rzek\u0142 do niego: \u00abId\u017a i zobacz, czy bracia twoi s\u0105 zdrowi i czy trzodom nic si\u0119 nie sta\u0142o, a potem (przyjdziesz) i powiesz mi\u00bb. Po czym wyprawi\u0142 go z doliny Hebronu, a on poszed\u0142 do Sychem. I (tam) spotka\u0142 go pewien cz\u0142owiek b\u0142\u0105kaj\u0105cego si\u0119 po polu i zapyta\u0142 go: \u00abKogo szukasz?\u00bb Odpowiedzia\u0142: \u00abSzukam braci moich. Powiedz mi z \u0142aski swojej, gdzie oni pas\u0105 (trzody)\u00bb. A na to \u00f3w cz\u0142owiek: \u00abOdeszli st\u0105d, ale s\u0142ysza\u0142em, jak m\u00f3wili: Chod\u017amy do Dotain\u00bb.\nJ\u00f3zef uda\u0142 si\u0119 wi\u0119c za swymi bra\u0107mi i znalaz\u0142 ich w Dotain. Oni ujrzeli go z daleka i zanim si\u0119 do nich zbli\u017cy\u0142, postanowili podst\u0119pnie go zg\u0142adzi\u0107, m\u00f3wi\u0105c mi\u0119dzy sob\u0105: \u00abOto nadchodzi ten, kt\u00f3ry miewa sny! Teraz zabijmy go i wrzu\u0107my do kt\u00f3rejkolwiek studni, a potem powiemy: Dziki zwierz go po\u017car\u0142. Zobaczymy, jakie b\u0119dzie mia\u0142 sny!\u00bb Gdy to us\u0142ysza\u0142 Ruben, postanowi\u0142 oswobodzi\u0107 go od ich przemocy; rzek\u0142 wi\u0119c: \u00abNie zabijajmy go!\u00bb I (dalej) Ruben m\u00f3wi\u0142 do nich: \u00abNie doprowadzajcie do rozlewu krwi. Wrzu\u0107cie go do studni, kt\u00f3ra jest tu na pustkowiu, ale r\u0119ki nie podno\u015bcie na niego\u00bb. Chcia\u0142 bowiem (Ruben) uratowa\u0107 go od ich przemocy, a potem zaprowadzi\u0107 go do ojca.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 119:1-2*\nDo Pana wo\u0142a\u0142em, gdym by\u0142 w utrapieniu, a On mnie wys\u0142ucha\u0142.\nV. Wybaw mnie, Panie, od ust k\u0142amliwych i od podst\u0119pnego j\u0119zyka.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 21:33-46*\nOnego czasu powiedzia\u0142 Jezus do rzesz \u017cydowskich i do przedniejszych kap\u0142an\u00f3w t\u0119 przypowie\u015b\u0107: \u00abBy\u0142 cz\u0142owiek gospodarz, kt\u00f3ry za\u0142o\u017cy\u0142 winnic\u0119, p\u0142otem j\u0105 ogrodzi\u0142, wykopa\u0142 w niej pras\u0119, zbudowa\u0142 wie\u017c\u0119 i wynaj\u0105\u0142 j\u0105 rolnikom, a sam odjecha\u0142 w dalekie strony. A gdy si\u0119 przybli\u017cy\u0142 czas owoc\u00f3w, pos\u0142a\u0142 s\u0142ugi swoje do rolnik\u00f3w, aby odebrali owoce jego. A rolnicy, pojmawszy s\u0142ugi jego, jednego obili, drugiego zamordowali, a innego ukamienowali. Znowu pos\u0142a\u0142 inne s\u0142ugi, wi\u0119cej ni\u017c przedtem, i uczynili im podobnie. W ko\u0144cu wi\u0119c pos\u0142a\u0142 do nich syna swego, m\u00f3wi\u0105c: Uszanuj\u0105 syna mego. Rolnicy za\u015b widz\u0105c syna m\u00f3wili mi\u0119dzy sob\u0105: Ten jest dziedzicem, p\u00f3jd\u017acie, zabijmy go, a zaw\u0142adniemy jego dziedzictwem. I pochwyciwszy go, wyrzucili z winnicy i zabili. Gdy tedy przyb\u0119dzie Pan winnicy, c\u00f3\u017c uczyni owym rolnikom?\u00bb M\u00f3wi\u0105 mu: \u00abZ\u0142oczy\u0144c\u00f3w srodze wygubi, a winnic\u0119 sw\u0105 wynajmie innym rolnikom, kt\u00f3rzy oddawa\u0107 mu b\u0119d\u0105 owoc w oznaczonym czasie\u00bb.\nRzek\u0142 im Jezus: \u00abCzy\u017c nigdy nie czytali\u015bcie w Pismach: Kamie\u0144, kt\u00f3ry buduj\u0105cy odrzucili, sta\u0142 si\u0119 g\u0142owic\u0105 w\u0119g\u0142a. Od Pana si\u0119 to sta\u0142o i dziwnym jest w oczach naszych. Przeto powiadam wam, \u017ce odj\u0119te b\u0119dzie od was Kr\u00f3lestwo Bo\u017ce, a dane narodowi czyni\u0105cemu owoce jego. I kto by upad\u0142 na ten kamie\u0144, b\u0119dzie rozbity, a na kogo by upad\u0142, zmia\u017cd\u017cy go\u00bb. I us\u0142yszawszy przypowie\u015bci Jego przedniejsi kap\u0142ani i faryzeusze poznali, \u017ce o nich m\u00f3wi\u0142. A usi\u0142uj\u0105c Go pojma\u0107, obawiali si\u0119 rzesz, poniewa\u017c mia\u0142y Go za Proroka.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 39:14; 39:15*\nPanie, po\u015bpiesz mi z pomoc\u0105; niech si\u0119 zawstydz\u0105 i okryj\u0105 rumie\u0144cem ci, kt\u00f3rzy dybi\u0105 na \u017cycie moje, by je odebra\u0107. Panie, po\u015bpiesz mi z pomoc\u0105.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Bo\u017ce, niech trwa w nas dzia\u0142anie tej ofiary i umacniaj\u0105 si\u0119 jej skutki.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 11:8*\nTy, Panie, zachowasz nas i na wieki ustrze\u017cesz nas od tego plemienia (grzesznik\u00f3w).", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Otrzymawszy zadatek zbawienia wiecznego, prosimy Ci\u0119, Panie, daj nam tak gorliwie do niego d\u0105\u017cy\u0107, aby\u015bmy mogli je osi\u0105gn\u0105\u0107.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

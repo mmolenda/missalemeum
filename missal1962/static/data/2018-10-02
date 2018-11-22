@@ -1,0 +1,121 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-10-02", 
+    "description": "Pierwszym zadaniem Anio\u0142\u00f3w jest wielbi\u0107 Boga. W prefacji mszalnej prosimy, aby nasze g\u0142osy po\u0142\u0105czy\u0142y si\u0119 z ich pieniami pochwalnymi. Anio\u0142owie s\u0105 tak\u017ce pos\u0142a\u0144cami Boga. Niekt\u00f3rym z nich B\u00f3g poleca czuwa\u0107 nad krajami, diecezjami, a nawet nad poszczeg\u00f3lnymi lud\u017ami. Spe\u0142niaj\u0105 oni wobec nas podobn\u0105 rol\u0119 jak Anio\u0142 prowadz\u0105cy Izraelit\u00f3w do Ziemi Obiecanej (lekcja). Anio\u0142 Str\u00f3\u017c pomaga nam zwalcza\u0107 zasadzki z\u0142ego ducha (pokomunia) i swoimi natchnieniami kieruje nas ku ojczy\u017anie wiecznej (sekreta).", 
+    "tempora": "Wtorek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015awi\u0119tych Anio\u0142\u00f3w Str\u00f3\u017c\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 102:20.*\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: potentes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.\n*Ps 102:1*\nB\u00e9nedic, \u00e1nima mea, D\u00f3mino: et \u00f3mnia, qu\u00e6 intra me sunt, n\u00f3mini sancto ejus.\nGl\u00f3ria Patri.\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: potentes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui ineff\u00e1bili provid\u00e9ntia sanctos Angelos tuos ad nostram cust\u00f3diam m\u00edttere dign\u00e1ris: larg\u00edre suppl\u00edcibus tuis; et e\u00f3rum semper protecti\u00f3ne def\u00e9ndi, et \u00e6t\u00e9rna societ\u00e1te gaud\u00e9re.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Exodi.\n*Exod 23:20-23*\nH\u00e6c dicit D\u00f3minus Deus: Ecce, ego mittam Angelum meum, qui pr\u00e6c\u00e9dat te, et cust\u00f3diat in via, et intr\u00f3ducat in locum, quem par\u00e1vi. Obs\u00e9rva eum, et audi vocem ejus, nec contemn\u00e9ndum putes: quia non dim\u00edttet, cum pecc\u00e1veris, et est nomen meum in illo. Quod si audi\u00e9ris vocem ejus et f\u00e9ceris \u00f3mnia, qu\u00e6 loquor, inim\u00edcus ero inim\u00edcis tuis et affligam afflig\u00e9ntes te: pr\u00e6ced\u00e9tque te Angelus meus.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 90:11-12*\nAngelis suis Deus mand\u00e1vit de te, ut cust\u00f3diant te in \u00f3mnibus viis tuis.\nV. In m\u00e1nibus port\u00e1bunt te, ne umquam off\u00e9ndas ad l\u00e1pidem pedem tuum. Allel\u00faja, allel\u00faja\n*Ps 102:21.*\nBened\u00edcite D\u00f3mino, omnes virt\u00fates ejus: min\u00edstri ejus, qui f\u00e1citis volunt\u00e1tem ejus. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 102:20*\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: pot\u00e9ntes virt\u00fate, qui f\u00e1citis verbum ejus.\n*Ps 102:21-22*\nBened\u00edcite D\u00f3mino, omnes virt\u00fates ejus: ministri ejus, qui f\u00e1citis volunt\u00e1tem ejus.\nV. Bened\u00edcite D\u00f3mino, \u00f3mnia \u00f3pera ejus: in omni loco dominati\u00f3nis ejus, b\u00e9nedic, \u00e1nima mea, D\u00f3mino.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 18:1-10*\nIn illo t\u00e9mpore: Access\u00e9runt disc\u00edpuli ad Jesum, dic\u00e9ntes: Quis, putas, major est in regno coel\u00f3rum? Et \u00e1dvocans Jesus parvulum, statuit eum in m\u00e9dio e\u00f3rum et dixit: Amen, dico vobis, nisi conv\u00e9rsi fu\u00e9ritis et effici\u00e1mini sicut p\u00e1rvuli, non intr\u00e1bitis in regnum c\u00e6lorum. Quic\u00famque ergo humili\u00e1verit se sicut p\u00e1rvulus iste, hic est major in regno coel\u00f3rum. Et qui susc\u00e9perit unum p\u00e1rvulum talem in n\u00f3mine meo, me s\u00fascipit. Qui autem scandaliz\u00e1verit unum de pus\u00edllis istis, qui in me credunt, exp\u00e9dit ei, ut suspend\u00e1tur mola asin\u00e1ria in collo ejus, et demerg\u00e1tur in prof\u00fandum maris. V\u00e6 mundo a sc\u00e1ndalis! Nec\u00e9sse est enim, ut v\u00e9niant sc\u00e1ndala: ver\u00famtamen v\u00e6 h\u00f3mini illi, per quem sc\u00e1ndalum venit! Si autem manus tua vel pes tuus scandal\u00edzat te, absc\u00edde eum et pr\u00f3jice abs te: bonum tibi est ad vitam \u00edngredi d\u00e9bilem vel cl\u00e1udum, quam duas manus vel duos pedes hab\u00e9ntem mitti in ignem \u00e6t\u00e9rnum. Et si \u00f3culus tuus scandal\u00edzat te, \u00e9rue eum et pr\u00f3jice abs te: bonum tibi est cum uno \u00f3culo in vitam intr\u00e1re, quam duos \u00f3culos hab\u00e9ntem mitti in geh\u00e9nnam ignis. Vid\u00e9te, ne contemn\u00e1tis unum ex his pus\u00edllis: dico enim vobis, quia Angeli e\u00f3rum in coelis semper vident f\u00e1ciem Patris mei, qui in coelis est.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 102:20-21*\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: min\u00edstri ejus, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "S\u00fascipe, D\u00f3mine, m\u00fanera, qu\u00e6 pro sanct\u00f3rum Angel\u00f3rum tu\u00f3rum venerati\u00f3ne def\u00e9rimus: et conc\u00e9de prop\u00edtius; ut, perp\u00e9tuis e\u00f3rum pr\u00e6s\u00eddiis, a pr\u00e6s\u00e9ntibus per\u00edculis liber\u00e9mur et ad vitam perveni\u00e1mus \u00e6t\u00e9rnam.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Dan 3:58*\nBened\u00edcite, omnes Angeli D\u00f3mini, D\u00f3minum: hymnum d\u00edcite et superexalt\u00e1te eum in saecula.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "S\u00fampsimus, D\u00f3mine, div\u00edna myst\u00e9ria, sanct\u00f3rum Angel\u00f3rum tu\u00f3rum festivit\u00e1te l\u00e6t\u00e1ntes: qu\u01fdsumus; ut e\u00f3rum protecti\u00f3ne ab h\u00f3stium j\u00fagiter liber\u00e9mur ins\u00eddiis, et contra \u00f3mnia adv\u00e9rsa muni\u00e1mur.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 102:20*\nB\u0142ogos\u0142awcie Pana, wszyscy Jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.\n*Ps 102:1*\nB\u0142ogos\u0142aw, duszo moja, Pana, a wszystko, co jest we mnie, \u015bwi\u0119te imi\u0119 Jego.\nChwa\u0142a Ojcu.\nB\u0142ogos\u0142awcie Pana, wszyscy Jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry w niewys\u0142owionej Opatrzno\u015bci raczysz \u015bwi\u0119tych Twoich Anio\u0142\u00f3w posy\u0142a\u0107 nam jako str\u00f3\u017c\u00f3w, prosimy Ci\u0119 pokornie: daj nam nieustannie w ich opiece znajdowa\u0107 obron\u0119 i cieszy\u0107 si\u0119 ich towarzystwem w wieczno\u015bci.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Wyj\u015bcia.\n*Wj 23:20-23*\nTo m\u00f3wi Pan B\u00f3g: \u00abOto ja po\u015bl\u0119 Anio\u0142a mego, kt\u00f3ry by szed\u0142 przed tob\u0105 i strzeg\u0142 na drodze, i zaprowadzi\u0142 ci\u0119 na miejsce, kt\u00f3rem przygotowa\u0142. Szanuj go i s\u0142uchaj g\u0142osu jego, i nie lekcewa\u017c go, bo nie odpu\u015bci, kiedy zgrzeszysz, i jest imi\u0119 moje w nim. A je\u015bli us\u0142uchasz g\u0142osu jego i uczynisz wszystko, co m\u00f3wi\u0119, nieprzyjacielem b\u0119d\u0119 nieprzyjacio\u0142om twoim i utrapi\u0119 tych, kt\u00f3rzy ci\u0119 trapi\u0105. I p\u00f3jdzie Anio\u0142 m\u00f3j przed tob\u0105\u00bb.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 90:11-12*\nSwoim Anio\u0142om B\u00f3g da\u0142 rozkaz o tobie, aby cie strzegli na wszystkich twych drogach.\nV. Na r\u0119kach swoich b\u0119d\u0105 ci\u0119 nosili, aby\u015b nie urazi\u0142 swej stopy o kamie\u0144. Alleluja, alleluja.\n*Ps 102:21*\nB\u0142ogos\u0142awcie Pana, wszystkie Jego Zast\u0119py, s\u0142udzy Jego, kt\u00f3rzy wol\u0119 Jego pe\u0142nicie. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 18:1-10*\n*\u017bycia nadprzyrodzone ma tak\u0105 warto\u015b\u0107, \u017ce trzeba ponie\u015b\u0107 wszelkie ofiary, aby je zachowa\u0107. B\u00f3g daje nam Anio\u0142\u00f3w jako stra\u017cnik\u00f3w tego \u017cycia.*\nOnego czasu: Przyst\u0105pili uczniowie do Jezusa m\u00f3wi\u0105c: \u00abKt\u00f3\u017c, mniemasz, jest wi\u0119kszy w Kr\u00f3lestwie Niebieskim?\u00bb A Jezus przywo\u0142awszy dzieci\u0119 postawi\u0142 je w po\u015brodku nich, i rzek\u0142: \u00abZaprawd\u0119 m\u00f3wi\u0119 wam, je\u015bli si\u0119 nie nawr\u00f3cicie i nie staniecie jako dzieci, nie wnijdziecie do Kr\u00f3lestwa Niebieskiego. Ktokolwiek si\u0119 przeto uni\u017cy jako to dzieci\u0119, ten jest wi\u0119kszym w Kr\u00f3lestwie Niebieskim. A ktobykolwiek przyj\u0105\u0142 jedno takie dzieci\u0119 w imi\u0119 moje, mnie przyjmuje. Kto by za\u015b zgorszy\u0142 jedno z tych male\u0144kich, kt\u00f3re we mnie wierz\u0105, lepiej by mu by\u0142o, aby mu zawieszono u szyi kamie\u0144 m\u0142y\u0144ski, i pogr\u0105\u017cono w g\u0142\u0119binie morskiej. Biada \u015bwiatu za zgorszenia. Musz\u0105 bowiem przyj\u015b\u0107 zgorszenia, wszelako biada temu cz\u0142owiekowi, przez kt\u00f3rego przychodzi zgorszenie. A je\u015bli ci\u0119 r\u0119ka twoja albo noga twoja gorszy, odetnij j\u0105 i odrzu\u0107 precz od siebie. Lepiej ci jest u\u0142omnym i chromym wnij\u015b\u0107 do \u017cywota, ni\u017c maj\u0105c dwie r\u0119ce lub dwie nogi, by\u0107 wrzuconym w ogie\u0144 wieczny. I je\u015bli ci\u0119 oko twoje gorszy, wy\u0142up je i odrzu\u0107 precz od siebie. Lepiej ci jest jednookim wnij\u015b\u0107 do \u017cywota ni\u017c dwoje oczu maj\u0105c, by\u0107 wrzuconym do ognistej gehenny. Baczcie, aby\u015bcie nie wzgardzili kt\u00f3rymi z tych maluczkich. Powiadam wam bowiem, \u017ce Anio\u0142owie ich w niebiesiech zawsze widz\u0105 oblicze Ojca mego, kt\u00f3ry jest w niebie\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 102:20-21*\nB\u0142ogos\u0142awcie Pana, wszyscy Jego Anio\u0142owie, s\u0142udzy Jego, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij, Panie, dary, kt\u00f3re sk\u0142adamy ku czci \u015bwi\u0119tych Twoich Anio\u0142\u00f3w i spraw \u0142askawie, aby\u015bmy pod nieustann\u0105 ich opiek\u0105 wolni byli od tera\u017aniejszych niebezpiecze\u0144stw i doszli do \u017cycia wiecznego.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Dn 3:58*\nB\u0142ogos\u0142awcie Pana, wszyscy Anio\u0142owie Pa\u0144scy, wys\u0142awiajcie Go hymnem i wywy\u017cszajcie na wieki.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Przyj\u0119li\u015bmy, Panie, Boski Sakrament raduj\u0105c si\u0119 z uroczysto\u015bci Twoich \u015bwi\u0119tych Anio\u0142\u00f3w; prosimy Ci\u0119, aby\u015bmy pod ich opiek\u0105 byli wolni od zasadzek nieprzyjacielskich i zabezpieczeni od wszelkich przeciwno\u015bci.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

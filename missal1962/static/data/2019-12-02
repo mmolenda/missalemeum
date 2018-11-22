@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2019-12-02", 
+    "description": "Wed\u0142ug tradycji \u015bw. Bibiana Rzymianka ponios\u0142a \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w obronie wiary i czysto\u015bci w czasie prze\u015bladowania Juliana Apostaty w roku 363. W V wieku papie\u017c Symplicjusz wzni\u00f3s\u0142 na Awentynie bazylik\u0119 pod jej wezwaniem, kt\u00f3ra osta\u0142a si\u0119 do naszych czas\u00f3w.", 
+    "tempora": "Poniedzia\u0142ek po 1 Niedzieli Adwentu", 
+    "title": "\u015aw. Bibiany, Dziewicy i M\u0119czennicy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 118:95-96*\nMe exspectav\u00e9runt peccat\u00f3res, ut p\u00e9rderent me: testim\u00f3nia tua, D\u00f3mine, intell\u00e9xi: omnis consummati\u00f3nis vidi finem: latum mand\u00e1tum tuum nimis.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nMe exspectav\u00e9runt peccat\u00f3res, ut p\u00e9rderent me: testim\u00f3nia tua, D\u00f3mine, intell\u00e9xi: omnis consummati\u00f3nis vidi finem: latum mand\u00e1tum tuum nimis.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, \u00f3mnium larg\u00edtor bon\u00f3rum, qui in f\u00e1mula tua Bibi\u00e1na cum virginit\u00e1tis flore mart\u00fdrii palmam conjunx\u00edsti: mentes nostras ejus intercessi\u00f3ne tibi carit\u00e1te conj\u00fange; ut, am\u00f3tis per\u00edculis, praemia consequ\u00e1mur \u00e6t\u00e9rna.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 51:13-17*\nD\u00f3mine, Deus meus, exalt\u00e1sti super terram habitati\u00f3nem meam, et pro morte deflu\u00e9nte deprec\u00e1ta sum. Invoc\u00e1vi D\u00f3minum, Patrem D\u00f3mini mei, ut non derel\u00ednquat me in die tribulati\u00f3nis me\u00e6, et in t\u00e9mpore superb\u00f3rum sine adjut\u00f3rio. Laud\u00e1bo nomen tuum ass\u00eddue, et collaud\u00e1bo illud in confessi\u00f3ne, et exaud\u00edta est or\u00e1tio mea. Et liber\u00e1sti me de perditi\u00f3ne, et eripu\u00edsti me de t\u00e9mpore in\u00edquo. Propt\u00e9rea confit\u00e9bor et laudem dicam tibi, D\u00f3mine, Deus noster.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 45:6; 45:5*\nAdjuv\u00e1bit eam Deus vultu suo: Deus in m\u00e9dio ejus, non commov\u00e9bitur.\nV. Fl\u00faminis \u00edmpetus l\u00e6t\u00edficat civit\u00e1tem Dei: sanctific\u00e1vit tabern\u00e1culum suum Alt\u00edssimus. Allel\u00faja, allel\u00faja.\nV. H\u00e6c est Virgo s\u00e1piens, et una de n\u00famero prud\u00e9ntum. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 45:6; 45:5*\nAdjuv\u00e1bit eam Deus vultu suo: Deus in m\u00e9dio ejus, non commov\u00e9bitur.\nV. Fl\u00faminis \u00edmpetus l\u00e6t\u00edficat civit\u00e1tem Dei: sanctific\u00e1vit tabern\u00e1culum suum Alt\u00edssimus.\n**\nVeni, Sponsa Christi, \u00e1ccipe cor\u00f3nam, quam tibi D\u00f3minus pr\u00e6par\u00e1vit in \u00e6t\u00e9rnum: pro cujus am\u00f3re s\u00e1nguinem tuum fud\u00edsti\n*Ps 44:8; 44:5*\nDilex\u00edsti just\u00edtiam, et od\u00edsti iniquit\u00e1tem propt\u00e9rea unxit te Deus, Deus tuus, \u00f3leo l\u00e6t\u00edti\u00e6 pr\u00e6 cons\u00f3rtibus tuis.\nV. Sp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna.\n*Tempore paschali omittitur graduale.*", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:44-52*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam me: S\u00edmile est regnum c\u0153l\u00f3rum thes\u00e1uro absc\u00f3ndito in agro: quem qui inv\u00e9nit homo, absc\u00f3ndit, et pr\u00e6 g\u00e1udio ill\u00edus vadit, et vendit univ\u00e9rsa, qu\u00e6 habet, et emit agrum illum. Iterum s\u00edmile est regnum c\u0153l\u00f3rum h\u00f3mini negotiat\u00f3ri, qu\u00e6r\u00e9nti bonas margar\u00edtas. Inv\u00e9nta autem una preti\u00f3sa margar\u00edta, \u00e1biit, et v\u00e9ndidit \u00f3mnia, qu\u00e6 h\u00e1buit, et emit eam. Iterum s\u00edmile est regnum c\u0153l\u00f3rum sag\u00e9n\u00e6, miss\u00e6 in mare et ex omni g\u00e9nere p\u00edscium congreg\u00e1nti. Quam, cum impl\u00e9ta esset, educ\u00e9ntes, et secus litus sed\u00e9ntes, eleg\u00e9runt bonos in vasa, malos autem foras mis\u00e9runt. Sic erit in consummati\u00f3ne s\u01fdculi: ex\u00edbunt Angeli, et separ\u00e1bunt malos de m\u00e9dio just\u00f3rum, et mittent eos in cam\u00ednum ignis: ibi erit fletus et stridor d\u00e9ntium. Intellex\u00edstis h\u00e6c \u00f3mnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno c\u0153l\u00f3rum s\u00edmilis est h\u00f3mini patrifam\u00edlias, qui profert de thes\u00e1uro suo nova et v\u00e9tera.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 44:3*\nDiff\u00fasa est gr\u00e1tia in l\u00e1biis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum, et in s\u01fdculum s\u01fdculi.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Bibi\u00e1n\u00e6 V\u00edrginis et Martyris tu\u00e6 dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 118:121; 118:122;118:128*\nFeci jud\u00edcium et just\u00edtiam, D\u00f3mine, non calumni\u00e9ntur mihi sup\u00e9rbi: ad \u00f3mnia mand\u00e1ta tua dirig\u00e9bar, omnem viam iniquit\u00e1tis \u00f3dio h\u00e1bui.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Div\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Bibi\u00e1na V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 118:95-96*\nCzekali na mnie grzesznicy, a\u017ceby mi\u0119 zgubi\u0107, a ja poj\u0119\u0142am Twoje nakazy: widzia\u0142am, \u017ce ma granice wszelka doskona\u0142o\u015b\u0107, nakaz Tw\u00f3j si\u0119ga najdalej.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie z prawem Pana.\nChwa\u0142a Ojcu.\nCzekali na mnie grzesznicy, a\u017ceby mi\u0119 zgubi\u0107, a ja poj\u0119\u0142am Twoje nakazy: widzia\u0142am, \u017ce ma granice wszelka doskona\u0142o\u015b\u0107, nakaz Tw\u00f3j si\u0119ga najdalej.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, dawco wszelkich d\u00f3br, kt\u00f3ry po\u0142\u0105czy\u0142e\u015b w s\u0142u\u017cebnicy Twojej Bibianie palm\u0119 m\u0119cze\u0144stwa z kwiatem dziewictwa, za jej wstawiennictwem zesp\u00f3l nasze dusze z Tob\u0105 przez mi\u0142o\u015b\u0107, aby\u015bmy wolni od niebezpiecze\u0144stw osi\u0105gn\u0119li wieczn\u0105 nagrod\u0119.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 51:13-17*\nPanie Bo\u017ce m\u00f3j, ku Tobie wznios\u0142am pro\u015bb\u0119 moj\u0105 i b\u0142aga\u0142am, gdy \u015bmier\u0107 mi grozi\u0142a. Wzywa\u0142am Pana, Ojca mego Pana, by mnie nie opuszcza\u0142 w dniu mego utrapienia, i w czasie panowania pysznych bez pomocy nie zostawia\u0142. Imi\u0119 Twe pilnie b\u0119d\u0119 wys\u0142awia\u0107 i wychwala\u0107 z wdzi\u0119czno\u015bci\u0105. I wys\u0142uchana zosta\u0142a modlitwa moja. I uwolni\u0142e\u015b mnie od zatraty, i wyrwa\u0142e\u015b mnie w z\u0142ej dobie. Przeto b\u0119d\u0105 wyznawa\u0107 i chwa\u0142\u0119 Tw\u0105 opowiada\u0107, Panie Bo\u017ce nasz.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 45:6; 45:5*\nB\u00f3g j\u0105 wspomaga swoim wejrzeniem: B\u00f3g jest w jej wn\u0119trzu, b\u0119dzie niewzruszona.\nV. Pr\u0105d rzeki cieszy miasto Bo\u017ce; Najwy\u017cszy u\u015bwi\u0119ci\u0142 sw\u00f3j Przybytek. Alleluja, alleluja.\nV. Oto jest panna m\u0105dra, jedna spo\u015br\u00f3d roztropnych. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 45:6; 45:5*\nB\u00f3g j\u0105 wspomaga swoim wejrzeniem: B\u00f3g jest w jej wn\u0119trzu, b\u0119dzie niewzruszona.\nV. Pr\u0105d rzeki cieszy miasto Bo\u017ce; Najwy\u017cszy u\u015bwi\u0119ci\u0142 sw\u00f3j Przybytek.\nPrzyjd\u017a, Oblubienico Chrystusa, przyjmij wieniec, kt\u00f3ry Pan przygotowa\u0142 ci na wieki, bo z mi\u0142o\u015bci ku Niemu krew swoj\u0105 przela\u0142a\u015b.\n*Ps 44:8; 44:5*\nV. Mi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.\nV. W chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedzia\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abPodobne jest Kr\u00f3lestwo Niebieskie do skarbu ukrytego w roli, kt\u00f3ry, gdy znalaz\u0142 cz\u0142owiek, skry\u0142, a przej\u0119ty rado\u015bci\u0105 idzie i sprzedaje wszystko, co ma, a kupuje ow\u0105 rol\u0119.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kupcowi, poszukuj\u0105cemu pi\u0119knych pere\u0142. A znalaz\u0142szy jedn\u0105 per\u0142\u0119 kosztown\u0105, poszed\u0142 i sprzeda\u0142 wszystko, co mia\u0142, i naby\u0142 j\u0105.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie do sieci zapuszczonej w morze i zagarniaj\u0105cej ryby wszelkiego rodzaju. I wyci\u0105gn\u0105wszy j\u0105, gdy by\u0142a pe\u0142na, i usiad\u0142szy na brzegu, dobre powybierali do naczy\u0144, a z\u0142e precz wyrzucili.\nTak b\u0119dzie przy ko\u0144cu \u015bwiata. Wyjd\u0105 Anio\u0142owie i wy\u0142\u0105cz\u0105 z\u0142ych spo\u015br\u00f3d sprawiedliwych, i wrzuc\u0105 ich w piec ognisty. Tam b\u0119dzie p\u0142acz i zgrzytanie z\u0119b\u00f3w. Zrozumieli\u015bcie to wszystko?\u00bb M\u00f3wi\u0105 Mu: \u00abTak\u00bb.\nRzek\u0142 im: \u00abPrzeto ka\u017cdy uczony w Pi\u015bmie, bieg\u0142y w nauce o Kr\u00f3lestwie Niebieskim, podobny jest do cz\u0142owieka gospodarza, kt\u00f3ry dobywa ze skarbca swego rzeczy nowe i stare\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 44:3*\nWdzi\u0119k rozla\u0142 si\u0119 na twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 ci\u0119 na wieki.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, przyjmij \u0142askawie ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy przez zas\u0142ugi \u015bwi\u0119tej Bibiany Twojej Dziewicy i M\u0119czennicy, i spraw, by nam nieustann\u0105 by\u0142a pomoc\u0105.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 118:121; 118:122;118:128*\nPrzestrzega\u0142am prawa i sprawiedliwo\u015bci, niech nie ciemi\u0119\u017c\u0105 mnie pyszni, stosowa\u0142am si\u0119 do wszystkich przykaza\u0144 Twoich, nienawidzi\u0142am wszelkiej drogi nieprawej.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Darem Bo\u017cym szczodrze nasyceni, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tej Bibiany, Twojej Dziewicy i M\u0119czennicy, zawsze czerpali ze\u0144 \u017cycie.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

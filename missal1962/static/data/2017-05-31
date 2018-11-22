@@ -1,0 +1,151 @@
+{
+  "info": {
+    "additional_info": [
+      "2 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2017-05-31", 
+    "description": "Liturgia Ko\u015bcio\u0142a od dawna nadawa\u0142a Maryi tytu\u0142 Kr\u00f3lowej. Ojcowie i Doktorowie Ko\u015bcio\u0142a s\u0105 \u015bwiadkami og\u00f3lnego przekonania, \u017ce Maryi, Matce Kr\u00f3la kr\u00f3l\u00f3w (gradua\u0142, ewangelia, antyfona na ofiarowanie), zwi\u0105zanej \u015bci\u015ble z dzie\u0142em Odkupienia (alleluja wielkanocne), przys\u0142uguje kr\u00f3lewska godno\u015b\u0107. Pobo\u017cno\u015b\u0107 chrze\u015bcija\u0144ska zawsze upatrywa\u0142a zwi\u0105zek mi\u0119dzy wniebowzi\u0119ciem Maryi i tajemnic\u0105 Jej kr\u00f3lowania. 11 pa\u017adziernika 1954 roku, w cztery lata po og\u0142oszeniu dogmatu Wniebowzi\u0119cia, papie\u017c Pius XII ustanowi\u0142 \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej i poleci\u0142 w tym dniu odnawia\u0107 akt po\u015bwi\u0119cenia rodzaju ludzkiego Niepokalanemu Sercu Maryi.", 
+    "tempora": "\u015aroda po Niedzieli po Wniebowst\u0105pieniu", 
+    "title": "N. M. P. Kr\u00f3lowej"
+  }, 
+  "proper_latin": [
+    {
+      "body": "Gaudeamus omnes in Domino, diem festum celebrantes sub honore beatae Mariae Virginis Reginae: de cuius solemnitate gaudent Angeli, et collaudant Filium Dei.  (Alleluia, alleluia.)\n*Ps 44:2*\nEffundit cor meum verbum bonum: dico ego carmen meum Regi.\nGl\u00f3ria Patri.\nGaudeamus omnes in Domino, diem festum celebrantes sub honore beatae Mariae Virginis Reginae: de cuius solemnitate gaudent Angeli, et collaudant Filium Dei.  (Alleluia, alleluia.)", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Concede nobis, qu\u01fdsumus, Domine: ut, qui solemnitatem beatae Mariae Virginis Reginae nostrae celebramus; eius muniti praesidio, pacem in praesenti et gloriam in futuro consequi mereamur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Pro S. Petronilla*\nEx\u00e1udi nos, Deus, salut\u00e1ris noster: ut, sicut be\u00e1t\u00e6 Petron\u00edll\u00e6 V\u00edrginis tu\u00e6 festivit\u00e1te gaud\u00e9mus; ita pi\u00e6 devoti\u00f3nis erudi\u00e1mur aff\u00e9ctu.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Lectio libri Sapientiae.\n*Eccli 24:5; 24:7, 24:9-11; 24:30-31*\nEgo ex ore Altissimi prodivi, primogenita ante omnem creaturam; ego in altissimis habitavi, et thronus meus in columna nubis. In omni terra steti; et in omni populo, et in omni gente primatum habui, et omnium excellentium et humilium corda virtute calcavi. Qui audit me, non confundetur, et qui operantur in me, non peccabunt; qui elucidant me, vitam aeternam habebunt.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Apo 19:16*\nIpse habet in vestimento et in femore suo scriptum: Rex regum et Dominus dominantium\n*Ps 44:10*\nRegina adstat ad dexteram eius, ornata auro ex Ophir. Alleluia, alleluia.\nV. Salve, Regina misericordiae, tu nos ab hoste protege, et mortis hora suscipe. Alleluia.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Gaude, Maria Virgo, cunctas haereses sola interemisti.\nV. Quae Gabrielis Archangeli dictis credidisti.\nV. Dum Virgo Deum et hominem genuisti: et post partum, Virgo, inviolata permansisti.\nV. Dei Genetrix, intercede pro nobis.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequentia sancti Evangelii secundum Lucam.\n*Luc 1:26-33*\nIn illo tempore: Missus est Angelus Gabriel a Deo in civitatem Galileae, cui nomen Nazareth, ad Virginem desponsatam viro, cui nomen erat Ioseph, de domo David, et nomen Virginis Maria. Et ingressus Angelus ad eam, dixit: Ave, gratia plena: Dominus tecum: benedicta tu in mulieribus. Quae cum audisset, turbata est in sermone eius: et cogitabat, qualis esset ista salutatio. Et ait Angelus ei: Ne timeas, Maria, invenisti enim gratiam apud Deum: ecce concipies in utero, et paries filium, et vocabis nomen eius Iesum. Hic erit magnus, et Filius Altissimi vocabitur, et dabit illi Dominus Deus sedem David patris eius: et regnabit in domo Iacob in aeternum, et regni eius non erit finis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "Regali ex progenie Maria exorta refulget; cuius praescibus nos adiuvari, mente et spiritu devotissime poscimus. (Alleluia.)", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Accipe, qu\u01fdsumus, Domine, munera laetantis Ecclesiae, et, beatae Virginis Mariae Reginae suffragantibus meritis, ad nostrae salutis auxilium provenire concede.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro S. Petronilla*\nAcc\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "Regina mundi dignissima, Maria Virgo perpetua, intercede pro nostra pace et salute, quae genuisti Christum Dominum, Salvatorem omnium. (Alleluia.)", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Celebratis solemniis, Domine, quae pro sanctae Mariae Reginae nostrae festivitate (memoria) peregimus: eius, qu\u01fdsumus, nobis intercessione fiant salutaria; in cuius honore sunt exsultanter impleta.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro S. Petronilla*\nSati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "Radujmy si\u0119 wszyscy w Panu, obchodz\u0105c uroczysto\u015b\u0107 ku czci Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej; z Jej uroczysto\u015bci raduj\u0105 si\u0119 Anio\u0142owie i wychwalaj\u0105 Syna Bo\u017cego. (O. W. Alleluja, alleluja.)\n*Ps 44:2*\nZ mego serca p\u0142ynie pi\u0119kne s\u0142owo, pie\u015b\u0144 moj\u0105 \u015bpiewam dla Kr\u00f3la.\nChwa\u0142a Ojcu.\nRadujmy si\u0119 wszyscy w Panu, obchodz\u0105c uroczysto\u015b\u0107 ku czci Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej; z Jej uroczysto\u015bci raduj\u0105 si\u0119 Anio\u0142owie i wychwalaj\u0105 Syna Bo\u017cego. (O. W. Alleluja, alleluja.)", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Przy obchodzie uroczysto\u015bci Na\u015bwi\u0119tszej Maryi Panny, Kr\u00f3lowej naszej, prosimy Ci\u0119, Panie, spraw, aby\u015bmy wsparci Jej opiek\u0105 mogli obecnie osi\u0105ga\u0107 pok\u00f3j, a w przysz\u0142o\u015bci chwa\u0142\u0119.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Petroneli*\nWys\u0142uchaj nas, Bo\u017ce, nasz Zbawicielu, i spraw, aby\u015bmy raduj\u0105c si\u0119 z uroczysto\u015bci \u015bwi\u0119tej Twojej Dziewicy Petroneli, nabyli uczucia synowskiego oddania.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 24:5; 24:7, 24:9-11; 24:30-31*\n*Przywileje Maryi zosta\u0142y przewidziane w odwiecznym planie zbawienia.*\nJam wysz\u0142a z ust Najwy\u017cszego, pierworodna mi\u0119dzy wszystkim stworzeniem. Ja mieszka\u0142am na wysoko\u015bci, a stolica moja na s\u0142upie ob\u0142oku. Sta\u0142am na ca\u0142ej ziemi i mi\u0119dzy wszelkim ludem, i w ka\u017cdym narodzie mia\u0142am pierwsze\u0144stwo, a wszystkich wysokich i niskich serca moc\u0105 podepta\u0142am. Kto mnie s\u0142ucha, nie b\u0119dzie zawstydzony, a kt\u00f3rzy przeze mnie dzia\u0142aj\u0105, nie zgrzesz\u0105. Kt\u00f3rzy mnie obja\u015bniaj\u0105, b\u0119d\u0105 mie\u0107 \u017cywot wieczny.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ap 19:16*\nNa szacie i na biodrze swoim ma on wypisane: Kr\u00f3l kr\u00f3l\u00f3w i Pan panuj\u0105cych.\n*Ps 44:10*\nKr\u00f3lowa po prawicy Twojej stoi strojna w z\u0142oto z Ofir. Alleluja, alleluja.\nV. Witaj Kr\u00f3lowo mi\u0142osierdzia, Ty nas bro\u0144 od wroga i przyjmij w godzin\u0119 \u015bmierci. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 1:26-33*\nOnego czasu: Pos\u0142any jest Anio\u0142 Gabriel od Boga do miasta galilejskiego, kt\u00f3re zwano Nazaret, do Panny po\u015blubionej m\u0119\u017cowi, kt\u00f3remu by\u0142o na imi\u0119 J\u00f3zef, z domu Dawidowego, a imi\u0119 Panny Maryja. I wszed\u0142szy do Niej Anio\u0142 rzek\u0142: \u00abB\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami\u00bb.\nA Ona, gdy pos\u0142ysza\u0142a, zatrwo\u017cy\u0142a si\u0119 na s\u0142owa jego i rozwa\u017ca\u0142a, c\u00f3\u017c by to by\u0142o za pozdrowienie. I rzek\u0142 Jej Anio\u0142: \u00abNie l\u0119kaj si\u0119, Maryjo, albowiem znalaz\u0142a\u015b \u0142ask\u0119 u Boga! Oto poczniesz w \u0142onie i porodzisz syna, i nadasz Mu imi\u0119 Jezus. Ten b\u0119dzie wielkim i Synem Najwy\u017cszego nazwany b\u0119dzie. I da Mu Pan B\u00f3g stolic\u0119 Dawida, ojca Jego i b\u0119dzie kr\u00f3lowa\u0142 nad domem Jakubowym na wieki, a kr\u00f3lestwu Jego nie b\u0119dzie ko\u0144ca\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "Maryja ja\u015bnieje pochodzeniem z kr\u00f3lewskiego rodu; sercem i dusz\u0105 pobo\u017cnie prosimy, by nas wspiera\u0142a swymi modlitwami. (O. W. Alleluja.)", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, przyjmij dary rozradowanego Ko\u015bcio\u0142a i spraw, niech przez zas\u0142ugi Naj\u015bwi\u0119tszej Maryi Panny Kr\u00f3lowej przyczyni\u0105 si\u0119 do naszego zbawienia.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Petroneli*\nPrzyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci \u015awi\u0119tych Twoich, wiedz\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "Najdostojniejsza Kr\u00f3lowo \u015bwiata, Maryjo zawsze Dziewico, kt\u00f3ra\u015b porodzi\u0142a Zbawc\u0119 wszystkich, Chrystusa Pana, pro\u015b o pok\u00f3j i zbawienie dla nas. (O. W. Alleluja.)", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, by uroczysta ofiara, z\u0142o\u017cona dla uczczenia \u015bwi\u0119ta Naj\u015bwi\u0119tszej Maryi, naszej Kr\u00f3lowej, pos\u0142u\u017cy\u0142a nam ku zbawieniu za wstawiennictwem Tej, na kt\u00f3rej cze\u015b\u0107 spe\u0142nili\u015bmy j\u0105 z rado\u015bci\u0105.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Petroneli*\nNasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

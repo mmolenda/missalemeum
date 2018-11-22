@@ -1,0 +1,156 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2018-04-14", 
+    "description": "Justyn, filozof poga\u0144ski, przyj\u0105\u0142 chrze\u015bcija\u0144stwo oko\u0142o roku 130 \u0456 \u0440\u043e\u015bwi\u0119ci\u0142 si\u0119 obronie prawdziwej wiary. W Dialogu z Tryfonem wykaza\u0142, \u017ce Chrystus jest prawdziwym Mesjaszem, poniewa\u017c spe\u0142ni\u0142y si\u0119 na Nim proroctwa Starego Testamentu. W dwu Apologiach wiary chrze\u015bcija\u0144skiej, skierowanych do cesarzy Antonina i Marka Aureliusza, broni\u0142 chrze\u015bcijan przed zarzutami ze strony pogan, dowodz\u0105c, \u017ce chrze\u015bcijanie s\u0105 r\u00f3wnie dobrymi obywatelami. Pierwsza Apologia zawiera opis obrz\u0119d\u00f3w Chrztu \u015bwi\u0119tego i Eucharystii. Jest to cenne \u015bwiadectwo z \u017cycia Ko\u015bcio\u0142a w po\u0142owie II wieku. \u015aw. Justyn poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w Rzymie w 165 roku.", 
+    "tempora": "Sobota po Niedzieli Bia\u0142ej", 
+    "title": "\u015aw. Justyna, M\u0119czennika"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 118:85; 118:46;*\nNarrav\u00e9runt mihi in\u00edqui fabulati\u00f3nes, sed non ut lex tua: ego autem loqu\u00e9bar de testim\u00f3niis tuis in consp\u00e9ctu regum, et non confund\u00e9bar. (Alleluia, alleluia.)\n*Ps 118:1;*\nBe\u00e1ti immacul\u00e1ti in via, qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nNarrav\u00e9runt mihi in\u00edqui fabulati\u00f3nes, sed non ut lex tua: ego autem loqu\u00e9bar de testim\u00f3niis tuis in consp\u00e9ctu regum, et non confund\u00e9bar. (Alleluia, alleluia.)", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui per stult\u00edtiam Crucis emin\u00e9ntem Jesu Christi sci\u00e9ntiam be\u00e1tum Just\u00ednum M\u00e1rtyrem mirab\u00edliter docu\u00edsti: ejus nobis intercessi\u00f3ne conc\u00e9de; ut, err\u00f3rum circumventi\u00f3ne dep\u00falsa, f\u00eddei firmit\u00e1tem consequ\u00e1mur.\nPer e\u00fandem.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Commemoratio pro Ss. Tiburtii, Valeriani et Maximi Mm.,*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Tib\u00fartii, Valeri\u00e1ni et M\u00e1ximi soll\u00e9mnia c\u00f3limus; e\u00f3rum \u00e9tiam virt\u00fates imit\u00e9mur.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 1:18-25; 1:30;*\nFratres: Verbum crueis pere\u00fantibus quidem stult\u00edtia est: iis autem, qui salvi fiunt, id est nobis, Dei virtus est. Scriptum est enim: Perdam sapi\u00e9ntiam sapi\u00e9ntium et prud\u00e9ntiam prud\u00e9ntium reprob\u00e1bo. Ubi s\u00e1piens? ubi scriba? ubi conquis\u00edtor hujus saeculi? Nonne stultam fecit Deus sapi\u00e9ntiam hujus mundi? Nam quia in Dei sapi\u00e9ntia non cogn\u00f3vit mundus per sapi\u00e9ntiam Deum: placuit Deo per stult\u00edtiam pr\u00e6dicati\u00f3nis salvos f\u00e1cere cred\u00e9ntes. Qu\u00f3niam et Judaei signa petunt, et Gr\u00e6ci sapi\u00e9ntiam qu\u00e6runt: nos autem pr\u00e6dic\u00e1mus Christum crucif\u00edxum: Judaeis quidem sc\u00e1ndalum, g\u00e9ntibus autem stult\u00edtiam, ipsis autem voc\u00e1tis Judaeis, atque Gr\u00e6cis. Christum Dei virt\u00fatem et Dei sapi\u00e9ntiam: quia, quod stultum est Dei, sapi\u00e9ntius est hom\u00ednibus: et, quod inf\u00edrmum est Dei, f\u00f3rtius est hom\u00ednibus. Ex ipso autem vos estis in Christo Jesu, qui factus est nobis sapi\u00e9ntia a Deo et just\u00edtia ei sanctific\u00e1tio et red\u00e9mptio.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*1 Cor 3:19; 3:20*\nSapi\u00e9ntia hujus mundi stult\u00edtia est apud Deum, scriptum est enim: D\u00f3minus novit cogitati\u00f3nes sapi\u00e9ntium, qu\u00f3niam van\u00e6 sunt\n*1 Cor 1:19*\nPerdam sapi\u00e9ntiam sapi\u00e9ntium et prudentiam prud\u00e9ntium reprob\u00e1bo. Alleluja, alleluja\nSapi\u00e9ntia hujus mundi stult\u00edtia est apud Deum, scriptum est enim: D\u00f3minus novit cogitati\u00f3nes sapi\u00e9ntium, qu\u00f3niam van\u00e6 sunt, alleluia\n*Phil 3:8*\nVer\u00famtamen ex\u00edstimo \u00f3mnia detrim\u00e9ntum esse propter emin\u00e9ntem sci\u00e9ntiam Jesu Christi, D\u00f3mini mei. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*1 Cor 2:2; 2:7-8*\nNon judic\u00e1vi me scire \u00e1liquid inter vos nisi Jesum Christum, et hunc crucif\u00edxum.\nV. L\u00f3quimur Dei sapi\u00e9ntiam in myst\u00e9rio, qu\u00e6 absc\u00f3ndita est, quam pr\u00e6destin\u00e1vit\nDeus ante saecula in gl\u00f3riam nostram.\nV. Quam nemo pr\u00edncipum hujus saeculi cogn\u00f3vit. Si enim cognov\u00edssent, numquam D\u00f3minum gl\u00f3ri\u00e6 crucifix\u00edssent.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 12:2-8*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Nihil est op\u00e9rtum, quod non revel\u00e9tur, neque absc\u00f3nditum, quod non sci\u00e1tur. Qu\u00f3niam qu\u00e6 in t\u00e9nebris dix\u00edstis, in l\u00famine dic\u00e1ntur: et quod in aurem loc\u00fati estis in cub\u00edculis, pr\u00e6dic\u00e1bitur in tectis. Dico autem vobis am\u00edcis meis: Ne terre\u00e1mini ab his, qui occidunt corpus et post h\u00e6c non habent \u00e1mplius, quid f\u00e1ciant. Ost\u00e9ndam autem vobis, quem time\u00e1tis: tim\u00e9te eum, qui, postquam occ\u00eddent, habet potest\u00e1tem m\u00edttere in geh\u00e9nnam; ita dico vobis, hunc tim\u00e9te. Nonne quinque p\u00e1sseres v\u00e9neunt dip\u00f3ndio, et unus ex illis non est in oblivi\u00f3ne coram Deo? Sed et cap\u00edlli capitis vestri omnes numer\u00e1ti sunt. Nol\u00edte ergo tim\u00e9re: multis pass\u00e9ribus pluris estis vos. Dico autem vobis: Omnis, quic\u00famque conf\u00e9ssus f\u00faerit me coram hom\u00ednibus, et F\u00edlius h\u00f3minis confit\u00e9bitur illum coram Angelis Dei.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*1 Cor 2:2;*\nNon enim judic\u00e1vi me scire \u00e1liquid inter vos, nisi Jesum Christum, et hunc crucif\u00edxum. (Alleluia.)", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "M\u00fanera nostra, D\u00f3mine Deus, ben\u00edgnus s\u00fascipe: quorum mir\u00e1bile myst\u00e9rium adv\u00e9rsum impi\u00f3rum cal\u00famnias str\u00e9nue def\u00e9ndit.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Commemoratio pro Ss. Tiburtii, Valeriani et Maximi Mm.*\nH\u00e6c h\u00f3stia, qu\u01fdsumus, D\u00f3mine, quam sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum natal\u00edtia recens\u00e9ntes off\u00e9rimus: et v\u00edncula nostr\u00e6 pravit\u00e1tis absolvat, et tu\u00e6 nobis miseric\u00f3rdi\u00e6 dona conc\u00edliet.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*2 Tim 4:8;*\nRep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die justus judex. (Alleluia)", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Coel\u00e9sti alim\u00f3nia ref\u00e9cti, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, be\u00e1ti Just\u00edni M\u00e1rtyris tui m\u00f3nitis, de acc\u00e9ptis donis semper in grati\u00e1rum acti\u00f3ne mane\u00e1mus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Commemoratio pro Ss. Tiburtii, Valeriani et Maximi Mm.*\nSacro m\u00fanere sati\u00e1ti, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, quod d\u00e9bit\u00e6 servit\u00fatis celebr\u00e1mus off\u00edcio, salvati\u00f3nis tu\u00e6 senti\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 118:85; 118:46*\nBezbo\u017cni opowiadali mi ba\u015bnie, lecz one s\u0105 niczym wobec Twojego Prawa. Ja za\u015b \u015bwiadczy\u0142em o prawdzie Twojej wobec kr\u00f3l\u00f3w, a nie wstydzi\u0142em si\u0119. (Alleluja, alleluja.)\n*Ps 118:1;*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana, kt\u00f3rzy post\u0119puj\u0105 zgodnie z prawem Pana.\nChwa\u0142a Ojcu.\nBezbo\u017cni opowiadali mi ba\u015bnie, lecz one s\u0105 niczym wobec Twojego Prawa. Ja za\u015b \u015bwiadczy\u0142em o prawdzie Twojej wobec kr\u00f3l\u00f3w, a nie wstydzi\u0142em si\u0119. (Alleluja, alleluja.)", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry przez szale\u0144stwo Krzy\u017ca udzieli\u0142e\u015b \u015bwi\u0119temu M\u0119czennikowi Justynowi wznios\u0142ej znajomo\u015bci Jezusa Chrystusa; spraw za jego wstawiennictwem, aby\u015bmy odrzuciwszy otaczaj\u0105ce nas b\u0142\u0119dy osi\u0105gn\u0119li sta\u0142o\u015b\u0107 w wierze.\nPrzez tego\u017c Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015a\u015b. Tyburcjusza, Waleriana i Maksyma, M\u0119czennik\u00f3w*\nProsimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby\u015bmy czcz\u0105c uroczy\u015bcie \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Tyburcjusza, Waleriana i Maksyma, na\u015bladowali r\u00f3wnie\u017c ich cnoty.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 1:18-25; 1:30*\n*\u015aw. Justyn, podobnie jak \u015bw. Pawe\u0142, broni\u0142 wiary przed \u017cydami i poganami, kt\u00f3rzy nie chcieli uzna\u0107 ukrzy\u017cowanego Zbawiciela.*\n\nBracia: Nauka o krzy\u017cu dla tych, kt\u00f3rzy gin\u0105, jest g\u0142upstwem, lecz dla tych, kt\u00f3rzy dost\u0119puj\u0105 zbawienia, to jest dla nas, jest moc\u0105 Bo\u017c\u0105. Napisane jest bowiem:\nZniszcz\u0119 m\u0105dro\u015b\u0107 uczonych, a roztropno\u015b\u0107 przezornych odrzuc\u0119.\nGdzie\u017c m\u0119drzec? Gdzie\u017c uczony? Gdzie\u017c badacz tego \u015bwiata? Czy\u017c B\u00f3g nie obr\u00f3ci\u0142 w g\u0142upstwo m\u0105dro\u015bci tego \u015bwiata? Bo poniewa\u017c zrz\u0105dzeniem m\u0105dro\u015bci Bo\u017cej \u015bwiat nie pozna\u0142 Boga przez m\u0105dro\u015b\u0107, podoba\u0142o si\u0119 Bogu przez g\u0142upstwo przepowiadania zbawi\u0107 tych, kt\u00f3rzy uwierz\u0105.\nAlbowiem gdy \u017cydzi domagaj\u0105 si\u0119 cud\u00f3w, a Grecy szukaj\u0105 m\u0105dro\u015bci, my g\u0142osimy Chrystusa ukrzy\u017cowanego, b\u0119d\u0105cego zgorszeniem dla \u017cyd\u00f3w a g\u0142upstwem dla pogan. Dla tych jednak, kt\u00f3rzy s\u0105 wezwani, tak \u017byd\u00f3w jak i Grek\u00f3w, Chrystusa \u2014 moc Bo\u017c\u0105 i m\u0105dro\u015b\u0107 Bo\u017c\u0105. Bo to, co jest g\u0142upstwem u Boga, jest m\u0119drsze nad ludzi, a co s\u0142abe jest u Boga, mocniejsze jest nad ludzi.\nAle z Niego wy jeste\u015bcie w Chrystusie Jezusie, kt\u00f3ry sta\u0142 si\u0119 nam m\u0105dro\u015bci\u0105 od Boga, sprawiedliwo\u015bci\u0105, u\u015bwi\u0119ceniem i odkupieniem.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*1 Kor 3:19; 3:20*\nM\u0105dro\u015b\u0107 tego \u015bwiata g\u0142upstwem jest u Boga. Bo napisane jest: Pan zna zamierzenia m\u0119drc\u00f3w, \u017ce s\u0105 daremne.\n*1 Kor 1:19*\nZniszcz\u0119 m\u0105dro\u015b\u0107\u00a0uczonych, a roztropno\u015b\u0107 przezornych odrzuc\u0119. Alleluja, alleluja.\nM\u0105dro\u015b\u0107\u00a0\u015bwiata tego g\u0142upstwem jest u Boga. Bo napisane jest: Pan zna zamierzenia m\u0119drc\u00f3w, \u017ce s\u0105 daremne. Alleluja.\n*Flp 3:8*\nOwszem, uznam wszystko za szkod\u0119 wobec wznios\u0142ego poznania Jezusa Chrystusa, Pana mojego. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*1 Kor 2:2; 2:7-8*\nNie mniema\u0142em, \u017cebym mia\u0142 co umie\u0107 mi\u0119dzy wami pr\u00f3cz Jezusa Chrystusa, i to ukrzy\u017cowanego.\nV. G\u0142osimy m\u0105dro\u015b\u0107 Bo\u017c\u0105 zawart\u0105 w tajemnicy zakrytej przez Boga i przeznaczonej przed wiekami ku chwale naszej.\nV. Kt\u00f3rej nikt z w\u0142adc\u00f3w tego \u015bwiata nie pozna\u0142. Bo gdyby byli poznali, nigdy by Pana chwa\u0142y nie ukrzy\u017cowali.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 12:2-8*\n*\u015aw. Justyn m\u0119\u017cnie wyznaj\u0105c Chrystusa wobec ludzi zas\u0142u\u017cy\u0142 na chwa\u0142\u0119 w niebie.*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abNie masz nic ukrytego, co by nie mia\u0142o by\u0107 ujawnione, ani te\u017c tajemnego, o czym by si\u0119 dowiedzie\u0107 nie miano. Albowiem co m\u00f3wili\u015bcie w mroku, w \u015bwietle powiedziane b\u0119dzie, i co\u015bcie do ucha szeptali w komorach, na dachach og\u0142oszone b\u0119dzie. A powiadam wam, przyjacio\u0142om moim: Nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, a potem nic wi\u0119cej uczyni\u0107 nie mog\u0105. Ale wska\u017c\u0119 wam, kogo si\u0119 l\u0119ka\u0107 macie: l\u0119kajcie si\u0119 Tego, kt\u00f3ry po \u015bmierci ma moc wrzuci\u0107 do piek\u0142a. Zaiste, m\u00f3wi\u0119 wam, Tego si\u0119 l\u0119kajcie. Czy\u017c nie sprzedaje si\u0119 pi\u0119ciu wr\u00f3bli za dwa pieni\u0105\u017cki, a ani jeden z nich nie jest w zapomnieniu u Boga? Ale i w\u0142osy na g\u0142owie waszej wszystkie s\u0105 policzone. Nie l\u0119kajcie si\u0119 tedy, wi\u0119cej znaczycie przecie\u017c ni\u017c wiele wr\u00f3bli. A powiadam wam: Ktobykolwiek wyzna\u0142 mi\u0119 przed lud\u017ami, i Syn Cz\u0142owieczy wyzna go przed Anio\u0142ami Bo\u017cymi\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*1 Kor 2:2*\nNie mniema\u0142em, \u017cebym mia\u0142 co umie\u0107 mi\u0119dzy wami pr\u00f3cz Jezusa Chrystusa, i to ukrzy\u017cowanego. (Alleluja.)", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie Bo\u017ce, przyjmij \u0142askawie nasze ofiary, kt\u00f3rych przedziwnej tajemnicy \u015bwi\u0119ty Justyn M\u0119czennik tak m\u0119\u017cnie broni\u0142 przeciw oszczerstwom pogan.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015a\u015b. Tyburcjusza, Waleriana i Maksyma, M\u0119czennik\u00f3w*\nProsimy Ci\u0119, Panie, niech ta ofiara, kt\u00f3r\u0105 sk\u0142adamy wspominaj\u0105c narodziny dla nieba \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich, oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twego mi\u0142osierdzia.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*2 Tm 4:8*\nOd\u0142o\u017cony mi jest wieniec sprawiedliwo\u015bci, kt\u00f3ry mi wr\u0119czy Pan, s\u0119dzia sprawiedliwy w on dzie\u0144. (Alleluja.)", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Pokrzepieni niebieskim pokarmem, kornie b\u0142agamy Ci\u0119, Panie, aby\u015bmy wed\u0142ug wskaza\u0144 \u015bwietego Justyna, Twego M\u0119czennika, zawsze trwali w dzi\u0119kczynieniu za otrzymane dary.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Wspomnienie \u015a\u015b. Tyburcjusza, Waleriana i Maksyma, M\u0119czennik\u00f3w*\nDarem \u015bwi\u0119tym nasyceni, kornie b\u0142agamy Ci\u0119, Panie, aby\u015bmy sk\u0142adaj\u0105c przez t\u0119 ofiar\u0119 nale\u017cny Ci ho\u0142d, otrzymali obfitsze owoce Twojego Odkupienia.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

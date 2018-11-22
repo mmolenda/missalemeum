@@ -1,0 +1,158 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e", 
+      "Wspomnienie", 
+      "Szaty czerwone"
+    ], 
+    "date": "2018-08-07", 
+    "description": "\u015aw. Kajetan urodzi\u0142 si\u0119 w Vicenza w Italii roku 1480. Razem z Piotrem Carafa za\u0142o\u017cy\u0142 pierwsze zgromadzenie Kleryk\u00f3w Regularnych, nazwanych p\u00f3\u017aniej Taatynami. Zakonnicy ci nie posiadali niczego i nie prosili o ja\u0142mu\u017cn\u0119, zdaj\u0105c si\u0119 ca\u0142kowicie na \u0142ask\u0119 Opatrzno\u015bci (kolekta). Z powodu wielkiej gorliwo\u015bci nazwano \u015bw. Kajetana \u00ab\u0142owc\u0105 dusz\u00bb. Zmar\u0142 on w Neapolu 7 sierpnia 1547 roku.Msza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem kolekty, sekrety i pokomunii\u015aw. Donata, Biskupa i M\u0119czennika\u015aw. Donat, biskup Arezzo w Italii, poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 oko\u0142o roku 360.", 
+    "tempora": "Wtorek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Kajetana, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 36:30-31.*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui be\u00e1to Cajet\u00e1no Confess\u00f3ri tuo apost\u00f3licam viv\u00e9ndi formam imit\u00e1ri tribu\u00edsti: da nobis, ejus intercessi\u00f3ne et ex\u00e9mplo, in te semper conf\u00eddere et sola c\u00e6l\u00e9stia desider\u00e1re.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Pro S. Donati*\nDeus, tu\u00f3rum gl\u00f3ria sacerd\u00f3tum: pr\u00e6sta, qu\u01fdsumus, ut sancti Martyris tui et Ep\u00edscopi Don\u00e1ti, cujus festa g\u00e9rimus, senti\u00e1mus aux\u00edlium.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 31:8-11*\nBe\u00e1tus vir, qui inv\u00e9ntus est sine m\u00e1cula, et qui post aurum non \u00e1biit, nec sper\u00e1vit in pec\u00fania et thes\u00e1uris. Quis est hic, et laud\u00e1bimus eum? fecit enim mirab\u00edlia in vita sua. Qui prob\u00e1tus est in illo, et perf\u00e9ctus est, erit illi gl\u00f3ria \u00e6t\u00e9rna: qui p\u00f3tuit tr\u00e1nsgredi, et non est transgr\u00e9ssus: f\u00e1cere mala, et non fecit: \u00eddeo stab\u00edlita sunt bona ill\u00edus in D\u00f3mino, et eleemos\u00fdnas ill\u00edus enarr\u00e1bit omnis eccl\u00e9sia sanct\u00f3rum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja\n*Jas 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cumprob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 6:24-33*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Nemo potest du\u00f3bus d\u00f3minis serv\u00edre: aut enim unum \u00f3dio hab\u00e9bit, et \u00e1lterum d\u00edliget: aut unum sustin\u00e9bit, et alterum cont\u00e9mnet. Non pot\u00e9stis Deo serv\u00edre et mamm\u00f3na;. Ideo dico vobis, ne soll\u00edciti sitis \u00e1nim\u00e6 vestr\u00e6, quid manduc\u00e9tis, neque c\u00f3rpori vestro, quid indu\u00e1mini. Nonne \u00e1nima plus est quam esca: et corpus plus quam vestim\u00e9ntum? Resp\u00edcite volat\u00edlia coeli, qu\u00f3niam non serunt neque metunt neque c\u00f3ngregant in h\u00f3rrea: et Pater vester coel\u00e9stis pascit illa. Nonne vos magis pluris estis illis? Quis autem vestrum c\u00f3gitans potest adj\u00edcere ad stat\u00faram suam c\u00fabitum unum? Et de vestim\u00e9nto quid soll\u00edciti estis? Consider\u00e1te l\u00edlia agri, qu\u00f3modo crescunt: non l\u00e1borant neque nent. Dico autem vobis, qu\u00f3niam nec S\u00e1lomon in omni gl\u00f3ria sua coop\u00e9rtus est sicut unum ex istis. Si autem foenum agri, quod h\u00f3die est et cras in cl\u00edbanum m\u00edttitur, Deus sic vestit: quanto magis vos m\u00f3dic\u00e6 f\u00eddei? Nol\u00edte ergo soll\u00edciti esse, dic\u00e9ntes: Quid manduc\u00e1bimus aut quid bib\u00e9mus aut quo operi\u00e9mur? H\u00e6c enim \u00f3mnia gentes inqu\u00edrunt. Scit enim Pater vester, quia his \u00f3mnibus indig\u00e9tis. Quaerite ergo primum regnum Dei et just\u00edtiam ejus: et h\u00e6c \u00f3mnia adjici\u00e9ntur vobis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Pr\u00e6sta nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut nostr\u00e6 humilit\u00e1tis obl\u00e1tio, et pro tu\u00f3rum tibi grata sit hon\u00f3re Sanct\u00f3rum, et nos c\u00f3rpore p\u00e1riter et mente pur\u00edficet.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro S. Donati*\nPr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut sancti Martyris tu iet Episcopi Donati intercessi\u00f3ne, quem ad laudem n\u00f3minis tui dic\u00e1tis mun\u00e9ribus honor\u00e1mus, pi\u00e6 nobis fructus devoti\u00f3nis accr\u00e9scat.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 24:46-47*\nBe\u00e1tus servus, quem, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntem: amen, dico vobis, super \u00f3mnia bona sua const\u00edtuet eum.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro S. Donati*\nOmn\u00edpotens et mis\u00e9ricors Deus, qui nos sacrament\u00f3rum tu\u00f3rum et part\u00edcipes \u00e9fficis et min\u00edstros: pr\u00e6sta, qu\u01fdsumus; ut, interced\u00e9nte be\u00e1to Don\u00e1to M\u00e1rtyre tuo atque Pont\u00edfice, ej\u00fasdem profici\u00e1mus et f\u00eddei cons\u00f3rtio et digno serv\u00edtio.\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry pozwoli\u0142e\u015b \u015bwi\u0119temu Kajetanowi, Twemu Wyznawcy, na\u015bladowa\u0107 spos\u00f3b \u017cycia Aposto\u0142\u00f3w; daj nam za jego wstawiennictwem i przyk\u0142adem pok\u0142ada\u0107 zawsze nadziej\u0119 w Tobie i pragn\u0105\u0107 jedynie tego, co niebieskie.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Donata, Biskupa i M\u0119czennika*\nBo\u017ce, chwa\u0142o Twych kap\u0142an\u00f3w, daj, prosimy Ci\u0119, niech doznamy pomocy \u015bwi\u0119tego Donata, Twego M\u0119czennika i Biskupa, kt\u00f3rego \u015bwi\u0119to obchodzimy.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 31:8-11*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry okaza\u0142 si\u0119 bez zmazy i kt\u00f3ry nie ubiega\u0142 si\u0119 za z\u0142otem, i nadziei nie pok\u0142ada\u0142 w pieni\u0105dzach i skarbach. Kt\u00f3\u017c to jest? \u2013 a chwali\u0107 go b\u0119dziemy. Bo w \u017cyciu swym dziw\u00f3w dokona\u0142. Kto w tej sprawie jest do\u015bwiadczony i doskona\u0142y, b\u0119dzie mia\u0142 wieczn\u0105 chwa\u0142\u0119: kt\u00f3ry m\u00f3g\u0142 przest\u0105pi\u0107, a nie przest\u0105pi\u0142, \u017ale czyni\u0107, a nie uczyni\u0142; przeto pewne s\u0105 skarby jego u Pana, a ja\u0142mu\u017cny jego wys\u0142awia\u0107 b\u0119dzie zgromadzenie \u015bwi\u0119tych.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 6:24-33*\n*Chrystus nie zaleca lenistwa, lecz gani zbytni\u0105 trosk\u0119 o sprawy materialne, po\u0142\u0105czone z brakiem ufno\u015bci w Opatrzno\u015b\u0107 Bo\u017c\u0105.*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abNikt nie mo\u017ce dwom panom s\u0142u\u017cy\u0107, bo albo jednego b\u0119dzie nienawidzi\u0142, a drugiego b\u0119dzie mi\u0142owa\u0142: albo przy jednym sta\u0107 b\u0119dzie, a drugim wzgardzi. Nie mo\u017cecie Bogu s\u0142u\u017cy\u0107 i mamonie.\nA przeto powiadam wam, nie troszczcie si\u0119 o \u017cycie wasze, co by\u015bcie jedli, ani o cia\u0142o wasze, w co by\u015bcie je przyoblec mieli. Czy\u017c \u017cycie nie jest wa\u017cniejsze ni\u017c pokarm, a cia\u0142o ni\u017c odzienie? Wejrzyjcie na ptaki niebieskie, \u017ce nie siej\u0105, ani \u017cn\u0105, ani zbieraj\u0105 do gumien, a Ojciec wasz niebieski \u017cywi je. Czy\u015bcie wy nie daleko wa\u017cniejsi ni\u017ali one? I kto z was przemy\u015bliwaniem mo\u017ce doda\u0107 do wzrostu swego \u0142okie\u0107 jeden?\nA o odzienie, czemu si\u0119 troszczycie? Przypatrzcie si\u0119 liliom polnym, jako rosn\u0105: nie pracuj\u0105 ani prz\u0119d\u0105. A powiadam wam, \u017ce nawet Salomon we wszystkiej chwale swojej nie by\u0142 tak przybrany jak jedna z nich. Je\u015bli wi\u0119c t\u0119 traw\u0119 poln\u0105, kt\u00f3ra dzi\u015b jest, a jutro b\u0119dzie w piec wrzucona, B\u00f3g tak przyodziewa, jako\u017c daleko wi\u0119cej was, ma\u0142ej wiary. Nie troszczcie\u017c si\u0119 tedy, m\u00f3wi\u0105c: co b\u0119dziemy je\u015b\u0107, albo co b\u0119dziemy pi\u0107, albo czym si\u0119 b\u0119dziemy przyodziewa\u0107? Bo o to wszystko poganie si\u0119 pilnie staraj\u0105. Albowiem wie Ojciec wasz niebieski, \u017ce tego wszystkiego potrzebujecie. Szukajcie\u017c tedy naprz\u00f3d Kr\u00f3lestwa Bo\u017cego i sprawiedliwo\u015bci jego, a to wszystko b\u0119dzie wam przydane\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby nasza ofiara, kt\u00f3r\u0105 w pokorze sk\u0142adamy Ci ku czci Twoich \u015awi\u0119tych, by\u0142a Tobie mi\u0142a i oczy\u015bci\u0142a nasze dusze i cia\u0142a.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Donata, Biskupa i M\u0119czennika*\nSpraw, prosimy Ci\u0119, Panie, aby dzi\u0119ki wstawiennictwu \u015bw. Donata, Twego M\u0119czennika i Biskupa, kt\u00f3rego czcimy darami z\u0142o\u017conymi ku chwale Twojego imienia, wzrasta\u0142 w nas owoc synowskiego oddania.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby pokarm niebieski, kt\u00f3ry\u015bmy przyj\u0119li, chroni\u0142 nas od wszelkich przeciwno\u015bci za wstawiennictwem \u015bwi\u0119tego Kajetana, Twojego Wyznawcy.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Donata, Biskupa i M\u0119czennika*\nWszechmog\u0105cy i mi\u0142osierny Bo\u017ce, kt\u00f3ry czynisz nas uczestnikami i szafarzami Twoich Sakrament\u00f3w, daj prosimy, aby\u015bmy za wstawiennictwem \u015bw. Donata, Twego M\u0119czennika i Biskupa, coraz wi\u0119cej jednoczyli si\u0119 z nim w wierze i godnej s\u0142u\u017cbie.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

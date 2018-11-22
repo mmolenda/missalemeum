@@ -82,10 +82,12 @@ $(document).ready(function()    {
 
             let prevYear = parseInt(year) - 1;
             let prevYearLastDay = prevYear + "-12-31";
-            $(renderTemplate(templateSidebarCalendarItemYear, {
-                date: prevYearLastDay,
-                year: prevYear
-            })).appendTo(sidebarUl);
+            if (prevYearLastDay >= $datetimepicker4.datetimepicker("minDate")._i) {
+                $(renderTemplate(templateSidebarCalendarItemYear, {
+                    date: prevYearLastDay,
+                    year: prevYear
+                })).appendTo(sidebarUl);
+            }
 
             $.each(data, function(date, day) {
                 let additional_info = [date];
@@ -110,10 +112,12 @@ $(document).ready(function()    {
 
             let nextYear = parseInt(year) + 1;
             let nextYearFirstDay = nextYear + "-01-01";
-            $(renderTemplate(templateSidebarCalendarItemYear, {
-                date: nextYearFirstDay,
-                year: nextYear
-            })).appendTo(sidebarUl);
+            if (nextYearFirstDay <= $datetimepicker4.datetimepicker("maxDate")._i) {
+                $(renderTemplate(templateSidebarCalendarItemYear, {
+                    date: nextYearFirstDay,
+                    year: nextYear
+                })).appendTo(sidebarUl);
+            }
 
             markItemActiveCallback(date);
             $searchInput.attr("placeholder", "Szukaj w " + year + "...");
@@ -239,6 +243,8 @@ $(document).ready(function()    {
 
     $datetimepicker4.datetimepicker({
         format: "YYYY-MM-DD",
+        minDate: "2017-01-01",
+        maxDate: "2019-12-31",
         useCurrent: false,
         locale: "pl",
         widgetPositioning: {

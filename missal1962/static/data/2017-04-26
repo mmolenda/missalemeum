@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2017-04-26", 
+    "description": "\u015aw. Klet by\u0142 drugim nast\u0119pc\u0105 \u015bw. Piotra na stolicy papieskiej w latach 76-88. Zosta\u0142 um\u0119czony za Domicjana. \u015aw. Marcelin rz\u0105dzi\u0142 Ko\u015bcio\u0142em w latach 296\u2013304. Zosta\u0142 \u015bci\u0119ty w czasie okrutnego prze\u015bladowania za Dioklecjana. Imiona ich wymienia si\u0119 w kanonie Mszy \u015bw.Msza wsp\u00f3lna nr 8 Si diligis.", 
+    "tempora": "\u015aroda po Niedzieli Bia\u0142ej", 
+    "title": "\u015a\u015b. Kleta i Marcelina, Papie\u017cy i M\u0119czennik\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Joannes 21:15-17*\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me, nec delect\u00e1sti inim\u00edcos meos super me.\nGl\u00f3ria Patri.\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Gregem tuum, Pastor \u00e6t\u00e9rne, plac\u00e1tus int\u00e9nde: et, per be\u00e1tum N. (M\u00e1rtyrem tuum atque) Summum Pont\u00edficem, perp\u00e9tua protecti\u00f3ne cust\u00f3di; quem tot\u00edus Eccl\u00e9si\u00e6 pr\u00e6stit\u00edsti esse past\u00f3rem.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:1-4; 5:10-11.*\nCar\u00edssimi: Seni\u00f3res, qui in vobis sunt, obs\u00e9cro cons\u00e9nior et testis Christi passi\u00f3num, qui et ejus, qu\u00e6 in fut\u00faro revel\u00e1nda est, gl\u00f3ri\u00e6 communic\u00e1tor: p\u00e1scite qui in vobis est gregem Dei, provid\u00e9ntes non co\u00e1cte, sed spont\u00e1nee sec\u00fandum Deum, neque turpis lucri gr\u00e1tia, sed volunt\u00e1rie; neque ut domin\u00e1ntes in cleris, sed forma facti gregis ex \u00e1nimo. Et, cum app\u00e1ruerit princeps past\u00f3rum, percipi\u00e9tis immarcesc\u00edbilem gl\u00f3ri\u00e6 cor\u00f3nam. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum. Amen.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum. Allel\u00faja, allel\u00faja\n*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum\n*Ps 39:10-11*\nAnnunti\u00e1vi just\u00edtiam tuam in eccl\u00e9sia magna, ecce, l\u00e1bia mea non prohib\u00e9bo: D\u00f3mine, tu scisti.\nV. Just\u00edtiam tuam non absc\u00f3ndi in corde meo: verit\u00e1tem tuam et salut\u00e1re tuum dixi.\nV. Non absc\u00f3ndi miseric\u00f3rdiam tuam, et verit\u00e1tem tuam a conc\u00edlio multo.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 16:13-19*\nIn illo t\u00e9mpore: Venit Jesus in partes C\u00e6sar\u00e9\u00e6 Phil\u00edppi, et interrog\u00e1bat disc\u00edpulos suos, dicens: Quem dicunt h\u00f3mines esse F\u00edlium h\u00f3minis? At illi dix\u00e9runt: Alii Jo\u00e1nnem Bapt\u00edstam, alii autem El\u00edam, alii vero Jerem\u00edam aut unum ex proph\u00e9tis. Dicit illis Jesus: Vos autem quem me esse d\u00edcitis? Resp\u00f3ndens Simon Petrus, dixit: Tu es Christus, F\u00edlius Dei vivi. Resp\u00f3ndens autem Jesus, dixit ei: Be\u00e1tus es, Simon Bar Jona: quia caro et sanguis non revel\u00e1vit tibi, sed Pater meus, qui in c\u0153lis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam, et port\u00e6 \u00ednferi non pr\u00e6val\u00e9bunt adv\u00e9rsus eam. Et tibi dabo claves regni c\u0153l\u00f3rum. Et quodc\u00famque lig\u00e1veris super terram, erit lig\u00e1tum et in c\u0153lis: et quodc\u00famque s\u00f3lveris super terram, erit sol\u00fatum et in c\u0153lis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, const\u00edtui te super gentes et super regna, ut ev\u00e9llas et destruas, et \u00e6d\u00edfices et plantes.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Obl\u00e1tis mun\u00e9ribus, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9siam tuam ben\u00edgnus ill\u00famina: ut, et gregis tui prof\u00edciat ubique succ\u00e9ssus, et grati fiant n\u00f3mini tuo, te gubern\u00e1nte, past\u00f3res.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Refecti\u00f3ne sancta enutr\u00edtam gub\u00e9rna, qu\u01fdsumus, D\u00f3mine, tuam plac\u00e1tus Eccl\u00e9siam: ut, pot\u00e9nti moderati\u00f3ne dir\u00e9cta, et increm\u00e9nta libert\u00e1tis acc\u00edpiat et in religi\u00f3nis integrit\u00e1te pers\u00edstat.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*J 21:15-17*\nJe\u015bli mi\u0142ujesz mnie, Szymonie Piotrze, pa\u015b baranki moje, pa\u015b owce moje.\n*Ps 29:2*\nS\u0142awi\u0107 Cie b\u0119d\u0119, Panie, bo mnie wybawi\u0142e\u015b, i nie sprawi\u0142e\u015b ze mnie uciechy mym wrogom.\nChwa\u0142a Ojcu.\nJe\u015bli mi\u0142ujesz mnie, Szymonie Piotrze, pa\u015b baranki moje, pa\u015b owce moje.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Wiekuisty Pasterzu, wejrzyj \u0142askawie na Swoj\u0105 trzod\u0119 i otocz j\u0105 nieustann\u0105 opiek\u0105 za przyczyn\u0105 \u015bwi\u0119tego N., (Twojego M\u0119czennika i) Papie\u017ca, kt\u00f3rego ustanowi\u0142e\u015b pasterzem ca\u0142ego Ko\u015bcio\u0142a.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Piotra Aposto\u0142a.\n*1 P 5:1-4; 5:10-11*\n*\u015awi\u0119ty Papie\u017c wiernie wype\u0142niaj\u0105c zalecenia \u015bw. Piotra, pierwszego papie\u017ca, sta\u0142 si\u0119 wzorem dla owczarni Chrystusowej i zas\u0142u\u017cy\u0142 na niewi\u0119dn\u0105cy wieniec chwa\u0142y.*\nNajmilsi! Starszych, kt\u00f3rzy s\u0105 w\u015br\u00f3d was, prosz\u0119, jako r\u00f3wnie starszy i \u015bwiadek m\u0119ki Chrystusowej oraz uczestnik tej chwa\u0142y, kt\u00f3ra ma si\u0119 objawi\u0107.\nPa\u015bcie trzod\u0119 Bo\u017c\u0105, kt\u00f3ra jest przy was, czuwaj\u0105c nad ni\u0105 nie z musu, ale ch\u0119tnie dla Boga, a nie dla szkaradnego zysku. Ani te\u017c jako panuj\u0105cy nad duchowie\u0144stwem, ale b\u0119d\u0105c \u015bwiadomym wzorem dla owczarni. A gdy si\u0119 zjawi ksi\u0105\u017c\u0119 pasterzy, otrzymacie niewi\u0119dn\u0105cy wieniec chwa\u0142y. A B\u00f3g wszelkiej \u0142aski, kt\u00f3ry wezwa\u0142 nas do wiecznej chwa\u0142y swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas, jemu chwa\u0142a i panowanie na wieki wiek\u00f3w. Amen.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 106:32; 106:31*\nNiechaj Go s\u0142awi\u0105 ludy w zgromadzeniu, i na zebraniu starc\u00f3w niechaj Go chwal\u0105.\nV. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za jego cuda dla syn\u00f3w cz\u0142owieczych. Alleluja, alleluja.\n*Mt 16:18*\nTy jeste\u015b Opok\u0105, a na tej Opoce zbuduj\u0119 Ko\u015bci\u00f3\u0142 m\u00f3j. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 106:32; 106:31*\nNiechaj Go s\u0142awi\u0105 ludy w zgromadzeniu, i na zebraniu starc\u00f3w niechaj Go chwal\u0105.\nV. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za jego cuda dla syn\u00f3w cz\u0142owieczych.\n*Ps 39:10-11*\nTw\u0105 sprawiedliwo\u015b\u0107 g\u0142osi\u0142em w wielkim zgromadzeniu, oto nie pow\u015bci\u0105ga\u0142em warg moich, Ty wiesz, o Panie.\nV. Sprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em; wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc.\nV. Nie zatai\u0142em Twej \u0142aski ani Twej wierno\u015bci przed wielkim zgromadzeniem.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszed\u0142 Jezus w okolice Cezarei Filipowej i pyta\u0142 uczni\u00f3w swoich m\u00f3wi\u0105c: \u00abZa kogo maj\u0105 ludzie Syna Cz\u0142owieczego?\u00bb A oni powiedzieli: \u00abJedni za Jana Chrzciciela, drudzy za Eliasza, a inni za Jeremiasza albo jednego z prorok\u00f3w\u00bb.\nRzek\u0142 im Jezus: \u00abA wy za kogo mi\u0119 macie?\u00bb Odpowiadaj\u0105c Szymon Piotr rzek\u0142: \u00abTy\u015b jest Chrystus, Syn Boga \u017cywego\u00bb. A odpowiadaj\u0105c Jezus rzek\u0142 mu: \u00abB\u0142ogos\u0142awiony\u015b Szymonie Bar Jona, bo cia\u0142o i krew nie objawi\u0142y tobie, jeno Ojciec m\u00f3j, kt\u00f3ry jest w niebiesiech. A ja ci powiadam, \u017ce ty jeste\u015b Opok\u0105, i na tej Opoce zbuduj\u0119 Ko\u015bci\u00f3\u0142 m\u00f3j i bramy piekielne nie zwyci\u0119\u017c\u0105 go. I tobie dam klucze Kr\u00f3lestwa Niebieskiego: a cokolwiek zwi\u0105\u017cesz na ziemi, b\u0119dzie zwi\u0105zane i w niebiesiech; a cokolwiek rozwi\u0105\u017cesz na ziemi, b\u0119dzie rozwi\u0105zane i w niebiesiech\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Jer 1:9-10*\nOtom da\u0142 moje s\u0142owa w usta twoje; otom ci\u0119 dzi\u015b postawi\u0142 nad narodami i nad kr\u00f3lestwami, aby\u015b wyrywa\u0142 i burzy\u0142, i budowa\u0142, i sadzi\u0142.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Z\u0142o\u017cywszy dary, prosimy Ci\u0119, Panie, o\u015bwie\u0107 \u0142askawie Tw\u00f3j Ko\u015bci\u00f3\u0142, by trzodzie Twojej wsz\u0119dzie sprzyja\u0142o powodzenie, a pasterze pod Twymi rz\u0105dami starali si\u0119 podoba\u0107 Twojemu imieniu.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 16:18*\nTy jeste\u015b Opok\u0105, a na tej opoce zbuduj\u0119 Ko\u015bci\u00f3\u0142 m\u00f3j.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, rz\u0105d\u017a mi\u0142o\u015bciwie Twoim Ko\u015bcio\u0142em, krzepionym przez \u015bwi\u0119ty pokarm, aby pod Twoim mo\u017cnym panowaniem ros\u0142a wolno\u015b\u0107 Ko\u015bcio\u0142a, a zwi\u0105zek jego z Tob\u0105 trwa\u0142 niezachwiany.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

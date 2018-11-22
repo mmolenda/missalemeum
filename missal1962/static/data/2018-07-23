@@ -1,0 +1,158 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty czerwone", 
+      "Wspomnienie", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-07-23", 
+    "description": "\u015aw. Apolinary, pierwszy biskup Rawenny, zmar\u0142 z ko\u0144cem II wieku wskutek cierpie\u0144 doznanych w czasie prze\u015bladowania Ko\u015bcio\u0142a. Gdy Rawenna sta\u0142a si\u0119 stolic\u0105 cesarstwa zachodniego, gmin\u0105 chrze\u015bcija\u0144ska tego miasta usi\u0142owa\u0142a z tego powodu przyw\u0142aszczy\u0107 sobie r\u00f3\u017cne przywileje. Dlatego wybrano czytania mszalne pouczaj\u0105ce o pokorze.\u015aw. Liboriusza, Biskupa i Wyznawcy\u015aw. Liboriusz by\u0142 biskupem w Mans we Francji i przyjacielem \u015bw. Marcina. Po \u017cyciu wype\u0142nionym gorliw\u0105 prac\u0105 duszpastersk\u0105 i pokut\u0105 zmar\u0142 z ko\u0144cem IV wieku.Msza wsp\u00f3lna nr 18 Statuit", 
+    "tempora": "Poniedzia\u0142ek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Apolinarego, Biskupa i M\u0119czennika"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Dan 3:84; 3:87*\nSacerd\u00f3tes Dei, bened\u00edcite D\u00f3minum: sancti et h\u00familes corde, laud\u00e1te Deum.\n*Dan 3:57*\nBened\u00edcite, \u00f3mnia \u00f3pera D\u00f3mini, D\u00f3mino: laud\u00e1te et superexalt\u00e1te eum in saecula.\nGl\u00f3ria Patri.\nSacerd\u00f3tes Dei, bened\u00edcite D\u00f3minum: sancti et h\u00familes corde, laud\u00e1te Deum.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, fid\u00e9lium remuner\u00e1tor anim\u00e1rum, qui hunc diem be\u00e1ti Apollin\u00e1ris Sacerd\u00f3tis tui mart\u00fdrio consecr\u00e1sti: tr\u00edbue nobis, qu\u01fdsumus, f\u00e1mulis tuis; ut, cujus vener\u00e1ndam celebr\u00e1mus festivit\u00e1tem, pr\u00e9cibus ejus indulg\u00e9ntiam consequ\u00e1mur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*S. Liborii Ep. et Conf.*\nDa, qu\u01fdsumus, omn\u00edpotens Deus: ut be\u00e1ti Lib\u00f3rii Confess\u00f3ris tui atque Pont\u00edficis vener\u00e1nda soll\u00e9mnitas, et devoti\u00f3nem nobis \u00e1ugeat et sal\u00fatem.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Petri 5:1-11*\nCar\u00edssimi: Seni\u00f3res, qui in vobis sunt, obsecro, cons\u00e9nior et testis Christi passi\u00f3num: qui et ejus, quae in fut\u00faro revel\u00e1nda est, gl\u00f3ri\u00e6 communic\u00e1tor: p\u00e1scite qui in vobis est gregem Dei, provid\u00e9ntes non co\u00e1cte, sed spont\u00e1nee sec\u00fandum Deum: neque turpis lucri gr\u00e1tia, sed volunt\u00e1rie: neque ut domin\u00e1ntes in cleris, sed forma facti gregis ex \u00e1nimo. Et cum appar\u00faerit princeps past\u00f3rum, percipi\u00e9tis immarcesc\u00edbilem gl\u00f3ri\u00e6 cor\u00f3nam. Sim\u00edliter adolesc\u00e9ntes, s\u00fabditi est\u00f3te seni\u00f3ribus. Omnes autem \u00ednvicem humilit\u00e1tem insinu\u00e1te: quia Deus sup\u00e9rbis res\u00edstit, hum\u00edlibus autem dat gr\u00e1tiam. Humili\u00e1mini \u00edgitur sub pot\u00e9nti manu Dei, ut vos ex\u00e1ltet in t\u00e9mpore visitati\u00f3nis: omnem sollicit\u00fadinem vestram projici\u00e9ntes in eum, qu\u00f3niam ipsi cura est de vobis. Sobrii est\u00f3te, et vigil\u00e1te: quia advers\u00e1rius vester di\u00e1bolus tamquam leo r\u00fagiens c\u00edrcuit, qu\u00e6rens quem d\u00e9voret: cui res\u00edstite fortes in fide: scientes e\u00e1ndem passi\u00f3nem ei, qu\u00e6 in mundo est, vestr\u00e6 fraternit\u00e1ti f\u00ederi. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in saecula s\u00e6cul\u00f3rum. Amen.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 88:21-23*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum.\nV. Nihil prof\u00edciet inim\u00edcus in eo, et f\u00edlius iniquit\u00e1tis non noc\u00e9bit ei. Allel\u00faja, allel\u00faja\n*Ps 109:4*\nJur\u00e1vit D\u00f3minus, et non poenit\u00e9bit eum: Tu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 111:1-2.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\n*Ps 20:3-4*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei: et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum.\nV. Qu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis.\nV. Posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 22:24-30*\nIn illo t\u00e9mpore: Facta est cont\u00e9ntio inter disc\u00edpulos, quis e\u00f3rum vider\u00e9tur esse major. Dixit autem eis Jesus: Reges g\u00e9ntium domin\u00e1ntur e\u00f3rum; et qui potest\u00e1tem habent super eos, ben\u00e9fici voc\u00e1ntur. Vos autem non sic: sed qui major est in vobis, fiat sicut minor: et qui pr\u00e6c\u00e9ssor est, sicut ministr\u00e1tor. Nam quis major est, qui rec\u00fambit, an qui m\u00ednistrat? nonne qui rec\u00fambit? Ego autem in m\u00e9dio vestrum sum, sicut qui m\u00ednistrat. Vos autem estis, qui permans\u00edstis mecum in tentati\u00f3nibus meis: et ego disp\u00f3no vobis, sicut disp\u00f3suii mihi Pater meus regnum, ut ed\u00e1tis et bib\u00e1tis super mensam meam in regno meo: et sede\u00e1tis super thronos, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "R\u00e9spice, D\u00f3mine, prop\u00edtius super h\u00e6c m\u00fanera: qu\u00e6 pro be\u00e1ti Sacerd\u00f3tis et Martyris tui Apollin\u00e1ris commemorati\u00f3ne def\u00e9rimus, et pro nostris offensi\u00f3nibus immol\u00e1mus.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro S. Liborio*\nSancti tui, qu\u01fdsumus, D\u00f3mine, nos \u00fabique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 25:20; 20:21*\nD\u00f3mine, quinque tal\u00e9nta tradid\u00edsti mihi, ecce, \u00e1lia quinque superlucr\u00e1tus sum. Euge, serve bone et fid\u00e9lis, quia in pauca fu\u00edsti fid\u00e9lis, supra multa te const\u00edtuam, intra in g\u00e1udium D\u00f3mini tui.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Tua sancta sum\u00e9ntes, qu\u01fdsumus, D\u00f3mine, ut be\u00e1ti Apollin\u00e1ris nos f\u00f3veant continu\u00e1ta pr\u00e6s\u00eddia: quia non d\u00e9sinis prop\u00edtius intu\u00e9ri, quos t\u00e1libus aux\u00edliis conc\u00e9sseris adjuv\u00e1ri.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro S. Liborio*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Lib\u00f3rio Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Dn 3:84; 3:87*\nKap\u0142ani Bo\u017cy, b\u0142ogos\u0142awcie Panu, \u015bwi\u0119ci i pokornego serca chwalcie Boga.\n*Dan 3:57*\nB\u0142ogos\u0142awcie Panu, wszystkie dzie\u0142a Pa\u0144skie, chwalcie i wywy\u017cszajcie Go na wieki.\nChwa\u0142a Ojcu.\nKap\u0142ani Bo\u017cy, b\u0142ogos\u0142awcie Panu, \u015bwi\u0119ci i pokornego serca chwalcie Boga.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry nagradzasz dusze wierne, a dzie\u0144 dzisiejszy u\u015bwi\u0119ci\u0142e\u015b m\u0119cze\u0144stwem \u015bwi\u0119tego Kap\u0142ana Twego Apolinarego; spraw, aby\u015bmy dost\u0105pili przebaczenia przez pro\u015bby tego, kt\u00f3rego chwalebn\u0105 uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Liboriusza, Biskupa i Wyznawcy*\nSpraw, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby chwalebna uroczysto\u015b\u0107 \u015bwi\u0119tego Liboriusza, Twego Wyznawcy i Biskupa, przysporzy\u0142a nam gorliwo\u015bci i \u0142aski do zbawienia.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Piotra Aposto\u0142a.\n*1 P 5:1-11*\nNajmilsi! Starszych, kt\u00f3rzy s\u0105 w\u015br\u00f3d was, prosz\u0119, jako r\u00f3wnie starszy i \u015bwiadek m\u0119ki Chrystusowej oraz uczestnik tej chwa\u0142y, kt\u00f3ra ma si\u0119 objawi\u0107. Pa\u015bcie trzod\u0119 Bo\u017c\u0105, kt\u00f3ra jest przy was, czuwaj\u0105c nad ni\u0105 nie z musu, ale ch\u0119tnie dla Boga, a nic dla szkaradnego zysku. Ani te\u017c jako panuj\u0105cy nad duchowie\u0144stwem, ale b\u0119d\u0105c \u015bwiadomym wzorem dla owczarni. A gdy si\u0119 zjawi ksi\u0105\u017c\u0119 pasterzy, otrzymacie niewi\u0119dn\u0105cy wieniec chwa\u0142y. Podobnie i m\u0142odzi, b\u0105d\u017acie poddani starszym. A wszyscy okazujcie pokor\u0119 jedni drugim, bo B\u00f3g pysznym si\u0119 sprzeciwia, a pokornym \u0142ask\u0119 daje.\nUni\u017cajcie si\u0119 tedy pod mo\u017cn\u0105 r\u0119k\u0105 Bo\u017c\u0105, aby Was wywy\u017cszy\u0142 w czasie nawiedzenia, sk\u0142adaj\u0105c na\u0144 wszelk\u0105 trosk\u0119 wasz\u0105, bo On ma piecz\u0119 o was. B\u0105d\u017acie wstrzemi\u0119\u017aliwi i czuwajcie, bo wr\u00f3g wasz, szatan, kr\u0105\u017cy jako lew rycz\u0105cy, szukaj\u0105c, kogo by po\u017car\u0142. Opierajcie mu si\u0119 umocnieni w wierze, wiedz\u0105c, \u017ce to samo utrapienie spotyka braci waszych na \u015bwiecie. A B\u00f3g wszelkiej \u0142aski, kt\u00f3ry wezwa\u0142 nas do wiecznej chwa\u0142y swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas. Jemu chwa\u0142a i panowanie na wieki wiek\u00f3w. Amen.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 88:21-23*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.\nV. Nic nie zyska w nim nieprzyjaciel, duch nieprawo\u015bci mu nie zaszkodzi. Alleluja, alleluja.\n*Ps 109:4*\nV. Pan przysi\u0105g\u0142 i nie po\u017ca\u0142uje: Ty\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\n*Ps 20:3-4*\nSpe\u0142ni\u0142e\u015b pragnienie jego serca, pro\u015bbie ust jego nie odm\u00f3wi\u0142e\u015b.\nV. Uprzedzi\u0142e\u015b go hojnym b\u0142ogos\u0142awie\u0144stwem.\nV. W\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119, z drogich kamieni.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 22:24-30*\nOnego czasu: Powsta\u0142 mi\u0119dzy uczniami sp\u00f3r, kto by z nich zdawa\u0142 si\u0119 by\u0107 wi\u0119kszym. I rzek\u0142 im Jezus: \u00abKr\u00f3lowie narod\u00f3w panuj\u0105 nad nimi, a kt\u00f3rzy nad nimi w\u0142adz\u0119 maj\u0105, zwani s\u0105 dobroczy\u0144cami. Nie tak w\u015br\u00f3d was. Ale kto jest wi\u0119kszym po\u015br\u00f3d was, niech b\u0119dzie jako mniejszy, a prze\u0142o\u017cony jako us\u0142uguj\u0105cy. Kt\u00f3\u017c bowiem jest wi\u0119kszy, czy ten, co zasiada u sto\u0142u, czy te\u017c ten, co s\u0142u\u017cy? Czy\u017c nie ten, kt\u00f3ry siedzi u sto\u0142u? Ja jednak po\u015br\u00f3d was jestem jako ten, kt\u00f3ry us\u0142uguje, a wy jeste\u015bcie tymi, kt\u00f3rzy wytrwali przy mnie w przeciwno\u015bciach moich. A ja wam przekazuj\u0119 Kr\u00f3lestwo, jako mi przekaza\u0142 Ojciec m\u00f3j, aby\u015bcie jedli i pili u sto\u0142u mego w Kr\u00f3lestwie moim i zasiadali na tronach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 izraelskich\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim imieniu moc jego wzro\u015bnie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, wejrzyj \u0142askawie na te dary, kt\u00f3re sk\u0142adamy dla uczczenia pami\u0119ci \u015bwi\u0119tego Kap\u0142ana i M\u0119czennika Twego Apolinarego i ofiarujemy Ci za nasze uchybienia.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Liboriusza, Biskupa i Wyznawcy*\nPanie, niech nam wsz\u0119dzie sprawiaj\u0105 rado\u015b\u0107 Twoi \u015awi\u0119ci, aby\u015bmy wspominaj\u0105c ich zas\u0142ugi doznali r\u00f3wnie\u017c ich opieki.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 25:20-21*\nPanie, da\u0142e\u015b mi pi\u0119\u0107 talent\u00f3w, otom drugie pi\u0119\u0107 zyska\u0142. Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela Pana twego.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Przyjmuj\u0105c Naj\u015bwi\u0119tszy Sakrament, prosimy Ci\u0119, Panie, by nas otacza\u0142a ci\u0105g\u0142a opieka \u015bw. Apolinarego, bo nie przestajesz \u0142askawie spogl\u0105da\u0107 na tych, kt\u00f3rych raczysz wspiera\u0107 tak\u0105 pomoc\u0105.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Wspomnienie \u015bw. Liboriusza, Biskupa i Wyznawcy*\nWszechmog\u0105cy Bo\u017ce, spraw, prosimy, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary, za przyczyn\u0105 \u015bwi\u0119tego Liboriusza, Wyznawcy Twego i Biskupa, otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

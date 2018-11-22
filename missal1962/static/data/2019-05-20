@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-05-20", 
+    "description": "\u015aw. Bernardyn (urodzony w Massa w roku 1380) pochodzi\u0142 ze znakomitej rodziny. Wyrzek\u0142 si\u0119 wszystkiego, by i\u015b\u0107\u00a0za Chrystusem. Wst\u0105pi\u0142 do zakonu Franciszkan\u00f3w i zas\u0142yn\u0105\u0142 jako kaznodzieja ludowy. Wesp\u00f3\u0142 ze \u015bw. Janem Kapistranem przeprowadzi\u0142 reform\u0119 zakonu. W Polsce cz\u0142onk\u00f3w zreformowanej ga\u0142\u0119zi zakonu franciszka\u0144skiego od jego imienia nazwano Bernardynami. \u015aw. Bernardyn odznacza\u0142 si\u0119\u00a0szczeg\u00f3ln\u0105 czci\u0105 imienia Jezus. Umar\u0142 w czasie pracy apostolskiej w Akwilei 20 maja 1444 roku.Msza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem Kolekty", 
+    "tempora": "Poniedzia\u0142ek po 4 Niedzieli po Wielkanocy", 
+    "title": "\u015aw. Bernardyna ze Sieny, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 36:30-31.*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus, allel\u00faja, allel\u00faja.\n*Ps 36::1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "D\u00f3mine Jesu, qui be\u00e1to Bernard\u00edno Confess\u00f3ri tuo ex\u00edmium sancti n\u00f3minis tui am\u00f3rem tribu\u00edsti: ejus, qu\u01fdsumus, m\u00e9ritis et intercessi\u00f3ne, sp\u00edritum nobis tu\u00e6 dilecti\u00f3nis ben\u00edgnus inf\u00fande:\nQui vivis.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 31:8-11*\nBe\u00e1tus vir, qui inventus est sine m\u00e1cula, et qui post aurum non \u00e1biit, nec sper\u00e1vit in pecunia et thes\u00e1uris. Quis est hic, et laud\u00e1bimus eum? fecit enim mirab\u00edlia in vita sua. Qui prob\u00e1tus est in illo, et perf\u00e9ctus est, erit illi gl\u00f3ria \u00e6t\u00e9rna: qui potuit tr\u00e1nsgredi, et non est transgressus: f\u00e1cere mala, et non fecit: \u00eddeo stabil\u00edta sunt bona ill\u00edus in D\u00f3mino, et eleemosynas ill\u00edus enarr\u00e1bit omnis eccl\u00e9sia sanct\u00f3rum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nAnnunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja\n*Jas 1:1-2*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secuti estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possid\u00e9bit.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus. (Allel\u00faja.)", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 24:46-47*\nBe\u00e1tus servus, quem, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntem: amen, dico vobis, super \u00f3mnia bona sua const\u00edtuet eum. (Allel\u00faja.)", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Panie Jezu, kt\u00f3ry\u015b zapali\u0142 \u015bw. Bernardyna, Twego Wyznawc\u0119, niezwyk\u0142\u0105 mi\u0142o\u015bci\u0105 \u015bwi\u0119tego imienia Twojego, prosimy Ci\u0119: przez jego zas\u0142ugi i or\u0119downictwo tchnij w nas \u0142askawie ducha mi\u0142o\u015bci ku Tobie:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 31:8-11*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry okaza\u0142 si\u0119 bez zmazy i kt\u00f3ry nie ubiega\u0142 si\u0119 za z\u0142otem, i nadziei nie pok\u0142ada\u0142 w pieni\u0105dzach i skarbach. Kt\u00f3\u017c to jest? \u2013 a chwali\u0107 go b\u0119dziemy. Bo w \u017cyciu swym dziw\u00f3w dokona\u0142. Kto w tej sprawie jest do\u015bwiadczony i doskona\u0142y, b\u0119dzie mia\u0142 wieczn\u0105 chwa\u0142\u0119: kt\u00f3ry m\u00f3g\u0142 przest\u0105pi\u0107, a nie przest\u0105pi\u0142, \u017ale czyni\u0107, a nie uczyni\u0142; przeto pewne s\u0105 skarby jego u Pana, a ja\u0142mu\u017cny jego wys\u0142awia\u0107 b\u0119dzie zgromadzenie \u015bwi\u0119tych.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

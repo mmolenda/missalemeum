@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u Dwunastu Aposto\u0142\u00f3w", 
+      "2 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2017-12-22", 
+    "description": "Pan jest blisko. Wykwita jak kwiat na ga\u0142\u0105zce, kt\u00f3ra wyros\u0142a ze \u015bci\u0119tego pnia Jessego. Rodzi si\u0119 jako syn ubogiej i pokornej Dziewicy Maryi. O Jego wielko\u015bci stanowi\u0107 b\u0119dzie pe\u0142nia Ducha \u015awi\u0119tego. Zamkni\u0119ty w \u0142onie Matki, udzieli\u0142 Chrystus tego\u017c Ducha swojemu Przes\u0142a\u0144cowi. Podobnie, przychodz\u0105c do nas w Eucharystii, udziela nam Chrystus swoich dar\u00f3w.", 
+    "tempora": null, 
+    "title": "Pi\u0105tek Suchych Dni Adwentu"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 118:151-152*\nPrope es tu, D\u00f3mine, et omnes vi\u00e6 tu\u00e6 v\u00e9ritas: in\u00edtio cogn\u00f3vi de testim\u00f3niis tuis, quia in \u00e6t\u00e9rnum tu es.\n*Ps 118:1*\nBeati immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nPrope es tu, D\u00f3mine, et omnes vi\u00e6 tu\u00e6 v\u00e9ritas: in\u00edtio cogn\u00f3vi de testim\u00f3niis tuis, quia in \u00e6t\u00e9rnum tu es.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Excita, qu\u01fdsumus, D\u00f3mine, pot\u00e9ntiam tuam, et veni: ut hi, qui in tua piet\u00e1te conf\u00eddunt, ab omni c\u00edtius adversit\u00e1te liber\u00e9ntur:\nQui vivis.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Isa\u00ed\u00e6 Proph\u00e9t\u00e6.\n*Is 11:1-5*\nH\u00e6c dicit D\u00f3minus Deus: Egredi\u00e1tur virga de rad\u00edce Jesse, et flos de rad\u00edce ejus asc\u00e9ndet. Et requi\u00e9scet super eum sp\u00edritus D\u00f3mini: sp\u00edritus sapi\u00e9nti\u00e6 et intell\u00e9ctus, sp\u00edritus cons\u00edlii et fortit\u00fadinis, sp\u00edritus sci\u00e9nti\u00e6 et piet\u00e1tis; et repl\u00e9bit eum sp\u00edritus tim\u00f3ris D\u00f3mini. Non secundum visi\u00f3nem ocul\u00f3rum judic\u00e1bit: neque sec\u00fandum aud\u00edtum \u00e1urium \u00e1rguet: sed judic\u00e1bit in just\u00edtia p\u00e1uperes, et \u00e1rguet in \u00e6quit\u00e1te pro mansu\u00e9tis terr\u00e6: et perc\u00fatiet terram virga oris sui, et sp\u00edritu labi\u00f3rum su\u00f3rum interf\u00edciet \u00edmpium. Et erit just\u00edtia c\u00edngulum lumb\u00f3rum ejus: et fides cinct\u00f3rium renum ejus.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 84:8; 84:2*\nOst\u00e9nde nobis, D\u00f3mine, miseric\u00f3rdiam tuam: et salut\u00e1re tuum da nobis.\nV. Benedix\u00edsti, D\u00f3mine, terram tuam: avert\u00edsti captivit\u00e1tem Jacob.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 1:39-47*\nIn illo tempore: Exs\u00fargens Mar\u00eda \u00e1biit in mont\u00e1na cum festinati\u00f3ne in civit\u00e1tem Juda: et intr\u00e1vit in domum Zachar\u00ed\u00e6, et salut\u00e1vit El\u00edsabeth. Et factum est, ut audivit salutati\u00f3nem Mar\u00ed\u00e6 El\u00edsabeth, exsult\u00e1vit infans in \u00fatero ejus: et repl\u00e9ta est Sp\u00edritu Sancto El\u00edsabeth, et exclam\u00e1vit voce magna, et dixit: Bened\u00edcta tu inter mul\u00ederes, et bened\u00edctus fructus ventris tui. Et unde hoc mihi, ut v\u00e9niat Mater D\u00f3mini mei ad me? Ecce enim, ut facta est vox salutati\u00f3nis tu\u00e6 in \u00e1uribus meis, exsult\u00e1vit in g\u00e1udio infans in \u00fatero meo. Et be\u00e1ta, qu\u00e6 credid\u00edsti, qu\u00f3niam perfici\u00e9ntur ea, qu\u00e6 dicta sunt tibi a D\u00f3mino. Et ait Mar\u00eda: Magn\u00edficat anima mea D\u00f3minum: et exsult\u00e1vit sp\u00edritus meus in Deo, salut\u00e1ri meo.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 84:7-8*\nDeus, tu conv\u00e9rsus vivific\u00e1bis nos, et plebs tua l\u00e6t\u00e1bitur in te: ost\u00e9nde nobis, D\u00f3mine, miseric\u00f3rdiam tuam, et salut\u00e1re tuum da nobis.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Zach 14:5*\nEcce, D\u00f3minus v\u00e9niet et omnes Sancti ejus cum eo: et erit in die illa lux magna.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Tui nos, D\u00f3mine, sacram\u00e9nti lib\u00e1tio sancta rest\u00e1uret: et a vetust\u00e1te purg\u00e1tos, in myst\u00e9rii salut\u00e1ris f\u00e1ciat trans\u00edre cons\u00f3rtium.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 118:151-152*\nBlisko Ty jeste\u015b, o Panie, a wszystkie nakazy Twe wierne. Pozna\u0142em dawniej z rozkaz\u00f3w Twoich, \u017ce Ty trwasz na wieki.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana; kt\u00f3rzy post\u0119puj\u0105 zgodnie z prawem Pana.\nChwa\u0142a Ojcu.\nBlisko Ty jeste\u015b, o Panie, a wszystkie nakazy Twe wierne. Pozna\u0142em dawniej z rozkaz\u00f3w Twoich, \u017ce Ty trwasz na wieki.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Wzbud\u017a, prosimy Ci\u0119, Panie, pot\u0119g\u0119 Twoj\u0105 i przyjd\u017a, aby ci, kt\u00f3rzy zaufali Twojej dobroci, rychlej zostali wybawieni od wszelkiej przeciwno\u015bci:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Proroka Izajasza.\n*Iz 11:1-5*\nTo m\u00f3wi Pan B\u00f3g: I wyjdzie r\u00f3\u017cd\u017cka z korzenia Jessego, a kwiat z korzenia jego wzejdzie. I spocznie na nim duch Pana: duch m\u0105dro\u015bci i rozumu, duch rady i m\u0119stwa, duch umiej\u0119tno\u015bci i pobo\u017cno\u015bci, i nape\u0142ni go duch Pa\u0144skiej boja\u017ani. Nie wed\u0142ug tego b\u0119dzie s\u0105dzi\u0107, co widz\u0105 oczy, ani wed\u0142ug tego, co uszy s\u0142ysz\u0105, b\u0119dzie strofowa\u0107. Lecz sprawiedliwie ubogich b\u0119dzie s\u0105dzi\u0142 i s\u0142uszny wyda wyrok na cichych na ziemi. I r\u00f3zg\u0105 ust swoich ziemi\u0119 uderzy, a tchnieniem warg swoich zabije niezbo\u017cnego. I b\u0119dzie sprawiedliwo\u015b\u0107 pasem bi\u00f3dr jego, a wierno\u015b\u0107 opasaniem jego l\u0119d\u017awi.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 84:8; 84:2*\nOka\u017c nam, Panie, mi\u0142osierdzie Swoje i daj nam Swoje zbawienie.\nV. \u0141askawym okaza\u0142e\u015b si\u0119, Panie, dla Twej ziemi, na dobre odmieni\u0142e\u015b los Jakuba.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 1:39-47*\nOnego czasu: Powstawszy Maryja uda\u0142a si\u0119 \u015bpiesznie w okolic\u0119 g\u00f3rzyst\u0105 do miasta Judy. I wesz\u0142a do domu Zachariasza i pozdrowi\u0142a El\u017cbiet\u0119. I sta\u0142o si\u0119, skoro us\u0142ysza\u0142a El\u017cbieta pozdrowienie Maryi, skoczy\u0142o dzieci\u0105tko w jej \u0142onie, i nape\u0142niona zosta\u0142a El\u017cbieta Duchem \u015awi\u0119tym, i zawo\u0142a\u0142a g\u0142osem wielkim, m\u00f3wi\u0105c: \u00abB\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami i b\u0142ogos\u0142awiony owoc \u017cywota Twego. A sk\u0105d\u017ce mi to, \u017ce przysz\u0142a Matka Pana mego do mnie? Oto bowiem, skoro zabrzmia\u0142 g\u0142os pozdrowienia Twego w uszach moich, poruszy\u0142o si\u0119 z rado\u015bci\u0105 dzieci\u0105tko w \u0142onie moim. I b\u0142ogos\u0142awiona\u015b, kt\u00f3ra\u015b uwierzy\u0142a, \u017ce wype\u0142ni si\u0119 to, co Ci oznajmiono od Pana\u00bb. I rzek\u0142a Maryja: \u00abUwielbia dusza moja Pana. I rozradowa\u0142 si\u0119 duch m\u00f3j w Bogu, Zbawicielu moim\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 84:7-8*\nZwr\u00f3\u0107 si\u0119 ku nam, Bo\u017ce, i o\u017cyw nas, a lud Tw\u00f3j rozraduje si\u0119 w Tobie. Oka\u017c nam, Panie, mi\u0142osierdzie Swoje i daj nam Swoje zbawienie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij, prosimy Ci\u0119, Panie, nasze dary i modlitwy oraz oczy\u015b\u0107 nas przez niebieskie tajemnice i \u0142askawie wys\u0142uchaj.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Zch 14:5*\nOto przyjdzie Pan i wraz z Nim wszyscy \u015awi\u0119ci Jego: i zaja\u015bnieje owego dnia \u015bwiat\u0142o\u015b\u0107 wielka.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Niech nas odrodzi, o Panie, \u015bwi\u0119ta uczta ofiarna, na kt\u00f3rej po\u017cywamy Tw\u00f3j Sakrament, i po oczyszczeniu ze starej przewiny niech nam da udzia\u0142 w tajemnicy zbawienia.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

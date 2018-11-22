@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-01-31", 
+    "description": "\u015aw. Jan Bosco urodzi\u0142 si\u0119 w roku 1815 w ubogiej rodzinie wiejskiej. Od wczesnej m\u0142odo\u015bci czu\u0142 wezwanie do pracy nad opuszczon\u0105 m\u0142odzie\u017c\u0105. Pokonuj\u0105c wielkie trudno\u015bci zdoby\u0142 wykszta\u0142cenie teologiczne i w roku 1841 otrzyma\u0142 \u015bwi\u0119cenia kap\u0142a\u0144skie. Wkr\u00f3tce zacz\u0105\u0142 gromadzi\u0107 ko\u0142o siebie zaniedbanych ch\u0142opc\u00f3w i za\u0142o\u017cy\u0142 dla opieki nad nimi Oratorium \u015bw. Franciszka Salezego. Nie maj\u0105c \u017cadnych zasob\u00f3w materialnych i opieraj\u0105c si\u0119 tylko na wierze w pomoc Bo\u017c\u0105, stale rozbudowywa\u0142 swe dzie\u0142o. Dla zapewnienia mu trwa\u0142o\u015bci za\u0142o\u017cy\u0142 Zgromadzenie Ksi\u0119\u017cy Salezjan\u00f3w i C\u00f3rek Maryi Wspomo\u017cycielki. \u00abSercem przestronnym jak piaszczyste wybrze\u017ce morskie\u00bb ogarnia\u0142 inne potrzeby Ko\u015bcio\u0142a. Podj\u0105\u0142 prac\u0119 wydawnicz\u0105 oraz misyjn\u0105. Umar\u0142 31 stycznia 1888 roku.", 
+    "tempora": "Czwartek po 3 Niedzieli po Objawieniu", 
+    "title": "\u015aw. Jana Bosco, Wyznawcy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*3 Reg 4:29.*\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.\n*Ps 112:1.*\nLaud\u00e1te, pueri, D\u00f3minum, laud\u00e1te nomen D\u00f3mini.\nGl\u00f3ria Patri.\nDedit illi Deus sapi\u00e9ntiam, et prud\u00e9ntiam multam nimis, et latit\u00fadinem cordis, quasi ar\u00e9nam qu\u00e6 est in l\u00edttore maris.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui sanctum Jo\u00e1nnem Confess\u00f3rem tuum adolescentium patrem et mag\u00edstrum excit\u00e1sti, ac per eum, auxiliatr\u00edce V\u00edrgine Mar\u00eda, novas in Eccl\u00e9sia tua fam\u00edlias flor\u00e9scere volu\u00edsti: conc\u00e9de, qu\u01fdsumus; ut e\u00f3dem carit\u00e1tis igne succ\u00e9nsi, \u00e1nimas quaerere, ub\u00edque soli serv\u00edre vale\u00e1mus.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philipp\u00e9nses.\n*Philipp 4:4-9*\nFratres: Gaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus prope est. Nihil soll\u00edciti sitis; sed in omni orati\u00f3ne et obsecrati\u00f3ne, cum grati\u00e1rum acti\u00f3ne, petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum. Et pax Dei qu\u00e6 exs\u00faperat omnem sensum, cust\u00f3diat corda vestra et intellig\u00e9ntias vestras, in Christo Jesu. De c\u00e9tero, fratres, qu\u00e6c\u00famque sunt vera, qu\u00e6c\u00famque p\u00fadica, qu\u00e6c\u00famque justa, qu\u00e6c\u00famque sancta, qu\u00e6c\u00famque amab\u00edlia, qu\u00e6c\u00famque bon\u00e6 fam\u00e6, si qua virtus, si qua laus discipl\u00edn\u00e6, h\u00e6c cogit\u00e1te. Qu\u00e6 et didic\u00edstis, et accep\u00edstis, et aud\u00edstis, et vid\u00edstis in me, h\u00e6c agite: et Deus pacis erit vob\u00edscum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 36:3-5*\nSpera in D\u00f3mino, et fac bonit\u00e1tem, et inh\u00e1bita terram, et pasc\u00e9ris in div\u00edtiis ejus.\nV. Delect\u00e1re in D\u00f3mino, et dabit tibi petiti\u00f3nes cordis tui; rev\u00e9la D\u00f3mino viam tuam et spera in eo, et ipse f\u00e1ciet. Allel\u00faja, allel\u00faja\n*Ps 73:21*\nPauper et inops laud\u00e1bunt nomen tuum. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 60:4-6*\nFactus es spes mea, D\u00f3mine: turris fortit\u00fadinis a f\u00e1cie inim\u00edci.\nV. Inhabit\u00e1bo in tabern\u00e1culo tuo in saecula: pr\u00f3tegar in velam\u00e9nto al\u00e1rum tu\u00e1rum.\nV. Qu\u00f3niam tu, Deus, exaud\u00edsti orati\u00f3nem meam: ded\u00edsti heredit\u00e1tem tim\u00e9ntibus nomen tuum.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 18:1-5*\nIn illo t\u00e9mpore: Access\u00e9runt disc\u00edpuli ad Jesum dic\u00e9ntes: Quis, putas, major est in regno c\u00e6l\u00f3rum? Et ad vocans Jesus p\u00e1rvulum, st\u00e1tuit eum in m\u00e9dio e\u00f3rum, et dixit: Amen dico vobis, nisi conv\u00e9rsi fueritis, et effici\u00e1mini sicut p\u00e1rvuli, non intr\u00e1bitis in regnum coel\u00f3rum. Quic\u00famque ergo humili\u00e1verit se sicut p\u00e1rvulus iste, hic est major in regno coel\u00f3rum. Et qui susc\u00e9perit unum p\u00e1rvulum talem in n\u00f3mine meo, me s\u00fascipit.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 33:12*\nVen\u00edte, f\u00edlii, aud\u00edte me: tim\u00f3rem D\u00f3mini doc\u00e9bo vos.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "S\u00fascipe, D\u00f3mine, oblati\u00f3nem mundam salut\u00e1ris H\u00f3sti\u00e6, et pr\u00e6sta: ut, te in \u00f3mnibus et super \u00f3mnia dilig\u00e9ntes, in gl\u00f3ri\u00e6 tu\u00e6 laudem v\u00edvere mere\u00e1mur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Rom 4:18*\nContra spem in spem cr\u00e9didit, ut f\u00ederet pater mult\u00e1rum g\u00e9ntium, sec\u00fandum quod dictum est ei.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "C\u00f3rporis et S\u00e1nguinis tui, D\u00f3mine, myst\u00e9rio sati\u00e1tis, conc\u00e9de, qu\u01fdsumus; ut, interced\u00e9nte sancto Jo\u00e1nne Confess\u00f3re tuo, in grati\u00e1rum semper acti\u00f3ne mane\u00e1mus:\nQui vivis.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*3 Krl 4:29*\nB\u00f3g mu da\u0142 m\u0105dro\u015b\u0107 i roztropno\u015b\u0107 bardzo wielk\u0105, i przestronno\u015b\u0107\u00a0serca jak piaszczyste wybrze\u017ce morskie.\n*Ps 112:1*\nChwalcie, o dzieci, Pana, chwalcie imi\u0119 Pa\u0144skie.\nChwa\u0142a Ojcu.\nB\u00f3g mu da\u0142 m\u0105dro\u015b\u0107 i roztropno\u015b\u0107 bardzo wielk\u0105, i przestronno\u015b\u0107\u00a0serca jak piaszczyste wybrze\u017ce morskie.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty\u015b \u015bw. Jana, Twego Wyznawc\u0119, powo\u0142a\u0142 na ojca i nauczyciela m\u0142odzie\u017cy, a z woli Twojej, przy pomocy Maryi Panny, zakwit\u0142y przeze\u0144 w Ko\u015bciele Twoim nowe zgromadzenia: spraw, aby\u015bmy pa\u0142aj\u0105c takim samym ogniem mi\u0142o\u015bci, mogli zdobywa\u0107 dusze i s\u0142u\u017cy\u0107 Tobie samemu.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Filipian.\n*Flp 4:4-9*\nBracia: Weselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie: weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom. Pan blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu wyjawiajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie. A pok\u00f3j Bo\u017cy, kt\u00f3ry przewy\u017csza wszelkie poj\u0119cie, niechaj strze\u017ce serc waszych i umys\u0142\u00f3w waszych w Chrystusie Jezusie. Wreszcie, bracia, miejcie na my\u015bli wszystko to, co jest prawdziwe, co czyste, co sprawiedliwe, co \u015bwi\u0119te, co mi\u0142e, co chlubne, co dotyczy cnoty lub chwalebnych obyczaj\u00f3w. Czego\u015bcie si\u0119 ode mnie nauczyli i przyj\u0119li, co\u015bcie s\u0142yszeli i widzieli we mnie, to czy\u0144cie, a B\u00f3g pokoju b\u0119dzie z wami.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 36:3-5*\nMiej ufno\u015b\u0107 w Panu i czy\u0144 co dobre, by\u015b by\u0142 mieszka\u0144cem ziemi i raczy\u0142 si\u0119 jej bogactwami.\nV. Miej rado\u015b\u0107 w Panu, a da ci, czego \u017c\u0105da twe serce; drog\u0119 tw\u0105 powierz Panu, Jemu zaufaj, On sam b\u0119dzie dzia\u0142a\u0142. Alleluja, alleluja.\n*Ps 73:21*\nNiech ubogi i biedny chwal\u0105 Twoje imi\u0119. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 60:4-6*\nPanie, dla mnie Ty jeste\u015b obron\u0105, wie\u017c\u0105 warown\u0105 przeciwko wrogowi.\nV. W przybytku Twoim obym zawsze mieszka\u0142, ucieka\u0142 si\u0119 pod cie\u0144 Twoich skrzyde\u0142.\nV. Bo\u015b Ty, o Bo\u017ce, pragnie\u0144 mych wys\u0142ucha\u0142 i da\u0142e\u015b mi dziedzictwo boj\u0105cych si\u0119 Twego imienia.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 18:1-5*\nOnego czasu: Przyst\u0105pili uczniowie do Jezusa m\u00f3wi\u0105c: \u00abKt\u00f3\u017c, mniemasz, jest wi\u0119kszy w Kr\u00f3lestwie Niebieskim?\u00bb A Jezus przywo\u0142awszy dzieci\u0119 postawi\u0142 je w po\u015brodku nich, i rzek\u0142: \u00abZaprawd\u0119 m\u00f3wi\u0119 wam, je\u015bli si\u0119 nie nawr\u00f3cicie i nie staniecie jako dzieci, nie wnijdziecie do Kr\u00f3lestwa Niebieskiego. Ktokolwiek si\u0119 przeto uni\u017cy jako to dzieci\u0119, ten jest wi\u0119kszym w Kr\u00f3lestwie Niebieskim. A ktobykolwiek przyj\u0105\u0142 jedno takie dzieci\u0119 w imi\u0119 moje, mnie przyjmuje\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 33:12*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie: naucz\u0119 was Pa\u0144skiej boja\u017ani.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij, Panie, ofiar\u0119 czyst\u0105 zbawczej Hostii i spraw, aby\u015bmy mi\u0142uj\u0105c Ciebie we wszystkim i ponad wszystko, mogli \u017cy\u0107 ku chwale Twego majestatu.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Rz 4:18*\nPrzeciw nadziei uwierzy\u0142 on w nadziej\u0119, aby sta\u0142 si\u0119 ojcem wielu narod\u00f3w wed\u0142ug tego, co by\u0142o mu powiedziane.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Nasyceni Sakramentem Cia\u0142a i Krwi Twojej, prosimy Ci\u0119, Panie, aby\u015bmy za wstawiennictwem \u015bw. Jana, Wyznawcy, zawsze trwali w dzi\u0119kczynieniu:\nKt\u00f3ry \u017cyjesz.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

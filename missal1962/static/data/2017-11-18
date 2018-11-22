@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2017-11-18", 
+    "description": "Bazylika \u015aw. Piotra na Watykanie jest symbolem powszechno\u015bci Ko\u015bcio\u0142a i prymatu papie\u017cy. W niej odbywaj\u0105 si\u0119 koronacje papie\u017cy oraz beatyfikacje i kanonizacje \u015bwi\u0119tych. Pierwotn\u0105 bazylik\u0119, wzniesion\u0105 nad grobem \u015bw. Piotra przez cesarza Konstantyna, zast\u0105piono olbrzymi\u0105 budowl\u0105 w XVII wieku. Konsekrowa\u0142 j\u0105 papie\u017c Urban VIII 13 listopada 1626 roku.Bazylika \u015aw. Paw\u0142a przy drodze Ostyjskiej konsekrowana pierwszy raz 18 listopada 990 roku zosta\u0142a zniszczona przez po\u017car w 1823 roku. D\u017awigni\u0119ta z ruin i wspaniale ozdobiona zosta\u0142a konsekrowana 10 grudnia 1854 roku. Rocznic\u0119 konsekracji obu bazylik obchodzi si\u0119 jednak nadal 18 listopada.", 
+    "tempora": "Sobota po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "Rocznica Konsekracji Bazylik \u015awi\u0119tych Aposto\u0142\u00f3w Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Gen 28:17*\nTerr\u00edbilis est locus iste: hic domus Dei est et porta c\u0153li: et voc\u00e1bitur aula Dei. (Allel\u00faja, allel\u00faja)\n*Ps 83:2-3*\nQuam dil\u00e9cta tabern\u00e1cula tua, D\u00f3mine virt\u00fatum! concup\u00edscit, et d\u00e9ficit \u00e1nima mea in \u00e1tria D\u00f3mini.\nGl\u00f3ria Patri.\nTerr\u00edbilis est locus iste: hic domus Dei est et porta c\u0153li: et voc\u00e1bitur aula Dei. (Allel\u00faja, allel\u00faja)", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui nobis per singulos annos hujus sancti templi tui consecrationis reparas diem, et sacris semper mysteriis repraesentas incolumes: exaudi preces populi tui, et praesta; ut quisquis hoc templum beneficia petiturus ingreditur, cuncta se impetrasse laetetur.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Apocal\u00fdpsis be\u00e1ti Jo\u00e1nnis Ap\u00f3stoli\n*Apoc 21:2-5*\nIn di\u00e9bus illis: Vidi sanctam civit\u00e1tem Jer\u00fasalem novam descend\u00e9ntem de c\u0153lo a Deo, par\u00e1tam sicut sponsam orn\u00e1tam viro suo. Et aud\u00edvi vocem magnam de throno dic\u00e9ntem: Ecce tabern\u00e1culum Dei cum hom\u00ednibus, et habit\u00e1bit cum eis. Et ipsi p\u00f3pulus ejus erunt, et ipse Deus cum eis erit e\u00f3rum Deus: et abst\u00e9rget Deus omnem l\u00e1crimam ab \u00f3culis e\u00f3rum: et mors ultra non erit, neque luctus neque clamor neque dolor erit ultra, quia prima abi\u00e9runt. Et dixit, qui sed\u00e9bat in throno: Ecce, nova f\u00e1cio \u00f3mnia.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Locus iste a Deo factus est, in\u00e6stim\u00e1bile sacram\u00e9ntum, irreprehens\u00edbilis est.\nV. Deus, cui astat Angel\u00f3rum chorus, ex\u00e1udi preces serv\u00f3rum tu\u00f3rum. Allel\u00faja, allel\u00faja.\n*Ps 137:2*\nAdor\u00e1bo ad templum sanctum tuum: et confit\u00e9bor n\u00f3mini tuo. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Locus iste a Deo factus est, in\u00e6stim\u00e1bile sacram\u00e9ntum, irreprehens\u00edbilis est.\nV. Deus, cui astat Angel\u00f3rum chorus, ex\u00e1udi preces serv\u00f3rum tu\u00f3rum.\n*Ps 124:1-2*\nQui conf\u00eddunt in D\u00f3mino, sicut mons Sion: non commov\u00e9bitur in \u00e6t\u00e9rnum, qui h\u00e1bitat in Jer\u00fasalem.\nV. Montes in circ\u00faitu ejus, et D\u00f3minus in circ\u00faitu p\u00f3puli sui, ex hoc nunc, et usque in s\u01fdculum.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam\n*Luc 19:1-10*\nIn illo t\u00e9mpore: Ingr\u00e9ssus Jesus perambul\u00e1bat J\u00e9richo. Et ecce, vir n\u00f3mine Zach\u01fdus: et hic princeps erat publican\u00f3rum, et ipse dives: et qu\u00e6r\u00e9bat vid\u00e9re Jesum, quis esset: et non p\u00f3terat pr\u00e6 turba, quia stat\u00fara pus\u00edllus erat. Et pr\u00e6c\u00farrens asc\u00e9ndit in \u00e1rborem syc\u00f3morum, ut vid\u00e9ret eum; quia inde erat transit\u00farus. Et cum ven\u00edsset ad locum, susp\u00edciens Jesus vidit illum, et dixit ad eum: Zach\u01fde, fest\u00ednans desc\u00e9nde; quia h\u00f3die in domo tua op\u00f3rtet me man\u00e9re. Et fest\u00ednans desc\u00e9ndit, et exc\u00e9pit illum gaudens. Et cum vid\u00e9rent omnes, murmur\u00e1bant, dic\u00e9ntes, quod ad h\u00f3minem peccat\u00f3rem divert\u00edsset. Stans autem Zach\u01fdus, dixit ad D\u00f3minum: Ecce, dim\u00eddium bon\u00f3rum me\u00f3rum, D\u00f3mine, do paup\u00e9ribus: et si quid \u00e1liquem defraud\u00e1vi, reddo qu\u00e1druplum. Ait Jesus ad eum: Quia h\u00f3die salus d\u00f3mui huic facta est: eo quod et ipse f\u00edlius sit Abrah\u00e6. Venit enim F\u00edlius h\u00f3minis qu\u01fdrere et salvum f\u00e1cere, quod per\u00ederat.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*1 Par 29:17-18*\nD\u00f3mine Deus, in simplicit\u00e1te cordis mei l\u00e6tus \u00f3btuli univ\u00e9rsa; et p\u00f3pulum tuum, qui rep\u00e9rtus est, vidi cum ing\u00e9nti g\u00e1udio: Deus Isra\u00ebl, cust\u00f3di hanc volunt\u00e1tem,  allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "*In ipsa Ecclesia dedicata*\nAnnue, qu\u01fdsumus, D\u00f3mine, pr\u00e9cibus nostris: ut, quic\u00famque intra templi hujus, cujus annivers\u00e1rium dedicati\u00f3nis diem celebr\u00e1mus, \u00e1mbitum contin\u00e9mur, plena tibi atque perf\u00e9cta c\u00f3rporis et \u00e1nim\u00e6 devoti\u00f3ne place\u00e1mus; ut, dum h\u00e6c vota pr\u00e6s\u00e9ntia r\u00e9ddimus, ad \u00e6t\u00e9rna pr\u01fdmia, te adjuvante, perven\u00edre mere\u00e1mur.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*in Dedicatione Ecclesiae*\nVere dignum et iustum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine, sancte Pater, omn\u00edpotens \u00e6t\u00e9rne Deus: Qui hanc orati\u00f3nis domum, quam aedific\u00e1vimus, bon\u00f3rum \u00f3mnium larg\u00edtor inh\u00e1bitas, et Eccl\u00e9siam, quam ipse fund\u00e1sti, incess\u00e1bili operati\u00f3ne sanct\u00edficas. Haec est enim vere domus orati\u00f3nis, visib\u00edlibus aedif\u00edciis adumbr\u00e1ta, templum habitati\u00f3nis gl\u00f3riae tuae, sedes incommut\u00e1bilis verit\u00e1tis, sanctu\u00e1rium aet\u00e9rnae carit\u00e1tis. Haec est arca, qui nos a mundi er\u00e9ptos dil\u00favio, in portu sal\u00fatis ind\u00facit. Haec est dil\u00e9cta et \u00fanica sponsa, quam acquis\u00edvit Christus s\u00e1nguine suo, quam viv\u00edficat Sp\u00edritu suo, cuius in sinu ren\u00e1ti per gr\u00e1tiam tuam, lacte verbi p\u00e1scimur, pane vitae robor\u00e1mur, miseric\u00f3rdiae tuae subs\u00eddiis confov\u00e9mur. Haec fid\u00e9liter in terris, Sponso adiuv\u00e1nte, m\u00edlitat, et per\u00e9nniter in caelis, ipso coron\u00e1nte, tri\u00famphat. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus, cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus, hymnum gl\u00f3riae tuae c\u00e1nimus, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 21:13*\nDomus mea domus orati\u00f3nis voc\u00e1bitur, dicit D\u00f3minus: in ea omnis, qui petit, \u00e1ccipit; et qui qu\u00e6rit, inv\u00e9nit; et puls\u00e1nti aperi\u00e9tur. (Allel\u00faja.)", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Deus, qui de vivis et electis lap\u00eddibus \u00e6t\u00e9rnum majest\u00e1ti tu\u00e6 pr\u01fdparas habit\u00e1culum: auxili\u00e1re p\u00f3pulo tuo supplic\u00e1nti; ut, quod Eccl\u00e9si\u00e6 tu\u00e6 corpor\u00e1libus pr\u00f3ficit sp\u00e1tiis, spiritu\u00e1libus amplific\u00e9tur augm\u00e9ntis.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Rdz 28:17*\nBoja\u017ani\u0105 przejmuje to miejsce: tu jest dom Bo\u017cy i brama niebios, i zwa\u0107 si\u0119 b\u0119dzie mieszkaniem Boga.\n*Ps 83:2-3*\nJak mi\u0142e s\u0105 przybytki Twoje, Panie Zast\u0119p\u00f3w; dusza moja wzdycha i t\u0119skni do \u015bwi\u0105tyni Pana.\nChwa\u0142a Ojcu.\nBoja\u017ani\u0105 przejmuje to miejsce: tu jest dom Bo\u017cy i brama niebios, i zwa\u0107 si\u0119 b\u0119dzie mieszkaniem Boga.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry co roku pozwalasz nam obchodzi\u0107 dzie\u0144 konsekracji Twojej \u015bwi\u0105tyni i uczestniczy\u0107 w \u015bwi\u0119tych obrz\u0119dach, wys\u0142uchaj pr\u00f3\u015bb swojego ludu i daj wszystkim modl\u0105cym si\u0119 w tym ko\u015bciele rado\u015b\u0107 z otrzymania Twoich dar\u00f3w.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Apokalipsy \u015bwi\u0119tego Jana Aposto\u0142a.\n*Ap 21:2-5*\n*Ko\u015bci\u00f3\u0142 materialny jest obrazem \u00abJeruzalem niebieskiego\u00bb, wiekuistego zjednoczenia ludzi z Bogiem.*\nW one dni: Ujrza\u0142em \u015bwi\u0119te miasto, Jeruzalem nowe, zst\u0119puj\u0105ce z nieba od Boga, gotowe jak oblubienica strojna dla m\u0119\u017ca swego. I us\u0142ysza\u0142em z tronu g\u0142os dono\u015bny, m\u00f3wi\u0105cy: \u00abOto przybytek Boga z lud\u017ami i zamieszka z nimi. Oni b\u0119d\u0105 ludem Jego, a sam B\u00f3g z nimi b\u0119dzie ich Bogiem. I otrze B\u00f3g wszelk\u0105 \u0142z\u0119 z oczu ich, a \u015bmierci ju\u017c nie b\u0119dzie ani smutku, ani wo\u0142ania, ani b\u00f3lu ju\u017c nie b\u0119dzie, bo dawne rzeczy przemin\u0119\u0142y. I rzek\u0142 Ten, kt\u00f3ry siedzia\u0142 na tronie: \u00abOto wszystko nowym czyni\u0119\u00bb.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "B\u00f3g uczyni\u0142 z tego miejsca bez skazy bezcenny znak swojej obecno\u015bci.\nV. Bo\u017ce, kt\u00f3rego otacza ch\u00f3r anio\u0142\u00f3w, wys\u0142uchaj pro\u015bby s\u0142ug Swoich. Alleluja, alleluja.\n*Ps 137:2*\nUpadn\u0119 na twarz w Twoim \u015bwi\u0119tym przybytku i b\u0119d\u0119 s\u0142awi\u0142 Twe imi\u0119. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "B\u00f3g uczyni\u0142 z tego miejsca bez skazy bezcenny znak swojej obecno\u015bci.\nV. Bo\u017ce, kt\u00f3rego otacza ch\u00f3r anio\u0142\u00f3w, wys\u0142uchaj pro\u015bby s\u0142ug Twoich.\n*Ps 124:1-2*\nUfaj\u0105cy Panu s\u0105 jak g\u00f3ra Syjon, co si\u0119 nie porusza, ale trwa na wieki.\nV. Jerozolim\u0119 otaczaj\u0105 g\u00f3ry: tak Pan sw\u00f3j lud otacza i teraz, i na wieki.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 19:1-10*\nOnego czasu: Jezus przechodzi\u0142 przez Jerycho. I oto m\u0105\u017c imieniem Zacheusz, kt\u00f3ry by\u0142 zwierzchnikiem celnik\u00f3w i bogaczem, usi\u0142owa\u0142 zobaczy\u0107 Jezusa, kim by On by\u0142, a nie m\u00f3g\u0142 z powodu rzeszy: by\u0142 bowiem ma\u0142ego wzrostu. I pobieg\u0142 naprz\u00f3d, wspi\u0105\u0142 si\u0119 na drzewo sykomory, aby Go ujrze\u0107, bo tamt\u0119dy mia\u0142 przechodzi\u0107. A gdy Jezus przyby\u0142 na miejsce i spojrza\u0142 wzwy\u017c, ujrza\u0142 go i rzek\u0142 do niego: \u00abZacheuszu, zejd\u017a zaraz, dzi\u015b bowiem musz\u0119 stan\u0105\u0107 w domu twoim\u00bb. I zszed\u0142 spiesznie, a przyj\u0105\u0142 Go z rado\u015bci\u0105. A wszyscy widz\u0105c to, szemrali m\u00f3wi\u0105c, \u017ce zatrzyma\u0142 si\u0119 u cz\u0142owieka grzesznego. Zacheusz wszak\u017ce stan\u0105wszy, rzek\u0142 do Pana: \u00abPanie, oto po\u0142ow\u0119 d\u00f3br moich rozdam ubogim, a je\u015blim kogo skrzywdzi\u0142, zwracam w czw\u00f3rnas\u00f3b\u00bb. Rzek\u0142 mu Jezus: \u00abDzisiaj domowi temu sta\u0142o si\u0119 zbawienie, gdy\u017c i on jest synem Abrahama. Syn Cz\u0142owieczy bowiem przyszed\u0142 szuka\u0107 i zbawia\u0107, co by\u0142o zgin\u0119\u0142o\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*1 Krn 29:17-18*\n*Modlitwa Dawida, kt\u00f3ry przygotowa\u0142 budow\u0119 pierwszej \u015bwi\u0105tyni w Jerozolimie.*\nPanie Bo\u017ce, w szczero\u015bci mego serca ochotnie ofiarowa\u0142em Ci wszystko; widzia\u0142em r\u00f3wnie\u017c lud Tw\u00f3j zebrany z wielkim weselem; Bo\u017ce Izraela, zachowaj jego dobr\u0105 wol\u0119, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119 Panie, wys\u0142uchaj nasze modlitwy, a gdy Ci sk\u0142adamy te dary doczesne, spraw, by\u015bmy doszli do wiecznej nagrody.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 21:13*\nDom m\u00f3j b\u0119dzie nazwany domem modlitwy, m\u00f3wi Pan. Ka\u017cdy, kto w nim prosi otrzymuje; a kto szuka, znajduje; a ko\u0142acz\u0105cemu b\u0119dzie otworzone.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Bo\u017ce, Ty z \u017cywych i wybranych kamieni przygotowujesz Swemu majestatowi wiekuisty przybytek; wspom\u00f3\u017c lud Tw\u00f3j, kt\u00f3ry kornie Ci\u0119 b\u0142aga, aby materialne pomno\u017cenie budowli Twego Ko\u015bcio\u0142a przyczyni\u0142o si\u0119 do wzrostu duchowego.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

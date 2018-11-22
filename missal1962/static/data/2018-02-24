@@ -1,0 +1,126 @@
+{
+  "info": {
+    "additional_info": [
+      "2 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2018-02-24", 
+    "description": "Lekcja dzisiejszej Mszy podaje opis wyboru \u015bw. Macieja na Aposto\u0142a w miejsce Judasza. Dowiadujemy si\u0119 z niej, \u017ce \u015bw. Maciej by\u0142 uczniem Chrystusa od chrztu w Jordanie a\u017c do Wniebowst\u0105pienia. O dalszym \u017cyciu \u015bw. Macieja nie wiemy nic pewnego. Tradycja g\u0142osi, \u017ce dotar\u0142 do Etiopii i tam poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105.", 
+    "tempora": "Sobota Suchych Dni Wielkiego Postu", 
+    "title": "\u015aw. Macieja Aposto\u0142a"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 138:17.*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.\n*Ps 138:1-2.*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui be\u00e1tum Matth\u00edam Apostol\u00f3rum tu\u00f3rum coll\u00e9gio soci\u00e1sti: tr\u00edbue, qu\u01fdsumus; ut, ejus interventi\u00f3ne, tu\u00e6 circa nos piet\u00e1tis semper v\u00edscera senti\u00e1mus.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Actuum Apostol\u00f3rum.\n*Act 1, 15-26.*\nIn di\u00e9bus illis exs\u00fargens Petrus in m\u00e9dio fratrum, dixit - erat autem turba h\u00f3minum simul, fere centum vig\u00ednti -: Viri fratres, op\u00f3rtet impl\u00e9ri Script\u00faram, quam pr\u00e6d\u00edxit Sp\u00edritus Sanctus per os David de Juda, qui fuit dux e\u00f3rum, qui comprehend\u00e9runt Jesum: qui connumer\u00e1tus erat in nobis, et sort\u00edtus est sortem minist\u00e9rii hujus. Et hic quidem poss\u00e9dit agrum de merc\u00e9de iniquit\u00e1tis, et susp\u00e9nsus cr\u00e9puit m\u00e9dius: et diff\u00fasa sunt \u00f3mnia v\u00edscera ejus. Et notum factum est \u00f3mnibus habit\u00e1ntibus Jer\u00fasalem, ita ut appellar\u00e9tur ager ille, lingua e\u00f3rum, Hac\u00e9ldama, hoc est ager s\u00e1nguinis. Scriptum est enim in libro Psalm\u00f3rum: Fiat commor\u00e1tio e\u00f3rum des\u00e9rta, et non sit, qui inh\u00e1bitet in ea: et episcop\u00e1tum ejus acc\u00edpiat alter. Op\u00f3rtet ergo ex his viris, qui nob\u00edscum sunt congreg\u00e1ti in omni t\u00e9mpore, quo intr\u00e1vit et ex\u00edvit inter nos D\u00f3minus Jesus, inc\u00edpiens a bapt\u00edsmate Jo\u00e1nnis usque in diem, qua ass\u00famptus est a nobis, testem resurrecti\u00f3nis ejus nob\u00edscum f\u00ederi unum ex istis. Et statu\u00e9runt duos, Joseph qui vocab\u00e1tur B\u00e1rsabas, qui cognomin\u00e1tus est Justus, et Matth\u00edam. Et or\u00e1ntes dix\u00e9runt: Tu, D\u00f3mine, qui corda nosti \u00f3mnium, ost\u00e9nde, quem el\u00e9geris ex his du\u00f3bus unum, acc\u00edpere locum minist\u00e9rii hujus et apostol\u00e1tus, de quo pr\u00e6varic\u00e1tus est Judas, ut ab\u00edret in locum suum. Et ded\u00e9runt sortes eis, et c\u00e9cidit sors super Matth\u00edam, et annumer\u00e1tus est cum \u00fandecim Ap\u00f3stolis.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 138:17-18.*\nNimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.\nV. Dinumer\u00e1bo eos, et super ar\u00e9nam multiplicab\u00fantur.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 138:17-18.*\nNimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.\nV. Dinumer\u00e1bo eos, et super ar\u00e9nam multiplicab\u00fantur.\n*Ps 20:3-4.*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei: et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum.\nV. Qu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis.\nV. Posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 11:25-30.*\nIn illo t\u00e9mpore: Resp\u00f3ndens Jesus, dixit: Conf\u00edteor tibi, Pater, D\u00f3mine coeli et terr\u00e6, quia abscond\u00edsti h\u00e6c a sapi\u00e9ntibus et prudentibus, et revel\u00e1sti ea parvulis. Ita, Pater: qu\u00f3niam sic fuit pl\u00e1citum ante te. Omnia mihi tr\u00e1dita sunt a Patre meo. Et nemo novit F\u00edlium nisi Pater: neque Patrem quis novit nisi F\u00edlius, et cui vol\u00faerit F\u00edlius revel\u00e1re. Ven\u00edte ad me, omnes, qui labor\u00e1tis et oner\u00e1ti estis, et ego ref\u00edciam vos. T\u00f3llite jugum meum super vos, et d\u00edscite a me, quia mitis sum et h\u00familis corde: et inveni\u00e9tis r\u00e9quiem anim\u00e1bus vestris. Jugum enim meum su\u00e1ve est et onus meum leve.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 44:17-18.*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine, in omni prog\u00e9nie et generati\u00f3ne.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00f3stias tibi, D\u00f3mine, quas n\u00f3mini tuo sacr\u00e1ndas off\u00e9rimus, sancti Matth\u00ed\u00e6 Ap\u00f3stoli tui prosequ\u00e1tur or\u00e1tio: per quam nos expi\u00e1ri f\u00e1cias et def\u00e9ndi.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Matt 19:28.*\nVos, qui sec\u00fati estis me, sed\u00e9bitis super sedes, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut per h\u00e6c sancta, qu\u00e6 s\u00fampsimus, interveni\u00e9nte be\u00e1to Matth\u00eda Ap\u00f3stolo tuo, v\u00e9niam consequ\u00e1mur et pacem.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz; Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu.\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry przy\u0142\u0105czy\u0142e\u015b \u015bw. Macieja do grona Twoich Aposto\u0142\u00f3w, spraw, prosimy, aby\u015bmy za jego wstawiennictwem doznawali zawsze Twojej tkliwej mi\u0142o\u015bci.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 1, 15-26*\nW one dni powsta\u0142 Piotr wpo\u015br\u00f3d braci (a by\u0142 poczet os\u00f3b zebranych oko\u0142o stu dwudziestu) i rzek\u0142: \u00abM\u0119\u017cowie bracia! Musia\u0142o si\u0119 wype\u0142ni\u0107 Pismo, kt\u00f3re Duch \u015awi\u0119ty zapowiedzia\u0142 przez usta Dawida o Judaszu, przyw\u00f3dcy tych, co pojmali Jezusa. Nale\u017ca\u0142 on do naszego grona i mia\u0142 wsp\u00f3\u0142uczestnictwo w tym pos\u0142ugiwaniu. Ten tedy naby\u0142 pole z zap\u0142aty niegodziwo\u015bci, a powiesiwszy si\u0119, rozp\u0119k\u0142 si\u0119 na dwoje i wyp\u0142yn\u0119\u0142y wszystkie jego wn\u0119trzno\u015bci. I sta\u0142o si\u0119 to wiadome wszystkim mieszka\u0144com Jerozolimy, tak \u017ce i pole owo nazwano w ich j\u0119zyku Hakeldama, to jest pole krwi.\nNapisane jest bowiem w Ksi\u0119dze Psalm\u00f3w: Niech mieszkanie ich stanie si\u0119 pustkowiem i niech si\u0119 nie znajdzie, kto by w nim zamieszka\u0142: oraz biskupstwo jego niech zabierze inny. Potrzeba tedy, aby jeden z tych m\u0119\u017c\u00f3w, kt\u00f3rzy si\u0119 z nami zbierali przez ca\u0142y czas, kiedy Pan Jezus przebywa\u0142 mi\u0119dzy nami, pocz\u0105wszy od chrztu Janowego a\u017c do dnia Wniebowst\u0105pienia, sta\u0142 si\u0119 wraz z nami \u015bwiadkiem Jego zmartwychwstania\u00bb.\nI stawiono dw\u00f3ch: J\u00f3zefa, zwanego Barsab\u0105, kt\u00f3ry mia\u0142 przydomek Justus, i Macieja. A modl\u0105c si\u0119 m\u00f3wili: \u00abTy, Panie, kt\u00f3ry znasz serca wszystkich, oka\u017c, kogo\u015b z tych dw\u00f3ch wybra\u0142, aby zaj\u0105\u0142 miejsce tego pos\u0142ugiwania i apostolstwa, kt\u00f3remu sprzeniewierzy\u0142 si\u0119 Judasz, aby odej\u015b\u0107 na miejsce swoje\u00bb. I rozdano im losy. A los pad\u0142 na Macieja i przy\u0142\u0105czony by\u0142 do jedenastu Aposto\u0142\u00f3w.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 138:17-18*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\nV. Gdybym ich przeliczy\u0142, wi\u0119cej ich ni\u017c piasku.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 138:17-18*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\nV. Gdybym ich przeliczy\u0142, wi\u0119cej ich ni\u017c piasku.\n*Ps 20:3-4*\nSpe\u0142ni\u0142e\u015b pragnienie jego serca, pro\u015bbie ust jego nie odm\u00f3wi\u0142e\u015b.\nV. Uprzedzi\u0142e\u015b go hojnym b\u0142ogos\u0142awie\u0144stwem.\nV. W\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 11:25-30*\nOnego czasu: Odpowiadaj\u0105c Jezus rzek\u0142: \u00abWys\u0142awiam Ci\u0119, Ojcze, Panie nieba i ziemi, i\u017ce\u015b te rzeczy zakry\u0142 przed m\u0105drymi i przewiduj\u0105cymi, a objawi\u0142e\u015b je maluczkim. Tak, Ojcze, bo tak si\u0119 spodoba\u0142o Tobie. Wszystko dane mi jest od Ojca mego. I nikt nie zna Syna, jeno Ojciec, ani Ojca nikt nie zna, jeno Syn i komu by Syn zechcia\u0142 objawi\u0107.\nP\u00f3jd\u017acie do mnie wszyscy, kt\u00f3rzy pracujecie i uginacie si\u0119 pod ci\u0119\u017carem, a ja was pokrzepi\u0119. We\u017amijcie jarzmo moje na siebie i uczcie si\u0119 ode mnie, \u017cem jest cichy i pokornego serca, a znajdziecie odpocznienie dla dusz waszych. Albowiem jarzmo moje s\u0142odkie jest, a brzemi\u0119 moje lekkie\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 44:17-18*\nUstanowisz ich ksi\u0105\u017c\u0119tami po ca\u0142ej ziemi, przez wszystkie pokolenia g\u0142osi\u0107 b\u0119d\u0105 Twe imi\u0119, o Panie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, niech ta modlitwa \u015bw. Aposto\u0142a Twojego Macieja towarzyszy darom, kt\u00f3re sk\u0142adamy w ofierze Twojemu imieniu: dzi\u0119ki niej racz nas oczyszcza\u0107 i broni\u0107.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Mt 19:28*\nWy, kt\u00f3rzy za mn\u0105 poszli, zasi\u0105dziecie na stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby\u015bmy dzi\u0119ki przyj\u0119ciu \u015bwi\u0119tego daru, za wstawiennictwem \u015bwi\u0119tego Aposto\u0142a Twego Macieja, otrzymali przebaczenie i pok\u00f3j.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

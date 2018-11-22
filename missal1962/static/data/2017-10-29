@@ -1,0 +1,122 @@
+{
+  "info": {
+    "additional_info": [
+      "1 klasy", 
+      "Szaty bia\u0142e", 
+      "Ostatnia niedziela pa\u017adziernika"
+    ], 
+    "date": "2017-10-29", 
+    "description": "Chrystus jest Kr\u00f3lem wszechrzeczy, poniewa\u017c jest Synem Bo\u017cym i Odkupicielem ludzko\u015bci. Jego nauka jest podstaw\u0105 \u0142adu w \u017cyciu ludzi. Dzi\u0119ki jej spe\u0142nianiu mo\u017ce zaistnie\u0107 \u00abkr\u00f3lestwo sprawiedliwo\u015bci, mi\u0142o\u015bci i pokoju\u00bb (prefacja). \u015awi\u0119to Chrystusa Kr\u00f3la, ustanowione przez papie\u017ca Piusa XI w 1925 roku, obchodzi si\u0119 w ostatni\u0105 niedziel\u0119 pa\u017adzernika, bezpo\u015brednio przed uroczysto\u015bci\u0105 Wszystkich \u015awi\u0119tych i Dniem Zadusznym, aby uwydatni\u0107 zjednoczenie si\u0119 w Chrystusie trzech cz\u0119\u015bci Jego Kr\u00f3lestwa: Ko\u015bcio\u0142a walcz\u0105cego, triumfuj\u0105cego i cierpi\u0105cego.", 
+    "tempora": "21 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "Chrystusa Kr\u00f3la"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Apoc 5:12; 1:6*\nDignus est Agnus, qui occ\u00edsus est, acc\u00edpere virt\u00fatem, et divinit\u00e1tem, et sapi\u00e9ntiam, et fortit\u00fadinem, et hon\u00f3rem. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum.\n*Ps 71:1*\nDeus, jud\u00edcium tuum Regi da: et just\u00edtiam tuam F\u00edlio Regis.\nGl\u00f3ria Patri.\nDignus est Agnus, qui occ\u00edsus est, acc\u00edpere virt\u00fatem, et divinit\u00e1tem, et sapi\u00e9ntiam, et fortit\u00fadinem, et hon\u00f3rem. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui in dil\u00e9cto F\u00edlio tuo, univers\u00f3rum Rege, \u00f3mnia instaur\u00e1re volu\u00edsti: conc\u00e9de prop\u00edtius; ut cunct\u00e6 fam\u00edli\u00e6 g\u00e9ntium, pecc\u00e1ti v\u00falnere disgreg\u00e1t\u00e6, ejus suaviss\u00edmo subd\u00e1ntur imp\u00e9rio:\nQui tecum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses.\n*Col 1:12-20*\nFratres: Gr\u00e1tias \u00e1gimus Deo Patri, qui dignos nos fecit in partem sortis sanct\u00f3rum in l\u00famine: qui er\u00edpuit nos de potest\u00e1te tenebr\u00e1rum, et tr\u00e1nstulit in regnum F\u00edlii dilecti\u00f3nis su\u00e6, in quo hab\u00e9mus redempti\u00f3nem per s\u00e1nguinem ejus, remissi\u00f3nem peccat\u00f3rum: qui est im\u00e1go Dei invis\u00edbilis, primog\u00e9nitus omnis creat\u00fara: qu\u00f3niam in ipso c\u00f3ndita sunt univ\u00e9rsa in c\u0153lis et in terra, visib\u00edlia et invisib\u00edlia, sive Throni, sive Dominati\u00f3nes, sive Princip\u00e1tus, sive Potest\u00e1tes: \u00f3mnia per ipsum, et in ipso cre\u00e1ta sunt: et ipse est ante omnes, et \u00f3mnia in ipso constant. Et ipse est caput c\u00f3rporis Eccl\u00e9si\u00e6, qui est princ\u00edpium, primog\u00e9nitus ex m\u00f3rtuis: ut sit in \u00f3mnibus ipse prim\u00e1tum tenens; quia in ipso compl\u00e1cuit omnem plenit\u00fadinem inhabit\u00e1re; et per eum reconcili\u00e1re \u00f3mnia in ipsum, pac\u00edficans per s\u00e1nguinem crucis ejus, sive qu\u00e6 in terris, sive qu\u00e6 in c\u0153lis sunt, in Christo Jesu D\u00f3mino nostro.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 71:8; 78:11*\nDomin\u00e1bitur a mari usque ad mare, et a fl\u00famine usque ad t\u00e9rminos orbis terr\u00e1rum.\nV. Et ador\u00e1bunt eum omnes reges terr\u00e6: omnes gentes s\u00e9rvient ei. Allel\u00faja, allel\u00faja.\n*Dan 7:14.*\nPot\u00e9stas ejus, pot\u00e9stas \u00e6t\u00e9rna, qu\u00e6 non aufer\u00e9tur: et regnum ejus, quod non corrump\u00e9tur. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 88:27-28; 88:30*\nIpse invoc\u00e1bit me; Pater meus es tu: Deus meus, et susc\u00e9ptor sal\u00fatis me\u00e6.\nV. Et ego primog\u00e9nitum ponam illum: exc\u00e9lsum pr\u00e6 r\u00e9gibus terr\u00e6.\nV. Et ponam in s\u01fdculum s\u01fdculi semen ejus: et thronum ejus sicut dies c\u0153li.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 18:33-37*\nIn illo t\u00e9mpore: Dixit Pil\u00e1tus ad Jesum: Tu es Rex Jud\u00e6\u00f3rum? Resp\u00f3ndit Jesus: A temet\u00edpso hoc dicis, an \u00e1lii dix\u00e9runt tibi de me? Resp\u00f3ndit Pil\u00e1tus: Numquid ego Jud\u01fdus sum? Gens tua et pont\u00edfices tradid\u00e9runt te mihi: quid fec\u00edsti? Resp\u00f3ndit Jesus: Regnum meum non est de hoc mundo. Si ex hoc mundo esset regnum meum, min\u00edstri mei \u00fatique decert\u00e1rent, ut non tr\u00e1derer Jud\u01fdis: nunc autem regnum meum non est hinc. Dixit \u00edtaque ei Pil\u00e1tus: Ergo Rex es tu? Resp\u00f3ndit Jesus: Tu dicis, quia Rex sum ego. Ego in hoc natus sum et ad hoc veni in mundum, ut testim\u00f3nium perh\u00edbeam verit\u00e1ti: omnis, qui est ex verit\u00e1te, audit vocem meam.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 2:8.*\nP\u00f3stula a me, et dabo tibi gentes heredit\u00e1tem tuam, et possessi\u00f3nem tuam t\u00e9rminos terr\u00e6.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "H\u00f3stiam tibi, D\u00f3mine, hum\u00e1n\u00e6 reconciliati\u00f3nis off\u00e9rimus: pr\u00e6sta, qu\u01fdsumus; ut, quem sacrif\u00edciis pr\u00e6s\u00e9ntibus immol\u00e1mus, ipse cunctis g\u00e9ntibus unit\u00e1tis et pacis dona conc\u00e9dat, Jesus Christus F\u00edlius tuus, D\u00f3minus noster:\nQui tecum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de D.N. Jesu Christi Rege*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui unig\u00e9nitum F\u00edlium tuum, D\u00f3minum nostrum Jesum Christum, Sacerd\u00f3tem \u00e6t\u00e9rnum et univers\u00f3rum Regem, \u00f3leo exsultati\u00f3nis unx\u00edsti: ut, se\u00edpsum in ara crucis h\u00f3stiam immacul\u00e1tam et pac\u00edficam \u00f3fferens, redempti\u00f3nis hum\u00e1n\u00e6 sacram\u00e9nta per\u00e1geret: et suo subj\u00e9ctis imp\u00e9rio \u00f3mnibus creat\u00faris, \u00e6t\u00e9rnum et univers\u00e1le regnum, imm\u00e9ns\u00e6 tu\u00e6 tr\u00e1deret Majest\u00e1ti. Regnum verit\u00e1tis et vit\u00e6: regnum sanctit\u00e1tis et gr\u00e1ti\u00e6: regnum just\u00edti\u00e6, am\u00f3ris et pacis. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 28:10; 28:11*\nSed\u00e9bit D\u00f3minus Rex in \u00e6t\u00e9rnum: D\u00f3minus bened\u00edcet p\u00f3pulo suo in pace.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Immortalit\u00e1tis alim\u00f3niam consec\u00fati, qu\u01fdsumus, D\u00f3mine: ut, qui sub Christi Regis vex\u00edllis milit\u00e1re glori\u00e1mur, cum ipso, in c\u0153l\u00e9sti sede, j\u00fagiter regn\u00e1re p\u00f3ssimus:\nQui tecum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ap 5:12; 1:6*\n*Wizja z Apokalipsy \u015bw. Jana ukazuje nam Chrystusa odbieraj\u0105cego ho\u0142dy Anio\u0142\u00f3w i odkupionej ludzko\u015bci.*\nGodzien jest Baranek, kt\u00f3ry by\u0142 zabity, otrzyma\u0107 moc i boskie ho\u0142dy, i si\u0142\u0119, i cze\u015b\u0107. Jemu chwa\u0142a i panowanie po wszystkie wieki.\n*Ps 71:1*\nO Bo\u017ce, daj sw\u00f3j s\u0105d Kr\u00f3lowi i Synowi Kr\u00f3la Twoj\u0105 sprawiedliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nGodzien jest Baranek, kt\u00f3ry by\u0142 zabity, otrzyma\u0107 moc i boskie ho\u0142dy, i si\u0142\u0119, i cze\u015b\u0107. Jemu chwa\u0142a i panowanie po wszystkie wieki.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, Ty postanowi\u0142e\u015b wszystko odnowi\u0107 w umi\u0142owanym Synu Twoim jako Kr\u00f3lu wszechrzeczy, spraw \u0142askawie, aby rodziny narod\u00f3w rozdzielone na skutek ran grzechowych, podda\u0142y si\u0119 Jego najs\u0142odszemu panowaniu:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 1:12-20*\nBracia: Dzi\u0119ki czy\u0144cie Bogu Ojcu, \u017ce nas uczyni\u0142 godnymi, aby\u015bmy si\u0119 stali uczestnikami dziedzictwa \u015bwi\u0119tych w \u015bwiat\u0142o\u015bci. (B\u00f3g) wybawi\u0142 nas z mocy ciemno\u015bci i przeni\u00f3s\u0142 do kr\u00f3lestwa Syna umi\u0142owania swego. W Nim mamy odkupienie przez krew Jego, odpuszczenie grzech\u00f3w. On jest obrazem Boga niewidzialnego, pierworodnym wszelkiego stworzenia. Albowiem w Nim wszystkie rzeczy zosta\u0142y stworzone na niebie i na ziemi, widzialne i niewidzialne, czy to Trony, czy Pa\u0144stwa, Ksi\u0119stwa, czy W\u0142adze. Wszystko przez Niego i w Nim stworzone zosta\u0142o, a On jest przed wszystkim i wszystko w Nim trwa. On jest te\u017c g\u0142ow\u0105 cia\u0142a Ko\u015bcio\u0142a, pocz\u0105tkiem i pierworodnym z umar\u0142ych, aby sam we wszystkim zachowa\u0142 pierwsze\u0144stwo. Bo spodoba\u0142o si\u0119 (Bogu), aby przebywa\u0142a w Nim wszelka pe\u0142no\u015b\u0107 oraz aby przeze\u0144 wszystko, co jest na ziemi, czy co jest w niebiesiech, w Nim si\u0119 pojedna\u0142o, po nastaniu pokoju przez krew krzy\u017ca Jego: w Chrystusie Jezusie, Panu naszym.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 71:8; 78:11*\nPanowa\u0107 b\u0119dzie od morza do morza i od rzeki a\u017c po kra\u0144ce ziemi. I uwielbi\u0105 Go wszyscy kr\u00f3lowie, wszystkie narody b\u0119d\u0105 Mu s\u0142u\u017cy\u0142y. Alleluja, alleluja.\n*Dn 7:14*\nW\u0142adza Jego to w\u0142adza wieczna, kt\u00f3ra nie b\u0119dzie odj\u0119ta, a kr\u00f3lestwo Jego nigdy nie zaginie. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 18:33-37*\nOnego czasu: Rzek\u0142 Pi\u0142at do Jezusa: \u00abCzy Ty jeste\u015b Kr\u00f3l \u017cydowski?\u00bb Odpowiedzia\u0142 Jezus: \u00abCzy sam od siebie to m\u00f3wisz, czy inni ci o mnie powiedzieli?\u00bb Odpowiedzia\u0142 Pi\u0142at: \u00abCzy\u017c ja jestem \u017bydem? Nar\u00f3d Tw\u00f3j i najwy\u017csi kap\u0142ani wydali mi Ciebie. C\u00f3\u017ce\u015b uczyni\u0142?\u00bb Odpowiedzia\u0142 Jezus: \u00abKr\u00f3lestwo moje nie jest z tego \u015bwiata. Gdyby z tego \u015bwiata by\u0142o kr\u00f3lestwo moje, s\u0142udzy moi walczyliby niechybnie, \u017cebym nie by\u0142 wydany \u017bydom. Ale teraz kr\u00f3lestwo moje nie jest st\u0105d\u00bb. Rzek\u0142 Mu tedy Pi\u0142at: \u00abWi\u0119c Ty\u015b jest kr\u00f3l?\u00bb Odpowiedzia\u0142 Jezus: \u00abSam m\u00f3wisz, \u017ce ja jestem kr\u00f3lem. Jam si\u0119 na to narodzi\u0142 i na to przyszed\u0142em na \u015bwiat, aby da\u0107 \u015bwiadectwo prawdzie. Ka\u017cdy, kt\u00f3ry z prawdy jest, s\u0142ucha g\u0142osu mego\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 2:8*\n\u017b\u0105daj ode mnie, a dam ci narody w dziedzictwo i kra\u0144ce ziemi w Twoje posiadanie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Ofiarujemy Ci, Panie, \u017certw\u0119 jednaj\u0105c\u0105 ludzi z Tob\u0105, spraw, aby Ten, kt\u00f3rego w tej ofierze sk\u0142adamy, u\u017cyczy\u0142 wszystkim narodom daru jedno\u015bci i pokoju: Jezus Chrystus Syn Tw\u00f3j, Pan nasz.\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Chrystusie Kr\u00f3lu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b nama\u015bci\u0142 olejem wesela Jednorodzonego Syna Twego, Pana naszego Jezusa Chrystusa, wiekuistego Kap\u0142ana i Kr\u00f3la wszech\u015bwiata, aby dope\u0142ni\u0142 tajemnicy Odkupienia rodzaju ludzkiego ofiaruj\u0105c siebie samego na o\u0142tarzu krzy\u017ca jako niepokalan\u0105 ofiar\u0119 pojednania i aby poddawszy swej w\u0142adzy wszystkie stworzenia przekaza\u0142 niesko\u0144czonemu Majestatowi Twojemu wieczne i powszechne kr\u00f3lestwo: kr\u00f3lestwo prawdy i \u017cycia, kr\u00f3lestwo \u015bwi\u0119to\u015bci i \u0142aski, kr\u00f3lestwo sprawiedliwo\u015bci, mi\u0142o\u015bci i pokoju.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 28:10; 28:11*\nPan zasi\u0105dzie jako kr\u00f3l na wieki. Pan obdarzy lud sw\u00f3j pokojem.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Po przyj\u0119ciu pokarmu, kt\u00f3ry jest zadatkiem nie\u015bmiertelno\u015bci, prosimy Ci\u0119, Panie, aby\u015bmy dost\u0105piwszy zaszczytu pe\u0142nienia s\u0142u\u017cby pod sztandarami Chrystusa Kr\u00f3la, mogli wraz z Nim\nw siedzibach niebieskich kr\u00f3lowa\u0107 na wieki:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

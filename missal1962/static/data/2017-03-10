@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u Dwunastu Aposto\u0142\u00f3w", 
+      "2 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2017-03-10", 
+    "description": "\u00abB\u00f3g nie chce \u015bmierci grzesznika, lecz \u017ceby si\u0119 nawr\u00f3ci\u0142 i \u017cy\u0142\u00bb. Nieochrzczonym B\u00f3g udziela \u017cycia nadprzyrodzonego w sakramencie Chrztu \u015bwi\u0119tego, pokutuj\u0105cym chrze\u015bcijanom w sakramencie Pokuty. Wielki Post to przygotowanie do owocnego przyj\u0119cia tych sakrament\u00f3w.", 
+    "tempora": null, 
+    "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 24:17; 24:18*\nDe necessit\u00e1tibus meis \u00e9ripe me, D\u00f3mine: vide humilit\u00e1tem meam et lab\u00f3rem meum, et dim\u00edtte \u00f3mnia pecc\u00e1ta mea.\n*Ps 24:1-2*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam.\nGl\u00f3ria Patri.\nDe necessit\u00e1tibus meis \u00e9ripe me, D\u00f3mine: vide humilit\u00e1tem meam et lab\u00f3rem meum, et dim\u00edtte \u00f3mnia pecc\u00e1ta mea.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Esto, D\u00f3mine, prop\u00edtius plebi tu\u00e6: et, quam tibi facis esse dev\u00f3tam, ben\u00edgno r\u00e9fove miser\u00e1tus aux\u00edlio.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 18:20-28*\nH\u00e6c dicit D\u00f3minus Deus: Anima, quae pecc\u00e1verit, ipsa mori\u00e9tur: f\u00edlius non port\u00e1bit iniquit\u00e1tem patris, et pater non port\u00e1bit iniquit\u00e1tem f\u00edlii: just\u00edtia justi super eum erit, et imp\u00edetas \u00edmpii erit super eum. Si autem \u00edmpius \u00e9gerit p\u00e6nit\u00e9ntiam ab \u00f3mnibus pecc\u00e1tis suis, qu\u00e6 oper\u00e1tus est, et custod\u00ederit \u00f3mnia pr\u00e6c\u00e9pta mea, et f\u00e9cerit jud\u00edcium et just\u00edtiam: vita vivet, et non mori\u00e9tur. Omnium iniquit\u00e1tum ejus, quas oper\u00e1tus est, non record\u00e1bor: in just\u00edtia sua, quam oper\u00e1tus est, vivet. Numquid volunt\u00e1tis me\u00e6 est mors \u00edmpii, dicit D\u00f3minus Deus, et non ut convert\u00e1tur a viis suis, et vivat? Si autem av\u00e9rtent se justus a just\u00edtia sua, et f\u00e9cerit iniquit\u00e1tem sec\u00fandum omnes abominati\u00f3nes, quas oper\u00e1ri solet \u00edmpius, numquid vivet? omnes just\u00edti\u00e6 ejus, quas f\u00e9cerat, non recordab\u00fantur: in pr\u00e6varicati\u00f3ne, qua pr\u00e6varic\u00e1tus est, et in pecc\u00e1to suo, quod pecc\u00e1vit, in ipsis mori\u00e9tur. Et dix\u00edstis: Non est \u00e6qua via D\u00f3mini. Aud\u00edte ergo, domus Isra\u00ebl: Numquid via mea non est \u00e6qua, et non magis vi\u00e6 vestr\u00e6 prav\u00e6 sunt? Cum enim av\u00e9rtent se justus a just\u00edtia sua, et fecerit iniquit\u00e1tem, mori\u00e9tur in eis: in injust\u00edtia, quam oper\u00e1tus est, mori\u00e9tur. Et cum av\u00e9rtent se \u00edmpius ab impiet\u00e1te sua, quam oper\u00e1tus est, et f\u00e9cerit jud\u00edcium et just\u00edtiam: ipse \u00e1nimam suam vivific\u00e1bit. Cons\u00edderans enim, et av\u00e9rtens se ab \u00f3mnibus iniquit\u00e1tibus suis, quas oper\u00e1tus est, vita vivet, et non mori\u00e9tur, ait D\u00f3minus omn\u00edpotens.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 85:2; 85:6*\nSalvum fac servum tuum. Deus meus, sper\u00e1ntem in te.\nV. Auribus p\u00e9rcipe, D\u00f3mine, orati\u00f3nem meam.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis\n*Ps 78:8-9*\nD\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 5:1-15*\nIn illo t\u00e9mpore: Erat dies festus Jud\u00e6\u00f3rum, et asc\u00e9ndit Jesus Jeros\u00f3lymam. Est autem Jeros\u00f3lymis Prob\u00e1tica pisc\u00edna, qu\u00e6 cognomin\u00e1tur hebr\u00e1ice Beths\u00e1ida, quinque p\u00f3rticus habens. In his jac\u00e9bat multit\u00fado magna langu\u00e9ntium, c\u00e6c\u00f3rum, claud\u00f3rum, arid\u00f3rum exspect\u00e1ntium aqu\u00e6 motum. Angelus autem D\u00f3mini descend\u00e9bat sec\u00fandum tempus in pisc\u00ednam, et moveb\u00e1tur aqua. Et, qui prior descend\u00edsset in pisc\u00ednam post moti\u00f3nem aqu\u00e6, sanus fi\u00e9bat, a quac\u00famque detineb\u00e1tur infirmit\u00e1te. Erat autem quidam homo ibi, trig\u00ednta et octo annos habens in infirmit\u00e1te sua. Hunc cum vid\u00edsset Jesus jac\u00e9ntem, et cognovisset, quia jam multum tempus hab\u00e9ret, dicit ei: Vis sanus f\u00ederi? Resp\u00f3ndit ei l\u00e1nguidus: D\u00f3mine, h\u00f3minem non h\u00e1beo, ut, cum turb\u00e1ta f\u00faerit aqua, mittat me in pisc\u00ednam: dum v\u00e9nio enim ego, \u00e1lius ante me desc\u00e9ndit. Dicit ei Jesus: Surge, tolle grab\u00e1tum tuum, et \u00e1mbula. Et statim sanus factus est homo ille: et s\u00fastulit grab\u00e1tum suum, et ambul\u00e1bat. Erat autem s\u00e1bbatum in die illo. Dic\u00e9bant ergo Judaei illi, qui san\u00e1tus f\u00faerat: S\u00e1bbatum est, non licet tibi t\u00f3llere grab\u00e1tum tuum. Resp\u00f3ndit eis: Qui me sanum fecit, ille mihi dixit: Tolle grab\u00e1tum tuum, et \u00e1mbula. Interrogav\u00e9runt ergo eum: Quis est ille homo, qui dixit tibi: Tolle grab\u00e1tum tuum et \u00e1mbula? Is autem, qui sanus f\u00faerat eff\u00e9ctus, nesci\u00e9bat, quis esset. Jesus enim declin\u00e1vit a turba constit\u00fata in loco. P\u00f3stea inv\u00e9nit eum Jesus in templo, et dixit illi: Ecce, sanus factus es: jam noli pecc\u00e1re, ne det\u00e9rius tibi \u00e1liquid cont\u00edngat. Abiit ille homo, et nunti\u00e1vit Judaeis, quia Jesus esset, qui fecit eum sanum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 102:2; 102:5*\nB\u00e9nedic, anima mea, D\u00f3mino, et noli obliv\u00edsci omnes retributi\u00f3nes ejus: et renov\u00e1bitur, sicut \u00e1quil\u00e6, juv\u00e9ntus tua.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "S\u00fascipe, qu\u01fdsumus, D\u00f3mine, m\u00fanera nostris obl\u00e1ta serv\u00edtiis: et tua prop\u00edtius dona sanct\u00edfica.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Ps 6:11*\nErub\u00e9scant et conturb\u00e9ntur omnes inim\u00edci mei: avert\u00e1ntur retr\u00f3rsum, et erub\u00e9scant valde vel\u00f3citer.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Per hujus, D\u00f3mine, operati\u00f3nem myst\u00e9rii, et v\u00edtia nostra purg\u00e9ntur, et justa desid\u00e9ria comple\u00e1ntur.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 24:17; 24:18*\nWyrwij mnie z moich udr\u0119cze\u0144, Panie, wejrzyj na n\u0119dz\u0119 moj\u0105 i na m\u00f3j trud i odpu\u015b\u0107 wszystkie me wyst\u0119pki.\n*Ps 24:1-2*\nKu Tobie wznosz\u0119 dusz\u0119 moj\u0105, Panie, Bo\u017ce m\u00f3j, Tobie ufam: niech nie doznam wstydu.\nChwa\u0142a Ojcu.\nWyrwij mnie z moich udr\u0119cze\u0144, Panie, wejrzyj na n\u0119dz\u0119 moj\u0105 i na m\u00f3j trud i odpu\u015b\u0107 wszystkie me wyst\u0119pki.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "B\u0105d\u017a mi\u0142o\u015bciw, Panie, ludowi Twojemu, kt\u00f3ry czynisz sobie oddanym, i w mi\u0142osierdziu swoim pokrzep go \u0142askaw\u0105 pomoc\u0105.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 18:20-28*\nTo m\u00f3wi Pan B\u00f3g: Cz\u0142owiek, kt\u00f3ry zgrzeszy, sam \u015bmier\u0107 poniesie: syn nie poniesie nieprawo\u015bci ojca, a ojciec nie poniesie nieprawo\u015bci syna. Sprawiedliwo\u015b\u0107 sprawiedliwego b\u0119dzie jego w\u0142asno\u015bci\u0105, a niezbo\u017cno\u015b\u0107 niezbo\u017cnego b\u0119dzie jego w\u0142asno\u015bci\u0105. Je\u015bli za\u015b niezbo\u017cny za wszystkie grzechy swe, jakie pope\u0142ni\u0142, b\u0119dzie czyni\u0142 pokut\u0119, a strzec b\u0119dzie wszystkich mych przykaza\u0144, a post\u0119powa\u0107 b\u0119dzie wed\u0142ug s\u0105du i sprawiedliwo\u015bci: z pewno\u015bci\u0105 \u017cy\u0107 b\u0119dzie, a nie umrze. Nie b\u0119d\u0119 pomny na wszystkie nieprawo\u015bci jego, jakie pope\u0142ni\u0142 dzi\u0119ki sprawiedliwo\u015bci swej, jakiej dokona\u0142, \u017cy\u0107 b\u0119dzie. Czy\u017c chc\u0119 \u015bmierci grzesznika, m\u00f3wi Pan B\u00f3g, a nie raczej, a\u017ceby od dr\u00f3g swych nawr\u00f3ci\u0142 si\u0119, a \u017cy\u0142?\nJe\u015bli za\u015b sprawiedliwy odwr\u00f3ci si\u0119 od swej sprawiedliwo\u015bci, a b\u0119dzie czyni\u0142 nieprawo\u015b\u0107 pod\u0142ug wszystkich obrzydliwo\u015bci, jakie zwyk\u0142 czyni\u0107 niezbo\u017cny \u2013 czy\u017c b\u0119dzie \u017cy\u0142? Wszystkie jego czyny sprawiedliwe, jakie zdzia\u0142a\u0142, nie b\u0119d\u0105 wspomniane; przez sprzeniewierzenie, kt\u00f3rego dokona\u0142, i przez grzech, kt\u00f3ry pope\u0142ni\u0142, przez nie umrze.\nI powiedzieli\u015bcie: \u00abDroga Pa\u0144ska nie jest s\u0142uszna\u00bb. S\u0142uchajcie wi\u0119c, domu izraelski: Czy\u017c moja droga nie jest s\u0142uszna, czy raczej nie wasze to drogi s\u0105 przewrotne? Gdy bowiem odwr\u00f3ci si\u0119 sprawiedliwy od sprawiedliwo\u015bci i czyni\u0107 b\u0119dzie nieprawo\u015b\u0107, umrze przez nie: przez niesprawiedliwo\u015b\u0107, kt\u00f3r\u0105 pope\u0142ni\u0142, umrze. I gdy odwr\u00f3ci si\u0119 niezbo\u017cny od niezbo\u017cno\u015bci, kt\u00f3r\u0105 pope\u0142ni\u0142, a post\u0119powa\u0107 b\u0119dzie wed\u0142ug s\u0105du i sprawiedliwo\u015bci, sam sobie \u017cycie zapewni. Rozwa\u017cywszy bowiem, a odwr\u00f3ciwszy si\u0119 od wszystkich nieprawo\u015bci swych, jakie pope\u0142ni\u0142, \u017cy\u0107 b\u0119dzie na pewno, a nie umrze, m\u00f3wi Pan wszechmog\u0105cy.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 85:2; 85:6*\nRatuj, m\u00f3j Bo\u017ce, s\u0142ug\u0119 swego, kt\u00f3ry Ci zaufa\u0142.\nV. Us\u0142ysz, Panie, modlitw\u0119 moj\u0105.\n\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 5:1-15*\n*Paralityk oczekuj\u0105cy uzdrowienia od 38 lat to obraz na\u0142ogowego grzesznika, kt\u00f3ry nie znajduje w sobie si\u0142y do poprawy.*\nOnego czasu. By\u0142o \u015bwi\u0119to \u017cydowskie i przyszed\u0142 Jezus do Jerozolimy. A jest w Jerozolimie sadzawka owcza, po hebrajsku zwana Betsajda, maj\u0105ca pi\u0119\u0107 kru\u017cgank\u00f3w. W nich to le\u017ca\u0142o wielkie mn\u00f3stwo chorych, \u015blepych, chromych, paralityk\u00f3w, czekaj\u0105cych poruszenia wody. A Anio\u0142 Pa\u0144ski zst\u0119powa\u0142 od czasu do czasu do sadzawki i porusza\u0142a si\u0119 woda. I kto pierwszy wszed\u0142 do sadzawki po poruszeniu wody, stawa\u0142 si\u0119 zdrowym, jak\u0105kolwiek by\u0142by zdj\u0119ty niemoc\u0105.\nA by\u0142 tam cz\u0142owiek pewien z\u0142o\u017cony chorob\u0105 od lat trzydziestu o\u015bmiu. I gdy Jezus ujrza\u0142 go le\u017c\u0105cego i pozna\u0142, \u017ce ju\u017c przez d\u0142ugi czas choruje, rzek\u0142 do niego: \u00abCzy chcesz by\u0107 zdrowym?\u00bb Odpowiedzia\u0142 Mu chory: \u00abPanie, nie mam nikogo, kto by zanurzy\u0142 mi\u0119 w sadzawce, kiedy porusza si\u0119 woda. Bo zanim ja dojd\u0119, inny przede mn\u0105 wst\u0119puje\u00bb. Rzek\u0142 mu Jezus: \u00abWsta\u0144, we\u017amij \u0142o\u017ce twe i chod\u017a\u00bb. I natychmiast sta\u0142 si\u0119 zdrowym \u00f3w cz\u0142owiek, i wzi\u0105\u0142 \u0142o\u017ce swoje, i chodzi\u0142.\nA by\u0142 to dzie\u0144 szabatu. M\u00f3wili tedy \u017cydzi do uzdrowionego: \u00abJest szabat, nie godzi ci si\u0119 nosi\u0107 \u0142o\u017ca twego\u00bb. Odpowiedzia\u0142 im: Ten, kt\u00f3ry mi\u0119 uzdrowi\u0142, powiedzia\u0142 mi: \u00abWe\u017amij \u0142o\u017ce twe i chod\u017a.\u00bb Zapytali go wi\u0119c: \u00abC\u00f3\u017c to za cz\u0142owiek, kt\u00f3ry ci powiedzia\u0142: We\u017amij \u0142o\u017ce twe i chod\u017a?\u00bb A uzdrowiony nie wiedzia\u0142, kto to by\u0142, Jezus bowiem oddali\u0142 si\u0119 od t\u0142umu, kt\u00f3ry by\u0142 zgromadzony w tym miejscu. Potem spotka\u0142 go Jezus w \u015bwi\u0105tyni i rzek\u0142 mu: \u00abSta\u0142e\u015b si\u0119 zdrowym, ju\u017c nie grzesz, aby ci si\u0119 co gorszego nie zdarzy\u0142o\u00bb. A cz\u0142owiek \u00f3w odszed\u0142 i oznajmi\u0142 \u017cydom, \u017ce to Jezus go uzdrowi\u0142.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 102:2; 102:5*\nB\u0142ogos\u0142aw, duszo moja, Pana i nie zapominaj wszystkich dobrodziejstw Jego, a m\u0142odo\u015b\u0107 twoja odnowi si\u0119 jak u or\u0142a.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, przyjmij ofiary z\u0142o\u017cone przy naszej pos\u0142udze i u\u015bwi\u0119\u0107 dary, kt\u00f3re od Ciebie pochodz\u0105.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Ps 6:11*\nNiech si\u0119 zawstydz\u0105 i zatrwo\u017c\u0105 wszyscy wrogowie moi, niech zawstydz\u0105 si\u0119 i odst\u0105pi\u0105 co pr\u0119dzej.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech dzia\u0142anie Twego Sakramentu oczy\u015bci nas ze z\u0142ych sk\u0142onno\u015bci i spe\u0142ni nasze godziwe pragnienia.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

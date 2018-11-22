@@ -1,0 +1,127 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Wawrzy\u0144ca za Murami", 
+      "1 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2018-05-24", 
+    "description": "Chrystus Pan obdarzy\u0142 Ko\u015bci\u00f3\u0142 w\u0142adz\u0105 nad szatanem i nad chorobami (ewangelia). Aposto\u0142owie oraz ich uczniowie cz\u0119sto korzystali z tej w\u0142adzy (lekcja). Przede wszystkim uwalnianie op\u0119tanych jest znakiem, \u017ce nadesz\u0142o Kr\u00f3lestwo Bo\u017ce.", 
+    "tempora": null, 
+    "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Sap 1:7*\nSp\u00edritus D\u00f3mini repl\u00e9vit orbem terr\u00e1rum, allel\u00faja: et hoc quod c\u00f3ntinet \u00f3mnia, sci\u00e9ntiam habet vocis, allel\u00faja, allel\u00faja, allel\u00faja.\n*Ps 67:2.*\nExs\u00fargat Deus, et dissip\u00e9ntur inim\u00edci ejus: et f\u00fagiant, qui od\u00e9runt eum, a f\u00e1cie ejus.\nGl\u00f3ria Patri.\nSp\u00edritus D\u00f3mini repl\u00e9vit orbem terr\u00e1rum, allel\u00faja: et hoc quod c\u00f3ntinet \u00f3mnia, sci\u00e9ntiam habet vocis, allel\u00faja, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui hodi\u00e9rna die corda fid\u00e9lium Sancti Sp\u00edritus illustrati\u00f3ne docu\u00edsti: da nobis in e\u00f3dem Sp\u00edritu recta s\u00e1pere; et de ejus semper consolati\u00f3ne gaud\u00e9re.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Actuum Apostol\u00f3rum.\n*Acts 8:5-8*\nIn di\u00e9bus illis: Phil\u00edppus desc\u00e9ndens in civit\u00e1tem Samar\u00ed\u00e6, pr\u00e6dic\u00e1bat illis Christum. Intend\u00e9bant autem turb\u00e6 his, qu\u00e6 a Phil\u00edppo diceb\u00e1ntur, unan\u00edmiter audi\u00e9ntes et vid\u00e9ntes signa, qu\u00e6 faci\u00e9bat. Multi enim e\u00f3rum, qui hab\u00e9bant sp\u00edritus imm\u00fandos, clam\u00e1ntes voce magna, ex\u00edbant. Multi autem paral\u00fdtici et claudi cur\u00e1ti sunt. Factum est ergo g\u00e1udium magnum in illa civit\u00e1te.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja, allel\u00faja\n*Ps 103:30*\nV. Em\u00edtte Sp\u00edritum tuum, et creab\u00fantur, et renov\u00e1bis f\u00e1ciem terr\u00e6. Allel\u00faja.  (Hic genuflectitur)\nV. Veni, Sancte Sp\u00edritus, reple tu\u00f3rum corda fid\u00e9lium: et tui am\u00f3ris in eis ignem acc\u00e9nde.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Veni, Sancte Sp\u00edritus,\net em\u00edtte caelitus\nlucis tu\u00e6 r\u00e1dium.\n\nVeni, pater p\u00e1uperum;\nveni, dator m\u00fanerum;\nveni, lumen c\u00f3rdium.\n\nConsol\u00e1tor \u00f3ptime,\ndulcis hospes \u00e1nim\u00e6,\ndulce refrig\u00e9rium.\n\nIn lab\u00f3re r\u00e9quies,\nin \u00e6stu temp\u00e9ries,\nin fletu sol\u00e1cium.\n\nO lux beat\u00edssima,\nreple cordis \u00edntima\ntu\u00f3rum fid\u00e9lium.\n\nSine tuo n\u00famine\nnihil est in h\u00f3mine,\nnihil est inn\u00f3xium.\n\nLava quod est s\u00f3rdidum,\nriga quod est \u00e1ridum,\nsana quod est s\u00e1ucium.\n\nFlecte quod est r\u00edgidum,\nfove quod est fr\u00edgidum,\nrege quod est d\u00e9vium.\n\nDa tuis fid\u00e9libus,\nin te confid\u00e9ntibus,\nsacrum septen\u00e1rium.\n\nDa virt\u00fatis m\u00e9ritum,\nda sal\u00fatis \u00e9xitum,\nda per\u00e9nne g\u00e1udium.\nAmen. Allel\u00faja.", 
+      "id": "Sequentia", 
+      "label": "Sequentia"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 9:1-6*\nIn illo t\u00e9mpore: Convoc\u00e1tis Jesus du\u00f3decim Ap\u00f3stolis, dedit illis virt\u00fatem et potest\u00e1tem super \u00f3mnia d\u00e6m\u00f3nia, et ut langu\u00f3res cur\u00e1rent. Et misit illos pr\u00e6dic\u00e1re regnum Dei et san\u00e1re inf\u00edrmos. Et ait ad illos: Nihil tul\u00e9ritis in via, neque virgam, neque peram, neque panem, neque pec\u00faniam, neque duas t\u00fanicas habe\u00e1tis. Et in quamc\u00famque domum intrav\u00e9ritis, ibi man\u00e9te et inde ne exe\u00e1tis. Et quic\u00famque non rec\u00e9perint vos: exe\u00fantes de civit\u00e1te illa, etiam p\u00falverem pedum vestr\u00f3rum exc\u00fatite in testim\u00f3nium supra illos. Egr\u00e9ssi autem circu\u00edbant per cast\u00e9lla, evangeliz\u00e1ntes et cur\u00e1ntes ub\u00edque.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 67:29-30.*\nConf\u00edrma hoc, Deus, quod oper\u00e1tus es in nobis: a templo tuo, quod est in Jer\u00fasalem, tibi \u00f3fferent reges m\u00fanera, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "M\u00fanera, qu\u01fdsumus, D\u00f3mine, oblata sanct\u00edfica: et corda nostra Sancti Sp\u00edritus illustrati\u00f3ne em\u00fanda.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Spiritu Sancto*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Qui, asc\u00e9ndens super omnes coelos sed\u00e9nsque ad d\u00e9xteram tuam, prom\u00edssum Sp\u00edritum Sanctum * * in f\u00edlios adopti\u00f3nis eff\u00fadit. Quapr\u00f3pter prof\u00fasis g\u00e1udiis totus in orbe terr\u00e1rum mundus exs\u00faltat. Sed et sup\u00e9rn\u00e6 Virt\u00fates atque ang\u00e9lic\u00e6 Potest\u00e1tes hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00f3ncinunt, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Acts 2:2 2:4*\nFactus est rep\u00e9nte de coelo sonus tamquam adveni\u00e9ntis sp\u00edritus vehem\u00e9ntis, ubi erant sed\u00e9ntes, allel\u00faja: et repl\u00e9ti sunt omnes Sp\u00edritu Sancto, loqu\u00e9ntes magn\u00e1lia Dei, allel\u00faja, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Sancti Sp\u00edritus, D\u00f3mine, corda nostra mundet inf\u00fasio: et sui roris \u00edntima aspersi\u00f3ne fec\u00fandet.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Mdr 1:7*\nDuch Pa\u0144ski nape\u0142ni\u0142 okr\u0105g ziemi, alleluja: A Ten, kt\u00f3ry wszystko obejmuje, zna ka\u017cde s\u0142owo, alleluja, alleluja, alleluja.\n*Ps 67:2*\nB\u00f3g wstaje, a rozpraszaj\u0105 si\u0119 Jego wrogowie i pierzchaj\u0105 przed Jego obliczem ci, kt\u00f3rzy Go nienawidz\u0105.\nChwa\u0142a Ojcu.\nDuch Pa\u0144ski nape\u0142ni\u0142 okr\u0105g ziemi, alleluja: A Ten, kt\u00f3ry wszystko obejmuje, zna ka\u017cde s\u0142owo, alleluja, alleluja, alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b w dniu dzisiejszym pouczy\u0142 serca wiernych \u015bwiat\u0142em Ducha \u015awi\u0119tego, daj nam w tym\u017ce Duchu pozna\u0107 co jest prawe i pociech\u0105 Jego zawsze si\u0119 radowa\u0107.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 8:5-8*\nW one dni: Filip zaszed\u0142szy do miasta Samarii g\u0142osi\u0142 im Chrystusa. I rzesze s\u0142ucha\u0142y zgodnie tego, co im powiada\u0142 Filip, widz\u0105c cuda, kt\u00f3re czyni\u0142. Duchy nieczyste bowiem z wielu tych, kt\u00f3rzy je mieli, wychodzi\u0142y wo\u0142aj\u0105c g\u0142osem wielkim; wielu te\u017c sparali\u017cowanych i chromych uzdrowionych zosta\u0142o. Tote\u017c wielka rado\u015b\u0107 zapanowa\u0142a w tym mie\u015bcie.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja, alleluja\n*Ps 103:30*\nZe\u015blij Ducha Twojego, a powstanie \u017cycie i odnowisz oblicze ziemi, alleluja. (Tu si\u0119 przykl\u0119ka.)\nV. Przyjd\u017a, Duchu \u015awi\u0119ty, nape\u0142nij serca Twych wiernych i zapal w nich ogie\u0144 Twojej mi\u0142o\u015bci.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*B\u0142agalna sekwencja w poetyckiej formie opisuje dzia\u0142anie Ducha \u015awi\u0119tego w duszach wiernych.*\nPrzyb\u0105d\u017a Duchu \u015awi\u0119ty\nZe\u015blij na nas z nieba\nPromie\u0144 Twego \u015bwiat\u0142a.\n\nPrzyjd\u017a, ojcze ubogich,\nPrzyb\u0105d\u017a, dawco dar\u00f3w,\nPrzyb\u0105d\u017a, serc \u015bwiat\u0142o\u015bci.\n\nPrzyjd\u017a, Pocieszycielu,\nS\u0142odki go\u015bciu duszy,\nS\u0142odkie pokrzepienie.\n\nTy\u015b spoczynkiem w pracy,\nTy\u015b och\u0142od\u0105 w skwarze,\nTy\u015b pociech\u0105 w p\u0142aczu.\n\nO \u015bwiat\u0142o\u015bci b\u0142oga,\nNape\u0142\u0144 wn\u0119trze serca\nWszystkich Twoich wiernych.\n\nBez Twej Boskiej Woli\nNie ma nic w cz\u0142owieku,\nNie ma nic bez winy.\n\nObmyj to, co brudne,\nZro\u015b to, co jest osch\u0142e,\nUlecz, co zranione.\n\nZegnij, co oporne,\nOgrzej, co jest zimne,\nSprostuj to, co b\u0142\u0119dne.\n\nUdziel Twoim wiernym,\nTobie ufaj\u0105cym,\nSiedem \u015bwi\u0119tych dar\u00f3w.\n\nDaj zas\u0142ug\u0119 cnoty,\nDaj zbawienny koniec,\nDaj wieczyst\u0105 rado\u015b\u0107.\nAmen. Alleluja.", 
+      "id": "Sequentia", 
+      "label": "Sekwencja"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 9:1-6*\nOnego czasu: Jezus wezwawszy dwunastu Aposto\u0142\u00f3w da\u0142 im w\u0142adz\u0119 nad wszystkimi szatanami i moc uzdrawiania chor\u00f3b. I wys\u0142a\u0142 ich, aby g\u0142osili Kr\u00f3lestwo Bo\u017ce i uzdrawiali chorych. I rzek\u0142 do nich: \u00abNie bierzcie nic na drog\u0119, ani laski, ani torby podr\u00f3\u017cnej, ani chleba, ani pieni\u0119dzy, ani nie miejcie dw\u00f3ch tunik. I do kt\u00f3regokolwiek domu wnijdziecie, tam pozosta\u0144cie i nie wychod\u017acie stamt\u0105d. A je\u015bliby was kt\u00f3rzy nie przyj\u0119li, wychodz\u0105c z miasta onego nawet proch z n\u00f3g waszych otrz\u0105\u015bnijcie na \u015bwiadectwo przeciwko nim\u00bb. Wyszed\u0142szy tedy obchodzili osady, wsz\u0119dzie g\u0142osz\u0105c Ewangeli\u0119 i uzdrawiaj\u0105c.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 67:29-30*\nUtwierd\u017a to, Bo\u017ce, czego\u015b w nas dokona\u0142. Przez wzgl\u0105d na Twoj\u0105 \u015bwi\u0105tyni\u0119, kt\u00f3ra jest w Jeruzalem, niech kr\u00f3lowie z\u0142o\u017c\u0105 Ci dary, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 z\u0142o\u017cone dary i oczy\u015b\u0107 nasze serca \u015bwiat\u0142em Ducha \u015awi\u0119tego.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Duchu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce: przez Chrystusa, Pana naszego.\nOn to wst\u0105piwszy ponad wszystkie niebiosa i siedz\u0105c na prawicy Twojej zes\u0142a\u0142 (w dniu dzisiejszym) obiecanego Ducha \u015awi\u0119tego na przybrane dzieci. Dlatego ca\u0142y okr\u0105g ziemi tonie w nadmiarze rado\u015bci. Lecz i Moce niebieskie, i anielskie Pot\u0119gi \u015bpiewaj\u0105 hymn ku Twojej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*Dz 2:2; 2:4*\nNagle da\u0142 si\u0119 s\u0142ysze\u0107 z nieba szum jakby nadchodz\u0105cego wichru gwa\u0142townego tam gdzie przebywali, alleluja. I wszyscy zostali nape\u0142nieni Duchem \u015awi\u0119tym i m\u00f3wili o wielkich sprawach Bo\u017cych, alleluja, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech tchnienie Ducha \u015awi\u0119tego oczy\u015bci nasze serca, i u\u017cy\u017ani je ros\u0105 Jego \u0142aski.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

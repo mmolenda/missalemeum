@@ -1,0 +1,116 @@
+{
+  "info": {
+    "additional_info": [
+      "2 klasy", 
+      "Szaty fioletowe"
+    ], 
+    "date": "2017-06-28", 
+    "description": "Teksty Mszy wigilijnej odnosz\u0105 si\u0119 g\u0142\u00f3wnie do \u015bw. Piotra i s\u0142awi\u0105 jego m\u0119cze\u0144sk\u0105 \u015bmier\u0107, przepowiedzian\u0105 przez Zbawiciela (antyfona na wej\u015bcie, ewangelia).", 
+    "tempora": "\u015aroda po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "Wigilia \u015a\u015a. Aposto\u0142\u00f3w Piotra i Paw\u0142a"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Joannes 21:18-19*\nDicit D\u00f3minus Petro: Cum esses j\u00fanior, cing\u00e9bas te et ambul\u00e1bas, ubi vol\u00e9bas: cum autem sen\u00faeris, ext\u00e9ndes manus tuas, et \u00e1lius te cinget et ducet, quo tu non vis: hoc autem dixit, sign\u00edficans, qua morte clarificat\u00farus esset.\n*Ps 18:2.*\nCoeli en\u00e1rrant gl\u00f3riam Dei: et \u00f3pera m\u00e1nuum ejus ann\u00fantiat firmam\u00e9ntum.\nGl\u00f3ria Patri.\nDicit D\u00f3minus Petro: Cum esses j\u00fanior, cing\u00e9bas te et ambul\u00e1bas, ubi vol\u00e9bas: cum autem sen\u00faeris, ext\u00e9ndes manus tuas, et \u00e1lius te cinget et ducet, quo tu non vis: hoc autem dixit, sign\u00edficans, qua morte clarificat\u00farus esset.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut nullis nos perm\u00edttas perturbati\u00f3nibus c\u00f3ncuti; quos in apost\u00f3lic\u00e6 confessi\u00f3nis petra solid\u00e1sti.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Actuum Apostol\u00f3rum.\n*Act 3:1-10.*\nIn di\u00e9bus illis: Petrus et Jo\u00e1nnes ascend\u00e9bant in templum ad horam orati\u00f3nis nonam. Et quidam vir, qui erat claudus ex \u00fatero matris su\u00e6, bajulab\u00e1tur: quem pon\u00e9bant cot\u00eddie ad portam templi, qu\u00e6 d\u00edcitur Speci\u00f3sa, ut p\u00e9teret eleem\u00f3synam ab introe\u00fantibus in templum. Is cum vid\u00edsset Petrum et Jo\u00e1nnem incipi\u00e9ntes intro\u00edre in templum, rog\u00e1bat, ut eleem\u00f3synam acciperet. Intuens autem in eum Petrus cum Jo\u00e1nne, dixit: R\u00e9spice in nos. At ille intend\u00e9bat in eos, sperans se \u00e1liquid accept\u00farum ab eis. Petrus autem dixit: Arg\u00e9ntum et aurum non est mihi; quod autem habeo, hoc tibi do: In n\u00f3mine Jesu Christi Nazar\u00e9ni surge, et \u00e1mbula. Et appreh\u00e9nsa manu ejus d\u00e9xtera, allev\u00e1vit eum, et prot\u00ednus consolid\u00e1t\u00e6 sunt bases ejus et plant\u00e6. Et exs\u00edliens stetit, et ambul\u00e1bat: et intr\u00e1vit cum illis in templum, \u00e1mbulans et exs\u00edliens et laudans Deum. Et vidit omnis populus eum ambul\u00e1ntem et laud\u00e1ntem Deum. Cognosc\u00e9bant autem illum, quod ipse erat, qui ad eleem\u00f3synam sed\u00e9bat ad Speci\u00f3sam portam templi: et impl\u00e9ti sunt stupore et \u00e9cstasi in eo, quod cont\u00edgerat illi.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 18:5; 18:2*\nIn omnem terram ex\u00edvit sonus e\u00f3rum: et in fines orbis terr\u00e6 verba e\u00f3rum.\nV. Coeli en\u00e1rrant gl\u00f3riam Dei: et \u00f3pera m\u00e1nuum ejus ann\u00fantiat firmam\u00e9ntum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 21:15-10*\nIn illo t\u00e9mpore: Dixit Jesus Sim\u00f3ni Petro: Simon Jo\u00e1nnis, d\u00edligis me plus his? Dicit ei: Etiam, D\u00f3mine, tu scis, quia amo te. Dicit ei: Pasce agnos meos. Dicit ei \u00edterum: Simon Jo\u00e1nnis, d\u00edligis me? Ait illi: Etiam, D\u00f3mine, tu scis, quia amo te. Dicit ei: Pasce agnos meos. Dicit ei t\u00e9rtio: Simon Jo\u00e1nnis, amas me? Contrist\u00e1tus est Petrus, quia dixit ei t\u00e9rtio, Amas me? et dixit ei: D\u00f3mine, tu \u00f3mnia nosti: tu scis, quia amo te. Dixit ei: Pasce oves meas. Amen, amen, dico tibi: cum esses j\u00fanior, cing\u00e9bas te et ambul\u00e1bas, ubi vol\u00e9bas: cum autem sen\u00faeris, ext\u00e9ndes manus tuas, et \u00e1lius te cinget et ducet, quo tu non vis. Hoc autem dixit, sign\u00edficans, qua morte clarificat\u00farus esset Deum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Munus p\u00f3puli tui, qu\u01fdsumus, D\u00f3mine, apost\u00f3lica intercessi\u00f3ne sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 21:15; 21:17*\nSimon Jo\u00e1nnis, d\u00edligis me plus his? D\u00f3mine, tu \u00f3mnia nosti: tu scis, D\u00f3mine, quia amo te.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Quos coel\u00e9sti, D\u00f3mine, \u00e1lii m\u00e9nto sati\u00e1sti: apost\u00f3licis intercessi\u00f3nibus ab omni adversit\u00e1te cust\u00f3di.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*J 21:18-19*\nM\u00f3wi Pan do Piotra: Gdy by\u0142e\u015b m\u0142odym, przepasywa\u0142e\u015b si\u0119 i chodzi\u0142e\u015b, dok\u0105d chcia\u0142e\u015b; lecz gdy si\u0119 zestarzejesz, wyci\u0105gniesz swoje r\u0119ce, a kto inny ci\u0119 przepasze i poprowadzi tam, dok\u0105d ty nie chcesz. A to powiedzia\u0142 zapowiadaj\u0105c, jak\u0105 \u015bmierci\u0105 mia\u0142by uwielbi\u0107 Boga.\n*Ps 18:2*\nNiebiosa g\u0142osz\u0105 chwa\u0142\u0119 Boga, dzie\u0142a r\u0105k Jego obwieszcza niebosk\u0142on.\nChwa\u0142a Ojcu.\nM\u00f3wi Pan do Piotra: Gdy by\u0142e\u015b m\u0142odym, przepasywa\u0142e\u015b si\u0119 i chodzi\u0142e\u015b, dok\u0105d chcia\u0142e\u015b; lecz gdy si\u0119 zestarzejesz, wyci\u0105gniesz swoje r\u0119ce, a kto inny ci\u0119 przepasze i poprowadzi tam, dok\u0105d ty nie chcesz. A to powiedzia\u0142 zapowiadaj\u0105c, jak\u0105 \u015bmierci\u0105 mia\u0142by uwielbi\u0107 Boga.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, by \u017cadne przeciwno\u015bci nie zachwia\u0142y nami, skoro\u015b nas ugruntowa\u0142 na opoce wiary apostolskiej.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 3:1-10*\nW one dni: Piotr i Jan wchodzili do \u015bwi\u0105tyni na modlitw\u0119 o godzinie dziewi\u0105tej. I wnoszono Pewnego Cz\u0142owieka chromego od urodzenia: umieszczano, go codziennie przy bramie \u015bwi\u0105tyni, zwanej \u00abPi\u0119kn\u0105\u00bb, aby prosi\u0142 o ja\u0142mu\u017cn\u0119 wchodz\u0105cych do \u015bwi\u0105tyni. Ten ujrzawszy Piotra i Jana, gdy mieli wej\u015b\u0107 do \u015bwi\u0105tyni, prosi\u0142 ich o ja\u0142mu\u017cn\u0119. A wpatruj\u0105c si\u0119 we\u0144 Piotr wraz z Janem rzek\u0142: \u00abSpojrzyj na nas\u00bb. On za\u015b patrza\u0142 na nich, spodziewaj\u0105c si\u0119 od nich co\u015b otrzyma\u0107. A Piotr rzek\u0142: \u00abNie mam z\u0142ota i srebra, ale co mam, to ci daj\u0119: w imi\u0119 Jezusa Chrystusa Nazare\u0144skiego, wsta\u0144 a chod\u017a\u00bb. I uj\u0105wszy go za praw\u0105 r\u0119k\u0119 podni\u00f3s\u0142 go, a natychmiast umocni\u0142y si\u0119 nogi jego i stopy. I zerwawszy si\u0119 powsta\u0142 i chodzi\u0142, i wszed\u0142 z nimi do \u015bwi\u0105tyni, chodz\u0105c, skacz\u0105c i chwal\u0105c Boga. A wszystek lud widzia\u0142 go, jak chodzi\u0142 i chwali\u0142 Boga. Znali go bowiem, \u017ce on to dla ja\u0142mu\u017cny siedzia\u0142 przy \u00abPi\u0119knej\u00bb bramie \u015bwi\u0105tyni. I ogarn\u0119\u0142o ich zdumienie i zachwyt nad tym, co si\u0119 sta\u0142o.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 18:5; 18:2*\nNa ca\u0142\u0105 ziemi\u0119 ich g\u0142os si\u0119 rozchodzi i a\u017c po kra\u0144ce \u015bwiata ich mowy.\nV. Niebiosa g\u0142osz\u0105 chwa\u0142\u0119 Boga, dzie\u0142a r\u0105k Jego obwieszcza niebosk\u0142on.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 21:15-10*\nOnego czasu: Rzek\u0142 Jezus do Szymona Piotra: \u00abSzymonie, synu Jana! Mi\u0142ujesz mnie wi\u0119cej ni\u017c ci?\u00bb Rzecze mu: \u00abTak, Panie, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu \u00abPa\u015b baranki moje\u00bb. Rzecze mu powt\u00f3rnie: \u00abSzymonie, synu Jana, mi\u0142ujesz mnie?\u00bb M\u00f3wi Mu: \u00abTak, Panie, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu: \u00abPa\u015b baranki moje\u00bb. Rzecze mu po raz trzeci: \u00abSzymonie, synu Jana, mi\u0142ujesz mnie?\u00bb Zasmuci\u0142 si\u0119 Piotr, \u017ce mu po raz trzeci rzek\u0142: Mi\u0142ujesz mnie? i powiedzia\u0142 do Niego: \u00abPanie, Ty wszystko wiesz, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119\u00bb. Rzecze mu: \u00abPa\u015b owce moje. Zaprawd\u0119, zaprawd\u0119 powiadam ci, gdy by\u0142e\u015b m\u0142odym, przepasywa\u0142e\u015b si\u0119 i chodzi\u0142e\u015b, dok\u0105d chcia\u0142e\u015b; lecz gdy si\u0119 zestarzejesz wyci\u0105gniesz swoje r\u0119ce, a kto inny ci\u0119 przepasze i poprowadzi tam, dok\u0105d ty nie chcesz\u00bb. A to powiedzia\u0142 zapowiadaj\u0105c, jak\u0105 \u015bmierci\u0105 mia\u0142by uwielbi\u0107 Boga.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, przez wstawiennictwo Aposto\u0142\u00f3w po\u015bwi\u0119\u0107 dary Swojego ludu i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 21:15; 21:17*\nSzymonie, synu Jana, mi\u0142ujesz mnie wi\u0119cej ni\u017c ci? Panie, Ty wszystko wiesz, Ty wiesz, \u017ce Ci\u0119 mi\u0142uj\u0119.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, za przyczyn\u0105 \u015bwi\u0119tych Aposto\u0142\u00f3w strze\u017c od wszelkich przeciwno\u015bci tych, kt\u00f3rych posili\u0142e\u015b niebieskim pokarmem.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

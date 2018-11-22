@@ -1,0 +1,116 @@
+{
+  "info": {
+    "additional_info": [
+      "2 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2018-04-19", 
+    "description": "Niedziela dzisiejsza nazywa si\u0119 cz\u0119sto \u00abNiedziel\u0105 Dobrego Pasterza\u00bb. W ci\u0105gu czterdziestodniowego pobytu na ziemi, po swoim zmartwychwstaniu, Pan Jezus ukazywa\u0142 si\u0119 cz\u0119sto Aposto\u0142om i m\u00f3wi\u0142 z nimi o \u00abKr\u00f3lestwie Bo\u017cym\u00bb, to znaczy o Ko\u015bciele, kt\u00f3ry za\u0142o\u017cy\u0142. W tych r\u00f3wnie\u017c dniach da\u0142 Zbawiciel Ko\u015bcio\u0142owi najwy\u017cszego pasterza w osobie \u015bw. Piotra i jego nast\u0119pc\u00f3w pozostaj\u0105c niewidzialnym \u00abPasterzem i stra\u017cnikiem dusz\u00bb. W ewangelii sam Chrystus Pan nazywa siebie Pasterzem, a Ko\u015bci\u00f3\u0142 sw\u00f3j nazywa owczarni\u0105. Jako owieczki Chrystusowe korzystamy z zasob\u00f3w tej owczarni. W Komunii \u015bwi\u0119tej nawi\u0105zuje si\u0119 naj\u015bci\u015blejsza jedno\u015b\u0107 mi\u0119dzy Chrystusem-Pasterzem i Jego owieczkami (Alleluja, antyfona na komuni\u0119).", 
+    "tempora": null, 
+    "title": "Czwartek po 2 Niedzieli po Wielkanocy"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 32:5-6.*\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini coeli firm\u00e1ti sunt, allel\u00faja, allel\u00faja.\n*Ps 32:1*\nExsult\u00e1te, justi, in D\u00f3mino: rectos decet collaud\u00e1tio.\nGl\u00f3ria Patri.\nMiseric\u00f3rdia D\u00f3mini plena est terra, allel\u00faja: verbo D\u00f3mini coeli firm\u00e1ti sunt, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Deus, qui in Filii tui humilitate jac\u00e9ntem mundum erex\u00edsti: fidelibus tuis perp\u00e9tuam conc\u00e9de l\u00e6t\u00edtiam; ut, quos perp\u00e9tu\u00e6 mortis eripu\u00edsti casibus, gaudiis f\u00e1cias perfrui sempit\u00e9rnis.\nPer e\u00fandem.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Petri 2:21-25*\nCar\u00edssimi: Christus passus est pro nobis, vobis rel\u00ednquens ex\u00e9mplum, ut sequ\u00e1mini vest\u00edgia ejus. Qui pecc\u00e1tum non fecit, nec inv\u00e9ntus est dolus in ore ejus: qui cum male dicer\u00e9tur, non maledic\u00e9bat: cum pater\u00e9tur, non comminab\u00e1tur: trad\u00e9bat autem judic\u00e1nti se inj\u00faste: qui pecc\u00e1ta nostra ipse p\u00e9rtulit in c\u00f3rpore suo super lignum: ut, pecc\u00e1tis m\u00f3rtui, just\u00edti\u00e6 viv\u00e1mus: cujus liv\u00f3re san\u00e1ti estis. Er\u00e1tis enim sicut oves err\u00e1ntes, sed conv\u00e9rsi estis nunc ad past\u00f3rem et ep\u00edscopum anim\u00e1rum vestr\u00e1rum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja, allel\u00faja\n*Luc 24:35.*\nCognov\u00e9runt disc\u00edpuli D\u00f3minum Jesum in fracti\u00f3ne panis. Allel\u00faja\n*Joannes 10:14.*\nEgo sum pastor bonus: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 10:11-16.*\nIn illo t\u00e9mpore: Dixit Jesus pharisaeis: Ego sum pastor bonus. Bonus pastor \u00e1nimam suam dat pro \u00f3vibus suis. Mercenn\u00e1rius autem et qui non est pastor, cujus non sunt oves pr\u00f3pri\u00e6, videt lupum veni\u00e9ntem, et dim\u00edttit oves et fugit: et lupus rapit et disp\u00e9rgit oves: mercenn\u00e1rius autem fugit, quia mercenn\u00e1rius est et non p\u00e9rtinet ad eum de \u00f3vibus. Ego sum pastor bonus: et cogn\u00f3sco meas et cogn\u00f3scunt me me\u00e6. Sicut novit me Pater, et ego agn\u00f3sco Patrem, et \u00e1nimam meam pono pro \u00f3vibus meis. Et alias oves h\u00e1beo, qu\u00e6 non sunt ex hoc ovili: et illas op\u00f3rtet me add\u00facere, et vocem meam \u00e1udient, et fiet unum ov\u00edle et unus pastor. ", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 62:2; 62:5*\nDeus, Deus meus, ad te de luce v\u00edgilo: et in n\u00f3mine tuo lev\u00e1bo manus meas, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Benedicti\u00f3nem nobis, D\u00f3mine, c\u00f3nferat salut\u00e1rem sacra semper obl\u00e1tio: ut, quod agit myst\u00e9rio, virt\u00fate perf\u00edciat.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 10:14.*\nEgo sum pastor bonus, allel\u00faja: et cogn\u00f3sco oves meas, et cogn\u00f3scunt me me\u00e6, allel\u00faja, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Pr\u00e6sta nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, vivificati\u00f3nis tu\u00e6 gr\u00e1tiam consequ\u00e9ntes, in tuo semper m\u00fanere glori\u00e9mur.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 32:5-6*\nPe\u0142na jest ziemia \u0142askawo\u015bci Pana, alleluja, przez s\u0142owo Pana sta\u0142y si\u0119 niebiosa, alleluja, alleluja.\n*Ps 32:1*\nSprawiedliwi, weselcie si\u0119 w Panu, prawym przystoi Go chwali\u0107.\nChwa\u0142a Ojcu.\nPe\u0142na jest ziemia \u0142askawo\u015bci Pana, alleluja, przez s\u0142owo Pana sta\u0142y si\u0119 niebiosa, alleluja, alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Bo\u017ce, kt\u00f3ry\u015b przez uni\u017cenie si\u0119 Syna Twojego pod\u017awign\u0105\u0142 upad\u0142y \u015bwiat, nape\u0142nij wiernych Twoich nieustannym weselem, aby ci, kt\u00f3rych wybawi\u0142e\u015b od wiecznej \u015bmierci, dost\u0105pili wiekuistego szcz\u0119\u015bcia.\nPrzez tego\u017c Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Piotra Aposto\u0142a.\n*1 P 2:21-25*\nNajmilsi: Chrystus cierpia\u0142 zostawiaj\u0105c wam przyk\u0142ad, aby\u015bcie wst\u0119powali w \u015blady Jego. A On grzechu si\u0119 nie dopu\u015bci\u0142 ani te\u017c zdrada nie powsta\u0142a w ustach Jego. Gdy Mu z\u0142orzeczono nie z\u0142orzeczy\u0142, gdy cierpia\u0142, nie wygra\u017ca\u0142 si\u0119, ale poddawa\u0142 si\u0119 s\u0105dz\u0105cemu niesprawiedliwie. On sam w ciele swoim zani\u00f3s\u0142 grzechy nasze na krzy\u017c, aby\u015bmy umar\u0142szy dla grzech\u00f3w, \u017cyli dla sprawiedliwo\u015bci, gdy\u017c przez m\u0119k\u0119 Jego zostali\u015bcie uleczeni. Byli\u015bcie bowiem jako owce b\u0142\u0105dz\u0105ce, ale teraz powr\u00f3cili\u015bcie do pasterza i biskupa dusz waszych.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja, alleluja\n*\u0141k 24:35*\nPoznali uczniowie Pana Jezusa przy \u0142amaniu chleba. Alleluja.\n*J 10:14*\nJam jest Pasterz dobry. Znam owce swoje i znaj\u0105 mnie moje. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 10:11-16*\nOnego czasu: Rzek\u0142 Jezus do faryzeusz\u00f3w: \u00abJam jest pasterz dobry. Dobry pasterz \u017cycie swoje daje za owce swoje. Lecz najemnik i ten, kto nie jest pasterzem, do kt\u00f3rego nie nale\u017c\u0105 owce, na widok zbli\u017caj\u0105cego si\u0119 wilka porzuca owce i ucieka, a wilk porywa i rozprasza owce. Najemnik za\u015b ucieka, bo jest najemnikiem i nie troszczy si\u0119 o owce.\nJam jest pasterz dobry; znam swoje i one mnie znaj\u0105; jako mnie zna Ojciec, a ja znam Ojca. I \u017cycie swoje oddaj\u0119 za owce moje. I inne owce mam, kt\u00f3re nie s\u0105 z tej owczarni. I te musz\u0119 przyprowadzi\u0107 i s\u0142ucha\u0107 b\u0119d\u0105 g\u0142osu mego, i stanie si\u0119 jedna owczarnia i jeden pasterz\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 62:2; 62:5*\nBo\u017ce, moim jeste\u015b Bogiem, pilnie Ciebie szukam; i w imi\u0119 Twoje b\u0119d\u0119 wznosi\u0142 me r\u0119ce, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Panie, niech \u015bwi\u0119ta ofiara zawsze sprowadza na nas zbawienne b\u0142ogos\u0142awie\u0144stwo, i swoj\u0105 moc\u0105 urzeczywistnia to, co si\u0119 dokonuje w tajemnicy o\u0142tarza.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 10:14*\nJam jest Pasterz dobry, alleluja: znam owce moje i znaj\u0105 mnie moje, alleluja, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119 wszechmog\u0105cy Bo\u017ce, spraw, aby\u015bmy otrzymawszy Twoj\u0105 \u017cyciodajn\u0105 \u0142ask\u0119, zawsze szczycili si\u0119 z Twojego daru.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

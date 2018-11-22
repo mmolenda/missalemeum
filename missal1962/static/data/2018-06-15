@@ -1,0 +1,129 @@
+{
+  "info": {
+    "additional_info": [
+      "Wspomnienie", 
+      "Szaty czerwone", 
+      "3 klasy", 
+      "Szaty bia\u0142e", 
+      "W Polsce"
+    ], 
+    "date": "2018-06-15", 
+    "description": "\u015aw. Wit poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w Lukanii w po\u0142udniowej Italii. Relikwie jego przeniesiono do Niemiec, sk\u0105d rozszerzy\u0142 si\u0119 kult na ca\u0142\u0105 Europ\u0119. \u015awi\u0119ci Modest i Krescencja byli zawsze czczeni ze \u015bwi\u0119tym Witem. \u017bycie ich nie jest znane.B\u0142. Jolanty, WdowyB\u0142.Jolanta, c\u00f3rka kr\u00f3la W\u0119gierskiego Beli IV, wychowywa\u0142a si\u0119 w Krakowie na dworze swojej siostry, b\u0142. Kingi. W 17 roku \u017cycia po\u015blubi\u0142a ksi\u0119cia kaliskiego Boles\u0142awa Pobo\u017cnego. Wywiera\u0142a dodatni wp\u0142yw na post\u0119powanie m\u0119\u017ca przez sw\u00f3j przyk\u0142ad. Wobec poddanych odznacza\u0142a si\u0119 hojno\u015bci\u0105 i mi\u0142osierdziem. Po \u015bmierci m\u0119\u017ca razem b\u0142. Kinga wst\u0105pi\u0142a do klasztoru Klarysek w Starym S\u0105czu. W roku 1292 przenios\u0142a si\u0119 do nowego klasztoru w Gnie\u017anie. Tam zmar\u0142a 11 czerwca 1298 roku. Relikwie jej spoczywaj\u0105 w Gnie\u017anie.", 
+    "tempora": "Pi\u0105tek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015a\u015b. Wita, Modesta i Krescencji, M\u0119czennik\u00f3w"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 33:20-21*\nMult\u00e6 tribulationes just\u00f3rum, et de his \u00f3mnibus liber\u00e1vit eos D\u00f3minus: D\u00f3minus custodit \u00f3mnia ossa e\u00f3rum: unum ex his non conter\u00e9tur.\n*Ps 33:2*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nMult\u00e6 tribulationes just\u00f3rum, et de his \u00f3mnibus liber\u00e1vit eos D\u00f3minus: D\u00f3minus custodit \u00f3mnia ossa e\u00f3rum: unum ex his non conter\u00e9tur.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Da Eccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, sanctis Mart\u00fdribus tuis Vito, Mod\u00e9sto atque Cresc\u00e9ntia interced\u00e9ntibus, sup\u00e9rbe non s\u00e1pere, sed tibi pl\u00e1cita humilit\u00e1te prof\u00edcere: ut, prava desp\u00edciens, qu\u00e6c\u00famque recta sunt, libera ex\u00e9rceat carit\u00e1te.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Sap 3:1-8*\nJust\u00f3rum \u00e1nim\u00e6 in manu Dei sunt, et non tanget illos torm\u00e9ntum mortis. Visi sunt \u00f3culis insipi\u00e9ntium mori: et \u00e6stim\u00e1ta est afflictio \u00e9xitus ill\u00f3rum: et quod a nobis est iter, exterm\u00ednium: illi autem sunt in pace. Et si coram hom\u00ednibus torm\u00e9nta passi sunt, spes ill\u00f3rum immortalit\u00e1te plena est. In paucis vex\u00e1ti, in multis bene dispon\u00e9ntur: qu\u00f3niam Deus tent\u00e1vit eos, et inv\u00e9nit illos dignos se. Tamquam aurum in forn\u00e1ce prob\u00e1vit illos, et quasi holoc\u00e1usti h\u00f3stiam acc\u00e9pit illos, et in t\u00e9mpore erit resp\u00e9ctus ill\u00f3rum. Fulg\u00e9bunt justi, et tamquam scint\u00edll\u00e6 in arundin\u00e9to disc\u00farrent. Judic\u00e1bunt nati\u00f3nes, et dominab\u00fantur p\u00f3pulis, et regn\u00e1bit D\u00f3minus ill\u00f3rum in perp\u00e9tuum.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 149:5; 149:1*\nExsult\u00e1bunt Sancti in gl\u00f3ria: l\u00e6tab\u00fantur in cub\u00edlibus suis.\nV. Cant\u00e1te D\u00f3mino c\u00e1nticum novum: laus ejus in eccl\u00e9sia sanct\u00f3rum. Allel\u00faja, allel\u00faja\n*Ps 144:10-11*\nSancti tui, D\u00f3mine, bened\u00edcent te: gl\u00f3riam regni tui dicent. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Exod 15:11*\nGlori\u00f3sus Deus in Sanctis suis: mir\u00e1bilis in majest\u00e1te, f\u00e1ciens prod\u00edgia.\n*Exod 15:6*\nV. D\u00e9xtera tua, D\u00f3mine, glorific\u00e1ta est in virt\u00fate: d\u00e9xtera manus tua confr\u00e9git inim\u00edcos.\n*Ps 125:5-6.*\nQui s\u00e9minant in l\u00e1crimis, in g\u00e1udio metent.\nV. E\u00fantes ibant et fl\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:16-20*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Qui vos audit, me audit: et qui vos spernit, me spernit. Qui autem me spernit, spernit eum, qui misit me. Rev\u00e9rsi sunt autem septuag\u00ednta duo cum g\u00e1udio, dic\u00e9ntes: D\u00f3mine, \u00e9tiam d\u00e6m\u00f3nia subjici\u00fantur nobis in n\u00f3mine tuo. Et ait illis: Vid\u00e9bam s\u00e1tanam sicut fulgur de coelo cad\u00e9ntem. Ecce, dedi vobis potest\u00e1tem calcandi supra serp\u00e9ntes et scorpi\u00f3nes, et super omnem virt\u00fatem inim\u00edci: et nihil vobis noc\u00e9bit. Ver\u00famtamen in hoc nol\u00edte gaud\u00e9re, quia sp\u00edritus vobis subjici\u00fantur: gaud\u00e9te autem, quod n\u00f3mina vestra scripta sunt in coelis.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 67:36*\nMir\u00e1bilis Deus in Sanctis suis: Deus Isra\u00ebl, ipse dabit virt\u00fatem et fortit\u00fadinem plebi su\u00e6: bened\u00edctus Deus.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Sicut gl\u00f3riam div\u00edn\u00e6 pot\u00e9nti\u00e6 m\u00fanera pro Sanctis obl\u00e1ta test\u00e1ntur: sic nobis eff\u00e9ctum, D\u00f3mine, tu\u00e6 salvati\u00f3nis imp\u00e9ndant.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Sap 3:1-2; 3:3*\nJust\u00f3rum \u00e1nim\u00e6 in manu Dei sunt, et non tanget illos torm\u00e9ntum mal\u00edti\u00e6: visi sunt \u00f3culis insipi\u00e9ntium mori: illi autem sunt in pace.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Repl\u00e9ti, D\u00f3mine, benedicti\u00f3ne soll\u00e9mni: qu\u01fdsumus; ut, per intercessi\u00f3nem sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum Viti, Mod\u00e9sti et Cresc\u00e9nti\u00e6, medic\u00edna sacram\u00e9nti et corp\u00f3ribus nostris prosit et m\u00e9ntibus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 33:20-21*\nWiele ucisk\u00f3w spotyka sprawiedliwych, lecz Pan ich wyzwala ze wszystkich; strze\u017ce wszystkich ich ko\u015bci: nie z\u0142amie si\u0119 ani jedna.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nWiele ucisk\u00f3w spotyka sprawiedliwych, lecz Pan ich wyzwala ze wszystkich; strze\u017ce wszystkich ich ko\u015bci: nie z\u0142amie si\u0119 ani jedna.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Za przyczyn\u0105 \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Wita, Modesta i Krescencji prosimy Ci\u0119, Panie: daj Ko\u015bcio\u0142owi Twemu nie unosi\u0107 si\u0119 pych\u0105, lecz czyni\u0107 post\u0119py w mi\u0142ej Ci pokorze, by wzgardziwszy tym, co nieprawe, z ochotn\u0105 mi\u0142o\u015bci\u0105 wykonywa\u0142 wszystko, co s\u0142uszne.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 3:1-8*\nDusze sprawiedliwych s\u0105 w r\u0119ku Boga i nie dosi\u0119gnie ich m\u0119ka. Zda\u0142o si\u0119 oczom g\u0142upich, \u017ce pomarli, zej\u015bcie ich poczytano za nieszcz\u0119\u015bcie i odej\u015bcie od nas za unicestwienie, a oni trwaj\u0105 w pokoju. Cho\u0107 nawet w ludzkim zrozumieniu doznali ka\u017ani, nadzieja ich pe\u0142na jest nie\u015bmiertelno\u015bci. Po nieznacznym skarceniu dost\u0105pi\u0105 d\u00f3br wielkich, B\u00f3g ich bowiem do\u015bwiadczy\u0142 i znalaz\u0142 ich godnymi siebie. Do\u015bwiadczy\u0142 ich, jak z\u0142oto w tyglu i przyj\u0105\u0142 jak ca\u0142opaln\u0105 ofiar\u0119. W dzie\u0144 nawiedzenia swego zaja\u015bniej\u0105 i rozbiegn\u0105 si\u0119 jak iskry po \u015bciernisku. B\u0119d\u0105 s\u0105dzi\u0107 ludy, zapanuj\u0105 nad narodami, a Pan kr\u00f3lowa\u0107 b\u0119dzie nad nimi na wieki.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Niech \u015awi\u0119ci ciesz\u0105 si\u0119 w\u015br\u00f3d chwa\u0142y, niech si\u0119 raduj\u0105 w miejscu odpocznienia.\nV. \u015apiewajcie Panu pie\u015b\u0144 now\u0105, chwa\u0142a Jego niech zabrzmi w zgromadzeniu \u015awi\u0119tych. Alleluja, alleluja.\nV. Niech Ci\u0119 b\u0142ogos\u0142awi\u0105 \u015awi\u0119ci Twoi, Panie, niech g\u0142osz\u0105 chwa\u0142\u0119 Twojego kr\u00f3lestwa. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Wj 15:11*\nChwalebny jest B\u00f3g w Swoich \u015awi\u0119tych, przedziwny w majestacie, dokonuje cud\u00f3w.\n*Wj 15:6*\nV. Prawica Twoja, Panie, ws\u0142awi\u0142a si\u0119 moc\u0105; prawica Twoja zgniot\u0142a nieprzyjaci\u00f3\u0142.\n*Ps 125:5-6.*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew:\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:16-20*\nOnego czasu: Rzek\u0142 jezus uczniom swoim: \u00abKto was s\u0142ucha, mnie s\u0142ucha, a kto wami gardzi, mn\u0105 gardzi, a kto mn\u0105 gardzi, gardzi Tym, kt\u00f3ry mnie pos\u0142a\u0142\u00bb. I wr\u00f3ci\u0142o siedemdziesi\u0119ciu dw\u00f3ch z rado\u015bci\u0105, m\u00f3wi\u0105c: \u00abPanie, nawet szatani ulegaj\u0105 nam w imi\u0119 Twoje\u00bb. I rzek\u0142 im: \u00abWidzia\u0142em szatana jako b\u0142yskawic\u0119 z nieba spadaj\u0105cego. Oto da\u0142em wam w\u0142adz\u0119 depta\u0107 po w\u0119\u017cach i skorpionach, i po wszystkiej mocy nieprzyjacielowej, a nic wam szkodzi\u0107 nie b\u0119dzie. Wszelako z tego si\u0119 nie weselcie, \u017ce duchy wam ulegaj\u0105, ale weselcie si\u0119 z tego, \u017ce imiona wasze zosta\u0142y zapisane w niebiesiech\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 67:36*\nPrzedziwny jest B\u00f3g w Swoich \u015awi\u0119tych: B\u00f3g Izraela, sam daj\u0119 Swojego ludowi pot\u0119g\u0119 i si\u0142\u0119: b\u0142ogos\u0142awiony B\u00f3g.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Niech dary z\u0142o\u017cone ku czci \u015awi\u0119tych wyjednaj\u0105 nam, Panie, owoc Twojego zbawienia, tak jak \u015bwiadcz\u0105 o Twej chwale i pot\u0119dze.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "Dusze sprawiedliwych s\u0105 w r\u0119ku Boga i nie dosi\u0119gnie ich m\u0119ka. Zda\u0142o si\u0119 oczom g\u0142upich, \u017ce pomarli, a oni trwaj\u0105 w pokoju.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Nape\u0142nieni wznios\u0142ym b\u0142ogos\u0142awie\u0144stwem, prosimy Ci\u0119, Panie, aby Sakrament ten za wstawiennictwem \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Wita, Modesta i Krescencji sta\u0142 si\u0119 lekiem dla naszych cia\u0142 i dusz.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

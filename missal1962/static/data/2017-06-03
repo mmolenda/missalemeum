@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Jana na Lateranie", 
+      "1 klasy", 
+      "Szaty czerwone"
+    ], 
+    "date": "2017-06-03", 
+    "description": "W noc poprzedzaj\u0105c\u0105 uroczysto\u015b\u0107 Zes\u0142ania Ducha \u015awi\u0119tego odprawiano Wigili\u0119. Podczas niej udzielano Chrztu \u015bw. i Bierzmowania katechumenom, kt\u00f3rzy nie mogli przyj\u0105\u0107 tych sakrament\u00f3w na Wielkanoc. Na zako\u0144czenie Wigilii odprawiano Msz\u0119 \u015bw. o \u015bwicie. Jest to zatem Msza \u015bwi\u0105teczna, podobnie jak Msza Wigilii Wielkanocnej. Charakter \u015bwi\u0105teczny zachowa\u0142a ona mimo przesuni\u0119cia na ranek soboty poprzedzaj\u0105cej \u015bwi\u0119to. Teksty mszalne wys\u0142awiaj\u0105 dzia\u0142anie Ducha \u015awi\u0119tego w duszy ochrzczonego i bierzmowanego. Dzia\u0142anie Ducha \u015awi\u0119tego podobne jest do \u015bwiat\u0142a rozpraszaj\u0105cego ciemno\u015bci (kolekta, sekreta) i wody podtrzymuj\u0105cej \u017cycie na ziemi (antyfona na wej\u015bcie i na komuni\u0119 oraz pokomunia).", 
+    "tempora": null, 
+    "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ezek 36:23; 36:24; 36:25-26*\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum, allel\u00faja, allel\u00faja\n*Ps 33:2*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum, allel\u00faja, allel\u00faja", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut claritatis tu\u00e6 super nos splendor eff\u00falgeat; et lux tu\u00e6 lucis corda e\u00f3rum, qui per gr\u00e1tiam tuam ren\u00e1ti sunt, Sancti Sp\u00edritus illustrati\u00f3ne conf\u00edrmet.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Actuum Apostolorum.\n*Acts 19:1-8*\nIn di\u00e9bus illis: Factum est, cum Ap\u00f3llo esset Cor\u00ednthi, ut Paulus, peragr\u00e1tis superi\u00f3ribus p\u00e1rtibus, ven\u00edret Ephesum et inven\u00edret quosdam disc\u00edpulos: dix\u00edtque ad eos: Si Sp\u00edritum Sanctum accep\u00edstis cred\u00e9ntes? At illi dix\u00e9runt ad eum: Sed neque, si Sp\u00edritus Sanctus est, aud\u00edvimus. Ille vero ait: In quo ergo baptiz\u00e1ti estis? Qui dix\u00e9runt: In Joannis bapt\u00edsmate. Dixit autem Paulus: Jo\u00e1nnes baptiz\u00e1vit bapt\u00edsmo poenit\u00e9nti\u00e6 p\u00f3pulum, dicens: In eum, qui vent\u00farus esset post ipsum, ut cr\u00e9derent, hoc est in Jesum. His aud\u00edtis, baptiz\u00e1ti sunt in n\u00f3mine D\u00f3mini Jesu. Et cum imposu\u00edsset illis manus Paulus, venit Sp\u00edritus Sanctus super eos, et loqueb\u00e1ntur linguis, et prophet\u00e1bant. Erant autem omnes viri fere du\u00f3decim. Introgr\u00e9ssus autem synag\u00f3gam, cum fid\u00facia loqueb\u00e1tur per tres menses, d\u00edsputans et su\u00e1dens de regno Dei.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja\n*Ps 106:1*\nV. Confit\u00e9mini D\u00f3mino, qu\u00f3niam bonus: qu\u00f3niam in saeculum misericordia ejus.\n*Ps 116:1-2*\nLaud\u00e1te D\u00f3minum, omnes gentes: et collaud\u00e1te eum, omnes p\u00f3puli,\nV. Qu\u00f3niam confirm\u00e1ta est super nos miseric\u00f3rdia ejus: et v\u00e9ritas D\u00f3mini manet in \u00e6t\u00e9rnum.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 14:15-21*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Si dil\u00edgitis me, mand\u00e1ta mea serv\u00e1te. Et ego rog\u00e1bo Patrem, et alium Par\u00e1clitum dabit vobis, ut m\u00e1neat vob\u00edscum in \u00e6t\u00e9rnum, Sp\u00edritum verit\u00e1tis, quem mundus non potest acc\u00edpere, quia non videt eum nec scit eum. Vos autem cognosc\u00e9tis eum: quia apud vos man\u00e9bit et in vobis erit. Non rel\u00ednquam vos \u00f3rphanos: v\u00e9niam ad vos. Adhuc m\u00f3dicum: et mundus me jam non videt. Vos autem vid\u00e9tis me, quia ego vivo, et vos viv\u00e9tis, In illo die vos cognosc\u00e9tis, quia ego sum in Patre meo, et vos in me, et ego in vobis. Qui habet mand\u00e1ta mea et servat ea: ille est, qui d\u00edligit me. Qui autem d\u00edligit me, dilig\u00e9tur a Patre meo: et ego d\u00edligam eum, et manifest\u00e1bo ei me\u00edpsum.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 103:30-31*\nEm\u00edtte Sp\u00edritum tuum, et creab\u00fantur, et renov\u00e1bis f\u00e1ciem terr\u00e6: sit gl\u00f3ria D\u00f3mini in saecula, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "M\u00fanera, qu\u01fdsumus, D\u00f3mine, obl\u00e1ta sanct\u00edfica: et corda nostra Sancti Sp\u00edritus illustrati\u00f3ne em\u00fanda.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*de Spiritu Sancto*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Qui, asc\u00e9ndens super omnes coelos sed\u00e9nsque ad d\u00e9xteram tuam, prom\u00edssum Sp\u00edritum Sanctum * * in f\u00edlios adopti\u00f3nis eff\u00fadit. Quapr\u00f3pter prof\u00fasis g\u00e1udiis totus in orbe terr\u00e1rum mundus exs\u00faltat. Sed et sup\u00e9rn\u00e6 Virt\u00fates atque ang\u00e9lic\u00e6 Potest\u00e1tes hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00f3ncinunt, sine fine dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 7:37-39*\nUltimo festivit\u00e1tis die dic\u00e9bat Jesus: Qui in me credit, fl\u00famina de ventre ejus fluent aqu\u00e6 viv\u00e6: hoc autem dixit de Sp\u00edritu, quem accept\u00fari erant cred\u00e9ntes in eum, allel\u00faja, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Sancti Sp\u00edritus, D\u00f3mine, corda nostra mundet inf\u00fasio: et sui roris \u00edntima aspersi\u00f3ne fec\u00fandet.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ez 36:23; 36:24; 36:25-26*\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam, alleluja, alleluja.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam, alleluja, alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Wszechmog\u0105cy Bo\u017ce, spraw, niech zab\u0142y\u015bnie nad nami blask Twojej chwa\u0142y, a \u015bwiat\u0142o Twej jasno\u015bci niechaj umocni o\u015bwieceniem Ducha \u015awi\u0119tego tych, kt\u00f3rzy odrodzili si\u0119 przez \u0142ask\u0119.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 19:1-8*\nW one dni: Gdy Apollo bawi\u0142 w Koryncie, sta\u0142o si\u0119, i\u017c Pawe\u0142 obszed\u0142szy wy\u017cej po\u0142o\u017cone kraje przyby\u0142 do Efezu i spotkawszy niekt\u00f3rych uczni\u00f3w rzek\u0142 do nich: \u00abCzy otrzymali\u015bcie Ducha \u015awi\u0119tego, gdy\u015bcie wiar\u0119 przyj\u0119li?\u00bb A oni mu odpowiedzieli: \u00abNawet nie s\u0142yszeli\u015bmy, \u017ce jest Duch \u015awi\u0119ty\u00bb. I powiedzia\u0142 im: \u00abJak\u017ce wi\u0119c byli\u015bcie ochrzczeni?\u00bb A oni na to: \u00abChrztem Janowym\u00bb.\nRzek\u0142 tedy Pawe\u0142: \u00abJan udziela\u0142 ludowi chrztu pokuty m\u00f3wi\u0105c, \u017ce Powinni wierzy\u0107 w Tego, kt\u00f3ry po nim przyjdzie, to jest w Jezusa\u00bb. Us\u0142yszawszy to, przyj\u0119li Chrzest w imi\u0119 Pana Jezusa. I gdy Pawe\u0142 w\u0142o\u017cy\u0142 na nich r\u0119ce, zst\u0105pi\u0142 na nich Duch \u015awi\u0119ty i m\u00f3wili j\u0119zykami, i prorokowali. A by\u0142o wszystkich m\u0119\u017c\u00f3w oko\u0142o dwunastu.\nA wszed\u0142szy do synagogi, odwa\u017cnie przemawia\u0142 przez trzy miesi\u0105ce, przekonywaj\u0105c i rozprawiaj\u0105c o Kr\u00f3lestwie Bo\u017cym.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja\n*Ps 106:1*\nV. S\u0142awcie Pana, bo dobry, bo na wieki mi\u0142osierdzie Jego.\n*Ps 116:1-2*\nChwalcie Pana, wszystkie narody, wys\u0142awiajcie Go, wszystkie ludy.\nV. Bo Jego mi\u0142osierdzie nad nami utwierdzone, a wierno\u015b\u0107 Pa\u0144ska trwa na wieki.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 14:15-21*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abJe\u015bli mnie mi\u0142ujecie, zachowujcie przykazania moje. A ja prosi\u0107 b\u0119d\u0119 Ojca, i innego Pocieszyciela da wam, aby pozosta\u0142 z wami na zawsze. Ducha prawdy, kt\u00f3rego \u015bwiat nie mo\u017ce przyj\u0105\u0107, bo Go nie widzi ani Go nie zna. Lecz wy Go poznacie, bo u was pozostanie i w was b\u0119dzie przebywa\u0142. Nie pozostawi\u0119 was sierotami, przyjd\u0119 do was. Jeszcze nied\u0142ugo, a \u015bwiat mnie ju\u017c nie ujrzy. Ale wy mnie widzicie, bo ja \u017cyj\u0119 i wy \u017cy\u0107 b\u0119dziecie. W on dzie\u0144 poznacie, \u017ce ja jestem w Ojcu moim, wy we mnie, a ja w was. Kto ma przykazania moje i zachowuje je, ten jest, kt\u00f3ry mnie mi\u0142uje. A kto mnie mi\u0142uje, umi\u0142uje go Ojciec m\u00f3j i ja go mi\u0142owa\u0107 b\u0119d\u0119, i siebie samego mu objawi\u0119\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 103:30-31*\nZe\u015blij Ducha Twojego, a powstanie \u017cycie i odnowisz oblicze ziemi: niech chwa\u0142a Pa\u0144ska trwa na wieki, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 z\u0142o\u017cone dary i oczy\u015b\u0107 nasze serca \u015bwiat\u0142em Ducha \u015awi\u0119tego.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja o Duchu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce: przez Chrystusa, Pana naszego.\nOn to wst\u0105piwszy ponad wszystkie niebiosa i siedz\u0105c na prawicy Twojej zes\u0142a\u0142 (w dniu dzisiejszym) obiecanego Ducha \u015awi\u0119tego na przybrane dzieci. Dlatego ca\u0142y okr\u0105g ziemi tonie w nadmiarze rado\u015bci. Lecz i Moce niebieskie, i anielskie Pot\u0119gi \u015bpiewaj\u0105 hymn ku Twojej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 7:37-39*\nW ostatnim dniu \u015bwi\u0119ta m\u00f3wi\u0142 Jezus: Kto wierzy we mnie, rzeki wody \u017cywej pop\u0142yn\u0105 z jego wn\u0119trza. A to m\u00f3wi\u0142 o Duchu, kt\u00f3rego otrzyma\u0107 mieli wierz\u0105cy we\u0144, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, niech tchnienie Ducha \u015awi\u0119tego oczy\u015bci nasze serca i u\u017cy\u017ani je ros\u0105 Jego \u0142aski.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

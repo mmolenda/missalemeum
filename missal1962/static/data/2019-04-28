@@ -1,0 +1,117 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u \u015aw. Pankracego", 
+      "1 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-04-28", 
+    "description": "Pe\u0142na nazwa dzisiejszej niedzieli brzmi: \u00abniedziela po zdj\u0119ciu bia\u0142ych szat\u00bb. Nowo ochrzczeni pierwszy raz przychodzili do ko\u015bcio\u0142a w zwyk\u0142ym odzieniu i zajmowali miejsca w\u015br\u00f3d innych wiernych. Ko\u015bci\u00f3\u0142 napomina nowo ochrzczonych i wszystkich chrze\u015bcijan odrodzonych przez przyj\u0119cie sakrament\u00f3w, aby dochowali wierno\u015bci przyrzeczeniom z\u0142o\u017conym na Chrzcie \u015bwi\u0119tym i odnowionym w czasie Wigilii Wielkanocnej (antyfona na wej\u015bcie, lekcja, antyfona na komuni\u0119). W modlitwach mszalnych prosimy o \u0142ask\u0119 wytrwania.", 
+    "tempora": null, 
+    "title": "Niedziela Bia\u0142a"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*1 Pet 2, 2.*\nQuasi modo g\u00e9niti inf\u00e1ntes, allel\u00faja: rationabiles, sine dolo lac concup\u00edscite, allel\u00faja, allel\u00faja, allel\u00faja.\n*Ps 80:2.*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob.\nGl\u00f3ria Patri.\nQuasi modo g\u00e9niti inf\u00e1ntes, allel\u00faja: rationabiles, sine dolo lac concup\u00edscite, allel\u00faja, allel\u00faja, allel\u00faja.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui pasch\u00e1lia festa per\u00e9gimus, h\u00e6c, te largi\u00e9nte, m\u00f3ribus et vita tene\u00e1mus.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Joannis Ap\u00f3stoli.\n*1 John 5:4-10.*\nCar\u00edssimi: Omne, quod natum est ex Deo, vincit mundum: et h\u00e6c est victoria, qu\u00e6 vincit mundum, fides nostra. Quis est, qui vincit mundum, nisi qui credit, qu\u00f3niam Jesus est F\u00edlius Dei? Hic est, qui venit per aquam et s\u00e1nguinem, Jesus Christus: non in aqua solum, sed in aqua et s\u00e1nguine. Et Sp\u00edritus est, qui testific\u00e1tur, qu\u00f3niam Christus est v\u00e9ritas. Qu\u00f3niam tres sunt, qui testim\u00f3nium dant in coelo: Pater, Verbum, et Sp\u00edritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testim\u00f3nium dant in terra: Sp\u00edritus, et aqua, et sanguis: et hi tres unum sunt. Si testim\u00f3nium h\u00f3minum acc\u00edpimus, testim\u00f3nium Dei majus est: qu\u00f3niam hoc est testim\u00f3nium Dei, quod majus est: qu\u00f3niam testific\u00e1tus est de F\u00edlio suo. Qui credit in F\u00edlium Dei, habet testim\u00f3nium Dei in se.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "Allel\u00faja, allel\u00faja.\n*Matt 28:7.*\nIn die resurrecti\u00f3nis me\u00e6, dicit D\u00f3minus, pr\u00e6c\u00e9dam vos in Galilaeam\n*Joannes 20:26.*\nPost dies octo, j\u00e1nuis clausis, stetit Jesus in m\u00e9dio discipul\u00f3rum su\u00f3rum, et dixit: Pax vobis. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 20:19-31.*\nIn illo t\u00e9mpore: Cum sero esset die illo, una sabbat\u00f3rum, et fores essent claus\u00e6, ubi erant disc\u00edpuli congreg\u00e1ti propter metum Jud\u00e6\u00f3rum: venit Jesus, et stetit in m\u00e9dio, et dixit eis: Pax vobis. Et cum hoc dix\u00edsset, ost\u00e9ndit eis manus et latus. Gav\u00edsi sunt ergo disc\u00edpuli, viso D\u00f3mino. Dixit ergo eis \u00edterum: Pax vobis. Sicut misit me Pater, et ego mitto vos. H\u00e6c cum dix\u00edsset, insuffl\u00e1vit, et dixit eis: Acc\u00edpite Sp\u00edritum Sanctum: quorum remiseritis pecc\u00e1ta, remitt\u00fantur eis; et quorum retinu\u00e9ritis, ret\u00e9nta sunt. Thomas autem unus ex du\u00f3decim, qui d\u00edcitur D\u00eddymus, non erat cum eis, quando venit Jesus. Dix\u00e9runt ergo ei alii disc\u00edpuli: V\u00eddimus D\u00f3minum. Ille autem dixit eis: Nisi v\u00eddero in m\u00e1nibus ejus fix\u00faram clav\u00f3rum, et mittam d\u00edgitum meum in locum clav\u00f3rum, et mittam manum meam in latus ejus, non credam. Et post dies octo, \u00edterum erant disc\u00edpuli ejus intus, et Thomas cum eis. Venit Jesus, j\u00e1nuis clausis, et stetit in m\u00e9dio, et dixit: Pax vobis. Deinde dicit Thom\u00e6: Infer d\u00edgitum tuum huc et vide manus meas, et affer manum tuam et mitte in latus meum: et noli esse incr\u00e9dulus, sed fid\u00e9lis. Resp\u00f3ndit Thomas et dixit ei: D\u00f3minus meus et Deus meus. Dixit ei Jesus: Quia vid\u00edsti me, Thoma, credid\u00edsti: be\u00e1ti, qui non vid\u00e9runt, et credid\u00e9runt. Multa quidem et alia signa fecit Jesus in consp\u00e9ctu discipul\u00f3rum su\u00f3rum, qu\u00e6 non sunt scripta in libro hoc. H\u00e6c autem scripta sunt, ut cred\u00e1tis, quia Jesus est Christus, F\u00edlius Dei: et ut cred\u00e9ntes vitam habe\u00e1tis in n\u00f3mine ejus. .", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Matt 28:2; 28:5-6.*\nAngelus D\u00f3mini desc\u00e9ndit de coelo, et dixit muli\u00e9ribus: Quem quaeritis, surr\u00e9xit, sicut dixit, allel\u00faja.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Suscipe m\u00fanera, D\u00f3mine, qu\u01fdsumus, exsult\u00e1ntis Eccl\u00e9si\u00e6: et, cui causam tanti g\u00e1udii pr\u00e6stit\u00edsti, perp\u00e9tu\u00e6 fructum conc\u00e9de l\u00e6t\u00edti\u00e6.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joannes 20:27*\nMitte manum tuam, et cogn\u00f3sce loca clav\u00f3rum, allel\u00faja: et noli esse incr\u00e9dulus, sed fid\u00e9lis, allel\u00faja, allel\u00faja.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Qu\u01fdsumus, D\u00f3mine, Deus noster: ut sacros\u00e1ncta myst\u00e9ria, qu\u00e6 pro reparati\u00f3nis nostr\u00e6 mun\u00edmine contul\u00edsti; et pr\u00e6sens nobis rem\u00e9dium esse f\u00e1cias et fut\u00farum.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*1 P 2, 2*\nJako dopiero narodzone niemowl\u0119ta, alleluja, po\u017c\u0105dajcie duchowego, czystego mleka, alleluja, alleluja alleluja.\n*Ps 80:2*\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Bogu Jakuba.\nChwa\u0142a Ojcu.\nJako dopiero narodzone niemowl\u0119ta, alleluja, po\u017c\u0105dajcie duchowego, czystego mleka, alleluja, alleluja alleluja.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Spraw, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby\u015bmy uko\u0144czywszy obch\u00f3d \u015bwi\u0105t wielkanocnych, za \u0142ask\u0105 Twoj\u0105 zachowali ich ducha w \u017cyciu i post\u0119powaniu.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "Czytanie z Listu \u015bwi\u0119tego Jana Aposto\u0142a.\n*1 J 5:4-10*\n*Chrystus \u017cyje i dzia\u0142a w nas przez trzy elementy: wod\u0119 Chrztu, Krew obecn\u0105 w Eucharystii i tchnienie Ducha \u015awi\u0119tego w sakramencie Bierzmowania. Nasze \u017cycie przekszta\u0142cone przez te trzy elementy staje si\u0119 \u015bwiadectwem wiary chrze\u015bcija\u0144skiej. Sam B\u00f3g jest sprawc\u0105 tego \u015bwiadectwa.*\nNajmilsi: Wszystko, co si\u0119 narodzi\u0142o z Boga, zwyci\u0119\u017ca \u015bwiat, a zwyci\u0119stwem, kt\u00f3re odnosimy nad \u015bwiatem jest wiara nasza. Kt\u00f3\u017c jest, kt\u00f3ry zwyci\u0119\u017ca \u015bwiat, je\u015bli nie ten, kto wierzy, \u017ce Jezus jest Synem Bo\u017cym? Jest to ten sam Jezus Chrystus, kt\u00f3ry przyszed\u0142 przez wod\u0119 i przez krew; nie w wodzie tylko, ale w wodzie i we krwi. A Duch \u015bwiadczy, \u017ce Chrystus jest prawd\u0105.\nAlbowiem Tr\u00f3jca wydaje \u015bwiadectwo na niebie: Ojciec, Syn i Duch \u015awi\u0119ty, a Tr\u00f3jca ta jednym jest. Je\u015bli \u015bwiadectwo ludzkie przyjmujemy, \u015bwiadectwo Bo\u017ce wi\u0119ksze jest. Bo to jest \u015bwiadectwo Bo\u017ce, kt\u00f3re wi\u0119ksze jest, przez kt\u00f3re za\u015bwiadczy\u0142 o Synu swoim. Kto wierzy w Syna Bo\u017cego, nosi w sobie \u015bwiadectwo Bo\u017ce.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "Alleluja, alleluja\n*Mt 28:7*\nW dzie\u0144 mojego Zmartwychwstania \u2013 m\u00f3wi Pan \u2013 p\u00f3jd\u0119 przed wami do Galilei. Alleluja.\n*J 20:26*\nPo o\u015bmiu dniach, mimo drzwi zamkni\u0119tych, stan\u0105\u0142 Jezus po\u015brodku uczni\u00f3w swoich i rzek\u0142: Pok\u00f3j wam. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 20:19-31*\nOnego czasu: Wieczorem dnia owego, pierwszego po szabacie, gdy drzwi by\u0142y zamkni\u0119te tam, gdzie z boja\u017ani gromadzili si\u0119 uczniowie, przyszed\u0142 Jezus, stan\u0105\u0142 mi\u0119dzy nimi i rzek\u0142 im: \u00abPok\u00f3j wam\u00bb. A to powiedziawszy ukaza\u0142 im r\u0119ce i bok. Uradowali si\u0119 tedy uczniowie, ujrzawszy Pana. Rzek\u0142 im przeto znowu: \u00abPok\u00f3j wam. Jako mnie pos\u0142a\u0142 Ojciec i ja was posy\u0142am\u00bb. To powiedziawszy tchn\u0105\u0142 na nich i rzek\u0142 im: \u00abWe\u017amijcie Ducha \u015awi\u0119tego. Kt\u00f3rym odpu\u015bcicie grzechy, s\u0105 im odpuszczone, a kt\u00f3rym zatrzymacie, s\u0105 im zatrzymane\u00bb.\nA Tomasz, jeden z dwunastu, zwany Didymus, nie by\u0142 razem z nimi, kiedy przyszed\u0142 Jezus. Powiedzieli mu tedy inni uczniowie: \u00abWidzieli\u015bmy Pana\u00bb. A on im rzek\u0142: \u00abJe\u015bli nie ujrz\u0119 na r\u0119kach Jego przebicia gwo\u017ad\u017ami i nie w\u0142o\u017c\u0119 palca mego w miejsce gwo\u017adzi, i nie w\u0142o\u017c\u0119 r\u0119ki mojej w bok Jego, nie uwierz\u0119\u00bb.\nA po o\u015bmiu dniach byli znowu uczniowie Jego w domu i Tomasz z nimi. Wszed\u0142 Jezus, a drzwi by\u0142y zamkni\u0119te, stan\u0105\u0142 mi\u0119dzy nimi i rzek\u0142: \u00abPok\u00f3j wam\u00bb. Potem rzek\u0142 do Tomasza. \u00abW\u0142\u00f3\u017c tu palec tw\u00f3j i ogl\u0105daj r\u0119ce moje, i wyci\u0105gnij r\u0119k\u0119 twoj\u0105, i w\u0142\u00f3\u017c w bok m\u00f3j, a nie b\u0105d\u017a niewiernym, lecz wierz\u0105cym\u00bb. A odpowiadaj\u0105c Tomasz rzek\u0142 Mu: \u00abPan m\u00f3j i B\u00f3g m\u00f3j\u00bb. Rzecze mu Jezus: \u00abUwierzy\u0142e\u015b dlatego \u017ce\u015b mi\u0119 ujrza\u0142. Tomaszu, b\u0142ogos\u0142awieni, kt\u00f3rzy nie widzieli, a uwierzyli\u00bb.\nWiele te\u017c innych jeszcze cud\u00f3w uczyni\u0142 Jezus wobec uczni\u00f3w swoich, kt\u00f3re nie s\u0105 w tej ksi\u0119dze spisane. Te za\u015b spisane s\u0105, aby\u015bcie uwierzyli, \u017ce Jezus jest Chrystusem, Synem Bo\u017cym, i \u017ceby\u015bcie przez wiar\u0119 \u017cywot mieli w imi\u0119 Jego.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Mt 28:2; 28:5-6*\nAnio\u0142 Pa\u0144ski zst\u0105pi\u0142 z nieba i rzek\u0142 niewiastom: Ten, kt\u00f3rego szukacie zmartwychwsta\u0142 jak zapowiedzia\u0142, alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij prosimy Ci\u0119, Panie, dary wesel\u0105cego si\u0119 Ko\u015bcio\u0142a i skoro da\u0142e\u015b mu pow\u00f3d do tak wielkiej rado\u015bci, udziel mu jako owocu pe\u0142ni rado\u015bci wiekuistej.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 20:27*\nW\u0142\u00f3\u017c r\u0119k\u0119 twoj\u0105 i rozpoznaj miejsce gwo\u017adzi, alleluja i nie b\u0105d\u017a niewiernym lecz wierz\u0105cym, alleluja, alleluja.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby \u015bwi\u0119te tajemnice, kt\u00f3re ustanowi\u0142e\u015b dla zapewnienia naszego zbawienia, sta\u0142y si\u0119 lekarstwem dla \u017cycia doczesnego i przysz\u0142ego.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }
+  ]
+}

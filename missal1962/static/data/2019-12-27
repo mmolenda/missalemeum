@@ -1,0 +1,157 @@
+{
+  "info": {
+    "additional_info": [
+      "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+      "2 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-12-27", 
+    "description": "\u015aw. Jan by\u0142 umi\u0142owanym uczniem Pana Jezusa. By\u0142 \u015bwiadkiem Przemienienia Pa\u0144skiego i konania w Ogrodzie Oliwnym. Przy Ostatniej Wieczerzy spocz\u0105\u0142 na piersi Zbawiciela. Umieraj\u0105c na krzy\u017cu Pan Jezus odda\u0142 mu w opiek\u0119 swoj\u0105 Matk\u0119. \u015aw. Jan napisa\u0142 trzy Listy Apostolskie, Apokalips\u0119 i Ewangeli\u0119. Zgodnie z zapowiedzi\u0105 Pana Jezusa \u015bw. Jan umar\u0142 \u015bmierci\u0105 naturaln\u0105 w p\u00f3\u017anej staro\u015bci. Ewangelia \u015bw. Jana, kt\u00f3ra uzupe\u0142nia pozosta\u0142e, zawiera najg\u0142\u0119bszy wyk\u0142ad tajemnic Bo\u017cych. W Ko\u015bciele Wschodnim nadano \u015bw. Janowi tytu\u0142 teologa. W ikonografii chrze\u015bcija\u0144skiej symbolem \u015bw. Jana jest orze\u0142. Teksty Mszy \u015bw. wys\u0142awiaj\u0105 nadprzyrodzon\u0105 m\u0105dro\u015b\u0107 \u015bw. Jana, b\u0119d\u0105c\u0105 odblaskiem m\u0105dro\u015bci Bo\u017cej.", 
+    "tempora": null, 
+    "title": "\u015aw. Jana, Aposto\u0142a i Ewangelisty"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Eccli 15:5*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum\n*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Eccl\u00e9siam tuam, D\u00f3mine, ben\u00edgnus ill\u00fastra: ut, be\u00e1ti Jo\u00e1nnis Ap\u00f3stoli tui et Evangel\u00edst\u00e6 illumin\u00e1ta doctr\u00ednis, ad dona perv\u00e9niat sempit\u00e9rna.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nConc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut nos Unig\u00e9niti tui nova per carnem Nat\u00edvitas l\u00edberet; quos sub pecc\u00e1ti jugo vet\u00fasta s\u00e9rvitus tenet.\nPer e\u00fandem.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Lectio libri Sapi\u00e9nti\u00e6.\n*Eccli 15:1-6*\nQui timet Deum, f\u00e1ciet bona: et qui c\u00f3ntinens est just\u00edti\u00e6, appreh\u00e9ndet illam, et obvi\u00e1bit illi quasi mater honorific\u00e1ta. Cib\u00e1bit illum pane vit\u00e6 et intell\u00e9ctus, et aqua sapi\u00e9nti\u00e6 salut\u00e1ris pot\u00e1bit illum: et firm\u00e1bitur in illo, et non flect\u00e9tur: et contin\u00e9bit illum, et non confund\u00e9tur: et exalt\u00e1bit illum apud pr\u00f3ximos suos, et in m\u00e9dio eccl\u00e9si\u00e6 ap\u00e9riet os ejus, et adimpl\u00e9bit illum sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus, et stola gl\u00f3ri\u00e6 v\u00e9stiet illum. Jucundit\u00e1tem et exsultati\u00f3nem thesauriz\u00e1bit super illum, et n\u00f3mine \u00e6t\u00e9rno heredit\u00e1bit illum, D\u00f3minus, Deus noster.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Joann 21:23; 21:19*\nExiit sermo inter fratres, quod disc\u00edpulus ille non m\u00f3ritur: et non dixit Jesus: Non m\u00f3ritur,\nV. Sed: Sic eum volo man\u00e9re, donec v\u00e9niam: tu me s\u00e9quere. Allel\u00faja, allel\u00faja.\n*Joann 21:24*\nV. Hic est disc\u00edpulus ille, qui testim\u00f3nium p\u00e9rhibet de his: et scimus, quia verum est testim\u00f3nium ejus. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in saeculum saeculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii secundum Joannem.\n*Joann 21:19-24*\nIn illo t\u00e9mpore: Dixit Jesus Petro: S\u00e9quere me. Conv\u00e9rsus Petrus vidit illum disc\u00edpulum, quem dilig\u00e9bat Jesus, sequ\u00e9ntem, qui et rec\u00fabuit in cena super pectus ejus, et dixit: D\u00f3mine, quis est qui tradet te ? Hunc ergo cum vid\u00edsset Petrus, dixit Jesu: D\u00f3mine, hic autem quid? Dicit ei Jesus: Sic eum volo man\u00e9re, donec v\u00e9niam, quid ad te? tu me s\u00e9quere. Exiit ergo sermo iste inter fratres, quia disc\u00edpulus ille non m\u00f3ritur. Et non dixit ei Jesus: Non m\u00f3ritur; sed: Sic eum volo man\u00e9re, donec v\u00e9niam: quid ad te? Hic est disc\u00edpulus ille, qui testim\u00f3nium p\u00e9rhibet de his, et scripsit h\u00e6c: et scimus, quia verum est testim\u00f3nium ejus.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus, qu\u00e6 in L\u00edbano est, mulliplic\u00e1bitur.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "S\u00fascipe, D\u00f3mine, m\u00fanera, qu\u00e6 in ejus tibi sollemnit\u00e1te def\u00e9rimus, cujus nos conf\u00eddimus patroc\u00ednio liber\u00e1ri.\nPer Dominum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nOblata, D\u00f3mine, m\u00fanera, nova Unig\u00e9niti tui Nativit\u00e1te sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer e\u00fandem.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Joann 21:23*\nExiit sermo inter fratres, quod disc\u00edpulus ille non m\u00f3ritur: et non dixit Jesus: Non m\u00f3ritur; sed: Sic eum volo man\u00e9re, donec v\u00e9niam.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices deprec\u00e1mur: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro Octava Nativitatis:*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut natus h\u00f3die Salv\u00e1tor mundi, sicut div\u00edn\u00e6 nobis generati\u00f3nis est auctor; ita et immortalit\u00e1tis sit ipse larg\u00edtor:\nQui tecum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "O\u015bwiecaj \u0142askawie Tw\u00f3j Ko\u015bci\u00f3\u0142, o Panie, aby dzi\u0119ki naukom \u015bw. Jana, Twojego Aposto\u0142a i Ewangelisty, osi\u0105gn\u0105\u0142 dobra wiekuiste.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nDozw\u00f3l, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby nowe narodzenie si\u0119 w ciele Jednorodzonego Syna Twego wyzwoli\u0142o nas z jarzma grzechu, w kt\u00f3rym nas trzyma dawna niewola.\nPrzez tego\u017c Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 15:1-6*\nKto Boga si\u0119 boi, b\u0119dzie czyni\u0142 dobrze, a kto sprawiedliwo\u015bci przestrzega, dost\u0105pi m\u0105dro\u015bci. I wyjdzie mu naprzeciw niby matka czcigodna. Nakarmi go chlebem \u017cywota i zrozumienia, a wod\u0105 zbawiennej m\u0105dro\u015bci go napoi. I umocni si\u0119 ni\u0105, a nie ugnie si\u0119. I podtrzyma go, a zawstydzony nie b\u0119dzie; i wywy\u017cszy go u bli\u017anich jego. I w po\u015brodku zgromadzenia otworzy usta jego, a nape\u0142ni go duchem m\u0105dro\u015bci i zrozumienia, i szat\u0105 chwa\u0142y go oblecze. Niby skarb nad nim zgromadzi rado\u015b\u0107 i wesele, i obdarzy go Pan nasz dziedzictwem wiecznego imienia.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*J 21:23; 21:19*\nRozesz\u0142a si\u0119 wie\u015b\u0107 mi\u0119dzy bra\u0107mi, \u017ce ucze\u0144 \u00f3w nie umrze. Ale Jezus nie powiedzia\u0142: \u00abNie umrze\u00bb.\nV. Jeno: \u00abChc\u0119, aby on zosta\u0142, a\u017c przyjd\u0119; ty p\u00f3jd\u017a za mn\u0105\u00bb. Alleluja, alleluja.\n*J 21:24*\nV. W\u0142a\u015bnie \u00f3w ucze\u0144 daje \u015bwiadectwo o tym, a wiemy, \u017ce \u015bwiadectwo jego jest prawdziwe. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 21:19-24*\nOnego czasu: Rzek\u0142 Jezus do Piotra: \u00abP\u00f3jd\u017a za mn\u0105\u00bb. Piotr obr\u00f3ciwszy si\u0119 ujrza\u0142 onego ucznia, kt\u00f3rego mi\u0142owa\u0142 Jezus, id\u0105cego za sob\u0105, kt\u00f3ry te\u017c przy wieczerzy spoczywa\u0142 na piersiach Jezusa i m\u00f3wi\u0142: \u00abPanie, kto jest ten, co Ci\u0119 wyda?\u00bb Tego to zobaczywszy Piotr pyta Jezusa: \u00abPanie, a z tym co b\u0119dzie?\u00bb Powiedzia\u0142 mu Jezus: \u00abChc\u0119, aby on zosta\u0142, a\u017c przyjd\u0119, co tobie do tego? Ty p\u00f3jd\u017a za mn\u0105\u00bb. Rozesz\u0142a si\u0119 tedy ta wie\u015b\u0107 mi\u0119dzy bra\u0107mi, \u017ce ucze\u0144 \u00f3w nie umrze. Ale Jezus nie powiedzia\u0142: \u00abNie umrze\u00bb, jeno: \u00abChc\u0119, aby on zosta\u0142, a\u017c przyjd\u0119, co tobie do tego?\u00bb I w\u0142a\u015bnie \u00f3w ucze\u0144 daje \u015bwiadectwo o tym i napisa\u0142 to, a wiemy, \u017ce \u015bwiadectwo jego jest prawdziwe.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie. Alleluja.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Przyjmij, Panie, dary, kt\u00f3re Ci sk\u0142adamy w uroczysto\u015b\u0107 \u015bw. Jana. Ufamy, \u017ce jego wstawiennictwo przyczyni si\u0119 do naszego wyzwolenia.\nPrzez Pana.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nU\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone dary przez nowe narodzenie Jedynego Syna Twojego i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez tego\u017c Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*J 21:23*\nRozesz\u0142a si\u0119 tedy ta wie\u015b\u0107 mi\u0119dzy bra\u0107mi, \u017ce ucze\u0144 \u00f3w nie umrze. Ale Jezus nie powiedzia\u0142: \u00abNie umrze\u00bb, jeno: \u00abChc\u0119, aby on zosta\u0142, a\u017c przyjd\u0119\u00bb.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Pokrzepieni niebieskim pokarmem i napojem, b\u0142agamy Ci\u0119 pokornie, Bo\u017ce nasz, niech nas broni\u0105 modlitwy tego, w kt\u00f3rego \u015bwi\u0119to przyj\u0119li\u015bmy te dary.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*W Oktawie Narodzenia*\nWszechmog\u0105cy Bo\u017ce, narodzony dzisiaj Zbawiciel \u015bwiata przywr\u00f3ci\u0142 nam synostwo Bo\u017ce; spraw, prosimy, aby nam udzieli\u0142 daru nie\u015bmiertelno\u015bci:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}

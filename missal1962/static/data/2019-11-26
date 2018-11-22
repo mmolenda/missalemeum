@@ -1,0 +1,156 @@
+{
+  "info": {
+    "additional_info": [
+      "3 klasy", 
+      "Szaty bia\u0142e"
+    ], 
+    "date": "2019-11-26", 
+    "description": "\u015aw. Sylwester urodzi\u0142 si\u0119 w Osimo w 1177 roku. Studiowa\u0142 prawo na uniwersytecie w Bolonii, a p\u00f3\u017aniej zosta\u0142 kanonikiem w rodzinnym mie\u015bcie. Wstrz\u0105\u015bni\u0119ty widokiem rozk\u0142adaj\u0105cych si\u0119 zw\u0142ok krewniaka, porzuci\u0142 \u015bwiat i zosta\u0142 pustelnikiem. Gdy zgromadzili si\u0119 przy nim uczniowie, za\u0142o\u017cy\u0142 nowy zakon oparty na regule \u015bw. Benedykta i kierowa\u0142 nim do \u015bmierci w roku 1267. Zakon za\u0142o\u017cony przez \u015bw. Sylwestra istnieje do dzisiaj pod nazw\u0105 Sylwestryn\u00f3w.Wspomnienie \u015aw. Piotra z Aleksandrii, Biskupa i M\u0119czennika. \u015aw. Piotr, biskup Aleksandrii, pot\u0119pi\u0142 herezj\u0119 Ariusza. Pewnej nocy ukaza\u0142 mu si\u0119 Chrystus w rozdartej szacie, kt\u00f3ra symbolizowa\u0142a Ko\u015bci\u00f3\u0142 rozdarty przez herezje. \u015aw. Piotr zosta\u0142 \u015bci\u0119ty 25 listopada 311 roku.", 
+    "tempora": "Wtorek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+    "title": "\u015aw. Sylwestra, Opata"
+  }, 
+  "proper_latin": [
+    {
+      "body": "*Ps 36:30-31.*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+      "id": "Introitus", 
+      "label": "Introitus"
+    }, 
+    {
+      "body": "Clement\u00edssime Deus, qui sanctum Silv\u00e9strum Abb\u00e1tem, saeculi hujus vanit\u00e1tem in ap\u00e9rto t\u00famulo pie medit\u00e1ntem, ad er\u00e9mum voc\u00e1re et pr\u00e6cl\u00e1ris vit\u00e6 m\u00e9ritis decor\u00e1re dign\u00e1tus es: te s\u00fapplices exor\u00e1mus; ut, ejus ex\u00e9mplo terr\u00e9na despici\u00e9ntes, tui cons\u00f3rtio perfru\u00e1mur \u00e6t\u00e9rno.\nPer Dominum.", 
+      "id": "Oratio", 
+      "label": "Oratio"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nInfirmit\u00e1tem nostram r\u00e9spice, omn\u00edpotens Deus: et, quia pondus pr\u00f3pria; acti\u00f3nis gravat, be\u00e1ti Petri M\u00e1rtyris tui atque Pont\u00edficis interc\u00e9ssio glori\u00f3sa nos pr\u00f3tegat.\nPer Dominum.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Lectio libri Sapienti\u00e6.\n*Eccli 45:1-6*\nDil\u00e9ctus Deo et hom\u00ednibus, cujus mem\u00f3ria in benedicti\u00f3ne est. S\u00edmilem illum fecit in gl\u00f3ria sanct\u00f3rum, et magnific\u00e1vit eum in tim\u00f3re inimic\u00f3rum, et in verbis suis monstra plac\u00e1vit. Glorific\u00e1vit illum in consp\u00e9ctu regum, et jussit illi coram p\u00f3pulo suo, et ost\u00e9ndit illi gl\u00f3riam suam. In fide et lenit\u00e1te ips\u00edus sanctum fecit illum, et el\u00e9git eum; ex omni carne. Aud\u00edvit enim eum et vocem ips\u00edus, et ind\u00faxit illum in nubem. Et dedit illi coram pr\u00e6c\u00e9pta, et legem vit\u00e6 et discipl\u00edn\u00e6.", 
+      "id": "Lectio", 
+      "label": "Lectio"
+    }, 
+    {
+      "body": "*Ps 20:4-5*\nD\u00f3mine, pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nV. Vitam p\u00e9tiit a te, et tribu\u00edsti ei longit\u00fadinem di\u00e9rum in s\u01fdculum s\u01fdculi. Allel\u00faja, allel\u00faja\n*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur. Allel\u00faja.", 
+      "id": "Graduale", 
+      "label": "Graduale"
+    }, 
+    {
+      "body": "*Ps 20:4-5*\nD\u00f3mine, pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nV. Vitam p\u00e9tiit a te, et tribu\u00edsti ei longit\u00fadinem di\u00e9rum in s\u01fdculum s\u01fdculi.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+      "id": "Tractus", 
+      "label": "Tractus"
+    }, 
+    {
+      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui secuti estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possid\u00e9bit.", 
+      "id": "Evangelium", 
+      "label": "Evangelium"
+    }, 
+    {
+      "body": "*Ps 20:3; 20:4*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei, D\u00f3mine, et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
+      "id": "Offertorium", 
+      "label": "Offertorium"
+    }, 
+    {
+      "body": "Qu\u01fdsumus, D\u00f3mine: ut, dum h\u00e6c m\u00fanera div\u00edn\u00e6 majest\u00e1ti tu\u00e6 rever\u00e9nter off\u00e9rimus; pia mentis pr\u00e6parati\u00f3ne et cordis purit\u00e1te, be\u00e1ti Silv\u00e9stri Abb\u00e1tis imitat\u00f3res eff\u00e9cti, Corpus et S\u00e1nguinem F\u00edlii tui sancte perc\u00edpere mere\u00e1mur:\nQui tecum.", 
+      "id": "Secreta", 
+      "label": "Secreta"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1ti Petri M\u00e1rtyris tui atque Pont\u00edficis dic\u00e1tas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+      "id": "Prefatio", 
+      "label": "Prefatio"
+    }, 
+    {
+      "body": "*Luc 12:42.*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
+      "id": "Communio", 
+      "label": "Communio"
+    }, 
+    {
+      "body": "Div\u00edna dape ref\u00e9ctis tr\u00edbue, qu\u01fdsumus, D\u00f3mine: sancti Silv\u00e9stri Abb\u00e1tis vest\u00edgiis ita inh\u00e6r\u00e9re; ut copi\u00f3sam merc\u00e9dem in regno gl\u00f3ri\u00e6 tu\u00e6 cum Sanctis habe\u00e1mus.\nPer Dominum.", 
+      "id": "Postcommunio", 
+      "label": "Postcommunio"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nRef\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to Petro M\u00e1rtyre tuo atque Pont\u00edfice, senti\u00e1mus eff\u00e9ctum.\nPer Dominum.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ], 
+  "proper_vernacular": [
+    {
+      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+      "id": "Introitus", 
+      "label": "Introit"
+    }, 
+    {
+      "body": "Naj\u0142askawszy Bo\u017ce, gdy \u015bwi\u0119ty Opat Sylwester rozmy\u015bla\u0142 przy otwartym grobie nad znikomo\u015bci\u0105 tego \u015bwiata, raczy\u0142e\u015b go powo\u0142a\u0107 do pustelni i ozdobi\u0142e\u015b zas\u0142ugami \u015bwi\u0119tego \u017cycia; prosimy Ci\u0119 pokornie, by\u015bmy za jego przyk\u0142adem, gardz\u0105c dobrami ziemskimi, za\u017cywali wiecznego obcowania z Tob\u0105.\nPrzez Pana.", 
+      "id": "Oratio", 
+      "label": "Kolekta"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nWszechmog\u0105cy Bo\u017ce, wejrzyj na s\u0142abo\u015b\u0107 nasz\u0105, a skoro nas obci\u0105\u017ca brzemi\u0119 w\u0142asnej dzia\u0142alno\u015bci, niech nas os\u0142ania dostojne wstawiennictwo \u015bwi\u0119tego Piotra, Twojego M\u0119czennika i Biskupa.\nPrzez Pana.", 
+      "id": "Commemoratio Oratio", 
+      "label": "Commemoratio Oratio"
+    }, 
+    {
+      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 45:1-6*\nUmi\u0142owany przez Boga i ludzi, kt\u00f3rego pami\u0119\u0107 jest b\u0142ogos\u0142awiona. Pan da\u0142 mu chwa\u0142\u0119 podobn\u0105 jako innym \u015bwi\u0119tym, uczyni\u0142 go pot\u0119\u017cnym na postrach nieprzyjaci\u00f3\u0142, a na jego s\u0142owa u\u015bmierza\u0142 srogie kl\u0119ski. On go te\u017c ws\u0142awi\u0142 wobec kr\u00f3l\u00f3w, dawa\u0142 przeze\u0144 rozkazy ludowi swemu i dozwoli\u0142 mu ogl\u0105da\u0107 chwa\u0142\u0119 swoj\u0105. Dla jego wiary i \u0142agodno\u015bci po\u015bwi\u0119ci\u0142 go i wybra\u0142 spo\u015br\u00f3d wszystkich ludzi. Pozwoli\u0142 mu s\u0142ysze\u0107 sw\u00f3j g\u0142os i wprowadzi\u0142 go do ob\u0142oku. Sam mu te\u017c zwierzy\u0142 swe przykazania, prawa \u017cywota i umiej\u0119tno\u015bci.", 
+      "id": "Lectio", 
+      "label": "Lekcja"
+    }, 
+    {
+      "body": "*Ps 20:4-5*\nPanie, dobrodziejstwami obsypa\u0142e\u015b go szczodrze, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.\nV. B\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, dni jego przed\u0142u\u017cy\u0142e\u015b na wieki wiek\u00f3w. Alleluja, alleluja.\n*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie. Alleluja.", 
+      "id": "Graduale", 
+      "label": "Gradua\u0142"
+    }, 
+    {
+      "body": "*Ps 20:4-5*\nPanie, dobrodziejstwami obsypa\u0142e\u015b go szczodrze, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.\nV. B\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, dni jego przed\u0142u\u017cy\u0142e\u015b na wieki wiek\u00f3w.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+      "id": "Tractus", 
+      "label": "Traktus"
+    }, 
+    {
+      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 19:27-29*\nOnego czasu:  Piotr powiedzia\u0142 do Jezusa:  Oto\u015bmy opu\u015bcili wszystko i poszli za Tob\u0105;  c\u00f3\u017c wi\u0119c otrzymamy?\u00bb  A Jezus rzek\u0142 im: \u00abZaprawd\u0119 powiadam wam,  \u017ce wy, kt\u00f3rzy\u015bcie za mn\u0105 m poszli, w odrodzeniu, gdy zasi\u0105dzie Syn Cz\u0142owieczy na stolicy majestatu swego, zasi\u0105dziecie i wy na dwunastu stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela. A ka\u017cdy, kto by opu\u015bci\u0142 dom albo braci, albo siostry, albo ojca, albo matk\u0119, albo \u017con\u0119,  albo syn\u00f3w, albo rol\u0119 dla imienia mego, stokro\u0107 wi\u0119cej otrzyma i \u017cywot wieczny osi\u0105gnie\u00bb.", 
+      "id": "Evangelium", 
+      "label": "Ewangelia"
+    }, 
+    {
+      "body": "*Ps 20:3; 20:4*\nSpe\u0142ni\u0142e\u015b pragnienie jego serca, Panie, pro\u015bbie ust jego nie odm\u00f3wi\u0142e\u015b: w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.", 
+      "id": "Offertorium", 
+      "label": "Antyfona na Ofiarowanie"
+    }, 
+    {
+      "body": "Gdy z czci\u0105 sk\u0142adamy te dary boskiemu majestatowi Twojemu, b\u0142agamy Ci\u0119, Panie, aby\u015bmy za przyk\u0142adem \u015bw. Sylwestra, Opata, przez pobo\u017cne przygotowanie umys\u0142u i czysto\u015b\u0107 serca zas\u0142u\u017cyli godnie przyj\u0105\u0107 Cia\u0142o i Krew Syna Twojego:\nKt\u00f3ry z Tob\u0105.", 
+      "id": "Secreta", 
+      "label": "Sekreta"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nPanie, przyjmij \u0142askawie przez zas\u0142ugi \u015bwi\u0119tego Piotra M\u0119czennika i Biskupa ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy, i spraw, aby si\u0119 sta\u0142a dla nas nieustann\u0105 pomoc\u0105.\nPrzez Pana.", 
+      "id": "Commemoratio Secreta", 
+      "label": "Commemoratio Secreta"
+    }, 
+    {
+      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+      "id": "Prefatio", 
+      "label": "Prefacja"
+    }, 
+    {
+      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postawi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+      "id": "Communio", 
+      "label": "Antyfona na Komuni\u0119"
+    }, 
+    {
+      "body": "Panie, gdy nas posili\u0142e\u015b Bosk\u0105 uczt\u0105, daj nam tak i\u015b\u0107 \u015bladami \u015bwi\u0119tego Opata Sylwestra, aby\u015bmy wesp\u00f3\u0142 ze \u015awi\u0119tymi otrzymali obfit\u0105 zap\u0142at\u0119 w Kr\u00f3lestwie Twojej chwa\u0142y.\nPrzez Pana.", 
+      "id": "Postcommunio", 
+      "label": "Pokomunia"
+    }, 
+    {
+      "body": "*Pro S. Petro Alexandrino Episcopo et Martyre*\nPokrzepieni uczestnictwem w \u015bwi\u0119tej uczcie prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby\u015bmy za przyczyn\u0105 \u015bwi\u0119tego Piotra Twego M\u0119czennika i Biskupa, doznali skutk\u00f3w tajemnic, kt\u00f3re ze czci\u0105 sprawujemy.\nPrzez Pana.", 
+      "id": "Commemoratio Postcommunio", 
+      "label": "Commemoratio Postcommunio"
+    }
+  ]
+}
