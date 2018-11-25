@@ -170,11 +170,11 @@ class Day:
         if day.celebration[0].id == TEMPORA_EPI1_0:
             # "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
             # following days without the own proper
-            return [ProperParser.parse(TEMPORA_EPI1_0A, self.calendar.lang)]
+            return [Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang).get_proper()]
         if day.celebration[0].id == TEMPORA_PENT01_0:
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
-            return [ProperParser.parse(PENT01_0A, self.calendar.lang)]
+            return [Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang).get_proper()]
 
         if day.tempora:
             return [day.tempora[0].get_proper()]

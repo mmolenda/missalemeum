@@ -131,50 +131,52 @@ $(document).ready(function()    {
      **/
     function loadProper(date) {
         $.getJSON( config.dateEndpoint + date, function( data ) {
-            let title = data["info"].title;
-            let description = data["info"].description;
-            let sectionsVernacular = data.proper_vernacular;
-            let sectionsLatin = data.proper_latin;
-            let additional_info = [data["info"].date];
-            if (data["info"].tempora != null) {
-                additional_info.push(data["info"].tempora);
-            }
-            if (data["info"].additional_info != null) {
-                $.merge(additional_info, data["info"].additional_info);
-            }
-
             let main = $("main");
             main.empty();
             window.scrollTo(0, 0);
 
-            if (title == null) {
-                title = moment(data["info"].date, "YYYY-MM-DD").format("DD MMMM");
-            }
-            $(renderTemplate(templateContentIntro, {
-                title: title,
-                additional_info: additional_info.join('</em> | <em class="rubric">'),
-                description: description.split("\n").join("<br />")
-            })).appendTo(main);
-
-            $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
-                // replacing all surrounding asterisks with surrounding <em>s in body
-                $.each(sections, function(x, y) {sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
-
-            });
-            for (let i = 0; i < sectionsVernacular.length; i++) {
-                let sectionVernacular = sectionsVernacular[i];
-                let sectionLatin = sectionsLatin[i];
-                if (sectionLatin == null) {
-                    sectionLatin = {label: "", body: ""};
-                    console.error("Latin sections missing in " + date);
+            $.each(data, function(index, item) {
+                let title = item["info"].title;
+                let description = item["info"].description;
+                let sectionsVernacular = item.proper_vernacular;
+                let sectionsLatin = item.proper_latin;
+                let additional_info = [item["info"].date];
+                if (item["info"].tempora != null) {
+                    additional_info.push(item["info"].tempora);
                 }
-                $(renderTemplate(templateContentColumns, {
-                    labelVernacular: sectionVernacular.label,
-                    sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
-                    labelLatin: sectionLatin.label,
-                    sectionLatin: sectionLatin.body.split("\n").join("<br />")
+                if (item["info"].additional_info != null) {
+                    $.merge(additional_info, item["info"].additional_info);
+                }
+
+                if (title == null) {
+                    title = moment(item["info"].date, "YYYY-MM-DD").format("DD MMMM");
+                }
+                $(renderTemplate(templateContentIntro, {
+                    title: title,
+                    additional_info: additional_info.join('</em> | <em class="rubric">'),
+                    description: description.split("\n").join("<br />")
                 })).appendTo(main);
-            }
+
+                $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
+                    // replacing all surrounding asterisks with surrounding <em>s in body
+                    $.each(sections, function(x, y) {sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
+
+                });
+                for (let i = 0; i < sectionsVernacular.length; i++) {
+                    let sectionVernacular = sectionsVernacular[i];
+                    let sectionLatin = sectionsLatin[i];
+                    if (sectionLatin == null) {
+                        sectionLatin = {label: "", body: ""};
+                        console.error("Latin sections missing in " + date);
+                    }
+                    $(renderTemplate(templateContentColumns, {
+                        labelVernacular: sectionVernacular.label,
+                        sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
+                        labelLatin: sectionLatin.label,
+                        sectionLatin: sectionLatin.body.split("\n").join("<br />")
+                    })).appendTo(main);
+                }
+            });
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
         });

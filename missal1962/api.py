@@ -1,9 +1,10 @@
 import os
 
 import datetime
+import re
 from flask import Flask, jsonify, send_file
 from flask_cors import CORS
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
 import controller
 from exceptions import InvalidInput, ProperNotFound
@@ -28,15 +29,18 @@ def frontend(path=''):
         return send_file(index_path)
 
 
-def _parse_comment(comment: ProperSection) -> dict:
+def _parse_comment(comment: Union[None, ProperSection]) -> dict:
     retval = {
+        "title": "",
         "description": "",
         "additional_info": []
     }
+    if comment is None:
+        return retval
     for ln in comment.get_body():
         if ln.startswith('#'):
-            continue
-        elif ln.startswith('*') and ln.endswith('*'):
+            retval['title'] = re.split("[–—-]", ln.strip("#"), 1)[-1].strip()
+        elif ln.strip().startswith('*') and ln.endswith('*'):
             retval['additional_info'].append(ln.replace('*', ''))
         else:
             retval['description'] += ln + '\n'
@@ -50,30 +54,38 @@ def date(date_: str):
         missal: Calendar = controller.get_calendar(date_object.year, lang)
         day: Day = missal.get_day(date_object)
         propers: List[Tuple[Proper, Proper]] = day.get_proper()
-        propers_vernacular, propers_latin = propers[0]
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     else:
-        celebration_name: str = day.get_celebration_name()
-        tempora_name: str = day.get_tempora_name()
-        info = {
-            "title": celebration_name,
-            "description": None,
-            "additional_info": None,
-            "tempora": tempora_name if tempora_name != celebration_name else None,
-            "date": date_,
-        }
-        comment: ProperSection = propers_vernacular.pop_section('Comment')
-        if comment is not None:
-            info.update(_parse_comment(comment))
+        retvals = []
+        for propers_vernacular, propers_latin in propers:
+            info = {
+                "title": None,
+                "description": None,
+                "additional_info": None,
+                "tempora": None,
+                "date": date_,
+            }
+            comment: ProperSection = propers_vernacular.pop_section('Comment')
+            parsed_comment: dict = _parse_comment(comment)
+            # In most of the cases calculate the celebration title from the Observance object falling on
+            # a given day; in case of days with multiple masses (02 Nov, 25 Dec) get the title from
+            # proper's comment directly
+            info['title'] = day.get_celebration_name() if len(propers) < 2 else parsed_comment['title']
+            info['description'] = parsed_comment['description']
+            info['additional_info'] = parsed_comment['additional_info']
 
-        return jsonify({
-            "info": info,
-            "proper_vernacular": propers_vernacular.serialize(),
-            "proper_latin": propers_latin.serialize()
-        })
+            tempora_name: str = day.get_tempora_name()
+            info["tempora"] = tempora_name if tempora_name != info["title"] else None
+
+            retvals.append({
+                "info": info,
+                "proper_vernacular": propers_vernacular.serialize(),
+                "proper_latin": propers_latin.serialize()
+            })
+        return jsonify(retvals)
 
 
 @app.route('/proper/<string:proper_id>')
