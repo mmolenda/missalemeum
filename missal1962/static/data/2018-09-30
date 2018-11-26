@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2018-09-30", 
+      "description": "Wszyscy ludzie s\u0105 zaproszeni przez Boga na wieczyste gody Jego Syna z odkupion\u0105 ludzko\u015bci\u0105. Wezm\u0105 w nich udzia\u0142 tylko ci, kt\u00f3rzy dojd\u0105 do bram wieczno\u015bci odziani w godow\u0105 szat\u0119 \u0142aski u\u015bwi\u0119caj\u0105cej, kt\u00f3r\u0105 otrzymali\u015bmy na Chrzcie \u015bw. Zachowanie tej szaty przekracza ludzkie si\u0142y. Zbyt cz\u0119sto ulegamy z\u0142udzeniom, \u017ce mo\u017cna si\u0119 zbawi\u0107 dzi\u0119ki w\u0142asnym wysi\u0142kom. W ci\u0105gu dzisiejszej Mszy \u015bw. Ko\u015bci\u00f3\u0142 wielokrotnie nam przypomina radosn\u0105 prawd\u0119, \u017ce B\u00f3g nas prowadzi, obdarza \u0142ask\u0105 i zbawia.\n", 
+      "tempora": null, 
+      "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "Salus p\u00f3puli ego sum, dicit D\u00f3minus: de quac\u00famque tribulati\u00f3ne clam\u00e1verint ad me, ex\u00e1udiam eos: et ero ill\u00f3rum D\u00f3minus in perp\u00e9tuum\n*Ps 77:1*\nAttendite, p\u00f3pule meus, legem meam: inclin\u00e1te aurem vestram in verba oris mei.\nGl\u00f3ria Patri.\nSalus p\u00f3puli ego sum, dicit D\u00f3minus: de quac\u00famque tribulati\u00f3ne clam\u00e1verint ad me, ex\u00e1udiam eos: et ero ill\u00f3rum D\u00f3minus in perp\u00e9tuum", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omn\u00edpotens et mis\u00e9ricors Deus, univ\u00e9rsa nobis advers\u00e1ntia propiti\u00e1tus excl\u00fade: ut mente et c\u00f3rpore p\u00e1riter exped\u00edti, qu\u00e6 tua sunt, l\u00edberis m\u00e9ntibus exsequ\u00e1mur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 4:23-28*\nFratres: Renov\u00e1mini sp\u00edritu mentis vestr\u00e6, et ind\u00faite novum h\u00f3minem, qui sec\u00fandum Deum cre\u00e1tus est in just\u00edtia et sanctit\u00e1te verit\u00e1tis. Propter quod depon\u00e9ntes mend\u00e1cium, loqu\u00edmini verit\u00e1tem unusqu\u00edsque cum pr\u00f3ximo suo: qu\u00f3niam sumus \u00ednvicem membra. Irasc\u00edmini, et nol\u00edte pecc\u00e1re: sol non occ\u00eddat super irac\u00fandiam vestram. Nol\u00edte locum dare di\u00e1bolo: qui furab\u00e1tur, jam non fur\u00e9tur; magis autem lab\u00f3ret, oper\u00e1ndo m\u00e1nibus suis, quod bonum est, ut h\u00e1beat, unde tr\u00edbuat necessit\u00e1tem pati\u00e9nti.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 140:2*\nDirig\u00e1tur or\u00e1tio mea, sicut inc\u00e9nsum in consp\u00e9ctu tuo, D\u00f3mine.\nV. Elevatio m\u00e1nuum me\u00e1rum sacrif\u00edcium vespert\u00ednum. Allel\u00faja, allel\u00faja\n*Ps 104:1*\nConfit\u00e9mini D\u00f3mino, et invoc\u00e1te nomen ejus: annunti\u00e1te inter gentes \u00f3pera ejus. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 22:1-14*\nIn illo t\u00e9mpore: Loqueb\u00e1tur Jesus princ\u00edpibus sacerd\u00f3tum et pharisaeis in par\u00e1bolis, dicens: S\u00edmile factum est regnum coel\u00f3rum h\u00f3mini regi, qui fecit n\u00faptias f\u00edlio suo. Et misit servos suos voc\u00e1re invit\u00e1tos ad nuptias, et nol\u00e9bant ven\u00edre. Iterum misit \u00e1lios servos, dicens: D\u00edcite invit\u00e1tis: Ecce, pr\u00e1ndium meum par\u00e1vi, tauri mei et alt\u00edlia occ\u00edsa sunt, et \u00f3mnia par\u00e1ta: ven\u00edte ad n\u00faptias. Illi autem neglex\u00e9runt: et abi\u00e9runt, \u00e1lius in villam suam, \u00e1lius vero ad negotiati\u00f3nem suam: r\u00e9liqui vero tenu\u00e9runt servos ejus, et contum\u00e9liis aff\u00e9ctos occid\u00e9runt. Rex autem cum aud\u00edsset, iratus est: et, missis exerc\u00edtibus suis, p\u00e9rdidit homic\u00eddas illos et civit\u00e1tem ill\u00f3rum succ\u00e9ndit. Tunc ait servis suis: N\u00fapti\u00e6 quidem par\u00e1t\u00e6 sunt, sed, qui invit\u00e1ti erant, non fu\u00e9runt digni. Ite ergo ad exitus vi\u00e1rum et, quosc\u00famque inven\u00e9ritis, voc\u00e1te ad n\u00faptias. Et egr\u00e9ssi servi ejus in vias, congregav\u00e9runt omnes, quos inven\u00e9runt, malos et bonos: et impl\u00e9t\u00e6 sunt n\u00fapti\u00e6 discumb\u00e9ntium. Intr\u00e1vit autem rex, ut vid\u00e9ret discumb\u00e9ntes, et vidit ibi h\u00f3minem non vest\u00edtum veste nupti\u00e1li. Et ait illi: Am\u00edce, qu\u00f3modo huc intr\u00e1sti non habens vestem nupti\u00e1lem? At ille obm\u00fatuit. Tunc dixit rex min\u00edstris: Lig\u00e1tis m\u00e1nibus et p\u00e9dibus ejus, m\u00edttite eum in t\u00e9nebras exteri\u00f3res: ibi erit fletus et stridor d\u00e9ntium. Multi enim sunt voc\u00e1ti, pauci vero el\u00e9cti.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 137:7*\nSi ambul\u00e1vero in m\u00e9dio tribulati\u00f3nis, vivific\u00e1bis me, D\u00f3mine: et super iram inimic\u00f3rum me\u00f3rum ext\u00e9ndes manum tuam, et salvum me f\u00e1ciet d\u00e9xtera tua.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00e6c m\u00fanera, qu\u01fdsumus, D\u00f3mine, qu\u00e6 \u00f3culis tu\u00e6 majest\u00e1tis off\u00e9rimus, salut\u00e1ria nobis esse conc\u00e9de.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 118:4-5*\nTu mand\u00e1sti mand\u00e1ta tua custod\u00edri nimis: \u00fatinam dirig\u00e1ntur vi\u00e6 me\u00e6, ad custodi\u00e9ndas justificati\u00f3nes tuas.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Tua nos, D\u00f3mine, medicin\u00e1lis oper\u00e1tio, et a nostris perversit\u00e1tibus clem\u00e9nter exp\u00e9diat, et tuis semper f\u00e1ciat inh\u00e6r\u00e9re mand\u00e1tis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-09-30", 
-    "description": "Wszyscy ludzie s\u0105 zaproszeni przez Boga na wieczyste gody Jego Syna z odkupion\u0105 ludzko\u015bci\u0105. Wezm\u0105 w nich udzia\u0142 tylko ci, kt\u00f3rzy dojd\u0105 do bram wieczno\u015bci odziani w godow\u0105 szat\u0119 \u0142aski u\u015bwi\u0119caj\u0105cej, kt\u00f3r\u0105 otrzymali\u015bmy na Chrzcie \u015bw. Zachowanie tej szaty przekracza ludzkie si\u0142y. Zbyt cz\u0119sto ulegamy z\u0142udzeniom, \u017ce mo\u017cna si\u0119 zbawi\u0107 dzi\u0119ki w\u0142asnym wysi\u0142kom. W ci\u0105gu dzisiejszej Mszy \u015bw. Ko\u015bci\u00f3\u0142 wielokrotnie nam przypomina radosn\u0105 prawd\u0119, \u017ce B\u00f3g nas prowadzi, obdarza \u0142ask\u0105 i zbawia.\n", 
-    "tempora": null, 
-    "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "Salus p\u00f3puli ego sum, dicit D\u00f3minus: de quac\u00famque tribulati\u00f3ne clam\u00e1verint ad me, ex\u00e1udiam eos: et ero ill\u00f3rum D\u00f3minus in perp\u00e9tuum\n*Ps 77:1*\nAttendite, p\u00f3pule meus, legem meam: inclin\u00e1te aurem vestram in verba oris mei.\nGl\u00f3ria Patri.\nSalus p\u00f3puli ego sum, dicit D\u00f3minus: de quac\u00famque tribulati\u00f3ne clam\u00e1verint ad me, ex\u00e1udiam eos: et ero ill\u00f3rum D\u00f3minus in perp\u00e9tuum", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Omn\u00edpotens et mis\u00e9ricors Deus, univ\u00e9rsa nobis advers\u00e1ntia propiti\u00e1tus excl\u00fade: ut mente et c\u00f3rpore p\u00e1riter exped\u00edti, qu\u00e6 tua sunt, l\u00edberis m\u00e9ntibus exsequ\u00e1mur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 4:23-28*\nFratres: Renov\u00e1mini sp\u00edritu mentis vestr\u00e6, et ind\u00faite novum h\u00f3minem, qui sec\u00fandum Deum cre\u00e1tus est in just\u00edtia et sanctit\u00e1te verit\u00e1tis. Propter quod depon\u00e9ntes mend\u00e1cium, loqu\u00edmini verit\u00e1tem unusqu\u00edsque cum pr\u00f3ximo suo: qu\u00f3niam sumus \u00ednvicem membra. Irasc\u00edmini, et nol\u00edte pecc\u00e1re: sol non occ\u00eddat super irac\u00fandiam vestram. Nol\u00edte locum dare di\u00e1bolo: qui furab\u00e1tur, jam non fur\u00e9tur; magis autem lab\u00f3ret, oper\u00e1ndo m\u00e1nibus suis, quod bonum est, ut h\u00e1beat, unde tr\u00edbuat necessit\u00e1tem pati\u00e9nti.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 140:2*\nDirig\u00e1tur or\u00e1tio mea, sicut inc\u00e9nsum in consp\u00e9ctu tuo, D\u00f3mine.\nV. Elevatio m\u00e1nuum me\u00e1rum sacrif\u00edcium vespert\u00ednum. Allel\u00faja, allel\u00faja\n*Ps 104:1*\nConfit\u00e9mini D\u00f3mino, et invoc\u00e1te nomen ejus: annunti\u00e1te inter gentes \u00f3pera ejus. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 22:1-14*\nIn illo t\u00e9mpore: Loqueb\u00e1tur Jesus princ\u00edpibus sacerd\u00f3tum et pharisaeis in par\u00e1bolis, dicens: S\u00edmile factum est regnum coel\u00f3rum h\u00f3mini regi, qui fecit n\u00faptias f\u00edlio suo. Et misit servos suos voc\u00e1re invit\u00e1tos ad nuptias, et nol\u00e9bant ven\u00edre. Iterum misit \u00e1lios servos, dicens: D\u00edcite invit\u00e1tis: Ecce, pr\u00e1ndium meum par\u00e1vi, tauri mei et alt\u00edlia occ\u00edsa sunt, et \u00f3mnia par\u00e1ta: ven\u00edte ad n\u00faptias. Illi autem neglex\u00e9runt: et abi\u00e9runt, \u00e1lius in villam suam, \u00e1lius vero ad negotiati\u00f3nem suam: r\u00e9liqui vero tenu\u00e9runt servos ejus, et contum\u00e9liis aff\u00e9ctos occid\u00e9runt. Rex autem cum aud\u00edsset, iratus est: et, missis exerc\u00edtibus suis, p\u00e9rdidit homic\u00eddas illos et civit\u00e1tem ill\u00f3rum succ\u00e9ndit. Tunc ait servis suis: N\u00fapti\u00e6 quidem par\u00e1t\u00e6 sunt, sed, qui invit\u00e1ti erant, non fu\u00e9runt digni. Ite ergo ad exitus vi\u00e1rum et, quosc\u00famque inven\u00e9ritis, voc\u00e1te ad n\u00faptias. Et egr\u00e9ssi servi ejus in vias, congregav\u00e9runt omnes, quos inven\u00e9runt, malos et bonos: et impl\u00e9t\u00e6 sunt n\u00fapti\u00e6 discumb\u00e9ntium. Intr\u00e1vit autem rex, ut vid\u00e9ret discumb\u00e9ntes, et vidit ibi h\u00f3minem non vest\u00edtum veste nupti\u00e1li. Et ait illi: Am\u00edce, qu\u00f3modo huc intr\u00e1sti non habens vestem nupti\u00e1lem? At ille obm\u00fatuit. Tunc dixit rex min\u00edstris: Lig\u00e1tis m\u00e1nibus et p\u00e9dibus ejus, m\u00edttite eum in t\u00e9nebras exteri\u00f3res: ibi erit fletus et stridor d\u00e9ntium. Multi enim sunt voc\u00e1ti, pauci vero el\u00e9cti.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 137:7*\nSi ambul\u00e1vero in m\u00e9dio tribulati\u00f3nis, vivific\u00e1bis me, D\u00f3mine: et super iram inimic\u00f3rum me\u00f3rum ext\u00e9ndes manum tuam, et salvum me f\u00e1ciet d\u00e9xtera tua.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00e6c m\u00fanera, qu\u01fdsumus, D\u00f3mine, qu\u00e6 \u00f3culis tu\u00e6 majest\u00e1tis off\u00e9rimus, salut\u00e1ria nobis esse conc\u00e9de.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 118:4-5*\nTu mand\u00e1sti mand\u00e1ta tua custod\u00edri nimis: \u00fatinam dirig\u00e1ntur vi\u00e6 me\u00e6, ad custodi\u00e9ndas justificati\u00f3nes tuas.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Tua nos, D\u00f3mine, medicin\u00e1lis oper\u00e1tio, et a nostris perversit\u00e1tibus clem\u00e9nter exp\u00e9diat, et tuis semper f\u00e1ciat inh\u00e6r\u00e9re mand\u00e1tis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "Ja jestem zbawieniem ludu, m\u00f3wi Pan: w jakimkolwiek ucisku wo\u0142a\u0107 b\u0119d\u0105 do mnie, wys\u0142ucham ich i b\u0119d\u0119 ich Panem na wieki.\n*Ps 77:1*\nS\u0142uchaj m\u00f3j ludu nauki mojej, uszy swoje nak\u0142o\u0144cie.\nChwa\u0142a Ojcu.\nJa jestem zbawieniem ludu, m\u00f3wi Pan: w jakimkolwiek ucisku wo\u0142a\u0107 b\u0119d\u0105 do mnie, wys\u0142ucham ich i b\u0119d\u0119 ich Panem na wieki.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, usu\u0144 \u0142askawie wszystko, co nam si\u0119 sprzeciwia, aby\u015bmy wolni od niebezpiecze\u0144stw duszy i cia\u0142a, mogli swobodnie pe\u0142ni\u0107 Tw\u0105 s\u0142u\u017cb\u0119.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 4:23-28*\n*Szata jest znakiem godno\u015bci. Oblec si\u0119 w nowego cz\u0142owieka znaczy sta\u0107 si\u0119 przez \u0142ask\u0119 cz\u0142owiekiem przeb\u00f3stwionym, podobnym do Wcielonego S\u0142owa. Chrze\u015bcija\u0144ska godno\u015b\u0107 wymaga, aby\u015bmy w \u017cyciu na\u015bladowali Chrystusa.*\nBracia: Odn\u00f3wcie si\u0119 duchem umys\u0142u waszego i obleczcie si\u0119 w nowego cz\u0142owieka, kt\u00f3ry wed\u0142ug Boga stworzony jest w sprawiedliwo\u015bci i w \u015bwi\u0119to\u015bci prawdy. Dlatego odrzuciwszy k\u0142amstwo, m\u00f3wcie ka\u017cdy prawd\u0119 z bli\u017anim swoim, bo jeste\u015bmy jedni drugich cz\u0142onkami. Gniewajcie si\u0119, ale nie grzeszcie: niechaj s\u0142o\u0144ce nie zachodzi nad zagniewaniem waszym. Nie dawajcie przyst\u0119pu szatanowi: kto krad\u0142, niech ju\u017c nie kradnie, lecz raczej niech pracuje, wykonuj\u0105c r\u0119koma swymi to, co dobre jest, aby mia\u0142 sk\u0105d udzieli\u0107 potrzebuj\u0105cemu.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 140:2*\nNiech si\u0119 wzbija ku Tobie modlitwa ma, Panie, niby kadzid\u0142o.\nV. Wznoszenie r\u0105k moich jak ofiara wieczorna. Alleluja, alleluja.\n*Ps 104:1*\nChwalcie Pana i wzywajcie Jego imienia: dzie\u0142a Jego g\u0142o\u015bcie w\u015br\u00f3d narod\u00f3w. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 22:1-14*\nOnego czasu: Jezus m\u00f3wi\u0142 do przedniejszych kap\u0142an\u00f3w i faryzeuszy w przypowie\u015bciach, m\u00f3wi\u0105c: \u00abPodobne sta\u0142o si\u0119 Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kr\u00f3lowi, kt\u00f3ry sprawi\u0142 gody ma\u0142\u017ce\u0144stie synowi swemu. I pos\u0142a\u0142 s\u0142ugi swoje, aby wezwa\u0107 zaproszonych na gody, a nie chcieli przyj\u015b\u0107. Potem pos\u0142a\u0142 inne s\u0142ugi, m\u00f3wi\u0105c: Powiedzcie zaproszonym: Oto uczt\u0119 m\u0105 przygotowa\u0142em, pobite moje wo\u0142y i co by\u0142o karmnego, i wszystko gotowe, przybywajcie na gody. Ale oni, nie dbaj\u0105c o to, odeszli: jeden do posiad\u0142o\u015bci swojej, a drugi do kupiectwa swego, a pozostali pochwycili jego s\u0142ugi i zel\u017cywszy ich zabili. Gdy to pos\u0142ysza\u0142 kr\u00f3l, rozgniewa\u0142 si\u0119 i pos\u0142awszy wojska swoje, wytraci\u0142 onych m\u0119\u017cob\u00f3jc\u00f3w, a miasto ich podpali\u0142. Wtedy rzek\u0142 s\u0142ugom swoim: Gody wprawdzie s\u0105 gotowe, ale zaproszeni nie byli godni. Id\u017acie przeto na rozstaje dr\u00f3g, a kogokolwiek znajdziecie, wzywajcie na gody. I s\u0142udzy jego, wyszed\u0142szy na drogi, zgromadzili wszystkich, kt\u00f3rych napotkali, z\u0142ych i dobrych, i nape\u0142ni\u0142a si\u0119 sala godowa biesiadnikami. A wszed\u0142 kr\u00f3l, aby zobaczy\u0107 biesiadnik\u00f3w, i ujrza\u0142 tam cz\u0142owieka nie przyodzianego w szat\u0119 godow\u0105. I rzek\u0142 mu: Przyjacielu, jak\u017ce tu wszed\u0142e\u015b nie maj\u0105c szaty godowej? A on milcza\u0142. Wtedy rzek\u0142 kr\u00f3l s\u0142ugom: Zwi\u0105zawszy mu r\u0119ce i nogi, wrzu\u0107cie go do ciemno\u015bci zewn\u0119trznych: tam b\u0119dzie p\u0142acz i zgrzytanie z\u0119b\u00f3w. Albowiem wielu jest wezwanych, lecz ma\u0142o wybranych\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 137:7*\nGdy chodz\u0119 w\u015br\u00f3d utrapienia, Ty mnie trzymasz przy \u017cyciu, o Panie; Sw\u0105 r\u0119k\u0119 wyci\u0105gasz na przek\u00f3r gniewowi mych nieprzyjaci\u00f3\u0142, prawica Twoja mi\u0119 zbawia.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, spraw, niech te dary zaniesione przed oblicze Twojego majestatu, wyjednaj\u0105 nam zbawienie.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 118:4-5*\nTy wyda\u0142e\u015b Swoje przykazania, by pilnie ich przestrzegano. Oby me drogi by\u0142y niezawodne ku przestrzeganiu Twych ustaw.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie, niech Twoje uzdrawiaj\u0105ce dzia\u0142anie uwolni nas \u0142askawie od naszych z\u0142ych sk\u0142onno\u015bci i przywi\u0105\u017ce do Twoich przykaza\u0144.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "Ja jestem zbawieniem ludu, m\u00f3wi Pan: w jakimkolwiek ucisku wo\u0142a\u0107 b\u0119d\u0105 do mnie, wys\u0142ucham ich i b\u0119d\u0119 ich Panem na wieki.\n*Ps 77:1*\nS\u0142uchaj m\u00f3j ludu nauki mojej, uszy swoje nak\u0142o\u0144cie.\nChwa\u0142a Ojcu.\nJa jestem zbawieniem ludu, m\u00f3wi Pan: w jakimkolwiek ucisku wo\u0142a\u0107 b\u0119d\u0105 do mnie, wys\u0142ucham ich i b\u0119d\u0119 ich Panem na wieki.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, usu\u0144 \u0142askawie wszystko, co nam si\u0119 sprzeciwia, aby\u015bmy wolni od niebezpiecze\u0144stw duszy i cia\u0142a, mogli swobodnie pe\u0142ni\u0107 Tw\u0105 s\u0142u\u017cb\u0119.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 4:23-28*\n*Szata jest znakiem godno\u015bci. Oblec si\u0119 w nowego cz\u0142owieka znaczy sta\u0107 si\u0119 przez \u0142ask\u0119 cz\u0142owiekiem przeb\u00f3stwionym, podobnym do Wcielonego S\u0142owa. Chrze\u015bcija\u0144ska godno\u015b\u0107 wymaga, aby\u015bmy w \u017cyciu na\u015bladowali Chrystusa.*\nBracia: Odn\u00f3wcie si\u0119 duchem umys\u0142u waszego i obleczcie si\u0119 w nowego cz\u0142owieka, kt\u00f3ry wed\u0142ug Boga stworzony jest w sprawiedliwo\u015bci i w \u015bwi\u0119to\u015bci prawdy. Dlatego odrzuciwszy k\u0142amstwo, m\u00f3wcie ka\u017cdy prawd\u0119 z bli\u017anim swoim, bo jeste\u015bmy jedni drugich cz\u0142onkami. Gniewajcie si\u0119, ale nie grzeszcie: niechaj s\u0142o\u0144ce nie zachodzi nad zagniewaniem waszym. Nie dawajcie przyst\u0119pu szatanowi: kto krad\u0142, niech ju\u017c nie kradnie, lecz raczej niech pracuje, wykonuj\u0105c r\u0119koma swymi to, co dobre jest, aby mia\u0142 sk\u0105d udzieli\u0107 potrzebuj\u0105cemu.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 140:2*\nNiech si\u0119 wzbija ku Tobie modlitwa ma, Panie, niby kadzid\u0142o.\nV. Wznoszenie r\u0105k moich jak ofiara wieczorna. Alleluja, alleluja.\n*Ps 104:1*\nChwalcie Pana i wzywajcie Jego imienia: dzie\u0142a Jego g\u0142o\u015bcie w\u015br\u00f3d narod\u00f3w. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 22:1-14*\nOnego czasu: Jezus m\u00f3wi\u0142 do przedniejszych kap\u0142an\u00f3w i faryzeuszy w przypowie\u015bciach, m\u00f3wi\u0105c: \u00abPodobne sta\u0142o si\u0119 Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kr\u00f3lowi, kt\u00f3ry sprawi\u0142 gody ma\u0142\u017ce\u0144stie synowi swemu. I pos\u0142a\u0142 s\u0142ugi swoje, aby wezwa\u0107 zaproszonych na gody, a nie chcieli przyj\u015b\u0107. Potem pos\u0142a\u0142 inne s\u0142ugi, m\u00f3wi\u0105c: Powiedzcie zaproszonym: Oto uczt\u0119 m\u0105 przygotowa\u0142em, pobite moje wo\u0142y i co by\u0142o karmnego, i wszystko gotowe, przybywajcie na gody. Ale oni, nie dbaj\u0105c o to, odeszli: jeden do posiad\u0142o\u015bci swojej, a drugi do kupiectwa swego, a pozostali pochwycili jego s\u0142ugi i zel\u017cywszy ich zabili. Gdy to pos\u0142ysza\u0142 kr\u00f3l, rozgniewa\u0142 si\u0119 i pos\u0142awszy wojska swoje, wytraci\u0142 onych m\u0119\u017cob\u00f3jc\u00f3w, a miasto ich podpali\u0142. Wtedy rzek\u0142 s\u0142ugom swoim: Gody wprawdzie s\u0105 gotowe, ale zaproszeni nie byli godni. Id\u017acie przeto na rozstaje dr\u00f3g, a kogokolwiek znajdziecie, wzywajcie na gody. I s\u0142udzy jego, wyszed\u0142szy na drogi, zgromadzili wszystkich, kt\u00f3rych napotkali, z\u0142ych i dobrych, i nape\u0142ni\u0142a si\u0119 sala godowa biesiadnikami. A wszed\u0142 kr\u00f3l, aby zobaczy\u0107 biesiadnik\u00f3w, i ujrza\u0142 tam cz\u0142owieka nie przyodzianego w szat\u0119 godow\u0105. I rzek\u0142 mu: Przyjacielu, jak\u017ce tu wszed\u0142e\u015b nie maj\u0105c szaty godowej? A on milcza\u0142. Wtedy rzek\u0142 kr\u00f3l s\u0142ugom: Zwi\u0105zawszy mu r\u0119ce i nogi, wrzu\u0107cie go do ciemno\u015bci zewn\u0119trznych: tam b\u0119dzie p\u0142acz i zgrzytanie z\u0119b\u00f3w. Albowiem wielu jest wezwanych, lecz ma\u0142o wybranych\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 137:7*\nGdy chodz\u0119 w\u015br\u00f3d utrapienia, Ty mnie trzymasz przy \u017cyciu, o Panie; Sw\u0105 r\u0119k\u0119 wyci\u0105gasz na przek\u00f3r gniewowi mych nieprzyjaci\u00f3\u0142, prawica Twoja mi\u0119 zbawia.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, spraw, niech te dary zaniesione przed oblicze Twojego majestatu, wyjednaj\u0105 nam zbawienie.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 118:4-5*\nTy wyda\u0142e\u015b Swoje przykazania, by pilnie ich przestrzegano. Oby me drogi by\u0142y niezawodne ku przestrzeganiu Twych ustaw.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie, niech Twoje uzdrawiaj\u0105ce dzia\u0142anie uwolni nas \u0142askawie od naszych z\u0142ych sk\u0142onno\u015bci i przywi\u0105\u017ce do Twoich przykaza\u0144.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

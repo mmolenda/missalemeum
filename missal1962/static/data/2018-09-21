@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2018-09-21", 
+      "description": "\u015aw. Mateusz mia\u0142 drugie imi\u0119 Lewi. By\u0142 poborc\u0105 ce\u0142. Powo\u0142any przez Pana Jezusa bez wahania poszed\u0142 za Nim i zosta\u0142 zaliczony do grona Aposto\u0142\u00f3w. \u015aw. Mateusz napisa\u0142 po aramejsku Ewangeli\u0119 przeznaczon\u0105 dla \u017byd\u00f3w. Wykazuje w niej, \u017ce Jezus Chrystus jest obiecanym Mesjaszem. Wed\u0142ug Tradycji g\u0142osi\u0142 Ewangeli\u0119 w Etiopii i tam poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105.\n", 
+      "tempora": "Pi\u0105tek Suchych Dni Wrze\u015bniowych", 
+      "title": "\u015aw. Mateusza, Aposto\u0142a i Ewangelisty"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 36:30-31.*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Be\u00e1ti Ap\u00f3stoli et Evangel\u00edst\u00e6 Matthaei, D\u00f3mine, pr\u00e9cibus adjuv\u00e9mur: ut, quod possib\u00edlitas nostra non \u00f3btinet, ejus nobis intercessi\u00f3ne don\u00e9tur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 1:10-14*\nSimilit\u00fado vultus qu\u00e1tuor anim\u00e1lium: f\u00e1cies h\u00f3minis, et f\u00e1cies le\u00f3nis a dextris ips\u00f3rum qu\u00e1tuor: f\u00e1cies autem bovis a sin\u00edstris ips\u00f3rum qu\u00e1tuor, et f\u00e1cies \u00e1quil\u00e6 d\u00e9super ips\u00f3rum qu\u00e1tuor. F\u00e1cies e\u00f3rum et p\u00e9nn\u00e6 e\u00f3rum ext\u00e9nt\u00e6 d\u00e9super: du\u00e6 penn\u00e6 singul\u00f3rum jungeb\u00e1ntur et du\u00e6 teg\u00e9bant c\u00f3rpora e\u00f3rum: et unumqu\u00f3dque e\u00f3rum coram f\u00e1cie sua ambul\u00e1bat: ubi erat \u00edmpetus sp\u00edritus, illuc gradieb\u00e1ntur, nec reverteb\u00e1ntur cum ambul\u00e1rent. Et similit\u00fado anim\u00e1lium, asp\u00e9ctus e\u00f3rum quasi carb\u00f3num ignis ard\u00e9ntium et quasi asp\u00e9ctus lampad\u00e1rum. H\u00e6c erat v\u00edsio disc\u00farrens in m\u00e9dio anim\u00e1lium, splendor ignis, et de igne fulgur egr\u00e9diens. Et anim\u00e1lia ibant et reverteb\u00e1ntur in similit\u00fadinem f\u00falguris corusc\u00e1ntis.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 111:1-2*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur. Allel\u00faja, allel\u00faja.\nV. Te gloriosus Apostol\u00f3rum chorus laudat, D\u00f3mine. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 9:9-13*\nIn illo t\u00e9mpore: Vidit Jesus h\u00f3minem sed\u00e9ntem in tel\u00f3nio, Matthaeum n\u00f3mine. Et ait illi: S\u00e9quere me. Et surgens, sec\u00fatus est eum. Et factum est, discumb\u00e9nte eo in domo, ecce, multi public\u00e1ni et peccat\u00f3res veni\u00e9ntes discumb\u00e9bant cum Jesu et disc\u00edpulis ejus. Et vid\u00e9ntes pharisaei, dic\u00e9bant disc\u00edpulis ejus: Quare cum public\u00e1nis et peccat\u00f3ribus m\u00e1nducat Mag\u00edster vester? At Jesus \u00e1udiens,ait: Non est opus val\u00e9ntibus m\u00e9dicus, sed male hab\u00e9ntibus. E\u00fantes autem d\u00edscite, quid est: Miseric\u00f3rdiam volo, et non sacrif\u00edcium. Non enim veni voc\u00e1re justos, sed peccat\u00f3res.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 20:4-5.*\nPosu\u00edsti, D\u00f3mine, in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so: vitam p\u00e9tiit a te, et tribu\u00edsti ei, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Supplicati\u00f3nibus be\u00e1ti Matthaei Ap\u00f3stoli et Evangel\u00edst\u00e6, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9si\u00e6 tu\u00e6 commend\u00e9tur obl\u00e1tio: cujus magn\u00edficis pr\u00e6dicati\u00f3nibus er\u00faditur.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 20:6*\nMagna est gl\u00f3ria ejus in salut\u00e1ri tuo: gl\u00f3riam et magnum deI c\u00f3rem \u00edmpones super eum, D\u00f3mine.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis, be\u00e1to Matthaeo Ap\u00f3stolo tuo et Evangel\u00edsta interveni\u00e9nte, deprec\u00e1mur: ut, qu\u00e6 pro ejus celebr\u00e1ta sunt gl\u00f3ria, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-09-21", 
-    "description": "\u015aw. Mateusz mia\u0142 drugie imi\u0119 Lewi. By\u0142 poborc\u0105 ce\u0142. Powo\u0142any przez Pana Jezusa bez wahania poszed\u0142 za Nim i zosta\u0142 zaliczony do grona Aposto\u0142\u00f3w. \u015aw. Mateusz napisa\u0142 po aramejsku Ewangeli\u0119 przeznaczon\u0105 dla \u017byd\u00f3w. Wykazuje w niej, \u017ce Jezus Chrystus jest obiecanym Mesjaszem. Wed\u0142ug Tradycji g\u0142osi\u0142 Ewangeli\u0119 w Etiopii i tam poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105.\n", 
-    "tempora": "Pi\u0105tek Suchych Dni Wrze\u015bniowych", 
-    "title": "\u015aw. Mateusza, Aposto\u0142a i Ewangelisty"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 36:30-31.*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Be\u00e1ti Ap\u00f3stoli et Evangel\u00edst\u00e6 Matthaei, D\u00f3mine, pr\u00e9cibus adjuv\u00e9mur: ut, quod possib\u00edlitas nostra non \u00f3btinet, ejus nobis intercessi\u00f3ne don\u00e9tur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 1:10-14*\nSimilit\u00fado vultus qu\u00e1tuor anim\u00e1lium: f\u00e1cies h\u00f3minis, et f\u00e1cies le\u00f3nis a dextris ips\u00f3rum qu\u00e1tuor: f\u00e1cies autem bovis a sin\u00edstris ips\u00f3rum qu\u00e1tuor, et f\u00e1cies \u00e1quil\u00e6 d\u00e9super ips\u00f3rum qu\u00e1tuor. F\u00e1cies e\u00f3rum et p\u00e9nn\u00e6 e\u00f3rum ext\u00e9nt\u00e6 d\u00e9super: du\u00e6 penn\u00e6 singul\u00f3rum jungeb\u00e1ntur et du\u00e6 teg\u00e9bant c\u00f3rpora e\u00f3rum: et unumqu\u00f3dque e\u00f3rum coram f\u00e1cie sua ambul\u00e1bat: ubi erat \u00edmpetus sp\u00edritus, illuc gradieb\u00e1ntur, nec reverteb\u00e1ntur cum ambul\u00e1rent. Et similit\u00fado anim\u00e1lium, asp\u00e9ctus e\u00f3rum quasi carb\u00f3num ignis ard\u00e9ntium et quasi asp\u00e9ctus lampad\u00e1rum. H\u00e6c erat v\u00edsio disc\u00farrens in m\u00e9dio anim\u00e1lium, splendor ignis, et de igne fulgur egr\u00e9diens. Et anim\u00e1lia ibant et reverteb\u00e1ntur in similit\u00fadinem f\u00falguris corusc\u00e1ntis.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 111:1-2*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur. Allel\u00faja, allel\u00faja.\nV. Te gloriosus Apostol\u00f3rum chorus laudat, D\u00f3mine. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 9:9-13*\nIn illo t\u00e9mpore: Vidit Jesus h\u00f3minem sed\u00e9ntem in tel\u00f3nio, Matthaeum n\u00f3mine. Et ait illi: S\u00e9quere me. Et surgens, sec\u00fatus est eum. Et factum est, discumb\u00e9nte eo in domo, ecce, multi public\u00e1ni et peccat\u00f3res veni\u00e9ntes discumb\u00e9bant cum Jesu et disc\u00edpulis ejus. Et vid\u00e9ntes pharisaei, dic\u00e9bant disc\u00edpulis ejus: Quare cum public\u00e1nis et peccat\u00f3ribus m\u00e1nducat Mag\u00edster vester? At Jesus \u00e1udiens,ait: Non est opus val\u00e9ntibus m\u00e9dicus, sed male hab\u00e9ntibus. E\u00fantes autem d\u00edscite, quid est: Miseric\u00f3rdiam volo, et non sacrif\u00edcium. Non enim veni voc\u00e1re justos, sed peccat\u00f3res.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 20:4-5.*\nPosu\u00edsti, D\u00f3mine, in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so: vitam p\u00e9tiit a te, et tribu\u00edsti ei, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Supplicati\u00f3nibus be\u00e1ti Matthaei Ap\u00f3stoli et Evangel\u00edst\u00e6, qu\u01fdsumus, D\u00f3mine, Eccl\u00e9si\u00e6 tu\u00e6 commend\u00e9tur obl\u00e1tio: cujus magn\u00edficis pr\u00e6dicati\u00f3nibus er\u00faditur.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 20:6*\nMagna est gl\u00f3ria ejus in salut\u00e1ri tuo: gl\u00f3riam et magnum deI c\u00f3rem \u00edmpones super eum, D\u00f3mine.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis, be\u00e1to Matthaeo Ap\u00f3stolo tuo et Evangel\u00edsta interveni\u00e9nte, deprec\u00e1mur: ut, qu\u00e6 pro ejus celebr\u00e1ta sunt gl\u00f3ria, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech nas wspomagaj\u0105 zas\u0142ugi \u015bw. Mateusza, Aposto\u0142a i Ewangelisty, aby\u015bmy za jego wstawiennictwem otrzymali to, czego nie mo\u017cemy sami uzyska\u0107.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 1:10-14*\n*Tradycja upatruje w czterech istotach z wizji Ezechiela symbole Ewangelist\u00f3w. Poniewa\u017c \u015bw. Mateusz rozpoczyna sw\u0105 Ewangeli\u0119 rodowodem Chrystusa, symbolem jego jest twarz ludzka.*\nPodobie\u0144stwo wygl\u0105du czterech zwierz\u0105t: po prawej ich stronie cztery ludzkie oblicza i lwie; cztery za\u015b oblicza wo\u0142u po lewej ich stronie, ponad nimi cztery oblicza or\u0142a. Oblicza ich i skrzyd\u0142a ku g\u00f3rze wyci\u0105gni\u0119te: dwa skrzyd\u0142a ka\u017cdego \u0142\u0105czy\u0142y si\u0119 ze sob\u0105, a dwa okrywa\u0142y ich cia\u0142a. A ka\u017cde z nich porusza\u0142o si\u0119 na wprost swego oblicza; gdzie by\u0142 gwa\u0142towny poryw wichru, tamt\u0119dy kroczy\u0142y, a id\u0105c nie obraca\u0142y si\u0119.\nA podobie\u0144stwo zwierz\u0105t: wygl\u0105d ich niby w\u0119gli ogniem roz\u017carzonych i jakby wygl\u0105d pochodni. To by\u0142o widzenie przebiegaj\u0105ce w\u015br\u00f3d zwierz\u0105t: blask ognia, a z ognia wychodz\u0105ca b\u0142yskawica. A zwierz\u0119ta sz\u0142y i wraca\u0142y na podobie\u0144stwo po\u0142yskuj\u0105cego ognia.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych. Alleluja, alleluja.\nV. Ciebie, Panie, wychwala przes\u0142awny ch\u00f3r Aposto\u0142\u00f3w. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 9:9-13*\nOnego czasu: Ujrza\u0142 Jezus cz\u0142owieka, imieniem Mateusz, siedz\u0105cego przy cle. I rzek\u0142 mu: \u00abP\u00f3jd\u017a za mn\u0105\u00bb. I powstawszy, poszed\u0142 za Nim. I sta\u0142o si\u0119, gdy siedzia\u0142 w domu u sto\u0142u, oto wielu celnik\u00f3w i grzesznik\u00f3w przyszed\u0142szy siedzia\u0142o u sto\u0142u z Jezusem i uczniami Jego. Co widz\u0105c faryzeusze m\u00f3wili do uczni\u00f3w Jego: \u00abCzemu to z celnikami i grzesznikami je nauczyciel wasz?\u00bb A Jezus, us\u0142yszawszy to, rzek\u0142: \u00abNie trzeba lekarza zdrowym, ale tym, kt\u00f3rzy si\u0119 \u017ale maj\u0105.Id\u017acie tedy i nauczcie si\u0119, co znaczy: Mi\u0142osierdzia chc\u0119, a nie ofiary. Bom nie przyszed\u0142 wzywa\u0107 sprawiedliwych, ale grzesznik\u00f3w\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 20:4-5*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni, b\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech modlitwy \u015bw. Mateusza, Aposto\u0142a i Ewangelisty, polec\u0105 ofiar\u0119 Twojego Ko\u015bcio\u0142a, kt\u00f3ry czerpie nauk\u0119 z jego wznios\u0142ej Ewangelii.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 20:6*\nChwa\u0142a jego jest wielka dzi\u0119ki Twej pomocy: blask i dostoje\u0144stwo na niego w\u0142o\u017cy\u0142e\u015b, o Panie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Po przyj\u0119ciu Sakramentu, b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bw. Mateusza, Twego Aposto\u0142a i Ewangelisty, aby ofiara, z\u0142o\u017cona ku jego chwale, przynios\u0142a nam uzdrowienie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech nas wspomagaj\u0105 zas\u0142ugi \u015bw. Mateusza, Aposto\u0142a i Ewangelisty, aby\u015bmy za jego wstawiennictwem otrzymali to, czego nie mo\u017cemy sami uzyska\u0107.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 1:10-14*\n*Tradycja upatruje w czterech istotach z wizji Ezechiela symbole Ewangelist\u00f3w. Poniewa\u017c \u015bw. Mateusz rozpoczyna sw\u0105 Ewangeli\u0119 rodowodem Chrystusa, symbolem jego jest twarz ludzka.*\nPodobie\u0144stwo wygl\u0105du czterech zwierz\u0105t: po prawej ich stronie cztery ludzkie oblicza i lwie; cztery za\u015b oblicza wo\u0142u po lewej ich stronie, ponad nimi cztery oblicza or\u0142a. Oblicza ich i skrzyd\u0142a ku g\u00f3rze wyci\u0105gni\u0119te: dwa skrzyd\u0142a ka\u017cdego \u0142\u0105czy\u0142y si\u0119 ze sob\u0105, a dwa okrywa\u0142y ich cia\u0142a. A ka\u017cde z nich porusza\u0142o si\u0119 na wprost swego oblicza; gdzie by\u0142 gwa\u0142towny poryw wichru, tamt\u0119dy kroczy\u0142y, a id\u0105c nie obraca\u0142y si\u0119.\nA podobie\u0144stwo zwierz\u0105t: wygl\u0105d ich niby w\u0119gli ogniem roz\u017carzonych i jakby wygl\u0105d pochodni. To by\u0142o widzenie przebiegaj\u0105ce w\u015br\u00f3d zwierz\u0105t: blask ognia, a z ognia wychodz\u0105ca b\u0142yskawica. A zwierz\u0119ta sz\u0142y i wraca\u0142y na podobie\u0144stwo po\u0142yskuj\u0105cego ognia.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych. Alleluja, alleluja.\nV. Ciebie, Panie, wychwala przes\u0142awny ch\u00f3r Aposto\u0142\u00f3w. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 9:9-13*\nOnego czasu: Ujrza\u0142 Jezus cz\u0142owieka, imieniem Mateusz, siedz\u0105cego przy cle. I rzek\u0142 mu: \u00abP\u00f3jd\u017a za mn\u0105\u00bb. I powstawszy, poszed\u0142 za Nim. I sta\u0142o si\u0119, gdy siedzia\u0142 w domu u sto\u0142u, oto wielu celnik\u00f3w i grzesznik\u00f3w przyszed\u0142szy siedzia\u0142o u sto\u0142u z Jezusem i uczniami Jego. Co widz\u0105c faryzeusze m\u00f3wili do uczni\u00f3w Jego: \u00abCzemu to z celnikami i grzesznikami je nauczyciel wasz?\u00bb A Jezus, us\u0142yszawszy to, rzek\u0142: \u00abNie trzeba lekarza zdrowym, ale tym, kt\u00f3rzy si\u0119 \u017ale maj\u0105.Id\u017acie tedy i nauczcie si\u0119, co znaczy: Mi\u0142osierdzia chc\u0119, a nie ofiary. Bom nie przyszed\u0142 wzywa\u0107 sprawiedliwych, ale grzesznik\u00f3w\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 20:4-5*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni, b\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech modlitwy \u015bw. Mateusza, Aposto\u0142a i Ewangelisty, polec\u0105 ofiar\u0119 Twojego Ko\u015bcio\u0142a, kt\u00f3ry czerpie nauk\u0119 z jego wznios\u0142ej Ewangelii.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 20:6*\nChwa\u0142a jego jest wielka dzi\u0119ki Twej pomocy: blask i dostoje\u0144stwo na niego w\u0142o\u017cy\u0142e\u015b, o Panie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Po przyj\u0119ciu Sakramentu, b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bw. Mateusza, Twego Aposto\u0142a i Ewangelisty, aby ofiara, z\u0142o\u017cona ku jego chwale, przynios\u0142a nam uzdrowienie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

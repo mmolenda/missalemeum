@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty czerwone", 
-      "W Polsce"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty czerwone", 
+        "W Polsce"
+      ], 
+      "date": "2018-09-07", 
+      "description": "B\u0142. Melchior urodzi\u0142 si\u0119 w Cieszynie w roku 1588. Wst\u0105pi\u0142 do Towarzystwa Jezusowego i jako kap\u0142an tego zakonu pracowa\u0142 w Pradze i Koszycach. W Koszycach dzia\u0142ali razem z nim Stefan Pongracz, jezuita z W\u0119gier, oraz Marek Kri\u017c, kanonik ze Strzygonia. Jerzy Rakoczy, zdobywszy Koszyce uwi\u0119zi\u0142 tych kap\u0142an\u00f3w i po torturach kaza\u0142 zamordowa\u0107 7 wrze\u015bnia 1619 roku.\n\nMsza wsp\u00f3lna nr 12 Laetabitur, z wyj\u0105tkiem Kolekty.\n", 
+      "tempora": "Pi\u0105tek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "B\u0142. Melchiora Grodzieckiego, M\u0119czennika"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 63:11.*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde.\n*Ps 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a tim\u00f3re inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Beati Martyris tui Melchioris, quaesumus, Domine, precibus adiuvemur; ut, cuius gloriamur triumpho, fidei constantiam imitemur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*2 Tim 2:8-10; 3:10-12.*\nCar\u00edssime: Memor esto, D\u00f3minum Jesum Christum resurrex\u00edsse a m\u00f3rtuis ex s\u00e9mine David, sec\u00fandum Evang\u00e9lium meum, in quo lab\u00f3ro usque ad v\u00edncula, quasi male \u00f3perans: sed verbum Dei non est allig\u00e1tum. Ideo \u00f3mnia sust\u00edneo propter el\u00e9ctos, ut et ipsi sal\u00fatem consequ\u00e1ntur, qu\u00e6 est in Christo Jesu, cum gl\u00f3ria coel\u00e9sti. Tu autem assec\u00fatus es meam doctr\u00ednam, instituti\u00f3nem, prop\u00f3situm, fidem, longanimit\u00e1tem, dilecti\u00f3nem, pati\u00e9ntiam, persecuti\u00f3nes, passi\u00f3nes: qu\u00e1lia mihi facta sunt Antioch\u00ed\u00e6, Ic\u00f3nii et Lystris: quales persecuti\u00f3nes sust\u00ednui, et ex \u00f3mnibus er\u00edpuit me D\u00f3minus. Et omnes, qui pie volunt v\u00edvere in Christo Jesu, persecuti\u00f3nem pati\u00e9ntur.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 36:24*\nJustus cum cec\u00edderit, non collid\u00e9tur: quia D\u00f3minus supp\u00f3nit manum suam.\n*Ps 36:26*\nTota die miser\u00e9tur, et c\u00f3mmodat: et semen ejus in benedicti\u00f3ne erit. Allel\u00faja, allel\u00faja\n*Joann 8:12*\nQui s\u00e9quitur me, non \u00e1mbulat in t\u00e9nebris: sed hab\u00e9bit lumen vit\u00e6 \u00e6t\u00e9rn\u00e6. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:26-32*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Nihil est op\u00e9rtum, quod non revel\u00e1bitur; et occ\u00faltum, quod non sci\u00e9tur. Quod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine: et quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta. Et nol\u00edte tim\u00e9re eos, qui occ\u00eddunt corpus, \u00e1nimam autem non possunt occ\u00eddere; sed p\u00f3tius tim\u00e9te eum, qui potest et \u00e1nimam et corpus p\u00e9rdere in geh\u00e9nnam. Nonne duo p\u00e1sseres asse v\u00e9neunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem cap\u00edlli c\u00e1pitis omnes numer\u00e1ri sunt. Nol\u00edte ergo tim\u00e9re: multis pass\u00e9ribus meli\u00f3res estis vos. Omnis ergo, qui confit\u00e9bitur me coram hom\u00ednibus, confit\u00e9bor et ego eum coram Patre meo, qui in coelis est.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 20:4-5*\nPosu\u00edsti, D\u00f3mine, in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so: vitam p\u00e9tiit a te, et tribu\u00edsti ei, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Acc\u00e9pta sit in consp\u00e9ctu tuo, D\u00f3mine, nostra dev\u00f3tio: et ejus nobis fiat supplicati\u00f3ne salut\u00e1ris, pro cujus sollemnit\u00e1te def\u00e9rtur.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joann 12:26*\nQui mihi m\u00ednistrat, me sequ\u00e1tur: et ubi sum ego, illic et min\u00edster meus erit.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ref\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo, senti\u00e1mus eff\u00e9ctum.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-09-07", 
-    "description": "B\u0142. Melchior urodzi\u0142 si\u0119 w Cieszynie w roku 1588. Wst\u0105pi\u0142 do Towarzystwa Jezusowego i jako kap\u0142an tego zakonu pracowa\u0142 w Pradze i Koszycach. W Koszycach dzia\u0142ali razem z nim Stefan Pongracz, jezuita z W\u0119gier, oraz Marek Kri\u017c, kanonik ze Strzygonia. Jerzy Rakoczy, zdobywszy Koszyce uwi\u0119zi\u0142 tych kap\u0142an\u00f3w i po torturach kaza\u0142 zamordowa\u0107 7 wrze\u015bnia 1619 roku.\n\nMsza wsp\u00f3lna nr 12 Laetabitur, z wyj\u0105tkiem Kolekty.\n", 
-    "tempora": "Pi\u0105tek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "B\u0142. Melchiora Grodzieckiego, M\u0119czennika"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 63:11.*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde.\n*Ps 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a tim\u00f3re inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Beati Martyris tui Melchioris, quaesumus, Domine, precibus adiuvemur; ut, cuius gloriamur triumpho, fidei constantiam imitemur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*2 Tim 2:8-10; 3:10-12.*\nCar\u00edssime: Memor esto, D\u00f3minum Jesum Christum resurrex\u00edsse a m\u00f3rtuis ex s\u00e9mine David, sec\u00fandum Evang\u00e9lium meum, in quo lab\u00f3ro usque ad v\u00edncula, quasi male \u00f3perans: sed verbum Dei non est allig\u00e1tum. Ideo \u00f3mnia sust\u00edneo propter el\u00e9ctos, ut et ipsi sal\u00fatem consequ\u00e1ntur, qu\u00e6 est in Christo Jesu, cum gl\u00f3ria coel\u00e9sti. Tu autem assec\u00fatus es meam doctr\u00ednam, instituti\u00f3nem, prop\u00f3situm, fidem, longanimit\u00e1tem, dilecti\u00f3nem, pati\u00e9ntiam, persecuti\u00f3nes, passi\u00f3nes: qu\u00e1lia mihi facta sunt Antioch\u00ed\u00e6, Ic\u00f3nii et Lystris: quales persecuti\u00f3nes sust\u00ednui, et ex \u00f3mnibus er\u00edpuit me D\u00f3minus. Et omnes, qui pie volunt v\u00edvere in Christo Jesu, persecuti\u00f3nem pati\u00e9ntur.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 36:24*\nJustus cum cec\u00edderit, non collid\u00e9tur: quia D\u00f3minus supp\u00f3nit manum suam.\n*Ps 36:26*\nTota die miser\u00e9tur, et c\u00f3mmodat: et semen ejus in benedicti\u00f3ne erit. Allel\u00faja, allel\u00faja\n*Joann 8:12*\nQui s\u00e9quitur me, non \u00e1mbulat in t\u00e9nebris: sed hab\u00e9bit lumen vit\u00e6 \u00e6t\u00e9rn\u00e6. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:26-32*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Nihil est op\u00e9rtum, quod non revel\u00e1bitur; et occ\u00faltum, quod non sci\u00e9tur. Quod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine: et quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta. Et nol\u00edte tim\u00e9re eos, qui occ\u00eddunt corpus, \u00e1nimam autem non possunt occ\u00eddere; sed p\u00f3tius tim\u00e9te eum, qui potest et \u00e1nimam et corpus p\u00e9rdere in geh\u00e9nnam. Nonne duo p\u00e1sseres asse v\u00e9neunt: et unus ex illis non cadet super terram sine Patre vestro? Vestri autem cap\u00edlli c\u00e1pitis omnes numer\u00e1ri sunt. Nol\u00edte ergo tim\u00e9re: multis pass\u00e9ribus meli\u00f3res estis vos. Omnis ergo, qui confit\u00e9bitur me coram hom\u00ednibus, confit\u00e9bor et ego eum coram Patre meo, qui in coelis est.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 20:4-5*\nPosu\u00edsti, D\u00f3mine, in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so: vitam p\u00e9tiit a te, et tribu\u00edsti ei, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Acc\u00e9pta sit in consp\u00e9ctu tuo, D\u00f3mine, nostra dev\u00f3tio: et ejus nobis fiat supplicati\u00f3ne salut\u00e1ris, pro cujus sollemnit\u00e1te def\u00e9rtur.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joann 12:26*\nQui mihi m\u00ednistrat, me sequ\u00e1tur: et ubi sum ego, illic et min\u00edster meus erit.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ref\u00e9cti participati\u00f3ne m\u00faneris sacri, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, cujus exs\u00e9quimur cultum, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo, senti\u00e1mus eff\u00e9ctum.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech nas wspieraj\u0105 modlitwy b\u0142ogos\u0142awionego M\u0119czennika Twego Melchiora, aby\u015bmy ciesz\u0105c si\u0119 jego triumfem, na\u015bladowali sta\u0142o\u015b\u0107 w wierze.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pami\u0119taj, \u017ce Pan Jezus Chrystus z rodu Dawida powsta\u0142 z martwych wed\u0142ug Ewangelii mojej, dla kt\u00f3rej pracuj\u0119 a\u017c do wi\u0119z\u00f3w, niby z\u0142oczy\u0144ca. Ale s\u0142owo Bo\u017ce nie jest zwi\u0105zane. Przeto wszystko znosz\u0119 ze wzgl\u0119du na wybranych, aby i oni dost\u0105pili zbawienia, kt\u00f3re jest w Chrystusie Jezusie z chwa\u0142\u0105 niebiesk\u0105.\nLecz ty pozna\u0142e\u015b z bliska moj\u0105 nauk\u0119, post\u0119powanie, zamiary, wiar\u0119, wytrwa\u0142o\u015b\u0107, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107, prze\u015bladowania, uciski, jakie mi\u0119 spotka\u0142y w Antiochii, w Ikonium i w Lystrze. Jakie prze\u015bladowania znios\u0142em i jak ze wszystkich wybawi\u0142 mi\u0119 Pan. I wszyscy, kt\u00f3rzy chc\u0105 \u017cy\u0107 pobo\u017cnie w Chrystusie Jezusie, prze\u015bladowanie cierpie\u0107 b\u0119d\u0105.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 36:24*\nSprawiedliwy chocia\u017cby upad\u0142, nie pozostanie na ziemi, bo r\u0119k\u0119\u00a0jego Pan podtrzymuje.\n*Ps 36:26*\nLituje si\u0119 o ka\u017cdym czasie i u\u017cycza: potomstwu jego b\u0119d\u0105\u00a0b\u0142ogos\u0142awi\u0107. Alleluja, alleluja.\n*J 8:12*\nKto idzie za mn\u0105, nie chodzi w ciemno\u015bci, lecz b\u0119dzie mia\u0142\u00a0\u015bwiat\u0142o\u015b\u0107\u00a0\u017cycia wiecznego. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:26-32*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abNic nie ma zakrytego, co by wyjawione by\u0107 nie mia\u0142o, ani te\u017c tajemnego, czego by wiedzie\u0107 nie miano. Co wam m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, a co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach. A nie b\u00f3jcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, duszy za\u015b zabi\u0107 nie mog\u0105. Raczej b\u00f3jcie si\u0119 tego, kt\u00f3ry mo\u017ce i dusz\u0119, i cia\u0142o zatraci\u0107 w piekle. Czy\u017c za drobny pieni\u0105dz nie sprzedaj\u0105 dw\u00f3ch wr\u00f3bli? A \u017caden z nich nie upadnie na ziemi\u0119 bez Ojca waszego. A nawet w\u0142osy wasze na g\u0142owie s\u0105 wszystkie policzone. Nie l\u0119kajcie si\u0119 tedy, lepsi jeste\u015bcie wy ni\u017c wiele wr\u00f3bli.\nKa\u017cdego tedy, kt\u00f3ry mnie wyzna przed lud\u017ami, wyznam i ja przed Ojcem moim, kt\u00f3ry jest w niebiesiech\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 20:4-5*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni; b\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, niech nasza ofiara znajdzie przyj\u0119cie u Ciebie i niech pos\u0142u\u017cy nam ku zbawieniu przez mod\u0142y tego, w kt\u00f3rego uroczysto\u015b\u0107 j\u0105 sk\u0142adamy.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 12:26*\nKto by chcia\u0142 mi s\u0142u\u017cy\u0107, niech mnie na\u015bladuje, a gdzie ja jestem, tam b\u0119dzie i s\u0142uga m\u00f3j.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Pokrzepieni uczestnictwem w \u015bwi\u0119tej uczcie, prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby\u015bmy za przyczyn\u0105 \u015bwi\u0119tego N., M\u0119czennika Twego, doznali skutk\u00f3w tajemnicy, kt\u00f3r\u0105 ze czci\u0105 sprawujemy.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech nas wspieraj\u0105 modlitwy b\u0142ogos\u0142awionego M\u0119czennika Twego Melchiora, aby\u015bmy ciesz\u0105c si\u0119 jego triumfem, na\u015bladowali sta\u0142o\u015b\u0107 w wierze.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pami\u0119taj, \u017ce Pan Jezus Chrystus z rodu Dawida powsta\u0142 z martwych wed\u0142ug Ewangelii mojej, dla kt\u00f3rej pracuj\u0119 a\u017c do wi\u0119z\u00f3w, niby z\u0142oczy\u0144ca. Ale s\u0142owo Bo\u017ce nie jest zwi\u0105zane. Przeto wszystko znosz\u0119 ze wzgl\u0119du na wybranych, aby i oni dost\u0105pili zbawienia, kt\u00f3re jest w Chrystusie Jezusie z chwa\u0142\u0105 niebiesk\u0105.\nLecz ty pozna\u0142e\u015b z bliska moj\u0105 nauk\u0119, post\u0119powanie, zamiary, wiar\u0119, wytrwa\u0142o\u015b\u0107, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107, prze\u015bladowania, uciski, jakie mi\u0119 spotka\u0142y w Antiochii, w Ikonium i w Lystrze. Jakie prze\u015bladowania znios\u0142em i jak ze wszystkich wybawi\u0142 mi\u0119 Pan. I wszyscy, kt\u00f3rzy chc\u0105 \u017cy\u0107 pobo\u017cnie w Chrystusie Jezusie, prze\u015bladowanie cierpie\u0107 b\u0119d\u0105.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 36:24*\nSprawiedliwy chocia\u017cby upad\u0142, nie pozostanie na ziemi, bo r\u0119k\u0119\u00a0jego Pan podtrzymuje.\n*Ps 36:26*\nLituje si\u0119 o ka\u017cdym czasie i u\u017cycza: potomstwu jego b\u0119d\u0105\u00a0b\u0142ogos\u0142awi\u0107. Alleluja, alleluja.\n*J 8:12*\nKto idzie za mn\u0105, nie chodzi w ciemno\u015bci, lecz b\u0119dzie mia\u0142\u00a0\u015bwiat\u0142o\u015b\u0107\u00a0\u017cycia wiecznego. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:26-32*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abNic nie ma zakrytego, co by wyjawione by\u0107 nie mia\u0142o, ani te\u017c tajemnego, czego by wiedzie\u0107 nie miano. Co wam m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, a co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach. A nie b\u00f3jcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, duszy za\u015b zabi\u0107 nie mog\u0105. Raczej b\u00f3jcie si\u0119 tego, kt\u00f3ry mo\u017ce i dusz\u0119, i cia\u0142o zatraci\u0107 w piekle. Czy\u017c za drobny pieni\u0105dz nie sprzedaj\u0105 dw\u00f3ch wr\u00f3bli? A \u017caden z nich nie upadnie na ziemi\u0119 bez Ojca waszego. A nawet w\u0142osy wasze na g\u0142owie s\u0105 wszystkie policzone. Nie l\u0119kajcie si\u0119 tedy, lepsi jeste\u015bcie wy ni\u017c wiele wr\u00f3bli.\nKa\u017cdego tedy, kt\u00f3ry mnie wyzna przed lud\u017ami, wyznam i ja przed Ojcem moim, kt\u00f3ry jest w niebiesiech\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 20:4-5*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni; b\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, niech nasza ofiara znajdzie przyj\u0119cie u Ciebie i niech pos\u0142u\u017cy nam ku zbawieniu przez mod\u0142y tego, w kt\u00f3rego uroczysto\u015b\u0107 j\u0105 sk\u0142adamy.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 12:26*\nKto by chcia\u0142 mi s\u0142u\u017cy\u0107, niech mnie na\u015bladuje, a gdzie ja jestem, tam b\u0119dzie i s\u0142uga m\u00f3j.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Pokrzepieni uczestnictwem w \u015bwi\u0119tej uczcie, prosimy Ci\u0119, Panie, Bo\u017ce nasz, aby\u015bmy za przyczyn\u0105 \u015bwi\u0119tego N., M\u0119czennika Twego, doznali skutk\u00f3w tajemnicy, kt\u00f3r\u0105 ze czci\u0105 sprawujemy.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

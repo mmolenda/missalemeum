@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "3 kalsy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 kalsy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-06-06", 
+      "description": "\u015aw. Norbert urodzi\u0142 si\u0119 oko\u0142o roku 1085 niedaleko Kolonii. Po przyj\u0119ciu \u015bwi\u0119ce\u0144 kap\u0142a\u0144skich po\u015bwi\u0119ci\u0142 si\u0119 dzia\u0142alno\u015bci kaznodziejskiej. Potem, zamieszkawszy na pustkowiu zwanym Pr\u00e9montr\u00e9, za\u0142o\u017cy\u0142 zakon, kt\u00f3ry mia\u0142 liturgiczn\u0105 s\u0142u\u017cb\u0119 Bo\u017c\u0105 \u0142\u0105czy\u0107 z apostolstwem. W roku 1126 zakon zosta\u0142 zatwierdzony, a \u015bw. Norbert mianowany arcybiskupem Magdeburga. Na tym stanowisku zmar\u0142 6 czerwca 1134 r.\n\nMsza wsp\u00f3lna nr 18 Statuit, z wyj\u0105tkiem kolekty.\n", 
+      "tempora": "Czwartek po Niedzieli po Wniebowst\u0105pieniu", 
+      "title": "\u015aw. Norberta, Biskupa i Wyznawcy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Joannes 21:15-17*\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me, nec delect\u00e1sti inim\u00edcos meos super me.\nGl\u00f3ria Patri.\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Norb\u00e9rtum Confess\u00f3rem tuum atque Pont\u00edficem verbi tui pr\u00e6c\u00f3nem ex\u00edmium effec\u00edsti, et per eum Eccl\u00e9siam tuam nova prole foecund\u00e1sti: pr\u00e6sta, qu\u01fdsumus; ut, ej\u00fasdem suffrag\u00e1ntibus m\u00e9ritis, quod ore simul et \u00f3pere d\u00f3cuit, te adjuv\u00e1nte, exerc\u00e9re vale\u00e1mus.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:1-4; 5:10-11.*\nCar\u00edssimi: Seni\u00f3res, qui in vobis sunt, obs\u00e9cro cons\u00e9nior et testis Christi passi\u00f3num, qui et ejus, qu\u00e6 in fut\u00faro revel\u00e1nda est, gl\u00f3ri\u00e6 communic\u00e1tor: p\u00e1scite qui in vobis est gregem Dei, provid\u00e9ntes non co\u00e1cte, sed spont\u00e1nee sec\u00fandum Deum, neque turpis lucri gr\u00e1tia, sed volunt\u00e1rie; neque ut domin\u00e1ntes in cleris, sed forma facti gregis ex \u00e1nimo. Et, cum app\u00e1ruerit princeps past\u00f3rum, percipi\u00e9tis immarcesc\u00edbilem gl\u00f3ri\u00e6 cor\u00f3nam. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum. Amen.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum. Allel\u00faja, allel\u00faja\n*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum\n*Ps 39:10-11*\nAnnunti\u00e1vi just\u00edtiam tuam in eccl\u00e9sia magna, ecce, l\u00e1bia mea non prohib\u00e9bo: D\u00f3mine, tu scisti.\nV. Just\u00edtiam tuam non absc\u00f3ndi in corde meo: verit\u00e1tem tuam et salut\u00e1re tuum dixi.\nV. Non absc\u00f3ndi miseric\u00f3rdiam tuam, et verit\u00e1tem tuam a conc\u00edlio multo.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 16:13-19*\nIn illo t\u00e9mpore: Venit Jesus in partes C\u00e6sar\u00e9\u00e6 Phil\u00edppi, et interrog\u00e1bat disc\u00edpulos suos, dicens: Quem dicunt h\u00f3mines esse F\u00edlium h\u00f3minis? At illi dix\u00e9runt: Alii Jo\u00e1nnem Bapt\u00edstam, alii autem El\u00edam, alii vero Jerem\u00edam aut unum ex proph\u00e9tis. Dicit illis Jesus: Vos autem quem me esse d\u00edcitis? Resp\u00f3ndens Simon Petrus, dixit: Tu es Christus, F\u00edlius Dei vivi. Resp\u00f3ndens autem Jesus, dixit ei: Be\u00e1tus es, Simon Bar Jona: quia caro et sanguis non revel\u00e1vit tibi, sed Pater meus, qui in c\u0153lis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam, et port\u00e6 \u00ednferi non pr\u00e6val\u00e9bunt adv\u00e9rsus eam. Et tibi dabo claves regni c\u0153l\u00f3rum. Et quodc\u00famque lig\u00e1veris super terram, erit lig\u00e1tum et in c\u0153lis: et quodc\u00famque s\u00f3lveris super terram, erit sol\u00fatum et in c\u0153lis.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, const\u00edtui te super gentes et super regna, ut ev\u00e9llas et destruas, et \u00e6d\u00edfices et plantes.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos \u00fabique l\u00e6t\u00edficant: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Norb\u00e9rto Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-06-06", 
-    "description": "\u015aw. Norbert urodzi\u0142 si\u0119 oko\u0142o roku 1085 niedaleko Kolonii. Po przyj\u0119ciu \u015bwi\u0119ce\u0144 kap\u0142a\u0144skich po\u015bwi\u0119ci\u0142 si\u0119 dzia\u0142alno\u015bci kaznodziejskiej. Potem, zamieszkawszy na pustkowiu zwanym Pr\u00e9montr\u00e9, za\u0142o\u017cy\u0142 zakon, kt\u00f3ry mia\u0142 liturgiczn\u0105 s\u0142u\u017cb\u0119 Bo\u017c\u0105 \u0142\u0105czy\u0107 z apostolstwem. W roku 1126 zakon zosta\u0142 zatwierdzony, a \u015bw. Norbert mianowany arcybiskupem Magdeburga. Na tym stanowisku zmar\u0142 6 czerwca 1134 r.\n\nMsza wsp\u00f3lna nr 18 Statuit, z wyj\u0105tkiem kolekty.\n", 
-    "tempora": "Czwartek po Niedzieli po Wniebowst\u0105pieniu", 
-    "title": "\u015aw. Norberta, Biskupa i Wyznawcy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Joannes 21:15-17*\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExalt\u00e1bo te, D\u00f3mine, qu\u00f3niam suscep\u00edsti me, nec delect\u00e1sti inim\u00edcos meos super me.\nGl\u00f3ria Patri.\nSi d\u00edligis me, Simon Petre, pasce agnos meos, pasce oves meas.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Norb\u00e9rtum Confess\u00f3rem tuum atque Pont\u00edficem verbi tui pr\u00e6c\u00f3nem ex\u00edmium effec\u00edsti, et per eum Eccl\u00e9siam tuam nova prole foecund\u00e1sti: pr\u00e6sta, qu\u01fdsumus; ut, ej\u00fasdem suffrag\u00e1ntibus m\u00e9ritis, quod ore simul et \u00f3pere d\u00f3cuit, te adjuv\u00e1nte, exerc\u00e9re vale\u00e1mus.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:1-4; 5:10-11.*\nCar\u00edssimi: Seni\u00f3res, qui in vobis sunt, obs\u00e9cro cons\u00e9nior et testis Christi passi\u00f3num, qui et ejus, qu\u00e6 in fut\u00faro revel\u00e1nda est, gl\u00f3ri\u00e6 communic\u00e1tor: p\u00e1scite qui in vobis est gregem Dei, provid\u00e9ntes non co\u00e1cte, sed spont\u00e1nee sec\u00fandum Deum, neque turpis lucri gr\u00e1tia, sed volunt\u00e1rie; neque ut domin\u00e1ntes in cleris, sed forma facti gregis ex \u00e1nimo. Et, cum app\u00e1ruerit princeps past\u00f3rum, percipi\u00e9tis immarcesc\u00edbilem gl\u00f3ri\u00e6 cor\u00f3nam. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in s\u01fdcula s\u00e6cul\u00f3rum. Amen.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum. Allel\u00faja, allel\u00faja\n*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 106:32; 106:31*\nEx\u00e1ltent eum in Eccl\u00e9sia plebis: et in c\u00e1thedra seni\u00f3rum laudent eum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus; et mirab\u00edlia ejus f\u00edliis h\u00f3minum\n*Ps 39:10-11*\nAnnunti\u00e1vi just\u00edtiam tuam in eccl\u00e9sia magna, ecce, l\u00e1bia mea non prohib\u00e9bo: D\u00f3mine, tu scisti.\nV. Just\u00edtiam tuam non absc\u00f3ndi in corde meo: verit\u00e1tem tuam et salut\u00e1re tuum dixi.\nV. Non absc\u00f3ndi miseric\u00f3rdiam tuam, et verit\u00e1tem tuam a conc\u00edlio multo.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 16:13-19*\nIn illo t\u00e9mpore: Venit Jesus in partes C\u00e6sar\u00e9\u00e6 Phil\u00edppi, et interrog\u00e1bat disc\u00edpulos suos, dicens: Quem dicunt h\u00f3mines esse F\u00edlium h\u00f3minis? At illi dix\u00e9runt: Alii Jo\u00e1nnem Bapt\u00edstam, alii autem El\u00edam, alii vero Jerem\u00edam aut unum ex proph\u00e9tis. Dicit illis Jesus: Vos autem quem me esse d\u00edcitis? Resp\u00f3ndens Simon Petrus, dixit: Tu es Christus, F\u00edlius Dei vivi. Resp\u00f3ndens autem Jesus, dixit ei: Be\u00e1tus es, Simon Bar Jona: quia caro et sanguis non revel\u00e1vit tibi, sed Pater meus, qui in c\u0153lis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam, et port\u00e6 \u00ednferi non pr\u00e6val\u00e9bunt adv\u00e9rsus eam. Et tibi dabo claves regni c\u0153l\u00f3rum. Et quodc\u00famque lig\u00e1veris super terram, erit lig\u00e1tum et in c\u0153lis: et quodc\u00famque s\u00f3lveris super terram, erit sol\u00fatum et in c\u0153lis.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, const\u00edtui te super gentes et super regna, ut ev\u00e9llas et destruas, et \u00e6d\u00edfices et plantes.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos \u00fabique l\u00e6t\u00edficant: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram \u00e6dific\u00e1bo Eccl\u00e9siam meam.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Norb\u00e9rto Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 45:30*\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry uczyni\u0142e\u015b \u015bwi\u0119tego Norberta, Twego Wyznawc\u0119 i Biskupa, znakomitym g\u0142osicielem Twojego s\u0142owa i przez niego wzbogaci\u0142e\u015b sw\u00f3j Ko\u015bci\u00f3\u0142 nowym zakonem, spraw prosimy, aby\u015bmy dzi\u0119ki jego zas\u0142ugom mogli przy Twojej pomocy pe\u0142ni\u0107 to, czego naucza\u0142 mow\u0105 i czynami.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu i okaza\u0142 si\u0119 sprawiedliwym, a w czasie gniewu sta\u0142 si\u0119 pojednaniem. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Przeto na mocy przysi\u0119gi sprawi\u0142 Pan, i\u017c rozr\u00f3s\u0142 si\u0119 on w ludzie Jego. Da\u0142 mu b\u0142ogos\u0142awie\u0144stwo dla wszystkich narod\u00f3w i przymierze swoje utwierdzi\u0142 nad g\u0142ow\u0105 jego. Uzna\u0142 go przez swe b\u0142ogos\u0142awie\u0144stwa, zachowa\u0142 dla\u0144 swe mi\u0142osierdzie, (tak i\u017c) znalaz\u0142 on \u0142ask\u0119 w oczach Pa\u0144skich. Wobec kr\u00f3l\u00f3w uczyni\u0142 go wielkim i da\u0142 mu wieniec chwa\u0142y. Postanowi\u0142 z nim wieczne przymierze i da\u0142 mu najwy\u017csze kap\u0142a\u0144stwo, i w chwale go uszcz\u0119\u015bliwi\u0142, by sprawowa\u0142 w\u0142adz\u0119 kap\u0142a\u0144sk\u0105 i czci doznawa\u0142 dla Jego imienia, i sk\u0142ada\u0142 Mu godn\u0105 ofiar\u0119 kadzenia ku wdzi\u0119cznej wonno\u015bci.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Alleluja, alleluja.\n*Ps 109:4*\nTy\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 106:32; 106:31*\nNiechaj Go s\u0142awi\u0105 ludy w zgromadzeniu, i na zebraniu starc\u00f3w niechaj Go chwal\u0105.\nV. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za jego cuda dla syn\u00f3w cz\u0142owieczych.\n*Ps 39:10-11*\nTw\u0105 sprawiedliwo\u015b\u0107 g\u0142osi\u0142em w wielkim zgromadzeniu, oto nie pow\u015bci\u0105ga\u0142em warg moich, Ty wiesz, o Panie.\nV. Sprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em; wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc.\nV. Nie zatai\u0142em Twej \u0142aski ani Twej wierno\u015bci przed wielkim zgromadzeniem.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abCz\u0142owiek pewien odje\u017cd\u017caj\u0105c daleko, zwo\u0142a\u0142 s\u0142ugi swoje i odda\u0142 im maj\u0119tno\u015b\u0107 swoj\u0105. I jednemu da\u0142 pi\u0119\u0107 talent\u00f3w, a drugiemu dwa, a innemu jeden: ka\u017cdemu wed\u0142ug jego zdolno\u015bci. I wnet odjecha\u0142. A ten, kt\u00f3ry by\u0142 wzi\u0105\u0142 pi\u0119\u0107 talent\u00f3w, poszed\u0142 i zarabia\u0142 nimi, a zyska\u0142 drugie pi\u0119\u0107. Podobnie i ten, kt\u00f3ry dwa otrzyma\u0142, zyska\u0142 drugie dwa. Ale ten, kt\u00f3ry otrzyma\u0142 by\u0142 jeden, odszed\u0142szy, zakopa\u0142 go w ziemi i skry\u0142 pieni\u0105dze pana swego.\nA po d\u0142ugim czasie wr\u00f3ci\u0142 pan s\u0142ug onych i pocz\u0105\u0142 rozlicza\u0107 si\u0119 z nimi. I przyst\u0105piwszy ten, kt\u00f3ry pi\u0119\u0107 talent\u00f3w otrzyma\u0142, wr\u0119czy\u0142 mu drugie pi\u0119\u0107 talent\u00f3w, m\u00f3wi\u0105c: Panie, da\u0142e\u015b mi pi\u0119\u0107 talent\u00f3w, otom drugie pi\u0119\u0107 zyska\u0142. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twego. Przyst\u0105pi\u0142 te\u017c i ten, kt\u00f3ry dwa talenty otrzyma\u0142, i rzek\u0142: Panie, da\u0142e\u015b mi dwa talenty, otom zyska\u0142 drugie dwa. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twojego.\u00bb", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:21-22*\n*W czasie konsekracji namaszcza si\u0119 g\u0142ow\u0119 i r\u0119ce biskupa Krzy\u017cmem \u015bwi\u0119tym.*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, niech nam wsz\u0119dzie sprawiaj\u0105 rado\u015b\u0107 Twoi \u015awi\u0119ci, aby\u015bmy wspominaj\u0105c ich zas\u0142ugi doznali r\u00f3wnie\u017c ich opieki.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary, za przyczyn\u0105 \u015bwi\u0119tego N., Wyznawcy Twego i Biskupa, otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 45:30*\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry uczyni\u0142e\u015b \u015bwi\u0119tego Norberta, Twego Wyznawc\u0119 i Biskupa, znakomitym g\u0142osicielem Twojego s\u0142owa i przez niego wzbogaci\u0142e\u015b sw\u00f3j Ko\u015bci\u00f3\u0142 nowym zakonem, spraw prosimy, aby\u015bmy dzi\u0119ki jego zas\u0142ugom mogli przy Twojej pomocy pe\u0142ni\u0107 to, czego naucza\u0142 mow\u0105 i czynami.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu i okaza\u0142 si\u0119 sprawiedliwym, a w czasie gniewu sta\u0142 si\u0119 pojednaniem. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Przeto na mocy przysi\u0119gi sprawi\u0142 Pan, i\u017c rozr\u00f3s\u0142 si\u0119 on w ludzie Jego. Da\u0142 mu b\u0142ogos\u0142awie\u0144stwo dla wszystkich narod\u00f3w i przymierze swoje utwierdzi\u0142 nad g\u0142ow\u0105 jego. Uzna\u0142 go przez swe b\u0142ogos\u0142awie\u0144stwa, zachowa\u0142 dla\u0144 swe mi\u0142osierdzie, (tak i\u017c) znalaz\u0142 on \u0142ask\u0119 w oczach Pa\u0144skich. Wobec kr\u00f3l\u00f3w uczyni\u0142 go wielkim i da\u0142 mu wieniec chwa\u0142y. Postanowi\u0142 z nim wieczne przymierze i da\u0142 mu najwy\u017csze kap\u0142a\u0144stwo, i w chwale go uszcz\u0119\u015bliwi\u0142, by sprawowa\u0142 w\u0142adz\u0119 kap\u0142a\u0144sk\u0105 i czci doznawa\u0142 dla Jego imienia, i sk\u0142ada\u0142 Mu godn\u0105 ofiar\u0119 kadzenia ku wdzi\u0119cznej wonno\u015bci.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Alleluja, alleluja.\n*Ps 109:4*\nTy\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 106:32; 106:31*\nNiechaj Go s\u0142awi\u0105 ludy w zgromadzeniu, i na zebraniu starc\u00f3w niechaj Go chwal\u0105.\nV. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za jego cuda dla syn\u00f3w cz\u0142owieczych.\n*Ps 39:10-11*\nTw\u0105 sprawiedliwo\u015b\u0107 g\u0142osi\u0142em w wielkim zgromadzeniu, oto nie pow\u015bci\u0105ga\u0142em warg moich, Ty wiesz, o Panie.\nV. Sprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em; wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc.\nV. Nie zatai\u0142em Twej \u0142aski ani Twej wierno\u015bci przed wielkim zgromadzeniem.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abCz\u0142owiek pewien odje\u017cd\u017caj\u0105c daleko, zwo\u0142a\u0142 s\u0142ugi swoje i odda\u0142 im maj\u0119tno\u015b\u0107 swoj\u0105. I jednemu da\u0142 pi\u0119\u0107 talent\u00f3w, a drugiemu dwa, a innemu jeden: ka\u017cdemu wed\u0142ug jego zdolno\u015bci. I wnet odjecha\u0142. A ten, kt\u00f3ry by\u0142 wzi\u0105\u0142 pi\u0119\u0107 talent\u00f3w, poszed\u0142 i zarabia\u0142 nimi, a zyska\u0142 drugie pi\u0119\u0107. Podobnie i ten, kt\u00f3ry dwa otrzyma\u0142, zyska\u0142 drugie dwa. Ale ten, kt\u00f3ry otrzyma\u0142 by\u0142 jeden, odszed\u0142szy, zakopa\u0142 go w ziemi i skry\u0142 pieni\u0105dze pana swego.\nA po d\u0142ugim czasie wr\u00f3ci\u0142 pan s\u0142ug onych i pocz\u0105\u0142 rozlicza\u0107 si\u0119 z nimi. I przyst\u0105piwszy ten, kt\u00f3ry pi\u0119\u0107 talent\u00f3w otrzyma\u0142, wr\u0119czy\u0142 mu drugie pi\u0119\u0107 talent\u00f3w, m\u00f3wi\u0105c: Panie, da\u0142e\u015b mi pi\u0119\u0107 talent\u00f3w, otom drugie pi\u0119\u0107 zyska\u0142. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twego. Przyst\u0105pi\u0142 te\u017c i ten, kt\u00f3ry dwa talenty otrzyma\u0142, i rzek\u0142: Panie, da\u0142e\u015b mi dwa talenty, otom zyska\u0142 drugie dwa. Rzek\u0142 mu pan jego: Dobrze, s\u0142ugo prawy i wierny, \u017ce\u015b w ma\u0142ym by\u0142 wierny, dam ci w\u0142adz\u0119 nad wieloma: wnijd\u017a do wesela pana twojego.\u00bb", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:21-22*\n*W czasie konsekracji namaszcza si\u0119 g\u0142ow\u0119 i r\u0119ce biskupa Krzy\u017cmem \u015bwi\u0119tym.*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, niech nam wsz\u0119dzie sprawiaj\u0105 rado\u015b\u0107 Twoi \u015awi\u0119ci, aby\u015bmy wspominaj\u0105c ich zas\u0142ugi doznali r\u00f3wnie\u017c ich opieki.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary, za przyczyn\u0105 \u015bwi\u0119tego N., Wyznawcy Twego i Biskupa, otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2018-02-12", 
+      "description": "15 VIII 1233, gdy Florencja i ca\u0142e W\u0142ochy by\u0142y rozdzierane bratob\u00f3jczymi walkami, siedmiu kupc\u00f3w z Florencji rozda\u0142o swe mienie ubogim i usun\u0119\u0142o si\u0119 na Monte Senario, aby po\u015bwi\u0119ci\u0107 si\u0119 pokucie i rozwa\u017caniu M\u0119ki Pa\u0144skiej oraz bole\u015bci N. M. P. Nowy zakon zosta\u0142 zatwierdzony w r. 1255 przez papie\u017ca Aleksandra IV.\n", 
+      "tempora": "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy", 
+      "title": "Siedmiu Za\u0142o\u017cycieli Zakonu Serwit\u00f3w N. M. P., Wyznawc\u00f3w"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Sap 10:20-21.*\nJusti decantav\u00e9runt, D\u00f3mine, nomen sanctum tuum, et victr\u00edcem manum tuam laudav\u00e9runt p\u00e1riter: qu\u00f3niam sapi\u00e9ntia ap\u00e9ruit os mutum et linguas inf\u00e1ntium fecit dis\u00e9rtas\n*Ps 8:2.*\nD\u00f3mine, D\u00f3minus noster, quam admir\u00e1bile est nomen tuum in univ\u00e9rsa terra!\nGl\u00f3ria Patri.\nJusti decantav\u00e9runt, D\u00f3mine, nomen sanctum tuum, et victr\u00edcem manum tuam laudav\u00e9runt p\u00e1riter: qu\u00f3niam sapi\u00e9ntia ap\u00e9ruit os mutum et linguas inf\u00e1ntium fecit dis\u00e9rtas", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "D\u00f3mine Jesu Christe, qui, ad recol\u00e9ndam mem\u00f3riam dol\u00f3rum sanct\u00edssim\u00e6 Genetr\u00edcis tu\u00e6, per septem be\u00e1tos Patres nova Servorum ejus fam\u00edlia Eccl\u00e9siam tuam foecund\u00e1sti: conc\u00e9de prop\u00edtius; ita nos e\u00f3rum consoci\u00e1ri fl\u00e9tibus, ut perfru\u00e1mur et g\u00e1udiis:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 44:1-15.*\nLaud\u00e9mus viros glori\u00f3sos et par\u00e9ntes nostros in generati\u00f3ne sua. Multam gl\u00f3riam fecit D\u00f3minus magnific\u00e9ntia sua a saeculo. Domin\u00e1ntes in potest\u00e1tibus suis, h\u00f3mines magni virt\u00fate et prud\u00e9ntia sua praediti, nunti\u00e1ntes in proph\u00e9tis dignit\u00e1tem prophet\u00e1rum, et imper\u00e1ntes in pr\u00e6s\u00e9nti p\u00f3pulo, et virt\u00fate prud\u00e9nti\u00e6 p\u00f3pulis sanct\u00edssima verba. In per\u00edtia sua requir\u00e9ntes modos m\u00fasicos,et narr\u00e1ntes c\u00e1rmina scriptur\u00e1rum. H\u00f3mines d\u00edvites in virt\u00fate, pulchrit\u00fadinis st\u00fadium hab\u00e9ntes: pacific\u00e1ntes in d\u00f3mibus suis. Omnes isti in generati\u00f3nibus gentis su\u00e6 gl\u00f3riam ad\u00e9pti sunt, et in di\u00e9bus suis hab\u00e9ntur in l\u00e1udibus. Qui de illis nati sunt, reliqu\u00e9runt nomen narr\u00e1ndi laudes e\u00f3rum. Et sunt, quorum non est mem\u00f3ria: peri\u00e9runt, quasi qui non f\u00faerint: et nati sunt, quasi non nati, et f\u00edlii ips\u00f3rum cum ipsis. Sed illi viri miseric\u00f3rdi\u00e6 sunt, quorum piet\u00e1tes non defu\u00e9runt: cum s\u00e9mine e\u00f3rum p\u00e9rmanent bona, her\u00e9ditas sancta nep\u00f3tes e\u00f3rum, et in testam\u00e9ntis stetit semen e\u00f3rum: et f\u00edlii e\u00f3rum propter illos usque in \u00e6t\u00e9rnum manent: semen e\u00f3rum et gl\u00f3ria e\u00f3rum non derelinqu\u00e9tur. C\u00f3rpora ips\u00f3rum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem. Sapi\u00e9ntiam ips\u00f3rum narrent p\u00f3puli, et laudem e\u00f3rum n\u00fantiet Eccl\u00e9sia.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Is 65:23.*\nElecti mei non labor\u00e1bunt frustra, neque germin\u00e1bunt in conturbati\u00f3ne: quia semen benedict\u00f3rum D\u00f3mini est, et nep\u00f3tes e\u00f3rum cum eis\n*Eccli 44:14.*\nC\u00f3rpora ipsorum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem. Allel\u00faja, allel\u00faja.\n*Eccli 44:15.*\nSapi\u00e9ntiam ipsorum narrent p\u00f3puli, et laudem e\u00f3rum n\u00fantiet Eccl\u00e9sia. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Is 65:23.*\nElecti mei non labor\u00e1bunt frustra, neque germin\u00e1bunt in conturbati\u00f3ne: quia semen benedict\u00f3rum D\u00f3mini est, et nep\u00f3tes e\u00f3rum cum eis\n*Eccli 44:14.*\nC\u00f3rpora ipsorum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem.\n*Ps 125:5-6.*\nQui s\u00e9minant in l\u00e1crimis, in exsultati\u00f3ne metent.\nV. E\u00fantes ibant et fi\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29.*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui sec\u00fati estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possid\u00e9bit.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Is 56:7.*\nAdd\u00facam eos in montem sanctum meum, et l\u00e6tific\u00e1bo eos in domo orati\u00f3nis me\u00e6: holoc\u00e1usta e\u00f3rum et v\u00edctim\u00e6 e\u00f3rum plac\u00e9bunt mihi super alt\u00e1re meum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Accipe, qu\u01fdsumus, D\u00f3mine, h\u00f3stias quas tibi off\u00e9rimus: et pr\u00e6sta; ut, interced\u00e9ntibus Sanctis tuis, libera tibi mente servi\u00e1mus, et perdol\u00e9ntis V\u00edrginis Genetr\u00edcis F\u00edlii tui am\u00f3re inflamm\u00e9mur.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joann 15:16.*\nEgo vos el\u00e9gi de mundo, ut e\u00e1tis et fructum affer\u00e1tis: et fructus vester m\u00e1neat.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Coel\u00e9stibus ref\u00e9cti myst\u00e9riis te, D\u00f3mine, deprec\u00e1mur: ut, quorum festa perc\u00f3limus imit\u00e1ntes ex\u00e9mpla; juxta Crucem Jesu cum Mar\u00eda Matre ejus fid\u00e9liter ast\u00e9mus, et ej\u00fasdem redempti\u00f3nis fructum perc\u00edpere mere\u00e1mur.\nPer e\u00fandem.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-02-12", 
-    "description": "15 VIII 1233, gdy Florencja i ca\u0142e W\u0142ochy by\u0142y rozdzierane bratob\u00f3jczymi walkami, siedmiu kupc\u00f3w z Florencji rozda\u0142o swe mienie ubogim i usun\u0119\u0142o si\u0119 na Monte Senario, aby po\u015bwi\u0119ci\u0107 si\u0119 pokucie i rozwa\u017caniu M\u0119ki Pa\u0144skiej oraz bole\u015bci N. M. P. Nowy zakon zosta\u0142 zatwierdzony w r. 1255 przez papie\u017ca Aleksandra IV.\n", 
-    "tempora": "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy", 
-    "title": "Siedmiu Za\u0142o\u017cycieli Zakonu Serwit\u00f3w N. M. P., Wyznawc\u00f3w"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Sap 10:20-21.*\nJusti decantav\u00e9runt, D\u00f3mine, nomen sanctum tuum, et victr\u00edcem manum tuam laudav\u00e9runt p\u00e1riter: qu\u00f3niam sapi\u00e9ntia ap\u00e9ruit os mutum et linguas inf\u00e1ntium fecit dis\u00e9rtas\n*Ps 8:2.*\nD\u00f3mine, D\u00f3minus noster, quam admir\u00e1bile est nomen tuum in univ\u00e9rsa terra!\nGl\u00f3ria Patri.\nJusti decantav\u00e9runt, D\u00f3mine, nomen sanctum tuum, et victr\u00edcem manum tuam laudav\u00e9runt p\u00e1riter: qu\u00f3niam sapi\u00e9ntia ap\u00e9ruit os mutum et linguas inf\u00e1ntium fecit dis\u00e9rtas", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "D\u00f3mine Jesu Christe, qui, ad recol\u00e9ndam mem\u00f3riam dol\u00f3rum sanct\u00edssim\u00e6 Genetr\u00edcis tu\u00e6, per septem be\u00e1tos Patres nova Servorum ejus fam\u00edlia Eccl\u00e9siam tuam foecund\u00e1sti: conc\u00e9de prop\u00edtius; ita nos e\u00f3rum consoci\u00e1ri fl\u00e9tibus, ut perfru\u00e1mur et g\u00e1udiis:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 44:1-15.*\nLaud\u00e9mus viros glori\u00f3sos et par\u00e9ntes nostros in generati\u00f3ne sua. Multam gl\u00f3riam fecit D\u00f3minus magnific\u00e9ntia sua a saeculo. Domin\u00e1ntes in potest\u00e1tibus suis, h\u00f3mines magni virt\u00fate et prud\u00e9ntia sua praediti, nunti\u00e1ntes in proph\u00e9tis dignit\u00e1tem prophet\u00e1rum, et imper\u00e1ntes in pr\u00e6s\u00e9nti p\u00f3pulo, et virt\u00fate prud\u00e9nti\u00e6 p\u00f3pulis sanct\u00edssima verba. In per\u00edtia sua requir\u00e9ntes modos m\u00fasicos,et narr\u00e1ntes c\u00e1rmina scriptur\u00e1rum. H\u00f3mines d\u00edvites in virt\u00fate, pulchrit\u00fadinis st\u00fadium hab\u00e9ntes: pacific\u00e1ntes in d\u00f3mibus suis. Omnes isti in generati\u00f3nibus gentis su\u00e6 gl\u00f3riam ad\u00e9pti sunt, et in di\u00e9bus suis hab\u00e9ntur in l\u00e1udibus. Qui de illis nati sunt, reliqu\u00e9runt nomen narr\u00e1ndi laudes e\u00f3rum. Et sunt, quorum non est mem\u00f3ria: peri\u00e9runt, quasi qui non f\u00faerint: et nati sunt, quasi non nati, et f\u00edlii ips\u00f3rum cum ipsis. Sed illi viri miseric\u00f3rdi\u00e6 sunt, quorum piet\u00e1tes non defu\u00e9runt: cum s\u00e9mine e\u00f3rum p\u00e9rmanent bona, her\u00e9ditas sancta nep\u00f3tes e\u00f3rum, et in testam\u00e9ntis stetit semen e\u00f3rum: et f\u00edlii e\u00f3rum propter illos usque in \u00e6t\u00e9rnum manent: semen e\u00f3rum et gl\u00f3ria e\u00f3rum non derelinqu\u00e9tur. C\u00f3rpora ips\u00f3rum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem. Sapi\u00e9ntiam ips\u00f3rum narrent p\u00f3puli, et laudem e\u00f3rum n\u00fantiet Eccl\u00e9sia.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Is 65:23.*\nElecti mei non labor\u00e1bunt frustra, neque germin\u00e1bunt in conturbati\u00f3ne: quia semen benedict\u00f3rum D\u00f3mini est, et nep\u00f3tes e\u00f3rum cum eis\n*Eccli 44:14.*\nC\u00f3rpora ipsorum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem. Allel\u00faja, allel\u00faja.\n*Eccli 44:15.*\nSapi\u00e9ntiam ipsorum narrent p\u00f3puli, et laudem e\u00f3rum n\u00fantiet Eccl\u00e9sia. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Is 65:23.*\nElecti mei non labor\u00e1bunt frustra, neque germin\u00e1bunt in conturbati\u00f3ne: quia semen benedict\u00f3rum D\u00f3mini est, et nep\u00f3tes e\u00f3rum cum eis\n*Eccli 44:14.*\nC\u00f3rpora ipsorum in pace sep\u00falta sunt, et nomen e\u00f3rum vivit in generati\u00f3nem et generati\u00f3nem.\n*Ps 125:5-6.*\nQui s\u00e9minant in l\u00e1crimis, in exsultati\u00f3ne metent.\nV. E\u00fantes ibant et fi\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29.*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui sec\u00fati estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possid\u00e9bit.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Is 56:7.*\nAdd\u00facam eos in montem sanctum meum, et l\u00e6tific\u00e1bo eos in domo orati\u00f3nis me\u00e6: holoc\u00e1usta e\u00f3rum et v\u00edctim\u00e6 e\u00f3rum plac\u00e9bunt mihi super alt\u00e1re meum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Accipe, qu\u01fdsumus, D\u00f3mine, h\u00f3stias quas tibi off\u00e9rimus: et pr\u00e6sta; ut, interced\u00e9ntibus Sanctis tuis, libera tibi mente servi\u00e1mus, et perdol\u00e9ntis V\u00edrginis Genetr\u00edcis F\u00edlii tui am\u00f3re inflamm\u00e9mur.\nPer e\u00fandem.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joann 15:16.*\nEgo vos el\u00e9gi de mundo, ut e\u00e1tis et fructum affer\u00e1tis: et fructus vester m\u00e1neat.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Coel\u00e9stibus ref\u00e9cti myst\u00e9riis te, D\u00f3mine, deprec\u00e1mur: ut, quorum festa perc\u00f3limus imit\u00e1ntes ex\u00e9mpla; juxta Crucem Jesu cum Mar\u00eda Matre ejus fid\u00e9liter ast\u00e9mus, et ej\u00fasdem redempti\u00f3nis fructum perc\u00edpere mere\u00e1mur.\nPer e\u00fandem.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Mdr 10:20-21*\nSprawiedliwi wys\u0142awiali Twoje \u015bwi\u0119te imi\u0119, Panie, i zwyci\u0119sk\u0105 r\u0119k\u0119 Twoj\u0105 jednomy\u015blnie wychwalali: bo m\u0105dro\u015b\u0107 otworzy\u0142a usta nieme i j\u0119zyki niemowl\u0105t uczyni\u0142a wymownymi.\n*Ps 8:2*\nPanie, Panie nasz, jak przedziwne Twe imi\u0119 po wszystkiej ziemi.\nChwa\u0142a Ojcu.\nSprawiedliwi wys\u0142awiali Twoje \u015bwi\u0119te imi\u0119, Panie, i zwyci\u0119sk\u0105 r\u0119k\u0119 Twoj\u0105 jednomy\u015blnie wychwalali: bo m\u0105dro\u015b\u0107 otworzy\u0142a usta nieme i j\u0119zyki niemowl\u0105t uczyni\u0142a wymownymi.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Panie Jezu Chryste, kt\u00f3ry dla odnawiania pami\u0119ci o bole\u015bciach Naj\u015bwi\u0119tszej Matki Twojej przez siedmiu \u015bwi\u0119tych Ojc\u00f3w obdarzy\u0142e\u015b \u015aw\u00f3j Ko\u015bci\u00f3\u0142 nowym zakonem Jej s\u0142ug, daj nam tak \u0142\u0105czy\u0107 si\u0119 z ich \u015bwi\u0119tymi \u0142zami, aby\u015bmy wraz z nimi doznawali tak\u017ce rado\u015bci:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Syr 44:1-15*\nWys\u0142awiajmy m\u0119\u017c\u00f3w znakomitych i naszych ojc\u00f3w co do pochodzenia. Pan (w nich) jest sprawc\u0105 wielkiej chwa\u0142y i wielko\u015bci swojej od wiek\u00f3w. W\u0142adali oni w swych pa\u0144stwach i byli to m\u0119\u017cowie moc\u0105 ws\u0142awieni, dawali rady dzi\u0119ki swej m\u0105dro\u015bci, w proroctwach zapowiadali przysz\u0142o\u015b\u0107. Rz\u0105dzili ludem przez swoje rady, przez roztropno\u015b\u0107 zawart\u0105 w pi\u015bmiennictwie ludu, a s\u0142owa nauki ich by\u0142y m\u0105dre. Tworzyli melodie muzyczne i poematy og\u0142aszali pismem. Bogacze w moc wyposa\u017ceni \u017cyli spokojnie w swych domach. Wszyscy ci zyskali s\u0142aw\u0119 w\u015br\u00f3d swego pokolenia i za dni swoich mieli rozg\u0142os. Niekt\u00f3rzy z nich pozostawili imi\u0119, tak i\u017c si\u0119 g\u0142osi o nich pochwa\u0142y. Ale s\u0105 i tacy, po kt\u00f3rych nie ma pami\u0119ci, i tak zgin\u0119li, jak by ich nie by\u0142o: stali si\u0119 jakby nieistniej\u0105cy, a dzieci ich wraz z nimi.\nAle tamci s\u0105 m\u0119\u017cami pe\u0142nymi mi\u0142osierdzia, kt\u00f3rych dobre czyny nie posz\u0142y w niepami\u0119\u0107. Trwaj\u0105 one wraz z ich potomstwem, a ich nast\u0119pcy to dobre dziedzictwo. Potomstwo ich trzyma si\u0119 przykaza\u0144, a dzi\u0119ki niemu tak\u017ce ich dzieci. Na wieki trwa potomstwo ich, a chwa\u0142a ich nie b\u0119dzie wymazana. Cia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach. Narody b\u0119d\u0105 opowiada\u0107 ich m\u0105dro\u015b\u0107, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0107 zgromadzenie.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Iz 65:23*\nWybrani moi nie b\u0119d\u0105 trudzi\u0107 si\u0119\u00a0na pr\u00f3\u017cno ani ich potomstwo nie ulegnie zag\u0142adzie, bo s\u0105 pokoleniem b\u0142ogos\u0142awionym przez Pana, a tak\u017ce ich nast\u0119pcy.\n*Syr 44:14*\nCia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach. Alleluja, alleluja.\n*Syr 44:15*\nNarody b\u0119d\u0105 opowiada\u0107 ich m\u0105dro\u015b\u0107, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0107 zgromadzenie. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Iz 65:23*\nWybrani moi nie b\u0119d\u0105 trudzi\u0107 si\u0119\u00a0na pr\u00f3\u017cno ani ich potomstwo nie ulegnie zag\u0142adzie, bo s\u0105 pokoleniem b\u0142ogos\u0142awionym przez Pana, a tak\u017ce ich nast\u0119pcy.\n*Syr 44:14*\nCia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach.\n*Ps 125:5-6*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew.\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 19:27-29*\nOnego czasu:  Piotr powiedzia\u0142 do Jezusa:  Oto\u015bmy opu\u015bcili wszystko i poszli za Tob\u0105;  c\u00f3\u017c wi\u0119c otrzymamy?\u00bb  A Jezus rzek\u0142 im: \u00abZaprawd\u0119 powiadam wam,  \u017ce wy, kt\u00f3rzy\u015bcie za mn\u0105 m poszli, w odrodzeniu, gdy zasi\u0105dzie Syn Cz\u0142owieczy na stolicy majestatu swego, zasi\u0105dziecie i wy na dwunastu stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela. A ka\u017cdy, kto by opu\u015bci\u0142 dom albo braci, albo siostry, albo ojca, albo matk\u0119, albo \u017con\u0119,  albo syn\u00f3w, albo rol\u0119 dla imienia mego, stokro\u0107 wi\u0119cej otrzyma i \u017cywot wieczny osi\u0105gnie\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Iz 56:7*\nPrzywiod\u0119 ich na \u015bwi\u0119t\u0105 g\u00f3r\u0119 moj\u0105, i uwesel\u0119 ich w moim domu modlitwy; ich ca\u0142opalenia i ofiary b\u0119d\u0105 mi przyjemne na moim o\u0142tarzu.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy i za wstawiennictwem Twoich \u015bwi\u0119tych spraw, aby\u015bmy s\u0142u\u017cyli Tobie swobonym umys\u0142em i pa\u0142ali mi\u0142o\u015bci\u0105 ku Bolesnej Dziewicy, Matce Twojego Syna.\nPrzez tego\u017c Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 15:16*\nJa was wybra\u0142em ze \u015bwiata, aby\u015bcie poszli i owoc przynie\u015bli, i \u017ceby owoc wasz trwa\u0142.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Gdy\u015b nas, panie, zasili\u0142 niebieski Sakramentem, b\u0142agamy Ci\u0119, aby\u015bmy na\u015bladuj\u0105c przyk\u0142ad tych, kt\u00f3rych \u015bwi\u0119to obchodzimy, wiernie stali pod krzy\u017cem Jezusa wraz z Maryj\u0105, Matk\u0105 Jego, i dzi\u0119ki temu mogli zakosztowa\u0107 owoc\u00f3w Jego Odkupienia.\nPrzez tego\u017c Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Mdr 10:20-21*\nSprawiedliwi wys\u0142awiali Twoje \u015bwi\u0119te imi\u0119, Panie, i zwyci\u0119sk\u0105 r\u0119k\u0119 Twoj\u0105 jednomy\u015blnie wychwalali: bo m\u0105dro\u015b\u0107 otworzy\u0142a usta nieme i j\u0119zyki niemowl\u0105t uczyni\u0142a wymownymi.\n*Ps 8:2*\nPanie, Panie nasz, jak przedziwne Twe imi\u0119 po wszystkiej ziemi.\nChwa\u0142a Ojcu.\nSprawiedliwi wys\u0142awiali Twoje \u015bwi\u0119te imi\u0119, Panie, i zwyci\u0119sk\u0105 r\u0119k\u0119 Twoj\u0105 jednomy\u015blnie wychwalali: bo m\u0105dro\u015b\u0107 otworzy\u0142a usta nieme i j\u0119zyki niemowl\u0105t uczyni\u0142a wymownymi.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, kt\u00f3ry dla odnawiania pami\u0119ci o bole\u015bciach Naj\u015bwi\u0119tszej Matki Twojej przez siedmiu \u015bwi\u0119tych Ojc\u00f3w obdarzy\u0142e\u015b \u015aw\u00f3j Ko\u015bci\u00f3\u0142 nowym zakonem Jej s\u0142ug, daj nam tak \u0142\u0105czy\u0107 si\u0119 z ich \u015bwi\u0119tymi \u0142zami, aby\u015bmy wraz z nimi doznawali tak\u017ce rado\u015bci:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Syr 44:1-15*\nWys\u0142awiajmy m\u0119\u017c\u00f3w znakomitych i naszych ojc\u00f3w co do pochodzenia. Pan (w nich) jest sprawc\u0105 wielkiej chwa\u0142y i wielko\u015bci swojej od wiek\u00f3w. W\u0142adali oni w swych pa\u0144stwach i byli to m\u0119\u017cowie moc\u0105 ws\u0142awieni, dawali rady dzi\u0119ki swej m\u0105dro\u015bci, w proroctwach zapowiadali przysz\u0142o\u015b\u0107. Rz\u0105dzili ludem przez swoje rady, przez roztropno\u015b\u0107 zawart\u0105 w pi\u015bmiennictwie ludu, a s\u0142owa nauki ich by\u0142y m\u0105dre. Tworzyli melodie muzyczne i poematy og\u0142aszali pismem. Bogacze w moc wyposa\u017ceni \u017cyli spokojnie w swych domach. Wszyscy ci zyskali s\u0142aw\u0119 w\u015br\u00f3d swego pokolenia i za dni swoich mieli rozg\u0142os. Niekt\u00f3rzy z nich pozostawili imi\u0119, tak i\u017c si\u0119 g\u0142osi o nich pochwa\u0142y. Ale s\u0105 i tacy, po kt\u00f3rych nie ma pami\u0119ci, i tak zgin\u0119li, jak by ich nie by\u0142o: stali si\u0119 jakby nieistniej\u0105cy, a dzieci ich wraz z nimi.\nAle tamci s\u0105 m\u0119\u017cami pe\u0142nymi mi\u0142osierdzia, kt\u00f3rych dobre czyny nie posz\u0142y w niepami\u0119\u0107. Trwaj\u0105 one wraz z ich potomstwem, a ich nast\u0119pcy to dobre dziedzictwo. Potomstwo ich trzyma si\u0119 przykaza\u0144, a dzi\u0119ki niemu tak\u017ce ich dzieci. Na wieki trwa potomstwo ich, a chwa\u0142a ich nie b\u0119dzie wymazana. Cia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach. Narody b\u0119d\u0105 opowiada\u0107 ich m\u0105dro\u015b\u0107, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0107 zgromadzenie.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Iz 65:23*\nWybrani moi nie b\u0119d\u0105 trudzi\u0107 si\u0119\u00a0na pr\u00f3\u017cno ani ich potomstwo nie ulegnie zag\u0142adzie, bo s\u0105 pokoleniem b\u0142ogos\u0142awionym przez Pana, a tak\u017ce ich nast\u0119pcy.\n*Syr 44:14*\nCia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach. Alleluja, alleluja.\n*Syr 44:15*\nNarody b\u0119d\u0105 opowiada\u0107 ich m\u0105dro\u015b\u0107, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0107 zgromadzenie. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Iz 65:23*\nWybrani moi nie b\u0119d\u0105 trudzi\u0107 si\u0119\u00a0na pr\u00f3\u017cno ani ich potomstwo nie ulegnie zag\u0142adzie, bo s\u0105 pokoleniem b\u0142ogos\u0142awionym przez Pana, a tak\u017ce ich nast\u0119pcy.\n*Syr 44:14*\nCia\u0142a ich w spokoju pogrzebano, a imi\u0119 ich \u017cyje w pokoleniach.\n*Ps 125:5-6*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew.\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 19:27-29*\nOnego czasu:  Piotr powiedzia\u0142 do Jezusa:  Oto\u015bmy opu\u015bcili wszystko i poszli za Tob\u0105;  c\u00f3\u017c wi\u0119c otrzymamy?\u00bb  A Jezus rzek\u0142 im: \u00abZaprawd\u0119 powiadam wam,  \u017ce wy, kt\u00f3rzy\u015bcie za mn\u0105 m poszli, w odrodzeniu, gdy zasi\u0105dzie Syn Cz\u0142owieczy na stolicy majestatu swego, zasi\u0105dziecie i wy na dwunastu stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela. A ka\u017cdy, kto by opu\u015bci\u0142 dom albo braci, albo siostry, albo ojca, albo matk\u0119, albo \u017con\u0119,  albo syn\u00f3w, albo rol\u0119 dla imienia mego, stokro\u0107 wi\u0119cej otrzyma i \u017cywot wieczny osi\u0105gnie\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Iz 56:7*\nPrzywiod\u0119 ich na \u015bwi\u0119t\u0105 g\u00f3r\u0119 moj\u0105, i uwesel\u0119 ich w moim domu modlitwy; ich ca\u0142opalenia i ofiary b\u0119d\u0105 mi przyjemne na moim o\u0142tarzu.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy i za wstawiennictwem Twoich \u015bwi\u0119tych spraw, aby\u015bmy s\u0142u\u017cyli Tobie swobonym umys\u0142em i pa\u0142ali mi\u0142o\u015bci\u0105 ku Bolesnej Dziewicy, Matce Twojego Syna.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 15:16*\nJa was wybra\u0142em ze \u015bwiata, aby\u015bcie poszli i owoc przynie\u015bli, i \u017ceby owoc wasz trwa\u0142.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Gdy\u015b nas, panie, zasili\u0142 niebieski Sakramentem, b\u0142agamy Ci\u0119, aby\u015bmy na\u015bladuj\u0105c przyk\u0142ad tych, kt\u00f3rych \u015bwi\u0119to obchodzimy, wiernie stali pod krzy\u017cem Jezusa wraz z Maryj\u0105, Matk\u0105 Jego, i dzi\u0119ki temu mogli zakosztowa\u0107 owoc\u00f3w Jego Odkupienia.\nPrzez tego\u017c Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

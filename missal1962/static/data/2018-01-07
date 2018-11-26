@@ -1,156 +1,158 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2018-01-07", 
+      "description": "Wzorem rodziny chrze\u015bcija\u0144skiej jest Rodzina z Nazaretu, w kt\u00f3rej wyr\u00f3s\u0142 i wychowa\u0142 si\u0119 Jezus. W ubogim domu, w zwyczajnych warunkach, rozwija\u0142o si\u0119 najszcz\u0119\u015bliwsze \u017cycie rodzinne, oparte na prawie Bo\u017cym. Antyfona na wej\u015bcie i gradua\u0142 wy\u015bpiewuj\u0105 szcz\u0119\u015bcie przenikaj\u0105ce dom nazareta\u0144ski. W lekcji \u015bw. Pawe\u0142 poucza nas o cnotach, kt\u00f3re s\u0105 warunkiem szcz\u0119\u015bcia domowego. W ewangelii dostrzegamy trosk\u0119 Maryi i J\u00f3zefa o Dzieci\u0119 Jezus i pos\u0142usze\u0144stwo Syna Bo\u017cego wobec ziemskich rodzic\u00f3w. Przy ofiarowaniu u\u015bwiadamiamy sobie, \u017ce rodzina chrze\u015bcija\u0144ska winna wychowywa\u0107 swe dzieci dla Boga. W modlitwach dzisiejszej Mszy upraszamy dla wszystkich naszych rodzin umiej\u0119tno\u015b\u0107 na\u015bladowania \u015bwi\u0119tej Rodziny.\n", 
+      "tempora": null, 
+      "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa."
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Prov 23:24; 23:25*\nExs\u00faltat g\u00e1udio pater Justi, g\u00e1udeat Pater tuus et Mater tua, et exs\u00faltet qu\u00e6 g\u00e9nuit te.\n*Ps 83:2-3*\nQuam dil\u00e9cta tabern\u00e1cula tua, D\u00f3mine virt\u00fatum! concup\u00edscit et d\u00e9ficit \u00e1nima mea in \u00e1tria D\u00f3mini.\nGl\u00f3ria Patri.\nExs\u00faltat g\u00e1udio pater Justi, g\u00e1udeat Pater tuus et Mater tua, et exs\u00faltet qu\u00e6 g\u00e9nuit te.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "D\u00f3mine Jesu Christe, qui, Mar\u00ed\u00e6 et Joseph s\u00fabditus, dom\u00e9sticam vitam ineffab\u00edlibus virt\u00fatibus consecr\u00e1sti: fac nos, utri\u00fasque aux\u00edlio, Fam\u00edli\u00e6 sanct\u00e6 tu\u00e6 ex\u00e9mplis \u00ednstrui; et cons\u00f3rtium c\u00f3nsequi sempit\u00e9rnum:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro Dominica infra Octavam Epiphani\u00e6*\nVota, qu\u01fdsumus, D\u00f3mine, supplic\u00e1ntis p\u00f3puli c\u0153l\u00e9sti piet\u00e1te pros\u00e9quere: ut et, qu\u00e6 ag\u00e9nda sunt, v\u00eddeant, et ad impl\u00e9nda, qu\u00e6 v\u00edderint, conval\u00e9scant.\nPer Dominum.\n\n*Pro Octavam Epiphani\u00e6*\nDeus, qui hodi\u00e9rna die Unig\u00e9nitum tuum g\u00e9ntibus stella duce revel\u00e1sti: conc\u00e9de prop\u00edtius; ut, qui jam te ex fide cogn\u00f3vimus, usque ad contempl\u00e1ndam sp\u00e9ciem tu\u00e6 celsit\u00fadinis perduc\u00e1mur.\nPer e\u00fandem.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses.\n*Col 3:12-17*\nFratres: Ind\u00faite vos sicut el\u00e9cti Dei, sancti et dil\u00e9cti, v\u00edscera miseric\u00f3rdi\u00e6, benignit\u00e1tem, humilit\u00e1tem, mod\u00e9stiam, pati\u00e9ntiam: support\u00e1ntes \u00ednvicem, et don\u00e1ntes vobismet\u00edpsis, si quis adv\u00e9rsus \u00e1liquem habet quer\u00e9lam: sicut et D\u00f3minus don\u00e1vit vobis, ita et vos. Super \u00f3mnia autem h\u00e6c carit\u00e1tem hab\u00e9te, quod est v\u00ednculum perfecti\u00f3nis: et pax Christi exs\u00faltet in c\u00f3rdibus vestris, in qua et voc\u00e1ti estis in uno c\u00f3rpore: et grati est\u00f3te. Verbum Christi h\u00e1bitet in vobis abund\u00e1nter, in omni sapi\u00e9ntia, doc\u00e9ntes et common\u00e9ntes vosmet\u00edpsos psalmis, hymnis et c\u00e1nticis spiritu\u00e1libus, in gr\u00e1tia cant\u00e1ntes in c\u00f3rdibus vestris Deo. Omne, quodc\u00famque f\u00e1citis in verbo aut in \u00f3pere, \u00f3mnia in n\u00f3mine D\u00f3mini Jesu Christi, gr\u00e1tias ag\u00e9ntes Deo et Patri per ipsum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 26:4*\nUnam p\u00e9tii a D\u00f3mino, hanc requ\u00edram: ut inh\u00e1bitem in domo D\u00f3mini \u00f3mnibus di\u00e9bus vit\u00e6 me\u00e6.\n*Ps 83:5.*\nBe\u00e1ti, qui h\u00e1bitant in domo tua, D\u00f3mine: in s\u01fdcula s\u00e6cul\u00f3rum laud\u00e1bunt te. Allel\u00faja, allel\u00faja,\n*Isa 45:15*\nVere tu es Rex absc\u00f3nditus, Deus Isra\u00ebl Salv\u00e1tor. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Heb 10:5*\nH\u00f3stiam et oblati\u00f3nem nolu\u00edsti, corpus autem apt\u00e1sti mihi\n*Ps 39:7-8*\nHoloc\u00e1ustum et pro pecc\u00e1to non postul\u00e1sti: tunc dixi: Ecce, v\u00e9nio\n*Heb 10:7*\nV. In c\u00e1pite libri scriptum est de me: Ut f\u00e1ciam, Deus, volunt\u00e1tem tuam.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:42-52*\nCum factus esset Jesus ann\u00f3rum du\u00f3decim, ascend\u00e9ntibus illis Jeros\u00f3lymam sec\u00fandum consuet\u00fadinem di\u00e9i festi, consummat\u00edsque di\u00e9bus, cum red\u00edrent, rem\u00e1nsit puer Jesus in Jer\u00fasalem, et non cognov\u00e9runt par\u00e9ntes ejus. Existim\u00e1ntes autem illum esse in comit\u00e1tu, ven\u00e9runt iter di\u00e9i, et requir\u00e9bant eum inter cogn\u00e1tos et notos. Et non inveni\u00e9ntes, regr\u00e9ssi sunt in Jer\u00fasalem, requir\u00e9ntes eum. Et factum est, post tr\u00edduum inven\u00e9runt illum in templo sed\u00e9ntem in m\u00e9dio doct\u00f3rum, audi\u00e9ntem illos et interrog\u00e1ntem eos. Stup\u00e9bant autem omnes, qui eum audi\u00e9bant, super prud\u00e9ntia et resp\u00f3nsis ejus. Et vid\u00e9ntes admir\u00e1ti sunt. Et dixit Mater ejus ad illum: Fili, quid fec\u00edsti nobis sic? Ecce, pater tuus et ego dol\u00e9ntes qu\u00e6reb\u00e1mus te. Et ait ad illos: Quid est, quod me qu\u00e6reb\u00e1tis? Nescieb\u00e1tis, quia in his, qu\u00e6 Patris mei sunt, op\u00f3rtet me esse? Et ipsi non intellex\u00e9runt verbum, quod loc\u00fatus est ad eos. Et desc\u00e9ndit cum eis, et venit N\u00e1zareth: et erat s\u00fabditus illis. Et Mater ejus conserv\u00e1bat \u00f3mnia verba h\u00e6c in corde suo. Et Jesus profici\u00e9bat sapi\u00e9ntia et \u00e6t\u00e1te et gr\u00e1tia apud Deum et h\u00f3mines.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Luc 2:22*\nTul\u00e9runt Jesum par\u00e9ntes ejus in Jer\u00fasalem, ut s\u00edsterent eum D\u00f3mino.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Placati\u00f3nis hostiam off\u00e9rimus tibi, D\u00f3mine, suppl\u00edciter ut, per intercessi\u00f3nem De\u00edpar\u00e6 V\u00edrginis cum be\u00e1to Joseph, fam\u00edlias nostras in pace et gr\u00e1tia tua f\u00edrmiter const\u00edtuas.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro Dominica infra Octavam Epiphani\u00e6.*\nObl\u00e1tum tibi, D\u00f3mine, sacrif\u00edcium viv\u00edficet nos semper et m\u00faniat.\nPer Dominum.\n\n*Pro eadem Octava.*\nEccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, dona prop\u00edtius intu\u00e9re: quibus non jam aurum, thus et myrrha prof\u00e9rtur; sed quod e\u00edsdem mun\u00e9ribus declar\u00e1tur, immol\u00e1tur et s\u00famitur, Jesus Christus, F\u00edlius tuus, D\u00f3minus noster:\nQui tecum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de Epiphania Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia, cum Unigenitus tuus in subst\u00e1ntia nostr\u00e6 mortalit\u00e1tis app\u00e1ruit, nova nos immortalit\u00e1tis su\u00e6 luce repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 2:51*\nDesc\u00e9ndit Jesus cum eis, et venit N\u00e1zareth, et erat s\u00fabditus illis.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Quos c\u0153l\u00e9stibus r\u00e9ficis sacram\u00e9ntis, fac, D\u00f3mine Jesu, sanct\u00e6 Fam\u00edli\u00e6 tu\u00e6 ex\u00e9mpla j\u00fagiter imit\u00e1ri: ut in hora mortis nostr\u00e6, occurr\u00e9nte glori\u00f3sa V\u00edrgine Matre tua cum be\u00e1to Joseph; per te in \u00e6t\u00e9rna tabern\u00e1cula r\u00e9cipi mere\u00e1mur:\nQui vivis.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro Dominica infra Octavam Epiphani\u00e6.*\nS\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut, quos tuis r\u00e9ficis sacram\u00e9ntis, tibi \u00e9tiam pl\u00e1citis m\u00f3ribus dign\u00e1nter deserv\u00edre conc\u00e9das.\nPer Dominum.\n\n*Pro eadem Octava.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qu\u00e6 soll\u00e9mni celebr\u00e1mus off\u00edcio, purific\u00e1t\u00e6 mentis intelleg\u00e9ntia consequ\u00e1mur.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-01-07", 
-    "description": "Wzorem rodziny chrze\u015bcija\u0144skiej jest Rodzina z Nazaretu, w kt\u00f3rej wyr\u00f3s\u0142 i wychowa\u0142 si\u0119 Jezus. W ubogim domu, w zwyczajnych warunkach, rozwija\u0142o si\u0119 najszcz\u0119\u015bliwsze \u017cycie rodzinne, oparte na prawie Bo\u017cym. Antyfona na wej\u015bcie i gradua\u0142 wy\u015bpiewuj\u0105 szcz\u0119\u015bcie przenikaj\u0105ce dom nazareta\u0144ski. W lekcji \u015bw. Pawe\u0142 poucza nas o cnotach, kt\u00f3re s\u0105 warunkiem szcz\u0119\u015bcia domowego. W ewangelii dostrzegamy trosk\u0119 Maryi i J\u00f3zefa o Dzieci\u0119 Jezus i pos\u0142usze\u0144stwo Syna Bo\u017cego wobec ziemskich rodzic\u00f3w. Przy ofiarowaniu u\u015bwiadamiamy sobie, \u017ce rodzina chrze\u015bcija\u0144ska winna wychowywa\u0107 swe dzieci dla Boga. W modlitwach dzisiejszej Mszy upraszamy dla wszystkich naszych rodzin umiej\u0119tno\u015b\u0107 na\u015bladowania \u015bwi\u0119tej Rodziny.\n", 
-    "tempora": null, 
-    "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa."
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Prov 23:24; 23:25*\nExs\u00faltat g\u00e1udio pater Justi, g\u00e1udeat Pater tuus et Mater tua, et exs\u00faltet qu\u00e6 g\u00e9nuit te.\n*Ps 83:2-3*\nQuam dil\u00e9cta tabern\u00e1cula tua, D\u00f3mine virt\u00fatum! concup\u00edscit et d\u00e9ficit \u00e1nima mea in \u00e1tria D\u00f3mini.\nGl\u00f3ria Patri.\nExs\u00faltat g\u00e1udio pater Justi, g\u00e1udeat Pater tuus et Mater tua, et exs\u00faltet qu\u00e6 g\u00e9nuit te.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "D\u00f3mine Jesu Christe, qui, Mar\u00ed\u00e6 et Joseph s\u00fabditus, dom\u00e9sticam vitam ineffab\u00edlibus virt\u00fatibus consecr\u00e1sti: fac nos, utri\u00fasque aux\u00edlio, Fam\u00edli\u00e6 sanct\u00e6 tu\u00e6 ex\u00e9mplis \u00ednstrui; et cons\u00f3rtium c\u00f3nsequi sempit\u00e9rnum:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro Dominica infra Octavam Epiphani\u00e6*\nVota, qu\u01fdsumus, D\u00f3mine, supplic\u00e1ntis p\u00f3puli c\u0153l\u00e9sti piet\u00e1te pros\u00e9quere: ut et, qu\u00e6 ag\u00e9nda sunt, v\u00eddeant, et ad impl\u00e9nda, qu\u00e6 v\u00edderint, conval\u00e9scant.\nPer Dominum.\n\n*Pro Octavam Epiphani\u00e6*\nDeus, qui hodi\u00e9rna die Unig\u00e9nitum tuum g\u00e9ntibus stella duce revel\u00e1sti: conc\u00e9de prop\u00edtius; ut, qui jam te ex fide cogn\u00f3vimus, usque ad contempl\u00e1ndam sp\u00e9ciem tu\u00e6 celsit\u00fadinis perduc\u00e1mur.\nPer e\u00fandem.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses.\n*Col 3:12-17*\nFratres: Ind\u00faite vos sicut el\u00e9cti Dei, sancti et dil\u00e9cti, v\u00edscera miseric\u00f3rdi\u00e6, benignit\u00e1tem, humilit\u00e1tem, mod\u00e9stiam, pati\u00e9ntiam: support\u00e1ntes \u00ednvicem, et don\u00e1ntes vobismet\u00edpsis, si quis adv\u00e9rsus \u00e1liquem habet quer\u00e9lam: sicut et D\u00f3minus don\u00e1vit vobis, ita et vos. Super \u00f3mnia autem h\u00e6c carit\u00e1tem hab\u00e9te, quod est v\u00ednculum perfecti\u00f3nis: et pax Christi exs\u00faltet in c\u00f3rdibus vestris, in qua et voc\u00e1ti estis in uno c\u00f3rpore: et grati est\u00f3te. Verbum Christi h\u00e1bitet in vobis abund\u00e1nter, in omni sapi\u00e9ntia, doc\u00e9ntes et common\u00e9ntes vosmet\u00edpsos psalmis, hymnis et c\u00e1nticis spiritu\u00e1libus, in gr\u00e1tia cant\u00e1ntes in c\u00f3rdibus vestris Deo. Omne, quodc\u00famque f\u00e1citis in verbo aut in \u00f3pere, \u00f3mnia in n\u00f3mine D\u00f3mini Jesu Christi, gr\u00e1tias ag\u00e9ntes Deo et Patri per ipsum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 26:4*\nUnam p\u00e9tii a D\u00f3mino, hanc requ\u00edram: ut inh\u00e1bitem in domo D\u00f3mini \u00f3mnibus di\u00e9bus vit\u00e6 me\u00e6.\n*Ps 83:5.*\nBe\u00e1ti, qui h\u00e1bitant in domo tua, D\u00f3mine: in s\u01fdcula s\u00e6cul\u00f3rum laud\u00e1bunt te. Allel\u00faja, allel\u00faja,\n*Isa 45:15*\nVere tu es Rex absc\u00f3nditus, Deus Isra\u00ebl Salv\u00e1tor. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Heb 10:5*\nH\u00f3stiam et oblati\u00f3nem nolu\u00edsti, corpus autem apt\u00e1sti mihi\n*Ps 39:7-8*\nHoloc\u00e1ustum et pro pecc\u00e1to non postul\u00e1sti: tunc dixi: Ecce, v\u00e9nio\n*Heb 10:7*\nV. In c\u00e1pite libri scriptum est de me: Ut f\u00e1ciam, Deus, volunt\u00e1tem tuam.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:42-52*\nCum factus esset Jesus ann\u00f3rum du\u00f3decim, ascend\u00e9ntibus illis Jeros\u00f3lymam sec\u00fandum consuet\u00fadinem di\u00e9i festi, consummat\u00edsque di\u00e9bus, cum red\u00edrent, rem\u00e1nsit puer Jesus in Jer\u00fasalem, et non cognov\u00e9runt par\u00e9ntes ejus. Existim\u00e1ntes autem illum esse in comit\u00e1tu, ven\u00e9runt iter di\u00e9i, et requir\u00e9bant eum inter cogn\u00e1tos et notos. Et non inveni\u00e9ntes, regr\u00e9ssi sunt in Jer\u00fasalem, requir\u00e9ntes eum. Et factum est, post tr\u00edduum inven\u00e9runt illum in templo sed\u00e9ntem in m\u00e9dio doct\u00f3rum, audi\u00e9ntem illos et interrog\u00e1ntem eos. Stup\u00e9bant autem omnes, qui eum audi\u00e9bant, super prud\u00e9ntia et resp\u00f3nsis ejus. Et vid\u00e9ntes admir\u00e1ti sunt. Et dixit Mater ejus ad illum: Fili, quid fec\u00edsti nobis sic? Ecce, pater tuus et ego dol\u00e9ntes qu\u00e6reb\u00e1mus te. Et ait ad illos: Quid est, quod me qu\u00e6reb\u00e1tis? Nescieb\u00e1tis, quia in his, qu\u00e6 Patris mei sunt, op\u00f3rtet me esse? Et ipsi non intellex\u00e9runt verbum, quod loc\u00fatus est ad eos. Et desc\u00e9ndit cum eis, et venit N\u00e1zareth: et erat s\u00fabditus illis. Et Mater ejus conserv\u00e1bat \u00f3mnia verba h\u00e6c in corde suo. Et Jesus profici\u00e9bat sapi\u00e9ntia et \u00e6t\u00e1te et gr\u00e1tia apud Deum et h\u00f3mines.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Luc 2:22*\nTul\u00e9runt Jesum par\u00e9ntes ejus in Jer\u00fasalem, ut s\u00edsterent eum D\u00f3mino.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Placati\u00f3nis hostiam off\u00e9rimus tibi, D\u00f3mine, suppl\u00edciter ut, per intercessi\u00f3nem De\u00edpar\u00e6 V\u00edrginis cum be\u00e1to Joseph, fam\u00edlias nostras in pace et gr\u00e1tia tua f\u00edrmiter const\u00edtuas.\nPer e\u00fandem.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro Dominica infra Octavam Epiphani\u00e6.*\nObl\u00e1tum tibi, D\u00f3mine, sacrif\u00edcium viv\u00edficet nos semper et m\u00faniat.\nPer Dominum.\n\n*Pro eadem Octava.*\nEccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, dona prop\u00edtius intu\u00e9re: quibus non jam aurum, thus et myrrha prof\u00e9rtur; sed quod e\u00edsdem mun\u00e9ribus declar\u00e1tur, immol\u00e1tur et s\u00famitur, Jesus Christus, F\u00edlius tuus, D\u00f3minus noster:\nQui tecum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*de Epiphania Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia, cum Unigenitus tuus in subst\u00e1ntia nostr\u00e6 mortalit\u00e1tis app\u00e1ruit, nova nos immortalit\u00e1tis su\u00e6 luce repar\u00e1vit. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 2:51*\nDesc\u00e9ndit Jesus cum eis, et venit N\u00e1zareth, et erat s\u00fabditus illis.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Quos c\u0153l\u00e9stibus r\u00e9ficis sacram\u00e9ntis, fac, D\u00f3mine Jesu, sanct\u00e6 Fam\u00edli\u00e6 tu\u00e6 ex\u00e9mpla j\u00fagiter imit\u00e1ri: ut in hora mortis nostr\u00e6, occurr\u00e9nte glori\u00f3sa V\u00edrgine Matre tua cum be\u00e1to Joseph; per te in \u00e6t\u00e9rna tabern\u00e1cula r\u00e9cipi mere\u00e1mur:\nQui vivis.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro Dominica infra Octavam Epiphani\u00e6.*\nS\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut, quos tuis r\u00e9ficis sacram\u00e9ntis, tibi \u00e9tiam pl\u00e1citis m\u00f3ribus dign\u00e1nter deserv\u00edre conc\u00e9das.\nPer Dominum.\n\n*Pro eadem Octava.*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qu\u00e6 soll\u00e9mni celebr\u00e1mus off\u00edcio, purific\u00e1t\u00e6 mentis intelleg\u00e9ntia consequ\u00e1mur.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Prz 23:24; 23:25*\nRaduje si\u0119 bardzo Ojciec Sprawiedliwego. Niech si\u0119 weseli Ojciec Tw\u00f3j i Matka Twoja; niech si\u0119 raduje, kt\u00f3ra Ci\u0119 zrodzi\u0142a.\n*Ps 83:2-3*\nJak\u017ce mi\u0142e s\u0105 przybytki Twoje, Panie zast\u0119p\u00f3w! Wzdycha i t\u0119skni ma dusza do przedsionk\u00f3w Pa\u0144skich.\nChwa\u0142a Ojcu.\nRaduje si\u0119 bardzo Ojciec Sprawiedliwego. Niech si\u0119 weseli Ojciec Tw\u00f3j i Matka Twoja; niech si\u0119 raduje, kt\u00f3ra Ci\u0119 zrodzi\u0142a.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Panie Jezu Chryste, Ty\u015b w pos\u0142usze\u0144stwie Maryi i J\u00f3zefowi, \u017cycie rodzinne niewys\u0142owionymi cnotami u\u015bwi\u0119ci\u0142, spraw za ich obojga przyczyn\u0105, aby\u015bmy przyk\u0142ad z tej \u015bwi\u0119tej Rodziny brali i zarazem z Ni\u0105 na wieki przebywa\u0107 mogli.\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Z Niedzieli w Oktawie Objawienia*\nProsimy Ci\u0119, Panie, wspieraj \u0142ask\u0105 z nieba pragnienia b\u0142agaj\u0105cego ludu, daj mu pozna\u0107, co nale\u017cy czyni\u0107, i umocnij do wype\u0142nienia poznanych obowi\u0105zk\u00f3w.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nBo\u017ce, w dniu dzisiejszym za przewodem gwiazdy objawi\u0142e\u015b narodom Jedynego Syna Twojego; skoro tedy poznali\u015bmy Ciebie przez wiar\u0119, doprowad\u017a nas \u0142askawie do ogl\u0105dania pi\u0119kna Majestatu Twojego.\nPrzez tego\u017c Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 3:12-17*\n*Wzajemna wyrozumia\u0142o\u015b\u0107 i wsp\u00f3lna modlitwa maj\u0105 donios\u0142e znaczenie dla chrze\u015bcija\u0144skiego \u017cycia rodzinnego.*\nBracia: Przyobleczcie\u017c si\u0119 jako wybra\u0144cy Bo\u017cy, \u015bwi\u0119ci i umi\u0142owani, w tkliwe mi\u0142osierdzie, w dobro\u0107, w pokor\u0119, w cicho\u015b\u0107 i w cierpliwo\u015b\u0107. Zno\u015bcie jedni drugich i wybaczajcie sobie, je\u015bli kto ma skarg\u0119 przeciw komu: jako Pan przebaczy\u0142 wam, tak i wy. A ponad to wszystko miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest wi\u0119zi\u0105 doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech rado\u015bci\u0105 opanuje serca wasze i b\u0105d\u017acie wdzi\u0119czni.\nS\u0142owo Chrystusowe niech przebywa w was obficie, aby\u015bcie z wszelk\u0105 m\u0105dro\u015bci\u0105 jedni drugich nauczali i krzepili przez psalmy, hymny i pie\u015bni duchowe, w \u0142asce \u015bpiewaj\u0105c Bogu w sercach waszych. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c przez Niego Bogu Ojcu.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 26:4*\nO jedno prosz\u0119 Pana, jednego pragn\u0119, bym m\u00f3g\u0142 przebywa\u0107 w domu Pa\u0144skim po wszystkie dni \u017cycia mego.\n*Ps 83:5*\nSzcz\u0119\u015bliwi, kt\u00f3rzy mieszkaj\u0105 w domu Twoim Panie, gdy\u017c na wieki wiek\u00f3w mog\u0105 Ci\u0119 chwali\u0107. Alleluja, alleluja.\n*Iz 45:15*\nZaprawd\u0119 Ty\u015b jest Kr\u00f3l ukryty, B\u00f3g Izraela, Zbawiciel. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Hbr 10:5*\nNie chcia\u0142e\u015b ofiary i obiaty; ale\u015b mi cia\u0142o sposobi\u0142.\n*Ps 39:7-8*\nCa\u0142opalenia i za grzech nie \u017c\u0105da\u0142e\u015b. Tedym rzek\u0142: Oto id\u0119.\n*Hbr 10:7*\nV. Na pocz\u0105tku ksi\u0105g napisano jest o mnie, abym czyni\u0142, Bo\u017ce! wol\u0105 twoje.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:42-52*\nGdy Jezus mia\u0142 lat dwana\u015bcie, udali si\u0119 do Jerozolimy wed\u0142ug zwyczaju onego \u015bwi\u0119ta. A po up\u0142ywie dni, gdy wracali, zosta\u0142o Dzieci\u0119 Jezus w Jerozolimie, a nie wiedzieli o tym rodzice Jego. I mniemaj\u0105c, \u017ce jest On w gromadzie, uszli dzie\u0144 drogi i szukali Go mi\u0119dzy krewnymi i znajomymi. A nie znalaz\u0142szy, wr\u00f3cili do Jerozolimy, szukaj\u0105c Go. I sta\u0142o si\u0119, \u017ce po up\u0142ywie dni trzech znale\u017ali Go w \u015bwi\u0105tyni, siedz\u0105cego wpo\u015br\u00f3d doktor\u00f3w, s\u0142uchaj\u0105cego ich i zadaj\u0105cego im pytania. A zdumiewali si\u0119 wszyscy, kt\u00f3rzy Go s\u0142uchali, nad rozumem i nad odpowiedziami Jego. I ujrzawszy Go zdziwili si\u0119. I rzek\u0142a do\u0144 Matka Jego: \u00abSynu, c\u00f3\u017ce\u015b to nam uczyni\u0142? Oto ojciec Tw\u00f3j i ja, bolej\u0105c, szukali\u015bmy Ciebie\u00bb. I rzek\u0142 do nich: \u00abC\u00f3\u017c jest, \u017ce\u015bcie mnie szukali? Czy nie wiedzieli\u015bcie, \u017ce w tym, co jest Ojca mego by\u0107 winienem?\u00bb Lecz oni nie zrozumieli tych s\u0142\u00f3w, kt\u00f3re im m\u00f3wi\u0142. I uda\u0142 si\u0119 z nimi, i przyszed\u0142 do Nazaretu, a by\u0142 im poddany. A Matka jego wszystkie te s\u0142owa zachowywa\u0142a w sercu swoim. Jezus za\u015b wzrasta\u0142 w m\u0105dro\u015bci i latach, i w \u0142asce u Boga i u ludzi.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*\u0141k 2:22*\nPrzynie\u015bli Jezusa Rodzice Jego do Jeruzalem, aby Go stawi\u0107 przed Panem.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adamy Ci Panie przeb\u0142agaln\u0105 ofiar\u0119 i prosimy w pokorze, aby\u015b za wstawiennictwem Bogarodzicy Dziewicy i \u015bwi\u0119tego J\u00f3zefa utwierdzi\u0142 rodziny nasze w pokoju i \u0142asce.\nPrzez tego\u017c Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Z Niedzieli w Oktawie Objawienia*\nPanie, niech ofiara Tobie z\u0142o\u017cona zawsze darzy nas \u017cyciem i umacnia.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nWejrzyj mi\u0142o\u015bciwie na dary Twojego Ko\u015bcio\u0142a, kt\u00f3ry sk\u0142ada ci ju\u017c nie z\u0142oto kadzid\u0142o i mirr\u0119, lecz Tego, kt\u00f3rego one wyobra\u017ca\u0142y: Jezusa Chrystusa Syna Twego, Pana naszego, kt\u00f3ry si\u0119 sta\u0142 ofiar\u0105 i pokarmem naszym.\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja o Objawieniu Pa\u0144skim*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem kiedy Jednorodzony Syn Tw\u00f3j ukaza\u0142 si\u0119 w naszej \u015bmiertelnej naturze, udzieli\u0142 nam na nowo \u015bwiat\u0142a swej nie\u015bmiertelno\u015bci.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 2:51*\nWr\u00f3ci\u0142 Jezus z Nimi, przyszed\u0142 do Nazaretu i by\u0142 im poddany.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie Jezu, Ty nas posilasz niebia\u0144skim Sakramentem: spraw, by\u015bmy zawsze na\u015bladowali wz\u00f3r Twej \u015bwi\u0119tej Rodziny, a przez to w godzin\u0119 \u015bmierci, spotykaj\u0105c si\u0119 z chwalebn\u0105 Dziewic\u0105 Matk\u0105 Twoj\u0105 i ze \u015bwi\u0119tym J\u00f3zefem, zas\u0142u\u017cyli, aby\u015b nas przyj\u0105\u0142 do wiecznych przybytk\u00f3w:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Z Niedzieli w Oktawie Objawienia*\nPokornie prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby ci, kt\u00f3rych posilasz swoim Sakramentem, godnie Tobie s\u0142u\u017cyli \u017cyj\u0105c wed\u0142ug Twego upodobania.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nSpraw, prosimy, wszechmog\u0105cy Bo\u017ce, aby\u015bmy czystym i jasnym umys\u0142em poj\u0119li tajemnic\u0119 uroczy\u015bcie dzi\u015b obchodzon\u0105.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Prz 23:24; 23:25*\nRaduje si\u0119 bardzo Ojciec Sprawiedliwego. Niech si\u0119 weseli Ojciec Tw\u00f3j i Matka Twoja; niech si\u0119 raduje, kt\u00f3ra Ci\u0119 zrodzi\u0142a.\n*Ps 83:2-3*\nJak\u017ce mi\u0142e s\u0105 przybytki Twoje, Panie zast\u0119p\u00f3w! Wzdycha i t\u0119skni ma dusza do przedsionk\u00f3w Pa\u0144skich.\nChwa\u0142a Ojcu.\nRaduje si\u0119 bardzo Ojciec Sprawiedliwego. Niech si\u0119 weseli Ojciec Tw\u00f3j i Matka Twoja; niech si\u0119 raduje, kt\u00f3ra Ci\u0119 zrodzi\u0142a.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, Ty\u015b w pos\u0142usze\u0144stwie Maryi i J\u00f3zefowi, \u017cycie rodzinne niewys\u0142owionymi cnotami u\u015bwi\u0119ci\u0142, spraw za ich obojga przyczyn\u0105, aby\u015bmy przyk\u0142ad z tej \u015bwi\u0119tej Rodziny brali i zarazem z Ni\u0105 na wieki przebywa\u0107 mogli.\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Z Niedzieli w Oktawie Objawienia*\nProsimy Ci\u0119, Panie, wspieraj \u0142ask\u0105 z nieba pragnienia b\u0142agaj\u0105cego ludu, daj mu pozna\u0107, co nale\u017cy czyni\u0107, i umocnij do wype\u0142nienia poznanych obowi\u0105zk\u00f3w.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nBo\u017ce, w dniu dzisiejszym za przewodem gwiazdy objawi\u0142e\u015b narodom Jedynego Syna Twojego; skoro tedy poznali\u015bmy Ciebie przez wiar\u0119, doprowad\u017a nas \u0142askawie do ogl\u0105dania pi\u0119kna Majestatu Twojego.\nPrzez tego\u017c Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 3:12-17*\n*Wzajemna wyrozumia\u0142o\u015b\u0107 i wsp\u00f3lna modlitwa maj\u0105 donios\u0142e znaczenie dla chrze\u015bcija\u0144skiego \u017cycia rodzinnego.*\nBracia: Przyobleczcie\u017c si\u0119 jako wybra\u0144cy Bo\u017cy, \u015bwi\u0119ci i umi\u0142owani, w tkliwe mi\u0142osierdzie, w dobro\u0107, w pokor\u0119, w cicho\u015b\u0107 i w cierpliwo\u015b\u0107. Zno\u015bcie jedni drugich i wybaczajcie sobie, je\u015bli kto ma skarg\u0119 przeciw komu: jako Pan przebaczy\u0142 wam, tak i wy. A ponad to wszystko miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest wi\u0119zi\u0105 doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech rado\u015bci\u0105 opanuje serca wasze i b\u0105d\u017acie wdzi\u0119czni.\nS\u0142owo Chrystusowe niech przebywa w was obficie, aby\u015bcie z wszelk\u0105 m\u0105dro\u015bci\u0105 jedni drugich nauczali i krzepili przez psalmy, hymny i pie\u015bni duchowe, w \u0142asce \u015bpiewaj\u0105c Bogu w sercach waszych. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c przez Niego Bogu Ojcu.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 26:4*\nO jedno prosz\u0119 Pana, jednego pragn\u0119, bym m\u00f3g\u0142 przebywa\u0107 w domu Pa\u0144skim po wszystkie dni \u017cycia mego.\n*Ps 83:5*\nSzcz\u0119\u015bliwi, kt\u00f3rzy mieszkaj\u0105 w domu Twoim Panie, gdy\u017c na wieki wiek\u00f3w mog\u0105 Ci\u0119 chwali\u0107. Alleluja, alleluja.\n*Iz 45:15*\nZaprawd\u0119 Ty\u015b jest Kr\u00f3l ukryty, B\u00f3g Izraela, Zbawiciel. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Hbr 10:5*\nNie chcia\u0142e\u015b ofiary i obiaty; ale\u015b mi cia\u0142o sposobi\u0142.\n*Ps 39:7-8*\nCa\u0142opalenia i za grzech nie \u017c\u0105da\u0142e\u015b. Tedym rzek\u0142: Oto id\u0119.\n*Hbr 10:7*\nV. Na pocz\u0105tku ksi\u0105g napisano jest o mnie, abym czyni\u0142, Bo\u017ce! wol\u0105 twoje.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:42-52*\nGdy Jezus mia\u0142 lat dwana\u015bcie, udali si\u0119 do Jerozolimy wed\u0142ug zwyczaju onego \u015bwi\u0119ta. A po up\u0142ywie dni, gdy wracali, zosta\u0142o Dzieci\u0119 Jezus w Jerozolimie, a nie wiedzieli o tym rodzice Jego. I mniemaj\u0105c, \u017ce jest On w gromadzie, uszli dzie\u0144 drogi i szukali Go mi\u0119dzy krewnymi i znajomymi. A nie znalaz\u0142szy, wr\u00f3cili do Jerozolimy, szukaj\u0105c Go. I sta\u0142o si\u0119, \u017ce po up\u0142ywie dni trzech znale\u017ali Go w \u015bwi\u0105tyni, siedz\u0105cego wpo\u015br\u00f3d doktor\u00f3w, s\u0142uchaj\u0105cego ich i zadaj\u0105cego im pytania. A zdumiewali si\u0119 wszyscy, kt\u00f3rzy Go s\u0142uchali, nad rozumem i nad odpowiedziami Jego. I ujrzawszy Go zdziwili si\u0119. I rzek\u0142a do\u0144 Matka Jego: \u00abSynu, c\u00f3\u017ce\u015b to nam uczyni\u0142? Oto ojciec Tw\u00f3j i ja, bolej\u0105c, szukali\u015bmy Ciebie\u00bb. I rzek\u0142 do nich: \u00abC\u00f3\u017c jest, \u017ce\u015bcie mnie szukali? Czy nie wiedzieli\u015bcie, \u017ce w tym, co jest Ojca mego by\u0107 winienem?\u00bb Lecz oni nie zrozumieli tych s\u0142\u00f3w, kt\u00f3re im m\u00f3wi\u0142. I uda\u0142 si\u0119 z nimi, i przyszed\u0142 do Nazaretu, a by\u0142 im poddany. A Matka jego wszystkie te s\u0142owa zachowywa\u0142a w sercu swoim. Jezus za\u015b wzrasta\u0142 w m\u0105dro\u015bci i latach, i w \u0142asce u Boga i u ludzi.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*\u0141k 2:22*\nPrzynie\u015bli Jezusa Rodzice Jego do Jeruzalem, aby Go stawi\u0107 przed Panem.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adamy Ci Panie przeb\u0142agaln\u0105 ofiar\u0119 i prosimy w pokorze, aby\u015b za wstawiennictwem Bogarodzicy Dziewicy i \u015bwi\u0119tego J\u00f3zefa utwierdzi\u0142 rodziny nasze w pokoju i \u0142asce.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Z Niedzieli w Oktawie Objawienia*\nPanie, niech ofiara Tobie z\u0142o\u017cona zawsze darzy nas \u017cyciem i umacnia.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nWejrzyj mi\u0142o\u015bciwie na dary Twojego Ko\u015bcio\u0142a, kt\u00f3ry sk\u0142ada ci ju\u017c nie z\u0142oto kadzid\u0142o i mirr\u0119, lecz Tego, kt\u00f3rego one wyobra\u017ca\u0142y: Jezusa Chrystusa Syna Twego, Pana naszego, kt\u00f3ry si\u0119 sta\u0142 ofiar\u0105 i pokarmem naszym.\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja o Objawieniu Pa\u0144skim*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem kiedy Jednorodzony Syn Tw\u00f3j ukaza\u0142 si\u0119 w naszej \u015bmiertelnej naturze, udzieli\u0142 nam na nowo \u015bwiat\u0142a swej nie\u015bmiertelno\u015bci.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 2:51*\nWr\u00f3ci\u0142 Jezus z Nimi, przyszed\u0142 do Nazaretu i by\u0142 im poddany.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie Jezu, Ty nas posilasz niebia\u0144skim Sakramentem: spraw, by\u015bmy zawsze na\u015bladowali wz\u00f3r Twej \u015bwi\u0119tej Rodziny, a przez to w godzin\u0119 \u015bmierci, spotykaj\u0105c si\u0119 z chwalebn\u0105 Dziewic\u0105 Matk\u0105 Twoj\u0105 i ze \u015bwi\u0119tym J\u00f3zefem, zas\u0142u\u017cyli, aby\u015b nas przyj\u0105\u0142 do wiecznych przybytk\u00f3w:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Z Niedzieli w Oktawie Objawienia*\nPokornie prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby ci, kt\u00f3rych posilasz swoim Sakramentem, godnie Tobie s\u0142u\u017cyli \u017cyj\u0105c wed\u0142ug Twego upodobania.\nPrzez Pana.\n\n*Przez Oktaw\u0119 Objawienia*\nSpraw, prosimy, wszechmog\u0105cy Bo\u017ce, aby\u015bmy czystym i jasnym umys\u0142em poj\u0119li tajemnic\u0119 uroczy\u015bcie dzi\u015b obchodzon\u0105.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

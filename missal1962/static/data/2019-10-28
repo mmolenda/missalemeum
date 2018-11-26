@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2019-10-28", 
+      "description": "\u015aw. Szymon mia\u0142 przydomek Zelota \u2014 Gorliwiec, ze wzgl\u0119du na gorliwo\u015b\u0107 w zachowywaniu Prawa Moj\u017ceszowego. Przynale\u017cno\u015b\u0107 jego do stronnictwa zelot\u00f3w jest w\u0105tpliwa. \u015aw. Juda Tadeusz, brat Jakuba M\u0142odszego, by\u0142 krewnym Pana Jezusa. Jest autorem listu zaliczonego do ksi\u0105g Nowego Testamentu. Wierni wzywaj\u0105 go jako or\u0119downika w sprawach beznadziejnych. Wed\u0142ug tradycji obaj Aposto\u0142owie pocz\u0105tkowo g\u0142osili Ewangeli\u0119 oddzielnie, \u015aw. Szymon w Egipcie, a \u015aw. Tadeusz w Mezopotamii. P\u00f3\u017aniej spotkali si\u0119 w Persji i tam ponie\u015bli \u015bmier\u0107 m\u0119cze\u0144sk\u0105.\n", 
+      "tempora": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015awi\u0119tych Szymona i Judy Tadeusza, Aposto\u0142ow"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui nos per beatos Ap\u00f3stolos tuos Sim\u00f3nem et Judam ad agniti\u00f3nem tui n\u00f3minis ven\u00edre tribu\u00edsti: da nobis e\u00f3rum gl\u00f3riam sempit\u00e9rnam et profici\u00e9ndo celebr\u00e1re, et celebr\u00e1ndo prof\u00edcere.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Eph 4:7-13*\nFratres: Unicu\u00edque nostrum data est gr\u00e1tia sec\u00fandum mens\u00faram donati\u00f3nis Christi. Propter quod dicit: Asc\u00e9ndens in altum, capt\u00edvam duxit captivit\u00e1tem: dedit dona hom\u00ednibus. Quod autem asc\u00e9ndit, quid est, nisi quia et desc\u00e9ndit primum in inferi\u00f3res partes terr\u00e6? Qui desc\u00e9ndit, ipse est et qui asc\u00e9ndit super omnes coelos, ut impl\u00e9ret \u00f3mnia. Et ipse dedit quosdam quidem ap\u00f3stolos, quosdam autem proph\u00e9tas, \u00e1lios vero evangel\u00edstas, \u00e1lios autem past\u00f3res et doct\u00f3res, ad consummati\u00f3nem sanct\u00f3rum in opus minist\u00e9rii, in \u00e6dificati\u00f3nem c\u00f3rporis Christi: donec occurr\u00e1mus omnes in unit\u00e1tem f\u00eddei, et agniti\u00f3nis F\u00edlii Dei, in virum perf\u00e9ctum, in mens\u00faram \u00e6t\u00e1tis plenit\u00fadinis Christi.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 44:17-18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja\n*Ps 138:17*\nNimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 15:17-25*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: H\u00e6c mando vobis, ut dilig\u00e1tis \u00ednvicem. Si mundus vos odit: scit\u00f3te, quia me pri\u00f3rem vobis odio h\u00e1buit. Si de mundo fuiss\u00e9tis, mundus quod suum erat dil\u00edgeret; quia vero de mundo non estis, sed ego elegi vos de mundo, propt\u00e9rea odit vos mundus. Mement\u00f3te serm\u00f3nis mei, quem ego dixi vobis: Non est servus major d\u00f3mino suo. Si me persec\u00fati sunt, et vos persequ\u00e1ntur: si serm\u00f3nem meum servav\u00e9runt, et vestrum serv\u00e1bunt. Sed h\u00e6c \u00f3mnia f\u00e1cient vobis propter nomen meum: quia n\u00e9sciunt eum, qui misit me. Si non ven\u00edssent et loc\u00fatus fu\u00edssem eis, pecc\u00e1tum non h\u00e1berent: nunc autem excusati\u00f3nem non habent de pecc\u00e1to suo. Qui me odit: et Patrem meum odit. Si \u00f3pera non fec\u00edssem in eis, qu\u00e6 nemo \u00e1lius fecit, pecc\u00e1tum non h\u00e1berent: nunc autem et vid\u00e9runt et od\u00e9runt et me et Patrem meum. Sed ut adimple\u00e1tur sermo, qui in lege e\u00f3rum scriptus est: Quia \u00f3dio habu\u00e9runt me gratis.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 18:5*\nIn omnem terram ex\u00edvit sonus e\u00f3rum: et in fines orbis terr\u00e6 verba e\u00f3rum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Gl\u00f3riam, D\u00f3mine, sanct\u00f3rum Apostol\u00f3rum tu\u00f3rum Sim\u00f3nis et Jud\u00e6 perp\u00e9tuam vener\u00e1ntes: qu\u01fdsumus; ut eam, sacris myst\u00e9riis expiati, d\u00edgnius celebr\u00e9mus.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 19:28*\nVos, qui sec\u00fati estis me, sed\u00e9bitis super sedes, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis, suppl\u00edciter exor\u00e1mus: ut, interced\u00e9ntibus be\u00e1tis Ap\u00f3stolis tuis Sim\u00f3ne et Juda, qu\u00e6 pro ill\u00f3rum vener\u00e1nda g\u00e9rimus passi\u00f3ne, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-10-28", 
-    "description": "\u015aw. Szymon mia\u0142 przydomek Zelota \u2014 Gorliwiec, ze wzgl\u0119du na gorliwo\u015b\u0107 w zachowywaniu Prawa Moj\u017ceszowego. Przynale\u017cno\u015b\u0107 jego do stronnictwa zelot\u00f3w jest w\u0105tpliwa. \u015aw. Juda Tadeusz, brat Jakuba M\u0142odszego, by\u0142 krewnym Pana Jezusa. Jest autorem listu zaliczonego do ksi\u0105g Nowego Testamentu. Wierni wzywaj\u0105 go jako or\u0119downika w sprawach beznadziejnych. Wed\u0142ug tradycji obaj Aposto\u0142owie pocz\u0105tkowo g\u0142osili Ewangeli\u0119 oddzielnie, \u015aw. Szymon w Egipcie, a \u015aw. Tadeusz w Mezopotamii. P\u00f3\u017aniej spotkali si\u0119 w Persji i tam ponie\u015bli \u015bmier\u0107 m\u0119cze\u0144sk\u0105.\n", 
-    "tempora": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015awi\u0119tych Szymona i Judy Tadeusza, Aposto\u0142ow"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui nos per beatos Ap\u00f3stolos tuos Sim\u00f3nem et Judam ad agniti\u00f3nem tui n\u00f3minis ven\u00edre tribu\u00edsti: da nobis e\u00f3rum gl\u00f3riam sempit\u00e9rnam et profici\u00e9ndo celebr\u00e1re, et celebr\u00e1ndo prof\u00edcere.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Eph 4:7-13*\nFratres: Unicu\u00edque nostrum data est gr\u00e1tia sec\u00fandum mens\u00faram donati\u00f3nis Christi. Propter quod dicit: Asc\u00e9ndens in altum, capt\u00edvam duxit captivit\u00e1tem: dedit dona hom\u00ednibus. Quod autem asc\u00e9ndit, quid est, nisi quia et desc\u00e9ndit primum in inferi\u00f3res partes terr\u00e6? Qui desc\u00e9ndit, ipse est et qui asc\u00e9ndit super omnes coelos, ut impl\u00e9ret \u00f3mnia. Et ipse dedit quosdam quidem ap\u00f3stolos, quosdam autem proph\u00e9tas, \u00e1lios vero evangel\u00edstas, \u00e1lios autem past\u00f3res et doct\u00f3res, ad consummati\u00f3nem sanct\u00f3rum in opus minist\u00e9rii, in \u00e6dificati\u00f3nem c\u00f3rporis Christi: donec occurr\u00e1mus omnes in unit\u00e1tem f\u00eddei, et agniti\u00f3nis F\u00edlii Dei, in virum perf\u00e9ctum, in mens\u00faram \u00e6t\u00e1tis plenit\u00fadinis Christi.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 44:17-18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja\n*Ps 138:17*\nNimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 15:17-25*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: H\u00e6c mando vobis, ut dilig\u00e1tis \u00ednvicem. Si mundus vos odit: scit\u00f3te, quia me pri\u00f3rem vobis odio h\u00e1buit. Si de mundo fuiss\u00e9tis, mundus quod suum erat dil\u00edgeret; quia vero de mundo non estis, sed ego elegi vos de mundo, propt\u00e9rea odit vos mundus. Mement\u00f3te serm\u00f3nis mei, quem ego dixi vobis: Non est servus major d\u00f3mino suo. Si me persec\u00fati sunt, et vos persequ\u00e1ntur: si serm\u00f3nem meum servav\u00e9runt, et vestrum serv\u00e1bunt. Sed h\u00e6c \u00f3mnia f\u00e1cient vobis propter nomen meum: quia n\u00e9sciunt eum, qui misit me. Si non ven\u00edssent et loc\u00fatus fu\u00edssem eis, pecc\u00e1tum non h\u00e1berent: nunc autem excusati\u00f3nem non habent de pecc\u00e1to suo. Qui me odit: et Patrem meum odit. Si \u00f3pera non fec\u00edssem in eis, qu\u00e6 nemo \u00e1lius fecit, pecc\u00e1tum non h\u00e1berent: nunc autem et vid\u00e9runt et od\u00e9runt et me et Patrem meum. Sed ut adimple\u00e1tur sermo, qui in lege e\u00f3rum scriptus est: Quia \u00f3dio habu\u00e9runt me gratis.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 18:5*\nIn omnem terram ex\u00edvit sonus e\u00f3rum: et in fines orbis terr\u00e6 verba e\u00f3rum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Gl\u00f3riam, D\u00f3mine, sanct\u00f3rum Apostol\u00f3rum tu\u00f3rum Sim\u00f3nis et Jud\u00e6 perp\u00e9tuam vener\u00e1ntes: qu\u01fdsumus; ut eam, sacris myst\u00e9riis expiati, d\u00edgnius celebr\u00e9mus.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 19:28*\nVos, qui sec\u00fati estis me, sed\u00e9bitis super sedes, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis, suppl\u00edciter exor\u00e1mus: ut, interced\u00e9ntibus be\u00e1tis Ap\u00f3stolis tuis Sim\u00f3ne et Juda, qu\u00e6 pro ill\u00f3rum vener\u00e1nda g\u00e9rimus passi\u00f3ne, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz; Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu.\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry\u015b raczy\u0142 doprowadzi\u0107 nas do poznania Twojego imienia przez \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Jud\u0119, spraw, aby\u015bmy post\u0119puj\u0105c w cnocie czcili ich wieczn\u0105 chwa\u0142\u0119, a czcz\u0105c j\u0105 czynili wi\u0119ksze post\u0119py. Przez Pana.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 4:7-13*\n*Ka\u017cdy chrze\u015bcijanin w spos\u00f3b w\u0142a\u015bciwy swemu powo\u0142aniu jest obowi\u0105zany stara\u0107 si\u0119 o budowanie Cia\u0142a Mistycznego Chrystusa przez wzrost w doskona\u0142o\u015bci.*\nBracia: Ka\u017cdemu z nas dana jest \u0142aska wed\u0142ug miary daru Chrystusowego. Dlatego powiada (Pismo): Wst\u0105piwszy na wysoko\u015b\u0107 wywi\u00f3d\u0142 wi\u0119\u017ani\u00f3w pojmanych i ludzi darami obdarzy\u0142.\nA c\u00f3\u017c znaczy to, \u017ce wst\u0105pi\u0142, jak tylko, \u017ce pierwej zst\u0105pi\u0142 by\u0142 do nisko\u015bci ziemskich? Ten, kt\u00f3ry zst\u0105pi\u0142, jest Tym samym, co wst\u0105pi\u0142 ponad wszystkie nieba, aby nape\u0142ni\u0142 wszystko.\nI On ustanowi\u0142 jednych aposto\u0142ami, a drugich prorokami, innych ewangelistami, a innych jeszcze pasterzami i doktorami ku doskonaleniu \u015bwi\u0119tych w dziele pos\u0142ugiwania, ku budowaniu cia\u0142a Chrystusowego. A\u017c wszyscy zejdziemy si\u0119 w jedno\u015bci wiary i poznania Syna Bo\u017cego, stawszy si\u0119 m\u0119\u017cami doskona\u0142ymi na miar\u0119 pe\u0142nego wzrostu dojrza\u0142o\u015bci Chrystusowej.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 44:17-18*\nUstanowisz ich ksi\u0105\u017c\u0119tami po ca\u0142ej ziemi, przez wszystkie pokolenia g\u0142osi\u0107 b\u0119d\u0105 Twe imi\u0119, o Panie.\nV. Synowie twoi zajm\u0105 miejsce twoich ojc\u00f3w: dlatego b\u0119d\u0105 Ci\u0119 s\u0142awi\u0107 wszystkie ludy. Alleluja, alleluja.\n*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 15:17-25*\nW owym czasie: Rzek\u0142 Jezus uczniom swoim: To wam przykazuj\u0119, aby\u015bcie si\u0119 wzajemnie mi\u0142owali. Je\u017celi was \u015bwiat nienawidzi, wiedzcie, \u017ce Mnie pierwej znienawidzi\u0142. Gdyby\u015bcie byli ze \u015bwiata, \u015bwiat by was kocha\u0142 jako swoj\u0105 w\u0142asno\u015b\u0107. Ale poniewa\u017c nie jeste\u015bcie ze \u015bwiata, bo Ja was wybra\u0142em sobie ze \u015bwiata, dlatego was \u015bwiat nienawidzi. Pami\u0119tajcie na s\u0142owo, kt\u00f3re do was powiedzia\u0142em: \"S\u0142uga nie jest wi\u0119kszy od swego pana\". Je\u017celi Mnie prze\u015bladowali, to i was b\u0119d\u0105 prze\u015bladowa\u0107. Je\u017celi moje s\u0142owo zachowali, to i wasze b\u0119d\u0105 zachowywa\u0107. Ale to wszystko wam b\u0119d\u0105 czyni\u0107 z powodu mego imienia, bo nie znaj\u0105 Tego, kt\u00f3ry Mnie pos\u0142a\u0142. Gdybym nie przyszed\u0142 i nie m\u00f3wi\u0142 do nich, nie mieliby grzechu. Teraz jednak nie maj\u0105 usprawiedliwienia dla swego grzechu. Kto Mnie nienawidzi, ten i Ojca mego nienawidzi. Gdybym nie dokona\u0142 w\u015br\u00f3d nich dzie\u0142, kt\u00f3rych nikt inny nie dokona\u0142, nie mieliby grzechu. Teraz jednak widzieli je, a jednak znienawidzili i Mnie, i Ojca mego. Ale to si\u0119 sta\u0142o, aby si\u0119 wype\u0142ni\u0142o s\u0142owo napisane w ich Prawie: Nienawidzili Mnie bez powodu.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 18:5*\nNa ca\u0142\u0105 ziemi\u0119 ich g\u0142os si\u0119 rozchodzi i a\u017c po kra\u0144ce \u015bwiata ich mowy.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Czcz\u0105c wieczn\u0105 chwa\u0142\u0119 \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Judy, prosimy Ci\u0119, Panie, aby\u015bmy oczyszczeni przez \u015bwi\u0119te misteria, godniej j\u0105 \u015bwi\u0119cili. Przez Pana.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 19:28*\nWy, kt\u00f3rzy\u015bcie poszli za mn\u0105, zasi\u0105dziecie na stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Po przyj\u0119ciu Sakramentu, b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Judy, aby ofiara z\u0142o\u017cona ku uczczeniu ich m\u0119ki przynios\u0142a nam uzdrowienie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz; Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu.\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry\u015b raczy\u0142 doprowadzi\u0107 nas do poznania Twojego imienia przez \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Jud\u0119, spraw, aby\u015bmy post\u0119puj\u0105c w cnocie czcili ich wieczn\u0105 chwa\u0142\u0119, a czcz\u0105c j\u0105 czynili wi\u0119ksze post\u0119py. Przez Pana.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 4:7-13*\n*Ka\u017cdy chrze\u015bcijanin w spos\u00f3b w\u0142a\u015bciwy swemu powo\u0142aniu jest obowi\u0105zany stara\u0107 si\u0119 o budowanie Cia\u0142a Mistycznego Chrystusa przez wzrost w doskona\u0142o\u015bci.*\nBracia: Ka\u017cdemu z nas dana jest \u0142aska wed\u0142ug miary daru Chrystusowego. Dlatego powiada (Pismo): Wst\u0105piwszy na wysoko\u015b\u0107 wywi\u00f3d\u0142 wi\u0119\u017ani\u00f3w pojmanych i ludzi darami obdarzy\u0142.\nA c\u00f3\u017c znaczy to, \u017ce wst\u0105pi\u0142, jak tylko, \u017ce pierwej zst\u0105pi\u0142 by\u0142 do nisko\u015bci ziemskich? Ten, kt\u00f3ry zst\u0105pi\u0142, jest Tym samym, co wst\u0105pi\u0142 ponad wszystkie nieba, aby nape\u0142ni\u0142 wszystko.\nI On ustanowi\u0142 jednych aposto\u0142ami, a drugich prorokami, innych ewangelistami, a innych jeszcze pasterzami i doktorami ku doskonaleniu \u015bwi\u0119tych w dziele pos\u0142ugiwania, ku budowaniu cia\u0142a Chrystusowego. A\u017c wszyscy zejdziemy si\u0119 w jedno\u015bci wiary i poznania Syna Bo\u017cego, stawszy si\u0119 m\u0119\u017cami doskona\u0142ymi na miar\u0119 pe\u0142nego wzrostu dojrza\u0142o\u015bci Chrystusowej.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 44:17-18*\nUstanowisz ich ksi\u0105\u017c\u0119tami po ca\u0142ej ziemi, przez wszystkie pokolenia g\u0142osi\u0107 b\u0119d\u0105 Twe imi\u0119, o Panie.\nV. Synowie twoi zajm\u0105 miejsce twoich ojc\u00f3w: dlatego b\u0119d\u0105 Ci\u0119 s\u0142awi\u0107 wszystkie ludy. Alleluja, alleluja.\n*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 15:17-25*\nW owym czasie: Rzek\u0142 Jezus uczniom swoim: To wam przykazuj\u0119, aby\u015bcie si\u0119 wzajemnie mi\u0142owali. Je\u017celi was \u015bwiat nienawidzi, wiedzcie, \u017ce Mnie pierwej znienawidzi\u0142. Gdyby\u015bcie byli ze \u015bwiata, \u015bwiat by was kocha\u0142 jako swoj\u0105 w\u0142asno\u015b\u0107. Ale poniewa\u017c nie jeste\u015bcie ze \u015bwiata, bo Ja was wybra\u0142em sobie ze \u015bwiata, dlatego was \u015bwiat nienawidzi. Pami\u0119tajcie na s\u0142owo, kt\u00f3re do was powiedzia\u0142em: \"S\u0142uga nie jest wi\u0119kszy od swego pana\". Je\u017celi Mnie prze\u015bladowali, to i was b\u0119d\u0105 prze\u015bladowa\u0107. Je\u017celi moje s\u0142owo zachowali, to i wasze b\u0119d\u0105 zachowywa\u0107. Ale to wszystko wam b\u0119d\u0105 czyni\u0107 z powodu mego imienia, bo nie znaj\u0105 Tego, kt\u00f3ry Mnie pos\u0142a\u0142. Gdybym nie przyszed\u0142 i nie m\u00f3wi\u0142 do nich, nie mieliby grzechu. Teraz jednak nie maj\u0105 usprawiedliwienia dla swego grzechu. Kto Mnie nienawidzi, ten i Ojca mego nienawidzi. Gdybym nie dokona\u0142 w\u015br\u00f3d nich dzie\u0142, kt\u00f3rych nikt inny nie dokona\u0142, nie mieliby grzechu. Teraz jednak widzieli je, a jednak znienawidzili i Mnie, i Ojca mego. Ale to si\u0119 sta\u0142o, aby si\u0119 wype\u0142ni\u0142o s\u0142owo napisane w ich Prawie: Nienawidzili Mnie bez powodu.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 18:5*\nNa ca\u0142\u0105 ziemi\u0119 ich g\u0142os si\u0119 rozchodzi i a\u017c po kra\u0144ce \u015bwiata ich mowy.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Czcz\u0105c wieczn\u0105 chwa\u0142\u0119 \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Judy, prosimy Ci\u0119, Panie, aby\u015bmy oczyszczeni przez \u015bwi\u0119te misteria, godniej j\u0105 \u015bwi\u0119cili. Przez Pana.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 19:28*\nWy, kt\u00f3rzy\u015bcie poszli za mn\u0105, zasi\u0105dziecie na stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Po przyj\u0119ciu Sakramentu, b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bwi\u0119tych Aposto\u0142\u00f3w Twoich Szymona i Judy, aby ofiara z\u0142o\u017cona ku uczczeniu ich m\u0119ki przynios\u0142a nam uzdrowienie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

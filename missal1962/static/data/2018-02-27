@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Balbiny", 
-      "3 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Balbiny", 
+        "3 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2018-02-27", 
+      "description": "Szukanie Boga musi si\u0119 oprze\u0107 na cnotach pokory i ufno\u015bci. Brakiem tych cn\u00f3t grzeszyli faryzeusze (ewangelia). Natomiast wdowa z Sarepty okaza\u0142a heroiczne pos\u0142usze\u0144stwo Prorokowi i ufno\u015b\u0107 Bogu (lekcja).\nW modlitwach mszalnych wyznajemy wiar\u0119, \u017ce nasze u\u015bwi\u0119cenie jest dzie\u0142em Boga (kolekta, sekreta, pokomunia), i ufno\u015b\u0107 w pomoc Jego \u0142aski (antyfona na wej\u015bcie, gradua\u0142, antyfona na komuni\u0119).\n", 
+      "tempora": null, 
+      "title": "Wtorek po 2 Niedzieli Wielkiego Postu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 26:8; 26:9*\nTibi dixit cor meum, qu\u00e6s\u00edvi vultum tuum. vultum tuum, D\u00f3mine, requ\u00edram: ne av\u00e9rtas f\u00e1ciem tuam a me.\n*Ps 26:1*\nD\u00f3minus illumin\u00e1tio mea, et salus mea: quem tim\u00e9bo?\nGl\u00f3ria Patri.\nTibi dixit cor meum, qu\u00e6s\u00edvi vultum tuum. vultum tuum, D\u00f3mine, requ\u00edram: ne av\u00e9rtas f\u00e1ciem tuam a me.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "P\u00e9rfice, qu\u01fdsumus, D\u00f3mine, benignus in nobis observ\u00e1nti\u00e6 sanct\u00e6 subs\u00eddium: ut, qu\u00e6 te auct\u00f3re faci\u00e9nda cogn\u00f3vimus, te oper\u00e1nte imple\u00e1mus.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Regum.\n*1 Reg 17:8-16*\nIn di\u00e9bus illis: Factus est sermo D\u00f3mini ad El\u00edam Thesb\u00edten, dicens: Surge et vade in Sar\u00e9phta Sidoni\u00f3rum, et man\u00e9bis ibi: pr\u00e6c\u00e9pi enim ibi mul\u00ederi v\u00eddu\u00e6, ut pascat te. Surr\u00e9xit et \u00e1biit in Sar\u00e9phta. Cumque ven\u00edsset ad portam civit\u00e1tis, app\u00e1ruit ei m\u00falier v\u00eddua c\u00f3lligens ligna, et voc\u00e1vit eam, dix\u00edtque ei: Da mihi p\u00e1ululum aqu\u00e6 in vase, ut bibam. Cumque illa p\u00e9rgeret, ut aff\u00e9rret, clam\u00e1vit post tergum ejus, dicens: Affer mihi, \u00f3bsecro, et bucc\u00e9llam panis in manu tua. Qu\u00e6 resp\u00f3ndit: Vivit D\u00f3minus, Deus tuus, quia non habeo panem, nisi quantum pug\u00edllus c\u00e1pere potest far\u00edn\u00e6 in h\u00fddria, et p\u00e1ululum \u00f3lei in l\u00e9cytho: en, collige duo ligna, ut ingr\u00e9diar, et f\u00e1ciam illum mihi et f\u00edlio meo, ut comed\u00e1mus et mori\u00e1mur. Ad quam El\u00edas ait: Noli tim\u00e9re, sed vade, et fac, sicut dix\u00edsti: ver\u00famtamen mihi primum fac de ipsa far\u00ednula subciner\u00edcium panem p\u00e1rvulum, et affer ad me: tibi autem et f\u00edlio tuo f\u00e1cies p\u00f3stea. H\u00e6c autem dicit D\u00f3minus, Deus Isra\u00ebl: H\u00fddria far\u00edn\u00e6 non def\u00edciet, nec l\u00e9cythus \u00f3lei minu\u00e9tur, usque ad diem, in qua D\u00f3minus dat\u00farus est pl\u00faviam super f\u00e1ciem terr\u00e6. Qu\u00e6 \u00e1biit, et fecit juxta verbum El\u00ed\u00e6: et com\u00e9dit ipse et illa et domus ejus: et ex illa die h\u00fddria far\u00edn\u00e6 non def\u00e9cit, et l\u00e9cythus \u00f3lei non est immin\u00fatus, juxta verbum D\u00f3mini, quod loc\u00fatus f\u00faerat in manu El\u00ed\u00e6.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 54:23; 54:17; 54:18; 54:19*\nJacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.\nV. Dum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 23:1-12*\nIn illo t\u00e9mpore: Loc\u00fatus est Jesus ad turbas et ad disc\u00edpulos suos, dicens: Super c\u00e1thedram Moysi sed\u00e9runt scrib\u00e6 et pharisaei. Omnia ergo, qu\u00e6c\u00famque d\u00edxerint vobis, serv\u00e1te et f\u00e1cite: sec\u00fandum \u00f3pera vero e\u00f3rum nol\u00edte f\u00e1cere: dicunt enim, et non f\u00e1ciunt. Alligant enim \u00f3nera gr\u00e1via et importab\u00edlia, et imp\u00f3nunt in h\u00fameros h\u00f3minum: d\u00edgito autem suo nolunt ea mov\u00e9re. Omnia vero \u00f3pera sua f\u00e1ciunt, ut vide\u00e1ntur ab hom\u00ednibus: dil\u00e1tant enim phylact\u00e9ria sua, et magn\u00edficant f\u00edmbrias. Amant autem primos rec\u00fabitus in cenis, et primas c\u00e1thedras in synag\u00f3gis, et salutati\u00f3nes in foro, et voc\u00e1ri ab hom\u00ednibus Rabbi. Vos autem nol\u00edte voc\u00e1ri Rabbi: unus est enim Mag\u00edster vester, omnes autem vos fratres estis. Et patrem nol\u00edte voc\u00e1re vobis super terram, unus est enim Pater vester, qui in coelis est. Nec voc\u00e9mini mag\u00edstri: quia Mag\u00edster vester unus est, Christus. Qui major est vestrum, erit min\u00edster vester. Qui autem se exalt\u00e1verit, humili\u00e1bitur: et qui se humili\u00e1verit, exalt\u00e1bitur.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 50:3.*\nMiser\u00e9re mei, D\u00f3mine, sec\u00fandum magnam miseric\u00f3rdiam tuam: dele, D\u00f3mine, iniquit\u00e1tem meam.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sanctificati\u00f3nem tuam nobis, D\u00f3mine, his myst\u00e9riis oper\u00e1re plac\u00e1tus: qu\u00e6 nos et a terr\u00e9nis purget v\u00edtiis, et ad coel\u00e9stia dona perd\u00facat.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 9:2-3*\nNarr\u00e1bo \u00f3mnia mirab\u00edlia tua: l\u00e6t\u00e1bor, et exsult\u00e1bo in te: psallam n\u00f3mini tuo, Alt\u00edssime.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos tuis, qu\u01fdsumus, semper oboed\u00edre mand\u00e1tis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-02-27", 
-    "description": "Szukanie Boga musi si\u0119 oprze\u0107 na cnotach pokory i ufno\u015bci. Brakiem tych cn\u00f3t grzeszyli faryzeusze (ewangelia). Natomiast wdowa z Sarepty okaza\u0142a heroiczne pos\u0142usze\u0144stwo Prorokowi i ufno\u015b\u0107 Bogu (lekcja).\nW modlitwach mszalnych wyznajemy wiar\u0119, \u017ce nasze u\u015bwi\u0119cenie jest dzie\u0142em Boga (kolekta, sekreta, pokomunia), i ufno\u015b\u0107 w pomoc Jego \u0142aski (antyfona na wej\u015bcie, gradua\u0142, antyfona na komuni\u0119).\n", 
-    "tempora": null, 
-    "title": "Wtorek po 2 Niedzieli Wielkiego Postu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 26:8; 26:9*\nTibi dixit cor meum, qu\u00e6s\u00edvi vultum tuum. vultum tuum, D\u00f3mine, requ\u00edram: ne av\u00e9rtas f\u00e1ciem tuam a me.\n*Ps 26:1*\nD\u00f3minus illumin\u00e1tio mea, et salus mea: quem tim\u00e9bo?\nGl\u00f3ria Patri.\nTibi dixit cor meum, qu\u00e6s\u00edvi vultum tuum. vultum tuum, D\u00f3mine, requ\u00edram: ne av\u00e9rtas f\u00e1ciem tuam a me.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "P\u00e9rfice, qu\u01fdsumus, D\u00f3mine, benignus in nobis observ\u00e1nti\u00e6 sanct\u00e6 subs\u00eddium: ut, qu\u00e6 te auct\u00f3re faci\u00e9nda cogn\u00f3vimus, te oper\u00e1nte imple\u00e1mus.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Regum.\n*1 Reg 17:8-16*\nIn di\u00e9bus illis: Factus est sermo D\u00f3mini ad El\u00edam Thesb\u00edten, dicens: Surge et vade in Sar\u00e9phta Sidoni\u00f3rum, et man\u00e9bis ibi: pr\u00e6c\u00e9pi enim ibi mul\u00ederi v\u00eddu\u00e6, ut pascat te. Surr\u00e9xit et \u00e1biit in Sar\u00e9phta. Cumque ven\u00edsset ad portam civit\u00e1tis, app\u00e1ruit ei m\u00falier v\u00eddua c\u00f3lligens ligna, et voc\u00e1vit eam, dix\u00edtque ei: Da mihi p\u00e1ululum aqu\u00e6 in vase, ut bibam. Cumque illa p\u00e9rgeret, ut aff\u00e9rret, clam\u00e1vit post tergum ejus, dicens: Affer mihi, \u00f3bsecro, et bucc\u00e9llam panis in manu tua. Qu\u00e6 resp\u00f3ndit: Vivit D\u00f3minus, Deus tuus, quia non habeo panem, nisi quantum pug\u00edllus c\u00e1pere potest far\u00edn\u00e6 in h\u00fddria, et p\u00e1ululum \u00f3lei in l\u00e9cytho: en, collige duo ligna, ut ingr\u00e9diar, et f\u00e1ciam illum mihi et f\u00edlio meo, ut comed\u00e1mus et mori\u00e1mur. Ad quam El\u00edas ait: Noli tim\u00e9re, sed vade, et fac, sicut dix\u00edsti: ver\u00famtamen mihi primum fac de ipsa far\u00ednula subciner\u00edcium panem p\u00e1rvulum, et affer ad me: tibi autem et f\u00edlio tuo f\u00e1cies p\u00f3stea. H\u00e6c autem dicit D\u00f3minus, Deus Isra\u00ebl: H\u00fddria far\u00edn\u00e6 non def\u00edciet, nec l\u00e9cythus \u00f3lei minu\u00e9tur, usque ad diem, in qua D\u00f3minus dat\u00farus est pl\u00faviam super f\u00e1ciem terr\u00e6. Qu\u00e6 \u00e1biit, et fecit juxta verbum El\u00ed\u00e6: et com\u00e9dit ipse et illa et domus ejus: et ex illa die h\u00fddria far\u00edn\u00e6 non def\u00e9cit, et l\u00e9cythus \u00f3lei non est immin\u00fatus, juxta verbum D\u00f3mini, quod loc\u00fatus f\u00faerat in manu El\u00ed\u00e6.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 54:23; 54:17; 54:18; 54:19*\nJacta cogit\u00e1tum tuum in D\u00f3mino, et ipse te en\u00fatriet.\nV. Dum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 23:1-12*\nIn illo t\u00e9mpore: Loc\u00fatus est Jesus ad turbas et ad disc\u00edpulos suos, dicens: Super c\u00e1thedram Moysi sed\u00e9runt scrib\u00e6 et pharisaei. Omnia ergo, qu\u00e6c\u00famque d\u00edxerint vobis, serv\u00e1te et f\u00e1cite: sec\u00fandum \u00f3pera vero e\u00f3rum nol\u00edte f\u00e1cere: dicunt enim, et non f\u00e1ciunt. Alligant enim \u00f3nera gr\u00e1via et importab\u00edlia, et imp\u00f3nunt in h\u00fameros h\u00f3minum: d\u00edgito autem suo nolunt ea mov\u00e9re. Omnia vero \u00f3pera sua f\u00e1ciunt, ut vide\u00e1ntur ab hom\u00ednibus: dil\u00e1tant enim phylact\u00e9ria sua, et magn\u00edficant f\u00edmbrias. Amant autem primos rec\u00fabitus in cenis, et primas c\u00e1thedras in synag\u00f3gis, et salutati\u00f3nes in foro, et voc\u00e1ri ab hom\u00ednibus Rabbi. Vos autem nol\u00edte voc\u00e1ri Rabbi: unus est enim Mag\u00edster vester, omnes autem vos fratres estis. Et patrem nol\u00edte voc\u00e1re vobis super terram, unus est enim Pater vester, qui in coelis est. Nec voc\u00e9mini mag\u00edstri: quia Mag\u00edster vester unus est, Christus. Qui major est vestrum, erit min\u00edster vester. Qui autem se exalt\u00e1verit, humili\u00e1bitur: et qui se humili\u00e1verit, exalt\u00e1bitur.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 50:3.*\nMiser\u00e9re mei, D\u00f3mine, sec\u00fandum magnam miseric\u00f3rdiam tuam: dele, D\u00f3mine, iniquit\u00e1tem meam.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sanctificati\u00f3nem tuam nobis, D\u00f3mine, his myst\u00e9riis oper\u00e1re plac\u00e1tus: qu\u00e6 nos et a terr\u00e9nis purget v\u00edtiis, et ad coel\u00e9stia dona perd\u00facat.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 9:2-3*\nNarr\u00e1bo \u00f3mnia mirab\u00edlia tua: l\u00e6t\u00e1bor, et exsult\u00e1bo in te: psallam n\u00f3mini tuo, Alt\u00edssime.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos tuis, qu\u01fdsumus, semper oboed\u00edre mand\u00e1tis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 26:8; 26:9*\nDo Ciebie m\u00f3wi serce moje, oblicze moje Ci\u0119 szuka, szukam, o Panie, Twojego oblicza; oblicza Twego nie kryj przede mn\u0105.\n*Ps 26:1*\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107?\nChwa\u0142a Ojcu.\nDo Ciebie m\u00f3wi serce moje, oblicze moje Ci\u0119 szuka, szukam, o Panie, Twojego oblicza; oblicza Twego nie kryj przede mn\u0105.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, wspomagaj nas mi\u0142o\u015bciwie w zachowaniu \u015bwi\u0119tej wstrzemi\u0119\u017aliwo\u015bci, aby\u015bmy poznawszy za Twoj\u0105 spraw\u0105, co nam czyni\u0107 nale\u017cy, przy Twojej pomocy to wype\u0142niali.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Kr\u00f3lewskiej.\n*1 Krl 17:8-16*\nW one dni: Sta\u0142o si\u0119 s\u0142owo Pa\u0144skie do Eliasza Tesbitczyka m\u00f3wi\u0105c: \u00abWsta\u0144 a id\u017a do Sarepty Sydo\u0144czyk\u00f3w, i b\u0119dziesz tam mieszka\u0142, bom tam rozkaza\u0142 niewie\u015bcie wdowie, aby ci\u0119 \u017cywi\u0142a\u00bb. Wsta\u0142 i poszed\u0142 do Sarepty. A gdy przyszed\u0142 do bramy miejskiej, ukaza\u0142a mu si\u0119 niewiasta wdowa, zbieraj\u0105ca drewna, i zawo\u0142a\u0142 na ni\u0105, i rzek\u0142 do niej: \u00abDaj mi troch\u0119 wody w naczyniu, \u017cebym si\u0119 napi\u0142\u00bb. A gdy ona sz\u0142a, aby przynie\u015b\u0107, zawo\u0142a\u0142 za ni\u0105 m\u00f3wi\u0105c: \u00abPrzynie\u015b prosz\u0119 i skibk\u0119 chleba w r\u0119ce twojej\u00bb. Ona odpowiedzia\u0142a: \u00ab\u017byje Pan, B\u00f3g tw\u00f3j, \u017ce nie mam chleba, jeno tyle m\u0105ki w garncu, ile si\u0119 w gar\u015bci zmie\u015bci\u0107 mo\u017ce, i troszk\u0119 oliwy w ba\u0144ce; oto zbieram dwa drewna, \u017cebym wesz\u0142a i uczyni\u0142a go sobie i synowi swemu, \u017ceby\u015bmy zjedli i pomarli\u00bb. Rzek\u0142 do niej Eliasz: \u00abNie b\u00f3j si\u0119, ale id\u017a i uczy\u0144, jako\u015b rzek\u0142a; wszak\u017ce mnie pierwej uczy\u0144 z tej trochy m\u0105ki chleb podp\u0142omny ma\u0142y i przynie\u015b do mnie, a sobie i synowi swemu potem uczynisz. A to m\u00f3wi Pan, B\u00f3g Izrael\u00f3w: Garniec m\u0105ki nie ustanie ani ba\u0144ki oliwy nie ub\u0119dzie a\u017c do dnia, kt\u00f3rego Pan da deszcz na ziemi\u0119\u00bb. Ona posz\u0142a i uczyni\u0142a wed\u0142ug s\u0142owa Eliaszowego; i jad\u0142 on i ona, i dom jej. I od owego dnia garniec m\u0105ki nie usta\u0142 i ba\u0144ki oliwy nie uby\u0142o wed\u0142ug s\u0142owa Pa\u0144skiego, kt\u00f3re rzek\u0142 przez usta Eliasza.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 54:23; 54:17; 54:18; 54:19*\nZ\u0142\u00f3\u017c trosk\u0119 swoj\u0105 na Pana, On sam ci\u0119 podtrzyma.\nV. Kiedy wo\u0142a\u0142em do Pana, wys\u0142ucha\u0142 g\u0142osu mego przeciw tym, co na mnie nastaj\u0105.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 23:1-12*\nOnego czasu rzek\u0142 Jezus do rzesz i do uczni\u00f3w swoich, m\u00f3wi\u0105c: \u00abNa stolicy Moj\u017ceszowej zasiedli uczeni w Pi\u015bmie i faryzeusze. Wszystko tedy, cokolwiek by wam powiedzieli, zachowujcie i czy\u0144cie, ale wed\u0142ug uczynk\u00f3w ich nie post\u0119pujcie: m\u00f3wi\u0105 bowiem, a nie czyni\u0105. Bo wi\u0105\u017c\u0105 ci\u0119\u017ckie i niezno\u015bne brzemiona i nak\u0142adaj\u0105 na barki ludzkie, a palcem swym nie chc\u0105 ich ruszy\u0107. Wszystkie te\u017c sprawy swe czyni\u0105, aby byli widziani od ludzi. Powi\u0119kszaj\u0105 bowiem filakterie swe i wyd\u0142u\u017caj\u0105 kraj szat swoich. Ch\u0119tnie te\u017c zajmuj\u0105 pierwsze miejsca na ucztach i w synagogach, a lubi\u0105 pozdrowienia na rynku i aby ich ludzie Rabbi nazywali. Wy za\u015b nie chciejcie, by was nazywano nauczycielami, albowiem jeden jest Nauczyciel wasz, a wy wszyscy bra\u0107mi jeste\u015bcie. Ani ojcem nie nazywajcie nikogo na ziemi, jeden jest bowiem Ojciec wasz, kt\u00f3ry jest w niebiesiech. Ani si\u0119 nie nazywajcie nauczycielami, jeden jest bowiem Nauczyciel wasz, Chrystus. Kto wi\u0119kszy mi\u0119dzy wami, s\u0142ug\u0105 waszym b\u0119dzie. A kto by si\u0119 wywy\u017csza\u0142, b\u0119dzie poni\u017cony, a kto by si\u0119 uni\u017ca\u0142, wywy\u017cszony b\u0119dzie\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 50:3*\nZmi\u0142uj si\u0119 nade mn\u0105, Panie, w wielkim mi\u0142osierdziu Twoim; zg\u0142ad\u017a, Panie, nieprawo\u015b\u0107 moj\u0105.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, dokonaj w nas \u0142askawie przez te tajemnice dzie\u0142a u\u015bwi\u0119cenia: oczy\u015b\u0107 nas z b\u0142\u0119d\u00f3w ziemskich i doprowad\u017a do nagrody niebieskiej.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 9:2-3*\nOpowiem wszystkie cudowne dzie\u0142a Twoje, b\u0119d\u0119 si\u0119 cieszy\u0107 i radowa\u0107 Tob\u0105, \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Spraw, prosimy Ci\u0119, Panie, aby\u015bmy przez wierne pos\u0142usze\u0144stwo Twoim przykazaniom stali si\u0119 godnymi \u015bwi\u0119tych dar\u00f3w.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 26:8; 26:9*\nDo Ciebie m\u00f3wi serce moje, oblicze moje Ci\u0119 szuka, szukam, o Panie, Twojego oblicza; oblicza Twego nie kryj przede mn\u0105.\n*Ps 26:1*\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107?\nChwa\u0142a Ojcu.\nDo Ciebie m\u00f3wi serce moje, oblicze moje Ci\u0119 szuka, szukam, o Panie, Twojego oblicza; oblicza Twego nie kryj przede mn\u0105.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, wspomagaj nas mi\u0142o\u015bciwie w zachowaniu \u015bwi\u0119tej wstrzemi\u0119\u017aliwo\u015bci, aby\u015bmy poznawszy za Twoj\u0105 spraw\u0105, co nam czyni\u0107 nale\u017cy, przy Twojej pomocy to wype\u0142niali.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Kr\u00f3lewskiej.\n*1 Krl 17:8-16*\nW one dni: Sta\u0142o si\u0119 s\u0142owo Pa\u0144skie do Eliasza Tesbitczyka m\u00f3wi\u0105c: \u00abWsta\u0144 a id\u017a do Sarepty Sydo\u0144czyk\u00f3w, i b\u0119dziesz tam mieszka\u0142, bom tam rozkaza\u0142 niewie\u015bcie wdowie, aby ci\u0119 \u017cywi\u0142a\u00bb. Wsta\u0142 i poszed\u0142 do Sarepty. A gdy przyszed\u0142 do bramy miejskiej, ukaza\u0142a mu si\u0119 niewiasta wdowa, zbieraj\u0105ca drewna, i zawo\u0142a\u0142 na ni\u0105, i rzek\u0142 do niej: \u00abDaj mi troch\u0119 wody w naczyniu, \u017cebym si\u0119 napi\u0142\u00bb. A gdy ona sz\u0142a, aby przynie\u015b\u0107, zawo\u0142a\u0142 za ni\u0105 m\u00f3wi\u0105c: \u00abPrzynie\u015b prosz\u0119 i skibk\u0119 chleba w r\u0119ce twojej\u00bb. Ona odpowiedzia\u0142a: \u00ab\u017byje Pan, B\u00f3g tw\u00f3j, \u017ce nie mam chleba, jeno tyle m\u0105ki w garncu, ile si\u0119 w gar\u015bci zmie\u015bci\u0107 mo\u017ce, i troszk\u0119 oliwy w ba\u0144ce; oto zbieram dwa drewna, \u017cebym wesz\u0142a i uczyni\u0142a go sobie i synowi swemu, \u017ceby\u015bmy zjedli i pomarli\u00bb. Rzek\u0142 do niej Eliasz: \u00abNie b\u00f3j si\u0119, ale id\u017a i uczy\u0144, jako\u015b rzek\u0142a; wszak\u017ce mnie pierwej uczy\u0144 z tej trochy m\u0105ki chleb podp\u0142omny ma\u0142y i przynie\u015b do mnie, a sobie i synowi swemu potem uczynisz. A to m\u00f3wi Pan, B\u00f3g Izrael\u00f3w: Garniec m\u0105ki nie ustanie ani ba\u0144ki oliwy nie ub\u0119dzie a\u017c do dnia, kt\u00f3rego Pan da deszcz na ziemi\u0119\u00bb. Ona posz\u0142a i uczyni\u0142a wed\u0142ug s\u0142owa Eliaszowego; i jad\u0142 on i ona, i dom jej. I od owego dnia garniec m\u0105ki nie usta\u0142 i ba\u0144ki oliwy nie uby\u0142o wed\u0142ug s\u0142owa Pa\u0144skiego, kt\u00f3re rzek\u0142 przez usta Eliasza.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 54:23; 54:17; 54:18; 54:19*\nZ\u0142\u00f3\u017c trosk\u0119 swoj\u0105 na Pana, On sam ci\u0119 podtrzyma.\nV. Kiedy wo\u0142a\u0142em do Pana, wys\u0142ucha\u0142 g\u0142osu mego przeciw tym, co na mnie nastaj\u0105.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 23:1-12*\nOnego czasu rzek\u0142 Jezus do rzesz i do uczni\u00f3w swoich, m\u00f3wi\u0105c: \u00abNa stolicy Moj\u017ceszowej zasiedli uczeni w Pi\u015bmie i faryzeusze. Wszystko tedy, cokolwiek by wam powiedzieli, zachowujcie i czy\u0144cie, ale wed\u0142ug uczynk\u00f3w ich nie post\u0119pujcie: m\u00f3wi\u0105 bowiem, a nie czyni\u0105. Bo wi\u0105\u017c\u0105 ci\u0119\u017ckie i niezno\u015bne brzemiona i nak\u0142adaj\u0105 na barki ludzkie, a palcem swym nie chc\u0105 ich ruszy\u0107. Wszystkie te\u017c sprawy swe czyni\u0105, aby byli widziani od ludzi. Powi\u0119kszaj\u0105 bowiem filakterie swe i wyd\u0142u\u017caj\u0105 kraj szat swoich. Ch\u0119tnie te\u017c zajmuj\u0105 pierwsze miejsca na ucztach i w synagogach, a lubi\u0105 pozdrowienia na rynku i aby ich ludzie Rabbi nazywali. Wy za\u015b nie chciejcie, by was nazywano nauczycielami, albowiem jeden jest Nauczyciel wasz, a wy wszyscy bra\u0107mi jeste\u015bcie. Ani ojcem nie nazywajcie nikogo na ziemi, jeden jest bowiem Ojciec wasz, kt\u00f3ry jest w niebiesiech. Ani si\u0119 nie nazywajcie nauczycielami, jeden jest bowiem Nauczyciel wasz, Chrystus. Kto wi\u0119kszy mi\u0119dzy wami, s\u0142ug\u0105 waszym b\u0119dzie. A kto by si\u0119 wywy\u017csza\u0142, b\u0119dzie poni\u017cony, a kto by si\u0119 uni\u017ca\u0142, wywy\u017cszony b\u0119dzie\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 50:3*\nZmi\u0142uj si\u0119 nade mn\u0105, Panie, w wielkim mi\u0142osierdziu Twoim; zg\u0142ad\u017a, Panie, nieprawo\u015b\u0107 moj\u0105.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, dokonaj w nas \u0142askawie przez te tajemnice dzie\u0142a u\u015bwi\u0119cenia: oczy\u015b\u0107 nas z b\u0142\u0119d\u00f3w ziemskich i doprowad\u017a do nagrody niebieskiej.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 9:2-3*\nOpowiem wszystkie cudowne dzie\u0142a Twoje, b\u0119d\u0119 si\u0119 cieszy\u0107 i radowa\u0107 Tob\u0105, \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Spraw, prosimy Ci\u0119, Panie, aby\u015bmy przez wierne pos\u0142usze\u0144stwo Twoim przykazaniom stali si\u0119 godnymi \u015bwi\u0119tych dar\u00f3w.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

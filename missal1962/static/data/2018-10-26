@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2018-10-26", 
+      "description": "Przez Chrzest \u015bwi\u0119ty Chrystus rozpocz\u0105\u0142 dzie\u0142o u\u015bwi\u0119cenia naszych dusz. \u017bycie nadprzyrodzone winno si\u0119 nieustannie rozwija\u0107 \u00aba\u017c do dnia Jezusa Chrystusa\u00bb, to jest do dnia s\u0105du Bo\u017cego nad nami. Ko\u015bci\u00f3\u0142 modli si\u0119 o nieustanny wzrost \u015bwi\u0119to\u015bci dla wszystkich swoich wyznawc\u00f3w (lekcja). Zdaj\u0105c sobie spraw\u0119 z win, kt\u00f3re ich obci\u0105\u017caj\u0105, odwo\u0142uje si\u0119 do mi\u0142osierdzia Bo\u017cego (antyfona na wej\u015bcie) i wyprasza sobie \u0142ask\u0119 dobrej modlitwy, kt\u00f3ra zosta\u0142aby wys\u0142uchana (antyfona na ofiarowanie). W ewangelii Chrystus uczy nas, \u017ce nie ma sprzeczno\u015bci mi\u0119dzy obowi\u0105zkami wobec ojczyzny ziemskiej i Boga. Chrze\u015bcijanin winien spe\u0142nia\u0107 obowi\u0105zki wobec pa\u0144stwa, ale musi pami\u0119ta\u0107, \u017ce na w\u0142asnej duszy nosi wyci\u015bni\u0119te podobie\u0144stwo Bo\u017ce i do Boga ma wr\u00f3ci\u0107. W \u017cyciu doczesnym cz\u0142owiek wraca do Boga przez ofiar\u0119, ostatecznie wr\u00f3ci przez \u015bmier\u0107 i zmartwychwstanie.\n", 
+      "tempora": null, 
+      "title": "Pi\u0105tek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 129:3-4*\nSi iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit? quia apud te propiti\u00e1tio est, Deus Isra\u00ebl.\n*Ps 129:1-2*\nDe prof\u00fandis clam\u00e1vi ad te, D\u00f3mine: D\u00f3mine, ex\u00e1udi vocem meam.\nGl\u00f3ria Patri.\nSi iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit? quia apud te propiti\u00e1tio est, Deus Isra\u00ebl.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, ref\u00fagium nostrum et virtus: ad\u00e9sto piis Eccl\u00e9si\u00e6 tu\u00e6 pr\u00e9cibus, auctor ipse piet\u00e1tis, et pr\u00e6sta; ut, quod fid\u00e9liter p\u00e9timus, effic\u00e1citer consequ\u00e1mur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philipp\u00e9nses\n*Phil 1:6-11*\nFratres: Conf\u00eddimus in D\u00f3mino Jesu, quia, qui coepit in vobis opus bonum, perf\u00edciet usque in diem Christi Jesu. Sicut est mihi justum hoc sent\u00edre pro \u00f3mnibus vobis: eo quod h\u00e1beam vos in corde, et in v\u00ednculis meis, etin defensi\u00f3ne, et confirmati\u00f3ne Evang\u00e9lii, s\u00f3cios g\u00e1udii mei omnes vos esse. Testis enim mihi est Deus, qu\u00f3modo c\u00fapiam omnes vos in visc\u00e9ribus Jesu Christi. Et hoc oro, ut c\u00e1ritas vestra magis ac magis ab\u00fandet in sci\u00e9ntia et in omni sensu: ut prob\u00e9tis poti\u00f3ra, ut sitis sinc\u00e9ri et sine off\u00e9nsa in diem Christi, repl\u00e9ti fructu just\u00edti\u00e6 per Jesum Christum, in gl\u00f3riam et laudem Dei.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 132:1-2*\nEcce, quam bonum et quam juc\u00fandum, habit\u00e1re fratres in unum!\nV. Sicut ungu\u00e9ntum in c\u00e1pite, quod desc\u00e9ndit in barbam, barbam Aaron. Allel\u00faja, allel\u00faja\n*Ps 113:11*\nQui timent D\u00f3minum sperent in eo: adj\u00fator et prot\u00e9ctor e\u00f3rum est. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 22:15-21*\nIn illo t\u00e9mpore: Abe\u00fantes pharisaei cons\u00edlium ini\u00e9runt, ut c\u00e1perent Jesum in serm\u00f3ne. Et mittunt ei disc\u00edpulos suos cum Herodi\u00e1nis, dic\u00e9ntes: Mag\u00edster, scimus, quia verax es et viam Dei in verit\u00e1te doces, et non est tibi cura de \u00e1liquo: non enim r\u00e9spicis pers\u00f3nam h\u00f3minum: dic ergo nobis, quid tibi vid\u00e9tur, licet censum dare Caesari, an non? C\u00f3gnita autem Jesus nequ\u00edtia e\u00f3rum, ait: Quid me tent\u00e1tis, hyp\u00f3crit\u00e6? Ost\u00e9ndite mihi num\u00edsma census. At illi obtul\u00e9runt ei den\u00e1rium. Et ait illis Jesus: Cujus est im\u00e1go h\u00e6c et superscr\u00edptio? Dicunt ei: Caesaris. Tunc ait illis: R\u00e9ddite ergo, qu\u00e6 sunt Caesaris, Caesari; et, qu\u00e6 sunt Dei, Deo.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Esth 14:12; 14:13*\nRecord\u00e1re mei, D\u00f3mine, omni potent\u00e1tui d\u00f3minans: et da serm\u00f3nem rectum in os meum, ut pl\u00e1ceant verba mea in consp\u00e9ctu pr\u00edncipis.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Da, mis\u00e9ricors Deus: ut h\u00e6c salut\u00e1ris obl\u00e1tio et a pr\u00f3priis nos re\u00e1tibus indesin\u00e9nter exp\u00e9diat, et ab \u00f3mnibus tue\u00e1tur adv\u00e9rsis.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 16:6*\nEgo clam\u00e1vi, qu\u00f3niam exaud\u00edsti me, Deus: incl\u00edna aurem tuam et ex\u00e1udi verba mea.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "S\u00fampsimus, D\u00f3mine, sacri dona myst\u00e9rii, hum\u00edliter deprec\u00e1ntes: ut, qu\u00e6 in tui commemorati\u00f3nem nos f\u00e1cere pr\u00e6cep\u00edsti, in nostr\u00e6 prof\u00edciant infirmit\u00e1tis aux\u00edlium:\nQui vivis.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-10-26", 
-    "description": "Przez Chrzest \u015bwi\u0119ty Chrystus rozpocz\u0105\u0142 dzie\u0142o u\u015bwi\u0119cenia naszych dusz. \u017bycie nadprzyrodzone winno si\u0119 nieustannie rozwija\u0107 \u00aba\u017c do dnia Jezusa Chrystusa\u00bb, to jest do dnia s\u0105du Bo\u017cego nad nami. Ko\u015bci\u00f3\u0142 modli si\u0119 o nieustanny wzrost \u015bwi\u0119to\u015bci dla wszystkich swoich wyznawc\u00f3w (lekcja). Zdaj\u0105c sobie spraw\u0119 z win, kt\u00f3re ich obci\u0105\u017caj\u0105, odwo\u0142uje si\u0119 do mi\u0142osierdzia Bo\u017cego (antyfona na wej\u015bcie) i wyprasza sobie \u0142ask\u0119 dobrej modlitwy, kt\u00f3ra zosta\u0142aby wys\u0142uchana (antyfona na ofiarowanie). W ewangelii Chrystus uczy nas, \u017ce nie ma sprzeczno\u015bci mi\u0119dzy obowi\u0105zkami wobec ojczyzny ziemskiej i Boga. Chrze\u015bcijanin winien spe\u0142nia\u0107 obowi\u0105zki wobec pa\u0144stwa, ale musi pami\u0119ta\u0107, \u017ce na w\u0142asnej duszy nosi wyci\u015bni\u0119te podobie\u0144stwo Bo\u017ce i do Boga ma wr\u00f3ci\u0107. W \u017cyciu doczesnym cz\u0142owiek wraca do Boga przez ofiar\u0119, ostatecznie wr\u00f3ci przez \u015bmier\u0107 i zmartwychwstanie.\n", 
-    "tempora": null, 
-    "title": "Pi\u0105tek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 129:3-4*\nSi iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit? quia apud te propiti\u00e1tio est, Deus Isra\u00ebl.\n*Ps 129:1-2*\nDe prof\u00fandis clam\u00e1vi ad te, D\u00f3mine: D\u00f3mine, ex\u00e1udi vocem meam.\nGl\u00f3ria Patri.\nSi iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit? quia apud te propiti\u00e1tio est, Deus Isra\u00ebl.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, ref\u00fagium nostrum et virtus: ad\u00e9sto piis Eccl\u00e9si\u00e6 tu\u00e6 pr\u00e9cibus, auctor ipse piet\u00e1tis, et pr\u00e6sta; ut, quod fid\u00e9liter p\u00e9timus, effic\u00e1citer consequ\u00e1mur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philipp\u00e9nses\n*Phil 1:6-11*\nFratres: Conf\u00eddimus in D\u00f3mino Jesu, quia, qui coepit in vobis opus bonum, perf\u00edciet usque in diem Christi Jesu. Sicut est mihi justum hoc sent\u00edre pro \u00f3mnibus vobis: eo quod h\u00e1beam vos in corde, et in v\u00ednculis meis, etin defensi\u00f3ne, et confirmati\u00f3ne Evang\u00e9lii, s\u00f3cios g\u00e1udii mei omnes vos esse. Testis enim mihi est Deus, qu\u00f3modo c\u00fapiam omnes vos in visc\u00e9ribus Jesu Christi. Et hoc oro, ut c\u00e1ritas vestra magis ac magis ab\u00fandet in sci\u00e9ntia et in omni sensu: ut prob\u00e9tis poti\u00f3ra, ut sitis sinc\u00e9ri et sine off\u00e9nsa in diem Christi, repl\u00e9ti fructu just\u00edti\u00e6 per Jesum Christum, in gl\u00f3riam et laudem Dei.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 132:1-2*\nEcce, quam bonum et quam juc\u00fandum, habit\u00e1re fratres in unum!\nV. Sicut ungu\u00e9ntum in c\u00e1pite, quod desc\u00e9ndit in barbam, barbam Aaron. Allel\u00faja, allel\u00faja\n*Ps 113:11*\nQui timent D\u00f3minum sperent in eo: adj\u00fator et prot\u00e9ctor e\u00f3rum est. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 22:15-21*\nIn illo t\u00e9mpore: Abe\u00fantes pharisaei cons\u00edlium ini\u00e9runt, ut c\u00e1perent Jesum in serm\u00f3ne. Et mittunt ei disc\u00edpulos suos cum Herodi\u00e1nis, dic\u00e9ntes: Mag\u00edster, scimus, quia verax es et viam Dei in verit\u00e1te doces, et non est tibi cura de \u00e1liquo: non enim r\u00e9spicis pers\u00f3nam h\u00f3minum: dic ergo nobis, quid tibi vid\u00e9tur, licet censum dare Caesari, an non? C\u00f3gnita autem Jesus nequ\u00edtia e\u00f3rum, ait: Quid me tent\u00e1tis, hyp\u00f3crit\u00e6? Ost\u00e9ndite mihi num\u00edsma census. At illi obtul\u00e9runt ei den\u00e1rium. Et ait illis Jesus: Cujus est im\u00e1go h\u00e6c et superscr\u00edptio? Dicunt ei: Caesaris. Tunc ait illis: R\u00e9ddite ergo, qu\u00e6 sunt Caesaris, Caesari; et, qu\u00e6 sunt Dei, Deo.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Esth 14:12; 14:13*\nRecord\u00e1re mei, D\u00f3mine, omni potent\u00e1tui d\u00f3minans: et da serm\u00f3nem rectum in os meum, ut pl\u00e1ceant verba mea in consp\u00e9ctu pr\u00edncipis.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Da, mis\u00e9ricors Deus: ut h\u00e6c salut\u00e1ris obl\u00e1tio et a pr\u00f3priis nos re\u00e1tibus indesin\u00e9nter exp\u00e9diat, et ab \u00f3mnibus tue\u00e1tur adv\u00e9rsis.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 16:6*\nEgo clam\u00e1vi, qu\u00f3niam exaud\u00edsti me, Deus: incl\u00edna aurem tuam et ex\u00e1udi verba mea.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "S\u00fampsimus, D\u00f3mine, sacri dona myst\u00e9rii, hum\u00edliter deprec\u00e1ntes: ut, qu\u00e6 in tui commemorati\u00f3nem nos f\u00e1cere pr\u00e6cep\u00edsti, in nostr\u00e6 prof\u00edciant infirmit\u00e1tis aux\u00edlium:\nQui vivis.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 129:3-4*\nJe\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi? Ale u Ciebie, Bo\u017ce Izraela, jest przebaczenie grzech\u00f3w.\n*Ps 129:1-2*\nZ g\u0142\u0119boko\u015bci wo\u0142am do Ciebie, Panie, o Panie, s\u0142uchaj g\u0142osu mego.\nChwa\u0142a Ojcu.\nJe\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi? Ale u Ciebie, Bo\u017ce Izraela, jest przebaczenie grzech\u00f3w.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, ucieczko nasza i mocy, wys\u0142uchaj pokornych mod\u0142\u00f3w Twojego Ko\u015bcio\u0142a, skoro pobo\u017cno\u015b\u0107, kt\u00f3ra je zrodzi\u0142a, Twoim jest dzie\u0142em, i spraw, aby\u015bmy otrzymali wszystko, o co Ci\u0119 z ufno\u015bci\u0105 prosimy.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Filipian.\n*Flp 1:6-11*\nBracia: Ufamy, w Panu Jezusie, \u017ce Ten, kt\u00f3ry rozpocz\u0105\u0142 w was dobr\u0105 spraw\u0119, dokona jej a\u017c do dnia Chrystusa Jezusa. Jak\u017ce to s\u0142uszne, abym tak s\u0105dzi\u0142 o was, bo przecie\u017c nosz\u0119 was w sercu, a wy wszyscy wsp\u00f3\u0142uczestnikami rado\u015bci mojej jeste\u015bcie i w wi\u0119zach moich, i w obronie, i w umacnianiu Ewangelii. Albowiem \u015bwiadkiem mi jest B\u00f3g, jak pragn\u0119, aby\u015bcie wszyscy byli w sercu Jezusa Chrystusa. A modl\u0119 si\u0119 o to, aby mi\u0142o\u015b\u0107 wasza pomna\u017ca\u0142a si\u0119 nieustannie w umiej\u0119tno\u015bci i we wszelkim zrozumieniu, aby\u015bcie umieli rozezna\u0107, co wa\u017cniejsze, a byli szczerzy i bez skazy na dzie\u0144 Chrystusowy, nape\u0142nieni plonem sprawiedliwo\u015bci przez Jezusa Chrystusa ku czci i chwale Bo\u017cej.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 132:1-2*\n*\u017bycie w spo\u0142eczno\u015bci Ko\u015bcio\u0142a przygotowuje nas do \u017cycia wiecznego, w kt\u00f3rym mi\u0142o\u015b\u0107 usunie wszelkie r\u00f3\u017cnice.*\nOto jak dobrze i jak mi\u0142o braciom zamieszka\u0107 spo\u0142em.\nV. Jak wyborny olejek na g\u0142owie, co sp\u0142ywa na brod\u0119, brod\u0119 Aarona. Alleluja, alleluja.\n*Ps 113:11*\nKt\u00f3rzy si\u0119 Pana boj\u0105, niechaj Mu ufaj\u0105. On jest ich obro\u0144c\u0105 i wspomo\u017cycielem. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 22:15-21*\nOnego czasu: Faryzeusze odszed\u0142szy naradzali si\u0119, jakby Go pochwyci\u0107 w mowie. I wysy\u0142ali do niego uczni\u00f3w swoich z herodianami, m\u00f3wi\u0105c: \u00abNauczycielu, wiemy, \u017ce\u015b prawdom\u00f3wny i drogi Bo\u017cej w prawdzie nauczasz i nie dbasz o nikogo, bo nie ogl\u0105dasz si\u0119 na osob\u0119 ludzk\u0105. Powiedz\u017ce nam tedy, co si\u0119 tobie zdaje: Godzili si\u0119 p\u0142aci\u0107 danin\u0119 cesarzowi, czy te\u017c nie?\u00bb A Jezus, poznawszy ich przewrotno\u015b\u0107, rzek\u0142: \u00abCzemu mnie kusicie ob\u0142udnicy? Poka\u017ccie mi monet\u0119 czynszow\u0105\u00bb. A oni podali Mu denar. I rzek\u0142 im Jezus: \u00abCzyj to wizerunek i napis?\u00bb M\u00f3wi\u0105 Mu: \u00abCesarski\u00bb. Wtedy powiedzia\u0142 im: \u00abOddajcie\u017c tedy, co jest cesarskiego, cesarzowi, a co jest Bo\u017cego, Bogu\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Est 14:12; 14:13*\nWspomnij na mnie, o Panie, kt\u00f3remu wszelka zwierzchno\u015b\u0107 podlega. W\u0142\u00f3\u017c w moje usta mow\u0119 w\u0142a\u015bciw\u0105, aby si\u0119 podoba\u0142y s\u0142owa moje w obliczu kr\u00f3la.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Daj, mi\u0142osierny Bo\u017ce, aby ta zbawienna ofiara zawsze nas wyzwala\u0142a z naszych grzech\u00f3w i broni\u0142a od wszelkich przeciwno\u015bci. Przez Pana naszego Jezusa Chrystusa, kt\u00f3ry z Tob\u0105 \u017cyje i kr\u00f3luje w jedno\u015bci Ducha \u015awi\u0119tego, B\u00f3g przez wszystkie wieki wiek\u00f3w. Amen.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 16:6*\nWzywam Ci\u0119, Bo\u017ce, bo Ty mnie wys\u0142uchasz. Nak\u0142o\u0144 ku mnie Twe ucho, us\u0142ysz moje s\u0142owa.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Przyj\u0119li\u015bmy, Panie, dary \u015bwi\u0119tego misterium, pokornie b\u0142agaj\u0105c, aby to, co kaza\u0142e\u015b nam czyni\u0107 na Twoj\u0105 pami\u0105tk\u0119, przynios\u0142o pomoc w naszych s\u0142abo\u015bciach.\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 129:3-4*\nJe\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi? Ale u Ciebie, Bo\u017ce Izraela, jest przebaczenie grzech\u00f3w.\n*Ps 129:1-2*\nZ g\u0142\u0119boko\u015bci wo\u0142am do Ciebie, Panie, o Panie, s\u0142uchaj g\u0142osu mego.\nChwa\u0142a Ojcu.\nJe\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi? Ale u Ciebie, Bo\u017ce Izraela, jest przebaczenie grzech\u00f3w.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, ucieczko nasza i mocy, wys\u0142uchaj pokornych mod\u0142\u00f3w Twojego Ko\u015bcio\u0142a, skoro pobo\u017cno\u015b\u0107, kt\u00f3ra je zrodzi\u0142a, Twoim jest dzie\u0142em, i spraw, aby\u015bmy otrzymali wszystko, o co Ci\u0119 z ufno\u015bci\u0105 prosimy.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Filipian.\n*Flp 1:6-11*\nBracia: Ufamy, w Panu Jezusie, \u017ce Ten, kt\u00f3ry rozpocz\u0105\u0142 w was dobr\u0105 spraw\u0119, dokona jej a\u017c do dnia Chrystusa Jezusa. Jak\u017ce to s\u0142uszne, abym tak s\u0105dzi\u0142 o was, bo przecie\u017c nosz\u0119 was w sercu, a wy wszyscy wsp\u00f3\u0142uczestnikami rado\u015bci mojej jeste\u015bcie i w wi\u0119zach moich, i w obronie, i w umacnianiu Ewangelii. Albowiem \u015bwiadkiem mi jest B\u00f3g, jak pragn\u0119, aby\u015bcie wszyscy byli w sercu Jezusa Chrystusa. A modl\u0119 si\u0119 o to, aby mi\u0142o\u015b\u0107 wasza pomna\u017ca\u0142a si\u0119 nieustannie w umiej\u0119tno\u015bci i we wszelkim zrozumieniu, aby\u015bcie umieli rozezna\u0107, co wa\u017cniejsze, a byli szczerzy i bez skazy na dzie\u0144 Chrystusowy, nape\u0142nieni plonem sprawiedliwo\u015bci przez Jezusa Chrystusa ku czci i chwale Bo\u017cej.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 132:1-2*\n*\u017bycie w spo\u0142eczno\u015bci Ko\u015bcio\u0142a przygotowuje nas do \u017cycia wiecznego, w kt\u00f3rym mi\u0142o\u015b\u0107 usunie wszelkie r\u00f3\u017cnice.*\nOto jak dobrze i jak mi\u0142o braciom zamieszka\u0107 spo\u0142em.\nV. Jak wyborny olejek na g\u0142owie, co sp\u0142ywa na brod\u0119, brod\u0119 Aarona. Alleluja, alleluja.\n*Ps 113:11*\nKt\u00f3rzy si\u0119 Pana boj\u0105, niechaj Mu ufaj\u0105. On jest ich obro\u0144c\u0105 i wspomo\u017cycielem. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 22:15-21*\nOnego czasu: Faryzeusze odszed\u0142szy naradzali si\u0119, jakby Go pochwyci\u0107 w mowie. I wysy\u0142ali do niego uczni\u00f3w swoich z herodianami, m\u00f3wi\u0105c: \u00abNauczycielu, wiemy, \u017ce\u015b prawdom\u00f3wny i drogi Bo\u017cej w prawdzie nauczasz i nie dbasz o nikogo, bo nie ogl\u0105dasz si\u0119 na osob\u0119 ludzk\u0105. Powiedz\u017ce nam tedy, co si\u0119 tobie zdaje: Godzili si\u0119 p\u0142aci\u0107 danin\u0119 cesarzowi, czy te\u017c nie?\u00bb A Jezus, poznawszy ich przewrotno\u015b\u0107, rzek\u0142: \u00abCzemu mnie kusicie ob\u0142udnicy? Poka\u017ccie mi monet\u0119 czynszow\u0105\u00bb. A oni podali Mu denar. I rzek\u0142 im Jezus: \u00abCzyj to wizerunek i napis?\u00bb M\u00f3wi\u0105 Mu: \u00abCesarski\u00bb. Wtedy powiedzia\u0142 im: \u00abOddajcie\u017c tedy, co jest cesarskiego, cesarzowi, a co jest Bo\u017cego, Bogu\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Est 14:12; 14:13*\nWspomnij na mnie, o Panie, kt\u00f3remu wszelka zwierzchno\u015b\u0107 podlega. W\u0142\u00f3\u017c w moje usta mow\u0119 w\u0142a\u015bciw\u0105, aby si\u0119 podoba\u0142y s\u0142owa moje w obliczu kr\u00f3la.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Daj, mi\u0142osierny Bo\u017ce, aby ta zbawienna ofiara zawsze nas wyzwala\u0142a z naszych grzech\u00f3w i broni\u0142a od wszelkich przeciwno\u015bci. Przez Pana naszego Jezusa Chrystusa, kt\u00f3ry z Tob\u0105 \u017cyje i kr\u00f3luje w jedno\u015bci Ducha \u015awi\u0119tego, B\u00f3g przez wszystkie wieki wiek\u00f3w. Amen.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 16:6*\nWzywam Ci\u0119, Bo\u017ce, bo Ty mnie wys\u0142uchasz. Nak\u0142o\u0144 ku mnie Twe ucho, us\u0142ysz moje s\u0142owa.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Przyj\u0119li\u015bmy, Panie, dary \u015bwi\u0119tego misterium, pokornie b\u0142agaj\u0105c, aby to, co kaza\u0142e\u015b nam czyni\u0107 na Twoj\u0105 pami\u0105tk\u0119, przynios\u0142o pomoc w naszych s\u0142abo\u015bciach.\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

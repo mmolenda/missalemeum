@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-07-04", 
+      "description": "W\u015br\u00f3d walk i utrapie\u0144 doczesnego \u017cycia przynale\u017cno\u015b\u0107 do Ko\u015bcio\u0142a katolickiego jest ostoj\u0105 naszej ufno\u015bci. \u015aw. Pawe\u0142 poucza, \u017ce cierpienie jest zwi\u0105zane z doczesno\u015bci\u0105. Cz\u0142owiek, a z nim ca\u0142e stworzenie, oczekuje rozci\u0105gni\u0119cia owoc\u00f3w Odkupienia na cia\u0142o cz\u0142owieka i na przyrod\u0119 (lekcja). Do\u015bwiadczenia spotykaj\u0105 r\u00f3wnie\u017c Ko\u015bci\u00f3\u0142 \u2014 \u0142\u00f3d\u017a Piotrow\u0105, w kt\u00f3rej odbywamy nasz\u0105 doczesn\u0105 pielgrzymk\u0119 (ewangelia). Modlimy si\u0119 o pok\u00f3j potrzebny Ko\u015bcio\u0142owi w pe\u0142nieniu jego misji (kolekta).\n", 
+      "tempora": null, 
+      "title": "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 26:1; 26:2*\nD\u00f3minus illumin\u00e1tio mea et salus mea, quem timebo? D\u00f3minus defensor vit\u00e6 me\u00e6, a quo trepid\u00e1bo? qui tr\u00edbulant me inim\u00edci mei, ipsi infirm\u00e1ti sunt, et cecid\u00e9runt.\n*Ps 26:3*\nSi cons\u00edstant adv\u00e9rsum me castra: non tim\u00e9bit cor meum.\nGl\u00f3ria Patri.\nD\u00f3minus illumin\u00e1tio mea et salus mea, quem timebo? D\u00f3minus defensor vit\u00e6 me\u00e6, a quo trepid\u00e1bo? qui tr\u00edbulant me inim\u00edci mei, ipsi infirm\u00e1ti sunt, et cecid\u00e9runt.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Da nobis, qu\u01fdsumus, D\u00f3mine: ut et mundi cursus pac\u00edfice nobis tuo \u00f3rdine dirig\u00e1tur; et Eccl\u00e9sia tua tranqu\u00edlla devoti\u00f3ne l\u00e6t\u00e9tur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 8:18-23.*\nFratres: Ex\u00edstimo, quod non sunt cond\u00edgn\u00e6 passi\u00f3nes hujus t\u00e9mporis ad fut\u00faram gl\u00f3riam, qu\u00e6 revel\u00e1bitur in nobis. Nam exspect\u00e1tio creat\u00far\u00e6 revelati\u00f3nem fili\u00f3rum Dei exsp\u00e9ctat. Vanit\u00e1ti enim creat\u00fara subj\u00e9cta est, non volens, sed propter eum, qui subj\u00e9cit eam in spe: quia et ipsa creat\u00fara liber\u00e1bitur a servit\u00fate corrupti\u00f3nis, in libert\u00e1tem gl\u00f3ri\u00e6 fili\u00f3rum Dei. Scimus enim, quod omnis creat\u00fara ingem\u00edscit et p\u00e1rturit usque adhuc. Non solum autem illa, sed et nos ipsi prim\u00edtias sp\u00edritus hab\u00e9ntes: et ipsi intra nos g\u00e9mimus, adopti\u00f3nem fili\u00f3rum Dei exspect\u00e1ntes, redempti\u00f3nem c\u00f3rporis nostri: in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 78:9; 78:10*\nProp\u00edtius esto, D\u00f3mine, pecc\u00e1tis nostris: ne quando dicant gentes: Ubi est Deus e\u00f3rum?\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter hon\u00f3rem n\u00f3minis tui, D\u00f3mine, l\u00edbera nos. Allel\u00faja, allel\u00faja\n*Ps 9:5; 9:10*\nDeus, qui sedes su per thronum, et j\u00fadicas \u00e6quit\u00e1tem: esto ref\u00fagium p\u00e1uperum in tribulati\u00f3ne. Allel\u00faja", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 5:1-11*\nIn illo t\u00e9mpore: Cum turb\u00e6 irr\u00faerent in Jesum, ut aud\u00edrent verbum Dei, et ipse stabat secus stagnum Gen\u00e9sareth. Et vidit duas naves stantes secus stagnum: piscat\u00f3res autem desc\u00e9nderant et lav\u00e1bant r\u00e9tia. Asc\u00e9ndens autem in unam navim, qu\u00e6 erat Sim\u00f3nis, rog\u00e1vit eum a terra red\u00facere pus\u00edllum. Et sedens doc\u00e9bat de nav\u00edcula turbas. Ut cess\u00e1vit autem loqui, dixit ad Sim\u00f3nem: Duc in altum, et lax\u00e1te r\u00e9tia vestra in capt\u00faram. Et resp\u00f3ndens Simon, dixit illi: Pr\u00e6c\u00e9ptor, per totam noctem labor\u00e1ntes, nihil c\u00e9pimus: in verbo autem tuo lax\u00e1bo rete. Et cum hoc fec\u00edssent, conclus\u00e9runt p\u00edscium multit\u00fadinem copi\u00f3sam: rumpeb\u00e1tur autem rete e\u00f3rum. Et annu\u00e9runt s\u00f3ciis, qui erant in \u00e1lia navi, ut ven\u00edrent et adjuv\u00e1rent eos. Et ven\u00e9runt, et implev\u00e9runt ambas nav\u00edculas, ita ut p\u00e6ne merger\u00e9ntur. Quod cum vid\u00e9ret Simon Petrus, pr\u00f3cidit ad g\u00e9nua Jesu, dicens: Exi a me, quia homo pecc\u00e1tor sum, D\u00f3mine. Stupor enim circumd\u00e9derat eum et omnes, qui cum illo erant, in capt\u00fara p\u00edscium, quam c\u00e9perant: sim\u00edliter autem Jac\u00f3bum et Jo\u00e1nnem, f\u00edlios Zebedaei, qui erant s\u00f3cii Sim\u00f3nis. Et ait ad Sim\u00f3nem Jesus: Noli tim\u00e9re: ex hoc jam h\u00f3mines eris c\u00e1piens. Et subd\u00factis ad terram n\u00e1vibus, relictis \u00f3mnibus, secuti sunt eum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 12:4-5*\nIll\u00famina \u00f3culos meos, ne umquam obd\u00f3rmiam in morte: ne quando dicat inim\u00edcus meus: Pr\u00e6v\u00e1lui adv\u00e9rsus eum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Oblati\u00f3nibus nostris, qu\u01fdsumus, D\u00f3mine, plac\u00e1re susc\u00e9ptis: et ad te nostras \u00e9tiam reb\u00e9lles comp\u00e9lle prop\u00edtius volunt\u00e1tes.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 17:3*\nD\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus: Deus meus, adj\u00fator meus.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Myst\u00e9ria nos, D\u00f3mine, qu\u01fdsumus, sumpta pur\u00edficent: et suo m\u00fanere tue\u00e1ntur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-07-04", 
-    "description": "W\u015br\u00f3d walk i utrapie\u0144 doczesnego \u017cycia przynale\u017cno\u015b\u0107 do Ko\u015bcio\u0142a katolickiego jest ostoj\u0105 naszej ufno\u015bci. \u015aw. Pawe\u0142 poucza, \u017ce cierpienie jest zwi\u0105zane z doczesno\u015bci\u0105. Cz\u0142owiek, a z nim ca\u0142e stworzenie, oczekuje rozci\u0105gni\u0119cia owoc\u00f3w Odkupienia na cia\u0142o cz\u0142owieka i na przyrod\u0119 (lekcja). Do\u015bwiadczenia spotykaj\u0105 r\u00f3wnie\u017c Ko\u015bci\u00f3\u0142 \u2014 \u0142\u00f3d\u017a Piotrow\u0105, w kt\u00f3rej odbywamy nasz\u0105 doczesn\u0105 pielgrzymk\u0119 (ewangelia). Modlimy si\u0119 o pok\u00f3j potrzebny Ko\u015bcio\u0142owi w pe\u0142nieniu jego misji (kolekta).\n", 
-    "tempora": null, 
-    "title": "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 26:1; 26:2*\nD\u00f3minus illumin\u00e1tio mea et salus mea, quem timebo? D\u00f3minus defensor vit\u00e6 me\u00e6, a quo trepid\u00e1bo? qui tr\u00edbulant me inim\u00edci mei, ipsi infirm\u00e1ti sunt, et cecid\u00e9runt.\n*Ps 26:3*\nSi cons\u00edstant adv\u00e9rsum me castra: non tim\u00e9bit cor meum.\nGl\u00f3ria Patri.\nD\u00f3minus illumin\u00e1tio mea et salus mea, quem timebo? D\u00f3minus defensor vit\u00e6 me\u00e6, a quo trepid\u00e1bo? qui tr\u00edbulant me inim\u00edci mei, ipsi infirm\u00e1ti sunt, et cecid\u00e9runt.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Da nobis, qu\u01fdsumus, D\u00f3mine: ut et mundi cursus pac\u00edfice nobis tuo \u00f3rdine dirig\u00e1tur; et Eccl\u00e9sia tua tranqu\u00edlla devoti\u00f3ne l\u00e6t\u00e9tur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 8:18-23.*\nFratres: Ex\u00edstimo, quod non sunt cond\u00edgn\u00e6 passi\u00f3nes hujus t\u00e9mporis ad fut\u00faram gl\u00f3riam, qu\u00e6 revel\u00e1bitur in nobis. Nam exspect\u00e1tio creat\u00far\u00e6 revelati\u00f3nem fili\u00f3rum Dei exsp\u00e9ctat. Vanit\u00e1ti enim creat\u00fara subj\u00e9cta est, non volens, sed propter eum, qui subj\u00e9cit eam in spe: quia et ipsa creat\u00fara liber\u00e1bitur a servit\u00fate corrupti\u00f3nis, in libert\u00e1tem gl\u00f3ri\u00e6 fili\u00f3rum Dei. Scimus enim, quod omnis creat\u00fara ingem\u00edscit et p\u00e1rturit usque adhuc. Non solum autem illa, sed et nos ipsi prim\u00edtias sp\u00edritus hab\u00e9ntes: et ipsi intra nos g\u00e9mimus, adopti\u00f3nem fili\u00f3rum Dei exspect\u00e1ntes, redempti\u00f3nem c\u00f3rporis nostri: in Christo Jesu, D\u00f3mino nostro.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 78:9; 78:10*\nProp\u00edtius esto, D\u00f3mine, pecc\u00e1tis nostris: ne quando dicant gentes: Ubi est Deus e\u00f3rum?\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter hon\u00f3rem n\u00f3minis tui, D\u00f3mine, l\u00edbera nos. Allel\u00faja, allel\u00faja\n*Ps 9:5; 9:10*\nDeus, qui sedes su per thronum, et j\u00fadicas \u00e6quit\u00e1tem: esto ref\u00fagium p\u00e1uperum in tribulati\u00f3ne. Allel\u00faja", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 5:1-11*\nIn illo t\u00e9mpore: Cum turb\u00e6 irr\u00faerent in Jesum, ut aud\u00edrent verbum Dei, et ipse stabat secus stagnum Gen\u00e9sareth. Et vidit duas naves stantes secus stagnum: piscat\u00f3res autem desc\u00e9nderant et lav\u00e1bant r\u00e9tia. Asc\u00e9ndens autem in unam navim, qu\u00e6 erat Sim\u00f3nis, rog\u00e1vit eum a terra red\u00facere pus\u00edllum. Et sedens doc\u00e9bat de nav\u00edcula turbas. Ut cess\u00e1vit autem loqui, dixit ad Sim\u00f3nem: Duc in altum, et lax\u00e1te r\u00e9tia vestra in capt\u00faram. Et resp\u00f3ndens Simon, dixit illi: Pr\u00e6c\u00e9ptor, per totam noctem labor\u00e1ntes, nihil c\u00e9pimus: in verbo autem tuo lax\u00e1bo rete. Et cum hoc fec\u00edssent, conclus\u00e9runt p\u00edscium multit\u00fadinem copi\u00f3sam: rumpeb\u00e1tur autem rete e\u00f3rum. Et annu\u00e9runt s\u00f3ciis, qui erant in \u00e1lia navi, ut ven\u00edrent et adjuv\u00e1rent eos. Et ven\u00e9runt, et implev\u00e9runt ambas nav\u00edculas, ita ut p\u00e6ne merger\u00e9ntur. Quod cum vid\u00e9ret Simon Petrus, pr\u00f3cidit ad g\u00e9nua Jesu, dicens: Exi a me, quia homo pecc\u00e1tor sum, D\u00f3mine. Stupor enim circumd\u00e9derat eum et omnes, qui cum illo erant, in capt\u00fara p\u00edscium, quam c\u00e9perant: sim\u00edliter autem Jac\u00f3bum et Jo\u00e1nnem, f\u00edlios Zebedaei, qui erant s\u00f3cii Sim\u00f3nis. Et ait ad Sim\u00f3nem Jesus: Noli tim\u00e9re: ex hoc jam h\u00f3mines eris c\u00e1piens. Et subd\u00factis ad terram n\u00e1vibus, relictis \u00f3mnibus, secuti sunt eum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 12:4-5*\nIll\u00famina \u00f3culos meos, ne umquam obd\u00f3rmiam in morte: ne quando dicat inim\u00edcus meus: Pr\u00e6v\u00e1lui adv\u00e9rsus eum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Oblati\u00f3nibus nostris, qu\u01fdsumus, D\u00f3mine, plac\u00e1re susc\u00e9ptis: et ad te nostras \u00e9tiam reb\u00e9lles comp\u00e9lle prop\u00edtius volunt\u00e1tes.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 17:3*\nD\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus: Deus meus, adj\u00fator meus.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Myst\u00e9ria nos, D\u00f3mine, qu\u01fdsumus, sumpta pur\u00edficent: et suo m\u00fanere tue\u00e1ntur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 26:1; 26:2*\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107? Obro\u0144c\u0105 \u017cycia mojego Pan, przed kim b\u0119d\u0119 dr\u017ca\u0142? Wrogowie moi i nieprzyjaciele chwiej\u0105 si\u0119 i padaj\u0105.\n*Ps 26:3*\nChocia\u017cby stan\u0105\u0142 naprzeciw mnie ob\u00f3z, serce me ba\u0107 si\u0119 nie b\u0119dzie.\nChwa\u0142a Ojcu.\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107? Obro\u0144c\u0105 \u017cycia mojego Pan, przed kim b\u0119d\u0119 dr\u017ca\u0142? Wrogowie moi i nieprzyjaciele chwiej\u0105 si\u0119 i padaj\u0105.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Spraw, prosimy Ci\u0119 Panie, niech pod Twoimi rz\u0105dami dzieje \u015bwiata tocz\u0105 si\u0119 w pokoju, a Tw\u00f3j Ko\u015bci\u00f3\u0142 niech Ci s\u0142u\u017cy w niezam\u0105conej rado\u015bci.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 8:18-23*\n*Od chwili dokonania odkupienia ludzko\u015b\u0107 i ca\u0142y \u015bwiat materialny oczekuje powszechnego zmartwychwstania. Wtedy dopiero objawi si\u0119 w pe\u0142ni moc Odkupienia.*\nBracia: S\u0105dz\u0119, \u017ce utrapie\u0144 czasu niniejszego ani por\u00f3wna\u0107 nie mo\u017cna z przysz\u0142\u0105 chwa\u0142\u0105, kt\u00f3ra si\u0119 w nas objawi. Stworzenie bowiem z upragnieniem wyczekuje objawienia syn\u00f3w Bo\u017cych. Stworzenie bowiem poddane by\u0142o znikomo\u015bci nie ze swej woli, lecz dla tego, kt\u00f3ry je znikomo\u015bci podda\u0142 w nadziei, \u017ce i samo stworzenie b\u0119dzie wyzwolenie z niewoli ska\u017cenia na wolno\u015b\u0107 chwa\u0142y syn\u00f3w Bo\u017cych. Bo wiemy, \u017ce ca\u0142e stworzenie wzdycha i a\u017c dotychczas rodzi w\u015br\u00f3d bole\u015bci. A nie tylko ono, ale i my sami, kt\u00f3rzy mamy pierwiastki ducha, i my tak\u017ce we wn\u0119trzu naszym wzdychamy, wyczekuj\u0105c przybrania za syn\u00f3w Bo\u017cych, odkupienia cia\u0142a naszego: w Chrystusie Jezusie, Panu naszym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 78:9; 78:10*\nO Panie, przebacz nam grzechy, aby nie drwili z nas poganie: \u00abGdzie jest ich B\u00f3g?\u00bb\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu i dla chwa\u0142y imienia Twego wybaw nas, Panie. Alleluja, alleluja.\n*Ps 9:5; 9:10*\nBo\u017ce, kt\u00f3ry siedzisz na tronie i s\u0105dzisz sprawiedliwie, b\u0105d\u017a ucieczk\u0105 strapionych w czasach niedoli. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 5:1-11*\n*Od zes\u0142ania Ducha \u015awi\u0119tego spe\u0142nia si\u0119 zapowied\u017a Chrystusa o \u0142owieniu ludzi. Nast\u0119pcy Piotra i Aposto\u0142\u00f3w, cho\u0107 sami grzeszni i nieudolni, w imi\u0119 Bo\u017ce zarzucaj\u0105 sieci i zdobywaj\u0105 dla Ko\u015bcio\u0142a nowych wyznawc\u00f3w.*\nOnego czasu: Gdy cisn\u0119\u0142y si\u0119 rzesze do Jezusa, aby s\u0142ucha\u0107 s\u0142owa Bo\u017cego, On sta\u0142 nad jeziorem Genezaret. I ujrza\u0142 dwie \u0142odzie stoj\u0105ce przy jeziorze, rybacy wyszli bowiem i p\u0142ukali sieci. A wszed\u0142szy do jednej \u0142odzi, kt\u00f3ra by\u0142a Szymona, prosi\u0142 go, aby odjecha\u0142 nieco od l\u0105du. I siedz\u0105c, naucza\u0142 rzesze z \u0142odzi.\nA gdy przesta\u0142 m\u00f3wi\u0107, rzek\u0142 do Szymona: \u00abWyjed\u017a na g\u0142\u0119bi\u0119 i zapu\u015b\u0107cie sieci wasze na po\u0142\u00f3w\u00bb. A odpowiadaj\u0105c Szymon rzek\u0142 Mu: \u00abNauczycielu, ca\u0142\u0105 noc pracuj\u0105c nice\u015bmy nie z\u0142owili, wszak\u017ce na s\u0142owo Twoje zarzuc\u0119 sie\u0107\u00bb. A gdy to uczynili, zagarn\u0119li ryb mn\u00f3stwo wielkie, tak \u017ce si\u0119 sie\u0107 rwa\u0142a. I skin\u0119li na towarzysz\u00f3w co byli w innej \u0142odzi, aby przybyli i pomogli im. I przyszli, i nape\u0142nili obie \u0142odzie, tak \u017ce si\u0119 prawie zanurza\u0142y. Widz\u0105c to Szymon Piotr pad\u0142 do kolan Jezusowych m\u00f3wi\u0105c: \u00abWynijd\u017a ode mnie, Panie, bom jest cz\u0142owiek grzeszny\u00bb. Na taki bowiem po\u0142\u00f3w ryb, jakiego dokonali, zdumienie ogarn\u0119\u0142o jego i wszystkich co z nim byli. Tak\u017ce i Jakuba i Jana, syn\u00f3w Zebedeuszowych, kt\u00f3rzy byli towarzyszami Szymona. I rzek\u0142 Jezus do Szymona: \u00abNie l\u0119kaj si\u0119. Odt\u0105d ju\u017c ludzi \u0142owi\u0107 b\u0119dziesz\u00bb. A wyci\u0105gn\u0105wszy \u0142odzie na l\u0105d i opu\u015bciwszy wszystko, poszli za Nim.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 12:4-5*\nO\u015bwie\u0107 me oczy, bym nie zasn\u0105\u0142 w \u015bmierci, by wr\u00f3g m\u00f3j nie m\u00f3wi\u0142: Ja go zwyci\u0119\u017cy\u0142em.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij Panie nasze ofiary i daj si\u0119 nimi przejedna\u0107 i zwr\u00f3\u0107 \u0142askawie ku sobie nawet oporn\u0105 nasz\u0105 wol\u0119.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 17:3*\nPan opok\u0105 i ucieczk\u0105 moj\u0105, On moim wybawicielem, B\u00f3g, m\u00f3j wspomo\u017cyciel.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech tajemnice, kt\u00f3re\u015bmy przyj\u0119li oczyszcz\u0105 nas i chroni\u0105 swoim dzia\u0142aniem.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 26:1; 26:2*\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107? Obro\u0144c\u0105 \u017cycia mojego Pan, przed kim b\u0119d\u0119 dr\u017ca\u0142? Wrogowie moi i nieprzyjaciele chwiej\u0105 si\u0119 i padaj\u0105.\n*Ps 26:3*\nChocia\u017cby stan\u0105\u0142 naprzeciw mnie ob\u00f3z, serce me ba\u0107 si\u0119 nie b\u0119dzie.\nChwa\u0142a Ojcu.\nPan \u015bwiat\u0142o\u015bci\u0105 i zbawieniem moim, kog\u00f3\u017c mam si\u0119 l\u0119ka\u0107? Obro\u0144c\u0105 \u017cycia mojego Pan, przed kim b\u0119d\u0119 dr\u017ca\u0142? Wrogowie moi i nieprzyjaciele chwiej\u0105 si\u0119 i padaj\u0105.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Spraw, prosimy Ci\u0119 Panie, niech pod Twoimi rz\u0105dami dzieje \u015bwiata tocz\u0105 si\u0119 w pokoju, a Tw\u00f3j Ko\u015bci\u00f3\u0142 niech Ci s\u0142u\u017cy w niezam\u0105conej rado\u015bci.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 8:18-23*\n*Od chwili dokonania odkupienia ludzko\u015b\u0107 i ca\u0142y \u015bwiat materialny oczekuje powszechnego zmartwychwstania. Wtedy dopiero objawi si\u0119 w pe\u0142ni moc Odkupienia.*\nBracia: S\u0105dz\u0119, \u017ce utrapie\u0144 czasu niniejszego ani por\u00f3wna\u0107 nie mo\u017cna z przysz\u0142\u0105 chwa\u0142\u0105, kt\u00f3ra si\u0119 w nas objawi. Stworzenie bowiem z upragnieniem wyczekuje objawienia syn\u00f3w Bo\u017cych. Stworzenie bowiem poddane by\u0142o znikomo\u015bci nie ze swej woli, lecz dla tego, kt\u00f3ry je znikomo\u015bci podda\u0142 w nadziei, \u017ce i samo stworzenie b\u0119dzie wyzwolenie z niewoli ska\u017cenia na wolno\u015b\u0107 chwa\u0142y syn\u00f3w Bo\u017cych. Bo wiemy, \u017ce ca\u0142e stworzenie wzdycha i a\u017c dotychczas rodzi w\u015br\u00f3d bole\u015bci. A nie tylko ono, ale i my sami, kt\u00f3rzy mamy pierwiastki ducha, i my tak\u017ce we wn\u0119trzu naszym wzdychamy, wyczekuj\u0105c przybrania za syn\u00f3w Bo\u017cych, odkupienia cia\u0142a naszego: w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 78:9; 78:10*\nO Panie, przebacz nam grzechy, aby nie drwili z nas poganie: \u00abGdzie jest ich B\u00f3g?\u00bb\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu i dla chwa\u0142y imienia Twego wybaw nas, Panie. Alleluja, alleluja.\n*Ps 9:5; 9:10*\nBo\u017ce, kt\u00f3ry siedzisz na tronie i s\u0105dzisz sprawiedliwie, b\u0105d\u017a ucieczk\u0105 strapionych w czasach niedoli. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 5:1-11*\n*Od zes\u0142ania Ducha \u015awi\u0119tego spe\u0142nia si\u0119 zapowied\u017a Chrystusa o \u0142owieniu ludzi. Nast\u0119pcy Piotra i Aposto\u0142\u00f3w, cho\u0107 sami grzeszni i nieudolni, w imi\u0119 Bo\u017ce zarzucaj\u0105 sieci i zdobywaj\u0105 dla Ko\u015bcio\u0142a nowych wyznawc\u00f3w.*\nOnego czasu: Gdy cisn\u0119\u0142y si\u0119 rzesze do Jezusa, aby s\u0142ucha\u0107 s\u0142owa Bo\u017cego, On sta\u0142 nad jeziorem Genezaret. I ujrza\u0142 dwie \u0142odzie stoj\u0105ce przy jeziorze, rybacy wyszli bowiem i p\u0142ukali sieci. A wszed\u0142szy do jednej \u0142odzi, kt\u00f3ra by\u0142a Szymona, prosi\u0142 go, aby odjecha\u0142 nieco od l\u0105du. I siedz\u0105c, naucza\u0142 rzesze z \u0142odzi.\nA gdy przesta\u0142 m\u00f3wi\u0107, rzek\u0142 do Szymona: \u00abWyjed\u017a na g\u0142\u0119bi\u0119 i zapu\u015b\u0107cie sieci wasze na po\u0142\u00f3w\u00bb. A odpowiadaj\u0105c Szymon rzek\u0142 Mu: \u00abNauczycielu, ca\u0142\u0105 noc pracuj\u0105c nice\u015bmy nie z\u0142owili, wszak\u017ce na s\u0142owo Twoje zarzuc\u0119 sie\u0107\u00bb. A gdy to uczynili, zagarn\u0119li ryb mn\u00f3stwo wielkie, tak \u017ce si\u0119 sie\u0107 rwa\u0142a. I skin\u0119li na towarzysz\u00f3w co byli w innej \u0142odzi, aby przybyli i pomogli im. I przyszli, i nape\u0142nili obie \u0142odzie, tak \u017ce si\u0119 prawie zanurza\u0142y. Widz\u0105c to Szymon Piotr pad\u0142 do kolan Jezusowych m\u00f3wi\u0105c: \u00abWynijd\u017a ode mnie, Panie, bom jest cz\u0142owiek grzeszny\u00bb. Na taki bowiem po\u0142\u00f3w ryb, jakiego dokonali, zdumienie ogarn\u0119\u0142o jego i wszystkich co z nim byli. Tak\u017ce i Jakuba i Jana, syn\u00f3w Zebedeuszowych, kt\u00f3rzy byli towarzyszami Szymona. I rzek\u0142 Jezus do Szymona: \u00abNie l\u0119kaj si\u0119. Odt\u0105d ju\u017c ludzi \u0142owi\u0107 b\u0119dziesz\u00bb. A wyci\u0105gn\u0105wszy \u0142odzie na l\u0105d i opu\u015bciwszy wszystko, poszli za Nim.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 12:4-5*\nO\u015bwie\u0107 me oczy, bym nie zasn\u0105\u0142 w \u015bmierci, by wr\u00f3g m\u00f3j nie m\u00f3wi\u0142: Ja go zwyci\u0119\u017cy\u0142em.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij Panie nasze ofiary i daj si\u0119 nimi przejedna\u0107 i zwr\u00f3\u0107 \u0142askawie ku sobie nawet oporn\u0105 nasz\u0105 wol\u0119.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 17:3*\nPan opok\u0105 i ucieczk\u0105 moj\u0105, On moim wybawicielem, B\u00f3g, m\u00f3j wspomo\u017cyciel.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech tajemnice, kt\u00f3re\u015bmy przyj\u0119li oczyszcz\u0105 nas i chroni\u0105 swoim dzia\u0142aniem.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

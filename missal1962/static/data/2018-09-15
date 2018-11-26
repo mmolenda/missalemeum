@@ -1,161 +1,163 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2018-09-15", 
+      "description": "W czasie ofiarowania Pana Jezusa w \u015bwi\u0105tyni starzec Symeon przepowiedzia\u0142 Maryi, \u017ce miecz bole\u015bci przeniknie Jej dusz\u0119. Przepowiednia ta spe\u0142ni\u0142a si\u0119 przede wszystkim w czasie M\u0119ki Zbawiciela. Maryja towarzyszy\u0142a Mu w bolesnej drodze krzy\u017cowej, patrzy\u0142a na Jego konanie i \u015bmier\u0107, a w ko\u0144cu przyj\u0119\u0142a w swoje ramiona Jego martwe Cia\u0142o. \u017badne serce ludzkie nie wczu\u0142o si\u0119 tak w cierpienia Chrystusa, jak Serce Maryi. Chocia\u017c nie przela\u0142a Ona swojej krwi, sta\u0142a si\u0119 Kr\u00f3low\u0105 M\u0119czennik\u00f3w. Ko\u015bci\u00f3\u0142 wys\u0142awia nie tylko bole\u015bci Maryi, lecz r\u00f3wnie\u017c Jej m\u0119stwo. Maryja ofiarowa\u0142a Bogu cierpienia swojego Syna i w\u0142asne jako zado\u015b\u0107uczynienie za grzechy \u015bwiata. W ten spos\u00f3b sta\u0142a si\u0119 Matk\u0105 ludzko\u015bci.\n\u015awi\u0119to Siedmiu Bole\u015bci Naj\u015bwi\u0119tszej Maryi Panny wprowadzi\u0142 w XVII wieku zakon Serwit\u00f3w. W roku 1814 Pius VII rozszerzy\u0142 je na ca\u0142y Ko\u015bci\u00f3\u0142.\n\nWspomnienie \u015bw. Nikomedesa, M\u0119czennika. \u015aw. Nikomedes poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w Rzymie i zosta\u0142 pochowany przy drodze Nomenta\u0144skiej. Papie\u017c Paschalis I przeni\u00f3s\u0142 jego cia\u0142o do bazyliki \u015bw. Praksedy.\n", 
+      "tempora": "Sobota po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Siedmiu Bole\u015bci N. M. P."
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Joann 19:25*\nStabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Sal\u00f3me et Mar\u00eda Magdal\u00e9ne.\n*Joann 19:26-27*\nM\u00falier, ecce f\u00edlius tuus: dixit Jesus; ad disc\u00edpulum autem: Ecce Mater tua.\nGl\u00f3ria Patri.\nStabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Sal\u00f3me et Mar\u00eda Magdal\u00e9ne.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, in cujus passi\u00f3ne, sec\u00fandum Sime\u00f3nis proph\u00e9tiam, dulc\u00edssimam \u00e1nimam glori\u00f3s\u00e6 V\u00edrginis et Matris Mar\u00ed\u00e6 dol\u00f3ris gladius pertrans\u00edvit: conc\u00e9de prop\u00edtius; ut, qui transfixi\u00f3nem ejus et passi\u00f3nem vener\u00e1ndo rec\u00f3limus, glori\u00f3sis m\u00e9ritis et pr\u00e9cibus \u00f3mnium Sanct\u00f3rum Cruci fid\u00e9liter ast\u00e1ntium interced\u00e9ntibus, passi\u00f3nis tu\u00e6 eff\u00e9ctum fel\u00edcem consequ\u00e1mur:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro S. Nicomede Martyre*\nAd\u00e9sto, D\u00f3mine, p\u00f3pulo tuo: ut, be\u00e1ti Nicom\u00e9dis M\u00e1rtyris tui m\u00e9rita pr\u00e6cl\u00e1ra susc\u00edpiens, ad impetr\u00e1ndam miseric\u00f3rdiam tuam semper ejus patroc\u00edniis adjuv\u00e9tur.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Judith.\n*Judith 13:22; 13:23-25*\nBened\u00edxit te D\u00f3minus in virt\u00fate sua, quia per te ad n\u00edhilum red\u00e9git inim\u00edcos nostros. Bened\u00edcta es tu, f\u00edlia, a D\u00f3mino, Deo exc\u00e9lso, pr\u00e6 \u00f3mnibus muli\u00e9ribus super terram. Bened\u00edctus D\u00f3minus, qui cre\u00e1vit coelum et terram: quia h\u00f3die nomen tuum ita magnific\u00e1vit, ut non rec\u00e9dat laus tua de ore h\u00f3minum, qui m\u00e9mores f\u00faerint virt\u00fatis D\u00f3mini in \u00e6t\u00e9rnum, pro quibus non peperc\u00edsti \u00e1nim\u00e6 tu\u00e6 propter ang\u00fastias et tribulati\u00f3nem g\u00e9neris tui, sed subven\u00edsti ru\u00edn\u00e6 ante consp\u00e9ctum Dei nostri.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Dolor\u00f3sa et lacrim\u00e1bilis es, Virgo Mar\u00eda, stans juxta Crucem D\u00f3mini Jesu, F\u00edlii tui, Redempt\u00f3ris.\nV. Virgo Dei G\u00e9netrix, quem totus non capit orbis, hoc crucis fert suppl\u00edcium, auctor vit\u00e6 factus homo. Allel\u00faja, allel\u00faja.\nV. Stabat sancta Mar\u00eda, coeli Reg\u00edna et mundi D\u00f3mina, juxta Crucem D\u00f3mini nostri Jesu Christi dolor\u00f3sa.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Bened\u00edcta et vener\u00e1bilis es, Virgo Mar\u00eda: qu\u00e6 sine tactu pud\u00f3ris inv\u00e9nia es Mater Salvat\u00f3ris.\nV. Virgo, Dei G\u00e9netrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo.\n**\nGaude, Mar\u00eda Virgo, cunctas h\u01fdreses sola interem\u00edsti.\nV. Qu\u00e6 Gabri\u00e9lis Arch\u00e1ngeli dictis credid\u00edsti.\nV. Dum Virgo Deum et h\u00f3minem genu\u00edsti: et post partum, Virgo, inviol\u00e1ta permans\u00edsti.\nV. Dei G\u00e9netrix, interc\u00e9de pro nobis.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Stabat Mater dolor\u00f3sa\nJuxta Crucem lacrim\u00f3sa,\nDum pend\u00e9bat F\u00edlius.\n\nCujus \u00e1nimam gem\u00e9ntem,\nContrist\u00e1tam et dol\u00e9ntem\nPertrans\u00edvit gl\u00e1dius.\n\nO quam tristis et affl\u00edcta\nFuit illa bened\u00edcta\nMater Unig\u00e9niti!\n\nQu\u00e6 m\u00e6r\u00e9bat et dol\u00e9bat,\nPia Mater, dum vid\u00e9bat\nNati poenas \u00edncliti.\n\nQuis est homo, qui non fleret,\nMatrem Christi si vid\u00e9ret\nIn tanto suppl\u00edcio?\n\nQuis non posset contrist\u00e1ri,\nChristi Matrem contempl\u00e1ri\nDol\u00e9ntem cum F\u00edlio?\n\nPro pecc\u00e1tis su\u00e6 gentis\nVidit Jesum in torm\u00e9ntis\nEt flag\u00e9llis s\u00fabditum.\n\nVidit suum dulcem\nNatum Mori\u00e9ndo desol\u00e1tum,\nDum em\u00edsit sp\u00edritum.\n\nEja, Mater, fons am\u00f3ris,\nMe sent\u00edre vim dol\u00f3ris\nFac, ut tecum l\u00fageam.\n\nFac, ut \u00e1rdeat cor meum\nIn am\u00e1ndo Christum Deum,\nUt sibi compl\u00e1ceam.\n\nSancta Mater, istud agas,\nCrucifixi fige plagas\nCordi meo v\u00e1lida.\n\nTui Nati vulner\u00e1ti,\nTam dign\u00e1ti pro me pati,\nPoenas mecum d\u00edvide.\n\nFac me tecum pie flere,\nCrucif\u00edxo condol\u00e9re,\nDonec ego v\u00edxero.\n\nJuxta Crucem tecum stare\nEt me tibi soci\u00e1re\nIn planctu des\u00eddero.\n\nVirgo v\u00edrginum pr\u00e6cl\u00e1ra.\nMihi jam non sis am\u00e1ra:\nFac me tecum pl\u00e1ngere.\n\nFac, ut portem Christi mortem,\nPassi\u00f3nis fac cons\u00f3rtem\nEt plagas rec\u00f3lere.\n\nFac me plagis vulner\u00e1ri,\nFac me Cruce inebri\u00e1ri\nEt cru\u00f3re F\u00edlii.\n\nFlammis ne urar succ\u00e9nsus,\nPer te, Virgo, sim def\u00e9nsus\nIn die jud\u00edcii.\n\nChriste, cum sit hinc ex\u00edre.\nDa per Matrem me ven\u00edre\nAd palmam vict\u00f3ri\u00e6.\n\nQuando corpus mori\u00e9tur,\nFac, ut \u00e1nim\u00e6 don\u00e9tur\nParad\u00edsi gl\u00f3ria.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 19:25-27.*\nIn illo t\u00e9mpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Mar\u00eda Magdal\u00e9ne. Cum vid\u00edsset ergo Jesus Matrem, et disc\u00edpulum stantem, quem dilig\u00e9bat, dicit Matri su\u00e6: M\u00falier, ecce f\u00edlius tuus. Deinde dicit disc\u00edpulo: Ecce Mater tua. Et ex illa hora acc\u00e9pit eam disc\u00edpulus in sua.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Jer 18:20*\nRecord\u00e1re, Virgo, Mater Dei, dum st\u00e9teris in consp\u00e9ctu D\u00f3mini, ut loqu\u00e1ris pro nobis bona, et ut av\u00e9rtat indignati\u00f3nem suam a nobis.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Off\u00e9rimus tibi preces et h\u00f3stias, D\u00f3mine Jesu Christe, humiliter supplic\u00e1ntes: ut, qui Transfixi\u00f3nem dulc\u00edssimi sp\u00edritus be\u00e1t\u00e6 Mar\u00ed\u00e6, Matris tu\u00e6, pr\u00e9cibus recens\u00e9mus; suo suor\u00famque sub Cruce Sanct\u00f3rum cons\u00f3rtium multiplic\u00e1to pi\u00edssimo interv\u00e9ntu, m\u00e9ritis mortis tu\u00e6, m\u00e9ritum cum be\u00e1tis habe\u00e1mus:\nQui vivis.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro S. Nicomede Martyre*\nS\u00fascipe, D\u00f3mine, m\u00fanera prop\u00edtius obl\u00e1ta: qu\u00e6 majest\u00e1ti tu\u00e6 be\u00e1ti Nicom\u00e9dis M\u00e1rtyris comm\u00e9ndet or\u00e1tio.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "Felices sensus be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis, qui sine morte meru\u00e9runt mart\u00fdrii palmam sub Cruce D\u00f3mini.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sacrif\u00edcia, qu\u00e6 s\u00fampsimus, D\u00f3mine Jesu Christe, Transfixi\u00f3nem Matris tu\u00e6 et V\u00edrginis dev\u00f3te celebr\u00e1ntes: nobis \u00edmpetrent apud clem\u00e9ntiam tuam omnis boni salut\u00e1ris eff\u00e9ctum:\nQui vivis.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro S. Nicomede Martyre*\nPur\u00edficent nos, D\u00f3mine, sacram\u00e9nta qu\u00e6 s\u00fampsimus: et, interced\u00e9nte be\u00e1to Nicom\u00e9de M\u00e1rtyre tuo, a cunctis eff\u00edciant vitiis absol\u00fatos.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-09-15", 
-    "description": "W czasie ofiarowania Pana Jezusa w \u015bwi\u0105tyni starzec Symeon przepowiedzia\u0142 Maryi, \u017ce miecz bole\u015bci przeniknie Jej dusz\u0119. Przepowiednia ta spe\u0142ni\u0142a si\u0119 przede wszystkim w czasie M\u0119ki Zbawiciela. Maryja towarzyszy\u0142a Mu w bolesnej drodze krzy\u017cowej, patrzy\u0142a na Jego konanie i \u015bmier\u0107, a w ko\u0144cu przyj\u0119\u0142a w swoje ramiona Jego martwe Cia\u0142o. \u017badne serce ludzkie nie wczu\u0142o si\u0119 tak w cierpienia Chrystusa, jak Serce Maryi. Chocia\u017c nie przela\u0142a Ona swojej krwi, sta\u0142a si\u0119 Kr\u00f3low\u0105 M\u0119czennik\u00f3w. Ko\u015bci\u00f3\u0142 wys\u0142awia nie tylko bole\u015bci Maryi, lecz r\u00f3wnie\u017c Jej m\u0119stwo. Maryja ofiarowa\u0142a Bogu cierpienia swojego Syna i w\u0142asne jako zado\u015b\u0107uczynienie za grzechy \u015bwiata. W ten spos\u00f3b sta\u0142a si\u0119 Matk\u0105 ludzko\u015bci.\n\u015awi\u0119to Siedmiu Bole\u015bci Naj\u015bwi\u0119tszej Maryi Panny wprowadzi\u0142 w XVII wieku zakon Serwit\u00f3w. W roku 1814 Pius VII rozszerzy\u0142 je na ca\u0142y Ko\u015bci\u00f3\u0142.\n\nWspomnienie \u015bw. Nikomedesa, M\u0119czennika. \u015aw. Nikomedes poni\u00f3s\u0142 \u015bmier\u0107 m\u0119cze\u0144sk\u0105 w Rzymie i zosta\u0142 pochowany przy drodze Nomenta\u0144skiej. Papie\u017c Paschalis I przeni\u00f3s\u0142 jego cia\u0142o do bazyliki \u015bw. Praksedy.\n", 
-    "tempora": "Sobota po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "Siedmiu Bole\u015bci N. M. P."
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Joann 19:25*\nStabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Sal\u00f3me et Mar\u00eda Magdal\u00e9ne.\n*Joann 19:26-27*\nM\u00falier, ecce f\u00edlius tuus: dixit Jesus; ad disc\u00edpulum autem: Ecce Mater tua.\nGl\u00f3ria Patri.\nStabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Sal\u00f3me et Mar\u00eda Magdal\u00e9ne.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, in cujus passi\u00f3ne, sec\u00fandum Sime\u00f3nis proph\u00e9tiam, dulc\u00edssimam \u00e1nimam glori\u00f3s\u00e6 V\u00edrginis et Matris Mar\u00ed\u00e6 dol\u00f3ris gladius pertrans\u00edvit: conc\u00e9de prop\u00edtius; ut, qui transfixi\u00f3nem ejus et passi\u00f3nem vener\u00e1ndo rec\u00f3limus, glori\u00f3sis m\u00e9ritis et pr\u00e9cibus \u00f3mnium Sanct\u00f3rum Cruci fid\u00e9liter ast\u00e1ntium interced\u00e9ntibus, passi\u00f3nis tu\u00e6 eff\u00e9ctum fel\u00edcem consequ\u00e1mur:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro S. Nicomede Martyre*\nAd\u00e9sto, D\u00f3mine, p\u00f3pulo tuo: ut, be\u00e1ti Nicom\u00e9dis M\u00e1rtyris tui m\u00e9rita pr\u00e6cl\u00e1ra susc\u00edpiens, ad impetr\u00e1ndam miseric\u00f3rdiam tuam semper ejus patroc\u00edniis adjuv\u00e9tur.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Judith.\n*Judith 13:22; 13:23-25*\nBened\u00edxit te D\u00f3minus in virt\u00fate sua, quia per te ad n\u00edhilum red\u00e9git inim\u00edcos nostros. Bened\u00edcta es tu, f\u00edlia, a D\u00f3mino, Deo exc\u00e9lso, pr\u00e6 \u00f3mnibus muli\u00e9ribus super terram. Bened\u00edctus D\u00f3minus, qui cre\u00e1vit coelum et terram: quia h\u00f3die nomen tuum ita magnific\u00e1vit, ut non rec\u00e9dat laus tua de ore h\u00f3minum, qui m\u00e9mores f\u00faerint virt\u00fatis D\u00f3mini in \u00e6t\u00e9rnum, pro quibus non peperc\u00edsti \u00e1nim\u00e6 tu\u00e6 propter ang\u00fastias et tribulati\u00f3nem g\u00e9neris tui, sed subven\u00edsti ru\u00edn\u00e6 ante consp\u00e9ctum Dei nostri.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "Dolor\u00f3sa et lacrim\u00e1bilis es, Virgo Mar\u00eda, stans juxta Crucem D\u00f3mini Jesu, F\u00edlii tui, Redempt\u00f3ris.\nV. Virgo Dei G\u00e9netrix, quem totus non capit orbis, hoc crucis fert suppl\u00edcium, auctor vit\u00e6 factus homo. Allel\u00faja, allel\u00faja.\nV. Stabat sancta Mar\u00eda, coeli Reg\u00edna et mundi D\u00f3mina, juxta Crucem D\u00f3mini nostri Jesu Christi dolor\u00f3sa.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Bened\u00edcta et vener\u00e1bilis es, Virgo Mar\u00eda: qu\u00e6 sine tactu pud\u00f3ris inv\u00e9nia es Mater Salvat\u00f3ris.\nV. Virgo, Dei G\u00e9netrix, quem totus non capit orbis, in tua se clausit v\u00edscera factus homo.\n**\nGaude, Mar\u00eda Virgo, cunctas h\u01fdreses sola interem\u00edsti.\nV. Qu\u00e6 Gabri\u00e9lis Arch\u00e1ngeli dictis credid\u00edsti.\nV. Dum Virgo Deum et h\u00f3minem genu\u00edsti: et post partum, Virgo, inviol\u00e1ta permans\u00edsti.\nV. Dei G\u00e9netrix, interc\u00e9de pro nobis.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Stabat Mater dolor\u00f3sa\nJuxta Crucem lacrim\u00f3sa,\nDum pend\u00e9bat F\u00edlius.\n\nCujus \u00e1nimam gem\u00e9ntem,\nContrist\u00e1tam et dol\u00e9ntem\nPertrans\u00edvit gl\u00e1dius.\n\nO quam tristis et affl\u00edcta\nFuit illa bened\u00edcta\nMater Unig\u00e9niti!\n\nQu\u00e6 m\u00e6r\u00e9bat et dol\u00e9bat,\nPia Mater, dum vid\u00e9bat\nNati poenas \u00edncliti.\n\nQuis est homo, qui non fleret,\nMatrem Christi si vid\u00e9ret\nIn tanto suppl\u00edcio?\n\nQuis non posset contrist\u00e1ri,\nChristi Matrem contempl\u00e1ri\nDol\u00e9ntem cum F\u00edlio?\n\nPro pecc\u00e1tis su\u00e6 gentis\nVidit Jesum in torm\u00e9ntis\nEt flag\u00e9llis s\u00fabditum.\n\nVidit suum dulcem\nNatum Mori\u00e9ndo desol\u00e1tum,\nDum em\u00edsit sp\u00edritum.\n\nEja, Mater, fons am\u00f3ris,\nMe sent\u00edre vim dol\u00f3ris\nFac, ut tecum l\u00fageam.\n\nFac, ut \u00e1rdeat cor meum\nIn am\u00e1ndo Christum Deum,\nUt sibi compl\u00e1ceam.\n\nSancta Mater, istud agas,\nCrucifixi fige plagas\nCordi meo v\u00e1lida.\n\nTui Nati vulner\u00e1ti,\nTam dign\u00e1ti pro me pati,\nPoenas mecum d\u00edvide.\n\nFac me tecum pie flere,\nCrucif\u00edxo condol\u00e9re,\nDonec ego v\u00edxero.\n\nJuxta Crucem tecum stare\nEt me tibi soci\u00e1re\nIn planctu des\u00eddero.\n\nVirgo v\u00edrginum pr\u00e6cl\u00e1ra.\nMihi jam non sis am\u00e1ra:\nFac me tecum pl\u00e1ngere.\n\nFac, ut portem Christi mortem,\nPassi\u00f3nis fac cons\u00f3rtem\nEt plagas rec\u00f3lere.\n\nFac me plagis vulner\u00e1ri,\nFac me Cruce inebri\u00e1ri\nEt cru\u00f3re F\u00edlii.\n\nFlammis ne urar succ\u00e9nsus,\nPer te, Virgo, sim def\u00e9nsus\nIn die jud\u00edcii.\n\nChriste, cum sit hinc ex\u00edre.\nDa per Matrem me ven\u00edre\nAd palmam vict\u00f3ri\u00e6.\n\nQuando corpus mori\u00e9tur,\nFac, ut \u00e1nim\u00e6 don\u00e9tur\nParad\u00edsi gl\u00f3ria.\nAmen.", 
-      "id": "Sequentia", 
-      "label": "Sequentia"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 19:25-27.*\nIn illo t\u00e9mpore: Stabant juxta Crucem Jesu Mater ejus, et soror Matris ejus, Mar\u00eda Cl\u00e9oph\u00e6, et Mar\u00eda Magdal\u00e9ne. Cum vid\u00edsset ergo Jesus Matrem, et disc\u00edpulum stantem, quem dilig\u00e9bat, dicit Matri su\u00e6: M\u00falier, ecce f\u00edlius tuus. Deinde dicit disc\u00edpulo: Ecce Mater tua. Et ex illa hora acc\u00e9pit eam disc\u00edpulus in sua.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Jer 18:20*\nRecord\u00e1re, Virgo, Mater Dei, dum st\u00e9teris in consp\u00e9ctu D\u00f3mini, ut loqu\u00e1ris pro nobis bona, et ut av\u00e9rtat indignati\u00f3nem suam a nobis.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Off\u00e9rimus tibi preces et h\u00f3stias, D\u00f3mine Jesu Christe, humiliter supplic\u00e1ntes: ut, qui Transfixi\u00f3nem dulc\u00edssimi sp\u00edritus be\u00e1t\u00e6 Mar\u00ed\u00e6, Matris tu\u00e6, pr\u00e9cibus recens\u00e9mus; suo suor\u00famque sub Cruce Sanct\u00f3rum cons\u00f3rtium multiplic\u00e1to pi\u00edssimo interv\u00e9ntu, m\u00e9ritis mortis tu\u00e6, m\u00e9ritum cum be\u00e1tis habe\u00e1mus:\nQui vivis.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro S. Nicomede Martyre*\nS\u00fascipe, D\u00f3mine, m\u00fanera prop\u00edtius obl\u00e1ta: qu\u00e6 majest\u00e1ti tu\u00e6 be\u00e1ti Nicom\u00e9dis M\u00e1rtyris comm\u00e9ndet or\u00e1tio.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ubique gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Festivit\u00e1te* be\u00e1t\u00e6 Mar\u00ed\u00e6 semper V\u00edrginis collaud\u00e1re, bened\u00edcere et pr\u00e6dic\u00e1re. Qu\u00e6 et Unig\u00e9nitum tuum Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9pit: et, virginit\u00e1tis gl\u00f3ria perman\u00e9nte, lumen \u00e6t\u00e9rnum mundo eff\u00fadit, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "Felices sensus be\u00e1t\u00e6 Mar\u00ed\u00e6 V\u00edrginis, qui sine morte meru\u00e9runt mart\u00fdrii palmam sub Cruce D\u00f3mini.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sacrif\u00edcia, qu\u00e6 s\u00fampsimus, D\u00f3mine Jesu Christe, Transfixi\u00f3nem Matris tu\u00e6 et V\u00edrginis dev\u00f3te celebr\u00e1ntes: nobis \u00edmpetrent apud clem\u00e9ntiam tuam omnis boni salut\u00e1ris eff\u00e9ctum:\nQui vivis.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro S. Nicomede Martyre*\nPur\u00edficent nos, D\u00f3mine, sacram\u00e9nta qu\u00e6 s\u00fampsimus: et, interced\u00e9nte be\u00e1to Nicom\u00e9de M\u00e1rtyre tuo, a cunctis eff\u00edciant vitiis absol\u00fatos.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*J 19:25*\nPod krzy\u017cem Jezusowym sta\u0142y Matka Jego i siostra Matki Jego, Maria Kleofasowa i Salome, oraz Maria Magdalena.\n*J 19:26-27*\nNiewiasto, oto syn Tw\u00f3j, rzek\u0142 Jezus, a potem uczniowi: Oto Matka twoja.\nChwa\u0142a Ojcu.\nPod krzy\u017cem Jezusowym sta\u0142y Matka Jego i siostra Matki Jego, Maria Kleofasowa i Salome, oraz Maria Magdalena.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, podczas Twej m\u0119ki, wed\u0142ug przepowiedni Symeona, miecz bole\u015bci przeszy\u0142 najs\u0142odsz\u0105 dusz\u0119 chwalebnej Dziewicy i Matki Maryi; spraw \u0142askawie, aby\u015bmy rozwa\u017caj\u0105c ze czci\u0105 Jej bole\u015bci, osi\u0105gn\u0119li b\u0142ogi skutek Twej m\u0119ki:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, przyb\u0105d\u017a z pomoc\u0105 Twojemu ludowi, aby, powo\u0142uj\u0105c si\u0119 na przes\u0142awne zas\u0142ugi \u015bwi\u0119tego M\u0119czennika Twego Nikomedesa, doznawa\u0142 zawsze jego or\u0119downictwa dla uzyskania Twego mi\u0142osierdzia.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Judyty.\n*Jdt 13:22; 13:23-25*\nPob\u0142ogos\u0142awi\u0142 Ci\u0119 Pan w mocy swojej, bo przez Ci\u0119 wniwecz obr\u00f3ci\u0142 naszych nieprzyjaci\u00f3\u0142. B\u0142ogos\u0142awiona\u015b Ty, C\u00f3rko, przez Pana Boga wysokiego nad wszystkie niewiasty na ziemi. B\u0142ogos\u0142awiony Pan, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119\u2026 Bo dzi\u015b imi\u0119 Twe tak ws\u0142awi\u0142, i\u017c chwa\u0142a Twa nigdy nie zejdzie z ust ludzi, kt\u00f3rzy pomni b\u0119d\u0105 na wieki mocy Pa\u0144skiej. Dla nich to samej siebie nie szcz\u0119dzi\u0142a\u015b z powodu utrapienia i udr\u0119ki rodu Twojego, lecz zapobieg\u0142a\u015b upadkowi przed obliczem Boga naszego.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Bolej\u0105ca i zalana \u0142zami stoisz, Dziewico Maryjo, pod krzy\u017cem Pana Jezusa, Syna Swojego i Odkupiciela.\nV. Bogarodzico Dziewico, oto Ten, kt\u00f3rego ca\u0142y \u015bwiat nie zdo\u0142a ogarn\u0105\u0107, Tw\u00f3rca \u017cycia, stawszy si\u0119 cz\u0142owiekiem ponosi haniebn\u0105 \u015bmier\u0107 na krzy\u017cu. Alleluja, alleluja.\nV. \u015awi\u0119ta Maryja, Kr\u00f3lowa nieba i Pani \u015bwiata, sta\u0142a bolej\u0105ca pod krzy\u017cem Pana naszego Jezusa Chrystusa.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Bolej\u0105ca Matka sta\u0142a\nU st\u00f3p krzy\u017ca, we \u0142zach ca\u0142a,\nKiedy na nim zawis\u0142 Syn.\n\nA w Jej pe\u0142nej j\u0119ku duszy,\nOd m\u0119czarni i katuszy,\nTkwi\u0142 miecz ostry naszych win.\n\nJak\u017ce smutna i strapiona\nBy\u0142a ta b\u0142ogos\u0142awiona,\nZ kt\u00f3rej si\u0119 narodzi\u0142 B\u00f3g.\n\nJak cierpia\u0142a i bola\u0142a,\nJak\u017ce dr\u017ca\u0142a gdy widzia\u0142a\nDzieci\u0119 swe w\u015br\u00f3d \u015bmierci trw\u00f3g.\n\nKt\u00f3ry\u017c cz\u0142owiek nie zap\u0142acze,\nWidz\u0105c m\u0119ki i rozpacze\nMatki Bo\u017cej w \u017calu tym?\n\nKt\u00f3\u017c od smutku si\u0119 powstrzyma,\nMaj\u0105c matk\u0119 przed oczyma,\nKt\u00f3ra cierpi z Synem swym?\n\nWidzi, jak za ludzkie winy\nZnosi m\u0119ki Syn jedyny,\nJezus \u2013 jak Go smaga bat.\n\nWidzi jak samotnie kona\nOwoc Jej czystego \u0142ona,\nDaj\u0105c \u017cycie za ten \u015bwiat.\n\nMatko, co\u015b mi\u0142o\u015bci zdrojem,\nPrzejmij mnie cierpieniem swoim\nAbym bole\u0107 z Tob\u0105 m\u00f3g\u0142.\n\nNiechaj serce moje pa\u0142a,\nBy rado\u015bci\u0105 m\u0105 si\u0119 sta\u0142a\nMi\u0142o\u015b\u0107, kt\u00f3r\u0105 \u2013 Chrystus B\u00f3g.\n\nMatko \u015bwi\u0119ta, srogie rany,\nKt\u00f3re zni\u00f3s\u0142 Ukrzy\u017cowany,\nWyryj mocno w duszy mej.\n\nM\u0119k\u0105, Syna rodzonego,\nCo dla dobra cierpia\u0142 mego,\nZe mn\u0105 si\u0119 podzieli\u0107 chciej.\n\nPragn\u0119 p\u0142aka\u0107 w Twym pobli\u017cu,\nCierpi\u0105c z Tym, co zmar\u0142 na krzy\u017cu\nPo mojego \u017cycia kres.\n\nChc\u0119 pod krzy\u017cem sta\u0107 przy Tobie,\nZ Tob\u0105 \u0142\u0105czy\u0107 si\u0119 w \u017ca\u0142obie,\nI wylewa\u0107 zdroje \u0142ez.\n\nPanno czysta nad pannami,\nNiechaj dobro\u0107 Twoja da mi\nP\u0142aka\u0107 z \u017calu z Tob\u0105 wsp\u00f3\u0142.\n\nBym z Chrystusem kona\u0142 razem,\nM\u0119ki Jego by\u0142 obrazem,\nRany Jego w sobie czu\u0142.\n\nNiech mnie do krwi rani zgraja,\nNiech mnie m\u0119ki krzy\u017c upaja\nI Twojego Syna krew.\n\nW ogniu Panno, niech nie p\u0142on\u0119,\nWi\u0119c mnie w swoj\u0105 we\u017a obron\u0119,\nGdy nadejdzie s\u0105du gniew.\n\nGdy kres dni przede mn\u0105 stanie,\nPrzez Tw\u0105 Matk\u0119 doj\u015b\u0107 mi Panie,\nDo zwyci\u0119stwa palmy daj.\n\nKiedy umrze moje cia\u0142o,\nNiechaj dusz\u0119 ma z sw\u0105 chwa\u0142\u0105\nCzeka Tw\u00f3j wieczysty raj.\nAmen.", 
-      "id": "Sequentia", 
-      "label": "Sekwencja"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 19:25-27*\nOnego czasu: Pod krzy\u017cem Jezusowym sta\u0142a Matka Jego i siostra Matki Jego, Maria Kleofasowa, oraz Maria Magdalena. Gdy wi\u0119c Jezus ujrza\u0142 Matk\u0119 i ucznia, kt\u00f3rego mi\u0142owa\u0142, stoj\u0105cego obok, rzek\u0142 do Matki swojej: \u00abNiewiasto, oto syn Tw\u00f3j!\u00bb Potem rzek\u0142 uczniowi: \u00abOto Matka twoja!\u00bb I od onej godziny wzi\u0105\u0142 j\u0105 ucze\u0144 pod swoj\u0105 opiek\u0119.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Jer 18:20*\nPami\u0119taj o nas, Matko Dziewico, przed obliczem Boga, aby\u015b prosi\u0142a o dobra dla nas i aby od nas odwr\u00f3ci\u0142 sw\u00f3j gniew.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przedk\u0142adamy Ci, Panie Jezu Chryste, modlitwy i ofiary i pokornie b\u0142agamy, aby\u015bmy rozpami\u0119tuj\u0105c w modlitwach ran\u0119 przes\u0142odkiego serca Naj\u015bwi\u0119tszej Maryi, Matki Twojej, za \u0142askawym wstawiennictwem Jej i \u015awi\u0119tych, stoj\u0105cych z Ni\u0105 razem pod krzy\u017cem, przez zas\u0142ugi \u015bmierci Twojej dost\u0105pili nagrody wesp\u00f3\u0142 ze \u015awi\u0119tymi:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, przyjmij \u0142askawie ofiarowane dary, a modlitwa \u015bwi\u0119tego M\u0119czennika Nikomedesa niech je zaleci Twojemu majestatowi.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "B\u0142ogos\u0142awione serce Naj\u015bwi\u0119tszej Maryi Panny, kt\u00f3re nawet bez \u015bmierci zas\u0142u\u017cy\u0142o sobie na palm\u0119 m\u0119cze\u0144stwa pod Krzy\u017cem Pana.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie Jezu Chryste, niech ofiara, z kt\u00f3rej po\u017cywali\u015bmy czcz\u0105c z oddaniem przebicie serca Twojej Matki-Dziewicy, wyjedna nam u Twej \u0142askawo\u015bci wszelkie dobra pomocne ku zbawieniu:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, niech nas oczy\u015bci Sakrament, kt\u00f3ry\u015bmy przyj\u0119li, a za wstawiennictwem \u015bwi\u0119tego Nikomedesa, Twego M\u0119czennika, niech nas wyzwoli ze wszystkich wad.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*J 19:25*\nPod krzy\u017cem Jezusowym sta\u0142y Matka Jego i siostra Matki Jego, Maria Kleofasowa i Salome, oraz Maria Magdalena.\n*J 19:26-27*\nNiewiasto, oto syn Tw\u00f3j, rzek\u0142 Jezus, a potem uczniowi: Oto Matka twoja.\nChwa\u0142a Ojcu.\nPod krzy\u017cem Jezusowym sta\u0142y Matka Jego i siostra Matki Jego, Maria Kleofasowa i Salome, oraz Maria Magdalena.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, podczas Twej m\u0119ki, wed\u0142ug przepowiedni Symeona, miecz bole\u015bci przeszy\u0142 najs\u0142odsz\u0105 dusz\u0119 chwalebnej Dziewicy i Matki Maryi; spraw \u0142askawie, aby\u015bmy rozwa\u017caj\u0105c ze czci\u0105 Jej bole\u015bci, osi\u0105gn\u0119li b\u0142ogi skutek Twej m\u0119ki:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, przyb\u0105d\u017a z pomoc\u0105 Twojemu ludowi, aby, powo\u0142uj\u0105c si\u0119 na przes\u0142awne zas\u0142ugi \u015bwi\u0119tego M\u0119czennika Twego Nikomedesa, doznawa\u0142 zawsze jego or\u0119downictwa dla uzyskania Twego mi\u0142osierdzia.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Judyty.\n*Jdt 13:22; 13:23-25*\nPob\u0142ogos\u0142awi\u0142 Ci\u0119 Pan w mocy swojej, bo przez Ci\u0119 wniwecz obr\u00f3ci\u0142 naszych nieprzyjaci\u00f3\u0142. B\u0142ogos\u0142awiona\u015b Ty, C\u00f3rko, przez Pana Boga wysokiego nad wszystkie niewiasty na ziemi. B\u0142ogos\u0142awiony Pan, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119\u2026 Bo dzi\u015b imi\u0119 Twe tak ws\u0142awi\u0142, i\u017c chwa\u0142a Twa nigdy nie zejdzie z ust ludzi, kt\u00f3rzy pomni b\u0119d\u0105 na wieki mocy Pa\u0144skiej. Dla nich to samej siebie nie szcz\u0119dzi\u0142a\u015b z powodu utrapienia i udr\u0119ki rodu Twojego, lecz zapobieg\u0142a\u015b upadkowi przed obliczem Boga naszego.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Bolej\u0105ca i zalana \u0142zami stoisz, Dziewico Maryjo, pod krzy\u017cem Pana Jezusa, Syna Swojego i Odkupiciela.\nV. Bogarodzico Dziewico, oto Ten, kt\u00f3rego ca\u0142y \u015bwiat nie zdo\u0142a ogarn\u0105\u0107, Tw\u00f3rca \u017cycia, stawszy si\u0119 cz\u0142owiekiem ponosi haniebn\u0105 \u015bmier\u0107 na krzy\u017cu. Alleluja, alleluja.\nV. \u015awi\u0119ta Maryja, Kr\u00f3lowa nieba i Pani \u015bwiata, sta\u0142a bolej\u0105ca pod krzy\u017cem Pana naszego Jezusa Chrystusa.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Bolej\u0105ca Matka sta\u0142a\nU st\u00f3p krzy\u017ca, we \u0142zach ca\u0142a,\nKiedy na nim zawis\u0142 Syn.\n\nA w Jej pe\u0142nej j\u0119ku duszy,\nOd m\u0119czarni i katuszy,\nTkwi\u0142 miecz ostry naszych win.\n\nJak\u017ce smutna i strapiona\nBy\u0142a ta b\u0142ogos\u0142awiona,\nZ kt\u00f3rej si\u0119 narodzi\u0142 B\u00f3g.\n\nJak cierpia\u0142a i bola\u0142a,\nJak\u017ce dr\u017ca\u0142a gdy widzia\u0142a\nDzieci\u0119 swe w\u015br\u00f3d \u015bmierci trw\u00f3g.\n\nKt\u00f3ry\u017c cz\u0142owiek nie zap\u0142acze,\nWidz\u0105c m\u0119ki i rozpacze\nMatki Bo\u017cej w \u017calu tym?\n\nKt\u00f3\u017c od smutku si\u0119 powstrzyma,\nMaj\u0105c matk\u0119 przed oczyma,\nKt\u00f3ra cierpi z Synem swym?\n\nWidzi, jak za ludzkie winy\nZnosi m\u0119ki Syn jedyny,\nJezus \u2013 jak Go smaga bat.\n\nWidzi jak samotnie kona\nOwoc Jej czystego \u0142ona,\nDaj\u0105c \u017cycie za ten \u015bwiat.\n\nMatko, co\u015b mi\u0142o\u015bci zdrojem,\nPrzejmij mnie cierpieniem swoim\nAbym bole\u0107 z Tob\u0105 m\u00f3g\u0142.\n\nNiechaj serce moje pa\u0142a,\nBy rado\u015bci\u0105 m\u0105 si\u0119 sta\u0142a\nMi\u0142o\u015b\u0107, kt\u00f3r\u0105 \u2013 Chrystus B\u00f3g.\n\nMatko \u015bwi\u0119ta, srogie rany,\nKt\u00f3re zni\u00f3s\u0142 Ukrzy\u017cowany,\nWyryj mocno w duszy mej.\n\nM\u0119k\u0105, Syna rodzonego,\nCo dla dobra cierpia\u0142 mego,\nZe mn\u0105 si\u0119 podzieli\u0107 chciej.\n\nPragn\u0119 p\u0142aka\u0107 w Twym pobli\u017cu,\nCierpi\u0105c z Tym, co zmar\u0142 na krzy\u017cu\nPo mojego \u017cycia kres.\n\nChc\u0119 pod krzy\u017cem sta\u0107 przy Tobie,\nZ Tob\u0105 \u0142\u0105czy\u0107 si\u0119 w \u017ca\u0142obie,\nI wylewa\u0107 zdroje \u0142ez.\n\nPanno czysta nad pannami,\nNiechaj dobro\u0107 Twoja da mi\nP\u0142aka\u0107 z \u017calu z Tob\u0105 wsp\u00f3\u0142.\n\nBym z Chrystusem kona\u0142 razem,\nM\u0119ki Jego by\u0142 obrazem,\nRany Jego w sobie czu\u0142.\n\nNiech mnie do krwi rani zgraja,\nNiech mnie m\u0119ki krzy\u017c upaja\nI Twojego Syna krew.\n\nW ogniu Panno, niech nie p\u0142on\u0119,\nWi\u0119c mnie w swoj\u0105 we\u017a obron\u0119,\nGdy nadejdzie s\u0105du gniew.\n\nGdy kres dni przede mn\u0105 stanie,\nPrzez Tw\u0105 Matk\u0119 doj\u015b\u0107 mi Panie,\nDo zwyci\u0119stwa palmy daj.\n\nKiedy umrze moje cia\u0142o,\nNiechaj dusz\u0119 ma z sw\u0105 chwa\u0142\u0105\nCzeka Tw\u00f3j wieczysty raj.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 19:25-27*\nOnego czasu: Pod krzy\u017cem Jezusowym sta\u0142a Matka Jego i siostra Matki Jego, Maria Kleofasowa, oraz Maria Magdalena. Gdy wi\u0119c Jezus ujrza\u0142 Matk\u0119 i ucznia, kt\u00f3rego mi\u0142owa\u0142, stoj\u0105cego obok, rzek\u0142 do Matki swojej: \u00abNiewiasto, oto syn Tw\u00f3j!\u00bb Potem rzek\u0142 uczniowi: \u00abOto Matka twoja!\u00bb I od onej godziny wzi\u0105\u0142 j\u0105 ucze\u0144 pod swoj\u0105 opiek\u0119.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Jer 18:20*\nPami\u0119taj o nas, Matko Dziewico, przed obliczem Boga, aby\u015b prosi\u0142a o dobra dla nas i aby od nas odwr\u00f3ci\u0142 sw\u00f3j gniew.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przedk\u0142adamy Ci, Panie Jezu Chryste, modlitwy i ofiary i pokornie b\u0142agamy, aby\u015bmy rozpami\u0119tuj\u0105c w modlitwach ran\u0119 przes\u0142odkiego serca Naj\u015bwi\u0119tszej Maryi, Matki Twojej, za \u0142askawym wstawiennictwem Jej i \u015awi\u0119tych, stoj\u0105cych z Ni\u0105 razem pod krzy\u017cem, przez zas\u0142ugi \u015bmierci Twojej dost\u0105pili nagrody wesp\u00f3\u0142 ze \u015awi\u0119tymi:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, przyjmij \u0142askawie ofiarowane dary, a modlitwa \u015bwi\u0119tego M\u0119czennika Nikomedesa niech je zaleci Twojemu majestatowi.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja o Naj\u015bwi\u0119tszej Maryi Pannie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci\u0119 wielbili, b\u0142ogos\u0142awili i wys\u0142awiali obchodz\u0105c \u015bwi\u0119to Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy. Ona to pocz\u0119\u0142a Jednorodzonego Syna Twojego za spraw\u0105 Ducha \u015awi\u0119tego i zachowuj\u0105c chwa\u0142\u0119 dziewictwa wyda\u0142a \u015bwiatu \u015bwiat\u0142o\u015b\u0107 przedwieczn\u0105, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "B\u0142ogos\u0142awione serce Naj\u015bwi\u0119tszej Maryi Panny, kt\u00f3re nawet bez \u015bmierci zas\u0142u\u017cy\u0142o sobie na palm\u0119 m\u0119cze\u0144stwa pod Krzy\u017cem Pana.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, niech ofiara, z kt\u00f3rej po\u017cywali\u015bmy czcz\u0105c z oddaniem przebicie serca Twojej Matki-Dziewicy, wyjedna nam u Twej \u0142askawo\u015bci wszelkie dobra pomocne ku zbawieniu:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Nikomedesa, M\u0119czennika*\nPanie, niech nas oczy\u015bci Sakrament, kt\u00f3ry\u015bmy przyj\u0119li, a za wstawiennictwem \u015bwi\u0119tego Nikomedesa, Twego M\u0119czennika, niech nas wyzwoli ze wszystkich wad.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

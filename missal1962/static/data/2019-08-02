@@ -1,158 +1,160 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e", 
-      "Wspomnienie", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e", 
+        "Wspomnienie", 
+        "Szaty czerwone"
+      ], 
+      "date": "2019-08-02", 
+      "description": "\u015aw. Alfons urodzi\u0142 si\u0119 ko\u0142o Neapolu w roku 1696. W szesnastym roku \u017cycia uzyska\u0142 doktorat praw i rozpocz\u0105\u0142 karier\u0119 adwokack\u0105. Zrozumiawszy niebezpiecze\u0144stwo tego zawodu, porzuci\u0142 go i po\u015bwi\u0119ci\u0142 si\u0119 s\u0142u\u017cbie Bo\u017cej. Jako kap\u0142an zauwa\u017cy\u0142 ignorancj\u0119 religijn\u0105 ludu i za\u0142o\u017cy\u0142 zgromadzenie Redemptoryst\u00f3w dla g\u0142oszenia misji ludowych. Napisa\u0142 pomnikow\u0105 teologi\u0119 moraln\u0105 oraz wiele dzie\u0142 ascetycznych. Na rozkaz papie\u017ca przez trzyna\u015bcie lat by\u0142 biskupem diecezji \u015bw. Agaty. Uzyskawszy zwolnienie z tego urz\u0119du wr\u00f3ci\u0142 do zgromadzenia i do ko\u0144ca \u017cycia \u015bwieci\u0142 przyk\u0142adem gorliwo\u015bci. Zmar\u0142 jako dziewi\u0119\u0107dziesi\u0119cioletni starzec w roku 1787.\n\n\u015aw. Stefana I, Papie\u017ca i M\u0119czennika\n\u015aw. Stefan I by\u0142 papie\u017cem w latach 254\u2014257. Stwierdzi\u0142 wa\u017cno\u015b\u0107 chrztu udzielonego przez heretyk\u00f3w. Wed\u0142ug tradycji zosta\u0142 zamordowany w czasie odprawiania Mszy \u015bwi\u0119tej w katakumbach.\n\nMsza wsp\u00f3lna nr 8 Si diligis\n", 
+      "tempora": "Pi\u0105tek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Alfonsa Marii Liguori, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Luc 4:18.*\nSp\u00edritus D\u00f3mini super me: propter quod unxit me: evangeliz\u00e1re paup\u00e9ribus misit me, san\u00e1re contr\u00edtos corde.\n*Ps 77:1*\nAtt\u00e9ndite, p\u00f3pule meus, legem meam: inclin\u00e1te aurem vestram in verba oris mei.\nGl\u00f3ria Patri.\nSp\u00edritus D\u00f3mini super me: propter quod unxit me: evangeliz\u00e1re paup\u00e9ribus misit me, san\u00e1re contr\u00edtos corde.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui per be\u00e1tum Alf\u00f3nsum Mar\u00edam Confess\u00f3rem tuum atque Pont\u00edficem, anim\u00e1rum zelo succ\u00e9nsum, Eccl\u00e9siam tuam nova prole fecund\u00e1sti: qu\u01fdsumus; ut, ejus salut\u00e1ribus m\u00f3nitis ed\u00f3cti et ex\u00e9mplis robor\u00e1ti, ad te perven\u00edre fel\u00edciter vale\u00e1mus.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro S. Stephano pope, martyr*\nDeus, qui nos be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, de ej\u00fasdem \u00e9tiam protecti\u00f3ne gaude\u00e1mus.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum\n*2 Tim 2:1-7*\nCar\u00edssime: Confort\u00e1re in gr\u00e1tia, qu\u00e6 est in Christo Jesu: et qu\u00e6 aud\u00edsti a me per multos testes, h\u00e6c comm\u00e9nda fid\u00e1libus hom\u00ednibus, qui id\u00f3nei erunt et alios doc\u00e9re. Lab\u00f3ra sicut bonus miles Christi Jesu. Nemo m\u00edlitans Deo \u00edmplicat se neg\u00f3tiis s\u00e6cul\u00e1ribus: ut ei pl\u00e1ceat, cui se prob\u00e1vit. Nam et qui certat in ag\u00f3ne, non coron\u00e1tur, nisi leg\u00edtime cert\u00e1verit. Labor\u00e1ntem agr\u00edcolam op\u00f3rtet primum de fr\u00factibus perc\u00edpere. Int\u00e9llege qu\u00e6 dico: dabit enim tibi D\u00f3minus in \u00f3mnibus intell\u00e9ctum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 118:52-53*\nMemor fui judici\u00f3rum tu\u00f3rum a s\u01fdculo, D\u00f3mine, et consol\u00e1tus sum: def\u00e9ctio t\u00e9nuit me pro peccat\u00f3ribus derelinqu\u00e9ntibus legem tuam.\n*Ps 39:11*\nJust\u00edtiam tuam non absc\u00f3ndi in corde meo: verit\u00e1tem tuam et salut\u00e1re tuum dixi. Allel\u00faja, allel\u00faja.\n*Ecclus. 49:3-4*\nIpse est dir\u00e9ctus div\u00ednitus in p\u00e6nit\u00e9ntiam gentis, et tulit abominati\u00f3nes impiet\u00e1tis: et gubern\u00e1vit ad D\u00f3minum cor ips\u00edus: et in di\u00e9bus peccat\u00f3rum corrobor\u00e1vit piet\u00e1tem. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 34:13*\nEgo autem, cum mihi mol\u00e9sti essent, indu\u00e9bar cil\u00edcio: humili\u00e1bam in jej\u00fanio \u00e1nimam meam: et or\u00e1tio mea in sinu meo convert\u00e1tur.\n*Ps 22:5.*\nV. Par\u00e1sti in consp\u00e9ctu meo mensam adv\u00e9rsus eos, qui tr\u00edbulant me: impingu\u00e1sti in \u00f3leo caput meum, et calix meus in\u00e9brians quam pr\u00e6cl\u00e1rus est!\n*1 Cor 9:22*\nV. Factus sum inf\u00edrmis inf\u00edrmus, ut inf\u00edrmos lucrif\u00e1cerem.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dic\u00e9bat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte port\u00e1re sacculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Prov 3:9; 3:27*\nH\u00f3nora D\u00f3minum de tua subst\u00e1ntia, et de prim\u00edtiis \u00f3mnium frugum tu\u00e1rum da ei. Noli prohib\u00e9re benef\u00e1cere eum, qui potest: si vales, et ipse b\u00e9nefac.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Coel\u00e9sti, D\u00f3mine Jesu Christe, sacrif\u00edcii igne corda nostra in od\u00f3rem suavit\u00e1tis ex\u00fare: qui be\u00e1to Alf\u00f3nso Mar\u00ed\u00e6 tribu\u00edsti et h\u00e6c myst\u00e9ria celebr\u00e1re, et per \u00e9adem h\u00f3stiam tibi sanctam se\u00edpsum exhib\u00e9re:\nQui vivis.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro S. Stephano pope, martyr*\nM\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, per \u00e9adem nos plac\u00e1tus int\u00e9nde.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Eccli 50:1; 50:9*\nSac\u00e9rdos magnus, qui in vita sua suff\u00falsit domum, et in di\u00e9bus suis corrobor\u00e1vit templum, quasi ignis eff\u00falgens et thus ardens in igne.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Alf\u00f3nsum Mar\u00edam Confess\u00f3rem tuum atque Pont\u00edficem fidelem div\u00edni myst\u00e9rii dispensat\u00f3rem et pr\u00e6c\u00f3nem effec\u00edsti: ejus m\u00e9ritis precib\u00fasque conc\u00e9de; ut fid\u00e9les tui et frequ\u00e9nter perc\u00edpiant, et percipi\u00e9ndo sine fine coll\u00e1udent.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro S. Stephano pope, martyr*\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2019-08-02", 
-    "description": "\u015aw. Alfons urodzi\u0142 si\u0119 ko\u0142o Neapolu w roku 1696. W szesnastym roku \u017cycia uzyska\u0142 doktorat praw i rozpocz\u0105\u0142 karier\u0119 adwokack\u0105. Zrozumiawszy niebezpiecze\u0144stwo tego zawodu, porzuci\u0142 go i po\u015bwi\u0119ci\u0142 si\u0119 s\u0142u\u017cbie Bo\u017cej. Jako kap\u0142an zauwa\u017cy\u0142 ignorancj\u0119 religijn\u0105 ludu i za\u0142o\u017cy\u0142 zgromadzenie Redemptoryst\u00f3w dla g\u0142oszenia misji ludowych. Napisa\u0142 pomnikow\u0105 teologi\u0119 moraln\u0105 oraz wiele dzie\u0142 ascetycznych. Na rozkaz papie\u017ca przez trzyna\u015bcie lat by\u0142 biskupem diecezji \u015bw. Agaty. Uzyskawszy zwolnienie z tego urz\u0119du wr\u00f3ci\u0142 do zgromadzenia i do ko\u0144ca \u017cycia \u015bwieci\u0142 przyk\u0142adem gorliwo\u015bci. Zmar\u0142 jako dziewi\u0119\u0107dziesi\u0119cioletni starzec w roku 1787.\n\n\u015aw. Stefana I, Papie\u017ca i M\u0119czennika\n\u015aw. Stefan I by\u0142 papie\u017cem w latach 254\u2014257. Stwierdzi\u0142 wa\u017cno\u015b\u0107 chrztu udzielonego przez heretyk\u00f3w. Wed\u0142ug tradycji zosta\u0142 zamordowany w czasie odprawiania Mszy \u015bwi\u0119tej w katakumbach.\n\nMsza wsp\u00f3lna nr 8 Si diligis\n", 
-    "tempora": "Pi\u0105tek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Alfonsa Marii Liguori, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Luc 4:18.*\nSp\u00edritus D\u00f3mini super me: propter quod unxit me: evangeliz\u00e1re paup\u00e9ribus misit me, san\u00e1re contr\u00edtos corde.\n*Ps 77:1*\nAtt\u00e9ndite, p\u00f3pule meus, legem meam: inclin\u00e1te aurem vestram in verba oris mei.\nGl\u00f3ria Patri.\nSp\u00edritus D\u00f3mini super me: propter quod unxit me: evangeliz\u00e1re paup\u00e9ribus misit me, san\u00e1re contr\u00edtos corde.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui per be\u00e1tum Alf\u00f3nsum Mar\u00edam Confess\u00f3rem tuum atque Pont\u00edficem, anim\u00e1rum zelo succ\u00e9nsum, Eccl\u00e9siam tuam nova prole fecund\u00e1sti: qu\u01fdsumus; ut, ejus salut\u00e1ribus m\u00f3nitis ed\u00f3cti et ex\u00e9mplis robor\u00e1ti, ad te perven\u00edre fel\u00edciter vale\u00e1mus.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro S. Stephano pope, martyr*\nDeus, qui nos be\u00e1ti N. M\u00e1rtyris tui atque Pont\u00edficis \u00e1nnua sollemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, de ej\u00fasdem \u00e9tiam protecti\u00f3ne gaude\u00e1mus.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum\n*2 Tim 2:1-7*\nCar\u00edssime: Confort\u00e1re in gr\u00e1tia, qu\u00e6 est in Christo Jesu: et qu\u00e6 aud\u00edsti a me per multos testes, h\u00e6c comm\u00e9nda fid\u00e1libus hom\u00ednibus, qui id\u00f3nei erunt et alios doc\u00e9re. Lab\u00f3ra sicut bonus miles Christi Jesu. Nemo m\u00edlitans Deo \u00edmplicat se neg\u00f3tiis s\u00e6cul\u00e1ribus: ut ei pl\u00e1ceat, cui se prob\u00e1vit. Nam et qui certat in ag\u00f3ne, non coron\u00e1tur, nisi leg\u00edtime cert\u00e1verit. Labor\u00e1ntem agr\u00edcolam op\u00f3rtet primum de fr\u00factibus perc\u00edpere. Int\u00e9llege qu\u00e6 dico: dabit enim tibi D\u00f3minus in \u00f3mnibus intell\u00e9ctum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 118:52-53*\nMemor fui judici\u00f3rum tu\u00f3rum a s\u01fdculo, D\u00f3mine, et consol\u00e1tus sum: def\u00e9ctio t\u00e9nuit me pro peccat\u00f3ribus derelinqu\u00e9ntibus legem tuam.\n*Ps 39:11*\nJust\u00edtiam tuam non absc\u00f3ndi in corde meo: verit\u00e1tem tuam et salut\u00e1re tuum dixi. Allel\u00faja, allel\u00faja.\n*Ecclus. 49:3-4*\nIpse est dir\u00e9ctus div\u00ednitus in p\u00e6nit\u00e9ntiam gentis, et tulit abominati\u00f3nes impiet\u00e1tis: et gubern\u00e1vit ad D\u00f3minum cor ips\u00edus: et in di\u00e9bus peccat\u00f3rum corrobor\u00e1vit piet\u00e1tem. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 34:13*\nEgo autem, cum mihi mol\u00e9sti essent, indu\u00e9bar cil\u00edcio: humili\u00e1bam in jej\u00fanio \u00e1nimam meam: et or\u00e1tio mea in sinu meo convert\u00e1tur.\n*Ps 22:5.*\nV. Par\u00e1sti in consp\u00e9ctu meo mensam adv\u00e9rsus eos, qui tr\u00edbulant me: impingu\u00e1sti in \u00f3leo caput meum, et calix meus in\u00e9brians quam pr\u00e6cl\u00e1rus est!\n*1 Cor 9:22*\nV. Factus sum inf\u00edrmis inf\u00edrmus, ut inf\u00edrmos lucrif\u00e1cerem.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dic\u00e9bat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte port\u00e1re sacculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Prov 3:9; 3:27*\nH\u00f3nora D\u00f3minum de tua subst\u00e1ntia, et de prim\u00edtiis \u00f3mnium frugum tu\u00e1rum da ei. Noli prohib\u00e9re benef\u00e1cere eum, qui potest: si vales, et ipse b\u00e9nefac.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Coel\u00e9sti, D\u00f3mine Jesu Christe, sacrif\u00edcii igne corda nostra in od\u00f3rem suavit\u00e1tis ex\u00fare: qui be\u00e1to Alf\u00f3nso Mar\u00ed\u00e6 tribu\u00edsti et h\u00e6c myst\u00e9ria celebr\u00e1re, et per \u00e9adem h\u00f3stiam tibi sanctam se\u00edpsum exhib\u00e9re:\nQui vivis.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro S. Stephano pope, martyr*\nM\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, per \u00e9adem nos plac\u00e1tus int\u00e9nde.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Eccli 50:1; 50:9*\nSac\u00e9rdos magnus, qui in vita sua suff\u00falsit domum, et in di\u00e9bus suis corrobor\u00e1vit templum, quasi ignis eff\u00falgens et thus ardens in igne.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Alf\u00f3nsum Mar\u00edam Confess\u00f3rem tuum atque Pont\u00edficem fidelem div\u00edni myst\u00e9rii dispensat\u00f3rem et pr\u00e6c\u00f3nem effec\u00edsti: ejus m\u00e9ritis precib\u00fasque conc\u00e9de; ut fid\u00e9les tui et frequ\u00e9nter perc\u00edpiant, et percipi\u00e9ndo sine fine coll\u00e1udent.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro S. Stephano pope, martyr*\nH\u00e6c nos comm\u00fanio, D\u00f3mine, purget a cr\u00edmine: et, interced\u00e9nte be\u00e1to N. M\u00e1rtyre tuo atque Pont\u00edfice, coel\u00e9stis rem\u00e9dii f\u00e1ciat esse cons\u00f3rtes.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*\u0141k 4:18*\nDuch Pa\u0144ski nade mn\u0105: dlatego mnie nama\u015bci\u0142, abym g\u0142osi\u0142 Ewangeli\u0119 ubogim. Pos\u0142a\u0142 mi\u0119, abym uzdrowi\u0142 skruszonych w sercu.\n*Ps 77:1*\nS\u0142uchaj, m\u00f3j ludu, nauki mojej: uszy swoje nak\u0142o\u0144cie na s\u0142owa ust moich.\nChwa\u0142a Ojcu.\nDuch Pa\u0144ski nade mn\u0105: dlatego mnie nama\u015bci\u0142, abym g\u0142osi\u0142 Ewangeli\u0119 ubogim. Pos\u0142a\u0142 mi\u0119, abym uzdrowi\u0142 skruszonych w sercu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty\u015b przez \u015bw. Alfonsa Mari\u0119, Twego Wyznawc\u0119 i Biskupa, obdarzy\u0142 Tw\u00f3j Ko\u015bci\u00f3\u0142 now\u0105 rodzin\u0105 zakonn\u0105; prosimy Ci\u0119, aby\u015bmy pouczeni jego zbawiennymi napomnieniami i wzmocnieni przyk\u0142adem, zdo\u0142ali szcz\u0119\u015bliwie doj\u015b\u0107 do Ciebie.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nWiekuisty Pasterzu, wejrzyj \u0142askawie na Swoj\u0105 trzod\u0119 i otocz j\u0105 nieustann\u0105 opiek\u0105 za przyczyn\u0105 \u015bwi\u0119tego Stefana, Twojego M\u0119czennika i Papie\u017ca, kt\u00f3rego ustanowi\u0142e\u015b pasterzem ca\u0142ego Ko\u015bcio\u0142a.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "*2 Tm 2:1-7*\n*\u015aw. Alfons, podobnie jak \u015bw. Pawe\u0142, nie tylko sam g\u0142osi\u0142 s\u0142owo Bo\u017ce, lecz pozostawi\u0142 uczni\u00f3w, kt\u00f3rzy prowadz\u0105 nadal jego dzie\u0142o.*\nNajmilszy: Wzmacniaj si\u0119 w \u0142asce, kt\u00f3ra jest w Chrystusie Jezusie, a to, co s\u0142ysza\u0142e\u015b ode mnie wobec wielu \u015bwiadk\u00f3w, zlecaj ludziom wiernym, kt\u00f3rzy b\u0119d\u0105 zdolni uczy\u0107 te\u017c i innych. Pracuj jako dobry \u017co\u0142nierz Chrystusa Jezusa. \u017baden bojownik Bo\u017cy nie wik\u0142a si\u0119 w sprawy tego \u017cycia, aby temu si\u0119 podoba\u0142, pod kim bojuje. Bo i zapa\u015bnik nie otrzymuje wie\u0144ca, je\u015bli nie walczy wed\u0142ug przepis\u00f3w. Rolnik, kt\u00f3ry pracuje, ma prawo pierwszy korzysta\u0107 z owoc\u00f3w. Rozwa\u017c, co m\u00f3wi\u0119, bo da ci Pan we wszystkim zrozumienie.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 118:52-53*\nPami\u0119tam, Panie, o dawnych Twych S\u0105dach, s\u0105 one dla mnie pociech\u0105. Gniew mnie ogarnia z powodu grzesznik\u00f3w porzucaj\u0105cych Twe prawo.\n*Ps 39:11*\nSprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em, wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc. Alleluja, alleluja.\n*Syr 49:3-4*\nTego B\u00f3g przeznaczy\u0142, by nawo\u0142ywa\u0142 lud do pokuty i usun\u0105\u0142 wstr\u0119tn\u0105 bezbo\u017cno\u015b\u0107; on serce swoje skierowa\u0142 ku Panu i w czasach zepsucia umocni\u0142 pobo\u017cno\u015b\u0107. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w sercu jego, a kroki si\u0119 jego nie chwiej\u0105.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Prz 3:9; 3:27*\nSk\u0142adaj Panu ofiary z twojej maj\u0119tno\u015bci, dawaj Mu z pierwocin wszystkich twoich plon\u00f3w. Nie zabraniaj czyni\u0107 dobrze temu, kt\u00f3ry mo\u017ce; a je\u015bli mo\u017cesz, i ty czy\u0144 dobrze.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie Jezu Chryste, kt\u00f3ry \u015bw. Alfonsowi Marii dozwoli\u0142e\u015b sprawowa\u0107 te misteria i przez nie samego siebie z\u0142o\u017cy\u0107 Tobie w \u015bwi\u0119te ofierze, spal nasze serca ogniem niebieskiej ofiary jako mi\u0142\u0105 wonno\u015b\u0107:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nZ\u0142o\u017cywszy dary, prosimy Ci\u0119, Panie, o\u015bwie\u0107 \u0142askawie Tw\u00f3j Ko\u015bci\u00f3\u0142, by trzodzie Twojej wsz\u0119dzie sprzyja\u0142o powodzenie, a pasterze pod Twymi rz\u0105dami starali si\u0119 podoba\u0107 Twojemu imieniu.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Syr 50:1; 50:9*\nOto Kap\u0142an wielki, kt\u00f3ry za swego \u017cycia podpar\u0142 dom i za dni swoich umocni\u0142 \u015bwi\u0105tyni\u0119. By\u0142 jak ogie\u0144 ja\u015bniej\u0105cy i jak kadzid\u0142o p\u0142on\u0105ce w ogniu.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "*\u015aw. Alfons gorliwie zabiega\u0142 o przywr\u00f3cenie zwyczaju cz\u0119stej Komunii \u015bwi\u0119tej, nie praktykowanego w jego czasach.*\nBo\u017ce, Ty\u015b \u015bw. Alfonsa Mari\u0119 uczyni\u0142 wiernym szafarzem i piewc\u0105 Boskiego Sakramentu, przez jego zas\u0142ugi i modlitwy spraw, aby wierni Twoi cz\u0119sto go przyjmowali, a przyjmuj\u0105c wielbili bez ko\u0144ca.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nProsimy Ci\u0119, Panie, rz\u0105d\u017a mi\u0142o\u015bciwie Twoim Ko\u015bcio\u0142em, krzepionym przez \u015bwi\u0119ty pokarm, aby pod Twoim mo\u017cnym panowaniem ros\u0142a wolno\u015b\u0107 Ko\u015bcio\u0142a, a zwi\u0105zek jego z Tob\u0105 trwa\u0142 niezachwiany.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*\u0141k 4:18*\nDuch Pa\u0144ski nade mn\u0105: dlatego mnie nama\u015bci\u0142, abym g\u0142osi\u0142 Ewangeli\u0119 ubogim. Pos\u0142a\u0142 mi\u0119, abym uzdrowi\u0142 skruszonych w sercu.\n*Ps 77:1*\nS\u0142uchaj, m\u00f3j ludu, nauki mojej: uszy swoje nak\u0142o\u0144cie na s\u0142owa ust moich.\nChwa\u0142a Ojcu.\nDuch Pa\u0144ski nade mn\u0105: dlatego mnie nama\u015bci\u0142, abym g\u0142osi\u0142 Ewangeli\u0119 ubogim. Pos\u0142a\u0142 mi\u0119, abym uzdrowi\u0142 skruszonych w sercu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty\u015b przez \u015bw. Alfonsa Mari\u0119, Twego Wyznawc\u0119 i Biskupa, obdarzy\u0142 Tw\u00f3j Ko\u015bci\u00f3\u0142 now\u0105 rodzin\u0105 zakonn\u0105; prosimy Ci\u0119, aby\u015bmy pouczeni jego zbawiennymi napomnieniami i wzmocnieni przyk\u0142adem, zdo\u0142ali szcz\u0119\u015bliwie doj\u015b\u0107 do Ciebie.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nWiekuisty Pasterzu, wejrzyj \u0142askawie na Swoj\u0105 trzod\u0119 i otocz j\u0105 nieustann\u0105 opiek\u0105 za przyczyn\u0105 \u015bwi\u0119tego Stefana, Twojego M\u0119czennika i Papie\u017ca, kt\u00f3rego ustanowi\u0142e\u015b pasterzem ca\u0142ego Ko\u015bcio\u0142a.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "*2 Tm 2:1-7*\n*\u015aw. Alfons, podobnie jak \u015bw. Pawe\u0142, nie tylko sam g\u0142osi\u0142 s\u0142owo Bo\u017ce, lecz pozostawi\u0142 uczni\u00f3w, kt\u00f3rzy prowadz\u0105 nadal jego dzie\u0142o.*\nNajmilszy: Wzmacniaj si\u0119 w \u0142asce, kt\u00f3ra jest w Chrystusie Jezusie, a to, co s\u0142ysza\u0142e\u015b ode mnie wobec wielu \u015bwiadk\u00f3w, zlecaj ludziom wiernym, kt\u00f3rzy b\u0119d\u0105 zdolni uczy\u0107 te\u017c i innych. Pracuj jako dobry \u017co\u0142nierz Chrystusa Jezusa. \u017baden bojownik Bo\u017cy nie wik\u0142a si\u0119 w sprawy tego \u017cycia, aby temu si\u0119 podoba\u0142, pod kim bojuje. Bo i zapa\u015bnik nie otrzymuje wie\u0144ca, je\u015bli nie walczy wed\u0142ug przepis\u00f3w. Rolnik, kt\u00f3ry pracuje, ma prawo pierwszy korzysta\u0107 z owoc\u00f3w. Rozwa\u017c, co m\u00f3wi\u0119, bo da ci Pan we wszystkim zrozumienie.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 118:52-53*\nPami\u0119tam, Panie, o dawnych Twych S\u0105dach, s\u0105 one dla mnie pociech\u0105. Gniew mnie ogarnia z powodu grzesznik\u00f3w porzucaj\u0105cych Twe prawo.\n*Ps 39:11*\nSprawiedliwo\u015bci Twojej w mym sercu nie skry\u0142em, wyjawi\u0142em Tw\u0105 wierno\u015b\u0107 i Twoj\u0105 pomoc. Alleluja, alleluja.\n*Syr 49:3-4*\nTego B\u00f3g przeznaczy\u0142, by nawo\u0142ywa\u0142 lud do pokuty i usun\u0105\u0142 wstr\u0119tn\u0105 bezbo\u017cno\u015b\u0107; on serce swoje skierowa\u0142 ku Panu i w czasach zepsucia umocni\u0142 pobo\u017cno\u015b\u0107. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w sercu jego, a kroki si\u0119 jego nie chwiej\u0105.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Prz 3:9; 3:27*\nSk\u0142adaj Panu ofiary z twojej maj\u0119tno\u015bci, dawaj Mu z pierwocin wszystkich twoich plon\u00f3w. Nie zabraniaj czyni\u0107 dobrze temu, kt\u00f3ry mo\u017ce; a je\u015bli mo\u017cesz, i ty czy\u0144 dobrze.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, kt\u00f3ry \u015bw. Alfonsowi Marii dozwoli\u0142e\u015b sprawowa\u0107 te misteria i przez nie samego siebie z\u0142o\u017cy\u0107 Tobie w \u015bwi\u0119te ofierze, spal nasze serca ogniem niebieskiej ofiary jako mi\u0142\u0105 wonno\u015b\u0107:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nZ\u0142o\u017cywszy dary, prosimy Ci\u0119, Panie, o\u015bwie\u0107 \u0142askawie Tw\u00f3j Ko\u015bci\u00f3\u0142, by trzodzie Twojej wsz\u0119dzie sprzyja\u0142o powodzenie, a pasterze pod Twymi rz\u0105dami starali si\u0119 podoba\u0107 Twojemu imieniu.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Syr 50:1; 50:9*\nOto Kap\u0142an wielki, kt\u00f3ry za swego \u017cycia podpar\u0142 dom i za dni swoich umocni\u0142 \u015bwi\u0105tyni\u0119. By\u0142 jak ogie\u0144 ja\u015bniej\u0105cy i jak kadzid\u0142o p\u0142on\u0105ce w ogniu.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "*\u015aw. Alfons gorliwie zabiega\u0142 o przywr\u00f3cenie zwyczaju cz\u0119stej Komunii \u015bwi\u0119tej, nie praktykowanego w jego czasach.*\nBo\u017ce, Ty\u015b \u015bw. Alfonsa Mari\u0119 uczyni\u0142 wiernym szafarzem i piewc\u0105 Boskiego Sakramentu, przez jego zas\u0142ugi i modlitwy spraw, aby wierni Twoi cz\u0119sto go przyjmowali, a przyjmuj\u0105c wielbili bez ko\u0144ca.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Stefana I, Papie\u017ca i M\u0119czennika*\nProsimy Ci\u0119, Panie, rz\u0105d\u017a mi\u0142o\u015bciwie Twoim Ko\u015bcio\u0142em, krzepionym przez \u015bwi\u0119ty pokarm, aby pod Twoim mo\u017cnym panowaniem ros\u0142a wolno\u015b\u0107 Ko\u015bcio\u0142a, a zwi\u0105zek jego z Tob\u0105 trwa\u0142 niezachwiany.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

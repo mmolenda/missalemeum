@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-08-04", 
+      "description": "Dominik Guzman urodzi\u0142 si\u0119 w roku 1170 w Hiszpanii. W dwudziestym pi\u0105tym roku \u017cycia zosta\u0142 kanonikiem regularnym, a wkr\u00f3tce potem kap\u0142anem. W roku 1201 zetkn\u0105\u0142 si\u0119 z herezj\u0105 albigens\u00f3w i zrozumia\u0142, \u017ce do jej zwalczenia trzeba stworzy\u0107 nowy typ misjonarzy g\u0142\u0119boko wykszta\u0142conych i \u017cyj\u0105cych w ewangelicznym ub\u00f3stwie. Za\u0142o\u017cy\u0142 Zakon Kaznodziejski i jako cel wyznaczy\u0142 mu obron\u0119 i szerzenie wiary. Zakon ten wsp\u00f3lnie z Franciszkanami przyczyni\u0142 si\u0119 do odrodzenia \u015bredniowiecznego Ko\u015bcio\u0142a. \u015aw. Dominik zmar\u0142 w Bolonii 6 sierpnia 1221 roku.\n", 
+      "tempora": "Pi\u0105tek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Dominika, Wyznawcy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui Eccl\u00e9siam tuam be\u00e1ti Dom\u00ednici Confess\u00f3ris tui illumin\u00e1re dign\u00e1tus es m\u00e9ritis et doctr\u00ednis: conc\u00e9de; ut ejus intercessi\u00f3ne temporalibus non destitu\u00e1tur aux\u00edliis, et spiritu\u00e1libus semper prof\u00edciat increm\u00e9ntis.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum\n*2 Tim 4:1-8.*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vivos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: praedica verbum, insta opport\u00fane, import\u00fane: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria coacerv\u00e1bunt sibi mag\u00edstros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam d\u00e9libor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nAd annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja.\n*Osee 14:6*\nJustus germin\u00e1bit sicut l\u00edlium: et flor\u00e9bit in \u00e6t\u00e9rnum ante D\u00f3minum. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 12:35-40*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Sint lumbi vestri pr\u00e6cincti, et luc\u00e9rn\u00e6 ard\u00e9ntes in m\u00e1nibus vestris, et vos s\u00edmiles hom\u00ednibus exspect\u00e1ntibus d\u00f3minum suum, quando revert\u00e1tur a n\u00faptiis: ut, cum v\u00e9nerit et puls\u00e1verit, conf\u00e9stim ap\u00e9riant ei. Be\u00e1ti servi illi, quos, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntes: amen, dico vobis, quod pr\u00e6c\u00ednget se, et f\u00e1ciet illos disc\u00fambere, et tr\u00e1nsiens ministr\u00e1bit illis. Et si v\u00e9nerit in sec\u00fanda vig\u00edlia, et si in t\u00e9rtia vig\u00edlia v\u00e9nerit, et ita inv\u00e9nerit, be\u00e1ti sunt servi illi. Hoc autem scit\u00f3te, qu\u00f3niam, si sciret paterfam\u00edlias, qua hora fur ven\u00edret, vigil\u00e1ret \u00fatique, et non s\u00edneret p\u00e9rfodi domum suam. Et vos est\u00f3te par\u00e1ti, quia, qua hora non put\u00e1tis, F\u00edlius h\u00f3minis v\u00e9niet.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "M\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: ut, m\u00e9ritis be\u00e1ti Dom\u00ednici Confess\u00f3ris tui, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Conc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui peccat\u00f3rum nostr\u00f3rum p\u00f3ndere pr\u00e9mimur, be\u00e1ti Dom\u00ednici Confess\u00f3ris tui patroc\u00ednio sublev\u00e9mur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-08-04", 
-    "description": "Dominik Guzman urodzi\u0142 si\u0119 w roku 1170 w Hiszpanii. W dwudziestym pi\u0105tym roku \u017cycia zosta\u0142 kanonikiem regularnym, a wkr\u00f3tce potem kap\u0142anem. W roku 1201 zetkn\u0105\u0142 si\u0119 z herezj\u0105 albigens\u00f3w i zrozumia\u0142, \u017ce do jej zwalczenia trzeba stworzy\u0107 nowy typ misjonarzy g\u0142\u0119boko wykszta\u0142conych i \u017cyj\u0105cych w ewangelicznym ub\u00f3stwie. Za\u0142o\u017cy\u0142 Zakon Kaznodziejski i jako cel wyznaczy\u0142 mu obron\u0119 i szerzenie wiary. Zakon ten wsp\u00f3lnie z Franciszkanami przyczyni\u0142 si\u0119 do odrodzenia \u015bredniowiecznego Ko\u015bcio\u0142a. \u015aw. Dominik zmar\u0142 w Bolonii 6 sierpnia 1221 roku.\n", 
-    "tempora": "Pi\u0105tek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Dominika, Wyznawcy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui Eccl\u00e9siam tuam be\u00e1ti Dom\u00ednici Confess\u00f3ris tui illumin\u00e1re dign\u00e1tus es m\u00e9ritis et doctr\u00ednis: conc\u00e9de; ut ejus intercessi\u00f3ne temporalibus non destitu\u00e1tur aux\u00edliis, et spiritu\u00e1libus semper prof\u00edciat increm\u00e9ntis.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum\n*2 Tim 4:1-8.*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vivos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: praedica verbum, insta opport\u00fane, import\u00fane: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria coacerv\u00e1bunt sibi mag\u00edstros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam d\u00e9libor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 91:13; 91:14*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nAd annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja.\n*Osee 14:6*\nJustus germin\u00e1bit sicut l\u00edlium: et flor\u00e9bit in \u00e6t\u00e9rnum ante D\u00f3minum. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 12:35-40*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Sint lumbi vestri pr\u00e6cincti, et luc\u00e9rn\u00e6 ard\u00e9ntes in m\u00e1nibus vestris, et vos s\u00edmiles hom\u00ednibus exspect\u00e1ntibus d\u00f3minum suum, quando revert\u00e1tur a n\u00faptiis: ut, cum v\u00e9nerit et puls\u00e1verit, conf\u00e9stim ap\u00e9riant ei. Be\u00e1ti servi illi, quos, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntes: amen, dico vobis, quod pr\u00e6c\u00ednget se, et f\u00e1ciet illos disc\u00fambere, et tr\u00e1nsiens ministr\u00e1bit illis. Et si v\u00e9nerit in sec\u00fanda vig\u00edlia, et si in t\u00e9rtia vig\u00edlia v\u00e9nerit, et ita inv\u00e9nerit, be\u00e1ti sunt servi illi. Hoc autem scit\u00f3te, qu\u00f3niam, si sciret paterfam\u00edlias, qua hora fur ven\u00edret, vigil\u00e1ret \u00fatique, et non s\u00edneret p\u00e9rfodi domum suam. Et vos est\u00f3te par\u00e1ti, quia, qua hora non put\u00e1tis, F\u00edlius h\u00f3minis v\u00e9niet.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "M\u00fanera tibi, D\u00f3mine, dic\u00e1ta sanct\u00edfica: ut, m\u00e9ritis be\u00e1ti Dom\u00ednici Confess\u00f3ris tui, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Conc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui peccat\u00f3rum nostr\u00f3rum p\u00f3ndere pr\u00e9mimur, be\u00e1ti Dom\u00ednici Confess\u00f3ris tui patroc\u00ednio sublev\u00e9mur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry raczy\u0142e\u015b o\u015bwieci\u0107 sw\u00f3j Ko\u015bci\u00f3\u0142 zas\u0142ugami i nauk\u0105 \u015bw. Dominika, Twojego Wyznawcy, spraw, by za jego wstawiennictwem nie by\u0142 pozbawiony doczesnej pomocy i stale czyni\u0142 post\u0119py w \u017cyciu duchowym.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam ci\u0119 przed Bogiem i przed Jezusem Chrystusem, kt\u00f3ry b\u0119dzie s\u0105dzi\u0142 \u017cywych i umar\u0142ych, przez przyj\u015bcie Jego i przez Jego Kr\u00f3lestwo \u2013 g\u0142o\u015b nauk\u0119, nalegaj w por\u0119 czy nie w por\u0119, przekonywaj, pro\u015b, kar\u0107 ze wszelk\u0105 cierpliwo\u015bci\u0105 i nauk\u0105. Bo nadejdzie czas, \u017ce zdrowej nauki nie \u015bcierpi\u0105, ale wed\u0142ug swych pragnie\u0144 zgromadz\u0105 sobie nauczycieli, a \u017c\u0105dni tego, co \u0142echce ucho, odwr\u00f3c\u0105 s\u0142uch od prawdy i obr\u00f3c\u0105 si\u0119 ku ba\u015bniom.\nAle ty czuwaj, zno\u015b wszystkie trudy, pilnuj obowi\u0105zku g\u0142osiciela Ewangelii, pos\u0142ug\u0119 swoj\u0105 wype\u0142niaj. B\u0105d\u017a rozs\u0105dny. Bo ja ju\u017c si\u0119 gotuje do przelania krwi mojej w ofierze i czas rozwi\u0105zania mego nadchodzi. Toczy\u0142em dobry b\u00f3j, zawodu dokona\u0142em, wiary dochowa\u0142em. Na ostatek od\u0142o\u017cony mi jest wieniec sprawiedliwo\u015bci, kt\u00f3ry mi wr\u0119czy Pan, s\u0119dzia sprawiedliwy, w on dzie\u0144; a nie tylko mnie, ale i tym, kt\u00f3rzy mi\u0142uj\u0105 przyj\u015bcie Jego.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 91:13; 91:14*\nV. Sprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie w domu Pa\u0144skim.\n*Ps 91:3*\nV. By g\u0142osi\u0107 z rana Twoje mi\u0142osierdzie, a wierno\u015b\u0107 Twoj\u0105 nocami. Alleluja, alleluja.\n*Oz 14:6*\nSprawiedliwy wyro\u015bnie jak lilia i kwitn\u0105\u0107 b\u0119dzie przed Panem na wieki. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim innemu moc jego wzro\u015bnie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Po\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone Ci dary, aby przez zas\u0142ugi \u015bw. Dominika, Twego Wyznawcy, sta\u0142y si\u0119 dla nas lekarstwem.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, aby ka\u017cdemu przydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby pod\u017awign\u0119\u0142o nas wstawiennictwo \u015bw. Dominika, gdy przyt\u0142acza nas ci\u0119\u017car w\u0142asnych grzech\u00f3w.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry raczy\u0142e\u015b o\u015bwieci\u0107 sw\u00f3j Ko\u015bci\u00f3\u0142 zas\u0142ugami i nauk\u0105 \u015bw. Dominika, Twojego Wyznawcy, spraw, by za jego wstawiennictwem nie by\u0142 pozbawiony doczesnej pomocy i stale czyni\u0142 post\u0119py w \u017cyciu duchowym.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam ci\u0119 przed Bogiem i przed Jezusem Chrystusem, kt\u00f3ry b\u0119dzie s\u0105dzi\u0142 \u017cywych i umar\u0142ych, przez przyj\u015bcie Jego i przez Jego Kr\u00f3lestwo \u2013 g\u0142o\u015b nauk\u0119, nalegaj w por\u0119 czy nie w por\u0119, przekonywaj, pro\u015b, kar\u0107 ze wszelk\u0105 cierpliwo\u015bci\u0105 i nauk\u0105. Bo nadejdzie czas, \u017ce zdrowej nauki nie \u015bcierpi\u0105, ale wed\u0142ug swych pragnie\u0144 zgromadz\u0105 sobie nauczycieli, a \u017c\u0105dni tego, co \u0142echce ucho, odwr\u00f3c\u0105 s\u0142uch od prawdy i obr\u00f3c\u0105 si\u0119 ku ba\u015bniom.\nAle ty czuwaj, zno\u015b wszystkie trudy, pilnuj obowi\u0105zku g\u0142osiciela Ewangelii, pos\u0142ug\u0119 swoj\u0105 wype\u0142niaj. B\u0105d\u017a rozs\u0105dny. Bo ja ju\u017c si\u0119 gotuje do przelania krwi mojej w ofierze i czas rozwi\u0105zania mego nadchodzi. Toczy\u0142em dobry b\u00f3j, zawodu dokona\u0142em, wiary dochowa\u0142em. Na ostatek od\u0142o\u017cony mi jest wieniec sprawiedliwo\u015bci, kt\u00f3ry mi wr\u0119czy Pan, s\u0119dzia sprawiedliwy, w on dzie\u0144; a nie tylko mnie, ale i tym, kt\u00f3rzy mi\u0142uj\u0105 przyj\u015bcie Jego.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 91:13; 91:14*\nV. Sprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie w domu Pa\u0144skim.\n*Ps 91:3*\nV. By g\u0142osi\u0107 z rana Twoje mi\u0142osierdzie, a wierno\u015b\u0107 Twoj\u0105 nocami. Alleluja, alleluja.\n*Oz 14:6*\nSprawiedliwy wyro\u015bnie jak lilia i kwitn\u0105\u0107 b\u0119dzie przed Panem na wieki. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim innemu moc jego wzro\u015bnie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Po\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone Ci dary, aby przez zas\u0142ugi \u015bw. Dominika, Twego Wyznawcy, sta\u0142y si\u0119 dla nas lekarstwem.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, aby ka\u017cdemu przydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, aby pod\u017awign\u0119\u0142o nas wstawiennictwo \u015bw. Dominika, gdy przyt\u0142acza nas ci\u0119\u017car w\u0142asnych grzech\u00f3w.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "Wspomnienie", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Wspomnienie", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-07-17", 
+      "description": "Wed\u0142ug legendy \u015bw. Aleksy za natchnieniem Bo\u017cym opu\u015bci\u0142 dom rodzinny i o \u017cebranym chlebie pielgrzymowa\u0142 do Ziemi \u015awi\u0119tej, a potem prowadzi\u0142 \u017cycie pustelnicze pod Edes\u0105. Po latach wr\u00f3ci\u0142 do domu rodzinnego i niepoznany \u017cy\u0142 jako \u017cebrak 17 lat. Zmar\u0142 w roku 417. Lekcja m\u00f3wi o niebezpiecze\u0144stwie p\u0142yn\u0105cym z przywi\u0105zania do d\u00f3br doczesnych.\n\nMsza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem lekcji\n", 
+      "tempora": "Poniedzia\u0142ek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Aleksego, Wyznawcy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui nos be\u00e1ti N. Confess\u00f3ris tui \u00e1nnua solemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum.\n*1 Tim 6:6-12*\nCar\u00edssime: Est qu\u00e6stus magnus p\u00edetas cum suffici\u00e9ntia. Nihil enim int\u00falimus in hunc mundum: haud d\u00fabium, quod nec auf\u00e9rre quid p\u00f3ssumus. Hab\u00e9ntes autem alim\u00e9nta, et quibus teg\u00e1mur, his cont\u00e9nti simus. Nam qui volunt d\u00edvites f\u00ederi, inc\u00eddunt in tentati\u00f3nem et in l\u00e1queum di\u00e1boli, et desid\u00e9ria multa inut\u00edlia et noc\u00edva: qu\u00e6 mergunt h\u00f3mines in int\u00e9ritum et perditi\u00f3nem. Radix enim \u00f3mnium mal\u00f3rum est cup\u00edditas: quam quidam appet\u00e9ntes, errav\u00e9runt a fide, et inseru\u00e9runt se dol\u00f3ribus multis. Tu autem, o homo Dei, h\u00e6c fuge: sect\u00e1re vero just\u00edtiam, piet\u00e1tem, fidem, carit\u00e1tem, pati\u00e9ntiam, mansuet\u00fadinem. Certa bonum cert\u00e1men f\u00eddei, appreh\u00e9nde vitam \u00e6t\u00e9rnam.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja\n*Ja 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui sec\u00fati estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possidebit.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 24:46-47.*\nBe\u00e1tus servus, quem, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntem: amen, dico vobis, super \u00f3mnia bona sua const\u00edtuet eum.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-07-17", 
-    "description": "Wed\u0142ug legendy \u015bw. Aleksy za natchnieniem Bo\u017cym opu\u015bci\u0142 dom rodzinny i o \u017cebranym chlebie pielgrzymowa\u0142 do Ziemi \u015awi\u0119tej, a potem prowadzi\u0142 \u017cycie pustelnicze pod Edes\u0105. Po latach wr\u00f3ci\u0142 do domu rodzinnego i niepoznany \u017cy\u0142 jako \u017cebrak 17 lat. Zmar\u0142 w roku 417. Lekcja m\u00f3wi o niebezpiecze\u0144stwie p\u0142yn\u0105cym z przywi\u0105zania do d\u00f3br doczesnych.\n\nMsza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem lekcji\n", 
-    "tempora": "Poniedzia\u0142ek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Aleksego, Wyznawcy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.\n*Ps 36:1*\nNoli \u00e6mul\u00e1ri in malign\u00e1ntibus: neque zel\u00e1veris faci\u00e9ntes iniquit\u00e1tem.\nGl\u00f3ria Patri.\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium: lex Dei ejus in corde ips\u00edus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui nos be\u00e1ti N. Confess\u00f3ris tui \u00e1nnua solemnit\u00e1te l\u00e6t\u00edficas: conc\u00e9de prop\u00edtius; ut, cujus natal\u00edtia c\u00f3limus, \u00e9tiam acti\u00f3nes imit\u00e9mur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Tim\u00f3theum.\n*1 Tim 6:6-12*\nCar\u00edssime: Est qu\u00e6stus magnus p\u00edetas cum suffici\u00e9ntia. Nihil enim int\u00falimus in hunc mundum: haud d\u00fabium, quod nec auf\u00e9rre quid p\u00f3ssumus. Hab\u00e9ntes autem alim\u00e9nta, et quibus teg\u00e1mur, his cont\u00e9nti simus. Nam qui volunt d\u00edvites f\u00ederi, inc\u00eddunt in tentati\u00f3nem et in l\u00e1queum di\u00e1boli, et desid\u00e9ria multa inut\u00edlia et noc\u00edva: qu\u00e6 mergunt h\u00f3mines in int\u00e9ritum et perditi\u00f3nem. Radix enim \u00f3mnium mal\u00f3rum est cup\u00edditas: quam quidam appet\u00e9ntes, errav\u00e9runt a fide, et inseru\u00e9runt se dol\u00f3ribus multis. Tu autem, o homo Dei, h\u00e6c fuge: sect\u00e1re vero just\u00edtiam, piet\u00e1tem, fidem, carit\u00e1tem, pati\u00e9ntiam, mansuet\u00fadinem. Certa bonum cert\u00e1men f\u00eddei, appreh\u00e9nde vitam \u00e6t\u00e9rnam.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem. Allel\u00faja, allel\u00faja\n*Ja 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 91:13; 91:14*\nV. Justus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur in domo D\u00f3mini.\n*Ps 91:3*\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 19:27-29*\nIn illo t\u00e9mpore: Dixit Petrus ad Jesum: Ecce, nos rel\u00edquimus \u00f3mnia, et sec\u00fati sumus te: quid ergo erit nobis? Jesus autem dixit illis: Amen, dico vobis, quod vos, qui sec\u00fati estis me, in regenerati\u00f3ne, cum s\u00e9derit F\u00edlius h\u00f3minis in sede majest\u00e1tis su\u00e6, sed\u00e9bitis et vos super sedes du\u00f3decim, judic\u00e1ntes du\u00f3decim tribus Isra\u00ebl. Et omnis, qui rel\u00edquerit domum, vel fratres, aut sor\u00f3res, aut patrem, aut matrem, aut ux\u00f3rem, aut f\u00edlios, aut agros, propter nomen meum, c\u00e9ntuplum acc\u00edpiet, et vitam \u00e6t\u00e9rnam possidebit.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:25*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 24:46-47.*\nBe\u00e1tus servus, quem, cum v\u00e9nerit d\u00f3minus, inv\u00e9nerit vigil\u00e1ntem: amen, dico vobis, super \u00f3mnia bona sua const\u00edtuet eum.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry co roku uweselasz nas uroczysto\u015bci\u0105 \u015bwi\u0119tego Aleksego, Twojego Wyznawcy, spraw \u0142askawie, aby\u015bmy r\u00f3wnie\u017c na\u015bladowali czyny tego, kt\u00f3rego narodziny dla nieba obchodzimy.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*1 Tm 6:6-12*\nNajmilszy: Wielkim zyskiem jest sama pobo\u017cno\u015b\u0107 poprzestaj\u0105ca na ma\u0142ym. Bo\u015bmy nic na ten \u015bwiat nie przynie\u015bli, bez w\u0105tpienia, te\u017c nic wynie\u015b\u0107 nie mo\u017cemy. A maj\u0105c \u017cywno\u015b\u0107 i czym si\u0119 przyodzia\u0107, na tym poprzestawajmy. Albowiem ci, kt\u00f3rzy chc\u0105 by\u0107 bogatymi, wpadaj\u0105 w pokusy i w sid\u0142a diabelskie, i w wiele szkodliwych i niepotrzebnych po\u017c\u0105dliwo\u015bci, pogr\u0105\u017caj\u0105cych ludzi w zatracenie i w zgub\u0119. Bo korzeniem wszelkiego z\u0142a jest chciwo\u015b\u0107: tej, skoro niekt\u00f3rzy si\u0119 oddali, odpadli od wiary i uwik\u0142ali si\u0119 w liczne cierpienia. Ale ty, o cz\u0142owiecze Bo\u017cy, tego unikaj, a ubiegaj si\u0119 o sprawiedliwo\u015b\u0107, pobo\u017cno\u015b\u0107, wiar\u0119, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107 i \u0142agodno\u015b\u0107. Prowad\u017a dobry b\u00f3j wiary, zdobywaj \u017cycie wieczne.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 19:27-29*\nOnego czasu:  Piotr powiedzia\u0142 do Jezusa:  Oto\u015bmy opu\u015bcili wszystko i poszli za Tob\u0105;  c\u00f3\u017c wi\u0119c otrzymamy?\u00bb  A Jezus rzek\u0142 im: \u00abZaprawd\u0119 powiadam wam,  \u017ce wy, kt\u00f3rzy\u015bcie za mn\u0105 m poszli, w odrodzeniu, gdy zasi\u0105dzie Syn Cz\u0142owieczy na stolicy majestatu swego, zasi\u0105dziecie i wy na dwunastu stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela. A ka\u017cdy, kto by opu\u015bci\u0142 dom albo braci, albo siostry, albo ojca, albo matk\u0119, albo \u017con\u0119,  albo syn\u00f3w, albo rol\u0119 dla imienia mego, stokro\u0107 wi\u0119cej otrzyma i \u017cywot wieczny osi\u0105gnie\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry co roku uweselasz nas uroczysto\u015bci\u0105 \u015bwi\u0119tego Aleksego, Twojego Wyznawcy, spraw \u0142askawie, aby\u015bmy r\u00f3wnie\u017c na\u015bladowali czyny tego, kt\u00f3rego narodziny dla nieba obchodzimy.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*1 Tm 6:6-12*\nNajmilszy: Wielkim zyskiem jest sama pobo\u017cno\u015b\u0107 poprzestaj\u0105ca na ma\u0142ym. Bo\u015bmy nic na ten \u015bwiat nie przynie\u015bli, bez w\u0105tpienia, te\u017c nic wynie\u015b\u0107 nie mo\u017cemy. A maj\u0105c \u017cywno\u015b\u0107 i czym si\u0119 przyodzia\u0107, na tym poprzestawajmy. Albowiem ci, kt\u00f3rzy chc\u0105 by\u0107 bogatymi, wpadaj\u0105 w pokusy i w sid\u0142a diabelskie, i w wiele szkodliwych i niepotrzebnych po\u017c\u0105dliwo\u015bci, pogr\u0105\u017caj\u0105cych ludzi w zatracenie i w zgub\u0119. Bo korzeniem wszelkiego z\u0142a jest chciwo\u015b\u0107: tej, skoro niekt\u00f3rzy si\u0119 oddali, odpadli od wiary i uwik\u0142ali si\u0119 w liczne cierpienia. Ale ty, o cz\u0142owiecze Bo\u017cy, tego unikaj, a ubiegaj si\u0119 o sprawiedliwo\u015b\u0107, pobo\u017cno\u015b\u0107, wiar\u0119, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107 i \u0142agodno\u015b\u0107. Prowad\u017a dobry b\u00f3j wiary, zdobywaj \u017cycie wieczne.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 19:27-29*\nOnego czasu:  Piotr powiedzia\u0142 do Jezusa:  Oto\u015bmy opu\u015bcili wszystko i poszli za Tob\u0105;  c\u00f3\u017c wi\u0119c otrzymamy?\u00bb  A Jezus rzek\u0142 im: \u00abZaprawd\u0119 powiadam wam,  \u017ce wy, kt\u00f3rzy\u015bcie za mn\u0105 m poszli, w odrodzeniu, gdy zasi\u0105dzie Syn Cz\u0142owieczy na stolicy majestatu swego, zasi\u0105dziecie i wy na dwunastu stolicach, s\u0105dz\u0105c dwana\u015bcie pokole\u0144 Izraela. A ka\u017cdy, kto by opu\u015bci\u0142 dom albo braci, albo siostry, albo ojca, albo matk\u0119, albo \u017con\u0119,  albo syn\u00f3w, albo rol\u0119 dla imienia mego, stokro\u0107 wi\u0119cej otrzyma i \u017cywot wieczny osi\u0105gnie\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "1 klasy", 
-      "Szaty bia\u0142e", 
-      "W Polsce"
+[
+  {
+    "info": {
+      "additional_info": [
+        "1 klasy", 
+        "Szaty bia\u0142e", 
+        "W Polsce"
+      ], 
+      "date": "2019-08-26", 
+      "description": "W\u0142adys\u0142aw, ksi\u0105\u017c\u0119 opolski, wybudowa\u0142 na Jasnej G\u00f3rze klasztor dla OO. Paulin\u00f3w i odda\u0142 im pod opiek\u0119 obraz Matki Bo\u017cej, czczony na jego zamku. Wkr\u00f3tce obraz zas\u0142yn\u0105\u0142 cudami. Cze\u015b\u0107 jego wzros\u0142a od czas\u00f3w cudownej obrony Jasnej G\u00f3ry przed Szwedami. W roku 1717 obraz zosta\u0142 uroczy\u015bcie ukoronowany i Jasna G\u00f3ra sta\u0142a si\u0119 g\u0142\u00f3wnym o\u015brodkiem kultu Matki Bo\u017cej w Polsce. Teksty mszalne wys\u0142awiaj\u0105 opiek\u0119 Matki Bo\u017cej nad Polsk\u0105 i por\u00f3wnuj\u0105 twierdz\u0119 Jasnog\u00f3rska z Syjonem, siedzib\u0105 arki Przymierza w Starym Testamencie.\n", 
+      "tempora": "Poniedzia\u0142ek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "N. M. P. Jasnog\u00f3rskiej czyli Cz\u0119stochowskiej"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 86:1-2*\nFundam\u00e9nta eius in m\u00f3ntibus sanctis: d\u00edligit D\u00f3minus portas Sion super \u00f3mnia tabern\u00e1cula Jacob.\n*Ps 86:3*\nGlori\u00f3sa dicta sunt de te, c\u00edvitas Dei.\nGl\u00f3ria Patri.\nFundam\u00e9nta eius in m\u00f3ntibus sanctis: d\u00edligit D\u00f3minus portas Sion super \u00f3mnia tabern\u00e1cula Jacob.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omnipotens et misericors Deus, qui ad defensionem populi Polonici in beatissima Virgine Maria perpetuum auxilium mirabliliter constituisti, eiusque sacram Imaginem Claromontanam solemni fidelium veneratione insignem reddidisti: concede propitius; ut, tali praesidio muniti, certantes in vita, victoriam de hoste maligno consequi valeamus in morte.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Prov 8:17-24; 8:32-35*\nEgo d\u00edligent\u00e9s m\u00e9 d\u00edlig\u00f3 et qu\u00ed m\u00e1ne vigilant ad m\u00e9 invenient m\u00e9. M\u00e9cum sunt d\u00edvitiae et gl\u00f3ria op\u00e9s superbae et i\u00fastiti\u00e1. Melior est fr\u00factus meus aur\u00f3 et preti\u00f3s\u00f3 lapide et genimina mea argent\u00f3 \u00e9lect\u00f3. In vi\u00eds i\u00fastitiae ambul\u00f3 in medi\u00f3 s\u00e9mit\u00e1rum i\u00fadici\u00ed ut d\u00edtem d\u00edligent\u00e9s m\u00e9 et th\u00e9saur\u00f3s e\u00f3rum repleam. D\u00f3minus poss\u00e9dit me in in\u00edtio vi\u00e1rum su\u00e1rum, \u00e1ntequam quidquam f\u00e1ceret a princ\u00edpio. Ab \u00e6t\u00e9rno ordin\u00e1ta sum et ex ant\u00edquis, \u00e1ntequam terra f\u00ederet. Nondum erant ab\u00fdssi, et ego jam conc\u00e9pta eram. Nunc ergo, f\u00edlii, aud\u00edte me: Be\u00e1ti, qui cust\u00f3diunt vias meas. Aud\u00edte discipl\u00ednam, et est\u00f3te sapi\u00e9ntes, et nol\u00edte abj\u00edcere eam. Be\u00e1tus homo, qui audit me et qui v\u00edgilat ad fores meas cot\u00eddie. et obs\u00e9rvat ad postes \u00f3stii mei. Qui me inv\u00e9nerit, inv\u00e9niet vitam et h\u00e1uriet sal\u00fatem a D\u00f3mino.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Porta caeli et stella maris es. Virgo Maria, Regis aeterni Mater ac Regina nostra.\nV. Gratos nos redde Filio tuo: quia omnis virtus et decor et gloria ex te resplendet. Alleluia, alleluia.\nLuc 1:28\nV. Ave, gratia plena: Dominus tecum, benedicta tu in mulieribus. Alleluia.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 2:1-11*\nIn illo t\u00e9mpore: N\u00fapti\u00e6 fact\u00e6 sunt in Cana Galil\u01fd\u00e6: et erat Mater Jesu ibi. Voc\u00e1tus est autem et Jesus, et disc\u00edpuli ejus ad n\u00faptias. Et defici\u00e9nte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus min\u00edstris: Quodc\u00famque d\u00edxerit vobis, f\u00e1cite. Erant autem ibi lap\u00edde\u00e6 h\u00fddri\u00e6 sex p\u00f3sit\u00e6 sec\u00fandum purificati\u00f3nem Jud\u00e6\u00f3rum, capi\u00e9ntes s\u00edngul\u00e6 metr\u00e9tas binas vel ternas. Dicit eis Jesus: Implete h\u00fddrias aqua. Et implev\u00e9runt eas usque ad summum. Et dicit eis Jesus: Haur\u00edte nunc, et ferte architricl\u00edno. Et tul\u00e9runt. Ut autem gust\u00e1vit architricl\u00ednus aquam vinum f\u00e1ctam, et non sci\u00e9bat unde esset, min\u00edstri autem sci\u00e9bant, qui h\u00e1userant aquam: vocat sponsum architricl\u00ednus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebri\u00e1ti f\u00faerint, tunc id, quod det\u00e9rius est. Tu autem serv\u00e1sti bonum vinum usque adhuc. Hoc fecit in\u00edtium sign\u00f3rum Jesus in Cana Galil\u01fd\u00e6: et manifest\u00e1vit gl\u00f3riam suam, et credid\u00e9runt in eum disc\u00edpuli ejus.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 47:13-15*\nCircumdate Sion, et complectimini eam, narrate in turribus eius: pronite corda vestra in virtute eius, et distribuite domos eius, ut enarretis in progenie altera: quoniam hic est Deus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Pro religionis christianae triumpho hostias placationis tibi, Domine, immolamus: quae ut nobis proficiant, opem auxiliatrix Virgo praestet; per quam talis perfecta est victoria.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 86:3; 86:2*\nGloriosa dicta sunt de te, civitas Dei: diligit Dominus portas Sion super omnia tabernacula Iacob.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Adesto, Domine, populis, qui participatione Corporis et Sanguinis tui reficiuntur: ut, sanctissima tua Genetrice auxiliante, ab omni male et periculo liberentur, et in omni opere bono custodiantur:\nQui vivis.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-08-26", 
-    "description": "W\u0142adys\u0142aw, ksi\u0105\u017c\u0119 opolski, wybudowa\u0142 na Jasnej G\u00f3rze klasztor dla OO. Paulin\u00f3w i odda\u0142 im pod opiek\u0119 obraz Matki Bo\u017cej, czczony na jego zamku. Wkr\u00f3tce obraz zas\u0142yn\u0105\u0142 cudami. Cze\u015b\u0107 jego wzros\u0142a od czas\u00f3w cudownej obrony Jasnej G\u00f3ry przed Szwedami. W roku 1717 obraz zosta\u0142 uroczy\u015bcie ukoronowany i Jasna G\u00f3ra sta\u0142a si\u0119 g\u0142\u00f3wnym o\u015brodkiem kultu Matki Bo\u017cej w Polsce. Teksty mszalne wys\u0142awiaj\u0105 opiek\u0119 Matki Bo\u017cej nad Polsk\u0105 i por\u00f3wnuj\u0105 twierdz\u0119 Jasnog\u00f3rska z Syjonem, siedzib\u0105 arki Przymierza w Starym Testamencie.\n", 
-    "tempora": "Poniedzia\u0142ek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "N. M. P. Jasnog\u00f3rskiej czyli Cz\u0119stochowskiej"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 86:1-2*\nFundam\u00e9nta eius in m\u00f3ntibus sanctis: d\u00edligit D\u00f3minus portas Sion super \u00f3mnia tabern\u00e1cula Jacob.\n*Ps 86:3*\nGlori\u00f3sa dicta sunt de te, c\u00edvitas Dei.\nGl\u00f3ria Patri.\nFundam\u00e9nta eius in m\u00f3ntibus sanctis: d\u00edligit D\u00f3minus portas Sion super \u00f3mnia tabern\u00e1cula Jacob.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Omnipotens et misericors Deus, qui ad defensionem populi Polonici in beatissima Virgine Maria perpetuum auxilium mirabliliter constituisti, eiusque sacram Imaginem Claromontanam solemni fidelium veneratione insignem reddidisti: concede propitius; ut, tali praesidio muniti, certantes in vita, victoriam de hoste maligno consequi valeamus in morte.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Prov 8:17-24; 8:32-35*\nEgo d\u00edligent\u00e9s m\u00e9 d\u00edlig\u00f3 et qu\u00ed m\u00e1ne vigilant ad m\u00e9 invenient m\u00e9. M\u00e9cum sunt d\u00edvitiae et gl\u00f3ria op\u00e9s superbae et i\u00fastiti\u00e1. Melior est fr\u00factus meus aur\u00f3 et preti\u00f3s\u00f3 lapide et genimina mea argent\u00f3 \u00e9lect\u00f3. In vi\u00eds i\u00fastitiae ambul\u00f3 in medi\u00f3 s\u00e9mit\u00e1rum i\u00fadici\u00ed ut d\u00edtem d\u00edligent\u00e9s m\u00e9 et th\u00e9saur\u00f3s e\u00f3rum repleam. D\u00f3minus poss\u00e9dit me in in\u00edtio vi\u00e1rum su\u00e1rum, \u00e1ntequam quidquam f\u00e1ceret a princ\u00edpio. Ab \u00e6t\u00e9rno ordin\u00e1ta sum et ex ant\u00edquis, \u00e1ntequam terra f\u00ederet. Nondum erant ab\u00fdssi, et ego jam conc\u00e9pta eram. Nunc ergo, f\u00edlii, aud\u00edte me: Be\u00e1ti, qui cust\u00f3diunt vias meas. Aud\u00edte discipl\u00ednam, et est\u00f3te sapi\u00e9ntes, et nol\u00edte abj\u00edcere eam. Be\u00e1tus homo, qui audit me et qui v\u00edgilat ad fores meas cot\u00eddie. et obs\u00e9rvat ad postes \u00f3stii mei. Qui me inv\u00e9nerit, inv\u00e9niet vitam et h\u00e1uriet sal\u00fatem a D\u00f3mino.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "Porta caeli et stella maris es. Virgo Maria, Regis aeterni Mater ac Regina nostra.\nV. Gratos nos redde Filio tuo: quia omnis virtus et decor et gloria ex te resplendet. Alleluia, alleluia.\nLuc 1:28\nV. Ave, gratia plena: Dominus tecum, benedicta tu in mulieribus. Alleluia.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 2:1-11*\nIn illo t\u00e9mpore: N\u00fapti\u00e6 fact\u00e6 sunt in Cana Galil\u01fd\u00e6: et erat Mater Jesu ibi. Voc\u00e1tus est autem et Jesus, et disc\u00edpuli ejus ad n\u00faptias. Et defici\u00e9nte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus min\u00edstris: Quodc\u00famque d\u00edxerit vobis, f\u00e1cite. Erant autem ibi lap\u00edde\u00e6 h\u00fddri\u00e6 sex p\u00f3sit\u00e6 sec\u00fandum purificati\u00f3nem Jud\u00e6\u00f3rum, capi\u00e9ntes s\u00edngul\u00e6 metr\u00e9tas binas vel ternas. Dicit eis Jesus: Implete h\u00fddrias aqua. Et implev\u00e9runt eas usque ad summum. Et dicit eis Jesus: Haur\u00edte nunc, et ferte architricl\u00edno. Et tul\u00e9runt. Ut autem gust\u00e1vit architricl\u00ednus aquam vinum f\u00e1ctam, et non sci\u00e9bat unde esset, min\u00edstri autem sci\u00e9bant, qui h\u00e1userant aquam: vocat sponsum architricl\u00ednus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebri\u00e1ti f\u00faerint, tunc id, quod det\u00e9rius est. Tu autem serv\u00e1sti bonum vinum usque adhuc. Hoc fecit in\u00edtium sign\u00f3rum Jesus in Cana Galil\u01fd\u00e6: et manifest\u00e1vit gl\u00f3riam suam, et credid\u00e9runt in eum disc\u00edpuli ejus.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 47:13-15*\nCircumdate Sion, et complectimini eam, narrate in turribus eius: pronite corda vestra in virtute eius, et distribuite domos eius, ut enarretis in progenie altera: quoniam hic est Deus.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Pro religionis christianae triumpho hostias placationis tibi, Domine, immolamus: quae ut nobis proficiant, opem auxiliatrix Virgo praestet; per quam talis perfecta est victoria.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 86:3; 86:2*\nGloriosa dicta sunt de te, civitas Dei: diligit Dominus portas Sion super omnia tabernacula Iacob.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Adesto, Domine, populis, qui participatione Corporis et Sanguinis tui reficiuntur: ut, sanctissima tua Genetrice auxiliante, ab omni male et periculo liberentur, et in omni opere bono custodiantur:\nQui vivis.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 86:1-2*\nMi\u0142uje Pan to, co na g\u00f3rach \u015bwi\u0119tych zbudowa\u0142: bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.\n*Ps 86:3*\nG\u0142osz\u0105 o tobie rzeczy pe\u0142ne chwa\u0142y, o miasto Bo\u017ce.\nChwa\u0142a Ojcu.\nMi\u0142uje Pan to, co na g\u00f3rach \u015bwi\u0119tych zbudowa\u0142: bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, kt\u00f3ry w Naj\u015bwi\u0119tszej Maryi Pannie przedziwnie ustanowi\u0142e\u015b nieustann\u0105 pomoc dla obrony narodu polskiego, a Jej \u015bwi\u0119ty obraz jasnog\u00f3rski ws\u0142awi\u0142e\u015b niezwyk\u0142\u0105 czci\u0105 ze strony wiernych: spraw \u0142askawie, aby\u015bmy z tak\u0105 pomoc\u0105, walcz\u0105c za \u017cycia, w chwili \u015bmierci zdo\u0142ali odnie\u015b\u0107 zwyci\u0119stwo nad z\u0142o\u015bliwym wrogiem.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Przys\u0142\u00f3w.\n*Prz 8:17-24; 8:32-35*\nJa mi\u0142uj\u0119 tych, kt\u00f3rzy mnie mi\u0142uj\u0105, i ci, co rano dla mnie czuwaj\u0105, znajd\u0105 mnie. Ze mn\u0105 s\u0105 bogactwa i chwa\u0142a, zasoby wspania\u0142e i sprawiedliwo\u015b\u0107. Owoc m\u00f3j bowiem lepszy jest od z\u0142ota i drogich kamieni, a nasiona moje \u2013 nad srebro wyborne. Krocz\u0119 po drogach sprawiedliwo\u015bci, po\u015brodku dr\u00f3g s\u0142uszno\u015bci, by wzbogaci\u0107 mi\u0142uj\u0105cych mnie i nape\u0142ni\u0107 ich skarby. Pan posiad\u0142 mnie na pocz\u0105tku dr\u00f3g swoich, zanim cokolwiek od pocz\u0105tku uczyni\u0142. Od wiek\u00f3w zrz\u0105dzona jestem i od starodawna, zanim ziemia powsta\u0142a. Nie by\u0142o jeszcze przepa\u015bci, a jam pocz\u0119ta by\u0142a. Teraz wi\u0119c, synowie, s\u0142uchajcie mnie: B\u0142ogos\u0142awieni, kt\u00f3rzy strzeg\u0105 dr\u00f3g moich; s\u0142uchajcie nauki, a b\u0105d\u017acie m\u0105drzy i nie odrzucajcie jej. B\u0142ogos\u0142awiony cz\u0142owiek, kt\u00f3ry mnie s\u0142ucha i kt\u00f3ry czuwa co dzie\u0144 u drzwi moich, i strze\u017ce podwoj\u00f3w mej bramy. Kto mnie znajdzie, znajdzie \u017cycie i wyczerpie zbawienie od Pana.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Bram\u0105 niebios i gwiazd\u0105 morsk\u0105 jeste\u015b, Panno Maryjo, Matko Kr\u00f3la przedwiecznego i nasza Kr\u00f3lowo.\nV. Uczy\u0144 nas mi\u0142ymi Synowi Swojemu, bo z Ciebie promieniuje wszelka moc, dostoje\u0144stwo i chwa\u0142a. Alleluja, alleluja.\n\u0141k 1:28\nV. B\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 2:1-11*\nOnego czasu: odbywa\u0142y si\u0119 gody weselne w Kanie Galilejskiej i by\u0142a tam Matka Jezusowa. Zaproszono te\u017c na gody Jezusa wraz z uczniami Jego. A gdy zabrak\u0142o wina, rzek\u0142a Matka Jezusa do Niego: \u00abWina nie maj\u0105\u00bb. I rzek\u0142 Jej Jezus: \u00abZostaw to mnie, niewiasto, jeszcze nie nadesz\u0142a godzina moja\u00bb. M\u00f3wi tedy Matka Jego do s\u0142ug: \u00abUczy\u0144cie cokolwiek wam powie\u00bb. A by\u0142o tam sze\u015b\u0107 st\u0105gwi kamiennych, ustawionych dla obrz\u0119dowych obmy\u0107 \u017cydowskich, z kt\u00f3rych ka\u017cda mog\u0142a pomie\u015bci\u0107 dwa lub trzy wiadra. Rzecze im Jezus: \u00abNape\u0142nijcie st\u0105gwie wod\u0105\u00bb. I nape\u0142nili je a\u017c po brzegi. I rzek\u0142 do nich Jezus: \u00abZaczerpnijcie teraz i zanie\u015bcie gospodarzowi wesela\u00bb. I zanie\u015bli. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem, a nie wiedzia\u0142 sk\u0105d by si\u0119 wzi\u0119\u0142o (lecz s\u0142udzy, kt\u00f3rzy czerpali wod\u0119 wiedzieli), przywo\u0142a\u0142 gospodarz wesela oblubie\u0144ca i rzek\u0142 do\u0144: \u00abKa\u017cdy cz\u0142owiek daje naprz\u00f3d dobre wino, a kiedy si\u0119 napij\u0105, wtedy to, kt\u00f3re jest gorsze, a ty zachowa\u0142e\u015b dobre wino a\u017c do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus w Kanie Galilejskiej i okaza\u0142 chwa\u0142\u0119 swoj\u0105, i uwierzyli we\u0144 uczniowie Jego.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 47:13-15*\nZwiedzajcie Syjon. obchod\u017acie go wko\u0142o, policzcie jego wie\u017cyce. Przypatrzcie si\u0119 jego basztom, przebiegajcie jego warownie, by opowiedzie\u0107 potomnym, \u017ce B\u00f3g jest tak wielki.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "B\u0142agaj\u0105c o triumf religii chrze\u015bcija\u0144skiej, sk\u0142adamy Ci, Panie, ofiary, aby za\u015b one by\u0142y dla nas skuteczne, niechaj nas wesprze Dziewica Wspomo\u017cycielka, dzi\u0119ki kt\u00f3rej odniesiono tak wielkie zwyci\u0119stwo.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 86:3; 86:2*\nG\u0142osz\u0105 o tobie rzeczy pe\u0142ne chwa\u0142y, o miasto Bo\u017ce; mi\u0142uje Pan bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Wspomagaj, Panie, lud, kt\u00f3ry pokrzepiasz uczestnictwem w Ciele i Krwi Twojej, i przy pomocy Naj\u015bwi\u0119tszej Rodzicielki Twojej uwalniaj go od wszelkiego z\u0142a i niebezpiecze\u0144stwa i strze\u017c w ka\u017cdym dobrym poczynaniu:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 86:1-2*\nMi\u0142uje Pan to, co na g\u00f3rach \u015bwi\u0119tych zbudowa\u0142: bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.\n*Ps 86:3*\nG\u0142osz\u0105 o tobie rzeczy pe\u0142ne chwa\u0142y, o miasto Bo\u017ce.\nChwa\u0142a Ojcu.\nMi\u0142uje Pan to, co na g\u00f3rach \u015bwi\u0119tych zbudowa\u0142: bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, kt\u00f3ry w Naj\u015bwi\u0119tszej Maryi Pannie przedziwnie ustanowi\u0142e\u015b nieustann\u0105 pomoc dla obrony narodu polskiego, a Jej \u015bwi\u0119ty obraz jasnog\u00f3rski ws\u0142awi\u0142e\u015b niezwyk\u0142\u0105 czci\u0105 ze strony wiernych: spraw \u0142askawie, aby\u015bmy z tak\u0105 pomoc\u0105, walcz\u0105c za \u017cycia, w chwili \u015bmierci zdo\u0142ali odnie\u015b\u0107 zwyci\u0119stwo nad z\u0142o\u015bliwym wrogiem.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Przys\u0142\u00f3w.\n*Prz 8:17-24; 8:32-35*\nJa mi\u0142uj\u0119 tych, kt\u00f3rzy mnie mi\u0142uj\u0105, i ci, co rano dla mnie czuwaj\u0105, znajd\u0105 mnie. Ze mn\u0105 s\u0105 bogactwa i chwa\u0142a, zasoby wspania\u0142e i sprawiedliwo\u015b\u0107. Owoc m\u00f3j bowiem lepszy jest od z\u0142ota i drogich kamieni, a nasiona moje \u2013 nad srebro wyborne. Krocz\u0119 po drogach sprawiedliwo\u015bci, po\u015brodku dr\u00f3g s\u0142uszno\u015bci, by wzbogaci\u0107 mi\u0142uj\u0105cych mnie i nape\u0142ni\u0107 ich skarby. Pan posiad\u0142 mnie na pocz\u0105tku dr\u00f3g swoich, zanim cokolwiek od pocz\u0105tku uczyni\u0142. Od wiek\u00f3w zrz\u0105dzona jestem i od starodawna, zanim ziemia powsta\u0142a. Nie by\u0142o jeszcze przepa\u015bci, a jam pocz\u0119ta by\u0142a. Teraz wi\u0119c, synowie, s\u0142uchajcie mnie: B\u0142ogos\u0142awieni, kt\u00f3rzy strzeg\u0105 dr\u00f3g moich; s\u0142uchajcie nauki, a b\u0105d\u017acie m\u0105drzy i nie odrzucajcie jej. B\u0142ogos\u0142awiony cz\u0142owiek, kt\u00f3ry mnie s\u0142ucha i kt\u00f3ry czuwa co dzie\u0144 u drzwi moich, i strze\u017ce podwoj\u00f3w mej bramy. Kto mnie znajdzie, znajdzie \u017cycie i wyczerpie zbawienie od Pana.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Bram\u0105 niebios i gwiazd\u0105 morsk\u0105 jeste\u015b, Panno Maryjo, Matko Kr\u00f3la przedwiecznego i nasza Kr\u00f3lowo.\nV. Uczy\u0144 nas mi\u0142ymi Synowi Swojemu, bo z Ciebie promieniuje wszelka moc, dostoje\u0144stwo i chwa\u0142a. Alleluja, alleluja.\n\u0141k 1:28\nV. B\u0105d\u017a pozdrowiona, \u0142aski pe\u0142na, Pan z Tob\u0105, b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 2:1-11*\nOnego czasu: odbywa\u0142y si\u0119 gody weselne w Kanie Galilejskiej i by\u0142a tam Matka Jezusowa. Zaproszono te\u017c na gody Jezusa wraz z uczniami Jego. A gdy zabrak\u0142o wina, rzek\u0142a Matka Jezusa do Niego: \u00abWina nie maj\u0105\u00bb. I rzek\u0142 Jej Jezus: \u00abZostaw to mnie, niewiasto, jeszcze nie nadesz\u0142a godzina moja\u00bb. M\u00f3wi tedy Matka Jego do s\u0142ug: \u00abUczy\u0144cie cokolwiek wam powie\u00bb. A by\u0142o tam sze\u015b\u0107 st\u0105gwi kamiennych, ustawionych dla obrz\u0119dowych obmy\u0107 \u017cydowskich, z kt\u00f3rych ka\u017cda mog\u0142a pomie\u015bci\u0107 dwa lub trzy wiadra. Rzecze im Jezus: \u00abNape\u0142nijcie st\u0105gwie wod\u0105\u00bb. I nape\u0142nili je a\u017c po brzegi. I rzek\u0142 do nich Jezus: \u00abZaczerpnijcie teraz i zanie\u015bcie gospodarzowi wesela\u00bb. I zanie\u015bli. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem, a nie wiedzia\u0142 sk\u0105d by si\u0119 wzi\u0119\u0142o (lecz s\u0142udzy, kt\u00f3rzy czerpali wod\u0119 wiedzieli), przywo\u0142a\u0142 gospodarz wesela oblubie\u0144ca i rzek\u0142 do\u0144: \u00abKa\u017cdy cz\u0142owiek daje naprz\u00f3d dobre wino, a kiedy si\u0119 napij\u0105, wtedy to, kt\u00f3re jest gorsze, a ty zachowa\u0142e\u015b dobre wino a\u017c do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus w Kanie Galilejskiej i okaza\u0142 chwa\u0142\u0119 swoj\u0105, i uwierzyli we\u0144 uczniowie Jego.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 47:13-15*\nZwiedzajcie Syjon. obchod\u017acie go wko\u0142o, policzcie jego wie\u017cyce. Przypatrzcie si\u0119 jego basztom, przebiegajcie jego warownie, by opowiedzie\u0107 potomnym, \u017ce B\u00f3g jest tak wielki.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "B\u0142agaj\u0105c o triumf religii chrze\u015bcija\u0144skiej, sk\u0142adamy Ci, Panie, ofiary, aby za\u015b one by\u0142y dla nas skuteczne, niechaj nas wesprze Dziewica Wspomo\u017cycielka, dzi\u0119ki kt\u00f3rej odniesiono tak wielkie zwyci\u0119stwo.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 86:3; 86:2*\nG\u0142osz\u0105 o tobie rzeczy pe\u0142ne chwa\u0142y, o miasto Bo\u017ce; mi\u0142uje Pan bramy Syjonu wi\u0119cej ni\u017c wszystkie namioty Jakuba.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Wspomagaj, Panie, lud, kt\u00f3ry pokrzepiasz uczestnictwem w Ciele i Krwi Twojej, i przy pomocy Naj\u015bwi\u0119tszej Rodzicielki Twojej uwalniaj go od wszelkiego z\u0142a i niebezpiecze\u0144stwa i strze\u017c w ka\u017cdym dobrym poczynaniu:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

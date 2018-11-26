@@ -1,136 +1,138 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2018-06-30", 
+      "description": "Dzisiejsz\u0105 Msz\u0119 odprawiano dawniej w dniu 29 czerwca na grobie \u015bw. Paw\u0142a. Obecnie osobny dzie\u0144 zosta\u0142 po\u015bwi\u0119cony na uczczenie zas\u0142ug Aposto\u0142a, kt\u00f3ry zani\u00f3s\u0142 Ewangeli\u0119 narodom Ma\u0142ej Azji i Europy, a przez swoje listy sta\u0142 si\u0119 nauczycielem ca\u0142ego \u015bwiata.\n", 
+      "tempora": "Sobota po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Wspomnienie \u015bw. Paw\u0142a, Aposto\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*2 Tim 1:12*\nScio, cui cr\u00e9didi, et certus sum, quia potens est dep\u00f3situm meum servare in illum diem, justus judex.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nScio, cui cr\u00e9didi, et certus sum, quia potens est dep\u00f3situm meum servare in illum diem, justus judex.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui multit\u00fadinem g\u00e9ntium be\u00e1ti Pauli Ap\u00f3stoli pr\u00e6dicati\u00f3ne docu\u00edsti: da nobis, qu\u01fdsumus; ut, cujus commemorati\u00f3nem c\u00f3limus, ejus apud te patroc\u00ednia senti\u00e1mus.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nDeus, qui be\u00e1to Petro Ap\u00f3stolo tuo, coll\u00e1tis cl\u00e1vibus regni Coel\u00e9stis, lig\u00e1ndi atque solv\u00e9ndi pontif\u00edcium tradid\u00edsti: conc\u00e9de; ut, intercessi\u00f3nis ejus aux\u00edlio, a peccat\u00f3rum nostr\u00f3rum n\u00e9xibus liber\u00e9mur.\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro Octava S. Johannis Baptistae*\nDeus, qui pr\u00e6s\u00e9ntem diem honor\u00e1bilem nobis in be\u00e1ti Jo\u00e1nnis nativit\u00e1te fec\u00edsti: da p\u00f3pulis tuis spiritu\u00e1lium gr\u00e1tiam gaudi\u00f3rum; et \u00f3mnium fid\u00e9lium mentes dirige in viam sal\u00fatis \u00e6t\u00e9rn\u00e6.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad G\u00e1latas.\n*Gal 1:11-20*\nFratres: Notum vobis facio Evang\u00e9lium, quod evangeliz\u00e1tum est a me, quia non est sec\u00fandum h\u00f3minem: neque enim ego ab h\u00f3mine acc\u00e9pi illud neque d\u00eddici, sed per revelati\u00f3nem Jesu Christi. Aud\u00edstis enim conversati\u00f3nem meam aliqu\u00e1ndo in Juda\u00edsmo: qu\u00f3niam supra modum persequ\u00e9bar Eccl\u00e9siam Dei, et expugn\u00e1bam illam, et profici\u00e9bam in Juda\u00edsmo supra multos co\u00e6t\u00e1neos meos in g\u00e9nere meo, abund\u00e1ntius \u00e6mul\u00e1tor exs\u00edstens patern\u00e1rum mearum traditi\u00f3num. Cum autem pl\u00e1cuit ei, qui me segreg\u00e1vit ex \u00fatero matris me\u00e6, et voc\u00e1vit per gr\u00e1tiam suam, ut revel\u00e1ret F\u00edlium suum in me, ut evangeliz\u00e1rem illum in g\u00e9ntibus: cont\u00ednuo non acqui\u00e9vi carni et s\u00e1nguini, neque veni Jeros\u00f3lymam ad antecess\u00f3res meos Ap\u00f3stolos: sed \u00e1bii in Ar\u00e1biam: et \u00edterum rev\u00e9rsus sum Dam\u00e1scum: d\u00e9inde post annos tres veni Jeros\u00f3lymam vid\u00e9re Petrum, et mansi apud eum di\u00e9bus qu\u00edndecim: \u00e1lium autem Apostol\u00f3rum vidi n\u00e9minem, nisi Jac\u00f3bum fratrem D\u00f3mini. Qu\u00e6 autem scribo vobis, ecce coram Deo, quia non m\u00e9ntior.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Gal 2:8-9*\nQui oper\u00e1tus est Petro in apostol\u00e1tum, oper\u00e1tus est et mihi inter gentes: et cognov\u00e9runt gr\u00e1tiam Dei, qu\u00e6 data est mihi\n*Ps 15:10*\nGr\u00e1tia Dei m me v\u00e1cua non fuit: sed gr\u00e1tia ejus semper in me manet. Allel\u00faja, allel\u00faja.\nV. Sancte Paule Ap\u00f3stole, pr\u00e6dic\u00e1tor verit\u00e1tis et doctor g\u00e9ntium, interc\u00e9de pro nobis. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Tu es vas electi\u00f3nis, sancte Paule Ap\u00f3stole: vere digne es glorific\u00e1ndus.\nV. Pr\u00e6dic\u00e1tor verit\u00e1tis et doctor g\u00e9ntium in fide et verit\u00e1te.\nV. Per te omnes gentes cognov\u00e9runt gr\u00e1tiam Dei.\nV. Interc\u00e9de pro nobis ad Deum, qui te el\u00e9git.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:16-22*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Ecce, ego mitto vos sicut oves in m\u00e9dio lup\u00f3rum. Est\u00f3te ergo prud\u00e9ntes sicut serpentes, et s\u00edmplices sicut col\u00famb\u00e6. Cav\u00e9te autem ab hom\u00ednibus. Tradent enim vos in conc\u00edliis, et in synag\u00f3gis suis flagell\u00e1bunt vos: et ad praesides et ad reges duc\u00e9mini propter me in testim\u00f3nium illis et g\u00e9ntibus. Cum autem tradent vos, nol\u00edte cogit\u00e1re, qu\u00f3modo aut quid loqu\u00e1mini: d\u00e1bitur enim vobis in illa hora, quid loqu\u00e1mini. Non enim vos estis, qui loqu\u00edmini, sed Sp\u00edritus Patris vestri, qui l\u00f3quitur in vobis. Tradet autem frater fratrem in mortem, et pater f\u00edlium: et ins\u00fargent f\u00edlii in par\u00e9ntes, et morte eos aff\u00edcient: et \u00e9ritis odio \u00f3mnibus propter nomen meum: qui autem persever\u00e1verit usque in finem, hic salvus erit.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Ap\u00f3stoli tui Pauli pr\u00e9cibus, D\u00f3mine, plebis tu\u00e6 dona sanct\u00edfica: ut, qu\u00e6 tibi tuo grata sunt instit\u00fato, grati\u00f3ra fiant patroc\u00ednio supplic\u00e1ntis.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nEccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, preces et h\u00f3stias be\u00e1ti Petri Ap\u00f3stoli comm\u00e9ndet or\u00e1tio: ut, quod pro ill\u00edus gl\u00f3ria celebr\u00e1mus, nobis prosit ad v\u00e9niam.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro Octava S. Johannis Baptistae*\nTua, D\u00f3mine, mun\u00e9ribus alt\u00e1ria cumul\u00e1mus: ill\u00edus nativit\u00e1tem hon\u00f3re d\u00e9bito celebr\u00e1ntes, qui Salvat\u00f3rem mundi et c\u00e9cinit ad fut\u00farum et ad\u00e9sse monstravit, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliqu\u00edstis \u00f3mnia et sec\u00fati estis me, c\u00e9ntuplum accipi\u00e9tis et vitam \u00e6t\u00e9rnam possid\u00e9bitis.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis: be\u00e1to Paulo Ap\u00f3stolo tuo interveni\u00e9nte, deprec\u00e1mur; ut, qu\u00e6 pro ill\u00edus celebr\u00e1ta sunt gl\u00f3ria, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nL\u00e6t\u00edficet nos, D\u00f3mine, munus obl\u00e1tum: ut, sicut in Apostolo tuo Petro te mir\u00e1bilem pr\u00e6dic\u00e1mus; sic per illum tu\u00e6 sumamus indulg\u00e9nti\u00e6 largit\u00e1tem.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro Octava S. Johannis Baptistae*\nSumat Eccl\u00e9sia tua, Deus, be\u00e1ti Jo\u00e1nnis Bapt\u00edst\u00e6 generati\u00f3ne l\u00e6t\u00edtiam: per quem su\u00e6 regenerati\u00f3nis cogn\u00f3vit auct\u00f3rem, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-06-30", 
-    "description": "Dzisiejsz\u0105 Msz\u0119 odprawiano dawniej w dniu 29 czerwca na grobie \u015bw. Paw\u0142a. Obecnie osobny dzie\u0144 zosta\u0142 po\u015bwi\u0119cony na uczczenie zas\u0142ug Aposto\u0142a, kt\u00f3ry zani\u00f3s\u0142 Ewangeli\u0119 narodom Ma\u0142ej Azji i Europy, a przez swoje listy sta\u0142 si\u0119 nauczycielem ca\u0142ego \u015bwiata.\n", 
-    "tempora": "Sobota po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "Wspomnienie \u015bw. Paw\u0142a, Aposto\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*2 Tim 1:12*\nScio, cui cr\u00e9didi, et certus sum, quia potens est dep\u00f3situm meum servare in illum diem, justus judex.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nScio, cui cr\u00e9didi, et certus sum, quia potens est dep\u00f3situm meum servare in illum diem, justus judex.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui multit\u00fadinem g\u00e9ntium be\u00e1ti Pauli Ap\u00f3stoli pr\u00e6dicati\u00f3ne docu\u00edsti: da nobis, qu\u01fdsumus; ut, cujus commemorati\u00f3nem c\u00f3limus, ejus apud te patroc\u00ednia senti\u00e1mus.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nDeus, qui be\u00e1to Petro Ap\u00f3stolo tuo, coll\u00e1tis cl\u00e1vibus regni Coel\u00e9stis, lig\u00e1ndi atque solv\u00e9ndi pontif\u00edcium tradid\u00edsti: conc\u00e9de; ut, intercessi\u00f3nis ejus aux\u00edlio, a peccat\u00f3rum nostr\u00f3rum n\u00e9xibus liber\u00e9mur.\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro Octava S. Johannis Baptistae*\nDeus, qui pr\u00e6s\u00e9ntem diem honor\u00e1bilem nobis in be\u00e1ti Jo\u00e1nnis nativit\u00e1te fec\u00edsti: da p\u00f3pulis tuis spiritu\u00e1lium gr\u00e1tiam gaudi\u00f3rum; et \u00f3mnium fid\u00e9lium mentes dirige in viam sal\u00fatis \u00e6t\u00e9rn\u00e6.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad G\u00e1latas.\n*Gal 1:11-20*\nFratres: Notum vobis facio Evang\u00e9lium, quod evangeliz\u00e1tum est a me, quia non est sec\u00fandum h\u00f3minem: neque enim ego ab h\u00f3mine acc\u00e9pi illud neque d\u00eddici, sed per revelati\u00f3nem Jesu Christi. Aud\u00edstis enim conversati\u00f3nem meam aliqu\u00e1ndo in Juda\u00edsmo: qu\u00f3niam supra modum persequ\u00e9bar Eccl\u00e9siam Dei, et expugn\u00e1bam illam, et profici\u00e9bam in Juda\u00edsmo supra multos co\u00e6t\u00e1neos meos in g\u00e9nere meo, abund\u00e1ntius \u00e6mul\u00e1tor exs\u00edstens patern\u00e1rum mearum traditi\u00f3num. Cum autem pl\u00e1cuit ei, qui me segreg\u00e1vit ex \u00fatero matris me\u00e6, et voc\u00e1vit per gr\u00e1tiam suam, ut revel\u00e1ret F\u00edlium suum in me, ut evangeliz\u00e1rem illum in g\u00e9ntibus: cont\u00ednuo non acqui\u00e9vi carni et s\u00e1nguini, neque veni Jeros\u00f3lymam ad antecess\u00f3res meos Ap\u00f3stolos: sed \u00e1bii in Ar\u00e1biam: et \u00edterum rev\u00e9rsus sum Dam\u00e1scum: d\u00e9inde post annos tres veni Jeros\u00f3lymam vid\u00e9re Petrum, et mansi apud eum di\u00e9bus qu\u00edndecim: \u00e1lium autem Apostol\u00f3rum vidi n\u00e9minem, nisi Jac\u00f3bum fratrem D\u00f3mini. Qu\u00e6 autem scribo vobis, ecce coram Deo, quia non m\u00e9ntior.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Gal 2:8-9*\nQui oper\u00e1tus est Petro in apostol\u00e1tum, oper\u00e1tus est et mihi inter gentes: et cognov\u00e9runt gr\u00e1tiam Dei, qu\u00e6 data est mihi\n*Ps 15:10*\nGr\u00e1tia Dei m me v\u00e1cua non fuit: sed gr\u00e1tia ejus semper in me manet. Allel\u00faja, allel\u00faja.\nV. Sancte Paule Ap\u00f3stole, pr\u00e6dic\u00e1tor verit\u00e1tis et doctor g\u00e9ntium, interc\u00e9de pro nobis. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Tu es vas electi\u00f3nis, sancte Paule Ap\u00f3stole: vere digne es glorific\u00e1ndus.\nV. Pr\u00e6dic\u00e1tor verit\u00e1tis et doctor g\u00e9ntium in fide et verit\u00e1te.\nV. Per te omnes gentes cognov\u00e9runt gr\u00e1tiam Dei.\nV. Interc\u00e9de pro nobis ad Deum, qui te el\u00e9git.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:16-22*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Ecce, ego mitto vos sicut oves in m\u00e9dio lup\u00f3rum. Est\u00f3te ergo prud\u00e9ntes sicut serpentes, et s\u00edmplices sicut col\u00famb\u00e6. Cav\u00e9te autem ab hom\u00ednibus. Tradent enim vos in conc\u00edliis, et in synag\u00f3gis suis flagell\u00e1bunt vos: et ad praesides et ad reges duc\u00e9mini propter me in testim\u00f3nium illis et g\u00e9ntibus. Cum autem tradent vos, nol\u00edte cogit\u00e1re, qu\u00f3modo aut quid loqu\u00e1mini: d\u00e1bitur enim vobis in illa hora, quid loqu\u00e1mini. Non enim vos estis, qui loqu\u00edmini, sed Sp\u00edritus Patris vestri, qui l\u00f3quitur in vobis. Tradet autem frater fratrem in mortem, et pater f\u00edlium: et ins\u00fargent f\u00edlii in par\u00e9ntes, et morte eos aff\u00edcient: et \u00e9ritis odio \u00f3mnibus propter nomen meum: qui autem persever\u00e1verit usque in finem, hic salvus erit.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Ap\u00f3stoli tui Pauli pr\u00e9cibus, D\u00f3mine, plebis tu\u00e6 dona sanct\u00edfica: ut, qu\u00e6 tibi tuo grata sunt instit\u00fato, grati\u00f3ra fiant patroc\u00ednio supplic\u00e1ntis.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nEccl\u00e9si\u00e6 tu\u00e6, qu\u01fdsumus, D\u00f3mine, preces et h\u00f3stias be\u00e1ti Petri Ap\u00f3stoli comm\u00e9ndet or\u00e1tio: ut, quod pro ill\u00edus gl\u00f3ria celebr\u00e1mus, nobis prosit ad v\u00e9niam.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro Octava S. Johannis Baptistae*\nTua, D\u00f3mine, mun\u00e9ribus alt\u00e1ria cumul\u00e1mus: ill\u00edus nativit\u00e1tem hon\u00f3re d\u00e9bito celebr\u00e1ntes, qui Salvat\u00f3rem mundi et c\u00e9cinit ad fut\u00farum et ad\u00e9sse monstravit, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliqu\u00edstis \u00f3mnia et sec\u00fati estis me, c\u00e9ntuplum accipi\u00e9tis et vitam \u00e6t\u00e9rnam possid\u00e9bitis.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Perc\u00e9ptis, D\u00f3mine, sacram\u00e9ntis: be\u00e1to Paulo Ap\u00f3stolo tuo interveni\u00e9nte, deprec\u00e1mur; ut, qu\u00e6 pro ill\u00edus celebr\u00e1ta sunt gl\u00f3ria, nobis prof\u00edciant ad med\u00e9lam.\nPer Dominum.\n\n$Oremus\n*Pro S. Petro*\nL\u00e6t\u00edficet nos, D\u00f3mine, munus obl\u00e1tum: ut, sicut in Apostolo tuo Petro te mir\u00e1bilem pr\u00e6dic\u00e1mus; sic per illum tu\u00e6 sumamus indulg\u00e9nti\u00e6 largit\u00e1tem.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro Octava S. Johannis Baptistae*\nSumat Eccl\u00e9sia tua, Deus, be\u00e1ti Jo\u00e1nnis Bapt\u00edst\u00e6 generati\u00f3ne l\u00e6t\u00edtiam: per quem su\u00e6 regenerati\u00f3nis cogn\u00f3vit auct\u00f3rem, D\u00f3minum nostrum Jesum Christum, F\u00edlium tuum:\nQui tecum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*2 Tm 1:12*\nWiem, komu zawierzy\u0142em, i pewien jestem, \u017ce mocen jest przechowa\u0107 skarb m\u00f3j a\u017c do onego dnia, S\u0119dzia sprawiedliwy.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu.\nWiem, komu zawierzy\u0142em, i pewien jestem, \u017ce mocen jest przechowa\u0107 skarb m\u00f3j a\u017c do onego dnia, S\u0119dzia sprawiedliwy.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry o\u015bwieci\u0142e\u015b wiele narod\u00f3w przez nauczanie \u015bwi\u0119tego Paw\u0142a Aposto\u0142a, daj nam, prosimy Ci\u0119, aby\u015bmy doznali wstawiennictwa tego, kt\u00f3rego narodziny dla nieba obchodzimy.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nBo\u017ce, powierzaj\u0105c Swojemu Aposto\u0142owi \u015bw. Piotrowi klucze Kr\u00f3lestwa Niebieskiego udzieli\u0142e\u015b mu arcykap\u0142a\u0144skiej w\u0142adzy wi\u0105zania i rozwi\u0105zywania; spraw przeto, aby\u015bmy za jego przyczyn\u0105 wyzwolili si\u0119 z wi\u0119z\u00f3w swoich grzech\u00f3w:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Galat\u00f3w.\n*Gal 1:11-20*\nBracia: Oznajmiam wam, \u017ce Ewangelia g\u0142oszona przeze mnie nie jest pochodzenia ludzkiego. Bom jej nie otrzyma\u0142 ani te\u017c nie nauczy\u0142 si\u0119 od cz\u0142owieka, ale przez objawienie Jezusa Chrystusa. Wszak s\u0142yszeli\u015bcie, jak niegdy\u015b post\u0119powa\u0142em w judaizmie, \u017ce nad miar\u0119 prze\u015bladowa\u0142em Ko\u015bci\u00f3\u0142 Bo\u017cy i burzy\u0142em go. A prze\u015bciga\u0142em w judaizmie wielu r\u00f3wie\u015bnik\u00f3w moich w mym narodzie, takem \u017carliwie mi\u0142owa\u0142 moje ustawy ojczyste. Lecz gdy si\u0119 podoba\u0142o Temu, kt\u00f3ry wybra\u0142 mi\u0119 ju\u017c w \u0142onie matki mojej i wezwa\u0142 przez \u0142ask\u0119 swoj\u0105, aby objawi\u0142 Syna swego we mnie i abym g\u0142osi\u0142 Go mi\u0119dzy poganami, ani przez chwil\u0119 nie radzi\u0142em si\u0119 cia\u0142a i krwi, ani te\u017c poszed\u0142em do Jerozolimy, do tych, kt\u00f3rzy byli Aposto\u0142ami ju\u017c przede mn\u0105, alem poszed\u0142 do Arabii, sk\u0105d zn\u00f3w wr\u00f3ci\u0142em do Damaszku. Potem, po trzech latach przyby\u0142em do Jerozolimy, aby widzie\u0107 Piotra, i pozosta\u0142em u niego dni pi\u0119tna\u015bcie. A z innych Aposto\u0142\u00f3w \u017cadnego nie widzia\u0142em opr\u00f3cz Jakuba, brata Pa\u0144skiego. A to, co wam pisz\u0119, B\u00f3g \u015bwiadkiem, \u017ce nie k\u0142ami\u0119.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Gal 2:8-9*\nTen sam, kt\u00f3ry w Piotrze by\u0142 sprawc\u0105 apostolstwa \u017cyd\u00f3w, sprawi\u0142 i we mnie apostolstwo w\u015br\u00f3d pogan, i poznali \u0142ask\u0119 Bo\u017c\u0105, kt\u00f3ra mi jest dana.\n*Ps 15:10*\n\u0141aska Bo\u017ca na pr\u00f3\u017cno nie by\u0142a mi dana, lecz \u0142aska Jego zawsze trwa we mnie. Alleluja, alleluja.\nV. \u015awi\u0119ty Pawle Apostole, g\u0142osicielu prawdy i nauczycielu pogan, przyczy\u0144 si\u0119 za nami. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:16-22*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abOto ja posy\u0142am was Jako owce mi\u0119dzy wilki: b\u0105d\u017acie wi\u0119c przezorni jako w\u0119\u017ce, a pro\u015bci jako go\u0142\u0119bice. A strze\u017ccie si\u0119 ludzi. Powiod\u0105 was bowiem przed s\u0105dy i w synagogach swoich biczowa\u0107 was b\u0119d\u0105. Z mego powodu przed rz\u0105dc\u00f3w i kr\u00f3l\u00f3w wodzeni b\u0119dziecie, na \u015bwiadectwo im i poganom. A gdy was wydawa\u0107 b\u0119d\u0105, nie my\u015blcie, jak i co macie m\u00f3wi\u0107, bo onej godziny, co macie m\u00f3wi\u0107, b\u0119dzie wam dane. Nie wy bowiem jeste\u015bcie, kt\u00f3rzy m\u00f3wicie, lecz Duch Ojca waszego, kt\u00f3ry w was m\u00f3wi. I wyda na \u015bmier\u0107 brat brata i ojciec syna, i powstan\u0105 synowie przeciw rodzicom, i o \u015bmier\u0107 ich przyprawi\u0105. I b\u0119dziecie w nienawi\u015bci u wszystkich dla imienia mego. Ale kto wytrwa a\u017c do ko\u0144ca, ten b\u0119dzie. zbawiony\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce: na zawsze jest utrwalone ich w\u0142adanie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Dla pr\u00f3\u015bb Twego Aposto\u0142a Paw\u0142a po\u015bwi\u0119\u0107, Panie dary ludu Twojego: mi\u0142e Ci s\u0105, bo\u015b je ustanowi\u0142, niech si\u0119 stan\u0105 milsze przez modlitwy or\u0119downika.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nProsimy Ci\u0119, Panie, niech modlitwa \u015bw. Piotra Aposto\u0142a zaleca pro\u015bby i ofiary Ko\u015bcio\u0142a Twojego, a co sprawujemy ku jego chwale, niech nam wyjedna odpuszczenie grzech\u00f3w.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 19:28-29*\nZaprawd\u0119, powiadam wam, \u017ce wy, kt\u00f3rzy\u015bcie opu\u015bcili wszystko i za mn\u0105 poszli, stokro\u0107 wi\u0119cej otrzymacie i \u017cywot wieczny osi\u0105gniecie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Po przyj\u0119ciu Sakramentu b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bw. Paw\u0142a, Twego Aposto\u0142a, aby ofiara z\u0142o\u017cona ku jego chwale przynios\u0142a nam uzdrowienie.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nZ\u0142o\u017cona ofiara niech nam b\u0119dzie \u017ar\u00f3d\u0142em rado\u015bci, o Panie, a jako s\u0142awimy przedziwne Twe dary w Apostole Twoim Piotrze, tak niechaj przeze\u0144 uzyskamy obfite przebaczenie Twoje.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*2 Tm 1:12*\nWiem, komu zawierzy\u0142em, i pewien jestem, \u017ce mocen jest przechowa\u0107 skarb m\u00f3j a\u017c do onego dnia, S\u0119dzia sprawiedliwy.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym powstaniu.\nChwa\u0142a Ojcu.\nWiem, komu zawierzy\u0142em, i pewien jestem, \u017ce mocen jest przechowa\u0107 skarb m\u00f3j a\u017c do onego dnia, S\u0119dzia sprawiedliwy.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry o\u015bwieci\u0142e\u015b wiele narod\u00f3w przez nauczanie \u015bwi\u0119tego Paw\u0142a Aposto\u0142a, daj nam, prosimy Ci\u0119, aby\u015bmy doznali wstawiennictwa tego, kt\u00f3rego narodziny dla nieba obchodzimy.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nBo\u017ce, powierzaj\u0105c Swojemu Aposto\u0142owi \u015bw. Piotrowi klucze Kr\u00f3lestwa Niebieskiego udzieli\u0142e\u015b mu arcykap\u0142a\u0144skiej w\u0142adzy wi\u0105zania i rozwi\u0105zywania; spraw przeto, aby\u015bmy za jego przyczyn\u0105 wyzwolili si\u0119 z wi\u0119z\u00f3w swoich grzech\u00f3w:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Galat\u00f3w.\n*Gal 1:11-20*\nBracia: Oznajmiam wam, \u017ce Ewangelia g\u0142oszona przeze mnie nie jest pochodzenia ludzkiego. Bom jej nie otrzyma\u0142 ani te\u017c nie nauczy\u0142 si\u0119 od cz\u0142owieka, ale przez objawienie Jezusa Chrystusa. Wszak s\u0142yszeli\u015bcie, jak niegdy\u015b post\u0119powa\u0142em w judaizmie, \u017ce nad miar\u0119 prze\u015bladowa\u0142em Ko\u015bci\u00f3\u0142 Bo\u017cy i burzy\u0142em go. A prze\u015bciga\u0142em w judaizmie wielu r\u00f3wie\u015bnik\u00f3w moich w mym narodzie, takem \u017carliwie mi\u0142owa\u0142 moje ustawy ojczyste. Lecz gdy si\u0119 podoba\u0142o Temu, kt\u00f3ry wybra\u0142 mi\u0119 ju\u017c w \u0142onie matki mojej i wezwa\u0142 przez \u0142ask\u0119 swoj\u0105, aby objawi\u0142 Syna swego we mnie i abym g\u0142osi\u0142 Go mi\u0119dzy poganami, ani przez chwil\u0119 nie radzi\u0142em si\u0119 cia\u0142a i krwi, ani te\u017c poszed\u0142em do Jerozolimy, do tych, kt\u00f3rzy byli Aposto\u0142ami ju\u017c przede mn\u0105, alem poszed\u0142 do Arabii, sk\u0105d zn\u00f3w wr\u00f3ci\u0142em do Damaszku. Potem, po trzech latach przyby\u0142em do Jerozolimy, aby widzie\u0107 Piotra, i pozosta\u0142em u niego dni pi\u0119tna\u015bcie. A z innych Aposto\u0142\u00f3w \u017cadnego nie widzia\u0142em opr\u00f3cz Jakuba, brata Pa\u0144skiego. A to, co wam pisz\u0119, B\u00f3g \u015bwiadkiem, \u017ce nie k\u0142ami\u0119.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Gal 2:8-9*\nTen sam, kt\u00f3ry w Piotrze by\u0142 sprawc\u0105 apostolstwa \u017cyd\u00f3w, sprawi\u0142 i we mnie apostolstwo w\u015br\u00f3d pogan, i poznali \u0142ask\u0119 Bo\u017c\u0105, kt\u00f3ra mi jest dana.\n*Ps 15:10*\n\u0141aska Bo\u017ca na pr\u00f3\u017cno nie by\u0142a mi dana, lecz \u0142aska Jego zawsze trwa we mnie. Alleluja, alleluja.\nV. \u015awi\u0119ty Pawle Apostole, g\u0142osicielu prawdy i nauczycielu pogan, przyczy\u0144 si\u0119 za nami. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:16-22*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abOto ja posy\u0142am was Jako owce mi\u0119dzy wilki: b\u0105d\u017acie wi\u0119c przezorni jako w\u0119\u017ce, a pro\u015bci jako go\u0142\u0119bice. A strze\u017ccie si\u0119 ludzi. Powiod\u0105 was bowiem przed s\u0105dy i w synagogach swoich biczowa\u0107 was b\u0119d\u0105. Z mego powodu przed rz\u0105dc\u00f3w i kr\u00f3l\u00f3w wodzeni b\u0119dziecie, na \u015bwiadectwo im i poganom. A gdy was wydawa\u0107 b\u0119d\u0105, nie my\u015blcie, jak i co macie m\u00f3wi\u0107, bo onej godziny, co macie m\u00f3wi\u0107, b\u0119dzie wam dane. Nie wy bowiem jeste\u015bcie, kt\u00f3rzy m\u00f3wicie, lecz Duch Ojca waszego, kt\u00f3ry w was m\u00f3wi. I wyda na \u015bmier\u0107 brat brata i ojciec syna, i powstan\u0105 synowie przeciw rodzicom, i o \u015bmier\u0107 ich przyprawi\u0105. I b\u0119dziecie w nienawi\u015bci u wszystkich dla imienia mego. Ale kto wytrwa a\u017c do ko\u0144ca, ten b\u0119dzie. zbawiony\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce: na zawsze jest utrwalone ich w\u0142adanie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Dla pr\u00f3\u015bb Twego Aposto\u0142a Paw\u0142a po\u015bwi\u0119\u0107, Panie dary ludu Twojego: mi\u0142e Ci s\u0105, bo\u015b je ustanowi\u0142, niech si\u0119 stan\u0105 milsze przez modlitwy or\u0119downika.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nProsimy Ci\u0119, Panie, niech modlitwa \u015bw. Piotra Aposto\u0142a zaleca pro\u015bby i ofiary Ko\u015bcio\u0142a Twojego, a co sprawujemy ku jego chwale, niech nam wyjedna odpuszczenie grzech\u00f3w.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 19:28-29*\nZaprawd\u0119, powiadam wam, \u017ce wy, kt\u00f3rzy\u015bcie opu\u015bcili wszystko i za mn\u0105 poszli, stokro\u0107 wi\u0119cej otrzymacie i \u017cywot wieczny osi\u0105gniecie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Po przyj\u0119ciu Sakramentu b\u0142agamy Ci\u0119, Panie, za przyczyn\u0105 \u015bw. Paw\u0142a, Twego Aposto\u0142a, aby ofiara z\u0142o\u017cona ku jego chwale przynios\u0142a nam uzdrowienie.\nPrzez Pana.\n\n$Oremus\n*Wspomnienie \u015bw. Piotra*\nZ\u0142o\u017cona ofiara niech nam b\u0119dzie \u017ar\u00f3d\u0142em rado\u015bci, o Panie, a jako s\u0142awimy przedziwne Twe dary w Apostole Twoim Piotrze, tak niechaj przeze\u0144 uzyskamy obfite przebaczenie Twoje.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

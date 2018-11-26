@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Chryzogona", 
-      "3 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Chryzogona", 
+        "3 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2017-04-03", 
+      "description": "Podobnie jak Niniwici po\u015bcimy przez 40 dni, aby wyjedna\u0107 sobie mi\u0142osierdzie Bo\u017ce. Nasza pokuta czerpie swoj\u0105 warto\u015b\u0107 z m\u0119ki Chrystusa. Udzia\u0142 w owocach Odkupienia b\u0119d\u0105 mieli wszyscy wierz\u0105cy w Chrystusa.\n", 
+      "tempora": null, 
+      "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 55:2*\nMiser\u00e9re mihi, D\u00f3mine, qu\u00f3niam conculc\u00e1vit me homo: tota die bellans tribul\u00e1vit me.\n*Ps 55:3*\nConculcav\u00e9runt me inim\u00edci mei tota die: qu\u00f3niam multi bell\u00e1ntes adv\u00e9rsum me.\nMiser\u00e9re mihi, D\u00f3mine, qu\u00f3niam conculc\u00e1vit me homo: tota die bellans tribul\u00e1vit me.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Sanct\u00edfica, qu\u01fdsumus, D\u00f3mine, nostra jej\u00fania: et cunct\u00e1rum nobis indulg\u00e9ntiam prop\u00edtius larg\u00edre culp\u00e1rum.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Jon\u00e6 Proph\u00e9t\u00e6.\n*Jon\u00e6 3:1-10*\nIn di\u00e9bus illis: Factum est verbum D\u00f3mini ad Jonam Proph\u00e9tam sec\u00fando, dicens: Surge, et vade in N\u00edniven civit\u00e1tem magnam: et praedica in ea pr\u00e6dicati\u00f3nem, quam ego loquor ad te. Et surr\u00e9xit Jonas, et \u00e1biit in N\u00edniven juxta verbum D\u00f3mini. Et N\u00ednive erat civitas magna it\u00ednere trium di\u00e9rum. Et coepit Jonas intro\u00edre in civit\u00e1tem it\u00ednere di\u00e9i un\u00edus: et clam\u00e1vit et dixit: Adhuc quadrag\u00ednta dies, et N\u00ednive subvert\u00e9tur. Et credid\u00e9runt viri Niniv\u00edt\u00e6 in Deum: et pr\u00e6dicav\u00e9runt jej\u00fanium, et vest\u00edti sunt saccis a majore usque ad min\u00f3rem. Et perv\u00e9nit verbum ad regem N\u00ednive: et surr\u00e9xit de s\u00f3lio suo, et abj\u00e9cit vestim\u00e9ntum suum a se, et ind\u00fatus est sacco, et sedit in c\u00ednere. Et clam\u00e1vit et dixit in N\u00ednive ex ore regis et pr\u00edncipum ejus, dicens: H\u00f3mines et jum\u00e9nta et boves et p\u00e9cora non gustent quidquam: nec pasc\u00e1ntur, et aquam non bibant. Et operi\u00e1ntur saccis h\u00f3mines et jum\u00e9nta, et clament ad D\u00f3minum in fortit\u00fadine, et convert\u00e1tur vir a via sua mala, et ab iniquit\u00e1te, qu\u00e6 est in m\u00e1nibus e\u00f3rum. Quis scit, si convert\u00e1tur et ign\u00f3scat Deus: et revert\u00e1tur a fur\u00f3re ir\u00e6 su\u00e6, et non per\u00edbimus? Et vidit Deus \u00f3pera e\u00f3rum, quia conv\u00e9rsi sunt de via sua mala: et mis\u00e9rtus est p\u00f3pulo suo D\u00f3minus, Deus noster.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 53:4, 3*\nDeus, ex\u00e1udi orati\u00f3nem meam: \u00e1uribus p\u00e9rcipe verba oris mei.\nV. Deus, in n\u00f3mine tuo salvum me fac, et in virt\u00fate tua l\u00edbera me.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 7:32-39*\nIn illo t\u00e9mpore: Mis\u00e9runt pr\u00edncipes et pharisaei min\u00edstros, ut appreh\u00e9nderent Jesum. Dixit ergo eis Jesus: Adhuc m\u00f3dicum tempus vob\u00edscum sum: et vado ad eum, qui me misit. Qu\u00e6r\u00e9tis me, et non inveni\u00e9tis: et ubi ego sum, vos non pot\u00e9stis ven\u00edre. Dix\u00e9runt ergo Judaei ad semet\u00edpsos: Quo hic it\u00farus est, quia non inveni\u00e9mus eum? numquid in dispersi\u00f3nem g\u00e9ntium it\u00farus est, et doct\u00farus gentes? Quis est hic sermo, quem dixit: Qu\u00e6r\u00e9tis me, et non inveni\u00e9tis: et ubi sum ego, vos non pot\u00e9stis ven\u00edre? In nov\u00edssimo autem die magno festivit\u00e1tis stabat Jesus, et clam\u00e1bat, dicens: Si quis sitit, v\u00e9niat ad me et bibat. Qui credit in me, sicut dicit Script\u00fara, fl\u00famina de ventre ejus fluent aqu\u00e6 viv\u00e6. Hoc autem dixit de Sp\u00edritu, quem accept\u00fari erant cred\u00e9ntes in eum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 6:5*\nD\u00f3mine, conv\u00e9rtere, et \u00e9ripe \u00e1nimam meam: salvum me fac propter miseric\u00f3rdiam tuam.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Conc\u00e9de nobis, D\u00f3mine, Deus noster: ut h\u00e6c h\u00f3stia salut\u00e1ris et nostr\u00f3rum fiat purg\u00e1tio delict\u00f3rum, et tu\u00e6 propiti\u00e1tio majest\u00e1tis.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Sancta Cruce*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui sal\u00fatem hum\u00e1ni g\u00e9neris in ligno Crucis constitu\u00edsti: ut, unde mors orieb\u00e1tur, inde vita res\u00fargeret: et, qui in ligno vinc\u00e9bat, in ligno quoque vincer\u00e9tur: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "\n*Ps 23:10*\nD\u00f3minus virt\u00fatum ipse est Rex gl\u00f3ri\u00e6.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sacram\u00e9nti tui, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio salut\u00e1ris, et purificati\u00f3nem nobis tr\u00edbuat, et med\u00e9lam.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-04-03", 
-    "description": "Podobnie jak Niniwici po\u015bcimy przez 40 dni, aby wyjedna\u0107 sobie mi\u0142osierdzie Bo\u017ce. Nasza pokuta czerpie swoj\u0105 warto\u015b\u0107 z m\u0119ki Chrystusa. Udzia\u0142 w owocach Odkupienia b\u0119d\u0105 mieli wszyscy wierz\u0105cy w Chrystusa.\n", 
-    "tempora": null, 
-    "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 55:2*\nMiser\u00e9re mihi, D\u00f3mine, qu\u00f3niam conculc\u00e1vit me homo: tota die bellans tribul\u00e1vit me.\n*Ps 55:3*\nConculcav\u00e9runt me inim\u00edci mei tota die: qu\u00f3niam multi bell\u00e1ntes adv\u00e9rsum me.\nMiser\u00e9re mihi, D\u00f3mine, qu\u00f3niam conculc\u00e1vit me homo: tota die bellans tribul\u00e1vit me.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Sanct\u00edfica, qu\u01fdsumus, D\u00f3mine, nostra jej\u00fania: et cunct\u00e1rum nobis indulg\u00e9ntiam prop\u00edtius larg\u00edre culp\u00e1rum.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Jon\u00e6 Proph\u00e9t\u00e6.\n*Jon\u00e6 3:1-10*\nIn di\u00e9bus illis: Factum est verbum D\u00f3mini ad Jonam Proph\u00e9tam sec\u00fando, dicens: Surge, et vade in N\u00edniven civit\u00e1tem magnam: et praedica in ea pr\u00e6dicati\u00f3nem, quam ego loquor ad te. Et surr\u00e9xit Jonas, et \u00e1biit in N\u00edniven juxta verbum D\u00f3mini. Et N\u00ednive erat civitas magna it\u00ednere trium di\u00e9rum. Et coepit Jonas intro\u00edre in civit\u00e1tem it\u00ednere di\u00e9i un\u00edus: et clam\u00e1vit et dixit: Adhuc quadrag\u00ednta dies, et N\u00ednive subvert\u00e9tur. Et credid\u00e9runt viri Niniv\u00edt\u00e6 in Deum: et pr\u00e6dicav\u00e9runt jej\u00fanium, et vest\u00edti sunt saccis a majore usque ad min\u00f3rem. Et perv\u00e9nit verbum ad regem N\u00ednive: et surr\u00e9xit de s\u00f3lio suo, et abj\u00e9cit vestim\u00e9ntum suum a se, et ind\u00fatus est sacco, et sedit in c\u00ednere. Et clam\u00e1vit et dixit in N\u00ednive ex ore regis et pr\u00edncipum ejus, dicens: H\u00f3mines et jum\u00e9nta et boves et p\u00e9cora non gustent quidquam: nec pasc\u00e1ntur, et aquam non bibant. Et operi\u00e1ntur saccis h\u00f3mines et jum\u00e9nta, et clament ad D\u00f3minum in fortit\u00fadine, et convert\u00e1tur vir a via sua mala, et ab iniquit\u00e1te, qu\u00e6 est in m\u00e1nibus e\u00f3rum. Quis scit, si convert\u00e1tur et ign\u00f3scat Deus: et revert\u00e1tur a fur\u00f3re ir\u00e6 su\u00e6, et non per\u00edbimus? Et vidit Deus \u00f3pera e\u00f3rum, quia conv\u00e9rsi sunt de via sua mala: et mis\u00e9rtus est p\u00f3pulo suo D\u00f3minus, Deus noster.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 53:4, 3*\nDeus, ex\u00e1udi orati\u00f3nem meam: \u00e1uribus p\u00e9rcipe verba oris mei.\nV. Deus, in n\u00f3mine tuo salvum me fac, et in virt\u00fate tua l\u00edbera me.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 7:32-39*\nIn illo t\u00e9mpore: Mis\u00e9runt pr\u00edncipes et pharisaei min\u00edstros, ut appreh\u00e9nderent Jesum. Dixit ergo eis Jesus: Adhuc m\u00f3dicum tempus vob\u00edscum sum: et vado ad eum, qui me misit. Qu\u00e6r\u00e9tis me, et non inveni\u00e9tis: et ubi ego sum, vos non pot\u00e9stis ven\u00edre. Dix\u00e9runt ergo Judaei ad semet\u00edpsos: Quo hic it\u00farus est, quia non inveni\u00e9mus eum? numquid in dispersi\u00f3nem g\u00e9ntium it\u00farus est, et doct\u00farus gentes? Quis est hic sermo, quem dixit: Qu\u00e6r\u00e9tis me, et non inveni\u00e9tis: et ubi sum ego, vos non pot\u00e9stis ven\u00edre? In nov\u00edssimo autem die magno festivit\u00e1tis stabat Jesus, et clam\u00e1bat, dicens: Si quis sitit, v\u00e9niat ad me et bibat. Qui credit in me, sicut dicit Script\u00fara, fl\u00famina de ventre ejus fluent aqu\u00e6 viv\u00e6. Hoc autem dixit de Sp\u00edritu, quem accept\u00fari erant cred\u00e9ntes in eum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 6:5*\nD\u00f3mine, conv\u00e9rtere, et \u00e9ripe \u00e1nimam meam: salvum me fac propter miseric\u00f3rdiam tuam.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Conc\u00e9de nobis, D\u00f3mine, Deus noster: ut h\u00e6c h\u00f3stia salut\u00e1ris et nostr\u00f3rum fiat purg\u00e1tio delict\u00f3rum, et tu\u00e6 propiti\u00e1tio majest\u00e1tis.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Sancta Cruce*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui sal\u00fatem hum\u00e1ni g\u00e9neris in ligno Crucis constitu\u00edsti: ut, unde mors orieb\u00e1tur, inde vita res\u00fargeret: et, qui in ligno vinc\u00e9bat, in ligno quoque vincer\u00e9tur: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "\n*Ps 23:10*\nD\u00f3minus virt\u00fatum ipse est Rex gl\u00f3ri\u00e6.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sacram\u00e9nti tui, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio salut\u00e1ris, et purificati\u00f3nem nobis tr\u00edbuat, et med\u00e9lam.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 55:2*\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, bo depcze mnie cz\u0142owiek, uciska mnie w nieustannej walce.\n*Ps 55:3*\nWrogowie moi nieustannie mnie depcz\u0105, gdy\u017c wielu przeciw mnie walczy.\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, bo depcze mnie cz\u0142owiek, uciska mnie w nieustannej walce.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 nasze posty i udziel nam mi\u0142o\u015bciwie odpuszczenia wszystkich win.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Jonasza.\n*Jon 3:1-10*\nW one dni: Sta\u0142o si\u0119 s\u0142owo Pa\u0144skie do Jonasza po wt\u00f3re, m\u00f3wi\u0105c: \u00abWsta\u0144, a id\u017a do Niniwy, miasta wielkiego, i przepowiadaj w nim przepowiadanie, kt\u00f3re ja m\u00f3wi\u0119 do ciebie\u00bb. I wsta\u0142 Jonasz, i poszed\u0142 do Niniwy wed\u0142ug s\u0142owa Pa\u0144skiego; a Niniwa by\u0142o to miasto wielkie na trzy dni chodu. I pocz\u0105\u0142 Jonasz wchodzi\u0107 do miasta, ile m\u00f3g\u0142 uj\u015b\u0107 dnia jednego, i wo\u0142a\u0142 m\u00f3wi\u0105c: \u00abJeszcze czterdzie\u015bci dni, a Niniwa b\u0119dzie zburzona\u00bb. I uwierzyli m\u0119\u017cowie Niniwici w Boga, i zapowiedzieli post, i oblekli si\u0119 w wory od najwi\u0119kszego a\u017c do najmniejszego. I przysz\u0142o s\u0142owo do kr\u00f3la Niniwy, i wsta\u0142 ze stolicy swej, i zrzuci\u0142 z siebie odzienie swoje, a oblek\u0142 si\u0119 w w\u00f3r i usiad\u0142 w popiele. I obwo\u0142a\u0142, i kaza\u0142 m\u00f3wi\u0107 w Niniwie z ust kr\u00f3la ksi\u0105\u017c\u0105t jego rzek\u0105c: Ludzie i byd\u0142o, wo\u0142y i owce niech nic nie jedz\u0105, i niech im nie daj\u0105 je\u015b\u0107, i wody niech nie pij\u0105. A niech si\u0119 okryj\u0105 worami ludzie i byd\u0142o, i niech wo\u0142aj\u0105 do Pana mocno, a niech si\u0119 nawr\u00f3ci m\u0105\u017c od drogi swej z\u0142ej i od nieprawo\u015bci, kt\u00f3ra jest w r\u0119ku ich. Kto wie, czy si\u0119 nie zwr\u00f3ci i nie zlituje si\u0119 B\u00f3g, i nie odwr\u00f3ci si\u0119 od zapalczywo\u015bci gniewu Swego, i nie zginiemy? I ujrza\u0142 B\u00f3g uczynki ich, \u017ce si\u0119 nawr\u00f3cili od drogi swej z\u0142ej; i zlitowa\u0142 si\u0119 Pan, B\u00f3g nasz nad ludem Swoim.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 53:4, 3*\nBo\u017ce, s\u0142uchaj modlitwy mojej, podaj ucho na s\u0142owa ust moich.\nV. Bo\u017ce, zbaw mnie w imi\u0119 Swoje, moc\u0105 Swoj\u0105 bro\u0144 mej sprawy.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 7:32-39*\nOnego czasu: pos\u0142ali arcykap\u0142ani i faryzeusze s\u0142ugi, aby pojma\u0107 Jezusa. Rzek\u0142 im tedy Jezus: \u00abKr\u00f3tki tylko czas b\u0119d\u0119 jeszcze z wami i p\u00f3jd\u0119 do Tego, kt\u00f3ry mi\u0119 pos\u0142a\u0142. B\u0119dziecie mnie szuka\u0107, a nie znajdziecie, i gdzie ja b\u0119d\u0119, wy przyj\u015b\u0107 nie mo\u017cecie\u00bb.\nM\u00f3wili tedy \u017cydzi mi\u0119dzy sob\u0105: Dok\u0105d\u017ce on p\u00f3jdzie, \u017ce my go nie znajdziemy? Czy\u017cby mia\u0142 zamiar p\u00f3j\u015b\u0107 do pogan na diaspor\u0119 i pogan naucza\u0107? C\u00f3\u017c to za nauka, kt\u00f3r\u0105 wyg\u0142asza: Szuka\u0107 mnie b\u0119dziecie, a nie znajdziecie, i gdzie ja b\u0119d\u0119, wy przyj\u015b\u0107 nie mo\u017cecie?\nA w ostatnim wielkim dniu \u015bwi\u0119ta stan\u0105\u0142 Jezus i zawo\u0142a\u0142, m\u00f3wi\u0105c: \u00abJe\u015bli kto pragnie, niech do mnie przyjdzie, a pije. Kto wierzy we mnie, jak m\u00f3wi Pismo, rzeki wody \u017cywej pop\u0142yn\u0105 z jego wn\u0119trza\u00bb. A to m\u00f3wi\u0142 o Duchu, kt\u00f3rego otrzyma\u0107 mieli ci, kt\u00f3rzy we\u0144 wierz\u0105.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 6:5*\nPowr\u00f3\u0107, o Panie, wyrwij dusz\u0119 moj\u0105, przez mi\u0142osierdzie Twoje mnie wybaw.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, Bo\u017ce nasz, spraw, aby ta zbawienna ofiara oczy\u015bci\u0142a nas z grzech\u00f3w i wyjedna\u0142a nam przychylno\u015b\u0107 Twego majestatu.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Krzy\u017cu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b postanowi\u0142 dokona\u0107 zbawienia rodzaju ludzkiego na drzewie krzy\u017ca, aby sk\u0105d smier\u0107 wzi\u0119\u0142a pocz\u0105tek, stamt\u0105d i \u017cycie zmartwychwsta\u0142o, i aby ten, kt\u00f3ry na drzewie zwyci\u0119\u017cy\u0142, na drzewie r\u00f3wnie\u017c zosta\u0142 pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 23:10*\nPan Zast\u0119p\u00f3w: On sam Kr\u00f3lem chwa\u0142y.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech nas oczy\u015bci i uleczy zbawienne uczestnictwo w Twoim Sakramencie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 55:2*\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, bo depcze mnie cz\u0142owiek, uciska mnie w nieustannej walce.\n*Ps 55:3*\nWrogowie moi nieustannie mnie depcz\u0105, gdy\u017c wielu przeciw mnie walczy.\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, bo depcze mnie cz\u0142owiek, uciska mnie w nieustannej walce.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, u\u015bwi\u0119\u0107 nasze posty i udziel nam mi\u0142o\u015bciwie odpuszczenia wszystkich win.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Jonasza.\n*Jon 3:1-10*\nW one dni: Sta\u0142o si\u0119 s\u0142owo Pa\u0144skie do Jonasza po wt\u00f3re, m\u00f3wi\u0105c: \u00abWsta\u0144, a id\u017a do Niniwy, miasta wielkiego, i przepowiadaj w nim przepowiadanie, kt\u00f3re ja m\u00f3wi\u0119 do ciebie\u00bb. I wsta\u0142 Jonasz, i poszed\u0142 do Niniwy wed\u0142ug s\u0142owa Pa\u0144skiego; a Niniwa by\u0142o to miasto wielkie na trzy dni chodu. I pocz\u0105\u0142 Jonasz wchodzi\u0107 do miasta, ile m\u00f3g\u0142 uj\u015b\u0107 dnia jednego, i wo\u0142a\u0142 m\u00f3wi\u0105c: \u00abJeszcze czterdzie\u015bci dni, a Niniwa b\u0119dzie zburzona\u00bb. I uwierzyli m\u0119\u017cowie Niniwici w Boga, i zapowiedzieli post, i oblekli si\u0119 w wory od najwi\u0119kszego a\u017c do najmniejszego. I przysz\u0142o s\u0142owo do kr\u00f3la Niniwy, i wsta\u0142 ze stolicy swej, i zrzuci\u0142 z siebie odzienie swoje, a oblek\u0142 si\u0119 w w\u00f3r i usiad\u0142 w popiele. I obwo\u0142a\u0142, i kaza\u0142 m\u00f3wi\u0107 w Niniwie z ust kr\u00f3la ksi\u0105\u017c\u0105t jego rzek\u0105c: Ludzie i byd\u0142o, wo\u0142y i owce niech nic nie jedz\u0105, i niech im nie daj\u0105 je\u015b\u0107, i wody niech nie pij\u0105. A niech si\u0119 okryj\u0105 worami ludzie i byd\u0142o, i niech wo\u0142aj\u0105 do Pana mocno, a niech si\u0119 nawr\u00f3ci m\u0105\u017c od drogi swej z\u0142ej i od nieprawo\u015bci, kt\u00f3ra jest w r\u0119ku ich. Kto wie, czy si\u0119 nie zwr\u00f3ci i nie zlituje si\u0119 B\u00f3g, i nie odwr\u00f3ci si\u0119 od zapalczywo\u015bci gniewu Swego, i nie zginiemy? I ujrza\u0142 B\u00f3g uczynki ich, \u017ce si\u0119 nawr\u00f3cili od drogi swej z\u0142ej; i zlitowa\u0142 si\u0119 Pan, B\u00f3g nasz nad ludem Swoim.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 53:4, 3*\nBo\u017ce, s\u0142uchaj modlitwy mojej, podaj ucho na s\u0142owa ust moich.\nV. Bo\u017ce, zbaw mnie w imi\u0119 Swoje, moc\u0105 Swoj\u0105 bro\u0144 mej sprawy.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 7:32-39*\nOnego czasu: pos\u0142ali arcykap\u0142ani i faryzeusze s\u0142ugi, aby pojma\u0107 Jezusa. Rzek\u0142 im tedy Jezus: \u00abKr\u00f3tki tylko czas b\u0119d\u0119 jeszcze z wami i p\u00f3jd\u0119 do Tego, kt\u00f3ry mi\u0119 pos\u0142a\u0142. B\u0119dziecie mnie szuka\u0107, a nie znajdziecie, i gdzie ja b\u0119d\u0119, wy przyj\u015b\u0107 nie mo\u017cecie\u00bb.\nM\u00f3wili tedy \u017cydzi mi\u0119dzy sob\u0105: Dok\u0105d\u017ce on p\u00f3jdzie, \u017ce my go nie znajdziemy? Czy\u017cby mia\u0142 zamiar p\u00f3j\u015b\u0107 do pogan na diaspor\u0119 i pogan naucza\u0107? C\u00f3\u017c to za nauka, kt\u00f3r\u0105 wyg\u0142asza: Szuka\u0107 mnie b\u0119dziecie, a nie znajdziecie, i gdzie ja b\u0119d\u0119, wy przyj\u015b\u0107 nie mo\u017cecie?\nA w ostatnim wielkim dniu \u015bwi\u0119ta stan\u0105\u0142 Jezus i zawo\u0142a\u0142, m\u00f3wi\u0105c: \u00abJe\u015bli kto pragnie, niech do mnie przyjdzie, a pije. Kto wierzy we mnie, jak m\u00f3wi Pismo, rzeki wody \u017cywej pop\u0142yn\u0105 z jego wn\u0119trza\u00bb. A to m\u00f3wi\u0142 o Duchu, kt\u00f3rego otrzyma\u0107 mieli ci, kt\u00f3rzy we\u0144 wierz\u0105.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 6:5*\nPowr\u00f3\u0107, o Panie, wyrwij dusz\u0119 moj\u0105, przez mi\u0142osierdzie Twoje mnie wybaw.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, Bo\u017ce nasz, spraw, aby ta zbawienna ofiara oczy\u015bci\u0142a nas z grzech\u00f3w i wyjedna\u0142a nam przychylno\u015b\u0107 Twego majestatu.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Krzy\u017cu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b postanowi\u0142 dokona\u0107 zbawienia rodzaju ludzkiego na drzewie krzy\u017ca, aby sk\u0105d smier\u0107 wzi\u0119\u0142a pocz\u0105tek, stamt\u0105d i \u017cycie zmartwychwsta\u0142o, i aby ten, kt\u00f3ry na drzewie zwyci\u0119\u017cy\u0142, na drzewie r\u00f3wnie\u017c zosta\u0142 pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 23:10*\nPan Zast\u0119p\u00f3w: On sam Kr\u00f3lem chwa\u0142y.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech nas oczy\u015bci i uleczy zbawienne uczestnictwo w Twoim Sakramencie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

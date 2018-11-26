@@ -1,121 +1,123 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-10-24", 
+      "description": "Imi\u0119 Rafa\u0142 znaczy \u00abB\u00f3g leczy\u00bb. Ksi\u0119ga Tobiasza opowiada, \u017ce \u015bw. Rafa\u0142 towarzyszy\u0142 m\u0142odemu Tobiaszowi w podr\u00f3\u017cy, uwolni\u0142 jego ma\u0142\u017conk\u0119 Sar\u0119 od prze\u015bladowania ze strony z\u0142ego ducha i przywr\u00f3ci\u0142 wzrok staremu Tobiaszowi (kolekta, lekcja). \u015aw. Rafa\u0142 jest czczony jako patron podr\u00f3\u017cnych i chorych.\n", 
+      "tempora": "Czwartek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Rafa\u0142a Archanio\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 102:20.*\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: pot\u00e9ntes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.\n*Ps 102:1*\nB\u00e9nedic, \u00e1nima mea, D\u00f3mino: et \u00f3mnia, qu\u00e6 intra me sunt, n\u00f3mini sancto ejus.\nGl\u00f3ria Patri.\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: pot\u00e9ntes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Rapha\u00e9lem Arch\u00e1ngelum Tob\u00ed\u00e6 f\u00e1mulo tuo c\u00f3mitem ded\u00edsti in via: conc\u00e9de nobis f\u00e1mulis tuis; ut ej\u00fasdem semper proteg\u00e1mur cust\u00f3dia et muni\u00e1mur aux\u00edlio.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Tob\u00ed\u00e6.\n*Tob 12:7-15*\nIn di\u00e9bus illis: Dixit Angelus R\u00e1pha\u00ebl ad Tob\u00edam: Sacram\u00e9ntum regis absc\u00f3ndere bonum est: \u00f3pera autem Dei revel\u00e1re et confit\u00e9ri honor\u00edficum est. Bona est or\u00e1tio cum jej\u00fanio, et eleem\u00f3syna magis quam thes\u00e1uros auri rec\u00f3ndere: qu\u00f3niam eleem\u00f3syna a morte liberat, et ipsa est, qu\u00e6 purgat pecc\u00e1ta et facit invenire miseric\u00f3rdiam et vitam \u00e6t\u00e9rnam. Qui autem faciunt pecc\u00e1tum et iniquit\u00e1tem, hostes sunt \u00e1nim\u00e6 su\u00e6. Manif\u00e9sto ergo vobis verit\u00e1tem, et non absc\u00f3ndam a vobis occ\u00faltum serm\u00f3nem. Quando or\u00e1bas cum l\u00e1crimis, et sepeli\u00e9bas m\u00f3rtuos, et derelinqu\u00e9bas pr\u00e1ndium tuum, et m\u00f3rtuos abscond\u00e9bas per diem in domo tua, et nocte sepeli\u00e9bas eos, ego \u00f3btuli orati\u00f3nem tuam D\u00f3mino. Et quia acc\u00e9ptus eras Deo, nec\u00e9sse fuit, ut tent\u00e1tio prob\u00e1ret te. Et nunc misit me D\u00f3minus, ut cur\u00e1rem te, et Saram ux\u00f3rem f\u00edlii tui a d\u00e6m\u00f3nio liber\u00e1rem. Ego enim sum Rapha\u00ebl Angelus, unus ex septem, qui ast\u00e1mus ante D\u00f3minum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Tob 8:3*\nAngelus D\u00f3mini Rapha\u00ebl appreh\u00e9ndit et lig\u00e1vit daemonem.\n*Ps 146:5.*\nV. Magnus D\u00f3minus noster, et magna virtus ejus.\nAllel\u00faja, allel\u00faja.\n*Ps 137:1-2.*\nV. In consp\u00e9ctu Angel\u00f3rum psallam tibi: ador\u00e1bo ad templum sanctum tuum, et confit\u00e9bor n\u00f3mini tuo, D\u00f3mine. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 148:2*\nLaud\u00e1te D\u00f3minum, omnes Angeli ejus: laud\u00e1te eum, omnes virt\u00fates ejus.\n*Ps 102:21*\nBened\u00edcite D\u00f3minum, omnes virt\u00fates ejus: min\u00edstri ejus, qui f\u00e1citis volunt\u00e1tem ejus.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 5:1-4*\nIn illo t\u00e9mpore: Erat dies festus Jud\u00e6\u00f3rum, et asc\u00e9ndit Jesus Jeros\u00f3lymam. Est autem Jeros\u00f3lymis Prob\u00e1tica pisc\u00edna, qu\u00e6 cognomin\u00e1tur hebr\u00e1ice Bethsaida, quinque p\u00f3rticus habens. In his jac\u00e9bat multit\u00fado magna langu\u00e9ntium, c\u00e6c\u00f3rum, claud\u00f3rum, arid\u00f3rum exspect\u00e1ntium aqu\u00e6 motum. Angelus autem D\u00f3mini descend\u00e9bat sec\u00fandum tempus in pisc\u00ednam, et moveb\u00e1tur aqua. Et, qui prior descend\u00edsset in pisc\u00ednam post moti\u00f3nem aqu\u00e6, sanus fiebat, a quac\u00famque detineb\u00e1tur infirmit\u00e1te.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Apoc 8:3; 8:4*\nStetit Angelus juxta aram templi, habens thur\u00edbulum \u00e1ureum in manu sua, et data sunt ei inc\u00e9nsa multa: et asc\u00e9ndit fumus arom\u00e1tum in consp\u00e9ctu Dei.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00f3stias tibi, D\u00f3mine, laudis off\u00e9rimus, suppl\u00edciter deprec\u00e1ntes: ut e\u00e1sdem, ang\u00e9lico pro nobis interveni\u00e9nte suffr\u00e1gio, et plac\u00e1tus acc\u00edpias, et ad sal\u00fatem nostram proven\u00edre conc\u00e9das.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Dan 3:58*\nBened\u00edcite, omnes Angeli D\u00f3mini, D\u00f3minum: hymnum d\u00edcite et superexalt\u00e1te eum in saecula.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Dirigere dign\u00e1re, D\u00f3mine Deus, in adjut\u00f3rium nostrum sanctum Rapha\u00e9lem Arch\u00e1ngelum: et, quem tu\u00e6 majest\u00e1ti semper ass\u00edstere cr\u00e9dimus, tibi nostras ex\u00edguas preces benedic\u00e9ndas ass\u00edgnet.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-10-24", 
-    "description": "Imi\u0119 Rafa\u0142 znaczy \u00abB\u00f3g leczy\u00bb. Ksi\u0119ga Tobiasza opowiada, \u017ce \u015bw. Rafa\u0142 towarzyszy\u0142 m\u0142odemu Tobiaszowi w podr\u00f3\u017cy, uwolni\u0142 jego ma\u0142\u017conk\u0119 Sar\u0119 od prze\u015bladowania ze strony z\u0142ego ducha i przywr\u00f3ci\u0142 wzrok staremu Tobiaszowi (kolekta, lekcja). \u015aw. Rafa\u0142 jest czczony jako patron podr\u00f3\u017cnych i chorych.\n", 
-    "tempora": "Czwartek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Rafa\u0142a Archanio\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 102:20.*\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: pot\u00e9ntes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.\n*Ps 102:1*\nB\u00e9nedic, \u00e1nima mea, D\u00f3mino: et \u00f3mnia, qu\u00e6 intra me sunt, n\u00f3mini sancto ejus.\nGl\u00f3ria Patri.\nBened\u00edcite D\u00f3minum, omnes Angeli ejus: pot\u00e9ntes virt\u00fate, qui f\u00e1citis verbum ejus, ad audi\u00e9ndam vocem serm\u00f3num ejus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Rapha\u00e9lem Arch\u00e1ngelum Tob\u00ed\u00e6 f\u00e1mulo tuo c\u00f3mitem ded\u00edsti in via: conc\u00e9de nobis f\u00e1mulis tuis; ut ej\u00fasdem semper proteg\u00e1mur cust\u00f3dia et muni\u00e1mur aux\u00edlio.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Tob\u00ed\u00e6.\n*Tob 12:7-15*\nIn di\u00e9bus illis: Dixit Angelus R\u00e1pha\u00ebl ad Tob\u00edam: Sacram\u00e9ntum regis absc\u00f3ndere bonum est: \u00f3pera autem Dei revel\u00e1re et confit\u00e9ri honor\u00edficum est. Bona est or\u00e1tio cum jej\u00fanio, et eleem\u00f3syna magis quam thes\u00e1uros auri rec\u00f3ndere: qu\u00f3niam eleem\u00f3syna a morte liberat, et ipsa est, qu\u00e6 purgat pecc\u00e1ta et facit invenire miseric\u00f3rdiam et vitam \u00e6t\u00e9rnam. Qui autem faciunt pecc\u00e1tum et iniquit\u00e1tem, hostes sunt \u00e1nim\u00e6 su\u00e6. Manif\u00e9sto ergo vobis verit\u00e1tem, et non absc\u00f3ndam a vobis occ\u00faltum serm\u00f3nem. Quando or\u00e1bas cum l\u00e1crimis, et sepeli\u00e9bas m\u00f3rtuos, et derelinqu\u00e9bas pr\u00e1ndium tuum, et m\u00f3rtuos abscond\u00e9bas per diem in domo tua, et nocte sepeli\u00e9bas eos, ego \u00f3btuli orati\u00f3nem tuam D\u00f3mino. Et quia acc\u00e9ptus eras Deo, nec\u00e9sse fuit, ut tent\u00e1tio prob\u00e1ret te. Et nunc misit me D\u00f3minus, ut cur\u00e1rem te, et Saram ux\u00f3rem f\u00edlii tui a d\u00e6m\u00f3nio liber\u00e1rem. Ego enim sum Rapha\u00ebl Angelus, unus ex septem, qui ast\u00e1mus ante D\u00f3minum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Tob 8:3*\nAngelus D\u00f3mini Rapha\u00ebl appreh\u00e9ndit et lig\u00e1vit daemonem.\n*Ps 146:5.*\nV. Magnus D\u00f3minus noster, et magna virtus ejus.\nAllel\u00faja, allel\u00faja.\n*Ps 137:1-2.*\nV. In consp\u00e9ctu Angel\u00f3rum psallam tibi: ador\u00e1bo ad templum sanctum tuum, et confit\u00e9bor n\u00f3mini tuo, D\u00f3mine. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 148:2*\nLaud\u00e1te D\u00f3minum, omnes Angeli ejus: laud\u00e1te eum, omnes virt\u00fates ejus.\n*Ps 102:21*\nBened\u00edcite D\u00f3minum, omnes virt\u00fates ejus: min\u00edstri ejus, qui f\u00e1citis volunt\u00e1tem ejus.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 5:1-4*\nIn illo t\u00e9mpore: Erat dies festus Jud\u00e6\u00f3rum, et asc\u00e9ndit Jesus Jeros\u00f3lymam. Est autem Jeros\u00f3lymis Prob\u00e1tica pisc\u00edna, qu\u00e6 cognomin\u00e1tur hebr\u00e1ice Bethsaida, quinque p\u00f3rticus habens. In his jac\u00e9bat multit\u00fado magna langu\u00e9ntium, c\u00e6c\u00f3rum, claud\u00f3rum, arid\u00f3rum exspect\u00e1ntium aqu\u00e6 motum. Angelus autem D\u00f3mini descend\u00e9bat sec\u00fandum tempus in pisc\u00ednam, et moveb\u00e1tur aqua. Et, qui prior descend\u00edsset in pisc\u00ednam post moti\u00f3nem aqu\u00e6, sanus fiebat, a quac\u00famque detineb\u00e1tur infirmit\u00e1te.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Apoc 8:3; 8:4*\nStetit Angelus juxta aram templi, habens thur\u00edbulum \u00e1ureum in manu sua, et data sunt ei inc\u00e9nsa multa: et asc\u00e9ndit fumus arom\u00e1tum in consp\u00e9ctu Dei.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00f3stias tibi, D\u00f3mine, laudis off\u00e9rimus, suppl\u00edciter deprec\u00e1ntes: ut e\u00e1sdem, ang\u00e9lico pro nobis interveni\u00e9nte suffr\u00e1gio, et plac\u00e1tus acc\u00edpias, et ad sal\u00fatem nostram proven\u00edre conc\u00e9das.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Dan 3:58*\nBened\u00edcite, omnes Angeli D\u00f3mini, D\u00f3minum: hymnum d\u00edcite et superexalt\u00e1te eum in saecula.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Dirigere dign\u00e1re, D\u00f3mine Deus, in adjut\u00f3rium nostrum sanctum Rapha\u00e9lem Arch\u00e1ngelum: et, quem tu\u00e6 majest\u00e1ti semper ass\u00edstere cr\u00e9dimus, tibi nostras ex\u00edguas preces benedic\u00e9ndas ass\u00edgnet.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 102:20*\nB\u0142ogos\u0142awcie Pana, wszyscy jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.\n*Ps 102:1*\nB\u0142ogos\u0142aw, duszo moja, Pana, a wszystko, co jest we mnie, \u015bwi\u0119te imi\u0119 Jego.\nChwa\u0142a Ojcu.\nB\u0142ogos\u0142awcie Pana, wszyscy jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry da\u0142e\u015b s\u0142udze Swemu Tobiaszowi za towarzysza W podr\u00f3\u017cy \u015bw. Archanio\u0142a Rafa\u0142a, daj nam s\u0142ugom Swoim, aby nas zawsze otacza\u0142a jego opieka i wspiera\u0142a jego pomoc.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Tobiasza.\n*Tob 12:7-15*\nW one dni: Rzek\u0142 Rafa\u0142 do Tobiasza: \u00abDobrze jest ukrywa\u0107 tajemnic\u0119 kr\u00f3lewsk\u0105, rzecz\u0105 natomiast zaszczytn\u0105 jest jest ujawnia\u0107 dzie\u0142a Pa\u0144skie i wys\u0142awia\u0107. Dobra jest modlitwa po\u0142\u0105czona z postem, a ja\u0142mu\u017cna lepsza od zbierania skarbowy z\u0142ota, bo ja\u0142mu\u017cna uwalnia od \u015bmierci i ona to oczyszcza z grzech\u00f3w i sprawia, i\u017c dost\u0119puje si\u0119 mi\u0142osierdzia i \u017cycia wiecznego. Ci za\u015b, co grzesz\u0105 i nieprawo\u015b\u0107 czyni\u0105, s\u0105 wrogami swej duszy. Objawiam wi\u0119c wam prawd\u0119, a nie b\u0119d\u0119 zakrywa\u0107 przed wami tajemniczej mowy. Gdy modli\u0142e\u015b si\u0119 ze \u0142zami i grzeba\u0142e\u015b umar\u0142ych, i zostawia\u0142e\u015b posi\u0142ek tw\u00f3j, a ukrywa\u0142e\u015b w domu twym w ci\u0105gu dnia zmar\u0142ych i noc\u0105 ich grzebales, ja modlitw\u0119 twoj\u0105 ofiarowa\u0142em Panu. A \u017ce mi\u0142ym by\u0142e\u015b Bogu, potrzeba by\u0142o, by pr\u00f3ba ci\u0119 do\u015bwiadczy\u0142a. I teraz Pan pos\u0142a\u0142 mnie, bym ci\u0119 uzdrowi\u0142, a Sar\u0119, \u017con\u0119 syna twego, uwolni\u0142 od z\u0142ego ducha. Ja bowiem jestem Anio\u0142 Rafa\u0142, jeden z siedmiu, kt\u00f3rzy stoimy przed obliczem Pana\u00bb.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Tob 8:3*\nAnio\u0142 Pa\u0144ski Rafa\u0142 pojma\u0142 i zwi\u0105za\u0142 z\u0142ego ducha.\n*Ps 146:5.*\nV. Wielki jest Pan i wielka moc Jego. Alleluja, alleluja.\n*Ps 137:1-2*\nV. Wobec Anio\u0142\u00f3w b\u0119d\u0119 Ci \u015bpiewa\u0142; upadn\u0119 na twarz w \u015bwi\u0119tym przybytku Twoim i b\u0119d\u0119 s\u0142awi\u0142 Twe imi\u0119, Panie. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 5:1-4*\nOnego czasu. By\u0142o \u015bwi\u0119to \u017cydowskie i przyszed\u0142 Jezus do Jerozolimy. A jest w Jerozolimie sadzawka owcza, po hebrajsku zwana Betsajda, maj\u0105ca pi\u0119\u0107 kru\u017cgank\u00f3w. W nich to le\u017ca\u0142o wielkie mn\u00f3stwo chorych, \u015blepych, chromych, paralityk\u00f3w, czekaj\u0105cych poruszenia wody. A Anio\u0142 Pa\u0144ski zst\u0119powa\u0142 od czasu do czasu do sadzawki i porusza\u0142a si\u0119 woda. I kto pierwszy wszed\u0142 do sadzawki po poruszeniu wody, stawa\u0142 si\u0119 zdrowym, jak\u0105kolwiek by\u0142by zdj\u0119ty niemoc\u0105.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ap 8:3-4*\nAnio\u0142 stan\u0105\u0142 przy o\u0142tarzu \u015bwi\u0105tyni, maj\u0105c w r\u0119ku z\u0142ot\u0105 kadzielnic\u0119; i dano mu wiele kadzide\u0142, i wzni\u00f3s\u0142 si\u0119 wonny dym przed Bogiem.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adamy Ci, Panie, ofiar\u0119 uwielbienia i pokornie prosimy, aby\u015b za wstawiennictwem anielskim \u0142askawie j\u0105 przyj\u0105\u0142 i obr\u00f3ci\u0142 ku naszemu zbawieniu.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Dn 3:58*\nB\u0142ogos\u0142awcie Pana, wszyscy Anio\u0142owie Pa\u0144scy, wys\u0142awiajcie Go hymnem i wywy\u017cszajcie na wieki.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie Bo\u017ce, racz zes\u0142a\u0107 nam na pomoc \u015bwi\u0119tego Rafa\u0142a Archanio\u0142a; wierzymy, \u017ce przebywa on zawsze W obecno\u015bci Twojego majestatu, niechaj przedstawia Tobie nasze skromne pro\u015bby, aby\u015b nam b\u0142ogos\u0142awi\u0142.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 102:20*\nB\u0142ogos\u0142awcie Pana, wszyscy jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.\n*Ps 102:1*\nB\u0142ogos\u0142aw, duszo moja, Pana, a wszystko, co jest we mnie, \u015bwi\u0119te imi\u0119 Jego.\nChwa\u0142a Ojcu.\nB\u0142ogos\u0142awcie Pana, wszyscy jego Anio\u0142owie, pot\u0119\u017cni moc\u0105, pe\u0142ni\u0105cy Jego rozkazy, aby\u015bcie pos\u0142uszni byli Jego s\u0142owu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry da\u0142e\u015b s\u0142udze Swemu Tobiaszowi za towarzysza W podr\u00f3\u017cy \u015bw. Archanio\u0142a Rafa\u0142a, daj nam s\u0142ugom Swoim, aby nas zawsze otacza\u0142a jego opieka i wspiera\u0142a jego pomoc.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Tobiasza.\n*Tob 12:7-15*\nW one dni: Rzek\u0142 Rafa\u0142 do Tobiasza: \u00abDobrze jest ukrywa\u0107 tajemnic\u0119 kr\u00f3lewsk\u0105, rzecz\u0105 natomiast zaszczytn\u0105 jest jest ujawnia\u0107 dzie\u0142a Pa\u0144skie i wys\u0142awia\u0107. Dobra jest modlitwa po\u0142\u0105czona z postem, a ja\u0142mu\u017cna lepsza od zbierania skarbowy z\u0142ota, bo ja\u0142mu\u017cna uwalnia od \u015bmierci i ona to oczyszcza z grzech\u00f3w i sprawia, i\u017c dost\u0119puje si\u0119 mi\u0142osierdzia i \u017cycia wiecznego. Ci za\u015b, co grzesz\u0105 i nieprawo\u015b\u0107 czyni\u0105, s\u0105 wrogami swej duszy. Objawiam wi\u0119c wam prawd\u0119, a nie b\u0119d\u0119 zakrywa\u0107 przed wami tajemniczej mowy. Gdy modli\u0142e\u015b si\u0119 ze \u0142zami i grzeba\u0142e\u015b umar\u0142ych, i zostawia\u0142e\u015b posi\u0142ek tw\u00f3j, a ukrywa\u0142e\u015b w domu twym w ci\u0105gu dnia zmar\u0142ych i noc\u0105 ich grzebales, ja modlitw\u0119 twoj\u0105 ofiarowa\u0142em Panu. A \u017ce mi\u0142ym by\u0142e\u015b Bogu, potrzeba by\u0142o, by pr\u00f3ba ci\u0119 do\u015bwiadczy\u0142a. I teraz Pan pos\u0142a\u0142 mnie, bym ci\u0119 uzdrowi\u0142, a Sar\u0119, \u017con\u0119 syna twego, uwolni\u0142 od z\u0142ego ducha. Ja bowiem jestem Anio\u0142 Rafa\u0142, jeden z siedmiu, kt\u00f3rzy stoimy przed obliczem Pana\u00bb.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Tob 8:3*\nAnio\u0142 Pa\u0144ski Rafa\u0142 pojma\u0142 i zwi\u0105za\u0142 z\u0142ego ducha.\n*Ps 146:5.*\nV. Wielki jest Pan i wielka moc Jego. Alleluja, alleluja.\n*Ps 137:1-2*\nV. Wobec Anio\u0142\u00f3w b\u0119d\u0119 Ci \u015bpiewa\u0142; upadn\u0119 na twarz w \u015bwi\u0119tym przybytku Twoim i b\u0119d\u0119 s\u0142awi\u0142 Twe imi\u0119, Panie. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 5:1-4*\nOnego czasu. By\u0142o \u015bwi\u0119to \u017cydowskie i przyszed\u0142 Jezus do Jerozolimy. A jest w Jerozolimie sadzawka owcza, po hebrajsku zwana Betsajda, maj\u0105ca pi\u0119\u0107 kru\u017cgank\u00f3w. W nich to le\u017ca\u0142o wielkie mn\u00f3stwo chorych, \u015blepych, chromych, paralityk\u00f3w, czekaj\u0105cych poruszenia wody. A Anio\u0142 Pa\u0144ski zst\u0119powa\u0142 od czasu do czasu do sadzawki i porusza\u0142a si\u0119 woda. I kto pierwszy wszed\u0142 do sadzawki po poruszeniu wody, stawa\u0142 si\u0119 zdrowym, jak\u0105kolwiek by\u0142by zdj\u0119ty niemoc\u0105.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ap 8:3-4*\nAnio\u0142 stan\u0105\u0142 przy o\u0142tarzu \u015bwi\u0105tyni, maj\u0105c w r\u0119ku z\u0142ot\u0105 kadzielnic\u0119; i dano mu wiele kadzide\u0142, i wzni\u00f3s\u0142 si\u0119 wonny dym przed Bogiem.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adamy Ci, Panie, ofiar\u0119 uwielbienia i pokornie prosimy, aby\u015b za wstawiennictwem anielskim \u0142askawie j\u0105 przyj\u0105\u0142 i obr\u00f3ci\u0142 ku naszemu zbawieniu.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Dn 3:58*\nB\u0142ogos\u0142awcie Pana, wszyscy Anio\u0142owie Pa\u0144scy, wys\u0142awiajcie Go hymnem i wywy\u017cszajcie na wieki.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie Bo\u017ce, racz zes\u0142a\u0107 nam na pomoc \u015bwi\u0119tego Rafa\u0142a Archanio\u0142a; wierzymy, \u017ce przebywa on zawsze W obecno\u015bci Twojego majestatu, niechaj przedstawia Tobie nasze skromne pro\u015bby, aby\u015b nam b\u0142ogos\u0142awi\u0142.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

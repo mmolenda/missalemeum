@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "1 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "1 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-03-20", 
+      "description": "Ewangelia nazywa \u015bw. J\u00f3zefa \u00abm\u0119\u017cem sprawiedliwym\u00bb: Stopie\u0144 tej sprawiedliwo\u015bci, czyli \u015bwi\u0119to\u015bci, by\u0142 bardzo wysoki, skoro B\u00f3g wybra\u0142 go na m\u0119\u017ca Naj\u015bwi\u0119tszej Dziewicy i opiekuna swojego Syna. Ewangelia ukazuje jego doskona\u0142e poddanie woli Bo\u017cej oraz po\u015bwi\u0119cenie dla Jezusa i Maryi. \u015aw. J\u00f3zef jest wzorem ojca rodziny.\nW Ko\u015bciele wschodnim czczono \u015bw. J\u00f3zefa w oktawie Bo\u017cego Narodzenia ju\u017c w VIII wieku. Na Zachodzie jego kult rozpocz\u0105\u0142 si\u0119 znacznie p\u00f3\u017aniej i by\u0142 zwi\u0105zany z rozmaitymi datami. Dat\u0119 19 marca ustalono w XV wieku. Papie\u017c Pius IX og\u0142osi\u0142 \u015bw. J\u00f3zefa patronem ca\u0142ego\nKo\u015bcio\u0142a, a Jan XXIII umie\u015bci\u0142 jego imi\u0119 w kanonie Mszy \u015bwi\u0119tej.\n", 
+      "tempora": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu", 
+      "title": "\u015aw. J\u00f3zefa, Oblubie\u0144ca N. M. P."
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 91:13-14.*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)\n*Ps 91:2.*\nBonum est confiteri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Sanct\u00edssim\u00e6 Genetr\u00edcis tu\u00e6 Sponsi, qu\u01fdsumus. D\u00f3mine, m\u00e9ritis adjuv\u00e9mur: ut, quod possib\u00edlitas nostra non \u00f3btinet, ejus nobis intercessi\u00f3ne don\u00e9tur:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 45:1-6.*\nDil\u00e9ctus Deo et hom\u00ednibus, cujus mem\u00f3ria in benedicti\u00f3ne est. S\u00edmilem illum fecit in gl\u00f3ria sanct\u00f3rum, et magnific\u00e1vit eum in tim\u00f3re inimic\u00f3rum, et in verbis suis monstra plac\u00e1vit. Glorific\u00e1vit illum in consp\u00e9ctu regum, et jussit illi coram p\u00f3pulo suo, et ost\u00e9ndit illi gl\u00f3riam suam. In fide et lenit\u00e1te ips\u00edus sanctum fecit illum, et el\u00e9git eum ex omni carne. Aud\u00edvit enim eum et vocem ips\u00edus, et ind\u00faxit illum in nubem. Et dedit illi coram pr\u00e6c\u00e9pta, et legem vit\u00e6 et discipl\u00edn\u00e6.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 20:4-5.*\nD\u00f3mine, pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nV. Vitam p\u00e9tiit a te, et tribu\u00edsti ei longit\u00fadinem di\u00e9rum in saeculum saeculi.\n*Ps 111:1-3.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in saeculum saeculi.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 1:18-21.*\nCum esset despons\u00e1ta Mater Jesu Mar\u00eda Joseph, \u00e1ntequam conven\u00edrent, inv\u00e9nta est in \u00fatero habens de Sp\u00edritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam trad\u00facere, v\u00f3luit occ\u00falte dim\u00edttere eam. H\u00e6c autem eo cogit\u00e1nte, ecce, Angelus D\u00f3mini app\u00e1ruit in somnis ei, dicens: Joseph, fili David, noli tim\u00e9re acc\u00edpere Mar\u00edam c\u00f3njugem tuam: quod enim in ea natum est, de Sp\u00edritu Sancto est. P\u00e1riet autem f\u00edlium, et voc\u00e1bis nomen ejus Jesum: ipse enim salvum f\u00e1ciet p\u00f3pulum suum a pecc\u00e1tis e\u00f3rum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:25.*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus. (Allel\u00faja.)", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "D\u00e9bitum tibi, D\u00f3mine, nostr\u00e6 r\u00e9ddimus servit\u00fatis, suppl\u00edciter exor\u00e1ntes: ut, suffr\u00e1giis be\u00e1ti Joseph, Sponsi Genetr\u00edcis F\u00edlii tui Jesu Christi, D\u00f3mini nostri, in nobis tua m\u00fanera tue\u00e1ris, ob cujus vener\u00e1ndam festivit\u00e1tem laudis tibi h\u00f3stias immol\u00e1mus.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de S. Joseph*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Venerati\u00f3ne* be\u00e1ti Joseph d\u00e9bitis magnific\u00e1re pr\u00e6c\u00f3niis, bened\u00edcere et pr\u00e6dic\u00e1re. Qui et vir justus, a te De\u00edpar\u00e6 V\u00edrgini Sponsus est datus: et fid\u00e9lis servus ac prudens, super Fam\u00edliam tuam est constit\u00fatus: ut Unig\u00e9nitum tuum, Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9ptum, paterna vice custod\u00edret, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 1:20.*\nJoseph, fili David, noli tim\u00e9re acc\u00edpere Mar\u00edam c\u00f3njugem tuam: quod enim in ea natum est, de Sp\u00edritu Sancto est. (Allel\u00faja.)", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ad\u00e9sto nobis, qu\u01fdsumus, mis\u00e9ricors Deus: et, interced\u00e9nte pro nobis be\u00e1to Joseph Confess\u00f3re, tua circa nos propiti\u00e1tus dona cust\u00f3di.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-03-20", 
-    "description": "Ewangelia nazywa \u015bw. J\u00f3zefa \u00abm\u0119\u017cem sprawiedliwym\u00bb: Stopie\u0144 tej sprawiedliwo\u015bci, czyli \u015bwi\u0119to\u015bci, by\u0142 bardzo wysoki, skoro B\u00f3g wybra\u0142 go na m\u0119\u017ca Naj\u015bwi\u0119tszej Dziewicy i opiekuna swojego Syna. Ewangelia ukazuje jego doskona\u0142e poddanie woli Bo\u017cej oraz po\u015bwi\u0119cenie dla Jezusa i Maryi. \u015aw. J\u00f3zef jest wzorem ojca rodziny.\nW Ko\u015bciele wschodnim czczono \u015bw. J\u00f3zefa w oktawie Bo\u017cego Narodzenia ju\u017c w VIII wieku. Na Zachodzie jego kult rozpocz\u0105\u0142 si\u0119 znacznie p\u00f3\u017aniej i by\u0142 zwi\u0105zany z rozmaitymi datami. Dat\u0119 19 marca ustalono w XV wieku. Papie\u017c Pius IX og\u0142osi\u0142 \u015bw. J\u00f3zefa patronem ca\u0142ego\nKo\u015bcio\u0142a, a Jan XXIII umie\u015bci\u0142 jego imi\u0119 w kanonie Mszy \u015bwi\u0119tej.\n", 
-    "tempora": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu", 
-    "title": "\u015aw. J\u00f3zefa, Oblubie\u0144ca N. M. P."
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 91:13-14.*\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)\n*Ps 91:2.*\nBonum est confiteri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nJustus ut palma flor\u00e9bit: sicut cedrus L\u00edbani multiplic\u00e1bitur: plant\u00e1tus in domo D\u00f3mini: in \u00e1triis domus Dei nostri. (Allel\u00faja, allel\u00faja.)", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Sanct\u00edssim\u00e6 Genetr\u00edcis tu\u00e6 Sponsi, qu\u01fdsumus. D\u00f3mine, m\u00e9ritis adjuv\u00e9mur: ut, quod possib\u00edlitas nostra non \u00f3btinet, ejus nobis intercessi\u00f3ne don\u00e9tur:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 45:1-6.*\nDil\u00e9ctus Deo et hom\u00ednibus, cujus mem\u00f3ria in benedicti\u00f3ne est. S\u00edmilem illum fecit in gl\u00f3ria sanct\u00f3rum, et magnific\u00e1vit eum in tim\u00f3re inimic\u00f3rum, et in verbis suis monstra plac\u00e1vit. Glorific\u00e1vit illum in consp\u00e9ctu regum, et jussit illi coram p\u00f3pulo suo, et ost\u00e9ndit illi gl\u00f3riam suam. In fide et lenit\u00e1te ips\u00edus sanctum fecit illum, et el\u00e9git eum ex omni carne. Aud\u00edvit enim eum et vocem ips\u00edus, et ind\u00faxit illum in nubem. Et dedit illi coram pr\u00e6c\u00e9pta, et legem vit\u00e6 et discipl\u00edn\u00e6.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 20:4-5.*\nD\u00f3mine, pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nV. Vitam p\u00e9tiit a te, et tribu\u00edsti ei longit\u00fadinem di\u00e9rum in saeculum saeculi.\n*Ps 111:1-3.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in saeculum saeculi.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 1:18-21.*\nCum esset despons\u00e1ta Mater Jesu Mar\u00eda Joseph, \u00e1ntequam conven\u00edrent, inv\u00e9nta est in \u00fatero habens de Sp\u00edritu Sancto. Joseph autem, vir ejus, cum esset justus et nollet eam trad\u00facere, v\u00f3luit occ\u00falte dim\u00edttere eam. H\u00e6c autem eo cogit\u00e1nte, ecce, Angelus D\u00f3mini app\u00e1ruit in somnis ei, dicens: Joseph, fili David, noli tim\u00e9re acc\u00edpere Mar\u00edam c\u00f3njugem tuam: quod enim in ea natum est, de Sp\u00edritu Sancto est. P\u00e1riet autem f\u00edlium, et voc\u00e1bis nomen ejus Jesum: ipse enim salvum f\u00e1ciet p\u00f3pulum suum a pecc\u00e1tis e\u00f3rum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:25.*\nV\u00e9ritas mea et miseric\u00f3rdia mea cum ipso: et in n\u00f3mine meo exalt\u00e1bitur cornu ejus. (Allel\u00faja.)", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "D\u00e9bitum tibi, D\u00f3mine, nostr\u00e6 r\u00e9ddimus servit\u00fatis, suppl\u00edciter exor\u00e1ntes: ut, suffr\u00e1giis be\u00e1ti Joseph, Sponsi Genetr\u00edcis F\u00edlii tui Jesu Christi, D\u00f3mini nostri, in nobis tua m\u00fanera tue\u00e1ris, ob cujus vener\u00e1ndam festivit\u00e1tem laudis tibi h\u00f3stias immol\u00e1mus.\nPer e\u00fandem.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de S. Joseph*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Et te in *Venerati\u00f3ne* be\u00e1ti Joseph d\u00e9bitis magnific\u00e1re pr\u00e6c\u00f3niis, bened\u00edcere et pr\u00e6dic\u00e1re. Qui et vir justus, a te De\u00edpar\u00e6 V\u00edrgini Sponsus est datus: et fid\u00e9lis servus ac prudens, super Fam\u00edliam tuam est constit\u00fatus: ut Unig\u00e9nitum tuum, Sancti Sp\u00edritus obumbrati\u00f3ne conc\u00e9ptum, paterna vice custod\u00edret, Jesum Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 1:20.*\nJoseph, fili David, noli tim\u00e9re acc\u00edpere Mar\u00edam c\u00f3njugem tuam: quod enim in ea natum est, de Sp\u00edritu Sancto est. (Allel\u00faja.)", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ad\u00e9sto nobis, qu\u01fdsumus, mis\u00e9ricors Deus: et, interced\u00e9nte pro nobis be\u00e1to Joseph Confess\u00f3re, tua circa nos propiti\u00e1tus dona cust\u00f3di.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech nas wspomagaj\u0105 zas\u0142ugi Oblubie\u0144ca Twojej Naj\u015bwi\u0119tszej Rodzicielki, aby\u015bmy za jego wstawiennictwem otrzymali to, czego nie mo\u017cemy sami uzyska\u0107:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 45:1-6*\nUmi\u0142owany przez Boga i ludzi, kt\u00f3rego pami\u0119\u0107 jest b\u0142ogos\u0142awiona. Pan da\u0142 mu chwa\u0142\u0119 podobn\u0105 jako innym \u015bwi\u0119tym, uczyni\u0142 go pot\u0119\u017cnym na postrach nieprzyjaci\u00f3\u0142, a na jego s\u0142owa u\u015bmierza\u0142 srogie kl\u0119ski. On go te\u017c ws\u0142awi\u0142 wobec kr\u00f3l\u00f3w, dawa\u0142 przeze\u0144 rozkazy ludowi swemu i dozwoli\u0142 mu ogl\u0105da\u0107 chwa\u0142\u0119 swoj\u0105. Dla jego wiary i \u0142agodno\u015bci po\u015bwi\u0119ci\u0142 go i wybra\u0142 spo\u015br\u00f3d wszystkich ludzi. Pozwoli\u0142 mu s\u0142ysze\u0107 sw\u00f3j g\u0142os i wprowadzi\u0142 go do ob\u0142oku. Sam mu te\u017c zwierzy\u0142 swe przykazania, prawa \u017cywota i umiej\u0119tno\u015bci.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 20:4-5*\nPanie, dobrodziejstwami obsypa\u0142e\u015b go szczodrze, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.\nV. B\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, dni jego przed\u0142u\u017cy\u0142e\u015b na wieki wiek\u00f3w.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 1:18-21*\nGdy po\u015blubiona by\u0142a Matka Jezusa Maryja J\u00f3zefowi, pierwej ni\u017ali si\u0119 zeszli, okaza\u0142o si\u0119, \u017ce pocz\u0119\u0142a z Ducha \u015awi\u0119tego. A J\u00f3zef, m\u0105\u017c Jej, b\u0119d\u0105c sprawiedliwym i nie chc\u0105c Jej znies\u0142awia\u0107, zamierza\u0142 J\u0105 potajemnie opu\u015bci\u0107. A gdy nad tym przemy\u015bliwa\u0142, oto Anio\u0142 Pa\u0144ski ukaza\u0142 mu si\u0119 we \u015bnie, m\u00f3wi\u0105c: \u00abJ\u00f3zefie, synu Dawid\u00f3w, nie b\u00f3j si\u0119 przyj\u0105\u0107 Maryi, ma\u0142\u017conki swojej, albowiem, co si\u0119 z Niej pocz\u0119\u0142o, z Ducha \u015awi\u0119tego jest. A porodzi syna i nazwiesz imi\u0119 Jego Jezus, albowiem On wybawi lud sw\u00f3j od grzech\u00f3w jego\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim imieniu moc jego wzro\u015bnie. (O. W. Alleluja.)", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Oddajemy Ci, Panie, ho\u0142d naszego podda\u0144stwa, pokornie b\u0142agaj\u0105c, by\u015b strzeg\u0142 w nas swoich dar\u00f3w za wstawiennictwem \u015bw. J\u00f3zefa, Oblubie\u0144ca Rodzicielki Syna Twojego, a Pana naszego Jezusa Chrystusa, w kt\u00f3rego chwalebn\u0105 uroczysto\u015b\u0107 sk\u0142adamy Ci ofiar\u0119 uwielbienia.\nPrzez tego\u017c Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o \u015bw. J\u00f3zefie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci sk\u0142adali nale\u017cne uwielbienie, b\u0142ogos\u0142awili Ci\u0119 i wys\u0142awiali obchodz\u0105c uroczysto\u015b\u0107 (czcz\u0105c) \u015bw. J\u00f3zefa. Jako m\u0119\u017ca sprawiedliwego da\u0142e\u015b go Bogarodzicy Dziewicy za oblubie\u0144ca, a jako wiernego i roztropnego s\u0142ug\u0119 postawi\u0142e\u015b go nad rodzin\u0105 swoj\u0105, aby ojcowsk\u0105 opiek\u0105 otacza\u0142 pocz\u0119tego za spraw\u0105 Ducha \u015awi\u0119tego Jednorodzonego Syna Twego, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 1:20*\nJ\u00f3zefie, Synu Dawid\u00f3w, nie b\u00f3j si\u0119 przyj\u0105\u0107 Maryi, ma\u0142\u017conki swojej, albowiem co si\u0119 w Niej pocz\u0119\u0142o z Ducha \u015awi\u0119tego jest. (O. W. Alleluja)", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Przyjd\u017a nam z pomoc\u0105, mi\u0142osierny Bo\u017ce, a za wstawiennictwem \u015bw. J\u00f3zefa, Wyznawcy, strze\u017c w nas \u0142askawie Swoich dar\u00f3w.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie, zasadzony w domu Pa\u0144skim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech nas wspomagaj\u0105 zas\u0142ugi Oblubie\u0144ca Twojej Naj\u015bwi\u0119tszej Rodzicielki, aby\u015bmy za jego wstawiennictwem otrzymali to, czego nie mo\u017cemy sami uzyska\u0107:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 45:1-6*\nUmi\u0142owany przez Boga i ludzi, kt\u00f3rego pami\u0119\u0107 jest b\u0142ogos\u0142awiona. Pan da\u0142 mu chwa\u0142\u0119 podobn\u0105 jako innym \u015bwi\u0119tym, uczyni\u0142 go pot\u0119\u017cnym na postrach nieprzyjaci\u00f3\u0142, a na jego s\u0142owa u\u015bmierza\u0142 srogie kl\u0119ski. On go te\u017c ws\u0142awi\u0142 wobec kr\u00f3l\u00f3w, dawa\u0142 przeze\u0144 rozkazy ludowi swemu i dozwoli\u0142 mu ogl\u0105da\u0107 chwa\u0142\u0119 swoj\u0105. Dla jego wiary i \u0142agodno\u015bci po\u015bwi\u0119ci\u0142 go i wybra\u0142 spo\u015br\u00f3d wszystkich ludzi. Pozwoli\u0142 mu s\u0142ysze\u0107 sw\u00f3j g\u0142os i wprowadzi\u0142 go do ob\u0142oku. Sam mu te\u017c zwierzy\u0142 swe przykazania, prawa \u017cywota i umiej\u0119tno\u015bci.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 20:4-5*\nPanie, dobrodziejstwami obsypa\u0142e\u015b go szczodrze, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni.\nV. B\u0142aga\u0142 Ci\u0119 o \u017cycie, a Ty\u015b go nim obdarzy\u0142, dni jego przed\u0142u\u017cy\u0142e\u015b na wieki wiek\u00f3w.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 1:18-21*\nGdy po\u015blubiona by\u0142a Matka Jezusa Maryja J\u00f3zefowi, pierwej ni\u017ali si\u0119 zeszli, okaza\u0142o si\u0119, \u017ce pocz\u0119\u0142a z Ducha \u015awi\u0119tego. A J\u00f3zef, m\u0105\u017c Jej, b\u0119d\u0105c sprawiedliwym i nie chc\u0105c Jej znies\u0142awia\u0107, zamierza\u0142 J\u0105 potajemnie opu\u015bci\u0107. A gdy nad tym przemy\u015bliwa\u0142, oto Anio\u0142 Pa\u0144ski ukaza\u0142 mu si\u0119 we \u015bnie, m\u00f3wi\u0105c: \u00abJ\u00f3zefie, synu Dawid\u00f3w, nie b\u00f3j si\u0119 przyj\u0105\u0107 Maryi, ma\u0142\u017conki swojej, albowiem, co si\u0119 z Niej pocz\u0119\u0142o, z Ducha \u015awi\u0119tego jest. A porodzi syna i nazwiesz imi\u0119 Jego Jezus, albowiem On wybawi lud sw\u00f3j od grzech\u00f3w jego\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:25*\nZ nim moja wierno\u015b\u0107 i moja \u0142aska; w moim imieniu moc jego wzro\u015bnie. (O. W. Alleluja.)", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Oddajemy Ci, Panie, ho\u0142d naszego podda\u0144stwa, pokornie b\u0142agaj\u0105c, by\u015b strzeg\u0142 w nas swoich dar\u00f3w za wstawiennictwem \u015bw. J\u00f3zefa, Oblubie\u0144ca Rodzicielki Syna Twojego, a Pana naszego Jezusa Chrystusa, w kt\u00f3rego chwalebn\u0105 uroczysto\u015b\u0107 sk\u0142adamy Ci ofiar\u0119 uwielbienia.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o \u015bw. J\u00f3zefie*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nI aby\u015bmy Ci sk\u0142adali nale\u017cne uwielbienie, b\u0142ogos\u0142awili Ci\u0119 i wys\u0142awiali obchodz\u0105c uroczysto\u015b\u0107 (czcz\u0105c) \u015bw. J\u00f3zefa. Jako m\u0119\u017ca sprawiedliwego da\u0142e\u015b go Bogarodzicy Dziewicy za oblubie\u0144ca, a jako wiernego i roztropnego s\u0142ug\u0119 postawi\u0142e\u015b go nad rodzin\u0105 swoj\u0105, aby ojcowsk\u0105 opiek\u0105 otacza\u0142 pocz\u0119tego za spraw\u0105 Ducha \u015awi\u0119tego Jednorodzonego Syna Twego, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 1:20*\nJ\u00f3zefie, Synu Dawid\u00f3w, nie b\u00f3j si\u0119 przyj\u0105\u0107 Maryi, ma\u0142\u017conki swojej, albowiem co si\u0119 w Niej pocz\u0119\u0142o z Ducha \u015awi\u0119tego jest. (O. W. Alleluja)", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Przyjd\u017a nam z pomoc\u0105, mi\u0142osierny Bo\u017ce, a za wstawiennictwem \u015bw. J\u00f3zefa, Wyznawcy, strze\u017c w nas \u0142askawie Swoich dar\u00f3w.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

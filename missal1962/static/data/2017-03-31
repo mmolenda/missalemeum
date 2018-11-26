@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Euzebiusza", 
-      "3 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Euzebiusza", 
+        "3 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2017-03-31", 
+      "description": "Lekcja i ewangelia opowiadaj\u0105 o dw\u00f3ch wskrzeszeniach, kt\u00f3re s\u0105 obrazem tego, co si\u0119 dzieje w duszach ludzkich przez sakramenty Chrztu i Pokuty. W zwi\u0105zku ze wskrzeszeniem \u0141azarza, Pan Jezus bardzo wyra\u017anie nazywa siebie \u017ar\u00f3d\u0142em \u017cycia wiecznego. Antyfona na komuni\u0119 przypomina, \u017ce Eucharystia jest zadatkiem zmartwychwstania cia\u0142.\n", 
+      "tempora": null, 
+      "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 18:15*\nMedit\u00e1tio cordis mei in consp\u00e9ctu tuo semper: D\u00f3mine, adj\u00fator meus, et red\u00e9mptor meus.\n*Ps 18:2*\nCoeli en\u00e1rrant gl\u00f3riam Dei: et \u00f3pera m\u00e1nuum ejus ann\u00fantiat firmam\u00e9ntum.\nGl\u00f3ria Patri.\nMedit\u00e1tio cordis mei in consp\u00e9ctu tuo semper: D\u00f3mine, adj\u00fator meus, et red\u00e9mptor meus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui ineffab\u00edlibus mundum r\u00e9novas sacram\u00e9ntis: pr\u00e6sta, qu\u01fdsumus; ut Eccl\u00e9sia tua et \u00e6t\u00e9rnis prof\u00edciat instit\u00fatis, et tempor\u00e1libus non destitu\u00e1tur aux\u00edliis.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Regum.\n*3 Reg 17:17-24*\nIn di\u00e9bus illis: Aegrot\u00e1vit f\u00edlius mul\u00ederis matrisfam\u00edlias, et erat l\u00e1nguor fort\u00edssimus, ita ut non reman\u00e9ret in eo h\u00e1litus. Dixit ergo ad El\u00edam: Quid mihi et tibi, vir Dei? Ingr\u00e9ssus es ad me, ut rememorar\u00e9ntur iniquit\u00e1tes me\u00e6, et interf\u00edceres f\u00edlium meum? Et ait ad eam El\u00edas: Da mihi f\u00edlium tuum. Tul\u00edtque eum de sinu ejus, et port\u00e1vit in cen\u00e1culum, ubi ipse man\u00e9bat, et p\u00f3suit super l\u00e9ctulum suum, et clam\u00e1vit ad D\u00f3minum, et dixit: D\u00f3mine, Deus meus, \u00e9tiam ne v\u00edduam, apud quam ego utc\u00famque sust\u00e9ntor, afflix\u00edsti, ut interf\u00edceres f\u00edlium ejus? Et exp\u00e1ndit se, atque mensus est super p\u00faerum tribus v\u00edcibus, et clam\u00e1vit ad D\u00f3minum, et ait: D\u00f3mine, Deus meus, revert\u00e1tur, \u00f3bsecro, \u00e1nima p\u00faeri hujus in v\u00edscera ejus. Et exaud\u00edvit D\u00f3minus vocem El\u00ed\u00e6: et rev\u00e9rsa est \u00e1nima p\u00faeri intra eum, et rev\u00edxit. Tul\u00edtque El\u00edas p\u00faerum, et dep\u00f3suit eum de cen\u00e1culo in inferi\u00f3rem domum, et tr\u00e1didit matri su\u00e6, et ait illi: En, vivit f\u00edlius tuus. Dix\u00edtque m\u00falier ad El\u00edam: Nunc in isto cogn\u00f3vi, qu\u00f3niam vir Dei es tu, et verbum D\u00f3mini in ore tuo verum est.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 117:8-9*\nBonum est conf\u00eddere in D\u00f3mino, quam conf\u00eddere in h\u00f3mine.\nV. Bonum est sper\u00e1re in D\u00f3mino, quam sper\u00e1re in princ\u00edpibus.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 11:1-45*\nIn illo t\u00e9mpore: Erat quidam languens L\u00e1zarus a Beth\u00e1nia, de cast\u00e9llo Mar\u00ed\u00e6 et Marth\u00e6, sor\u00f3ris ejus. (Mar\u00eda autem erat, qu\u00e6 unxit D\u00f3minum unguento, et ext\u00e9rsit pedes ejus cap\u00edllis suis: cujus frater L\u00e1zarus infirmab\u00e1tur.) Mis\u00e9runt ergo sor\u00f3res ejus ad eum, dic\u00e9ntes: D\u00f3mine, ecce, quem amas infirm\u00e1tur. Audiens autem Jesus, dixit eis: Inf\u00edrmitas h\u00e6c non est ad mortem, sed pro gl\u00f3ria Dei, ut glorific\u00e9tur F\u00edlius Dei per eam. Dilig\u00e9bat autem Jesus Martham et sor\u00f3rem ejus, Mar\u00edam, et L\u00e1zarum. Ut ergo aud\u00edvit, quia infirmab\u00e1tur, tunc quidem mansit in e\u00f3dem loco du\u00f3bus di\u00e9bus. D\u00e9inde post h\u00e6c dixit disc\u00edpulis suis: E\u00e1mus in Judaeam \u00edterum. Dicunt ei disc\u00edpuli: Rabbi, nunc qu\u00e6r\u00e9bant te Judaei lapid\u00e1re, et \u00edterum vadis illuc? Resp\u00f3ndit Jesus: Nonne du\u00f3decim sunt hor\u00e6 di\u00e9i? Si quis ambul\u00e1verit in die, non off\u00e9ndit, quia lucem hujus mundi videt: si autem ambul\u00e1verit in nocte, off\u00e9ndit, quia lux non est in eo. H\u00e6c ait, et post h\u00e6c dixit eis: L\u00e1zarus, am\u00edcus noster, dormit: sed vado, ut a somno \u00e9xcitem eum. Dix\u00e9runt ergo disc\u00edpuli ejus: D\u00f3mine, si dormit, salvus erit. D\u00edxerat autem Jesus de morte ejus: illi autem putav\u00e9runt, quia de dormiti\u00f3ne somni d\u00edceret. Tunc ergo Jesus dixit eis manif\u00e9ste: Lazarus m\u00f3rtuus est: et g\u00e1udeo propter vos, ut cred\u00e1tis, qu\u00f3niam non eram ibi: sed e\u00e1mus ad eum. Dixit ergo Thomas, qui d\u00edcitur D\u00eddymus, ad condisc\u00edpulos: E\u00e1mus et nos, ut mori\u00e1mur cum eo. Venit itaque Jesus, et inv\u00e9nit eum qu\u00e1tuor dies jam in monum\u00e9nto hab\u00e9ntem. (Erat autem Beth\u00e1nia juxta Jeros\u00f3lymam quasi st\u00e1diis qu\u00edndecim.) Multi autem ex Judaeis v\u00e9nerant ad Martham et Mar\u00edam, ut consolar\u00e9ntur eas de fratre suo. Martha ergo, ut aud\u00edvit quia Jesus venit, occ\u00farrit illi: Mar\u00eda autem domi sed\u00e9bat. Dixit ergo Martha ad Jesum: D\u00f3mine, si fu\u00edsses hic, frater meus non fu\u00edsset m\u00f3rtuus: sed et nunc scio, quia, qu\u00e6c\u00famque pop\u00f3sceris a Deo, dabit tibi Deus. Dicit illi Jesus: Res\u00farget frater tuus. Dicit ei Martha: Scio, quia res\u00farget in resurrecti\u00f3ne in nov\u00edssimo die. Dixit ei Jesus: Ego sum resurr\u00e9ctio et vita: qui credit in me, etiam si m\u00f3rtuus f\u00faerit, vivet: et omnis, qui vivit et credit in me, non mori\u00e9tur in \u00e6t\u00e9rnum. Credis hoc? Ait illi: Utique, D\u00f3mine, ego cr\u00e9didi, quia tu es Christus, F\u00edlius Dei vivi, qui in hunc mundum ven\u00edsti. Et cum h\u00e6c dix\u00edsset, \u00e1biit et voc\u00e1vit Mar\u00edam, sor\u00f3rem suam, sil\u00e9ntio, dicens: Mag\u00edster adest, et vocat te. Illa ut aud\u00edvit, surgit cito, et venit ad eum: nondum enim v\u00e9nerat Jesus in cast\u00e9llum; sed erat adhuc in illo loco, ubi occ\u00farrerat ei Martha. Judaei ergo, qui erant cum ea in domo et consolab\u00e1ntur eam, cum vid\u00edssent Mar\u00edam, quia cito surr\u00e9xit et \u00e9xiit, sec\u00fati sunt eam, dic\u00e9ntes: Quia vadit ad monum\u00e9ntum, ut ploret ibi. Mar\u00eda ergo, cum ven\u00edsset, ubi erat Jesus, videns eum, c\u00e9cidit ad pedes ejus, et dicit ei: D\u00f3mine, si fu\u00edsses hic, non esset m\u00f3rtuus frater meus. Jesus ergo, ut vidit eam plor\u00e1ntem, et Judaeos, qui v\u00e9nerant cum ea, plor\u00e1ntes, infr\u00e9muit sp\u00edritu, et turb\u00e1vit se\u00edpsum, et dixit: Ubi posu\u00edstis eum? Dicunt ei: D\u00f3mine, veni et vide. Et lacrim\u00e1tus est Jesus. Dix\u00e9runt ergo Judaei: Ecce, qu\u00f3modo am\u00e1bat eum. Quidam autem ex ipsis dix\u00e9runt: Non p\u00f3terat hic, qui ap\u00e9ruit \u00f3culos c\u00e6ci nati, facere, ut hic non morer\u00e9tur? Jesus ergo rursum fremens in semet\u00edpso, venit, ad monum\u00e9ntum. Erat autem spel\u00fanca, et lapis superp\u00f3situs erat ei. Ait Jesus: T\u00f3llite l\u00e1pidem. Dicit ei Martha, soror ejus, qui m\u00f3rtuus fuerat: D\u00f3mine, jam fetet, quatridu\u00e1nus est enim. Dicit ei Jesus: Nonne dixi tibi, qu\u00f3niam, si cred\u00edderis, vid\u00e9bis gl\u00f3riam Dei? Tul\u00e9runt ergo l\u00e1pidem: Jesus autem, elev\u00e1tis sursum \u00f3culis, dixit: Pater, gr\u00e1tias ago tibi, qu\u00f3niam aud\u00edsti me. Ego autem sci\u00e9bam, quia semper me audis, sed propter p\u00f3pulum, qui circ\u00famstat, dixi: ut credant, quia tu me mis\u00edsti. H\u00e6c cum dix\u00edsset, voce magna clam\u00e1vit: L\u00e1zare, veni foras. Et statim pr\u00f3diit, qui f\u00faerat m\u00f3rtuus, lig\u00e1tus pedes et manus \u00ednstitis, et f\u00e1cies ill\u00edus sud\u00e1rio erat lig\u00e1ta. Dixit eis Jesus: S\u00f3lvite eum, et s\u00ednite ab\u00edre. Multi ergo ex Judaeis, qui v\u00e9nerant ad Mar\u00edam et Martham, et v\u00edderant qu\u00e6 fecit Jesus, credid\u00e9runt in eum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 17:28, 32*\nP\u00f3pulum h\u00familem salvum f\u00e1cies, D\u00f3mine, et \u00f3culos superb\u00f3rum humili\u00e1bis: qu\u00f3niam quis Deus pr\u00e6ter te, D\u00f3mine?", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "M\u00fanera nos, D\u00f3mine, qu\u01fdsumus, obl\u00e1ta pur\u00edficent: et te nobis jugiter f\u00e1ciant esse plac\u00e1tum.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joann 11:33, 35, 43, 44, 39*\nVidens D\u00f3minus flentes sor\u00f3res L\u00e1zari ad monum\u00e9ntum, lacrim\u00e1tus est coram Judaeis, et exclam\u00e1vit: L\u00e1zare, veni foras: et pr\u00f3diit lig\u00e1tis m\u00e1nibus et p\u00e9dibus, qui f\u00faerat quatridu\u00e1nus m\u00f3rtuus.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "H\u00e6c nos, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio sacram\u00e9nti: et a propriis re\u00e1tibus indesin\u00e9nter exp\u00e9diat, et ab \u00f3mnibus tue\u00e1tur adv\u00e9rsis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-03-31", 
-    "description": "Lekcja i ewangelia opowiadaj\u0105 o dw\u00f3ch wskrzeszeniach, kt\u00f3re s\u0105 obrazem tego, co si\u0119 dzieje w duszach ludzkich przez sakramenty Chrztu i Pokuty. W zwi\u0105zku ze wskrzeszeniem \u0141azarza, Pan Jezus bardzo wyra\u017anie nazywa siebie \u017ar\u00f3d\u0142em \u017cycia wiecznego. Antyfona na komuni\u0119 przypomina, \u017ce Eucharystia jest zadatkiem zmartwychwstania cia\u0142.\n", 
-    "tempora": null, 
-    "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 18:15*\nMedit\u00e1tio cordis mei in consp\u00e9ctu tuo semper: D\u00f3mine, adj\u00fator meus, et red\u00e9mptor meus.\n*Ps 18:2*\nCoeli en\u00e1rrant gl\u00f3riam Dei: et \u00f3pera m\u00e1nuum ejus ann\u00fantiat firmam\u00e9ntum.\nGl\u00f3ria Patri.\nMedit\u00e1tio cordis mei in consp\u00e9ctu tuo semper: D\u00f3mine, adj\u00fator meus, et red\u00e9mptor meus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui ineffab\u00edlibus mundum r\u00e9novas sacram\u00e9ntis: pr\u00e6sta, qu\u01fdsumus; ut Eccl\u00e9sia tua et \u00e6t\u00e9rnis prof\u00edciat instit\u00fatis, et tempor\u00e1libus non destitu\u00e1tur aux\u00edliis.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Regum.\n*3 Reg 17:17-24*\nIn di\u00e9bus illis: Aegrot\u00e1vit f\u00edlius mul\u00ederis matrisfam\u00edlias, et erat l\u00e1nguor fort\u00edssimus, ita ut non reman\u00e9ret in eo h\u00e1litus. Dixit ergo ad El\u00edam: Quid mihi et tibi, vir Dei? Ingr\u00e9ssus es ad me, ut rememorar\u00e9ntur iniquit\u00e1tes me\u00e6, et interf\u00edceres f\u00edlium meum? Et ait ad eam El\u00edas: Da mihi f\u00edlium tuum. Tul\u00edtque eum de sinu ejus, et port\u00e1vit in cen\u00e1culum, ubi ipse man\u00e9bat, et p\u00f3suit super l\u00e9ctulum suum, et clam\u00e1vit ad D\u00f3minum, et dixit: D\u00f3mine, Deus meus, \u00e9tiam ne v\u00edduam, apud quam ego utc\u00famque sust\u00e9ntor, afflix\u00edsti, ut interf\u00edceres f\u00edlium ejus? Et exp\u00e1ndit se, atque mensus est super p\u00faerum tribus v\u00edcibus, et clam\u00e1vit ad D\u00f3minum, et ait: D\u00f3mine, Deus meus, revert\u00e1tur, \u00f3bsecro, \u00e1nima p\u00faeri hujus in v\u00edscera ejus. Et exaud\u00edvit D\u00f3minus vocem El\u00ed\u00e6: et rev\u00e9rsa est \u00e1nima p\u00faeri intra eum, et rev\u00edxit. Tul\u00edtque El\u00edas p\u00faerum, et dep\u00f3suit eum de cen\u00e1culo in inferi\u00f3rem domum, et tr\u00e1didit matri su\u00e6, et ait illi: En, vivit f\u00edlius tuus. Dix\u00edtque m\u00falier ad El\u00edam: Nunc in isto cogn\u00f3vi, qu\u00f3niam vir Dei es tu, et verbum D\u00f3mini in ore tuo verum est.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 117:8-9*\nBonum est conf\u00eddere in D\u00f3mino, quam conf\u00eddere in h\u00f3mine.\nV. Bonum est sper\u00e1re in D\u00f3mino, quam sper\u00e1re in princ\u00edpibus.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris iniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 11:1-45*\nIn illo t\u00e9mpore: Erat quidam languens L\u00e1zarus a Beth\u00e1nia, de cast\u00e9llo Mar\u00ed\u00e6 et Marth\u00e6, sor\u00f3ris ejus. (Mar\u00eda autem erat, qu\u00e6 unxit D\u00f3minum unguento, et ext\u00e9rsit pedes ejus cap\u00edllis suis: cujus frater L\u00e1zarus infirmab\u00e1tur.) Mis\u00e9runt ergo sor\u00f3res ejus ad eum, dic\u00e9ntes: D\u00f3mine, ecce, quem amas infirm\u00e1tur. Audiens autem Jesus, dixit eis: Inf\u00edrmitas h\u00e6c non est ad mortem, sed pro gl\u00f3ria Dei, ut glorific\u00e9tur F\u00edlius Dei per eam. Dilig\u00e9bat autem Jesus Martham et sor\u00f3rem ejus, Mar\u00edam, et L\u00e1zarum. Ut ergo aud\u00edvit, quia infirmab\u00e1tur, tunc quidem mansit in e\u00f3dem loco du\u00f3bus di\u00e9bus. D\u00e9inde post h\u00e6c dixit disc\u00edpulis suis: E\u00e1mus in Judaeam \u00edterum. Dicunt ei disc\u00edpuli: Rabbi, nunc qu\u00e6r\u00e9bant te Judaei lapid\u00e1re, et \u00edterum vadis illuc? Resp\u00f3ndit Jesus: Nonne du\u00f3decim sunt hor\u00e6 di\u00e9i? Si quis ambul\u00e1verit in die, non off\u00e9ndit, quia lucem hujus mundi videt: si autem ambul\u00e1verit in nocte, off\u00e9ndit, quia lux non est in eo. H\u00e6c ait, et post h\u00e6c dixit eis: L\u00e1zarus, am\u00edcus noster, dormit: sed vado, ut a somno \u00e9xcitem eum. Dix\u00e9runt ergo disc\u00edpuli ejus: D\u00f3mine, si dormit, salvus erit. D\u00edxerat autem Jesus de morte ejus: illi autem putav\u00e9runt, quia de dormiti\u00f3ne somni d\u00edceret. Tunc ergo Jesus dixit eis manif\u00e9ste: Lazarus m\u00f3rtuus est: et g\u00e1udeo propter vos, ut cred\u00e1tis, qu\u00f3niam non eram ibi: sed e\u00e1mus ad eum. Dixit ergo Thomas, qui d\u00edcitur D\u00eddymus, ad condisc\u00edpulos: E\u00e1mus et nos, ut mori\u00e1mur cum eo. Venit itaque Jesus, et inv\u00e9nit eum qu\u00e1tuor dies jam in monum\u00e9nto hab\u00e9ntem. (Erat autem Beth\u00e1nia juxta Jeros\u00f3lymam quasi st\u00e1diis qu\u00edndecim.) Multi autem ex Judaeis v\u00e9nerant ad Martham et Mar\u00edam, ut consolar\u00e9ntur eas de fratre suo. Martha ergo, ut aud\u00edvit quia Jesus venit, occ\u00farrit illi: Mar\u00eda autem domi sed\u00e9bat. Dixit ergo Martha ad Jesum: D\u00f3mine, si fu\u00edsses hic, frater meus non fu\u00edsset m\u00f3rtuus: sed et nunc scio, quia, qu\u00e6c\u00famque pop\u00f3sceris a Deo, dabit tibi Deus. Dicit illi Jesus: Res\u00farget frater tuus. Dicit ei Martha: Scio, quia res\u00farget in resurrecti\u00f3ne in nov\u00edssimo die. Dixit ei Jesus: Ego sum resurr\u00e9ctio et vita: qui credit in me, etiam si m\u00f3rtuus f\u00faerit, vivet: et omnis, qui vivit et credit in me, non mori\u00e9tur in \u00e6t\u00e9rnum. Credis hoc? Ait illi: Utique, D\u00f3mine, ego cr\u00e9didi, quia tu es Christus, F\u00edlius Dei vivi, qui in hunc mundum ven\u00edsti. Et cum h\u00e6c dix\u00edsset, \u00e1biit et voc\u00e1vit Mar\u00edam, sor\u00f3rem suam, sil\u00e9ntio, dicens: Mag\u00edster adest, et vocat te. Illa ut aud\u00edvit, surgit cito, et venit ad eum: nondum enim v\u00e9nerat Jesus in cast\u00e9llum; sed erat adhuc in illo loco, ubi occ\u00farrerat ei Martha. Judaei ergo, qui erant cum ea in domo et consolab\u00e1ntur eam, cum vid\u00edssent Mar\u00edam, quia cito surr\u00e9xit et \u00e9xiit, sec\u00fati sunt eam, dic\u00e9ntes: Quia vadit ad monum\u00e9ntum, ut ploret ibi. Mar\u00eda ergo, cum ven\u00edsset, ubi erat Jesus, videns eum, c\u00e9cidit ad pedes ejus, et dicit ei: D\u00f3mine, si fu\u00edsses hic, non esset m\u00f3rtuus frater meus. Jesus ergo, ut vidit eam plor\u00e1ntem, et Judaeos, qui v\u00e9nerant cum ea, plor\u00e1ntes, infr\u00e9muit sp\u00edritu, et turb\u00e1vit se\u00edpsum, et dixit: Ubi posu\u00edstis eum? Dicunt ei: D\u00f3mine, veni et vide. Et lacrim\u00e1tus est Jesus. Dix\u00e9runt ergo Judaei: Ecce, qu\u00f3modo am\u00e1bat eum. Quidam autem ex ipsis dix\u00e9runt: Non p\u00f3terat hic, qui ap\u00e9ruit \u00f3culos c\u00e6ci nati, facere, ut hic non morer\u00e9tur? Jesus ergo rursum fremens in semet\u00edpso, venit, ad monum\u00e9ntum. Erat autem spel\u00fanca, et lapis superp\u00f3situs erat ei. Ait Jesus: T\u00f3llite l\u00e1pidem. Dicit ei Martha, soror ejus, qui m\u00f3rtuus fuerat: D\u00f3mine, jam fetet, quatridu\u00e1nus est enim. Dicit ei Jesus: Nonne dixi tibi, qu\u00f3niam, si cred\u00edderis, vid\u00e9bis gl\u00f3riam Dei? Tul\u00e9runt ergo l\u00e1pidem: Jesus autem, elev\u00e1tis sursum \u00f3culis, dixit: Pater, gr\u00e1tias ago tibi, qu\u00f3niam aud\u00edsti me. Ego autem sci\u00e9bam, quia semper me audis, sed propter p\u00f3pulum, qui circ\u00famstat, dixi: ut credant, quia tu me mis\u00edsti. H\u00e6c cum dix\u00edsset, voce magna clam\u00e1vit: L\u00e1zare, veni foras. Et statim pr\u00f3diit, qui f\u00faerat m\u00f3rtuus, lig\u00e1tus pedes et manus \u00ednstitis, et f\u00e1cies ill\u00edus sud\u00e1rio erat lig\u00e1ta. Dixit eis Jesus: S\u00f3lvite eum, et s\u00ednite ab\u00edre. Multi ergo ex Judaeis, qui v\u00e9nerant ad Mar\u00edam et Martham, et v\u00edderant qu\u00e6 fecit Jesus, credid\u00e9runt in eum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 17:28, 32*\nP\u00f3pulum h\u00familem salvum f\u00e1cies, D\u00f3mine, et \u00f3culos superb\u00f3rum humili\u00e1bis: qu\u00f3niam quis Deus pr\u00e6ter te, D\u00f3mine?", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "M\u00fanera nos, D\u00f3mine, qu\u01fdsumus, obl\u00e1ta pur\u00edficent: et te nobis jugiter f\u00e1ciant esse plac\u00e1tum.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joann 11:33, 35, 43, 44, 39*\nVidens D\u00f3minus flentes sor\u00f3res L\u00e1zari ad monum\u00e9ntum, lacrim\u00e1tus est coram Judaeis, et exclam\u00e1vit: L\u00e1zare, veni foras: et pr\u00f3diit lig\u00e1tis m\u00e1nibus et p\u00e9dibus, qui f\u00faerat quatridu\u00e1nus m\u00f3rtuus.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "H\u00e6c nos, qu\u01fdsumus, D\u00f3mine, particip\u00e1tio sacram\u00e9nti: et a propriis re\u00e1tibus indesin\u00e9nter exp\u00e9diat, et ab \u00f3mnibus tue\u00e1tur adv\u00e9rsis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 18:15*\nMy\u015bli serca mojego zawsze przed Tob\u0105, Panie, Obro\u0144co m\u00f3j i Odkupicielu.\n*Ps 18:2*\nNiebiosa g\u0142osz\u0105 chwal\u0119 Boga, dzie\u0142a r\u0105k Jego obwieszcza niebosk\u0142on.\nChwa\u0142a Ojcu.\nMy\u015bli serca mojego zawsze przed Tob\u0105, Panie, Obro\u0144co m\u00f3j i Odkupicielu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry odnawiasz \u015bwiat przez niewys\u0142owione tajemnice, spraw, prosimy, aby Ko\u015bci\u00f3\u0142 Tw\u00f3j rozwija\u0142 si\u0119 przez to, co ustanowi\u0142e\u015b dla \u017cycia wiecznego, i nie by\u0142 pozbawiony doczesnej pomocy.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Kr\u00f3lewskiej.\n*3 Krl 17:17-24*\nW one dni: Zachorowa\u0142 syn owej kobiety, pani domu, a choroba by\u0142a tak silna, \u017ce nie pozostawa\u0142o w nim tchnienia. I rzek\u0142a do Eliasza: \u00abCo ja poczn\u0119 z tob\u0105, m\u0119\u017cu Bo\u017cy? Przyszed\u0142e\u015b do mnie, aby odnowi\u0107 pami\u0119\u0107 przewinienia mego i u\u015bmierci\u0107 mi syna?\u00bb Ten jej odrzek\u0142: \u00abPodaj mi swego syna\u00bb. A wzi\u0105wszy go z jej \u0142ona, zani\u00f3s\u0142 go do g\u00f3rnej izby, tam gdzie mieszka\u0142, i po\u0142o\u017cy\u0142 go na swoim \u0142\u00f3\u017cku. Po czym zawo\u0142a\u0142 do Boga, m\u00f3wi\u0105c: \u00abPanie, Bo\u017ce m\u00f3j, czy r\u00f3wnie\u017c spu\u015bcisz t\u0119 niedol\u0119 na ow\u0105 wdow\u0119, u kt\u00f3rej przebywam, i\u017c u\u015bmiercisz jej syna?\u00bb I przy\u0142o\u017cy\u0142 si\u0119 trzykrotnie do dzieci\u0119cia, wo\u0142aj\u0105c do Boga w ten spos\u00f3b: \u00abPanie, Bo\u017ce m\u00f3j, niechaj wr\u00f3ci zn\u00f3w \u2014 b\u0142agam \u2014 dusza tego dzieci\u0119cia do wn\u0119trzno\u015bci jego!\u00bb I wys\u0142ucha\u0142 B\u00f3g g\u0142osu Eliasza i powr\u00f3ci\u0142a dusza dzieci\u0119cia do niego, a o\u017cy\u0142o. A wzi\u0105wszy Eliasz dzieci\u0119, zszed\u0142 z nim z g\u00f3rnej izby do domu, a oddawszy je matce jego rzek\u0142: \u00abOto syn tw\u00f3j \u017cyje\u00bb. I rzek\u0142a niewiasta do Eliasza: \u00abTeraz to wiem, \u017ce\u015b ty jest m\u0119\u017cem Bo\u017cym i \u017ce s\u0142owo Bo\u017ce w ustach twoich jest prawd\u0105\u00bb.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 117:8-9*\nLepiej si\u0119 uciec do Pana, ni\u017c ufno\u015b\u0107 po\u0142o\u017cy\u0107 w cz\u0142owieku.\nV. Lepiej si\u0119 uciec do Pana, ni\u017c zaufa\u0107 ksi\u0105\u017c\u0119tom.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 11:1-45*\nOnego czasu: Zachorowa\u0142 niejaki \u0141azarz z Betanii, miasteczka Marii i Marty, siostry jej. (A Mari\u0105 by\u0142a ta, kt\u00f3ra nama\u015bci\u0142a Pana wonnym olejkiem i otar\u0142a nogi Jego w\u0142osami swymi: jej to brat \u0141azarz zachorowa\u0142.) Pos\u0142a\u0142y tedy siostry do Niego m\u00f3wi\u0105c: \u00abPanie, oto choruje ten, kt\u00f3rego mi\u0142ujesz\u00bb. A us\u0142yszawszy to Jezus rzek\u0142: \u00abChoroba ta nie jest na \u015bmier\u0107, ale na chwa\u0142\u0119 Bo\u017c\u0105, aby przez ni\u0105 uwielbiony by\u0142 Syn Bo\u017cy\u00bb. A mi\u0142owa\u0142 Jezus Mart\u0119 i siostr\u0119 jej Mari\u0119, i \u0141azarza. Gdy wi\u0119c pos\u0142ysza\u0142, \u017ce by\u0142 chory, i wtedy zatrzyma\u0142 si\u0119 jeszcze w owym miejscu przez dwa dni. Potem rzek\u0142 do uczni\u00f3w swoich: \u00abChod\u017amy z powrotem do Judei\u00bb. Rzekli Mu uczniowie: \u00abNauczycielu, dopiero co chcieli Ci\u0119 \u017cydzi ukamienowa\u0107 i znowu tam idziesz?\u00bb Odpowiedzia\u0142 Jezus: \u00abCzy\u017c nie dwana\u015bcie godzin ma dzie\u0144? Je\u015bli kto chodzi za dnia, nie potknie si\u0119, bo widzi \u015bwiat\u0142o tego \u015bwiata, ale je\u017celi chodzi w nocy, potknie si\u0119, bo nie masz w nim \u015bwiat\u0142a\u00bb. Tak m\u00f3wi\u0142, a potem rzek\u0142 do nich: \u00ab\u0141azarz, przyjaciel nasz, \u015bpi, ale id\u0119, abym go ze snu zbudzi\u0142\u00bb. Rzekli tedy uczniowie Jego: \u00abPanie, je\u015bli zasn\u0105\u0142, zdr\u00f3w b\u0119dzie\u00bb. A Jezus m\u00f3wi\u0142 o \u015bmierci jego, lecz oni mniemali, \u017ce m\u00f3wi\u0142 o za\u015bni\u0119ciu snem. W\u00f3wczas wi\u0119c powiedzia\u0142 im Jezus otwarcie: \u00ab\u0141azarz umar\u0142. I ciesz\u0119 si\u0119, \u017ce mnie tam nie by\u0142o, ze wzgl\u0119du na was: by\u015bcie uwierzyli. Lecz id\u017amy do niego\u00bb. A Tomasz, kt\u00f3rego zowi\u0105 Didymus, odezwa\u0142 si\u0119 do wsp\u00f3\u0142uczni\u00f3w: \u00abChod\u017amy i my umrze\u0107 razem z Nim\u00bb.\nPrzyszed\u0142 tedy Jezus i znalaz\u0142 go ju\u017c od czterech dni w grobie. (A Betania le\u017ca\u0142a blisko Jerozolimy, oko\u0142o pi\u0119tnastu stadi\u00f3w.) I przysz\u0142o do Marii i Marty wielu \u017cyd\u00f3w, aby je pocieszy\u0107 po bracie ich. Skoro tylko us\u0142ysza\u0142a Marta, \u017ce Jezus idzie, wybieg\u0142a Mu naprzeciw, a Maria pozosta\u0142a w domu. Rzek\u0142a tedy Marta do Jezusa: \u00abPanie, gdyby\u015b tu by\u0142, nie by\u0142by umar\u0142 brat m\u00f3j, lecz i teraz wiem, \u017ce o cokolwiek b\u0119dziesz prosi\u0142 Boga, da Ci B\u00f3g\u00bb. Rzecze jej Jezus: \u00abZmartwychwstanie brat tw\u00f3j\u00bb. Rzecze Mu Marta: \u00abWiem, \u017ce zmartwychwstanie przy zmartwychwstaniu w dzie\u0144 ostateczny\u00bb. Rzek\u0142 jej Jezus: \u00abJam jest zmartwychwstanie i \u017cywot, kto we mnie wierzy, cho\u0107by i umar\u0142, \u017cy\u0107 b\u0119dzie, a ka\u017cdy kto \u017cyje i wierzy we mnie, nie umrze na wieki. Wierzysz w to?\u00bb Rzecze Mu: \u00abZaiste, Panie, jam uwierzy\u0142a, \u017ce\u015b Ty jest Chrystus, Syn Boga \u017cywego, kt\u00f3ry na ten \u015bwiat przyszed\u0142\u00bb.\nI powiedziawszy to posz\u0142a i zawo\u0142a\u0142a po cichu siostr\u0119 swoj\u0105 Mari\u0119, m\u00f3wi\u0105c: \u00abNauczyciel przyszed\u0142 i wzywa ci\u0119\u00bb. Skoro ona us\u0142ysza\u0142a, szybko powsta\u0142a i przysz\u0142a do Niego, bo jeszcze nie wszed\u0142 by\u0142 Jezus do miasteczka, ale by\u0142 wci\u0105\u017c na tym miejscu, gdzie Go spotka\u0142a Marta. A \u017cydzi, kt\u00f3rzy byli z ni\u0105 w domu i pocieszali j\u0105, ujrzawszy, \u017ce Maria pr\u0119dko wsta\u0142a i wybieg\u0142a, poszli za ni\u0105, m\u00f3wi\u0105c: \u00abIdzie do grobu, aby tam p\u0142aka\u0107\u00bb. Maria za\u015b, gdy przyby\u0142a na miejsce, gdzie by\u0142 Jezus, ujrzawszy Go pad\u0142a Mu do st\u00f3p i rzek\u0142a do Niego: \u00abPanie, gdyby\u015b tu by\u0142, nie by\u0142by umar\u0142 brat m\u00f3j\u00bb. A gdy j\u0105 Jezus ujrza\u0142 p\u0142acz\u0105c\u0105 i \u017cyd\u00f3w, kt\u00f3rzy z ni\u0105 przyszli, p\u0142acz\u0105cych, rozrzewni\u0142 si\u0119 w duchu, wzruszy\u0142 i powiedzia\u0142: \u00abGdzie\u015bcie go po\u0142o\u017cyli?\u00bb M\u00f3wi\u0105 Mu: \u00abPanie, p\u00f3jd\u017a i zobacz\u00bb. I zap\u0142aka\u0142 Jezus. M\u00f3wili tedy \u017cydzi: \u00abOto jak go mi\u0142owa\u0142\u00bb. A niekt\u00f3rzy z nich powiadali: \u00abNie m\u00f3g\u0142\u017ce ten, kt\u00f3ry \u015blepo narodzonemu wzrok przywr\u00f3ci\u0142, sprawi\u0107, aby i tamten nie umar\u0142?\u00bb A Jezus, rozrzewniwszy si\u0119 ponownie, przyby\u0142 do grobu. A by\u0142a to pieczara i kamie\u0144 by\u0142 na niej po\u0142o\u017cony. Rzek\u0142 Jezus: \u00abOdsu\u0144cie kamie\u0144!\u00bb Rzek\u0142a Mu Marta, siostra tego, kt\u00f3ry by\u0142 umar\u0142: \u00abPanie, ju\u017c cuchnie: od czterech dni bowiem jest w grobie\u00bb. Powiada jej Jezus: \u00abCzy\u017cem ci nie m\u00f3wi\u0142, ze je\u015bli uwierzysz, ujrzysz chwa\u0142\u0119 Bo\u017c\u0105?\u00bb Odsun\u0119li tedy kamie\u0144, a Jezus wzni\u00f3s\u0142szy oczy swe w g\u00f3r\u0119 rzek\u0142: \u00abOjcze, dzi\u0119kuj\u0119 Tobie, \u017ce\u015b mnie wys\u0142ucha\u0142. A ja wiedzia\u0142em, \u017ce nnie zawsze wys\u0142uchujesz, alem powiedzia\u0142 to dla t\u0142umu, kt\u00f3ry stoi woko\u0142o, aby uwierzyli, \u017ce\u015b Ty mnie pos\u0142a\u0142\u00bb. To rzek\u0142szy zawo\u0142a\u0142 g\u0142osem wielkim: \u00ab\u0141azarzu, wyjd\u017a z grobu.\u00bb I natychmiast wyszed\u0142 ten, kt\u00f3ry by\u0142 umar\u0142, maj\u0105c r\u0119ce i nogi zwi\u0105zane opaskami, a twarz owini\u0119t\u0105 w chust\u0119. Rzek\u0142 im Jezus: \u00abRozwi\u0105\u017ccie go i pozw\u00f3lcie odej\u015b\u0107\u00bb. Wielu tedy z \u017cyd\u00f3w, kt\u00f3rzy byli przyszli do Marii i Marty i widzieli, co uczyni\u0142 Jezus, uwierzy\u0142o w Niego.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 17:28, 32*\nTy wybawiasz nar\u00f3d uni\u017cony, a pogn\u0119biasz oczy wynios\u0142e, bo kt\u00f3\u017c pr\u00f3cz Pana jest Bogiem?", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech nas oczyszcz\u0105 z\u0142o\u017cone Ci dary i wyjednaj\u0105 nam Twoj\u0105 sta\u0142\u0105 \u0142askawo\u015b\u0107.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 11:33, 35, 43, 44, 39*\nGdy ujrza\u0142 Pan siostry \u0141azarza p\u0142acz\u0105ce u grobu, zap\u0142aka\u0142 wobec \u017cyd\u00f3w, i zawo\u0142a\u0142: \u0141azarzu, wyjd\u017a z grobu! I wyszed\u0142 maj\u0105c r\u0119ce i nogi zwi\u0105zane ten, kt\u00f3ry od czterech dni by\u0142 martwy.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech uczestnictwo w tym Sakramencie zawsze nas wyzwala od naszych grzech\u00f3w i broni we wszelkich przeciwno\u015bciach.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 18:15*\nMy\u015bli serca mojego zawsze przed Tob\u0105, Panie, Obro\u0144co m\u00f3j i Odkupicielu.\n*Ps 18:2*\nNiebiosa g\u0142osz\u0105 chwal\u0119 Boga, dzie\u0142a r\u0105k Jego obwieszcza niebosk\u0142on.\nChwa\u0142a Ojcu.\nMy\u015bli serca mojego zawsze przed Tob\u0105, Panie, Obro\u0144co m\u00f3j i Odkupicielu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry odnawiasz \u015bwiat przez niewys\u0142owione tajemnice, spraw, prosimy, aby Ko\u015bci\u00f3\u0142 Tw\u00f3j rozwija\u0142 si\u0119 przez to, co ustanowi\u0142e\u015b dla \u017cycia wiecznego, i nie by\u0142 pozbawiony doczesnej pomocy.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Kr\u00f3lewskiej.\n*3 Krl 17:17-24*\nW one dni: Zachorowa\u0142 syn owej kobiety, pani domu, a choroba by\u0142a tak silna, \u017ce nie pozostawa\u0142o w nim tchnienia. I rzek\u0142a do Eliasza: \u00abCo ja poczn\u0119 z tob\u0105, m\u0119\u017cu Bo\u017cy? Przyszed\u0142e\u015b do mnie, aby odnowi\u0107 pami\u0119\u0107 przewinienia mego i u\u015bmierci\u0107 mi syna?\u00bb Ten jej odrzek\u0142: \u00abPodaj mi swego syna\u00bb. A wzi\u0105wszy go z jej \u0142ona, zani\u00f3s\u0142 go do g\u00f3rnej izby, tam gdzie mieszka\u0142, i po\u0142o\u017cy\u0142 go na swoim \u0142\u00f3\u017cku. Po czym zawo\u0142a\u0142 do Boga, m\u00f3wi\u0105c: \u00abPanie, Bo\u017ce m\u00f3j, czy r\u00f3wnie\u017c spu\u015bcisz t\u0119 niedol\u0119 na ow\u0105 wdow\u0119, u kt\u00f3rej przebywam, i\u017c u\u015bmiercisz jej syna?\u00bb I przy\u0142o\u017cy\u0142 si\u0119 trzykrotnie do dzieci\u0119cia, wo\u0142aj\u0105c do Boga w ten spos\u00f3b: \u00abPanie, Bo\u017ce m\u00f3j, niechaj wr\u00f3ci zn\u00f3w \u2014 b\u0142agam \u2014 dusza tego dzieci\u0119cia do wn\u0119trzno\u015bci jego!\u00bb I wys\u0142ucha\u0142 B\u00f3g g\u0142osu Eliasza i powr\u00f3ci\u0142a dusza dzieci\u0119cia do niego, a o\u017cy\u0142o. A wzi\u0105wszy Eliasz dzieci\u0119, zszed\u0142 z nim z g\u00f3rnej izby do domu, a oddawszy je matce jego rzek\u0142: \u00abOto syn tw\u00f3j \u017cyje\u00bb. I rzek\u0142a niewiasta do Eliasza: \u00abTeraz to wiem, \u017ce\u015b ty jest m\u0119\u017cem Bo\u017cym i \u017ce s\u0142owo Bo\u017ce w ustach twoich jest prawd\u0105\u00bb.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 117:8-9*\nLepiej si\u0119 uciec do Pana, ni\u017c ufno\u015b\u0107 po\u0142o\u017cy\u0107 w cz\u0142owieku.\nV. Lepiej si\u0119 uciec do Pana, ni\u017c zaufa\u0107 ksi\u0105\u017c\u0119tom.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 11:1-45*\nOnego czasu: Zachorowa\u0142 niejaki \u0141azarz z Betanii, miasteczka Marii i Marty, siostry jej. (A Mari\u0105 by\u0142a ta, kt\u00f3ra nama\u015bci\u0142a Pana wonnym olejkiem i otar\u0142a nogi Jego w\u0142osami swymi: jej to brat \u0141azarz zachorowa\u0142.) Pos\u0142a\u0142y tedy siostry do Niego m\u00f3wi\u0105c: \u00abPanie, oto choruje ten, kt\u00f3rego mi\u0142ujesz\u00bb. A us\u0142yszawszy to Jezus rzek\u0142: \u00abChoroba ta nie jest na \u015bmier\u0107, ale na chwa\u0142\u0119 Bo\u017c\u0105, aby przez ni\u0105 uwielbiony by\u0142 Syn Bo\u017cy\u00bb. A mi\u0142owa\u0142 Jezus Mart\u0119 i siostr\u0119 jej Mari\u0119, i \u0141azarza. Gdy wi\u0119c pos\u0142ysza\u0142, \u017ce by\u0142 chory, i wtedy zatrzyma\u0142 si\u0119 jeszcze w owym miejscu przez dwa dni. Potem rzek\u0142 do uczni\u00f3w swoich: \u00abChod\u017amy z powrotem do Judei\u00bb. Rzekli Mu uczniowie: \u00abNauczycielu, dopiero co chcieli Ci\u0119 \u017cydzi ukamienowa\u0107 i znowu tam idziesz?\u00bb Odpowiedzia\u0142 Jezus: \u00abCzy\u017c nie dwana\u015bcie godzin ma dzie\u0144? Je\u015bli kto chodzi za dnia, nie potknie si\u0119, bo widzi \u015bwiat\u0142o tego \u015bwiata, ale je\u017celi chodzi w nocy, potknie si\u0119, bo nie masz w nim \u015bwiat\u0142a\u00bb. Tak m\u00f3wi\u0142, a potem rzek\u0142 do nich: \u00ab\u0141azarz, przyjaciel nasz, \u015bpi, ale id\u0119, abym go ze snu zbudzi\u0142\u00bb. Rzekli tedy uczniowie Jego: \u00abPanie, je\u015bli zasn\u0105\u0142, zdr\u00f3w b\u0119dzie\u00bb. A Jezus m\u00f3wi\u0142 o \u015bmierci jego, lecz oni mniemali, \u017ce m\u00f3wi\u0142 o za\u015bni\u0119ciu snem. W\u00f3wczas wi\u0119c powiedzia\u0142 im Jezus otwarcie: \u00ab\u0141azarz umar\u0142. I ciesz\u0119 si\u0119, \u017ce mnie tam nie by\u0142o, ze wzgl\u0119du na was: by\u015bcie uwierzyli. Lecz id\u017amy do niego\u00bb. A Tomasz, kt\u00f3rego zowi\u0105 Didymus, odezwa\u0142 si\u0119 do wsp\u00f3\u0142uczni\u00f3w: \u00abChod\u017amy i my umrze\u0107 razem z Nim\u00bb.\nPrzyszed\u0142 tedy Jezus i znalaz\u0142 go ju\u017c od czterech dni w grobie. (A Betania le\u017ca\u0142a blisko Jerozolimy, oko\u0142o pi\u0119tnastu stadi\u00f3w.) I przysz\u0142o do Marii i Marty wielu \u017cyd\u00f3w, aby je pocieszy\u0107 po bracie ich. Skoro tylko us\u0142ysza\u0142a Marta, \u017ce Jezus idzie, wybieg\u0142a Mu naprzeciw, a Maria pozosta\u0142a w domu. Rzek\u0142a tedy Marta do Jezusa: \u00abPanie, gdyby\u015b tu by\u0142, nie by\u0142by umar\u0142 brat m\u00f3j, lecz i teraz wiem, \u017ce o cokolwiek b\u0119dziesz prosi\u0142 Boga, da Ci B\u00f3g\u00bb. Rzecze jej Jezus: \u00abZmartwychwstanie brat tw\u00f3j\u00bb. Rzecze Mu Marta: \u00abWiem, \u017ce zmartwychwstanie przy zmartwychwstaniu w dzie\u0144 ostateczny\u00bb. Rzek\u0142 jej Jezus: \u00abJam jest zmartwychwstanie i \u017cywot, kto we mnie wierzy, cho\u0107by i umar\u0142, \u017cy\u0107 b\u0119dzie, a ka\u017cdy kto \u017cyje i wierzy we mnie, nie umrze na wieki. Wierzysz w to?\u00bb Rzecze Mu: \u00abZaiste, Panie, jam uwierzy\u0142a, \u017ce\u015b Ty jest Chrystus, Syn Boga \u017cywego, kt\u00f3ry na ten \u015bwiat przyszed\u0142\u00bb.\nI powiedziawszy to posz\u0142a i zawo\u0142a\u0142a po cichu siostr\u0119 swoj\u0105 Mari\u0119, m\u00f3wi\u0105c: \u00abNauczyciel przyszed\u0142 i wzywa ci\u0119\u00bb. Skoro ona us\u0142ysza\u0142a, szybko powsta\u0142a i przysz\u0142a do Niego, bo jeszcze nie wszed\u0142 by\u0142 Jezus do miasteczka, ale by\u0142 wci\u0105\u017c na tym miejscu, gdzie Go spotka\u0142a Marta. A \u017cydzi, kt\u00f3rzy byli z ni\u0105 w domu i pocieszali j\u0105, ujrzawszy, \u017ce Maria pr\u0119dko wsta\u0142a i wybieg\u0142a, poszli za ni\u0105, m\u00f3wi\u0105c: \u00abIdzie do grobu, aby tam p\u0142aka\u0107\u00bb. Maria za\u015b, gdy przyby\u0142a na miejsce, gdzie by\u0142 Jezus, ujrzawszy Go pad\u0142a Mu do st\u00f3p i rzek\u0142a do Niego: \u00abPanie, gdyby\u015b tu by\u0142, nie by\u0142by umar\u0142 brat m\u00f3j\u00bb. A gdy j\u0105 Jezus ujrza\u0142 p\u0142acz\u0105c\u0105 i \u017cyd\u00f3w, kt\u00f3rzy z ni\u0105 przyszli, p\u0142acz\u0105cych, rozrzewni\u0142 si\u0119 w duchu, wzruszy\u0142 i powiedzia\u0142: \u00abGdzie\u015bcie go po\u0142o\u017cyli?\u00bb M\u00f3wi\u0105 Mu: \u00abPanie, p\u00f3jd\u017a i zobacz\u00bb. I zap\u0142aka\u0142 Jezus. M\u00f3wili tedy \u017cydzi: \u00abOto jak go mi\u0142owa\u0142\u00bb. A niekt\u00f3rzy z nich powiadali: \u00abNie m\u00f3g\u0142\u017ce ten, kt\u00f3ry \u015blepo narodzonemu wzrok przywr\u00f3ci\u0142, sprawi\u0107, aby i tamten nie umar\u0142?\u00bb A Jezus, rozrzewniwszy si\u0119 ponownie, przyby\u0142 do grobu. A by\u0142a to pieczara i kamie\u0144 by\u0142 na niej po\u0142o\u017cony. Rzek\u0142 Jezus: \u00abOdsu\u0144cie kamie\u0144!\u00bb Rzek\u0142a Mu Marta, siostra tego, kt\u00f3ry by\u0142 umar\u0142: \u00abPanie, ju\u017c cuchnie: od czterech dni bowiem jest w grobie\u00bb. Powiada jej Jezus: \u00abCzy\u017cem ci nie m\u00f3wi\u0142, ze je\u015bli uwierzysz, ujrzysz chwa\u0142\u0119 Bo\u017c\u0105?\u00bb Odsun\u0119li tedy kamie\u0144, a Jezus wzni\u00f3s\u0142szy oczy swe w g\u00f3r\u0119 rzek\u0142: \u00abOjcze, dzi\u0119kuj\u0119 Tobie, \u017ce\u015b mnie wys\u0142ucha\u0142. A ja wiedzia\u0142em, \u017ce nnie zawsze wys\u0142uchujesz, alem powiedzia\u0142 to dla t\u0142umu, kt\u00f3ry stoi woko\u0142o, aby uwierzyli, \u017ce\u015b Ty mnie pos\u0142a\u0142\u00bb. To rzek\u0142szy zawo\u0142a\u0142 g\u0142osem wielkim: \u00ab\u0141azarzu, wyjd\u017a z grobu.\u00bb I natychmiast wyszed\u0142 ten, kt\u00f3ry by\u0142 umar\u0142, maj\u0105c r\u0119ce i nogi zwi\u0105zane opaskami, a twarz owini\u0119t\u0105 w chust\u0119. Rzek\u0142 im Jezus: \u00abRozwi\u0105\u017ccie go i pozw\u00f3lcie odej\u015b\u0107\u00bb. Wielu tedy z \u017cyd\u00f3w, kt\u00f3rzy byli przyszli do Marii i Marty i widzieli, co uczyni\u0142 Jezus, uwierzy\u0142o w Niego.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 17:28, 32*\nTy wybawiasz nar\u00f3d uni\u017cony, a pogn\u0119biasz oczy wynios\u0142e, bo kt\u00f3\u017c pr\u00f3cz Pana jest Bogiem?", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech nas oczyszcz\u0105 z\u0142o\u017cone Ci dary i wyjednaj\u0105 nam Twoj\u0105 sta\u0142\u0105 \u0142askawo\u015b\u0107.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 11:33, 35, 43, 44, 39*\nGdy ujrza\u0142 Pan siostry \u0141azarza p\u0142acz\u0105ce u grobu, zap\u0142aka\u0142 wobec \u017cyd\u00f3w, i zawo\u0142a\u0142: \u0141azarzu, wyjd\u017a z grobu! I wyszed\u0142 maj\u0105c r\u0119ce i nogi zwi\u0105zane ten, kt\u00f3ry od czterech dni by\u0142 martwy.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech uczestnictwo w tym Sakramencie zawsze nas wyzwala od naszych grzech\u00f3w i broni we wszelkich przeciwno\u015bciach.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

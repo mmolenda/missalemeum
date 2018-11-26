@@ -1,101 +1,103 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-08-19", 
+      "description": "\u015aw. Jan Eudes urodzi\u0142 si\u0119 w Ry we Francji w roku 1601. Jako cz\u0142onek zgromadzenia Ksi\u0119\u017cy Oratorian\u00f3w gorliwie g\u0142osi\u0142 misje ludowe. W roku 1643 za\u0142o\u017cy\u0142 zgromadzenie ksi\u0119\u017cy, kt\u00f3re po\u015bwi\u0119ci\u0142o si\u0119 misjom ludowym i prowadzeniu seminari\u00f3w, oraz \u017ce\u0144skie zgromadzenie C\u00f3rek Matki Bo\u017cej Mi\u0142osierdzia. Gorliwie szerzy\u0142 nabo\u017ce\u0144stwo do Serc Jezusa i Maryi. Zmar\u0142 19 sierpnia 1680 roku.\n\nMsza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem kolekty\n", 
+      "tempora": "Poniedzia\u0142ek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Jana Eudes, Wyznawcy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "Deus, qui be\u00e1tum Jo\u00e1nnem, Confess\u00f3rem tuum, ad cultum sacr\u00f3rum C\u00f3rdium Jesu et Mar\u00ed\u00e6 rite promov\u00e9ndum, mirab\u00edliter inflamm\u00e1sti, et per eum novas in Eccl\u00e9sia tua fam\u00edlias congreg\u00e1re volu\u00edsti: pr\u00e6sta, qu\u01fdsumus; ut, cujus pia m\u00e9rita vener\u00e1mur, virt\u00fatum quoque instru\u00e1mur ex\u00e9mplis.\nPer e\u00fandem.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Infra Octavam Assumptionis*\nFamul\u00f3rum tu\u00f3rum, qu\u01fdsumus, D\u00f3mine, del\u00edctis ign\u00f3sce: ut, qui tibi plac\u00e9re de \u00e1ctibus nostris non val\u00e9mus; Genetr\u00edcis F\u00edlii tui, D\u00f3mini nostri, intercessi\u00f3ne salv\u00e9mur:\nQui tecum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Infra Octavam Assumptionis*\nSubv\u00e9niat, D\u00f3mine, plebi tu\u00e6 Dei Genetr\u00edcis or\u00e1tio: quam etsi pro conditi\u00f3ne carnis migr\u00e1sse cogn\u00f3scimus, in coel\u00e9sti gl\u00f3ria apud te pro nobis interc\u00e9dere senti\u00e1mus.\nPer e\u00fandem.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Infra Octavam Assumptionis*\nMens\u00e6 coel\u00e9stis part\u00edcipes eff\u00e9cti, implor\u00e1mus clem\u00e9ntiam tuam, D\u00f3mine, Deus noster: ut, qui Assumpti\u00f3nem Dei Genetr\u00edcis c\u00f3limus, a cunctis malis immin\u00e9ntibus, ejus intercessi\u00f3ne, liber\u00e9mur.\nPer e\u00fandem.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2019-08-19", 
-    "description": "\u015aw. Jan Eudes urodzi\u0142 si\u0119 w Ry we Francji w roku 1601. Jako cz\u0142onek zgromadzenia Ksi\u0119\u017cy Oratorian\u00f3w gorliwie g\u0142osi\u0142 misje ludowe. W roku 1643 za\u0142o\u017cy\u0142 zgromadzenie ksi\u0119\u017cy, kt\u00f3re po\u015bwi\u0119ci\u0142o si\u0119 misjom ludowym i prowadzeniu seminari\u00f3w, oraz \u017ce\u0144skie zgromadzenie C\u00f3rek Matki Bo\u017cej Mi\u0142osierdzia. Gorliwie szerzy\u0142 nabo\u017ce\u0144stwo do Serc Jezusa i Maryi. Zmar\u0142 19 sierpnia 1680 roku.\n\nMsza wsp\u00f3lna nr 21 Os iusti, z wyj\u0105tkiem kolekty\n", 
-    "tempora": "Poniedzia\u0142ek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Jana Eudes, Wyznawcy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "Deus, qui be\u00e1tum Jo\u00e1nnem, Confess\u00f3rem tuum, ad cultum sacr\u00f3rum C\u00f3rdium Jesu et Mar\u00ed\u00e6 rite promov\u00e9ndum, mirab\u00edliter inflamm\u00e1sti, et per eum novas in Eccl\u00e9sia tua fam\u00edlias congreg\u00e1re volu\u00edsti: pr\u00e6sta, qu\u01fdsumus; ut, cujus pia m\u00e9rita vener\u00e1mur, virt\u00fatum quoque instru\u00e1mur ex\u00e9mplis.\nPer e\u00fandem.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Infra Octavam Assumptionis*\nFamul\u00f3rum tu\u00f3rum, qu\u01fdsumus, D\u00f3mine, del\u00edctis ign\u00f3sce: ut, qui tibi plac\u00e9re de \u00e1ctibus nostris non val\u00e9mus; Genetr\u00edcis F\u00edlii tui, D\u00f3mini nostri, intercessi\u00f3ne salv\u00e9mur:\nQui tecum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Laudis tibi, D\u00f3mine, h\u00f3stias immol\u00e1mus in tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum: quibus nos et pr\u00e6s\u00e9ntibus \u00e9xui malis conf\u00eddimus et fut\u00faris.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Infra Octavam Assumptionis*\nSubv\u00e9niat, D\u00f3mine, plebi tu\u00e6 Dei Genetr\u00edcis or\u00e1tio: quam etsi pro conditi\u00f3ne carnis migr\u00e1sse cogn\u00f3scimus, in coel\u00e9sti gl\u00f3ria apud te pro nobis interc\u00e9dere senti\u00e1mus.\nPer e\u00fandem.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "Ref\u00e9cti cibo pot\u00faque coel\u00e9sti, Deus noster, te s\u00fapplices exor\u00e1mus: ut, in cujus h\u00e6c commemorati\u00f3ne perc\u00e9pimus, ejus muni\u00e1mur et pr\u00e9cibus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Infra Octavam Assumptionis*\nMens\u00e6 coel\u00e9stis part\u00edcipes eff\u00e9cti, implor\u00e1mus clem\u00e9ntiam tuam, D\u00f3mine, Deus noster: ut, qui Assumpti\u00f3nem Dei Genetr\u00edcis c\u00f3limus, a cunctis malis immin\u00e9ntibus, ejus intercessi\u00f3ne, liber\u00e9mur.\nPer e\u00fandem.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty obudzi\u0142e\u015b w \u015bwi\u0119tym Janie, Twoim Wyznawcy, przedziwny zapa\u0142 do szerzenia czci Naj\u015bwi\u0119tszych Serc Jezusa i Maryi i przez niego zgromadzi\u0142e\u015b w Twym Ko\u015bciele nowe rodziny zakonne: spraw, prosimy, aby\u015bmy si\u0119 budowali przyk\u0142adem cn\u00f3t tego, kt\u00f3rego zbo\u017cne zas\u0142ugi czcimy.\nPrzez tego\u017c Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 31:8-11*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry okaza\u0142 si\u0119 bez zmazy i kt\u00f3ry nie ubiega\u0142 si\u0119 za z\u0142otem, i nadziei nie pok\u0142ada\u0142 w pieni\u0105dzach i skarbach. Kt\u00f3\u017c to jest? \u2013 a chwali\u0107 go b\u0119dziemy. Bo w \u017cyciu swym dziw\u00f3w dokona\u0142. Kto w tej sprawie jest do\u015bwiadczony i doskona\u0142y, b\u0119dzie mia\u0142 wieczn\u0105 chwa\u0142\u0119: kt\u00f3ry m\u00f3g\u0142 przest\u0105pi\u0107, a nie przest\u0105pi\u0142, \u017ale czyni\u0107, a nie uczyni\u0142; przeto pewne s\u0105 skarby jego u Pana, a ja\u0142mu\u017cny jego wys\u0142awia\u0107 b\u0119dzie zgromadzenie \u015bwi\u0119tych.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.\n*Ps 36:1*\nNie uno\u015b si\u0119 z powodu z\u0142oczy\u0144c\u00f3w, ani nie zazdro\u015b\u0107 czyni\u0105cym nieprawo\u015b\u0107.\nChwa\u0142a Ojcu.\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne; prawo jego Boga mieszka w jego sercu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty obudzi\u0142e\u015b w \u015bwi\u0119tym Janie, Twoim Wyznawcy, przedziwny zapa\u0142 do szerzenia czci Naj\u015bwi\u0119tszych Serc Jezusa i Maryi i przez niego zgromadzi\u0142e\u015b w Twym Ko\u015bciele nowe rodziny zakonne: spraw, prosimy, aby\u015bmy si\u0119 budowali przyk\u0142adem cn\u00f3t tego, kt\u00f3rego zbo\u017cne zas\u0142ugi czcimy.\nPrzez tego\u017c Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 31:8-11*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry okaza\u0142 si\u0119 bez zmazy i kt\u00f3ry nie ubiega\u0142 si\u0119 za z\u0142otem, i nadziei nie pok\u0142ada\u0142 w pieni\u0105dzach i skarbach. Kt\u00f3\u017c to jest? \u2013 a chwali\u0107 go b\u0119dziemy. Bo w \u017cyciu swym dziw\u00f3w dokona\u0142. Kto w tej sprawie jest do\u015bwiadczony i doskona\u0142y, b\u0119dzie mia\u0142 wieczn\u0105 chwa\u0142\u0119: kt\u00f3ry m\u00f3g\u0142 przest\u0105pi\u0107, a nie przest\u0105pi\u0142, \u017ale czyni\u0107, a nie uczyni\u0142; przeto pewne s\u0105 skarby jego u Pana, a ja\u0142mu\u017cny jego wys\u0142awia\u0107 b\u0119dzie zgromadzenie \u015bwi\u0119tych.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

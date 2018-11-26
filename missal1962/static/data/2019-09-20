@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u Dwunastu Aposto\u0142\u00f3w", 
-      "2 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Dwunastu Aposto\u0142\u00f3w", 
+        "2 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2019-09-20", 
+      "description": "Celem Suchych Dni jest nawr\u00f3cenie si\u0119 do Boga przez skruch\u0119 serca i uczynki pokutne. Szczere nawr\u00f3cenie przynosi wzrost \u0142aski Bo\u017cej i rado\u015b\u0107.\n", 
+      "tempora": null, 
+      "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 104:3-4*\nL\u00e6t\u00e9tur cor qu\u00e6r\u00e9ntium D\u00f3minum: qu\u01fdrite D\u00f3minum, et confirm\u00e1mini: qu\u01fdrite f\u00e1ciem ejus semper.\n*Ps 104:1*\nConfit\u00e9mini D\u00f3mino et invoc\u00e1te nomen ejus: annunti\u00e1te inter gentes \u00f3pera ejus. Gl\u00f3ria Patri.\nL\u00e6t\u00e9tur cor qu\u00e6r\u00e9ntium D\u00f3minum: qu\u01fdrite D\u00f3minum, et confirm\u00e1mini: qu\u01fdrite f\u00e1ciem ejus semper.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, observati\u00f3nes sacras \u00e1nnua devoti\u00f3ne recol\u00e9ntes, et c\u00f3rpore tibi place\u00e1mus et mente.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Osee Proph\u00e9t\u00e6.\n*Osee 14:2-10*\nH\u00e6c dicit D\u00f3minus Deus: Conv\u00e9rtere, Israel, ad D\u00f3minum, Deum tuum: qu\u00f3niam corru\u00edsti in iniquit\u00e1te tua. T\u00f3llite vob\u00edscum verba, et convert\u00edmini ad D\u00f3minum et d\u00edcite ei: Omnem aufer iniquit\u00e1tem, \u00e1ccipe bonum: et redd\u00e9mus v\u00edtulos labi\u00f3rum nostr\u00f3rum. Assur non salv\u00e1bit nos, super equum non ascend\u00e9mus, nec dic\u00e9mus ultra: Dii nostri \u00f3pera m\u00e1nuum nostr\u00e1rum: quia ejus, qui in te est, miser\u00e9beris pup\u00edlli. San\u00e1bo contriti\u00f3nes e\u00f3rum, d\u00edligam eos spont\u00e1nee: quia av\u00e9rsus est furor meus ab eis. Ero quasi ros, Isra\u00ebl germin\u00e1bit sicut l\u00edlium, et er\u00fampet radix ejus ut L\u00edbani. Ibunt rami ejus, et erit quasi ol\u00edva gl\u00f3ria ejus: et odor ejus ut L\u00edbani. Convert\u00e9ntur sed\u00e9ntes in umbra ejus: vivent tr\u00edtico, et germin\u00e1bunt quasi v\u00ednea: memori\u00e1le ejus sicut vinum L\u00edbani. Ephraim quid mihi ultra id\u00f3la? ego ex\u00e1udiam, et d\u00edrigam eum ego ut ab\u00edetem vir\u00e9ntem: ex me fructus tuus inv\u00e9ntus est. Quis s\u00e1piens, et int\u00e9lleget ista? int\u00e9llegens, et sciet h\u00e6c? Quia rect\u00e6 vi\u00e6 D\u00f3mini, et justi ambul\u00e1bunt in eis: pr\u00e6varicat\u00f3res vero c\u00f3rruent in eis.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 89:13; 89:1*\nConv\u00e9rtere, D\u00f3mine, aliqu\u00e1ntulum, et deprec\u00e1re super servos tuos.\nV. D\u00f3mine, ref\u00fagium factus es nobis, a generati\u00f3ne et prog\u00e9nie.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 7:36-50*\nIn illo t\u00e9mpore: Rog\u00e1bat Jesum quidam de pharis\u01fdis, ut manduc\u00e1ret cum illo. Et ingr\u00e9ssus domum pharis\u01fdi, disc\u00fabuit. Et ecce, m\u00falier, qu\u00e6 erit in civit\u00e1te pecc\u00e1trix, ut cogn\u00f3vit, quod accubu\u00edsset in domo pharis\u01fdi, \u00e1ttulit alab\u00e1strum ungu\u00e9nti: et stans retro secus pedes ejus, l\u00e1crimis c\u0153pit rig\u00e1re pedes ejus, et cap\u00edllis c\u00e1pitis sui terg\u00e9bat, et osculab\u00e1tur pedes ejus et ungu\u00e9nto ung\u00e9bat. Videns autem pharis\u01fdus, qui voc\u00e1verat eum, ait intra se, dicens: Hic si esset Proph\u00e9ta, sciret utique, qu\u00e6 et qualis est m\u00falier, qu\u00e6 tangit eum: quia pecc\u00e1trix est. Et resp\u00f3ndens Jesus, dixit ad illum: Simon, habeo tibi \u00e1liquid d\u00edcere. At ille ait: Mag\u00edster, dic. Duo debit\u00f3res erant cuidam f\u00e6nerat\u00f3ri: unus deb\u00e9bat den\u00e1rios quing\u00e9ntos, et \u00e1lius quinquag\u00ednta. Non hab\u00e9ntibus illis, unde r\u00e9dderent, don\u00e1vit utrisque. Quis ergo eum plus d\u00edligit? Resp\u00f3ndens Simon, dixit: \u00c6stimo quia is, cui plus don\u00e1vit. At ille dixit ei: Recte judic\u00e1sti. Et conv\u00e9rsus ad mul\u00ederem, dixit Sim\u00f3ni: Vides hanc mul\u00ederem? Intr\u00e1vi in domum tuam, aquam p\u00e9dibus meis non ded\u00edsti: h\u00e6c autem l\u00e1crimis rig\u00e1vit pedes meos et cap\u00edllis suis tersit. Oscuum mihi non ded\u00edsti: h\u00e6c autem, ex quo intr\u00e1vit, non cess\u00e1vit oscul\u00e1ri pedes meos. Oleo caput meum non unx\u00edsti: h\u00e6c autem ungu\u00e9nto unxit pedes meos. Propter quod dico tibi: Remitt\u00fantur ei pecc\u00e1ta multa, qu\u00f3niam dil\u00e9xit multum. Cui autem minus dim\u00edttitur, minus d\u00edligit. Dixit autem ad illam: Remitt\u00fantur tibi pecc\u00e1ta. Et c\u0153p\u00e9runt, qui simul accumb\u00e9bant, d\u00edcere intra se: Quis est hic, qui \u00e9tiam pecc\u00e1ta dim\u00edttit? Dixit autem ad mul\u00ederem: Fides tua te salvam fecit: vade in pace.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 102:2; 102:5*\nB\u00e9nedic, \u00e1nima mea, D\u00f3mino, et noli obliv\u00edsci omnes retributi\u00f3nes ejus: et renov\u00e1bitur, sicut \u00e1quil\u00e6, juv\u00e9ntus tua.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Acc\u00e9pta tibi sint, D\u00f3mine, qu\u01fdsumus, nostri dona jej\u00fanii: qu\u00e6 et expi\u00e1ndo nos tua gr\u00e1tia dignos eff\u00edciant, et ad sempit\u00e9rna prom\u00edssa perd\u00facant.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 118:22; 118:24*\nAufer a me oppr\u00f3brium et cont\u00e9mptum, quia mand\u00e1ta tua exquis\u00edvi, D\u00f3mine: nam et testim\u00f3nia tua medit\u00e1tio mea est.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-09-20", 
-    "description": "Celem Suchych Dni jest nawr\u00f3cenie si\u0119 do Boga przez skruch\u0119 serca i uczynki pokutne. Szczere nawr\u00f3cenie przynosi wzrost \u0142aski Bo\u017cej i rado\u015b\u0107.\n", 
-    "tempora": null, 
-    "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 104:3-4*\nL\u00e6t\u00e9tur cor qu\u00e6r\u00e9ntium D\u00f3minum: qu\u01fdrite D\u00f3minum, et confirm\u00e1mini: qu\u01fdrite f\u00e1ciem ejus semper.\n*Ps 104:1*\nConfit\u00e9mini D\u00f3mino et invoc\u00e1te nomen ejus: annunti\u00e1te inter gentes \u00f3pera ejus. Gl\u00f3ria Patri.\nL\u00e6t\u00e9tur cor qu\u00e6r\u00e9ntium D\u00f3minum: qu\u01fdrite D\u00f3minum, et confirm\u00e1mini: qu\u01fdrite f\u00e1ciem ejus semper.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, observati\u00f3nes sacras \u00e1nnua devoti\u00f3ne recol\u00e9ntes, et c\u00f3rpore tibi place\u00e1mus et mente.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Osee Proph\u00e9t\u00e6.\n*Osee 14:2-10*\nH\u00e6c dicit D\u00f3minus Deus: Conv\u00e9rtere, Israel, ad D\u00f3minum, Deum tuum: qu\u00f3niam corru\u00edsti in iniquit\u00e1te tua. T\u00f3llite vob\u00edscum verba, et convert\u00edmini ad D\u00f3minum et d\u00edcite ei: Omnem aufer iniquit\u00e1tem, \u00e1ccipe bonum: et redd\u00e9mus v\u00edtulos labi\u00f3rum nostr\u00f3rum. Assur non salv\u00e1bit nos, super equum non ascend\u00e9mus, nec dic\u00e9mus ultra: Dii nostri \u00f3pera m\u00e1nuum nostr\u00e1rum: quia ejus, qui in te est, miser\u00e9beris pup\u00edlli. San\u00e1bo contriti\u00f3nes e\u00f3rum, d\u00edligam eos spont\u00e1nee: quia av\u00e9rsus est furor meus ab eis. Ero quasi ros, Isra\u00ebl germin\u00e1bit sicut l\u00edlium, et er\u00fampet radix ejus ut L\u00edbani. Ibunt rami ejus, et erit quasi ol\u00edva gl\u00f3ria ejus: et odor ejus ut L\u00edbani. Convert\u00e9ntur sed\u00e9ntes in umbra ejus: vivent tr\u00edtico, et germin\u00e1bunt quasi v\u00ednea: memori\u00e1le ejus sicut vinum L\u00edbani. Ephraim quid mihi ultra id\u00f3la? ego ex\u00e1udiam, et d\u00edrigam eum ego ut ab\u00edetem vir\u00e9ntem: ex me fructus tuus inv\u00e9ntus est. Quis s\u00e1piens, et int\u00e9lleget ista? int\u00e9llegens, et sciet h\u00e6c? Quia rect\u00e6 vi\u00e6 D\u00f3mini, et justi ambul\u00e1bunt in eis: pr\u00e6varicat\u00f3res vero c\u00f3rruent in eis.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 89:13; 89:1*\nConv\u00e9rtere, D\u00f3mine, aliqu\u00e1ntulum, et deprec\u00e1re super servos tuos.\nV. D\u00f3mine, ref\u00fagium factus es nobis, a generati\u00f3ne et prog\u00e9nie.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 7:36-50*\nIn illo t\u00e9mpore: Rog\u00e1bat Jesum quidam de pharis\u01fdis, ut manduc\u00e1ret cum illo. Et ingr\u00e9ssus domum pharis\u01fdi, disc\u00fabuit. Et ecce, m\u00falier, qu\u00e6 erit in civit\u00e1te pecc\u00e1trix, ut cogn\u00f3vit, quod accubu\u00edsset in domo pharis\u01fdi, \u00e1ttulit alab\u00e1strum ungu\u00e9nti: et stans retro secus pedes ejus, l\u00e1crimis c\u0153pit rig\u00e1re pedes ejus, et cap\u00edllis c\u00e1pitis sui terg\u00e9bat, et osculab\u00e1tur pedes ejus et ungu\u00e9nto ung\u00e9bat. Videns autem pharis\u01fdus, qui voc\u00e1verat eum, ait intra se, dicens: Hic si esset Proph\u00e9ta, sciret utique, qu\u00e6 et qualis est m\u00falier, qu\u00e6 tangit eum: quia pecc\u00e1trix est. Et resp\u00f3ndens Jesus, dixit ad illum: Simon, habeo tibi \u00e1liquid d\u00edcere. At ille ait: Mag\u00edster, dic. Duo debit\u00f3res erant cuidam f\u00e6nerat\u00f3ri: unus deb\u00e9bat den\u00e1rios quing\u00e9ntos, et \u00e1lius quinquag\u00ednta. Non hab\u00e9ntibus illis, unde r\u00e9dderent, don\u00e1vit utrisque. Quis ergo eum plus d\u00edligit? Resp\u00f3ndens Simon, dixit: \u00c6stimo quia is, cui plus don\u00e1vit. At ille dixit ei: Recte judic\u00e1sti. Et conv\u00e9rsus ad mul\u00ederem, dixit Sim\u00f3ni: Vides hanc mul\u00ederem? Intr\u00e1vi in domum tuam, aquam p\u00e9dibus meis non ded\u00edsti: h\u00e6c autem l\u00e1crimis rig\u00e1vit pedes meos et cap\u00edllis suis tersit. Oscuum mihi non ded\u00edsti: h\u00e6c autem, ex quo intr\u00e1vit, non cess\u00e1vit oscul\u00e1ri pedes meos. Oleo caput meum non unx\u00edsti: h\u00e6c autem ungu\u00e9nto unxit pedes meos. Propter quod dico tibi: Remitt\u00fantur ei pecc\u00e1ta multa, qu\u00f3niam dil\u00e9xit multum. Cui autem minus dim\u00edttitur, minus d\u00edligit. Dixit autem ad illam: Remitt\u00fantur tibi pecc\u00e1ta. Et c\u0153p\u00e9runt, qui simul accumb\u00e9bant, d\u00edcere intra se: Quis est hic, qui \u00e9tiam pecc\u00e1ta dim\u00edttit? Dixit autem ad mul\u00ederem: Fides tua te salvam fecit: vade in pace.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 102:2; 102:5*\nB\u00e9nedic, \u00e1nima mea, D\u00f3mino, et noli obliv\u00edsci omnes retributi\u00f3nes ejus: et renov\u00e1bitur, sicut \u00e1quil\u00e6, juv\u00e9ntus tua.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Acc\u00e9pta tibi sint, D\u00f3mine, qu\u01fdsumus, nostri dona jej\u00fanii: qu\u00e6 et expi\u00e1ndo nos tua gr\u00e1tia dignos eff\u00edciant, et ad sempit\u00e9rna prom\u00edssa perd\u00facant.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 118:22; 118:24*\nAufer a me oppr\u00f3brium et cont\u00e9mptum, quia mand\u00e1ta tua exquis\u00edvi, D\u00f3mine: nam et testim\u00f3nia tua medit\u00e1tio mea est.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 104:3-4*\nNiech si\u0119 weseli serce szukaj\u0105cych Pana, szukajcie Pana i umacniajcie si\u0119, szukajcie zawsze Jego oblicza.\n*Ps 104:1*\nChwalcie Pana i wzywajcie Jego imienia: dzie\u0142a Jego g\u0142o\u015bcie w\u015br\u00f3d narod\u00f3w.\nChwa\u0142a Ojcu.\nNiech si\u0119 weseli serce szukaj\u0105cych Pana, szukajcie Pana i umacniajcie si\u0119, szukajcie zawsze Jego oblicza.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy Ci\u0119, aby\u015bmy wiernie obchodz\u0105c doroczny post, podobali si\u0119 Tobie dusz\u0105 i cia\u0142em.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Ozeasza.\n*Oz 14:2-10*\nTo m\u00f3wi Pan B\u00f3g: Nawr\u00f3\u0107 si\u0119, Izraelu, do Pana, Boga Twego, bo\u015b si\u0119 potkn\u0105\u0142 w twoim wyst\u0119pku. Wej\u017amijcie ze sob\u0105 s\u0142owa (pokuty), a nawr\u00f3\u0107cie si\u0119 do Pana! Powiedzcie do Niego: Usu\u0144 ca\u0142\u0105 win\u0119, we\u017a to, co dobre, ui\u015bcimy si\u0119 z naszych obietnic. Asyria nie b\u0119dzie dla nas zbawieniem, nie dosi\u0105dziemy ju\u017c koni i nie powiemy ju\u017c wi\u0119cej \u00abbogowie nasi\u00bb na twory r\u0105k naszych. U Ciebie bowiem sierota znajdzie wsp\u00f3\u0142czucie.\nUlecz\u0119 ich niewierno\u015b\u0107, serdecznie ich umi\u0142uj\u0119, bo gniew m\u00f3j odwr\u00f3ci\u0142 si\u0119 od nich. B\u0119d\u0119 jak rosa dla Izraela, b\u0119dzie on r\u00f3s\u0142 jak lilia, jak topola zapu\u015bci korzenie. Rozpu\u015bci swoje ga\u0142\u0105zki i b\u0119dzie wspania\u0142y jak drzewo oliwne i wonny jak Liban. Powr\u00f3c\u0105 by usi\u0105\u015b\u0107 w mym cieniu, \u017cy\u0107 b\u0119d\u0105 pszenic\u0105, b\u0119d\u0105 rosn\u0105\u0107 jak winny krzew, a rozg\u0142os ich b\u0119dzie jak wina liba\u0144skiego. Efraimowi \u2013 na co mu jeszcze bo\u017cki? Ja wys\u0142uchuj\u0119 i bacz\u0119. Ja jestem jak cyprys zielony: dzi\u0119ki mnie owoc wydajesz. Kto jest m\u0119drcem, aby to zrozumie\u0107? Kto rozumny, aby to poj\u0105\u0107? Bo drogi Pa\u0144skie s\u0105 proste i sprawiedliwi wed\u0142ug nich post\u0119puj\u0105, a grzeszni na nich si\u0119 potkn\u0105.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 89:13; 89:1*\nZwr\u00f3\u0107 si\u0119 ku nam, Panie, na chwil\u0119 i daj si\u0119 ub\u0142aga\u0107 Swoim s\u0142ugom.\nV. Panie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 7:36-50*\nOnego czasu: Pewien faryzeusz zaprosi\u0142 Jezusa posi\u0142ek do siebie. I wszed\u0142szy do domu faryzeusza, zasiad\u0142 do sto\u0142u. A oto niewiasta, kt\u00f3ra by\u0142a w mie\u015bcie jawnogrzesznic\u0105, skoro si\u0119 dowiedzia\u0142a, \u017ce siedzia\u0142 przy stole w domu faryzeusza, przynios\u0142a alabastrowe naczynie olejku i stan\u0105wszy z ty\u0142u u n\u00f3g Jego, pocz\u0119\u0142a \u0142zami zlewa\u0107 stopy Jego i wyciera\u0107 w\u0142osami swej g\u0142owy. I ca\u0142owa\u0142a stopy Jego, i namaszcza\u0142a olejkiem. A widz\u0105c to faryzeusz, kt\u00f3ry Go zaprosi\u0142, my\u015bla\u0142 sobie w duszy: gdyby ten by\u0142 prorokiem, wiedzia\u0142by zaiste, co zacz jest ta niewiasta, kt\u00f3ra si\u0119 go dotyka; \u017ce jest grzesznic\u0105. I odpowiadaj\u0105c Jezus rzek\u0142 do\u0144: \u00ab Szymonie, mam ci co\u015b do powiedzenia\u00bb. A on rze\u0142: \u00abMistrzu, powiedz!\u00bb \u00abPewien wierzyciel mia\u0142 dw\u00f3ch d\u0142u\u017cnik\u00f3w: jeden by\u0142 mu winien pi\u0119\u0107set denar\u00f3w, a drugi pi\u0119\u0107dziesi\u0105t. I gdy nie mieli z czego odda\u0107, darowa\u0142 obydwom Kt\u00f3ry\u017c tedy bardziej go mi\u0142uje?\u00bb A Szymon odpowiadaj\u0105c rzek\u0142: \u00abS\u0105dz\u0119, \u017ce ten, kt\u00f3remu wi\u0119cej darowa\u0142\u00bb.\nA On mu rzek\u0142: \u00abDobrze\u015b os\u0105dzi\u0142\u00bb. I zwr\u00f3ciwszy si\u0119 ku niewie\u015bcie, rzek\u0142 Szymonowi: \u00abWidzisz t\u0119 niewiast\u0119? Wszed\u0142em do domu twego: nie poda\u0142e\u015b mi wody do n\u00f3g, a ta \u0142zami skropi\u0142a stopy moje i w\u0142osami swymi otar\u0142a. Poca\u0142unku mi nie da\u0142e\u015b, a ta, odk\u0105d wesz\u0142a, nie przesta\u0142a ca\u0142owa\u0107 n\u00f3g moich. Nie nama\u015bci\u0142e\u015b oliw\u0105 g\u0142owy mojej, a ta olejkiem nogi moje nama\u015bci\u0142a. Dlatego powiadam ci: Odpuszczone s\u0105 liczne jej grzechy, bo wielce umi\u0142owa\u0142a. A komu mniej odpuszczaj\u0105, mniej mi\u0142uje\u00bb. Rzek\u0142 tedy do niej: \u00abOdpuszczaj\u0105 ei si\u0119 grzechy\u00bb.\nI pocz\u0119li wsp\u00f3\u0142biesiadnicy m\u00f3wi\u0107 mi\u0119dzy sob\u0105: \u00abKt\u00f3\u017c jest ten, \u017ce nawet grzechy odpuszcza?\u00bb I rzek\u0142 do niewiasty: \u00abWiara twoja zbawi\u0142a ci\u0119. Id\u017a w pokoju\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 102:2; 102:5*\nB\u0142ogos\u0142aw, duszo moja, Pana i nie zapominaj wszystkich dobrodziejstw Jego, a m\u0142odo\u015b\u0107 twoja odnowi si\u0119 jak u or\u0142a.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Racz przyj\u0105\u0107, prosimy Ci\u0119, Panie, nasze posty. Niech one nas oczyszcz\u0105 i uczyni\u0105 godnymi Twej \u0142aski i zawiod\u0105 do wiekuistych d\u00f3br, kt\u00f3re obieca\u0142e\u015b.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 118:22; 118:24*\nOddal ode mnie szyderstwo i wzgard\u0119, bo chowam Twoje przykazania, o Panie, bo stale rozwa\u017cam Twoje Prawo.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Spraw, prosimy, wszechmog\u0105cy Bo\u017ce, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 104:3-4*\nNiech si\u0119 weseli serce szukaj\u0105cych Pana, szukajcie Pana i umacniajcie si\u0119, szukajcie zawsze Jego oblicza.\n*Ps 104:1*\nChwalcie Pana i wzywajcie Jego imienia: dzie\u0142a Jego g\u0142o\u015bcie w\u015br\u00f3d narod\u00f3w.\nChwa\u0142a Ojcu.\nNiech si\u0119 weseli serce szukaj\u0105cych Pana, szukajcie Pana i umacniajcie si\u0119, szukajcie zawsze Jego oblicza.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy Ci\u0119, aby\u015bmy wiernie obchodz\u0105c doroczny post, podobali si\u0119 Tobie dusz\u0105 i cia\u0142em.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Ozeasza.\n*Oz 14:2-10*\nTo m\u00f3wi Pan B\u00f3g: Nawr\u00f3\u0107 si\u0119, Izraelu, do Pana, Boga Twego, bo\u015b si\u0119 potkn\u0105\u0142 w twoim wyst\u0119pku. Wej\u017amijcie ze sob\u0105 s\u0142owa (pokuty), a nawr\u00f3\u0107cie si\u0119 do Pana! Powiedzcie do Niego: Usu\u0144 ca\u0142\u0105 win\u0119, we\u017a to, co dobre, ui\u015bcimy si\u0119 z naszych obietnic. Asyria nie b\u0119dzie dla nas zbawieniem, nie dosi\u0105dziemy ju\u017c koni i nie powiemy ju\u017c wi\u0119cej \u00abbogowie nasi\u00bb na twory r\u0105k naszych. U Ciebie bowiem sierota znajdzie wsp\u00f3\u0142czucie.\nUlecz\u0119 ich niewierno\u015b\u0107, serdecznie ich umi\u0142uj\u0119, bo gniew m\u00f3j odwr\u00f3ci\u0142 si\u0119 od nich. B\u0119d\u0119 jak rosa dla Izraela, b\u0119dzie on r\u00f3s\u0142 jak lilia, jak topola zapu\u015bci korzenie. Rozpu\u015bci swoje ga\u0142\u0105zki i b\u0119dzie wspania\u0142y jak drzewo oliwne i wonny jak Liban. Powr\u00f3c\u0105 by usi\u0105\u015b\u0107 w mym cieniu, \u017cy\u0107 b\u0119d\u0105 pszenic\u0105, b\u0119d\u0105 rosn\u0105\u0107 jak winny krzew, a rozg\u0142os ich b\u0119dzie jak wina liba\u0144skiego. Efraimowi \u2013 na co mu jeszcze bo\u017cki? Ja wys\u0142uchuj\u0119 i bacz\u0119. Ja jestem jak cyprys zielony: dzi\u0119ki mnie owoc wydajesz. Kto jest m\u0119drcem, aby to zrozumie\u0107? Kto rozumny, aby to poj\u0105\u0107? Bo drogi Pa\u0144skie s\u0105 proste i sprawiedliwi wed\u0142ug nich post\u0119puj\u0105, a grzeszni na nich si\u0119 potkn\u0105.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 89:13; 89:1*\nZwr\u00f3\u0107 si\u0119 ku nam, Panie, na chwil\u0119 i daj si\u0119 ub\u0142aga\u0107 Swoim s\u0142ugom.\nV. Panie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 7:36-50*\nOnego czasu: Pewien faryzeusz zaprosi\u0142 Jezusa posi\u0142ek do siebie. I wszed\u0142szy do domu faryzeusza, zasiad\u0142 do sto\u0142u. A oto niewiasta, kt\u00f3ra by\u0142a w mie\u015bcie jawnogrzesznic\u0105, skoro si\u0119 dowiedzia\u0142a, \u017ce siedzia\u0142 przy stole w domu faryzeusza, przynios\u0142a alabastrowe naczynie olejku i stan\u0105wszy z ty\u0142u u n\u00f3g Jego, pocz\u0119\u0142a \u0142zami zlewa\u0107 stopy Jego i wyciera\u0107 w\u0142osami swej g\u0142owy. I ca\u0142owa\u0142a stopy Jego, i namaszcza\u0142a olejkiem. A widz\u0105c to faryzeusz, kt\u00f3ry Go zaprosi\u0142, my\u015bla\u0142 sobie w duszy: gdyby ten by\u0142 prorokiem, wiedzia\u0142by zaiste, co zacz jest ta niewiasta, kt\u00f3ra si\u0119 go dotyka; \u017ce jest grzesznic\u0105. I odpowiadaj\u0105c Jezus rzek\u0142 do\u0144: \u00ab Szymonie, mam ci co\u015b do powiedzenia\u00bb. A on rze\u0142: \u00abMistrzu, powiedz!\u00bb \u00abPewien wierzyciel mia\u0142 dw\u00f3ch d\u0142u\u017cnik\u00f3w: jeden by\u0142 mu winien pi\u0119\u0107set denar\u00f3w, a drugi pi\u0119\u0107dziesi\u0105t. I gdy nie mieli z czego odda\u0107, darowa\u0142 obydwom Kt\u00f3ry\u017c tedy bardziej go mi\u0142uje?\u00bb A Szymon odpowiadaj\u0105c rzek\u0142: \u00abS\u0105dz\u0119, \u017ce ten, kt\u00f3remu wi\u0119cej darowa\u0142\u00bb.\nA On mu rzek\u0142: \u00abDobrze\u015b os\u0105dzi\u0142\u00bb. I zwr\u00f3ciwszy si\u0119 ku niewie\u015bcie, rzek\u0142 Szymonowi: \u00abWidzisz t\u0119 niewiast\u0119? Wszed\u0142em do domu twego: nie poda\u0142e\u015b mi wody do n\u00f3g, a ta \u0142zami skropi\u0142a stopy moje i w\u0142osami swymi otar\u0142a. Poca\u0142unku mi nie da\u0142e\u015b, a ta, odk\u0105d wesz\u0142a, nie przesta\u0142a ca\u0142owa\u0107 n\u00f3g moich. Nie nama\u015bci\u0142e\u015b oliw\u0105 g\u0142owy mojej, a ta olejkiem nogi moje nama\u015bci\u0142a. Dlatego powiadam ci: Odpuszczone s\u0105 liczne jej grzechy, bo wielce umi\u0142owa\u0142a. A komu mniej odpuszczaj\u0105, mniej mi\u0142uje\u00bb. Rzek\u0142 tedy do niej: \u00abOdpuszczaj\u0105 ei si\u0119 grzechy\u00bb.\nI pocz\u0119li wsp\u00f3\u0142biesiadnicy m\u00f3wi\u0107 mi\u0119dzy sob\u0105: \u00abKt\u00f3\u017c jest ten, \u017ce nawet grzechy odpuszcza?\u00bb I rzek\u0142 do niewiasty: \u00abWiara twoja zbawi\u0142a ci\u0119. Id\u017a w pokoju\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 102:2; 102:5*\nB\u0142ogos\u0142aw, duszo moja, Pana i nie zapominaj wszystkich dobrodziejstw Jego, a m\u0142odo\u015b\u0107 twoja odnowi si\u0119 jak u or\u0142a.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Racz przyj\u0105\u0107, prosimy Ci\u0119, Panie, nasze posty. Niech one nas oczyszcz\u0105 i uczyni\u0105 godnymi Twej \u0142aski i zawiod\u0105 do wiekuistych d\u00f3br, kt\u00f3re obieca\u0142e\u015b.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 118:22; 118:24*\nOddal ode mnie szyderstwo i wzgard\u0119, bo chowam Twoje przykazania, o Panie, bo stale rozwa\u017cam Twoje Prawo.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Spraw, prosimy, wszechmog\u0105cy Bo\u017ce, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

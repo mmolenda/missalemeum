@@ -1,147 +1,149 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
-      "2 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+        "2 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2017-09-20", 
+      "description": "Suche Dni jesienne obchodzi si\u0119 w \u015brod\u0119, pi\u0105tek i sobot\u0119 po \u015bwi\u0119cie Podwy\u017cszenia \u015bw. Krzy\u017ca (14.IX). S\u0105 one dniami dzi\u0119kczynienia za zbiory oraz dniami pokuty za grzechy minionego kwarta\u0142u. Post jest wynagrodzeniem za nieumiarkowane u\u017cywanie dar\u00f3w Bo\u017cych. W ewangelii sam Chrystus zapewnia o skuteczno\u015bci postu i modlitwy w poskramianiu wp\u0142yw\u00f3w szatana.\n", 
+      "tempora": null, 
+      "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.\n*Ps 80:6*\nTestim\u00f3nium in Joseph p\u00f3suit illud, cum ex\u00edret de terra \u00c6g\u00fdpti: linguam, quam non n\u00f3verat, aud\u00edvit.\nGl\u00f3ria Patri.\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Miseric\u00f3rdi\u00e6 tu\u00e6 rem\u00e9diis, qu\u01fdsumus, D\u00f3mine, frag\u00edlitas nostra subs\u00edstat: ut, qu\u00e6 sua conditi\u00f3ne att\u00e9ritur, tua clem\u00e9ntia repar\u00e9tur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, D\u00f3mine, fam\u00edli\u00e6 tu\u00e6 supplic\u00e1nti: ut, dum a cibis corpor\u00e1libus se \u00e1bstinet, a v\u00edtiis quoque mente jej\u00fanet.\nPer Dominum.", 
+        "id": "OratioL1", 
+        "label": "OratioL1"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Esdr\u00e6.\n*Neh 8:1-10*\nIn di\u00e9bus illis: Congreg\u00e1tus est omnis p\u00f3pulus quasi vir unus ad plat\u00e9am, qu\u00e6 est ante portam aqu\u00e1rum: et dix\u00e9runt Esdr\u00e6 scrib\u00e6, ut aff\u00e9rret librum legis Moysi, quam pr\u00e6c\u00e9perat D\u00f3minus Isra\u00e9li. Attulit ergo Esdras sac\u00e9rdos legem coram multit\u00fadine vir\u00f3rum et mul\u00ederum, cunct\u00edsque qui p\u00f3terant intell\u00e9gere, in die prima mensis s\u00e9ptimi. Et legit in eo ap\u00e9rte in plat\u00e9a, qu\u00e6 erat ante portam aqu\u00e1rum, de mane usque ad m\u00e9diam diem, in consp\u00e9ctu vir\u00f3rum et mul\u00ederum et sapi\u00e9ntium: et aures omnis p\u00f3puli erant er\u00e9ct\u00e6 ad librum. Stetit autem Esdras scriba super gradum l\u00edgneum, quem f\u00e9cerat ad loquendum. Et ap\u00e9ruit librum coram omni p\u00f3pulo: super univ\u00e9rsum quippe p\u00f3pulum emin\u00e9bat: et cum aperu\u00edsset eum, stetit omnis p\u00f3pulus. Et bened\u00edxit Esdras D\u00f3mino, Deo magno: et resp\u00f3ndit omnis p\u00f3pulus: Amen, Amen: \u00e9levans manus suas: et incurv\u00e1ti sunt et adorav\u00e9runt Deum proni in terram. Porro lev\u00edt\u00e6 sil\u00e9ntium faci\u00e9bant in p\u00f3pulo ad audi\u00e9ndam legem: p\u00f3pulus autem stabat in gradu suo. Et leg\u00e9runt in libro legis Dei dist\u00edncte et ap\u00e9rte ad intelleg\u00e9ndum: et intellex\u00e9runt, cum leger\u00e9tur. Dixit autem Nehem\u00edas, et Esdras sac\u00e9rdos et scriba, et lev\u00edt\u00e6 interpret\u00e1ntes univ\u00e9rso p\u00f3pulo: Dies sanctific\u00e1tus est D\u00f3mino, Deo nostro, nol\u00edte lug\u00e9re et nol\u00edte flere. Et dixit eis: Ite, com\u00e9dite p\u00ednguia et b\u00edbite mulsum, et m\u00edttite partes his, qui non pr\u00e6parav\u00e9runt sibi: quia sanctus dies D\u00f3mini est, et nol\u00edte contrist\u00e1ri: g\u00e1udium \u00e9tenim D\u00f3mini est fortit\u00fado nostra.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "L\u00e9ctio Amos Proph\u00e9t\u00e6.\n*Amos 9:13-15*\nH\u00e6c dicit D\u00f3minus Deus: Ecce, dies v\u00e9niunt: et compreh\u00e9ndet ar\u00e1tor mess\u00f3rem, et calc\u00e1tor uv\u00e6 mitt\u00e9ntem semen: et still\u00e1bunt montes dulc\u00e9dinem, et omnes colles culti erunt. Et conv\u00e9rtam captivit\u00e1tem p\u00f3puli mei Isra\u00ebl: et \u00e6dific\u00e1bunt civit\u00e1tes des\u00e9rtas et inhabit\u00e1bunt: et plant\u00e1bunt v\u00edneas et bibent vinum e\u00e1rum: et f\u00e1cient hortos et c\u00f3medent fructus e\u00f3rum. Et plant\u00e1bo eos super humum suam: et non ev\u00e9llam eos ultra de terra sua, quam dedi eis: dicit D\u00f3minus, Deus tuus.\nDeo gratias.", 
+        "id": "LectioL1", 
+        "label": "LectioL1"
+      }, 
+      {
+        "body": "*Ps 32:12 ; 32:6*\nBe\u00e1ta gens, cujus est D\u00f3minus Deus e\u00f3rum: p\u00f3pulus, quem el\u00e9git D\u00f3minus in heredit\u00e1tem sibi.\nV. Verbo D\u00f3mini c\u0153li firm\u00e1ti sunt: et sp\u00edritu oris ejus omnis virtus e\u00f3rum.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 112,5-7*\nQuis sicut D\u00f3minus, Deus noster, qui in altis h\u00e1bitat, et humilia r\u00e9spicit in c\u0153lo et in terra?\nV. S\u00fascitans a terra \u00ednopem et de st\u00e9rcore \u00e9rigens p\u00e1uperem.", 
+        "id": "GradualeL1", 
+        "label": "GradualeL1"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Marcum.\n*Marc 9:16-28*\nIn illo t\u00e9mpore: Resp\u00f3ndens unus de turba, dixit ad Jesum: Mag\u00edster, \u00e1ttuli f\u00edlium meum ad te, hab\u00e9ntem sp\u00edritum mutum: qui, ubic\u00famque eum appreh\u00e9nderit, all\u00eddit illum, et spumat et stridet d\u00e9ntibus et ar\u00e9scit: et dixi disc\u00edpulis tuis, ut ej\u00edcerent illum, et non pot\u00faerunt. Qui resp\u00f3ndens eis, dixit: O gener\u00e1tio incr\u00e9dula, qu\u00e1mdiu apud vos ero? qu\u00e1mdiu vos p\u00e1tiar? Aff\u00e9rte illum ad me. Et att\u00falerunt eum. Et cum vid\u00edsset eum, statim sp\u00edritus conturb\u00e1vit illum: et el\u00edsus in terram, volutab\u00e1tur spumans. Et interrog\u00e1vit patrem ejus: Quantum t\u00e9mporis est, ex quo ei hoc \u00e1ccidit? At ille ait: Ab inf\u00e1ntia: et frequ\u00e9nter eum in ignem et in aquas misit, ut eum p\u00e9rderet. Sed si quid potes, \u00e1djuva nos, mis\u00e9rtus nostri. Jesus autem ait illi: Si potes credere, \u00f3mnia possib\u00edlia sunt cred\u00e9nti. Et cont\u00ednuo excl\u00e1mans pater pueri, cum l\u00e1crimis aj\u00e9bat: Credo, D\u00f3mine: \u00e1djuva incredulit\u00e1tem meam. Et cum vid\u00e9ret Jesus concurr\u00e9ntem turbam, commin\u00e1tus est spir\u00edtui immundo, dicens illi: Surde et mute sp\u00edritus, ego pr\u00e6c\u00edpio tibi, exi ab eo: et \u00e1mplius ne intr\u00f3\u00ebas in eum. Et excl\u00e1mans et multum disc\u00e9rpens eum, \u00e9xiit ab eo, et factus est sicut m\u00f3rtuus, ita ut multi d\u00edcerent: Quia m\u00f3rtuus est. Jesus autem tenens manum ejus, elev\u00e1vit eum, et surr\u00e9xit. Et cum intro\u00edsset in domum, disc\u00edpuli ejus secr\u00e9to interrog\u00e1bant eum: Quare nos non pot\u00faimus ej\u00edcere eum? Et dixit illis: Hoc genus in nullo potest ex\u00edre nisi in orati\u00f3ne et jej\u00fanio.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 118:47; 18:48*\nMedit\u00e1bor in mand\u00e1tis tuis, qu\u00e6 dil\u00e9xi valde: et lev\u00e1bo manus meas ad mand\u00e1ta tua, qu\u00e6 dil\u00e9xi.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Neh 8:10*\nCom\u00e9dite p\u00ednguia et b\u00edbite mulsum, et m\u00edttite partes his, qui non pr\u00e6parav\u00e9runt sibi: sanctus enim dies D\u00f3mini est, nol\u00edte contrist\u00e1ri: g\u00e1udium \u00e9tenim D\u00f3mini est fortit\u00fado nostra.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sum\u00e9ntes, D\u00f3mine, dona c\u0153l\u00e9stia, suppl\u00edciter deprec\u00e1mur: ut, qu\u00e6 s\u00e9dula servit\u00fate, don\u00e1nte te, g\u00e9rimus, dignis s\u00e9nsibus tuo m\u00fanere capi\u00e1mus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-09-20", 
-    "description": "Suche Dni jesienne obchodzi si\u0119 w \u015brod\u0119, pi\u0105tek i sobot\u0119 po \u015bwi\u0119cie Podwy\u017cszenia \u015bw. Krzy\u017ca (14.IX). S\u0105 one dniami dzi\u0119kczynienia za zbiory oraz dniami pokuty za grzechy minionego kwarta\u0142u. Post jest wynagrodzeniem za nieumiarkowane u\u017cywanie dar\u00f3w Bo\u017cych. W ewangelii sam Chrystus zapewnia o skuteczno\u015bci postu i modlitwy w poskramianiu wp\u0142yw\u00f3w szatana.\n", 
-    "tempora": null, 
-    "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.\n*Ps 80:6*\nTestim\u00f3nium in Joseph p\u00f3suit illud, cum ex\u00edret de terra \u00c6g\u00fdpti: linguam, quam non n\u00f3verat, aud\u00edvit.\nGl\u00f3ria Patri.\nExsult\u00e1te Deo, adjut\u00f3ri nostro: jubil\u00e1te Deo Jacob: s\u00famite psalmum juc\u00fandum cum c\u00edthara: c\u00e1nite in in\u00edtio mensis tuba, quia pr\u00e6c\u00e9ptum in Isra\u00ebl est, et jud\u00edcium Deo Jacob.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Miseric\u00f3rdi\u00e6 tu\u00e6 rem\u00e9diis, qu\u01fdsumus, D\u00f3mine, frag\u00edlitas nostra subs\u00edstat: ut, qu\u00e6 sua conditi\u00f3ne att\u00e9ritur, tua clem\u00e9ntia repar\u00e9tur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, D\u00f3mine, fam\u00edli\u00e6 tu\u00e6 supplic\u00e1nti: ut, dum a cibis corpor\u00e1libus se \u00e1bstinet, a v\u00edtiis quoque mente jej\u00fanet.\nPer Dominum.", 
-      "id": "OratioL1", 
-      "label": "OratioL1"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Esdr\u00e6.\n*Neh 8:1-10*\nIn di\u00e9bus illis: Congreg\u00e1tus est omnis p\u00f3pulus quasi vir unus ad plat\u00e9am, qu\u00e6 est ante portam aqu\u00e1rum: et dix\u00e9runt Esdr\u00e6 scrib\u00e6, ut aff\u00e9rret librum legis Moysi, quam pr\u00e6c\u00e9perat D\u00f3minus Isra\u00e9li. Attulit ergo Esdras sac\u00e9rdos legem coram multit\u00fadine vir\u00f3rum et mul\u00ederum, cunct\u00edsque qui p\u00f3terant intell\u00e9gere, in die prima mensis s\u00e9ptimi. Et legit in eo ap\u00e9rte in plat\u00e9a, qu\u00e6 erat ante portam aqu\u00e1rum, de mane usque ad m\u00e9diam diem, in consp\u00e9ctu vir\u00f3rum et mul\u00ederum et sapi\u00e9ntium: et aures omnis p\u00f3puli erant er\u00e9ct\u00e6 ad librum. Stetit autem Esdras scriba super gradum l\u00edgneum, quem f\u00e9cerat ad loquendum. Et ap\u00e9ruit librum coram omni p\u00f3pulo: super univ\u00e9rsum quippe p\u00f3pulum emin\u00e9bat: et cum aperu\u00edsset eum, stetit omnis p\u00f3pulus. Et bened\u00edxit Esdras D\u00f3mino, Deo magno: et resp\u00f3ndit omnis p\u00f3pulus: Amen, Amen: \u00e9levans manus suas: et incurv\u00e1ti sunt et adorav\u00e9runt Deum proni in terram. Porro lev\u00edt\u00e6 sil\u00e9ntium faci\u00e9bant in p\u00f3pulo ad audi\u00e9ndam legem: p\u00f3pulus autem stabat in gradu suo. Et leg\u00e9runt in libro legis Dei dist\u00edncte et ap\u00e9rte ad intelleg\u00e9ndum: et intellex\u00e9runt, cum leger\u00e9tur. Dixit autem Nehem\u00edas, et Esdras sac\u00e9rdos et scriba, et lev\u00edt\u00e6 interpret\u00e1ntes univ\u00e9rso p\u00f3pulo: Dies sanctific\u00e1tus est D\u00f3mino, Deo nostro, nol\u00edte lug\u00e9re et nol\u00edte flere. Et dixit eis: Ite, com\u00e9dite p\u00ednguia et b\u00edbite mulsum, et m\u00edttite partes his, qui non pr\u00e6parav\u00e9runt sibi: quia sanctus dies D\u00f3mini est, et nol\u00edte contrist\u00e1ri: g\u00e1udium \u00e9tenim D\u00f3mini est fortit\u00fado nostra.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "L\u00e9ctio Amos Proph\u00e9t\u00e6.\n*Amos 9:13-15*\nH\u00e6c dicit D\u00f3minus Deus: Ecce, dies v\u00e9niunt: et compreh\u00e9ndet ar\u00e1tor mess\u00f3rem, et calc\u00e1tor uv\u00e6 mitt\u00e9ntem semen: et still\u00e1bunt montes dulc\u00e9dinem, et omnes colles culti erunt. Et conv\u00e9rtam captivit\u00e1tem p\u00f3puli mei Isra\u00ebl: et \u00e6dific\u00e1bunt civit\u00e1tes des\u00e9rtas et inhabit\u00e1bunt: et plant\u00e1bunt v\u00edneas et bibent vinum e\u00e1rum: et f\u00e1cient hortos et c\u00f3medent fructus e\u00f3rum. Et plant\u00e1bo eos super humum suam: et non ev\u00e9llam eos ultra de terra sua, quam dedi eis: dicit D\u00f3minus, Deus tuus.\nDeo gratias.", 
-      "id": "LectioL1", 
-      "label": "LectioL1"
-    }, 
-    {
-      "body": "*Ps 32:12 ; 32:6*\nBe\u00e1ta gens, cujus est D\u00f3minus Deus e\u00f3rum: p\u00f3pulus, quem el\u00e9git D\u00f3minus in heredit\u00e1tem sibi.\nV. Verbo D\u00f3mini c\u0153li firm\u00e1ti sunt: et sp\u00edritu oris ejus omnis virtus e\u00f3rum.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 112,5-7*\nQuis sicut D\u00f3minus, Deus noster, qui in altis h\u00e1bitat, et humilia r\u00e9spicit in c\u0153lo et in terra?\nV. S\u00fascitans a terra \u00ednopem et de st\u00e9rcore \u00e9rigens p\u00e1uperem.", 
-      "id": "GradualeL1", 
-      "label": "GradualeL1"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Marcum.\n*Marc 9:16-28*\nIn illo t\u00e9mpore: Resp\u00f3ndens unus de turba, dixit ad Jesum: Mag\u00edster, \u00e1ttuli f\u00edlium meum ad te, hab\u00e9ntem sp\u00edritum mutum: qui, ubic\u00famque eum appreh\u00e9nderit, all\u00eddit illum, et spumat et stridet d\u00e9ntibus et ar\u00e9scit: et dixi disc\u00edpulis tuis, ut ej\u00edcerent illum, et non pot\u00faerunt. Qui resp\u00f3ndens eis, dixit: O gener\u00e1tio incr\u00e9dula, qu\u00e1mdiu apud vos ero? qu\u00e1mdiu vos p\u00e1tiar? Aff\u00e9rte illum ad me. Et att\u00falerunt eum. Et cum vid\u00edsset eum, statim sp\u00edritus conturb\u00e1vit illum: et el\u00edsus in terram, volutab\u00e1tur spumans. Et interrog\u00e1vit patrem ejus: Quantum t\u00e9mporis est, ex quo ei hoc \u00e1ccidit? At ille ait: Ab inf\u00e1ntia: et frequ\u00e9nter eum in ignem et in aquas misit, ut eum p\u00e9rderet. Sed si quid potes, \u00e1djuva nos, mis\u00e9rtus nostri. Jesus autem ait illi: Si potes credere, \u00f3mnia possib\u00edlia sunt cred\u00e9nti. Et cont\u00ednuo excl\u00e1mans pater pueri, cum l\u00e1crimis aj\u00e9bat: Credo, D\u00f3mine: \u00e1djuva incredulit\u00e1tem meam. Et cum vid\u00e9ret Jesus concurr\u00e9ntem turbam, commin\u00e1tus est spir\u00edtui immundo, dicens illi: Surde et mute sp\u00edritus, ego pr\u00e6c\u00edpio tibi, exi ab eo: et \u00e1mplius ne intr\u00f3\u00ebas in eum. Et excl\u00e1mans et multum disc\u00e9rpens eum, \u00e9xiit ab eo, et factus est sicut m\u00f3rtuus, ita ut multi d\u00edcerent: Quia m\u00f3rtuus est. Jesus autem tenens manum ejus, elev\u00e1vit eum, et surr\u00e9xit. Et cum intro\u00edsset in domum, disc\u00edpuli ejus secr\u00e9to interrog\u00e1bant eum: Quare nos non pot\u00faimus ej\u00edcere eum? Et dixit illis: Hoc genus in nullo potest ex\u00edre nisi in orati\u00f3ne et jej\u00fanio.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 118:47; 18:48*\nMedit\u00e1bor in mand\u00e1tis tuis, qu\u00e6 dil\u00e9xi valde: et lev\u00e1bo manus meas ad mand\u00e1ta tua, qu\u00e6 dil\u00e9xi.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Neh 8:10*\nCom\u00e9dite p\u00ednguia et b\u00edbite mulsum, et m\u00edttite partes his, qui non pr\u00e6parav\u00e9runt sibi: sanctus enim dies D\u00f3mini est, nol\u00edte contrist\u00e1ri: g\u00e1udium \u00e9tenim D\u00f3mini est fortit\u00fado nostra.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sum\u00e9ntes, D\u00f3mine, dona c\u0153l\u00e9stia, suppl\u00edciter deprec\u00e1mur: ut, qu\u00e6 s\u00e9dula servit\u00fate, don\u00e1nte te, g\u00e9rimus, dignis s\u00e9nsibus tuo m\u00fanere capi\u00e1mus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Bogu Jakuba, uderzcie w cytr\u0119, s\u0142odko d\u017awi\u0119cz\u0105c\u0105, i lir\u0119, dmijcie w tr\u0105b\u0119 na nowiu, bo to jest ustawa w Izraelu, przykazanie Boga Jakuba.\n*Ps 80:6*\nPrawo to nada\u0142 potomkom J\u00f3zefa, gdy wychodzili z ziemi egipskiej i us\u0142yszeli j\u0119zyk nieznany.\nChwa\u0142a Ojcu.\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Bogu Jakuba, uderzcie w cytr\u0119, s\u0142odko d\u017awi\u0119cz\u0105c\u0105, i lir\u0119, dmijcie w tr\u0105b\u0119 na nowiu, bo to jest ustawa w Izraelu, przykazanie Boga Jakuba.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech mi\u0142osierdzie Twoje uleczy i podtrzyma nasz\u0105 u\u0142omn\u0105 natur\u0119: a skoro sama z siebie wyczerpuje si\u0119, racz j\u0105 \u0142askawie umocni\u0107.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "1 Kolekta"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, racz spe\u0142ni\u0107 b\u0142agania Twojej rodziny, a gdy powstrzymuje si\u0119 od pokarm\u00f3w cielesnych, niech w duszy wolna b\u0119dzie od przywar.\nPrzez Pana.", 
-      "id": "OratioL1", 
-      "label": "2 Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Nehemiasza.\n*Neh 8:1-10*\n*Po powrocie z wygnania uroczy\u015bcie odczytano ludowi Prawo Moj\u017ceszowe, aby odnowi\u0107 przymierze Izraela z Bogiem.*\nW one dni: Zebra\u0142 si\u0119 wszystek lud jako jeden m\u0105\u017c na ulicy przed Bram\u0105 W\u00f3d; a kazano bieg\u0142emu w pi\u015bmie Ezdraszowi, by przyni\u00f3s\u0142 ksi\u0119g\u0119 Zakonu Moj\u017ceszowego, kt\u00f3ry nada\u0142 Pan Izraelowi. Dnia wi\u0119c pierwszego miesi\u0105ca si\u00f3dmego kap\u0142an Ezdrasz przyni\u00f3s\u0142 Zakon wobec mn\u00f3stwa m\u0119\u017c\u00f3w i niewiast, i wszystkich, kt\u00f3rzy zdolni go byli rozumie\u0107. I czyta\u0142 ze\u0144 pod go\u0142ym niebem, na ulicy przed Bram\u0105 W\u00f3d, od rana a\u017c do po\u0142udnia wobec m\u0119\u017c\u00f3w i niewiast, i wszystkich, kt\u00f3rzy mogli zrozumie\u0107, a uszy ca\u0142ego ludu nak\u0142oni\u0142y si\u0119 ku ksi\u0119dze. Stan\u0105\u0142 za\u015b bieg\u0142y w Pi\u015bmie Ezdrasz na drewnianym stopniu, kt\u00f3ry sporz\u0105dzi\u0142 celem przemawiania. I otworzy\u0142 Ezdrasz ksi\u0119g\u0119 wobec ca\u0142ego ludu, bo ponad wszystkim ludem g\u00f3rowa\u0142; i gdy ksi\u0119g\u0119 otworzy\u0142, lud ca\u0142y stan\u0105\u0142. I b\u0142ogos\u0142awi\u0142 Ezdrasz Panu Bogu wielkiemu, a ca\u0142y lud odpowiedzia\u0142: Amen, amen, unosz\u0105c r\u0119ce swoje. I sk\u0142onili si\u0119, i uwielbili Boga pochyleni ku ziemi.\nLewici za\u015b uciszali lud celem s\u0142uchania Zakonu, lud za\u015b sta\u0142 na swym miejscu. I czytano z ksi\u0119gi Zakonu Bo\u017cego wyra\u017anie i zrozumiale; i zrozumieli, gdy czytano. Rzek\u0142 za\u015b Nehemiasz i Ezdrasz, bieg\u0142y w Pi\u015bmie i kap\u0142an, oraz lewici t\u0142umacz\u0105cy ludowi ca\u0142emu: Dzie\u0144 ten Panu Bogu naszemu Jest po\u015bwi\u0119cony, nie bolejcie i nie p\u0142aczcie. I rzek\u0142 im: Id\u017acie, po\u017cywajcie z t\u0142uszczem, pijcie mi\u00f3d, a cz\u0119\u015b\u0107 tym po\u015blijcie, kt\u00f3rzy sobie nie przygotowali, bo to jest \u015bwi\u0119ty dzie\u0144 Pa\u0144ski, a nie smu\u0107cie si\u0119, albowiem rado\u015b\u0107 w Panu jest nasz\u0105 moc\u0105.", 
-      "id": "Lectio", 
-      "label": "6 Lekcja"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Amosa.\n*Am 9:13-15*\n*Prorok Amos zapowiada odbudow\u0119 i pomy\u015blno\u015b\u0107 Izraela po powrocie z wygnania.*\nTo m\u00f3wi Pan B\u00f3g: Oto dni id\u0105, i spotka oracz \u017ce\u0144ca, a t\u0142ocz\u0105cy winne grona siej\u0105cego nasienie; i b\u0119d\u0105 s\u0105czy\u0107 g\u00f3ry s\u0142odko\u015bci\u0105, a wszystkie pag\u00f3rki uprawione b\u0119d\u0105. I wr\u00f3c\u0119 pojmanie ludu mego izraelskiego, i b\u0119d\u0105 budowa\u0107 miasta spustoszone, i b\u0119d\u0105 w nich mieszka\u0107; i b\u0119d\u0105 te\u017c sadzi\u0107 winnice i pi\u0107 wino ich, i naczyni\u0105 sad\u00f3w, a b\u0119d\u0105 je\u015b\u0107 ich owoce. I osadz\u0119 ich w ziemi ich, a nie wyrw\u0119 ich wi\u0119cej z ich ziemi, kt\u00f3r\u0105 im da\u0142em, m\u00f3wi Pan, B\u00f3g tw\u00f3j.\nBogu dzi\u0119ki.", 
-      "id": "LectioL1", 
-      "label": "1 Lekcja"
-    }, 
-    {
-      "body": "*Ps 32:12 ; 32:6*\nB\u0142ogos\u0142awiony lud, kt\u00f3rego Bogiem jest Pan: nar\u00f3d, kt\u00f3ry On sobie wybra\u0142 na dziedzictwo.\nV. Przez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.", 
-      "id": "Graduale", 
-      "label": "6 Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 112,5-7*\nKt\u00f3\u017c jako Pan, nasz B\u00f3g, co w g\u00f3rze ma siedzib\u0119, a oczy swoje zni\u017ca na niebo i ziemi\u0119?\nV. Podnosi z prochu n\u0119dzarza, a z gnoju d\u017awiga ubogiego.", 
-      "id": "GradualeL1", 
-      "label": "1 Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Marka.\n*Mk 9:16-28*\nOnego czasu: Jeden z rzeszy odpowiadaj\u0105c rzek\u0142 do Jezusa: \u00abNauczycielu, przywiod\u0142em do Ciebie Syna kt\u00f3ry ma ducha niemego. A ten, gdziekolwiek go napadnie, rzuca go o ziemi\u0119, i pieni si\u0119, i zgrzyta z\u0119bami i dr\u0119twieje. I rzek\u0142em uczniom Twoim, aby go wyrzucili, ale nie mogli\u00bb. A On odpowiadaj\u0105c im rzek\u0142: \u00abO plemi\u0119 niewierne, dok\u0105d\u017ce to w\u015br\u00f3d was b\u0119d\u0119? Jak d\u0142ugo cierpie\u0107 was b\u0119d\u0119? Przynie\u015bcie go do mnie\u00bb. I przynie\u015bli go.\nA gdy Go ujrza\u0142, natychmiast duch pocz\u0105\u0142 nim targa\u0107, i upad\u0142szy na ziemi\u0119 tarza\u0142 si\u0119 tocz\u0105c pian\u0119. I zapyta\u0142 ojca jego: \u00abJak dawno mu si\u0119 to zdarzy\u0142o?\u00bb A on rzek\u0142: \u00abOd dzieci\u0144stwa, i cz\u0119sto rzuca\u0142 go w ogie\u0144 i w wod\u0119, aby go zgubi\u0107, ale je\u015bli mo\u017cesz, ratuj nas lituj\u0105c si\u0119 nad nami\u00bb. Jezus za\u015b rzek\u0142 mu: \u00abJe\u015bli mo\u017cesz uwierzy\u0107, wszystko mo\u017cliwe jest wierz\u0105cemu\u00bb. Ojciec tedy ch\u0142opi\u0119cia w\u015br\u00f3d \u0142ez natychmiast g\u0142o\u015bno zawo\u0142a\u0142: \u00abWierz\u0119, Panie, zarad\u017a niedowiarstwu memu\u00bb.\nA gdy spostrzeg\u0142 Jezus, \u017ce rzesza si\u0119 zbiega, nakaza\u0142 duchowi nieczystemu, m\u00f3wi\u0105c mu: \u00abDuchu g\u0142uchy i niemy! Ja tobie rozkazuj\u0119, wynijd\u017a z niego, a nie wchod\u017a we\u0144 wi\u0119cej\u00bb. A krzycz\u0105c i gwa\u0142townie nim targaj\u0105c, wyszed\u0142 z niego. I sta\u0142 si\u0119 jako martwy, tak \u017ce wielu m\u00f3wi\u0142o, i\u017c umar\u0142. Jezus za\u015b, uj\u0105wszy r\u0119k\u0119 jego, podni\u00f3s\u0142 go, a on powsta\u0142. A gdy wszed\u0142 do domu, uczniowie Jego na uboczu pytali Go: \u00abCzemu to my nie mogli\u015bmy go wyrzuci\u0107?\u00bb I rzek\u0142 im: \u00abTen rodzaj \u017cadnym sposobem wyj\u015b\u0107 nie mo\u017ce jak tylko przez modlitw\u0119 i post\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 118:47; 18:48*\nB\u0119d\u0119 rozwa\u017ca\u0142 nauk\u0119 Twoj\u0105, bo bardzo j\u0105 pokocha\u0142em. R\u0119ce me wyci\u0105gni\u0119te do przykaza\u0144 Twoich, kt\u00f3re umi\u0142owa\u0142em.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech ta hostia oczy\u015bci nas z grzech\u00f3w i u\u015bwi\u0119ci dusze i cia\u0142a s\u0142ug Twoich do sprawowania ofiary.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Neh 8:10*\nPo\u017cywajcie z t\u0142uszczem, pijcie mi\u00f3d, a cz\u0119\u015b\u0107 tym po\u015blijcie, kt\u00f3rzy sobie nie przygotowali, bo to jest \u015bwi\u0119ty dzie\u0144 Pa\u0144ski, a nie smu\u0107cie si\u0119, albowiem rado\u015b\u0107 w Panu jest nasz\u0105 moc\u0105.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Spo\u017cywaj\u0105c niebieskie dary, pokornie prosimy Ci\u0119, Panie, aby\u015bmy dzi\u0119ki Twojej \u0142asce z godnym usposobieniem przyj\u0119li to, co pozwalasz nam sprawowa\u0107 z uleg\u0142\u0105 wierno\u015bci\u0105.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 80:2; 80:3; 80:4; 80:5*\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Bogu Jakuba, uderzcie w cytr\u0119, s\u0142odko d\u017awi\u0119cz\u0105c\u0105, i lir\u0119, dmijcie w tr\u0105b\u0119 na nowiu, bo to jest ustawa w Izraelu, przykazanie Boga Jakuba.\n*Ps 80:6*\nPrawo to nada\u0142 potomkom J\u00f3zefa, gdy wychodzili z ziemi egipskiej i us\u0142yszeli j\u0119zyk nieznany.\nChwa\u0142a Ojcu.\nRado\u015bnie \u015bpiewajcie Bogu, obro\u0144cy naszemu, wykrzykujcie Bogu Jakuba, uderzcie w cytr\u0119, s\u0142odko d\u017awi\u0119cz\u0105c\u0105, i lir\u0119, dmijcie w tr\u0105b\u0119 na nowiu, bo to jest ustawa w Izraelu, przykazanie Boga Jakuba.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech mi\u0142osierdzie Twoje uleczy i podtrzyma nasz\u0105 u\u0142omn\u0105 natur\u0119: a skoro sama z siebie wyczerpuje si\u0119, racz j\u0105 \u0142askawie umocni\u0107.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "1 Kolekta"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, racz spe\u0142ni\u0107 b\u0142agania Twojej rodziny, a gdy powstrzymuje si\u0119 od pokarm\u00f3w cielesnych, niech w duszy wolna b\u0119dzie od przywar.\nPrzez Pana.", 
+        "id": "OratioL1", 
+        "label": "2 Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Nehemiasza.\n*Neh 8:1-10*\n*Po powrocie z wygnania uroczy\u015bcie odczytano ludowi Prawo Moj\u017ceszowe, aby odnowi\u0107 przymierze Izraela z Bogiem.*\nW one dni: Zebra\u0142 si\u0119 wszystek lud jako jeden m\u0105\u017c na ulicy przed Bram\u0105 W\u00f3d; a kazano bieg\u0142emu w pi\u015bmie Ezdraszowi, by przyni\u00f3s\u0142 ksi\u0119g\u0119 Zakonu Moj\u017ceszowego, kt\u00f3ry nada\u0142 Pan Izraelowi. Dnia wi\u0119c pierwszego miesi\u0105ca si\u00f3dmego kap\u0142an Ezdrasz przyni\u00f3s\u0142 Zakon wobec mn\u00f3stwa m\u0119\u017c\u00f3w i niewiast, i wszystkich, kt\u00f3rzy zdolni go byli rozumie\u0107. I czyta\u0142 ze\u0144 pod go\u0142ym niebem, na ulicy przed Bram\u0105 W\u00f3d, od rana a\u017c do po\u0142udnia wobec m\u0119\u017c\u00f3w i niewiast, i wszystkich, kt\u00f3rzy mogli zrozumie\u0107, a uszy ca\u0142ego ludu nak\u0142oni\u0142y si\u0119 ku ksi\u0119dze. Stan\u0105\u0142 za\u015b bieg\u0142y w Pi\u015bmie Ezdrasz na drewnianym stopniu, kt\u00f3ry sporz\u0105dzi\u0142 celem przemawiania. I otworzy\u0142 Ezdrasz ksi\u0119g\u0119 wobec ca\u0142ego ludu, bo ponad wszystkim ludem g\u00f3rowa\u0142; i gdy ksi\u0119g\u0119 otworzy\u0142, lud ca\u0142y stan\u0105\u0142. I b\u0142ogos\u0142awi\u0142 Ezdrasz Panu Bogu wielkiemu, a ca\u0142y lud odpowiedzia\u0142: Amen, amen, unosz\u0105c r\u0119ce swoje. I sk\u0142onili si\u0119, i uwielbili Boga pochyleni ku ziemi.\nLewici za\u015b uciszali lud celem s\u0142uchania Zakonu, lud za\u015b sta\u0142 na swym miejscu. I czytano z ksi\u0119gi Zakonu Bo\u017cego wyra\u017anie i zrozumiale; i zrozumieli, gdy czytano. Rzek\u0142 za\u015b Nehemiasz i Ezdrasz, bieg\u0142y w Pi\u015bmie i kap\u0142an, oraz lewici t\u0142umacz\u0105cy ludowi ca\u0142emu: Dzie\u0144 ten Panu Bogu naszemu Jest po\u015bwi\u0119cony, nie bolejcie i nie p\u0142aczcie. I rzek\u0142 im: Id\u017acie, po\u017cywajcie z t\u0142uszczem, pijcie mi\u00f3d, a cz\u0119\u015b\u0107 tym po\u015blijcie, kt\u00f3rzy sobie nie przygotowali, bo to jest \u015bwi\u0119ty dzie\u0144 Pa\u0144ski, a nie smu\u0107cie si\u0119, albowiem rado\u015b\u0107 w Panu jest nasz\u0105 moc\u0105.", 
+        "id": "Lectio", 
+        "label": "6 Lekcja"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Amosa.\n*Am 9:13-15*\n*Prorok Amos zapowiada odbudow\u0119 i pomy\u015blno\u015b\u0107 Izraela po powrocie z wygnania.*\nTo m\u00f3wi Pan B\u00f3g: Oto dni id\u0105, i spotka oracz \u017ce\u0144ca, a t\u0142ocz\u0105cy winne grona siej\u0105cego nasienie; i b\u0119d\u0105 s\u0105czy\u0107 g\u00f3ry s\u0142odko\u015bci\u0105, a wszystkie pag\u00f3rki uprawione b\u0119d\u0105. I wr\u00f3c\u0119 pojmanie ludu mego izraelskiego, i b\u0119d\u0105 budowa\u0107 miasta spustoszone, i b\u0119d\u0105 w nich mieszka\u0107; i b\u0119d\u0105 te\u017c sadzi\u0107 winnice i pi\u0107 wino ich, i naczyni\u0105 sad\u00f3w, a b\u0119d\u0105 je\u015b\u0107 ich owoce. I osadz\u0119 ich w ziemi ich, a nie wyrw\u0119 ich wi\u0119cej z ich ziemi, kt\u00f3r\u0105 im da\u0142em, m\u00f3wi Pan, B\u00f3g tw\u00f3j.\nBogu dzi\u0119ki.", 
+        "id": "LectioL1", 
+        "label": "1 Lekcja"
+      }, 
+      {
+        "body": "*Ps 32:12 ; 32:6*\nB\u0142ogos\u0142awiony lud, kt\u00f3rego Bogiem jest Pan: nar\u00f3d, kt\u00f3ry On sobie wybra\u0142 na dziedzictwo.\nV. Przez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.", 
+        "id": "Graduale", 
+        "label": "6 Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 112,5-7*\nKt\u00f3\u017c jako Pan, nasz B\u00f3g, co w g\u00f3rze ma siedzib\u0119, a oczy swoje zni\u017ca na niebo i ziemi\u0119?\nV. Podnosi z prochu n\u0119dzarza, a z gnoju d\u017awiga ubogiego.", 
+        "id": "GradualeL1", 
+        "label": "1 Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Marka.\n*Mk 9:16-28*\nOnego czasu: Jeden z rzeszy odpowiadaj\u0105c rzek\u0142 do Jezusa: \u00abNauczycielu, przywiod\u0142em do Ciebie Syna kt\u00f3ry ma ducha niemego. A ten, gdziekolwiek go napadnie, rzuca go o ziemi\u0119, i pieni si\u0119, i zgrzyta z\u0119bami i dr\u0119twieje. I rzek\u0142em uczniom Twoim, aby go wyrzucili, ale nie mogli\u00bb. A On odpowiadaj\u0105c im rzek\u0142: \u00abO plemi\u0119 niewierne, dok\u0105d\u017ce to w\u015br\u00f3d was b\u0119d\u0119? Jak d\u0142ugo cierpie\u0107 was b\u0119d\u0119? Przynie\u015bcie go do mnie\u00bb. I przynie\u015bli go.\nA gdy Go ujrza\u0142, natychmiast duch pocz\u0105\u0142 nim targa\u0107, i upad\u0142szy na ziemi\u0119 tarza\u0142 si\u0119 tocz\u0105c pian\u0119. I zapyta\u0142 ojca jego: \u00abJak dawno mu si\u0119 to zdarzy\u0142o?\u00bb A on rzek\u0142: \u00abOd dzieci\u0144stwa, i cz\u0119sto rzuca\u0142 go w ogie\u0144 i w wod\u0119, aby go zgubi\u0107, ale je\u015bli mo\u017cesz, ratuj nas lituj\u0105c si\u0119 nad nami\u00bb. Jezus za\u015b rzek\u0142 mu: \u00abJe\u015bli mo\u017cesz uwierzy\u0107, wszystko mo\u017cliwe jest wierz\u0105cemu\u00bb. Ojciec tedy ch\u0142opi\u0119cia w\u015br\u00f3d \u0142ez natychmiast g\u0142o\u015bno zawo\u0142a\u0142: \u00abWierz\u0119, Panie, zarad\u017a niedowiarstwu memu\u00bb.\nA gdy spostrzeg\u0142 Jezus, \u017ce rzesza si\u0119 zbiega, nakaza\u0142 duchowi nieczystemu, m\u00f3wi\u0105c mu: \u00abDuchu g\u0142uchy i niemy! Ja tobie rozkazuj\u0119, wynijd\u017a z niego, a nie wchod\u017a we\u0144 wi\u0119cej\u00bb. A krzycz\u0105c i gwa\u0142townie nim targaj\u0105c, wyszed\u0142 z niego. I sta\u0142 si\u0119 jako martwy, tak \u017ce wielu m\u00f3wi\u0142o, i\u017c umar\u0142. Jezus za\u015b, uj\u0105wszy r\u0119k\u0119 jego, podni\u00f3s\u0142 go, a on powsta\u0142. A gdy wszed\u0142 do domu, uczniowie Jego na uboczu pytali Go: \u00abCzemu to my nie mogli\u015bmy go wyrzuci\u0107?\u00bb I rzek\u0142 im: \u00abTen rodzaj \u017cadnym sposobem wyj\u015b\u0107 nie mo\u017ce jak tylko przez modlitw\u0119 i post\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 118:47; 18:48*\nB\u0119d\u0119 rozwa\u017ca\u0142 nauk\u0119 Twoj\u0105, bo bardzo j\u0105 pokocha\u0142em. R\u0119ce me wyci\u0105gni\u0119te do przykaza\u0144 Twoich, kt\u00f3re umi\u0142owa\u0142em.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech ta hostia oczy\u015bci nas z grzech\u00f3w i u\u015bwi\u0119ci dusze i cia\u0142a s\u0142ug Twoich do sprawowania ofiary.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Neh 8:10*\nPo\u017cywajcie z t\u0142uszczem, pijcie mi\u00f3d, a cz\u0119\u015b\u0107 tym po\u015blijcie, kt\u00f3rzy sobie nie przygotowali, bo to jest \u015bwi\u0119ty dzie\u0144 Pa\u0144ski, a nie smu\u0107cie si\u0119, albowiem rado\u015b\u0107 w Panu jest nasz\u0105 moc\u0105.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Spo\u017cywaj\u0105c niebieskie dary, pokornie prosimy Ci\u0119, Panie, aby\u015bmy dzi\u0119ki Twojej \u0142asce z godnym usposobieniem przyj\u0119li to, co pozwalasz nam sprawowa\u0107 z uleg\u0142\u0105 wierno\u015bci\u0105.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

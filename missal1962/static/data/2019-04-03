@@ -1,147 +1,149 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Paw\u0142a za Murami", 
-      "3 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Paw\u0142a za Murami", 
+        "3 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2019-04-03", 
+      "description": "W dzisiejsz\u0105 \u015brod\u0119 odbywa\u0142o si\u0119 wielkie scrutinium, czyli badanie katechumen\u00f3w, od kt\u00f3rego wynik\u00f3w zale\u017ca\u0142o dopuszczenie do Chrztu. Odbywa\u0142a si\u0119 r\u00f3wnie\u017c cze\u015b\u0107 obrz\u0119d\u00f3w wst\u0119pnych Chrztu \u015bw. Katechumenom podawano do skosztowania s\u00f3l, znaczono ich znakiem krzy\u017ca \u015bwi\u0119tego, odprawiano nad nimi egzorcyzmy, a nast\u0119pnie przekazywano im pocz\u0105tki 4 Ewangelii, Wyznanie wiary i Modlitw\u0119 Pa\u0144sk\u0105. Obrz\u0119d ten nazywano \u201eotwarciem uszu\u201d.\nTeksty Mszy \u015aw. m\u00f3wi\u0105 o sakramencie Chrztu. W antyfonie na wej\u015bcie i w 1 lekcji s\u0142yszymy prorocz\u0105 zapowied\u017a Chrztu \u015bw. 2 lekcja i ewangelia omawiaj\u0105 skutki tego Sakramentu: oczyszczenie, o\u015bwiecenie, W antyfonie na ofiarowanie dzi\u0119kujemy Bogu za Odkupienie.\n", 
+      "tempora": null, 
+      "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ezech 36:23-26*\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum.\n*Ps 33:2*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui et justis praemia merit\u00f3rum et peccat\u00f3ribus per jej\u00fanium v\u00e9niam pr\u00e6bes: miser\u00e9re suppl\u00edcibus tuis; ut re\u00e1tus nostri conf\u00e9ssio indulg\u00e9ntiam valeat perc\u00edpere delict\u00f3rum.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, quos jej\u00fania votiva cast\u00edgant, ipsa quoque dev\u00f3tio sancta l\u00e6t\u00edficet; ut, terr\u00e9nis aff\u00e9ctibus mitig\u00e1tis, fac\u00edlius coel\u00e9stia capi\u00e1mus.\nPer Dominum.", 
+        "id": "OratioL1", 
+        "label": "OratioL1"
+      }, 
+      {
+        "body": "L\u00e9ctio Isa\u00ed\u00e6 Proph\u00e9t\u00e6.\n*Is 1:16-19*\nH\u00e6c dicit D\u00f3minus Deus: Lav\u00e1mini, mundi est\u00f3te, auf\u00e9rte malum cogitati\u00f3num vestr\u00e1rum ab \u00f3culis meis: qui\u00e9scite \u00e1gere perv\u00e9rse, d\u00edscite benef\u00e1cere: quaerite jud\u00edcium, subven\u00edte oppr\u00e9sso, judic\u00e1te pup\u00edllo, def\u00e9ndite v\u00edduam. Et ven\u00edte et arg\u00faite me, dicit D\u00f3minus: si f\u00faerint pecc\u00e1ta vestra ut c\u00f3ccinum, quasi nix dealbab\u00fantur: et si f\u00faerint rubra quasi verm\u00edculus, velut lana alba erunt. Si volu\u00e9ritis et audi\u00e9ritis me, bona terr\u00e6 comed\u00e9tis: dicit D\u00f3minus omn\u00edpotens.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 36:23-28*\nH\u00e6c dicit D\u00f3minus Deus: Sanctific\u00e1bo nomen meum magnum, quod poll\u00fatum est inter gentes, quod pollu\u00edstis in m\u00e9dio e\u00e1rum: ut sciant gentes, quia ego D\u00f3minus, cum sanctific\u00e1tus Mero in vobis coram eis. Tollam quippe vos de g\u00e9ntibus, et congreg\u00e1bo vos de univ\u00e9rsis terris, et add\u00facam vos in terram vestram. Et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris, et ab univ\u00e9rsis \u00eddolis vestris mund\u00e1bo vos. Et dabo vobis cor novum, et sp\u00edritum novum ponam in m\u00e9dio vestri: et \u00e1uferam cor lap\u00eddeum de carne vestra, et dabo vobis cor c\u00e1rneum. Et sp\u00edritum meum ponam in m\u00e9dio vestri: et f\u00e1ciam, ut in pr\u00e6c\u00e9ptis meis ambul\u00e9tis, et judicia mea custodi\u00e1tis et oper\u00e9mini. Et habit\u00e1bitis in terra, quam dedi p\u00e1tribus vestris: et \u00e9ritis mihi in p\u00f3pulum, et ego ero vobis in Deum: dicit D\u00f3minus omn\u00edpotens.\nDeo gratias.", 
+        "id": "LectioL1", 
+        "label": "LectioL1"
+      }, 
+      {
+        "body": "*Ps 32:12, 6*\nBe\u00e1ta gens, cujus est D\u00f3minus Deus e\u00f3rum: p\u00f3pulus, quem el\u00e9git D\u00f3minus in heredit\u00e1tem sibi.\nV. Verbo D\u00f3mini coeli firm\u00e1ti sunt: et sp\u00edritu oris ejus omnis virtus e\u00f3rum.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris\niniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 38:12, 6*\nVen\u00edte, f\u00edlii, aud\u00edte me: tim\u00f3rem D\u00f3mini doc\u00e9bo vos.\nV. Acc\u00e9dite ad eum, et illumin\u00e1mini: et f\u00e1cies vestr\u00e6 non confund\u00e9ntur.", 
+        "id": "GradualeL1", 
+        "label": "GradualeL1"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 9:1-38*\nIn illo t\u00e9mpore: Pr\u00e6t\u00e9riens Jesus vidit h\u00f3minem c\u00e6cum a nativit\u00e1te: et interrogav\u00e9runt eum disc\u00edpuli ejus: Rabbi, quis pecc\u00e1vit, hic aut par\u00e9ntes ejus, ut c\u00e6cus nascer\u00e9tur? Resp\u00f3ndit Jesus: Neque hic pecc\u00e1vit neque par\u00e9ntes ejus: sed ut manifest\u00e9ntur \u00f3pera Dei in illo. Me op\u00f3rtet oper\u00e1ri \u00f3pera ejus, qui misit me, donec dies est: venit nox, quando nemo potest oper\u00e1ri. Qu\u00e1mdiu sum in mundo, lux sum mundi. H\u00e6c cum dix\u00edsset, \u00e9xspuit in terram, et fecit lutum ex sputo, et lin\u00edvit lutum super \u00f3culos ejus, et dixit ei: Vade, lava in natat\u00f3ria S\u00edloe (quod interpret\u00e1tur Missus). Abiit ergo, et lavit, et venit videns. Itaque vic\u00edni, et qui v\u00edderant eum prius, quia mend\u00edcus erat, dic\u00e9bant: Nonne hic est, qui sed\u00e9bat et mendic\u00e1bat? Alii dic\u00e9bant: Quia hic est. Alii autem: Nequ\u00e1quam, sed s\u00edmilis est ei. Ille vero dic\u00e9bat: Quia ego sum. Dic\u00e9bant ergo ei: Qu\u00f3modo ap\u00e9rti sunt tibi \u00f3culi? Resp\u00f3ndit: Ille homo, qui d\u00edcitur Jesus, lutum fecit, et unxit oculos meos, et dixit mihi: Vade ad natat\u00f3ria S\u00edloe, et lava. Et \u00e1bii, et lavi, et v\u00eddeo. Et dix\u00e9runt ei: Ubi est ille? Ait: N\u00e9scio. Add\u00facunt eum ad pharisaeos, qui c\u00e6cus f\u00faerat. Erat autem s\u00e1bbatum, quando lutum fecit Jesus, et ap\u00e9ruit \u00f3culos ejus. Iterum ergo interrog\u00e1bant eum pharisaei, qu\u00f3modo vid\u00edsset. Ille autem dixit eis: Lutum mihi posuit super oculos, et lavi, et video. Dic\u00e9bant ergo ex pharis\u00e6is quidam: Non est hic homo a Deo, qui s\u00e1bbatum non cust\u00f3dit. Alii autem dic\u00e9bant: Qu\u00f3modo potest homo peccator h\u00e6c signa facere ? Et schisma erat inter eos. Dicunt ergo c\u00e6co \u00edterum: Tu quid dicis de illo, qui ap\u00e9ruit \u00f3culos tuos? Ille autem dixit: Quia Proph\u00e9ta est. Non credid\u00e9runt ergo Judaei de illo, quia c\u00e6cus fu\u00edsset et vid\u00edsset, donec vocav\u00e9runt par\u00e9ntes ejus, qui v\u00edderat: et interrogav\u00e9runt eos, dic\u00e9ntes: Hic est f\u00edlius vester, quem vos d\u00edcitis, quia c\u00e6cus natus est? Qu\u00f3modo ergo nunc videt? Respond\u00e9runt eis par\u00e9ntes ejus, et dix\u00e9runt: Scimus, quia hic est f\u00edlius noster, et quia c\u00e6cus natus est: qu\u00f3modo autem nunc v\u00eddeat, nesc\u00edmus: aut quis ejus aperuit oculos, nos nesc\u00edmus: ipsum interrog\u00e1te, aetatem habet, ipse de se loquatur. H\u00e6c dix\u00e9runt par\u00e9ntes ejus, qu\u00f3niam tim\u00e9bant Judaeos: jam enim conspir\u00e1verant Judaei, ut, si quis eum confiter\u00e9tur esse Christum, extra synag\u00f3gam f\u00ederet. Propt\u00e9rea par\u00e9ntes ejus dix\u00e9runt: Quia \u00e6tatem habet, ipsum interrog\u00e1te. Vocav\u00e9runt ergo rursum h\u00f3minem, qui f\u00faerat c\u00e6cus, et dix\u00e9runt ei: Da gl\u00f3riam Deo. Nos scimus, quia hic homo pecc\u00e1tor est. Dixit ergo eis ille: Si pecc\u00e1tor est, n\u00e9scio: unum scio, quia, c\u00e6cus cum essem, modo v\u00eddeo. Dix\u00e9runt ergo illi: Quid fecit tibi? qu\u00f3modo ap\u00e9ruit tibi \u00f3culos? Resp\u00f3ndit eis: Dixi vobis jam, et aud\u00edstis: quid \u00edterum vultis aud\u00edre? Numquid et vos vultis disc\u00edpuli ejus f\u00ederi? Male dix\u00e9runt ergo ei, et dix\u00e9runt: Tu disc\u00edpulus ill\u00edus sis: nos autem M\u00f3ysi disc\u00edpuli sumus. Nos scimus, quia Moysi loc\u00fatus est Deus: hunc autem nesc\u00edmus, unde sit. Resp\u00f3ndit ille homo et dixit eis: In hoc enim mir\u00e1bile est, quia vos n\u00e9scitis, unde sit, et ap\u00e9ruit meos \u00f3culos: scimus autem, quia peccat\u00f3res Deus non audit: sed, si quis Dei cultor est et volunt\u00e1tem ejus facit, hunc ex\u00e1udit. A saeculo non est aud\u00edtum, quia quis ap\u00e9ruit \u00f3culos c\u00e6ci nati. Nisi esset hic a Deo, non p\u00f3terat f\u00e1cere quidquam. Respond\u00e9runt et dix\u00e9runt ei: In pecc\u00e1tis natus es totus, et tu doces nos? Et ejec\u00e9runt eum foras. Aud\u00edvit Jesus, quia ejec\u00e9runt eum foras, et cum inven\u00edsset eum, dixit ei: Tu credis in F\u00edlium Dei? Resp\u00f3ndit ille et dixit: Quis est, D\u00f3mine, ut credam in eum? Et dixit ei Jesus: Et vid\u00edsti eum, et qui l\u00f3quitur tecum, ipse est. At ille ait: Credo, D\u00f3mine. (Hic genuflectitur) Et pr\u00f3cidens ador\u00e1vit eum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 65:8-9, 20*\nBened\u00edcite, gentes, D\u00f3minum, Deum nostrum, et obaud\u00edte vocem laudis ejus: qui p\u00f3suit \u00e1nimam meam ad vitam, et non dedit commov\u00e9ri pedes meos: bened\u00edctus D\u00f3minus, qui non am\u00f3vit deprecati\u00f3nem mam, et miseric\u00f3rdiam suam a me.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "S\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut his sacrif\u00edciis pecc\u00e1ta nostra mund\u00e9ntur; quia tunc veram nobis tr\u00edbuis et mentis et c\u00f3rporis sanit\u00e1tem.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joann 9:11*\nLutum fecit ex sputo D\u00f3minus, et lin\u00edvit \u00f3culos meos: et \u00e1bii, et lavi, et vidi, et cr\u00e9didi Deo.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sacram\u00e9nta, qu\u00e6 s\u00fampsimus, D\u00f3mine, Deus noster: et spiritu\u00e1libus nos r\u00e9pleant alim\u00e9ntis, et corpor\u00e1libus tue\u00e1ntur aux\u00edliis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-04-03", 
-    "description": "W dzisiejsz\u0105 \u015brod\u0119 odbywa\u0142o si\u0119 wielkie scrutinium, czyli badanie katechumen\u00f3w, od kt\u00f3rego wynik\u00f3w zale\u017ca\u0142o dopuszczenie do Chrztu. Odbywa\u0142a si\u0119 r\u00f3wnie\u017c cze\u015b\u0107 obrz\u0119d\u00f3w wst\u0119pnych Chrztu \u015bw. Katechumenom podawano do skosztowania s\u00f3l, znaczono ich znakiem krzy\u017ca \u015bwi\u0119tego, odprawiano nad nimi egzorcyzmy, a nast\u0119pnie przekazywano im pocz\u0105tki 4 Ewangelii, Wyznanie wiary i Modlitw\u0119 Pa\u0144sk\u0105. Obrz\u0119d ten nazywano \u201eotwarciem uszu\u201d.\nTeksty Mszy \u015aw. m\u00f3wi\u0105 o sakramencie Chrztu. W antyfonie na wej\u015bcie i w 1 lekcji s\u0142yszymy prorocz\u0105 zapowied\u017a Chrztu \u015bw. 2 lekcja i ewangelia omawiaj\u0105 skutki tego Sakramentu: oczyszczenie, o\u015bwiecenie, W antyfonie na ofiarowanie dzi\u0119kujemy Bogu za Odkupienie.\n", 
-    "tempora": null, 
-    "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ezech 36:23-26*\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum.\n*Ps 33:2*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nDum sanctific\u00e1tus f\u00faero in vobis, congreg\u00e1bo vos de univ\u00e9rsis terris: et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris: et dabo vobis sp\u00edritum novum.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui et justis praemia merit\u00f3rum et peccat\u00f3ribus per jej\u00fanium v\u00e9niam pr\u00e6bes: miser\u00e9re suppl\u00edcibus tuis; ut re\u00e1tus nostri conf\u00e9ssio indulg\u00e9ntiam valeat perc\u00edpere delict\u00f3rum.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, quos jej\u00fania votiva cast\u00edgant, ipsa quoque dev\u00f3tio sancta l\u00e6t\u00edficet; ut, terr\u00e9nis aff\u00e9ctibus mitig\u00e1tis, fac\u00edlius coel\u00e9stia capi\u00e1mus.\nPer Dominum.", 
-      "id": "OratioL1", 
-      "label": "OratioL1"
-    }, 
-    {
-      "body": "L\u00e9ctio Isa\u00ed\u00e6 Proph\u00e9t\u00e6.\n*Is 1:16-19*\nH\u00e6c dicit D\u00f3minus Deus: Lav\u00e1mini, mundi est\u00f3te, auf\u00e9rte malum cogitati\u00f3num vestr\u00e1rum ab \u00f3culis meis: qui\u00e9scite \u00e1gere perv\u00e9rse, d\u00edscite benef\u00e1cere: quaerite jud\u00edcium, subven\u00edte oppr\u00e9sso, judic\u00e1te pup\u00edllo, def\u00e9ndite v\u00edduam. Et ven\u00edte et arg\u00faite me, dicit D\u00f3minus: si f\u00faerint pecc\u00e1ta vestra ut c\u00f3ccinum, quasi nix dealbab\u00fantur: et si f\u00faerint rubra quasi verm\u00edculus, velut lana alba erunt. Si volu\u00e9ritis et audi\u00e9ritis me, bona terr\u00e6 comed\u00e9tis: dicit D\u00f3minus omn\u00edpotens.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 36:23-28*\nH\u00e6c dicit D\u00f3minus Deus: Sanctific\u00e1bo nomen meum magnum, quod poll\u00fatum est inter gentes, quod pollu\u00edstis in m\u00e9dio e\u00e1rum: ut sciant gentes, quia ego D\u00f3minus, cum sanctific\u00e1tus Mero in vobis coram eis. Tollam quippe vos de g\u00e9ntibus, et congreg\u00e1bo vos de univ\u00e9rsis terris, et add\u00facam vos in terram vestram. Et eff\u00fandam super vos aquam mundam, et mundab\u00edmini ab \u00f3mnibus inquinam\u00e9ntis vestris, et ab univ\u00e9rsis \u00eddolis vestris mund\u00e1bo vos. Et dabo vobis cor novum, et sp\u00edritum novum ponam in m\u00e9dio vestri: et \u00e1uferam cor lap\u00eddeum de carne vestra, et dabo vobis cor c\u00e1rneum. Et sp\u00edritum meum ponam in m\u00e9dio vestri: et f\u00e1ciam, ut in pr\u00e6c\u00e9ptis meis ambul\u00e9tis, et judicia mea custodi\u00e1tis et oper\u00e9mini. Et habit\u00e1bitis in terra, quam dedi p\u00e1tribus vestris: et \u00e9ritis mihi in p\u00f3pulum, et ego ero vobis in Deum: dicit D\u00f3minus omn\u00edpotens.\nDeo gratias.", 
-      "id": "LectioL1", 
-      "label": "LectioL1"
-    }, 
-    {
-      "body": "*Ps 32:12, 6*\nBe\u00e1ta gens, cujus est D\u00f3minus Deus e\u00f3rum: p\u00f3pulus, quem el\u00e9git D\u00f3minus in heredit\u00e1tem sibi.\nV. Verbo D\u00f3mini coeli firm\u00e1ti sunt: et sp\u00edritu oris ejus omnis virtus e\u00f3rum.\n\n*Tractus*\n*Ps 102:10*\nD\u00f3mine, non sec\u00fandum pecc\u00e1ta nostra, qu\u00e6 f\u00e9cimus nos: neque sec\u00fandum iniquit\u00e1tes nostras retr\u00edbuas nobis.\n*Ps 78:8-9.*\nV. D\u00f3mine, ne mem\u00edneris\niniquit\u00e1tum nostr\u00e1rum antiqu\u00e1rum: cito ant\u00edcipent nos miseric\u00f3rdi\u00e6 tu\u00e6, quia p\u00e1uperes facti sumus nimis. (Hic genuflectitur)\nV. Adjuva nos, Deus, salut\u00e1ris noster: et propter gl\u00f3riam n\u00f3minis tui, D\u00f3mine, l\u00edbera nos: et prop\u00edtius esto pecc\u00e1tis nostris, propter nomen tuum.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 38:12, 6*\nVen\u00edte, f\u00edlii, aud\u00edte me: tim\u00f3rem D\u00f3mini doc\u00e9bo vos.\nV. Acc\u00e9dite ad eum, et illumin\u00e1mini: et f\u00e1cies vestr\u00e6 non confund\u00e9ntur.", 
-      "id": "GradualeL1", 
-      "label": "GradualeL1"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 9:1-38*\nIn illo t\u00e9mpore: Pr\u00e6t\u00e9riens Jesus vidit h\u00f3minem c\u00e6cum a nativit\u00e1te: et interrogav\u00e9runt eum disc\u00edpuli ejus: Rabbi, quis pecc\u00e1vit, hic aut par\u00e9ntes ejus, ut c\u00e6cus nascer\u00e9tur? Resp\u00f3ndit Jesus: Neque hic pecc\u00e1vit neque par\u00e9ntes ejus: sed ut manifest\u00e9ntur \u00f3pera Dei in illo. Me op\u00f3rtet oper\u00e1ri \u00f3pera ejus, qui misit me, donec dies est: venit nox, quando nemo potest oper\u00e1ri. Qu\u00e1mdiu sum in mundo, lux sum mundi. H\u00e6c cum dix\u00edsset, \u00e9xspuit in terram, et fecit lutum ex sputo, et lin\u00edvit lutum super \u00f3culos ejus, et dixit ei: Vade, lava in natat\u00f3ria S\u00edloe (quod interpret\u00e1tur Missus). Abiit ergo, et lavit, et venit videns. Itaque vic\u00edni, et qui v\u00edderant eum prius, quia mend\u00edcus erat, dic\u00e9bant: Nonne hic est, qui sed\u00e9bat et mendic\u00e1bat? Alii dic\u00e9bant: Quia hic est. Alii autem: Nequ\u00e1quam, sed s\u00edmilis est ei. Ille vero dic\u00e9bat: Quia ego sum. Dic\u00e9bant ergo ei: Qu\u00f3modo ap\u00e9rti sunt tibi \u00f3culi? Resp\u00f3ndit: Ille homo, qui d\u00edcitur Jesus, lutum fecit, et unxit oculos meos, et dixit mihi: Vade ad natat\u00f3ria S\u00edloe, et lava. Et \u00e1bii, et lavi, et v\u00eddeo. Et dix\u00e9runt ei: Ubi est ille? Ait: N\u00e9scio. Add\u00facunt eum ad pharisaeos, qui c\u00e6cus f\u00faerat. Erat autem s\u00e1bbatum, quando lutum fecit Jesus, et ap\u00e9ruit \u00f3culos ejus. Iterum ergo interrog\u00e1bant eum pharisaei, qu\u00f3modo vid\u00edsset. Ille autem dixit eis: Lutum mihi posuit super oculos, et lavi, et video. Dic\u00e9bant ergo ex pharis\u00e6is quidam: Non est hic homo a Deo, qui s\u00e1bbatum non cust\u00f3dit. Alii autem dic\u00e9bant: Qu\u00f3modo potest homo peccator h\u00e6c signa facere ? Et schisma erat inter eos. Dicunt ergo c\u00e6co \u00edterum: Tu quid dicis de illo, qui ap\u00e9ruit \u00f3culos tuos? Ille autem dixit: Quia Proph\u00e9ta est. Non credid\u00e9runt ergo Judaei de illo, quia c\u00e6cus fu\u00edsset et vid\u00edsset, donec vocav\u00e9runt par\u00e9ntes ejus, qui v\u00edderat: et interrogav\u00e9runt eos, dic\u00e9ntes: Hic est f\u00edlius vester, quem vos d\u00edcitis, quia c\u00e6cus natus est? Qu\u00f3modo ergo nunc videt? Respond\u00e9runt eis par\u00e9ntes ejus, et dix\u00e9runt: Scimus, quia hic est f\u00edlius noster, et quia c\u00e6cus natus est: qu\u00f3modo autem nunc v\u00eddeat, nesc\u00edmus: aut quis ejus aperuit oculos, nos nesc\u00edmus: ipsum interrog\u00e1te, aetatem habet, ipse de se loquatur. H\u00e6c dix\u00e9runt par\u00e9ntes ejus, qu\u00f3niam tim\u00e9bant Judaeos: jam enim conspir\u00e1verant Judaei, ut, si quis eum confiter\u00e9tur esse Christum, extra synag\u00f3gam f\u00ederet. Propt\u00e9rea par\u00e9ntes ejus dix\u00e9runt: Quia \u00e6tatem habet, ipsum interrog\u00e1te. Vocav\u00e9runt ergo rursum h\u00f3minem, qui f\u00faerat c\u00e6cus, et dix\u00e9runt ei: Da gl\u00f3riam Deo. Nos scimus, quia hic homo pecc\u00e1tor est. Dixit ergo eis ille: Si pecc\u00e1tor est, n\u00e9scio: unum scio, quia, c\u00e6cus cum essem, modo v\u00eddeo. Dix\u00e9runt ergo illi: Quid fecit tibi? qu\u00f3modo ap\u00e9ruit tibi \u00f3culos? Resp\u00f3ndit eis: Dixi vobis jam, et aud\u00edstis: quid \u00edterum vultis aud\u00edre? Numquid et vos vultis disc\u00edpuli ejus f\u00ederi? Male dix\u00e9runt ergo ei, et dix\u00e9runt: Tu disc\u00edpulus ill\u00edus sis: nos autem M\u00f3ysi disc\u00edpuli sumus. Nos scimus, quia Moysi loc\u00fatus est Deus: hunc autem nesc\u00edmus, unde sit. Resp\u00f3ndit ille homo et dixit eis: In hoc enim mir\u00e1bile est, quia vos n\u00e9scitis, unde sit, et ap\u00e9ruit meos \u00f3culos: scimus autem, quia peccat\u00f3res Deus non audit: sed, si quis Dei cultor est et volunt\u00e1tem ejus facit, hunc ex\u00e1udit. A saeculo non est aud\u00edtum, quia quis ap\u00e9ruit \u00f3culos c\u00e6ci nati. Nisi esset hic a Deo, non p\u00f3terat f\u00e1cere quidquam. Respond\u00e9runt et dix\u00e9runt ei: In pecc\u00e1tis natus es totus, et tu doces nos? Et ejec\u00e9runt eum foras. Aud\u00edvit Jesus, quia ejec\u00e9runt eum foras, et cum inven\u00edsset eum, dixit ei: Tu credis in F\u00edlium Dei? Resp\u00f3ndit ille et dixit: Quis est, D\u00f3mine, ut credam in eum? Et dixit ei Jesus: Et vid\u00edsti eum, et qui l\u00f3quitur tecum, ipse est. At ille ait: Credo, D\u00f3mine. (Hic genuflectitur) Et pr\u00f3cidens ador\u00e1vit eum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 65:8-9, 20*\nBened\u00edcite, gentes, D\u00f3minum, Deum nostrum, et obaud\u00edte vocem laudis ejus: qui p\u00f3suit \u00e1nimam meam ad vitam, et non dedit commov\u00e9ri pedes meos: bened\u00edctus D\u00f3minus, qui non am\u00f3vit deprecati\u00f3nem mam, et miseric\u00f3rdiam suam a me.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "S\u00fapplices te rog\u00e1mus, omn\u00edpotens Deus: ut his sacrif\u00edciis pecc\u00e1ta nostra mund\u00e9ntur; quia tunc veram nobis tr\u00edbuis et mentis et c\u00f3rporis sanit\u00e1tem.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joann 9:11*\nLutum fecit ex sputo D\u00f3minus, et lin\u00edvit \u00f3culos meos: et \u00e1bii, et lavi, et vidi, et cr\u00e9didi Deo.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sacram\u00e9nta, qu\u00e6 s\u00fampsimus, D\u00f3mine, Deus noster: et spiritu\u00e1libus nos r\u00e9pleant alim\u00e9ntis, et corpor\u00e1libus tue\u00e1ntur aux\u00edliis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ez 36:23-26*\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry nagradzasz sprawiedliwych, a grzesznikom poszcz\u0105cym udzielasz przebaczenia, zmi\u0142uj si\u0119 nad nami, kt\u00f3rzy Ci\u0119 b\u0142agamy, aby wyznanie naszych win wyjedna\u0142o nam ich przebaczenie.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "1 Kolekta"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, niech \u015bwi\u0119ta s\u0142u\u017cba nape\u0142nia nas rado\u015bci\u0105, gdy umartwiamy si\u0119 zachowuj\u0105c nakazane posty, aby\u015bmy poskromiwszy ziemskie po\u017c\u0105dania \u0142atwiej poj\u0119li prawdy niebieskie.\nPrzez Pana.", 
-      "id": "OratioL1", 
-      "label": "2 Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Izajasza.\n*Iz 1:16-19*\nTo m\u00f3wi Pan B\u00f3g: Obmyjcie si\u0119, oczy\u015b\u0107cie si\u0119, zabierzcie sprzed oczu moich z\u0142o czyn\u00f3w waszych, przesta\u0144cie czyni\u0107 \u017ale, uczcie si\u0119 czyni\u0107 dobrze, szukajcie sprawiedliwo\u015bci, wspomagajcie uci\u015bnionego, zabezpieczcie prawo sierocie, bro\u0144cie wdowy. P\u00f3jd\u017acie, a sp\u00f3r b\u0119dziemy wiedli \u2014 m\u00f3wi Pan \u2014 cho\u0107by grzechy wasze by\u0142y jak szkar\u0142at, jak \u015bnieg wybielej\u0105; cho\u0107by czerwone by\u0142y jak purpura, b\u0119d\u0105 (bia\u0142e) jak we\u0142na. Je\u015bli zechcecie, a pos\u0142uchacie mi\u0119, d\u00f3br ziemi po\u017cywa\u0107 b\u0119dziemy \u2014 m\u00f3wi Pan wszechmog\u0105cy.", 
-      "id": "Lectio", 
-      "label": "6 Lekcja"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 36:23-28*\nTo m\u00f3wi Pan B\u00f3g: Zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 mego wielkiego imienia, kt\u00f3re jest skalane mi\u0119dzy narodami, kt\u00f3re\u015bcie skalali wpo\u015br\u00f3d nich: aby pozna\u0142y narody, \u017ce ja jestem Panem, gdy \u015bwi\u0119to\u015b\u0107 moja wobec nich w was zaja\u015bnieje. Bo zbior\u0119 was z narod\u00f3w i zgromadz\u0119 was ze wszystkich ziem, i przywiod\u0119 was do ziemi waszej. I wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszystkich nieczysto\u015bci waszych, i od wszystkich ba\u0142wan\u00f3w waszych oczyszcz\u0119 was. I dam wam serce nowe i ducha nowego dam do waszych serc; i z waszych cia\u0142 zabior\u0119 serce kamienne, a dam wam serce z \u017cywego cia\u0142a. I Ducha mego dam do waszych serc i sprawi\u0119, \u017ce b\u0119dziecie post\u0119powa\u0107 wed\u0142ug moich praw i strzec b\u0119dziecie mych przykaza\u0144 oraz je czynem wype\u0142nia\u0107. I b\u0119dziecie mieszka\u0107 w ziemi, kt\u00f3r\u0105 da\u0142em ojcom waszym, i b\u0119dziecie mi ludem, a ja wam b\u0119d\u0119 Bogiem \u2014 m\u00f3wi Pan wszechmog\u0105cy.\nBogu dzi\u0119ki.", 
-      "id": "LectioL1", 
-      "label": "1 Lekcja"
-    }, 
-    {
-      "body": "*Ps 32:12, 6*\nB\u0142ogos\u0142awiony lud, kt\u00f3rego Bogiem jest Pan: nar\u00f3d, kt\u00f3ry On sobie wybra\u0142 na dziedzictwo.\nV. Przez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
-      "id": "Graduale", 
-      "label": "6 Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 38:12, 6*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie: naucz\u0119 was boja\u017ani Pa\u0144skiej.\nV. Na Niego patrzcie, aby\u015bcie si\u0119 cieszyli, by oblicza wasze nie dozna\u0142y wstydu.", 
-      "id": "GradualeL1", 
-      "label": "1 Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 9:1-38*\nOnego czasu: Przechodz\u0105c ujrza\u0142 Jezus cz\u0142owieka \u015blepego od urodzenia. I zapytali Go uczniowie Jego: \u00abNauczycielu, kto zgrzeszy\u0142, on czy rodzice jego, \u017ce si\u0119 \u015blepym narodzi\u0142?\u00bb Odpowiedzia\u0142 Jezus: \u00abAni on nie zgrzeszy\u0142, ani rodzice jego, ale aby sprawy Bo\u017ce na nim si\u0119 okaza\u0142y. Ja mam wykonywa\u0107 sprawy Tego, kt\u00f3ry mi\u0119 pos\u0142a\u0142, p\u00f3ki dzie\u0144 jest. Nadchodzi noc, gdy nikt nie b\u0119dzie m\u00f3g\u0142 dzia\u0142a\u0107. P\u00f3ki jestem na \u015bwiecie, jestem \u015bwiat\u0142o\u015bci\u0105 \u015bwiata\u00bb. To powiedziawszy splun\u0105\u0142 na ziemi\u0119, uczyni\u0142 b\u0142oto ze \u015bliny i pomaza\u0142 mu b\u0142otem oczy, m\u00f3wi\u0105c: \u00abId\u017a i obmyj si\u0119 w sadzawce Siloe\u00bb (co znaczy: Pos\u0142any). Odszed\u0142 tedy, obmy\u0142 si\u0119 i wr\u00f3ci\u0142 widz\u0105c.\nA s\u0105siedzi i ci, kt\u00f3rzy go przedtem widzieli, \u017ce by\u0142 \u017cebrakiem, m\u00f3wili: \u00abCzy\u017c to nie ten, co siedzia\u0142 i \u017cebra\u0142?\u00bb Jedni m\u00f3wili, \u017ce to on. A inni, \u017ce nie, ale podobny do niego. A on m\u00f3wi\u0142: \u00abTo ja jestem\u00bb. M\u00f3wili mu tedy: \u00abJak\u017ce ci si\u0119 oczy otworzy\u0142y?\u00bb Odpowiedzia\u0142: \u00abTen cz\u0142owiek, kt\u00f3rego zowi\u0105 Jezusem, uczyni\u0142 b\u0142oto, pomaza\u0142 oczy moje i rzek\u0142 mi: Id\u017a do sadzawki Siloe i obmyj si\u0119. I poszed\u0142em, obmy\u0142em si\u0119 i widz\u0119\u00bb. I rzekli mu: \u00abGdzie\u017c on jest?\u00bb Powiedzia\u0142: \u00abNie wiem\u00bb.\nProwadz\u0105 wi\u0119c tego, kt\u00f3ry by\u0142 \u015blepy, do faryzeusz\u00f3w. A by\u0142 szabat, kiedy Jezus uczyni\u0142 b\u0142oto i wzrok mu przywr\u00f3ci\u0142. Znowu wi\u0119c zapytali go faryzeusze, w jaki spos\u00f3b przejrza\u0142. A on im odpowiedzia\u0142: \u00abNa\u0142o\u017cy\u0142 mi b\u0142oto na oczy i obmy\u0142em si\u0119, a widz\u0119\u00bb. M\u00f3wili tedy niekt\u00f3rzy z faryzeusz\u00f3w: \u00abCz\u0142owiek ten, kt\u00f3ry szabatu nie przestrzega, nie jest od Boga\u00bb. A drudzy m\u00f3wili: \u00abJak\u017ce mo\u017ce cz\u0142owiek grzeszny czyni\u0107 takie cuda?\u00bb I dosz\u0142o do rozdwojenia mi\u0119dzy nimi. M\u00f3wi\u0105 tedy powt\u00f3rnie do \u015blepego: \u00abCo m\u00f3wisz o tym, kt\u00f3ry wzrok ci przywr\u00f3ci\u0142?\u00bb A on powiedzia\u0142: \u00abTo Prorok\u00bb.\n\u017bydzi jednak nie uwierzyli mu, \u017ce by\u0142 \u015blepy i przejrza\u0142, dop\u00f3ki nie przywo\u0142ali rodzic\u00f3w tego, kt\u00f3ry odzyska\u0142 wzrok, i zapytali ich m\u00f3wi\u0105c: \u00abCzy to jest wasz syn, o kt\u00f3rym m\u00f3wicie, \u017ce si\u0119 urodzi\u0142 \u015blepy? Jak\u017ce wi\u0119c teraz widzi?\u00bb Odpowiedzieli im rodzice jego m\u00f3wi\u0105c: \u00abWiemy, \u017ce jest to nasz syn i \u017ce urodzi\u0142 si\u0119 \u015blepy, ale w jaki spos\u00f3b teraz widzi \u2014 nie wiemy, nie wiemy tak\u017ce, kto mu wzrok przywr\u00f3ci\u0142. Jego samego zapytajcie, ma lata, niech sam o sobie m\u00f3wi\u00bb. To m\u00f3wili rodzice jego, poniewa\u017c bali si\u0119 \u017cyd\u00f3w, albowiem \u017cydzi ju\u017c uradzili, \u017ce wy\u0142\u0105cz\u0105 z synagogi tego, kto Go uzna za Chrystusa. Dlatego rodzice jego powiedzieli: \u00abma lata, jego samego zapytajcie\u00bb.\nWezwali tedy powt\u00f3rnie cz\u0142owieka, kt\u00f3ry by\u0142 \u015blepy, i rzekli mu: \u00abOddaj chwa\u0142\u0119 Bogu, my wiemy, \u017ce ten cz\u0142owiek jest grzeszny\u00bb. Ale on im odrzek\u0142: \u00abCzy jest grzeszny, nie wiem; to jedno wiem, \u017ce by\u0142em \u015blepy, a teraz widz\u0119\u00bb. Powiedzieli mu wi\u0119c: \u00abCo ci uczyni\u0142? W jaki spos\u00f3b otworzy\u0142 ci oczy?\u00bb Odrzek\u0142 im: \u00abJu\u017cem wam powiedzia\u0142 i s\u0142yszeli\u015bcie, czemu\u017c znowu s\u0142ysze\u0107 chcecie? Czy i wy chcecie zosta\u0107 jego uczniami?\u00bb\nZ\u0142orzeczyli mu tedy m\u00f3wi\u0105c: \u00abTy b\u0105d\u017a jego uczniem, a my jeste\u015bmy uczniami Moj\u017cesza. My wiemy, \u017ce do Moj\u017cesza przemawia\u0142 B\u00f3g, lecz sk\u0105d jest ten, nie wiemy\u00bb. A odpowiadaj\u0105c \u00f3w cz\u0142owiek rzek\u0142 im: \u00abTo w\u0142a\u015bnie jest dziwne, \u017ce wy nie wiecie, sk\u0105d jest, a otworzy\u0142 oczy moje. Wiemy za\u015b, \u017ce grzesznik\u00f3w B\u00f3g nie wys\u0142uchuje, ale je\u017celi kto\u015b jest czcicielem Boga i wol\u0119 Jego pe\u0142ni, tego wys\u0142uchuje. Od wieku nie s\u0142yszano, aby kto\u015b \u015blepemu od urodzenia wzrok przywr\u00f3ci\u0142. Gdyby ten nie by\u0142 od Boga, nie m\u00f3g\u0142by nic uczyni\u0107\u00bb. A odpowiadaj\u0105c rzekli mu: \u00abW grzechach urodzi\u0142e\u015b si\u0119 ca\u0142y, a nas chcesz poucza\u0107\u00bb. I wyrzucili go precz. Us\u0142ysza\u0142 Jezus, \u017ce go precz wyrzucili, i spotkawszy go rzek\u0142 mu: \u00abCzy wierzysz w Syna Bo\u017cego?\u00bb A on odpowiadaj\u0105c rzek\u0142: \u00abKt\u00f3\u017c to jest, Panie, abym m\u00f3g\u0142 w Niego uwierzy\u0107?\u00bb I rzek\u0142 mu Jezus: \u00abWidzia\u0142e\u015b go ju\u017c, a jest nim ten, kt\u00f3ry m\u00f3wi z tob\u0105\u00bb. A on rzek\u0142: \u00abWierz\u0119, Panie\u00bb (Tu si\u0119 przykl\u0119ka.) I upad\u0142szy z\u0142o\u017cy\u0142 Mu pok\u0142on.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 65:8-9, 20*\nB\u0142ogos\u0142awcie, ludy, Panu Bogu naszemu i s\u0142aw\u0119 Jego chwa\u0142y rozg\u0142o\u015bcie, bo On da\u0142 duszy naszej \u017cycie, a nodze naszej nie da\u0142 si\u0119 powin\u0105\u0107. B\u0142ogos\u0142awiony B\u00f3g, co nie odepchn\u0105\u0142 mej pro\u015bby i nie oddali\u0142 ode mnie mi\u0142osierdzia swego.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Pokornie Ci\u0119 prosimy, wszechmog\u0105cy Bo\u017ce, niech ta ofiara oczy\u015bci nas z grzech\u00f3w, przez to bowiem udzielasz nam prawdziwego zdrowia duszy i cia\u0142a.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 9:11*\nPan uczyni\u0142 b\u0142oto ze \u015bliny i pomaza\u0142 nim moje oczy i poszed\u0142em, umy\u0142em si\u0119 i przejrza\u0142em, i uwierzy\u0142em Bogu.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie, Bo\u017ce nasz, niech Sakrament, kt\u00f3ry przyj\u0119li\u015bmy, nasyci nas pokarmem duchowym i udzieli doczesnej pomocy.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ez 36:23-26*\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nGdy zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 moja w was, zgromadz\u0119 was ze wszystkich ziem i wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszelkich nieczysto\u015bci waszych, i ducha nowego wam dam.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry nagradzasz sprawiedliwych, a grzesznikom poszcz\u0105cym udzielasz przebaczenia, zmi\u0142uj si\u0119 nad nami, kt\u00f3rzy Ci\u0119 b\u0142agamy, aby wyznanie naszych win wyjedna\u0142o nam ich przebaczenie.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "1 Kolekta"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, niech \u015bwi\u0119ta s\u0142u\u017cba nape\u0142nia nas rado\u015bci\u0105, gdy umartwiamy si\u0119 zachowuj\u0105c nakazane posty, aby\u015bmy poskromiwszy ziemskie po\u017c\u0105dania \u0142atwiej poj\u0119li prawdy niebieskie.\nPrzez Pana.", 
+        "id": "OratioL1", 
+        "label": "2 Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Izajasza.\n*Iz 1:16-19*\nTo m\u00f3wi Pan B\u00f3g: Obmyjcie si\u0119, oczy\u015b\u0107cie si\u0119, zabierzcie sprzed oczu moich z\u0142o czyn\u00f3w waszych, przesta\u0144cie czyni\u0107 \u017ale, uczcie si\u0119 czyni\u0107 dobrze, szukajcie sprawiedliwo\u015bci, wspomagajcie uci\u015bnionego, zabezpieczcie prawo sierocie, bro\u0144cie wdowy. P\u00f3jd\u017acie, a sp\u00f3r b\u0119dziemy wiedli \u2014 m\u00f3wi Pan \u2014 cho\u0107by grzechy wasze by\u0142y jak szkar\u0142at, jak \u015bnieg wybielej\u0105; cho\u0107by czerwone by\u0142y jak purpura, b\u0119d\u0105 (bia\u0142e) jak we\u0142na. Je\u015bli zechcecie, a pos\u0142uchacie mi\u0119, d\u00f3br ziemi po\u017cywa\u0107 b\u0119dziemy \u2014 m\u00f3wi Pan wszechmog\u0105cy.", 
+        "id": "Lectio", 
+        "label": "6 Lekcja"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 36:23-28*\nTo m\u00f3wi Pan B\u00f3g: Zaja\u015bnieje \u015bwi\u0119to\u015b\u0107 mego wielkiego imienia, kt\u00f3re jest skalane mi\u0119dzy narodami, kt\u00f3re\u015bcie skalali wpo\u015br\u00f3d nich: aby pozna\u0142y narody, \u017ce ja jestem Panem, gdy \u015bwi\u0119to\u015b\u0107 moja wobec nich w was zaja\u015bnieje. Bo zbior\u0119 was z narod\u00f3w i zgromadz\u0119 was ze wszystkich ziem, i przywiod\u0119 was do ziemi waszej. I wylej\u0119 na was wod\u0119 czyst\u0105, i b\u0119dziecie oczyszczeni od wszystkich nieczysto\u015bci waszych, i od wszystkich ba\u0142wan\u00f3w waszych oczyszcz\u0119 was. I dam wam serce nowe i ducha nowego dam do waszych serc; i z waszych cia\u0142 zabior\u0119 serce kamienne, a dam wam serce z \u017cywego cia\u0142a. I Ducha mego dam do waszych serc i sprawi\u0119, \u017ce b\u0119dziecie post\u0119powa\u0107 wed\u0142ug moich praw i strzec b\u0119dziecie mych przykaza\u0144 oraz je czynem wype\u0142nia\u0107. I b\u0119dziecie mieszka\u0107 w ziemi, kt\u00f3r\u0105 da\u0142em ojcom waszym, i b\u0119dziecie mi ludem, a ja wam b\u0119d\u0119 Bogiem \u2014 m\u00f3wi Pan wszechmog\u0105cy.\nBogu dzi\u0119ki.", 
+        "id": "LectioL1", 
+        "label": "1 Lekcja"
+      }, 
+      {
+        "body": "*Ps 32:12, 6*\nB\u0142ogos\u0142awiony lud, kt\u00f3rego Bogiem jest Pan: nar\u00f3d, kt\u00f3ry On sobie wybra\u0142 na dziedzictwo.\nV. Przez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.\n*Ps 102:10*\nPanie, nie post\u0119puj z nami wed\u0142ug naszych grzech\u00f3w ani nie odp\u0142acaj nam wed\u0142ug win naszych.\n*Ps 78:8-9*\nNie pami\u0119taj, Panie, dawnych nieprawo\u015bci naszych. Niech rych\u0142o wyjdzie ku nam mi\u0142osierdzie Twoje, bo jeste\u015bmy bardzo nieszcz\u0119\u015bliwi. (Tu si\u0119 przykl\u0119ka)\nV. Wspom\u00f3\u017c nas, Bo\u017ce, nasz Zbawicielu, i dla chwa\u0142y imienia Twego wybaw nas, Panie, i odpu\u015b\u0107 nam grzechy dla imienia Twego.", 
+        "id": "Graduale", 
+        "label": "6 Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 38:12, 6*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie: naucz\u0119 was boja\u017ani Pa\u0144skiej.\nV. Na Niego patrzcie, aby\u015bcie si\u0119 cieszyli, by oblicza wasze nie dozna\u0142y wstydu.", 
+        "id": "GradualeL1", 
+        "label": "1 Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 9:1-38*\nOnego czasu: Przechodz\u0105c ujrza\u0142 Jezus cz\u0142owieka \u015blepego od urodzenia. I zapytali Go uczniowie Jego: \u00abNauczycielu, kto zgrzeszy\u0142, on czy rodzice jego, \u017ce si\u0119 \u015blepym narodzi\u0142?\u00bb Odpowiedzia\u0142 Jezus: \u00abAni on nie zgrzeszy\u0142, ani rodzice jego, ale aby sprawy Bo\u017ce na nim si\u0119 okaza\u0142y. Ja mam wykonywa\u0107 sprawy Tego, kt\u00f3ry mi\u0119 pos\u0142a\u0142, p\u00f3ki dzie\u0144 jest. Nadchodzi noc, gdy nikt nie b\u0119dzie m\u00f3g\u0142 dzia\u0142a\u0107. P\u00f3ki jestem na \u015bwiecie, jestem \u015bwiat\u0142o\u015bci\u0105 \u015bwiata\u00bb. To powiedziawszy splun\u0105\u0142 na ziemi\u0119, uczyni\u0142 b\u0142oto ze \u015bliny i pomaza\u0142 mu b\u0142otem oczy, m\u00f3wi\u0105c: \u00abId\u017a i obmyj si\u0119 w sadzawce Siloe\u00bb (co znaczy: Pos\u0142any). Odszed\u0142 tedy, obmy\u0142 si\u0119 i wr\u00f3ci\u0142 widz\u0105c.\nA s\u0105siedzi i ci, kt\u00f3rzy go przedtem widzieli, \u017ce by\u0142 \u017cebrakiem, m\u00f3wili: \u00abCzy\u017c to nie ten, co siedzia\u0142 i \u017cebra\u0142?\u00bb Jedni m\u00f3wili, \u017ce to on. A inni, \u017ce nie, ale podobny do niego. A on m\u00f3wi\u0142: \u00abTo ja jestem\u00bb. M\u00f3wili mu tedy: \u00abJak\u017ce ci si\u0119 oczy otworzy\u0142y?\u00bb Odpowiedzia\u0142: \u00abTen cz\u0142owiek, kt\u00f3rego zowi\u0105 Jezusem, uczyni\u0142 b\u0142oto, pomaza\u0142 oczy moje i rzek\u0142 mi: Id\u017a do sadzawki Siloe i obmyj si\u0119. I poszed\u0142em, obmy\u0142em si\u0119 i widz\u0119\u00bb. I rzekli mu: \u00abGdzie\u017c on jest?\u00bb Powiedzia\u0142: \u00abNie wiem\u00bb.\nProwadz\u0105 wi\u0119c tego, kt\u00f3ry by\u0142 \u015blepy, do faryzeusz\u00f3w. A by\u0142 szabat, kiedy Jezus uczyni\u0142 b\u0142oto i wzrok mu przywr\u00f3ci\u0142. Znowu wi\u0119c zapytali go faryzeusze, w jaki spos\u00f3b przejrza\u0142. A on im odpowiedzia\u0142: \u00abNa\u0142o\u017cy\u0142 mi b\u0142oto na oczy i obmy\u0142em si\u0119, a widz\u0119\u00bb. M\u00f3wili tedy niekt\u00f3rzy z faryzeusz\u00f3w: \u00abCz\u0142owiek ten, kt\u00f3ry szabatu nie przestrzega, nie jest od Boga\u00bb. A drudzy m\u00f3wili: \u00abJak\u017ce mo\u017ce cz\u0142owiek grzeszny czyni\u0107 takie cuda?\u00bb I dosz\u0142o do rozdwojenia mi\u0119dzy nimi. M\u00f3wi\u0105 tedy powt\u00f3rnie do \u015blepego: \u00abCo m\u00f3wisz o tym, kt\u00f3ry wzrok ci przywr\u00f3ci\u0142?\u00bb A on powiedzia\u0142: \u00abTo Prorok\u00bb.\n\u017bydzi jednak nie uwierzyli mu, \u017ce by\u0142 \u015blepy i przejrza\u0142, dop\u00f3ki nie przywo\u0142ali rodzic\u00f3w tego, kt\u00f3ry odzyska\u0142 wzrok, i zapytali ich m\u00f3wi\u0105c: \u00abCzy to jest wasz syn, o kt\u00f3rym m\u00f3wicie, \u017ce si\u0119 urodzi\u0142 \u015blepy? Jak\u017ce wi\u0119c teraz widzi?\u00bb Odpowiedzieli im rodzice jego m\u00f3wi\u0105c: \u00abWiemy, \u017ce jest to nasz syn i \u017ce urodzi\u0142 si\u0119 \u015blepy, ale w jaki spos\u00f3b teraz widzi \u2014 nie wiemy, nie wiemy tak\u017ce, kto mu wzrok przywr\u00f3ci\u0142. Jego samego zapytajcie, ma lata, niech sam o sobie m\u00f3wi\u00bb. To m\u00f3wili rodzice jego, poniewa\u017c bali si\u0119 \u017cyd\u00f3w, albowiem \u017cydzi ju\u017c uradzili, \u017ce wy\u0142\u0105cz\u0105 z synagogi tego, kto Go uzna za Chrystusa. Dlatego rodzice jego powiedzieli: \u00abma lata, jego samego zapytajcie\u00bb.\nWezwali tedy powt\u00f3rnie cz\u0142owieka, kt\u00f3ry by\u0142 \u015blepy, i rzekli mu: \u00abOddaj chwa\u0142\u0119 Bogu, my wiemy, \u017ce ten cz\u0142owiek jest grzeszny\u00bb. Ale on im odrzek\u0142: \u00abCzy jest grzeszny, nie wiem; to jedno wiem, \u017ce by\u0142em \u015blepy, a teraz widz\u0119\u00bb. Powiedzieli mu wi\u0119c: \u00abCo ci uczyni\u0142? W jaki spos\u00f3b otworzy\u0142 ci oczy?\u00bb Odrzek\u0142 im: \u00abJu\u017cem wam powiedzia\u0142 i s\u0142yszeli\u015bcie, czemu\u017c znowu s\u0142ysze\u0107 chcecie? Czy i wy chcecie zosta\u0107 jego uczniami?\u00bb\nZ\u0142orzeczyli mu tedy m\u00f3wi\u0105c: \u00abTy b\u0105d\u017a jego uczniem, a my jeste\u015bmy uczniami Moj\u017cesza. My wiemy, \u017ce do Moj\u017cesza przemawia\u0142 B\u00f3g, lecz sk\u0105d jest ten, nie wiemy\u00bb. A odpowiadaj\u0105c \u00f3w cz\u0142owiek rzek\u0142 im: \u00abTo w\u0142a\u015bnie jest dziwne, \u017ce wy nie wiecie, sk\u0105d jest, a otworzy\u0142 oczy moje. Wiemy za\u015b, \u017ce grzesznik\u00f3w B\u00f3g nie wys\u0142uchuje, ale je\u017celi kto\u015b jest czcicielem Boga i wol\u0119 Jego pe\u0142ni, tego wys\u0142uchuje. Od wieku nie s\u0142yszano, aby kto\u015b \u015blepemu od urodzenia wzrok przywr\u00f3ci\u0142. Gdyby ten nie by\u0142 od Boga, nie m\u00f3g\u0142by nic uczyni\u0107\u00bb. A odpowiadaj\u0105c rzekli mu: \u00abW grzechach urodzi\u0142e\u015b si\u0119 ca\u0142y, a nas chcesz poucza\u0107\u00bb. I wyrzucili go precz. Us\u0142ysza\u0142 Jezus, \u017ce go precz wyrzucili, i spotkawszy go rzek\u0142 mu: \u00abCzy wierzysz w Syna Bo\u017cego?\u00bb A on odpowiadaj\u0105c rzek\u0142: \u00abKt\u00f3\u017c to jest, Panie, abym m\u00f3g\u0142 w Niego uwierzy\u0107?\u00bb I rzek\u0142 mu Jezus: \u00abWidzia\u0142e\u015b go ju\u017c, a jest nim ten, kt\u00f3ry m\u00f3wi z tob\u0105\u00bb. A on rzek\u0142: \u00abWierz\u0119, Panie\u00bb (Tu si\u0119 przykl\u0119ka.) I upad\u0142szy z\u0142o\u017cy\u0142 Mu pok\u0142on.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 65:8-9, 20*\nB\u0142ogos\u0142awcie, ludy, Panu Bogu naszemu i s\u0142aw\u0119 Jego chwa\u0142y rozg\u0142o\u015bcie, bo On da\u0142 duszy naszej \u017cycie, a nodze naszej nie da\u0142 si\u0119 powin\u0105\u0107. B\u0142ogos\u0142awiony B\u00f3g, co nie odepchn\u0105\u0142 mej pro\u015bby i nie oddali\u0142 ode mnie mi\u0142osierdzia swego.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Pokornie Ci\u0119 prosimy, wszechmog\u0105cy Bo\u017ce, niech ta ofiara oczy\u015bci nas z grzech\u00f3w, przez to bowiem udzielasz nam prawdziwego zdrowia duszy i cia\u0142a.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 9:11*\nPan uczyni\u0142 b\u0142oto ze \u015bliny i pomaza\u0142 nim moje oczy i poszed\u0142em, umy\u0142em si\u0119 i przejrza\u0142em, i uwierzy\u0142em Bogu.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie, Bo\u017ce nasz, niech Sakrament, kt\u00f3ry przyj\u0119li\u015bmy, nasyci nas pokarmem duchowym i udzieli doczesnej pomocy.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

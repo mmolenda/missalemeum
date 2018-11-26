@@ -1,156 +1,158 @@
-{
-  "info": {
-    "additional_info": [
-      "Wspomnienie", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Wspomnienie", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-11-24", 
+      "description": "Jan d\u2019Yepez urodzi\u0142 si\u0119 ko\u0142o Avili w Hiszpanii w roku 1542. Maj\u0105c dwadzie\u015bcia lat wst\u0105pi\u0142 do zakonu Karmelit\u00f3w. Sta\u0142 si\u0119 g\u0142\u00f3wnym pomocnikiem \u015bw. Teresy w reformie zakonu. Ukocha\u0142 krzy\u017c Chrystusa i prosi\u0142 Boga, aby nigdy nie brakowa\u0142o mu cierpienia. Modlitwa ta zosta\u0142a wys\u0142uchana. Jego reformatorska dzia\u0142alno\u015b\u0107 sprowadzi\u0142a na\u0144 liczne cierpienia. \u015aw. Jan od Krzy\u017ca g\u0142osi\u0142 konieczno\u015b\u0107 ca\u0142kowitego ogo\u0142ocenia wewn\u0119trznego, aby doj\u015b\u0107 do pe\u0142ni zjednoczenia z Bogiem. Nauk\u0119 swoj\u0105 zawar\u0142 w ksi\u0105\u017ckach pisanych proz\u0105 i wierszem. Umar\u0142 w Ubeda w roku 1591.\n\nWspomnienie \u015bw. Chryzogona, m\u0119czennika. \u015aw. Chryzogon poni\u00f3s\u0142 m\u0119cze\u0144stwo w Akwilei z pocz\u0105tkiem IV wieku. Jego imi\u0119 wymienia si\u0119 w kanonie Mszy \u015bwi\u0119tej.\n", 
+      "tempora": "Pi\u0105tek po 6 Niedzieli po Objawieniu", 
+      "title": "\u015aw. Jana od Krzy\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Eccli 15:5*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum. (Allel\u00faja, allel\u00faja.)\n*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum. (Allel\u00faja, allel\u00faja.)", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui sanctum Jo\u00e1nnem Confess\u00f3rem tuum atque Doctorem perf\u00e9ct\u00e6 sui abnegati\u00f3nis et Crucis amat\u00f3rem ex\u00edmium effec\u00edsti: conc\u00e9de; ut, ejus imitati\u00f3ni j\u00fagiter inh\u00e6r\u00e9ntes, gl\u00f3riam assequ\u00e1mur \u00e6t\u00e9rnam.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nAd\u00e9sto, D\u00f3mine, supplicati\u00f3nibus nostris: ut, qui ex iniquit\u00e1te nostra reos nos esse cogn\u00f3scimus, be\u00e1ti Chrys\u00f3goni M\u00e1rtyris tui intercessi\u00f3ne liber\u00e9mur.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum\n*2 Tim 4:1-8*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vi vos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: pr\u01fddica verbum, insta opport\u00fane, importune: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria, coacerv\u00e1bunt sibi magistros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam del\u00edbor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja.\n*Eccli 45:9*\nAm\u00e1vit eum D\u00f3minus, et orn\u00e1vit eum: stolam gl\u00f3ri\u00e6 \u00ednduit eum. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 5:13-19*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Vos estis sal terr\u00e6. Quod si sal evan\u00faerit, in quo sali\u00e9tur? Ad n\u00edhilum valet ultra, nisi ut mitt\u00e1tur foras, et conculc\u00e9tur ab hom\u00ednibus. Vos estis lux mundi. Non potest c\u00edvitas absc\u00f3ndi supra montem p\u00f3sita. Neque acc\u00e9ndunt luc\u00e9rnam, et ponunt eam sub m\u00f3dio, sed super candel\u00e1brum, ut l\u00faceat \u00f3mnibus qui in domo sunt. Sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum, qui in c\u0153lis est. Nol\u00edte put\u00e1re, qu\u00f3niam veni s\u00f3lvere legem aut proph\u00e9tas: non veni s\u00f3lvere, sed adimpl\u00e9re. Amen, quippe dico vobis, donec tr\u00e1nseat c\u0153lum et terra, jota unum aut unus apex non pr\u00e6ter\u00edbit a lege, donec \u00f3mnia fiant. Qui ergo solvent unum de mand\u00e1tis istis m\u00ednimis, et doc\u00faerit sic h\u00f3mines, m\u00ednimus voc\u00e1bitur in regno c\u0153l\u00f3rum: qui autem f\u00e9cerit et doc\u00faerit, hic magnus voc\u00e1bitur in regno c\u0153l\u00f3rum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus, qu\u00e6 in L\u00edbano est, multiplic\u00e1bitur. (Allel\u00faja.)", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sancti Jo\u00e1nnis Confess\u00f3ris tui atque Doct\u00f3ris nobis, D\u00f3mine, pia non d\u00e9sit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nOblatis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et, interced\u00e9nte be\u00e1to Chrys\u00f3gono M\u00e1rtyre tuo, a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram. (Allel\u00faja.)", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ut nobis, D\u00f3mine, tua sacrif\u00edcia dent sal\u00fatem: be\u00e1tus Jo\u00e1nnes Confessor tuus et Doctor egr\u00e9gius, qu\u01fdsumus, prec\u00e1tor acc\u00e9dat.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nTui, D\u00f3mine, percepti\u00f3ne sacram\u00e9nti, et a nostris mund\u00e9mur occ\u00faltis, et ab h\u00f3stium liber\u00e9mur ins\u00eddiis.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2017-11-24", 
-    "description": "Jan d\u2019Yepez urodzi\u0142 si\u0119 ko\u0142o Avili w Hiszpanii w roku 1542. Maj\u0105c dwadzie\u015bcia lat wst\u0105pi\u0142 do zakonu Karmelit\u00f3w. Sta\u0142 si\u0119 g\u0142\u00f3wnym pomocnikiem \u015bw. Teresy w reformie zakonu. Ukocha\u0142 krzy\u017c Chrystusa i prosi\u0142 Boga, aby nigdy nie brakowa\u0142o mu cierpienia. Modlitwa ta zosta\u0142a wys\u0142uchana. Jego reformatorska dzia\u0142alno\u015b\u0107 sprowadzi\u0142a na\u0144 liczne cierpienia. \u015aw. Jan od Krzy\u017ca g\u0142osi\u0142 konieczno\u015b\u0107 ca\u0142kowitego ogo\u0142ocenia wewn\u0119trznego, aby doj\u015b\u0107 do pe\u0142ni zjednoczenia z Bogiem. Nauk\u0119 swoj\u0105 zawar\u0142 w ksi\u0105\u017ckach pisanych proz\u0105 i wierszem. Umar\u0142 w Ubeda w roku 1591.\n\nWspomnienie \u015bw. Chryzogona, m\u0119czennika. \u015aw. Chryzogon poni\u00f3s\u0142 m\u0119cze\u0144stwo w Akwilei z pocz\u0105tkiem IV wieku. Jego imi\u0119 wymienia si\u0119 w kanonie Mszy \u015bwi\u0119tej.\n", 
-    "tempora": "Pi\u0105tek po 6 Niedzieli po Objawieniu", 
-    "title": "\u015aw. Jana od Krzy\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Eccli 15:5*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum. (Allel\u00faja, allel\u00faja.)\n*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum. (Allel\u00faja, allel\u00faja.)", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui sanctum Jo\u00e1nnem Confess\u00f3rem tuum atque Doctorem perf\u00e9ct\u00e6 sui abnegati\u00f3nis et Crucis amat\u00f3rem ex\u00edmium effec\u00edsti: conc\u00e9de; ut, ejus imitati\u00f3ni j\u00fagiter inh\u00e6r\u00e9ntes, gl\u00f3riam assequ\u00e1mur \u00e6t\u00e9rnam.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nAd\u00e9sto, D\u00f3mine, supplicati\u00f3nibus nostris: ut, qui ex iniquit\u00e1te nostra reos nos esse cogn\u00f3scimus, be\u00e1ti Chrys\u00f3goni M\u00e1rtyris tui intercessi\u00f3ne liber\u00e9mur.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum\n*2 Tim 4:1-8*\nCar\u00edssime: Test\u00edficor coram Deo, et Jesu Christo, qui judicat\u00farus est vi vos et m\u00f3rtuos, per adv\u00e9ntum ips\u00edus et regnum ejus: pr\u01fddica verbum, insta opport\u00fane, importune: \u00e1rgue, \u00f3bsecra, \u00edncrepa in omni pati\u00e9ntia, et doctr\u00edna. Erit enim tempus, cum sanam doctr\u00ednam non sustin\u00e9bunt, sed ad sua desid\u00e9ria, coacerv\u00e1bunt sibi magistros, pruri\u00e9ntes \u00e1uribus, et a verit\u00e1te quidem aud\u00edtum av\u00e9rtent, ad f\u00e1bulas autem convert\u00e9ntur. Tu vero v\u00edgila, in \u00f3mnibus lab\u00f3ra, opus fac Evangel\u00edst\u00e6, minist\u00e9rium tuum \u00edmpie. S\u00f3brius esto. Ego enim jam del\u00edbor, et tempus resoluti\u00f3nis me\u00e6 instat. Bonum cert\u00e1men cert\u00e1vi, cursum consumm\u00e1vi, fidem serv\u00e1vi. In r\u00e9liquo rep\u00f3sita est mihi cor\u00f3na just\u00edti\u00e6, quam reddet mihi D\u00f3minus in illa die, justus judex: non solum autem mihi, sed et iis, qui d\u00edligunt adv\u00e9ntum ejus.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus. Allel\u00faja, allel\u00faja.\n*Eccli 45:9*\nAm\u00e1vit eum D\u00f3minus, et orn\u00e1vit eum: stolam gl\u00f3ri\u00e6 \u00ednduit eum. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 36:30-31*\nOs justi medit\u00e1bitur sapi\u00e9ntiam, et lingua ejus loqu\u00e9tur jud\u00edcium.\nV. Lex Dei ejus in corde ips\u00edus: et non supplantab\u00fantur gressus ejus.\n*Ps 111:1-3*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in s\u01fdculum s\u01fdculi.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 5:13-19*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Vos estis sal terr\u00e6. Quod si sal evan\u00faerit, in quo sali\u00e9tur? Ad n\u00edhilum valet ultra, nisi ut mitt\u00e1tur foras, et conculc\u00e9tur ab hom\u00ednibus. Vos estis lux mundi. Non potest c\u00edvitas absc\u00f3ndi supra montem p\u00f3sita. Neque acc\u00e9ndunt luc\u00e9rnam, et ponunt eam sub m\u00f3dio, sed super candel\u00e1brum, ut l\u00faceat \u00f3mnibus qui in domo sunt. Sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum, qui in c\u0153lis est. Nol\u00edte put\u00e1re, qu\u00f3niam veni s\u00f3lvere legem aut proph\u00e9tas: non veni s\u00f3lvere, sed adimpl\u00e9re. Amen, quippe dico vobis, donec tr\u00e1nseat c\u0153lum et terra, jota unum aut unus apex non pr\u00e6ter\u00edbit a lege, donec \u00f3mnia fiant. Qui ergo solvent unum de mand\u00e1tis istis m\u00ednimis, et doc\u00faerit sic h\u00f3mines, m\u00ednimus voc\u00e1bitur in regno c\u0153l\u00f3rum: qui autem f\u00e9cerit et doc\u00faerit, hic magnus voc\u00e1bitur in regno c\u0153l\u00f3rum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 91:13*\nJustus ut palma flor\u00e9bit: sicut cedrus, qu\u00e6 in L\u00edbano est, multiplic\u00e1bitur. (Allel\u00faja.)", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sancti Jo\u00e1nnis Confess\u00f3ris tui atque Doct\u00f3ris nobis, D\u00f3mine, pia non d\u00e9sit or\u00e1tio: qu\u00e6 et m\u00fanera nostra conc\u00edliet; et tuam nobis indulg\u00e9ntiam semper obt\u00edneat.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nOblatis, qu\u01fdsumus, D\u00f3mine, plac\u00e1re mun\u00e9ribus: et, interced\u00e9nte be\u00e1to Chrys\u00f3gono M\u00e1rtyre tuo, a cunctis nos def\u00e9nde per\u00edculis.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 12:42*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram. (Allel\u00faja.)", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ut nobis, D\u00f3mine, tua sacrif\u00edcia dent sal\u00fatem: be\u00e1tus Jo\u00e1nnes Confessor tuus et Doctor egr\u00e9gius, qu\u01fdsumus, prec\u00e1tor acc\u00e9dat.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nTui, D\u00f3mine, percepti\u00f3ne sacram\u00e9nti, et a nostris mund\u00e9mur occ\u00faltis, et ab h\u00f3stium liber\u00e9mur ins\u00eddiis.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry \u015bw. Jana, Twego Wyznawc\u0119 i Doktora, uczyni\u0142e\u015b szczeg\u00f3lnym mi\u0142o\u015bnikiem Krzy\u017ca i zupe\u0142nego wyrzeczenia si\u0119 siebie, daj nam, aby\u015bmy wytrwale id\u0105c za jego przyk\u0142adem osi\u0105gn\u0119li wiekuist\u0105 chwa\u0142\u0119.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nPrzychyl si\u0119, Panie, do naszych kornych pr\u00f3\u015bb, a \u017ce obci\u0105\u017ceni grzechami u\u015bwiadamiamy sobie nasz\u0105 win\u0119, niech nas wyzwoli wstawiennictwo \u015bw. Chryzogona, Twojego M\u0119czennika.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam ci\u0119 przed Bogiem i przed Jezusem Chrystusem, kt\u00f3ry b\u0119dzie s\u0105dzi\u0142 \u017cywych i umar\u0142ych, przez przyj\u015bcie Jego i przez Jego Kr\u00f3lestwo \u2013 g\u0142o\u015b nauk\u0119, nalegaj w por\u0119 czy nie w por\u0119, przekonywaj, pro\u015b, kar\u0107 ze wszelk\u0105 cierpliwo\u015bci\u0105 i nauk\u0105. Bo nadejdzie czas, \u017ce zdrowej nauki nie \u015bcierpi\u0105, ale wed\u0142ug swych pragnie\u0144 zgromadz\u0105 sobie nauczycieli, a \u017c\u0105dni tego, co \u0142echce ucho, odwr\u00f3c\u0105 s\u0142uch od prawdy i obr\u00f3c\u0105 si\u0119 ku ba\u015bniom.\nAle ty czuwaj, zno\u015b wszystkie trudy, pilnuj obowi\u0105zku g\u0142osiciela Ewangelii, pos\u0142ug\u0119 swoj\u0105 wype\u0142niaj. B\u0105d\u017a rozs\u0105dny. Bo ja ju\u017c si\u0119 gotuje do przelania krwi mojej w ofierze i czas rozwi\u0105zania mego nadchodzi. Toczy\u0142em dobry b\u00f3j, zawodu dokona\u0142em, wiary dochowa\u0142em. Na ostatek od\u0142o\u017cony mi jest wieniec sprawiedliwo\u015bci, kt\u00f3ry mi wr\u0119czy Pan, s\u0119dzia sprawiedliwy, w on dzie\u0144; a nie tylko mnie, ale i tym, kt\u00f3rzy mi\u0142uj\u0105 przyj\u015bcie Jego.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w sercu jego, a kroki si\u0119 jego nie chwiej\u0105. Alleluja, alleluja.\n*Syr 45:9*\nUmi\u0142owa\u0142 go Pan i przyozdobi\u0142, przyodzia\u0142 go szat\u0105 chwa\u0142y. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abWy jeste\u015bcie sol\u0105 ziemi. A je\u015bli s\u00f3l zwietrzeje, czym\u017ce si\u0119 soli\u0107 b\u0119dzie? Na nic si\u0119 wi\u0119cej nie przyda, jeno aby by\u0142a precz wyrzucona i podeptana przez ludzi. Wy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Nie mo\u017ce skry\u0107 si\u0119 miasto na g\u00f3rze le\u017c\u0105ce. Ani te\u017c nie zapalaj\u0105 \u015bwiecy i nie k\u0142ad\u0105 jej pod korzec, ale na \u015bwieczniku, aby \u015bwieci\u0142a wszystkim, kt\u00f3rzy s\u0105 w domu. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech. Nie mniemajcie, \u017cem przyszed\u0142 rozwi\u0105zywa\u0107 Zakon i Prorok\u00f3w: nie przyszed\u0142em rozwi\u0105zywa\u0107, ale wype\u0142ni\u0107. Zaprawd\u0119 bowiem powiadam wam: Dop\u00f3ki nie przemin\u0105 niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni si\u0119 w Zakonie, a\u017c si\u0119 wszystko wype\u0142ni. Kto by tedy przest\u0105pi\u0142 jedno z tych przykaza\u0144 najmniejszych i tak by ludzi naucza\u0142, b\u0119dzie zwany najmniejszym w Kr\u00f3lestwie Niebieskim. A kto by wype\u0142nia\u0142 i naucza\u0142, ten b\u0119dzie zwany wielkim w Kr\u00f3lestwie Niebieskim\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, niech nam nie zabraknie serdecznej modlitwy \u015bwi\u0119tego Jana, Twego Wyznawcy i Doktora, kt\u00f3ra zaleci Tobie nasz\u0105 ofiar\u0119 i wyjedna nam Twoje przebaczenie.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nPanie, daj si\u0119 przeb\u0142aga\u0107 z\u0142o\u017conymi darami, a za wstawiennictwem \u015bw. Chryzogona, Twojego M\u0119czennika, bro\u0144 nas od wszelkich niebezpiecze\u0144stw.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postawi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech \u015bwi\u0119ty Jan, Tw\u00f3j Wyznawca i znamienity Doktor, wstawi si\u0119 jako or\u0119downik, aby ta ofiara Twoja da\u0142a nam zbawienie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Pro S. Chrysogono Mart.*\nPanie, niech przyj\u0119cie Twego Sakramentu oczy\u015bci nas z ukrytych grzech\u00f3w i wybawi od zasadzek nieprzyjacielskich.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry \u015bw. Jana, Twego Wyznawc\u0119 i Doktora, uczyni\u0142e\u015b szczeg\u00f3lnym mi\u0142o\u015bnikiem Krzy\u017ca i zupe\u0142nego wyrzeczenia si\u0119 siebie, daj nam, aby\u015bmy wytrwale id\u0105c za jego przyk\u0142adem osi\u0105gn\u0119li wiekuist\u0105 chwa\u0142\u0119.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nPrzychyl si\u0119, Panie, do naszych kornych pr\u00f3\u015bb, a \u017ce obci\u0105\u017ceni grzechami u\u015bwiadamiamy sobie nasz\u0105 win\u0119, niech nas wyzwoli wstawiennictwo \u015bw. Chryzogona, Twojego M\u0119czennika.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam ci\u0119 przed Bogiem i przed Jezusem Chrystusem, kt\u00f3ry b\u0119dzie s\u0105dzi\u0142 \u017cywych i umar\u0142ych, przez przyj\u015bcie Jego i przez Jego Kr\u00f3lestwo \u2013 g\u0142o\u015b nauk\u0119, nalegaj w por\u0119 czy nie w por\u0119, przekonywaj, pro\u015b, kar\u0107 ze wszelk\u0105 cierpliwo\u015bci\u0105 i nauk\u0105. Bo nadejdzie czas, \u017ce zdrowej nauki nie \u015bcierpi\u0105, ale wed\u0142ug swych pragnie\u0144 zgromadz\u0105 sobie nauczycieli, a \u017c\u0105dni tego, co \u0142echce ucho, odwr\u00f3c\u0105 s\u0142uch od prawdy i obr\u00f3c\u0105 si\u0119 ku ba\u015bniom.\nAle ty czuwaj, zno\u015b wszystkie trudy, pilnuj obowi\u0105zku g\u0142osiciela Ewangelii, pos\u0142ug\u0119 swoj\u0105 wype\u0142niaj. B\u0105d\u017a rozs\u0105dny. Bo ja ju\u017c si\u0119 gotuje do przelania krwi mojej w ofierze i czas rozwi\u0105zania mego nadchodzi. Toczy\u0142em dobry b\u00f3j, zawodu dokona\u0142em, wiary dochowa\u0142em. Na ostatek od\u0142o\u017cony mi jest wieniec sprawiedliwo\u015bci, kt\u00f3ry mi wr\u0119czy Pan, s\u0119dzia sprawiedliwy, w on dzie\u0144; a nie tylko mnie, ale i tym, kt\u00f3rzy mi\u0142uj\u0105 przyj\u015bcie Jego.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego g\u0142osz\u0105 m\u0105dro\u015b\u0107 i j\u0119zyk jego m\u00f3wi to, co s\u0142uszne.\nV. Prawo jego Boga mieszka w sercu jego, a kroki si\u0119 jego nie chwiej\u0105. Alleluja, alleluja.\n*Syr 45:9*\nUmi\u0142owa\u0142 go Pan i przyozdobi\u0142, przyodzia\u0142 go szat\u0105 chwa\u0142y. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abWy jeste\u015bcie sol\u0105 ziemi. A je\u015bli s\u00f3l zwietrzeje, czym\u017ce si\u0119 soli\u0107 b\u0119dzie? Na nic si\u0119 wi\u0119cej nie przyda, jeno aby by\u0142a precz wyrzucona i podeptana przez ludzi. Wy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Nie mo\u017ce skry\u0107 si\u0119 miasto na g\u00f3rze le\u017c\u0105ce. Ani te\u017c nie zapalaj\u0105 \u015bwiecy i nie k\u0142ad\u0105 jej pod korzec, ale na \u015bwieczniku, aby \u015bwieci\u0142a wszystkim, kt\u00f3rzy s\u0105 w domu. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech. Nie mniemajcie, \u017cem przyszed\u0142 rozwi\u0105zywa\u0107 Zakon i Prorok\u00f3w: nie przyszed\u0142em rozwi\u0105zywa\u0107, ale wype\u0142ni\u0107. Zaprawd\u0119 bowiem powiadam wam: Dop\u00f3ki nie przemin\u0105 niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni si\u0119 w Zakonie, a\u017c si\u0119 wszystko wype\u0142ni. Kto by tedy przest\u0105pi\u0142 jedno z tych przykaza\u0144 najmniejszych i tak by ludzi naucza\u0142, b\u0119dzie zwany najmniejszym w Kr\u00f3lestwie Niebieskim. A kto by wype\u0142nia\u0142 i naucza\u0142, ten b\u0119dzie zwany wielkim w Kr\u00f3lestwie Niebieskim\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozro\u015bnie si\u0119 jak cedr na Libanie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy \u015bwi\u0119tego Jana, Twego Wyznawcy i Doktora, kt\u00f3ra zaleci Tobie nasz\u0105 ofiar\u0119 i wyjedna nam Twoje przebaczenie.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nPanie, daj si\u0119 przeb\u0142aga\u0107 z\u0142o\u017conymi darami, a za wstawiennictwem \u015bw. Chryzogona, Twojego M\u0119czennika, bro\u0144 nas od wszelkich niebezpiecze\u0144stw.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postawi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech \u015bwi\u0119ty Jan, Tw\u00f3j Wyznawca i znamienity Doktor, wstawi si\u0119 jako or\u0119downik, aby ta ofiara Twoja da\u0142a nam zbawienie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Pro S. Chrysogono Mart.*\nPanie, niech przyj\u0119cie Twego Sakramentu oczy\u015bci nas z ukrytych grzech\u00f3w i wybawi od zasadzek nieprzyjacielskich.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

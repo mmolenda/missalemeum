@@ -1,156 +1,158 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2018-10-08", 
+      "description": "\u015aw, Brygida urodzi\u0142a si\u0119 w Uppsali w roku 1303. Nale\u017cala do rodziny kr\u00f3lewskiej i zosta\u0142a bardzo wcze\u015bnie wydana za m\u0105\u017c. Wychowa\u0142a o\u015bmioro dzieci, a w\u015br\u00f3d nich \u015bw. Katarzyn\u0119. Za jej zgod\u0105 m\u0105\u017c wst\u0105pi\u0142 do zakonu Cysters\u00f3w. Po jego \u015bmierci \u015bw. Brygida za\u0142o\u017cy\u0142a zakon Naj\u015bwi\u0119tszego Zbawiciela (Brygidki). Pi\u0119tna\u015bcie lat przeby\u0142a w Rzymie, zabiegaj\u0105c o powr\u00f3t papie\u017ca z Awinionu i reform\u0119 Ko\u015bcio\u0142a. Odbywszy pielgrzymk\u0119, do Ziemi \u015awi\u0119tej, zmar\u0142a w Rzymie 23 lipca 1373 roku. \u015aw. Brygida by\u0142a obdarzona niezwyk\u0142ymi \u0142askami mistycznymi. Przepowiedzia\u0142a upadek Krzy\u017cak\u00f3w, jako kar\u0119 za ich zbrodnie.\n\nMsza wsp\u00f3lna nr 29 Cognovi, z wyj\u0105tkiem kolekty.\n", 
+      "tempora": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Brygidy, Wdowy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 118:75; 118:120*\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "D\u00f3mine, Deus noster, qui be\u00e1t\u00e6 Birg\u00edtt\u00e6 per F\u00edlium tuum unig\u00e9nitum secreta coel\u00e9stia revel\u00e1sti: ips\u00edus pia intercessi\u00f3ne da nobis, f\u00e1mulis tuis; in revelati\u00f3ne sempit\u00e9rna gl\u00f3ri\u00e6 tu\u00e6 gaud\u00e9re l\u00e6t\u00e1ntes.\nPer e\u00fandem.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nSanct\u00f3rum Martyrum tu\u00f3rum nos, D\u00f3mine, S\u00e9rgii, Bacchi, Marc\u00e9lli et Apul\u00e9ji be\u00e1ta m\u00e9rita prosequ\u00e1ntur: et tuo semper f\u00e1ciant am\u00f3re ferv\u00e9ntes.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*1 Tim 5:3-10.*\nCar\u00edssime: V\u00edduas h\u00f3nora, qu\u00e6 vere v\u00eddu\u00e6 sunt. Si qua autem v\u00eddua f\u00edlios aut nep\u00f3tes habet, discat primum domum suam r\u00e9gere, et m\u00fatuam vicem r\u00e9ddere par\u00e9ntibus: hoc enim acc\u00e9ptum est coram Deo. Qu\u00e6 autem vere v\u00eddua est et desol\u00e1ta, speret in Deum, et instet obsecrati\u00f3nibus et orati\u00f3nibus nocte ac die. Nam qu\u00e6 in del\u00edciis est, vivens m\u00f3rtua est. Et hoc pr\u01fdcipe, ut irreprehens\u00edbiles sint. Si quis autem su\u00f3rum, et m\u00e1xime domestic\u00f3rum curam non habet, fidem neg\u00e1vit, et est infid\u00e9li det\u00e9rior. V\u00eddua elig\u00e1tur non minus sexag\u00ednta ann\u00f3rum, qu\u00e6 f\u00faerit un\u00edus viri uxor, in op\u00e9ribus bonis testim\u00f3nium habens, si f\u00edlios educ\u00e1vit, si hosp\u00edtio rec\u00e9pit, si sanct\u00f3rum pedes lavit, si tribulati\u00f3nem pati\u00e9ntibus subministr\u00e1vit, si omne opus bonum subsec\u00fata est.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 44:3; 44:5*\nDiff\u00fasa est gr\u00e1tia in labiis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et de ducet te mirab\u00edliter d\u00e9xtera tua. Allel\u00faja, allel\u00faja.\n*Ps 44:5*\nSp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 44:3; 44:5*\nDiff\u00fasa est gr\u00e1tia in labiis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et de ducet te mirab\u00edliter d\u00e9xtera tua.\nV. Veni, Sponsa Christi, \u00e1ccipe coronam, quam tibi D\u00f3minus pr\u00e6par\u00e1vit in \u00e6t\u00e9rnum.\n*Ps 44:8; 44:5*\nDilex\u00edsti just\u00edtiam, et od\u00edsti iniquit\u00e1tem: propt\u00e9rea unxit te Deus, Deus tuus, oleo l\u00e6t\u00edti\u00e6 pr\u00e6 cons\u00f3rtibus tuis.\nV. Sp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:44-52*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: S\u00edmile est regnum c\u0153l\u00f3rum thes\u00e1uro absc\u00f3ndito in agro: quem qui inv\u00e9nit homo, absc\u00f3ndit, et pr\u00e6 g\u00e1udio ill\u00edus vadit, et vendit univ\u00e9rsa, qu\u00e6 habet, et emit agrum illum. Iterum s\u00edmile est regnum c\u0153l\u00f3rum homini negotiat\u00f3ri, qu\u00e6r\u00e9nti bonas margar\u00edtas. Inv\u00e9nta autem una preti\u00f3sa margar\u00edta, \u00e1biit, et v\u00e9ndidit \u00f3mnia, qu\u00e6 h\u00e1buit, et emit eam. Iterum s\u00edmile est regnum c\u0153l\u00f3rum sag\u00e9n\u00e6, miss\u00e6 in mare et ex omni g\u00e9nere p\u00edscium c\u00f3ngreganti. Quam, cum impl\u00e9ta esset educ\u00e9ntes, et secus litus sed\u00e9ntes, eleg\u00e9runt bonos in vasa, malos autem foras mis\u00e9runt. Sic erit in consummati\u00f3ne s\u01fdculi: ex\u00edbunt Angeli, et separ\u00e1bunt malos de m\u00e9dio just\u00f3rum, et mittent eos in cam\u00ednum ignis: ibi erit fletus et stridor d\u00e9ntium. Intellex\u00edstis h\u00e6c \u00f3mnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno c\u0153l\u00f3rum s\u00edmilis est h\u00f3mini patrifam\u00edlias, qui profert de thes\u00e1uro suo nova et v\u00e9tera.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 44:3*\nDiff\u00fasa est gr\u00e1tia in l\u00e1biis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum, et in s\u01fdculum s\u01fdculi, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Ac\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nMajest\u00e1tem tuam nobis, D\u00f3mine, qu\u01fdsumus, h\u00e6c h\u00f3stia reddat immol\u00e1nda plac\u00e1tam, tu\u00f3rum digna postulati\u00f3ne Sanct\u00f3rum.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 44:8*\nDilex\u00edsti just\u00edtiam, et od\u00edsti iniquit\u00e1tem: propt\u00e9rea unxit te Deus, Deus tuus, \u00f3leo l\u00e6t\u00edti\u00e6 pr\u00e6 cons\u00f3rtibus tuis.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nSacram\u00e9ntis, D\u00f3mine, muni\u00e1mur acc\u00e9ptis: et sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum S\u00e9rgii, Bacchi, Marc\u00e9lli et Apul\u00e9ji intercessi\u00f3ne, contra omnes nequ\u00edtias irru\u00e9ntes, annis coel\u00e9stibus proteg\u00e1mur.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-10-08", 
-    "description": "\u015aw, Brygida urodzi\u0142a si\u0119 w Uppsali w roku 1303. Nale\u017cala do rodziny kr\u00f3lewskiej i zosta\u0142a bardzo wcze\u015bnie wydana za m\u0105\u017c. Wychowa\u0142a o\u015bmioro dzieci, a w\u015br\u00f3d nich \u015bw. Katarzyn\u0119. Za jej zgod\u0105 m\u0105\u017c wst\u0105pi\u0142 do zakonu Cysters\u00f3w. Po jego \u015bmierci \u015bw. Brygida za\u0142o\u017cy\u0142a zakon Naj\u015bwi\u0119tszego Zbawiciela (Brygidki). Pi\u0119tna\u015bcie lat przeby\u0142a w Rzymie, zabiegaj\u0105c o powr\u00f3t papie\u017ca z Awinionu i reform\u0119 Ko\u015bcio\u0142a. Odbywszy pielgrzymk\u0119, do Ziemi \u015awi\u0119tej, zmar\u0142a w Rzymie 23 lipca 1373 roku. \u015aw. Brygida by\u0142a obdarzona niezwyk\u0142ymi \u0142askami mistycznymi. Przepowiedzia\u0142a upadek Krzy\u017cak\u00f3w, jako kar\u0119 za ich zbrodnie.\n\nMsza wsp\u00f3lna nr 29 Cognovi, z wyj\u0105tkiem kolekty.\n", 
-    "tempora": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Brygidy, Wdowy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 118:75; 118:120*\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nCogn\u00f3vi, D\u00f3mine, quia \u01fdquitas jud\u00edcia tua, et in verit\u00e1te tua humili\u00e1sti me: conf\u00edge tim\u00f3re tuo carnes meas, a mand\u00e1tis tuis t\u00edmui.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "D\u00f3mine, Deus noster, qui be\u00e1t\u00e6 Birg\u00edtt\u00e6 per F\u00edlium tuum unig\u00e9nitum secreta coel\u00e9stia revel\u00e1sti: ips\u00edus pia intercessi\u00f3ne da nobis, f\u00e1mulis tuis; in revelati\u00f3ne sempit\u00e9rna gl\u00f3ri\u00e6 tu\u00e6 gaud\u00e9re l\u00e6t\u00e1ntes.\nPer e\u00fandem.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nSanct\u00f3rum Martyrum tu\u00f3rum nos, D\u00f3mine, S\u00e9rgii, Bacchi, Marc\u00e9lli et Apul\u00e9ji be\u00e1ta m\u00e9rita prosequ\u00e1ntur: et tuo semper f\u00e1ciant am\u00f3re ferv\u00e9ntes.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*1 Tim 5:3-10.*\nCar\u00edssime: V\u00edduas h\u00f3nora, qu\u00e6 vere v\u00eddu\u00e6 sunt. Si qua autem v\u00eddua f\u00edlios aut nep\u00f3tes habet, discat primum domum suam r\u00e9gere, et m\u00fatuam vicem r\u00e9ddere par\u00e9ntibus: hoc enim acc\u00e9ptum est coram Deo. Qu\u00e6 autem vere v\u00eddua est et desol\u00e1ta, speret in Deum, et instet obsecrati\u00f3nibus et orati\u00f3nibus nocte ac die. Nam qu\u00e6 in del\u00edciis est, vivens m\u00f3rtua est. Et hoc pr\u01fdcipe, ut irreprehens\u00edbiles sint. Si quis autem su\u00f3rum, et m\u00e1xime domestic\u00f3rum curam non habet, fidem neg\u00e1vit, et est infid\u00e9li det\u00e9rior. V\u00eddua elig\u00e1tur non minus sexag\u00ednta ann\u00f3rum, qu\u00e6 f\u00faerit un\u00edus viri uxor, in op\u00e9ribus bonis testim\u00f3nium habens, si f\u00edlios educ\u00e1vit, si hosp\u00edtio rec\u00e9pit, si sanct\u00f3rum pedes lavit, si tribulati\u00f3nem pati\u00e9ntibus subministr\u00e1vit, si omne opus bonum subsec\u00fata est.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 44:3; 44:5*\nDiff\u00fasa est gr\u00e1tia in labiis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et de ducet te mirab\u00edliter d\u00e9xtera tua. Allel\u00faja, allel\u00faja.\n*Ps 44:5*\nSp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 44:3; 44:5*\nDiff\u00fasa est gr\u00e1tia in labiis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum.\nV. Propter verit\u00e1tem et mansuet\u00fadinem et just\u00edtiam: et de ducet te mirab\u00edliter d\u00e9xtera tua.\nV. Veni, Sponsa Christi, \u00e1ccipe coronam, quam tibi D\u00f3minus pr\u00e6par\u00e1vit in \u00e6t\u00e9rnum.\n*Ps 44:8; 44:5*\nDilex\u00edsti just\u00edtiam, et od\u00edsti iniquit\u00e1tem: propt\u00e9rea unxit te Deus, Deus tuus, oleo l\u00e6t\u00edti\u00e6 pr\u00e6 cons\u00f3rtibus tuis.\nV. Sp\u00e9cie tua et pulchrit\u00fadine tua int\u00e9nde, pr\u00f3spere proc\u00e9de et regna.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:44-52*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: S\u00edmile est regnum c\u0153l\u00f3rum thes\u00e1uro absc\u00f3ndito in agro: quem qui inv\u00e9nit homo, absc\u00f3ndit, et pr\u00e6 g\u00e1udio ill\u00edus vadit, et vendit univ\u00e9rsa, qu\u00e6 habet, et emit agrum illum. Iterum s\u00edmile est regnum c\u0153l\u00f3rum homini negotiat\u00f3ri, qu\u00e6r\u00e9nti bonas margar\u00edtas. Inv\u00e9nta autem una preti\u00f3sa margar\u00edta, \u00e1biit, et v\u00e9ndidit \u00f3mnia, qu\u00e6 h\u00e1buit, et emit eam. Iterum s\u00edmile est regnum c\u0153l\u00f3rum sag\u00e9n\u00e6, miss\u00e6 in mare et ex omni g\u00e9nere p\u00edscium c\u00f3ngreganti. Quam, cum impl\u00e9ta esset educ\u00e9ntes, et secus litus sed\u00e9ntes, eleg\u00e9runt bonos in vasa, malos autem foras mis\u00e9runt. Sic erit in consummati\u00f3ne s\u01fdculi: ex\u00edbunt Angeli, et separ\u00e1bunt malos de m\u00e9dio just\u00f3rum, et mittent eos in cam\u00ednum ignis: ibi erit fletus et stridor d\u00e9ntium. Intellex\u00edstis h\u00e6c \u00f3mnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno c\u0153l\u00f3rum s\u00edmilis est h\u00f3mini patrifam\u00edlias, qui profert de thes\u00e1uro suo nova et v\u00e9tera.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 44:3*\nDiff\u00fasa est gr\u00e1tia in l\u00e1biis tuis: propt\u00e9rea bened\u00edxit te Deus in \u00e6t\u00e9rnum, et in s\u01fdculum s\u01fdculi, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Ac\u00e9pta tibi sit, D\u00f3mine, sacr\u00e1t\u00e6 plebis obl\u00e1tio pro tu\u00f3rum hon\u00f3re Sanct\u00f3rum: quorum se m\u00e9ritis de tribulati\u00f3ne percep\u00edsse cogn\u00f3scit aux\u00edlium.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nMajest\u00e1tem tuam nobis, D\u00f3mine, qu\u01fdsumus, h\u00e6c h\u00f3stia reddat immol\u00e1nda plac\u00e1tam, tu\u00f3rum digna postulati\u00f3ne Sanct\u00f3rum.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 44:8*\nDilex\u00edsti just\u00edtiam, et od\u00edsti iniquit\u00e1tem: propt\u00e9rea unxit te Deus, Deus tuus, \u00f3leo l\u00e6t\u00edti\u00e6 pr\u00e6 cons\u00f3rtibus tuis.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nSacram\u00e9ntis, D\u00f3mine, muni\u00e1mur acc\u00e9ptis: et sanct\u00f3rum M\u00e1rtyrum tu\u00f3rum S\u00e9rgii, Bacchi, Marc\u00e9lli et Apul\u00e9ji intercessi\u00f3ne, contra omnes nequ\u00edtias irru\u00e9ntes, annis coel\u00e9stibus proteg\u00e1mur.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 118:75; 118:120*\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie prawem Pana.\nChwa\u0142a Ojcu.\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Panie Bo\u017ce nasz, Ty przez Jednorodzonego Syna Twego objawi\u0142e\u015b \u015bwi\u0119tej Brygidzie niebieskie tajemnice: za jej \u0142askawym or\u0119downictwem daj s\u0142ugom Twoim rado\u015b\u0107 i wesele w objawieniu wiekuistej Twej chwa\u0142y.\nPrzez tego\u017c Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nNiech nas wspieraj\u0105, Panie, b\u0142ogos\u0142awione zas\u0142ugi \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Sergiusza, Bachusa, Marcelego i Apuliusza i niech nas zapalaj\u0105 Twoj\u0105 mi\u0142o\u015bci\u0105.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*1 Tm 5:3-10*\nNajmilszy: Szanuj wdowy, kt\u00f3re prawdziwie s\u0105 wdowami. Lecz je\u015bli kt\u00f3ra wdowa ma dzieci lub wnuk\u00f3w, niech uczy si\u0119 naprz\u00f3d domem swoim zarz\u0105dza\u0107 i wyp\u0142aca\u0107 si\u0119 rodzicom, bo to mi\u0142e jest u Boga. A kt\u00f3ra prawdziwie jest wdow\u0105 i opuszczon\u0105, niechaj ma nadziej\u0119 w Bogu i trwa na pro\u015bbach i modlitwach we dnie i w nocy. Bo kt\u00f3ra w rozkoszach \u017cyje, ju\u017c za \u017cycia jest umar\u0142\u0105. A to przykazuj, aby by\u0142y nienaganne. Je\u015bli kto o swoich, a zw\u0142aszcza o domownikach, nie ma pieczy, wiary si\u0119 zapar\u0142 i gorszy jest od poganina. Wdow\u0119 nale\u017cy obiera\u0107 nie m\u0142odsz\u0105 ni\u017c lat sze\u015b\u0107dziesi\u0119ciu, kt\u00f3ra mia\u0142a jednego tylko m\u0119\u017ca i ma za sob\u0105 \u015bwiadectwo dobrych uczynk\u00f3w, \u017ce dzieci wychowa\u0142a, \u017ce by\u0142a go\u015bcinna, \u017ce nogi \u015bwi\u0119tym obmywa\u0142a, \u017ce wspomaga\u0142a b\u0119d\u0105cych w potrzebie i \u017ce wszelkie dobre uczynki wype\u0142nia\u0142a.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 44:3; 44:5*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.\nV. W obronie wiary i sprawiedliwo\u015bci niech cud\u00f3w dokona Twoja prawica. Alleluja, alleluja.\n*Ps 44:5*\nW chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 44:3; 44:5*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.\nV. W obronie wiary i sprawiedliwo\u015bci niech cud\u00f3w dokona Twoja prawica.\nV. Przyjd\u017a, Oblubienico Chrystusa, przyjmij wieniec, kt\u00f3ry Pan przygotowa\u0142 ci na wieki.\n*Ps 44:8; 44:5*\nMi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.\nV. W chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedzia\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abPodobne jest Kr\u00f3lestwo Niebieskie do skarbu ukrytego w roli, kt\u00f3ry, gdy znalaz\u0142 cz\u0142owiek, skry\u0142, a przej\u0119ty rado\u015bci\u0105 idzie i sprzedaje wszystko, co ma, a kupuje ow\u0105 rol\u0119.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kupcowi, poszukuj\u0105cemu pi\u0119knych pere\u0142. A znalaz\u0142szy jedn\u0105 per\u0142\u0119 kosztown\u0105, poszed\u0142 i sprzeda\u0142 wszystko, co mia\u0142, i naby\u0142 j\u0105.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie do sieci zapuszczonej w morze i zagarniaj\u0105cej ryby wszelkiego rodzaju. I wyci\u0105gn\u0105wszy j\u0105, gdy by\u0142a pe\u0142na, i usiad\u0142szy na brzegu, dobre powybierali do naczy\u0144, a z\u0142e precz wyrzucili.\nTak b\u0119dzie przy ko\u0144cu \u015bwiata. Wyjd\u0105 Anio\u0142owie i wy\u0142\u0105cz\u0105 z\u0142ych spo\u015br\u00f3d sprawiedliwych, i wrzuc\u0105 ich w piec ognisty. Tam b\u0119dzie p\u0142acz i zgrzytanie z\u0119b\u00f3w. Zrozumieli\u015bcie to wszystko?\u00bb M\u00f3wi\u0105 Mu: \u00abTak\u00bb.\nRzek\u0142 im: \u00abPrzeto ka\u017cdy uczony w Pi\u015bmie, bieg\u0142y w nauce o Kr\u00f3lestwie Niebieskim, podobny jest do cz\u0142owieka gospodarza, kt\u00f3ry dobywa ze skarbca swego rzeczy nowe i stare\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 44:3*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci Twoich \u015awi\u0119tych, uznaj\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nProsimy Ci\u0119, Panie, aby ta hostia, kt\u00f3r\u0105 sk\u0142adamy w ofierze, za wstawiennictwem Twoich \u015awi\u0119tych przeb\u0142aga\u0142a Tw\u00f3j majestat.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 44:8*\nMi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Nasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas stale za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nPrzyj\u0119te Sakramenty niech nas uzbroj\u0105, Panie, a pomoc z nieba niech nas wesprze za przyczyn\u0105 \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Sergiusza, Bachusa, Marcelego i Apuliusza przeciw wszelkim gro\u017c\u0105cym nam niebezpiecze\u0144stwom.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 118:75; 118:120*\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie prawem Pana.\nChwa\u0142a Ojcu.\nWiem, Panie, \u017ce s\u0142uszne s\u0105 Twoje wyroki, \u017ce\u015b sprawiedliwie mnie trapi\u0142: dr\u017cy moje cia\u0142o z boja\u017ani przed Tob\u0105, l\u0119kam si\u0119 Twoich wyrok\u00f3w.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Panie Bo\u017ce nasz, Ty przez Jednorodzonego Syna Twego objawi\u0142e\u015b \u015bwi\u0119tej Brygidzie niebieskie tajemnice: za jej \u0142askawym or\u0119downictwem daj s\u0142ugom Twoim rado\u015b\u0107 i wesele w objawieniu wiekuistej Twej chwa\u0142y.\nPrzez tego\u017c Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nNiech nas wspieraj\u0105, Panie, b\u0142ogos\u0142awione zas\u0142ugi \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Sergiusza, Bachusa, Marcelego i Apuliusza i niech nas zapalaj\u0105 Twoj\u0105 mi\u0142o\u015bci\u0105.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*1 Tm 5:3-10*\nNajmilszy: Szanuj wdowy, kt\u00f3re prawdziwie s\u0105 wdowami. Lecz je\u015bli kt\u00f3ra wdowa ma dzieci lub wnuk\u00f3w, niech uczy si\u0119 naprz\u00f3d domem swoim zarz\u0105dza\u0107 i wyp\u0142aca\u0107 si\u0119 rodzicom, bo to mi\u0142e jest u Boga. A kt\u00f3ra prawdziwie jest wdow\u0105 i opuszczon\u0105, niechaj ma nadziej\u0119 w Bogu i trwa na pro\u015bbach i modlitwach we dnie i w nocy. Bo kt\u00f3ra w rozkoszach \u017cyje, ju\u017c za \u017cycia jest umar\u0142\u0105. A to przykazuj, aby by\u0142y nienaganne. Je\u015bli kto o swoich, a zw\u0142aszcza o domownikach, nie ma pieczy, wiary si\u0119 zapar\u0142 i gorszy jest od poganina. Wdow\u0119 nale\u017cy obiera\u0107 nie m\u0142odsz\u0105 ni\u017c lat sze\u015b\u0107dziesi\u0119ciu, kt\u00f3ra mia\u0142a jednego tylko m\u0119\u017ca i ma za sob\u0105 \u015bwiadectwo dobrych uczynk\u00f3w, \u017ce dzieci wychowa\u0142a, \u017ce by\u0142a go\u015bcinna, \u017ce nogi \u015bwi\u0119tym obmywa\u0142a, \u017ce wspomaga\u0142a b\u0119d\u0105cych w potrzebie i \u017ce wszelkie dobre uczynki wype\u0142nia\u0142a.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 44:3; 44:5*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.\nV. W obronie wiary i sprawiedliwo\u015bci niech cud\u00f3w dokona Twoja prawica. Alleluja, alleluja.\n*Ps 44:5*\nW chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 44:3; 44:5*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.\nV. W obronie wiary i sprawiedliwo\u015bci niech cud\u00f3w dokona Twoja prawica.\nV. Przyjd\u017a, Oblubienico Chrystusa, przyjmij wieniec, kt\u00f3ry Pan przygotowa\u0142 ci na wieki.\n*Ps 44:8; 44:5*\nMi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.\nV. W chwale i pi\u0119kno\u015bci swojej wyst\u0105p, walcz zwyci\u0119sko i kr\u00f3luj.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedzia\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abPodobne jest Kr\u00f3lestwo Niebieskie do skarbu ukrytego w roli, kt\u00f3ry, gdy znalaz\u0142 cz\u0142owiek, skry\u0142, a przej\u0119ty rado\u015bci\u0105 idzie i sprzedaje wszystko, co ma, a kupuje ow\u0105 rol\u0119.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kupcowi, poszukuj\u0105cemu pi\u0119knych pere\u0142. A znalaz\u0142szy jedn\u0105 per\u0142\u0119 kosztown\u0105, poszed\u0142 i sprzeda\u0142 wszystko, co mia\u0142, i naby\u0142 j\u0105.\nR\u00f3wnie\u017c podobne jest Kr\u00f3lestwo Niebieskie do sieci zapuszczonej w morze i zagarniaj\u0105cej ryby wszelkiego rodzaju. I wyci\u0105gn\u0105wszy j\u0105, gdy by\u0142a pe\u0142na, i usiad\u0142szy na brzegu, dobre powybierali do naczy\u0144, a z\u0142e precz wyrzucili.\nTak b\u0119dzie przy ko\u0144cu \u015bwiata. Wyjd\u0105 Anio\u0142owie i wy\u0142\u0105cz\u0105 z\u0142ych spo\u015br\u00f3d sprawiedliwych, i wrzuc\u0105 ich w piec ognisty. Tam b\u0119dzie p\u0142acz i zgrzytanie z\u0119b\u00f3w. Zrozumieli\u015bcie to wszystko?\u00bb M\u00f3wi\u0105 Mu: \u00abTak\u00bb.\nRzek\u0142 im: \u00abPrzeto ka\u017cdy uczony w Pi\u015bmie, bieg\u0142y w nauce o Kr\u00f3lestwie Niebieskim, podobny jest do cz\u0142owieka gospodarza, kt\u00f3ry dobywa ze skarbca swego rzeczy nowe i stare\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 44:3*\nWdzi\u0119k rozla\u0142 si\u0119 na Twoich wargach, przeto B\u00f3g pob\u0142ogos\u0142awi\u0142 Ci\u0119 na wieki.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij, Panie, ofiar\u0119, kt\u00f3r\u0105 lud Tobie oddany sk\u0142ada ku czci Twoich \u015awi\u0119tych, uznaj\u0105c, \u017ce dzi\u0119ki ich zas\u0142ugom dozna\u0142 pomocy w ucisku.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nProsimy Ci\u0119, Panie, aby ta hostia, kt\u00f3r\u0105 sk\u0142adamy w ofierze, za wstawiennictwem Twoich \u015awi\u0119tych przeb\u0142aga\u0142a Tw\u00f3j majestat.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 44:8*\nMi\u0142ujesz sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego B\u00f3g, tw\u00f3j B\u00f3g, nama\u015bci\u0142 ci\u0119 olejkiem wesela obficiej ni\u017c twe towarzyszki.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Nasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas stale za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus*\nPrzyj\u0119te Sakramenty niech nas uzbroj\u0105, Panie, a pomoc z nieba niech nas wesprze za przyczyn\u0105 \u015bwi\u0119tych Twoich M\u0119czennik\u00f3w Sergiusza, Bachusa, Marcelego i Apuliusza przeciw wszelkim gro\u017c\u0105cym nam niebezpiecze\u0144stwom.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

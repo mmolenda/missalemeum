@@ -1,146 +1,148 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2018-04-25", 
+      "description": "\u015aw. Marek pochodzi\u0142 z Jerozolimy. Towarzyszy\u0142 \u015bw. Paw\u0142owi w pocz\u0105tkach pierwszej podr\u00f3\u017cy misyjnej. P\u00f3\u017aniej wraz ze \u015bw. Barnab\u0105 g\u0142osi\u0142 Ewangeli\u0119 na Cyprze. Szczeg\u00f3lnie \u015bcis\u0142e wi\u0119zy \u0142\u0105czy\u0142y go ze \u015bw. Piotrem, kt\u00f3remu s\u0142u\u017cy\u0142 jako t\u0142umacz i sekretarz. Ustn\u0105 katechez\u0119 Ksi\u0119cia Aposto\u0142\u00f3w spisa\u0142 w swojej Ewangelii. Dawna tradycja przypisuje \u015bw. Markowi za\u0142o\u017cenie Ko\u015bcio\u0142a w Aleksandrii. Relikwie jego spoczywaj\u0105 w Wenecji.\n", 
+      "tempora": "\u015aroda po 3 Niedzieli po Wielkanocy", 
+      "title": "\u015aw. Marka Ewangelisty"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 63:3*\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja. allel\u00faja.\n*Ps 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a timore inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja. allel\u00faja.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Marcum Evangel\u00edstam tuum evang\u00e9lic\u00e6 pr\u00e6dicati\u00f3nis gr\u00e1tia sublim\u00e1sti: tr\u00edbue, qu\u01fdsumus; ejus nos semper et eruditi\u00f3ne prof\u00edcere et orati\u00f3ne def\u00e9ndi.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro rogationibus*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui in afflicti\u00f3ne nostra de tua piet\u00e1te conf\u00eddimus; contra adv\u00e9rsa \u00f3mnia, tua semper protecti\u00f3ne muni\u00e1mur.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 1:10-14*\nSimilit\u00fado vultus qu\u00e1tuor anim\u00e1lium: f\u00e1cies h\u00f3minis, et f\u00e1cies le\u00f3nis a dextris ips\u00f3rum quatuor: f\u00e1cies autem bovis a sin\u00edstris ips\u00f3rum qu\u00e1tuor, et f\u00e1cies \u00e1quil\u00e6 d\u00e9super ips\u00f3rum qu\u00e1tuor. F\u00e1cies e\u00f3rum et penn\u00e6 e\u00f3rum ext\u00e9nt\u00e6 d\u00e9super: du\u00e6 penn\u00e6 singul\u00f3rum jungeb\u00e1ntur et du\u00e6 teg\u00e9bant c\u00f3rpora e\u00f3rum: et unumqu\u00f3dque e\u00f3rum coram f\u00e1cie sua ambul\u00e1bat: ubi erat \u00edmpetus sp\u00edritus, illuc gradieb\u00e1ntur, nec reverteb\u00e1ntur cum ambul\u00e1rent. Et similit\u00fado anim\u00e1lium, asp\u00e9ctus e\u00f3rum quasi carb\u00f3num ignis ard\u00e9ntium et quasi asp\u00e9ctus lampad\u00e1rum. H\u00e6c erat visio disc\u00farrens in m\u00e9dio anim\u00e1lium, splendor ignis, et de igne fulgur egr\u00e9diens. Et anim\u00e1lia ibant et reverteb\u00e1ntur in similit\u00fadinem f\u00falguris corusc\u00e1ntis.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Allel\u00faja, allel\u00faja.\n*Ps 88:6*\nConfiteb\u00fantur coeli mirab\u00edlia tua, D\u00f3mine: \u00e9tenim verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum. Allel\u00faja.\n*Ps 20:4.*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dic\u00e9bat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte portare sacculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:6*\nConfiteb\u00fantur coeli mirab\u00edlia tua, D\u00f3mine: et verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum, allel\u00faja. allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Be\u00e1ti Marci Evangel\u00edst\u00e6 tui sollemnit\u00e1te tibi m\u00fanera defer\u00e9ntes, qu\u01fdsumus, D\u00f3mine: ut, sicut illum pr\u00e6dic\u00e1tio evang\u00e9lica fecit glori\u00f3sum: ita nos ejus interc\u00e9ssio et verbo et \u00f3pere tibi reddat acc\u00e9ptos.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro rogationibus*\nH\u00e6c m\u00fanera, qu\u01fdsumus, D\u00f3mine, et v\u00edncula nostr\u00e6 pravit\u00e1tis abs\u00f3lvant, et tu\u00e6 nobis miseric\u00f3rdi\u00e6 dona conc\u00edlient.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 63:11*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde, allel\u00faja. allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Tr\u00edbuant nobis, qu\u01fdsumus, D\u00f3mine, cont\u00ednuum tua sancta pr\u00e6s\u00eddium: quo, be\u00e1ti Marci evangel\u00edst\u00e6 tui pr\u00e9cibus, nos ab \u00f3mnibus semper tue\u00e1ntur adv\u00e9rsis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro rogationibus*\nVota nostra, qu\u01fdsumus, D\u00f3mine, pio favore pros\u00e9quere: ut, dum dona tua in tribulati\u00f3ne perc\u00edpimus, de consolati\u00f3ne nostra in tuo am\u00f3re cresc\u00e1mus.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-04-25", 
-    "description": "\u015aw. Marek pochodzi\u0142 z Jerozolimy. Towarzyszy\u0142 \u015bw. Paw\u0142owi w pocz\u0105tkach pierwszej podr\u00f3\u017cy misyjnej. P\u00f3\u017aniej wraz ze \u015bw. Barnab\u0105 g\u0142osi\u0142 Ewangeli\u0119 na Cyprze. Szczeg\u00f3lnie \u015bcis\u0142e wi\u0119zy \u0142\u0105czy\u0142y go ze \u015bw. Piotrem, kt\u00f3remu s\u0142u\u017cy\u0142 jako t\u0142umacz i sekretarz. Ustn\u0105 katechez\u0119 Ksi\u0119cia Aposto\u0142\u00f3w spisa\u0142 w swojej Ewangelii. Dawna tradycja przypisuje \u015bw. Markowi za\u0142o\u017cenie Ko\u015bcio\u0142a w Aleksandrii. Relikwie jego spoczywaj\u0105 w Wenecji.\n", 
-    "tempora": "\u015aroda po 3 Niedzieli po Wielkanocy", 
-    "title": "\u015aw. Marka Ewangelisty"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 63:3*\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja. allel\u00faja.\n*Ps 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a timore inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja. allel\u00faja.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Marcum Evangel\u00edstam tuum evang\u00e9lic\u00e6 pr\u00e6dicati\u00f3nis gr\u00e1tia sublim\u00e1sti: tr\u00edbue, qu\u01fdsumus; ejus nos semper et eruditi\u00f3ne prof\u00edcere et orati\u00f3ne def\u00e9ndi.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro rogationibus*\nPr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui in afflicti\u00f3ne nostra de tua piet\u00e1te conf\u00eddimus; contra adv\u00e9rsa \u00f3mnia, tua semper protecti\u00f3ne muni\u00e1mur.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ezechi\u00e9lis Proph\u00e9t\u00e6.\n*Ezech 1:10-14*\nSimilit\u00fado vultus qu\u00e1tuor anim\u00e1lium: f\u00e1cies h\u00f3minis, et f\u00e1cies le\u00f3nis a dextris ips\u00f3rum quatuor: f\u00e1cies autem bovis a sin\u00edstris ips\u00f3rum qu\u00e1tuor, et f\u00e1cies \u00e1quil\u00e6 d\u00e9super ips\u00f3rum qu\u00e1tuor. F\u00e1cies e\u00f3rum et penn\u00e6 e\u00f3rum ext\u00e9nt\u00e6 d\u00e9super: du\u00e6 penn\u00e6 singul\u00f3rum jungeb\u00e1ntur et du\u00e6 teg\u00e9bant c\u00f3rpora e\u00f3rum: et unumqu\u00f3dque e\u00f3rum coram f\u00e1cie sua ambul\u00e1bat: ubi erat \u00edmpetus sp\u00edritus, illuc gradieb\u00e1ntur, nec reverteb\u00e1ntur cum ambul\u00e1rent. Et similit\u00fado anim\u00e1lium, asp\u00e9ctus e\u00f3rum quasi carb\u00f3num ignis ard\u00e9ntium et quasi asp\u00e9ctus lampad\u00e1rum. H\u00e6c erat visio disc\u00farrens in m\u00e9dio anim\u00e1lium, splendor ignis, et de igne fulgur egr\u00e9diens. Et anim\u00e1lia ibant et reverteb\u00e1ntur in similit\u00fadinem f\u00falguris corusc\u00e1ntis.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "Allel\u00faja, allel\u00faja.\n*Ps 88:6*\nConfiteb\u00fantur coeli mirab\u00edlia tua, D\u00f3mine: \u00e9tenim verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum. Allel\u00faja.\n*Ps 20:4.*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et alios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dic\u00e9bat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte portare sacculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:6*\nConfiteb\u00fantur coeli mirab\u00edlia tua, D\u00f3mine: et verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum, allel\u00faja. allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Be\u00e1ti Marci Evangel\u00edst\u00e6 tui sollemnit\u00e1te tibi m\u00fanera defer\u00e9ntes, qu\u01fdsumus, D\u00f3mine: ut, sicut illum pr\u00e6dic\u00e1tio evang\u00e9lica fecit glori\u00f3sum: ita nos ejus interc\u00e9ssio et verbo et \u00f3pere tibi reddat acc\u00e9ptos.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro rogationibus*\nH\u00e6c m\u00fanera, qu\u01fdsumus, D\u00f3mine, et v\u00edncula nostr\u00e6 pravit\u00e1tis abs\u00f3lvant, et tu\u00e6 nobis miseric\u00f3rdi\u00e6 dona conc\u00edlient.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*de Apostolis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re: Te, D\u00f3mine, suppl\u00edciter exor\u00e1re, ut gregem tuum, Pastor \u00e6t\u00e9rne, non d\u00e9seras: sed per be\u00e1tos Ap\u00f3stolos tuos cont\u00ednua protecti\u00f3ne cust\u00f3dias. Ut i\u00edsdem rect\u00f3ribus gubern\u00e9tur, quos \u00f3peris tui vic\u00e1rios e\u00eddem contul\u00edsti pr\u00e6\u00e9sse past\u00f3res. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 63:11*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde, allel\u00faja. allel\u00faja.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Tr\u00edbuant nobis, qu\u01fdsumus, D\u00f3mine, cont\u00ednuum tua sancta pr\u00e6s\u00eddium: quo, be\u00e1ti Marci evangel\u00edst\u00e6 tui pr\u00e9cibus, nos ab \u00f3mnibus semper tue\u00e1ntur adv\u00e9rsis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro rogationibus*\nVota nostra, qu\u01fdsumus, D\u00f3mine, pio favore pros\u00e9quere: ut, dum dona tua in tribulati\u00f3ne perc\u00edpimus, de consolati\u00f3ne nostra in tuo am\u00f3re cresc\u00e1mus.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry zaszczyci\u0142e\u015b \u015bw. Marka, Twego Ewangelist\u0119, \u0142ask\u0105 przepowiadania Ewangelii; daj, prosimy, aby\u015bmy zawsze odnosili po\u017cytek z jego nauki i znajdowali obron\u0119 w jego modlitwie.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Wspomnienie Dni Krzy\u017cowych*\nWszechmog\u0105cy Bo\u017ce, w naszym utrapieniu ufamy Twojej dobroci; spraw, prosimy, aby Twoja opieka broni\u0142a nas od wszelkich przeciwno\u015bci.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 1:10-14*\n*Proroctwo Ezechiela rozpoczyna si\u0119 wizj\u0105 tronu Bo\u017cego, unoszonego przez cztery symboliczne zwierz\u0119ta. Ka\u017cde z nich ma cztery oblicza. Tradycja chrze\u015bcija\u0144ska upatruje w nich symbole Ewangelist\u00f3w. Poniewa\u017c \u015bw. Marek rozpoczyna swoj\u0105 Ewangeli\u0119 opisem dzia\u0142alno\u015bci \u015bw. Jana na puszczy, symbolem jego jest lew.*\nPodobie\u0144stwo wygl\u0105du czterech zwierz\u0105t: po prawej ich stronie cztery ludzkie oblicza i lwie; cztery za\u015b oblicza wo\u0142u po lewej ich stronie, ponad nimi cztery oblicza or\u0142a. Oblicza ich i skrzyd\u0142a ku g\u00f3rze wyci\u0105gni\u0119te: dwa skrzyd\u0142a ka\u017cdego \u0142\u0105czy\u0142y si\u0119 ze sob\u0105, a dwa okrywa\u0142y ich cia\u0142a. A ka\u017cde z nich porusza\u0142o si\u0119 na wprost swego oblicza; gdzie by\u0142 gwa\u0142towny poryw wichru, tamt\u0119dy kroczy\u0142y, a id\u0105c nie obraca\u0142y si\u0119.\nA podobie\u0144stwo zwierz\u0105t: wygl\u0105d ich niby w\u0119gli ogniem roz\u017carzonych i jakby wygl\u0105d pochodni. To by\u0142o widzenie przebiegaj\u0105ce w\u015br\u00f3d zwierz\u0105t: blask ognia, a z ognia wychodz\u0105ca b\u0142yskawica. A zwierz\u0119ta sz\u0142y i wraca\u0142y na podobie\u0144stwo po\u0142yskuj\u0105cego ognia.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adaj\u0105c Ci dary w uroczysto\u015b\u0107 \u015bw. Marka Twego Ewangelisty, prosimy Ci\u0119, Panie, aby jego or\u0119downictwo tak uczyni\u0142o nas mi\u0142ymi Tobie w s\u0142owach i uczynkach, jak przepowiadanie Ewangelii przynios\u0142o mu chwa\u0142\u0119.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Wspomnienie Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, niech ta ofiara oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twojego mi\u0142osierdzia.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech Tw\u00f3j Sakrament stanie si\u0119 dla nas \u017ar\u00f3d\u0142em nieustannej pomocy, a dzi\u0119ki mod\u0142om \u015bw. Marka, Ewangelisty, niech nas zawsze broni od wszelkich przeciwno\u015bci.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Wspomnienie Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, przyjmij nasze modlitwy z ojcowsk\u0105 dobroci\u0105, a gdy w\u015br\u00f3d utrapie\u0144 otrzymujemy Twoje dary, niechaj Twa pociecha wzmaga nasz\u0105 mi\u0142o\u015b\u0107 ku Tobie.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry zaszczyci\u0142e\u015b \u015bw. Marka, Twego Ewangelist\u0119, \u0142ask\u0105 przepowiadania Ewangelii; daj, prosimy, aby\u015bmy zawsze odnosili po\u017cytek z jego nauki i znajdowali obron\u0119 w jego modlitwie.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Wspomnienie Dni Krzy\u017cowych*\nWszechmog\u0105cy Bo\u017ce, w naszym utrapieniu ufamy Twojej dobroci; spraw, prosimy, aby Twoja opieka broni\u0142a nas od wszelkich przeciwno\u015bci.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Proroka Ezechiela.\n*Ez 1:10-14*\n*Proroctwo Ezechiela rozpoczyna si\u0119 wizj\u0105 tronu Bo\u017cego, unoszonego przez cztery symboliczne zwierz\u0119ta. Ka\u017cde z nich ma cztery oblicza. Tradycja chrze\u015bcija\u0144ska upatruje w nich symbole Ewangelist\u00f3w. Poniewa\u017c \u015bw. Marek rozpoczyna swoj\u0105 Ewangeli\u0119 opisem dzia\u0142alno\u015bci \u015bw. Jana na puszczy, symbolem jego jest lew.*\nPodobie\u0144stwo wygl\u0105du czterech zwierz\u0105t: po prawej ich stronie cztery ludzkie oblicza i lwie; cztery za\u015b oblicza wo\u0142u po lewej ich stronie, ponad nimi cztery oblicza or\u0142a. Oblicza ich i skrzyd\u0142a ku g\u00f3rze wyci\u0105gni\u0119te: dwa skrzyd\u0142a ka\u017cdego \u0142\u0105czy\u0142y si\u0119 ze sob\u0105, a dwa okrywa\u0142y ich cia\u0142a. A ka\u017cde z nich porusza\u0142o si\u0119 na wprost swego oblicza; gdzie by\u0142 gwa\u0142towny poryw wichru, tamt\u0119dy kroczy\u0142y, a id\u0105c nie obraca\u0142y si\u0119.\nA podobie\u0144stwo zwierz\u0105t: wygl\u0105d ich niby w\u0119gli ogniem roz\u017carzonych i jakby wygl\u0105d pochodni. To by\u0142o widzenie przebiegaj\u0105ce w\u015br\u00f3d zwierz\u0105t: blask ognia, a z ognia wychodz\u0105ca b\u0142yskawica. A zwierz\u0119ta sz\u0142y i wraca\u0142y na podobie\u0144stwo po\u0142yskuj\u0105cego ognia.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adaj\u0105c Ci dary w uroczysto\u015b\u0107 \u015bw. Marka Twego Ewangelisty, prosimy Ci\u0119, Panie, aby jego or\u0119downictwo tak uczyni\u0142o nas mi\u0142ymi Tobie w s\u0142owach i uczynkach, jak przepowiadanie Ewangelii przynios\u0142o mu chwa\u0142\u0119.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Wspomnienie Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, niech ta ofiara oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twojego mi\u0142osierdzia.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja o Aposto\u0142ach*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne b\u0142aga\u0107 Ci\u0119 pokornie, Panie, Pasterzu wiekuisty, aby\u015b nie opuszcza\u0142 swojej owczarni, lecz przez \u015bwi\u0119tych Aposto\u0142\u00f3w swoich otacza\u0142 j\u0105 ci\u0105g\u0142\u0105 opiek\u0105. Niech ci zwierzchnicy ni\u0105 kieruj\u0105, kt\u00f3rym jako namiestnikom swojego dzie\u0142a zleci\u0142e\u015b w\u0142adz\u0119 pastersk\u0105.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech Tw\u00f3j Sakrament stanie si\u0119 dla nas \u017ar\u00f3d\u0142em nieustannej pomocy, a dzi\u0119ki mod\u0142om \u015bw. Marka, Ewangelisty, niech nas zawsze broni od wszelkich przeciwno\u015bci.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Wspomnienie Dni Krzy\u017cowych*\nProsimy Ci\u0119, Panie, przyjmij nasze modlitwy z ojcowsk\u0105 dobroci\u0105, a gdy w\u015br\u00f3d utrapie\u0144 otrzymujemy Twoje dary, niechaj Twa pociecha wzmaga nasz\u0105 mi\u0142o\u015b\u0107 ku Tobie.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

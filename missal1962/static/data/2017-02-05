@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-02-05", 
+      "description": "W\u015br\u00f3d ciemno\u015bci szatan sieje na roli Bo\u017cej k\u0105kol. Konieczne jest oddzielenie tego chwastu. B\u00f3g czeka jednak do czasu \u017cniwa, to jest do S\u0105du Ostatecznego, na kt\u00f3rym oddzieli z\u0142ych od dobrych. W przypowie\u015bci Chrystus nazywa Boga ojcem rodziny. Do tej ojcowskiej dobroci odwo\u0142ujemy si\u0119 w dzisiejszej kolekcie. W poczuciu winy sk\u0142adamy przeb\u0142agaln\u0105 ofiar\u0119 i prosimy, aby B\u00f3g sam kierowa\u0142 nasz\u0105 chwiejn\u0105 wol\u0105.\n", 
+      "tempora": null, 
+      "title": "5 Niedziela po Objawieniu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 96:7-8.*\nAdor\u00e1te Deum, omnes Angeli ejus: aud\u00edvit, et l\u00e6t\u00e1ta est Sion: et exsultav\u00e9runt f\u00edli\u00e6 Jud\u00e6.\n*Ps 96:1*\nD\u00f3minus regn\u00e1vit, exs\u00faltet terra: l\u00e6t\u00e9ntur \u00ednsul\u00e6 mult\u00e6.\nGl\u00f3ria Patri.\nAdor\u00e1te Deum, omnes Angeli ejus: aud\u00edvit, et l\u00e6t\u00e1ta est Sion: et exsultav\u00e9runt f\u00edli\u00e6 Jud\u00e6.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Fam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut, qu\u00e6 in sola spe gr\u00e1ti\u00e6 c\u0153l\u00e9stis inn\u00edtitur, tua semper protecti\u00f3ne muni\u00e1tur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses\n*Col 3:12-17*\nFratres: Ind\u00faite vos sicut electi Dei, sancti et dilecti, v\u00edscera miseric\u00f3rdi\u00e6, benignit\u00e1tem, humilit\u00e1tem, mod\u00e9stiam, pati\u00e9ntiam: support\u00e1ntes \u00ednvicem, et don\u00e1ntes vobismet\u00edpsis, si quis adv\u00e9rsus \u00e1liquem habet quer\u00e9lam: sicut et D\u00f3minus don\u00e1vit vobis, ita et vos. Super \u00f3mnia autem h\u00e6c carit\u00e1tem hab\u00e9te, quod est v\u00ednculum perfectionis: et pax Christi exs\u00faltet in c\u00f3rdibus vestris, in qua et voc\u00e1ti estis in uno c\u00f3rpore: et grati est\u00f3te. Verbum Christi h\u00e1bitet in vobis abund\u00e1nter, in omni sapi\u00e9ntia, doc\u00e9ntes et common\u00e9ntes vosmet\u00edpsos psalmis, hymnis et c\u00e1nticis spiritu\u00e1libus, in gr\u00e1tia cant\u00e1ntes in c\u00f3rdibus vestris Deo. Omne, quodc\u00famque f\u00e1citis in verbo aut in \u00f3pere, \u00f3mnia in n\u00f3mine D\u00f3mini Jesu Christi, gr\u00e1tias ag\u00e9ntes Deo et Patri per Jesum Christum, D\u00f3minum nostrum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 101:16-17*\nTim\u00e9bunt gentes nomen tuum, D\u00f3mine, et omnes reges terr\u00e6 gl\u00f3riam tuam.\nV. Qu\u00f3niam \u00e6dific\u00e1vit D\u00f3minus Sion, et vid\u00e9bitur in majest\u00e1te sua. Allel\u00faja, allel\u00faja.\n*Ps 96:1*\nV. D\u00f3minus regn\u00e1vit, exs\u00faltet terra: l\u00e6t\u00e9ntur \u00ednsul\u00e6 mult\u00e6. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:24-30*\nIn illo t\u00e9mpore: Dixit Jesus turbis par\u00e1bolam hanc: S\u00edmile factum est regnum c\u0153l\u00f3rum h\u00f3mini, qui semin\u00e1vit bonum semen in agro suo. Cum autem dorm\u00edrent h\u00f3mines, venit inim\u00edcus ejus, et supersemin\u00e1vit ziz\u00e1nia in m\u00e9dio tr\u00edtici, et \u00e1biit. Cum autem crev\u00edsset herba et fructum fec\u00edsset, tunc apparu\u00e9runt et ziz\u00e1nia. Acced\u00e9ntes autem servi patrisfam\u00edlias, dix\u00e9runt ei: D\u00f3mine, nonne bonum semen semin\u00e1sti in agro tuo? Unde ergo habet ziz\u00e1nia? Et ait illis: Inim\u00edcus homo hoc fecit. Servi autem dix\u00e9runt ei: Vis, imus, et coll\u00edgimus ea? Et ait: Non: ne forte collig\u00e9ntes ziz\u00e1nia eradic\u00e9tis simul cum eis et tr\u00edticum. S\u00ednite utr\u00e1que cr\u00e9scere usque ad messem, et in t\u00e9mpore messis dicam mess\u00f3ribus: Coll\u00edgite primum ziz\u00e1ania, et allig\u00e1te ea in fasc\u00edculos ad combur\u00e9ndum, tr\u00edticum autem congreg\u00e1ta in h\u00f3rreum meum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 117:16; 117:17*\nD\u00e9xtera D\u00f3mini fecit virtutem, d\u00e9xtera D\u00f3mini exalt\u00e1vit me: non m\u00f3riar, sed vivam, et narr\u00e1bo \u00f3pera D\u00f3mini.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00f3stias tibi, D\u00f3mine, placati\u00f3nis off\u00e9rimus: ut et del\u00edcta nostra miser\u00e1tus abs\u00f3lvas, et nut\u00e1ntia corda tu d\u00edrigas.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 4:22*\nMirab\u00e1ntur omnes de his, qu\u00e6 proced\u00e9bant de ore Dei.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut ill\u00edus salut\u00e1ris capi\u00e1mus eff\u00e9ctum, cujus per h\u00e6c myst\u00e9ria pignus acc\u00e9pimus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-02-05", 
-    "description": "W\u015br\u00f3d ciemno\u015bci szatan sieje na roli Bo\u017cej k\u0105kol. Konieczne jest oddzielenie tego chwastu. B\u00f3g czeka jednak do czasu \u017cniwa, to jest do S\u0105du Ostatecznego, na kt\u00f3rym oddzieli z\u0142ych od dobrych. W przypowie\u015bci Chrystus nazywa Boga ojcem rodziny. Do tej ojcowskiej dobroci odwo\u0142ujemy si\u0119 w dzisiejszej kolekcie. W poczuciu winy sk\u0142adamy przeb\u0142agaln\u0105 ofiar\u0119 i prosimy, aby B\u00f3g sam kierowa\u0142 nasz\u0105 chwiejn\u0105 wol\u0105.\n", 
-    "tempora": null, 
-    "title": "5 Niedziela po Objawieniu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 96:7-8.*\nAdor\u00e1te Deum, omnes Angeli ejus: aud\u00edvit, et l\u00e6t\u00e1ta est Sion: et exsultav\u00e9runt f\u00edli\u00e6 Jud\u00e6.\n*Ps 96:1*\nD\u00f3minus regn\u00e1vit, exs\u00faltet terra: l\u00e6t\u00e9ntur \u00ednsul\u00e6 mult\u00e6.\nGl\u00f3ria Patri.\nAdor\u00e1te Deum, omnes Angeli ejus: aud\u00edvit, et l\u00e6t\u00e1ta est Sion: et exsultav\u00e9runt f\u00edli\u00e6 Jud\u00e6.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Fam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut, qu\u00e6 in sola spe gr\u00e1ti\u00e6 c\u0153l\u00e9stis inn\u00edtitur, tua semper protecti\u00f3ne muni\u00e1tur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Coloss\u00e9nses\n*Col 3:12-17*\nFratres: Ind\u00faite vos sicut electi Dei, sancti et dilecti, v\u00edscera miseric\u00f3rdi\u00e6, benignit\u00e1tem, humilit\u00e1tem, mod\u00e9stiam, pati\u00e9ntiam: support\u00e1ntes \u00ednvicem, et don\u00e1ntes vobismet\u00edpsis, si quis adv\u00e9rsus \u00e1liquem habet quer\u00e9lam: sicut et D\u00f3minus don\u00e1vit vobis, ita et vos. Super \u00f3mnia autem h\u00e6c carit\u00e1tem hab\u00e9te, quod est v\u00ednculum perfectionis: et pax Christi exs\u00faltet in c\u00f3rdibus vestris, in qua et voc\u00e1ti estis in uno c\u00f3rpore: et grati est\u00f3te. Verbum Christi h\u00e1bitet in vobis abund\u00e1nter, in omni sapi\u00e9ntia, doc\u00e9ntes et common\u00e9ntes vosmet\u00edpsos psalmis, hymnis et c\u00e1nticis spiritu\u00e1libus, in gr\u00e1tia cant\u00e1ntes in c\u00f3rdibus vestris Deo. Omne, quodc\u00famque f\u00e1citis in verbo aut in \u00f3pere, \u00f3mnia in n\u00f3mine D\u00f3mini Jesu Christi, gr\u00e1tias ag\u00e9ntes Deo et Patri per Jesum Christum, D\u00f3minum nostrum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 101:16-17*\nTim\u00e9bunt gentes nomen tuum, D\u00f3mine, et omnes reges terr\u00e6 gl\u00f3riam tuam.\nV. Qu\u00f3niam \u00e6dific\u00e1vit D\u00f3minus Sion, et vid\u00e9bitur in majest\u00e1te sua. Allel\u00faja, allel\u00faja.\n*Ps 96:1*\nV. D\u00f3minus regn\u00e1vit, exs\u00faltet terra: l\u00e6t\u00e9ntur \u00ednsul\u00e6 mult\u00e6. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 13:24-30*\nIn illo t\u00e9mpore: Dixit Jesus turbis par\u00e1bolam hanc: S\u00edmile factum est regnum c\u0153l\u00f3rum h\u00f3mini, qui semin\u00e1vit bonum semen in agro suo. Cum autem dorm\u00edrent h\u00f3mines, venit inim\u00edcus ejus, et supersemin\u00e1vit ziz\u00e1nia in m\u00e9dio tr\u00edtici, et \u00e1biit. Cum autem crev\u00edsset herba et fructum fec\u00edsset, tunc apparu\u00e9runt et ziz\u00e1nia. Acced\u00e9ntes autem servi patrisfam\u00edlias, dix\u00e9runt ei: D\u00f3mine, nonne bonum semen semin\u00e1sti in agro tuo? Unde ergo habet ziz\u00e1nia? Et ait illis: Inim\u00edcus homo hoc fecit. Servi autem dix\u00e9runt ei: Vis, imus, et coll\u00edgimus ea? Et ait: Non: ne forte collig\u00e9ntes ziz\u00e1nia eradic\u00e9tis simul cum eis et tr\u00edticum. S\u00ednite utr\u00e1que cr\u00e9scere usque ad messem, et in t\u00e9mpore messis dicam mess\u00f3ribus: Coll\u00edgite primum ziz\u00e1ania, et allig\u00e1te ea in fasc\u00edculos ad combur\u00e9ndum, tr\u00edticum autem congreg\u00e1ta in h\u00f3rreum meum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 117:16; 117:17*\nD\u00e9xtera D\u00f3mini fecit virtutem, d\u00e9xtera D\u00f3mini exalt\u00e1vit me: non m\u00f3riar, sed vivam, et narr\u00e1bo \u00f3pera D\u00f3mini.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00f3stias tibi, D\u00f3mine, placati\u00f3nis off\u00e9rimus: ut et del\u00edcta nostra miser\u00e1tus abs\u00f3lvas, et nut\u00e1ntia corda tu d\u00edrigas.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 4:22*\nMirab\u00e1ntur omnes de his, qu\u00e6 proced\u00e9bant de ore Dei.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Qu\u01fdsumus, omn\u00edpotens Deus: ut ill\u00edus salut\u00e1ris capi\u00e1mus eff\u00e9ctum, cujus per h\u00e6c myst\u00e9ria pignus acc\u00e9pimus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 96:7-8*\nPok\u0142on oddajcie Bogu, wszyscy Anio\u0142owie Jego; s\u0142yszy o tym i cieszy si\u0119 Syjon, i raduj\u0105 si\u0119 miasta Judy.\n*Ps 96:1*\nPan kr\u00f3luje, wesel si\u0119 ziemio, radujcie si\u0119 mnogie wyspy.\nChwa\u0142a Ojcu.\nPok\u0142on oddajcie Bogu, wszyscy Anio\u0142owie Jego; s\u0142yszy o tym i cieszy si\u0119 Syjon, i raduj\u0105 si\u0119 miasta Judy.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, strze\u017c nieustannie rodziny Twojej z ojcowsk\u0105 dobroci\u0105, a poniewa\u017c ca\u0142\u0105 nadziej\u0119 pok\u0142adamy w \u0142asce niebieskiej, otaczaj nas zawsze Twoj\u0105 opiek\u0105.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 3:12-17*\nBracia: Przyobleczcie\u017c si\u0119 tedy jako wybrani Bo\u017cy, \u015bwi\u0119ci i umi\u0142owani, w tkliwe mi\u0142osierdzie, w dobro\u0107, w pokor\u0119, w cicho\u015b\u0107 i w cierpliwo\u015b\u0107. Zno\u015bcie jedni drugich i wybaczajcie sobie, je\u015bli kto ma skarg\u0119 przeciw komu: jako Pan przebaczy\u0142 wam, tak i wy. A ponad to wszystko miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest wi\u0119zi\u0105 doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech rado\u015bci\u0105 opanuje serca wasze i b\u0105d\u017acie wdzi\u0119czni. S\u0142owo Chrystusowe niech przebywa w was obficie, aby\u015bcie z wszelk\u0105 m\u0105dro\u015bci\u0105 jedni drugich nauczali i krzepili przez psalmy, hymny i pie\u015bni duchowe, w \u0142asce \u015bpiewaj\u0105c Bogu w sercach waszych. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c Bogu Ojcu przez Jezusa Chrystusa, Pana naszego.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 101:16-17*\nPoganie b\u0119d\u0105 czcili Imi\u0119 Twoje, Panie, i wszyscy kr\u00f3lowie ziemi Twoj\u0105 chwa\u0142\u0119.\nV. Bo Pan odbuduje Syjon i objawi si\u0119 w swoim majestacie. Alleluja, alleluja.\n*Ps 96:1*\nPan kr\u00f3luje, wesel si\u0119 ziemio, radujcie si\u0119 mnogie wyspy. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:24-30*\nOnego czasu powiedzia\u0142 Jezus rzeszom t\u0119 przypowie\u015b\u0107: Podobne sta\u0142o si\u0119 Kr\u00f3lestwo Niebieskie cz\u0142owiekowi, kt\u00f3ry posia\u0142 dobre nasienie na roli swojej. A gdy ludzie spali, przyszed\u0142 nieprzyjaciel jego i nasia\u0142 k\u0105kolu mi\u0119dzy pszenic\u0119 i odszed\u0142. A gdy uros\u0142o zbo\u017ce i owoc wyda\u0142o, wtedy ukaza\u0142 si\u0119 i k\u0105kol. Przyst\u0105piwszy tedy s\u0142udzy gospodarza rzekli mu: \u00abPanie, czy\u017ce\u015b nie posia\u0142 dobrego nasienia na roli swojej? Sk\u0105d\u017ce si\u0119 tedy wzi\u0105\u0142 k\u0105kol?\u00bb I rzek\u0142 im: \u00abNieprzyjazny cz\u0142owiek to uczyni\u0142\u00bb. Powiedzieli s\u0142udzy: \u00abChcesz, p\u00f3jdziemy i zbierzemy go\u00bb. A on rzek\u0142: \u00abNie, by\u015bcie snad\u017a zbieraj\u0105c k\u0105kol nie wykorzenili z nim i pszenicy. Dopu\u015b\u0107cie obojgu r\u00f3\u015b\u0107 a\u017c do \u017cniwa, a w czasie \u017cniwa powiem \u017ce\u0144com: Zbierzcie pierwej k\u0105kol i zwi\u0105\u017ccie go w snopki na spalenie, a pszenic\u0119 zgromad\u017acie do gumna mojego\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 117:16; 117:17*\nPrawica Pa\u0144ska moc okaza\u0142a, prawica Pa\u0144ska d\u017awign\u0119\u0142a mnie. Nie umr\u0119, ale b\u0119d\u0119 \u017cy\u0142 i g\u0142osi\u0142 dzie\u0142a Pana.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adamy Ci, Panie, ofiary przeb\u0142agalne, aby\u015b miosiernie odpu\u015bci\u0142 nasze grzechy i sam pokierowa\u0142 chwiejnymi sercami.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 4:22*\nDziwili si\u0119 wszyscy s\u0142owom, kt\u00f3re wychodzi\u0142y z ust Bo\u017cych.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy ci\u0119 wszechmog\u0105cy Bo\u017ce, aby\u015bmy osi\u0105gn\u0119li zbawienie, kt\u00f3rego zadatek otrzymali\u015bmy w tych tajemnicach.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 96:7-8*\nPok\u0142on oddajcie Bogu, wszyscy Anio\u0142owie Jego; s\u0142yszy o tym i cieszy si\u0119 Syjon, i raduj\u0105 si\u0119 miasta Judy.\n*Ps 96:1*\nPan kr\u00f3luje, wesel si\u0119 ziemio, radujcie si\u0119 mnogie wyspy.\nChwa\u0142a Ojcu.\nPok\u0142on oddajcie Bogu, wszyscy Anio\u0142owie Jego; s\u0142yszy o tym i cieszy si\u0119 Syjon, i raduj\u0105 si\u0119 miasta Judy.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, strze\u017c nieustannie rodziny Twojej z ojcowsk\u0105 dobroci\u0105, a poniewa\u017c ca\u0142\u0105 nadziej\u0119 pok\u0142adamy w \u0142asce niebieskiej, otaczaj nas zawsze Twoj\u0105 opiek\u0105.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Kolosan.\n*Kol 3:12-17*\nBracia: Przyobleczcie\u017c si\u0119 tedy jako wybrani Bo\u017cy, \u015bwi\u0119ci i umi\u0142owani, w tkliwe mi\u0142osierdzie, w dobro\u0107, w pokor\u0119, w cicho\u015b\u0107 i w cierpliwo\u015b\u0107. Zno\u015bcie jedni drugich i wybaczajcie sobie, je\u015bli kto ma skarg\u0119 przeciw komu: jako Pan przebaczy\u0142 wam, tak i wy. A ponad to wszystko miejcie mi\u0142o\u015b\u0107, kt\u00f3ra jest wi\u0119zi\u0105 doskona\u0142o\u015bci. A pok\u00f3j Chrystusowy, do kt\u00f3rego te\u017c wezwani jeste\u015bcie w jednym ciele, niech rado\u015bci\u0105 opanuje serca wasze i b\u0105d\u017acie wdzi\u0119czni. S\u0142owo Chrystusowe niech przebywa w was obficie, aby\u015bcie z wszelk\u0105 m\u0105dro\u015bci\u0105 jedni drugich nauczali i krzepili przez psalmy, hymny i pie\u015bni duchowe, w \u0142asce \u015bpiewaj\u0105c Bogu w sercach waszych. Wszystko, cokolwiek czynicie w s\u0142owie lub uczynku, wszystko w imi\u0119 Pana Jezusa Chrystusa czy\u0144cie, dzi\u0119kuj\u0105c Bogu Ojcu przez Jezusa Chrystusa, Pana naszego.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 101:16-17*\nPoganie b\u0119d\u0105 czcili Imi\u0119 Twoje, Panie, i wszyscy kr\u00f3lowie ziemi Twoj\u0105 chwa\u0142\u0119.\nV. Bo Pan odbuduje Syjon i objawi si\u0119 w swoim majestacie. Alleluja, alleluja.\n*Ps 96:1*\nPan kr\u00f3luje, wesel si\u0119 ziemio, radujcie si\u0119 mnogie wyspy. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 13:24-30*\nOnego czasu powiedzia\u0142 Jezus rzeszom t\u0119 przypowie\u015b\u0107: Podobne sta\u0142o si\u0119 Kr\u00f3lestwo Niebieskie cz\u0142owiekowi, kt\u00f3ry posia\u0142 dobre nasienie na roli swojej. A gdy ludzie spali, przyszed\u0142 nieprzyjaciel jego i nasia\u0142 k\u0105kolu mi\u0119dzy pszenic\u0119 i odszed\u0142. A gdy uros\u0142o zbo\u017ce i owoc wyda\u0142o, wtedy ukaza\u0142 si\u0119 i k\u0105kol. Przyst\u0105piwszy tedy s\u0142udzy gospodarza rzekli mu: \u00abPanie, czy\u017ce\u015b nie posia\u0142 dobrego nasienia na roli swojej? Sk\u0105d\u017ce si\u0119 tedy wzi\u0105\u0142 k\u0105kol?\u00bb I rzek\u0142 im: \u00abNieprzyjazny cz\u0142owiek to uczyni\u0142\u00bb. Powiedzieli s\u0142udzy: \u00abChcesz, p\u00f3jdziemy i zbierzemy go\u00bb. A on rzek\u0142: \u00abNie, by\u015bcie snad\u017a zbieraj\u0105c k\u0105kol nie wykorzenili z nim i pszenicy. Dopu\u015b\u0107cie obojgu r\u00f3\u015b\u0107 a\u017c do \u017cniwa, a w czasie \u017cniwa powiem \u017ce\u0144com: Zbierzcie pierwej k\u0105kol i zwi\u0105\u017ccie go w snopki na spalenie, a pszenic\u0119 zgromad\u017acie do gumna mojego\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 117:16; 117:17*\nPrawica Pa\u0144ska moc okaza\u0142a, prawica Pa\u0144ska d\u017awign\u0119\u0142a mnie. Nie umr\u0119, ale b\u0119d\u0119 \u017cy\u0142 i g\u0142osi\u0142 dzie\u0142a Pana.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adamy Ci, Panie, ofiary przeb\u0142agalne, aby\u015b miosiernie odpu\u015bci\u0142 nasze grzechy i sam pokierowa\u0142 chwiejnymi sercami.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 4:22*\nDziwili si\u0119 wszyscy s\u0142owom, kt\u00f3re wychodzi\u0142y z ust Bo\u017cych.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy ci\u0119 wszechmog\u0105cy Bo\u017ce, aby\u015bmy osi\u0105gn\u0119li zbawienie, kt\u00f3rego zadatek otrzymali\u015bmy w tych tajemnicach.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

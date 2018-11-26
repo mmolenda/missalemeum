@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-10-31", 
+      "description": "Podobnie jak Izraelici d\u0105\u017cyli z Egiptu do Ziemi Obiecanej, tak my d\u0105\u017cymy do obiecanej nam ojczyzny wiecznej (alleluja). Wej\u015bcie do niej poprzedzi s\u0105d. Wielokrotnie Chrystus uczy\u0142, \u017ce g\u0142\u00f3wnym przedmiotem s\u0105du Bo\u017cego b\u0119dzie wykonanie przykazania mi\u0142o\u015bci. Winy zostan\u0105 odpuszczone tym, kt\u00f3rzy je odpuszczali swoim winowajcom (ewangelia). Najpowa\u017cniejsz\u0105 przeszkod\u0105 w osi\u0105gni\u0119ciu zbawienia jest szatan, duch nienawi\u015bci. \u015aw. Pawe\u0142 pokazuje nam bro\u0144 duchow\u0105, z pomoc\u0105 kt\u00f3rej mo\u017cemy zwalcza\u0107 ataki wroga zbawienia (lekcja). Modlimy si\u0119 dzisiaj o pomoc Bo\u017c\u0105 w tej walce (kolekta, antyfona na komuni\u0119).\n", 
+      "tempora": null, 
+      "title": "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Esth 13:9; 13:10-11*\nIn volunt\u00e1te tua, D\u00f3mine, univ\u00e9rsa sunt p\u00f3sita, et non est, qui possit res\u00edstere volunt\u00e1ti tu\u00e6: tu enim fec\u00edsti \u00f3mnia, coelum et terram et univ\u00e9rsa, qu\u00e6 coeli \u00e1mbitu contin\u00e9ntur: Dominus univers\u00f3rum tu es\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nIn volunt\u00e1te tua, D\u00f3mine, univ\u00e9rsa sunt p\u00f3sita, et non est, qui possit res\u00edstere volunt\u00e1ti tu\u00e6: tu enim fec\u00edsti \u00f3mnia, coelum et terram et univ\u00e9rsa, qu\u00e6 coeli \u00e1mbitu contin\u00e9ntur: Dominus univers\u00f3rum tu es.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Fam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut a cunctis adversit\u00e1tibus, te proteg\u00e9nte, sit l\u00edbera, et in bonis \u00e1ctibus tuo n\u00f3mini sit dev\u00f3ta.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Lectio Epistol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 6:10-17*\nFratres: Confort\u00e1mini in D\u00f3mino et in pot\u00e9ntia virt\u00fatis ejus. Ind\u00faite vos armat\u00faram Dei, ut p\u00f3ssitis stare adv\u00e9rsus ins\u00eddias di\u00e1boli. Qu\u00f3niam non est nobis colluct\u00e1tio adv\u00e9rsus carnem et s\u00e1nguinem: sed adv\u00e9rsus pr\u00edncipes et potest\u00e1tes, adv\u00e9rsus mundi rect\u00f3res tenebr\u00e1rum harum, contra spiritu\u00e1lia nequ\u00edtiae, in coel\u00e9stibus. Propt\u00e9rea acc\u00edpite armat\u00faram Dei, ut p\u00f3ssitis res\u00edstere in die malo et in \u00f3mnibus perf\u00e9cti stare. State ergo succ\u00edncti lumbos vestros in verit\u00e1te, et ind\u00fati lor\u00edcam just\u00edti\u00e6, et calce\u00e1ti pedes in pr\u00e6parati\u00f3ne Evang\u00e9lii pacis: in \u00f3mnibus sum\u00e9ntes scutum f\u00eddei, in quo p\u00f3ssitis \u00f3mnia tela nequ\u00edssimi \u00edgnea exst\u00ednguere: et g\u00e1leam sal\u00fatis ass\u00famite: et gl\u00e1dium sp\u00edritus, quod est verbum Dei.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 89:1-2*\nD\u00f3mine, ref\u00fagium factus es nobis, a generati\u00f3ne et prog\u00e9nie.\nV. Pri\u00fasquam montes f\u00ederent aut formar\u00e9tur terra et orbis: a s\u01fdculo et usque in s\u01fdculum tu es, Deus.\nAllel\u00faja, allel\u00faja.\n*Ps 113:1*\nIn \u00e9xitu Isra\u00ebl de \u00c6g\u00fdpto, domus Jacob de p\u00f3pulo b\u00e1rbaro. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 18:23-35*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Assimil\u00e1tum est regnum coel\u00f3rum h\u00f3mini regi, qui v\u00f3luit rati\u00f3nem p\u00f3nere cum servis suis. Et cum coep\u00edsset rati\u00f3nem p\u00f3nere, obl\u00e1tus est ei unus, qui deb\u00e9bat ei decem m\u00edlia tal\u00e9nta. Cum autem non hab\u00e9ret, unde r\u00e9dderet, jussit eum d\u00f3minus ejus ven\u00famdari et ux\u00f3rem ejus et f\u00edlios et \u00f3mnia, qu\u00e6 hab\u00e9bat, et reddi. Pr\u00f3cidens autem servus ille, or\u00e1bat eum, dicens: Pati\u00e9ntiam habe in me, et \u00f3mnia reddam tibi. Mis\u00e9rtus autem d\u00f3minus servi ill\u00edus, dim\u00edsit eum et d\u00e9bitum dim\u00edsit ei. Egr\u00e9ssus autem servus ille, inv\u00e9nit unum de cons\u00e9rvis suis, qui deb\u00e9bat ei centum den\u00e1rios: et tenens suffoc\u00e1bat eum, dicens: Redde, quod debes. Et pr\u00f3cidens cons\u00e9rvus ejus, rog\u00e1bat eum, dicens: Pati\u00e9ntiam habe in me, et \u00f3mnia reddam tibi. Ille autem n\u00f3luit: sed \u00e1biit, et misit eum in c\u00e1rcerem, donec r\u00e9dderet d\u00e9bitum. Vid\u00e9ntes autem cons\u00e9rvi ejus, qu\u00e6 fi\u00e9bant, contrist\u00e1ti sunt valde: et ven\u00e9runt et narrav\u00e9runt d\u00f3mino suo \u00f3mnia, qu\u00e6 facta f\u00faerant. Tunc voc\u00e1vit illum d\u00f3minus suus: et ait illi: Serve nequam, omne d\u00e9bitum dim\u00edsi tibi, qu\u00f3niam rog\u00e1sti me: nonne ergo op\u00f3rtuit et te miser\u00e9ri cons\u00e9rvi tui, sicut et ego tui mis\u00e9rtus sum? Et ir\u00e1tus d\u00f3minus ejus, tr\u00e1didit eum tort\u00f3ribus, quoad\u00fasque r\u00e9dderet univ\u00e9rsum d\u00e9bitum. Sic et Pater meus coel\u00e9stis f\u00e1ciet vobis, si non remis\u00e9ritis unusqu\u00edsque fratri suo de c\u00f3rdibus vestris.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Job 1.1*\nVir erat in terra Hus, n\u00f3mine Job: simplex et rectus ac timens Deum: quem Satan p\u00e9tiit ut tent\u00e1ret: et data est ei pot\u00e9stas a D\u00f3mino in facult\u00e1tes et in carnem ejus: perdid\u00edtque omnem subst\u00e1ntiam ips\u00edus et f\u00edlios: carnem quoque ejus gravi \u00falcere vulner\u00e1vit.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Suscipe, D\u00f3mine, prop\u00edtius h\u00f3stias: quibus et te plac\u00e1ri volu\u00edsti, et nobis sal\u00fatem pot\u00e9nti piet\u00e1te rest\u00edtui.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 118:81; 118:84; 118:86*\nIn salut\u00e1ri tuo \u00e1nima mea, et in verbum tuum sper\u00e1vi: quando f\u00e1cies de persequ\u00e9ntibus me jud\u00edcium? in\u00edqui persec\u00fati sunt me, \u00e1djuva me, D\u00f3mine, Deus meus.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Immortalit\u00e1tis alim\u00f3niam consec\u00fati, qu\u01fdsumus, D\u00f3mine: ut, quod ore perc\u00e9pimus, pura mente sect\u00e9mur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-10-31", 
-    "description": "Podobnie jak Izraelici d\u0105\u017cyli z Egiptu do Ziemi Obiecanej, tak my d\u0105\u017cymy do obiecanej nam ojczyzny wiecznej (alleluja). Wej\u015bcie do niej poprzedzi s\u0105d. Wielokrotnie Chrystus uczy\u0142, \u017ce g\u0142\u00f3wnym przedmiotem s\u0105du Bo\u017cego b\u0119dzie wykonanie przykazania mi\u0142o\u015bci. Winy zostan\u0105 odpuszczone tym, kt\u00f3rzy je odpuszczali swoim winowajcom (ewangelia). Najpowa\u017cniejsz\u0105 przeszkod\u0105 w osi\u0105gni\u0119ciu zbawienia jest szatan, duch nienawi\u015bci. \u015aw. Pawe\u0142 pokazuje nam bro\u0144 duchow\u0105, z pomoc\u0105 kt\u00f3rej mo\u017cemy zwalcza\u0107 ataki wroga zbawienia (lekcja). Modlimy si\u0119 dzisiaj o pomoc Bo\u017c\u0105 w tej walce (kolekta, antyfona na komuni\u0119).\n", 
-    "tempora": null, 
-    "title": "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Esth 13:9; 13:10-11*\nIn volunt\u00e1te tua, D\u00f3mine, univ\u00e9rsa sunt p\u00f3sita, et non est, qui possit res\u00edstere volunt\u00e1ti tu\u00e6: tu enim fec\u00edsti \u00f3mnia, coelum et terram et univ\u00e9rsa, qu\u00e6 coeli \u00e1mbitu contin\u00e9ntur: Dominus univers\u00f3rum tu es\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nIn volunt\u00e1te tua, D\u00f3mine, univ\u00e9rsa sunt p\u00f3sita, et non est, qui possit res\u00edstere volunt\u00e1ti tu\u00e6: tu enim fec\u00edsti \u00f3mnia, coelum et terram et univ\u00e9rsa, qu\u00e6 coeli \u00e1mbitu contin\u00e9ntur: Dominus univers\u00f3rum tu es.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Fam\u00edliam tuam, qu\u01fdsumus, D\u00f3mine, cont\u00ednua piet\u00e1te cust\u00f3di: ut a cunctis adversit\u00e1tibus, te proteg\u00e9nte, sit l\u00edbera, et in bonis \u00e1ctibus tuo n\u00f3mini sit dev\u00f3ta.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Lectio Epistol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 6:10-17*\nFratres: Confort\u00e1mini in D\u00f3mino et in pot\u00e9ntia virt\u00fatis ejus. Ind\u00faite vos armat\u00faram Dei, ut p\u00f3ssitis stare adv\u00e9rsus ins\u00eddias di\u00e1boli. Qu\u00f3niam non est nobis colluct\u00e1tio adv\u00e9rsus carnem et s\u00e1nguinem: sed adv\u00e9rsus pr\u00edncipes et potest\u00e1tes, adv\u00e9rsus mundi rect\u00f3res tenebr\u00e1rum harum, contra spiritu\u00e1lia nequ\u00edtiae, in coel\u00e9stibus. Propt\u00e9rea acc\u00edpite armat\u00faram Dei, ut p\u00f3ssitis res\u00edstere in die malo et in \u00f3mnibus perf\u00e9cti stare. State ergo succ\u00edncti lumbos vestros in verit\u00e1te, et ind\u00fati lor\u00edcam just\u00edti\u00e6, et calce\u00e1ti pedes in pr\u00e6parati\u00f3ne Evang\u00e9lii pacis: in \u00f3mnibus sum\u00e9ntes scutum f\u00eddei, in quo p\u00f3ssitis \u00f3mnia tela nequ\u00edssimi \u00edgnea exst\u00ednguere: et g\u00e1leam sal\u00fatis ass\u00famite: et gl\u00e1dium sp\u00edritus, quod est verbum Dei.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 89:1-2*\nD\u00f3mine, ref\u00fagium factus es nobis, a generati\u00f3ne et prog\u00e9nie.\nV. Pri\u00fasquam montes f\u00ederent aut formar\u00e9tur terra et orbis: a s\u01fdculo et usque in s\u01fdculum tu es, Deus.\nAllel\u00faja, allel\u00faja.\n*Ps 113:1*\nIn \u00e9xitu Isra\u00ebl de \u00c6g\u00fdpto, domus Jacob de p\u00f3pulo b\u00e1rbaro. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 18:23-35*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Assimil\u00e1tum est regnum coel\u00f3rum h\u00f3mini regi, qui v\u00f3luit rati\u00f3nem p\u00f3nere cum servis suis. Et cum coep\u00edsset rati\u00f3nem p\u00f3nere, obl\u00e1tus est ei unus, qui deb\u00e9bat ei decem m\u00edlia tal\u00e9nta. Cum autem non hab\u00e9ret, unde r\u00e9dderet, jussit eum d\u00f3minus ejus ven\u00famdari et ux\u00f3rem ejus et f\u00edlios et \u00f3mnia, qu\u00e6 hab\u00e9bat, et reddi. Pr\u00f3cidens autem servus ille, or\u00e1bat eum, dicens: Pati\u00e9ntiam habe in me, et \u00f3mnia reddam tibi. Mis\u00e9rtus autem d\u00f3minus servi ill\u00edus, dim\u00edsit eum et d\u00e9bitum dim\u00edsit ei. Egr\u00e9ssus autem servus ille, inv\u00e9nit unum de cons\u00e9rvis suis, qui deb\u00e9bat ei centum den\u00e1rios: et tenens suffoc\u00e1bat eum, dicens: Redde, quod debes. Et pr\u00f3cidens cons\u00e9rvus ejus, rog\u00e1bat eum, dicens: Pati\u00e9ntiam habe in me, et \u00f3mnia reddam tibi. Ille autem n\u00f3luit: sed \u00e1biit, et misit eum in c\u00e1rcerem, donec r\u00e9dderet d\u00e9bitum. Vid\u00e9ntes autem cons\u00e9rvi ejus, qu\u00e6 fi\u00e9bant, contrist\u00e1ti sunt valde: et ven\u00e9runt et narrav\u00e9runt d\u00f3mino suo \u00f3mnia, qu\u00e6 facta f\u00faerant. Tunc voc\u00e1vit illum d\u00f3minus suus: et ait illi: Serve nequam, omne d\u00e9bitum dim\u00edsi tibi, qu\u00f3niam rog\u00e1sti me: nonne ergo op\u00f3rtuit et te miser\u00e9ri cons\u00e9rvi tui, sicut et ego tui mis\u00e9rtus sum? Et ir\u00e1tus d\u00f3minus ejus, tr\u00e1didit eum tort\u00f3ribus, quoad\u00fasque r\u00e9dderet univ\u00e9rsum d\u00e9bitum. Sic et Pater meus coel\u00e9stis f\u00e1ciet vobis, si non remis\u00e9ritis unusqu\u00edsque fratri suo de c\u00f3rdibus vestris.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Job 1.1*\nVir erat in terra Hus, n\u00f3mine Job: simplex et rectus ac timens Deum: quem Satan p\u00e9tiit ut tent\u00e1ret: et data est ei pot\u00e9stas a D\u00f3mino in facult\u00e1tes et in carnem ejus: perdid\u00edtque omnem subst\u00e1ntiam ips\u00edus et f\u00edlios: carnem quoque ejus gravi \u00falcere vulner\u00e1vit.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Suscipe, D\u00f3mine, prop\u00edtius h\u00f3stias: quibus et te plac\u00e1ri volu\u00edsti, et nobis sal\u00fatem pot\u00e9nti piet\u00e1te rest\u00edtui.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 118:81; 118:84; 118:86*\nIn salut\u00e1ri tuo \u00e1nima mea, et in verbum tuum sper\u00e1vi: quando f\u00e1cies de persequ\u00e9ntibus me jud\u00edcium? in\u00edqui persec\u00fati sunt me, \u00e1djuva me, D\u00f3mine, Deus meus.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Immortalit\u00e1tis alim\u00f3niam consec\u00fati, qu\u01fdsumus, D\u00f3mine: ut, quod ore perc\u00e9pimus, pura mente sect\u00e9mur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Est 13:9; 13:10-11*\nNa mocy Twojej, Panie, wszystko si\u0119 opiera i nikt nie mo\u017ce sprzeciwi\u0107 si\u0119 Twej woli. Ty bowiem stworzy\u0142e\u015b wszystko, niebo i ziemi\u0119, i cokolwiek w przestworzach niebios istnieje. Ty jeste\u015b Panem wszystkich rzeczy.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie z prawem Pana.\nChwa\u0142a Ojcu.\nNa mocy Twojej, Panie, wszystko si\u0119 opiera i nikt nie mo\u017ce sprzeciwi\u0107 si\u0119 Twej woli. Ty bowiem stworzy\u0142e\u015b wszystko, niebo i ziemi\u0119, i cokolwiek w przestworzach niebios istnieje. Ty jeste\u015b Panem wszystkich rzeczy.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, strze\u017c nieustannie Twojej rodziny z ojcowsk\u0105 dobroci\u0105, aby pod Twoj\u0105 opiek\u0105 by\u0142a wolna od wszelkich przeciwno\u015bci, i przez dobre czyny oddana chwale Twego imienia.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 6:10-17*\n*Tre\u015bci\u0105 dziej\u00f3w Ko\u015bcio\u0142a jest walka z szatanem o zbawienie dusz.*\nBracia: Umacniajcie si\u0119 w Panu i w dzia\u0142aniu mocy Jego. Przyobleczcie si\u0119 w zbroj\u0119 Bo\u017c\u0105, aby\u015bcie mogli si\u0119 osta\u0107 przeciw zasadzkom diabelskim. Albowiem prowadzimy walk\u0119 nie z cia\u0142em i z krwi\u0105, ale przeciw ksi\u0105\u017c\u0119tom i w\u0142adzom, przeciw rz\u0105dcom \u015bwiata tych ciemno\u015bci, przeciw z\u0142ym duchom w przestworzach niebieskich.\nPrzeto przyobleczcie si\u0119 w zbroj\u0119 Bo\u017c\u0105, aby\u015bcie mogli stawi\u0107 op\u00f3r w dzie\u0144 z\u0142y i, wype\u0142niwszy wszystko, osta\u0107 si\u0119. B\u0105d\u017acie przeto w pogotowiu, przepasawszy biodra wasze prawd\u0105 i przyodziawszy pancerz sprawiedliwo\u015bci, a nogi obuwszy w gotowo\u015b\u0107 Ewangelii pokoju. We wszystkim trzymajcie si\u0119 tarczy wiary, kt\u00f3r\u0105 mogliby\u015bcie zagasi\u0107 wszystkie strza\u0142y ogniste z\u0142ego ducha. Przyodziejcie te\u017c przy\u0142bic\u0119 zbawienia i we\u017amijcie miecz ducha, kt\u00f3rym jest S\u0142owo Bo\u017ce.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 89:1-2*\nPanie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie.\nV. Zanim g\u00f3ry stan\u0119\u0142y, nim ziemia i \u015bwiat zosta\u0142y stworzone, Ty, Bo\u017ce, jeste\u015b: od wiek\u00f3w i po wszystkie wieki. Alleluja, alleluja.\n*Ps 113:1*\nGdy Izrael wychodzi\u0142 z Egiptu dom Jakuba od ludu obcego. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 18:23-35*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abPodobne jest Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kr\u00f3lowi, kt\u00f3ry chcia\u0142 obliczy\u0107 si\u0119 ze s\u0142ugami swymi. A gdy pocz\u0105\u0142 si\u0119 oblicza\u0107, przywiedziono mu jednego, kt\u00f3ry by\u0142 mu winien dziesi\u0119\u0107 tysi\u0119cy talent\u00f3w. I gdy nie mia\u0142 sk\u0105d odda\u0107, kaza\u0142 go pan jego zaprzeda\u0107 i \u017con\u0119 jego, i dzieci, i wszystko, co mia\u0142, i odda\u0107. A s\u0142uga \u00f3w upad\u0142szy prosi\u0142 go m\u00f3wi\u0105c: Miej cierpliwo\u015b\u0107 nade mn\u0105, a oddam ci wszystko. A Pan zlitowawszy si\u0119 nad owym s\u0142ug\u0105 uwolni\u0142 go i d\u0142ug mu darowa\u0142.\nLecz s\u0142uga \u00f3w wyszed\u0142szy spotka\u0142 jednego z towarzysz\u00f3w swoich, kt\u00f3ry by\u0142 mu winien sto denar\u00f3w. I uj\u0105wszy go, dusi\u0142 m\u00f3wi\u0105c Oddaj co\u015b winien. A towarzysz \u00f3w upad\u0142szy, prosi\u0142 go m\u00f3wi\u0105c: Miej cierpliwo\u015b\u0107 nade mn\u0105, a oddam ci wszystko. Lecz on nie chcia\u0142, ale odszed\u0142 i wtr\u0105ci\u0142 go do wi\u0119zienia, dop\u00f3ki by mu d\u0142ugu nie zwr\u00f3ci\u0142.\nA widz\u0105c, co si\u0119 dzia\u0142o, towarzysze jego zasmucili si\u0119 bardzo i przyszli, i donie\u015bli panu swemu o wszystkim, co si\u0119 sta\u0142o. Wtedy zawo\u0142a\u0142 go pan jego i rzek\u0142 mu: S\u0142ugo niegodziwy, ca\u0142y d\u0142ug darowa\u0142em ci, bo\u015b mi\u0119 prosi\u0142. Czy wi\u0119c nie przysta\u0142o, aby\u015b i ty ulitowa\u0142 si\u0119 nad towarzyszem swoim, jakom i ja ulitowa\u0142 si\u0119 nad tob\u0105? I rogniewawszy si\u0119 pan jego wyda\u0142 go katom, dop\u00f3ki mu nie odda ca\u0142ego d\u0142ugu.\nTak i ojciec m\u00f3j niebieski uczyni wam, je\u015bli nie odpu\u015bcicie ka\u017cdy bratu swemu z serc waszych\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Job 1:1*\n*Job w\u015br\u00f3d ci\u0119\u017ckich do\u015bwiadcze\u0144 zachowa\u0142 wiar\u0119 w sprawiedliwo\u015b\u0107 Bo\u017c\u0105, pokonuj\u0105c w ten spos\u00f3b zasadzk\u0119 szatana. Pami\u0119tajmy o tym przyk\u0142adzie w naszych do\u015bwiadczeniach.*\n\n\u017by\u0142 w krainie Hus m\u0105\u017c, imieniem Job, prosty, i bogobojny. O niego doprasza\u0142 si\u0119 szatan, aby go podda\u0107 pr\u00f3bie. I da\u0142 mu Pan w\u0142adz\u0119 nad posiad\u0142o\u015bciami jego i nad cia\u0142em. Zatraci\u0142 wi\u0119c ca\u0142y jego dobytek, wygubi\u0142 dzieci, a nadto okry\u0142 jego cia\u0142o bolesnym wrzodem.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, przyjmij \u0142askawie ofiary, przez kt\u00f3re i sam dajesz si\u0119 przeb\u0142aga\u0107, i dzi\u0119ki ogromnej Twej dobroci przywracasz nam zdrowie duszy.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 118:81; 118:84; 118:86*\nDusza moja s\u0142abnie z t\u0119sknoty za Tw\u0105 pomoc\u0105. W s\u0142owie Twoich ca\u0142a nadzieja moja. Kiedy os\u0105dzisz moich prze\u015bladowc\u00f3w? Nies\u0142usznie mnie prze\u015bladuj\u0105, dopom\u00f3\u017c mi, Panie, Bo\u017ce m\u00f3j.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Otrzymawszy pokarm nie\u015bmiertelno\u015bci, prosimy Ci\u0119, Panie, aby\u015bmy czyst\u0105 dusz\u0105 poszli za tym, co usta nasze przyj\u0119\u0142y.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Est 13:9; 13:10-11*\nNa mocy Twojej, Panie, wszystko si\u0119 opiera i nikt nie mo\u017ce sprzeciwi\u0107 si\u0119 Twej woli. Ty bowiem stworzy\u0142e\u015b wszystko, niebo i ziemi\u0119, i cokolwiek w przestworzach niebios istnieje. Ty jeste\u015b Panem wszystkich rzeczy.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych droga jest niepokalana: kt\u00f3rzy post\u0119puj\u0105 zgodnie z prawem Pana.\nChwa\u0142a Ojcu.\nNa mocy Twojej, Panie, wszystko si\u0119 opiera i nikt nie mo\u017ce sprzeciwi\u0107 si\u0119 Twej woli. Ty bowiem stworzy\u0142e\u015b wszystko, niebo i ziemi\u0119, i cokolwiek w przestworzach niebios istnieje. Ty jeste\u015b Panem wszystkich rzeczy.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, strze\u017c nieustannie Twojej rodziny z ojcowsk\u0105 dobroci\u0105, aby pod Twoj\u0105 opiek\u0105 by\u0142a wolna od wszelkich przeciwno\u015bci, i przez dobre czyny oddana chwale Twego imienia.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 6:10-17*\n*Tre\u015bci\u0105 dziej\u00f3w Ko\u015bcio\u0142a jest walka z szatanem o zbawienie dusz.*\nBracia: Umacniajcie si\u0119 w Panu i w dzia\u0142aniu mocy Jego. Przyobleczcie si\u0119 w zbroj\u0119 Bo\u017c\u0105, aby\u015bcie mogli si\u0119 osta\u0107 przeciw zasadzkom diabelskim. Albowiem prowadzimy walk\u0119 nie z cia\u0142em i z krwi\u0105, ale przeciw ksi\u0105\u017c\u0119tom i w\u0142adzom, przeciw rz\u0105dcom \u015bwiata tych ciemno\u015bci, przeciw z\u0142ym duchom w przestworzach niebieskich.\nPrzeto przyobleczcie si\u0119 w zbroj\u0119 Bo\u017c\u0105, aby\u015bcie mogli stawi\u0107 op\u00f3r w dzie\u0144 z\u0142y i, wype\u0142niwszy wszystko, osta\u0107 si\u0119. B\u0105d\u017acie przeto w pogotowiu, przepasawszy biodra wasze prawd\u0105 i przyodziawszy pancerz sprawiedliwo\u015bci, a nogi obuwszy w gotowo\u015b\u0107 Ewangelii pokoju. We wszystkim trzymajcie si\u0119 tarczy wiary, kt\u00f3r\u0105 mogliby\u015bcie zagasi\u0107 wszystkie strza\u0142y ogniste z\u0142ego ducha. Przyodziejcie te\u017c przy\u0142bic\u0119 zbawienia i we\u017amijcie miecz ducha, kt\u00f3rym jest S\u0142owo Bo\u017ce.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 89:1-2*\nPanie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie.\nV. Zanim g\u00f3ry stan\u0119\u0142y, nim ziemia i \u015bwiat zosta\u0142y stworzone, Ty, Bo\u017ce, jeste\u015b: od wiek\u00f3w i po wszystkie wieki. Alleluja, alleluja.\n*Ps 113:1*\nGdy Izrael wychodzi\u0142 z Egiptu dom Jakuba od ludu obcego. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 18:23-35*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: \u00abPodobne jest Kr\u00f3lestwo Niebieskie cz\u0142owiekowi kr\u00f3lowi, kt\u00f3ry chcia\u0142 obliczy\u0107 si\u0119 ze s\u0142ugami swymi. A gdy pocz\u0105\u0142 si\u0119 oblicza\u0107, przywiedziono mu jednego, kt\u00f3ry by\u0142 mu winien dziesi\u0119\u0107 tysi\u0119cy talent\u00f3w. I gdy nie mia\u0142 sk\u0105d odda\u0107, kaza\u0142 go pan jego zaprzeda\u0107 i \u017con\u0119 jego, i dzieci, i wszystko, co mia\u0142, i odda\u0107. A s\u0142uga \u00f3w upad\u0142szy prosi\u0142 go m\u00f3wi\u0105c: Miej cierpliwo\u015b\u0107 nade mn\u0105, a oddam ci wszystko. A Pan zlitowawszy si\u0119 nad owym s\u0142ug\u0105 uwolni\u0142 go i d\u0142ug mu darowa\u0142.\nLecz s\u0142uga \u00f3w wyszed\u0142szy spotka\u0142 jednego z towarzysz\u00f3w swoich, kt\u00f3ry by\u0142 mu winien sto denar\u00f3w. I uj\u0105wszy go, dusi\u0142 m\u00f3wi\u0105c Oddaj co\u015b winien. A towarzysz \u00f3w upad\u0142szy, prosi\u0142 go m\u00f3wi\u0105c: Miej cierpliwo\u015b\u0107 nade mn\u0105, a oddam ci wszystko. Lecz on nie chcia\u0142, ale odszed\u0142 i wtr\u0105ci\u0142 go do wi\u0119zienia, dop\u00f3ki by mu d\u0142ugu nie zwr\u00f3ci\u0142.\nA widz\u0105c, co si\u0119 dzia\u0142o, towarzysze jego zasmucili si\u0119 bardzo i przyszli, i donie\u015bli panu swemu o wszystkim, co si\u0119 sta\u0142o. Wtedy zawo\u0142a\u0142 go pan jego i rzek\u0142 mu: S\u0142ugo niegodziwy, ca\u0142y d\u0142ug darowa\u0142em ci, bo\u015b mi\u0119 prosi\u0142. Czy wi\u0119c nie przysta\u0142o, aby\u015b i ty ulitowa\u0142 si\u0119 nad towarzyszem swoim, jakom i ja ulitowa\u0142 si\u0119 nad tob\u0105? I rogniewawszy si\u0119 pan jego wyda\u0142 go katom, dop\u00f3ki mu nie odda ca\u0142ego d\u0142ugu.\nTak i ojciec m\u00f3j niebieski uczyni wam, je\u015bli nie odpu\u015bcicie ka\u017cdy bratu swemu z serc waszych\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Job 1:1*\n*Job w\u015br\u00f3d ci\u0119\u017ckich do\u015bwiadcze\u0144 zachowa\u0142 wiar\u0119 w sprawiedliwo\u015b\u0107 Bo\u017c\u0105, pokonuj\u0105c w ten spos\u00f3b zasadzk\u0119 szatana. Pami\u0119tajmy o tym przyk\u0142adzie w naszych do\u015bwiadczeniach.*\n\n\u017by\u0142 w krainie Hus m\u0105\u017c, imieniem Job, prosty, i bogobojny. O niego doprasza\u0142 si\u0119 szatan, aby go podda\u0107 pr\u00f3bie. I da\u0142 mu Pan w\u0142adz\u0119 nad posiad\u0142o\u015bciami jego i nad cia\u0142em. Zatraci\u0142 wi\u0119c ca\u0142y jego dobytek, wygubi\u0142 dzieci, a nadto okry\u0142 jego cia\u0142o bolesnym wrzodem.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, przyjmij \u0142askawie ofiary, przez kt\u00f3re i sam dajesz si\u0119 przeb\u0142aga\u0107, i dzi\u0119ki ogromnej Twej dobroci przywracasz nam zdrowie duszy.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 118:81; 118:84; 118:86*\nDusza moja s\u0142abnie z t\u0119sknoty za Tw\u0105 pomoc\u0105. W s\u0142owie Twoich ca\u0142a nadzieja moja. Kiedy os\u0105dzisz moich prze\u015bladowc\u00f3w? Nies\u0142usznie mnie prze\u015bladuj\u0105, dopom\u00f3\u017c mi, Panie, Bo\u017ce m\u00f3j.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Otrzymawszy pokarm nie\u015bmiertelno\u015bci, prosimy Ci\u0119, Panie, aby\u015bmy czyst\u0105 dusz\u0105 poszli za tym, co usta nasze przyj\u0119\u0142y.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

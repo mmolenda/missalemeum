@@ -1,156 +1,158 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2018-02-06", 
+      "description": "\u015aw. Tytus pochodzi\u0142 z rodziny poga\u0144skiej. Nawr\u00f3cony przez \u015bw. Paw\u0142a Aposto\u0142a sta\u0142 si\u0119 jego gorliwym pomocnikiem. Mianowany przez \u015bw. Paw\u0142a biskupem na Krecie zosta\u0142 zaszczycony listem, kt\u00f3ry wszed\u0142 do Pisma \u015bw. Nowego Testamentu.\n\nMsza wsp\u00f3lna nr 18 Statuit\n\nWspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy. \u015aw. Dorota, kt\u00f3rej imi\u0119 znaczy \u00abdar Boga\u00bb, zosta\u0142a \u015bci\u0119ta za wiar\u0119 w Cezarei Kapadockiej z pocz\u0105tkiem IV wieku.\n", 
+      "tempora": "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy", 
+      "title": "\u015aw. Tytusa, Biskupa i Wyznawcy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Eccli 45:30.*\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum\n*Ps 131:1.*\nMem\u00e9nto, D\u00f3mine, David: et omnis mansuet\u00fadinis ejus. .\nGl\u00f3ria Patri.\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Titum Confess\u00f3rem tuum atque Pont\u00edficem apost\u00f3licis virt\u00fatibus decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, juste et pie viv\u00e9ntes in hoc saeculo, ad coel\u00e9stem p\u00e1triam perven\u00edre mere\u00e1mur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro S. Dorothe\u00e6 Virg. et Mart.*\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Doroth\u00e9a Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et m\u00e9rito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 44:16-27; 45, 3-20.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo, et inv\u00e9ntus est justus: et in t\u00e9mpore irac\u00fandi\u00e6 factus est reeconcili\u00e1tio. Non est inv\u00e9ntus s\u00edmilis illi, qui conserv\u00e1vit legem Exc\u00e9lsi. Ideo jurejur\u00e1ndo fecit illum D\u00f3minus cr\u00e9scere in plebem suam. Benedicti\u00f3nem \u00f3mnium g\u00e9ntium dedit illi, et testam\u00e9ntum suum confirm\u00e1vit super caput ejus. Agn\u00f3vit eum in benedicti\u00f3nibus suis: conserv\u00e1vit illi miseric\u00f3rdiam suam: et inv\u00e9nit gr\u00e1tiam coram \u00f3culis D\u00f3mini. Magnific\u00e1vit eum in consp\u00e9ctu regum: et dedit illi cor\u00f3nam gl\u00f3ri\u00e6. St\u00e1tuit illi testam\u00e9ntum \u00e6t\u00e9rnum, et dedit illi sacerd\u00f3tium magnum: et beatific\u00e1vit illum in gl\u00f3ria. Fungi sacerd\u00f3tio, et hab\u00e9re laudem in n\u00f3mine ips\u00edus, et off\u00e9rre illi inc\u00e9nsum dignum in od\u00f3rem suavit\u00e1tis.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Eccli 44:16.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20.*\nV. Non est inventus s\u00edmilis illi, qui conservaret legem Exc\u00e9lsi. Allel\u00faja, allel\u00faja\n*Ps 109:4.*\nTu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Eccli 44:16.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20.*\nV. Non est inventus s\u00edmilis illi, qui conservaret legem Exc\u00e9lsi.\n*Ps 111:1-3.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis. <. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur,\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in saeculum saeculi.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9.*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et \u00e1lios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dicebat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte port\u00e1re s\u00e1cculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:21-22.*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro S. Dorothea*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Dor\u00f3the\u00e6 V\u00edrginis et M\u00e1rtyris tu\u00e6 dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 12:42.*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Tito Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro S. Dorothea*\nDiv\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Doroth\u00e9a V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-02-06", 
-    "description": "\u015aw. Tytus pochodzi\u0142 z rodziny poga\u0144skiej. Nawr\u00f3cony przez \u015bw. Paw\u0142a Aposto\u0142a sta\u0142 si\u0119 jego gorliwym pomocnikiem. Mianowany przez \u015bw. Paw\u0142a biskupem na Krecie zosta\u0142 zaszczycony listem, kt\u00f3ry wszed\u0142 do Pisma \u015bw. Nowego Testamentu.\n\nMsza wsp\u00f3lna nr 18 Statuit\n\nWspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy. \u015aw. Dorota, kt\u00f3rej imi\u0119 znaczy \u00abdar Boga\u00bb, zosta\u0142a \u015bci\u0119ta za wiar\u0119 w Cezarei Kapadockiej z pocz\u0105tkiem IV wieku.\n", 
-    "tempora": "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy", 
-    "title": "\u015aw. Tytusa, Biskupa i Wyznawcy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Eccli 45:30.*\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum\n*Ps 131:1.*\nMem\u00e9nto, D\u00f3mine, David: et omnis mansuet\u00fadinis ejus. .\nGl\u00f3ria Patri.\nSt\u00e1tuit ei D\u00f3minus testam\u00e9ntum pacis, et pr\u00edncipem fecit eum: ut sit illi sacerd\u00f3tii d\u00edgnitas in \u00e6t\u00e9rnum", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Titum Confess\u00f3rem tuum atque Pont\u00edficem apost\u00f3licis virt\u00fatibus decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut, juste et pie viv\u00e9ntes in hoc saeculo, ad coel\u00e9stem p\u00e1triam perven\u00edre mere\u00e1mur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro S. Dorothe\u00e6 Virg. et Mart.*\nIndulg\u00e9ntiam nobis, qu\u01fdsumus, D\u00f3mine, be\u00e1ta Doroth\u00e9a Virgo et Martyr impl\u00f3ret: qu\u00e6 tibi grata semper \u00e9xstitit, et m\u00e9rito castit\u00e1tis, et tu\u00e6 professi\u00f3ne virt\u00fatis.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Eccli 44:16-27; 45, 3-20.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo, et inv\u00e9ntus est justus: et in t\u00e9mpore irac\u00fandi\u00e6 factus est reeconcili\u00e1tio. Non est inv\u00e9ntus s\u00edmilis illi, qui conserv\u00e1vit legem Exc\u00e9lsi. Ideo jurejur\u00e1ndo fecit illum D\u00f3minus cr\u00e9scere in plebem suam. Benedicti\u00f3nem \u00f3mnium g\u00e9ntium dedit illi, et testam\u00e9ntum suum confirm\u00e1vit super caput ejus. Agn\u00f3vit eum in benedicti\u00f3nibus suis: conserv\u00e1vit illi miseric\u00f3rdiam suam: et inv\u00e9nit gr\u00e1tiam coram \u00f3culis D\u00f3mini. Magnific\u00e1vit eum in consp\u00e9ctu regum: et dedit illi cor\u00f3nam gl\u00f3ri\u00e6. St\u00e1tuit illi testam\u00e9ntum \u00e6t\u00e9rnum, et dedit illi sacerd\u00f3tium magnum: et beatific\u00e1vit illum in gl\u00f3ria. Fungi sacerd\u00f3tio, et hab\u00e9re laudem in n\u00f3mine ips\u00edus, et off\u00e9rre illi inc\u00e9nsum dignum in od\u00f3rem suavit\u00e1tis.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Eccli 44:16.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20.*\nV. Non est inventus s\u00edmilis illi, qui conservaret legem Exc\u00e9lsi. Allel\u00faja, allel\u00faja\n*Ps 109:4.*\nTu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Eccli 44:16.*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20.*\nV. Non est inventus s\u00edmilis illi, qui conservaret legem Exc\u00e9lsi.\n*Ps 111:1-3.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis. <. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur,\nV. Gl\u00f3ria et div\u00edti\u00e6 in domo ejus: et just\u00edtia ejus manet in saeculum saeculi.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:1-9.*\nIn illo t\u00e9mpore: Design\u00e1vit D\u00f3minus et \u00e1lios septuag\u00ednta duos: et misit illos binos ante f\u00e1ciem suam in omnem civit\u00e1tem et locum, quo erat ipse vent\u00farus. Et dicebat illis: Messis quidem multa, oper\u00e1rii autem pauci. Rog\u00e1te ergo D\u00f3minum messis, ut mittat oper\u00e1rios in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nol\u00edte port\u00e1re s\u00e1cculum neque peram neque calceam\u00e9nta; et n\u00e9minem per viam salutav\u00e9ritis. In quamc\u00famque domum intrav\u00e9ritis, primum d\u00edcite: Pax huic d\u00f3mui: et si ibi f\u00faerit f\u00edlius pacis, requi\u00e9scet super illum pax vestra: sin autem, ad vos revert\u00e1tur. In e\u00e1dem autem domo man\u00e9te, ed\u00e9ntes et bib\u00e9ntes qu\u00e6 apud illos sunt: dignus est enim oper\u00e1rius merc\u00e9de sua. Nol\u00edte trans\u00edre de domo in domum. Et in quamc\u00famque civit\u00e1tem intrav\u00e9ritis, et susc\u00e9perint vos, manduc\u00e1te qu\u00e6 appon\u00fantur vobis: et cur\u00e1te inf\u00edrmos, qui in illa sunt, et d\u00edcite illis: Appropinqu\u00e1vit in vos regnum Dei.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:21-22.*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sancti tui, qu\u01fdsumus, D\u00f3mine, nos ubique l\u00e6t\u00edficent: ut, dum e\u00f3rum m\u00e9rita rec\u00f3limus, patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro S. Dorothea*\nH\u00f3stias tibi, D\u00f3mine, be\u00e1t\u00e6 Dor\u00f3the\u00e6 V\u00edrginis et M\u00e1rtyris tu\u00e6 dicatas m\u00e9ritis, ben\u00edgnus ass\u00fame: et ad perp\u00e9tuum nobis tr\u00edbue proven\u00edre subs\u00eddium.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 12:42.*\nFid\u00e9lis servus et prudens, quem const\u00edtuit d\u00f3minus super fam\u00edliam suam: ut det illis in t\u00e9mpore tr\u00edtici mens\u00faram.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, de perc\u00e9ptis mun\u00e9ribus gr\u00e1tias exhib\u00e9ntes, interced\u00e9nte be\u00e1to Tito Confess\u00f3re tuo atque Pont\u00edfice, benef\u00edcia poti\u00f3ra sum\u00e1mus.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro S. Dorothea*\nDiv\u00edni m\u00faneris largit\u00e1te sati\u00e1ti, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, interced\u00e9nte be\u00e1ta Doroth\u00e9a V\u00edrgine et M\u00e1rtyre tua, in ejus semper participati\u00f3ne viv\u00e1mus.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 45:30*\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry ozdobi\u0142e\u015b \u015bw. Tytusa, Twego Wyznawc\u0119 i Biskupa, apostolskimi cnotami, spraw dla jego zas\u0142ug i wstawiennictwa, aby\u015bmy sprawiedliwie i pobo\u017cnie \u017cyj\u0105c na tym \u015bwiecie, mogli doj\u015b\u0107 do niebieskiej ojczyzny.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nProsimy Ci\u0119, Panie, aby \u015bwi\u0119ta N., Dziewica i M\u0119czennica Twoja, wyb\u0142aga\u0142a nam przebaczenie; ona bowiem zawsze podoba\u0142a si\u0119 Tobie dzi\u0119ki zas\u0142udze czysto\u015bci i wyznaniu Twojej mocy.\nPrzez Pana.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu i okaza\u0142 si\u0119 sprawiedliwym, a w czasie gniewu sta\u0142 si\u0119 pojednaniem. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Przeto na mocy przysi\u0119gi sprawi\u0142 Pan, i\u017c rozr\u00f3s\u0142 si\u0119 on w ludzie Jego. Da\u0142 mu b\u0142ogos\u0142awie\u0144stwo dla wszystkich narod\u00f3w i przymierze swoje utwierdzi\u0142 nad g\u0142ow\u0105 jego. Uzna\u0142 go przez swe b\u0142ogos\u0142awie\u0144stwa, zachowa\u0142 dla\u0144 swe mi\u0142osierdzie, (tak i\u017c) znalaz\u0142 on \u0142ask\u0119 w oczach Pa\u0144skich. Wobec kr\u00f3l\u00f3w uczyni\u0142 go wielkim i da\u0142 mu wieniec chwa\u0142y. Postanowi\u0142 z nim wieczne przymierze i da\u0142 mu najwy\u017csze kap\u0142a\u0144stwo, i w chwale go uszcz\u0119\u015bliwi\u0142, by sprawowa\u0142 w\u0142adz\u0119 kap\u0142a\u0144sk\u0105 i czci doznawa\u0142 dla Jego imienia, i sk\u0142ada\u0142 Mu godn\u0105 ofiar\u0119 kadzenia ku wdzi\u0119cznej wonno\u015bci.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Alleluja, alleluja.\n*Ps 109:4*\nTy\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:21-22*\n*W czasie konsekracji namaszcza si\u0119 g\u0142ow\u0119 i r\u0119ce biskupa Krzy\u017cmem \u015bwi\u0119tym.*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, niech nam wsz\u0119dzie sprawiaj\u0105 rado\u015b\u0107 Twoi \u015awi\u0119ci, aby\u015bmy wspominaj\u0105c ich zas\u0142ugi doznali r\u00f3wnie\u017c ich opieki.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nProsimy Ci\u0119, Panie, przyjmij \u0142askawie ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy przez zas\u0142ugi \u015bwi\u0119tej Doroty, Twojej Dziewicy i M\u0119czennicy, i spraw, by nam nieustann\u0105 by\u0142a pomoc\u0105.\nPrzez Pana.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary, za przyczyn\u0105 \u015bwi\u0119tego N., Wyznawcy Twego i Biskupa, otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }, 
-    {
-      "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nDarem Bo\u017cym szczodrze nasyceni, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tej Doroty Twojej Dziewicy i M\u0119czennicy, zawsze czerpali ze\u0144 \u017cycie.\nPrzez Pana.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 45:30*\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.\n*Ps 131:1*\nPomnij, Panie, na Dawida i na ca\u0142\u0105 jego gorliwo\u015b\u0107.\nChwa\u0142a Ojcu.\nPan zawar\u0142 z nim przymierze pokoju i ustanowi\u0142 go prze\u0142o\u017conym, aby godno\u015b\u0107 kap\u0142a\u0144ska zosta\u0142a przy nim na wieki.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry ozdobi\u0142e\u015b \u015bw. Tytusa, Twego Wyznawc\u0119 i Biskupa, apostolskimi cnotami, spraw dla jego zas\u0142ug i wstawiennictwa, aby\u015bmy sprawiedliwie i pobo\u017cnie \u017cyj\u0105c na tym \u015bwiecie, mogli doj\u015b\u0107 do niebieskiej ojczyzny.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nProsimy Ci\u0119, Panie, aby \u015bwi\u0119ta N., Dziewica i M\u0119czennica Twoja, wyb\u0142aga\u0142a nam przebaczenie; ona bowiem zawsze podoba\u0142a si\u0119 Tobie dzi\u0119ki zas\u0142udze czysto\u015bci i wyznaniu Twojej mocy.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu i okaza\u0142 si\u0119 sprawiedliwym, a w czasie gniewu sta\u0142 si\u0119 pojednaniem. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Przeto na mocy przysi\u0119gi sprawi\u0142 Pan, i\u017c rozr\u00f3s\u0142 si\u0119 on w ludzie Jego. Da\u0142 mu b\u0142ogos\u0142awie\u0144stwo dla wszystkich narod\u00f3w i przymierze swoje utwierdzi\u0142 nad g\u0142ow\u0105 jego. Uzna\u0142 go przez swe b\u0142ogos\u0142awie\u0144stwa, zachowa\u0142 dla\u0144 swe mi\u0142osierdzie, (tak i\u017c) znalaz\u0142 on \u0142ask\u0119 w oczach Pa\u0144skich. Wobec kr\u00f3l\u00f3w uczyni\u0142 go wielkim i da\u0142 mu wieniec chwa\u0142y. Postanowi\u0142 z nim wieczne przymierze i da\u0142 mu najwy\u017csze kap\u0142a\u0144stwo, i w chwale go uszcz\u0119\u015bliwi\u0142, by sprawowa\u0142 w\u0142adz\u0119 kap\u0142a\u0144sk\u0105 i czci doznawa\u0142 dla Jego imienia, i sk\u0142ada\u0142 Mu godn\u0105 ofiar\u0119 kadzenia ku wdzi\u0119cznej wonno\u015bci.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego. Alleluja, alleluja.\n*Ps 109:4*\nTy\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Syr 44:16*\nOto wielki kap\u0142an, kt\u00f3ry za dni swoich podoba\u0142 si\u0119 Bogu.\n*Syr 44:20*\nV. Nie znalaz\u0142 si\u0119 jemu podobny, kt\u00f3ry by zachowa\u0142 prawo Najwy\u017cszego.\n*Ps 111:1-3*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w Jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\nV. Zasoby i bogactwa b\u0119d\u0105 w jego domu, a hojno\u015b\u0107 jego b\u0119dzie trwa\u0142a zawsze.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:1-9*\nOnego czasu: Wyznaczy\u0142 Pan tak\u017ce innych siedemdziesi\u0119ciu dw\u00f3ch i rozes\u0142a\u0142 ich przed sob\u0105, po dw\u00f3ch do ka\u017cdego miasta i miejsca, dok\u0105d mia\u0142 nadej\u015b\u0107. I m\u00f3wi\u0142 im: \u00ab\u017bniwo wprawdzie wielkie, ale robotnik\u00f3w ma\u0142o. Pro\u015bcie\u017c tedy Pana \u017cniwa, aby wys\u0142a\u0142 robotnik\u00f3w na \u017cniwo swoje.\nId\u017acie, oto wa was posy\u0142am jako baranki mi\u0119dzy wilki. Nie no\u015bcie trzosa ani torby, ani sanda\u0142\u00f3w i nikogo w drodze nie pozdrawiajcie. A do kt\u00f3regokolwiek domu wnijdziecie, naprz\u00f3d powiedzcie: Pok\u00f3j temu domowi; a je\u015bliby tam przebywa\u0142 syn pokoju, spocznie na nim pok\u00f3j wasz; a je\u015bli nie, do was powr\u00f3ci. W tym\u017ce domu zosta\u0144cie, jedz\u0105c i pij\u0105c, co jest u nich: albowiem godzien jest robotnik zap\u0142aty swojej. Nie przechod\u017acie z domu do domu. A do kt\u00f3regokolwiek miasta wnijdziecie i przyjm\u0105 was, jedzcie, co przed wami po\u0142o\u017c\u0105, i uzdrawiajcie chorych, kt\u00f3rzy s\u0105 w nim, i m\u00f3wcie im: Zbli\u017cy\u0142o si\u0119 do was Kr\u00f3lestwo Bo\u017ce\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:21-22*\n*W czasie konsekracji namaszcza si\u0119 g\u0142ow\u0119 i r\u0119ce biskupa Krzy\u017cmem \u015bwi\u0119tym.*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, niech nam wsz\u0119dzie sprawiaj\u0105 rado\u015b\u0107 Twoi \u015awi\u0119ci, aby\u015bmy wspominaj\u0105c ich zas\u0142ugi doznali r\u00f3wnie\u017c ich opieki.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nProsimy Ci\u0119, Panie, przyjmij \u0142askawie ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy przez zas\u0142ugi \u015bwi\u0119tej Doroty, Twojej Dziewicy i M\u0119czennicy, i spraw, by nam nieustann\u0105 by\u0142a pomoc\u0105.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:42*\nOto wierny i roztropny s\u0142uga, kt\u00f3rego Pan postanowi\u0142 nad swoj\u0105 czeladzi\u0105, by ka\u017cdemu wydziela\u0142 \u017cywno\u015b\u0107 w odpowiednim czasie.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, spraw, prosimy, aby\u015bmy sk\u0142adaj\u0105c dzi\u0119ki za przyj\u0119te dary, za przyczyn\u0105 \u015bwi\u0119tego N., Wyznawcy Twego i Biskupa, otrzymywali coraz wi\u0119ksze dobrodziejstwa.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Doroty, Dziewicy i M\u0119czennicy*\nDarem Bo\u017cym szczodrze nasyceni, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy za wstawiennictwem \u015bwi\u0119tej Doroty Twojej Dziewicy i M\u0119czennicy, zawsze czerpali ze\u0144 \u017cycie.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }
+]

@@ -1,117 +1,383 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej przy \u017b\u0142\u00f3bku", 
-      "1 klasy z oktaw\u0105 2 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej przy \u017b\u0142\u00f3bku", 
+        "1 klasy z oktaw\u0105 2 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-12-25", 
+      "description": "O p\u00f3\u0142nocy przenosimy si\u0119 duchem do groty betlejemskiej i \u0142\u0105czymy si\u0119 z Matk\u0105 Bo\u017c\u0105 oraz Anio\u0142ami witaj\u0105cymi rodz\u0105cego si\u0119 Zbawiciela. Wspania\u0142e przeciwstawienia kol\u0119dy staraj\u0105 si\u0119 odda\u0107 wielko\u015b\u0107 tajemnicy: \u00abB\u00f3g si\u0119 rodzi, moc \u2014 truchleje, Pan niebios\u00f3w \u2014 obna\u017cony, Ogie\u0144 \u2014 krzepnie, blask \u2014 ciemnieje, Ma granice \u2014 Niesko\u0144czony; Wzgardzony \u2014 okryty chwa\u0142\u0105, \u015amiertelny \u2014 Kr\u00f3l nad wiekami\u00bb. Narodzenie Chrystusa w nocy jest symbolem roli, jak\u0105 mia\u0142 spe\u0142ni\u0107 na \u015bwiecie rozpraszaj\u0105c ciemno\u015bci grzechu. Ze szczeg\u00f3lnym przej\u0119ciem \u015bpiewamy hymn Gloria in excelsis Deo, kt\u00f3ry tej nocy zabrzmia\u0142 po raz pierwszy na ziemi, i kl\u0119kamy wyznaj\u0105c wiar\u0119 w Jezusa, kt\u00f3ry \u00abprzyj\u0105\u0142 Cia\u0142o z Maryi Dziewicy i sta\u0142 si\u0119 cz\u0142owiekiem\u00bb.\n", 
+      "tempora": null, 
+      "title": "Bo\u017ce Narodzenie \u2014 Msza o P\u00f3\u0142nocy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 2:7.*\nD\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te.\n*Ps 2:1*\nQuare fremu\u00e9runt gentes: et p\u00f3puli medit\u00e1ti sunt in\u00e1nia?\nGl\u00f3ria Patri.\nD\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui hanc sacrat\u00edssimam noctem veri l\u00faminis fec\u00edsti illustrati\u00f3ne clar\u00e9scere: da, qu\u01fdsumus; ut, cujus lucis myst\u00e9ria in terra cogn\u00f3vimus, ejus quoque g\u00e1udiis in coelo perfru\u00e1mur:\nQui tecum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 beati Pauli Ap\u00f3stoli ad Titum.\n*Tit 2:11-15*\nCar\u00edssime: App\u00e1ruit gr\u00e1tia Dei Salvat\u00f3ris nostri \u00f3mnibus hom\u00ednibus, er\u00fadiens nos, ut, abneg\u00e1ntes impiet\u00e1tem et s\u00e6cul\u00e1ria desid\u00e9ria, s\u00f3brie et juste et pie viv\u00e1mus in hoc saeculo, exspect\u00e1ntes be\u00e1tam spem et adv\u00e9ntum gl\u00f3ri\u00e6 magni Dei et Salvat\u00f3ris nostri Jesu Christi: qui dedit semet\u00edpsum pro nobis: ut nos red\u00edmeret ab omni iniquit\u00e1te, et mund\u00e1ret sibi p\u00f3pulum accept\u00e1bilem, sectat\u00f3rem bon\u00f3rum \u00f3perum. H\u00e6c l\u00f3quere et exhort\u00e1re: in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 109:3; 109:1*\nTecum princ\u00edpium in die virt\u00fatis tu\u00e6: in splend\u00f3ribus Sanct\u00f3rum, ex \u00fatero ante luc\u00edferum g\u00e9nui te.\nV. Dixit D\u00f3minus D\u00f3mino meo: Sede a dextris meis: donec ponam inim\u00edcos tuos, scab\u00e9llum pedum tu\u00f3rum. Allel\u00faja, allel\u00faja.\n*Ps 2:7*\nV. D\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii secundum Lucam.\n*Luc 2:1-14*\nIn illo t\u00e9mpore: Exiit ed\u00edctum a Caesare Aug\u00fasto, ut describer\u00e9tur univ\u00e9rsus orbis. Haec descr\u00edptio prima facta est a praeside S\u00fdri\u00e6 Cyr\u00edno: et ibant omnes ut profiter\u00e9ntur s\u00ednguli in suam civit\u00e1tem. Asc\u00e9ndit autem et Joseph a Galilaea de civit\u00e1te N\u00e1zareth, in Judaeam in civit\u00e1tem David, qu\u00e6 vocatur B\u00e9thlehem: eo quod esset de domo et f\u00e1milia David, ut profiter\u00e9tur cum Mar\u00eda despons\u00e1ta sibi ux\u00f3re pr\u00e6gn\u00e1nte. Factum est autem, cum essent ibi, impl\u00e9ti sunt dies, ut p\u00e1reret. Et p\u00e9perit f\u00edlium suum primog\u00e9nitum, et pannis eum inv\u00f3lvit, et reclin\u00e1vit eum in pr\u00e6s\u00e9pio: quia non erat eis locus in divers\u00f3rio. Et past\u00f3res erant in regi\u00f3ne e\u00e1dem vigil\u00e1ntes, et custodi\u00e9ntes vig\u00edlias noctis super gregem suum. Et ecce, Angelus D\u00f3mini stetit juxta illos, et cl\u00e1ritas Dei circumf\u00falsit illos, et timu\u00e9runt tim\u00f3re magno. Et dixit illis Angelus: Nol\u00edte tim\u00e9re: ecce enim, evangel\u00edzo vobis g\u00e1udium magnum, quod erit omni p\u00f3pulo: quia natus est vobis h\u00f3die Salv\u00e1tor, qui est Christus D\u00f3minus, in civit\u00e1te David. Et hoc vobis signum: Inveni\u00e9tis inf\u00e1ntem pannis invol\u00fatum, et p\u00f3situm in pr\u00e6s\u00e9pio. Et s\u00fabito facta est cum Angelo multit\u00fado mil\u00edti\u00e6 coel\u00e9stis, laud\u00e1ntium Deum et dic\u00e9ntium: Gl\u00f3ria in alt\u00edssimis Deo, et in terra pax h\u00f3minibus bon\u00e6 volunt\u00e1tis.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 95:11; 95:13*\nL\u00e6t\u00e9ntur coeli et exs\u00faltet terra ante f\u00e1ciem D\u00f3mini: qu\u00f3niam venit.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Ac\u00e9pta tibi sit, D\u00f3mine, qu\u01fdsumus, hodi\u00e9rn\u00e6 festivit\u00e1tis obl\u00e1tio: ut, tua gratia largi\u00e9nte, per h\u00e6c sacros\u00e1ncta comm\u00e9rcia, in ill\u00edus inveni\u00e1mur forma, in quo tecum est nostra subst\u00e1ntia:\nQui tecum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 109:3*\nIn splend\u00f3ribus Sanct\u00f3rum, ex \u00fatero ante luc\u00edferum g\u00e9nui te.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Da nobis, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, qui Nativit\u00e1tem D\u00f3mini nostri Jesu Christi myst\u00e9riis nos frequent\u00e1re gaud\u00e9mus; dignis conversati\u00f3nibus ad ejus mere\u00e1mur perven\u00edre cons\u00f3rtium:\nQui tecum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-12-25", 
-    "description": "O p\u00f3\u0142nocy przenosimy si\u0119 duchem do groty betlejemskiej i \u0142\u0105czymy si\u0119 z Matk\u0105 Bo\u017c\u0105 oraz Anio\u0142ami witaj\u0105cymi rodz\u0105cego si\u0119 Zbawiciela. Wspania\u0142e przeciwstawienia kol\u0119dy staraj\u0105 si\u0119 odda\u0107 wielko\u015b\u0107 tajemnicy: \u00abB\u00f3g si\u0119 rodzi, moc \u2014 truchleje, Pan niebios\u00f3w \u2014 obna\u017cony, Ogie\u0144 \u2014 krzepnie, blask \u2014 ciemnieje, Ma granice \u2014 Niesko\u0144czony; Wzgardzony \u2014 okryty chwa\u0142\u0105, \u015amiertelny \u2014 Kr\u00f3l nad wiekami\u00bb. Narodzenie Chrystusa w nocy jest symbolem roli, jak\u0105 mia\u0142 spe\u0142ni\u0107 na \u015bwiecie rozpraszaj\u0105c ciemno\u015bci grzechu. Ze szczeg\u00f3lnym przej\u0119ciem \u015bpiewamy hymn Gloria in excelsis Deo, kt\u00f3ry tej nocy zabrzmia\u0142 po raz pierwszy na ziemi, i kl\u0119kamy wyznaj\u0105c wiar\u0119 w Jezusa, kt\u00f3ry \u00abprzyj\u0105\u0142 Cia\u0142o z Maryi Dziewicy i sta\u0142 si\u0119 cz\u0142owiekiem\u00bb.\n", 
-    "tempora": null, 
-    "title": "Bo\u017ce Narodzenie \u2014 Msza o P\u00f3\u0142nocy"
+    "proper_vernacular": [
+      {
+        "body": "*Ps 2:7*\nPan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb.\n*Ps 2:1*\nDlaczego si\u0119 burz\u0105 narody, czemu ludy knuj\u0105 daremne zamys\u0142y?\nChwa\u0142a Ojcu.\nPan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty\u015b sprawi\u0142, \u017ce ta naj\u015bwi\u0119tsza noc zaja\u015bnia\u0142a blaskiem prawdziwej \u015bwiat\u0142o\u015bci, spraw, prosimy, aby\u015bmy w niebie mogli nasyca\u0107 si\u0119 rado\u015bciami Tego, kt\u00f3rego tajemnicz\u0105 \u015bwiat\u0142o\u015b\u0107 poznali\u015bmy na ziemi:\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tytusa.\n*Tt 2:11-15*\nNajmilszy: Okaza\u0142a si\u0119 wszystkim ludziom \u0142aska Boga, Zbawiciela naszego, i poucza nas, aby\u015bmy wyrzek\u0142szy si\u0119 bezbo\u017cno\u015bci i \u017c\u0105dz \u015bwiatowych, rozs\u0105dnie, sprawiedliwie i pobo\u017cnie \u017cyli na tym \u015bwiecie, oczekuj\u0105c b\u0142ogos\u0142awionej nadziei i przyj\u015bcia chwa\u0142y wielkiego Boga i Zbawiciela naszego Jezusa Chrystusa. Wyda\u0142 On samego siebie za nas, aby nas wykupi\u0142 od wszelkiej nieprawo\u015bci i przygotowa\u0142 sobie na w\u0142asno\u015b\u0107 lud czysty, dobrych uczynk\u00f3w strzeg\u0105cy. To m\u00f3w i napominaj w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 109:3; 109:1*\nPrzy Tobie panowanie od dnia Twych narodzin; w blaskach \u015bwi\u0119to\u015bci przed jutrzenk\u0105 wyda\u0142em Ci\u0119 z \u0142ona.\nV. Rzek\u0142 Pan do Pana mego: Si\u0105d\u017a po prawicy mojej, a\u017c nieprzyjaci\u00f3\u0142 Twych po\u0142o\u017c\u0119 jako podn\u00f3\u017cek pod Twe stopy. Alleluja, alleluja.\n*Ps 2:7*\nV. Pan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:1-14*\nOnego czasu wydany zosta\u0142 dekret przez cesarza Augusta, aby spisano wszystek \u015bwiat. Pierwszy ten spis odby\u0142 si\u0119, gdy Cyryn by\u0142 wielkorz\u0105dc\u0105 Syrii. Szli tedy wszyscy do spisu, ka\u017cdy do miasta swego. Poszed\u0142 te\u017c i J\u00f3zef z Galilei, z miasta Nazaret, do Judei, do miasta Dawidowego, zwanego Betlejem, jako \u017ce by\u0142 z domu i pokolenia Dawidowego, aby zosta\u0107 wpisanym wraz z Maryj\u0105, za\u015blubion\u0105 sw\u0105 ma\u0142\u017conk\u0105, brzemienn\u0105. I sta\u0142o si\u0119, gdy tam byli, \u017ce wype\u0142ni\u0142y si\u0119 dni, aby porodzi\u0142a. I porodzi\u0142a Syna swego pierworodnego, i owin\u0119\u0142a Go w pieluszki, i z\u0142o\u017cy\u0142a w \u017c\u0142obie: nie by\u0142o bowiem dla nich miejsca w gospodzie. I byli w tej krainie pasterze, czuwaj\u0105cy i odbywaj\u0105cy nocne stra\u017ce nad stadem swoim. A oto Anio\u0142 Pa\u0144ski stan\u0105\u0142 przy nich i jasno\u015b\u0107 Bo\u017ca zewsz\u0105d ich o\u015bwieci\u0142a, tak \u017ce zl\u0119kli si\u0119 boja\u017ani\u0105 wielk\u0105. I rzek\u0142 im Anio\u0142: \u00abNie l\u0119kajcie si\u0119, oto bowiem zwiastuj\u0119 wam rado\u015b\u0107 wielk\u0105, kt\u00f3ra b\u0119dzie wszystkiemu ludowi, \u017ce si\u0119 wam dzi\u015b narodzi\u0142 Zbawiciel, kt\u00f3rym jest Chrystus Pan, w mie\u015bcie Dawidowym. A to b\u0119dzie dla was znakiem: Znajdziecie niemowl\u0119 owini\u0119te w pieluszki i z\u0142o\u017cone w \u017c\u0142obie\u00bb. I nagle zjawi\u0142y si\u0119 z Anio\u0142em zast\u0119py wojska niebieskiego, wielbi\u0105ce Boga i m\u00f3wi\u0105ce: \u00abChwa\u0142a na wysoko\u015bciach Bogu, a na ziemi pok\u00f3j ludziom dobrej woli\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 95:11; 95:13*\nNiech cieszy si\u0119 niebo i ziemia raduje przed Panem, dlatego \u017ce nadchodzi.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij \u0142askawie, o Panie, ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy w dzisiejsz\u0105 uroczysto\u015b\u0107, aby\u015bmy za \u0142ask\u0105 Twoj\u0105 przez t\u0119 tajemnicz\u0105 wymian\u0119 otrzymali udzia\u0142 w B\u00f3stwie Tego, w kt\u00f3rym zespoli\u0142a si\u0119 z Tob\u0105 nasza ludzka natura:\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 109:3*\nW blaskach \u015bwi\u0119to\u015bci przed jutrzenk\u0105 wyda\u0142em Ci\u0119 z \u0142ona.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie, Bo\u017ce nasz, z rado\u015bci\u0105 uczestniczymy w misteriach narodzenia Pana naszego Jezusa Chrystusa; daj nam, prosimy, aby\u015bmy przez \u015bwi\u0119te \u017cycie zas\u0142u\u017cyli na obcowanie z Nim w wieczno\u015bci:\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
   }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 2:7.*\nD\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te.\n*Ps 2:1*\nQuare fremu\u00e9runt gentes: et p\u00f3puli medit\u00e1ti sunt in\u00e1nia?\nGl\u00f3ria Patri.\nD\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te.", 
-      "id": "Introitus", 
-      "label": "Introitus"
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Anastazji", 
+        "1 klasy z oktaw\u0105 2 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-12-25", 
+      "description": "Wsch\u00f3d s\u0142o\u0144ca po d\u0142ugiej zimowej nocy to obraz Chrystusa, kt\u00f3ry zaja\u015bnia\u0142 w dniu dzisiejszym nad ludzko\u015bci\u0105. Antyfona na wej\u015bcie, kolekta i gradua\u0142 wspominaj\u0105 o \u015bwiat\u0142o\u015bci nadprzyrodzonej, kt\u00f3r\u0105 Chrystus obdarza nasze dusze. Ewangelia wspomina dalsze wydarzenia dnia narodzin Zbawiciela. O \u015bwicie przybyli do \u017c\u0142\u00f3bka pasterze, przedstawiciele narodu wybranego. Podobnie jak oni, i my wielbimy Boga za wszystko, co widzimy i s\u0142yszymy w tym \u015bwi\u0119tym dniu.\nDruga Msza Bo\u017cego Narodzenia wzi\u0119\u0142a sw\u00f3j pocz\u0105tek od nabo\u017ce\u0144stwa stacyjnego, odprawianego w ko\u015bciele \u015bw. Anastazji, M\u0119czennicy, ku jej czci.\n\u015aw. Anastazja zosta\u0142a spalona za wiar\u0119 w Sirmium (Mitrovica w Slawonii) w dniu 25 grudnia. Imi\u0119 jej wymienia si\u0119 w kanonie Mszy \u015bw. Obecnie we Mszy \u015bw., po\u015bwi\u0119conej Bo\u017cemu Narodzeniu, do\u0142\u0105cza si\u0119 wspomnienie \u015bw. Anastazji. Jej imi\u0119, kt\u00f3re po grecku znaczy \u00abzmartwychwstanie\u00bb, wp\u0142yn\u0119\u0142o, by\u0107 mo\u017ce, na dob\u00f3r tekst\u00f3w mszalnych. Lekcja wspomina o Chrzcie \u015bw., kt\u00f3ry jest owocem tajemnicy Zmartwychwstania. W graduale \u015bpiewa si\u0119 wielkanocny psalm 117. Bo\u017ce Narodzenie to wsch\u00f3d S\u0142o\u0144ca, kt\u00f3re pe\u0142nym blaskiem zaja\u015bnieje w dniu Zmartwychwstania.\n", 
+      "tempora": null, 
+      "title": "Bo\u017ce Narodzenie \u2014 Msza o \u015awicie"
     }, 
-    {
-      "body": "Deus, qui hanc sacrat\u00edssimam noctem veri l\u00faminis fec\u00edsti illustrati\u00f3ne clar\u00e9scere: da, qu\u01fdsumus; ut, cujus lucis myst\u00e9ria in terra cogn\u00f3vimus, ejus quoque g\u00e1udiis in coelo perfru\u00e1mur:\nQui tecum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
+    "proper_latin": [
+      {
+        "body": "*Is 9:2 et 6.*\nLux fulg\u00e9bit h\u00f3die super nos: quia natus est nobis D\u00f3minus: et voc\u00e1bitur Admir\u00e1bilis, Deus, Princeps pacis, Pater fut\u00fari saeculi: cujus regni non erit finis\n*Ps 92:1*\nDominus regn\u00e1vit, decorem indutus est: indutus est Dominus fortitudinem, et pr\u00e6c\u00ednxit se.\nGl\u00f3ria Patri.\nLux fulg\u00e9bit h\u00f3die super nos: quia natus est nobis D\u00f3minus: et voc\u00e1bitur Admir\u00e1bilis, Deus, Princeps pacis, Pater fut\u00fari saeculi: cujus regni non erit finis", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Da nobis, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui nova incarn\u00e1ti Verbi tui luce perf\u00fandimur; hoc in nostro respl\u00e9ndeat \u00f3pere, quod per fidem fulget in mente.\nPer e\u00fandem.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro S. Anastasi\u00e6 Mart:*\nDa, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui be\u00e1t\u00e6 Anast\u00e1si\u00e6 M\u00e1rtyris tu\u00e6 soll\u00e9mnia c\u00f3limus; ejus apud te patroc\u00ednia senti\u00e1mus.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Lectio Ep\u00edstol\u00e6 beati Pauli Apostoli ad Titum.\n*Tit 3:4-7*\nCar\u00edssime: App\u00e1ruit ben\u00edgnitas et hum\u00e1nitas Salvat\u00f3ris nostri Dei: non ex op\u00e9ribus just\u00edti\u00e6, qu\u00e6 f\u00e9cimus nos, sed sec\u00fandum suam miseric\u00f3rdiam salvos nos fecit per lav\u00e1crum regenerati\u00f3nis et renovati\u00f3nis Sp\u00edritus Sancti, quem eff\u00fadit in nos ab\u00fande per Jesum Christum, Salvatorem nostrum: ut, justific\u00e1ti gr\u00e1tia ips\u00edus, her\u00e9des simus sec\u00fandum spem vit\u00e6 \u00e6t\u00e9rn\u00e6: in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 117:26; 117:27; 117:23*\nBened\u00edctus, qui venit in n\u00f3mine D\u00f3mini: Deus D\u00f3minus, et ill\u00faxit\nnobis.\nV. A D\u00f3mino factum est istud: et est mir\u00e1bile in \u00f3culis nostris. Allel\u00faja, allel\u00faja\n*Ps 92:1*\nV. D\u00f3minus regn\u00e1vit, dec\u00f3rem \u00ednduit: \u00ednduit D\u00f3minus fortit\u00fadinem, et pr\u00e6c\u00ednxit se virt\u00fate. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 2:15-20*\nIn illo t\u00e9mpore: Past\u00f3res loqueb\u00e1ntur ad \u00ednvicem: Transe\u00e1mus usque B\u00e9thlehem, et vide\u00e1mus hoc verbum, quod factum est, quod D\u00f3minus ost\u00e9ndit nobis. Et ven\u00e9runt festin\u00e1ntes: et inven\u00e9runt Mar\u00edam et Joseph. et Inf\u00e1ntem p\u00f3situm in pr\u00e6s\u00e9pio. Vid\u00e9ntes autem cognov\u00e9runt de verbo, quod dictum erat illis de P\u00faero hoc. Et omnes, qui audi\u00e9runt, mir\u00e1ti sunt: et de his, qu\u00e6 dicta erant a past\u00f3ribus ad ipsos. Mar\u00eda autem conserv\u00e1bat \u00f3mnia verba h\u00e6c, c\u00f3nferens in corde suo. Et rev\u00e9rsi sunt past\u00f3res, glorific\u00e1ntes et laud\u00e1ntes Deum in \u00f3mnibus, qu\u00e6 aud\u00ederant et v\u00edderant, sicut dictum est ad illos.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 92:1-2*\nDeus firm\u00e1vit orbem terr\u00e6, qui non commov\u00e9bitur: par\u00e1ta sedes tua, Deus, ex tunc, a saeculo tu es.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "M\u00fanera nostra, qu\u01fdsumus, D\u00f3mine, Nativit\u00e1tis hodi\u00e9rn\u00e6 myst\u00e9riis apta prov\u00e9niant, et pacem nobis semper inf\u00fandant: ut, sicut homo g\u00e9nitus idem ref\u00falsit et Deus, sic nobis h\u00e6c terr\u00e9na subst\u00e1ntia c\u00f3nferat, quod div\u00ednum est.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro S. Anastasia.*\nAcipe, qu\u01fdsumus, D\u00f3mine, m\u00fanera dign\u00e1nter obl\u00e1ta: et, be\u00e1t\u00e6 Anast\u00e1si\u00e6 M\u00e1rtyris tu\u00e6 suffrag\u00e1ntibus m\u00e9ritis, ad nostr\u00e6 sal\u00fatis aux\u00edlium proven\u00edre conc\u00e9de.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Zach 9:9*\nExs\u00falta, f\u00edlia Sion, lauda, f\u00edlia Jer\u00fasalem: ecce, Rex tuus venit sanctus et Salv\u00e1tor mundi.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Hujus nos, D\u00f3mine, sacram\u00e9nti semper n\u00f3vitas nat\u00e1lis inst\u00e1uret: cujus Nat\u00edvitas singul\u00e1ris hum\u00e1nam r\u00e9ppulit vetust\u00e1tem.\nPer e\u00fandem.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro S. Anastasia.*\nSati\u00e1sti, D\u00f3mine, fam\u00edliam tuam mun\u00e9ribus sacris: ejus, qu\u01fdsumus, semper interventi\u00f3ne nos r\u00e9fove, cujus soll\u00e9mnia celebr\u00e1mus.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*Iz 9:2,6*\n\u015awiat\u0142o\u015b\u0107 zab\u0142y\u015bnie dzisiaj nad nami, albowiem narodzi\u0142 si\u0119 nam Pan! A imi\u0119 Jego nazwano: Przedziwny, B\u00f3g, Ksi\u0105\u017c\u0119 pokoju, kt\u00f3rego kr\u00f3lestwu nie b\u0119dzie ko\u0144ca.\n*Ps 92:1*\nPan kr\u00f3luje, w majestat si\u0119 obl\u00f3k\u0142, odzia\u0142 si\u0119 Pan w pot\u0119g\u0119 i przepasa\u0142 si\u0119.\nChwa\u0142a Ojcu.\n\u015awiat\u0142o\u015b\u0107 zab\u0142y\u015bnie dzisiaj nad nami, albowiem narodzi\u0142 si\u0119 nam Pan! A imi\u0119 Jego nazwano: Przedziwny, B\u00f3g, Ksi\u0105\u017c\u0119 pokoju, kt\u00f3rego kr\u00f3lestwu nie b\u0119dzie ko\u0144ca.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Przenikni\u0119ci nowym \u015bwiat\u0142em Wcielonego S\u0142owa prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, spraw, niech w naszych czynach odbija si\u0119 to, co przez wiar\u0119 ja\u015bnieje w duszach.\nPrzez tego\u017c Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Anastazji*\nWszechmog\u0105cy Bo\u017ce, obchodz\u0105c uroczysto\u015b\u0107 Twojej M\u0119czennicy \u015bw. Anastazji, prosimy Ci\u0119, aby\u015bmy doznali skutk\u00f3w jej wstawiennictwa.\nPrzez Pana.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tytusa.\n*Tt 3:4-7*\nNajmilszy: Okaza\u0142a si\u0119 dobro\u0107 i \u0142askawo\u015b\u0107 Boga, Zbawiciela naszego: zbawi\u0142 On nas nie dla uczynk\u00f3w sprawiedliwych, kt\u00f3rych dokonali\u015bmy, ale z mi\u0142osierdzia Swego przez obmycie odrodzenia i odnowienia w Duchu \u015awi\u0119tym. Zes\u0142a\u0142 Go nam obficie przez Jezusa Chrystusa, Zbawiciela naszego, aby\u015bmy \u0142ask\u0105 Jego usprawiedliwieni, stali si\u0119 wed\u0142ug nadziei dziedzicami \u017cywota wiecznego: w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 117:26; 117:27; 117:23*\nB\u0142ogos\u0142awiony, kt\u00f3ry przybywa w imi\u0119 Pa\u0144skie: Pan jest Bogiem i zaja\u015bnia\u0142 nam.\nV. Sta\u0142o si\u0119 to przez Pana; cudem jest w oczach naszych. Alleluja, alleluja.\n*Ps 92:1*\nV. Pan kr\u00f3luje, w majestat si\u0119 obl\u00f3k\u0142, odzia\u0142 si\u0119 Pan w pot\u0119g\u0119 i przepasa\u0142 si\u0119 moc\u0105. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:15-20*\nOnego czasu; M\u00f3wili pasterze jeden do drugiego: \u00abP\u00f3jd\u017amy a\u017c do Betlejem i zobaczmy to, co si\u0119 sta\u0142o, o czym oznajmi\u0142 nam Pan\u00bb. I spiesz\u0105c si\u0119 przybyli, i znale\u017ali Maryj\u0119 i J\u00f3zefa oraz Dzieci\u0105tko z\u0142o\u017cone w \u017c\u0142obie. A ujrzawszy, zrozumieli s\u0142owa, kt\u00f3re im oznajmione by\u0142y o tym Dzieci\u0105tku. A wszyscy, kt\u00f3rzy s\u0142yszeli, zdumiewali si\u0119; tak\u017ce i temu, co im m\u00f3wili pasterze. Maryja za\u015b zachowywa\u0142a wszystkie te s\u0142owa, rozwa\u017caj\u0105c je w sercu swoim. I wr\u00f3cili pasterze wielbi\u0105c i chwal\u0105c Boga za wszystko, co s\u0142yszeli i widzieli, jako im by\u0142o powiedziane.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 92:1-2*\nB\u00f3g okr\u0105g ziemi utwierdzi\u0142, \u017ce si\u0119 nie poruszy. Od wiek\u00f3w tron Tw\u00f3j niewzruszony, o Bo\u017ce, Ty od wiek\u00f3w jeste\u015b.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "*Po przyj\u0119ciu przez Boga ludzkiej natury nawet materialne przedmioty mog\u0105 si\u0119 sta\u0107 narz\u0119dziem \u0142aski. Sakramenty przed\u0142u\u017caj\u0105 w ten spos\u00f3b tajemnic\u0119 Wcielenia.*\nProsimy Ci\u0119, Panie, niech nasze dary stan\u0105 si\u0119 godne dzisiejszego misterium Narodzenia i niech nas zawsze nape\u0142niaj\u0105 pokojem; a jak Cz\u0142owiek dzi\u015b narodzony zaja\u015bnia\u0142 tak\u017ce jako B\u00f3g, tak niechaj te ziemskie rzeczy udziel\u0105 nam tego, co Bo\u017ce.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Anastazji*\nPrzyjmij, prosimy Ci\u0119, Panie dary ze czci\u0105 z\u0142o\u017cone i spraw, niech przez zas\u0142ugi \u015bwi\u0119tej Anastazji, Twojej M\u0119czennicy, przyczyni\u0105 si\u0119 do naszego zbawienia.\nPrzez Pana.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Zch 9:9*\nRaduj si\u0119 wielce, c\u00f3rko syjo\u0144ska! Wo\u0142aj rado\u015bnie, c\u00f3rko Jeruzalem! Oto przychodzi tw\u00f3j Kr\u00f3l: On, sprawiedliwy i Zbawiciel \u015bwiata.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Niechaj nas zawsze odradza, o Panie, sakramentalne odnowienie przyj\u015bcia Tego, kt\u00f3rego przedziwne narodzenie znios\u0142o star\u0105 przewin\u0119 ludzko\u015bci.\nPrzez tego\u017c Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }, 
+      {
+        "body": "*Wspomnienie \u015bw. Anastazji*\nNasyci\u0142e\u015b, Panie, rodzin\u0119 Twoj\u0105 \u015bwi\u0119tymi darami: wzmacniaj nas stale za wstawiennictwem tej, kt\u00f3rej uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
+    ]
+  }, 
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+        "1 klasy z oktaw\u0105 2 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2017-12-25", 
+      "description": "Trzecia Msza Bo\u017cego Narodzenia, kt\u00f3ra jest punktem kulminacyjnym obchodu, zwraca nasz\u0105 uwag\u0119 na godno\u015b\u0107 Dzieci\u0119cia, kt\u00f3re spocz\u0119\u0142o w betlejemskim \u017c\u0142\u00f3bku. S\u0142yszymy najwspanialsze teksty Nowego Testamentu opiewaj\u0105ce majestat wcielonego S\u0142owa. \u015apiewy mszalne b\u0119d\u0105ce echem tych czyta\u0144 wzywaj\u0105 ca\u0142y \u015bwiat do uczczenia nowo narodzonego Zbawiciela, kt\u00f3ry jest Kr\u00f3lem.\n", 
+      "tempora": null, 
+      "title": "Bo\u017ce Narodzenie \u2014 Msza w Dzie\u0144"
     }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 beati Pauli Ap\u00f3stoli ad Titum.\n*Tit 2:11-15*\nCar\u00edssime: App\u00e1ruit gr\u00e1tia Dei Salvat\u00f3ris nostri \u00f3mnibus hom\u00ednibus, er\u00fadiens nos, ut, abneg\u00e1ntes impiet\u00e1tem et s\u00e6cul\u00e1ria desid\u00e9ria, s\u00f3brie et juste et pie viv\u00e1mus in hoc saeculo, exspect\u00e1ntes be\u00e1tam spem et adv\u00e9ntum gl\u00f3ri\u00e6 magni Dei et Salvat\u00f3ris nostri Jesu Christi: qui dedit semet\u00edpsum pro nobis: ut nos red\u00edmeret ab omni iniquit\u00e1te, et mund\u00e1ret sibi p\u00f3pulum accept\u00e1bilem, sectat\u00f3rem bon\u00f3rum \u00f3perum. H\u00e6c l\u00f3quere et exhort\u00e1re: in Christo Jesu, D\u00f3mino nostro.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 109:3; 109:1*\nTecum princ\u00edpium in die virt\u00fatis tu\u00e6: in splend\u00f3ribus Sanct\u00f3rum, ex \u00fatero ante luc\u00edferum g\u00e9nui te.\nV. Dixit D\u00f3minus D\u00f3mino meo: Sede a dextris meis: donec ponam inim\u00edcos tuos, scab\u00e9llum pedum tu\u00f3rum. Allel\u00faja, allel\u00faja.\n*Ps 2:7*\nV. D\u00f3minus dixit ad me: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii secundum Lucam.\n*Luc 2:1-14*\nIn illo t\u00e9mpore: Exiit ed\u00edctum a Caesare Aug\u00fasto, ut describer\u00e9tur univ\u00e9rsus orbis. Haec descr\u00edptio prima facta est a praeside S\u00fdri\u00e6 Cyr\u00edno: et ibant omnes ut profiter\u00e9ntur s\u00ednguli in suam civit\u00e1tem. Asc\u00e9ndit autem et Joseph a Galilaea de civit\u00e1te N\u00e1zareth, in Judaeam in civit\u00e1tem David, qu\u00e6 vocatur B\u00e9thlehem: eo quod esset de domo et f\u00e1milia David, ut profiter\u00e9tur cum Mar\u00eda despons\u00e1ta sibi ux\u00f3re pr\u00e6gn\u00e1nte. Factum est autem, cum essent ibi, impl\u00e9ti sunt dies, ut p\u00e1reret. Et p\u00e9perit f\u00edlium suum primog\u00e9nitum, et pannis eum inv\u00f3lvit, et reclin\u00e1vit eum in pr\u00e6s\u00e9pio: quia non erat eis locus in divers\u00f3rio. Et past\u00f3res erant in regi\u00f3ne e\u00e1dem vigil\u00e1ntes, et custodi\u00e9ntes vig\u00edlias noctis super gregem suum. Et ecce, Angelus D\u00f3mini stetit juxta illos, et cl\u00e1ritas Dei circumf\u00falsit illos, et timu\u00e9runt tim\u00f3re magno. Et dixit illis Angelus: Nol\u00edte tim\u00e9re: ecce enim, evangel\u00edzo vobis g\u00e1udium magnum, quod erit omni p\u00f3pulo: quia natus est vobis h\u00f3die Salv\u00e1tor, qui est Christus D\u00f3minus, in civit\u00e1te David. Et hoc vobis signum: Inveni\u00e9tis inf\u00e1ntem pannis invol\u00fatum, et p\u00f3situm in pr\u00e6s\u00e9pio. Et s\u00fabito facta est cum Angelo multit\u00fado mil\u00edti\u00e6 coel\u00e9stis, laud\u00e1ntium Deum et dic\u00e9ntium: Gl\u00f3ria in alt\u00edssimis Deo, et in terra pax h\u00f3minibus bon\u00e6 volunt\u00e1tis.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 95:11; 95:13*\nL\u00e6t\u00e9ntur coeli et exs\u00faltet terra ante f\u00e1ciem D\u00f3mini: qu\u00f3niam venit.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Ac\u00e9pta tibi sit, D\u00f3mine, qu\u01fdsumus, hodi\u00e9rn\u00e6 festivit\u00e1tis obl\u00e1tio: ut, tua gratia largi\u00e9nte, per h\u00e6c sacros\u00e1ncta comm\u00e9rcia, in ill\u00edus inveni\u00e1mur forma, in quo tecum est nostra subst\u00e1ntia:\nQui tecum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 109:3*\nIn splend\u00f3ribus Sanct\u00f3rum, ex \u00fatero ante luc\u00edferum g\u00e9nui te.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Da nobis, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, qui Nativit\u00e1tem D\u00f3mini nostri Jesu Christi myst\u00e9riis nos frequent\u00e1re gaud\u00e9mus; dignis conversati\u00f3nibus ad ejus mere\u00e1mur perven\u00edre cons\u00f3rtium:\nQui tecum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 2:7*\nPan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb.\n*Ps 2:1*\nDlaczego si\u0119 burz\u0105 narody, czemu ludy knuj\u0105 daremne zamys\u0142y?\nChwa\u0142a Ojcu.\nPan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty\u015b sprawi\u0142, \u017ce ta naj\u015bwi\u0119tsza noc zaja\u015bnia\u0142a blaskiem prawdziwej \u015bwiat\u0142o\u015bci, spraw, prosimy, aby\u015bmy w niebie mogli nasyca\u0107 si\u0119 rado\u015bciami Tego, kt\u00f3rego tajemnicz\u0105 \u015bwiat\u0142o\u015b\u0107 poznali\u015bmy na ziemi:\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tytusa.\n*Tt 2:11-15*\nNajmilszy: Okaza\u0142a si\u0119 wszystkim ludziom \u0142aska Boga, Zbawiciela naszego, i poucza nas, aby\u015bmy wyrzek\u0142szy si\u0119 bezbo\u017cno\u015bci i \u017c\u0105dz \u015bwiatowych, rozs\u0105dnie, sprawiedliwie i pobo\u017cnie \u017cyli na tym \u015bwiecie, oczekuj\u0105c b\u0142ogos\u0142awionej nadziei i przyj\u015bcia chwa\u0142y wielkiego Boga i Zbawiciela naszego Jezusa Chrystusa. Wyda\u0142 On samego siebie za nas, aby nas wykupi\u0142 od wszelkiej nieprawo\u015bci i przygotowa\u0142 sobie na w\u0142asno\u015b\u0107 lud czysty, dobrych uczynk\u00f3w strzeg\u0105cy. To m\u00f3w i napominaj w Chrystusie Jezusie, Panu naszym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 109:3; 109:1*\nPrzy Tobie panowanie od dnia Twych narodzin; w blaskach \u015bwi\u0119to\u015bci przed jutrzenk\u0105 wyda\u0142em Ci\u0119 z \u0142ona.\nV. Rzek\u0142 Pan do Pana mego: Si\u0105d\u017a po prawicy mojej, a\u017c nieprzyjaci\u00f3\u0142 Twych po\u0142o\u017c\u0119 jako podn\u00f3\u017cek pod Twe stopy. Alleluja, alleluja.\n*Ps 2:7*\nV. Pan rzek\u0142 do mnie: \u00abTy\u015b Synem moim, Ja Ci\u0119 dzi\u015b zrodzi\u0142em\u00bb. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 2:1-14*\nOnego czasu wydany zosta\u0142 dekret przez cesarza Augusta, aby spisano wszystek \u015bwiat. Pierwszy ten spis odby\u0142 si\u0119, gdy Cyryn by\u0142 wielkorz\u0105dc\u0105 Syrii. Szli tedy wszyscy do spisu, ka\u017cdy do miasta swego. Poszed\u0142 te\u017c i J\u00f3zef z Galilei, z miasta Nazaret, do Judei, do miasta Dawidowego, zwanego Betlejem, jako \u017ce by\u0142 z domu i pokolenia Dawidowego, aby zosta\u0107 wpisanym wraz z Maryj\u0105, za\u015blubion\u0105 sw\u0105 ma\u0142\u017conk\u0105, brzemienn\u0105. I sta\u0142o si\u0119, gdy tam byli, \u017ce wype\u0142ni\u0142y si\u0119 dni, aby porodzi\u0142a. I porodzi\u0142a Syna swego pierworodnego, i owin\u0119\u0142a Go w pieluszki, i z\u0142o\u017cy\u0142a w \u017c\u0142obie: nie by\u0142o bowiem dla nich miejsca w gospodzie. I byli w tej krainie pasterze, czuwaj\u0105cy i odbywaj\u0105cy nocne stra\u017ce nad stadem swoim. A oto Anio\u0142 Pa\u0144ski stan\u0105\u0142 przy nich i jasno\u015b\u0107 Bo\u017ca zewsz\u0105d ich o\u015bwieci\u0142a, tak \u017ce zl\u0119kli si\u0119 boja\u017ani\u0105 wielk\u0105. I rzek\u0142 im Anio\u0142: \u00abNie l\u0119kajcie si\u0119, oto bowiem zwiastuj\u0119 wam rado\u015b\u0107 wielk\u0105, kt\u00f3ra b\u0119dzie wszystkiemu ludowi, \u017ce si\u0119 wam dzi\u015b narodzi\u0142 Zbawiciel, kt\u00f3rym jest Chrystus Pan, w mie\u015bcie Dawidowym. A to b\u0119dzie dla was znakiem: Znajdziecie niemowl\u0119 owini\u0119te w pieluszki i z\u0142o\u017cone w \u017c\u0142obie\u00bb. I nagle zjawi\u0142y si\u0119 z Anio\u0142em zast\u0119py wojska niebieskiego, wielbi\u0105ce Boga i m\u00f3wi\u0105ce: \u00abChwa\u0142a na wysoko\u015bciach Bogu, a na ziemi pok\u00f3j ludziom dobrej woli\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 95:11; 95:13*\nNiech cieszy si\u0119 niebo i ziemia raduje przed Panem, dlatego \u017ce nadchodzi.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij \u0142askawie, o Panie, ofiar\u0119, kt\u00f3r\u0105 Ci sk\u0142adamy w dzisiejsz\u0105 uroczysto\u015b\u0107, aby\u015bmy za \u0142ask\u0105 Twoj\u0105 przez t\u0119 tajemnicz\u0105 wymian\u0119 otrzymali udzia\u0142 w B\u00f3stwie Tego, w kt\u00f3rym zespoli\u0142a si\u0119 z Tob\u0105 nasza ludzka natura:\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 109:3*\nW blaskach \u015bwi\u0119to\u015bci przed jutrzenk\u0105 wyda\u0142em Ci\u0119 z \u0142ona.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie, Bo\u017ce nasz, z rado\u015bci\u0105 uczestniczymy w misteriach narodzenia Pana naszego Jezusa Chrystusa; daj nam, prosimy, aby\u015bmy przez \u015bwi\u0119te \u017cycie zas\u0142u\u017cyli na obcowanie z Nim w wieczno\u015bci:\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_latin": [
+      {
+        "body": "*Isa 9:6*\nPuer natus est nobis, et f\u00edlius datus est nobis: cujus imp\u00e9rium super h\u00famerum ejus: et voc\u00e1bitur nomen ejus magni cons\u00edlii Angelus.\n*Ps 97:1*\nCant\u00e1te D\u00f3mino c\u00e1nticum novum, quia mirab\u00edlia fecit.\nGl\u00f3ria Patri.\nPuer natus est nobis, et f\u00edlius datus est nobis: cujus imp\u00e9rium super h\u00famerum ejus: et voc\u00e1bitur nomen ejus magni cons\u00edlii Angelus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Conc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut nos Unig\u00e9niti tui nova per carnem Nat\u00edvitas l\u00edberet; quos sub pecc\u00e1ti jugo vet\u00fasta s\u00e9rvitus tenet.\nPer e\u00fandem.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebraeos.\n*Hebr 1:1-12*\nMultif\u00e1riam, mult\u00edsque modis olim Deus loquens p\u00e1tribus in Proph\u00e9tis: nov\u00edssime di\u00e9bus istis loc\u00fatus est nobis in F\u00edlio, quem const\u00edtuit her\u00e9dem univers\u00f3rum, per quem fecit et saecula: qui cum sit splendor gl\u00f3ri\u00e6, et fig\u00fara subst\u00e1ntia? ejus, port\u00e1nsque \u00f3mnia verbo virt\u00fatis su\u00e6, purgati\u00f3nem peccat\u00f3rum f\u00e1ciens, sedet ad d\u00e9xteram majest\u00e1tis in exc\u00e9lsis: tanto m\u00e9lior Angelis eff\u00e9ctus, quanto differ\u00e9ntius pr\u00e6 illis nomen heredit\u00e1vit. Cui enim dixit aliqu\u00e1ndo Angel\u00f3rum: F\u00edlius meus es tu, ego h\u00f3die g\u00e9nui te? Et rursum: Ego ero illi in patrem, et ipse erit mihi in f\u00edlium? Et cum \u00edterum introd\u00facit Primog\u00e9nitum in orbem terr\u00e6, dicit: Et ad\u00f3rent eum omnes Angeli Dei. Et ad Angelos quidem dicit: Qui facit Angelos suos sp\u00edritus, et min\u00edstros suos flammam ignis. Ad F\u00edlium autem: Thronus tuus, Deus, in saeculum saeculi: virga \u00e6quit\u00e1tis, virga regni tui. Dilex\u00edsti just\u00edtiam et od\u00edsti iniquit\u00e1tem: propt\u00e9rea unxit te Deus, Deus tuus, \u00f3leo exsultati\u00f3nis pr\u00e6 partic\u00edpibus tuis. Et: Tu in princ\u00edpio, D\u00f3mine, terram fund\u00e1sti: et \u00f3pera m\u00e1nuum tu\u00e1rum sunt coeli. Ipsi per\u00edbunt, tu autem perman\u00e9bis; et omnes ut vestim\u00e9ntum veter\u00e1scent: et velut am\u00edctum mut\u00e1bis eos, et mutab\u00fantur: tu autem idem ipse es, et anni tui non def\u00edcient.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 97:3; 97:2*\nVid\u00e9runt omnes fines terr\u00e6 salutare Dei nostri: jubil\u00e1te Deo, omnis terra.\nV. Notum fecit Dominus salutare suum: ante consp\u00e9ctum g\u00e9ntium revel\u00e1vit justitiam suam. Allel\u00faja, allel\u00faja.\nV. Dies sanctific\u00e1tus ill\u00faxit nobis: ven\u00edte, gentes, et ador\u00e1te D\u00f3minum: quia h\u00f3die desc\u00e9ndit lux magna super terram. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Initium sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 1:1-14*\nIn princ\u00edpio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princ\u00edpio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux h\u00f3minum: et lux in t\u00e9nebris lucet, et t\u00e9nebr\u00e6 eam non comprehend\u00e9runt. Fuit homo missus a Deo, cui nomen erat Jo\u00e1nnes. Hic venit in testim\u00f3nium, ut testim\u00f3nium perhib\u00e9ret de l\u00famine, ut omnes cr\u00e9derent per illum. Non erat ille lux, sed ut testim\u00f3nium perhib\u00e9ret de l\u00famine. Erat lux vera, qu\u00e6 ill\u00faminat omnem h\u00f3minem veni\u00e9ntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cogn\u00f3vit. In pr\u00f3pria venit, et sui eum non recep\u00e9runt. Quotquot autem recep\u00e9runt eum, dedit eis potest\u00e1tem f\u00edlios Dei f\u00ederi, his, qui credunt in n\u00f3mine ejus: qui non ex sangu\u00ednibus, neque ex volunt\u00e1te carnis, neque ex volunt\u00e1te viri, sed ex Deo nati sunt. (Hic genuflectitur) Et Verbum caro factum est, et habit\u00e1vit in nobis: et v\u00eddimus gl\u00f3riam ejus, gl\u00f3riam quasi Unig\u00e9niti a Patre, plenum gr\u00e1ti\u00e6 et verit\u00e1tis.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:12; 88:15*\nTui sunt coeli et tua est terra: orbem terr\u00e1rum et plenit\u00fadinem ejus tu fund\u00e1sti: just\u00edtia et jud\u00edcium pr\u00e6par\u00e1tio sedis tu\u00e6.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Obl\u00e1ta, D\u00f3mine, m\u00fanera, nova Unig\u00e9niti tui Nativit\u00e1te sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Nativitate Domini*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Quia per incarn\u00e1ti Verbi myst\u00e9rium nova mentis nostr\u00e6 \u00f3culis lux tu\u00e6 clarit\u00e1tis inf\u00falsit: ut, dum visib\u00edliter Deum cogn\u00f3scimus, per hunc in invisib\u00edlium amorem rapi\u00e1mur. Et ideo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes.", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 97:3*\nVid\u00e9runt omnes fines terr\u00e6 salut\u00e1re Dei nostri.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut natus h\u00f3die Salv\u00e1tor mundi, sicut div\u00edn\u00e6 nobis generati\u00f3nis est auctor; ita et immortalit\u00e1tis sit ipse larg\u00edtor:\nQui tecum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*Iz 9:6*\n*Liturgia celowo zmieni\u0142a nieco tekst wyj\u0119ty z Izajasza, aby podkre\u015bli\u0107, \u017ce Chrystus przychodzi wykona\u0107 wielki Bo\u017cy plan Odkupienia.*\nMale\u0144ki nam si\u0119 narodzi\u0142 i Syn zosta\u0142 nam dany; w\u0142adza spocz\u0119\u0142a na Jego ramionach, a imi\u0119 Jego nazwano: Zwiastun wielkiego Planu.\n*Ps 97:1*\n\u015apiewajcie Panu pie\u015b\u0144 now\u0105, albowiem cuda uczyni\u0142.\nChwa\u0142a Ojcu.\nMale\u0144ki nam si\u0119 narodzi\u0142 i Syn zosta\u0142 nam dany, w\u0142adza spocz\u0119\u0142a na Jego ramionach, a imi\u0119 Jego nazwano: Zwiastun Wielkiego Planu.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Dozw\u00f3l, prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby nowe narodzenie si\u0119 w ciele Jednorodzonego Syna Twego wyzwoli\u0142o nas z jarzma grzechu, w kt\u00f3rym nas trzyma dawna niewola.\nPrzez tego\u017c Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Hebrajczyk\u00f3w.\n*Hbr 1:1-12*\nPo rozlicznych i przer\u00f3\u017cnych sposobach, jakimi niegdy\u015b m\u00f3wi\u0142 B\u00f3g do ojc\u00f3w przez Prorok\u00f3w \u2013 na koniec w tych czasach przem\u00f3wi\u0142 do nas przez Syna. Jego to ustanowi\u0142 dziedzicem wszystkich rzeczy i przez Niego stworzy\u0142 wszech\u015bwiat. Ten za\u015b b\u0119d\u0105c jasno\u015bci\u0105 chwa\u0142y i odbiciem istoty Jego, a podtrzymuj\u0105c wszystko s\u0142owem swej pot\u0119gi, dokona\u0142 oczyszczenia z grzech\u00f3w i zasiad\u0142 na prawicy majestatu na wysoko\u015bci. Tym wy\u017cszy sta\u0142 si\u0119 od Anio\u0142\u00f3w, im osobliwsze nad nich odziedziczy\u0142 imi\u0119. Bo kt\u00f3remu\u017c to z Anio\u0142\u00f3w powiedzia\u0142 kiedy (B\u00f3g): \u00abSynem moim jeste\u015b, jam ciebie dzi\u015b zrodzi\u0142\u00bb? I znowu: \u00abJa mu b\u0119d\u0119 ojcem, a on mi b\u0119dzie synem\u00bb. I kiedy zn\u00f3w wprowadza pierworodnego na okr\u0119g ziemi, m\u00f3wi: \u00abNiechaj Mu cze\u015b\u0107 oddaj\u0105 wszyscy Anio\u0142owie Bo\u017cy\u00bb. A do Anio\u0142\u00f3w powiada: \u00abZ Anio\u0142\u00f3w swoich czyni On wichry, a ze s\u0142ug swoich ognia p\u0142omienic\u00bb. Do Syna za\u015b: \u00abStolica Twoja, Bo\u017ce, na wieki wiek\u00f3w; ber\u0142o prawo\u015bci, ber\u0142o panowania Twego. Umi\u0142owa\u0142e\u015b sprawiedliwo\u015b\u0107, a nienawidzisz nieprawo\u015bci, dlatego nama\u015bci\u0142 Ci\u0119, Bo\u017ce, B\u00f3g Tw\u00f3j olejkiem wesela nad uczestnik\u00f3w Twoich\u00bb. Oraz: \u00abTy\u015b, o Panie, na pocz\u0105tku utwierdzi\u0142 ziemi\u0119, a dzie\u0142em r\u0105k Twoich s\u0105 niebiosa. Zagin\u0105 one, ale Ty trwa\u0107 b\u0119dziesz. I wszystkie jako szata zestarzej\u0105 si\u0119 i zmienisz je jako odzienie, a zostan\u0105 zmienione. Ty\u015b wszak\u017ce zawsze ten\u017ce sam i lata Twoje niesko\u0144czone\u00bb.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 97:3; 97:2*\nUjrza\u0142y wszystkie kra\u0144ce ziemi zbawienie Boga naszego: rado\u015bnie wykrzykujcie Panu, wszystkie ziemie.\nV. Okaza\u0142 Pan swoje zbawienie, w oczach pogan objawi\u0142 sprawiedliwo\u015b\u0107. Alleluja, alleluja.\nV. Dzie\u0144 \u015bwi\u0119ty nam zaja\u015bnia\u0142: p\u00f3jd\u017acie, narody, oddajcie pok\u0142on Panu: albowiem \u015bwiat\u0142o\u015b\u0107 wielka zst\u0105pi\u0142a dzi\u015b na ziemi\u0119. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 1:1-14*\n*S\u0142awny prolog Ewangelii \u015bw. Jana nale\u017cy do najwspanialszych tekst\u00f3w w literaturze \u015bwiata. Nigdy mowa ludzka nie wyra\u017ca\u0142a tak wielkich tajemnic uj\u0119tych w tak zwi\u0119z\u0142\u0105 form\u0119. Tekst ten by\u0142 ulubion\u0105 modlitw\u0105 pierwszych chrze\u015bcijan. Wypada go rozwa\u017ca\u0107 w okresie \u015bwi\u0105tecznym, aby zg\u0142\u0119bi\u0107 jego bogactwo.*\nNa pocz\u0105tku by\u0142o S\u0142owo, a S\u0142owo by\u0142o u Boga i Bogiem by\u0142o S\u0142owo. Ono by\u0142o na pocz\u0105tku u Boga. Wszystko przez Nie si\u0119 sta\u0142o, a bez Niego nic si\u0119 nie sta\u0142o, co si\u0119 sta\u0142o. W Nim by\u0142o \u017cycie, a \u017cycie by\u0142o \u015bwiat\u0142o\u015bci\u0105 ludzi, a \u015bwiat\u0142o\u015b\u0107 w ciemno\u015bciach \u015bwieci i ciemno\u015bci jej nie ogarn\u0119\u0142y.\nBy\u0142 cz\u0142owiek pos\u0142any od Boga, a Jan mu by\u0142o na imi\u0119. Przyszed\u0142 on na \u015bwiadectwo, aby \u015bwiadczy\u0107 o \u015bwiat\u0142o\u015bci, aby przez niego wszyscy uwierzyli. Nie by\u0142 on \u015bwiat\u0142o\u015bci\u0105, ale mia\u0142 \u015bwiadectwo da\u0107 o \u015bwiat\u0142o\u015bci.\nBy\u0142a \u015bwiat\u0142o\u015b\u0107 prawdziwa, kt\u00f3ra o\u015bwieca ka\u017cdego cz\u0142owieka na ten \u015bwiat przychodz\u0105cego. Na \u015bwiecie by\u0142, a \u015bwiat by\u0142 przez Niego stworzony i \u015bwiat Go nie pozna\u0142. Przyszed\u0142 do swojej w\u0142asno\u015bci, a swoi Go nie przyj\u0119li. A wszystkim, kt\u00f3rzy Go przyj\u0119li i uwierzyli w imi\u0119 Jego, da\u0142 moc, aby si\u0119 stali synami Bo\u017cymi, kt\u00f3rzy nie z krwi ani z \u017c\u0105dzy cia\u0142a, ani te\u017c z woli ludzkiej, ale z Boga si\u0119 narodzili. (tu si\u0119 przykl\u0119ka) A S\u0142owo sta\u0142o si\u0119 cia\u0142em i mieszka\u0142o mi\u0119dzy nami, i widzieli\u015bmy chwa\u0142\u0119 Jego, pe\u0142nego \u0142aski i prawdy, chwa\u0142\u0119 jako Jednorodzonego od Ojca.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:12; 88:15*\nTwoimi s\u0105 niebiosa, Twoja te\u017c jest ziemia: Ty okr\u0105g \u015bwiata za\u0142o\u017cy\u0142e\u015b i co go nape\u0142nia. Podstaw\u0105 Twego tronu sprawiedliwo\u015b\u0107 i prawo.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "U\u015bwi\u0119\u0107, Panie, z\u0142o\u017cone dary przez nowe narodzenie Jedynego Syna Twojego i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Bo\u017cym Narodzeniu*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nAlbowiem przez tajemnic\u0119 wcielonego S\u0142owa zaja\u015bnia\u0142 oczom naszej duszy nowy blask Twojej \u015bwiat\u0142o\u015bci, aby\u015bmy poznaj\u0105c Boga w widzialnej postaci, zostali przeze\u0144 porwani do umi\u0142owania rzeczy niewidzialnych.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 97:3*\nUjrza\u0142y wszystkie kra\u0144ce ziemi zbawienie Boga naszego.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, narodzony dzisiaj Zbawiciel \u015bwiata przywr\u00f3ci\u0142 nam synostwo Bo\u017ce; spraw, prosimy, aby nam udzieli\u0142 daru nie\u015bmiertelno\u015bci:\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

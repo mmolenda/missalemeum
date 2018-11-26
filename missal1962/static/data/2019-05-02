@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-05-02", 
+      "description": "\u015aw. Atanazy urodzi\u0142 si\u0119 w Aleksandrii. Od roku 328 by\u0142 biskupem tego miasta. Przez ca\u0142e \u017cycie musia\u0142 walczy\u0107 z herezj\u0105 aria\u0144sk\u0105, kt\u00f3ra odmawia\u0142a B\u00f3stwa Chrystusowi. Pi\u0119\u0107 razy zsy\u0142ano go na wygnanie. \u0141\u0105cznie sp\u0119dzi\u0142 na tu\u0142aczce 17 lat. Nie da\u0142 si\u0119 jednak ugi\u0105\u0107, lecz do ko\u0144ca s\u0142owem i pismem broni\u0142 prawdziwej wiary. Umar\u0142 w Aleksandrii 2 maja 373 roku po 46 latach biskupstwa. Lekcja i ewangelia zwracaj\u0105 uwag\u0119 na prze\u015bladowania, kt\u00f3re zni\u00f3s\u0142 \u015bwi\u0119ty Doktor czerpi\u0105c moc od Chrystusa, kt\u00f3rego B\u00f3stwo wyznawa\u0142.\n", 
+      "tempora": "Czwartek po Niedzieli Bia\u0142ej", 
+      "title": "\u015aw. Atanazego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Eccli 15:5.*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum, allel\u00faja, allel\u00faja.\n*Ps 91:2. Bonum est confit\u00e9ri*\nD\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum, allel\u00faja, allel\u00faja.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Ex\u00e1udi, qu\u01fdsumus, D\u00f3mine, preces nostras, quas in be\u00e1ti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis solemnit\u00e1te def\u00e9rimus: et, qui tibi digne m\u00e9ruit famul\u00e1ri, ejus interced\u00e9ntibus m\u00e9ritis, ab \u00f3mnibus nos abs\u00f3lve pecc\u00e1tis.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*2 Cor 4:5-14.*\nFratres: Non nosmet\u00edpsos pr\u00e6dic\u00e1mus, sed Jesum Christum, D\u00f3minum nostrum: nos autem servos vestros per Jesum: qu\u00f3niam Deus, qui dixit de t\u00e9nebris lucem splend\u00e9scere, ipse ill\u00faxit in c\u00f3rdibus nostris ad illuminati\u00f3nem sci\u00e9nti\u00e6 clarit\u00e1tis Dei, in f\u00e1cie Christi Jesu. Hab\u00e9mus autem thes\u00e1urum istum in vasis fict\u00edlibus: ut subl\u00edmitas sit virt\u00fatis Dei, et non ex nobis. In \u00f3mnibus tribulati\u00f3nem p\u00e1timur, sed non angusti\u00e1mur: apori\u00e1mur, sed non destit\u00faimur: persecuti\u00f3nem p\u00e1timur, sed non derel\u00ednquimur: dej\u00edcimur, sed non per\u00edmus: semper mortificati\u00f3nem Jesu in c\u00f3rpore nostro circumfer\u00e9ntes, ut et vita Jesu manifest\u00e9tur in corp\u00f3ribus nostris. Semper enim nos, qui v\u00edvimus, in mortem tr\u00e1dimur propter Jesum: ut et vita Jesu manifest\u00e9tur in carne nostra mort\u00e1li. Ergo mors in nobis oper\u00e1tur, vita autem in vobis. Hab\u00e9ntes autem e\u00fandem sp\u00edritum fidei, sicut scriptum est: Cr\u00e9didi, propter quod loc\u00fatus sum: et nos cr\u00e9dimus, propter quod et l\u00f3quimur: sci\u00e9ntes, qu\u00f3niam qui suscit\u00e1vit Jesum, et nos cum Jesu suscit\u00e1bit et const\u00edtuet vob\u00edscum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Allel\u00faja, allel\u00faja.\n*Ps 109:4*\nTu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja\n*Jas 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:23-28*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Cum persequ\u00e9ntur vos in civit\u00e1te ista, f\u00fagite in \u00e1liam. Amen dico vobis, non consumm\u00e1bitis civit\u00e1tes Isra\u00ebl, donec v\u00e9niat F\u00edlius h\u00f3minis. Non est disc\u00edpulus super magistrum, nec servus super d\u00f3minum suum. S\u00fafficit disc\u00edpulo, ut sit sicut magister ejus: et servo, sicut d\u00f3minus ejus. Si patremfam\u00edlias Be\u00e9lzebub vocav\u00e9runt: quanto magis dom\u00e9sticos ejus? Ne ergo timu\u00e9ritis eos. Nihil enim est op\u00e9rtum, quod non revel\u00e1bitur: et occ\u00faltum, quod non sci\u00e9tur. Quod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine: et, quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta. Et nol\u00edte tim\u00e9re eos, qui occ\u00eddunt corpus, \u00e1nimam autem non possunt occ\u00eddere: sed p\u00f3tius tim\u00e9te eum, qui potest et \u00e1nimam et corpus p\u00e9rdere in geh\u00e9nnam.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:21-22*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sancti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis, qu\u01fdsumus, D\u00f3mine, \u00e1nnua soll\u00e9mnitas piet\u00e1ti tu\u00e6 nos reddat acc\u00e9ptos: ut, per h\u00e6c pi\u00e6 placati\u00f3nis off\u00edcia, et illum be\u00e1ta retrib\u00fatio comit\u00e9tur, et nobis gr\u00e1ti\u00e6 tu\u00e6 dona conc\u00edliet.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 10:27*\nQuod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine, dicit D\u00f3minus: et quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta, allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Deus, fid\u00e9lium remuner\u00e1tor anim\u00e1rum: pr\u00e6sta; ut be\u00e1ti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis, cujus vener\u00e1ndam celebr\u00e1mus festivit\u00e1tem, pr\u00e9cibus indulg\u00e9ntiam consequ\u00e1mur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-05-02", 
-    "description": "\u015aw. Atanazy urodzi\u0142 si\u0119 w Aleksandrii. Od roku 328 by\u0142 biskupem tego miasta. Przez ca\u0142e \u017cycie musia\u0142 walczy\u0107 z herezj\u0105 aria\u0144sk\u0105, kt\u00f3ra odmawia\u0142a B\u00f3stwa Chrystusowi. Pi\u0119\u0107 razy zsy\u0142ano go na wygnanie. \u0141\u0105cznie sp\u0119dzi\u0142 na tu\u0142aczce 17 lat. Nie da\u0142 si\u0119 jednak ugi\u0105\u0107, lecz do ko\u0144ca s\u0142owem i pismem broni\u0142 prawdziwej wiary. Umar\u0142 w Aleksandrii 2 maja 373 roku po 46 latach biskupstwa. Lekcja i ewangelia zwracaj\u0105 uwag\u0119 na prze\u015bladowania, kt\u00f3re zni\u00f3s\u0142 \u015bwi\u0119ty Doktor czerpi\u0105c moc od Chrystusa, kt\u00f3rego B\u00f3stwo wyznawa\u0142.\n", 
-    "tempora": "Czwartek po Niedzieli Bia\u0142ej", 
-    "title": "\u015aw. Atanazego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Eccli 15:5.*\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum, allel\u00faja, allel\u00faja.\n*Ps 91:2. Bonum est confit\u00e9ri*\nD\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nGl\u00f3ria Patri.\nIn m\u00e9dio Eccl\u00e9si\u00e6 ap\u00e9ruit os ejus: et impl\u00e9vit eum D\u00f3minus sp\u00edritu sapi\u00e9nti\u00e6 et intell\u00e9ctus: stolam gl\u00f3ri\u00e6 \u00ednduit eum, allel\u00faja, allel\u00faja.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Ex\u00e1udi, qu\u01fdsumus, D\u00f3mine, preces nostras, quas in be\u00e1ti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis solemnit\u00e1te def\u00e9rimus: et, qui tibi digne m\u00e9ruit famul\u00e1ri, ejus interced\u00e9ntibus m\u00e9ritis, ab \u00f3mnibus nos abs\u00f3lve pecc\u00e1tis.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*2 Cor 4:5-14.*\nFratres: Non nosmet\u00edpsos pr\u00e6dic\u00e1mus, sed Jesum Christum, D\u00f3minum nostrum: nos autem servos vestros per Jesum: qu\u00f3niam Deus, qui dixit de t\u00e9nebris lucem splend\u00e9scere, ipse ill\u00faxit in c\u00f3rdibus nostris ad illuminati\u00f3nem sci\u00e9nti\u00e6 clarit\u00e1tis Dei, in f\u00e1cie Christi Jesu. Hab\u00e9mus autem thes\u00e1urum istum in vasis fict\u00edlibus: ut subl\u00edmitas sit virt\u00fatis Dei, et non ex nobis. In \u00f3mnibus tribulati\u00f3nem p\u00e1timur, sed non angusti\u00e1mur: apori\u00e1mur, sed non destit\u00faimur: persecuti\u00f3nem p\u00e1timur, sed non derel\u00ednquimur: dej\u00edcimur, sed non per\u00edmus: semper mortificati\u00f3nem Jesu in c\u00f3rpore nostro circumfer\u00e9ntes, ut et vita Jesu manifest\u00e9tur in corp\u00f3ribus nostris. Semper enim nos, qui v\u00edvimus, in mortem tr\u00e1dimur propter Jesum: ut et vita Jesu manifest\u00e9tur in carne nostra mort\u00e1li. Ergo mors in nobis oper\u00e1tur, vita autem in vobis. Hab\u00e9ntes autem e\u00fandem sp\u00edritum fidei, sicut scriptum est: Cr\u00e9didi, propter quod loc\u00fatus sum: et nos cr\u00e9dimus, propter quod et l\u00f3quimur: sci\u00e9ntes, qu\u00f3niam qui suscit\u00e1vit Jesum, et nos cum Jesu suscit\u00e1bit et const\u00edtuet vob\u00edscum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "Allel\u00faja, allel\u00faja.\n*Ps 109:4*\nTu es sac\u00e9rdos in \u00e6t\u00e9rnum, sec\u00fandum \u00f3rdinem Melch\u00edsedech. Allel\u00faja\n*Jas 1:12*\nBe\u00e1tus vir, qui suffert tentati\u00f3nem: qu\u00f3niam, cum prob\u00e1tus f\u00faerit, acc\u00edpiet cor\u00f3nam vit\u00e6. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 10:23-28*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Cum persequ\u00e9ntur vos in civit\u00e1te ista, f\u00fagite in \u00e1liam. Amen dico vobis, non consumm\u00e1bitis civit\u00e1tes Isra\u00ebl, donec v\u00e9niat F\u00edlius h\u00f3minis. Non est disc\u00edpulus super magistrum, nec servus super d\u00f3minum suum. S\u00fafficit disc\u00edpulo, ut sit sicut magister ejus: et servo, sicut d\u00f3minus ejus. Si patremfam\u00edlias Be\u00e9lzebub vocav\u00e9runt: quanto magis dom\u00e9sticos ejus? Ne ergo timu\u00e9ritis eos. Nihil enim est op\u00e9rtum, quod non revel\u00e1bitur: et occ\u00faltum, quod non sci\u00e9tur. Quod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine: et, quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta. Et nol\u00edte tim\u00e9re eos, qui occ\u00eddunt corpus, \u00e1nimam autem non possunt occ\u00eddere: sed p\u00f3tius tim\u00e9te eum, qui potest et \u00e1nimam et corpus p\u00e9rdere in geh\u00e9nnam.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:21-22*\nInv\u00e9ni David servum meum, \u00f3leo sancto meo unxi eum: manus enim mea auxili\u00e1bitur ei, et br\u00e1chium meum confort\u00e1bit eum, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sancti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis, qu\u01fdsumus, D\u00f3mine, \u00e1nnua soll\u00e9mnitas piet\u00e1ti tu\u00e6 nos reddat acc\u00e9ptos: ut, per h\u00e6c pi\u00e6 placati\u00f3nis off\u00edcia, et illum be\u00e1ta retrib\u00fatio comit\u00e9tur, et nobis gr\u00e1ti\u00e6 tu\u00e6 dona conc\u00edliet.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 10:27*\nQuod dico vobis in t\u00e9nebris, d\u00edcite in l\u00famine, dicit D\u00f3minus: et quod in aure aud\u00edtis, pr\u00e6dic\u00e1te super tecta, allel\u00faja.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Deus, fid\u00e9lium remuner\u00e1tor anim\u00e1rum: pr\u00e6sta; ut be\u00e1ti Athan\u00e1sii Confess\u00f3ris tui atque Pont\u00edficis, cujus vener\u00e1ndam celebr\u00e1mus festivit\u00e1tem, pr\u00e9cibus indulg\u00e9ntiam consequ\u00e1mur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wys\u0142uchaj, prosimy Ci\u0119, Panie, naszych modlitw, kt\u00f3re zanosimy w uroczysto\u015b\u0107 \u015bw. Atanazego, Twego wyznawcy i Biskupa, a dla zas\u0142ug tego, kt\u00f3ry potrafi\u0142 godnie Ci s\u0142u\u017cy\u0107, odpu\u015b\u0107 nam wszystkie grzechy.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*2 Kor 4:5-14*\nBracia: Nie samych siebie g\u0142osimy, ale Jezusa Chrystusa Pana naszego, a siebie uwa\u017camy za s\u0142ugi wasze przez Jezusa. B\u00f3g bowiem, kt\u00f3ry rozkaza\u0142, aby z ciemno\u015bci zab\u0142ys\u0142a \u015bwiat\u0142o\u015b\u0107, sam o\u015bwieci\u0142 serca nasze, aby\u015bmy zaja\u015bnieli blaskiem poznania jasno\u015bci Bo\u017cej w obliczu Chrystusa Jezusa. A skarb ten mamy w naczyniach glinianych, aby wznios\u0142o\u015b\u0107 by\u0142a dzie\u0142em Pot\u0119gi Bo\u017cej, a nie naszej. We wszystkim ucisk cierpimy, lecz na duchu nie upadamy, jeste\u015bmy w biedzie, lecz nie rozpaczamy, znosimy prze\u015bladowanie, lecz nie jeste\u015bmy opuszczeni, rzucaj\u0105 nas o ziemi\u0119, lecz nie giniemy. Zawsze umartwienie Jezusa w ciele naszym nosimy, aby \u017cycie Jezusowe przejawi\u0142o si\u0119 w cia\u0142ach naszych. Bo my, kt\u00f3rzy \u017cyjemy, wci\u0105\u017c wydawani jeste\u015bmy na \u015bmier\u0107 dla Jezusa, aby i \u017cycie Jezusa przejawi\u0142o si\u0119 w naszym \u015bmiertelnym ciele. Tak wi\u0119c w nas \u015bmier\u0107 dzie\u0142o swe sprawuje, a w was \u017cywot. A \u017ce mamy tego\u017c ducha wiary, jako napisane jest: Uwierzy\u0142em i dlategom przem\u00f3wi\u0142, wierzymy i my i dlatego m\u00f3wimy, b\u0119d\u0105c prze\u015bwiadczeni, \u017ce Ten, kt\u00f3ry wzbudzi\u0142 Jezusa z martwych, wzbudzi i nas z Jezusem i razem z wami przed sob\u0105 stawi.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Alleluja, alleluja.\n*Ps 109:4*\nV. Ty\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.\n*Jk 1:12*\nB\u0142ogos\u0142awiony cz\u0142owiek, kt\u00f3ry zniesie pokus\u0119, bo utwierdziwszy si\u0119 otrzyma wieniec \u017cywota. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:23-28*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abGdy was prze\u015bladowa\u0107 b\u0119d\u0105 w tym mie\u015bcie, uchod\u017acie do innego. Zaprawd\u0119 powiadam wam, \u017ce nie sko\u0144czycie miast izraelskich, a\u017c przyjdzie Syn Cz\u0142owieczy. Nie jest ucze\u0144 nad mistrza ani te\u017c s\u0142uga nad pana swego. Wystarczy uczniowi, \u017ceby by\u0142 jak mistrz jego, a s\u0142uga jak jego pan. Je\u015bli pana domu nazwali Belzebubem, jako\u017c daleko wi\u0119cej domownik\u00f3w jego. Przeto nie b\u00f3jcie si\u0119 ich. Nic bowiem nie masz zakrytego, co by wyjawione by\u0107 nie miano. Co wami m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, i co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach. A nie b\u00f3jcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, duszy za\u015b zabi\u0107 nie mog\u0105. Raczej b\u00f3jcie si\u0119 tego, kt\u00f3ry mo\u017ce i dusz\u0119, i cia\u0142o zatraci\u0107 w piekle\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:21-22*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech doroczna uroczysto\u015b\u0107 \u015bw. Atanazego, Twego Wyznawcy i Biskupa, uczyni nas godnymi Twojej mi\u0142o\u015bci, a ta ofiara przeb\u0142agalna niech si\u0119 przyczyni do jego niebieskiej chwa\u0142y i wyjedna nam Twoje dary.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 10:27*\nCo wami m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, m\u00f3wi Pan; i co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty nagradzasz dusze wierne; spraw, aby\u015bmy dost\u0105pili przebaczenia przez pro\u015bby \u015bw. Atanazego, Twego Wyznawcy i Biskupa, kt\u00f3rego chwalebn\u0105 uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wys\u0142uchaj, prosimy Ci\u0119, Panie, naszych modlitw, kt\u00f3re zanosimy w uroczysto\u015b\u0107 \u015bw. Atanazego, Twego wyznawcy i Biskupa, a dla zas\u0142ug tego, kt\u00f3ry potrafi\u0142 godnie Ci s\u0142u\u017cy\u0107, odpu\u015b\u0107 nam wszystkie grzechy.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*2 Kor 4:5-14*\nBracia: Nie samych siebie g\u0142osimy, ale Jezusa Chrystusa Pana naszego, a siebie uwa\u017camy za s\u0142ugi wasze przez Jezusa. B\u00f3g bowiem, kt\u00f3ry rozkaza\u0142, aby z ciemno\u015bci zab\u0142ys\u0142a \u015bwiat\u0142o\u015b\u0107, sam o\u015bwieci\u0142 serca nasze, aby\u015bmy zaja\u015bnieli blaskiem poznania jasno\u015bci Bo\u017cej w obliczu Chrystusa Jezusa. A skarb ten mamy w naczyniach glinianych, aby wznios\u0142o\u015b\u0107 by\u0142a dzie\u0142em Pot\u0119gi Bo\u017cej, a nie naszej. We wszystkim ucisk cierpimy, lecz na duchu nie upadamy, jeste\u015bmy w biedzie, lecz nie rozpaczamy, znosimy prze\u015bladowanie, lecz nie jeste\u015bmy opuszczeni, rzucaj\u0105 nas o ziemi\u0119, lecz nie giniemy. Zawsze umartwienie Jezusa w ciele naszym nosimy, aby \u017cycie Jezusowe przejawi\u0142o si\u0119 w cia\u0142ach naszych. Bo my, kt\u00f3rzy \u017cyjemy, wci\u0105\u017c wydawani jeste\u015bmy na \u015bmier\u0107 dla Jezusa, aby i \u017cycie Jezusa przejawi\u0142o si\u0119 w naszym \u015bmiertelnym ciele. Tak wi\u0119c w nas \u015bmier\u0107 dzie\u0142o swe sprawuje, a w was \u017cywot. A \u017ce mamy tego\u017c ducha wiary, jako napisane jest: Uwierzy\u0142em i dlategom przem\u00f3wi\u0142, wierzymy i my i dlatego m\u00f3wimy, b\u0119d\u0105c prze\u015bwiadczeni, \u017ce Ten, kt\u00f3ry wzbudzi\u0142 Jezusa z martwych, wzbudzi i nas z Jezusem i razem z wami przed sob\u0105 stawi.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Alleluja, alleluja.\n*Ps 109:4*\nV. Ty\u015b kap\u0142anem na wieki na wz\u00f3r Melchizedeka. Alleluja.\n*Jk 1:12*\nB\u0142ogos\u0142awiony cz\u0142owiek, kt\u00f3ry zniesie pokus\u0119, bo utwierdziwszy si\u0119 otrzyma wieniec \u017cywota. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 10:23-28*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abGdy was prze\u015bladowa\u0107 b\u0119d\u0105 w tym mie\u015bcie, uchod\u017acie do innego. Zaprawd\u0119 powiadam wam, \u017ce nie sko\u0144czycie miast izraelskich, a\u017c przyjdzie Syn Cz\u0142owieczy. Nie jest ucze\u0144 nad mistrza ani te\u017c s\u0142uga nad pana swego. Wystarczy uczniowi, \u017ceby by\u0142 jak mistrz jego, a s\u0142uga jak jego pan. Je\u015bli pana domu nazwali Belzebubem, jako\u017c daleko wi\u0119cej domownik\u00f3w jego. Przeto nie b\u00f3jcie si\u0119 ich. Nic bowiem nie masz zakrytego, co by wyjawione by\u0107 nie miano. Co wami m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, i co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach. A nie b\u00f3jcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, duszy za\u015b zabi\u0107 nie mog\u0105. Raczej b\u00f3jcie si\u0119 tego, kt\u00f3ry mo\u017ce i dusz\u0119, i cia\u0142o zatraci\u0107 w piekle\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:21-22*\nZnalaz\u0142em Dawida, mojego s\u0142ug\u0119, nama\u015bci\u0142em go \u015bwi\u0119tym olejem moim, by r\u0119ka moja zawsze z nim by\u0142a i rami\u0119 moje go umacnia\u0142o, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech doroczna uroczysto\u015b\u0107 \u015bw. Atanazego, Twego Wyznawcy i Biskupa, uczyni nas godnymi Twojej mi\u0142o\u015bci, a ta ofiara przeb\u0142agalna niech si\u0119 przyczyni do jego niebieskiej chwa\u0142y i wyjedna nam Twoje dary.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 10:27*\nCo wami m\u00f3wi\u0119 w ciemno\u015bci, opowiadajcie na \u015bwietle, m\u00f3wi Pan; i co us\u0142yszycie na ucho, g\u0142o\u015bcie na dachach, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty nagradzasz dusze wierne; spraw, aby\u015bmy dost\u0105pili przebaczenia przez pro\u015bby \u015bw. Atanazego, Twego Wyznawcy i Biskupa, kt\u00f3rego chwalebn\u0105 uroczysto\u015b\u0107 obchodzimy.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

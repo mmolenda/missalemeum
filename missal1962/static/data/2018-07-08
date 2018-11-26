@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2018-07-08", 
+      "description": "Stajemy dzisiaj przed Chrystusem, kr\u00f3luj\u0105cym po prawicy Ojca i z rado\u015bci\u0105 oddaje mu Mu ho\u0142d (ant. na wej\u015bcie). Dzi\u0119kujemy za to, \u017ce wyrwa\u0142 nas z niewoli grzechu i da\u0142 nam wolno\u015b\u0107 dzieci Bo\u017cych (lekcja). Skoro zostali\u015bmy wszczepieni w szlachetne drzewo, winni\u015bmy przynosi\u0107 owoce \u015bwi\u0119to\u015bci przez \u017cycie prawdziwie chrze\u015bcija\u0144skie.\nWin\u0105 wobec Boga s\u0105 nie tylko czyny z\u0142e, lecz r\u00f3wnie\u017c zaniedbanie czyn\u00f3w dobrych. Zbawienie wieczne osi\u0105gniemy przez wierne pe\u0142nienie woli Bo\u017cej, a nie przez same tylko s\u0142owa.\n", 
+      "tempora": null, 
+      "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 46:2.*\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis.\n*Ps 46:3*\nQu\u00f3niam D\u00f3minus exc\u00e9lsus, terr\u00edbilis: Rex magnus super omnem terram.\nGl\u00f3ria Patri.\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, cujus provid\u00e9ntia in sui dispositi\u00f3ne non f\u00e1llitur: te s\u00fapplices exor\u00e1mus; ut n\u00f3xia cuncta subm\u00f3veas, et \u00f3mnia nobis profut\u00fara conc\u00e9das.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 6:19-23*\nFratres: Hum\u00e1num dico, propter infirmit\u00e1tem carnis vestr\u00e6: sicut enim exhibu\u00edstis membra vestra serv\u00edre immund\u00edti\u00e6 et iniquit\u00e1ti ad iniquit\u00e1tem, ita nunc exhib\u00e9te membra vestra serv\u00edre just\u00edti\u00e6 in sanctificati\u00f3nem. Cum enim servi ess\u00e9tis pecc\u00e1ti, l\u00edberi fu\u00edstis just\u00edti\u00e6. Quem ergo fructum habu\u00edstis tunc in illis, in quibus nunc erub\u00e9scitis? Nam finis ill\u00f3rum mors est. Nunc vero liber\u00e1ti a pecc\u00e1to, servi autem facti Deo, hab\u00e9tis fructum vestrum in sanctificati\u00f3nem, finem vero vitam \u00e6t\u00e9rnam. Stip\u00e9ndia enim pecc\u00e1ti mors. Gr\u00e1tia autem Dei vita \u00e6t\u00e9rna, in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 33:12; 33:6*\nVen\u00edte, f\u00edlii, aud\u00edte me: tim\u00f3rem D\u00f3mini doc\u00e9bo vos.\nV. Acc\u00e9dite ad eum, et illumin\u00e1mini: et f\u00e1cies vestr\u00e6 non confund\u00e9ntur. Allel\u00faja, allel\u00faja\n*Ps 46:2*\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 7:15-21*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Att\u00e9ndite a falsis proph\u00e9tis, qui v\u00e9niunt ad vos in vestim\u00e9ntis \u00f3vium, intr\u00ednsecus autem sunt lupi rap\u00e1ces: a fr\u00factibus e\u00f3rum cognosc\u00e9tis eos. Numquid c\u00f3lligunt de spinis uvas, aut de tr\u00edbulis ficus ? Sic omnis arbor bona fructus bonos facit: mala autem arbor malos fructus facit. Non potest arbor bona malos fructus f\u00e1cere: neque arbor mala bonos fructus f\u00e1cere. Omnis arbor, qu\u00e6 non facit fructum bonum, excid\u00e9tur et in ignem mitt\u00e9tur. Igitur ex fr\u00factibus e\u00f3rum cognosc\u00e9tis eos. Non omnis, qui dicit mihi, D\u00f3mine, D\u00f3mine, intr\u00e1bit in regnum coel\u00f3rum: sed qui facit volunt\u00e1tem Patris mei, qui in coelis est, ipse intr\u00e1bit in regnum coel\u00f3rum. ", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Dan 3:40*\nSicut in holoc\u00e1ustis ar\u00edetum et taur\u00f3rum, et sicut in m\u00edlibus agn\u00f3rum p\u00ednguium: sic fiat sacrif\u00edcium nostrum in consp\u00e9ctu tuo h\u00f3die, ut pl\u00e1ceat tibi: quia non est conf\u00fasio confid\u00e9ntibus in te, D\u00f3mine.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Deus, qui leg\u00e1lium differ\u00e9ntiam hosti\u00e1rum unius sacrif\u00edcii perfectione sanx\u00edsti: accipe sacrif\u00edcium a dev\u00f3tis tibi f\u00e1mulis, et pari benedicti\u00f3ne, sicut m\u00fanera Abel, sanct\u00edfica; ut, quod s\u00ednguli obtul\u00e9runt ad majest\u00e1tis tu\u00e6 hon\u00f3rem, cunctis prof\u00edciat ad sal\u00fatem.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 30:3.*\nIncl\u00edna aurem tuam, acc\u00e9lera, ut er\u00edpias me.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Tua nos, D\u00f3mine, medicin\u00e1lis oper\u00e1tio, et a nostris perversit\u00e1tibus clem\u00e9nter exp\u00e9diat, et ad ea, qu\u00e6 sunt recta, perd\u00facat.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-07-08", 
-    "description": "Stajemy dzisiaj przed Chrystusem, kr\u00f3luj\u0105cym po prawicy Ojca i z rado\u015bci\u0105 oddaje mu Mu ho\u0142d (ant. na wej\u015bcie). Dzi\u0119kujemy za to, \u017ce wyrwa\u0142 nas z niewoli grzechu i da\u0142 nam wolno\u015b\u0107 dzieci Bo\u017cych (lekcja). Skoro zostali\u015bmy wszczepieni w szlachetne drzewo, winni\u015bmy przynosi\u0107 owoce \u015bwi\u0119to\u015bci przez \u017cycie prawdziwie chrze\u015bcija\u0144skie.\nWin\u0105 wobec Boga s\u0105 nie tylko czyny z\u0142e, lecz r\u00f3wnie\u017c zaniedbanie czyn\u00f3w dobrych. Zbawienie wieczne osi\u0105gniemy przez wierne pe\u0142nienie woli Bo\u017cej, a nie przez same tylko s\u0142owa.\n", 
-    "tempora": null, 
-    "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 46:2.*\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis.\n*Ps 46:3*\nQu\u00f3niam D\u00f3minus exc\u00e9lsus, terr\u00edbilis: Rex magnus super omnem terram.\nGl\u00f3ria Patri.\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, cujus provid\u00e9ntia in sui dispositi\u00f3ne non f\u00e1llitur: te s\u00fapplices exor\u00e1mus; ut n\u00f3xia cuncta subm\u00f3veas, et \u00f3mnia nobis profut\u00fara conc\u00e9das.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 6:19-23*\nFratres: Hum\u00e1num dico, propter infirmit\u00e1tem carnis vestr\u00e6: sicut enim exhibu\u00edstis membra vestra serv\u00edre immund\u00edti\u00e6 et iniquit\u00e1ti ad iniquit\u00e1tem, ita nunc exhib\u00e9te membra vestra serv\u00edre just\u00edti\u00e6 in sanctificati\u00f3nem. Cum enim servi ess\u00e9tis pecc\u00e1ti, l\u00edberi fu\u00edstis just\u00edti\u00e6. Quem ergo fructum habu\u00edstis tunc in illis, in quibus nunc erub\u00e9scitis? Nam finis ill\u00f3rum mors est. Nunc vero liber\u00e1ti a pecc\u00e1to, servi autem facti Deo, hab\u00e9tis fructum vestrum in sanctificati\u00f3nem, finem vero vitam \u00e6t\u00e9rnam. Stip\u00e9ndia enim pecc\u00e1ti mors. Gr\u00e1tia autem Dei vita \u00e6t\u00e9rna, in Christo Jesu, D\u00f3mino nostro.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 33:12; 33:6*\nVen\u00edte, f\u00edlii, aud\u00edte me: tim\u00f3rem D\u00f3mini doc\u00e9bo vos.\nV. Acc\u00e9dite ad eum, et illumin\u00e1mini: et f\u00e1cies vestr\u00e6 non confund\u00e9ntur. Allel\u00faja, allel\u00faja\n*Ps 46:2*\nOmnes gentes, pl\u00e1udite m\u00e1nibus: jubil\u00e1te Deo in voce exsultati\u00f3nis. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 7:15-21*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Att\u00e9ndite a falsis proph\u00e9tis, qui v\u00e9niunt ad vos in vestim\u00e9ntis \u00f3vium, intr\u00ednsecus autem sunt lupi rap\u00e1ces: a fr\u00factibus e\u00f3rum cognosc\u00e9tis eos. Numquid c\u00f3lligunt de spinis uvas, aut de tr\u00edbulis ficus ? Sic omnis arbor bona fructus bonos facit: mala autem arbor malos fructus facit. Non potest arbor bona malos fructus f\u00e1cere: neque arbor mala bonos fructus f\u00e1cere. Omnis arbor, qu\u00e6 non facit fructum bonum, excid\u00e9tur et in ignem mitt\u00e9tur. Igitur ex fr\u00factibus e\u00f3rum cognosc\u00e9tis eos. Non omnis, qui dicit mihi, D\u00f3mine, D\u00f3mine, intr\u00e1bit in regnum coel\u00f3rum: sed qui facit volunt\u00e1tem Patris mei, qui in coelis est, ipse intr\u00e1bit in regnum coel\u00f3rum. ", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Dan 3:40*\nSicut in holoc\u00e1ustis ar\u00edetum et taur\u00f3rum, et sicut in m\u00edlibus agn\u00f3rum p\u00ednguium: sic fiat sacrif\u00edcium nostrum in consp\u00e9ctu tuo h\u00f3die, ut pl\u00e1ceat tibi: quia non est conf\u00fasio confid\u00e9ntibus in te, D\u00f3mine.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Deus, qui leg\u00e1lium differ\u00e9ntiam hosti\u00e1rum unius sacrif\u00edcii perfectione sanx\u00edsti: accipe sacrif\u00edcium a dev\u00f3tis tibi f\u00e1mulis, et pari benedicti\u00f3ne, sicut m\u00fanera Abel, sanct\u00edfica; ut, quod s\u00ednguli obtul\u00e9runt ad majest\u00e1tis tu\u00e6 hon\u00f3rem, cunctis prof\u00edciat ad sal\u00fatem.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 30:3.*\nIncl\u00edna aurem tuam, acc\u00e9lera, ut er\u00edpias me.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Tua nos, D\u00f3mine, medicin\u00e1lis oper\u00e1tio, et a nostris perversit\u00e1tibus clem\u00e9nter exp\u00e9diat, et ad ea, qu\u00e6 sunt recta, perd\u00facat.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 46:2*\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym.\n*Ps 46:3*\nBo Pan Najwy\u017cszy jest straszliwy, On jest Kr\u00f3lem pot\u0119\u017cnym wszystkiej ziemi.\nChwa\u0142a Ojcu.\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "O Bo\u017ce, Opatrzno\u015b\u0107 Twoja nie myli si\u0119 nigdy w zarz\u0105dzeniach swoich! Usilnie wi\u0119c Ciebie b\u0142agamy, aby\u015b usun\u0105\u0142 od nas co szkodliwe i udzieli\u0142 nam wszystkiego, co po\u017cyteczne.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 6:19-23*\n*Cz\u0142owiek, kt\u00f3ry ulega nami\u0119tno\u015bciom, \u017cyje w prawdziwej niewoli, natomiast cz\u0142owiek, kt\u00f3ry s\u0142u\u017cy Bogu, opanowuj\u0105c swe nami\u0119tno\u015bci rozumem i wol\u0105, jest wolny.*\nBracia: Ludzkim sposobem przemawiam dla s\u0142abo\u015bci cia\u0142a waszego: jako bowiem wydali\u015bcie cz\u0142onki wasze na s\u0142u\u017cb\u0119 nieczysto\u015bci i nieprawo\u015bci, aby brn\u0105\u0107 w nieprawo\u015b\u0107, tak teraz wydajecie cz\u0142onki wasze na s\u0142u\u017cb\u0119 sprawiedliwo\u015bci dla u\u015bwi\u0119cenia.\nBo kiedy\u015bcie byli niewolnikami grzechu, wolni byli\u015bcie od s\u0142u\u017cby sprawiedliwo\u015bci. I c\u00f3\u017c za po\u017cytek w\u00f3wczas mieli\u015bcie z tych rzeczy, kt\u00f3rych si\u0119 teraz wstydzicie? Albowiem ko\u0144cem ich jest \u015bmier\u0107. Teraz wszak\u017ce uwolnieni od grzechu i stawszy si\u0119 s\u0142ugami Bo\u017cymi, macie sw\u00f3j po\u017cytek w u\u015bwi\u0119ceniu, a za cel \u2014 \u017cycie wieczne. Albowiem zap\u0142at\u0105 grzechu jest \u015bmier\u0107. A \u0142aska Bo\u017ca \u2014 to \u017cywot wieczny w Chrystusie Jezusie, Panu naszym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 33:12; 33:6*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie boja\u017ani Pa\u0144skiej was naucz\u0119.\nV. Zbli\u017ccie si\u0119 do Niego, a opromieni was rado\u015b\u0107 i twarzy waszej nie okryje ha\u0144ba. Alleluja, alleluja.\n*Ps 46:2*\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 7:15-21*\nOnego czasu rzek\u0142 Jezus uczniom swoim: \u00abStrze\u017ccie si\u0119 fa\u0142szywych prorok\u00f3w, kt\u00f3rzy do was przychodz\u0105 w odzieniu owczym, a wewn\u0105trz s\u0105 wilki drapie\u017cne. Po ich owocach poznacie ich. Czy\u017c zbieraj\u0105 z ciernia winne jagody albo z ostu figi? Tak wszelkie drzewo dobre owoce dobre rodzi, a z\u0142e drzewo owoce z\u0142e rodzi. Nie mo\u017ce drzewo dobre z\u0142ych owoc\u00f3w rodzi\u0107, ani te\u017c drzewo z\u0142e dobrych owoc\u00f3w rodzi\u0107. Wszelkie drzewo, kt\u00f3re nie rodzi owocu dobrego b\u0119dzie wyci\u0119te i w ogie\u0144 wrzucone. Tak wi\u0119c po owocach poznacie ich.\nNie ka\u017cdy, kt\u00f3ry mi m\u00f3wi: Panie, Panie! \u2014 wejdzie do Kr\u00f3lestwa Niebieskiego. Ale kto wype\u0142nia wol\u0119 Ojca mego, kt\u00f3ry jest w niebiesiech, ten wejdzie do Kr\u00f3lestwa Niebieskiego\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Dn 3:40*\nW miejsce ca\u0142opalenia baran\u00f3w, wo\u0142\u00f3w oraz tysi\u0119cy t\u0142ustych barank\u00f3w \u2013 tak niech si\u0119 dokona ofiara nasza przed Tob\u0105, aby si\u0119 podoba\u0142a Tobie, o Panie, kt\u00f3ry nie opuszczasz ufaj\u0105cych Tobie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty\u015b w doskona\u0142o\u015bci jednej Hostii zebra\u0142 rozmaito\u015b\u0107 ofiar Starego Zakonu \u2013 przyjmij ofiar\u0119, kt\u00f3r\u0105 Ci wierni poddani sk\u0142adaj\u0105 i u\u015bwi\u0119\u0107 je, jako\u015b b\u0142ogos\u0142awi\u0142 dary Abla, a to, co ka\u017cdy z\u0142o\u017cy\u0142 na chwa\u0142\u0119 Majestatu Twego niechaj wszystkim pos\u0142u\u017cy ku zbawieniu.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 30:3*\nSk\u0142o\u0144 ku mnie ucho twoje i wybaw mnie pr\u0119dko.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie! \u0141aski Twej zbawienne dzia\u0142anie niechaj nas uwolni od z\u0142ych sk\u0142onno\u015bci i doprowadzi do tego, co godziwe.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 46:2*\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym.\n*Ps 46:3*\nBo Pan Najwy\u017cszy jest straszliwy, On jest Kr\u00f3lem pot\u0119\u017cnym wszystkiej ziemi.\nChwa\u0142a Ojcu.\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "O Bo\u017ce, Opatrzno\u015b\u0107 Twoja nie myli si\u0119 nigdy w zarz\u0105dzeniach swoich! Usilnie wi\u0119c Ciebie b\u0142agamy, aby\u015b usun\u0105\u0142 od nas co szkodliwe i udzieli\u0142 nam wszystkiego, co po\u017cyteczne.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 6:19-23*\n*Cz\u0142owiek, kt\u00f3ry ulega nami\u0119tno\u015bciom, \u017cyje w prawdziwej niewoli, natomiast cz\u0142owiek, kt\u00f3ry s\u0142u\u017cy Bogu, opanowuj\u0105c swe nami\u0119tno\u015bci rozumem i wol\u0105, jest wolny.*\nBracia: Ludzkim sposobem przemawiam dla s\u0142abo\u015bci cia\u0142a waszego: jako bowiem wydali\u015bcie cz\u0142onki wasze na s\u0142u\u017cb\u0119 nieczysto\u015bci i nieprawo\u015bci, aby brn\u0105\u0107 w nieprawo\u015b\u0107, tak teraz wydajecie cz\u0142onki wasze na s\u0142u\u017cb\u0119 sprawiedliwo\u015bci dla u\u015bwi\u0119cenia.\nBo kiedy\u015bcie byli niewolnikami grzechu, wolni byli\u015bcie od s\u0142u\u017cby sprawiedliwo\u015bci. I c\u00f3\u017c za po\u017cytek w\u00f3wczas mieli\u015bcie z tych rzeczy, kt\u00f3rych si\u0119 teraz wstydzicie? Albowiem ko\u0144cem ich jest \u015bmier\u0107. Teraz wszak\u017ce uwolnieni od grzechu i stawszy si\u0119 s\u0142ugami Bo\u017cymi, macie sw\u00f3j po\u017cytek w u\u015bwi\u0119ceniu, a za cel \u2014 \u017cycie wieczne. Albowiem zap\u0142at\u0105 grzechu jest \u015bmier\u0107. A \u0142aska Bo\u017ca \u2014 to \u017cywot wieczny w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 33:12; 33:6*\nP\u00f3jd\u017acie, synowie, s\u0142uchajcie mnie boja\u017ani Pa\u0144skiej was naucz\u0119.\nV. Zbli\u017ccie si\u0119 do Niego, a opromieni was rado\u015b\u0107 i twarzy waszej nie okryje ha\u0144ba. Alleluja, alleluja.\n*Ps 46:2*\nWszystkie narody, klaskajcie w d\u0142onie, wykrzykujcie Bogu g\u0142osem radosnym. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 7:15-21*\nOnego czasu rzek\u0142 Jezus uczniom swoim: \u00abStrze\u017ccie si\u0119 fa\u0142szywych prorok\u00f3w, kt\u00f3rzy do was przychodz\u0105 w odzieniu owczym, a wewn\u0105trz s\u0105 wilki drapie\u017cne. Po ich owocach poznacie ich. Czy\u017c zbieraj\u0105 z ciernia winne jagody albo z ostu figi? Tak wszelkie drzewo dobre owoce dobre rodzi, a z\u0142e drzewo owoce z\u0142e rodzi. Nie mo\u017ce drzewo dobre z\u0142ych owoc\u00f3w rodzi\u0107, ani te\u017c drzewo z\u0142e dobrych owoc\u00f3w rodzi\u0107. Wszelkie drzewo, kt\u00f3re nie rodzi owocu dobrego b\u0119dzie wyci\u0119te i w ogie\u0144 wrzucone. Tak wi\u0119c po owocach poznacie ich.\nNie ka\u017cdy, kt\u00f3ry mi m\u00f3wi: Panie, Panie! \u2014 wejdzie do Kr\u00f3lestwa Niebieskiego. Ale kto wype\u0142nia wol\u0119 Ojca mego, kt\u00f3ry jest w niebiesiech, ten wejdzie do Kr\u00f3lestwa Niebieskiego\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Dn 3:40*\nW miejsce ca\u0142opalenia baran\u00f3w, wo\u0142\u00f3w oraz tysi\u0119cy t\u0142ustych barank\u00f3w \u2013 tak niech si\u0119 dokona ofiara nasza przed Tob\u0105, aby si\u0119 podoba\u0142a Tobie, o Panie, kt\u00f3ry nie opuszczasz ufaj\u0105cych Tobie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty\u015b w doskona\u0142o\u015bci jednej Hostii zebra\u0142 rozmaito\u015b\u0107 ofiar Starego Zakonu \u2013 przyjmij ofiar\u0119, kt\u00f3r\u0105 Ci wierni poddani sk\u0142adaj\u0105 i u\u015bwi\u0119\u0107 je, jako\u015b b\u0142ogos\u0142awi\u0142 dary Abla, a to, co ka\u017cdy z\u0142o\u017cy\u0142 na chwa\u0142\u0119 Majestatu Twego niechaj wszystkim pos\u0142u\u017cy ku zbawieniu.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 30:3*\nSk\u0142o\u0144 ku mnie ucho twoje i wybaw mnie pr\u0119dko.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie! \u0141aski Twej zbawienne dzia\u0142anie niechaj nas uwolni od z\u0142ych sk\u0142onno\u015bci i doprowadzi do tego, co godziwe.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

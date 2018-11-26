@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Piotra", 
-      "1 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Piotra", 
+        "1 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2018-12-16", 
+      "description": "Od trzeciej niedzieli Adwentu my\u015bl nasza zwraca si\u0119 g\u0142\u00f3wnie ku bliskiej pami\u0105tce pierwszego przyj\u015bcia Chrystusa, ku Bo\u017cemu Narodzeniu. W tygodniu wspominamy dwie tajemnice radosne, kt\u00f3re poprzedzi\u0142y Bo\u017ce Narodzenie. Has\u0142em \u00abPan jest blisko\u00bb rozpoczyna si\u0119 od tej niedzieli codzienna modlitwa Ko\u015bcio\u0142a. Ta sama prawda nadaje ton rado\u015bci dzisiejszej Mszy \u015bwi\u0119tej. Jak lud izraelski zosta\u0142 wyzwolony z niewoli babilo\u0144skiej, tak my zostaniemy uwolnieni z naszych ciemno\u015bci. \u015aw. Jan Chrzciciel zapewnia, \u017ce Chrystus ju\u017c stan\u0105\u0142 wpo\u015br\u00f3d nas. Obecny w Eucharystii, sam przysposabia dusze na wielkie \u0142aski nadchodz\u0105cych \u015bwi\u0105t.\n", 
+      "tempora": null, 
+      "title": "3 Niedziela Adwentu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Phil 4:4-6*\nGaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus enim prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum.\n*Ps 84:2*\nBenedix\u00edsti, D\u00f3mine, terram tuam: avert\u00edsti captivit\u00e1tem Jacob.\nGl\u00f3ria Patri.\nGaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus enim prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Aurem tuam, qu\u01fdsumus, D\u00f3mine, pr\u00e9cibus nostris acc\u00f3mmoda: et mentis nostr\u00e6 t\u00e9nebras, gr\u00e1tia tu\u00e6 visitati\u00f3nis ill\u00fastra:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Lectio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philipp\u00e9nses\n*Philipp 4:4-7*\nFratres: Gaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne et obsecrati\u00f3ne, cum grati\u00e1rum acti\u00f3ne, petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum. Et pax Dei, qu\u00e6 exs\u00faperat omnem sensum, cust\u00f3diat corda vestra et intelleg\u00e9ntias vestras, in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 79:2; 79:3; 79:2*\nQui sedes, D\u00f3mine, super Ch\u00e9rubim, \u00e9xcita pot\u00e9ntiam tuam, et veni.\nV. Qui regis Isra\u00ebl, int\u00e9nde: qui ded\u00facis, velut ovem, Joseph. Allel\u00faja, allel\u00faja,\nV. Excita, D\u00f3mine, potentiam tuam, et veni, ut salvos f\u00e1cias nos. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joann 1:19-28*\nIn illo tempore: Mis\u00e9runt Jud\u01fdi ab Jeros\u00f3lymis sacerd\u00f3tes et lev\u00edtas ad Jo\u00e1nnem, ut interrog\u00e1rent eum: Tu quis es? Et conf\u00e9ssus est, et non neg\u00e1vit: et conf\u00e9ssus est: Quia non sum ego Christus. Et interrogav\u00e9runt eum: Quid ergo? El\u00edas es tu? Et dixit: Non sum. Proph\u00e9ta es tu? Et respondit: Non. Dix\u00e9runt ergo ei: Quis es, ut resp\u00f3nsum demus his, qui mis\u00e9runt nos? Quid dicis de te ipso? Ait: Ego vox clam\u00e1ntis in des\u00e9rto: Dir\u00edgite viam D\u00f3mini, sicut dixit Isa\u00edas Proph\u00e9ta. Et qui missi f\u00faerant, erant ex pharis\u01fdis. Et interrogav\u00e9runt eum, et dix\u00e9runt ei: Quid ergo bapt\u00edzas, si tu non es Christus, neque El\u00edas, neque Proph\u00e9ta? Resp\u00f3ndit eis Jo\u00e1nnes, dicens: Ego bapt\u00edzo in aqua: m\u00e9dius autem vestrum stetit, quem vos nesc\u00edtis. Ipse est, qui post me vent\u00farus est, qui ante me factus est: cujus ego non sum dignus ut solvam ejus corr\u00edgiam calceam\u00e9nti. H\u00e6c in Beth\u00e1nia facta sunt trans Jord\u00e1nem, ubi erat Jo\u00e1nnes bapt\u00edzans.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 84:2*\nBenedix\u00edsti, D\u00f3mine, terram tuam: avert\u00edsti captivit\u00e1tem Jacob: remis\u00edsti iniquitatem plebis tu\u00e6.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Devoti\u00f3nis nostr\u00e6 tibi, qu\u01fdsumus, D\u00f3mine, h\u00f3stia j\u00fagiter immol\u00e9tur: qu\u00e6 et sacri p\u00e9ragat instit\u00fata myst\u00e9rii, et salut\u00e1re tuum in nobis mirab\u00edliter oper\u00e9tur.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Is 35:4.*\nD\u00edcite: pusill\u00e1nimes, confort\u00e1mini et nol\u00edte tim\u00e9re: ecce, Deus noster v\u00e9niet et salv\u00e1bit nos.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Implor\u00e1mus, D\u00f3mine, clem\u00e9ntiam tuam: ut h\u00e6c div\u00edna subs\u00eddia, a v\u00edtiis expi\u00e1tos, ad festa vent\u00fara nos pr\u01fdparent.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-12-16", 
-    "description": "Od trzeciej niedzieli Adwentu my\u015bl nasza zwraca si\u0119 g\u0142\u00f3wnie ku bliskiej pami\u0105tce pierwszego przyj\u015bcia Chrystusa, ku Bo\u017cemu Narodzeniu. W tygodniu wspominamy dwie tajemnice radosne, kt\u00f3re poprzedzi\u0142y Bo\u017ce Narodzenie. Has\u0142em \u00abPan jest blisko\u00bb rozpoczyna si\u0119 od tej niedzieli codzienna modlitwa Ko\u015bcio\u0142a. Ta sama prawda nadaje ton rado\u015bci dzisiejszej Mszy \u015bwi\u0119tej. Jak lud izraelski zosta\u0142 wyzwolony z niewoli babilo\u0144skiej, tak my zostaniemy uwolnieni z naszych ciemno\u015bci. \u015aw. Jan Chrzciciel zapewnia, \u017ce Chrystus ju\u017c stan\u0105\u0142 wpo\u015br\u00f3d nas. Obecny w Eucharystii, sam przysposabia dusze na wielkie \u0142aski nadchodz\u0105cych \u015bwi\u0105t.\n", 
-    "tempora": null, 
-    "title": "3 Niedziela Adwentu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Phil 4:4-6*\nGaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus enim prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum.\n*Ps 84:2*\nBenedix\u00edsti, D\u00f3mine, terram tuam: avert\u00edsti captivit\u00e1tem Jacob.\nGl\u00f3ria Patri.\nGaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus enim prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Aurem tuam, qu\u01fdsumus, D\u00f3mine, pr\u00e9cibus nostris acc\u00f3mmoda: et mentis nostr\u00e6 t\u00e9nebras, gr\u00e1tia tu\u00e6 visitati\u00f3nis ill\u00fastra:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Lectio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Philipp\u00e9nses\n*Philipp 4:4-7*\nFratres: Gaud\u00e9te in D\u00f3mino semper: \u00edterum dico, gaud\u00e9te. Mod\u00e9stia vestra nota sit \u00f3mnibus hom\u00ednibus: D\u00f3minus prope est. Nihil soll\u00edciti sitis: sed in omni orati\u00f3ne et obsecrati\u00f3ne, cum grati\u00e1rum acti\u00f3ne, petiti\u00f3nes vestr\u00e6 innot\u00e9scant apud Deum. Et pax Dei, qu\u00e6 exs\u00faperat omnem sensum, cust\u00f3diat corda vestra et intelleg\u00e9ntias vestras, in Christo Jesu, D\u00f3mino nostro.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 79:2; 79:3; 79:2*\nQui sedes, D\u00f3mine, super Ch\u00e9rubim, \u00e9xcita pot\u00e9ntiam tuam, et veni.\nV. Qui regis Isra\u00ebl, int\u00e9nde: qui ded\u00facis, velut ovem, Joseph. Allel\u00faja, allel\u00faja,\nV. Excita, D\u00f3mine, potentiam tuam, et veni, ut salvos f\u00e1cias nos. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem\n*Joann 1:19-28*\nIn illo tempore: Mis\u00e9runt Jud\u01fdi ab Jeros\u00f3lymis sacerd\u00f3tes et lev\u00edtas ad Jo\u00e1nnem, ut interrog\u00e1rent eum: Tu quis es? Et conf\u00e9ssus est, et non neg\u00e1vit: et conf\u00e9ssus est: Quia non sum ego Christus. Et interrogav\u00e9runt eum: Quid ergo? El\u00edas es tu? Et dixit: Non sum. Proph\u00e9ta es tu? Et respondit: Non. Dix\u00e9runt ergo ei: Quis es, ut resp\u00f3nsum demus his, qui mis\u00e9runt nos? Quid dicis de te ipso? Ait: Ego vox clam\u00e1ntis in des\u00e9rto: Dir\u00edgite viam D\u00f3mini, sicut dixit Isa\u00edas Proph\u00e9ta. Et qui missi f\u00faerant, erant ex pharis\u01fdis. Et interrogav\u00e9runt eum, et dix\u00e9runt ei: Quid ergo bapt\u00edzas, si tu non es Christus, neque El\u00edas, neque Proph\u00e9ta? Resp\u00f3ndit eis Jo\u00e1nnes, dicens: Ego bapt\u00edzo in aqua: m\u00e9dius autem vestrum stetit, quem vos nesc\u00edtis. Ipse est, qui post me vent\u00farus est, qui ante me factus est: cujus ego non sum dignus ut solvam ejus corr\u00edgiam calceam\u00e9nti. H\u00e6c in Beth\u00e1nia facta sunt trans Jord\u00e1nem, ubi erat Jo\u00e1nnes bapt\u00edzans.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 84:2*\nBenedix\u00edsti, D\u00f3mine, terram tuam: avert\u00edsti captivit\u00e1tem Jacob: remis\u00edsti iniquitatem plebis tu\u00e6.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Devoti\u00f3nis nostr\u00e6 tibi, qu\u01fdsumus, D\u00f3mine, h\u00f3stia j\u00fagiter immol\u00e9tur: qu\u00e6 et sacri p\u00e9ragat instit\u00fata myst\u00e9rii, et salut\u00e1re tuum in nobis mirab\u00edliter oper\u00e9tur.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Is 35:4.*\nD\u00edcite: pusill\u00e1nimes, confort\u00e1mini et nol\u00edte tim\u00e9re: ecce, Deus noster v\u00e9niet et salv\u00e1bit nos.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Implor\u00e1mus, D\u00f3mine, clem\u00e9ntiam tuam: ut h\u00e6c div\u00edna subs\u00eddia, a v\u00edtiis expi\u00e1tos, ad festa vent\u00fara nos pr\u01fdparent.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Flp 4:4-6*\nWeselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie, weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom; Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie.\n*Ps 84:2*\n\u0141askawym okaza\u0142e\u015b si\u0119, Panie, dla Twej ziemi. Na dobre odmieni\u0142e\u015b los Jakuba.\nChwa\u0142a Ojcu.\nWeselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie, weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom; Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Nak\u0142o\u0144, Panie, ucha Twego ku naszym pro\u015bbom i rozja\u015bnij ciemno\u015bci naszego umys\u0142u \u0142ask\u0105 Twego nawiedzenia.\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Filipian.\n*Flp 4:4-7*\nBracia: Weselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie: weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom. Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie. A pok\u00f3j Bo\u017cy, kt\u00f3ry przewy\u017csza wszelkie poj\u0119cie, niechaj strze\u017ce serc waszych i umys\u0142\u00f3w waszych w Chrystusie Jezusie, Panu naszym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 79:2; 79:3; 79:2*\nPanie, kt\u00f3ry siedzisz na Cherubinach, wzbud\u017a Tw\u0105 pot\u0119g\u0119 i przyjd\u017a.\nV. Pasterzu Izraela pos\u0142uchaj, Ty, co jak trzod\u0119 wiedziesz r\u00f3d J\u00f3zefa. Alleluja, alleluja.\nV. Wzbud\u017a Tw\u0105 pot\u0119g\u0119, Panie, i przyjd\u017a, aby nas zbawi\u0107. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 1:19-28*\nOnego czasu: \u017bydzi z Jerozolimy wys\u0142ali do Jana kap\u0142an\u00f3w i lewit\u00f3w, aby go zapytali: \u00abKim jeste\u015b?\u00bb I wyzna\u0142, a nie zaprzeczy\u0142, o\u015bwiadczaj\u0105c im: \u00abJam nie jest Chrystus\u00bb. Zapytali go tedy: \u00abC\u00f3\u017c wi\u0119c? Jeste\u015b Ty Eliaszem?\u00bb I odrzek\u0142: \u00abNie jestem\u00bb. \u00abJeste\u015b ty prorokiem?\u00bb I odpowiedzia\u0142: \u00abNie\u00bb. Rzekli mu tedy: \u00abKim\u017ce jeste\u015b, aby\u015bmy mogli odpowied\u017a da\u0107 tym, kt\u00f3rzy nas wys\u0142ali. C\u00f3\u017c powiadasz sam o sobie?\u00bb I rzek\u0142: \u00abJam g\u0142os tego, kt\u00f3ry wo\u0142a na pustkowiu: drog\u0119 prostujcie Panu, jako m\u00f3wi\u0142 Izajasz prorok\u00bb. A wys\u0142a\u0144cy byli z faryzeusz\u00f3w. I pytaj\u0105c go m\u00f3wili: \u00abCzemu\u017c tedy chrzcisz, je\u015bli nie jeste\u015b Chrystusem ani Eliaszem, ani prorokiem?\u00bb Odpowiedzia\u0142 im Jan, m\u00f3wi\u0105c: \u00abJa chrzcz\u0119 wod\u0105, ale po\u015br\u00f3d was stan\u0105\u0142 Ten, kt\u00f3rego wy nie znacie. To Ten, kt\u00f3ry przyjdzie po mnie, a sta\u0142 si\u0119 przede mn\u0105, kt\u00f3remu nie jestem godzien rozwi\u0105za\u0107 rzemyka u sanda\u0142\u00f3w Jego\u00bb. To si\u0119 dzia\u0142o w Betanii za Jordanem, gdzie Jan chrzci\u0142.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 84:2*\n\u0141askawym okaza\u0142e\u015b si\u0119, Panie, dla Twej ziemi, na dobre odmieni\u0142e\u015b los Jakuba: ludowi Twemu darowa\u0142e\u015b win\u0119.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Daj, Panie, aby\u015bmy nieustannie sk\u0142adali Tobie ofiar\u0119 naszego oddania. Niech przez ni\u0105 spe\u0142niaj\u0105 si\u0119 ustanowione przez Ciebie tajemnice, i niech si\u0119 w nas dokonuje dzie\u0142o Twego zbawienia.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Iz 35:4*\nRzeczcie boja\u017aliwym: \u00abWzmocnijcie si\u0119, a nie b\u00f3jcie si\u0119: oto B\u00f3g nasz przyjdzie i zbawi nas\u00bb.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "B\u0142agamy, Panie, \u0142askawo\u015b\u0107 Twoj\u0105: aby ten Boski posi\u0142ek oczy\u015bci\u0142 nas z grzech\u00f3w i przygotowa\u0142 na zbli\u017caj\u0105ce si\u0119 \u015bwi\u0119ta.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Flp 4:4-6*\nWeselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie, weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom; Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie.\n*Ps 84:2*\n\u0141askawym okaza\u0142e\u015b si\u0119, Panie, dla Twej ziemi. Na dobre odmieni\u0142e\u015b los Jakuba.\nChwa\u0142a Ojcu.\nWeselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie, weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom; Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Nak\u0142o\u0144, Panie, ucha Twego ku naszym pro\u015bbom i rozja\u015bnij ciemno\u015bci naszego umys\u0142u \u0142ask\u0105 Twego nawiedzenia.\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Filipian.\n*Flp 4:4-7*\nBracia: Weselcie si\u0119 w Panu zawsze, m\u00f3wi\u0119 powt\u00f3rnie: weselcie si\u0119. Skromno\u015b\u0107 wasza niech b\u0119dzie znana wszystkim ludziom. Pan bowiem blisko jest. Nie troszczcie si\u0119 o nic, ale potrzeby wasze Bogu powierzajcie w ka\u017cdej modlitwie i dzi\u0119kczynnej pro\u015bbie. A pok\u00f3j Bo\u017cy, kt\u00f3ry przewy\u017csza wszelkie poj\u0119cie, niechaj strze\u017ce serc waszych i umys\u0142\u00f3w waszych w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 79:2; 79:3; 79:2*\nPanie, kt\u00f3ry siedzisz na Cherubinach, wzbud\u017a Tw\u0105 pot\u0119g\u0119 i przyjd\u017a.\nV. Pasterzu Izraela pos\u0142uchaj, Ty, co jak trzod\u0119 wiedziesz r\u00f3d J\u00f3zefa. Alleluja, alleluja.\nV. Wzbud\u017a Tw\u0105 pot\u0119g\u0119, Panie, i przyjd\u017a, aby nas zbawi\u0107. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 1:19-28*\nOnego czasu: \u017bydzi z Jerozolimy wys\u0142ali do Jana kap\u0142an\u00f3w i lewit\u00f3w, aby go zapytali: \u00abKim jeste\u015b?\u00bb I wyzna\u0142, a nie zaprzeczy\u0142, o\u015bwiadczaj\u0105c im: \u00abJam nie jest Chrystus\u00bb. Zapytali go tedy: \u00abC\u00f3\u017c wi\u0119c? Jeste\u015b Ty Eliaszem?\u00bb I odrzek\u0142: \u00abNie jestem\u00bb. \u00abJeste\u015b ty prorokiem?\u00bb I odpowiedzia\u0142: \u00abNie\u00bb. Rzekli mu tedy: \u00abKim\u017ce jeste\u015b, aby\u015bmy mogli odpowied\u017a da\u0107 tym, kt\u00f3rzy nas wys\u0142ali. C\u00f3\u017c powiadasz sam o sobie?\u00bb I rzek\u0142: \u00abJam g\u0142os tego, kt\u00f3ry wo\u0142a na pustkowiu: drog\u0119 prostujcie Panu, jako m\u00f3wi\u0142 Izajasz prorok\u00bb. A wys\u0142a\u0144cy byli z faryzeusz\u00f3w. I pytaj\u0105c go m\u00f3wili: \u00abCzemu\u017c tedy chrzcisz, je\u015bli nie jeste\u015b Chrystusem ani Eliaszem, ani prorokiem?\u00bb Odpowiedzia\u0142 im Jan, m\u00f3wi\u0105c: \u00abJa chrzcz\u0119 wod\u0105, ale po\u015br\u00f3d was stan\u0105\u0142 Ten, kt\u00f3rego wy nie znacie. To Ten, kt\u00f3ry przyjdzie po mnie, a sta\u0142 si\u0119 przede mn\u0105, kt\u00f3remu nie jestem godzien rozwi\u0105za\u0107 rzemyka u sanda\u0142\u00f3w Jego\u00bb. To si\u0119 dzia\u0142o w Betanii za Jordanem, gdzie Jan chrzci\u0142.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 84:2*\n\u0141askawym okaza\u0142e\u015b si\u0119, Panie, dla Twej ziemi, na dobre odmieni\u0142e\u015b los Jakuba: ludowi Twemu darowa\u0142e\u015b win\u0119.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Daj, Panie, aby\u015bmy nieustannie sk\u0142adali Tobie ofiar\u0119 naszego oddania. Niech przez ni\u0105 spe\u0142niaj\u0105 si\u0119 ustanowione przez Ciebie tajemnice, i niech si\u0119 w nas dokonuje dzie\u0142o Twego zbawienia.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Iz 35:4*\nRzeczcie boja\u017aliwym: \u00abWzmocnijcie si\u0119, a nie b\u00f3jcie si\u0119: oto B\u00f3g nasz przyjdzie i zbawi nas\u00bb.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "B\u0142agamy, Panie, \u0142askawo\u015b\u0107 Twoj\u0105: aby ten Boski posi\u0142ek oczy\u015bci\u0142 nas z grzech\u00f3w i przygotowa\u0142 na zbli\u017caj\u0105ce si\u0119 \u015bwi\u0119ta.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

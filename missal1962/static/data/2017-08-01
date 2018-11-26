@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "Wspomnienie", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Wspomnienie", 
+        "Szaty czerwone"
+      ], 
+      "date": "2017-08-01", 
+      "description": "Bracia Machabejscy zostali um\u0119czeni wraz z matk\u0105 przez Antiocha Epifanesa oko\u0142o 150 roku przed Chrystusem. M\u0119cze\u0144stwo ich opisuje 2 Ksi\u0119ga Machabejska. W VI wieku przewieziono ich relikwie do Rzymu i z\u0142o\u017cono w ko\u015bciele \u015bw. Piotra w Okowach.\n", 
+      "tempora": "Wtorek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Siedmiu Braci Machabejskich, M\u0119czennik\u00f3w"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 33:18*\nClamaverunt justi, et Dominus exaudivit eos; et ex omnibus tribulationibus eorum liberavit eos.\n*Ps 33:2*\nBenedicam Dominum in omni tempore; semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nClamaverunt justi, et Dominus exaudivit eos; et ex omnibus tribulationibus eorum liberavit eos.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Frat\u00e9rna nos, D\u00f3mine, M\u00e1rtyrum tu\u00f3rum cor\u00f3na l\u00e6t\u00edficet: qu\u00e6 et f\u00eddei nostr\u00e6 praebeat increm\u00e9nta virt\u00fatum; et mult\u00edplici nos suffr\u00e1gio consol\u00e9tur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Lectio Epistolae Sancti Pauli Apostoli to Judeos\n*Heb 11:33-39*\nQui per fidem vicerunt regna, operati sunt justitiam, adepti sunt repromissiones, obturaverunt ora leonum, extinxerunt impetum ignis, effugerunt aciem gladii, convaluerunt de infirmitate, fortes facti sunt in bello, castra verterunt exterorum: acceperunt mulieres de resurrectione mortuos suos: alii autem distenti sunt non suscipientes redemptionem ut meliorem invenirent resurrectionem. Alii vero ludibria, et verbera experti, insuper et vincula, et carceres: lapidati sunt, secti sunt, tentati sunt, in occisione gladii mortui sunt, circuierunt in melotis, in pellibus caprinis, egentes, angustiati, afflicti: quibus dignus non erat mundus: in solitudinibus errantes, in montibus, in speluncis, et in cavernis terrae. Et hi omnes testimonio fidei probati, non acceperunt repromissionem,", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 132:1-2*\nEcce quam bonum et quam jucundum, habitare fratres in unum !\nV. Sicut unguentum in capite, quod descendit in barbam, barbam Aaron, quod descendit in oram vestimenti ejus; Alleluia, alleluia.\nV. H\u00e6c est vera frat\u00e9rnitas, qu\u00e6 vicit mundi cr\u00edmina: Christum sec\u00fata est, \u00ednclita tenens regna coel\u00e9stia. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Exod 15:11*\nGlori\u00f3sus Deus in Sanctis suis: mir\u00e1bilis in majest\u00e1te, f\u00e1ciens prod\u00edgia.\n*Exod 15:6*\nV. D\u00e9xtera tua, D\u00f3mine, glorific\u00e1ta est in virt\u00fate: d\u00e9xtera manus tua confr\u00e9git inim\u00edcos.\n*Ps 125:5-6.*\nQui s\u00e9minant in l\u00e1crimis, in g\u00e1udio metent.\nV. E\u00fantes ibant et fl\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequentia sancti Evangelii secundum Lucam\n*Luc 12:1-8*\nMultis autem turbis circumstantibus, ita ut se invicem conculcarent, coepit dicere ad discipulos suos: Attendite a fermento pharisaeorum, quod est hypocrisis. Nihil autem opertum est, quod non reveletur: neque absconditum, quod non sciatur. Quoniam quae in tenebris dixistis, in lumine dicentur: et quod in aurem locuti estis in cubiculis, praedicabitur in tectis. Dico autem vobis amicis meis: Ne terreamini ab his qui occidunt corpus, et post haec non habent amplius quid faciant. Ostendam autem vobis quem timeatis: timete eum qui, postquam occiderit, habet potestatem mittere in gehennam: ita dico vobis, hunc timete. Nonne quinque passeres veneunt dipondio, et unus ex illis non est in oblivione coram Deo? sed et capilli capitis vestri omnes numerati sunt. Nolite ergo timere: multis passeribus pluris estis vos. Dico autem vobis: Omnis quicumque confessus fuerit me coram hominibus, et Filius hominis confitebitur illum coram angelis Dei:", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 149:5-6*\nExsultabunt sancti in gloria; laetabuntur in cubilibus suis. Exaltationes Dei in gutture eorum. Alleluia.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Myst\u00e9ria tua, D\u00f3mine, pro sanct\u00f3rum Martyrum tu\u00f3rum hon\u00f3re, dev\u00f3ta mente tract\u00e9mus: quibus et pr\u00e6s\u00eddium nobis crescat et g\u00e1udium.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 12:4*\nDico autem vobis amicis meis: Ne terreamini ab his qui occidunt corpus,", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, quorum mem\u00f3riam sacram\u00e9nti participati\u00f3ne rec\u00f3limus, fidem quoque profici\u00e9ndo sect\u00e9mur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-08-01", 
-    "description": "Bracia Machabejscy zostali um\u0119czeni wraz z matk\u0105 przez Antiocha Epifanesa oko\u0142o 150 roku przed Chrystusem. M\u0119cze\u0144stwo ich opisuje 2 Ksi\u0119ga Machabejska. W VI wieku przewieziono ich relikwie do Rzymu i z\u0142o\u017cono w ko\u015bciele \u015bw. Piotra w Okowach.\n", 
-    "tempora": "Wtorek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "Siedmiu Braci Machabejskich, M\u0119czennik\u00f3w"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 33:18*\nClamaverunt justi, et Dominus exaudivit eos; et ex omnibus tribulationibus eorum liberavit eos.\n*Ps 33:2*\nBenedicam Dominum in omni tempore; semper laus ejus in ore meo.\nGl\u00f3ria Patri.\nClamaverunt justi, et Dominus exaudivit eos; et ex omnibus tribulationibus eorum liberavit eos.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Frat\u00e9rna nos, D\u00f3mine, M\u00e1rtyrum tu\u00f3rum cor\u00f3na l\u00e6t\u00edficet: qu\u00e6 et f\u00eddei nostr\u00e6 praebeat increm\u00e9nta virt\u00fatum; et mult\u00edplici nos suffr\u00e1gio consol\u00e9tur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Lectio Epistolae Sancti Pauli Apostoli to Judeos\n*Heb 11:33-39*\nQui per fidem vicerunt regna, operati sunt justitiam, adepti sunt repromissiones, obturaverunt ora leonum, extinxerunt impetum ignis, effugerunt aciem gladii, convaluerunt de infirmitate, fortes facti sunt in bello, castra verterunt exterorum: acceperunt mulieres de resurrectione mortuos suos: alii autem distenti sunt non suscipientes redemptionem ut meliorem invenirent resurrectionem. Alii vero ludibria, et verbera experti, insuper et vincula, et carceres: lapidati sunt, secti sunt, tentati sunt, in occisione gladii mortui sunt, circuierunt in melotis, in pellibus caprinis, egentes, angustiati, afflicti: quibus dignus non erat mundus: in solitudinibus errantes, in montibus, in speluncis, et in cavernis terrae. Et hi omnes testimonio fidei probati, non acceperunt repromissionem,", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 132:1-2*\nEcce quam bonum et quam jucundum, habitare fratres in unum !\nV. Sicut unguentum in capite, quod descendit in barbam, barbam Aaron, quod descendit in oram vestimenti ejus; Alleluia, alleluia.\nV. H\u00e6c est vera frat\u00e9rnitas, qu\u00e6 vicit mundi cr\u00edmina: Christum sec\u00fata est, \u00ednclita tenens regna coel\u00e9stia. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Exod 15:11*\nGlori\u00f3sus Deus in Sanctis suis: mir\u00e1bilis in majest\u00e1te, f\u00e1ciens prod\u00edgia.\n*Exod 15:6*\nV. D\u00e9xtera tua, D\u00f3mine, glorific\u00e1ta est in virt\u00fate: d\u00e9xtera manus tua confr\u00e9git inim\u00edcos.\n*Ps 125:5-6.*\nQui s\u00e9minant in l\u00e1crimis, in g\u00e1udio metent.\nV. E\u00fantes ibant et fl\u00e9bant, mitt\u00e9ntes s\u00e9mina sua.\nV. Veni\u00e9ntes autem v\u00e9nient cum exsultati\u00f3ne, port\u00e1ntes man\u00edpulos suos.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequentia sancti Evangelii secundum Lucam\n*Luc 12:1-8*\nMultis autem turbis circumstantibus, ita ut se invicem conculcarent, coepit dicere ad discipulos suos: Attendite a fermento pharisaeorum, quod est hypocrisis. Nihil autem opertum est, quod non reveletur: neque absconditum, quod non sciatur. Quoniam quae in tenebris dixistis, in lumine dicentur: et quod in aurem locuti estis in cubiculis, praedicabitur in tectis. Dico autem vobis amicis meis: Ne terreamini ab his qui occidunt corpus, et post haec non habent amplius quid faciant. Ostendam autem vobis quem timeatis: timete eum qui, postquam occiderit, habet potestatem mittere in gehennam: ita dico vobis, hunc timete. Nonne quinque passeres veneunt dipondio, et unus ex illis non est in oblivione coram Deo? sed et capilli capitis vestri omnes numerati sunt. Nolite ergo timere: multis passeribus pluris estis vos. Dico autem vobis: Omnis quicumque confessus fuerit me coram hominibus, et Filius hominis confitebitur illum coram angelis Dei:", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 149:5-6*\nExsultabunt sancti in gloria; laetabuntur in cubilibus suis. Exaltationes Dei in gutture eorum. Alleluia.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Myst\u00e9ria tua, D\u00f3mine, pro sanct\u00f3rum Martyrum tu\u00f3rum hon\u00f3re, dev\u00f3ta mente tract\u00e9mus: quibus et pr\u00e6s\u00eddium nobis crescat et g\u00e1udium.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 12:4*\nDico autem vobis amicis meis: Ne terreamini ab his qui occidunt corpus,", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens Deus: ut, quorum mem\u00f3riam sacram\u00e9nti participati\u00f3ne rec\u00f3limus, fidem quoque profici\u00e9ndo sect\u00e9mur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 33:18*\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Niech nas, Panie, uraduje wsp\u00f3lne zwyci\u0119stwo Braci M\u0119czennik\u00f3w, niech doda wi\u0119kszej mocy naszej wierze i nape\u0142ni nas pociech\u0105 z wielu or\u0119downik\u00f3w.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 3:1-8*\nDusze sprawiedliwych s\u0105 w r\u0119ku Boga i nie dosi\u0119gnie ich m\u0119ka. Zda\u0142o si\u0119 oczom g\u0142upich, \u017ce pomarli, zej\u015bcie ich poczytano za nieszcz\u0119\u015bcie i odej\u015bcie od nas za unicestwienie, a oni trwaj\u0105 w pokoju. Cho\u0107 nawet w ludzkim zrozumieniu doznali ka\u017ani, nadzieja ich pe\u0142na jest nie\u015bmiertelno\u015bci. Po nieznacznym skarceniu dost\u0105pi\u0105 d\u00f3br wielkich, B\u00f3g ich bowiem do\u015bwiadczy\u0142 i znalaz\u0142 ich godnymi siebie. Do\u015bwiadczy\u0142 ich, jak z\u0142oto w tyglu i przyj\u0105\u0142 jak ca\u0142opaln\u0105 ofiar\u0119. W dzie\u0144 nawiedzenia swego zaja\u015bniej\u0105 i rozbiegn\u0105 si\u0119 jak iskry po \u015bciernisku. B\u0119d\u0105 s\u0105dzi\u0107 ludy, zapanuj\u0105 nad narodami, a Pan kr\u00f3lowa\u0107 b\u0119dzie nad nimi na wieki.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 132:1-2*\nOto jak dobrze i jak mi\u0142o braciom zamieszka\u0107 spo\u0142em.\nV. Jak wyborny olejek na g\u0142owie, co sp\u0142ywa na brod\u0119, brod\u0119 Aarona. Alleluja, alleluja.\nV. Oto prawdziwe braterstwo, kt\u00f3re zwyci\u0119\u017cy\u0142o wyst\u0119pki \u015bwiata: posz\u0142o za Chrystusem, otrzymuj\u0105c zaszczytne Kr\u00f3lestwo Niebieskie. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Wj 15:11*\nChwalebny jest B\u00f3g w Swoich \u015awi\u0119tych, przedziwny w majestacie, dokonuje cud\u00f3w.\n*Wj 15:6*\nV. Prawica Twoja, Panie, ws\u0142awi\u0142a si\u0119 moc\u0105; prawica Twoja zgniot\u0142a nieprzyjaci\u00f3\u0142.\n*Ps 125:5-6.*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew:\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 12:1-8*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abStrze\u017ccie si\u0119 kwasu faryzeusz\u00f3w, to jest ob\u0142udy. A nie masz nic ukrytego, co by nie mia\u0142o by\u0107 ujawnione, ani te\u017c tajemnego, o czym by si\u0119 dowiedzie\u0107 nie miano. Albowiem co m\u00f3wili\u015bcie w mroku, w \u015bwietle powiedziane b\u0119dzie, i co\u015bcie do ucha szeptali w komorach, na dachach og\u0142oszone b\u0119dzie.\nA powiadam Wam, przyjacio\u0142om moim: Nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, a potem nic wi\u0119cej uczyni\u0107 nie mog\u0105. Ale wska\u017c\u0119 wam, kogo si\u0119 l\u0119ka\u0107 macie: l\u0119kajcie si\u0119 Tego, kt\u00f3ry po \u015bmierci ma moc wrzuci\u0107 do piek\u0142a. Zaiste, m\u00f3wi\u0119 wam, tego si\u0119 l\u0119kajcie. Czy\u017c nie sprzedaje si\u0119 pi\u0119ciu wr\u00f3bli za dwa pieni\u0105\u017cki, a ani jeden z nich nie jest w zapomnieniu u Boga? Ale i w\u0142osy na g\u0142owie waszej wszystkie s\u0105 policzone. Nie l\u0119kajcie si\u0119 t\u0119dy, wi\u0119cej znaczycie przecie\u017c ni\u017c wiele wr\u00f3bli.\nA powiadam wam: Ktokolwiek wyzna\u0142by mi\u0119 przed lud\u017ami, i Syn Cz\u0142owieczy wyzna go przed Anio\u0142ami Bo\u017cymi\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "Ps 149:5-6\nNiech \u015awi\u0119ci ciesz\u0105 si\u0119 w\u015br\u00f3d chwa\u0142y, niech si\u0119 raduj\u0105 w miejscu odpocznienia, wys\u0142awianie Boga wci\u0105\u017c na ich ustach, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Dozw\u00f3l nam, Panie, pobo\u017cnie sprawowa\u0107 Twoje misteria ku czu Twoich \u015bwi\u0119tych M\u0119czennik\u00f3w: niech przez nie wzmaga si\u0119 Twoja opieka nad nami i nasza rado\u015b\u0107.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:4*\nPowiadam wam, przyjacio\u0142om moim: nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy was prze\u015bladuj\u0105.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby\u015bmy coraz lepiej na\u015bladowali wiar\u0119 tych, kt\u00f3rych pami\u0119\u0107 czcimy przez przyjmowanie Boskiego Sakramentu\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 33:18*\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.\n*Ps 33:2*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nChwa\u0142a Ojcu.\nWo\u0142ali sprawiedliwi, a Pan ich wys\u0142ucha\u0142 i wyzwoli\u0142 ich ze wszystkich ucisk\u00f3w.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Niech nas, Panie, uraduje wsp\u00f3lne zwyci\u0119stwo Braci M\u0119czennik\u00f3w, niech doda wi\u0119kszej mocy naszej wierze i nape\u0142ni nas pociech\u0105 z wielu or\u0119downik\u00f3w.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 3:1-8*\nDusze sprawiedliwych s\u0105 w r\u0119ku Boga i nie dosi\u0119gnie ich m\u0119ka. Zda\u0142o si\u0119 oczom g\u0142upich, \u017ce pomarli, zej\u015bcie ich poczytano za nieszcz\u0119\u015bcie i odej\u015bcie od nas za unicestwienie, a oni trwaj\u0105 w pokoju. Cho\u0107 nawet w ludzkim zrozumieniu doznali ka\u017ani, nadzieja ich pe\u0142na jest nie\u015bmiertelno\u015bci. Po nieznacznym skarceniu dost\u0105pi\u0105 d\u00f3br wielkich, B\u00f3g ich bowiem do\u015bwiadczy\u0142 i znalaz\u0142 ich godnymi siebie. Do\u015bwiadczy\u0142 ich, jak z\u0142oto w tyglu i przyj\u0105\u0142 jak ca\u0142opaln\u0105 ofiar\u0119. W dzie\u0144 nawiedzenia swego zaja\u015bniej\u0105 i rozbiegn\u0105 si\u0119 jak iskry po \u015bciernisku. B\u0119d\u0105 s\u0105dzi\u0107 ludy, zapanuj\u0105 nad narodami, a Pan kr\u00f3lowa\u0107 b\u0119dzie nad nimi na wieki.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 132:1-2*\nOto jak dobrze i jak mi\u0142o braciom zamieszka\u0107 spo\u0142em.\nV. Jak wyborny olejek na g\u0142owie, co sp\u0142ywa na brod\u0119, brod\u0119 Aarona. Alleluja, alleluja.\nV. Oto prawdziwe braterstwo, kt\u00f3re zwyci\u0119\u017cy\u0142o wyst\u0119pki \u015bwiata: posz\u0142o za Chrystusem, otrzymuj\u0105c zaszczytne Kr\u00f3lestwo Niebieskie. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Wj 15:11*\nChwalebny jest B\u00f3g w Swoich \u015awi\u0119tych, przedziwny w majestacie, dokonuje cud\u00f3w.\n*Wj 15:6*\nV. Prawica Twoja, Panie, ws\u0142awi\u0142a si\u0119 moc\u0105; prawica Twoja zgniot\u0142a nieprzyjaci\u00f3\u0142.\n*Ps 125:5-6.*\nKt\u00f3rzy siej\u0105 we \u0142zach, \u017c\u0105\u0107 b\u0119d\u0105 w rado\u015bci.\nV. Id\u0105 i p\u0142acz\u0105, nios\u0105c ziarno na zasiew:\nV. Przyjd\u0105 z rado\u015bci\u0105, nios\u0105c swoje snopy.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 12:1-8*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abStrze\u017ccie si\u0119 kwasu faryzeusz\u00f3w, to jest ob\u0142udy. A nie masz nic ukrytego, co by nie mia\u0142o by\u0107 ujawnione, ani te\u017c tajemnego, o czym by si\u0119 dowiedzie\u0107 nie miano. Albowiem co m\u00f3wili\u015bcie w mroku, w \u015bwietle powiedziane b\u0119dzie, i co\u015bcie do ucha szeptali w komorach, na dachach og\u0142oszone b\u0119dzie.\nA powiadam Wam, przyjacio\u0142om moim: Nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy zabijaj\u0105 cia\u0142o, a potem nic wi\u0119cej uczyni\u0107 nie mog\u0105. Ale wska\u017c\u0119 wam, kogo si\u0119 l\u0119ka\u0107 macie: l\u0119kajcie si\u0119 Tego, kt\u00f3ry po \u015bmierci ma moc wrzuci\u0107 do piek\u0142a. Zaiste, m\u00f3wi\u0119 wam, tego si\u0119 l\u0119kajcie. Czy\u017c nie sprzedaje si\u0119 pi\u0119ciu wr\u00f3bli za dwa pieni\u0105\u017cki, a ani jeden z nich nie jest w zapomnieniu u Boga? Ale i w\u0142osy na g\u0142owie waszej wszystkie s\u0105 policzone. Nie l\u0119kajcie si\u0119 t\u0119dy, wi\u0119cej znaczycie przecie\u017c ni\u017c wiele wr\u00f3bli.\nA powiadam wam: Ktokolwiek wyzna\u0142by mi\u0119 przed lud\u017ami, i Syn Cz\u0142owieczy wyzna go przed Anio\u0142ami Bo\u017cymi\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "Ps 149:5-6\nNiech \u015awi\u0119ci ciesz\u0105 si\u0119 w\u015br\u00f3d chwa\u0142y, niech si\u0119 raduj\u0105 w miejscu odpocznienia, wys\u0142awianie Boga wci\u0105\u017c na ich ustach, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Dozw\u00f3l nam, Panie, pobo\u017cnie sprawowa\u0107 Twoje misteria ku czu Twoich \u015bwi\u0119tych M\u0119czennik\u00f3w: niech przez nie wzmaga si\u0119 Twoja opieka nad nami i nasza rado\u015b\u0107.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:4*\nPowiadam wam, przyjacio\u0142om moim: nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy was prze\u015bladuj\u0105.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, aby\u015bmy coraz lepiej na\u015bladowali wiar\u0119 tych, kt\u00f3rych pami\u0119\u0107 czcimy przez przyjmowanie Boskiego Sakramentu\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

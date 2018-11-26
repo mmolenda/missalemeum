@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-01-15", 
+      "description": "Przemieniaj\u0105c wod\u0119 w wino Chrystus \u00abobjawi\u0142 chwa\u0142\u0119 swoj\u0105 i uwierzyli we\u0144 uczniowie Jego\u00bb. Przez pos\u0142ug\u0119 tych uczni\u00f3w wiara w Jezusa rozszerzy\u0142a si\u0119 na ca\u0142\u0105 ziemi\u0119. Teksty dzisiejszej Mszy \u015bw. wzywaj\u0105 do uwielbienia Boga-Zbawcy.\nPrzez udzia\u0142 w godach ma\u0142\u017ce\u0144skich Pan Jezus podkre\u015bli\u0142 \u015bwi\u0119to\u015b\u0107 tego zwi\u0105zku, kt\u00f3ry jest symbolem zwi\u0105zku istniej\u0105cego mi\u0119dzy Chrystusem i Jego Ko\u015bcio\u0142em. Zwi\u0105zek ten odnawia si\u0119 i umacnia w ka\u017cdej Mszy \u015bw.\n", 
+      "tempora": null, 
+      "title": "2 Niedziela po Objawieniu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 65:4*\nOmnis terra ad\u00f3ret te, Deus, et psallat tibi: psalmum dicat n\u00f3mini tuo, Alt\u00edssime.\n*Ps 65:1-2*\nJubil\u00e1te Deo, omnis terra, psalmum d\u00edcite n\u00f3mini ejus: date gl\u00f3riam laudi ejus.\nGl\u00f3ria Patri.\nOmnis terra ad\u00f3ret te, Deus, et psallat tibi: psalmum dicat n\u00f3mini tuo, Alt\u00edssime.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui c\u0153l\u00e9stia simul et terr\u00e9na moder\u00e1ris: supplicati\u00f3nes p\u00f3puli tui clem\u00e9nter ex\u00e1udi; et pacem tuam nostris conc\u00e9de temp\u00f3ribus.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 12:6-16*\nFratres: Hab\u00e9ntes donati\u00f3nes sec\u00fandum gr\u00e1tiam, qu\u00e6 data est nobis, differ\u00e9ntes: sive proph\u00e9tiam sec\u00fandum rati\u00f3nem f\u00eddei, sive minist\u00e9rium in ministr\u00e1ndo, sive qui docet in doctr\u00edna, qui exhort\u00e1tur in exhort\u00e1ndo, qui tr\u00edbuit in simplicit\u00e1te, qui pr\u00e6est in sollicit\u00fadine, qui miser\u00e9tur in hilarit\u00e1te. Dil\u00e9ctio sine simulati\u00f3ne. Odi\u00e9ntes malum, adh\u00e6r\u00e9ntes bono: Carit\u00e1te fraternit\u00e1tis \u00ednvicem dilig\u00e9ntes: Hon\u00f3re \u00ednvicem pr\u00e6veni\u00e9ntes: Sollicit\u00fadine non pigri: Sp\u00edritu ferv\u00e9ntes: D\u00f3mino servi\u00e9ntes: Spe gaud\u00e9ntes: In tribulati\u00f3ne pati\u00e9ntes: Orati\u00f3ni inst\u00e1ntes: Necessit\u00e1tibus sanct\u00f3rum communic\u00e1ntes: Hospitalit\u00e1tem sect\u00e1ntes. Bened\u00edcite persequ\u00e9ntibus vos: bened\u00edcite, et nol\u00edte maled\u00edcere. Gaud\u00e9re cum gaud\u00e9ntibus, flere cum fl\u00e9ntibus: Id\u00edpsum \u00ednvicem senti\u00e9ntes: Non alta sapi\u00e9ntes, sed hum\u00edlibus consenti\u00e9ntes.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 106:20-21*\nMisit D\u00f3minus verbum suum, et san\u00e1vit eos: et er\u00edpuit eos de int\u00e9ritu e\u00f3rum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus: et mirab\u00edlia ejus f\u00edliis h\u00f3minum. Allel\u00faja, allel\u00faja\n*Ps 148:2*\nLaud\u00e1te D\u00f3minum, omnes Angeli ejus: laud\u00e1te eum, omnes virt\u00fates ejus. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 2:1-11*\nIn illo t\u00e9mpore: N\u00fapti\u00e6 fact\u00e6 sunt in Cana Galil\u01fd\u00e6: et erat Mater Jesu ibi. Voc\u00e1tus est autem et Jesus, et disc\u00edpuli ejus ad n\u00faptias. Et defici\u00e9nte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus min\u00edstris: Quodc\u00famque d\u00edxerit vobis, f\u00e1cite. Erant autem ibi lap\u00edde\u00e6 h\u00fddri\u00e6 sex p\u00f3sit\u00e6 sec\u00fandum purificati\u00f3nem Jud\u00e6\u00f3rum, capi\u00e9ntes s\u00edngul\u00e6 metr\u00e9tas binas vel ternas. Dicit eis Jesus: Implete h\u00fddrias aqua. Et implev\u00e9runt eas usque ad summum. Et dicit eis Jesus: Haur\u00edte nunc, et ferte architricl\u00edno. Et tul\u00e9runt. Ut autem gust\u00e1vit architricl\u00ednus aquam vinum f\u00e1ctam, et non sci\u00e9bat unde esset, min\u00edstri autem sci\u00e9bant, qui h\u00e1userant aquam: vocat sponsum architricl\u00ednus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebri\u00e1ti f\u00faerint, tunc id, quod det\u00e9rius est. Tu autem serv\u00e1sti bonum vinum usque adhuc. Hoc fecit in\u00edtium sign\u00f3rum Jesus in Cana Galil\u01fd\u00e6: et manifest\u00e1vit gl\u00f3riam suam, et credid\u00e9runt in eum disc\u00edpuli ejus.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 65:1-2; 65:16*\nJubil\u00e1te Deo, univ\u00e9rsa terra: psalmum d\u00edcite n\u00f3mini ejus: ven\u00edte et aud\u00edte, et narr\u00e1bo vobis, omnes qui tim\u00e9tis Deum, quanta fecit D\u00f3minus \u00e1nim\u00e6 me\u00e6, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Oblata, D\u00f3mine, m\u00fanera sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joann 2:7; 2:8; 2:9; 2:10-11*\nDicit D\u00f3minus: Implete h\u00fddrias aqua et ferte architricl\u00edno. Cum gust\u00e1sset architricl\u00ednus aquam vinum factam, dicit sponso: Serv\u00e1sti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram disc\u00edpulis suis.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Auge\u00e1tur in nobis, qu\u01fdsumus, D\u00f3mine, tu\u00e6 virt\u00fatis operatio: ut div\u00ednis veget\u00e1ti sacram\u00e9ntis, ad e\u00f3rum prom\u00edssa capi\u00e9nda, tuo m\u00fanere pr\u00e6par\u00e9mur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-01-15", 
-    "description": "Przemieniaj\u0105c wod\u0119 w wino Chrystus \u00abobjawi\u0142 chwa\u0142\u0119 swoj\u0105 i uwierzyli we\u0144 uczniowie Jego\u00bb. Przez pos\u0142ug\u0119 tych uczni\u00f3w wiara w Jezusa rozszerzy\u0142a si\u0119 na ca\u0142\u0105 ziemi\u0119. Teksty dzisiejszej Mszy \u015bw. wzywaj\u0105 do uwielbienia Boga-Zbawcy.\nPrzez udzia\u0142 w godach ma\u0142\u017ce\u0144skich Pan Jezus podkre\u015bli\u0142 \u015bwi\u0119to\u015b\u0107 tego zwi\u0105zku, kt\u00f3ry jest symbolem zwi\u0105zku istniej\u0105cego mi\u0119dzy Chrystusem i Jego Ko\u015bcio\u0142em. Zwi\u0105zek ten odnawia si\u0119 i umacnia w ka\u017cdej Mszy \u015bw.\n", 
-    "tempora": null, 
-    "title": "2 Niedziela po Objawieniu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 65:4*\nOmnis terra ad\u00f3ret te, Deus, et psallat tibi: psalmum dicat n\u00f3mini tuo, Alt\u00edssime.\n*Ps 65:1-2*\nJubil\u00e1te Deo, omnis terra, psalmum d\u00edcite n\u00f3mini ejus: date gl\u00f3riam laudi ejus.\nGl\u00f3ria Patri.\nOmnis terra ad\u00f3ret te, Deus, et psallat tibi: psalmum dicat n\u00f3mini tuo, Alt\u00edssime.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Omn\u00edpotens sempit\u00e9rne Deus, qui c\u0153l\u00e9stia simul et terr\u00e9na moder\u00e1ris: supplicati\u00f3nes p\u00f3puli tui clem\u00e9nter ex\u00e1udi; et pacem tuam nostris conc\u00e9de temp\u00f3ribus.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 12:6-16*\nFratres: Hab\u00e9ntes donati\u00f3nes sec\u00fandum gr\u00e1tiam, qu\u00e6 data est nobis, differ\u00e9ntes: sive proph\u00e9tiam sec\u00fandum rati\u00f3nem f\u00eddei, sive minist\u00e9rium in ministr\u00e1ndo, sive qui docet in doctr\u00edna, qui exhort\u00e1tur in exhort\u00e1ndo, qui tr\u00edbuit in simplicit\u00e1te, qui pr\u00e6est in sollicit\u00fadine, qui miser\u00e9tur in hilarit\u00e1te. Dil\u00e9ctio sine simulati\u00f3ne. Odi\u00e9ntes malum, adh\u00e6r\u00e9ntes bono: Carit\u00e1te fraternit\u00e1tis \u00ednvicem dilig\u00e9ntes: Hon\u00f3re \u00ednvicem pr\u00e6veni\u00e9ntes: Sollicit\u00fadine non pigri: Sp\u00edritu ferv\u00e9ntes: D\u00f3mino servi\u00e9ntes: Spe gaud\u00e9ntes: In tribulati\u00f3ne pati\u00e9ntes: Orati\u00f3ni inst\u00e1ntes: Necessit\u00e1tibus sanct\u00f3rum communic\u00e1ntes: Hospitalit\u00e1tem sect\u00e1ntes. Bened\u00edcite persequ\u00e9ntibus vos: bened\u00edcite, et nol\u00edte maled\u00edcere. Gaud\u00e9re cum gaud\u00e9ntibus, flere cum fl\u00e9ntibus: Id\u00edpsum \u00ednvicem senti\u00e9ntes: Non alta sapi\u00e9ntes, sed hum\u00edlibus consenti\u00e9ntes.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 106:20-21*\nMisit D\u00f3minus verbum suum, et san\u00e1vit eos: et er\u00edpuit eos de int\u00e9ritu e\u00f3rum.\nV. Confite\u00e1ntur D\u00f3mino miseric\u00f3rdi\u00e6 ejus: et mirab\u00edlia ejus f\u00edliis h\u00f3minum. Allel\u00faja, allel\u00faja\n*Ps 148:2*\nLaud\u00e1te D\u00f3minum, omnes Angeli ejus: laud\u00e1te eum, omnes virt\u00fates ejus. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 2:1-11*\nIn illo t\u00e9mpore: N\u00fapti\u00e6 fact\u00e6 sunt in Cana Galil\u01fd\u00e6: et erat Mater Jesu ibi. Voc\u00e1tus est autem et Jesus, et disc\u00edpuli ejus ad n\u00faptias. Et defici\u00e9nte vino, dicit Mater Jesu ad eum: Vinum non habent. Et dicit ei Jesus: Quid mihi et tibi est, mulier? nondum venit hora mea. Dicit Mater ejus min\u00edstris: Quodc\u00famque d\u00edxerit vobis, f\u00e1cite. Erant autem ibi lap\u00edde\u00e6 h\u00fddri\u00e6 sex p\u00f3sit\u00e6 sec\u00fandum purificati\u00f3nem Jud\u00e6\u00f3rum, capi\u00e9ntes s\u00edngul\u00e6 metr\u00e9tas binas vel ternas. Dicit eis Jesus: Implete h\u00fddrias aqua. Et implev\u00e9runt eas usque ad summum. Et dicit eis Jesus: Haur\u00edte nunc, et ferte architricl\u00edno. Et tul\u00e9runt. Ut autem gust\u00e1vit architricl\u00ednus aquam vinum f\u00e1ctam, et non sci\u00e9bat unde esset, min\u00edstri autem sci\u00e9bant, qui h\u00e1userant aquam: vocat sponsum architricl\u00ednus, et dicit ei: Omnis homo primum bonum vinum ponit: et cum inebri\u00e1ti f\u00faerint, tunc id, quod det\u00e9rius est. Tu autem serv\u00e1sti bonum vinum usque adhuc. Hoc fecit in\u00edtium sign\u00f3rum Jesus in Cana Galil\u01fd\u00e6: et manifest\u00e1vit gl\u00f3riam suam, et credid\u00e9runt in eum disc\u00edpuli ejus.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 65:1-2; 65:16*\nJubil\u00e1te Deo, univ\u00e9rsa terra: psalmum d\u00edcite n\u00f3mini ejus: ven\u00edte et aud\u00edte, et narr\u00e1bo vobis, omnes qui tim\u00e9tis Deum, quanta fecit D\u00f3minus \u00e1nim\u00e6 me\u00e6, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Oblata, D\u00f3mine, m\u00fanera sanct\u00edfica: nosque a peccat\u00f3rum nostr\u00f3rum m\u00e1culis em\u00fanda.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joann 2:7; 2:8; 2:9; 2:10-11*\nDicit D\u00f3minus: Implete h\u00fddrias aqua et ferte architricl\u00edno. Cum gust\u00e1sset architricl\u00ednus aquam vinum factam, dicit sponso: Serv\u00e1sti bonum vinum usque adhuc. Hoc signum fecit Jesus primum coram disc\u00edpulis suis.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Auge\u00e1tur in nobis, qu\u01fdsumus, D\u00f3mine, tu\u00e6 virt\u00fatis operatio: ut div\u00ednis veget\u00e1ti sacram\u00e9ntis, ad e\u00f3rum prom\u00edssa capi\u00e9nda, tuo m\u00fanere pr\u00e6par\u00e9mur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 65:4*\nNiechaj Ci\u0119 wielbi ca\u0142a ziemia i niechaj \u015bpiewa Tobie; niech imi\u0119 Twoje opiewa, o Najwy\u017cszy.\n*Ps 65:1-2*\nZ rado\u015bci\u0105 s\u0142awcie Boga wszystkie ziemie, opiewajcie chwa\u0142\u0119 Jego imienia; cze\u015b\u0107 Jemu \u015bwietn\u0105 oddajcie.\nChwa\u0142a Ojcu.\nNiechaj Ci\u0119 wielbi ca\u0142a ziemia i niechaj \u015bpiewa Tobie; niech imi\u0119 Twoje opiewa, o Najwy\u017cszy.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, kt\u00f3ry rz\u0105dzisz niebem i ziemi\u0105, wys\u0142uchaj \u0142askawie pr\u00f3\u015bb ludu Twojego i racz obdarzy\u0107 nasze czasy Twoim pokojem.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 12:6-16*\nBracia: Mamy dary wed\u0142ug u\u017cyczonej nam \u0142aski r\u00f3\u017cne: B\u0105d\u017a to proroctwo w zakresie wiary, b\u0105d\u017a to wykonywanie urz\u0119du, w nauce \u2014 dar nauczania, w upominaniu \u2014 dar strofowania. Kto rozdaje, niech to czyni w prostocie; kto jest zwierzchnikiem, niech si\u0119 przejmie trosk\u0105; kto pe\u0142ni uczynki mi\u0142osierdzia, niech to czyni z weselem. Mi\u0142o\u015b\u0107 wasza niech b\u0119dzie bez ob\u0142udy. Znienawid\u017acie z\u0142o, a przylgnijcie do dobra. Mi\u0142o\u015bci\u0105 bratersk\u0105 nawzajem si\u0119 mi\u0142uj\u0105c, w okazywaniu czci jedni drugich uprzedzaj\u0105c. W gorliwo\u015bci \u2014 nie s\u0142abn\u0105cy, duchem p\u0142omienni, Panu s\u0142u\u017c\u0105cy, raduj\u0105cy si\u0119 w nadziei, w ucisku wytrwali, w modlitwie \u2014 gorliwi. Potrzeby \u015bwi\u0119tych wspomagaj\u0105cy, go\u015bcinno\u015bci strzeg\u0105cy. B\u0142ogos\u0142awcie prze\u015bladuj\u0105cych was, b\u0142ogos\u0142awcie, a nie przeklinajcie. Weselcie si\u0119 z wesel\u0105cymi, p\u0142aczcie z p\u0142acz\u0105cymi. B\u0105d\u017acie mi\u0119dzy sob\u0105 jednomy\u015blni, nie wynosz\u0105c si\u0119 nad innych, ale si\u0119 z pokornymi zgadzaj\u0105c.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 106:20-21*\nPos\u0142a\u0142 Pan swe s\u0142owo, aby ich uleczy\u0107 i od zag\u0142ady ich wyrwa\u0107. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za Jego cuda dla syn\u00f3w ludzkich. Alleluja, alleluja.\n*Ps 148:2*\nChwalcie Pana wszyscy Jego anio\u0142owie, chwalcie Go wszystkie Jego zast\u0119py. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 2:1-11*\nOnego czasu: odbywa\u0142y si\u0119 gody weselne w Kanie Galilejskiej i by\u0142a tam Matka Jezusowa. Zaproszono te\u017c na gody Jezusa wraz z uczniami Jego. A gdy zabrak\u0142o wina, rzek\u0142a Matka Jezusa do Niego: \u00abWina nie maj\u0105\u00bb. I rzek\u0142 Jej Jezus: \u00abZostaw to mnie, niewiasto, jeszcze nie nadesz\u0142a godzina moja\u00bb. M\u00f3wi tedy Matka Jego do s\u0142ug: \u00abUczy\u0144cie cokolwiek wam powie\u00bb. A by\u0142o tam sze\u015b\u0107 st\u0105gwi kamiennych, ustawionych dla obrz\u0119dowych obmy\u0107 \u017cydowskich, z kt\u00f3rych ka\u017cda mog\u0142a pomie\u015bci\u0107 dwa lub trzy wiadra. Rzecze im Jezus: \u00abNape\u0142nijcie st\u0105gwie wod\u0105\u00bb. I nape\u0142nili je a\u017c po brzegi. I rzek\u0142 do nich Jezus: \u00abZaczerpnijcie teraz i zanie\u015bcie gospodarzowi wesela\u00bb. I zanie\u015bli. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem, a nie wiedzia\u0142 sk\u0105d by si\u0119 wzi\u0119\u0142o (lecz s\u0142udzy, kt\u00f3rzy czerpali wod\u0119 wiedzieli), przywo\u0142a\u0142 gospodarz wesela oblubie\u0144ca i rzek\u0142 do\u0144: \u00abKa\u017cdy cz\u0142owiek daje naprz\u00f3d dobre wino, a kiedy si\u0119 napij\u0105, wtedy to, kt\u00f3re jest gorsze, a ty zachowa\u0142e\u015b dobre wino a\u017c do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus w Kanie Galilejskiej i okaza\u0142 chwa\u0142\u0119 swoj\u0105, i uwierzyli we\u0144 uczniowie Jego.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 65:1-2; 65:16*\nZ rado\u015bci\u0105 s\u0142awcie Boga wszystkie ziemie, opiewajcie chwa\u0142\u0119 Jego imienia. P\u00f3jd\u017acie wszyscy, co si\u0119 Boga boicie, s\u0142uchajcie mnie, a opowiem wam jak wielkie rzeczy uczyni\u0142 Pan dla mej duszy, alleluja!", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Po\u015bwi\u0119\u0107, Panie, ofiarowane dary i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 2:7; 2:8; 2:9; 2:10-11*\nPan m\u00f3wi: \u00abNape\u0142nijcie st\u0105gwie wod\u0105 i zanie\u015bcie gospodarzowi wesela\u00bb. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem rzek\u0142 do oblubie\u0144ca: \u00abZachowa\u0142e\u015b dobre wino do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus wobec uczni\u00f3w swoich.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Niech wzro\u015bnie w nas dzia\u0142anie Twojej mocy, prosimy Ci\u0119, Panie, aby \u0142aska Twoja przygotowa\u0142a nas do otrzymania d\u00f3br wiekuistych, kt\u00f3rych zadatek otrzymali\u015bmy w Boskim Sakramencie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 65:4*\nNiechaj Ci\u0119 wielbi ca\u0142a ziemia i niechaj \u015bpiewa Tobie; niech imi\u0119 Twoje opiewa, o Najwy\u017cszy.\n*Ps 65:1-2*\nZ rado\u015bci\u0105 s\u0142awcie Boga wszystkie ziemie, opiewajcie chwa\u0142\u0119 Jego imienia; cze\u015b\u0107 Jemu \u015bwietn\u0105 oddajcie.\nChwa\u0142a Ojcu.\nNiechaj Ci\u0119 wielbi ca\u0142a ziemia i niechaj \u015bpiewa Tobie; niech imi\u0119 Twoje opiewa, o Najwy\u017cszy.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, kt\u00f3ry rz\u0105dzisz niebem i ziemi\u0105, wys\u0142uchaj \u0142askawie pr\u00f3\u015bb ludu Twojego i racz obdarzy\u0107 nasze czasy Twoim pokojem.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 12:6-16*\nBracia: Mamy dary wed\u0142ug u\u017cyczonej nam \u0142aski r\u00f3\u017cne: B\u0105d\u017a to proroctwo w zakresie wiary, b\u0105d\u017a to wykonywanie urz\u0119du, w nauce \u2014 dar nauczania, w upominaniu \u2014 dar strofowania. Kto rozdaje, niech to czyni w prostocie; kto jest zwierzchnikiem, niech si\u0119 przejmie trosk\u0105; kto pe\u0142ni uczynki mi\u0142osierdzia, niech to czyni z weselem. Mi\u0142o\u015b\u0107 wasza niech b\u0119dzie bez ob\u0142udy. Znienawid\u017acie z\u0142o, a przylgnijcie do dobra. Mi\u0142o\u015bci\u0105 bratersk\u0105 nawzajem si\u0119 mi\u0142uj\u0105c, w okazywaniu czci jedni drugich uprzedzaj\u0105c. W gorliwo\u015bci \u2014 nie s\u0142abn\u0105cy, duchem p\u0142omienni, Panu s\u0142u\u017c\u0105cy, raduj\u0105cy si\u0119 w nadziei, w ucisku wytrwali, w modlitwie \u2014 gorliwi. Potrzeby \u015bwi\u0119tych wspomagaj\u0105cy, go\u015bcinno\u015bci strzeg\u0105cy. B\u0142ogos\u0142awcie prze\u015bladuj\u0105cych was, b\u0142ogos\u0142awcie, a nie przeklinajcie. Weselcie si\u0119 z wesel\u0105cymi, p\u0142aczcie z p\u0142acz\u0105cymi. B\u0105d\u017acie mi\u0119dzy sob\u0105 jednomy\u015blni, nie wynosz\u0105c si\u0119 nad innych, ale si\u0119 z pokornymi zgadzaj\u0105c.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 106:20-21*\nPos\u0142a\u0142 Pan swe s\u0142owo, aby ich uleczy\u0107 i od zag\u0142ady ich wyrwa\u0107. Niech dzi\u0119ki czyni\u0105 Panu za Jego mi\u0142osierdzie, za Jego cuda dla syn\u00f3w ludzkich. Alleluja, alleluja.\n*Ps 148:2*\nChwalcie Pana wszyscy Jego anio\u0142owie, chwalcie Go wszystkie Jego zast\u0119py. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 2:1-11*\nOnego czasu: odbywa\u0142y si\u0119 gody weselne w Kanie Galilejskiej i by\u0142a tam Matka Jezusowa. Zaproszono te\u017c na gody Jezusa wraz z uczniami Jego. A gdy zabrak\u0142o wina, rzek\u0142a Matka Jezusa do Niego: \u00abWina nie maj\u0105\u00bb. I rzek\u0142 Jej Jezus: \u00abZostaw to mnie, niewiasto, jeszcze nie nadesz\u0142a godzina moja\u00bb. M\u00f3wi tedy Matka Jego do s\u0142ug: \u00abUczy\u0144cie cokolwiek wam powie\u00bb. A by\u0142o tam sze\u015b\u0107 st\u0105gwi kamiennych, ustawionych dla obrz\u0119dowych obmy\u0107 \u017cydowskich, z kt\u00f3rych ka\u017cda mog\u0142a pomie\u015bci\u0107 dwa lub trzy wiadra. Rzecze im Jezus: \u00abNape\u0142nijcie st\u0105gwie wod\u0105\u00bb. I nape\u0142nili je a\u017c po brzegi. I rzek\u0142 do nich Jezus: \u00abZaczerpnijcie teraz i zanie\u015bcie gospodarzowi wesela\u00bb. I zanie\u015bli. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem, a nie wiedzia\u0142 sk\u0105d by si\u0119 wzi\u0119\u0142o (lecz s\u0142udzy, kt\u00f3rzy czerpali wod\u0119 wiedzieli), przywo\u0142a\u0142 gospodarz wesela oblubie\u0144ca i rzek\u0142 do\u0144: \u00abKa\u017cdy cz\u0142owiek daje naprz\u00f3d dobre wino, a kiedy si\u0119 napij\u0105, wtedy to, kt\u00f3re jest gorsze, a ty zachowa\u0142e\u015b dobre wino a\u017c do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus w Kanie Galilejskiej i okaza\u0142 chwa\u0142\u0119 swoj\u0105, i uwierzyli we\u0144 uczniowie Jego.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 65:1-2; 65:16*\nZ rado\u015bci\u0105 s\u0142awcie Boga wszystkie ziemie, opiewajcie chwa\u0142\u0119 Jego imienia. P\u00f3jd\u017acie wszyscy, co si\u0119 Boga boicie, s\u0142uchajcie mnie, a opowiem wam jak wielkie rzeczy uczyni\u0142 Pan dla mej duszy, alleluja!", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Po\u015bwi\u0119\u0107, Panie, ofiarowane dary i oczy\u015b\u0107 nas ze zmazy naszych grzech\u00f3w.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 2:7; 2:8; 2:9; 2:10-11*\nPan m\u00f3wi: \u00abNape\u0142nijcie st\u0105gwie wod\u0105 i zanie\u015bcie gospodarzowi wesela\u00bb. A gdy gospodarz skosztowa\u0142 wody, kt\u00f3ra sta\u0142a si\u0119 winem rzek\u0142 do oblubie\u0144ca: \u00abZachowa\u0142e\u015b dobre wino do tego czasu\u00bb. Taki to pocz\u0105tek cud\u00f3w uczyni\u0142 Jezus wobec uczni\u00f3w swoich.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Niech wzro\u015bnie w nas dzia\u0142anie Twojej mocy, prosimy Ci\u0119, Panie, aby \u0142aska Twoja przygotowa\u0142a nas do otrzymania d\u00f3br wiekuistych, kt\u00f3rych zadatek otrzymali\u015bmy w Boskim Sakramencie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

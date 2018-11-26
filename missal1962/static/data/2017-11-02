@@ -1,126 +1,374 @@
-{
-  "info": {
-    "additional_info": [
-      "1 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "1 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2017-11-02", 
+      "description": "Obch\u00f3d Dnia Zadusznego zainicjowa\u0142 w 998 r. \u015bw. Odylon (\u2629 1048) - czwarty opat klasztoru benedykty\u0144skiego z Cluny (Francja). Praktyk\u0119 t\u0119 pocz\u0105tkowo przyj\u0119\u0142y klasztory benedykty\u0144skie, ale wkr\u00f3tce za ich przyk\u0142adem posz\u0142y tak\u017ce inne zakony i diecezje. W XIII w. \u015bwi\u0119to rozpowszechni\u0142o si\u0119 na ca\u0142y Ko\u015bci\u00f3\u0142 Zachodni. W wieku XIV zacz\u0119to urz\u0105dza\u0107 procesj\u0119 na cmentarz do czterech stacji. Pi\u0105ta stacja odbywa\u0142a si\u0119 ju\u017c w ko\u015bciele, po powrocie procesji z cmentarza. Przy stacjach odmawiano modlitwy za zmar\u0142ych i \u015bpiewano pie\u015bni \u017ca\u0142obne. W Polsce tradycja Dnia Zadusznego zacz\u0119\u0142a si\u0119 tworzy\u0107 ju\u017c w XII w., a z ko\u0144cem wieku XV by\u0142a znana w ca\u0142ym kraju. W 1915 r. papie\u017c Benedykt XV, na pro\u015bb\u0119 opata \u2014 prymasa benedyktyn\u00f3w zezwoli\u0142, aby tego dnia ka\u017cdy kap\u0142an m\u00f3g\u0142 odprawi\u0107 trzy Msze \u015bwi\u0119te: w intencji poleconej przez wiernych, za wszystkich wiernych zmar\u0142ych i wed\u0142ug intencji Ojca \u015awi\u0119tego.\n", 
+      "tempora": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Dzie\u0144 Zaduszny \u2013 Pierwsza Msza"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*4 Esdr 2:34; 2:35*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 64:2-3*\nTe decet hymnus, Deus, in Sion, et tibi redd\u00e9tur votum in Jer\u00fasalem: ex\u00e1udi orati\u00f3nem meam, ad te omnis caro v\u00e9niet.\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Fid\u00e9lium, Deus, \u00f3mnium C\u00f3nditor et Red\u00e9mptor: anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum remissi\u00f3nem cunct\u00f3rum tr\u00edbue peccat\u00f3rum; ut indulg\u00e9ntiam, quam semper optav\u00e9runt, piis supplicati\u00f3nibus consequ\u00e1ntur:\nQui vivis.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 15:51-57*\nFratres: Ecce, myst\u00e9rium vobis dico: Omnes quidem resurg\u00e1mus, sed non omnes immut\u00e1bimur. In mom\u00e9nto, in ictu \u00f3culi, in nov\u00edssima tuba: canet enim tuba, et m\u00f3rtui res\u00fargent incorr\u00fapti: et nos immut\u00e1bimur. Op\u00f3rtet enim corrupt\u00edbile hoc induere incorrupti\u00f3nem: et mort\u00e1le hoc ind\u00faere immortalit\u00e1tem. Cum autem mort\u00e1le hoc ind\u00faerit immortalit\u00e1tem, tunc fiet sermo, qui scriptus est: Abs\u00f3rpta est mors in vict\u00f3ria. Ubi est, mors, vict\u00f3ria tua? Ubi est, mors, st\u00edmulus tuus? St\u00edmulus autem mortis pecc\u00e1tum est: virtus vero pecc\u00e1ti lex. Deo autem gr\u00e1tias, qui dedit nobis vict\u00f3riam per D\u00f3minum nostrum Jesum Christum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*4 Esdr 2:34 et 35.*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 111:7.*\nV. In mem\u00f3ria \u00e6t\u00e9rna erit justus: ab auditi\u00f3ne mala non tim\u00e9bit.\n\n*Tractus.*\nAbs\u00f3lve, D\u00f3mine, \u00e1nimas \u00f3mnium fid\u00e9lium ab omni v\u00ednculo delict\u00f3rum.\nV. Et gr\u00e1tia tua illis succurr\u00e9nte, mere\u00e1ntur ev\u00e1dere jud\u00edcium ulti\u00f3nis.\nV. Et lucis \u00e6t\u00e9rn\u00e6 beatit\u00fadine p\u00e9rfrui.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Dies ir\u00e6, dies illa\nSolvet s\u00e6clum in fav\u00edlla:\nTeste David cum Sib\u00fdlla.\n\nQuantus tremor est fut\u00farus,\nQuando judex est vent\u00farus,\nCuncta stricte discuss\u00farus!\n\nTuba mirum spargens sonum\nPer sep\u00falcra regi\u00f3num,\nCoget omnes ante thronum.\n\nMors stup\u00e9bit et nat\u00fara,\nCum res\u00farget creat\u00fara,\nJudic\u00e1nti respons\u00fara.\n\nLiber scriptus profer\u00e9tur,\nIn quo totum contin\u00e9tur,\nUnde mundus judic\u00e9tur.\n\nJudex ergo cum sed\u00e9bit,\nQuidquid latet, appar\u00e9bit:\nNil multum reman\u00e9bit.\n\nQuid sum miser tunc dict\u00farus?\nQuem patr\u00f3num rogat\u00farus,\nCum vix justus sit sec\u00farus?\n\nRex trem\u00e9nd\u00e6 majest\u00e1tis,\nQui salv\u00e1ndos salvas gratis,\nSalva me, fons piet\u00e1tis.\n\nRecord\u00e1re, Jesu pie,\nQuod sum causa tu\u00e6 vi\u00e6:\nNe me perdas illa die.\n\nQu\u00e6rens me, sed\u00edsti lassus:\nRedem\u00edsti Crucem passus:\nTantus labor non sit cassus.\n\nJuste judex ulti\u00f3nis,\nDonum fac remissi\u00f3nis\nAnte diem rati\u00f3nis.\n\nIngem\u00edsco, tamquam reus:\nCulpa rubet vultus meus:\nSupplic\u00e1nti parce, Deus.\n\nQui Mar\u00edam absolv\u00edsti,\nEt latr\u00f3nem exaud\u00edsti,\nMihi quoque spem ded\u00edsti.\n\nPreces me\u00e6 non sunt dign\u00e6:\nSed tu bonus fac ben\u00edgne,\nNe per\u00e9nni cremer igne.\n\nInter oves locum pr\u00e6sta,\nEt ab h\u0153dis me sequ\u00e9stra,\nSt\u00e1tuens in parte dextra.\n\nConfut\u00e1tis maled\u00edctis,\nFlammis \u00e1cribus add\u00edctis:\nVoca me cum bened\u00edctis.\n\nOro supplex et accl\u00ednis,\nCor contr\u00edtum quasi cinis:\nGere curam mei finis.\n\nLacrim\u00f3sa dies illa,\nQua res\u00farget ex fav\u00edlla\nJudic\u00e1ndus homo reus.\n\nHuic ergo parce, Deus:\nPie Jesu D\u00f3mine,\nDona eis r\u00e9quiem.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 5:25-29*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Amen, amen, dico vobis, quia venit hora, et nunc est, quando m\u00f3rtui \u00e1udient vocem F\u00edlii Dei: et qui aud\u00ederint, vivent. Sicut enim Pater habet vitam in semet\u00edpso, sic dedit et F\u00edlio hab\u00e9re vitam in semet\u00edpso: et potest\u00e1tem dedit ei jud\u00edcium f\u00e1cere, quia F\u00edlius h\u00f3minis est. Nol\u00edte mir\u00e1ri hoc, quia venit hora, in qua omnes, qui in monum\u00e9ntis sunt, \u00e1udient vocem F\u00edlii Dei: et proc\u00e9dent, qui bona fec\u00e9runt, in resurrecti\u00f3nem vit\u00e6: qui vero mala eg\u00e9runt, in resurrecti\u00f3nem jud\u00edcii.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "D\u00f3mine Jesu Christe, Rex gl\u00f3ri\u00e6, l\u00edbera \u00e1nimas \u00f3mnium fid\u00e9lium defunct\u00f3rum de p\u0153nis inf\u00e9rni et de prof\u00fando lacu: l\u00edbera eas de ore le\u00f3nis, ne abs\u00f3rbeat eas t\u00e1rtarus, ne cadant in obsc\u00farum: sed s\u00edgnifer sanctus M\u00edcha\u00ebl repr\u00e6s\u00e9ntet eas in lucem sanctam:\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.\nV. H\u00f3stias et preces tibi, D\u00f3mine, laudis off\u00e9rimus: tu s\u00fascipe pro anim\u00e1bus illis, quarum h\u00f3die mem\u00f3riam f\u00e1cimus: fac eas, D\u00f3mine, de morte trans\u00edre ad vitam.\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00f3stias, qu\u01fdsumus, D\u00f3mine, quas tibi pro anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum off\u00e9rimus, propiti\u00e1tus int\u00e9nde: ut, quibus f\u00eddei christi\u00e1n\u00e6 m\u00e9ritum contul\u00edsti, dones et praemium.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Defunctorum*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. In quo nobis spes be\u00e1t\u00e6 resurrecti\u00f3nis eff\u00falsit, ut, quos contr\u00edstat certa mori\u00e9ndi cond\u00edcio, e\u00f3sdem consol\u00e9tur fut\u00far\u00e6 immortalit\u00e1tis prom\u00edssio. Tuis enim fid\u00e9libus, D\u00f3mine, vita mut\u00e1tur, non t\u00f3llitur: et, dissol\u00fata terr\u00e9stris hujus incol\u00e1tus domo, \u00e6t\u00e9rna in coelis habit\u00e1tio compar\u00e1tur. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*4 Esdr 2:35; 2:34*\nLux \u00e6t\u00e9rna l\u00faceat eis, D\u00f3mine:\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.\nV. Requiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Anim\u00e1bus, qu\u01fdsumus, D\u00f3mine, famul\u00f3rum famular\u00famque tu\u00e1rum or\u00e1tio prof\u00edciat supplic\u00e1ntium: ut eas et a pecc\u00e1tis \u00f3mnibus \u00e9xuas, et tu\u00e6 redempti\u00f3nis f\u00e1cias esse part\u00edcipes:\nQui vivis.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-11-02", 
-    "description": "Obch\u00f3d Dnia Zadusznego zainicjowa\u0142 w 998 r. \u015bw. Odylon (\u2629 1048) - czwarty opat klasztoru benedykty\u0144skiego z Cluny (Francja). Praktyk\u0119 t\u0119 pocz\u0105tkowo przyj\u0119\u0142y klasztory benedykty\u0144skie, ale wkr\u00f3tce za ich przyk\u0142adem posz\u0142y tak\u017ce inne zakony i diecezje. W XIII w. \u015bwi\u0119to rozpowszechni\u0142o si\u0119 na ca\u0142y Ko\u015bci\u00f3\u0142 Zachodni. W wieku XIV zacz\u0119to urz\u0105dza\u0107 procesj\u0119 na cmentarz do czterech stacji. Pi\u0105ta stacja odbywa\u0142a si\u0119 ju\u017c w ko\u015bciele, po powrocie procesji z cmentarza. Przy stacjach odmawiano modlitwy za zmar\u0142ych i \u015bpiewano pie\u015bni \u017ca\u0142obne. W Polsce tradycja Dnia Zadusznego zacz\u0119\u0142a si\u0119 tworzy\u0107 ju\u017c w XII w., a z ko\u0144cem wieku XV by\u0142a znana w ca\u0142ym kraju. W 1915 r. papie\u017c Benedykt XV, na pro\u015bb\u0119 opata \u2014 prymasa benedyktyn\u00f3w zezwoli\u0142, aby tego dnia ka\u017cdy kap\u0142an m\u00f3g\u0142 odprawi\u0107 trzy Msze \u015bwi\u0119te: w intencji poleconej przez wiernych, za wszystkich wiernych zmar\u0142ych i wed\u0142ug intencji Ojca \u015awi\u0119tego.\n", 
-    "tempora": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "Dzie\u0144 Zaduszny \u2013 Pierwsza Msza"
+    "proper_vernacular": [
+      {
+        "body": "*4 Ezd 2:34; 2:35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 64:2-3*\nCiebie, Bo\u017ce, przystoi wielbi\u0107 hymnem na Syjonie; Tobie dope\u0142ni\u0105 \u015blub\u00f3w w Jeruzalem; wys\u0142uchaj mojej modlitwy: do Ciebie przyjdzie ka\u017cdy cz\u0142owiek.\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Stw\u00f3rco i Odkupicielu wszystkich wiernych, udziel duszom zmar\u0142ych s\u0142ug i s\u0142u\u017cebnic Swoich odpuszczenia wszystkich grzech\u00f3w: niech przez pobo\u017cne mod\u0142y nasze dost\u0105pi\u0105 mi\u0142osierdzia, kt\u00f3rego zawsze pragn\u0119\u0142y:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 15:51-57*\nBracia: Oto wam powiadam tajemnic\u0119: Nie wszyscy wprawdzie za\u015bniemy, ale wszyscy b\u0119dziemy przemienieni. Nagle, w oka mgnieniu, na odg\u0142os tr\u0105by ostatecznej, albowiem zabrzmi tr\u0105ba i umarli powstan\u0105 nieska\u017ceni, a my b\u0119dziemy przemienieni. Bo to, co skazitelne, musi przyoblec si\u0119 w nieskazitelno\u015b\u0107 i to, co \u015bmiertelne, przyoblec si\u0119 w nie\u015bmiertelno\u015b\u0107. A gdy to, co \u015bmiertelne, przyoblecze si\u0119 w nie\u015bmiertelno\u015b\u0107, tedy wype\u0142ni si\u0119 s\u0142owo, kt\u00f3re jest napisane: Poch\u0142on\u0119\u0142o \u015bmier\u0107 zwyci\u0119stwo. Gdzie\u017c jest zwyci\u0119stwo twe, o \u015bmierci? Gdzie jest, o \u015bmierci, o\u015bcie\u0144 tw\u00f3j? A o\u015bcieniem \u015bmierci jest grzech, si\u0142\u0105 za\u015b grzechu jest Prawo. A Bogu dzi\u0119ki, \u017ce nam da\u0142 zwyci\u0119stwo przez Pana naszego Jezusa Chrystusa.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:34-35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 111:7*\nV. W wiecznej pami\u0119ci b\u0119dzie sprawiedliwy: nie b\u0119dzie si\u0119 l\u0119ka\u0142 smutnej nowiny.\n\n*Tractus*\nUwolnij, Panie, dusze wszystkich wiernych zmar\u0142ych od wszelkich wi\u0119z\u00f3w grzechowych.\nV. A przy pomocy Twojej \u0142aski niechaj unikn\u0105 strasznego wyroku zatracenia.\nV. I niech za\u017cywaj\u0105 szcz\u0119\u015bcia wiecznej \u015bwiat\u0142o\u015bci.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "W gniewu dzie\u0144, w t\u0119 pomsty chwil\u0119,\n\u015awiat w popielnym legnie pyle:\nZwa\u017c Dawida i Sybill\u0119.\n\nJaki\u017c b\u0119dzie p\u0142acz i \u0142kanie,\nGdy dzie\u0142 naszych s\u0119dzia stanie,\nOdpowiedzie\u0107 ka\u017c\u0105c za nie.\n\nTr\u0105ba gro\u017anym zabrzmi tonem\nNad grobami \u015bpi\u0105cych zgonem,\nWszystkich stawi nas przed tronem.\n\n\u015amier\u0107 z natur\u0105 si\u0119 zadziwi,\nGdy umarli wstan\u0105 \u017cywi,\nWin brzemieniem nieszcz\u0119\u015bliwi.\n\nKsi\u0119gi si\u0119 otworz\u0105 karty,\nGdzie spis grzech\u00f3w jest zawarty,\nZa co \u015bwiat karania warty.\n\nKiedy s\u0119dzia wi\u0119c zasi\u0119dzie,\nWszystko tajne jawnym b\u0119dzie,\nGniewu d\u0142o\u0144 dosi\u0119\u017ce wsz\u0119dzie.\n\nC\u00f3\u017c mam, n\u0119dzarz, ku obronie,\nCzyj\u0105 piecz\u0105 si\u0119 zas\u0142oni\u0119,\nGdy i \u015bwi\u0119ty zadr\u017cy w \u0142onie?\n\nPanie w grozie swej bezmierny,\nZbawisz z \u0142aski lud Tw\u00f3j wierny,\nZbaw mnie, zdroju mi\u0142osierny.\n\nRacz pami\u0119ta\u0107, Jezu drogi,\n\u017be\u015b wzi\u0105\u0142 dla mnie \u017cywot srogi,\nNie gub mnie w dzie\u0144 straszny trwogi.\n\nD\u0142ugo\u015b szuka\u0142 mnie znu\u017cony,\nZbawi\u0142 krzy\u017cem um\u0119czony,\nNiech ten trud nie b\u0119dzie p\u0142ony.\n\nS\u0119dzio pomsty sprawiedliwy,\nB\u0105d\u017a mym grzechom lito\u015bciwy,\nZanim przyjdzie s\u0105d straszliwy.\n\nJ\u0119cz\u0105c, pomn\u0105c win bezdro\u017ce,\nWstydem me oblicze gorze,\nSzcz\u0119d\u017a mnie, b\u0142agam, Panie Bo\u017ce.\n\nTy co\u015b Marii grzech wybaczy\u0142\nI wys\u0142ucha\u0107 \u0142otra raczy\u0142,\nNie pozwolisz, bym zrozpaczy\u0142.\n\nCho\u0107 niegodne me b\u0142aganie,\nNie daj mi, dobroci Panie,\nW ognia wieczne wpa\u015b\u0107 otch\u0142anie.\n\nDaj mi mieszka\u0107 w owiec gronie,\nZ dala koz\u0142\u00f3w, przy Twym tronie\nPostaw mnie po prawej stronie.\n\nGdy u\u015bmierzysz pot\u0119pionych,\nSrogim \u017carom przeznaczonych,\nWe\u017a mnie do b\u0142ogos\u0142awionych.\n\nB\u0142agam kornie bij\u0105c czo\u0142em,\nZ sercem, co si\u0119 zda popio\u0142em,\nWspom\u00f3\u017c mnie nad \u015bmierci do\u0142em.\n\nO dniu j\u0119ku, o dniu szlochu,\nKiedy z popielnego prochu\nCz\u0142owiek winny na s\u0105d stanie.\n\nOszcz\u0119d\u017a go, o dobry Bo\u017ce,\nJezu nasz, i w zgonu porze\nDaj mu wieczne spoczywanie.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 5:25-29*\nOnego czasu: Rzek\u0142 Jezus rzeszom \u017cydowskim: Zaprawd\u0119, zaprawd\u0119 powiadam wam, \u017ce zbli\u017ca si\u0119 godzina, a nawet ju\u017c nadesz\u0142a, gdy umarli us\u0142ysz\u0105 g\u0142os Syna Bo\u017cego, a kt\u00f3ry us\u0142ysz\u0105, \u017cy\u0107 b\u0119d\u0105. Jako bowiem Ojciec ma \u017cycie sam w sobie, tak da\u0142 i Synowi, aby mia\u0142 \u017cycie w sobie samym. I da\u0142 w\u0142adz\u0119 czyni\u0107 s\u0105d, bo Synem Cz\u0142owieczym jest. Nie dziwcie si\u0119 temu, bo nadchodzi godzina, w kt\u00f3rej wszyscy, co s\u0105 w grobach, us\u0142ysz\u0105 g\u0142os Syna Bo\u017cego. I ci, kt\u00f3rzy dobrze czynili, wyjd\u0105 na zmartwychwstanie \u017cycia, a kt\u00f3rzy \u017ale czynili, na zmartwychwstanie s\u0105du.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, Kr\u00f3lu chwa\u0142y, zachowaj dusze wszystkich wiernych zmar\u0142ych od kar piekielnych i g\u0142\u0119bokiej czelu\u015bci. Wybaw je z lwiej paszcz\u0119ki, niech ich nie poch\u0142onie piek\u0142o, niech nie wpadaj\u0105 w ciemno\u015bci. Lecz chor\u0105\u017cy \u015bwi\u0119ty Micha\u0142 niech je stawi w \u015bwiat\u0142o\u015bci \u015bwi\u0119tej:\n* Kt\u00f3r\u0105 niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.\nV. Sk\u0142adamy Ci, Panie, ofiary i mod\u0142y pochwalne, a Ty je przyjmij za te dusze, kt\u00f3re dzisiaj wspominamy. Spraw, o Panie, niech przejd\u0105 ze \u015bmierci do \u017cycia.\n* Kt\u00f3re niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, wejrzyj \u0142askawie na ofiary, kt\u00f3re Ci sk\u0142adamy za dusze s\u0142ug i s\u0142u\u017cebnic Twoich, i obdarz nagrod\u0105 tych, kt\u00f3rym da\u0142e\u015b zas\u0142ug\u0119 wiary chrze\u015bcija\u0144skiej. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, kt\u00f3ry z Tob\u0105 \u017cyje i kr\u00f3luje, w jedno\u015bci Ducha \u015awi\u0119tego, B\u00f3g przez wszystkie wieki wiek\u00f3w. Amen.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Zmar\u0142ych*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego.\nW Nim to zab\u0142ys\u0142a dla nas nadzieja chwalebnego zmartwychwstania, tak \u017ce ci, kt\u00f3rych zasmuca nieunikniona konieczno\u015b\u0107 \u015bmierci, znajduj\u0105 pociech\u0119 w obietnicy przysz\u0142ej nie\u015bmiertelno\u015bci. Albowiem \u017cycie Twych wiernych, o Panie, odmienia si\u0119, ale si\u0119 nie ko\u0144czy i po rozpadni\u0119ciu si\u0119 domu tego ziemskiego pobytu przygotowane jest dla nich w niebie wieczne mieszkanie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:35; 2:34*\n\u015awiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci, o Panie:\n* W\u015br\u00f3d \u015awi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.\nV. Wieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n* W\u015br\u00f3d \u015bwi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech pokorna modlitwa pomocn\u0105 b\u0119dzie duszom s\u0142ug i s\u0142u\u017cebnic Twoich; racz je oczy\u015bci\u0107 z wszelkich grzech\u00f3w i dopu\u015bci\u0107 do udzia\u0142u w owocach Twojego odkupienia:\nKt\u00f3ry \u017cyjesz.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
   }, 
-  "proper_latin": [
-    {
-      "body": "*4 Esdr 2:34; 2:35*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 64:2-3*\nTe decet hymnus, Deus, in Sion, et tibi redd\u00e9tur votum in Jer\u00fasalem: ex\u00e1udi orati\u00f3nem meam, ad te omnis caro v\u00e9niet.\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.", 
-      "id": "Introitus", 
-      "label": "Introitus"
+  {
+    "info": {
+      "additional_info": [], 
+      "date": "2017-11-02", 
+      "description": "", 
+      "tempora": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Dzie\u0144 Zaduszny \u2013 Druga Msza"
     }, 
-    {
-      "body": "Fid\u00e9lium, Deus, \u00f3mnium C\u00f3nditor et Red\u00e9mptor: anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum remissi\u00f3nem cunct\u00f3rum tr\u00edbue peccat\u00f3rum; ut indulg\u00e9ntiam, quam semper optav\u00e9runt, piis supplicati\u00f3nibus consequ\u00e1ntur:\nQui vivis.", 
-      "id": "Oratio", 
-      "label": "Oratio"
+    "proper_latin": [
+      {
+        "body": "*4 Esdr 2:34; 2:35*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 64:2-3*\nTe decet hymnus, Deus, in Sion, et tibi redd\u00e9tur votum in Jer\u00fasalem: ex\u00e1udi orati\u00f3nem meam, ad te omnis caro v\u00e9niet.\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, indulgenti\u00e1rum D\u00f3mine: da anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum refrig\u00e9rii sedem, qui\u00e9tis beatit\u00fadinem et l\u00faminis clarit\u00e1tem.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Machab\u00e6\u00f3rum.\n*2 Mach 12:43-46*\nIn di\u00e9bus illis: Vir fort\u00edssimus Judas, facta collati\u00f3ne, du\u00f3decim m\u00edlia drachmas arg\u00e9nti misit Jeros\u00f3lymam, off\u00e9rri pro pecc\u00e1tis mortu\u00f3rum sacrif\u00edcium, bene et religi\u00f3se de resurrecti\u00f3ne c\u00f3gitans, nisi enim eos, qui cec\u00edderant, resurrect\u00faros sper\u00e1ret, sup\u00e9rfluum vider\u00e9tur et vanum or\u00e1re pro m\u00f3rtuis: et quia consider\u00e1bat, quod hi, qui cum piet\u00e1te dormiti\u00f3nem acc\u00e9perant, \u00f3ptimam hab\u00e9rent rep\u00f3sitam gr\u00e1tiam. Sancta ergo et sal\u00fabris est cogit\u00e1tio pro defunctis exor\u00e1re, ut a pecc\u00e1tis solv\u00e1ntur.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*4 Esdr 2:34 et 35.*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 111:7.*\nV. In mem\u00f3ria \u00e6t\u00e9rna erit justus: ab auditi\u00f3ne mala non tim\u00e9bit.\n\n*Tractus.*\nAbs\u00f3lve, D\u00f3mine, \u00e1nimas \u00f3mnium fid\u00e9lium ab omni v\u00ednculo delict\u00f3rum.\nV. Et gr\u00e1tia tua illis succurr\u00e9nte, mere\u00e1ntur ev\u00e1dere jud\u00edcium ulti\u00f3nis.\nV. Et lucis \u00e6t\u00e9rn\u00e6 beatit\u00fadine p\u00e9rfrui.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Dies ir\u00e6, dies illa\nSolvet s\u00e6clum in fav\u00edlla:\nTeste David cum Sib\u00fdlla.\n\nQuantus tremor est fut\u00farus,\nQuando judex est vent\u00farus,\nCuncta stricte discuss\u00farus!\n\nTuba mirum spargens sonum\nPer sep\u00falcra regi\u00f3num,\nCoget omnes ante thronum.\n\nMors stup\u00e9bit et nat\u00fara,\nCum res\u00farget creat\u00fara,\nJudic\u00e1nti respons\u00fara.\n\nLiber scriptus profer\u00e9tur,\nIn quo totum contin\u00e9tur,\nUnde mundus judic\u00e9tur.\n\nJudex ergo cum sed\u00e9bit,\nQuidquid latet, appar\u00e9bit:\nNil multum reman\u00e9bit.\n\nQuid sum miser tunc dict\u00farus?\nQuem patr\u00f3num rogat\u00farus,\nCum vix justus sit sec\u00farus?\n\nRex trem\u00e9nd\u00e6 majest\u00e1tis,\nQui salv\u00e1ndos salvas gratis,\nSalva me, fons piet\u00e1tis.\n\nRecord\u00e1re, Jesu pie,\nQuod sum causa tu\u00e6 vi\u00e6:\nNe me perdas illa die.\n\nQu\u00e6rens me, sed\u00edsti lassus:\nRedem\u00edsti Crucem passus:\nTantus labor non sit cassus.\n\nJuste judex ulti\u00f3nis,\nDonum fac remissi\u00f3nis\nAnte diem rati\u00f3nis.\n\nIngem\u00edsco, tamquam reus:\nCulpa rubet vultus meus:\nSupplic\u00e1nti parce, Deus.\n\nQui Mar\u00edam absolv\u00edsti,\nEt latr\u00f3nem exaud\u00edsti,\nMihi quoque spem ded\u00edsti.\n\nPreces me\u00e6 non sunt dign\u00e6:\nSed tu bonus fac ben\u00edgne,\nNe per\u00e9nni cremer igne.\n\nInter oves locum pr\u00e6sta,\nEt ab h\u0153dis me sequ\u00e9stra,\nSt\u00e1tuens in parte dextra.\n\nConfut\u00e1tis maled\u00edctis,\nFlammis \u00e1cribus add\u00edctis:\nVoca me cum bened\u00edctis.\n\nOro supplex et accl\u00ednis,\nCor contr\u00edtum quasi cinis:\nGere curam mei finis.\n\nLacrim\u00f3sa dies illa,\nQua res\u00farget ex fav\u00edlla\nJudic\u00e1ndus homo reus.\n\nHuic ergo parce, Deus:\nPie Jesu D\u00f3mine,\nDona eis r\u00e9quiem.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 6:37-40*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Omne, quod dat mihi Pater, ad me v\u00e9niet: et eum, qui venit ad me, non ej\u00edciam foras: quia desc\u00e9ndi de c\u00e6lo, non ut f\u00e1ciam volunt\u00e1tem meam, sed volunt\u00e1tem ejus, qui misit me. H\u00e6c est autem vol\u00fantas ejus, qui misit me, Patris: ut omne, quod dedit mihi, non perdam ex eo, sed res\u00fascitem illud in nov\u00edssimo die. H\u00e6c est autem vol\u00fantas Patris mei, qui misit me: ut omnis, qui videt F\u00edlium et credit in eum, h\u00e1beat vitam \u00e6t\u00e9rnam, et ego resuscit\u00e1bo eum in nov\u00edssimo die.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "D\u00f3mine Jesu Christe, Rex gl\u00f3ri\u00e6, l\u00edbera \u00e1nimas \u00f3mnium fid\u00e9lium defunct\u00f3rum de p\u0153nis inf\u00e9rni et de prof\u00fando lacu: l\u00edbera eas de ore le\u00f3nis, ne abs\u00f3rbeat eas t\u00e1rtarus, ne cadant in obsc\u00farum: sed s\u00edgnifer sanctus M\u00edcha\u00ebl repr\u00e6s\u00e9ntet eas in lucem sanctam:\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.\nV. H\u00f3stias et preces tibi, D\u00f3mine, laudis off\u00e9rimus: tu s\u00fascipe pro anim\u00e1bus illis, quarum h\u00f3die mem\u00f3riam f\u00e1cimus: fac eas, D\u00f3mine, de morte trans\u00edre ad vitam.\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Propiti\u00e1re, D\u00f3mine, supplicati\u00f3nibus nostris, pro anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum, pro quibus tibi off\u00e9rimus sacrif\u00edcium laudis; ut eas Sanct\u00f3rum tu\u00f3rum cons\u00f3rtio soci\u00e1re dign\u00e9ris.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Defunctorum*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. In quo nobis spes be\u00e1t\u00e6 resurrecti\u00f3nis eff\u00falsit, ut, quos contr\u00edstat certa mori\u00e9ndi cond\u00edcio, e\u00f3sdem consol\u00e9tur fut\u00far\u00e6 immortalit\u00e1tis prom\u00edssio. Tuis enim fid\u00e9libus, D\u00f3mine, vita mut\u00e1tur, non t\u00f3llitur: et, dissol\u00fata terr\u00e9stris hujus incol\u00e1tus domo, \u00e6t\u00e9rna in coelis habit\u00e1tio compar\u00e1tur. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*4 Esdr 2:35; 2:34*\nLux \u00e6t\u00e9rna l\u00faceat eis, D\u00f3mine:\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.\nV. Requiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, D\u00f3mine: ut \u00e1nim\u00e6 famul\u00f3rum famular\u00famque tu\u00e1rum, his purg\u00e1t\u00e6 sacrif\u00edciis, indulg\u00e9ntiam p\u00e1riter et r\u00e9quiem c\u00e1piant sempit\u00e9rnam.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*4 Ezd 2:34; 2:35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 64:2-3*\nCiebie, Bo\u017ce, przystoi wielbi\u0107 hymnem na Syjonie; Tobie dope\u0142ni\u0105 \u015blub\u00f3w w Jeruzalem; wys\u0142uchaj mojej modlitwy: do Ciebie przyjdzie ka\u017cdy cz\u0142owiek.\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Panie mi\u0142osierny, daj duszom s\u0142ug i s\u0142u\u017cebnic Twoich miejsce och\u0142ody, b\u0142ogos\u0142awiony pok\u00f3j i jasn\u0105 \u015bwiat\u0142o\u015b\u0107.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Machabejskiej.\n*2 Mch 12:43-46*\nW one dni: Bardzo dzielny m\u0105\u017c Judas, zarz\u0105dziwszy sk\u0142adk\u0119, pos\u0142a\u0142 dwana\u015bcie tysi\u0119cy drachm srebra do Jeruzalem, aby z\u0142o\u017cono ofiar\u0119 za grzechy zmar\u0142ych, dobrze i pobo\u017cnie o zmartwychwstaniu my\u015bl\u0105c (bo gdyby si\u0119 nie spodziewa\u0142, \u017ce oni pobici zmartwychwstan\u0105, zdawa\u0142oby si\u0119 rzecz\u0105 niepotrzebn\u0105 i pr\u00f3\u017cn\u0105 modli\u0107 si\u0119 za umar\u0142ych) i poniewa\u017c uwa\u017ca\u0142, \u017ce ci, kt\u00f3rzy pobo\u017cnie zasn\u0119li, bardzo dobr\u0105 \u0142ask\u0119 mieli zachowan\u0105. A tak \u015bwi\u0119ta i zbawienna jest my\u015bl modli\u0107 si\u0119 za umar\u0142ych, aby byli od grzech\u00f3w rozwi\u0105zani.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:34-35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 111:7*\nV. W wiecznej pami\u0119ci b\u0119dzie sprawiedliwy: nie b\u0119dzie si\u0119 l\u0119ka\u0142 smutnej nowiny.\n\n*Tractus*\nUwolnij, Panie, dusze wszystkich wiernych zmar\u0142ych od wszelkich wi\u0119z\u00f3w grzechowych.\nV. A przy pomocy Twojej \u0142aski niechaj unikn\u0105 strasznego wyroku zatracenia.\nV. I niech za\u017cywaj\u0105 szcz\u0119\u015bcia wiecznej \u015bwiat\u0142o\u015bci.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "W gniewu dzie\u0144, w t\u0119 pomsty chwil\u0119,\n\u015awiat w popielnym legnie pyle:\nZwa\u017c Dawida i Sybill\u0119.\n\nJaki\u017c b\u0119dzie p\u0142acz i \u0142kanie,\nGdy dzie\u0142 naszych s\u0119dzia stanie,\nOdpowiedzie\u0107 ka\u017c\u0105c za nie.\n\nTr\u0105ba gro\u017anym zabrzmi tonem\nNad grobami \u015bpi\u0105cych zgonem,\nWszystkich stawi nas przed tronem.\n\n\u015amier\u0107 z natur\u0105 si\u0119 zadziwi,\nGdy umarli wstan\u0105 \u017cywi,\nWin brzemieniem nieszcz\u0119\u015bliwi.\n\nKsi\u0119gi si\u0119 otworz\u0105 karty,\nGdzie spis grzech\u00f3w jest zawarty,\nZa co \u015bwiat karania warty.\n\nKiedy s\u0119dzia wi\u0119c zasi\u0119dzie,\nWszystko tajne jawnym b\u0119dzie,\nGniewu d\u0142o\u0144 dosi\u0119\u017ce wsz\u0119dzie.\n\nC\u00f3\u017c mam, n\u0119dzarz, ku obronie,\nCzyj\u0105 piecz\u0105 si\u0119 zas\u0142oni\u0119,\nGdy i \u015bwi\u0119ty zadr\u017cy w \u0142onie?\n\nPanie w grozie swej bezmierny,\nZbawisz z \u0142aski lud Tw\u00f3j wierny,\nZbaw mnie, zdroju mi\u0142osierny.\n\nRacz pami\u0119ta\u0107, Jezu drogi,\n\u017be\u015b wzi\u0105\u0142 dla mnie \u017cywot srogi,\nNie gub mnie w dzie\u0144 straszny trwogi.\n\nD\u0142ugo\u015b szuka\u0142 mnie znu\u017cony,\nZbawi\u0142 krzy\u017cem um\u0119czony,\nNiech ten trud nie b\u0119dzie p\u0142ony.\n\nS\u0119dzio pomsty sprawiedliwy,\nB\u0105d\u017a mym grzechom lito\u015bciwy,\nZanim przyjdzie s\u0105d straszliwy.\n\nJ\u0119cz\u0105c, pomn\u0105c win bezdro\u017ce,\nWstydem me oblicze gorze,\nSzcz\u0119d\u017a mnie, b\u0142agam, Panie Bo\u017ce.\n\nTy co\u015b Marii grzech wybaczy\u0142\nI wys\u0142ucha\u0107 \u0142otra raczy\u0142,\nNie pozwolisz, bym zrozpaczy\u0142.\n\nCho\u0107 niegodne me b\u0142aganie,\nNie daj mi, dobroci Panie,\nW ognia wieczne wpa\u015b\u0107 otch\u0142anie.\n\nDaj mi mieszka\u0107 w owiec gronie,\nZ dala koz\u0142\u00f3w, przy Twym tronie\nPostaw mnie po prawej stronie.\n\nGdy u\u015bmierzysz pot\u0119pionych,\nSrogim \u017carom przeznaczonych,\nWe\u017a mnie do b\u0142ogos\u0142awionych.\n\nB\u0142agam kornie bij\u0105c czo\u0142em,\nZ sercem, co si\u0119 zda popio\u0142em,\nWspom\u00f3\u017c mnie nad \u015bmierci do\u0142em.\n\nO dniu j\u0119ku, o dniu szlochu,\nKiedy z popielnego prochu\nCz\u0142owiek winny na s\u0105d stanie.\n\nOszcz\u0119d\u017a go, o dobry Bo\u017ce,\nJezu nasz, i w zgonu porze\nDaj mu wieczne spoczywanie.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 6:37-40*\nOnego czasu: Rzek\u0142 Jezus rzeszom \u017cydowskim: \u00abWszystko, cokolwiek daje mi Ojciec, przyjdzie do mnie, a tego, kt\u00f3ry do mnie przychodzi, nie wyrzuc\u0119 precz. Bo zst\u0105pi\u0142em z nieba, nie \u017cebym czyni\u0142 wol\u0119 moj\u0105, ale wol\u0119 Tego, kt\u00f3ry mi\u0119 pos\u0142a\u0142.\nA to jest wol\u0105 Ojca, kt\u00f3ry mi\u0119 pos\u0142a\u0142, abym nic nie straci\u0142 z tego, co mi da\u0142, ale \u017cebym to wskrzesi\u0142 w dzie\u0144 ostateczny. To jest bowiem wol\u0105 Ojca mego, kt\u00f3ry mi\u0119 pos\u0142a\u0142, aby ka\u017cdy, kto spogl\u0105da na Syna i wierzy we\u0144, mia\u0142 \u017cycie wieczne, a ja go wskrzesz\u0119 w dniu ostatecznym\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, Kr\u00f3lu chwa\u0142y, zachowaj dusze wszystkich wiernych zmar\u0142ych od kar piekielnych i g\u0142\u0119bokiej czelu\u015bci. Wybaw je z lwiej paszcz\u0119ki, niech ich nie poch\u0142onie piek\u0142o, niech nie wpadaj\u0105 w ciemno\u015bci. Lecz chor\u0105\u017cy \u015bwi\u0119ty Micha\u0142 niech je stawi w \u015bwiat\u0142o\u015bci \u015bwi\u0119tej:\n* Kt\u00f3r\u0105 niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.\nV. Sk\u0142adamy Ci, Panie, ofiary i mod\u0142y pochwalne, a Ty je przyjmij za te dusze, kt\u00f3re dzisiaj wspominamy. Spraw, o Panie, niech przejd\u0105 ze \u015bmierci do \u017cycia.\n* Kt\u00f3re niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, wys\u0142uchaj \u0142askawie pr\u00f3\u015bb naszych za dusze s\u0142ug i s\u0142u\u017cebnic Twoich, za kt\u00f3re sk\u0142adamy Tobie ofiar\u0119 uwielbienia, i racz je dopu\u015bci\u0107 do spo\u0142eczno\u015bci z Twoimi \u015bwi\u0119tymi.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Zmar\u0142ych*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego.\nW Nim to zab\u0142ys\u0142a dla nas nadzieja chwalebnego zmartwychwstania, tak \u017ce ci, kt\u00f3rych zasmuca nieunikniona konieczno\u015b\u0107 \u015bmierci, znajduj\u0105 pociech\u0119 w obietnicy przysz\u0142ej nie\u015bmiertelno\u015bci. Albowiem \u017cycie Twych wiernych, o Panie, odmienia si\u0119, ale si\u0119 nie ko\u0144czy i po rozpadni\u0119ciu si\u0119 domu tego ziemskiego pobytu przygotowane jest dla nich w niebie wieczne mieszkanie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:35; 2:34*\n\u015awiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci, o Panie:\n* W\u015br\u00f3d \u015awi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.\nV. Wieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n* W\u015br\u00f3d \u015bwi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Spraw, prosimy Ci\u0119, Panie, aby dusze s\u0142ug i s\u0142u\u017cebnic Twoich, oczyszczone przez t\u0119 ofiar\u0119, otrzyma\u0142y przebaczenie i wieczny odpoczynek.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }, 
+  {
+    "info": {
+      "additional_info": [], 
+      "date": "2017-11-02", 
+      "description": "", 
+      "tempora": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "Dzie\u0144 Zaduszny \u2013 Trzecia Msza"
     }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 15:51-57*\nFratres: Ecce, myst\u00e9rium vobis dico: Omnes quidem resurg\u00e1mus, sed non omnes immut\u00e1bimur. In mom\u00e9nto, in ictu \u00f3culi, in nov\u00edssima tuba: canet enim tuba, et m\u00f3rtui res\u00fargent incorr\u00fapti: et nos immut\u00e1bimur. Op\u00f3rtet enim corrupt\u00edbile hoc induere incorrupti\u00f3nem: et mort\u00e1le hoc ind\u00faere immortalit\u00e1tem. Cum autem mort\u00e1le hoc ind\u00faerit immortalit\u00e1tem, tunc fiet sermo, qui scriptus est: Abs\u00f3rpta est mors in vict\u00f3ria. Ubi est, mors, vict\u00f3ria tua? Ubi est, mors, st\u00edmulus tuus? St\u00edmulus autem mortis pecc\u00e1tum est: virtus vero pecc\u00e1ti lex. Deo autem gr\u00e1tias, qui dedit nobis vict\u00f3riam per D\u00f3minum nostrum Jesum Christum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*4 Esdr 2:34 et 35.*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 111:7.*\nV. In mem\u00f3ria \u00e6t\u00e9rna erit justus: ab auditi\u00f3ne mala non tim\u00e9bit.\n\n*Tractus.*\nAbs\u00f3lve, D\u00f3mine, \u00e1nimas \u00f3mnium fid\u00e9lium ab omni v\u00ednculo delict\u00f3rum.\nV. Et gr\u00e1tia tua illis succurr\u00e9nte, mere\u00e1ntur ev\u00e1dere jud\u00edcium ulti\u00f3nis.\nV. Et lucis \u00e6t\u00e9rn\u00e6 beatit\u00fadine p\u00e9rfrui.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Dies ir\u00e6, dies illa\nSolvet s\u00e6clum in fav\u00edlla:\nTeste David cum Sib\u00fdlla.\n\nQuantus tremor est fut\u00farus,\nQuando judex est vent\u00farus,\nCuncta stricte discuss\u00farus!\n\nTuba mirum spargens sonum\nPer sep\u00falcra regi\u00f3num,\nCoget omnes ante thronum.\n\nMors stup\u00e9bit et nat\u00fara,\nCum res\u00farget creat\u00fara,\nJudic\u00e1nti respons\u00fara.\n\nLiber scriptus profer\u00e9tur,\nIn quo totum contin\u00e9tur,\nUnde mundus judic\u00e9tur.\n\nJudex ergo cum sed\u00e9bit,\nQuidquid latet, appar\u00e9bit:\nNil multum reman\u00e9bit.\n\nQuid sum miser tunc dict\u00farus?\nQuem patr\u00f3num rogat\u00farus,\nCum vix justus sit sec\u00farus?\n\nRex trem\u00e9nd\u00e6 majest\u00e1tis,\nQui salv\u00e1ndos salvas gratis,\nSalva me, fons piet\u00e1tis.\n\nRecord\u00e1re, Jesu pie,\nQuod sum causa tu\u00e6 vi\u00e6:\nNe me perdas illa die.\n\nQu\u00e6rens me, sed\u00edsti lassus:\nRedem\u00edsti Crucem passus:\nTantus labor non sit cassus.\n\nJuste judex ulti\u00f3nis,\nDonum fac remissi\u00f3nis\nAnte diem rati\u00f3nis.\n\nIngem\u00edsco, tamquam reus:\nCulpa rubet vultus meus:\nSupplic\u00e1nti parce, Deus.\n\nQui Mar\u00edam absolv\u00edsti,\nEt latr\u00f3nem exaud\u00edsti,\nMihi quoque spem ded\u00edsti.\n\nPreces me\u00e6 non sunt dign\u00e6:\nSed tu bonus fac ben\u00edgne,\nNe per\u00e9nni cremer igne.\n\nInter oves locum pr\u00e6sta,\nEt ab h\u0153dis me sequ\u00e9stra,\nSt\u00e1tuens in parte dextra.\n\nConfut\u00e1tis maled\u00edctis,\nFlammis \u00e1cribus add\u00edctis:\nVoca me cum bened\u00edctis.\n\nOro supplex et accl\u00ednis,\nCor contr\u00edtum quasi cinis:\nGere curam mei finis.\n\nLacrim\u00f3sa dies illa,\nQua res\u00farget ex fav\u00edlla\nJudic\u00e1ndus homo reus.\n\nHuic ergo parce, Deus:\nPie Jesu D\u00f3mine,\nDona eis r\u00e9quiem.\nAmen.", 
-      "id": "Sequentia", 
-      "label": "Sequentia"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 5:25-29*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Amen, amen, dico vobis, quia venit hora, et nunc est, quando m\u00f3rtui \u00e1udient vocem F\u00edlii Dei: et qui aud\u00ederint, vivent. Sicut enim Pater habet vitam in semet\u00edpso, sic dedit et F\u00edlio hab\u00e9re vitam in semet\u00edpso: et potest\u00e1tem dedit ei jud\u00edcium f\u00e1cere, quia F\u00edlius h\u00f3minis est. Nol\u00edte mir\u00e1ri hoc, quia venit hora, in qua omnes, qui in monum\u00e9ntis sunt, \u00e1udient vocem F\u00edlii Dei: et proc\u00e9dent, qui bona fec\u00e9runt, in resurrecti\u00f3nem vit\u00e6: qui vero mala eg\u00e9runt, in resurrecti\u00f3nem jud\u00edcii.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "D\u00f3mine Jesu Christe, Rex gl\u00f3ri\u00e6, l\u00edbera \u00e1nimas \u00f3mnium fid\u00e9lium defunct\u00f3rum de p\u0153nis inf\u00e9rni et de prof\u00fando lacu: l\u00edbera eas de ore le\u00f3nis, ne abs\u00f3rbeat eas t\u00e1rtarus, ne cadant in obsc\u00farum: sed s\u00edgnifer sanctus M\u00edcha\u00ebl repr\u00e6s\u00e9ntet eas in lucem sanctam:\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.\nV. H\u00f3stias et preces tibi, D\u00f3mine, laudis off\u00e9rimus: tu s\u00fascipe pro anim\u00e1bus illis, quarum h\u00f3die mem\u00f3riam f\u00e1cimus: fac eas, D\u00f3mine, de morte trans\u00edre ad vitam.\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00f3stias, qu\u01fdsumus, D\u00f3mine, quas tibi pro anim\u00e1bus famul\u00f3rum famular\u00famque tu\u00e1rum off\u00e9rimus, propiti\u00e1tus int\u00e9nde: ut, quibus f\u00eddei christi\u00e1n\u00e6 m\u00e9ritum contul\u00edsti, dones et praemium.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Defunctorum*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. In quo nobis spes be\u00e1t\u00e6 resurrecti\u00f3nis eff\u00falsit, ut, quos contr\u00edstat certa mori\u00e9ndi cond\u00edcio, e\u00f3sdem consol\u00e9tur fut\u00far\u00e6 immortalit\u00e1tis prom\u00edssio. Tuis enim fid\u00e9libus, D\u00f3mine, vita mut\u00e1tur, non t\u00f3llitur: et, dissol\u00fata terr\u00e9stris hujus incol\u00e1tus domo, \u00e6t\u00e9rna in coelis habit\u00e1tio compar\u00e1tur. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*4 Esdr 2:35; 2:34*\nLux \u00e6t\u00e9rna l\u00faceat eis, D\u00f3mine:\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.\nV. Requiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Anim\u00e1bus, qu\u01fdsumus, D\u00f3mine, famul\u00f3rum famular\u00famque tu\u00e1rum or\u00e1tio prof\u00edciat supplic\u00e1ntium: ut eas et a pecc\u00e1tis \u00f3mnibus \u00e9xuas, et tu\u00e6 redempti\u00f3nis f\u00e1cias esse part\u00edcipes:\nQui vivis.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*4 Ezd 2:34; 2:35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 64:2-3*\nCiebie, Bo\u017ce, przystoi wielbi\u0107 hymnem na Syjonie; Tobie dope\u0142ni\u0105 \u015blub\u00f3w w Jeruzalem; wys\u0142uchaj mojej modlitwy: do Ciebie przyjdzie ka\u017cdy cz\u0142owiek.\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Stw\u00f3rco i Odkupicielu wszystkich wiernych, udziel duszom zmar\u0142ych s\u0142ug i s\u0142u\u017cebnic Swoich odpuszczenia wszystkich grzech\u00f3w: niech przez pobo\u017cne mod\u0142y nasze dost\u0105pi\u0105 mi\u0142osierdzia, kt\u00f3rego zawsze pragn\u0119\u0142y:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 15:51-57*\nBracia: Oto wam powiadam tajemnic\u0119: Nie wszyscy wprawdzie za\u015bniemy, ale wszyscy b\u0119dziemy przemienieni. Nagle, w oka mgnieniu, na odg\u0142os tr\u0105by ostatecznej, albowiem zabrzmi tr\u0105ba i umarli powstan\u0105 nieska\u017ceni, a my b\u0119dziemy przemienieni. Bo to, co skazitelne, musi przyoblec si\u0119 w nieskazitelno\u015b\u0107 i to, co \u015bmiertelne, przyoblec si\u0119 w nie\u015bmiertelno\u015b\u0107. A gdy to, co \u015bmiertelne, przyoblecze si\u0119 w nie\u015bmiertelno\u015b\u0107, tedy wype\u0142ni si\u0119 s\u0142owo, kt\u00f3re jest napisane: Poch\u0142on\u0119\u0142o \u015bmier\u0107 zwyci\u0119stwo. Gdzie\u017c jest zwyci\u0119stwo twe, o \u015bmierci? Gdzie jest, o \u015bmierci, o\u015bcie\u0144 tw\u00f3j? A o\u015bcieniem \u015bmierci jest grzech, si\u0142\u0105 za\u015b grzechu jest Prawo. A Bogu dzi\u0119ki, \u017ce nam da\u0142 zwyci\u0119stwo przez Pana naszego Jezusa Chrystusa.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*4 Ezdr 2:34-35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 111:7*\nV. W wiecznej pami\u0119ci b\u0119dzie sprawiedliwy: nie b\u0119dzie si\u0119 l\u0119ka\u0142 smutnej nowiny.\n\n*Tractus*\nUwolnij, Panie, dusze wszystkich wiernych zmar\u0142ych od wszelkich wi\u0119z\u00f3w grzechowych.\nV. A przy pomocy Twojej \u0142aski niechaj unikn\u0105 strasznego wyroku zatracenia.\nV. I niech za\u017cywaj\u0105 szcz\u0119\u015bcia wiecznej \u015bwiat\u0142o\u015bci.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "W gniewu dzie\u0144, w t\u0119 pomsty chwil\u0119,\n\u015awiat w popielnym legnie pyle:\nZwa\u017c Dawida i Sybill\u0119.\n\nJaki\u017c b\u0119dzie p\u0142acz i \u0142kanie,\nGdy dzie\u0142 naszych s\u0119dzia stanie,\nOdpowiedzie\u0107 ka\u017c\u0105c za nie.\n\nTr\u0105ba gro\u017anym zabrzmi tonem\nNad grobami \u015bpi\u0105cych zgonem,\nWszystkich stawi nas przed tronem.\n\n\u015amier\u0107 z natur\u0105 si\u0119 zadziwi,\nGdy umarli wstan\u0105 \u017cywi,\nWin brzemieniem nieszcz\u0119\u015bliwi.\n\nKsi\u0119gi si\u0119 otworz\u0105 karty,\nGdzie spis grzech\u00f3w jest zawarty,\nZa co \u015bwiat karania warty.\n\nKiedy s\u0119dzia wi\u0119c zasi\u0119dzie,\nWszystko tajne jawnym b\u0119dzie,\nGniewu d\u0142o\u0144 dosi\u0119\u017ce wsz\u0119dzie.\n\nC\u00f3\u017c mam, n\u0119dzarz, ku obronie,\nCzyj\u0105 piecz\u0105 si\u0119 zas\u0142oni\u0119,\nGdy i \u015bwi\u0119ty zadr\u017cy w \u0142onie?\n\nPanie w grozie swej bezmierny,\nZbawisz z \u0142aski lud Tw\u00f3j wierny,\nZbaw mnie, zdroju mi\u0142osierny.\n\nRacz pami\u0119ta\u0107, Jezu drogi,\n\u017be\u015b wzi\u0105\u0142 dla mnie \u017cywot srogi,\nNie gub mnie w dzie\u0144 straszny trwogi.\n\nD\u0142ugo\u015b szuka\u0142 mnie znu\u017cony,\nZbawi\u0142 krzy\u017cem um\u0119czony,\nNiech ten trud nie b\u0119dzie p\u0142ony.\n\nS\u0119dzio pomsty sprawiedliwy,\nB\u0105d\u017a mym grzechom lito\u015bciwy,\nZanim przyjdzie s\u0105d straszliwy.\n\nJ\u0119cz\u0105c, pomn\u0105c win bezdro\u017ce,\nWstydem me oblicze gorze,\nSzcz\u0119d\u017a mnie, b\u0142agam, Panie Bo\u017ce.\n\nTy co\u015b Marii grzech wybaczy\u0142\nI wys\u0142ucha\u0107 \u0142otra raczy\u0142,\nNie pozwolisz, bym zrozpaczy\u0142.\n\nCho\u0107 niegodne me b\u0142aganie,\nNie daj mi, dobroci Panie,\nW ognia wieczne wpa\u015b\u0107 otch\u0142anie.\n\nDaj mi mieszka\u0107 w owiec gronie,\nZ dala koz\u0142\u00f3w, przy Twym tronie\nPostaw mnie po prawej stronie.\n\nGdy u\u015bmierzysz pot\u0119pionych,\nSrogim \u017carom przeznaczonych,\nWe\u017a mnie do b\u0142ogos\u0142awionych.\n\nB\u0142agam kornie bij\u0105c czo\u0142em,\nZ sercem, co si\u0119 zda popio\u0142em,\nWspom\u00f3\u017c mnie nad \u015bmierci do\u0142em.\n\nO dniu j\u0119ku, o dniu szlochu,\nKiedy z popielnego prochu\nCz\u0142owiek winny na s\u0105d stanie.\n\nOszcz\u0119d\u017a go, o dobry Bo\u017ce,\nJezu nasz, i w zgonu porze\nDaj mu wieczne spoczywanie.\nAmen.", 
-      "id": "Sequentia", 
-      "label": "Sekwencja"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 5:25-29*\nOnego czasu: Rzek\u0142 Jezus rzeszom \u017cydowskim: Zaprawd\u0119, zaprawd\u0119 powiadam wam, \u017ce zbli\u017ca si\u0119 godzina, a nawet ju\u017c nadesz\u0142a, gdy umarli us\u0142ysz\u0105 g\u0142os Syna Bo\u017cego, a kt\u00f3ry us\u0142ysz\u0105, \u017cy\u0107 b\u0119d\u0105. Jako bowiem Ojciec ma \u017cycie sam w sobie, tak da\u0142 i Synowi, aby mia\u0142 \u017cycie w sobie samym. I da\u0142 w\u0142adz\u0119 czyni\u0107 s\u0105d, bo Synem Cz\u0142owieczym jest. Nie dziwcie si\u0119 temu, bo nadchodzi godzina, w kt\u00f3rej wszyscy, co s\u0105 w grobach, us\u0142ysz\u0105 g\u0142os Syna Bo\u017cego. I ci, kt\u00f3rzy dobrze czynili, wyjd\u0105 na zmartwychwstanie \u017cycia, a kt\u00f3rzy \u017ale czynili, na zmartwychwstanie s\u0105du.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "Panie Jezu Chryste, Kr\u00f3lu chwa\u0142y, zachowaj dusze wszystkich wiernych zmar\u0142ych od kar piekielnych i g\u0142\u0119bokiej czelu\u015bci. Wybaw je z lwiej paszcz\u0119ki, niech ich nie poch\u0142onie piek\u0142o, niech nie wpadaj\u0105 w ciemno\u015bci. Lecz chor\u0105\u017cy \u015bwi\u0119ty Micha\u0142 niech je stawi w \u015bwiat\u0142o\u015bci \u015bwi\u0119tej:\n* Kt\u00f3r\u0105 niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.\nV. Sk\u0142adamy Ci, Panie, ofiary i mod\u0142y pochwalne, a Ty je przyjmij za te dusze, kt\u00f3re dzisiaj wspominamy. Spraw, o Panie, niech przejd\u0105 ze \u015bmierci do \u017cycia.\n* Kt\u00f3re niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, wejrzyj \u0142askawie na ofiary, kt\u00f3re Ci sk\u0142adamy za dusze s\u0142ug i s\u0142u\u017cebnic Twoich, i obdarz nagrod\u0105 tych, kt\u00f3rym da\u0142e\u015b zas\u0142ug\u0119 wiary chrze\u015bcija\u0144skiej. Przez Pana naszego Jezusa Chrystusa, Syna Twojego, kt\u00f3ry z Tob\u0105 \u017cyje i kr\u00f3luje, w jedno\u015bci Ducha \u015awi\u0119tego, B\u00f3g przez wszystkie wieki wiek\u00f3w. Amen.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Zmar\u0142ych*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego.\nW Nim to zab\u0142ys\u0142a dla nas nadzieja chwalebnego zmartwychwstania, tak \u017ce ci, kt\u00f3rych zasmuca nieunikniona konieczno\u015b\u0107 \u015bmierci, znajduj\u0105 pociech\u0119 w obietnicy przysz\u0142ej nie\u015bmiertelno\u015bci. Albowiem \u017cycie Twych wiernych, o Panie, odmienia si\u0119, ale si\u0119 nie ko\u0144czy i po rozpadni\u0119ciu si\u0119 domu tego ziemskiego pobytu przygotowane jest dla nich w niebie wieczne mieszkanie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*4 Ezdr 2:35; 2:34*\n\u015awiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci, o Panie:\n* W\u015br\u00f3d \u015awi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.\nV. Wieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n* W\u015br\u00f3d \u015bwi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech pokorna modlitwa pomocn\u0105 b\u0119dzie duszom s\u0142ug i s\u0142u\u017cebnic Twoich; racz je oczy\u015bci\u0107 z wszelkich grzech\u00f3w i dopu\u015bci\u0107 do udzia\u0142u w owocach Twojego odkupienia:\nKt\u00f3ry \u017cyjesz.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_latin": [
+      {
+        "body": "*4 Esdr 2:34; 2:35*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 64:2-3*\nTe decet hymnus, Deus, in Sion, et tibi redd\u00e9tur votum in Jer\u00fasalem: ex\u00e1udi orati\u00f3nem meam, ad te omnis caro v\u00e9niet.\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, v\u00e9ni\u00e6 larg\u00edtor et hum\u00e1n\u00e6 sal\u00fatis am\u00e1tor: qu\u01fdsumus clem\u00e9ntiam tuam; ut nostr\u00e6 congregati\u00f3nis fratres, prop\u00ednquos et benefact\u00f3res, qui ex hoc saeculo transi\u00e9runt, be\u00e1ta Mar\u00eda semper V\u00edrgine interced\u00e9nte cum \u00f3mnibus Sanctis tuis, ad perp\u00e9tu\u00e6 beatit\u00fadinis cons\u00f3rtium perven\u00edre conc\u00e9das.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Apocal\u00fdpsis be\u00e1ti Jo\u00e1nnis Ap\u00f3stoli\n*Apoc 14:13*\nIn di\u00e9bus illis: Aud\u00edvi vocem de coelo, dic\u00e9ntem mihi: Scribe: Be\u00e1ti m\u00f3rtui, qui in D\u00f3mino mori\u00fantur. Amodo jam dicit Sp\u00edritus, ut requi\u00e9scant a lab\u00f3ribus suis: \u00f3pera enim ill\u00f3rum sequ\u00fantur illos.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*4 Esdr 2:34 et 35.*\nR\u00e9quiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n*Ps 111:7.*\nV. In mem\u00f3ria \u00e6t\u00e9rna erit justus: ab auditi\u00f3ne mala non tim\u00e9bit.\n\n*Tractus.*\nAbs\u00f3lve, D\u00f3mine, \u00e1nimas \u00f3mnium fid\u00e9lium ab omni v\u00ednculo delict\u00f3rum.\nV. Et gr\u00e1tia tua illis succurr\u00e9nte, mere\u00e1ntur ev\u00e1dere jud\u00edcium ulti\u00f3nis.\nV. Et lucis \u00e6t\u00e9rn\u00e6 beatit\u00fadine p\u00e9rfrui.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Dies ir\u00e6, dies illa\nSolvet s\u00e6clum in fav\u00edlla:\nTeste David cum Sib\u00fdlla.\n\nQuantus tremor est fut\u00farus,\nQuando judex est vent\u00farus,\nCuncta stricte discuss\u00farus!\n\nTuba mirum spargens sonum\nPer sep\u00falcra regi\u00f3num,\nCoget omnes ante thronum.\n\nMors stup\u00e9bit et nat\u00fara,\nCum res\u00farget creat\u00fara,\nJudic\u00e1nti respons\u00fara.\n\nLiber scriptus profer\u00e9tur,\nIn quo totum contin\u00e9tur,\nUnde mundus judic\u00e9tur.\n\nJudex ergo cum sed\u00e9bit,\nQuidquid latet, appar\u00e9bit:\nNil multum reman\u00e9bit.\n\nQuid sum miser tunc dict\u00farus?\nQuem patr\u00f3num rogat\u00farus,\nCum vix justus sit sec\u00farus?\n\nRex trem\u00e9nd\u00e6 majest\u00e1tis,\nQui salv\u00e1ndos salvas gratis,\nSalva me, fons piet\u00e1tis.\n\nRecord\u00e1re, Jesu pie,\nQuod sum causa tu\u00e6 vi\u00e6:\nNe me perdas illa die.\n\nQu\u00e6rens me, sed\u00edsti lassus:\nRedem\u00edsti Crucem passus:\nTantus labor non sit cassus.\n\nJuste judex ulti\u00f3nis,\nDonum fac remissi\u00f3nis\nAnte diem rati\u00f3nis.\n\nIngem\u00edsco, tamquam reus:\nCulpa rubet vultus meus:\nSupplic\u00e1nti parce, Deus.\n\nQui Mar\u00edam absolv\u00edsti,\nEt latr\u00f3nem exaud\u00edsti,\nMihi quoque spem ded\u00edsti.\n\nPreces me\u00e6 non sunt dign\u00e6:\nSed tu bonus fac ben\u00edgne,\nNe per\u00e9nni cremer igne.\n\nInter oves locum pr\u00e6sta,\nEt ab h\u0153dis me sequ\u00e9stra,\nSt\u00e1tuens in parte dextra.\n\nConfut\u00e1tis maled\u00edctis,\nFlammis \u00e1cribus add\u00edctis:\nVoca me cum bened\u00edctis.\n\nOro supplex et accl\u00ednis,\nCor contr\u00edtum quasi cinis:\nGere curam mei finis.\n\nLacrim\u00f3sa dies illa,\nQua res\u00farget ex fav\u00edlla\nJudic\u00e1ndus homo reus.\n\nHuic ergo parce, Deus:\nPie Jesu D\u00f3mine,\nDona eis r\u00e9quiem.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 6:51-55*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Ego sum panis vivus, qui de coelo desc\u00e9ndi. Si quis manduc\u00e1verit ex hoc pane, vivet in \u00e6t\u00e9rnum: et panis, quem ego dabo, caro mea est pro mundi vita. Litig\u00e1bant ergo Judaei ad \u00ednvicem, dic\u00e9ntes: Qu\u00f3modo potest hic nobis carnem suam dare ad manduc\u00e1ndum? Dixit ergo eis Jesus: Amen, amen, dico vobis: nisi manducav\u00e9ritis carnem F\u00edlii h\u00f3minis et bib\u00e9ritis ejus s\u00e1nguinem, non hab\u00e9bitis vitam in vobis. Qui m\u00e1nducat meam carnem et bibit meum s\u00e1nguinem, habet vitam \u00e6t\u00e9rnam: et ego resuscit\u00e1bo eum in nov\u00edssimo die.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "D\u00f3mine Jesu Christe, Rex gl\u00f3ri\u00e6, l\u00edbera \u00e1nimas \u00f3mnium fid\u00e9lium defunct\u00f3rum de p\u0153nis inf\u00e9rni et de prof\u00fando lacu: l\u00edbera eas de ore le\u00f3nis, ne abs\u00f3rbeat eas t\u00e1rtarus, ne cadant in obsc\u00farum: sed s\u00edgnifer sanctus M\u00edcha\u00ebl repr\u00e6s\u00e9ntet eas in lucem sanctam:\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.\nV. H\u00f3stias et preces tibi, D\u00f3mine, laudis off\u00e9rimus: tu s\u00fascipe pro anim\u00e1bus illis, quarum h\u00f3die mem\u00f3riam f\u00e1cimus: fac eas, D\u00f3mine, de morte trans\u00edre ad vitam.\n* Quam olim Abrah\u00e6 promis\u00edsti et s\u00e9mini ejus.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Deus, cujus miseric\u00f3rdi\u00e6 non est n\u00famerus, s\u00fascipe prop\u00edtius preces humilit\u00e1tis nostr\u00e6: et anim\u00e1bus fratrum, propinqu\u00f3rum et benefact\u00f3rum nostr\u00f3rum, quibus tui n\u00f3minis ded\u00edsti confessi\u00f3nem, per h\u00e6c sacram\u00e9nta sal\u00fatis nostr\u00e6, cunct\u00f3rum remissi\u00f3nem tr\u00edbue peccat\u00f3rum.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Defunctorum*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. In quo nobis spes be\u00e1t\u00e6 resurrecti\u00f3nis eff\u00falsit, ut, quos contr\u00edstat certa mori\u00e9ndi cond\u00edcio, e\u00f3sdem consol\u00e9tur fut\u00far\u00e6 immortalit\u00e1tis prom\u00edssio. Tuis enim fid\u00e9libus, D\u00f3mine, vita mut\u00e1tur, non t\u00f3llitur: et, dissol\u00fata terr\u00e9stris hujus incol\u00e1tus domo, \u00e6t\u00e9rna in coelis habit\u00e1tio compar\u00e1tur. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*4 Esdr 2:35; 2:34*\nLux \u00e6t\u00e9rna l\u00faceat eis, D\u00f3mine:\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.\nV. Requiem \u00e6t\u00e9rnam dona eis, D\u00f3mine: et lux perp\u00e9tua l\u00faceat eis.\n* Cum Sanctis tuis in \u00e6t\u00e9rnum: quia pius es.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens et mis\u00e9ricors Deus: ut \u00e1nim\u00e6 fratrum, propinqu\u00f3rum et benefact\u00f3rum nostr\u00f3rum, pro quibus hoc sacrif\u00edcium laudis tu\u00e6 obt\u00falimus majest\u00e1ti; per hujus virt\u00fatem sacram\u00e9nti a pecc\u00e1tis \u00f3mnibus expi\u00e1t\u00e6, lucis perp\u00e9tu\u00e6, te miser\u00e1nte, rec\u00edpiant beatit\u00fadinem.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
+    ], 
+    "proper_vernacular": [
+      {
+        "body": "*4 Ezd 2:34; 2:35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 64:2-3*\nCiebie, Bo\u017ce, przystoi wielbi\u0107 hymnem na Syjonie; Tobie dope\u0142ni\u0105 \u015blub\u00f3w w Jeruzalem; wys\u0142uchaj mojej modlitwy: do Ciebie przyjdzie ka\u017cdy cz\u0142owiek.\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, dawco przebaczenia i mi\u0142o\u015bniku zbawienia ludzkiego, prosimy Tw\u0105 dobro\u0107: spraw, by dusze s\u0142ug i s\u0142u\u017cebnic Twoich, kt\u00f3re zesz\u0142y z tego \u015bwiata, za przyczyn\u0105 Naj\u015bwi\u0119tszej Maryi zawsze Dziewicy i wszystkich \u015awi\u0119tych Twoich osi\u0105gn\u0119\u0142y udzia\u0142 w wiecznej szcz\u0119\u015bliwo\u015bci.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi Apokalipsy \u015bwi\u0119tego Jana Aposto\u0142a.\n*Ap 14:13*\nW one dni: Us\u0142ysza\u0142em g\u0142os z nieba m\u00f3wi\u0105cy do mnie: Napisz, b\u0142ogos\u0142awieni umarli, kt\u00f3rzy umieraj\u0105 w Panu. Odt\u0105d ju\u017c, m\u00f3wi Duch, niech odpoczywaj\u0105 od prac swoich, albowiem uczynki ich id\u0105 za nimi.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:34-35*\nWieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n*Ps 111:7*\nV. W wiecznej pami\u0119ci b\u0119dzie sprawiedliwy: nie b\u0119dzie si\u0119 l\u0119ka\u0142 smutnej nowiny.\n\n*Tractus*\nUwolnij, Panie, dusze wszystkich wiernych zmar\u0142ych od wszelkich wi\u0119z\u00f3w grzechowych.\nV. A przy pomocy Twojej \u0142aski niechaj unikn\u0105 strasznego wyroku zatracenia.\nV. I niech za\u017cywaj\u0105 szcz\u0119\u015bcia wiecznej \u015bwiat\u0142o\u015bci.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "W gniewu dzie\u0144, w t\u0119 pomsty chwil\u0119,\n\u015awiat w popielnym legnie pyle:\nZwa\u017c Dawida i Sybill\u0119.\n\nJaki\u017c b\u0119dzie p\u0142acz i \u0142kanie,\nGdy dzie\u0142 naszych s\u0119dzia stanie,\nOdpowiedzie\u0107 ka\u017c\u0105c za nie.\n\nTr\u0105ba gro\u017anym zabrzmi tonem\nNad grobami \u015bpi\u0105cych zgonem,\nWszystkich stawi nas przed tronem.\n\n\u015amier\u0107 z natur\u0105 si\u0119 zadziwi,\nGdy umarli wstan\u0105 \u017cywi,\nWin brzemieniem nieszcz\u0119\u015bliwi.\n\nKsi\u0119gi si\u0119 otworz\u0105 karty,\nGdzie spis grzech\u00f3w jest zawarty,\nZa co \u015bwiat karania warty.\n\nKiedy s\u0119dzia wi\u0119c zasi\u0119dzie,\nWszystko tajne jawnym b\u0119dzie,\nGniewu d\u0142o\u0144 dosi\u0119\u017ce wsz\u0119dzie.\n\nC\u00f3\u017c mam, n\u0119dzarz, ku obronie,\nCzyj\u0105 piecz\u0105 si\u0119 zas\u0142oni\u0119,\nGdy i \u015bwi\u0119ty zadr\u017cy w \u0142onie?\n\nPanie w grozie swej bezmierny,\nZbawisz z \u0142aski lud Tw\u00f3j wierny,\nZbaw mnie, zdroju mi\u0142osierny.\n\nRacz pami\u0119ta\u0107, Jezu drogi,\n\u017be\u015b wzi\u0105\u0142 dla mnie \u017cywot srogi,\nNie gub mnie w dzie\u0144 straszny trwogi.\n\nD\u0142ugo\u015b szuka\u0142 mnie znu\u017cony,\nZbawi\u0142 krzy\u017cem um\u0119czony,\nNiech ten trud nie b\u0119dzie p\u0142ony.\n\nS\u0119dzio pomsty sprawiedliwy,\nB\u0105d\u017a mym grzechom lito\u015bciwy,\nZanim przyjdzie s\u0105d straszliwy.\n\nJ\u0119cz\u0105c, pomn\u0105c win bezdro\u017ce,\nWstydem me oblicze gorze,\nSzcz\u0119d\u017a mnie, b\u0142agam, Panie Bo\u017ce.\n\nTy co\u015b Marii grzech wybaczy\u0142\nI wys\u0142ucha\u0107 \u0142otra raczy\u0142,\nNie pozwolisz, bym zrozpaczy\u0142.\n\nCho\u0107 niegodne me b\u0142aganie,\nNie daj mi, dobroci Panie,\nW ognia wieczne wpa\u015b\u0107 otch\u0142anie.\n\nDaj mi mieszka\u0107 w owiec gronie,\nZ dala koz\u0142\u00f3w, przy Twym tronie\nPostaw mnie po prawej stronie.\n\nGdy u\u015bmierzysz pot\u0119pionych,\nSrogim \u017carom przeznaczonych,\nWe\u017a mnie do b\u0142ogos\u0142awionych.\n\nB\u0142agam kornie bij\u0105c czo\u0142em,\nZ sercem, co si\u0119 zda popio\u0142em,\nWspom\u00f3\u017c mnie nad \u015bmierci do\u0142em.\n\nO dniu j\u0119ku, o dniu szlochu,\nKiedy z popielnego prochu\nCz\u0142owiek winny na s\u0105d stanie.\n\nOszcz\u0119d\u017a go, o dobry Bo\u017ce,\nJezu nasz, i w zgonu porze\nDaj mu wieczne spoczywanie.\nAmen.", 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 6:51-55*\nOnego czasu: Rzek\u0142 Jezus rzeszom \u017cydowskim: \u00abJam jest chleb \u017cywy, kt\u00f3ry z nieba zst\u0105pi\u0142; je\u015bliby kto po\u017cywa\u0142 tego chleba, \u017cy\u0107 b\u0119dzie na wieki, a chlebem, kt\u00f3ry ja mu dam, jest cia\u0142o moje na \u017cycie \u015bwiata\u00bb.\nSprzeczali si\u0119 tedy \u017cydzi mi\u0119dzy sob\u0105, m\u00f3wi\u0105c: \u00abJak\u017ce mo\u017ce On nam da\u0107 cia\u0142o swoje na pokarm?\u00bb\nRzek\u0142 im przeto Jezus: \u00abZaprawd\u0119, zaprawd\u0119 powiadam wam: Je\u015bliby\u015bcie nie po\u017cywali cia\u0142a Syna Cz\u0142owieczego i nie pili krwi Jego, nie b\u0119dziecie mie\u0107 \u017cycia w sobie. Kto po\u017cywa cia\u0142o moje, i pije moj\u0105 krew, ma \u017cycie wieczne, a ja go wskrzesz\u0119 w dniu ostatecznym\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "Panie Jezu Chryste, Kr\u00f3lu chwa\u0142y, zachowaj dusze wszystkich wiernych zmar\u0142ych od kar piekielnych i g\u0142\u0119bokiej czelu\u015bci. Wybaw je z lwiej paszcz\u0119ki, niech ich nie poch\u0142onie piek\u0142o, niech nie wpadaj\u0105 w ciemno\u015bci. Lecz chor\u0105\u017cy \u015bwi\u0119ty Micha\u0142 niech je stawi w \u015bwiat\u0142o\u015bci \u015bwi\u0119tej:\n* Kt\u00f3r\u0105 niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.\nV. Sk\u0142adamy Ci, Panie, ofiary i mod\u0142y pochwalne, a Ty je przyjmij za te dusze, kt\u00f3re dzisiaj wspominamy. Spraw, o Panie, niech przejd\u0105 ze \u015bmierci do \u017cycia.\n* Kt\u00f3re niegdy\u015b obieca\u0142e\u015b Abrahamowi i jego potomstwu.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3rego mi\u0142osierdzie nie ma granic, przyjmij \u0142askawie pokorne b\u0142agania nasze i przez ten zbawienny Sakrament udziel odpuszczenia wszystkich grzech\u00f3w duszom wszystkich wiernych zmar\u0142ych, kt\u00f3rym da\u0142e\u015b wyznawa\u0107 \u015bwi\u0119te imi\u0119 Twoje.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Zmar\u0142ych*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego.\nW Nim to zab\u0142ys\u0142a dla nas nadzieja chwalebnego zmartwychwstania, tak \u017ce ci, kt\u00f3rych zasmuca nieunikniona konieczno\u015b\u0107 \u015bmierci, znajduj\u0105 pociech\u0119 w obietnicy przysz\u0142ej nie\u015bmiertelno\u015bci. Albowiem \u017cycie Twych wiernych, o Panie, odmienia si\u0119, ale si\u0119 nie ko\u0144czy i po rozpadni\u0119ciu si\u0119 domu tego ziemskiego pobytu przygotowane jest dla nich w niebie wieczne mieszkanie.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*4 Ezdr 2:35; 2:34*\n\u015awiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci, o Panie:\n* W\u015br\u00f3d \u015awi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.\nV. Wieczny odpoczynek racz im da\u0107, Panie, a \u015bwiat\u0142o\u015b\u0107 wiekuista niechaj im \u015bwieci.\n* W\u015br\u00f3d \u015bwi\u0119tych Twoich na wieki, bo jeste\u015b pe\u0142en dobroci.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, spraw, aby dusze s\u0142ug i s\u0142u\u017cebnic Twoich, za kt\u00f3re z\u0142o\u017cyli\u015bmy majestatowi Twemu t\u0119 ofiar\u0119 uwielbienia, oczyszczone moc\u0105 tego Sakramentu ze wszystkich grzech\u00f3w, otrzyma\u0142y z mi\u0142osierdzia Twego szcz\u0119\u015bcie w \u015bwiat\u0142o\u015bci wiekuistej.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

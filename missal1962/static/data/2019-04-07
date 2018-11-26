@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Piotra", 
-      "1 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Piotra", 
+        "1 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2019-04-07", 
+      "description": "Jezus Chrystus, Arcykap\u0142an Nowego Testamentu, gotuje si\u0119 do z\u0142o\u017cenia ofiary krzy\u017cowej. Antyfona na wej\u015bcie, gradua\u0142, traktus i antyfona na komuni\u0119 \u2014 to Jego modlitwa w obliczu nadchodz\u0105cej m\u0119ki. W lekcji \u015bw. Pawe\u0142 poucza nas o charakterze \u015bmierci Zbawiciela, kt\u00f3ra jest jedyn\u0105 i wieczyst\u0105 ofiar\u0105 Nowego Testamentu. W ewangelii s\u0142yszymy z ust Jezusa wyznanie B\u00f3stwa. Podobne wyznanie powt\u00f3rzone w uroczystej formie przed Sanhedrynem sta\u0142o si\u0119 bezpo\u015brednim powodem skazania Zbawiciela na \u015bmier\u0107.\n", 
+      "tempora": null, 
+      "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 42:1-2.*\nJ\u00fadica me, Deus, et disc\u00e9rne causam meam de gente non sancta: ab homine in\u00edquo et dol\u00f3so \u00e9ripe me: quia tu es Deus meus et fortit\u00fado mea.\n*Ps 42:3*\nEm\u00edtte lucem tuam et verit\u00e1tem tuam: ipsa me de dux\u00e9runt et addux\u00e9runt in montem sanctum tuum et in tabern\u00e1cula tua.\nJ\u00fadica me, Deus, et disc\u00e9rne causam meam de gente non sancta: ab homine in\u00edquo et dol\u00f3so \u00e9ripe me: quia tu es Deus meus et fortit\u00fado mea.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus, familiam tuam prop\u00edtius r\u00e9spice: ut, te largi\u00e9nte, reg\u00e1tur in c\u00f3rpore; et, te serv\u00e1nte, custodi\u00e1tur in mente.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebraeos.\n*Hebr 9:11-15*\nFatres: Christus ass\u00edstens Pontifex futur\u00f3rum bon\u00f3rum, per \u00e1mplius et perf\u00e9ctius tabern\u00e1culum non manuf\u00e1ctum, id est, non hujus creati\u00f3nis: neque per s\u00e1nguinem hirc\u00f3rum aut vitul\u00f3rum, sed per pr\u00f3prium s\u00e1nguinem intro\u00edvit semel in Sancta, \u00e6t\u00e9rna redempti\u00f3ne inv\u00e9nta. Si enim sanguis hirc\u00f3rum et taur\u00f3rum, et cinis v\u00edtul\u00e6 asp\u00e9rsus, inquin\u00e1tos sanct\u00edficat ad emundati\u00f3nem carnis: quanto magis sanguis Christi, qui per Sp\u00edritum Sanctum semet\u00edpsum \u00f3btulit immacul\u00e1tum Deo, emund\u00e1bit consci\u00e9ntiam nostram ab op\u00e9ribus m\u00f3rtuis, ad servi\u00e9ndum Deo viv\u00e9nti? Et ideo novi Testam\u00e9nti medi\u00e1tor est: ut, morte interced\u00e9nte, in redempti\u00f3nem e\u00e1rum pr\u00e6varicati\u00f3num, qu\u00e6 erant sub pri\u00f3ri Testam\u00e9nto, repromissi\u00f3nem acc\u00edpiant, qui voc\u00e1ti sunt \u00e6t\u00e9rn\u00e6 heredit\u00e1tis, in Christo Jesu, D\u00f3mino nostro.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 142:9, 10*\nEripe me, D\u00f3mine, de inim\u00edcis meis: doce me f\u00e1cere volunt\u00e1tem tuam\n*Ps 17:48-49*\nLiber\u00e1tor meus, D\u00f3mine, de g\u00e9ntibus irac\u00fandis: ab insurg\u00e9ntibus in me exalt\u00e1bis me: a viro in\u00edquo er\u00edpies me.\n\n*Tractus*\n*Ps 128:1-4*\nS\u00e6pe expugnav\u00e9runt me a juvent\u00fate mea.\nV. Dicat nunc Isra\u00ebl: s\u00e6pe expugnav\u00e9runt me a juvent\u00fate mea.\nV. Etenim non potu\u00e9runt mihi: supra dorsum meum fabricav\u00e9runt peccat\u00f3res.\nV. Prolongav\u00e9runt iniquit\u00e1tes suas: D\u00f3minus justus c\u00f3ncidit cerv\u00edces peccat\u00f3rum.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 8:46-59*\nIn illo t\u00e9mpore: Dic\u00e9bat Jesus turbis Jud\u00e6\u00f3rum: Quis ex vobis \u00e1rguet me de pecc\u00e1to? Si verit\u00e1tem dico vobis, quare non cr\u00e9ditis mihi? Qui ex Deo est, verba Dei audit. Propt\u00e9rea vos non aud\u00edtis, quia ex Deo non estis. Respond\u00e9runt ergo Judaei et dix\u00e9runt ei: Nonne bene d\u00edcimus nos, quia Samarit\u00e1nus es tu, et d\u00e6m\u00f3nium habes? Resp\u00f3ndit Jesus: Ego d\u00e6m\u00f3nium non h\u00e1beo, sed honor\u00edfico Patrem meum, et vos inhonor\u00e1stis me. Ego autem non qu\u00e6ro gl\u00f3riam meam: est, qui qu\u00e6rat et j\u00fadicet. Amen, amen, dico vobis: si quis serm\u00f3nem meum serv\u00e1verit, mortem non vid\u00e9bit in \u00e6t\u00e9rnum. Dix\u00e9runt ergo Judaei: Nunc cogn\u00f3vimus, quia d\u00e6m\u00f3nium habes. Abraham m\u00f3rtuus est et Proph\u00e9t\u00e6; et tu dicis: Si quis serm\u00f3nem meum serv\u00e1verit, non gust\u00e1bit mortem in \u00e6t\u00e9rnum. Numquid tu major es patre nostro Abraham, qui m\u00f3rtuus est? et Proph\u00e9t\u00e6 m\u00f3rtui sunt. Quem te\u00edpsum facis? Resp\u00f3ndit Jesus: Si ego glor\u00edfico me\u00edpsum, gl\u00f3ria mea nihil est: est Pater meus, qui glor\u00edficat me, quem vos d\u00edcitis, quia Deus vester est, et non cognov\u00edstis eum: ego autem novi eum: et si d\u00edxero, quia non scio eum, ero s\u00edmilis vobis, mendax. Sed scio eum et serm\u00f3nem ejus servo. Abraham pater vester exsult\u00e1vit, ut vid\u00e9ret diem meum: vidit, et gav\u00edsus est. Dix\u00e9runt ergo Judaei ad eum: Quinquag\u00ednta annos nondum habes, et Abraham vid\u00edsti? Dixit eis Jesus: Amen, amen, dico vobis, antequam Abraham f\u00ederet, ego sum. Tul\u00e9runt ergo l\u00e1pides, ut j\u00e1cerent in eum: Jesus autem absc\u00f3ndit se, et ex\u00edvit de templo.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 118:17, 107*\nConfit\u00e9bor tibi, D\u00f3mine, in toto corde meo: retr\u00edbue servo tuo: vivam, et cust\u00f3diam serm\u00f3nes tuos: viv\u00edfica me sec\u00fandum verbum tuum, D\u00f3mine.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00e6c m\u00fanera, qu\u01fdsumus D\u00f3mine, ei v\u00edncula nostr\u00e6 pravit\u00e1tis abs\u00f3lvant, et tu\u00e6 nobis miseric\u00f3rdi\u00e6 dona conc\u00edlient.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Sancta Cruce*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui sal\u00fatem hum\u00e1ni g\u00e9neris in ligno Crucis constitu\u00edsti: ut, unde mors orieb\u00e1tur, inde vita res\u00fargeret: et, qui in ligno vinc\u00e9bat, in ligno quoque vincer\u00e9tur: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*1 Cor 11:24, 25*\nHoc corpus, quod pro vobis trad\u00e9tur: hic calix novi Testam\u00e9nti est in meo s\u00e1nguine, dicit D\u00f3minus: hoc f\u00e1cite, quotiesc\u00famque s\u00famitis, in meam commemorati\u00f3nem.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ad\u00e9sto nobis, D\u00f3mine, Deus noster: et, quos tuis myst\u00e9riis recre\u00e1sti, perp\u00e9tuis def\u00e9nde subsidiis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-04-07", 
-    "description": "Jezus Chrystus, Arcykap\u0142an Nowego Testamentu, gotuje si\u0119 do z\u0142o\u017cenia ofiary krzy\u017cowej. Antyfona na wej\u015bcie, gradua\u0142, traktus i antyfona na komuni\u0119 \u2014 to Jego modlitwa w obliczu nadchodz\u0105cej m\u0119ki. W lekcji \u015bw. Pawe\u0142 poucza nas o charakterze \u015bmierci Zbawiciela, kt\u00f3ra jest jedyn\u0105 i wieczyst\u0105 ofiar\u0105 Nowego Testamentu. W ewangelii s\u0142yszymy z ust Jezusa wyznanie B\u00f3stwa. Podobne wyznanie powt\u00f3rzone w uroczystej formie przed Sanhedrynem sta\u0142o si\u0119 bezpo\u015brednim powodem skazania Zbawiciela na \u015bmier\u0107.\n", 
-    "tempora": null, 
-    "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 42:1-2.*\nJ\u00fadica me, Deus, et disc\u00e9rne causam meam de gente non sancta: ab homine in\u00edquo et dol\u00f3so \u00e9ripe me: quia tu es Deus meus et fortit\u00fado mea.\n*Ps 42:3*\nEm\u00edtte lucem tuam et verit\u00e1tem tuam: ipsa me de dux\u00e9runt et addux\u00e9runt in montem sanctum tuum et in tabern\u00e1cula tua.\nJ\u00fadica me, Deus, et disc\u00e9rne causam meam de gente non sancta: ab homine in\u00edquo et dol\u00f3so \u00e9ripe me: quia tu es Deus meus et fortit\u00fado mea.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Qu\u01fdsumus, omn\u00edpotens Deus, familiam tuam prop\u00edtius r\u00e9spice: ut, te largi\u00e9nte, reg\u00e1tur in c\u00f3rpore; et, te serv\u00e1nte, custodi\u00e1tur in mente.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Hebraeos.\n*Hebr 9:11-15*\nFatres: Christus ass\u00edstens Pontifex futur\u00f3rum bon\u00f3rum, per \u00e1mplius et perf\u00e9ctius tabern\u00e1culum non manuf\u00e1ctum, id est, non hujus creati\u00f3nis: neque per s\u00e1nguinem hirc\u00f3rum aut vitul\u00f3rum, sed per pr\u00f3prium s\u00e1nguinem intro\u00edvit semel in Sancta, \u00e6t\u00e9rna redempti\u00f3ne inv\u00e9nta. Si enim sanguis hirc\u00f3rum et taur\u00f3rum, et cinis v\u00edtul\u00e6 asp\u00e9rsus, inquin\u00e1tos sanct\u00edficat ad emundati\u00f3nem carnis: quanto magis sanguis Christi, qui per Sp\u00edritum Sanctum semet\u00edpsum \u00f3btulit immacul\u00e1tum Deo, emund\u00e1bit consci\u00e9ntiam nostram ab op\u00e9ribus m\u00f3rtuis, ad servi\u00e9ndum Deo viv\u00e9nti? Et ideo novi Testam\u00e9nti medi\u00e1tor est: ut, morte interced\u00e9nte, in redempti\u00f3nem e\u00e1rum pr\u00e6varicati\u00f3num, qu\u00e6 erant sub pri\u00f3ri Testam\u00e9nto, repromissi\u00f3nem acc\u00edpiant, qui voc\u00e1ti sunt \u00e6t\u00e9rn\u00e6 heredit\u00e1tis, in Christo Jesu, D\u00f3mino nostro.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 142:9, 10*\nEripe me, D\u00f3mine, de inim\u00edcis meis: doce me f\u00e1cere volunt\u00e1tem tuam\n*Ps 17:48-49*\nLiber\u00e1tor meus, D\u00f3mine, de g\u00e9ntibus irac\u00fandis: ab insurg\u00e9ntibus in me exalt\u00e1bis me: a viro in\u00edquo er\u00edpies me.\n\n*Tractus*\n*Ps 128:1-4*\nS\u00e6pe expugnav\u00e9runt me a juvent\u00fate mea.\nV. Dicat nunc Isra\u00ebl: s\u00e6pe expugnav\u00e9runt me a juvent\u00fate mea.\nV. Etenim non potu\u00e9runt mihi: supra dorsum meum fabricav\u00e9runt peccat\u00f3res.\nV. Prolongav\u00e9runt iniquit\u00e1tes suas: D\u00f3minus justus c\u00f3ncidit cerv\u00edces peccat\u00f3rum.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joann 8:46-59*\nIn illo t\u00e9mpore: Dic\u00e9bat Jesus turbis Jud\u00e6\u00f3rum: Quis ex vobis \u00e1rguet me de pecc\u00e1to? Si verit\u00e1tem dico vobis, quare non cr\u00e9ditis mihi? Qui ex Deo est, verba Dei audit. Propt\u00e9rea vos non aud\u00edtis, quia ex Deo non estis. Respond\u00e9runt ergo Judaei et dix\u00e9runt ei: Nonne bene d\u00edcimus nos, quia Samarit\u00e1nus es tu, et d\u00e6m\u00f3nium habes? Resp\u00f3ndit Jesus: Ego d\u00e6m\u00f3nium non h\u00e1beo, sed honor\u00edfico Patrem meum, et vos inhonor\u00e1stis me. Ego autem non qu\u00e6ro gl\u00f3riam meam: est, qui qu\u00e6rat et j\u00fadicet. Amen, amen, dico vobis: si quis serm\u00f3nem meum serv\u00e1verit, mortem non vid\u00e9bit in \u00e6t\u00e9rnum. Dix\u00e9runt ergo Judaei: Nunc cogn\u00f3vimus, quia d\u00e6m\u00f3nium habes. Abraham m\u00f3rtuus est et Proph\u00e9t\u00e6; et tu dicis: Si quis serm\u00f3nem meum serv\u00e1verit, non gust\u00e1bit mortem in \u00e6t\u00e9rnum. Numquid tu major es patre nostro Abraham, qui m\u00f3rtuus est? et Proph\u00e9t\u00e6 m\u00f3rtui sunt. Quem te\u00edpsum facis? Resp\u00f3ndit Jesus: Si ego glor\u00edfico me\u00edpsum, gl\u00f3ria mea nihil est: est Pater meus, qui glor\u00edficat me, quem vos d\u00edcitis, quia Deus vester est, et non cognov\u00edstis eum: ego autem novi eum: et si d\u00edxero, quia non scio eum, ero s\u00edmilis vobis, mendax. Sed scio eum et serm\u00f3nem ejus servo. Abraham pater vester exsult\u00e1vit, ut vid\u00e9ret diem meum: vidit, et gav\u00edsus est. Dix\u00e9runt ergo Judaei ad eum: Quinquag\u00ednta annos nondum habes, et Abraham vid\u00edsti? Dixit eis Jesus: Amen, amen, dico vobis, antequam Abraham f\u00ederet, ego sum. Tul\u00e9runt ergo l\u00e1pides, ut j\u00e1cerent in eum: Jesus autem absc\u00f3ndit se, et ex\u00edvit de templo.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 118:17, 107*\nConfit\u00e9bor tibi, D\u00f3mine, in toto corde meo: retr\u00edbue servo tuo: vivam, et cust\u00f3diam serm\u00f3nes tuos: viv\u00edfica me sec\u00fandum verbum tuum, D\u00f3mine.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00e6c m\u00fanera, qu\u01fdsumus D\u00f3mine, ei v\u00edncula nostr\u00e6 pravit\u00e1tis abs\u00f3lvant, et tu\u00e6 nobis miseric\u00f3rdi\u00e6 dona conc\u00edlient.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Sancta Cruce*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui sal\u00fatem hum\u00e1ni g\u00e9neris in ligno Crucis constitu\u00edsti: ut, unde mors orieb\u00e1tur, inde vita res\u00fargeret: et, qui in ligno vinc\u00e9bat, in ligno quoque vincer\u00e9tur: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut adm\u00edtti j\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*1 Cor 11:24, 25*\nHoc corpus, quod pro vobis trad\u00e9tur: hic calix novi Testam\u00e9nti est in meo s\u00e1nguine, dicit D\u00f3minus: hoc f\u00e1cite, quotiesc\u00famque s\u00famitis, in meam commemorati\u00f3nem.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ad\u00e9sto nobis, D\u00f3mine, Deus noster: et, quos tuis myst\u00e9riis recre\u00e1sti, perp\u00e9tuis def\u00e9nde subsidiis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 42:1-2*\nWymierz mi, Bo\u017ce, sprawiedliwo\u015b\u0107 i bro\u0144 mojej sprawy przeciw niezbo\u017cnemu ludowi, wybaw mi\u0119 od cz\u0142owieka podst\u0119pnego i niegodziwego, Ty bowiem, Bo\u017ce, jeste\u015b moc\u0105 moj\u0105.\n*Ps 42:3*\nZe\u015blij Sw\u0105 \u015bwiat\u0142o\u015b\u0107 i wierno\u015b\u0107 Swoj\u0105: niech one mi\u0119 wiod\u0105, niech mnie przywiod\u0105 na g\u00f3r\u0119 Tw\u0105 \u015bwi\u0119t\u0105 i do Twoich przybytk\u00f3w.\nWymierz mi, Bo\u017ce, sprawiedliwo\u015b\u0107 i bro\u0144 mojej sprawy przeciw niezbo\u017cnemu ludowi, wybaw mi\u0119 od cz\u0142owieka podst\u0119pnego i niegodziwego, Ty bowiem, Bo\u017ce, jeste\u015b moc\u0105 moj\u0105.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, wejrzyj \u0142askawie na rodzin\u0119 s\u0142ug Twoich i w Swojej hojno\u015bci rz\u0105d\u017a ich cia\u0142ami oraz strze\u017c troskliwie ich dusz.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Hebrajczyk\u00f3w.\n*Hbr 9:11-15*\n*Ofiara Chrystusa, kt\u00f3ra zast\u0105pi\u0142a ofiary Starego Testamentu, ma warto\u015b\u0107 niesko\u0144czon\u0105 i wystarcza do odkupienia wszystkich grzech\u00f3w ludzko\u015bci.*\nBracia: Chrystus stawszy si\u0119 najwy\u017cszym Kap\u0142anem d\u00f3br przysz\u0142ych przez wy\u017cszy i doskonalszy, a nie r\u0119k\u0105 uczyniony, to jest nie z tego \u015bwiata przybytek, i nie przez krew koz\u0142\u00f3w albo cielc\u00f3w, lecz przez w\u0142asn\u0105 Krew wszed\u0142 raz do miejsca \u015awi\u0119tego dokonawszy wiecznego Odkupienia.\nJe\u015bli bowiem pokropienie krwi\u0105 koz\u0142\u00f3w i wo\u0142\u00f3w i posypanie popio\u0142em z ja\u0142owicy po\u015bwi\u0119ca\u0142o skalanych ku oczyszczeniu cia\u0142a, jako\u017c daleko wi\u0119cej Krew Chrystusa, kt\u00f3ry przez Ducha \u015awi\u0119tego samego siebie bez skazy ofiarowa\u0142 Bogu, oczy\u015bci sumienie nasze od uczynk\u00f3w martwych aby\u015bmy s\u0142u\u017cyli Bogu \u017cyj\u0105cemu!\nI dlatego jest po\u015brednikiem nowego przymierza, \u017ceby przez \u015bmier\u0107 poniesion\u0105 na odkupienie przest\u0119pstw pope\u0142nionych za przymierza pierwszego, wezwani posiedli obiecane im dziedzictwo wieczne w Chrystusie Jezusie, Panu naszym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 142:9, 10*\nOcal mnie, Panie, od mych nieprzyjaci\u00f3\u0142: naucz mi\u0119 pe\u0142ni\u0107 wol\u0119 Twoj\u0105.\n*Ps 17:48-49*\nO Panie, m\u00f3j wybawicielu od gniewnych narod\u00f3w: Ty mnie wywy\u017cszysz ponad przeciwnik\u00f3w moich, od gwa\u0142townika mi\u0119 wyrwiesz.\n\n*Traktus*\n*Ps 128:1-4*\nWielce mnie gn\u0119bili od mojej m\u0142odo\u015bci.\nV. Niech Izrael teraz powie: wielce mnie gn\u0119bili od mojej m\u0142odo\u015bci.\nV. Lecz mnie nie zwyci\u0119\u017cyli; oracze grzbiet m\u00f3j poorali.\nV. D\u0142ugie swe bruzdy powiedli; atoli Pan sprawiedliwy poci\u0105\u0142 sznury bezbo\u017cnych.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 8:46-59*\nOnego czasu: M\u00f3wi\u0142 Jezus rzeszom \u017cydowskim: \u00abKto z was dowiedzie mi grzechu? Je\u015bli wam prawd\u0119 m\u00f3wi\u0119, czemu mi nie wierzycie? Kto z Boga jest, s\u0142\u00f3w Bo\u017cych s\u0142ucha, wy dlatego nie s\u0142uchacie, \u017ce z Boga nie jeste\u015bcie\u00bb. Odpowiedzieli tedy \u017cydzi i rzekli Mu: \u00abCzy\u017c nie s\u0142usznie m\u00f3wimy, \u017ce jeste\u015b Samarytaninem i czarta masz?\u00bb Odpowiedzia\u0142 Jezus: \u00abJa czarta nie mam, ale oddaj\u0119 cze\u015b\u0107 Ojcu memu, a wy\u015bcie mnie zniewa\u017cyli. Ja nie szukam w\u0142asnej chwa\u0142y, ale jest kto\u015b, kt\u00f3ry szuka i s\u0105dzi. Zaprawd\u0119, zaprawd\u0119 powiadam wam, je\u015bli kto zachowa nauk\u0119 moj\u0105, nie zazna \u015bmierci na wieki\u00bb.\nTedy Mu rzekli \u017cydzi: \u00abTeraz poznali\u015bmy, \u017ce czarta masz. Abraham umar\u0142 i Prorocy, a ty m\u00f3wisz: Je\u015bliby kto zachowa\u0142 nauk\u0119 moj\u0105, nie zazna \u015bmierci na wieki. Czy\u017ce\u015b Ty wi\u0119kszy od ojca naszego Abrahama, kt\u00f3ry umar\u0142? Nawet Prorocy pomarli. Za kogo si\u0119 uwa\u017casz?\u00bb Odpowiedzia\u0142 Jezus: \u00abJe\u015bli ja sam siebie chwal\u0119, chwa\u0142a moja niczym nie jest. Ale jest Ojciec m\u00f3j, kt\u00f3ry mnie uwielbia i o kt\u00f3rym wy powiadacie, \u017ce jest Bogiem waszym, a nie poznali\u015bcie Go. Ale ja Go znam i je\u015blibym powiedzia\u0142, \u017ce Go nie znam, by\u0142bym podobnym wam k\u0142amc\u0105. Ale znam Go i nauki Jego strzeg\u0119. Abraham, ojciec wasz, z rado\u015bci\u0105 wygl\u0105da\u0142 dnia mojego, a ujrza\u0142 i uweseli\u0142 si\u0119\u00bb.\nRzekli tedy \u017cydzi do Niego: \u00abPi\u0119\u0107dziesi\u0119ciu lat jeszcze nie masz, a Abrahama widzia\u0142e\u015b?\u00bb Rzek\u0142 im Jezus: \u00abZaprawd\u0119, zaprawd\u0119 powiadam wam, pierwej nim Abraham by\u0142, jam jest\u00bb.\nPorwali tedy kamienie, by rzuci\u0107 na Niego, a Jezus ukry\u0142 si\u0119 i wyszed\u0142 ze \u015bwi\u0105tyni.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 118:17, 107*\nZ ca\u0142ego serca b\u0119d\u0119 Ci\u0119 chwali\u0142, Panie: czy\u0144 dobrze s\u0142udze Twojemu, aby \u017cy\u0142 i s\u0142\u00f3w Twych przestrzega\u0142. Zachowaj mnie przy \u017cyciu wed\u0142ug Twego s\u0142owa.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119 Panie, niech ta ofiara oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twojego mi\u0142osierdzia.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Krzy\u017cu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b postanowi\u0142 dokona\u0107 zbawienia rodzaju ludzkiego na drzewie krzy\u017ca, aby sk\u0105d smier\u0107 wzi\u0119\u0142a pocz\u0105tek, stamt\u0105d i \u017cycie zmartwychwsta\u0142o, i aby ten, kt\u00f3ry na drzewie zwyci\u0119\u017cy\u0142, na drzewie r\u00f3wnie\u017c zosta\u0142 pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*1 Kor 11:24, 25*\nTo jest Cia\u0142o moje, kt\u00f3re za was b\u0119dzie wydane; ten jest kielich Nowego Przymierza we Krwi mojej. To czy\u0144cie, ilekro\u0107 po\u017cywacie, na moj\u0105 pami\u0105tk\u0119.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Przyb\u0105d\u017a nam z pomoc\u0105 Panie, Bo\u017ce nasz i otaczaj nieustann\u0105 opiek\u0105 tych, kt\u00f3rych pokrzepi\u0142e\u015b przez Twoje tajemnice.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 42:1-2*\nWymierz mi, Bo\u017ce, sprawiedliwo\u015b\u0107 i bro\u0144 mojej sprawy przeciw niezbo\u017cnemu ludowi, wybaw mi\u0119 od cz\u0142owieka podst\u0119pnego i niegodziwego, Ty bowiem, Bo\u017ce, jeste\u015b moc\u0105 moj\u0105.\n*Ps 42:3*\nZe\u015blij Sw\u0105 \u015bwiat\u0142o\u015b\u0107 i wierno\u015b\u0107 Swoj\u0105: niech one mi\u0119 wiod\u0105, niech mnie przywiod\u0105 na g\u00f3r\u0119 Tw\u0105 \u015bwi\u0119t\u0105 i do Twoich przybytk\u00f3w.\nWymierz mi, Bo\u017ce, sprawiedliwo\u015b\u0107 i bro\u0144 mojej sprawy przeciw niezbo\u017cnemu ludowi, wybaw mi\u0119 od cz\u0142owieka podst\u0119pnego i niegodziwego, Ty bowiem, Bo\u017ce, jeste\u015b moc\u0105 moj\u0105.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, wszechmog\u0105cy Bo\u017ce, wejrzyj \u0142askawie na rodzin\u0119 s\u0142ug Twoich i w Swojej hojno\u015bci rz\u0105d\u017a ich cia\u0142ami oraz strze\u017c troskliwie ich dusz.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Hebrajczyk\u00f3w.\n*Hbr 9:11-15*\n*Ofiara Chrystusa, kt\u00f3ra zast\u0105pi\u0142a ofiary Starego Testamentu, ma warto\u015b\u0107 niesko\u0144czon\u0105 i wystarcza do odkupienia wszystkich grzech\u00f3w ludzko\u015bci.*\nBracia: Chrystus stawszy si\u0119 najwy\u017cszym Kap\u0142anem d\u00f3br przysz\u0142ych przez wy\u017cszy i doskonalszy, a nie r\u0119k\u0105 uczyniony, to jest nie z tego \u015bwiata przybytek, i nie przez krew koz\u0142\u00f3w albo cielc\u00f3w, lecz przez w\u0142asn\u0105 Krew wszed\u0142 raz do miejsca \u015awi\u0119tego dokonawszy wiecznego Odkupienia.\nJe\u015bli bowiem pokropienie krwi\u0105 koz\u0142\u00f3w i wo\u0142\u00f3w i posypanie popio\u0142em z ja\u0142owicy po\u015bwi\u0119ca\u0142o skalanych ku oczyszczeniu cia\u0142a, jako\u017c daleko wi\u0119cej Krew Chrystusa, kt\u00f3ry przez Ducha \u015awi\u0119tego samego siebie bez skazy ofiarowa\u0142 Bogu, oczy\u015bci sumienie nasze od uczynk\u00f3w martwych aby\u015bmy s\u0142u\u017cyli Bogu \u017cyj\u0105cemu!\nI dlatego jest po\u015brednikiem nowego przymierza, \u017ceby przez \u015bmier\u0107 poniesion\u0105 na odkupienie przest\u0119pstw pope\u0142nionych za przymierza pierwszego, wezwani posiedli obiecane im dziedzictwo wieczne w Chrystusie Jezusie, Panu naszym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 142:9, 10*\nOcal mnie, Panie, od mych nieprzyjaci\u00f3\u0142: naucz mi\u0119 pe\u0142ni\u0107 wol\u0119 Twoj\u0105.\n*Ps 17:48-49*\nO Panie, m\u00f3j wybawicielu od gniewnych narod\u00f3w: Ty mnie wywy\u017cszysz ponad przeciwnik\u00f3w moich, od gwa\u0142townika mi\u0119 wyrwiesz.\n\n*Traktus*\n*Ps 128:1-4*\nWielce mnie gn\u0119bili od mojej m\u0142odo\u015bci.\nV. Niech Izrael teraz powie: wielce mnie gn\u0119bili od mojej m\u0142odo\u015bci.\nV. Lecz mnie nie zwyci\u0119\u017cyli; oracze grzbiet m\u00f3j poorali.\nV. D\u0142ugie swe bruzdy powiedli; atoli Pan sprawiedliwy poci\u0105\u0142 sznury bezbo\u017cnych.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 8:46-59*\nOnego czasu: M\u00f3wi\u0142 Jezus rzeszom \u017cydowskim: \u00abKto z was dowiedzie mi grzechu? Je\u015bli wam prawd\u0119 m\u00f3wi\u0119, czemu mi nie wierzycie? Kto z Boga jest, s\u0142\u00f3w Bo\u017cych s\u0142ucha, wy dlatego nie s\u0142uchacie, \u017ce z Boga nie jeste\u015bcie\u00bb. Odpowiedzieli tedy \u017cydzi i rzekli Mu: \u00abCzy\u017c nie s\u0142usznie m\u00f3wimy, \u017ce jeste\u015b Samarytaninem i czarta masz?\u00bb Odpowiedzia\u0142 Jezus: \u00abJa czarta nie mam, ale oddaj\u0119 cze\u015b\u0107 Ojcu memu, a wy\u015bcie mnie zniewa\u017cyli. Ja nie szukam w\u0142asnej chwa\u0142y, ale jest kto\u015b, kt\u00f3ry szuka i s\u0105dzi. Zaprawd\u0119, zaprawd\u0119 powiadam wam, je\u015bli kto zachowa nauk\u0119 moj\u0105, nie zazna \u015bmierci na wieki\u00bb.\nTedy Mu rzekli \u017cydzi: \u00abTeraz poznali\u015bmy, \u017ce czarta masz. Abraham umar\u0142 i Prorocy, a ty m\u00f3wisz: Je\u015bliby kto zachowa\u0142 nauk\u0119 moj\u0105, nie zazna \u015bmierci na wieki. Czy\u017ce\u015b Ty wi\u0119kszy od ojca naszego Abrahama, kt\u00f3ry umar\u0142? Nawet Prorocy pomarli. Za kogo si\u0119 uwa\u017casz?\u00bb Odpowiedzia\u0142 Jezus: \u00abJe\u015bli ja sam siebie chwal\u0119, chwa\u0142a moja niczym nie jest. Ale jest Ojciec m\u00f3j, kt\u00f3ry mnie uwielbia i o kt\u00f3rym wy powiadacie, \u017ce jest Bogiem waszym, a nie poznali\u015bcie Go. Ale ja Go znam i je\u015blibym powiedzia\u0142, \u017ce Go nie znam, by\u0142bym podobnym wam k\u0142amc\u0105. Ale znam Go i nauki Jego strzeg\u0119. Abraham, ojciec wasz, z rado\u015bci\u0105 wygl\u0105da\u0142 dnia mojego, a ujrza\u0142 i uweseli\u0142 si\u0119\u00bb.\nRzekli tedy \u017cydzi do Niego: \u00abPi\u0119\u0107dziesi\u0119ciu lat jeszcze nie masz, a Abrahama widzia\u0142e\u015b?\u00bb Rzek\u0142 im Jezus: \u00abZaprawd\u0119, zaprawd\u0119 powiadam wam, pierwej nim Abraham by\u0142, jam jest\u00bb.\nPorwali tedy kamienie, by rzuci\u0107 na Niego, a Jezus ukry\u0142 si\u0119 i wyszed\u0142 ze \u015bwi\u0105tyni.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 118:17, 107*\nZ ca\u0142ego serca b\u0119d\u0119 Ci\u0119 chwali\u0142, Panie: czy\u0144 dobrze s\u0142udze Twojemu, aby \u017cy\u0142 i s\u0142\u00f3w Twych przestrzega\u0142. Zachowaj mnie przy \u017cyciu wed\u0142ug Twego s\u0142owa.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119 Panie, niech ta ofiara oswobodzi nas z wi\u0119z\u00f3w naszych na\u0142og\u00f3w i wyjedna nam dary Twojego mi\u0142osierdzia.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Krzy\u017cu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy\u015b postanowi\u0142 dokona\u0107 zbawienia rodzaju ludzkiego na drzewie krzy\u017ca, aby sk\u0105d smier\u0107 wzi\u0119\u0142a pocz\u0105tek, stamt\u0105d i \u017cycie zmartwychwsta\u0142o, i aby ten, kt\u00f3ry na drzewie zwyci\u0119\u017cy\u0142, na drzewie r\u00f3wnie\u017c zosta\u0142 pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesienie s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*1 Kor 11:24, 25*\nTo jest Cia\u0142o moje, kt\u00f3re za was b\u0119dzie wydane; ten jest kielich Nowego Przymierza we Krwi mojej. To czy\u0144cie, ilekro\u0107 po\u017cywacie, na moj\u0105 pami\u0105tk\u0119.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Przyb\u0105d\u017a nam z pomoc\u0105 Panie, Bo\u017ce nasz i otaczaj nieustann\u0105 opiek\u0105 tych, kt\u00f3rych pokrzepi\u0142e\u015b przez Twoje tajemnice.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

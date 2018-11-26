@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-09-03", 
+      "description": "Nadzieja naszego zbawienia opiera si\u0119 na obietnicach Bo\u017cych. Pan B\u00f3g obieca\u0142 Abrahamowi, \u017ce rozmno\u017cy jego potomstwo jak gwiazdy na niebie i \u017ce z tego potomstwa wybierze Zbawiciela \u015bwiata. Gdy nadesz\u0142a pe\u0142nia czas\u00f3w, B\u00f3g spe\u0142ni\u0142 obietnic\u0119 zsy\u0142aj\u0105c na \u015bwiat swojego Syna, kt\u00f3ry jako cz\u0142owiek pochodzi\u0142 z potomstwa Abrahama (lekcja). Chrystus zawar\u0142 nowe przymierze mi\u0119dzy Bogiem a lud\u017ami, kt\u00f3re obejmuje wszystkie narody. Podstaw\u0105 zbawienia nie jest ju\u017c przynale\u017cno\u015b\u0107 do narodu wybranego, lecz wiara w Chrystusa, przez kt\u00f3rego B\u00f3g obieca\u0142 nas zbawi\u0107 (ewangelia). Jako uczestnicy Nowego Przymierza powo\u0142ujemy si\u0119 na obietnice Bo\u017ce (ant. na wej\u015bcie, gradua\u0142) i prosimy Boga o pomno\u017cenie wiary, nadziei i mi\u0142o\u015bci. Stanowi\u0105 one nasz\u0105 odpowied\u017a na wezwanie Bo\u017ce.\n", 
+      "tempora": null, 
+      "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 73:20,; 73:19; 73:23*\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum, et \u00e1nimas p\u00e1uperum tu\u00f3rum ne derel\u00ednquas in finem: exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam, et ne oblivisc\u00e1ris voces qu\u00e6r\u00e9ntium te.\n*Ps 73:1*\nUt quid, Deus, reppul\u00edsti in finem: ir\u00e1tus est furor tuus super oves p\u00e1scu\u00e6 tu\u00e6?\nGl\u00f3ria Patri.\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum, et \u00e1nimas p\u00e1uperum tu\u00f3rum ne derel\u00ednquas in finem: exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam, et ne oblivisc\u00e1ris voces qu\u00e6r\u00e9ntium te.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omn\u00edpotens sempit\u00e9rne Deus, da nobis f\u00eddei, spei et carit\u00e1tis augm\u00e9ntum: et, ut mere\u00e1mur ass\u00e9qui quod prom\u00edttis, fac nos am\u00e1re quod praecipis.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad G\u00e1latas.\n*Gal 3:16-22*\nFratres: Abrah\u00e6 dict\u00e6 sunt promissi\u00f3nes, et s\u00e9mini ejus. Non dicit: Et sem\u00ednibus, quasi in multis; sed quasi in uno: Et s\u00e9mini tuo, qui est Christus. Hoc autem dico: testam\u00e9ntum confirm\u00e1tum a Deo, qu\u00e6 post quadring\u00e9ntos et trig\u00ednta annos facta est lex, non \u00edrritum facit ad evacu\u00e1ndam promissi\u00f3nem. Nam si ex lege her\u00e9ditas, jam non ex promissi\u00f3ne. Abrah\u00e6 autem per repromissi\u00f3nem don\u00e1vit Deus. Quid igitur lex? Propter transgressi\u00f3nes p\u00f3sita est, donec ven\u00edret semen, cui prom\u00edserat, ordin\u00e1ta per Angelos in manu mediat\u00f3ris. Medi\u00e1tor autem un\u00edus non est: Deus autem unus est. Lex ergo adv\u00e9rsus prom\u00edssa Dei? Absit. Si enim data esset lex, qu\u00e6 posset vivific\u00e1re, vere ex lege esset just\u00edtia. Sed concl\u00fasit Script\u00fara \u00f3mnia sub pecc\u00e1to, ut prom\u00edssio ex fide Jesu Christi dar\u00e9tur cred\u00e9ntibus.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 73:20; 73:19; 73:22*\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum: et \u00e1nimas p\u00e1uperum tu\u00f3rum ne oblivisc\u00e1ris in finem.\nV. Exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam: memor esto oppr\u00f3brii serv\u00f3rum tu\u00f3rum. Allel\u00faja, allel\u00faja\n*Ps 89:1*\nD\u00f3mine, ref\u00fagium factus es nobis a generati\u00f3ne et prog\u00e9nie. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 17:11-19*\nIn illo t\u00e9mpore: Dum iret Jesus in Jer\u00fasalem, trans\u00edbat per m\u00e9diam Samar\u00edam et Galilaeam. Et cum ingreder\u00e9tur quoddam cast\u00e9llum, occurr\u00e9runt ei decem viri lepr\u00f3si, qui stet\u00e9runt a longe; et levav\u00e9runt vocem dic\u00e9ntes: Jesu pr\u00e6c\u00e9ptor, miser\u00e9re nostri. Quos ut vidit, dixit: Ite, ost\u00e9ndite vos sacerd\u00f3tibus. Et factum est, dum irent, mund\u00e1ti sunt. Unus autem ex illis, ut vidit quia mund\u00e1tus est, regr\u00e9ssus est, cum magna voce magn\u00edficans Deum, et cecidit in f\u00e1ciem ante pedes ejus, gr\u00e1tias agens: et hic erat Samarit\u00e1nus. Resp\u00f3ndens autem Jesus, dixit: Nonne decem mund\u00e1ti sunt? et novem ubi sunt? Non est inv\u00e9ntus, qui red\u00edret et daret gl\u00f3riam Deo, nisi hic alien\u00edgena. Et ait illi: Surge, vade; quia fides tua te salvum fecit.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 30:15-16*\nIn te sper\u00e1vi, D\u00f3mine; dixi: Tu es Deus meus, in m\u00e1nibus tuis t\u00e9mpora mea.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Popiti\u00e1re, D\u00f3mine, p\u00f3pulo tuo, propiti\u00e1re mun\u00e9ribus: ut, hac oblati\u00f3ne plac\u00e1tus, et indulg\u00e9ntiam nobis tr\u00edbuas et postul\u00e1ta concedas.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Sap 16:20*\nPanem de coelo ded\u00edsti nobis, D\u00f3mine, hab\u00e9ntem omne delectam\u00e9ntum et omnem sap\u00f3rem suavit\u00e1tis.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sumptis, D\u00f3mine, coel\u00e9stibus sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-09-03", 
-    "description": "Nadzieja naszego zbawienia opiera si\u0119 na obietnicach Bo\u017cych. Pan B\u00f3g obieca\u0142 Abrahamowi, \u017ce rozmno\u017cy jego potomstwo jak gwiazdy na niebie i \u017ce z tego potomstwa wybierze Zbawiciela \u015bwiata. Gdy nadesz\u0142a pe\u0142nia czas\u00f3w, B\u00f3g spe\u0142ni\u0142 obietnic\u0119 zsy\u0142aj\u0105c na \u015bwiat swojego Syna, kt\u00f3ry jako cz\u0142owiek pochodzi\u0142 z potomstwa Abrahama (lekcja). Chrystus zawar\u0142 nowe przymierze mi\u0119dzy Bogiem a lud\u017ami, kt\u00f3re obejmuje wszystkie narody. Podstaw\u0105 zbawienia nie jest ju\u017c przynale\u017cno\u015b\u0107 do narodu wybranego, lecz wiara w Chrystusa, przez kt\u00f3rego B\u00f3g obieca\u0142 nas zbawi\u0107 (ewangelia). Jako uczestnicy Nowego Przymierza powo\u0142ujemy si\u0119 na obietnice Bo\u017ce (ant. na wej\u015bcie, gradua\u0142) i prosimy Boga o pomno\u017cenie wiary, nadziei i mi\u0142o\u015bci. Stanowi\u0105 one nasz\u0105 odpowied\u017a na wezwanie Bo\u017ce.\n", 
-    "tempora": null, 
-    "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 73:20,; 73:19; 73:23*\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum, et \u00e1nimas p\u00e1uperum tu\u00f3rum ne derel\u00ednquas in finem: exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam, et ne oblivisc\u00e1ris voces qu\u00e6r\u00e9ntium te.\n*Ps 73:1*\nUt quid, Deus, reppul\u00edsti in finem: ir\u00e1tus est furor tuus super oves p\u00e1scu\u00e6 tu\u00e6?\nGl\u00f3ria Patri.\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum, et \u00e1nimas p\u00e1uperum tu\u00f3rum ne derel\u00ednquas in finem: exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam, et ne oblivisc\u00e1ris voces qu\u00e6r\u00e9ntium te.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Omn\u00edpotens sempit\u00e9rne Deus, da nobis f\u00eddei, spei et carit\u00e1tis augm\u00e9ntum: et, ut mere\u00e1mur ass\u00e9qui quod prom\u00edttis, fac nos am\u00e1re quod praecipis.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad G\u00e1latas.\n*Gal 3:16-22*\nFratres: Abrah\u00e6 dict\u00e6 sunt promissi\u00f3nes, et s\u00e9mini ejus. Non dicit: Et sem\u00ednibus, quasi in multis; sed quasi in uno: Et s\u00e9mini tuo, qui est Christus. Hoc autem dico: testam\u00e9ntum confirm\u00e1tum a Deo, qu\u00e6 post quadring\u00e9ntos et trig\u00ednta annos facta est lex, non \u00edrritum facit ad evacu\u00e1ndam promissi\u00f3nem. Nam si ex lege her\u00e9ditas, jam non ex promissi\u00f3ne. Abrah\u00e6 autem per repromissi\u00f3nem don\u00e1vit Deus. Quid igitur lex? Propter transgressi\u00f3nes p\u00f3sita est, donec ven\u00edret semen, cui prom\u00edserat, ordin\u00e1ta per Angelos in manu mediat\u00f3ris. Medi\u00e1tor autem un\u00edus non est: Deus autem unus est. Lex ergo adv\u00e9rsus prom\u00edssa Dei? Absit. Si enim data esset lex, qu\u00e6 posset vivific\u00e1re, vere ex lege esset just\u00edtia. Sed concl\u00fasit Script\u00fara \u00f3mnia sub pecc\u00e1to, ut prom\u00edssio ex fide Jesu Christi dar\u00e9tur cred\u00e9ntibus.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 73:20; 73:19; 73:22*\nR\u00e9spice, D\u00f3mine, in testam\u00e9ntum tuum: et \u00e1nimas p\u00e1uperum tu\u00f3rum ne oblivisc\u00e1ris in finem.\nV. Exs\u00farge, D\u00f3mine, et j\u00fadica causam tuam: memor esto oppr\u00f3brii serv\u00f3rum tu\u00f3rum. Allel\u00faja, allel\u00faja\n*Ps 89:1*\nD\u00f3mine, ref\u00fagium factus es nobis a generati\u00f3ne et prog\u00e9nie. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 17:11-19*\nIn illo t\u00e9mpore: Dum iret Jesus in Jer\u00fasalem, trans\u00edbat per m\u00e9diam Samar\u00edam et Galilaeam. Et cum ingreder\u00e9tur quoddam cast\u00e9llum, occurr\u00e9runt ei decem viri lepr\u00f3si, qui stet\u00e9runt a longe; et levav\u00e9runt vocem dic\u00e9ntes: Jesu pr\u00e6c\u00e9ptor, miser\u00e9re nostri. Quos ut vidit, dixit: Ite, ost\u00e9ndite vos sacerd\u00f3tibus. Et factum est, dum irent, mund\u00e1ti sunt. Unus autem ex illis, ut vidit quia mund\u00e1tus est, regr\u00e9ssus est, cum magna voce magn\u00edficans Deum, et cecidit in f\u00e1ciem ante pedes ejus, gr\u00e1tias agens: et hic erat Samarit\u00e1nus. Resp\u00f3ndens autem Jesus, dixit: Nonne decem mund\u00e1ti sunt? et novem ubi sunt? Non est inv\u00e9ntus, qui red\u00edret et daret gl\u00f3riam Deo, nisi hic alien\u00edgena. Et ait illi: Surge, vade; quia fides tua te salvum fecit.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 30:15-16*\nIn te sper\u00e1vi, D\u00f3mine; dixi: Tu es Deus meus, in m\u00e1nibus tuis t\u00e9mpora mea.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Popiti\u00e1re, D\u00f3mine, p\u00f3pulo tuo, propiti\u00e1re mun\u00e9ribus: ut, hac oblati\u00f3ne plac\u00e1tus, et indulg\u00e9ntiam nobis tr\u00edbuas et postul\u00e1ta concedas.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Sap 16:20*\nPanem de coelo ded\u00edsti nobis, D\u00f3mine, hab\u00e9ntem omne delectam\u00e9ntum et omnem sap\u00f3rem suavit\u00e1tis.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sumptis, D\u00f3mine, coel\u00e9stibus sacram\u00e9ntis: ad redempti\u00f3nis \u00e6t\u00e9rn\u00e6, qu\u01fdsumus, profici\u00e1mus augm\u00e9ntum.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 73:20; 73:19; 73:23*\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki; powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105, nie zapominaj wo\u0142ania tych, co Ci\u0119 szukaj\u0105.\n*Ps 73:1*\nCzemu, o Bo\u017ce, ca\u0142kiem nas opuszczasz i gniew Tw\u00f3j si\u0119 sro\u017cy na owce Twego pastwiska?\nChwa\u0142a Ojcu.\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki; powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105, nie zapominaj wo\u0142ania tych, co Ci\u0119 szukaj\u0105.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, pomn\u00f3\u017c w nas wiar\u0119, nadziej\u0119 i mi\u0142o\u015b\u0107, aby\u015bmy za\u015b mogli osi\u0105gn\u0105\u0107 to, co obiecujesz, daj nam ukocha\u0107 Twoje przykazania.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Galat\u00f3w.\n*Ga 3:16-22*\n*\u017bydzi, zw\u0142aszcza faryzeusze, wierzyli, \u017ce osi\u0105gn\u0105 zbawienie dzi\u0119ki drobiazgowemu przestrzeganiu Prawa Moj\u017ceszowego, natomiast \u015bw. Pawe\u0142 zwraca uwag\u0119, \u017ce nie obala ono obietnicy danej kilkaset lat wcze\u015bniej. Prawo Moj\u017ceszowe by\u0142o \u015brodkiem podtrzymania prawdziwej religii a\u017c do nadej\u015bcia Mesjasza. Gdy obietnice dane Abrahamowi zosta\u0142y spe\u0142nione w potomku Abrahama, to jest w Chrystusie, Stare Przymierze straci\u0142o moc obowi\u0105zuj\u0105c\u0105. Zbawienie osi\u0105ga si\u0119 przez wiar\u0119 w Jezusa Chrystusa i \u017cycie wed\u0142ug Jego Ewangelii.*\nBracia: Obietnice by\u0142y dane Abrahamowi i potomstwu jego. Nie powiedziano: I potomkom, jakoby mowa by\u0142a o wielu, ale jak gdyby o jednym: I potomkowi twemu, kt\u00f3rym jest Chrystus.\nPowiadam tedy: Testamentu potwierdzonego przez Boga nie mo\u017ce obali\u0107 Zakon dany w czteryta trzydzie\u015bci lat p\u00f3\u017aniej, \u017ceby obietnica sta\u0142a si\u0119 pr\u00f3\u017cna. Albowiem je\u017celi dziedzictwo dane by\u0142o na mocy Zakonu, to ju\u017c nie z obietnicy. A jednak Abrahamowi przez obietnic\u0119 B\u00f3g udzieli\u0142 daru \u0142aski.\nPo c\u00f3\u017c wi\u0119c Zakon? Nadany by\u0142 ze wzgl\u0119du na przest\u0119pstwa, a\u017cby przysz\u0142o potomstwo, kt\u00f3remu dana by\u0142a obietnica: og\u0142osili go Anio\u0142owie za spraw\u0105 po\u015brednika. Lecz nie masz miejsca na po\u015brednika tam, gdzie jest tylko jedna strona, a B\u00f3g jest jeden.\nCzy\u017cby tedy Zakon przeciwny by\u0142 obietnicom Bo\u017cym? Bynajmniej. Gdyby bowiem dany by\u0142 Zakon, kt\u00f3ry by m\u00f3g\u0142 o\u017cywia\u0107, usprawiedliwienie by\u0142oby rzeczywi\u015bcie z Zakonu. Lecz Pismo zamkn\u0119\u0142o wszystko pod grzechem, aby przez wiar\u0119 w Jezusa Chrystusa zi\u015bci\u0142a si\u0119 obietnica wierz\u0105cym.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 73:20; 73:19; 73:22*\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki.\nV. Powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105: wspomnij na zniewag\u0119 Twych s\u0142ug. Alleluja, alleluja.\n*Ps 89:1*\nPanie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 17:11-19*\n*Zbawiciel uzdrawia\u0142 \u017byd\u00f3w i Samarytan, kt\u00f3rzy we\u0144 wierzyli. Jego Ko\u015bci\u00f3\u0142 nadal niesie zbawienie wszystkim, kt\u00f3rzy wierz\u0105 w Chrystusa.*\nOnego czasu: Gdy Jezus zd\u0105\u017ca\u0142 do Jeruzalem, przechodzi\u0142 \u015brodkiem Samarii i Galilei. A gdy wchodzi\u0142 do niekt\u00f3rej osady, zabieg\u0142o mu drog\u0119 dziesi\u0119ciu m\u0119\u017c\u00f3w tr\u0119dowatych, kt\u00f3rzy stan\u0119li z daleka i zawo\u0142ali m\u00f3wi\u0105c: \u00abJezusie, nauczycielu, zmi\u0142uj si\u0119 nad nami!\u00bb A ujrzawszy ich rzek\u0142: \u00abId\u017acie, uka\u017ccie si\u0119 kap\u0142anom\u00bb. I sta\u0142o si\u0119, gdy szli, \u017ce byli oczyszczeni.\nA jeden z nich, skoro zobaczy\u0142, \u017ce by\u0142 uzdrowiony, wr\u00f3ci\u0142 si\u0119, g\u0142osem wielkim wielbi\u0105c Boga, i pad\u0142 na oblicze do st\u00f3p Jego, dzi\u0119kuj\u0105c: a by\u0142 to Samarytanin. A Jezus odpowiadaj\u0105c rzek\u0142: \u00abCzy\u017c nie dziesi\u0119ciu by\u0142o oczyszczonych? Gdzie jest dziewi\u0119ciu? Nie znalaz\u0142 si\u0119 nikt, kto by wr\u00f3ci\u0142 i da\u0142 chwa\u0142\u0119 Bogu, jeno ten cudzoziemiec\u00bb. I rzek\u0142 mu: \u00abWsta\u0144, id\u017a, bo wiara twoja uzdrowi\u0142a ci\u0119\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Mdr 16:20*\nTobie ufam, o Panie; m\u00f3wi\u0119: Ty jeste\u015b Bogiem moim, w Twoim r\u0119ku losy moje.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, wejrzyj \u0142askawie na Tw\u00f3j lud, wejrzyj \u0142askawie na jego dary, a przejednany t\u0105 ofiar\u0105 udziel nam przebaczenia i wys\u0142uchaj naszych pr\u00f3\u015bb.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mdr 16:20*\nPanie, da\u0142e\u015b nam chleb z nieba, maj\u0105cy w sobie wszystkie rozkosze i s\u0142odko\u015b\u0107 wszelkiego smaku.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, aby przez przyj\u0119cie niebieskiego Sakramentu wzrasta\u0142a w nas \u0142aska wiecznego Odkupienia.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 73:20; 73:19; 73:23*\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki; powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105, nie zapominaj wo\u0142ania tych, co Ci\u0119 szukaj\u0105.\n*Ps 73:1*\nCzemu, o Bo\u017ce, ca\u0142kiem nas opuszczasz i gniew Tw\u00f3j si\u0119 sro\u017cy na owce Twego pastwiska?\nChwa\u0142a Ojcu.\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki; powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105, nie zapominaj wo\u0142ania tych, co Ci\u0119 szukaj\u0105.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy, wieczny Bo\u017ce, pomn\u00f3\u017c w nas wiar\u0119, nadziej\u0119 i mi\u0142o\u015b\u0107, aby\u015bmy za\u015b mogli osi\u0105gn\u0105\u0107 to, co obiecujesz, daj nam ukocha\u0107 Twoje przykazania.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Galat\u00f3w.\n*Ga 3:16-22*\n*\u017bydzi, zw\u0142aszcza faryzeusze, wierzyli, \u017ce osi\u0105gn\u0105 zbawienie dzi\u0119ki drobiazgowemu przestrzeganiu Prawa Moj\u017ceszowego, natomiast \u015bw. Pawe\u0142 zwraca uwag\u0119, \u017ce nie obala ono obietnicy danej kilkaset lat wcze\u015bniej. Prawo Moj\u017ceszowe by\u0142o \u015brodkiem podtrzymania prawdziwej religii a\u017c do nadej\u015bcia Mesjasza. Gdy obietnice dane Abrahamowi zosta\u0142y spe\u0142nione w potomku Abrahama, to jest w Chrystusie, Stare Przymierze straci\u0142o moc obowi\u0105zuj\u0105c\u0105. Zbawienie osi\u0105ga si\u0119 przez wiar\u0119 w Jezusa Chrystusa i \u017cycie wed\u0142ug Jego Ewangelii.*\nBracia: Obietnice by\u0142y dane Abrahamowi i potomstwu jego. Nie powiedziano: I potomkom, jakoby mowa by\u0142a o wielu, ale jak gdyby o jednym: I potomkowi twemu, kt\u00f3rym jest Chrystus.\nPowiadam tedy: Testamentu potwierdzonego przez Boga nie mo\u017ce obali\u0107 Zakon dany w czteryta trzydzie\u015bci lat p\u00f3\u017aniej, \u017ceby obietnica sta\u0142a si\u0119 pr\u00f3\u017cna. Albowiem je\u017celi dziedzictwo dane by\u0142o na mocy Zakonu, to ju\u017c nie z obietnicy. A jednak Abrahamowi przez obietnic\u0119 B\u00f3g udzieli\u0142 daru \u0142aski.\nPo c\u00f3\u017c wi\u0119c Zakon? Nadany by\u0142 ze wzgl\u0119du na przest\u0119pstwa, a\u017cby przysz\u0142o potomstwo, kt\u00f3remu dana by\u0142a obietnica: og\u0142osili go Anio\u0142owie za spraw\u0105 po\u015brednika. Lecz nie masz miejsca na po\u015brednika tam, gdzie jest tylko jedna strona, a B\u00f3g jest jeden.\nCzy\u017cby tedy Zakon przeciwny by\u0142 obietnicom Bo\u017cym? Bynajmniej. Gdyby bowiem dany by\u0142 Zakon, kt\u00f3ry by m\u00f3g\u0142 o\u017cywia\u0107, usprawiedliwienie by\u0142oby rzeczywi\u015bcie z Zakonu. Lecz Pismo zamkn\u0119\u0142o wszystko pod grzechem, aby przez wiar\u0119 w Jezusa Chrystusa zi\u015bci\u0142a si\u0119 obietnica wierz\u0105cym.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 73:20; 73:19; 73:22*\nWejrzyj, o Panie, na Twoje przymierze: o \u017cyciu Twych ubogich nie zapominaj na wieki.\nV. Powsta\u0144, o Panie, prowad\u017a spraw\u0119 Twoj\u0105: wspomnij na zniewag\u0119 Twych s\u0142ug. Alleluja, alleluja.\n*Ps 89:1*\nPanie, Ty\u015b by\u0142 ucieczk\u0105 nasz\u0105 z pokolenia na pokolenie. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 17:11-19*\n*Zbawiciel uzdrawia\u0142 \u017byd\u00f3w i Samarytan, kt\u00f3rzy we\u0144 wierzyli. Jego Ko\u015bci\u00f3\u0142 nadal niesie zbawienie wszystkim, kt\u00f3rzy wierz\u0105 w Chrystusa.*\nOnego czasu: Gdy Jezus zd\u0105\u017ca\u0142 do Jeruzalem, przechodzi\u0142 \u015brodkiem Samarii i Galilei. A gdy wchodzi\u0142 do niekt\u00f3rej osady, zabieg\u0142o mu drog\u0119 dziesi\u0119ciu m\u0119\u017c\u00f3w tr\u0119dowatych, kt\u00f3rzy stan\u0119li z daleka i zawo\u0142ali m\u00f3wi\u0105c: \u00abJezusie, nauczycielu, zmi\u0142uj si\u0119 nad nami!\u00bb A ujrzawszy ich rzek\u0142: \u00abId\u017acie, uka\u017ccie si\u0119 kap\u0142anom\u00bb. I sta\u0142o si\u0119, gdy szli, \u017ce byli oczyszczeni.\nA jeden z nich, skoro zobaczy\u0142, \u017ce by\u0142 uzdrowiony, wr\u00f3ci\u0142 si\u0119, g\u0142osem wielkim wielbi\u0105c Boga, i pad\u0142 na oblicze do st\u00f3p Jego, dzi\u0119kuj\u0105c: a by\u0142 to Samarytanin. A Jezus odpowiadaj\u0105c rzek\u0142: \u00abCzy\u017c nie dziesi\u0119ciu by\u0142o oczyszczonych? Gdzie jest dziewi\u0119ciu? Nie znalaz\u0142 si\u0119 nikt, kto by wr\u00f3ci\u0142 i da\u0142 chwa\u0142\u0119 Bogu, jeno ten cudzoziemiec\u00bb. I rzek\u0142 mu: \u00abWsta\u0144, id\u017a, bo wiara twoja uzdrowi\u0142a ci\u0119\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Mdr 16:20*\nTobie ufam, o Panie; m\u00f3wi\u0119: Ty jeste\u015b Bogiem moim, w Twoim r\u0119ku losy moje.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, wejrzyj \u0142askawie na Tw\u00f3j lud, wejrzyj \u0142askawie na jego dary, a przejednany t\u0105 ofiar\u0105 udziel nam przebaczenia i wys\u0142uchaj naszych pr\u00f3\u015bb.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mdr 16:20*\nPanie, da\u0142e\u015b nam chleb z nieba, maj\u0105cy w sobie wszystkie rozkosze i s\u0142odko\u015b\u0107 wszelkiego smaku.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, aby przez przyj\u0119cie niebieskiego Sakramentu wzrasta\u0142a w nas \u0142aska wiecznego Odkupienia.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

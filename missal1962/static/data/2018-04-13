@@ -1,126 +1,128 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2018-04-13", 
+      "description": "Hermenegild, Syn kr\u00f3la Wizygot\u00f3w w Hiszpanii, zosta\u0142 wychowany w arianizmie. Po\u015blubi\u0142 ksi\u0119\u017cniczk\u0119 katolick\u0105 i pod jej wp\u0142ywem przyj\u0105\u0142 prawdziw\u0105 wiar\u0119. Rozgniewany ojciec kaza\u0142 go uwi\u0119zi\u0107, a potem \u015bci\u0105\u0107 13 kwietnia 586 roku.\n", 
+      "tempora": "Pi\u0105tek po Niedzieli Bia\u0142ej", 
+      "title": "\u015aw. Hermenegilda, M\u0119czennika"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 20:2-3.*\nIn virt\u00fate tua, D\u00f3mine, l\u00e6t\u00e1bitur justus: et super salut\u00e1re tuum exsult\u00e1bit vehem\u00e9nter: desid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei.\n*Ps 20:4*\nQu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nGl\u00f3ria Patri.\nIn virt\u00fate tua, D\u00f3mine, l\u00e6t\u00e1bitur justus: et super salut\u00e1re tuum exsult\u00e1bit vehem\u00e9nter: desid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui be\u00e1tum Hermeneg\u00edldum M\u00e1rtyrem tuum coel\u00e9sti regno terr\u00e9num postp\u00f3nere docu\u00edsti: da, qu\u01fdsumus, nobis; ejus ex\u00e9mplo cad\u00faca desp\u00edcere atque \u00e6t\u00e9rna sect\u00e1ri.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Sap 10: 10-14*\nJustum ded\u00faxit D\u00f3minus per vias rectas, et ostendit illi regnum Dei, et dedit illi sci\u00e9ntiam sanct\u00f3rum: honest\u00e1vit illum in lab\u00f3ribus, et compl\u00e9vit labores ill\u00edus. In fraude circumveni\u00e9ntium illum \u00e1ffuit illi, et hon\u00e9stum fecit illum. Custod\u00edvit illum ab inim\u00edcis, et a seduct\u00f3ribus tut\u00e1vit illum, et cert\u00e1men forte dedit illi, ut v\u00ednceret et sciret, qu\u00f3niam \u00f3mnium pot\u00e9ntior est sapi\u00e9ntia. H\u00e6c v\u00e9nditum jus\u00edum non derel\u00edquit, sed a peccat\u00f3ribus liber\u00e1vit eum: descend\u00edtque cum illo in f\u00f3veam, et in v\u00ednculis non derel\u00edquit illum, donec aff\u00e9rret illi sceptrum regni, et pot\u00e9ntiam adv\u00e9rsus eos, qui eum deprim\u00e9bant: et mend\u00e1ces ost\u00e9ndit, qui maculav\u00e9runt illum, et dedit illi clarit\u00e1tem \u00e6t\u00e9rnam, D\u00f3minus, Deus noster.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 111:1-2.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur. Allel\u00faja, allel\u00faja\n*Ps 20:4*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 111:1-2.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\n*Ps 20:3-4*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei: et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum.\nV. Qu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis.\nV. Posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 14:26-33.*\nIn illo t\u00e9mpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et ux\u00f3rem, et f\u00edlios, et fratres, et sor\u00f3res, adhuc autem et \u00e1nimam suam, non potest meus esse disc\u00edpulus. Et qui non b\u00e1julat crucem suam, et venit post me, non potest meus esse disc\u00edpulus. Quis enim ex vobis volens turrim \u00e6dific\u00e1re, non prius sedens c\u00f3mputat sumptus, qui necess\u00e1rii sunt, si h\u00e1beat ad perfici\u00e9ndum; ne, poste\u00e1quam pos\u00faerit fundam\u00e9ntum, et non pot\u00faerit perf\u00edcere, omnes, qui vident, inc\u00edpiant ill\u00fadere ei, dic\u00e9ntes: Quia hic homo coepit \u00e6dific\u00e1re, et non p\u00f3tuit consumm\u00e1re? Aut quis rex it\u00farus comm\u00edttere bellum adv\u00e9rsus \u00e1lium regem, non sedens prius cogitat, si possit cum decem m\u00edlibus occ\u00farrere ei, qui cum vig\u00ednti m\u00edlibus venit ad se? Ali\u00f3quin, adhuc illo longe ag\u00e9nte, legati\u00f3nem mittens, rogat ea, qu\u00e6 pacis sunt. Sic ergo omnis ex vobis, qui non ren\u00fantiat \u00f3mnibus, qu\u00e6 p\u00f3ssidet, non potest meus esse disc\u00edpulus.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 8:6-7*\nGl\u00f3ria et hon\u00f3re coron\u00e1sti eum: et constitu\u00edsti eum super \u00f3pera m\u00e1nuum tu\u00e1rum, D\u00f3mine.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 6: 24.*\nQui vult ven\u00edre post me, \u00e1bneget semet\u00edpsum, et tollat crucem suam, et sequ\u00e1tur me.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Da, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, sicut tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum tempor\u00e1li gratul\u00e1mur officio; ita perp\u00e9tuo l\u00e6t\u00e9mur asp\u00e9ctu.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-04-13", 
-    "description": "Hermenegild, Syn kr\u00f3la Wizygot\u00f3w w Hiszpanii, zosta\u0142 wychowany w arianizmie. Po\u015blubi\u0142 ksi\u0119\u017cniczk\u0119 katolick\u0105 i pod jej wp\u0142ywem przyj\u0105\u0142 prawdziw\u0105 wiar\u0119. Rozgniewany ojciec kaza\u0142 go uwi\u0119zi\u0107, a potem \u015bci\u0105\u0107 13 kwietnia 586 roku.\n", 
-    "tempora": "Pi\u0105tek po Niedzieli Bia\u0142ej", 
-    "title": "\u015aw. Hermenegilda, M\u0119czennika"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 20:2-3.*\nIn virt\u00fate tua, D\u00f3mine, l\u00e6t\u00e1bitur justus: et super salut\u00e1re tuum exsult\u00e1bit vehem\u00e9nter: desid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei.\n*Ps 20:4*\nQu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis: posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.\nGl\u00f3ria Patri.\nIn virt\u00fate tua, D\u00f3mine, l\u00e6t\u00e1bitur justus: et super salut\u00e1re tuum exsult\u00e1bit vehem\u00e9nter: desid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui be\u00e1tum Hermeneg\u00edldum M\u00e1rtyrem tuum coel\u00e9sti regno terr\u00e9num postp\u00f3nere docu\u00edsti: da, qu\u01fdsumus, nobis; ejus ex\u00e9mplo cad\u00faca desp\u00edcere atque \u00e6t\u00e9rna sect\u00e1ri.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Sap 10: 10-14*\nJustum ded\u00faxit D\u00f3minus per vias rectas, et ostendit illi regnum Dei, et dedit illi sci\u00e9ntiam sanct\u00f3rum: honest\u00e1vit illum in lab\u00f3ribus, et compl\u00e9vit labores ill\u00edus. In fraude circumveni\u00e9ntium illum \u00e1ffuit illi, et hon\u00e9stum fecit illum. Custod\u00edvit illum ab inim\u00edcis, et a seduct\u00f3ribus tut\u00e1vit illum, et cert\u00e1men forte dedit illi, ut v\u00ednceret et sciret, qu\u00f3niam \u00f3mnium pot\u00e9ntior est sapi\u00e9ntia. H\u00e6c v\u00e9nditum jus\u00edum non derel\u00edquit, sed a peccat\u00f3ribus liber\u00e1vit eum: descend\u00edtque cum illo in f\u00f3veam, et in v\u00ednculis non derel\u00edquit illum, donec aff\u00e9rret illi sceptrum regni, et pot\u00e9ntiam adv\u00e9rsus eos, qui eum deprim\u00e9bant: et mend\u00e1ces ost\u00e9ndit, qui maculav\u00e9runt illum, et dedit illi clarit\u00e1tem \u00e6t\u00e9rnam, D\u00f3minus, Deus noster.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 111:1-2.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur. Allel\u00faja, allel\u00faja\n*Ps 20:4*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 111:1-2.*\nBe\u00e1tus vir, qui timet D\u00f3minum: in mand\u00e1tis ejus cupit nimis.\nV. Potens in terra erit semen ejus: gener\u00e1tio rect\u00f3rum benedic\u00e9tur.\n*Ps 20:3-4*\nDesid\u00e9rium \u00e1nim\u00e6 ejus tribu\u00edsti ei: et volunt\u00e1te labi\u00f3rum ejus non fraud\u00e1sti eum.\nV. Qu\u00f3niam pr\u00e6ven\u00edsti eum in benedicti\u00f3nibus dulc\u00e9dinis.\nV. Posu\u00edsti in c\u00e1pite ejus cor\u00f3nam de l\u00e1pide preti\u00f3so.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 14:26-33.*\nIn illo t\u00e9mpore: Dixit Jesus turbis: Si quis venit ad me, et non odit patrem suum, et matrem, et ux\u00f3rem, et f\u00edlios, et fratres, et sor\u00f3res, adhuc autem et \u00e1nimam suam, non potest meus esse disc\u00edpulus. Et qui non b\u00e1julat crucem suam, et venit post me, non potest meus esse disc\u00edpulus. Quis enim ex vobis volens turrim \u00e6dific\u00e1re, non prius sedens c\u00f3mputat sumptus, qui necess\u00e1rii sunt, si h\u00e1beat ad perfici\u00e9ndum; ne, poste\u00e1quam pos\u00faerit fundam\u00e9ntum, et non pot\u00faerit perf\u00edcere, omnes, qui vident, inc\u00edpiant ill\u00fadere ei, dic\u00e9ntes: Quia hic homo coepit \u00e6dific\u00e1re, et non p\u00f3tuit consumm\u00e1re? Aut quis rex it\u00farus comm\u00edttere bellum adv\u00e9rsus \u00e1lium regem, non sedens prius cogitat, si possit cum decem m\u00edlibus occ\u00farrere ei, qui cum vig\u00ednti m\u00edlibus venit ad se? Ali\u00f3quin, adhuc illo longe ag\u00e9nte, legati\u00f3nem mittens, rogat ea, qu\u00e6 pacis sunt. Sic ergo omnis ex vobis, qui non ren\u00fantiat \u00f3mnibus, qu\u00e6 p\u00f3ssidet, non potest meus esse disc\u00edpulus.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 8:6-7*\nGl\u00f3ria et hon\u00f3re coron\u00e1sti eum: et constitu\u00edsti eum super \u00f3pera m\u00e1nuum tu\u00e1rum, D\u00f3mine.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 6: 24.*\nQui vult ven\u00edre post me, \u00e1bneget semet\u00edpsum, et tollat crucem suam, et sequ\u00e1tur me.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Da, qu\u01fdsumus, D\u00f3mine, Deus noster: ut, sicut tu\u00f3rum commemorati\u00f3ne Sanct\u00f3rum tempor\u00e1li gratul\u00e1mur officio; ita perp\u00e9tuo l\u00e6t\u00e9mur asp\u00e9ctu.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty nauczy\u0142e\u015b \u015bwi\u0119tego Hermenegilda ni\u017cej ceni\u0107 ziemskie kr\u00f3lestwo od niebieskiego: daj nam, aby\u015bmy za jego przyk\u0142adem pogardzali dobrami znikomymi, a d\u0105\u017cyli do niebieskich.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 5:1-5*\nSprawiedliwi stan\u0105 z wielk\u0105 stanowczo\u015bci\u0105 naprzeciw tych, kt\u00f3rzy ich uciskali i zniweczyli ich trudy. Na ten widok zatrwo\u017c\u0105 si\u0119 l\u0119kiem przera\u017aliwym i zadziwi\u0105 z powodu pr\u0119dkiego a niespodziewanego wybawienia, m\u00f3wi\u0105c do siebie z \u017calem i j\u0119cz\u0105c w ucisku ducha: \u00abOto ci, kt\u00f3rych niegdy\u015b wystawiali\u015bmy na po\u015bmiewisko i jakby na wzgard\u0119. My nierozumni za szale\u0144stwo poczytali\u015bmy ich \u017cycie a koniec ich za czci pozbawiony: a oto, jak zostali oni policzeni mi\u0119dzy syn\u00f3w Bo\u017cych, a udzia\u0142 ich ze \u015awi\u0119tymi\u00bb.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych. Alleluja, alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\n*Ps 20:3-4*\nSpe\u0142ni\u0142e\u015b pragnienie jego serca, pro\u015bbie ust jego nie odm\u00f3wi\u0142e\u015b.\nV. Uprzedzi\u0142e\u015b go hojnym b\u0142ogos\u0142awie\u0144stwem.\nV. W\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119, z drogich kamieni.", 
-      "id": "Tractus", 
-      "label": "Traktus"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 14:26-33*\nOnego czasu: M\u00f3wi\u0142 Jezus do rzesz: \u00abJe\u015bli kto przychodzi do mnie, a nie ma w nienawi\u015bci ojca swego i matki, \u017cony, dzieci, braci i si\u00f3str, a nadto i \u017cycia swego, nie mo\u017ce by\u0107 uczniem moim. A kto nie d\u017awiga krzy\u017ca swego i nie idzie za mn\u0105, nie mo\u017ce by\u0107 uczniem moim.\nKt\u00f3\u017c bowiem z was, zamierzaj\u0105c zbudowa\u0107 wie\u017c\u0119, nie zasiada pierwej i nie oblicza koniecznych wydatk\u00f3w, czy ma na to, aby j\u0105 wyko\u0144czy\u0107. Aby wszyscy patrz\u0105cy nie pocz\u0119li si\u0119 z niego \u015bmia\u0107, gdyby za\u0142o\u017cy\u0142 fundament, a nie zdo\u0142a\u0142 wyko\u0144czy\u0107, i aby nie m\u00f3wili: Oto ten cz\u0142owiek pocz\u0105\u0142 budowa\u0107, a nie m\u00f3g\u0142 wyko\u0144czy\u0107.\nAlbo kt\u00f3ry\u017c to kr\u00f3l, maj\u0105c stoczy\u0107 wojn\u0119 przeciw drugiemu kr\u00f3lowi, nie zasiada pierwej i nie obmy\u015bla czy m\u00f3g\u0142by z dziesi\u0119ciu tysi\u0105cami wyj\u015b\u0107 naprzeciw temu, kt\u00f3ry idzie przeciwko niemu w dwadzie\u015bcia tysi\u0119cy? Je\u015bli za\u015b nie mo\u017ce, wysy\u0142a poselstwo i prosi o pok\u00f3j wtedy, gdy tamten jeszcze daleko.\nTak wi\u0119c ka\u017cdy z was, kt\u00f3ry nie wyrzeka si\u0119 wszystkiego, co ma, nie mo\u017ce by\u0107 uczniem moim\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij, prosimy Ci\u0119, Panie, nasze dary i modlitwy, oczy\u015b\u0107 nas przez niebieskie tajemnice i \u0142askawie wys\u0142uchaj.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Daj, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy si\u0119 tak cieszyli widokiem \u015awi\u0119tych Twoich w wieczno\u015bci, jak z rado\u015bci\u0105 czcimy ich pami\u0119\u0107 obchodem doczesnym.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty nauczy\u0142e\u015b \u015bwi\u0119tego Hermenegilda ni\u017cej ceni\u0107 ziemskie kr\u00f3lestwo od niebieskiego: daj nam, aby\u015bmy za jego przyk\u0142adem pogardzali dobrami znikomymi, a d\u0105\u017cyli do niebieskich.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 5:1-5*\nSprawiedliwi stan\u0105 z wielk\u0105 stanowczo\u015bci\u0105 naprzeciw tych, kt\u00f3rzy ich uciskali i zniweczyli ich trudy. Na ten widok zatrwo\u017c\u0105 si\u0119 l\u0119kiem przera\u017aliwym i zadziwi\u0105 z powodu pr\u0119dkiego a niespodziewanego wybawienia, m\u00f3wi\u0105c do siebie z \u017calem i j\u0119cz\u0105c w ucisku ducha: \u00abOto ci, kt\u00f3rych niegdy\u015b wystawiali\u015bmy na po\u015bmiewisko i jakby na wzgard\u0119. My nierozumni za szale\u0144stwo poczytali\u015bmy ich \u017cycie a koniec ich za czci pozbawiony: a oto, jak zostali oni policzeni mi\u0119dzy syn\u00f3w Bo\u017cych, a udzia\u0142 ich ze \u015awi\u0119tymi\u00bb.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych. Alleluja, alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "*Ps 111:1-2*\nB\u0142ogos\u0142awiony m\u0105\u017c, kt\u00f3ry boi si\u0119 Pana i wielk\u0105 rado\u015b\u0107 znajduje w jego nakazach.\nV. Potomstwo jego b\u0119dzie pot\u0119\u017cne na ziemi, dozna b\u0142ogos\u0142awie\u0144stwa pokolenie prawych.\n*Ps 20:3-4*\nSpe\u0142ni\u0142e\u015b pragnienie jego serca, pro\u015bbie ust jego nie odm\u00f3wi\u0142e\u015b.\nV. Uprzedzi\u0142e\u015b go hojnym b\u0142ogos\u0142awie\u0144stwem.\nV. W\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119, z drogich kamieni.", 
+        "id": "Tractus", 
+        "label": "Traktus"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 14:26-33*\nOnego czasu: M\u00f3wi\u0142 Jezus do rzesz: \u00abJe\u015bli kto przychodzi do mnie, a nie ma w nienawi\u015bci ojca swego i matki, \u017cony, dzieci, braci i si\u00f3str, a nadto i \u017cycia swego, nie mo\u017ce by\u0107 uczniem moim. A kto nie d\u017awiga krzy\u017ca swego i nie idzie za mn\u0105, nie mo\u017ce by\u0107 uczniem moim.\nKt\u00f3\u017c bowiem z was, zamierzaj\u0105c zbudowa\u0107 wie\u017c\u0119, nie zasiada pierwej i nie oblicza koniecznych wydatk\u00f3w, czy ma na to, aby j\u0105 wyko\u0144czy\u0107. Aby wszyscy patrz\u0105cy nie pocz\u0119li si\u0119 z niego \u015bmia\u0107, gdyby za\u0142o\u017cy\u0142 fundament, a nie zdo\u0142a\u0142 wyko\u0144czy\u0107, i aby nie m\u00f3wili: Oto ten cz\u0142owiek pocz\u0105\u0142 budowa\u0107, a nie m\u00f3g\u0142 wyko\u0144czy\u0107.\nAlbo kt\u00f3ry\u017c to kr\u00f3l, maj\u0105c stoczy\u0107 wojn\u0119 przeciw drugiemu kr\u00f3lowi, nie zasiada pierwej i nie obmy\u015bla czy m\u00f3g\u0142by z dziesi\u0119ciu tysi\u0105cami wyj\u015b\u0107 naprzeciw temu, kt\u00f3ry idzie przeciwko niemu w dwadzie\u015bcia tysi\u0119cy? Je\u015bli za\u015b nie mo\u017ce, wysy\u0142a poselstwo i prosi o pok\u00f3j wtedy, gdy tamten jeszcze daleko.\nTak wi\u0119c ka\u017cdy z was, kt\u00f3ry nie wyrzeka si\u0119 wszystkiego, co ma, nie mo\u017ce by\u0107 uczniem moim\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij, prosimy Ci\u0119, Panie, nasze dary i modlitwy, oczy\u015b\u0107 nas przez niebieskie tajemnice i \u0142askawie wys\u0142uchaj.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Daj, prosimy Ci\u0119, Panie Bo\u017ce nasz, aby\u015bmy si\u0119 tak cieszyli widokiem \u015awi\u0119tych Twoich w wieczno\u015bci, jak z rado\u015bci\u0105 czcimy ich pami\u0119\u0107 obchodem doczesnym.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

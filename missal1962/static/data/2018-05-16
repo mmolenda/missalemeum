@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty czerwone", 
-      "W Polsce"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty czerwone", 
+        "W Polsce"
+      ], 
+      "date": "2018-05-16", 
+      "description": "\u015aw. Andrzej urodzi\u0142 si\u0119 w ziemi Sandomierskiej w roku 1592. Kszta\u0142ci\u0142 si\u0119 w kolegium jezuickim w Wilnie i tam wst\u0105pi\u0142 do tego\u017c zakonu. Po otrzymaniu \u015bwi\u0119ce\u0144 kap\u0142a\u0144skich pracowa\u0142 w Wilnie, a potem jako misjonarz ludowy na Polesiu, gdzie pojedna\u0142 z Ko\u015bcio\u0142em wielu schizmatyk\u00f3w. 16 maja 1657 roku pochwycili go schizmatyccy Kozacy i okrutnie zam\u0119czyli w Janowie Poleskim. Cia\u0142o, do dzisiaj nie zepsute, spoczywa w Warszawie.\n\nMsza wsp\u00f3lna nr 16 Protexisti, z wyj\u0105tkiem Kolekty, Sekrety i Pokomunii\n", 
+      "tempora": "\u015aroda po Niedzieli po Wniebowst\u0105pieniu", 
+      "title": "\u015aw. Andrzeja Boboli, M\u0119czennika"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 63:3*\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja, allel\u00faja.\n*Ps. 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a tim\u00f3re inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja, allel\u00faja.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Deus, qui in confessione verae fidei beatum Andream, multiplici suppliciorum genere excruciatum, illustri martyrio coronasti: praesta, quaesumus; ut nos in eadem fide stabiles, adversa potius omia, quam animae detrimentum patiamur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*2 Tim 2:8-10; 3:10-12.*\nCar\u00edssime: Memor esto, D\u00f3minum Jesum Christum resurrex\u00edsse a m\u00f3rtuis ex s\u00e9mine David, sec\u00fandum Evang\u00e9lium meum, in quo lab\u00f3ro usque ad v\u00edncula, quasi male \u00f3perans: sed verbum Dei non est allig\u00e1tum. Ideo \u00f3mnia sust\u00edneo propter el\u00e9ctos, ut et ipsi sal\u00fatem consequ\u00e1ntur, qu\u00e6 est in Christo Jesu, cum gl\u00f3ria coel\u00e9sti. Tu autem assec\u00fatus es meam doctr\u00ednam, instituti\u00f3nem, prop\u00f3situm, fidem, longanimit\u00e1tem, dilecti\u00f3nem, pati\u00e9ntiam, persecuti\u00f3nes, passi\u00f3nes: qu\u00e1lia mihi facta sunt Antioch\u00ed\u00e6, Ic\u00f3nii et Lystris: quales persecuti\u00f3nes sust\u00ednui, et ex \u00f3mnibus er\u00edpuit me D\u00f3minus. Et omnes, qui pie volunt v\u00edvere in Christo Jesu, persecuti\u00f3nem pati\u00e9ntur.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "Allel\u00faja, allel\u00faja\n*Ps 88:6.*\nConfiteb\u00fantur c\u0153li mirab\u00edlia tua, D\u00f3mine: \u00e9tenim verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum. Allel\u00faja\n*Ps 20:4*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 15:1-7*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Ego sum vitis vera: et Pater meus agr\u00edcola est. Omnem p\u00e1lmitem in me non fer\u00e9ntem fructum, tollet eum: et omnem, qui fert fructum, purg\u00e1bit eum, ut fructum plus \u00e1fferat. Jam vos mundi estis propter serm\u00f3nem, quem loc\u00fatus sum vobis. Mane te in me: et ego in vobis. Sicut palmes non potest ferre fructum a semet\u00edpso, nisi m\u00e1nserit in vite: sic nec vos, nisi in me mans\u00e9ritis. Ego sum vitis, vos p\u00e1lmites: qui manet in me, et ego in eo, hic fert fructum multum: quia sine me nihil pot\u00e9stis f\u00e1cere. Si quis in me non m\u00e1nserit, mitt\u00e9tur foras sicut palmes, et ar\u00e9scet, et c\u00f3lligent eum, et in ignem mittent, et ardet. Si mans\u00e9ritis in me, et verba mea in vobis m\u00e1nserint: quodc\u00famque volu\u00e9ritis, pet\u00e9tis, et fiet vobis.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 88:6*\nConfiteb\u00fantur c\u0153li mirab\u00edlia tua, D\u00f3mine: et verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum, allel\u00faja, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Offerimus tibi, Domine, hostiam immaculatam unigeniti Filii tui, enixe deprecantes, ut, quae pro salute nostra humiliter petimus, beati Andreae Martyris tui precibus et intercessione censequamur.\nPer e\u00fandem.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 63:11.*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde, allel\u00faja, allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Deam, haec sancta, Domine, in honorem beati Andreae Martyris tui de altari libavimus: concede propitius; ut, cuius exemplis instruimur, invictam constantiam imitemur.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-05-16", 
-    "description": "\u015aw. Andrzej urodzi\u0142 si\u0119 w ziemi Sandomierskiej w roku 1592. Kszta\u0142ci\u0142 si\u0119 w kolegium jezuickim w Wilnie i tam wst\u0105pi\u0142 do tego\u017c zakonu. Po otrzymaniu \u015bwi\u0119ce\u0144 kap\u0142a\u0144skich pracowa\u0142 w Wilnie, a potem jako misjonarz ludowy na Polesiu, gdzie pojedna\u0142 z Ko\u015bcio\u0142em wielu schizmatyk\u00f3w. 16 maja 1657 roku pochwycili go schizmatyccy Kozacy i okrutnie zam\u0119czyli w Janowie Poleskim. Cia\u0142o, do dzisiaj nie zepsute, spoczywa w Warszawie.\n\nMsza wsp\u00f3lna nr 16 Protexisti, z wyj\u0105tkiem Kolekty, Sekrety i Pokomunii\n", 
-    "tempora": "\u015aroda po Niedzieli po Wniebowst\u0105pieniu", 
-    "title": "\u015aw. Andrzeja Boboli, M\u0119czennika"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 63:3*\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja, allel\u00faja.\n*Ps. 63:2*\nEx\u00e1udi, Deus, orati\u00f3nem meam, cum d\u00e9precor: a tim\u00f3re inim\u00edci \u00e9ripe \u00e1nimam meam.\nGl\u00f3ria Patri.\nProtex\u00edsti me, Deus, a conv\u00e9ntu malign\u00e1ntium, allel\u00faja: a multit\u00fadine oper\u00e1ntium iniquit\u00e1tem, allel\u00faja, allel\u00faja.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Deus, qui in confessione verae fidei beatum Andream, multiplici suppliciorum genere excruciatum, illustri martyrio coronasti: praesta, quaesumus; ut nos in eadem fide stabiles, adversa potius omia, quam animae detrimentum patiamur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Timotheum.\n*2 Tim 2:8-10; 3:10-12.*\nCar\u00edssime: Memor esto, D\u00f3minum Jesum Christum resurrex\u00edsse a m\u00f3rtuis ex s\u00e9mine David, sec\u00fandum Evang\u00e9lium meum, in quo lab\u00f3ro usque ad v\u00edncula, quasi male \u00f3perans: sed verbum Dei non est allig\u00e1tum. Ideo \u00f3mnia sust\u00edneo propter el\u00e9ctos, ut et ipsi sal\u00fatem consequ\u00e1ntur, qu\u00e6 est in Christo Jesu, cum gl\u00f3ria coel\u00e9sti. Tu autem assec\u00fatus es meam doctr\u00ednam, instituti\u00f3nem, prop\u00f3situm, fidem, longanimit\u00e1tem, dilecti\u00f3nem, pati\u00e9ntiam, persecuti\u00f3nes, passi\u00f3nes: qu\u00e1lia mihi facta sunt Antioch\u00ed\u00e6, Ic\u00f3nii et Lystris: quales persecuti\u00f3nes sust\u00ednui, et ex \u00f3mnibus er\u00edpuit me D\u00f3minus. Et omnes, qui pie volunt v\u00edvere in Christo Jesu, persecuti\u00f3nem pati\u00e9ntur.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "Allel\u00faja, allel\u00faja\n*Ps 88:6.*\nConfiteb\u00fantur c\u0153li mirab\u00edlia tua, D\u00f3mine: \u00e9tenim verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum. Allel\u00faja\n*Ps 20:4*\nPosu\u00edsti, D\u00f3mine, super caput ejus cor\u00f3nam de l\u00e1pide preti\u00f3so. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 15:1-7*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Ego sum vitis vera: et Pater meus agr\u00edcola est. Omnem p\u00e1lmitem in me non fer\u00e9ntem fructum, tollet eum: et omnem, qui fert fructum, purg\u00e1bit eum, ut fructum plus \u00e1fferat. Jam vos mundi estis propter serm\u00f3nem, quem loc\u00fatus sum vobis. Mane te in me: et ego in vobis. Sicut palmes non potest ferre fructum a semet\u00edpso, nisi m\u00e1nserit in vite: sic nec vos, nisi in me mans\u00e9ritis. Ego sum vitis, vos p\u00e1lmites: qui manet in me, et ego in eo, hic fert fructum multum: quia sine me nihil pot\u00e9stis f\u00e1cere. Si quis in me non m\u00e1nserit, mitt\u00e9tur foras sicut palmes, et ar\u00e9scet, et c\u00f3lligent eum, et in ignem mittent, et ardet. Si mans\u00e9ritis in me, et verba mea in vobis m\u00e1nserint: quodc\u00famque volu\u00e9ritis, pet\u00e9tis, et fiet vobis.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 88:6*\nConfiteb\u00fantur c\u0153li mirab\u00edlia tua, D\u00f3mine: et verit\u00e1tem tuam in eccl\u00e9sia sanct\u00f3rum, allel\u00faja, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Offerimus tibi, Domine, hostiam immaculatam unigeniti Filii tui, enixe deprecantes, ut, quae pro salute nostra humiliter petimus, beati Andreae Martyris tui precibus et intercessione censequamur.\nPer e\u00fandem.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 63:11.*\nL\u00e6t\u00e1bitur justus in D\u00f3mino, et sper\u00e1bit in eo: et laudab\u00fantur omnes recti corde, allel\u00faja, allel\u00faja.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Deam, haec sancta, Domine, in honorem beati Andreae Martyris tui de altari libavimus: concede propitius; ut, cuius exemplis instruimur, invictam constantiam imitemur.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry \u015bwi\u0119tego Andrzeja udr\u0119czonego rozlicznymi katuszami za wyznawanie prawdziwej wiary uwie\u0144czy\u0142e\u015b \u015bwietnym m\u0119cze\u0144stwem; spraw, prosimy Ci\u0119, aby\u015bmy trwaj\u0105c w tej samej wierze gotowi byli ponie\u015b\u0107 raczej wszystkie przeciwno\u015bci ni\u017c szkod\u0119 na duszy.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pami\u0119taj, \u017ce Pan Jezus Chrystus z rodu Dawida powsta\u0142 z martwych wed\u0142ug Ewangelii mojej, dla kt\u00f3rej pracuj\u0119 a\u017c do wi\u0119z\u00f3w, niby z\u0142oczy\u0144ca. Ale s\u0142owo Bo\u017ce nie jest zwi\u0105zane. Przeto wszystko znosz\u0119 ze wzgl\u0119du na wybranych, aby i oni dost\u0105pili zbawienia, kt\u00f3re jest w Chrystusie Jezusie z chwa\u0142\u0105 niebiesk\u0105.\nLecz ty pozna\u0142e\u015b z bliska moj\u0105 nauk\u0119, post\u0119powanie, zamiary, wiar\u0119, wytrwa\u0142o\u015b\u0107, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107, prze\u015bladowania, uciski, jakie mi\u0119 spotka\u0142y w Antiochii, w Ikonium i w Lystrze. Jakie prze\u015bladowania znios\u0142em i jak ze wszystkich wybawi\u0142 mi\u0119 Pan. I wszyscy, kt\u00f3rzy chc\u0105 \u017cy\u0107 pobo\u017cnie w Chrystusie Jezusie, prze\u015bladowanie cierpie\u0107 b\u0119d\u0105.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 15:1-7*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abJam jest prawdziwy krzew winny, a Ojciec m\u00f3j jest rolnikiem. Wszelk\u0105 latoro\u015bl, kt\u00f3ra we mnie nie przynosi owocu, odetnie, a t\u0119, kt\u00f3ra przynosi owoc, oczy\u015bci, aby wi\u0119cej owocu przynosi\u0142a. Wy ju\u017c jeste\u015bcie oczyszczeni dzi\u0119ki nauce, kt\u00f3r\u0105 wam oznajmi\u0142em.\nTrwajcie we mnie, a ja w was. Jak latoro\u015bl nie mo\u017ce przynosi\u0107 owocu sama z siebie, je\u015bli nie tkwi w winnym krzewie, tak i wy, je\u015bli we mnie pozostawa\u0107 nie b\u0119dziecie. Jam winnym krzewem, a wy latoro\u015blami. Kto mieszka we mnie, a ja w nim, ten wiele owocu przynosi; bo beze mnie nic uczyni\u0107 nie mo\u017cecie. Kto nie b\u0119dzie trwa\u0142 we mnie, odrzucony b\u0119dzie precz, niby latoro\u015bl, i uschnie; zbior\u0105 j\u0105, do ognia wrzuc\u0105 i zgorzeje.\nJe\u015bli trwa\u0107 b\u0119dziecie we mnie, a s\u0142owa moje w was, o cokolwiek zechcecie, prosi\u0107 b\u0119dziecie, a stanie si\u0119 wam\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adamy Ci, Panie, niepokalan\u0105 ofiar\u0119\u00a0Jednorodzonego Syna Twego, usilnie b\u0142agaj\u0105c, aby\u015bmy przez modlitw\u0119 i or\u0119downictwo \u015bw. Andrzeja, Twego M\u0119czennika, uzyskali to, o co z pokor\u0105 prosimy dla swego zbawienia.\nPrzez tego\u017c Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie, gdy\u015bmy spo\u017cyli te \u015bwi\u0119te dary z o\u0142tarza ku czci \u015bw. M\u0119czennika Twego Andrzeja, udziel nam \u0142askawie, aby\u015bmy pouczeni jego przyk\u0142adem na\u015bladowali niez\u0142omn\u0105 jego sta\u0142o\u015b\u0107.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 63:3*\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.\n*Ps 63:2*\nS\u0142uchaj, Bo\u017ce, g\u0142osu mojego, gdy si\u0119 \u017cal\u0119; od strachu przed wrogiem zachowaj me \u017cycie.\nChwa\u0142a Ojcu.\nOcali\u0142e\u015b mi\u0119, Bo\u017ce, od zgrai z\u0142oczy\u0144c\u00f3w, alleluja, i od gromady czyni\u0105cych nieprawo\u015b\u0107, alleluja, alleluja.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry \u015bwi\u0119tego Andrzeja udr\u0119czonego rozlicznymi katuszami za wyznawanie prawdziwej wiary uwie\u0144czy\u0142e\u015b \u015bwietnym m\u0119cze\u0144stwem; spraw, prosimy Ci\u0119, aby\u015bmy trwaj\u0105c w tej samej wierze gotowi byli ponie\u015b\u0107 raczej wszystkie przeciwno\u015bci ni\u017c szkod\u0119 na duszy.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pami\u0119taj, \u017ce Pan Jezus Chrystus z rodu Dawida powsta\u0142 z martwych wed\u0142ug Ewangelii mojej, dla kt\u00f3rej pracuj\u0119 a\u017c do wi\u0119z\u00f3w, niby z\u0142oczy\u0144ca. Ale s\u0142owo Bo\u017ce nie jest zwi\u0105zane. Przeto wszystko znosz\u0119 ze wzgl\u0119du na wybranych, aby i oni dost\u0105pili zbawienia, kt\u00f3re jest w Chrystusie Jezusie z chwa\u0142\u0105 niebiesk\u0105.\nLecz ty pozna\u0142e\u015b z bliska moj\u0105 nauk\u0119, post\u0119powanie, zamiary, wiar\u0119, wytrwa\u0142o\u015b\u0107, mi\u0142o\u015b\u0107, cierpliwo\u015b\u0107, prze\u015bladowania, uciski, jakie mi\u0119 spotka\u0142y w Antiochii, w Ikonium i w Lystrze. Jakie prze\u015bladowania znios\u0142em i jak ze wszystkich wybawi\u0142 mi\u0119 Pan. I wszyscy, kt\u00f3rzy chc\u0105 \u017cy\u0107 pobo\u017cnie w Chrystusie Jezusie, prze\u015bladowanie cierpie\u0107 b\u0119d\u0105.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych. Alleluja.\n*Ps 20:4*\nPanie, w\u0142o\u017cy\u0142e\u015b mu na g\u0142ow\u0119 koron\u0119 z drogich kamieni. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 15:1-7*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abJam jest prawdziwy krzew winny, a Ojciec m\u00f3j jest rolnikiem. Wszelk\u0105 latoro\u015bl, kt\u00f3ra we mnie nie przynosi owocu, odetnie, a t\u0119, kt\u00f3ra przynosi owoc, oczy\u015bci, aby wi\u0119cej owocu przynosi\u0142a. Wy ju\u017c jeste\u015bcie oczyszczeni dzi\u0119ki nauce, kt\u00f3r\u0105 wam oznajmi\u0142em.\nTrwajcie we mnie, a ja w was. Jak latoro\u015bl nie mo\u017ce przynosi\u0107 owocu sama z siebie, je\u015bli nie tkwi w winnym krzewie, tak i wy, je\u015bli we mnie pozostawa\u0107 nie b\u0119dziecie. Jam winnym krzewem, a wy latoro\u015blami. Kto mieszka we mnie, a ja w nim, ten wiele owocu przynosi; bo beze mnie nic uczyni\u0107 nie mo\u017cecie. Kto nie b\u0119dzie trwa\u0142 we mnie, odrzucony b\u0119dzie precz, niby latoro\u015bl, i uschnie; zbior\u0105 j\u0105, do ognia wrzuc\u0105 i zgorzeje.\nJe\u015bli trwa\u0107 b\u0119dziecie we mnie, a s\u0142owa moje w was, o cokolwiek zechcecie, prosi\u0107 b\u0119dziecie, a stanie si\u0119 wam\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 88:6*\nNiebiosa wielbi\u0105 cuda Twoje, Panie, a wierno\u015b\u0107 Twoj\u0105 zgromadzenie \u015bwi\u0119tych, alleluja, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adamy Ci, Panie, niepokalan\u0105 ofiar\u0119\u00a0Jednorodzonego Syna Twego, usilnie b\u0142agaj\u0105c, aby\u015bmy przez modlitw\u0119 i or\u0119downictwo \u015bw. Andrzeja, Twego M\u0119czennika, uzyskali to, o co z pokor\u0105 prosimy dla swego zbawienia.\nPrzez tego\u017c Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 63:11*\nSprawiedliwy weseli si\u0119 w Panu i do Niego si\u0119 ucieka, a wszyscy prawego serca si\u0119 chlubi\u0105, alleluja, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie, gdy\u015bmy spo\u017cyli te \u015bwi\u0119te dary z o\u0142tarza ku czci \u015bw. M\u0119czennika Twego Andrzeja, udziel nam \u0142askawie, aby\u015bmy pouczeni jego przyk\u0142adem na\u015bladowali niez\u0142omn\u0105 jego sta\u0142o\u015b\u0107.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

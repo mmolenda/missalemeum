@@ -1,106 +1,108 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty bia\u0142e"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty bia\u0142e"
+      ], 
+      "date": "2019-05-13", 
+      "description": "\u015aw. Robert urodzi\u0142 si\u0119 w Montepulciano w Toskanii w roku 1542. Maj\u0105c 18 lat wst\u0105pi\u0142 do Towarzystwa Jezusowego. Pracowa\u0142 jako kaznodzieja i profesor teologii w Lowanium i w Rzymie, gdzie by\u0142 spowiednikiem \u015bw. Alojzego Gonzagi. W Rzymie r\u00f3wnie\u017c powsta\u0142o jego trzytomowe dzie\u0142o zbijaj\u0105ce b\u0142\u0119dy protestant\u00f3w oraz dwa katechizmy. Mniejszy zosta\u0142 przet\u0142umaczony na 60 j\u0119zyk\u00f3w. \u015aw. Robert by\u0142 doradc\u0105 trzech papie\u017cy. W roku 1599 zosta\u0142 kardyna\u0142em i arcybiskupem Kapui. Pod koniec \u017cycia zrzek\u0142 si\u0119 swoich godno\u015bci i zamieszka\u0142 w domu nowicjatu, w kt\u00f3rym umar\u0142 w roku 1621.\n", 
+      "tempora": "Poniedzia\u0142ek po 3 Niedzieli po Wielkanocy", 
+      "title": "\u015aw. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "Deus, qui ad err\u00f3rem ins\u00eddias repell\u00e9ndas et apost\u00f3lic\u00e6 Sedis jura propugn\u00e1nda, be\u00e1tum Rob\u00e9rtum Pont\u00edficem tuum atque Doct\u00f3rem mira eruditi\u00f3ne et virt\u00fate decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut nos in verit\u00e1tis am\u00f3re cresc\u00e1mus et err\u00e1ntium corda ad Eccl\u00e9si\u00e6 tu\u00e6 r\u00e9deant unit\u00e1tem.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Sap 7:7-14*\nOpt\u00e1vi, et datus est mihi sensus: et invoc\u00e1vi, et venit in me sp\u00edritus sapi\u00e9nti\u00e6: et pr\u00e6p\u00f3sui illam regnis et s\u00e9dibus, et div\u00edtias nihil esse duxi in comparati\u00f3ne ill\u00edus: nec compar\u00e1vi illi l\u00e1pidem preti\u00f3sum: qu\u00f3niam omne aurum in comparati\u00f3ne ill\u00edus arena est ex\u00edgua, et tamquam lutum \u00e6stim\u00e1bitur arg\u00e9ntum in consp\u00e9ctu ill\u00edus. Super sal\u00fatem et sp\u00e9ciem dil\u00e9xi illam, et prop\u00f3sui pro luce hab\u00e9re illam: qu\u00f3niam inexstingu\u00edbile est lumen ill\u00edus. Ven\u00e9runt autem mihi \u00f3mnia bona p\u00e1riter cum illa, et innumer\u00e1bilis hon\u00e9stas per manus ill\u00edus, et l\u00e6t\u00e1tus sum in \u00f3mnibus: qu\u00f3niam anteced\u00e9bat me ista sapi\u00e9ntia, et ignor\u00e1bam, qu\u00f3niam horum \u00f3mnium mater est. Quam sine ficti\u00f3ne d\u00eddici et sine inv\u00eddia comm\u00fanico, et honest\u00e1tem ill\u00edus non absc\u00f3ndo. Infin\u00edtus enim thes\u00e1urus est hom\u00ednibus: quo qui usi sunt, part\u00edcipes facti sunt amic\u00edti\u00e6 Dei, propter discipl\u00edn\u00e6 dona commend\u00e1ti.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Eccli 44:16*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20*\nNon est inv\u00e9ntus s\u00edmilis illi, qui conserv\u00e1ret legem Exc\u00e9lsi. Allel\u00faja, allel\u00faja.\nV. Qui ad just\u00edtiam er\u00fadiunt multos quasi stell\u00e6 in perp\u00e9tuas \u00e6ternit\u00e1tes. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "*Ps 91:2; 91:3; 91:5*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\nV. Quia delect\u00e1sti me, D\u00f3mine, in fact\u00fara tua, et in op\u00e9ribus m\u00e1nuum tu\u00e1rum exsult\u00e1bo.", 
+        "id": "Tractus", 
+        "label": "Tractus"
+      }, 
+      {
+        "body": "*Ps 72:28*\nMihi autem adh\u00e6r\u00e9re Deo bonum est, p\u00f3nere in D\u00f3mino Deo spem meam: ut ann\u00fantiem pmnes pr\u00e6dicati\u00f3nes tuas in portis f\u00edli\u00e6 Sion, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00f3stias tibi, D\u00f3mine, in od\u00f3rem suavit\u00e1tis off\u00e9rimus: et pr\u00e6sta; ut, be\u00e1ti Rob\u00e9rti m\u00f3nitis et ex\u00e9mplis ed\u00f3cti, per s\u00e9mitam mandat\u00f3rum tu\u00f3rum dilat\u00e1to corde curr\u00e1mus.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 5:14; 5:16*\nVos estis lux mundi: sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum qui in coelis est, allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sacram\u00e9nta, qu\u00e6 s\u00fampsimus, D\u00f3mine Deus noster, in nobis f\u00f3veant carit\u00e1tis ard\u00f3rem: quo be\u00e1tus Rob\u00e9rtus vehem\u00e9nter acc\u00e9nsus, pro Eccl\u00e9sia tua se j\u00fagiter impend\u00e9bat.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-05-13", 
-    "description": "\u015aw. Robert urodzi\u0142 si\u0119 w Montepulciano w Toskanii w roku 1542. Maj\u0105c 18 lat wst\u0105pi\u0142 do Towarzystwa Jezusowego. Pracowa\u0142 jako kaznodzieja i profesor teologii w Lowanium i w Rzymie, gdzie by\u0142 spowiednikiem \u015bw. Alojzego Gonzagi. W Rzymie r\u00f3wnie\u017c powsta\u0142o jego trzytomowe dzie\u0142o zbijaj\u0105ce b\u0142\u0119dy protestant\u00f3w oraz dwa katechizmy. Mniejszy zosta\u0142 przet\u0142umaczony na 60 j\u0119zyk\u00f3w. \u015aw. Robert by\u0142 doradc\u0105 trzech papie\u017cy. W roku 1599 zosta\u0142 kardyna\u0142em i arcybiskupem Kapui. Pod koniec \u017cycia zrzek\u0142 si\u0119 swoich godno\u015bci i zamieszka\u0142 w domu nowicjatu, w kt\u00f3rym umar\u0142 w roku 1621.\n", 
-    "tempora": "Poniedzia\u0142ek po 3 Niedzieli po Wielkanocy", 
-    "title": "\u015aw. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "Deus, qui ad err\u00f3rem ins\u00eddias repell\u00e9ndas et apost\u00f3lic\u00e6 Sedis jura propugn\u00e1nda, be\u00e1tum Rob\u00e9rtum Pont\u00edficem tuum atque Doct\u00f3rem mira eruditi\u00f3ne et virt\u00fate decor\u00e1sti: ejus m\u00e9ritis et intercessi\u00f3ne conc\u00e9de; ut nos in verit\u00e1tis am\u00f3re cresc\u00e1mus et err\u00e1ntium corda ad Eccl\u00e9si\u00e6 tu\u00e6 r\u00e9deant unit\u00e1tem.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio libri Sapi\u00e9nti\u00e6.\n*Sap 7:7-14*\nOpt\u00e1vi, et datus est mihi sensus: et invoc\u00e1vi, et venit in me sp\u00edritus sapi\u00e9nti\u00e6: et pr\u00e6p\u00f3sui illam regnis et s\u00e9dibus, et div\u00edtias nihil esse duxi in comparati\u00f3ne ill\u00edus: nec compar\u00e1vi illi l\u00e1pidem preti\u00f3sum: qu\u00f3niam omne aurum in comparati\u00f3ne ill\u00edus arena est ex\u00edgua, et tamquam lutum \u00e6stim\u00e1bitur arg\u00e9ntum in consp\u00e9ctu ill\u00edus. Super sal\u00fatem et sp\u00e9ciem dil\u00e9xi illam, et prop\u00f3sui pro luce hab\u00e9re illam: qu\u00f3niam inexstingu\u00edbile est lumen ill\u00edus. Ven\u00e9runt autem mihi \u00f3mnia bona p\u00e1riter cum illa, et innumer\u00e1bilis hon\u00e9stas per manus ill\u00edus, et l\u00e6t\u00e1tus sum in \u00f3mnibus: qu\u00f3niam anteced\u00e9bat me ista sapi\u00e9ntia, et ignor\u00e1bam, qu\u00f3niam horum \u00f3mnium mater est. Quam sine ficti\u00f3ne d\u00eddici et sine inv\u00eddia comm\u00fanico, et honest\u00e1tem ill\u00edus non absc\u00f3ndo. Infin\u00edtus enim thes\u00e1urus est hom\u00ednibus: quo qui usi sunt, part\u00edcipes facti sunt amic\u00edti\u00e6 Dei, propter discipl\u00edn\u00e6 dona commend\u00e1ti.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Eccli 44:16*\nEcce sac\u00e9rdos magnus, qui in di\u00e9bus suis pl\u00e1cuit Deo.\n*Eccli 44:20*\nNon est inv\u00e9ntus s\u00edmilis illi, qui conserv\u00e1ret legem Exc\u00e9lsi. Allel\u00faja, allel\u00faja.\nV. Qui ad just\u00edtiam er\u00fadiunt multos quasi stell\u00e6 in perp\u00e9tuas \u00e6ternit\u00e1tes. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "*Ps 91:2; 91:3; 91:5*\nBonum est confit\u00e9ri D\u00f3mino: et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.\nV. Ad annunti\u00e1ndum mane miseric\u00f3rdiam tuam, et verit\u00e1tem tuam per noctem.\nV. Quia delect\u00e1sti me, D\u00f3mine, in fact\u00fara tua, et in op\u00e9ribus m\u00e1nuum tu\u00e1rum exsult\u00e1bo.", 
-      "id": "Tractus", 
-      "label": "Tractus"
-    }, 
-    {
-      "body": "*Ps 72:28*\nMihi autem adh\u00e6r\u00e9re Deo bonum est, p\u00f3nere in D\u00f3mino Deo spem meam: ut ann\u00fantiem pmnes pr\u00e6dicati\u00f3nes tuas in portis f\u00edli\u00e6 Sion, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00f3stias tibi, D\u00f3mine, in od\u00f3rem suavit\u00e1tis off\u00e9rimus: et pr\u00e6sta; ut, be\u00e1ti Rob\u00e9rti m\u00f3nitis et ex\u00e9mplis ed\u00f3cti, per s\u00e9mitam mandat\u00f3rum tu\u00f3rum dilat\u00e1to corde curr\u00e1mus.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 5:14; 5:16*\nVos estis lux mundi: sic l\u00faceat lux vestra coram hom\u00ednibus, ut v\u00eddeant \u00f3pera vestra bona, et glor\u00edficent Patrem vestrum qui in coelis est, allel\u00faja.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sacram\u00e9nta, qu\u00e6 s\u00fampsimus, D\u00f3mine Deus noster, in nobis f\u00f3veant carit\u00e1tis ard\u00f3rem: quo be\u00e1tus Rob\u00e9rtus vehem\u00e9nter acc\u00e9nsus, pro Eccl\u00e9sia tua se j\u00fagiter impend\u00e9bat.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, Ty\u015b dla usuni\u0119cia podst\u0119pnych b\u0142\u0119d\u00f3w i dla obrony praw Stolicy Apostolskiej ozdobi\u0142 \u015bw. Roberta, Twego Biskupa i Doktora, przedziwn\u0105 uczono\u015bci\u0105 i cnot\u0105; spraw, niechaj dzi\u0119ki jego zas\u0142ugom i wstawiennictwu wzrastamy w umi\u0142owaniu prawdy, a serca b\u0142\u0105dz\u0105cych niech wr\u00f3c\u0105 do jedno\u015bci z Twoim Ko\u015bcio\u0142em.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 7:7-14*\nPragn\u0105\u0142em, a dano mi zrozumienie; i b\u0142aga\u0142em, a sp\u0142yn\u0105\u0142 na mnie duch m\u0105dro\u015bci. I wy\u017cej j\u0105 stawi\u0142em nad kr\u00f3lestwa i stolic\u0119, i bogactwo sobie za nic poczyta\u0142em w por\u00f3wnaniu z ni\u0105. Ani nie przyr\u00f3wna\u0142em jej do drogocennego kamienia: bo wszelkie z\u0142oto w por\u00f3wnaniu z ni\u0105 jest lichym piaskiem, a srebro wobec niej poczytane b\u0119dzie za b\u0142oto.\nPonad zdrowie i pi\u0119kno umi\u0142owa\u0142em j\u0105 i postanowi\u0142em mie\u0107 j\u0105 za \u015bwiat\u0142o: bo blask jej jest nie do ugaszenia. A wraz z ni\u0105 wszelkie dobra na mnie sp\u0142yn\u0119\u0142y, i nieoceniona cze\u015b\u0107 przez jej r\u0119ce, i uradowa\u0142em si\u0119 tym wszystkim: bo sz\u0142a przede mn\u0105 owa m\u0105dro\u015b\u0107, a nie wiedzia\u0142em, \u017ce to ona jest matk\u0105 tych wszystkich rzeczy. Nauczy\u0142em si\u0119 jej bez ob\u0142udy i bez zazdro\u015bci jej udzielam, a pi\u0119kna jej nie ukrywam. Bo niesko\u0144czonym jest skarbem dla ludzi; a kt\u00f3rzy nim si\u0119 pos\u0142u\u017cyli, stali si\u0119 uczestnikami Bo\u017cej przyja\u017ani, zaleceni darami nauki.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abWy jeste\u015bcie sol\u0105 ziemi. A je\u015bli s\u00f3l zwietrzeje, czym\u017ce si\u0119 soli\u0107 b\u0119dzie? Na nic si\u0119 wi\u0119cej nie przyda, jeno aby by\u0142a precz wyrzucona i podeptana przez ludzi. Wy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Nie mo\u017ce skry\u0107 si\u0119 miasto na g\u00f3rze le\u017c\u0105ce. Ani te\u017c nie zapalaj\u0105 \u015bwiecy i nie k\u0142ad\u0105 jej pod korzec, ale na \u015bwieczniku, aby \u015bwieci\u0142a wszystkim, kt\u00f3rzy s\u0105 w domu. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech. Nie mniemajcie, \u017cem przyszed\u0142 rozwi\u0105zywa\u0107 Zakon i Prorok\u00f3w: nie przyszed\u0142em rozwi\u0105zywa\u0107, ale wype\u0142ni\u0107. Zaprawd\u0119 bowiem powiadam wam: Dop\u00f3ki nie przemin\u0105 niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni si\u0119 w Zakonie, a\u017c si\u0119 wszystko wype\u0142ni. Kto by tedy przest\u0105pi\u0142 jedno z tych przykaza\u0144 najmniejszych i tak by ludzi naucza\u0142, b\u0119dzie zwany najmniejszym w Kr\u00f3lestwie Niebieskim. A kto by wype\u0142nia\u0142 i naucza\u0142, ten b\u0119dzie zwany wielkim w Kr\u00f3lestwie Niebieskim\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 72:28*\nMnie za\u015b dobrze jest by\u0107 blisko Boga, w Panu Bogu pok\u0142ada\u0107 nadziej\u0119 i g\u0142osi\u0107 wszystkie dzie\u0142a Twoje w bramach c\u00f3ry Syjo\u0144skiej, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Sk\u0142adamy Ci, Panie, dary ofiarne jako mi\u0142\u0105 wonno\u015b\u0107; spraw, aby\u015bmy pouczeni nauk\u0105 i przyk\u0142adem \u015bw. Roberta z radosnym sercem biegli drog\u0105 Twoich przykaza\u0144.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 5:14; 5:16*\nWy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Panie Bo\u017ce nasz, niech przyj\u0119ty przez nas Sakrament podtrzymuje w na\u015b\u00a0\u017car mi\u0142o\u015bci, kt\u00f3rym rozpalony \u015bw. Robert po\u015bwi\u0119ca\u0142 si\u0119\u00a0nieustannie dla Twojego Ko\u015bcio\u0142a.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 15:5*\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.\n*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.\nChwa\u0142a Ojcu.\nW po\u015brodku Ko\u015bcio\u0142a Pan otworzy\u0142 jego usta, nape\u0142ni\u0142 go duchem m\u0105dro\u015bci i rozumu i przyodzia\u0142 go szat\u0105 chwa\u0142y.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, Ty\u015b dla usuni\u0119cia podst\u0119pnych b\u0142\u0119d\u00f3w i dla obrony praw Stolicy Apostolskiej ozdobi\u0142 \u015bw. Roberta, Twego Biskupa i Doktora, przedziwn\u0105 uczono\u015bci\u0105 i cnot\u0105; spraw, niechaj dzi\u0119ki jego zas\u0142ugom i wstawiennictwu wzrastamy w umi\u0142owaniu prawdy, a serca b\u0142\u0105dz\u0105cych niech wr\u00f3c\u0105 do jedno\u015bci z Twoim Ko\u015bcio\u0142em.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 7:7-14*\nPragn\u0105\u0142em, a dano mi zrozumienie; i b\u0142aga\u0142em, a sp\u0142yn\u0105\u0142 na mnie duch m\u0105dro\u015bci. I wy\u017cej j\u0105 stawi\u0142em nad kr\u00f3lestwa i stolic\u0119, i bogactwo sobie za nic poczyta\u0142em w por\u00f3wnaniu z ni\u0105. Ani nie przyr\u00f3wna\u0142em jej do drogocennego kamienia: bo wszelkie z\u0142oto w por\u00f3wnaniu z ni\u0105 jest lichym piaskiem, a srebro wobec niej poczytane b\u0119dzie za b\u0142oto.\nPonad zdrowie i pi\u0119kno umi\u0142owa\u0142em j\u0105 i postanowi\u0142em mie\u0107 j\u0105 za \u015bwiat\u0142o: bo blask jej jest nie do ugaszenia. A wraz z ni\u0105 wszelkie dobra na mnie sp\u0142yn\u0119\u0142y, i nieoceniona cze\u015b\u0107 przez jej r\u0119ce, i uradowa\u0142em si\u0119 tym wszystkim: bo sz\u0142a przede mn\u0105 owa m\u0105dro\u015b\u0107, a nie wiedzia\u0142em, \u017ce to ona jest matk\u0105 tych wszystkich rzeczy. Nauczy\u0142em si\u0119 jej bez ob\u0142udy i bez zazdro\u015bci jej udzielam, a pi\u0119kna jej nie ukrywam. Bo niesko\u0144czonym jest skarbem dla ludzi; a kt\u00f3rzy nim si\u0119 pos\u0142u\u017cyli, stali si\u0119 uczestnikami Bo\u017cej przyja\u017ani, zaleceni darami nauki.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abWy jeste\u015bcie sol\u0105 ziemi. A je\u015bli s\u00f3l zwietrzeje, czym\u017ce si\u0119 soli\u0107 b\u0119dzie? Na nic si\u0119 wi\u0119cej nie przyda, jeno aby by\u0142a precz wyrzucona i podeptana przez ludzi. Wy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Nie mo\u017ce skry\u0107 si\u0119 miasto na g\u00f3rze le\u017c\u0105ce. Ani te\u017c nie zapalaj\u0105 \u015bwiecy i nie k\u0142ad\u0105 jej pod korzec, ale na \u015bwieczniku, aby \u015bwieci\u0142a wszystkim, kt\u00f3rzy s\u0105 w domu. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech. Nie mniemajcie, \u017cem przyszed\u0142 rozwi\u0105zywa\u0107 Zakon i Prorok\u00f3w: nie przyszed\u0142em rozwi\u0105zywa\u0107, ale wype\u0142ni\u0107. Zaprawd\u0119 bowiem powiadam wam: Dop\u00f3ki nie przemin\u0105 niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni si\u0119 w Zakonie, a\u017c si\u0119 wszystko wype\u0142ni. Kto by tedy przest\u0105pi\u0142 jedno z tych przykaza\u0144 najmniejszych i tak by ludzi naucza\u0142, b\u0119dzie zwany najmniejszym w Kr\u00f3lestwie Niebieskim. A kto by wype\u0142nia\u0142 i naucza\u0142, ten b\u0119dzie zwany wielkim w Kr\u00f3lestwie Niebieskim\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 72:28*\nMnie za\u015b dobrze jest by\u0107 blisko Boga, w Panu Bogu pok\u0142ada\u0107 nadziej\u0119 i g\u0142osi\u0107 wszystkie dzie\u0142a Twoje w bramach c\u00f3ry Syjo\u0144skiej, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Sk\u0142adamy Ci, Panie, dary ofiarne jako mi\u0142\u0105 wonno\u015b\u0107; spraw, aby\u015bmy pouczeni nauk\u0105 i przyk\u0142adem \u015bw. Roberta z radosnym sercem biegli drog\u0105 Twoich przykaza\u0144.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 5:14; 5:16*\nWy jeste\u015bcie \u015bwiat\u0142o\u015bci\u0105 \u015bwiata. Tak niechaj \u015bwieci \u015bwiat\u0142o\u015b\u0107 wasza przed lud\u017ami, aby widzieli dobre czyny wasze i chwalili Ojca waszego, kt\u00f3ry jest w niebiesiech, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Panie Bo\u017ce nasz, niech przyj\u0119ty przez nas Sakrament podtrzymuje w na\u015b\u00a0\u017car mi\u0142o\u015bci, kt\u00f3rym rozpalony \u015bw. Robert po\u015bwi\u0119ca\u0142 si\u0119\u00a0nieustannie dla Twojego Ko\u015bcio\u0142a.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

@@ -1,157 +1,159 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
-      "1 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Naj\u015bwi\u0119tszej Maryi Panny Wi\u0119kszej", 
+        "1 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2017-06-07", 
+      "description": "Duch \u015awi\u0119ty prowadzi Ko\u015bci\u00f3\u0142 ku wieczno\u015bci (antyfona na wej\u015bcie) daj\u0105c mu zrozumienie prawd Bo\u017cych (kolekta), obdarzaj\u0105c charyzmatami (lekcja) i pokojem (antyfona na komuni\u0119).\n", 
+      "tempora": null, 
+      "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 67:8 67:9*\nDeus, dum egreder\u00e9ris coram p\u00f3pulo tuo, iter f\u00e1ciens eis, h\u00e1bitans in illis, allel\u00faja: terra mota est, coeli distillav\u00e9runt, allel\u00faja, allel\u00faja.\n*Ps. 67:2.*\nExs\u00fargat Deus, et dissip\u00e9ntur inim\u00edci ejus: et f\u00fagiant, qui od\u00e9runt eum, a f\u00e1cie ejus.\nGl\u00f3ria Patri.\nDeus, dum egreder\u00e9ris coram p\u00f3pulo tuo, iter f\u00e1ciens eis, h\u00e1bitans in illis, allel\u00faja: terra mota est, coeli distillav\u00e9runt, allel\u00faja, allel\u00faja.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Mentes nostras, qu\u01fdsumus, D\u00f3mine, Par\u00e1clitus, qui a te proc\u00e9dit, ill\u00faminet: et ind\u00facat in omnem, sicut tuus prom\u00edsit F\u00edlius, verit\u00e1tem:\nQui tecum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens et mis\u00e9ricors Deus: ut Sp\u00edritus Sanctus adv\u00e9niens, templum nos gl\u00f3ri\u00e6 su\u00e6 dign\u00e1nter inhabit\u00e1ndo perf\u00edciat.\nPer Dominum.", 
+        "id": "OratioL1", 
+        "label": "OratioL1"
+      }, 
+      {
+        "body": "L\u00e9ctio Actuum Apostol\u00f3rum\n*Acts 5:12-16*\nIn di\u00e9bus illis: Per manus autem Apostol\u00f3rum fi\u00e9bant signa et prod\u00edgia multa in plebe. Et erant unan\u00edmiter omnes in p\u00f3rticu Salom\u00f3nis. Ceter\u00f3rum autem nemo aud\u00e9bat se conj\u00fangere illis: sed magnific\u00e1bat eos p\u00f3pulus. Magis autem augeb\u00e1tur cred\u00e9ntium in D\u00f3mino multit\u00fado vir\u00f3rum ac mul\u00ederum, ita ut in pl\u00e1teas ej\u00edcerent inf\u00edrmos, et p\u00f3nerent in l\u00e9ctulis ac grab\u00e1tis, ut, veni\u00e9nte Petro, saltem umbra ill\u00edus obumbr\u00e1ret quemquam ill\u00f3rum, et liberar\u00e9ntur ab infirmit\u00e1tibus suis. Concurr\u00e9bat autem et multit\u00fado vicin\u00e1rum civit\u00e1tum Jer\u00fasalem, affer\u00e9ntes \u00e6gros et vex\u00e1tos a spir\u00edtibus imm\u00fandis: qui curab\u00e1ntur omnes.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "L\u00e9ctio Actuum Apostol\u00f3rum\n*Act 2:14-21.*\nIn di\u00e9bus illis: Stans Petrus cum \u00fandecim, lev\u00e1vit vocem suam, et loc\u00fatus est eis: Viri Judaei, et qui habit\u00e1tis Jer\u00fasalem univ\u00e9rsi, hoc vobis notum sit, et \u00e1uribus perc\u00edpite verba mea. Non enim, sicut vos \u00e6stim\u00e1tis, hi \u00e9brii sunt, cum sit hora di\u00e9i t\u00e9rtia: sed hoc est, quod dictum est per Proph\u00e9tam Jo\u00ebl: Et erit in nov\u00edssimis di\u00e9bus - dicit D\u00f3minus - eff\u00fandam de Sp\u00edritu meo super omnem carnem, et prophet\u00e1bunt f\u00edlii vestri et f\u00edli\u00e6 vestr\u00e6, et j\u00favenes vestri visi\u00f3nes vid\u00e9bunt, et seni\u00f3res vestri s\u00f3mnia somni\u00e1bunt. Et quidem super servos meos et super anc\u00edllas meas in di\u00e9bus illis eff\u00fandam de Sp\u00edritu meo, et prophet\u00e1bunt: et dabo prod\u00edgia in coelo sursum et signa in terra de\u00f3rsum, s\u00e1nguinem et ignem et vap\u00f3rem fumi. Sol convert\u00e9tur in t\u00e9nebras et luna in s\u00e1nguinem, antequam v\u00e9niat dies D\u00f3mini magnus et manif\u00e9stus. Et erit: omnis, quic\u00famque invoc\u00e1verit nomen D\u00f3mini, salvus erit. Allel\u00faja.\nDeo gratias.", 
+        "id": "LectioL1", 
+        "label": "LectioL1"
+      }, 
+      {
+        "body": "Allel\u00faja, allel\u00faja.\nV. (Hic genuflectitur) Veni, Sancte Sp\u00edritus, reple tu\u00f3rum corda fid\u00e9lium: et tui am\u00f3ris in eis ignem acc\u00e9nde.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Alleluia.\n*Ps 32:6*\nVerbo D\u00f3mini coeli firm\u00e1ti sunt, et Sp\u00edritu oris ejus omnis virtus e\u00f3rum.", 
+        "id": "GradualeL1", 
+        "label": "GradualeL1"
+      }, 
+      {
+        "body": "Veni, Sancte Sp\u00edritus,\net em\u00edtte caelitus\nlucis tu\u00e6 r\u00e1dium.\n\nVeni, pater p\u00e1uperum;\nveni, dator m\u00fanerum;\nveni, lumen c\u00f3rdium.\n\nConsol\u00e1tor \u00f3ptime,\ndulcis hospes \u00e1nim\u00e6,\ndulce refrig\u00e9rium.\n\nIn lab\u00f3re r\u00e9quies,\nin \u00e6stu temp\u00e9ries,\nin fletu sol\u00e1cium.\n\nO lux beat\u00edssima,\nreple cordis \u00edntima\ntu\u00f3rum fid\u00e9lium.\n\nSine tuo n\u00famine\nnihil est in h\u00f3mine,\nnihil est inn\u00f3xium.\n\nLava quod est s\u00f3rdidum,\nriga quod est \u00e1ridum,\nsana quod est s\u00e1ucium.\n\nFlecte quod est r\u00edgidum,\nfove quod est fr\u00edgidum,\nrege quod est d\u00e9vium.\n\nDa tuis fid\u00e9libus,\nin te confid\u00e9ntibus,\nsacrum septen\u00e1rium.\n\nDa virt\u00fatis m\u00e9ritum,\nda sal\u00fatis \u00e9xitum,\nda per\u00e9nne g\u00e1udium.\nAmen. Allel\u00faja.", 
+        "id": "Sequentia", 
+        "label": "Sequentia"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 6:44-52*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Nemo potest ven\u00edre ad me, nisi Pater, qui misit me, tr\u00e1xerit eum: et ego resuscit\u00e1bo eum in nov\u00edssimo die. Est scriptum in Proph\u00e9tis: Et erunt omnes doc\u00edbiles Dei. Omnis, qui aud\u00edvit a Patre et d\u00eddicit, venit ad me. Non quia Patrem vidit quisquam, nisi is, qui est a Deo, hic vidit Patrem. Amen, amen, dico vobis: qui credit in me, habet vitam \u00e6t\u00e9rnam. Ego sum panis vit\u00e6. Patres vestri manducav\u00e9runt manna in des\u00e9rto, et m\u00f3rtui sunt. Hic est panis de coelo desc\u00e9ndens: ut, si quis ex ipso manduc\u00e1verit, non mori\u00e1tur. Ego sum panis vivus, qui de coelo desc\u00e9ndi. Si quis manduc\u00e1verit ex hoc pane, vivet in \u00e6t\u00e9rnum: et panis, quem ego dabo, caro mea est pro mundi vita.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 118:47-48*\nMedit\u00e1bor in mand\u00e1tis tuis, qu\u00e6 dil\u00e9xi valde: et lev\u00e1bo manus meas ad mand\u00e1ta tua, qu\u00e6 dil\u00e9xi, allel\u00faja.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Accipe, qu\u01fdsumus, D\u00f3mine, munus obl\u00e1tum: et dign\u00e1nter oper\u00e1re; ut, quod myst\u00e9riis \u00e1gimus, piis eff\u00e9ctibus celebr\u00e1mus.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Spiritu Sancto*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Qui, asc\u00e9ndens super omnes coelos sed\u00e9nsque ad d\u00e9xteram tuam, prom\u00edssum Sp\u00edritum Sanctum * * in f\u00edlios adopti\u00f3nis eff\u00fadit. Quapr\u00f3pter prof\u00fasis g\u00e1udiis totus in orbe terr\u00e1rum mundus exs\u00faltat. Sed et sup\u00e9rn\u00e6 Virt\u00fates atque ang\u00e9lic\u00e6 Potest\u00e1tes hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00f3ncinunt, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Joannes 14:27*\nPacem rel\u00ednquo vobis, allel\u00faja: pacem meam do vobis, allel\u00faja, allel\u00faja.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sum\u00e9ntes, D\u00f3mine, coel\u00e9stia sacram\u00e9nta, qu\u01fdsumus clem\u00e9ntiam tuam: ut quod tempor\u00e1liter g\u00e9rimus \u00e6t\u00e9rnis g\u00e1udiis consequ\u00e1mur\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-06-07", 
-    "description": "Duch \u015awi\u0119ty prowadzi Ko\u015bci\u00f3\u0142 ku wieczno\u015bci (antyfona na wej\u015bcie) daj\u0105c mu zrozumienie prawd Bo\u017cych (kolekta), obdarzaj\u0105c charyzmatami (lekcja) i pokojem (antyfona na komuni\u0119).\n", 
-    "tempora": null, 
-    "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 67:8 67:9*\nDeus, dum egreder\u00e9ris coram p\u00f3pulo tuo, iter f\u00e1ciens eis, h\u00e1bitans in illis, allel\u00faja: terra mota est, coeli distillav\u00e9runt, allel\u00faja, allel\u00faja.\n*Ps. 67:2.*\nExs\u00fargat Deus, et dissip\u00e9ntur inim\u00edci ejus: et f\u00fagiant, qui od\u00e9runt eum, a f\u00e1cie ejus.\nGl\u00f3ria Patri.\nDeus, dum egreder\u00e9ris coram p\u00f3pulo tuo, iter f\u00e1ciens eis, h\u00e1bitans in illis, allel\u00faja: terra mota est, coeli distillav\u00e9runt, allel\u00faja, allel\u00faja.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Mentes nostras, qu\u01fdsumus, D\u00f3mine, Par\u00e1clitus, qui a te proc\u00e9dit, ill\u00faminet: et ind\u00facat in omnem, sicut tuus prom\u00edsit F\u00edlius, verit\u00e1tem:\nQui tecum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Pr\u00e6sta, qu\u01fdsumus, omn\u00edpotens et mis\u00e9ricors Deus: ut Sp\u00edritus Sanctus adv\u00e9niens, templum nos gl\u00f3ri\u00e6 su\u00e6 dign\u00e1nter inhabit\u00e1ndo perf\u00edciat.\nPer Dominum.", 
-      "id": "OratioL1", 
-      "label": "OratioL1"
-    }, 
-    {
-      "body": "L\u00e9ctio Actuum Apostol\u00f3rum\n*Acts 5:12-16*\nIn di\u00e9bus illis: Per manus autem Apostol\u00f3rum fi\u00e9bant signa et prod\u00edgia multa in plebe. Et erant unan\u00edmiter omnes in p\u00f3rticu Salom\u00f3nis. Ceter\u00f3rum autem nemo aud\u00e9bat se conj\u00fangere illis: sed magnific\u00e1bat eos p\u00f3pulus. Magis autem augeb\u00e1tur cred\u00e9ntium in D\u00f3mino multit\u00fado vir\u00f3rum ac mul\u00ederum, ita ut in pl\u00e1teas ej\u00edcerent inf\u00edrmos, et p\u00f3nerent in l\u00e9ctulis ac grab\u00e1tis, ut, veni\u00e9nte Petro, saltem umbra ill\u00edus obumbr\u00e1ret quemquam ill\u00f3rum, et liberar\u00e9ntur ab infirmit\u00e1tibus suis. Concurr\u00e9bat autem et multit\u00fado vicin\u00e1rum civit\u00e1tum Jer\u00fasalem, affer\u00e9ntes \u00e6gros et vex\u00e1tos a spir\u00edtibus imm\u00fandis: qui curab\u00e1ntur omnes.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "L\u00e9ctio Actuum Apostol\u00f3rum\n*Act 2:14-21.*\nIn di\u00e9bus illis: Stans Petrus cum \u00fandecim, lev\u00e1vit vocem suam, et loc\u00fatus est eis: Viri Judaei, et qui habit\u00e1tis Jer\u00fasalem univ\u00e9rsi, hoc vobis notum sit, et \u00e1uribus perc\u00edpite verba mea. Non enim, sicut vos \u00e6stim\u00e1tis, hi \u00e9brii sunt, cum sit hora di\u00e9i t\u00e9rtia: sed hoc est, quod dictum est per Proph\u00e9tam Jo\u00ebl: Et erit in nov\u00edssimis di\u00e9bus - dicit D\u00f3minus - eff\u00fandam de Sp\u00edritu meo super omnem carnem, et prophet\u00e1bunt f\u00edlii vestri et f\u00edli\u00e6 vestr\u00e6, et j\u00favenes vestri visi\u00f3nes vid\u00e9bunt, et seni\u00f3res vestri s\u00f3mnia somni\u00e1bunt. Et quidem super servos meos et super anc\u00edllas meas in di\u00e9bus illis eff\u00fandam de Sp\u00edritu meo, et prophet\u00e1bunt: et dabo prod\u00edgia in coelo sursum et signa in terra de\u00f3rsum, s\u00e1nguinem et ignem et vap\u00f3rem fumi. Sol convert\u00e9tur in t\u00e9nebras et luna in s\u00e1nguinem, antequam v\u00e9niat dies D\u00f3mini magnus et manif\u00e9stus. Et erit: omnis, quic\u00famque invoc\u00e1verit nomen D\u00f3mini, salvus erit. Allel\u00faja.\nDeo gratias.", 
-      "id": "LectioL1", 
-      "label": "LectioL1"
-    }, 
-    {
-      "body": "Allel\u00faja, allel\u00faja.\nV. (Hic genuflectitur) Veni, Sancte Sp\u00edritus, reple tu\u00f3rum corda fid\u00e9lium: et tui am\u00f3ris in eis ignem acc\u00e9nde.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Alleluia.\n*Ps 32:6*\nVerbo D\u00f3mini coeli firm\u00e1ti sunt, et Sp\u00edritu oris ejus omnis virtus e\u00f3rum.", 
-      "id": "GradualeL1", 
-      "label": "GradualeL1"
-    }, 
-    {
-      "body": "Veni, Sancte Sp\u00edritus,\net em\u00edtte caelitus\nlucis tu\u00e6 r\u00e1dium.\n\nVeni, pater p\u00e1uperum;\nveni, dator m\u00fanerum;\nveni, lumen c\u00f3rdium.\n\nConsol\u00e1tor \u00f3ptime,\ndulcis hospes \u00e1nim\u00e6,\ndulce refrig\u00e9rium.\n\nIn lab\u00f3re r\u00e9quies,\nin \u00e6stu temp\u00e9ries,\nin fletu sol\u00e1cium.\n\nO lux beat\u00edssima,\nreple cordis \u00edntima\ntu\u00f3rum fid\u00e9lium.\n\nSine tuo n\u00famine\nnihil est in h\u00f3mine,\nnihil est inn\u00f3xium.\n\nLava quod est s\u00f3rdidum,\nriga quod est \u00e1ridum,\nsana quod est s\u00e1ucium.\n\nFlecte quod est r\u00edgidum,\nfove quod est fr\u00edgidum,\nrege quod est d\u00e9vium.\n\nDa tuis fid\u00e9libus,\nin te confid\u00e9ntibus,\nsacrum septen\u00e1rium.\n\nDa virt\u00fatis m\u00e9ritum,\nda sal\u00fatis \u00e9xitum,\nda per\u00e9nne g\u00e1udium.\nAmen. Allel\u00faja.", 
-      "id": "Sequentia", 
-      "label": "Sequentia"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 6:44-52*\nIn illo t\u00e9mpore: Dixit Jesus turbis Jud\u00e6\u00f3rum: Nemo potest ven\u00edre ad me, nisi Pater, qui misit me, tr\u00e1xerit eum: et ego resuscit\u00e1bo eum in nov\u00edssimo die. Est scriptum in Proph\u00e9tis: Et erunt omnes doc\u00edbiles Dei. Omnis, qui aud\u00edvit a Patre et d\u00eddicit, venit ad me. Non quia Patrem vidit quisquam, nisi is, qui est a Deo, hic vidit Patrem. Amen, amen, dico vobis: qui credit in me, habet vitam \u00e6t\u00e9rnam. Ego sum panis vit\u00e6. Patres vestri manducav\u00e9runt manna in des\u00e9rto, et m\u00f3rtui sunt. Hic est panis de coelo desc\u00e9ndens: ut, si quis ex ipso manduc\u00e1verit, non mori\u00e1tur. Ego sum panis vivus, qui de coelo desc\u00e9ndi. Si quis manduc\u00e1verit ex hoc pane, vivet in \u00e6t\u00e9rnum: et panis, quem ego dabo, caro mea est pro mundi vita.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 118:47-48*\nMedit\u00e1bor in mand\u00e1tis tuis, qu\u00e6 dil\u00e9xi valde: et lev\u00e1bo manus meas ad mand\u00e1ta tua, qu\u00e6 dil\u00e9xi, allel\u00faja.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Accipe, qu\u01fdsumus, D\u00f3mine, munus obl\u00e1tum: et dign\u00e1nter oper\u00e1re; ut, quod myst\u00e9riis \u00e1gimus, piis eff\u00e9ctibus celebr\u00e1mus.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Spiritu Sancto*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Qui, asc\u00e9ndens super omnes coelos sed\u00e9nsque ad d\u00e9xteram tuam, prom\u00edssum Sp\u00edritum Sanctum * * in f\u00edlios adopti\u00f3nis eff\u00fadit. Quapr\u00f3pter prof\u00fasis g\u00e1udiis totus in orbe terr\u00e1rum mundus exs\u00faltat. Sed et sup\u00e9rn\u00e6 Virt\u00fates atque ang\u00e9lic\u00e6 Potest\u00e1tes hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00f3ncinunt, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Joannes 14:27*\nPacem rel\u00ednquo vobis, allel\u00faja: pacem meam do vobis, allel\u00faja, allel\u00faja.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sum\u00e9ntes, D\u00f3mine, coel\u00e9stia sacram\u00e9nta, qu\u01fdsumus clem\u00e9ntiam tuam: ut quod tempor\u00e1liter g\u00e9rimus \u00e6t\u00e9rnis g\u00e1udiis consequ\u00e1mur\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 67:8 67:9*\nO Bo\u017ce, gdy\u015b wyrusza\u0142 wobec ludu swego, wskazuj\u0105c im drog\u0119 i w\u015br\u00f3d nich mieszkaj\u0105c, alleluja, ziemia zadr\u017ca\u0142a, niebo deszcz zes\u0142a\u0142o, alleluja, alleluja.\n*Ps 67:2*\nB\u00f3g wstaje, a rozpraszaj\u0105 si\u0119 Jego wrogowie i pierzchaj\u0105 przed Jego obliczem ci, kt\u00f3rzy Go nienawidz\u0105.\nChwa\u0142a Ojcu.\nO Bo\u017ce, gdy\u015b wyrusza\u0142 wobec ludu swego, wskazuj\u0105c im drog\u0119 i w\u015br\u00f3d nich mieszkaj\u0105c, alleluja, ziemia zadr\u017ca\u0142a, niebo deszcz zes\u0142a\u0142o, alleluja, alleluja.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Panie, niech Pocieszyciel, kt\u00f3ry od Ciebie pochodzi, o\u015bwieci nasze umys\u0142y i doprowadzi je do wszelkiej prawdy, jak to obieca\u0142 Tw\u00f3j Syn:\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Oratio", 
-      "label": "1 Kolekta"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, spraw, prosimy, aby Duch \u015awi\u0119ty przez swe zamieszkanie raczy\u0142 uczyni\u0107 z nas \u015bwi\u0105tyni\u0119 swojej chwa\u0142y.\nPrzez Pana.", 
-      "id": "OratioL1", 
-      "label": "2 Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 5:12-16*\nW one dni: Przez r\u0119ce Aposto\u0142\u00f3w dzia\u0142y si\u0119 w\u015br\u00f3d ludu liczne znaki i cuda. I byli wszyscy razem w kru\u017cganku Salomonowym. Z innych za\u015b nikt nie \u015bmia\u0142 do nich si\u0119 przy\u0142\u0105czy\u0107, ale lud ich uwielbia\u0142.\nCoraz bardziej wzrasta\u0142a liczba wierz\u0105cych w Pana m\u0119\u017c\u00f3w i niewiast, tak \u017ce na ulice wynoszono chorych i k\u0142adziono na \u0142o\u017cach i noszach, aby za nadej\u015bciem Piotra przynajmniej cie\u0144 jego pad\u0142 na kt\u00f3rego z nich, aby zostali uwolnieni od niemocy swoich. A zbiega\u0142o si\u0119 do Jeruzalem wielu z s\u0105siednich miast, przynosz\u0105c chorych i dr\u0119czonych przez duchy nieczyste, i wszyscy byli uzdrowieni.", 
-      "id": "Lectio", 
-      "label": "6 Lekcja"
-    }, 
-    {
-      "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 2:14-21*\nW one dni: Powstawszy Piotr Wraz z jedenastoma podni\u00f3s\u0142 g\u0142os sw\u00f3j i przem\u00f3wi\u0142 do nich: \u00abM\u0119\u017cowie z Judei i wszyscy mieszka\u0144cy Jerozolimy. Niech\u017ce wam b\u0119dzie to wiadome i niech s\u0142owa moje dotr\u0105 do uszu waszych. Albowiem nie s\u0105 oni, jak mniemacie, pijani, bo jest trzecia godzina dnia, ale tu si\u0119 spe\u0142ni\u0142o, co by\u0142o zapowiedziane przez proroka Joela: I stanie si\u0119 w ostateczne dni (m\u00f3wi Pan). Ze\u015bl\u0119 Ducha mojego na ka\u017cdego cz\u0142owieka, a synowie wasi, jak i c\u00f3rki wasze b\u0119d\u0105 prorokowa\u0107, m\u0142odzie\u0144cy wasi widzenia mie\u0107 b\u0119d\u0105, a starcy wasi b\u0119d\u0105 \u015bnili we \u015bnie. A tak\u017ce na s\u0142ugi swoje i na s\u0142u\u017cebnice swoje ze\u015bl\u0119 Ducha mojego w one dni i b\u0119d\u0105 prorokowali. I uczyni\u0119 cuda na niebie w g\u00f3rze i dziwy w dole, na ziemi krew i ogie\u0144, i k\u0142\u0119by dymu. S\u0142o\u0144ce zamieni si\u0119 w ciemno\u015bci, a ksi\u0119\u017cyc \u2013 w krew, zanim nadejdzie dzie\u0144 Pa\u0144ski wielki i jawny. I stanie si\u0119, \u017ce ka\u017cdy zbawienia dost\u0105pi, ktokolwiek imienia Pa\u0144skiego wzywa\u0107 b\u0119dzie\u00bb.\nBogu dzi\u0119ki.", 
-      "id": "LectioL1", 
-      "label": "1 Lekcja"
-    }, 
-    {
-      "body": "Alleluja, alleluja.\nV. (Tu si\u0119 przykl\u0119ka) Przyjd\u017a, Duchu \u015awi\u0119ty, nape\u0142nij serca Twych wiernych i zapal w nich ogie\u0144 Twojej mi\u0142o\u015bci.", 
-      "id": "Graduale", 
-      "label": "6 Gradua\u0142"
-    }, 
-    {
-      "body": "Alleluja.\n*Ps 32:6*\nPrzez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.", 
-      "id": "GradualeL1", 
-      "label": "1 Gradua\u0142"
-    }, 
-    {
-      "body": "*B\u0142agalna sekwencja w poetyckiej formie opisuje dzia\u0142anie Ducha \u015awi\u0119tego w duszach wiernych.*\nPrzyb\u0105d\u017a Duchu \u015awi\u0119ty\nZe\u015blij na nas z nieba\nPromie\u0144 Twego \u015bwiat\u0142a.\n\nPrzyjd\u017a, ojcze ubogich,\nPrzyb\u0105d\u017a, dawco dar\u00f3w,\nPrzyb\u0105d\u017a, serc \u015bwiat\u0142o\u015bci.\n\nPrzyjd\u017a, Pocieszycielu,\nS\u0142odki go\u015bciu duszy,\nS\u0142odkie pokrzepienie.\n\nTy\u015b spoczynkiem w pracy,\nTy\u015b och\u0142od\u0105 w skwarze,\nTy\u015b pociech\u0105 w p\u0142aczu.\n\nO \u015bwiat\u0142o\u015bci b\u0142oga,\nNape\u0142\u0144 wn\u0119trze serca\nWszystkich Twoich wiernych.\n\nBez Twej Boskiej Woli\nNie ma nic w cz\u0142owieku,\nNie ma nic bez winy.\n\nObmyj to, co brudne,\nZro\u015b to, co jest osch\u0142e,\nUlecz, co zranione.\n\nZegnij, co oporne,\nOgrzej, co jest zimne,\nSprostuj to, co b\u0142\u0119dne.\n\nUdziel Twoim wiernym,\nTobie ufaj\u0105cym,\nSiedem \u015bwi\u0119tych dar\u00f3w.\n\nDaj zas\u0142ug\u0119 cnoty,\nDaj zbawienny koniec,\nDaj wieczyst\u0105 rado\u015b\u0107.\nAmen. Alleluja.", 
-      "id": "Sequentia", 
-      "label": "Sekwencja"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 6:44-52*\nOnego czasu: M\u00f3wi\u0142 Jezus rzeszom \u017cydowskim: \u00abNikt nie mo\u017ce przyj\u015b\u0107 do mnie, je\u015bli go nie poci\u0105gnie Ojciec, kt\u00f3ry mi\u0119 pos\u0142a\u0142; a ja go wskrzesz\u0119 w dzie\u0144 ostateczny. Jest napisane u Prorok\u00f3w: I b\u0119d\u0105 wszyscy uczniami Bo\u017cymi. Ka\u017cdy, kto us\u0142ysza\u0142 od Ojca i nauczy\u0142 si\u0119, przychodzi do mnie. Nie jakoby Ojca kto widzia\u0142, bo tylko ten, kt\u00f3ry jest od Boga, ten widzia\u0142 Ojca. Zaprawd\u0119, zaprawd\u0119 powiadam wam: Kto wierzy we mnie, ma \u017cywot wieczny.\nJam jest chleb \u017cywota. Ojcowie wasi po\u017cywali mann\u0119 na pustyni i pomarli. A ten jest chleb, kt\u00f3ry z nieba zst\u0119puje, aby ka\u017cdy, kt\u00f3ry go spo\u017cywa\u0107 b\u0119dzie, nie umar\u0142. Jam jest chleb \u017cywy, kt\u00f3ry z nieba zst\u0105pi\u0142; je\u015bliby kto po\u017cywa\u0142 tego chleba, \u017cy\u0107 b\u0119dzie na wieki, a chlebem, kt\u00f3ry ja mu dam, jest cia\u0142o moje za \u017cycie \u015bwiata\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 118:47-48*\nB\u0119d\u0119 rozwa\u017ca\u0142 nauk\u0119 Twoj\u0105, bo bardzo j\u0105 pokocha\u0142em. R\u0119ce me wyci\u0105gn\u0119 do przykaza\u0144 Twoich, kt\u00f3re umi\u0142owa\u0142em, alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, przyjmij z\u0142o\u017cony dar ofiarny i spraw \u0142askawie, aby\u015bmy zbo\u017cnymi czynami uczcili to, co sprawujemy w tych misteriach.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Duchu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce: przez Chrystusa, Pana naszego.\nOn to wst\u0105piwszy ponad wszystkie niebiosa i siedz\u0105c na prawicy Twojej zes\u0142a\u0142 (w dniu dzisiejszym) obiecanego Ducha \u015awi\u0119tego na przybrane dzieci. Dlatego ca\u0142y okr\u0105g ziemi tonie w nadmiarze rado\u015bci. Lecz i Moce niebieskie, i anielskie Pot\u0119gi \u015bpiewaj\u0105 hymn ku Twojej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*J 14:27*\nPok\u00f3j zostawiam wam, alleluja: pok\u00f3j m\u00f3j daj\u0119 wam, alleluja, alleluja.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Przyjmuj\u0105c niebieski Sakrament, b\u0142agamy \u0142askawo\u015b\u0107 Twoj\u0105, Panie, aby\u015bmy w wieczno\u015bci cieszyli si\u0119 tym, co sprawujemy w doczesno\u015bci.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 67:8 67:9*\nO Bo\u017ce, gdy\u015b wyrusza\u0142 wobec ludu swego, wskazuj\u0105c im drog\u0119 i w\u015br\u00f3d nich mieszkaj\u0105c, alleluja, ziemia zadr\u017ca\u0142a, niebo deszcz zes\u0142a\u0142o, alleluja, alleluja.\n*Ps 67:2*\nB\u00f3g wstaje, a rozpraszaj\u0105 si\u0119 Jego wrogowie i pierzchaj\u0105 przed Jego obliczem ci, kt\u00f3rzy Go nienawidz\u0105.\nChwa\u0142a Ojcu.\nO Bo\u017ce, gdy\u015b wyrusza\u0142 wobec ludu swego, wskazuj\u0105c im drog\u0119 i w\u015br\u00f3d nich mieszkaj\u0105c, alleluja, ziemia zadr\u017ca\u0142a, niebo deszcz zes\u0142a\u0142o, alleluja, alleluja.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Panie, niech Pocieszyciel, kt\u00f3ry od Ciebie pochodzi, o\u015bwieci nasze umys\u0142y i doprowadzi je do wszelkiej prawdy, jak to obieca\u0142 Tw\u00f3j Syn:\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Oratio", 
+        "label": "1 Kolekta"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy i mi\u0142osierny Bo\u017ce, spraw, prosimy, aby Duch \u015awi\u0119ty przez swe zamieszkanie raczy\u0142 uczyni\u0107 z nas \u015bwi\u0105tyni\u0119 swojej chwa\u0142y.\nPrzez Pana.", 
+        "id": "OratioL1", 
+        "label": "2 Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 5:12-16*\nW one dni: Przez r\u0119ce Aposto\u0142\u00f3w dzia\u0142y si\u0119 w\u015br\u00f3d ludu liczne znaki i cuda. I byli wszyscy razem w kru\u017cganku Salomonowym. Z innych za\u015b nikt nie \u015bmia\u0142 do nich si\u0119 przy\u0142\u0105czy\u0107, ale lud ich uwielbia\u0142.\nCoraz bardziej wzrasta\u0142a liczba wierz\u0105cych w Pana m\u0119\u017c\u00f3w i niewiast, tak \u017ce na ulice wynoszono chorych i k\u0142adziono na \u0142o\u017cach i noszach, aby za nadej\u015bciem Piotra przynajmniej cie\u0144 jego pad\u0142 na kt\u00f3rego z nich, aby zostali uwolnieni od niemocy swoich. A zbiega\u0142o si\u0119 do Jeruzalem wielu z s\u0105siednich miast, przynosz\u0105c chorych i dr\u0119czonych przez duchy nieczyste, i wszyscy byli uzdrowieni.", 
+        "id": "Lectio", 
+        "label": "6 Lekcja"
+      }, 
+      {
+        "body": "Czytanie z Dziej\u00f3w Apostolskich.\n*Dz 2:14-21*\nW one dni: Powstawszy Piotr Wraz z jedenastoma podni\u00f3s\u0142 g\u0142os sw\u00f3j i przem\u00f3wi\u0142 do nich: \u00abM\u0119\u017cowie z Judei i wszyscy mieszka\u0144cy Jerozolimy. Niech\u017ce wam b\u0119dzie to wiadome i niech s\u0142owa moje dotr\u0105 do uszu waszych. Albowiem nie s\u0105 oni, jak mniemacie, pijani, bo jest trzecia godzina dnia, ale tu si\u0119 spe\u0142ni\u0142o, co by\u0142o zapowiedziane przez proroka Joela: I stanie si\u0119 w ostateczne dni (m\u00f3wi Pan). Ze\u015bl\u0119 Ducha mojego na ka\u017cdego cz\u0142owieka, a synowie wasi, jak i c\u00f3rki wasze b\u0119d\u0105 prorokowa\u0107, m\u0142odzie\u0144cy wasi widzenia mie\u0107 b\u0119d\u0105, a starcy wasi b\u0119d\u0105 \u015bnili we \u015bnie. A tak\u017ce na s\u0142ugi swoje i na s\u0142u\u017cebnice swoje ze\u015bl\u0119 Ducha mojego w one dni i b\u0119d\u0105 prorokowali. I uczyni\u0119 cuda na niebie w g\u00f3rze i dziwy w dole, na ziemi krew i ogie\u0144, i k\u0142\u0119by dymu. S\u0142o\u0144ce zamieni si\u0119 w ciemno\u015bci, a ksi\u0119\u017cyc \u2013 w krew, zanim nadejdzie dzie\u0144 Pa\u0144ski wielki i jawny. I stanie si\u0119, \u017ce ka\u017cdy zbawienia dost\u0105pi, ktokolwiek imienia Pa\u0144skiego wzywa\u0107 b\u0119dzie\u00bb.\nBogu dzi\u0119ki.", 
+        "id": "LectioL1", 
+        "label": "1 Lekcja"
+      }, 
+      {
+        "body": "Alleluja, alleluja.\nV. (Tu si\u0119 przykl\u0119ka) Przyjd\u017a, Duchu \u015awi\u0119ty, nape\u0142nij serca Twych wiernych i zapal w nich ogie\u0144 Twojej mi\u0142o\u015bci.", 
+        "id": "Graduale", 
+        "label": "6 Gradua\u0142"
+      }, 
+      {
+        "body": "Alleluja.\n*Ps 32:6*\nPrzez s\u0142owo Pana powsta\u0142y niebiosa i wszystkie ich zast\u0119py przez tchnienie ust Jego.", 
+        "id": "GradualeL1", 
+        "label": "1 Gradua\u0142"
+      }, 
+      {
+        "body": "*B\u0142agalna sekwencja w poetyckiej formie opisuje dzia\u0142anie Ducha \u015awi\u0119tego w duszach wiernych.*\nPrzyb\u0105d\u017a Duchu \u015awi\u0119ty\nZe\u015blij na nas z nieba\nPromie\u0144 Twego \u015bwiat\u0142a.\n\nPrzyjd\u017a, ojcze ubogich,\nPrzyb\u0105d\u017a, dawco dar\u00f3w,\nPrzyb\u0105d\u017a, serc \u015bwiat\u0142o\u015bci.\n\nPrzyjd\u017a, Pocieszycielu,\nS\u0142odki go\u015bciu duszy,\nS\u0142odkie pokrzepienie.\n\nTy\u015b spoczynkiem w pracy,\nTy\u015b och\u0142od\u0105 w skwarze,\nTy\u015b pociech\u0105 w p\u0142aczu.\n\nO \u015bwiat\u0142o\u015bci b\u0142oga,\nNape\u0142\u0144 wn\u0119trze serca\nWszystkich Twoich wiernych.\n\nBez Twej Boskiej Woli\nNie ma nic w cz\u0142owieku,\nNie ma nic bez winy.\n\nObmyj to, co brudne,\nZro\u015b to, co jest osch\u0142e,\nUlecz, co zranione.\n\nZegnij, co oporne,\nOgrzej, co jest zimne,\nSprostuj to, co b\u0142\u0119dne.\n\nUdziel Twoim wiernym,\nTobie ufaj\u0105cym,\nSiedem \u015bwi\u0119tych dar\u00f3w.\n\nDaj zas\u0142ug\u0119 cnoty,\nDaj zbawienny koniec,\nDaj wieczyst\u0105 rado\u015b\u0107.\nAmen. Alleluja.", 
+        "id": "Sequentia", 
+        "label": "Sekwencja"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 6:44-52*\nOnego czasu: M\u00f3wi\u0142 Jezus rzeszom \u017cydowskim: \u00abNikt nie mo\u017ce przyj\u015b\u0107 do mnie, je\u015bli go nie poci\u0105gnie Ojciec, kt\u00f3ry mi\u0119 pos\u0142a\u0142; a ja go wskrzesz\u0119 w dzie\u0144 ostateczny. Jest napisane u Prorok\u00f3w: I b\u0119d\u0105 wszyscy uczniami Bo\u017cymi. Ka\u017cdy, kto us\u0142ysza\u0142 od Ojca i nauczy\u0142 si\u0119, przychodzi do mnie. Nie jakoby Ojca kto widzia\u0142, bo tylko ten, kt\u00f3ry jest od Boga, ten widzia\u0142 Ojca. Zaprawd\u0119, zaprawd\u0119 powiadam wam: Kto wierzy we mnie, ma \u017cywot wieczny.\nJam jest chleb \u017cywota. Ojcowie wasi po\u017cywali mann\u0119 na pustyni i pomarli. A ten jest chleb, kt\u00f3ry z nieba zst\u0119puje, aby ka\u017cdy, kt\u00f3ry go spo\u017cywa\u0107 b\u0119dzie, nie umar\u0142. Jam jest chleb \u017cywy, kt\u00f3ry z nieba zst\u0105pi\u0142; je\u015bliby kto po\u017cywa\u0142 tego chleba, \u017cy\u0107 b\u0119dzie na wieki, a chlebem, kt\u00f3ry ja mu dam, jest cia\u0142o moje za \u017cycie \u015bwiata\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 118:47-48*\nB\u0119d\u0119 rozwa\u017ca\u0142 nauk\u0119 Twoj\u0105, bo bardzo j\u0105 pokocha\u0142em. R\u0119ce me wyci\u0105gn\u0119 do przykaza\u0144 Twoich, kt\u00f3re umi\u0142owa\u0142em, alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, przyjmij z\u0142o\u017cony dar ofiarny i spraw \u0142askawie, aby\u015bmy zbo\u017cnymi czynami uczcili to, co sprawujemy w tych misteriach.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Duchu \u015awi\u0119tym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce: przez Chrystusa, Pana naszego.\nOn to wst\u0105piwszy ponad wszystkie niebiosa i siedz\u0105c na prawicy Twojej zes\u0142a\u0142 (w dniu dzisiejszym) obiecanego Ducha \u015awi\u0119tego na przybrane dzieci. Dlatego ca\u0142y okr\u0105g ziemi tonie w nadmiarze rado\u015bci. Lecz i Moce niebieskie, i anielskie Pot\u0119gi \u015bpiewaj\u0105 hymn ku Twojej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*J 14:27*\nPok\u00f3j zostawiam wam, alleluja: pok\u00f3j m\u00f3j daj\u0119 wam, alleluja, alleluja.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Przyjmuj\u0105c niebieski Sakrament, b\u0142agamy \u0142askawo\u015b\u0107 Twoj\u0105, Panie, aby\u015bmy w wieczno\u015bci cieszyli si\u0119 tym, co sprawujemy w doczesno\u015bci.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

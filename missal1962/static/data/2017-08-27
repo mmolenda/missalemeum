@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-08-27", 
+      "description": "S\u0142owa Chrystusa: \u00abB\u0142ogos\u0142awione oczy, kt\u00f3re widz\u0105, co wy widzicie\u00bb odnosz\u0105 si\u0119 do wszystkich dzieci Ko\u015bcio\u0142a. W Starym Testamencie obowi\u0105zywa\u0142y te same przykazania, w ludziach tkwi\u0142y te same nami\u0119tno\u015bci, a nie mieli oni Sakrament\u00f3w \u015bwi\u0119tych i wszystkich \u0142ask, jakie one przynosz\u0105. Dzisiaj Chrystus staje przed nami jako po\u015brednik Nowego Przymierza doskonalszego ni\u017c Stare (lekcja) i jako mi\u0142osierny Samarytanin, kt\u00f3ry pochy\u0142a si\u0119 nad dusz\u0105 ludzk\u0105, obrabowan\u0105 z \u0142aski i poranion\u0105, aby j\u0105 uzdrowi\u0107 (ewangelia).\n", 
+      "tempora": null, 
+      "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 69:2-3*\nDeus, in adjut\u00f3rium meum int\u00e9nde: D\u00f3mine, ad adjuv\u00e1ndum me fest\u00edna: confund\u00e1ntur et revere\u00e1ntur inim\u00edci mei, qui qu\u00e6runt \u00e1nimam meam.\n*Ps 69:4*\nAvert\u00e1ntur retr\u00f3rsum et erub\u00e9scant: qui c\u00f3gitant mihi mala.\nGl\u00f3ria Patri.\nDeus, in adjut\u00f3rium meum int\u00e9nde: D\u00f3mine, ad adjuv\u00e1ndum me fest\u00edna: confund\u00e1ntur et revere\u00e1ntur inim\u00edci mei, qui qu\u00e6runt \u00e1nimam meam.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Omn\u00edpotens et mis\u00e9ricors Deus, de cujus m\u00fanere venit, ut tibi a fid\u00e9libus tuis digne et laudab\u00edliter servi\u00e1tur: tr\u00edbue, qu\u01fdsumus, nobis; ut ad promissi\u00f3nes tuas sine offensi\u00f3ne curr\u00e1mus.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*2 Cor 3:4-9*\nFratres: Fid\u00faciam talem hab\u00e9mus per Christum ad Deum: non quod suffici\u00e9ntes simus cogit\u00e1re \u00e1liquid a nobis, quasi ex nobis: sed suffici\u00e9ntia nostra ex Deo est: qui et id\u00f3neos nos fecit min\u00edstros novi testam\u00e9nti: non l\u00edttera, sed sp\u00edritu: l\u00edttera enim occ\u00eddit, sp\u00edritus autem viv\u00edficat. Quod si ministr\u00e1tio mortis, l\u00edtteris deform\u00e1ta in lap\u00eddibus, fuit in gl\u00f3ria; ita ut non possent int\u00e9ndere fili Isra\u00ebl in f\u00e1ciem Moysi, propter gl\u00f3riam vultus ejus, qu\u00e6 evacu\u00e1tur: qu\u00f3modo non magis ministr\u00e1tio Sp\u00edritus erit in gl\u00f3ria? Nam si ministr\u00e1tio damn\u00e1tionis gl\u00f3ria est multo magis ab\u00fandat minist\u00e9rium just\u00edti\u00e6 in gl\u00f3ria.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 33:2-3.*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nV. In D\u00f3mino laud\u00e1bitur \u00e1nima mea: \u00e1udiant mansu\u00e9ti, et l\u00e6t\u00e9ntur. Allel\u00faja, allel\u00faja\n*Ps 87:2*\nD\u00f3mine, Deus sal\u00fatis me\u00e6, in die clam\u00e1vi et nocte coram te. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:23-37*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Be\u00e1ti \u00f3culi, qui vident qu\u00e6 vos videtis. Dico enim vobis, quod multi proph\u00e9t\u00e6 et reges volu\u00e9runt vid\u00e9re qu\u00e6 vos videtis, et non vid\u00e9runt: et audire qu\u00e6 aud\u00edtis, et non audi\u00e9runt. Et ecce, quidam legisper\u00edtus surr\u00e9xit, tentans illum, et dicens: Magister, quid faci\u00e9ndo vitam \u00e6t\u00e9rnam possid\u00e9bo? At ille dixit ad eum: In lege quid scriptum est? qu\u00f3modo legis? Ille resp\u00f3ndens, dixit: D\u00edliges D\u00f3minum, Deum tuum, ex toto corde tuo, et ex tota \u00e1nima tua, et ex \u00f3mnibus v\u00edribus tuis; et ex omni mente tua: et pr\u00f3ximum tuum sicut te\u00edpsum. Dix\u00edtque illi: Recte respond\u00edsti: hoc fac, et vives. Ille autem volens justific\u00e1re se\u00edpsum, dixit ad Jesum: Et quis est meus pr\u00f3ximus? Susc\u00edpiens autem Jesus, dixit: Homo quidam descend\u00e9bat ab Jer\u00fasalem in J\u00e9richo, et \u00edncidit in latr\u00f3nes, qui \u00e9tiam despoliav\u00e9runt eum: et plagis imp\u00f3sitis abi\u00e9runt, semiv\u00edvo rel\u00edcto. Accidit autem, ut sacerdos quidam desc\u00e9nderet e\u00e1dem via: et viso illo pr\u00e6ter\u00edvit. Sim\u00edliter et lev\u00edta, cum esset secus locum et vid\u00e9ret eum, pertr\u00e1nsiit. Samarit\u00e1nus autem quidam iter f\u00e1ciens, venit secus eum: et videns eum, miseric\u00f3rdia motus est. Et appr\u00f3pians, allig\u00e1vit vulnera ejus, inf\u00fandens \u00f3leum et vinum: et imp\u00f3nens illum in jum\u00e9ntum suum, duxit in st\u00e1bulum, et curam ejus egit. Et \u00e1ltera die pr\u00f3tulit duos den\u00e1rios et dedit stabul\u00e1rio, et ait: Curam ill\u00edus habe: et quodc\u00famque supererog\u00e1veris, ego cum red\u00edero, reddam tibi. Quis horum trium vid\u00e9tur tibi pr\u00f3ximus fu\u00edsse illi, qui \u00edncidit in latr\u00f3nes? At lle dixit: Qui fecit miseric\u00f3rdiam in illum. Et ait illi Jesus: Vade, et tu fac sim\u00edliter.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Exod 32:11 32:13; 32:14*\nPrec\u00e1tus est Moyses in consp\u00e9ctu D\u00f3mini, Dei sui, et dixit: Quare, D\u00f3mine, irasc\u00e9ris in p\u00f3pulo tuo? Parce ir\u00e6 \u00e1nim\u00e6 tu\u00e6: mem\u00e9nto Abraham, Isaac et Jacob, quibus jur\u00e1sti dare terram flu\u00e9ntem lac et mel. Et plac\u00e1tus factus est D\u00f3minus de malignit\u00e1te, quam dixit f\u00e1cere p\u00f3pulo suo.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00f3stias, qu\u01fdsumus, D\u00f3mine, prop\u00edtius int\u00e9nde, quas sacris alt\u00e1ribus exhib\u00e9mus: ut, nobis indulg\u00e9ntiam largi\u00e9ndo, tuo n\u00f3mini dent hon\u00f3rem.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 103:13; 103:14-15*\nDe fructu \u00f3perum tu\u00f3rum, D\u00f3mine, sati\u00e1bitur terra: ut ed\u00facas panem de terra, et vinum l\u00e6t\u00edficet cor h\u00f3minis: ut exh\u00edlaret f\u00e1ciem in oleo, et panis cor h\u00f3minis conf\u00edrmet.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Viv\u00edficet nos, qu\u01fdsumus, D\u00f3mine, hujus particip\u00e1tio sancta myst\u00e9rii: et p\u00e1riter nobis expiati\u00f3nem tr\u00edbuat et m\u00fanimen.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2017-08-27", 
-    "description": "S\u0142owa Chrystusa: \u00abB\u0142ogos\u0142awione oczy, kt\u00f3re widz\u0105, co wy widzicie\u00bb odnosz\u0105 si\u0119 do wszystkich dzieci Ko\u015bcio\u0142a. W Starym Testamencie obowi\u0105zywa\u0142y te same przykazania, w ludziach tkwi\u0142y te same nami\u0119tno\u015bci, a nie mieli oni Sakrament\u00f3w \u015bwi\u0119tych i wszystkich \u0142ask, jakie one przynosz\u0105. Dzisiaj Chrystus staje przed nami jako po\u015brednik Nowego Przymierza doskonalszego ni\u017c Stare (lekcja) i jako mi\u0142osierny Samarytanin, kt\u00f3ry pochy\u0142a si\u0119 nad dusz\u0105 ludzk\u0105, obrabowan\u0105 z \u0142aski i poranion\u0105, aby j\u0105 uzdrowi\u0107 (ewangelia).\n", 
-    "tempora": null, 
-    "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 69:2-3*\nDeus, in adjut\u00f3rium meum int\u00e9nde: D\u00f3mine, ad adjuv\u00e1ndum me fest\u00edna: confund\u00e1ntur et revere\u00e1ntur inim\u00edci mei, qui qu\u00e6runt \u00e1nimam meam.\n*Ps 69:4*\nAvert\u00e1ntur retr\u00f3rsum et erub\u00e9scant: qui c\u00f3gitant mihi mala.\nGl\u00f3ria Patri.\nDeus, in adjut\u00f3rium meum int\u00e9nde: D\u00f3mine, ad adjuv\u00e1ndum me fest\u00edna: confund\u00e1ntur et revere\u00e1ntur inim\u00edci mei, qui qu\u00e6runt \u00e1nimam meam.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Omn\u00edpotens et mis\u00e9ricors Deus, de cujus m\u00fanere venit, ut tibi a fid\u00e9libus tuis digne et laudab\u00edliter servi\u00e1tur: tr\u00edbue, qu\u01fdsumus, nobis; ut ad promissi\u00f3nes tuas sine offensi\u00f3ne curr\u00e1mus.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Corinthios.\n*2 Cor 3:4-9*\nFratres: Fid\u00faciam talem hab\u00e9mus per Christum ad Deum: non quod suffici\u00e9ntes simus cogit\u00e1re \u00e1liquid a nobis, quasi ex nobis: sed suffici\u00e9ntia nostra ex Deo est: qui et id\u00f3neos nos fecit min\u00edstros novi testam\u00e9nti: non l\u00edttera, sed sp\u00edritu: l\u00edttera enim occ\u00eddit, sp\u00edritus autem viv\u00edficat. Quod si ministr\u00e1tio mortis, l\u00edtteris deform\u00e1ta in lap\u00eddibus, fuit in gl\u00f3ria; ita ut non possent int\u00e9ndere fili Isra\u00ebl in f\u00e1ciem Moysi, propter gl\u00f3riam vultus ejus, qu\u00e6 evacu\u00e1tur: qu\u00f3modo non magis ministr\u00e1tio Sp\u00edritus erit in gl\u00f3ria? Nam si ministr\u00e1tio damn\u00e1tionis gl\u00f3ria est multo magis ab\u00fandat minist\u00e9rium just\u00edti\u00e6 in gl\u00f3ria.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 33:2-3.*\nBened\u00edcam D\u00f3minum in omni t\u00e9mpore: semper laus ejus in ore meo.\nV. In D\u00f3mino laud\u00e1bitur \u00e1nima mea: \u00e1udiant mansu\u00e9ti, et l\u00e6t\u00e9ntur. Allel\u00faja, allel\u00faja\n*Ps 87:2*\nD\u00f3mine, Deus sal\u00fatis me\u00e6, in die clam\u00e1vi et nocte coram te. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 10:23-37*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis: Be\u00e1ti \u00f3culi, qui vident qu\u00e6 vos videtis. Dico enim vobis, quod multi proph\u00e9t\u00e6 et reges volu\u00e9runt vid\u00e9re qu\u00e6 vos videtis, et non vid\u00e9runt: et audire qu\u00e6 aud\u00edtis, et non audi\u00e9runt. Et ecce, quidam legisper\u00edtus surr\u00e9xit, tentans illum, et dicens: Magister, quid faci\u00e9ndo vitam \u00e6t\u00e9rnam possid\u00e9bo? At ille dixit ad eum: In lege quid scriptum est? qu\u00f3modo legis? Ille resp\u00f3ndens, dixit: D\u00edliges D\u00f3minum, Deum tuum, ex toto corde tuo, et ex tota \u00e1nima tua, et ex \u00f3mnibus v\u00edribus tuis; et ex omni mente tua: et pr\u00f3ximum tuum sicut te\u00edpsum. Dix\u00edtque illi: Recte respond\u00edsti: hoc fac, et vives. Ille autem volens justific\u00e1re se\u00edpsum, dixit ad Jesum: Et quis est meus pr\u00f3ximus? Susc\u00edpiens autem Jesus, dixit: Homo quidam descend\u00e9bat ab Jer\u00fasalem in J\u00e9richo, et \u00edncidit in latr\u00f3nes, qui \u00e9tiam despoliav\u00e9runt eum: et plagis imp\u00f3sitis abi\u00e9runt, semiv\u00edvo rel\u00edcto. Accidit autem, ut sacerdos quidam desc\u00e9nderet e\u00e1dem via: et viso illo pr\u00e6ter\u00edvit. Sim\u00edliter et lev\u00edta, cum esset secus locum et vid\u00e9ret eum, pertr\u00e1nsiit. Samarit\u00e1nus autem quidam iter f\u00e1ciens, venit secus eum: et videns eum, miseric\u00f3rdia motus est. Et appr\u00f3pians, allig\u00e1vit vulnera ejus, inf\u00fandens \u00f3leum et vinum: et imp\u00f3nens illum in jum\u00e9ntum suum, duxit in st\u00e1bulum, et curam ejus egit. Et \u00e1ltera die pr\u00f3tulit duos den\u00e1rios et dedit stabul\u00e1rio, et ait: Curam ill\u00edus habe: et quodc\u00famque supererog\u00e1veris, ego cum red\u00edero, reddam tibi. Quis horum trium vid\u00e9tur tibi pr\u00f3ximus fu\u00edsse illi, qui \u00edncidit in latr\u00f3nes? At lle dixit: Qui fecit miseric\u00f3rdiam in illum. Et ait illi Jesus: Vade, et tu fac sim\u00edliter.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Exod 32:11 32:13; 32:14*\nPrec\u00e1tus est Moyses in consp\u00e9ctu D\u00f3mini, Dei sui, et dixit: Quare, D\u00f3mine, irasc\u00e9ris in p\u00f3pulo tuo? Parce ir\u00e6 \u00e1nim\u00e6 tu\u00e6: mem\u00e9nto Abraham, Isaac et Jacob, quibus jur\u00e1sti dare terram flu\u00e9ntem lac et mel. Et plac\u00e1tus factus est D\u00f3minus de malignit\u00e1te, quam dixit f\u00e1cere p\u00f3pulo suo.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00f3stias, qu\u01fdsumus, D\u00f3mine, prop\u00edtius int\u00e9nde, quas sacris alt\u00e1ribus exhib\u00e9mus: ut, nobis indulg\u00e9ntiam largi\u00e9ndo, tuo n\u00f3mini dent hon\u00f3rem.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 103:13; 103:14-15*\nDe fructu \u00f3perum tu\u00f3rum, D\u00f3mine, sati\u00e1bitur terra: ut ed\u00facas panem de terra, et vinum l\u00e6t\u00edficet cor h\u00f3minis: ut exh\u00edlaret f\u00e1ciem in oleo, et panis cor h\u00f3minis conf\u00edrmet.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Viv\u00edficet nos, qu\u01fdsumus, D\u00f3mine, hujus particip\u00e1tio sancta myst\u00e9rii: et p\u00e1riter nobis expiati\u00f3nem tr\u00edbuat et m\u00fanimen.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 69:2-3*\nBo\u017ce, wejrzyj ku wspomo\u017ceniu memu, Panie pospiesz ku ratunkowi memu. Niech si\u0119 zawstydz\u0105 i okryj\u0105 rumie\u0144cem, kt\u00f3rzy na \u017cycie me godz\u0105.\n*Ps 69:4*\nNiechaj si\u0119 cofn\u0105 i wstydem okryj\u0105 ci, kt\u00f3rzy z nieszcz\u0119\u015b\u0107 moich si\u0119 wesel\u0105.\nChwa\u0142a Ojcu.\nBo\u017ce, wejrzyj ku wspomo\u017ceniu memu, Panie pospiesz ku ratunkowi memu. Niech si\u0119 zawstydz\u0105 i okryj\u0105 rumie\u0144cem, kt\u00f3rzy na \u017cycie me godz\u0105.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmocny, mi\u0142osierny Bo\u017ce, dzi\u0119ki Twej \u0142asce wierni Twoi s\u0142u\u017c\u0105 Ci godnie i chwalebnie, daj nam prosimy Ci\u0119, d\u0105\u017cy\u0107 bez przeszkody do d\u00f3br, kt\u00f3re obiecujesz.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*2 Kor 3:4-9*\n*Aposto\u0142owie, ich nast\u0119pcy biskupi i kap\u0142ani oraz wszyscy chrze\u015bcijanie pe\u0142ni\u0105 s\u0142u\u017cb\u0119, kt\u00f3ra przewy\u017csza wszystkie godno\u015bci Starego Testamentu.*\nBracia: Ufno\u015b\u0107 tak\u0105 mamy przez Chrystusa ku Bogu. Nie jakoby\u015bmy zdolni byli pomy\u015ble\u0107 co sami z siebie, jako z siebie, ale zdolno\u015b\u0107 nasza z Boga jest. On te\u017c uzdolni\u0142 nas, aby\u015bmy si\u0119 stali s\u0142ugami nowego Przymierza, nie wed\u0142ug litery, ale wed\u0142ug Ducha: bo litera zabija, a Duch o\u017cywia. A je\u015bli pos\u0142uga \u015bmierci, wyryta literami na kamieniach, by\u0142a w takiej chwale, \u017ce synowie Izraela nie mogli patrze\u0107 na twarz Moj\u017ceszow\u0105 dla jasno\u015bci oblicza jego, kt\u00f3ra znikn\u0105\u0107 mia\u0142a, jako\u017c wi\u0119cej pos\u0142uga Ducha b\u0119dzie w chwale. Albowiem je\u015bli chwa\u0142\u0105 jest pos\u0142uga pot\u0119pienia, daleko bardziej w chwa\u0142\u0119 obfitowa\u0107 b\u0119dzie pos\u0142uga sprawiedliwo\u015bci.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 33, 2-3*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nV. W Panu dusza moja b\u0119dzie si\u0119 chlubi\u0142a: niech s\u0142ysz\u0105 pokorni i niech si\u0119 wesel\u0105. Alleluja, Alleluja.\n*Ps 87,2*\nPanie Bo\u017ce, Zbawicielu m\u00f3j, podczas dnia wo\u0142am i w nocy \u017cal\u0119 si\u0119 przed Tob\u0105. Alelluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:23-37*\n*Zasada moralno\u015bci chrze\u015bcija\u0144skiej jest bardzo prosta, lecz wymagaj\u0105ca: mi\u0142o\u015b\u0107 Boga nade wszystko oraz mi\u0142o\u015b\u0107 wszystkich ludzi.*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abB\u0142ogos\u0142awione oczy, kt\u00f3re widz\u0105, co wy widzicie. Bo powiadam wam, \u017ce wielu prorok\u00f3w i kr\u00f3l\u00f3w chcia\u0142o widzie\u0107, co wy widzicie, a nie widzieli, i s\u0142ysze\u0107, co s\u0142yszycie, a nie s\u0142yszeli\u00bb.\nA oto pewien bieg\u0142y w Zakonie powsta\u0142 do\u015bwiadczaj\u0105c Go i rzek\u0142: \u00abNauczycielu, co mam czyni\u0107, abym osi\u0105gn\u0105\u0142 \u017cycie wieczne?\u00bb A On rzek\u0142 do niego: \u00abW Prawie co napisano? jako czytasz?\u00bb A on odpowiadaj\u0105c rzek\u0142: \u00abB\u0119dziesz mi\u0142owa\u0142 Pana Boga twego ze wszystkiego serca twego i ze wszystkiej duszy twojej, i ze wszystkich si\u0142 twoich, i ze wszystkiej my\u015bli twojej, a bli\u017aniego twego jak siebie samego\u00bb. Rzek\u0142 mu: \u00abDobrze\u015b odpowiedzia\u0142. Czy\u0144 to, a b\u0119dziesz \u017cy\u0142\u00bb. On za\u015b, chc\u0105c si\u0119 usprawiedliwi\u0107, rzek\u0142 do Jezusa: \u00abA kt\u00f3\u017c jest moim bli\u017anim?\u00bb Jezus za\u015b, podejmuj\u0105c pytanie, rzek\u0142:\n\u00abCz\u0142owiek pewien zst\u0119powa\u0142 z Jerozolimy do Jerycha i wpad\u0142 mi\u0119dzy z\u0142oczy\u0144c\u00f3w, kt\u00f3rzy go te\u017c z\u0142upili i rany zadawszy odeszli, zostawiaj\u0105c na p\u00f3\u0142 umar\u0142ego. I zdarzy\u0142o si\u0119, \u017ce kap\u0142an pewien zst\u0119powa\u0142 t\u0105\u017c drog\u0105 i ujrzawszy go min\u0105\u0142. Tak\u017ce i lewita, b\u0119d\u0105c blisko miejsca i widz\u0105c go, min\u0105\u0142. A Samarytanin pewien, zd\u0105\u017caj\u0105c drog\u0105, przechodzi\u0142 obok niego i ujrzawszy go u\u017cali\u0142 si\u0119 nad nim. I przybli\u017cywszy si\u0119 zawi\u0105za\u0142 rany jego, nalewaj\u0105c oliwy i wina, posadzi\u0142 go na swe juczne zwierz\u0119 i zawi\u00f3z\u0142 do gospody, i piel\u0119gnowa\u0142 go. A nazajutrz wyj\u0105\u0142 dwa denary i wr\u0119czy\u0142 je w\u0142a\u015bcicielowi gospody, m\u00f3wi\u0105c: Miej nad nim piecz\u0119, a cokolwiek ponad to wydasz, ja, gdy si\u0119 wr\u00f3c\u0119, oddam tobie.\nKt\u00f3ry\u017c z tych trzech zdaje ci si\u0119 by\u0107 bli\u017anim tego, co wpad\u0142 mi\u0119dzy z\u0142oczy\u0144c\u00f3w?\u00bb A on rzek\u0142: \u00abTen, kt\u00f3ry mu mi\u0142osierdzie okaza\u0142\u00bb. I rzek\u0142 mu Jezus: \u00abId\u017a, a czy\u0144 i ty podobnie\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Wj 32:11 32:13; 32:14*\nMoj\u017cesz modli\u0142 si\u0119 do Pana, Boga swego m\u00f3wi\u0105c: Czemu\u017c Panie, gniewa si\u0119 zapalczywo\u015b\u0107 Twoja przeciw ludowi Twemu? Niech ucichnie gniew Tw\u00f3j. Wspomnij na Abrahama, Izaaka i Jakuba, kt\u00f3rym przysi\u0105g\u0142e\u015b da\u0107 ziemi\u0119 mlekiem i miodem p\u0142yn\u0105c\u0105. I da\u0142 si\u0119 ub\u0142aga\u0107 Pan, \u017ceby nie czyni\u0142 z\u0142ego, kt\u00f3rym zagrozi\u0142 ludowi swemu.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Panie, wejrzyj \u0142askawie na dary ofiarne, kt\u00f3re sk\u0142adamy na Twoim \u015bwi\u0119tym o\u0142tarzu, aby wyjednuj\u0105c nam przebaczenie przynios\u0142y chwa\u0142\u0119 Twojemu imieniu.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 103:13; 103:14-15*\n*Chleb, wino i oliwa podtrzymuj\u0105 doczesne \u017cycie cz\u0142owieka. Jako materia sakrament\u00f3w s\u0142u\u017c\u0105 \u017cyciu nadprzyrodzonemu.*\nOwocem dzie\u0142 Twoich, Panie, nasyca si\u0119 ziemia. Ty sprawiasz, \u017ce ziemia rodzi pokarm: wino, aby rozwesela\u0142o serce cz\u0142owieka i oliw\u0119, aby od\u015bwie\u017ca\u0142a jego oblicze i chleb, aby krzepi\u0142 jego serce.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119 Panie, niech udzia\u0142 w \u015bwi\u0119tym misterium wleje w nas nowe \u017cycie, uwolni od win i zapewni obron\u0119.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 69:2-3*\nBo\u017ce, wejrzyj ku wspomo\u017ceniu memu, Panie pospiesz ku ratunkowi memu. Niech si\u0119 zawstydz\u0105 i okryj\u0105 rumie\u0144cem, kt\u00f3rzy na \u017cycie me godz\u0105.\n*Ps 69:4*\nNiechaj si\u0119 cofn\u0105 i wstydem okryj\u0105 ci, kt\u00f3rzy z nieszcz\u0119\u015b\u0107 moich si\u0119 wesel\u0105.\nChwa\u0142a Ojcu.\nBo\u017ce, wejrzyj ku wspomo\u017ceniu memu, Panie pospiesz ku ratunkowi memu. Niech si\u0119 zawstydz\u0105 i okryj\u0105 rumie\u0144cem, kt\u00f3rzy na \u017cycie me godz\u0105.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmocny, mi\u0142osierny Bo\u017ce, dzi\u0119ki Twej \u0142asce wierni Twoi s\u0142u\u017c\u0105 Ci godnie i chwalebnie, daj nam prosimy Ci\u0119, d\u0105\u017cy\u0107 bez przeszkody do d\u00f3br, kt\u00f3re obiecujesz.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*2 Kor 3:4-9*\n*Aposto\u0142owie, ich nast\u0119pcy biskupi i kap\u0142ani oraz wszyscy chrze\u015bcijanie pe\u0142ni\u0105 s\u0142u\u017cb\u0119, kt\u00f3ra przewy\u017csza wszystkie godno\u015bci Starego Testamentu.*\nBracia: Ufno\u015b\u0107 tak\u0105 mamy przez Chrystusa ku Bogu. Nie jakoby\u015bmy zdolni byli pomy\u015ble\u0107 co sami z siebie, jako z siebie, ale zdolno\u015b\u0107 nasza z Boga jest. On te\u017c uzdolni\u0142 nas, aby\u015bmy si\u0119 stali s\u0142ugami nowego Przymierza, nie wed\u0142ug litery, ale wed\u0142ug Ducha: bo litera zabija, a Duch o\u017cywia. A je\u015bli pos\u0142uga \u015bmierci, wyryta literami na kamieniach, by\u0142a w takiej chwale, \u017ce synowie Izraela nie mogli patrze\u0107 na twarz Moj\u017ceszow\u0105 dla jasno\u015bci oblicza jego, kt\u00f3ra znikn\u0105\u0107 mia\u0142a, jako\u017c wi\u0119cej pos\u0142uga Ducha b\u0119dzie w chwale. Albowiem je\u015bli chwa\u0142\u0105 jest pos\u0142uga pot\u0119pienia, daleko bardziej w chwa\u0142\u0119 obfitowa\u0107 b\u0119dzie pos\u0142uga sprawiedliwo\u015bci.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 33, 2-3*\nW ka\u017cdym czasie b\u0119d\u0119 b\u0142ogos\u0142awi\u0142 Panu; na ustach moich zawsze Jego chwa\u0142a.\nV. W Panu dusza moja b\u0119dzie si\u0119 chlubi\u0142a: niech s\u0142ysz\u0105 pokorni i niech si\u0119 wesel\u0105. Alleluja, Alleluja.\n*Ps 87,2*\nPanie Bo\u017ce, Zbawicielu m\u00f3j, podczas dnia wo\u0142am i w nocy \u017cal\u0119 si\u0119 przed Tob\u0105. Alelluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 10:23-37*\n*Zasada moralno\u015bci chrze\u015bcija\u0144skiej jest bardzo prosta, lecz wymagaj\u0105ca: mi\u0142o\u015b\u0107 Boga nade wszystko oraz mi\u0142o\u015b\u0107 wszystkich ludzi.*\nOnego czasu: Rzek\u0142 Jezus uczniom swoim: \u00abB\u0142ogos\u0142awione oczy, kt\u00f3re widz\u0105, co wy widzicie. Bo powiadam wam, \u017ce wielu prorok\u00f3w i kr\u00f3l\u00f3w chcia\u0142o widzie\u0107, co wy widzicie, a nie widzieli, i s\u0142ysze\u0107, co s\u0142yszycie, a nie s\u0142yszeli\u00bb.\nA oto pewien bieg\u0142y w Zakonie powsta\u0142 do\u015bwiadczaj\u0105c Go i rzek\u0142: \u00abNauczycielu, co mam czyni\u0107, abym osi\u0105gn\u0105\u0142 \u017cycie wieczne?\u00bb A On rzek\u0142 do niego: \u00abW Prawie co napisano? jako czytasz?\u00bb A on odpowiadaj\u0105c rzek\u0142: \u00abB\u0119dziesz mi\u0142owa\u0142 Pana Boga twego ze wszystkiego serca twego i ze wszystkiej duszy twojej, i ze wszystkich si\u0142 twoich, i ze wszystkiej my\u015bli twojej, a bli\u017aniego twego jak siebie samego\u00bb. Rzek\u0142 mu: \u00abDobrze\u015b odpowiedzia\u0142. Czy\u0144 to, a b\u0119dziesz \u017cy\u0142\u00bb. On za\u015b, chc\u0105c si\u0119 usprawiedliwi\u0107, rzek\u0142 do Jezusa: \u00abA kt\u00f3\u017c jest moim bli\u017anim?\u00bb Jezus za\u015b, podejmuj\u0105c pytanie, rzek\u0142:\n\u00abCz\u0142owiek pewien zst\u0119powa\u0142 z Jerozolimy do Jerycha i wpad\u0142 mi\u0119dzy z\u0142oczy\u0144c\u00f3w, kt\u00f3rzy go te\u017c z\u0142upili i rany zadawszy odeszli, zostawiaj\u0105c na p\u00f3\u0142 umar\u0142ego. I zdarzy\u0142o si\u0119, \u017ce kap\u0142an pewien zst\u0119powa\u0142 t\u0105\u017c drog\u0105 i ujrzawszy go min\u0105\u0142. Tak\u017ce i lewita, b\u0119d\u0105c blisko miejsca i widz\u0105c go, min\u0105\u0142. A Samarytanin pewien, zd\u0105\u017caj\u0105c drog\u0105, przechodzi\u0142 obok niego i ujrzawszy go u\u017cali\u0142 si\u0119 nad nim. I przybli\u017cywszy si\u0119 zawi\u0105za\u0142 rany jego, nalewaj\u0105c oliwy i wina, posadzi\u0142 go na swe juczne zwierz\u0119 i zawi\u00f3z\u0142 do gospody, i piel\u0119gnowa\u0142 go. A nazajutrz wyj\u0105\u0142 dwa denary i wr\u0119czy\u0142 je w\u0142a\u015bcicielowi gospody, m\u00f3wi\u0105c: Miej nad nim piecz\u0119, a cokolwiek ponad to wydasz, ja, gdy si\u0119 wr\u00f3c\u0119, oddam tobie.\nKt\u00f3ry\u017c z tych trzech zdaje ci si\u0119 by\u0107 bli\u017anim tego, co wpad\u0142 mi\u0119dzy z\u0142oczy\u0144c\u00f3w?\u00bb A on rzek\u0142: \u00abTen, kt\u00f3ry mu mi\u0142osierdzie okaza\u0142\u00bb. I rzek\u0142 mu Jezus: \u00abId\u017a, a czy\u0144 i ty podobnie\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Wj 32:11 32:13; 32:14*\nMoj\u017cesz modli\u0142 si\u0119 do Pana, Boga swego m\u00f3wi\u0105c: Czemu\u017c Panie, gniewa si\u0119 zapalczywo\u015b\u0107 Twoja przeciw ludowi Twemu? Niech ucichnie gniew Tw\u00f3j. Wspomnij na Abrahama, Izaaka i Jakuba, kt\u00f3rym przysi\u0105g\u0142e\u015b da\u0107 ziemi\u0119 mlekiem i miodem p\u0142yn\u0105c\u0105. I da\u0142 si\u0119 ub\u0142aga\u0107 Pan, \u017ceby nie czyni\u0142 z\u0142ego, kt\u00f3rym zagrozi\u0142 ludowi swemu.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Panie, wejrzyj \u0142askawie na dary ofiarne, kt\u00f3re sk\u0142adamy na Twoim \u015bwi\u0119tym o\u0142tarzu, aby wyjednuj\u0105c nam przebaczenie przynios\u0142y chwa\u0142\u0119 Twojemu imieniu.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 103:13; 103:14-15*\n*Chleb, wino i oliwa podtrzymuj\u0105 doczesne \u017cycie cz\u0142owieka. Jako materia sakrament\u00f3w s\u0142u\u017c\u0105 \u017cyciu nadprzyrodzonemu.*\nOwocem dzie\u0142 Twoich, Panie, nasyca si\u0119 ziemia. Ty sprawiasz, \u017ce ziemia rodzi pokarm: wino, aby rozwesela\u0142o serce cz\u0142owieka i oliw\u0119, aby od\u015bwie\u017ca\u0142a jego oblicze i chleb, aby krzepi\u0142 jego serce.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119 Panie, niech udzia\u0142 w \u015bwi\u0119tym misterium wleje w nas nowe \u017cycie, uwolni od win i zapewni obron\u0119.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

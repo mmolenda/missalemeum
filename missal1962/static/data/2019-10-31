@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2019-10-31", 
+      "description": "Niebo jest nasz\u0105 ojczyzn\u0105; na ziemi jeste\u015bmy wygna\u0144cami. Wskutek grzech\u00f3w w\u0142asnych i grzech\u00f3w naszych wsp\u00f3\u0142braci doznajemy wielu cierpie\u0144 (antyfona na wej\u015bcie). Dostrzegamy w sobie choroby duchowe, kt\u00f3re zagra\u017caj\u0105 \u017cyciu \u0142aski (ewangelia). Dlatego z serc naszych wyrywa si\u0119 modlitwa pe\u0142na t\u0119sknoty za wieczn\u0105 ojczyzn\u0105 (alleluja, antyfona na ofiarowanie). Wiemy jednak, \u017ce Chrystus chce nas zbawi\u0107. W Eucharystii podaje nam niebieskie lekarstwo na choroby dusz (sekreta). Eucharystia jest ostoj\u0105 nadziei i pociech\u0105 w naszym wygnaniu (antyfona na komuni\u0119).\n", 
+      "tempora": null, 
+      "title": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Dan 3:31; 31:29; 31:35*\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non oboed\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non oboed\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Larg\u00edre, qu\u01fdsumus, D\u00f3mine, fid\u00e9libus tuis indulg\u00e9ntiam plac\u00e1tus et pacem: ut p\u00e1riter ab \u00f3mnibus mund\u00e9ntur off\u00e9nsis, et sec\u00fara tibi mente des\u00e9rviant.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 5:15-21*\nFratres: Vid\u00e9te, qu\u00f3modo caute ambul\u00e9tis: non quasi insipi\u00e9ntes, sed ut sapi\u00e9ntes, redim\u00e9ntes tempus, qu\u00f3niam dies mali sunt. Propt\u00e9rea nol\u00edte f\u00ederi imprud\u00e9ntes, sed intelleg\u00e9ntes, quae sit vol\u00fantas Dei. Et nol\u00edte inebri\u00e1ri vino, in quo est lux\u00faria: sed impl\u00e9mini Sp\u00edritu Sancto, loqu\u00e9ntes vobismet\u00edpsis in psalmis et hymnis et c\u00e1nticis spiritu\u00e1libus, cant\u00e1ntes et psall\u00e9ntes in c\u00f3rdibus vestris D\u00f3mino: gr\u00e1tias ag\u00e9ntes semper pro \u00f3mnibus, in n\u00f3mine D\u00f3mini nostri Jesu Christi, Deo et Patri. Subjecti \u00ednvicem in tim\u00f3re Christi.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 144:15-16*\nOculi \u00f3mnium in te sperant, D\u00f3mine: et tu das illis escam in t\u00e9mpore opport\u00fano. V. Aperis tu manum tuam: et imples omne \u00e1nimal benedicti\u00f3ne. Allel\u00faja, allel\u00faja\n*Ps 107:2*\nPar\u00e1tum cor meum, Deus, par\u00e1tum cor meum: cant\u00e1bo, et psallam tibi, gl\u00f3ria mea. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 4:46-53*\nIn illo t\u00e9mpore: Erat quidam r\u00e9gulus, cujus f\u00edlius infirmab\u00e1tur Caph\u00e1rnaum. Hic cum aud\u00edsset, quia Jesus adven\u00edret a Judaea in Galilaeam, \u00e1biit ad eum, et rog\u00e1bat eum, ut desc\u00e9nderet et san\u00e1ret f\u00edlium ejus: incipi\u00e9bat enim mori. Dixit ergo Jesus ad eum: Nisi signa et prod\u00edgia vid\u00e9ritis, non cr\u00e9ditis. Dicit ad eum r\u00e9gulus: D\u00f3mine, desc\u00e9nde, pri\u00fasquam mori\u00e1tur f\u00edlius meus. Dicit ei Jesus: Vade, f\u00edlius tuus vivit. Cr\u00e9didit homo serm\u00f3ni, quem dixit ei Jesus, et ibat. Jam autem eo descend\u00e9nte, servi occurr\u00e9runt ei et nuntiav\u00e9runt, dic\u00e9ntes, quia f\u00edlius ejus v\u00edveret. Interrog\u00e1bat ergo horam ab eis, in qua m\u00e9lius hab\u00faerit. Et dix\u00e9runt ei: Quia heri hora s\u00e9ptima rel\u00edquit eum febris. Cogn\u00f3vit ergo pater, quia illa hora erat, in qua dixit ei Jesus: F\u00edlius tuus vivit: et cr\u00e9didit ipse et domus ejus tota.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 136:1*\nSuper fl\u00famina Babyl\u00f3nis illic s\u00e9dimus et fl\u00e9vimus: dum recordar\u00e9mur tui, Sion.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Coel\u00e9stem nobis praebeant h\u00e6c myst\u00e9ria, qu\u01fdsumus, D\u00f3mine, medic\u00ednam: et v\u00edtia nostri cordis exp\u00fargent.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 118:49-50*\nMem\u00e9nto verbi tui servo tuo, D\u00f3mine, in quo mihi spem ded\u00edsti: h\u00e6c me consol\u00e1ta est in humilit\u00e1te mea.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos, qu&#509;sumus, tuis semper oboed\u00edre mand\u00e1tis.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-10-31", 
-    "description": "Niebo jest nasz\u0105 ojczyzn\u0105; na ziemi jeste\u015bmy wygna\u0144cami. Wskutek grzech\u00f3w w\u0142asnych i grzech\u00f3w naszych wsp\u00f3\u0142braci doznajemy wielu cierpie\u0144 (antyfona na wej\u015bcie). Dostrzegamy w sobie choroby duchowe, kt\u00f3re zagra\u017caj\u0105 \u017cyciu \u0142aski (ewangelia). Dlatego z serc naszych wyrywa si\u0119 modlitwa pe\u0142na t\u0119sknoty za wieczn\u0105 ojczyzn\u0105 (alleluja, antyfona na ofiarowanie). Wiemy jednak, \u017ce Chrystus chce nas zbawi\u0107. W Eucharystii podaje nam niebieskie lekarstwo na choroby dusz (sekreta). Eucharystia jest ostoj\u0105 nadziei i pociech\u0105 w naszym wygnaniu (antyfona na komuni\u0119).\n", 
-    "tempora": null, 
-    "title": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Dan 3:31; 31:29; 31:35*\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non oboed\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.\n*Ps 118:1*\nBe\u00e1ti immacul\u00e1ti in via: qui \u00e1mbulant in lege D\u00f3mini.\nGl\u00f3ria Patri.\nOmnia, qu\u00e6 fec\u00edsti nobis, D\u00f3mine, in vero jud\u00edcio fec\u00edsti, quia pecc\u00e1vimus tibi et mand\u00e1tis tuis non oboed\u00edvimus: sed da gl\u00f3riam n\u00f3mini tuo, et fac nob\u00edscum sec\u00fandum multit\u00fadinem miseric\u00f3rdi\u00e6 tu\u00e6.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Larg\u00edre, qu\u01fdsumus, D\u00f3mine, fid\u00e9libus tuis indulg\u00e9ntiam plac\u00e1tus et pacem: ut p\u00e1riter ab \u00f3mnibus mund\u00e9ntur off\u00e9nsis, et sec\u00fara tibi mente des\u00e9rviant.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 5:15-21*\nFratres: Vid\u00e9te, qu\u00f3modo caute ambul\u00e9tis: non quasi insipi\u00e9ntes, sed ut sapi\u00e9ntes, redim\u00e9ntes tempus, qu\u00f3niam dies mali sunt. Propt\u00e9rea nol\u00edte f\u00ederi imprud\u00e9ntes, sed intelleg\u00e9ntes, quae sit vol\u00fantas Dei. Et nol\u00edte inebri\u00e1ri vino, in quo est lux\u00faria: sed impl\u00e9mini Sp\u00edritu Sancto, loqu\u00e9ntes vobismet\u00edpsis in psalmis et hymnis et c\u00e1nticis spiritu\u00e1libus, cant\u00e1ntes et psall\u00e9ntes in c\u00f3rdibus vestris D\u00f3mino: gr\u00e1tias ag\u00e9ntes semper pro \u00f3mnibus, in n\u00f3mine D\u00f3mini nostri Jesu Christi, Deo et Patri. Subjecti \u00ednvicem in tim\u00f3re Christi.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 144:15-16*\nOculi \u00f3mnium in te sperant, D\u00f3mine: et tu das illis escam in t\u00e9mpore opport\u00fano. V. Aperis tu manum tuam: et imples omne \u00e1nimal benedicti\u00f3ne. Allel\u00faja, allel\u00faja\n*Ps 107:2*\nPar\u00e1tum cor meum, Deus, par\u00e1tum cor meum: cant\u00e1bo, et psallam tibi, gl\u00f3ria mea. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Jo\u00e1nnem.\n*Joannes 4:46-53*\nIn illo t\u00e9mpore: Erat quidam r\u00e9gulus, cujus f\u00edlius infirmab\u00e1tur Caph\u00e1rnaum. Hic cum aud\u00edsset, quia Jesus adven\u00edret a Judaea in Galilaeam, \u00e1biit ad eum, et rog\u00e1bat eum, ut desc\u00e9nderet et san\u00e1ret f\u00edlium ejus: incipi\u00e9bat enim mori. Dixit ergo Jesus ad eum: Nisi signa et prod\u00edgia vid\u00e9ritis, non cr\u00e9ditis. Dicit ad eum r\u00e9gulus: D\u00f3mine, desc\u00e9nde, pri\u00fasquam mori\u00e1tur f\u00edlius meus. Dicit ei Jesus: Vade, f\u00edlius tuus vivit. Cr\u00e9didit homo serm\u00f3ni, quem dixit ei Jesus, et ibat. Jam autem eo descend\u00e9nte, servi occurr\u00e9runt ei et nuntiav\u00e9runt, dic\u00e9ntes, quia f\u00edlius ejus v\u00edveret. Interrog\u00e1bat ergo horam ab eis, in qua m\u00e9lius hab\u00faerit. Et dix\u00e9runt ei: Quia heri hora s\u00e9ptima rel\u00edquit eum febris. Cogn\u00f3vit ergo pater, quia illa hora erat, in qua dixit ei Jesus: F\u00edlius tuus vivit: et cr\u00e9didit ipse et domus ejus tota.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 136:1*\nSuper fl\u00famina Babyl\u00f3nis illic s\u00e9dimus et fl\u00e9vimus: dum recordar\u00e9mur tui, Sion.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Coel\u00e9stem nobis praebeant h\u00e6c myst\u00e9ria, qu\u01fdsumus, D\u00f3mine, medic\u00ednam: et v\u00edtia nostri cordis exp\u00fargent.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 118:49-50*\nMem\u00e9nto verbi tui servo tuo, D\u00f3mine, in quo mihi spem ded\u00edsti: h\u00e6c me consol\u00e1ta est in humilit\u00e1te mea.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Ut sacris, D\u00f3mine, redd\u00e1mur digni mun\u00e9ribus: fac nos, qu&#509;sumus, tuis semper oboed\u00edre mand\u00e1tis.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Dn 3:31; 31:29; 31:35*\nWszystko, co\u015b na nas dopu\u015bci\u0142, Panie, wed\u0142ug sprawiedliwego wyroku nas spotka\u0142o, bo\u015bmy zgrzeszyli przeciwko Tobie i przykaza\u0144 Twoich nie strzegli\u015bmy. Lecz zechciej ws\u0142awi\u0107 Twe Imi\u0119 i post\u0105p z nami wedle niezmierzonej dobroci Twojej.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych \u017cycie bez skazy: kt\u00f3rzy wed\u0142ug Pa\u0144skiego prawa post\u0119puj\u0105.\nChwa\u0142a Ojcu.\nWszystko, co\u015b na nas dopu\u015bci\u0142, Panie, wed\u0142ug sprawiedliwego wyroku nas spotka\u0142o, bo\u015bmy zgrzeszyli przeciwko Tobie i przykaza\u0144 Twoich nie strzegli\u015bmy. Lecz zechciej ws\u0142awi\u0107 Twe Imi\u0119 i post\u0105p z nami wedle niezmierzonej dobroci Twojej.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, u\u017cycz wiernym Twoim przebaczenia i pokoju, aby oczyszczeni ze wszystkich win swoich mogli Ci s\u0142u\u017cy\u0107 sercem spokojnym.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 5:15-21*\n*Duch \u015bwi\u0119ty nape\u0142nia serca wiernych wykonawc\u00f3w woli Bo\u017cej g\u0142\u0119bok\u0105 rado\u015bci\u0105.*\nBracia: Baczcie pilnie, aby\u015bcie post\u0119powali z uwag\u0105, nie jak nieroztropni, ale jako m\u0105drzy, wyzyskuj\u0105c czas, poniewa\u017c dni s\u0105 z\u0142e. Nie b\u0105d\u017acie wi\u0119c nierozwa\u017cnymi, ale rozumiej\u0105cymi, jaka jest wola Bo\u017ca. A nie upijajcie si\u0119 winem, w kt\u00f3rym tkwi rozpusta, ale nape\u0142niajcie si\u0119 Duchem \u015awi\u0119tym, wyg\u0142aszaj\u0105c psalmy, hymny i pie\u015bni duchowe, nuc\u0105c i \u015bpiewaj\u0105c w sercach waszych Panu. A dzi\u0119ki czy\u0144cie zawsze i za wszystko Bogu i Ojcu w imi\u0119 Pana naszego Jezusa Chrystusa. B\u0105d\u017acie ulegli jedni drugim w boja\u017ani Chrystusowej.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 144:15-16*\nOczy wszystkich z ufno\u015bci\u0105 patrz\u0105 na Ciebie, Panie: Ty dajesz im pokarm we w\u0142a\u015bciwej porze.\nV. Otwierasz r\u0119k\u0119 swoj\u0105 i b\u0142ogos\u0142awie\u0144stwem nape\u0142niasz wszystko co \u017cyje. Alleluja, alleluja.\n*Ps 107:2*\nGotowe serce moje, Bo\u017ce, gotowe serce moje: za\u015bpiewam i zagram Ci psalm, Chwa\u0142o moja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 4:46-53*\n*B\u00f3g udziela nam swojej \u0142aski w miar\u0119 naszej ufno\u015bci.*\nOnego czasu: By\u0142 dworzanin pewien, kt\u00f3rego syn chorowa\u0142 w Kafarnaum. Ten, gdy us\u0142ysza\u0142, \u017ce Jezus przyby\u0142 z Judei do Galilei, poszed\u0142 do Niego i prosi\u0142 Go, aby przyszed\u0142 i uleczy\u0142 syna jego, bo ju\u017c dogorywa\u0142. I rzek\u0142 do niego Jezus: \u00abJe\u015bli nie widzicie znak\u00f3w i cud\u00f3w, nie wierzycie\u00bb. Rzecze do Niego dworzanin: \u00abPanie, przyjd\u017a pierwej, zanim umrze syn m\u00f3j\u00bb. Rzecze do niego Jezus: \u00abId\u017a, syn tw\u00f3j \u017cyje\u00bb. I uwierzy\u0142 \u00f3w cz\u0142owiek s\u0142owu, kt\u00f3re mu powiedzia\u0142 Jezus, i poszed\u0142. A gdy by\u0142 w drodze, wyszli na jego spotkanie s\u0142udzy i oznajmili m\u00f3wi\u0105c: \u00abSyn tw\u00f3j \u017cyje\u00bb. Zapyta\u0142 ich tedy o godzin\u0119, w kt\u00f3rej mu si\u0119 polepszy\u0142o. I rzekli mu: \u00abWczoraj o godzinie si\u00f3dmej opu\u015bci\u0142a go gor\u0105czka\u00bb. Pozna\u0142 tedy ojciec, \u017ce by\u0142a to godzina, w kt\u00f3rej powiedzia\u0142 do niego Jezus: Syn tw\u00f3j \u017cyje. I uwierzy\u0142 sam i ca\u0142y dom jego.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 136:1*\n*Syjon jest symbolem ojczyzny niebieskiej, Babilon to zmienia wygnania, na kt\u00f3rej przebywamy.*\nNad rzekami Babilonu siedzieli\u015bmy i p\u0142akali\u015bmy, gdy wspominali\u015bmy Ciebie, Syjonie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie niechaj te \u015bwi\u0119te Tajemnice udziel\u0105 nam z niebios lekarstwa, kt\u00f3re oczy\u015bci z nieprawo\u015bci serca nasze.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 118:49-50*\nPomnij na obietnic\u0119 dan\u0105 s\u0142udze Twemu, Panie, w kt\u00f3r\u0105 kaza\u0142e\u015b mi wierzy\u0107. Ona mnie pociesza w mojej n\u0119dzy.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Spraw, prosimy Ci\u0119, Panie, aby\u015bmy przez pilne pos\u0142usze\u0144stwo Twoim przykazaniom stali si\u0119 godnymi \u015bwi\u0119tych dar\u00f3w Twoich.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Dn 3:31; 31:29; 31:35*\nWszystko, co\u015b na nas dopu\u015bci\u0142, Panie, wed\u0142ug sprawiedliwego wyroku nas spotka\u0142o, bo\u015bmy zgrzeszyli przeciwko Tobie i przykaza\u0144 Twoich nie strzegli\u015bmy. Lecz zechciej ws\u0142awi\u0107 Twe Imi\u0119 i post\u0105p z nami wedle niezmierzonej dobroci Twojej.\n*Ps 118:1*\nB\u0142ogos\u0142awieni, kt\u00f3rych \u017cycie bez skazy: kt\u00f3rzy wed\u0142ug Pa\u0144skiego prawa post\u0119puj\u0105.\nChwa\u0142a Ojcu.\nWszystko, co\u015b na nas dopu\u015bci\u0142, Panie, wed\u0142ug sprawiedliwego wyroku nas spotka\u0142o, bo\u015bmy zgrzeszyli przeciwko Tobie i przykaza\u0144 Twoich nie strzegli\u015bmy. Lecz zechciej ws\u0142awi\u0107 Twe Imi\u0119 i post\u0105p z nami wedle niezmierzonej dobroci Twojej.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, u\u017cycz wiernym Twoim przebaczenia i pokoju, aby oczyszczeni ze wszystkich win swoich mogli Ci s\u0142u\u017cy\u0107 sercem spokojnym.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 5:15-21*\n*Duch \u015bwi\u0119ty nape\u0142nia serca wiernych wykonawc\u00f3w woli Bo\u017cej g\u0142\u0119bok\u0105 rado\u015bci\u0105.*\nBracia: Baczcie pilnie, aby\u015bcie post\u0119powali z uwag\u0105, nie jak nieroztropni, ale jako m\u0105drzy, wyzyskuj\u0105c czas, poniewa\u017c dni s\u0105 z\u0142e. Nie b\u0105d\u017acie wi\u0119c nierozwa\u017cnymi, ale rozumiej\u0105cymi, jaka jest wola Bo\u017ca. A nie upijajcie si\u0119 winem, w kt\u00f3rym tkwi rozpusta, ale nape\u0142niajcie si\u0119 Duchem \u015awi\u0119tym, wyg\u0142aszaj\u0105c psalmy, hymny i pie\u015bni duchowe, nuc\u0105c i \u015bpiewaj\u0105c w sercach waszych Panu. A dzi\u0119ki czy\u0144cie zawsze i za wszystko Bogu i Ojcu w imi\u0119 Pana naszego Jezusa Chrystusa. B\u0105d\u017acie ulegli jedni drugim w boja\u017ani Chrystusowej.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 144:15-16*\nOczy wszystkich z ufno\u015bci\u0105 patrz\u0105 na Ciebie, Panie: Ty dajesz im pokarm we w\u0142a\u015bciwej porze.\nV. Otwierasz r\u0119k\u0119 swoj\u0105 i b\u0142ogos\u0142awie\u0144stwem nape\u0142niasz wszystko co \u017cyje. Alleluja, alleluja.\n*Ps 107:2*\nGotowe serce moje, Bo\u017ce, gotowe serce moje: za\u015bpiewam i zagram Ci psalm, Chwa\u0142o moja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Jana.\n*J 4:46-53*\n*B\u00f3g udziela nam swojej \u0142aski w miar\u0119 naszej ufno\u015bci.*\nOnego czasu: By\u0142 dworzanin pewien, kt\u00f3rego syn chorowa\u0142 w Kafarnaum. Ten, gdy us\u0142ysza\u0142, \u017ce Jezus przyby\u0142 z Judei do Galilei, poszed\u0142 do Niego i prosi\u0142 Go, aby przyszed\u0142 i uleczy\u0142 syna jego, bo ju\u017c dogorywa\u0142. I rzek\u0142 do niego Jezus: \u00abJe\u015bli nie widzicie znak\u00f3w i cud\u00f3w, nie wierzycie\u00bb. Rzecze do Niego dworzanin: \u00abPanie, przyjd\u017a pierwej, zanim umrze syn m\u00f3j\u00bb. Rzecze do niego Jezus: \u00abId\u017a, syn tw\u00f3j \u017cyje\u00bb. I uwierzy\u0142 \u00f3w cz\u0142owiek s\u0142owu, kt\u00f3re mu powiedzia\u0142 Jezus, i poszed\u0142. A gdy by\u0142 w drodze, wyszli na jego spotkanie s\u0142udzy i oznajmili m\u00f3wi\u0105c: \u00abSyn tw\u00f3j \u017cyje\u00bb. Zapyta\u0142 ich tedy o godzin\u0119, w kt\u00f3rej mu si\u0119 polepszy\u0142o. I rzekli mu: \u00abWczoraj o godzinie si\u00f3dmej opu\u015bci\u0142a go gor\u0105czka\u00bb. Pozna\u0142 tedy ojciec, \u017ce by\u0142a to godzina, w kt\u00f3rej powiedzia\u0142 do niego Jezus: Syn tw\u00f3j \u017cyje. I uwierzy\u0142 sam i ca\u0142y dom jego.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 136:1*\n*Syjon jest symbolem ojczyzny niebieskiej, Babilon to zmienia wygnania, na kt\u00f3rej przebywamy.*\nNad rzekami Babilonu siedzieli\u015bmy i p\u0142akali\u015bmy, gdy wspominali\u015bmy Ciebie, Syjonie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie niechaj te \u015bwi\u0119te Tajemnice udziel\u0105 nam z niebios lekarstwa, kt\u00f3re oczy\u015bci z nieprawo\u015bci serca nasze.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 118:49-50*\nPomnij na obietnic\u0119 dan\u0105 s\u0142udze Twemu, Panie, w kt\u00f3r\u0105 kaza\u0142e\u015b mi wierzy\u0107. Ona mnie pociesza w mojej n\u0119dzy.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Spraw, prosimy Ci\u0119, Panie, aby\u015bmy przez pilne pos\u0142usze\u0144stwo Twoim przykazaniom stali si\u0119 godnymi \u015bwi\u0119tych dar\u00f3w Twoich.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

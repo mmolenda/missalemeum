@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Wawrzy\u0144ca za Murami", 
-      "2 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Wawrzy\u0144ca za Murami", 
+        "2 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2019-02-19", 
+      "description": "Obch\u00f3d Zmartwychwstania Pa\u0144skiego, kt\u00f3re jest g\u0142\u00f3wn\u0105 uroczysto\u015bci\u0105 roku ko\u015bcielnego, poprzedza d\u0142ugie, tr\u00f3jstopniowe przygotowanie: Przedpo\u015bcie, Wielki Post i Okres M\u0119ki Pa\u0144skiej.\nLiturgia Przedpo\u015bcia ukszta\u0142towa\u0142a si\u0119 za czas\u00f3w \u015bw. Grzegorza Wielkiego (\u2020 604) ju\u017c po ustaleniu si\u0119 Wielkiego Postu. Stanowi ono rodzaj przedsionka do okresu pokuty. Niedziele przedpo\u015bcia nazywaj\u0105 si\u0119: Siedemdziesi\u0105tnica, Sze\u015b\u0107dziesi\u0105tnica i Pi\u0119\u0107dziesi\u0105tnica, gdy\u017c wypadaj\u0105 w si\u00f3dmym, sz\u00f3stym i pi\u0105tym dziesi\u0105tku dni przed Wielkanoc\u0105.\nW Polsce powsta\u0142y inne nazwy tych niedziel: Starozapustna, Mi\u0119sopustna i Zapustna, poniewa\u017c dawniej w tym czasie zachowywano \u0142agodniejszy post, odzwyczajaj\u0105c si\u0119 stopniowo od pewnych pokarm\u00f3w. W okresie Przedpo\u015bcia wolno gra\u0107 na organach, zakazana jest jednak gra na innych instrumentach.\nModlitwy i \u015bpiewy niedziel Przedpo\u015bcia pochodz\u0105 z prze\u0142omu VI i VII wieku, kiedy to najazdy barbarzy\u0144c\u00f3w, trz\u0119sienia ziemi i zarazy zdawa\u0142y si\u0119 grozi\u0107 zag\u0142ad\u0105 Rzymowi i kulturze chrze\u015bcija\u0144skiej. Odzwierciedlaj\u0105 one doskonale stan, w jakim si\u0119 znalaz\u0142a ludzko\u015b\u0107 pozbawiona \u0142aski u\u015bwi\u0119caj\u0105cej. Przygniataj\u0105 nas grzechy, cierpienia i smier\u0107. W naszym ucisku zwracamy si\u0119 do Zbawiciela (antyfona na wej\u015bcie, kolekta, gradua\u0142, traktus). B\u00f3g wskazuje nam drog\u0119 wyzwolenia: trzeba podbi\u0107 nasze nami\u0119tno\u015bci, za pomoc\u0105 chrze\u015bcija\u0144skiej ascezy trzeba doj\u015b\u0107 do panowania nad sob\u0105 (lekcja). Pan B\u00f3g wzywa ludzi do tej pracy o r\u00f3\u017cnej porze. Jak d\u0142ugo jeste\u015bmy w stanie doczesnej pielgrzymki, nigdy nie jest za p\u00f3\u017ano. W pracy tej wspomaga nas \u0142aska p\u0142yn\u0105ca z Ofiary Eucharystycznej.\n", 
+      "tempora": null, 
+      "title": "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 17:5; 17:6; 17:7*\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam.\n*Ps 17:2-3*\nD\u00edligam te, D\u00f3mine, fortit\u00fado mea: D\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus.\nGl\u00f3ria Patri.\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Preces p\u00f3puli tui, qu\u01fdsumus, D\u00f3mine, clem\u00e9nter ex\u00e1udi: ut, qui juste pro pecc\u00e1tis nostris affl\u00edgimur, pro tui n\u00f3minis gl\u00f3ria miseric\u00f3rditer liber\u00e9mur.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 9:24-27; 10:1-5*\nFratres: Nesc\u00edtis, quod ii, qui in st\u00e1dio currunt, omnes quidem currunt, sed unus \u00e1ccipit brav\u00edum? Sic c\u00farrite, ut comprehend\u00e1tis. Omnis autem, qui in ag\u00f3ne cont\u00e9ndit, ab \u00f3mnibus se \u00e1bstinet: et illi quidem, ut corrupt\u00edbilem cor\u00f3nam acc\u00edpiant; nos autem incorr\u00faptam. Ego \u00edgitur sic curro, non quasi in inc\u00e9rtum: sic pugno, non quasi \u00e1\u00ebrem v\u00e9rberans: sed cast\u00edgo corpus meum, et in servit\u00fatem r\u00e9digo: ne forte, cum \u00e1liis pr\u00e6dic\u00e1verim, ipse r\u00e9probus eff\u00edciar. Nolo enim vos ignor\u00e1re, fratres, qu\u00f3niam patres nostri omnes sub nube fu\u00e9runt, et omnes mare transi\u00e9runt, et omnes in M\u00f3yse baptiz\u00e1ti sunt in nube et in mari: et omnes e\u00e1ndem escam spirit\u00e1lem manducav\u00e9runt, et omnes e\u00fandem potum spirit\u00e1lem bib\u00e9runt bib\u00e9bant autem de spirit\u00e1li, consequ\u00e9nte eos, petra: petra autem erat Christus: sed non in pl\u00faribus e\u00f3rum benepl\u00e1citum est Deo.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 9:10-11; 9:19-20*\nAdj\u00fator in opportunit\u00e1tibus, in tribulati\u00f3ne: sperent in te, qui nov\u00e9runt te: qu\u00f3niam non derel\u00ednquis qu\u00e6r\u00e9ntes te, D\u00f3mine,\nV. Qu\u00f3niam non in finem obl\u00edvio erit p\u00e1uperis: pati\u00e9ntia p\u00e1uperum non per\u00edbit in \u00e6t\u00e9rnum: exs\u00farge, D\u00f3mine, non pr\u00e6v\u00e1leat homo.\n*Ps 129:1-4*\nDe prof\u00fandis clam\u00e1vi ad te. D\u00f3mine: D\u00f3mine, ex\u00e1udi vocem meam.\nV. Fiant aures tu\u00e6 intend\u00e9ntes in orati\u00f3nem servi tui.\nV. Si iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit?\nV. Quia apud te propiti\u00e1tio est, et propter legem tuam sust\u00ednui te, D\u00f3mine.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 20:1-16*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Simile est regnum coel\u00f3rum h\u00f3mini patrifam\u00edlias, qui \u00e9xiit primo mane cond\u00facere oper\u00e1rios in v\u00edneam suam. Conventi\u00f3ne autem facta cum oper\u00e1riis ex den\u00e1rio di\u00farno, misit eos in v\u00edneam suam. Et egr\u00e9ssus circa horam t\u00e9rtiam, vidit \u00e1lios stantes in foro oti\u00f3sos, et dixit illis: Ite et vos in v\u00edneam meam, et quod justum f\u00faerit, dabo vobis. Illi autem abi\u00e9runt. Iterum autem \u00e9xiit circa sextam et nonam horam: et fecit sim\u00edliter. Circa und\u00e9cimam vero \u00e9xiit, et inv\u00e9nit \u00e1lios stantes, et dicit illis: Quid hic statis tota die oti\u00f3si? Dicunt ei: Quia nemo nos cond\u00faxit. Dicit illis: Ite et vos in v\u00edneam meam. Cum sero autem factum esset, dicit d\u00f3minus v\u00edne\u00e6 procurat\u00f3ri suo: Voca oper\u00e1rios, et redde illis merc\u00e9dem, inc\u00edpiens a nov\u00edssimis usque ad primos. Cum ven\u00edssent ergo qui circa und\u00e9cimam horam v\u00e9nerant, accep\u00e9runt s\u00edngulos den\u00e1rios. Veni\u00e9ntes autem et primi, arbitr\u00e1ti sunt, quod plus essent accept\u00fari: accep\u00e9runt autem et ipsi s\u00edngulos den\u00e1rios. Et accipi\u00e9ntes murmur\u00e1bant adv\u00e9rsus patremfam\u00edlias, dic\u00e9ntes: Hi nov\u00edssimi una hora fec\u00e9runt et pares illos nobis fec\u00edsti, qui port\u00e1vimus pondus di\u00e9i et \u00e6stus. At ille resp\u00f3ndens uni e\u00f3rum, dixit: Am\u00edce, non facio tibi inj\u00fariam: nonne ex den\u00e1rio conven\u00edsti mecum? Tolle quod tuum est, et vade: volo autem et huic nov\u00edssimo dare sicut et tibi. Aut non licet mihi, quod volo, f\u00e1cere? an \u00f3culus tuus nequam est, quia ego bonus sum? Sic erunt nov\u00edssimi primi, et primi nov\u00edssimi. Multi enim sunt voc\u00e1ti, pauci vero el\u00e9cti.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino, et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 30:17-18*\nIll\u00famina f\u00e1ciem tuam super servum tuum, et salvum me fac in tua miseric\u00f3rdia: D\u00f3mine, non conf\u00fandar, qu\u00f3niam invoc\u00e1vi te.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Fid\u00e9les tui, Deus, per tua dona firm\u00e9ntur: ut eadem et percipi\u00e9ndo requ\u00edrant, et qu\u00e6r\u00e9ndo sine fine perc\u00edpiant.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-02-19", 
-    "description": "Obch\u00f3d Zmartwychwstania Pa\u0144skiego, kt\u00f3re jest g\u0142\u00f3wn\u0105 uroczysto\u015bci\u0105 roku ko\u015bcielnego, poprzedza d\u0142ugie, tr\u00f3jstopniowe przygotowanie: Przedpo\u015bcie, Wielki Post i Okres M\u0119ki Pa\u0144skiej.\nLiturgia Przedpo\u015bcia ukszta\u0142towa\u0142a si\u0119 za czas\u00f3w \u015bw. Grzegorza Wielkiego (\u2020 604) ju\u017c po ustaleniu si\u0119 Wielkiego Postu. Stanowi ono rodzaj przedsionka do okresu pokuty. Niedziele przedpo\u015bcia nazywaj\u0105 si\u0119: Siedemdziesi\u0105tnica, Sze\u015b\u0107dziesi\u0105tnica i Pi\u0119\u0107dziesi\u0105tnica, gdy\u017c wypadaj\u0105 w si\u00f3dmym, sz\u00f3stym i pi\u0105tym dziesi\u0105tku dni przed Wielkanoc\u0105.\nW Polsce powsta\u0142y inne nazwy tych niedziel: Starozapustna, Mi\u0119sopustna i Zapustna, poniewa\u017c dawniej w tym czasie zachowywano \u0142agodniejszy post, odzwyczajaj\u0105c si\u0119 stopniowo od pewnych pokarm\u00f3w. W okresie Przedpo\u015bcia wolno gra\u0107 na organach, zakazana jest jednak gra na innych instrumentach.\nModlitwy i \u015bpiewy niedziel Przedpo\u015bcia pochodz\u0105 z prze\u0142omu VI i VII wieku, kiedy to najazdy barbarzy\u0144c\u00f3w, trz\u0119sienia ziemi i zarazy zdawa\u0142y si\u0119 grozi\u0107 zag\u0142ad\u0105 Rzymowi i kulturze chrze\u015bcija\u0144skiej. Odzwierciedlaj\u0105 one doskonale stan, w jakim si\u0119 znalaz\u0142a ludzko\u015b\u0107 pozbawiona \u0142aski u\u015bwi\u0119caj\u0105cej. Przygniataj\u0105 nas grzechy, cierpienia i smier\u0107. W naszym ucisku zwracamy si\u0119 do Zbawiciela (antyfona na wej\u015bcie, kolekta, gradua\u0142, traktus). B\u00f3g wskazuje nam drog\u0119 wyzwolenia: trzeba podbi\u0107 nasze nami\u0119tno\u015bci, za pomoc\u0105 chrze\u015bcija\u0144skiej ascezy trzeba doj\u015b\u0107 do panowania nad sob\u0105 (lekcja). Pan B\u00f3g wzywa ludzi do tej pracy o r\u00f3\u017cnej porze. Jak d\u0142ugo jeste\u015bmy w stanie doczesnej pielgrzymki, nigdy nie jest za p\u00f3\u017ano. W pracy tej wspomaga nas \u0142aska p\u0142yn\u0105ca z Ofiary Eucharystycznej.\n", 
-    "tempora": null, 
-    "title": "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 17:5; 17:6; 17:7*\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam.\n*Ps 17:2-3*\nD\u00edligam te, D\u00f3mine, fortit\u00fado mea: D\u00f3minus firmam\u00e9ntum meum, et ref\u00fagium meum, et liber\u00e1tor meus.\nGl\u00f3ria Patri.\nCircumded\u00e9runt me g\u00e9mitus mortis, dol\u00f3res inf\u00e9rni circumded\u00e9runt me: et in tribulati\u00f3ne mea invoc\u00e1vi D\u00f3minum, et exaud\u00edvit de templo sancto suo vocem meam.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Preces p\u00f3puli tui, qu\u01fdsumus, D\u00f3mine, clem\u00e9nter ex\u00e1udi: ut, qui juste pro pecc\u00e1tis nostris affl\u00edgimur, pro tui n\u00f3minis gl\u00f3ria miseric\u00f3rditer liber\u00e9mur.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Cor\u00ednthios.\n*1 Cor 9:24-27; 10:1-5*\nFratres: Nesc\u00edtis, quod ii, qui in st\u00e1dio currunt, omnes quidem currunt, sed unus \u00e1ccipit brav\u00edum? Sic c\u00farrite, ut comprehend\u00e1tis. Omnis autem, qui in ag\u00f3ne cont\u00e9ndit, ab \u00f3mnibus se \u00e1bstinet: et illi quidem, ut corrupt\u00edbilem cor\u00f3nam acc\u00edpiant; nos autem incorr\u00faptam. Ego \u00edgitur sic curro, non quasi in inc\u00e9rtum: sic pugno, non quasi \u00e1\u00ebrem v\u00e9rberans: sed cast\u00edgo corpus meum, et in servit\u00fatem r\u00e9digo: ne forte, cum \u00e1liis pr\u00e6dic\u00e1verim, ipse r\u00e9probus eff\u00edciar. Nolo enim vos ignor\u00e1re, fratres, qu\u00f3niam patres nostri omnes sub nube fu\u00e9runt, et omnes mare transi\u00e9runt, et omnes in M\u00f3yse baptiz\u00e1ti sunt in nube et in mari: et omnes e\u00e1ndem escam spirit\u00e1lem manducav\u00e9runt, et omnes e\u00fandem potum spirit\u00e1lem bib\u00e9runt bib\u00e9bant autem de spirit\u00e1li, consequ\u00e9nte eos, petra: petra autem erat Christus: sed non in pl\u00faribus e\u00f3rum benepl\u00e1citum est Deo.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 9:10-11; 9:19-20*\nAdj\u00fator in opportunit\u00e1tibus, in tribulati\u00f3ne: sperent in te, qui nov\u00e9runt te: qu\u00f3niam non derel\u00ednquis qu\u00e6r\u00e9ntes te, D\u00f3mine,\nV. Qu\u00f3niam non in finem obl\u00edvio erit p\u00e1uperis: pati\u00e9ntia p\u00e1uperum non per\u00edbit in \u00e6t\u00e9rnum: exs\u00farge, D\u00f3mine, non pr\u00e6v\u00e1leat homo.\n*Ps 129:1-4*\nDe prof\u00fandis clam\u00e1vi ad te. D\u00f3mine: D\u00f3mine, ex\u00e1udi vocem meam.\nV. Fiant aures tu\u00e6 intend\u00e9ntes in orati\u00f3nem servi tui.\nV. Si iniquit\u00e1tes observ\u00e1veris, D\u00f3mine: D\u00f3mine, quis sustin\u00e9bit?\nV. Quia apud te propiti\u00e1tio est, et propter legem tuam sust\u00ednui te, D\u00f3mine.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matthaeum.\n*Matt 20:1-16*\nIn illo t\u00e9mpore: Dixit Jesus disc\u00edpulis suis par\u00e1bolam hanc: Simile est regnum coel\u00f3rum h\u00f3mini patrifam\u00edlias, qui \u00e9xiit primo mane cond\u00facere oper\u00e1rios in v\u00edneam suam. Conventi\u00f3ne autem facta cum oper\u00e1riis ex den\u00e1rio di\u00farno, misit eos in v\u00edneam suam. Et egr\u00e9ssus circa horam t\u00e9rtiam, vidit \u00e1lios stantes in foro oti\u00f3sos, et dixit illis: Ite et vos in v\u00edneam meam, et quod justum f\u00faerit, dabo vobis. Illi autem abi\u00e9runt. Iterum autem \u00e9xiit circa sextam et nonam horam: et fecit sim\u00edliter. Circa und\u00e9cimam vero \u00e9xiit, et inv\u00e9nit \u00e1lios stantes, et dicit illis: Quid hic statis tota die oti\u00f3si? Dicunt ei: Quia nemo nos cond\u00faxit. Dicit illis: Ite et vos in v\u00edneam meam. Cum sero autem factum esset, dicit d\u00f3minus v\u00edne\u00e6 procurat\u00f3ri suo: Voca oper\u00e1rios, et redde illis merc\u00e9dem, inc\u00edpiens a nov\u00edssimis usque ad primos. Cum ven\u00edssent ergo qui circa und\u00e9cimam horam v\u00e9nerant, accep\u00e9runt s\u00edngulos den\u00e1rios. Veni\u00e9ntes autem et primi, arbitr\u00e1ti sunt, quod plus essent accept\u00fari: accep\u00e9runt autem et ipsi s\u00edngulos den\u00e1rios. Et accipi\u00e9ntes murmur\u00e1bant adv\u00e9rsus patremfam\u00edlias, dic\u00e9ntes: Hi nov\u00edssimi una hora fec\u00e9runt et pares illos nobis fec\u00edsti, qui port\u00e1vimus pondus di\u00e9i et \u00e6stus. At ille resp\u00f3ndens uni e\u00f3rum, dixit: Am\u00edce, non facio tibi inj\u00fariam: nonne ex den\u00e1rio conven\u00edsti mecum? Tolle quod tuum est, et vade: volo autem et huic nov\u00edssimo dare sicut et tibi. Aut non licet mihi, quod volo, f\u00e1cere? an \u00f3culus tuus nequam est, quia ego bonus sum? Sic erunt nov\u00edssimi primi, et primi nov\u00edssimi. Multi enim sunt voc\u00e1ti, pauci vero el\u00e9cti.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 91:2*\nBonum est confit\u00e9ri D\u00f3mino, et ps\u00e1llere n\u00f3mini tuo, Alt\u00edssime.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Mun\u00e9ribus nostris, qu\u01fdsumus, D\u00f3mine, precib\u00fasque susc\u00e9ptis: et coel\u00e9stibus nos munda myst\u00e9riis, et clem\u00e9nter ex\u00e1udi.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui cum unig\u00e9nito F\u00edlio tuo et Sp\u00edritu Sancto unus es Deus, unus es D\u00f3minus: non in unius singularit\u00e1te pers\u00f3n\u00e6, sed in un\u00edus Trinit\u00e1te subst\u00e1nti\u00e6. Quod enim de tua gl\u00f3ria, revel\u00e1nte te, cr\u00e9dimus, hoc de F\u00edlio tuo, hoc de Sp\u00edritu Sancto sine differ\u00e9ntia discreti\u00f3nis sent\u00edmus. Ut in confessi\u00f3ne ver\u00e6 sempitern\u01fdque Deit\u00e1tis, et in pers\u00f3nis propr\u00edetas, et in ess\u00e9ntia \u00fanitas, et in majest\u00e1te ador\u00e9tur \u00e6qu\u00e1litas. Quam laudant Angeli atque Arch\u00e1ngeli, Ch\u00e9rubim quoque ac S\u00e9raphim: qui non cessant clam\u00e1re cot\u00eddie, una voce dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 30:17-18*\nIll\u00famina f\u00e1ciem tuam super servum tuum, et salvum me fac in tua miseric\u00f3rdia: D\u00f3mine, non conf\u00fandar, qu\u00f3niam invoc\u00e1vi te.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Fid\u00e9les tui, Deus, per tua dona firm\u00e9ntur: ut eadem et percipi\u00e9ndo requ\u00edrant, et qu\u00e6r\u00e9ndo sine fine perc\u00edpiant.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 17:5; 17:6; 17:7*\nOgarn\u0119\u0142y mnie bole\u015bci \u015bmiertelne, m\u0119ki piekielne mnie otoczy\u0142y. W mym utrapieniu Pana wezwa\u0142em, i us\u0142ysza\u0142 g\u0142os m\u00f3j ze \u015bwi\u0105tyni swojej.\n*Ps 17:2-3*\nMi\u0142uj\u0119 Ci\u0119, Panie, mocy moja, Pan opok\u0105 moj\u0105 i ucieczk\u0105. On moim wybawicielem.\nChwa\u0142a Ojcu.\nOgarn\u0119\u0142y mnie bole\u015bci \u015bmiertelne, m\u0119ki piekielne mnie otoczy\u0142y. W mym utrapieniu Pana wezwa\u0142em, i us\u0142ysza\u0142 g\u0142os m\u00f3j ze \u015bwi\u0105tyni swojej.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wys\u0142uchaj \u0142askawie, prosimy Ci\u0119, Panie, modlitwy ludu Twego i chocia\u017c s\u0142usznie cierpimy za nasze grzechy, wybaw nas mi\u0142o\u015bciwie dla chwa\u0142y Twojego imienia.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 9:24-27; 10:1-5*\n*Aby osi\u0105gn\u0105\u0107 zbawienie, nie wystarczy nale\u017ce\u0107 do ludu Bo\u017cego i otrzymywa\u0107 Jego \u0142ask\u0119. Ostateczne zwyci\u0119stwo zdobywa si\u0119 w walce. \u015aw. Pawe\u0142 zestawia chrze\u015bcija\u0144sk\u0105 ascez\u0119 z zapraw\u0105 sportow\u0105. Kto nie trenuje, przegrywa zawody. Chrze\u015bcija\u0144ska asceza, trening duchowy \u2013 to \u0107wiczenie w panowaniu w\u0142adz wy\u017cszych nad ni\u017cszymi.*\nBracia: Czy\u017c nie wiecie, \u017ce ci, kt\u00f3rzy biegn\u0105 w zawody, cho\u0107 wszyscy biegn\u0105, jeden tylko otrzymuje nagrod\u0119? Tak biegnijcie, aby\u015bcie otrzymali. A ka\u017cdy, kt\u00f3ry idzie w zawody od wszystkiego si\u0119 powstrzymuje: oni, aby otrzyma\u0107 wieniec znikomy, a my \u2014 trwa\u0142y. Ja tedy tak biegn\u0119, nie jakoby na o\u015blep; tak walcz\u0119, nie jakobym wiatr uderza\u0142, ale karc\u0119 cia\u0142o moje i do pos\u0142uchu przymuszam, abym snad\u017a innych nauczaj\u0105c sam nie by\u0142 odrzuconym. Bo nie chc\u0119, bracia, aby\u015bcie wiedzie\u0107 nie mieli, \u017ce ojcowie nasi wszyscy byli pod ob\u0142okiem i \u017ce wszyscy przez morze przeszli. I wszyscy w Moj\u017ceszu, ob\u0142oku i morzu ochrzczeni byli. I wszyscy po\u017cywali ten\u017ce pokarm duchowy, i wszyscy pili ten\u017ce nap\u00f3j duchowy (a pili z opoki duchowej, kt\u00f3ra im towarzyszy\u0142a, a opok\u0105 by\u0142 Chrystus). Ale nie w wielu z nich upodoba\u0142 sobie B\u00f3g.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 9:10-11; 9:19-20*\nPan ucieczk\u0105 dogodn\u0105 w czasie utrapienia: zaufaj\u0105 Tobie znaj\u0105cy Twe imi\u0119, bo nie opuszczasz, Panie, tych, co Ci\u0119 szukaj\u0105.\nV. Bo nie p\u00f3jdzie ubogi w zapomnienie na zawsze, ufno\u015b\u0107 nieszcz\u0119\u015bliwych nie zaginie na wieki. Powsta\u0144, o Panie, by cz\u0142owiek nie przem\u00f3g\u0142.\n*Ps 129:1-4*\nZ g\u0142\u0119boko\u015bci wo\u0142am do Ciebie, Panie; o Panie, s\u0142uchaj g\u0142osu mego.\nV. Niech uszy Twoje si\u0119 sk\u0142oni\u0105 na g\u0142os mojego b\u0142agania.\nV. Je\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi?\nV. Ale u Ciebie przebaczenie grzech\u00f3w, aby ze czci\u0105 Tobie s\u0142u\u017cono.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 20:1-16*\nOnego czasu rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: Podobne jest Kr\u00f3lestwo Niebieskie gospodarzowi, kt\u00f3ry wyszed\u0142 bardzo rano najmowa\u0107 robotnik\u00f3w do winnicy swojej. A uczyniwszy z robotnikami umow\u0119 po denarze za dzie\u0144, pos\u0142a\u0142 ich do winnicy swojej. I wyszed\u0142szy oko\u0142o godziny trzeciej, ujrza\u0142 innych stoj\u0105cych na rynku bezczynnie. I rzek\u0142 im: \u00abId\u017acie i wy do winnicy mojej, a co b\u0119dzie sprawiedliwe, dam wam\u00bb. A oni poszli. I znowu wyszed\u0142 oko\u0142o sz\u00f3stej i dziewi\u0105tej godziny, i uczyni\u0142 podobnie. Wyszed\u0142 jeszcze oko\u0142o jedenastej i znalaz\u0142 innych stoj\u0105cych i powiedzia\u0142 im: \u00abCzemu tu stoicie pr\u00f3\u017cnuj\u0105c dzie\u0144 ca\u0142y?\u00bb M\u00f3wi\u0105 mu: \u00abBo nas nikt nie naj\u0105\u0142\u00bb. Rzek\u0142 im: \u00abId\u017acie i wy do winnicy mojej\u00bb. A gdy nadszed\u0142 wiecz\u00f3r, rzek\u0142 pan winnicy rz\u0105dcy swemu: \u00abZwo\u0142aj robotnik\u00f3w i daj im zap\u0142at\u0119, pocz\u0105wszy od ostatnich, a\u017c do pierwszych\u00bb. Gdy tedy przyszli, kt\u00f3rzy oko\u0142o godziny jedenastej przybyli, otrzymali po denarze. A gdy przyszli tak\u017ce pierwsi, mniemali, \u017ce wi\u0119cej otrzymaj\u0105, ale i oni otrzymali po denarze. A wzi\u0105wszy szemrali przeciw gospodarzowi m\u00f3wi\u0105c: \u00abCi ostatni tylko jedn\u0105 godzine pracowali, a uczyni\u0142e\u015b ich r\u00f3wnymi nam, kt\u00f3rzy\u015bmy znosili ci\u0119\u017car dnia i upa\u0142u\u00bb. A on odpowiadaj\u0105c jednemu z nich rzek\u0142: \u00abPrzyjacielu, nie wyrz\u0105dzam ci krzywdy. Czy\u017ce\u015b si\u0119 ze mn\u0105 nie um\u00f3wi\u0142 za denara? We\u017amij co twoje, a id\u017a; chc\u0119 wszak\u017ce i temu ostatniemu da\u0107 jako i tobie. Czyli\u017c mi nie wolno uczyni\u0107 co chc\u0119? I czy\u017c z\u0142ym patrzysz okiem na to, \u017cem ja dobry?\u00bb Tak ci ostatni bed\u0105 pierwszymi, a pierwsi ostatnimi. Bo wielu jest wezwanych, ale ma\u0142o wybranych.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Przyjmij, prosimy Ci\u0119, Panie, nasze dary i modlitwy, oczy\u015b\u0107 nas przez niebieskie tajemnice i \u0142askawie wys\u0142uchaj.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 30:17-18*\nUka\u017c Twe pogodne oblicze s\u0142udze Twemu, wybaw mnie w swym mi\u0142osierdziu, Panie, niech si\u0119 nie wstydz\u0119, skoro Ci\u0119 wzywa\u0142em.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Umocnij, Panie, Twoich wiernych Swoimi darami, aby przyjmuj\u0105c je, nieustannie ich szukali, a szukaj\u0105c, bez ko\u0144ca je przyjmowali.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 17:5; 17:6; 17:7*\nOgarn\u0119\u0142y mnie bole\u015bci \u015bmiertelne, m\u0119ki piekielne mnie otoczy\u0142y. W mym utrapieniu Pana wezwa\u0142em, i us\u0142ysza\u0142 g\u0142os m\u00f3j ze \u015bwi\u0105tyni swojej.\n*Ps 17:2-3*\nMi\u0142uj\u0119 Ci\u0119, Panie, mocy moja, Pan opok\u0105 moj\u0105 i ucieczk\u0105. On moim wybawicielem.\nChwa\u0142a Ojcu.\nOgarn\u0119\u0142y mnie bole\u015bci \u015bmiertelne, m\u0119ki piekielne mnie otoczy\u0142y. W mym utrapieniu Pana wezwa\u0142em, i us\u0142ysza\u0142 g\u0142os m\u00f3j ze \u015bwi\u0105tyni swojej.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wys\u0142uchaj \u0142askawie, prosimy Ci\u0119, Panie, modlitwy ludu Twego i chocia\u017c s\u0142usznie cierpimy za nasze grzechy, wybaw nas mi\u0142o\u015bciwie dla chwa\u0142y Twojego imienia.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Koryntian.\n*1 Kor 9:24-27; 10:1-5*\n*Aby osi\u0105gn\u0105\u0107 zbawienie, nie wystarczy nale\u017ce\u0107 do ludu Bo\u017cego i otrzymywa\u0107 Jego \u0142ask\u0119. Ostateczne zwyci\u0119stwo zdobywa si\u0119 w walce. \u015aw. Pawe\u0142 zestawia chrze\u015bcija\u0144sk\u0105 ascez\u0119 z zapraw\u0105 sportow\u0105. Kto nie trenuje, przegrywa zawody. Chrze\u015bcija\u0144ska asceza, trening duchowy \u2013 to \u0107wiczenie w panowaniu w\u0142adz wy\u017cszych nad ni\u017cszymi.*\nBracia: Czy\u017c nie wiecie, \u017ce ci, kt\u00f3rzy biegn\u0105 w zawody, cho\u0107 wszyscy biegn\u0105, jeden tylko otrzymuje nagrod\u0119? Tak biegnijcie, aby\u015bcie otrzymali. A ka\u017cdy, kt\u00f3ry idzie w zawody od wszystkiego si\u0119 powstrzymuje: oni, aby otrzyma\u0107 wieniec znikomy, a my \u2014 trwa\u0142y. Ja tedy tak biegn\u0119, nie jakoby na o\u015blep; tak walcz\u0119, nie jakobym wiatr uderza\u0142, ale karc\u0119 cia\u0142o moje i do pos\u0142uchu przymuszam, abym snad\u017a innych nauczaj\u0105c sam nie by\u0142 odrzuconym. Bo nie chc\u0119, bracia, aby\u015bcie wiedzie\u0107 nie mieli, \u017ce ojcowie nasi wszyscy byli pod ob\u0142okiem i \u017ce wszyscy przez morze przeszli. I wszyscy w Moj\u017ceszu, ob\u0142oku i morzu ochrzczeni byli. I wszyscy po\u017cywali ten\u017ce pokarm duchowy, i wszyscy pili ten\u017ce nap\u00f3j duchowy (a pili z opoki duchowej, kt\u00f3ra im towarzyszy\u0142a, a opok\u0105 by\u0142 Chrystus). Ale nie w wielu z nich upodoba\u0142 sobie B\u00f3g.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 9:10-11; 9:19-20*\nPan ucieczk\u0105 dogodn\u0105 w czasie utrapienia: zaufaj\u0105 Tobie znaj\u0105cy Twe imi\u0119, bo nie opuszczasz, Panie, tych, co Ci\u0119 szukaj\u0105.\nV. Bo nie p\u00f3jdzie ubogi w zapomnienie na zawsze, ufno\u015b\u0107 nieszcz\u0119\u015bliwych nie zaginie na wieki. Powsta\u0144, o Panie, by cz\u0142owiek nie przem\u00f3g\u0142.\n*Ps 129:1-4*\nZ g\u0142\u0119boko\u015bci wo\u0142am do Ciebie, Panie; o Panie, s\u0142uchaj g\u0142osu mego.\nV. Niech uszy Twoje si\u0119 sk\u0142oni\u0105 na g\u0142os mojego b\u0142agania.\nV. Je\u015bli zachowasz pami\u0119\u0107 o wyst\u0119pkach, Panie, Panie, kt\u00f3\u017c si\u0119 ostoi?\nV. Ale u Ciebie przebaczenie grzech\u00f3w, aby ze czci\u0105 Tobie s\u0142u\u017cono.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 20:1-16*\nOnego czasu rzek\u0142 Jezus uczniom swoim t\u0119 przypowie\u015b\u0107: Podobne jest Kr\u00f3lestwo Niebieskie gospodarzowi, kt\u00f3ry wyszed\u0142 bardzo rano najmowa\u0107 robotnik\u00f3w do winnicy swojej. A uczyniwszy z robotnikami umow\u0119 po denarze za dzie\u0144, pos\u0142a\u0142 ich do winnicy swojej. I wyszed\u0142szy oko\u0142o godziny trzeciej, ujrza\u0142 innych stoj\u0105cych na rynku bezczynnie. I rzek\u0142 im: \u00abId\u017acie i wy do winnicy mojej, a co b\u0119dzie sprawiedliwe, dam wam\u00bb. A oni poszli. I znowu wyszed\u0142 oko\u0142o sz\u00f3stej i dziewi\u0105tej godziny, i uczyni\u0142 podobnie. Wyszed\u0142 jeszcze oko\u0142o jedenastej i znalaz\u0142 innych stoj\u0105cych i powiedzia\u0142 im: \u00abCzemu tu stoicie pr\u00f3\u017cnuj\u0105c dzie\u0144 ca\u0142y?\u00bb M\u00f3wi\u0105 mu: \u00abBo nas nikt nie naj\u0105\u0142\u00bb. Rzek\u0142 im: \u00abId\u017acie i wy do winnicy mojej\u00bb. A gdy nadszed\u0142 wiecz\u00f3r, rzek\u0142 pan winnicy rz\u0105dcy swemu: \u00abZwo\u0142aj robotnik\u00f3w i daj im zap\u0142at\u0119, pocz\u0105wszy od ostatnich, a\u017c do pierwszych\u00bb. Gdy tedy przyszli, kt\u00f3rzy oko\u0142o godziny jedenastej przybyli, otrzymali po denarze. A gdy przyszli tak\u017ce pierwsi, mniemali, \u017ce wi\u0119cej otrzymaj\u0105, ale i oni otrzymali po denarze. A wzi\u0105wszy szemrali przeciw gospodarzowi m\u00f3wi\u0105c: \u00abCi ostatni tylko jedn\u0105 godzine pracowali, a uczyni\u0142e\u015b ich r\u00f3wnymi nam, kt\u00f3rzy\u015bmy znosili ci\u0119\u017car dnia i upa\u0142u\u00bb. A on odpowiadaj\u0105c jednemu z nich rzek\u0142: \u00abPrzyjacielu, nie wyrz\u0105dzam ci krzywdy. Czy\u017ce\u015b si\u0119 ze mn\u0105 nie um\u00f3wi\u0142 za denara? We\u017amij co twoje, a id\u017a; chc\u0119 wszak\u017ce i temu ostatniemu da\u0107 jako i tobie. Czyli\u017c mi nie wolno uczyni\u0107 co chc\u0119? I czy\u017c z\u0142ym patrzysz okiem na to, \u017cem ja dobry?\u00bb Tak ci ostatni bed\u0105 pierwszymi, a pierwsi ostatnimi. Bo wielu jest wezwanych, ale ma\u0142o wybranych.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 91:2*\nDobrze jest wys\u0142awia\u0107 Pana i \u015bpiewa\u0107 imieniu Twemu, o Najwy\u017cszy.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Przyjmij, prosimy Ci\u0119, Panie, nasze dary i modlitwy, oczy\u015b\u0107 nas przez niebieskie tajemnice i \u0142askawie wys\u0142uchaj.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy z jednorodzonym Synem Twoim i Duchem \u015awi\u0119tym jednym jeste\u015b Bogiem, jednym jeste\u015b Panem, nie w jedno\u015bci jednej osoby, lecz w jednej istocie Tr\u00f3jcy. W co bowiem z objawienia Twego wierzymy o Twej chwale, to samo utrzymujemy bez \u017cadnej r\u00f3\u017cnicy o Twoim Synu i o Duchu \u015awi\u0119tym. Tak i\u017c wyznaj\u0105c prawdziwe i wiekuiste B\u00f3stwo wielbimy odr\u0119bno\u015b\u0107 Os\u00f3b, jedno\u015b\u0107 w istocie i r\u00f3wno\u015b\u0107 w majestacie.\nMajestat ten chwal\u0105 Anio\u0142owie i Archanio\u0142owie, Cherubini i Serafini, kt\u00f3rzy nie przestaj\u0105 wo\u0142a\u0107 codziennie powtarzaj\u0105c jednym g\u0142osem:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 30:17-18*\nUka\u017c Twe pogodne oblicze s\u0142udze Twemu, wybaw mnie w swym mi\u0142osierdziu, Panie, niech si\u0119 nie wstydz\u0119, skoro Ci\u0119 wzywa\u0142em.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Umocnij, Panie, Twoich wiernych Swoimi darami, aby przyjmuj\u0105c je, nieustannie ich szukali, a szukaj\u0105c, bez ko\u0144ca je przyjmowali.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

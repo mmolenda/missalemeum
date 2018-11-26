@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja w Ko\u015bciele \u015aw. Krzy\u017ca Jerozolimskiego", 
-      "1 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja w Ko\u015bciele \u015aw. Krzy\u017ca Jerozolimskiego", 
+        "1 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2019-12-09", 
+      "description": "Syjon i Jerozolima to typy Ko\u015bcio\u0142a katolickiego, \u00ablud syjo\u0144ski\u00bb \u2014 to katolicy. Do nich i do ca\u0142ej ludzko\u015bci przychodzi Zbawiciel. \u015aw. Pawe\u0142 poucza nas w lekcji o powszechno\u015bci dzie\u0142a zbawienia, powo\u0142uj\u0105c si\u0119 na proroctwo Izajasza. Podobnie Chrystus Pan, odpowiadaj\u0105c na pytanie uczni\u00f3w Jana Chrzciciela stwierdza spe\u0142nienie si\u0119 tego proroctwa. Zapowiedziane przez Izajasza cuda mesja\u0144skie spe\u0142niaj\u0105 si\u0119 tak\u017ce w duchowy spos\u00f3b moc\u0105 Eucharystii. Przez swoje sakramenty Chrystus prowadzi nas ku nowej, wiekuistej Jerozolimie. Nadzieja otrzymania \u0142aski Zbawiciela i osi\u0105gni\u0119cia \u017cycia wiecznego jest podstaw\u0105 naszej rado\u015bci. Warto zwr\u00f3ci\u0107 uwag\u0119 na pocz\u0105tkowe s\u0142owa dzisiejszej lekcji: czytanie Pisma \u015bw. daje prawdziwe zrozumienie dzie\u0142a Odkupienia i umacnia nasz\u0105 nadziej\u0119.\n", 
+      "tempora": null, 
+      "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Is 30:30.*\nP\u00f3pulus Sion, ecce, D\u00f3minus v\u00e9niet ad salv\u00e1ndas gentes: et aud\u00edtam f\u00e1ciet D\u00f3minus gl\u00f3riam vocis su\u00e6 in l\u00e6t\u00edtia cordis vestri.\n*Ps 79:2*\nQui regis Isra\u00ebl, int\u00e9nde: qui ded\u00facis, velut ovem, Joseph.\nGl\u00f3ria Patri.\nP\u00f3pulus Sion, ecce, D\u00f3minus v\u00e9niet ad salv\u00e1ndas gentes: et aud\u00edtam f\u00e1ciet D\u00f3minus gl\u00f3riam vocis su\u00e6 in l\u00e6t\u00edtia cordis vestri.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Excita, D\u00f3mine, corda nostra ad pr\u00e6par\u00e1ndas Unig\u00e9niti tui vias: ut, per ejus adv\u00e9ntum, purific\u00e1tis tibi m\u00e9ntibus serv\u00edre mere\u00e1mur:\nQui tecum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "Lectio Ep\u00edstol\u00e6 be\u00e1ti Pauli Apostoli ad Rom\u00e1nos.\n*Rom 15:4-13.*\nFatres: Qu\u00e6c\u00famque scripta sunt, ad nostram doctr\u00ednam scripta sunt: ut per pati\u00e9ntiam et consolati\u00f3nem Scriptur\u00e1rum spem habe\u00e1mus. Deus autem pati\u00e9nti\u00e6 et sol\u00e1cii det vobis id\u00edpsum s\u00e1pere in alt\u00e9rutrum sec\u00fandum Jesum Christum: ut un\u00e1nimes, uno ore honorific\u00e9tis Deum et Patrem D\u00f3mini nostri Jesu Christi. Propter quod susc\u00edpite \u00ednvicem, sicut et Christus susc\u00e9pit vos in hon\u00f3rem Dei. Dico enim Christum Jesum min\u00edstrum fu\u00edsse circumcisi\u00f3nis propter verit\u00e1tem Dei, ad confirm\u00e1ndas promissi\u00f3nes patrum: gentes autem super miseric\u00f3rdia honor\u00e1re Deum, sicut scriptum est: Propt\u00e9rea confit\u00e9bor tibi in g\u00e9ntibus, D\u00f3mine, et n\u00f3mini tuo cant\u00e1bo. Et \u00edterum dicit: L\u00e6t\u00e1mini, gentes, cum plebe ejus. Et iterum: Laud\u00e1te, omnes gentes, D\u00f3minum: et magnific\u00e1te eum, omnes p\u00f3puli. Et rursus Isa\u00edas ait: Erit radix Jesse, et qui exs\u00farget r\u00e9gere gentes, in eum gentes sper\u00e1bunt. Deus autem spei r\u00e9pleat vos omni g\u00e1udio et pace in cred\u00e9ndo: ut abund\u00e9tis in spe et virt\u00fate Sp\u00edritus Sancti.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 49:2-3; 49:5*\nEx Sion species dec\u00f3ris ejus: Deus manif\u00e9ste v\u00e9niet,\nV. Congreg\u00e1te illi sanctos ejus, qui ordinav\u00e9runt testam\u00e9ntum ejus super sacrif\u00edcia. Allel\u00faja, allel\u00faja,\n*Ps 121:1*\nV. L\u00e6t\u00e1tus sum in his, qu\u00e6 dicta sunt mihi: in domum D\u00f3mini \u00edbimus. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 11:2-10*\nIn illo tempore: Cum aud\u00edsset Jo\u00e1nnes in v\u00ednculis \u00f3pera Christi, mittens duos de disc\u00edpulis suis, ait illi: Tu es, qui vent\u00farus es, an alium exspect\u00e1mus ? Et resp\u00f3ndens Jesus, ait illis: E\u00fantes renunti\u00e1te Jo\u00e1nni, qu\u00e6 aud\u00edstis et vid\u00edstis. C\u00e6ci vident, claudi \u00e1mbulant, lepr\u00f3si mund\u00e1ntur, surdi \u00e1udiunt, m\u00f3rtui res\u00fargunt, p\u00e1uperes evangeliz\u00e1ntur: et be\u00e1tus est, qui non f\u00faerit scandaliz\u00e1tus in me. Illis autem abe\u00fantibus, c\u0153pit Jesus d\u00edcere ad turbas de Jo\u00e1nne: Quid ex\u00edstis in des\u00e9rtum vid\u00e9re ? ar\u00fandinem vento agit\u00e1tam ? Sed quid ex\u00edstis videre ? h\u00f3minem m\u00f3llibus vestitum ? Ecce, qui m\u00f3llibus vesti\u00fantur, in d\u00f3mibus regum sunt. Sed quid ex\u00edstis vid\u00e9re ? Proph\u00e9tam ? Etiam dico vobis, et plus quam Proph\u00e9tam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante f\u00e1ciem tuam, qui pr\u00e6par\u00e1bit viam tuam ante te.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "\n*Ps 84:7-8*\nDeus, tu conv\u00e9rsus vivific\u00e1bis nos, et plebs tua l\u00e6t\u00e1bitur in te: ost\u00e9nde nobis, D\u00f3mine, miseric\u00f3rdiam tuam, et salut\u00e1re tuum da nobis.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Plac\u00e1re, qu\u01fdsumus, D\u00f3mine, humilit\u00e1tis nostr\u00e6 pr\u00e9cibus et h\u00f3stiis: et, ubi nulla supp\u00e9tunt suffr\u00e1gia merit\u00f3rum, tuis nobis succ\u00farre pr\u00e6s\u00eddiis.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Bar 5:5; 4:36*\nJer\u00fasalem, surge et sta in exc\u00e9lso, et vide jucundit\u00e1tem, qu\u00e6 v\u00e9niet tibi a Deo tuo.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Repl\u00e9ti cibo spiritu\u00e1lis alim\u00f3ni\u00e6, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, hujus participati\u00f3ne myst\u00e9rii, d\u00f3ceas nos terr\u00e9na desp\u00edcere et am\u00e1re c\u0153l\u00e9stia.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-12-09", 
-    "description": "Syjon i Jerozolima to typy Ko\u015bcio\u0142a katolickiego, \u00ablud syjo\u0144ski\u00bb \u2014 to katolicy. Do nich i do ca\u0142ej ludzko\u015bci przychodzi Zbawiciel. \u015aw. Pawe\u0142 poucza nas w lekcji o powszechno\u015bci dzie\u0142a zbawienia, powo\u0142uj\u0105c si\u0119 na proroctwo Izajasza. Podobnie Chrystus Pan, odpowiadaj\u0105c na pytanie uczni\u00f3w Jana Chrzciciela stwierdza spe\u0142nienie si\u0119 tego proroctwa. Zapowiedziane przez Izajasza cuda mesja\u0144skie spe\u0142niaj\u0105 si\u0119 tak\u017ce w duchowy spos\u00f3b moc\u0105 Eucharystii. Przez swoje sakramenty Chrystus prowadzi nas ku nowej, wiekuistej Jerozolimie. Nadzieja otrzymania \u0142aski Zbawiciela i osi\u0105gni\u0119cia \u017cycia wiecznego jest podstaw\u0105 naszej rado\u015bci. Warto zwr\u00f3ci\u0107 uwag\u0119 na pocz\u0105tkowe s\u0142owa dzisiejszej lekcji: czytanie Pisma \u015bw. daje prawdziwe zrozumienie dzie\u0142a Odkupienia i umacnia nasz\u0105 nadziej\u0119.\n", 
-    "tempora": null, 
-    "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Is 30:30.*\nP\u00f3pulus Sion, ecce, D\u00f3minus v\u00e9niet ad salv\u00e1ndas gentes: et aud\u00edtam f\u00e1ciet D\u00f3minus gl\u00f3riam vocis su\u00e6 in l\u00e6t\u00edtia cordis vestri.\n*Ps 79:2*\nQui regis Isra\u00ebl, int\u00e9nde: qui ded\u00facis, velut ovem, Joseph.\nGl\u00f3ria Patri.\nP\u00f3pulus Sion, ecce, D\u00f3minus v\u00e9niet ad salv\u00e1ndas gentes: et aud\u00edtam f\u00e1ciet D\u00f3minus gl\u00f3riam vocis su\u00e6 in l\u00e6t\u00edtia cordis vestri.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Excita, D\u00f3mine, corda nostra ad pr\u00e6par\u00e1ndas Unig\u00e9niti tui vias: ut, per ejus adv\u00e9ntum, purific\u00e1tis tibi m\u00e9ntibus serv\u00edre mere\u00e1mur:\nQui tecum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "Lectio Ep\u00edstol\u00e6 be\u00e1ti Pauli Apostoli ad Rom\u00e1nos.\n*Rom 15:4-13.*\nFatres: Qu\u00e6c\u00famque scripta sunt, ad nostram doctr\u00ednam scripta sunt: ut per pati\u00e9ntiam et consolati\u00f3nem Scriptur\u00e1rum spem habe\u00e1mus. Deus autem pati\u00e9nti\u00e6 et sol\u00e1cii det vobis id\u00edpsum s\u00e1pere in alt\u00e9rutrum sec\u00fandum Jesum Christum: ut un\u00e1nimes, uno ore honorific\u00e9tis Deum et Patrem D\u00f3mini nostri Jesu Christi. Propter quod susc\u00edpite \u00ednvicem, sicut et Christus susc\u00e9pit vos in hon\u00f3rem Dei. Dico enim Christum Jesum min\u00edstrum fu\u00edsse circumcisi\u00f3nis propter verit\u00e1tem Dei, ad confirm\u00e1ndas promissi\u00f3nes patrum: gentes autem super miseric\u00f3rdia honor\u00e1re Deum, sicut scriptum est: Propt\u00e9rea confit\u00e9bor tibi in g\u00e9ntibus, D\u00f3mine, et n\u00f3mini tuo cant\u00e1bo. Et \u00edterum dicit: L\u00e6t\u00e1mini, gentes, cum plebe ejus. Et iterum: Laud\u00e1te, omnes gentes, D\u00f3minum: et magnific\u00e1te eum, omnes p\u00f3puli. Et rursus Isa\u00edas ait: Erit radix Jesse, et qui exs\u00farget r\u00e9gere gentes, in eum gentes sper\u00e1bunt. Deus autem spei r\u00e9pleat vos omni g\u00e1udio et pace in cred\u00e9ndo: ut abund\u00e9tis in spe et virt\u00fate Sp\u00edritus Sancti.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 49:2-3; 49:5*\nEx Sion species dec\u00f3ris ejus: Deus manif\u00e9ste v\u00e9niet,\nV. Congreg\u00e1te illi sanctos ejus, qui ordinav\u00e9runt testam\u00e9ntum ejus super sacrif\u00edcia. Allel\u00faja, allel\u00faja,\n*Ps 121:1*\nV. L\u00e6t\u00e1tus sum in his, qu\u00e6 dicta sunt mihi: in domum D\u00f3mini \u00edbimus. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 11:2-10*\nIn illo tempore: Cum aud\u00edsset Jo\u00e1nnes in v\u00ednculis \u00f3pera Christi, mittens duos de disc\u00edpulis suis, ait illi: Tu es, qui vent\u00farus es, an alium exspect\u00e1mus ? Et resp\u00f3ndens Jesus, ait illis: E\u00fantes renunti\u00e1te Jo\u00e1nni, qu\u00e6 aud\u00edstis et vid\u00edstis. C\u00e6ci vident, claudi \u00e1mbulant, lepr\u00f3si mund\u00e1ntur, surdi \u00e1udiunt, m\u00f3rtui res\u00fargunt, p\u00e1uperes evangeliz\u00e1ntur: et be\u00e1tus est, qui non f\u00faerit scandaliz\u00e1tus in me. Illis autem abe\u00fantibus, c\u0153pit Jesus d\u00edcere ad turbas de Jo\u00e1nne: Quid ex\u00edstis in des\u00e9rtum vid\u00e9re ? ar\u00fandinem vento agit\u00e1tam ? Sed quid ex\u00edstis videre ? h\u00f3minem m\u00f3llibus vestitum ? Ecce, qui m\u00f3llibus vesti\u00fantur, in d\u00f3mibus regum sunt. Sed quid ex\u00edstis vid\u00e9re ? Proph\u00e9tam ? Etiam dico vobis, et plus quam Proph\u00e9tam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante f\u00e1ciem tuam, qui pr\u00e6par\u00e1bit viam tuam ante te.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "\n*Ps 84:7-8*\nDeus, tu conv\u00e9rsus vivific\u00e1bis nos, et plebs tua l\u00e6t\u00e1bitur in te: ost\u00e9nde nobis, D\u00f3mine, miseric\u00f3rdiam tuam, et salut\u00e1re tuum da nobis.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Plac\u00e1re, qu\u01fdsumus, D\u00f3mine, humilit\u00e1tis nostr\u00e6 pr\u00e9cibus et h\u00f3stiis: et, ubi nulla supp\u00e9tunt suffr\u00e1gia merit\u00f3rum, tuis nobis succ\u00farre pr\u00e6s\u00eddiis.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Bar 5:5; 4:36*\nJer\u00fasalem, surge et sta in exc\u00e9lso, et vide jucundit\u00e1tem, qu\u00e6 v\u00e9niet tibi a Deo tuo.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Repl\u00e9ti cibo spiritu\u00e1lis alim\u00f3ni\u00e6, s\u00fapplices te, D\u00f3mine, deprec\u00e1mur: ut, hujus participati\u00f3ne myst\u00e9rii, d\u00f3ceas nos terr\u00e9na desp\u00edcere et am\u00e1re c\u0153l\u00e9stia.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Iz 30:30*\nLudu Syjo\u0144ski, oto Pan przyjdzie, by zbawi\u0107 narody; Pan da pos\u0142ysze\u0107 sw\u00f3j g\u0142os pe\u0142en chwa\u0142y i uraduje si\u0119 serce wasze.\n*Ps 79:2*\nPasterzu Izraela, pos\u0142uchaj: Ty, co jak trzod\u0119 wiedziesz r\u00f3d J\u00f3zefa.\nChwa\u0142a Ojcu.\nLudu Syjo\u0144ski, oto Pan przyjdzie, by zbawi\u0107 narody; Pan da pos\u0142ysze\u0107 sw\u00f3j g\u0142os pe\u0142en chwa\u0142y i uraduje si\u0119 serce wasze.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Pobud\u017a, Panie, serca nasze do gotowania dr\u00f3g Jednorodzonemu Synowi Twemu, aby\u015bmy dzi\u0119ki Jego przyj\u015bciu dusz\u0105 mogli Ci s\u0142u\u017cy\u0107 oczyszczon\u0105 dusz\u0105.\nKt\u00f3ry z Tob\u0105.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 15:4-13*\nBracia: Wszystko, cokolwiek jest napisane, dla naszego pouczenia napisane jest, aby\u015bmy przez cierpliwo\u015b\u0107 i pociech\u0119 z Pism \u015bwi\u0119tych nadziej\u0119 mieli. A B\u00f3g cierpliwo\u015bci i pociechy niech sk\u0142oni was do jednomy\u015blno\u015bci wzajemnej wed\u0142ug Jezusa Chrystusa, aby\u015bcie jednomy\u015blnie i jednymi usty chwalili Boga i Ojca Pana naszego Jezusa Chrystusa. Dlatego przyjmujcie jedni drugich jako i Chrystus przyj\u0105\u0142 was ku chwale Bo\u017cej. Bo powiadam, \u017ce Chrystus sta\u0142 si\u0119 s\u0142ug\u0105 \u017cyd\u00f3w dla wierno\u015bci Bo\u017cej i dla utwierdzenia obietnic Bo\u017cych. Poganie za\u015b wielbi\u0105 Boga za mi\u0142osierdzie, jako napisane jest: \u00abDlatego wyznawa\u0107 Ci\u0119 b\u0119d\u0119 w\u015br\u00f3d narod\u00f3w, Panie, i imieniowi Twemu \u015bpiewa\u0107 b\u0119d\u0119\u00bb. I znowu powiada: \u00abWeselcie si\u0119 narody z ludem Jego\u00bb. Oraz: \u00abChwalcie Pana wszystkie narody, i wys\u0142awiajcie Go wszystkie ludy\u00bb. I znowu Izajasz m\u00f3wi: \u00abZjawi si\u0119 potomek Jessego, kt\u00f3ry powstanie, aby panowa\u0107 nad narodami. W Nim narody pok\u0142ada\u0107 b\u0119d\u0105 nadziej\u0119\u00bb. A B\u00f3g nadziei niech was nape\u0142ni wszelk\u0105 rado\u015bci\u0105 i pokojem w wierze, aby\u015bcie obfitowali w nadziei i mocy Ducha \u015awi\u0119tego.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 49:2-3; 49:5*\nZe Syjonu, co pe\u0142en ozdoby, B\u00f3g si\u0119 pojawi.\nV. Zgromad\u017acie przed Nim Jego \u015bwi\u0119tych, kt\u00f3rzy w\u015br\u00f3d ofiar zawarli z Nim przymierze. Alleluja, alleluja.\n*Ps 121:1*\nV. Uradowa\u0142em si\u0119, bo mi powiedziano: \u00abP\u00f3jdziemy do domu Pa\u0144skiego\u00bb. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 11:2-10*\nOnego czasu: Jan us\u0142yszawszy w wi\u0119zieniu o dzie\u0142ach Chrystusowych wys\u0142a\u0142 dw\u00f3ch uczni\u00f3w swoich i powiedzia\u0142 Mu: \u00abTy\u015b jest, kt\u00f3ry masz przyj\u015b\u0107, czy te\u017c innego czekamy?\u00bb A odpowiadaj\u0105c, Jezus rzek\u0142 im: \u00abId\u017acie, oznajmijcie Janowi, co\u015bcie \u015blyszeli i widzieli. \u015alepi widz\u0105, chromi chodz\u0105, tr\u0119dowaci s\u0105 oczyszczeni, g\u0142usi s\u0142ysz\u0105, umarli zmartwychwstaj\u0105, ubogim g\u0142oszona jest Ewangelia, a b\u0142ogos\u0142awiony, kt\u00f3ry si\u0119 ze mnie nie zgorszy\u00bb. A gdy oni odeszli, pocz\u0105\u0142 Jezus m\u00f3wi\u0107 do rzesz o Janie: \u00abCo\u015bcie wyszli widzie\u0107 na pustyni? Trzcin\u0119 chwiej\u0105c\u0105 si\u0119 od wiatru? Ale co\u015bcie wyszli widzie\u0107? Czy cz\u0142owieka w mi\u0119kkie szaty obleczonego? Oto ci, kt\u00f3rzy w mi\u0119kkie szaty si\u0119 przyodziewaj\u0105, w domach kr\u00f3lewskich s\u0105. Ale co\u015bcie wyszli widzie\u0107? Proroka? Oto Wam powiadam: I wi\u0119cej ni\u017c proroka. Ten jest bowiem, o kt\u00f3rym napisano: oto posy\u0142am anio\u0142a mego przed obliczem twoim, kt\u00f3ry przygotuje drog\u0119 tw\u0105 przed tob\u0105\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "\n*Ps 84:7-8*\nZwr\u00f3c si\u0119 ku nam, Bo\u017ce, i o\u017cyw nas, a lud Tw\u00f3j rozraduje si\u0119 w Tobie. Oka\u017c nam, Panie, mi\u0142osierdzie Swoje i daj nam Twoje zbawienie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Daj si\u0119 przejedna\u0107 o Panie naszymi pokornymi mod\u0142ami i ofiarami, a poniewa\u017c brak nam zas\u0142ug, kt\u00f3re mog\u0142yby or\u0119dowa\u0107 za nami, sam przyb\u0105d\u017a nam z pomoc\u0105.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Bar 5:5; 4:36*\nPowsta\u0144 Jeruzalem, a sta\u0144 na miejscu wysokim i obacz wesele, kt\u00f3re ci przyjdzie od twego Boga.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Posileni pokarmem duchowym, pokornie b\u0142agamy Ci\u0119, Panie, aby\u015b przez uczestnictwo w tej tajemnicy nauczy\u0142 nas gardzi\u0107 sprawami ziemskimi, a mi\u0142owa\u0107 niebieskie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Iz 30:30*\nLudu Syjo\u0144ski, oto Pan przyjdzie, by zbawi\u0107 narody; Pan da pos\u0142ysze\u0107 sw\u00f3j g\u0142os pe\u0142en chwa\u0142y i uraduje si\u0119 serce wasze.\n*Ps 79:2*\nPasterzu Izraela, pos\u0142uchaj: Ty, co jak trzod\u0119 wiedziesz r\u00f3d J\u00f3zefa.\nChwa\u0142a Ojcu.\nLudu Syjo\u0144ski, oto Pan przyjdzie, by zbawi\u0107 narody; Pan da pos\u0142ysze\u0107 sw\u00f3j g\u0142os pe\u0142en chwa\u0142y i uraduje si\u0119 serce wasze.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Pobud\u017a, Panie, serca nasze do gotowania dr\u00f3g Jednorodzonemu Synowi Twemu, aby\u015bmy dzi\u0119ki Jego przyj\u015bciu dusz\u0105 mogli Ci s\u0142u\u017cy\u0107 oczyszczon\u0105 dusz\u0105.\nKt\u00f3ry z Tob\u0105.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 15:4-13*\nBracia: Wszystko, cokolwiek jest napisane, dla naszego pouczenia napisane jest, aby\u015bmy przez cierpliwo\u015b\u0107 i pociech\u0119 z Pism \u015bwi\u0119tych nadziej\u0119 mieli. A B\u00f3g cierpliwo\u015bci i pociechy niech sk\u0142oni was do jednomy\u015blno\u015bci wzajemnej wed\u0142ug Jezusa Chrystusa, aby\u015bcie jednomy\u015blnie i jednymi usty chwalili Boga i Ojca Pana naszego Jezusa Chrystusa. Dlatego przyjmujcie jedni drugich jako i Chrystus przyj\u0105\u0142 was ku chwale Bo\u017cej. Bo powiadam, \u017ce Chrystus sta\u0142 si\u0119 s\u0142ug\u0105 \u017cyd\u00f3w dla wierno\u015bci Bo\u017cej i dla utwierdzenia obietnic Bo\u017cych. Poganie za\u015b wielbi\u0105 Boga za mi\u0142osierdzie, jako napisane jest: \u00abDlatego wyznawa\u0107 Ci\u0119 b\u0119d\u0119 w\u015br\u00f3d narod\u00f3w, Panie, i imieniowi Twemu \u015bpiewa\u0107 b\u0119d\u0119\u00bb. I znowu powiada: \u00abWeselcie si\u0119 narody z ludem Jego\u00bb. Oraz: \u00abChwalcie Pana wszystkie narody, i wys\u0142awiajcie Go wszystkie ludy\u00bb. I znowu Izajasz m\u00f3wi: \u00abZjawi si\u0119 potomek Jessego, kt\u00f3ry powstanie, aby panowa\u0107 nad narodami. W Nim narody pok\u0142ada\u0107 b\u0119d\u0105 nadziej\u0119\u00bb. A B\u00f3g nadziei niech was nape\u0142ni wszelk\u0105 rado\u015bci\u0105 i pokojem w wierze, aby\u015bcie obfitowali w nadziei i mocy Ducha \u015awi\u0119tego.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 49:2-3; 49:5*\nZe Syjonu, co pe\u0142en ozdoby, B\u00f3g si\u0119 pojawi.\nV. Zgromad\u017acie przed Nim Jego \u015bwi\u0119tych, kt\u00f3rzy w\u015br\u00f3d ofiar zawarli z Nim przymierze. Alleluja, alleluja.\n*Ps 121:1*\nV. Uradowa\u0142em si\u0119, bo mi powiedziano: \u00abP\u00f3jdziemy do domu Pa\u0144skiego\u00bb. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 11:2-10*\nOnego czasu: Jan us\u0142yszawszy w wi\u0119zieniu o dzie\u0142ach Chrystusowych wys\u0142a\u0142 dw\u00f3ch uczni\u00f3w swoich i powiedzia\u0142 Mu: \u00abTy\u015b jest, kt\u00f3ry masz przyj\u015b\u0107, czy te\u017c innego czekamy?\u00bb A odpowiadaj\u0105c, Jezus rzek\u0142 im: \u00abId\u017acie, oznajmijcie Janowi, co\u015bcie \u015blyszeli i widzieli. \u015alepi widz\u0105, chromi chodz\u0105, tr\u0119dowaci s\u0105 oczyszczeni, g\u0142usi s\u0142ysz\u0105, umarli zmartwychwstaj\u0105, ubogim g\u0142oszona jest Ewangelia, a b\u0142ogos\u0142awiony, kt\u00f3ry si\u0119 ze mnie nie zgorszy\u00bb. A gdy oni odeszli, pocz\u0105\u0142 Jezus m\u00f3wi\u0107 do rzesz o Janie: \u00abCo\u015bcie wyszli widzie\u0107 na pustyni? Trzcin\u0119 chwiej\u0105c\u0105 si\u0119 od wiatru? Ale co\u015bcie wyszli widzie\u0107? Czy cz\u0142owieka w mi\u0119kkie szaty obleczonego? Oto ci, kt\u00f3rzy w mi\u0119kkie szaty si\u0119 przyodziewaj\u0105, w domach kr\u00f3lewskich s\u0105. Ale co\u015bcie wyszli widzie\u0107? Proroka? Oto Wam powiadam: I wi\u0119cej ni\u017c proroka. Ten jest bowiem, o kt\u00f3rym napisano: oto posy\u0142am anio\u0142a mego przed obliczem twoim, kt\u00f3ry przygotuje drog\u0119 tw\u0105 przed tob\u0105\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "\n*Ps 84:7-8*\nZwr\u00f3c si\u0119 ku nam, Bo\u017ce, i o\u017cyw nas, a lud Tw\u00f3j rozraduje si\u0119 w Tobie. Oka\u017c nam, Panie, mi\u0142osierdzie Swoje i daj nam Twoje zbawienie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Daj si\u0119 przejedna\u0107 o Panie naszymi pokornymi mod\u0142ami i ofiarami, a poniewa\u017c brak nam zas\u0142ug, kt\u00f3re mog\u0142yby or\u0119dowa\u0107 za nami, sam przyb\u0105d\u017a nam z pomoc\u0105.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Bar 5:5; 4:36*\nPowsta\u0144 Jeruzalem, a sta\u0144 na miejscu wysokim i obacz wesele, kt\u00f3re ci przyjdzie od twego Boga.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Posileni pokarmem duchowym, pokornie b\u0142agamy Ci\u0119, Panie, aby\u015b przez uczestnictwo w tej tajemnicy nauczy\u0142 nas gardzi\u0107 sprawami ziemskimi, a mi\u0142owa\u0107 niebieskie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

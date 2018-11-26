@@ -1,117 +1,119 @@
-{
-  "info": {
-    "additional_info": [
-      "Stacja u \u015aw. Wawrzy\u0144ca za Murami", 
-      "1 klasy", 
-      "Szaty fioletowe"
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u \u015aw. Wawrzy\u0144ca za Murami", 
+        "1 klasy", 
+        "Szaty fioletowe"
+      ], 
+      "date": "2018-03-04", 
+      "description": "Katechumenom, gotuj\u0105cym si\u0119 do Chrztu \u015bwi\u0119tego w najbli\u017csz\u0105 Wielkanoc, i wiernym, kt\u00f3rzy ten sakrament przyj\u0119li, Ko\u015bci\u00f3\u0142 przypomina, \u017ce Chrzest wyrywa nas spod w\u0142adzy szatana i czyni dzie\u0107mi \u015bwiat\u0142o\u015bci (lekcja). Szatan b\u0119dzie jednak ponawia\u0142 swoje ataki na oczyszczon\u0105 dusz\u0119. Trzeba wi\u0119c gromadzi\u0107 si\u0142y do walki. Kto lekcewa\u017cy niebezpiecze\u0144stwo i rozprasza dobra nadprzyrodzone, poniesie wi\u0119ksz\u0105 odpowiedzialno\u015b\u0107 ni\u017c cz\u0142owiek nieochrzczony (ewangelia). Dlatego musimy trwa\u0107 przy ofierze Chrystusa i Jego sakramentach (antyfona na komuni\u0119).\n", 
+      "tempora": null, 
+      "title": "3 Niedziela Wielkiego Postu"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 24:15-16.*\nOculi mei semper ad D\u00f3minum, quia ipse ev\u00e9llet de l\u00e1queo pedes meos: r\u00e9spice in me, et miser\u00e9re mei, qu\u00f3niam \u00fanicus et pauper sum ego.\n*Ps 24:1-2*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam,\nGl\u00f3ria Patri.\nOculi mei semper ad D\u00f3minum, quia ipse ev\u00e9llet de l\u00e1queo pedes meos: r\u00e9spice in me, et miser\u00e9re mei, qu\u00f3niam \u00fanicus et pauper sum ego.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Qu\u01fdsumus, omn\u00edpotens Deus, vota hum\u00edlium r\u00e9spice: atque, ad defensi\u00f3nem nostram, d\u00e9xteram tu\u00e6 majest\u00e1tis ext\u00e9nde.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 5:1-9*\nFratres: Estote imitatores Dei, sicut f\u00edlii car\u00edssimi: et ambul\u00e1te in dilecti\u00f3ne, sicut et Christus dilexit nos, et tradidit semetipsum pro nobis oblati\u00f3nem, et hostiam Deo in odorem suavit\u00e1tis. Fornicatio autem et omnis immunditia aut avaritia nec nominetur in vobis, sicut decet sanctos: aut turpitudo aut stultiloquium aut scurrilitas, qu\u00e6 ad rem non pertinet: sed magis grati\u00e1rum actio. Hoc enim scit\u00f3te intelligentes, quod omnis fornicator aut immundus aut avarus, quod est idolorum servitus, non habet heredit\u00e1tem in regno Christi et Dei. Nemo vos sed\u00facat inanibus verbis: propter h\u00e6c enim venit ira Dei in filios diffid\u00e9nti\u00e6. Nol\u00edte ergo effici participes e\u00f3rum. Er\u00e1tis enim aliquando tenebrae: nunc autem lux in D\u00f3mino. Ut f\u00edlii lucis ambul\u00e1te: fructus enim lucis est in omni bonitate et just\u00edtia et verit\u00e1te.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 9:20; 9:4*\nExs\u00farge, D\u00f3mine, non pr\u00e6v\u00e1leat homo: judic\u00e9ntur gentes in consp\u00e9ctu tuo.\nV. In convert\u00e9ndo inim\u00edcum meum retr\u00f3rsum, infirmab\u00fantur, et per\u00edbunt a facie tua.\n\n*Tractus*\n*122:1-3*\nAd te lev\u00e1vi \u00f3culos meos, qui h\u00e1bitas in coelis.\nV. Ecce, sicut \u00f3culi serv\u00f3rum in m\u00e1nibus domin\u00f3rum su\u00f3rum.\nV. Et sicut \u00f3culi anc\u00edll\u00e6 in m\u00e1nibus d\u00f3min\u00e6 su\u00e6: ita \u00f3culi nostri ad D\u00f3minum, Deum nostrum, donec misere\u00e1tur nostri,\nV. Miser\u00e9re nobis, D\u00f3mine, miser\u00e9re nobis.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 11:14-28*\nIn illo t\u00e9mpore: Erat Jesus ej\u00edciens d\u00e6m\u00f3nium, et illud erat mutum. Et cum ejec\u00edsset d\u00e6m\u00f3nium, loc\u00fatus est mutus, et admir\u00e1t\u00e6 sunt turb\u00e6. Quidam autem ex eis dix\u00e9runt: In Be\u00e9lzebub, pr\u00edncipe d\u00e6moni\u00f3rum, \u00e9jicit d\u00e6m\u00f3nia. Et alii tent\u00e1ntes, signum de coelo qu\u00e6r\u00e9bant ab eo. Ipse autem ut vidit cogitati\u00f3nes e\u00f3rum, dixit eis: Omne regnum in se\u00edpsum div\u00edsum desol\u00e1bitur, et domus supra domum cadet. Si autem et s\u00e1tanas in se\u00edpsum div\u00edsus est, qu\u00f3modo stabit regnum ejus? quia d\u00edcitis, in Be\u00e9lzebub me ej\u00edcere d\u00e6m\u00f3nia. Si autem ego in Be\u00e9lzebub ej\u00edcio d\u00e6m\u00f3nia: f\u00edlii vestri in quo ej\u00edciunt? Ideo ipsi j\u00fadices vestri erunt. Porro si in d\u00edgito Dei ej\u00edcio d\u00e6m\u00f3nia: prof\u00e9cto perv\u00e9nit in vos regnum Dei. Cum fortis arm\u00e1tus cust\u00f3dit \u00e1trium suum, in pace sunt ea, qu\u00e6 p\u00f3ssidet. Si autem f\u00f3rtior eo superv\u00e9niens v\u00edcerit eum, univ\u00e9rsa arma ejus \u00e1uferet, in quibus confid\u00e9bat, et sp\u00f3lia ejus distr\u00edbuet. Qui non est mecum, contra me est: et qui non c\u00f3lligit mecum, disp\u00e9rgit. Cum imm\u00fandus sp\u00edritus ex\u00ederit de h\u00f3mine, \u00e1mbulat per loca inaqu\u00f3sa, qu\u00e6rens r\u00e9quiem: et non inv\u00e9niens, dicit: Rev\u00e9rtar in domum meam, unde exivi. Et cum v\u00e9nerit, inv\u00e9nit eam scopis mund\u00e1tam, et orn\u00e1tam. Tunc vadit, et ass\u00famit septem alios sp\u00edritus secum nequi\u00f3res se, et ingr\u00e9ssi h\u00e1bitant ibi. Et fiunt nov\u00edssima h\u00f3minis ill\u00edus pej\u00f3ra pri\u00f3ribus. Factum est autem, cum h\u00e6c d\u00edceret: ext\u00f3llens vocem qu\u00e6dam m\u00falier de turba, dixit illi: Be\u00e1tus venter, qui te port\u00e1vit, et \u00fabera, qu\u00e6 sux\u00edsti. At ille dixit: Quin\u00edmmo be\u00e1ti, qui \u00e1udiunt verbum Dei, et cust\u00f3diunt illud.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 18:9, 10, 11, 12*\nJust\u00edti\u00e6 D\u00f3mini rect\u00e6, l\u00e6tific\u00e1ntes corda, et jud\u00edcia ejus dulci ora super mel et favum: nam et servus tuus cust\u00f3dit ea.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et, ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*de Quadragesima*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper, et ub\u00edque gr\u00e1tias agere: D\u00f3mine, sancte Pater, omn\u00edpotens \u00e6t\u00e9rne Deus: Qui corpor\u00e1li iei\u00fanio v\u00edtia c\u00f3mprimis, mentem \u00e9levas, virt\u00fatem larg\u00edris et pr\u01fdmia: per Christum D\u00f3minum nostrum. Per quem maiest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates, ac be\u00e1ta S\u00e9raphim, s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces, ut admitti i\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dicentes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Ps 83:4-5*\nPasser inv\u00e9nit sibi domum, et turtur nidum, ubi rep\u00f3nat pullos suos: alt\u00e1ria tua, D\u00f3mine virt\u00fatum, Rex meus, et Deus meus: be\u00e1ti, qui h\u00e1bitant in domo tua, in saeculum saeculi laud\u00e1bunt te.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse part\u00edcipes.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2018-03-04", 
-    "description": "Katechumenom, gotuj\u0105cym si\u0119 do Chrztu \u015bwi\u0119tego w najbli\u017csz\u0105 Wielkanoc, i wiernym, kt\u00f3rzy ten sakrament przyj\u0119li, Ko\u015bci\u00f3\u0142 przypomina, \u017ce Chrzest wyrywa nas spod w\u0142adzy szatana i czyni dzie\u0107mi \u015bwiat\u0142o\u015bci (lekcja). Szatan b\u0119dzie jednak ponawia\u0142 swoje ataki na oczyszczon\u0105 dusz\u0119. Trzeba wi\u0119c gromadzi\u0107 si\u0142y do walki. Kto lekcewa\u017cy niebezpiecze\u0144stwo i rozprasza dobra nadprzyrodzone, poniesie wi\u0119ksz\u0105 odpowiedzialno\u015b\u0107 ni\u017c cz\u0142owiek nieochrzczony (ewangelia). Dlatego musimy trwa\u0107 przy ofierze Chrystusa i Jego sakramentach (antyfona na komuni\u0119).\n", 
-    "tempora": null, 
-    "title": "3 Niedziela Wielkiego Postu"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 24:15-16.*\nOculi mei semper ad D\u00f3minum, quia ipse ev\u00e9llet de l\u00e1queo pedes meos: r\u00e9spice in me, et miser\u00e9re mei, qu\u00f3niam \u00fanicus et pauper sum ego.\n*Ps 24:1-2*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam,\nGl\u00f3ria Patri.\nOculi mei semper ad D\u00f3minum, quia ipse ev\u00e9llet de l\u00e1queo pedes meos: r\u00e9spice in me, et miser\u00e9re mei, qu\u00f3niam \u00fanicus et pauper sum ego.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Qu\u01fdsumus, omn\u00edpotens Deus, vota hum\u00edlium r\u00e9spice: atque, ad defensi\u00f3nem nostram, d\u00e9xteram tu\u00e6 majest\u00e1tis ext\u00e9nde.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Eph\u00e9sios.\n*Ephes 5:1-9*\nFratres: Estote imitatores Dei, sicut f\u00edlii car\u00edssimi: et ambul\u00e1te in dilecti\u00f3ne, sicut et Christus dilexit nos, et tradidit semetipsum pro nobis oblati\u00f3nem, et hostiam Deo in odorem suavit\u00e1tis. Fornicatio autem et omnis immunditia aut avaritia nec nominetur in vobis, sicut decet sanctos: aut turpitudo aut stultiloquium aut scurrilitas, qu\u00e6 ad rem non pertinet: sed magis grati\u00e1rum actio. Hoc enim scit\u00f3te intelligentes, quod omnis fornicator aut immundus aut avarus, quod est idolorum servitus, non habet heredit\u00e1tem in regno Christi et Dei. Nemo vos sed\u00facat inanibus verbis: propter h\u00e6c enim venit ira Dei in filios diffid\u00e9nti\u00e6. Nol\u00edte ergo effici participes e\u00f3rum. Er\u00e1tis enim aliquando tenebrae: nunc autem lux in D\u00f3mino. Ut f\u00edlii lucis ambul\u00e1te: fructus enim lucis est in omni bonitate et just\u00edtia et verit\u00e1te.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 9:20; 9:4*\nExs\u00farge, D\u00f3mine, non pr\u00e6v\u00e1leat homo: judic\u00e9ntur gentes in consp\u00e9ctu tuo.\nV. In convert\u00e9ndo inim\u00edcum meum retr\u00f3rsum, infirmab\u00fantur, et per\u00edbunt a facie tua.\n\n*Tractus*\n*122:1-3*\nAd te lev\u00e1vi \u00f3culos meos, qui h\u00e1bitas in coelis.\nV. Ecce, sicut \u00f3culi serv\u00f3rum in m\u00e1nibus domin\u00f3rum su\u00f3rum.\nV. Et sicut \u00f3culi anc\u00edll\u00e6 in m\u00e1nibus d\u00f3min\u00e6 su\u00e6: ita \u00f3culi nostri ad D\u00f3minum, Deum nostrum, donec misere\u00e1tur nostri,\nV. Miser\u00e9re nobis, D\u00f3mine, miser\u00e9re nobis.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 11:14-28*\nIn illo t\u00e9mpore: Erat Jesus ej\u00edciens d\u00e6m\u00f3nium, et illud erat mutum. Et cum ejec\u00edsset d\u00e6m\u00f3nium, loc\u00fatus est mutus, et admir\u00e1t\u00e6 sunt turb\u00e6. Quidam autem ex eis dix\u00e9runt: In Be\u00e9lzebub, pr\u00edncipe d\u00e6moni\u00f3rum, \u00e9jicit d\u00e6m\u00f3nia. Et alii tent\u00e1ntes, signum de coelo qu\u00e6r\u00e9bant ab eo. Ipse autem ut vidit cogitati\u00f3nes e\u00f3rum, dixit eis: Omne regnum in se\u00edpsum div\u00edsum desol\u00e1bitur, et domus supra domum cadet. Si autem et s\u00e1tanas in se\u00edpsum div\u00edsus est, qu\u00f3modo stabit regnum ejus? quia d\u00edcitis, in Be\u00e9lzebub me ej\u00edcere d\u00e6m\u00f3nia. Si autem ego in Be\u00e9lzebub ej\u00edcio d\u00e6m\u00f3nia: f\u00edlii vestri in quo ej\u00edciunt? Ideo ipsi j\u00fadices vestri erunt. Porro si in d\u00edgito Dei ej\u00edcio d\u00e6m\u00f3nia: prof\u00e9cto perv\u00e9nit in vos regnum Dei. Cum fortis arm\u00e1tus cust\u00f3dit \u00e1trium suum, in pace sunt ea, qu\u00e6 p\u00f3ssidet. Si autem f\u00f3rtior eo superv\u00e9niens v\u00edcerit eum, univ\u00e9rsa arma ejus \u00e1uferet, in quibus confid\u00e9bat, et sp\u00f3lia ejus distr\u00edbuet. Qui non est mecum, contra me est: et qui non c\u00f3lligit mecum, disp\u00e9rgit. Cum imm\u00fandus sp\u00edritus ex\u00ederit de h\u00f3mine, \u00e1mbulat per loca inaqu\u00f3sa, qu\u00e6rens r\u00e9quiem: et non inv\u00e9niens, dicit: Rev\u00e9rtar in domum meam, unde exivi. Et cum v\u00e9nerit, inv\u00e9nit eam scopis mund\u00e1tam, et orn\u00e1tam. Tunc vadit, et ass\u00famit septem alios sp\u00edritus secum nequi\u00f3res se, et ingr\u00e9ssi h\u00e1bitant ibi. Et fiunt nov\u00edssima h\u00f3minis ill\u00edus pej\u00f3ra pri\u00f3ribus. Factum est autem, cum h\u00e6c d\u00edceret: ext\u00f3llens vocem qu\u00e6dam m\u00falier de turba, dixit illi: Be\u00e1tus venter, qui te port\u00e1vit, et \u00fabera, qu\u00e6 sux\u00edsti. At ille dixit: Quin\u00edmmo be\u00e1ti, qui \u00e1udiunt verbum Dei, et cust\u00f3diunt illud.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 18:9, 10, 11, 12*\nJust\u00edti\u00e6 D\u00f3mini rect\u00e6, l\u00e6tific\u00e1ntes corda, et jud\u00edcia ejus dulci ora super mel et favum: nam et servus tuus cust\u00f3dit ea.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "H\u00e6c h\u00f3stia, D\u00f3mine, qu\u01fdsumus, em\u00fandet nostra del\u00edcta: et, ad sacrif\u00edcium celebr\u00e1ndum, subdit\u00f3rum tibi c\u00f3rpora ment\u00e9sque sanct\u00edficet.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*de Quadragesima*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper, et ub\u00edque gr\u00e1tias agere: D\u00f3mine, sancte Pater, omn\u00edpotens \u00e6t\u00e9rne Deus: Qui corpor\u00e1li iei\u00fanio v\u00edtia c\u00f3mprimis, mentem \u00e9levas, virt\u00fatem larg\u00edris et pr\u01fdmia: per Christum D\u00f3minum nostrum. Per quem maiest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. C\u00e6li c\u00e6lor\u00famque Virt\u00fates, ac be\u00e1ta S\u00e9raphim, s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces, ut admitti i\u00fabeas, deprec\u00e1mur, s\u00fapplici confessi\u00f3ne dicentes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Ps 83:4-5*\nPasser inv\u00e9nit sibi domum, et turtur nidum, ubi rep\u00f3nat pullos suos: alt\u00e1ria tua, D\u00f3mine virt\u00fatum, Rex meus, et Deus meus: be\u00e1ti, qui h\u00e1bitant in domo tua, in saeculum saeculi laud\u00e1bunt te.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "A cunctis nos, qu\u01fdsumus, D\u00f3mine, re\u00e1tibus et per\u00edculis propiti\u00e1tus abs\u00f3lve: quos tanti myst\u00e9rii tr\u00edbuis esse part\u00edcipes.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 24:15-16*\nOczy moje zawsze ku Panu, gdy\u017c On sam oswobodzi z side\u0142 moje nogi. Wejrzyj na mnie i zmi\u0142uj si\u0119 nade mn\u0105, bo samotny jestem i biedny.\n*Ps 24:1-2*\nKu Tobie wznosz\u0119 dusz\u0119 moj\u0105, Panie, Bo\u017ce m\u00f3j, Tobie ja ufam, niech nie doznam wstydu.\nChwa\u0142a Ojcu.\nOczy moje zawsze ku Panu, gdy\u017c On sam oswobodzi z side\u0142 moje nogi. Wejrzyj na mnie i zmi\u0142uj si\u0119 nade mn\u0105, bo samotny jestem i biedny.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Wszechmog\u0105cy Bo\u017ce, wejrzyj, prosimy, na pokorne mod\u0142y i wyci\u0105gnij w naszej obronie prawic\u0119 Twego majestatu.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 5:1-9*\nBracia: B\u0105d\u017acie\u017c na\u015bladowcami Bo\u017cymi jako synowie najmilsi i post\u0119pujcie w mi\u0142o\u015bci, jako i Chrystus umi\u0142owa\u0142 nas i wyda\u0142 samego siebie za nas na dar i na ofiar\u0119, na wonno\u015b\u0107 wdzi\u0119czno\u015bci. A rozpusta i wszelka nieczysto\u015b\u0107 albo chciwo\u015b\u0107 niech nie b\u0119d\u0105 nawet wspominane mi\u0119dzy wami, jak przystoi \u015bwi\u0119tym. Podobnie te\u017c i bezwstyd albo g\u0142upie mowy lub nieprzystojne \u017carty, nie nale\u017c\u0105ce do rzeczy, ale raczej sk\u0142adanie dzi\u0119kczynienia. Bo o tym powinni\u015bcie by\u0107 przekonani, \u017ce \u017caden rozpustnik albo nieczysty lub chciwiec (co jest ba\u0142wochwalstwem) nie ma dziedzictwa w Kr\u00f3lestwie Chrystusowym i Bo\u017cym. Niech\u017ce was nikt nie zwodzi pr\u00f3\u017cnymi s\u0142owy, bo za to nadci\u0105ga gniew Bo\u017cy na syn\u00f3w niedowiarstwa. Nie wchod\u017acie wi\u0119c z nimi w uczestnictwo. Niegdy\u015b bowiem byli\u015bcie ciemno\u015bci\u0105, ale teraz stali\u015bcie si\u0119 \u015bwiat\u0142o\u015bci\u0105 w Panu. Post\u0119pujcie jako synowie \u015bwiat\u0142o\u015bci. Bo owoc \u015bwiat\u0142o\u015bci polega na wszelkiej dobroci, sprawiedliwo\u015bci i prawdzie.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 9:20; 9:4*\nPowsta\u0144, o Panie, by cz\u0142owiek nie przem\u00f3g\u0142, pozwij narody przed Tw\u00f3j trybuna\u0142.\nV. Wrogowie moi cofn\u0119li si\u0119, upadli i zgin\u0119li sprzed Twego oblicza.\n\n*Traktus*\n*122:1-3*\nDo Ciebie oczy me wznosz\u0119, kt\u00f3ry mieszkasz w niebie.\nV. Oto jak oczy s\u0142ug zwracaj\u0105 si\u0119 ku r\u0119kom swych pan\u00f3w.\nV. Jak oczy s\u0142u\u017cebnicy ku r\u0119kom swej pani, tak oczy nasze ku Panu, Bogu naszemu, a\u017c si\u0119 zmi\u0142uje nad nami.\nV. Zmi\u0142uj si\u0119 nad nami, Panie, zmi\u0142uj si\u0119 nad nami.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 11:14-28*\nOnego czasu: Wyrzuca\u0142 Jezus czarta, a ten by\u0142 niemy. A gdy wyrzuci\u0142 czarta, przem\u00f3wi\u0142 niemy i zdumia\u0142y si\u0119 rzesze. I m\u00f3wili niekt\u00f3rzy z nich: \u00abPrzez Belzebuba, ksi\u0119cia czartowskiego, wyrzuca czarty\u00bb. A inni, kusz\u0105c, domagali si\u0119 od Niego znaku z nieba. Ale On, znaj\u0105c ich my\u015bli, rzek\u0142 im: \u00abWszelkie kr\u00f3lestwo rozdzierane niezgod\u0105 b\u0119dzie spustoszone, a dom na dom upadnie. A je\u015bliby i szatan rozdzierany by\u0142 niezgod\u0105, jak\u017ce ostoi si\u0119 kr\u00f3lestwo jego, skoro powiadacie, \u017ce ja przez Belzebuba wyrzucam czarty? A je\u015bli ja przez Belzebuba wyrzucam czarty, synowie wasi przez kogo wyrzucaj\u0105? Dlatego oni b\u0119d\u0105 s\u0119dziami waszymi. Lecz je\u015bli ja moc\u0105 Bo\u017c\u0105 wyrzucam czarty, tedy przysz\u0142o do Was Kr\u00f3lestwo Bo\u017ce.\nGdy zbrojny mocarz strze\u017ce domu swego, bezpieczne jest to, co ma. Ale je\u017celi mocniejszy od niego nadejdzie i zwyci\u0119\u017cy go, zabierze wszystk\u0105 jego bro\u0144, w kt\u00f3rej ufa\u0142, a \u0142upy jego rozda. Kto nie jest ze mn\u0105, przeciwko mnie jest, a kto nie zgromadza ze mn\u0105, rozprasza.\nGdy duch nieczysty opu\u015bci cz\u0142owieka, b\u0142\u0105ka si\u0119 po miejscach bezwodnych, szukaj\u0105c odpocznienia, a nie znajduj\u0105c m\u00f3wi: Wr\u00f3c\u0119 si\u0119 do domu mego, sk\u0105d wyszed\u0142em. I wr\u00f3ciwszy znajduje go umiecionym i przyozdobionym. W\u00f3wczas idzie i bierze ze sob\u0105 siedmiu innych duch\u00f3w, gorszych od siebie, i wszed\u0142szy mieszkaj\u0105 tam. I staj\u0105 si\u0119 p\u00f3\u017aniejsze rzeczy cz\u0142owieka owego gorsze ni\u017ali pierwsze\u00bb.\nI sta\u0142o si\u0119, gdy to m\u00f3wi\u0142, \u017ce pewna niewiasta z t\u0142umu dono\u015bnym g\u0142osem rzek\u0142a do Niego: \u00abB\u0142ogos\u0142awione \u0142ono, kt\u00f3re ci\u0119 nosi\u0142o i piersi, kt\u00f3re\u015b ssa\u0142\u00bb. A On rzek\u0142: \u00abRaczej ci s\u0105 b\u0142ogos\u0142awieni, kt\u00f3rzy s\u0142uchaj\u0105 s\u0142owa Bo\u017cego i strzeg\u0105 go\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 18:9, 10, 11, 12*\nPrzykazania Pa\u0144skie s\u0142uszne, raduj\u0105 serca, s\u0105dy Pa\u0144skie s\u0142odsze od miodu p\u0142yn\u0105cego z plastr\u00f3w, przeto Tw\u00f3j s\u0142uga zachowuje je.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech ta hostia oczy\u015bci nas z grzech\u00f3w i u\u015bwi\u0119ci dusze i cia\u0142a s\u0142ug Twoich do sprawowania ofiary.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja Wielkopostna*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy przez post cia\u0142a u\u015bmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Ps 83:4-5*\nWr\u00f3bel znajduje sobie dom i jask\u00f3\u0142ka gniazdo, gdzie z\u0142o\u017cy swoje piskl\u0119ta: Twoje o\u0142tarze, Panie Zast\u0119p\u00f3w, m\u00f3j Kr\u00f3lu i m\u00f3j Bo\u017ce. Szcz\u0119\u015bliwi, kt\u00f3rzy mieszkaj\u0105 w domu Twoim, Panie, i nieustannie Ci\u0119 chwal\u0105.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, uwolnij nas \u0142askawie od wszelkich przewinie\u0144 i niebezpiecze\u0144stw, skoro pozwalasz nam uczestniczy\u0107 w tak wielkim Sakramencie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 24:15-16*\nOczy moje zawsze ku Panu, gdy\u017c On sam oswobodzi z side\u0142 moje nogi. Wejrzyj na mnie i zmi\u0142uj si\u0119 nade mn\u0105, bo samotny jestem i biedny.\n*Ps 24:1-2*\nKu Tobie wznosz\u0119 dusz\u0119 moj\u0105, Panie, Bo\u017ce m\u00f3j, Tobie ja ufam, niech nie doznam wstydu.\nChwa\u0142a Ojcu.\nOczy moje zawsze ku Panu, gdy\u017c On sam oswobodzi z side\u0142 moje nogi. Wejrzyj na mnie i zmi\u0142uj si\u0119 nade mn\u0105, bo samotny jestem i biedny.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Wszechmog\u0105cy Bo\u017ce, wejrzyj, prosimy, na pokorne mod\u0142y i wyci\u0105gnij w naszej obronie prawic\u0119 Twego majestatu.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Efezjan.\n*Ef 5:1-9*\nBracia: B\u0105d\u017acie\u017c na\u015bladowcami Bo\u017cymi jako synowie najmilsi i post\u0119pujcie w mi\u0142o\u015bci, jako i Chrystus umi\u0142owa\u0142 nas i wyda\u0142 samego siebie za nas na dar i na ofiar\u0119, na wonno\u015b\u0107 wdzi\u0119czno\u015bci. A rozpusta i wszelka nieczysto\u015b\u0107 albo chciwo\u015b\u0107 niech nie b\u0119d\u0105 nawet wspominane mi\u0119dzy wami, jak przystoi \u015bwi\u0119tym. Podobnie te\u017c i bezwstyd albo g\u0142upie mowy lub nieprzystojne \u017carty, nie nale\u017c\u0105ce do rzeczy, ale raczej sk\u0142adanie dzi\u0119kczynienia. Bo o tym powinni\u015bcie by\u0107 przekonani, \u017ce \u017caden rozpustnik albo nieczysty lub chciwiec (co jest ba\u0142wochwalstwem) nie ma dziedzictwa w Kr\u00f3lestwie Chrystusowym i Bo\u017cym. Niech\u017ce was nikt nie zwodzi pr\u00f3\u017cnymi s\u0142owy, bo za to nadci\u0105ga gniew Bo\u017cy na syn\u00f3w niedowiarstwa. Nie wchod\u017acie wi\u0119c z nimi w uczestnictwo. Niegdy\u015b bowiem byli\u015bcie ciemno\u015bci\u0105, ale teraz stali\u015bcie si\u0119 \u015bwiat\u0142o\u015bci\u0105 w Panu. Post\u0119pujcie jako synowie \u015bwiat\u0142o\u015bci. Bo owoc \u015bwiat\u0142o\u015bci polega na wszelkiej dobroci, sprawiedliwo\u015bci i prawdzie.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 9:20; 9:4*\nPowsta\u0144, o Panie, by cz\u0142owiek nie przem\u00f3g\u0142, pozwij narody przed Tw\u00f3j trybuna\u0142.\nV. Wrogowie moi cofn\u0119li si\u0119, upadli i zgin\u0119li sprzed Twego oblicza.\n\n*Traktus*\n*122:1-3*\nDo Ciebie oczy me wznosz\u0119, kt\u00f3ry mieszkasz w niebie.\nV. Oto jak oczy s\u0142ug zwracaj\u0105 si\u0119 ku r\u0119kom swych pan\u00f3w.\nV. Jak oczy s\u0142u\u017cebnicy ku r\u0119kom swej pani, tak oczy nasze ku Panu, Bogu naszemu, a\u017c si\u0119 zmi\u0142uje nad nami.\nV. Zmi\u0142uj si\u0119 nad nami, Panie, zmi\u0142uj si\u0119 nad nami.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 11:14-28*\nOnego czasu: Wyrzuca\u0142 Jezus czarta, a ten by\u0142 niemy. A gdy wyrzuci\u0142 czarta, przem\u00f3wi\u0142 niemy i zdumia\u0142y si\u0119 rzesze. I m\u00f3wili niekt\u00f3rzy z nich: \u00abPrzez Belzebuba, ksi\u0119cia czartowskiego, wyrzuca czarty\u00bb. A inni, kusz\u0105c, domagali si\u0119 od Niego znaku z nieba. Ale On, znaj\u0105c ich my\u015bli, rzek\u0142 im: \u00abWszelkie kr\u00f3lestwo rozdzierane niezgod\u0105 b\u0119dzie spustoszone, a dom na dom upadnie. A je\u015bliby i szatan rozdzierany by\u0142 niezgod\u0105, jak\u017ce ostoi si\u0119 kr\u00f3lestwo jego, skoro powiadacie, \u017ce ja przez Belzebuba wyrzucam czarty? A je\u015bli ja przez Belzebuba wyrzucam czarty, synowie wasi przez kogo wyrzucaj\u0105? Dlatego oni b\u0119d\u0105 s\u0119dziami waszymi. Lecz je\u015bli ja moc\u0105 Bo\u017c\u0105 wyrzucam czarty, tedy przysz\u0142o do Was Kr\u00f3lestwo Bo\u017ce.\nGdy zbrojny mocarz strze\u017ce domu swego, bezpieczne jest to, co ma. Ale je\u017celi mocniejszy od niego nadejdzie i zwyci\u0119\u017cy go, zabierze wszystk\u0105 jego bro\u0144, w kt\u00f3rej ufa\u0142, a \u0142upy jego rozda. Kto nie jest ze mn\u0105, przeciwko mnie jest, a kto nie zgromadza ze mn\u0105, rozprasza.\nGdy duch nieczysty opu\u015bci cz\u0142owieka, b\u0142\u0105ka si\u0119 po miejscach bezwodnych, szukaj\u0105c odpocznienia, a nie znajduj\u0105c m\u00f3wi: Wr\u00f3c\u0119 si\u0119 do domu mego, sk\u0105d wyszed\u0142em. I wr\u00f3ciwszy znajduje go umiecionym i przyozdobionym. W\u00f3wczas idzie i bierze ze sob\u0105 siedmiu innych duch\u00f3w, gorszych od siebie, i wszed\u0142szy mieszkaj\u0105 tam. I staj\u0105 si\u0119 p\u00f3\u017aniejsze rzeczy cz\u0142owieka owego gorsze ni\u017ali pierwsze\u00bb.\nI sta\u0142o si\u0119, gdy to m\u00f3wi\u0142, \u017ce pewna niewiasta z t\u0142umu dono\u015bnym g\u0142osem rzek\u0142a do Niego: \u00abB\u0142ogos\u0142awione \u0142ono, kt\u00f3re ci\u0119 nosi\u0142o i piersi, kt\u00f3re\u015b ssa\u0142\u00bb. A On rzek\u0142: \u00abRaczej ci s\u0105 b\u0142ogos\u0142awieni, kt\u00f3rzy s\u0142uchaj\u0105 s\u0142owa Bo\u017cego i strzeg\u0105 go\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 18:9, 10, 11, 12*\nPrzykazania Pa\u0144skie s\u0142uszne, raduj\u0105 serca, s\u0105dy Pa\u0144skie s\u0142odsze od miodu p\u0142yn\u0105cego z plastr\u00f3w, przeto Tw\u00f3j s\u0142uga zachowuje je.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech ta hostia oczy\u015bci nas z grzech\u00f3w i u\u015bwi\u0119ci dusze i cia\u0142a s\u0142ug Twoich do sprawowania ofiary.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nTy przez post cia\u0142a u\u015bmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Tw\u00f3j chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi. A wsp\u00f3lnie z nimi w radosnym uniesieniu s\u0142awi\u0105 Niebiosa, Moce niebieskie i b\u0142ogos\u0142awieni Serafini. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Ps 83:4-5*\nWr\u00f3bel znajduje sobie dom i jask\u00f3\u0142ka gniazdo, gdzie z\u0142o\u017cy swoje piskl\u0119ta: Twoje o\u0142tarze, Panie Zast\u0119p\u00f3w, m\u00f3j Kr\u00f3lu i m\u00f3j Bo\u017ce. Szcz\u0119\u015bliwi, kt\u00f3rzy mieszkaj\u0105 w domu Twoim, Panie, i nieustannie Ci\u0119 chwal\u0105.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, uwolnij nas \u0142askawie od wszelkich przewinie\u0144 i niebezpiecze\u0144stw, skoro pozwalasz nam uczestniczy\u0107 w tak wielkim Sakramencie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

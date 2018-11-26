@@ -1,91 +1,93 @@
-{
-  "info": {
-    "additional_info": [
-      "3 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "3 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2018-09-20", 
+      "description": "Wed\u0142ug podania \u015bw. Eustachy przyj\u0105\u0142 chrze\u015bcija\u0144stwo zobaczywszy w czasie polowania krzy\u017c mi\u0119dzy rogami jelenia. Razem z nim przyj\u0119\u0142a chrzest \u017cona i synowie. Poni\u00f3s\u0142 m\u0119cze\u0144stwo z pocz\u0105tkiem II wieku.\n", 
+      "tempora": "Czwartek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Eustachego i Towarzyszy, M\u0119czennik\u00f3w"
+    }, 
+    "proper_latin": [
+      {
+        "body": "Deus, qui nos concedis sanctorum Martyrum tuorum Eustachii et Sociorum ejus natalitia colere: da nobis in aeterna beatitudine de eorum societate gaudere.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro Vigilia S. Matthaei Apostoli*\nDa qu\u01fdsumus omnipotens Deus: ut beati Matthaei Apostoli tui et Evangelistae,\nquam praevenimus, veneranda solemnitas, et devotionem nobis augeat et salutem.\nPer Dominum.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "*Pro Vigilia S. Matthaei Apostoli*\nApost\u00f3lici rever\u00e9ntia c\u00falminis offer\u00e9ntes tibi sacra myst\u00e9ria, D\u00f3mine, qu\u01fdsumus: ut be\u00e1ti Matthaei Ap\u00f3stoli tui et Evangel\u00edstae suffr\u00e1giis, cujus natal\u00edtia pr\u00e6ven\u00edmus; plebs tua semper et sua vota depr\u00f3mat, et desider\u00e1ta perc\u00edpiat.\nPer Dominum.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Pro Vigilia S. Matthaei Apostoli*\nSancti Ap\u00f3stoli tui et Evangel\u00edst\u00e6 Matthaei, qu\u01fdsumus, D\u00f3mine, supplicati\u00f3ne plac\u00e1tus: et v\u00e9niam nobis tr\u00edbue, et rem\u00e9dia sempit\u00e9rna conc\u00e9de.\nPer Dominum.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2018-09-20", 
-    "description": "Wed\u0142ug podania \u015bw. Eustachy przyj\u0105\u0142 chrze\u015bcija\u0144stwo zobaczywszy w czasie polowania krzy\u017c mi\u0119dzy rogami jelenia. Razem z nim przyj\u0119\u0142a chrzest \u017cona i synowie. Poni\u00f3s\u0142 m\u0119cze\u0144stwo z pocz\u0105tkiem II wieku.\n", 
-    "tempora": "Czwartek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Eustachego i Towarzyszy, M\u0119czennik\u00f3w"
-  }, 
-  "proper_latin": [
-    {
-      "body": "Deus, qui nos concedis sanctorum Martyrum tuorum Eustachii et Sociorum ejus natalitia colere: da nobis in aeterna beatitudine de eorum societate gaudere.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro Vigilia S. Matthaei Apostoli*\nDa qu\u01fdsumus omnipotens Deus: ut beati Matthaei Apostoli tui et Evangelistae,\nquam praevenimus, veneranda solemnitas, et devotionem nobis augeat et salutem.\nPer Dominum.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "*Pro Vigilia S. Matthaei Apostoli*\nApost\u00f3lici rever\u00e9ntia c\u00falminis offer\u00e9ntes tibi sacra myst\u00e9ria, D\u00f3mine, qu\u01fdsumus: ut be\u00e1ti Matthaei Ap\u00f3stoli tui et Evangel\u00edstae suffr\u00e1giis, cujus natal\u00edtia pr\u00e6ven\u00edmus; plebs tua semper et sua vota depr\u00f3mat, et desider\u00e1ta perc\u00edpiat.\nPer Dominum.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Pro Vigilia S. Matthaei Apostoli*\nSancti Ap\u00f3stoli tui et Evangel\u00edst\u00e6 Matthaei, qu\u01fdsumus, D\u00f3mine, supplicati\u00f3ne plac\u00e1tus: et v\u00e9niam nobis tr\u00edbue, et rem\u00e9dia sempit\u00e9rna conc\u00e9de.\nPer Dominum.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Syr 44:15; 44:14*\nM\u0105dro\u015b\u0107 \u015awi\u0119tych opowiada\u0107 b\u0119d\u0105 narody, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0142o zgromadzenie, imiona ich b\u0119d\u0105 \u017cy\u0142y na wieki wiek\u00f3w.\n*Ps 32:1*\nSprawiedliwi, weselcie si\u0119 w Panu: prawym przystoi Go chwali\u0107.\nChwa\u0142a Ojcu.\nM\u0105dro\u015b\u0107 \u015awi\u0119tych opowiada\u0107 b\u0119d\u0105 narody, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0142o zgromadzenie, imiona ich b\u0119d\u0105 \u017cy\u0142y na wieki wiek\u00f3w.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Bo\u017ce, kt\u00f3ry nam pozwalasz obchodzi\u0107 narodziny dla nieba \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Eustachego i Towarzyszy: daj nam w wiecznej szcz\u0119\u015bliwo\u015bci radowa\u0107 si\u0119 ich towarzystwem.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 5:16-20*\nSprawiedliwi \u017cy\u0107 b\u0119d\u0105 na wieki i u Pana jest ich zap\u0142ata, a troska o nich u Najwy\u017cszego. Przeto otrzymaj\u0105 wspania\u0142e kr\u00f3lestwo i diadem przepi\u0119kny z r\u0119ki Pa\u0144skiej: bo prawic\u0105 sw\u0105 rz\u0105dzi\u0107 nimi b\u0119dzie i \u015bwi\u0119tym swym ramieniem broni\u0107 ich b\u0119dzie. \u017barliwa mi\u0142o\u015b\u0107 Jego we\u017amie zbroj\u0119 i uzbroi stworzenie dla pomsty na nieprzyjacio\u0142ach. Przywdzieje zamiast pancerza sprawiedliwo\u015b\u0107, a za szyszak we\u017amie s\u0105d niezawodny. Za nieodpart\u0105 tarcz\u0119 we\u017amie s\u0142uszno\u015b\u0107.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 123:7-8*\nDusza nasza niby ptak wyrwa\u0142a si\u0119 z sid\u0142a \u0142owc\u00f3w.\nV. Sid\u0142o si\u0119 podar\u0142o, a my zostali\u015bmy uwolnieni. Wspomo\u017cenie nasze w imieniu Pana, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119. Alleluja, alleluja.\n*Ps 67:4*\nSprawiedliwi si\u0119 ciesz\u0105 i wesel\u0105 przed Bo\u017cym obliczem, i rozkoszuj\u0105 si\u0119 po\u015br\u00f3d rado\u015bci. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 6:17-23*\n*Msza Sapientiam zosta\u0142a u\u0142o\u017cona na uroczysto\u015b\u0107 \u015bwi\u0119tych lekarzy Kosmy i Damiana. Dlatego pierwsza cz\u0119\u015b\u0107\u00a0Ewangelii opowiada o uzdrowieniach.*\nOnego czasu: Gdy Jezus zszed\u0142 z g\u00f3ry, stan\u0105\u0142 na r\u00f3wninie wraz z rzesz\u0105 swych uczni\u00f3w i wielkim mn\u00f3stwem ludu z ca\u0142ej Judei i Jerozolimy, znad morza, Tyru i Sydonu, kt\u00f3rzy przybyli, aby Go s\u0142uchali i byli uzdrowieni z niemocy swoich. Tak\u017ce i dr\u0119czeni przez duchy nieczyste uzdrawiani byli. A ca\u0142a rzesza pragn\u0119\u0142a si\u0119 Go dotkn\u0105\u0107, albowiem wychodzi\u0142a ze\u0144 moc i uzdrawia\u0142a wszystkich.\nA On, podni\u00f3s\u0142szy oczy na uczni\u00f3w swoich, m\u00f3wi\u0142:\n\u00abB\u0142ogos\u0142awieni ubodzy, bo wasze jest kr\u00f3lestwo Bo\u017ce. B\u0142ogos\u0142awieni, kt\u00f3rzy teraz \u0142akniecie, albowiem b\u0119dziecie nasyceni. B\u0142ogos\u0142awieni, kt\u00f3rzy teraz p\u0142aczecie, albowiem b\u0119dziecie si\u0119\u00a0weseli\u0107.\nB\u0142ogos\u0142awieni b\u0119dziecie, gdy ludzie was znienawidz\u0105 i gdy was wy\u0142\u0105cz\u0105, i z\u0142orzeczy\u0107 wam b\u0119d\u0105, i znies\u0142awia\u0107 imi\u0119 wasze jako z\u0142e, dla Syna Cz\u0142owieczego. Weselcie si\u0119 dnia onego, a radujcie, bo oto zap\u0142ata wasza obfita jest w niebiesiech\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 149:5-6*\nNiech \u015awi\u0119ci ciesz\u0105 si\u0119 w\u015br\u00f3d chwa\u0142y, niech si\u0119 raduj\u0105 w miejscu odpocznienia, wys\u0142awianie Boga wci\u0105\u017c na ich ustach alleluja.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Ofiarujemy Ci, Panie te dary jako wyraz naszego oddania; przyjmij je \u0142askawie ku chwale Twoich \u015awi\u0119tych i spraw w Swoim mi\u0142osierdziu, aby przyczyni\u0142y si\u0119 do naszego zbawienia.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 12:4*\nPowiadam wam, przyjacio\u0142om moim: nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy was prze\u015bladuj\u0105.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, za wstawiennictwem Twoich M\u0119czennik\u00f3w N. i N., daj nam przyj\u0105\u0107 czyst\u0105 dusz\u0105 to, co spo\u017cyli\u015bmy ustami.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Syr 44:15; 44:14*\nM\u0105dro\u015b\u0107 \u015awi\u0119tych opowiada\u0107 b\u0119d\u0105 narody, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0142o zgromadzenie, imiona ich b\u0119d\u0105 \u017cy\u0142y na wieki wiek\u00f3w.\n*Ps 32:1*\nSprawiedliwi, weselcie si\u0119 w Panu: prawym przystoi Go chwali\u0107.\nChwa\u0142a Ojcu.\nM\u0105dro\u015b\u0107 \u015awi\u0119tych opowiada\u0107 b\u0119d\u0105 narody, a chwa\u0142\u0119 ich b\u0119dzie g\u0142osi\u0142o zgromadzenie, imiona ich b\u0119d\u0105 \u017cy\u0142y na wieki wiek\u00f3w.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Bo\u017ce, kt\u00f3ry nam pozwalasz obchodzi\u0107 narodziny dla nieba \u015bwi\u0119tych M\u0119czennik\u00f3w Twoich Eustachego i Towarzyszy: daj nam w wiecznej szcz\u0119\u015bliwo\u015bci radowa\u0107 si\u0119 ich towarzystwem.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Ksi\u0119gi M\u0105dro\u015bci.\n*Mdr 5:16-20*\nSprawiedliwi \u017cy\u0107 b\u0119d\u0105 na wieki i u Pana jest ich zap\u0142ata, a troska o nich u Najwy\u017cszego. Przeto otrzymaj\u0105 wspania\u0142e kr\u00f3lestwo i diadem przepi\u0119kny z r\u0119ki Pa\u0144skiej: bo prawic\u0105 sw\u0105 rz\u0105dzi\u0107 nimi b\u0119dzie i \u015bwi\u0119tym swym ramieniem broni\u0107 ich b\u0119dzie. \u017barliwa mi\u0142o\u015b\u0107 Jego we\u017amie zbroj\u0119 i uzbroi stworzenie dla pomsty na nieprzyjacio\u0142ach. Przywdzieje zamiast pancerza sprawiedliwo\u015b\u0107, a za szyszak we\u017amie s\u0105d niezawodny. Za nieodpart\u0105 tarcz\u0119 we\u017amie s\u0142uszno\u015b\u0107.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 123:7-8*\nDusza nasza niby ptak wyrwa\u0142a si\u0119 z sid\u0142a \u0142owc\u00f3w.\nV. Sid\u0142o si\u0119 podar\u0142o, a my zostali\u015bmy uwolnieni. Wspomo\u017cenie nasze w imieniu Pana, kt\u00f3ry stworzy\u0142 niebo i ziemi\u0119. Alleluja, alleluja.\n*Ps 67:4*\nSprawiedliwi si\u0119 ciesz\u0105 i wesel\u0105 przed Bo\u017cym obliczem, i rozkoszuj\u0105 si\u0119 po\u015br\u00f3d rado\u015bci. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 6:17-23*\n*Msza Sapientiam zosta\u0142a u\u0142o\u017cona na uroczysto\u015b\u0107 \u015bwi\u0119tych lekarzy Kosmy i Damiana. Dlatego pierwsza cz\u0119\u015b\u0107\u00a0Ewangelii opowiada o uzdrowieniach.*\nOnego czasu: Gdy Jezus zszed\u0142 z g\u00f3ry, stan\u0105\u0142 na r\u00f3wninie wraz z rzesz\u0105 swych uczni\u00f3w i wielkim mn\u00f3stwem ludu z ca\u0142ej Judei i Jerozolimy, znad morza, Tyru i Sydonu, kt\u00f3rzy przybyli, aby Go s\u0142uchali i byli uzdrowieni z niemocy swoich. Tak\u017ce i dr\u0119czeni przez duchy nieczyste uzdrawiani byli. A ca\u0142a rzesza pragn\u0119\u0142a si\u0119 Go dotkn\u0105\u0107, albowiem wychodzi\u0142a ze\u0144 moc i uzdrawia\u0142a wszystkich.\nA On, podni\u00f3s\u0142szy oczy na uczni\u00f3w swoich, m\u00f3wi\u0142:\n\u00abB\u0142ogos\u0142awieni ubodzy, bo wasze jest kr\u00f3lestwo Bo\u017ce. B\u0142ogos\u0142awieni, kt\u00f3rzy teraz \u0142akniecie, albowiem b\u0119dziecie nasyceni. B\u0142ogos\u0142awieni, kt\u00f3rzy teraz p\u0142aczecie, albowiem b\u0119dziecie si\u0119\u00a0weseli\u0107.\nB\u0142ogos\u0142awieni b\u0119dziecie, gdy ludzie was znienawidz\u0105 i gdy was wy\u0142\u0105cz\u0105, i z\u0142orzeczy\u0107 wam b\u0119d\u0105, i znies\u0142awia\u0107 imi\u0119 wasze jako z\u0142e, dla Syna Cz\u0142owieczego. Weselcie si\u0119 dnia onego, a radujcie, bo oto zap\u0142ata wasza obfita jest w niebiesiech\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 149:5-6*\nNiech \u015awi\u0119ci ciesz\u0105 si\u0119 w\u015br\u00f3d chwa\u0142y, niech si\u0119 raduj\u0105 w miejscu odpocznienia, wys\u0142awianie Boga wci\u0105\u017c na ich ustach alleluja.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Ofiarujemy Ci, Panie te dary jako wyraz naszego oddania; przyjmij je \u0142askawie ku chwale Twoich \u015awi\u0119tych i spraw w Swoim mi\u0142osierdziu, aby przyczyni\u0142y si\u0119 do naszego zbawienia.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 12:4*\nPowiadam wam, przyjacio\u0142om moim: nie l\u0119kajcie si\u0119 tych, kt\u00f3rzy was prze\u015bladuj\u0105.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, za wstawiennictwem Twoich M\u0119czennik\u00f3w N. i N., daj nam przyj\u0105\u0107 czyst\u0105 dusz\u0105 to, co spo\u017cyli\u015bmy ustami.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

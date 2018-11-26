@@ -1,131 +1,133 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty zielone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty zielone"
+      ], 
+      "date": "2017-06-25", 
+      "description": "Dwie pot\u0119gi zabiegaj\u0105 o dusz\u0119 cz\u0142owieka: szatan, kt\u00f3ry chce j\u0105 zgubi\u0107 (lekcja) i Chrystus, Dobry Pasterz, kt\u00f3ry nieustannie si\u0119 o ni\u0105 troszczy (ewangelia). Przypowie\u015b\u0107 ewangeliczna ods\u0142ania nam wzruszaj\u0105c\u0105 tajemnic\u0119 mi\u0142osierdzia Bo\u017cego. B\u00f3g cieszy si\u0119 z ka\u017cdego nawr\u00f3cenia. Dlatego we wszystkich pokusach z ufno\u015bci\u0105 zwracamy si\u0119 do Niego (antyfony na wej\u015bcie i na ofiarowanie, gradua\u0142). W ka\u017cdej Komunii \u015bwi\u0119tej Chrystus na nowo nas odnajduje i zwraca ku Bogu.\n", 
+      "tempora": null, 
+      "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 24:16; 24:18*\nR\u00e9spice in me et miser\u00e9re mei, D\u00f3mine: qu\u00f3niam \u00fanicus et pauper sum ego: vide humilit\u00e1tem meam et lab\u00f3rem meum: et dim\u00edtte \u00f3mnia pecc\u00e1ta mea, Deus meus.\n*Ps 24:1-2*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam.\nGl\u00f3ria Patri.\nR\u00e9spice in me et miser\u00e9re mei, D\u00f3mine: qu\u00f3niam \u00fanicus et pauper sum ego: vide humilit\u00e1tem meam et lab\u00f3rem meum: et dim\u00edtte \u00f3mnia pecc\u00e1ta mea, Deus meus.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Prot\u00e9ctor in te sper\u00e1ntium, Deus, sine quo nihil est v\u00e1lidum, nihil sanctum: mult\u00edplica super nos miseric\u00f3rdiam tuam; ut, te rect\u00f3re, te duce, sic transe\u00e1mus per bona tempor\u00e1lia, ut non amitt\u00e1mus \u00e6t\u00e9rna.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "*Pro Octava sacratissimi Cordis Jesu:*\nDeus, qui nobis in Corde F\u00edlii tui, nostris vulner\u00e1to pecc\u00e1tis, infin\u00edtos dilecti\u00f3nis thes\u00e1uros miseric\u00f3rditer larg\u00edri dign\u00e1ris: conc\u00e9de, qu\u01fdsumus; ut, illi dev\u00f3tum piet\u00e1tis nostr\u00e6 pr\u00e6st\u00e1ntes obs\u00e9quium, dign\u00e6 quoque satisfacti\u00f3nis exhibe\u00e1mus off\u00edcium.\nPer e\u00fandem.", 
+        "id": "Commemoratio Oratio", 
+        "label": "Commemoratio Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:6-11*\nCar\u00edssimi: Humili\u00e1mini sub pot\u00e9nti manu Dei, ut vos ex\u00e1ltet in t\u00e9mpore visitati\u00f3nis: omnem sollicit\u00fadinem vestram projici\u00e9ntes in eum, qu\u00f3niam ipsi cura est de vobis. S\u00f3brii estote et vigil\u00e1te: quia advers\u00e1rius vester di\u00e1bolus tamquam leo r\u00fagiens circuit, qu\u00e6rens, quem d\u00e9voret: cui res\u00edstite fortes in fide: sci\u00e9ntes e\u00e1ndem passi\u00f3nem ei, qu\u00e6 in mundo est, vestr\u00e6 fraternit\u00e1ti f\u00ederi. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in saecula s\u00e6cul\u00f3rum. Amen.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 54:23; 54:17; 54:19*\nJacta cogit\u00e1tum tuum in D\u00f3mino: et ipse te en\u00fatriet.\nV. Dum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi. Allel\u00faja, allel\u00faja\n*Ps 7:12*\nDeus judex justus, fortis et p\u00e1tiens, numquid ir\u00e1scitur per s\u00edngulos dies? Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 15:1-10*\nIn illo t\u00e9mpore: Erant appropinqu\u00e1ntes ad Jesum public\u00e1ni et peccat\u00f3res, ut aud\u00edrent illum. Et murmur\u00e1bant pharisaei et scrib\u00e6, dic\u00e9ntes: Quia hic peccat\u00f3res recipit et mand\u00facat cum illis. Et ait ad illos par\u00e1bolam istam, dicens: Quis ex vobis homo, qui habet centum oves: et si perd\u00edderit unam ex illis, nonne dim\u00edttit nonag\u00ednta novem in des\u00e9rto, et vadit ad illam, qu\u00e6 per\u00ederat, donec inv\u00e9niat eam? Et cum inv\u00e9nerit eam, imp\u00f3nit in h\u00fameros suos gaudens: et v\u00e9niens domum, c\u00f3nvocat am\u00edcos et vic\u00ednos, dicens illis: Congratul\u00e1mini mihi, quia inv\u00e9ni ovem meam, qu\u00e6 per\u00ederat? Dico vobis, quod ita g\u00e1udium erit in coelo super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte, quam super nonag\u00ednta novem justis, qui non \u00edndigent poenit\u00e9ntia. Aut qu\u00e6 m\u00falier habens drachmas decem, si perd\u00edderit drachmam unam, nonne acc\u00e9ndit luc\u00e9rnam, et ev\u00e9rrit domum, et qu\u00e6rit dilig\u00e9nter, donec inv\u00e9niat? Et cum inv\u00e9nerit, c\u00f3nvocat am\u00edcas et vic\u00ednas, dicens: Congratul\u00e1mini mihi, quia inv\u00e9ni drachmam, quam perd\u00edderam? Ita dico vobis: g\u00e1udium erit coram Angelis Dei super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 9:11-12 9:13*\nSperent in te omnes, qui nov\u00e9runt nomen tuum, D\u00f3mine: qu\u00f3niam non derel\u00ednquis qu\u00e6r\u00e9ntes te: ps\u00e1llite D\u00f3mino, qui h\u00e1bitat in Sion: qu\u00f3niam non est obl\u00edtus orati\u00f3nem p\u00e1uperum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "R\u00e9spice, D\u00f3mine, m\u00fanera supplic\u00e1ntis Eccl\u00e9si\u00e6: et sal\u00fati cred\u00e9ntium perp\u00e9tua sanctificati\u00f3ne sum\u00e9nda conc\u00e9de.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Pro Octava sacratissimi Cordis Jesu.*\nR\u00e9spice, qu\u01fdsumus, D\u00f3mine, ad ineff\u00e1bilem Cordis dil\u00e9cti F\u00edlii tui carit\u00e1tem: ut quod off\u00e9rimus sit tibi munus acc\u00e9ptum et nostr\u00f3rum expi\u00e1tio delict\u00f3rum.\nPer e\u00fandem.", 
+        "id": "Commemoratio Secreta", 
+        "label": "Commemoratio Secreta"
+      }, 
+      {
+        "body": "*de sacratissimo Cordis Jesu*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui Unig\u00e9nitum tuum, in Cruce pend\u00e9ntem, l\u00e1ncea m\u00edlitis transf\u00edgi volu\u00edsti: ut ap\u00e9rtum Cor, div\u00edn\u00e6 largit\u00e1tis sacr\u00e1rium, torr\u00e9ntes nobis f\u00fanderet miserati\u00f3nis et gr\u00e1ti\u00e6: et, quod am\u00f3re nostri flagr\u00e1re numquam d\u00e9stitit, piis esset r\u00e9quies et poenit\u00e9ntibus pater et sal\u00fatis ref\u00fagium. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Luc 15:10.*\nDico vobis: g\u00e1udium est Angelis Dei super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "Sancta tua nos, D\u00f3mine, sumpta viv\u00edficent: et miseric\u00f3rdi\u00e6 sempit\u00e9rn\u00e6 praeparent expi\u00e1tos.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }, 
+      {
+        "body": "*Pro Octava sacratissimi Cordis Jesu.*\nPraebeant nobis, D\u00f3mine Jesu, div\u00ednum tua sancta ferv\u00f3rem: quo dulc\u00edssimi Cordis tui suavit\u00e1te perc\u00e9pta; disc\u00e1mus terr\u00e9na desp\u00edcere, et am\u00e1re coel\u00e9stia:\nQui vivis.", 
+        "id": "Commemoratio Postcommunio", 
+        "label": "Commemoratio Postcommunio"
+      }
     ], 
-    "date": "2017-06-25", 
-    "description": "Dwie pot\u0119gi zabiegaj\u0105 o dusz\u0119 cz\u0142owieka: szatan, kt\u00f3ry chce j\u0105 zgubi\u0107 (lekcja) i Chrystus, Dobry Pasterz, kt\u00f3ry nieustannie si\u0119 o ni\u0105 troszczy (ewangelia). Przypowie\u015b\u0107 ewangeliczna ods\u0142ania nam wzruszaj\u0105c\u0105 tajemnic\u0119 mi\u0142osierdzia Bo\u017cego. B\u00f3g cieszy si\u0119 z ka\u017cdego nawr\u00f3cenia. Dlatego we wszystkich pokusach z ufno\u015bci\u0105 zwracamy si\u0119 do Niego (antyfony na wej\u015bcie i na ofiarowanie, gradua\u0142). W ka\u017cdej Komunii \u015bwi\u0119tej Chrystus na nowo nas odnajduje i zwraca ku Bogu.\n", 
-    "tempora": null, 
-    "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 24:16; 24:18*\nR\u00e9spice in me et miser\u00e9re mei, D\u00f3mine: qu\u00f3niam \u00fanicus et pauper sum ego: vide humilit\u00e1tem meam et lab\u00f3rem meum: et dim\u00edtte \u00f3mnia pecc\u00e1ta mea, Deus meus.\n*Ps 24:1-2*\nAd te, D\u00f3mine, lev\u00e1vi \u00e1nimam meam: Deus meus, in te conf\u00eddo, non erub\u00e9scam.\nGl\u00f3ria Patri.\nR\u00e9spice in me et miser\u00e9re mei, D\u00f3mine: qu\u00f3niam \u00fanicus et pauper sum ego: vide humilit\u00e1tem meam et lab\u00f3rem meum: et dim\u00edtte \u00f3mnia pecc\u00e1ta mea, Deus meus.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Prot\u00e9ctor in te sper\u00e1ntium, Deus, sine quo nihil est v\u00e1lidum, nihil sanctum: mult\u00edplica super nos miseric\u00f3rdiam tuam; ut, te rect\u00f3re, te duce, sic transe\u00e1mus per bona tempor\u00e1lia, ut non amitt\u00e1mus \u00e6t\u00e9rna.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "*Pro Octava sacratissimi Cordis Jesu:*\nDeus, qui nobis in Corde F\u00edlii tui, nostris vulner\u00e1to pecc\u00e1tis, infin\u00edtos dilecti\u00f3nis thes\u00e1uros miseric\u00f3rditer larg\u00edri dign\u00e1ris: conc\u00e9de, qu\u01fdsumus; ut, illi dev\u00f3tum piet\u00e1tis nostr\u00e6 pr\u00e6st\u00e1ntes obs\u00e9quium, dign\u00e6 quoque satisfacti\u00f3nis exhibe\u00e1mus off\u00edcium.\nPer e\u00fandem.", 
-      "id": "Commemoratio Oratio", 
-      "label": "Commemoratio Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Petri Ap\u00f3stoli.\n*1 Pet 5:6-11*\nCar\u00edssimi: Humili\u00e1mini sub pot\u00e9nti manu Dei, ut vos ex\u00e1ltet in t\u00e9mpore visitati\u00f3nis: omnem sollicit\u00fadinem vestram projici\u00e9ntes in eum, qu\u00f3niam ipsi cura est de vobis. S\u00f3brii estote et vigil\u00e1te: quia advers\u00e1rius vester di\u00e1bolus tamquam leo r\u00fagiens circuit, qu\u00e6rens, quem d\u00e9voret: cui res\u00edstite fortes in fide: sci\u00e9ntes e\u00e1ndem passi\u00f3nem ei, qu\u00e6 in mundo est, vestr\u00e6 fraternit\u00e1ti f\u00ederi. Deus autem omnis gr\u00e1ti\u00e6, qui voc\u00e1vit nos in \u00e6t\u00e9rnam suam gl\u00f3riam in Christo Jesu, m\u00f3dicum passos ipse perf\u00edciet, confirm\u00e1bit solidab\u00edtque. Ipsi gl\u00f3ria et imp\u00e9rium in saecula s\u00e6cul\u00f3rum. Amen.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 54:23; 54:17; 54:19*\nJacta cogit\u00e1tum tuum in D\u00f3mino: et ipse te en\u00fatriet.\nV. Dum clam\u00e1rem ad D\u00f3minum, exaud\u00edvit vocem meam ab his, qui approp\u00ednquant mihi. Allel\u00faja, allel\u00faja\n*Ps 7:12*\nDeus judex justus, fortis et p\u00e1tiens, numquid ir\u00e1scitur per s\u00edngulos dies? Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Lucam.\n*Luc 15:1-10*\nIn illo t\u00e9mpore: Erant appropinqu\u00e1ntes ad Jesum public\u00e1ni et peccat\u00f3res, ut aud\u00edrent illum. Et murmur\u00e1bant pharisaei et scrib\u00e6, dic\u00e9ntes: Quia hic peccat\u00f3res recipit et mand\u00facat cum illis. Et ait ad illos par\u00e1bolam istam, dicens: Quis ex vobis homo, qui habet centum oves: et si perd\u00edderit unam ex illis, nonne dim\u00edttit nonag\u00ednta novem in des\u00e9rto, et vadit ad illam, qu\u00e6 per\u00ederat, donec inv\u00e9niat eam? Et cum inv\u00e9nerit eam, imp\u00f3nit in h\u00fameros suos gaudens: et v\u00e9niens domum, c\u00f3nvocat am\u00edcos et vic\u00ednos, dicens illis: Congratul\u00e1mini mihi, quia inv\u00e9ni ovem meam, qu\u00e6 per\u00ederat? Dico vobis, quod ita g\u00e1udium erit in coelo super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte, quam super nonag\u00ednta novem justis, qui non \u00edndigent poenit\u00e9ntia. Aut qu\u00e6 m\u00falier habens drachmas decem, si perd\u00edderit drachmam unam, nonne acc\u00e9ndit luc\u00e9rnam, et ev\u00e9rrit domum, et qu\u00e6rit dilig\u00e9nter, donec inv\u00e9niat? Et cum inv\u00e9nerit, c\u00f3nvocat am\u00edcas et vic\u00ednas, dicens: Congratul\u00e1mini mihi, quia inv\u00e9ni drachmam, quam perd\u00edderam? Ita dico vobis: g\u00e1udium erit coram Angelis Dei super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 9:11-12 9:13*\nSperent in te omnes, qui nov\u00e9runt nomen tuum, D\u00f3mine: qu\u00f3niam non derel\u00ednquis qu\u00e6r\u00e9ntes te: ps\u00e1llite D\u00f3mino, qui h\u00e1bitat in Sion: qu\u00f3niam non est obl\u00edtus orati\u00f3nem p\u00e1uperum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "R\u00e9spice, D\u00f3mine, m\u00fanera supplic\u00e1ntis Eccl\u00e9si\u00e6: et sal\u00fati cred\u00e9ntium perp\u00e9tua sanctificati\u00f3ne sum\u00e9nda conc\u00e9de.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Pro Octava sacratissimi Cordis Jesu.*\nR\u00e9spice, qu\u01fdsumus, D\u00f3mine, ad ineff\u00e1bilem Cordis dil\u00e9cti F\u00edlii tui carit\u00e1tem: ut quod off\u00e9rimus sit tibi munus acc\u00e9ptum et nostr\u00f3rum expi\u00e1tio delict\u00f3rum.\nPer e\u00fandem.", 
-      "id": "Commemoratio Secreta", 
-      "label": "Commemoratio Secreta"
-    }, 
-    {
-      "body": "*de sacratissimo Cordis Jesu*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias \u00e1gere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: Qui Unig\u00e9nitum tuum, in Cruce pend\u00e9ntem, l\u00e1ncea m\u00edlitis transf\u00edgi volu\u00edsti: ut ap\u00e9rtum Cor, div\u00edn\u00e6 largit\u00e1tis sacr\u00e1rium, torr\u00e9ntes nobis f\u00fanderet miserati\u00f3nis et gr\u00e1ti\u00e6: et, quod am\u00f3re nostri flagr\u00e1re numquam d\u00e9stitit, piis esset r\u00e9quies et poenit\u00e9ntibus pater et sal\u00fatis ref\u00fagium. Et \u00eddeo cum Angelis et Arch\u00e1ngelis, cum Thronis et Dominati\u00f3nibus cumque omni mil\u00edtia coel\u00e9stis ex\u00e9rcitus hymnum gl\u00f3ri\u00e6 tu\u00e6 c\u00e1nimus, sine fine dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Luc 15:10.*\nDico vobis: g\u00e1udium est Angelis Dei super uno peccat\u00f3re poenit\u00e9ntiam ag\u00e9nte.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "Sancta tua nos, D\u00f3mine, sumpta viv\u00edficent: et miseric\u00f3rdi\u00e6 sempit\u00e9rn\u00e6 praeparent expi\u00e1tos.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }, 
-    {
-      "body": "*Pro Octava sacratissimi Cordis Jesu.*\nPraebeant nobis, D\u00f3mine Jesu, div\u00ednum tua sancta ferv\u00f3rem: quo dulc\u00edssimi Cordis tui suavit\u00e1te perc\u00e9pta; disc\u00e1mus terr\u00e9na desp\u00edcere, et am\u00e1re coel\u00e9stia:\nQui vivis.", 
-      "id": "Commemoratio Postcommunio", 
-      "label": "Commemoratio Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 24:16; 24:18*\nWejrzyj na mnie Panie i zlituj si\u0119 nade mn\u0105, bo sam jestem i biedny. Zobacz moj\u0105 n\u0119dz\u0119 i utrudzenie, i odpu\u015b\u0107 wszystkie me grzechy.\n*Ps 24:1-2*\nDo Ciebie, Panie, wznosz\u0119 serce moje, Bo\u017ce, m\u00f3j, Tobie ufam, nie zawstydz\u0119 si\u0119.\nChwa\u0142a Ojcu.\nWejrzyj na mnie Panie i zlituj si\u0119 nade mn\u0105, bo sam jestem i biedny. Zobacz moj\u0105 n\u0119dz\u0119 i utrudzenie, i odpu\u015b\u0107 wszystkie me grzechy.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Obro\u0144co ufaj\u0105cych w Tobie, Bo\u017ce, bez kt\u00f3rego nic mocnym, nic \u015bwi\u0119tym nie jest, pomn\u00f3\u017c nad nami mi\u0142osierdzie Twoje, aby\u015bmy Ciebie za rz\u0105dc\u0119 i przewodnika maj\u0105c tak przeszli przez dobra doczesne, by\u015bmy wiecznych nie utracili.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Piotra Aposto\u0142a.\n*1 P 5:6-11*\nNajmilsi: Uni\u017cajcie si\u0119 pod mo\u017cn\u0105 r\u0119k\u0105 Bo\u017c\u0105, aby Was wywy\u017cszy\u0142 w czasie nawiedzenia, sk\u0142adaj\u0105c na\u0144 wszelk\u0105 trosk\u0119 wasz\u0105, bo On ma piecz\u0119 o was. B\u0105d\u017acie wstrzemi\u0119\u017aliwi i czuwajcie, bo wr\u00f3g wasz, szatan, kr\u0105\u017cy jako lew rycz\u0105cy, szukaj\u0105c, kogo by po\u017car\u0142. Opierajcie mu si\u0119 umocnieni w wierze, wiedz\u0105c, \u017ce to samo utrapienie spotyka braci waszych na \u015bwiecie. A B\u00f3g wszelkiej \u0142aski, kt\u00f3ry wezwa\u0142 nas do wiecznej chwa\u0142y swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas. Jemu chwa\u0142a i panowanie na wieki wiek\u00f3w. Amen.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 54:23; 54:17; 54:19*\nPorucz sw\u0105 trosk\u0119 Panu, On sam o tobie mie\u0107 b\u0119dzie piecz\u0119.\nV. Kiedy wo\u0142a\u0142em do Pana, On wys\u0142ucha\u0142 m\u0105 skarg\u0119 przeciw gn\u0119bicielom moim. Alleluja, alleluja.\n*Ps 7:12*\nB\u00f3g jest s\u0119dzi\u0105 sprawiedliwym, mocnym a cierpliwym. Czy\u017c gniewu swego nie wymierza na ka\u017cdy dzie\u0144. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 15:1-10*\nOnego czasu: Zbli\u017cali si\u0119 do Jezusa celnicy i grzesznicy, aby Go s\u0142ucha\u0107. A faryzeusze i uczeni szemrali m\u00f3wi\u0105c: \u00ab\u017be te\u017c ten przyjmuje grzesznik\u00f3w i jada z nimi\u00bb. Powiedzia\u0142 im tedy tak\u0105 przypowie\u015b\u0107, m\u00f3wi\u0105c:\n\u00abCzy jest mi\u0119dzy wami, kto maj\u0105c sto owiec, gdyby straci\u0142 jedn\u0105 z nich, czy\u017c nie pozostawi dziewi\u0119\u0107dziesi\u0119ciu dziewi\u0119ciu na pustyni i nie p\u00f3jdzie za ow\u0105, kt\u00f3ra zgin\u0119\u0142a, dop\u00f3ki jej nie znajdzie? A gdy j\u0105 znajdzie, wk\u0142ada na ramiona swoje, raduj\u0105c si\u0119. I przyszed\u0142szy do domu zwo\u0142uje przyjaci\u00f3\u0142 i s\u0105siad\u00f3w, m\u00f3wi\u0105c im: Radujcie si\u0119 ze mn\u0105, bom znalaz\u0142 owc\u0119 moj\u0105, kt\u00f3ra by\u0142a zgin\u0119\u0142a. Powiadam wam, \u017ce taka b\u0119dzie w niebiesiech rado\u015b\u0107 z jednego grzesznika czyni\u0105cego pokut\u0119, jak z dziewi\u0119\u0107dziesi\u0119ciu dziewi\u0119ciu sprawiedliwych, kt\u00f3rzy pokuty nie potrzebuj\u0105. Albo kt\u00f3ra\u017c niewiasta, maj\u0105ca dziesi\u0119\u0107 drachm, gdyby straci\u0142a drachm\u0119 jedn\u0105, czy\u017c nie zapala \u015bwiecy, nie umiata domu i nie szuka starannie, dop\u00f3ki nie znajdzie? A gdy znajdzie, zwo\u0142uje przyjaci\u00f3\u0142ki i s\u0105siadki m\u00f3wi\u0105c: Radujcie si\u0119 ze mn\u0105 bom znalaz\u0142a drachm\u0119, kt\u00f3r\u0105m straci\u0142a. Tak, powiadam wam, rado\u015b\u0107 b\u0119dzie w\u015br\u00f3d Anio\u0142\u00f3w Bo\u017cych nad jednym grzesznikiem pokut\u0119 czyni\u0105cym\u00bb.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 9:11-12 9:13*\nTobie ufa\u0107 winni wyznawcy Twego Imienia, bo nie opuszczasz Panie szukaj\u0105cych Ciebie. \u015apiewajcie psalm Panu, kt\u00f3ry mieszka na Syjonie, gdy\u017c nie zapomnia\u0142 wo\u0142ania ubogich.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Wejrzyj Panie na b\u0142agania i ofiary Ko\u015bcio\u0142a Twego, nieustannie je u\u015bwi\u0119caj\u0105c u\u017cycz ich jako pokarmu dla zbawienia wiernych.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja o Naj\u015bwi\u0119tszym Sercu Jezusowym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nZ Twojej woli Jednorodzony Syn Tw\u00f3j wisz\u0105cy na krzy\u017cu zosta\u0142 przebity w\u0142\u00f3czni\u0105 \u017co\u0142nierza, aby otwarte Serce, skarbiec Bo\u017cej hojno\u015bci, zlewa\u0142o na nas strumienie zmi\u0142owania i \u0142aski, aby to Serce, kt\u00f3re nigdy nie przesta\u0142o p\u0142on\u0105\u0107 mi\u0142o\u015bci\u0105 ku nam, by\u0142o odpocznieniem dla pobo\u017cnych, a dla pokutuj\u0105cych otwart\u0105 bram\u0105 ucieczki i zbawienia.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*\u0141k 15:10*\nPowiadam wam, i\u017c rado\u015b\u0107 panuje w\u015br\u00f3d Anio\u0142\u00f3w Bo\u017cych nawet z jednego grzesznika czyni\u0105cego pokut\u0119.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Niechaj nas o\u017cywi spo\u017cycie Tych dar\u00f3w \u015bwi\u0119tych, i oczyszczonych niechaj nas przygotuje do otrzymania zmi\u0142owania wiecznego.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 24:16; 24:18*\nWejrzyj na mnie Panie i zlituj si\u0119 nade mn\u0105, bo sam jestem i biedny. Zobacz moj\u0105 n\u0119dz\u0119 i utrudzenie, i odpu\u015b\u0107 wszystkie me grzechy.\n*Ps 24:1-2*\nDo Ciebie, Panie, wznosz\u0119 serce moje, Bo\u017ce, m\u00f3j, Tobie ufam, nie zawstydz\u0119 si\u0119.\nChwa\u0142a Ojcu.\nWejrzyj na mnie Panie i zlituj si\u0119 nade mn\u0105, bo sam jestem i biedny. Zobacz moj\u0105 n\u0119dz\u0119 i utrudzenie, i odpu\u015b\u0107 wszystkie me grzechy.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Obro\u0144co ufaj\u0105cych w Tobie, Bo\u017ce, bez kt\u00f3rego nic mocnym, nic \u015bwi\u0119tym nie jest, pomn\u00f3\u017c nad nami mi\u0142osierdzie Twoje, aby\u015bmy Ciebie za rz\u0105dc\u0119 i przewodnika maj\u0105c tak przeszli przez dobra doczesne, by\u015bmy wiecznych nie utracili.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Piotra Aposto\u0142a.\n*1 P 5:6-11*\nNajmilsi: Uni\u017cajcie si\u0119 pod mo\u017cn\u0105 r\u0119k\u0105 Bo\u017c\u0105, aby Was wywy\u017cszy\u0142 w czasie nawiedzenia, sk\u0142adaj\u0105c na\u0144 wszelk\u0105 trosk\u0119 wasz\u0105, bo On ma piecz\u0119 o was. B\u0105d\u017acie wstrzemi\u0119\u017aliwi i czuwajcie, bo wr\u00f3g wasz, szatan, kr\u0105\u017cy jako lew rycz\u0105cy, szukaj\u0105c, kogo by po\u017car\u0142. Opierajcie mu si\u0119 umocnieni w wierze, wiedz\u0105c, \u017ce to samo utrapienie spotyka braci waszych na \u015bwiecie. A B\u00f3g wszelkiej \u0142aski, kt\u00f3ry wezwa\u0142 nas do wiecznej chwa\u0142y swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas. Jemu chwa\u0142a i panowanie na wieki wiek\u00f3w. Amen.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 54:23; 54:17; 54:19*\nPorucz sw\u0105 trosk\u0119 Panu, On sam o tobie mie\u0107 b\u0119dzie piecz\u0119.\nV. Kiedy wo\u0142a\u0142em do Pana, On wys\u0142ucha\u0142 m\u0105 skarg\u0119 przeciw gn\u0119bicielom moim. Alleluja, alleluja.\n*Ps 7:12*\nB\u00f3g jest s\u0119dzi\u0105 sprawiedliwym, mocnym a cierpliwym. Czy\u017c gniewu swego nie wymierza na ka\u017cdy dzie\u0144. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug \u0141ukasza.\n*\u0141k 15:1-10*\nOnego czasu: Zbli\u017cali si\u0119 do Jezusa celnicy i grzesznicy, aby Go s\u0142ucha\u0107. A faryzeusze i uczeni szemrali m\u00f3wi\u0105c: \u00ab\u017be te\u017c ten przyjmuje grzesznik\u00f3w i jada z nimi\u00bb. Powiedzia\u0142 im tedy tak\u0105 przypowie\u015b\u0107, m\u00f3wi\u0105c:\n\u00abCzy jest mi\u0119dzy wami, kto maj\u0105c sto owiec, gdyby straci\u0142 jedn\u0105 z nich, czy\u017c nie pozostawi dziewi\u0119\u0107dziesi\u0119ciu dziewi\u0119ciu na pustyni i nie p\u00f3jdzie za ow\u0105, kt\u00f3ra zgin\u0119\u0142a, dop\u00f3ki jej nie znajdzie? A gdy j\u0105 znajdzie, wk\u0142ada na ramiona swoje, raduj\u0105c si\u0119. I przyszed\u0142szy do domu zwo\u0142uje przyjaci\u00f3\u0142 i s\u0105siad\u00f3w, m\u00f3wi\u0105c im: Radujcie si\u0119 ze mn\u0105, bom znalaz\u0142 owc\u0119 moj\u0105, kt\u00f3ra by\u0142a zgin\u0119\u0142a. Powiadam wam, \u017ce taka b\u0119dzie w niebiesiech rado\u015b\u0107 z jednego grzesznika czyni\u0105cego pokut\u0119, jak z dziewi\u0119\u0107dziesi\u0119ciu dziewi\u0119ciu sprawiedliwych, kt\u00f3rzy pokuty nie potrzebuj\u0105. Albo kt\u00f3ra\u017c niewiasta, maj\u0105ca dziesi\u0119\u0107 drachm, gdyby straci\u0142a drachm\u0119 jedn\u0105, czy\u017c nie zapala \u015bwiecy, nie umiata domu i nie szuka starannie, dop\u00f3ki nie znajdzie? A gdy znajdzie, zwo\u0142uje przyjaci\u00f3\u0142ki i s\u0105siadki m\u00f3wi\u0105c: Radujcie si\u0119 ze mn\u0105 bom znalaz\u0142a drachm\u0119, kt\u00f3r\u0105m straci\u0142a. Tak, powiadam wam, rado\u015b\u0107 b\u0119dzie w\u015br\u00f3d Anio\u0142\u00f3w Bo\u017cych nad jednym grzesznikiem pokut\u0119 czyni\u0105cym\u00bb.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 9:11-12 9:13*\nTobie ufa\u0107 winni wyznawcy Twego Imienia, bo nie opuszczasz Panie szukaj\u0105cych Ciebie. \u015apiewajcie psalm Panu, kt\u00f3ry mieszka na Syjonie, gdy\u017c nie zapomnia\u0142 wo\u0142ania ubogich.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Wejrzyj Panie na b\u0142agania i ofiary Ko\u015bcio\u0142a Twego, nieustannie je u\u015bwi\u0119caj\u0105c u\u017cycz ich jako pokarmu dla zbawienia wiernych.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja o Naj\u015bwi\u0119tszym Sercu Jezusowym*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015bwi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce:\nZ Twojej woli Jednorodzony Syn Tw\u00f3j wisz\u0105cy na krzy\u017cu zosta\u0142 przebity w\u0142\u00f3czni\u0105 \u017co\u0142nierza, aby otwarte Serce, skarbiec Bo\u017cej hojno\u015bci, zlewa\u0142o na nas strumienie zmi\u0142owania i \u0142aski, aby to Serce, kt\u00f3re nigdy nie przesta\u0142o p\u0142on\u0105\u0107 mi\u0142o\u015bci\u0105 ku nam, by\u0142o odpocznieniem dla pobo\u017cnych, a dla pokutuj\u0105cych otwart\u0105 bram\u0105 ucieczki i zbawienia.\nPrzeto z Anio\u0142ami i Archanio\u0142ami, z Tronami i Pa\u0144stwami oraz ze wszystkimi hufcami wojska niebieskiego \u015bpiewamy hymn ku Twej chwale, wo\u0142aj\u0105c bez ko\u0144ca:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*\u0141k 15:10*\nPowiadam wam, i\u017c rado\u015b\u0107 panuje w\u015br\u00f3d Anio\u0142\u00f3w Bo\u017cych nawet z jednego grzesznika czyni\u0105cego pokut\u0119.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Niechaj nas o\u017cywi spo\u017cycie Tych dar\u00f3w \u015bwi\u0119tych, i oczyszczonych niechaj nas przygotuje do otrzymania zmi\u0142owania wiecznego.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]

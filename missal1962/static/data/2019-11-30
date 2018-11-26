@@ -1,116 +1,118 @@
-{
-  "info": {
-    "additional_info": [
-      "2 klasy", 
-      "Szaty czerwone"
+[
+  {
+    "info": {
+      "additional_info": [
+        "2 klasy", 
+        "Szaty czerwone"
+      ], 
+      "date": "2019-11-30", 
+      "description": "Uczniowie Jana Chrzciciela, Andrzej i Jan, pierwsi z Aposto\u0142\u00f3w spotkali Chrystusa nad jeziorem. Nied\u0142ugo potem Andrzej zosta\u0142 powo\u0142any do grona uczni\u00f3w Chrystusa razem ze swoim bratem Piotrem i obaj otrzymali zapowied\u017a, \u017ce stan\u0105 si\u0119 rybakami ludzi. Wed\u0142ug tradycji \u015bw. Andrzej zosta\u0142 ukrzy\u017cowany w Achai. Na widok krzy\u017ca mia\u0142 zawo\u0142a\u0107: \u201eO, dobry krzy\u017cu, od dawna upragniony, we\u017a mnie od ludzi i zwr\u00f3\u0107 mnie mojemu Mistrzowi\u201d! Relikwie \u015bw. Andrzeja spoczywaj\u0105 w Amalfi.\n", 
+      "tempora": "Sobota po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
+      "title": "\u015aw. Andrzeja, Aposto\u0142a"
+    }, 
+    "proper_latin": [
+      {
+        "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.", 
+        "id": "Introitus", 
+        "label": "Introitus"
+      }, 
+      {
+        "body": "Majest\u00e1tem tuam, D\u00f3mine, suppl\u00edciter exor\u00e1mus: ut, sicut Eccl\u00e9si\u00e6 tu\u00e6 be\u00e1tus Andr\u00e9as Ap\u00f3stolus \u00e9xstitit pr\u00e6dic\u00e1tor et rector; ita apud te sit pro nobis perp\u00e9tuus interc\u00e9ssor.\nPer Dominum.", 
+        "id": "Oratio", 
+        "label": "Oratio"
+      }, 
+      {
+        "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 10:10-18*\nFratres: Corde enim cr\u00e9ditur ad just\u00edtiam: ore autem conf\u00e9ssio fit ad sal\u00fatem. Dicit enim Script\u00fara: Omnis, qui credit in illum, non confund\u00e9tur. Non enim est dist\u00ednctio Judaei et Gr\u00e6ci: nam idem D\u00f3minus \u00f3mnium, dives in omnes, qui \u00ednvocant illum. Omnis enim, quic\u00famque invoc\u00e1verit nomen D\u00f3mini, salvus erit. Qu\u00f3modo ergo invoc\u00e1bunt, in quem non credid\u00e9runt? Aut qu\u00f3modo credent ei, quem non audi\u00e9runt? Qu\u00f3modo autem \u00e1udient sine pr\u00e6dic\u00e1nte? Qu\u00f3modo vero pr\u00e6dic\u00e1bunt, nisi mitt\u00e1ntur? sicut scriptum est: Quam speci\u00f3si pedes evangeliz\u00e1ntium pacem, evangeliz\u00e1ndum bona! Sed non omnes oboediunt Evangelio. Isa\u00edas enim dicit: D\u00f3mine, quis cr\u00e9didit aud\u00edtui nostro? Ergo fides ex aud\u00edtu, aud\u00edtus autem per verbum Christi. Sed dico: Numquid non audi\u00e9runt? Et quidem in omnem terram ex\u00edvit sonus e\u00f3rum, et in fines orbis terr\u00e6 verba e\u00f3rum.", 
+        "id": "Lectio", 
+        "label": "Lectio"
+      }, 
+      {
+        "body": "*Ps 44:17-18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja.\nV. Dil\u00e9xit Andr\u00e9am D\u00f3minus in od\u00f3rem suavit\u00e1tis. Allel\u00faja.", 
+        "id": "Graduale", 
+        "label": "Graduale"
+      }, 
+      {
+        "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 4:18-22*\nIn illo t\u00e9mpore: Ambulans Jesus juxta mare Galilae\u00e6, vidit duos fratres, Sim\u00f3nem, qui voc\u00e1tur Petrus, et Andr\u00e9am fratrem ejus, mitt\u00e9ntes rete in mare - erant enim piscat\u00f3res -  et ait illis: Ven\u00edte post me, et f\u00e1ciam vos f\u00ederi piscat\u00f3res h\u00f3minum. At illi cont\u00ednuo, rel\u00edctis r\u00e9tibus, sec\u00fati sunt eum. Et proc\u00e9dens inde, vidit \u00e1lios duos fratres, Jac\u00f3bum Zebedaei et Jo\u00e1nnem, fratrem ejus, in navi cum Zebedaeo patre e\u00f3rum refici\u00e9ntes r\u00e9tia sua: et voc\u00e1vit eos. Illi autem statim, rel\u00edctis r\u00e9tibus et patre, sec\u00fati sunt eum.", 
+        "id": "Evangelium", 
+        "label": "Evangelium"
+      }, 
+      {
+        "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
+        "id": "Offertorium", 
+        "label": "Offertorium"
+      }, 
+      {
+        "body": "Sacrificium nostrum tibi, D\u00f3mine, qu\u01fdsumus, be\u00e1ti Andr\u00e9\u00e6 Ap\u00f3stoli prec\u00e1tio sancta conc\u00edliet: ut, in cujus hon\u00f3re soll\u00e9mniter exhib\u00e9tur, ejus m\u00e9ritis effici\u00e1tur acc\u00e9ptum.\nPer Dominum.", 
+        "id": "Secreta", 
+        "label": "Secreta"
+      }, 
+      {
+        "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
+        "id": "Prefatio", 
+        "label": "Prefatio"
+      }, 
+      {
+        "body": "*Matt 4:19-20*\nVen\u00edte post me: f\u00e1ciam vos f\u00ederi piscat\u00f3res h\u00f3minum; at illi cont\u00ednuo, rel\u00edctis r\u00e9tibus, sec\u00fati sunt D\u00f3minum.", 
+        "id": "Communio", 
+        "label": "Communio"
+      }, 
+      {
+        "body": "S\u00fampsimus, D\u00f3mine, div\u00edna myst\u00e9ria, be\u00e1ti Andr\u00e9\u00e6 Ap\u00f3stoli festivit\u00e1te l\u00e6t\u00e1ntes: qu\u00e6, sicut tuis Sanctis ad gl\u00f3riam, ita nobis, qu\u01fdsumus, ad v\u00e9niam prod\u00e9sse perf\u00edcias.\nPer Dominum.", 
+        "id": "Postcommunio", 
+        "label": "Postcommunio"
+      }
     ], 
-    "date": "2019-11-30", 
-    "description": "Uczniowie Jana Chrzciciela, Andrzej i Jan, pierwsi z Aposto\u0142\u00f3w spotkali Chrystusa nad jeziorem. Nied\u0142ugo potem Andrzej zosta\u0142 powo\u0142any do grona uczni\u00f3w Chrystusa razem ze swoim bratem Piotrem i obaj otrzymali zapowied\u017a, \u017ce stan\u0105 si\u0119 rybakami ludzi. Wed\u0142ug tradycji \u015bw. Andrzej zosta\u0142 ukrzy\u017cowany w Achai. Na widok krzy\u017ca mia\u0142 zawo\u0142a\u0107: \u201eO, dobry krzy\u017cu, od dawna upragniony, we\u017a mnie od ludzi i zwr\u00f3\u0107 mnie mojemu Mistrzowi\u201d! Relikwie \u015bw. Andrzeja spoczywaj\u0105 w Amalfi.\n", 
-    "tempora": "Sobota po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego", 
-    "title": "\u015aw. Andrzeja, Aposto\u0142a"
-  }, 
-  "proper_latin": [
-    {
-      "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.\n*Ps 138:1-2*\nD\u00f3mine, prob\u00e1sti me et cognov\u00edsti me: tu cognov\u00edsti sessi\u00f3nem meam et resurrecti\u00f3nem meam.\nGl\u00f3ria Patri.\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est principatus e\u00f3rum.", 
-      "id": "Introitus", 
-      "label": "Introitus"
-    }, 
-    {
-      "body": "Majest\u00e1tem tuam, D\u00f3mine, suppl\u00edciter exor\u00e1mus: ut, sicut Eccl\u00e9si\u00e6 tu\u00e6 be\u00e1tus Andr\u00e9as Ap\u00f3stolus \u00e9xstitit pr\u00e6dic\u00e1tor et rector; ita apud te sit pro nobis perp\u00e9tuus interc\u00e9ssor.\nPer Dominum.", 
-      "id": "Oratio", 
-      "label": "Oratio"
-    }, 
-    {
-      "body": "L\u00e9ctio Ep\u00edstol\u00e6 be\u00e1ti Pauli Ap\u00f3stoli ad Rom\u00e1nos.\n*Rom 10:10-18*\nFratres: Corde enim cr\u00e9ditur ad just\u00edtiam: ore autem conf\u00e9ssio fit ad sal\u00fatem. Dicit enim Script\u00fara: Omnis, qui credit in illum, non confund\u00e9tur. Non enim est dist\u00ednctio Judaei et Gr\u00e6ci: nam idem D\u00f3minus \u00f3mnium, dives in omnes, qui \u00ednvocant illum. Omnis enim, quic\u00famque invoc\u00e1verit nomen D\u00f3mini, salvus erit. Qu\u00f3modo ergo invoc\u00e1bunt, in quem non credid\u00e9runt? Aut qu\u00f3modo credent ei, quem non audi\u00e9runt? Qu\u00f3modo autem \u00e1udient sine pr\u00e6dic\u00e1nte? Qu\u00f3modo vero pr\u00e6dic\u00e1bunt, nisi mitt\u00e1ntur? sicut scriptum est: Quam speci\u00f3si pedes evangeliz\u00e1ntium pacem, evangeliz\u00e1ndum bona! Sed non omnes oboediunt Evangelio. Isa\u00edas enim dicit: D\u00f3mine, quis cr\u00e9didit aud\u00edtui nostro? Ergo fides ex aud\u00edtu, aud\u00edtus autem per verbum Christi. Sed dico: Numquid non audi\u00e9runt? Et quidem in omnem terram ex\u00edvit sonus e\u00f3rum, et in fines orbis terr\u00e6 verba e\u00f3rum.", 
-      "id": "Lectio", 
-      "label": "Lectio"
-    }, 
-    {
-      "body": "*Ps 44:17-18*\nConst\u00edtues eos pr\u00edncipes super omnem terram: m\u00e9mores erunt n\u00f3minis tui, D\u00f3mine.\nV. Pro p\u00e1tribus tuis nati sunt tibi f\u00edlii: propt\u00e9rea p\u00f3puli confiteb\u00fantur tibi. Allel\u00faja, allel\u00faja.\nV. Dil\u00e9xit Andr\u00e9am D\u00f3minus in od\u00f3rem suavit\u00e1tis. Allel\u00faja.", 
-      "id": "Graduale", 
-      "label": "Graduale"
-    }, 
-    {
-      "body": "Sequ\u00e9ntia \u2629 sancti Evang\u00e9lii sec\u00fandum Matth\u01fdum.\n*Matt 4:18-22*\nIn illo t\u00e9mpore: Ambulans Jesus juxta mare Galilae\u00e6, vidit duos fratres, Sim\u00f3nem, qui voc\u00e1tur Petrus, et Andr\u00e9am fratrem ejus, mitt\u00e9ntes rete in mare - erant enim piscat\u00f3res -  et ait illis: Ven\u00edte post me, et f\u00e1ciam vos f\u00ederi piscat\u00f3res h\u00f3minum. At illi cont\u00ednuo, rel\u00edctis r\u00e9tibus, sec\u00fati sunt eum. Et proc\u00e9dens inde, vidit \u00e1lios duos fratres, Jac\u00f3bum Zebedaei et Jo\u00e1nnem, fratrem ejus, in navi cum Zebedaeo patre e\u00f3rum refici\u00e9ntes r\u00e9tia sua: et voc\u00e1vit eos. Illi autem statim, rel\u00edctis r\u00e9tibus et patre, sec\u00fati sunt eum.", 
-      "id": "Evangelium", 
-      "label": "Evangelium"
-    }, 
-    {
-      "body": "*Ps 138:17*\nMihi autem nimis honor\u00e1ti sunt am\u00edci tui, Deus: nimis confort\u00e1tus est princip\u00e1tus e\u00f3rum.", 
-      "id": "Offertorium", 
-      "label": "Offertorium"
-    }, 
-    {
-      "body": "Sacrificium nostrum tibi, D\u00f3mine, qu\u01fdsumus, be\u00e1ti Andr\u00e9\u00e6 Ap\u00f3stoli prec\u00e1tio sancta conc\u00edliet: ut, in cujus hon\u00f3re soll\u00e9mniter exhib\u00e9tur, ejus m\u00e9ritis effici\u00e1tur acc\u00e9ptum.\nPer Dominum.", 
-      "id": "Secreta", 
-      "label": "Secreta"
-    }, 
-    {
-      "body": "*Communis*\nVere dignum et justum est, \u00e6quum et salut\u00e1re, nos tibi semper et ub\u00edque gr\u00e1tias agere: D\u00f3mine sancte, Pater omn\u00edpotens, \u00e6t\u00e9rne Deus: per Christum, D\u00f3minum nostrum. Per quem majest\u00e1tem tuam laudant Angeli, ad\u00f3rant Dominati\u00f3nes, tremunt Potest\u00e1tes. Coeli coelor\u00famque Virt\u00fates ac be\u00e1ta S\u00e9raphim s\u00f3cia exsultati\u00f3ne conc\u00e9lebrant. Cum quibus et nostras voces ut admitti jubeas, deprec\u00e1mur, s\u00fapplici confessione dic\u00e9ntes:", 
-      "id": "Prefatio", 
-      "label": "Prefatio"
-    }, 
-    {
-      "body": "*Matt 4:19-20*\nVen\u00edte post me: f\u00e1ciam vos f\u00ederi piscat\u00f3res h\u00f3minum; at illi cont\u00ednuo, rel\u00edctis r\u00e9tibus, sec\u00fati sunt D\u00f3minum.", 
-      "id": "Communio", 
-      "label": "Communio"
-    }, 
-    {
-      "body": "S\u00fampsimus, D\u00f3mine, div\u00edna myst\u00e9ria, be\u00e1ti Andr\u00e9\u00e6 Ap\u00f3stoli festivit\u00e1te l\u00e6t\u00e1ntes: qu\u00e6, sicut tuis Sanctis ad gl\u00f3riam, ita nobis, qu\u01fdsumus, ad v\u00e9niam prod\u00e9sse perf\u00edcias.\nPer Dominum.", 
-      "id": "Postcommunio", 
-      "label": "Postcommunio"
-    }
-  ], 
-  "proper_vernacular": [
-    {
-      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znacz; Ty wiesz o moim spoczynku i o mym powstaniu\nChwa\u0142a Ojcu.\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
-      "id": "Introitus", 
-      "label": "Introit"
-    }, 
-    {
-      "body": "Panie, pokornie b\u0142agamy Tw\u00f3j majestat, aby \u015bwi\u0119ty Andrzej, Aposto\u0142, kt\u00f3ry by\u0142 nauczycielem i przewodnikiem Twojego Ko\u015bcio\u0142a, nieustannie wstawia\u0142 si\u0119 za nami u Ciebie.\nPrzez Pana.", 
-      "id": "Oratio", 
-      "label": "Kolekta"
-    }, 
-    {
-      "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 10:10-18*\nBracia: Bo sercem przyj\u0119ta wiara prowadzi do usprawiedliwienia, a wyznawanie jej ustami - do zbawienia. Wszak m\u00f3wi Pismo: \u017baden, kto wierzy w Niego, nie b\u0119dzie zawstydzony. Nie ma ju\u017c r\u00f3\u017cnicy mi\u0119dzy \u017bydem a Grekiem. Jeden jest bowiem Pan wszystkich. On to rozdziela swe bogactwa wszystkim, kt\u00f3rzy Go wzywaj\u0105. Albowiem ka\u017cdy, kto wezwie imienia Pa\u0144skiego, b\u0119dzie zbawiony. Jak\u017ce wi\u0119c mieli wzywa\u0107 Tego, w kt\u00f3rego nie uwierzyli? Jak\u017ce mieli uwierzy\u0107 w Tego, kt\u00f3rego nie s\u0142yszeli? Jak\u017ce mieli us\u0142ysze\u0107, gdy im nikt nie g\u0142osi\u0142? Jak\u017ce mogliby im g\u0142osi\u0107, je\u015bliby nie zostali pos\u0142ani? Jak to jest napisane: Jak pi\u0119kne stopy tych, kt\u00f3rzy zwiastuj\u0105 dobr\u0105 nowin\u0119! Ale nie wszyscy dali pos\u0142uch Ewangelii. Izajasz bowiem m\u00f3wi: Panie, kt\u00f3\u017c uwierzy\u0142 temu, co od nas pos\u0142ysza\u0142? Przeto wiara rodzi si\u0119 z tego, co si\u0119 s\u0142yszy, tym za\u015b, co si\u0119 s\u0142yszy, jest s\u0142owo Chrystusa. Pytam wi\u0119c: czy mo\u017ce nie s\u0142yszeli? Ale\u017c tak: Po ca\u0142ej ziemi rozszed\u0142 si\u0119 ich g\u0142os, a\u017c na kra\u0144ce \u015bwiata ich s\u0142owa.", 
-      "id": "Lectio", 
-      "label": "Lekcja"
-    }, 
-    {
-      "body": "*Ps 44:17-18*\nUstanowisz ich ksi\u0105\u017c\u0119tami po ca\u0142ej ziemi: g\u0142osi\u0107 b\u0119d\u0105 Twe imi\u0119, o Panie.\nV. Synowie twoi zajm\u0105 miejsce twoich ojc\u00f3w: dlatego po wiek wiek\u00f3w b\u0119d\u0105 Ci\u0119 s\u0142awi\u0107 wszystkie ludy. Alleluja, alleluja.\nV. Andrzej by\u0142 mi\u0142y Panu jak wonna ofiara. Alleluja.", 
-      "id": "Graduale", 
-      "label": "Gradua\u0142"
-    }, 
-    {
-      "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 4:18-22*\nGdy (Jezus) przechodzi\u0142 obok Jeziora Galilejskiego, ujrza\u0142 dw\u00f3ch braci: Szymona, zwanego Piotrem, i brata jego, Andrzeja, jak zarzucali sie\u0107 w jezioro; byli bowiem rybakami. I rzek\u0142 do nich: \u00abP\u00f3jd\u017acie za Mn\u0105, a uczyni\u0119 was rybakami ludzi\u00bb. Oni natychmiast zostawili sieci i poszli za Nim. A gdy poszed\u0142 stamt\u0105d dalej, ujrza\u0142 innych dw\u00f3ch braci: Jakuba, syna Zebedeusza, i brata jego, Jana, jak z ojcem swym Zebedeuszem naprawiali w \u0142odzi swe sieci. Ich te\u017c powo\u0142a\u0142. A oni natychmiast zostawili \u0142\u00f3d\u017a i ojca i poszli za Nim.", 
-      "id": "Evangelium", 
-      "label": "Ewangelia"
-    }, 
-    {
-      "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce: na zawsze jest utrwalone ich w\u0142adanie.", 
-      "id": "Offertorium", 
-      "label": "Antyfona na Ofiarowanie"
-    }, 
-    {
-      "body": "Prosimy Ci\u0119, Panie, niech modlitwa \u015bw. Andrzeja, Aposto\u0142a, poleci Tobie nasz\u0105 ofiar\u0119, aby uroczy\u015bcie sk\u0142adana ku jego chwale, zosta\u0142a przyj\u0119ta przez jego zas\u0142ugi.\nPrzez Pana.", 
-      "id": "Secreta", 
-      "label": "Sekreta"
-    }, 
-    {
-      "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
-      "id": "Prefatio", 
-      "label": "Prefacja"
-    }, 
-    {
-      "body": "*Mt 4:19-20*\nP\u00f3jd\u017acie za mn\u0105, a sprawi\u0119, \u017ce staniecie si\u0119 rybakami ludzi. A oni natychmiast opu\u015bciwszy sieci poszli za Panem.", 
-      "id": "Communio", 
-      "label": "Antyfona na Komuni\u0119"
-    }, 
-    {
-      "body": "Ciesz\u0105c si\u0119 z uroczysto\u015bci \u015bw. Andrzeja, Aposto\u0142a, przyj\u0119li\u015bmy, Panie, Boski Sakrament; prosimy, aby pomno\u017cy\u0142 on chwa\u0142\u0119 Twoich \u015awi\u0119tych, a nam przyni\u00f3s\u0142 przebaczenie.\nPrzez Pana.", 
-      "id": "Postcommunio", 
-      "label": "Pokomunia"
-    }
-  ]
-}
+    "proper_vernacular": [
+      {
+        "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.\n*Ps 138:1-2*\nPanie, Ty mnie przenikasz i znacz; Ty wiesz o moim spoczynku i o mym powstaniu\nChwa\u0142a Ojcu.\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce; na zawsze jest utrwalone ich w\u0142adanie.", 
+        "id": "Introitus", 
+        "label": "Introit"
+      }, 
+      {
+        "body": "Panie, pokornie b\u0142agamy Tw\u00f3j majestat, aby \u015bwi\u0119ty Andrzej, Aposto\u0142, kt\u00f3ry by\u0142 nauczycielem i przewodnikiem Twojego Ko\u015bcio\u0142a, nieustannie wstawia\u0142 si\u0119 za nami u Ciebie.\nPrzez Pana.", 
+        "id": "Oratio", 
+        "label": "Kolekta"
+      }, 
+      {
+        "body": "Czytanie z Listu \u015bwi\u0119tego Paw\u0142a Aposto\u0142a do Rzymian.\n*Rz 10:10-18*\nBracia: Bo sercem przyj\u0119ta wiara prowadzi do usprawiedliwienia, a wyznawanie jej ustami - do zbawienia. Wszak m\u00f3wi Pismo: \u017baden, kto wierzy w Niego, nie b\u0119dzie zawstydzony. Nie ma ju\u017c r\u00f3\u017cnicy mi\u0119dzy \u017bydem a Grekiem. Jeden jest bowiem Pan wszystkich. On to rozdziela swe bogactwa wszystkim, kt\u00f3rzy Go wzywaj\u0105. Albowiem ka\u017cdy, kto wezwie imienia Pa\u0144skiego, b\u0119dzie zbawiony. Jak\u017ce wi\u0119c mieli wzywa\u0107 Tego, w kt\u00f3rego nie uwierzyli? Jak\u017ce mieli uwierzy\u0107 w Tego, kt\u00f3rego nie s\u0142yszeli? Jak\u017ce mieli us\u0142ysze\u0107, gdy im nikt nie g\u0142osi\u0142? Jak\u017ce mogliby im g\u0142osi\u0107, je\u015bliby nie zostali pos\u0142ani? Jak to jest napisane: Jak pi\u0119kne stopy tych, kt\u00f3rzy zwiastuj\u0105 dobr\u0105 nowin\u0119! Ale nie wszyscy dali pos\u0142uch Ewangelii. Izajasz bowiem m\u00f3wi: Panie, kt\u00f3\u017c uwierzy\u0142 temu, co od nas pos\u0142ysza\u0142? Przeto wiara rodzi si\u0119 z tego, co si\u0119 s\u0142yszy, tym za\u015b, co si\u0119 s\u0142yszy, jest s\u0142owo Chrystusa. Pytam wi\u0119c: czy mo\u017ce nie s\u0142yszeli? Ale\u017c tak: Po ca\u0142ej ziemi rozszed\u0142 si\u0119 ich g\u0142os, a\u017c na kra\u0144ce \u015bwiata ich s\u0142owa.", 
+        "id": "Lectio", 
+        "label": "Lekcja"
+      }, 
+      {
+        "body": "*Ps 44:17-18*\nUstanowisz ich ksi\u0105\u017c\u0119tami po ca\u0142ej ziemi: g\u0142osi\u0107 b\u0119d\u0105 Twe imi\u0119, o Panie.\nV. Synowie twoi zajm\u0105 miejsce twoich ojc\u00f3w: dlatego po wiek wiek\u00f3w b\u0119d\u0105 Ci\u0119 s\u0142awi\u0107 wszystkie ludy. Alleluja, alleluja.\nV. Andrzej by\u0142 mi\u0142y Panu jak wonna ofiara. Alleluja.", 
+        "id": "Graduale", 
+        "label": "Gradua\u0142"
+      }, 
+      {
+        "body": "Ci\u0105g dalszy \u2629 Ewangelii \u015bwi\u0119tej wed\u0142ug Mateusza.\n*Mt 4:18-22*\nGdy (Jezus) przechodzi\u0142 obok Jeziora Galilejskiego, ujrza\u0142 dw\u00f3ch braci: Szymona, zwanego Piotrem, i brata jego, Andrzeja, jak zarzucali sie\u0107 w jezioro; byli bowiem rybakami. I rzek\u0142 do nich: \u00abP\u00f3jd\u017acie za Mn\u0105, a uczyni\u0119 was rybakami ludzi\u00bb. Oni natychmiast zostawili sieci i poszli za Nim. A gdy poszed\u0142 stamt\u0105d dalej, ujrza\u0142 innych dw\u00f3ch braci: Jakuba, syna Zebedeusza, i brata jego, Jana, jak z ojcem swym Zebedeuszem naprawiali w \u0142odzi swe sieci. Ich te\u017c powo\u0142a\u0142. A oni natychmiast zostawili \u0142\u00f3d\u017a i ojca i poszli za Nim.", 
+        "id": "Evangelium", 
+        "label": "Ewangelia"
+      }, 
+      {
+        "body": "*Ps 138:17*\nOgromnie zaszczyceni s\u0105 w oczach moich przyjaciele Twoi, Bo\u017ce: na zawsze jest utrwalone ich w\u0142adanie.", 
+        "id": "Offertorium", 
+        "label": "Antyfona na Ofiarowanie"
+      }, 
+      {
+        "body": "Prosimy Ci\u0119, Panie, niech modlitwa \u015bw. Andrzeja, Aposto\u0142a, poleci Tobie nasz\u0105 ofiar\u0119, aby uroczy\u015bcie sk\u0142adana ku jego chwale, zosta\u0142a przyj\u0119ta przez jego zas\u0142ugi.\nPrzez Pana.", 
+        "id": "Secreta", 
+        "label": "Sekreta"
+      }, 
+      {
+        "body": "*Prefacja zwyk\u0142a*\nZaprawd\u0119 godne to i sprawiedliwe, s\u0142uszne i zbawienne, aby\u015bmy zawsze i wsz\u0119dzie Tobie sk\u0142adali dzi\u0119kczynienie, Panie, Ojcze \u015awi\u0119ty, wszechmog\u0105cy, wieczny Bo\u017ce, przez Chrystusa, Pana naszego. Przez Niego Tw\u00f3j majestat chwal\u0105 Anio\u0142owie, uwielbiaj\u0105 Pa\u0144stwa, z l\u0119kiem czcz\u0105 Pot\u0119gi, Niebiosa i Moce niebios oraz b\u0142ogos\u0142awieni Serafini we wsp\u00f3lnej wys\u0142awiaj\u0105 rado\u015bci. Z nimi to, prosimy, dozw\u00f3l i naszym g\u0142osom wo\u0142a\u0107 w pokornym uwielbieniu:", 
+        "id": "Prefatio", 
+        "label": "Prefacja"
+      }, 
+      {
+        "body": "*Mt 4:19-20*\nP\u00f3jd\u017acie za mn\u0105, a sprawi\u0119, \u017ce staniecie si\u0119 rybakami ludzi. A oni natychmiast opu\u015bciwszy sieci poszli za Panem.", 
+        "id": "Communio", 
+        "label": "Antyfona na Komuni\u0119"
+      }, 
+      {
+        "body": "Ciesz\u0105c si\u0119 z uroczysto\u015bci \u015bw. Andrzeja, Aposto\u0142a, przyj\u0119li\u015bmy, Panie, Boski Sakrament; prosimy, aby pomno\u017cy\u0142 on chwa\u0142\u0119 Twoich \u015awi\u0119tych, a nam przyni\u00f3s\u0142 przebaczenie.\nPrzez Pana.", 
+        "id": "Postcommunio", 
+        "label": "Pokomunia"
+      }
+    ]
+  }
+]
