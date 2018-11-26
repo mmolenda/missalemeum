@@ -20,12 +20,14 @@ $(document).ready(function()    {
     const templateContentIntro = $("#template-content-intro").text();
     const templateContentColumns = $("#template-content-columns").text();
     const templateContentPrint = $("#template-content-print").text();
+
     const $window = $(window);
+    const $wrapper = $("div.wrapper");
+    const $sidebar = $("nav#sidebar");
+    const $main = $("main");
+    const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
-    const $sidebar = $("nav#sidebar");
-    const $sidebarAndContent = $("#sidebar, #content");
-    const $wrapper = $("div.wrapper");
     const $buttonCalendar = $("button#sidebar-collapse");
 
     function init() {
@@ -137,8 +139,7 @@ $(document).ready(function()    {
      **/
     function loadProper(date) {
         $.getJSON( config.dateEndpoint + date, function( data ) {
-            let main = $("main");
-            main.empty();
+            $main.empty();
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
@@ -161,7 +162,7 @@ $(document).ready(function()    {
                     title: title,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
-                })).appendTo(main);
+                })).appendTo($main);
 
                 $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
                     // replacing all surrounding asterisks with surrounding <em>s in body
@@ -180,7 +181,7 @@ $(document).ready(function()    {
                         sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
                         labelLatin: sectionLatin.label,
                         sectionLatin: sectionLatin.body.split("\n").join("<br />")
-                    })).appendTo(main);
+                    })).appendTo($main);
                 }
             });
             toggleSidebarItem(date);
@@ -280,15 +281,26 @@ $(document).ready(function()    {
     });
 
     /**
-     * .. and on swipe
+     * .. and on swipe ..
      **/
     let sidebarTouchXPos = 0;
     $wrapper.on("touchstart", function (e) {
         sidebarTouchXPos = e.originalEvent.touches[0].pageX;
     }).on("touchend", function (e) {
-        if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
-            (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && ! $sidebarAndContent.hasClass("active"))) {
-            $sidebarAndContent.toggleClass("active");
+        if (navbarIsCollapsed()) {
+            if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
+                (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && !$sidebarAndContent.hasClass("active"))) {
+                $sidebarAndContent.toggleClass("active");
+            }
+        }
+    });
+
+    /**
+     * .. and close it on touch in the main area in small view
+     **/
+    $main.on("touchstart", function (e) {
+        if (navbarIsCollapsed()) {
+            $sidebarAndContent.removeClass("active");
         }
     });
 
@@ -333,7 +345,7 @@ $(document).ready(function()    {
 
     $("#print").on("click", function () {
         let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate(templateContentPrint, {main: $("main").html()});
+        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();
