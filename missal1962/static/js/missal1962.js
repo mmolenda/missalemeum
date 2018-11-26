@@ -25,6 +25,8 @@ $(document).ready(function()    {
     const $searchInput = $("input#search-input");
     const $sidebar = $("nav#sidebar");
     const $sidebarAndContent = $("#sidebar, #content");
+    const $wrapper = $("div.wrapper");
+    const $buttonCalendar = $("button#sidebar-collapse");
 
     function init() {
         moment.locale("pl");
@@ -67,6 +69,10 @@ $(document).ready(function()    {
         let parsedTpl = template.split(/\$\{(.+?)\}/g);
         return parsedTpl.map(_render(data)).join('');
 
+    }
+
+    function navbarIsCollapsed() {
+        return $buttonCalendar.is(":visible");
     }
 
     /**
@@ -179,6 +185,9 @@ $(document).ready(function()    {
             });
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
+            if (navbarIsCollapsed()) {
+                $sidebarAndContent.removeClass("active");
+            }
         });
     }
 
@@ -274,10 +283,11 @@ $(document).ready(function()    {
      * .. and on swipe
      **/
     let sidebarTouchXPos = 0;
-    $sidebar.on("touchstart", function (e) {
+    $wrapper.on("touchstart", function (e) {
         sidebarTouchXPos = e.originalEvent.touches[0].pageX;
     }).on("touchend", function (e) {
-        if (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 30) {
+        if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
+            (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && ! $sidebarAndContent.hasClass("active"))) {
             $sidebarAndContent.toggleClass("active");
         }
     });
