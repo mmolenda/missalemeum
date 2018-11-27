@@ -1,32 +1,200 @@
 [
-  {"title": "Aspersja",
-   "body": [
-    "Przed Mszą uroczystą następuje aspersja. Kapłan przechodzi przez kościół i kropi wiernych wodą święconą. Wszyscy śpiewają antyfonę Asperges Me.",
-    [
-      "*Ps 50:9*\nPokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.\n*Ps 50:3*\nZmiłuj się nade mną, Boże, według wielkiego miłosierdzia Twego.\nV. Chwała Ojcu, i Synowi i Duchowi Świętemu.\nR. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.\nPokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.",
-      "*Ps 50:9*\nAsperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor.\n*Ps 50:3*\nMiserere mei, Deus, secundum magnam misericordiam tuam.\nV. Gloria Patri, et Filio, et Spiritui Sancto.\nR. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.\nAsperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor."
-    ],
-    "W Okresie Wielkanocnym zamiast Asperges Me śpiewa się antyfonę Vidi Aquam.",
-    [
-      "*Ez 47:1-2; 47:9*\nWidziałem wodę wychodzącą z boku prawego świątyni, alleluja. A wszyscy, których doszła woda owa, są zbawieni i mówić będą: alleluja, alleluja.\n*Ps 135:1*\nWyznawajcie Pana, bo dobry, bo na wieki miłosierdzie Jego.\nV. Chwała Ojcu, i Synowi i Duchowi Świętemu.\nR. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.\nWidziałem wodę wychodzącą z boku prawego świątyni, alleluja. A wszyscy, których doszła woda owa, są zbawieni i mówić będą: alleluja, alleluja.",
-      "*Ez 47:1-2; 47:9*\nVidi aquam egredientem de templo, a latere dextro, alleluia: et omnes, ad quos pervenit aqua ista, salvi facti sunt, et dicent, alleluia, alleluia.\n*Ps 135:1*\nConfitemini Domino quoniam bonus: Quoniam in saeculum misericordia eius.\nV. Gloria Patri, et Filio, et Spiritui Sancto.\nR. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.\nVidi aquam egredientem de templo, a latere dextro, alleluia: et omnes, ad quos pervenit aqua ista, salvi facti sunt, et dicent, alleluia, alleluia."
-    ],
-    [
-      "V. Okaż nam, Panie, miłosierdzie swoje.\nR. I daj nam swoje zbawienie.\nV. Panie, wysłuchaj modlitwy nasze.\nR. A wołanie nasze niech do Ciebie przyjdzie.\nV. Pan z wami.\nR. I z duchem twoim.\nV. Módlmy się.\nWysłuchaj nas, Panie Święty, Ojcze wszechmogący, wieczny Boże. Racz posłać Anioła swego z nieba, aby nas strzegł, wspierał, otaczał opieką, nawiedzał i bronił wszystkich przebywających w tym domu. Przez Chrystusa Pana naszego. Amen.",
-      "V. Ostende nobis Domine, misericordiam tuam\nR. Et salutare tuum da nobis\nV. Domine, exaudi orationem meam\nR. Et clamor meus ad te veniat\nV. Dóminus vobíscum.\nR. Et cum spiritu tuo.\nV. Orémus.\nExaudi nos, Domine sancte, Pater omnipotens, aeterne Deus: et mittere digneris sanctum Angelum tuum de caelis, qui custodiat. Foveat, protegat, visitet atque defendat omnes habitantes in hoc habitaculo. Per Christum Dominum nostrum."
+  {
+    "title": "Aspersja",
+    "body": [
+      "Przed Mszą uroczystą następuje aspersja. Kapłan przechodzi przez kościół i kropi wiernych wodą święconą. Wszyscy śpiewają antyfonę Asperges Me.",
+      [
+        "*Ps 50:9*\nPokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.\n*Ps 50:3*\nZmiłuj się nade mną, Boże, według wielkiego miłosierdzia Twego.\nV. Chwała Ojcu, i Synowi i Duchowi Świętemu.\nR. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.\nPokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.",
+        "*Ps 50:9*\nAsperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor.\n*Ps 50:3*\nMiserere mei, Deus, secundum magnam misericordiam tuam.\nV. Gloria Patri, et Filio, et Spiritui Sancto.\nR. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.\nAsperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor."
+      ],
+      "W Okresie Wielkanocnym zamiast Asperges Me śpiewa się antyfonę Vidi Aquam.",
+      [
+        "*Ez 47:1-2; 47:9*\nWidziałem wodę wychodzącą z boku prawego świątyni, alleluja. A wszyscy, których doszła woda owa, są zbawieni i mówić będą: alleluja, alleluja.\n*Ps 135:1*\nWyznawajcie Pana, bo dobry, bo na wieki miłosierdzie Jego.\nV. Chwała Ojcu, i Synowi i Duchowi Świętemu.\nR. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.\nWidziałem wodę wychodzącą z boku prawego świątyni, alleluja. A wszyscy, których doszła woda owa, są zbawieni i mówić będą: alleluja, alleluja.",
+        "*Ez 47:1-2; 47:9*\nVidi aquam egredientem de templo, a latere dextro, alleluia: et omnes, ad quos pervenit aqua ista, salvi facti sunt, et dicent, alleluia, alleluia.\n*Ps 135:1*\nConfitemini Domino quoniam bonus: Quoniam in saeculum misericordia eius.\nV. Gloria Patri, et Filio, et Spiritui Sancto.\nR. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.\nVidi aquam egredientem de templo, a latere dextro, alleluia: et omnes, ad quos pervenit aqua ista, salvi facti sunt, et dicent, alleluia, alleluia."
+      ],
+      [
+        "V. Okaż nam, Panie, miłosierdzie swoje\nR. I daj nam swoje zbawienie\nV. Panie, wysłuchaj modlitwy nasze\nR. A wołanie nasze niech do Ciebie przyjdzie\nV. Pan z wami\nR. I z duchem twoim\nV. Módlmy się\nWysłuchaj nas, Panie Święty, Ojcze wszechmogący, wieczny Boże. Racz posłać Anioła swego z nieba, aby nas strzegł, wspierał, otaczał opieką, nawiedzał i bronił wszystkich przebywających w tym domu. Przez Chrystusa Pana naszego. Amen.",
+        "V. Ostende nobis Domine, misericordiam tuam\nR. Et salutare tuum da nobis\nV. Domine, exaudi orationem meam\nR. Et clamor meus ad te veniat\nV. Dóminus vobíscum\nR. Et cum spiritu tuo\nV. Orémus\nExaudi nos, Domine sancte, Pater omnipotens, aeterne Deus: et mittere digneris sanctum Angelum tuum de caelis, qui custodiat, foveat, protegat, visitet atque defendat omnes habitantes in hoc habitaculo. Per Christum Dominum nostrum."
+      ]
     ]
-  ]},
-  {"title": "Modlitwy u Stopni Ołtarza",
-   "body": [
-    "We Mszach śpiewanych celebrans i asystujący odmawiają modlitwy u stopni ołtarza, podczas gdy chór śpiewa antyfonę na wejście (introit)",
-    [
-      "– Tekst w dzisiejszej Mszy –",
-      "– Tekst w dzisiejszej Mszy –"
-    ],
-    "Kapłan stanąwszy u stopni ołtarza czyni znak krzyża i odmawia antyfonę.\nPsalm 42 wyraża tęsknotę za Bogiem i za służbą przy Jego ołtarzu. Psalm opuszcza się we Mszach żałobnych i w okresie Męki Pańskiej, z wyjątkiem Mszy świątecznych. W niektórych Mszach wiążących się z uroczystymi obrzędami liturgicznymi opuszcza się wszystkie modlitwy u stopni ołtarza.",
-    [
-      "W imię Ojca + i Syna i Ducha Świętego. Amen.\nAnt. Przystąpię do ołtarza Bożego. Do Boga, który jest weselem i radością moją.",
-      "In nómine Patris, ☩ et Fílii, et Spíritus Sancti. Amen.\nIntroíbo ad altáre Dei. Ad Deum, qui lætíficat iuventútem meam."
+  },
+  {
+    "title": "Modlitwy u Stopni Ołtarza",
+    "body": [
+      "We Mszach śpiewanych celebrans i asystujący odmawiają modlitwy u stopni ołtarza, podczas gdy chór śpiewa antyfonę na wejście (introit)",
+      [
+        "– Tekst w dzisiejszej Mszy –",
+        "– Tekst w dzisiejszej Mszy –"
+      ],
+      "Kapłan stanąwszy u stopni ołtarza czyni znak krzyża i odmawia antyfonę.\nPsalm 42 wyraża tęsknotę za Bogiem i za służbą przy Jego ołtarzu. Psalm opuszcza się we Mszach żałobnych i w okresie Męki Pańskiej, z wyjątkiem Mszy świątecznych. W niektórych Mszach wiążących się z uroczystymi obrzędami liturgicznymi opuszcza się wszystkie modlitwy u stopni ołtarza.",
+      [
+        "W imię Ojca + i Syna i Ducha Świętego. Amen.\n\nAnt. Przystąpię do ołtarza Bożego. Do Boga, który jest weselem i radością moją.\n\n*Ps 42, 1-5*\nS. Wymierz mi, Boże, sprawiedliwość i broń sprawy mojej przeciw ludowi niezbożnemu, wybaw mnie od człowieka podstępnego i niegodziwego.\nM. Ty bowiem, Boże, jesteś mocą moją, czemu mię odrzuciłeś? Czemu chodzę smutny, nękany przez wroga?\nS. Ześlij Swą światłość i wierność Swoją: niech one mnie wiodą, niech mnie przywiodą na górę Twą świętą, do Twoich przybytków.\nM. I przystąpię do ołtarza Bożego, do Boga, który jest weselem i radością moją.\nS. I będę Cię chwalił na cytrze, Boże, Boże mój. Duszo ma, czemuś zgnębiona i czemu miotasz się we mnie?\nM. Ufaj Bogu, bo jeszcze wysławiać Go będę, zbawienie mego oblicza i Boga mojego.\nS. Chwała Ojcu i Synowi i Duchowi Świętemu.\nM. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.\n\nAnt. Przystąpię do ołtarza Bożego. Do Boga, który jest weselem i radością moją.\n\nV. Wspomożenie nasze + w imieniu Pana.\nR. Który stworzył niebo i ziemię.",
+        "In nómine Patris, + et Fílii, et Spíritus Sancti. Amen.\n\nAnt. Introíbo ad altáre Dei. Ad Deum, qui lætíficat iuventútem meam.\n\n*Ps 42, 1-5*\nS. Iúdica me, Deus, et discérne causam meam de gente non sancta: ab hómine iníquo et dolóso érue me.\nM. Quia tu es, Deus, fortitudo mea: quare me reppulísti, et quare tristis incédo, dum afflígit me inimícus?\nS. Emítte lucem tuam et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum et in tabernácula tua.\nM. Et introíbo ad altáre Dei: ad Deum, qui lætíficat iuventútem meam.\nS. Confitébor tibi in cíthara, Deus, Deus meus: quare tristis es, ánima mea, et quare contúrbas me?\nM. Spera in Deo, quóniam adhuc confitébor illi: salutáre vultus mei, et Deus meus.\nS. Glória Patri, et Fílio, et Spirítui Sancto.\nM. Sicut erat in princípio, et nunc, et semper: et in saecula sæculórum. Amen.\n\nAnt. Introíbo ad altáre Dei. Ad Deum, qui lætíficat iuventútem meam.\n\nV. Adiutórium nostrum + in nómine Dómini.\nR. Qui fecit coelum et terram."
+      ],
+      "Kapłan głęboko pochylony odmawia spowiedź powszechną. Następnie czyni to ministrant.",
+      "Wobec Boga i Jego świętych wyznajemy nasze winy. Miłosierdzie Boże, wstawiennictwo Świętych i absolucja Kościoła oczyszczają nas.",
+      [
+        "Spowiadam się...",
+        "Confíteor Deo omnipoténti..."
+      ],
+      "Ministrant mówi",
+      [
+        "Niech się zmiłuje nad tobą wszechmogący Bóg, a odpuściwszy ci grzechy, doprowadzi cię do życia wiecznego.",
+        "Misereátur tui omnípotens Deus, et, dimíssis peccátis tuis, perdúcat te ad vitam ætérnam."
+      ],
+      "Kapłan",
+      [
+        "Amen.\n\nSpowiadam się Bogu wszechmogącemu, Najświętszej Maryi zawsze Dziewicy, świętemu Michałowi Archaniołowi, świętemu Janowi Chrzcicielowi, świętym Apostołom Piotrowi i Pawłowi, wszystkim Świętym i tobie, ojcze, że bardzo zgrzeszyłem, myślą, mową i uczynkiem: moja wina, moja wina, moja bardzo wielka wina. Przeto błagam Najświętszą Maryję zawsze Dziewicę, świętego Michała Archanioła, świętego Jana Chrzciciela, świętych Apostołów Piotra i Pawła, wszystkich Świętych i ciebie, ojcze, o modlitwę za mnie do Pana, Boga naszego.",
+        "Amen.\n\nConfíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Ioánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et opere: mea culpa, mea culpa, mea máxima culpa. Ideo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Ioánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dóminum, Deum nostrum."
+      ],
+      [
+        "Niech się zmiłuje nad wami wszechmogący Bóg, a odpuściwszy wam grzechy, doprowadzi was do życia wiecznego.\nR. Amen.\nPrzebaczenia, + odpuszczenia i darowania grzechów niech nam udzieli wszechmogący i miłosierny Pan.\nR. Amen.",
+        "S. Misereátur vestri omnípotens Deus, et, dimíssis peccátis vestris , perdúcat vos ad vitam ætérnam.\nR. Amen.\nS. Indulgéntiam, + absolutionem et remissiónem peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus.\nR. Amen."
+      ],
+      [
+        "V. Zwróć się ku nam, Boże, i ożyw nas.\nR. A lud Twój rozraduje się w Tobie.\nV. Okaż nam, Panie, miłosierdzie Swoje.\nR. I daj nam Swoje zbawienie.\nV. Panie, wysłuchaj modlitwę moją.\nR. A wołanie moje niech do Ciebie przyjdzie.\nV. Pan z wami.\nR. I z duchem twoim.\nV. Módlmy się.\n",
+        "V. Deus, tu convérsus vivificábis nos.\nR. Et plebs tua lætábitur in te.\nV. Osténde nobis, Dómine, misericórdiam tuam.\nR. Et salutáre tuum da nobis.\nV. Dómine, exáudi oratiónem meam.\nR. Et clamor meus ad te véniat.\nV. Dóminus vobíscum.\nR. Et cum spíritu tuo.\nOrémus."
+      ],
+      "Kapłan, wstępuje po stopniach ołtarza.",
+      "Duszę kapłana, wstępującego po stopniach ołtarza, przenika poczucie świętości Boga i wielkości tajemnic, które ma sprawować.",
+      [
+        "Zgładź nieprawości nasze, prosimy Cię, Panie, abyśmy z czystym sercem mogli przystąpić do tajemnic najświętszych. Przez Chrystusa, Pana naszego. Amen.",
+        "Aufer a nobis, quaesumus, Dómine, iniquitátes nostras: ut ad Sancta sanctórum puris mereámur méntibus introíre. Per Christum, Dóminum nostrum. Amen."
+      ],
+      "Kapłan całuje ołtarz, w którym są zamurowane relikwie Świętych.",
+      "W pierwszych wiekach Mszę świętą odprawiano przy grobach męczenników, łącząc w ten sposób ich ofiarę z ofiarą Zbawiciela.",
+      [
+        "Prosimy Cię, Panie, przez zasługi Świętych Twoich, których relikwie tutaj się znajdują, oraz wszystkich Świętych, abyś mi raczył odpuścić wszystkie grzechy moje. Amen.",
+        "Orámus te, Dómine, per mérita Sanctórum tuórum, quorum relíquiæ hic sunt, et ómnium Sanctórum: ut indulgére dignéris ómnia peccáta mea. Amen."
+      ]
     ]
-  ]}
+  },
+  {
+    "title": "Liturgia słowa",
+    "body": [
+      "Ta część obejmuje śpiewy, modlitwy oraz czytania wyjęte z ksiąg Pisma świętego Starego i Nowego Testamentu.",
+      "Podczas Mszy z asystą kapłan okadza ołtarz, następnie diakon okadza celebransa jako przedstawiciela Chrystusa."
+    ]
+  },
+  {
+    "title": "Antyfona na Wejście",
+    "body": [
+      "Jeśli Antyfona nie została odśpiewana przez chór, kapłan przechodzi na prawą stronę ołtarza i odczytuje antyfonę na wejście przypadającą na dany dzień.",
+      "Ongiś chór na przemian z wiernymi śpiewał psalm, przeplatany antyfoną podczas gdy duchowieństwo w uroczystej procesji zdążało do ołtarza. Obecnie z psalmu pozostał tylko jeden wiersz.",
+      "Zaczynając antyfonę na wejście kapłan żegna się.",
+      [
+        "– Tekst w dzisiejszej Mszy –",
+        "– Tekst w dzisiejszej Mszy –"
+      ]
+    ]
+  },
+  {
+    "title": "Kyrie",
+    "body": [
+      "Kyrie jest pozostałością odmawianej pierwotnie obszernej Litanii. Diakon śpiewał wezwania, wierni zaś odpowiadali: Panie, zmiłuj się. Język grecki, w którym zachowały się owe odpowiedzi, był pierwotnym językiem liturgii rzymskiej. Błagania nasze zanosimy do Trójcy Przenajświętszej, żebrząc Jej miłosierdzia.",
+      "Kapłan staje na środku ołtarza.",
+      [
+        "Panie, zmiłuj się.\nPanie, zmiłuj się.\nPanie, zmiłuj się.\nChryste, zmiłuj się.\nChryste, zmiłuj się.\nChryste, zmiłuj się.\nPanie, zmiłuj się.\nPanie, zmiłuj się.\nPanie, zmiłuj się.",
+        "Kýrie, eléison.\nKýrie, eléison.\nKýrie, eléison.\nChriste, eléison.\nChriste, eléison.\nChriste, eléison.\nKýrie, eléison.\nKýrie, eléison.\nKýrie, eléison."
+      ]
+    ]
+  },
+  {
+    "title": "Gloria",
+    "body": [
+      "Gloria nosi nazwę hymnu anielskiego ze względu na pierwsze słowa, którymi aniołowie wielbili narodzonego w Betlejem Chrystusa.",
+      "Jest to radosna pieśń chwały ku czci Trójcy Przenajświętszej, dlatego śpiewa się ją we Mszach mających charakter radosny (niedziele, Okres Bożego Narodzenia i Wielkanocy, uroczystości Pańskie, Matki Bożej i Świętych, itp.). Opuszcza się natomiast w innych Mszach.",
+      [
+        "Chwała na wysokości Bogu, a na ziemi pokój ludziom dobrej woli. Chwalimy Cię. Błogosławimy Cię. Wielbimy Cię. Wysławiamy Cię. Dzięki Ci składamy, bo wielka jest chwała Twoja. Panie Boże, Królu nieba, Boże Ojcze wszechmogący. Panie, Synu Jednorodzony, Jezu Chryste. Panie Boże, Baranku Boży, Synu Ojca. Który gładzisz grzechy świata, zmiłuj się nad nami. Który gładzisz grzechy świata, przyjm błaganie nasze. Który siedzisz po prawicy Ojca, zmiłuj się nad nami. Albowiem tylko Tyś jest święty. Tylko Tyś jest Panem. Tylko Tyś Najwyższy, Jezu Chryste. Z Duchem Świętym + w chwale Boga Ojca. Amen.\n\nV. Pan z wami.\nR. I z duchem twoim.\nMódlmy się.",
+        "Gloria in excelsis Deo Et in terra pax homínibus bonæ voluntátis. Laudámus te. Benedícimus te. Adorámus te. Glorificámus te. Grátias ágimus tibi propter magnam glóriam tuam. Dómine Deus, Rex coeléstis, Deus Pater omnípotens. Dómine Fili unigénite, Iesu Christe. Dómine Deus, Agnus Dei, Fílius Patris. Qui tollis peccáta mundi, miserére nobis. Qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus. Tu solus Dóminus. Tu solus Altíssimus, Iesu Christe. Cum Sancto Spíritu + in glória Dei Patris. Amen.\n\nV. Dóminus vobíscum.\nR. Et cum spiritu tuo.\nOrémus."
+      ]
+    ]
+  },
+  {
+    "title": "Kolekta",
+    "body": [
+      "Kapłan wraca do mszału, aby przeczytać kolektę zgromadzenia.",
+      "W kolekcie kapłan niejako zbiera i przedstawia Bogu uczucia i prośby wiernych powstałe pod wpływem obchodzonej tajemnicy.",
+      "Do głównej kolekty dodaje się czasem dodatkowe.",
+      [
+        "V. Módlmy się.\n\n– Tekst w dzisiejszej Mszy –\n\nR. Amen.",
+        "V. Oremus.\n\n– Tekst w dzisiejszej Mszy –\n\nR. Amen."
+      ]
+    ]
+  },
+  {
+    "title": "Lekcja",
+    "body": [
+      "Pierwsze czytanie jest wyjęte z pism Starego Testamentu lub z Listów i Dziejów Apostolskich. Pan Bóg odpowiada tu na nasze modlitwy, pouczając nas słowem natchnionym o sobie i naszych obowiązkach względem Niego. Czytając w ciągu roku kościelnego słowo Boże, wcielamy w życie zawartą tam naukę.",
+      "We mszach z asystą subdiakon śpiewa lekcję. W innych Mszach celebrans śpiewa ją lub głośno czyta.",
+      [
+        "– Tekst w dzisiejszej Mszy –\n\nR. Bogu dzięki.",
+        "– Tekst w dzisiejszej Mszy –\n\nR. Deo gratias."
+      ]
+    ]
+  },
+  {
+    "title": "Graduał i Alleluja lub Traktus",
+    "body": [
+      "Tekst śpiewu międzylekcyjnego, wyjęty przeważnie z Psałterza, streszcza pobożne uczucia, jakie nam nasunęło czytanie Pisma świętego. Alleluja – słowo hebrajskie – znaczy: śpiewajcie Panu z weselem.",
+      "W dni postne Alleluja jest zastąpione przez traktus – czyli psalm. W Okresie Wielkanocnym śpiewa się Alleluja również w miejsce graduału.",
+      [
+        "– Tekst w dzisiejszej Mszy –",
+        "– Tekst w dzisiejszej Mszy –"
+      ]
+    ]
+  },
+  {
+    "title": "Ewangelia",
+    "body": [
+      "Celebrans przechodzi na środek ołtarza i jeżeli Msza jest bez asysty głęboko pochylony odmawia poniższą modlitwę.",
+      "Wargi żadnego człowieka nie są dość czyste, aby głosić słowa samego Boga.",
+      [
+        "Oczyść serce i wargi moje, wszechmogący Boże, któryś wargi proroka Izajasza oczyścił kamykiem ognistym. W łaskawym zmiłowaniu Swoim racz mię tak oczyścić, abym godnie zdołał głosić Twą świętą Ewangelię. Przez Chrystusa, Pana naszego. Amen.",
+        "Munda cor meum, ac labia mea, omnípotens Deus, qui labia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, Dóminum nostrum. Amen."
+      ],
+      "Błogosławieństwo opuszcza się we Mszach żałobnych.",
+      [
+        "Racz pobłogosławić, Panie. Pan niech będzie w sercu moim i na wargach moich, bym godnie i należycie głosił Jego Ewangelię. Amen.",
+        "Iube, Dómine, benedícere. Dóminus sit in corde meo et in lábiis meis: ut digne et competénter annúntiem Evangélium suum. Amen."
+      ],
+      "We Mszach z asystą diakon przed odśpiewaniem Ewangelii odmawia modlitwę i prosi kapłana o błogosławieństwo:",
+      [
+        "Racz pobłogosławić, ojcze.",
+        "Iube, domne, benedícere."
+      ],
+      "Kapłan odpowiada:",
+      [
+        "Pan niech będzie w sercu twoim i na wargach twoich, byś godnie i należycie głosił Jego Ewangelię. W imię Ojca i Syna + i Ducha Świętego. Amen.",
+        "Dóminus sit in corde tuo et in lábiis tuis: ut digne et competénter annúntiem Evangélium suum. In nómine Patris, + et Fílii, et Spíritus Sancti. Amen."
+      ],
+      "Kapłan przechodzi na lewą stronę ołtarza i czyta lub śpiewa Ewangelię. We Mszach z asystą czyni to diakon. Wierni wraz z kapłanem czynią znak krzyża na czole, ustach i piersi.",
+      [
+        "V. Pan z wami.\nR. I z duchem twoim.\n+ Ciąg dalszy (albo: Początek) Ewangelii świętej według N.\nR. Chwała Tobie, Panie.",
+        "V. Dóminus vobíscum.\nR. Et cum spíritu tuo.\nSequéntia (Initium) + sancti Evangélii secúndum N.\nR. Gloria tibi, Domine."
+      ],
+      "Ewangelii słuchamy stojąc, przez uszanowanie dla słowa Bożego. We Mszy z asystą diakon w uroczystym pochodzie podąża do pulpitu, gdzie odśpiewuje ją wiernym, okadziwszy uprzednio świętą księgę",
+      [
+        "– Tekst w dzisiejszej Mszy –",
+        "– Tekst w dzisiejszej Mszy –"
+      ],
+      "Skończywszy czytać Ewangelię kapłan całuje mszał i mówi po cichu (z wyjątkiem Mszy żałobnych):",
+      [
+        "V. Niech słowa Ewangelii zgładzą nasze grzechy.\nR. Chwała Tobie, Chryste.",
+        "V. Per Evangelica dicta, deleantur nostra delicta.\nR. Laus tibi, Christe!"
+      ]
+    ]
+  },
+  {
+    "title": "Credo",
+    "body": [
+      "Kapłan przechodzi na środek ołtarza.",
+      "Uroczyste wyznanie wiary jest naszą odpowiedzią na pouczenia, które otrzymaliśmy w Lekcji i Ewangelii.",
+      "Credo odmawia się: w niedziele; w święta 1 klasy; w święta 2 klasy Chrystusa Pana i Najświętszej Maryi Panny; w czasie oktaw Bożego Narodzenia, Wielkanocy i Zesłania Ducha Świętego; w główne święta Apostołów i Ewangelistów, oraz w święto Katedry św. Piotra, Apostoła.",
+      [
+        "Wierzę w jednego Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, wszystkich rzeczy widzialnych i niewidzialnych.I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, który z Ojca jest zrodzony przed wszystkimi wiekami.Bóg z Boga, światłość ze światłości. Bóg prawdziwy z Boga prawdziwego. Zrodzony, a nie stworzony, współistotny Ojcu, a przez Niego wszystko się stało.On to dla nas, ludzi i dla naszego zbawienia zstąpił z nieba. (tu się przyklęka)I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy i stał się człowiekiem.Ukrzyżowany również za nas, pod Poncjuszem Piłatem został umęczony i pogrzebany.I zmartwychwstał trzeciego dnia, jak oznajmia Pismo. I wstąpił do nieba; siedzi po prawicy Ojca.I powtórnie przyjdzie w chwale sądzić żywych i umarłych: A Królestwu Jego nie będzie końca.Wierzę w Ducha Świętego, Pana i Ożywiciela, który od Ojca i Syna pochodzi. Który z Ojcem i Synem wspólnie odbiera uwielbienie i chwałę. Który mówił przez Proroków.Wierzę w jeden, święty, powszechny i apostolski Kościół. Wyznaję jeden chrzest na odpuszczenie grzechów. I oczekuję wskrzeszenia umarłych. I życia + wiecznego w przyszłym świecie. Amen.",
+        "Credo in unum Deum, Patrem omnipoténtem, factórem coeli et terræ, visibílium ómnium et in visibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saecula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de coelis. Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in coelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostólicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et exspécto resurrectiónem mortuórum. Et vitam + ventúri saeculi. Amen."
+      ]
+    ]
+  }
 ]
