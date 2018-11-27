@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mszał Rzymski</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Mszał Rzymski</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span>⋮</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav mr-auto pull-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Czytania<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="ordo.html">Części stałe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Informacje</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="wrapper">
+    <div id="content" role="main" class="container-fluid">
+        <main class="col-md-9">
+            <h1>Części stałe Mszy Świętej</h1>
+            <p><span class="rubric">Przed Mszą uroczystą następuje aspersja. Kapłan przechodzi przez kościół i kropi wiernych wodą święconą. Wszyscy śpiewają antyfonę Asperges Me.</span></p>
+            <div class="row"><div class="col-sm-6 section-vernacular"><p></p></div><div class="col-sm-6 section-latin"></div></div>
+            <div class="row">
+                <div class="col-sm-6 section-vernacular">
+                    <p><em>Ps 50:9</em><br>
+                        Pokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.<br>
+                        <em>Ps 50:3</em><br>
+                        Zmiłuj się nade mną, Boże, według wielkiego miłosierdzia Twego.<br>
+                        V. Chwała Ojcu, i Synowi i Duchowi Świętemu.<br>
+                        R. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.<br>
+                        Pokrop mnie, Panie hyzopem, a stanę się czysty, obmyj mnie, a nad śnieg wybieleję.<br></p>
+                </div>
+                <div class="col-sm-6 section-latin">
+                    <p><em>Ps 50:9</em><br>
+                        Asperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor.<br>
+                        <em>Ps 50:3</em><br>
+                        Miserere mei, Deus, secundum magnam misericordiam tuam.<br>
+                        V. Gloria Patri, et Filio, et Spiritui Sancto.<br>
+                        R. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.<br>
+                        Asperges me, Domine, hyssopo et mundabor, lavabis me, et super nivem dealbabor.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/ordo.js"></script>
+
+
+<script id="template-section-title" type="text/x-custom-template">
+    <h1>Części stałe Mszy św.</h1>
+</script>
+<script id="template-section-subtitle" type="text/x-custom-template">
+    <h2>${title}</h2>
+</script>
+<script id="template-rubric" type="text/x-custom-template">
+    <span class="rubric">${rubric}</span>
+</script>
+<script id="template-content-columns" type="text/x-custom-template">
+    <div class="row">
+        <div class="col-sm-6 section-vernacular">
+            <p>${sectionVernacular}</p>
+        </div>
+        <div class="col-sm-6 section-latin">
+            <p>${sectionLatin}</p>
+        </div>
+    </div>
+</script>
+
+</body>
+</html>
