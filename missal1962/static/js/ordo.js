@@ -45,7 +45,7 @@ $(window).on("load", function () {
 
     $window.on("hashchange", function() {
         let itemId = document.location.hash.replace("#", "");
-        $("#sidebar>li.sidebar-ordo-item").removeClass("active");
+        $("#sidebar li.sidebar-ordo-item").removeClass("active");
         $("#sidebar-ordo-item-" + itemId).addClass("active");
         let ordoItem = $("#ordo-item-"+itemId);
         if (navbarIsCollapsed()) {
