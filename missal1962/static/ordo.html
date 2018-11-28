@@ -66,7 +66,7 @@
     <h1>Części stałe Mszy św.</h1>
 </script>
 <script id="template-section-subtitle" type="text/x-custom-template">
-    <h2>${title}</h2>
+    <h2 id="ordo-item-${id}">${title}</h2>
 </script>
 <script id="template-rubric" type="text/x-custom-template">
     <p><span class="rubric">${rubric}</span></p>
@@ -82,7 +82,7 @@
     </div>
 </script>
 <script id="template-sidebar-ordo-item" type="text/x-custom-template">
-    <li class="sidebar-ordo-item"><a href="#${title}">
+    <li id="sidebar-ordo-item-${id}" class="sidebar-ordo-item"><a href="#${id}">
         <div>${title}</div>
     </a></li>
 </script>
