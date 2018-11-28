@@ -4,7 +4,6 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-@import "https://fonts.googleapis.com/css?family=Lora:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fffdf1;
@@ -12,12 +11,6 @@ body {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: #494949;
-}
-
-main p,h1,h2 {
-    font-family: 'Lora', sans-serif;
     font-weight: 300;
     color: #494949;
 }
