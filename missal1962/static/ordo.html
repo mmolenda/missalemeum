@@ -14,6 +14,10 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <button id="sidebar-collapse" class="navbar-toggler" type="button">
+            <span>≡</span>
+        </button>
+
         <a class="navbar-brand" href="index.html">Mszał Rzymski</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
@@ -38,6 +42,11 @@
 </header>
 
 <div class="wrapper">
+    <nav id="sidebar">
+        <ul class="list-unstyled">
+            <li>Ładuję...</li>
+        </ul>
+    </nav>
     <div id="content" role="main" class="container-fluid">
         <main class="col-md-9">
         </main>
@@ -71,6 +80,11 @@
             <p>${sectionLatin}</p>
         </div>
     </div>
+</script>
+<script id="template-sidebar-ordo-item" type="text/x-custom-template">
+    <li class="sidebar-ordo-item"><a href="#${title}">
+        <div>${title}</div>
+    </a></li>
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

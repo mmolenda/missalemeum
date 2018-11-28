@@ -22,13 +22,11 @@ $(window).on("load", function () {
     const templateContentPrint = $("#template-content-print").text();
 
     const $window = $(window);
-    const $wrapper = $("div.wrapper");
     const $sidebar = $("nav#sidebar");
     const $main = $("main");
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
-    const $buttonCalendar = $("button#sidebar-collapse");
 
     function init() {
         moment.locale("pl");
@@ -54,10 +52,6 @@ $(window).on("load", function () {
             tmpDate = moment();
         }
         return tmpDate.format("YYYY-MM-DD");
-    }
-
-    function navbarIsCollapsed() {
-        return $buttonCalendar.is(":visible");
     }
 
     /**
@@ -233,37 +227,6 @@ $(window).on("load", function () {
     $datetimepicker4.find("input").on("input", function () {
         document.location.hash = this.value;
         $searchInput.val("").trigger("input");
-    });
-
-    /**
-     * Toggle sidebar on hamburger menu click ..
-     **/
-    $("#sidebar-collapse").on("click", function () {
-        $sidebarAndContent.toggleClass("active");
-    });
-
-    /**
-     * .. and on swipe ..
-     **/
-    let sidebarTouchXPos = 0;
-    $wrapper.on("touchstart", function (e) {
-        sidebarTouchXPos = e.originalEvent.touches[0].pageX;
-    }).on("touchend", function (e) {
-        if (navbarIsCollapsed()) {
-            if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
-                (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && !$sidebarAndContent.hasClass("active"))) {
-                $sidebarAndContent.toggleClass("active");
-            }
-        }
-    });
-
-    /**
-     * .. and close it on touch in the main area in small view
-     **/
-    $main.on("touchstart", function (e) {
-        if (navbarIsCollapsed()) {
-            $sidebarAndContent.removeClass("active");
-        }
     });
 
     /**

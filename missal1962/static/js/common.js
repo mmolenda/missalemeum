@@ -1,4 +1,10 @@
 
+const $window = $(window);
+const $wrapper = $("div.wrapper");
+const $main = $("main");
+const $sidebarAndContent = $("#sidebar, #content");
+const $buttonSidebarCollapse = $("button#sidebar-collapse");
+
 /**
  * Render template, substitute placeholders with elements from `data` object.
  * Example:
@@ -22,7 +28,7 @@ function renderTemplate(template, data) {
  * in `#lang-switch`
  **/
 function adaptSectionColumns() {
-    if ($(window).width() >= 576) {
+    if ($window.width() >= 576) {
         $("div.section-vernacular").show();
         $("div.section-latin").show();
     } else {
@@ -49,3 +55,42 @@ function toggleLangSections(input) {
         $("div.section-latin").show();
     }
 }
+
+function navbarIsCollapsed() {
+    return $buttonSidebarCollapse.is(":visible");
+}
+
+
+$window.on("load", function () {
+    /**
+     * Toggle sidebar on hamburger menu click ..
+     **/
+    $("#sidebar-collapse").on("click", function () {
+        $sidebarAndContent.toggleClass("active");
+    });
+
+    /**
+     * .. and on swipe ..
+     **/
+    let sidebarTouchXPos = 0;
+    $wrapper.on("touchstart", function (e) {
+        sidebarTouchXPos = e.originalEvent.touches[0].pageX;
+    }).on("touchend", function (e) {
+        if (navbarIsCollapsed()) {
+            if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
+                (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && !$sidebarAndContent.hasClass("active"))) {
+                $sidebarAndContent.toggleClass("active");
+            }
+        }
+    });
+
+    /**
+     * .. and close it on touch in the main area in small view
+     **/
+    $main.on("touchstart", function (e) {
+        if (navbarIsCollapsed()) {
+            $sidebarAndContent.removeClass("active");
+        }
+    });
+
+});
