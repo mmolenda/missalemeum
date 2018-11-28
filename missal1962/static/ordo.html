@@ -41,14 +41,18 @@
     <div id="content" role="main" class="container-fluid">
         <main class="col-md-9">
         </main>
+        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
+            </label>
+        </div>
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="js/ordo.js"></script>
-
-
+<!--Templates -->
 <script id="template-section-title" type="text/x-custom-template">
     <h1>Części stałe Mszy św.</h1>
 </script>
@@ -68,6 +72,11 @@
         </div>
     </div>
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/ordo.js"></script>
 
 </body>
 </html>

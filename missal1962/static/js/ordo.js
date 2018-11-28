@@ -1,6 +1,4 @@
-
-
-$(document).ready(function()    {
+$(window).on("load", function () {
 
     const templateSectionTitle = $("#template-section-title").text();
     const templateSectionSubTitle = $("#template-section-subtitle").text();
@@ -8,22 +6,6 @@ $(document).ready(function()    {
     const templateContentColumns = $("#template-content-columns").text();
 
     loadOrdo();
-
-    /**
-     * Render template, substitute placeholders with elements from `data` object.
-     * Example:
-     * ```render('<a href="${url}">x</a>', {"url": "http://foo.com"}) -> <a href="http://foo.com">x</a>
-     * Idea from https://stackoverflow.com/a/39065147
-     **/
-    function renderTemplate(template, data) {
-        function _render(props) {
-            return function (tok, i) {
-                return (i % 2) ? props[tok] : tok;
-            };
-        }
-        let parsedTpl = template.split(/\$\{(.+?)\}/g);
-        return parsedTpl.map(_render(data)).join('');
-    }
 
     function loadOrdo() {
         $.getJSON( "data/ordo.json", function( data ) {
@@ -45,6 +27,16 @@ $(document).ready(function()    {
                     }
                 });
             });
+            adaptSectionColumns();
         });
     }
+
+    $(window).on("resize", function(){
+        adaptSectionColumns();
+    });
+
+    $("input[type=radio][name=lang-switch]").change(function() {
+        toggleLangSections(this);
+    });
+
 });
