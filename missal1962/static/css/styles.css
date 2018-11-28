@@ -55,7 +55,7 @@ a:focus {
     margin-left: -250px;
 }
 
-#sidebar > ul.list-unstyled {
+#sidebar > ul.with-sidebar-tools {
     padding: 65px 0 0 0;
 }
 
