@@ -62,6 +62,17 @@ and navigate to http://0.0.0.0:8000/.
 * `GET /proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for fourth Advent Sunday 
 
 
+### Docker
+
+Docker setup spins up the application in the API mode. It copies only the necessary files from Divinum Officium to keep the image light.
+
+```bash
+$ docker build -t missal1962 .
+$ docker run -p 8000:8000 missal1962
+
+```
+
+
 ### Command line (CLI)
 
 Calculate the calendar

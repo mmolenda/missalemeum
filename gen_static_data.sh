@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 YEAR_FROM=2017
 YEAR_TO=2020
 itr=0
