@@ -2,6 +2,8 @@ import os
 import re
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
+DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
+CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium-custom')
 
 LANGUAGE_LATIN = 'Latin'
 TYPE_TEMPORA = 'tempora'
@@ -923,9 +925,6 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
 
 
 # Related to propers' printing
-
-DIVOFF_DIR = os.path.join(THIS_DIR, '..', 'resources', 'divinum-officium')
-CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', 'resources', 'divinum-officium-custom')
 
 EXCLUDE_SECTIONS = (
     'Evangelium1',

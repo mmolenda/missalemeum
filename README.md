@@ -5,7 +5,7 @@
 The application consists of Python/Flask API, serving calendar and propers for a given day, and Bootstrap UI consuming 
 and presenting the data. The application utilizes data files from
  [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
- [git submodule](missal1962/resources).
+ [git submodule](./resources).
 
 ## Features 
 
