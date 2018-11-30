@@ -45,14 +45,32 @@ class Proper:
         return self._container.items()
 
     def get_rule(self, rule_name: str) -> Union[None, str]:
+        """
+        Extract certain rules from sections [Rank] and [Rule]:
+            * `Prefatio=.*` -> ID of preface for given observance
+            * `vide .*`, `ex .*` -> global reference to other observance
+
+        e.g.
+        [Rank]
+        Prefatio=Maria=veneratione;
+
+        translates into `{'preface': 'Maria', 'vide': None}`
+
+        """
         rules = {'preface': None, 'vide': None}
-        section = self.get_section('Rule')
-        if section:
-            preface = [i for i in section.body if i.startswith('Prefatio=')]
+
+        rules_src = []
+        for s in ('Rule', 'Rank'):
+            section = self.get_section(s)
+            if section is not None:
+                rules_src.extend(section.get_body())
+
+        if rules_src:
+            preface = [i for i in rules_src if i.startswith('Prefatio=')]
             if preface:
                 rules['preface'] = preface[0].split('=')[1]
 
-            vide = [i for i in section.body if i.startswith('vide ') or i.startswith('ex ')]
+            vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
             if vide:
                 vide = vide[0].split(' ')[-1].split(';')[0]
                 if '/' not in vide:

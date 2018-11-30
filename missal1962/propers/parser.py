@@ -61,6 +61,10 @@ class ProperParser:
                     # Skipping empty lines in the beginning of the file
                     continue
 
+                if ln.strip() == '!':
+                    # Skipping lines containing exclamation mark only
+                    continue
+
                 if section_name is None and REFERENCE_REGEX.match(ln):
                     # reference outside any section as a first non-empty line - load all sections
                     # from the referenced file and continue with the sections from the current one.
