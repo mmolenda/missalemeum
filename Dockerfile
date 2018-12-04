@@ -4,6 +4,7 @@ RUN apk update
 RUN apk upgrade
 RUN apk add bash
 
+ENV PYTHONPATH=/app/missal1962
 WORKDIR /app
 
 COPY Pipfile* ./
@@ -20,4 +21,4 @@ COPY missal1962 ./missal1962
 COPY deploy.sh .
 RUN ./deploy.sh
 
-CMD [ "python", "./missal1962/api.py" ]
+CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "wsgi"]

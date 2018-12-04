@@ -26,10 +26,10 @@ To run in this mode simply navigate to [static](missal1962/static) directory and
 
 ```bash
 $ cd missal1962/static
-$ python -m http.server 8000
+$ python -m http.server 8080
 ```
 
-and navigate to http://0.0.0.0:8000/.
+and navigate to http://0.0.0.0:8080/.
 
 ### API mode
 
@@ -41,18 +41,18 @@ Prerequisites:
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
 
-Once cloned, go to the project's dir and call `pipenv install` to install a dedicated virtualenv with
+Once cloned, go to the project's dir and call `pipenv install --dev` to install a dedicated virtualenv with
 required dependencies. Then `pipenv shell` to activate the environment.
 
 In [index.html](missal1962/static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
 
-Run the API:
+Run the development API:
 
 ```bash
 $ python missal1962/api.py
 ```
 
-and navigate to http://0.0.0.0:8000/.
+and navigate to http://0.0.0.0:5000/.
 
 #### API endpoints:
 
@@ -64,13 +64,16 @@ and navigate to http://0.0.0.0:8000/.
 
 ### Docker
 
-Docker setup spins up the application in the API mode. It copies only the necessary files from Divinum Officium to keep the image light.
+Docker setup spins up the application in the API mode.
+It copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
 
 ```bash
 $ docker build -t missal1962 .
-$ docker run -p 8000:8000 missal1962
+$ docker run -d -p 8000:8000 missal1962
 
 ```
+
+and navigate to http://0.0.0.0:8000/.
 
 
 ### Command line (CLI)
