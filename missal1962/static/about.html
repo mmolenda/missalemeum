@@ -60,16 +60,17 @@
             <p>Wszelkie uwagi, pomysły, zapytania, zgłoszenia błędów można kierować za pośrednictwem poniższego
             formularza</p>
             <p>
-            <form action="" method="POST">
+            <form id="contact-form" action="" method="POST">
                 <div class="form-group">
                     <label for="input-text">Treść</label>
-                    <textarea class="form-control" id="input-text" type="text" name="name" rows="3" disabled></textarea>
+                    <textarea class="form-control" id="input-text" type="text" name="name" rows="3"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="input-email">Email</label>
-                    <input type="email" class="form-control" id="input-email" name="_replyto" disabled>
+                    <input type="email" class="form-control" id="input-email" name="_replyto">
                 </div>
-                <button type="submit" class="btn btn-secondary" disabled>Wyślij</button>
+                <input type="text" name="_gotcha" style="display:none" />
+                <button type="submit" class="btn btn-secondary">Wyślij</button>
             </form>
             </p>
             <p>Autorzy polecają się modlitwie.</p>
@@ -81,6 +82,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script>
+    let contactform =  document.getElementById('contact-form');
+    contactform.setAttribute('action', atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vc3VwcG9ydEBtb2xlbmRhLmV1"));
+</script>
 
 </body>
 </html>
