@@ -1,6 +1,9 @@
+import sys
+
 import os
 
 import datetime
+import logging
 import re
 from flask import Flask, jsonify, send_file
 from flask_cors import CORS
@@ -13,7 +16,13 @@ from propers.models import Proper, ProperSection
 
 app = Flask(__name__)
 CORS(app)
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.INFO)
 
+logging.basicConfig(
+    stream=sys.stdout,
+    level=logging.INFO,
+    format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
 
 lang = 'Polski'
 

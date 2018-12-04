@@ -21,4 +21,4 @@ COPY missal1962 ./missal1962
 COPY deploy.sh .
 RUN ./deploy.sh
 
-CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "wsgi"]
+CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "--access-logfile", "-", "wsgi"]
