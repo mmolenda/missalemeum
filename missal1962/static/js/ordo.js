@@ -5,6 +5,7 @@ $(window).on("load", function () {
     const templateRubric = $("#template-rubric").text();
     const templateContentColumns = $("#template-content-columns").text();
     const templateSidebarItem = $("#template-sidebar-ordo-item").text();
+    const templateContentPrint = $("#template-content-print").text();
 
     loadOrdo();
 
@@ -53,6 +54,15 @@ $(window).on("load", function () {
         }
         // need to wait a bit until the columns are resized back after closing the sidebar
         setTimeout(function() {$(window).scrollTop(ordoItem.offset().top - 70);}, 350);
+    });
+
+    $("#print").on("click", function () {
+        let newWindow = window.open('','', "width=650, height=750");
+        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
+        newWindow.document.write(newContent);
+        newWindow.document.close();
+        newWindow.focus();
+        return true;
     });
 
 });

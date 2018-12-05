@@ -56,11 +56,15 @@
 <div class="wrapper">
     <nav id="sidebar">
         <ul class="list-unstyled">
-            <li>Ładuję...</li>
+            <li><img src="img/spinner.gif"></li>
         </ul>
     </nav>
     <div id="content" role="main" class="container-fluid">
+        <div class="col-md-9" id="content-tools">
+            <a id="print"><i class="fa fa-print"></i></a>
+        </div>
         <main class="col-md-9">
+            <p><img src="img/spinner.gif"></p>
         </main>
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
@@ -97,6 +101,15 @@
     <li id="sidebar-ordo-item-${id}" class="sidebar-ordo-item"><a href="#${id}">
         <div>${title}</div>
     </a></li>
+</script>
+<script id="template-content-print" type="text/x-custom-template">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    </head>
+    <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em>http://mszalrzymski.pl</em></p></body>
+    </html>
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

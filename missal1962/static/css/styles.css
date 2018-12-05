@@ -96,6 +96,12 @@ a[aria-expanded="true"] {
     font-weight: 600;
 }
 
+#sidebar ul li.in-progress,
+#sidebar ul li.in-progress a:hover {
+    background: url("../img/spinner.gif") no-repeat top 5px right 5px;
+    transition: none;
+}
+
 #sidebar ul li .tempora {
     font-size: 0.7em;
 }
