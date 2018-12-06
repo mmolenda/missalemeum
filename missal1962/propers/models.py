@@ -57,7 +57,7 @@ class Proper:
         translates into `{'preface': 'Maria', 'vide': None}`
 
         """
-        rules = {'preface': None, 'vide': None}
+        rules = {'preface': None, 'vide': None, 'ignore_commemoration': False}
 
         rules_src = []
         for s in ('Rule', 'Rank'):
@@ -76,6 +76,11 @@ class Proper:
                 if '/' not in vide:
                     vide = f'Commune/{vide}'
                 rules['vide'] = vide
+
+            no_vigil = any([i for i in rules_src if 'no Vigil1960' in i])
+            if no_vigil:
+                rules['ignore_commemoration'] = True
+
         return rules.get(rule_name)
 
     def merge(self, proper: 'Proper') -> None:

@@ -122,3 +122,14 @@ def test_get_repr():
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
     assert str(container) == '[<tempora:Epi1-6:4>][<sancti:01-13:2>][]'
+
+
+@pytest.mark.parametrize("date_,sections", [
+    ((2018, 12, 7), ['Commemoratio Oratio', 'Commemoratio Secreta', 'Commemoratio Postcommunio']),
+    ((2018, 12, 6), ['Rank1570'])
+])
+def test_ignored_sections(date_, sections):
+    missal = get_missal(date_[0], language)
+    _, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    for section in sections:
+        assert proper_latin.get_section(section) is None

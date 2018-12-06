@@ -6,7 +6,7 @@ from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, EXCLUDE_SECTIONS,
-                              EXCLUDE_SECTIONS_TITLES, LANGUAGE_LATIN,
+                              COMMEMORATION_SECTIONS, LANGUAGE_LATIN,
                               REFERENCE_REGEX, SECTION_REGEX)
 from propers.models import Proper, ProperSection
 
@@ -126,6 +126,7 @@ class ProperParser:
         proper = cls._resolve_conditionals(proper)
         if 'Ordo' not in partial_path and not lookup_section:
             proper = cls._add_prefaces(proper, lang)
+            proper = cls._filter_sections(proper, lang)
             proper = cls._translate_section_titles(proper, lang)
         return proper
 
@@ -143,6 +144,14 @@ class ProperParser:
         return proper
 
     @classmethod
+    def _filter_sections(cls, proper, lang):
+        ignore_commememoration = proper.get_rule('ignore_commemoration')
+        for section_id in list(proper.keys()):
+            if section_id in EXCLUDE_SECTIONS or (ignore_commememoration and section_id in COMMEMORATION_SECTIONS):
+                proper.pop_section(section_id)
+        return proper
+
+    @classmethod
     def _translate_section_titles(cls, proper, lang):
         sections_ids = proper.keys()
         section_labels = {}
@@ -151,8 +160,6 @@ class ProperParser:
             section_labels.update(cls.translations[lang].section_labels_multi)
 
         for section in proper.values():
-            if section.id in EXCLUDE_SECTIONS + EXCLUDE_SECTIONS_TITLES:
-                continue
             section.set_label(section_labels.get(section.id, section.id))
         return proper
 

@@ -937,7 +937,6 @@ EXCLUDE_SECTIONS = (
     'Rank1960',
     'RankNewcal',
     'RankTrident',
-    'Rank',
     'Rank (rubrica 1955 aut rubrica 1960)',
     'Rank (rubrica 1960)',
     'Rank (rubrica innovata)',
@@ -950,14 +949,13 @@ EXCLUDE_SECTIONS = (
     'Footnotes',
     'Name'
 )
-EXCLUDE_SECTIONS_TITLES = (
+
+COMMEMORATION_SECTIONS = [
     'Commemoratio Oratio',
     'Commemoratio Postcommunio',
-    'Commemoratio Secreta',
-    'Comment',
-    'Prelude',
-    'Prelude(rubrica 1960)',
-)
+    'Commemoratio Secreta'
+]
+
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')
