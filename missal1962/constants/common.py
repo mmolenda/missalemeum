@@ -956,6 +956,14 @@ COMMEMORATION_SECTIONS = [
     'Commemoratio Secreta'
 ]
 
+# This list contains IDs of propers that contain commemorations in their source, but they should
+# never be exposed as they are not part of 1962 issue of the  Missal. It is not always obvious from the source file
+# level whether to omit a commemoration or not, hence this hardcoded list.
+EXCLUDE_COMMEMORATIONS = [
+    SANCTI_12_07,
+    SANCTI_12_11
+
+]
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')

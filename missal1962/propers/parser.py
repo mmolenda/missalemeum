@@ -7,7 +7,7 @@ from typing import Tuple
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, EXCLUDE_SECTIONS,
                               COMMEMORATION_SECTIONS, LANGUAGE_LATIN,
-                              REFERENCE_REGEX, SECTION_REGEX)
+                              REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_COMMEMORATIONS)
 from propers.models import Proper, ProperSection
 
 log = logging.getLogger(__name__)
@@ -19,13 +19,14 @@ class ProperParser:
     and represents them as a hierarchy of `propers.Proper` and `propers.ProperSection` objects.
     """
 
+    proper_id = None
     lang: str = None
     translations: dict = {}
     prefaces: dict = {}
 
     @classmethod
     def parse(cls, proper_id: str, lang: str) -> Tuple[Proper, Proper]:
-        proper_id: str = ':'.join(proper_id.split(':')[:2])
+        cls.proper_id: str = proper_id
         cls.lang = lang
         cls.translations[cls.lang] = importlib.import_module(f'constants.{cls.lang}.translation')
         cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
@@ -49,7 +50,7 @@ class ProperParser:
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         Resolve references like `@Sancti/02-02:Evangelium`.
         """
-        proper: Proper = Proper()
+        proper: Proper = Proper(cls.proper_id)
         section_name: str = None
         concat_line: bool = False
         full_path: str = cls._get_full_path(partial_path, lang)
@@ -145,9 +146,9 @@ class ProperParser:
 
     @classmethod
     def _filter_sections(cls, proper, lang):
-        ignore_commememoration = proper.get_rule('ignore_commemoration')
         for section_id in list(proper.keys()):
-            if section_id in EXCLUDE_SECTIONS or (ignore_commememoration and section_id in COMMEMORATION_SECTIONS):
+            if section_id in EXCLUDE_SECTIONS or \
+                    (proper.id in EXCLUDE_COMMEMORATIONS and section_id in COMMEMORATION_SECTIONS):
                 proper.pop_section(section_id)
         return proper
 

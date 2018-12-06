@@ -41,7 +41,7 @@ def test_parse_proper_no_refs():
 def test_parse_proper_refs_inside_sections_and_in_vide():
     proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_01_22, language)
 
-    assert '## 22 I – ŚŚ. Wincentego' in proper_vernacular.get_section('Comment').body[0]
+    assert '## 22 I – Śś. Wincentego' in proper_vernacular.get_section('Comment').body[0]
     assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section('Introitus').body[0]
     assert 'Przychyl się, Panie,' in proper_vernacular.get_section('Oratio').body[0]
     assert '*Mdr 3:1-8*' in proper_vernacular.get_section('Lectio').body[1]
@@ -125,6 +125,7 @@ def test_get_repr():
 
 
 @pytest.mark.parametrize("date_,sections", [
+    ((2018, 12, 11), ['Commemoratio Oratio', 'Commemoratio Secreta', 'Commemoratio Postcommunio']),
     ((2018, 12, 7), ['Commemoratio Oratio', 'Commemoratio Secreta', 'Commemoratio Postcommunio']),
     ((2018, 12, 6), ['Rank1570'])
 ])
