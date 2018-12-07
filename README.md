@@ -35,8 +35,6 @@ required dependencies. Then `pipenv shell` to activate the environment.
 
 #### Configuration
 
-In [index.html](missal1962/static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
-
 By default the application is using `lru_cache` to cache responses from `missal1962.controller` functions (which are
 used by `missal1962.api` to fetch the data).
 
@@ -75,7 +73,10 @@ and navigate to http://0.0.0.0:8000/.
 
 The application can also work without the API. In such a case it utilizes a limited set of [generated data files](missal1962/static/data).
 
-To run in this mode simply navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
+To run in this mode:
+
+* In [index.html](missal1962/static/index.html) change js config link from `js/conf-api.js` to `js/conf-static.js`.
+* Navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
 
 ```bash
 $ cd missal1962/static

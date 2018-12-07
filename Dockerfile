@@ -18,7 +18,5 @@ COPY resources/divinum-officium/web/www/missa/Polski ./resources/divinum-officiu
 COPY resources/divinum-officium/web/www/missa/Latin ./resources/divinum-officium/web/www/missa/Latin
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
 COPY missal1962 ./missal1962
-COPY deploy.sh .
-RUN ./deploy.sh
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "-w", "4", "wsgi"]
