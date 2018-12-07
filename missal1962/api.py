@@ -62,7 +62,8 @@ def date(date_: str):
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         missal: Calendar = controller.get_calendar(date_object.year, lang)
         day: Day = missal.get_day(date_object)
-        propers: List[Tuple[Proper, Proper]] = day.get_proper()
+        # calling a function from controller instead of day.get_proper() directly to make use of caching
+        propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, lang)
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
     except Exception as e:

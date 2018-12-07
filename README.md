@@ -18,25 +18,14 @@ is available in Divinum Officium, it will be relatively easy to support them. Vo
 
 ## Running the application
 
-### Static mode
-
-The application can work without the API. In such a case it utilizes a limited set of [generated data files](missal1962/static/data).
-
-To run in this mode simply navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
-
-```bash
-$ cd missal1962/static
-$ python -m http.server 8080
-```
-
-and navigate to http://0.0.0.0:8080/.
-
 ### API mode
 
-Prerequisites:
+#### Prerequisites:
 
 * Python 3.6
 * [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+
+#### Installation
 
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
@@ -44,9 +33,16 @@ as a submodule - it's used to display propers.
 Once cloned, go to the project's dir and call `pipenv install --dev` to install a dedicated virtualenv with
 required dependencies. Then `pipenv shell` to activate the environment.
 
+#### Configuration
+
 In [index.html](missal1962/static/index.html) change js config link from `js/conf-static.js` to `js/conf-api.js`.
 
-Run the development API:
+By default the application is using `lru_cache` to cache responses from `missal1962.controller` functions (which are
+used by `missal1962.api` to fetch the data).
+
+To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
+
+#### Run the development API:
 
 ```bash
 $ python missal1962/api.py
@@ -75,6 +71,18 @@ $ docker run -d -p 8000:8000 missal1962
 
 and navigate to http://0.0.0.0:8000/.
 
+### Static mode
+
+The application can also work without the API. In such a case it utilizes a limited set of [generated data files](missal1962/static/data).
+
+To run in this mode simply navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
+
+```bash
+$ cd missal1962/static
+$ python -m http.server 8080
+```
+
+and navigate to http://0.0.0.0:8080/.
 
 ### Command line (CLI)
 
