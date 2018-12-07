@@ -2,7 +2,7 @@ import os
 import re
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
+DIVOFF_DIR = os.path.join('/Users/mmolenda/prv/divinum-officium')
 CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium-custom')
 
 LANGUAGE_LATIN = 'Latin'
