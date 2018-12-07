@@ -13,7 +13,7 @@ from propers.parser import ProperParser
 no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
 
-@lru_cache(maxsize=0 if no_cache else 64)
+@lru_cache(64)
 def get_calendar(year: int, lang) -> Calendar:
     return MissalFactory.create(year, lang)
 

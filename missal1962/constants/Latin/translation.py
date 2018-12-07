@@ -706,24 +706,24 @@ section_labels = {
 }
 
 section_labels_multi = {
-    'GradualeL1': 'GradualeL1',
-    'GradualeL2': 'GradualeL2',
-    'GradualeL3': 'GradualeL3',
-    'GradualeL4': 'GradualeL4',
-    'GradualeL5': 'GradualeL5',
-    'Graduale': 'Graduale',
-    'LectioL1': 'LectioL1',
-    'LectioL2': 'LectioL2',
-    'LectioL3': 'LectioL3',
-    'LectioL4': 'LectioL4',
-    'LectioL5': 'LectioL5',
-    'Lectio': 'Lectio',
-    'OratioL1': 'OratioL1',
-    'OratioL2': 'OratioL2',
-    'OratioL3': 'OratioL3',
-    'OratioL4': 'OratioL4',
-    'OratioL5': 'OratioL5',
-    'Oratio': 'Oratio'
+    'GradualeL1': '1 Graduale',
+    'GradualeL2': '2 Graduale',
+    'GradualeL3': '3 Graduale',
+    'GradualeL4': '4 Graduale',
+    'GradualeL5': '5 Graduale',
+    'Graduale': '6 Graduale',
+    'LectioL1': '1 Lectio',
+    'LectioL2': '2 Lectio',
+    'LectioL3': '3 Lectio',
+    'LectioL4': '4 Lectio',
+    'LectioL5': '5 Lectio',
+    'Lectio': '6 Lectio',
+    'OratioL1': '2 Oratio',
+    'OratioL2': '3 Oratio',
+    'OratioL3': '4 Oratio',
+    'OratioL4': '5 Oratio',
+    'OratioL5': '6 Oratio',
+    'Oratio': '1 Oratio'
 }
 
 paternoster = (
