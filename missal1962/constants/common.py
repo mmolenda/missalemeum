@@ -961,7 +961,13 @@ COMMEMORATION_SECTIONS = [
 # level whether to omit a commemoration or not, hence this hardcoded list.
 EXCLUDE_COMMEMORATIONS = [
     SANCTI_12_07,
-    SANCTI_12_11
+    SANCTI_12_11,
+    SANCTI_06_25,
+    SANCTI_06_30,
+    TEMPORA_PENT02_0,
+    TEMPORA_PENT03_0,
+    SANCTI_07_01,
+    SANCTI_07_05,
 
 ]
 
