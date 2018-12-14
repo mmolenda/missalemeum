@@ -61,10 +61,11 @@ class Proper:
         rules = {'preface': None, 'vide': None}
 
         rules_src = []
-        for s in ('Rule', 'Rank'):
+        for s in ('Rank', 'Rule'):
             section = self.get_section(s)
             if section is not None:
-                rules_src.extend(section.get_body())
+                for line in section.get_body():
+                    rules_src.extend([i.strip() for i in line.split(';')])
 
         if rules_src:
             preface = [i for i in rules_src if i.startswith('Prefatio=')]
