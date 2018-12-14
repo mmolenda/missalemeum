@@ -5,9 +5,8 @@ import re
 from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple
 
-from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, EXCLUDE_SECTIONS,
-                              COMMEMORATION_SECTIONS, LANGUAGE_LATIN,
-                              REFERENCE_REGEX, SECTION_REGEX, EXCLUDE_COMMEMORATIONS)
+from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
+                              EXCLUDE_SECTIONS_IDX, ASTERISK)
 from propers.models import Proper, ProperSection
 
 log = logging.getLogger(__name__)
@@ -127,7 +126,7 @@ class ProperParser:
         proper = cls._resolve_conditionals(proper)
         if 'Ordo' not in partial_path and not lookup_section:
             proper = cls._add_prefaces(proper, lang)
-            proper = cls._filter_sections(proper, lang)
+            proper = cls._filter_sections(proper)
             proper = cls._translate_section_titles(proper, lang)
         return proper
 
@@ -145,10 +144,9 @@ class ProperParser:
         return proper
 
     @classmethod
-    def _filter_sections(cls, proper, lang):
+    def _filter_sections(cls, proper):
         for section_id in list(proper.keys()):
-            if section_id in EXCLUDE_SECTIONS or \
-                    (proper.id in EXCLUDE_COMMEMORATIONS and section_id in COMMEMORATION_SECTIONS):
+            if {proper.id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())):
                 proper.pop_section(section_id)
         return proper
 

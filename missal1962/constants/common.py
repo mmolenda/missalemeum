@@ -1,5 +1,6 @@
 import os
 import re
+from collections import defaultdict
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
@@ -9,6 +10,7 @@ LANGUAGE_LATIN = 'Latin'
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
 
+ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
 PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
@@ -926,50 +928,54 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
 
 # Related to propers' printing
 
-EXCLUDE_SECTIONS = (
-    'Evangelium1',
-    'Evangelium2',
-    'Evangelium3',
-    'Evangelium4',
-    'Lectio1',
-    'Prelude(rubrica 1570)',
-    'Rank1570',
-    'Rank1960',
-    'RankNewcal',
-    'RankTrident',
-    'Rank (rubrica 1955 aut rubrica 1960)',
-    'Rank (rubrica 1960)',
-    'Rank (rubrica innovata)',
-    'Rank (si rubrica 1960)',
-    'Rank (si rubrica innovata)',
-    'Rule',
-    'Tractus1',
-    'Munda Cor Passionis',
-    'GradualeF',
-    'Footnotes',
-    'Name'
-)
-
 COMMEMORATION_SECTIONS = [
     'Commemoratio Oratio',
     'Commemoratio Postcommunio',
     'Commemoratio Secreta'
 ]
 
-# This list contains IDs of propers that contain commemorations in their source, but they should
-# never be exposed as they are not part of 1962 issue of the  Missal. It is not always obvious from the source file
-# level whether to omit a commemoration or not, hence this hardcoded list.
-EXCLUDE_COMMEMORATIONS = [
-    SANCTI_12_07,
-    SANCTI_12_11,
-    SANCTI_06_25,
-    SANCTI_06_30,
-    TEMPORA_PENT02_0,
-    TEMPORA_PENT03_0,
-    SANCTI_07_01,
-    SANCTI_07_05,
+# This list contains tuples consisting of a proper ID and a list of sections that should be excluded from given proper.
+# E.g. some propers contain commemorations in their source, but they should never be exposed as they are not part of
+# 1962 issue of the  Missal. Asterisk (*) means that given section should always be be excluded.
+EXCLUDE_SECTIONS = (
+    (ASTERISK, ['Evangelium1']),
+    (ASTERISK, ['Evangelium2']),
+    (ASTERISK, ['Evangelium3']),
+    (ASTERISK, ['Evangelium4']),
+    (ASTERISK, ['Lectio1']),
+    (ASTERISK, ['Prelude(rubrica 1570)']),
+    (ASTERISK, ['Rank1570']),
+    (ASTERISK, ['Rank1960']),
+    (ASTERISK, ['RankNewcal']),
+    (ASTERISK, ['RankTrident']),
+    (ASTERISK, ['Rank (rubrica 1955 aut rubrica 1960)']),
+    (ASTERISK, ['Rank (rubrica 1960)']),
+    (ASTERISK, ['Rank (rubrica innovata)']),
+    (ASTERISK, ['Rank (si rubrica 1960)']),
+    (ASTERISK, ['Rank (si rubrica innovata)']),
+    (ASTERISK, ['Rule']),
+    (ASTERISK, ['Tractus1']),
+    (ASTERISK, ['Munda Cor Passionis']),
+    (ASTERISK, ['GradualeF']),
+    (ASTERISK, ['Footnotes']),
+    (ASTERISK, ['Name']),
+    (SANCTI_03_25, ['Graduale']),
+    (SANCTI_06_25, COMMEMORATION_SECTIONS),
+    (SANCTI_06_30, COMMEMORATION_SECTIONS),
+    (SANCTI_07_01, COMMEMORATION_SECTIONS),
+    (SANCTI_07_05, COMMEMORATION_SECTIONS),
+    (SANCTI_12_07, COMMEMORATION_SECTIONS),
+    (SANCTI_12_11, COMMEMORATION_SECTIONS),
+    (TEMPORA_PENT02_0, COMMEMORATION_SECTIONS),
+    (TEMPORA_PENT03_0, COMMEMORATION_SECTIONS),
+)
 
-]
+# EXCLUDE_SECTIONS organized by section ID
+EXCLUDE_SECTIONS_IDX = defaultdict(set)
+for id_, sections in EXCLUDE_SECTIONS:
+    for section in sections:
+        EXCLUDE_SECTIONS_IDX[section].add(id_)
+
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')

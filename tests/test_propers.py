@@ -127,7 +127,8 @@ def test_get_repr():
 @pytest.mark.parametrize("date_,sections", [
     ((2018, 12, 11), ['Commemoratio Oratio', 'Commemoratio Secreta', 'Commemoratio Postcommunio']),
     ((2018, 12, 7), ['Commemoratio Oratio', 'Commemoratio Secreta', 'Commemoratio Postcommunio']),
-    ((2018, 12, 6), ['Rank1570'])
+    ((2018, 12, 6), ['Rank1570']),
+    ((2019, 3, 25), ['Graduale'])
 ])
 def test_ignored_sections(date_, sections):
     missal = get_missal(date_[0], language)
