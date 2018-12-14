@@ -53,6 +53,7 @@ WEEKDAY_MAPPING = {
 }
 
 
+# Sections that will be visible on serialization; they'll be also ordered according to this list
 VISIBLE_SECTIONS = [
     'Comment',
     # Atypical sections
@@ -88,25 +89,25 @@ VISIBLE_SECTIONS = [
     # Common sections
     'Introitus',
     'Oratio',
+    'LectioL1',
+    'GradualeL1',
     'OratioL1',
+    'LectioL2',
+    'GradualeL2',
     'OratioL2',
+    'LectioL3',
+    'GradualeL3',
     'OratioL3',
+    'LectioL4',
+    'GradualeL4',
     'OratioL4',
+    'LectioL5',
+    'GradualeL5',
     'OratioL5',
     'Commemoratio Oratio',
     'Lectio',
-    'LectioL1',
-    'LectioL2',
-    'LectioL3',
-    'LectioL4',
-    'LectioL5',
     'Graduale',
     # 'GradualeP',  Ignoring for now
-    'GradualeL1',
-    'GradualeL2',
-    'GradualeL3',
-    'GradualeL4',
-    'GradualeL5',
     'Tractus',
     'Sequentia',
     'Evangelium',

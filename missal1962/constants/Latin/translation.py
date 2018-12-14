@@ -706,24 +706,24 @@ section_labels = {
 }
 
 section_labels_multi = {
-    'GradualeL1': '1 Graduale',
-    'GradualeL2': '2 Graduale',
-    'GradualeL3': '3 Graduale',
-    'GradualeL4': '4 Graduale',
-    'GradualeL5': '5 Graduale',
-    'Graduale': '6 Graduale',
-    'LectioL1': '1 Lectio',
-    'LectioL2': '2 Lectio',
-    'LectioL3': '3 Lectio',
-    'LectioL4': '4 Lectio',
-    'LectioL5': '5 Lectio',
-    'Lectio': '6 Lectio',
-    'OratioL1': '2 Oratio',
-    'OratioL2': '3 Oratio',
-    'OratioL3': '4 Oratio',
-    'OratioL4': '5 Oratio',
-    'OratioL5': '6 Oratio',
-    'Oratio': '1 Oratio'
+    'GradualeL1': 'Graduale',
+    'GradualeL2': 'Graduale',
+    'GradualeL3': 'Graduale',
+    'GradualeL4': 'Graduale',
+    'GradualeL5': 'Graduale',
+    'Graduale': 'Graduale',
+    'LectioL1': 'Lectio',
+    'LectioL2': 'Lectio',
+    'LectioL3': 'Lectio',
+    'LectioL4': 'Lectio',
+    'LectioL5': 'Lectio',
+    'Lectio': 'Lectio',
+    'OratioL1': 'Oratio',
+    'OratioL2': 'Oratio',
+    'OratioL3': 'Oratio',
+    'OratioL4': 'Oratio',
+    'OratioL5': 'Oratio',
+    'Oratio': 'Oratio'
 }
 
 paternoster = (
