@@ -68,9 +68,9 @@ class Proper:
                     rules_src.extend([i.strip() for i in line.split(';')])
 
         if rules_src:
-            preface = [i for i in rules_src if i.startswith('Prefatio=')]
+            preface = [i for i in rules_src if i.startswith('Prefatio') and '=' in i]
             if preface:
-                rules['preface'] = preface[0].split('=')[1]
+                rules['preface'] = preface[-1].split('=')[1]
 
             vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
             if vide:

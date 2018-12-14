@@ -77,8 +77,8 @@ $window.on("load", function () {
         sidebarTouchXPos = e.originalEvent.touches[0].pageX;
     }).on("touchend", function (e) {
         if (navbarIsCollapsed()) {
-            if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 50 && $sidebarAndContent.hasClass("active")) ||
-                (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -50 && !$sidebarAndContent.hasClass("active"))) {
+            if ((sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX > 80 && $sidebarAndContent.hasClass("active")) ||
+                (sidebarTouchXPos - e.originalEvent.changedTouches[0].pageX < -80 && !$sidebarAndContent.hasClass("active"))) {
                 $sidebarAndContent.toggleClass("active");
             }
         }

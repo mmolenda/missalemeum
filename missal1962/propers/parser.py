@@ -146,6 +146,7 @@ class ProperParser:
     @classmethod
     def _filter_sections(cls, proper):
         for section_id in list(proper.keys()):
+            section_id = section_id.split('(')[0]
             if {proper.id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())):
                 proper.pop_section(section_id)
         return proper

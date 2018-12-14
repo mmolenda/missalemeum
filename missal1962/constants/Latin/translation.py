@@ -595,7 +595,7 @@ titles = {
     constants.SANCTI_10_18: 'Św. Łukasza, Ewangelisty',
     constants.SANCTI_10_19: 'Św. Piotra z Alkantary, Wyznawcy',
     constants.SANCTI_10_20: 'Św. Jana Kantego, Wyznawcy',
-    constants.SANCTI_10_21: 'Św. Urszuli i jej Towarzyszek, Męczennic',
+    constants.SANCTI_10_21: 'Św. Hilariona, Opata',
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',
     constants.SANCTI_10_25: 'Śś. Chryzanta i Darii, Męczenników',
