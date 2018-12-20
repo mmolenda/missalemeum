@@ -14,7 +14,11 @@ language = 'Polski'
 def test_parse_proper_no_refs():
     proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_01_06, language)
 
-    assert 'Objawienie' in proper_vernacular.get_section('Comment').body[0]
+    assert 'Objawienie' in proper_vernacular.title
+    assert 1 == proper_vernacular.rank
+    assert '«Obchodzimy dzień święty' in proper_vernacular.description
+    assert 'Stacja u Św. Piotra' in proper_vernacular.additional_info
+    assert 'Szaty białe' in proper_vernacular.additional_info
     assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
     assert 'Boże, w dniu dzisiejszym' in proper_vernacular.get_section('Oratio').body[0]
     assert '*Iz 60:1-6*' in proper_vernacular.get_section('Lectio').body[1]
@@ -41,7 +45,7 @@ def test_parse_proper_no_refs():
 def test_parse_proper_refs_inside_sections_and_in_vide():
     proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_01_22, language)
 
-    assert '## 22 I – Śś. Wincentego' in proper_vernacular.get_section('Comment').body[0]
+    assert 'Śś. Wincentego' in proper_vernacular.title
     assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section('Introitus').body[0]
     assert 'Przychyl się, Panie,' in proper_vernacular.get_section('Oratio').body[0]
     assert '*Mdr 3:1-8*' in proper_vernacular.get_section('Lectio').body[1]
@@ -69,7 +73,7 @@ def test_parse_proper_refs_inside_sections_and_in_vide():
 
 def test_parse_proper_ref_outside_sections():
     proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_10_DUr, language)
-    assert '## Chrystusa Króla' in proper_vernacular.get_section('Comment').body[0]
+    assert 'Chrystusa Króla' in proper_vernacular.title
     assert '*Ap 5:12; 1:6*' in proper_vernacular.get_section('Introitus').body[0]
     assert '*Apoc 5:12; 1:6*' in proper_latin.get_section('Introitus').body[0]
 
@@ -86,7 +90,7 @@ def test_proper_not_found():
 
 def test_get_proper_from_observance():
     proper_vernacular, proper_latin = Observance(c.SANCTI_01_06, date(2018, 1, 6), language).get_proper()
-    assert 'Objawienie' in proper_vernacular.get_section('Comment').body[0]
+    assert 'Objawienie' in proper_vernacular.title
     assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
     assert 'Malach 3:1' in proper_latin.get_section('Introitus').body[0]
     assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
@@ -95,7 +99,7 @@ def test_get_proper_from_observance():
 def test_get_proper_from_day():
     missal = get_missal(2018, language)
     proper_vernacular, proper_latin = missal.get_day(date(2018, 1, 6)).get_proper()[0]
-    assert 'Objawienie' in proper_vernacular.get_section('Comment').body[0]
+    assert 'Objawienie' in proper_vernacular.title
     assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
     assert 'Malach 3:1' in proper_latin.get_section('Introitus').body[0]
     assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]

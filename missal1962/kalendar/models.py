@@ -5,13 +5,13 @@ import re
 from collections import OrderedDict
 from copy import copy
 from datetime import date, timedelta
-from exceptions import ProperNotFound
 from typing import ItemsView, List, Tuple, Union
 
 from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, PENT01_0A,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING)
+from propers.models import Proper
 from propers.parser import ProperParser
 
 log = logging.getLogger(__name__)
@@ -70,6 +70,9 @@ class Observance:
 
     def get_proper(self) -> Tuple['Proper', 'Proper']:
         return ProperParser.parse(self.id, self.lang)
+
+    def has_proper(self) -> bool:
+        return ProperParser.proper_exists(self.id, self.lang)
 
     def serialize(self) -> dict:
         return {'id': self.id, 'rank': self.rank, 'title': self.title}
@@ -152,12 +155,14 @@ class Day:
         Get proper that is used in today Mass. If given day does not have a dedicated proper,
         use the one from the latest Sunday.
         """
+        current_observances = None
         if self.celebration:
-            try:
-                return [i.get_proper() for i in self.celebration]
-            except ProperNotFound as e:
+            current_observances = self.celebration
+            if all([i.has_proper() for i in current_observances]):
+                return self._calculate_proper(current_observances)
+            else:
                 if self.celebration[0].flexibility == 'sancti':
-                    log.error(e)
+                    log.error(f"Proper not found for {current_observances[0].id}")
 
         # No proper for this day, trying to get one from the latest Sunday
         date_: date = copy(self.date)
@@ -170,21 +175,40 @@ class Day:
         if day.celebration[0].id == TEMPORA_EPI1_0:
             # "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
             # following days without the own proper
-            return [Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang).get_proper()]
+            return self._calculate_proper(current_observances, Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang))
         if day.celebration[0].id == TEMPORA_PENT01_0:
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
-            return [Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang).get_proper()]
+            return self._calculate_proper(current_observances, Observance(TEMPORA_PENT01_0, date_, self.calendar.lang))
 
         if day.tempora:
-            return [day.tempora[0].get_proper()]
-        return [day.celebration[0].get_proper()]
+            return self._calculate_proper(current_observances, day.tempora[0])
+        return self._calculate_proper(current_observances, day.celebration[0])
 
     def serialize(self) -> dict:
         serialized = {}
         for container in ('tempora', 'celebration', 'commemoration'):
             serialized[container] = [i.serialize() for i in getattr(self, container)]
         return serialized
+
+    def _calculate_proper(self, current_observance: List[Observance], inferred_observance: Observance = None) \
+            -> List[Tuple['Proper', 'Proper']]:
+        """
+        Accommodate propers for given observance to the current calendar day.
+        For example:
+         * In paschal time show paschal gradual instead of regular gradual
+         * In Lent show tractus instead of gradual
+         * In feria days, when the proper from the last sunday is used, adjust day's class, remove "alleluja", etc.
+         * Show proper prefatio
+         * etc.
+        """
+        # It's a feria day without own proper for which the last Sunday's proper is used
+        if inferred_observance:
+            propers: Tuple[Proper, Proper] = inferred_observance.get_proper()
+            for proper in propers:
+                proper.rank = current_observance[0].rank if current_observance else 4
+            return [propers]
+        return [i.get_proper() for i in current_observance]
 
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)

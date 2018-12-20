@@ -4,15 +4,14 @@ import os
 
 import datetime
 import logging
-import re
 from flask import Flask, jsonify, send_file
 from flask_cors import CORS
-from typing import List, Tuple, Union
+from typing import List, Tuple
 
 import controller
 from exceptions import InvalidInput, ProperNotFound
 from kalendar.models import Calendar, Day
-from propers.models import Proper, ProperSection
+from propers.models import Proper
 
 app = Flask(__name__)
 CORS(app)
@@ -38,24 +37,6 @@ def frontend(path=''):
         return send_file(index_path)
 
 
-def _parse_comment(comment: Union[None, ProperSection]) -> dict:
-    retval = {
-        "title": "",
-        "description": "",
-        "additional_info": []
-    }
-    if comment is None:
-        return retval
-    for ln in comment.get_body():
-        if ln.startswith('#'):
-            retval['title'] = re.split("[–—-]", ln.strip("#"), 1)[-1].strip()
-        elif ln.strip().startswith('*') and ln.endswith('*'):
-            retval['additional_info'].append(ln.replace('*', ''))
-        else:
-            retval['description'] += ln + '\n'
-    return retval
-
-
 @app.route('/date/<string:date_>')
 def date(date_: str):
     try:
@@ -70,25 +51,19 @@ def date(date_: str):
     else:
         retvals = []
         for propers_vernacular, propers_latin in propers:
-            info = {
-                "title": None,
-                "description": None,
-                "additional_info": None,
-                "tempora": None,
-                "date": date_,
-            }
-            comment: ProperSection = propers_vernacular.pop_section('Comment')
-            parsed_comment: dict = _parse_comment(comment)
             # In most of the cases calculate the celebration title from the Observance object falling on
             # a given day; in case of days with multiple masses (02 Nov, 25 Dec) get the title from
             # proper's comment directly
-            info['title'] = day.get_celebration_name() if len(propers) < 2 else parsed_comment['title']
-            info['description'] = parsed_comment['description']
-            info['additional_info'] = parsed_comment['additional_info']
-
+            title = day.get_celebration_name() if len(propers) < 2 else propers_vernacular.title
             tempora_name: str = day.get_tempora_name()
-            info["tempora"] = tempora_name if tempora_name != info["title"] else None
-
+            info = {
+                "title": title,
+                "description": propers_vernacular.description,
+                "additional_info": propers_vernacular.additional_info,
+                "tempora": tempora_name if tempora_name != title else None,
+                "rank": propers_vernacular.rank,
+                "date": date_,
+            }
             retvals.append({
                 "info": info,
                 "proper_vernacular": propers_vernacular.serialize(),

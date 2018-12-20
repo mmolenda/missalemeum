@@ -1,4 +1,3 @@
-import json
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS
@@ -11,11 +10,19 @@ class Proper:
     Internally it keeps the data in a dict of sections where each key is a section's ID and the value
     is a `ProperSection` object keeping actual content of the section.
     """
+    title: str = None
+    description: str = None
+    rank: int = None
+    additional_info: List[str] = []
     _container: dict = None
 
     def __init__(self, id_: str) -> None:
         self.id = id_
         self._container = {}
+        try:
+            self.rank = int(id_.split(':')[-1])
+        except ValueError:
+            pass
 
     def serialize(self) -> List[dict]:
         list_ = [v.serialize() for k, v in self._container.items() if k in VISIBLE_SECTIONS]

@@ -125,7 +125,7 @@ $(window).on("load", function () {
                 let description = item["info"].description;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
-                let additional_info = [item["info"].date];
+                let additional_info = [item["info"].date, mapRank(item["info"].rank)];
                 if (item["info"].tempora != null) {
                     additional_info.push(item["info"].tempora);
                 }
@@ -200,6 +200,10 @@ $(window).on("load", function () {
     function toggleSidebarItemSpinner(date) {
         let newActive = $("li#sidebar-calendar-item-" + date);
         newActive.addClass("in-progress");
+    }
+
+    function mapRank(rank) {
+        return {1: '1 klasy', 2: '2 klasy', 3: '3 klasy', 4: '4 klasy'}[rank]
     }
 
     /**

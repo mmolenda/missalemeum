@@ -2,11 +2,12 @@ import importlib
 import logging
 import os
 import re
+
 from exceptions import InvalidInput, ProperNotFound
-from typing import Tuple
+from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
-                              EXCLUDE_SECTIONS_IDX, ASTERISK)
+                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION)
 from propers.models import Proper, ProperSection
 
 log = logging.getLogger(__name__)
@@ -26,7 +27,7 @@ class ProperParser:
     @classmethod
     def parse(cls, proper_id: str, lang: str) -> Tuple[Proper, Proper]:
         cls.proper_id: str = proper_id
-        cls.lang = lang
+        cls.lang: str = lang
         cls.translations[cls.lang] = importlib.import_module(f'constants.{cls.lang}.translation')
         cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
         cls.prefaces[cls.lang] = cls.parse_file('Ordo/Prefationes.txt', cls.lang)
@@ -128,7 +129,51 @@ class ProperParser:
             proper = cls._add_prefaces(proper, lang)
             proper = cls._filter_sections(proper)
             proper = cls._translate_section_titles(proper, lang)
+
+        # Moving data from "Comment" section up as direct properties of a Proper object
+        parsed_comment: dict = cls._parse_comment(proper.pop_section('Comment'))
+        proper.title = parsed_comment['title']
+        proper.description = parsed_comment['description']
+        proper.additional_info = parsed_comment['additional_info']
+        if not proper.rank:
+            # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
+            proper.rank = parsed_comment['rank']
+
         return proper
+
+    @classmethod
+    def proper_exists(cls, proper_id: str, lang: str) -> bool:
+        try:
+            partial_path = f'{proper_id.split(":")[0].capitalize()}/{proper_id.split(":")[1]}.txt'
+        except IndexError:
+            raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
+        return os.path.exists(cls._get_full_path(partial_path, lang))
+
+    @classmethod
+    def _parse_comment(cls, comment: Union[None, ProperSection]) -> dict:
+        parsed_comment = {
+            "title": None,
+            "description": "",
+            "rank": None,
+            "additional_info": []
+        }
+        if comment is None:
+            return parsed_comment
+        for ln in comment.get_body():
+            if ln.startswith('#'):
+                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), 1)[-1].strip()
+            elif ln.strip().startswith('*') and ln.endswith('*'):
+                info_item = ln.replace('*', '')
+                try:
+                    parsed_comment['rank'] = int(info_item.split(' ')[0])
+                except ValueError:
+                    if PATTERN_COMMEMORATION in info_item.lower():
+                        parsed_comment['rank'] = 4
+                    else:
+                        parsed_comment['additional_info'].append(info_item)
+            else:
+                parsed_comment['description'] += ln + '\n'
+        return parsed_comment
 
     @classmethod
     def _normalize(cls, ln, lang):
