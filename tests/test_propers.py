@@ -5,6 +5,7 @@ import pytest
 
 from constants import common as c
 from kalendar.models import Observance
+from propers.models import ProperConfig
 from propers.parser import ProperParser
 from tests.conftest import get_missal
 
@@ -139,3 +140,24 @@ def test_ignored_sections(date_, sections):
     _, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
     for section in sections:
         assert proper_latin.get_section(section) is None
+
+
+@pytest.mark.parametrize("date_,preface_body", [
+    ((2018, 10, 28), '*de D.N. Jesu Christi Rege*'),  # Christ the Kind
+    ((2018, 12, 16), '*de sanctissima Trinitate*'),  # 3rd Sunday of Advent - should be Trinity
+    ((2018, 12, 17), '*Communis*'),  # Monday after 3rd Sunday of Advent - should be Communis
+    ((2019, 6, 24), '*Communis*'),  # Nativity of John Baptist - should be Communis, but in source files it's st. John
+])
+def test_correct_preface_calculated_by_date(date_, preface_body):
+    missal = get_missal(date_[0], language)
+    _, proper = missal.get_day(date(*date_)).get_proper()[0]
+    assert preface_body == proper.get_section('Prefatio').get_body()[0]
+
+
+@pytest.mark.parametrize("proper_id,preface_name,preface_body", [
+    ('tempora:Adv2-0', 'Communis', '*Communis*'),
+    ('tempora:Adv2-0', 'Trinitate', '*de sanctissima Trinitate*'),
+])
+def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, preface_body):
+    _, proper = ProperParser.parse(proper_id, language, ProperConfig(preface=preface_name))
+    assert preface_body == proper.get_section('Prefatio').get_body()[0]

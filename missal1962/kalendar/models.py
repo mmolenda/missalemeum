@@ -10,9 +10,10 @@ from typing import ItemsView, List, Tuple, Union
 from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, PENT01_0A,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
-                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING)
-from propers.models import Proper
+                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, CUSTOM_PREFACES)
+from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
+from utils import infer_custom_preface
 
 log = logging.getLogger(__name__)
 
@@ -68,8 +69,8 @@ class Observance:
             self.weekday = date_.weekday()
         self.priority = self._calc_priority()
 
-    def get_proper(self) -> Tuple['Proper', 'Proper']:
-        return ProperParser.parse(self.id, self.lang)
+    def get_proper(self, config=None) -> Tuple['Proper', 'Proper']:
+        return ProperParser.parse(self.id, self.lang, config)
 
     def has_proper(self) -> bool:
         return ProperParser.proper_exists(self.id, self.lang)
@@ -185,12 +186,6 @@ class Day:
             return self._calculate_proper(current_observances, day.tempora[0])
         return self._calculate_proper(current_observances, day.celebration[0])
 
-    def serialize(self) -> dict:
-        serialized = {}
-        for container in ('tempora', 'celebration', 'commemoration'):
-            serialized[container] = [i.serialize() for i in getattr(self, container)]
-        return serialized
-
     def _calculate_proper(self, current_observance: List[Observance], inferred_observance: Observance = None) \
             -> List[Tuple['Proper', 'Proper']]:
         """
@@ -202,13 +197,26 @@ class Day:
          * Show proper prefatio
          * etc.
         """
-        # It's a feria day without own proper for which the last Sunday's proper is used
         if inferred_observance:
-            propers: Tuple[Proper, Proper] = inferred_observance.get_proper()
+            # It's a feria day without its own proper for which the last Sunday's proper is used
+            if current_observance:
+                rank: int = current_observance[0].rank
+                custom_preface_name: str = infer_custom_preface(current_observance[0].id)
+            else:
+                rank: int = 4
+                custom_preface_name: str = infer_custom_preface(inferred_observance.id)
+            config: ProperConfig = ProperConfig(preface=custom_preface_name)
+            propers: Tuple[Proper, Proper] = inferred_observance.get_proper(config)
             for proper in propers:
-                proper.rank = current_observance[0].rank if current_observance else 4
+                proper.rank = rank
             return [propers]
-        return [i.get_proper() for i in current_observance]
+        return [i.get_proper(ProperConfig(preface=infer_custom_preface(i.id))) for i in current_observance]
+
+    def serialize(self) -> dict:
+        serialized = {}
+        for container in ('tempora', 'celebration', 'commemoration'):
+            serialized[container] = [i.serialize() for i in getattr(self, container)]
+        return serialized
 
     def __str__(self):
         return str(self.tempora) + str(self.celebration) + str(self.commemoration)

@@ -125,3 +125,13 @@ class ProperSection:
 
     def __repr__(self):
         return f'Section<{self.label}>'
+
+
+class ProperConfig:
+    """
+    This class is used to override certain aspects of the proper existing in the proper's source file
+    """
+    preface = None
+
+    def __init__(self, preface=None):
+        self.preface = preface

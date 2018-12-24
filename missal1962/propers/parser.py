@@ -7,8 +7,8 @@ from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
-                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION)
-from propers.models import Proper, ProperSection
+                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS, CUSTOM_PREFACES)
+from propers.models import Proper, ProperSection, ProperConfig
 
 log = logging.getLogger(__name__)
 
@@ -19,15 +19,17 @@ class ProperParser:
     and represents them as a hierarchy of `propers.Proper` and `propers.ProperSection` objects.
     """
 
-    proper_id = None
+    proper_id: str = None
     lang: str = None
     translations: dict = {}
     prefaces: dict = {}
+    config: ProperConfig = None
 
     @classmethod
-    def parse(cls, proper_id: str, lang: str) -> Tuple[Proper, Proper]:
+    def parse(cls, proper_id: str, lang: str, config: ProperConfig = None) -> Tuple[Proper, Proper]:
         cls.proper_id: str = proper_id
-        cls.lang: str = lang
+        cls.lang = lang
+        cls.config = config or ProperConfig()
         cls.translations[cls.lang] = importlib.import_module(f'constants.{cls.lang}.translation')
         cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
         cls.prefaces[cls.lang] = cls.parse_file('Ordo/Prefationes.txt', cls.lang)
@@ -212,10 +214,10 @@ class ProperParser:
     def _add_prefaces(cls, proper, lang):
         if 'Prefatio' in proper.keys():
             return proper
-        preface_name = proper.get_rule('preface') or 'Communis'
+        preface_name = cls.config.preface or proper.get_rule('preface') or PREFATIO_COMMUNIS
         preface_item = cls.prefaces[lang].get_section(preface_name)
         if preface_item is None:
-            preface_item = cls.prefaces[lang].get_section('Communis')
+            preface_item = cls.prefaces[lang].get_section(PREFATIO_COMMUNIS)
         proper.set_section('Prefatio', ProperSection('Prefatio', body=preface_item.body))
         return proper
 
