@@ -19,7 +19,7 @@ def get_calendar(year: int, lang) -> Calendar:
 
 
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:
-    config: ProperConfig = ProperConfig(preface=infer_custom_preface(proper_id))
+    config: ProperConfig = ProperConfig(preface=infer_custom_preface(Proper(proper_id)))
     return ProperParser.parse(proper_id.lower().replace('__', ':'), lang, config)
 
 

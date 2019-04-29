@@ -143,10 +143,13 @@ def test_ignored_sections(date_, sections):
 
 
 @pytest.mark.parametrize("date_,preface_body", [
-    ((2018, 10, 28), '*de D.N. Jesu Christi Rege*'),  # Christ the Kind
+    ((2018, 10, 28), '*de D.N. Jesu Christi Rege*'),  # Christ the King
     ((2018, 12, 16), '*de sanctissima Trinitate*'),  # 3rd Sunday of Advent - should be Trinity
     ((2018, 12, 17), '*Communis*'),  # Monday after 3rd Sunday of Advent - should be Communis
     ((2019, 6, 24), '*Communis*'),  # Nativity of John Baptist - should be Communis, but in source files it's st. John
+    ((2019, 4, 27), '*Paschalis*'),
+    ((2019, 4, 30), '*Paschalis*'),
+    ((2019, 5, 1), '*de S. Joseph*'),
 ])
 def test_correct_preface_calculated_by_date(date_, preface_body):
     missal = get_missal(date_[0], language)

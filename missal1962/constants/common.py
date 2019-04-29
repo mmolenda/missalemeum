@@ -11,6 +11,7 @@ TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
 PREFATIO_COMMUNIS = 'Communis'
 PREFATIO_TRINITATE = 'Trinitate'
+PREFATIO_PASCHAL = 'Pasch'
 
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
@@ -1009,10 +1010,12 @@ for id_, sections in EXCLUDE_SECTIONS:
 CUSTOM_PREFACES = {
     PATTERN_ADVENT_FERIA: PREFATIO_COMMUNIS,
     PATTERN_ADVENT_SUNDAY: PREFATIO_TRINITATE,
+    PATTERN_EASTER: PREFATIO_PASCHAL,
     SANCTI_06_24: PREFATIO_COMMUNIS,  # St. John the Baptist
     TEMPORA_PENT02_0: PREFATIO_TRINITATE,  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
     SANCTI_11_09: PREFATIO_COMMUNIS,  # Consecration of basilica in Lateran
     SANCTI_11_18: PREFATIO_COMMUNIS,  # Consecration of basilica of Peter and Paul
+
 }
 
 

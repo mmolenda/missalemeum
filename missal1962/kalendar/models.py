@@ -186,7 +186,7 @@ class Day:
             return self._calculate_proper(current_observances, day.tempora[0])
         return self._calculate_proper(current_observances, day.celebration[0])
 
-    def _calculate_proper(self, current_observance: List[Observance], inferred_observance: Observance = None) \
+    def _calculate_proper(self, current_observances: List[Observance], inferred_observances: Observance = None) \
             -> List[Tuple['Proper', 'Proper']]:
         """
         Accommodate propers for given observance to the current calendar day.
@@ -197,20 +197,27 @@ class Day:
          * Show proper prefatio
          * etc.
         """
-        if inferred_observance:
+        if inferred_observances:
             # It's a feria day without its own proper for which the last Sunday's proper is used
-            if current_observance:
-                rank: int = current_observance[0].rank
-                custom_preface_name: str = infer_custom_preface(current_observance[0].id)
+            if current_observances:
+                rank: int = current_observances[0].rank
+                custom_preface_name: str = infer_custom_preface(current_observances[0])
             else:
                 rank: int = 4
-                custom_preface_name: str = infer_custom_preface(inferred_observance.id)
+                custom_preface_name: str = infer_custom_preface(inferred_observances)
             config: ProperConfig = ProperConfig(preface=custom_preface_name)
-            propers: Tuple[Proper, Proper] = inferred_observance.get_proper(config)
+            propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank
             return [propers]
-        return [i.get_proper(ProperConfig(preface=infer_custom_preface(i.id))) for i in current_observance]
+
+        else:
+            retval: List[Tuple[Proper, Proper]] = []
+            for observance in current_observances:
+                inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
+                proper_config = ProperConfig(preface=inferred_prefaces)
+                retval.append(observance.get_proper(proper_config))
+            return retval
 
     def serialize(self) -> dict:
         serialized = {}
