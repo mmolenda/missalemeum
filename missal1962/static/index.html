@@ -12,6 +12,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"/>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
+    <script>
+        let host = window.location.hostname;
+        if(host != "localhost" && host == "127.0.0.1" ) {
+            console.log("GA tracking");
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'UA-58957315-2', {'anonymize_ip': true});
+            gtag('config', 'UA-58957315-2');
+        } else {
+            console.log("GA no tracking");
+        }
+        console.log(host);
+    </script>
+
 </head>
 
 <body>
