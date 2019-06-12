@@ -17,8 +17,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
     <script>
         let host = window.location.hostname;
-        if(host != "localhost" && host == "127.0.0.1" ) {
-            console.log("GA tracking");
+        if(host != "localhost" && host != "127.0.0.1" ) {
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
@@ -28,10 +27,7 @@
             gtag('js', new Date());
             gtag('config', 'UA-58957315-2', {'anonymize_ip': true});
             gtag('config', 'UA-58957315-2');
-        } else {
-            console.log("GA no tracking");
         }
-        console.log(host);
     </script>
 
 </head>
