@@ -7,7 +7,7 @@ from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
-                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS, CUSTOM_PREFACES)
+                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS)
 from propers.models import Proper, ProperSection, ProperConfig
 
 log = logging.getLogger(__name__)
@@ -212,9 +212,9 @@ class ProperParser:
 
     @classmethod
     def _add_prefaces(cls, proper, lang):
-        if 'Prefatio' in proper.keys():
+        preface_name = cls.config.preface or proper.get_rule('preface') or None
+        if preface_name is None and 'Prefatio' in proper.keys():
             return proper
-        preface_name = cls.config.preface or proper.get_rule('preface') or PREFATIO_COMMUNIS
         preface_item = cls.prefaces[lang].get_section(preface_name)
         if preface_item is None:
             preface_item = cls.prefaces[lang].get_section(PREFATIO_COMMUNIS)

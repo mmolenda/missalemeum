@@ -7,10 +7,10 @@ from copy import copy
 from datetime import date, timedelta
 from typing import ItemsView, List, Tuple, Union
 
-from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, PENT01_0A,
+from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
-                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, CUSTOM_PREFACES)
+                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
 from utils import infer_custom_preface

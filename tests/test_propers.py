@@ -150,6 +150,9 @@ def test_ignored_sections(date_, sections):
     ((2019, 4, 27), '*Paschalis*'),
     ((2019, 4, 30), '*Paschalis*'),
     ((2019, 5, 1), '*de S. Joseph*'),
+    ((2019, 1, 25), '*de Apostolis*'),  # Conversion of st. Paul the Apostle
+    ((2019, 7, 25), '*de Apostolis*'),  # st. James, the Apostle
+    ((2019, 12, 21), '*de Apostolis*'),  # st. Thomas, the Apostle
 ])
 def test_correct_preface_calculated_by_date(date_, preface_body):
     missal = get_missal(date_[0], language)

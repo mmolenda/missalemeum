@@ -12,6 +12,7 @@ TYPE_SANCTI = 'sancti'
 PREFATIO_COMMUNIS = 'Communis'
 PREFATIO_TRINITATE = 'Trinitate'
 PREFATIO_PASCHAL = 'Pasch'
+PREFATIO_APOSTOLIS = 'Apostolis'
 
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
@@ -1007,16 +1008,18 @@ for id_, sections in EXCLUDE_SECTIONS:
         EXCLUDE_SECTIONS_IDX[section].add(id_)
 
 
-CUSTOM_PREFACES = {
-    PATTERN_ADVENT_FERIA: PREFATIO_COMMUNIS,
-    PATTERN_ADVENT_SUNDAY: PREFATIO_TRINITATE,
-    PATTERN_EASTER: PREFATIO_PASCHAL,
-    SANCTI_06_24: PREFATIO_COMMUNIS,  # St. John the Baptist
-    TEMPORA_PENT02_0: PREFATIO_TRINITATE,  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
-    SANCTI_11_09: PREFATIO_COMMUNIS,  # Consecration of basilica in Lateran
-    SANCTI_11_18: PREFATIO_COMMUNIS,  # Consecration of basilica of Peter and Paul
-
-}
+# Earlier prefaces takes precedence.
+CUSTOM_PREFACES = (
+    (TEMPORA_PENT02_0, PREFATIO_TRINITATE),  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
+    (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
+    (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul
+    (SANCTI_07_25, PREFATIO_APOSTOLIS),  # st. James, the Apostle
+    (SANCTI_12_21, PREFATIO_APOSTOLIS),  # st. Thomas, the Apostle
+    (SANCTI_06_24, PREFATIO_COMMUNIS),  # St. John the Baptist
+    (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
+    (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
+    (PATTERN_EASTER, PREFATIO_PASCHAL),
+)
 
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
