@@ -7,8 +7,9 @@ from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
-                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS)
-from propers.models import Proper, ProperSection, ProperConfig
+                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
+                              VISIBLE_SECTIONS)
+from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
 
@@ -16,46 +17,78 @@ log = logging.getLogger(__name__)
 class ProperParser:
     """
     ProperParser parses files from https://github.com/DivinumOfficium/divinum-officium in its proprietary format
-    and represents them as a hierarchy of `propers.Proper` and `propers.ProperSection` objects.
+    and represents them as a hierarchy of `propers.models.Proper` and `propers.model.Section` objects.
     """
 
     proper_id: str = None
     lang: str = None
+    config: ProperConfig = None
     translations: dict = {}
     prefaces: dict = {}
-    config: ProperConfig = None
 
-    @classmethod
-    def parse(cls, proper_id: str, lang: str, config: ProperConfig = None) -> Tuple[Proper, Proper]:
-        cls.proper_id: str = proper_id
-        cls.lang = lang
-        cls.config = config or ProperConfig()
-        cls.translations[cls.lang] = importlib.import_module(f'constants.{cls.lang}.translation')
-        cls.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
-        cls.prefaces[cls.lang] = cls.parse_file('Ordo/Prefationes.txt', cls.lang)
-        cls.prefaces[LANGUAGE_LATIN] = cls.parse_file('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
+    def __init__(self, proper_id: str, lang: str, config: ProperConfig = None):
+        self.proper_id: str = proper_id
+        self.lang = lang
+        self.config = config or ProperConfig()
+
+    def proper_exists(self) -> bool:
+        return os.path.exists(self._get_full_path(self._get_partial_path(), self.lang))
+
+    def parse(self) -> Tuple[Proper, Proper]:
+        self.translations[self.lang] = importlib.import_module(f'constants.{self.lang}.translation')
+        self.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
+        self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
+        self.prefaces[LANGUAGE_LATIN] = self._parse_source('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
+        partial_path = self._get_partial_path()
         try:
-            partial_path = f'{proper_id.split(":")[0].capitalize()}/{proper_id.split(":")[1]}.txt'
-        except IndexError:
-            raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
-        try:
-            proper_vernacular: Proper = cls.parse_file(partial_path, cls.lang)
-            proper_latin: Proper = cls.parse_file(partial_path, LANGUAGE_LATIN)
+            proper_vernacular: Proper = self._parse_proper_source(partial_path, self.lang)
+            proper_latin: Proper = self._parse_proper_source(partial_path, LANGUAGE_LATIN)
         except FileNotFoundError as e:
             raise ProperNotFound(f'Proper `{e.filename}` not found.')
         return proper_vernacular, proper_latin
 
-    @classmethod
-    def parse_file(cls, partial_path: str, lang, lookup_section=None) -> Proper:
+    def _parse_proper_source(self, partial_path: str, lang, lookup_section=None) -> Proper:
         """
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         Resolve references like `@Sancti/02-02:Evangelium`.
         """
-        proper: Proper = Proper(cls.proper_id)
+
+        parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
+        proper = Proper(self.proper_id, parsed_source)
+
+        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
+        # from the referenced file and get sections that are not explicitly defined in the current proper.
+        vide = proper.get_rule('vide')
+        if vide:
+            nested_path = self._get_full_path(f'{vide}.txt', lang)
+            proper.merge(self._parse_source(nested_path, lang=lang))
+
+        # Moving data from "Comment" section up as direct properties of a Proper object
+        parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
+        proper.title = parsed_comment['title']
+        proper.description = parsed_comment['description']
+        proper.additional_info = parsed_comment['additional_info']
+        if not proper.rank:
+            # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
+            proper.rank = parsed_comment['rank']
+
+        proper = self._add_prefaces(proper, lang)
+        proper = self._filter_sections(proper)
+        proper = self._translate_section_titles(proper, lang)
+
+        return proper
+
+    def _parse_source(self, partial_path: str, lang, lookup_section=None) -> ParsedSource:
+        """
+        Read the file and organize the content as a list of dictionaries
+        where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
+        Resolve references like `@Sancti/02-02:Evangelium`.
+        """
+        parsed_source: ParsedSource = ParsedSource()
         section_name: str = None
         concat_line: bool = False
-        full_path: str = cls._get_full_path(partial_path, lang)
+        full_path: str = self._get_full_path(partial_path, lang)
         with open(full_path) as fh:
             for itr, ln in enumerate(fh):
                 ln = ln.strip()
@@ -73,86 +106,56 @@ class ProperParser:
                     # from the referenced file and continue with the sections from the current one.
                     path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
                     # Recursively read referenced file
-                    nested_path: str = cls._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
-                    proper.merge(cls.parse_file(nested_path, lang=lang))
+                    nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
+                    parsed_source.merge(self._parse_source(nested_path, lang=lang))
                     continue
 
-                ln = cls._normalize(ln, lang)
+                ln = self._normalize(ln, lang)
 
                 if re.search(SECTION_REGEX, ln):
                     section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
 
                 if not lookup_section or lookup_section == section_name:
                     if re.match(SECTION_REGEX, ln):
-                        proper.set_section(section_name, ProperSection(section_name))
+                        parsed_source.set_section(section_name, Section(section_name))
                     else:
                         if REFERENCE_REGEX.match(ln):
                             path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(ln)[0]
                             if path_bit:
                                 # Reference to external file - parse it recursively
-                                nested_path: str = cls._get_full_path(path_bit + '.txt', lang) \
+                                nested_path: str = self._get_full_path(path_bit + '.txt', lang) \
                                     if path_bit else partial_path
-                                nested_proper: Proper = cls.parse_file(
+                                nested_proper: Proper = self._parse_source(
                                     nested_path, lang=lang, lookup_section=nested_section_name)
                                 nested_section = nested_proper.get_section(nested_section_name)
                                 if nested_section is not None:
-                                    proper.get_section(section_name).extend_body(nested_section.body)
+                                    parsed_source.get_section(section_name).extend_body(nested_section.body)
                                 else:
                                     log.warning("Section `%s` referenced from `%s` is missing in `%s`",
                                                 nested_section_name, full_path, nested_path)
                             else:
                                 # Reference to the other section in current file
-                                nested_section_body = proper.get_section(nested_section_name).body
-                                proper.get_section(section_name).extend_body(nested_section_body)
+                                nested_section_body = parsed_source.get_section(nested_section_name).body
+                                parsed_source.get_section(section_name).extend_body(nested_section_body)
 
                         else:
                             # Finally, a regular line...
                             # Line ending with `~` indicates that the next line should be treated as its continuation
                             appendln: str = ln.replace('~', ' ')
-                            if section_name not in proper.keys():
-                                proper.set_section(section_name, ProperSection(section_name))
+                            if section_name not in parsed_source.keys():
+                                parsed_source.set_section(section_name, Section(section_name))
                             if concat_line:
-                                proper.get_section(section_name).body[-1] += appendln
+                                parsed_source.get_section(section_name).body[-1] += appendln
                             else:
-                                proper.get_section(section_name).append_to_body(appendln)
+                                parsed_source.get_section(section_name).append_to_body(appendln)
                             concat_line = True if ln.endswith('~') else False
 
-        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
-        # from the referenced file and get sections that are not explicitly defined in the current proper.
-        vide = proper.get_rule('vide')
-        if vide:
-            nested_path = cls._get_full_path(f'{vide}.txt', lang)
-            proper.merge(cls.parse_file(nested_path, lang=lang))
+        parsed_source = self._strip_contents(parsed_source)
+        parsed_source = self._resolve_conditionals(parsed_source)
+        return parsed_source
 
-        # Postprocessing obtained sections
-        proper = cls._strip_contents(proper)
-        proper = cls._resolve_conditionals(proper)
-        if 'Ordo' not in partial_path and not lookup_section:
-            proper = cls._add_prefaces(proper, lang)
-            proper = cls._filter_sections(proper)
-            proper = cls._translate_section_titles(proper, lang)
-
-        # Moving data from "Comment" section up as direct properties of a Proper object
-        parsed_comment: dict = cls._parse_comment(proper.pop_section('Comment'))
-        proper.title = parsed_comment['title']
-        proper.description = parsed_comment['description']
-        proper.additional_info = parsed_comment['additional_info']
-        if not proper.rank:
-            # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
-            proper.rank = parsed_comment['rank']
-
-        return proper
-
-    @classmethod
-    def proper_exists(cls, proper_id: str, lang: str) -> bool:
-        try:
-            partial_path = f'{proper_id.split(":")[0].capitalize()}/{proper_id.split(":")[1]}.txt'
-        except IndexError:
-            raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")
-        return os.path.exists(cls._get_full_path(partial_path, lang))
-
-    @classmethod
-    def _parse_comment(cls, comment: Union[None, ProperSection]) -> dict:
+    @staticmethod
+    def _parse_comment(comment: Union[None, Section]) -> dict:
         parsed_comment = {
             "title": None,
             "description": "",
@@ -177,9 +180,8 @@ class ProperParser:
                 parsed_comment['description'] += ln + '\n'
         return parsed_comment
 
-    @classmethod
-    def _normalize(cls, ln, lang):
-        for r, s in cls.translations[lang].transformations:
+    def _normalize(self, ln, lang):
+        for r, s in self.translations[lang].transformations:
             ln = re.sub(r, s.get(lang, s.get(None)), ln)
         return ln
 
@@ -190,35 +192,34 @@ class ProperParser:
                 section.body.pop(-1)
         return proper
 
-    @classmethod
-    def _filter_sections(cls, proper):
+    @staticmethod
+    def _filter_sections(proper):
         for section_id in list(proper.keys()):
             section_id = section_id.split('(')[0]
-            if {proper.id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())):
+            if {proper.id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())) \
+                    or section_id not in VISIBLE_SECTIONS:
                 proper.pop_section(section_id)
         return proper
 
-    @classmethod
-    def _translate_section_titles(cls, proper, lang):
+    def _translate_section_titles(self, proper, lang):
         sections_ids = proper.keys()
         section_labels = {}
-        section_labels.update(cls.translations[lang].section_labels)
+        section_labels.update(self.translations[lang].section_labels)
         if 'GradualeL1' in sections_ids:
-            section_labels.update(cls.translations[lang].section_labels_multi)
+            section_labels.update(self.translations[lang].section_labels_multi)
 
         for section in proper.values():
             section.set_label(section_labels.get(section.id, section.id))
         return proper
 
-    @classmethod
-    def _add_prefaces(cls, proper, lang):
-        preface_name = cls.config.preface or proper.get_rule('preface') or None
+    def _add_prefaces(self, proper, lang):
+        preface_name = self.config.preface or proper.get_rule('preface') or None
         if preface_name is None and 'Prefatio' in proper.keys():
             return proper
-        preface_item = cls.prefaces[lang].get_section(preface_name)
+        preface_item = self.prefaces[lang].get_section(preface_name)
         if preface_item is None:
-            preface_item = cls.prefaces[lang].get_section(PREFATIO_COMMUNIS)
-        proper.set_section('Prefatio', ProperSection('Prefatio', body=preface_item.body))
+            preface_item = self.prefaces[lang].get_section(PREFATIO_COMMUNIS)
+        proper.set_section('Prefatio', Section('Prefatio', body=preface_item.body))
         return proper
 
     @staticmethod
@@ -256,3 +257,9 @@ class ProperParser:
         if not os.path.exists(full_path):
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
         return full_path
+
+    def _get_partial_path(self):
+        try:
+            return f'{self.proper_id.split(":")[0].capitalize()}/{self.proper_id.split(":")[1]}.txt'
+        except IndexError:
+            raise InvalidInput("Proper ID should follow format `<flex>:<name>`, e.g. `tempora:Adv1-0`")

@@ -13,7 +13,7 @@ language = 'Polski'
 
 
 def test_parse_proper_no_refs():
-    proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_01_06, language)
+    proper_vernacular, proper_latin = ProperParser(c.SANCTI_01_06, language).parse()
 
     assert 'Objawienie' in proper_vernacular.title
     assert 1 == proper_vernacular.rank
@@ -44,7 +44,7 @@ def test_parse_proper_no_refs():
 
 
 def test_parse_proper_refs_inside_sections_and_in_vide():
-    proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_01_22, language)
+    proper_vernacular, proper_latin = ProperParser(c.SANCTI_01_22, language).parse()
 
     assert 'Śś. Wincentego' in proper_vernacular.title
     assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section('Introitus').body[0]
@@ -73,7 +73,7 @@ def test_parse_proper_refs_inside_sections_and_in_vide():
 
 
 def test_parse_proper_ref_outside_sections():
-    proper_vernacular, proper_latin = ProperParser.parse(c.SANCTI_10_DUr, language)
+    proper_vernacular, proper_latin = ProperParser(c.SANCTI_10_DUr, language).parse()
     assert 'Chrystusa Króla' in proper_vernacular.title
     assert '*Ap 5:12; 1:6*' in proper_vernacular.get_section('Introitus').body[0]
     assert '*Apoc 5:12; 1:6*' in proper_latin.get_section('Introitus').body[0]
@@ -81,12 +81,12 @@ def test_parse_proper_ref_outside_sections():
 
 def test_invalid_proper_id():
     with pytest.raises(InvalidInput):
-        ProperParser.parse('bla', language)
+        ProperParser('bla', language).parse()
 
 
 def test_proper_not_found():
     with pytest.raises(ProperNotFound):
-        ProperParser.parse('tempora:bla', language)
+        ProperParser('tempora:bla', language).parse()
 
 
 def test_get_proper_from_observance():
@@ -106,19 +106,20 @@ def test_get_proper_from_day():
     assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
 
 
-@pytest.mark.parametrize("date_,proper", [
-    ((2018, 1, 4), 'In Circumcisione Domini'),
-    ((2018, 1, 12), 'Dominica infra Octavam Epiphaniæ'),  # Feast of the Holy Family
-    ((2018, 2, 13), 'Dominica in Quinquagesima'),
-    ((2018, 7, 4), 'Dominica VI Post Pentecosten'),
-    ((2018, 7, 9), 'Dominica VII Post Pentecosten'),  # Feast of the Most Precious Blood
-    ((2018, 10, 31), 'Dominica XXIII Post Pentecosten'),  # Feast of Christ the King
+@pytest.mark.parametrize("date_,id_,rank", [
+    ((2018, 1, 4), 'sancti:01-01:1', 4),
+    ((2018, 1, 12), 'tempora:Epi1-0a:2', 4),  # Feast of the Holy Family
+    ((2018, 2, 13), 'tempora:Quadp3-0:2', 4),
+    ((2018, 7, 4), 'tempora:Pent06-0:2', 4),
+    ((2018, 7, 9), 'tempora:Pent07-0:2', 4),  # Feast of the Most Precious Blood
+    ((2018, 10, 31), 'tempora:Pent23-0:2', 4),  # Feast of Christ the King
 ])
-def test_get_proper_for_day_without_own_proper(date_, proper):
+def test_get_proper_for_day_without_own_proper(date_, id_, rank):
     # For days without their own propers we show the proper from the last Sunday
     missal = get_missal(date_[0], language)
     _, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
-    assert proper in proper_latin.get_section('Rank').body[0]
+    assert proper_latin.id == id_
+    assert proper_latin.rank == rank
 
 
 def test_get_repr():
@@ -142,22 +143,23 @@ def test_ignored_sections(date_, sections):
         assert proper_latin.get_section(section) is None
 
 
-@pytest.mark.parametrize("date_,preface_body", [
-    ((2018, 10, 28), '*de D.N. Jesu Christi Rege*'),  # Christ the King
-    ((2018, 12, 16), '*de sanctissima Trinitate*'),  # 3rd Sunday of Advent - should be Trinity
-    ((2018, 12, 17), '*Communis*'),  # Monday after 3rd Sunday of Advent - should be Communis
-    ((2019, 6, 24), '*Communis*'),  # Nativity of John Baptist - should be Communis, but in source files it's st. John
-    ((2019, 4, 27), '*Paschalis*'),
-    ((2019, 4, 30), '*Paschalis*'),
-    ((2019, 5, 1), '*de S. Joseph*'),
-    ((2019, 1, 25), '*de Apostolis*'),  # Conversion of st. Paul the Apostle
-    ((2019, 7, 25), '*de Apostolis*'),  # st. James, the Apostle
-    ((2019, 12, 21), '*de Apostolis*'),  # st. Thomas, the Apostle
+@pytest.mark.parametrize("date_,title_part,preface_body", [
+    ((2018, 10, 28), 'Chrystusa Króla', '*de D.N. Jesu Christi Rege*'),
+    ((2018, 12, 16), '3 Niedziela Adwentu', '*de sanctissima Trinitate*'),
+    ((2018, 12, 17), '3 Niedziela Adwentu', '*Communis*'),
+    ((2019, 6, 24), 'Narodzenie Św. Jana Chrzciciela', '*Communis*'),
+    ((2019, 4, 27), 'Sobota Biała', '*Paschalis*'),
+    ((2019, 4, 30), 'Katarzyny Sieneńskiej', '*Paschalis*'),
+    ((2019, 5, 1), 'Józefa Robotnika', '*de S. Joseph*'),
+    ((2019, 1, 25), 'Nawrócenie św. Pawła, Apostoła', '*de Apostolis*'),
+    ((2019, 7, 25), 'Św. Jakuba, Apostoła', '*de Apostolis*'),
+    ((2019, 12, 21), 'Św. Tomasza, Apostoła', '*de Apostolis*'),
 ])
-def test_correct_preface_calculated_by_date(date_, preface_body):
+def test_correct_preface_calculated_by_date(date_,title_part, preface_body):
     missal = get_missal(date_[0], language)
-    _, proper = missal.get_day(date(*date_)).get_proper()[0]
-    assert preface_body == proper.get_section('Prefatio').get_body()[0]
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    assert title_part in proper_vernacular.title
+    assert preface_body == proper_latin.get_section('Prefatio').get_body()[0]
 
 
 @pytest.mark.parametrize("proper_id,preface_name,preface_body", [
@@ -165,5 +167,21 @@ def test_correct_preface_calculated_by_date(date_, preface_body):
     ('tempora:Adv2-0', 'Trinitate', '*de sanctissima Trinitate*'),
 ])
 def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, preface_body):
-    _, proper = ProperParser.parse(proper_id, language, ProperConfig(preface=preface_name))
-    assert preface_body == proper.get_section('Prefatio').get_body()[0]
+    _, proper_latin = ProperParser(proper_id, language, ProperConfig(preface=preface_name)).parse()
+    assert preface_body == proper_latin.get_section('Prefatio').get_body()[0]
+
+
+@pytest.mark.parametrize("date_,title_part,sections_present,sections_absent", [
+    ((2019, 7, 3), 'Ireneusza', ('Graduale', ), ('GradualeP', 'Tractus')),
+    ((2019, 6, 29), 'Piotra i Pawła', ('Graduale', ), ('GradualeP', 'Tractus')),
+])
+def test_correct_gradual_tract_depending_on_the_season(date_, title_part, sections_present, sections_absent):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    assert title_part in proper_vernacular.title
+    for section in sections_present:
+        assert proper_vernacular.get_section(section) is not None
+        assert proper_latin.get_section(section) is not None
+    for section in sections_absent:
+        assert proper_vernacular.get_section(section) is None
+        assert proper_latin.get_section(section) is None

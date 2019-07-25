@@ -1,40 +1,51 @@
+from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS
 
 
-class Proper:
+class ParsedSource:
     """
-    Class representing a Proper for given observance.
+    Class representing parsed plain data file in Divinum Officium format, such as
+
+     Ordo/Prefationes.txt
+        [Adv]
+        !de Adventu
+        v. Vere dignum et justum est, æquum et salutáre...
+
+        [Nat]
+        !de Nativitate Domini
+        v. Vere dignum et justum est, æquum et salutáre....
+
+     Sancti/01-27.txt
+        [Rank]
+        S. Joannis Chrysostomi Episcopi Confessoris Ecclesiæ Doctoris;;Duplex;;3;;vide C4a
+
+        [Name]
+        Joannes Chrisostome
+
+        [Rule]
+        vide C4a
+
+        [Introitus]
+        !Eccli 15:5
+        v. In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ~
 
     Internally it keeps the data in a dict of sections where each key is a section's ID and the value
-    is a `ProperSection` object keeping actual content of the section.
+    is a `Section` object keeping actual content of the section.
     """
-    title: str = None
-    description: str = None
-    rank: int = None
-    additional_info: List[str] = []
     _container: dict = None
 
-    def __init__(self, id_: str) -> None:
-        self.id = id_
+    def __init__(self) -> None:
         self._container = {}
-        try:
-            self.rank = int(id_.split(':')[-1])
-        except ValueError:
-            pass
 
-    def serialize(self) -> List[dict]:
-        list_ = [v.serialize() for k, v in self._container.items() if k in VISIBLE_SECTIONS]
-        return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
-
-    def get_section(self, section_id: str) -> Union[None, 'ProperSection']:
+    def get_section(self, section_id: str) -> Union[None, 'Section']:
         return self._container.get(section_id)
 
-    def set_section(self, section_name: str, section: 'ProperSection') -> None:
+    def set_section(self, section_name: str, section: 'Section') -> None:
         self._container[section_name] = section
 
-    def pop_section(self, section_id: str) -> Union[None, 'ProperSection']:
+    def pop_section(self, section_id: str) -> Union[None, 'Section']:
         try:
             body = self._container[section_id]
         except KeyError:
@@ -46,11 +57,40 @@ class Proper:
     def keys(self) -> KeysView[str]:
         return self._container.keys()
 
-    def values(self) -> ValuesView['ProperSection']:
+    def values(self) -> ValuesView['Section']:
         return self._container.values()
 
-    def items(self) -> ItemsView[str, 'ProperSection']:
+    def items(self) -> ItemsView[str, 'Section']:
         return self._container.items()
+
+    def merge(self, proper: 'ParsedSource') -> None:
+        for k, v in proper.items():
+            if k not in self._container.keys():
+                self._container[k] = v
+
+
+class Proper(ParsedSource):
+    """
+    Class representing a Proper for given observance.
+    """
+    title: str = None
+    description: str = None
+    rank: int = None
+    additional_info: List[str] = []
+
+    def __init__(self, id_: str, parsed_source: ParsedSource = None) -> None:
+        super(Proper, self).__init__()
+        self.id = id_
+        try:
+            self.rank = int(id_.split(':')[-1])
+        except ValueError:
+            pass
+        if parsed_source is not None:
+            self._container = copy(parsed_source._container)
+
+    def serialize(self) -> List[dict]:
+        list_ = [v.serialize() for k, v in self._container.items()]
+        return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
 
     def get_rule(self, rule_name: str) -> Union[None, str]:
         """
@@ -88,13 +128,11 @@ class Proper:
 
         return rules.get(rule_name)
 
-    def merge(self, proper: 'Proper') -> None:
-        for k, v in proper.items():
-            if k not in self._container.keys():
-                self._container[k] = v
+    def __repr__(self):
+        return f'Proper<{self.id}>'
 
 
-class ProperSection:
+class Section:
     id: str = None
     label: str = None
     body: List[str] = None

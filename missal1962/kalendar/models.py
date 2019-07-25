@@ -70,10 +70,10 @@ class Observance:
         self.priority = self._calc_priority()
 
     def get_proper(self, config=None) -> Tuple['Proper', 'Proper']:
-        return ProperParser.parse(self.id, self.lang, config)
+        return ProperParser(self.id, self.lang, config).parse()
 
     def has_proper(self) -> bool:
-        return ProperParser.proper_exists(self.id, self.lang)
+        return ProperParser(self.id, self.lang).proper_exists()
 
     def serialize(self) -> dict:
         return {'id': self.id, 'rank': self.rank, 'title': self.title}
