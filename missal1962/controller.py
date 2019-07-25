@@ -15,7 +15,7 @@ no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
 @lru_cache(maxsize=0 if no_cache else 64)
 def get_calendar(year: int, lang) -> Calendar:
-    return MissalFactory.create(year, lang)
+    return MissalFactory().create(year, lang)
 
 
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:

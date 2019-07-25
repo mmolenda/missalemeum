@@ -108,7 +108,7 @@ def test_get_proper_from_day():
 
 @pytest.mark.parametrize("date_,proper", [
     ((2018, 1, 4), 'In Circumcisione Domini'),
-    ((2018, 1, 12), 'Dominica infra Octavam Epiphaniae'),  # Feast of the Holy Family
+    ((2018, 1, 12), 'Dominica infra Octavam Epiphaniæ'),  # Feast of the Holy Family
     ((2018, 2, 13), 'Dominica in Quinquagesima'),
     ((2018, 7, 4), 'Dominica VI Post Pentecosten'),
     ((2018, 7, 9), 'Dominica VII Post Pentecosten'),  # Feast of the Most Precious Blood
