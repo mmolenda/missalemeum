@@ -8,7 +8,7 @@ from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
                               EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS)
+                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -192,13 +192,38 @@ class ProperParser:
                 section.body.pop(-1)
         return proper
 
-    @staticmethod
-    def _filter_sections(proper):
+    def _filter_sections(self, proper):
+
+        def not_visible(section_id):
+            return section_id not in VISIBLE_SECTIONS
+
+        def is_excluded(proper_id, section_id):
+            return bool({proper_id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())))
+
+        def get_excluded_inter_readings_sections(config, proper):
+            if config.inter_readings_section == GRADUALE and proper.get_section(GRADUALE) is not None:
+                return [GRADUALE_PASCHAL, TRACTUS]
+            elif config.inter_readings_section == GRADUALE_PASCHAL:
+                if proper.get_section(GRADUALE_PASCHAL) is not None:
+                    return [GRADUALE, TRACTUS]
+                else:
+                    return [TRACTUS]
+            elif config.inter_readings_section == TRACTUS:
+                if proper.get_section(TRACTUS) is not None:
+                    return [GRADUALE, GRADUALE_PASCHAL]
+                else:
+                    return [GRADUALE_PASCHAL]
+            return []
+
+        sections_to_remove = set()
         for section_id in list(proper.keys()):
-            section_id = section_id.split('(')[0]
-            if {proper.id, ASTERISK}.intersection(EXCLUDE_SECTIONS_IDX.get(section_id, set())) \
-                    or section_id not in VISIBLE_SECTIONS:
-                proper.pop_section(section_id)
+            if not_visible(section_id) or is_excluded(proper.id, section_id):
+                sections_to_remove.add(section_id)
+        sections_to_remove.update(get_excluded_inter_readings_sections(self.config, proper))
+
+        for section_id in sections_to_remove:
+            proper.pop_section(section_id)
+
         return proper
 
     def _translate_section_titles(self, proper, lang):

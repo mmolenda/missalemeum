@@ -1,7 +1,7 @@
 from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
-from constants.common import VISIBLE_SECTIONS
+from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL
 
 
 class ParsedSource:
@@ -170,6 +170,10 @@ class ProperConfig:
     This class is used to override certain aspects of the proper existing in the proper's source file
     """
     preface = None
+    inter_readings_section = None
 
-    def __init__(self, preface=None):
+    def __init__(self, preface: str = None, inter_readings_section: str = None):
+        # inter_readings_section == None - show all sections defined in the source
+        assert inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
         self.preface = preface
+        self.inter_readings_section = inter_readings_section

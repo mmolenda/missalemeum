@@ -656,7 +656,7 @@ section_labels = {
     'CommunioP': 'CommunioP',
     'Communio': 'Communio',
     'Evangelium': 'Evangelium',
-    'GradualeP': 'GradualeP',
+    'GradualeP': 'Graduale',
     'Graduale': 'Graduale',
     'Introitus': 'Introitus',
     'Lectio': 'Lectio',
@@ -668,7 +668,7 @@ section_labels = {
     'Sequentia': 'Sequentia',
     'Super populum': 'Super populum',
     'Prefatio': 'Prefatio',
-    'Tractus': 'Tractus',
+    'Tractus': 'Graduale',
     # 02-02, feast of the Purification of the B.V.M.
     'De Benedictione Candelarum': 'De Benedictione Candelarum',
     'De Distributione Candelarum': 'De Distributione Candelarum',

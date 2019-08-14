@@ -25,7 +25,7 @@ section_labels = {
     'CommunioP': 'Antyfona na Komunię (Okres Wielkanocny)',
     'Communio': 'Antyfona na Komunię',
     'Evangelium': 'Ewangelia',
-    'GradualeP': 'Alleluja Wielkanocne',
+    'GradualeP': 'Graduał',
     'Graduale': 'Graduał',
     'Introitus': 'Introit',
     'Lectio': 'Lekcja',
@@ -40,7 +40,7 @@ section_labels = {
     'Sequentia': 'Sekwencja',
     'Super populum': 'Modlitwa nad ludem',
     'Prefatio': 'Prefacja',
-    'Tractus': 'Traktus',
+    'Tractus': 'Graduał',
     # 02-02, feast of the Purification of the B.V.M.
     'De Benedictione Candelarum': 'Poświęcenie Świec',
     'De Distributione Candelarum': 'Rozdawanie Świec',

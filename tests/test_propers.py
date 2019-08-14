@@ -174,6 +174,19 @@ def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, prefac
 @pytest.mark.parametrize("date_,title_part,sections_present,sections_absent", [
     ((2019, 7, 3), 'Ireneusza', ('Graduale', ), ('GradualeP', 'Tractus')),
     ((2019, 6, 29), 'Piotra i Pawła', ('Graduale', ), ('GradualeP', 'Tractus')),
+    ((2019, 1, 17), 'Antoniego', ('Graduale', ), ('GradualeP', 'Tractus')),  # Sancti/01-17 -> Commune/C4c; normal season
+    ((2018, 2, 7), 'Romualda', ('Tractus', ), ('Graduale', 'GradualeP')),  # Sancti/01-17 -> Commune/C4c; pre-lent
+    ((2019, 5, 10), 'Antonina', ('GradualeP', ), ('Graduale', 'Tractus')),  # Sancti/05-10 -> Commune/C4; paschal
+    ((2018, 4, 14), 'Justyna', ('GradualeP', ), ('Graduale', 'Tractus')),  # Sancti/04-14 / paschal, but has no gradualep
+    ((2019, 5, 2), 'Atanazego', ('Graduale', ), ('GradualeP', 'Tractus')),  # Sancti/04-14 / paschal, but has no gradualep
+    ((2019, 2, 22), 'Katedry', ('Tractus', ), ('GradualeP', 'GradualeP')),
+    ((2019, 2, 23), 'Piotra Damiana', ('Tractus', ), ('GradualeP', 'GradualeP')),
+    ((2019, 4, 30), 'Katarzyny', ('GradualeP', ), ('Tractus', 'Graduale')),
+    ((2019, 5, 10), 'Antonina', ('GradualeP', ), ('Tractus', 'Graduale')),
+    ((2019, 5, 13), 'Bellarmina', ('GradualeP', ), ('Tractus', 'Graduale')),
+    ((2019, 5, 17), 'Paschalisa', ('GradualeP', ), ('Tractus', 'Graduale')),
+
+    ((2019, 8, 15), 'Wniebowzięcie', ('Graduale', ), ('Tractus', 'GradualeP')),
 ])
 def test_correct_gradual_tract_depending_on_the_season(date_, title_part, sections_present, sections_absent):
     missal = get_missal(date_[0], language)

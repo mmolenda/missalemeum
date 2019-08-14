@@ -10,10 +10,12 @@ from typing import ItemsView, List, Tuple, Union
 from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
-                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING)
+                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER, PATTERN_PRE_LENTEN,
+                              PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE, CUSTOM_INTER_READING_SECTIONS,
+                              SUNDAY)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
-from utils import infer_custom_preface
+from utils import infer_custom_preface, match
 
 log = logging.getLogger(__name__)
 
@@ -167,7 +169,7 @@ class Day:
 
         # No proper for this day, trying to get one from the latest Sunday
         date_: date = copy(self.date)
-        while date_.weekday() != 6:  # Sunday
+        while date_.weekday() != SUNDAY:
             if date_ == datetime.date(self.date.year, 1, 1):
                 break
             date_ = date_ - datetime.timedelta(days=1)
@@ -214,10 +216,20 @@ class Day:
         else:
             retval: List[Tuple[Proper, Proper]] = []
             for observance in current_observances:
+                inter_readings_section = self._infer_inter_reading_section(observance)
                 inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
-                proper_config = ProperConfig(preface=inferred_prefaces)
+                proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)
                 retval.append(observance.get_proper(proper_config))
             return retval
+
+    def _infer_inter_reading_section(self, observance):
+        if observance.id in CUSTOM_INTER_READING_SECTIONS:
+            return CUSTOM_INTER_READING_SECTIONS[observance.id]
+        elif match(self.tempora, PATTERN_EASTER):
+            return GRADUALE_PASCHAL
+        elif match(self.tempora, [PATTERN_PRE_LENTEN, PATTERN_LENT]):
+            return TRACTUS
+        return GRADUALE
 
     def serialize(self) -> dict:
         serialized = {}

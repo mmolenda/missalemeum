@@ -6,6 +6,7 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
 CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium-custom')
 
+SUNDAY = 6
 LANGUAGE_LATIN = 'Latin'
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
@@ -18,6 +19,8 @@ ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
 PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
+PATTERN_PRE_LENTEN = re.compile(r'^tempora:Quadp\d')
+PATTERN_LENT = re.compile(r'^tempora:Quad\d')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
 PATTERN_ADVENT_FERIA = re.compile('tempora:Adv\d-[1-6]')
 PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]:2')
@@ -37,6 +40,9 @@ PATTERN_CLASS_1 = re.compile(r'^[a-z]+:.*:1$')
 PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2$')
 PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3$')
 PATTERN_COMMEMORATION = 'wspomnienie'
+TRACTUS = 'Tractus'
+GRADUALE = 'Graduale'
+GRADUALE_PASCHAL = 'GradualeP'
 TEMPORA_RANK_MAP = (
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 17, "rank": 2},
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 18, "rank": 2},
@@ -111,9 +117,9 @@ VISIBLE_SECTIONS = [
     'OratioL5',
     'Commemoratio Oratio',
     'Lectio',
-    'Graduale',
-    # 'GradualeP',  Ignoring for now
-    'Tractus',
+    GRADUALE,
+    GRADUALE_PASCHAL,
+    TRACTUS,
     'Sequentia',
     'Evangelium',
     'Maundi',  # Quad6-4r, Feria Quinta in Coena Domini
@@ -944,53 +950,14 @@ COMMEMORATION_SECTIONS = [
 # E.g. some propers contain commemorations in their source, but they should never be exposed as they are not part of
 # 1962 issue of the  Missal. Asterisk (*) means that given section should always be be excluded.
 EXCLUDE_SECTIONS = (
-    (ASTERISK, ['Evangelium1']),
-    (ASTERISK, ['Evangelium2']),
-    (ASTERISK, ['Evangelium3']),
-    (ASTERISK, ['Evangelium4']),
-    (ASTERISK, ['Lectio1']),
-    (ASTERISK, ['Prelude(rubrica 1570)']),
-    (ASTERISK, ['Rank1570']),
-    (ASTERISK, ['Rank1960']),
-    (ASTERISK, ['RankNewcal']),
-    (ASTERISK, ['RankTrident']),
-    (ASTERISK, ['Rank (rubrica 1955 aut rubrica 1960)']),
-    (ASTERISK, ['Rank (rubrica 1960)']),
-    (ASTERISK, ['Rank (rubrica innovata)']),
-    (ASTERISK, ['Rank (si rubrica 1960)']),
-    (ASTERISK, ['Rank (si rubrica innovata)']),
-    (ASTERISK, ['Rule']),
-    (ASTERISK, ['Tractus1']),
-    (ASTERISK, ['Munda Cor Passionis']),
-    (ASTERISK, ['GradualeF']),
-    (ASTERISK, ['Footnotes']),
-    (ASTERISK, ['Name']),
-    (SANCTI_03_25, ['Graduale']),
     (SANCTI_06_25, COMMEMORATION_SECTIONS),
     (SANCTI_06_30, COMMEMORATION_SECTIONS),
-    (SANCTI_07_01, COMMEMORATION_SECTIONS + ['Tractus']),
-    (SANCTI_07_03, ['Tractus']),
-    (SANCTI_07_05, COMMEMORATION_SECTIONS + ['Tractus']),
-    (SANCTI_07_16, ['Tractus']),
-    (SANCTI_08_02, ['Tractus']),
-    (SANCTI_08_05, ['Tractus']),
-    (SANCTI_08_16, ['Tractus']),
+    (SANCTI_07_01, COMMEMORATION_SECTIONS),
+    (SANCTI_07_05, COMMEMORATION_SECTIONS),
     (SANCTI_08_17, COMMEMORATION_SECTIONS),
     (SANCTI_08_19, COMMEMORATION_SECTIONS),
     (SANCTI_08_20, COMMEMORATION_SECTIONS),
     (SANCTI_08_21, COMMEMORATION_SECTIONS),
-    (SANCTI_09_03, ['Tractus']),
-    (SANCTI_09_12, ['Tractus']),
-    (SANCTI_09_24, ['Tractus']),
-    (SANCTI_09_26, ['Tractus']),
-    (SANCTI_09_30, ['Tractus']),
-    (SANCTI_10_02, ['Tractus']),
-    (SANCTI_10_04, ['Tractus']),
-    (SANCTI_10_09, ['Tractus']),
-    (SANCTI_10_11, ['Tractus']),
-    (SANCTI_10_17, ['Tractus']),
-    (SANCTI_10_24, ['Tractus']),
-    (SANCTI_10_DUr, ['Tractus']),
     (SANCTI_09_14, COMMEMORATION_SECTIONS),
     (SANCTI_12_07, COMMEMORATION_SECTIONS),
     (SANCTI_12_11, COMMEMORATION_SECTIONS),
@@ -1020,6 +987,10 @@ CUSTOM_PREFACES = (
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
     (PATTERN_EASTER, PREFATIO_PASCHAL),
 )
+
+CUSTOM_INTER_READING_SECTIONS = {
+    SANCTI_05_02: GRADUALE
+}
 
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
