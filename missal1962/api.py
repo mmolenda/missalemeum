@@ -41,8 +41,7 @@ def frontend(path=''):
 def date(date_: str):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
-        missal: Calendar = controller.get_calendar(date_object.year, lang)
-        day: Day = missal.get_day(date_object)
+        day: Day = controller.get_day(date_object, lang)
         propers: List[Tuple[Proper, Proper]] = day.get_proper()
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400

@@ -18,6 +18,12 @@ def get_calendar(year: int, lang) -> Calendar:
     return MissalFactory().create(year, lang)
 
 
+@lru_cache(maxsize=0 if no_cache else 512)
+def get_day(date_: datetime.date, lang) -> Day:
+    missal: Calendar = get_calendar(date_.year, lang)
+    return missal.get_day(date_)
+
+
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:
     config: ProperConfig = ProperConfig(preface=infer_custom_preface(Proper(proper_id)))
     return ProperParser(proper_id.lower().replace('__', ':'), lang, config).parse()
