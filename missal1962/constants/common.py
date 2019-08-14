@@ -40,6 +40,7 @@ PATTERN_CLASS_1 = re.compile(r'^[a-z]+:.*:1$')
 PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2$')
 PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3$')
 PATTERN_COMMEMORATION = 'wspomnienie'
+PATTERN_ALLELUIA = re.compile('allel[uú][ij]a.*', re.IGNORECASE)
 TRACTUS = 'Tractus'
 GRADUALE = 'Graduale'
 GRADUALE_PASCHAL = 'GradualeP'

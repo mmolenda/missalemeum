@@ -1,7 +1,10 @@
 from datetime import date
+
+from constants.common import PATTERN_ALLELUIA
 from exceptions import InvalidInput, ProperNotFound
 
 import pytest
+import re
 
 from constants import common as c
 from kalendar.models import Observance
@@ -198,3 +201,16 @@ def test_correct_gradual_tract_depending_on_the_season(date_, title_part, sectio
     for section in sections_absent:
         assert proper_vernacular.get_section(section) is None
         assert proper_latin.get_section(section) is None
+
+
+@pytest.mark.parametrize("date_,stripped", [
+    ((2019, 7, 7), False),
+    ((2019, 7, 9), True),
+    ((2019, 9, 13), True)
+])
+def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, stripped):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    gradual_vernacular = proper_vernacular.get_section("Graduale").body
+    gradual_latin = proper_latin.get_section("Graduale").body
+    assert any([PATTERN_ALLELUIA.search(i, re.I) for i in gradual_vernacular + gradual_latin]) is not stripped

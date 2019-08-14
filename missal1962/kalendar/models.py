@@ -207,7 +207,7 @@ class Day:
             else:
                 rank: int = 4
                 custom_preface_name: str = infer_custom_preface(inferred_observances)
-            config: ProperConfig = ProperConfig(preface=custom_preface_name)
+            config: ProperConfig = ProperConfig(preface=custom_preface_name, strip_alleluia=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank

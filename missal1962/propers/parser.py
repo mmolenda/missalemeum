@@ -8,7 +8,7 @@ from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
                               EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL)
+                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -75,6 +75,7 @@ class ProperParser:
 
         proper = self._add_prefaces(proper, lang)
         proper = self._filter_sections(proper)
+        proper = self._amend_sections_contents(proper)
         proper = self._translate_section_titles(proper, lang)
 
         return proper
@@ -150,7 +151,7 @@ class ProperParser:
                                 parsed_source.get_section(section_name).append_to_body(appendln)
                             concat_line = True if ln.endswith('~') else False
 
-        parsed_source = self._strip_contents(parsed_source)
+        parsed_source = self._strip_newlines(parsed_source)
         parsed_source = self._resolve_conditionals(parsed_source)
         return parsed_source
 
@@ -186,7 +187,7 @@ class ProperParser:
         return ln
 
     @staticmethod
-    def _strip_contents(proper):
+    def _strip_newlines(proper):
         for section in proper.values():
             while section.body and not section.body[-1]:
                 section.body.pop(-1)
@@ -224,6 +225,14 @@ class ProperParser:
         for section_id in sections_to_remove:
             proper.pop_section(section_id)
 
+        return proper
+
+    def _amend_sections_contents(self, proper):
+        gradual = proper.get_section(GRADUALE)
+        if self.config.strip_alleluia is True and gradual is not None:
+            body = gradual.body
+            for i, line in enumerate(body):
+                body[i] = re.sub(PATTERN_ALLELUIA, "", line)
         return proper
 
     def _translate_section_titles(self, proper, lang):
