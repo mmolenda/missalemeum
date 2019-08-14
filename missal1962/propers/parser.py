@@ -272,6 +272,8 @@ class ProperParser:
                     continue
                 if omit:
                     continue
+                if '(dicitur)' in ln or '(communi Summorum Pontificum loco huius versus dicitur)' in ln:
+                    continue
                 new_content.append(ln)
             proper.get_section(section_name).body = new_content
         return proper

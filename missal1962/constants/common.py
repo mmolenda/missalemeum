@@ -128,13 +128,13 @@ VISIBLE_SECTIONS = [
     'Secreta',
     'Commemoratio Secreta',
     'Prefatio',
-    'Pro Laudibus'  # Quad6-5r, Sabbato Sancto
+    'Pro Laudibus',  # Quad6-5r, Sabbato Sancto
     'Communicantes',
     'Communio',
     # 'CommunioP',  Ignoring for now
     'Postcommunio',
     'Commemoratio Postcommunio',
-    'Conclusio'  # Quad6-5r, Sabbato Sancto
+    'Conclusio',  # Quad6-5r, Sabbato Sancto
     'Super populum',
     'Post Missam',  # Quad6-4r, Feria Quinta in Coena Domini
     'Denudatione altaris'  # Quad6-4r, Feria Quinta in Coena Domini
