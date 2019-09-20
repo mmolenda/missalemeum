@@ -4,6 +4,7 @@ import datetime
 from functools import lru_cache
 from typing import List, Tuple
 
+import ical
 from kalendar.factory import MissalFactory
 from kalendar.models import Calendar, Day
 from propers.models import Proper, ProperConfig
@@ -33,3 +34,14 @@ def get_proper_by_date(date_: datetime.date, lang) -> List[Tuple[Proper, Proper]
     missal: Calendar = get_calendar(date_.year, lang)
     day: Day = missal.get_day(date_)
     return day.get_proper()
+
+
+def get_ical(lang):
+    today = datetime.datetime.now().date()
+    current = today - datetime.timedelta(days=90)
+    one_year_forward = today + datetime.timedelta(days=365)
+    days = {}
+    while current <= one_year_forward:
+        days[current] = get_day(current, lang)
+        current += datetime.timedelta(days=1)
+    return ical.IcalBuilder.build(days)

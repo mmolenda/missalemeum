@@ -2,6 +2,8 @@
 import datetime
 import logging
 import sys
+
+from constants.common import LANGUAGE_VERNACULAR
 from exceptions import InvalidInput, ProperNotFound
 from typing import List, Tuple
 
@@ -10,8 +12,6 @@ import click
 import controller
 from kalendar.models import Calendar, Day
 from propers.models import Proper
-
-default_language = 'Polski'
 
 
 logging.basicConfig(
@@ -34,7 +34,7 @@ def _print_proper(language, proper):
 
 @click.command()
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
-@click.option('--language', default=default_language)
+@click.option('--language', default=LANGUAGE_VERNACULAR)
 def calendar(year, language):
     def _print_all(missal):
         for date_, day in missal.items():
@@ -64,7 +64,7 @@ def calendar(year, language):
 
 @click.command()
 @click.argument('proper_id')
-@click.option('--language', default=default_language)
+@click.option('--language', default=LANGUAGE_VERNACULAR)
 def proper(proper_id: str, language: str):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, language)
@@ -76,7 +76,7 @@ def proper(proper_id: str, language: str):
 
 @click.command()
 @click.argument('date')
-@click.option('--language', default=default_language)
+@click.option('--language', default=LANGUAGE_VERNACULAR)
 def date(date: str, language: str):
     yy, mm, dd = date.split('-')
     date_object = datetime.date(int(yy), int(mm), int(dd))
@@ -94,9 +94,15 @@ def date(date: str, language: str):
         _print_proper('Latin', proper_latin)
 
 
+@click.command()
+def ical():
+    click.echo(controller.get_ical(LANGUAGE_VERNACULAR))
+
+
 cli.add_command(calendar)
 cli.add_command(date)
 cli.add_command(proper)
+cli.add_command(ical)
 
 
 if __name__ == '__main__':

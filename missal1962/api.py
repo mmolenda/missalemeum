@@ -9,6 +9,7 @@ from flask_cors import CORS
 from typing import List, Tuple
 
 import controller
+from constants.common import LANGUAGE_VERNACULAR
 from exceptions import InvalidInput, ProperNotFound
 from kalendar.models import Calendar, Day
 from propers.models import Proper
@@ -22,8 +23,6 @@ logging.basicConfig(
     stream=sys.stdout,
     level=logging.INFO,
     format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
-
-lang = 'Polski'
 
 
 @app.route('/')
@@ -41,7 +40,7 @@ def frontend(path=''):
 def date(date_: str):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
-        day: Day = controller.get_day(date_object, lang)
+        day: Day = controller.get_day(date_object, LANGUAGE_VERNACULAR)
         propers: List[Tuple[Proper, Proper]] = day.get_proper()
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
@@ -74,7 +73,7 @@ def date(date_: str):
 @app.route('/proper/<string:proper_id>')
 def proper(proper_id: str):
     try:
-        proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
+        proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, LANGUAGE_VERNACULAR)
     except (InvalidInput, ProperNotFound) as e:
         return jsonify({'error': str(e)}), 400
     else:
@@ -86,8 +85,13 @@ def proper(proper_id: str):
 def calendar(year: int = None):
     if year is None:
         year = datetime.datetime.now().date().year
-    missal: Calendar = controller.get_calendar(year, lang)
+    missal: Calendar = controller.get_calendar(year, LANGUAGE_VERNACULAR)
     return jsonify(missal.serialize())
+
+
+@app.route('/ical')
+def ical():
+    return controller.get_ical(LANGUAGE_VERNACULAR)
 
 
 if __name__ == '__main__':
