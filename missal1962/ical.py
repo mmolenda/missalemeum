@@ -21,6 +21,7 @@ class IcalBuilder:
             event = Event()
             event.add('summary', celebration.title)
             event.add('dtstart', datetime_)
+            event.add('description', "http://mszalrzymski.pl/#{}".format(datetime_.strftime("%Y-%m-%d")))
             cal.add_component(event)
 
         return cal.to_ical().decode("utf-8")
