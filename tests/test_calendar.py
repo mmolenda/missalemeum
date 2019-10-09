@@ -77,12 +77,12 @@ def test_tempora(year, dates):
     (c.SANCTI_06_29, (2068, 6, 30)),
 ])
 def test_sancti_shifted(day_id, expected_date):
-    assert get_missal(expected_date[0]).find_day(day_id)[0] == date(*expected_date)
+    assert date(*expected_date) == get_missal(expected_date[0]).find_day(day_id)[0]
 
 
 @pytest.mark.parametrize("date_,celebration,commemoration", [
-    ((1907, 12, 8), [c.SANCTI_12_08], []),
-    ((1912, 12, 8), [c.SANCTI_12_08], []),
+    ((1907, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
+    ((1912, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
     ((1913, 12, 8), [c.SANCTI_12_08], []),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
     ((2013, 1, 6), [c.SANCTI_01_06], []),
@@ -133,8 +133,8 @@ def test_sancti_shifted(day_id, expected_date):
     ((2014, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
 ])
 def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
-    assert [i.id for i in get_missal(date_[0]).get_day(date(*date_)).celebration] == celebration
-    assert [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration] == commemoration
+    assert celebration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).celebration]
+    assert commemoration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration]
 
 
 @pytest.mark.parametrize("date_,not_expected_day_ids", [
@@ -174,11 +174,41 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((1972, 2, 25), [c.SANCTI_02_24], [c.TEMPORA_QUAD1_5]),
     ((2019, 9, 21), [c.SANCTI_09_21], [c.TEMPORA_PENT_6]),
     ((2018, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_5]),
+    # Lent day with 1st class feast
+    ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
+    # Lent days win with feasts < 2 class
+    # 2019-03-07 Comm: S. Thomæ de Aquino
+    ((2019, 3, 7), [c.TEMPORA_QUADP3_4], [c.SANCTI_03_07]),
+    # 2019-03-08 Comm: S. Joannis de Deo
+    ((2019, 3, 8), [c.TEMPORA_QUADP3_5], [c.SANCTI_03_08]),
+    # 2019-03-09 Comm: S. Franciscæ Viduæ
+    ((2019, 3, 9), [c.TEMPORA_QUADP3_6], [c.SANCTI_03_09]),
+    # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
+    ((2019, 1, 18), [], [c.SANCTI_01_18]),
+    ((2019, 2, 14), [], [c.SANCTI_02_14]),
+    ((2019, 5, 14), [], [c.SANCTI_05_14]),
+    ((2019, 7, 16), [], [c.SANCTI_07_16]),
+    ((2019, 8, 13), [], [c.SANCTI_08_13]),
+    ((2019, 9, 11), [], [c.SANCTI_09_11]),
+    ((2019, 10, 25), [], [c.SANCTI_10_25]),
+    ((2019, 11, 8), [], [c.SANCTI_11_08]),
+    # 2019-09-08 13 Sunday after Pentecost / Commemoratio: Nativitate Beatæ Mariæ Virginis
+    ((2019, 9, 8), [c.TEMPORA_PENT13_0], [c.SANCTI_09_08]),
+    # 2019-09-15 14 Sunday after Pentecost / Commemoratio: Septem Dolorum Beatæ Mariæ Virginis
+    ((2019, 9, 15), [c.TEMPORA_PENT14_0], [c.SANCTI_09_15]),
+    # 2019-09-29 In Dedicatione S. Michælis Archangelis / Commemoratio: Dominica XVI Post Pentecosten
+    ((2019, 9, 29), [c.SANCTI_09_29], [c.TEMPORA_PENT16_0]),
+    # 2019-12-03 - S. Francisci Xaverii Confessoris / Commemoratio: Feria III infra Hebdomadam I Adventus
+    ((2019, 12, 3), [c.SANCTI_12_03], [c.TEMPORA_ADV1_2]),
+    # 2019-12-08 - In Conceptione Immaculata Beatæ Mariæ Virginis / Commemoratio: Dominica II Adventus
+    ((2019, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
+    # 2019-12-21 St. Thomas, commemoration of Ember Saturday of Advent
+    ((2019, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_6]),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
-    assert [i.id for i in missal.get_day(date(*date_)).celebration] == expected_celebration
-    assert [i.id for i in missal.get_day(date(*date_)).commemoration] == expected_commemoration
+    assert expected_celebration == [i.id for i in missal.get_day(date(*date_)).celebration]
+    assert expected_commemoration == [i.id for i in missal.get_day(date(*date_)).commemoration]
 
 
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [

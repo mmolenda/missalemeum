@@ -292,9 +292,12 @@ class Calendar:
         :return: day representation
         :rtype: list(datetime, list)
         """
-        for date_, day in self._container.items():
-            if observance_id in [ii.id for ii in day.all]:
-                return date_, day
+        try:
+            for date_, day in self._container.items():
+                if observance_id in [ii.id for ii in day.all]:
+                    return date_, day
+        except AttributeError:
+            raise
 
     def items(self) -> ItemsView[date, Day]:
         return self._container.items()
