@@ -1,7 +1,8 @@
 from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
-from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL
+from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO
 
 
 class ParsedSource:
@@ -127,6 +128,12 @@ class Proper(ParsedSource):
                 rules['vide'] = vide
 
         return rules.get(rule_name)
+
+    def add_commemorations(self, commemorations: List['Proper']):
+        for commemoration in commemorations:
+            self.set_section(COMMEMORATED_ORATIO, commemoration.get_section(ORATIO))
+            self.set_section(COMMEMORATED_SECRETA, commemoration.get_section(SECRETA))
+            self.set_section(COMMEMORATED_POSTCOMMUNIO, commemoration.get_section(POSTCOMMUNIO))
 
     def __repr__(self):
         return f'Proper<{self.id}>'

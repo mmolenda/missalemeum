@@ -31,7 +31,10 @@ from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, EMBER_DAYS,
                               TEMPORA_EPI1_0, TEMPORA_PASC0_0, TEMPORA_QUAD6_1,
                               TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
                               TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
-                              TEMPORA_QUAD6_6, TEMPORA_QUADP3_3)
+                              TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
+                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI_CLASS_1,
+                              PATTERN_SANCTI_CLASS_3, TEMPORA_ADV3_6, SANCTI_12_21, PATTERN_ADVENT_FERIA,
+                              PATTERN_SANCTI)
 from kalendar.models import Calendar, Observance
 from utils import match
 
@@ -65,13 +68,6 @@ def rule_nativity_vigil(
     # Nativity Vigil takes place of 4th Advent Sunday.
     if match(observances, SANCTI_12_24) and date_.weekday() == 6:
         return [match(observances, SANCTI_12_24)], [], []
-
-
-def rule_immaculate_coneption(
-        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    # Immaculate Conception of BMV takes precedence before encountered Advent Sunday.
-    if match(observances, SANCTI_12_08) and date_.weekday() == 6:
-        return [match(observances, SANCTI_12_08)], [], []
 
 
 def rule_st_matthias(
@@ -115,6 +111,35 @@ def rule_bmv_office_on_saturday(
             return [bmv_office], [i for i in observances if i.flexibility == 'sancti'][:1], []
 
 
+def rule_same_class_feasts_take_over_advent_feria_and_ember_days(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    adv_or_ember = match(observances, EMBER_DAYS + (PATTERN_ADVENT, ))
+    if adv_or_ember:
+        sancti = match(observances, [PATTERN_SANCTI])
+        if not sancti:
+            return [adv_or_ember], [], []
+        if adv_or_ember.rank == sancti.rank:
+            return [sancti], [adv_or_ember], []
+        if adv_or_ember.rank < sancti.rank:
+            return [adv_or_ember], [sancti], []
+
+
+def rule_lent_commemoration(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    lent_observance = match(observances, PATTERN_LENT)
+    if lent_observance:
+        sancti = match(observances, [PATTERN_SANCTI])
+        if not sancti:
+            return [lent_observance], [], []
+        if lent_observance.rank == sancti.rank:
+            if sancti.rank == 1:
+                # will be shifted to a different day by the other rule
+                return
+            return [lent_observance], [sancti], []
+        if lent_observance.rank > sancti.rank:
+            return [sancti], [lent_observance], []
+
+
 def rule_shift_conflicting_1st_class_feasts(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
@@ -150,7 +175,14 @@ def rule_lord_feast2(
         return [match(observances, PATTERN_SANCTI_CLASS_1_OR_2)], [], []
 
 
-def first_class_feast_no_commemoration(
+def rule_first_class_feast_with_sunday_commemoration(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # In case of some 1st class feasts the Sunday is commemorated, e.g. St. Michael the Archangel on Sunday 2019-09-29
+    if match(observances, SANCTI_09_29) and match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2):
+        return [match(observances, PATTERN_CLASS_1)], [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], []
+
+
+def rule_first_class_feast_no_commemoration(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     if match(observances, PATTERN_CLASS_1):
         return [match(sorted(observances, key=lambda x: x.priority), PATTERN_CLASS_1)], [], []
@@ -177,14 +209,15 @@ def rule_1st_class_feria(
         return [match(observances, PATTERN_TEMPORA)], [], []
 
 
-def rule_2nd_class_feast_takes_over_advent_feria_and_ember_days(
-        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    look_for = EMBER_DAYS + (PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23, )
-    if match(observances, look_for) and match(observances, PATTERN_SANCTI_CLASS_2):
-        return [match(observances, PATTERN_SANCTI_CLASS_2)], [match(observances, look_for)], []
+def rule_4th_class_commemorations_are_only_commemorated(
+    calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    fourth_class_observance = match(observances, PATTERN_SANCTI_CLASS_4)
+    if fourth_class_observance:
+        observances.pop(observances.index(fourth_class_observance))
+        return [o for o in observances if o != fourth_class_observance], [fourth_class_observance], []
 
 
-def rule_precedence(
+def rule_general(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # Default rule for situations not handled by any of the above
     if len(observances) == 0:
@@ -202,16 +235,18 @@ rules = (
     rule_nativity_has_multiple_masses,
     rule_all_souls,
     rule_nativity_vigil,
-    rule_immaculate_coneption,
     rule_st_matthias,
     rule_feb27,
+    rule_same_class_feasts_take_over_advent_feria_and_ember_days,
+    rule_lent_commemoration,
     rule_shift_conflicting_1st_class_feasts,
     rule_lord_feast1,
     rule_lord_feast2,
-    first_class_feast_no_commemoration,
+    rule_first_class_feast_with_sunday_commemoration,
+    rule_first_class_feast_no_commemoration,
     rule_2nd_class_sunday,
     rule_1st_class_feria,
-    rule_2nd_class_feast_takes_over_advent_feria_and_ember_days,
     rule_bmv_office_on_saturday,
-    rule_precedence
+    rule_4th_class_commemorations_are_only_commemorated,
+    rule_general
 )
