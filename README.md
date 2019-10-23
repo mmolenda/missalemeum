@@ -11,21 +11,18 @@ and presenting the data. The application utilizes data files from
 
 * Calculates the calendar for given liturgical year
 * Shows Proprium Missae for a given date
-* Shows Proprium Missae for a given observance
 
 At the moment the only supported vernacular language is Polish, but since the data for many other languages
 is available in Divinum Officium, it will be relatively easy to support them. Volunteers are welcome to contribute. 
 
 ## Running the application
 
-### API mode
-
-#### Prerequisites:
+### Prerequisites:
 
 * Python 3.6
 * [Pipenv](https://pipenv.readthedocs.io/en/latest/)
 
-#### Installation
+### Installation
 
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
@@ -33,14 +30,14 @@ as a submodule - it's used to display propers.
 Once cloned, go to the project's dir and call `pipenv install --dev` to install a dedicated virtualenv with
 required dependencies. Then `pipenv shell` to activate the environment.
 
-#### Configuration
+### Configuration
 
 By default the application is using `lru_cache` to cache responses from `missal1962.controller` functions (which are
 used by `missal1962.api` to fetch the data).
 
 To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
 
-#### Run the development API:
+### Run the development API:
 
 ```bash
 $ python missal1962/api.py
@@ -48,18 +45,17 @@ $ python missal1962/api.py
 
 and navigate to http://0.0.0.0:5000/.
 
-#### API endpoints:
+## API endpoints:
 
-* `GET /` serve the static files 
+* `GET /` serves the UI and the static files 
 * `GET /calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
 * `GET /date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
 * `GET /proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for fourth Advent Sunday 
+* `GET /ical` get the calendar for 1st and 2nd class feast in ICal format, which can be imported to any calendar software such as Google Calendar  
 
+## Docker
 
-### Docker
-
-Docker setup spins up the application in the API mode.
-It copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
+Docker setup copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
 
 ```bash
 $ docker build -t missal1962 .
@@ -69,23 +65,7 @@ $ docker run -d -p 8000:8000 missal1962
 
 and navigate to http://0.0.0.0:8000/.
 
-### Static mode
-
-The application can also work without the API. In such a case it utilizes a limited set of [generated data files](missal1962/static/data).
-
-To run in this mode:
-
-* In [index.html](missal1962/static/index.html) change js config link from `js/conf-api.js` to `js/conf-static.js`.
-* Navigate to [static](missal1962/static) directory and serve the content using any http server, for example:
-
-```bash
-$ cd missal1962/static
-$ python -m http.server 8080
-```
-
-and navigate to http://0.0.0.0:8080/.
-
-### Command line (CLI)
+## Command line (CLI)
 
 Calculate the calendar
 ```bash
