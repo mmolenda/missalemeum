@@ -47,6 +47,12 @@ PATTERN_ALLELUIA = re.compile('allel[uú][ij]a.*', re.IGNORECASE)
 TRACTUS = 'Tractus'
 GRADUALE = 'Graduale'
 GRADUALE_PASCHAL = 'GradualeP'
+ORATIO = 'Oratio'
+SECRETA = 'Secreta'
+POSTCOMMUNIO = 'Postcommunio'
+COMMEMORATED_ORATIO = 'Commemoratio Oratio'
+COMMEMORATED_SECRETA = 'Commemoratio Secreta'
+COMMEMORATED_POSTCOMMUNIO = 'Commemoratio Postcommunio'
 TEMPORA_RANK_MAP = (
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 17, "rank": 2},
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 18, "rank": 2},
@@ -103,7 +109,7 @@ VISIBLE_SECTIONS = [
     'Benedictio cinerum',
     # Common sections
     'Introitus',
-    'Oratio',
+    ORATIO,
     'LectioL1',
     'GradualeL1',
     'OratioL1',
@@ -119,7 +125,7 @@ VISIBLE_SECTIONS = [
     'LectioL5',
     'GradualeL5',
     'OratioL5',
-    'Commemoratio Oratio',
+    COMMEMORATED_ORATIO,
     'Lectio',
     GRADUALE,
     GRADUALE_PASCHAL,
@@ -129,15 +135,15 @@ VISIBLE_SECTIONS = [
     'Maundi',  # Quad6-4r, Feria Quinta in Coena Domini
     'Offertorium',
     # 'OffertoriumP',  Ignoring for now
-    'Secreta',
-    'Commemoratio Secreta',
+    SECRETA,
+    COMMEMORATED_SECRETA,
     'Prefatio',
     'Pro Laudibus',  # Quad6-5r, Sabbato Sancto
     'Communicantes',
     'Communio',
     # 'CommunioP',  Ignoring for now
-    'Postcommunio',
-    'Commemoratio Postcommunio',
+    POSTCOMMUNIO,
+    COMMEMORATED_POSTCOMMUNIO,
     'Conclusio',  # Quad6-5r, Sabbato Sancto
     'Super populum',
     'Post Missam',  # Quad6-4r, Feria Quinta in Coena Domini
@@ -945,9 +951,9 @@ FEASTS_OF_JESUS_CLASS_1_AND_2 = (
 # Related to propers' printing
 
 COMMEMORATION_SECTIONS = [
-    'Commemoratio Oratio',
-    'Commemoratio Postcommunio',
-    'Commemoratio Secreta'
+    COMMEMORATED_ORATIO,
+    COMMEMORATED_SECRETA,
+    COMMEMORATED_POSTCOMMUNIO,
 ]
 
 # This list contains tuples consisting of a proper ID and a list of sections that should be excluded from given proper.

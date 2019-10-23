@@ -158,15 +158,48 @@ class Day:
         Get proper that is used in today Mass. If given day does not have a dedicated proper,
         use the one from the latest Sunday.
         """
-        current_observances = None
-        if self.celebration:
-            current_observances = self.celebration
-            if all([i.has_proper() for i in current_observances]):
-                return self._calculate_proper(current_observances)
-            else:
-                if self.celebration[0].flexibility == 'sancti':
-                    log.error(f"Proper not found for {current_observances[0].id}")
+        celebration_propers = self._calculate_proper(self.celebration)
+        if self.commemoration:
+            commemoration_propers = self._calculate_proper(self.commemoration)
+            for celebration_proper in celebration_propers:
+                celebration_proper[0].add_commemorations([i[0] for i in commemoration_propers])
+                celebration_proper[1].add_commemorations([i[1] for i in commemoration_propers])
+        return celebration_propers
 
+    def _calculate_proper(self, observances: List[Observance]) -> List[Tuple['Proper', 'Proper']]:
+        """
+        Accommodate propers for given observance to the current calendar day.
+        For example:
+         * In paschal time show paschal gradual instead of regular gradual
+         * In Lent show tractus instead of gradual
+         * In feria days, when the proper from the last sunday is used, adjust day's class, remove "alleluja", etc.
+         * Show proper prefatio
+         * etc.
+        """
+        if observances and all([i.has_proper() for i in observances]):
+            retval: List[Tuple[Proper, Proper]] = []
+            for observance in observances:
+                inter_readings_section = self._infer_inter_reading_section(observance)
+                inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
+                proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)
+                retval.append(observance.get_proper(proper_config))
+            return retval
+        else:
+            # It's a feria day without its own proper for which the last Sunday's proper is used
+            inferred_observances = self._infer_observance()
+            if observances:
+                rank: int = observances[0].rank
+                custom_preface_name: str = infer_custom_preface(observances[0])
+            else:
+                rank: int = 4
+                custom_preface_name: str = infer_custom_preface(inferred_observances)
+            config: ProperConfig = ProperConfig(preface=custom_preface_name, strip_alleluia=True)
+            propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
+            for proper in propers:
+                proper.rank = rank
+            return [propers]
+
+    def _infer_observance(self) -> Observance:
         # No proper for this day, trying to get one from the latest Sunday
         date_: date = copy(self.date)
         while date_.weekday() != SUNDAY:
@@ -178,49 +211,14 @@ class Day:
         if day.celebration[0].id == TEMPORA_EPI1_0:
             # "Feast of the Holy Family" replaces "First Sunday after Epiphany"; use the latter in
             # following days without the own proper
-            return self._calculate_proper(current_observances, Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang))
+            return Observance(TEMPORA_EPI1_0A, date_, self.calendar.lang)
         if day.celebration[0].id == TEMPORA_PENT01_0:
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
-            return self._calculate_proper(current_observances, Observance(TEMPORA_PENT01_0, date_, self.calendar.lang))
-
+            return Observance(TEMPORA_PENT01_0, date_, self.calendar.lang)
         if day.tempora:
-            return self._calculate_proper(current_observances, day.tempora[0])
-        return self._calculate_proper(current_observances, day.celebration[0])
-
-    def _calculate_proper(self, current_observances: List[Observance], inferred_observances: Observance = None) \
-            -> List[Tuple['Proper', 'Proper']]:
-        """
-        Accommodate propers for given observance to the current calendar day.
-        For example:
-         * In paschal time show paschal gradual instead of regular gradual
-         * In Lent show tractus instead of gradual
-         * In feria days, when the proper from the last sunday is used, adjust day's class, remove "alleluja", etc.
-         * Show proper prefatio
-         * etc.
-        """
-        if inferred_observances:
-            # It's a feria day without its own proper for which the last Sunday's proper is used
-            if current_observances:
-                rank: int = current_observances[0].rank
-                custom_preface_name: str = infer_custom_preface(current_observances[0])
-            else:
-                rank: int = 4
-                custom_preface_name: str = infer_custom_preface(inferred_observances)
-            config: ProperConfig = ProperConfig(preface=custom_preface_name, strip_alleluia=True)
-            propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
-            for proper in propers:
-                proper.rank = rank
-            return [propers]
-
-        else:
-            retval: List[Tuple[Proper, Proper]] = []
-            for observance in current_observances:
-                inter_readings_section = self._infer_inter_reading_section(observance)
-                inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
-                proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)
-                retval.append(observance.get_proper(proper_config))
-            return retval
+            return day.tempora[0]
+        return day.celebration[0]
 
     def _infer_inter_reading_section(self, observance):
         if observance.id in CUSTOM_INTER_READING_SECTIONS:

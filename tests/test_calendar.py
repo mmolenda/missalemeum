@@ -192,10 +192,6 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 9, 11), [], [c.SANCTI_09_11]),
     ((2019, 10, 25), [], [c.SANCTI_10_25]),
     ((2019, 11, 8), [], [c.SANCTI_11_08]),
-    # 2019-09-08 13 Sunday after Pentecost / Commemoratio: Nativitate Beatæ Mariæ Virginis
-    ((2019, 9, 8), [c.TEMPORA_PENT13_0], [c.SANCTI_09_08]),
-    # 2019-09-15 14 Sunday after Pentecost / Commemoratio: Septem Dolorum Beatæ Mariæ Virginis
-    ((2019, 9, 15), [c.TEMPORA_PENT14_0], [c.SANCTI_09_15]),
     # 2019-09-29 In Dedicatione S. Michælis Archangelis / Commemoratio: Dominica XVI Post Pentecosten
     ((2019, 9, 29), [c.SANCTI_09_29], [c.TEMPORA_PENT16_0]),
     # 2019-12-03 - S. Francisci Xaverii Confessoris / Commemoratio: Feria III infra Hebdomadam I Adventus
