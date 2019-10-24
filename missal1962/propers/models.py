@@ -2,7 +2,7 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
 
 
 class ParsedSource:
@@ -78,6 +78,12 @@ class Proper(ParsedSource):
     description: str = None
     rank: int = None
     additional_info: List[str] = []
+    commemorations_names_translations = {
+        COMMEMORATION: None,
+        COMMEMORATED_ORATIO: None,
+        COMMEMORATED_SECRETA: None,
+        COMMEMORATED_POSTCOMMUNIO: None,
+    }
 
     def __init__(self, id_: str, parsed_source: ParsedSource = None) -> None:
         super(Proper, self).__init__()
@@ -131,9 +137,18 @@ class Proper(ParsedSource):
 
     def add_commemorations(self, commemorations: List['Proper']):
         for commemoration in commemorations:
-            self.set_section(COMMEMORATED_ORATIO, commemoration.get_section(ORATIO))
-            self.set_section(COMMEMORATED_SECRETA, commemoration.get_section(SECRETA))
-            self.set_section(COMMEMORATED_POSTCOMMUNIO, commemoration.get_section(POSTCOMMUNIO))
+            self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
+            for commemorated_section_name, source_section_name in (
+                    (COMMEMORATED_ORATIO, ORATIO),
+                    (COMMEMORATED_SECRETA, SECRETA),
+                    (COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO)
+            ):
+                commemorated_section = commemoration.get_section(source_section_name)
+                commemorated_section.body.insert(0, f"* {self.commemorations_names_translations[COMMEMORATION]} "
+                                                    f"{commemoration.title} *")
+                commemorated_section.id = commemorated_section_name
+                commemorated_section.label = self.commemorations_names_translations[commemorated_section_name]
+                self.set_section(commemorated_section_name, commemorated_section)
 
     def __repr__(self):
         return f'Proper<{self.id}>'

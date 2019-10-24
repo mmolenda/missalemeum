@@ -66,7 +66,7 @@ class ProperParser:
 
         # Moving data from "Comment" section up as direct properties of a Proper object
         parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
-        proper.title = parsed_comment['title']
+        proper.title = self.translations[lang].TITLES.get(self.proper_id)
         proper.description = parsed_comment['description']
         proper.additional_info = parsed_comment['additional_info']
         if not proper.rank:
@@ -182,7 +182,7 @@ class ProperParser:
         return parsed_comment
 
     def _normalize(self, ln, lang):
-        for r, s in self.translations[lang].transformations:
+        for r, s in self.translations[lang].TRANSFORMATIONS:
             ln = re.sub(r, s.get(lang, s.get(None)), ln)
         return ln
 
@@ -236,11 +236,12 @@ class ProperParser:
         return proper
 
     def _translate_section_titles(self, proper, lang):
+        proper.commemorations_names_translations = self.translations[lang].COMMEMORATIONS
         sections_ids = proper.keys()
         section_labels = {}
-        section_labels.update(self.translations[lang].section_labels)
+        section_labels.update(self.translations[lang].SECTION_LABELS)
         if 'GradualeL1' in sections_ids:
-            section_labels.update(self.translations[lang].section_labels_multi)
+            section_labels.update(self.translations[lang].SECTION_LABELS_MULTI)
 
         for section in proper.values():
             section.set_label(section_labels.get(section.id, section.id))
