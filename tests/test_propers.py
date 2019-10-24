@@ -215,45 +215,50 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
 
 
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"
-                         "comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
+                         "comm_collect_sub,comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
     # St. Matthias, Apostle, commemoration of Ember Saturday of Lent
     ((2018, 2, 24), "Deus, qui beátum Matthíam", "Hóstias tibi, Dómine", "Præsta, quǽsumus, omnípotens",
-                    "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
+                    "Commemoratio Sabbato Quattuor Temporum Quadragesimæ", "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 3, 7), "Deus, qui culpa offénderis", "Sacrifíciis præséntibus, Dómine", "Coeléstis doni benedictióne",
-                    "Deus, qui Ecclésiam tuam", "Sancti Thomæ Confessóris", "Ut nobis, Dómine, tua sacrifícia"),
+                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Pro Doctore non Pontifice", "Pro Doctore non Pontifice"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 9, 15), "Custódi, Dómine, quǽsumus", "Concéde nobis, Dómine", "Puríficent semper et múniant",
-                    "Deus, in cuius passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
+                    "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
     # Ember Friday of September, commemoration of S. Eustachii et Sociorum Martyrum
     ((2019, 9, 20), "Præsta, quǽsumus, omnípotens", "Accépta tibi sint, Dómine, quǽsumus", "Quǽsumus, omnípotens Deus",
-                    "Deus, qui nos concedis sanctorum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
+                    "Eustachii", "Deus, qui nos concedis sanctorum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
     # S. Matthæi Apostoli, commemoration of Ember Saturday of September
     ((2019, 9, 21), "Beáti Apóstoli et Evangelístæ", "Supplicatiónibus beáti Matthæi", "Percéptis, Dómine, sacraméntis",
-                    "Omnípotens sempitérne Deus", "Concéde, quǽsumus, omnípotens", "Perfíciant in nobis, Dómine"),
+                    "Sabbato Quattuor Temporum Septembris", "Omnípotens sempitérne Deus", "Concéde, quǽsumus, omnípotens", "Perfíciant in nobis, Dómine"),
     # S. Michælis Archangelis, commemoration of Sunday
     ((2019, 9, 29), "Deus, qui, miro órdine", "Hóstias tibi, Dómine, laudis", "Beáti Archángeli tui Michælis",
-                    "Tua nos, quǽsumus, Dómine", "Munda nos, quǽsumus", "Purífica, quǽsumus, Dómine"),
+                    "Dominica XVI", "Tua nos, quǽsumus, Dómine", "Munda nos, quǽsumus", "Purífica, quǽsumus, Dómine"),
     # Sanctae Mariae Sabbato, commemoration of Ss. Placidi et Sociorum Martyrum
     ((2019, 10, 5), "Concéde nos fámulos tuos", "Tua, Dómine, propitiatióne", "Sumptis, Dómine, salútis",
-                    "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
+                    "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
-                    "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Coeléstibus refécti sacraméntis"),
+                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Coeléstibus refécti sacraméntis"),
     # S. Francisci Xaverii Confessoris, commemoration of Advent day
     ((2019, 12, 3), "Deus, qui Indiárum", "Præsta nobis, quǽsumus", "Quǽsumus, omnípotens Deus:",
-                    "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
+                    "Dominica I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
     # In Conceptione Immaculata Beatæ Mariæ Virginis, commemoration of the Sunday
     ((2019, 12, 8), "Deus, qui per immaculátam Vírginis", "Salutárem hóstiam, quam", "Sacraménta quæ súmpsimus",
-                    "Excita, Dómine, corda nostra", "Placáre, quǽsumus, Dómine", "Repléti cibo spirituális alimóniæ"),
+                    "Dominica II Adventus", "Excita, Dómine, corda nostra", "Placáre, quǽsumus, Dómine", "Repléti cibo spirituális alimóniæ"),
     # S. Thomæ Apostoli, commemoration of Ember Saturday of Advent
     ((2019, 12, 21), "Da nobis, quǽsumus, Dómine,", "Débitum tibi, Dómine, nostræ", "Adésto nobis, miséricors Deus",
-                     "Deus, qui cónspicis, quia", "Sacrifíciis præséntibus, quǽsumus", "Quǽsumus, Dómine, Deus"),
+                     "Commemoratio Sabbato", "Deus, qui cónspicis, quia", "Sacrifíciis præséntibus, quǽsumus", "Quǽsumus, Dómine, Deus"),
 ])
 def test_calculated_commemorations(date_, collect_contains,secreta_contains,postcommunio_contains,
-                                   comm_collect_contains, comm_secreta_contains, comm_postcommunio_contains):
+                                   comm_collect_sub, comm_collect_contains, comm_secreta_contains,
+                                   comm_postcommunio_contains):
     missal = get_missal(date_[0], language)
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
     assert collect_contains in proper_latin.get_section("Oratio").body[0]
+    assert comm_collect_contains in proper_latin.get_section("Commemoratio Oratio").body[1]
+    assert comm_collect_sub in proper_latin.get_section("Commemoratio Oratio").body[0]
     assert secreta_contains in proper_latin.get_section("Secreta").body[0]
+    assert comm_secreta_contains in proper_latin.get_section("Commemoratio Secreta").body[1]
     assert postcommunio_contains in proper_latin.get_section("Postcommunio").body[0]
+    assert comm_postcommunio_contains in proper_latin.get_section("Commemoratio Postcommunio").body[1]
