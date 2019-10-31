@@ -19,13 +19,14 @@ PREFATIO_APOSTOLIS = 'Apostolis'
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
-PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
-PATTERN_PRE_LENTEN = re.compile(r'^tempora:Quadp\d')
-PATTERN_LENT = re.compile(r'^tempora:Quad(p3-[3-6]|\d)')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
 PATTERN_ADVENT_FERIA = re.compile('tempora:Adv\d-[1-6]')
 PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]:2')
 PATTERN_ADVENT_FERIA_BEFORE_17 = re.compile('tempora:Adv\d-[1-6]:3')
+PATTERN_POST_EPIPHANY_SUNDAY = re.compile(r'^tempora:Epi\d-0')
+PATTERN_PRE_LENTEN = re.compile(r'^tempora:Quadp\d')
+PATTERN_LENT = re.compile(r'^tempora:Quad(p3-[3-6]|\d)')
+PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
 PATTERN_LENT_SUNDAY = re.compile(r'^tempora:Quad\d-0.*')
 PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0r*:\d$')
 PATTERN_TEMPORA_SUNDAY_CLASS_1 = re.compile(r'^tempora:.*-0r*:1$')
@@ -44,16 +45,22 @@ PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2$')
 PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3$')
 PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile('allel[uú][ij]a.*', re.IGNORECASE)
+INTROIT = 'Introitus'
+ORATIO = 'Oratio'
+LECTIO = 'Lectio'
 TRACTUS = 'Tractus'
 GRADUALE = 'Graduale'
 GRADUALE_PASCHAL = 'GradualeP'
-ORATIO = 'Oratio'
+EVANGELIUM = 'Evangelium'
+OFFERTORIUM = 'Offertorium'
 SECRETA = 'Secreta'
+COMMUNIO = 'Communio'
 POSTCOMMUNIO = 'Postcommunio'
 COMMEMORATION = 'Commemoratio'
 COMMEMORATED_ORATIO = 'Commemoratio Oratio'
 COMMEMORATED_SECRETA = 'Commemoratio Secreta'
 COMMEMORATED_POSTCOMMUNIO = 'Commemoratio Postcommunio'
+PREFATIO = 'Prefatio'
 TEMPORA_RANK_MAP = (
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 17, "rank": 2},
     {"pattern": PATTERN_ADVENT_FERIA, "month": 12, "day": 18, "rank": 2},
@@ -109,7 +116,7 @@ VISIBLE_SECTIONS = [
     # Feria IV Cinerum
     'Benedictio cinerum',
     # Common sections
-    'Introitus',
+    INTROIT,
     ORATIO,
     'LectioL1',
     'GradualeL1',
@@ -127,21 +134,21 @@ VISIBLE_SECTIONS = [
     'GradualeL5',
     'OratioL5',
     COMMEMORATED_ORATIO,
-    'Lectio',
+    LECTIO,
     GRADUALE,
     GRADUALE_PASCHAL,
     TRACTUS,
     'Sequentia',
-    'Evangelium',
+    EVANGELIUM,
     'Maundi',  # Quad6-4r, Feria Quinta in Coena Domini
-    'Offertorium',
+    OFFERTORIUM,
     # 'OffertoriumP',  Ignoring for now
     SECRETA,
     COMMEMORATED_SECRETA,
-    'Prefatio',
+    PREFATIO,
     'Pro Laudibus',  # Quad6-5r, Sabbato Sancto
     'Communicantes',
-    'Communio',
+    COMMUNIO,
     # 'CommunioP',  Ignoring for now
     POSTCOMMUNIO,
     COMMEMORATED_POSTCOMMUNIO,

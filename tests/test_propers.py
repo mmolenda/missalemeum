@@ -1,6 +1,8 @@
 from datetime import date
 
-from constants.common import PATTERN_ALLELUIA
+from constants.common import PATTERN_ALLELUIA, INTROIT, ORATIO, COMMEMORATED_ORATIO, LECTIO, GRADUALE, GRADUALE_PASCHAL, \
+    TRACTUS, EVANGELIUM, OFFERTORIUM, SECRETA, COMMUNIO, POSTCOMMUNIO, PREFATIO, COMMEMORATED_SECRETA, \
+    COMMEMORATED_POSTCOMMUNIO
 from exceptions import InvalidInput, ProperNotFound
 
 import pytest
@@ -23,63 +25,63 @@ def test_parse_proper_no_refs():
     assert '«Obchodzimy dzień święty' in proper_vernacular.description
     assert 'Stacja u Św. Piotra' in proper_vernacular.additional_info
     assert 'Szaty białe' in proper_vernacular.additional_info
-    assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
-    assert 'Boże, w dniu dzisiejszym' in proper_vernacular.get_section('Oratio').body[0]
-    assert '*Iz 60:1-6*' in proper_vernacular.get_section('Lectio').body[1]
-    assert 'Iz 60:6; 60:1' in proper_vernacular.get_section('Graduale').body[0]
-    assert '*Mt 2:1-12*' in proper_vernacular.get_section('Evangelium').body[1]
-    assert 'Ps 71:10-11' in proper_vernacular.get_section('Offertorium').body[0]
-    assert 'Wejrzyj miłościwie' in proper_vernacular.get_section('Secreta').body[0]
-    assert 'Mt 2:2' in proper_vernacular.get_section('Communio').body[0]
-    assert 'Spraw, prosimy,' in proper_vernacular.get_section('Postcommunio').body[0]
-    assert 'Prefacja o Objawieniu' in proper_vernacular.get_section('Prefatio').body[0]
+    assert 'Ml 3:1' in proper_vernacular.get_section(INTROIT).body[0]
+    assert 'Boże, w dniu dzisiejszym' in proper_vernacular.get_section(ORATIO).body[0]
+    assert '*Iz 60:1-6*' in proper_vernacular.get_section(LECTIO).body[1]
+    assert 'Iz 60:6; 60:1' in proper_vernacular.get_section(GRADUALE).body[0]
+    assert '*Mt 2:1-12*' in proper_vernacular.get_section(EVANGELIUM).body[1]
+    assert 'Ps 71:10-11' in proper_vernacular.get_section(OFFERTORIUM).body[0]
+    assert 'Wejrzyj miłościwie' in proper_vernacular.get_section(SECRETA).body[0]
+    assert 'Mt 2:2' in proper_vernacular.get_section(COMMUNIO).body[0]
+    assert 'Spraw, prosimy,' in proper_vernacular.get_section(POSTCOMMUNIO).body[0]
+    assert 'Prefacja o Objawieniu' in proper_vernacular.get_section(PREFATIO).body[0]
 
-    assert 'Malach 3:1' in proper_latin.get_section('Introitus').body[0]
-    assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
-    assert '*Is 60:1-6*' in proper_latin.get_section('Lectio').body[1]
-    assert '*Isa 60:6; 60:1*' in proper_latin.get_section('Graduale').body[0]
-    assert '*Matt 2:1-12*' in proper_latin.get_section('Evangelium').body[1]
-    assert '*Ps 71:10-11*' in proper_latin.get_section('Offertorium').body[0]
-    assert 'Ecclésiæ tuæ, quǽsumus' in proper_latin.get_section('Secreta').body[0]
-    assert '*Matt 2:2*' in proper_latin.get_section('Communio').body[0]
-    assert 'Præsta, quǽsumus, omnípotens' in proper_latin.get_section('Postcommunio').body[0]
-    assert '*de Epiphania Domini*' in proper_latin.get_section('Prefatio').body[0]
+    assert 'Malach 3:1' in proper_latin.get_section(INTROIT).body[0]
+    assert 'Deus, qui hodiérna die' in proper_latin.get_section(ORATIO).body[0]
+    assert '*Is 60:1-6*' in proper_latin.get_section(LECTIO).body[1]
+    assert '*Isa 60:6; 60:1*' in proper_latin.get_section(GRADUALE).body[0]
+    assert '*Matt 2:1-12*' in proper_latin.get_section(EVANGELIUM).body[1]
+    assert '*Ps 71:10-11*' in proper_latin.get_section(OFFERTORIUM).body[0]
+    assert 'Ecclésiæ tuæ, quǽsumus' in proper_latin.get_section(SECRETA).body[0]
+    assert '*Matt 2:2*' in proper_latin.get_section(COMMUNIO).body[0]
+    assert 'Præsta, quǽsumus, omnípotens' in proper_latin.get_section(POSTCOMMUNIO).body[0]
+    assert '*de Epiphania Domini*' in proper_latin.get_section(PREFATIO).body[0]
 
 
 def test_parse_proper_refs_inside_sections_and_in_vide():
     proper_vernacular, proper_latin = ProperParser(c.SANCTI_01_22, language).parse()
 
     assert 'Śś. Wincentego' in proper_vernacular.title
-    assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section('Introitus').body[0]
-    assert 'Przychyl się, Panie,' in proper_vernacular.get_section('Oratio').body[0]
-    assert '*Mdr 3:1-8*' in proper_vernacular.get_section('Lectio').body[1]
-    assert '*Wj 15:11*' in proper_vernacular.get_section('Graduale').body[0]
-    assert '*Wj 15:11*' in proper_vernacular.get_section('Tractus').body[0]
-    assert '*Łk 21:9-19*' in proper_vernacular.get_section('Evangelium').body[1]
-    assert '*Ps 67:36*' in proper_vernacular.get_section('Offertorium').body[0]
-    assert 'Ofiarujemy Ci, Panie, te dary' in proper_vernacular.get_section('Secreta').body[0]
-    assert '*Mdr 3:4-6*' in proper_vernacular.get_section('Communio').body[0]
-    assert 'Prosimy Cię, wszechmogący' in proper_vernacular.get_section('Postcommunio').body[0]
-    assert 'Prefacja zwykła' in proper_vernacular.get_section('Prefatio').body[0]
+    assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section(INTROIT).body[0]
+    assert 'Przychyl się, Panie,' in proper_vernacular.get_section(ORATIO).body[0]
+    assert '*Mdr 3:1-8*' in proper_vernacular.get_section(LECTIO).body[1]
+    assert '*Wj 15:11*' in proper_vernacular.get_section(GRADUALE).body[0]
+    assert '*Wj 15:11*' in proper_vernacular.get_section(TRACTUS).body[0]
+    assert '*Łk 21:9-19*' in proper_vernacular.get_section(EVANGELIUM).body[1]
+    assert '*Ps 67:36*' in proper_vernacular.get_section(OFFERTORIUM).body[0]
+    assert 'Ofiarujemy Ci, Panie, te dary' in proper_vernacular.get_section(SECRETA).body[0]
+    assert '*Mdr 3:4-6*' in proper_vernacular.get_section(COMMUNIO).body[0]
+    assert 'Prosimy Cię, wszechmogący' in proper_vernacular.get_section(POSTCOMMUNIO).body[0]
+    assert 'Prefacja zwykła' in proper_vernacular.get_section(PREFATIO).body[0]
 
-    assert '*Ps 78:11-12; 78:10*' in proper_latin.get_section('Introitus').body[0]
-    assert 'Adésto, Dómine, supplicatiónibus' in proper_latin.get_section('Oratio').body[0]
-    assert '*Sap 3:1-8*' in proper_latin.get_section('Lectio').body[1]
-    assert '*Exod 15:11*' in proper_latin.get_section('Graduale').body[0]
-    assert '*Exod 15:11*' in proper_latin.get_section('Tractus').body[0]
-    assert '*Luc 21:9-19*' in proper_latin.get_section('Evangelium').body[1]
-    assert '*Ps 67:36*' in proper_latin.get_section('Offertorium').body[0]
-    assert 'Múnera tibi, Dómine,' in proper_latin.get_section('Secreta').body[0]
-    assert '*Sap 3:4-6*' in proper_latin.get_section('Communio').body[0]
-    assert 'Quǽsumus, omnípotens Deus:' in proper_latin.get_section('Postcommunio').body[0]
-    assert '*Communis*' in proper_latin.get_section('Prefatio').body[0]
+    assert '*Ps 78:11-12; 78:10*' in proper_latin.get_section(INTROIT).body[0]
+    assert 'Adésto, Dómine, supplicatiónibus' in proper_latin.get_section(ORATIO).body[0]
+    assert '*Sap 3:1-8*' in proper_latin.get_section(LECTIO).body[1]
+    assert '*Exod 15:11*' in proper_latin.get_section(GRADUALE).body[0]
+    assert '*Exod 15:11*' in proper_latin.get_section(TRACTUS).body[0]
+    assert '*Luc 21:9-19*' in proper_latin.get_section(EVANGELIUM).body[1]
+    assert '*Ps 67:36*' in proper_latin.get_section(OFFERTORIUM).body[0]
+    assert 'Múnera tibi, Dómine,' in proper_latin.get_section(SECRETA).body[0]
+    assert '*Sap 3:4-6*' in proper_latin.get_section(COMMUNIO).body[0]
+    assert 'Quǽsumus, omnípotens Deus:' in proper_latin.get_section(POSTCOMMUNIO).body[0]
+    assert '*Communis*' in proper_latin.get_section(PREFATIO).body[0]
 
 
 def test_parse_proper_ref_outside_sections():
     proper_vernacular, proper_latin = ProperParser(c.SANCTI_10_DUr, language).parse()
     assert 'Chrystusa Króla' in proper_vernacular.title
-    assert '*Ap 5:12; 1:6*' in proper_vernacular.get_section('Introitus').body[0]
-    assert '*Apoc 5:12; 1:6*' in proper_latin.get_section('Introitus').body[0]
+    assert '*Ap 5:12; 1:6*' in proper_vernacular.get_section(INTROIT).body[0]
+    assert '*Apoc 5:12; 1:6*' in proper_latin.get_section(INTROIT).body[0]
 
 
 def test_invalid_proper_id():
@@ -95,18 +97,18 @@ def test_proper_not_found():
 def test_get_proper_from_observance():
     proper_vernacular, proper_latin = Observance(c.SANCTI_01_06, date(2018, 1, 6), language).get_proper()
     assert 'Objawienie' in proper_vernacular.title
-    assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
-    assert 'Malach 3:1' in proper_latin.get_section('Introitus').body[0]
-    assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
+    assert 'Ml 3:1' in proper_vernacular.get_section(INTROIT).body[0]
+    assert 'Malach 3:1' in proper_latin.get_section(INTROIT).body[0]
+    assert 'Deus, qui hodiérna die' in proper_latin.get_section(ORATIO).body[0]
 
 
 def test_get_proper_from_day():
     missal = get_missal(2018, language)
     proper_vernacular, proper_latin = missal.get_day(date(2018, 1, 6)).get_proper()[0]
     assert 'Objawienie' in proper_vernacular.title
-    assert 'Ml 3:1' in proper_vernacular.get_section('Introitus').body[0]
-    assert 'Malach 3:1' in proper_latin.get_section('Introitus').body[0]
-    assert 'Deus, qui hodiérna die' in proper_latin.get_section('Oratio').body[0]
+    assert 'Ml 3:1' in proper_vernacular.get_section(INTROIT).body[0]
+    assert 'Malach 3:1' in proper_latin.get_section(INTROIT).body[0]
+    assert 'Deus, qui hodiérna die' in proper_latin.get_section(ORATIO).body[0]
 
 
 @pytest.mark.parametrize("date_,id_,rank", [
@@ -135,7 +137,7 @@ def test_get_repr():
 
 @pytest.mark.parametrize("date_,sections", [
     ((2018, 12, 6), ['Rank1570']),
-    ((2019, 3, 25), ['Graduale'])
+    ((2019, 3, 25), [GRADUALE])
 ])
 def test_ignored_sections(date_, sections):
     missal = get_missal(date_[0], language)
@@ -160,7 +162,7 @@ def test_correct_preface_calculated_by_date(date_,title_part, preface_body):
     missal = get_missal(date_[0], language)
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
     assert title_part in proper_vernacular.title
-    assert preface_body == proper_latin.get_section('Prefatio').get_body()[0]
+    assert preface_body == proper_latin.get_section(PREFATIO).get_body()[0]
 
 
 @pytest.mark.parametrize("proper_id,preface_name,preface_body", [
@@ -169,25 +171,25 @@ def test_correct_preface_calculated_by_date(date_,title_part, preface_body):
 ])
 def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, preface_body):
     _, proper_latin = ProperParser(proper_id, language, ProperConfig(preface=preface_name)).parse()
-    assert preface_body == proper_latin.get_section('Prefatio').get_body()[0]
+    assert preface_body == proper_latin.get_section(PREFATIO).get_body()[0]
 
 
 @pytest.mark.parametrize("date_,title_part,sections_present,sections_absent", [
-    ((2019, 7, 3), 'Ireneusza', ('Graduale', ), ('GradualeP', 'Tractus')),
-    ((2019, 6, 29), 'Piotra i Pawła', ('Graduale', ), ('GradualeP', 'Tractus')),
-    ((2019, 1, 17), 'Antoniego', ('Graduale', ), ('GradualeP', 'Tractus')),  # Sancti/01-17 -> Commune/C4c; normal season
-    ((2018, 2, 7), 'Romualda', ('Tractus', ), ('Graduale', 'GradualeP')),  # Sancti/01-17 -> Commune/C4c; pre-lent
-    ((2019, 5, 10), 'Antonina', ('GradualeP', ), ('Graduale', 'Tractus')),  # Sancti/05-10 -> Commune/C4; paschal
-    ((2018, 4, 14), 'Justyna', ('GradualeP', ), ('Graduale', 'Tractus')),  # Sancti/04-14 / paschal, but has no gradualep
-    ((2019, 5, 2), 'Atanazego', ('Graduale', ), ('GradualeP', 'Tractus')),  # Sancti/04-14 / paschal, but has no gradualep
-    ((2019, 2, 22), 'Katedry', ('Tractus', ), ('GradualeP', 'GradualeP')),
-    ((2019, 2, 23), 'Piotra Damiana', ('Tractus', ), ('GradualeP', 'GradualeP')),
-    ((2019, 4, 30), 'Katarzyny', ('GradualeP', ), ('Tractus', 'Graduale')),
-    ((2019, 5, 10), 'Antonina', ('GradualeP', ), ('Tractus', 'Graduale')),
-    ((2019, 5, 13), 'Bellarmina', ('GradualeP', ), ('Tractus', 'Graduale')),
-    ((2019, 5, 17), 'Paschalisa', ('GradualeP', ), ('Tractus', 'Graduale')),
+    ((2019, 7, 3), 'Ireneusza', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),
+    ((2019, 6, 29), 'Piotra i Pawła', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),
+    ((2019, 1, 17), 'Antoniego', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),  # Sancti/01-17 -> Commune/C4c; normal season
+    ((2018, 2, 7), 'Romualda', (TRACTUS, ), (GRADUALE, GRADUALE_PASCHAL)),  # Sancti/01-17 -> Commune/C4c; pre-lent
+    ((2019, 5, 10), 'Antonina', (GRADUALE_PASCHAL, ), (GRADUALE, TRACTUS)),  # Sancti/05-10 -> Commune/C4; paschal
+    ((2018, 4, 14), 'Justyna', (GRADUALE_PASCHAL, ), (GRADUALE, TRACTUS)),  # Sancti/04-14 / paschal, but has no gradualep
+    ((2019, 5, 2), 'Atanazego', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),  # Sancti/04-14 / paschal, but has no gradualep
+    ((2019, 2, 22), 'Katedry', (TRACTUS, ), (GRADUALE_PASCHAL, GRADUALE_PASCHAL)),
+    ((2019, 2, 23), 'Piotra Damiana', (TRACTUS, ), (GRADUALE_PASCHAL, GRADUALE_PASCHAL)),
+    ((2019, 4, 30), 'Katarzyny', (GRADUALE_PASCHAL, ), (TRACTUS, GRADUALE)),
+    ((2019, 5, 10), 'Antonina', (GRADUALE_PASCHAL, ), (TRACTUS, GRADUALE)),
+    ((2019, 5, 13), 'Bellarmina', (GRADUALE_PASCHAL, ), (TRACTUS, GRADUALE)),
+    ((2019, 5, 17), 'Paschalisa', (GRADUALE_PASCHAL, ), (TRACTUS, GRADUALE)),
 
-    ((2019, 8, 15), 'Wniebowzięcie', ('Graduale', ), ('Tractus', 'GradualeP')),
+    ((2019, 8, 15), 'Wniebowzięcie', (GRADUALE, ), (TRACTUS, GRADUALE_PASCHAL)),
 ])
 def test_correct_gradual_tract_depending_on_the_season(date_, title_part, sections_present, sections_absent):
     missal = get_missal(date_[0], language)
@@ -209,8 +211,8 @@ def test_correct_gradual_tract_depending_on_the_season(date_, title_part, sectio
 def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, stripped):
     missal = get_missal(date_[0], language)
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
-    gradual_vernacular = proper_vernacular.get_section("Graduale").body
-    gradual_latin = proper_latin.get_section("Graduale").body
+    gradual_vernacular = proper_vernacular.get_section(GRADUALE).body
+    gradual_latin = proper_latin.get_section(GRADUALE).body
     assert any([PATTERN_ALLELUIA.search(i, re.I) for i in gradual_vernacular + gradual_latin]) is not stripped
 
 
@@ -255,10 +257,38 @@ def test_calculated_commemorations(date_, collect_contains,secreta_contains,post
                                    comm_postcommunio_contains):
     missal = get_missal(date_[0], language)
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
-    assert collect_contains in proper_latin.get_section("Oratio").body[0]
-    assert comm_collect_contains in proper_latin.get_section("Commemoratio Oratio").body[1]
-    assert comm_collect_sub in proper_latin.get_section("Commemoratio Oratio").body[0]
-    assert secreta_contains in proper_latin.get_section("Secreta").body[0]
-    assert comm_secreta_contains in proper_latin.get_section("Commemoratio Secreta").body[1]
-    assert postcommunio_contains in proper_latin.get_section("Postcommunio").body[0]
-    assert comm_postcommunio_contains in proper_latin.get_section("Commemoratio Postcommunio").body[1]
+    assert collect_contains in proper_latin.get_section(ORATIO).body[0]
+    assert comm_collect_contains in proper_latin.get_section(COMMEMORATED_ORATIO).body[1]
+    assert comm_collect_sub in proper_latin.get_section(COMMEMORATED_ORATIO).body[0]
+    assert secreta_contains in proper_latin.get_section(SECRETA).body[0]
+    assert comm_secreta_contains in proper_latin.get_section(COMMEMORATED_SECRETA).body[1]
+    assert postcommunio_contains in proper_latin.get_section(POSTCOMMUNIO).body[0]
+    assert comm_postcommunio_contains in proper_latin.get_section(COMMEMORATED_POSTCOMMUNIO).body[1]
+
+
+@pytest.mark.parametrize("date_,introit,collect,lectio,gradual,evangelium,offertorium,secreta,communio,postcommunio", [
+    # 4th Sunday after Epiphany moved to the period after Pentecost
+    ((2018, 11, 4), "Jer 29:11; 29:12; 29:14", "Deus, qui nos", "Rom 13:8-10", "Ps 43:8-9", "Matt 8:23-27",
+     "Ps 129:1-2", "Concéde, quǽsumus", "Marc 11:24", "Múnera tua nos"),
+    # Monday after 4th Sunday after Epiphany moved to the period after Pentecost
+    ((2018, 11, 5), "Jer 29:11; 29:12; 29:14", "Deus, qui nos", "Rom 13:8-10", "Ps 43:8-9", "Matt 8:23-27",
+     "Ps 129:1-2", "Concéde, quǽsumus", "Marc 11:24", "Múnera tua nos"),
+    # 5th Sunday after Epiphany moved to the period after Pentecost
+    ((2018, 11, 11), "Jer 29:11; 29:12; 29:14", "Famíliam tuam", "Col 3:12-17", "Ps 43:8-9", "Matt 13:24-30",
+     "Ps 129:1-2", "Hóstias tibi", "Marc 11:24", "Quǽsumus, omnípotens"),
+    # 6th Sunday after Epiphany moved to the period after Pentecost
+    ((2018, 11, 18), "Jer 29:11; 29:12; 29:14", "Præsta, quǽsumus", "1 Thess 1:2-10", "Ps 43:8-9", "Matt 13:31-35",
+     "Ps 129:1-2", "Hæc nos oblátio", "Marc 11:24", "Cœléstibus, Dómine"),
+])
+def test_sundays_shifted_from_post_epiphany_to_post_pentecost_have_proper_sections(
+        date_, introit, collect, lectio, gradual, evangelium, offertorium, secreta, communio, postcommunio):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    assert introit in proper_latin.get_section(INTROIT).body[0]
+    assert collect in proper_latin.get_section(ORATIO).body[0]
+    assert lectio in proper_latin.get_section(LECTIO).body[1]
+    assert gradual in proper_latin.get_section(GRADUALE).body[0]
+    assert evangelium in proper_latin.get_section(EVANGELIUM).body[1]
+    assert offertorium in proper_latin.get_section(OFFERTORIUM).body[0]
+    assert secreta in proper_latin.get_section(SECRETA).body[0]
+    assert communio in proper_latin.get_section(COMMUNIO).body[0]
