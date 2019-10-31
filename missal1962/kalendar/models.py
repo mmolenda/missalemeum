@@ -12,7 +12,7 @@ from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER, PATTERN_PRE_LENTEN,
                               PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE, CUSTOM_INTER_READING_SECTIONS,
-                              SUNDAY)
+                              SUNDAY, PATTERN_POST_EPIPHANY_SUNDAY, TEMPORA_PENT23_0, INTROIT, OFFERTORIUM, COMMUNIO)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
 from utils import infer_custom_preface, match
@@ -57,22 +57,26 @@ class Observance:
                     depends on which calendar day they occur.
         :type date_: `date ` object
         """
+        self.date = date_
         self.lang = lang
         translation = importlib.import_module(f'constants.{lang}.translation')
         flexibility, name, rank = observance_id.split(':')
         self.flexibility: str = flexibility
         self.name: str = name
-        self.rank: int = self._calc_rank(observance_id, date_, int(rank))
+        self.rank: int = self._calc_rank(observance_id, int(rank))
         self.id: str = ':'.join((self.flexibility, self.name, str(self.rank)))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
-            self.weekday = date_.weekday()
+            self.weekday = self.date.weekday()
         self.priority = self._calc_priority()
 
     def get_proper(self, config=None) -> Tuple['Proper', 'Proper']:
-        return ProperParser(self.id, self.lang, config).parse()
+        proper: Tuple['Proper', 'Proper'] = ProperParser(self.id, self.lang, config).parse()
+        if re.match(PATTERN_POST_EPIPHANY_SUNDAY, self.id) and self.date.month >= 10:
+            self._adjust_sunday_shifted_from_post_epiphany(proper)
+        return proper
 
     def has_proper(self) -> bool:
         return ProperParser(self.id, self.lang).proper_exists()
@@ -80,14 +84,16 @@ class Observance:
     def serialize(self) -> dict:
         return {'id': self.id, 'rank': self.rank, 'title': self.title}
 
-    def _calc_rank(self, observance_id: str, date_: date, original_rank: int) -> int:
+    def _calc_rank(self, observance_id: str, original_rank: int) -> int:
         """
         Some observance's ranks depend on calendar day on which they fall, for example:
           Advent feria days between 17 and 23 December are 2 class,
           while other feria Advent days are 3 class;
         """
         for case in TEMPORA_RANK_MAP:
-            if date_.month == case['month'] and date_.day == case['day'] and re.match(case['pattern'], observance_id):
+            if self.date.month == case['month']\
+                    and self.date.day == case['day']\
+                    and re.match(case['pattern'], observance_id):
                 return case['rank']
         return original_rank
 
@@ -98,6 +104,20 @@ class Observance:
         for priority, pattern in enumerate(TABLE_OF_PRECEDENCE):
             if re.match(pattern, self.id):
                 return priority
+
+    def _adjust_sunday_shifted_from_post_epiphany(self, propers: Tuple['Proper', 'Proper']) \
+            -> Tuple['Proper', 'Proper']:
+        """
+        When Easter is early (e.g. 2018), Pre-lent takes up some Sundays after Epiphany, which in turn
+        are shifted to the end of the period after Pentecost. In such case, each shifted Sunday is modified
+        in following way:
+          * Introit, Gradual, Offertorium and Communio are taken from 23rd Sunday after Pentecost
+          * Collect, Lectio, Evangelium and Secreta are taken from respective shifted Sunday
+        """
+        proper_sunday_23_post_pentecost: Tuple['Proper', 'Proper'] = ProperParser(TEMPORA_PENT23_0, self.lang).parse()
+        for i, proper in enumerate(propers):
+            for section in (INTROIT, GRADUALE, OFFERTORIUM, COMMUNIO):
+                proper.set_section(section, proper_sunday_23_post_pentecost[i].get_section(section))
 
     def __repr__(self):
         return "<{}>".format(self.id)
@@ -162,8 +182,8 @@ class Day:
         if self.commemoration:
             commemoration_propers = self._calculate_proper(self.commemoration)
             for celebration_proper in celebration_propers:
-                celebration_proper[0].add_commemorations([i[0] for i in commemoration_propers])
-                celebration_proper[1].add_commemorations([i[1] for i in commemoration_propers])
+                for i in (0, 1):
+                    celebration_proper[i].add_commemorations([j[i] for j in commemoration_propers])
         return celebration_propers
 
     def _calculate_proper(self, observances: List[Observance]) -> List[Tuple['Proper', 'Proper']]:
@@ -173,6 +193,7 @@ class Day:
          * In paschal time show paschal gradual instead of regular gradual
          * In Lent show tractus instead of gradual
          * In feria days, when the proper from the last sunday is used, adjust day's class, remove "alleluja", etc.
+         * In Sundays after Epiphany moved to the period after Pentecost adjust the sections accordingly
          * Show proper prefatio
          * etc.
         """

@@ -2,7 +2,8 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION, INTROIT, OFFERTORIUM, \
+    COMMUNIO
 
 
 class ParsedSource:
@@ -149,6 +150,17 @@ class Proper(ParsedSource):
                 commemorated_section.id = commemorated_section_name
                 commemorated_section.label = self.commemorations_names_translations[commemorated_section_name]
                 self.set_section(commemorated_section_name, commemorated_section)
+
+    def substitute_introitus_graduale_offertorium_and_communio(self, other_proper):
+        """
+        When Easter is early (e.g. 2018), Pre-lent takes up some Sundays after Epiphany, which in turn
+        are shifted to the end of the period after Pentecost. In such case, each shifted Sunday is modified
+        in following way:
+          * Introit, Gradual, Offertorium and Communio are taken from 23rd Sunday after Pentecost
+          * Collect, Lectio, Evangelium and Secreta are taken from respective shifted Sunday
+        """
+        for section in (INTROIT, GRADUALE, OFFERTORIUM, COMMUNIO):
+            self.set_section(section, other_proper.get_section(section))
 
     def __repr__(self):
         return f'Proper<{self.id}>'
