@@ -8,7 +8,7 @@ from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
                               EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA)
+                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -249,7 +249,7 @@ class ProperParser:
 
     def _add_prefaces(self, proper, lang):
         preface_name = self.config.preface or proper.get_rule('preface') or None
-        if preface_name is None and 'Prefatio' in proper.keys():
+        if preface_name == PREFATIO_OMIT or (preface_name is None and 'Prefatio' in proper.keys()):
             return proper
         preface_item = self.prefaces[lang].get_section(preface_name)
         if preface_item is None:
