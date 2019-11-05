@@ -145,7 +145,7 @@ TITLES = {
     constants.TEMPORA_PASC4_6: 'Sobota po 4 Niedzieli po Wielkanocy',
     constants.TEMPORA_PASC5_0: '5 Niedziela po Wielkanocy',
     constants.TEMPORA_PASC5_1: 'Litanie mniejsze',
-    constants.TEMPORA_PASC5_2: 'Litanie mniejsze 2 ??',
+    constants.TEMPORA_PASC5_2: 'Litanie mniejsze',
     constants.TEMPORA_PASC5_3: 'Wigilia Wniebowstąpienia Pańskiego',
     constants.TEMPORA_PASC5_4: 'Wniebowstąpienie Pańskie',
     constants.TEMPORA_PASC5_5: 'Piątek po Wniebowstąpieniu',
