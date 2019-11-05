@@ -38,17 +38,24 @@ R. Amen.
 _
 _
 [De benedictione cerei Paschalis]
-
 ! Jeden z ministrantów przynosi przed celebransa paschał. Celebrans żłobi rylcem na świecy paschalnej krzyż, pierwszą i ostatnią literę alfabetu greckiego oraz cztery cyfry bieżącego roku.
 
-Chrystus wczoraj i dziś, (żłobi pionowe ramię)
-Początek i Koniec, (żłobi poziome ramię)
-Alfa (żłobi literę Α nad pionowym ramieniem)
-i Omega; (żłobi literę Ω pod pionowym ramieniem)
-Jego są czasy (żłobi pierwszą cyfrę bieżącego roku w lewym górnym rogu krzyża)
-i wieki; (żłobi drugą cyfrę bieżącego roku w prawym górnym rogu krzyża)
-Jemu chwała i panowanie (żłobi trzecią cyfrę bieżącego roku w lewym dolnym rogu krzyża)
-przez wszystkie wieki wieków. Amen. (żłobi czwartą cyfrę bieżącego roku w prawym dolnym rogu krzyża) 
+Chrystus wczoraj i dziś,
+! żłobi pionowe ramię
+Początek i Koniec,
+! żłobi poziome ramię
+Alfa
+! żłobi literę Α nad pionowym ramieniem
+i Omega;
+! żłobi literę Ω pod pionowym ramieniem
+Jego są czasy
+! żłobi pierwszą cyfrę bieżącego roku w lewym górnym rogu krzyża
+i wieki;
+! żłobi drugą cyfrę bieżącego roku w prawym górnym rogu krzyża
+Jemu chwała i panowanie
+! żłobi trzecią cyfrę bieżącego roku w lewym dolnym rogu krzyża
+przez wszystkie wieki wieków. Amen.
+! żłobi czwartą cyfrę bieżącego roku w prawym dolnym rogu krzyża
 _
 ! Następnie diakon lub ministrant podaje celebransowi pięć ziaren kadzidła. Jeżeli nie są one poświęcone, celebrans kropi je święconą wodą i okadza, po czym wkłada je w przygotowane otwory na końcu ramion oraz w przecięciu wyrytego krzyża jako symbol chwalebnych ran Chrystusowych.
 
@@ -59,11 +66,13 @@ i zachowuje
 Chrystus Pan. Amen. 
 _
 ! Diakon podaje następnie świecę zapaloną od poświęconego ognia, którą celebrans zapala paschał, mówiąc:
-
+_
+_
 v. Niech światło Chrystusa chwalebnie zmartwychwstałego rozproszy ciemności serca i umysłu naszego. 
 
 ! Potem celebrans poświęca paschał:
-
+_
+_
 &DominusVobiscum
 v. Módlmy się.
 Błagamy Cię, wszechmogący Boże, niechaj spłynie obfite błogo + sławieństwo Twoje na tę zapaloną świecę. O niewidzialny Dawco nowego życia, wejrzyj na ten płomień jaśniejący wśród nocy. Niech ofiara składana tej nocy rozbłyśnie tajemniczą jasnością Twojego światła. A na każdym miejscu, gdzie zostanie zaniesiony płomień ze świętego misterium, niech po usunięciu niegodziwych podstępów szatana okaże się potęgo Twojego majestatu. Przez Chrystusa, Pana naszego.
@@ -80,13 +89,17 @@ _
 V. Światło Chrystusa.
 
 ! Za każdym razem wszyscy klękają zwróceni w stronę paschału i odpowiadają:
-R. Bogu dzięki. 
+
+R. Bogu dzięki.
 
 ! Po pierwszym Lumen Christi zapala się świecę celebransa
+
 V. Światło Chrystusa.
 R. Bogu dzięki.
 
 ! Po drugim – świece duchowieństwa
+
+
 V. Światło Chrystusa.
 R. Bogu dzięki.
 
@@ -100,6 +113,7 @@ _
 Racz pobłogosławić, ojcze.
 
 ! Celebrans odpowiada:
+
 Pan niechaj będzie w sercu twoim i na wargach twoich: abyś godnie i należycie wygłosił wielkanocne orędzie: w imię Ojca i Syna + i Ducha Świętego. 
 
 ! Diakon odpowiada:
@@ -127,9 +141,11 @@ O zaiste konieczny był grzech Adama, który został zgładzony śmiercią Chrys
 O szczęśliwa wino, któraś zasłużyła mieć takiego i tak potężnego Odkupiciela!
 O zaiste błogosławiona noc, co jedyna była godna poznać czas i godzinę zmartwychwstania Chrystusa. O tej to nocy napisano: «A noc jako dzień zajaśnieje i noc będzie mi światłem i radością».
 Uświęcająca moc tej nocy oddala zbrodnie, zmywa winy, przywraca niewinność upadłym, a radość smutnym. Rozprasza nienawiść, usposabia do zgody i ugina potęgi.
+
 W tę noc pełną łaski przyjmij, Ojcze Święty, wieczorną ofiarę tego światła, którą Ci składa Kościół święty uroczyście ofiarując przez ręce swoich sług tę świecę, owoc pracy pszczół. Znamy już wymowę tej woskowej kolumny, którą na chwałę Boga zapalił złocisty płomień.
 Chociaż dzieli się on użyczając światła, nie doznaje jednak uszczerbku. Żywi się bowiem strugami wosku, który dla utworzenia tej cennej pochodni wydała twórcza pszczoła.
 O zaiste błogosławiona noc, która wydarła łupy Egipcjanom, wzbogaciła Hebrajczyków. Noc, w której łączą się sprawy niebieskie z ziemskimi, Boże z ludzkimi.
+
 Prosimy Cię przeto, Panie, niech ta świeca poświęcona na chwałę Twojego imienia nieustannie płonie, aby rozproszyć mroki tej nocy. Przyjęta jako woń przyjemna, niechaj się złączy ze światłami nieba. Niechaj jej płomień zastanie ranny brzask Słońca, tego Słońca, które nie zna zachodu, które wróciwszy z otchłani pogodnie zajaśniało ludzkości.
 Błagamy Cię więc, o Panie, racz nam udzielić dni spokojnych i wśród tych wielkanocnych radości racz kierować i zachować w nieustannej opiece nas sługi Twoje, całe duchowieństwo i oddany Ci lud razem z Ojcem świętym papieżem N. i biskupem naszym N.
 Wejrzyj również na tych, którzy sprawują rządy nad nami, i w niewymownej Twojej dobroci i miłosierdziu kieruj ich myśli ku sprawiedliwości i pokojowi, aby po ziemskiej działalności przeszli do ojczyzny niebieskiej z całym Twym ludem. Przez tegoż Pana naszego Jezusa Chrystusa, Syna Twojego, który z Tobą żyje i króluje w jedności Ducha Świętego, Bóg przez wszystkie wieki wieków.
@@ -165,7 +181,6 @@ R. Wstańcie.
 Boże, który w przedziwny sposób stworzyłeś człowieka, a jeszcze dziwniej odkupiłeś, spraw, prosimy, abyśmy siłą ducha opierali się powabom grzechu i zasłużyli osiągnąć wieczne radości.
 $Per Dominum 
 _
-_
 ! 2 Lekcja
 !Wj 14:24-31; 15:1
 !x! Przejście przez Morze Czerwone było warunkiem wyzwolenia Izraelitów z niewoli egipskiej i wprowadzenia do Ziemi Obiecanej. Jest to zapowiedź Chrztu świętego, który wyzwala chrześcijan z jarzma szatana i wprowadza ich do Kościoła świętego.
@@ -183,7 +198,6 @@ V. Klęknijmy.
 R. Wstańcie.
 Wiemy, o Boże, że i w naszych czasach jaśnieją Twe pradawne cuda. Dla zbawienia wszystkich narodów działasz dzisiaj przez wodę odrodzenia to, co uczyniłeś dla jednego narodu wybawiając go mocą Swojej prawicy z egipskiej niewoli. Spraw, aby cała ludzkość weszła do liczby synów Abrahama i dostąpiła godności wybranego ludu izraelskiego.
 $Per Dominum 
-_
 _
 ! 3 Lekcja
 !Iz 4:2-6
@@ -379,9 +393,11 @@ _
 _
 [De renovatione promissionum baptismatis]
 ! Celebrans wkłada białą kapę i okadziwszy paschał stojąc przed nim lub na kazalnicy przemawia do wiernych:
-
-
-v. Najmilsi bracia, tej najświętszej nocy Kościół święty, Matka nasza, wspominając śmierć i pogrzeb Pana naszego Jezusa Chrystusa, czuwa, by Mu odpłacić miłością za miłość, obchodząc zaś Jego chwalebne Zmartwychwstanie, weseli się, pełen radości. 
+_
+_
+_
+_
+v. Najmilsi bracia, tej najświętszej nocy Kościół święty, Matka nasza, wspominając śmierć i pogrzeb Pana naszego Jezusa Chrystusa, czuwa, by Mu odpłacić miłością za miłość, obchodząc zaś Jego chwalebne Zmartwychwstanie, weseli się, pełen radości.
 
 v. Ponieważ zaś, jak uczy Apostoł, przez Chrzest zostaliśmy wespół z Chrystusem pogrzebani w śmierci Jego, przeto jak Chrystus powstał z martwych, tak i my powinniśmy chodzić w nowości żywota, wiedząc, że stary nasz człowiek został z Chrystusem wespół ukrzyżowany, abyśmy nadal nie służyli grzechowi. Zrozumiejmy więc, żeśmy umarli dla grzechu, a żyjemy dla Boga, w Chrystusie Jezusie, Panu naszym. 
 
@@ -413,6 +429,7 @@ _
 [De altera parte Litaniarum]
 ! Po odnowieniu przyrzeczeń Chrztu świętego kantorzy śpiewają drugą część litanii do Wszystkich Świętych. Wierni klęcząc odpowiadają na wezwania. Paschał umieszcza się przy ołtarzu po stronie ewangelii, a celebrans i asystujący nakładają w zakrystii białe szaty do uroczystej Mszy Świętej.
 
+
 V. Bądź nam miłościw. R. Przepuść nam, Panie.
 V. Bądź nam miłościw. R. Wysłuchaj nas, Panie.
 V. Od zła wszelkiego. R. Wybaw nas, Panie.
@@ -428,6 +445,7 @@ V. Przez święte Zmartwychwstanie Twoje. Wybaw nas, Panie.
 V. Przez cudowne Wniebowstąpienie Twoje. Wybaw nas, Panie.
 V. Przez Przyjście Ducha Świętego Pocieszyciela. Wybaw nas, Panie.
 V. W dzień sądu. Wybaw nas, Panie.
+_
 _
 V. My grzeszni. R. Ciebie prosimy, wysłuchaj nas, Panie.
 V. Abyś nam grzechy odpuścić raczył. R. Ciebie prosimy, wysłuchaj nas, Panie.
@@ -456,8 +474,8 @@ _
 _
 _
 [Oratio]
-
-
+&DominusVobiscum
+v. Módlmy się.
 Boże, który tę najświętszą noc uświetniasz chwałą Zmartwychwstania Pańskiego, zachowaj w nowych Twych dzieciach ducha przybrania, któregoś im użyczył: aby odnowieni na duchu i ciele mogli Ci służyć w nieskazitelności.
 $Per eundem 
 
@@ -467,11 +485,9 @@ _
 [Lectio]
 Czytanie z Listu świętego Pawła Apostoła do Kolosan.
 !Kol 3:1-4
-Bracia: Jeżeli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze jest, gdzie Chrystus siedzi po prawicy Boga. Starajcie się o to, co w górze jest, nie o to, co jest na ziemi. Umarliście bowiem, a życie wasze ukryte jest z Chrystusem w Bogu. Gdy ukaże się Chrystus, życie nasze, wtedy i wy ukażecie się razem z Nim w chwale. 
+Bracia: Jeżeli razem z Chrystusem powstaliście z martwych, szukajcie tego, co w górze jest, gdzie Chrystus siedzi po prawicy Boga. Starajcie się o to, co w górze jest, nie o to, co jest na ziemi. Umarliście bowiem, a życie wasze ukryte jest z Chrystusem w Bogu. Gdy ukaże się Chrystus, życie nasze, wtedy i wy ukażecie się razem z Nim w chwale.
+$Deo gratias
 _
-_
-!! Alleluja
-
 ! Celebrans zaczyna Alleluja: śpiewa je trzykrotnie, za każdym razem coraz wyżej, a wszyscy za nim powtarzają również trzykrotnie:
 
 S. Alleluja!
@@ -489,20 +505,17 @@ _`
 V. Dziękujcie Panu, bo jest dobry, bo miłosierdzie Jego na wieki.
 
 [Tractus]
-
 ! Ps 116
 V. Chwalcie Pana, wszystkie narody, wysławiajcie Go, wszystkie ludy.
 V. Bo Jego miłosierdzie nad nami utwierdzone, a wierność Pańska trwa na wieki. 
 _
 _
 [Evangelium]
-
 ! Do śpiewania ewangelii nie niesie się świec, ponieważ przyświeca paschał.
 
 v. Ciąg dalszy + Ewangelii świętej według Mateusza.
 !Mt 28: 1-7
 A późno po szabacie, gdy świtało na pierwszy dzień tygodnia, przyszła Maria Magdalena i druga Maria obejrzeć grób. A oto stało się wielkie trzęsienie ziemi. Anioł bowiem Pański zstąpił z nieba i przystąpiwszy odsunął kamień i usiadł na nim. I było wejrzenie jego jako błyskawica, a szaty jego jako śnieg. A z bojaźni przed nim przerazili się strażnicy i stali się jakoby umarli. A odpowiadając Anioł rzekł niewiastom: «Nie bójcie się wy. Wiem bowiem, że szukacie Jezusa, który był ukrzyżowany. Nie masz Go tu, albowiem zmartwychwstał, jako zapowiedział. Pójdźcie, a oglądajcie miejsce, gdzie Pan był złożony. I idąc śpiesznie, powiedzcie uczniom Jego, że zmartwychwstał i oto zdąża przed wami do Galilei: tam Go ujrzycie. Otom wam zapowiedział». 
-_
 _
 ! Nie odmawia się Credo, ani antyfony na ofiarowanie.
 
@@ -518,54 +531,51 @@ Przeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hu
 _
 _
 [Pro Laudibus]
-
 ! Po Komunii wiernych chór zaczyna śpiewać Laudes: poranną modlitwę Kościoła, skróconą do jednego psalmu i kantyku.
+
 
 Ant. Alleluja, alleluja, alleluja.
 
 !Psalm 150
-~(150:1) Chwalcie Pana w Jego świątyni, * chwalcie Go na wzniosłym Jego nieboskłonie.
-~(150:2) Chwalcie Go dla możnych dzieł Jego, * chwalcie dla najwyższego Jego majestatu.
-~(150:3) Chwalcie Go dźwiękiem trąby, * chwalcie na harfie i cytrze.
-~(150:4) Chwalcie Go bębnem i tańcem, * chwalcie na strunach i flecie.
-~(150:5) Chwalcie Go na dźwięcznych cymbałach, chwalcie na cymbałach brzęczących: * niech chwali Pana wszystko, co żyje.
-V. Chwała Ojcu, i Synowi, * i Duchowi Świętemu.
-R. Jak była na początku, teraz i zawsze, * i na wieki wieków. Amen.
+~(150:1) Chwalcie Pana w Jego świątyni, chwalcie Go na wzniosłym Jego nieboskłonie.
+~(150:2) Chwalcie Go dla możnych dzieł Jego, chwalcie dla najwyższego Jego majestatu.
+~(150:3) Chwalcie Go dźwiękiem trąby, chwalcie na harfie i cytrze.
+~(150:4) Chwalcie Go bębnem i tańcem, chwalcie na strunach i flecie.
+~(150:5) Chwalcie Go na dźwięcznych cymbałach, chwalcie na cymbałach brzęczących: niech chwali Pana wszystko, co żyje.
+V. Chwała Ojcu, i Synowi, i Duchowi Świętemu.
+R. Jak była na początku, teraz i zawsze, i na wieki wieków. Amen.
 Ant. Alleluja, alleluja, alleluja. 
 _
 _
 ! Celebrans intonuje antyfonę do kantyku:
+
+
 ! Mk 16,2
-Ant. I bardzo rano, * w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja.
+Ant. I bardzo rano, w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja.
 
 ! Pieśń Zachariasza
 ! Łk 1,68-79
-Błogosławiony Pan Bóg Izraela, * nawiedził bowiem lud swój i odkupił.
-I z mocą dokonał naszego zbawienia * w rodzie Dawida, swojego sługi.
-Jak rzekł przez usta świętych swych Proroków, * którzy ongiś byli:
-Że nas wybawi od naszych wrogów * i z ręki wszystkich, co nas nienawidzą.
-Wyświadczy miłosierdzie ojcom naszym, * pomny będzie na swe święte przymierze.
-Na przysięgę daną ojcu naszemu Abrahamowi, * iż nam udzieli tego, 
-Byśmy wyzwoleni z rąk naszych wrogów, * mogli Mu służyć bez trwogi,
-W świętości i sprawiedliwości przed Jego obliczem * po wszystkie dni nasze.
-A ty, o dziecię, zwane będziesz prorokiem Najwyższego, * bo pójdziesz przed obliczem Pana gotować Jego drogi,
-By dać ludowi Jego wiedzę o zbawieniu * przez odpuszczenie ich grzechów,
-Dzięki tkliwemu miłosierdziu Boga naszego, * z jakim nas z wysoka nawiedzi Wschodzące Słońce,
-Dzięki tkliwemu miłosierdziu Boga naszego, * z jakim nas z wysoka nawiedzi Wschodzące Słońce,
-Dzięki tkliwemu miłosierdziu Boga naszego, * z jakim nas z wysoka nawiedzi Wschodzące Słońce,
-By oświecić tych, co siedzą w mrokach i w cieniu śmierci, * by skierować stopy nasze na drogę pokoju.
-Chwała Ojcu i Synowi * i Duchowi Świętemu.
-Jak była na początku, teraz i zawsze * i na wieki wieków. Amen.
-
-Ant. I bardzo rano, * w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja. 
-_
-_
-! Po powtórnym odśpiewaniu antyfony celebrans śpiewa:
-
-&DominusVobiscum
+r. Błogosławiony Pan Bóg Izraela, nawiedził bowiem lud swój i odkupił.
+r. I z mocą dokonał naszego zbawienia w rodzie Dawida, swojego sługi.
+r. Jak rzekł przez usta świętych swych Proroków, którzy ongiś byli:
+r. Że nas wybawi od naszych wrogów i z ręki wszystkich, co nas nienawidzą.
+r. Wyświadczy miłosierdzie ojcom naszym, pomny będzie na swe święte przymierze.
+r. Na przysięgę daną ojcu naszemu Abrahamowi, iż nam udzieli tego,
+r. Byśmy wyzwoleni z rąk naszych wrogów, mogli Mu służyć bez trwogi,
+r. W świętości i sprawiedliwości przed Jego obliczem po wszystkie dni nasze.
+r. A ty, o dziecię, zwane będziesz prorokiem Najwyższego, bo pójdziesz przed obliczem Pana gotować Jego drogi,
+r. By dać ludowi Jego wiedzę o zbawieniu przez odpuszczenie ich grzechów,
+r. Dzięki tkliwemu miłosierdziu Boga naszego, z jakim nas z wysoka nawiedzi Wschodzące Słońce,
+r. Dzięki tkliwemu miłosierdziu Boga naszego, z jakim nas z wysoka nawiedzi Wschodzące Słońce,
+r. Dzięki tkliwemu miłosierdziu Boga naszego, z jakim nas z wysoka nawiedzi Wschodzące Słońce,
+r. By oświecić tych, co siedzą w mrokach i w cieniu śmierci, by skierować stopy nasze na drogę pokoju.
+r. Chwała Ojcu i Synowi i Duchowi Świętemu.
+r. Jak była na początku, teraz i zawsze i na wieki wieków. Amen.
+Ant. I bardzo rano, w pierwszy dzień tygodnia niewiasty przyszły do grobu, gdy już wzeszło słońce, alleluja.
 
 [Postcommunio]
-
+&DominusVobiscum
+v. Módlmy się.
 Tchnij w nas, o Panie, Twojego Ducha miłości i w dobroci Swojej zjednocz tych, których nasyciłeś wielkanocnym Sakramentem.
 $Per Dominum eiusdem 
 _
