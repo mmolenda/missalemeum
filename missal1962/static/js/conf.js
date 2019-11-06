@@ -1,5 +1,5 @@
 /**
- * Configuration for data provided by the real API handling any possible date
+ * Configuration for data provided by the API
  **/
 let config = {
     calendarEndpoint: "calendar/",
@@ -7,3 +7,4 @@ let config = {
     minDate: "1900-01-01",
     maxDate: "2100-12-31"
 }
+
