@@ -10,6 +10,7 @@ $(window).on("load", function () {
     loadOrdo();
 
     function loadOrdo() {
+        showLoader();
         $.getJSON( "data/ordo.json", function( data ) {
             let $main = $("main");
             $main.empty();
@@ -33,6 +34,7 @@ $(window).on("load", function () {
                 });
             });
             adaptSectionColumns();
+            hideLoader();
         });
     }
 

@@ -61,6 +61,7 @@ $(window).on("load", function () {
       * Once populated, fire the callback function to activate selected item and clear the search input.
      **/
     function loadSidebar(date, markItemActiveCallback) {
+        showLoader();
         let year = date.split("-")[0];
         $.getJSON( config.calendarEndpoint + year, function( data ) {
             let sidebarUl = $sidebar.find("ul");
@@ -107,6 +108,7 @@ $(window).on("load", function () {
 
             markItemActiveCallback(date);
             $searchInput.attr("placeholder", "Szukaj w " + year + "...");
+            hideLoader();
         });
     }
 
@@ -116,7 +118,7 @@ $(window).on("load", function () {
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
     function loadProper(date) {
-        toggleSidebarItemSpinner(date);
+        showLoader();
         $.getJSON( config.dateEndpoint + date, function( data ) {
             $main.empty();
             window.scrollTo(0, 0);
@@ -168,6 +170,7 @@ $(window).on("load", function () {
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
             }
+            hideLoader();
         });
     }
 
@@ -180,7 +183,6 @@ $(window).on("load", function () {
             $sidebar.find("li.sidebar-calendar-item").removeClass("active");
             let newActive = $("li#sidebar-calendar-item-" + date);
             newActive.addClass("active");
-            newActive.removeClass("in-progress");
 
             let itemPosition = newActive.position().top;
             let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
@@ -196,11 +198,6 @@ $(window).on("load", function () {
         } else {
             markItemActive(date);
         }
-    }
-
-    function toggleSidebarItemSpinner(date) {
-        let newActive = $("li#sidebar-calendar-item-" + date);
-        newActive.addClass("in-progress");
     }
 
     function mapRank(rank) {

@@ -96,12 +96,6 @@ a[aria-expanded="true"] {
     font-weight: 600;
 }
 
-#sidebar ul li.in-progress,
-#sidebar ul li.in-progress a:hover {
-    background: url("../img/spinner.gif") no-repeat top 5px right 5px;
-    transition: none;
-}
-
 #sidebar ul li .tempora {
     font-size: 0.7em;
 }
@@ -223,6 +217,24 @@ a[aria-expanded="true"] {
     position: relative;
     z-index: 5;
     margin: 2px;
+}
+
+#loader {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+}
+
+#loader img {
+    margin-left: 40%;
+    margin-top: 10em;
 }
 
 /*

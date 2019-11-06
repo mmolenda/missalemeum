@@ -4,6 +4,7 @@ const $wrapper = $("div.wrapper");
 const $main = $("main");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
+const $loader = $("div#loader");
 
 /**
  * Render template, substitute placeholders with elements from `data` object.
@@ -60,6 +61,13 @@ function navbarIsCollapsed() {
     return $buttonSidebarCollapse.is(":visible");
 }
 
+function showLoader() {
+    $loader.fadeIn("slow");
+}
+
+function hideLoader() {
+    $loader.hide();
+}
 
 $window.on("load", function () {
     /**
