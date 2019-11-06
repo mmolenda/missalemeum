@@ -27,6 +27,7 @@ $(window).on("load", function () {
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
+    const $sidebarTools = $("div#sidebar-tools");
 
     function init() {
         moment.locale("pl");
@@ -184,7 +185,7 @@ $(window).on("load", function () {
             let itemPosition = newActive.position().top;
             let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
 
-            if (Math.abs(itemPosition) > $sidebar.height() * 0.6) {
+            if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
                 $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
             }
         }
