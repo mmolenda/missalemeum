@@ -5,6 +5,7 @@ const $main = $("main");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const $loader = $("div#loader");
+let loaderCounter = 0;
 
 /**
  * Render template, substitute placeholders with elements from `data` object.
@@ -62,11 +63,17 @@ function navbarIsCollapsed() {
 }
 
 function showLoader() {
-    $loader.fadeIn("slow");
+    if (loaderCounter === 0) {
+        $loader.fadeIn("slow");
+    }
+    loaderCounter += 1;
 }
 
 function hideLoader() {
-    $loader.hide();
+    loaderCounter -= 1;
+    if (loaderCounter === 0) {
+        $loader.hide();
+    }
 }
 
 $window.on("load", function () {
