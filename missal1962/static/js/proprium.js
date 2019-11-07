@@ -128,13 +128,13 @@ $(window).on("load", function () {
             return;
         }
         showLoader();
-        let title;
+        let titles = [];
         $.getJSON(config.dateEndpoint + date, function( data ) {
             $main.empty();
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
-                title = item["info"].title;
+                let title = item["info"].title;
                 let description = item["info"].description;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
@@ -149,6 +149,7 @@ $(window).on("load", function () {
                 if (title == null) {
                     title = moment(item["info"].date, "YYYY-MM-DD").format("DD MMMM");
                 }
+                titles.push(title);
                 $(renderTemplate(templateContentIntro, {
                     title: title,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
@@ -178,7 +179,7 @@ $(window).on("load", function () {
 
             loadedProperDate = date;
             window.history.pushState({}, '', '/' + date);
-            document.title = title + " | " + date + " | " + "Mszał Rzymski";
+            document.title = titles[0] + " | " + date + " | " + "Mszał Rzymski";
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {

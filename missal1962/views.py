@@ -11,31 +11,31 @@ from kalendar.models import Day
 logging.basicConfig(
     stream=sys.stdout,
     level=logging.INFO,
-    format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
+    format="[%(asctime)s ] %(levelname)s in %(module)s: %(message)s")
 
 
-views = Blueprint('views', __name__)
+views = Blueprint("views", __name__)
 
 
-@views.route('/')
-@views.route('/<string:date_>')
+@views.route("/")
+@views.route("/<string:date_>")
 def proprium(date_: str = None):
     try:
-        date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
+        date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
         day: Day = controller.get_day(date_object, LANGUAGE_VERNACULAR)
     except Exception:
         title = None
         date_ = None
     else:
         title = day.get_celebration_name()
-    return render_template('proprium.html', title=title, date=date_)
+    return render_template("proprium.html", title=title, date=date_)
 
 
-@views.route('/ordo')
+@views.route("/ordo")
 def ordo():
-    return render_template('ordo.html')
+    return render_template("ordo.html", title="Części stałe")
 
 
-@views.route('/info')
+@views.route("/info")
 def info():
-    return render_template('info.html')
+    return render_template("info.html", title="Informacje")
