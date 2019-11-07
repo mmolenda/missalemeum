@@ -29,6 +29,8 @@ $(window).on("load", function () {
     const $searchInput = $("input#search-input");
     const $sidebarTools = $("div#sidebar-tools");
 
+    let loadedProperDate;
+
     function init() {
         moment.locale("pl");
         loadProper(getDate());
@@ -165,6 +167,7 @@ $(window).on("load", function () {
                     })).appendTo($main);
                 }
             });
+            loadedProperDate = date;
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {
@@ -215,7 +218,10 @@ $(window).on("load", function () {
     });
 
     $window.on("hashchange", function() {
-        loadProper(getDate());
+        let dateToShow = getDate();
+        if (loadedProperDate !== dateToShow) {
+            loadProper(dateToShow);
+        }
     });
 
     $datetimepicker4.datetimepicker({
@@ -235,7 +241,9 @@ $(window).on("load", function () {
      **/
     $datetimepicker4.find("input").on("input", function () {
         document.location.hash = this.value;
-        $searchInput.val("").trigger("input");
+        if ($searchInput.val() !== "") {
+            $searchInput.val("").trigger("input");
+        }
     });
 
     /**
