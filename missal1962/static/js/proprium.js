@@ -30,6 +30,7 @@ $(window).on("load", function () {
     const $sidebarTools = $("div#sidebar-tools");
 
     let loadedProperDate;
+    let selectedDate;
 
     function init() {
         moment.locale("pl");
@@ -45,16 +46,19 @@ $(window).on("load", function () {
      *
      **/
 
-    /**
-      * Obtain date from url hash or use today date if not provided or invalid.
-     **/
     function getDate() {
-        let tmpDate = document.location.hash.replace("#", "");
-        tmpDate = moment(tmpDate, "YYYY-MM-DD");
+        if (selectedDate === undefined) {
+            selectedDate = window.location.href.split('/').reverse()[0];
+        }
+        let tmpDate = moment(selectedDate, "YYYY-MM-DD");
         if (! tmpDate.isValid()) {
             tmpDate = moment();
         }
         return tmpDate.format("YYYY-MM-DD");
+    }
+
+    function setDate(date) {
+        selectedDate = date;
     }
 
     /**
@@ -120,13 +124,17 @@ $(window).on("load", function () {
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
     function loadProper(date) {
+        if (loadedProperDate === getDate()) {
+            return;
+        }
         showLoader();
-        $.getJSON( config.dateEndpoint + date, function( data ) {
+        let title;
+        $.getJSON(config.dateEndpoint + date, function( data ) {
             $main.empty();
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
-                let title = item["info"].title;
+                title = item["info"].title;
                 let description = item["info"].description;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
@@ -167,7 +175,10 @@ $(window).on("load", function () {
                     })).appendTo($main);
                 }
             });
+
             loadedProperDate = date;
+            window.history.pushState({}, '', '/' + date);
+            document.title = title + " | " + date + " | " + "Mszał Rzymski";
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {
@@ -217,12 +228,6 @@ $(window).on("load", function () {
         adaptSectionColumns();
     });
 
-    $window.on("hashchange", function() {
-        let dateToShow = getDate();
-        if (loadedProperDate !== dateToShow) {
-            loadProper(dateToShow);
-        }
-    });
 
     $datetimepicker4.datetimepicker({
         format: "YYYY-MM-DD",
@@ -237,13 +242,20 @@ $(window).on("load", function () {
     });
 
     /**
-     * When the date is selected from datepicker update url hash and clear the search input
+     * When the date is selected from datepicker update current date and clear the search input
      **/
     $datetimepicker4.find("input").on("input", function () {
-        document.location.hash = this.value;
+        setDate(this.value);
+        loadProper(getDate());
         if ($searchInput.val() !== "") {
             $searchInput.val("").trigger("input");
         }
+    });
+
+    $(document).on('click', '#sidebar ul li a' , function(event) {
+        event.preventDefault();
+        setDate(event.currentTarget.href.split("#").pop());
+        loadProper(getDate());
     });
 
     /**
