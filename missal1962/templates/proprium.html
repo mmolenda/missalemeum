@@ -1,68 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <title>Mszał Rzymski</title>
-    <meta name="description" content="Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej." />
-    <meta name="author" content="Marcin Molenda">
-    <meta property="og:image" content="http://www.mszalrzymski.pl/images/thumbnail.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"/>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
-    <script>
-        let host = window.location.hostname;
-        if(host != "localhost" && host != "127.0.0.1" ) {
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-
-            gtag('js', new Date());
-            gtag('config', 'UA-58957315-2', {'anonymize_ip': true});
-            gtag('config', 'UA-58957315-2');
-        }
-    </script>
-
-</head>
-
-<body>
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <button id="sidebar-collapse" class="navbar-toggler" type="button">
-            <span>≡</span>
-        </button>
-
-        <a class="navbar-brand" href="index.html">Mszał Rzymski</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
-                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span>⋮</span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="navbar-nav mr-auto pull-right">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Czytania<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ordo.html">Części stałe</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Informacje</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
+{% block content %}
 <div class="wrapper">
     <nav id="sidebar">
 
@@ -96,7 +34,7 @@
         </div>
     </div>
     <div id="loader" style="display: none">
-        <img src="img/loader.gif">
+        <img src="static/img/loader.gif">
         <!--https://loading.io/spinner/book/-flip-book-loader-->
     </div>
 </div>
@@ -146,9 +84,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
-<script type="text/javascript" src="js/conf.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/readings.js"></script>
-
-</body>
-</html>
+<script type="text/javascript" src="static/js/conf.js"></script>
+<script type="text/javascript" src="static/js/common.js"></script>
+<script type="text/javascript" src="static/js/proprium.js"></script>
+{% endblock %}

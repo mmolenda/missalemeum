@@ -658,7 +658,7 @@ TITLES = {
     constants.SANCTI_12_24: 'Wigilia Bożego Narodzenia',
     constants.SANCTI_12_25_1: 'Boże Narodzenie',
     constants.SANCTI_12_25_2: 'Boże Narodzenie — Msza o świcie',
-    constants.SANCTI_12_25_3: 'Boże Narodzenie — Msza o w dzień',
+    constants.SANCTI_12_25_3: 'Boże Narodzenie — Msza w dzień',
     constants.SANCTI_12_26: 'Św. Szczepana, Pierwszego Męczennika',
     constants.SANCTI_12_27: 'Św. Jana, Apostoła i Ewangelisty',
     constants.SANCTI_12_28: 'Świętych Młodzianków',

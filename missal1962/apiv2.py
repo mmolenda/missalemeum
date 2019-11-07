@@ -1,23 +1,16 @@
+import datetime
+import os
 import sys
 
-import os
-
-import datetime
 import logging
-from flask import Flask, jsonify, send_file
-from flask_cors import CORS
+from flask import send_file, jsonify, Blueprint
 from typing import List, Tuple
 
 import controller
 from constants.common import LANGUAGE_VERNACULAR
 from exceptions import InvalidInput, ProperNotFound
-from kalendar.models import Calendar, Day
+from kalendar.models import Day, Calendar
 from propers.models import Proper
-
-app = Flask(__name__)
-CORS(app)
-app.logger.addHandler(logging.StreamHandler(sys.stdout))
-app.logger.setLevel(logging.INFO)
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -25,19 +18,11 @@ logging.basicConfig(
     format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
 
 
-@app.route('/')
-@app.route('/<path:path>')
-def frontend(path=''):
-    file_path = os.path.join(app.static_folder, path)
-    if os.path.isfile(file_path):
-        return send_file(file_path)
-    else:
-        index_path = os.path.join(app.static_folder, 'index.html')
-        return send_file(index_path)
+api = Blueprint('api', __name__)
 
 
-@app.route('/date/<string:date_>')
-def date(date_: str):
+@api.route('/api/v2/date/<string:date_>')
+def v2_date(date_: str):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, LANGUAGE_VERNACULAR)
@@ -70,8 +55,8 @@ def date(date_: str):
         return jsonify(retvals)
 
 
-@app.route('/proper/<string:proper_id>')
-def proper(proper_id: str):
+@api.route('/api/v2/proper/<string:proper_id>')
+def v2_proper(proper_id: str):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, LANGUAGE_VERNACULAR)
     except (InvalidInput, ProperNotFound) as e:
@@ -80,19 +65,15 @@ def proper(proper_id: str):
         return jsonify([proper_vernacular.serialize(), proper_latin.serialize()])
 
 
-@app.route('/calendar')
-@app.route('/calendar/<int:year>')
-def calendar(year: int = None):
+@api.route('/api/v2/calendar')
+@api.route('/api/v2/calendar/<int:year>')
+def v2_calendar(year: int = None):
     if year is None:
         year = datetime.datetime.now().date().year
     missal: Calendar = controller.get_calendar(year, LANGUAGE_VERNACULAR)
     return jsonify(missal.serialize())
 
 
-@app.route('/ical')
-def ical():
+@api.route('/api/v2/ical')
+def v2_ical():
     return controller.get_ical(LANGUAGE_VERNACULAR)
-
-
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", debug=True)

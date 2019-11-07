@@ -15,7 +15,7 @@ $(window).on("load", function () {
 
     function loadOrdo() {
         showLoader();
-        $.getJSON( "data/ordo.json", function( data ) {
+        $.getJSON(config.ordoEndpoint, function( data ) {
             let $main = $("main");
             $main.empty();
             let sidebarUl = $("nav#sidebar>ul");
