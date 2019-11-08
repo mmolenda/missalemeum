@@ -1,4 +1,5 @@
 import datetime
+import flask
 import os
 import sys
 
@@ -74,6 +75,15 @@ def v2_calendar(year: int = None):
     return jsonify(missal.serialize())
 
 
-@api.route('/api/v2/ical')
-def v2_ical():
-    return controller.get_ical(LANGUAGE_VERNACULAR)
+@api.route('/api/v2/icalendar')
+@api.route('/api/v2/icalendar/<int:rank>')
+def v2_ical(rank: int = 2):
+    try:
+        rank = int(rank)
+        assert rank in range(1, 5)
+    except (ValueError, AssertionError):
+        rank = 2
+
+    response = flask.Response(controller.get_ical(LANGUAGE_VERNACULAR, rank))
+    response.headers['Content-Type'] = 'text/calendar; charset=utf-8'
+    return response
