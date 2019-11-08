@@ -36,7 +36,7 @@ def get_proper_by_date(date_: datetime.date, lang) -> List[Tuple[Proper, Proper]
     return day.get_proper()
 
 
-def get_ical(lang):
+def get_ical(lang, rank=2):
     today = datetime.datetime.now().date()
     current = today - datetime.timedelta(days=90)
     one_year_forward = today + datetime.timedelta(days=365)
@@ -44,4 +44,4 @@ def get_ical(lang):
     while current <= one_year_forward:
         days[current] = get_day(current, lang)
         current += datetime.timedelta(days=1)
-    return ical.IcalBuilder.build(days)
+    return ical.IcalBuilder.build(days, rank)

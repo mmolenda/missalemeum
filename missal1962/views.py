@@ -36,6 +36,11 @@ def ordo():
     return render_template("ordo.html", title="Części stałe")
 
 
+@views.route("/icalendar")
+def icalendar():
+    return render_template("icalendar.html", title="iCalendar")
+
+
 @views.route("/info")
 def info():
     return render_template("info.html", title="Informacje")

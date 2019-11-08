@@ -123,7 +123,7 @@ $(window).on("load", function () {
       * the main element with Bootstrap grid.
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
-    function loadProper(date) {
+    function loadProper(date, historyReplace = false) {
         if (loadedProperDate === getDate()) {
             return;
         }
@@ -178,7 +178,11 @@ $(window).on("load", function () {
             });
 
             loadedProperDate = date;
-            window.history.pushState({}, '', '/' + date);
+            if (historyReplace === true) {
+                window.history.replaceState({date: date}, '', '/' + date);
+            } else {
+                window.history.pushState({date: date}, '', '/' + date);
+            }
             document.title = titles[0] + " | " + date + " | " + "Mszał Rzymski";
             toggleSidebarItem(date);
             $datetimepicker4.datetimepicker("date", date);
@@ -258,6 +262,11 @@ $(window).on("load", function () {
         setDate(event.currentTarget.href.split("#").pop());
         loadProper(getDate());
     });
+
+    window.onpopstate = function(event){
+        setDate(event.target.location.href.split('/').reverse()[0]);
+        loadProper(getDate(), true);
+    };
 
     /**
      * filter out the elements in the sidebar;
