@@ -238,6 +238,21 @@ a[aria-expanded="true"] {
 }
 
 /*
+ ======== Info pages: info, icalendar ========
+*/
+
+div.info-page span.codebox {
+    background: #ededed;
+    border: 1px dashed #7f7f7f;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+div.info-page a {
+    border-bottom: 1px dashed;
+}
+
+/*
  ======== Media ========
 */
 

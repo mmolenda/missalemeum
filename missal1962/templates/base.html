@@ -19,7 +19,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
     <script>
         let host = window.location.hostname;
-        if(host != "localhost" && host != "127.0.0.1" ) {
+        if(host != "localhost" && host != "127.0.0.1" && host != "0.0.0.0" ) {
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
@@ -48,11 +48,17 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="navbar-nav mr-auto pull-right">
-                <li class="nav-item {% if request.path != '/ordo' and request.path != '/info' %}active{% endif %}">
+                <li class="nav-item
+                {% if request.path not in ('/ordo', '/info', '/icalendar') %}
+                    active
+                {% endif %}">
                     <a class="nav-link" href="/">Czytania<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
                     <a class="nav-link" href="/ordo">Części stałe</a>
+                </li>
+                <li class="nav-item {% if request.path == '/icalendar' %}active{% endif %}">
+                    <a class="nav-link" href="/icalendar"><span class="badge badge-warning">Nowość</span>iCalendar</a>
                 </li>
                 <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
                     <a class="nav-link" href="/info">Informacje</a>

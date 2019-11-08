@@ -24,6 +24,6 @@ class IcalBuilder:
             event.add("dtstart", datetime_)
             event.add("dtstamp", now)
             event.add("uid", f"{datetime_.strftime('%Y%m%d')}@mszalrzymski.pl")
-            event.add("description", "http://mszalrzymski.pl/#{}".format(datetime_.strftime("%Y-%m-%d")))
+            event.add("description", "http://mszalrzymski.pl/{}".format(datetime_.strftime("%Y-%m-%d")))
             cal.add_component(event)
         return cal.to_ical().decode("utf-8")
