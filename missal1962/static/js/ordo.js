@@ -1,52 +1,12 @@
 $(window).on("load", function () {
 
-    const templateSectionTitle = $("#template-section-title").text();
-    const templateOrdoItem = $("#template-ordo-item").text();
-    const templateSectionSubTitle = $("#template-section-subtitle").text();
-    const templateRubric = $("#template-rubric").text();
-    const templateContentColumns = $("#template-content-columns").text();
-    const templateSidebarItem = $("#template-sidebar-ordo-item").text();
     const templateContentPrint = $("#template-content-print").text();
 
     const $sidebar = $("nav#sidebar");
     let scrollTimer;
 
-    loadOrdo();
-
-    function loadOrdo() {
-        showLoader();
-        $.getJSON(config.ordoEndpoint, function( data ) {
-            let $main = $("main");
-            $main.empty();
-            let sidebarUl = $("nav#sidebar>ul");
-            sidebarUl.empty();
-            window.scrollTo(0, 0);
-            $(renderTemplate(templateSectionTitle, {})).appendTo($main);
-            $.each(data, function(ii, item) {
-                let $sidebarItem = $(renderTemplate(templateSidebarItem, {id: ii, title: item.title}));
-                if (ii === 0) {
-                    $sidebarItem.addClass("active");
-                }
-                $sidebarItem.appendTo(sidebarUl);
-                let $ordoItem = $(renderTemplate(templateOrdoItem, {id: ii}));
-                $(renderTemplate(templateSectionSubTitle, {title: item.title})).appendTo($ordoItem);
-                $.each(item.body, function(jj, bodyItem) {
-                    if (typeof bodyItem == "string") {
-                        $(renderTemplate(templateRubric, {rubric: bodyItem.split("\n").join("<br>")})).appendTo($ordoItem);
-                    } else {
-                        $.each(bodyItem, function(x, y) {bodyItem[x] = y.replace(/\*([^\*]+)\*/g, "<em>$1</em>")})
-                        $(renderTemplate(templateContentColumns, {
-                            sectionVernacular: bodyItem[0].split("\n").join("<br>"),
-                            sectionLatin: bodyItem[1].split("\n").join("<br>")
-                        })).appendTo($ordoItem);
-                    }
-                });
-                $ordoItem.appendTo($main);
-            });
-            adaptSectionColumns();
-            hideLoader();
-        });
-    }
+    adaptSectionColumns();
+    showSection();
 
     $(window).on("resize", function(){
         adaptSectionColumns();
@@ -56,16 +16,24 @@ $(window).on("load", function () {
         toggleLangSections(this);
     });
 
-    $window.on("hashchange", function() {
+    function showSection() {
         let itemId = document.location.hash.replace("#", "");
+        let activeSidebarItem = $("#sidebar-ordo-item-" + itemId);
+        if (activeSidebarItem.length === 0) {
+            return;
+        }
         $("#sidebar li.sidebar-ordo-item").removeClass("active");
-        $("#sidebar-ordo-item-" + itemId).addClass("active");
+        activeSidebarItem.addClass("active");
         let ordoItem = $("#ordo-item-"+itemId);
         if (navbarIsCollapsed()) {
             $sidebarAndContent.removeClass("active");
         }
         // need to wait a bit until the columns are resized back after closing the sidebar
         setTimeout(function() {$(window).scrollTop(ordoItem.offset().top - 70);}, 350);
+    }
+
+    $window.on("hashchange", function() {
+        showSection();
     });
 
     $(window).scroll(function() {
@@ -86,6 +54,7 @@ $(window).on("load", function () {
             $("#sidebar li.sidebar-ordo-item").removeClass("active");
             let sidebarItem = $("#sidebar-" + displayedSectionId);
             sidebarItem.addClass("active");
+            location.hash = sidebarItem.find('a').attr('href');
             let sidebarItemPosition = sidebarItem.position().top;
             let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
             if ((sidebarItemPosition > $sidebar.height() * 0.6) || sidebarItemPosition < 0) {

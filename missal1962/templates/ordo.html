@@ -10,6 +10,13 @@
 <div class="wrapper">
     <nav id="sidebar">
         <ul class="list-unstyled">
+            {% for item in data %}
+                <li id="sidebar-ordo-item-{{ item['title']|slugify }}" class="sidebar-ordo-item {% if loop.index == 1 %}active{% endif %}">
+                    <a href="#{{ item['title']|slugify }}">
+                        <div>{{ item['title'] }}</div>
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     </nav>
     <div id="content" role="main" class="container-fluid">
@@ -17,6 +24,30 @@
             <a id="print"><i class="fa fa-print"></i></a>
         </div>
         <main class="col-md-9">
+            <h1>Części stałe Mszy św.</h1>
+            {% for item in data %}
+            <div class="ordo-item" id="ordo-item-{{ item['title']|slugify }}">
+                <h2>{{ item['title'] }}</h2>
+                {% for body_item in item['body'] %}
+                    {% if body_item|length == 2 %}
+                        <div class="row">
+                            <div class="col-sm-6 section-vernacular">
+                                <p>
+                                    {{ body_item[0]|parse_section|safe }}
+                                </p>
+                            </div>
+                            <div class="col-sm-6 section-latin">
+                                <p>
+                                    {{ body_item[1]|parse_section|safe }}
+                                </p>
+                            </div>
+                        </div>
+                    {% else %}
+                        <p><span class="rubric">{{ body_item }}</span></p>
+                    {% endif %}
+                {% endfor %}
+                </div>
+                {% endfor %}
         </main>
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
@@ -27,40 +58,9 @@
             </label>
         </div>
     </div>
-    <div id="loader" style="display: none">
-        <img src="static/img/loader.gif" alt="Loader">
-        <!--https://loading.io/spinner/book/-flip-book-loader-->
-    </div>
 </div>
 
 <!--Templates -->
-<script id="template-section-title" type="text/x-custom-template">
-    <h1>Części stałe Mszy św.</h1>
-</script>
-<script id="template-ordo-item" type="text/x-custom-template">
-    <div class="ordo-item" id="ordo-item-${id}">${title}</div>
-</script>
-<script id="template-section-subtitle" type="text/x-custom-template">
-    <h2>${title}</h2>
-</script>
-<script id="template-rubric" type="text/x-custom-template">
-    <p><span class="rubric">${rubric}</span></p>
-</script>
-<script id="template-content-columns" type="text/x-custom-template">
-    <div class="row">
-        <div class="col-sm-6 section-vernacular">
-            <p>${sectionVernacular}</p>
-        </div>
-        <div class="col-sm-6 section-latin">
-            <p>${sectionLatin}</p>
-        </div>
-    </div>
-</script>
-<script id="template-sidebar-ordo-item" type="text/x-custom-template">
-    <li id="sidebar-ordo-item-${id}" class="sidebar-ordo-item"><a href="#${id}">
-        <div>${title}</div>
-    </a></li>
-</script>
 <script id="template-content-print" type="text/x-custom-template">
     <!DOCTYPE html>
     <html>

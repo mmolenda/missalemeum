@@ -1,3 +1,6 @@
+import json
+import os
+
 import datetime
 import sys
 
@@ -33,7 +36,9 @@ def proprium(date_: str = None):
 
 @views.route("/ordo")
 def ordo():
-    return render_template("ordo.html", title="Części stałe")
+    with open(os.path.join(views.root_path, "static", "data", "ordo.json")) as fh:
+        ordo_data = json.load(fh)
+    return render_template("ordo.html", title="Części stałe", data=ordo_data)
 
 
 @views.route("/icalendar")
