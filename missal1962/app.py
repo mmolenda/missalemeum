@@ -4,6 +4,7 @@ import logging
 from flask import Flask
 
 from apiv2 import api as apiv2
+from filters import slugify, parse_section
 from views import views
 
 logging.basicConfig(
@@ -14,6 +15,8 @@ logging.basicConfig(
 app = Flask(__name__)
 app.register_blueprint(views)
 app.register_blueprint(apiv2)
+app.jinja_env.filters['slugify'] = slugify
+app.jinja_env.filters['parse_section'] = parse_section
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
 
