@@ -73,6 +73,10 @@ a:focus {
     border-bottom: 1px dashed #c3b37e;
 }
 
+#sidebar ul>li.saturday {
+    border-bottom: 2px solid #dccc92;
+}
+
 #sidebar ul>li:last-child {
     border-bottom: 0;
 }

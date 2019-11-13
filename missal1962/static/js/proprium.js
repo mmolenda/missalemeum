@@ -83,22 +83,28 @@ $(window).on("load", function () {
             }
 
             $.each(data, function(date, day) {
+                let parsedDate = moment(date, "YYYY-MM-DD");
                 let additional_info = [date];
                 let celebration;
                 if (day.celebration.length > 0) {
                     celebration = day.celebration[0].title;
                 } else {
-                    celebration = moment(date, "YYYY-MM-DD").format("DD MMMM");
+                    celebration = parsedDate.format("DD MMMM");
                 }
                 if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
                     additional_info.push(day.tempora[0].title);
                 }
 
-                $(renderTemplate(templateSidebarCalendarItem, {
+
+                let sidebarCalendarItem = $(renderTemplate(templateSidebarCalendarItem, {
                     date: date,
                     celebration: celebration,
                     additional_info: additional_info.join(" | ")
-                })).appendTo(sidebarUl);
+                }));
+                if (parsedDate.weekday() === 5) {
+                    sidebarCalendarItem.addClass("saturday");
+                }
+                sidebarCalendarItem.appendTo(sidebarUl);
 
 
             });
