@@ -1,6 +1,6 @@
-from constants import common as constants
+import re
 
-from ..Latin.translation import PATERNOSTER, TRANSFORMATIONS
+from constants import common as constants
 
 TITLES = {
     constants.TEMPORA_EPI1_0: 'Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa',
@@ -745,6 +745,48 @@ SECTION_LABELS_MULTI = {
     'OratioL5': 'Kolekta',
     'Oratio': 'Kolekta'
 }
+
+PATERNOSTER = \
+    "Ojcze nasz, któryś jest w niebie:\n" \
+    "Święć się Imię Twoje,\n" \
+    "Przyjdź królestwo Twoje,\n" \
+    "Bądź wola Twoja jako w niebie tak i na ziemi.\n" \
+    "Chleba naszego powszedniego daj nam dzisiaj\n" \
+    "I odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom.\n" \
+    "I nie wódź nas na pokuszenie.\n" \
+    "Ale nas zbaw ode złego. Amen."
+
+
+TRANSFORMATIONS = (
+    (re.compile(r'\+\+'), '☩'),
+    (re.compile(r'\+'), '☩'),
+    (re.compile(r'^#'), '##'),
+    (re.compile(r'^!x!'), '!'),
+    (re.compile(r'^!! *(.*)'), '### \\1'),
+    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
+    (re.compile(r'^! *(.*)'), '*\\1*'),
+    (re.compile(r'^v\. *'), ''),
+    (re.compile(r'^_'), ''),
+    (re.compile(r'\(\('), '('),
+    (re.compile(r'\)\)'), ')'),
+    (re.compile(r'\['), '('),
+    (re.compile(r'\]'), ')'),
+    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
+    (re.compile(r'^.*`.*$'), ''),
+    (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu.'),
+    (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Przez Pana.'),
+    (re.compile(r'^\$Per Dominum\.*'), 'Przez Pana.'),
+    (re.compile(r'^\$Per eu[mn]dem\.*'), 'Przez tegoż Pana.'),
+    (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Który z Tobą.'),
+    (re.compile(r'^\$Qui tecum\.*'), 'Który z Tobą.'),
+    (re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz.'),
+    (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
+    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. Pan z wami.    \n\rR. I z duchem twoim.'),
+    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
+    (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
+    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
+    (re.compile(r'\(deinde dicuntur semper\)'), ''),
+)
 
 COMMEMORATIONS = {
     constants.COMMEMORATION: "Wspomnienie",

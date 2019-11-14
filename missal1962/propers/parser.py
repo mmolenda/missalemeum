@@ -182,8 +182,8 @@ class ProperParser:
         return parsed_comment
 
     def _normalize(self, ln, lang):
-        for r, s in self.translations[lang].TRANSFORMATIONS:
-            ln = re.sub(r, s.get(lang, s.get(None)), ln)
+        for from_, to_ in self.translations[lang].TRANSFORMATIONS:
+            ln = re.sub(from_, to_, ln)
         return ln
 
     @staticmethod

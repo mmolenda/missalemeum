@@ -743,56 +743,46 @@ SECTION_LABELS_MULTI = {
     'Oratio': 'Oratio'
 }
 
-PATERNOSTER = (
-    "Ojcze nasz, któryś jest w niebie: "
-    "Święć się Imię Twoje, "
-    "Przyjdź królestwo Twoje, "
-    "Bądź wola Twoja jako w niebie tak i na ziemi.\n"
-    "Chleba naszego powszedniego daj nam dzisiaj "
-    "I odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom. "
-    "I nie wódź nas na pokuszenie. "
-    "Ale nas zbaw ode złego. Amen.",
-
-    "Pater noster, qui es in caelis, "
-    "Sanctificetur nomen tuum. "
-    "Adveniat regnum tuum. "
-    "Fiat voluntas tua, sicut in coelo et in terra. "
-    "Panem nostrum quotidianum da nobis hodie. "
-    "Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. "
-    "Et ne nos inducas in tentationem: "
-    "Sed libera nos a malo. ")
+PATERNOSTER = \
+    "Pater noster, qui es in caelis,\n" \
+    "Sanctificetur nomen tuum.\n" \
+    "Adveniat regnum tuum.\n" \
+    "Fiat voluntas tua, sicut in coelo et in terra.\n" \
+    "Panem nostrum quotidianum da nobis hodie.\n" \
+    "Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris.\n" \
+    "Et ne nos inducas in tentationem:\n" \
+    "Sed libera nos a malo. Amen."
 
 
 TRANSFORMATIONS = (
-        (re.compile(r'\+\+'), {None: '☩'}),
-        (re.compile(r'\+'), {None: '☩'}),
-        (re.compile(r'^#'), {None: '##'}),
-        (re.compile(r'^!x!'), {None: '!'}),
-        (re.compile(r'^!! *(.*)'), {None: '### \\1'}),
-        (re.compile(r'^\[([^\]^]*)\]'), {None: '### \\1'}),
-        (re.compile(r'^! *(.*)'), {None: '*\\1*'}),
-        (re.compile(r'^v\. *'), {None: ''}),
-        (re.compile(r'^_'), {None: ''}),
-        (re.compile(r'\(\('), {None: '('}),
-        (re.compile(r'\)\)'), {None: ')'}),
-        (re.compile(r'\['), {None: '('}),
-        (re.compile(r'\]'), {None: ')'}),
-        (re.compile(r'\((\^\d+)\)'), {None: '[\\1]'}),  # preserving footnotes, like [^1], [^1]:
-        (re.compile(r'^.*`.*$'), {None: ''}),
-        (re.compile(r'^[&$]Gloria\.*'), {'Polski': 'Chwała Ojcu.', 'Latin': 'Glória Patri.'}),
-        (re.compile(r'^\$Per Dominum eiusdem\.*'), {'Polski': 'Przez Pana.', 'Latin': 'Per Dominum.'}),
-        (re.compile(r'^\$Per Dominum\.*'), {'Polski': 'Przez Pana.', 'Latin': 'Per Dominum.'}),
-        (re.compile(r'^\$Per eu[mn]dem\.*'), {'Polski': 'Przez tegoż Pana.', 'Latin': 'Per eúndem.'}),
-        (re.compile(r'^\$Qui tecum eiusdem\.*'), {'Polski': 'Który z Tobą.', 'Latin': 'Qui tecum.'}),
-        (re.compile(r'^\$Qui tecum\.*'), {'Polski': 'Który z Tobą.', 'Latin': 'Qui tecum.'}),
-        (re.compile(r'^\$Qui vivis\.*'), {'Polski': 'Który żyjesz.', 'Latin': 'Qui vivis.'}),
-        (re.compile(r'^\$Deo [Gg]ratias\.*'), {'Polski': 'Bogu dzięki.', 'Latin': 'Deo gratias.'}),
-        (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), {'Polski': 'V. Pan z wami.    \n\rR. I z duchem twoim.',
-                                                       'Latin': 'V. Dóminus vobíscum.    \n\rR. Et cum spíritu tuo.'}),
-        (re.compile(r'^\*Modlitwa nad ludem\*.*'), {None: ''}),
-        (re.compile(r'^\$Pater noster.*'), {'Polski': PATERNOSTER[0], 'Latin': PATERNOSTER[1]}),
-        (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), {None: ''}),
-        (re.compile(r'\(deinde dicuntur semper\)'), {None: ''}),
+        (re.compile(r'\+\+'), '☩'),
+        (re.compile(r'\+'), '☩'),
+        (re.compile(r'^#'), '##'),
+        (re.compile(r'^!x!'), '!'),
+        (re.compile(r'^!! *(.*)'), '### \\1'),
+        (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
+        (re.compile(r'^! *(.*)'), '*\\1*'),
+        (re.compile(r'^v\. *'), ''),
+        (re.compile(r'^_'), ''),
+        (re.compile(r'\(\('), '('),
+        (re.compile(r'\)\)'), ')'),
+        (re.compile(r'\['), '('),
+        (re.compile(r'\]'), ')'),
+        (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
+        (re.compile(r'^.*`.*$'), ''),
+        (re.compile(r'^[&$]Gloria\.*'), 'Glória Patri.'),
+        (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Per Dominum.'),
+        (re.compile(r'^\$Per Dominum\.*'), 'Per Dominum.'),
+        (re.compile(r'^\$Per eu[mn]dem\.*'), 'Per eúndem.'),
+        (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Qui tecum.'),
+        (re.compile(r'^\$Qui tecum\.*'), 'Qui tecum.'),
+        (re.compile(r'^\$Qui vivis\.*'), 'Qui vivis.'),
+        (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Deo gratias.'),
+        (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. Dóminus vobíscum.    \n\rR. Et cum spíritu tuo.'),
+        (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
+        (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
+        (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
+        (re.compile(r'\(deinde dicuntur semper\)'), ''),
     )
 
 COMMEMORATIONS = {

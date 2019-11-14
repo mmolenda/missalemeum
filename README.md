@@ -40,7 +40,7 @@ To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `Tr
 ### Run the development API:
 
 ```bash
-$ python missal1962/api.py
+$ python missal1962/app.py
 ```
 
 and navigate to http://0.0.0.0:5000/.
