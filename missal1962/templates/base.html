@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <title>
@@ -18,8 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
     <script>
-        let host = window.location.hostname;
-        if(host != "localhost" && host != "127.0.0.1" && host != "0.0.0.0" ) {
+        if(window.location.hostname.endsWith("mszalrzymski.pl")) {
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
@@ -58,7 +57,7 @@
                     <a class="nav-link" href="/ordo">Części stałe</a>
                 </li>
                 <li class="nav-item {% if request.path == '/icalendar' %}active{% endif %}">
-                    <a class="nav-link" href="/icalendar"><span class="badge badge-warning">Nowość</span>iCalendar</a>
+                    <a class="nav-link" href="/icalendar">iCalendar</a>
                 </li>
                 <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
                     <a class="nav-link" href="/info">Informacje</a>
