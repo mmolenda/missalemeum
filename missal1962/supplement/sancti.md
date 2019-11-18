@@ -1,5 +1,4 @@
-[Comment]
-Wszechmogący, wieczny Boże, Ty okazujesz się sławny w orszaku Swoich Świętych. Tobie bowiem służą Twoje stworzenia, uznające tylko Ciebie za Boga i Stwórcę, wysławia Cię każde Twoje dzieło, a Święci Twoi błogosławią Ciebie wyznając wobec królów i potęg tego świata wspaniałe imię Jedynego Syna Twojego. (ze starożytnej prefacji) 
+Wszechmogący, wieczny Boże, Ty okazujesz się sławny w orszaku Swoich Świętych. Tobie bowiem służą Twoje stworzenia, uznające tylko Ciebie za Boga i Stwórcę, wysławia Cię każde Twoje dzieło, a Święci Twoi błogosławią Ciebie wyznając wobec królów i potęg tego świata wspaniałe imię Jedynego Syna Twojego. (ze starożytnej prefacji)
 
 ## Podziwu godny jest Bóg w Swoich świętych
 

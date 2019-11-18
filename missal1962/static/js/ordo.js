@@ -1,6 +1,6 @@
 $(window).on("load", function () {
 
-    const templateContentPrint = $("#template-content-print").text();
+    const $templateContentPrint = $("#template-content-print").text();
 
     const $sidebar = $("nav#sidebar");
     let scrollTimer;
@@ -65,7 +65,7 @@ $(window).on("load", function () {
 
     $("#print").on("click", function () {
         let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
+        let newContent = renderTemplate($templateContentPrint, {main: $main.html()});
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();

@@ -15,11 +15,12 @@ $(window).on("load", function () {
         };
     });
 
-    const templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
-    const templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
-    const templateContentIntro = $("#template-content-intro").text();
-    const templateContentColumns = $("#template-content-columns").text();
-    const templateContentPrint = $("#template-content-print").text();
+    const $templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
+    const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
+    const $templateContentIntro = $("#template-content-intro").text();
+    const $templateContentSupplement = $("#template-content-supplement").text();
+    const $templateContentColumns = $("#template-content-columns").text();
+    const $templateContentPrint = $("#template-content-print").text();
 
     const $window = $(window);
     const $sidebar = $("nav#sidebar");
@@ -31,6 +32,19 @@ $(window).on("load", function () {
 
     let loadedProperDate;
     let selectedDate;
+
+    let supplementsMap = {
+        "tempora:Adv1-0:1": ["Adwent"],
+        "sancti:12-24:1": ["Boże-Narodzenie"],
+        "tempora:Epi1-0:2": ["Okres-po-Objawieniu"],
+        "tempora:Quadp1-0:2": ["Przedpoście"],
+        "tempora:Quadp3-3:1": ["Wielki-Post"],
+        "tempora:Quad5-0:1": ["Okres-Męki-Pańskiej"],
+        "tempora:Quad6-0r:1": ["Wielki-Tydzień"],
+        "tempora:Quad6-6r:1": ["Okres-Wielkanocny"],
+        "tempora:Pasc7-0:1": ["Zesłanie-Ducha-św."],
+        "tempora:Pent01-0r:1": ["Okres-po-Zesłaniu-Ducha-św."]
+    };
 
     function init() {
         moment.locale("pl");
@@ -48,7 +62,8 @@ $(window).on("load", function () {
 
     function getDate() {
         if (selectedDate === undefined) {
-            selectedDate = window.location.href.split('/').reverse()[0];
+            let url = window.location.href.replace(/#.*/, "");
+            selectedDate = url.split('/').reverse()[0];
         }
         let tmpDate = moment(selectedDate, "YYYY-MM-DD");
         if (! tmpDate.isValid()) {
@@ -76,7 +91,7 @@ $(window).on("load", function () {
             let prevYear = parseInt(year) - 1;
             let prevYearLastDay = prevYear + "-12-31";
             if (prevYearLastDay >= $datetimepicker4.datetimepicker("minDate")._i) {
-                $(renderTemplate(templateSidebarCalendarItemYear, {
+                $(renderTemplate($templateSidebarCalendarItemYear, {
                     date: prevYearLastDay,
                     year: prevYear
                 })).appendTo(sidebarUl);
@@ -96,7 +111,7 @@ $(window).on("load", function () {
                 }
 
 
-                let sidebarCalendarItem = $(renderTemplate(templateSidebarCalendarItem, {
+                let sidebarCalendarItem = $(renderTemplate($templateSidebarCalendarItem, {
                     date: date,
                     celebration: celebration,
                     additional_info: additional_info.join(" | ")
@@ -112,7 +127,7 @@ $(window).on("load", function () {
             let nextYear = parseInt(year) + 1;
             let nextYearFirstDay = nextYear + "-01-01";
             if (nextYearFirstDay <= $datetimepicker4.datetimepicker("maxDate")._i) {
-                $(renderTemplate(templateSidebarCalendarItemYear, {
+                $(renderTemplate($templateSidebarCalendarItemYear, {
                     date: nextYearFirstDay,
                     year: nextYear
                 })).appendTo(sidebarUl);
@@ -140,11 +155,13 @@ $(window).on("load", function () {
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
+                let date = item["info"].date;
+                let id = item["info"].id;
                 let title = item["info"].title;
                 let description = item["info"].description;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
-                let additional_info = [item["info"].date, mapRank(item["info"].rank)];
+                let additional_info = [date, mapRank(item["info"].rank)];
                 if (item["info"].tempora != null) {
                     additional_info.push(item["info"].tempora);
                 }
@@ -153,14 +170,23 @@ $(window).on("load", function () {
                 }
 
                 if (title == null) {
-                    title = moment(item["info"].date, "YYYY-MM-DD").format("DD MMMM");
+                    title = moment(date, "YYYY-MM-DD").format("DD MMMM");
                 }
                 titles.push(title);
-                $(renderTemplate(templateContentIntro, {
+                $(renderTemplate($templateContentIntro, {
                     title: title,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
                 })).appendTo($main);
+
+                let supplements = supplementsMap[id];
+                if (supplements !== undefined) {
+                    $(renderTemplate($templateContentSupplement, {
+                        supplement_id: supplements[0],
+                        supplement_title: supplements[0].replace(/-/g, " "),
+                        date: date
+                    })).appendTo($main);
+                }
 
                 $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
                     // replacing all surrounding asterisks with surrounding <em>s in body
@@ -174,7 +200,7 @@ $(window).on("load", function () {
                         sectionLatin = {label: "", body: ""};
                         console.error("Latin sections missing in " + date);
                     }
-                    $(renderTemplate(templateContentColumns, {
+                    $(renderTemplate($templateContentColumns, {
                         labelVernacular: sectionVernacular.label,
                         sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
                         labelLatin: sectionLatin.label,
@@ -309,7 +335,7 @@ $(window).on("load", function () {
 
     $("#print").on("click", function () {
         let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate(templateContentPrint, {main: $main.html()});
+        let newContent = renderTemplate($templateContentPrint, {main: $main.html()});
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();

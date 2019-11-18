@@ -64,6 +64,9 @@
     <p><em class="rubric">${additional_info}</em></p>
     <p>${description}</p>
 </script>
+<script id="template-content-supplement" type="text/x-custom-template">
+    <p>Dzisiaj rozpoczyna się <a class="dashed" href="/supplement/${supplement_id}?ref=${date}">${supplement_title}</a>.</p>
+</script>
 <script id="template-content-columns" type="text/x-custom-template">
     <div class="row">
         <div class="col-sm-6 section-vernacular">
@@ -85,12 +88,12 @@
     <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em>http://mszalrzymski.pl</em></p></body>
     </html>
 </script>
+{% endblock %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+{% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
-<script src="static/js/conf.js"></script>
-<script src="static/js/common.js"></script>
-<script src="static/js/proprium.js"></script>
+<script src="/static/js/conf.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/proprium.js"></script>
 {% endblock %}

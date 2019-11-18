@@ -169,6 +169,10 @@ class Day:
         if self.tempora:
             return self.tempora[0].title
 
+    def get_celebration_id(self) -> Union[None, str]:
+        if self.celebration:
+            return self.celebration[0].id
+
     def get_celebration_name(self) -> Union[None, str]:
         if self.celebration:
             return self.celebration[0].title

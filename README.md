@@ -49,8 +49,13 @@ and navigate to http://0.0.0.0:5000/.
 
 * `GET /api/v2/calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
 * `GET /api/v2/date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
-* `GET /api/v2/proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for fourth Advent Sunday 
-* `GET /api/v2/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software such as Google Calendar. `rank` (optional, default 2) tells feast of which class to include (e.g. rank 3 will include classes 1, 2 and 3).    
+* `GET /api/v2/proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; 
+ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for 
+fourth Advent Sunday 
+* `GET /api/v2/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software 
+such as Google Calendar. `rank` (optional, default 2) tells feast of which class to include 
+(e.g. rank 3 will include classes 1, 2 and 3).    
+* `GET /static/data/ordo.json` get invariable texts, or ordinary of the Mass    
 
 ## Docker
 

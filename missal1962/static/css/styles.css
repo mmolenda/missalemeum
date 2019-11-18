@@ -9,7 +9,7 @@ body {
     background-color: #fffdf1;
 }
 
-p {
+p, #content ul, #content ol {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #393939;
@@ -21,6 +21,10 @@ a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s;
+}
+
+a.dashed {
+    border-bottom: 1px dashed;
 }
 
 .rubric {
@@ -250,10 +254,6 @@ div.info-page span.codebox {
     border: 1px dashed #7f7f7f;
     padding: 3px;
     border-radius: 3px;
-}
-
-div.info-page a {
-    border-bottom: 1px dashed;
 }
 
 /*
