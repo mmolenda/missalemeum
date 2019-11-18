@@ -51,7 +51,7 @@ def supplement(resource: str):
         with open(os.path.join(views.root_path, "supplement", f"{resource}.md")) as fh:
             md = fh.read()
             html = markdown.markdown(md)
-            title = resource.replace("-", " ")
+            title = [i for i in md.split("\n") if i.startswith("#")][0].strip(" #")
     except IOError:
         return render_template('404.html'), 404
     else:

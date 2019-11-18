@@ -34,16 +34,16 @@ $(window).on("load", function () {
     let selectedDate;
 
     let supplementsMap = {
-        "tempora:Adv1-0:1": ["Adwent"],
-        "sancti:12-24:1": ["Boże-Narodzenie"],
-        "tempora:Epi1-0:2": ["Okres-po-Objawieniu"],
-        "tempora:Quadp1-0:2": ["Przedpoście"],
-        "tempora:Quadp3-3:1": ["Wielki-Post"],
-        "tempora:Quad5-0:1": ["Okres-Męki-Pańskiej"],
-        "tempora:Quad6-0r:1": ["Wielki-Tydzień"],
-        "tempora:Quad6-6r:1": ["Okres-Wielkanocny"],
-        "tempora:Pasc7-0:1": ["Zesłanie-Ducha-św."],
-        "tempora:Pent01-0r:1": ["Okres-po-Zesłaniu-Ducha-św."]
+        "tempora:Adv1-0:1": {title: "Adwent", id: "adwent"},
+        "sancti:12-24:1": {title: "Boże Narodzenie", id: "boze-narodzenie"},
+        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "okres-po-objawieniu"},
+        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "przedposcie"},
+        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "wielki-post"},
+        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "okres-meki-panskiej"},
+        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "wielki-tydzien"},
+        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "okres-wielkanocny"},
+        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "zeslanie-ducha-sw"},
+        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "okres-po-zeslaniu-ducha-sw"}
     };
 
     function init() {
@@ -179,11 +179,11 @@ $(window).on("load", function () {
                     description: description.split("\n").join("<br />")
                 })).appendTo($main);
 
-                let supplements = supplementsMap[id];
-                if (supplements !== undefined) {
+                let supplement = supplementsMap[id];
+                if (supplement !== undefined) {
                     $(renderTemplate($templateContentSupplement, {
-                        supplement_id: supplements[0],
-                        supplement_title: supplements[0].replace(/-/g, " "),
+                        supplement_id: supplement.id,
+                        supplement_title: supplement.title,
                         date: date
                     })).appendTo($main);
                 }
