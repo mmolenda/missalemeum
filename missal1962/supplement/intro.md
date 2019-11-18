@@ -1,5 +1,3 @@
-[Comment]
-
 «Aby wszyscy byli jedno» – modlitwa Pana Jezusa w gronie Apostołów w Wieczerniku – jest istotnym dążeniem Chrystusa i głównym zadaniem Kościoła Rzymskokatolickiego.
 Bóg-Człowiek stanął w pośrodku ludzi na ziemi, aby całą rodzinę ludzką zjednoczyć z Ojcem naszym, który jest w niebie. Wszystko, co jest w człowieku, ma się jednoczyć wewnętrznie mocą natury i Łaski. Człowiek wewnętrznie zjednoczony ma z kolei jednoczyć wszystko Wokół siebie, i w rodzinie, i w sąsiedztwie, i w Narodzie, w myśli, woli i w sercu, w pracy i w modlitwie. Chrystus Pan uczył nas modlić się społecznie. *Ojcze nasz* jest modlitwą całej rodziny ludzkiej do jednego Boga.
 Kościół przejął dzieło Chrystusa i wypełnia je od Wieczernika do czasów dzisiejszych. Mocą Ducha Św. uzdolnił wszystkie ludy, aby chwaliły Boga wszystkimi językami. Skupił je przy niekrwawej ofierze Krzyża i woła do nich *Orate, fratres*.

@@ -41,6 +41,7 @@ def v2_date(date_: str):
             title = day.get_celebration_name() if len(propers) < 2 else propers_vernacular.title
             tempora_name: str = day.get_tempora_name()
             info = {
+                "id": day.get_celebration_id(),
                 "title": title,
                 "description": propers_vernacular.description,
                 "additional_info": propers_vernacular.additional_info,
