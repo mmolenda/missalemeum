@@ -13,7 +13,7 @@ $(window).on("load", function () {
     });
 
     $("input[type=radio][name=lang-switch]").change(function() {
-        toggleLangSections(this);
+        toggleLangSections(this.id);
     });
 
     function showSection() {

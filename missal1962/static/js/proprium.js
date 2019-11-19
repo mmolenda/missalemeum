@@ -53,7 +53,6 @@ $(window).on("load", function () {
     function init() {
         moment.locale("pl");
         loadProper(getDate());
-        adaptSectionColumns();
     }
 
     init();
@@ -225,6 +224,7 @@ $(window).on("load", function () {
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
             }
+            adaptSectionColumns();
             hideLoader();
         });
     }
@@ -334,7 +334,7 @@ $(window).on("load", function () {
      * Switch between lang versions on small screens, where the switch is visible
      **/
     $("input[type=radio][name=lang-switch]").change(function() {
-        toggleLangSections(this);
+        toggleLangSections(this.id);
     });
 
     $("#print").on("click", function () {
