@@ -249,12 +249,16 @@ a[aria-expanded="true"] {
  ======== Info pages: info, icalendar ========
 */
 
-div.info-page span.codebox {
+div.info-page div.codebox {
     background: #ededed;
     border: 1px dashed #7f7f7f;
-    padding: 3px;
+    padding: 9px;
     border-radius: 3px;
+    width: 80%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
+
 
 /*
  ======== Media ========
