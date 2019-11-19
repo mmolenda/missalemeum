@@ -6,7 +6,7 @@ import datetime
 import sys
 
 import logging
-from flask import render_template, Blueprint, request
+from flask import render_template, Blueprint, request, send_from_directory
 
 import controller
 from constants.common import LANGUAGE_VERNACULAR
@@ -74,3 +74,8 @@ def icalendar():
 @views.route("/info")
 def info():
     return render_template("info.html", title="Informacje")
+
+
+@views.route("/service-worker.js")
+def service_worker():
+    return send_from_directory(os.path.join(views.root_path, "static", "js"), "service-worker.js")
