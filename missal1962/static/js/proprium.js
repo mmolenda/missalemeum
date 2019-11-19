@@ -32,10 +32,12 @@ $(window).on("load", function () {
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
+    const $sidebarUl = $sidebar.find("ul");
     const $sidebarTools = $("div#sidebar-tools");
 
     let loadedProperDate;
     let selectedDate;
+    let cannotLoadMessage = "Nie udało się pobrać danych.";
 
     let supplementsMap = {
         "tempora:Adv1-0:1": {title: "Adwent", id: "adwent"},
@@ -87,17 +89,18 @@ $(window).on("load", function () {
     function loadSidebar(date, markItemActiveCallback) {
         showLoader();
         let year = date.split("-")[0];
+        let prevYear = parseInt(year) - 1;
+        let prevYearLastDay = prevYear + "-12-31";
+        let nextYear = parseInt(year) + 1;
+        let nextYearFirstDay = nextYear + "-01-01";
         $.getJSON( config.calendarEndpoint + year, function( data ) {
-            let sidebarUl = $sidebar.find("ul");
-            sidebarUl.empty();
+            $sidebarUl.empty();
 
-            let prevYear = parseInt(year) - 1;
-            let prevYearLastDay = prevYear + "-12-31";
             if (prevYearLastDay >= $datetimepicker4.datetimepicker("minDate")._i) {
                 $(renderTemplate($templateSidebarCalendarItemYear, {
                     date: prevYearLastDay,
                     year: prevYear
-                })).appendTo(sidebarUl);
+                })).appendTo($sidebarUl);
             }
 
             $.each(data, function(date, day) {
@@ -113,7 +116,6 @@ $(window).on("load", function () {
                     additional_info.push(day.tempora[0].title);
                 }
 
-
                 let sidebarCalendarItem = $(renderTemplate($templateSidebarCalendarItem, {
                     date: date,
                     celebration: celebration,
@@ -122,22 +124,21 @@ $(window).on("load", function () {
                 if (parsedDate.weekday() === 5) {
                     sidebarCalendarItem.addClass("saturday");
                 }
-                sidebarCalendarItem.appendTo(sidebarUl);
-
-
+                sidebarCalendarItem.appendTo($sidebarUl);
             });
 
-            let nextYear = parseInt(year) + 1;
-            let nextYearFirstDay = nextYear + "-01-01";
             if (nextYearFirstDay <= $datetimepicker4.datetimepicker("maxDate")._i) {
                 $(renderTemplate($templateSidebarCalendarItemYear, {
                     date: nextYearFirstDay,
                     year: nextYear
-                })).appendTo(sidebarUl);
+                })).appendTo($sidebarUl);
             }
-
+        }).done(function() {
             markItemActiveCallback(date);
             $searchInput.attr("placeholder", "Szukaj w " + year + "...");
+        }).fail(function() {
+            alert(cannotLoadMessage);
+        }).always(function() {
             hideLoader();
         });
     }
@@ -153,7 +154,7 @@ $(window).on("load", function () {
         }
         showLoader();
         let titles = [];
-        $.getJSON(config.dateEndpoint + date, function( data ) {
+        $.getJSON(config.dateEndpoint + date, function(data) {
             $main.empty();
             window.scrollTo(0, 0);
 
@@ -211,7 +212,7 @@ $(window).on("load", function () {
                     })).appendTo($main);
                 }
             });
-
+        }).done(function() {
             loadedProperDate = date;
             if (historyReplace === true) {
                 window.history.replaceState({date: date}, '', '/' + date);
@@ -225,6 +226,9 @@ $(window).on("load", function () {
                 $sidebarAndContent.removeClass("active");
             }
             adaptSectionColumns();
+        }).fail(function() {
+            alert(cannotLoadMessage);
+        }).always(function() {
             hideLoader();
         });
     }
