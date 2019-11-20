@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="navbar-nav mr-auto pull-right">
                 <li class="nav-item
-                {% if request.path not in ('/ordo', '/info', '/icalendar') %}
+                {% if request.path not in ('/ordo', '/info', '/supplement') %}
                     active
                 {% endif %}">
                     <a class="nav-link" href="/">Czytania<span class="sr-only">(current)</span></a>
@@ -59,8 +59,8 @@
                 <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
                     <a class="nav-link" href="/ordo">Części stałe</a>
                 </li>
-                <li class="nav-item {% if request.path == '/icalendar' %}active{% endif %}">
-                    <a class="nav-link" href="/icalendar">iCalendar</a>
+                <li class="nav-item {% if request.path == '/supplement' %}active{% endif %}">
+                    <a class="nav-link" href="/supplement"><span class="badge badge-warning">Nowość</span>Suplement</a>
                 </li>
                 <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
                     <a class="nav-link" href="/info">Informacje</a>

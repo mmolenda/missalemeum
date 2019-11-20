@@ -254,9 +254,14 @@ div.info-page div.codebox {
     border: 1px dashed #7f7f7f;
     padding: 9px;
     border-radius: 3px;
-    width: 80%;
+    width: 100%;
     overflow-x: auto;
     white-space: nowrap;
+    font-family: Courier;
+}
+
+iframe#google-cal {
+    width: 100%;
 }
 
 

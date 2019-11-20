@@ -6,7 +6,8 @@ import datetime
 import sys
 
 import logging
-from flask import render_template, Blueprint, request, send_from_directory
+import re
+from flask import render_template, Blueprint, request, send_from_directory, redirect
 
 import controller
 from constants.common import LANGUAGE_VERNACULAR
@@ -45,8 +46,12 @@ def ordo():
     return render_template("ordo.html", title="Części stałe", data=data)
 
 
+@views.route("/supplement")
 @views.route("/supplement/<string:resource>")
-def supplement(resource: str):
+def supplement(resource: str = None):
+    if resource is None:
+        return render_template("supplement-main.html", title="Suplement")
+
     try:
         with open(os.path.join(views.root_path, "supplement", f"{resource}.md")) as fh:
             md = fh.read()
@@ -55,20 +60,15 @@ def supplement(resource: str):
     except IOError:
         return render_template('404.html'), 404
     else:
-        ref_date = None
-        if "ref" in request.args:
-            try:
-                datetime.datetime.strptime(request.args["ref"], "%Y-%m-%d")
-            except ValueError as e:
-                pass
-            else:
-                ref_date = request.args["ref"]
-        return render_template("supplement.html", title=title, data=html, ref_date=ref_date)
+        ref = request.args.get("ref")
+        if ref is None or re.sub('[\w\-/]', '', ref) != "":
+            ref = None
+        return render_template("supplement.html", title=title, data=html, ref=ref)
 
 
 @views.route("/icalendar")
 def icalendar():
-    return render_template("icalendar.html", title="iCalendar")
+    return redirect("/supplement", code=302)
 
 
 @views.route("/info")

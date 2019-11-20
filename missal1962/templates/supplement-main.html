@@ -1,0 +1,28 @@
+{% extends "base1col.html" %}
+
+{% block content1col %}
+<h1>Okresy liturgiczne</h1>
+<p>Opisy okresów liturgicznych z rozważaniem i przepisami obrzędowymi. Odnośnik do danego okresu liturgicznego
+    wyświetla się również w opisie formularza dnia rozpoczynającego ten okres, np.
+    <a target="blank" class="dashed" href="/2019-02-17">Niedziela Siedemdziesiątnicy</a>.
+</p>
+<ul>
+    <li><a class="dashed" href="/supplement/adwent?ref=supplement">Adwent</a></li>
+    <li><a class="dashed" href="/supplement/wielki-post?ref=supplement">Wielki Post</a></li>
+</ul>
+<h1>Mszał w formacie iCalendar</h1>
+<p>Widok roku liturgicznego wg Mszału z 1962 r. dostępny jest jako link w formacie
+    <a class="dashed" target="_blank" href="https://pl.wikipedia.org/wiki/ICalendar">iCalendar</a>,
+    który można  wyświetlić w dowolnej aplikacji prezentującej kalendarz, np. Google Calendar, czy Microsoft Outlook.
+    Link pozwala wyświetlać wszystkie dni pierwszej i drugiej klasy.
+    W opisie każdego wydarzenia kalendarza znajduje się odnośnik do odpowiedniego formularza na stronie internetowej.
+</p>
+<p>Aby dodać Mszał w formacie iCalendar do kalendarza Google należy kliknąć "+" w poniższym kalendarzu lub dodać ręcznie używając adresu:
+    <br>
+<div class="codebox">https://www.mszalrzymski.pl/api/v2/icalendar</div>
+<br>
+
+<iframe id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=b3RxNXJkMGVwNzFrc3JtaGFwazRtOHU2a2w0M2JrdGpAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA" style="border-width:0" height="300" frameborder="0" scrolling="no"></iframe>
+</p>
+
+{% endblock %}

@@ -1,14 +1,14 @@
 {% extends "base1col.html" %}
 
 {% block content1col %}
-    {% if ref_date %}
-    <p><a class="dashed" href="/{{ ref_date }}">« Powrót</a></p>
+    {% if ref %}
+    <p><a class="dashed" href="/{{ ref }}">« Powrót</a></p>
     {% endif %}
 
     {{ data | safe }}
 
-    {% if ref_date %}
-    <p><a class="dashed" href="/{{ ref_date }}">« Powrót</a></p>
+    {% if ref %}
+    <p><a class="dashed" href="/{{ ref }}">« Powrót</a></p>
     {% endif %}
 
 {% endblock %}
