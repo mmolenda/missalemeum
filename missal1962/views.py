@@ -30,7 +30,7 @@ def proprium(date_: str = None):
             date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
             day: Day = controller.get_day(date_object, LANGUAGE_VERNACULAR)
         except Exception:
-            return render_template('404.html', title="404"), 404
+            return render_template('404.html'), 404
         else:
             title = day.get_celebration_name()
     else:
@@ -43,14 +43,14 @@ def proprium(date_: str = None):
 def ordo():
     with open(os.path.join(views.root_path, "static", "data", "ordo.json")) as fh:
         data = json.load(fh)
-    return render_template("ordo.html", title="Części stałe", data=data)
+    return render_template("ordo.html", data=data)
 
 
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
 def supplement(resource: str = None):
     if resource is None:
-        return render_template("supplement-main.html", title="Suplement")
+        return render_template("supplement-main.html")
 
     try:
         with open(os.path.join(views.root_path, "supplement", f"{resource}.md")) as fh:
@@ -73,7 +73,7 @@ def icalendar():
 
 @views.route("/info")
 def info():
-    return render_template("info.html", title="Informacje")
+    return render_template("info.html")
 
 
 @views.route("/service-worker.js")
