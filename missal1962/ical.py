@@ -13,10 +13,8 @@ class IcalBuilder:
         cal.add('version', '2.0')
         cal.add("prodid", "-//Mszał Rzymski - Kalendarz//mszalrzymski.pl//")
         for datetime_, day in days.items():
-            if len(day.celebration) < 1:
-                continue
-            celebration = day.celebration[0]
-            if celebration.rank > rank:
+            celebration = day.celebration[0] if day.celebration else day.tempora[0] if day.tempora else None
+            if celebration is None or celebration.rank > rank:
                 continue
             now = datetime.datetime.utcnow()
             event = Event()
