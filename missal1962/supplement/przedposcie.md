@@ -57,7 +57,7 @@ W okresie Przedpościa poleca się czytać Księgę Rodzaju.
 ## Przepisy obrzędowe
 
 1. Niedziele Przedpościa są 2 klasy.
-2. Od Niedzieli Siedemdziesiątnicy opuszcza się radosny okrzyk Alleluja. We Mszy św. Alleluja, które następuje po 
+2. Od Niedzieli Siedemdziesiątnicy opuszcza się radosny okrzyk _Alleluja_. We Mszy św. _Alleluja_, które następuje po 
 graduale w niedziele i święta, zastępuje traktus.
-3. W dni powszednie wolne od świąt odprawia się Mszę z ostatniej niedzieli bez Credo i bez traktusa z prefacją zwykłą.
+3. W dni powszednie wolne od świąt odprawia się Mszę z ostatniej niedzieli bez _Credo_ i bez traktusa z prefacją zwykłą.
 4. W okresie Przedpościa wolno grać na organach, zakazana jest jednak gra na innych instrumentach.

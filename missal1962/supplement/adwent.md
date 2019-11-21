@@ -65,7 +65,9 @@ W Adwencie poleca się czytanie Proroka Izajasza oraz innych przepowiedni mesja�
 
 1. Niedziele Adwentu są dniami liturgicznymi 1 klasy i wykluczają wszystkie święta, z wyjątkiem święta Niepokalanego Poczęcia.
 2. Dni Adwentu od 1 do 16 grudnia są dniami powszednimi 3 klasy.
-3. Dni Adwentu od 17 do 23 grudnia są dniami powszednimi 2 klasy. Mają one pierwszeństwo przed partykularnymi świętami 2 klasy. Jako Mszę z dnia odprawia się Mszę z ostatniej niedzieli (z wyjątkiem Suchych Dni) opuszczając Alleluja i Credo.
+3. Dni Adwentu od 17 do 23 grudnia są dniami powszednimi 2 klasy. Mają one pierwszeństwo przed partykularnymi świętami 2 
+klasy. Jako Mszę z dnia odprawia się Mszę z ostatniej niedzieli (z wyjątkiem Suchych Dni) opuszczając _Alleluja_ i _Credo_.
 4. We wszystkich innych Mszach dodaje się na pierwszym miejscu wspomnienie dnia Adwentu.
-5. Na znak pokuty w czasie Mszy adwentowych nie wolno zdobić ołtarzy kwiatami ani grać na organach. Dopuszczalne jest tylko podtrzymywanie śpiewu za pomocą organów lub harmonium. Gra na innych instrumentach jest w Adwencie zakazana.
+5. Na znak pokuty w czasie Mszy adwentowych nie wolno zdobić ołtarzy kwiatami ani grać na organach. Dopuszczalne jest 
+tylko podtrzymywanie śpiewu za pomocą organów lub harmonium. Gra na innych instrumentach jest w Adwencie zakazana.
 W trzecią Niedzielę Adwentu, która ma charakter radosny, wolno użyć szat różowych, ozdobić ołtarz kwiatami i grać na organach.

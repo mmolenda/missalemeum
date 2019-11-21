@@ -70,5 +70,5 @@ wielkich świąt. Myśl o wieczności dominuje w ostatnich tygodniach tego okres
 Msze z niedziel po Objawieniu, które musiały ustąpić przed nadchodzącą Siedemdziesiątnicą. Mszę przeznaczoną na 
 niedzielę 24 zawsze odprawia się w ostatnią niedzielę po Zesłaniu Ducha Świętego. 
 2. Niedziele po Zesłaniu Ducha Świętego ustępują przed świętami 1 klasy.
-3. W dni wolne od świąt odprawia się Mszę z ostatniej niedzieli bez Gloria i bez Credo, z prefacją zwykłą.
+3. W dni wolne od świąt odprawia się Mszę z ostatniej niedzieli bez _Gloria_ i bez _Credo_, z prefacją zwykłą.
 4. W soboty odprawia się Mszę «O Matce Bożej w soboty».
