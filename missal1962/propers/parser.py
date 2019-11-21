@@ -6,8 +6,8 @@ import re
 from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
-from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, REFERENCE_REGEX, SECTION_REGEX,
-                              EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
+from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
+                              SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
@@ -290,9 +290,9 @@ class ProperParser:
 
     @staticmethod
     def _get_full_path(partial_path, lang):
-        full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
+        full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
         if not os.path.exists(full_path):
-            full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', lang, partial_path)
+            full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
         return full_path
 
     def _get_partial_path(self):

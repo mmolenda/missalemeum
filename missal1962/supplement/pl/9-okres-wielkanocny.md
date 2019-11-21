@@ -14,7 +14,7 @@ jest najstarszym i największym świętem chrześcijaństwa. Obchód świąteczn
 jest Okres Wielkanocny kończący się oktawą Zesłania Ducha Świętego. Czterdziestodniowy pobyt Pana Jezusa na ziemi po 
 Jego Zmartwychwstaniu przypomina paschał: wielkanocna świeca płonącą W czasie Mszy i Nieszporów aż do święta 
 Wniebowstąpienia Pańskiego. Wyrazem naszej radości ze zwycięstwa Zbawiciela nad szatanem, grzechem i śmiercią, 
-jest powtarzający się często okrzyk: Alleluja.
+jest powtarzający się często okrzyk: _Alleluja_.
 
 ## Nowe życie
 
@@ -46,9 +46,9 @@ Apostolskie i Listy Apostołów: Piotra, Jana, Jakuba i Judy Tadeusza.
 1. Okres Wielkanocny rozpoczyna się oktawą Wielkanocną, a kończy się oktawą Zesłania Ducha Świętego. Na każdy dzień 
 tych oktaw jest przewidziany specjalny formularz Mszy św. Nie ustępują one żadnym świętom i wykluczają wszelkie wspomnienia.
 2. Niedziela Biała jest uprzywilejowana i nie ustępuje żadnym świętom. Inne niedziele Okresu Wielkanocnego ustępują świętom 1 klasy.
-3. Jeżeli w tygodniu Okresu Wielkanocnego powtarza się Mszę z niedzieli, odmawia się w niej hymn Gloria in excelsis Deo.
-4. W Okresie Wielkanocnym we wszystkich Mszach dodaje się do antyfony na wejście dwa Alleluja, a do antyfony na 
-ofiarowanie i na Komunię jedno Alleluja.
-5. Od soboty Białej aż do końca. Okresu Wielkanocnego zamiast graduału odmawia się dwa wiersze z czterema Alleluja.
+3. Jeżeli w tygodniu Okresu Wielkanocnego powtarza się Mszę z niedzieli, odmawia się w niej hymn _Gloria in excelsis Deo_.
+4. W Okresie Wielkanocnym we wszystkich Mszach dodaje się do antyfony na wejście dwa _Alleluja_, a do antyfony na 
+ofiarowanie i na Komunię jedno _Alleluja_.
+5. Od soboty Białej aż do końca. Okresu Wielkanocnego zamiast graduału odmawia się dwa wiersze z czterema _Alleluja_.
 6. Przy pokropieniu wodą święconą śpiewa się antyfonę Vidi aquam, wysławiającą skutki Chrztu świętego.
 7. Zamiast modlitwy Anioł Pański odmawia się stojąco antyfonę – Królowo nieba, wesel się.

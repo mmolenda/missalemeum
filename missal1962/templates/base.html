@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        {% if title %} {{ title }} | {% endif %} {% if date %} {{ date }} | {% endif %} Mszał Rzymski
+        {% block title %}{% endblock %}  Mszał Rzymski
     </title>
     <meta name="description" content="Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej." />
     <meta name="author" content="Marcin Molenda">
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="navbar-nav mr-auto pull-right">
                 <li class="nav-item
-                {% if request.path not in ('/ordo', '/info', '/icalendar') %}
+                {% if proper_active %}
                     active
                 {% endif %}">
                     <a class="nav-link" href="/">Czytania<span class="sr-only">(current)</span></a>
@@ -59,8 +59,8 @@
                 <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
                     <a class="nav-link" href="/ordo">Części stałe</a>
                 </li>
-                <li class="nav-item {% if request.path == '/icalendar' %}active{% endif %}">
-                    <a class="nav-link" href="/icalendar">iCalendar</a>
+                <li class="nav-item {% if request.path.startswith('/supplement') %}active{% endif %}">
+                    <a class="nav-link" href="/supplement"><span class="badge badge-warning">Nowość</span>Suplement</a>
                 </li>
                 <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
                     <a class="nav-link" href="/info">Informacje</a>

@@ -23,6 +23,6 @@ Początkowo na każdą uroczystość Świętego układano specjalny formularz ms
 
 ## Przepisy obrzędowe
 
-1. Po Siedemdziesiątnicy opuszcza się Alleluja a zamiast niego odmawia się traktus.
-2. W Okresie Wielkanocnym zamiast graduału odmawia się podwójne Alleluja, a ponadto dołącza się dwa Alleluja do antyfony na wejście oraz po jednym do antyfon na ofiarowanie i na komunię.
+1. Po Siedemdziesiątnicy opuszcza się _Alleluja_ a zamiast niego odmawia się traktus.
+2. W Okresie Wielkanocnym zamiast graduału odmawia się podwójne Alleluja, a ponadto dołącza się dwa _Alleluja_ do antyfony na wejście oraz po jednym do antyfon na ofiarowanie i na komunię.
 3. Kapłan może według swego uznania dobierać lekcję i ewangelię z innych Mszy tego samego typu.

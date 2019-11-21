@@ -1,4 +1,4 @@
-from ..Latin.blocks import *
+from ..la.blocks import *
 
 SANCTI = (
     constants.SANCTI_01_01,

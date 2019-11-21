@@ -28,7 +28,6 @@ $(window).on("load", function () {
 
     const $window = $(window);
     const $sidebar = $("nav#sidebar");
-    const $main = $("main");
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
@@ -40,16 +39,16 @@ $(window).on("load", function () {
     let cannotLoadMessage = "Nie udało się pobrać danych.";
 
     let supplementsMap = {
-        "tempora:Adv1-0:1": {title: "Adwent", id: "adwent"},
-        "sancti:12-24:1": {title: "Boże Narodzenie", id: "boze-narodzenie"},
-        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "okres-po-objawieniu"},
-        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "przedposcie"},
-        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "wielki-post"},
-        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "okres-meki-panskiej"},
-        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "wielki-tydzien"},
-        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "okres-wielkanocny"},
-        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "zeslanie-ducha-sw"},
-        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "okres-po-zeslaniu-ducha-sw"}
+        "tempora:Adv1-0:1": {title: "Adwent", id: "2-adwent"},
+        "sancti:12-24:1": {title: "Boże Narodzenie", id: "3-boze-narodzenie"},
+        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "4-okres-po-objawieniu"},
+        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "5-przedposcie"},
+        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "6-wielki-post"},
+        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "7-okres-meki-panskiej"},
+        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "8-wielki-tydzien"},
+        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "9-okres-wielkanocny"},
+        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "10-zeslanie-ducha-sw"},
+        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "10-okres-po-zeslaniu-ducha-sw"}
     };
 
     function init() {
@@ -155,7 +154,7 @@ $(window).on("load", function () {
         showLoader();
         let titles = [];
         $.getJSON(config.dateEndpoint + date, function(data) {
-            $main.empty();
+            $loadedContent.empty();
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
@@ -181,7 +180,7 @@ $(window).on("load", function () {
                     title: title,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
-                })).appendTo($main);
+                })).appendTo($loadedContent);
 
                 let supplement = supplementsMap[id];
                 if (supplement !== undefined) {
@@ -189,7 +188,7 @@ $(window).on("load", function () {
                         supplement_id: supplement.id,
                         supplement_title: supplement.title,
                         date: date
-                    })).appendTo($main);
+                    })).appendTo($loadedContent);
                 }
 
                 $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
@@ -209,7 +208,7 @@ $(window).on("load", function () {
                         sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
                         labelLatin: sectionLatin.label,
                         sectionLatin: sectionLatin.body.split("\n").join("<br />")
-                    })).appendTo($main);
+                    })).appendTo($loadedContent);
                 }
             });
         }).done(function() {
@@ -343,7 +342,7 @@ $(window).on("load", function () {
 
     $("#print").on("click", function () {
         let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate($templateContentPrint, {main: $main.html()});
+        let newContent = renderTemplate($templateContentPrint, {main: $loadedContent.html()});
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();

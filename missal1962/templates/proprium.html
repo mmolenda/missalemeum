@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block title %}
+{% if title %} {{ title }} | {% endif %} {% if date %} {{ date }} | {% endif %}
+{% endblock %}
+
 {% block left_menu_button %}
 <button id="sidebar-collapse" class="navbar-toggler" type="button">
     <span>≡</span>
@@ -29,7 +33,11 @@
             <a id="print"><i class="fa fa-print"></i></a>
         </div>
         <main class="col-md-9">
+            <div id="loaded-content">
+                <h1 class="display-8">{% if title %} {{ title }} {% else %} {% if title %} {{ date }} {% endif %}{% endif %}</h1>
+            </div>
         </main>
+        {% include 'footer.html' %}
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
                 <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
@@ -40,7 +48,7 @@
         </div>
     </div>
     <div id="loader" style="display: none">
-        <img src="static/img/loader.gif" alt="Loader">
+        <img src="/static/img/loader.gif" alt="Loader">
         <!--https://loading.io/spinner/book/-flip-book-loader-->
     </div>
 </div>
@@ -93,7 +101,7 @@
 {% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
-<script src="/static/js/conf.js"></script>
+<script src="/static/js/{{ lang }}/conf.js"></script>
 <script src="/static/js/common.js"></script>
 <script src="/static/js/proprium.js"></script>
 {% endblock %}

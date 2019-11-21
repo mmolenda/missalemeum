@@ -1,0 +1,19 @@
+{% extends "base1col.html" %}
+
+{% block title %}
+{{ title }} |
+{% endblock %}
+
+{% block content1col %}
+    {% if ref %}
+    <p><a class="dashed" href="/{{ ref }}">« Powrót</a></p>
+    {% endif %}
+
+    {{ data | safe }}
+
+    {% if ref %}
+    <p><a class="dashed" href="/{{ ref }}">« Powrót</a></p>
+    {% endif %}
+
+    {% include 'footer.html' %}
+{% endblock %}

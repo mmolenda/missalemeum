@@ -9,7 +9,7 @@ body {
     background-color: #fffdf1;
 }
 
-p, #content ul, #content ol {
+p, #content ul, #content ol, #content tbody {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #393939;
@@ -27,6 +27,10 @@ a.dashed {
     border-bottom: 1px dashed;
 }
 
+a.dashed:hover {
+    background: #faf4c2;
+}
+
 .rubric {
     color: #cd5c5c;
 }
@@ -35,6 +39,15 @@ a.dashed {
     width: 100%;
 }
 
+footer {
+    font-size: 80%;
+    color: #393939;
+}
+
+.version {
+    font-size: 80%;
+    color: #ababab;
+}
 
 /*
  ======== Sidebar ========
@@ -245,6 +258,15 @@ a[aria-expanded="true"] {
     margin-top: 10em;
 }
 
+#content th {
+    background: #fffbdc;
+}
+
+#content table, #content th, #content td {
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
 /*
  ======== Info pages: info, icalendar ========
 */
@@ -254,11 +276,15 @@ div.info-page div.codebox {
     border: 1px dashed #7f7f7f;
     padding: 9px;
     border-radius: 3px;
-    width: 80%;
+    width: 100%;
     overflow-x: auto;
     white-space: nowrap;
+    font-family: Courier;
 }
 
+iframe#google-cal {
+    width: 100%;
+}
 
 /*
  ======== Media ========
