@@ -274,7 +274,7 @@ a[aria-expanded="true"] {
 div.info-page div.codebox {
     background: #ededed;
     border: 1px dashed #7f7f7f;
-    padding: 9px;
+    padding: 6px;
     border-radius: 3px;
     width: 100%;
     overflow-x: auto;
@@ -284,6 +284,9 @@ div.info-page div.codebox {
 
 iframe#google-cal {
     width: 100%;
+    height:300px;
+    border-width:0;
+    overflow: hidden;
 }
 
 /*
