@@ -14,9 +14,9 @@ osiągnąć chwałę zmartwychwstania.
 
 ## Przedpoście, czyli okres Siedemdziesiątnicy
 
-Z całego serca błagamy Twój majestat, abyś tak wygubił nasze wewnętrzne wady, jak zniszczyłeś naszego śmiertelnego 
+_Z całego serca błagamy Twój majestat, abyś tak wygubił nasze wewnętrzne wady, jak zniszczyłeś naszego śmiertelnego 
 wroga. Ty, który otaczasz nas opieką, nie pozwól, abyśmy jęczeli w niewoli wewnętrznej. Spraw, abyśmy zawsze unikali 
-zła i miłowali wszystko co sprawiedliwe. (Ze starożytnej prefacji) 
+zła i miłowali wszystko co sprawiedliwe._ (Ze starożytnej prefacji) 
 
 ## Z głebi upadku
 
@@ -48,7 +48,7 @@ Liturgia Przedpościa ukształtowała się za czasów św. Grzegorza Wielkiego (
 Postu. Stanowi ono rodzaj przedsionka do okresu pokuty. Niedziele Przedpościa nazywają się: Siedemdziesiątnica, 
 Sześćdziesiątnica i Pięćdziesiątnica, gdyż wypadają w siódmym, szóstym i piątym dziesiątku dni przed Wielkanocą. 
 W Polsce powstały inne nazwy tych niedziel: Starozapustna, Mięsopustna i Zapustna, ponieważ dawniej w tym czasie 
-zachowywane łagodniejszy post, odzwyczajając się stopniowo od pewnych pokarmów. 
+zachowywano łagodniejszy post, odzwyczajając się stopniowo od pewnych pokarmów. 
 
 ## Czytanie Pisma Świętego
 

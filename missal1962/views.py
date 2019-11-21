@@ -36,7 +36,7 @@ def proprium(date_: str = None):
     else:
         title = None
         date_ = None
-    return render_template("proprium.html", title=title, date=date_)
+    return render_template("proprium.html", title=title, date=date_, proper_active=True)
 
 
 @views.route("/ordo")
@@ -55,7 +55,7 @@ def supplement(resource: str = None):
     try:
         with open(os.path.join(views.root_path, "supplement", f"{resource}.md")) as fh:
             md = fh.read()
-            html = markdown.markdown(md)
+            html = markdown.markdown(md, extensions=['tables'])
             title = [i for i in md.split("\n") if i.startswith("#")][0].strip(" #")
     except IOError:
         return render_template('404.html'), 404
@@ -76,6 +76,6 @@ def info():
     return render_template("info.html")
 
 
-@views.route("/service-worker.js")
-def service_worker():
-    return send_from_directory(os.path.join(views.root_path, "static", "js"), "service-worker.js")
+# @views.route("/service-worker.js")
+# def service_worker():
+#     return send_from_directory(os.path.join(views.root_path, "static", "js"), "service-worker.js")

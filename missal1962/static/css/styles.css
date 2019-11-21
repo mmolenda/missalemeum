@@ -9,7 +9,7 @@ body {
     background-color: #fffdf1;
 }
 
-p, #content ul, #content ol {
+p, #content ul, #content ol, #content tbody {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #393939;
@@ -25,6 +25,10 @@ a:focus {
 
 a.dashed {
     border-bottom: 1px dashed;
+}
+
+a.dashed:hover {
+    background: #faf4c2;
 }
 
 .rubric {
@@ -243,6 +247,15 @@ a[aria-expanded="true"] {
 #loader img {
     margin-left: 40%;
     margin-top: 10em;
+}
+
+#content th {
+    background: #fffbdc;
+}
+
+#content table, #content th, #content td {
+    border: 1px solid #dbdbdb;
+    text-align: center;
 }
 
 /*

@@ -57,12 +57,12 @@ wielkich świąt. Myśl o wieczności dominuje w ostatnich tygodniach tego okres
 
 ## Czytanie Pisma Świętego
 
-Czerwiec – Księgi Jozuego i Sędziów
-Lipiec – Księgi Królewskie
-Sierpień – Księgi Przypowieści, Eklezjastesa, Mądrości, Eklezjastyka (Syracydesa)
-Wrzesień – Księgi Joba, Tobiasza, Judyty i Estery
-Październik – Proroctwa Ezechiela, Daniela
-Listopad — Księgi Machabejskie, Apokalipsa św. Jana
+* Czerwiec – Księgi Jozuego i Sędziów
+* Lipiec – Księgi Królewskie
+* Sierpień – Księgi Przypowieści, Eklezjastesa, Mądrości, Eklezjastyka (Syracydesa)
+* Wrzesień – Księgi Joba, Tobiasza, Judyty i Estery
+* Październik – Proroctwa Ezechiela, Daniela
+* Listopad — Księgi Machabejskie, Apokalipsa św. Jana
 
 ## Przepisy obrzędowe
 
