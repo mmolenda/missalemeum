@@ -1,10 +1,9 @@
 import datetime
 import flask
-import os
 import sys
 
 import logging
-from flask import send_file, jsonify, Blueprint
+from flask import jsonify, Blueprint
 from typing import List, Tuple
 
 import controller
@@ -23,10 +22,11 @@ api = Blueprint('api', __name__)
 
 
 @api.route('/api/v2/date/<string:date_>')
-def v2_date(date_: str):
+# @api.route('/<string:lang>/api/v2/date/<string:date_>')
+def v2_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
-        day: Day = controller.get_day(date_object, LANGUAGE_VERNACULAR)
+        day: Day = controller.get_day(date_object, lang)
         propers: List[Tuple[Proper, Proper]] = day.get_proper()
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
@@ -58,9 +58,10 @@ def v2_date(date_: str):
 
 
 @api.route('/api/v2/proper/<string:proper_id>')
-def v2_proper(proper_id: str):
+# @api.route('/<string:lang>/api/v2/proper/<string:proper_id>')
+def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
     try:
-        proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, LANGUAGE_VERNACULAR)
+        proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
     except (InvalidInput, ProperNotFound) as e:
         return jsonify({'error': str(e)}), 400
     else:
@@ -69,22 +70,26 @@ def v2_proper(proper_id: str):
 
 @api.route('/api/v2/calendar')
 @api.route('/api/v2/calendar/<int:year>')
-def v2_calendar(year: int = None):
+# @api.route('/<string:lang>/api/v2/calendar')
+# @api.route('/<string:lang>/api/v2/calendar/<int:year>')
+def v2_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
     if year is None:
         year = datetime.datetime.now().date().year
-    missal: Calendar = controller.get_calendar(year, LANGUAGE_VERNACULAR)
+    missal: Calendar = controller.get_calendar(year, lang)
     return jsonify(missal.serialize())
 
 
 @api.route('/api/v2/icalendar')
 @api.route('/api/v2/icalendar/<int:rank>')
-def v2_ical(rank: int = 2):
+# @api.route('/<string:lang>/api/v2/icalendar')
+# @api.route('/<string:lang>/api/v2/icalendar/<int:rank>')
+def v2_ical(rank: int = 2, lang: str = LANGUAGE_VERNACULAR):
     try:
         rank = int(rank)
         assert rank in range(1, 5)
     except (ValueError, AssertionError):
         rank = 2
 
-    response = flask.Response(controller.get_ical(LANGUAGE_VERNACULAR, rank))
+    response = flask.Response(controller.get_ical(lang, rank))
     response.headers['Content-Type'] = 'text/calendar; charset=utf-8'
     return response

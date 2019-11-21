@@ -1,4 +1,4 @@
-from ..Latin.translation import *
+from ..la.translation import *
 
 TITLES = {
     constants.TEMPORA_EPI1_0: 'The Holy Family: Jesus, Mary & Joseph',

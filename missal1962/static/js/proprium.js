@@ -40,16 +40,16 @@ $(window).on("load", function () {
     let cannotLoadMessage = "Nie udało się pobrać danych.";
 
     let supplementsMap = {
-        "tempora:Adv1-0:1": {title: "Adwent", id: "adwent"},
-        "sancti:12-24:1": {title: "Boże Narodzenie", id: "boze-narodzenie"},
-        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "okres-po-objawieniu"},
-        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "przedposcie"},
-        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "wielki-post"},
-        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "okres-meki-panskiej"},
-        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "wielki-tydzien"},
-        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "okres-wielkanocny"},
-        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "zeslanie-ducha-sw"},
-        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "okres-po-zeslaniu-ducha-sw"}
+        "tempora:Adv1-0:1": {title: "Adwent", id: "2-adwent"},
+        "sancti:12-24:1": {title: "Boże Narodzenie", id: "3-boze-narodzenie"},
+        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "4-okres-po-objawieniu"},
+        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "5-przedposcie"},
+        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "6-wielki-post"},
+        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "7-okres-meki-panskiej"},
+        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "8-wielki-tydzien"},
+        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "9-okres-wielkanocny"},
+        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "10-zeslanie-ducha-sw"},
+        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "10-okres-po-zeslaniu-ducha-sw"}
     };
 
     function init() {

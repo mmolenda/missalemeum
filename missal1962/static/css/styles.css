@@ -277,6 +277,10 @@ iframe#google-cal {
     width: 100%;
 }
 
+.version {
+    font-size: 70%;
+    color: #ababab;
+}
 
 /*
  ======== Media ========
