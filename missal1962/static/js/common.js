@@ -2,6 +2,7 @@
 const $window = $(window);
 const $wrapper = $("div.wrapper");
 const $main = $("main");
+const $loadedContent = $("main div#loaded-content");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const $loader = $("div#loader");

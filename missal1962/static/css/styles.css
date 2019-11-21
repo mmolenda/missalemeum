@@ -39,6 +39,15 @@ a.dashed:hover {
     width: 100%;
 }
 
+footer {
+    font-size: 80%;
+    color: #393939;
+}
+
+.version {
+    font-size: 80%;
+    color: #ababab;
+}
 
 /*
  ======== Sidebar ========
@@ -275,11 +284,6 @@ div.info-page div.codebox {
 
 iframe#google-cal {
     width: 100%;
-}
-
-.version {
-    font-size: 70%;
-    color: #ababab;
 }
 
 /*

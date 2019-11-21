@@ -28,7 +28,6 @@ $(window).on("load", function () {
 
     const $window = $(window);
     const $sidebar = $("nav#sidebar");
-    const $main = $("main");
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
@@ -155,7 +154,7 @@ $(window).on("load", function () {
         showLoader();
         let titles = [];
         $.getJSON(config.dateEndpoint + date, function(data) {
-            $main.empty();
+            $loadedContent.empty();
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
@@ -181,7 +180,7 @@ $(window).on("load", function () {
                     title: title,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
-                })).appendTo($main);
+                })).appendTo($loadedContent);
 
                 let supplement = supplementsMap[id];
                 if (supplement !== undefined) {
@@ -189,7 +188,7 @@ $(window).on("load", function () {
                         supplement_id: supplement.id,
                         supplement_title: supplement.title,
                         date: date
-                    })).appendTo($main);
+                    })).appendTo($loadedContent);
                 }
 
                 $.each([sectionsVernacular, sectionsLatin], function(i, sections) {
@@ -209,7 +208,7 @@ $(window).on("load", function () {
                         sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
                         labelLatin: sectionLatin.label,
                         sectionLatin: sectionLatin.body.split("\n").join("<br />")
-                    })).appendTo($main);
+                    })).appendTo($loadedContent);
                 }
             });
         }).done(function() {
@@ -343,7 +342,7 @@ $(window).on("load", function () {
 
     $("#print").on("click", function () {
         let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate($templateContentPrint, {main: $main.html()});
+        let newContent = renderTemplate($templateContentPrint, {main: $loadedContent.html()});
         newWindow.document.write(newContent);
         newWindow.document.close();
         newWindow.focus();

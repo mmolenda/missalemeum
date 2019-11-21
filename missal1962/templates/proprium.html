@@ -33,7 +33,11 @@
             <a id="print"><i class="fa fa-print"></i></a>
         </div>
         <main class="col-md-9">
+            <div id="loaded-content">
+                <h1 class="display-8">{% if title %} {{ title }} {% else %} {% if title %} {{ date }} {% endif %}{% endif %}</h1>
+            </div>
         </main>
+        {% include 'footer.html' %}
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
                 <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
