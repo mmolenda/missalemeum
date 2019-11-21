@@ -7,7 +7,7 @@ import sys
 
 import logging
 import re
-from flask import render_template, Blueprint, request, send_from_directory, redirect
+from flask import render_template, Blueprint, request, send_from_directory, redirect, render_template_string
 from jinja2 import TemplateNotFound
 
 import controller
@@ -93,3 +93,8 @@ def info(lang: str = LANGUAGE_VERNACULAR):
 @views.route("/service-worker.js")
 def service_worker():
     return send_from_directory(os.path.join(views.root_path, "static", "js"), "service-worker.js")
+
+
+@views.route("/robots.txt")
+def robots():
+    return render_template_string("User-agent: *\nDisallow:")
