@@ -24,7 +24,7 @@ const PRECACHE_URLS = [
     '/info',
     '/static/css/styles.css',
     '/static/js/common.js',
-    '/static/js/conf.js',
+    '/static/js/ordo.js',
     '/static/js/pl/conf.js',
     '/static/js/proprium.js',
     '/static/img/loader.gif',
