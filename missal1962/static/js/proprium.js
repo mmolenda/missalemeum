@@ -146,18 +146,19 @@ $(window).on("load", function () {
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
-                let date = item["info"].date;
-                let title = item["info"].title;
-                let description = item["info"].description;
-                let supplements = item["info"].supplements;
+                let info = item["info"];
+                let date = info.date;
+                let title = info.title;
+                let description = info.description;
+                let supplements = info.supplements;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
-                let additional_info = [date, mapRank(item["info"].rank)];
-                if (item["info"].tempora != null) {
-                    additional_info.push(item["info"].tempora);
+                let additional_info = [date, mapRank(info.rank)];
+                if (info.tempora != null) {
+                    additional_info.push(info.tempora);
                 }
-                if (item["info"].additional_info != null) {
-                    $.merge(additional_info, item["info"].additional_info);
+                if (info.additional_info != null) {
+                    $.merge(additional_info, info.additional_info);
                 }
 
                 if (title == null) {
@@ -178,6 +179,9 @@ $(window).on("load", function () {
                             label: supplement.label,
                             date: date
                         })).appendTo(supplementsList);
+                        if (index + 1 < supplements.length) {
+                            supplementsList.append(",&nbsp;&nbsp;");
+                        }
                     });
                     supplementsList.appendTo($loadedContent);
                 }

@@ -34,24 +34,27 @@
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
+                <h1 class="display-8">{{ title }}</h1>
                 {% if propers %}
-                    <h1 class="display-8">{{ title }}</h1>
                     <p>{{ propers[0].info.description }}</p>
                     {% if propers[0].info.supplements %}
-                        {% for supplement in propers[0].info.supplements %}
-                            <a class="dashed" href="{{ supplement.path }}">{{ supplement.label }}</a>
-                        {% endfor %}
+                        <p class="supplement">
+                            Suplement:
+                            {% for supplement in propers[0].info.supplements %}
+                                <a class="dashed" href="{{ supplement.path }}">{{ supplement.label }}</a>
+                            {% endfor %}
+                        </p>
                     {% endif %}
 
                     {% for vern in propers[0].proper_vernacular %}
                         <div class="row">
                             <div class="col-sm-6 section-vernacular">
                                 <h2>{{ vern.label }}</h2>
-                                <p>{{ vern.body }}</p>
+                                <p>{{ vern.body|parse_section|safe }}</p>
                             </div>
                             <div class="col-sm-6 section-latin">
                                 <h2>{{ propers[0].proper_latin[loop.index0].label }}</h2>
-                                <p>{{ propers[0].proper_latin[loop.index0].body }}</p>
+                                <p>{{ propers[0].proper_latin[loop.index0].body|parse_section|safe }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -96,10 +99,10 @@
     <p>${description}</p>
 </script>
 <script id="template-content-supplement-list" type="text/x-custom-template">
-    <ul class="supplement"></ul>
+    <p class="supplement">Suplement: </p>
 </script>
 <script id="template-content-supplement-item" type="text/x-custom-template">
-    <li><a class="dashed" href="${path}?ref=${date}">${label}</a></li>
+    <a class="dashed" href="${path}?ref=${date}">${label}</a>
 </script>
 <script id="template-content-columns" type="text/x-custom-template">
     <div class="row">

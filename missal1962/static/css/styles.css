@@ -289,8 +289,8 @@ iframe#google-cal {
     overflow: hidden;
 }
 
-ul.supplement {
-    list-style-type: none;
+p.supplement {
+    font-size: 90%;
 }
 
 /*

@@ -65,17 +65,20 @@ def ordo(lang: str = LANGUAGE_VERNACULAR):
 
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
-@views.route("/supplement/<string:path>/<string:resource>")
-@views.route("/<string:lang>/supplement")
-@views.route("/<string:lang>/supplement/<string:resource>")
-@views.route("/<string:lang>/supplement/<string:path>/<string:resource>")
-def supplement(lang: str = LANGUAGE_VERNACULAR, path: str = None, resource: str = None):
+@views.route("/supplement/<subdir>/<string:resource>")
+# @views.route("/<string:lang>/supplement")
+# @views.route("/<string:lang>/supplement/<string:resource>")
+# @views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
+def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: str = None):
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
 
     try:
-        path_args = [lang, path, f"{resource}.md"] if path else [lang, f"{resource}.md"]
-        with open(os.path.join(views.root_path, "supplement", *path_args)) as fh:
+        path_args = [views.root_path, "supplement", lang]
+        if subdir:
+            path_args.append(subdir)
+        path_args.append(f"{resource}.md")
+        with open(os.path.join(*path_args)) as fh:
             md = fh.read()
             html = markdown.markdown(md, extensions=['tables'])
             title = [i for i in md.split("\n") if i.startswith("#")][0].strip(" #")

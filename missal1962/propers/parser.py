@@ -69,7 +69,7 @@ class ProperParser:
         proper.title = self.translations[lang].TITLES.get(self.proper_id)
         proper.description = parsed_comment['description']
         proper.additional_info = parsed_comment['additional_info']
-        proper.supplements = self.translations[self.lang].SUPPLEMENTS.get(self.proper_id, [])
+        proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
         if not proper.rank:
             # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
             proper.rank = parsed_comment['rank']
