@@ -21,3 +21,30 @@ def infer_custom_preface(celebration: 'Observance', tempora: 'Observance' = None
         except AttributeError:
             raise
     return None
+
+
+def format_propers(day: 'Day'):
+    propers = day.get_proper()
+    retvals = []
+    for propers_vernacular, propers_latin in propers:
+        # In most of the cases calculate the celebration title from the Observance object falling on
+        # a given day; in case of days with multiple masses (02 Nov, 25 Dec) get the title from
+        # proper's comment directly
+        title = day.get_celebration_name() if len(propers) < 2 else propers_vernacular.title
+        tempora_name: str = day.get_tempora_name()
+        info = {
+            "id": day.get_celebration_id(),
+            "title": title,
+            "description": propers_vernacular.description,
+            "additional_info": propers_vernacular.additional_info,
+            "tempora": tempora_name if tempora_name != title else None,
+            "rank": propers_vernacular.rank,
+            "supplements": propers_vernacular.supplements,
+            "date": day.date.strftime("%Y-%m-%d")
+        }
+        retvals.append({
+            "info": info,
+            "proper_vernacular": propers_vernacular.serialize(),
+            "proper_latin": propers_latin.serialize()
+        })
+    return retvals

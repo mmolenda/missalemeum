@@ -794,3 +794,19 @@ COMMEMORATIONS = {
     constants.COMMEMORATED_SECRETA: "Sekreta wspomnienia",
     constants.COMMEMORATED_POSTCOMMUNIO: "Pokomunia wspomnienia",
 }
+
+SUPPLEMENTS = {
+    constants.TEMPORA_ADV1_0: [
+        {"label": "Początek Adwentu", "path": "/supplement/2-adwent"},
+        {"label": "Komentarz do Ewangelii na 1 Niedzielę Adwentu", "path": "/supplement/komentarz/1-niedziela-adwentu"}
+    ],
+    constants.SANCTI_12_24: [{"label": "Początek Bożego Narodzenia", "path": "/supplement/3-boze-narodzenie"}],
+    constants.TEMPORA_EPI1_0: [{"label": "Początek Okresu po Objawieniu", "path": "/supplement/4-okres-po-objawieniu"}],
+    constants.TEMPORA_QUADP1_0: [{"label": "Początek Przedpościa", "path": "/supplement/5-przedposcie"}],
+    constants.TEMPORA_QUADP3_3: [{"label": "Początek Wielkiego Postu", "path": "/supplement/6-wielki-post"}],
+    constants.TEMPORA_QUAD5_0: [{"label": "Początek Okresu Męki Pańskiej", "path": "/supplement/7-okres-meki-panskiej"}],
+    constants.TEMPORA_QUAD6_0: [{"label": "Początek Wielkiego Tygodnia", "path": "/supplement/8-wielki-tydzien"}],
+    constants.TEMPORA_QUAD6_6: [{"label": "Początek Okresu Wielkanocnego", "path": "/supplement/9-okres-wielkanocny"}],
+    constants.TEMPORA_PASC6_6: [{"label": "Początek Zesłania Ducha św.", "path": "/supplement/10-zeslanie-ducha-sw"}],
+    constants.TEMPORA_PENT01_0: [{"label": "Początek Okresu po Zesłaniu Ducha św.", "path": "/supplement/10-okres-po-zeslaniu-ducha-sw"}],
+}

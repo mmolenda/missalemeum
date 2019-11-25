@@ -13,11 +13,14 @@ from jinja2 import TemplateNotFound
 import controller
 from constants.common import LANGUAGE_VERNACULAR
 from kalendar.models import Day
+from utils import format_propers
 
 logging.basicConfig(
     stream=sys.stdout,
     level=logging.INFO,
     format="[%(asctime)s ] %(levelname)s in %(module)s: %(message)s")
+
+log = logging.getLogger(__name__)
 
 
 views = Blueprint("views", __name__)
@@ -39,14 +42,17 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
         try:
             date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
             day: Day = controller.get_day(date_object, lang)
-        except Exception:
+            fmt_propers = format_propers(day)
+        except Exception as e:
+            log.exception(e)
             return render_template('404.html'), 404
         else:
-            title = day.get_celebration_name()
+            title = fmt_propers[0]['info']['title']
     else:
         title = None
         date_ = None
-    return render_template("proprium.html", title=title, date=date_, proper_active=True, lang=lang)
+        fmt_propers = None
+    return render_template("proprium.html", title=title, propers=fmt_propers, date=date_, proper_active=True, lang=lang)
 
 
 @views.route("/ordo")
@@ -59,14 +65,17 @@ def ordo(lang: str = LANGUAGE_VERNACULAR):
 
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
-# @views.route("/<string:lang>/supplement")
-# @views.route("/<string:lang>/supplement/<string:resource>")
-def supplement(lang: str = LANGUAGE_VERNACULAR, resource: str = None):
+@views.route("/supplement/<string:path>/<string:resource>")
+@views.route("/<string:lang>/supplement")
+@views.route("/<string:lang>/supplement/<string:resource>")
+@views.route("/<string:lang>/supplement/<string:path>/<string:resource>")
+def supplement(lang: str = LANGUAGE_VERNACULAR, path: str = None, resource: str = None):
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
 
     try:
-        with open(os.path.join(views.root_path, "supplement", f"{lang}/{resource}.md")) as fh:
+        path_args = [lang, path, f"{resource}.md"] if path else [lang, f"{resource}.md"]
+        with open(os.path.join(views.root_path, "supplement", *path_args)) as fh:
             md = fh.read()
             html = markdown.markdown(md, extensions=['tables'])
             title = [i for i in md.split("\n") if i.startswith("#")][0].strip(" #")

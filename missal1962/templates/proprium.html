@@ -34,7 +34,30 @@
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1 class="display-8">{% if title %} {{ title }} {% else %} {% if title %} {{ date }} {% endif %}{% endif %}</h1>
+                {% if propers %}
+                    <h1 class="display-8">{{ title }}</h1>
+                    <p>{{ propers[0].info.description }}</p>
+                    {% if propers[0].info.supplements %}
+                        {% for supplement in propers[0].info.supplements %}
+                            <a class="dashed" href="{{ supplement.path }}">{{ supplement.label }}</a>
+                        {% endfor %}
+                    {% endif %}
+
+                    {% for vern in propers[0].proper_vernacular %}
+                        <div class="row">
+                            <div class="col-sm-6 section-vernacular">
+                                <h2>{{ vern.label }}</h2>
+                                <p>{{ vern.body }}</p>
+                            </div>
+                            <div class="col-sm-6 section-latin">
+                                <h2>{{ propers[0].proper_latin[loop.index0].label }}</h2>
+                                <p>{{ propers[0].proper_latin[loop.index0].body }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p>Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej.</p>
+                {% endif %}
             </div>
         </main>
         {% include 'footer.html' %}
@@ -72,8 +95,11 @@
     <p><em class="rubric">${additional_info}</em></p>
     <p>${description}</p>
 </script>
-<script id="template-content-supplement" type="text/x-custom-template">
-    <p>Dzisiaj rozpoczyna się <a class="dashed" href="/supplement/${supplement_id}?ref=${date}">${supplement_title}</a>.</p>
+<script id="template-content-supplement-list" type="text/x-custom-template">
+    <ul class="supplement"></ul>
+</script>
+<script id="template-content-supplement-item" type="text/x-custom-template">
+    <li><a class="dashed" href="${path}?ref=${date}">${label}</a></li>
 </script>
 <script id="template-content-columns" type="text/x-custom-template">
     <div class="row">

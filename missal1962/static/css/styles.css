@@ -289,6 +289,10 @@ iframe#google-cal {
     overflow: hidden;
 }
 
+ul.supplement {
+    list-style-type: none;
+}
+
 /*
  ======== Media ========
 */
