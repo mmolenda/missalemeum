@@ -797,12 +797,32 @@ COMMEMORATIONS = {
 
 SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
-        {"label": "Początek Adwentu",
-         "path": "/supplement/2-adwent"},
-        {"label": "Komentarz do Ewangelii na 1 Niedzielę Adwentu",
-         "path": "/supplement/komentarz/1-ewangelia-1-niedziela-adwentu"}
+        {"label": "Początek Adwentu", "path": "/supplement/2-adwent"},
+        {"label": "Komentarz do Ewangelii na 1 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia1na/"}
+    ],
+    constants.TEMPORA_ADV2_0: [
+        {"label": "Komentarz do Ewangelii na 2 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia2na/"}
+    ],
+    constants.TEMPORA_ADV3_0: [
+        {"label": "Komentarz do Ewangelii na 3 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia3na/"}
+    ],
+    constants.TEMPORA_ADV4_0: [
+        {"label": "Komentarz do Ewangelii na 4 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia4na/"}
     ],
     constants.SANCTI_12_24: [{"label": "Początek Bożego Narodzenia", "path": "/supplement/3-boze-narodzenie"}],
+    constants.SANCTI_12_25_1: [
+        {"label": "Początek Bożego Narodzenia", "path": "/supplement/3-boze-narodzenie"},
+        {"label": "Komentarz do pierwszej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn/"}
+    ],
+    constants.SANCTI_12_25_2: [
+        {"label": "Komentarz do drugiej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn2/"}
+    ],
+    constants.SANCTI_12_25_3: [
+        {"label": "Komentarz do trzeciej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn3/"}
+    ],
+    constants.NAT1_0: [
+        {"label": "Komentarz do Ewangelii na niedzielę po Bożym Narodzeniu", "path": "http://vetusordo.pl/objasnieniaennpbn//"}
+    ],
     constants.TEMPORA_EPI1_0: [{"label": "Początek Okresu po Objawieniu", "path": "/supplement/4-okres-po-objawieniu"}],
     constants.TEMPORA_QUADP1_0: [{"label": "Początek Przedpościa", "path": "/supplement/5-przedposcie"}],
     constants.TEMPORA_QUADP3_3: [{"label": "Początek Wielkiego Postu", "path": "/supplement/6-wielki-post"}],

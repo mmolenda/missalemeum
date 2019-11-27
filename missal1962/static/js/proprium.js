@@ -23,7 +23,8 @@ $(window).on("load", function () {
     const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();
     const $templateContentSupplementList = $("#template-content-supplement-list").text();
-    const $templateContentSupplementItem = $("#template-content-supplement-item").text();
+    const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
+    const $templateContentSupplementItemExternal = $("#template-content-supplement-item-external").text();
     const $templateContentColumns = $("#template-content-columns").text();
     const $templateContentPrint = $("#template-content-print").text();
 
@@ -174,7 +175,13 @@ $(window).on("load", function () {
                 if (supplements.length > 0) {
                     let supplementsList = $(renderTemplate($templateContentSupplementList, {}));
                     $.each(supplements, function(index, supplement) {
-                        $(renderTemplate($templateContentSupplementItem, {
+                        let template;
+                        if (supplement.path, supplement.path.valueOf().startsWith("http")) {
+                            template = $templateContentSupplementItemExternal;
+                        } else {
+                            template = $templateContentSupplementItemInternal;
+                        }
+                        $(renderTemplate(template, {
                             path: supplement.path,
                             label: supplement.label,
                             date: date
