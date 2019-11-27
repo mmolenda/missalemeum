@@ -791,3 +791,5 @@ COMMEMORATIONS = {
     constants.COMMEMORATED_SECRETA: "Commemoratio Secreta",
     constants.COMMEMORATED_POSTCOMMUNIO: "Commemoratio Postcommunio",
 }
+
+SUPPLEMENTS = {}

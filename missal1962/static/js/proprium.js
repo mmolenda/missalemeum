@@ -22,7 +22,9 @@ $(window).on("load", function () {
     const $templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
     const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();
-    const $templateContentSupplement = $("#template-content-supplement").text();
+    const $templateContentSupplementList = $("#template-content-supplement-list").text();
+    const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
+    const $templateContentSupplementItemExternal = $("#template-content-supplement-item-external").text();
     const $templateContentColumns = $("#template-content-columns").text();
     const $templateContentPrint = $("#template-content-print").text();
 
@@ -37,19 +39,6 @@ $(window).on("load", function () {
     let loadedProperDate;
     let selectedDate;
     let cannotLoadMessage = "Nie udało się pobrać danych.";
-
-    let supplementsMap = {
-        "tempora:Adv1-0:1": {title: "Adwent", id: "2-adwent"},
-        "sancti:12-24:1": {title: "Boże Narodzenie", id: "3-boze-narodzenie"},
-        "tempora:Epi1-0:2": {title: "Okres po Objawieniu", id: "4-okres-po-objawieniu"},
-        "tempora:Quadp1-0:2": {title: "Przedpoście", id: "5-przedposcie"},
-        "tempora:Quadp3-3:1": {title: "Wielki Post", id: "6-wielki-post"},
-        "tempora:Quad5-0:1": {title: "Okres Męki Pańskiej", id: "7-okres-meki-panskiej"},
-        "tempora:Quad6-0r:1": {title: "Wielki Tydzień", id: "8-wielki-tydzien"},
-        "tempora:Quad6-6r:1": {title: "Okres-Wielkanocny", id: "9-okres-wielkanocny"},
-        "tempora:Pasc6-6:1": {title: "Zesłanie Ducha św.", id: "10-zeslanie-ducha-sw"},
-        "tempora:Pent01-0r:1": {title: "Okres po Zesłaniu Ducha św.", id: "10-okres-po-zeslaniu-ducha-sw"}
-    };
 
     function init() {
         moment.locale("pl");
@@ -158,18 +147,19 @@ $(window).on("load", function () {
             window.scrollTo(0, 0);
 
             $.each(data, function(index, item) {
-                let date = item["info"].date;
-                let id = item["info"].id;
-                let title = item["info"].title;
-                let description = item["info"].description;
+                let info = item["info"];
+                let date = info.date;
+                let title = info.title;
+                let description = info.description;
+                let supplements = info.supplements;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
-                let additional_info = [date, mapRank(item["info"].rank)];
-                if (item["info"].tempora != null) {
-                    additional_info.push(item["info"].tempora);
+                let additional_info = [date, mapRank(info.rank)];
+                if (info.tempora != null) {
+                    additional_info.push(info.tempora);
                 }
-                if (item["info"].additional_info != null) {
-                    $.merge(additional_info, item["info"].additional_info);
+                if (info.additional_info != null) {
+                    $.merge(additional_info, info.additional_info);
                 }
 
                 if (title == null) {
@@ -182,13 +172,25 @@ $(window).on("load", function () {
                     description: description.split("\n").join("<br />")
                 })).appendTo($loadedContent);
 
-                let supplement = supplementsMap[id];
-                if (supplement !== undefined) {
-                    $(renderTemplate($templateContentSupplement, {
-                        supplement_id: supplement.id,
-                        supplement_title: supplement.title,
-                        date: date
-                    })).appendTo($loadedContent);
+                if (supplements.length > 0) {
+                    let supplementsList = $(renderTemplate($templateContentSupplementList, {}));
+                    $.each(supplements, function(index, supplement) {
+                        let template;
+                        if (supplement.path, supplement.path.valueOf().startsWith("http")) {
+                            template = $templateContentSupplementItemExternal;
+                        } else {
+                            template = $templateContentSupplementItemInternal;
+                        }
+                        $(renderTemplate(template, {
+                            path: supplement.path,
+                            label: supplement.label,
+                            date: date
+                        })).appendTo(supplementsList);
+                        if (index + 1 < supplements.length) {
+                            supplementsList.append(",&nbsp;&nbsp;");
+                        }
+                    });
+                    supplementsList.appendTo($loadedContent);
                 }
 
                 $.each([sectionsVernacular, sectionsLatin], function(i, sections) {

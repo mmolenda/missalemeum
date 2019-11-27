@@ -79,6 +79,7 @@ class Proper(ParsedSource):
     description: str = None
     rank: int = None
     additional_info: List[str] = []
+    supplements = []
     commemorations_names_translations = {
         COMMEMORATION: None,
         COMMEMORATED_ORATIO: None,

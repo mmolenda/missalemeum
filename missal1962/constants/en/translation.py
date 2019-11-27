@@ -508,7 +508,7 @@ TITLES = {
     constants.SANCTI_07_18: 'Camillus de Lellis',
     constants.SANCTI_07_19: 'St. Vincent de Paul',
     constants.SANCTI_07_20: 'St. Jerome Emiliani',
-    constants.SANCTI_07_21: '	St. Laurence of Brindisi',
+    constants.SANCTI_07_21: 'St. Laurence of Brindisi',
     constants.SANCTI_07_22: 'St. Mary Magdalene',
     constants.SANCTI_07_23: 'St. Apollinaris',
     constants.SANCTI_07_24: 'St. Christina',
@@ -774,3 +774,5 @@ COMMEMORATIONS = {
     constants.COMMEMORATED_SECRETA: "Commemoration Secret",
     constants.COMMEMORATED_POSTCOMMUNIO: "Commemoration Postcommunion",
 }
+
+SUPPLEMENTS = {}
