@@ -54,7 +54,7 @@ $(window).on("load", function () {
             $("#sidebar li.sidebar-ordo-item").removeClass("active");
             let sidebarItem = $("#sidebar-" + displayedSectionId);
             sidebarItem.addClass("active");
-            location.hash = sidebarItem.find('a').attr('href');
+            window.history.replaceState({}, '', '' + sidebarItem.find('a').attr('href'));
             let sidebarItemPosition = sidebarItem.position().top;
             let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
             if ((sidebarItemPosition > $sidebar.height() * 0.6) || sidebarItemPosition < 0) {
