@@ -9,3 +9,7 @@ class InvalidInput(MissalException):
 
 class ProperNotFound(MissalException):
     pass
+
+
+class SupplementNotFound(MissalException):
+    pass

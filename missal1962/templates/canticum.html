@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}
+Części stałe |
+{% endblock %}
+
+{% block left_menu_button  %}
+<button id="sidebar-collapse" class="navbar-toggler" type="button">
+    <span>≡</span>
+</button>
+{% endblock %}
+
+{% block content %}
+<div class="wrapper">
+    <nav id="sidebar">
+        <div id="sidebar-tools">
+            <input id="search-input" type="search" placeholder="Szukaj..." class="form-control"/>
+            <span id="search-clear">╳</span>
+        </div>
+        <ul class="list-unstyled with-sidebar-tools">
+            {% for item in index %}
+            <li id="sidebar-calendar-item-{{ item['ref'] }}" class="sidebar-calendar-item"><a href="#{{ item['ref'] }}">
+                <div>{{ item['title'] }}</div>
+                <div class="tempora rubric">
+                    {% for tag in item['tags'] %}
+                        {{ tag }}{% if item['tags']|length > 1 and loop.index0 + 1 < item['tags']|length %}, {% endif %}
+                    {% endfor %}
+                </div>
+            </a></li>
+            {% endfor %}
+
+        </ul>
+    </nav>
+    <div id="content" role="main" class="container-fluid">
+        <div class="col-md-9" id="content-tools">
+            <a id="print"><i class="fa fa-print"></i></a>
+        </div>
+        <main class="col-md-9">
+            <div id="loaded-content">
+                <h1>Pieśni</h1>
+            </div>
+            {% include 'footer.html' %}
+        </main>
+    </div>
+</div>
+
+<!--Templates -->
+<script id="template-content-print" type="text/x-custom-template">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em>http://mszalrzymski.pl</em></p></body>
+    </html>
+</script>
+<script id="template-content-intro" type="text/x-custom-template">
+    <h1 class="display-8">${title}</h1>
+    <p><em class="rubric">${additional_info}</em></p>
+    <p>${description}</p>
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/common.js"></script>
+<script src="/static/js/{{ lang }}/conf.js"></script>
+<script src="/static/js/canticum.js"></script>
+{% endblock %}

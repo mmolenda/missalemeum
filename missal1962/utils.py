@@ -1,7 +1,11 @@
+import os
 import re
 from typing import List, Union
 
+import yaml
+
 from constants.common import CUSTOM_PREFACES
+from exceptions import SupplementNotFound
 
 
 def match(observances: List['Observance'], patterns: Union[List[str], str]):
@@ -48,3 +52,15 @@ def format_propers(day: 'Day'):
             "proper_latin": propers_latin.serialize()
         })
     return retvals
+
+
+def get_supplement(root_path, lang, resource, subdir=None):
+    try:
+        path_args = [root_path, "supplement", lang]
+        if subdir:
+            path_args.append(subdir)
+        path_args.append(f"{resource}.yaml")
+        with open(os.path.join(*path_args)) as fh:
+            return yaml.load(fh)
+    except IOError:
+        raise SupplementNotFound

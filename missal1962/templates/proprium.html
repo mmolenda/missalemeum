@@ -50,11 +50,11 @@
                         <div class="row">
                             <div class="col-sm-6 section-vernacular">
                                 <h2>{{ vern.label }}</h2>
-                                <p>{{ vern.body|parse_section|safe }}</p>
+                                <p>{{ vern.body|asterisks2em|newline2br|safe }}</p>
                             </div>
                             <div class="col-sm-6 section-latin">
                                 <h2>{{ propers[0].proper_latin[loop.index0].label }}</h2>
-                                <p>{{ propers[0].proper_latin[loop.index0].body|parse_section|safe }}</p>
+                                <p>{{ propers[0].proper_latin[loop.index0].body|asterisks2em|newline2br|safe }}</p>
                             </div>
                         </div>
                     {% endfor %}

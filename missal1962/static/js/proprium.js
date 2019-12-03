@@ -12,13 +12,6 @@ $(window).on("load", function () {
      *
     **/
 
-    // Making :contains case insensitive
-    $.expr[":"].contains = $.expr.createPseudo(function(arg) {
-        return function( elem ) {
-            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-        };
-    });
-
     const $templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
     const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();

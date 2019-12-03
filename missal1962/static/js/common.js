@@ -9,6 +9,13 @@ const $loader = $("div#loader");
 const langSwithVernacular = "lang-switch-vernacular";
 let loaderCounter = 0;
 
+// Making :contains case insensitive
+$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+    return function( elem ) {
+        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };
+});
+
 /**
  * Render template, substitute placeholders with elements from `data` object.
  * Example:

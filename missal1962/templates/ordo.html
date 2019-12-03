@@ -38,12 +38,12 @@ Części stałe |
                             <div class="row">
                                 <div class="col-sm-6 section-vernacular">
                                     <p>
-                                        {{ body_item[0]|parse_section|safe }}
+                                        {{ body_item[0]|asterisks2em|newline2br|safe }}
                                     </p>
                                 </div>
                                 <div class="col-sm-6 section-latin">
                                     <p>
-                                        {{ body_item[1]|parse_section|safe }}
+                                        {{ body_item[1]|asterisks2em|newline2br|safe }}
                                     </p>
                                 </div>
                             </div>
