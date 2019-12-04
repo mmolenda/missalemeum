@@ -45,20 +45,12 @@ Części stałe |
 </div>
 
 <!--Templates -->
-<script id="template-content-print" type="text/x-custom-template">
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    </head>
-    <body onload="window.print()" style='margin: 4%; min-width: 300px;'>${main}<p><em>http://mszalrzymski.pl</em></p></body>
-    </html>
-</script>
-<script id="template-content-intro" type="text/x-custom-template">
+<script id="template-content" type="text/x-custom-template">
     <h1 class="display-8">${title}</h1>
     <p><em class="rubric">${additional_info}</em></p>
     <p>${description}</p>
 </script>
+{% include 'print.html' %}
 {% endblock %}
 
 {% block scripts %}

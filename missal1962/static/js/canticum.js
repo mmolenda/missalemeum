@@ -9,13 +9,13 @@ $(window).on("load", function () {
      *
     **/
 
-    const $templateContentIntro = $("#template-content-intro").text();
+    const $templateContent = $("#template-content").text();
     const $templateContentPrint = $("#template-content-print").text();
     const $sidebarAndContent = $("#sidebar, #content");
     const $searchInput = $("input#search-input");
 
-    let loadedProperDate;
-    let selectedDate;
+    let loadedResource;
+    let selectedResource;
 
     /**
      *
@@ -23,47 +23,46 @@ $(window).on("load", function () {
      *
      **/
 
-    function setDate(date) {
-        selectedDate = date;
+    function setResourceId(resourceId) {
+        selectedResource = resourceId;
     }
 
-    function getDate() {
-        if (selectedDate === undefined) {
+    function getResourceId() {
+        if (selectedResource === undefined) {
             let url = window.location.href.replace(/#.*/, "");
-            selectedDate = url.split('/').reverse()[0];
+            selectedResource = url.split('/').reverse()[0];
         }
-        return selectedDate;
+        return selectedResource;
     }
 
     /**
-      * Obtain a proper for the given `date` through AJAX call and populate
-      * the main element with Bootstrap grid.
-      * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
+      * Obtain content for the given `resourceId` through AJAX call and populate the main element with Bootstrap grid.
+      * Once populated, mark corresponding element in the sidebar as active.
      **/
-    function loadProper(date, historyReplace = false) {
-        if (loadedProperDate === getDate()) {
+    function loadContent(resourceId, historyReplace = false) {
+        if (loadedResource === getResourceId()) {
             return;
         }
         showLoader();
         let title;
-        $.getJSON(config.canticumEndpoint + date, function(data) {
+        $.getJSON(config.canticumEndpoint + resourceId, function(data) {
             $loadedContent.empty();
             window.scrollTo(0, 0);
             title = data.title;
             let description = data.body;
-            $(renderTemplate($templateContentIntro, {
+            $(renderTemplate($templateContent, {
                 title: title,
                 description: description.split("\n").join("<br />")
             })).appendTo($loadedContent);
         }).done(function() {
-            loadedProperDate = date;
+            loadedResource = resourceId;
             if (historyReplace === true) {
-                window.history.replaceState({date: date}, '', '/canticum/' + date);
+                window.history.replaceState({resourceId: resourceId}, '', '/canticum/' + resourceId);
             } else {
-                window.history.pushState({date: date}, '', '/canticum/' + date);
+                window.history.pushState({resourceId: resourceId}, '', '/canticum/' + resourceId);
             }
             document.title = title + " | " + "Mszał Rzymski";
-            markSidebarItemActive(date);
+            markSidebarItemActive(resourceId);
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
             }
@@ -82,13 +81,13 @@ $(window).on("load", function () {
 
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
-        setDate(event.currentTarget.href.split("/").pop());
-        loadProper(getDate());
+        setResourceId(event.currentTarget.href.split("/").pop());
+        loadContent(getResourceId());
     });
 
     window.onpopstate = function(event){
-        setDate(event.target.location.href.split("/").reverse()[0]);
-        loadProper(getDate(), true);
+        setResourceId(event.target.location.href.split("/").reverse()[0]);
+        loadContent(getResourceId(), true);
     };
 
     /**
@@ -97,7 +96,7 @@ $(window).on("load", function () {
      * show all elements on empty input
      **/
     $searchInput.on("input", function () {
-        filterSidebarItems($(this).val(), function() {markSidebarItemActive(getDate())});
+        filterSidebarItems($(this).val(), function() {markSidebarItemActive(getResourceId())});
     });
 
     /**

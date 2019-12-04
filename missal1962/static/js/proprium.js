@@ -27,12 +27,12 @@ $(window).on("load", function () {
     const $searchInput = $("input#search-input");
     const $sidebarUl = $sidebar.find("ul");
 
-    let loadedProperDate;
-    let selectedDate;
+    let loadedResource;
+    let selectedResource;
 
     function init() {
         moment.locale("pl");
-        loadProper(getDate());
+        loadContent(getResourceId());
     }
 
     init();
@@ -43,20 +43,20 @@ $(window).on("load", function () {
      *
      **/
 
-    function getDate() {
-        if (selectedDate === undefined) {
+    function getResourceId() {
+        if (selectedResource === undefined) {
             let url = window.location.href.replace(/#.*/, "");
-            selectedDate = url.split('/').reverse()[0];
+            selectedResource = url.split('/').reverse()[0];
         }
-        let tmpDate = moment(selectedDate, "YYYY-MM-DD");
+        let tmpDate = moment(selectedResource, "YYYY-MM-DD");
         if (! tmpDate.isValid()) {
             tmpDate = moment();
         }
         return tmpDate.format("YYYY-MM-DD");
     }
 
-    function setDate(date) {
-        selectedDate = date;
+    function setResourceId(resourceId) {
+        selectedResource = resourceId;
     }
 
     /**
@@ -126,8 +126,8 @@ $(window).on("load", function () {
       * the main element with Bootstrap grid.
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
-    function loadProper(date, historyReplace = false) {
-        if (loadedProperDate === getDate()) {
+    function loadContent(date, historyReplace = false) {
+        if (loadedResource === getResourceId()) {
             return;
         }
         showLoader();
@@ -204,7 +204,7 @@ $(window).on("load", function () {
                 }
             });
         }).done(function() {
-            loadedProperDate = date;
+            loadedResource = date;
             if (historyReplace === true) {
                 window.history.replaceState({date: date}, '', '/' + date);
             } else {
@@ -268,8 +268,8 @@ $(window).on("load", function () {
      * When the date is selected from datepicker update current date and clear the search input
      **/
     $datetimepicker4.find("input").on("input", function () {
-        setDate(this.value);
-        loadProper(getDate());
+        setResourceId(this.value);
+        loadContent(getResourceId());
         if ($searchInput.val() !== "") {
             $searchInput.val("").trigger("input");
         }
@@ -277,13 +277,13 @@ $(window).on("load", function () {
 
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
-        setDate(event.currentTarget.href.split("/").pop());
-        loadProper(getDate());
+        setResourceId(event.currentTarget.href.split("/").pop());
+        loadContent(getResourceId());
     });
 
     window.onpopstate = function(event){
-        setDate(event.target.location.href.split('/').reverse()[0]);
-        loadProper(getDate(), true);
+        setResourceId(event.target.location.href.split('/').reverse()[0]);
+        loadContent(getResourceId(), true);
     };
 
     /**
@@ -292,7 +292,7 @@ $(window).on("load", function () {
      * show all elements on empty input
      **/
     $searchInput.on("input", function () {
-        filterSidebarItems($(this).val(), function() {markSidebarItemActiveWithReload(getDate())});
+        filterSidebarItems($(this).val(), function() {markSidebarItemActiveWithReload(getResourceId())});
     });
 
     /**
