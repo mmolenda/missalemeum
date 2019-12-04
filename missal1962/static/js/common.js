@@ -5,11 +5,9 @@ const $main = $("main");
 const $loadedContent = $("main div#loaded-content");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
-const $loader = $("div#loader");
 const langSwithVernacular = "lang-switch-vernacular";
 const $sidebar = $("nav#sidebar");
 const $sidebarTools = $("div#sidebar-tools");
-let loaderCounter = 0;
 let cannotLoadMessage = "Nie udało się pobrać danych.";
 
 // Making :contains case insensitive
@@ -74,19 +72,25 @@ function navbarIsCollapsed() {
     return $buttonSidebarCollapse.is(":visible");
 }
 
-function showLoader() {
-    if (loaderCounter === 0) {
-        $loader.fadeIn("slow");
+class Loader {
+    static loaderCounter = 0;
+    static $loader = $("div#loader");
+
+    static show() {
+        if (this.loaderCounter === 0) {
+            this.$loader.fadeIn(300);
+        }
+        this.loaderCounter += 1;
     }
-    loaderCounter += 1;
+
+    static hide() {
+        this.loaderCounter -= 1;
+        if (this.loaderCounter === 0) {
+            this.$loader.hide(0);
+        }
+    }
 }
 
-function hideLoader() {
-    loaderCounter -= 1;
-    if (loaderCounter === 0) {
-        $loader.hide();
-    }
-}
 
 function printContent(template, content) {
     let newWindow = window.open('','', "width=650, height=750");

@@ -26,7 +26,6 @@ $(window).on("load", function () {
 
     function init() {
         let resourceId = getResourceId();
-        console.log(resourceId);
         if (resourceId !== undefined) {
             loadContent(resourceId);
         }
@@ -56,7 +55,7 @@ $(window).on("load", function () {
         if (loadedResource === getResourceId()) {
             return;
         }
-        showLoader();
+        Loader.show();
         let title;
         $.getJSON(config.canticumEndpoint + resourceId, function(data) {
             $loadedContent.empty();
@@ -82,7 +81,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            hideLoader();
+            Loader.hide();
         });
     }
 
