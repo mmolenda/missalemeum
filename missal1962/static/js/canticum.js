@@ -14,6 +14,7 @@ $(window).on("load", function () {
     const $sidebarAndContent = $("#sidebar, #content");
     const $searchInput = $("input#search-input");
 
+    let urlPart = "canticum";
     let loadedResource;
     let selectedResource;
 
@@ -23,14 +24,26 @@ $(window).on("load", function () {
      *
      **/
 
+    function init() {
+        let resourceId = getResourceId();
+        console.log(resourceId);
+        if (resourceId !== undefined) {
+            loadContent(resourceId);
+        }
+    }
+
+    init();
+
     function setResourceId(resourceId) {
         selectedResource = resourceId;
     }
 
     function getResourceId() {
         if (selectedResource === undefined) {
-            let url = window.location.href.replace(/#.*/, "");
-            selectedResource = url.split('/').reverse()[0];
+            let splitUrl = window.location.href.split("/").reverse();
+            if (splitUrl[0] !== urlPart) {
+                selectedResource = splitUrl[0];
+            }
         }
         return selectedResource;
     }
@@ -57,9 +70,9 @@ $(window).on("load", function () {
         }).done(function() {
             loadedResource = resourceId;
             if (historyReplace === true) {
-                window.history.replaceState({resourceId: resourceId}, '', '/canticum/' + resourceId);
+                window.history.replaceState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
             } else {
-                window.history.pushState({resourceId: resourceId}, '', '/canticum/' + resourceId);
+                window.history.pushState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
             }
             document.title = title + " | " + "Mszał Rzymski";
             markSidebarItemActive(resourceId);
