@@ -22,12 +22,10 @@ $(window).on("load", function () {
     const $templateContentPrint = $("#template-content-print").text();
 
     const $window = $(window);
-    const $sidebar = $("nav#sidebar");
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
     const $sidebarUl = $sidebar.find("ul");
-    const $sidebarTools = $("div#sidebar-tools");
 
     let loadedProperDate;
     let selectedDate;
@@ -213,7 +211,7 @@ $(window).on("load", function () {
                 window.history.pushState({date: date}, '', '/' + date);
             }
             document.title = titles[0] + " | " + date + " | " + "Mszał Rzymski";
-            toggleSidebarItem(date);
+            markSidebarItemActiveWithReload(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
@@ -230,25 +228,12 @@ $(window).on("load", function () {
       * Mark sidebar element for given `date` as active. If an element is not present, reload the sidebar
       * with the data for proper year.
      **/
-    function toggleSidebarItem(date) {
-        function markItemActive(date) {
-            $sidebar.find("li.sidebar-item").removeClass("active");
-            let newActive = $("li#sidebar-item-" + date);
-            newActive.addClass("active");
-
-            let itemPosition = newActive.position().top;
-            let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
-
-            if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
-                $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
-            }
-        }
-
+    function markSidebarItemActiveWithReload(date) {
         let newActive = $("li#sidebar-item-" + date);
-        if (newActive.length == 0) {
-            loadSidebar(date, markItemActive);
+        if (newActive.length === 0) {
+            loadSidebar(date, markSidebarItemActive);
         } else {
-            markItemActive(date);
+            markSidebarItemActive(date);
         }
     }
 
@@ -307,16 +292,7 @@ $(window).on("load", function () {
      * show all elements on empty input
      **/
     $searchInput.on("input", function () {
-        let searchString = $(this).val();
-        if (searchString === "") {
-            let itemsAll = $sidebar.find("li.sidebar-item");
-            itemsAll.show();
-            toggleSidebarItem(getDate());
-        } else if (searchString.length > 2) {
-            let itemsAll = $sidebar.find("li.sidebar-item");
-            itemsAll.hide();
-            $('li.sidebar-item div:contains("' + searchString + '")').parent().parent().show("fast");
-        }
+        filterSidebarItems($(this).val(), function() {markSidebarItemActiveWithReload(getDate())});
     });
 
     /**
