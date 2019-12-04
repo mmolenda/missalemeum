@@ -8,6 +8,7 @@ const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const $loader = $("div#loader");
 const langSwithVernacular = "lang-switch-vernacular";
 let loaderCounter = 0;
+let cannotLoadMessage = "Nie udało się pobrać danych.";
 
 // Making :contains case insensitive
 $.expr[":"].contains = $.expr.createPseudo(function(arg) {
@@ -83,6 +84,15 @@ function hideLoader() {
     if (loaderCounter === 0) {
         $loader.hide();
     }
+}
+
+function printContent(template, content) {
+    let newWindow = window.open('','', "width=650, height=750");
+    let newContent = renderTemplate(template, {main: content});
+    newWindow.document.write(newContent);
+    newWindow.document.close();
+    newWindow.focus();
+    return true;
 }
 
 $window.on("load", function () {

@@ -12,8 +12,8 @@ $(window).on("load", function () {
      *
     **/
 
-    const $templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
-    const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
+    const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
+    const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();
     const $templateContentSupplementList = $("#template-content-supplement-list").text();
     const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
@@ -31,7 +31,6 @@ $(window).on("load", function () {
 
     let loadedProperDate;
     let selectedDate;
-    let cannotLoadMessage = "Nie udało się pobrać danych.";
 
     function init() {
         moment.locale("pl");
@@ -233,8 +232,8 @@ $(window).on("load", function () {
      **/
     function toggleSidebarItem(date) {
         function markItemActive(date) {
-            $sidebar.find("li.sidebar-calendar-item").removeClass("active");
-            let newActive = $("li#sidebar-calendar-item-" + date);
+            $sidebar.find("li.sidebar-item").removeClass("active");
+            let newActive = $("li#sidebar-item-" + date);
             newActive.addClass("active");
 
             let itemPosition = newActive.position().top;
@@ -245,7 +244,7 @@ $(window).on("load", function () {
             }
         }
 
-        let newActive = $("li#sidebar-calendar-item-" + date);
+        let newActive = $("li#sidebar-item-" + date);
         if (newActive.length == 0) {
             loadSidebar(date, markItemActive);
         } else {
@@ -293,7 +292,7 @@ $(window).on("load", function () {
 
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
-        setDate(event.currentTarget.href.split("#").pop());
+        setDate(event.currentTarget.href.split("/").pop());
         loadProper(getDate());
     });
 
@@ -310,13 +309,13 @@ $(window).on("load", function () {
     $searchInput.on("input", function () {
         let searchString = $(this).val();
         if (searchString === "") {
-            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
+            let itemsAll = $sidebar.find("li.sidebar-item");
             itemsAll.show();
             toggleSidebarItem(getDate());
         } else if (searchString.length > 2) {
-            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
+            let itemsAll = $sidebar.find("li.sidebar-item");
             itemsAll.hide();
-            $('li.sidebar-calendar-item div:contains("' + searchString + '")').parent().parent().show("fast");
+            $('li.sidebar-item div:contains("' + searchString + '")').parent().parent().show("fast");
         }
     });
 
@@ -336,11 +335,6 @@ $(window).on("load", function () {
     });
 
     $("#print").on("click", function () {
-        let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate($templateContentPrint, {main: $loadedContent.html()});
-        newWindow.document.write(newContent);
-        newWindow.document.close();
-        newWindow.focus();
-        return true;
+        printContent($templateContentPrint, $loadedContent.html());
     });
 });

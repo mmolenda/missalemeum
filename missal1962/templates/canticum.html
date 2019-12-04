@@ -19,7 +19,7 @@ Części stałe |
         </div>
         <ul class="list-unstyled with-sidebar-tools">
             {% for item in index %}
-            <li id="sidebar-calendar-item-{{ item['ref'] }}" class="sidebar-calendar-item"><a href="#{{ item['ref'] }}">
+            <li id="sidebar-item-{{ item['ref'] }}" class="sidebar-item"><a href="{{ item['ref'] }}">
                 <div>{{ item['title'] }}</div>
                 <div class="tempora rubric">
                     {% for tag in item['tags'] %}
