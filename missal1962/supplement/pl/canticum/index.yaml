@@ -35,6 +35,10 @@ items:
     title: Niebiosa rosę
     tags:
       - adwent
+  - ref: po-upadku-czlowieka
+    title: Po updaku człowieka
+    tags:
+      - adwent
   - ref: rorate-caeli
     title: Rorate caeli
     tags:
@@ -46,6 +50,10 @@ items:
     - adwent
   - ref: spusccie-nam-na-ziemskie-niwy
     title: Spuśćcie nam na ziemskie niwy
+    tags:
+    - adwent
+  - ref: w-tym-swietym-czasie
+    title: W tym świętym czasie
     tags:
     - adwent
   - ref: zdrowas-badz-maryja
