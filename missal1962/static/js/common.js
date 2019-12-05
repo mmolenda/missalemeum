@@ -73,24 +73,27 @@ function navbarIsCollapsed() {
 }
 
 class Loader {
-    static loaderCounter = 0;
-    static $loader = $("div#loader");
+    constructor() {
+        this.loaderCounter = 0;
+        this.loaderDiv = $("div#loader");
+    }
 
-    static show() {
+    show() {
         if (this.loaderCounter === 0) {
-            this.$loader.fadeIn(300);
+            this.loaderDiv.fadeIn(300);
         }
         this.loaderCounter += 1;
     }
 
-    static hide() {
+    hide() {
         this.loaderCounter -= 1;
         if (this.loaderCounter === 0) {
-            this.$loader.hide(0);
+            this.loaderDiv.hide(0);
         }
     }
 }
 
+loader = new Loader();
 
 function printContent(template, content) {
     let newWindow = window.open('','', "width=650, height=750");

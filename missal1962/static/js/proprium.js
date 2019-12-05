@@ -65,7 +65,7 @@ $(window).on("load", function () {
       * Once populated, fire the callback function to activate selected item and clear the search input.
      **/
     function loadSidebar(date, markItemActiveCallback) {
-        Loader.show();
+        loader.show();
         let year = date.split("-")[0];
         let prevYear = parseInt(year) - 1;
         let prevYearLastDay = prevYear + "-12-31";
@@ -117,7 +117,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            Loader.hide();
+            loader.hide();
         });
     }
 
@@ -130,7 +130,7 @@ $(window).on("load", function () {
         if (loadedResource === getResourceId()) {
             return;
         }
-        Loader.show();
+        loader.show();
         let titles = [];
         $.getJSON(config.dateEndpoint + date, function(data) {
             $loadedContent.empty();
@@ -220,7 +220,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            Loader.hide();
+            loader.hide();
         });
     }
 

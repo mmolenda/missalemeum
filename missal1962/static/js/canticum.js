@@ -57,7 +57,7 @@ $(window).on("load", function () {
         if (loadedResource === resourceId) {
             return;
         }
-        Loader.show();
+        loader.show();
         let title;
         $.getJSON(config.canticumEndpoint + resourceId, function(data) {
             $loadedContent.empty();
@@ -83,7 +83,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            Loader.hide();
+            loader.hide();
         });
     }
 
