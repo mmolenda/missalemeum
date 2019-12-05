@@ -63,4 +63,4 @@ def get_supplement(root_path, lang, resource, subdir=None):
         with open(os.path.join(*path_args)) as fh:
             return yaml.load(fh)
     except IOError:
-        raise SupplementNotFound
+        raise SupplementNotFound(f"{subdir}/{resource}")

@@ -1,4 +1,7 @@
 import json
+from collections import defaultdict
+from os.path import basename
+
 import mistune
 import os
 
@@ -65,13 +68,36 @@ def ordo(lang: str = LANGUAGE_VERNACULAR):
     return render_template("ordo.html", data=data, lang=lang)
 
 
+class CanticumIndex:
+    index = defaultdict(list)
+
+    def get(self, lang):
+        if lang not in self.index:
+            try:
+                filenames = os.listdir(os.path.join(views.root_path, "supplement", lang, "canticum"))
+            except FileNotFoundError:
+                raise SupplementNotFound
+            else:
+                for filename in sorted(filenames):
+                    resource_id = filename.rsplit('.', 1)[0]
+                    index_item = get_supplement(views.root_path, lang, resource_id, "canticum")
+                    self.index[lang].append(
+                        {"title": index_item["title"],
+                         "ref": resource_id,
+                         "tags": index_item["tags"]
+                         })
+        return self.index[lang]
+
+
+canticum_index = CanticumIndex()
+
+
 @views.route("/canticum")
 @views.route("/canticum/<string:canticum_id>")
 # @views.route("/<string:lang>/canticum")
 # @views.route("/<string:lang>/canticum/<string:canticum_id>")
 def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
-    index = get_supplement(views.root_path, lang, "index", "canticum")
-    return render_template("canticum.html", index=index['items'], lang=lang)
+    return render_template("canticum.html", index=canticum_index.get(lang), lang=lang)
 
 
 @views.route("/supplement")
