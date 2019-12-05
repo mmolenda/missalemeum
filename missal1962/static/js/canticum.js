@@ -26,9 +26,11 @@ $(window).on("load", function () {
 
     function init() {
         let resourceId = getResourceId();
-        if (resourceId !== undefined) {
-            loadContent(resourceId);
+        if (resourceId === undefined) {
+            resourceId = "archaniol-bozy-gabryjel";
+            setResourceId()
         }
+        loadContent(resourceId);
     }
 
     init();
@@ -52,7 +54,7 @@ $(window).on("load", function () {
       * Once populated, mark corresponding element in the sidebar as active.
      **/
     function loadContent(resourceId, historyReplace = false) {
-        if (loadedResource === getResourceId()) {
+        if (loadedResource === resourceId) {
             return;
         }
         Loader.show();
