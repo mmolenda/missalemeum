@@ -12,15 +12,8 @@ $(window).on("load", function () {
      *
     **/
 
-    // Making :contains case insensitive
-    $.expr[":"].contains = $.expr.createPseudo(function(arg) {
-        return function( elem ) {
-            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-        };
-    });
-
-    const $templateSidebarCalendarItem = $("#template-sidebar-calendar-item").text();
-    const $templateSidebarCalendarItemYear = $("#template-sidebar-calendar-item-year").text();
+    const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
+    const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();
     const $templateContentSupplementList = $("#template-content-supplement-list").text();
     const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
@@ -29,20 +22,17 @@ $(window).on("load", function () {
     const $templateContentPrint = $("#template-content-print").text();
 
     const $window = $(window);
-    const $sidebar = $("nav#sidebar");
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
     const $searchInput = $("input#search-input");
     const $sidebarUl = $sidebar.find("ul");
-    const $sidebarTools = $("div#sidebar-tools");
 
-    let loadedProperDate;
-    let selectedDate;
-    let cannotLoadMessage = "Nie udało się pobrać danych.";
+    let loadedResource;
+    let selectedResource;
 
     function init() {
         moment.locale("pl");
-        loadProper(getDate());
+        loadContent(getResourceId());
     }
 
     init();
@@ -53,20 +43,20 @@ $(window).on("load", function () {
      *
      **/
 
-    function getDate() {
-        if (selectedDate === undefined) {
+    function getResourceId() {
+        if (selectedResource === undefined) {
             let url = window.location.href.replace(/#.*/, "");
-            selectedDate = url.split('/').reverse()[0];
+            selectedResource = url.split('/').reverse()[0];
         }
-        let tmpDate = moment(selectedDate, "YYYY-MM-DD");
+        let tmpDate = moment(selectedResource, "YYYY-MM-DD");
         if (! tmpDate.isValid()) {
             tmpDate = moment();
         }
         return tmpDate.format("YYYY-MM-DD");
     }
 
-    function setDate(date) {
-        selectedDate = date;
+    function setResourceId(resourceId) {
+        selectedResource = resourceId;
     }
 
     /**
@@ -75,7 +65,7 @@ $(window).on("load", function () {
       * Once populated, fire the callback function to activate selected item and clear the search input.
      **/
     function loadSidebar(date, markItemActiveCallback) {
-        showLoader();
+        Loader.show();
         let year = date.split("-")[0];
         let prevYear = parseInt(year) - 1;
         let prevYearLastDay = prevYear + "-12-31";
@@ -127,7 +117,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            hideLoader();
+            Loader.hide();
         });
     }
 
@@ -136,11 +126,11 @@ $(window).on("load", function () {
       * the main element with Bootstrap grid.
       * Once populated, mark corresponding element in the sidebar as active and select given date in the datepicker.
      **/
-    function loadProper(date, historyReplace = false) {
-        if (loadedProperDate === getDate()) {
+    function loadContent(date, historyReplace = false) {
+        if (loadedResource === getResourceId()) {
             return;
         }
-        showLoader();
+        Loader.show();
         let titles = [];
         $.getJSON(config.dateEndpoint + date, function(data) {
             $loadedContent.empty();
@@ -214,14 +204,14 @@ $(window).on("load", function () {
                 }
             });
         }).done(function() {
-            loadedProperDate = date;
+            loadedResource = date;
             if (historyReplace === true) {
                 window.history.replaceState({date: date}, '', '/' + date);
             } else {
                 window.history.pushState({date: date}, '', '/' + date);
             }
             document.title = titles[0] + " | " + date + " | " + "Mszał Rzymski";
-            toggleSidebarItem(date);
+            markSidebarItemActiveWithReload(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
@@ -230,7 +220,7 @@ $(window).on("load", function () {
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
-            hideLoader();
+            Loader.hide();
         });
     }
 
@@ -238,25 +228,12 @@ $(window).on("load", function () {
       * Mark sidebar element for given `date` as active. If an element is not present, reload the sidebar
       * with the data for proper year.
      **/
-    function toggleSidebarItem(date) {
-        function markItemActive(date) {
-            $sidebar.find("li.sidebar-calendar-item").removeClass("active");
-            let newActive = $("li#sidebar-calendar-item-" + date);
-            newActive.addClass("active");
-
-            let itemPosition = newActive.position().top;
-            let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
-
-            if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
-                $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
-            }
-        }
-
-        let newActive = $("li#sidebar-calendar-item-" + date);
-        if (newActive.length == 0) {
-            loadSidebar(date, markItemActive);
+    function markSidebarItemActiveWithReload(date) {
+        let newActive = $("li#sidebar-item-" + date);
+        if (newActive.length === 0) {
+            loadSidebar(date, markSidebarItemActive);
         } else {
-            markItemActive(date);
+            markSidebarItemActive(date);
         }
     }
 
@@ -291,8 +268,8 @@ $(window).on("load", function () {
      * When the date is selected from datepicker update current date and clear the search input
      **/
     $datetimepicker4.find("input").on("input", function () {
-        setDate(this.value);
-        loadProper(getDate());
+        setResourceId(this.value);
+        loadContent(getResourceId());
         if ($searchInput.val() !== "") {
             $searchInput.val("").trigger("input");
         }
@@ -300,13 +277,13 @@ $(window).on("load", function () {
 
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
-        setDate(event.currentTarget.href.split("#").pop());
-        loadProper(getDate());
+        setResourceId(event.currentTarget.href.split("/").pop());
+        loadContent(getResourceId());
     });
 
     window.onpopstate = function(event){
-        setDate(event.target.location.href.split('/').reverse()[0]);
-        loadProper(getDate(), true);
+        setResourceId(event.target.location.href.split('/').reverse()[0]);
+        loadContent(getResourceId(), true);
     };
 
     /**
@@ -315,16 +292,7 @@ $(window).on("load", function () {
      * show all elements on empty input
      **/
     $searchInput.on("input", function () {
-        let searchString = $(this).val();
-        if (searchString === "") {
-            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
-            itemsAll.show();
-            toggleSidebarItem(getDate());
-        } else if (searchString.length > 2) {
-            let itemsAll = $sidebar.find("li.sidebar-calendar-item");
-            itemsAll.hide();
-            $('li.sidebar-calendar-item div:contains("' + searchString + '")').parent().parent().show("fast");
-        }
+        filterSidebarItems($(this).val(), function() {markSidebarItemActiveWithReload(getResourceId())});
     });
 
     /**
@@ -343,11 +311,6 @@ $(window).on("load", function () {
     });
 
     $("#print").on("click", function () {
-        let newWindow = window.open('','', "width=650, height=750");
-        let newContent = renderTemplate($templateContentPrint, {main: $loadedContent.html()});
-        newWindow.document.write(newContent);
-        newWindow.document.close();
-        newWindow.focus();
-        return true;
+        printContent($templateContentPrint, $loadedContent.html());
     });
 });

@@ -1,3 +1,0 @@
-# Advent
-
-This is a description of Advent season.

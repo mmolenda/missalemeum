@@ -1,15 +1,19 @@
+import os
+
 import datetime
 import flask
 import sys
 
 import logging
+
+import yaml
 from flask import jsonify, Blueprint
 
 import controller
 from constants.common import LANGUAGE_VERNACULAR
-from exceptions import InvalidInput, ProperNotFound
+from exceptions import InvalidInput, ProperNotFound, SupplementNotFound
 from kalendar.models import Day, Calendar
-from utils import format_propers
+from utils import format_propers, get_supplement
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -43,6 +47,20 @@ def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
         return jsonify({'error': str(e)}), 400
     else:
         return jsonify([proper_vernacular.serialize(), proper_latin.serialize()])
+
+
+@api.route("/api/v2/supplement/<string:resource>")
+@api.route("/api/v2/supplement/<subdir>/<string:resource>")
+# @api.route("/api/v2/<string:lang>/supplement/<string:resource>")
+# @api.route("/api/v2/<string:lang>/supplement/<subdir>/<string:resource>")
+def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULAR):
+
+    try:
+        supplement_yaml = get_supplement(api.root_path, lang, resource, subdir)
+    except SupplementNotFound:
+        return jsonify({'error': "Not found"}), 404
+    else:
+        return jsonify(supplement_yaml)
 
 
 @api.route('/api/v2/calendar')

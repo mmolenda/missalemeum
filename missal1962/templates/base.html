@@ -60,8 +60,11 @@
                 <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
                     <a class="nav-link" href="/ordo">Części stałe</a>
                 </li>
+                <li class="nav-item {% if request.path.startswith('/canticum') %}active{% endif %}">
+                    <a class="nav-link" href="/canticum"><span class="badge badge-warning">Nowość</span>Pieśni</a>
+                </li>
                 <li class="nav-item {% if request.path.startswith('/supplement') %}active{% endif %}">
-                    <a class="nav-link" href="/supplement"><span class="badge badge-warning">Nowość</span>Suplement</a>
+                    <a class="nav-link" href="/supplement">Suplement</a>
                 </li>
                 <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
                     <a class="nav-link" href="/info">Informacje</a>

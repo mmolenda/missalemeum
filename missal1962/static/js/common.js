@@ -5,9 +5,17 @@ const $main = $("main");
 const $loadedContent = $("main div#loaded-content");
 const $sidebarAndContent = $("#sidebar, #content");
 const $buttonSidebarCollapse = $("button#sidebar-collapse");
-const $loader = $("div#loader");
 const langSwithVernacular = "lang-switch-vernacular";
-let loaderCounter = 0;
+const $sidebar = $("nav#sidebar");
+const $sidebarTools = $("div#sidebar-tools");
+let cannotLoadMessage = "Nie udało się pobrać danych.";
+
+// Making :contains case insensitive
+$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+    return function( elem ) {
+        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };
+});
 
 /**
  * Render template, substitute placeholders with elements from `data` object.
@@ -64,17 +72,57 @@ function navbarIsCollapsed() {
     return $buttonSidebarCollapse.is(":visible");
 }
 
-function showLoader() {
-    if (loaderCounter === 0) {
-        $loader.fadeIn("slow");
+class Loader {
+    static loaderCounter = 0;
+    static $loader = $("div#loader");
+
+    static show() {
+        if (this.loaderCounter === 0) {
+            this.$loader.fadeIn(300);
+        }
+        this.loaderCounter += 1;
     }
-    loaderCounter += 1;
+
+    static hide() {
+        this.loaderCounter -= 1;
+        if (this.loaderCounter === 0) {
+            this.$loader.hide(0);
+        }
+    }
 }
 
-function hideLoader() {
-    loaderCounter -= 1;
-    if (loaderCounter === 0) {
-        $loader.hide();
+
+function printContent(template, content) {
+    let newWindow = window.open('','', "width=650, height=750");
+    let newContent = renderTemplate(template, {main: content});
+    newWindow.document.write(newContent);
+    newWindow.document.close();
+    newWindow.focus();
+    return true;
+}
+
+function markSidebarItemActive(date) {
+    $sidebar.find("li.sidebar-item").removeClass("active");
+    let newActive = $("li#sidebar-item-" + date);
+    newActive.addClass("active");
+
+    let itemPosition = newActive.position().top;
+    let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
+
+    if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
+        $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+    }
+}
+
+function filterSidebarItems(searchString, toggleSidebarItemCallback) {
+    if (searchString === "") {
+        let itemsAll = $sidebar.find("li.sidebar-item");
+        itemsAll.show();
+        toggleSidebarItemCallback();
+    } else if (searchString.length > 2) {
+        let itemsAll = $sidebar.find("li.sidebar-item");
+        itemsAll.hide();
+        $('li.sidebar-item div:contains("' + searchString + '")').parent().parent().show("fast");
     }
 }
 
