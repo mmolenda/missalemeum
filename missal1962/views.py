@@ -97,7 +97,14 @@ canticum_index = CanticumIndex()
 # @views.route("/<string:lang>/canticum")
 # @views.route("/<string:lang>/canticum/<string:canticum_id>")
 def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
-    return render_template("canticum.html", index=canticum_index.get(lang), lang=lang)
+    index = canticum_index.get(lang)
+    title = None
+    if canticum_id is not None:
+        for i in index:
+            if i["ref"] == canticum_id:
+                title = i["title"]
+                break
+    return render_template("canticum.html", title=title, index=index, lang=lang)
 
 
 @views.route("/supplement")
