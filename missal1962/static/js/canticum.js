@@ -27,7 +27,7 @@ $(window).on("load", function () {
     function init() {
         let resourceId = getResourceId();
         if (resourceId === undefined) {
-            resourceId = "archaniol-bozy-gabryjel";
+            resourceId = $("li.sidebar-item").first().find("a").attr("href");
             setResourceId()
         }
         loadContent(resourceId);

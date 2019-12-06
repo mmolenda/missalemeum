@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-Części stałe |
+{% if title %} {{ title }} {% else %} Pieśni {% endif %} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -37,7 +37,7 @@ Części stałe |
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1>Pieśni</h1>
+                <h1 class="display-8">{% if title %} {{ title }} {% else %} Pieśni {% endif %}</h1>
             </div>
             {% include 'footer.html' %}
         </main>
