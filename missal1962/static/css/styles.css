@@ -101,7 +101,7 @@ footer {
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    /*ize: 1.1em;*/
     display: block;
 }
 
@@ -118,7 +118,7 @@ a[aria-expanded="true"] {
 }
 
 #sidebar ul li .tempora {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 #sidebar ul li.sidebar-propers-item ul li a {
