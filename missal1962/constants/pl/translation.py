@@ -795,42 +795,210 @@ COMMEMORATIONS = {
     constants.COMMEMORATED_POSTCOMMUNIO: "Pokomunia wspomnienia",
 }
 
+KDE = "Komentarz do Ewangelii"
 SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
-        {"label": "Początek Adwentu", "path": "/supplement/2-adwent"},
-        {"label": "Komentarz do Ewangelii na 1 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia1na/"}
+        {"label": "Adwent", "path": "/supplement/2-adwent"},
+        {"label": f"{KDE} na 1 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia1na/"}
     ],
     constants.TEMPORA_ADV2_0: [
-        {"label": "Komentarz do Ewangelii na 2 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia2na/"}
+        {"label": f"{KDE} na 2 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia2na/"}
     ],
     constants.TEMPORA_ADV3_0: [
-        {"label": "Komentarz do Ewangelii na 3 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia3na/"}
+        {"label": f"{KDE} na 3 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia3na/"}
     ],
     constants.TEMPORA_ADV4_0: [
-        {"label": "Komentarz do Ewangelii na 4 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia4na/"}
+        {"label": f"{KDE} na 4 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia4na/"}
     ],
-    constants.SANCTI_12_24: [{"label": "Początek Bożego Narodzenia", "path": "/supplement/3-boze-narodzenie"}],
+    constants.SANCTI_12_24: [
+        {"label": "Boże Narodzenie", "path": "/supplement/3-boze-narodzenie"}
+        ],
     constants.SANCTI_12_25_1: [
-        {"label": "Początek Bożego Narodzenia", "path": "/supplement/3-boze-narodzenie"},
-        {"label": "Komentarz do pierwszej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn/"}
+        {"label": "Boże Narodzenie", "path": "/supplement/3-boze-narodzenie"},
+        {"label": f"{KDE} pierwszej na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn/"}
     ],
     constants.SANCTI_12_25_2: [
-        {"label": "Komentarz do drugiej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn2/"}
+        {"label": f"{KDE} drugiej na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn2/"}
     ],
     constants.SANCTI_12_25_3: [
-        {"label": "Komentarz do trzeciej Ewangelii na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn3/"}
+        {"label": f"{KDE} trzeciej na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn3/"}
+    ],
+    constants.SANCTI_12_26: [
+        {"label": f"{KDE} na uroczystość pierwszego męczennika św. Szczepana", "path": "http://vetusordo.pl/objasnieniaupmss/"}
     ],
     constants.NAT1_0: [
-        {"label": "Komentarz do Ewangelii na niedzielę po Bożym Narodzeniu", "path": "http://vetusordo.pl/objasnieniaennpbn//"}
+        {"label": f"{KDE} na niedzielę po Bożym Narodzeniu", "path": "http://vetusordo.pl/objasnieniaennpbn/"}
     ],
-    constants.TEMPORA_EPI1_0: [{"label": "Początek Okresu po Objawieniu", "path": "/supplement/4-okres-po-objawieniu"}],
-    constants.TEMPORA_QUADP1_0: [{"label": "Początek Przedpościa", "path": "/supplement/5-przedposcie"}],
-    constants.TEMPORA_QUADP3_3: [{"label": "Początek Wielkiego Postu", "path": "/supplement/6-wielki-post"}],
-    constants.TEMPORA_QUAD5_0: [{"label": "Początek Okresu Męki Pańskiej", "path": "/supplement/7-okres-meki-panskiej"}],
-    constants.TEMPORA_QUAD6_0: [{"label": "Początek Wielkiego Tygodnia", "path": "/supplement/8-wielki-tydzien"}],
-    constants.TEMPORA_QUAD6_6: [{"label": "Początek Okresu Wielkanocnego", "path": "/supplement/9-okres-wielkanocny"}],
-    constants.TEMPORA_PASC6_6: [{"label": "Początek Zesłania Ducha św.", "path": "/supplement/10-zeslanie-ducha-sw"}],
+    constants.SANCTI_01_01: [
+        {"label": f"{KDE} na Oktawę Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenunr/"}
+    ],
+    constants.SANCTI_01_06: [
+        {"label": f"{KDE} na Objawienia Pańskie", "path": "http://vetusordo.pl/objasnieniaenustk/"}
+    ],
+    constants.TEMPORA_EPI1_0: [
+        {"label": "Okres po Objawieniu", "path": "/supplement/4-okres-po-objawieniu"}
+    ],
+    constants.TEMPORA_EPI2_0: [
+        {"label": f"{KDE} na 2 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenndpstk/"}
+    ],
+    constants.TEMPORA_EPI3_0: [
+        {"label": f"{KDE} na 3 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenntpstk/"}
+    ],
+    constants.TEMPORA_EPI4_0: [
+        {"label": f"{KDE} na 4 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenntpstk/"}
+    ],
+    constants.TEMPORA_EPI5_0: [
+        {"label": f"{KDE} na 5 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaennppstk-2/"}
+    ],
+    constants.TEMPORA_QUADP1_0: [
+        {"label": "Przedpoście", "path": "/supplement/5-przedposcie"},
+        {"label": f"{KDE} na niedzielę Siedemdziesiątnicy", "path": "http://vetusordo.pl/oenns/"}
+    ],
+    constants.TEMPORA_QUADP2_0: [
+        {"label": f"{KDE} na niedzielę Sześćdziesiątnicy", "path": "http://vetusordo.pl/objasnieniaennmpna/"}
+    ],
+    constants.TEMPORA_QUADP3_0: [
+        {"label": f"{KDE} na niedzielę Pięćdziesiątnicy", "path": "http://vetusordo.pl/objasnieniannzpna/"}
+    ],
+    constants.TEMPORA_QUADP3_3: [
+        {"label": "Wielki Post", "path": "/supplement/6-wielki-post"}
+    ],
+    constants.TEMPORA_QUAD1_0: [
+        {"label": f"{KDE} na 1 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/objasnieniann1p/"}
+    ],
+    constants.TEMPORA_QUAD2_0: [
+        {"label": f"{KDE} na 2 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/2019oenndp/"}
+    ],
+    constants.TEMPORA_QUAD3_0: [
+        {"label": f"{KDE} na 3 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/2019oenntp/"}
+    ],
+    constants.TEMPORA_QUAD4_0: [
+        {"label": f"{KDE} na 4 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/2019oenncp/"}
+    ],
+    constants.TEMPORA_QUAD5_0: [
+        {"label": "Okres Męki Pańskiej", "path": "/supplement/7-okres-meki-panskiej"},
+        {"label": f"{KDE} na 1 niedzielę Męki Pańskiej", "path": "http://vetusordo.pl/objasnieniaennpp/"}
+    ],
+    constants.TEMPORA_QUAD6_0: [
+        {"label": "Wielki Tydzień", "path": "/supplement/8-wielki-tydzien"},
+        {"label": f"{KDE} na 2 niedzielę Męki Pańskiej (Palmową)", "path": "http://vetusordo.pl/objasnieniaennk/"}
+    ],
+    constants.TEMPORA_QUAD6_6: [
+        {"label": "Okres Wielkanocny", "path": "/supplement/9-okres-wielkanocny"}
+    ],
+    constants.TEMPORA_PASC0_0: [
+        {"label": f"{KDE} na Wielkanoc", "path": "http://vetusordo.pl/objasnieniaenw/"}
+    ],
+    constants.TEMPORA_PASC0_1: [
+        {"label": f"{KDE} na poniedziałek Wielkanocny", "path": "http://vetusordo.pl/2019oenpw/"}
+    ],
+    constants.TEMPORA_PASC1_0: [
+        {"label": f"{KDE} na niedzielę Białą", "path": "http://vetusordo.pl/2019oennp/"}
+    ],
+    constants.TEMPORA_PASC2_0: [
+        {"label": f"{KDE} na 2 niedzielę po Wielkanocy", "path": "http://vetusordo.pl/2019oenn2pw/"}
+    ],
+    constants.TEMPORA_PASC3_0: [
+        {"label": f"{KDE} na 3 niedzielę po Wielkanocy", "path": "http://vetusordo.pl/2019oenn3pw/"}
+    ],
+    constants.TEMPORA_PASC4_0: [
+        {"label": f"{KDE} na 4 niedzielę po Wielkanocy", "path": "http://vetusordo.pl/2019oenn4pw/"}
+    ],
+    constants.TEMPORA_PASC5_0: [
+        {"label": f"{KDE} na 5 niedzielę po Wielkanocy", "path": "http://vetusordo.pl/2019oenn5pw/"}
+    ],
+    constants.TEMPORA_PASC5_4: [
+        {"label": f"{KDE} na Wniebowstąpienie Pańskie", "path": "http://vetusordo.pl/2019oenwp/"}
+    ],
+    constants.TEMPORA_PASC6_0: [
+        {"label": f"{KDE} na niedzielę po Wniebostąpieniu", "path": "http://vetusordo.pl/objasnieniaenn6pw/"}
+    ],
+    constants.TEMPORA_PASC6_6: [
+        {"label": "Zesłanie Ducha św.", "path": "/supplement/10-zeslanie-ducha-sw"}
+    ],
+    constants.TEMPORA_PASC7_0: [
+        {"label": f"{KDE} na niedzielę Zesłania Ducha Świętego", "path": "http://vetusordo.pl/objasnieniaenuzds/"}
+    ],
     constants.TEMPORA_PENT01_0: [
-        {"label": "Początek Okresu po Zesłaniu Ducha św.", "path": "/supplement/10-okres-po-zeslaniu-ducha-sw"}
+        {"label": "Okres po Zesłaniu Ducha św.", "path": "/supplement/10-okres-po-zeslaniu-ducha-sw"},
+        {"label": f"{KDE} na uroczystość Trójcy Przenajświętszej", "path": "http://vetusordo.pl/objasnienia2019enuts/"}
     ],
+    constants.TEMPORA_PENT01_4: [
+        {"label": f"{KDE} na uroczystość Bożego Ciała", "path": "http://vetusordo.pl/objasnienia2019enubc/"}
+    ],
+    constants.TEMPORA_PENT02_0: [
+        {"label": f"{KDE} na 2 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019enndps/"}
+    ],
+    constants.TEMPORA_PENT03_0: [
+        {"label": f"{KDE} na 3 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019enntps/"}
+    ],
+    constants.TEMPORA_PENT04_0: [
+        {"label": f"{KDE} na 4 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019enn4ps/"}
+    ],
+    constants.TEMPORA_PENT05_0: [
+        {"label": f"{KDE} na 5 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019enn5ps/"}
+    ],
+    constants.TEMPORA_PENT06_0: [
+        {"label": f"{KDE} na 6 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019enn6ps/"}
+    ],
+    constants.TEMPORA_PENT07_0: [
+        {"label": f"{KDE} na 7 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019nn7ps/"}
+    ],
+    constants.TEMPORA_PENT08_0: [
+        {"label": f"{KDE} na 8 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019nn8ps/"}
+    ],
+    constants.TEMPORA_PENT09_0: [
+        {"label": f"{KDE} na 9 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019nn9ps/"}
+    ],
+    constants.TEMPORA_PENT10_0: [
+        {"label": f"{KDE} na 10 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienia2019nn10ps/"}
+    ],
+    constants.TEMPORA_PENT11_0: [
+        {"label": f"{KDE} na 11 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn11ps/"}
+    ],
+    constants.TEMPORA_PENT12_0: [
+        {"label": f"{KDE} na 12 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn12ps/"}
+    ],
+    constants.TEMPORA_PENT13_0: [
+        {"label": f"{KDE} na 13 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn13ps/"}
+    ],
+    constants.TEMPORA_PENT14_0: [
+        {"label": f"{KDE} na 14 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn14ps/"}
+    ],
+    constants.TEMPORA_PENT15_0: [
+        {"label": f"{KDE} na 15 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn15ps/"}
+    ],
+    constants.TEMPORA_PENT17_0: [
+        {"label": f"{KDE} na 17 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn17ps/"}
+    ],
+    constants.TEMPORA_PENT18_0: [
+        {"label": f"{KDE} na 18 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn18ps/"}
+    ],
+    constants.TEMPORA_PENT19_0: [
+        {"label": f"{KDE} na 19 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn19ps/"}
+    ],
+    constants.TEMPORA_PENT21_0: [
+        {"label": f"{KDE} na 21 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn21ps/"}
+    ],
+    constants.TEMPORA_PENT22_0: [
+        {"label": f"{KDE} na 22 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn22ps/"}
+    ],
+    constants.TEMPORA_PENT23_0: [
+        {"label": f"{KDE} na 23 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn23ps/"}
+    ],
+    constants.SANCTI_12_08: [
+        {"label": f"{KDE} na uroczystość Niepokalanego Poczęcia N. M. P.", "path": "http://vetusordo.pl/oenunmp/"}
+    ],
+    constants.SANCTI_02_02: [
+        {"label": f"{KDE} na uroczystość Oczyszczenia N. M. P.", "path": "http://vetusordo.pl/2019uroczystosconmp/"}
+    ],
+    constants.SANCTI_03_25: [
+        {"label": f"{KDE} na uroczystość Zwiastowania N. M. P.", "path": "http://vetusordo.pl/2019oenuznmp/"}
+    ],
+    constants.SANCTI_06_29: [
+        {"label": f"{KDE} na uroczystość śś. Apostołów Piotra i Pawła", "path": "http://vetusordo.pl/objasnienia2019enussapip/"}
+    ],
+    constants.SANCTI_11_01: [
+        {"label": f"{KDE} na uroczystość Wszystkich Świętych", "path": "http://vetusordo.pl/2019oenuws/"}
+    ]
 }
