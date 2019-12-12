@@ -152,8 +152,9 @@ $(window).on("load", function () {
                     $.merge(additional_info, info.additional_info);
                 }
 
+                let parsedDate = moment(date, "YYYY-MM-DD");
                 if (title == null) {
-                    title = moment(date, "YYYY-MM-DD").format("DD MMMM");
+                    title = parsedDate.format("DD MMMM");
                 }
                 titles.push(title);
                 $(renderTemplate($templateContentIntro, {
@@ -161,6 +162,19 @@ $(window).on("load", function () {
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
                 })).appendTo($loadedContent);
+
+                // temporary hack for Advent 2019 - adding rorate mass to supplement
+                let titleOrTempora = "";
+                if (info.tempora !== null) {
+                    titleOrTempora += info.tempora;
+                }
+                if (info.id !== null) {
+                    titleOrTempora += info.id;
+                }
+                if ((titleOrTempora.indexOf("Adwent") > -1 || titleOrTempora.indexOf("tempora:Adv") > -1) && parsedDate.day() !== 0  && info.rank > 1) {
+                    supplements.push({"label": "Msza o N. M. P. w Adwencie – Rorate", "path": "https://www.mszalrzymski.pl/tmp/rorate"})
+                }
+                // end of temporary hack
 
                 if (supplements.length > 0) {
                     let supplementsList = $(renderTemplate($templateContentSupplementList, {}));
