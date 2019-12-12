@@ -845,7 +845,7 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na 3 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenntpstk/"}
     ],
     constants.TEMPORA_EPI4_0: [
-        {"label": f"{KDE} na 4 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenntpstk/"}
+        {"label": f"{KDE} na 4 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenncpstk/"}
     ],
     constants.TEMPORA_EPI5_0: [
         {"label": f"{KDE} na 5 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaennppstk-2/"}

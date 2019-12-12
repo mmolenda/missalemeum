@@ -122,7 +122,7 @@ def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: st
         return render_template_or_404("404.html"), 404
     else:
         title = supplement_yaml["title"]
-        html = mistune.markdown(supplement_yaml["body"])
+        html = mistune.markdown(supplement_yaml["body"], escape=False)
         ref = request.args.get("ref")
         if ref is None or re.sub('[\w\-/]', '', ref) != "":
             ref = None
@@ -138,6 +138,11 @@ def icalendar():
 # @views.route("/<string:lang>/info")
 def info(lang: str = LANGUAGE_VERNACULAR):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
+
+
+@views.route("/tmp/rorate")
+def rorate(lang: str = LANGUAGE_VERNACULAR):
+    return render_template_or_404(f"rorate.html", lang=lang)
 
 
 @views.route("/service-worker.js")
