@@ -277,6 +277,15 @@ Msza o Najświętszej Maryi Pannie w Adwencie – Rorate |
 <script src="/static/js/common.js"></script>
 <script src="/static/js/{{ lang }}/conf.js"></script>
 <script>
+    $(window).on("load", function () {
+        adaptSectionColumns();
+    });
+    $window.on("resize", function(){
+        adaptSectionColumns();
+    });
+    $("input[type=radio][name=lang-switch]").change(function() {
+        toggleLangSections(this.id);
+    });
     $("#print").on("click", function () {
         printContent($("script#template-content-print").text(), $("div#loaded-content").html());
     });
