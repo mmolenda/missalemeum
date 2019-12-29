@@ -20,21 +20,18 @@ from typing import List
 
 from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, EMBER_DAYS,
                               FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
-                              PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23,
                               PATTERN_CLASS_1, PATTERN_EASTER,
                               PATTERN_SANCTI_CLASS_1_OR_2,
                               PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA,
                               PATTERN_TEMPORA_SUNDAY,
                               PATTERN_TEMPORA_SUNDAY_CLASS_2, SANCTI_01_13,
                               SANCTI_02_24, SANCTI_02_27, SANCTI_11_02_1,
-                              SANCTI_12_08, SANCTI_12_24, SANCTI_12_25_1,
+                              SANCTI_12_24, SANCTI_12_25_1,
                               TEMPORA_EPI1_0, TEMPORA_PASC0_0, TEMPORA_QUAD6_1,
                               TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
                               TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
-                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI_CLASS_1,
-                              PATTERN_SANCTI_CLASS_3, TEMPORA_ADV3_6, SANCTI_12_21, PATTERN_ADVENT_FERIA,
-                              PATTERN_SANCTI)
+                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY)
 from kalendar.models import Calendar, Observance
 from utils import match
 
@@ -191,8 +188,12 @@ def rule_first_class_feast_no_commemoration(
 def rule_2nd_class_sunday(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
-    if match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2) and match(observances, PATTERN_SANCTI_CLASS_2):
-        return [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], [match(observances, PATTERN_SANCTI_CLASS_2)], []
+    # lower commemorations are skipped
+    if match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2) and date_.weekday() == SUNDAY:
+        if match(observances, PATTERN_SANCTI_CLASS_2):
+            return [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], [match(observances, PATTERN_SANCTI_CLASS_2)], []
+        else:
+            return [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], [], []
 
 
 def rule_1st_class_feria(

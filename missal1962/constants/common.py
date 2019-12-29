@@ -32,7 +32,7 @@ PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
 PATTERN_LENT_SUNDAY = re.compile(r'^tempora:Quad\d-0.*')
 PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0r*:\d$')
 PATTERN_TEMPORA_SUNDAY_CLASS_1 = re.compile(r'^tempora:.*-0r*:1$')
-PATTERN_TEMPORA_SUNDAY_CLASS_2 = re.compile(r'^tempora:.*-0r*:2$')
+PATTERN_TEMPORA_SUNDAY_CLASS_2 = re.compile(r'^tempora:(.*-0r*:2|Nat1-0)$')
 PATTERN_TEMPORA_CLASS_1 = re.compile(r'^tempora:.*:1$')
 PATTERN_TEMPORA_CLASS_2 = re.compile(r'^tempora:.*:2$')
 PATTERN_TEMPORA_CLASS_3 = re.compile(r'^tempora:.*:3$')
@@ -847,9 +847,9 @@ SANCTI_12_25_3 = 'sancti:12-25m3:1'
 SANCTI_12_26 = 'sancti:12-26:2'  # St. Stephen, Protomartyr
 SANCTI_12_27 = 'sancti:12-27:2'  # St. John, Apostle and Evangelist
 SANCTI_12_28 = 'sancti:12-28:2'  # Holy Innocents
-SANCTI_12_29 = 'sancti:12-29r:2'
-SANCTI_12_30 = 'sancti:12-30:2'
-SANCTI_12_31 = 'sancti:12-31r:2'
+SANCTI_12_29 = 'sancti:12-29r:4'
+SANCTI_12_30 = 'sancti:12-30:4'
+SANCTI_12_31 = 'sancti:12-31r:4'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent

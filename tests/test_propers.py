@@ -14,7 +14,7 @@ from propers.models import ProperConfig
 from propers.parser import ProperParser
 from tests.conftest import get_missal
 
-language = 'Polski'
+language = 'pl'
 
 
 def test_parse_proper_no_refs():

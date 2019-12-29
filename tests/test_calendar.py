@@ -11,7 +11,7 @@ from tests.conftest import get_missal
 from utils import match
 
 HERE = os.path.abspath(os.path.dirname(__file__))
-language = 'Polski'
+language = 'pl'
 
 
 def _to_date_obj(date_str):
@@ -200,6 +200,17 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
     # 2019-12-21 St. Thomas, commemoration of Ember Saturday of Advent
     ((2019, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_6]),
+    # Commemoration of class < 3 falls on Sunday, keep commemoration
+    ((2019, 2, 24), [c.TEMPORA_QUADP2_0], [c.SANCTI_02_24]),
+    ((2019, 6, 23), [c.TEMPORA_PENT02_0], [c.SANCTI_06_23]),
+    ((2019, 9, 8), [c.TEMPORA_PENT13_0], [c.SANCTI_09_08]),
+    ((2019, 9, 15), [c.TEMPORA_PENT14_0], [c.SANCTI_09_15]),
+    # Commemoration of class > 2 falls on Sunday, skip commemoration
+    ((2019, 2, 3), [c.TEMPORA_EPI4_0], []),
+    ((2019, 6, 2), [c.TEMPORA_PASC6_0], []),
+    ((2019, 8, 11), [c.TEMPORA_PENT09_0], []),
+    ((2019, 8, 18), [c.TEMPORA_PENT10_0], []),
+    ((2019, 12, 29), [c.NAT1_0], []),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
