@@ -31,7 +31,7 @@ $(window).on("load", function () {
     let selectedResource;
 
     function init() {
-        moment.locale("pl");
+        moment.locale("pt");
         loadContent(getResourceId());
     }
 
@@ -271,7 +271,7 @@ $(window).on("load", function () {
         minDate: config.minDate,
         maxDate: config.maxDate,
         useCurrent: false,
-        locale: "pl",
+        locale: "pt",
         widgetPositioning: {
             horizontal: "right",
             vertical: "bottom"
