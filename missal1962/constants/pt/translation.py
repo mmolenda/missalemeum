@@ -670,7 +670,7 @@ SECTION_LABELS  = {
     'Prefatio': 'Prefácio',
     'Tractus': 'Tracto',
     # 02-02, feast of the Purification of the B.V.M.
-    'De Benedictione Candelarum': 'Benção das Velas',
+    'De Benedictione Candelarum': 'Bênção das Velas',
     'De Distributione Candelarum': 'Distribuição das Velas',
     'De Processione': 'Procissão',
     # Quad6-0r, Dominica II Passionis seu in Palmis

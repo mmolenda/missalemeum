@@ -53,3 +53,5 @@ docs/_build/
 # PyBuilder
 target/
 .idea/
+.vscode/settings.json
+.gitignore
