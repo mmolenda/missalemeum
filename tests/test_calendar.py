@@ -131,6 +131,13 @@ def test_sancti_shifted(day_id, expected_date):
     ((2017, 11, 2), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
     ((2008, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
     ((2014, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    # Nativity Octave
+    ((2019, 12, 29), [c.NAT1_0], []),
+    ((2019, 12, 30), [c.NAT1_1], []),
+    ((2019, 12, 31), [c.NAT1_1], [c.SANCTI_12_31]),
+    ((2020, 12, 29), [c.NAT1_1], [c.SANCTI_12_29]),
+    ((2020, 12, 30), [c.NAT1_1], []),
+    ((2020, 12, 31), [c.NAT1_1], [c.SANCTI_12_31]),
 ])
 def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
     assert celebration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).celebration]

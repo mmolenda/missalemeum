@@ -643,9 +643,8 @@ TITLES = {
     constants.SANCTI_12_26: 'St. Stephen',
     constants.SANCTI_12_27: 'St. John the Evangelist',
     constants.SANCTI_12_28: 'Holy Innocents',
-    constants.SANCTI_12_29: 'Fifth day in Christmas Octave – St. Thomas Becket',
-    constants.SANCTI_12_30: 'Sixth day in Christmas Octave',
-    constants.SANCTI_12_31: 'Seventh day in Christmas Octave'
+    constants.SANCTI_12_29: 'St. Thomas Becket',
+    constants.SANCTI_12_31: 'St. Silvester'
 }
 
 SECTION_LABELS = {

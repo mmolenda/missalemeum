@@ -363,6 +363,7 @@ TITLES = {
     constants.TEMPORA_ADV4_4: 'Feria V infra Hebd IV Adventus',
     constants.TEMPORA_ADV4_5: 'Feria VI infra Hebd IV Adventus',
     constants.NAT1_0: 'Dominica Infra Octavam Nativitatis',
+    constants.NAT1_1: 'Feria Infra Octavam Nativitatis',
     constants.NAT2_0: 'Sanctissimi Nominis Jesu',
     constants.SANCTI_10_DUr: 'In festo Domino nostro Jesu Christi Regis',
     constants.EPI1_0A: 'Dominica post Epiphaniam',
@@ -662,9 +663,8 @@ TITLES = {
     constants.SANCTI_12_26: 'S. Stephani Protomartyris',
     constants.SANCTI_12_27: 'S. Joannis Apostoli et Evangelistæ',
     constants.SANCTI_12_28: 'Ss. Innocentium',
-    constants.SANCTI_12_29: 'Die quinta post Nativitatem - S. Thomæ M.',
-    constants.SANCTI_12_30: 'Die sexta post Nativitatem',
-    constants.SANCTI_12_31: 'Die septima post Nativitatem'
+    constants.SANCTI_12_29: 'S. Thomæ M.',
+    constants.SANCTI_12_31: 'S. Silvestri'
 }
 
 
