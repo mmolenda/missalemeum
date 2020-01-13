@@ -363,6 +363,7 @@ TITLES = {
     constants.TEMPORA_ADV4_4: 'Czwartek po 4 Niedzieli Adwentu',
     constants.TEMPORA_ADV4_5: 'Piątek po 4 Niedzieli Adwentu',
     constants.NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
+    constants.NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
     constants.NAT2_0: 'Najświętszego Imienia Jezus',
     constants.SANCTI_10_DUr: 'Chrystusa Króla',
     constants.EPI1_0A: '1 Niedziela po Objawieniu',
@@ -662,9 +663,8 @@ TITLES = {
     constants.SANCTI_12_26: 'Św. Szczepana, Pierwszego Męczennika',
     constants.SANCTI_12_27: 'Św. Jana, Apostoła i Ewangelisty',
     constants.SANCTI_12_28: 'Świętych Młodzianków',
-    constants.SANCTI_12_29: '29 XII - Św. Tomasza z Canterbury, Biskupa i Męczennika',
-    constants.SANCTI_12_30: 'Dzień szósty w Oktawie Narodzenia Pańskiego',
-    constants.SANCTI_12_31: 'Dzień siódmy w Oktawie Narodzenia Pańskiego'
+    constants.SANCTI_12_29: 'Św. Tomasza z Canterbury, Biskupa i Męczennika',
+    constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy'
 }
 
 SECTION_LABELS = {

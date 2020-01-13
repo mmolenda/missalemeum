@@ -1,0 +1,35 @@
+[Rule]
+Prefatio=Nat
+
+[Comment]
+# Dzień w Oktawie Bożego Narodzenia
+! 2 klasy
+! Szaty białe
+W dniach od 29 do 31 grudnia odprawia się Mszę z oktawy Bożego Narodzenia, tj. Mszę w Dzień, z wyjątkiem lekcji i ewangelii, które odczytuje się ze Mszy o Świcie.
+
+[Introitus]
+@Sancti/12-25m3:Introitus
+
+[Oratio]
+@Sancti/12-25m3:Oratio
+
+[Lectio]
+@Sancti/12-25m2:Lectio
+
+[Graduale]
+@Sancti/12-25m3:Graduale
+
+[Evangelium]
+@Sancti/12-25m2:Evangelium
+
+[Offertorium]
+@Sancti/12-25m3:Offertorium
+
+[Secreta]
+@Sancti/12-25m3:Secreta
+
+[Communio]
+@Sancti/12-25m3:Communio
+
+[Postcommunio]
+@Sancti/12-25m3:Postcommunio
