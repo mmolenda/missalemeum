@@ -643,9 +643,8 @@ TITLES = {
     constants.SANCTI_12_26: 'S. Estêvão, Primeiro Mártir',
     constants.SANCTI_12_27: 'S. João, Apóstolo e Evangelista',
     constants.SANCTI_12_28: 'Santos Inocentes',
-    constants.SANCTI_12_29: '29 XII - S. Tomás de Cantuária, Bispo e Mártir',
-    constants.SANCTI_12_30: 'Missa do sexto dia na Oitava do Natal',
-    constants.SANCTI_12_31: 'Missa do sétimo dia na Oitava do Natal'
+    constants.SANCTI_12_29: 'S. Tomás de Cantuária, Bispo e Mártir',
+    constants.SANCTI_12_31: 'S. Silvestre'
 }
 
 SECTION_LABELS  = {

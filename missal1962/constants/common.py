@@ -531,6 +531,7 @@ TEMPORA_ADV4_4 = 'tempora:Adv4-4:3'
 TEMPORA_ADV4_5 = 'tempora:Adv4-5:3'
 
 NAT1_0 = 'tempora:Nat1-0:2'  # Sunday in the Octave of Nativity
+NAT1_1 = 'tempora:Nat1-1:2'  # Ordinary day in the Octave of Nativity
 NAT2_0 = 'tempora:Nat2-0:2'  # Feast of the Holy Name of Jesus
 SANCTI_10_DUr = 'sancti:10-DUr:1'  # Feast of Christ the King; last Sunday of October
 EPI1_0A = 'tempora:Epi1-0a:2'  # 1st Sunday after Epiphany
@@ -848,7 +849,6 @@ SANCTI_12_26 = 'sancti:12-26:2'  # St. Stephen, Protomartyr
 SANCTI_12_27 = 'sancti:12-27:2'  # St. John, Apostle and Evangelist
 SANCTI_12_28 = 'sancti:12-28:2'  # Holy Innocents
 SANCTI_12_29 = 'sancti:12-29r:4'
-SANCTI_12_30 = 'sancti:12-30:4'
 SANCTI_12_31 = 'sancti:12-31r:4'
 
 EMBER_DAYS = (
@@ -916,7 +916,6 @@ TABLE_OF_PRECEDENCE = (
     SANCTI_12_27,
     SANCTI_12_28,
     SANCTI_12_29,
-    SANCTI_12_30,
     SANCTI_12_31,
     # 3rd class feasts
     TEMPORA_QUAD1_1,  # Feria in Lent (except Ember Days)

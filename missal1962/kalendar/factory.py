@@ -52,7 +52,10 @@ class MissalFactory:
 
         date_ = self.calc_sunday_christmas_octave(year)
         if date_:
-            self.calendar.get_day(date_).celebration = [Observance(NAT1_0, date_, self.lang)]
+            self._insert_block(date_, self.blocks.NATIVITY_OCTAVE_SUNDAY)
+        self._insert_block(date(year, 12, 29), self.blocks.NATIVITY_OCTAVE_FERIA, overwrite=False)
+        self._insert_block(date(year, 12, 30), self.blocks.NATIVITY_OCTAVE_FERIA, overwrite=False)
+        self._insert_block(date(year, 12, 31), self.blocks.NATIVITY_OCTAVE_FERIA, overwrite=False)
 
     def _fill_in_sancti_days(self) -> None:
         """
