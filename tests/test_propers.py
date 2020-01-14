@@ -113,9 +113,9 @@ def test_get_proper_from_day():
 
 @pytest.mark.parametrize("date_,id_,rank", [
     ((2018, 1, 4), 'sancti:01-01:1', 4),
-    # ((2019, 1, 3), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    # ((2021, 1, 4), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    # ((2021, 1, 5), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2019, 1, 3), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 4), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 5), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
     ((2019, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
     ((2021, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
     ((2021, 1, 8), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
