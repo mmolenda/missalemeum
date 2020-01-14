@@ -225,9 +225,9 @@ class Day:
             return [propers]
 
     def _infer_observance(self) -> Observance:
-        # No proper for this day, trying to get one from the latest Sunday
+        # No proper for this day, trying to get one from the latest Sunday or from the Epiphany
         date_: date = copy(self.date)
-        while date_.weekday() != SUNDAY:
+        while not (date_.weekday() == SUNDAY) and not (date_.month == 1 and date_.day == 6):
             if date_ == datetime.date(self.date.year, 1, 1):
                 break
             date_ = date_ - datetime.timedelta(days=1)
