@@ -31,7 +31,8 @@ from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, EMBER_DAYS,
                               TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
                               TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
-                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY)
+                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
+                              PATTERN_TEMPORA_CLASS_4)
 from kalendar.models import Calendar, Observance
 from utils import match
 
@@ -210,12 +211,22 @@ def rule_1st_class_feria(
         return [match(observances, PATTERN_TEMPORA)], [], []
 
 
+def rule_4th_class_feria_are_removed_from_celebration(
+    calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    fourth_class_tempora = match(observances, PATTERN_TEMPORA_CLASS_4)
+    if fourth_class_tempora:
+        commemoration = match(observances, PATTERN_SANCTI_CLASS_4)
+        if commemoration:
+            return [o for o in observances if o != fourth_class_tempora], [commemoration], []
+        return [o for o in observances if o != fourth_class_tempora], [], []
+
+
 def rule_4th_class_commemorations_are_only_commemorated(
     calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    fourth_class_observance = match(observances, PATTERN_SANCTI_CLASS_4)
-    if fourth_class_observance:
-        observances.pop(observances.index(fourth_class_observance))
-        return [o for o in observances if o != fourth_class_observance], [fourth_class_observance], []
+    fourth_class_sancti = match(observances, PATTERN_SANCTI_CLASS_4)
+    if fourth_class_sancti:
+        observances.pop(observances.index(fourth_class_sancti))
+        return [o for o in observances if o != fourth_class_sancti], [fourth_class_sancti], []
 
 
 def rule_general(
@@ -248,6 +259,7 @@ rules = (
     rule_2nd_class_sunday,
     rule_1st_class_feria,
     rule_bmv_office_on_saturday,
+    rule_4th_class_feria_are_removed_from_celebration,
     rule_4th_class_commemorations_are_only_commemorated,
     rule_general
 )
