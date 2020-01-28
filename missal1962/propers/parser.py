@@ -277,7 +277,7 @@ class ProperParser:
                     # start skipping lines from now on
                     omit = True
                     continue
-                if '(sed rubrica 1955 aut rubrica 1960 haec versus omittuntur)' in ln:
+                if '(sed rubrica 1955 aut rubrica 1960' in ln and 'versus omittuntur)' in ln:
                     # stop skipping lines from now on
                     omit = False
                     continue

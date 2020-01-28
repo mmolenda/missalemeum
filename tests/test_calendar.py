@@ -80,66 +80,73 @@ def test_sancti_shifted(day_id, expected_date):
     assert date(*expected_date) == get_missal(expected_date[0]).find_day(day_id)[0]
 
 
-@pytest.mark.parametrize("date_,celebration,commemoration", [
-    ((1907, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
-    ((1912, 12, 8), [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
-    ((1913, 12, 8), [c.SANCTI_12_08], []),
+@pytest.mark.parametrize("date_,tempora,celebration,commemoration", [
+    ((1907, 12, 8), [c.TEMPORA_ADV2_0], [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
+    ((1912, 12, 8), [c.TEMPORA_ADV2_0], [c.SANCTI_12_08], [c.TEMPORA_ADV2_0]),
+    ((1913, 12, 8), [c.TEMPORA_ADV2_1], [c.SANCTI_12_08], []),
     # 1 and 2 class feasts of the Lord occurring on Sunday of 2 class
-    ((2013, 1, 6), [c.SANCTI_01_06], []),
-    ((2036, 1, 6), [c.SANCTI_01_06], []),
-    ((2013, 1, 13), [c.TEMPORA_EPI1_0], []),
-    ((2036, 1, 13), [c.TEMPORA_EPI1_0], []),
-    ((1911, 8, 6), [c.SANCTI_08_06], []),
-    ((1922, 8, 6), [c.SANCTI_08_06], []),
+    ((2013, 1, 6), [], [c.SANCTI_01_06], []),
+    ((2036, 1, 6), [], [c.SANCTI_01_06], []),
+    ((2013, 1, 13), [c.TEMPORA_EPI1_0], [c.TEMPORA_EPI1_0], []),
+    ((2036, 1, 13), [c.TEMPORA_EPI1_0], [c.TEMPORA_EPI1_0], []),
+    ((1911, 8, 6), [c.TEMPORA_PENT09_0], [c.SANCTI_08_06], []),
+    ((1922, 8, 6), [c.TEMPORA_PENT09_0], [c.SANCTI_08_06], []),
     # Nativity_vigil
-    ((1950, 12, 24), [c.SANCTI_12_24], []),
-    ((2000, 12, 24), [c.SANCTI_12_24], []),
+    ((1950, 12, 24), [], [c.SANCTI_12_24], []),
+    ((2000, 12, 24), [], [c.SANCTI_12_24], []),
     # Commemorations
-    ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
-    ((2018, 4, 22), [c.TEMPORA_PASC3_0], []),
-    ((2018, 4, 25), [c.SANCTI_04_25], []),  # St. Mark, Evangelist
-    ((2018, 5, 10), [c.TEMPORA_PASC5_4], []),  # Ascension, no comm.
-    ((2018, 5, 19), [c.TEMPORA_PASC6_6], []),  # Vigil of Pentecost, no comm.
-    ((2018, 5, 21), [c.TEMPORA_PASC7_1], []),  # Pentecost Octave, no comm.
-    ((2018, 5, 22), [c.TEMPORA_PASC7_2], []),
-    ((2018, 5, 23), [c.TEMPORA_PASC7_3], []),
-    ((2018, 5, 24), [c.TEMPORA_PASC7_4], []),
-    ((2018, 5, 25), [c.TEMPORA_PASC7_5], []),
-    ((2018, 5, 26), [c.TEMPORA_PASC7_6], []),
-    ((2018, 5, 27), [c.TEMPORA_PENT01_0], []),  # Trinity Sunday, no comm.
-    ((2018, 5, 31), [c.TEMPORA_PENT01_4], []),  # Corpus Christi, no comm.
-    ((2018, 6, 10), [c.TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
-    ((2018, 10, 28), [c.SANCTI_10_DUr], []),  # Feast of Christ the King; no comm
-    ((2018, 11, 14), [c.SANCTI_11_14], []),
-    ((2018, 11, 26), [c.SANCTI_11_26], []),
-    ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
-    ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
+    ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
+    ((2018, 4, 22), [c.TEMPORA_PASC3_0], [c.TEMPORA_PASC3_0], []),
+    ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], []),  # St. Mark, Evangelist
+    ((2018, 5, 10), [c.TEMPORA_PASC5_4], [c.TEMPORA_PASC5_4], []),  # Ascension, no comm.
+    ((2018, 5, 19), [c.TEMPORA_PASC6_6], [c.TEMPORA_PASC6_6], []),  # Vigil of Pentecost, no comm.
+    ((2018, 5, 21), [c.TEMPORA_PASC7_1], [c.TEMPORA_PASC7_1], []),  # Pentecost Octave, no comm.
+    ((2018, 5, 22), [c.TEMPORA_PASC7_2], [c.TEMPORA_PASC7_2], []),
+    ((2018, 5, 23), [c.TEMPORA_PASC7_3], [c.TEMPORA_PASC7_3], []),
+    ((2018, 5, 24), [c.TEMPORA_PASC7_4], [c.TEMPORA_PASC7_4], []),
+    ((2018, 5, 25), [c.TEMPORA_PASC7_5], [c.TEMPORA_PASC7_5], []),
+    ((2018, 5, 26), [c.TEMPORA_PASC7_6], [c.TEMPORA_PASC7_6], []),
+    ((2018, 5, 27), [c.TEMPORA_PENT01_0], [c.TEMPORA_PENT01_0], []),  # Trinity Sunday, no comm.
+    ((2018, 5, 31), [c.TEMPORA_PENT01_4], [c.TEMPORA_PENT01_4], []),  # Corpus Christi, no comm.
+    ((2018, 6, 10), [c.TEMPORA_PENT03_0], [c.TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
+    ((2018, 10, 28), [c.TEMPORA_PENT23_0], [c.SANCTI_10_DUr], []),  # Feast of Christ the King; no comm
+    ((2018, 11, 14), [c.TEMPORA_EPI5_3], [c.SANCTI_11_14], []),
+    ((2018, 11, 26), [c.TEMPORA_PENT24_1], [c.SANCTI_11_26], []),
+    ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
+    ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
     # Sanctae Mariae Sabbato
-    ((2019, 1, 5), [c.C_10B], []),
-    ((2019, 1, 12), [c.C_10B], []),
-    ((2019, 1, 19), [c.C_10B], [c.SANCTI_01_19]),
-    ((2019, 2, 16), [c.C_10C], []),
-    ((2015, 2, 14), [c.C_10C], [c.SANCTI_02_14]),
-    ((2019, 7, 6), [c.C_10T], []),
-    ((2019, 7, 27), [c.C_10T], [c.SANCTI_07_27]),
-    ((2016, 4, 23), [c.C_10PASC], [c.SANCTI_04_23]),
-    ((2017, 5, 6), [c.C_10PASC], []),
+    ((2019, 1, 5), [], [c.C_10B], []),
+    ((2019, 1, 12), [], [c.C_10B], []),
+    ((2019, 1, 19), [c.TEMPORA_EPI1_6], [c.C_10B], [c.SANCTI_01_19]),
+    ((2019, 2, 16), [c.TEMPORA_EPI5_6], [c.C_10C], []),
+    ((2015, 2, 14), [c.TEMPORA_QUADP2_6], [c.C_10C], [c.SANCTI_02_14]),
+    ((2019, 7, 6), [c.TEMPORA_PENT03_6], [c.C_10T], []),
+    ((2019, 7, 27), [c.TEMPORA_PENT06_6], [c.C_10T], [c.SANCTI_07_27]),
+    ((2016, 4, 23), [c.TEMPORA_PASC3_6], [c.C_10PASC], [c.SANCTI_04_23]),
+    ((2017, 5, 6), [c.TEMPORA_PASC2_6], [c.C_10PASC], []),
     # Days with multiple celebrations
-    ((2009, 12, 25), [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
-    ((2017, 12, 25), [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
-    ((2009, 11, 2), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
-    ((2017, 11, 2), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
-    ((2008, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
-    ((2014, 11, 3), [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2009, 12, 25), [], [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
+    ((2017, 12, 25), [], [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
+    ((2009, 11, 2), [c.TEMPORA_PENT22_1], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2017, 11, 2), [c.TEMPORA_PENT21_4], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2008, 11, 3), [c.TEMPORA_EPI4_1], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
+    ((2014, 11, 3), [c.TEMPORA_PENT21_1], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
     # Nativity Octave
-    ((2019, 12, 29), [c.NAT1_0], []),
-    ((2019, 12, 30), [c.NAT1_1], []),
-    ((2019, 12, 31), [c.NAT1_1], [c.SANCTI_12_31]),
-    ((2020, 12, 29), [c.NAT1_1], [c.SANCTI_12_29]),
-    ((2020, 12, 30), [c.NAT1_1], []),
-    ((2020, 12, 31), [c.NAT1_1], [c.SANCTI_12_31]),
+    ((2019, 12, 29), [c.NAT1_0], [c.NAT1_0], []),
+    ((2019, 12, 30), [c.NAT1_1], [c.NAT1_1], []),
+    ((2019, 12, 31), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_31]),
+    ((2020, 12, 29), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_29]),
+    ((2020, 12, 30), [c.NAT1_1], [c.NAT1_1], []),
+    ((2020, 12, 31), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_31]),
+    # Feria with commemoration
+    ((2020, 2, 13), [c.TEMPORA_QUADP1_4], [], []),
+    ((2020, 2, 17), [c.TEMPORA_QUADP2_1], [], []),
+    # Feria without commemoration
+    ((2020, 2, 14), [c.TEMPORA_QUADP1_5], [], [c.SANCTI_02_14]),
+    ((2020, 2, 18), [c.TEMPORA_QUADP2_2], [], [c.SANCTI_02_18]),
 ])
-def test_given_date_contains_proper_day_ids(date_, celebration, commemoration):
+def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemoration):
+    assert tempora == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).tempora]
     assert celebration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).celebration]
     assert commemoration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration]
 

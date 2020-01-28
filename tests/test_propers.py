@@ -113,6 +113,12 @@ def test_get_proper_from_day():
 
 @pytest.mark.parametrize("date_,id_,rank", [
     ((2018, 1, 4), 'sancti:01-01:1', 4),
+    ((2019, 1, 3), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 4), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 5), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2019, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 8), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
     ((2018, 1, 12), 'tempora:Epi1-0a:2', 4),  # Feast of the Holy Family
     ((2018, 2, 13), 'tempora:Quadp3-0:2', 4),
     ((2018, 7, 4), 'tempora:Pent06-0:2', 4),
@@ -123,8 +129,8 @@ def test_get_proper_for_day_without_own_proper(date_, id_, rank):
     # For days without their own propers we show the proper from the last Sunday
     missal = get_missal(date_[0], language)
     _, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
-    assert proper_latin.id == id_
-    assert proper_latin.rank == rank
+    assert id_ == proper_latin.id == id_
+    assert rank == proper_latin.rank
 
 
 def test_get_repr():
@@ -292,3 +298,15 @@ def test_sundays_shifted_from_post_epiphany_to_post_pentecost_have_proper_sectio
     assert offertorium in proper_latin.get_section(OFFERTORIUM).body[0]
     assert secreta in proper_latin.get_section(SECRETA).body[0]
     assert communio in proper_latin.get_section(COMMUNIO).body[0]
+
+
+@pytest.mark.parametrize("date_", [
+    (2020, 8, 20),
+    (2020, 1, 12)
+])
+def test_excluded_commemorations(date_):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    for stripped_section in (COMMEMORATED_ORATIO, COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO):
+        assert None is proper_vernacular.get_section(stripped_section)
+        assert None is proper_latin.get_section(stripped_section)

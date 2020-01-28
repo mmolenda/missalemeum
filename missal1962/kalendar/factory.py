@@ -152,7 +152,7 @@ class MissalFactory:
                            self.calendar.get_day(date_).tempora,
                            self.calendar.get_day(date_).celebration + shifted,
                            self.lang)
-            if results is None or not any(results):
+            if results is None:
                 continue
             return results
         return self.calendar.get_day(date_).celebration, [], []

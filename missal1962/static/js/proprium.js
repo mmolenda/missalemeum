@@ -12,6 +12,9 @@ $(window).on("load", function () {
      *
     **/
 
+    // Localized strings
+    const textFeria = "Feria";
+
     const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
     const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
     const $templateContentIntro = $("#template-content-intro").text();
@@ -83,12 +86,12 @@ $(window).on("load", function () {
 
             $.each(data, function(date, day) {
                 let parsedDate = moment(date, "YYYY-MM-DD");
-                let additional_info = [date];
+                let additional_info = [parsedDate.format("dd DD.MM.YYYY")];
                 let celebration;
                 if (day.celebration.length > 0) {
                     celebration = day.celebration[0].title;
                 } else {
-                    celebration = parsedDate.format("DD MMMM");
+                    celebration = textFeria;
                 }
                 if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
                     additional_info.push(day.tempora[0].title);
@@ -144,7 +147,8 @@ $(window).on("load", function () {
                 let supplements = info.supplements;
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
-                let additional_info = [date, mapRank(info.rank)];
+                let parsedDate = moment(date, "YYYY-MM-DD");
+                let additional_info = [parsedDate.format("dd DD.MM.YYYY"), mapRank(info.rank)];
                 if (info.tempora != null) {
                     additional_info.push(info.tempora);
                 }
@@ -152,9 +156,8 @@ $(window).on("load", function () {
                     $.merge(additional_info, info.additional_info);
                 }
 
-                let parsedDate = moment(date, "YYYY-MM-DD");
                 if (title == null) {
-                    title = parsedDate.format("DD MMMM");
+                    title = textFeria;
                 }
                 titles.push(title);
                 $(renderTemplate($templateContentIntro, {
