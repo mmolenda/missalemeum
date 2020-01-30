@@ -365,11 +365,11 @@ TITLES = {
     constants.SANCTI_10_DUr: 'Cristo Rei',
     constants.EPI1_0A: 'Domingo dentro do Oitavário da Epifania',
     constants.PENT01_0A: '1ª Domingo depois de Pentecostes',
-    constants.C_10A: '1ª Missa - Durante o Advento - Missa Roráte cœli da Virgem Maria',
-    constants.C_10B: '2ª Missa - Desde o Natal até à Purificação - Missa Vultum tuum da Virgem Maria',
-    constants.C_10C: '3º Missa na święta N. M. P. – Salve, Sancta Parens',
-    constants.C_10PASC: '3ª Missa - Desde a Purificação até à Páscoa - Missa Salve, sancta Parens da Virgem Maria',
-    constants.C_10T: '5ª Missa - Desde o Pentecostes até ao Advento - Missa Salve, sancta Parens da Virgem Maria',
+    constants.C_10A: '1ª Missa da Virgem Maria - Missa Roráte cœli',
+    constants.C_10B: '2ª Missa da Virgem Maria - Missa Vultum tuum',
+    constants.C_10C: '3º Missa da Virgem Maria – Salve, Sancta Parens',
+    constants.C_10PASC: '4 Missa da Virgem Maria – Salve, Sancta Parens',
+    constants.C_10T: '5ª Missa da Virgem Maria - Missa Salve, sancta Parens',
     constants.SANCTI_01_01: 'Circuncisão do Senhor e Oitava do Natal',
     constants.SANCTI_01_06: 'Epifania do Senhor',
     constants.SANCTI_01_13: 'Dia da oitava da Epifania',
@@ -413,11 +413,11 @@ TITLES = {
     constants.SANCTI_03_04: 'S. Casimiro, Confessor',
     constants.SANCTI_03_06: 'S.S. Perpétua e Felicidade, Mártires',
     constants.SANCTI_03_07: 'S. Tomás de Aquino, Confessor e Doutor da Igreja',
-
+    constants.SANCTI_03_08: 'S. João de Deus, Confessor',
     constants.SANCTI_03_09: 'S. Francisca Romana, Viúva',
     constants.SANCTI_03_10: 'S.S. Quarenta Mártires',
     constants.SANCTI_03_12: 'S. Gregório, Papa, Confessor e Doutor da Igreja',
-
+    constants.SANCTI_03_17: 'S. Patrício, Bispo e Confessor',
     constants.SANCTI_03_18: 'S. Cirilo de Jerusalém, Bispo, Confessor e Doutor da Igreja',
     constants.SANCTI_03_19: 'S. José, Esposo de Nossa Senhora',
     constants.SANCTI_03_21: 'S. Bento, Abade',
@@ -434,7 +434,7 @@ TITLES = {
     constants.SANCTI_04_17: 'S. Aniceto, Papa e Mártir',
     constants.SANCTI_04_21: 'S. Anselmo, Bispo, Confessor e Doutor da Igreja',
     constants.SANCTI_04_22: 'S.S. Sotero e Caio, Papas e Mártires',
-
+    constants.SANCTI_04_23: 'S. Jorge, Mártir',
     constants.SANCTI_04_24: 'S. Fiel de Sigmaringen, Mártir',
     constants.SANCTI_04_25: 'S. Marcos, Evangelista',
     constants.SANCTI_04_26: 'S.S. Cleto e Marcelino, Papas e Mártires',
@@ -444,7 +444,7 @@ TITLES = {
     constants.SANCTI_04_30: 'S. Catarina de Sena, Virgem',
     constants.SANCTI_05_01: 'S. José, Operário',
     constants.SANCTI_05_02: 'S. Atanásio, Bispo, Confessor e Doutor da Igreja',
-
+    constants.SANCTI_05_03: 'S. Alexandre, Papa e Mártir',
     constants.SANCTI_05_04: 'S. Mónica, Viúva',
     constants.SANCTI_05_05: 'S. Pio V, Papa e Confessor',
     constants.SANCTI_05_07: 'S. Estanislau, Bispo e Mártir',
@@ -455,7 +455,7 @@ TITLES = {
     constants.SANCTI_05_13: 'S. Roberto Belarmino, Bispo, Confessor e Doutor da Igreja',
     constants.SANCTI_05_14: 'S. Bonifácio, Mártir',
     constants.SANCTI_05_15: 'S. João Baptista de la Salle, Confessor',
-
+    constants.SANCTI_05_16: 'S. Ubaldo, Bispo e Confessor',
     constants.SANCTI_05_17: 'S. Pascoal Bailão, Confessor',
     constants.SANCTI_05_18: 'S. Venâncio, Mártir',
     constants.SANCTI_05_19: 'S. Pedro Celestino, Papa e Confessor',
@@ -467,13 +467,13 @@ TITLES = {
     constants.SANCTI_05_29: 'S. Maria Madalena de Pazzi, Virgem',
     constants.SANCTI_05_30: 'S. Félix I, Papa e Mártir',
     constants.SANCTI_05_31: 'Nossa Senhora, Rainha',
-
+    constants.SANCTI_06_01: 'Santa Angela Mericia',
     constants.SANCTI_06_02: 'S.S. Marcelino e Pedro, Mártires e Erasmo, Bispo',
     constants.SANCTI_06_04: 'S. Francisco Caraccíolo, Confessor',
     constants.SANCTI_06_05: 'S. Bonifácio, Bispo e Mártir',
     constants.SANCTI_06_06: 'S. Norberto, Bispo e Confessor',
     constants.SANCTI_06_09: 'S.S. Primo e Feliciano, Mártires',
-
+    constants.SANCTI_06_10: 'Santa Margarida, Viúva',
     constants.SANCTI_06_11: 'S. Barnabé, Apóstolo',
     constants.SANCTI_06_12: 'S. João de Facundo, Confessor',
     constants.SANCTI_06_13: 'S. António de Lisboa, Confessor e Doutor da Igreja',
@@ -505,13 +505,13 @@ TITLES = {
     constants.SANCTI_07_15: 'S. Henrique, Imperador e Confessor',
     constants.SANCTI_07_16: 'B. V. Maria do Monte Carmelo',
     constants.SANCTI_07_17: 'S. Aleixo, Confessor',
-
+    constants.SANCTI_07_18: 'S. Camilo de Lelis',
     constants.SANCTI_07_19: 'S. Vicente de Paulo, Confessor',
-
+    constants.SANCTI_07_20: 'S. Jerónimo Emiliano',
     constants.SANCTI_07_21: 'S. Praxedes de Brindisi, Confessor e Doutor da Igreja',
     constants.SANCTI_07_22: 'S. Maria Madalena, Penitente',
     constants.SANCTI_07_23: 'S. Apolinário, Bispo e Mártir',
-
+    constants.SANCTI_07_24: 'Santa Cristina',
     constants.SANCTI_07_25: 'S. Tiago, Apóstolo',
     constants.SANCTI_07_26: 'S. Ana, Mãe de Nossa Senhora',
     constants.SANCTI_07_27: 'S. Pantaleão, Mártir',
@@ -543,7 +543,7 @@ TITLES = {
     constants.SANCTI_08_23: 'S. Filipe Benício, Confessor',
     constants.SANCTI_08_24: 'S. Bartolomeu, Apóstolo',
     constants.SANCTI_08_25: 'S. Luís, Rei de França e Confessor',
-
+    constants.SANCTI_08_26: 'S. Zeferino',
     constants.SANCTI_08_27: 'S. José Calasans, Confessor',
     constants.SANCTI_08_28: 'S. Agostinho, Bispo, Confessor e Doutor da Igreja',
     constants.SANCTI_08_29: 'Degolação de  S. João Baptista',
@@ -574,7 +574,7 @@ TITLES = {
     constants.SANCTI_09_28: 'S. Venceslau, Mártir',
     constants.SANCTI_09_29: 'Dedicação de S. Miguel Arcanjo',
     constants.SANCTI_09_30: 'S. Jerónimo, Presbítero Confessor e Doutor',
-
+    constants.SANCTI_10_01: 'S. Remigio',
     constants.SANCTI_10_02: 'Santos Anjos da Guarda',
     constants.SANCTI_10_03: 'Santa Teresa do Menino Jesus',
     constants.SANCTI_10_04: 'S. Francisco',
@@ -608,7 +608,7 @@ TITLES = {
     constants.SANCTI_11_10: 'S. André de Avelino, Confessor',
     constants.SANCTI_11_11: 'S. Martinho, Bispo e Confessor',
     constants.SANCTI_11_12: 'S. Martinho I, Papa e Mártir',
-
+    constants.SANCTI_11_13: 'S. Diogo, Confessor',
     constants.SANCTI_11_14: 'S. Josafá, Bispo e Mártir',
     constants.SANCTI_11_15: 'S. Alberto Magno, Bispo, Confessor e Doutor da Igreja',
     constants.SANCTI_11_16: 'S. Gertrudes, Virgem',
@@ -647,7 +647,7 @@ TITLES = {
     constants.SANCTI_12_31: 'S. Silvestre'
 }
 
-SECTION_LABELS  = {
+SECTION_LABELS = {
     'Communicantes': 'Communicantes',
     'CommunioP': 'Comúnio',
     'Communio': 'Comúnio',
