@@ -731,7 +731,7 @@ PATERNOSTER = \
     "Venha a nós o Vosso reino;\n" \
     "Seja feita a Vossa vontade, assim na terra como no céu.\n" \
     "O pão nosso de cada dia nos dai hoje;\n" \
-    "Perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido;\n" \
+    "Perdoai-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores;\n" \
     "E não nos deixeis cair em tentação.\n" \
     "Mas livrai-nos do mal. "
 
@@ -752,12 +752,12 @@ TRANSFORMATIONS = (
     (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^[&$]Gloria\.*'), 'Glória ao Pai.'),
-    (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Por nosso Senhor.'),
-    (re.compile(r'^\$Per Dominum\.*'), 'Por nosso Senhor'),
-    (re.compile(r'^\$Per eu[mn]dem\.*'), 'Pelo mesmo nosso Senhor.'),
-    (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Que convosco vive.'),
-    (re.compile(r'^\$Qui tecum\.*'), 'Que convosco vive.'),
-    (re.compile(r'^\$Qui vivis\.*'), 'Ó Vós, que viveis.'),
+    (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Por nosso Senhor...'),
+    (re.compile(r'^\$Per Dominum\.*'), 'Por nosso Senhor...'),
+    (re.compile(r'^\$Per eu[mn]dem\.*'), 'Pelo mesmo nosso Senhor...'),
+    (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Que convosco vive...'),
+    (re.compile(r'^\$Qui tecum\.*'), 'Que convosco vive...'),
+    (re.compile(r'^\$Qui vivis\.*'), 'Ó Vós, que viveis...'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Graças a Deus.'),
     (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. O Senhor seja convosco. \n\rR. E com o vosso espírito.'),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),

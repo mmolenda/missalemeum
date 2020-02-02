@@ -375,6 +375,14 @@ ADVENT = (
     (constants.TEMPORA_ADV4_5,),
 )
 
+NATIVITY_OCTAVE_SUNDAY = (
+    (constants.NAT1_0,),
+)
+
+NATIVITY_OCTAVE_FERIA = (
+    (constants.NAT1_1,),
+)
+
 HOLY_NAME = (
     (constants.NAT2_0,),
 )
