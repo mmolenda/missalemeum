@@ -361,6 +361,7 @@ TITLES = {
     constants.TEMPORA_ADV4_4: 'Feria V after IV Sunday of Advent',
     constants.TEMPORA_ADV4_5: 'Feria VI after IV Sunday of Advent',
     constants.NAT1_0: 'Sunday in the Octave of Christmas',
+    constants.NAT1_1: 'Feria in the Octave of Christmas',
     constants.NAT2_0: '	Holy Name of Jesus',
     constants.SANCTI_10_DUr: 'Christ the King',
     constants.EPI1_0A: 'Sunday after Epiphany',

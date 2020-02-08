@@ -25,7 +25,7 @@ api = Blueprint('api', __name__)
 
 
 @api.route('/api/v2/date/<string:date_>')
-# @api.route('/<string:lang>/api/v2/date/<string:date_>')
+@api.route('/<string:lang>/api/v2/date/<string:date_>')
 def v2_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
@@ -39,7 +39,7 @@ def v2_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
 
 
 @api.route('/api/v2/proper/<string:proper_id>')
-# @api.route('/<string:lang>/api/v2/proper/<string:proper_id>')
+@api.route('/<string:lang>/api/v2/proper/<string:proper_id>')
 def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
@@ -51,8 +51,8 @@ def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route("/api/v2/supplement/<string:resource>")
 @api.route("/api/v2/supplement/<subdir>/<string:resource>")
-# @api.route("/api/v2/<string:lang>/supplement/<string:resource>")
-# @api.route("/api/v2/<string:lang>/supplement/<subdir>/<string:resource>")
+@api.route("/api/v2/<string:lang>/supplement/<string:resource>")
+@api.route("/api/v2/<string:lang>/supplement/<subdir>/<string:resource>")
 def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULAR):
 
     try:
@@ -65,8 +65,8 @@ def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULA
 
 @api.route('/api/v2/calendar')
 @api.route('/api/v2/calendar/<int:year>')
-# @api.route('/<string:lang>/api/v2/calendar')
-# @api.route('/<string:lang>/api/v2/calendar/<int:year>')
+@api.route('/<string:lang>/api/v2/calendar')
+@api.route('/<string:lang>/api/v2/calendar/<int:year>')
 def v2_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
     if year is None:
         year = datetime.datetime.now().date().year
@@ -76,8 +76,8 @@ def v2_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route('/api/v2/icalendar')
 @api.route('/api/v2/icalendar/<int:rank>')
-# @api.route('/<string:lang>/api/v2/icalendar')
-# @api.route('/<string:lang>/api/v2/icalendar/<int:rank>')
+@api.route('/<string:lang>/api/v2/icalendar')
+@api.route('/<string:lang>/api/v2/icalendar/<int:rank>')
 def v2_ical(rank: int = 2, lang: str = LANGUAGE_VERNACULAR):
     try:
         rank = int(rank)

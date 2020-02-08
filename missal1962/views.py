@@ -40,8 +40,8 @@ def render_template_or_404(template, **context):
 
 @views.route("/")
 @views.route("/<string:date_>")
-# @views.route("/<string:lang>")
-# @views.route("/<string:lang>/<string:date_>")
+@views.route("/<string:lang>")
+@views.route("/<string:lang>/<string:date_>")
 def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
     if date_ is not None:
         try:
@@ -61,7 +61,7 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
 
 
 @views.route("/ordo")
-# @views.route("/<string:lang>/ordo")
+@views.route("/<string:lang>/ordo")
 def ordo(lang: str = LANGUAGE_VERNACULAR):
     with open(os.path.join(views.root_path, "static", "data", "ordo.json")) as fh:
         data = json.load(fh)
@@ -94,8 +94,8 @@ canticum_index = CanticumIndex()
 
 @views.route("/canticum")
 @views.route("/canticum/<string:canticum_id>")
-# @views.route("/<string:lang>/canticum")
-# @views.route("/<string:lang>/canticum/<string:canticum_id>")
+@views.route("/<string:lang>/canticum")
+@views.route("/<string:lang>/canticum/<string:canticum_id>")
 def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
     index = canticum_index.get(lang)
     title = None
@@ -110,9 +110,9 @@ def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
 @views.route("/supplement/<subdir>/<string:resource>")
-# @views.route("/<string:lang>/supplement")
-# @views.route("/<string:lang>/supplement/<string:resource>")
-# @views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
+@views.route("/<string:lang>/supplement")
+@views.route("/<string:lang>/supplement/<string:resource>")
+@views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
 def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: str = None):
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
@@ -135,7 +135,7 @@ def icalendar():
 
 
 @views.route("/info")
-# @views.route("/<string:lang>/info")
+@views.route("/<string:lang>/info")
 def info(lang: str = LANGUAGE_VERNACULAR):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
 
