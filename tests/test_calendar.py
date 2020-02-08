@@ -18,7 +18,7 @@ def _to_date_obj(date_str):
     return datetime.strptime(date_str, '%Y-%m-%d').date() if date_str else None
 
 
-with open(os.path.join(HERE, 'tempora_fixtures.json')) as fh:
+with open(os.path.join(HERE, 'fixtures/tempora.json')) as fh:
     expected = json.load(fh)
 
 
