@@ -1015,6 +1015,11 @@ CUSTOM_INTER_READING_SECTIONS = {
     SANCTI_05_02: GRADUALE
 }
 
+OBSERVANCES_WITHOUT_OWN_PROPER = (
+    # Advent feria except Ember Days
+    re.compile('tempora:Adv[124]-[1-6]'),
+    re.compile('tempora:Adv[3]-[124]'),
+)
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')

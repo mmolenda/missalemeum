@@ -3,12 +3,14 @@ import logging
 import os
 import re
 
+import utils
 from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT)
+                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT,
+                              OBSERVANCES_WITHOUT_OWN_PROPER)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -32,7 +34,8 @@ class ProperParser:
         self.config = config or ProperConfig()
 
     def proper_exists(self) -> bool:
-        return os.path.exists(self._get_full_path(self._get_partial_path(), self.lang))
+        return not utils.match(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
+               and os.path.exists(self._get_full_path(self._get_partial_path(), self.lang))
 
     def parse(self) -> Tuple[Proper, Proper]:
         self.translations[self.lang] = importlib.import_module(f'constants.{self.lang}.translation')

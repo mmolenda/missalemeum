@@ -8,12 +8,16 @@ from constants.common import CUSTOM_PREFACES
 from exceptions import SupplementNotFound
 
 
-def match(observances: List['Observance'], patterns: Union[List[str], str]):
+def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
+          patterns: Union[List[str], str, List[re.Pattern], re.Pattern]):
+    if not isinstance(observances, (list, tuple)):
+        observances = [observances]
     if not isinstance(patterns, (list, tuple)):
         patterns = [patterns]
     for observance in observances:
+        observance_id = observance if isinstance(observance, str) else observance.id
         for pattern in patterns:
-            if re.match(pattern, observance.id):
+            if re.match(pattern, observance_id):
                 return observance
 
 
