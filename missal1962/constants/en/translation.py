@@ -754,6 +754,7 @@ TRANSFORMATIONS = (
     (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^[&$]Gloria\.*'), 'Glory Be to the Father.'),
+    (re.compile(r'^\$Oremus\.*'), 'Let us pray.'),
     (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Through our Lord.'),
     (re.compile(r'^\$Per Dominum\.*'), 'Through our Lord.'),
     (re.compile(r'^\$Per eu[mn]dem\.*'), 'Through the same Christ our Lord.'),
