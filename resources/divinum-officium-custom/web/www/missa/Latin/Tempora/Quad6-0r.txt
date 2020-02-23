@@ -68,6 +68,7 @@ _
 [De lectione Evangelica]
 ! Ramorum distributione peracta, diaconus defert librum Evangeliorum ad altare. Celebrans ponit incensum in thuribulo. Diaconus fiunt omnia ut in Missa quando Evangelium decantandum est.
 
+[Munda Cor Passionis]
 v. Munda cor meum ac labia mea, omnípotens Deus, qui labia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum, Dóminum nostrum. Amen.
 D. Jube, domne, benedícere.
 
