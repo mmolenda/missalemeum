@@ -1,0 +1,249 @@
+[Rank]
+Feria Quinta in Coena Domini;;Feria privilegiata Duplex I classis;;7
+
+[Rule]
+Gloria
+Prefatio=Quad5
+Communicantes
+Post Missam
+Maundi
+Ter miserere
+no Pax
+no Qui dixisti
+Benedicamus Domino
+no Benedictio
+no Ultima Evangelium
+
+[Introitus]
+!Gal 6:14.
+v. But it behooves us to glory in the cross of Our Lord Jesus Christ: in Whom is our salvation, life, and resurrection; by whom we are saved and delivered.
+!Ps. 66. 2
+May God have mercy on us, and bless us: may He cause the light of His countenance to shine upon us; and may He have mercy on us.
+v. But it behooves us to glory in the cross of Our Lord Jesus Christ: in Whom is our salvation, life, and resurrection; by whom we are saved and delivered.
+
+[Oratio]
+O God, from whom Judas received the punishment of his guilt, and the thief the reward of his confession: grant unto us the full fruit of Thy clemency; that even as in His Passion, our Lord Jesus Christ gave to each a retribution according to his merits, so having taken away our old sins, He may bestow upon us the grace of His Resurrection. Who with Thee liveth and reigneth in the unity of the Holy Ghost, God, world without end.
+$Qui tecum
+
+[Lectio]
+Lesson from the first letter of blessed Paul the Apostle to the Corinthians
+!1 Cor 11:20-32.
+Brethren, When you come therefore into one place, it is not now to eat the Lord's supper. For every one taketh before his own supper to eat. And one indeed is hungry and another is drunk. What, have you not houses to eat and to drink in? Or despise ye the church of God and put them to shame that have not? What shall I say to you? Do I praise you? In this I praise you not. For I have received of the Lord that which I also delivered unto you, that the Lord Jesus, the same night in which He was betrayed, took bread, and giving thanks, broke and said: Take ye and eat: This is My Body, which shall be delivered for you. This do for the commemoration of Me. In like manner also the chalice, after He had supped, saying: This chalice is the new testament in My Blood. This do ye, as often as you shall drink, for the commemoration of Me. For as often as you shall eat this bread and drink the chalice, you shall show the death of the Lord, until He come. Therefore, whosoever shall eat this bread, or drink the chalice of the Lord unworthily, shall be guilty of the Body and the Blood of the Lord. But let a man prove himself; and so let him eat of that bread and drink of the chalice. For he that eateth and drinketh unworthily eateth and drinketh judgment to himself, not discerning the Body of the Lord. Therefore are there many infirm and weak among you: and many sleep. But if we would judge ourselves, we should not be judged. But whilst we are judged, we are chastised by the Lord, that we be not condemned with this world.      
+ 
+[Graduale]
+!Phil 2:8-9
+Christ became obedient for us unto death, even to the death of the cross. 
+V. For which cause God also exalted Him and hath given Him a Name which is above all names.
+
+[Evangelium]
+Continuation ++ of the holy Gospel according to John
+!Joann 13:1-15
+Before the festival-day of the Pasch, Jesus knowing that His hour was come, that He should pass out of this world to the Father, having loved His own who were in the world. He loved them unto the end. And when supper was done - the devil having now put into the heart of Judas, the son of Simon the Iscariot, to betray Him, - knowing that the Father had given Him all things into His hands and that He came from God and goeth to God: He riseth from supper and layeth aside His garments and, having taken a towel, girded Himself. After that, He putteth water into a basin and began to wash the feet of the disciples and to wipe them with the towel wherewith He was girded. He cometh therefore to Simon Peter. And Peter saith to Him: Lord, dost Thou wash my feet? Jesus answered and said to him: What I do, thou knowest not now: but thou shalt know hereafter. Peter saith to Him: Thou shalt never wash my feet. Jesus answered him: If I wash thee not, thou shalt have no part with Me. Simon Peter saith to Him: Lord, not only my feet, but also my hands and my head. Jesus saith to him: He that is washed needeth not but to wash his feet, but is clean wholly. And you are clean, but not all. For He knew who he was that would betray Him; therefore He said: You are not all clean. Then after He had washed their feet and taken His garments, being set down again, He said to them: Know you what I have done to you? You call Me Master and Lord. And you say well; for so I am. If then I being your Lord and Master, have washed your feet, you also ought to wash one another's feet. For I have given you an example, that as I have done to you, so you do also.
+
+[Maundi]
+! Po kazaniu odbywa się obrzęd umywania nóg, Celebrans zdejmuje ornat, przepasuje się ręcznikiem i umywa nogi dwunastu mężczyznom duchownym lub świeckim, którzy siedzą na przygotowanych miejscach w prezbiterium lub w nawie kościoła. Celebrans przed każdym z nich przyklęka, umywa i ociera prawą stopę.
+! W ten obrazowy sposób Kościół poucza swe dzieci o konieczności wiernego wypełnienia przykazania miłości bliźniego, które Pan Jezus w czasie Ostatniej Wieczerzy nazwał «swoim przykazaniem» i uczynił je znakiem rozpoznawczym swoich uczniów. Oddając za nas własne życie na krzyżu Chrystus wskazał, że musimy być gotowi na poświęcenie dla braci.
+_
+_
+!Antyfona 1
+!J 13:34
+Ant. «Przykazanie nowe daję wam, abyście się wzajemnie miłowali, jakom ja was umiłował» – mówi Pan.
+!Ps 118:1
+Błogosławieni, których droga jest niepokalana: którzy postępują zgodnie z prawem Pańskim.
+Ant. «Przykazanie nowe daję wam, abyście się wzajemnie miłowali, jakom ja was umiłował» 
+_
+!Antyfona 2
+!J 13:4,5,15
+Ant. Gdy Pan wstał od wieczerzy, nalał wody w miednicę i począł umywać nogi swoich uczniów. Ten przykład im zostawił.
+!Ps 47:2
+Wielki jest Pan i godny wszelkiej chwały w mieście Boga naszego, na świętej Jego górze.
+Ant. Gdy Pan wstał od wieczerzy, nalał wody w miednicę i począł umywać nogi swoich uczniów. Ten przykład im zostawił. 
+_
+!Antyfona 3
+!J 13:12,13,15
+Ant. Pan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił, ja, Pan i Mistrz? Przykład dałem wam, abyście i wy tak czynili».
+!Ps 84:2
+Łaskawym okazałeś się, Panie, dla Twej ziemi; na dobre odmieniłeś los Jakuba.
+Ant. Pan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił, ja, Pan i Mistrz? Przykład dałem wam, abyście i wy tak czynili». 
+_
+!Antyfona 4
+!J 13:6-7,8
+Ant. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną».
+V. Zbliża się tedy do Szymona Piotra i rzecze mu Piotr:
+Ant. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną».
+V. «Co ja czynię, ty jeszcze nie rozumiesz, ale zrozumiesz potem».
+Ant. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną». 
+_
+!Antyfona 5
+!J 13:14
+Ant. «Jeśli ja, Pan i Mistrz wasz, umyłem nogi wasze, o ileż bardziej wy powinniście jeden drugiemu nogi umywać?»
+!Ps 48:2
+Słuchajcie tego, wszystkie narody, nakłońcie uszy, wszyscy mieszkańcy ziemi.
+Ant. «Jeśli ja, Pan i Mistrz wasz, umyłem nogi wasze, o ileż bardziej wy powinniście jeden drugiemu nogi umywać?» 
+_
+!Antyfona 6
+!J 13:35
+Ant. «Po tym poznają wszyscy, żeście uczniami moimi, jeśli miłość mieć będziecie jeden ku drugiemu».
+V. Rzekł Jezus uczniom swoim.
+Ant. «Po tym poznają wszyscy, żeście uczniami moimi, jeśli miłość mieć będziecie jeden ku drugiemu». 
+_
+!Antyfona 7
+!1 Kor 13:13
+Ant. Niech trwają w was wiara, nadzieja i miłość: to troje, a z tych największa jest miłość.
+V. Teraz tedy trwają wiara, nadzieja i miłość: to troje, a z tych największa jest miłość.
+Ant. Niech trwają w was wiara, nadzieja i miłość: to troje, a z tych największa jest miłość. 
+_
+!Antyfona 8
+! Następująca 8 antyfonę z jej wersetami zawsze należy wykonać. Jeżeli brakuje czasu, można opuścić poprzednie.
+v. Tam, gdzie miłość, ukochanie, tam jest także Bóg.
+V. W jedno nas tu zgromadziła Chrystusowa miłość.
+V. W Nim się tedy cieszmy wszyscy i weselmy.
+V. Boga bójmy się żywego i kochajmy.
+V. I miłujmy się nawzajem sercem szczerym.
+v. Tam, gdzie miłość, ukochanie, tam jest także Bóg.
+V. Gdy się przeto gromadzimy wszyscy razem.
+V. By się duchem nie rozdzielać, pilnie baczmy.
+V. Niech ustaną złe niesnaski, niech ustaną spory.
+V. A pośrodku nas niech stanie Chrystus Bóg.
+v. Tam, gdzie miłość, ukochanie, tam jest także Bóg.
+V. Razem także ze świętymi daj nam widzieć.
+V. Pośród chwały Twe oblicze, Chryste Boże.
+V. Radość, która nie zna miary i szlachetna jest.
+V. Poprzez wszystkie nieskończone wieki wieków. Amen. 
+_
+! Skończywszy umywanie nóg celebrans wkłada ornat, staje przed środkiem ołtarza i śpiewa następujące modlitwy:
+_
+Ojcze nasz… (po cichu).
+V. I nie wódź nas na pokuszenie.
+R. Ale nas zbaw ode złego.
+V. Tyś rozkazał, Panie, przykazania Twoje.
+R. Zachowywać pilnie.
+V. Tyś umył nogi uczniom Twoim.
+R. Nie wzgardzaj dziełem rąk Swoich.
+V. Panie, wysłuchaj modlitwę moją.
+R. A wołanie moje niech do Ciebie przyjdzie.
+V. Pan z wami.
+R. I z duchem twoim.
+v. Módlmy się.
+Wspomóż, prosimy Cię, Panie, naszą posługę i ponieważ sam raczyłeś umyć nogi uczniom swoim, nie gardź czynnością Twoich rąk, którą poleciłeś nam naśladować; gdy sami obmywamy zewnętrzny brud, zmyj, Panie, w duszach naszych grzechowe zmazy. Racz tego dokonać Ty, który żyjesz i królujesz, Bóg przez wszystkie wieki wieków. 
+R. Amen. 
+
+[Offertorium]
+!Ps 117:16 et 17.
+The right hand of the Lord hath wrought strength: the right hand of the Lord hath exalted me. I shall not die, but live, and shall declare the works of the Lord.
+
+[Secreta]
+We beseech Thee, O holy Lord, Father almighty, everlasting God, that He Himself may render our Sacrifice acceptable to Thee, Who, by the tradition of today, taught His disciples to do this in remembrance of Him, Jesus Christ, Thy Son, our Lord,
+$Qui tecum
+
+[Communicantes]
+Communicating and celebrating the most sacred day in which our Lord Jesus Christ was betrayed for us: and also honoring in the first place the memory of the glorious and ever Virgin Mary, mother of our God and Lord Jesus Christ as also of the blessed Joseph, her Spouse,
+and of the blessed Apostles and Martyrs Peter and Paul, Andrew, James, John, Thomas, James, Philip, Bartholomew, Matthew, Simon, and Thaddeus; Linus, Cletus, Clement, Xystus, Cornelius, Cyprian, Lawrence, Chrysogonus, John and Paul, Cosmas and Damian, and of all Thy Saints, through whose merits and prayers, grant that we may in all things be defended by the help of Thy protection. (He joins his hands.) Through the same Christ our Lord. Amen.   
+_
+_
+We therefore beseech Thee, O Lord, graciously to accept this offering of our service, and that of Thy whole family, which we make to Thee in memory of the day on which our Lord Jesus Christ gave to His disciples the Mysteries of His Body and Blood to be celebrated; and to dispose our day in Thy peace preserve us from eternal damnation, and rank us in the number of Thine Elect. (He joins his hands.) Through the same Christ our Lord. Amen. 
+_
+_
+v. Which oblation do Thou, O God, vouchsafe in all respects, (He signs thrice the oblation with the Sign of the Cross.) to bless, + approve, + ratify, + make worthy and acceptable; (He signs again the Host and chalice with the Sign of the Cross.) that it may be made for us the Body + and Blood + of Thy most beloved Son Jesus Christ our Lord. 
+_
+_
+Who, the day before He suffered for our salvation and that of all men, that is, on this day, took bread into His most sacred and venerable hands (He raises his eyes to heaven.) and with His eyes lifted up towards heaven unto Thee, God, His almighty Father, giving thanks to Thee, (He signs the host with the Sign of the Cross) He blessed + it, broke it and gave it to His disciples saying: Take and eat ye all of this, 
+
+[Communio]
+!Joann 13:12, 13 et
+The Lord Jesus, after He had supped with His disciples, washed their feet, and said to them: Know you what I, your Lord and Master, have done to you? I gave you an example, that you also may do likewise.
+
+[Postcommunio]
+Strengthened with life-giving Food, we beseech Thee, O Lord, our God, that what we do in our mortal life may bring us to the reward of life immortal with Thee. 
+$Per Dominum
+
+[Post Missam]
+! Po skończeniu Mszy św. kapłan zmienia ornat na kapę i okadziwszy Najświętszy Sakrament przenosi Go w uroczystej procesji do przygotowanej specjalnie kaplicy. W czasie procesji śpiewa się hymn.
+
+v. Sing, my tongue, the Saviour's glory:
+Of His Flesh the mystery sing;
+Of His Blood all price exceeding.
+Shed by our immortal King.
+Destined for the world's redemption
+From a noble womb to spring. 
+_
+v. Of a pure and spotless Virgin,
+Born for us on earth below,
+He, as Man with man conversing,
+Stayed the seeds of truth to sow,
+Then He closed in solemn order
+Wondrously His life of woe.     
+_
+v. On the night of His last supper,
+Seated with His chosen band,
+He, the paschal victim eating,
+First fulfills the Law's command;
+Then as food to all His brethren
+Gives himself with His own hand.    
+_
+v. Word made Flesh, the bread of nature,
+By His words to Flesh He turns;
+Wine into His Blood He changes:
+What though sense no change discerns,
+Only be the heart in earnest,
+Faith her lesson quickly learns.    
+
+v. Down in adoration falling,
+Lo, the Sacred Host we hail,
+Lo, o'er ancient forms departing
+Newer rites of grace prevail;
+Faith for all defects supplying,
+Where the feeble senses fail. 
+_
+v. To the everlasting Father
+And the Son who reigns on high
+With the Holy Ghost proceeding
+Forth from each eternally,
+Be salvation, honor, blessing,
+Might and endless majesty.
+Amen.
+_
+_
+[Denudatione altaris]
+_
+! W pierwszych wiekach Kościoła zawsze po skończeniu Mszy św. zdejmowano z ołtarza obrusy. Dzisiaj jednak czynność ta ma znaczenie symboliczne. Ołtarz, jak wiadomo, przedstawia samego Chrystusa Pana. Uroczyste obnażenie ołtarzy przypomina, że w czasie męki odarto Zbawiciela z szat usiłując zbezcześcić Jego ludzką godność. W czasie obnażania ołtarzy recytuje się psalm 21, który Pan Jezus odmawiał na krzyżu, stwierdzając w ten sposób, że jest on proroczą wizją Jego męki.
+
+
+!Antyfona
+!Ps 21:19
+Ant. Dzielą między siebie moje szaty i o suknię moją los rzucają.
+~(21:2) Boże mój, Boże mój, czemuś mnie opuścił? * Daleki jesteś od próśb, od słów mojego wołania.
+~(21:3) Boże mój, wołam przez dzień, a nie słuchasz, * wołam i nocą, a nie zważasz na mnie.
+~(21:4) A przecież Ty mieszkasz w świątyni, * Chwało Izraela!
+~(21:5) Tobie zaufali ojcowie nasi, * zaufali, a Tyś ich uwolnił;
+~(21:6) Do Ciebie wołali i zostali zbawieni, * Tobie ufali i nie doznali wstydu.
+~(21:7) Ja zaś jestem robak a nie człowiek, * pośmiewisko ludzi i wzgarda pospólstwa.
+~(21:8) Szydzą ze mnie wszyscy, którzy na mnie patrzą, * wargi rozwierają, potrząsają głową:
+~(21:9) «Zaufał Panu: niechże Go wyzwoli, * niechże Go wyrwie, jeśli Go miłuje».
+~(21:10) Tyś zaiste prowadził mnie od matczynego łona; * Tyś mnie czynił bezpiecznym u piersi mej matki.
+~(21:11) Tobie od urodzenia zostałem oddany, * od łona matki mojej Tyś jest moim Bogiem.
+~(21:12) Nie stój z dala ode mnie, bom jest trapiony, * bądź blisko: bo nie ma wspomożyciela.
+~(21:13) Otoczyło mnie mnóstwo cielców, * Byki Baszanu mnie osaczają.
+~(21:14) Rozwierają przeciwko mnie swoje paszcze, * jak lew drapieżny, ryczący.
+~(21:15) Rozlałem się jak woda * i rozłączyły się wszystkie me kości:
+~(21:15) Jak wosk się stała me serce * we wnętrzu moim topnieje.
+~(21:16) Gardło me wyschło jak skorupa * język mój przywarł do podniebienia, w proch śmierci mnie obróciłeś.
+~(21:17) Bo sfora psów mnie opadła, * osacza mnie zgraja złoczyńców.
+~(21:18) Przebodli ręce i nogi moje, * policzyć mogę wszystkie moje kości.
+~(21:19) A oni się wpatrują, sycą się mym widokiem; między siebie dzielą moje szaty * i los rzucają o moją suknię.
+~(21:20) Ty zaś, o Panie, nie stój z daleka: * pomocy moja, śpiesz mi na ratunek.
+~(21:21) Wyrwij spod miecza mą duszę * i życie me z psich pazurów.
+~(21:22) Wybaw mnie z lwiej paszczęki * i mnie biednego od rogów bawolich.
+~(21:23) Imię Twoje opowiem swym braciom * i chwalić Cię będę pośród zgromadzenia.
+~(21:24) «Chwalcie Go wy, co się Pana boicie; sławcie Go, całe potomstwo Jakuba: * czcijcie Go, całe potomstwo Izraela.
+~(21:25) Bo On nie wzgardził ani nie brzydził się nędzą biedaka.
+~(21:25) Ani nie ukrył przed nim swojego oblicza * i wysłuchał go, kiedy zawołał do Niego».
+~(21:26) Od Ciebie płynie ma pieśń pochwalna w wielkim zgromadzeniu, * śluby me wypełnię wobec bojących się Jego.
+~(21:27) Ubodzy będę jedli i nasycą się, chwalić będą Pana, którzy Go szukają: * «serca wasze niech żyją na wieki».
+~(21:28) Przypomną sobie i wrócą do Pana * wszystkie krańce ziemi;
+~(21:28) I wszystkie szczepy pogańskie * padną na twarz przed Jego obliczem,
+~(21:29) Bo królowanie należy do Pana, * i On panuje nad narodami.
+~(21:30) Jego jedynego uwielbiają wszyscy, co śpią w ziemi, * przed Nim zegną się wszyscy, którzy w proch zstępują.
+~(21:31) A dusza moja żyć będzie dla Niego, * potomstwo moje Jemu będzie służyć,
+~(21:32) Przyszłemu pokoleniu o Panu opowie, * a sprawiedliwość Jego ogłoszą ludowi, co się narodzi: «Pan to uczynił».
+Ant. Dzielą między siebie moje szaty i o suknię moją los rzucają. 
