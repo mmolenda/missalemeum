@@ -701,7 +701,7 @@ SECTION_LABELS = {
     'De Missa solemni Vigiliae paschalis': 'Santa Missa',
     'Pro Laudibus': 'Laudes',
     'Conclusio': 'Conclusão',
-    'Benedictio cinerum': 'Benção Cinzas'
+    'Benedictio cinerum': 'Benção das Cinzas'
 }
 
 SECTION_LABELS_MULTI = {
@@ -749,7 +749,8 @@ TRANSFORMATIONS = (
     (re.compile(r'\)\)'), ')'),
     (re.compile(r'\['), '('),
     (re.compile(r'\]'), ')'),
-    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
+    # preserving footnotes, like [^1], [^1]:
+    (re.compile(r'\((\^\d+)\)'), '[\\1]'),
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^[&$]Gloria\.*'), 'Glória ao Pai.'),
     (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Por nosso Senhor...'),
@@ -759,7 +760,8 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui tecum\.*'), 'Que convosco vive...'),
     (re.compile(r'^\$Qui vivis\.*'), 'Ó Vós, que viveis...'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Graças a Deus.'),
-    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. O Senhor seja convosco. \n\rR. E com o vosso espírito.'),
+    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'),
+     'V. O Senhor seja convosco. \n\rR. E com o vosso espírito.'),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
     (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
