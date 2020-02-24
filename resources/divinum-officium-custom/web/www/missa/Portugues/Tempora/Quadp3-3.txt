@@ -65,7 +65,7 @@ _
 Reparemos o mal que praticámos por ignorância, para que não aconteça que, surpreendidos pelo dia da morte, queiramos fazer penitência, mas já não tenhamos tempo! Ouvi-nos, Senhor, e tende misericórdia de nós, pois pecámos contra Vós.
 !Sl 78:9
 Auxiliai-nos, ó Deus, nosso Salvador, e, pela honra do vosso nomes, salvai-nos, Senhor. Ouvi-nos, Senhor, e tende misericórdia de nós, pois pecámos contra Vós.
-V. Glória ao Paio, e ao Filho * e ao Espírito Santo. Ouvi-nos, Senhor.
+V. Glória ao Pai, e ao Filho * e ao Espírito Santo. Ouvi-nos, Senhor.
 !Sacerdos vero, dum cantantur Antiphonæ et Responsorium, detecto capite, primo imponit cineres digniori Sacerdoti, a quo ipse accepit, deinde Ministris paratis, genibus flexis coram Altari, dicens:
 !Imposition of the Ashes.
 !Gen. 3:19 
@@ -94,16 +94,19 @@ Lição do Profeta Joel.
 !Joel 2:12-19
 Eis o que diz o Senhor: Convertei-vos a mim, de todo o coração, com jejuns, lágrimas e gemidos. Rasgai os vossos corações e não os vossos vestidos; e convertei-vos ao Senhor, vosso Deus, que é benigno, clemente, paciente, compassivo, cheio de misericórdia e cuja bondade excede a malícia humana. Quem sabe se Ele não retrocederá e não se arrependerá, não deixando após si uma bênção para apresentardes como oferta de sacrifício ao Senhor, nosso Deus?! Tocai a trombeta em Sião; ordenai que jejuem; convocai uma assembleia; chamai o povo; publicai uma reunião santa; reuni os velhos; congregai os meninos, ainda mesmo os que bebem o leite maternal; o marido saia do seu quarto e a esposa do seu leito nupcial. Que os sacerdotes, ministros do Senhor, chorem entre o vestíbulo e o altar e digam: «Perdoai, Senhor, perdoai ao vosso povo; não deixeis a vossa herança cair no opróbrio para servir de troça às nações estrangeiras»! Pois dir-se-á entre os povos: «Onde está o Deus deste povo? O Senhor compadeceu-se da sua terra e perdoou ao povo». Respondeu, então, o Senhor e disse ao seu povo: «Eis que vos mandarei trigo, vinho e azeite, e ficareis saciados; nunca mais vos abandonarei ao opróbrio das nações»: isto disse o Senhor omnipotente.
 
-[Graduale]
-!Sl 56:2, 4.
-Tende misericórdia de mim, ó Deus; tende misericórdia de mim; pois a minha alma confia em Vós. V. Mandou auxílio do céu, livrando-me, e condenou ao opróbrio aqueles que me espezinhavam.
-_
-[Tractus]
-!Tractus
+[Tractus1]
 !Sl 102:10
 Senhor, nos não castigueis, consoante merecemos, pelos pecados que praticámos: nem nos julgueis, segundo as nossas iniquidades.
 V. Ps 78:8-9 Esquecei-Vos, Senhor, das nossas iniquidades passa- das, apressai-Vos em revestir-nos com vossas misericórdias, pois grande é a nossa miséria. (genuflectir)
 V. Auxiliai-nos, ó Deus, nosso Salvador, e, pela glória do vosso nome, livrai-nos, Senhor, e perdoai os nossos pecados por causa do vosso nome.
+
+[Graduale]
+!Sl 56:2, 4.
+Tende misericórdia de mim, ó Deus; tende misericórdia de mim; pois a minha alma confia em Vós. V. Mandou auxílio do céu, livrando-me, e condenou ao opróbrio aqueles que me espezinhavam.
+_
+!Trato
+@:Tractus1
+
 
 [Evangelium]
 Continuação ++ do santo Evangelho segundo S. Mateus.
