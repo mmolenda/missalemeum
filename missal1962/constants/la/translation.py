@@ -698,7 +698,7 @@ SECTION_LABELS = {
     'Hymnus ad Christum Regem': 'Hymnus ad Christum Regem',
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'De lotione pedum',
-    'Post Missam': 'Solemnem translationem et repositionem Sacramenti',
+    'Post Missam': 'Post Missam',
     'Denudatione altaris': 'Denudatione altaris',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones': 'De prima parte: Lectiones',

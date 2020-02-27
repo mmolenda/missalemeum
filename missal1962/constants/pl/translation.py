@@ -700,7 +700,7 @@ SECTION_LABELS = {
     'Hymnus ad Christum Regem': 'Hymn ku Czci Chrystusa Króla',
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'Mandatum, czyli Umywanie Nóg',
-    'Post Missam': 'Uroczyste Przeniesienie i Złożenie Najświętszego Sakramentu',
+    'Post Missam': 'Po Mszy',
     'Denudatione altaris': 'Obnażenie Ołtarzy',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones': 'Część Pierwsza: Czytania',
