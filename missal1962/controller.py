@@ -9,7 +9,7 @@ from kalendar.factory import MissalFactory
 from kalendar.models import Calendar, Day
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
-from utils import infer_custom_preface
+from utils import get_custom_preface
 
 no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
@@ -26,7 +26,7 @@ def get_day(date_: datetime.date, lang) -> Day:
 
 
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:
-    config: ProperConfig = ProperConfig(preface=infer_custom_preface(Proper(proper_id)))
+    config: ProperConfig = ProperConfig(preface=get_custom_preface(Proper(proper_id)))
     return ProperParser(proper_id.lower().replace('__', ':'), lang, config).parse()
 
 

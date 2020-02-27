@@ -316,31 +316,39 @@ def test_excluded_commemorations(date_):
         assert None is proper_latin.get_section(stripped_section)
 
 
-def _get_proper_fixtures():
-    with open(os.path.join(HERE, 'fixtures/propers_vernacular_2020.json')) as fh:
-        expected_vernacular = json.load(fh)
+def _get_proper_fixtures_polish():
+    with open(os.path.join(HERE, 'fixtures/propers_polish_2020.json')) as fh:
+        return list(json.load(fh).items())
+
+
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_polish())
+def test_all_propers_polish(strdate, expected_sections):
+    missal = get_missal(2020, 'pl')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    proper, _ = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'],\
+            f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'],\
+            f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+
+
+def _get_proper_fixtures_latin():
     with open(os.path.join(HERE, 'fixtures/propers_latin_2020.json')) as fh:
-        expected_latin = json.load(fh)
-    coll = []
-    for k, v in expected_vernacular.items():
-        coll.append([k, v, expected_latin[k]])
-    return coll
+        return list(json.load(fh).items())
 
 
-@pytest.mark.parametrize("strdate,expected_vern_sections,expected_latin_sections", _get_proper_fixtures())
-def test_all_propers(strdate, expected_vern_sections, expected_latin_sections):
-    missal = get_missal(2020, language)
-    proper_vernacular, proper_latin = missal.get_day(date(*[int(i) for i in strdate.split('-')])).get_proper()[0]
-    proper_vernacular_serialized = proper_vernacular.serialize()
-    proper_latin_serialized = proper_latin.serialize()
-    for i, expected_vern_section in enumerate(expected_vern_sections):
-        assert expected_vern_section['id'] == proper_vernacular_serialized[i]['id'],\
-            f'vern {strdate}/{expected_vern_section["id"]}'
-        assert expected_vern_section['body'] in proper_vernacular_serialized[i]['body'],\
-            f'vern {strdate}/{expected_vern_section["id"]}'
-        assert expected_latin_sections[i]['id'] == proper_latin_serialized[i]['id'], \
-            f'latin {strdate}/{expected_vern_section["id"]}'
-        assert expected_latin_sections[i]['body'] in proper_latin_serialized[i]['body'], \
-            f'latin {strdate}/{expected_vern_section["id"]}'
-
-
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_latin())
+def test_all_propers_latin(strdate, expected_sections):
+    missal = get_missal(2020, 'pl')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    _, proper = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'],\
+            f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'],\
+            f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
