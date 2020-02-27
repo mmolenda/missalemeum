@@ -13,10 +13,10 @@ from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T,
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER, PATTERN_PRE_LENTEN,
                               PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE, CUSTOM_INTER_READING_SECTIONS,
                               SUNDAY, PATTERN_POST_EPIPHANY_SUNDAY, TEMPORA_PENT23_0, INTROIT, OFFERTORIUM, COMMUNIO,
-                              NAT2_0, SANCTI_01_01)
+                              NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
-from utils import infer_custom_preface, match
+from utils import get_custom_preface, match
 
 log = logging.getLogger(__name__)
 
@@ -206,8 +206,8 @@ class Day:
             retval: List[Tuple[Proper, Proper]] = []
             for observance in observances:
                 inter_readings_section = self._infer_inter_reading_section(observance)
-                inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
-                proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)
+                preface = get_custom_preface(observance, next(iter(self.tempora), None))
+                proper_config = ProperConfig(preface=preface, inter_readings_section=inter_readings_section)
                 retval.append(observance.get_proper(proper_config))
             return retval
         else:
@@ -215,11 +215,12 @@ class Day:
             inferred_observances = self._infer_observance()
             if observances:
                 rank: int = observances[0].rank
-                custom_preface_name: str = infer_custom_preface(observances[0])
+                preface: str = get_custom_preface(observances[0])
             else:
                 rank: int = 4
-                custom_preface_name: str = infer_custom_preface(inferred_observances)
-            config: ProperConfig = ProperConfig(preface=custom_preface_name, strip_alleluia=True)
+                preface: str = get_custom_preface(inferred_observances)
+            preface = preface if preface is not None else PREFATIO_COMMUNIS
+            config: ProperConfig = ProperConfig(preface=preface, strip_alleluia=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank

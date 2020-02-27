@@ -16,6 +16,8 @@ PREFATIO_COMMUNIS = 'Communis'
 PREFATIO_TRINITATE = 'Trinitate'
 PREFATIO_PASCHAL = 'Pasch'
 PREFATIO_APOSTOLIS = 'Apostolis'
+PREFATIO_NAT = 'Nat'
+PREFATIO_EPI = 'Epi'
 PREFATIO_OMIT = 'prefatio_omit'
 
 ASTERISK = '*'
@@ -1000,6 +1002,8 @@ for id_, sections in EXCLUDE_SECTIONS:
 # Earlier prefaces takes precedence.
 CUSTOM_PREFACES = (
     (TEMPORA_PENT02_0, PREFATIO_TRINITATE),  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
+    (SANCTI_01_01, PREFATIO_NAT),
+    (SANCTI_01_06, PREFATIO_EPI),
     (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
     (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul
     (SANCTI_07_25, PREFATIO_APOSTOLIS),  # st. James, the Apostle
