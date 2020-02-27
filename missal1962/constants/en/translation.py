@@ -684,11 +684,11 @@ SECTION_LABELS = {
     'Post Missam': 'After the Mass',
     'Denudatione altaris': 'Stripping the altar',
     # Quad6-5r, Feria Sexta in Parasceve
-    'Lectiones': 'I. Readings from Scripture',
+    'Lectiones': 'Part one: Readings from Scripture',
     'Passio': 'Passion',
-    'Oratio Fidelium': 'II. The Great Intercessions',
-    'Crucis Adoratione': 'III. Adoration of the Cross',
-    'CommunioQ': 'IV. Communion',
+    'Oratio Fidelium': 'Part two: The Great Intercessions',
+    'Crucis Adoratione': 'Part three: Adoration of the Cross',
+    'CommunioQ': 'Part four: Communion',
     # Quad6-5r, Sabbato Sancto
     'Benedictio ignis': 'The Blessing of the New Fire',
     'De benedictione cerei Paschalis': 'The Blessing of the Paschal Candle',
