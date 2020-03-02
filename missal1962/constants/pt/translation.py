@@ -722,7 +722,8 @@ SECTION_LABELS_MULTI = {
     'OratioL3': 'Oração',
     'OratioL4': 'Oração',
     'OratioL5': 'Oração',
-    'Oratio': 'Oração'
+    'Oratio': 'Oração',
+    'EvangeliumL1': 'Evangelho'
 }
 
 PATERNOSTER = \
@@ -760,6 +761,7 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui tecum\.*'), 'Que convosco vive...'),
     (re.compile(r'^\$Qui vivis\.*'), 'Ó Vós, que viveis...'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Graças a Deus.'),
+    (re.compile(r'^\$Oremus\.*'), 'Oremos.'),
     (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'),
      'V. O Senhor seja convosco. \n\rR. E com o vosso espírito.'),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),

@@ -99,6 +99,18 @@ VISIBLE_SECTIONS = [
     'De lectione Evangelica',
     'De processione cum ramis benedictis',
     'Hymnus ad Christum Regem',
+    # Quad6-0, Dominica in Palmis
+    'Benedictio Palmorum',
+    'Antiphona',
+    'LectioL1',
+    'GradualeL1',
+    'EvangeliumL1',
+    'Benedictio palmorum',
+    'Pueri Hebræorum',
+    'Antiphona',
+    'De processione cum ramis benedictis',
+    'Antiphona',
+    'Responsorium',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones',
     'Passio',
@@ -116,6 +128,48 @@ VISIBLE_SECTIONS = [
     'De renovatione promissionum baptismatis',
     'De altera parte Litaniarum',
     'De Missa solemni Vigiliae paschalis',
+    # Quad6-6, Sabbato Sancto
+    'Benedictio ignis',
+    'Benedictio incensum',
+    'De benedictione cerei PaschalisL',
+    'Prefatio1',
+    'Prophetia1',
+    'Prophetia2',
+    'Prophetia3',
+    'Prophetia4',
+    'TractusL1',
+    'Prophetia5',
+    'Prophetia6',
+    'Prophetia7',
+    'Prophetia8',
+    'TractusL2',
+    'Prophetia9',
+    'Prophetia10',
+    'Prophetia11',
+    'TractusL3',
+    'Prophetia12',
+    'Benedictio Fontis',
+    'TractusL4',
+    'Tractus2',
+    'Prefatio2',
+    'Litaniae1',
+    'Missa',
+    'Kyrie1',
+    'Gloria1',
+    'Lectio1',
+    'TractusL5',
+    'Evangelium1',
+    'Benedicit incensum',
+    'Secreta1',
+    'Prefatio3',
+    'Sanctus',
+    'Canon1',
+    'Commemoratio pro vivis',
+    'Commemoratio pro defunctis',
+    'Communio Populi',
+    'Vespers',
+    'Magnificat',
+    'Ultimaev',
     # Feria IV Cinerum
     'Benedictio cinerum',
     # Common sections
@@ -263,13 +317,13 @@ TEMPORA_QUAD5_3 = 'tempora:Quad5-3:3'
 TEMPORA_QUAD5_4 = 'tempora:Quad5-4:3'
 TEMPORA_QUAD5_5 = 'tempora:Quad5-5Feria:3'
 TEMPORA_QUAD5_6 = 'tempora:Quad5-6:3'
-TEMPORA_QUAD6_0 = 'tempora:Quad6-0r:1'  # 2nd Passion Sunday (Palm Sunday)
+TEMPORA_QUAD6_0 = 'tempora:Quad6-0:1'  # 2nd Passion Sunday (Palm Sunday)
 TEMPORA_QUAD6_1 = 'tempora:Quad6-1:1'
 TEMPORA_QUAD6_2 = 'tempora:Quad6-2:1'
 TEMPORA_QUAD6_3 = 'tempora:Quad6-3:1'
-TEMPORA_QUAD6_4 = 'tempora:Quad6-4r:1'  # Maundy Thursday
-TEMPORA_QUAD6_5 = 'tempora:Quad6-5r:1'  # Good Friday
-TEMPORA_QUAD6_6 = 'tempora:Quad6-6r:1'  # Holy Saturday
+TEMPORA_QUAD6_4 = 'tempora:Quad6-4:1'  # Maundy Thursday
+TEMPORA_QUAD6_5 = 'tempora:Quad6-5:1'  # Good Friday
+TEMPORA_QUAD6_6 = 'tempora:Quad6-6:1'  # Holy Saturday
 #
 TEMPORA_PASC0_0 = 'tempora:Pasc0-0:1'  # Resurrection Sunday
 TEMPORA_PASC0_1 = 'tempora:Pasc0-1:1'
