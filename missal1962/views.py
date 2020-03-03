@@ -63,7 +63,7 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
 @views.route("/ordo")
 @views.route("/<string:lang>/ordo")
 def ordo(lang: str = LANGUAGE_VERNACULAR):
-    with open(os.path.join(views.root_path, "static", "data", "ordo.json")) as fh:
+    with open(os.path.join(views.root_path, "static", "data", lang, "ordo.json")) as fh:
         data = json.load(fh)
     return render_template("ordo.html", data=data, lang=lang)
 
