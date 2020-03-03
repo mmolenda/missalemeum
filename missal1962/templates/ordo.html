@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-Części stałe |
+    {{ _('Order of Mass') }} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -29,7 +29,7 @@ Części stałe |
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1>Części stałe Mszy św.</h1>
+                <h1>{{ _('Order of Mass') }}</h1>
                 {% for item in data %}
                 <div class="ordo-item" id="ordo-item-{{ item['title']|slugify }}">
                     <h2>{{ item['title'] }}</h2>
@@ -58,10 +58,10 @@ Części stałe |
         </main>
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
+                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> {{ lang }}
             </label>
             <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
+                <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
             </label>
         </div>
     </div>

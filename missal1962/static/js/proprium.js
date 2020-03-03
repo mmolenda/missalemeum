@@ -34,7 +34,7 @@ $(window).on("load", function () {
     let selectedResource;
 
     function init() {
-        moment.locale("pl");
+        moment.locale(config.lang);
         loadContent(getResourceId());
     }
 
@@ -116,7 +116,7 @@ $(window).on("load", function () {
             }
         }).done(function() {
             markItemActiveCallback(date);
-            $searchInput.attr("placeholder", "Szukaj w " + year + "...");
+            $searchInput.attr("placeholder", config.translation.searchIn + year + "...");
         }).fail(function() {
             alert(cannotLoadMessage);
         }).always(function() {
@@ -167,15 +167,20 @@ $(window).on("load", function () {
                 })).appendTo($loadedContent);
 
                 // temporary hack for Advent 2019 - adding rorate mass to supplement
-                let titleOrTempora = "";
-                if (info.tempora !== null) {
-                    titleOrTempora += info.tempora;
-                }
-                if (info.id !== null) {
-                    titleOrTempora += info.id;
-                }
-                if ((titleOrTempora.indexOf("Adwent") > -1 || titleOrTempora.indexOf("tempora:Adv") > -1) && parsedDate.day() !== 0  && info.rank > 1) {
-                    supplements.push({"label": "Msza o N. M. P. w Adwencie – Rorate", "path": "https://www.mszalrzymski.pl/tmp/rorate"})
+                if (config.lang === "pl") {
+                    let titleOrTempora = "";
+                    if (info.tempora !== null) {
+                        titleOrTempora += info.tempora;
+                    }
+                    if (info.id !== null) {
+                        titleOrTempora += info.id;
+                    }
+                    if ((titleOrTempora.indexOf("Adwent") > -1 || titleOrTempora.indexOf("tempora:Adv") > -1) && parsedDate.day() !== 0 && info.rank > 1) {
+                        supplements.push({
+                            "label": "Msza o N. M. P. w Adwencie – Rorate",
+                            "path": "https://www.mszalrzymski.pl/tmp/rorate"
+                        })
+                    }
                 }
                 // end of temporary hack
 
@@ -223,11 +228,11 @@ $(window).on("load", function () {
         }).done(function() {
             loadedResource = date;
             if (historyReplace === true) {
-                window.history.replaceState({date: date}, '', '/' + date);
+                window.history.replaceState({date: date}, '', '/' + config.lang + '/' + date);
             } else {
-                window.history.pushState({date: date}, '', '/' + date);
+                window.history.pushState({date: date}, '', '/' + config.lang + '/' + date);
             }
-            document.title = titles[0] + " | " + date + " | " + "Mszał Rzymski";
+            document.title = titles[0] + " | " + date + " | " + "Missale Meum";
             markSidebarItemActiveWithReload(date);
             $datetimepicker4.datetimepicker("date", date);
             if (navbarIsCollapsed()) {
@@ -255,7 +260,10 @@ $(window).on("load", function () {
     }
 
     function mapRank(rank) {
-        return {1: '1 klasy', 2: '2 klasy', 3: '3 klasy', 4: '4 klasy'}[rank]
+        return {1: config.translation.class1,
+                2: config.translation.class2,
+                3: config.translation.class3,
+                4: config.translation.class4}[rank]
     }
 
     /**
@@ -274,7 +282,7 @@ $(window).on("load", function () {
         minDate: config.minDate,
         maxDate: config.maxDate,
         useCurrent: false,
-        locale: "pl",
+        locale: config.lang,
         widgetPositioning: {
             horizontal: "right",
             vertical: "bottom"

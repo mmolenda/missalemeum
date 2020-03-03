@@ -1,6 +1,5 @@
 import json
 from collections import defaultdict
-from os.path import basename
 
 import mistune
 import os
@@ -12,7 +11,6 @@ import logging
 import re
 from flask import render_template, Blueprint, request, send_from_directory, redirect, render_template_string
 from jinja2 import TemplateNotFound
-import yaml
 
 import controller
 from constants.common import LANGUAGE_VERNACULAR
@@ -31,17 +29,17 @@ log = logging.getLogger(__name__)
 views = Blueprint("views", __name__)
 
 
-def render_template_or_404(template, **context):
+def render_template_or_404(template, lang, **context):
     try:
-        return render_template(template, **context)
+        return render_template(template, lang=lang, **context)
     except TemplateNotFound:
-        return render_template('404.html'), 404
+        return render_template('404.html', lang=lang), 404
 
 
 @views.route("/")
 @views.route("/<string:date_>")
-@views.route("/<string:lang>")
-@views.route("/<string:lang>/<string:date_>")
+@views.route("/<lang:lang>")
+@views.route("/<lang:lang>/<string:date_>")
 def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
     if date_ is not None:
         try:
@@ -50,7 +48,7 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
             fmt_propers = format_propers(day)
         except Exception as e:
             log.exception(e)
-            return render_template('404.html'), 404
+            return render_template('404.html', lang=lang), 404
         else:
             title = fmt_propers[0]['info']['title']
     else:
@@ -119,7 +117,7 @@ def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: st
     try:
         supplement_yaml = get_supplement(views.root_path, lang, resource, subdir)
     except SupplementNotFound:
-        return render_template_or_404("404.html"), 404
+        return render_template_or_404("404.html", lang=lang), 404
     else:
         title = supplement_yaml["title"]
         html = mistune.markdown(supplement_yaml["body"], escape=False)

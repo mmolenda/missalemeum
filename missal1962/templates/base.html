@@ -3,9 +3,9 @@
 
 <head>
     <title>
-        {% block title %}{% endblock %}  Mszał Rzymski
+        {% block title %}{% endblock %}  Missale Meum
     </title>
-    <meta name="description" content="Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej." />
+    <meta name="description" content="{{ _('The 1962 Roman Missal containing the English translations and the Latin originals for Holy Mass in Extraordinary form of the Roman Rite (Traditional Latin Mass / Tridentine Mass)') }}" />
     <meta name="author" content="Marcin Molenda">
     <meta property="og:image" content="http://www.mszalrzymski.pl/static/img/icon-192x192.png">
     <meta charset="utf-8">
@@ -42,7 +42,7 @@
 
         {% block left_menu_button %}{% endblock %}
 
-        <a class="navbar-brand" href="/">Mszał Rzymski</a>
+        <a class="navbar-brand" href="/">Missale Meum</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
                 aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,19 +55,34 @@
                 {% if proper_active %}
                     active
                 {% endif %}">
-                    <a class="nav-link" href="/">Czytania<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/{{ lang }}">Proprium<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
-                    <a class="nav-link" href="/ordo">Części stałe</a>
+                <li class="nav-item {% if '/ordo' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/ordo">Ordo</a>
                 </li>
-                <li class="nav-item {% if request.path.startswith('/canticum') %}active{% endif %}">
-                    <a class="nav-link" href="/canticum">Pieśni</a>
+                {%  if lang == 'pl' %}
+                <li class="nav-item {% if '/canticum' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/canticum">{{ _('Songs') }}</a>
                 </li>
-                <li class="nav-item {% if request.path.startswith('/supplement') %}active{% endif %}">
-                    <a class="nav-link" href="/supplement">Suplement</a>
+                {% endif %}
+                <li class="nav-item {% if '/supplement' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/supplement">{{ _('Supplement') }}</a>
                 </li>
-                <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
-                    <a class="nav-link" href="/info">Informacje</a>
+                <li class="nav-item {% if '/info' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/info">{{ _('About') }}</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="dropdown dropdown-menu-right text-right">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {%if lang == 'pl' %}🇵🇱Polski{% else %}🇬🇧English{% endif %}
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/en">🇬🇧English</a>
+                            <a class="dropdown-item" href="/pl">🇵🇱Polski</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
