@@ -1,6 +1,6 @@
 import os
 import re
-from typing import List, Union
+from typing import List, Union, Pattern
 
 import yaml
 
@@ -9,7 +9,7 @@ from exceptions import SupplementNotFound
 
 
 def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
-          patterns: Union[List[str], str, List[re.Pattern], re.Pattern]):
+          patterns: Union[List[str], str, List[Pattern], Pattern]):
     if not isinstance(observances, (list, tuple)):
         observances = [observances]
     if not isinstance(patterns, (list, tuple)):
