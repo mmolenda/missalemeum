@@ -1,11 +1,57 @@
 {% extends "base1col.html" %}
 
 {% block title %}
-About |
+    About |
 {% endblock %}
 
 {% block content1col %}
-<h1>About</h1>
-<p>This website serves Roman Missal 1962</p>
+    <h1>About the project</h1>
+    <p>
+        Website Missale Meus has been established for God's greater glory and for people's avail.
+        It attempts to put together complete liturgical calendar as well as all propers and other texts
+        used in the Tridentine Mass in one place and to present them in a comprehensible manner.
+    </p>
+    <p>
+        English and Latin texts come from venerable website <a class="dashed" target="_blank" href="https://divinumofficium.com">Divinum Officium</a>.
+        Some parts of Ordo have been borrowed from <a class="dashed" target="_blank" href="https://www.fisheaters.com/">Fish Eaters</a>.
+        Project's codebase is available in <a class="dashed" target="_blank" href="https://github.com/mmolenda/Missal1962">github repository</a>.
+        This website has been built as a private project and it does not represent any official organization or group.
+    </p>
 
+    <h2>Support</h2>
+    <p><em>« The harvest indeed is great, but the labourers are few.»</em> – says our Lord Jesus Christ.</p>
+    <p>If you appreciate Missale Meus project you can help improving it:</p>
+    <ul>
+        <li>by offering prayers for the project and its authors,</li>
+        <li>by providing your feedback – every opinion, suggestion, idea, reporting an error is invaluable and it motivates us for further work,</li>
+        <li>by disseminating the project,</li>
+        <li>by providing content, such as missing texts, bible commentaries, etc.,</li>
+        <li>by providing a donation for service maintenance and development [Paypal]</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+        All opinions, suggestions, ideas, error reports, etc. can be directed through below form.
+    </p>
+    <form id="contact-form" action="" method="POST">
+        <div class="form-group">
+            <label for="input-text">Content</label>
+            <textarea class="form-control" id="input-text" name="name" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="input-email">Email</label>
+            <input type="email" class="form-control" id="input-email" name="_replyto">
+        </div>
+        <input type="text" name="_gotcha" style="display:none" />
+        <button type="submit" class="btn btn-secondary">Send</button>
+    </form>
+
+    {% include 'footer.html' %}
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        let contactform =  document.getElementById('contact-form');
+        contactform.setAttribute('action', atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vc3VwcG9ydEBtb2xlbmRhLmV1"));
+    </script>
 {% endblock %}
