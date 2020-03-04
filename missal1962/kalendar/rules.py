@@ -238,7 +238,7 @@ def rule_general(
         return observances, [], []
     else:
         first, second = sorted(observances, key=lambda x: (x.priority, x.rank, x.flexibility))[:2]
-        if match([first], PATTERN_TEMPORA_SUNDAY) or (len(tempora) > 0 and second.id == tempora[0].id):
+        if match(first, PATTERN_TEMPORA_SUNDAY) or (len(tempora) > 0 and second.id == tempora[0].id):
             return [first], [], []
         return [first], [second], []
 

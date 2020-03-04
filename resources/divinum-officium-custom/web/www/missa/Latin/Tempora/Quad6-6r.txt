@@ -38,7 +38,7 @@ R. Amen.
 _
 _
 [De benedictione cerei Paschalis]
-Unus ministrantium portat cereum paschalem ante celebrantem, qui facit super earn crux, litteram græcam Alpha, subtus vero litteram Omega, et inter bracchia crucis quatuor numeros exprimentes annum currentem.
+! Unus ministrantium portat cereum paschalem ante celebrantem, qui facit super earn crux, litteram græcam Alpha, subtus vero litteram Omega, et inter bracchia crucis quatuor numeros exprimentes annum currentem.
 
 Christus heri et hódie,
 ! incidit hastam erectam
@@ -93,15 +93,6 @@ _
 ! cum cruce, diaconus cum cereo accenso,~
 ! post eum statim celebrans, deinde~
 ! clerus per ordinem, et populus.
-
-! (Tum sacerdos, depositis paramentis~
-! violaceis, et indutus stola et dalmatica albi~
-! coloris, iterum ponit incensum in thuribulo;~
-! postea accipit cereum paschalem accensum,~
-! et ordinatur processio: precedit thuriferarius,~
-! sequitur crucifer, post eum statim sacerdos~
-! cum cereo accenso, deinde ceteri ministrantes,~
-! et populus.)
 
 ! Cum diaconus ingressus est ecclesiam,~
 ! stans, cantat solus:
@@ -441,9 +432,7 @@ R. Amen.
 ! Tunc redeunt omnes in silentio in chorum, et datur initium renovationi promissionum Baptismatis.
 
 [De renovatione promissionum baptismatis]
-! Celebrans assumit stolam et pluviale albi coloris; deinde, imposito thure, et facta incensatione
-  cerei, stans iuxta illum, facie versus ad populum, vel ex ambone seu
-  pulpito, incipit, ut sequitur:
+! Celebrans assumit stolam et pluviale albi coloris; deinde, imposito thure, et facta incensatione cerei, stans iuxta illum, facie versus ad populum, vel ex ambone seu pulpito, incipit, ut sequitur:
 
 v. Hac sacratissima nocte, fratres carissimi, sancta Mater Ecclesia, recolens Domini nostri Iesu Christi mortem ei sepulturam, eum redamando vigilat; et, celebrans eiusdem gloriosam resurrectionem, lætabunda gaudet.
 _

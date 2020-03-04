@@ -698,7 +698,7 @@ SECTION_LABELS = {
     'Hymnus ad Christum Regem': 'Hymnus ad Christum Regem',
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'De lotione pedum',
-    'Post Missam': 'Solemnem translationem et repositionem Sacramenti',
+    'Post Missam': 'Post Missam',
     'Denudatione altaris': 'Denudatione altaris',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones': 'De prima parte: Lectiones',
@@ -771,6 +771,7 @@ TRANSFORMATIONS = (
         (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
         (re.compile(r'^.*`.*$'), ''),
         (re.compile(r'^[&$]Gloria\.*'), 'Glória Patri.'),
+        (re.compile(r'^\$Oremus\.*'), 'Oremus.'),
         (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Per Dominum.'),
         (re.compile(r'^\$Per Dominum\.*'), 'Per Dominum.'),
         (re.compile(r'^\$Per eu[mn]dem\.*'), 'Per eúndem.'),

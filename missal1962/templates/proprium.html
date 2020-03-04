@@ -15,7 +15,7 @@
     <nav id="sidebar">
 
         <div id="sidebar-tools">
-            <input id="search-input" type="search" placeholder="Szukaj..." class="form-control"/>
+            <input id="search-input" type="search" placeholder="{{ _('Search...') }}" class="form-control"/>
             <span id="search-clear">╳</span>
             <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
                 <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
@@ -34,7 +34,7 @@
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1 class="display-8">{% if title %}{{ title }}{% else %}Mszał Rzymski{% endif %}</h1>
+                <h1 class="display-8">{% if title %}{{ title }}{% else %}Missale Meum{% endif %}</h1>
                 {% if propers %}
                     <p>{{ propers[0].info.description }}</p>
                     {% if propers[0].info.supplements %}
@@ -59,23 +59,22 @@
                         </div>
                     {% endfor %}
                 {% else %}
-                    <p>Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej.</p>
+                    <p>{{ _('The 1962 Roman Missal containing the English translations and the Latin originals for Holy Mass in Extraordinary form of the Roman Rite (Traditional Latin Mass / Tridentine Mass)') }}</p>
                 {% endif %}
             </div>
             {% include 'footer.html' %}
         </main>
         <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
+                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> {{ lang }}
             </label>
             <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
+                <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
             </label>
         </div>
     </div>
     <div id="loader" style="display: none">
         <img src="/static/img/loader.gif" alt="Loader">
-        <!--https://loading.io/spinner/book/-flip-book-loader-->
     </div>
 </div>
 

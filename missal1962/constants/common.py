@@ -8,7 +8,7 @@ CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-off
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
-LANGUAGE_VERNACULAR = 'pl'
+LANGUAGE_ENGLISH = 'en'
 DIVOFF_LANG_MAP = {'la': 'Latin', 'pl': 'Polski', 'en': 'English'}
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'
@@ -19,6 +19,7 @@ PREFATIO_APOSTOLIS = 'Apostolis'
 PREFATIO_NAT = 'Nat'
 PREFATIO_EPI = 'Epi'
 PREFATIO_OMIT = 'prefatio_omit'
+PREFATIO_LENT = 'Quad'
 
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
@@ -974,6 +975,7 @@ COMMEMORATION_SECTIONS = [
 # 1962 issue of the  Missal. Asterisk (*) means that given section should always be be excluded.
 EXCLUDE_SECTIONS = (
     (SANCTI_06_25, COMMEMORATION_SECTIONS),
+    (SANCTI_06_26, COMMEMORATION_SECTIONS),
     (SANCTI_06_30, COMMEMORATION_SECTIONS),
     (SANCTI_07_01, COMMEMORATION_SECTIONS),
     (SANCTI_07_05, COMMEMORATION_SECTIONS),
@@ -1012,13 +1014,21 @@ CUSTOM_PREFACES = (
     (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
     (PATTERN_EASTER, PREFATIO_PASCHAL),
-    (TEMPORA_QUAD6_5, PREFATIO_OMIT)
+    (TEMPORA_QUAD6_5, PREFATIO_OMIT),
+    (re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)'), PREFATIO_LENT)  # Lent until Saturday before Passion Sunday
 )
 
 CUSTOM_INTER_READING_SECTIONS = {
+    SANCTI_04_28: GRADUALE,
     SANCTI_05_02: GRADUALE
+
 }
 
+OBSERVANCES_WITHOUT_OWN_PROPER = (
+    # Advent feria except Ember Days
+    re.compile('tempora:Adv[124]-[1-6]'),
+    re.compile('tempora:Adv[3]-[124]'),
+)
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *(.*)')

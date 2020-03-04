@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from os.path import basename
+from functools import wraps
 
 import mistune
 import os
@@ -12,12 +12,12 @@ import logging
 import re
 from flask import render_template, Blueprint, request, send_from_directory, redirect, render_template_string
 from jinja2 import TemplateNotFound
-import yaml
 
 import controller
-from constants.common import LANGUAGE_VERNACULAR
+from constants.common import LANGUAGE_ENGLISH
 from exceptions import SupplementNotFound
 from kalendar.models import Day
+from settings import LANGUAGES
 from utils import format_propers, get_supplement
 
 logging.basicConfig(
@@ -31,18 +31,31 @@ log = logging.getLogger(__name__)
 views = Blueprint("views", __name__)
 
 
-def render_template_or_404(template, **context):
+def render_template_or_404(template, lang, **context):
     try:
-        return render_template(template, **context)
+        return render_template(template, lang=lang, **context)
     except TemplateNotFound:
-        return render_template('404.html'), 404
+        return render_template('404.html', lang=lang), 404
+
+
+def infer_locale(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'lang' in kwargs:
+            if kwargs['lang'] not in LANGUAGES.keys():
+                return render_template('404.html', lang=LANGUAGE_ENGLISH), 404
+        else:
+            kwargs['lang'] = request.accept_languages.best_match(LANGUAGES.keys())
+        return f(*args, **kwargs)
+    return decorated_function
 
 
 @views.route("/")
 @views.route("/<string:date_>")
-# @views.route("/<string:lang>")
-# @views.route("/<string:lang>/<string:date_>")
-def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
+@views.route("/<lang:lang>")
+@views.route("/<lang:lang>/<string:date_>")
+@infer_locale
+def proprium(lang: str = LANGUAGE_ENGLISH, date_: str = None):
     if date_ is not None:
         try:
             date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
@@ -50,7 +63,7 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
             fmt_propers = format_propers(day)
         except Exception as e:
             log.exception(e)
-            return render_template('404.html'), 404
+            return render_template('404.html', lang=lang), 404
         else:
             title = fmt_propers[0]['info']['title']
     else:
@@ -61,9 +74,10 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
 
 
 @views.route("/ordo")
-# @views.route("/<string:lang>/ordo")
-def ordo(lang: str = LANGUAGE_VERNACULAR):
-    with open(os.path.join(views.root_path, "static", "data", "ordo.json")) as fh:
+@views.route("/<string:lang>/ordo")
+@infer_locale
+def ordo(lang: str = LANGUAGE_ENGLISH):
+    with open(os.path.join(views.root_path, "static", "data", lang, "ordo.json")) as fh:
         data = json.load(fh)
     return render_template("ordo.html", data=data, lang=lang)
 
@@ -94,9 +108,10 @@ canticum_index = CanticumIndex()
 
 @views.route("/canticum")
 @views.route("/canticum/<string:canticum_id>")
-# @views.route("/<string:lang>/canticum")
-# @views.route("/<string:lang>/canticum/<string:canticum_id>")
-def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
+@views.route("/<string:lang>/canticum")
+@views.route("/<string:lang>/canticum/<string:canticum_id>")
+@infer_locale
+def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
     index = canticum_index.get(lang)
     title = None
     if canticum_id is not None:
@@ -110,23 +125,24 @@ def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
 @views.route("/supplement/<subdir>/<string:resource>")
-# @views.route("/<string:lang>/supplement")
-# @views.route("/<string:lang>/supplement/<string:resource>")
-# @views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
-def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: str = None):
+@views.route("/<string:lang>/supplement")
+@views.route("/<string:lang>/supplement/<string:resource>")
+@views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
+@infer_locale
+def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str = None):
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
     try:
         supplement_yaml = get_supplement(views.root_path, lang, resource, subdir)
     except SupplementNotFound:
-        return render_template_or_404("404.html"), 404
+        return render_template_or_404("404.html", lang=lang), 404
     else:
         title = supplement_yaml["title"]
         html = mistune.markdown(supplement_yaml["body"], escape=False)
         ref = request.args.get("ref")
         if ref is None or re.sub('[\w\-/]', '', ref) != "":
             ref = None
-        return render_template_or_404(f"{lang}/supplement.html", title=title, data=html, ref=ref, lang=lang)
+        return render_template_or_404("supplement.html", title=title, data=html, ref=ref, lang=lang)
 
 
 @views.route("/icalendar")
@@ -135,13 +151,15 @@ def icalendar():
 
 
 @views.route("/info")
-# @views.route("/<string:lang>/info")
-def info(lang: str = LANGUAGE_VERNACULAR):
+@views.route("/<string:lang>/info")
+@infer_locale
+def info(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
 
 
 @views.route("/tmp/rorate")
-def rorate(lang: str = LANGUAGE_VERNACULAR):
+@infer_locale
+def rorate(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"rorate.html", lang=lang)
 
 

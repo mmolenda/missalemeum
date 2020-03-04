@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="{{ lang }}">
 
 <head>
     <title>
-        {% block title %}{% endblock %}  Mszał Rzymski
+        {% block title %}{% endblock %}  Missale Meum
     </title>
-    <meta name="description" content="Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej." />
+    <meta name="description" content="{{ _('The 1962 Roman Missal containing the English translations and the Latin originals for Holy Mass in Extraordinary form of the Roman Rite (Traditional Latin Mass / Tridentine Mass)') }}" />
     <meta name="author" content="Marcin Molenda">
-    <meta property="og:image" content="http://www.mszalrzymski.pl/static/img/icon-192x192.png">
+    <meta property="og:image" content="http://www.missalemeum.com/static/img/icon-192x192.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fffdf1">
+    <link rel="alternate" hreflang="pl" href="https://www.missalemeum.com/pl" />
+    <link rel="alternate" hreflang="en" href="https://www.missalemeum.com/en" />
     <link rel="manifest" href="/static/manifest.json">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -22,7 +24,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58957315-2"></script>
     <script>
-        if(window.location.hostname.endsWith("mszalrzymski.pl")) {
+        if(window.location.hostname.endsWith("missalemeum.com")) {
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
@@ -42,7 +44,7 @@
 
         {% block left_menu_button %}{% endblock %}
 
-        <a class="navbar-brand" href="/">Mszał Rzymski</a>
+        <a class="navbar-brand" href="/{{ lang }}">Missale Meum</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
                 aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,24 +52,37 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="navbar-nav mr-auto pull-right">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item
                 {% if proper_active %}
                     active
                 {% endif %}">
-                    <a class="nav-link" href="/">Czytania<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/{{ lang }}">Proprium<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item {% if request.path == '/ordo' %}active{% endif %}">
-                    <a class="nav-link" href="/ordo">Części stałe</a>
+                <li class="nav-item {% if '/ordo' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/ordo">Ordo</a>
                 </li>
-                <li class="nav-item {% if request.path.startswith('/canticum') %}active{% endif %}">
-                    <a class="nav-link" href="/canticum">Pieśni</a>
+                {%  if lang == 'pl' %}
+                <li class="nav-item {% if '/canticum' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/canticum">{{ _('Songs') }}</a>
                 </li>
-                <li class="nav-item {% if request.path.startswith('/supplement') %}active{% endif %}">
-                    <a class="nav-link" href="/supplement">Suplement</a>
+                {% endif %}
+                <li class="nav-item {% if '/supplement' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/supplement">{{ _('Supplement') }}</a>
                 </li>
-                <li class="nav-item {% if request.path == '/info' %}active{% endif %}">
-                    <a class="nav-link" href="/info">Informacje</a>
+                <li class="nav-item {% if '/info' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/info">{{ _('About') }}</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav dropdown dropdown-menu-right">
+                <li class="nav-item">
+                    <a class="nav-item nav-link dropdown-toggle" href="#" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {%if lang == 'pl' %}Polski{% else %}English{% endif %}
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" id="lang-dropdown-menu" aria-labelledby="lang-dropdown">
+                        <a class="dropdown-item" href="/en">English</a>
+                        <a class="dropdown-item" href="/pl">Polski</a>
+                    </div>
                 </li>
             </ul>
         </div>

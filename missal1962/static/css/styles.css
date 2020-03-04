@@ -50,6 +50,18 @@ footer {
 }
 
 /*
+ ========= Navbar ========
+*/
+
+a#lang-dropdown {
+    font-size: 80%;
+}
+
+div#lang-dropdown-menu {
+    width: 100px;
+}
+
+/*
  ======== Sidebar ========
 */
 
@@ -110,8 +122,7 @@ footer {
     background: #fffdf1;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
+#sidebar ul li.active>a {
     color: #626262;
     background: #faf4c2 ;
     font-weight: 600;
