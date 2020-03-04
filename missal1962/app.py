@@ -43,6 +43,7 @@ def get_locale():
     for lang in LANGUAGES.keys():
         if request.path.strip("/").startswith(lang):
             return lang
+    return request.accept_languages.best_match(LANGUAGES.keys())
 
 
 if __name__ == '__main__':

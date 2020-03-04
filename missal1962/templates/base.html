@@ -72,15 +72,17 @@
                     <a class="nav-link" href="/{{ lang }}/info">{{ _('About') }}</a>
                 </li>
             </ul>
-            <div class="dropdown dropdown-menu-right">
-                <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {%if lang == 'pl' %}🇵🇱Polski{% else %}🇬🇧English{% endif %}
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="/en">🇬🇧English</a>
-                    <a class="dropdown-item" href="/pl">🇵🇱Polski</a>
-                </div>
-            </div>
+            <ul class="navbar-nav dropdown dropdown-menu-right">
+                <li class="nav-item">
+                    <a class="nav-item nav-link dropdown-toggle" href="#" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {%if lang == 'pl' %}Polski{% else %}English{% endif %}
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" id="lang-dropdown-menu" aria-labelledby="lang-dropdown">
+                        <a class="dropdown-item" href="/en">English</a>
+                        <a class="dropdown-item" href="/pl">Polski</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
 </header>
