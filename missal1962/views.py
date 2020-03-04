@@ -14,7 +14,7 @@ from flask import render_template, Blueprint, request, send_from_directory, redi
 from jinja2 import TemplateNotFound
 
 import controller
-from constants.common import LANGUAGE_VERNACULAR
+from constants.common import LANGUAGE_ENGLISH
 from exceptions import SupplementNotFound
 from kalendar.models import Day
 from settings import LANGUAGES
@@ -41,7 +41,10 @@ def render_template_or_404(template, lang, **context):
 def infer_locale(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        if 'lang' not in kwargs:
+        if 'lang' in kwargs:
+            if kwargs['lang'] not in LANGUAGES.keys():
+                return render_template('404.html', lang=LANGUAGE_ENGLISH), 404
+        else:
             kwargs['lang'] = request.accept_languages.best_match(LANGUAGES.keys())
         return f(*args, **kwargs)
     return decorated_function
@@ -52,7 +55,7 @@ def infer_locale(f):
 @views.route("/<lang:lang>")
 @views.route("/<lang:lang>/<string:date_>")
 @infer_locale
-def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
+def proprium(lang: str = LANGUAGE_ENGLISH, date_: str = None):
     if date_ is not None:
         try:
             date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
@@ -73,7 +76,7 @@ def proprium(lang: str = LANGUAGE_VERNACULAR, date_: str = None):
 @views.route("/ordo")
 @views.route("/<string:lang>/ordo")
 @infer_locale
-def ordo(lang: str = LANGUAGE_VERNACULAR):
+def ordo(lang: str = LANGUAGE_ENGLISH):
     with open(os.path.join(views.root_path, "static", "data", lang, "ordo.json")) as fh:
         data = json.load(fh)
     return render_template("ordo.html", data=data, lang=lang)
@@ -108,7 +111,7 @@ canticum_index = CanticumIndex()
 @views.route("/<string:lang>/canticum")
 @views.route("/<string:lang>/canticum/<string:canticum_id>")
 @infer_locale
-def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
+def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
     index = canticum_index.get(lang)
     title = None
     if canticum_id is not None:
@@ -126,7 +129,7 @@ def canticum(lang: str = LANGUAGE_VERNACULAR, canticum_id: str = None):
 @views.route("/<string:lang>/supplement/<string:resource>")
 @views.route("/<string:lang>/supplement/<subdir>/<string:resource>")
 @infer_locale
-def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: str = None):
+def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str = None):
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
     try:
@@ -139,7 +142,7 @@ def supplement(lang: str = LANGUAGE_VERNACULAR, subdir: str = None, resource: st
         ref = request.args.get("ref")
         if ref is None or re.sub('[\w\-/]', '', ref) != "":
             ref = None
-        return render_template_or_404(f"{lang}/supplement.html", title=title, data=html, ref=ref, lang=lang)
+        return render_template_or_404("supplement.html", title=title, data=html, ref=ref, lang=lang)
 
 
 @views.route("/icalendar")
@@ -150,13 +153,13 @@ def icalendar():
 @views.route("/info")
 @views.route("/<string:lang>/info")
 @infer_locale
-def info(lang: str = LANGUAGE_VERNACULAR):
+def info(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
 
 
 @views.route("/tmp/rorate")
 @infer_locale
-def rorate(lang: str = LANGUAGE_VERNACULAR):
+def rorate(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"rorate.html", lang=lang)
 
 

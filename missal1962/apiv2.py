@@ -7,7 +7,7 @@ import logging
 from flask import jsonify, Blueprint
 
 import controller
-from constants.common import LANGUAGE_VERNACULAR
+from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound
 from kalendar.models import Day, Calendar
 from utils import format_propers, get_supplement
@@ -22,7 +22,7 @@ api = Blueprint('apiv2', __name__)
 
 
 @api.route('/api/v2/date/<string:date_>')
-def v2_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
+def v2_date(date_: str, lang: str = LANGUAGE_ENGLISH):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, lang)
@@ -35,7 +35,7 @@ def v2_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
 
 
 @api.route('/api/v2/proper/<string:proper_id>')
-def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
+def v2_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
     except (InvalidInput, ProperNotFound) as e:
@@ -46,7 +46,7 @@ def v2_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route("/api/v2/supplement/<string:resource>")
 @api.route("/api/v2/supplement/<subdir>/<string:resource>")
-def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULAR):
+def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_ENGLISH):
 
     try:
         supplement_yaml = get_supplement(api.root_path, lang, resource, subdir)
@@ -58,7 +58,7 @@ def supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULA
 
 @api.route('/api/v2/calendar')
 @api.route('/api/v2/calendar/<int:year>')
-def v2_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
+def v2_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
     if year is None:
         year = datetime.datetime.now().date().year
     missal: Calendar = controller.get_calendar(year, lang)
@@ -67,7 +67,7 @@ def v2_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route('/api/v2/icalendar')
 @api.route('/api/v2/icalendar/<int:rank>')
-def v2_ical(rank: int = 2, lang: str = LANGUAGE_VERNACULAR):
+def v2_ical(rank: int = 2, lang: str = LANGUAGE_ENGLISH):
     try:
         rank = int(rank)
         assert rank in range(1, 5)

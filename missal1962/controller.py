@@ -44,4 +44,4 @@ def get_ical(lang, rank=2):
     while current <= one_year_forward:
         days[current] = get_day(current, lang)
         current += datetime.timedelta(days=1)
-    return ical.IcalBuilder.build(days, rank)
+    return ical.IcalBuilder.build(days, rank, lang)

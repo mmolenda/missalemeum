@@ -75,7 +75,7 @@ $(window).on("load", function () {
             } else {
                 window.history.pushState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
             }
-            document.title = title + " | " + "Mszał Rzymski";
+            document.title = title + " | " + "Missale Meum";
             markSidebarItemActive(resourceId);
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");

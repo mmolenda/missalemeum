@@ -8,7 +8,7 @@ CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-off
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
-LANGUAGE_VERNACULAR = 'en'
+LANGUAGE_ENGLISH = 'en'
 DIVOFF_LANG_MAP = {'la': 'Latin', 'pl': 'Polski', 'en': 'English'}
 TYPE_TEMPORA = 'tempora'
 TYPE_SANCTI = 'sancti'

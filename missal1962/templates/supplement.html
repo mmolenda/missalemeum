@@ -6,13 +6,13 @@
 
 {% block content1col %}
     {% if ref %}
-    <p><a class="dashed" href="/{{ ref }}">« {{ _('Back') }}</a></p>
+    <p><a class="dashed" href="/{{ lang }}/{{ ref }}">« {{ _('Back') }}</a></p>
     {% endif %}
 
     {{ data | safe }}
 
     {% if ref %}
-    <p><a class="dashed" href="/{{ ref }}">« {{ _('Back') }}</a></p>
+    <p><a class="dashed" href="/{{ lang }}/{{ ref }}">« {{ _('Back') }}</a></p>
     {% endif %}
 
     {% include 'footer.html' %}

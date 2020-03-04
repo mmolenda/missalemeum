@@ -178,7 +178,7 @@ $(window).on("load", function () {
                     if ((titleOrTempora.indexOf("Adwent") > -1 || titleOrTempora.indexOf("tempora:Adv") > -1) && parsedDate.day() !== 0 && info.rank > 1) {
                         supplements.push({
                             "label": "Msza o N. M. P. w Adwencie – Rorate",
-                            "path": "https://www.mszalrzymski.pl/tmp/rorate"
+                            "path": "https://www.missalemeum.com/tmp/rorate"
                         })
                     }
                 }

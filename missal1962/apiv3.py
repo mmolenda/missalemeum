@@ -1,4 +1,6 @@
 import datetime
+from functools import wraps
+
 import flask
 import sys
 
@@ -7,9 +9,10 @@ import logging
 from flask import jsonify, Blueprint
 
 import controller
-from constants.common import LANGUAGE_VERNACULAR
+from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound
 from kalendar.models import Day, Calendar
+from settings import LANGUAGES
 from utils import format_propers, get_supplement
 
 logging.basicConfig(
@@ -21,8 +24,18 @@ logging.basicConfig(
 api = Blueprint('apiv3', __name__)
 
 
+def validate_locale(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if kwargs['lang'] not in LANGUAGES.keys():
+            return jsonify({'error': "Not found"}), 404
+        return f(*args, **kwargs)
+    return decorated_function
+
+
 @api.route('/<string:lang>/api/v3/date/<string:date_>')
-def v3_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
+@validate_locale
+def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, lang)
@@ -35,7 +48,8 @@ def v3_date(date_: str, lang: str = LANGUAGE_VERNACULAR):
 
 
 @api.route('/<string:lang>/api/v3/proper/<string:proper_id>')
-def v3_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
+@validate_locale
+def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
     except (InvalidInput, ProperNotFound) as e:
@@ -46,7 +60,8 @@ def v3_proper(proper_id: str, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route("/<string:lang>/api/v3/supplement/<string:resource>")
 @api.route("/<string:lang>/api/v3/supplement/<subdir>/<string:resource>")
-def v3_supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNACULAR):
+@validate_locale
+def v3_supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_ENGLISH):
 
     try:
         supplement_yaml = get_supplement(api.root_path, lang, resource, subdir)
@@ -58,7 +73,8 @@ def v3_supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_VERNAC
 
 @api.route('/<string:lang>/api/v3/calendar')
 @api.route('/<string:lang>/api/v3/calendar/<int:year>')
-def v3_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
+@validate_locale
+def v3_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
     if year is None:
         year = datetime.datetime.now().date().year
     missal: Calendar = controller.get_calendar(year, lang)
@@ -67,7 +83,8 @@ def v3_calendar(year: int = None, lang: str = LANGUAGE_VERNACULAR):
 
 @api.route('/<string:lang>/api/v3/icalendar')
 @api.route('/<string:lang>/api/v3/icalendar/<int:rank>')
-def v3_ical(rank: int = 2, lang: str = LANGUAGE_VERNACULAR):
+@validate_locale
+def v3_ical(rank: int = 2, lang: str = LANGUAGE_ENGLISH):
     try:
         rank = int(rank)
         assert rank in range(1, 5)

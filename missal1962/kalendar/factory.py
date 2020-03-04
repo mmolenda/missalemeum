@@ -7,7 +7,7 @@ from typing import List, Tuple, Union
 
 from dateutil.easter import easter
 
-from constants.common import NAT1_0, NAT2_0, SANCTI_10_DUr, LANGUAGE_VERNACULAR
+from constants.common import NAT1_0, NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
 from kalendar.models import Calendar, Observance
 from kalendar.rules import rules
 
@@ -21,7 +21,7 @@ class MissalFactory:
     lang: str = None
     blocks = None
 
-    def create(self, year: int, lang: str = LANGUAGE_VERNACULAR) -> Calendar:
+    def create(self, year: int, lang: str = LANGUAGE_ENGLISH) -> Calendar:
         self.lang = lang
         self.blocks = importlib.import_module(f'constants.{self.lang}.blocks')
         self.calendar = Calendar(year, self.lang)
