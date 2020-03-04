@@ -50,7 +50,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="navbar-nav mr-auto pull-right">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item
                 {% if proper_active %}
                     active
@@ -72,19 +72,15 @@
                     <a class="nav-link" href="/{{ lang }}/info">{{ _('About') }}</a>
                 </li>
             </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <div class="dropdown dropdown-menu-right text-right">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {%if lang == 'pl' %}🇵🇱Polski{% else %}🇬🇧English{% endif %}
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="/en">🇬🇧English</a>
-                            <a class="dropdown-item" href="/pl">🇵🇱Polski</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            <div class="dropdown dropdown-menu-right">
+                <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {%if lang == 'pl' %}🇵🇱Polski{% else %}🇬🇧English{% endif %}
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="/en">🇬🇧English</a>
+                    <a class="dropdown-item" href="/pl">🇵🇱Polski</a>
+                </div>
+            </div>
         </div>
     </nav>
 </header>
