@@ -14,18 +14,22 @@
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'precache-v3.0';
+const PRECACHE = 'precache-v3.0.1';
 const RUNTIME = 'runtime';
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
     '/',
-    '/ordo',
-    '/supplement',
-    '/info',
+    '/en/ordo',
+    '/en/supplement',
+    '/en/info',
+    '/pl/ordo',
+    '/pl/supplement',
+    '/pl/info',
     '/static/css/styles.css',
     '/static/js/common.js',
     '/static/js/ordo.js',
     '/static/js/pl/conf.js',
+    '/static/js/en/conf.js',
     '/static/js/proprium.js',
     '/static/img/loader.gif',
 ];
