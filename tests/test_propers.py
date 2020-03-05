@@ -2,9 +2,7 @@ import json
 import os
 from datetime import date
 
-from constants.common import PATTERN_ALLELUIA, INTROIT, ORATIO, COMMEMORATED_ORATIO, LECTIO, GRADUALE, GRADUALE_PASCHAL, \
-    TRACTUS, EVANGELIUM, OFFERTORIUM, SECRETA, COMMUNIO, POSTCOMMUNIO, PREFATIO, COMMEMORATED_SECRETA, \
-    COMMEMORATED_POSTCOMMUNIO
+from constants.common import *
 from exceptions import InvalidInput, ProperNotFound
 
 import pytest
@@ -116,18 +114,18 @@ def test_get_proper_from_day():
 
 
 @pytest.mark.parametrize("date_,id_,rank", [
-    ((2018, 1, 4), 'sancti:01-01:1', 4),
-    ((2019, 1, 3), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2021, 1, 4), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2021, 1, 5), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2019, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2021, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2021, 1, 8), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2018, 1, 12), 'tempora:Epi1-0a:2', 4),  # Feast of the Holy Family
-    ((2018, 2, 13), 'tempora:Quadp3-0:2', 4),
-    ((2018, 7, 4), 'tempora:Pent06-0:2', 4),
-    ((2018, 7, 9), 'tempora:Pent07-0:2', 4),  # Feast of the Most Precious Blood
-    ((2018, 10, 31), 'tempora:Pent23-0:2', 4),  # Feast of Christ the King
+    ((2018, 1, 4), SANCTI_01_01, 4),
+    ((2019, 1, 3), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 4), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 5), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2019, 1, 7), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 7), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 8), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2018, 1, 12), TEMPORA_EPI1_0A, 4),  # Feast of the Holy Family
+    ((2018, 2, 13), TEMPORA_QUADP3_0, 4),
+    ((2018, 7, 4), TEMPORA_PENT06_0, 4),
+    ((2018, 7, 9), TEMPORA_PENT07_0, 4),  # Feast of the Most Precious Blood
+    ((2018, 10, 31), TEMPORA_PENT23_0, 4),  # Feast of Christ the King
 ])
 def test_get_proper_for_day_without_own_proper(date_, id_, rank):
     # For days without their own propers we show the proper from the last Sunday
@@ -142,7 +140,7 @@ def test_get_repr():
     container = missal.get_day(date(2018, 1, 13))
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
-    assert str(container) == '[<tempora:Epi1-6:4>][<sancti:01-13:2>][]'
+    assert str(container) == '[<tempora:Epi1-6:4:g>][<sancti:01-13:2:g>][]'
 
 
 @pytest.mark.parametrize("date_,sections", [
@@ -176,8 +174,8 @@ def test_correct_preface_calculated_by_date(date_,title_part, preface_body):
 
 
 @pytest.mark.parametrize("proper_id,preface_name,preface_body", [
-    ('tempora:Adv2-0', 'Communis', '*Communis*'),
-    ('tempora:Adv2-0', 'Trinitate', '*de sanctissima Trinitate*'),
+    (TEMPORA_ADV2_0, 'Communis', '*Communis*'),
+    (TEMPORA_ADV2_0, 'Trinitate', '*de sanctissima Trinitate*'),
 ])
 def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, preface_body):
     _, proper_latin = ProperParser(proper_id, language, ProperConfig(preface=preface_name)).parse()

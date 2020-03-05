@@ -91,7 +91,12 @@ class Proper(ParsedSource):
         super(Proper, self).__init__()
         self.id = id_
         try:
-            self.rank = int(id_.split(':')[-1])
+            _, _, rank, color = id_.split(':')
+        except ValueError:
+            raise
+        self.color = color
+        try:
+            self.rank = int(rank)
         except ValueError:
             pass
         if parsed_source is not None:
