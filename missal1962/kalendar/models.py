@@ -65,8 +65,8 @@ class Observance:
         self.flexibility: str = flexibility
         self.name: str = name
         self.rank: int = self._calc_rank(observance_id, int(rank))
-        self.color = color
-        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), self.color))
+        self.color = list(color)
+        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]

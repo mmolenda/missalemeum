@@ -12,7 +12,7 @@ let config = {
         class1: "1st class",
         class2: "2nd class",
         class3: "3rd class",
-        class4: "commemoration",
+        class4: "4th class",
         cannotLoadMessage: "Cannot load the data."
     }
 }
