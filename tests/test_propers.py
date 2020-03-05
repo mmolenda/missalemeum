@@ -352,3 +352,22 @@ def test_all_propers_latin(strdate, expected_sections):
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
         assert expected_section['body'] in proper_serialized[i]['body'],\
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+
+
+def _get_proper_fixtures_english():
+    with open(os.path.join(HERE, 'fixtures/propers_english_2020.json')) as fh:
+        return list(json.load(fh).items())
+
+
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_english())
+def test_all_propers_english(strdate, expected_sections):
+    missal = get_missal(2020, 'en')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    proper, _ = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'], \
+            f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'], \
+            f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
