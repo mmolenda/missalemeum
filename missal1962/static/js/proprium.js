@@ -118,7 +118,7 @@ $(window).on("load", function () {
             markItemActiveCallback(date);
             $searchInput.attr("placeholder", config.translation.searchIn + year + "...");
         }).fail(function() {
-            alert(cannotLoadMessage);
+            alert(config.translation.cannotLoadMessage);
         }).always(function() {
             loader.hide();
         });
@@ -240,7 +240,7 @@ $(window).on("load", function () {
             }
             adaptSectionColumns();
         }).fail(function() {
-            alert(cannotLoadMessage);
+            alert(config.translation.cannotLoadMessage);
         }).always(function() {
             loader.hide();
         });

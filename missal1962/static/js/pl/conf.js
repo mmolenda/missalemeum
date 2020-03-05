@@ -13,7 +13,8 @@ let config = {
         class1: "1 klasy",
         class2: "2 klasy",
         class3: "3 klasy",
-        class4: "wspomnienie"
+        class4: "wspomnienie",
+        cannotLoadMessage: "Nie udało się pobrać danych."
     }
 }
 

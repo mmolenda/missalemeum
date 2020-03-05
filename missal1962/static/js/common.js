@@ -8,7 +8,6 @@ const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const langSwithVernacular = "lang-switch-vernacular";
 const $sidebar = $("nav#sidebar");
 const $sidebarTools = $("div#sidebar-tools");
-let cannotLoadMessage = "Nie udało się pobrać danych.";
 
 // Making :contains case insensitive
 $.expr[":"].contains = $.expr.createPseudo(function(arg) {
