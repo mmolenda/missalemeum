@@ -81,7 +81,7 @@ $(window).on("load", function () {
                 $sidebarAndContent.removeClass("active");
             }
         }).fail(function() {
-            alert(cannotLoadMessage);
+            alert(config.translation.cannotLoadMessage);
         }).always(function() {
             loader.hide();
         });

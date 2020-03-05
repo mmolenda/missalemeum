@@ -130,10 +130,7 @@ class Proper(ParsedSource):
 
             vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
             if vide:
-                vide = vide[0].split(' ')[-1].split(';')[0]
-                if '/' not in vide:
-                    vide = f'Commune/{vide}'
-                rules['vide'] = vide
+                rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
 
         return rules.get(rule_name)
 
