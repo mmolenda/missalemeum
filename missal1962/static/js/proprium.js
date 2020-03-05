@@ -23,6 +23,7 @@ $(window).on("load", function () {
     const $templateContentSupplementItemExternal = $("#template-content-supplement-item-external").text();
     const $templateContentColumns = $("#template-content-columns").text();
     const $templateContentPrint = $("#template-content-print").text();
+    const $templateColorMarker = $("#template-color-marker").text();
 
     const $window = $(window);
     const $sidebarAndContent = $("#sidebar, #content");
@@ -88,10 +89,16 @@ $(window).on("load", function () {
                 let parsedDate = moment(date, "YYYY-MM-DD");
                 let additional_info = [parsedDate.format("dd DD.MM.YYYY")];
                 let celebration;
+                let color;
                 if (day.celebration.length > 0) {
                     celebration = day.celebration[0].title;
+                    color = day.celebration[0].colors[0];
                 } else {
                     celebration = textFeria;
+                    color = 'w';
+                    if (day.tempora.length > 0) {
+                        color = day.tempora[0].colors[0];
+                    }
                 }
                 if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
                     additional_info.push(day.tempora[0].title);
@@ -100,7 +107,8 @@ $(window).on("load", function () {
                 let sidebarCalendarItem = $(renderTemplate($templateSidebarCalendarItem, {
                     date: date,
                     celebration: celebration,
-                    additional_info: additional_info.join(" | ")
+                    additional_info: additional_info.join(" | "),
+                    color: color
                 }));
                 if (parsedDate.weekday() === 5) {
                     sidebarCalendarItem.addClass("saturday");
@@ -148,6 +156,11 @@ $(window).on("load", function () {
                 let sectionsVernacular = item.proper_vernacular;
                 let sectionsLatin = item.proper_latin;
                 let parsedDate = moment(date, "YYYY-MM-DD");
+                let colors = info.colors;
+                let colorMarkers = '';
+                $.each(colors, function(i, color) {
+                    colorMarkers += renderTemplate($templateColorMarker, {color: color});
+                });
                 let additional_info = [parsedDate.format("dd DD.MM.YYYY"), mapRank(info.rank)];
                 if (info.tempora != null) {
                     additional_info.push(info.tempora);
@@ -162,6 +175,7 @@ $(window).on("load", function () {
                 titles.push(title);
                 $(renderTemplate($templateContentIntro, {
                     title: title,
+                    color_markers: colorMarkers,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
                 })).appendTo($loadedContent);

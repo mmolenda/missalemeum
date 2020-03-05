@@ -94,7 +94,7 @@ class Proper(ParsedSource):
             _, _, rank, color = id_.split(':')
         except ValueError:
             raise
-        self.color = list(color)
+        self.colors = list(color)
         try:
             self.rank = int(rank)
         except ValueError:

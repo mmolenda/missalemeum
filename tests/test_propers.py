@@ -140,7 +140,7 @@ def test_get_repr():
     container = missal.get_day(date(2018, 1, 13))
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
-    assert str(container) == '[<tempora:Epi1-6:4:g>][<sancti:01-13:2:g>][]'
+    assert str(container) == '[<tempora:Epi1-6:4:w>][<sancti:01-13:2:w>][]'
 
 
 @pytest.mark.parametrize("date_,sections", [

@@ -80,10 +80,13 @@
 
 <!--Templates -->
 <script id="template-sidebar-item" type="text/x-custom-template">
-    <li id="sidebar-item-${date}" class="sidebar-item"><a href="${date}">
-        <div>${celebration}</div>
-        <div class="tempora rubric">${additional_info}</div>
-    </a></li>
+    <li id="sidebar-item-${date}" class="sidebar-item">
+        <div class="sidebar-color-marker color-marker-${color}"></div>
+        <a href="${date}">
+            <div>${celebration}</div>
+            <div class="tempora rubric">${additional_info}</div>
+        </a>
+    </li>
 </script>
 <script id="template-sidebar-item-year" type="text/x-custom-template">
     <li class="sidebar-item">
@@ -94,7 +97,7 @@
 </script>
 <script id="template-content-intro" type="text/x-custom-template">
     <h1 class="display-8">${title}</h1>
-    <p><em class="rubric">${additional_info}</em></p>
+    <p>${color_markers} | <em class="rubric">${additional_info}</em></p>
     <p>${description}</p>
 </script>
 <script id="template-content-supplement-list" type="text/x-custom-template">
@@ -117,6 +120,9 @@
             <p>${sectionLatin}</p>
         </div>
     </div>
+</script>
+<script id="template-color-marker" type="text/x-custom-template">
+    <span class="color-marker color-marker-${color}"></span>
 </script>
 {% include 'print.html' %}
 {% endblock %}
