@@ -2413,8 +2413,54 @@
   ],
   "2020-02-24": [
     {
-      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and ",
-      "id": "Prefatio"
+      "body": "*Ps 30:3-4*\nBe my rock of refuge, O God, a stronghold to give me safety.",
+      "id": "Introitus",
+      "label": "Introit"
+    },
+    {
+      "body": "O Lord, we beseech You, mercifully hear our prayers; loose us from the",
+      "id": "Oratio",
+      "label": "Collect"
+    },
+    {
+      "body": "Lesson from the first letter of St. Paul the Apostle to the Corinthians\n*1 Cor. 13:1-13*\nBrethren",
+      "id": "Lectio",
+      "label": "Epistle"
+    },
+    {
+      "body": "*Ps 76:15-16*\nYou are the God Who alone works wonders; among the peoples",
+      "id": "Graduale",
+      "label": "Gradual"
+    },
+    {
+      "body": "Continuation \u2629 of the Holy Gospel according to Luke\n*Luke 18:31-43*\nAt that time",
+      "id": "Evangelium",
+      "label": "Gospel"
+    },
+    {
+      "body": "*Ps 118:12-13*\nBlessed are You, O Lord; teach me Your statutes. With my lips",
+      "id": "Offertorium",
+      "label": "Offertory"
+    },
+    {
+      "body": "May these offerings, O Lord, we beseech You, wash away our sins; may it",
+      "id": "Secreta",
+      "label": "Secret"
+    },
+    {
+      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that",
+      "id": "Prefatio",
+      "label": "Preface"
+    },
+    {
+      "body": "*Ps 77:29-30*\nThey ate and were wholly surfeited; the Lord had brought",
+      "id": "Communio",
+      "label": "Communion"
+    },
+    {
+      "body": "We beseech You, almighty God, that we who have received the Bread of",
+      "id": "Postcommunio",
+      "label": "Postcommunion"
     }
   ],
   "2020-02-25": [
