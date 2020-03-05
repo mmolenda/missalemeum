@@ -61,11 +61,12 @@ class Observance:
         self.date = date_
         self.lang = lang
         translation = importlib.import_module(f'constants.{lang}.translation')
-        flexibility, name, rank = observance_id.split(':')
+        flexibility, name, rank, color = observance_id.split(':')
         self.flexibility: str = flexibility
         self.name: str = name
         self.rank: int = self._calc_rank(observance_id, int(rank))
-        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank)))
+        self.colors = list(color)
+        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
@@ -83,7 +84,7 @@ class Observance:
         return ProperParser(self.id, self.lang).proper_exists()
 
     def serialize(self) -> dict:
-        return {'id': self.id, 'rank': self.rank, 'title': self.title}
+        return {'id': self.id, 'rank': self.rank, 'title': self.title, 'colors': self.colors}
 
     def _calc_rank(self, observance_id: str, original_rank: int) -> int:
         """

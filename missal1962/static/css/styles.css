@@ -100,6 +100,7 @@ div#lang-dropdown-menu {
 
 #sidebar ul>li {
     border-bottom: 1px dashed #c3b37e;
+    display: table;
 }
 
 #sidebar ul>li.saturday {
@@ -113,8 +114,8 @@ div#lang-dropdown-menu {
 
 #sidebar ul li a {
     padding: 10px;
-    /*ize: 1.1em;*/
-    display: block;
+    display: table-cell;
+    width: 100%;
 }
 
 #sidebar ul li a:hover {
@@ -302,6 +303,40 @@ iframe#google-cal {
 
 p.supplement {
     font-size: 90%;
+}
+
+.color-marker {
+    height: 10px;
+    width: 9px;
+    border-radius: 10% 10% 50% 50%;
+    display: inline-block;
+}
+
+.sidebar-color-marker {
+    width: 3px;
+    padding-left: 3px;
+    border-right: 1px solid #c3b37e;
+    display: table-cell;
+}
+
+.color-marker-r {
+    background-color: #cd5c5c;
+}
+
+.color-marker-g {
+    background-color: #009a00;
+}
+
+.color-marker-w {
+    background-color: lightgray;
+}
+
+.color-marker-v {
+    background-color: blueviolet;
+}
+
+.color-marker-b {
+    background-color: black;
 }
 
 /*

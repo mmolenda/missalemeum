@@ -47,6 +47,7 @@ def format_propers(day: 'Day'):
             "additional_info": propers_vernacular.additional_info,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
+            "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
             "date": day.date.strftime("%Y-%m-%d")
         }
