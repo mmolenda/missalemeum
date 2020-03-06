@@ -7,6 +7,7 @@ let config = {
     dateEndpoint: "/en/api/v3/date/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
+    saturday: 6,
     translation: {
         searchIn: "Search in ",
         class1: "1st class",

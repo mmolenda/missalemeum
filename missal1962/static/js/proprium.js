@@ -110,7 +110,7 @@ $(window).on("load", function () {
                     additional_info: additional_info.join(" | "),
                     color: color
                 }));
-                if (parsedDate.weekday() === 5) {
+                if (parsedDate.weekday() === config.saturday) {
                     sidebarCalendarItem.addClass("saturday");
                 }
                 sidebarCalendarItem.appendTo($sidebarUl);

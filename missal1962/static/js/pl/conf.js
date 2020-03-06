@@ -8,6 +8,7 @@ let config = {
     canticumEndpoint: "/pl/api/v3/supplement/canticum/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
+    saturday: 5,
     translation: {
         searchIn: "Szukaj w ",
         class1: "1 klasy",
