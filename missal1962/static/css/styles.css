@@ -100,7 +100,6 @@ div#lang-dropdown-menu {
 
 #sidebar ul>li {
     border-bottom: 1px dashed #c3b37e;
-    display: table;
 }
 
 #sidebar ul>li.saturday {
@@ -114,8 +113,7 @@ div#lang-dropdown-menu {
 
 #sidebar ul li a {
     padding: 10px;
-    display: table-cell;
-    width: 100%;
+    display: block;
 }
 
 #sidebar ul li a:hover {
