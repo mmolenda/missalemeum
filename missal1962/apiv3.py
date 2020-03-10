@@ -55,7 +55,16 @@ def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
     except (InvalidInput, ProperNotFound) as e:
         return jsonify({'error': str(e)}), 400
     else:
-        return jsonify([proper_vernacular.serialize(), proper_latin.serialize()])
+        return jsonify({
+            "info": {
+                "id": proper_vernacular.id,
+                "title": proper_vernacular.title,
+                "description": proper_vernacular.description,
+                "additional_info": proper_vernacular.additional_info
+            },
+            "proper_vernacular": proper_vernacular.serialize(),
+            "proper_latin": proper_latin.serialize()
+        })
 
 
 @api.route("/<string:lang>/api/v3/supplement/<string:resource>")

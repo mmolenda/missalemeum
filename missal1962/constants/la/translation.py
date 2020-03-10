@@ -369,6 +369,7 @@ TITLES = {
     constants.EPI1_0A: 'Dominica post Epiphaniam',
     constants.PENT01_0A: 'Dominica Post Pentecosten',
     constants.C_10A: '1 Missa B. V. M. – Rorate',
+    constants.COMMUNE_C_10A: '1 Missa B. V. M. – Rorate',
     constants.C_10B: '2 Missa B. V. M. – Vultum Tuum',
     constants.C_10C: '3 Missa B. V. M. – Salve, Sancta Parens',
     constants.C_10PASC: '4 Missa B. V. M. – Salve, Sancta Parens',
