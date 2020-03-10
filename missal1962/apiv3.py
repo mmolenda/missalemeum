@@ -52,12 +52,16 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
 def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-    except (InvalidInput, ProperNotFound) as e:
+    except InvalidInput as e:
         return jsonify({'error': str(e)}), 400
+    except ProperNotFound as e:
+        return jsonify({'error': str(e)}), 404
     else:
         return jsonify({
             "info": {
                 "id": proper_vernacular.id,
+                "rank": proper_vernacular.rank,
+                "colors": proper_vernacular.colors,
                 "title": proper_vernacular.title,
                 "description": proper_vernacular.description,
                 "additional_info": proper_vernacular.additional_info
