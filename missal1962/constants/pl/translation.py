@@ -369,6 +369,7 @@ TITLES = {
     constants.EPI1_0A: '1 Niedziela po Objawieniu',
     constants.PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
     constants.C_10A: '1 Msza na święta N. M. P. – Rorate',
+    constants.COMMUNE_C_10A: 'Msza o N. M. P. w Adwencie – Rorate',
     constants.C_10B: '2 Msza na święta N. M. P. – Vultum Tuum',
     constants.C_10C: '3 Msza na święta N. M. P. – Salve, Sancta Parens',
     constants.C_10PASC: '4 Msza na święta N. M. P. – Salve, Sancta Parens',

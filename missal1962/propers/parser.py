@@ -77,14 +77,14 @@ class ProperParser:
 
         # Moving data from "Comment" section up as direct properties of a Proper object
         parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
-        proper.title = self.translations[lang].TITLES.get(self.proper_id)
+        try:
+            proper.title = self.translations[lang].TITLES[self.proper_id]
+        except KeyError:
+            # Handling very rare case when proper's source exists but rank or color in the ID is invalid
+            raise ProperNotFound(f"Proper {self.proper_id} not found")
         proper.description = parsed_comment['description']
         proper.additional_info = parsed_comment['additional_info']
         proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
-        if not proper.rank:
-            # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
-            proper.rank = parsed_comment['rank']
-
         proper = self._add_prefaces(proper, lang)
         proper = self._filter_sections(proper)
         proper = self._amend_sections_contents(proper)

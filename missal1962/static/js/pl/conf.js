@@ -15,7 +15,7 @@ let config = {
         class2: "2 klasy",
         class3: "3 klasy",
         class4: "4 klasy",
-        cannotLoadMessage: "Nie udało się pobrać danych."
+        cannotLoadMessage: "Nie udało się pobrać danych. Prawdopodobnie związane jest to ze zmianą domeny na missalemeum.com. Spróbuj wyczyścić dane przeglądarki."
     }
 }
 

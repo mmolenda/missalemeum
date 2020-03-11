@@ -367,6 +367,7 @@ TITLES = {
     constants.EPI1_0A: 'Sunday after Epiphany',
     constants.PENT01_0A: 'Sunday after Pentecost',
     constants.C_10A: 'I Mass B. V. M. – Rorate',
+    constants.COMMUNE_C_10A: 'I Mass B. V. M. – Rorate',
     constants.C_10B: 'II Mass B. V. M. – Vultum Tuum',
     constants.C_10C: 'III Mass B. V. M. – Salve, Sancta Parens',
     constants.C_10PASC: 'IV Mass B. V. M. – Salve, Sancta Parens',

@@ -231,7 +231,7 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
                     "Commemoratio Sabbato Quattuor Temporum Quadragesimæ", "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 3, 7), "Deus, qui culpa offénderis", "Sacrifíciis præséntibus, Dómine", "Cœléstis doni benedictióne",
-                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Pro Doctore non Pontifice", "Pro Doctore non Pontifice"),
+                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Sancti N. Confessóris tui", "Ut nobis, Dómine, tua sacrifícia"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 9, 15), "Custódi, Dómine, quǽsumus", "Concéde nobis, Dómine", "Puríficent semper et múniant",
                     "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
