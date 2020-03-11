@@ -2,8 +2,8 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION, INTROIT, OFFERTORIUM, \
-    COMMUNIO
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
+from exceptions import ProperNotFound
 
 
 class ParsedSource:
@@ -92,13 +92,10 @@ class Proper(ParsedSource):
         self.id = id_
         try:
             _, _, rank, color = id_.split(':')
-        except ValueError:
-            raise
-        self.colors = list(color)
-        try:
             self.rank = int(rank)
         except ValueError:
-            pass
+            raise ProperNotFound(f"Proper {id_} not found")
+        self.colors = list(color)
         if parsed_source is not None:
             self._container = copy(parsed_source._container)
 

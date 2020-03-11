@@ -23,11 +23,8 @@ def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
 
 def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:
     for pattern, preface_name in CUSTOM_PREFACES:
-        try:
-            if (re.match(pattern, celebration.id)) or (tempora and celebration.rank > 1 and re.match(pattern, tempora.id)):
-                return preface_name
-        except AttributeError:
-            raise
+        if (re.match(pattern, celebration.id)) or (tempora and celebration.rank > 1 and re.match(pattern, tempora.id)):
+            return preface_name
     return None
 
 

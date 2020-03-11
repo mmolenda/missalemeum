@@ -14,6 +14,6 @@ let config = {
         class2: "2nd class",
         class3: "3rd class",
         class4: "4th class",
-        cannotLoadMessage: "Cannot load the data."
+        cannotLoadMessage: "Cannot load the data. It's likely a result of domain change into missalemeum.com. Try to clear your browser's data."
     }
 }
