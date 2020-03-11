@@ -7,10 +7,9 @@ import pytest
 
 from constants import common as c
 from kalendar.models import Observance
-from tests.conftest import get_missal
+from tests.conftest import get_missal, HERE
 from utils import match
 
-HERE = os.path.abspath(os.path.dirname(__file__))
 language = 'pl'
 
 
