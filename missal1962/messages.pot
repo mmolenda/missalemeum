@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-04 14:35+0100\n"
+"POT-Creation-Date: 2020-03-11 23:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,9 @@ msgstr ""
 
 #: templates/base.html:8 templates/proprium.html:62
 msgid ""
-"The 1962 Roman Missal containing the English translations and the Latin "
-"originals for Holy Mass in Extraordinary form of the Roman Rite "
-"(Traditional Latin Mass / Tridentine Mass)"
+"The 1962 Roman Missal containing the liturgical calendar and the readings"
+" for Traditional Latin Mass (Extraordinary form of the Roman Rite, "
+"Tridentine Mass, TLM)"
 msgstr ""
 
 #: templates/base.html:67
@@ -54,13 +54,5 @@ msgstr ""
 
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
-msgstr ""
-
-#: templates/en/info.html:38
-msgid "Content"
-msgstr ""
-
-#: templates/en/info.html:46
-msgid "Send"
 msgstr ""
 
