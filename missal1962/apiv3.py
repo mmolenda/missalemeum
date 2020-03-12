@@ -9,6 +9,7 @@ import logging
 from flask import jsonify, Blueprint
 
 import controller
+from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound
 from kalendar.models import Day, Calendar
@@ -50,6 +51,7 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
 @api.route('/<string:lang>/api/v3/proper/<string:proper_id>')
 @validate_locale
 def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
+    proper_id = {i['ref']: i['id'] for i in TRANSLATION[lang].VOTIVE_MASSES}.get(proper_id, proper_id)
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
     except InvalidInput as e:

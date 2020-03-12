@@ -37,15 +37,24 @@ def test_api_date_invalid_input(client):
 
 def test_api_proper(client):
     resp = client.get('/pl/api/v3/proper/sancti:11-11:3:w').json
-    info = resp["info"]
+    info = resp[0]["info"]
     assert ["Szaty białe"] == info["additional_info"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
-    assert "*Eccli 45:30" in resp["proper_latin"][0]["body"]
-    assert "*Syr 45:30" in resp["proper_vernacular"][0]["body"]
+    assert "*Eccli 45:30" in resp[0]["proper_latin"][0]["body"]
+    assert "*Syr 45:30" in resp[0]["proper_vernacular"][0]["body"]
+
+
+def test_api_proper_slug(client):
+    resp = client.get('/pl/api/v3/proper/rorate').json
+    info = resp[0]["info"]
+    assert ["Szaty białe"] == info["additional_info"]
+    assert ["w"] == info["colors"]
+    assert "commune:C10a:0:w" == info["id"]
+    assert 'Msza o N. M. P. w Adwencie – Rorate' == info["title"]
 
 
 def test_api_proper_invalid_input(client):

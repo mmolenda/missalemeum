@@ -44,13 +44,7 @@
     </div>
 </div>
 
-<!--Templates -->
-<script id="template-content" type="text/x-custom-template">
-    <h1 class="display-8">${title}</h1>
-    <p><em class="rubric">${additional_info}</em></p>
-    <p>${description}</p>
-</script>
-{% include 'print.html' %}
+{% include 'js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}

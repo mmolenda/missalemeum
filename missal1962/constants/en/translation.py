@@ -649,6 +649,8 @@ TITLES = {
     constants.SANCTI_12_31: 'St. Silvester'
 }
 
+VOTIVE_MASSES = []
+
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',
     'CommunioP': 'Communion',

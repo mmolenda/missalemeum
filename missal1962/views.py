@@ -14,6 +14,7 @@ from flask import render_template, Blueprint, request, send_from_directory, redi
 from jinja2 import TemplateNotFound
 
 import controller
+from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH
 from exceptions import SupplementNotFound
 from kalendar.models import Day
@@ -128,12 +129,7 @@ def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
 @views.route("/<string:lang>/votive/<string:proper_id>")
 @infer_locale
 def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
-    index = [
-        {"title": "One", "ref": "commune:C10a:0:w"},
-        {"title": "Two", "ref": "tempora:Adv1-0:1:v"},
-
-    ]
-    return render_template("votive.html", title="Bla", index=index, lang=lang)
+    return render_template("votive.html", title="Bla", index=TRANSLATION[lang].VOTIVE_MASSES, lang=lang)
 
 
 @views.route("/supplement")

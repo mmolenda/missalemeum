@@ -124,9 +124,9 @@ function printContent(template, content) {
     return true;
 }
 
-function markSidebarItemActive(date) {
+function markSidebarItemActive(resourceId) {
     $sidebar.find("li.sidebar-item").removeClass("active");
-    let newActive = $("li#sidebar-item-" + date);
+    let newActive = $("li#sidebar-item-" + resourceId);
     newActive.addClass("active");
 
     let itemPosition = newActive.position().top;
