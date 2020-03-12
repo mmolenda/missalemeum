@@ -104,16 +104,14 @@ $ python missal1962/cli.py proper sancti:09-15:2:w
 ## Localization
 
 1. Copy folder `missal1962/constants/en` into `missal1962/constants/<your-lang-ISO-639-1>` and translate the files
-2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `DIVOFF_LANG_MAP` in `missal1962/constants/common.py`
-3. Add language mapping for Babel in `missal1962/settings.py`
-4. Generate Babel language files:
+2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `missal1962/constants/common.py`
+3. Generate Babel language files:
     - Create .po file: `cd Missal1962/missal1962 && pybabel init -i messages.pot -d translations -l <your-lang-ISO-639-1>`
     - Provide translations in file generated in `missal1962/translations/<your-lang>/LC_MESSAGES/messages.po`
     - Compile babel files: `pybabel compile -d translations`
-5. Copy folder `missal1962/templates/en` into `missal1962/templates/<your-lang-ISO-639-1>` and translate the files
+4. Copy folder `missal1962/templates/en` into `missal1962/templates/<your-lang-ISO-639-1>` and translate the files
 5. Copy folder `missal1962/static/data/en` into `missal1962/static/data/<your-lang-ISO-639-1>` and translate the files
-5. Copy folder `missal1962/static/js/en` into `missal1962/static/js/<your-lang-ISO-639-1>` and translate the files
-6. Add your language dropdown in `missal1962/templates/base.html` in `ul class="navbar-nav dropdown dropdown-menu-right`
+6. Copy folder `missal1962/static/js/en` into `missal1962/static/js/<your-lang-ISO-639-1>` and translate the files
 7. Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter some issues with Divinum Officium source files. In such case correct them in Divinum Officium project and update the submodule. 
 8. Add source files for non-regular Masses, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
 

@@ -80,11 +80,12 @@
             <ul class="navbar-nav dropdown dropdown-menu-right">
                 <li class="nav-item">
                     <a class="nav-item nav-link dropdown-toggle" href="#" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {%if lang == 'pl' %}Polski{% else %}English{% endif %}
+                        {{ langs[lang] }}
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" id="lang-dropdown-menu" aria-labelledby="lang-dropdown">
-                        <a class="dropdown-item" href="/en">English</a>
-                        <a class="dropdown-item" href="/pl">Polski</a>
+                        {% for lang_id, lang_name in langs.items() %}
+                            <a class="dropdown-item" href="/{{ lang_id }}">{{ lang_name }}</a>
+                        {% endfor %}
                     </div>
                 </li>
             </ul>

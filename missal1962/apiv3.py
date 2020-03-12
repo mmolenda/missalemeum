@@ -13,7 +13,7 @@ from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound
 from kalendar.models import Day, Calendar
-from settings import LANGUAGES
+from constants.common import LANGUAGES
 from utils import format_propers, get_supplement
 
 logging.basicConfig(
