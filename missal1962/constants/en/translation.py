@@ -649,7 +649,9 @@ TITLES = {
     constants.SANCTI_12_31: 'St. Silvester'
 }
 
-VOTIVE_MASSES = []
+VOTIVE_MASSES = [
+    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A], 'tags': ['wot']},
+]
 
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',

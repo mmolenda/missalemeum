@@ -1,6 +1,6 @@
 
 
-$(window).on("load", function () {
+$window.on("load", function () {
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js');
@@ -14,7 +14,6 @@ $(window).on("load", function () {
 
     // Localized strings
 
-    const $window = $(window);
     const $sidebarAndContent = $("#sidebar, #content");
     const $datetimepicker4 = $("#datetimepicker4");
 

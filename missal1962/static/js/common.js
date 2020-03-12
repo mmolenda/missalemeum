@@ -189,7 +189,11 @@ class ProperContentLoader {
                 let date = info.date;
                 if (date !== undefined) {
                     let parsedDate = moment(date, "YYYY-MM-DD");
-                    additional_info.push(parsedDate.format("dd DD.MM.YYYY"), self.mapRank(info.rank));
+                    additional_info.push(parsedDate.format("dd DD.MM.YYYY"));
+                }
+                let mappedRank = self.mapRank(info.rank);
+                if (mappedRank !== undefined) {
+                    additional_info.push(mappedRank);
                 }
                 if (info.tempora != null) {
                     additional_info.push(info.tempora);

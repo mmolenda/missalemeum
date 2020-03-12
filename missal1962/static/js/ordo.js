@@ -1,4 +1,4 @@
-$(window).on("load", function () {
+$window.on("load", function () {
 
     const $templateContentPrint = $("#template-content-print").text();
 
@@ -8,7 +8,7 @@ $(window).on("load", function () {
     adaptSectionColumns();
     showSection();
 
-    $(window).on("resize", function(){
+    $window.on("resize", function(){
         adaptSectionColumns();
     });
 
@@ -29,14 +29,14 @@ $(window).on("load", function () {
             $sidebarAndContent.removeClass("active");
         }
         // need to wait a bit until the columns are resized back after closing the sidebar
-        setTimeout(function() {$(window).scrollTop(ordoItem.offset().top - 70);}, 350);
+        setTimeout(function() {$window.scrollTop(ordoItem.offset().top - 70);}, 350);
     }
 
     $window.on("hashchange", function() {
         showSection();
     });
 
-    $(window).scroll(function() {
+    $window.scroll(function() {
         /**
          * Highlight displayed section in the menu
          **/

@@ -1,6 +1,6 @@
 
 
-$(window).on("load", function () {
+$window.on("load", function () {
 
 
     /**
@@ -60,9 +60,9 @@ $(window).on("load", function () {
         }).done(function() {
             loadedResource = resourceId;
             if (historyReplace === true) {
-                window.history.replaceState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
+                window.history.replaceState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
             } else {
-                window.history.pushState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
+                window.history.pushState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
             }
             document.title = title + " | " + "Missale Meum";
             markSidebarItemActive(resourceId);
