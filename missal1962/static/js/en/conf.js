@@ -5,6 +5,7 @@ let config = {
     lang: "en",
     calendarEndpoint: "/en/api/v3/calendar/",
     dateEndpoint: "/en/api/v3/date/",
+    properEndpoint: "/en/api/v3/proper/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
     saturday: 6,

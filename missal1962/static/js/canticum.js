@@ -9,14 +9,7 @@ $(window).on("load", function () {
      *
     **/
 
-    const $templateContent = $("#template-content").text();
-    const $templateContentPrint = $("#template-content-print").text();
-    const $sidebarAndContent = $("#sidebar, #content");
-    const $searchInput = $("input#search-input");
-
     let urlPart = "canticum";
-    let loadedResource;
-    let selectedResource;
 
     /**
      *
@@ -34,10 +27,6 @@ $(window).on("load", function () {
     }
 
     init();
-
-    function setResourceId(resourceId) {
-        selectedResource = resourceId;
-    }
 
     function getResourceId() {
         if (selectedResource === undefined) {

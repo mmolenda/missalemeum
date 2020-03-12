@@ -122,6 +122,20 @@ def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
     return render_template("canticum.html", title=title, index=index, lang=lang)
 
 
+@views.route("/votive")
+@views.route("/votive/<string:proper_id>")
+@views.route("/<string:lang>/votive")
+@views.route("/<string:lang>/votive/<string:proper_id>")
+@infer_locale
+def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
+    index = [
+        {"title": "One", "ref": "commune:C10a:0:w"},
+        {"title": "Two", "ref": "tempora:Adv1-0:1:v"},
+
+    ]
+    return render_template("votive.html", title="Bla", index=index, lang=lang)
+
+
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
 @views.route("/supplement/<subdir>/<string:resource>")

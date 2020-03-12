@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% if title %} {{ title }} {% else %} Pieśni {% endif %} |
+{% endblock %}
+
+{% block left_menu_button  %}
+<button id="sidebar-collapse" class="navbar-toggler" type="button">
+    <span>≡</span>
+</button>
+{% endblock %}
+
+{% block content %}
+<div class="wrapper">
+    <nav id="sidebar">
+        <div id="sidebar-tools">
+            <input id="search-input" type="search" placeholder="Szukaj..." class="form-control"/>
+            <span id="search-clear">╳</span>
+        </div>
+        <ul class="list-unstyled with-sidebar-tools">
+            {% for item in index %}
+            <li id="sidebar-item-{{ item['ref'] }}" class="sidebar-item"><a href="{{ item['ref'] }}">
+                <div>{{ item['title'] }}</div>
+                <div class="tempora rubric">
+                    {% for tag in item['tags'] %}
+                        {{ tag }}{% if item['tags']|length > 1 and loop.index0 + 1 < item['tags']|length %}, {% endif %}
+                    {% endfor %}
+                </div>
+            </a></li>
+            {% endfor %}
+
+        </ul>
+    </nav>
+    <div id="content" role="main" class="container-fluid">
+        <div class="col-md-9" id="content-tools">
+            <a id="print"><i class="fa fa-print"></i></a>
+        </div>
+        <main class="col-md-9">
+            <div id="loaded-content">
+                <h1 class="display-8">{% if title %} {{ title }} {% else %} Pieśni {% endif %}</h1>
+            </div>
+            {% include 'footer.html' %}
+        </main>
+    </div>
+</div>
+
+<!--Templates -->
+<script id="template-content" type="text/x-custom-template">
+    <h1 class="display-8">${title}</h1>
+    <p><em class="rubric">${additional_info}</em></p>
+    <p>${description}</p>
+</script>
+
+
+
+    <script id="template-sidebar-item" type="text/x-custom-template">
+        <li id="sidebar-item-${date}" class="sidebar-item sidebar-color-marker sidebar-color-marker-${color}">
+            <a href="${date}">
+                <div>${celebration}</div>
+                <div class="tempora rubric">${additional_info}</div>
+            </a>
+        </li>
+    </script>
+    <script id="template-sidebar-item-year" type="text/x-custom-template">
+        <li class="sidebar-item">
+            <a href="${resourceId}">
+                <div class="tempora rubric">${year}</div>
+            </a>
+        </li>
+    </script>
+    <script id="template-content-intro" type="text/x-custom-template">
+        <h1 class="display-8">${title}</h1>
+        <p>${color_markers} | <em class="rubric">${additional_info}</em></p>
+        <p>${description}</p>
+    </script>
+    <script id="template-content-supplement-list" type="text/x-custom-template">
+        <p class="supplement">Suplement: </p>
+    </script>
+    <script id="template-content-supplement-item-internal" type="text/x-custom-template">
+        <a class="dashed" href="${path}?ref=${date}">${label}</a>
+    </script>
+    <script id="template-content-supplement-item-external" type="text/x-custom-template">
+        <a class="dashed" target="_blank" href="${path}">${label}</a>
+    </script>
+    <script id="template-content-columns" type="text/x-custom-template">
+        <div class="row">
+            <div class="col-sm-6 section-vernacular">
+                <h2>${labelVernacular}</h2>
+                <p>${sectionVernacular}</p>
+            </div>
+            <div class="col-sm-6 section-latin">
+                <h2>${labelLatin}</h2>
+                <p>${sectionLatin}</p>
+            </div>
+        </div>
+    </script>
+    <script id="template-color-marker" type="text/x-custom-template">
+        <span class="color-marker color-marker-${color}"></span>
+    </script>
+{% include 'print.html' %}
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/common.js"></script>
+<script src="/static/js/{{ lang }}/conf.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/votive.js"></script>
+{% endblock %}
