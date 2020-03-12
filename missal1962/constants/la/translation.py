@@ -668,6 +668,7 @@ TITLES = {
     constants.SANCTI_12_31: 'S. Silvestri'
 }
 
+VOTIVE_MASSES = []
 
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',

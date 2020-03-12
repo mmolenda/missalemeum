@@ -668,6 +668,12 @@ TITLES = {
     constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy'
 }
 
+VOTIVE_MASSES = [
+    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A], 'tags': ['wot']},
+    {'ref': 'advent-first', 'id': constants.TEMPORA_ADV1_0, 'title': TITLES[constants.TEMPORA_ADV1_0], 'tags': ['adw']},
+    {'ref': 'advent-second', 'id': constants.TEMPORA_ADV2_0, 'title': TITLES[constants.TEMPORA_ADV2_0], 'tags': ['adw']}
+]
+
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',
     'CommunioP': 'Antyfona na Komunię (Okres Wielkanocny)',

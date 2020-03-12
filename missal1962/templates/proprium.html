@@ -62,68 +62,14 @@
                     <p>{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}</p>
                 {% endif %}
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
-        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> {{ lang }}
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
-            </label>
-        </div>
+        {% include 'partials/lang_switch.html' %}
     </div>
-    <div id="loader" style="display: none">
-        <img src="/static/img/loader.gif" alt="Loader">
-    </div>
+    {% include 'partials/loader.html' %}
 </div>
 
-<!--Templates -->
-<script id="template-sidebar-item" type="text/x-custom-template">
-    <li id="sidebar-item-${date}" class="sidebar-item sidebar-color-marker sidebar-color-marker-${color}">
-        <a href="${date}">
-            <div>${celebration}</div>
-            <div class="tempora rubric">${additional_info}</div>
-        </a>
-    </li>
-</script>
-<script id="template-sidebar-item-year" type="text/x-custom-template">
-    <li class="sidebar-item">
-        <a href="${date}">
-            <div class="tempora rubric">${year}</div>
-        </a>
-    </li>
-</script>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h1 class="display-8">${title}</h1>
-    <p>${color_markers} | <em class="rubric">${additional_info}</em></p>
-    <p>${description}</p>
-</script>
-<script id="template-content-supplement-list" type="text/x-custom-template">
-    <p class="supplement">Suplement: </p>
-</script>
-<script id="template-content-supplement-item-internal" type="text/x-custom-template">
-    <a class="dashed" href="${path}?ref=${date}">${label}</a>
-</script>
-<script id="template-content-supplement-item-external" type="text/x-custom-template">
-    <a class="dashed" target="_blank" href="${path}">${label}</a>
-</script>
-<script id="template-content-columns" type="text/x-custom-template">
-    <div class="row">
-        <div class="col-sm-6 section-vernacular">
-            <h2>${labelVernacular}</h2>
-            <p>${sectionVernacular}</p>
-        </div>
-        <div class="col-sm-6 section-latin">
-            <h2>${labelLatin}</h2>
-            <p>${sectionLatin}</p>
-        </div>
-    </div>
-</script>
-<script id="template-color-marker" type="text/x-custom-template">
-    <span class="color-marker color-marker-${color}"></span>
-</script>
-{% include 'print.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}

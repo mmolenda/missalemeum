@@ -7,6 +7,7 @@ import utils
 from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
+from constants import TRANSLATION
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT,
@@ -38,8 +39,8 @@ class ProperParser:
                and self._get_full_path(self._get_partial_path(), self.lang) is not None
 
     def parse(self) -> Tuple[Proper, Proper]:
-        self.translations[self.lang] = importlib.import_module(f'constants.{self.lang}.translation')
-        self.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
+        self.translations[self.lang] = TRANSLATION[self.lang]
+        self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
         self.prefaces[LANGUAGE_LATIN] = self._parse_source('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
         partial_path = self._get_partial_path()

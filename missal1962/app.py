@@ -8,7 +8,7 @@ from werkzeug.routing import BaseConverter, ValidationError
 from apiv2 import api as apiv2
 from apiv3 import api as apiv3
 from filters import slugify, asterisks2em, newline2br
-from settings import LANGUAGES
+from constants.common import LANGUAGES
 from views import views
 
 logging.basicConfig(
@@ -36,6 +36,11 @@ app.register_blueprint(apiv3)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
 babel = Babel(app)
+
+
+@app.context_processor
+def inject_available_langs():
+    return {"langs": LANGUAGES}
 
 
 @babel.localeselector

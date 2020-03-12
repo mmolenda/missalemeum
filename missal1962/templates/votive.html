@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-    {% if title %} {{ title }} {% else %} {{ _('Songs') }} {% endif %} |
+    {% if title %} {{ title }} {% else %} {{ _('Votive') }} {% endif %} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -41,14 +41,17 @@
             </div>
             {% include 'partials/footer.html' %}
         </main>
+        {% include 'partials/lang_switch.html' %}
     </div>
+    {% include 'partials/loader.html' %}
 </div>
 
-{% include 'partials/js_templates.html' %}
+{%  include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}
 <script src="/static/js/common.js"></script>
 <script src="/static/js/{{ lang }}/conf.js"></script>
-<script src="/static/js/canticum.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/votive.js"></script>
 {% endblock %}

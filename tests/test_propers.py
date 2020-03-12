@@ -1,5 +1,4 @@
 import json
-import os
 from datetime import date
 
 from constants.common import *
@@ -12,9 +11,7 @@ from constants import common as c
 from kalendar.models import Observance
 from propers.models import ProperConfig
 from propers.parser import ProperParser
-from tests.conftest import get_missal
-
-HERE = os.path.abspath(os.path.dirname(__file__))
+from tests.conftest import get_missal, HERE
 
 language = 'pl'
 

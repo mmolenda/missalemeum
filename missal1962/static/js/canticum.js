@@ -1,6 +1,6 @@
 
 
-$(window).on("load", function () {
+$window.on("load", function () {
 
 
     /**
@@ -9,14 +9,7 @@ $(window).on("load", function () {
      *
     **/
 
-    const $templateContent = $("#template-content").text();
-    const $templateContentPrint = $("#template-content-print").text();
-    const $sidebarAndContent = $("#sidebar, #content");
-    const $searchInput = $("input#search-input");
-
     let urlPart = "canticum";
-    let loadedResource;
-    let selectedResource;
 
     /**
      *
@@ -34,10 +27,6 @@ $(window).on("load", function () {
     }
 
     init();
-
-    function setResourceId(resourceId) {
-        selectedResource = resourceId;
-    }
 
     function getResourceId() {
         if (selectedResource === undefined) {
@@ -71,9 +60,9 @@ $(window).on("load", function () {
         }).done(function() {
             loadedResource = resourceId;
             if (historyReplace === true) {
-                window.history.replaceState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
+                window.history.replaceState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
             } else {
-                window.history.pushState({resourceId: resourceId}, '', '/' + urlPart + '/' + resourceId);
+                window.history.pushState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
             }
             document.title = title + " | " + "Missale Meum";
             markSidebarItemActive(resourceId);

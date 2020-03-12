@@ -14,10 +14,11 @@ from flask import render_template, Blueprint, request, send_from_directory, redi
 from jinja2 import TemplateNotFound
 
 import controller
+from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH
 from exceptions import SupplementNotFound
 from kalendar.models import Day
-from settings import LANGUAGES
+from constants.common import LANGUAGES
 from utils import format_propers, get_supplement
 
 logging.basicConfig(
@@ -122,6 +123,22 @@ def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
     return render_template("canticum.html", title=title, index=index, lang=lang)
 
 
+@views.route("/votive")
+@views.route("/votive/<string:proper_id>")
+@views.route("/<string:lang>/votive")
+@views.route("/<string:lang>/votive/<string:proper_id>")
+@infer_locale
+def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
+    index = TRANSLATION[lang].VOTIVE_MASSES
+    title = None
+    if proper_id is not None:
+        for i in index:
+            if i["ref"] == proper_id:
+                title = i["title"]
+                break
+    return render_template("votive.html", title=title, index=index, lang=lang)
+
+
 @views.route("/supplement")
 @views.route("/supplement/<string:resource>")
 @views.route("/supplement/<subdir>/<string:resource>")
@@ -155,12 +172,6 @@ def icalendar():
 @infer_locale
 def info(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
-
-
-@views.route("/tmp/rorate")
-@infer_locale
-def rorate(lang: str = LANGUAGE_ENGLISH):
-    return render_template_or_404(f"rorate.html", lang=lang)
 
 
 @views.route("/service-worker.js")

@@ -5,6 +5,7 @@ let config = {
     lang: "pl",
     calendarEndpoint: "/pl/api/v3/calendar/",
     dateEndpoint: "/pl/api/v3/date/",
+    properEndpoint: "/pl/api/v3/proper/",
     canticumEndpoint: "/pl/api/v3/supplement/canticum/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
