@@ -39,12 +39,12 @@
             <div id="loaded-content">
                 <h1 class="display-8">{% if title %} {{ title }} {% else %} Pieśni {% endif %}</h1>
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
     </div>
 </div>
 
-{% include 'js_templates.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}

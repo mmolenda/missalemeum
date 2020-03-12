@@ -39,7 +39,7 @@ msgstr ""
 
 #: templates/base.html:66
 msgid "Votive"
-msgstr "Msze wotywne"
+msgstr "Wotywne"
 
 #: templates/base.html:70
 msgid "Songs"

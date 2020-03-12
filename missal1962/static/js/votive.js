@@ -17,6 +17,8 @@ $window.on("load", function () {
      *
      **/
 
+    adaptSectionColumns();
+
     let ploader = new ProperContentLoader(config.properEndpoint, config.lang + '/' + urlPart, function() {
         markSidebarItemActive(getResourceId());
     });
@@ -58,6 +60,14 @@ $window.on("load", function () {
         setResourceId(event.target.location.href.split("/").reverse()[0]);
         ploader.load(getResourceId(), true);
     };
+
+    $window.on("resize", function(){
+        adaptSectionColumns();
+    });
+
+    $("input[type=radio][name=lang-switch]").change(function() {
+        toggleLangSections(this.id);
+    });
 
     /**
      * filter out the elements in the sidebar;

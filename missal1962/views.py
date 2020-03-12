@@ -167,12 +167,6 @@ def info(lang: str = LANGUAGE_ENGLISH):
     return render_template_or_404(f"{lang}/info.html", lang=lang)
 
 
-@views.route("/tmp/rorate")
-@infer_locale
-def rorate(lang: str = LANGUAGE_ENGLISH):
-    return render_template_or_404(f"rorate.html", lang=lang)
-
-
 @views.route("/service-worker.js")
 def service_worker():
     return send_from_directory(os.path.join(views.root_path, "static", "js"), "service-worker.js")

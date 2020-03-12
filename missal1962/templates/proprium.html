@@ -62,23 +62,16 @@
                     <p>{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}</p>
                 {% endif %}
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
-        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> {{ lang }}
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> lat
-            </label>
-        </div>
+        {% include 'partials/lang_switch.html' %}
     </div>
     <div id="loader" style="display: none">
         <img src="/static/img/loader.gif" alt="Loader">
     </div>
 </div>
 
-{% include 'js_templates.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}
