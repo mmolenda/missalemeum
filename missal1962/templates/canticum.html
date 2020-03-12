@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-{% if title %} {{ title }} {% else %} Pieśni {% endif %} |
+    {% if title %} {{ title }} {% else %} {{ _('Songs') }} {% endif %} |
 {% endblock %}
 
 {% block left_menu_button  %}

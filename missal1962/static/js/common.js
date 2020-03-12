@@ -127,13 +127,15 @@ function printContent(template, content) {
 function markSidebarItemActive(resourceId) {
     $sidebar.find("li.sidebar-item").removeClass("active");
     let newActive = $("li#sidebar-item-" + resourceId);
-    newActive.addClass("active");
 
-    let itemPosition = newActive.position().top;
-    let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
+    if (newActive.length !== 0) {
+        newActive.addClass("active");
+        let itemPosition = newActive.position().top;
+        let sidebarPosition = Math.abs($sidebar.find("ul").position().top);
 
-    if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
-        $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+        if ((itemPosition > $sidebar.height() * 0.6) || itemPosition < $sidebarTools.height() * 1.5) {
+            $sidebar.animate({scrollTop: sidebarPosition + itemPosition - 100}, 200);
+        }
     }
 }
 
@@ -263,7 +265,7 @@ class ProperContentLoader {
             } else {
                 window.history.pushState({resourceId: resourceId}, '', '/' + self.urlPart + '/' + resourceId);
             }
-            document.title = titles[0] + " | " + resourceId + " | " + "Missale Meum";
+            document.title = titles[0] + " | " + "Missale Meum";
             if (navbarIsCollapsed()) {
                 $sidebarAndContent.removeClass("active");
             }

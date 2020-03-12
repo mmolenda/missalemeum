@@ -129,7 +129,14 @@ def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
 @views.route("/<string:lang>/votive/<string:proper_id>")
 @infer_locale
 def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
-    return render_template("votive.html", title="Bla", index=TRANSLATION[lang].VOTIVE_MASSES, lang=lang)
+    index = TRANSLATION[lang].VOTIVE_MASSES
+    title = None
+    if proper_id is not None:
+        for i in index:
+            if i["ref"] == proper_id:
+                title = i["title"]
+                break
+    return render_template("votive.html", title=title, index=index, lang=lang)
 
 
 @views.route("/supplement")
