@@ -18,7 +18,7 @@ from copy import copy
 from datetime import date, timedelta
 from typing import List
 
-from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T, EMBER_DAYS,
+from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T, EMBER_DAYS,
                               FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
                               PATTERN_CLASS_1, PATTERN_EASTER,
                               PATTERN_SANCTI_CLASS_1_OR_2,
@@ -88,19 +88,19 @@ def rule_bmv_office_on_saturday(
 
     def _calc_proper_for_given_period():
         if match(tempora, PATTERN_ADVENT):
-            return C_10A  # B. M. V. Saturdays in Advent
+            return TEMPORA_C_10A  # B. M. V. Saturdays in Advent
 
         if date_ >= date(date_.year, 12, 25) or date_ < date(date_.year, 2, 2):
-            return C_10B  # B. M. V. Saturdays between Nativity and Purification
+            return TEMPORA_C_10B  # B. M. V. Saturdays between Nativity and Purification
 
         wednesday_in_holy_week, _ = calendar.find_day(TEMPORA_QUAD6_3)
         if date(date_.year, 2, 2) <= date_ < wednesday_in_holy_week:
-            return C_10C  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+            return TEMPORA_C_10C  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
 
         if match(tempora, PATTERN_EASTER):
-            return C_10PASC  # B. M. V. Saturdays in Easter period
+            return TEMPORA_C_10PASC  # B. M. V. Saturdays in Easter period
 
-        return C_10T  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+        return TEMPORA_C_10T  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
     if date_.weekday() == 5:
         ranks = set([i.rank for i in observances])

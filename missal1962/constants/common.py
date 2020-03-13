@@ -333,6 +333,7 @@ TEMPORA_PASC7_3 = 'tempora:Pasc7-3:1:r'  # Ember Wednesday in Octave of Pentecos
 TEMPORA_PASC7_4 = 'tempora:Pasc7-4:1:r'
 TEMPORA_PASC7_5 = 'tempora:Pasc7-5:1:r'  # Ember Friday in Octave of Pentecost
 TEMPORA_PASC7_6 = 'tempora:Pasc7-6:1:r'  # Ember Saturday in Octave of Pentecost
+TEMPORA_PENT01_0A = 'tempora:Pent01-0a:2:g'  # 1st Sunday after Pentecost
 TEMPORA_PENT01_0 = 'tempora:Pent01-0r:1:w'  # Trinity Sunday
 TEMPORA_PENT01_1 = 'tempora:Pent01-1:4:g'
 TEMPORA_PENT01_2 = 'tempora:Pent01-2:4:g'
@@ -345,7 +346,7 @@ TEMPORA_PENT02_1 = 'tempora:Pent02-1:4:g'  # Monday in 2nd week after Pentecost
 TEMPORA_PENT02_2 = 'tempora:Pent02-2:4:g'  # Tuesday in 2nd week after Pentecost
 TEMPORA_PENT02_3 = 'tempora:Pent02-3:4:g'  # Wednesday in 2nd week after Pentecost
 TEMPORA_PENT02_4 = 'tempora:Pent02-4:4:g'  # Thursday in 2nd week after Pentecost
-TEMPORA_PENT02_5 = 'tempora:Pent02-5:1:g'  # Feast of the Sacred Heart
+TEMPORA_PENT02_5 = 'tempora:Pent02-5:1:w'  # Feast of the Sacred Heart
 TEMPORA_PENT02_6 = 'tempora:Pent02-6Feria:4:g'  # Saturday in 2nd week after Pentecost
 TEMPORA_PENT03_0 = 'tempora:Pent03-0r:2:g'  # Sunday in 3rd week after Pentecost
 TEMPORA_PENT03_1 = 'tempora:Pent03-1Feria:4:g'
@@ -534,23 +535,18 @@ TEMPORA_ADV4_2 = 'tempora:Adv4-2:3:v'
 TEMPORA_ADV4_3 = 'tempora:Adv4-3:3:v'
 TEMPORA_ADV4_4 = 'tempora:Adv4-4:3:v'
 TEMPORA_ADV4_5 = 'tempora:Adv4-5:3:v'
+TEMPORA_NAT1_0 = 'tempora:Nat1-0:2:w'  # Sunday in the Octave of Nativity
+TEMPORA_NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
+TEMPORA_NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
 
-NAT1_0 = 'tempora:Nat1-0:2:w'  # Sunday in the Octave of Nativity
-NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
-NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
-SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
-EPI1_0A = 'tempora:Epi1-0a:2:w'  # 1st Sunday after Epiphany
-PENT01_0A = 'tempora:Pent01-0a:2:g'  # 1st Sunday after Pentecost
-C_10A = 'tempora:C10a:4:v'  # B. M. V. Saturdays in Advent
-COMMUNE_C_10A = 'commune:C10a:0:w'  # B. M. V. Saturdays in Advent
-C_10B = 'tempora:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
-C_10C = 'tempora:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
-C_10PASC = 'tempora:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
-C_10T = 'tempora:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
-
+TEMPORA_C_10A = 'tempora:C10a:4:v'  # B. M. V. Saturdays in Advent
+TEMPORA_C_10B = 'tempora:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
+TEMPORA_C_10C = 'tempora:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+TEMPORA_C_10PASC = 'tempora:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
+TEMPORA_C_10T = 'tempora:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 # SANCTI - days which have fixed date
-
+SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
 SANCTI_01_01 = 'sancti:01-01:1:w'  # Octave of the Nativity
 SANCTI_01_06 = 'sancti:01-06:1:w'  # Epiphany
 SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
@@ -740,7 +736,7 @@ SANCTI_08_18 = 'sancti:08-18r:4:w'
 SANCTI_08_19 = 'sancti:08-19:3:w'
 SANCTI_08_20 = 'sancti:08-20:3:w'
 SANCTI_08_21 = 'sancti:08-21:3:w'
-SANCTI_08_22 = 'sancti:08-22r:2:r'  # Immaculate Heart of Mary
+SANCTI_08_22 = 'sancti:08-22r:2:w'  # Immaculate Heart of Mary
 SANCTI_08_23 = 'sancti:08-23:3:w'
 SANCTI_08_24 = 'sancti:08-24:2:r'  # St. Bartholomew, Apostle
 SANCTI_08_25 = 'sancti:08-25:3:w'
@@ -856,6 +852,15 @@ SANCTI_12_27 = 'sancti:12-27:2:w'  # St. John, Apostle and Evangelist
 SANCTI_12_28 = 'sancti:12-28:2:r'  # Holy Innocents
 SANCTI_12_29 = 'sancti:12-29r:4:r'
 SANCTI_12_31 = 'sancti:12-31r:4:w'
+
+# COMMUNE / VOTIVE
+COMMUNE_C_10A = 'commune:C10a:0:w'  # B. V. M. Saturdays in Advent
+COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Purification
+COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
+COMMUNE_C_10PASC = 'commune:C10Pasc:0:w'  # B. V. M. Saturdays in Easter period
+COMMUNE_C_10T = 'commune:C10t:0:w'  # B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+VOTIVE_PENT02_5 = 'votive:Pent02-5:0:w'  # Sacred Heart of Jesus
+VOTIVE_08_22 = 'votive:08-22r:0:w'  # Immaculate Heart of B. V. M.
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent

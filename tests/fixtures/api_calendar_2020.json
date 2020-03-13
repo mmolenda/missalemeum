@@ -31,7 +31,7 @@
         ],
         "id": "tempora:C10b:4:w",
         "rank": 4,
-        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+        "title": "2 Msza o N. M. P. – Vultum Tuum"
       }
     ],
     "commemoration": [],
@@ -93,7 +93,7 @@
         ],
         "id": "tempora:C10b:4:w",
         "rank": 4,
-        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+        "title": "2 Msza o N. M. P. – Vultum Tuum"
       }
     ],
     "commemoration": [],
@@ -245,7 +245,7 @@
         ],
         "id": "tempora:C10b:4:w",
         "rank": 4,
-        "title": "2 Msza na \u015bwi\u0119ta N. M. P. \u2013 Vultum Tuum"
+        "title": "2 Msza o N. M. P. – Vultum Tuum"
       }
     ],
     "commemoration": [
@@ -889,7 +889,7 @@
         ],
         "id": "tempora:C10c:4:w",
         "rank": 4,
-        "title": "3 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "3 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -3221,7 +3221,7 @@
         ],
         "id": "tempora:C10Pasc:4:w",
         "rank": 4,
-        "title": "4 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "4 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -3829,22 +3829,22 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": "tempora:Pent02-5:1:g",
+        "id": "tempora:Pent02-5:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Naj\u015bwi\u0119tszego Serca Pana Jezusa"
+        "title": "Uroczystość Najświętszego Serca Pana Jezusa"
       }
     ],
     "commemoration": [],
     "tempora": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": "tempora:Pent02-5:1:g",
+        "id": "tempora:Pent02-5:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Naj\u015bwi\u0119tszego Serca Pana Jezusa"
+        "title": "Uroczystość Najświętszego Serca Pana Jezusa"
       }
     ]
   },
@@ -3856,7 +3856,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -4026,7 +4026,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -4196,7 +4196,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -4339,7 +4339,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -4831,7 +4831,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [
@@ -5319,11 +5319,11 @@
     "celebration": [
       {
         "colors": [
-          "r"
+          "w"
         ],
-        "id": "sancti:08-22r:2:r",
+        "id": "sancti:08-22r:2:w",
         "rank": 2,
-        "title": "Uroczysto\u015b\u0107 Niepokalanego Serca N. M. P."
+        "title": "Uroczystość Niepokalanego Serca N. M. P."
       }
     ],
     "commemoration": [],
@@ -6915,7 +6915,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -7065,7 +7065,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
@@ -7539,7 +7539,7 @@
         ],
         "id": "tempora:C10t:4:w",
         "rank": 4,
-        "title": "5 Msza na \u015bwi\u0119ta N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
       }
     ],
     "commemoration": [],
