@@ -176,7 +176,8 @@ TITLES = {
     constants.TEMPORA_PENT02_2: 'Wtorek po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_3: 'Środa po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_4: 'Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego',
-    constants.TEMPORA_PENT02_5: 'Najświętszego Serca Pana Jezusa',
+    constants.TEMPORA_PENT02_5: 'Uroczystość Najświętszego Serca Pana Jezusa',
+    constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.TEMPORA_PENT02_6: 'Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_0: '3 Niedziela po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_1: 'Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego',
@@ -683,10 +684,10 @@ VOTIVE_MASSES = [
      'tags': ['Okres Wielkanocny']},
     {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
      'tags': ['Od Trójcy Przenajśw. do Adwentu']},
-    {'ref': 'cordis-jesu', 'id': constants.TEMPORA_PENT02_5, 'title': TITLES[constants.TEMPORA_PENT02_5],
-     'tags': ['Wotywne', 'Piątek']},
+    {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
+     'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.SANCTI_08_22, 'title': TITLES[constants.SANCTI_08_22],
-     'tags': ['Wotywne', 'Sobota']},
+     'tags': ['Wotywna', 'Sobota']},
 ]
 
 SECTION_LABELS = {

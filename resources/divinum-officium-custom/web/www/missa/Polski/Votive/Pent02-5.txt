@@ -1,0 +1,14 @@
+[Rank]
+vide Tempora/Pent02-5
+
+[Comment]
+! Wotywna
+! Piątek
+
+[GradualeP]
+! W Okresie Wielkanocnym
+@Tempora/Pent02-5:GradualeP
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+@Tempora/Pent02-5:Tractus

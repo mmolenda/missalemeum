@@ -177,6 +177,7 @@ TITLES = {
     constants.TEMPORA_PENT02_3: 'Feria IV infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT02_4: 'Feria V infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
+    constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
     constants.TEMPORA_PENT02_6: 'Sabbato infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT03_0: 'Dominica III Post Pentecosten§',
     constants.TEMPORA_PENT03_1: 'Feria II infra Hebd III post Octavam Pentecostes§',
