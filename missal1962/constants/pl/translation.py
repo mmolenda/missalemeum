@@ -176,7 +176,7 @@ TITLES = {
     constants.TEMPORA_PENT02_2: 'Wtorek po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_3: 'Środa po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_4: 'Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego',
-    constants.TEMPORA_PENT02_5: 'Uroczystość Najświętszego Serca Pana Jezusa',
+    constants.TEMPORA_PENT02_5: 'Najświętszego Serca Pana Jezusa',
     constants.TEMPORA_PENT02_6: 'Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_0: '3 Niedziela po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_1: 'Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego',
@@ -362,18 +362,22 @@ TITLES = {
     constants.TEMPORA_ADV4_3: 'Środa po 4 Niedzieli Adwentu',
     constants.TEMPORA_ADV4_4: 'Czwartek po 4 Niedzieli Adwentu',
     constants.TEMPORA_ADV4_5: 'Piątek po 4 Niedzieli Adwentu',
-    constants.NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
-    constants.NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
-    constants.NAT2_0: 'Najświętszego Imienia Jezus',
+    constants.TEMPORA_NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
+    constants.TEMPORA_NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
+    constants.TEMPORA_NAT2_0: 'Najświętszego Imienia Jezus',
     constants.SANCTI_10_DUr: 'Chrystusa Króla',
-    constants.EPI1_0A: '1 Niedziela po Objawieniu',
-    constants.PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
-    constants.C_10A: '1 Msza na święta N. M. P. – Rorate',
-    constants.COMMUNE_C_10A: 'Msza o N. M. P. w Adwencie – Rorate',
-    constants.C_10B: '2 Msza na święta N. M. P. – Vultum Tuum',
-    constants.C_10C: '3 Msza na święta N. M. P. – Salve, Sancta Parens',
-    constants.C_10PASC: '4 Msza na święta N. M. P. – Salve, Sancta Parens',
-    constants.C_10T: '5 Msza na święta N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_EPI1_0A: '1 Niedziela po Objawieniu',
+    constants.TEMPORA_PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
+    constants.TEMPORA_C_10A: '1 Msza o N. M. P. – Rorate',
+    constants.COMMUNE_C_10A: '1 Msza o N. M. P. – Rorate',
+    constants.TEMPORA_C_10B: '2 Msza o N. M. P. – Vultum Tuum',
+    constants.COMMUNE_C_10B: '2 Msza o N. M. P. – Vultum Tuum',
+    constants.TEMPORA_C_10C: '3 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10C: '3 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_06: 'Objawienie Pańskie',
     constants.SANCTI_01_13: 'Wspomnienie Chrztu Pańskiego',
@@ -554,7 +558,7 @@ TITLES = {
     constants.SANCTI_08_19: 'Św. Jana Eudes, Wyznawcy',
     constants.SANCTI_08_20: 'Św. Bernarda, Opata i Doktora Kościoła',
     constants.SANCTI_08_21: 'Św. Joanny Franciszki Frémiot de Chantal, Wdowy',
-    constants.SANCTI_08_22: 'Uroczystość Niepokalanego Serca N. M. P.',
+    constants.SANCTI_08_22: 'Niepokalanego Serca N. M. P.',
     constants.SANCTI_08_23: 'Św. Filipa Benicjusza, Wyznawcy',
     constants.SANCTI_08_24: 'Św. Bartłomieja, Apostoła',
     constants.SANCTI_08_25: 'Św. Ludwika, Króla i Wyznawcy',
@@ -669,9 +673,20 @@ TITLES = {
 }
 
 VOTIVE_MASSES = [
-    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A], 'tags': ['wot']},
-    {'ref': 'advent-first', 'id': constants.TEMPORA_ADV1_0, 'title': TITLES[constants.TEMPORA_ADV1_0], 'tags': ['adw']},
-    {'ref': 'advent-second', 'id': constants.TEMPORA_ADV2_0, 'title': TITLES[constants.TEMPORA_ADV2_0], 'tags': ['adw']}
+    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
+     'tags': ['Adwent']},
+    {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
+     'tags': ['Od B. Narodzenia do Oczyszczenia']},
+    {'ref': 'salve-sancta-parens-3', 'id': constants.COMMUNE_C_10C, 'title': TITLES[constants.COMMUNE_C_10C],
+     'tags': ['Od 3 II do W. Środy']},
+    {'ref': 'salve-sancta-parens-4', 'id': constants.COMMUNE_C_10PASC, 'title': TITLES[constants.COMMUNE_C_10PASC],
+     'tags': ['Okres Wielkanocny']},
+    {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
+     'tags': ['Od Trójcy Przenajśw. do Adwentu']},
+    {'ref': 'cordis-jesu', 'id': constants.TEMPORA_PENT02_5, 'title': TITLES[constants.TEMPORA_PENT02_5],
+     'tags': ['Wotywne', 'Piątek']},
+    {'ref': 'cordis-mariae', 'id': constants.SANCTI_08_22, 'title': TITLES[constants.SANCTI_08_22],
+     'tags': ['Wotywne', 'Sobota']},
 ]
 
 SECTION_LABELS = {
@@ -834,7 +849,7 @@ SUPPLEMENTS = {
     constants.SANCTI_12_26: [
         {"label": f"{KDE} na uroczystość pierwszego męczennika św. Szczepana", "path": "http://vetusordo.pl/objasnieniaupmss/"}
     ],
-    constants.NAT1_0: [
+    constants.TEMPORA_NAT1_0: [
         {"label": f"{KDE} na niedzielę po Bożym Narodzeniu", "path": "http://vetusordo.pl/objasnieniaennpbn/"}
     ],
     constants.SANCTI_01_01: [

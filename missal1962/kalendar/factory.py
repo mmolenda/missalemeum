@@ -7,7 +7,7 @@ from typing import List, Tuple, Union
 from dateutil.easter import easter
 
 from constants import BLOCKS
-from constants.common import NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
+from constants.common import TEMPORA_NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
 from kalendar.models import Calendar, Observance
 from kalendar.rules import rules
 
@@ -45,7 +45,7 @@ class MissalFactory:
 
         # Inserting single days
         date_ = self.calc_holy_name(year)
-        self.calendar.get_day(date_).celebration = [Observance(NAT2_0, date_, self.lang)]
+        self.calendar.get_day(date_).celebration = [Observance(TEMPORA_NAT2_0, date_, self.lang)]
 
         date_ = self.calc_christ_king(year)
         self.calendar.get_day(date_).celebration = [Observance(SANCTI_10_DUr, date_, self.lang)]

@@ -376,15 +376,15 @@ ADVENT = (
 )
 
 NATIVITY_OCTAVE_SUNDAY = (
-    (constants.NAT1_0,),
+    (constants.TEMPORA_NAT1_0,),
 )
 
 NATIVITY_OCTAVE_FERIA = (
-    (constants.NAT1_1,),
+    (constants.TEMPORA_NAT1_1,),
 )
 
 HOLY_NAME = (
-    (constants.NAT2_0,),
+    (constants.TEMPORA_NAT2_0,),
 )
 
 CHRIST_KING = (
@@ -392,7 +392,7 @@ CHRIST_KING = (
 )
 
 SUNDAY_IN_CHRISTMAS_OCTAVE = (
-    (constants.NAT1_0,),
+    (constants.TEMPORA_NAT1_0,),
 )
 
 SANCTI = (

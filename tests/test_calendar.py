@@ -36,11 +36,11 @@ def test_tempora(year, dates):
         missal.find_day(c.TEMPORA_EPI4_0) else None
     assert _to_date_obj(dates[7]) == actual
     assert _to_date_obj(dates[8]) == missal.find_day(c.TEMPORA_PENT_6)[0]
-    assert _to_date_obj(dates[9]) == missal.find_day(c.NAT2_0)[0]
+    assert _to_date_obj(dates[9]) == missal.find_day(c.TEMPORA_NAT2_0)[0]
     assert _to_date_obj(dates[10]) == missal.find_day(c.SANCTI_10_DUr)[0]
     # NAT1_0 might not exist in given year, then None is returned
-    actual = missal.find_day(c.NAT1_0)[0] if \
-        missal.find_day(c.NAT1_0) else None
+    actual = missal.find_day(c.TEMPORA_NAT1_0)[0] if \
+        missal.find_day(c.TEMPORA_NAT1_0) else None
     assert _to_date_obj(dates[11]) == actual
 
 
@@ -114,15 +114,15 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
     ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
     # Sanctae Mariae Sabbato
-    ((2019, 1, 5), [], [c.C_10B], []),
-    ((2019, 1, 12), [], [c.C_10B], []),
-    ((2019, 1, 19), [c.TEMPORA_EPI1_6], [c.C_10B], [c.SANCTI_01_19]),
-    ((2019, 2, 16), [c.TEMPORA_EPI5_6], [c.C_10C], []),
-    ((2015, 2, 14), [c.TEMPORA_QUADP2_6], [c.C_10C], [c.SANCTI_02_14]),
-    ((2019, 7, 6), [c.TEMPORA_PENT03_6], [c.C_10T], []),
-    ((2019, 7, 27), [c.TEMPORA_PENT06_6], [c.C_10T], [c.SANCTI_07_27]),
-    ((2016, 4, 23), [c.TEMPORA_PASC3_6], [c.C_10PASC], [c.SANCTI_04_23]),
-    ((2017, 5, 6), [c.TEMPORA_PASC2_6], [c.C_10PASC], []),
+    ((2019, 1, 5), [], [c.TEMPORA_C_10B], []),
+    ((2019, 1, 12), [], [c.TEMPORA_C_10B], []),
+    ((2019, 1, 19), [c.TEMPORA_EPI1_6], [c.TEMPORA_C_10B], [c.SANCTI_01_19]),
+    ((2019, 2, 16), [c.TEMPORA_EPI5_6], [c.TEMPORA_C_10C], []),
+    ((2015, 2, 14), [c.TEMPORA_QUADP2_6], [c.TEMPORA_C_10C], [c.SANCTI_02_14]),
+    ((2019, 7, 6), [c.TEMPORA_PENT03_6], [c.TEMPORA_C_10T], []),
+    ((2019, 7, 27), [c.TEMPORA_PENT06_6], [c.TEMPORA_C_10T], [c.SANCTI_07_27]),
+    ((2016, 4, 23), [c.TEMPORA_PASC3_6], [c.TEMPORA_C_10PASC], [c.SANCTI_04_23]),
+    ((2017, 5, 6), [c.TEMPORA_PASC2_6], [c.TEMPORA_C_10PASC], []),
     # Days with multiple celebrations
     ((2009, 12, 25), [], [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
     ((2017, 12, 25), [], [c.SANCTI_12_25_1, c.SANCTI_12_25_2, c.SANCTI_12_25_3], []),
@@ -131,12 +131,12 @@ def test_sancti_shifted(day_id, expected_date):
     ((2008, 11, 3), [c.TEMPORA_EPI4_1], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
     ((2014, 11, 3), [c.TEMPORA_PENT21_1], [c.SANCTI_11_02_1, c.SANCTI_11_02_2, c.SANCTI_11_02_3], []),
     # Nativity Octave
-    ((2019, 12, 29), [c.NAT1_0], [c.NAT1_0], []),
-    ((2019, 12, 30), [c.NAT1_1], [c.NAT1_1], []),
-    ((2019, 12, 31), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_31]),
-    ((2020, 12, 29), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_29]),
-    ((2020, 12, 30), [c.NAT1_1], [c.NAT1_1], []),
-    ((2020, 12, 31), [c.NAT1_1], [c.NAT1_1], [c.SANCTI_12_31]),
+    ((2019, 12, 29), [c.TEMPORA_NAT1_0], [c.TEMPORA_NAT1_0], []),
+    ((2019, 12, 30), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], []),
+    ((2019, 12, 31), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], [c.SANCTI_12_31]),
+    ((2020, 12, 29), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], [c.SANCTI_12_29]),
+    ((2020, 12, 30), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], []),
+    ((2020, 12, 31), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], [c.SANCTI_12_31]),
     # Feria with commemoration
     ((2020, 2, 13), [c.TEMPORA_QUADP1_4], [], []),
     ((2020, 2, 17), [c.TEMPORA_QUADP2_1], [], []),
@@ -223,7 +223,7 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 6, 2), [c.TEMPORA_PASC6_0], []),
     ((2019, 8, 11), [c.TEMPORA_PENT09_0], []),
     ((2019, 8, 18), [c.TEMPORA_PENT10_0], []),
-    ((2019, 12, 29), [c.NAT1_0], []),
+    ((2019, 12, 29), [c.TEMPORA_NAT1_0], []),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
