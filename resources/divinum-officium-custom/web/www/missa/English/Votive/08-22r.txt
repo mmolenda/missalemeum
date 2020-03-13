@@ -1,3 +1,6 @@
+[Rule]
+Prefatio=Maria=Festivitate;
+
 [Comment]
 ! Votive
 ! First Saturday

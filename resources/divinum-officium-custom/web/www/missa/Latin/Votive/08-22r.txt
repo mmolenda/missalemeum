@@ -1,3 +1,6 @@
+[Rule]
+Prefatio=Maria=Festivitate;
+
 [Introitus]
 @Sancti/08-22r:Introitus
 
