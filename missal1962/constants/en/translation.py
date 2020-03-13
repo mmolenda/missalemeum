@@ -547,6 +547,7 @@ TITLES = {
     constants.SANCTI_08_20: 'St. Bernard of Clairvaux',
     constants.SANCTI_08_21: 'St. Jane Frances de Chantal',
     constants.SANCTI_08_22: 'Immaculate Heart of Mary',
+    constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
     constants.SANCTI_08_23: 'St. Philip Benizi',
     constants.SANCTI_08_24: 'St. Bartholomew',
     constants.SANCTI_08_25: 'St. Louis IX',
@@ -667,8 +668,8 @@ VOTIVE_MASSES = [
      'tags': ['From Trinity Sunday until Advent']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Votive', 'Friday']},
-    {'ref': 'cordis-mariae', 'id': constants.SANCTI_08_22, 'title': TITLES[constants.SANCTI_08_22],
-     'tags': ['Votive', 'Saturday']},
+    {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
+     'tags': ['Votive', 'First Saturday']},
 ]
 
 SECTION_LABELS = {

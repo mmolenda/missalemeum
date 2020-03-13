@@ -3,7 +3,7 @@ vide Tempora/Pent02-5
 
 [Comment]
 ! Votive
-! Fridays
+! Friday
 
 [GradualeP]
 !  In Eastertide

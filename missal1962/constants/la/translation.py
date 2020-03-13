@@ -560,6 +560,7 @@ TITLES = {
     constants.SANCTI_08_20: 'S. Bernardi Abbatis et Ecclesiæ Doctoris',
     constants.SANCTI_08_21: 'S. Joannæ Franciscæ Frémiot de Chantal Viduæ',
     constants.SANCTI_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
+    constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
     constants.SANCTI_08_23: 'S. Philippi Benitii Confessoris',
     constants.SANCTI_08_24: 'S. Bartholomæi Apostoli',
     constants.SANCTI_08_25: 'S. Ludovici Confessoris',

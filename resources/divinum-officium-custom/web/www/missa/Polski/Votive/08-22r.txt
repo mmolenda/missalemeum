@@ -1,0 +1,38 @@
+[Comment]
+! Wotywna
+! Pierwsza sobota
+
+[Introitus]
+@Sancti/08-22r:Introitus
+
+[Oratio]
+@Sancti/08-22r:Oratio
+
+[Lectio]
+@Sancti/07-16:Lectio
+
+[Graduale]
+@Sancti/08-22r:Graduale
+
+[GradualeP]
+! W Okresie Wielkanocnym
+@Sancti/08-22r:GradualeP
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+@Sancti/08-22r:Tractus
+
+[Evangelium]
+@Tempora/C10Pasc:Evangelium
+
+[Offertorium]
+@Sancti/08-22r:Offertorium
+
+[Secreta]
+@Sancti/08-22r:Secreta
+
+[Communio]
+@Sancti/08-22r:Communio
+
+[Postcommunio]
+@Sancti/08-22r:Postcommunio

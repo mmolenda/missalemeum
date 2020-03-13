@@ -559,7 +559,8 @@ TITLES = {
     constants.SANCTI_08_19: 'Św. Jana Eudes, Wyznawcy',
     constants.SANCTI_08_20: 'Św. Bernarda, Opata i Doktora Kościoła',
     constants.SANCTI_08_21: 'Św. Joanny Franciszki Frémiot de Chantal, Wdowy',
-    constants.SANCTI_08_22: 'Niepokalanego Serca N. M. P.',
+    constants.SANCTI_08_22: 'Uroczystość Niepokalanego Serca N. M. P.',
+    constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
     constants.SANCTI_08_23: 'Św. Filipa Benicjusza, Wyznawcy',
     constants.SANCTI_08_24: 'Św. Bartłomieja, Apostoła',
     constants.SANCTI_08_25: 'Św. Ludwika, Króla i Wyznawcy',
@@ -686,8 +687,8 @@ VOTIVE_MASSES = [
      'tags': ['Od Trójcy Przenajśw. do Adwentu']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Wotywna', 'Piątek']},
-    {'ref': 'cordis-mariae', 'id': constants.SANCTI_08_22, 'title': TITLES[constants.SANCTI_08_22],
-     'tags': ['Wotywna', 'Sobota']},
+    {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
+     'tags': ['Wotywna', 'Pierwsza sobota']},
 ]
 
 SECTION_LABELS = {
