@@ -925,7 +925,10 @@ SUPPLEMENTS = {
         {"label": "Zesłanie Ducha św.", "path": "/pl/supplement/10-zeslanie-ducha-sw"}
     ],
     constants.TEMPORA_PASC7_0: [
-        {"label": f"{KDE} na niedzielę Zesłania Ducha Świętego", "path": "http://vetusordo.pl/objasnieniaenuzds/"}
+        {"label": f"{KDE} na niedzielę Zesłania Ducha św.", "path": "http://vetusordo.pl/objasnieniaenuzds/"}
+    ],
+    constants.TEMPORA_PASC7_1: [
+        {"label": f"{KDE} na poniedzialek w Oktawie Zesłania Ducha św.", "path": "/pl/supplement/commentary/poniedzialek-po-zeslaniu"}
     ],
     constants.TEMPORA_PENT01_0: [
         {"label": "Okres po Zesłaniu Ducha św.", "path": "/pl/supplement/10-okres-po-zeslaniu-ducha-sw"},
@@ -976,6 +979,9 @@ SUPPLEMENTS = {
     constants.TEMPORA_PENT15_0: [
         {"label": f"{KDE} na 15 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn15ps/"}
     ],
+    constants.TEMPORA_PENT16_0: [
+        {"label": f"{KDE} na 16 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/16-niedziela-po-zeslaniu"}
+    ],
     constants.TEMPORA_PENT17_0: [
         {"label": f"{KDE} na 17 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn17ps/"}
     ],
@@ -997,6 +1003,9 @@ SUPPLEMENTS = {
     constants.TEMPORA_PENT23_0: [
         {"label": f"{KDE} na 23 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn23ps/"}
     ],
+    constants.TEMPORA_PENT24_0: [
+        {"label": f"{KDE} na 24 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/24-niedziela-po-zeslaniu"}
+    ],
     constants.SANCTI_12_08: [
         {"label": f"{KDE} na uroczystość Niepokalanego Poczęcia N. M. P.", "path": "http://vetusordo.pl/oenunmp/"}
     ],
@@ -1008,6 +1017,12 @@ SUPPLEMENTS = {
     ],
     constants.SANCTI_06_29: [
         {"label": f"{KDE} na uroczystość śś. Apostołów Piotra i Pawła", "path": "http://vetusordo.pl/objasnienia2019enussapip/"}
+    ],
+    constants.SANCTI_08_15: [
+        {"label": f"{KDE} na Wniebowzięcie N. M. P.", "path": "/pl/supplement/commentary/wniebowziecie-nmp"}
+    ],
+    constants.SANCTI_09_08: [
+        {"label": f"{KDE} na Narodzenie N. M. P.", "path": "/pl/supplement/commentary/narodzenie-nmp"}
     ],
     constants.SANCTI_11_01: [
         {"label": f"{KDE} na uroczystość Wszystkich Świętych", "path": "http://vetusordo.pl/2019oenuws/"}

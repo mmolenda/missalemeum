@@ -51,7 +51,7 @@ def test_api_proper(client):
 def test_api_proper_slug(client):
     resp = client.get('/pl/api/v3/proper/rorate').json
     info = resp[0]["info"]
-    assert ["Szaty białe"] == info["additional_info"]
+    assert ["Szaty białe", "Adwent"] == info["additional_info"]
     assert ["w"] == info["colors"]
     assert "commune:C10a:0:w" == info["id"]
     assert 'Msza o N. M. P. w Adwencie – Rorate' == info["title"]
