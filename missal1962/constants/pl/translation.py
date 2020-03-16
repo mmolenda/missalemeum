@@ -985,6 +985,9 @@ SUPPLEMENTS = {
     constants.TEMPORA_PENT19_0: [
         {"label": f"{KDE} na 19 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn19ps/"}
     ],
+    constants.TEMPORA_PENT20_0: [
+        {"label": f"{KDE} na 20 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/20-niedziela-po-zeslaniu"}
+    ],
     constants.TEMPORA_PENT21_0: [
         {"label": f"{KDE} na 21 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn21ps/"}
     ],
