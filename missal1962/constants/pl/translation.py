@@ -686,7 +686,7 @@ VOTIVE_MASSES = [
      'tags': ['Okres Wielkanocny']},
     {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
      'tags': ['Od Trójcy Przenajśw. do Adwentu']},
-    {'ref': 'trinity', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
+    {'ref': 'trinitas', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
      'tags': ['Wotywna', 'Poniedziałek']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Wotywna', 'Piątek']},

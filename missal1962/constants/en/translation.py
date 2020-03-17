@@ -667,7 +667,7 @@ VOTIVE_MASSES = [
      'tags': ['Eastertide']},
     {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
      'tags': ['From Trinity Sunday until Advent']},
-    {'ref': 'trinity', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
+    {'ref': 'trinitas', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
      'tags': ['Votive', 'Monday']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Votive', 'Friday']},
