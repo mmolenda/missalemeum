@@ -1,0 +1,59 @@
+[Rule]
+Prefatio=Joseph
+
+[Comment]
+# Msza o św. Józefie
+! Wotywna
+! Środa
+
+[Introitus]
+!Ps 32:20-21
+T. B. D.
+!Ps 79:2
+T. B. D.
+$Gloria
+T. B. D.
+
+[Oratio]
+T. B. D.
+$Qui vivis
+
+[Lectio]
+Czytanie z Księgu Rodzaju
+! Rdz 49:22-26
+T. B. D.
+
+[Graduale]
+! Ps 20:4-5
+T. B. D.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+Alleluia, alleluia.
+T. B. D.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 111:1-3
+T. B. D.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Łukasza.
+!Łk 3:21-23
+T. B. D.
+
+[Offertorium]
+! Ps 147:12-13
+T. B. D.
+
+[Secreta]
+T. B. D.
+$Qui vivis
+
+[Communio]
+! Mt 1:16
+T. B. D.
+
+[Postcommunio]
+T. B. D.
+$Per Dominum

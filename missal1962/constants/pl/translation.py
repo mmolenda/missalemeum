@@ -165,7 +165,6 @@ TITLES = {
     constants.TEMPORA_PASC7_5: 'Piątek Suchych Dni po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PASC7_6: 'Sobota Suchych Dni po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT01_0: 'Uroczystość Trójcy Przenajświętszej',
-    constants.VOTIVE_PENT01_0: 'Msza o Trójcy Przenajświętszej',
     constants.TEMPORA_PENT01_1: 'Poniedziałek po Niedzieli w Oktawie Zesłania Ducha Świętego',
     constants.TEMPORA_PENT01_2: 'Wtorek po Niedzieli w Oktawie Zesłania Ducha Świętego',
     constants.TEMPORA_PENT01_3: 'Środa po Niedzieli w Oktawie Zesłania Ducha Świętego',
@@ -178,7 +177,6 @@ TITLES = {
     constants.TEMPORA_PENT02_3: 'Środa po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_4: 'Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_5: 'Uroczystość Najświętszego Serca Pana Jezusa',
-    constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.TEMPORA_PENT02_6: 'Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_0: '3 Niedziela po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_1: 'Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego',
@@ -561,7 +559,6 @@ TITLES = {
     constants.SANCTI_08_20: 'Św. Bernarda, Opata i Doktora Kościoła',
     constants.SANCTI_08_21: 'Św. Joanny Franciszki Frémiot de Chantal, Wdowy',
     constants.SANCTI_08_22: 'Uroczystość Niepokalanego Serca N. M. P.',
-    constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
     constants.SANCTI_08_23: 'Św. Filipa Benicjusza, Wyznawcy',
     constants.SANCTI_08_24: 'Św. Bartłomieja, Apostoła',
     constants.SANCTI_08_25: 'Św. Ludwika, Króla i Wyznawcy',
@@ -673,7 +670,11 @@ TITLES = {
     constants.SANCTI_12_28: 'Świętych Młodzianków',
     constants.SANCTI_12_29: 'Św. Tomasza z Canterbury, Biskupa i Męczennika',
     constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy',
-    constants.VOTIVE_ANGELS: 'Msza o Aniołach'
+    constants.VOTIVE_ANGELS: 'Msza o Aniołach',
+    constants.VOTIVE_JOSEPH: 'Msza o św. Józefie',
+    constants.VOTIVE_PENT01_0: 'Msza o Trójcy Przenajświętszej',
+    constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
+    constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
 }
 
 VOTIVE_MASSES = [
@@ -691,6 +692,8 @@ VOTIVE_MASSES = [
      'tags': ['Wotywna', 'Poniedziałek']},
     {'ref': 'angelis', 'id': constants.VOTIVE_ANGELS, 'title': TITLES[constants.VOTIVE_ANGELS],
      'tags': ['Wotywna', 'Wtorek']},
+    {'ref': 'joseph', 'id': constants.VOTIVE_JOSEPH, 'title': TITLES[constants.VOTIVE_JOSEPH],
+     'tags': ['Wotywna', 'Środa']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],

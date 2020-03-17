@@ -165,7 +165,6 @@ TITLES = {
     constants.TEMPORA_PASC7_5: 'Feria VI Quattuor temporum Pentecostes',
     constants.TEMPORA_PASC7_6: 'Sabbato Quattuor Temporum Pentecostes',
     constants.TEMPORA_PENT01_0: 'Dominica Sanctissimæ Trinitatis',
-    constants.VOTIVE_PENT01_0: 'Sanctissimæ Trinitatis',
     constants.TEMPORA_PENT01_1: 'Feria II infra Hebd I post Octavam Pentecostes',
     constants.TEMPORA_PENT01_2: 'Feria III infra Hebd I post Octavam Pentecostes',
     constants.TEMPORA_PENT01_3: 'Feria IV infra Hebd I post Octavam Pentecostes',
@@ -178,7 +177,6 @@ TITLES = {
     constants.TEMPORA_PENT02_3: 'Feria IV infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT02_4: 'Feria V infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
-    constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
     constants.TEMPORA_PENT02_6: 'Sabbato infra Hebd II post Octavam Pentecostes',
     constants.TEMPORA_PENT03_0: 'Dominica III Post Pentecosten§',
     constants.TEMPORA_PENT03_1: 'Feria II infra Hebd III post Octavam Pentecostes§',
@@ -561,7 +559,6 @@ TITLES = {
     constants.SANCTI_08_20: 'S. Bernardi Abbatis et Ecclesiæ Doctoris',
     constants.SANCTI_08_21: 'S. Joannæ Franciscæ Frémiot de Chantal Viduæ',
     constants.SANCTI_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
-    constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
     constants.SANCTI_08_23: 'S. Philippi Benitii Confessoris',
     constants.SANCTI_08_24: 'S. Bartholomæi Apostoli',
     constants.SANCTI_08_25: 'S. Ludovici Confessoris',
@@ -673,7 +670,11 @@ TITLES = {
     constants.SANCTI_12_28: 'Ss. Innocentium',
     constants.SANCTI_12_29: 'S. Thomæ M.',
     constants.SANCTI_12_31: 'S. Silvestri',
-    constants.VOTIVE_ANGELS: 'De Angelis'
+    constants.VOTIVE_ANGELS: 'De Angelis',
+    constants.VOTIVE_JOSEPH: 'S. Joseph',
+    constants.VOTIVE_PENT01_0: 'Sanctissimæ Trinitatis',
+    constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
+    constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
 }
 
 VOTIVE_MASSES = []

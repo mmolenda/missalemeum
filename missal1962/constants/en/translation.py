@@ -163,7 +163,6 @@ TITLES = {
     constants.TEMPORA_PASC7_5: 'Ember Friday of Pentecost',
     constants.TEMPORA_PASC7_6: 'Ember Saturday of Pentecost',
     constants.TEMPORA_PENT01_0: 'Trinity Sunday',
-    constants.VOTIVE_PENT01_0: 'Most Holy Trinity',
     constants.TEMPORA_PENT01_1: 'Feria II after I Sunday after Pentecost',
     constants.TEMPORA_PENT01_2: 'Feria III after I Sunday after Pentecost',
     constants.TEMPORA_PENT01_3: 'Feria IV after I Sunday after Pentecost',
@@ -176,7 +175,6 @@ TITLES = {
     constants.TEMPORA_PENT02_3: 'Feria IV after II Sunday after Pentecost',
     constants.TEMPORA_PENT02_4: 'Feria V after II Sunday after Pentecost',
     constants.TEMPORA_PENT02_5: 'Sacred Heart of Jesus',
-    constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
     constants.TEMPORA_PENT02_6: 'Saturday after II Sunday after Pentecost',
     constants.TEMPORA_PENT03_0: 'III Sunday after Pentecost',
     constants.TEMPORA_PENT03_1: 'Feria II after III Sunday after Pentecost',
@@ -548,7 +546,6 @@ TITLES = {
     constants.SANCTI_08_20: 'St. Bernard of Clairvaux',
     constants.SANCTI_08_21: 'St. Jane Frances de Chantal',
     constants.SANCTI_08_22: 'Immaculate Heart of Mary',
-    constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
     constants.SANCTI_08_23: 'St. Philip Benizi',
     constants.SANCTI_08_24: 'St. Bartholomew',
     constants.SANCTI_08_25: 'St. Louis IX',
@@ -654,7 +651,11 @@ TITLES = {
     constants.SANCTI_12_28: 'Holy Innocents',
     constants.SANCTI_12_29: 'St. Thomas Becket',
     constants.SANCTI_12_31: 'St. Silvester',
-    constants.VOTIVE_ANGELS: 'Holy Angels'
+    constants.VOTIVE_ANGELS: 'Holy Angels',
+    constants.VOTIVE_JOSEPH: 'St. Joseph',
+    constants.VOTIVE_PENT01_0: 'Most Holy Trinity',
+    constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
+    constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
 }
 
 VOTIVE_MASSES = [
@@ -672,6 +673,8 @@ VOTIVE_MASSES = [
      'tags': ['Votive', 'Monday']},
     {'ref': 'angelis', 'id': constants.VOTIVE_ANGELS, 'title': TITLES[constants.VOTIVE_ANGELS],
      'tags': ['Votive', 'Tuesday']},
+    {'ref': 'joseph', 'id': constants.VOTIVE_JOSEPH, 'title': TITLES[constants.VOTIVE_JOSEPH],
+     'tags': ['Votive', 'Wednesday']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Votive', 'Friday']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],

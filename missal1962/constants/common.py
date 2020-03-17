@@ -862,7 +862,8 @@ COMMUNE_C_10T = 'commune:C10t:0:w'  # B. V. M. Saturdays between Trinity Sunday 
 VOTIVE_PENT01_0 = 'votive:Pent01-0r:0:w'  # Trinity
 VOTIVE_PENT02_5 = 'votive:Pent02-5:0:w'  # Sacred Heart of Jesus
 VOTIVE_08_22 = 'votive:08-22r:0:w'  # Immaculate Heart of B. V. M.
-VOTIVE_ANGELS = 'votive:Angels:0:w'  # Immaculate Heart of B. V. M.
+VOTIVE_ANGELS = 'votive:Angels:0:w'
+VOTIVE_JOSEPH = 'votive:Joseph:0:w'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
