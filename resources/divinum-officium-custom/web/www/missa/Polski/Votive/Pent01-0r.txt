@@ -1,0 +1,45 @@
+[Rule]
+Prefatio=Trinitate
+
+[Comment]
+! Wotywna
+! Poniedziałek
+
+[Introitus]
+@Tempora/Pent01-0r:Introitus
+
+[Oratio]
+@Tempora/Pent01-0r:Oratio
+
+[Lectio]
+Czytanie z Listu świętego Pawła Apostoła do Koryntian.
+!2 Kor 13:11-13
+T.B.D.
+
+[Graduale]
+@Tempora/Pent01-0r:Graduale
+
+[GradualeP]
+! W Okresie Wielkanocnym
+T.B.D.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+T.B.D.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+!J 15:26, 16:1-4
+T.B.D.
+
+[Offertorium]
+@Tempora/Pent01-0r:Offertorium
+
+[Secreta]
+@Tempora/Pent01-0r:Secreta
+
+[Communio]
+@Tempora/Pent01-0r:Communio
+
+[Postcommunio]
+@Tempora/Pent01-0r:Postcommunio

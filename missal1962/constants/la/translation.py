@@ -165,6 +165,7 @@ TITLES = {
     constants.TEMPORA_PASC7_5: 'Feria VI Quattuor temporum Pentecostes',
     constants.TEMPORA_PASC7_6: 'Sabbato Quattuor Temporum Pentecostes',
     constants.TEMPORA_PENT01_0: 'Dominica Sanctissimæ Trinitatis',
+    constants.VOTIVE_PENT01_0: 'Sanctissimæ Trinitatis',
     constants.TEMPORA_PENT01_1: 'Feria II infra Hebd I post Octavam Pentecostes',
     constants.TEMPORA_PENT01_2: 'Feria III infra Hebd I post Octavam Pentecostes',
     constants.TEMPORA_PENT01_3: 'Feria IV infra Hebd I post Octavam Pentecostes',

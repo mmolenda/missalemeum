@@ -859,6 +859,7 @@ COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Pu
 COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
 COMMUNE_C_10PASC = 'commune:C10Pasc:0:w'  # B. V. M. Saturdays in Easter period
 COMMUNE_C_10T = 'commune:C10t:0:w'  # B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+VOTIVE_PENT01_0 = 'votive:Pent01-0r:0:w'  # Trinity
 VOTIVE_PENT02_5 = 'votive:Pent02-5:0:w'  # Sacred Heart of Jesus
 VOTIVE_08_22 = 'votive:08-22r:0:w'  # Immaculate Heart of B. V. M.
 
