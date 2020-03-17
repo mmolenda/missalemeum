@@ -1,0 +1,49 @@
+[Comment]
+# Msza o Aniołach
+! Wotywna
+! Wtorek
+
+[Introitus]
+!Ps 102:20,1
+T. B. D.
+
+[Oratio]
+T. B. D.
+
+[Lectio]
+Z Księgi Apokalipsy św. Jana Apostoła
+! Ap 5:11-14
+
+[Graduale]
+! Ps 148:1-2
+! Ps 137:1-2
+T. B. D.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+! Ps 137:1-2
+! Mt 28:2
+T. B. D.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 102:20-22
+T. B. D.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+! J 1:47-51
+T. B. D.
+
+[Offertorium]
+! Ap 8:3-4
+T. B. D.
+
+[Secreta]
+T. B. D.
+
+[Communio]
+T. B. D.
+
+[Postcommunio]
+T. B. D.

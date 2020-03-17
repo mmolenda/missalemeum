@@ -672,7 +672,8 @@ TITLES = {
     constants.SANCTI_12_27: 'Św. Jana, Apostoła i Ewangelisty',
     constants.SANCTI_12_28: 'Świętych Młodzianków',
     constants.SANCTI_12_29: 'Św. Tomasza z Canterbury, Biskupa i Męczennika',
-    constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy'
+    constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy',
+    constants.VOTIVE_ANGELS: 'Msza o Aniołach'
 }
 
 VOTIVE_MASSES = [
@@ -688,6 +689,8 @@ VOTIVE_MASSES = [
      'tags': ['Od Trójcy Przenajśw. do Adwentu']},
     {'ref': 'trinitas', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
      'tags': ['Wotywna', 'Poniedziałek']},
+    {'ref': 'angelis', 'id': constants.VOTIVE_ANGELS, 'title': TITLES[constants.VOTIVE_ANGELS],
+     'tags': ['Wotywna', 'Wtorek']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],

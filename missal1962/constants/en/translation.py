@@ -653,7 +653,8 @@ TITLES = {
     constants.SANCTI_12_27: 'St. John the Evangelist',
     constants.SANCTI_12_28: 'Holy Innocents',
     constants.SANCTI_12_29: 'St. Thomas Becket',
-    constants.SANCTI_12_31: 'St. Silvester'
+    constants.SANCTI_12_31: 'St. Silvester',
+    constants.VOTIVE_ANGELS: 'Holy Angels'
 }
 
 VOTIVE_MASSES = [
@@ -669,6 +670,8 @@ VOTIVE_MASSES = [
      'tags': ['From Trinity Sunday until Advent']},
     {'ref': 'trinitas', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
      'tags': ['Votive', 'Monday']},
+    {'ref': 'angelis', 'id': constants.VOTIVE_ANGELS, 'title': TITLES[constants.VOTIVE_ANGELS],
+     'tags': ['Votive', 'Tuesday']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Votive', 'Friday']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],

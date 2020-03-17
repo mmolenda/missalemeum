@@ -672,7 +672,8 @@ TITLES = {
     constants.SANCTI_12_27: 'S. Joannis Apostoli et Evangelistæ',
     constants.SANCTI_12_28: 'Ss. Innocentium',
     constants.SANCTI_12_29: 'S. Thomæ M.',
-    constants.SANCTI_12_31: 'S. Silvestri'
+    constants.SANCTI_12_31: 'S. Silvestri',
+    constants.VOTIVE_ANGELS: 'De Angelis'
 }
 
 VOTIVE_MASSES = []
