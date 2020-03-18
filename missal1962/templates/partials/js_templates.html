@@ -32,17 +32,28 @@
 <script id="template-content-supplement-item-external" type="text/x-custom-template">
     <a class="dashed" target="_blank" href="${path}">${label}</a>
 </script>
-<script id="template-content-columns" type="text/x-custom-template">
+<script id="template-content-columns-label" type="text/x-custom-template">
     <div class="row">
         <div class="col-sm-6 section-vernacular">
             <h2>${labelVernacular}</h2>
-            <p>${sectionVernacular}</p>
         </div>
         <div class="col-sm-6 section-latin">
             <h2>${labelLatin}</h2>
+        </div>
+    </div>
+</script>
+<script id="template-content-columns-body" type="text/x-custom-template">
+    <div class="row">
+        <div class="col-sm-6 section-vernacular">
+            <p>${sectionVernacular}</p>
+        </div>
+        <div class="col-sm-6 section-latin">
             <p>${sectionLatin}</p>
         </div>
     </div>
+</script>
+<script id="template-content-nocolumns" type="text/x-custom-template">
+    <p><span class="rubric">${text}</span></p>
 </script>
 <script id="template-color-marker" type="text/x-custom-template">
     <span class="color-marker color-marker-${color}"></span>

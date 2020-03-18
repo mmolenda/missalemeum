@@ -16,7 +16,9 @@ const $templateContentIntro = $("#template-content-intro").text();
 const $templateContentSupplementList = $("#template-content-supplement-list").text();
 const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
 const $templateContentSupplementItemExternal = $("#template-content-supplement-item-external").text();
-const $templateContentColumns = $("#template-content-columns").text();
+const $templateContentColumnsLabel = $("#template-content-columns-label").text();
+const $templateContentColumnsBody = $("#template-content-columns-body").text();
+const $templateContentNoColumns = $("#template-content-nocolumns").text();
 const $templateContentPrint = $("#template-content-print").text();
 const $templateColorMarker = $("#template-color-marker").text();
 const $searchInput = $("input#search-input");
@@ -180,8 +182,7 @@ class ProperContentLoader {
                 let title = info.title;
                 let description = info.description;
                 let supplements = info.supplements;
-                let sectionsVernacular = item.proper_vernacular;
-                let sectionsLatin = item.proper_latin;
+                let sections = item.sections;
                 let colors = info.colors;
                 let colorMarkers = '';
                 $.each(colors, function (i, color) {
@@ -236,27 +237,24 @@ class ProperContentLoader {
                     supplementsList.appendTo($loadedContent);
                 }
 
-                $.each([sectionsVernacular, sectionsLatin], function (i, sections) {
-                    // replacing all surrounding asterisks with surrounding <em>s in body
-                    $.each(sections, function (x, y) {
-                        sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")
-                    })
-
-                });
-                for (let i = 0; i < sectionsVernacular.length; i++) {
-                    let sectionVernacular = sectionsVernacular[i];
-                    let sectionLatin = sectionsLatin[i];
-                    if (sectionLatin == null) {
-                        sectionLatin = {label: "", body: ""};
-                        console.error("Latin sections missing in " + date);
-                    }
-                    $(renderTemplate($templateContentColumns, {
-                        labelVernacular: sectionVernacular.label,
-                        sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
-                        labelLatin: sectionLatin.label,
-                        sectionLatin: sectionLatin.body.split("\n").join("<br />")
+                $.each(sections, function(i, section) {
+                    $(renderTemplate($templateContentColumnsLabel, {
+                        labelVernacular: section.label,
+                        labelLatin: section.id,
                     })).appendTo($loadedContent);
-                }
+                    $.each(section.body, function(i, paragraph) {
+                        if (paragraph.length === 2) {
+                            $(renderTemplate($templateContentColumnsBody, {
+                                sectionVernacular: self.htmlify(paragraph[0]),
+                                sectionLatin: self.htmlify(paragraph[1])
+                            })).appendTo($loadedContent);
+                        } else {
+                            $(renderTemplate($templateContentNoColumns, {
+                                text: self.htmlify(paragraph[0])
+                            })).appendTo($loadedContent);
+                        }
+                    });
+                });
             });
         }).done(function () {
             loadedResource = resourceId;
@@ -276,6 +274,10 @@ class ProperContentLoader {
         }).always(function () {
             loader.hide();
         });
+    }
+
+    htmlify(text) {
+        return text.replace(/\*([^\*]+)\*/g, "<em>$1</em>").split("\n").join("<br />");
     }
 
     mapRank(rank) {
