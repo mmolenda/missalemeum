@@ -4,7 +4,6 @@ from typing import List, Union, Pattern
 
 import yaml
 
-from conftest import HERE
 from constants.common import CUSTOM_PREFACES
 from exceptions import SupplementNotFound, SectionNotFound
 
