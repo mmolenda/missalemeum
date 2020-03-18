@@ -5,6 +5,7 @@ from collections import defaultdict
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
 CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium-custom')
+STATIC_DATA_DIR = os.path.join(THIS_DIR, '..', 'static', 'data')
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'

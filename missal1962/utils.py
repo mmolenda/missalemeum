@@ -1,10 +1,11 @@
+import json
 import os
 import re
 from typing import List, Union, Pattern
 
 import yaml
 
-from constants.common import CUSTOM_PREFACES
+from constants.common import CUSTOM_PREFACES, STATIC_DATA_DIR
 from exceptions import SupplementNotFound, SectionNotFound
 
 
@@ -56,6 +57,9 @@ def format_propers(day: 'Day'):
 
 
 def format_proper_sections(propers_vernacular, propers_latin):
+    # pregenerated_proper = get_pregenerated_proper(propers_vernacular.lang, propers_vernacular.id)
+    # if pregenerated_proper is not None:
+    #     return pregenerated_proper
     pv = propers_vernacular.serialize()
     pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
     for val in pv:
@@ -64,6 +68,13 @@ def format_proper_sections(propers_vernacular, propers_latin):
         except KeyError:
             raise SectionNotFound(f"Section `{val['id']}` not found in latin proper `{propers_latin.id}`.")
     return pv
+
+
+def get_pregenerated_proper(lang, proper_id):
+    path = os.path.join(STATIC_DATA_DIR, lang, f"{proper_id}.json")
+    if os.path.exists(path):
+        with open(path) as fh:
+            return json.load(fh)
 
 
 def get_supplement(root_path, lang, resource, subdir=None):

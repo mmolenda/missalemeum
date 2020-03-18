@@ -59,7 +59,7 @@ class ProperParser:
         """
 
         parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
-        proper = Proper(self.proper_id, parsed_source)
+        proper = Proper(self.proper_id, lang, parsed_source)
 
         # Reference in Rule section in 'vide' or 'ex' clause - load all sections
         # from the referenced file and get sections that are not explicitly defined in the current proper.
