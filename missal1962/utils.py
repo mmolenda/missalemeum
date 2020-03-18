@@ -4,6 +4,7 @@ from typing import List, Union, Pattern
 
 import yaml
 
+from conftest import HERE
 from constants.common import CUSTOM_PREFACES
 from exceptions import SupplementNotFound, SectionNotFound
 
@@ -62,7 +63,7 @@ def format_proper_sections(propers_vernacular, propers_latin):
         try:
             val["body"] = [[val["body"], pl[val["id"]]]]
         except KeyError:
-            raise SectionNotFound(f"Section `{val['id']}` not found in latin proper.")
+            raise SectionNotFound(f"Section `{val['id']}` not found in latin proper `{propers_latin.id}`.")
     return pv
 
 
