@@ -11,8 +11,8 @@ ad audiéndam vocem sermónum ejus. (T.P. Allelúia, allelúia.)
 [Oratio]
 Deus, qui, miro órdine, Angelórum ministerial hominúmque dispénsas: concéde propítius;~
 ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita nostra~
-muniátur. Per Dóminum nostrum Jesum Christum Fílium tuum, qui tecum vivit et regnat in~
-unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.
+muniátur.
+$Per Dominum
 
 [Lectio]
 Léctio libri Apocalýpsis beáti Joánnis Apóstoli

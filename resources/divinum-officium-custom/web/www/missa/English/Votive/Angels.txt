@@ -18,9 +18,8 @@ alleluia.)
 [Oratio]
 O God, who hast constituted the services of Angels and of men in a wonderful~
 order, mercifully grant, that they who ever stand before Thy face to do Thee~
-service in heaven, may also defend our life upon earth. Through our Lord~
-Jesus Christ, Thy Son, Who liveth and reigneth with Thee in the unity of~
-the Holy Ghost, God, world without end.
+service in heaven, may also defend our life upon earth.
+$Per Dominum
 
 [Lectio]
 Lesson from the book of Revelation
