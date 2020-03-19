@@ -277,6 +277,11 @@ div#lang-dropdown-menu {
     text-align: center;
 }
 
+ul#proper-tabs a.dropdown-item.active {
+    background-color: #4e555b;
+}
+
+
 /*
  ======== Info pages: info, icalendar ========
 */

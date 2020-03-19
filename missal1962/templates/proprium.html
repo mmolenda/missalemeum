@@ -46,17 +46,29 @@
                         </p>
                     {% endif %}
 
-                    {% for vern in propers[0].proper_vernacular %}
+                    {% for section in propers[0].sections %}
                         <div class="row">
                             <div class="col-sm-6 section-vernacular">
-                                <h2>{{ vern.label }}</h2>
-                                <p>{{ vern.body|asterisks2em|newline2br|safe }}</p>
+                                <h2>{{ section.label }}</h2>
                             </div>
                             <div class="col-sm-6 section-latin">
-                                <h2>{{ propers[0].proper_latin[loop.index0].label }}</h2>
-                                <p>{{ propers[0].proper_latin[loop.index0].body|asterisks2em|newline2br|safe }}</p>
+                                <h2>{{ section.id }}</h2>
                             </div>
                         </div>
+                        {% for paragraph in section.body %}
+                            {% if paragraph|length == 2 %}
+                                <div class="row">
+                                    <div class="col-sm-6 section-vernacular">
+                                        <p>{{ paragraph[0]|asterisks2em|newline2br|safe }}</p>
+                                    </div>
+                                    <div class="col-sm-6 section-latin">
+                                        <p>{{ paragraph[1]|asterisks2em|newline2br|safe }}</p>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <p><span class="rubric">{{ paragraph[0] }}</span></p>
+                            {% endif %}
+                        {% endfor %}
                     {% endfor %}
                 {% else %}
                     <p>{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}</p>
