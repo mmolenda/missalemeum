@@ -12,11 +12,21 @@ const $sidebarTools = $("div#sidebar-tools");
 const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
 const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
 const $templateContent = $("#template-content").text();
+
+const $templateProperTabs = $("#template-proper-tabs").text();
+const $templateProperTab = $("#template-proper-tab").text();
+const $templateProperActiveTab = $("#template-proper-active-tab").text();
+const $templateProperTabsContent = $("#template-proper-tabs-content").text();
+const $templateProperTabContent = $("#template-proper-tab-content").text();
+const $templateProperActiveTabContent = $("#template-proper-active-tab-content").text();
+
 const $templateContentIntro = $("#template-content-intro").text();
 const $templateContentSupplementList = $("#template-content-supplement-list").text();
 const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
 const $templateContentSupplementItemExternal = $("#template-content-supplement-item-external").text();
-const $templateContentColumns = $("#template-content-columns").text();
+const $templateContentColumnsLabel = $("#template-content-columns-label").text();
+const $templateContentColumnsBody = $("#template-content-columns-body").text();
+const $templateContentNoColumns = $("#template-content-nocolumns").text();
 const $templateContentPrint = $("#template-content-print").text();
 const $templateColorMarker = $("#template-color-marker").text();
 const $searchInput = $("input#search-input");
@@ -173,6 +183,8 @@ class ProperContentLoader {
         let titles = [];
         $.getJSON(self.apiEndpoint + resourceId, function (data) {
             $loadedContent.empty();
+            let properTabsContent = $(renderTemplate($templateProperTabsContent));
+            let properTabs = $(renderTemplate($templateProperTabs));
             window.scrollTo(0, 0);
 
             $.each(data, function (index, item) {
@@ -180,8 +192,7 @@ class ProperContentLoader {
                 let title = info.title;
                 let description = info.description;
                 let supplements = info.supplements;
-                let sectionsVernacular = item.proper_vernacular;
-                let sectionsLatin = item.proper_latin;
+                let sections = item.sections;
                 let colors = info.colors;
                 let colorMarkers = '';
                 $.each(colors, function (i, color) {
@@ -208,12 +219,24 @@ class ProperContentLoader {
                     title = textFeria;
                 }
                 titles.push(title);
+
+                let properTab;
+                let properTabContent;
+                if (index === 0) {
+                    properTab = $(renderTemplate($templateProperActiveTab, {index: index, title:title}));
+                    properTabContent = $(renderTemplate($templateProperActiveTabContent, {index: index}));
+                } else {
+                    properTab = $(renderTemplate($templateProperTab, {index: index, title:title}));
+                    properTabContent = $(renderTemplate($templateProperTabContent, {index: index}));
+                }
+                properTab.appendTo(properTabs.find("div.dropdown-menu"));
+
                 $(renderTemplate($templateContentIntro, {
                     title: title,
                     color_markers: colorMarkers,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
-                })).appendTo($loadedContent);
+                })).appendTo(properTabContent);
 
                 if (supplements !== undefined && supplements.length > 0) {
                     let supplementsList = $(renderTemplate($templateContentSupplementList, {}));
@@ -233,31 +256,33 @@ class ProperContentLoader {
                             supplementsList.append(",&nbsp;&nbsp;");
                         }
                     });
-                    supplementsList.appendTo($loadedContent);
+                    supplementsList.appendTo(properTabContent);
                 }
 
-                $.each([sectionsVernacular, sectionsLatin], function (i, sections) {
-                    // replacing all surrounding asterisks with surrounding <em>s in body
-                    $.each(sections, function (x, y) {
-                        sections[x].body = y.body.replace(/\*([^\*]+)\*/g, "<em>$1</em>")
-                    })
-
+                $.each(sections, function(i, section) {
+                    $(renderTemplate($templateContentColumnsLabel, {
+                        labelVernacular: section.label,
+                        labelLatin: section.id,
+                    })).appendTo(properTabContent);
+                    $.each(section.body, function(i, paragraph) {
+                        if (paragraph.length === 2) {
+                            $(renderTemplate($templateContentColumnsBody, {
+                                sectionVernacular: self.htmlify(paragraph[0]),
+                                sectionLatin: self.htmlify(paragraph[1])
+                            })).appendTo(properTabContent);
+                        } else {
+                            $(renderTemplate($templateContentNoColumns, {
+                                text: self.htmlify(paragraph[0])
+                            })).appendTo(properTabContent);
+                        }
+                    });
                 });
-                for (let i = 0; i < sectionsVernacular.length; i++) {
-                    let sectionVernacular = sectionsVernacular[i];
-                    let sectionLatin = sectionsLatin[i];
-                    if (sectionLatin == null) {
-                        sectionLatin = {label: "", body: ""};
-                        console.error("Latin sections missing in " + date);
-                    }
-                    $(renderTemplate($templateContentColumns, {
-                        labelVernacular: sectionVernacular.label,
-                        sectionVernacular: sectionVernacular.body.split("\n").join("<br />"),
-                        labelLatin: sectionLatin.label,
-                        sectionLatin: sectionLatin.body.split("\n").join("<br />")
-                    })).appendTo($loadedContent);
-                }
+                properTabContent.appendTo(properTabsContent);
             });
+            if (data.length > 1) {
+                properTabs.appendTo($loadedContent);
+            }
+            properTabsContent.appendTo($loadedContent);
         }).done(function () {
             loadedResource = resourceId;
             if (isHistoryReplace === true) {
@@ -276,6 +301,10 @@ class ProperContentLoader {
         }).always(function () {
             loader.hide();
         });
+    }
+
+    htmlify(text) {
+        return text.replace(/\*([^\*]+)\*/g, "<em>$1</em>").split("\n").join("<br />");
     }
 
     mapRank(rank) {

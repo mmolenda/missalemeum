@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-12 23:48+0100\n"
+"POT-Creation-Date: 2020-03-19 12:09+0100\n"
 "PO-Revision-Date: 2020-03-03 16:28+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -27,7 +27,7 @@ msgstr "Nie znaleziono strony"
 msgid "Back to the homepage"
 msgstr "Powrót do strony głównej"
 
-#: templates/base.html:8 templates/proprium.html:62
+#: templates/base.html:8 templates/proprium.html:74
 msgid ""
 "The 1962 Roman Missal containing the liturgical calendar and the readings"
 " for Traditional Latin Mass (Extraordinary form of the Roman Rite, "
@@ -37,11 +37,7 @@ msgstr ""
 "1962 r. dla Mszy św. w nadzwyczajnej formie rytu rzymskiego (Msza "
 "Trydencka, NFRR)."
 
-#: templates/base.html:66
-msgid "Votive"
-msgstr "Wotywne"
-
-#: templates/base.html:70
+#: templates/base.html:70 templates/canticum.html:4
 msgid "Songs"
 msgstr "Pieśni"
 
@@ -64,4 +60,12 @@ msgstr "Szukaj..."
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
 msgstr "Powrót"
+
+#: templates/votive.html:4 templates/votive.html:40
+msgid "Votive"
+msgstr "Wotywne"
+
+#: templates/partials/js_templates.html:24
+msgid "Proper"
+msgstr "Formularz"
 

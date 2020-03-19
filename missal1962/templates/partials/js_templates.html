@@ -13,10 +13,34 @@
 </script>
 <script id="template-sidebar-item-year" type="text/x-custom-template">
     <li class="sidebar-item">
-        <a href="${resourceId}">
+        <a href="${date}">
             <div class="tempora rubric">${year}</div>
         </a>
     </li>
+</script>
+<script id="template-proper-tabs" type="text/x-custom-template">
+    <ul id="proper-tabs" class="nav nav-pills">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active btn-secondary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Proper') }}</a>
+            <div class="dropdown-menu">
+            </div>
+        </li>
+    </ul>
+</script>
+<script id="template-proper-tab" type="text/x-custom-template">
+    <a class="dropdown-item" id="pills-proper-tab${index}" data-toggle="pill" href="#pills-proper${index}" aria-controls="pills-proper${index}" >${title}</a>
+</script>
+<script id="template-proper-active-tab" type="text/x-custom-template">
+    <a class="dropdown-item active" id="pills-proper-tab${index}" data-toggle="pill" href="#pills-proper${index}" aria-controls="pills-proper${index}" >${title}</a>
+</script>
+<script id="template-proper-tabs-content" type="text/x-custom-template">
+    <div class="tab-content" id="pills-proper-content"></div>
+</script>
+<script id="template-proper-tab-content" type="text/x-custom-template">
+    <div class="tab-pane fade" id="pills-proper${index}" role="tabpanel" aria-labelledby="pills-proper-tab${index}"></div>
+</script>
+<script id="template-proper-active-tab-content" type="text/x-custom-template">
+    <div class="tab-pane fade show active" id="pills-proper${index}" role="tabpanel" aria-labelledby="pills-proper-tab${index}"></div>
 </script>
 <script id="template-content-intro" type="text/x-custom-template">
     <h1 class="display-8">${title}</h1>
@@ -32,17 +56,28 @@
 <script id="template-content-supplement-item-external" type="text/x-custom-template">
     <a class="dashed" target="_blank" href="${path}">${label}</a>
 </script>
-<script id="template-content-columns" type="text/x-custom-template">
+<script id="template-content-columns-label" type="text/x-custom-template">
     <div class="row">
         <div class="col-sm-6 section-vernacular">
             <h2>${labelVernacular}</h2>
-            <p>${sectionVernacular}</p>
         </div>
         <div class="col-sm-6 section-latin">
             <h2>${labelLatin}</h2>
+        </div>
+    </div>
+</script>
+<script id="template-content-columns-body" type="text/x-custom-template">
+    <div class="row">
+        <div class="col-sm-6 section-vernacular">
+            <p>${sectionVernacular}</p>
+        </div>
+        <div class="col-sm-6 section-latin">
             <p>${sectionLatin}</p>
         </div>
     </div>
+</script>
+<script id="template-content-nocolumns" type="text/x-custom-template">
+    <p><span class="rubric">${text}</span></p>
 </script>
 <script id="template-color-marker" type="text/x-custom-template">
     <span class="color-marker color-marker-${color}"></span>

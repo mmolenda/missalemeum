@@ -87,9 +87,10 @@ class Proper(ParsedSource):
         COMMEMORATED_POSTCOMMUNIO: None,
     }
 
-    def __init__(self, id_: str, parsed_source: ParsedSource = None) -> None:
+    def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
         super(Proper, self).__init__()
         self.id = id_
+        self.lang = lang
         try:
             _, _, rank, color = id_.split(':')
             self.rank = int(rank)

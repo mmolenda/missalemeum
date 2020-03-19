@@ -26,7 +26,7 @@ def get_day(date_: datetime.date, lang) -> Day:
 
 
 def get_proper_by_id(proper_id: str, lang: str) -> Tuple[Proper, Proper]:
-    config: ProperConfig = ProperConfig(preface=get_custom_preface(Proper(proper_id)))
+    config: ProperConfig = ProperConfig(preface=get_custom_preface(Proper(proper_id, lang)))
     return ProperParser(proper_id, lang, config).parse()
 
 
