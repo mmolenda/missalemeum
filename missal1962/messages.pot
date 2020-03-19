@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-12 23:48+0100\n"
+"POT-Creation-Date: 2020-03-19 12:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,14 @@ msgstr ""
 msgid "Back to the homepage"
 msgstr ""
 
-#: templates/base.html:8 templates/proprium.html:62
+#: templates/base.html:8 templates/proprium.html:74
 msgid ""
 "The 1962 Roman Missal containing the liturgical calendar and the readings"
 " for Traditional Latin Mass (Extraordinary form of the Roman Rite, "
 "Tridentine Mass, TLM)"
 msgstr ""
 
-#: templates/base.html:66
-msgid "Votive"
-msgstr ""
-
-#: templates/base.html:70
+#: templates/base.html:70 templates/canticum.html:4
 msgid "Songs"
 msgstr ""
 
@@ -58,5 +54,13 @@ msgstr ""
 
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
+msgstr ""
+
+#: templates/votive.html:4 templates/votive.html:40
+msgid "Votive"
+msgstr ""
+
+#: templates/partials/js_templates.html:24
+msgid "Proper"
 msgstr ""
 

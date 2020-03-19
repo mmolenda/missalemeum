@@ -12,6 +12,14 @@ const $sidebarTools = $("div#sidebar-tools");
 const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
 const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
 const $templateContent = $("#template-content").text();
+
+const $templateProperTabs = $("#template-proper-tabs").text();
+const $templateProperTab = $("#template-proper-tab").text();
+const $templateProperActiveTab = $("#template-proper-active-tab").text();
+const $templateProperTabsContent = $("#template-proper-tabs-content").text();
+const $templateProperTabContent = $("#template-proper-tab-content").text();
+const $templateProperActiveTabContent = $("#template-proper-active-tab-content").text();
+
 const $templateContentIntro = $("#template-content-intro").text();
 const $templateContentSupplementList = $("#template-content-supplement-list").text();
 const $templateContentSupplementItemInternal = $("#template-content-supplement-item-internal").text();
@@ -175,6 +183,8 @@ class ProperContentLoader {
         let titles = [];
         $.getJSON(self.apiEndpoint + resourceId, function (data) {
             $loadedContent.empty();
+            let properTabsContent = $(renderTemplate($templateProperTabsContent));
+            let properTabs = $(renderTemplate($templateProperTabs));
             window.scrollTo(0, 0);
 
             $.each(data, function (index, item) {
@@ -209,12 +219,24 @@ class ProperContentLoader {
                     title = textFeria;
                 }
                 titles.push(title);
+
+                let properTab;
+                let properTabContent;
+                if (index === 0) {
+                    properTab = $(renderTemplate($templateProperActiveTab, {index: index, title:title}));
+                    properTabContent = $(renderTemplate($templateProperActiveTabContent, {index: index}));
+                } else {
+                    properTab = $(renderTemplate($templateProperTab, {index: index, title:title}));
+                    properTabContent = $(renderTemplate($templateProperTabContent, {index: index}));
+                }
+                properTab.appendTo(properTabs.find("div.dropdown-menu"));
+
                 $(renderTemplate($templateContentIntro, {
                     title: title,
                     color_markers: colorMarkers,
                     additional_info: additional_info.join('</em> | <em class="rubric">'),
                     description: description.split("\n").join("<br />")
-                })).appendTo($loadedContent);
+                })).appendTo(properTabContent);
 
                 if (supplements !== undefined && supplements.length > 0) {
                     let supplementsList = $(renderTemplate($templateContentSupplementList, {}));
@@ -234,28 +256,33 @@ class ProperContentLoader {
                             supplementsList.append(",&nbsp;&nbsp;");
                         }
                     });
-                    supplementsList.appendTo($loadedContent);
+                    supplementsList.appendTo(properTabContent);
                 }
 
                 $.each(sections, function(i, section) {
                     $(renderTemplate($templateContentColumnsLabel, {
                         labelVernacular: section.label,
                         labelLatin: section.id,
-                    })).appendTo($loadedContent);
+                    })).appendTo(properTabContent);
                     $.each(section.body, function(i, paragraph) {
                         if (paragraph.length === 2) {
                             $(renderTemplate($templateContentColumnsBody, {
                                 sectionVernacular: self.htmlify(paragraph[0]),
                                 sectionLatin: self.htmlify(paragraph[1])
-                            })).appendTo($loadedContent);
+                            })).appendTo(properTabContent);
                         } else {
                             $(renderTemplate($templateContentNoColumns, {
                                 text: self.htmlify(paragraph[0])
-                            })).appendTo($loadedContent);
+                            })).appendTo(properTabContent);
                         }
                     });
                 });
+                properTabContent.appendTo(properTabsContent);
             });
+            if (data.length > 1) {
+                properTabs.appendTo($loadedContent);
+            }
+            properTabsContent.appendTo($loadedContent);
         }).done(function () {
             loadedResource = resourceId;
             if (isHistoryReplace === true) {

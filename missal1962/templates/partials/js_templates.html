@@ -18,6 +18,30 @@
         </a>
     </li>
 </script>
+<script id="template-proper-tabs" type="text/x-custom-template">
+    <ul id="proper-tabs" class="nav nav-pills">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active btn-secondary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Proper') }}</a>
+            <div class="dropdown-menu">
+            </div>
+        </li>
+    </ul>
+</script>
+<script id="template-proper-tab" type="text/x-custom-template">
+    <a class="dropdown-item" id="pills-proper-tab${index}" data-toggle="pill" href="#pills-proper${index}" aria-controls="pills-proper${index}" >${title}</a>
+</script>
+<script id="template-proper-active-tab" type="text/x-custom-template">
+    <a class="dropdown-item active" id="pills-proper-tab${index}" data-toggle="pill" href="#pills-proper${index}" aria-controls="pills-proper${index}" >${title}</a>
+</script>
+<script id="template-proper-tabs-content" type="text/x-custom-template">
+    <div class="tab-content" id="pills-proper-content"></div>
+</script>
+<script id="template-proper-tab-content" type="text/x-custom-template">
+    <div class="tab-pane fade" id="pills-proper${index}" role="tabpanel" aria-labelledby="pills-proper-tab${index}"></div>
+</script>
+<script id="template-proper-active-tab-content" type="text/x-custom-template">
+    <div class="tab-pane fade show active" id="pills-proper${index}" role="tabpanel" aria-labelledby="pills-proper-tab${index}"></div>
+</script>
 <script id="template-content-intro" type="text/x-custom-template">
     <h1 class="display-8">${title}</h1>
     <p>${color_markers} | <em class="rubric">${additional_info}</em></p>
