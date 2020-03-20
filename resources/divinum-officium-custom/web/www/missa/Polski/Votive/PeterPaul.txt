@@ -5,6 +5,7 @@ Prefatio=Apostolis
 # Msza o śś. Piotrze i Pawle Apostołach
 ! Wotywna
 ! Środa
+! Poza Okresem Wielkanocnym
 
 [Introitus]
 @Sancti/10-28:Introitus

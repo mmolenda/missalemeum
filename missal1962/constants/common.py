@@ -866,6 +866,7 @@ VOTIVE_08_22 = 'votive:08-22r:0:w'  # Immaculate Heart of B. V. M.
 VOTIVE_ANGELS = 'votive:Angels:0:w'
 VOTIVE_JOSEPH = 'votive:Joseph:0:w'
 VOTIVE_PETERPAUL = 'votive:PeterPaul:0:r'
+VOTIVE_PETERPAULP = 'votive:PeterPaulP:0:r'
 VOTIVE_APOSTLES = 'votive:Apostles:0:r'
 VOTIVE_APOSTLESP = 'votive:ApostlesP:0:r'
 
