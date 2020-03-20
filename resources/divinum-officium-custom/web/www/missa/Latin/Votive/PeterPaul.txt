@@ -2,14 +2,7 @@
 Prefatio=Apostolis
 
 [Introitus]
-!Ps 138:17
-Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est~
-principátus eórum.
-!Ps 138:1-2
-Domine, probasti me et cognovisti me: tu cognovisti sesionem meam et ressurectionem meam.
-$Gloria
-Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est~
-principátus eórum.
+@Sancti/10-28:Introitus
 
 [Oratio]
 Deus, cuius dextera beatum Petrum ambulantem in fluctibus, ne mergeretur, erexit, et~

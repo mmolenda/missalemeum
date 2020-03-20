@@ -673,6 +673,8 @@ TITLES = {
     constants.VOTIVE_ANGELS: 'De Angelis',
     constants.VOTIVE_JOSEPH: 'S. Joseph',
     constants.VOTIVE_PETERPAUL: 'SS. Apostolorum Petri et Pauli',
+    constants.VOTIVE_APOSTLES: 'SS. Apostolorum',
+    constants.VOTIVE_APOSTLESP: 'SS. Apostolorum',
     constants.VOTIVE_PENT01_0: 'Sanctissimæ Trinitatis',
     constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
     constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
