@@ -870,6 +870,7 @@ VOTIVE_PETERPAULP = 'votive:PeterPaulP:0:r'
 VOTIVE_APOSTLES = 'votive:Apostles:0:r'
 VOTIVE_APOSTLESP = 'votive:ApostlesP:0:r'
 VOTIVE_HOLYSPIRIT = 'votive:HolySpirit:0:r'
+VOTIVE_HOLYSPIRIT2 = 'votive:HolySpirit2:0:r'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
