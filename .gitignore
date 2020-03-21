@@ -40,10 +40,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
-# Translations
-*.mo
-*.pot
-
 # Django stuff:
 *.log
 
@@ -55,3 +51,4 @@ target/
 .idea/
 .vscode/settings.json
 .gitignore
+*.iml

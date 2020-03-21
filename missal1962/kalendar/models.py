@@ -7,16 +7,16 @@ from copy import copy
 from datetime import date, timedelta
 from typing import ItemsView, List, Tuple, Union
 
-from constants.common import (C_10A, C_10B, C_10C, C_10PASC, C_10T,
+from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER, PATTERN_PRE_LENTEN,
                               PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE, CUSTOM_INTER_READING_SECTIONS,
                               SUNDAY, PATTERN_POST_EPIPHANY_SUNDAY, TEMPORA_PENT23_0, INTROIT, OFFERTORIUM, COMMUNIO,
-                              NAT2_0, SANCTI_01_01)
+                              TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
-from utils import infer_custom_preface, match
+from utils import get_custom_preface, match
 
 log = logging.getLogger(__name__)
 
@@ -61,13 +61,14 @@ class Observance:
         self.date = date_
         self.lang = lang
         translation = importlib.import_module(f'constants.{lang}.translation')
-        flexibility, name, rank = observance_id.split(':')
+        flexibility, name, rank, color = observance_id.split(':')
         self.flexibility: str = flexibility
         self.name: str = name
         self.rank: int = self._calc_rank(observance_id, int(rank))
-        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank)))
+        self.colors = list(color)
+        self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
-        if flexibility == TYPE_TEMPORA and observance_id not in (C_10A, C_10B, C_10C, C_10PASC, C_10T):
+        if flexibility == TYPE_TEMPORA and observance_id not in (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T):
             self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = self.date.weekday()
@@ -83,7 +84,7 @@ class Observance:
         return ProperParser(self.id, self.lang).proper_exists()
 
     def serialize(self) -> dict:
-        return {'id': self.id, 'rank': self.rank, 'title': self.title}
+        return {'id': self.id, 'rank': self.rank, 'title': self.title, 'colors': self.colors}
 
     def _calc_rank(self, observance_id: str, original_rank: int) -> int:
         """
@@ -206,8 +207,8 @@ class Day:
             retval: List[Tuple[Proper, Proper]] = []
             for observance in observances:
                 inter_readings_section = self._infer_inter_reading_section(observance)
-                inferred_prefaces = infer_custom_preface(observance, next(iter(self.tempora), None))
-                proper_config = ProperConfig(preface=inferred_prefaces, inter_readings_section=inter_readings_section)
+                preface = get_custom_preface(observance, next(iter(self.tempora), None))
+                proper_config = ProperConfig(preface=preface, inter_readings_section=inter_readings_section)
                 retval.append(observance.get_proper(proper_config))
             return retval
         else:
@@ -215,11 +216,12 @@ class Day:
             inferred_observances = self._infer_observance()
             if observances:
                 rank: int = observances[0].rank
-                custom_preface_name: str = infer_custom_preface(observances[0])
+                preface: str = get_custom_preface(observances[0])
             else:
                 rank: int = 4
-                custom_preface_name: str = infer_custom_preface(inferred_observances)
-            config: ProperConfig = ProperConfig(preface=custom_preface_name, strip_alleluia=True)
+                preface: str = get_custom_preface(inferred_observances)
+            preface = preface if preface is not None else PREFATIO_COMMUNIS
+            config: ProperConfig = ProperConfig(preface=preface, strip_alleluia=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank
@@ -242,7 +244,7 @@ class Day:
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
             return Observance(TEMPORA_PENT01_0, date_, self.calendar.lang)
-        if day.celebration[0].id == NAT2_0:
+        if day.celebration[0].id == TEMPORA_NAT2_0:
             # When the last Sunday is the feast of Holy Name, use proper from Octave of the Nativity
             return Observance(SANCTI_01_01, date_, self.calendar.lang)
         if day.tempora:

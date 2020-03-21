@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-Części stałe |
+    {{ _('Order of Mass') }} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -29,7 +29,7 @@ Części stałe |
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1>Części stałe Mszy św.</h1>
+                <h1>{{ _('Order of Mass') }}</h1>
                 {% for item in data %}
                 <div class="ordo-item" id="ordo-item-{{ item['title']|slugify }}">
                     <h2>{{ item['title'] }}</h2>
@@ -48,27 +48,19 @@ Części stałe |
                                 </div>
                             </div>
                         {% else %}
-                            <p><span class="rubric">{{ body_item }}</span></p>
+                            <p><span class="rubric">{{ body_item[0] }}</span></p>
                         {% endif %}
                     {% endfor %}
                     </div>
                 {% endfor %}
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
-        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
-            </label>
-        </div>
+        {% include 'partials/lang_switch.html' %}
     </div>
 </div>
 
-<!--Templates -->
-{% include 'print.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}

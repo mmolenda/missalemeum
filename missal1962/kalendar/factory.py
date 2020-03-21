@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import importlib
 from collections import defaultdict
 from copy import copy
 from datetime import date, timedelta
@@ -7,7 +6,8 @@ from typing import List, Tuple, Union
 
 from dateutil.easter import easter
 
-from constants.common import NAT1_0, NAT2_0, SANCTI_10_DUr, LANGUAGE_VERNACULAR
+from constants import BLOCKS
+from constants.common import TEMPORA_NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
 from kalendar.models import Calendar, Observance
 from kalendar.rules import rules
 
@@ -21,9 +21,9 @@ class MissalFactory:
     lang: str = None
     blocks = None
 
-    def create(self, year: int, lang: str = LANGUAGE_VERNACULAR) -> Calendar:
+    def create(self, year: int, lang: str = LANGUAGE_ENGLISH) -> Calendar:
         self.lang = lang
-        self.blocks = importlib.import_module(f'constants.{self.lang}.blocks')
+        self.blocks = BLOCKS[self.lang]
         self.calendar = Calendar(year, self.lang)
         self._fill_in_tempora_days(year)
         self._fill_in_sancti_days()
@@ -45,7 +45,7 @@ class MissalFactory:
 
         # Inserting single days
         date_ = self.calc_holy_name(year)
-        self.calendar.get_day(date_).celebration = [Observance(NAT2_0, date_, self.lang)]
+        self.calendar.get_day(date_).celebration = [Observance(TEMPORA_NAT2_0, date_, self.lang)]
 
         date_ = self.calc_christ_king(year)
         self.calendar.get_day(date_).celebration = [Observance(SANCTI_10_DUr, date_, self.lang)]

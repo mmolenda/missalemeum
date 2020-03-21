@@ -1,10 +1,7 @@
 import json
-import os
 from datetime import date
 
-from constants.common import PATTERN_ALLELUIA, INTROIT, ORATIO, COMMEMORATED_ORATIO, LECTIO, GRADUALE, GRADUALE_PASCHAL, \
-    TRACTUS, EVANGELIUM, OFFERTORIUM, SECRETA, COMMUNIO, POSTCOMMUNIO, PREFATIO, COMMEMORATED_SECRETA, \
-    COMMEMORATED_POSTCOMMUNIO
+from constants.common import *
 from exceptions import InvalidInput, ProperNotFound
 
 import pytest
@@ -14,9 +11,7 @@ from constants import common as c
 from kalendar.models import Observance
 from propers.models import ProperConfig
 from propers.parser import ProperParser
-from tests.conftest import get_missal
-
-HERE = os.path.abspath(os.path.dirname(__file__))
+from tests.conftest import get_missal, HERE
 
 language = 'pl'
 
@@ -116,18 +111,18 @@ def test_get_proper_from_day():
 
 
 @pytest.mark.parametrize("date_,id_,rank", [
-    ((2018, 1, 4), 'sancti:01-01:1', 4),
-    ((2019, 1, 3), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2021, 1, 4), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2021, 1, 5), 'sancti:01-01:1', 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
-    ((2019, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2021, 1, 7), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2021, 1, 8), 'sancti:01-06:1', 4),  # Feria between Epiphany and next Sunday -> Epiphany
-    ((2018, 1, 12), 'tempora:Epi1-0a:2', 4),  # Feast of the Holy Family
-    ((2018, 2, 13), 'tempora:Quadp3-0:2', 4),
-    ((2018, 7, 4), 'tempora:Pent06-0:2', 4),
-    ((2018, 7, 9), 'tempora:Pent07-0:2', 4),  # Feast of the Most Precious Blood
-    ((2018, 10, 31), 'tempora:Pent23-0:2', 4),  # Feast of Christ the King
+    ((2018, 1, 4), SANCTI_01_01, 4),
+    ((2019, 1, 3), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 4), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2021, 1, 5), SANCTI_01_01, 4),  # Feria between Holy Name and Epiphany -> Octave of the Nativity
+    ((2019, 1, 7), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 7), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2021, 1, 8), SANCTI_01_06, 4),  # Feria between Epiphany and next Sunday -> Epiphany
+    ((2018, 1, 12), TEMPORA_EPI1_0A, 4),  # Feast of the Holy Family
+    ((2018, 2, 13), TEMPORA_QUADP3_0, 4),
+    ((2018, 7, 4), TEMPORA_PENT06_0, 4),
+    ((2018, 7, 9), TEMPORA_PENT07_0, 4),  # Feast of the Most Precious Blood
+    ((2018, 10, 31), TEMPORA_PENT23_0, 4),  # Feast of Christ the King
 ])
 def test_get_proper_for_day_without_own_proper(date_, id_, rank):
     # For days without their own propers we show the proper from the last Sunday
@@ -142,7 +137,7 @@ def test_get_repr():
     container = missal.get_day(date(2018, 1, 13))
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
-    assert str(container) == '[<tempora:Epi1-6:4>][<sancti:01-13:2>][]'
+    assert str(container) == '[<tempora:Epi1-6:4:w>][<sancti:01-13:2:w>][]'
 
 
 @pytest.mark.parametrize("date_,sections", [
@@ -176,8 +171,8 @@ def test_correct_preface_calculated_by_date(date_,title_part, preface_body):
 
 
 @pytest.mark.parametrize("proper_id,preface_name,preface_body", [
-    ('tempora:Adv2-0', 'Communis', '*Communis*'),
-    ('tempora:Adv2-0', 'Trinitate', '*de sanctissima Trinitate*'),
+    (TEMPORA_ADV2_0, 'Communis', '*Communis*'),
+    (TEMPORA_ADV2_0, 'Trinitate', '*de sanctissima Trinitate*'),
 ])
 def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, preface_body):
     _, proper_latin = ProperParser(proper_id, language, ProperConfig(preface=preface_name)).parse()
@@ -233,7 +228,7 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
                     "Commemoratio Sabbato Quattuor Temporum Quadragesimæ", "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 3, 7), "Deus, qui culpa offénderis", "Sacrifíciis præséntibus, Dómine", "Cœléstis doni benedictióne",
-                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Pro Doctore non Pontifice", "Pro Doctore non Pontifice"),
+                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Sancti N. Confessóris tui", "Ut nobis, Dómine, tua sacrifícia"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 9, 15), "Custódi, Dómine, quǽsumus", "Concéde nobis, Dómine", "Puríficent semper et múniant",
                     "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
@@ -316,31 +311,58 @@ def test_excluded_commemorations(date_):
         assert None is proper_latin.get_section(stripped_section)
 
 
-def _get_proper_fixtures():
-    with open(os.path.join(HERE, 'fixtures/propers_vernacular_2020.json')) as fh:
-        expected_vernacular = json.load(fh)
+def _get_proper_fixtures_polish():
+    with open(os.path.join(HERE, 'fixtures/propers_polish_2020.json')) as fh:
+        return list(json.load(fh).items())
+
+
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_polish())
+def test_all_propers_polish(strdate, expected_sections):
+    missal = get_missal(2020, 'pl')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    proper, _ = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'],\
+            f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'],\
+            f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+
+
+def _get_proper_fixtures_latin():
     with open(os.path.join(HERE, 'fixtures/propers_latin_2020.json')) as fh:
-        expected_latin = json.load(fh)
-    coll = []
-    for k, v in expected_vernacular.items():
-        coll.append([k, v, expected_latin[k]])
-    return coll
+        return list(json.load(fh).items())
 
 
-@pytest.mark.parametrize("strdate,expected_vern_sections,expected_latin_sections", _get_proper_fixtures())
-def test_all_propers(strdate, expected_vern_sections, expected_latin_sections):
-    missal = get_missal(2020, language)
-    proper_vernacular, proper_latin = missal.get_day(date(*[int(i) for i in strdate.split('-')])).get_proper()[0]
-    proper_vernacular_serialized = proper_vernacular.serialize()
-    proper_latin_serialized = proper_latin.serialize()
-    for i, expected_vern_section in enumerate(expected_vern_sections):
-        assert expected_vern_section['id'] == proper_vernacular_serialized[i]['id'],\
-            f'vern {strdate}/{expected_vern_section["id"]}'
-        assert expected_vern_section['body'] in proper_vernacular_serialized[i]['body'],\
-            f'vern {strdate}/{expected_vern_section["id"]}'
-        assert expected_latin_sections[i]['id'] == proper_latin_serialized[i]['id'], \
-            f'latin {strdate}/{expected_vern_section["id"]}'
-        assert expected_latin_sections[i]['body'] in proper_latin_serialized[i]['body'], \
-            f'latin {strdate}/{expected_vern_section["id"]}'
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_latin())
+def test_all_propers_latin(strdate, expected_sections):
+    missal = get_missal(2020, 'pl')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    _, proper = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'],\
+            f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'],\
+            f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
+def _get_proper_fixtures_english():
+    with open(os.path.join(HERE, 'fixtures/propers_english_2020.json')) as fh:
+        return list(json.load(fh).items())
+
+
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_english())
+def test_all_propers_english(strdate, expected_sections):
+    missal = get_missal(2020, 'en')
+    day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
+    tempora_name = day.get_tempora_name()
+    proper, _ = day.get_proper()[0]
+    proper_serialized = proper.serialize()
+    for i, expected_section in enumerate(expected_sections):
+        assert expected_section['id'] == proper_serialized[i]['id'], \
+            f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        assert expected_section['body'] in proper_serialized[i]['body'], \
+            f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'

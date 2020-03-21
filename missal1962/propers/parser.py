@@ -3,12 +3,15 @@ import logging
 import os
 import re
 
+import utils
 from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
+from constants import TRANSLATION
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT)
+                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT,
+                              OBSERVANCES_WITHOUT_OWN_PROPER)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -32,11 +35,12 @@ class ProperParser:
         self.config = config or ProperConfig()
 
     def proper_exists(self) -> bool:
-        return os.path.exists(self._get_full_path(self._get_partial_path(), self.lang))
+        return not utils.match(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
+               and self._get_full_path(self._get_partial_path(), self.lang) is not None
 
     def parse(self) -> Tuple[Proper, Proper]:
-        self.translations[self.lang] = importlib.import_module(f'constants.{self.lang}.translation')
-        self.translations[LANGUAGE_LATIN] = importlib.import_module(f'constants.{LANGUAGE_LATIN}.translation')
+        self.translations[self.lang] = TRANSLATION[self.lang]
+        self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
         self.prefaces[LANGUAGE_LATIN] = self._parse_source('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
         partial_path = self._get_partial_path()
@@ -55,25 +59,33 @@ class ProperParser:
         """
 
         parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
-        proper = Proper(self.proper_id, parsed_source)
+        proper = Proper(self.proper_id, lang, parsed_source)
 
         # Reference in Rule section in 'vide' or 'ex' clause - load all sections
         # from the referenced file and get sections that are not explicitly defined in the current proper.
         vide = proper.get_rule('vide')
         if vide:
-            nested_path = self._get_full_path(f'{vide}.txt', lang)
+            if '/' in vide:
+                nested_path = self._get_full_path(f'{vide}.txt', lang)
+            else:
+                for subdir in ('Commune', 'Tempora'):
+                    nested_path = self._get_full_path(f'{subdir}/{vide}.txt', lang)
+                    if nested_path:
+                        break
+            if not nested_path:
+                raise ProperNotFound(f'Proper from vide not found {vide}.')
             proper.merge(self._parse_source(nested_path, lang=lang))
 
         # Moving data from "Comment" section up as direct properties of a Proper object
         parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
-        proper.title = self.translations[lang].TITLES.get(self.proper_id)
+        try:
+            proper.title = self.translations[lang].TITLES[self.proper_id]
+        except KeyError:
+            # Handling very rare case when proper's source exists but rank or color in the ID is invalid
+            raise ProperNotFound(f"Proper {self.proper_id} not found")
         proper.description = parsed_comment['description']
         proper.additional_info = parsed_comment['additional_info']
         proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
-        if not proper.rank:
-            # rank should be inferred from provided `proper_id`, otherwise try to get it from the comment section
-            proper.rank = parsed_comment['rank']
-
         proper = self._add_prefaces(proper, lang)
         proper = self._filter_sections(proper)
         proper = self._amend_sections_contents(proper)
@@ -91,6 +103,8 @@ class ProperParser:
         section_name: str = None
         concat_line: bool = False
         full_path: str = self._get_full_path(partial_path, lang)
+        if not full_path:
+            raise ProperNotFound(f'Proper `{partial_path}` not found.')
         with open(full_path) as fh:
             for itr, ln in enumerate(fh):
                 ln = ln.strip()
@@ -109,6 +123,8 @@ class ProperParser:
                     path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
                     # Recursively read referenced file
                     nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
+                    if not nested_path:
+                        raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
                     parsed_source.merge(self._parse_source(nested_path, lang=lang))
                     continue
 
@@ -125,8 +141,10 @@ class ProperParser:
                             path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(ln)[0]
                             if path_bit:
                                 # Reference to external file - parse it recursively
-                                nested_path: str = self._get_full_path(path_bit + '.txt', lang) \
+                                nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) \
                                     if path_bit else partial_path
+                                if not nested_path:
+                                    raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
                                 nested_proper: Proper = self._parse_source(
                                     nested_path, lang=lang, lookup_section=nested_section_name)
                                 nested_section = nested_proper.get_section(nested_section_name)
@@ -294,6 +312,8 @@ class ProperParser:
         full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
         if not os.path.exists(full_path):
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+            if not os.path.exists(full_path):
+                return None
         return full_path
 
     def _get_partial_path(self):

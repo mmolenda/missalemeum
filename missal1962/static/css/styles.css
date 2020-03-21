@@ -50,6 +50,18 @@ footer {
 }
 
 /*
+ ========= Navbar ========
+*/
+
+a#lang-dropdown {
+    font-size: 80%;
+}
+
+div#lang-dropdown-menu {
+    width: 100px;
+}
+
+/*
  ======== Sidebar ========
 */
 
@@ -101,7 +113,6 @@ footer {
 
 #sidebar ul li a {
     padding: 10px;
-    /*ize: 1.1em;*/
     display: block;
 }
 
@@ -110,8 +121,7 @@ footer {
     background: #fffdf1;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
+#sidebar ul li.active>a {
     color: #626262;
     background: #faf4c2 ;
     font-weight: 600;
@@ -267,6 +277,11 @@ a[aria-expanded="true"] {
     text-align: center;
 }
 
+ul#proper-tabs a.dropdown-item.active {
+    background-color: #4e555b;
+}
+
+
 /*
  ======== Info pages: info, icalendar ========
 */
@@ -291,6 +306,57 @@ iframe#google-cal {
 
 p.supplement {
     font-size: 90%;
+}
+
+.color-marker {
+    height: 10px;
+    width: 9px;
+    border-radius: 10% 10% 50% 50%;
+    display: inline-block;
+}
+
+.color-marker-r {
+    background-color: #cd5c5c;
+}
+
+.color-marker-g {
+    background-color: #6aa838;
+}
+
+.color-marker-w {
+    background-color: lightgray;
+}
+
+.color-marker-v {
+    background-color: #d076fc;
+}
+
+.color-marker-b {
+    background-color: #565656;
+}
+
+.sidebar-color-marker {
+    border-left: 3px solid;
+}
+
+.sidebar-color-marker-r {
+    border-left-color: #cd5c5c;
+}
+
+.sidebar-color-marker-g {
+    border-left-color: #6aa838;
+}
+
+.sidebar-color-marker-w {
+    border-left-color: lightgray;
+}
+
+.sidebar-color-marker-v {
+    border-left-color: #d076fc;
+}
+
+.sidebar-color-marker-b {
+    border-left-color: #565656;
 }
 
 /*

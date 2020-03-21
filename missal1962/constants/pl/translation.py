@@ -177,6 +177,7 @@ TITLES = {
     constants.TEMPORA_PENT02_3: 'Środa po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_4: 'Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT02_5: 'Uroczystość Najświętszego Serca Pana Jezusa',
+    constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.TEMPORA_PENT02_6: 'Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_0: '3 Niedziela po Zesłaniu Ducha Świętego',
     constants.TEMPORA_PENT03_1: 'Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego',
@@ -362,17 +363,22 @@ TITLES = {
     constants.TEMPORA_ADV4_3: 'Środa po 4 Niedzieli Adwentu',
     constants.TEMPORA_ADV4_4: 'Czwartek po 4 Niedzieli Adwentu',
     constants.TEMPORA_ADV4_5: 'Piątek po 4 Niedzieli Adwentu',
-    constants.NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
-    constants.NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
-    constants.NAT2_0: 'Najświętszego Imienia Jezus',
+    constants.TEMPORA_NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
+    constants.TEMPORA_NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
+    constants.TEMPORA_NAT2_0: 'Najświętszego Imienia Jezus',
     constants.SANCTI_10_DUr: 'Chrystusa Króla',
-    constants.EPI1_0A: '1 Niedziela po Objawieniu',
-    constants.PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
-    constants.C_10A: '1 Msza na święta N. M. P. – Rorate',
-    constants.C_10B: '2 Msza na święta N. M. P. – Vultum Tuum',
-    constants.C_10C: '3 Msza na święta N. M. P. – Salve, Sancta Parens',
-    constants.C_10PASC: '4 Msza na święta N. M. P. – Salve, Sancta Parens',
-    constants.C_10T: '5 Msza na święta N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_EPI1_0A: '1 Niedziela po Objawieniu',
+    constants.TEMPORA_PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
+    constants.TEMPORA_C_10A: '1 Msza o N. M. P. – Rorate',
+    constants.COMMUNE_C_10A: '1 Msza o N. M. P. – Rorate',
+    constants.TEMPORA_C_10B: '2 Msza o N. M. P. – Vultum Tuum',
+    constants.COMMUNE_C_10B: '2 Msza o N. M. P. – Vultum Tuum',
+    constants.TEMPORA_C_10C: '3 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10C: '3 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.TEMPORA_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_06: 'Objawienie Pańskie',
     constants.SANCTI_01_13: 'Wspomnienie Chrztu Pańskiego',
@@ -554,6 +560,7 @@ TITLES = {
     constants.SANCTI_08_20: 'Św. Bernarda, Opata i Doktora Kościoła',
     constants.SANCTI_08_21: 'Św. Joanny Franciszki Frémiot de Chantal, Wdowy',
     constants.SANCTI_08_22: 'Uroczystość Niepokalanego Serca N. M. P.',
+    constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
     constants.SANCTI_08_23: 'Św. Filipa Benicjusza, Wyznawcy',
     constants.SANCTI_08_24: 'Św. Bartłomieja, Apostoła',
     constants.SANCTI_08_25: 'Św. Ludwika, Króla i Wyznawcy',
@@ -667,6 +674,23 @@ TITLES = {
     constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy'
 }
 
+VOTIVE_MASSES = [
+    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
+     'tags': ['Adwent']},
+    {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
+     'tags': ['Od B. Narodzenia do Oczyszczenia']},
+    {'ref': 'salve-sancta-parens-3', 'id': constants.COMMUNE_C_10C, 'title': TITLES[constants.COMMUNE_C_10C],
+     'tags': ['Od 3 II do W. Środy']},
+    {'ref': 'salve-sancta-parens-4', 'id': constants.COMMUNE_C_10PASC, 'title': TITLES[constants.COMMUNE_C_10PASC],
+     'tags': ['Okres Wielkanocny']},
+    {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
+     'tags': ['Od Trójcy Przenajśw. do Adwentu']},
+    {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
+     'tags': ['Wotywna', 'Piątek']},
+    {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
+     'tags': ['Wotywna', 'Pierwsza sobota']},
+]
+
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',
     'CommunioP': 'Antyfona na Komunię (Okres Wielkanocny)',
@@ -700,7 +724,7 @@ SECTION_LABELS = {
     'Hymnus ad Christum Regem': 'Hymn ku Czci Chrystusa Króla',
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'Mandatum, czyli Umywanie Nóg',
-    'Post Missam': 'Uroczyste Przeniesienie i Złożenie Najświętszego Sakramentu',
+    'Post Missam': 'Po Mszy',
     'Denudatione altaris': 'Obnażenie Ołtarzy',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones': 'Część Pierwsza: Czytania',
@@ -774,6 +798,7 @@ TRANSFORMATIONS = (
     (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu.'),
+    (re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
     (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Przez Pana.'),
     (re.compile(r'^\$Per Dominum\.*'), 'Przez Pana.'),
     (re.compile(r'^\$Per eu[mn]dem\.*'), 'Przez tegoż Pana.'),
@@ -798,7 +823,7 @@ COMMEMORATIONS = {
 KDE = "Komentarz do Ewangelii"
 SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
-        {"label": "Adwent", "path": "/supplement/2-adwent"},
+        {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
         {"label": f"{KDE} na 1 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia1na/"}
     ],
     constants.TEMPORA_ADV2_0: [
@@ -811,10 +836,10 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na 4 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia4na/"}
     ],
     constants.SANCTI_12_24: [
-        {"label": "Boże Narodzenie", "path": "/supplement/3-boze-narodzenie"}
+        {"label": "Boże Narodzenie", "path": "/pl/supplement/3-boze-narodzenie"}
         ],
     constants.SANCTI_12_25_1: [
-        {"label": "Boże Narodzenie", "path": "/supplement/3-boze-narodzenie"},
+        {"label": "Boże Narodzenie", "path": "/pl/supplement/3-boze-narodzenie"},
         {"label": f"{KDE} pierwszej na uroczystość Bożego Narodzenia", "path": "http://vetusordo.pl/objasnieniaenubn/"}
     ],
     constants.SANCTI_12_25_2: [
@@ -826,7 +851,7 @@ SUPPLEMENTS = {
     constants.SANCTI_12_26: [
         {"label": f"{KDE} na uroczystość pierwszego męczennika św. Szczepana", "path": "http://vetusordo.pl/objasnieniaupmss/"}
     ],
-    constants.NAT1_0: [
+    constants.TEMPORA_NAT1_0: [
         {"label": f"{KDE} na niedzielę po Bożym Narodzeniu", "path": "http://vetusordo.pl/objasnieniaennpbn/"}
     ],
     constants.SANCTI_01_01: [
@@ -836,7 +861,7 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na Objawienia Pańskie", "path": "http://vetusordo.pl/objasnieniaenustk/"}
     ],
     constants.TEMPORA_EPI1_0: [
-        {"label": "Okres po Objawieniu", "path": "/supplement/4-okres-po-objawieniu"}
+        {"label": "Okres po Objawieniu", "path": "/pl/supplement/4-okres-po-objawieniu"}
     ],
     constants.TEMPORA_EPI2_0: [
         {"label": f"{KDE} na 2 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaenndpstk/"}
@@ -851,7 +876,7 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na 5 niedzielę po Objawieniu", "path": "http://vetusordo.pl/objasnieniaennppstk-2/"}
     ],
     constants.TEMPORA_QUADP1_0: [
-        {"label": "Przedpoście", "path": "/supplement/5-przedposcie"},
+        {"label": "Przedpoście", "path": "/pl/supplement/5-przedposcie"},
         {"label": f"{KDE} na niedzielę Siedemdziesiątnicy", "path": "http://vetusordo.pl/oenns/"}
     ],
     constants.TEMPORA_QUADP2_0: [
@@ -861,7 +886,7 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na niedzielę Pięćdziesiątnicy", "path": "http://vetusordo.pl/objasnieniannzpna/"}
     ],
     constants.TEMPORA_QUADP3_3: [
-        {"label": "Wielki Post", "path": "/supplement/6-wielki-post"}
+        {"label": "Wielki Post", "path": "/pl/supplement/6-wielki-post"}
     ],
     constants.TEMPORA_QUAD1_0: [
         {"label": f"{KDE} na 1 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/objasnieniann1p/"}
@@ -876,15 +901,15 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na 4 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/2019oenncp/"}
     ],
     constants.TEMPORA_QUAD5_0: [
-        {"label": "Okres Męki Pańskiej", "path": "/supplement/7-okres-meki-panskiej"},
+        {"label": "Okres Męki Pańskiej", "path": "/pl/supplement/7-okres-meki-panskiej"},
         {"label": f"{KDE} na 1 niedzielę Męki Pańskiej", "path": "http://vetusordo.pl/objasnieniaennpp/"}
     ],
     constants.TEMPORA_QUAD6_0: [
-        {"label": "Wielki Tydzień", "path": "/supplement/8-wielki-tydzien"},
+        {"label": "Wielki Tydzień", "path": "/pl/supplement/8-wielki-tydzien"},
         {"label": f"{KDE} na 2 niedzielę Męki Pańskiej (Palmową)", "path": "http://vetusordo.pl/objasnieniaennk/"}
     ],
     constants.TEMPORA_QUAD6_6: [
-        {"label": "Okres Wielkanocny", "path": "/supplement/9-okres-wielkanocny"}
+        {"label": "Okres Wielkanocny", "path": "/pl/supplement/9-okres-wielkanocny"}
     ],
     constants.TEMPORA_PASC0_0: [
         {"label": f"{KDE} na Wielkanoc", "path": "http://vetusordo.pl/objasnieniaenw/"}
@@ -914,13 +939,16 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na niedzielę po Wniebostąpieniu", "path": "http://vetusordo.pl/objasnieniaenn6pw/"}
     ],
     constants.TEMPORA_PASC6_6: [
-        {"label": "Zesłanie Ducha św.", "path": "/supplement/10-zeslanie-ducha-sw"}
+        {"label": "Zesłanie Ducha św.", "path": "/pl/supplement/10-zeslanie-ducha-sw"}
     ],
     constants.TEMPORA_PASC7_0: [
-        {"label": f"{KDE} na niedzielę Zesłania Ducha Świętego", "path": "http://vetusordo.pl/objasnieniaenuzds/"}
+        {"label": f"{KDE} na niedzielę Zesłania Ducha św.", "path": "http://vetusordo.pl/objasnieniaenuzds/"}
+    ],
+    constants.TEMPORA_PASC7_1: [
+        {"label": f"{KDE} na poniedzialek w Oktawie Zesłania Ducha św.", "path": "/pl/supplement/commentary/poniedzialek-po-zeslaniu"}
     ],
     constants.TEMPORA_PENT01_0: [
-        {"label": "Okres po Zesłaniu Ducha św.", "path": "/supplement/10-okres-po-zeslaniu-ducha-sw"},
+        {"label": "Okres po Zesłaniu Ducha św.", "path": "/pl/supplement/10-okres-po-zeslaniu-ducha-sw"},
         {"label": f"{KDE} na uroczystość Trójcy Przenajświętszej", "path": "http://vetusordo.pl/objasnienia2019enuts/"}
     ],
     constants.TEMPORA_PENT01_4: [
@@ -968,6 +996,9 @@ SUPPLEMENTS = {
     constants.TEMPORA_PENT15_0: [
         {"label": f"{KDE} na 15 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnienie2019nn15ps/"}
     ],
+    constants.TEMPORA_PENT16_0: [
+        {"label": f"{KDE} na 16 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/16-niedziela-po-zeslaniu"}
+    ],
     constants.TEMPORA_PENT17_0: [
         {"label": f"{KDE} na 17 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn17ps/"}
     ],
@@ -977,6 +1008,9 @@ SUPPLEMENTS = {
     constants.TEMPORA_PENT19_0: [
         {"label": f"{KDE} na 19 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/objasnieniaenn19ps/"}
     ],
+    constants.TEMPORA_PENT20_0: [
+        {"label": f"{KDE} na 20 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/20-niedziela-po-zeslaniu"}
+    ],
     constants.TEMPORA_PENT21_0: [
         {"label": f"{KDE} na 21 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn21ps/"}
     ],
@@ -985,6 +1019,9 @@ SUPPLEMENTS = {
     ],
     constants.TEMPORA_PENT23_0: [
         {"label": f"{KDE} na 23 niedzielę po Zesłaniu Ducha św.", "path": "http://vetusordo.pl/2019oenn23ps/"}
+    ],
+    constants.TEMPORA_PENT24_0: [
+        {"label": f"{KDE} na 24 niedzielę po Zesłaniu Ducha św.", "path": "/pl/supplement/commentary/24-niedziela-po-zeslaniu"}
     ],
     constants.SANCTI_12_08: [
         {"label": f"{KDE} na uroczystość Niepokalanego Poczęcia N. M. P.", "path": "http://vetusordo.pl/oenunmp/"}
@@ -997,6 +1034,12 @@ SUPPLEMENTS = {
     ],
     constants.SANCTI_06_29: [
         {"label": f"{KDE} na uroczystość śś. Apostołów Piotra i Pawła", "path": "http://vetusordo.pl/objasnienia2019enussapip/"}
+    ],
+    constants.SANCTI_08_15: [
+        {"label": f"{KDE} na Wniebowzięcie N. M. P.", "path": "/pl/supplement/commentary/wniebowziecie-nmp"}
+    ],
+    constants.SANCTI_09_08: [
+        {"label": f"{KDE} na Narodzenie N. M. P.", "path": "/pl/supplement/commentary/narodzenie-nmp"}
     ],
     constants.SANCTI_11_01: [
         {"label": f"{KDE} na uroczystość Wszystkich Świętych", "path": "http://vetusordo.pl/2019oenuws/"}

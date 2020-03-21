@@ -9,17 +9,20 @@ and presenting the data. The application utilizes data files from
 
 ## Features 
 
-* Calculates the calendar for given liturgical year
-* Shows Proprium Missae for a given date
+* Calculates the 1962 calendar for given liturgical year
+* Shows Proprium Missae (variable parts of the Mass) for a given date
+* Provides Ordo Missae (fixed parts of the Mass)
+* Exposes calendar in iCal format
+* Shows everything in a slick, responsive UI
 
-At the moment the only supported vernacular language is Polish, but since the data for many other languages
-is available in Divinum Officium, it will be relatively easy to support them. Volunteers are welcome to contribute. 
+At the moment the application supports English and Polish vernacular languages. As the data for many other languages
+is available in Divinum Officium, it is relatively easy to support them. Volunteers are welcome to contribute (see below). 
 
 ## Running the application
 
 ### Prerequisites:
 
-* Python 3.6
+* Python >=3.6
 * [Pipenv](https://pipenv.readthedocs.io/en/latest/)
 
 ### Installation
@@ -47,15 +50,17 @@ and navigate to http://0.0.0.0:5000/.
 
 ## API endpoints:
 
-* `GET /api/v2/calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
-* `GET /api/v2/date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
-* `GET /api/v2/proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; 
-ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24" for Nativity Vigil or "tempora:Adv4-0" for 
-fourth Advent Sunday 
-* `GET /api/v2/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software 
+Supported languages (`{lang}`): `en`, `pl`, `pt`
+
+* `GET {lang}/api/v3/calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
+* `GET {lang}/api/v3/date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
+* `GET {lang}/api/v3/proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; 
+ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24:1:v" for Nativity Vigil or "tempora:Adv4-0:1:v"
+for fourth Advent Sunday 
+* `GET {lang}/api/v3/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software 
 such as Google Calendar. `rank` (optional, default 2) tells feast of which class to include 
 (e.g. rank 3 will include classes 1, 2 and 3).    
-* `GET /static/data/ordo.json` get invariable texts, or ordinary of the Mass    
+* `GET /static/data/{lang}/ordo.json` get invariable texts, or ordinary of the Mass    
 
 ## Docker
 
@@ -90,11 +95,26 @@ Show Proprium Missae for given observance
 *Observance ID can be obtained from calendar's output*
 ```bash
 # Second Sunday of Advent
-$ python missal1962/cli.py proper tempora:Adv2-0
+$ python missal1962/cli.py proper tempora:Adv2-0:1:v
 
 # The Seven Dolors of the Blessed Virgin Mary
-$ python missal1962/cli.py proper sancti:09-15
+$ python missal1962/cli.py proper sancti:09-15:2:w
 ```
+
+## Localization
+
+1. Copy folder `missal1962/constants/en` into `missal1962/constants/<your-lang-ISO-639-1>` and translate the files
+2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `missal1962/constants/common.py`
+3. Generate Babel language files:
+    - Create .po file: `cd Missal1962/missal1962 && pybabel init -i messages.pot -d translations -l <your-lang-ISO-639-1>`
+    - Provide translations in file generated in `missal1962/translations/<your-lang>/LC_MESSAGES/messages.po`
+    - Compile babel files: `pybabel compile -d translations`
+4. Copy folder `missal1962/templates/en` into `missal1962/templates/<your-lang-ISO-639-1>` and translate the files
+5. Copy folder `missal1962/static/data/en` into `missal1962/static/data/<your-lang-ISO-639-1>` and translate the files
+6. Copy folder `missal1962/static/js/en` into `missal1962/static/js/<your-lang-ISO-639-1>` and translate the files
+7. Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter some issues with Divinum Officium source files. In such case correct them in Divinum Officium project and update the submodule. 
+8. Add source files for non-regular Masses, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
+
 
 ## Dev info
 

@@ -2,8 +2,8 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION, INTROIT, OFFERTORIUM, \
-    COMMUNIO
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
+from exceptions import ProperNotFound
 
 
 class ParsedSource:
@@ -87,13 +87,16 @@ class Proper(ParsedSource):
         COMMEMORATED_POSTCOMMUNIO: None,
     }
 
-    def __init__(self, id_: str, parsed_source: ParsedSource = None) -> None:
+    def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
         super(Proper, self).__init__()
         self.id = id_
+        self.lang = lang
         try:
-            self.rank = int(id_.split(':')[-1])
+            _, _, rank, color = id_.split(':')
+            self.rank = int(rank)
         except ValueError:
-            pass
+            raise ProperNotFound(f"Proper {id_} not found")
+        self.colors = list(color)
         if parsed_source is not None:
             self._container = copy(parsed_source._container)
 
@@ -130,10 +133,7 @@ class Proper(ParsedSource):
 
             vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
             if vide:
-                vide = vide[0].split(' ')[-1].split(';')[0]
-                if '/' not in vide:
-                    vide = f'Commune/{vide}'
-                rules['vide'] = vide
+                rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
 
         return rules.get(rule_name)
 

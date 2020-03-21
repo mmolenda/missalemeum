@@ -1,29 +1,31 @@
+import json
 import os
 import re
-from typing import List, Union
+from typing import List, Union, Pattern
 
 import yaml
 
-from constants.common import CUSTOM_PREFACES
-from exceptions import SupplementNotFound
+from constants.common import CUSTOM_PREFACES, STATIC_DATA_DIR
+from exceptions import SupplementNotFound, SectionNotFound
 
 
-def match(observances: List['Observance'], patterns: Union[List[str], str]):
+def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
+          patterns: Union[List[str], str, List[Pattern], Pattern]):
+    if not isinstance(observances, (list, tuple)):
+        observances = [observances]
     if not isinstance(patterns, (list, tuple)):
         patterns = [patterns]
     for observance in observances:
+        observance_id = observance if isinstance(observance, str) else observance.id
         for pattern in patterns:
-            if re.match(pattern, observance.id):
+            if re.match(pattern, observance_id):
                 return observance
 
 
-def infer_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:
+def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:
     for pattern, preface_name in CUSTOM_PREFACES:
-        try:
-            if (re.match(pattern, celebration.id)) or (tempora and celebration.rank > 1 and re.match(pattern, tempora.id)):
-                return preface_name
-        except AttributeError:
-            raise
+        if (re.match(pattern, celebration.id)) or (tempora and celebration.rank > 1 and re.match(pattern, tempora.id)):
+            return preface_name
     return None
 
 
@@ -43,15 +45,36 @@ def format_propers(day: 'Day'):
             "additional_info": propers_vernacular.additional_info,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
+            "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
             "date": day.date.strftime("%Y-%m-%d")
         }
         retvals.append({
             "info": info,
-            "proper_vernacular": propers_vernacular.serialize(),
-            "proper_latin": propers_latin.serialize()
+            "sections": format_proper_sections(propers_vernacular, propers_latin)
         })
     return retvals
+
+
+def format_proper_sections(propers_vernacular, propers_latin):
+    pregenerated_proper = get_pregenerated_proper(propers_vernacular.lang, propers_vernacular.id)
+    if pregenerated_proper is not None:
+        return pregenerated_proper
+    pv = propers_vernacular.serialize()
+    pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
+    for val in pv:
+        try:
+            val["body"] = [[val["body"], pl[val["id"]]]]
+        except KeyError:
+            raise SectionNotFound(f"Section `{val['id']}` not found in latin proper `{propers_latin.id}`.")
+    return pv
+
+
+def get_pregenerated_proper(lang, proper_id):
+    path = os.path.join(STATIC_DATA_DIR, lang, f"{proper_id}.json")
+    if os.path.exists(path):
+        with open(path) as fh:
+            return json.load(fh)
 
 
 def get_supplement(root_path, lang, resource, subdir=None):

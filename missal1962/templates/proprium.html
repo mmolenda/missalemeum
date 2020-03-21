@@ -15,7 +15,7 @@
     <nav id="sidebar">
 
         <div id="sidebar-tools">
-            <input id="search-input" type="search" placeholder="Szukaj..." class="form-control"/>
+            <input id="search-input" type="search" placeholder="{{ _('Search...') }}" class="form-control"/>
             <span id="search-clear">╳</span>
             <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
                 <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
@@ -34,7 +34,7 @@
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1 class="display-8">{% if title %}{{ title }}{% else %}Mszał Rzymski{% endif %}</h1>
+                <h1 class="display-8">{% if title %}{{ title }}{% else %}Missale Meum{% endif %}</h1>
                 {% if propers %}
                     <p>{{ propers[0].info.description }}</p>
                     {% if propers[0].info.supplements %}
@@ -46,80 +46,42 @@
                         </p>
                     {% endif %}
 
-                    {% for vern in propers[0].proper_vernacular %}
+                    {% for section in propers[0].sections %}
                         <div class="row">
                             <div class="col-sm-6 section-vernacular">
-                                <h2>{{ vern.label }}</h2>
-                                <p>{{ vern.body|asterisks2em|newline2br|safe }}</p>
+                                <h2>{{ section.label }}</h2>
                             </div>
                             <div class="col-sm-6 section-latin">
-                                <h2>{{ propers[0].proper_latin[loop.index0].label }}</h2>
-                                <p>{{ propers[0].proper_latin[loop.index0].body|asterisks2em|newline2br|safe }}</p>
+                                <h2>{{ section.id }}</h2>
                             </div>
                         </div>
+                        {% for paragraph in section.body %}
+                            {% if paragraph|length == 2 %}
+                                <div class="row">
+                                    <div class="col-sm-6 section-vernacular">
+                                        <p>{{ paragraph[0]|asterisks2em|newline2br|safe }}</p>
+                                    </div>
+                                    <div class="col-sm-6 section-latin">
+                                        <p>{{ paragraph[1]|asterisks2em|newline2br|safe }}</p>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <p><span class="rubric">{{ paragraph[0] }}</span></p>
+                            {% endif %}
+                        {% endfor %}
                     {% endfor %}
                 {% else %}
-                    <p>Mszał Rzymski z czytaniami wg układu z 1962 r. dla Mszy Trydenckiej.</p>
+                    <p>{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}</p>
                 {% endif %}
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
-        <div id="lang-switch" class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="lang-switch" id="lang-switch-vernacular"> pol
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="lang-switch" id="lang-switch-latin"> łac
-            </label>
-        </div>
+        {% include 'partials/lang_switch.html' %}
     </div>
-    <div id="loader" style="display: none">
-        <img src="/static/img/loader.gif" alt="Loader">
-        <!--https://loading.io/spinner/book/-flip-book-loader-->
-    </div>
+    {% include 'partials/loader.html' %}
 </div>
 
-<!--Templates -->
-<script id="template-sidebar-item" type="text/x-custom-template">
-    <li id="sidebar-item-${date}" class="sidebar-item"><a href="${date}">
-        <div>${celebration}</div>
-        <div class="tempora rubric">${additional_info}</div>
-    </a></li>
-</script>
-<script id="template-sidebar-item-year" type="text/x-custom-template">
-    <li class="sidebar-item">
-        <a href="${date}">
-            <div class="tempora rubric">${year}</div>
-        </a>
-    </li>
-</script>
-<script id="template-content-intro" type="text/x-custom-template">
-    <h1 class="display-8">${title}</h1>
-    <p><em class="rubric">${additional_info}</em></p>
-    <p>${description}</p>
-</script>
-<script id="template-content-supplement-list" type="text/x-custom-template">
-    <p class="supplement">Suplement: </p>
-</script>
-<script id="template-content-supplement-item-internal" type="text/x-custom-template">
-    <a class="dashed" href="${path}?ref=${date}">${label}</a>
-</script>
-<script id="template-content-supplement-item-external" type="text/x-custom-template">
-    <a class="dashed" target="_blank" href="${path}">${label}</a>
-</script>
-<script id="template-content-columns" type="text/x-custom-template">
-    <div class="row">
-        <div class="col-sm-6 section-vernacular">
-            <h2>${labelVernacular}</h2>
-            <p>${sectionVernacular}</p>
-        </div>
-        <div class="col-sm-6 section-latin">
-            <h2>${labelLatin}</h2>
-            <p>${sectionLatin}</p>
-        </div>
-    </div>
-</script>
-{% include 'print.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}

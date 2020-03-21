@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-{% if title %} {{ title }} {% else %} Pieśni {% endif %} |
+    {% if title %} {{ title }} {% else %} {{ _('Songs') }} {% endif %} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -39,18 +39,12 @@
             <div id="loaded-content">
                 <h1 class="display-8">{% if title %} {{ title }} {% else %} Pieśni {% endif %}</h1>
             </div>
-            {% include 'footer.html' %}
+            {% include 'partials/footer.html' %}
         </main>
     </div>
 </div>
 
-<!--Templates -->
-<script id="template-content" type="text/x-custom-template">
-    <h1 class="display-8">${title}</h1>
-    <p><em class="rubric">${additional_info}</em></p>
-    <p>${description}</p>
-</script>
-{% include 'print.html' %}
+{% include 'partials/js_templates.html' %}
 {% endblock %}
 
 {% block scripts %}
