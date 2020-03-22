@@ -680,6 +680,7 @@ TITLES = {
     constants.VOTIVE_HOLYSPIRIT2: 'Missa ad postulandam gratiam Spiritus Sancti',
     constants.VOTIVE_BLESSEDSACRAMENT: 'Missa de sanctissimo Eucharistiae Sacramento',
     constants.VOTIVE_JESUSETERNALPRIEST: 'Missa de D. N. Iesu Christo summo et aeterno Sacerdote',
+    constants.VOTIVE_CROSS: 'Missa de sancta Cruce',
     constants.VOTIVE_PENT01_0: 'Sanctissimæ Trinitatis',
     constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
     constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',

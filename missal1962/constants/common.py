@@ -873,6 +873,7 @@ VOTIVE_HOLYSPIRIT = 'votive:HolySpirit:0:r'
 VOTIVE_HOLYSPIRIT2 = 'votive:HolySpirit2:0:r'
 VOTIVE_BLESSEDSACRAMENT = 'votive:BlessedSacrament:0:w'
 VOTIVE_JESUSETERNALPRIEST = 'votive:JesusEternalPriest:0:w'
+VOTIVE_CROSS = 'votive:Cross:0:r'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
