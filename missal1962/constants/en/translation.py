@@ -773,6 +773,8 @@ PATERNOSTER = \
 TRANSFORMATIONS = (
     (re.compile(r'\+\+'), '☩'),
     (re.compile(r'\+'), '☩'),
+    (re.compile(r'V\.'), '℣.'),
+    (re.compile(r'R\.'), '℟.'),
     (re.compile(r'^#'), '##'),
     (re.compile(r'^!x!'), '!'),
     (re.compile(r'^!! *(.*)'), '### \\1'),

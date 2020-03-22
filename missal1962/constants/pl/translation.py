@@ -681,6 +681,7 @@ TITLES = {
     constants.VOTIVE_BLESSEDSACRAMENT: 'Msza o Najświętszym Sakramencie',
     constants.VOTIVE_JESUSETERNALPRIEST: 'Msza o Chrystusie, Najwyższym i Wiecznym Kapłanie',
     constants.VOTIVE_CROSS: 'Msza o Krzyżu Świętym',
+    constants.VOTIVE_PASSION: 'Msza o Męce Pańskiej',
     constants.VOTIVE_PENT01_0: 'Msza o Trójcy Przenajświętszej',
     constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
@@ -720,6 +721,8 @@ VOTIVE_MASSES = [
     {'ref': 'aeterno-sacerdote', 'id': constants.VOTIVE_JESUSETERNALPRIEST, 'title': TITLES[constants.VOTIVE_JESUSETERNALPRIEST],
      'tags': ['Wotywna', 'Czwartek']},
     {'ref': 'sancta-cruce', 'id': constants.VOTIVE_CROSS, 'title': TITLES[constants.VOTIVE_CROSS],
+     'tags': ['Wotywna', 'Piątek']},
+    {'ref': 'passio', 'id': constants.VOTIVE_PASSION, 'title': TITLES[constants.VOTIVE_PASSION],
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
      'tags': ['Wotywna', 'Piątek']},
@@ -819,6 +822,9 @@ PATERNOSTER = \
 
 TRANSFORMATIONS = (
     (re.compile(r'\+\+'), '☩'),
+    (re.compile(r'\+'), '☩'),
+    (re.compile(r'V\.'), '℣.'),
+    (re.compile(r'R\.'), '℟.'),
     (re.compile(r'\+'), '☩'),
     (re.compile(r'^#'), '##'),
     (re.compile(r'^!x!'), '!'),
