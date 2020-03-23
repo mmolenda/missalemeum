@@ -851,7 +851,7 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui tecum\.*'), 'Który z Tobą…'),
     (re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz…'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
-    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. Pan z wami.    \n\rR. I z duchem twoim.'),
+    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Pan z wami.    \n\r℟. I z duchem twoim.'),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
     (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),

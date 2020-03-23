@@ -800,7 +800,7 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui tecum\.*'), 'Who livest and reignest with God the Father…'),
     (re.compile(r'^\$Qui vivis\.*'), 'Who livest…'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Thanks be to God.'),
-    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. The Lord be with you. \n\rR. And with thy spirit.'),
+    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. The Lord be with you. \n\r℟. And with thy spirit.'),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
     (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),

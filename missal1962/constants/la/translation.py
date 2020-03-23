@@ -803,7 +803,7 @@ TRANSFORMATIONS = (
         (re.compile(r'^\$Qui tecum\.*'), 'Qui tecum…'),
         (re.compile(r'^\$Qui vivis\.*'), 'Qui vivis…'),
         (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Deo gratias.'),
-        (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), 'V. Dóminus vobíscum.    \n\rR. Et cum spíritu tuo.'),
+        (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Dóminus vobíscum.    \n\r℟. Et cum spíritu tuo.'),
         (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
         (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
         (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
