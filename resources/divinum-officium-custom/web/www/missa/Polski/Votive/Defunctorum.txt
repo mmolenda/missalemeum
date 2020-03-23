@@ -1,0 +1,81 @@
+[Name]
+Missa Defunctorum Quotidianis
+
+[Rule]
+no Gloria
+no Credo
+Prefatio=Defunctorum
+Sequentia
+Requiem gloria
+
+[Comment]
+# Msza Codzienna za Zmarłych
+! Szaty czarne
+
+[Introitus]
+!4 Ezd 2:34; 2:35
+v. Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci.
+!Ps 64:2-3
+Ciebie. Boże, przystoi wielbić hymnem na Syjonie; Tobie dopełnią ślubów w Jeruzalem;~
+wysłuchaj mojej modlitwy: do Ciebie przyjdzie każdy człowiek.
+v. Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci.
+
+[Oratio]
+@Sancti/11-02m2:Oratio
+
+! Kolektę, sekretę i pokomunię wybiera się z modlitw za zmarłych stosownie do osoby zmarłego. Jeżeli nie określono osoby zmarłego odmawia się modlitwy ze Mszy za wszystkich wiernych zmarłych.
+
+[Lectio]
+Czytanie z Księgi Apokalipsy świętego Jana Apostoła.
+!Ap 14:13
+W one dni: Usłyszałem głos z nieba mówiący do mnie: Napisz, błogosławieni umarli, którzy~
+umierają w Panu. Odtąd już, mówi Duch, niech odpoczywają od prac swoich, albowiem uczynki ich idą za nimi.
+
+[Graduale]
+!4 Ezd 2:34 et 35.
+Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci.
+!Ps 111:7.
+V. W wiecznej pamięci będzie sprawiedliwy: nie będzie się lękał smutnej nowiny.
+_
+!Tractus.
+Uwolnij, Panie, dusze wszystkich wiernych zmarłych od wszelkich więzów grzechowych.
+V. A przy pomocy Twojej łaski niechaj unikną strasznego wyroku zatracenia.
+V. I niech zażywają szczęścia wiecznej światłości.
+
+[Sequentia]
+@Commune/C9:Sequentia
+
+[Evangelium]
+Czytanie Ewangelii świętej według św. Jana
+!J 6:51-55
+Onego czasu: Rzekł Jezus rzeszom żydowskim: «Jam jest chleb żywy, który~
+z nieba zstąpił; jeśliby kto pożywał tego chleba, żyć będzie na wieki,~
+a chlebem, który ja mu dam jest ciało moje na życie świata». Sprzeczali~
+się tedy żydzi między sobą, mówiąc: «Jakże może On nam dać ciało swoje~
+na pokarm?» Rzekł im przeto Jezus: «Zaprawdę, zaprawdę powiadam wam:~
+Jeślibyście nie pożywali ciała Syna Człowieczego i nie pili krwi Jego,~
+nie będziecie mieć życia w sobie. Kto pożywa ciało moje, i pije moją~
+krew, ma życie wieczne, a ja go wskrzeszę w dniu ostatecznym».
+
+[Offertorium]
+Panie Jezu Chryste, Królu chwały, zachowaj dusze wszystkich wiernych~
+zmarłych od kar piekielnych i głębokiej czeluści. Wybaw je z lwiej~
+paszczęki; niech ich nie pochłonie piekło, niech nie wpadają w ciemności.~
+Lecz chorąży św. Michał niech je stawi w światłości świętej:
+Którą niegdyś obiecałeś Abrahamowi i jego potomstwu.
+V. Niesiemy Ci, Panie, ofiary i modły pochwalne, a Ty je przyjmij za~
+te dusze, które dzisiaj wspominamy. Spraw, o Panie, niech przejdą ze śmierci do życia.
+Które niegdyś obiecałeś Abrahamowi i jego potomstwu.
+
+[Secreta]
+@Sancti/11-02m2:Secreta
+
+[Communio]
+!4 Ezd 2:35; 2:34
+Światłość wiekuista niechaj im świeci, o Panie:
+Wśród Świętych Twoich na wieki, bo jesteś pełen dobroci.
+V. Wieczny odpoczynek racz im dać, Panie, a światłość wiekuista niechaj im świeci.
+Wśród Świętych Twoich na wieki, bo jesteś pełen dobroci.
+
+[Postcommunio]
+@Sancti/11-02m2:Postcommunio

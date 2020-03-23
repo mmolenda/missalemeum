@@ -685,6 +685,7 @@ TITLES = {
     constants.VOTIVE_PENT01_0: 'Msza o Trójcy Przenajświętszej',
     constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
+    constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych'
 }
 
 VOTIVE_MASSES = [
@@ -728,6 +729,8 @@ VOTIVE_MASSES = [
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
      'tags': ['Wotywna', 'Pierwsza sobota']},
+    {'ref': 'defunctorum', 'id': constants.VOTIVE_DEFUNCTORUM, 'title': TITLES[constants.VOTIVE_DEFUNCTORUM],
+     'tags': []}
 ]
 
 SECTION_LABELS = {
