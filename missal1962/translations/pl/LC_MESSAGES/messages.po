@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 12:09+0100\n"
+"POT-Creation-Date: 2020-03-23 13:04+0100\n"
 "PO-Revision-Date: 2020-03-03 16:28+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -37,6 +37,14 @@ msgstr ""
 "1962 r. dla Mszy św. w nadzwyczajnej formie rytu rzymskiego (Msza "
 "Trydencka, NFRR)."
 
+#: templates/base.html:66
+msgid "New"
+msgstr "Nowość"
+
+#: templates/base.html:66 templates/votive.html:4 templates/votive.html:40
+msgid "Votive"
+msgstr "Msze&nbsp;Wotywne"
+
 #: templates/base.html:70 templates/canticum.html:4
 msgid "Songs"
 msgstr "Pieśni"
@@ -60,10 +68,6 @@ msgstr "Szukaj..."
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
 msgstr "Powrót"
-
-#: templates/votive.html:4 templates/votive.html:40
-msgid "Votive"
-msgstr "Wotywne"
 
 #: templates/partials/js_templates.html:24
 msgid "Proper"
