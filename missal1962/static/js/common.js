@@ -135,6 +135,7 @@ function printContent(template, content) {
 }
 
 function markSidebarItemActive(resourceId) {
+    resourceId = resourceId.replace("/", "-");
     $sidebar.find("li.sidebar-item").removeClass("active");
     let newActive = $("li#sidebar-item-" + resourceId);
 

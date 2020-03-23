@@ -11,6 +11,7 @@ import sys
 import logging
 import re
 from flask import render_template, Blueprint, request, send_from_directory, redirect, render_template_string
+from flask_babel import _
 from jinja2 import TemplateNotFound
 
 import controller
@@ -83,44 +84,71 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
     return render_template("ordo.html", data=data, lang=lang)
 
 
-class CanticumIndex:
+class SupplementIndex:
+    CANTICUM = "canticum"
+    ORATIO = "oratio"
     index = defaultdict(list)
 
-    def get(self, lang):
-        if lang not in self.index:
+    def get_canticum_index(self, lang):
+        return self._get_index(lang, self.CANTICUM)
+
+    def get_canticum_title(self, lang, proper_id):
+        return self._get_title(lang, self.CANTICUM, proper_id)
+
+    def get_oratio_index(self, lang):
+        return self._get_index(lang, self.ORATIO)
+
+    def get_oratio_title(self, lang, proper_id):
+        return self._get_title(lang, self.ORATIO, proper_id)
+
+    def _get_index(self, lang, subdir):
+        key = f"{lang}-{subdir}"
+        if key not in self.index:
             try:
-                filenames = os.listdir(os.path.join(views.root_path, "supplement", lang, "canticum"))
+                filenames = os.listdir(os.path.join(views.root_path, "supplement", lang, subdir))
             except FileNotFoundError:
                 raise SupplementNotFound
             else:
                 for filename in sorted(filenames):
-                    resource_id = filename.rsplit('.', 1)[0]
-                    index_item = get_supplement(views.root_path, lang, resource_id, "canticum")
-                    self.index[lang].append(
-                        {"title": index_item["title"],
-                         "ref": resource_id,
-                         "tags": index_item["tags"]
-                         })
-        return self.index[lang]
+                    if filename.endswith(".yaml"):
+                        resource_id = filename.rsplit('.', 1)[0]
+                        index_item = get_supplement(views.root_path, lang, resource_id, subdir)
+                        self.index[key].append(
+                            {"title": index_item["title"],
+                             "ref": f"{subdir}/{resource_id}",
+                             "tags": index_item["tags"]
+                             })
+        return self.index[key]
+
+    def _get_title(self, lang, subdir, proper_id):
+        for i in self._get_index(lang, subdir):
+            if proper_id is not None and i["ref"].endswith(proper_id):
+                return i["title"]
 
 
-canticum_index = CanticumIndex()
+supplement_index = SupplementIndex()
 
 
 @views.route("/canticum")
-@views.route("/canticum/<string:canticum_id>")
+@views.route("/canticum/<string:proper_id>")
 @views.route("/<string:lang>/canticum")
-@views.route("/<string:lang>/canticum/<string:canticum_id>")
+@views.route("/<string:lang>/canticum/<string:proper_id>")
 @infer_locale
-def canticum(lang: str = LANGUAGE_ENGLISH, canticum_id: str = None):
-    index = canticum_index.get(lang)
-    title = None
-    if canticum_id is not None:
-        for i in index:
-            if i["ref"] == canticum_id:
-                title = i["title"]
-                break
-    return render_template("canticum.html", title=title, index=index, lang=lang)
+def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
+    index = supplement_index.get_canticum_index(lang)
+    title = supplement_index.get_canticum_title(lang, proper_id) or _("Songs")
+    return render_template("supplement_nested.html", title=title, index=index, lang=lang)
+
+
+@views.route("/oratio")
+@views.route("/oratio/<string:proper_id>")
+@views.route("/<string:lang>/oratio")
+@views.route("/<string:lang>/oratio/<string:proper_id>")
+@infer_locale
+def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
+    index = supplement_index.get_oratio_index(lang)
+    title = supplement_index.get_oratio_title(lang, proper_id) or _("Prayers")
+    return render_template("supplement_nested.html", title=title, index=index, lang=lang)
 
 
 @views.route("/votive")

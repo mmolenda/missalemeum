@@ -1,16 +1,6 @@
 
 
 $window.on("load", function () {
-
-
-    /**
-     *
-     * Globals
-     *
-    **/
-
-    let urlPart = "canticum";
-
     /**
      *
      * Functions
@@ -30,12 +20,16 @@ $window.on("load", function () {
 
     function getResourceId() {
         if (selectedResource === undefined) {
-            let splitUrl = window.location.href.split("/").reverse();
-            if (splitUrl[0] !== urlPart) {
-                selectedResource = splitUrl[0];
-            }
+            return extractResourceId(window.location.href);
         }
         return selectedResource;
+    }
+
+    function extractResourceId(url) {
+        let splitUrl = url.split("/").reverse();
+        if (splitUrl.length > 5) {
+            return splitUrl[1] + "/" + splitUrl[0];
+        }
     }
 
     /**
@@ -48,7 +42,7 @@ $window.on("load", function () {
         }
         loader.show();
         let title;
-        $.getJSON(config.canticumEndpoint + resourceId, function(data) {
+        $.getJSON(config.supplementEndpoint + resourceId, function(data) {
             $loadedContent.empty();
             window.scrollTo(0, 0);
             title = data.title;
@@ -60,9 +54,9 @@ $window.on("load", function () {
         }).done(function() {
             loadedResource = resourceId;
             if (historyReplace === true) {
-                window.history.replaceState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
+                window.history.replaceState({resourceId: resourceId}, '', '/' + config.lang + '/' + resourceId);
             } else {
-                window.history.pushState({resourceId: resourceId}, '', '/' + config.lang + '/' + urlPart + '/' + resourceId);
+                window.history.pushState({resourceId: resourceId}, '', '/' + config.lang + '/' + resourceId);
             }
             document.title = title + " | " + "Missale Meum";
             markSidebarItemActive(resourceId);
@@ -84,12 +78,12 @@ $window.on("load", function () {
 
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
-        setResourceId(event.currentTarget.href.split("/").pop());
+        setResourceId(extractResourceId(event.currentTarget.href));
         loadContent(getResourceId());
     });
 
     window.onpopstate = function(event){
-        setResourceId(event.target.location.href.split("/").reverse()[0]);
+        setResourceId(extractResourceId(event.target.location.href));
         loadContent(getResourceId(), true);
     };
 

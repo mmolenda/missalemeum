@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-    {% if title %} {{ title }} {% else %} {{ _('Songs') }} {% endif %} |
+    {{ title }} |
 {% endblock %}
 
 {% block left_menu_button  %}
@@ -19,7 +19,7 @@
         </div>
         <ul class="list-unstyled with-sidebar-tools">
             {% for item in index %}
-            <li id="sidebar-item-{{ item['ref'] }}" class="sidebar-item"><a href="{{ item['ref'] }}">
+            <li id="sidebar-item-{{ item['ref'].replace('/', '-') }}" class="sidebar-item"><a href="{{ item['ref'] }}">
                 <div>{{ item['title'] }}</div>
                 <div class="tempora rubric">
                     {% for tag in item['tags'] %}
@@ -37,7 +37,7 @@
         </div>
         <main class="col-md-9">
             <div id="loaded-content">
-                <h1 class="display-8">{% if title %} {{ title }} {% else %} Pieśni {% endif %}</h1>
+                <h1 class="display-8">{{ title }}</h1>
             </div>
             {% include 'partials/footer.html' %}
         </main>
@@ -50,5 +50,5 @@
 {% block scripts %}
 <script src="/static/js/common.js"></script>
 <script src="/static/js/{{ lang }}/conf.js"></script>
-<script src="/static/js/canticum.js"></script>
+<script src="/static/js/supplement.js"></script>
 {% endblock %}

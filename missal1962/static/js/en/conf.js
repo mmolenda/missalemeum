@@ -6,6 +6,7 @@ let config = {
     calendarEndpoint: "/en/api/v3/calendar/",
     dateEndpoint: "/en/api/v3/date/",
     properEndpoint: "/en/api/v3/proper/",
+    supplementEndpoint: "/en/api/v3/supplement/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
     saturday: 6,
@@ -15,6 +16,6 @@ let config = {
         class2: "2nd class",
         class3: "3rd class",
         class4: "4th class",
-        cannotLoadMessage: "Cannot load the data. It's likely a result of domain change into missalemeum.com. Try to clear your browser's data."
+        cannotLoadMessage: "Cannot load the data. Try to clear your browser's data."
     }
 }
