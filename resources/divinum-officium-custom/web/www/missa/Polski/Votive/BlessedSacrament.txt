@@ -1,0 +1,45 @@
+[Name]
+Missa de sanctissimo Eucharistiae Sacramento
+
+[Comment]
+# Msza o Najświętszym Sakramencie
+! Wotywna
+! Czwartek
+
+[Introitus]
+!Ps 80:17
+v. Nakarmił ich pszenicą przewyborną. A z opoki miodem nasycił ich.
+!Ps 80:2
+Śpiewajcie z radością Bogu, mocy naszej, wznoście okrzyki Bogu Jakuba.
+&Gloria
+v. Nakarmił ich pszenicą przewyborną. A z opoki miodem nasycił ich.
+
+[Oratio]
+@Tempora/Pent01-4:Oratio
+
+[Lectio]
+@Tempora/Pent01-4:Lectio
+
+[Graduale]
+@Tempora/Pent01-4:Graduale
+
+[Evangelium]
+@Tempora/Pent01-4:Evangelium
+
+[Offertorium]
+!Kpł 21:6
+Kapłani Pańscy kadzenie i chleb składają Bogu w ofierze, przeto świętymi~
+być powinni wobec Boga swego, by nie zhańbili Jego Imienia.
+
+[Secreta]
+@Tempora/Pent01-4:Secreta
+
+[Communio]
+!1 Kor 11:26-27
+Ilekroć ten chleb pożywać, a kielich pić będziecie, śmierć Pańską będziecie~
+zwiastować, aż przybędzie. Tak więc ktokolwiek by pożywał ten chleb albo pił~
+kielich Pański niegodnie, winien będzie ciała i krwi Pańskiej.
+
+[Postcommunio]
+@Tempora/Pent01-4:Postcommunio
+

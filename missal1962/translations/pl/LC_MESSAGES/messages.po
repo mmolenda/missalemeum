@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 12:09+0100\n"
+"POT-Creation-Date: 2020-03-23 22:08+0100\n"
 "PO-Revision-Date: 2020-03-03 16:28+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -18,6 +18,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: templates/base.html:70 views.py:138
+msgid "Songs"
+msgstr "Pieśni"
+
+#: templates/base.html:73 views.py:149
+msgid "Prayers"
+msgstr "Modlitwy"
 
 #: templates/404.html:12
 msgid "Page not found"
@@ -37,15 +45,19 @@ msgstr ""
 "1962 r. dla Mszy św. w nadzwyczajnej formie rytu rzymskiego (Msza "
 "Trydencka, NFRR)."
 
-#: templates/base.html:70 templates/canticum.html:4
-msgid "Songs"
-msgstr "Pieśni"
+#: templates/base.html:66 templates/votive.html:4 templates/votive.html:40
+msgid "Votive"
+msgstr "Msze&nbsp;Wotywne"
 
-#: templates/base.html:74
+#: templates/base.html:66 templates/base.html:73
+msgid "New"
+msgstr "Nowość"
+
+#: templates/base.html:77
 msgid "Supplement"
 msgstr "Suplement"
 
-#: templates/base.html:77
+#: templates/base.html:80
 msgid "About"
 msgstr "Informacje"
 
@@ -54,16 +66,12 @@ msgid "Order of Mass"
 msgstr "Części stałe Mszy św."
 
 #: templates/proprium.html:18
-msgid "Search..."
-msgstr "Szukaj..."
+msgid "Search…"
+msgstr "Szukaj…"
 
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
 msgstr "Powrót"
-
-#: templates/votive.html:4 templates/votive.html:40
-msgid "Votive"
-msgstr "Wotywne"
 
 #: templates/partials/js_templates.html:24
 msgid "Proper"

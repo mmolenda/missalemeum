@@ -1,11 +1,21 @@
+[Name]
+Immaculati Cordis Beatæ Mariæ Virginis
+
 [Rule]
 Prefatio=Maria=Festivitate;
 
 [Comment]
 # Msza o Niepokalanym Sercu N. M. P.
-Zachowane od zepsucia i wzięte do nieba cielesne serce Matki Bożej jest symbolem Jej życia wewnętrznego oraz macierzyńskich uczuć dla odkupionej ludzkości. Maryja, wolna od skłonności do grzechu, zawsze była doskonale uległa Duchowi Świętemu (kolekta, graduał, sekreta); dlatego spełniły się na Niej słowa Zbawiciela : «Błogosławieni czystego serca, albowiem oni Boga oglądać będą». Z doskonałej miłości Boga wypływa miłość ku ludziom, przez Boga stworzonym i odkupionym. Niepokalane Serce Maryi to serce Matki. Dlatego z ufnością zbliżamy się do Niej (antyfona na wejście) i słuchamy Jej pouczeń.
 ! Wotywna
 ! Pierwsza sobota
+Zachowane od zepsucia i wzięte do nieba cielesne serce Matki Bożej jest~
+symbolem Jej życia wewnętrznego oraz macierzyńskich uczuć dla odkupionej~
+ludzkości. Maryja, wolna od skłonności do grzechu, zawsze była doskonale~
+uległa Duchowi Świętemu (kolekta, graduał, sekreta); dlatego spełniły się~
+na Niej słowa Zbawiciela : «Błogosławieni czystego serca, albowiem oni Boga~
+oglądać będą». Z doskonałej miłości Boga wypływa miłość ku ludziom, przez~
+Boga stworzonym i odkupionym. Niepokalane Serce Maryi to serce Matki.~
+Dlatego z ufnością zbliżamy się do Niej (antyfona na wejście) i słuchamy Jej pouczeń.
 
 [Introitus]
 @Sancti/08-22r:Introitus

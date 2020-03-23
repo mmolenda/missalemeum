@@ -1,0 +1,97 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
+[Comment]
+# Msza o Chrystusie, Najwyższym i Wiecznym Kapłanie
+! Wotywna
+! Czwartek
+
+[Introitus]
+!Ps 109:4
+Pan przysiągł i nie pożałuje: Tyś kapłanem na wieki na wzór Melchizedeka. (O. W. Alleluja, alleluja.)
+!Ps 109:1
+Rzekł Pan do Pana mego: Siądź po prawicy mojej.
+$Gloria
+Pan przysiągł i nie pożałuje: Tyś kapłanem na wieki na wzór Melchizedeka. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+Boże, Tyś dla chwały majestatu Twego i dla zbawienia rodzaju ludzkiego ustanowił~
+Jednorodzonego Syna Twego najwyższym i wiecznym kapłanem; spraw, aby ci, których~
+On wybrał jako sługi i szafarzy swoich tajemnic, byli wierni wykonywaniu powierzonego im urzędu.
+$Per eundem
+
+[Lectio]
+Czytanie z Listu świętego Pawła Apostoła do Hebrajczyków.
+!Hbr 5:11-1
+Bracia: Każdy arcykapłan, spośród ludzi wzięty, dla ludzi jest postanowiony~
+w tym, co do Boga należy, aby składał dary i ofiary za grzechy. Aby też~
+mógł współczuć z tymi, którzy są w nieświadomości i błędzie, ponieważ~
+i on sam poddany jest słabości. I dlatego tak za lud, jak i za siebie~
+winien składać ofiary za grzechy. A nikt niechaj się nie waży brać~
+tej godności, chyba że jest powołany przez Boga jak Aaron. Toteż i~
+Chrystus nie sam siebie wywyższył, aby stać się najwyższym kapłanem,~
+ale (wywyższył Go) Ten, który do Niego powiedział: Tyś Synem moim,~
+jam dziś zrodził Ciebie. Jako też na innym miejscu mówi: Tyś jest~
+kapłanem na wieki według porządku Melchizedeka.~
+On też za życia swego w ciele słał modlitwy i błagania z wołaniem wielkim~
+i łzami do Tego, który mocen był wybawić Go od śmierci: i został wysłuchany~
+dla swej uległości. I chociaż był Synem Bożym, z tego, co wycierpiał, wyuczył~
+się posłuszeństwa. A wytrwawszy do końca, dla wszystkich, którzy Mu są~
+posłuszni, stał się przyczyną zbawienia wiecznego. Arcykapłanem według~
+porządku Melchizedeka nazwany też był przez Boga.~
+Mielibyśmy wiele o tym do powiedzenia, ale niełatwo to wyjaśnić wam.
+
+[Graduale]
+! Łk 4:18
+Duch Pański nade mną, dlatego mnie namaścił.
+V. Abym głosił Ewangelię ubogim posłał mnie, abym uzdrowił skruszonych w sercu. Alleluja, alleluja.
+! Hbr 7:24
+V. Ale Jezus, dlatego że pozostaje na wieki, wieczne ma kapłaństwo. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+! Hbr 7:24
+Alleluja, alleluja.
+V. Ale Jezus dlatego że pozostaje na wieki, wieczne ma kapłaństwo. Alleluja.
+! Łk 4:18
+V. Duch Pański nade mną, dlatego mnie namaścił, abym głosił Ewangelię ubogim, posłał mnie, abym uzdrowił skruszonych w sercu. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 9:34-36
+Powstań, o Panie, wznieś Twą rękę, Boże: nie zapominaj o biednych!
+V. A Ty to widzisz: na trud i ból Ty baczysz.
+V. Tobie się biedny poleca, sierocie Tyś pomocnikiem.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secundum Lucam
+!Łk 22:14-20
+Onego czasu: Jezus zajął miejsce przy stole i dwunastu Apostołów z Nim.~
+I rzekł im: «Gorąco pragnąłem pożywać tę Paschę z wami, zanim cierpieć~
+będę. Albowiem powiadam wam, że odtąd nie będę jej pożywał, aż się wypełni~
+w Królestwie Bożym». I wziąwszy kielich, dzięki czynił i mówił: «Weźmijcie,~
+a podzielcie między siebie. Mówię wam bowiem, że nie będę pił z owocu~
+szczepu winnego, dopóki nie nadejdzie Królestwo Boże». A wziąwszy chleb,~
+dzięki czynił i łamał, i dał im mówiąc: «To jest ciało moje, które za was~
+jest wydane, to czyńcie na moją pamiątkę». Podobnie i kielich, po wieczerzy,~
+mówiąc: «Ten jest kielich, Nowy Testament we Krwi mojej, która za was przelana będzie».
+
+[Offertorium]
+! Hbr 10:12, 10:14
+Chrystus złożywszy jedną ofiarę za grzechy, zasiadł na wieki na prawicy Bożej:~
+albowiem jedną ofiarą poświęconych doskonałymi uczynił na wieki. (O. W.Alleluja.)
+
+[Secreta]
+Panie, niechaj nasz pośrednik Jezus Chrystus uczyni te dary miłymi Tobie; i niech~
+nas zjednoczonych ze sobą przedstawi Tobie jako przyjemną ofiarę:
+$Qui tecum
+
+[Communio]
+! 1 Kor 11:24-25
+To jest Ciało, które za was będzie wydane: Ten kielich jest Nowym Testamentem we Krwi~
+mojej, mówi Pan: To czyńcie, ilekroć weźmiecie, napamiątkę moją. (O. W. Alleluja.)
+
+[Postcommunio]
+Prosimy Cię, Panie, niech nas ożywi Boska Hostia przez nas złożona i przyjęta, abyśmy~
+zjednoczeni z Tobą w wiecznej miłości przynosili owoc, który trwa na wieki.
+$Per Dominum

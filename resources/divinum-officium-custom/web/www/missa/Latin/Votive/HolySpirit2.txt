@@ -1,0 +1,25 @@
+[Name]
+Missa ad postulandam gratiam Spiritus Sancti
+
+[Rank]
+vide Votive/HolySpirit
+
+[Rule]
+Prefatio=Spiritu;
+
+[Oratio]
+Deus, cui omne cor patet, et omnis voluntas loquitur, et quem nullum~
+latet secretum: purifica per infusionem Sancti Spiritus cogitationes~
+cordis nostri; ut te perfecte diligere et digne laudare mereamur,
+$Per Dominum eiusdem
+
+[Secreta]
+Haec oblatio, quaesumus, Domine, cordis nostri maculas emundet: ut~
+Sancti Spiritus digna efficiatur habitatio.
+$Per Dominum eiusdem
+
+[Postcommunio]
+Concede, quaesumus, omnipotens Deus, Sanctum nos Spiritum votis promereri
+sedulis: quatenus, eius gratia, et ab omnibus liberemur tentationibus, et~
+peccatorum nostrorum indulgentiam percipere mereamur.
+$Per Dominum eiusdem

@@ -1,0 +1,49 @@
+[Name]
+Missa de omnibus Ss. Apostolis Tempore paschali
+
+[Rule]
+Prefatio=Apostolis
+
+[Comment]
+# Msza o wszystkich śś. Apostołach
+! Wotywna
+! Środa
+! W Okresie Wielkanocnym
+
+[Introitus]
+@Commune/C2p:Introitus
+
+[Oratio]
+Boże, któryś raczył doprowadzić nas do poznania Twojego imienia przez~
+świętych Apostołów Twoich, spraw, abyśmy postępując w~
+cnocie czcili ich wieczną chwałę, a czcząc ją czynili większe postępy.
+$Per Dominum
+
+[Lectio]
+@Sancti/10-28:Lectio
+
+[Graduale]
+Alleluja, alleluja.
+!Ps 88:6
+v. Niebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.
+! J 15:16
+V. Ja was wybrałem ze świata, abyście poszli i owoc przynieśli, i żeby owoc wasz trwał. Alleluja.
+
+[Evangelium]
+@Sancti/10-28:Evangelium
+
+[Offertorium]
+!Ps 44:17-18
+Ustanowisz ich książętami po całej ziemi, przez wszystkie pokolejnia głosić będą Twe imię, o Panie, alleluja, alleluja.
+
+[Secreta]
+Czcząc wieczną chwałę świętych Apostołów Twoich, prosimy Cię, Panie, abyśmy oczyszczeni przez święte misteria, godniej ją święcili.
+$Per Dominum
+
+[Communio]
+!Ps 18:5
+Na całą ziemię ich głos się rozchodzi i aż po krańce świata ich mowy, alleluja, alleluja.
+
+[Postcommunio]
+Po przyjęciu Sakramentu, błagamy Cię, Panie, za przyczyną świętych Apostołów Twoich, aby ofiara złożona ku uczczeniu ich męki przyniosła nam uzdrowienie.
+$Per Dominum

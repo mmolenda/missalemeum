@@ -1,0 +1,94 @@
+[Name]
+Missa de Passione Domini
+
+[Rule]
+Prefatio=Quad5
+
+[Introitus]
+!Phil 2:8-9
+Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem, mortem autem crucis:~
+propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen. (T.P. Allelúia, allelúia.)
+!Ps 88:2
+Misericórdias Dómini in ætérnum cantábo: in generatiónem et generatiónem.
+$Gloria
+Humiliávit semetípsum Dóminus Jesus Christus usque ad mortem, mortem autem crucis:~
+propter quod et Deus exaltávit illum, et donávit illi nomen, quod est super omne nomen. (T.P. Allelúia, allelúia.)
+
+[Oratio]
+Dómine Jesu Christe, qui de cœlis ad terram de sinu Patris descendísti, et sánguinem~
+tuum pretiosum in remissiónem peccatórum nostrórum fudísti: te humíliter deprecámur;~
+ut in die judícii, ad déxteram tuam audíre mereámur: Veníte benedícti:
+Qui cum eódem
+
+[Lectio]
+Lectio Zachariae Prophetae.
+!Zach 12:10-12; 13:6-7
+Hæc dicit Dóminus: Effúndam super domum David et super habitatóres Jerúsalem~
+spíritum grátiæ et precum: et aspícient ad me, quem confixérunt: et plangent~
+cum planctu quasi super unigénitum, et dolébunt super eum, ut doléri solet in~
+morte primogéniti. In die illa magnus erit planctus in Jerúsalem, et dicétur:~
+Quid sunt plagæ istæ in médio mánuum tuárum? Et dicet: His plagátus sum in~
+domo eórum, qui diligébant me. Frámea, suscitáre super pastórem meum, et super~
+virum cohæréntem mihi, dicit Dóminus exercítuum: percúte pastórem, et~
+dispergéntur oves:ait Dóminus omnípotens.
+
+[Graduale]
+!Ps 68:21-22
+Impropérium exspectávit cor meum, et misériam: et sustínui, qui simul mecum~
+contristarétur, et non fuit: consolántem me quæsívi, et non invéni.
+V. Dedérunt in escam meam fel, et in siti mea potavérunt me acéto. Allelúia, allelúia.
+V. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obœdiens, ductus es~
+ad crucifigéndum, ut agnus mansuétus ad occisiónem. Alleluia.
+
+[GradualeP]
+! Tempore paschali
+Allelúia, allelúia.
+V. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obœdiens, ductus~
+es ad crucifigéndum, ut agnus mansuétus ad occisiónem. Allelúia.
+V. Tibi glória, hosánna: tibi triúmphus et victória: tibi summæ~
+laudis et honóris coróna. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+! Isa 53:4-5
+Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.
+V. Et nos putávimus eum quasi leprósum, et percússum a Deo, et humiliátum.
+V. Ipse autem vulnerátus est propter iniquitátes nostras, attrítus est propter scélera nostra.
+V. Disciplína pacis nostræ super eum: et livóre ejus sanáti sumus.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Joánnem.
+!Joann 19:28-35
+In illo témpore: Sciens Jesus quia ómnia consummáta sunt, ut consummarétur~
+Scriptúra, dixit: Sitio. Vas ergo erat pósitum acéto plenum. Illi autem~
+spóngiam plenam acéto, hyssópo circumponéntes, obtulérunt ori ejus. Cum ergo~
+accepísset Jesus acétum, dixit: Consummátum est. Et inclináto cápite trádidit~
+spíritum. Judǽi ergo, quóniam Parascéve erat, ut non remanérent in cruce~
+córpora sábbato, erat enim magnus dies ille sábbati, rogavérunt Pilátum, ut~
+frangeréntur eórum crura, et tolleréntur. Venérunt ergo mílites: et primi~
+quidem fregérunt crura, et altérius, qui crucifíxus est cum eo. Ad Jesum autem~
+cum veníssent, ut vidérunt eum iam mórtuum, non fregérunt ejus crura, sed unus~
+mílitum láncea latus ejus apéruit, et contínuo exívit sanguis, et aqua. Et qui~
+vidit, testimónium perhíbuit: et verum est testimónium ejus.
+
+[Offertorium]
+Insurrexérunt in me viri iníqui: absque misericórdia quæsiérunt me interfícere:~
+et non pepercérunt in faciem meam spuére: lánceis suis vulneravérunt me, et~
+concússa sunt ómnia ossa mea. (T. P. Alleluia.)
+
+[Secreta]
+Oblátum tibi, Dómine, sacrifícium, intercedénte unigéniti Fílii tui Passióne,~
+vivíficet nos semper et múniat: Qui tecum vivit et regnat in unitate Spíritus~
+Sancti, Deus, per ómnia sǽcula sæculórum.
+$Per eundem
+
+[Communio]
+! Ps 21:17-18
+Fodérunt manus meas et pedes meos: dinumeravérunt ómnia ossa mea. (T. P. Allelúia.)
+
+[Postcommunio]
+Dómine Jesu Christe, Fili Dei vivi, qui hora sexta pro redemptióne mundi
+Crucis patíbulum ascendísti, et sánguinem tuum pretiósum in remissiónem
+peccatórum nostrórum fudísti: te humíliter deprecámur; ut, post óbitum
+nostrum, paradísi jánuas nos gaudénter introíre concédas:
+$Qui vivis

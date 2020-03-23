@@ -1,0 +1,91 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
+[Introitus]
+!Ps 109:4
+Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum~
+secúndum órdinem Melchísedech. (T. P. Alleluia, alleluia.)
+!Ps 109:1
+Dixit Dóminus Dómino meo: Sede a dextris meis.
+$Gloria
+Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum~
+secúndum órdinem Melchísedech. (T. P. Alleluia, alleluia.)
+
+[Oratio]
+Deus, qui, ad maiestatis tuae gloriam et generis humani salutem, Unigenitum tuum~
+summum atque aeternum constituted Sacerdotem: praesta: ut, quos ministros et~
+mysteriorum suorum dispensatores elegit, in accepto ministerio adimplendo fideles inveniantur.
+$Per eundem
+
+[Lectio]
+Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.
+!Hebr 5:11-1
+Fratres: Omnis Póntifex ex hóminibus assúmptus, pro homínibus constituítur~
+in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia pro peccátis: Qui~
+condolére possit iis, qui ignórant, et errant: quóniam et ipse circúmdatus~
+est infirmitáte: et proptérea debet, quemádmodum pro pópulo, ita étiam et~
+pro semetípso offérre pro peccátis. Nec quisquam sumit sibi honórem, sed qui~
+vocátur a Deo, tamquam Aaron. Sic et Christu non semetípsum clarificávit ut~
+póntifex fíeret, sed qui locutus est ad eum: Fílius meus es tu; ego hódie~
+génui te. Quemádmodum et in álio loco dicit: Tu es Sacérdos in ætérnum~
+secúndum órdinem Melchísedech. Qui in diébus carnis suæ preces supplicationésque~
+ad eum, qui possit illum salvum fácere a morte, cum clamóre válido et lácrymis~
+ófferens, exaudítus est pro sua reveréntia. Et quidem cum esset Fílius Dei~
+dídicit ex iis, quæ passus est obediéntiam: et consummátus, factus est ómnibus~
+obtemperántibus sibi, causa salútis ætérnæ, appellátus a Deo póntifex juxta~
+órdinem Melchísedech. De quo nobisgrandis sermo, et ininterpretábilis ad dicéndum.
+
+[Graduale]
+! Luc 4:18
+Spíritus Dómini super me, propter quod unxit me:
+V. Evangelizáre paupéribus misit me, sanáre contrítos corde. Allelúia, allelúia.
+! Hebr 7:24
+V. Jesus autem eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Allelúia.
+
+[GradualeP]
+! Tempore paschali
+! Hebr 7:24
+Allelúia, allelúia.
+V. Jesus autem eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Allelúia.
+! Luc 4:18
+V. Spíritus Dómini super me; propter quod unxit me, evangelizáre paupéribus misit me, sanáre contrítos corde. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 9:34-36
+Exsúrge, Dómine Deus, exaltétur manus tua: ne obliviscáris páuperum.
+V. Vide quóniam tu labórem et dolórem consíderas:
+V. Tibi derelíctus est pauper: órphano tu eris adjútor.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secundum Lucam
+!Luc 22:14-20
+In illo témpore: Discúbuit Jesus, et duódecim Apóstoli cum eo. Et ait illis:~
+Desidério desiderávi hoc Pascha manducáre vobíscum, ántequam pátiar. Dico enim~
+vobis, quia ex hoc non manducábo illud, donec impleátur in regno Dei. Et accépto~
+cálice, grátias egit, et dixit: Accípite, et divídite inter vos. Dico enim vobis~
+quod non bibam de generatióne vitis, donec regnum Dei véniat. Et accépto pane,~
+grátias egit, et fregit, et dedit eis, dicens: Hoc est Corpus meum, quod pro~
+vobis datur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam~
+cenávit, dicens: Hic est calix novum testaméntum in Sánguine meo, qui pro vobis~
+fundétur.
+
+[Offertorium]
+! Hebr 10:12, 10:14
+Christus unam pro peccátis ófferens hóstiam, in sempitérnum sedet in déxtera Dei:~
+una enim oblatióne consummávit in ætérnum sanctificátos. (T.P. Alleluia.)
+
+[Secreta]
+Hæc múnera, Dómine, mediátor noster Jesus Christus Tibi reddat accépta; et nos,~
+una secum, hóstias tibi gratas exhíbeat:
+$Qui tecum
+
+[Communio]
+! 1 Cor 11:24-25
+Hoc corpus, quod pro vobis tradétur: hic calix novi testaménti est in meo sánguine,~
+dicit Dóminus: hoc fácite, quotiescúmque súmitis, in meam commemoratiónem. (T. P. Allelúia.)
+
+[Postcommunio]
+Vivíficet nos, quǽsumus Dómine, divína quam obtúlimus et súmpsimus hóstia; ut perpétua~
+Tibi caritáte conjúncti, fructum, qui semper máneat, afferámus.
+$Per Dominum

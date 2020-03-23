@@ -1,0 +1,81 @@
+[Name]
+Missa de S. Ioseph
+
+[Rule]
+Prefatio=Joseph
+
+[Introitus]
+!Ps 32:20-21
+Adjútor, et protéctor noster est Dóminus: in eo lætábitur cor nostrum, et in nómine~
+sancto ejus sperávimus. (T.P. Allelúia.)
+!Ps 79:2
+Qui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.
+$Gloria
+Adjútor, et protéctor noster est Dóminus: in eo lætábitur cor nostrum, et in nómine~
+sancto ejus sperávimus. (T.P. Allelúia.)
+
+[Oratio]
+Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ Genitrícis tuæ Sponsum~
+elígere dignátus es: præsta, quǽsumus: ut quem protectórem venerámur in terris,~
+intercessórem habére mereámur in cœlis:
+$Qui vivis
+
+[Lectio]
+Léctio libri Genesis
+! Gen 49:22-26
+Fílius accréscens Joseph, fílius accréscens, et decórus aspéctu: fíliæ~
+discurrérunt super murum. Sed exasperavérunt eum, et jurgáti sunt,~
+inviderúntque illi habéntes jácula. Sedit in forti arcus ejus, et dissolúta~
+sunt víncula brachiórum et mánum illíus per manus poténtis Jacob: inde pastor~
+egréssus est, lapis Israël. Deus patris tui erit adjútor tuus, et Omnípotens~
+benedícet tibi benedictiónibus cœli desuper,benedictiónibus abýssi jacéntis~
+deórsum, benedictiónibus úberum et vulvæ. Benedictiónes patris tui confortátæ~
+sunt benedictiónibus patrum ejus, donec veníret desidérium cóllium æternórum:~
+fiant in cápite Joseph, et in vértice Nazarǽi inter fratres suos.
+
+[Graduale]
+! Ps 20:4-5
+Dómine, prævenísti eum in benedictiónibus dulcédinis; posuísti in cápite ejus corónam de lápide pretióso.
+V. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽculi. Allelúia, allelúia.
+V. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio.
+
+[GradualeP]
+! Tempore paschali
+Allelúia, allelúia.
+V. De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum semper. Allelúia.
+V. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 111:1-3
+Beátus vir qui timet Dóminum, qui mandátis ejus delectátur multum.
+V. Potens in terra erit semen ejus; generatióni rectórum benedicétur.
+V. Opes et divítiæ erunt in domo ejus, et munificéntia ejus manébit semper.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Lucam.
+!Luc 3:21-23
+In illo témpore: Factum est autem, cum baptizarétur omnis pópulus, et Jesu~
+baptizáto et oránte, apértum est cœlum: et descéndit Spíritus Sanctus corporáli~
+spécie sicut colúmba in ipsum: et vox de cœlo facta est: Tu es Fílius meus~
+diléctus, in te complá cui mihi. Et ipse Jesus erat incípiens quasi annórum~
+trigínta, ut putabátur fílius Joseph.
+
+[Offertorium]
+! Ps 147:12-13
+Lauda, Jerúsalem, Dóminum: quóniam confortávit seras portárum tuárum: benedixit fíliis tuis in te. (T.P. Allelúia.)
+
+[Secreta]
+Sanctissimæ Genitrícis tuæ Sponsi patrocínio suffúlti, rogámus, Dómine, cleméntiam~
+tuam; ut corda nostra fácias terréna cuncta despícere, ac te verum Deum perfécta~
+caritáte dilígere:
+$Qui vivis
+
+[Communio]
+! Matt 1:16
+Jacob autem génuit Joseph Virum Maríæ, de qua natus est Jesus, qui vocátur Christus. (T.P. Allelúia.)
+
+[Postcommunio]
+Divíni múneris fonte refécti, quǽsumus, Dómine Deus noster: ut sicut nos facis beáti~
+Joseph protectióne gaudére: ita ejus méritis et intercessióne, cœléstis glóriæ fácias esse partícipes.
+$Per Dominum

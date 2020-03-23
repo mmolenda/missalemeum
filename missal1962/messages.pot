@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 12:09+0100\n"
+"POT-Creation-Date: 2020-03-23 22:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: templates/base.html:70 views.py:138
+msgid "Songs"
+msgstr ""
+
+#: templates/base.html:73 views.py:149
+msgid "Prayers"
+msgstr ""
 
 #: templates/404.html:12
 msgid "Page not found"
@@ -32,15 +40,19 @@ msgid ""
 "Tridentine Mass, TLM)"
 msgstr ""
 
-#: templates/base.html:70 templates/canticum.html:4
-msgid "Songs"
+#: templates/base.html:66 templates/votive.html:4 templates/votive.html:40
+msgid "Votive"
 msgstr ""
 
-#: templates/base.html:74
-msgid "Supplement"
+#: templates/base.html:66 templates/base.html:73
+msgid "New"
 msgstr ""
 
 #: templates/base.html:77
+msgid "Supplement"
+msgstr ""
+
+#: templates/base.html:80
 msgid "About"
 msgstr ""
 
@@ -49,15 +61,11 @@ msgid "Order of Mass"
 msgstr ""
 
 #: templates/proprium.html:18
-msgid "Search..."
+msgid "Search…"
 msgstr ""
 
 #: templates/supplement.html:9 templates/supplement.html:15
 msgid "Back"
-msgstr ""
-
-#: templates/votive.html:4 templates/votive.html:40
-msgid "Votive"
 msgstr ""
 
 #: templates/partials/js_templates.html:24

@@ -1,0 +1,60 @@
+[Name]
+Sanctissimæ Trinitatis
+
+[Rule]
+Prefatio=Trinitate
+
+[Introitus]
+@Tempora/Pent01-0r:Introitus
+
+[Oratio]
+@Tempora/Pent01-0r:Oratio
+
+[Lectio]
+Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
+!2 Cor 13:11-13
+Fratres: Gaudéte, perfécti estóte, exhortámini, idem sápite, pacem~
+habéte, et Deus pacis et dilectiónis erit vobís-cum. Grátia Dómini~
+nostri Jesu Christi, et cáritas Dei, et communicátio Sancti Spiritus~
+sit cum ómnibus vobis. Amen.
+
+[Graduale]
+@Tempora/Pent01-0r:Graduale
+
+[GradualeP]
+! Tempore paschali
+! Dan 3:52
+Allelúia, allelúia.
+V. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúia.
+V. Benedicámus Patrem et Filium cum Sancto Spíritu. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+Te deum Patrem ingénitum, te Fílium unigénitum, te Spíritum Sanctum Paraclítum, sanctam~
+et indivíduam Trinitátem, toto corde confitémur, laudámus atque benedícimus.
+V. Quóniam magnus es tu, et fáciens mirabília: tu es Deus solus.
+V. Tibi laus, tibi glória, tibi gratiárum áctio in sǽcula sempitérna, o beáta Trínitas.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Joánnem.
+!Joann 15:26, 16:1-4
+In illo témpore: Dixit Jesus discípulis suis: Cum vénerit Paráclitus,~
+quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre procédit,~
+ille testimónium perhibébit de me: et vos testimónium perhibébitis, quia~
+ab initío mecum estis. Hæc locútus sum vobis, ut non scandalizémini.~
+Absque synagógis fácient vos: sed venit hora, ut omnis, qui intérficit~
+vos, arbitrétur obséquium se præstáre Deo. Et hæc fácient vobis, quia~
+non novérunt Patrem neque me. Sed hæc locútus sum vobis, ut, cum vénerit~
+hora eórum, reminiscámini quia ego dixi vobis.
+
+[Offertorium]
+@Tempora/Pent01-0r:Offertorium
+
+[Secreta]
+@Tempora/Pent01-0r:Secreta
+
+[Communio]
+@Tempora/Pent01-0r:Communio
+
+[Postcommunio]
+@Tempora/Pent01-0r:Postcommunio

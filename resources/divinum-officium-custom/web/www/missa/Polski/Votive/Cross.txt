@@ -1,0 +1,86 @@
+[Name]
+Missa de sancta Cruce
+
+[Comment]
+# Msza o Krzyżu Świętym
+! Wotywna
+! Piątek
+
+[Rule]
+Prefatio=Quad5
+
+[Introitus]
+!Gal 6:14
+A myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie~
+i zmartwychwstanie nasze; przez Niego jesteśmy zbawieni i oswobodzeni. (O. W. Alleluja, alleluja.)
+!Ps 66:2
+Niech Bóg się zmiłuje nad nami i nam błogosławi: niech nam ukaże pogodne oblicze i zmiłuje się nad nami.
+$Gloria
+A myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie~
+i zmartwychwstanie nasze; przez Niego jesteśmy zbawieni i oswobodzeni. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+! Poza Okresem Wielkanocnym
+Boże, Tyś sztandar życiodajnego Krzyża uświęcił najdroższą Krwią Jednorodzonego Syna~
+Twojego; daj, prosimy, niech ci, którzy się cieszą z czci Krzyża świętego, cieszą się~
+również wszędzie z Twojej opieki.
+$Per eundem
+
+! W Okresie Wielkanocnym
+Boże, z Twojej woli Twój Syn poniósł za nas śmierć na drzewie Krzyża, aby uwolnić nas~
+spod władzy szatana, dozwól nam, sługom Twoim, dostąpić łaski zmartwychwstania.
+$Per eundem
+
+[Lectio]
+Czytanie z Listu świętego Pawła Apostoła do Filipian.
+!Flp 2:8-11
+Bracia: Chrystus stał się dla nas posłusznym aż do śmierci, a była to~
+śmierć krzyżowa. Dlatego i Bóg wywyższył Go i nadał mu imię przewyższające~
+wszelkie imię (tu się przyklęka), aby na imię Jezus zginało się wszelkie~
+kolano mieszkańców niebios, ziemi i podziemia i żeby wszelki język wyznawał,~
+że Jezus Chrystus jest Panem w chwale Boga Ojca.
+
+[Graduale]
+!Flp 2:8-9
+Chrystus stał się dla nas posłuszny aż do śmierci, a była to śmierć krzyżowa.
+V. Dlatego i Bóg wywyższył Go i nadał Mu imię przewyższające wszelkie imię. Alleluja, alleluja.
+V. Słodkie drzewo, słodkie gwoździe, słodki na nich spoczął ciężar. Samoś tylko było godne nosić Króla niebios i Pana. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+! Ps 95:10
+Alleluja, alleluja.
+V. Głoście wśród narodów, że Pan króluje z drzewa (krzyża). Alleluja.
+V. Słodkie drzewo, słodkie gwoździe, słodki na nich spoczął ciężar.~
+Samoś tylko było godne nosić Króla niebios i Pana. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+Kłaniamy Ci się, Chryste, i błogosławimy Tobie, żeś przez Krzyż Twój święty świat odkupić raczył.
+V. Wielbimy, Panie, Twój Krzyż i rozważamy Twoją chwalebną mękę. Zmiłuj się nad nami, Ty, coś za nas cierpiał.
+V. Tyś sam tylko godny był nosić Króla niebios i Pana.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Mateusza.
+!Mt 20:17-19
+Onego czasu: Wziął Jezus dwunastu uczniów na osobność i rzekł im: «Oto wstępujemy do~
+Jeruzalem i Syn Człowieczy będzie wydany przedniejszym kapłanom i uczonym w Piśmie.~
+I skażą Go na śmierć, i wydadzą poganom na pośmiewisko, ubiczowanie i ukrzyżowanie.~
+A dnia trzeciego zmartwychwstanie».
+
+[Offertorium]
+Przez znak Krzyża świętego osłaniaj, Panie, lud Twój od wszystkich zasadzek nieprzyjaciół;~
+abyśmy składali miłe Ci hołdy, i ofiara nasza została przyjęta. (O. W. Alleluja)
+
+[Secreta]
+Prosimy Cię, Panie, niech nas z wszelkich grzechów oczyści ta ofiara, która na~
+ołtarzu Krzyża zgładziła grzechy całego świata.
+$Per eundem
+
+[Communio]
+Boże nasz, przez znak Krzyża świętego wyzwól nas od naszych nieprzyjaciół. (O. W. Alleluja.)
+
+[Postcommunio]
+Przybądź nam z pomocą, Panie, Boże nasz, i otaczaj nieustanną opieką tych, którym~
+dajesz się cieszyć z oddawania czci Krzyżowi świętemu.
+$Per Dominum

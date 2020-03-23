@@ -1,0 +1,89 @@
+[Name]
+Missa de Angelis
+
+[Comment]
+# Msza o Aniołach
+! Wotywna
+! Wtorek
+
+[Introitus]
+!Ps 102:20
+Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy,~
+abyście posłuszni byli Jego słowu. (O. W. Alleluja, alleluja.)
+!Ps 102:1
+Błogosław, duszo moja, Pana, a wszystko, co jest we mnie, święte imię Jego.
+$Gloria
+Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy,~
+abyście posłuszni byli Jego słowu. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+Boże, Ty w przedziwny sposób wyznaczasz obowiązki Aniołom i ludziom; spraw miłościwie,~
+aby na ziemi strzegli naszego życia ci, którzy służąc Ci w niebie zawsze Cię otaczają.
+$Per Dominum
+
+[Lectio]
+Z Księgi Apokalipsy św. Jana Apostoła
+! Ap 5:11-14
+W one dni posłyszałem głos wielu Aniołów wokół tronu i zwierząt, i~
+starszych, a liczba ich była tysiące tysięcy. I mówili głosem donośnym:~
+«Godzien jest Baranek, który był zabity, otrzymać władzę i bóstwo,~
+mądrość i męstwo, cześć, chwałę i błogosławieństwo». I posłyszałem,~
+jak wszelkie stworzenie, które jest na niebie i na~
+ziemi, pod ziemią i w morzu, i wszystko, co w nim się znajduje,~
+jak wszystkie (te stworzenia) mówiły: «Siedzącemu na tronie i~
+Barankowi błogosławieństwo i cześć, chwała i potęga na wieki~
+wieków». A cztery zwierzęta mówiły: «Amen». A dwudziestu~
+czterech starców padło na oblicze i złożyło pokłon żyjącemu na wieki wieków.
+
+[Graduale]
+! Ps 148:1-2
+Chwalcie Pana z niebios, chwalcie Go na wysokościach.
+V. Chwalcie Go, wszyscy Jego Aniołowie, chwalcie Go, wszystkie Jego Zastępy. Alleluja, alleluja.
+! Ps 137:1-2
+V. Wobec Aniołów będę Ci śpiewał; upadnę na twarz w Twym świętym przybytku i będę sławił Twe imię. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+! Ps 137:1-2
+Alleluja, alleluja.
+V. Wobec Aniołów będę Ci śpiewał; upadnę na twarz w świętym przybytku Twoim i będę sławił Twe imię. Alleluja.
+! Matt 28:2
+V. Anioł Pański zstąpił z nieba i przystąpiwszy odsunął kamień i usiadł na nim. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 102:20-22
+Błogosławcie Pana, wszyscy Jego Aniołowie, potężni mocą, pełniący Jego rozkazy.
+V. Błogosławcie Pana, wszystkie Jego zastępy, słudzy Jego, którzy wolę Jego pełnicie.
+V. Błogosławcie Pana, wszystkie dzieła Jego, na każdym miejscu Jego panowania, błogosław, moja duszo, Pana.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+! J 1:47-51
+Onego czasu: Ujrzał Jezus, że Natanael idzie do Niego, i rzekł o nim:~
+«Oto prawdziwy Izraelita, w którym nie masz podstępu». Pyta Go Natanael:~
+«Skądże mnie znasz?» Odpowiadając Jezus rzekł mu: «Widziałem cię pierwej,~
+nim cię Filip zawołał, gdyś był pod figą». Odpowiedział mu Natanael mówiąc:~
+«Rabbi, tyś jest Synem Bożym, tyś królem izraelskim». Odpowiedział Jezus i~
+rzekł mu: «Ponieważ ci powiedziałem, żem cię widział pod figą, uwierzyłeś:~
+więcej nad to zobaczysz». I rzekł mu: «Zaprawdę, zaprawdę powiadam wam:~
+zobaczycie niebo otwarte i Aniołów Bożych, wstępujących i zstępujących na Syna Człowieczego».
+
+[Offertorium]
+! Ap 8:3-4
+Anioł stanął przy ołtarzu świątyni, mając w ręku złotą kadzielnicę; i dano~
+mu wiele kadzideł, i wzniósł się wonny dym przed Bogiem. (O. W. Alleluja.)
+
+[Secreta]
+Składamy Ci, Panie, ofiarę uwielbienia i pokornie prosimy, abyś za wstawiennictwem~
+anielskim łaskawie ją przyjął i obrócił ku naszemu zbawieniu.
+$Per Dominum
+
+[Communio]
+Aniołowie, Archaniołowie, Trony i Państwa, Księstwa i Potęgi, Moce niebieskie, Cherubiny~
+i Serafiny, błogosławcie Pana na wieki. (O. W. Alleluja.)
+
+[Postcommunio]
+Napełnieni błogosławieństwem niebieskim, kornie błagamy Cię, Panie, abyśmy dzięki~
+pomocy Aniołów i Archaniołów doznali skutków tego misterium, które sprawujemy w~
+poczuciu własnej ułomności. Przez Pana.

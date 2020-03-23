@@ -1,0 +1,57 @@
+[Name]
+Missa de Ss. Petro et Paulo App.
+
+[Rule]
+Prefatio=Apostolis
+
+[Comment]
+# Msza o śś. Piotrze i Pawle Apostołach
+! Wotywna
+! Środa
+! Poza Okresem Wielkanocnym
+
+[Introitus]
+@Sancti/10-28:Introitus
+
+[Oratio]
+Boże, Twoja prawica podtrzymywała św. Piotra idącego po falach, by nie zatonął, a współapostoła jego~
+Pawła trzykrotnie wybawiła z toni morskiej, gdy się rozbił z okrętem: wysłuchaj nas łaskawie i spraw,~
+byśmy przez zasługi ich obu osiągnęli chwałę wiekuistą.
+$Qui vivis
+
+[Lectio]
+@Tempora/Pasc7-3:Lectio
+
+[Graduale]
+! Ps 44:17-18
+Ustanowisz ich książętami po całej ziemi: głosić będą Twe imię, o Panie.
+V. Synowie twoi zajmą miejsce twoich ojców: dlatego po wiek wieków sławić Cię będą wszystkie ludy. Alleluja, alleluja.
+! Ps 138:17
+v. Ogromnie są zaszczyceni w oczach moich przyjaciele Twoi, Boże: na zawsze jest utrwalone ich władanie. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+!Ps 125:5-6
+Którzy sieją we łzach, żąć będą w radości.
+V. Idą i płaczą, niosąc ziarno na zasiew.
+V. Przyjdą z radością, niosąc swoje snopy.
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+! Ps 18:5
+Na całą ziemię ich głos się rozchodzi i aż po krańce świata ich mowy.
+
+[Secreta]
+Składamy Ci, Panie, prośby i ofiary: niech modlitwa świętych Apostołów Twoich Piotra i Pawła nas wspomoże,~
+by godne były Twojego wejrzenia.
+$Per Dominum
+
+[Communio]
+!Mt 19:28
+Wy, którzyście poszli za mną, zasiądziecie na stolicach, sądząc dwanaście pokoleń Izraela.
+
+[Postcommunio]
+Osłaniaj, Panie, lud Swój ufający opiece Apostołów Twoich Piotra i Pawła i strzeż go nieustanną obroną.
+$Per Dominum

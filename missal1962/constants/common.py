@@ -860,8 +860,22 @@ COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Pu
 COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
 COMMUNE_C_10PASC = 'commune:C10Pasc:0:w'  # B. V. M. Saturdays in Easter period
 COMMUNE_C_10T = 'commune:C10t:0:w'  # B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+VOTIVE_PENT01_0 = 'votive:Pent01-0r:0:w'  # Trinity
 VOTIVE_PENT02_5 = 'votive:Pent02-5:0:w'  # Sacred Heart of Jesus
 VOTIVE_08_22 = 'votive:08-22r:0:w'  # Immaculate Heart of B. V. M.
+VOTIVE_ANGELS = 'votive:Angels:0:w'
+VOTIVE_JOSEPH = 'votive:Joseph:0:w'
+VOTIVE_PETERPAUL = 'votive:PeterPaul:0:r'
+VOTIVE_PETERPAULP = 'votive:PeterPaulP:0:r'
+VOTIVE_APOSTLES = 'votive:Apostles:0:r'
+VOTIVE_APOSTLESP = 'votive:ApostlesP:0:r'
+VOTIVE_HOLYSPIRIT = 'votive:HolySpirit:0:r'
+VOTIVE_HOLYSPIRIT2 = 'votive:HolySpirit2:0:r'
+VOTIVE_BLESSEDSACRAMENT = 'votive:BlessedSacrament:0:w'
+VOTIVE_JESUSETERNALPRIEST = 'votive:JesusEternalPriest:0:w'
+VOTIVE_CROSS = 'votive:Cross:0:r'
+VOTIVE_PASSION = 'votive:Passion:0:r'
+VOTIVE_DEFUNCTORUM = 'votive:Defunctorum:0:b'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent

@@ -1,0 +1,86 @@
+[Name]
+Missa de Angelis
+
+[Introitus]
+!Ps 102:20
+Benedícite Dóminum, omnes Ángeli ejus: poténtes virtúte, qui fácitis verbum ejus,~
+ad audiéndam vocem sermónum ejus. (T.P. Allelúia, allelúia.)
+!Ps 102:1
+Bénedic, ánima mea, Dómino: et ómnia, quæ intra me sunt, nómini sancto ejus.
+$Gloria
+Benedícite Dóminum, omnes Ángeli ejus: poténtes virtúte, qui fácitis verbum ejus,~
+ad audiéndam vocem sermónum ejus. (T.P. Allelúia, allelúia.)
+
+[Oratio]
+Deus, qui, miro órdine, Angelórum ministerial hominúmque dispénsas: concéde propítius;~
+ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita nostra~
+muniátur.
+$Per Dominum
+
+[Lectio]
+Léctio libri Apocalýpsis beáti Joánnis Apóstoli
+! Apoc 5:11-14
+In diébus illis: Audívi vocem Angelórum multórum in circúitu throni, et~
+animálium, et seniórum, et erat númerus eórum mília mílium, dicéntium voce~
+magna: Dignus est Agnus, qui occísus est, accípere virtútem, et divinitátem,~
+et sapiéntiam, et fortitúdinem, et honórem, et glóriam, et benedictiónem.~
+Et omnem creatúram, quæ in cœlo est, et super terram, et sub terra, et quæ~
+sunt in mari, et quæ in eo: omnes audívi dicéntes: Sedénti in throno, et Agno:~
+benedíctio, et honor, et glória, et potéstas in sǽcula sæculórum. Et quátuor~
+animália dicébant: Amen. Et vigínti quátuor senióres cecidérunt in fácies~
+suas: et adoravérunt vivéntem in sǽcula sæculórum.
+
+[Graduale]
+! Ps 148:1-2
+Laudáte Dóminum de cœlis: laudáte eum in excélsis.
+V. Laudáte eum, omnes Ángeli ejus: laudáte eum, omnes virtútes ejus. Allelúia, allelúia.
+! Ps 137:1-2
+V. In conspéctu Angelórum psallam tibi: adorábo ad templum~
+sanctum tuum, et confitébor nómini tuo. Allelúia.
+
+[GradualeP]
+! Tempore paschali
+! Ps 137:1-2
+Allelúia, allelúia.
+V. In conspéctu Angelórum psallam tibi: adorábo ad templum sanctum tuum, et confitébor nómini tuo. Allelúia.
+! Matt 28:2
+V. Ángelus Dómini descéndit de cœlo, et accédens revólvit lápidem, et sedébat super eum. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 102:20-22
+Benedícite Dóminum, omnes Ángeli ejus: poténtes virtúte, qui fácitis verbum ejus.
+V. Benedícite Dómino, omnes virtútes ejus: mínistri ejus, qui fácitis voluntátem ejus.
+V. Benedícite Dómino, ómnia ópera ejus: in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Joánnem.
+!Joann 1:47-51
+In illo témpore: Vidit Jesus Nathánaël veniéntem ad se, et dicit de eo:~
+Ecce vere Israëlíta, in quo dolus non est. Dicit ei Nathánaël: Unde me~
+nosti? Respóndit Jesus, et dixit ei: Priúsquam te Philíppus vocáret, cum~
+esses sub ficu, vidi te. Respóndit ei Nathánaël, et ait: Rabbi, tu es Fílius~
+Dei, tu es Rex Israël. Respóndit Jesus, et dixit ei: Quia dixi tibi: Vidi~
+te sub ficu, credis: majus his vidébis. Et dicit ei: Amen, amen dico vobis,~
+vidébitis cœlum apértum, et Ángelos Dei ascen-déntes, et descendéntes supra~
+Fílium hóminis.
+
+[Offertorium]
+! Apoc 8:3-4
+Stetit Ángelus juxta aram templi, habens thuríbulum áureum in manu sua: et~
+data sunt ei incénsa multa: et ascéndit fumus aromátum in conspéctu Dei. (T.P. Alleluia.)
+
+[Secreta]
+Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro~
+nobis interveniénte suffrágio, et placátus accípias, et ad salútem nostram provénire concédas.
+$Per Dominum
+
+[Communio]
+Ángeli, Archángeli, Throni et Dominatiónes, Principátus et Potéstates,~
+Virtútes cœlórum, Chérubim atque Séraphim, Dóminum benedícite in ætérnum. (T.P.Allelúia.)
+
+[Postcommunio]
+Repléti, Dómine, benedictióne cœlésti, supplíciter implorámus: ut,~
+quod frágili celebrámus offício, sanctórum Angelórum atque~
+Archangelórum nobis prodésse sentiámus auxílio.
+$Per Dominum

@@ -1,0 +1,40 @@
+[Name]
+Missa de sanctissimo Eucharistiae Sacramento
+
+[Introitus]
+!Ps 80:17.
+v. Cibávit eos ex ádipe fruménti: et de petra, melle saturávit eos.
+!Ps 80:2
+Exsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.
+&Gloria
+v. Cibávit eos ex ádipe fruménti: et de petra, melle saturávit eos.
+
+[Oratio]
+@Tempora/Pent01-4:Oratio
+
+[Lectio]
+@Tempora/Pent01-4:Lectio
+
+[Graduale]
+@Tempora/Pent01-4:Graduale
+
+[Evangelium]
+@Tempora/Pent01-4:Evangelium
+
+[Offertorium]
+!Levit 21:6
+Sacerdótes Dómini incénsum et panes ófferunt Deo: et ideo sancti erunt Deo suo,~
+et non pólluent nomen ejus.
+
+[Secreta]
+@Tempora/Pent01-4:Secreta
+
+[Communio]
+!1 Cor 11:26-27
+Quotiescúmque manducábitis panem hunc et cálicem bibétis, mortem Dómini~
+annuntiábitis, donec véniat: itaque quicúmque manducáverit panem vel bíberit~
+calicem Dómini indígne, reus erit córporis et sánguinis Dómini.
+
+[Postcommunio]
+@Tempora/Pent01-4:Postcommunio
+

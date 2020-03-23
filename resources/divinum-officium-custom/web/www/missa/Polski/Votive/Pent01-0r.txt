@@ -1,0 +1,71 @@
+[Name]
+Sanctissimæ Trinitatis
+
+[Rule]
+Prefatio=Trinitate
+
+[Comment]
+# Msza o Trójcy Przenajświętszej
+! Wotywna
+! Poniedziałek
+Prawda o Bogu w Trójcy jedynym jest podstawą religii chrześcijańskiej. Prawda ta~
+jest tajemnicą wiary, która została objawiona w zaraniu Nowego Przymierza między~
+Bogiem a ludzkością. Odsłania nam ona tajemnicze życie Boże, którego uczestnikami~
+stajemy się przez Chrzest święty. Cały kult Kościoła dąży do uwielbienia Boga w~
+Trójcy Jedynego. Odrębne święto zostało wprowadzone w IX w., a w wieku XIV rozciągnięte~
+na cały Kościół. We Mszy św. wielbimy niezgłębioną tajemnicę i dziękujemy za~
+miłosierdzie okazane nam w dziele Odkupienia.
+
+[Introitus]
+@Tempora/Pent01-0r:Introitus
+
+[Oratio]
+@Tempora/Pent01-0r:Oratio
+
+[Lectio]
+Czytanie z Listu świętego Pawła Apostoła do Koryntian.
+!2 Kor 13:11-13
+Bracia: Weselscie się, bądźcie doskonałymi, umacniajcie się wzajemnie w~
+jednomyślności i w pokoju, a Bóg pokoju i miłości będzie z wami. Łaska~
+Pana naszego Jezusa Chrystusa i miłośc Boża, i uczestnictwo Ducha Świętego~
+niech będzie z wami wszystkimi. Amen.
+
+[Graduale]
+@Tempora/Pent01-0r:Graduale
+
+[GradualeP]
+! W Okresie Wielkanocnym
+Alleluja, alleluja.
+V. Błogosławiony jesteś, Panie Boże ojców naszych, i chwalebny na wieki. Alleluja.
+V. Błogosławmy Ojca i Syna z Duchem Swiętym. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+Całym sercem wyznajemy, chwalimy i błogosławimy Ciebie, Boga Ojca niezrodzonego, Ciebie, Ducha Świętego~
+Pocieszyciela, Świętą a niezrodzielną Trójcę.
+V. Bo wielki jesteś Ty i czynisz cuda: Tyś Bóg jedyny.
+V. Tobie cześć, Tobie chwała, Tobie dziękczynienie na wieki wieków, o błogosławiona Trójco.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+!J 15:26, 16:1-4
+Onego czasu: Rzekł Jezus uczniom swoim: «Gdy przyjdzie Pocieszyciel,~
+którego ja wam poślę od Ojca, Duch prawdy, który od Ojca pochodzi, on~
+o mnie świadectwo dawać będzie i wy świadectwo dawać będziecie, bo ze~
+mną od początku jesteście. To wam powiedziałem, abyście się nie zrażali.~
+Wyłączą was z synagog, a zbliża się godzina, że każdy, kto was zabijać~
+będzie, uczyni to mniemając, że Bogu wyświadcza przysługę. A to wam~
+uczynią, bo nie znają Ojca ani mnie. Ale to wam powiedziałem, abyście,~
+gdy nadejdzie ich godzina, wspomnieli na to, żem ja wam powiedział».
+
+[Offertorium]
+@Tempora/Pent01-0r:Offertorium
+
+[Secreta]
+@Tempora/Pent01-0r:Secreta
+
+[Communio]
+@Tempora/Pent01-0r:Communio
+
+[Postcommunio]
+@Tempora/Pent01-0r:Postcommunio

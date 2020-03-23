@@ -1,0 +1,30 @@
+[Name]
+Missa ad postulandam gratiam Spiritus Sancti
+
+[Rank]
+vide Votive/HolySpirit
+
+[Comment]
+# Msza dla uproszenia łask Ducha św.
+! Wotywna
+! Czwartek
+
+[Rule]
+Prefatio=Spiritu;
+
+[Oratio]
+Boże, przed Tobą każde serce stoi otworem, każde pragnienie jest Ci znane i~
+żadna tajemnica nie jest przed Tobą zakryta. Oczyść przez wylanie Ducha Św.~
+myśli naszych serc, abyśmy mogli doskonale Cię kochać i godnie chwalić.
+$Per Dominum eiusdem
+
+[Secreta]
+Prosimy Cię, Panie, niech ta ofiara oczyści od zmaz nasze serca, aby stały się~
+godnym mieszkaniem Ducha Świętego.
+$Per Dominum eiusdem
+
+[Postcommunio]
+Prosimy Cię, wszechmogący Boże, spraw, abyśmy wytrwałą modlitwą zasłużyli na
+~otrzymanie Ducha Świętego; Jego łaska niech nas uwolni od wszelkich pokus~
+i udzieli nam odpuszczenia grzechów.
+$Per Dominum eiusdem

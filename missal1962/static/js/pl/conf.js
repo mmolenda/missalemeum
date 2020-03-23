@@ -6,7 +6,7 @@ let config = {
     calendarEndpoint: "/pl/api/v3/calendar/",
     dateEndpoint: "/pl/api/v3/date/",
     properEndpoint: "/pl/api/v3/proper/",
-    canticumEndpoint: "/pl/api/v3/supplement/canticum/",
+    supplementEndpoint: "/pl/api/v3/supplement/",
     minDate: "1900-01-01",
     maxDate: "2100-12-31",
     saturday: 5,
@@ -16,7 +16,7 @@ let config = {
         class2: "2 klasy",
         class3: "3 klasy",
         class4: "4 klasy",
-        cannotLoadMessage: "Nie udało się pobrać danych. Prawdopodobnie związane jest to ze zmianą domeny na missalemeum.com. Spróbuj wyczyścić dane przeglądarki."
+        cannotLoadMessage: "Nie udało się pobrać danych. Spróbuj wyczyścić dane przeglądarki."
     }
 }
 

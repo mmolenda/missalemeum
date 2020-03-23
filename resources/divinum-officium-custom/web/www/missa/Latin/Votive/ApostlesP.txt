@@ -1,0 +1,48 @@
+[Name]
+Missa de omnibus Ss. Apostolis Tempore paschali
+
+[Rule]
+Prefatio=Apostolis
+
+[Introitus]
+@Commune/C2p:Introitus
+
+[Oratio]
+Deus, qui nos per beatos Apóstolos tuos ad agnitiónem tui~
+nóminis veníre tribuísti: da nobis eórum glóriam sempitérnam et proficiéndo~
+celebráre, et celebrándo profícere.
+$Per Dominum
+
+[Lectio]
+@Sancti/10-28:Lectio
+
+[Graduale]
+Alleluia, alleluia.
+!Ps 88:6
+V. Confitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia~
+sanctórum, allelúja, allelúja.
+!Joann 15:16.
+V. Ego vos elégi de mundo, ut eátis et fructum afferátis: et fructus vester máneat.
+
+[Evangelium]
+@Sancti/10-28:Evangelium
+
+[Offertorium]
+!Ps 44:17-18
+Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine,~
+in omni progenie et generatione, alleluia, alleluia.
+
+[Secreta]
+Glóriam, Dómine, sanctórum Apostolórum tuórum perpétuam~
+venerántes: quǽsumus; ut eam, sacris mystériis expiati, dígnius celebrémus.
+$Per Dominum
+
+[Communio]
+!Ps 18:5
+In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum, alleluia, alleluia.
+
+[Postcommunio]
+Percéptis, Dómine, sacraméntis, supplíciter exorámus: ut, intercedéntibus beátis~
+Apóstolis tuis, quæ pro illórum veneránda gérimus passióne, nobis~
+profíciant ad medélam.
+$Per Dominum

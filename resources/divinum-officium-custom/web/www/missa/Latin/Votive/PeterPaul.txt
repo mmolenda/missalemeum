@@ -1,0 +1,52 @@
+[Name]
+Missa de Ss. Petro et Paulo App.
+
+[Rule]
+Prefatio=Apostolis
+
+[Introitus]
+@Sancti/10-28:Introitus
+
+[Oratio]
+Deus, cuius dextera beatum Petrum ambulantem in fluctibus, ne mergeretur, erexit, et~
+coapostolum eius Paulum, tertio naufragantem, de profundo pelagi liberavit: exaudi~
+nos propitius, et concede; ut, amborum meritis, aeternitatis gloriam consequamur:
+$Qui vivis
+
+[Lectio]
+@Tempora/Pasc7-3:Lectio
+
+[Graduale]
+! Ps 44:17-18
+Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine.
+V. Pro patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur tibi. Allelúja, allelúja.
+! Ps 138:17
+v. Nimis honoráti sunt amíci tui, Deus: nimis confortatus est principatus eórum. Allelúja.
+
+[Tractus]
+! Post Septuagesimam
+!Ps 125:5-6
+Qui séminant in lácrimis, in gáudio metent.
+V. Eúntes ibant et flebant, mitténtes sémina sua.
+V. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+! Ps 18:5
+In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum.
+
+[Secreta]
+Offerimus tibi, Domine, preces et munera; quae ut tuo sint digna conspectu, Apostolorum tuorum Petri~
+et Pauli precibus adiuvemur.
+$Per Dominum
+
+[Communio]
+!Matt 19:28
+Vos, qui secúti estis me, sedebitis super sedes, judicántes duódecim tribus Israël.
+
+[Postcommunio]
+Protege. Domine, populum tuum: et Apostolorum tuorum Petri et Pauli patrocino confidentem,~
+perpetua defensione conserva.
+$Per Dominum

@@ -1,0 +1,98 @@
+[Name]
+Missa de Passione Domini
+
+[Comment]
+# Msza o Męce Pańskiej
+! Wotywna
+! Piątek
+
+[Rule]
+Prefatio=Quad5
+
+[Introitus]
+!Phil 2:8-9
+Pan Jezus Chrystus uniżył samego siebie aż do śmierci, a była to śmierć krzyżowa. Dlatego i Bóg~
+wywyższył Go i nadał Mu imię, przewyższające wszelkie imię. (O. W. Alleluja, alleluja.)
+!Ps 88:2
+Na wieki będę opiewał łaski Pana; przez wszystkie pokolenia.
+$Gloria
+Pan Jezus Chrystus uniżył samego siebie aż do śmierci, a była to śmierć krzyżowa. Dlatego i Bóg~
+wywyższył Go i nadał Mu imię, przewyższające wszelkie imię. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+Panie Jezy Chryste, Ty z nieba z łona Ojca zstąpiłeś na ziemię i Krew Twą najdroższą~
+wylałeś na odpuszczenie naszych grzechów; kornie Cię błagamy, abyśmy mogli w dniu sądu~
+po Twej prawicy, usłyszeć: Pójdźcie, błogosławieni:
+Który z tymże Bogiem Ojcem i Duchem Świętym żyjesz.
+
+[Lectio]
+Czytanie z Księgi Proroka Zachariasza.
+!Zch 12:10-12; 13:6-7
+To mówi Pan: Wyleję na dom Dawidowy i na mieszkańców ducha łaski i~
+modlitw i patrzeć będą na mnie, którego przebodli. I opłakiwać go~
+będą płaczem jakby jednorodzonego; i będą nad nim zawodzić, jak się~
+zawodzi przy śmierci pierworodnego. Owego dnia wielki bęzie płacz w~
+Jeruzalem, i powiedzą mu: «Cóż to za rany są w pośrodku rąk twoich?»~
+I powie: «Tymi zraniony jestem w domu tych, którzy mnie miłowali».~
+Mieczu, ocknij się na pasterza mego i na męża złączonego ze mną, mówi~
+Pan Zastępów. Uderz pasterza, a rozproszą się owce, mówi Pan wszechmogący.
+
+[Graduale]
+!Ps 68:21-22
+Urąganiem złamane me serce i sił mi zabrakło. Na współczującego czekałem,~
+ale go nie było, i na pocieszających, lecz ich nie znalazłem.
+V. Do mego pokarmu domieszali żółci, a kiedym pragnął, poili mnie octem. Alleluja, alleluja.
+V. Witaj, nasz Królu. Ty sam się ulitowałeś nad naszymi błędami. Będąc posłuszny Ojcu,~
+zawiedziony zostałeś na ukrzyżowanie, jak cichy baranek na zabicie. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+Alleluja, alleluja.
+V. Witaj, nasz Królu. Ty sam się ulitowałeś nad naszymi błędami. Bedąc posłuszny Ojcu,~
+zawiedziony zostałeś na ukrzyżowanie, jak cichy baranek na zabicie. Alleluja.
+V. Tobie chwała, hosanna, Tobie przystoi triumf i zwycięstwo, Tobie wieniec~
+najwyższej chwały i czci. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Isa 53:4-5
+Prawdziwie słabośi nasze On sam nosił i cierpienie nasz On sam dźwigał.
+V. A myśmy Go uważali za trędowatego, rażonego przez Boga i poniżonego.
+V. On zaś zraniony jest dla nieprawości naszych, starty jest dla naszych zbrodni.
+V. Na Nim karanie, dające nam pokój, a sinością Jego zostaliśmy uleczeni.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+! J 19:28-35
+Onego czasu: Jezus świadom, że wszystko już się wykonało, aby się~
+wypełniło Pismo, rzekł: «Pragnę». A było tam postawione naczynie~
+napełnione octem. A oni włożywszy na trzcinę gąbkę nasiąkniętą octem~
+podali Mu do ust. Jezus zaś, gdy skosztował octu, rzekł: «Wykonało się».~
+I skłoniwszy głowę oddał ducha. Żydzi tedy (ponieważ był to dzień~
+Przygotowania), aby przez szabat ciała nie zostały na krzyżu (albowiem~
+on dzień szabatu był uroczysty), prosili Piłata, aby im połamano nogi~
+i zdjęto ich. Przyszli przeto żołnierze i połamali nogi pierwsszemu i~
+drugiemu, którzy z Nim byli ukrzyżowani. A skoro podeszli do Jezusa i~
+zobaczyli, że już umarł, nie łamali nóg Jego, ale jeden z żołnierzy~
+włócznią otworzył bok Jego, a natychmiast wypłynęła krew i woda. A ten,~
+który widział, dał świadectwo i prawdziwe jest świadectwo jego.
+
+[Offertorium]
+Powstali przeciw mnie mężowie bezbożni, bez miłosierdzia chcieli mnie zabić;~
+nie oszczędzili mi plucia w twarz, zranili mię swoimi włóczniami, a wszystkie~
+kości moje są wstrząśnęte. (O. W. Alleluja.)
+
+[Secreta]
+Niech złożona Ci, Panie ofiara ożywia nas zawsze i umacnia przez zasługi męki~
+Jednorodzonego Syna Twojego:
+$Per eundem
+
+[Communio]
+! Ps 21:17-18
+Przebodli ręce moje i nogi moje, policzyć mogę wszystkie kości moje. (O. W. Alleluja.)
+
+[Postcommunio]
+Panie Jezu Chryste, Synu Boga żywego, który dla zbawienia świata o szóstej godzinie~
+wstąpiłeś na drzewo Krzyża i Krew swoją najdroższą przelałeś na odpuszczenie naszych~
+grzechów: kornie Cię błagamy, abyś nam po śmierci dozwolił wejść radośnie w bramy raju:
+$Qui vivis

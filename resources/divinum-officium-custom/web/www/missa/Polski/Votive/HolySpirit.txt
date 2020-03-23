@@ -1,0 +1,51 @@
+[Name]
+Missa de Spiritu Sancto
+
+[Rule]
+Prefatio=Spiritu;
+
+[Comment]
+# Msza o Duchu Świętym
+! Wotywna
+! Czwartek
+
+[Introitus]
+@Tempora/Pasc7-0:Introitus
+
+[Oratio]
+Boże, któryś pouczył serca wiernych światłem Ducha Świętego,~
+daj nam w tymże Duchu poznać co jest prawe i pociechą Jego zawsze się radować.
+$Per Dominum eiusdem
+
+[Lectio]
+@Tempora/Pasc7-2:Lectio
+
+[Graduale]
+!Ps 32:12, 6
+Błogosławiony lud, którego Bogiem jest Pan: naród, który On sobie wybrał na dziedzictwo.
+V. Przez słowo Pana powstały niebiosa i wszystkie ich zastępy przez tchnienie ust Jego. Alleluja, alleluja.
+! Tu się przyklęka
+V. Przyjdź, Duchu Święty, napełnij serca Twych wiernych i zapal w nich ogień Twojej miłości. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 103:30; Mdr 12:1
+Ześlij Ducha Twojego, a powstanie życie i odnowisz oblicze ziemi.
+V. 0, jak dobry i słodki jest, Panie, Duch Twój w nas!
+! Tu się przyklęka
+V. Przyjdź, Duchu Święty, napełnij serca Twoich wiernych i zapal w nich ogień Twojej miłości.
+
+[Evangelium]
+@Tempora/Pasc7-0:Evangelium
+
+[Offertorium]
+@Tempora/Pasc7-0:Offertorium
+
+[Secreta]
+@Tempora/Pasc7-0:Secreta
+
+[Communio]
+@Tempora/Pasc7-0:Communio
+
+[Postcommunio]
+@Tempora/Pasc7-0:Postcommunio

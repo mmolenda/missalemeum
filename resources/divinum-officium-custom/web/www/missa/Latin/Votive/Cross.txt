@@ -1,0 +1,83 @@
+[Name]
+Missa de sancta Cruce
+
+[Rule]
+Prefatio=Quad5
+
+[Introitus]
+!Gal 6:14
+Nos autem gloriari oportet in Cruce Domini nostri Iesu Christi:~
+in quo est salus, vita et resurrectio nostra: per quem salvati et liberati sumus. (T. P. Alleluia, alleluia.)
+!Ps 66:2
+Deus misereatur nostri, et benedicat nobis: illuminet vultum suum super nos, et misereatur nostri.
+$Gloria
+Nos autem gloriari oportet in Cruce Domini nostri Iesu Christi:~
+in quo est salus, vita et resurrectio nostra: per quem salvati et liberati sumus. (T. P. Alleluia, alleluia.)
+
+[Oratio]
+! Extra tempus paschale
+Deus, qui unigeniti Filii tui pretioso sanguine vivificae Crucis vexillum~
+sanctificare voluisti: concede, quaesumus; eos, qui eiusdem sanctae Crucis~
+gaudent honore, tua quoque ubique protectione gaudere.
+$Per eundem
+
+! Tempore paschali
+Deus, qui pro nobis Filium tuum 4650
+Crucis patibulum subire voluisti, ut inimici a nobis expelleres potestatem:~
+concede nobis, famulis tuis; ut resurrectionis gratiam consequamur.
+$Per eundem
+
+[Lectio]
+Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
+!Phil 2:8-11
+Fratres: Christus factus est pro nobis oboediens usque ad mortem, mortem autem~
+crucis. Propter quod et Deus exaltávit illum, et donavit illi nomen, quod est~
+super omne nomen: (hic genuflectitur) ut in nomine Iesu omne genu flectatur caelestium,~
+terrestrium et infernorum, et omnis lingua confiteatur, quia Dominus Iesus Christus in~
+gloria est Dei Patris.
+
+[Graduale]
+!Phil 2:8-9
+Christus factus est pro nobis oboediens usque ad mortem, mortem autem crucis.
+V. Propter quod et Deus exaltavit ilium, et dedit illi nomen, quod est super omne nomen. Alleluia, alleluia.
+V. Dulce lignum, dulces clavos, dulcia ferens pondera: quae sola fuisti digna sustinere Regem caelorum, et Dominum. Alleluia.
+
+[GradualeP]
+! Tempore paschali
+! Ps 95:10
+Allelúia, allelúia.
+V. Dicite in gentibus, quia Dominus regnavit a ligno. Allelúia.
+V. Dulce lignum, dulces clavos, dulcia ferens pondera:~
+quae sola fuisti digna sustinere Regem caelorum, et Dominum. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+Adoramus te, Christe, et benedicimus tibi: quia per Crucem tuam redemisti mundum.
+V. Tuam Crucem adoramus, Domine, tuam gloriosam recolimus passionem: miserere nostri, qui passus es pro nobis.
+V. O Crux benedicta, quae sola fuisti digna portare Regem caelorum, et Dominum.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Matthǽum
+!Matt 20:17-19
+In illo témpore: Ascéndens Jesus Jerosólymam, assúmpsit duódecim discípulos secréto, et ait~
+illis: Ecce, ascéndimus Jerosólymam, et Fílius hóminis tradétur princípibus sacerdótum, et~
+scribis, et condemnábunt eum morte, et tradent eum Géntibus ad illudéndum, et flagellándum,~
+et crucifigéndum, et tértia die resúrget.
+
+[Offertorium]
+Protege, Domine, plebem tuam, per signum sanctae Crucis, ab omnibus~
+insidiis inimicorum omnium: ut tibi gratam exhibeamus servitutem, et~
+acceptabile fiat sacrificium nostrum. (T. P. Alleluia.)
+
+[Secreta]
+Haec oblatio, Domine, quaesumus, ab omnibus nos purget offensis: quas in~
+ara Crucis etiam totius mundi tulit offensam.
+$Per eundem
+
+[Communio]
+Per signum Crucis de inimicis nostris libera nos, Deus noster. (T . P . Alleluia.)
+
+[Postcommunio]
+Adesto nobis, Domine Deus noster: et, quos sanctae Crucis laetari facis~
+honore, eius quoque perpetuis defende subsidiis.
+$Per Dominum

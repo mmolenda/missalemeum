@@ -1,0 +1,46 @@
+[Name]
+Missa de Spiritu Sancto
+
+[Rule]
+Prefatio=Spiritu;
+
+[Introitus]
+@Tempora/Pasc7-0:Introitus
+
+[Oratio]
+Deus, qui corda fidélium Sancti Spíritus illustratióne docuísti: da~
+nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére.
+$Per Dominum eiusdem
+
+[Lectio]
+@Tempora/Pasc7-2:Lectio
+
+[Graduale]
+!Ps 32:12, 6
+Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi.
+V. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum. Alleluia, alleluia.
+! Hic genuflectitur
+V. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde. Alleluia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 103:30; Sap 12:1
+Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
+V. O quam bonus et suávis est, Dómine, Spíritus tuus in nobis!
+! Hic genuflectitur
+V. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.
+
+[Evangelium]
+@Tempora/Pasc7-0:Evangelium
+
+[Offertorium]
+@Tempora/Pasc7-0:Offertorium
+
+[Secreta]
+@Tempora/Pasc7-0:Secreta
+
+[Communio]
+@Tempora/Pasc7-0:Communio
+
+[Postcommunio]
+@Tempora/Pasc7-0:Postcommunio
