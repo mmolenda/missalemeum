@@ -1,3 +1,6 @@
+[Name]
+Sanctissimi Cordis Domini Nostri Jesu Christi
+
 [Rank]
 vide Tempora/Pent02-5
 

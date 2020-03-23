@@ -1,3 +1,6 @@
+[Name]
+Missa de sanctissimo Eucharistiae Sacramento
+
 [Comment]
 # Msza o Najświętszym Sakramencie
 ! Wotywna

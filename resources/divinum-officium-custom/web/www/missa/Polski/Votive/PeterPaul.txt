@@ -1,3 +1,6 @@
+[Name]
+Missa de Ss. Petro et Paulo App.
+
 [Rule]
 Prefatio=Apostolis
 

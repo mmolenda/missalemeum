@@ -1,3 +1,6 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
 [Introitus]
 !Ps 109:4
 Jurávit Dóminus, et non pœnitébit eum: Tu es sacérdos in ætérnum~
@@ -40,6 +43,7 @@ V. Evangelizáre paupéribus misit me, sanáre contrítos corde. Allelúia, alle
 V. Jesus autem eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Allelúia.
 
 [GradualeP]
+! Tempore paschali
 ! Hebr 7:24
 Allelúia, allelúia.
 V. Jesus autem eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Allelúia.
@@ -47,6 +51,7 @@ V. Jesus autem eo quod máneat in ætérnum, sempitérnum habet sacerdótium. Al
 V. Spíritus Dómini super me; propter quod unxit me, evangelizáre paupéribus misit me, sanáre contrítos corde. Allelúia.
 
 [Tractus]
+! Post Septuagesimam
 ! Ps 9:34-36
 Exsúrge, Dómine Deus, exaltétur manus tua: ne obliviscáris páuperum.
 V. Vide quóniam tu labórem et dolórem consíderas:

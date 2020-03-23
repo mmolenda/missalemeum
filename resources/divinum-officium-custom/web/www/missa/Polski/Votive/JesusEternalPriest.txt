@@ -1,3 +1,6 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
 [Comment]
 # Msza o Chrystusie, Najwyższym i Wiecznym Kapłanie
 ! Wotywna

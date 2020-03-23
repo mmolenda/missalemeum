@@ -1,3 +1,6 @@
+[Name]
+Missa de Spiritu Sancto
+
 [Rule]
 Prefatio=Spiritu;
 

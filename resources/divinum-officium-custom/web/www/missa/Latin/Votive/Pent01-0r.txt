@@ -1,3 +1,6 @@
+[Name]
+Sanctissimæ Trinitatis
+
 [Rule]
 Prefatio=Trinitate
 
@@ -19,12 +22,14 @@ sit cum ómnibus vobis. Amen.
 @Tempora/Pent01-0r:Graduale
 
 [GradualeP]
+! Tempore paschali
 ! Dan 3:52
 Allelúia, allelúia.
 V. Benedíctus es, Dómine, Deus patrum nostrórum, et laudábilis in sǽcula. Allelúia.
 V. Benedicámus Patrem et Filium cum Sancto Spíritu. Allelúia.
 
 [Tractus]
+! Post Septuagesimam
 Te deum Patrem ingénitum, te Fílium unigénitum, te Spíritum Sanctum Paraclítum, sanctam~
 et indivíduam Trinitátem, toto corde confitémur, laudámus atque benedícimus.
 V. Quóniam magnus es tu, et fáciens mirabília: tu es Deus solus.

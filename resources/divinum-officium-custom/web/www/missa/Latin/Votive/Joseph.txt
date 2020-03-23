@@ -1,3 +1,6 @@
+[Name]
+Missa de S. Ioseph
+
 [Rule]
 Prefatio=Joseph
 
@@ -37,11 +40,13 @@ V. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in sǽculum sǽcul
 V. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio.
 
 [GradualeP]
+! Tempore paschali
 Allelúia, allelúia.
 V. De quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum semper. Allelúia.
 V. Fac nos innócuam, Joseph, decúrrere vitam: sitque tuo semper tuta patrocínio. Allelúia.
 
 [Tractus]
+! Post Septuagesimam
 ! Ps 111:1-3
 Beátus vir qui timet Dóminum, qui mandátis ejus delectátur multum.
 V. Potens in terra erit semen ejus; generatióni rectórum benedicétur.

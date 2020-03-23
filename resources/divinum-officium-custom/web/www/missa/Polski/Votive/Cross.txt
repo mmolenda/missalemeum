@@ -1,3 +1,6 @@
+[Name]
+Missa de sancta Cruce
+
 [Comment]
 # Msza o Krzyżu Świętym
 ! Wotywna

@@ -1,3 +1,6 @@
+[Name]
+Immaculati Cordis Beatæ Mariæ Virginis
+
 [Rule]
 Prefatio=Maria=Festivitate;
 
@@ -14,9 +17,11 @@ Prefatio=Maria=Festivitate;
 @Sancti/08-22r:Graduale
 
 [GradualeP]
+! Tempore paschali
 @Sancti/08-22r:GradualeP
 
 [Tractus]
+! Post Septuagesimam
 @Sancti/08-22r:Tractus
 
 [Evangelium]

@@ -1,3 +1,6 @@
+[Name]
+Missa de sanctissimo Eucharistiae Sacramento
+
 [Introitus]
 !Ps 80:17.
 v. Cibávit eos ex ádipe fruménti: et de petra, melle saturávit eos.

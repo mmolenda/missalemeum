@@ -1,3 +1,6 @@
+[Name]
+Missa de omnibus Ss. Apostolis Tempore paschali
+
 [Rule]
 Prefatio=Apostolis
 

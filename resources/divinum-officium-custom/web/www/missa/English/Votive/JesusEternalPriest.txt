@@ -1,3 +1,6 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
 [Comment]
 # Our Lord Jesus Christ, Supreme and Eternal Priest
 ! Votive

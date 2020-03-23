@@ -1,3 +1,6 @@
+[Name]
+Missa de Passione Domini
+
 [Comment]
 # Msza o Męce Pańskiej
 ! Wotywna

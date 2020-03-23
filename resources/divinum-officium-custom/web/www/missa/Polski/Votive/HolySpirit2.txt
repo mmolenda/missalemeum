@@ -1,3 +1,6 @@
+[Name]
+Missa ad postulandam gratiam Spiritus Sancti
+
 [Rank]
 vide Votive/HolySpirit
 

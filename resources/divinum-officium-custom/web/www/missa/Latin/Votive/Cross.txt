@@ -1,3 +1,6 @@
+[Name]
+Missa de sancta Cruce
+
 [Rule]
 Prefatio=Quad5
 
@@ -40,6 +43,7 @@ V. Propter quod et Deus exaltavit ilium, et dedit illi nomen, quod est super omn
 V. Dulce lignum, dulces clavos, dulcia ferens pondera: quae sola fuisti digna sustinere Regem caelorum, et Dominum. Alleluia.
 
 [GradualeP]
+! Tempore paschali
 ! Ps 95:10
 Allelúia, allelúia.
 V. Dicite in gentibus, quia Dominus regnavit a ligno. Allelúia.
@@ -47,6 +51,7 @@ V. Dulce lignum, dulces clavos, dulcia ferens pondera:~
 quae sola fuisti digna sustinere Regem caelorum, et Dominum. Allelúia.
 
 [Tractus]
+! Post Septuagesimam
 Adoramus te, Christe, et benedicimus tibi: quia per Crucem tuam redemisti mundum.
 V. Tuam Crucem adoramus, Domine, tuam gloriosam recolimus passionem: miserere nostri, qui passus es pro nobis.
 V. O Crux benedicta, quae sola fuisti digna portare Regem caelorum, et Dominum.

@@ -1,3 +1,6 @@
+[Name]
+Missa de omnibus Ss. Apostolis
+
 [Rule]
 Prefatio=Apostolis
 
@@ -17,6 +20,7 @@ $Per Dominum
 @Sancti/10-28:Graduale
 
 [Tractus]
+! Post Septuagesimam
 @Votive/PeterPaul:Tractus
 
 [Evangelium]

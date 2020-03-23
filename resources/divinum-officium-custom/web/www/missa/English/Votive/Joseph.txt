@@ -1,3 +1,6 @@
+[Name]
+Missa de S. Ioseph
+
 [Rule]
 Prefatio=Joseph
 

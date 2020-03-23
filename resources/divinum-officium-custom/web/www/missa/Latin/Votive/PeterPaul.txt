@@ -1,3 +1,6 @@
+[Name]
+Missa de Ss. Petro et Paulo App.
+
 [Rule]
 Prefatio=Apostolis
 
@@ -21,6 +24,7 @@ V. Pro patribus tuis nati sunt tibi fílii: proptérea pópuli confitebúntur ti
 v. Nimis honoráti sunt amíci tui, Deus: nimis confortatus est principatus eórum. Allelúja.
 
 [Tractus]
+! Post Septuagesimam
 !Ps 125:5-6
 Qui séminant in lácrimis, in gáudio metent.
 V. Eúntes ibant et flebant, mitténtes sémina sua.

@@ -1,3 +1,6 @@
+[Name]
+Missa de Passione Domini
+
 [Rule]
 Prefatio=Quad5
 
@@ -38,6 +41,7 @@ V. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obœdiens, du
 ad crucifigéndum, ut agnus mansuétus ad occisiónem. Alleluia.
 
 [GradualeP]
+! Tempore paschali
 Allelúia, allelúia.
 V. Ave, Rex noster: tu solus nostros es miserátus erróres: Patri obœdiens, ductus~
 es ad crucifigéndum, ut agnus mansuétus ad occisiónem. Allelúia.
@@ -45,6 +49,7 @@ V. Tibi glória, hosánna: tibi triúmphus et victória: tibi summæ~
 laudis et honóris coróna. Allelúia.
 
 [Tractus]
+! Post Septuagesimam
 ! Isa 53:4-5
 Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.
 V. Et nos putávimus eum quasi leprósum, et percússum a Deo, et humiliátum.
