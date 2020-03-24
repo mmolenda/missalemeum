@@ -1,23 +1,21 @@
 [Name]
-Tempore mortalitatis
+Tempore Mortalitatis
 
 [Comment]
-# Msza o wybawienie od śmierci w czasie zarazy
-! Szaty fioletowe
+# Tempore Mortalitatis
+! O wybawienie od śmierci w czasie zarazy
 
 [Introitus]
-XXXXXXXXXXX
-!2 Reg 24:16
-Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
-et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+!2 Sam 24:16
+Wspomnij, Panie, na Twe przymierze i rzeknij Aniołowi lud bijącemu: powściągnij rękę swoją~
+i niech nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
 !Ps 79:2
 Pasterzu Izraela, posłuchaj: Ty, co jak trzodę wiedziesz ród Józefa.
 $Gloria
-Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
-et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+Wspomnij, Panie, na Twe przymierze i rzeknij Aniołowi lud bijącemu: powściągnij rękę swoją~
+i niech nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
 
 [Oratio]
-$$$$$$$$$$$
 Deus, qui non mortem, sed pœniténtiam desíderas peccatórum: pópulum tuum ad te reverténtem~
 propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas.
 $Per Dominum
@@ -61,23 +59,20 @@ V. Wspomóż nas, Boże, nasz Zbawicielu, i dla chwały imienia Twego wybaw nas,
 @Tempora/Pasc7-6:Evangelium
 
 [Offertorium]
-XXXXXXXXXXX
 ! Lb 16:48
-Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum in manu sua: et ófferens incénsi sacrifícium,~
-placávit iram Dei, et cessávit quassátio a Dómino. (T. P. Allelúia.)
+A stojąc między martwymi i żywymi, trzymając kadzielnicę złotą w ręce swojej, ofiarował kapłan kadzenie i~
+uśmierzył gniew Boga, i ustało utrapienie od Boga. (O. W. Allelúia.)
 
 [Secreta]
-$$$$$$$$$$$
 Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio: quæ nos et ab erróribus univérsis poténter~
 absólvat, et a tótius erípiat perditiónis incúrsu.
 $Per Dominum
 
 [Communio]
 !Łk 6:17-19
-A cała rzesza pragnęła się Go dotknąć, albowiem wychodziła zeń moc i uzdrawiała wszystkich. (T. P. Allelúia.)
+A cała rzesza pragnęła się Go dotknąć, albowiem wychodziła zeń moc i uzdrawiała wszystkich. (O. W. Allelúia.)
 
 [Postcommunio]
-$$$$$$$$$$$
 Exáudi nos, Deus salutáris noster: et pópulum tuum ab iracúndiæ tuæ terróribus líberum, et misericórdiæ tuæ fac~
 largitáte secúrum. Per Dóminum nostrum Jesum Christum Fílium tuum:
 $Qui tecum
