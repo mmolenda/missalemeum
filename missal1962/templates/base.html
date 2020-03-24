@@ -62,16 +62,16 @@
                 <li class="nav-item {% if '/ordo' in request.path %}active{% endif %}">
                     <a class="nav-link" href="/{{ lang }}/ordo">Ordo</a>
                 </li>
-{#                <li class="nav-item {% if '/votive' in request.path %}active{% endif %}">#}
-{#                    <a class="nav-link" href="/{{ lang }}/votive">{{ _('Votive') }} <span class="badge badge-warning">{{ _('New') }}</span></a>#}
-{#                </li>#}
+                <li class="nav-item {% if '/votive' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/votive">{{ _('Votive') }} <span class="badge badge-warning">{{ _('New') }}</span></a>
+                </li>
                 {%  if lang == 'pl' %}
                 <li class="nav-item {% if '/canticum' in request.path %}active{% endif %}">
                     <a class="nav-link" href="/{{ lang }}/canticum">{{ _('Songs') }}</a>
                 </li>
-{#                <li class="nav-item {% if '/oratio' in request.path %}active{% endif %}">#}
-{#                    <a class="nav-link" href="/{{ lang }}/oratio">{{ _('Prayers') }} <span class="badge badge-warning">{{ _('New') }}</span></a>#}
-{#                </li>#}
+                <li class="nav-item {% if '/oratio' in request.path %}active{% endif %}">
+                    <a class="nav-link" href="/{{ lang }}/oratio">{{ _('Prayers') }} <span class="badge badge-warning">{{ _('New') }}</span></a>
+                </li>
                 {% endif %}
                 <li class="nav-item {% if '/supplement' in request.path %}active{% endif %}">
                     <a class="nav-link" href="/{{ lang }}/supplement">{{ _('Supplement') }}</a>
