@@ -3,21 +3,21 @@ Tempore Mortalitatis
 
 [Comment]
 # Tempore Mortalitatis
-! O wybawienie od śmierci w czasie zarazy
+! W czasie śmiertelności lub zarazy
 
 [Introitus]
 !2 Sam 24:16
 Wspomnij, Panie, na Twe przymierze i rzeknij Aniołowi lud bijącemu: powściągnij rękę swoją~
-i niech nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
+i niechaj nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
 !Ps 79:2
 Pasterzu Izraela, posłuchaj: Ty, co jak trzodę wiedziesz ród Józefa.
 $Gloria
 Wspomnij, Panie, na Twe przymierze i rzeknij Aniołowi lud bijącemu: powściągnij rękę swoją~
-i niech nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
+i niechaj nie będzia ta ziemia spustoszona a każda żywa dusza wygubiona. (O. W. Alleluja, alleluja.)
 
 [Oratio]
-Deus, qui non mortem, sed pœniténtiam desíderas peccatórum: pópulum tuum ad te reverténtem~
-propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas.
+Módlmy się. Boże, który nie śmierci, lecz nawrócenia grzesznika pragniesz, wejrzyj łaskawie na lud~
+Twój do Ciebie powracający i dla ufności, jaką położył w Tobie oddal od niego plagi gniewu Twego.
 $Per Dominum
 
 [Lectio]
@@ -61,11 +61,11 @@ V. Wspomóż nas, Boże, nasz Zbawicielu, i dla chwały imienia Twego wybaw nas,
 [Offertorium]
 ! Lb 16:48
 A stojąc między martwymi i żywymi, trzymając kadzielnicę złotą w ręce swojej, ofiarował kapłan kadzenie i~
-uśmierzył gniew Boga, i ustało utrapienie od Boga. (O. W. Allelúia.)
+uśmierzył gniew Boga, i ustało utrapienie od Pana. (O. W. Allelúia.)
 
 [Secreta]
-Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio: quæ nos et ab erróribus univérsis poténter~
-absólvat, et a tótius erípiat perditiónis incúrsu.
+Prosimy Cię, Panie, niech moc ofiary, którą Ci obecnie składamy, przyjdzie nam z pomocą, oczyści nas z~
+wszelkiej zmazy grzechowej i wyrwie nas z niebezpieczeństwa zupełnego zatracenia.
 $Per Dominum
 
 [Communio]
@@ -73,6 +73,6 @@ $Per Dominum
 A cała rzesza pragnęła się Go dotknąć, albowiem wychodziła zeń moc i uzdrawiała wszystkich. (O. W. Allelúia.)
 
 [Postcommunio]
-Exáudi nos, Deus salutáris noster: et pópulum tuum ab iracúndiæ tuæ terróribus líberum, et misericórdiæ tuæ fac~
-largitáte secúrum. Per Dóminum nostrum Jesum Christum Fílium tuum:
-$Qui tecum
+Wysłuchaj nas, Boże i Zbawco nasz, i spraw, aby lud Twój wolny był od obaw gniewu Twego,~
+a przez hojność miłosierdzia Twego, mógł się czuć bezpiecznym.
+$Per Dominum

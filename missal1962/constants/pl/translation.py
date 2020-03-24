@@ -691,7 +691,7 @@ TITLES = {
 
 VOTIVE_MASSES = [
     {'ref': 'tempore-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
-     'tags': ['O wybawienie od śmierci w czasie zarazy']},
+     'tags': ['W czasie śmiertelności lub zarazy']},
     {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
      'tags': ['Adwent']},
     {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
