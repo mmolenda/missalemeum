@@ -3,6 +3,7 @@ import os
 import re
 from typing import List, Union, Pattern
 
+import mistune
 import yaml
 
 from constants.common import CUSTOM_PREFACES, STATIC_DATA_DIR
@@ -84,6 +85,8 @@ def get_supplement(root_path, lang, resource, subdir=None):
             path_args.append(subdir)
         path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
-            return yaml.load(fh)
+            content = yaml.load(fh)
+            content["body"] = mistune.markdown(content["body"])
+            return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")

@@ -1,0 +1,79 @@
+[Name]
+Tempore mortalitatis
+
+[Introitus]
+!2 Reg 24, 16
+Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
+et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+!Ps 79:2
+Qui regis Israël, intende: qui deducis, velut ovem, Ioseph.
+$Gloria
+Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
+et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+
+[Oratio]
+Deus, qui non mortem, sed pœniténtiam desíderas peccatórum: pópulum tuum ad te reverténtem~
+propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas.
+$Per Dominum
+
+[Lectio]
+Lectio libri Regum
+! 2 Reg 24, 15-19 et 25
+In diébus illis: Immísit Dóminus pestiléntiam in Israël, de mane usque ad~
+tempus constítutum, et mórtui sunt ex pópulo, a Dan usque ad Bersabée,~
+septuagínta mília virórum. Cumque extendísset manum suam Ángelus Dómini~
+super Jerúsalem, ut dispérderet eam, misértus est Dóminus super afflictióne,~
+et ait Ángelo percutiénti pópulum: Súfficit: nunc cóntine manum tuam. Erat~
+autem Ángelus Dómini juxta áream Aréuna Jebusǽi. Dixítque David ad Dóminum,~
+cum vidísset Ángelum cædéntem pópulum: Ego sum qui peccávi, ego iníque egi:~
+isti, qui oves sunt, quid fecérunt? Vertátur, óbsecro, manus tua contra me,~
+et contra domum patris mei. Venit autem Gad prophéta ad David in die illa,~
+et dixit ei: Ascénde, et constítue altáre Dómino in área Aréuna Jebusǽi. Et~
+ascéndit David juxta sermónem Gad, quem præcéperat ei Dóminus. Et ædificávit~
+altáre Dómino, et óbtulit holocáusta et pacífica: et propitiátus est Dóminus~
+terræ, et cohíbita est plaga ab Israël.
+
+[Graduale]
+! Ps 106, 20-21
+Misit Dóminus verbum suum, et sanávit eos: et erípuit eos de morte eórum.
+V. Confiteántur Domino misericórdiae ejus: et mirabília ejus fíliis hóminum. Allelúia, allelúia.
+! Ps 68, 2
+V. Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúia.
+
+[GradualeP]
+! Tempore paschali
+! Ps 68, 2
+Allelúia, allelúia.
+V. Salvum me fac, Deus, quóniam intravérunt aquæ usque ad ánimam meam. Allelúia.
+! Zach 8, 7 et 8
+V. Salvábo pópulum meum Israël in die malo, et ero eis in Deum, in veritáte et justítia. Allelúia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 102, 10
+Dómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.
+V. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis.
+V. Adjuva nos, Deus salutáris noster: et propter glóriam nóminis tui. Dómine, líbera nos, et propítius esto peccátis nostris, propter nomen tuum.
+
+[Evangelium]
+@Tempora/Pasc7-6:Evangelium
+
+[Offertorium]
+! Num 16,48
+Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum in manu sua: et ófferens incénsi sacrifícium,~
+placávit iram Dei, et cessávit quassátio a Dómino. (T. P. Allelúia.)
+
+[Secreta]
+Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio: quæ nos et ab erróribus univérsis poténter~
+absólvat, et a tótius erípiat perditiónis incúrsu.
+$Per Dominum
+
+[Communio]
+!Luc 6, 17, 18 et 19
+Multitúdo languéntium, et qui vexabántur a spirítibus immúndis, veniébant ad eum: quia virtus de illo exíbat,~
+et sanábat omnes. (T. P. Allelúia.)
+
+[Postcommunio]
+Exáudi nos, Deus salutáris noster: et pópulum tuum ab iracúndiæ tuæ terróribus líberum, et misericórdiæ tuæ fac~
+largitáte secúrum. Per Dóminum nostrum Jesum Christum Fílium tuum:
+$Qui tecum

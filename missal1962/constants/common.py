@@ -876,6 +876,7 @@ VOTIVE_JESUSETERNALPRIEST = 'votive:JesusEternalPriest:0:w'
 VOTIVE_CROSS = 'votive:Cross:0:r'
 VOTIVE_PASSION = 'votive:Passion:0:r'
 VOTIVE_DEFUNCTORUM = 'votive:Defunctorum:0:b'
+VOTIVE_MORTALITATIS = 'votive:TemporeMortalitatis:0:v'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
