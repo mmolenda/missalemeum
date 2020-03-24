@@ -11,7 +11,7 @@ XXXXXXXXXXX
 Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
 et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
 !Ps 79:2
-Qui regis Israël, intende: qui deducis, velut ovem, Ioseph.
+Pasterzu Izraela, posłuchaj: Ty, co jak trzodę wiedziesz ród Józefa.
 $Gloria
 Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
 et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
@@ -23,22 +23,17 @@ propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla
 $Per Dominum
 
 [Lectio]
-XXXXXXXXXXX
-Lectio libri Regum
-! 2 Reg 24:15-19, 24:25
-In diébus illis: Immísit Dóminus pestiléntiam in Israël, de mane usque ad~
-tempus constítutum, et mórtui sunt ex pópulo, a Dan usque ad Bersabée,~
-septuagínta mília virórum. Cumque extendísset manum suam Ángelus Dómini~
-super Jerúsalem, ut dispérderet eam, misértus est Dóminus super afflictióne,~
-et ait Ángelo percutiénti pópulum: Súfficit: nunc cóntine manum tuam. Erat~
-autem Ángelus Dómini juxta áream Aréuna Jebusǽi. Dixítque David ad Dóminum,~
-cum vidísset Ángelum cædéntem pópulum: Ego sum qui peccávi, ego iníque egi:~
-isti, qui oves sunt, quid fecérunt? Vertátur, óbsecro, manus tua contra me,~
-et contra domum patris mei. Venit autem Gad prophéta ad David in die illa,~
-et dixit ei: Ascénde, et constítue altáre Dómino in área Aréuna Jebusǽi. Et~
-ascéndit David juxta sermónem Gad, quem præcéperat ei Dóminus. Et ædificávit~
-altáre Dómino, et óbtulit holocáusta et pacífica: et propitiátus est Dóminus~
-terræ, et cohíbita est plaga ab Israël.
+Czytanie z Księgi Samuela
+! 2 Sam 24:15-19, 24:25
+W one dni: I przepuścił Pan mór na Izraela, od zarania aż do czasu naznaczonego, i umarło z ludu~
+od Dan aż do Bersabee siedmdziesiąt tysięcy mężów. A gdy wyciągnął rękę swą Anioł Pański nad~
+Jeruzalem, aby je wytracił, zlitował się Pan nad utrapieniem i rzekł Aniołowi lud bijącemu: Dosyć~
+teraz, zawściągnij rękę twoję. A Anioł Pański był podle gumna Arewna Jebuzejczyka. I rzekł Dawid~
+do Pana, gdy ujrzał Anioła bijącego lud: Jamci jest, którym zgrzeszył, jamci źle uczynił: ci, którzy~
+są owce, co uczynili? Niech się obróci, proszę, ręka twoja na mię i na dom ojca mego. I przyszedł~
+Gad dnia onego do Dawida, i rzekł mu: Idź a zbuduj ołtarz Panu na bojewisku Arewna Jebuzejczyka. I~
+szedł Dawid według mowy Gad, którą mu był Pan przykazał. I zbudował tam Dawid ołtarz Panu i ofiarował~
+całopalenie i zapokojne Panu. I zlitował się Pan nad ziemią, i zahamowana jest plaga od Izraela.
 
 [Graduale]
 ! Ps 106:20-21
@@ -52,8 +47,8 @@ V. Wybaw mnie, Boże, bo wody doszły mi po szyję. Alleluja.
 ! Ps 68:2
 Alleluja, alleluja.
 V. Wybaw mnie, Boże, bo wody doszły mi po szyję. Alleluja.
-! Zach 8:7-8
-V. XXXXXXXXXXX Salvábo pópulum meum Israël in die malo, et ero eis in Deum, in veritáte et justítia. Allelúia.
+! Zch 8:7-8
+V. Oto Ja wybawię lud mój z ziemie wschodniéj i z ziemie zachodu słońca, i będą mi ludem, a Ja im będę Bogiem w prawdzie i w sprawiedliwości. Alleluia.
 
 [Tractus]
 ! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
@@ -67,7 +62,7 @@ V. Wspomóż nas, Boże, nasz Zbawicielu, i dla chwały imienia Twego wybaw nas,
 
 [Offertorium]
 XXXXXXXXXXX
-! Lb 16:4
+! Lb 16:48
 Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum in manu sua: et ófferens incénsi sacrifícium,~
 placávit iram Dei, et cessávit quassátio a Dómino. (T. P. Allelúia.)
 
