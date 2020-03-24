@@ -657,6 +657,7 @@ TITLES = {
     constants.VOTIVE_PENT01_0: 'Most Holy Trinity',
     constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
     constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
+    constants.VOTIVE_MORTALITATIS: 'Votive Mass for the Deliverance from Death in Time of Pestilence'
 }
 
 VOTIVE_MASSES = [

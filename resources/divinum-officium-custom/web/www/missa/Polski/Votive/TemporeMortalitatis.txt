@@ -1,0 +1,88 @@
+[Name]
+Tempore mortalitatis
+
+[Comment]
+# Msza o wybawienie od śmierci w czasie zarazy
+! Szaty fioletowe
+
+[Introitus]
+XXXXXXXXXXX
+!2 Reg 24:16
+Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
+et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+!Ps 79:2
+Qui regis Israël, intende: qui deducis, velut ovem, Ioseph.
+$Gloria
+Recordáre, Dómine, testaménti tui, et dic Ángelo percutiénti: Cesset iam manus tua,~
+et non desolétur terra, et ne perdas omnem ánimam vivéntem. (T. P. Allelúia, allelúia.)
+
+[Oratio]
+$$$$$$$$$$$
+Deus, qui non mortem, sed pœniténtiam desíderas peccatórum: pópulum tuum ad te reverténtem~
+propítius réspice; ut, dum tibi devótus exsístit, iracúndiæ tuæ flagélla ab eo cleménter amóveas.
+$Per Dominum
+
+[Lectio]
+XXXXXXXXXXX
+Lectio libri Regum
+! 2 Reg 24:15-19, 24:25
+In diébus illis: Immísit Dóminus pestiléntiam in Israël, de mane usque ad~
+tempus constítutum, et mórtui sunt ex pópulo, a Dan usque ad Bersabée,~
+septuagínta mília virórum. Cumque extendísset manum suam Ángelus Dómini~
+super Jerúsalem, ut dispérderet eam, misértus est Dóminus super afflictióne,~
+et ait Ángelo percutiénti pópulum: Súfficit: nunc cóntine manum tuam. Erat~
+autem Ángelus Dómini juxta áream Aréuna Jebusǽi. Dixítque David ad Dóminum,~
+cum vidísset Ángelum cædéntem pópulum: Ego sum qui peccávi, ego iníque egi:~
+isti, qui oves sunt, quid fecérunt? Vertátur, óbsecro, manus tua contra me,~
+et contra domum patris mei. Venit autem Gad prophéta ad David in die illa,~
+et dixit ei: Ascénde, et constítue altáre Dómino in área Aréuna Jebusǽi. Et~
+ascéndit David juxta sermónem Gad, quem præcéperat ei Dóminus. Et ædificávit~
+altáre Dómino, et óbtulit holocáusta et pacífica: et propitiátus est Dóminus~
+terræ, et cohíbita est plaga ab Israël.
+
+[Graduale]
+! Ps 106:20-21
+Posłał Pan swe słowo, aby ich uleczyć i od zagłady ich wyrwać.
+V. Niech dzięki czynią Panu za Jego miłosierdzie, za Jego cuda dla synów ludzkich. Alleluja, alleluja.
+! Ps 68:2
+V. Wybaw mnie, Boże, bo wody doszły mi po szyję. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+! Ps 68:2
+Alleluja, alleluja.
+V. Wybaw mnie, Boże, bo wody doszły mi po szyję. Alleluja.
+! Zach 8:7-8
+V. XXXXXXXXXXX Salvábo pópulum meum Israël in die malo, et ero eis in Deum, in veritáte et justítia. Allelúia.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 102:10
+Panie, nie postępuj z nami według naszych grzechów ani nie odpłacaj nam według win naszych.
+V. Nie pamiętaj, Panie, dawnych nieprawości naszych. Niech rychło wyjdzie ku nam miłosierdzie Twoje, bo jesteśmy bardzo nieszczęśliwi.
+V. Wspomóż nas, Boże, nasz Zbawicielu, i dla chwały imienia Twego wybaw nas, Panie, i odpuść nam grzechy dla imienia Twego.
+
+[Evangelium]
+@Tempora/Pasc7-6:Evangelium
+
+[Offertorium]
+XXXXXXXXXXX
+! Lb 16:4
+Stetit póntifex inter mórtuos et vivos, habens thuríbulum áureum in manu sua: et ófferens incénsi sacrifícium,~
+placávit iram Dei, et cessávit quassátio a Dómino. (T. P. Allelúia.)
+
+[Secreta]
+$$$$$$$$$$$
+Subvéniat nobis, quǽsumus, Dómine, sacrifícii præséntis oblátio: quæ nos et ab erróribus univérsis poténter~
+absólvat, et a tótius erípiat perditiónis incúrsu.
+$Per Dominum
+
+[Communio]
+!Łk 6:17-19
+A cała rzesza pragnęła się Go dotknąć, albowiem wychodziła zeń moc i uzdrawiała wszystkich. (T. P. Allelúia.)
+
+[Postcommunio]
+$$$$$$$$$$$
+Exáudi nos, Deus salutáris noster: et pópulum tuum ab iracúndiæ tuæ terróribus líberum, et misericórdiæ tuæ fac~
+largitáte secúrum. Per Dóminum nostrum Jesum Christum Fílium tuum:
+$Qui tecum

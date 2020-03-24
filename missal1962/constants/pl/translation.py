@@ -685,10 +685,13 @@ TITLES = {
     constants.VOTIVE_PENT01_0: 'Msza o Trójcy Przenajświętszej',
     constants.VOTIVE_PENT02_5: 'Msza o Najświętszym Sercu Pana Jezusa',
     constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
-    constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych'
+    constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych',
+    constants.VOTIVE_MORTALITATIS: 'Msza o wybawienie od śmierci w czasie zarazy'
 }
 
 VOTIVE_MASSES = [
+    # {'ref': 'tempora-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
+    #  'tags': []},
     {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
      'tags': ['Adwent']},
     {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
