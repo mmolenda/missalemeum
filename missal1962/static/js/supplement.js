@@ -49,7 +49,7 @@ $window.on("load", function () {
             let description = data.body;
             $(renderTemplate($templateContent, {
                 title: title,
-                description: description.split("\n").join("<br />")
+                description: description
             })).appendTo($loadedContent);
         }).done(function() {
             loadedResource = resourceId;
