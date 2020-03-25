@@ -5,7 +5,7 @@ Missa ad postulandam gratiam Spiritus Sancti
 vide Votive/HolySpirit
 
 [Comment]
-# Msza dla uproszenia łask Ducha św.
+# Msza dla uproszenia łask Ducha Świętego
 ! Wotywna
 ! Czwartek
 

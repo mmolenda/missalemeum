@@ -657,10 +657,12 @@ TITLES = {
     constants.VOTIVE_PENT01_0: 'Most Holy Trinity',
     constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
     constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
-    constants.VOTIVE_MORTALITATIS: 'Votive Mass for the Deliverance from Death in Time of Pestilence'
+    constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis'
 }
 
 VOTIVE_MASSES = [
+    {'ref': 'tempore-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
+     'tags': ['For the deliverance from death in time of pestilence']},
     {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
      'tags': ['Advent']},
     {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],

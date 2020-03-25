@@ -677,7 +677,7 @@ TITLES = {
     constants.VOTIVE_APOSTLES: 'Msza o wszystkich śś. Apostołach',
     constants.VOTIVE_APOSTLESP: 'Msza o wszystkich śś. Apostołach',
     constants.VOTIVE_HOLYSPIRIT: 'Msza o Duchu Świętym',
-    constants.VOTIVE_HOLYSPIRIT2: 'Msza dla uproszenia łask Ducha św.',
+    constants.VOTIVE_HOLYSPIRIT2: 'Msza dla uproszenia łask Ducha Świętego',
     constants.VOTIVE_BLESSEDSACRAMENT: 'Msza o Najświętszym Sakramencie',
     constants.VOTIVE_JESUSETERNALPRIEST: 'Msza o Chrystusie, Najwyższym i Wiecznym Kapłanie',
     constants.VOTIVE_CROSS: 'Msza o Krzyżu Świętym',
