@@ -1,0 +1,83 @@
+[Name]
+Tempore Mortalitatis
+
+[Comment]
+# Tempore Mortalitatis
+! For the deliverance from death in time of pestilence
+
+[Introitus]
+!2 Kgs 24:16
+Be mindful, O Lord, of Thy covenant and say to the destroying Angel: Now hold thy hand, and~
+let not the land be made desolate, and destroy not every living soul. (P. T. Alleluia, alleluia.)
+!Ps 79:2
+Give ear, O Thou that rulest Israel: Thou that leadest Joseph like a sheep.
+$Gloria
+Be mindful, O Lord, of Thy covenant and say to the destroying Angel: Now hold thy hand, and~
+let not the land be made desolate, and destroy not every living soul. (P. T. Alleluia, alleluia.)
+
+[Oratio]
+O God, who willest not the death of the sinner but that he should repent: welcome with pardon Thy~
+people’s return to Thee: and so long as they are faithful in Thy service, do Thou in Thy clemency~
+withdraw the scourge of Thy wrath.
+$Per Dominum
+
+[Lectio]
+Lesson from the first book of Kings
+! 2 Kgs 24:15-19, 24:25
+In those days: The Lord sent a pestilence upon Israel, from the morning unto~
+the time appointed, and there died of the people from Dan to Bersabee seventy~
+thousand men. And when the Angel of the Lord had stretched out his hand over~
+Jerusalem to destroy it, the Lord had pity on the affliction, and said to the~
+Angel that slew the people: It is enough: now hold thy hand. And the Angel of~
+the Lord was by the thrashing-floor of Areuna the Jebusite. And David said to~
+the Lord, when he saw the Angel striking the people: It is I, I am he that have~
+sinned, I have done wickedly: these that are the sheep, what have they done?~
+Let Thy hand, I beseech Thee, be turned against me, and against my father’s~
+house. And the Prophet Gad came to David that day, and said: Go up, and build~
+an altar to the Lord in the thrashing-floor of Areuna the Jebusite. And David~
+went up according to the word of Gad which the Lord had commanded him: and he~
+built there an altar to the Lord, and offered holocausts and peace-offerings:~
+and the Lord became merciful to the land, and the plague was stayed from Israel.
+
+[Graduale]
+! Ps 106:20-21
+The Lord sent his word, and healed them: and delivered them from their death.
+V. Let the mercies of the Lord give glory to Him: and His wonderful works to the children of men. Alleluia, alleluia.
+! Ps 68:2
+V. Save me, O God, for the waters are come in even unto my soul. Alleluia.
+
+[GradualeP]
+! In Eastertide
+! Ps 68:2
+Alleluia, alleluia.
+V. Save me, O God, for the waters are come in even unto my soul. Alleluia.
+! Zach 8:7-8
+V. I will save my people Israel in the evil day: and I will be their God in truth and in justice. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+! Ps 102:10
+O Lord, repay us not according to the sins we have committed, nor according to our iniquities.
+V. O Lord, remember not our former iniquities, let Thy mercies speedily prevent us: for we are become exceeding poor.
+V. Help us, O God, our Savior: and for the glory of Thy Name, O Lord, deliver us: and forgive us our sins for Thy Name’s sake.
+
+[Evangelium]
+@Tempora/Pasc7-6:Evangelium
+
+[Offertorium]
+! Num 16:48
+The high priest stood between the dead and the living, having a golden censer in his hand: and offering the~
+sacrifice of incense, he appeased the wrath of God, and the afflic-tion from the Lord ceased. (P. T. Alleluia, alleluia.)
+
+[Secreta]
+Let the sacrifice which we now offer succour us, O Lord; may it wholly release us from sin and deliver us from all ruin and destruction.
+$Per Dominum
+
+[Communio]
+!Luke 6:17-19
+A multitude of sick and they that were troubled with unclean spirits, came to Him: for virtue went out from Him, and healed all. (P. T. Alleluia.)
+
+[Postcommunio]
+Graciously hear us, O God our Savior: deliver Thy people from the terrors of Thy wrath, and assure them of that safety~
+which is the gift of Thy mercy.
+$Per Dominum
