@@ -36,7 +36,7 @@ $window.on("load", function () {
 
     function getResourceId() {
         if (selectedResource === undefined) {
-            let splitUrl = window.location.href.split("/").reverse();
+            let splitUrl = window.location.href.split("?")[0].split("/").reverse();
             if (splitUrl[0] !== urlPart) {
                 selectedResource = splitUrl[0];
             }
