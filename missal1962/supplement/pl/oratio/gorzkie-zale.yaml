@@ -1,11 +1,18 @@
 title: Gorzkie Żale
 tags: []
 body: |
-  Gorzkie Żale to popularne w Polsce nabożeństwo pasyjne, połączone z wystawieniem Najświętszego Sakramentu i kazaniem pasyjnym. Pochodzi ono z początków XVIII w. - po raz pierwszy odprawiono je w 1707 r. Jego tekst zachował oryginalne, staropolskie brzmienie.   
-  Co ciekawe, struktura tego nabożeństwa opiera się na strukturze dawnej Jutrzni. Składają się z trzech części, rozpoczynają się Zachętą (lub Pobudką - analogia do współczesnego Wezwania) i wzbudzeniem intencji (czytanie). W każdej części znajduje się hymn i dwie pieśni (dziś w Jutrzni są dwa psalmy i pieśń ze Starego Testamentu).   
-  Gorzkie Żale dzieli się na Zachętę i trzy części. W każdą niedzielę Wielkiego Postu odprawia się jedną część:   
+  *Gorzkie Żale to popularne w Polsce nabożeństwo pasyjne, połączone z
+  wystawieniem Najświętszego Sakramentu i kazaniem pasyjnym. Pochodzi 
+  ono z początków XVIII w. - po raz pierwszy odprawiono je w 1707 r.
+  w kościele św. Krzyża w Warszawie. 
+  Jego tekst zachował oryginalne, staropolskie brzmienie.   
+  Struktura tego nabożeństwa opiera się na strukturze dawnej 
+  Jutrzni. Składa się ono z trzech części. Rozpoczyna się Pobudką i wzbudzeniem
+  intencji  (czytanie). W każdej części znajduje 
+  się hymn i dwie pieśni. Gorzkie Żale dzieli się na Pobudkę i trzy części.
+  W każdą niedzielę Wielkiego Postu odprawia się jedną część:*   
   
-  Zachęta   
+  ## Pobudka do rozmyślania Męki Pańskiej   
   
   Gorzkie żale przybywajcie, \*   
   Serca nasze przenikajcie.   
@@ -22,7 +29,6 @@ body: |
   Opoki się twarde krają, \*   
   Z grobów umarli powstają.   
 
-
   Cóż jest, pytam, co się dzieje? \*   
   Wszystko stworzenie truchleje!   
 
@@ -32,23 +38,29 @@ body: |
   Uderz, Jezu, bez odwłoki \*   
   W twarde serc naszych opoki!   
 
-  Jezu mój, we krwi ran swoich \*   
+  Jezu mój, we krwi ran Twoich \*   
   Obmyj duszę z grzechów moich!   
 
   Upał serca swego chłodzę, \*   
   Gdy w przepaść męki Twej wchodzę.   
 
-  Część I   
-  Tę część Gorzkich Żali odprawia się w I i IV Niedzielę Wielkiego Postu.   
-  Część I rozpoczyna się od Zachęty.   
+  ## Część I   
 
-  INTENCJA   
+  **Intencja**   
 
-  Przy pomocy łaski Bożej przystępujemy do rozważania męki Pana naszego Jezusa Chrystusa.   
-  Ofiarować ją będziemy Ojcu niebieskiemu na cześć i chwałę Jego Boskiego Majestatu, pokornie Mu dziękując za wielką i niepojętą miłość ku rodzajowi ludzkiemu, iż raczył zesłać Syna swego, aby za nas wycierpiał okrutne męki i śmierć podjął krzyżową. To rozmyślanie ofiarujemy również ku czci Najświętszej Maryi Panny, Matki Bolesnej, oraz ku uczczeniu Świętych Pańskich, którzy wyróżniali się nabożeństwem ku Męce Chrystusowej.   
-  W pierwszej części będziemy rozważali, co Pan Jezus wycierpiał od modlitwy w Ogrójcu aż do niesłusznego przed sądem oskarżenia. Te zniewagi i zelżywości temuż Panu, za nas bolejącemu, ofiarujemy za Kościół święty katolicki, za najwyższego Pasterza z całym duchowieństwem, nadto za nieprzyjaciół krzyża Chrystusowego i wszystkich niewiernych, aby im Pan Bóg dał łaskę nawrócenia i opamiętania.   
+  Przy pomocy łaski Bożej przystępujemy do rozważania męki Pana naszego Jezusa Chrystusa.
+  Ofiarować je będziemymy Ojcu niebieskiemu na cześć i chwałę Jego Boskiego Majestatu, 
+  pokornie Mu dziękując za wielką i niepojętą miłość ku rodzajowi ludzkiemu, iż raczył
+  zesłać Syna swego, aby za nas wycierpiał okrutne męki i śmierć podjął krzyżową. To
+  rozmyślanie ofiarujemy również ku czci Najświętszej Maryi Panny, Matki Bolesnej, oraz ku 
+  uczczeniu Świętych Pańskich, którzy wyróżniali się nabożeństwem ku męce Chrystusowej.   
+  W pierwszej części będziemy rozważać, co Pan Jezus wycierpiał od modlitwy w Ogrojcu aż do 
+  niesłusznego przed sądem oskarżenia. Te zniewagi i zelżywości temuż Panu za nas 
+  bolejącemu ofiarujemy za Kościół święty katolicki, za najwyższego Pasterza z całym 
+  duchowieństwem, nadto za nieprzyjaciół krzyża Chrystusowego i wszystkich niewiernych, 
+  aby im Pan Bóg dał łaskę nawrócenia i opamiętania.
 
-  HYMN   
+  **Hymn**   
 
   Żal duszę ściska, serce boleść czuje, \*   
   Gdy słodki Jezus na śmierć się gotuje; \*   
@@ -75,7 +87,7 @@ body: |
   Żal mi, ach, żal mi ciężkich moich złości \*   
   Dla Twej miłości!   
 
-  LAMENT DUSZY NAD CIERPIĄCYM JEZUSEM   
+  **Płacz duszy nad cierpiącym Jezusem**   
 
   Jezu, na zabicie okrutne, \*   
   Cichy Baranku od wrogów szukany, \*   
@@ -122,7 +134,7 @@ body: |
   Bądź uwielbiony! Bądź wysławiony! \*   
   Boże nieskończony!   
 
-  ROZMOWA DUSZY Z MATKĄ BOLESNĄ   
+  **Rozmowa duszy z Matką Bolesną**   
 
   Ach! Ja Matka tak żałosna! \*   
   Boleść mnie ściska nieznośna. \*   
@@ -157,16 +169,13 @@ body: |
   Któryś za nas cierpiał rany, \*   
   Jezu Chryste, zmiłuj się nad nami!   
 
-  Część II   
+  ##Część II   
 
-  Tę część Gorzkich Żali odprawia się w II i V Niedzielę Wielkiego Postu.   
-  Część II rozpoczyna się od Zachęty.   
-
-  INTENCJA   
+  **Intencja**   
 
   W drugiej części rozmyślania męki Pańskiej będziemy rozważali, co Pan Jezus wycierpiał od niesłusznego przed sądem oskarżenia aż do okrutnego cierniem ukoronowania. Te zaś rany, zniewagi i zelżywości temuż Jezusowi cierpiącemu ofiarujemy, prosząc Go o pomyślność dla Ojczyzny naszej, o pokój i zgodę dla wszystkich narodów, a dla siebie o odpuszczenie grzechów, oddalenie klęsk i nieszczęść doczesnych, a szczególnie zarazy, głodu, ognia i wojny.   
 
-  HYMN   
+  **Hymn**   
 
   Przypatrz się, duszo, jak cię Bóg miłuje, \*   
   Jako dla ciebie sobie nie folguje. \*   
@@ -193,7 +202,7 @@ body: |
   Żal mi, ach, żal mi ciężkich moich złości, \*   
   Dla Twej miłości!   
 
-  LAMENT DUSZY NAD CIERPIĄCYM JEZUSEM   
+  **Płacz duszy nad cierpiącym Jezusem**   
 
   Jezu, od pospólstwa niewinnie \*   
   Jako łotr godzien śmierci obwołany, \*   
@@ -240,7 +249,7 @@ body: |
   Bądź uwielbiony! Bądź wysławiony! \*   
   Boże nieskończony!   
 
-  ROZMOWA DUSZY Z MATKĄ BOLESNĄ   
+  **Rozmowa duszy z Matką Bolesną**   
 
   Ach, widzę Syna mojego \*   
   Przy słupie obnażonego, \*   
@@ -275,16 +284,13 @@ body: |
   Któryś za nas cierpiał rany, \*   
   Jezu Chryste, zmiłuj się nad nami!   
 
-  Część III   
+  ##Część III   
 
-  Tę część Gorzkich Żali odprawia się w III Niedzielę Wielkiego Postu i w Niedzielę Palmową.   
-  Część III rozpoczyna się od Zachęty.   
-
-  INTENCJA   
+  **Intencja**   
 
   W tej ostatniej części będziemy rozważali, co Pan Jezus wycierpiał od chwili ukoronowania aż do ciężkiego skonania na krzyżu. Te bluźnierstwa, zelżywości i zniewagi, jakie Mu wyrządzano, ofiarujemy za grzeszników zatwardziałych, aby Zbawiciel pobudził ich serca zbłąkane do pokuty i prawdziwej życia poprawy oraz za dusze w czyśćcu cierpiące, aby im litościwy Jezus krwią swoją świętą ogień zagasił; prosimy nadto, by i nam wyjednał na godzinę śmierci skruchę za grzechy i szczęśliwe w łasce Bożej wytrwanie.   
 
-  HYMN   
+  **Hymn**   
 
   Duszo oziębła, czemu nie gorejesz? \*   
   Serce me, czemu całe nie truchlejesz? \*   
@@ -316,7 +322,7 @@ body: |
   Któreś ochotnie, Syn Boga jedyny, \*   
   Cierpiał bez winy!   
 
-  LAMENT DUSZY NAD CIERPIĄCYM JEZUSEM   
+  **Płacz duszy nad cierpiącym Jezusem**   
 
   Jezu, od pospólstwa niezbożnie \*   
   Jako złoczyńca z łotry porównany, \*   
@@ -363,7 +369,7 @@ body: |
   Bądź uwielbiony! Bądź wysławiony! \*   
   Boże nieskończony!   
 
-  ROZMOWA DUSZY Z MATKĄ BOLESNĄ   
+  **Rozmowa duszy z Matką Bolesną**   
 
   Ach, Ja Matka boleściwa, \*   
   Pod krzyżem stoję smutliwa, \*   
