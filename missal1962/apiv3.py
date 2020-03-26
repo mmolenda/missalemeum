@@ -14,7 +14,7 @@ from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
 from kalendar.models import Day, Calendar
 from constants.common import LANGUAGES
-from utils import format_propers, get_supplement, format_proper_sections
+from utils import format_propers, get_supplement, format_proper_sections, get_pregenerated_proper
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -40,6 +40,9 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, lang)
+        pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id())
+        if pregenerated_proper is not None:
+            return jsonify(pregenerated_proper)
         return jsonify(format_propers(day))
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
@@ -52,6 +55,9 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
 def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
     proper_id = {i['ref']: i['id'] for i in TRANSLATION[lang].VOTIVE_MASSES}.get(proper_id, proper_id)
     try:
+        pregenerated_proper = get_pregenerated_proper(lang, proper_id)
+        if pregenerated_proper is not None:
+            return jsonify(pregenerated_proper)
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
         return jsonify([{
             "info": {
