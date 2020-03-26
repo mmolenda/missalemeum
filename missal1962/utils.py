@@ -58,9 +58,6 @@ def format_propers(day: 'Day'):
 
 
 def format_proper_sections(propers_vernacular, propers_latin):
-    pregenerated_proper = get_pregenerated_proper(propers_vernacular.lang, propers_vernacular.id)
-    if pregenerated_proper is not None:
-        return pregenerated_proper
     pv = propers_vernacular.serialize()
     pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
     for val in pv:
