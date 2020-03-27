@@ -140,7 +140,12 @@
       "description": "",
       "id": "tempora:Quad6-2:1:v",
       "rank": 1,
-      "supplements": [],
+      "supplements": [
+        {
+          "label": "Reforma Wielkiego Tygodnia w latach 1951-1956",
+          "path": "http://vademecumliturgiczne.pl/2019/04/14/reforma-wielkiego-tygodnia-w-latach-1951-1956-od-liturgii-do-teologii-sladem-wiodacych-myslicieli-ks-stefano-carusi-ibp/"
+        }
+      ],
       "tempora": null,
       "title": "Wielki Wtorek (pre 1955)"
     },

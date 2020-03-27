@@ -11,7 +11,12 @@
       "description": "Wielki Czwartek jest przede wszystkim rocznicą Wieczerzy Pańskiej. Pamięć o ustanowieniu Najświętszej Oﬁary jest przewodnią myślą Mszy św. Jest to oﬁara miłości Chrystusa, który w zamian domaga się od swoich uczniów, by Go naśladowali świętością swojego życia (Ewangelia). Na znak radości kolor szat jest biały, a na Mszy śpiewa się uroczyście Gloria, Dziś obchodzimy więc rocznicę pierwszej Komunii Apostołów.\nW Lekcji św. Paweł mówi, z jakim usposobieniem trzeba przystępować do Stołu Pańskiego. A więc: a) Pamiętać o Oﬁerze Krzyża, która się uobecnia na ołtarzu. b) Zdawać sobie sprawę, że spożywamy nic zwyczajny chleb, ale Ciało Jezusa, c) Miłować się nawzajem, gdyż Miłość do serca przyjmujemy.\nPodczas Mszy św., według polskiego zwyczaju kapłan konsekruje trzy Hostie święte. Jedną spożywa w czasie Mszy, a dwie pozostałe umieszcza w kielichu, aby po ukończeniu Mszy przenieść do Ołtarza wystawienia. Odtąd aż do Wielkiej Soboty nie będzie odprawiana Msza św. Ołtarz jest symbolem Chrystusa. Toteż kapłani usuwają z ołtarzy obrusy, odmawiając przy tym psalm 21. Obrzęd ten symbolizuje obnażenie Jezusa.",
       "id": "tempora:Quad6-4r:1:w",
       "rank": 1,
-      "supplements": [],
+      "supplements": [
+        {
+          "label": "Reforma Wielkiego Tygodnia w latach 1951-1956",
+          "path": "http://vademecumliturgiczne.pl/2019/04/14/reforma-wielkiego-tygodnia-w-latach-1951-1956-od-liturgii-do-teologii-sladem-wiodacych-myslicieli-ks-stefano-carusi-ibp/"
+        }
+      ],
       "tempora": null,
       "title": "Wielki Czwartek (pre 1955)"
     },

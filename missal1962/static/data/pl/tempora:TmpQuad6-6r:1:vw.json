@@ -12,7 +12,12 @@
       "description": "Po śmierci Pana Jezusa, Dusza Jego zstąpiła do otchłani. Ciało Najświętsze spoczęło w Grobie. Dzień dzisiejszy był pierwotnie aliturgiczny to znaczy, że nie odprawiano żadnego nabożeństwa, aż do zmierzchu. Liturgia Wigilii Paschalnej składa się z następujących części:\n1. Poświęcenia ognia,\n2. Śpiew Orędzia Paschalnego,\n3. Proroctwa,\n4. Poświęcenie wody,\n5. Msza Święta.",
       "id": "tempora:Quad6-6r:1:vw",
       "rank": 1,
-      "supplements": [],
+      "supplements": [
+        {
+          "label": "Reforma Wielkiego Tygodnia w latach 1951-1956",
+          "path": "http://vademecumliturgiczne.pl/2019/04/14/reforma-wielkiego-tygodnia-w-latach-1951-1956-od-liturgii-do-teologii-sladem-wiodacych-myslicieli-ks-stefano-carusi-ibp/"
+        }
+      ],
       "tempora": null,
       "title": "Wielka Sobota (pre 1955)"
     },
@@ -459,8 +464,8 @@
             "Ant. Allelúja, allelúja, allelúja.\nAnt. Vespere autem Sabbati, quae lucescit in prima sabbati: venit Maria Magdalene, et altera Maria, videre sepulchrum. Alleluia."
           ],
           [
-            "Wielbi dusza moja Pana *\ni raduje się duch mój w Bogu, Zbawicielu moim.\nBo wejrzał na uniżenie swojej Służebnicy. *\nOto bowiem odtąd błogosławić mnie będą wszystkie pokolenia.\nGdyż wielkie rzeczy uczynił mi Wszechmocny, *\na Jego imię jest święte.\nJego miłosierdzie z pokolenia na pokolenie *\nnad tymi, którzy się Go boją.\nOkazał moc swego ramienia, *\nrozproszył pyszniących się zamysłami serc swoich.\nStrącił władców z tronu, *\na wywyższył pokornych.\nGłodnych nasycił dobrami, *\na bogatych z niczym odprawił.\nUjął się za swoim sługą, Izraelem, *\npomny na swe miłosierdzie,\nJak obiecał naszym ojcom, *\nAbrahamowi i jego potomstwu na wieki.\nChwała Ojcu…\n",
-            "Magníficat *\nánima mea Dóminum,\net exsultávit spíritus meus *\nin Deo salvatóre meo;\nquia respéxit humilitátem ancíllæ suæ, *\necce enim ex hoc beátam me dicent omnes generatiónes.\nQuia fecit mihi magna, qui potens est: *\net sanctum nomen eius,\net misericórdia eius in progénies et progénies *\ntiméntibus eum.\nFecit poténtiam in brácchio suo, *\ndispérsit supérbos mente cordis sui,\ndepósuit poténtes de sede, *\net exaltávit húmiles,\nesuriéntes implévit bonis, *\net dívites dimísit inánes.\nSuscépit Israel, púerum suum, *\nrecordátus misericórdiæ,\nsicut locútus est ad patres nostros, *\nAbraham et sémini eius in sæcula.\nGlória Patri…"
+            "Wielbi dusza moja Pana &#42;\ni raduje się duch mój w Bogu, Zbawicielu moim.\nBo wejrzał na uniżenie swojej Służebnicy. &#42;\nOto bowiem odtąd błogosławić mnie będą wszystkie pokolenia.\nGdyż wielkie rzeczy uczynił mi Wszechmocny, &#42;\na Jego imię jest święte.\nJego miłosierdzie z pokolenia na pokolenie &#42;\nnad tymi, którzy się Go boją.\nOkazał moc swego ramienia, &#42;\nrozproszył pyszniących się zamysłami serc swoich.\nStrącił władców z tronu, &#42;\na wywyższył pokornych.\nGłodnych nasycił dobrami, &#42;\na bogatych z niczym odprawił.\nUjął się za swoim sługą, Izraelem, &#42;\npomny na swe miłosierdzie,\nJak obiecał naszym ojcom, &#42;\nAbrahamowi i jego potomstwu na wieki.\nChwała Ojcu…\n",
+            "Magníficat &#42;\nánima mea Dóminum,\net exsultávit spíritus meus &#42;\nin Deo salvatóre meo;\nquia respéxit humilitátem ancíllæ suæ, &#42;\necce enim ex hoc beátam me dicent omnes generatiónes.\nQuia fecit mihi magna, qui potens est: &#42;\net sanctum nomen eius,\net misericórdia eius in progénies et progénies &#42;\ntiméntibus eum.\nFecit poténtiam in brácchio suo, &#42;\ndispérsit supérbos mente cordis sui,\ndepósuit poténtes de sede, &#42;\net exaltávit húmiles,\nesuriéntes implévit bonis, &#42;\net dívites dimísit inánes.\nSuscépit Israel, púerum suum, &#42;\nrecordátus misericórdiæ,\nsicut locútus est ad patres nostros, &#42;\nAbraham et sémini eius in sæcula.\nGlória Patri…"
           ],
           [
             "Ant. A w wieczór szabatu, który świta na pierwszy dzień tygodnia, przyszła Maria Magdalena i druga Maria obejrzeć grób. Alleluja.",
