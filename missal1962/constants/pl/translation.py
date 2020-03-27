@@ -108,7 +108,7 @@ TITLES = {
     constants.TEMPORA_QUAD6_4: 'Wielki Czwartek',
     constants.TEMPORA_QUAD6_5: 'Wielki Piątek',
     constants.TEMPORA_QUAD6_6: 'Wielka Sobota',
-    constants.TEMPORA_PASC0_0: 'Niedziela Wielkanocna',
+    constants.TEMPORA_PASC0_0: 'Niedziela Zmartwychwstania',
     constants.TEMPORA_PASC0_1: 'Poniedziałek Wielkanocny',
     constants.TEMPORA_PASC0_2: 'Wtorek Wielkanocny',
     constants.TEMPORA_PASC0_3: 'Środa Wielkanocna',
