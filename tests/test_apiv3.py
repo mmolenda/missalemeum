@@ -66,7 +66,7 @@ def test_api_proper_invalid_input(client):
 def test_api_supplement(client):
     resp = client.get('/pl/api/v3/supplement/2-adwent').json
     assert "Adwent" == resp["title"]
-    assert "# Adwent\n\nRok kościelny" in resp["body"]
+    assert "<h1>Adwent</h1>\n<p>Rok kościelny" in resp["body"]
 
 
 def test_api_supplement_subdir(client):
