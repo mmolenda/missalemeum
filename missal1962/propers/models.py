@@ -140,6 +140,8 @@ class Proper(ParsedSource):
     def add_commemorations(self, commemorations: List['Proper']):
         for commemoration in commemorations:
             self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
+            if commemoration.description:
+                self.description += f"\n\n{commemoration.description}"
             for commemorated_section_name, source_section_name in (
                     (COMMEMORATED_ORATIO, ORATIO),
                     (COMMEMORATED_SECRETA, SECRETA),
