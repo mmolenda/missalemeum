@@ -6,7 +6,7 @@ from typing import List, Union, Pattern
 import mistune
 import yaml
 
-from constants.common import CUSTOM_PREFACES, STATIC_DATA_DIR
+from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound, SectionNotFound
 
 
@@ -69,15 +69,15 @@ def format_proper_sections(propers_vernacular, propers_latin):
 
 
 def get_pregenerated_proper(lang, proper_id):
-    path = os.path.join(STATIC_DATA_DIR, lang, f"{proper_id}.json")
+    path = os.path.join(PROPERS_DIR, lang, f"{proper_id}.json")
     if os.path.exists(path):
         with open(path) as fh:
             return json.load(fh)
 
 
-def get_supplement(root_path, lang, resource, subdir=None):
+def get_supplement(lang, resource, subdir=None):
     try:
-        path_args = [root_path, "supplement", lang]
+        path_args = [SUPPLEMENT_DIR, lang]
         if subdir:
             path_args.append(subdir)
         path_args.append(f"{resource}.yaml")

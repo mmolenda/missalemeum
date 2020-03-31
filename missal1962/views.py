@@ -16,7 +16,7 @@ from jinja2 import TemplateNotFound
 
 import controller
 from constants import TRANSLATION
-from constants.common import LANGUAGE_ENGLISH
+from constants.common import LANGUAGE_ENGLISH, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
 from constants.common import LANGUAGES
@@ -105,14 +105,14 @@ class SupplementIndex:
         key = f"{lang}-{subdir}"
         if key not in self.index:
             try:
-                filenames = os.listdir(os.path.join(views.root_path, "supplement", lang, subdir))
+                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR, lang, subdir))
             except FileNotFoundError:
-                raise SupplementNotFound
-            else:
+                filenames = []
+            finally:
                 for filename in sorted(filenames):
                     if filename.endswith(".yaml"):
                         resource_id = filename.rsplit('.', 1)[0]
-                        index_item = get_supplement(views.root_path, lang, resource_id, subdir)
+                        index_item = get_supplement(lang, resource_id, subdir)
                         self.index[key].append(
                             {"title": index_item["title"],
                              "ref": f"{subdir}/{resource_id}",
@@ -178,7 +178,7 @@ def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str =
     if resource is None:
         return render_template_or_404(f"{lang}/supplement-main.html", lang=lang)
     try:
-        supplement_yaml = get_supplement(views.root_path, lang, resource, subdir)
+        supplement_yaml = get_supplement(lang, resource, subdir)
     except SupplementNotFound:
         return render_template_or_404("404.html", lang=lang), 404
     else:

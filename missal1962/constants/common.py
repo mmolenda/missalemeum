@@ -3,9 +3,11 @@ import re
 from collections import defaultdict
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium')
-CUSTOM_DIVOFF_DIR = os.path.join(THIS_DIR, '..', '..', 'resources', 'divinum-officium-custom')
-STATIC_DATA_DIR = os.path.join(THIS_DIR, '..', 'static', 'data')
+RESOURCES_DIR = os.path.join(THIS_DIR, '..', '..', 'resources')
+DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium')
+CUSTOM_DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium-custom')
+PROPERS_DIR = os.path.join(RESOURCES_DIR, 'propers')
+SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'

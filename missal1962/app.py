@@ -5,7 +5,6 @@ from flask import Flask, request
 from flask_babel import Babel
 from werkzeug.routing import BaseConverter, ValidationError
 
-from apiv2 import api as apiv2
 from apiv3 import api as apiv3
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
@@ -31,7 +30,6 @@ app.jinja_env.filters['asterisks2em'] = asterisks2em
 app.jinja_env.filters['newline2br'] = newline2br
 app.url_map.converters['lang'] = LangConverter
 app.register_blueprint(views)
-app.register_blueprint(apiv2)
 app.register_blueprint(apiv3)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
