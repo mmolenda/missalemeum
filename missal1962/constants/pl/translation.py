@@ -108,7 +108,7 @@ TITLES = {
     constants.TEMPORA_QUAD6_4: 'Wielki Czwartek',
     constants.TEMPORA_QUAD6_5: 'Wielki Piątek',
     constants.TEMPORA_QUAD6_6: 'Wielka Sobota',
-    constants.TEMPORA_PASC0_0: 'Niedziela Wielkanocna',
+    constants.TEMPORA_PASC0_0: 'Niedziela Zmartwychwstania',
     constants.TEMPORA_PASC0_1: 'Poniedziałek Wielkanocny',
     constants.TEMPORA_PASC0_2: 'Wtorek Wielkanocny',
     constants.TEMPORA_PASC0_3: 'Środa Wielkanocna',
@@ -949,11 +949,11 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na 4 niedzielę Wielkiego Postu", "path": "http://vetusordo.pl/2019oenncp/"}
     ],
     constants.TEMPORA_QUAD5_0: [
-        {"label": "Okres Męki Pańskiej", "path": "/pl/supplement/7-okres-meki-panskiej"},
+        {"label": "Okres Męki Pańskiej", "path": "/pl/supplement/8-okres-meki-panskiej"},
         {"label": f"{KDE} na 1 niedzielę Męki Pańskiej", "path": "http://vetusordo.pl/objasnieniaennpp/"}
     ],
     constants.TEMPORA_QUAD6_0: [
-        {"label": "Wielki Tydzień", "path": "/pl/supplement/8-wielki-tydzien"},
+        {"label": "Wielki Tydzień", "path": "/pl/supplement/7-wielki-tydzien"},
         {"label": f"{KDE} na 2 niedzielę Męki Pańskiej (Palmową)", "path": "http://vetusordo.pl/objasnieniaennk/"}
     ],
     constants.TEMPORA_QUAD6_6: [
@@ -996,7 +996,7 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na poniedzialek w Oktawie Zesłania Ducha św.", "path": "/pl/supplement/commentary/poniedzialek-po-zeslaniu"}
     ],
     constants.TEMPORA_PENT01_0: [
-        {"label": "Okres po Zesłaniu Ducha św.", "path": "/pl/supplement/10-okres-po-zeslaniu-ducha-sw"},
+        {"label": "Okres po Zesłaniu Ducha św.", "path": "/pl/supplement/11-okres-po-zeslaniu-ducha-sw"},
         {"label": f"{KDE} na uroczystość Trójcy Przenajświętszej", "path": "http://vetusordo.pl/objasnienia2019enuts/"}
     ],
     constants.TEMPORA_PENT01_4: [

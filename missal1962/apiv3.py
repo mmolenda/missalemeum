@@ -84,7 +84,7 @@ def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
 def v3_supplement(resource: str, subdir: str = None, lang: str = LANGUAGE_ENGLISH):
 
     try:
-        supplement_yaml = get_supplement(api.root_path, lang, resource, subdir)
+        supplement_yaml = get_supplement(lang, resource, subdir)
     except SupplementNotFound:
         return jsonify({'error': "Not found"}), 404
     else:

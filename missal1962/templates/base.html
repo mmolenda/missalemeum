@@ -63,11 +63,11 @@
                     <a class="nav-link" href="/{{ lang }}/ordo">Ordo</a>
                 </li>
                 <li class="nav-item {% if '/votive' in request.path %}active{% endif %}">
-                    <a class="nav-link" href="/{{ lang }}/votive">{{ _('Votive') }} <span class="badge badge-warning">{{ _('New') }}</span></a>
+                    <a class="nav-link" href="/{{ lang }}/votive">{{ _('Votive') }}</a>
                 </li>
                 {%  if lang == 'pl' %}
                 <li class="nav-item {% if '/oratio' in request.path %}active{% endif %}">
-                    <a class="nav-link" href="/{{ lang }}/oratio">{{ _('Prayers') }} <span class="badge badge-warning">{{ _('New') }}</span></a>
+                    <a class="nav-link" href="/{{ lang }}/oratio">{{ _('Prayers') }}</a>
                 </li>
                 <li class="nav-item {% if '/canticum' in request.path %}active{% endif %}">
                     <a class="nav-link" href="/{{ lang }}/canticum">{{ _('Songs') }}</a>

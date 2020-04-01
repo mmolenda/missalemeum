@@ -26,7 +26,7 @@
             "*Matt 21:9*\nAnt. Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis."
           ],
           [
-            "Celebrans, stojąc po stronie Lekcji, pozostaje zwrócony do ołtarza i ze złączonymi rękoma śpiewa:"
+            "Celebrans, stojąc po stronie lekcji, pozostaje zwrócony do ołtarza i ze złączonymi rękoma śpiewa:"
           ],
           [
             "℣. Pan z wami.\n℟. I z duchem twoim.\nMódlmy się.\nPobłogo ☩ sław, prosimy Cię, Panie, te gałązki palm i spraw, aby Twój lud, obchodząc w dzisiejszym dniu tę zewnętrzną uroczystość ku czci Twojej, dopełnił jej z największą pobożnością w sposób duchowy: niech odniesie zwycięstwo nad wrogiem i rozmiłuje się w uczynkach miłosierdzia. Przez Chrystusa, Pana naszego.\n℟. Amen.",
@@ -271,6 +271,12 @@
       "description": "Liturgia Niedzieli Palmowej składa się z trzech części: poświęcenia palm, procesji i Mszy świętej. Obrzęd poświęcenia palm ułożony jest na wzór Mszy Katechumenów. Kończy się prefacją, śpiewem Sanctus i poświęceniem. Epistoła ma tu związek z Ewangelią: W Starym Testamencie widzimy procesję po uwolnieniu Żydów z Egiptu, w Nowym, procesję przed zwycięstwem Chrystusa i uwolnieniem nas z niewoli grzechu i szatana. Same palmy symbolizują zwycięstwo, które miało być odniesione nad księciem śmierci, a gałązki oliwne oznaczają przymierze duchowe i miłosierdzie Boże, oraz pokój i błogosławieństwo domom, w które zostaną wniesione.\nPodczas procesji z palmami śpiewa się pięć antyfon. Gdy procesja, po okrążeniu kościoła, powraca przed jego drzwi, za którymi stoi dwóch kantorów. Na przemian z nimi śpiewamy piękny hymn Teodulfa Gloria, laus. Następnie subdiakon uderza krzyżem w drzwi, które się otwierają. Jest to symbol naszego wejścia do niebieskiej Jerozolimy. W Polsce istnieje zwyczaj stacji w kościele, podczas której uderza się krzyż palmą, na pamiątkę policzkowania Chrystusa. Śpiewa się przy tym: „Uderzę Pasterza i rozproszą się owce”.\nCharakter Mszy Świętej jest bolesny. Psalm 21 to psalm Męki, który Chrystus odmawiał na Krzyżu. Krótka, ale bogata w treść Epistoła tłumaczy nam znaczenie krzyża. Chrystus stał się posłusznym Ojcu aż do śmierci, z miłości ku nam. W Niedzielę Palmową odczytywany jest opis Męki Pańskiej według św. Mateusza.",
       "id": "tempora:Quad6-0r:1:rv",
       "rank": 1,
+      "supplements": [
+        {
+          "label": "Reforma Wielkiego Tygodnia w latach 1951-1956",
+          "path": "http://vademecumliturgiczne.pl/2019/04/14/reforma-wielkiego-tygodnia-w-latach-1951-1956-od-liturgii-do-teologii-sladem-wiodacych-myslicieli-ks-stefano-carusi-ibp/"
+        }
+      ],
       "title": "Niedziela Palmowa (pre 1955)"
     },
     "sections": [
@@ -284,7 +290,7 @@
             "*Matt 21:9*\nAnt. Hosánna fílio David: benedíctus, qui venit in nómine Dómini. O Rex Israël: Hosánna in excélsis.\n℣. Dóminus vobíscum.\n℟. Et cum spíritu tuo."
           ],
           [
-            "Celebrans, stojąc po stronie Lekcji, zwrócony do ołtarza, ze złączonymi rękoma śpiewa w tonie ferialnym:"
+            "Celebrans, stojąc po stronie lekcji, zwrócony do ołtarza, ze złączonymi rękoma śpiewa w tonie ferialnym:"
           ],
           [
             "Módlmy się.\nBoże, Ciebie miłować i ukochać jest sprawiedliwością! Rozmnóż w nas niewypowiedzianej łaski twej dary: Tyś nam dał przez śmierć Syna swojego, nadzieję osiągnięcia tego, w co wierzymy: spraw, abyśmy przez jego zmartwychwstanie dojść mogli, dokąd dążymy.\nKtóry z Tobą…",
