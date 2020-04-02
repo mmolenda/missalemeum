@@ -1,7 +1,11 @@
 import json
 import os
+from datetime import date, timedelta
+
+import pytest
 
 from conftest import HERE
+from constants.common import LANGUAGES
 
 
 def test_api_calendar(client):
@@ -27,6 +31,22 @@ def test_api_date(client):
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
     assert "*Syr 45:30" in resp[0]["sections"][0]["body"][0][0]
     assert "*Eccli 45:30" in resp[0]["sections"][0]["body"][0][1]
+
+
+def _get_dates():
+    for lang in LANGUAGES.keys():
+        date_ = date(2020, 4, 1)
+        i = 0
+        while i < 365:
+            yield lang, date_.strftime("%Y-%m-%d")
+            date_ += timedelta(days=1)
+            i += 1
+
+
+@pytest.mark.parametrize("lang,strdate", _get_dates())
+def test_api_date_whole_year(client, lang, strdate):
+    resp = client.get(f'/{lang}/api/v3/date/{strdate}')
+    assert 200 == resp.status_code
 
 
 def test_api_date_invalid_input(client):
