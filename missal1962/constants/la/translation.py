@@ -751,6 +751,7 @@ SECTION_LABELS_MULTI = {
     'GradualeL3': 'Graduale',
     'GradualeL4': 'Graduale',
     'GradualeL5': 'Graduale',
+    'GradualeP': 'Graduale',
     'Graduale': 'Graduale',
     'LectioL1': 'Lectio',
     'LectioL2': 'Lectio',
