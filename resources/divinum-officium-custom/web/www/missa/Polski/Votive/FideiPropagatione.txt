@@ -1,0 +1,98 @@
+[Name]
+Missa pro fidei propagatione
+
+[Comment]
+# Msza o Rozkrzewienie Wiary
+! Wotywna
+! W różnych potrzebach
+
+[Introitus]
+!Ps 66: 2-3
+v. Niech Bóg zmiłuje się się nad nami i nam błogosławi: niech nam~
+ukaże pogodne oblicze i zmiłuje się nad nami, aby na ziemi znano~
+Jego drogę, Jego zbawienie pośród wszystkich ludów. (O. W. Alleluja, alleluja.)
+!Ps 66: 4
+Niechaj Cię, Boże, wysławiają ludy, niech wszystkie narody dają Ci chwałę.
+&Gloria
+v. Niech Bóg zmiłuje się się nad nami i nam błogosławi: niech nam~
+ukaże pogodne oblicze i zmiłuje się nad nami, aby na ziemi znano~
+Jego drogę, Jego zbawienie pośród wszystkich ludów. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+Boże, Ty chcesz, aby wszyscy ludzie zostali zbawieni i doszli~
+do poznania prawdy; prosimy Cię, poślij robotników na swoje~
+żniwo i daj im z całą ufność głosić Twoje swoła, aby szerzyło~
+się światło Twojej Ewangelii i aby wszystkie narody poznały~
+Ciebie, jedynego prawdziwego Boga, i przez Ciebie zesłanego~
+Jezusa Chrystusa, Twojego Syna, Pana naszego.
+$Qui tecum
+
+[Lectio]
+Czytanie z Księgi Syracydesa
+!Syr 36:1-10, 17-19
+Zmiłuj się nad nami, Boże wszystkiego stworzenia, a wejrzyj~
+na nas i ukaż nam światłość zmiłowania Twego; i ześlij strach~
+Twój na narody, które Cię nie szukały, aby poznały, że nie ma Boga,~
+jeno Ty, żeby opowiadały wielkie dzieła Twoje. Podnieś rękę Twą na~
+obce narody, aby oglądały moc Twoją. Bo jak przed oczyma ich~
+pokazałeś swą świętość na nas, tak przed oczyma naszymi będziesz~
+uwielbiony w nich, aby Cię poznali, jak i myśmy poznali, iż nie ma Boga~
+prócz Ciebie, Panie. Wznów znaki i powtórz cuda! Uwielbij rękę i prawe ramię!~
+Wzbudź zapalczywość i wylej gniew! Zgładź przeciwnika i utrap nieprzyjaciela!~
+Przyśpiesz czas i pomnij na koniec, aby wysławiano dziwne dzieła Twoje.~
+Daj świadectwo tym, którzy od początku są stworzeniem Twoim, i wzbudź~
+przepowiadanie, które głosili imię Twe pierwsi Prorocy. Daj zapłatę tym, którzy~
+Cię oczekują, aby Prorocy Twoi okazali się prawdomównymi, i wysłuchaj prośby~
+sług Twoim, według błogosławieństwa Aarona nad ludem Twoim, i prostuj nas~
+na drogę sprawiedliwości; i niech wiedzą wszyscy, którzy mieszkają na ziemi, żeś~
+Ty jest Bóg patrzący na wieki.
+
+[Graduale]
+!Ps 66:6-8
+Niechaj Cię, Boże, wysławiają ludy, niech wszystkie narody dają Ci chwałę. Ziemia wydała swój owoc.
+V. Bóg, nasz Bóg nam błogosławi. Niechaj nam Bóg błogosławi i niech się Go boją wszystkie krańce ziemi. Alleluja, alleluja.
+! Ps 99:2-3
+V. Z radością wykrzykujcie Bogu, wszystkie ziemie: służcie Panu z weselem! Wśród okrzyków radość stawajcie przed Jego obliczem. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+Alleluja, alleluja.
+! Ps 99:1-3
+V. Z radością wykrzykujcie Bogu, wszystkie ziemie; służcie Panu z weselem! Wśród okrzyków radości stawajcie przed Jego obliczem. Alleluja.
+V. Wiedzcie, że tylko Pan jest Bogiem; On sam nas stworzył, my Jego własnością. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! Ps 99:2
+Wśród pogan głoście chwałę Pana, Jego cuda wśród wszystkich narodów
+V. Bo wielki jest Pan, wielkiej godzien chwały, ponad wszystkich bogów straszliwy.
+V. Bo wszystkie bogi pogan ułudą, a Pan niebiosa uczynił.
+
+[Evangelium]
+Słowa ++ Ewangelii według świętego Mateusza.
+!Mt 9:35-38
+Onego czasu: Obchodzi Jezus wszystkie miasta i wnioski nauczając w synagogach, głosząc~
+ewangelię Królestwa i uzdrawiając wszelką chorobę i wszelką niemoc. A widząc rzesze ulitował~
+się nad nimi, że byli strudzeni i pouczeni jako owce bez pasterza. Wtedy rzekł uczniom: «Żniwo~
+wprawdzie wielkie a robotników mało. Proście tędy Pana żniwa, aby wysłał robotników na żniło swoje».
+
+[Offertorium]
+!Ps 95:7-9
+Oddajcie Panu, rodziny narodów, oddajcie Panu chwałę i potęgę; oddajcie Panu chwałę Jego imienia. Ofiary nieście~
+i wschodźcie do Jego przedsieni, uczcijcie Pana w świętym Jego Majestacie. (O. W. Alleluja.)
+
+[Secreta]
+Obrońco nasz, Boże spojrzyj na nas i wejrzyj na twarz Pomazańca Twego, który samego siebie wydał na okup za~
+wszystkich, i spraw, by od wschodu słońca aż do zachodu było chwalone imię Twoje wśród pogan, i żeby na każdym~
+miejscu była święcona i składana imieniu Twemu ofiara czysta.
+$Per eundem
+
+[Communio]
+!Ps 116:1-2
+Chwalcie Pana, wszystkie narody, wysławiajcie Go, wszystkie ludy. Bo miłosierdzia Jego nad nami utwierdzone,~
+a wierność Pańska trwa na wieki. (O. W. Alleluja.)
+
+[Postcommunio]
+Umocnieni darem naszego odkupienia prosimy Cię, Panie aby dzięki temu Sakramentowi wiecznego zbawienia prawdziwa~
+wiara czyniła nieustannie postępy.
+$Per Dominum

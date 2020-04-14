@@ -686,7 +686,8 @@ TITLES = {
     constants.VOTIVE_PENT02_5: 'Sanctissimi Cordis Domini Nostri Jesu Christi',
     constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
     constants.VOTIVE_DEFUNCTORUM: 'Missa Defunctorum Quotidianis',
-    constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis'
+    constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis',
+    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione'
 }
 
 VOTIVE_MASSES = []
