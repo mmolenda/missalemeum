@@ -24,25 +24,27 @@ log = logging.getLogger(__name__)
 class Observance:
     """
     A class representing a single observance, such as "The first Friday after Pentecost" or "Assumption of Mary".
-    It parses observance's ID and extracts weekday, day's class/rank and human readable identifier.
+    It parses observance's ID and extracts weekday, day's class/rank, human readable identifier and vestment color.
 
     Example:
-      'tempora:Epi2-4:4'
+      'tempora:Epi2-4:4:g'
       rank: 4
       weekday: 3
       name: Epi2-4
+      color: green
 
-    Each identifier consists of three colon-separated elements:
+    Each identifier consists of four colon-separated elements:
       flexibility - determines if it's a fixed (sancti) or movable (tempora) observance
       identifier - a unique human readable observance identifier. In case of movable
         days it's a day's name, in case of 'sancti' days it contains a date
         in format %m-%d
       rank - observance's class, a number between 1 and 4
+      vestment color - a string consisting of one ore more concatenated first letters of vestment color
 
     Example:
-      'tempora:Epi2-3:4' - means movable day of fourth class
-        which is third feria day (Wednesday) in second week after Epiphany
-      'sancti:11-19:4' - means a fixed day of fourth class falling on 19 Nov
+      'tempora:Epi2-3:4:g' - means movable day of fourth class
+        which is third feria day (Wednesday) in second week after Epiphany, vestment color is green
+      'sancti:11-19:4:w' - means a fixed day of fourth class falling on 19 Nov, color is white
     """
 
     lang = None
