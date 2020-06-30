@@ -252,7 +252,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                     "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
     # Ember Friday of September, commemoration of S. Eustachii et Sociorum Martyrum
     ((2019, 9, 20), "Præsta, quǽsumus, omnípotens", "Accépta tibi sint, Dómine, quǽsumus", "Quǽsumus, omnípotens Deus",
-                    "Eustachii", "Deus, qui nos concedis sanctorum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
+                    "Eustachii", "Deus, qui nos concédis sanctórum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
     # S. Matthæi Apostoli, commemoration of Ember Saturday of September
     ((2019, 9, 21), "Beáti Apóstoli et Evangelístæ", "Supplicatiónibus beáti Matthæi", "Percéptis, Dómine, sacraméntis",
                     "Sabbato Quattuor Temporum Septembris", "Omnípotens sempitérne Deus", "Concéde, quǽsumus, omnípotens", "Perfíciant in nobis, Dómine"),
@@ -264,7 +264,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                     "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
-                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Coeléstibus refécti sacraméntis"),
+                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Cœléstibus refécti sacraméntis"),
     # S. Francisci Xaverii Confessoris, commemoration of Advent day
     ((2019, 12, 3), "Deus, qui Indiárum", "Præsta nobis, quǽsumus", "Quǽsumus, omnípotens Deus:",
                     "Dominica I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
@@ -372,8 +372,12 @@ def _get_proper_fixtures_english():
         return list(json.load(fh).items())
 
 
+# fixed_fixtures = {}
+
+
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_english())
 def test_all_propers_english(strdate, expected_sections):
+    # fixed_fixtures[strdate] = expected_sections
     missal = get_missal(2020, 'en')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
     tempora_name = day.get_tempora_name()
@@ -382,5 +386,9 @@ def test_all_propers_english(strdate, expected_sections):
     for i, expected_section in enumerate(expected_sections):
         assert expected_section['id'] == proper_serialized[i]['id'], \
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+        # if not expected_section['body'] in proper_serialized[i]['body']:
+        #     expected_section['body'] = proper_serialized[i]['body'][:120]
         assert expected_section['body'] in proper_serialized[i]['body'], \
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+    # with open('/tmp/ff.json', 'w') as fh:
+    #     json.dump(fixed_fixtures, fh, indent=2, sort_keys=True)

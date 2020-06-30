@@ -543,11 +543,11 @@ TEMPORA_NAT1_0 = 'tempora:Nat1-0:2:w'  # Sunday in the Octave of Nativity
 TEMPORA_NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
 TEMPORA_NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
 
-TEMPORA_C_10A = 'tempora:C10a:4:v'  # B. M. V. Saturdays in Advent
-TEMPORA_C_10B = 'tempora:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
-TEMPORA_C_10C = 'tempora:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
-TEMPORA_C_10PASC = 'tempora:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
-TEMPORA_C_10T = 'tempora:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+TEMPORA_C_10A = 'commune:C10a:4:v'  # B. M. V. Saturdays in Advent
+TEMPORA_C_10B = 'commune:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
+TEMPORA_C_10C = 'commune:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+TEMPORA_C_10PASC = 'commune:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
+TEMPORA_C_10T = 'commune:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 # SANCTI - days which have fixed date
 SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
