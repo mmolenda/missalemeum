@@ -11,7 +11,7 @@ from constants import TRANSLATION
 from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT,
-                              OBSERVANCES_WITHOUT_OWN_PROPER)
+                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -248,10 +248,17 @@ class ProperParser:
 
     def _amend_sections_contents(self, proper):
         gradual = proper.get_section(GRADUALE)
-        if self.config.strip_alleluia is True and gradual is not None:
-            body = gradual.body
-            for i, line in enumerate(body):
-                body[i] = re.sub(PATTERN_ALLELUIA, "", line)
+        if gradual is not None:
+            if self.config.strip_alleluia is True:
+                for i, line in enumerate(gradual.body):
+                    gradual.body[i] = re.sub(PATTERN_ALLELUIA, "", line)
+            if self.config.strip_tract is True:
+                new_body = []
+                for line in gradual.body:
+                    if re.search(PATTERN_TRACT, line):
+                        break
+                    new_body.append(line)
+                gradual.body = new_body
         return proper
 
     def _translate_section_titles(self, proper, lang):

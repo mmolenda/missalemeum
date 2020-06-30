@@ -198,12 +198,15 @@ class ProperConfig:
     preface = None
     inter_readings_section = None
     strip_alleluia = False
+    strip_tract = False
 
     def __init__(self, preface: str = None,
                  inter_readings_section: str = None,
-                 strip_alleluia: bool = False):
+                 strip_alleluia: bool = False,
+                 strip_tract: bool = False):
         # inter_readings_section == None - show all sections defined in the source
         assert inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
         self.preface = preface
         self.inter_readings_section = inter_readings_section
         self.strip_alleluia = strip_alleluia
+        self.strip_tract = strip_tract

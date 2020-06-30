@@ -223,7 +223,7 @@ class Day:
                 rank: int = 4
                 preface: str = get_custom_preface(inferred_observances)
             preface = preface if preface is not None else PREFATIO_COMMUNIS
-            config: ProperConfig = ProperConfig(preface=preface, strip_alleluia=True)
+            config: ProperConfig = ProperConfig(preface=preface, strip_alleluia=True, strip_tract=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank

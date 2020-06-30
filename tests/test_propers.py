@@ -221,6 +221,24 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
     assert any([PATTERN_ALLELUIA.search(i, re.I) for i in gradual_vernacular + gradual_latin]) is not stripped
 
 
+@pytest.mark.parametrize("date_,stripped", [
+    ((2020, 2, 9), False),
+    ((2020, 2, 13), True),
+    ((2020, 2, 14), True),
+    ((2020, 2, 16), False),
+    ((2020, 2, 17), True),
+    ((2020, 2, 18), True),
+    ((2020, 2, 23), False),
+    ((2020, 2, 24), True),
+])
+def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, stripped):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    gradual_vernacular = proper_vernacular.get_section(GRADUALE).body
+    gradual_latin = proper_latin.get_section(GRADUALE).body
+    assert any([re.search(re.compile(PATTERN_TRACT), i) for i in gradual_vernacular + gradual_latin]) is not stripped
+
+
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"
                          "comm_collect_sub,comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
     # St. Matthias, Apostle, commemoration of Ember Saturday of Lent
