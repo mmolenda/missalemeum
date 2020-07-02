@@ -25,6 +25,7 @@ PREFATIO_NAT = 'Nat'
 PREFATIO_EPI = 'Epi'
 PREFATIO_OMIT = 'prefatio_omit'
 PREFATIO_LENT = 'Quad'
+PREFATIO_ASCENSION = 'Asc'
 
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
@@ -36,7 +37,10 @@ PATTERN_ADVENT_FERIA_BEFORE_17 = re.compile('tempora:Adv\d-[1-6]:3')
 PATTERN_POST_EPIPHANY_SUNDAY = re.compile(r'^tempora:Epi\d-0')
 PATTERN_PRE_LENTEN = re.compile(r'^tempora:Quadp\d')
 PATTERN_LENT = re.compile(r'^tempora:Quad(p3-[3-6]|\d)')
+PATTERN_LENT_PREFATIO = re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)')
 PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
+PATTERN_EASTER_PREFATIO = re.compile(r'^tempora:Pasc([0-4]|5-0|5-1|5-2|5-3)')
+PATTERN_ASCENSION_PREFATIO = re.compile(r'^tempora:Pasc(5-4|5-5|5-6|6-0|6-1|6-2|6-3|6-4|6-5)')
 PATTERN_LENT_SUNDAY = re.compile(r'^tempora:Quad\d-0.*')
 PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0r*:\d:\w$')
 PATTERN_TEMPORA_SUNDAY_CLASS_1 = re.compile(r'^tempora:.*-0r*:1:\w$')
@@ -56,6 +60,7 @@ PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2:\w$')
 PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3:\w$')
 PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile('allel[uú][ij]a.*', re.IGNORECASE)
+PATTERN_TRACT = re.compile('.*tra[ck]t.*', re.IGNORECASE)
 INTROIT = 'Introitus'
 ORATIO = 'Oratio'
 LECTIO = 'Lectio'
@@ -542,11 +547,11 @@ TEMPORA_NAT1_0 = 'tempora:Nat1-0:2:w'  # Sunday in the Octave of Nativity
 TEMPORA_NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
 TEMPORA_NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
 
-TEMPORA_C_10A = 'tempora:C10a:4:v'  # B. M. V. Saturdays in Advent
-TEMPORA_C_10B = 'tempora:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
-TEMPORA_C_10C = 'tempora:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
-TEMPORA_C_10PASC = 'tempora:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
-TEMPORA_C_10T = 'tempora:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
+TEMPORA_C_10A = 'commune:C10a:4:v'  # B. M. V. Saturdays in Advent
+TEMPORA_C_10B = 'commune:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
+TEMPORA_C_10C = 'commune:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
+TEMPORA_C_10PASC = 'commune:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
+TEMPORA_C_10T = 'commune:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 # SANCTI - days which have fixed date
 SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
@@ -1029,19 +1034,20 @@ for id_, sections in EXCLUDE_SECTIONS:
 
 # Earlier prefaces takes precedence.
 CUSTOM_PREFACES = (
-    (TEMPORA_PENT02_0, PREFATIO_TRINITATE),  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
     (SANCTI_01_01, PREFATIO_NAT),
     (SANCTI_01_06, PREFATIO_EPI),
     (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
     (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul
     (SANCTI_07_25, PREFATIO_APOSTOLIS),  # st. James, the Apostle
     (SANCTI_12_21, PREFATIO_APOSTOLIS),  # st. Thomas, the Apostle
+    (SANCTI_05_11, PREFATIO_APOSTOLIS),  # Sts. Philip and James
     (SANCTI_06_24, PREFATIO_COMMUNIS),  # St. John the Baptist
     (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
-    (PATTERN_EASTER, PREFATIO_PASCHAL),
+    (PATTERN_EASTER_PREFATIO, PREFATIO_PASCHAL),
     (TEMPORA_QUAD6_5, PREFATIO_OMIT),
-    (re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)'), PREFATIO_LENT)  # Lent until Saturday before Passion Sunday
+    (PATTERN_LENT_PREFATIO, PREFATIO_LENT),  # Lent until Saturday before Passion Sunday
+    (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION)  # From Ascension Sunday till Friday before Pentecost Vigil
 )
 
 CUSTOM_INTER_READING_SECTIONS = {

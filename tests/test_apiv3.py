@@ -35,7 +35,7 @@ def test_api_date(client):
 
 def _get_dates():
     for lang in LANGUAGES.keys():
-        date_ = date(2020, 4, 1)
+        date_ = date(2020, 7, 1)
         i = 0
         while i < 365:
             yield lang, date_.strftime("%Y-%m-%d")

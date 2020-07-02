@@ -221,6 +221,24 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
     assert any([PATTERN_ALLELUIA.search(i, re.I) for i in gradual_vernacular + gradual_latin]) is not stripped
 
 
+@pytest.mark.parametrize("date_,stripped", [
+    ((2020, 2, 9), False),
+    ((2020, 2, 13), True),
+    ((2020, 2, 14), True),
+    ((2020, 2, 16), False),
+    ((2020, 2, 17), True),
+    ((2020, 2, 18), True),
+    ((2020, 2, 23), False),
+    ((2020, 2, 24), True),
+])
+def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, stripped):
+    missal = get_missal(date_[0], language)
+    proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
+    gradual_vernacular = proper_vernacular.get_section(GRADUALE).body
+    gradual_latin = proper_latin.get_section(GRADUALE).body
+    assert any([re.search(re.compile(PATTERN_TRACT), i) for i in gradual_vernacular + gradual_latin]) is not stripped
+
+
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"
                          "comm_collect_sub,comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
     # St. Matthias, Apostle, commemoration of Ember Saturday of Lent
@@ -234,7 +252,7 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
                     "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
     # Ember Friday of September, commemoration of S. Eustachii et Sociorum Martyrum
     ((2019, 9, 20), "Præsta, quǽsumus, omnípotens", "Accépta tibi sint, Dómine, quǽsumus", "Quǽsumus, omnípotens Deus",
-                    "Eustachii", "Deus, qui nos concedis sanctorum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
+                    "Eustachii", "Deus, qui nos concédis sanctórum", "Múnera tibi, Dómine, nostra", "Præsta nobis, quǽsumus, Dómine"),
     # S. Matthæi Apostoli, commemoration of Ember Saturday of September
     ((2019, 9, 21), "Beáti Apóstoli et Evangelístæ", "Supplicatiónibus beáti Matthæi", "Percéptis, Dómine, sacraméntis",
                     "Sabbato Quattuor Temporum Septembris", "Omnípotens sempitérne Deus", "Concéde, quǽsumus, omnípotens", "Perfíciant in nobis, Dómine"),
@@ -246,7 +264,7 @@ def test_alleluia_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, st
                     "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
-                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Coeléstibus refécti sacraméntis"),
+                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Cœléstibus refécti sacraméntis"),
     # S. Francisci Xaverii Confessoris, commemoration of Advent day
     ((2019, 12, 3), "Deus, qui Indiárum", "Præsta nobis, quǽsumus", "Quǽsumus, omnípotens Deus:",
                     "Dominica I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
@@ -311,12 +329,12 @@ def test_excluded_commemorations(date_):
         assert None is proper_latin.get_section(stripped_section)
 
 
-def _get_proper_fixtures_polish():
-    with open(os.path.join(HERE, 'fixtures/propers_polish_2020.json')) as fh:
+def _get_proper_fixtures(fixture):
+    with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         return list(json.load(fh).items())
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_polish())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_polish_2020.json"))
 def test_all_propers_polish(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -330,12 +348,7 @@ def test_all_propers_polish(strdate, expected_sections):
             f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-def _get_proper_fixtures_latin():
-    with open(os.path.join(HERE, 'fixtures/propers_latin_2020.json')) as fh:
-        return list(json.load(fh).items())
-
-
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_latin())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_latin_2020.json"))
 def test_all_propers_latin(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -349,12 +362,7 @@ def test_all_propers_latin(strdate, expected_sections):
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-def _get_proper_fixtures_english():
-    with open(os.path.join(HERE, 'fixtures/propers_english_2020.json')) as fh:
-        return list(json.load(fh).items())
-
-
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_english())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_english_2020.json"))
 def test_all_propers_english(strdate, expected_sections):
     missal = get_missal(2020, 'en')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
