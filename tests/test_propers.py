@@ -329,12 +329,12 @@ def test_excluded_commemorations(date_):
         assert None is proper_latin.get_section(stripped_section)
 
 
-def _get_proper_fixtures_polish():
-    with open(os.path.join(HERE, 'fixtures/propers_polish_2020.json')) as fh:
+def _get_proper_fixtures(fixture):
+    with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         return list(json.load(fh).items())
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_polish())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_polish_2020.json"))
 def test_all_propers_polish(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -348,12 +348,7 @@ def test_all_propers_polish(strdate, expected_sections):
             f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-def _get_proper_fixtures_latin():
-    with open(os.path.join(HERE, 'fixtures/propers_latin_2020.json')) as fh:
-        return list(json.load(fh).items())
-
-
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_latin())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_latin_2020.json"))
 def test_all_propers_latin(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -367,15 +362,10 @@ def test_all_propers_latin(strdate, expected_sections):
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-def _get_proper_fixtures_english():
-    with open(os.path.join(HERE, 'fixtures/propers_english_2020.json')) as fh:
-        return list(json.load(fh).items())
-
-
 # fixed_fixtures = {}
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures_english())
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_english_2020.json"))
 def test_all_propers_english(strdate, expected_sections):
     # fixed_fixtures[strdate] = expected_sections
     missal = get_missal(2020, 'en')
