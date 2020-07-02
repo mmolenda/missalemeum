@@ -362,12 +362,8 @@ def test_all_propers_latin(strdate, expected_sections):
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-# fixed_fixtures = {}
-
-
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_english_2020.json"))
 def test_all_propers_english(strdate, expected_sections):
-    # fixed_fixtures[strdate] = expected_sections
     missal = get_missal(2020, 'en')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
     tempora_name = day.get_tempora_name()
@@ -376,9 +372,5 @@ def test_all_propers_english(strdate, expected_sections):
     for i, expected_section in enumerate(expected_sections):
         assert expected_section['id'] == proper_serialized[i]['id'], \
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-        # if not expected_section['body'] in proper_serialized[i]['body']:
-        #     expected_section['body'] = proper_serialized[i]['body'][:120]
         assert expected_section['body'] in proper_serialized[i]['body'], \
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-    # with open('/tmp/ff.json', 'w') as fh:
-    #     json.dump(fixed_fixtures, fh, indent=2, sort_keys=True)

@@ -13,7 +13,8 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER, PATTERN_PRE_LENTEN,
                               PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE, CUSTOM_INTER_READING_SECTIONS,
                               SUNDAY, PATTERN_POST_EPIPHANY_SUNDAY, TEMPORA_PENT23_0, INTROIT, OFFERTORIUM, COMMUNIO,
-                              TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, TEMPORA_PASC5_0, TEMPORA_PASC5_4)
+                              TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, TEMPORA_PASC5_0, TEMPORA_PASC5_4,
+                              TEMPORA_PENT01_0A)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
 from utils import get_custom_preface, match
@@ -245,7 +246,7 @@ class Day:
         if day.celebration[0].id == TEMPORA_PENT01_0:
             # "Trinity Sunday" replaces "1st Sunday after Pentecost"; use the latter in
             # following days without the own proper
-            return Observance(TEMPORA_PENT01_0, date_, self.calendar.lang)
+            return Observance(TEMPORA_PENT01_0A, date_, self.calendar.lang)
         if day.celebration[0].id == TEMPORA_NAT2_0:
             # When the last Sunday is the feast of Holy Name, use proper from Octave of the Nativity
             return Observance(SANCTI_01_01, date_, self.calendar.lang)
