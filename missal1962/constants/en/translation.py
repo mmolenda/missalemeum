@@ -920,6 +920,7 @@ SUPPLEMENTS = {
     constants.SANCTI_06_29: [{"label": SERMONRY_LABEL, "path": "{}saints-peter-and-paul".format(SERMONRY_URL)},],
     constants.SANCTI_07_01: [{"label": SERMONRY_LABEL, "path": "{}precious-blood".format(SERMONRY_URL)},],
     constants.SANCTI_07_02: [{"label": SERMONRY_LABEL, "path": "{}visitation-blessed-virgin-mary".format(SERMONRY_URL)},],
+    constants.SANCTI_07_03: [{"label": SERMONRY_LABEL, "path": "{}saint-irenaeus".format(SERMONRY_URL)},],
     constants.SANCTI_08_15: [{"label": SERMONRY_LABEL, "path": "{}assumption-of-the-blessed-virgin-mary".format(SERMONRY_URL)},],
     constants.SANCTI_09_29: [{"label": SERMONRY_LABEL, "path": "{}dedication-of-saint-michael-the-archangel".format(SERMONRY_URL)},],
     constants.SANCTI_10_07: [{"label": SERMONRY_LABEL, "path": "{}our-lady-of-the-rosary".format(SERMONRY_URL)},],
