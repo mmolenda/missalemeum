@@ -5,6 +5,7 @@ from flask import Flask, request
 from flask_babel import Babel
 from werkzeug.routing import BaseConverter, ValidationError
 
+from __version__ import __version__
 from apiv3 import api as apiv3
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
@@ -37,8 +38,11 @@ babel = Babel(app)
 
 
 @app.context_processor
-def inject_available_langs():
-    return {"langs": LANGUAGES}
+def inject_globals():
+    return {
+        "version": __version__,
+        "langs": LANGUAGES
+    }
 
 
 @babel.localeselector
