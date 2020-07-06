@@ -50,3 +50,5 @@ docs/_build/
 target/
 .idea/
 *.iml
+
+missal1962/__version__

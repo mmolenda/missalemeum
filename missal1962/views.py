@@ -14,6 +14,7 @@ from flask import render_template, Blueprint, request, send_from_directory, redi
 from flask_babel import _
 from jinja2 import TemplateNotFound
 
+import __version__
 import controller
 from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH, SUPPLEMENT_DIR
@@ -34,10 +35,11 @@ views = Blueprint("views", __name__)
 
 
 def render_template_or_404(template, lang, **context):
+    version = __version__.__version__
     try:
-        return render_template(template, lang=lang, **context)
+        return render_template(template, lang=lang, version=version, **context)
     except TemplateNotFound:
-        return render_template('404.html', lang=lang), 404
+        return render_template('404.html', lang=lang, version=version), 404
 
 
 def infer_locale(f):

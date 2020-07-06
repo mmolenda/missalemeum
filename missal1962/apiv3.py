@@ -8,6 +8,7 @@ import logging
 
 from flask import jsonify, Blueprint
 
+import __version__
 import controller
 from constants import TRANSLATION
 from constants.common import LANGUAGE_ENGLISH
@@ -114,3 +115,10 @@ def v3_ical(rank: int = 2, lang: str = LANGUAGE_ENGLISH):
     response = flask.Response(controller.get_ical(lang, rank))
     response.headers['Content-Type'] = 'text/calendar; charset=utf-8'
     return response
+
+
+@api.route('/<string:lang>/api/v3/version')
+@api.route('/<string:lang>/api/v3/version')
+@validate_locale
+def v3_version(lang: str = LANGUAGE_ENGLISH):
+    return jsonify({"version": __version__.__version__})

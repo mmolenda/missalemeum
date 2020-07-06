@@ -60,7 +60,8 @@ for fourth Advent Sunday
 * `GET {lang}/api/v3/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software 
 such as Google Calendar. `rank` (optional, default 2) tells feast of which class to include 
 (e.g. rank 3 will include classes 1, 2 and 3).    
-* `GET /static/data/{lang}/ordo.json` get invariable texts, or ordinary of the Mass    
+* `GET /static/data/{lang}/ordo.json` get invariable texts, or ordinary of the Mass
+* `GET {lang}/api/v3/version` get application's version    
 
 ## Docker
 
