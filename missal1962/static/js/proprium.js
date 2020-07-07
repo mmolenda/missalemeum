@@ -19,14 +19,28 @@ $window.on("load", function () {
 
     const $sidebarUl = $sidebar.find("ul");
 
-    let ploader = new ProperContentLoader(config.dateEndpoint, config.lang, function() {
+    let ploaderByDate = new ProperContentLoader(config.dateEndpoint, config.lang, function() {
         markSidebarItemActiveWithReload(getResourceId());
         $datetimepicker4.datetimepicker("date", getResourceId());
     });
 
+    let ploaderById = new ProperContentLoader(config.properEndpoint, config.lang, function() {
+        loadSidebar(moment().format("YYYY-MM-DD"), function() {});
+        $sidebar.find("li.sidebar-item").removeClass("active");
+    });
+
+    function loadProper(resourceId, isHistoryReplace) {
+        if (moment(resourceId, "YYYY-MM-DD", true).isValid()) {
+            ploaderByDate.load(resourceId, isHistoryReplace);
+        } else {
+            ploaderById.load(resourceId, isHistoryReplace);
+        }
+
+    }
+
     function init() {
         moment.locale(config.lang);
-        ploader.load(getResourceId(), false);
+        loadProper(getResourceId(), false);
     }
 
     init();
@@ -42,11 +56,15 @@ $window.on("load", function () {
             let url = window.location.href.replace(/#.*/, "");
             selectedResource = url.split('/').reverse()[0];
         }
-        let tmpDate = moment(selectedResource, "YYYY-MM-DD");
-        if (! tmpDate.isValid()) {
-            tmpDate = moment();
+        if (selectedResource === config.lang) {
+            return moment().format("YYYY-MM-DD");
         }
-        return tmpDate.format("YYYY-MM-DD");
+        let tmpDate = moment(selectedResource, "YYYY-MM-DD", true);
+        if (tmpDate.isValid()) {
+            return tmpDate.format("YYYY-MM-DD");
+        } else {
+            return selectedResource;
+        }
     }
 
     /**
@@ -161,7 +179,7 @@ $window.on("load", function () {
      **/
     $datetimepicker4.find("input").on("input", function () {
         setResourceId(this.value);
-        ploader.load(getResourceId(), false);
+        loadProper(getResourceId(), false);
         if ($searchInput.val() !== "") {
             $searchInput.val("").trigger("input");
         }
@@ -170,12 +188,12 @@ $window.on("load", function () {
     $(document).on('click', '#sidebar ul li a' , function(event) {
         event.preventDefault();
         setResourceId(event.currentTarget.href.split("/").pop());
-        ploader.load(getResourceId(), false);
+        loadProper(getResourceId(), false);
     });
 
     window.onpopstate = function(event){
         setResourceId(event.target.location.href.split('/').reverse()[0]);
-        ploader.load(getResourceId(), true);
+        loadProper(getResourceId(), true);
     };
 
     /**

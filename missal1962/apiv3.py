@@ -15,7 +15,7 @@ from constants.common import LANGUAGE_ENGLISH
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
 from kalendar.models import Day, Calendar
 from constants.common import LANGUAGES
-from utils import format_propers, get_supplement, format_proper_sections, get_pregenerated_proper
+from utils import format_day_propers, get_supplement, format_proper_sections, get_pregenerated_proper
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -44,7 +44,7 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
         pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id())
         if pregenerated_proper is not None:
             return jsonify(pregenerated_proper)
-        return jsonify(format_propers(day))
+        return jsonify(format_day_propers(day))
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
     except Exception as e:

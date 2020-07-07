@@ -30,7 +30,7 @@ def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) 
     return None
 
 
-def format_propers(day: 'Day'):
+def format_day_propers(day: 'Day'):
     propers = day.get_proper()
     retvals = []
     for propers_vernacular, propers_latin in propers:
@@ -55,6 +55,23 @@ def format_propers(day: 'Day'):
             "sections": format_proper_sections(propers_vernacular, propers_latin)
         })
     return retvals
+
+
+def format_propers(propers):
+    propers_vernacular, propers_latin = propers
+    title = propers_vernacular.title
+    info = {
+        "title": title,
+        "description": propers_vernacular.description,
+        "additional_info": propers_vernacular.additional_info,
+        "rank": propers_vernacular.rank,
+        "colors": propers_vernacular.colors,
+        "supplements": propers_vernacular.supplements,
+    }
+    return [{
+        "info": info,
+        "sections": format_proper_sections(propers_vernacular, propers_latin)
+    }]
 
 
 def format_proper_sections(propers_vernacular, propers_latin):

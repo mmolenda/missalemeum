@@ -1,5 +1,6 @@
 from ..la.blocks import *
 
+
 SANCTI = (
     constants.SANCTI_01_01,
     constants.SANCTI_01_06,
@@ -277,3 +278,5 @@ SANCTI = (
     constants.SANCTI_12_29,
     constants.SANCTI_12_31,
 )
+
+ALL_IDS = TEMPORA_IDS + list(SANCTI)

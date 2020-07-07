@@ -15,12 +15,12 @@ from flask_babel import _
 from jinja2 import TemplateNotFound
 
 import controller
-from constants import TRANSLATION
+from constants import TRANSLATION, BLOCKS
 from constants.common import LANGUAGE_ENGLISH, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
 from constants.common import LANGUAGES
-from utils import format_propers, get_supplement
+from utils import format_day_propers, get_supplement, format_propers
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -53,26 +53,28 @@ def infer_locale(f):
 
 
 @views.route("/")
-@views.route("/<string:date_>")
+@views.route("/<string:date_or_id>")
 @views.route("/<lang:lang>")
-@views.route("/<lang:lang>/<string:date_>")
+@views.route("/<lang:lang>/<string:date_or_id>")
 @infer_locale
-def proprium(lang: str = LANGUAGE_ENGLISH, date_: str = None):
-    if date_ is not None:
+def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
+    if date_or_id is not None:
         try:
-            date_object = datetime.datetime.strptime(date_, "%Y-%m-%d").date()
-            day: Day = controller.get_day(date_object, lang)
-            fmt_propers = format_propers(day)
-        except Exception as e:
-            log.exception(e)
-            return render_template('404.html', lang=lang), 404
+            date_object = datetime.datetime.strptime(date_or_id, "%Y-%m-%d").date()
+        except ValueError:
+            if date_or_id not in BLOCKS[lang].ALL_IDS:
+                return render_template('404.html', lang=lang), 404
+            proper = controller.get_proper_by_id(date_or_id, lang)
+            date_or_id = None
+            fmt_propers = format_propers(proper)
         else:
-            title = fmt_propers[0]['info']['title']
+            day: Day = controller.get_day(date_object, lang)
+            fmt_propers = format_day_propers(day)
+        title = fmt_propers[0]['info']['title']
     else:
         title = None
-        date_ = None
         fmt_propers = None
-    return render_template("proprium.html", title=title, propers=fmt_propers, date=date_, proper_active=True, lang=lang)
+    return render_template("proprium.html", title=title, propers=fmt_propers, date=date_or_id, proper_active=True, lang=lang)
 
 
 @views.route("/ordo")
