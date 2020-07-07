@@ -20,7 +20,7 @@ from constants.common import LANGUAGE_ENGLISH, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
 from constants.common import LANGUAGES
-from utils import format_propers, get_supplement, format_propers2
+from utils import format_day_propers, get_supplement, format_propers
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -65,14 +65,14 @@ def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
             if date_or_id not in BLOCKS[lang].ALL_IDS:
                 return render_template('404.html', lang=lang), 404
             proper = controller.get_proper_by_id(date_or_id, lang)
-            fmt_propers = format_propers2(proper)
+            date_or_id = None
+            fmt_propers = format_propers(proper)
         else:
             day: Day = controller.get_day(date_object, lang)
-            fmt_propers = format_propers(day)
+            fmt_propers = format_day_propers(day)
         title = fmt_propers[0]['info']['title']
     else:
         title = None
-        date_or_id = None
         fmt_propers = None
     return render_template("proprium.html", title=title, propers=fmt_propers, date=date_or_id, proper_active=True, lang=lang)
 
