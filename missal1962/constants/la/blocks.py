@@ -1,3 +1,5 @@
+import itertools
+
 from constants import common as constants
 
 POST_EPIPHANY = (
@@ -668,3 +670,15 @@ SANCTI = (
     constants.SANCTI_12_29,
     constants.SANCTI_12_31,
 )
+
+TEMPORA_IDS = list(itertools.chain.from_iterable(POST_EPIPHANY +
+                                                 FROM_PRE_LENT_TO_POST_PENTECOST +
+                                                 EMBER_DAYS_SEPTEMBER +
+                                                 WEEK_24_AFTER_PENTECOST +
+                                                 ADVENT +
+                                                 NATIVITY_OCTAVE_SUNDAY +
+                                                 NATIVITY_OCTAVE_FERIA +
+                                                 HOLY_NAME +
+                                                 CHRIST_KING +
+                                                 SUNDAY_IN_CHRISTMAS_OCTAVE))
+ALL_IDS = TEMPORA_IDS + list(SANCTI)

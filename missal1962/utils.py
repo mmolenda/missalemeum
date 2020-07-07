@@ -57,6 +57,23 @@ def format_propers(day: 'Day'):
     return retvals
 
 
+def format_propers2(propers):
+    propers_vernacular, propers_latin = propers
+    title = propers_vernacular.title
+    info = {
+        "title": title,
+        "description": propers_vernacular.description,
+        "additional_info": propers_vernacular.additional_info,
+        "rank": propers_vernacular.rank,
+        "colors": propers_vernacular.colors,
+        "supplements": propers_vernacular.supplements,
+    }
+    return [{
+        "info": info,
+        "sections": format_proper_sections(propers_vernacular, propers_latin)
+    }]
+
+
 def format_proper_sections(propers_vernacular, propers_latin):
     pv = propers_vernacular.serialize()
     pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
