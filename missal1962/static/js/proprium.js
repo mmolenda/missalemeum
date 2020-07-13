@@ -56,7 +56,7 @@ $window.on("load", function () {
             let url = window.location.href.replace(/#.*/, "");
             selectedResource = url.split('/').reverse()[0];
         }
-        if (selectedResource === config.lang) {
+        if (selectedResource === "" || selectedResource === config.lang) {
             return moment().format("YYYY-MM-DD");
         }
         let tmpDate = moment(selectedResource, "YYYY-MM-DD", true);
