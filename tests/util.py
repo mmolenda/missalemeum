@@ -2,7 +2,7 @@ import datetime
 import json
 from collections import defaultdict
 
-from conftest import get_missal
+from .conftest import get_missal
 
 year = 2020
 lang = "la"
