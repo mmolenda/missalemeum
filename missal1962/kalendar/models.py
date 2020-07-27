@@ -67,7 +67,7 @@ class Observance:
         """
         self.date = date_
         self.lang = lang
-        translation = importlib.import_module(f'constants.{lang}.translation')
+        translation = importlib.import_module(f'missal1962.constants.{lang}.translation')
         flexibility, name, rank, color = observance_id.split(':')
         self.flexibility: str = flexibility
         self.name: str = name
