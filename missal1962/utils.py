@@ -6,8 +6,8 @@ from typing import List, Union, Pattern
 import mistune
 import yaml
 
-from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
-from exceptions import SupplementNotFound, SectionNotFound
+from missal1962.constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
+from missal1962.exceptions import SupplementNotFound, SectionNotFound
 
 
 def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821

@@ -1,18 +1,20 @@
-import importlib
 import logging
 import os
 import re
-
-import utils
-from exceptions import InvalidInput, ProperNotFound
 from typing import Tuple, Union
 
-from constants import TRANSLATION
-from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, REFERENCE_REGEX,
-                              SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION, PREFATIO_COMMUNIS,
-                              VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA, PREFATIO_OMIT,
-                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT)
-from propers.models import Proper, Section, ProperConfig, ParsedSource
+import missal1962.utils as utils
+from missal1962.exceptions import InvalidInput, ProperNotFound
+
+from missal1962.constants import TRANSLATION
+from missal1962.constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
+                                         REFERENCE_REGEX,
+                                         SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION,
+                                         PREFATIO_COMMUNIS,
+                                         VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
+                                         PREFATIO_OMIT,
+                                         OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT)
+from missal1962.propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
 
