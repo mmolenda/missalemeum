@@ -10,7 +10,7 @@ from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound, SectionNotFound
 
 
-def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
+def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821
           patterns: Union[List[str], str, List[Pattern], Pattern]):
     if not isinstance(observances, (list, tuple)):
         observances = [observances]
@@ -23,14 +23,14 @@ def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
                 return observance
 
 
-def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:
+def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:  # noqa: F821
     for pattern, preface_name in CUSTOM_PREFACES:
         if (re.match(pattern, celebration.id)) or (tempora and celebration.rank > 1 and re.match(pattern, tempora.id)):
             return preface_name
     return None
 
 
-def format_day_propers(day: 'Day'):
+def format_day_propers(day: 'Day'):  # noqa: F821
     propers = day.get_proper()
     retvals = []
     for propers_vernacular, propers_latin in propers:
