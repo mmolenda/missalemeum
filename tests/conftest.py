@@ -4,7 +4,7 @@ import pytest
 
 from missal1962 import app
 from missal1962.constants.common import LANGUAGE_LATIN
-from missal1962.    kalendar.factory import MissalFactory
+from missal1962.kalendar.factory import MissalFactory
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
