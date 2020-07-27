@@ -2,9 +2,9 @@ import os
 
 import pytest
 
-import app
-from constants.common import LANGUAGE_LATIN
-from kalendar.factory import MissalFactory
+from missal1962 import app
+from missal1962.constants.common import LANGUAGE_LATIN
+from missal1962.    kalendar.factory import MissalFactory
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
