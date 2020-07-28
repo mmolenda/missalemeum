@@ -22,6 +22,8 @@ jobs:
         python-version: 3.8
     - name: Set PYTHONPATH
       run: echo '::set-env name=PYTHONPATH::home/runner/work/Missal1962/Missal1962/missal1962'
+    - name: Get PYTHONPATH
+      run: echo 'PYTHONPATH is' $PYTHONPATH
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
