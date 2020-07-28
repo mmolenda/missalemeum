@@ -9,9 +9,9 @@ from typing import List, Tuple
 
 import click
 
-from missal1962 import controller
-from missal1962.kalendar.models import Calendar, Day
-from missal1962.propers.models import Proper
+import controller
+from kalendar.models import Calendar, Day
+from propers.models import Proper
 
 
 logging.basicConfig(

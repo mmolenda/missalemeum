@@ -14,12 +14,12 @@ from flask import render_template, Blueprint, request, send_from_directory, redi
 from flask_babel import _
 from jinja2 import TemplateNotFound
 
-from missal1962 import controller
-from missal1962.constants import TRANSLATION, BLOCKS
-from missal1962.constants.common import LANGUAGES, LANGUAGE_ENGLISH, SUPPLEMENT_DIR
-from missal1962.exceptions import SupplementNotFound
-from missal1962.kalendar.models import Day
-from missal1962.utils import format_day_propers, get_supplement, format_propers
+import controller
+from constants import TRANSLATION, BLOCKS
+from constants.common import LANGUAGES, LANGUAGE_ENGLISH, SUPPLEMENT_DIR
+from exceptions import SupplementNotFound
+from kalendar.models import Day
+from utils import format_day_propers, get_supplement, format_propers
 
 logging.basicConfig(
     stream=sys.stdout,

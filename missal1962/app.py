@@ -5,11 +5,11 @@ from flask import Flask, request
 from flask_babel import Babel
 from werkzeug.routing import BaseConverter, ValidationError
 
-from missal1962.__version__ import __version__
-from missal1962.apiv3 import api as apiv3
-from missal1962.filters import slugify, asterisks2em, newline2br
-from missal1962.constants.common import LANGUAGES
-from missal1962.views import views
+from __version__ import __version__
+from apiv3 import api as apiv3
+from filters import slugify, asterisks2em, newline2br
+from constants.common import LANGUAGES
+from views import views
 
 logging.basicConfig(
     stream=sys.stdout,

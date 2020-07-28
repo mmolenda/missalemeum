@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ master ]
+    branches: [ fixing-imports ]
   pull_request:
-    branches: [ master ]
+    branches: [ fixing-imports ]
 
 jobs:
   build:
@@ -20,6 +20,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - name: Set PYTHONPATH
+      run: echo '::set-env name=PYTHONPATH::home/runner/work/Missal1962/Missal1962'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
