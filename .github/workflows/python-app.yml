@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ github-workflows ]
+    branches: [ master ]
   pull_request:
-    branches: [ github-workflows ]
+    branches: [ master ]
 
 jobs:
   build:
