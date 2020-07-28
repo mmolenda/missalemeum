@@ -24,6 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
+        cat Pipfile | awk '/dev-packages/{i++}i' | sed -e '/\[.*packages\]/d' -e 's/ = //g' -e 's/"//g' -e 's/\*//g' > requirements.txt
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         cd resources/divinum-officium
         git submodule init
