@@ -1,6 +1,6 @@
 import re
 
-from missal1962.constants import common as constants
+from constants import common as constants
 
 TITLES = {
     constants.TEMPORA_EPI1_0: 'Sanctæ Familiæ Jesu Mariæ Joseph',

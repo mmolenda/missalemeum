@@ -5,7 +5,7 @@ from datetime import date, timedelta
 import pytest
 
 from .conftest import HERE
-from missal1962.constants.common import LANGUAGES
+from constants.common import LANGUAGES
 
 
 def test_api_calendar(client):

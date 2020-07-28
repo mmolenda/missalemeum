@@ -1,16 +1,16 @@
 import json
 from datetime import date
 
-from missal1962.constants.common import *
-from missal1962.exceptions import InvalidInput, ProperNotFound
+from constants.common import *
+from exceptions import InvalidInput, ProperNotFound
 
 import pytest
 import re
 
-from missal1962.constants import common as c
-from missal1962.kalendar.models import Observance
-from missal1962.propers.models import ProperConfig
-from missal1962.propers.parser import ProperParser
+from constants import common as c
+from kalendar.models import Observance
+from propers.models import ProperConfig
+from propers.parser import ProperParser
 from tests.conftest import get_missal, HERE
 
 language = 'pl'

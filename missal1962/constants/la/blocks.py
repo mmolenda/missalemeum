@@ -1,6 +1,6 @@
 import itertools
 
-from missal1962.constants import common as constants
+from constants import common as constants
 
 POST_EPIPHANY = (
     (constants.TEMPORA_EPI1_0,),

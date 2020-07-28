@@ -5,9 +5,9 @@ from datetime import date, datetime
 
 import pytest
 
-from missal1962.constants import common as c
-from missal1962.kalendar.models import Observance
-from missal1962.utils import match
+from constants import common as c
+from kalendar.models import Observance
+from utils import match
 from tests.conftest import get_missal, HERE
 
 language = 'pl'

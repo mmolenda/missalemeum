@@ -6,10 +6,10 @@ from typing import List, Tuple, Union
 
 from dateutil.easter import easter
 
-from missal1962.constants import BLOCKS
-from missal1962.constants.common import TEMPORA_NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
-from missal1962.kalendar.models import Calendar, Observance
-from missal1962.kalendar.rules import rules
+from constants import BLOCKS
+from constants.common import TEMPORA_NAT2_0, SANCTI_10_DUr, LANGUAGE_ENGLISH
+from kalendar.models import Calendar, Observance
+from kalendar.rules import rules
 
 
 class MissalFactory:
