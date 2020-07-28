@@ -2,7 +2,7 @@ import datetime
 from icalendar import Calendar, Event
 from typing import Dict
 
-from kalendar.models import Day
+from missal1962.kalendar.models import Day
 
 
 class IcalBuilder:

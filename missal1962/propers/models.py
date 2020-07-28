@@ -1,9 +1,9 @@
 from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
-from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
+from missal1962.constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
     COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
-from exceptions import ProperNotFound
+from missal1962.exceptions import ProperNotFound
 
 
 class ParsedSource:

@@ -18,23 +18,24 @@ from copy import copy
 from datetime import date, timedelta
 from typing import List
 
-from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T, EMBER_DAYS,
-                              FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
-                              PATTERN_CLASS_1, PATTERN_EASTER,
-                              PATTERN_SANCTI_CLASS_1_OR_2,
-                              PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA,
-                              PATTERN_TEMPORA_SUNDAY,
-                              PATTERN_TEMPORA_SUNDAY_CLASS_2, SANCTI_01_13,
-                              SANCTI_02_24, SANCTI_02_27, SANCTI_11_02_1,
-                              SANCTI_12_24, SANCTI_12_25_1,
-                              TEMPORA_EPI1_0, TEMPORA_PASC0_0, TEMPORA_QUAD6_1,
-                              TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
-                              TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
-                              TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
-                              SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
-                              PATTERN_TEMPORA_CLASS_4)
-from kalendar.models import Calendar, Observance
-from utils import match
+from missal1962.constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T,
+                                         EMBER_DAYS,
+                                         FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
+                                         PATTERN_CLASS_1, PATTERN_EASTER,
+                                         PATTERN_SANCTI_CLASS_1_OR_2,
+                                         PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA,
+                                         PATTERN_TEMPORA_SUNDAY,
+                                         PATTERN_TEMPORA_SUNDAY_CLASS_2, SANCTI_01_13,
+                                         SANCTI_02_24, SANCTI_02_27, SANCTI_11_02_1,
+                                         SANCTI_12_24, SANCTI_12_25_1,
+                                         TEMPORA_EPI1_0, TEMPORA_PASC0_0, TEMPORA_QUAD6_1,
+                                         TEMPORA_QUAD6_2, TEMPORA_QUAD6_3,
+                                         TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
+                                         TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
+                                         SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
+                                         PATTERN_TEMPORA_CLASS_4)
+from missal1962.kalendar.models import Calendar, Observance
+from missal1962.utils import match
 
 
 def rule_nativity_has_multiple_masses(
