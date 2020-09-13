@@ -1,5 +1,4 @@
 import datetime
-
 from icalendar import Calendar, Event
 from typing import Dict
 
