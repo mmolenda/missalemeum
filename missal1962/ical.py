@@ -46,8 +46,6 @@ class IcalBuilder:
             }
 
             rank_str = rank_map[celebration.rank]
-
-            # description  = "Rank: " + str(celebration.rank) + '\n'
             description  = rank_str + '\n'
 
             if len(colors) == 1:
