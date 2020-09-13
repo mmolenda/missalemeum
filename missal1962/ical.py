@@ -22,17 +22,47 @@ class IcalBuilder:
             event.add("dtstart", datetime_)
             event.add("dtstamp", now)
             event.add("uid", f"{datetime_.strftime('%Y%m%d')}@missalemeum.com")
-            description  = "Rank: " + str(celebration.rank) + '\n'
 
-            # TODO : convert r,w,etc to red, white, etc
-            description += "Color: " + str(celebration.colors.join(", ")) + '\n'
+            # Convert r, w, etc to red, white, etc, store output in 'colors
+            color_map = {
+              "w": "white",
+              "r": "red",
+              "b": "black",
+              "v" : "violet",
+              "g" : "green",
+            }
+
+            colors = []
+            for c in celebration.colors:
+                colors.append(color_map[c])
+
+            rank_map = {
+              1: "First Class Feast",
+              2: "Second Class Feast",
+              3: "Third Class Feast",
+              4 : "Feria",
+            }
+
+            rank_str = rank_map[celebration.rank]
+
+            # description  = "Rank: " + str(celebration.rank) + '\n'
+            description  = rank_str + '\n'
+
+            if len(colors) == 1:
+                description += "Vestment color: " + ",".join(colors) + '\n'
+            elif len(colors) > 1:
+                description += "Vestment colors: " + ",".join(colors) + '\n'
 
             # TODO : add option to add propers here
             # TODO : always add introit
-            description += "Full propers: https://www.missalemeum.com/{}/{}".format(lang, datetime_.strftime("%Y-%m-%d")) + "\n"
+
+            description += "\n"
+            description += "Propers: https://www.missalemeum.com/{}/{}".format(lang, datetime_.strftime("%Y-%m-%d")) + "\n"
+
             #print(dir(celebration.get_proper))
             #print(dir(celebration.colors))
             #print(dir(celebration))
+
             event.add("description", description)
             cal.add_component(event)
         return cal.to_ical().decode("utf-8")
