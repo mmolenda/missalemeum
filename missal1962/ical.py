@@ -5,7 +5,6 @@ from typing import Dict
 
 from kalendar.models import Day
 
-from pprint import pprint
 
 class IcalBuilder:
 
