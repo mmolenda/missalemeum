@@ -22,6 +22,18 @@ class IcalBuilder:
             event.add("dtstart", datetime_)
             event.add("dtstamp", now)
             event.add("uid", f"{datetime_.strftime('%Y%m%d')}@missalemeum.com")
-            event.add("description", "https://www.missalemeum.com/{}/{}".format(lang, datetime_.strftime("%Y-%m-%d")))
+            description  = "Rank: " + str(celebration.rank) + '\n'
+
+            # TODO : convert r,w,etc to red, white, etc
+            description += "Color: " + str(celebration.colors.join(", ")) + '\n'
+
+            # TODO : add option to add propers here
+            # TODO : always add introit
+            description += "Full propers: https://www.missalemeum.com/{}/{}".format(lang, datetime_.strftime("%Y-%m-%d")) + "\n"
+            #print(dir(celebration.get_proper))
+            #print(dir(celebration.colors))
+            #print(dir(celebration))
+            event.add("description", description)
             cal.add_component(event)
         return cal.to_ical().decode("utf-8")
+
