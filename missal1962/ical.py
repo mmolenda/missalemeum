@@ -23,7 +23,7 @@ class IcalBuilder:
             event.add("dtstamp", now)
             event.add("uid", f"{datetime_.strftime('%Y%m%d')}@missalemeum.com")
 
-            # Convert r, w, etc to red, white, etc, store output in 'colors
+            # Map color arrau to an array of human readable strings
             color_map = {
               "w": "white",
               "r": "red",
@@ -36,6 +36,7 @@ class IcalBuilder:
             for c in celebration.colors:
                 colors.append(color_map[c])
 
+            # Map ranks to human readable strings
             rank_map = {
               1: "First Class Feast",
               2: "Second Class Feast",
