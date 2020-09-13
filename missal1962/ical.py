@@ -58,4 +58,3 @@ class IcalBuilder:
             event.add("description", description)
             cal.add_component(event)
         return cal.to_ical().decode("utf-8")
-
