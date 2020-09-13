@@ -1,9 +1,11 @@
 import datetime
+
 from icalendar import Calendar, Event
 from typing import Dict
 
 from kalendar.models import Day
 
+from pprint import pprint
 
 class IcalBuilder:
 
@@ -54,15 +56,8 @@ class IcalBuilder:
             elif len(colors) > 1:
                 description += "Vestment colors: " + ", ".join(colors) + '\n'
 
-            # TODO : add option to add propers here
-            # TODO : always add introit
-
             description += "\n"
             description += "Propers: https://www.missalemeum.com/{}/{}".format(lang, datetime_.strftime("%Y-%m-%d")) + "\n"
-
-            #print(dir(celebration.get_proper))
-            #print(dir(celebration.colors))
-            #print(dir(celebration))
 
             event.add("description", description)
             cal.add_component(event)
