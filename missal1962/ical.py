@@ -49,9 +49,9 @@ class IcalBuilder:
             description  = rank_str + '\n'
 
             if len(colors) == 1:
-                description += "Vestment color: " + ",".join(colors) + '\n'
+                description += "Vestment color: " + ", ".join(colors) + '\n'
             elif len(colors) > 1:
-                description += "Vestment colors: " + ",".join(colors) + '\n'
+                description += "Vestment colors: " + ", ".join(colors) + '\n'
 
             # TODO : add option to add propers here
             # TODO : always add introit
