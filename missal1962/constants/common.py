@@ -769,7 +769,7 @@ SANCTI_09_11 = 'sancti:09-11:4:r'
 SANCTI_09_12 = 'sancti:09-12:3:w'
 SANCTI_09_14 = 'sancti:09-14:2:r'  # Exaltation of the Cross
 SANCTI_09_15 = 'sancti:09-15:2:w'  # The Seven Dolors of the Blessed Virgin Mary
-SANCTI_09_16 = 'sancti:09-16:3:w'
+SANCTI_09_16 = 'sancti:09-16:3:r'
 SANCTI_09_17 = 'sancti:09-17:4:w'
 SANCTI_09_18 = 'sancti:09-18r:3:w'
 SANCTI_09_19 = 'sancti:09-19:3:r'
@@ -1063,4 +1063,4 @@ OBSERVANCES_WITHOUT_OWN_PROPER = (
 )
 
 REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
-SECTION_REGEX = re.compile(r'^### *(.*)')
+SECTION_REGEX = re.compile(r'^### *([\w\d ]*).*')
