@@ -43,7 +43,7 @@ def _get_dates():
             i += 1
 
 
-@pytest.mark.parametrize("lang,strdate", [['en', date(2020, 10, 5)]])
+@pytest.mark.parametrize("lang,strdate", _get_dates())
 def test_api_date_whole_year(client, lang, strdate):
     resp = client.get(f'/{lang}/api/v3/date/{strdate}')
     assert 200 == resp.status_code
