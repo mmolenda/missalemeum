@@ -135,3 +135,9 @@ calendar day.
 
 Each `kalendar.models.Observance` has method `get_proper`, which returns the readings for the given observance (regardless
 of its place in the calendar).
+
+## Tests
+
+Add `missal1962` and `tests` directories to the `PYTHONPATH` environment variable and use `pytest`.
+
+Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/missal1962:$(pwd)/tests pytest"`
