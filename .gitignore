@@ -52,3 +52,5 @@ target/
 *.iml
 
 missal1962/__version__
+Pipfile.lock
+
