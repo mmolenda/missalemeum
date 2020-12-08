@@ -687,7 +687,8 @@ TITLES = {
     constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
     constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
-    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary'
+    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
+    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców'
 }
 
 VOTIVE_MASSES = [
@@ -736,7 +737,9 @@ VOTIVE_MASSES = [
     {'ref': 'fidei-propagatione', 'id': constants.VOTIVE_FIDEI_PROPAGATIONE, 'title': TITLES[constants.VOTIVE_FIDEI_PROPAGATIONE],
      'tags': ['Wotywna', 'W różnych potrzebach']},
     {'ref': 'defunctorum', 'id': constants.VOTIVE_DEFUNCTORUM, 'title': TITLES[constants.VOTIVE_DEFUNCTORUM],
-     'tags': []}
+     'tags': []},
+    {'ref': 'matrimonium', 'id': constants.VOTIVE_MATRIMONIUM, 'title': TITLES[constants.VOTIVE_MATRIMONIUM],
+     'tags': ['Wotywna']}
 ]
 
 SECTION_LABELS = {

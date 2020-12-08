@@ -5,36 +5,36 @@ Immaculati Cordis Beatæ Mariæ Virginis
 Prefatio=Maria=Festivitate;
 
 [Introitus]
-@Sancti/08-22r:Introitus
+@Sancti/08-22:Introitus
 
 [Oratio]
-@Sancti/08-22r:Oratio
+@Sancti/08-22:Oratio
 
 [Lectio]
 @Sancti/07-16:Lectio
 
 [Graduale]
-@Sancti/08-22r:Graduale
+@Sancti/08-22:Graduale
 
 [GradualeP]
 ! Tempore paschali
-@Sancti/08-22r:GradualeP
+@Sancti/08-22:GradualeP
 
 [Tractus]
 ! Post Septuagesimam
-@Sancti/08-22r:Tractus
+@Sancti/08-22:Tractus
 
 [Evangelium]
-@Tempora/C10Pasc:Evangelium
+@Commune/C10Pasc:Evangelium
 
 [Offertorium]
-@Sancti/08-22r:Offertorium
+@Sancti/08-22:Offertorium
 
 [Secreta]
-@Sancti/08-22r:Secreta
+@Sancti/08-22:Secreta
 
 [Communio]
-@Sancti/08-22r:Communio
+@Sancti/08-22:Communio
 
 [Postcommunio]
-@Sancti/08-22r:Postcommunio
+@Sancti/08-22:Postcommunio
