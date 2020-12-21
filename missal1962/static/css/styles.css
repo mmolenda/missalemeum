@@ -331,6 +331,10 @@ p.supplement {
     background-color: #d076fc;
 }
 
+.color-marker-p {
+    background-color: #fca8c6;
+}
+
 .color-marker-b {
     background-color: #565656;
 }
@@ -353,6 +357,10 @@ p.supplement {
 
 .sidebar-color-marker-v {
     border-left-color: #d076fc;
+}
+
+.sidebar-color-marker-p {
+    border-left-color: #fca8c6;
 }
 
 .sidebar-color-marker-b {
