@@ -49,6 +49,49 @@ def test_api_date_whole_year(client, lang, strdate):
     assert 200 == resp.status_code
 
 
+@pytest.mark.parametrize("lang,slug", [
+    ('en', 'tempore-mortalitatis'),
+    ('en', 'rorate'),
+    ('en', 'vultum-tuum'),
+    ('en', 'salve-sancta-parens-3'),
+    ('en', 'salve-sancta-parens-4'),
+    ('en', 'salve-sancta-parens-5'),
+    ('en', 'trinitas'),
+    ('en', 'angelis'),
+    ('en', 'joseph'),
+    ('en', 'aeterno-sacerdote'),
+    ('en', 'cordis-jesu'),
+    ('en', 'cordis-mariae'),
+    ('pl', 'tempore-mortalitatis'),
+    ('pl', 'rorate'),
+    ('pl', 'vultum-tuum'),
+    ('pl', 'salve-sancta-parens-3'),
+    ('pl', 'salve-sancta-parens-4'),
+    ('pl', 'salve-sancta-parens-5'),
+    ('pl', 'trinitas'),
+    ('pl', 'angelis'),
+    ('pl', 'joseph'),
+    ('pl', 'petrus-et-paulus'),
+    ('pl', 'petrus-et-paulus-p'),
+    ('pl', 'apostolorum'),
+    ('pl', 'apostolorum-p'),
+    ('pl', 'spiritus-sanctus'),
+    ('pl', 'spiritus-sanctus-2'),
+    ('pl', 'eucharistiae-sacramento'),
+    ('pl', 'aeterno-sacerdote'),
+    ('pl', 'sancta-cruce'),
+    ('pl', 'passio'),
+    ('pl', 'cordis-jesu'),
+    ('pl', 'cordis-mariae'),
+    ('pl', 'fidei-propagatione'),
+    ('pl', 'matrimonium'),
+    ('pl', 'defunctorum'),
+])
+def test_api_votive(client, lang, slug):
+    resp = client.get(f'/{lang}/api/v3/proper/{slug}')
+    assert 200 == resp.status_code
+
+
 def test_api_date_invalid_input(client):
     resp = client.get('/pl/api/v3/date/2020-11-99')
     assert 400 == resp.status_code
