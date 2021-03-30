@@ -1776,9 +1776,9 @@
     "celebration": [
       {
         "colors": [
-          "v"
+          "p", "v"
         ],
-        "id": "tempora:Quad4-0:1:v",
+        "id": "tempora:Quad4-0:1:pv",
         "rank": 1,
         "title": "4 Niedziela Wielkiego Postu (Niedziela Laetare)"
       }
@@ -1787,9 +1787,9 @@
     "tempora": [
       {
         "colors": [
-          "v"
+          "p", "v"
         ],
-        "id": "tempora:Quad4-0:1:v",
+        "id": "tempora:Quad4-0:1:pv",
         "rank": 1,
         "title": "4 Niedziela Wielkiego Postu (Niedziela Laetare)"
       }
@@ -7961,11 +7961,11 @@
     "celebration": [
       {
         "colors": [
-          "v"
+          "p", "v"
         ],
-        "id": "tempora:Adv3-0:1:v",
+        "id": "tempora:Adv3-0:1:pv",
         "rank": 1,
-        "title": "3 Niedziela Adwentu"
+        "title": "3 Niedziela Adwentu (Niedziela Gaudete)"
       }
     ],
     "commemoration": [
@@ -7981,11 +7981,11 @@
     "tempora": [
       {
         "colors": [
-          "v"
+          "p", "v"
         ],
-        "id": "tempora:Adv3-0:1:v",
+        "id": "tempora:Adv3-0:1:pv",
         "rank": 1,
-        "title": "3 Niedziela Adwentu"
+        "title": "3 Niedziela Adwentu (Niedziela Gaudete)"
       }
     ]
   },

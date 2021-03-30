@@ -349,7 +349,7 @@ TITLES = {
     constants.TEMPORA_ADV2_4: 'Czwartek po 2 Niedzieli Adwentu',
     constants.TEMPORA_ADV2_5: 'Piątek po 2 Niedzieli Adwentu',
     constants.TEMPORA_ADV2_6: 'Sobota po 2 Niedzieli Adwentu',
-    constants.TEMPORA_ADV3_0: '3 Niedziela Adwentu',
+    constants.TEMPORA_ADV3_0: '3 Niedziela Adwentu (Niedziela Gaudete)',
     constants.TEMPORA_ADV3_1: 'Poniedziałek po 3 Niedzieli Adwentu',
     constants.TEMPORA_ADV3_2: 'Wtorek po 3 Niedzieli Adwentu',
     constants.TEMPORA_ADV3_3: 'Środa Suchych Dni Adwentu',
@@ -687,7 +687,8 @@ TITLES = {
     constants.VOTIVE_08_22: 'Msza o Niepokalanym Sercu N. M. P.',
     constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
-    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary'
+    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
+    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców'
 }
 
 VOTIVE_MASSES = [
@@ -735,6 +736,8 @@ VOTIVE_MASSES = [
      'tags': ['Wotywna', 'Pierwsza sobota']},
     {'ref': 'fidei-propagatione', 'id': constants.VOTIVE_FIDEI_PROPAGATIONE, 'title': TITLES[constants.VOTIVE_FIDEI_PROPAGATIONE],
      'tags': ['Wotywna', 'W różnych potrzebach']},
+    {'ref': 'matrimonium', 'id': constants.VOTIVE_MATRIMONIUM, 'title': TITLES[constants.VOTIVE_MATRIMONIUM],
+     'tags': ['Wotywna']},
     {'ref': 'defunctorum', 'id': constants.VOTIVE_DEFUNCTORUM, 'title': TITLES[constants.VOTIVE_DEFUNCTORUM],
      'tags': []}
 ]

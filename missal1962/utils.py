@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import re
 from typing import List, Union, Pattern
@@ -8,6 +9,8 @@ import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
 from exceptions import SupplementNotFound, SectionNotFound
+
+log = logging.getLogger(__name__)
 
 
 def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821
@@ -77,12 +80,15 @@ def format_propers(propers):
 def format_proper_sections(propers_vernacular, propers_latin):
     pv = propers_vernacular.serialize()
     pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
-    for val in pv:
+    result = []
+    for section in pv:
         try:
-            val["body"] = [[val["body"], pl[val["id"]]]]
+            section["body"] = [[section["body"], pl[section["id"]]]]
         except KeyError:
-            raise SectionNotFound(f"Section `{val['id']}` not found in latin proper `{propers_latin.id}`.")
-    return pv
+            log.warning(f"Section `%s` not found in latin proper `%s`.", section['id'], propers_latin.id)
+        else:
+            result.append(section)
+    return result
 
 
 def get_pregenerated_proper(lang, proper_id):
