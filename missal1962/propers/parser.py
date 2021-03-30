@@ -35,14 +35,14 @@ class ProperParser:
         self.proper_id: str = proper_id
         self.lang = lang
         self.config = config or ProperConfig()
+        self.translations[self.lang] = TRANSLATION[self.lang]
+        self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
 
     def proper_exists(self) -> bool:
         return not utils.match(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
                and self._get_full_path(self._get_partial_path(), self.lang) is not None
 
     def parse(self) -> Tuple[Proper, Proper]:
-        self.translations[self.lang] = TRANSLATION[self.lang]
-        self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
         self.prefaces[LANGUAGE_LATIN] = self._parse_source('Ordo/Prefationes.txt', lang=LANGUAGE_LATIN)
         partial_path = self._get_partial_path()
