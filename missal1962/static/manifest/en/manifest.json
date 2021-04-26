@@ -1,0 +1,31 @@
+{
+  "name": "Missale Meum",
+  "short_name": "Missale Meum",
+  "theme_color": "#fffdf1",
+  "background_color": "#fffdf1",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/en",
+  "icons": [
+    {
+      "src": "img/icon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "img/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
