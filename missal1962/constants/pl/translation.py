@@ -692,8 +692,6 @@ TITLES = {
 }
 
 VOTIVE_MASSES = [
-    {'ref': 'tempore-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
-     'tags': ['W czasie śmiertelności lub zarazy']},
     {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
      'tags': ['Adwent']},
     {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
@@ -739,7 +737,9 @@ VOTIVE_MASSES = [
     {'ref': 'matrimonium', 'id': constants.VOTIVE_MATRIMONIUM, 'title': TITLES[constants.VOTIVE_MATRIMONIUM],
      'tags': ['Wotywna']},
     {'ref': 'defunctorum', 'id': constants.VOTIVE_DEFUNCTORUM, 'title': TITLES[constants.VOTIVE_DEFUNCTORUM],
-     'tags': []}
+     'tags': []},
+    {'ref': 'tempore-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
+     'tags': ['W czasie śmiertelności lub zarazy']}
 ]
 
 SECTION_LABELS = {

@@ -92,7 +92,9 @@ def format_proper_sections(propers_vernacular, propers_latin):
 
 
 def get_pregenerated_proper(lang, proper_id):
-    path = os.path.join(PROPERS_DIR, lang, f"{proper_id}.json")
+    if not proper_id:
+        return
+    path = os.path.join(PROPERS_DIR, lang, f"{proper_id.replace(':', '__')}.json")
     if os.path.exists(path):
         with open(path) as fh:
             return json.load(fh)
