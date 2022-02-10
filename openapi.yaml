@@ -3,7 +3,7 @@ info:
   title: "Missale Meum API."
   version: "1.0.0"
   contact:
-    email: "marcin@molenda.eu"
+    email: "marcin@molenda.ovh"
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
