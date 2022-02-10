@@ -1,0 +1,107 @@
+openapi: 3.0.0
+info:
+  title: "Missale Meum API."
+  version: "1.0.0"
+  contact:
+    email: "marcin@molenda.eu"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+servers:
+  - url: https://www.missalemeum.com/
+    description: "Production server."
+paths:
+  /{lang}/api/v3/calendar:
+    get:
+      tags:
+      - "calendar"
+      summary: "Get liturgical calendar for the current year."
+      description: ""
+      operationId: "getCalendarCurrent"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CalendarApiResponse"
+  /{lang}/api/v3/calendar/{year}:
+    get:
+      tags:
+      - "calendar"
+      summary: "Get liturgical calendar for the selected year."
+      description: ""
+      operationId: "getCalendar"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "year"
+        description: "Year of the calendar. If not provided calendar for current year will be displayed."
+        required: true
+        schema:
+          type: "number"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CalendarApiResponse"
+
+components:
+  parameters:
+    langParam:
+      in: "path"
+      name: "lang"
+      description: "Language of the response."
+      required: true
+      schema:
+        type: "string"
+        enum: [ "en", "pl" ]
+  schemas:
+    Observance:
+      type: "object"
+      description: "`Observance` object conains the details of a given feast."
+      properties:
+        id:
+          type: "string"
+        rank:
+          type: "integer"
+          description: "Feast's class or rank."
+          enum: [1, 2, 3, 4]
+        title:
+          type: "string"
+        colors:
+          type: "array"
+          description: "Feast's color b - black, g - green, etc. One observation can have multiple colors. For instance Palm Sunday in post-55 has red (r) and violet (v) as the procession has different color than the Mass itself."
+          items:
+            type: "string"
+            enum: ["b", "g", "r", "v", "w"]
+    CalendarApiResponse:
+      type: "object"
+      description: "Each key of the response object is a date string representing one calendar day (format YYYY-MM-DD, e.g. 2022-01-21) and its value is another object containing details about the observances in the given day."
+      additionalProperties:
+        type: "object"
+        description: "Each calendar day contains three arrays, each containing zero or more `Observance`s."
+        properties:
+          celebration:
+            type: "array"
+            description: "`Observance` which is celebrated on a given day. If not present, the `Observance` should be taken from `tempora` array. If it's not present in `tempora` either, it means it's a 4th class feria and the proper from the last Sunday (with appropriate modifications) should be used. Usually this array contains zero or one object. It can have more if there is more than one proper for given observance, for instance on the first Christmas day. Also some Easter days have additional pre-55 proper in some langugaes and they're present as another `Observance` object here as well."
+            items:
+              $ref: '#/components/schemas/Observance'
+          commemoration:
+            type: "array"
+            description: "`Observance` objects representing commemorations existing next to the main observance."
+            items:
+              $ref: '#/components/schemas/Observance'
+          tempora:
+            type: "array"
+            description: "`Observance` object representing the place in current liturgical season. Usually it's present only when the main celebration differs from the day according to the seasonal order. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
+            items:
+              $ref: '#/components/schemas/Observance'
