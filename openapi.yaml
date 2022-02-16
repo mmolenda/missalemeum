@@ -29,6 +29,9 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/CalendarApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/CalendarApiResponseExample"
   /{lang}/api/v3/calendar/{year}:
     get:
       tags:
@@ -53,6 +56,9 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/CalendarApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/CalendarApiResponseExample"
 
 components:
   parameters:
@@ -67,7 +73,7 @@ components:
   schemas:
     Observance:
       type: "object"
-      description: "`Observance` object conains the details of a given feast."
+      description: "`Observance` object contains the details of a given feast."
       properties:
         id:
           type: "string"
@@ -105,3 +111,20 @@ components:
             description: "`Observance` object representing the place in current liturgical season. Usually it's present only when the main celebration differs from the day according to the seasonal order. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
             items:
               $ref: '#/components/schemas/Observance'
+  examples:
+    CalendarApiResponseExample:
+      value:
+        '2022-01-21':
+          celebration:
+          - colors:
+            - r
+            id: sancti:01-21:3:r
+            rank: 3
+            title: St. Agnes
+          commemoration: []
+          tempora:
+          - colors:
+            - g
+            id: tempora:Epi2-5:4:g
+            rank: 4
+            title: Feria VI after II Sunday after Epiphany
