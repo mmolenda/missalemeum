@@ -47,6 +47,7 @@ paths:
         required: true
         schema:
           type: "number"
+          example: 2022
       responses:
         "404":
           description: "Not Found"
@@ -59,6 +60,64 @@ paths:
               examples:
                 'default':
                   $ref: "#/components/examples/CalendarApiResponseExample"
+  /{lang}/api/v3/date/{date}:
+    get:
+      tags:
+      - "propers"
+      summary: "Get propers for given calendar day."
+      description: ""
+      operationId: "getProperByDate"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "date"
+        description: "Calendar day to get the propers for."
+        required: true
+        schema:
+          type: "string"
+          example: "2022-01-21"
+      responses:
+        "400":
+          description: "Incorrect date format"
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProperByDateApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/ProperByDateApiResponseExample"
+  /{lang}/api/v3/proper/{id}:
+    get:
+      tags:
+      - "propers"
+      summary: "Get propers by ID."
+      description: ""
+      operationId: "getProperById"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "id"
+        description: "TODO: describe the logic behind ID"
+        required: true
+        schema:
+          type: "string"
+          example: "tempora:Epi3-0:2:g"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProperByIdApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/ProperByIdApiResponseExample"
 
 components:
   parameters:
@@ -89,6 +148,18 @@ components:
           items:
             type: "string"
             enum: ["b", "g", "r", "v", "w"]
+    Proper:
+      type: "object"
+      description: ""
+      properties:
+        id:
+          type: "string"
+    ProperByDate:
+      type: "object"
+      description: ""
+      properties:
+        id:
+          type: "string"
     CalendarApiResponse:
       type: "object"
       description: "Each key of the response object is a date string representing one calendar day (format YYYY-MM-DD, e.g. 2022-01-21) and its value is another object containing details about the observances in the given day."
@@ -111,6 +182,17 @@ components:
             description: "`Observance` object representing the place in current liturgical season. Usually it's present only when the main celebration differs from the day according to the seasonal order. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
             items:
               $ref: '#/components/schemas/Observance'
+    ProperByDateApiResponse:
+      type: "array"
+      description: ""
+      items:
+        $ref: "#/components/schemas/ProperByDate"
+    ProperByIdApiResponse:
+      type: "array"
+      description: ""
+      items:
+        $ref: "#/components/schemas/Proper"
+
   examples:
     CalendarApiResponseExample:
       value:
@@ -128,3 +210,9 @@ components:
             id: tempora:Epi2-5:4:g
             rank: 4
             title: Feria VI after II Sunday after Epiphany
+    ProperByDateApiResponseExample:
+      value:
+        one: by date
+    ProperByIdApiResponseExample:
+      value:
+        one: by id
