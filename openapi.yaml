@@ -64,7 +64,7 @@ paths:
     get:
       tags:
       - "propers"
-      summary: "Get propers for given calendar day."
+      summary: "Get proper for a given calendar day."
       description: ""
       operationId: "getProperByDate"
       parameters:
@@ -87,25 +87,22 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ProperByDateApiResponse"
-              examples:
-                'default':
-                  $ref: "#/components/examples/ProperByDateApiResponseExample"
   /{lang}/api/v3/proper/{id}:
     get:
       tags:
       - "propers"
-      summary: "Get propers by ID."
-      description: ""
+      summary: "Get proper by ID."
+      description: "Get proper for given observance by ID, regardless of its place in the calendar. ID can be found in the response from `/calendar` endpoint, e.g. `sancti:12-24:1:v` for Nativity Vigil or `tempora:Adv4-0:1:v` for fourth Sunday of Advent."
       operationId: "getProperById"
       parameters:
       - $ref: '#/components/parameters/langParam'
       - in: "path"
         name: "id"
-        description: "TODO: describe the logic behind ID"
+        description: "ID of the proper. For more details see the response body schema."
         required: true
         schema:
           type: "string"
-          example: "tempora:Epi3-0:2:g"
+          example: "tempora:Adv4-0:1:v"
       responses:
         "404":
           description: "Not Found"
@@ -115,9 +112,6 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ProperByIdApiResponse"
-              examples:
-                'default':
-                  $ref: "#/components/examples/ProperByIdApiResponseExample"
 
 components:
   parameters:
@@ -135,31 +129,61 @@ components:
       description: "`Observance` object contains the details of a given feast."
       properties:
         id:
-          type: "string"
-        rank:
-          type: "integer"
-          description: "Feast's class or rank."
-          enum: [1, 2, 3, 4]
+          $ref: '#/components/schemas/IdField'
         title:
-          type: "string"
+          $ref: '#/components/schemas/TitleField'
+        rank:
+          $ref: '#/components/schemas/RankField'
         colors:
-          type: "array"
-          description: "Feast's color b - black, g - green, etc. One observation can have multiple colors. For instance Palm Sunday in post-55 has red (r) and violet (v) as the procession has different color than the Mass itself."
-          items:
-            type: "string"
-            enum: ["b", "g", "r", "v", "w"]
+          $ref: '#/components/schemas/ColorsField'
     Proper:
       type: "object"
-      description: ""
+      description: "Object representing a proper for a given feast."
       properties:
-        id:
-          type: "string"
+        info:
+          type: "object"
+          description: "Proper info such as title, ID, etc."
+          properties:
+            id:
+              $ref: '#/components/schemas/IdField'
+            title:
+              $ref: '#/components/schemas/TitleField'
+            rank:
+              $ref: '#/components/schemas/RankField'
+            colors:
+              $ref: '#/components/schemas/ColorsField'
+            additional_info:
+              $ref: '#/components/schemas/AdditionalInfoField'
+            description:
+              type: string
+        sections:
+          $ref: '#/components/schemas/SectionsField'
     ProperByDate:
       type: "object"
-      description: ""
+      description: "Object representing a proper for a given feast falling on a given date."
       properties:
-        id:
-          type: "string"
+        info:
+          type: "object"
+          description: "Proper info such as title, ID, etc."
+          properties:
+            id:
+              $ref: '#/components/schemas/IdField'
+            title:
+              $ref: '#/components/schemas/TitleField'
+            rank:
+              $ref: '#/components/schemas/RankField'
+            colors:
+              $ref: '#/components/schemas/ColorsField'
+            additional_info:
+              $ref: '#/components/schemas/AdditionalInfoField'
+            description:
+              type: string
+            date:
+              type: string
+              description: "Calendar date for which the proper is generated. Format YYYY-MM-DD."
+              example: "2022-01-23"
+        sections:
+          $ref: '#/components/schemas/SectionsField'
     CalendarApiResponse:
       type: "object"
       description: "Each key of the response object is a date string representing one calendar day (format YYYY-MM-DD, e.g. 2022-01-21) and its value is another object containing details about the observances in the given day."
@@ -192,6 +216,54 @@ components:
       description: ""
       items:
         $ref: "#/components/schemas/Proper"
+    IdField:
+      type: "string"
+      description: "ID's structure reflects the files' structure in DivinumOfficium. It contains four components split by a colon. First two parts of the ID are parsed into the path of the source file, for example id tempora:Quadp3-3:1:v leads to the file divinum-officium/web/www/missa/English/Tempora/Quadp3-3.txt. Remaining components indicate rank and color. In this case 1 - first class and color v - violet."
+      example: "tempora:Epi3-0:2:g"
+    TitleField:
+      type: "string"
+      description: "Human readable title of the feast."
+      example: "III Sunday after Epiphany"
+    RankField:
+      type: "integer"
+      description: "Feast's class or rank."
+      enum: [1, 2, 3, 4]
+      example: 2
+    ColorsField:
+      type: "array"
+      description: "Feast's color b - black, g - green, etc. One observation can have multiple colors. For instance Palm Sunday in post-55 has red (r) and violet (v) as the procession has different color than the Mass itself."
+      items:
+        type: "string"
+        enum: ["b", "g", "r", "v", "w"]
+        example: g
+    AdditionalInfoField:
+      description: "List of additional informations such as liturgical color, station church, etc."
+      type: array
+      items:
+        type: string
+        example: Color green
+    SectionsField:
+      type: array
+      items:
+        type: object
+        description: Object representing one section from the propers, such as introit, collect, etc.
+        properties:
+          id:
+            type: string
+            description: Unique in the scope of one proper. It's simply a Latin name of the section
+            example: Oratio
+          label:
+            type: string
+            description: Name of the section in vernacular languange
+            example: Collect
+          body:
+            type: array
+            description: Body of the section in two languages. First element of the array contains the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences.
+            items:
+              type: string
+              example:
+                - "Almighty and everlasting God..."
+                - "Omnípotens sempitérne Deus..."
 
   examples:
     CalendarApiResponseExample:
@@ -210,9 +282,3 @@ components:
             id: tempora:Epi2-5:4:g
             rank: 4
             title: Feria VI after II Sunday after Epiphany
-    ProperByDateApiResponseExample:
-      value:
-        one: by date
-    ProperByIdApiResponseExample:
-      value:
-        one: by id
