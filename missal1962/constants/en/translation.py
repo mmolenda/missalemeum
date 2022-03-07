@@ -309,7 +309,7 @@ TITLES = {
     constants.TEMPORA_PENT21_4: 'Feria V after XXI Sunday after Pentecost',
     constants.TEMPORA_PENT21_5: 'Feria VI after XXI Sunday after Pentecost',
     constants.TEMPORA_PENT21_6: 'Saturday after XXI Sunday after Pentecost',
-    constants.TEMPORA_PENT22_0: 'XII Sunday after Pentecost',
+    constants.TEMPORA_PENT22_0: 'XXII Sunday after Pentecost',
     constants.TEMPORA_PENT22_1: 'Feria II after XXII Sunday after Pentecost',
     constants.TEMPORA_PENT22_2: 'Feria III after XXII Sunday after Pentecost',
     constants.TEMPORA_PENT22_3: 'Feria IV after XXII Sunday after Pentecost',
