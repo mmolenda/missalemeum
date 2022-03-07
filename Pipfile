@@ -10,7 +10,7 @@ coverage = "*"
 [packages]
 python-dateutil = "==2.8.1"
 click = "==7.0"
-flask = "==1.1.1"
+flask = "==1.1.4"
 gunicorn = "==19.9.0"
 jinja2 = "==2.11.3"
 icalendar = "==4.0.4"
