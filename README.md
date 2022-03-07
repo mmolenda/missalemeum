@@ -141,3 +141,4 @@ of its place in the calendar).
 Add `missal1962` and `tests` directories to the `PYTHONPATH` environment variable and use `pytest`.
 
 Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/missal1962:$(pwd)/tests pytest"`
+
