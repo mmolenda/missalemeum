@@ -50,18 +50,7 @@ and navigate to http://0.0.0.0:5000/.
 
 ## API endpoints:
 
-Supported languages (`{lang}`): `en`, `pl`
-
-* `GET {lang}/api/v3/calendar/{year}` get calendar for the whole year in format YYYY, e.g. "2018"
-* `GET {lang}/api/v3/date/{date}` get proper for given date in format YYYY-MM-DD, e.g. "2018-05-03"
-* `GET {lang}/api/v3/proper/{proper_id}` get proper for given observance by ID, regardless of its place in the calendar; 
-ID can be found in response from `/calendar` endpoint, e.g. "sancti:12-24:1:v" for Nativity Vigil or "tempora:Adv4-0:1:v"
-for fourth Advent Sunday 
-* `GET {lang}/api/v3/icalendar/{rank}` get the calendar in iCalendar format, which can be imported to any calendar software 
-such as Google Calendar. `rank` (optional, default 2) tells feast of which class to include 
-(e.g. rank 3 will include classes 1, 2 and 3).    
-* `GET /static/data/{lang}/ordo.json` get invariable texts, or ordinary of the Mass
-* `GET {lang}/api/v3/version` get application's version    
+See [OpenAPI spec](openapi.yaml).    
 
 ## Docker
 

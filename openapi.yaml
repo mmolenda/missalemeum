@@ -1,0 +1,405 @@
+openapi: 3.0.0
+info:
+  title: "Missale Meum API."
+  description: Missale Meum API provides access to the liturgical calendar calculated for any year and for the propers texts for any day, according to 1962 missal.
+  version: "4.3.21"
+  contact:
+    email: "marcin@molenda.ovh"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+servers:
+  - url: https://www.missalemeum.com/
+    description: "Production server."
+paths:
+  /{lang}/api/v3/calendar:
+    get:
+      tags:
+      - "Calendar"
+      summary: "Get current calendar"
+      description: "Get liturgical calendar according to the 1962 missal for the current year. It contains all the feasts, commemorations, etc."
+      operationId: "getCalendarCurrent"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CalendarApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/CalendarApiResponseExample"
+  /{lang}/api/v3/calendar/{year}:
+    get:
+      tags:
+      - "Calendar"
+      summary: "Get calendar for given year"
+      description: "Get liturgical calendar according to the 1962 missal for the selected year. It contains all the feasts, commemorations, etc."
+      operationId: "getCalendar"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "year"
+        description: "Year of the calendar. If not provided calendar for current year will be displayed."
+        required: true
+        schema:
+          type: "number"
+          example: 2022
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CalendarApiResponse"
+              examples:
+                'default':
+                  $ref: "#/components/examples/CalendarApiResponseExample"
+  /{lang}/api/v3/date/{date}:
+    get:
+      tags:
+      - "Propers"
+      summary: "Get proper by date"
+      description: "Get proper for a given calendar day."
+      operationId: "getProperByDate"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "date"
+        description: "Calendar day to get the propers for."
+        required: true
+        schema:
+          type: "string"
+          example: "2022-01-21"
+      responses:
+        "400":
+          description: "Incorrect date format"
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProperByDateApiResponse"
+  /{lang}/api/v3/proper/{id}:
+    get:
+      tags:
+      - "Propers"
+      summary: "Get proper by ID"
+      description: "Get proper for given observance by ID, regardless of its place in the calendar. ID can be found in the response from `/calendar` endpoint, e.g. `sancti:12-24:1:v` for Nativity Vigil or `tempora:Adv4-0:1:v` for fourth Sunday of Advent."
+      operationId: "getProperById"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "id"
+        description: "ID of the proper. For more details see the response body schema."
+        required: true
+        schema:
+          type: "string"
+          example: "tempora:Adv4-0:1:v"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProperByIdApiResponse"
+  /static/data/{lang}/ordo.json:
+    get:
+      tags:
+      - "Ordo"
+      summary: "Get ordinary"
+      description: "Get invariable texts, or ordinary of the Mass"
+      operationId: "getOrdo"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrdoResponse"
+  /{lang}/api/v3/version:
+    get:
+      tags:
+      - Miscellaneous
+      summary: Get API version
+      operationId: "getVersion"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version:
+                    type: string
+                    example: v4.3.21
+  /{lang}/api/v3/icalendar:
+    get:
+      tags:
+      - Miscellaneous
+      summary: Get calendar in iCalendar format
+      description: Get the calendar in iCalendar format, which can be imported to any calendar software such as Google Calendar. This endpoint returns only feast with rank 1 and 2. For other ranks see `/{lang}/api/v3/icalendar/{rank}`.
+      operationId: "getIcalendar"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            text/calendar:
+              schema:
+                type: string
+              examples:
+                'default':
+                  $ref: "#/components/examples/IcalendarApiReponseExample"
+  /{lang}/api/v3/icalendar/{rank}:
+    get:
+      tags:
+      - Miscellaneous
+      summary: Get calendar in iCalendar format
+      description: Get the calendar in iCalendar format, which can be imported to any calendar software such as Google Calendar.
+      operationId: "getIcalendarForRank"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "rank"
+        description: "Only show the feasts of this rank and higher (e.g. rank 2 will show feast with rank 1 and 2)."
+        required: true
+        schema:
+          type: "string"
+          example: "2"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            text/calendar:
+              schema:
+                type: string
+              examples:
+                'default':
+                  $ref: "#/components/examples/IcalendarApiReponseExample"
+
+components:
+  parameters:
+    langParam:
+      in: "path"
+      name: "lang"
+      description: "Language of the response."
+      required: true
+      schema:
+        type: "string"
+        enum: [ "en", "pl" ]
+  schemas:
+    Observance:
+      type: "object"
+      description: "`Observance` object contains the details of a given feast."
+      properties:
+        id:
+          $ref: '#/components/schemas/IdField'
+        title:
+          $ref: '#/components/schemas/TitleField'
+        rank:
+          $ref: '#/components/schemas/RankField'
+        colors:
+          $ref: '#/components/schemas/ColorsField'
+    Proper:
+      type: "object"
+      description: "Object representing a proper for a given feast."
+      properties:
+        info:
+          type: "object"
+          description: "Proper info such as title, ID, etc."
+          properties:
+            id:
+              $ref: '#/components/schemas/IdField'
+            title:
+              $ref: '#/components/schemas/TitleField'
+            rank:
+              $ref: '#/components/schemas/RankField'
+            colors:
+              $ref: '#/components/schemas/ColorsField'
+            additional_info:
+              $ref: '#/components/schemas/AdditionalInfoField'
+            description:
+              type: string
+        sections:
+          $ref: '#/components/schemas/SectionsField'
+    ProperByDate:
+      type: "object"
+      description: "Object representing a proper for a given feast falling on a given date."
+      properties:
+        info:
+          type: "object"
+          description: "Proper info such as title, ID, etc."
+          properties:
+            id:
+              $ref: '#/components/schemas/IdField'
+            title:
+              $ref: '#/components/schemas/TitleField'
+            rank:
+              $ref: '#/components/schemas/RankField'
+            colors:
+              $ref: '#/components/schemas/ColorsField'
+            additional_info:
+              $ref: '#/components/schemas/AdditionalInfoField'
+            description:
+              type: string
+            date:
+              type: string
+              description: "Calendar date for which the proper is generated. Format YYYY-MM-DD."
+              example: "2022-01-23"
+        sections:
+          $ref: '#/components/schemas/SectionsField'
+    CalendarApiResponse:
+      type: "object"
+      description: "Each key of the response object is a date string representing one calendar day (format YYYY-MM-DD, e.g. 2022-01-21) and its value is another object containing details about the observances in the given day."
+      additionalProperties:
+        type: "object"
+        description: "Each calendar day contains three arrays, each containing zero or more `Observance`s."
+        properties:
+          celebration:
+            type: "array"
+            description: "`Observance` which is celebrated on a given day. If not present, the `Observance` should be taken from `tempora` array. If it's not present in `tempora` either, it means it's a 4th class feria and the proper from the last Sunday (with appropriate modifications) should be used. Usually this array contains zero or one object. It can have more if there is more than one proper for given observance, for instance on the first Christmas day. Also some Easter days have additional pre-55 proper in some langugaes and they're present as another `Observance` object here as well."
+            items:
+              $ref: '#/components/schemas/Observance'
+          commemoration:
+            type: "array"
+            description: "`Observance` objects representing commemorations existing next to the main observance."
+            items:
+              $ref: '#/components/schemas/Observance'
+          tempora:
+            type: "array"
+            description: "`Observance` object representing the place in current liturgical season. Usually it's present only when the main celebration differs from the day according to the seasonal order. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
+            items:
+              $ref: '#/components/schemas/Observance'
+    ProperByDateApiResponse:
+      type: "array"
+      description: ""
+      items:
+        $ref: "#/components/schemas/ProperByDate"
+    ProperByIdApiResponse:
+      type: "array"
+      description: ""
+      items:
+        $ref: "#/components/schemas/Proper"
+    OrdoResponse:
+      type: array
+      description: Ordered array of objects representing sections of the Mass Ordinary.
+      items:
+        type: object
+        description: Each section contains a title in vernacular and a list of actual texts in both vernacular and Latin.
+        properties:
+          title:
+            type: string
+            description: Title of the section in vernacular language
+            example: Asperges
+          body:
+            type: array
+            description: One section can contain multiple subsections.
+            example:
+              - - "On Sundays, the blessing of holy water and sprinkling with it may be carried out."
+              - - "Thou shalt sprinkle me, O Lord, with hyssop, and I shall be cleansed..."
+                - "Aspérges me, Dómine, hyssópo, et mundábor..."
+            items:
+              type: array
+              description: Each subsection is represented by an array, which can contain either one or two strings. One string is treated as a rubric. When there are two strings, the first one is vernacular text and the second one is the Latin one.
+              items:
+               type: string
+
+    IdField:
+      type: "string"
+      description: "ID's structure reflects the files' structure in DivinumOfficium. It contains four components split by a colon. First two parts of the ID are parsed into the path of the source file, for example id tempora:Quadp3-3:1:v leads to the file divinum-officium/web/www/missa/English/Tempora/Quadp3-3.txt. Remaining components indicate rank and color. In this case 1 - first class and color v - violet."
+      example: "tempora:Epi3-0:2:g"
+    TitleField:
+      type: "string"
+      description: "Human readable title of the feast."
+      example: "III Sunday after Epiphany"
+    RankField:
+      type: "integer"
+      description: "Feast's class or rank."
+      enum: [1, 2, 3, 4]
+      example: 2
+    ColorsField:
+      type: "array"
+      description: "Feast's color b - black, g - green, etc. One observation can have multiple colors. For instance Palm Sunday in post-55 has red (r) and violet (v) as the procession has different color than the Mass itself."
+      items:
+        type: "string"
+        enum: ["b", "g", "r", "v", "w"]
+        example: g
+    AdditionalInfoField:
+      description: "List of additional informations such as liturgical color, station church, etc."
+      type: array
+      items:
+        type: string
+        example: Color green
+    SectionsField:
+      type: array
+      items:
+        type: object
+        description: Object representing one section from the propers, such as introit, collect, etc.
+        properties:
+          id:
+            type: string
+            description: Unique in the scope of one proper. It's simply a Latin name of the section
+            example: Oratio
+          label:
+            type: string
+            description: Name of the section in vernacular languange
+            example: Collect
+          body:
+            type: array
+            description: Body of the section in two languages. First element of the array contains the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences.
+            items:
+              type: string
+              example:
+                - "Almighty and everlasting God..."
+                - "Omnípotens sempitérne Deus..."
+
+  examples:
+    CalendarApiResponseExample:
+      value:
+        '2022-01-21':
+          celebration:
+          - colors:
+            - r
+            id: sancti:01-21:3:r
+            rank: 3
+            title: St. Agnes
+          commemoration: []
+          tempora:
+          - colors:
+            - g
+            id: tempora:Epi2-5:4:g
+            rank: 4
+            title: Feria VI after II Sunday after Epiphany
+    IcalendarApiReponseExample:
+      value: |
+        BEGIN:VEVENT
+        SUMMARY:Vigil of Christmas
+        DTSTART;VALUE=DATE:20221224
+        DTSTAMP;VALUE=DATE-TIME:20220307T140546Z
+        UID:20221224@missalemeum.comDESCRIPTION:https://www.missalemeum.com/en/2022-12-24
+        END:VEVENT
