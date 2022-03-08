@@ -1,0 +1,14 @@
+python-dateutil~=2.8.2
+click~=8.0.4
+Flask~=2.0.3
+gunicorn~=20.1.0
+Jinja2~=3.0.3
+icalendar~=4.0.9
+trans~=2.1.0
+mistune~=2.0.2
+PyYAML~=6.0
+Flask-Babel~=2.0.0
+Babel~=2.9.1
+Markupsafe~=2.0.1
+# dev
+pytest~=6.2.2

@@ -62,6 +62,11 @@ $ docker run -d -p 8000:8000 missal1962
 
 ```
 
+### Running tests in Docker
+
+Build the image.
+Run `docker run missal1962 sh -c "pytest tests"`
+
 and navigate to http://0.0.0.0:8000/.
 
 ## Command line (CLI)
