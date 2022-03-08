@@ -3,7 +3,7 @@ FROM python:3.9-slim-buster
 RUN apt-get update
 RUN apt-get upgrade
 
-ENV PYTHONPATH=/app/missal1962
+ENV PYTHONPATH=/app/missalemeum
 WORKDIR /app
 
 COPY requirements.txt ./
@@ -19,7 +19,7 @@ COPY resources/divinum-officium/web/www/missa/Polski ./resources/divinum-officiu
 COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
-COPY missal1962 ./missal1962
+COPY missalemeum ./missalemeum
 COPY tests ./tests
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "-w", "4", "wsgi"]
