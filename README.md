@@ -1,4 +1,4 @@
-# Missal 1962
+# Missale Meum
 
 1962 Roman Catholic Missal for the Traditional Latin Mass.
 
@@ -35,15 +35,15 @@ required dependencies. Then `pipenv shell` to activate the environment.
 
 ### Configuration
 
-By default the application is using `lru_cache` to cache responses from `missal1962.controller` functions (which are
-used by `missal1962.api` to fetch the data).
+By default the application is using `lru_cache` to cache responses from `missalemeum.controller` functions (which are
+used by `missalemeum.api` to fetch the data).
 
 To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
 
 ### Run the development API:
 
 ```bash
-$ python missal1962/app.py
+$ python missalemeum/app.py
 ```
 
 and navigate to http://0.0.0.0:5000/.
@@ -57,10 +57,15 @@ See [OpenAPI spec](openapi.yaml).
 Docker setup copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
 
 ```bash
-$ docker build -t missal1962 .
-$ docker run -d -p 8000:8000 missal1962
+$ docker build -t missalemeum .
+$ docker run -d -p 8000:8000 missalemeum
 
 ```
+
+### Running tests in Docker
+
+Build the image.
+Run `docker run missalemeum sh -c "pytest tests"`
 
 and navigate to http://0.0.0.0:8000/.
 
@@ -69,15 +74,15 @@ and navigate to http://0.0.0.0:8000/.
 Calculate the calendar
 ```bash
 # current year
-$ python missal1962/cli.py calendar
+$ python missalemeum/cli.py calendar
 
 # selected year
-$ python missal1962/cli.py calendar 2020
+$ python missalemeum/cli.py calendar 2020
 ```
 
 Show Proprium Missae for given date
 ```bash
-$ python missal1962/cli.py date 2018-05-03
+$ python missalemeum/cli.py date 2018-05-03
 ```
 
 Show Proprium Missae for given observance
@@ -85,23 +90,23 @@ Show Proprium Missae for given observance
 *Observance ID can be obtained from calendar's output*
 ```bash
 # Second Sunday of Advent
-$ python missal1962/cli.py proper tempora:Adv2-0:1:v
+$ python missalemeum/cli.py proper tempora:Adv2-0:1:v
 
 # The Seven Dolors of the Blessed Virgin Mary
-$ python missal1962/cli.py proper sancti:09-15:2:w
+$ python missalemeum/cli.py proper sancti:09-15:2:w
 ```
 
 ## Localization
 
-1. Copy folder `missal1962/constants/en` into `missal1962/constants/<your-lang-ISO-639-1>` and translate the files
-2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `missal1962/constants/common.py`
+1. Copy folder `missalemeum/constants/en` into `missalemeum/constants/<your-lang-ISO-639-1>` and translate the files
+2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `missalemeum/constants/common.py`
 3. Generate Babel language files:
-    - Create .po file: `cd Missal1962/missal1962 && pybabel init -i messages.pot -d translations -l <your-lang-ISO-639-1>`
-    - Provide translations in file generated in `missal1962/translations/<your-lang>/LC_MESSAGES/messages.po`
+    - Create .po file: `cd missalemeum/missalemeum && pybabel init -i messages.pot -d translations -l <your-lang-ISO-639-1>`
+    - Provide translations in file generated in `missalemeum/translations/<your-lang>/LC_MESSAGES/messages.po`
     - Compile babel files: `pybabel compile -d translations`
-4. Copy folder `missal1962/templates/en` into `missal1962/templates/<your-lang-ISO-639-1>` and translate the files
-5. Copy folder `missal1962/static/data/en` into `missal1962/static/data/<your-lang-ISO-639-1>` and translate the files
-6. Copy folder `missal1962/static/js/en` into `missal1962/static/js/<your-lang-ISO-639-1>` and translate the files
+4. Copy folder `missalemeum/templates/en` into `missalemeum/templates/<your-lang-ISO-639-1>` and translate the files
+5. Copy folder `missalemeum/static/data/en` into `missalemeum/static/data/<your-lang-ISO-639-1>` and translate the files
+6. Copy folder `missalemeum/static/js/en` into `missalemeum/static/js/<your-lang-ISO-639-1>` and translate the files
 7. Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter some issues with Divinum Officium source files. In such case correct them in Divinum Officium project and update the submodule. 
 8. Add source files for non-regular Masses, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
 
@@ -127,6 +132,6 @@ of its place in the calendar).
 
 ## Tests
 
-Add `missal1962` and `tests` directories to the `PYTHONPATH` environment variable and use `pytest`.
+Add `missalemeum` and `tests` directories to the `PYTHONPATH` environment variable and use `pytest`.
 
-Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/missal1962:$(pwd)/tests pytest"`
+Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/missalemeum:$(pwd)/tests pytest"`

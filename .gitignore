@@ -51,6 +51,5 @@ target/
 .idea/
 *.iml
 
-missal1962/__version__
-Pipfile.lock
+missalemeum/__version__
 
