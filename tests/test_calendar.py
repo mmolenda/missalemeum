@@ -37,7 +37,7 @@ def test_tempora(year, dates):
     assert _to_date_obj(dates[7]) == actual
     assert _to_date_obj(dates[8]) == missal.find_day(c.TEMPORA_PENT_6)[0]
     assert _to_date_obj(dates[9]) == missal.find_day(c.TEMPORA_NAT2_0)[0]
-    assert _to_date_obj(dates[10]) == missal.find_day(c.SANCTI_10_DUr)[0]
+    assert _to_date_obj(dates[10]) == missal.find_day(c.SANCTI_10_DU)[0]
     # NAT1_0 might not exist in given year, then None is returned
     actual = missal.find_day(c.TEMPORA_NAT1_0)[0] if \
         missal.find_day(c.TEMPORA_NAT1_0) else None
@@ -108,7 +108,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 5, 27), [c.TEMPORA_PENT01_0], [c.TEMPORA_PENT01_0], []),  # Trinity Sunday, no comm.
     ((2018, 5, 31), [c.TEMPORA_PENT01_4], [c.TEMPORA_PENT01_4], []),  # Corpus Christi, no comm.
     ((2018, 6, 10), [c.TEMPORA_PENT03_0], [c.TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
-    ((2018, 10, 28), [c.TEMPORA_PENT23_0], [c.SANCTI_10_DUr], []),  # Feast of Christ the King; no comm
+    ((2018, 10, 28), [c.TEMPORA_PENT23_0], [c.SANCTI_10_DU], []),  # Feast of Christ the King; no comm
     ((2018, 11, 14), [c.TEMPORA_EPI5_3], [c.SANCTI_11_14], []),
     ((2018, 11, 26), [c.TEMPORA_PENT24_1], [c.SANCTI_11_26], []),
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),

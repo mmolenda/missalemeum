@@ -365,7 +365,7 @@ TITLES = {
     constants.TEMPORA_NAT1_0: 'Dominica Infra Octavam Nativitatis',
     constants.TEMPORA_NAT1_1: 'Feria Infra Octavam Nativitatis',
     constants.TEMPORA_NAT2_0: 'Sanctissimi Nominis Jesu',
-    constants.SANCTI_10_DUr: 'In festo Domino nostro Jesu Christi Regis',
+    constants.SANCTI_10_DU: 'In festo Domino nostro Jesu Christi Regis',
     constants.TEMPORA_EPI1_0A: 'Dominica post Epiphaniam',
     constants.TEMPORA_PENT01_0A: 'Dominica Post Pentecosten',
     constants.TEMPORA_C_10A: '1 Missa B. V. M. – Rorate',

@@ -390,7 +390,7 @@ HOLY_NAME = (
 )
 
 CHRIST_KING = (
-    (constants.SANCTI_10_DUr,),
+    (constants.SANCTI_10_DU,),
 )
 
 SUNDAY_IN_CHRISTMAS_OCTAVE = (

@@ -77,7 +77,7 @@ def test_parse_proper_refs_inside_sections_and_in_vide():
 
 
 def test_parse_proper_ref_outside_sections():
-    proper_vernacular, proper_latin = ProperParser(c.SANCTI_10_DUr, language).parse()
+    proper_vernacular, proper_latin = ProperParser(c.SANCTI_10_DU, language).parse()
     assert 'Chrystusa Króla' in proper_vernacular.title
     assert '*Ap 5:12; 1:6*' in proper_vernacular.get_section(INTROIT).body[0]
     assert '*Apoc 5:12; 1:6*' in proper_latin.get_section(INTROIT).body[0]

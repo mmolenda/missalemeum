@@ -94,7 +94,7 @@ WEEKDAY_MAPPING = {
     '4': 3,
     '5': 4,
     '6': 5,
-    '10-DUr': 6  # The Feast of Christ the King, last Sunday of October.
+    '10-DU': 6  # The Feast of Christ the King, last Sunday of October.
 }
 
 
@@ -554,7 +554,7 @@ TEMPORA_C_10PASC = 'commune:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
 TEMPORA_C_10T = 'commune:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 # SANCTI - days which have fixed date
-SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
+SANCTI_10_DU = 'sancti:10-DU:1:w'  # Feast of Christ the King; last Sunday of October
 SANCTI_01_01 = 'sancti:01-01:1:w'  # Octave of the Nativity
 SANCTI_01_06 = 'sancti:01-06:1:w'  # Epiphany
 SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
@@ -913,7 +913,7 @@ TABLE_OF_PRECEDENCE = (
     TEMPORA_PENT01_0,  # Trinity Sunday
     TEMPORA_PENT01_4,  # Corpus Christi
     TEMPORA_PENT02_5,  # Feast of the Sacred Heart
-    SANCTI_10_DUr,  # Feast of Christ the King; last Sunday of October
+    SANCTI_10_DU,  # Feast of Christ the King; last Sunday of October
     SANCTI_12_08,  # Immaculate Conception of the Blessed Virgin Mary
     SANCTI_08_15,  # Assumption of Mary
     SANCTI_12_24,  # Vigil of the Nativity of the Lord

@@ -365,7 +365,7 @@ TITLES = {
     constants.TEMPORA_NAT1_0: 'Niedziela w Oktawie Bożego Narodzenia',
     constants.TEMPORA_NAT1_1: 'Dzień w Oktawie Bożego Narodzenia',
     constants.TEMPORA_NAT2_0: 'Najświętszego Imienia Jezus',
-    constants.SANCTI_10_DUr: 'Chrystusa Króla',
+    constants.SANCTI_10_DU: 'Chrystusa Króla',
     constants.TEMPORA_EPI1_0A: '1 Niedziela po Objawieniu',
     constants.TEMPORA_PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
     constants.TEMPORA_C_10A: '1 Msza o N. M. P. – Rorate',
