@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/light.css">
+    <link rel="stylesheet" href="/static/css/dark.css">
     <link rel="shortcut icon" type="image/png" href="/static/img/icon-16x16.png"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon-180x180.png">
 
@@ -81,6 +83,16 @@
                 </li>
             </ul>
             <ul class="navbar-nav dropdown dropdown-menu-right">
+                <li class="nav-item">
+                    <a class="nav-item nav-link dropdown-toggle" href="#" id="theme-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ _('Auto') }}
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" id="theme-dropdown-menu" aria-labelledby="theme-dropdown">
+                        <a class="dropdown-item" id="theme-dropdown-dark" href=".">{{ _('Dark') }}</a>
+                        <a class="dropdown-item" id="theme-dropdown-light" href=".">{{ _('Light') }}</a>
+                        <a class="dropdown-item" id="theme-dropdown-auto" href=".">{{ _('Auto') }}</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-item nav-link dropdown-toggle" href="#" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {{ langs[lang] }}

@@ -53,11 +53,11 @@ footer {
  ========= Navbar ========
 */
 
-a#lang-dropdown {
+a#lang-dropdown, a#theme-dropdown {
     font-size: 80%;
 }
 
-div#lang-dropdown-menu {
+div#lang-dropdown-menu, div#theme-dropdown-menu {
     width: 100px;
 }
 
@@ -398,103 +398,7 @@ p.supplement {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    p, #content ul, #content ol, #content tbody {
-        color: #e3e3e3;
-    }
 
-    #content {
-        background-color: #262626;
-    }
-
-    body {
-        background-color: #1f1f1f;
-    }
-
-    a.dashed:hover {
-        background: #505050;
-    }
-
-    .rubric {
-        color: #b76d6d;
-    }
-
-    #sidebar {
-        background: #1F1F1FFF;
-        color: #888888;
-        border-right: 1px solid #565656;
-    }
-
-    #sidebar ul.components {
-        border-bottom: 1px solid #47748b;
-    }
-
-    #sidebar ul>li {
-        border-bottom: 0;
-    }
-
-    #sidebar ul>li.saturday {
-        padding-bottom: 10%;
-        border-bottom: 0;
-    }
-
-    #sidebar ul li a:hover {
-        color: #888888;
-        background: #414141;
-    }
-
-    #sidebar ul li.active>a {
-        color: #e5e5e5;
-        background: #414141;
-    }
-
-    #search-input {
-        background: #b9b9b9;
-        border: 1px solid #565656;
-    }
-
-    #sidebar-tools {
-        background-color: #1f1f1f;
-        border-bottom: 1px solid #565656;
-        border-right: 1px solid #565656;
-        -webkit-box-shadow:0 0 0 #e4e4e4;
-        -moz-box-shadow:0 0 0 #e4e4e4;
-        box-shadow:0 0 0 #efe9b4;
-    }
-
-    #datetimepicker4 .input-group-text {
-        border: 1px solid #000000;
-    }
-
-    .bootstrap-datetimepicker-widget {
-        background-color: #b9b9b9;
-    }
-
-    .bootstrap-datetimepicker-widget table td.active,
-    .bootstrap-datetimepicker-widget table td span.active {
-        background-color: #b76d6d;
-    }
-
-    .bootstrap-datetimepicker-widget table td.today::before {
-        border-bottom-color: #b76d6d;
-    }
-
-    #content h1 {
-        color: #e5e5e5;
-    }
-
-    #content h2 {
-        color: #b76d6d;
-    }
-
-    #lang-switch {
-        opacity: 0.9;
-    }
-
-    footer, .version  {
-        color: #888888;
-    }
-}
 
 /*removing default search box clear button in chrome and ie as we have our own */
 input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }

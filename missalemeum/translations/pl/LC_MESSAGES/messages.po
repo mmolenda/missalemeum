@@ -77,3 +77,10 @@ msgstr "Powrót"
 msgid "Proper"
 msgstr "Formularz"
 
+#: templates/base.html
+msgid "Dark"
+msgstr "Ciemny"
+
+msgid "Light"
+msgstr "Jasny"
+

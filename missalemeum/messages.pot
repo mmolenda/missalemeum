@@ -72,3 +72,12 @@ msgstr ""
 msgid "Proper"
 msgstr ""
 
+#: templates/base.html
+msgid "Dark"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
