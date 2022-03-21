@@ -98,6 +98,27 @@ function toggleLangSections(id) {
     }
 }
 
+function setDarkTheme() {
+    $("#theme-dropdown").text($("#theme-dropdown-dark").text());
+    localStorage.setItem("theme", "dark");
+    document.body.classList.add("dark-theme");
+    document.body.classList.remove("light-theme");
+}
+
+function setLightTheme() {
+    $("#theme-dropdown").text($("#theme-dropdown-light").text());
+    localStorage.setItem("theme", "light");
+    document.body.classList.remove("dark-theme");
+    document.body.classList.add("light-theme");
+}
+
+function setAutoTheme() {
+    $("#theme-dropdown").text($("#theme-dropdown-auto").text());
+    localStorage.removeItem("theme");
+    document.body.classList.remove("dark-theme");
+    document.body.classList.remove("light-theme");
+}
+
 function navbarIsCollapsed() {
     return $buttonSidebarCollapse.is(":visible");
 }
@@ -319,6 +340,28 @@ class ProperContentLoader {
 
 
 $window.on("load", function () {
+    let theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+        setDarkTheme();
+    } else if (theme === "light") {
+        setLightTheme();
+    } else {
+        setAutoTheme();
+    }
+
+    $("#theme-dropdown-light").on("click", function (evt) {
+        evt.preventDefault();
+        setLightTheme();
+    });
+
+    $("#theme-dropdown-dark").on("click", function (evt) {
+        evt.preventDefault();
+        setDarkTheme();
+    });
+    $("#theme-dropdown-auto").on("click", function (evt) {
+        evt.preventDefault();
+        setAutoTheme();
+    });
     /**
      * Toggle sidebar on hamburger menu click ..
      **/
