@@ -153,8 +153,11 @@ class ProperParser:
                                 if nested_section is not None:
                                     parsed_source.get_section(section_name).extend_body(nested_section.body)
                                 else:
-                                    log.warning("Section `%s` referenced from `%s` is missing in `%s`",
-                                                nested_section_name, full_path, nested_path)
+                                    if "Gregem" not in nested_section_name:
+                                        # We don't care about "Postcommunio Gregem", "Oratio Gregem", etc.
+                                        # so we silently ignore them
+                                        log.warning("Section `%s` referenced from `%s` is missing in `%s`",
+                                                    nested_section_name, full_path, nested_path)
                             else:
                                 # Reference to the other section in current file
                                 nested_section_body = parsed_source.get_section(nested_section_name).body

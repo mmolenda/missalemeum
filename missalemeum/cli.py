@@ -26,9 +26,9 @@ def cli():
 
 
 def _print_proper(language, proper):
-    click.echo(f'\n=== {language} ===\n')
+    click.echo(f'\n## {language}\n')
     for section in proper.serialize():
-        click.echo(f'\n== {section["label"]} ==')
+        click.echo(f'\n### {section["label"]}')
         click.echo(section["body"])
 
 
@@ -41,7 +41,7 @@ def calendar(year, language):
             if date_.weekday() == 6:
                 click.echo("---")
             if date_.day == 1:
-                click.echo(f"\n\n=== {date_.month} ===\n")
+                click.echo(f"\n\n# {date_.month}\n")
 
             collect = []
             padding = 40
@@ -83,13 +83,14 @@ def date(date: str, language: str):
     missal: Calendar = controller.get_calendar(date_object.year, language)
     day: Day = missal.get_day(date_object)
     propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
-    click.echo(f'=== {date} ===')
-    click.echo('tempora: {}'.format(day.get_tempora_name()))
-    click.echo('celebration: {}'.format(day.get_celebration_name()))
+    click.echo(f'# {date}')
+    click.echo('- tempora: {}'.format(day.get_tempora_name()))
+    click.echo('- celebration: {}'.format(day.get_celebration_name()))
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
-        click.echo(proper_vernacular.serialize()[0]['body'][0])
+        if description := proper_vernacular.description:
+            click.echo(f"\n{description}")
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
 
