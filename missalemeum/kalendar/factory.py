@@ -263,7 +263,7 @@ class MissalFactory:
         """
         Sunday within the Octave of Christmas, falls between Dec 26 and Dec 31
         """
-        d = date(year, 12, 27)
+        d = date(year, 12, 26)
         while d.year == year:
             if d.weekday() == 6:
                 return d
