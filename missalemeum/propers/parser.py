@@ -13,7 +13,7 @@ from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIV
                               PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
                               PREFATIO_OMIT,
-                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT)
+                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -147,17 +147,16 @@ class ProperParser:
                                     if path_bit else partial_path
                                 if not nested_path:
                                     raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
-                                nested_proper: Proper = self._parse_source(
+                                nested_proper: ParsedSource = self._parse_source(
                                     nested_path, lang=lang, lookup_section=nested_section_name)
                                 nested_section = nested_proper.get_section(nested_section_name)
                                 if nested_section is not None:
                                     parsed_source.get_section(section_name).extend_body(nested_section.body)
+                                elif nested_section_name in IGNORED_REFERENCES:
+                                    pass
                                 else:
-                                    if "Gregem" not in nested_section_name:
-                                        # We don't care about "Postcommunio Gregem", "Oratio Gregem", etc.
-                                        # so we silently ignore them
-                                        log.warning("Section `%s` referenced from `%s` is missing in `%s`",
-                                                    nested_section_name, full_path, nested_path)
+                                    log.warning("Section `%s` referenced from `%s` is missing in `%s`",
+                                                nested_section_name, full_path, nested_path)
                             else:
                                 # Reference to the other section in current file
                                 nested_section_body = parsed_source.get_section(nested_section_name).body

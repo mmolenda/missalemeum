@@ -8,7 +8,7 @@ import mistune
 import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
-from exceptions import SupplementNotFound, SectionNotFound
+from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
 
