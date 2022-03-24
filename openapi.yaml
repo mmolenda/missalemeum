@@ -2,9 +2,9 @@ openapi: 3.0.0
 info:
   title: "Missale Meum API."
   description: Missale Meum API provides access to the liturgical calendar calculated for any year and for the propers texts for any day, according to 1962 missal.
-  version: "4.3.21"
+  version: "3.0"
   contact:
-    email: "marcin@molenda.ovh"
+    email: "marcin@missalemeum.com"
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
@@ -113,7 +113,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/ProperByIdApiResponse"
-  /static/data/{lang}/ordo.json:
+  /{lang}/api/v3/ordo:
     get:
       tags:
       - "Ordo"
@@ -371,7 +371,7 @@ components:
             example: Collect
           body:
             type: array
-            description: Body of the section in two languages. First element of the array contains the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences.
+            description: Body of the section can contain either one or two strings. One string is treated as a rubric. When there are two strings, the first one represents the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences.
             items:
               type: string
               example:
