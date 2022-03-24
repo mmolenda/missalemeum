@@ -32,9 +32,9 @@ ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
 PATTERN_ADVENT = re.compile(r'^tempora:Adv\d')
 PATTERN_ADVENT_SUNDAY = re.compile(r'^tempora:Adv\d-0')
-PATTERN_ADVENT_FERIA = re.compile('tempora:Adv\d-[1-6]')
-PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile('tempora:Adv\d-[1-6]:2')
-PATTERN_ADVENT_FERIA_BEFORE_17 = re.compile('tempora:Adv\d-[1-6]:3')
+PATTERN_ADVENT_FERIA = re.compile(r'tempora:Adv\d-[1-6]')
+PATTERN_ADVENT_FERIA_BETWEEN_17_AND_23 = re.compile(r'tempora:Adv\d-[1-6]:2')
+PATTERN_ADVENT_FERIA_BEFORE_17 = re.compile(r'tempora:Adv\d-[1-6]:3')
 PATTERN_POST_EPIPHANY_SUNDAY = re.compile(r'^tempora:Epi\d-0')
 PATTERN_PRE_LENTEN = re.compile(r'^tempora:Quadp\d')
 PATTERN_LENT = re.compile(r'^tempora:Quad(p3-[3-6]|\d)')
@@ -60,8 +60,8 @@ PATTERN_CLASS_1 = re.compile(r'^[a-z]+:.*:1:\w$')
 PATTERN_CLASS_2 = re.compile(r'^[a-z]+:.*:2:\w$')
 PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3:\w$')
 PATTERN_COMMEMORATION = 'wspomnienie'
-PATTERN_ALLELUIA = re.compile('allel[uú][ij]a.*', re.IGNORECASE)
-PATTERN_TRACT = re.compile('.*tra[ck]t.*', re.IGNORECASE)
+PATTERN_ALLELUIA = re.compile(r'allel[uú][ij]a.*', re.IGNORECASE)
+PATTERN_TRACT = re.compile(r'.*tra[ck]t.*', re.IGNORECASE)
 INTROIT = 'Introitus'
 ORATIO = 'Oratio'
 LECTIO = 'Lectio'
@@ -1066,9 +1066,9 @@ CUSTOM_INTER_READING_SECTIONS = {
 
 OBSERVANCES_WITHOUT_OWN_PROPER = (
     # Advent feria except Ember Days
-    re.compile('tempora:Adv[124]-[1-6]'),
-    re.compile('tempora:Adv[3]-[124]'),
+    re.compile(r'tempora:Adv[124]-[1-6]'),
+    re.compile(r'tempora:Adv[3]-[124]'),
 )
 
-REFERENCE_REGEX = re.compile('^@([\w/\-]*):?([^:]*)[: ]*(.*)')
+REFERENCE_REGEX = re.compile(r'^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *([\w\d ]*).*')

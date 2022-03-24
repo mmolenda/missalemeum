@@ -186,7 +186,7 @@ def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str =
         title = supplement_yaml["title"]
         html = supplement_yaml["body"]
         ref = request.args.get("ref")
-        if ref is None or re.sub('[\w\-/]', '', ref) != "":
+        if ref is None or re.sub(r'[\w\-/]', '', ref) != "":
             ref = None
         return render_template_or_404("supplement.html", title=title, data=html, ref=ref, lang=lang)
 

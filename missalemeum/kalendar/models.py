@@ -76,7 +76,7 @@ class Observance:
         self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T):
-            self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
+            self.weekday = WEEKDAY_MAPPING[re.sub(r'^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = self.date.weekday()
         self.priority = self._calc_priority()
