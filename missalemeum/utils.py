@@ -116,7 +116,7 @@ def get_supplement(lang, resource, subdir=None):
         path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
             content = yaml.full_load(fh)
-            content["body"] = mistune.markdown(content["body"], escape=False)
+            content["body"] = mistune.markdown(content["body"], escape=False, plugins=['table'])
             return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")

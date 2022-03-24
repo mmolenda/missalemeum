@@ -184,7 +184,7 @@ def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str =
         return render_template_or_404("404.html", lang=lang), 404
     else:
         title = supplement_yaml["title"]
-        html = mistune.markdown(supplement_yaml["body"], escape=False)
+        html = supplement_yaml["body"]
         ref = request.args.get("ref")
         if ref is None or re.sub('[\w\-/]', '', ref) != "":
             ref = None
