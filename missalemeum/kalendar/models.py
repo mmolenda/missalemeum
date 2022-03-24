@@ -174,6 +174,10 @@ class Day:
     def all(self) -> List['Observance']:
         return self.tempora + self.celebration + self.commemoration
 
+    def get_tempora_id(self) -> Union[None, str]:
+        if self.tempora:
+            return self.tempora[0].id
+
     def get_tempora_name(self) -> Union[None, str]:
         if self.tempora:
             return self.tempora[0].title

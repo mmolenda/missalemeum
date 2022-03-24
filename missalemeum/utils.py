@@ -7,7 +7,8 @@ from typing import List, Union, Pattern
 import mistune
 import yaml
 
-from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR
+from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
+    SANCTI_02_02, GRADUALE
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -91,13 +92,20 @@ def format_proper_sections(propers_vernacular, propers_latin):
     return result
 
 
-def get_pregenerated_proper(lang, proper_id):
+def get_pregenerated_proper(lang, proper_id, tempora_id=None):
     if not proper_id:
         return
     path = os.path.join(PROPERS_DIR, lang, f"{proper_id.replace(':', '__')}.json")
     if os.path.exists(path):
         with open(path) as fh:
-            return json.load(fh)
+            proper = json.load(fh)
+            if proper_id == SANCTI_02_02 and tempora_id is not None:
+                # Candlemass is the only pre-generated proper for which the gradual/tract differs
+                # depending on liturgical period, hence this hack
+                section_to_del = GRADUALE if match(tempora_id, [PATTERN_PRE_LENTEN, PATTERN_LENT]) else TRACTUS
+                idx_to_del = [i for i, j in enumerate(proper[0]['sections']) if j['id'] == section_to_del][0]
+                del proper[0]['sections'][idx_to_del]
+            return proper
 
 
 def get_supplement(lang, resource, subdir=None):
