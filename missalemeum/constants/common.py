@@ -179,6 +179,7 @@ VISIBLE_SECTIONS = [
 # on purpose as they make sense in the context of Divinum Officium, but not in Missalemeum
 IGNORED_REFERENCES = ['Oratio Gregem', 'Secreta Gregem', 'Postcommunio Gregem', 'Munda Cor Passionis']
 
+FERIA = ':feria:4:w'
 # TEMPORA - days whose dates are not fixed, but are calculated (in most cases depending on Easter Sunday)
 TEMPORA_EPI1_0 = 'tempora:Epi1-0:2:w'    # Feast of the Holy Family
 TEMPORA_EPI1_0A = 'tempora:Epi1-0a:2:w'  # First Sunday after Epiphany

@@ -282,7 +282,7 @@ components:
         properties:
           celebration:
             type: "array"
-            description: "`Observance` which is celebrated on a given day. If not present, the `Observance` should be taken from `tempora` array. If it's not present in `tempora` either, it means it's a 4th class feria and the proper from the last Sunday (with appropriate modifications) should be used. Usually this array contains zero or one object. It can have more if there is more than one proper for given observance, for instance on the first Christmas day. Also some Easter days have additional pre-55 proper in some langugaes and they're present as another `Observance` object here as well."
+            description: "`Observance` which is observed on a given day. Usually this array contains one object. It can have more if there is more than one proper for given observance, for instance on the first Christmas day. Also some Easter days have additional pre-55 proper in some languages and they're present as another `Observance` object here as well."
             items:
               $ref: '#/components/schemas/Observance'
           commemoration:
@@ -292,7 +292,7 @@ components:
               $ref: '#/components/schemas/Observance'
           tempora:
             type: "array"
-            description: "`Observance` object representing the place in current liturgical season. Usually it's present only when the main celebration differs from the day according to the seasonal order. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
+            description: "`Observance` object representing the place in current liturgical season. Might be empty if the celebration comes from tempora. For example on Jan 21 2022 the main celebration is st. Agnes, but according to the seasonal order, it is Friday after 2nd Sunday after Epiphany. It can contain zero or one object."
             items:
               $ref: '#/components/schemas/Observance'
     ProperByDateApiResponse:

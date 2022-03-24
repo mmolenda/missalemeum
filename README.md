@@ -20,7 +20,7 @@ is available in Divinum Officium, it is relatively easy to support them. Volunte
 
 ## Running the application
 
-### Prerequisites:
+### Prerequisites
 
 * Python >=3.6
 * [Pipenv](https://pipenv.readthedocs.io/en/latest/)
@@ -40,7 +40,7 @@ used by `missalemeum.api` to fetch the data).
 
 To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
 
-### Run the development API:
+### Run the development API
 
 ```bash
 $ python missalemeum/app.py
@@ -48,9 +48,9 @@ $ python missalemeum/app.py
 
 and navigate to http://0.0.0.0:5000/.
 
-## API endpoints:
+## API specficiation
 
-See [OpenAPI spec](openapi.yaml).    
+See [openapi.yaml](openapi.yaml) or [auto-generated swagger API documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/mmolenda/missalemeum/master/openapi.yaml) based on the latter.     
 
 ## Docker
 
@@ -59,15 +59,14 @@ Docker setup copies only the necessary files from Divinum Officium to keep the i
 ```bash
 $ docker build -t missalemeum .
 $ docker run -d -p 8000:8000 missalemeum
-
 ```
+
+and navigate to http://0.0.0.0:8000/.
 
 ### Running tests in Docker
 
 Build the image.
 Run `docker run missalemeum sh -c "pytest tests"`
-
-and navigate to http://0.0.0.0:8000/.
 
 ## Command line (CLI)
 

@@ -18,7 +18,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               COMMUNIO,
                               TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, TEMPORA_PASC5_0,
                               TEMPORA_PASC5_4,
-                              TEMPORA_PENT01_0A)
+                              TEMPORA_PENT01_0A, FERIA)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
 from utils import get_custom_preface, match
@@ -225,7 +225,7 @@ class Day:
         else:
             # It's a feria day without its own proper for which the last Sunday's proper is used
             inferred_observances = self._infer_observance()
-            if observances:
+            if observances and not match(observances, FERIA):
                 rank: int = observances[0].rank
                 preface: str = get_custom_preface(observances[0])
             else:

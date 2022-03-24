@@ -1,6 +1,7 @@
 from ..la.translation import *
 
 TITLES = {
+    constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'The Holy Family: Jesus, Mary & Joseph',
     constants.TEMPORA_EPI1_1: 'Feria II after Epiphany',
     constants.TEMPORA_EPI1_2: 'Feria III after Epiphany',

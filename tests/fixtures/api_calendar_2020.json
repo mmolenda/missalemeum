@@ -7,19 +7,37 @@
         ],
         "id": "sancti:01-01:1:w",
         "rank": 1,
-        "title": "Oktawa Bo\u017cego Narodzenia"
+        "title": "Oktawa Bożego Narodzenia"
       }
     ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-02": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
@@ -45,7 +63,7 @@
         ],
         "id": "tempora:Nat2-0:2:w",
         "rank": 2,
-        "title": "Naj\u015bwi\u0119tszego Imienia Jezus"
+        "title": "Najświętszego Imienia Jezus"
       }
     ],
     "commemoration": [],
@@ -59,29 +77,65 @@
         ],
         "id": "sancti:01-06:1:w",
         "rank": 1,
-        "title": "Objawienie Pa\u0144skie"
+        "title": "Objawienie Pańskie"
       }
     ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-07": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-08": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-09": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
   "2020-01-10": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": []
   },
@@ -107,7 +161,7 @@
         ],
         "id": "tempora:Epi1-0:2:w",
         "rank": 2,
-        "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa"
+        "title": "Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa"
       }
     ],
     "commemoration": [],
@@ -118,7 +172,7 @@
         ],
         "id": "tempora:Epi1-0:2:w",
         "rank": 2,
-        "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa"
+        "title": "Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa"
       }
     ]
   },
@@ -130,7 +184,7 @@
         ],
         "id": "sancti:01-13:2:w",
         "rank": 2,
-        "title": "Wspomnienie Chrztu Pa\u0144skiego"
+        "title": "Wspomnienie Chrztu Pańskiego"
       }
     ],
     "commemoration": [],
@@ -141,7 +195,7 @@
         ],
         "id": "tempora:Epi1-1:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 1 Niedzieli po Objawieniu"
+        "title": "Poniedziałek po 1 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -153,7 +207,7 @@
         ],
         "id": "sancti:01-14:3:w",
         "rank": 3,
-        "title": "\u015aw. Hilarego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Hilarego, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -176,7 +230,7 @@
         ],
         "id": "sancti:01-15:3:w",
         "rank": 3,
-        "title": "\u015aw. Paw\u0142a, Pierwszego Pustelnika, Wyznawcy"
+        "title": "Św. Pawła, Pierwszego Pustelnika, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -187,7 +241,7 @@
         ],
         "id": "tempora:Epi1-3:4:w",
         "rank": 4,
-        "title": "\u015aroda po 1 Niedzieli po Objawieniu"
+        "title": "Środa po 1 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -199,7 +253,7 @@
         ],
         "id": "sancti:01-16:3:r",
         "rank": 3,
-        "title": "\u015aw. Marcelego I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Marcelego I, Papieża i Męczennika"
       }
     ],
     "commemoration": [],
@@ -222,7 +276,7 @@
         ],
         "id": "sancti:01-17:3:w",
         "rank": 3,
-        "title": "\u015aw. Antoniego, Opata"
+        "title": "Św. Antoniego, Opata"
       }
     ],
     "commemoration": [],
@@ -233,7 +287,7 @@
         ],
         "id": "tempora:Epi1-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po 1 Niedzieli po Objawieniu"
+        "title": "Piątek po 1 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -255,7 +309,7 @@
         ],
         "id": "sancti:01-18r:4:w",
         "rank": 4,
-        "title": "\u015aw. Pryski, Dziewicy"
+        "title": "Św. Pryski, Dziewicy"
       }
     ],
     "tempora": [
@@ -300,7 +354,7 @@
         ],
         "id": "sancti:01-20:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Fabiana, Papie\u017ca i Sebastiana, M\u0119czennik\u00f3w"
+        "title": "Śś. Fabiana, Papieża i Sebastiana, Męczenników"
       }
     ],
     "commemoration": [],
@@ -311,7 +365,7 @@
         ],
         "id": "tempora:Epi2-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli po Objawieniu"
+        "title": "Poniedziałek po 2 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -323,7 +377,7 @@
         ],
         "id": "sancti:01-21:3:r",
         "rank": 3,
-        "title": "\u015aw. Agnieszki, Dziewicy i M\u0119czennicy"
+        "title": "Św. Agnieszki, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [],
@@ -346,7 +400,7 @@
         ],
         "id": "sancti:01-22:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Wincentego i Anastazego, M\u0119czennik\u00f3w"
+        "title": "Śś. Wincentego i Anastazego, Męczenników"
       }
     ],
     "commemoration": [],
@@ -357,7 +411,7 @@
         ],
         "id": "tempora:Epi2-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 2 Niedzieli po Objawieniu"
+        "title": "Środa po 2 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -369,7 +423,7 @@
         ],
         "id": "sancti:01-23:3:w",
         "rank": 3,
-        "title": "\u015aw. Rajmunda z Pennafort, Wyznawcy"
+        "title": "Św. Rajmunda z Pennafort, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -392,7 +446,7 @@
         ],
         "id": "sancti:01-24:3:r",
         "rank": 3,
-        "title": "\u015aw. Tymoteusza, Biskupa i M\u0119czennika"
+        "title": "Św. Tymoteusza, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -403,7 +457,7 @@
         ],
         "id": "tempora:Epi2-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 2 Niedzieli po Objawieniu"
+        "title": "Piątek po 2 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -415,7 +469,7 @@
         ],
         "id": "sancti:01-25r:3:w",
         "rank": 3,
-        "title": "Nawr\u00f3cenie \u015bw. Paw\u0142a, Aposto\u0142a"
+        "title": "Nawrócenie św. Pawła, Apostoła"
       }
     ],
     "commemoration": [],
@@ -461,7 +515,7 @@
         ],
         "id": "sancti:01-27:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Chryzostoma, Wyznawcy, Biskupa i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Jana Chryzostoma, Wyznawcy, Biskupa i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -472,7 +526,7 @@
         ],
         "id": "tempora:Epi3-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli po Objawieniu"
+        "title": "Poniedziałek po 3 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -484,7 +538,7 @@
         ],
         "id": "sancti:01-28:3:w",
         "rank": 3,
-        "title": "\u015aw. Piotra Nolasco, Wyznawcy"
+        "title": "Św. Piotra Nolasco, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -507,7 +561,7 @@
         ],
         "id": "sancti:01-29:3:w",
         "rank": 3,
-        "title": "\u015aw. Franciszka Salezego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Franciszka Salezego, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -518,7 +572,7 @@
         ],
         "id": "tempora:Epi3-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 3 Niedzieli po Objawieniu"
+        "title": "Środa po 3 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -530,7 +584,7 @@
         ],
         "id": "sancti:01-30:3:r",
         "rank": 3,
-        "title": "\u015aw. Martyny, Dziewicy i M\u0119czennicy"
+        "title": "Św. Martyny, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [],
@@ -553,7 +607,7 @@
         ],
         "id": "sancti:01-31:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Bosco, Wyznawcy"
+        "title": "Św. Jana Bosco, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -564,7 +618,7 @@
         ],
         "id": "tempora:Epi3-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 3 Niedzieli po Objawieniu"
+        "title": "Piątek po 3 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -576,7 +630,7 @@
         ],
         "id": "sancti:02-01:3:r",
         "rank": 3,
-        "title": "\u015aw. Ignacego, Biskupa i M\u0119czennika"
+        "title": "Św. Ignacego, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -615,7 +669,16 @@
     ]
   },
   "2020-02-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -623,7 +686,7 @@
         ],
         "id": "sancti:02-03:4:r",
         "rank": 4,
-        "title": "\u015aw. B\u0142a\u017ceja, Biskupa i M\u0119czennika"
+        "title": "Św. Błażeja, Biskupa i Męczennika"
       }
     ],
     "tempora": [
@@ -633,7 +696,7 @@
         ],
         "id": "tempora:Epi4-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli po Objawieniu"
+        "title": "Poniedziałek po 4 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -645,7 +708,7 @@
         ],
         "id": "sancti:02-04:3:w",
         "rank": 3,
-        "title": "\u015aw. Andrzeja Corsini, Biskupa i Wyznawcy"
+        "title": "Św. Andrzeja Corsini, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -668,7 +731,7 @@
         ],
         "id": "sancti:02-05:3:r",
         "rank": 3,
-        "title": "\u015aw. Agaty, Dziewicy i M\u0119czennicy"
+        "title": "Św. Agaty, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [],
@@ -679,7 +742,7 @@
         ],
         "id": "tempora:Epi4-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 4 Niedzieli po Objawieniu"
+        "title": "Środa po 4 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -691,7 +754,7 @@
         ],
         "id": "sancti:02-06:3:w",
         "rank": 3,
-        "title": "\u015aw. Tytusa, Biskupa i Wyznawcy"
+        "title": "Św. Tytusa, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -714,7 +777,7 @@
         ],
         "id": "sancti:02-07:3:w",
         "rank": 3,
-        "title": "\u015aw. Romualda, Opata"
+        "title": "Św. Romualda, Opata"
       }
     ],
     "commemoration": [],
@@ -725,7 +788,7 @@
         ],
         "id": "tempora:Epi4-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 4 Niedzieli po Objawieniu"
+        "title": "Piątek po 4 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -737,7 +800,7 @@
         ],
         "id": "sancti:02-08:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana z Maty, Wyznawcy"
+        "title": "Św. Jana z Maty, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -760,7 +823,7 @@
         ],
         "id": "tempora:Quadp1-0:2:v",
         "rank": 2,
-        "title": "Niedziela Siedemdziesi\u0105tnicy"
+        "title": "Niedziela Siedemdziesiątnicy"
       }
     ],
     "commemoration": [],
@@ -771,7 +834,7 @@
         ],
         "id": "tempora:Quadp1-0:2:v",
         "rank": 2,
-        "title": "Niedziela Siedemdziesi\u0105tnicy"
+        "title": "Niedziela Siedemdziesiątnicy"
       }
     ]
   },
@@ -783,7 +846,7 @@
         ],
         "id": "sancti:02-10:3:w",
         "rank": 3,
-        "title": "\u015aw. Scholastyki"
+        "title": "Św. Scholastyki"
       }
     ],
     "commemoration": [],
@@ -794,7 +857,7 @@
         ],
         "id": "tempora:Quadp1-1:4:v",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Poniedziałek po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
@@ -806,7 +869,7 @@
         ],
         "id": "sancti:02-11:3:w",
         "rank": 3,
-        "title": "Objawienie si\u0119 N. M. P. Niepokalanie Pocz\u0119tej w Lourdes"
+        "title": "Objawienie się N. M. P. Niepokalanie Poczętej w Lourdes"
       }
     ],
     "commemoration": [],
@@ -817,7 +880,7 @@
         ],
         "id": "tempora:Quadp1-2:4:v",
         "rank": 4,
-        "title": "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Wtorek po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
@@ -829,7 +892,7 @@
         ],
         "id": "sancti:02-12:3:w",
         "rank": 3,
-        "title": "Siedmiu Za\u0142o\u017cycieli Zakonu Serwit\u00f3w N. M. P., Wyznawc\u00f3w"
+        "title": "Siedmiu Założycieli Zakonu Serwitów N. M. P., Wyznawców"
       }
     ],
     "commemoration": [],
@@ -840,12 +903,21 @@
         ],
         "id": "tempora:Quadp1-3:4:v",
         "rank": 4,
-        "title": "\u015aroda po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Środa po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
   "2020-02-13": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -854,12 +926,21 @@
         ],
         "id": "tempora:Quadp1-4:4:v",
         "rank": 4,
-        "title": "Czwartek po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Czwartek po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
   "2020-02-14": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -867,7 +948,7 @@
         ],
         "id": "sancti:02-14:4:r",
         "rank": 4,
-        "title": "\u015aw. Walentego, Kap\u0142ana i M\u0119czennika"
+        "title": "Św. Walentego, Kapłana i Męczennika"
       }
     ],
     "tempora": [
@@ -877,7 +958,7 @@
         ],
         "id": "tempora:Quadp1-5:4:v",
         "rank": 4,
-        "title": "Pi\u0105tek po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Piątek po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
@@ -899,7 +980,7 @@
         ],
         "id": "sancti:02-15:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Faustyna i Jowity, M\u0119czennik\u00f3w"
+        "title": "Śś. Faustyna i Jowity, Męczenników"
       }
     ],
     "tempora": [
@@ -909,7 +990,7 @@
         ],
         "id": "tempora:Quadp1-6:4:v",
         "rank": 4,
-        "title": "Sobota po Niedzieli Siedemdziesi\u0105tnicy"
+        "title": "Sobota po Niedzieli Siedemdziesiątnicy"
       }
     ]
   },
@@ -921,7 +1002,7 @@
         ],
         "id": "tempora:Quadp2-0:2:v",
         "rank": 2,
-        "title": "Niedziela Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Sześćdziesiątnicy"
       }
     ],
     "commemoration": [],
@@ -932,12 +1013,21 @@
         ],
         "id": "tempora:Quadp2-0:2:v",
         "rank": 2,
-        "title": "Niedziela Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Sześćdziesiątnicy"
       }
     ]
   },
   "2020-02-17": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -946,12 +1036,21 @@
         ],
         "id": "tempora:Quadp2-1:4:v",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Poniedziałek po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
   "2020-02-18": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -959,7 +1058,7 @@
         ],
         "id": "sancti:02-18:4:r",
         "rank": 4,
-        "title": "\u015aw. Symeona, Biskupa i M\u0119czennika"
+        "title": "Św. Symeona, Biskupa i Męczennika"
       }
     ],
     "tempora": [
@@ -969,12 +1068,21 @@
         ],
         "id": "tempora:Quadp2-2:4:v",
         "rank": 4,
-        "title": "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Wtorek po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
   "2020-02-19": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -983,12 +1091,21 @@
         ],
         "id": "tempora:Quadp2-3:4:v",
         "rank": 4,
-        "title": "\u015aroda po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Środa po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
   "2020-02-20": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -997,12 +1114,21 @@
         ],
         "id": "tempora:Quadp2-4:4:v",
         "rank": 4,
-        "title": "Czwartek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Czwartek po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
   "2020-02-21": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "v"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -1011,7 +1137,7 @@
         ],
         "id": "tempora:Quadp2-5:4:v",
         "rank": 4,
-        "title": "Pi\u0105tek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Piątek po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
@@ -1023,7 +1149,7 @@
         ],
         "id": "sancti:02-22:2:w",
         "rank": 2,
-        "title": "Katedry \u015bw. Piotra Aposto\u0142a"
+        "title": "Katedry św. Piotra Apostoła"
       }
     ],
     "commemoration": [],
@@ -1034,7 +1160,7 @@
         ],
         "id": "tempora:Quadp2-6:4:v",
         "rank": 4,
-        "title": "Sobota po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Sobota po Niedzieli Sześćdziesiątnicy"
       }
     ]
   },
@@ -1046,7 +1172,7 @@
         ],
         "id": "tempora:Quadp3-0:2:v",
         "rank": 2,
-        "title": "Niedziela Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Pięćdziesiątnicy"
       }
     ],
     "commemoration": [],
@@ -1057,7 +1183,7 @@
         ],
         "id": "tempora:Quadp3-0:2:v",
         "rank": 2,
-        "title": "Niedziela Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Pięćdziesiątnicy"
       }
     ]
   },
@@ -1069,7 +1195,7 @@
         ],
         "id": "tempora:Quadp3-1:4:v",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Poniedziałek po Niedzieli Pięćdziesiątnicy"
       }
     ],
     "commemoration": [],
@@ -1080,7 +1206,7 @@
         ],
         "id": "tempora:Quadp3-1:4:v",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Poniedziałek po Niedzieli Pięćdziesiątnicy"
       }
     ]
   },
@@ -1092,7 +1218,7 @@
         ],
         "id": "sancti:02-24:2:r",
         "rank": 2,
-        "title": "\u015aw. Macieja Aposto\u0142a"
+        "title": "Św. Macieja Apostoła"
       }
     ],
     "commemoration": [],
@@ -1103,7 +1229,7 @@
         ],
         "id": "tempora:Quadp3-2:4:v",
         "rank": 4,
-        "title": "Wtorek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Wtorek po Niedzieli Pięćdziesiątnicy"
       }
     ]
   },
@@ -1115,7 +1241,7 @@
         ],
         "id": "tempora:Quadp3-3:1:v",
         "rank": 1,
-        "title": "\u015aroda Popielcowa"
+        "title": "Środa Popielcowa"
       }
     ],
     "commemoration": [],
@@ -1126,7 +1252,7 @@
         ],
         "id": "tempora:Quadp3-3:1:v",
         "rank": 1,
-        "title": "\u015aroda Popielcowa"
+        "title": "Środa Popielcowa"
       }
     ]
   },
@@ -1161,7 +1287,7 @@
         ],
         "id": "tempora:Quadp3-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po Popielcu"
+        "title": "Piątek po Popielcu"
       }
     ],
     "commemoration": [
@@ -1171,7 +1297,7 @@
         ],
         "id": "sancti:02-27:3:w",
         "rank": 3,
-        "title": "\u015aw. Gabriela od Matki Bo\u017cej Bolesnej"
+        "title": "Św. Gabriela od Matki Bożej Bolesnej"
       }
     ],
     "tempora": [
@@ -1181,7 +1307,7 @@
         ],
         "id": "tempora:Quadp3-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po Popielcu"
+        "title": "Piątek po Popielcu"
       }
     ]
   },
@@ -1239,7 +1365,7 @@
         ],
         "id": "tempora:Quad1-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 1 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 1 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1250,7 +1376,7 @@
         ],
         "id": "tempora:Quad1-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 1 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 1 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1285,7 +1411,7 @@
         ],
         "id": "tempora:Quad1-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Wielkiego Postu"
+        "title": "Środa Suchych Dni Wielkiego Postu"
       }
     ],
     "commemoration": [
@@ -1295,7 +1421,7 @@
         ],
         "id": "sancti:03-04:3:w",
         "rank": 3,
-        "title": "\u015aw. Kazimierza, Wyznawcy"
+        "title": "Św. Kazimierza, Wyznawcy"
       }
     ],
     "tempora": [
@@ -1305,7 +1431,7 @@
         ],
         "id": "tempora:Quad1-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Wielkiego Postu"
+        "title": "Środa Suchych Dni Wielkiego Postu"
       }
     ]
   },
@@ -1340,7 +1466,7 @@
         ],
         "id": "tempora:Quad1-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+        "title": "Piątek Suchych Dni Wielkiego Postu"
       }
     ],
     "commemoration": [
@@ -1350,7 +1476,7 @@
         ],
         "id": "sancti:03-06:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Perpetui i Felicyty, M\u0119czennic"
+        "title": "Śś. Perpetui i Felicyty, Męczennic"
       }
     ],
     "tempora": [
@@ -1360,7 +1486,7 @@
         ],
         "id": "tempora:Quad1-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+        "title": "Piątek Suchych Dni Wielkiego Postu"
       }
     ]
   },
@@ -1382,7 +1508,7 @@
         ],
         "id": "sancti:03-07:3:w",
         "rank": 3,
-        "title": "\u015aw. Tomasza z Akwinu, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Tomasza z Akwinu, Wyznawcy i Doktora Kościoła"
       }
     ],
     "tempora": [
@@ -1427,7 +1553,7 @@
         ],
         "id": "tempora:Quad2-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 2 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [
@@ -1437,7 +1563,7 @@
         ],
         "id": "sancti:03-09:3:w",
         "rank": 3,
-        "title": "\u015aw. Franciszki Rzymianki, Wdowy"
+        "title": "Św. Franciszki Rzymianki, Wdowy"
       }
     ],
     "tempora": [
@@ -1447,7 +1573,7 @@
         ],
         "id": "tempora:Quad2-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 2 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1469,7 +1595,7 @@
         ],
         "id": "sancti:03-10:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Czterdziestu M\u0119czennik\u00f3w"
+        "title": "Śś. Czterdziestu Męczenników"
       }
     ],
     "tempora": [
@@ -1491,7 +1617,7 @@
         ],
         "id": "tempora:Quad2-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+        "title": "Środa po 2 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1502,7 +1628,7 @@
         ],
         "id": "tempora:Quad2-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+        "title": "Środa po 2 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1524,7 +1650,7 @@
         ],
         "id": "sancti:03-12:3:w",
         "rank": 3,
-        "title": "\u015aw. Grzegorza Wielkiego, Papie\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Grzegorza Wielkiego, Papieża, Wyznawcy i Doktora Kościoła"
       }
     ],
     "tempora": [
@@ -1546,7 +1672,7 @@
         ],
         "id": "tempora:Quad2-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 2 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1557,7 +1683,7 @@
         ],
         "id": "tempora:Quad2-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 2 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1615,7 +1741,7 @@
         ],
         "id": "tempora:Quad3-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 3 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1626,7 +1752,7 @@
         ],
         "id": "tempora:Quad3-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 3 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1661,7 +1787,7 @@
         ],
         "id": "tempora:Quad3-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 3 Niedzieli Wielkiego Postu"
+        "title": "Środa po 3 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [
@@ -1671,7 +1797,7 @@
         ],
         "id": "sancti:03-18:3:w",
         "rank": 3,
-        "title": "\u015aw. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "tempora": [
@@ -1681,7 +1807,7 @@
         ],
         "id": "tempora:Quad3-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 3 Niedzieli Wielkiego Postu"
+        "title": "Środa po 3 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1693,7 +1819,7 @@
         ],
         "id": "sancti:03-19:1:w",
         "rank": 1,
-        "title": "\u015aw. J\u00f3zefa, Oblubie\u0144ca N. M. P."
+        "title": "Św. Józefa, Oblubieńca N. M. P."
       }
     ],
     "commemoration": [
@@ -1725,7 +1851,7 @@
         ],
         "id": "tempora:Quad3-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 3 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 3 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1736,7 +1862,7 @@
         ],
         "id": "tempora:Quad3-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 3 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 3 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1758,7 +1884,7 @@
         ],
         "id": "sancti:03-21:3:w",
         "rank": 3,
-        "title": "\u015aw. Benedykta, Opata"
+        "title": "Św. Benedykta, Opata"
       }
     ],
     "tempora": [
@@ -1776,7 +1902,8 @@
     "celebration": [
       {
         "colors": [
-          "p", "v"
+          "p",
+          "v"
         ],
         "id": "tempora:Quad4-0:1:pv",
         "rank": 1,
@@ -1787,7 +1914,8 @@
     "tempora": [
       {
         "colors": [
-          "p", "v"
+          "p",
+          "v"
         ],
         "id": "tempora:Quad4-0:1:pv",
         "rank": 1,
@@ -1803,7 +1931,7 @@
         ],
         "id": "tempora:Quad4-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 4 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [],
@@ -1814,7 +1942,7 @@
         ],
         "id": "tempora:Quad4-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 4 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1836,7 +1964,7 @@
         ],
         "id": "sancti:03-24:3:w",
         "rank": 3,
-        "title": "\u015aw. Gabriela Archanio\u0142a"
+        "title": "Św. Gabriela Archanioła"
       }
     ],
     "tempora": [
@@ -1868,7 +1996,7 @@
         ],
         "id": "tempora:Quad4-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+        "title": "Środa po 4 Niedzieli Wielkiego Postu"
       }
     ],
     "tempora": [
@@ -1878,7 +2006,7 @@
         ],
         "id": "tempora:Quad4-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+        "title": "Środa po 4 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1913,7 +2041,7 @@
         ],
         "id": "tempora:Quad4-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 4 Niedzieli Wielkiego Postu"
       }
     ],
     "commemoration": [
@@ -1923,7 +2051,7 @@
         ],
         "id": "sancti:03-27:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Damasce\u0144skiego, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Jana Damasceńskiego, Wyznawcy i Doktora Kościoła"
       }
     ],
     "tempora": [
@@ -1933,7 +2061,7 @@
         ],
         "id": "tempora:Quad4-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 4 Niedzieli Wielkiego Postu"
       }
     ]
   },
@@ -1955,7 +2083,7 @@
         ],
         "id": "sancti:03-28:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Kapistrana, Wyznawcy"
+        "title": "Św. Jana Kapistrana, Wyznawcy"
       }
     ],
     "tempora": [
@@ -1977,7 +2105,7 @@
         ],
         "id": "tempora:Quad5-0:1:v",
         "rank": 1,
-        "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+        "title": "1 Niedziela Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -1988,7 +2116,7 @@
         ],
         "id": "tempora:Quad5-0:1:v",
         "rank": 1,
-        "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+        "title": "1 Niedziela Męki Pańskiej"
       }
     ]
   },
@@ -2000,7 +2128,7 @@
         ],
         "id": "tempora:Quad5-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Poniedziałek po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2011,7 +2139,7 @@
         ],
         "id": "tempora:Quad5-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Poniedziałek po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2023,7 +2151,7 @@
         ],
         "id": "tempora:Quad5-2:3:v",
         "rank": 3,
-        "title": "Wtorek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Wtorek po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2034,7 +2162,7 @@
         ],
         "id": "tempora:Quad5-2:3:v",
         "rank": 3,
-        "title": "Wtorek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Wtorek po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2046,7 +2174,7 @@
         ],
         "id": "tempora:Quad5-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Środa po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2057,7 +2185,7 @@
         ],
         "id": "tempora:Quad5-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Środa po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2069,7 +2197,7 @@
         ],
         "id": "tempora:Quad5-4:3:v",
         "rank": 3,
-        "title": "Czwartek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Czwartek po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2080,7 +2208,7 @@
         ],
         "id": "tempora:Quad5-4:3:v",
         "rank": 3,
-        "title": "Czwartek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Czwartek po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2092,7 +2220,7 @@
         ],
         "id": "tempora:Quad5-5Feria:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Piątek po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2103,7 +2231,7 @@
         ],
         "id": "tempora:Quad5-5Feria:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Piątek po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2115,7 +2243,7 @@
         ],
         "id": "tempora:Quad5-6:3:v",
         "rank": 3,
-        "title": "Sobota po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Sobota po Niedzieli Męki Pańskiej"
       }
     ],
     "commemoration": [],
@@ -2126,7 +2254,7 @@
         ],
         "id": "tempora:Quad5-6:3:v",
         "rank": 3,
-        "title": "Sobota po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Sobota po Niedzieli Męki Pańskiej"
       }
     ]
   },
@@ -2163,7 +2291,7 @@
         ],
         "id": "tempora:Quad6-1:1:v",
         "rank": 1,
-        "title": "Wielki Poniedzia\u0142ek"
+        "title": "Wielki Poniedziałek"
       }
     ],
     "commemoration": [],
@@ -2174,7 +2302,7 @@
         ],
         "id": "tempora:Quad6-1:1:v",
         "rank": 1,
-        "title": "Wielki Poniedzia\u0142ek"
+        "title": "Wielki Poniedziałek"
       }
     ]
   },
@@ -2209,7 +2337,7 @@
         ],
         "id": "tempora:Quad6-3:1:v",
         "rank": 1,
-        "title": "Wielka \u015aroda"
+        "title": "Wielka Środa"
       }
     ],
     "commemoration": [],
@@ -2220,7 +2348,7 @@
         ],
         "id": "tempora:Quad6-3:1:v",
         "rank": 1,
-        "title": "Wielka \u015aroda"
+        "title": "Wielka Środa"
       }
     ]
   },
@@ -2328,7 +2456,7 @@
         ],
         "id": "tempora:Pasc0-1:1:w",
         "rank": 1,
-        "title": "Poniedzia\u0142ek Wielkanocny"
+        "title": "Poniedziałek Wielkanocny"
       }
     ],
     "commemoration": [],
@@ -2339,7 +2467,7 @@
         ],
         "id": "tempora:Pasc0-1:1:w",
         "rank": 1,
-        "title": "Poniedzia\u0142ek Wielkanocny"
+        "title": "Poniedziałek Wielkanocny"
       }
     ]
   },
@@ -2374,7 +2502,7 @@
         ],
         "id": "tempora:Pasc0-3:1:w",
         "rank": 1,
-        "title": "\u015aroda Wielkanocna"
+        "title": "Środa Wielkanocna"
       }
     ],
     "commemoration": [],
@@ -2385,7 +2513,7 @@
         ],
         "id": "tempora:Pasc0-3:1:w",
         "rank": 1,
-        "title": "\u015aroda Wielkanocna"
+        "title": "Środa Wielkanocna"
       }
     ]
   },
@@ -2420,7 +2548,7 @@
         ],
         "id": "tempora:Pasc0-5:1:w",
         "rank": 1,
-        "title": "Pi\u0105tek Wielkanocny"
+        "title": "Piątek Wielkanocny"
       }
     ],
     "commemoration": [],
@@ -2431,7 +2559,7 @@
         ],
         "id": "tempora:Pasc0-5:1:w",
         "rank": 1,
-        "title": "Pi\u0105tek Wielkanocny"
+        "title": "Piątek Wielkanocny"
       }
     ]
   },
@@ -2443,7 +2571,7 @@
         ],
         "id": "tempora:Pasc0-6:1:w",
         "rank": 1,
-        "title": "Sobota Bia\u0142a"
+        "title": "Sobota Biała"
       }
     ],
     "commemoration": [],
@@ -2454,7 +2582,7 @@
         ],
         "id": "tempora:Pasc0-6:1:w",
         "rank": 1,
-        "title": "Sobota Bia\u0142a"
+        "title": "Sobota Biała"
       }
     ]
   },
@@ -2466,7 +2594,7 @@
         ],
         "id": "tempora:Pasc1-0:1:w",
         "rank": 1,
-        "title": "Niedziela Bia\u0142a"
+        "title": "Niedziela Biała"
       }
     ],
     "commemoration": [],
@@ -2477,12 +2605,21 @@
         ],
         "id": "tempora:Pasc1-0:1:w",
         "rank": 1,
-        "title": "Niedziela Bia\u0142a"
+        "title": "Niedziela Biała"
       }
     ]
   },
   "2020-04-20": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -2491,7 +2628,7 @@
         ],
         "id": "tempora:Pasc1-1:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli Bia\u0142ej"
+        "title": "Poniedziałek po Niedzieli Białej"
       }
     ]
   },
@@ -2503,7 +2640,7 @@
         ],
         "id": "sancti:04-21:3:w",
         "rank": 3,
-        "title": "\u015aw. Anzelma, Biskupa, Wyznawcy i Dokotra Ko\u015bcio\u0142a"
+        "title": "Św. Anzelma, Biskupa, Wyznawcy i Dokotra Kościoła"
       }
     ],
     "commemoration": [],
@@ -2514,7 +2651,7 @@
         ],
         "id": "tempora:Pasc1-2:4:w",
         "rank": 4,
-        "title": "Wtorek po Niedzieli Bia\u0142ej"
+        "title": "Wtorek po Niedzieli Białej"
       }
     ]
   },
@@ -2526,7 +2663,7 @@
         ],
         "id": "sancti:04-22:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Sotera i Kajusa, Papie\u017cy i M\u0119czennik\u00f3w"
+        "title": "Śś. Sotera i Kajusa, Papieży i Męczenników"
       }
     ],
     "commemoration": [],
@@ -2537,7 +2674,7 @@
         ],
         "id": "tempora:Pasc1-3:4:w",
         "rank": 4,
-        "title": "\u015aroda po Niedzieli Bia\u0142ej"
+        "title": "Środa po Niedzieli Białej"
       }
     ]
   },
@@ -2549,7 +2686,7 @@
         ],
         "id": "sancti:04-23pl:1:r",
         "rank": 1,
-        "title": "\u015aw. Wojciecha, Biskupa i M\u0119czennika"
+        "title": "Św. Wojciecha, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -2560,7 +2697,7 @@
         ],
         "id": "tempora:Pasc1-4:4:w",
         "rank": 4,
-        "title": "Czwartek po Niedzieli Bia\u0142ej"
+        "title": "Czwartek po Niedzieli Białej"
       }
     ]
   },
@@ -2572,7 +2709,7 @@
         ],
         "id": "sancti:04-24:3:r",
         "rank": 3,
-        "title": "\u015aw. Fidelisa z Sigmaringen, M\u0119czennika"
+        "title": "Św. Fidelisa z Sigmaringen, Męczennika"
       }
     ],
     "commemoration": [],
@@ -2583,7 +2720,7 @@
         ],
         "id": "tempora:Pasc1-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po Niedzieli Bia\u0142ej"
+        "title": "Piątek po Niedzieli Białej"
       }
     ]
   },
@@ -2595,7 +2732,7 @@
         ],
         "id": "sancti:04-25:2:r",
         "rank": 2,
-        "title": "\u015aw. Marka Ewangelisty"
+        "title": "Św. Marka Ewangelisty"
       }
     ],
     "commemoration": [],
@@ -2606,7 +2743,7 @@
         ],
         "id": "tempora:Pasc1-6:4:w",
         "rank": 4,
-        "title": "Sobota po Niedzieli Bia\u0142ej"
+        "title": "Sobota po Niedzieli Białej"
       }
     ]
   },
@@ -2641,7 +2778,7 @@
         ],
         "id": "sancti:04-27:3:w",
         "rank": 3,
-        "title": "\u015aw. Piotra Kanizjusza, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Piotra Kanizjusza, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -2652,7 +2789,7 @@
         ],
         "id": "tempora:Pasc2-1:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli po Wielkanocy"
+        "title": "Poniedziałek po 2 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2664,7 +2801,7 @@
         ],
         "id": "sancti:04-28:3:w",
         "rank": 3,
-        "title": "\u015aw. Paw\u0142a od Krzy\u017ca, Wyznawcy"
+        "title": "Św. Pawła od Krzyża, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -2687,7 +2824,7 @@
         ],
         "id": "sancti:04-29:3:r",
         "rank": 3,
-        "title": "Piotra z Werony, M\u0119czenika"
+        "title": "Piotra z Werony, Męczenika"
       }
     ],
     "commemoration": [],
@@ -2698,7 +2835,7 @@
         ],
         "id": "tempora:Pasc2-3Feria:4:w",
         "rank": 4,
-        "title": "\u015aroda po 2 Niedzieli po Wielkanocy"
+        "title": "Środa po 2 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2710,7 +2847,7 @@
         ],
         "id": "sancti:04-30:3:w",
         "rank": 3,
-        "title": "\u015aw. Katarzyny Siene\u0144skiej, Dziewicy"
+        "title": "Św. Katarzyny Sieneńskiej, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -2733,7 +2870,7 @@
         ],
         "id": "sancti:05-01r:1:w",
         "rank": 1,
-        "title": "\u015aw. J\u00f3zefa Robotnika, Oblubie\u0144ca N. M. P"
+        "title": "Św. Józefa Robotnika, Oblubieńca N. M. P"
       }
     ],
     "commemoration": [],
@@ -2744,7 +2881,7 @@
         ],
         "id": "tempora:Pasc2-5Feria:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po 2 Niedzieli po Wielkanocy"
+        "title": "Piątek po 2 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2756,7 +2893,7 @@
         ],
         "id": "sancti:05-02:3:w",
         "rank": 3,
-        "title": "\u015aw. Atanazego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Atanazego, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -2779,7 +2916,7 @@
         ],
         "id": "sancti:05-03pl:1:w",
         "rank": 1,
-        "title": "N. M. P., Kr\u00f3lowej Polski, G\u0142\u00f3wnej Patronki Polski"
+        "title": "N. M. P., Królowej Polski, Głównej Patronki Polski"
       }
     ],
     "commemoration": [],
@@ -2802,7 +2939,7 @@
         ],
         "id": "sancti:05-04:3:w",
         "rank": 3,
-        "title": "\u015aw. Moniki, Wdowy"
+        "title": "Św. Moniki, Wdowy"
       }
     ],
     "commemoration": [],
@@ -2813,7 +2950,7 @@
         ],
         "id": "tempora:Pasc3-1Feria:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli po Wielkanocy"
+        "title": "Poniedziałek po 3 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2825,7 +2962,7 @@
         ],
         "id": "sancti:05-05:3:w",
         "rank": 3,
-        "title": "\u015aw. Piusa V, Papie\u017ca i Wyznawcy"
+        "title": "Św. Piusa V, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -2841,7 +2978,16 @@
     ]
   },
   "2020-05-06": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -2850,12 +2996,21 @@
         ],
         "id": "tempora:Pasc3-3Feria:4:w",
         "rank": 4,
-        "title": "\u015aroda po 3 Niedzieli po Wielkanocy"
+        "title": "Środa po 3 Niedzieli po Wielkanocy"
       }
     ]
   },
   "2020-05-07": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -2876,7 +3031,7 @@
         ],
         "id": "sancti:05-08pl:1:r",
         "rank": 1,
-        "title": "\u015aw. Stanis\u0142awa, Biskupa i M\u0119czennika"
+        "title": "Św. Stanisława, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -2887,7 +3042,7 @@
         ],
         "id": "tempora:Pasc3-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po 3 Niedzieli po Wielkanocy"
+        "title": "Piątek po 3 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2899,7 +3054,7 @@
         ],
         "id": "sancti:05-09:3:w",
         "rank": 3,
-        "title": "\u015aw. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -2945,7 +3100,7 @@
         ],
         "id": "sancti:05-11r:2:r",
         "rank": 2,
-        "title": "\u015awi\u0119tych Filipa i Jakuba, Aposto\u0142\u00f3w"
+        "title": "Świętych Filipa i Jakuba, Apostołów"
       }
     ],
     "commemoration": [],
@@ -2956,7 +3111,7 @@
         ],
         "id": "tempora:Pasc4-1:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli po Wielkanocy"
+        "title": "Poniedziałek po 4 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -2968,7 +3123,7 @@
         ],
         "id": "sancti:05-12:3:r",
         "rank": 3,
-        "title": "\u015awi\u0119tych Nereusza, Achillesa, Domicylli i Pankracego, M\u0119czennik\u00f3w"
+        "title": "Świętych Nereusza, Achillesa, Domicylli i Pankracego, Męczenników"
       }
     ],
     "commemoration": [],
@@ -2991,7 +3146,7 @@
         ],
         "id": "sancti:05-13:3:w",
         "rank": 3,
-        "title": "\u015aw. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -3002,12 +3157,21 @@
         ],
         "id": "tempora:Pasc4-3:4:w",
         "rank": 4,
-        "title": "\u015aroda po 4 Niedzieli po Wielkanocy"
+        "title": "Środa po 4 Niedzieli po Wielkanocy"
       }
     ]
   },
   "2020-05-14": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -3015,7 +3179,7 @@
         ],
         "id": "sancti:05-14:4:r",
         "rank": 4,
-        "title": "\u015aw. Bonifacego, M\u0119czennika"
+        "title": "Św. Bonifacego, Męczennika"
       }
     ],
     "tempora": [
@@ -3037,7 +3201,7 @@
         ],
         "id": "sancti:05-15:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Chrzciciela de la Salle, Wyznawcy"
+        "title": "Św. Jana Chrzciciela de la Salle, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3048,7 +3212,7 @@
         ],
         "id": "tempora:Pasc4-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po 4 Niedzieli po Wielkanocy"
+        "title": "Piątek po 4 Niedzieli po Wielkanocy"
       }
     ]
   },
@@ -3060,7 +3224,7 @@
         ],
         "id": "sancti:05-16pl:3:w",
         "rank": 3,
-        "title": "\u015aw. Andrzeja Boboli, M\u0119czennika"
+        "title": "Św. Andrzeja Boboli, Męczennika"
       }
     ],
     "commemoration": [],
@@ -3106,7 +3270,7 @@
         ],
         "id": "sancti:05-18:3:r",
         "rank": 3,
-        "title": "\u015aw. Wenancjusza, M\u0119czennika"
+        "title": "Św. Wenancjusza, Męczennika"
       }
     ],
     "commemoration": [],
@@ -3129,7 +3293,7 @@
         ],
         "id": "sancti:05-19:3:w",
         "rank": 3,
-        "title": "\u015aw. Piotra Celestyna, Papie\u017ca i Wyznawcy"
+        "title": "Św. Piotra Celestyna, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3152,7 +3316,7 @@
         ],
         "id": "tempora:Pasc5-3:2:w",
         "rank": 2,
-        "title": "Wigilia Wniebowst\u0105pienia Pa\u0144skiego"
+        "title": "Wigilia Wniebowstąpienia Pańskiego"
       }
     ],
     "commemoration": [
@@ -3162,7 +3326,7 @@
         ],
         "id": "sancti:05-20:3:w",
         "rank": 3,
-        "title": "\u015aw. Bernardyna ze Sieny, Wyznawcy"
+        "title": "Św. Bernardyna ze Sieny, Wyznawcy"
       }
     ],
     "tempora": [
@@ -3172,7 +3336,7 @@
         ],
         "id": "tempora:Pasc5-3:2:w",
         "rank": 2,
-        "title": "Wigilia Wniebowst\u0105pienia Pa\u0144skiego"
+        "title": "Wigilia Wniebowstąpienia Pańskiego"
       }
     ]
   },
@@ -3184,7 +3348,7 @@
         ],
         "id": "tempora:Pasc5-4:1:w",
         "rank": 1,
-        "title": "Wniebowst\u0105pienie Pa\u0144skie"
+        "title": "Wniebowstąpienie Pańskie"
       }
     ],
     "commemoration": [],
@@ -3195,12 +3359,21 @@
         ],
         "id": "tempora:Pasc5-4:1:w",
         "rank": 1,
-        "title": "Wniebowst\u0105pienie Pa\u0144skie"
+        "title": "Wniebowstąpienie Pańskie"
       }
     ]
   },
   "2020-05-22": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -3209,7 +3382,7 @@
         ],
         "id": "tempora:Pasc5-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po Wniebowst\u0105pieniu"
+        "title": "Piątek po Wniebowstąpieniu"
       }
     ]
   },
@@ -3232,7 +3405,7 @@
         ],
         "id": "tempora:Pasc5-6:4:w",
         "rank": 4,
-        "title": "Sobota po Wniebowst\u0105pieniu"
+        "title": "Sobota po Wniebowstąpieniu"
       }
     ]
   },
@@ -3244,7 +3417,7 @@
         ],
         "id": "tempora:Pasc6-0:2:w",
         "rank": 2,
-        "title": "Niedziela po Wniebowst\u0105pieniu"
+        "title": "Niedziela po Wniebowstąpieniu"
       }
     ],
     "commemoration": [
@@ -3254,7 +3427,7 @@
         ],
         "id": "sancti:05-24pl:2:w",
         "rank": 2,
-        "title": "N. M. P. Wspomo\u017cycielki Wiernych"
+        "title": "N. M. P. Wspomożycielki Wiernych"
       }
     ],
     "tempora": [
@@ -3264,7 +3437,7 @@
         ],
         "id": "tempora:Pasc6-0:2:w",
         "rank": 2,
-        "title": "Niedziela po Wniebowst\u0105pieniu"
+        "title": "Niedziela po Wniebowstąpieniu"
       }
     ]
   },
@@ -3276,7 +3449,7 @@
         ],
         "id": "sancti:05-25:3:w",
         "rank": 3,
-        "title": "\u015aw. Grzegorza VII, Papie\u017ca i Wyznawcy"
+        "title": "Św. Grzegorza VII, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3287,7 +3460,7 @@
         ],
         "id": "tempora:Pasc6-1:4:w",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli po Wniebowst\u0105pieniu"
+        "title": "Poniedziałek po Niedzieli po Wniebowstąpieniu"
       }
     ]
   },
@@ -3299,7 +3472,7 @@
         ],
         "id": "sancti:05-26:3:w",
         "rank": 3,
-        "title": "\u015aw. Filipa Nereusza, Wyznawcy"
+        "title": "Św. Filipa Nereusza, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3310,7 +3483,7 @@
         ],
         "id": "tempora:Pasc6-2:4:w",
         "rank": 4,
-        "title": "Wtorek po Niedzieli po Wniebowst\u0105pieniu"
+        "title": "Wtorek po Niedzieli po Wniebowstąpieniu"
       }
     ]
   },
@@ -3322,7 +3495,7 @@
         ],
         "id": "sancti:05-27:3:w",
         "rank": 3,
-        "title": "\u015aw. Bedy Czcigodnego, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Bedy Czcigodnego, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -3333,7 +3506,7 @@
         ],
         "id": "tempora:Pasc6-3:4:w",
         "rank": 4,
-        "title": "\u015aroda po Niedzieli po Wniebowst\u0105pieniu"
+        "title": "Środa po Niedzieli po Wniebowstąpieniu"
       }
     ]
   },
@@ -3345,7 +3518,7 @@
         ],
         "id": "sancti:05-28:3:w",
         "rank": 3,
-        "title": "\u015aw. Augustyna z Canterbury, Biskupa i Wyznawcy"
+        "title": "Św. Augustyna z Canterbury, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3356,7 +3529,7 @@
         ],
         "id": "tempora:Pasc6-4r:4:w",
         "rank": 4,
-        "title": "Czwartek po Niedzieli po Wniebowst\u0105pieniu"
+        "title": "Czwartek po Niedzieli po Wniebowstąpieniu"
       }
     ]
   },
@@ -3368,7 +3541,7 @@
         ],
         "id": "sancti:05-29:3:w",
         "rank": 3,
-        "title": "\u015aw. Marii Magdaleny Pazzi, Dziewicy"
+        "title": "Św. Marii Magdaleny Pazzi, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -3379,7 +3552,7 @@
         ],
         "id": "tempora:Pasc6-5:4:w",
         "rank": 4,
-        "title": "Pi\u0105tek po Niedzieli po Wniebowst\u0105pieniu"
+        "title": "Piątek po Niedzieli po Wniebowstąpieniu"
       }
     ]
   },
@@ -3391,7 +3564,7 @@
         ],
         "id": "tempora:Pasc6-6:1:r",
         "rank": 1,
-        "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wigilia Zesłania Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3402,7 +3575,7 @@
         ],
         "id": "tempora:Pasc6-6:1:r",
         "rank": 1,
-        "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wigilia Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3414,7 +3587,7 @@
         ],
         "id": "tempora:Pasc7-0:1:r",
         "rank": 1,
-        "title": "Niedziela Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Niedziela Zesłania Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3425,7 +3598,7 @@
         ],
         "id": "tempora:Pasc7-0:1:r",
         "rank": 1,
-        "title": "Niedziela Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Niedziela Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3437,7 +3610,7 @@
         ],
         "id": "tempora:Pasc7-1:1:r",
         "rank": 1,
-        "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek w Oktawie Zesłania Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3448,7 +3621,7 @@
         ],
         "id": "tempora:Pasc7-1:1:r",
         "rank": 1,
-        "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3460,7 +3633,7 @@
         ],
         "id": "tempora:Pasc7-2:1:r",
         "rank": 1,
-        "title": "Wtorek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wtorek w Oktawie Zesłania Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3471,7 +3644,7 @@
         ],
         "id": "tempora:Pasc7-2:1:r",
         "rank": 1,
-        "title": "Wtorek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wtorek w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3483,7 +3656,7 @@
         ],
         "id": "tempora:Pasc7-3:1:r",
         "rank": 1,
-        "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3494,7 +3667,7 @@
         ],
         "id": "tempora:Pasc7-3:1:r",
         "rank": 1,
-        "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3506,7 +3679,7 @@
         ],
         "id": "tempora:Pasc7-4:1:r",
         "rank": 1,
-        "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Czwartek w Oktawie Zesłania Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3517,7 +3690,7 @@
         ],
         "id": "tempora:Pasc7-4:1:r",
         "rank": 1,
-        "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Czwartek w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3529,7 +3702,7 @@
         ],
         "id": "tempora:Pasc7-5:1:r",
         "rank": 1,
-        "title": "Pi\u0105tek Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3540,7 +3713,7 @@
         ],
         "id": "tempora:Pasc7-5:1:r",
         "rank": 1,
-        "title": "Pi\u0105tek Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3552,7 +3725,7 @@
         ],
         "id": "tempora:Pasc7-6:1:r",
         "rank": 1,
-        "title": "Sobota Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3563,7 +3736,7 @@
         ],
         "id": "tempora:Pasc7-6:1:r",
         "rank": 1,
-        "title": "Sobota Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota Suchych Dni po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3575,7 +3748,7 @@
         ],
         "id": "tempora:Pent01-0r:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Tr\u00f3jcy Przenaj\u015bwi\u0119tszej"
+        "title": "Uroczystość Trójcy Przenajświętszej"
       }
     ],
     "commemoration": [],
@@ -3586,12 +3759,21 @@
         ],
         "id": "tempora:Pent01-0r:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Tr\u00f3jcy Przenaj\u015bwi\u0119tszej"
+        "title": "Uroczystość Trójcy Przenajświętszej"
       }
     ]
   },
   "2020-06-08": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -3600,12 +3782,21 @@
         ],
         "id": "tempora:Pent01-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po Niedzieli w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
   "2020-06-09": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -3613,7 +3804,7 @@
         ],
         "id": "sancti:06-09:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Pryma i Felicjana, M\u0119czennik\u00f3w"
+        "title": "Śś. Pryma i Felicjana, Męczenników"
       }
     ],
     "tempora": [
@@ -3623,7 +3814,7 @@
         ],
         "id": "tempora:Pent01-2:4:g",
         "rank": 4,
-        "title": "Wtorek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wtorek po Niedzieli w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3635,7 +3826,7 @@
         ],
         "id": "sancti:06-10pl:3:w",
         "rank": 3,
-        "title": "B\u0142. Bogumi\u0142a, Biskupa i Wyznawcy"
+        "title": "Bł. Bogumiła, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3646,7 +3837,7 @@
         ],
         "id": "tempora:Pent01-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Środa po Niedzieli w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3658,7 +3849,7 @@
         ],
         "id": "tempora:Pent01-4:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+        "title": "Uroczystość Bożego Ciała"
       }
     ],
     "commemoration": [],
@@ -3669,7 +3860,7 @@
         ],
         "id": "tempora:Pent01-4:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+        "title": "Uroczystość Bożego Ciała"
       }
     ]
   },
@@ -3681,7 +3872,7 @@
         ],
         "id": "sancti:06-12:3:r",
         "rank": 3,
-        "title": "\u015aw. Jana z Facundo, Wyznawcy"
+        "title": "Św. Jana z Facundo, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3692,7 +3883,7 @@
         ],
         "id": "tempora:Pent01-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Piątek po Niedzieli w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3704,7 +3895,7 @@
         ],
         "id": "sancti:06-13:3:w",
         "rank": 3,
-        "title": "\u015aw. Antoniego z Padwy, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Antoniego z Padwy, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -3715,7 +3906,7 @@
         ],
         "id": "tempora:Pent01-6:4:g",
         "rank": 4,
-        "title": "Sobota po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Sobota po Niedzieli w Oktawie Zesłania Ducha Świętego"
       }
     ]
   },
@@ -3727,7 +3918,7 @@
         ],
         "id": "tempora:Pent02-0r:2:g",
         "rank": 2,
-        "title": "2 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "2 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3738,7 +3929,7 @@
         ],
         "id": "tempora:Pent02-0r:2:g",
         "rank": 2,
-        "title": "2 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "2 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3750,7 +3941,7 @@
         ],
         "id": "sancti:06-15:3:w",
         "rank": 3,
-        "title": "\u015a\u015b. Wita, Modesta i Krescencji, M\u0119czennik\u00f3w"
+        "title": "Śś. Wita, Modesta i Krescencji, Męczenników"
       }
     ],
     "commemoration": [],
@@ -3761,12 +3952,21 @@
         ],
         "id": "tempora:Pent02-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 2 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-06-16": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -3775,7 +3975,7 @@
         ],
         "id": "tempora:Pent02-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 2 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3787,7 +3987,7 @@
         ],
         "id": "sancti:06-17r:3:w",
         "rank": 3,
-        "title": "\u015aw. Grzegorza Barbarigo, Biskupa i Wyznawcy"
+        "title": "Św. Grzegorza Barbarigo, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3798,7 +3998,7 @@
         ],
         "id": "tempora:Pent02-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 2 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3810,7 +4010,7 @@
         ],
         "id": "sancti:06-18:3:r",
         "rank": 3,
-        "title": "\u015aw. Efrema, Diakona, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Efrema, Diakona, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -3821,7 +4021,7 @@
         ],
         "id": "tempora:Pent02-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3866,7 +4066,7 @@
         ],
         "id": "sancti:06-20:4:r",
         "rank": 4,
-        "title": "\u015aw. Sylweriusza, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Sylweriusza, Papieża i Męczennika"
       }
     ],
     "tempora": [
@@ -3876,7 +4076,7 @@
         ],
         "id": "tempora:Pent02-6Feria:4:g",
         "rank": 4,
-        "title": "Sobota po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3888,7 +4088,7 @@
         ],
         "id": "tempora:Pent03-0r:2:g",
         "rank": 2,
-        "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "3 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -3899,7 +4099,7 @@
         ],
         "id": "tempora:Pent03-0r:2:g",
         "rank": 2,
-        "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "3 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3911,7 +4111,7 @@
         ],
         "id": "sancti:06-22:3:w",
         "rank": 3,
-        "title": "\u015aw. Paulina, Biskupa i Wyznawcy"
+        "title": "Św. Paulina, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -3922,7 +4122,7 @@
         ],
         "id": "tempora:Pent03-1Feria:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3934,7 +4134,7 @@
         ],
         "id": "sancti:06-23:2:v",
         "rank": 2,
-        "title": "Wigilia Narodzenia \u015aw. Jana Chrzciciela"
+        "title": "Wigilia Narodzenia Św. Jana Chrzciciela"
       }
     ],
     "commemoration": [],
@@ -3945,7 +4145,7 @@
         ],
         "id": "tempora:Pent03-2Feria:4:g",
         "rank": 4,
-        "title": "Wtorek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3957,7 +4157,7 @@
         ],
         "id": "sancti:06-24:1:w",
         "rank": 1,
-        "title": "Narodzenie \u015aw. Jana Chrzciciela"
+        "title": "Narodzenie Św. Jana Chrzciciela"
       }
     ],
     "commemoration": [],
@@ -3968,7 +4168,7 @@
         ],
         "id": "tempora:Pent03-3Feria:4:g",
         "rank": 4,
-        "title": "\u015aroda po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -3980,7 +4180,7 @@
         ],
         "id": "sancti:06-25:3:w",
         "rank": 3,
-        "title": "\u015aw. Wilhelma, Opata"
+        "title": "Św. Wilhelma, Opata"
       }
     ],
     "commemoration": [],
@@ -3991,7 +4191,7 @@
         ],
         "id": "tempora:Pent03-4Feria:4:g",
         "rank": 4,
-        "title": "Czwartek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4003,7 +4203,7 @@
         ],
         "id": "sancti:06-26r:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Jana i Paw\u0142a, M\u0119czennik\u00f3w"
+        "title": "Śś. Jana i Pawła, Męczenników"
       }
     ],
     "commemoration": [],
@@ -4014,7 +4214,7 @@
         ],
         "id": "tempora:Pent03-5Feria:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4037,7 +4237,7 @@
         ],
         "id": "tempora:Pent03-6:4:g",
         "rank": 4,
-        "title": "Sobota po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 3 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4049,7 +4249,7 @@
         ],
         "id": "tempora:Pent04-0:2:g",
         "rank": 2,
-        "title": "4 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "4 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [
@@ -4059,7 +4259,7 @@
         ],
         "id": "sancti:06-28r:2:v",
         "rank": 2,
-        "title": "Wigilia \u015b\u015b. Aposto\u0142\u00f3w Piotra i Paw\u0142a"
+        "title": "Wigilia śś. Apostołów Piotra i Pawła"
       }
     ],
     "tempora": [
@@ -4069,7 +4269,7 @@
         ],
         "id": "tempora:Pent04-0:2:g",
         "rank": 2,
-        "title": "4 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "4 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4081,7 +4281,7 @@
         ],
         "id": "sancti:06-29:1:r",
         "rank": 1,
-        "title": "\u015awi\u0119tych Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+        "title": "Świętych Piotra i Pawła, Apostołów"
       }
     ],
     "commemoration": [],
@@ -4092,7 +4292,7 @@
         ],
         "id": "tempora:Pent04-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4104,7 +4304,7 @@
         ],
         "id": "sancti:06-30:3:r",
         "rank": 3,
-        "title": "Wspomnienie \u015bw. Paw\u0142a, Aposto\u0142a"
+        "title": "Wspomnienie św. Pawła, Apostoła"
       }
     ],
     "commemoration": [],
@@ -4115,7 +4315,7 @@
         ],
         "id": "tempora:Pent04-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4127,7 +4327,7 @@
         ],
         "id": "sancti:07-01:1:r",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Najdro\u017cszej Krwi Pana Naszego Jezusa Chrystusa"
+        "title": "Uroczystość Najdroższej Krwi Pana Naszego Jezusa Chrystusa"
       }
     ],
     "commemoration": [],
@@ -4138,7 +4338,7 @@
         ],
         "id": "tempora:Pent04-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4161,7 +4361,7 @@
         ],
         "id": "tempora:Pent04-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4173,7 +4373,7 @@
         ],
         "id": "sancti:07-03r:3:r",
         "rank": 3,
-        "title": "\u015aw. Ireneusza, Biskupa i M\u0119czennika"
+        "title": "Św. Ireneusza, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -4184,7 +4384,7 @@
         ],
         "id": "tempora:Pent04-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4207,7 +4407,7 @@
         ],
         "id": "tempora:Pent04-6:4:g",
         "rank": 4,
-        "title": "Sobota po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 4 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4219,7 +4419,7 @@
         ],
         "id": "tempora:Pent05-0:2:g",
         "rank": 2,
-        "title": "5 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "5 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -4230,12 +4430,21 @@
         ],
         "id": "tempora:Pent05-0:2:g",
         "rank": 2,
-        "title": "5 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "5 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-06": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -4244,7 +4453,7 @@
         ],
         "id": "tempora:Pent05-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4256,7 +4465,7 @@
         ],
         "id": "sancti:07-07:3:w",
         "rank": 3,
-        "title": "\u015a\u015b. Cyryla i Metodego, Biskup\u00f3w i Wyznawc\u00f3w"
+        "title": "Śś. Cyryla i Metodego, Biskupów i Wyznawców"
       }
     ],
     "commemoration": [],
@@ -4267,7 +4476,7 @@
         ],
         "id": "tempora:Pent05-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4279,7 +4488,7 @@
         ],
         "id": "sancti:07-08:3:w",
         "rank": 3,
-        "title": "\u015aw. El\u017cbiety, Kr\u00f3lowej i Wdowy"
+        "title": "Św. Elżbiety, Królowej i Wdowy"
       }
     ],
     "commemoration": [],
@@ -4290,12 +4499,21 @@
         ],
         "id": "tempora:Pent05-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-09": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -4304,7 +4522,7 @@
         ],
         "id": "tempora:Pent05-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4316,7 +4534,7 @@
         ],
         "id": "sancti:07-10:3:r",
         "rank": 3,
-        "title": "Siedmiu Braci M\u0119czennik\u00f3w oraz \u015a\u015b. Rufiny i Sekundy, Dziewic i M\u0119czennic"
+        "title": "Siedmiu Braci Męczenników oraz Śś. Rufiny i Sekundy, Dziewic i Męczennic"
       }
     ],
     "commemoration": [],
@@ -4327,7 +4545,7 @@
         ],
         "id": "tempora:Pent05-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4349,7 +4567,7 @@
         ],
         "id": "sancti:07-11:4:r",
         "rank": 4,
-        "title": "\u015aw. Piusa I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Piusa I, Papieża i Męczennika"
       }
     ],
     "tempora": [
@@ -4359,7 +4577,7 @@
         ],
         "id": "tempora:Pent05-6:4:g",
         "rank": 4,
-        "title": "Sobota po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 5 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4371,7 +4589,7 @@
         ],
         "id": "tempora:Pent06-0:2:g",
         "rank": 2,
-        "title": "6 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "6 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -4382,12 +4600,21 @@
         ],
         "id": "tempora:Pent06-0:2:g",
         "rank": 2,
-        "title": "6 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "6 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-13": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -4396,7 +4623,7 @@
         ],
         "id": "tempora:Pent06-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4408,7 +4635,7 @@
         ],
         "id": "sancti:07-14:3:w",
         "rank": 3,
-        "title": "\u015aw. Bonawentury, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Bonawentury, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -4419,7 +4646,7 @@
         ],
         "id": "tempora:Pent06-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4431,7 +4658,7 @@
         ],
         "id": "sancti:07-15:3:w",
         "rank": 3,
-        "title": "\u015aw. Henryka, Cesarza i Wyznawcy"
+        "title": "Św. Henryka, Cesarza i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4442,12 +4669,21 @@
         ],
         "id": "tempora:Pent06-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-16": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -4455,7 +4691,7 @@
         ],
         "id": "sancti:07-16:4:w",
         "rank": 4,
-        "title": "Wspomnienie N. M. P. z G\u00f3ry Karmelu"
+        "title": "Wspomnienie N. M. P. z Góry Karmelu"
       }
     ],
     "tempora": [
@@ -4465,12 +4701,21 @@
         ],
         "id": "tempora:Pent06-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-17": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -4478,7 +4723,7 @@
         ],
         "id": "sancti:07-17:4:w",
         "rank": 4,
-        "title": "\u015aw. Aleksego, Wyznawcy"
+        "title": "Św. Aleksego, Wyznawcy"
       }
     ],
     "tempora": [
@@ -4488,7 +4733,7 @@
         ],
         "id": "tempora:Pent06-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4500,7 +4745,7 @@
         ],
         "id": "sancti:07-18pl:3:r",
         "rank": 3,
-        "title": "B\u0142. Szymona z Lipnicy, Wyznawcy"
+        "title": "Bł. Szymona z Lipnicy, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4511,7 +4756,7 @@
         ],
         "id": "tempora:Pent06-6:4:g",
         "rank": 4,
-        "title": "Sobota po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 6 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4523,7 +4768,7 @@
         ],
         "id": "tempora:Pent07-0:2:g",
         "rank": 2,
-        "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "7 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -4534,7 +4779,7 @@
         ],
         "id": "tempora:Pent07-0:2:g",
         "rank": 2,
-        "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "7 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4546,7 +4791,7 @@
         ],
         "id": "sancti:07-20pl:3:w",
         "rank": 3,
-        "title": "B\u0142. Czes\u0142awa, Wyznawcy"
+        "title": "Bł. Czesława, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4557,7 +4802,7 @@
         ],
         "id": "tempora:Pent07-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4569,7 +4814,7 @@
         ],
         "id": "sancti:07-21r:3:w",
         "rank": 3,
-        "title": "\u015aw. Wawrzy\u0144ca z Brindisi, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Wawrzyńca z Brindisi, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -4580,7 +4825,7 @@
         ],
         "id": "tempora:Pent07-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4592,7 +4837,7 @@
         ],
         "id": "sancti:07-22:3:w",
         "rank": 3,
-        "title": "\u015aw. Marii Magdaleny, Pokutnicy"
+        "title": "Św. Marii Magdaleny, Pokutnicy"
       }
     ],
     "commemoration": [],
@@ -4603,7 +4848,7 @@
         ],
         "id": "tempora:Pent07-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4615,7 +4860,7 @@
         ],
         "id": "sancti:07-23:3:w",
         "rank": 3,
-        "title": "\u015aw. Apolinarego, Biskupa i M\u0119czennika"
+        "title": "Św. Apolinarego, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -4626,7 +4871,7 @@
         ],
         "id": "tempora:Pent07-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4638,7 +4883,7 @@
         ],
         "id": "sancti:07-24pl:3:w",
         "rank": 3,
-        "title": "B\u0142. Kingi, Dziewicy"
+        "title": "Bł. Kingi, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -4649,7 +4894,7 @@
         ],
         "id": "tempora:Pent07-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4661,7 +4906,7 @@
         ],
         "id": "sancti:07-25:2:r",
         "rank": 2,
-        "title": "\u015aw. Jakuba, Aposto\u0142a"
+        "title": "Św. Jakuba, Apostoła"
       }
     ],
     "commemoration": [],
@@ -4672,7 +4917,7 @@
         ],
         "id": "tempora:Pent07-6:4:g",
         "rank": 4,
-        "title": "Sobota po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 7 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4684,7 +4929,7 @@
         ],
         "id": "tempora:Pent08-0:2:g",
         "rank": 2,
-        "title": "8 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "8 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [
@@ -4694,7 +4939,7 @@
         ],
         "id": "sancti:07-26:2:w",
         "rank": 2,
-        "title": "\u015aw. Anny, Matki N. M. P."
+        "title": "Św. Anny, Matki N. M. P."
       }
     ],
     "tempora": [
@@ -4704,12 +4949,21 @@
         ],
         "id": "tempora:Pent08-0:2:g",
         "rank": 2,
-        "title": "8 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "8 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-27": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -4717,7 +4971,7 @@
         ],
         "id": "sancti:07-27:4:r",
         "rank": 4,
-        "title": "\u015aw. Pantaleona, M\u0119czennika"
+        "title": "Św. Pantaleona, Męczennika"
       }
     ],
     "tempora": [
@@ -4727,7 +4981,7 @@
         ],
         "id": "tempora:Pent08-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4739,7 +4993,7 @@
         ],
         "id": "sancti:07-28:3:r",
         "rank": 3,
-        "title": "\u015a\u015b. Nazariusza i Celsa, M\u0119czennik\u00f3w, Wiktora I, Papie\u017ca i M\u0119czennika, oraz Innocentego I, Papie\u017ca i Wyznawcy"
+        "title": "Śś. Nazariusza i Celsa, Męczenników, Wiktora I, Papieża i Męczennika, oraz Innocentego I, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4750,7 +5004,7 @@
         ],
         "id": "tempora:Pent08-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4762,7 +5016,7 @@
         ],
         "id": "sancti:07-29:3:r",
         "rank": 3,
-        "title": "\u015aw. Marty, Dziewicy"
+        "title": "Św. Marty, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -4773,12 +5027,21 @@
         ],
         "id": "tempora:Pent08-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-07-30": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -4786,7 +5049,7 @@
         ],
         "id": "sancti:07-30:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Abdona i Sennena, M\u0119czennik\u00f3w"
+        "title": "Śś. Abdona i Sennena, Męczenników"
       }
     ],
     "tempora": [
@@ -4796,7 +5059,7 @@
         ],
         "id": "tempora:Pent08-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4808,7 +5071,7 @@
         ],
         "id": "sancti:07-31:3:w",
         "rank": 3,
-        "title": "\u015aw. Ignacego Loyoli, Wyznawcy"
+        "title": "Św. Ignacego Loyoli, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4819,7 +5082,7 @@
         ],
         "id": "tempora:Pent08-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4841,7 +5104,7 @@
         ],
         "id": "sancti:08-01r:4:r",
         "rank": 4,
-        "title": "Siedmiu Braci Machabejskich, M\u0119czennik\u00f3w"
+        "title": "Siedmiu Braci Machabejskich, Męczenników"
       }
     ],
     "tempora": [
@@ -4851,7 +5114,7 @@
         ],
         "id": "tempora:Pent08-6:4:g",
         "rank": 4,
-        "title": "Sobota po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 8 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4863,7 +5126,7 @@
         ],
         "id": "tempora:Pent09-0:2:g",
         "rank": 2,
-        "title": "9 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "9 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -4874,12 +5137,21 @@
         ],
         "id": "tempora:Pent09-0:2:g",
         "rank": 2,
-        "title": "9 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "9 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-08-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -4888,7 +5160,7 @@
         ],
         "id": "tempora:Pent09-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4900,7 +5172,7 @@
         ],
         "id": "sancti:08-04:3:w",
         "rank": 3,
-        "title": "\u015aw. Dominika, Wyznawcy"
+        "title": "Św. Dominika, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4911,7 +5183,7 @@
         ],
         "id": "tempora:Pent09-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4923,7 +5195,7 @@
         ],
         "id": "sancti:08-05:3:w",
         "rank": 3,
-        "title": "Rocznica Konsekracji N. M. P. \u015anie\u017cnej"
+        "title": "Rocznica Konsekracji N. M. P. Śnieżnej"
       }
     ],
     "commemoration": [],
@@ -4934,7 +5206,7 @@
         ],
         "id": "tempora:Pent09-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4946,7 +5218,7 @@
         ],
         "id": "sancti:08-06:2:r",
         "rank": 2,
-        "title": "Przemienienie Pa\u0144skie"
+        "title": "Przemienienie Pańskie"
       }
     ],
     "commemoration": [],
@@ -4957,7 +5229,7 @@
         ],
         "id": "tempora:Pent09-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4969,7 +5241,7 @@
         ],
         "id": "sancti:08-07:3:r",
         "rank": 3,
-        "title": "\u015aw. Kajetana, Wyznawcy"
+        "title": "Św. Kajetana, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -4980,7 +5252,7 @@
         ],
         "id": "tempora:Pent09-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -4992,7 +5264,7 @@
         ],
         "id": "sancti:08-08r:3:r",
         "rank": 3,
-        "title": "\u015aw. Jana Marii Vianney, Wyznawcy"
+        "title": "Św. Jana Marii Vianney, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5003,7 +5275,7 @@
         ],
         "id": "tempora:Pent09-6:4:g",
         "rank": 4,
-        "title": "Sobota po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 9 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5015,7 +5287,7 @@
         ],
         "id": "tempora:Pent10-0:2:g",
         "rank": 2,
-        "title": "10 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "10 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5026,7 +5298,7 @@
         ],
         "id": "tempora:Pent10-0:2:g",
         "rank": 2,
-        "title": "10 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "10 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5038,7 +5310,7 @@
         ],
         "id": "sancti:08-10:2:r",
         "rank": 2,
-        "title": "\u015aw. Wawrzy\u0144ca"
+        "title": "Św. Wawrzyńca"
       }
     ],
     "commemoration": [],
@@ -5049,12 +5321,21 @@
         ],
         "id": "tempora:Pent10-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-08-11": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5062,7 +5343,7 @@
         ],
         "id": "sancti:08-11:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Tyburcjusza i Zuzanny, M\u0119czennik\u00f3w"
+        "title": "Śś. Tyburcjusza i Zuzanny, Męczenników"
       }
     ],
     "tempora": [
@@ -5072,7 +5353,7 @@
         ],
         "id": "tempora:Pent10-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5084,7 +5365,7 @@
         ],
         "id": "sancti:08-12:3:w",
         "rank": 3,
-        "title": "\u015aw. Klary, Dziewicy"
+        "title": "Św. Klary, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -5095,12 +5376,21 @@
         ],
         "id": "tempora:Pent10-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-08-13": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5108,7 +5398,7 @@
         ],
         "id": "sancti:08-13:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Hipolita i Kasjana, M\u0119czennik\u00f3w"
+        "title": "Śś. Hipolita i Kasjana, Męczenników"
       }
     ],
     "tempora": [
@@ -5118,7 +5408,7 @@
         ],
         "id": "tempora:Pent10-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5130,7 +5420,7 @@
         ],
         "id": "sancti:08-14:2:w",
         "rank": 2,
-        "title": "Wigilia Wniebowzi\u0119cia N. M. P."
+        "title": "Wigilia Wniebowzięcia N. M. P."
       }
     ],
     "commemoration": [],
@@ -5141,7 +5431,7 @@
         ],
         "id": "tempora:Pent10-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5153,7 +5443,7 @@
         ],
         "id": "sancti:08-15r:1:w",
         "rank": 1,
-        "title": "Wniebowzi\u0119cie N. M. P."
+        "title": "Wniebowzięcie N. M. P."
       }
     ],
     "commemoration": [],
@@ -5164,7 +5454,7 @@
         ],
         "id": "tempora:Pent10-6:4:g",
         "rank": 4,
-        "title": "Sobota po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 10 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5176,7 +5466,7 @@
         ],
         "id": "tempora:Pent11-0:2:g",
         "rank": 2,
-        "title": "11 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "11 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [
@@ -5186,7 +5476,7 @@
         ],
         "id": "sancti:08-16:2:w",
         "rank": 2,
-        "title": "\u015aw. Joachima, Ojca N. M. P."
+        "title": "Św. Joachima, Ojca N. M. P."
       }
     ],
     "tempora": [
@@ -5196,7 +5486,7 @@
         ],
         "id": "tempora:Pent11-0:2:g",
         "rank": 2,
-        "title": "11 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "11 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5208,7 +5498,7 @@
         ],
         "id": "sancti:08-17:3:w",
         "rank": 3,
-        "title": "\u015aw. Jacka, Wyznawcy"
+        "title": "Św. Jacka, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5219,12 +5509,21 @@
         ],
         "id": "tempora:Pent11-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-08-18": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5232,7 +5531,7 @@
         ],
         "id": "sancti:08-18r:4:w",
         "rank": 4,
-        "title": "\u015aw. Agapita, M\u0119czennika"
+        "title": "Św. Agapita, Męczennika"
       }
     ],
     "tempora": [
@@ -5242,7 +5541,7 @@
         ],
         "id": "tempora:Pent11-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5254,7 +5553,7 @@
         ],
         "id": "sancti:08-19:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Eudes, Wyznawcy"
+        "title": "Św. Jana Eudes, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5265,7 +5564,7 @@
         ],
         "id": "tempora:Pent11-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5277,7 +5576,7 @@
         ],
         "id": "sancti:08-20:3:w",
         "rank": 3,
-        "title": "\u015aw. Bernarda, Opata i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Bernarda, Opata i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -5288,7 +5587,7 @@
         ],
         "id": "tempora:Pent11-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5300,7 +5599,7 @@
         ],
         "id": "sancti:08-21:3:w",
         "rank": 3,
-        "title": "\u015aw. Joanny Franciszki Fr\u00e9miot de Chantal, Wdowy"
+        "title": "Św. Joanny Franciszki Frémiot de Chantal, Wdowy"
       }
     ],
     "commemoration": [],
@@ -5311,7 +5610,7 @@
         ],
         "id": "tempora:Pent11-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5334,7 +5633,7 @@
         ],
         "id": "tempora:Pent11-6:4:g",
         "rank": 4,
-        "title": "Sobota po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 11 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5346,7 +5645,7 @@
         ],
         "id": "tempora:Pent12-0:2:g",
         "rank": 2,
-        "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "12 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5357,7 +5656,7 @@
         ],
         "id": "tempora:Pent12-0:2:g",
         "rank": 2,
-        "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "12 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5369,7 +5668,7 @@
         ],
         "id": "sancti:08-24:2:r",
         "rank": 2,
-        "title": "\u015aw. Bart\u0142omieja, Aposto\u0142a"
+        "title": "Św. Bartłomieja, Apostoła"
       }
     ],
     "commemoration": [],
@@ -5380,7 +5679,7 @@
         ],
         "id": "tempora:Pent12-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5392,7 +5691,7 @@
         ],
         "id": "sancti:08-25:3:w",
         "rank": 3,
-        "title": "\u015aw. Ludwika, Kr\u00f3la i Wyznawcy"
+        "title": "Św. Ludwika, Króla i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5403,7 +5702,7 @@
         ],
         "id": "tempora:Pent12-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5415,7 +5714,7 @@
         ],
         "id": "sancti:08-26pl:1:w",
         "rank": 1,
-        "title": "N. M. P. Jasnog\u00f3rskiej czyli Cz\u0119stochowskiej"
+        "title": "N. M. P. Jasnogórskiej czyli Częstochowskiej"
       }
     ],
     "commemoration": [],
@@ -5426,7 +5725,7 @@
         ],
         "id": "tempora:Pent12-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5438,7 +5737,7 @@
         ],
         "id": "sancti:08-27:3:w",
         "rank": 3,
-        "title": "\u015aw. J\u00f3zefa Kalasantego, Wyznawcy"
+        "title": "Św. Józefa Kalasantego, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5449,7 +5748,7 @@
         ],
         "id": "tempora:Pent12-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5461,7 +5760,7 @@
         ],
         "id": "sancti:08-28:3:r",
         "rank": 3,
-        "title": "\u015aw. Augustyna, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Augustyna, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -5472,7 +5771,7 @@
         ],
         "id": "tempora:Pent12-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5484,7 +5783,7 @@
         ],
         "id": "sancti:08-29:3:r",
         "rank": 3,
-        "title": "\u015aci\u0119cie \u015aw. Jana Chrzciciela"
+        "title": "Ścięcie Św. Jana Chrzciciela"
       }
     ],
     "commemoration": [],
@@ -5495,7 +5794,7 @@
         ],
         "id": "tempora:Pent12-6:4:g",
         "rank": 4,
-        "title": "Sobota po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 12 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5507,7 +5806,7 @@
         ],
         "id": "tempora:Pent13-0:2:g",
         "rank": 2,
-        "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "13 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5518,7 +5817,7 @@
         ],
         "id": "tempora:Pent13-0:2:g",
         "rank": 2,
-        "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "13 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5530,7 +5829,7 @@
         ],
         "id": "sancti:08-31:3:w",
         "rank": 3,
-        "title": "\u015aw. Rajmunda Nonnata, Wyznawcy"
+        "title": "Św. Rajmunda Nonnata, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5541,7 +5840,7 @@
         ],
         "id": "tempora:Pent13-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5553,7 +5852,7 @@
         ],
         "id": "sancti:09-01pl:3:w",
         "rank": 3,
-        "title": "B\u0142. Bronis\u0142awy, Dziewicy"
+        "title": "Bł. Bronisławy, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -5564,7 +5863,7 @@
         ],
         "id": "tempora:Pent13-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5576,7 +5875,7 @@
         ],
         "id": "sancti:09-02:3:w",
         "rank": 3,
-        "title": "\u015aw. Stefana, Kr\u00f3la i Wyznawcy"
+        "title": "Św. Stefana, Króla i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5587,7 +5886,7 @@
         ],
         "id": "tempora:Pent13-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5599,7 +5898,7 @@
         ],
         "id": "sancti:09-03r:3:w",
         "rank": 3,
-        "title": "\u015aw. Piusa X, Papie\u017ca i Wyznawcy"
+        "title": "Św. Piusa X, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5610,12 +5909,21 @@
         ],
         "id": "tempora:Pent13-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-09-04": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -5624,7 +5932,7 @@
         ],
         "id": "tempora:Pent13-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5636,7 +5944,7 @@
         ],
         "id": "sancti:09-05:3:w",
         "rank": 3,
-        "title": "\u015aw. Wawrzy\u0144ca Justiniani, Biskupa i Wyznawcy"
+        "title": "Św. Wawrzyńca Justiniani, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5647,7 +5955,7 @@
         ],
         "id": "tempora:Pent13-6:4:g",
         "rank": 4,
-        "title": "Sobota po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 13 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5659,7 +5967,7 @@
         ],
         "id": "tempora:Pent14-0:2:g",
         "rank": 2,
-        "title": "14 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "14 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5670,7 +5978,7 @@
         ],
         "id": "tempora:Pent14-0:2:g",
         "rank": 2,
-        "title": "14 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "14 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5682,7 +5990,7 @@
         ],
         "id": "sancti:09-07pl:3:r",
         "rank": 3,
-        "title": "B\u0142. Melchiora Grodzieckiego, M\u0119czennika"
+        "title": "Bł. Melchiora Grodzieckiego, Męczennika"
       }
     ],
     "commemoration": [],
@@ -5693,7 +6001,7 @@
         ],
         "id": "tempora:Pent14-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5716,12 +6024,21 @@
         ],
         "id": "tempora:Pent14-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-09-09": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5729,7 +6046,7 @@
         ],
         "id": "sancti:09-09:4:r",
         "rank": 4,
-        "title": "\u015aw. Gorgoniusza, M\u0119czennika"
+        "title": "Św. Gorgoniusza, Męczennika"
       }
     ],
     "tempora": [
@@ -5739,7 +6056,7 @@
         ],
         "id": "tempora:Pent14-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5751,7 +6068,7 @@
         ],
         "id": "sancti:09-10:3:w",
         "rank": 3,
-        "title": "\u015aw. Miko\u0142aja z Tolentynu, Wyznawcy"
+        "title": "Św. Mikołaja z Tolentynu, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5762,12 +6079,21 @@
         ],
         "id": "tempora:Pent14-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-09-11": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5775,7 +6101,7 @@
         ],
         "id": "sancti:09-11:4:r",
         "rank": 4,
-        "title": "\u015aw. Prota i Jacka, M\u0119czennik\u00f3w"
+        "title": "Św. Prota i Jacka, Męczenników"
       }
     ],
     "tempora": [
@@ -5785,7 +6111,7 @@
         ],
         "id": "tempora:Pent14-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5797,7 +6123,7 @@
         ],
         "id": "sancti:09-12:3:w",
         "rank": 3,
-        "title": "Naj\u015bwi\u0119tszego Imienia Maryi"
+        "title": "Najświętszego Imienia Maryi"
       }
     ],
     "commemoration": [],
@@ -5808,7 +6134,7 @@
         ],
         "id": "tempora:Pent14-6:4:g",
         "rank": 4,
-        "title": "Sobota po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 14 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5820,7 +6146,7 @@
         ],
         "id": "tempora:Pent15-0:2:g",
         "rank": 2,
-        "title": "15 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "15 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5831,7 +6157,7 @@
         ],
         "id": "tempora:Pent15-0:2:g",
         "rank": 2,
-        "title": "15 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "15 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5843,7 +6169,7 @@
         ],
         "id": "sancti:09-14:2:r",
         "rank": 2,
-        "title": "Podwy\u017cszenia \u015awi\u0119tego Krzy\u017ca"
+        "title": "Podwyższenia Świętego Krzyża"
       }
     ],
     "commemoration": [],
@@ -5854,7 +6180,7 @@
         ],
         "id": "tempora:Pent15-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5866,7 +6192,7 @@
         ],
         "id": "sancti:09-15:2:w",
         "rank": 2,
-        "title": "Siedmiu Bole\u015bci N. M. P."
+        "title": "Siedmiu Boleści N. M. P."
       }
     ],
     "commemoration": [],
@@ -5877,7 +6203,7 @@
         ],
         "id": "tempora:Pent15-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5889,7 +6215,7 @@
         ],
         "id": "sancti:09-16:3:r",
         "rank": 3,
-        "title": "\u015aw. Korneliusza, Papie\u017ca i Cypriana, M\u0119czennik\u00f3w"
+        "title": "Św. Korneliusza, Papieża i Cypriana, Męczenników"
       }
     ],
     "commemoration": [],
@@ -5900,12 +6226,21 @@
         ],
         "id": "tempora:Pent15-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-09-17": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -5913,7 +6248,7 @@
         ],
         "id": "sancti:09-17:4:w",
         "rank": 4,
-        "title": "Stygmat\u00f3w \u015bw. Franciszka, Wyznawcy"
+        "title": "Stygmatów św. Franciszka, Wyznawcy"
       }
     ],
     "tempora": [
@@ -5923,7 +6258,7 @@
         ],
         "id": "tempora:Pent15-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5935,7 +6270,7 @@
         ],
         "id": "sancti:09-18r:3:w",
         "rank": 3,
-        "title": "\u015aw. J\u00f3zefa z Kupertynu, Wyznawcy"
+        "title": "Św. Józefa z Kupertynu, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -5946,7 +6281,7 @@
         ],
         "id": "tempora:Pent15-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5958,7 +6293,7 @@
         ],
         "id": "sancti:09-19:3:r",
         "rank": 3,
-        "title": "\u015aw. Januarego i Towarzyszy, M\u0119czennik\u00f3w"
+        "title": "Św. Januarego i Towarzyszy, Męczenników"
       }
     ],
     "commemoration": [],
@@ -5969,7 +6304,7 @@
         ],
         "id": "tempora:Pent15-6:4:g",
         "rank": 4,
-        "title": "Sobota po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 15 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -5981,7 +6316,7 @@
         ],
         "id": "tempora:Pent16-0:2:g",
         "rank": 2,
-        "title": "16 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "16 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -5992,7 +6327,7 @@
         ],
         "id": "tempora:Pent16-0:2:g",
         "rank": 2,
-        "title": "16 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "16 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6004,7 +6339,7 @@
         ],
         "id": "sancti:09-21:2:r",
         "rank": 2,
-        "title": "\u015aw. Mateusza, Aposto\u0142a i Ewangelisty"
+        "title": "Św. Mateusza, Apostoła i Ewangelisty"
       }
     ],
     "commemoration": [],
@@ -6015,7 +6350,7 @@
         ],
         "id": "tempora:Pent16-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 16 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6027,7 +6362,7 @@
         ],
         "id": "sancti:09-22:3:w",
         "rank": 3,
-        "title": "\u015aw. Tomasza z Villanueva, Biskupa i Wyznawcy"
+        "title": "Św. Tomasza z Villanueva, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6038,7 +6373,7 @@
         ],
         "id": "tempora:Pent16-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 16 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6050,7 +6385,7 @@
         ],
         "id": "tempora:093-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+        "title": "Środa Suchych Dni Wrześniowych"
       }
     ],
     "commemoration": [
@@ -6060,7 +6395,7 @@
         ],
         "id": "sancti:09-23:3:r",
         "rank": 3,
-        "title": "\u015aw. Linusa, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Linusa, Papieża i Męczennika"
       }
     ],
     "tempora": [
@@ -6070,12 +6405,21 @@
         ],
         "id": "tempora:093-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+        "title": "Środa Suchych Dni Wrześniowych"
       }
     ]
   },
   "2020-09-24": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -6083,7 +6427,7 @@
         ],
         "id": "sancti:09-24:4:w",
         "rank": 4,
-        "title": "N. M. P. od Wykupu Je\u0144c\u00f3w"
+        "title": "N. M. P. od Wykupu Jeńców"
       }
     ],
     "tempora": [
@@ -6093,7 +6437,7 @@
         ],
         "id": "tempora:Pent16-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 16 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6105,7 +6449,7 @@
         ],
         "id": "tempora:093-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+        "title": "Piątek Suchych Dni Wrześniowych"
       }
     ],
     "commemoration": [
@@ -6115,7 +6459,7 @@
         ],
         "id": "sancti:09-25pl:3:w",
         "rank": 3,
-        "title": "B\u0142. W\u0142adys\u0142awa z Gielniowa, Wyznawcy"
+        "title": "Bł. Władysława z Gielniowa, Wyznawcy"
       }
     ],
     "tempora": [
@@ -6125,7 +6469,7 @@
         ],
         "id": "tempora:093-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+        "title": "Piątek Suchych Dni Wrześniowych"
       }
     ]
   },
@@ -6137,7 +6481,7 @@
         ],
         "id": "tempora:093-6:2:v",
         "rank": 2,
-        "title": "Sobota Suchych Dni Wrze\u015bniowych"
+        "title": "Sobota Suchych Dni Wrześniowych"
       }
     ],
     "commemoration": [
@@ -6147,7 +6491,7 @@
         ],
         "id": "sancti:09-26:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Cypriana i Justyny, M\u0119czennik\u00f3w"
+        "title": "Śś. Cypriana i Justyny, Męczenników"
       }
     ],
     "tempora": [
@@ -6157,7 +6501,7 @@
         ],
         "id": "tempora:093-6:2:v",
         "rank": 2,
-        "title": "Sobota Suchych Dni Wrze\u015bniowych"
+        "title": "Sobota Suchych Dni Wrześniowych"
       }
     ]
   },
@@ -6169,7 +6513,7 @@
         ],
         "id": "tempora:Pent17-0:2:g",
         "rank": 2,
-        "title": "17 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "17 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -6180,7 +6524,7 @@
         ],
         "id": "tempora:Pent17-0:2:g",
         "rank": 2,
-        "title": "17 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "17 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6192,7 +6536,7 @@
         ],
         "id": "sancti:09-28:3:r",
         "rank": 3,
-        "title": "\u015aw. Wac\u0142awa, Ksi\u0119cia i M\u0119czennika"
+        "title": "Św. Wacława, Księcia i Męczennika"
       }
     ],
     "commemoration": [],
@@ -6203,7 +6547,7 @@
         ],
         "id": "tempora:Pent17-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6215,7 +6559,7 @@
         ],
         "id": "sancti:09-29:1:w",
         "rank": 1,
-        "title": "\u015awi\u0119tego Micha\u0142a Archanio\u0142a"
+        "title": "Świętego Michała Archanioła"
       }
     ],
     "commemoration": [],
@@ -6226,7 +6570,7 @@
         ],
         "id": "tempora:Pent17-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6238,7 +6582,7 @@
         ],
         "id": "sancti:09-30r:3:w",
         "rank": 3,
-        "title": "\u015aw. Hieronima, Kap\u0142ana, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Hieronima, Kapłana, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -6249,7 +6593,7 @@
         ],
         "id": "tempora:Pent17-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6261,7 +6605,7 @@
         ],
         "id": "sancti:10-01pl:3:w",
         "rank": 3,
-        "title": "B\u0142. Jana z Dukli"
+        "title": "Bł. Jana z Dukli"
       }
     ],
     "commemoration": [],
@@ -6272,7 +6616,7 @@
         ],
         "id": "tempora:Pent17-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6284,7 +6628,7 @@
         ],
         "id": "sancti:10-02:3:w",
         "rank": 3,
-        "title": "\u015awi\u0119tych Anio\u0142\u00f3w Str\u00f3\u017c\u00f3w"
+        "title": "Świętych Aniołów Stróżów"
       }
     ],
     "commemoration": [],
@@ -6295,7 +6639,7 @@
         ],
         "id": "tempora:Pent17-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6307,7 +6651,7 @@
         ],
         "id": "sancti:10-03:3:w",
         "rank": 3,
-        "title": "\u015aw. Teresy od Dzieci\u0105tka Jezus, Dziewicy"
+        "title": "Św. Teresy od Dzieciątka Jezus, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -6318,7 +6662,7 @@
         ],
         "id": "tempora:Pent17-6:4:g",
         "rank": 4,
-        "title": "Sobota po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 17 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6330,7 +6674,7 @@
         ],
         "id": "tempora:Pent18-0:2:g",
         "rank": 2,
-        "title": "18 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "18 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -6341,12 +6685,21 @@
         ],
         "id": "tempora:Pent18-0:2:g",
         "rank": 2,
-        "title": "18 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "18 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-05": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -6354,7 +6707,7 @@
         ],
         "id": "sancti:10-05:4:r",
         "rank": 4,
-        "title": "\u015a\u015b. Placyda i Towarzyszy, M\u0119czennik\u00f3w"
+        "title": "Śś. Placyda i Towarzyszy, Męczenników"
       }
     ],
     "tempora": [
@@ -6364,7 +6717,7 @@
         ],
         "id": "tempora:Pent18-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6376,7 +6729,7 @@
         ],
         "id": "sancti:10-06:3:w",
         "rank": 3,
-        "title": "\u015aw. Brunona, Wyznawcy"
+        "title": "Św. Brunona, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6387,7 +6740,7 @@
         ],
         "id": "tempora:Pent18-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6399,7 +6752,7 @@
         ],
         "id": "sancti:10-07r:2:w",
         "rank": 2,
-        "title": "N. M. P. R\u00f3\u017ca\u0144cowej"
+        "title": "N. M. P. Różańcowej"
       }
     ],
     "commemoration": [],
@@ -6410,7 +6763,7 @@
         ],
         "id": "tempora:Pent18-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6422,7 +6775,7 @@
         ],
         "id": "sancti:10-08r:3:w",
         "rank": 3,
-        "title": "\u015aw. Brygidy, Wdowy"
+        "title": "Św. Brygidy, Wdowy"
       }
     ],
     "commemoration": [],
@@ -6433,7 +6786,7 @@
         ],
         "id": "tempora:Pent18-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6445,7 +6798,7 @@
         ],
         "id": "sancti:10-09:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Leonardi, Wyznawcy"
+        "title": "Św. Jana Leonardi, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6456,7 +6809,7 @@
         ],
         "id": "tempora:Pent18-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6468,7 +6821,7 @@
         ],
         "id": "sancti:10-10:3:w",
         "rank": 3,
-        "title": "\u015aw. Franciszka Borgiasza, Wyznawcy"
+        "title": "Św. Franciszka Borgiasza, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6479,7 +6832,7 @@
         ],
         "id": "tempora:Pent18-6:4:g",
         "rank": 4,
-        "title": "Sobota po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 18 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6491,7 +6844,7 @@
         ],
         "id": "tempora:Pent19-0:2:g",
         "rank": 2,
-        "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "19 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [
@@ -6501,7 +6854,7 @@
         ],
         "id": "sancti:10-11:2:w",
         "rank": 2,
-        "title": "Macierzy\u0144stwa N. M. P."
+        "title": "Macierzyństwa N. M. P."
       }
     ],
     "tempora": [
@@ -6511,12 +6864,21 @@
         ],
         "id": "tempora:Pent19-0:2:g",
         "rank": 2,
-        "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "19 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-12": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6525,7 +6887,7 @@
         ],
         "id": "tempora:Pent19-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6537,7 +6899,7 @@
         ],
         "id": "sancti:10-13:3:w",
         "rank": 3,
-        "title": "\u015aw. Edwarda, kr\u00f3la i wyznawcy"
+        "title": "Św. Edwarda, króla i wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6548,7 +6910,7 @@
         ],
         "id": "tempora:Pent19-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6560,7 +6922,7 @@
         ],
         "id": "sancti:10-14:3:r",
         "rank": 3,
-        "title": "\u015aw. Kaliksta, papie\u017ca i m\u0119czennika"
+        "title": "Św. Kaliksta, papieża i męczennika"
       }
     ],
     "commemoration": [],
@@ -6571,7 +6933,7 @@
         ],
         "id": "tempora:Pent19-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6583,7 +6945,7 @@
         ],
         "id": "sancti:10-15:3:w",
         "rank": 3,
-        "title": "\u015aw. Teresy z Avili, Dziewicy"
+        "title": "Św. Teresy z Avili, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -6594,7 +6956,7 @@
         ],
         "id": "tempora:Pent19-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6606,7 +6968,7 @@
         ],
         "id": "sancti:10-16:3:w",
         "rank": 3,
-        "title": "\u015aw. Jadwigi, Wdowy"
+        "title": "Św. Jadwigi, Wdowy"
       }
     ],
     "commemoration": [],
@@ -6617,7 +6979,7 @@
         ],
         "id": "tempora:Pent19-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6629,7 +6991,7 @@
         ],
         "id": "sancti:10-17:3:w",
         "rank": 3,
-        "title": "\u015aw. Ma\u0142gorzaty Marii Alacoque, Dziewicy"
+        "title": "Św. Małgorzaty Marii Alacoque, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -6640,7 +7002,7 @@
         ],
         "id": "tempora:Pent19-6:4:g",
         "rank": 4,
-        "title": "Sobota po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 19 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6652,7 +7014,7 @@
         ],
         "id": "tempora:Pent20-0:2:g",
         "rank": 2,
-        "title": "20 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "20 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [
@@ -6662,7 +7024,7 @@
         ],
         "id": "sancti:10-18:2:r",
         "rank": 2,
-        "title": "\u015aw. \u0141ukasza, Ewangelisty"
+        "title": "Św. Łukasza, Ewangelisty"
       }
     ],
     "tempora": [
@@ -6672,7 +7034,7 @@
         ],
         "id": "tempora:Pent20-0:2:g",
         "rank": 2,
-        "title": "20 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "20 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6684,7 +7046,7 @@
         ],
         "id": "sancti:10-19:3:w",
         "rank": 3,
-        "title": "\u015aw. Piotra z Alkantary, Wyznawcy"
+        "title": "Św. Piotra z Alkantary, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6695,7 +7057,7 @@
         ],
         "id": "tempora:Pent20-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6707,7 +7069,7 @@
         ],
         "id": "sancti:10-20:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana Kantego, Wyznawcy"
+        "title": "Św. Jana Kantego, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6718,12 +7080,21 @@
         ],
         "id": "tempora:Pent20-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-21": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [
       {
         "colors": [
@@ -6731,7 +7102,7 @@
         ],
         "id": "sancti:10-21:4:w",
         "rank": 4,
-        "title": "\u015aw. Hilariona, Opata"
+        "title": "Św. Hilariona, Opata"
       }
     ],
     "tempora": [
@@ -6741,12 +7112,21 @@
         ],
         "id": "tempora:Pent20-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-22": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6755,7 +7135,7 @@
         ],
         "id": "tempora:Pent20-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6767,7 +7147,7 @@
         ],
         "id": "sancti:10-23r:3:w",
         "rank": 3,
-        "title": "\u015aw. Antoniego Marii Claret, Biskupa i Wyznawcy"
+        "title": "Św. Antoniego Marii Claret, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -6778,7 +7158,7 @@
         ],
         "id": "tempora:Pent20-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6790,7 +7170,7 @@
         ],
         "id": "sancti:10-24:3:w",
         "rank": 3,
-        "title": "\u015aw. Rafa\u0142a Archanio\u0142a"
+        "title": "Św. Rafała Archanioła"
       }
     ],
     "commemoration": [],
@@ -6801,7 +7181,7 @@
         ],
         "id": "tempora:Pent20-6:4:g",
         "rank": 4,
-        "title": "Sobota po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 20 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6813,7 +7193,7 @@
         ],
         "id": "sancti:10-DU:1:w",
         "rank": 1,
-        "title": "Chrystusa Kr\u00f3la"
+        "title": "Chrystusa Króla"
       }
     ],
     "commemoration": [],
@@ -6824,12 +7204,21 @@
         ],
         "id": "tempora:Pent21-0:2:g",
         "rank": 2,
-        "title": "21 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "21 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-26": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6838,12 +7227,21 @@
         ],
         "id": "tempora:Pent21-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-27": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6852,7 +7250,7 @@
         ],
         "id": "tempora:Pent21-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6864,7 +7262,7 @@
         ],
         "id": "sancti:10-28:2:r",
         "rank": 2,
-        "title": "\u015awi\u0119tych Szymona i Judy Tadeusza, Aposto\u0142ow"
+        "title": "Świętych Szymona i Judy Tadeusza, Apostołow"
       }
     ],
     "commemoration": [],
@@ -6875,12 +7273,21 @@
         ],
         "id": "tempora:Pent21-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-29": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6889,12 +7296,21 @@
         ],
         "id": "tempora:Pent21-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-10-30": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -6903,7 +7319,7 @@
         ],
         "id": "tempora:Pent21-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6926,7 +7342,7 @@
         ],
         "id": "tempora:Pent21-6:4:g",
         "rank": 4,
-        "title": "Sobota po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 21 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6938,7 +7354,7 @@
         ],
         "id": "sancti:11-01:1:w",
         "rank": 1,
-        "title": "Uroczysto\u015b\u0107 Wszystkich \u015awi\u0119tych"
+        "title": "Uroczystość Wszystkich Świętych"
       }
     ],
     "commemoration": [],
@@ -6949,7 +7365,7 @@
         ],
         "id": "tempora:Pent22-0:2:g",
         "rank": 2,
-        "title": "22 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "22 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -6961,7 +7377,7 @@
         ],
         "id": "sancti:11-02m1:1:b",
         "rank": 1,
-        "title": "Dzie\u0144 Zaduszny"
+        "title": "Dzień Zaduszny"
       },
       {
         "colors": [
@@ -6969,7 +7385,7 @@
         ],
         "id": "sancti:11-02m2:1:b",
         "rank": 1,
-        "title": "Dzie\u0144 Zaduszny \u2013 Druga Msza"
+        "title": "Dzień Zaduszny – Druga Msza"
       },
       {
         "colors": [
@@ -6977,7 +7393,7 @@
         ],
         "id": "sancti:11-02m3:1:b",
         "rank": 1,
-        "title": "Dzie\u0144 Zaduszny \u2013 Trzecia Msza"
+        "title": "Dzień Zaduszny – Trzecia Msza"
       }
     ],
     "commemoration": [],
@@ -6988,12 +7404,21 @@
         ],
         "id": "tempora:Pent22-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-11-03": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -7002,7 +7427,7 @@
         ],
         "id": "tempora:Pent22-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7014,7 +7439,7 @@
         ],
         "id": "sancti:11-04r:3:w",
         "rank": 3,
-        "title": "\u015aw. Karola Boromeusza, Biskupa i Wyznawcy"
+        "title": "Św. Karola Boromeusza, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7025,12 +7450,21 @@
         ],
         "id": "tempora:Pent22-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-11-05": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -7039,12 +7473,21 @@
         ],
         "id": "tempora:Pent22-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-11-06": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -7053,7 +7496,7 @@
         ],
         "id": "tempora:Pent22-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7076,7 +7519,7 @@
         ],
         "id": "tempora:Pent22-6:4:g",
         "rank": 4,
-        "title": "Sobota po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 22 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7088,7 +7531,7 @@
         ],
         "id": "tempora:Pent23-0:2:g",
         "rank": 2,
-        "title": "23 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "23 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -7099,7 +7542,7 @@
         ],
         "id": "tempora:Pent23-0:2:g",
         "rank": 2,
-        "title": "23 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "23 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7111,7 +7554,7 @@
         ],
         "id": "sancti:11-09:2:w",
         "rank": 2,
-        "title": "Rocznica Konsekracji Bazyliki Naj\u015bwi\u0119tszego Zbawiciela na Lateranie"
+        "title": "Rocznica Konsekracji Bazyliki Najświętszego Zbawiciela na Lateranie"
       }
     ],
     "commemoration": [],
@@ -7122,7 +7565,7 @@
         ],
         "id": "tempora:Pent23-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7134,7 +7577,7 @@
         ],
         "id": "sancti:11-10:3:w",
         "rank": 3,
-        "title": "\u015aw. Andrzeja z Avellino, Wyznawcy"
+        "title": "Św. Andrzeja z Avellino, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7145,7 +7588,7 @@
         ],
         "id": "tempora:Pent23-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7157,7 +7600,7 @@
         ],
         "id": "sancti:11-11:3:w",
         "rank": 3,
-        "title": "\u015aw. Marcina, Biskupa i Wyznawcy"
+        "title": "Św. Marcina, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7168,7 +7611,7 @@
         ],
         "id": "tempora:Pent23-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7180,7 +7623,7 @@
         ],
         "id": "sancti:11-12:3:r",
         "rank": 3,
-        "title": "\u015aw. Marcina I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Marcina I, Papieża i Męczennika"
       }
     ],
     "commemoration": [],
@@ -7191,7 +7634,7 @@
         ],
         "id": "tempora:Pent23-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7203,7 +7646,7 @@
         ],
         "id": "sancti:11-13pl:2:w",
         "rank": 2,
-        "title": "\u015aw. Stanis\u0142awa Kostki, Wyznawcy"
+        "title": "Św. Stanisława Kostki, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7214,7 +7657,7 @@
         ],
         "id": "tempora:Pent23-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7226,7 +7669,7 @@
         ],
         "id": "sancti:11-14:3:w",
         "rank": 3,
-        "title": "\u015aw. Jozafata, Biskupa i M\u0119czennika"
+        "title": "Św. Jozafata, Biskupa i Męczennika"
       }
     ],
     "commemoration": [],
@@ -7237,7 +7680,7 @@
         ],
         "id": "tempora:Pent23-6:4:g",
         "rank": 4,
-        "title": "Sobota po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 23 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7272,7 +7715,7 @@
         ],
         "id": "sancti:11-16:3:w",
         "rank": 3,
-        "title": "\u015aw. Gertrudy, Dziewicy"
+        "title": "Św. Gertrudy, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -7283,7 +7726,7 @@
         ],
         "id": "tempora:Epi6-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 6 Niedzieli po Objawieniu"
+        "title": "Poniedziałek po 6 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -7295,7 +7738,7 @@
         ],
         "id": "sancti:11-17:3:w",
         "rank": 3,
-        "title": "\u015aw. Grzegorza Cudotw\u00f3rcy, Biskupa i Wyznawcy"
+        "title": "Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7318,7 +7761,7 @@
         ],
         "id": "sancti:11-18r:3:w",
         "rank": 3,
-        "title": "Rocznica Konsekracji Bazylik \u015awi\u0119tych Aposto\u0142\u00f3w Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+        "title": "Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów"
       }
     ],
     "commemoration": [],
@@ -7329,7 +7772,7 @@
         ],
         "id": "tempora:Epi6-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 6 Niedzieli po Objawieniu"
+        "title": "Środa po 6 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -7341,7 +7784,7 @@
         ],
         "id": "sancti:11-19:3:w",
         "rank": 3,
-        "title": "\u015aw. El\u017cbiety, Wdowy"
+        "title": "Św. Elżbiety, Wdowy"
       }
     ],
     "commemoration": [],
@@ -7364,7 +7807,7 @@
         ],
         "id": "sancti:11-20:3:w",
         "rank": 3,
-        "title": "\u015aw. Feliksa Walezego, Wyznawcy"
+        "title": "Św. Feliksa Walezego, Wyznawcy"
       }
     ],
     "commemoration": [],
@@ -7375,7 +7818,7 @@
         ],
         "id": "tempora:Epi6-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 6 Niedzieli po Objawieniu"
+        "title": "Piątek po 6 Niedzieli po Objawieniu"
       }
     ]
   },
@@ -7410,7 +7853,7 @@
         ],
         "id": "tempora:Pent24-0:2:g",
         "rank": 2,
-        "title": "24 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "24 Niedziela po Zesłaniu Ducha Świętego"
       }
     ],
     "commemoration": [],
@@ -7421,7 +7864,7 @@
         ],
         "id": "tempora:Pent24-0:2:g",
         "rank": 2,
-        "title": "24 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "24 Niedziela po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7433,7 +7876,7 @@
         ],
         "id": "sancti:11-23:3:r",
         "rank": 3,
-        "title": "\u015aw. Klemensa I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Klemensa I, Papieża i Męczennika"
       }
     ],
     "commemoration": [],
@@ -7444,7 +7887,7 @@
         ],
         "id": "tempora:Pent24-1:4:g",
         "rank": 4,
-        "title": "Poniedzia\u0142ek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7456,7 +7899,7 @@
         ],
         "id": "sancti:11-24:3:w",
         "rank": 3,
-        "title": "\u015aw. Jana od Krzy\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Jana od Krzyża, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [],
@@ -7467,7 +7910,7 @@
         ],
         "id": "tempora:Pent24-2:4:g",
         "rank": 4,
-        "title": "Wtorek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Wtorek po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7479,7 +7922,7 @@
         ],
         "id": "sancti:11-25:3:r",
         "rank": 3,
-        "title": "\u015aw. Katarzyny, Dziewicy i M\u0119czennicy"
+        "title": "Św. Katarzyny, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [],
@@ -7490,7 +7933,7 @@
         ],
         "id": "tempora:Pent24-3:4:g",
         "rank": 4,
-        "title": "\u015aroda po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7502,7 +7945,7 @@
         ],
         "id": "sancti:11-26:3:w",
         "rank": 3,
-        "title": "\u015aw. Sylwestra, Opata"
+        "title": "Św. Sylwestra, Opata"
       }
     ],
     "commemoration": [],
@@ -7513,12 +7956,21 @@
         ],
         "id": "tempora:Pent24-4:4:g",
         "rank": 4,
-        "title": "Czwartek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Czwartek po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
   "2020-11-27": {
-    "celebration": [],
+    "celebration": [
+      {
+        "colors": [
+          "g"
+        ],
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
+      }
+    ],
     "commemoration": [],
     "tempora": [
       {
@@ -7527,7 +7979,7 @@
         ],
         "id": "tempora:Pent24-5:4:g",
         "rank": 4,
-        "title": "Pi\u0105tek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7550,7 +8002,7 @@
         ],
         "id": "tempora:Pent24-6:4:g",
         "rank": 4,
-        "title": "Sobota po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota po 24 Niedzieli po Zesłaniu Ducha Świętego"
       }
     ]
   },
@@ -7572,7 +8024,7 @@
         ],
         "id": "sancti:11-29r:4:r",
         "rank": 4,
-        "title": "\u015aw. Saturnina, M\u0119czennika"
+        "title": "Św. Saturnina, Męczennika"
       }
     ],
     "tempora": [
@@ -7594,7 +8046,7 @@
         ],
         "id": "sancti:11-30:2:r",
         "rank": 2,
-        "title": "\u015aw. Andrzeja, Aposto\u0142a"
+        "title": "Św. Andrzeja, Apostoła"
       }
     ],
     "commemoration": [],
@@ -7605,7 +8057,7 @@
         ],
         "id": "tempora:Adv1-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 1 Niedzieli Adwentu"
+        "title": "Poniedziałek po 1 Niedzieli Adwentu"
       }
     ]
   },
@@ -7640,7 +8092,7 @@
         ],
         "id": "sancti:12-02:3:r",
         "rank": 3,
-        "title": "\u015aw. Bibiany, Dziewicy i M\u0119czennicy"
+        "title": "Św. Bibiany, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [
@@ -7650,7 +8102,7 @@
         ],
         "id": "tempora:Adv1-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 1 Niedzieli Adwentu"
+        "title": "Środa po 1 Niedzieli Adwentu"
       }
     ],
     "tempora": [
@@ -7660,7 +8112,7 @@
         ],
         "id": "tempora:Adv1-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 1 Niedzieli Adwentu"
+        "title": "Środa po 1 Niedzieli Adwentu"
       }
     ]
   },
@@ -7672,7 +8124,7 @@
         ],
         "id": "sancti:12-03:3:w",
         "rank": 3,
-        "title": "\u015aw. Franciszka Ksawerego, Wyznawcy"
+        "title": "Św. Franciszka Ksawerego, Wyznawcy"
       }
     ],
     "commemoration": [
@@ -7704,7 +8156,7 @@
         ],
         "id": "sancti:12-04:3:w",
         "rank": 3,
-        "title": "\u015aw. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [
@@ -7714,7 +8166,7 @@
         ],
         "id": "tempora:Adv1-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 1 Niedzieli Adwentu"
+        "title": "Piątek po 1 Niedzieli Adwentu"
       }
     ],
     "tempora": [
@@ -7724,7 +8176,7 @@
         ],
         "id": "tempora:Adv1-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 1 Niedzieli Adwentu"
+        "title": "Piątek po 1 Niedzieli Adwentu"
       }
     ]
   },
@@ -7746,7 +8198,7 @@
         ],
         "id": "sancti:12-05:4:w",
         "rank": 4,
-        "title": "\u015aw. Saby, Opata"
+        "title": "Św. Saby, Opata"
       }
     ],
     "tempora": [
@@ -7778,7 +8230,7 @@
         ],
         "id": "sancti:12-06:3:w",
         "rank": 3,
-        "title": "\u015aw. Miko\u0142aja, Biskupa i Wyznawcy"
+        "title": "Św. Mikołaja, Biskupa i Wyznawcy"
       }
     ],
     "tempora": [
@@ -7800,7 +8252,7 @@
         ],
         "id": "sancti:12-07:3:w",
         "rank": 3,
-        "title": "\u015aw. Ambro\u017cego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Ambrożego, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [
@@ -7810,7 +8262,7 @@
         ],
         "id": "tempora:Adv2-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+        "title": "Poniedziałek po 2 Niedzieli Adwentu"
       }
     ],
     "tempora": [
@@ -7820,7 +8272,7 @@
         ],
         "id": "tempora:Adv2-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+        "title": "Poniedziałek po 2 Niedzieli Adwentu"
       }
     ]
   },
@@ -7832,7 +8284,7 @@
         ],
         "id": "sancti:12-08:1:w",
         "rank": 1,
-        "title": "Niepokalane Pocz\u0119cie N. M. P."
+        "title": "Niepokalane Poczęcie N. M. P."
       }
     ],
     "commemoration": [],
@@ -7855,7 +8307,7 @@
         ],
         "id": "tempora:Adv2-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 2 Niedzieli Adwentu"
+        "title": "Środa po 2 Niedzieli Adwentu"
       }
     ],
     "commemoration": [],
@@ -7866,7 +8318,7 @@
         ],
         "id": "tempora:Adv2-3:3:v",
         "rank": 3,
-        "title": "\u015aroda po 2 Niedzieli Adwentu"
+        "title": "Środa po 2 Niedzieli Adwentu"
       }
     ]
   },
@@ -7888,7 +8340,7 @@
         ],
         "id": "sancti:12-10:4:r",
         "rank": 4,
-        "title": "\u015aw. Melchiadesa, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Melchiadesa, Papieża i Męczennika"
       }
     ],
     "tempora": [
@@ -7910,7 +8362,7 @@
         ],
         "id": "sancti:12-11:3:w",
         "rank": 3,
-        "title": "\u015aw. Damazego, Papie\u017ca i Wyznawcy"
+        "title": "Św. Damazego, Papieża i Wyznawcy"
       }
     ],
     "commemoration": [
@@ -7920,7 +8372,7 @@
         ],
         "id": "tempora:Adv2-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 2 Niedzieli Adwentu"
+        "title": "Piątek po 2 Niedzieli Adwentu"
       }
     ],
     "tempora": [
@@ -7930,7 +8382,7 @@
         ],
         "id": "tempora:Adv2-5:3:v",
         "rank": 3,
-        "title": "Pi\u0105tek po 2 Niedzieli Adwentu"
+        "title": "Piątek po 2 Niedzieli Adwentu"
       }
     ]
   },
@@ -7961,7 +8413,8 @@
     "celebration": [
       {
         "colors": [
-          "p", "v"
+          "p",
+          "v"
         ],
         "id": "tempora:Adv3-0:1:pv",
         "rank": 1,
@@ -7975,13 +8428,14 @@
         ],
         "id": "sancti:12-13r:3:r",
         "rank": 3,
-        "title": "\u015aw. \u0141ucji, Dziewicy i M\u0119czennicy"
+        "title": "Św. Łucji, Dziewicy i Męczennicy"
       }
     ],
     "tempora": [
       {
         "colors": [
-          "p", "v"
+          "p",
+          "v"
         ],
         "id": "tempora:Adv3-0:1:pv",
         "rank": 1,
@@ -7997,7 +8451,7 @@
         ],
         "id": "tempora:Adv3-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Adwentu"
+        "title": "Poniedziałek po 3 Niedzieli Adwentu"
       }
     ],
     "commemoration": [],
@@ -8008,7 +8462,7 @@
         ],
         "id": "tempora:Adv3-1:3:v",
         "rank": 3,
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Adwentu"
+        "title": "Poniedziałek po 3 Niedzieli Adwentu"
       }
     ]
   },
@@ -8043,7 +8497,7 @@
         ],
         "id": "tempora:Adv3-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Adwentu"
+        "title": "Środa Suchych Dni Adwentu"
       }
     ],
     "commemoration": [
@@ -8053,7 +8507,7 @@
         ],
         "id": "sancti:12-16:3:r",
         "rank": 3,
-        "title": "\u015aw. Euzebiusza, Biskupa i M\u0119czennika"
+        "title": "Św. Euzebiusza, Biskupa i Męczennika"
       }
     ],
     "tempora": [
@@ -8063,7 +8517,7 @@
         ],
         "id": "tempora:Adv3-3:2:v",
         "rank": 2,
-        "title": "\u015aroda Suchych Dni Adwentu"
+        "title": "Środa Suchych Dni Adwentu"
       }
     ]
   },
@@ -8098,7 +8552,7 @@
         ],
         "id": "tempora:Adv3-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Adwentu"
+        "title": "Piątek Suchych Dni Adwentu"
       }
     ],
     "commemoration": [],
@@ -8109,7 +8563,7 @@
         ],
         "id": "tempora:Adv3-5:2:v",
         "rank": 2,
-        "title": "Pi\u0105tek Suchych Dni Adwentu"
+        "title": "Piątek Suchych Dni Adwentu"
       }
     ]
   },
@@ -8167,7 +8621,7 @@
         ],
         "id": "sancti:12-21:2:r",
         "rank": 2,
-        "title": "\u015aw. Tomasza, Aposto\u0142a"
+        "title": "Św. Tomasza, Apostoła"
       }
     ],
     "commemoration": [
@@ -8177,7 +8631,7 @@
         ],
         "id": "tempora:Adv4-1:2:v",
         "rank": 2,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli Adwentu"
+        "title": "Poniedziałek po 4 Niedzieli Adwentu"
       }
     ],
     "tempora": [
@@ -8187,7 +8641,7 @@
         ],
         "id": "tempora:Adv4-1:2:v",
         "rank": 2,
-        "title": "Poniedzia\u0142ek po 4 Niedzieli Adwentu"
+        "title": "Poniedziałek po 4 Niedzieli Adwentu"
       }
     ]
   },
@@ -8222,7 +8676,7 @@
         ],
         "id": "tempora:Adv4-3:2:v",
         "rank": 2,
-        "title": "\u015aroda po 4 Niedzieli Adwentu"
+        "title": "Środa po 4 Niedzieli Adwentu"
       }
     ],
     "commemoration": [],
@@ -8233,7 +8687,7 @@
         ],
         "id": "tempora:Adv4-3:2:v",
         "rank": 2,
-        "title": "\u015aroda po 4 Niedzieli Adwentu"
+        "title": "Środa po 4 Niedzieli Adwentu"
       }
     ]
   },
@@ -8245,7 +8699,7 @@
         ],
         "id": "sancti:12-24:1:v",
         "rank": 1,
-        "title": "Wigilia Bo\u017cego Narodzenia"
+        "title": "Wigilia Bożego Narodzenia"
       }
     ],
     "commemoration": [],
@@ -8259,7 +8713,7 @@
         ],
         "id": "sancti:12-25m1:1:w",
         "rank": 1,
-        "title": "Bo\u017ce Narodzenie"
+        "title": "Boże Narodzenie"
       },
       {
         "colors": [
@@ -8267,7 +8721,7 @@
         ],
         "id": "sancti:12-25m2:1:w",
         "rank": 1,
-        "title": "Bo\u017ce Narodzenie \u2014 Msza o \u015bwicie"
+        "title": "Boże Narodzenie — Msza o świcie"
       },
       {
         "colors": [
@@ -8275,7 +8729,7 @@
         ],
         "id": "sancti:12-25m3:1:w",
         "rank": 1,
-        "title": "Bo\u017ce Narodzenie \u2014 Msza w dzie\u0144"
+        "title": "Boże Narodzenie — Msza w dzień"
       }
     ],
     "commemoration": [],
@@ -8289,7 +8743,7 @@
         ],
         "id": "sancti:12-26:2:r",
         "rank": 2,
-        "title": "\u015aw. Szczepana, Pierwszego M\u0119czennika"
+        "title": "Św. Szczepana, Pierwszego Męczennika"
       }
     ],
     "commemoration": [],
@@ -8303,7 +8757,7 @@
         ],
         "id": "tempora:Nat1-0:2:w",
         "rank": 2,
-        "title": "Niedziela w Oktawie Bo\u017cego Narodzenia"
+        "title": "Niedziela w Oktawie Bożego Narodzenia"
       }
     ],
     "commemoration": [
@@ -8313,7 +8767,7 @@
         ],
         "id": "sancti:12-27:2:w",
         "rank": 2,
-        "title": "\u015aw. Jana, Aposto\u0142a i Ewangelisty"
+        "title": "Św. Jana, Apostoła i Ewangelisty"
       }
     ],
     "tempora": [
@@ -8323,7 +8777,7 @@
         ],
         "id": "tempora:Nat1-0:2:w",
         "rank": 2,
-        "title": "Niedziela w Oktawie Bo\u017cego Narodzenia"
+        "title": "Niedziela w Oktawie Bożego Narodzenia"
       }
     ]
   },
@@ -8335,7 +8789,7 @@
         ],
         "id": "sancti:12-28:2:r",
         "rank": 2,
-        "title": "\u015awi\u0119tych M\u0142odziank\u00f3w"
+        "title": "Świętych Młodzianków"
       }
     ],
     "commemoration": [],
@@ -8349,7 +8803,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ],
     "commemoration": [
@@ -8359,7 +8813,7 @@
         ],
         "id": "sancti:12-29r:4:r",
         "rank": 4,
-        "title": "\u015aw. Tomasza z Canterbury, Biskupa i M\u0119czennika"
+        "title": "Św. Tomasza z Canterbury, Biskupa i Męczennika"
       }
     ],
     "tempora": [
@@ -8369,7 +8823,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ]
   },
@@ -8381,7 +8835,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ],
     "commemoration": [],
@@ -8392,7 +8846,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ]
   },
@@ -8404,7 +8858,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ],
     "commemoration": [
@@ -8414,7 +8868,7 @@
         ],
         "id": "sancti:12-31r:4:w",
         "rank": 4,
-        "title": "\u015aw. Sylwestra I, papie\u017ca i wyznawcy"
+        "title": "Św. Sylwestra I, papieża i wyznawcy"
       }
     ],
     "tempora": [
@@ -8424,7 +8878,7 @@
         ],
         "id": "tempora:Nat1-1:2:w",
         "rank": 2,
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
       }
     ]
   }
