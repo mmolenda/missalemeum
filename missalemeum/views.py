@@ -16,7 +16,7 @@ from jinja2 import TemplateNotFound
 
 import controller
 from constants import TRANSLATION, BLOCKS
-from constants.common import LANGUAGES, LANGUAGE_ENGLISH, SUPPLEMENT_DIR
+from constants.common import LANGUAGES, LANGUAGE_ENGLISH, SUPPLEMENT_DIR, ORDO_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
 from utils import format_day_propers, get_supplement, format_propers
@@ -80,7 +80,7 @@ def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
 @views.route("/<string:lang>/ordo")
 @infer_locale
 def ordo(lang: str = LANGUAGE_ENGLISH):
-    with open(os.path.join(views.root_path, "static", "data", lang, "ordo.json")) as fh:
+    with open(os.path.join(ORDO_DIR, lang, 'ordo.json')) as fh:
         data = json.load(fh)
     return render_template("ordo.html", data=data, lang=lang)
 
@@ -184,9 +184,9 @@ def supplement(lang: str = LANGUAGE_ENGLISH, subdir: str = None, resource: str =
         return render_template_or_404("404.html", lang=lang), 404
     else:
         title = supplement_yaml["title"]
-        html = mistune.markdown(supplement_yaml["body"], escape=False)
+        html = supplement_yaml["body"]
         ref = request.args.get("ref")
-        if ref is None or re.sub('[\w\-/]', '', ref) != "":
+        if ref is None or re.sub(r'[\w\-/]', '', ref) != "":
             ref = None
         return render_template_or_404("supplement.html", title=title, data=html, ref=ref, lang=lang)
 

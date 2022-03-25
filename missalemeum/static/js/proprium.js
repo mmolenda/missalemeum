@@ -94,16 +94,8 @@ $window.on("load", function () {
                 let additional_info = [parsedDate.format("dd DD.MM.YYYY")];
                 let celebration;
                 let color;
-                if (day.celebration.length > 0) {
-                    celebration = day.celebration[0].title;
-                    color = day.celebration[0].colors[0];
-                } else {
-                    celebration = textFeria;
-                    color = 'w';
-                    if (day.tempora.length > 0) {
-                        color = day.tempora[0].colors[0];
-                    }
-                }
+                celebration = day.celebration[0].title;
+                color = day.celebration[0].colors[0];
                 if (day.tempora.length > 0 && day.tempora[0].title != celebration) {
                     additional_info.push(day.tempora[0].title);
                 }

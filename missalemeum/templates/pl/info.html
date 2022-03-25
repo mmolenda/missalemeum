@@ -59,8 +59,9 @@ Informacje |
 {% endblock %}
 
 {% block scripts %}
-<script>
-    let contactform =  document.getElementById('contact-form');
-    contactform.setAttribute('action', atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vc3VwcG9ydEBtb2xlbmRhLmV1"));
-</script>
+    <script>
+        let contactform =  document.getElementById('contact-form');
+        contactform.setAttribute('action', atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vc3VwcG9ydEBtb2xlbmRhLmV1"));
+    </script>
+    <script src="/static/js/common.js"></script>
 {% endblock %}

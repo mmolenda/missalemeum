@@ -7,7 +7,7 @@ def newline2br(text):
 
 
 def asterisks2em(text):
-    return re.sub('\*([^\*]+)\*', '<em>\\1</em>', text)
+    return re.sub(r'\*([^\*]+)\*', '<em>\\1</em>', text)
 
 
 def slugify(text):

@@ -148,8 +148,8 @@ class Proper(ParsedSource):
                     (COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO)
             ):
                 commemorated_section = commemoration.get_section(source_section_name)
-                commemorated_section.body.insert(0, f"* {self.commemorations_names_translations[COMMEMORATION]} "
-                                                    f"{commemoration.title} *")
+                commemorated_section.body.insert(0, f"*{self.commemorations_names_translations[COMMEMORATION]} "
+                                                    f"{commemoration.title}*")
                 commemorated_section.id = commemorated_section_name
                 commemorated_section.label = self.commemorations_names_translations[commemorated_section_name]
                 self.set_section(commemorated_section_name, commemorated_section)

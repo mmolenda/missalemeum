@@ -137,12 +137,12 @@ def test_sancti_shifted(day_id, expected_date):
     ((2020, 12, 29), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], [c.SANCTI_12_29]),
     ((2020, 12, 30), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], []),
     ((2020, 12, 31), [c.TEMPORA_NAT1_1], [c.TEMPORA_NAT1_1], [c.SANCTI_12_31]),
-    # Feria with commemoration
-    ((2020, 2, 13), [c.TEMPORA_QUADP1_4], [], []),
-    ((2020, 2, 17), [c.TEMPORA_QUADP2_1], [], []),
     # Feria without commemoration
-    ((2020, 2, 14), [c.TEMPORA_QUADP1_5], [], [c.SANCTI_02_14]),
-    ((2020, 2, 18), [c.TEMPORA_QUADP2_2], [], [c.SANCTI_02_18]),
+    ((2020, 2, 13), [c.TEMPORA_QUADP1_4], [c.FERIA], []),
+    ((2020, 2, 17), [c.TEMPORA_QUADP2_1], [c.FERIA], []),
+    # Feria with commemoration
+    ((2020, 2, 14), [c.TEMPORA_QUADP1_5], [c.FERIA], [c.SANCTI_02_14]),
+    ((2020, 2, 18), [c.TEMPORA_QUADP2_2], [c.FERIA], [c.SANCTI_02_18]),
 ])
 def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemoration):
     assert tempora == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).tempora]
@@ -197,14 +197,14 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     # 2019-03-09 Comm: S. Franciscæ Viduæ
     ((2019, 3, 9), [c.TEMPORA_QUADP3_6], [c.SANCTI_03_09]),
     # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
-    ((2019, 1, 18), [], [c.SANCTI_01_18]),
-    ((2019, 2, 14), [], [c.SANCTI_02_14]),
-    ((2019, 5, 14), [], [c.SANCTI_05_14]),
-    ((2019, 7, 16), [], [c.SANCTI_07_16]),
-    ((2019, 8, 13), [], [c.SANCTI_08_13]),
-    ((2019, 9, 11), [], [c.SANCTI_09_11]),
-    ((2019, 10, 25), [], [c.SANCTI_10_25]),
-    ((2019, 11, 8), [], [c.SANCTI_11_08]),
+    ((2019, 1, 18), [c.FERIA], [c.SANCTI_01_18]),
+    ((2019, 2, 14), [c.FERIA], [c.SANCTI_02_14]),
+    ((2019, 5, 14), [c.FERIA], [c.SANCTI_05_14]),
+    ((2019, 7, 16), [c.FERIA], [c.SANCTI_07_16]),
+    ((2019, 8, 13), [c.FERIA], [c.SANCTI_08_13]),
+    ((2019, 9, 11), [c.FERIA], [c.SANCTI_09_11]),
+    ((2019, 10, 25), [c.FERIA], [c.SANCTI_10_25]),
+    ((2019, 11, 8), [c.FERIA], [c.SANCTI_11_08]),
     # 2019-09-29 In Dedicatione S. Michælis Archangelis / Commemoratio: Dominica XVI Post Pentecosten
     ((2019, 9, 29), [c.SANCTI_09_29], [c.TEMPORA_PENT16_0]),
     # 2019-12-03 - S. Francisci Xaverii Confessoris / Commemoratio: Feria III infra Hebdomadam I Adventus

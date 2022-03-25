@@ -33,7 +33,6 @@ const $searchInput = $("input#search-input");
 
 let loadedResource;
 let selectedResource;
-let textFeria = "Feria";
 
 // Making :contains case insensitive
 $.expr[":"].contains = $.expr.createPseudo(function(arg) {
@@ -237,9 +236,6 @@ class ProperContentLoader {
                     $.merge(additional_info, info.additional_info);
                 }
 
-                if (title == null) {
-                    title = textFeria;
-                }
                 titles.push(title);
 
                 let properTab;

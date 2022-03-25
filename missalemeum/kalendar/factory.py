@@ -7,7 +7,7 @@ from typing import List, Tuple, Union
 from dateutil.easter import easter
 
 from constants import BLOCKS
-from constants.common import TEMPORA_NAT2_0, SANCTI_10_DU, LANGUAGE_ENGLISH
+from constants.common import TEMPORA_NAT2_0, SANCTI_10_DU, LANGUAGE_ENGLISH, FERIA
 from kalendar.models import Calendar, Observance
 from kalendar.rules import rules
 
@@ -139,6 +139,11 @@ class MissalFactory:
         shifted_all = defaultdict(list)
         for date_, day in self.calendar.items():
             celebration, commemoration, shifted = self._apply_rules(date_, shifted_all.pop(date_, []))
+            if not celebration:
+                feria = Observance(FERIA, date_, self.lang)
+                if day.tempora:
+                    feria.colors = day.tempora[0].colors
+                celebration = [feria]
             self.calendar.get_day(date_).celebration = celebration
             self.calendar.get_day(date_).commemoration = commemoration
             for k, v in shifted:
@@ -263,7 +268,7 @@ class MissalFactory:
         """
         Sunday within the Octave of Christmas, falls between Dec 26 and Dec 31
         """
-        d = date(year, 12, 27)
+        d = date(year, 12, 26)
         while d.year == year:
             if d.weekday() == 6:
                 return d

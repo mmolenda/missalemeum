@@ -18,7 +18,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               COMMUNIO,
                               TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, TEMPORA_PASC5_0,
                               TEMPORA_PASC5_4,
-                              TEMPORA_PENT01_0A)
+                              TEMPORA_PENT01_0A, FERIA)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
 from utils import get_custom_preface, match
@@ -76,7 +76,7 @@ class Observance:
         self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T):
-            self.weekday = WEEKDAY_MAPPING[re.sub('^.*-(\d+).*$', '\\1', name)]
+            self.weekday = WEEKDAY_MAPPING[re.sub(r'^.*-(\d+).*$', '\\1', name)]
         else:
             self.weekday = self.date.weekday()
         self.priority = self._calc_priority()
@@ -174,6 +174,10 @@ class Day:
     def all(self) -> List['Observance']:
         return self.tempora + self.celebration + self.commemoration
 
+    def get_tempora_id(self) -> Union[None, str]:
+        if self.tempora:
+            return self.tempora[0].id
+
     def get_tempora_name(self) -> Union[None, str]:
         if self.tempora:
             return self.tempora[0].title
@@ -221,7 +225,7 @@ class Day:
         else:
             # It's a feria day without its own proper for which the last Sunday's proper is used
             inferred_observances = self._infer_observance()
-            if observances:
+            if observances and not match(observances, FERIA):
                 rank: int = observances[0].rank
                 preface: str = get_custom_preface(observances[0])
             else:

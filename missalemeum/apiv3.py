@@ -1,4 +1,6 @@
 import datetime
+import json
+import os
 from functools import wraps
 
 import flask
@@ -11,7 +13,7 @@ from flask import jsonify, Blueprint
 import __version__
 import controller
 from constants import TRANSLATION
-from constants.common import LANGUAGES, LANGUAGE_ENGLISH
+from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
 from kalendar.models import Day, Calendar
 from utils import format_day_propers, get_supplement, format_proper_sections, get_pregenerated_proper
@@ -40,14 +42,21 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, lang)
-        pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id())
-        if pregenerated_proper is not None:
+        if pregenerated_proper := get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id()):
             return jsonify(pregenerated_proper)
         return jsonify(format_day_propers(day))
     except ValueError:
         return jsonify({'error': str('Incorrect date format, should be %Y-%m-%d')}), 400
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@api.route('/<string:lang>/api/v3/ordo')
+@validate_locale
+def v3_ordo(lang: str = LANGUAGE_ENGLISH):
+    with open(os.path.join(ORDO_DIR, lang, 'ordo.json')) as fh:
+        content = json.load(fh)
+        return jsonify(content)
 
 
 @api.route('/<string:lang>/api/v3/proper/<string:proper_id>')

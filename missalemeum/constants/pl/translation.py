@@ -3,6 +3,7 @@ import re
 from constants import common as constants
 
 TITLES = {
+    constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa',
     constants.TEMPORA_EPI1_1: 'Poniedziałek po 1 Niedzieli po Objawieniu',
     constants.TEMPORA_EPI1_2: 'Wtorek po 1 Niedzieli po Objawieniu',
