@@ -89,8 +89,8 @@ def date(date: str, language: str):
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
-        if description := proper_vernacular.description:
-            click.echo(f"\n{description}")
+        if proper_vernacular.description:
+            click.echo(f"\n{proper_vernacular.description}")
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
 

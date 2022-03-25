@@ -42,7 +42,8 @@ def v3_date(date_: str, lang: str = LANGUAGE_ENGLISH):
     try:
         date_object = datetime.datetime.strptime(date_, '%Y-%m-%d').date()
         day: Day = controller.get_day(date_object, lang)
-        if pregenerated_proper := get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id()):
+        pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id())
+        if pregenerated_proper:
             return jsonify(pregenerated_proper)
         return jsonify(format_day_propers(day))
     except ValueError:
