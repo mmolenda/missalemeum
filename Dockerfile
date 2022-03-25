@@ -16,6 +16,7 @@ RUN mkdir -pv \
 COPY resources/divinum-officium/web/www/missa/Latin ./resources/divinum-officium/web/www/missa/Latin
 COPY resources/divinum-officium/web/www/missa/English ./resources/divinum-officium/web/www/missa/English
 COPY resources/divinum-officium/web/www/missa/Polski ./resources/divinum-officium/web/www/missa/Polski
+COPY resources/ordo ./resources/ordo
 COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
