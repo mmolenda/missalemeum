@@ -22,16 +22,14 @@ is available in Divinum Officium, it is relatively easy to support them. Volunte
 
 ### Prerequisites
 
-* Python >=3.6
-* [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+* Python >=3.9
 
 ### Installation
 
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
 
-Once cloned, go to the project's dir and call `pipenv install --dev` to install a dedicated virtualenv with
-required dependencies. Then `pipenv shell` to activate the environment.
+Create a virtualenv and install dependencies `pip install -r requirements.txt`.
 
 ### Configuration
 
