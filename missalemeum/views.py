@@ -2,7 +2,6 @@ import json
 from collections import defaultdict
 from functools import wraps
 
-import mistune
 import os
 
 import datetime
@@ -53,8 +52,8 @@ def infer_locale(f):
 
 @views.route("/")
 @views.route("/<string:date_or_id>")
-@views.route("/<lang:lang>")
-@views.route("/<lang:lang>/<string:date_or_id>")
+@views.route("/<string:lang>")
+@views.route("/<string:lang>/<string:date_or_id>")
 @infer_locale
 def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
     if date_or_id is not None:
