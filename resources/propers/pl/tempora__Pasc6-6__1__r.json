@@ -1,0 +1,512 @@
+[
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Św. Jana na Lateranie",
+        "Szaty czerwone"
+      ],
+      "colors": [
+        "r"
+      ],
+      "description": "W noc poprzedzającą uroczystość Zesłania Ducha Świętego odprawiano Wigilię. Podczas niej udzielano Chrztu św. i Bierzmowania katechumenom, którzy nie mogli przyjąć tych sakramentów na Wielkanoc. Na zakończenie Wigilii odprawiano Mszę św. o świcie. Jest to zatem Msza świąteczna, podobnie jak Msza Wigilii Wielkanocnej. Charakter świąteczny zachowała ona mimo przesunięcia na ranek soboty poprzedzającej święto. Teksty mszalne wysławiają działanie Ducha Świętego w duszy ochrzczonego i bierzmowanego. Działanie Ducha Świętego podobne jest do światła rozpraszającego ciemności (kolekta, sekreta) i wody podtrzymującej życie na ziemi (antyfona na wejście i na komunię oraz pokomunia).\n",
+      "id": "tempora:Pasc6-6:1:r",
+      "rank": 1,
+      "supplements": [
+        {
+          "label": "Zesłanie Ducha św.",
+          "path": "/pl/supplement/10-zeslanie-ducha-sw"
+        }
+      ],
+      "tempora": null,
+      "title": "Wigilia Zesłania Ducha Świętego"
+    },
+    "sections": [
+      {
+        "body": [
+          [
+            "*Ez 36:23; 36:24; 36:25-26*\nGdy zajaśnieje świętość moja w was, zgromadzę was ze wszystkich ziem i wyleję na was wodę czystą, i będziecie oczyszczeni od wszelkich nieczystości waszych, i ducha nowego wam dam, alleluja, alleluja.\n*Ps 33:2*\nW każdym czasie będę błogosławił Panu; na ustach moich zawsze Jego chwała.\nChwała Ojcu…\nGdy zajaśnieje świętość moja w was, zgromadzę was ze wszystkich ziem i wyleję na was wodę czystą, i będziecie oczyszczeni od wszelkich nieczystości waszych, i ducha nowego wam dam, alleluja, alleluja.",
+            "*Ezek 36:23; 36:24; 36:25-26*\nDum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum, allelúja, allelúja\n*Ps 33:2*\nBenedícam Dóminum in omni témpore: semper laus ejus in ore meo.\nGlória Patri…\nDum sanctificátus fúero in vobis, congregábo vos de univérsis terris: et effúndam super vos aquam mundam, et mundabímini ab ómnibus inquinaméntis vestris: et dabo vobis spíritum novum, allelúja, allelúja"
+          ]
+        ],
+        "id": "Introitus",
+        "label": "Introit"
+      },
+      {
+        "body": [
+          [
+            "Wszechmogący Boże, spraw, niech zabłyśnie nad nami blask Twojej chwały, a światło Twej jasności niechaj umocni oświeceniem Ducha Świętego tych, którzy odrodzili się przez łaskę.\nPrzez Pana…",
+            "Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos splendor effúlgeat; et lux tuæ lucis corda eórum, qui per grátiam tuam renáti sunt, Sancti Spíritus illustratióne confírmet.\nPer Dominum…"
+          ]
+        ],
+        "id": "Oratio",
+        "label": "Kolekta"
+      },
+      {
+        "body": [
+          [
+            "Czytanie z Dziejów Apostolskich.\n*Dz 19:1-8*\nW one dni: Gdy Apollo bawił w Koryncie, stało się, iż Paweł obszedłszy wyżej położone kraje przybył do Efezu i spotkawszy niektórych uczniów rzekł do nich: «Czy otrzymaliście Ducha Świętego, gdyście wiarę przyjęli?» A oni mu odpowiedzieli: «Nawet nie słyszeliśmy, że jest Duch Święty». I powiedział im: «Jakże więc byliście ochrzczeni?» A oni na to: «Chrztem Janowym».\nRzekł tedy Paweł: «Jan udzielał ludowi chrztu pokuty mówiąc, że Powinni wierzyć w Tego, który po nim przyjdzie, to jest w Jezusa». Usłyszawszy to, przyjęli Chrzest w imię Pana Jezusa. I gdy Paweł włożył na nich ręce, zstąpił na nich Duch Święty i mówili językami, i prorokowali. A było wszystkich mężów około dwunastu.\nA wszedłszy do synagogi, odważnie przemawiał przez trzy miesiące, przekonywając i rozprawiając o Królestwie Bożym.",
+            "Léctio Actuum Apostolorum.\n*Acts 19:1-8*\nIn diébus illis: Factum est, cum Apóllo esset Corínthi, ut Paulus, peragrátis superióribus pártibus, veníret Ephesum et inveníret quosdam discípulos: dixítque ad eos: Si Spíritum Sanctum accepístis credéntes? At illi dixérunt ad eum: Sed neque, si Spíritus Sanctus est, audívimus. Ille vero ait: In quo ergo baptizáti estis? Qui dixérunt: In Joannis baptísmate. Dixit autem Paulus: Joánnes baptizávit baptísmo pœniténtiæ pópulum, dicens: In eum, qui ventúrus esset post ipsum, ut créderent, hoc est in Jesum. His audítis, baptizáti sunt in nómine Dómini Jesu. Et cum imposuísset illis manus Paulus, venit Spíritus Sanctus super eos, et loquebántur linguis, et prophetábant. Erant autem omnes viri fere duódecim. Introgréssus autem synagógam, cum fidúcia loquebátur per tres menses, dísputans et suádens de regno Dei."
+          ]
+        ],
+        "id": "Lectio",
+        "label": "Lekcja"
+      },
+      {
+        "body": [
+          [
+            "Alleluja\n*Ps 106:1*\n℣. Sławcie Pana, bo dobry, bo na wieki miłosierdzie Jego.\n*Ps 116:1-2*\nChwalcie Pana, wszystkie narody, wysławiajcie Go, wszystkie ludy.\n℣. Bo Jego miłosierdzie nad nami utwierdzone, a wierność Pańska trwa na wieki.",
+            "Allelúja\n*Ps 106:1*\n℣. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericordia ejus.\n*Ps 116:1-2*\nLaudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli,\n℣. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum."
+          ]
+        ],
+        "id": "Graduale",
+        "label": "Graduał"
+      },
+      {
+        "body": [
+          [
+            "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 14:15-21*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jeśli mnie miłujecie, zachowujcie przykazania moje. A ja prosić będę Ojca, i innego Pocieszyciela da wam, aby pozostał z wami na zawsze. Ducha prawdy, którego świat nie może przyjąć, bo Go nie widzi ani Go nie zna. Lecz wy Go poznacie, bo u was pozostanie i w was będzie przebywał. Nie pozostawię was sierotami, przyjdę do was. Jeszcze niedługo, a świat mnie już nie ujrzy. Ale wy mnie widzicie, bo ja żyję i wy żyć będziecie. W on dzień poznacie, że ja jestem w Ojcu moim, wy we mnie, a ja w was. Kto ma przykazania moje i zachowuje je, ten jest, który mnie miłuje. A kto mnie miłuje, umiłuje go Ojciec mój i ja go miłować będę, i siebie samego mu objawię».",
+            "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joannes 14:15-21*\nIn illo témpore: Dixit Jesus discípulis suis: Si dilígitis me, mandáta mea serváte. Et ego rogábo Patrem, et alium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum, Spíritum veritátis, quem mundus non potest accípere, quia non videt eum nec scit eum. Vos autem cognoscétis eum: quia apud vos manébit et in vobis erit. Non relínquam vos órphanos: véniam ad vos. Adhuc módicum: et mundus me jam non videt. Vos autem vidétis me, quia ego vivo, et vos vivétis, In illo die vos cognoscétis, quia ego sum in Patre meo, et vos in me, et ego in vobis. Qui habet mandáta mea et servat ea: ille est, qui díligit me. Qui autem díligit me, diligétur a Patre meo: et ego díligam eum, et manifestábo ei meípsum."
+          ]
+        ],
+        "id": "Evangelium",
+        "label": "Ewangelia"
+      },
+      {
+        "body": [
+          [
+            "*Ps 103:30-31*\nZeślij Ducha Twojego, a powstanie życie i odnowisz oblicze ziemi: niech chwała Pańska trwa na wieki, alleluja.",
+            "*Ps 103:30-31*\nEmítte Spíritum tuum, et creabúntur, et renovábis fáciem terræ: sit glória Dómini in sǽcula, allelúja."
+          ]
+        ],
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie"
+      },
+      {
+        "body": [
+          [
+            "Prosimy Cię, Panie, uświęć złożone dary i oczyść nasze serca światłem Ducha Świętego.\nPrzez Pana…",
+            "Múnera, quǽsumus, Dómine, obláta sanctífica: et corda nostra Sancti Spíritus illustratióne emúnda.\nPer Dominum…"
+          ]
+        ],
+        "id": "Secreta",
+        "label": "Sekreta"
+      },
+      {
+        "body": [
+          [
+            "*Prefacja o Duchu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże: przez Chrystusa, Pana naszego.\nOn to wstąpiwszy ponad wszystkie niebiosa i siedząc na prawicy Twojej zesłał (w dniu dzisiejszym) obiecanego Ducha Świętego na przybrane dzieci. Dlatego cały okrąg ziemi tonie w nadmiarze radości. Lecz i Moce niebieskie, i anielskie Potęgi śpiewają hymn ku Twojej chwale, wołając bez końca:",
+            "*de Spiritu Sancto*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Qui, ascéndens super omnes cælos sedénsque ad déxteram tuam, promíssum Spíritum Sanctum * * in fílios adoptiónis effúdit. Quaprópter profúsis gáudiis totus in orbe terrárum mundus exsúltat. Sed et supérnæ Virtútes atque angélicæ Potestátes hymnum glóriæ tuæ cóncinunt, sine fine dicéntes:"
+          ]
+        ],
+        "id": "Prefatio",
+        "label": "Prefacja"
+      },
+      {
+        "body": [
+          [
+            "*J 7:37-39*\nW ostatnim dniu święta mówił Jezus: Kto wierzy we mnie, rzeki wody żywej popłyną z jego wnętrza. A to mówił o Duchu, którego otrzymać mieli wierzący weń, alleluja.",
+            "*Joannes 7:37-39*\nUltimo festivitátis die dicébat Jesus: Qui in me credit, flúmina de ventre ejus fluent aquæ vivæ: hoc autem dixit de Spíritu, quem acceptúri erant credéntes in eum, allelúja, allelúja."
+          ]
+        ],
+        "id": "Communio",
+        "label": "Antyfona na Komunię"
+      },
+      {
+        "body": [
+          [
+            "Panie, niech tchnienie Ducha Świętego oczyści nasze serca i użyźni je rosą Jego łaski.\nPrzez Pana…",
+            "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet.\nPer Dominum…"
+          ]
+        ],
+        "id": "Postcommunio",
+        "label": "Pokomunia"
+      }
+    ]
+  },
+  {
+    "info": {
+      "additional_info": [
+        "Stacja u Św. Jana na Lateranie",
+        "Szaty czerwone"
+      ],
+      "colors": [
+        "r"
+      ],
+      "description": "Msza święta w Zielone Świątki odprawiała się niegdyś w nocy, potem tak jak i Msza Wielkanocna została przeniesiona na sobotę, w dniu tym więc zaczyna się to wielkie święto. W dzień Zesłania Ducha Świętego odbywał się chrzest tych, którzy nie mogli być ochrzczeni w Wielkanoc, dlatego też Msza w Wigilię Zielonych Świątek ma wiele wspólnego z Mszą Wielkosobotnią. Poprzedza nią część\npokutna – czytanie 6 Proroctw i poświęcenie wody chrzcielnej. Stacja miała miejsce w Bazylice Św.\nJana na Lateranie. Kapłan i lewici są odziani w fioletowe ornaty. Przy czytaniu Proroctw świece\nna ołtarzu są zgaszone, zapala się je dopiero na początku Mszy, tak jak w Wielką Sobotę.",
+      "id": "tempora:Pasc6-6:1:r",
+      "rank": 1,
+      "supplements": [
+        {
+          "label": "Zesłanie Ducha św.",
+          "path": "/pl/supplement/10-zeslanie-ducha-sw"
+        }
+      ],
+      "tempora": null,
+      "title": "Wigilia Zesłania Ducha Świętego (pre 1955)"
+    },
+    "sections": [
+      {
+        "id": "Prophetia I",
+        "label": "Proroctwo I",
+        "body": [
+          [
+            "Pierwsze proroctwo to fragment Księgi Rodzaju. Ukazuje on heroiczną wiarę Abrahama, który wystawiony na bardzo ciężką próbę okazuje całkowite posłuszeń stwo Bogu. Mądrość Abrahama nie jest mądrością ludzką, opartą o wybór tego, co słuszne według rozumu, ale prawdziwą pochodzącą od Boga mądrością, która nakazuje zaufać Stwórcy ze względu na jego Boski Autorytet."
+          ],
+          [
+            "*Rdz 22:1-19*\nW one dni: Bóg wystawił Abrahama na próbę. Rzekł do niego: «Abrahamie!» A gdy on odpowiedział: «Oto jestem» – powiedział: «Weź twego syna jedynego, którego miłujesz, Izaaka, idź do kraju Moria i tam złóż go w ofierze na jednym z pagórków, jakie ci wskażę». Nazajutrz rano Abraham osiodłał swego osła, zabrał z sobą dwóch swych ludzi i syna Izaaka, narąbał drzewa do spalenia ofiary i ruszył w drogę do miejscowości, o której mu Bóg powiedział. Na trzeci dzień Abraham, spojrzawszy, dostrzegł z daleka ową miejscowość. I wtedy rzekł do swych sług: «Zostańcie tu z osłem, ja zaś i chłopiec pójdziemy tam, aby oddać pokłon Bogu, a potem wrócimy do was». Abraham, zabrawszy drwa do spalenia ofiary, włożył je na syna swego Izaaka, wziął do ręki ogień i nóż, po czym obaj się oddalili. Izaak odezwał się do swego ojca Abrahama: «Ojcze mój!» A gdy ten rzekł: «Oto jestem, mój synu» – zapytał: «Oto ogień i drwa, a gdzież jest jagnię na całopalenie?» Abraham odpowiedział: «Bóg upatrzy sobie jagnię na całopalenie, synu mój». I szli obydwaj dalej. A gdy przyszli na to miejsce, które Bóg wskazał, Abraham zbudował tam ołtarz, ułożył na nim drwa i związawszy syna swego Izaaka położył go na tych drwach na ołtarzu. Potem Abraham sięgnął ręką po nóż, aby zabić swego syna. Ale wtedy Anioł Pański zawołał na niego z nieba i rzekł: «Abrahamie, Abrahamie!» A on rzekł: «Oto jestem». Anioł powiedział mu: «Nie podnoś ręki na chłopca i nie czyń mu nic złego! Teraz poznałem, że boisz się Boga, bo nie odmówiłeś Mi nawet twego jedynego syna». Abraham, obejrzawszy się poza siebie, spostrzegł barana uwikłanego rogami w zaroślach. Poszedł więc, wziął barana i złożył w ofierze całopalnej zamiast swego syna. I dał Abraham miejscu temu nazwę „Pan widzi”. Stąd to mówi się dzisiaj: «Na wzgórzu Pan się ukazuje». Po czym Anioł Pański przemówił głośno z nieba do Abrahama po raz drugi: «Przysięgam na siebie, mówi Pan, że ponieważ uczyniłeś to, a nie oszczędziłeś syna twego jedynego, będę ci błogosławił i dam ci potomstwo tak liczne jak gwiazdy na niebie i jak ziarnka piasku na wybrzeżu morza; potomkowie twoi zdobędą warownie swych nieprzyjaciół. Wszystkie ludy ziemi będą sobie życzyć szczęścia takiego, jakie jest udziałem twego potomstwa, dlatego że usłuchałeś mego rozkazu». Abraham wrócił do swych sług i wyruszywszy razem z nimi w drogę, poszedł do Beer-Szeby. I mieszkał Abraham nadal w Beer-Szebie.",
+            "*Gen 22:1-19*\nIn diébus illis: Tentávit Deus Abraham, et dixit ad eum: Abraham, Abraham. At ille respóndit: Adsum. Ait illi: Tolle fílium tuum unigénitum, quem diligis, Isaac, et vade in terram visiónis: atque ibi ófferes eum in holocáustum super unum móntium, quem monstrávero tibi. Igitur Abraham de nocte consúrgens, stravit ásinum suum: ducens secum duos júvenes et Isaac, fílium suum. Cumque concidísset ligna in holocáustum, ábiit ad locum, quem præcéperat ei Deus. Die autem tértio, elevátis óculis, vidit locum procul: dixítque ad púeros suos: Exspectáte hic cum ásino: ego et puer illuc usque properántes, postquam adoravérimus, revertémur ad vos. Tulit quoque ligna holocáusti, et impósuit super Isaac, fílium suum: ipse vero portábat in mánibus ignem et gládium. Cumque duo pérgerent simul, dixit Isaac patri suo: Pater mi. At ille respóndit: Quid vis, fili? Ecce, inquit, ignis et ligna: ubi est víctima holocáusti? Dixit autem Abraham: Deus providébit sibi víctimam holocáusti, fili mi. Pergébant ergo páriter: et venérunt ad locum, quem osténderat ei Deus, in quo ædificávit altáre et désuper ligna compósuit: cumque alligásset Isaac, fílium suum, pósuit eum in altare super struem lignórum. Extendítque manum et arrípuit gládium, ut immoláret fílium suum. Et ecce, Angelus Dómini de cœlo clamávit, dicens: Abraham, Abraham. Qui respóndit: Adsum. Dixítque ei: Non exténdas manum tuam super púerum neque fácias illi quidquam: nunc cognóvi, quod times Deum, et non pepercísti unigénito fílio tuo propter me. Levávit Abraham óculos suos, vidítque post tergum aríetem inter vepres hæréntem córnibus, quem assúmens óbtulit holocáustum pro fílio. Appellavítque nomen loci illíus, Dóminus videt. Unde usque hódie dícitur: In monte Dóminus vidébit. Vocávit autem Angelus Dómini Abraham secúndo de cœlo, dicens: Per memetípsum jurávi, dicit Dóminus: quia fecísti hanc rem, et non pepercísti fílio tuo unigénito propter me: benedícam tibi, et multiplicábo semen tuum sicut stellas cœli et velut arénam, quæ est in lítore maris: possidébit semen tuum portas inimicórum suórum, et benedicéntur in sémine tuo omnes gentes terræ, quia obœdísti voci meæ. Revérsus est Abraham ad púeros suos, abierúntque Bersabée simul, et habitávit ibi."
+          ],
+          [
+            "Módlmy się.\nBoże, któryś w ofierze sługi swego, Abrahama, dał ludziom przykład posłuszeństwa, spraw, abyśmy przełamali złość naszej woli i we wszystkim wypełniali prawe przykazania Twoje.\nPrzez Pana…",
+            "Orémus.\nDeus, qui in Abrahae fámuli tui ópere, humáno géneri obediéntiae exémpla præbuísti: concéde nobis, et nostræ voluntátis pravitátem frángere, et tuórum præceptórum rectitúdinem in ómnibus adímplere.\nPer Dóminum…"
+          ]
+        ]
+      },
+      {
+        "id": "Prophetia II",
+        "label": "Proroctwo II",
+        "body": [
+          [
+            "Drugie proroctwo opisuje Przejście Izraelitów przez Morze Czerwone. Było ono warunkiem wyzwolenia Izraelitów z niewoli egipskiej i wprowadzenia do Ziemi Obiecanej. Jest to zapowiedż chrztu świętego, który wyzwala chrześcijan z jarzma szatana i wprowadza do Świętego Kościoła."
+          ],
+          [
+            "*Wj 14:24-31; 15,1a*\nW one dni: o świcie spojrzał Pan ze słupa ognia i ze słupa obłoku na wojsko egipskie i zmusił je do ucieczki. I zatrzymał koła ich rydwanów, tak że z wielką trudnością mogli się naprzód posuwać. Egipcjanie krzyknęli: «Uciekajmy przed Izraelem, bo w jego obronie Pan walczy z Egipcjanami». A Pan rzekł do Mojżesza: «Wyciągnij rękę nad morze, aby wody zalały Egipcjan, ich rydwany i jeźdźców». Wyciągnął Mojżesz rękę nad morze, które o brzasku dnia wróciło na swoje miejsce. Egipcjanie, uciekając, biegli naprzeciw falom, i pogrążył ich Pan w środku morza. Powracające fale zatopiły rydwany i jeźdźców całego wojska faraona, którzy weszli w morze, ścigając tamtych; nie ocalał z nich ani jeden. Izraelici zaś szli po suchym dnie morskim, mając mur wodny po prawej i po lewej stronie. W tym to dniu wybawił Pan Izraela z rąk Egipcjan. I widzieli Izraelici martwych Egipcjan na brzegu morza. Gdy Izraelici zobaczyli wielkie dzieło, którego dokonał Pan wobec Egipcjan, ulękli się Pana i uwierzyli Jemu oraz Jego słudze Mojżeszowi. Wtedy Mojżesz i Izraelici razem z nim zaśpiewali taką oto pieśń ku czci Pana:",
+            "*Exod 14:24-31; 15,1a*\nIn diébus illis: Factum est in vigília matutina, et ecce, respíciens Dóminus super castra Ægyptiórum per colúmnam ignis et nubis, interfécit exércitum eórum: et subvértit rotas cúrruum, ferebantúrque in profúndum. Dixérunt ergo Ægýptii: Fugiámus Israélem: Dóminus enim pugnat pro eis contra nos. Et ait Dóminus ad Móysen: Exténde manum tuam super mare, ut revertántur aquæ ad Ægýptios super currus et équites eórum. Cumque extendísset Moyses manum contra mare, revér- sum est primo dilúculo ad priórem locum: fugientibúsque Ægýptiis occurrérunt aquæ, et invólvit eos Dóminus in médiis flúctibus. Reversæque sunt aquæ, et operuérunt currus, et équites cuncti exércitus Pharaónis, qui sequéntes ingréssi fúerant mare: nec unus quidem supérfuit ex eis. Fílii autem Israël perrexérunt per médium sicci maris, et aquæ eis erant quasi pro muro a dextris et a sinístris: liberavítque Dóminus in die illa Israël de manu Ægyptiórum. Et vidérunt Ægýptios mórtuos super litus maris, et manum magnam, quam exercúerat Dóminus contra eos: timuítque pópu- lus Dóminum, et credidérunt Dómino et Moysi, servo ejus. Tunc cécinit Moyses et fílii Israël carmen hoc Dómino, et dixérunt:"
+          ],
+          [
+            "Traktus\n*Wj 15:1-2*\nŚpiewajmy Panu, bo bardzo się wsławił, konie i jeźdźców wtrącił w morze. Stał się wspomożycielem i obrońcą i wybawił mnie.\n℣. On Bogiem moim, więc chwalić Go będę, Bogiem ojca mego, więc będę Go sławić.\n℣. Pan wiedzie boje. PAN jest imię Jego.",
+            "Tractus\n*Exod 15:1-2*\nCantémus Dómino: glorióse enim honorificátus est: equum et ascensórem projécit in mare: adjútor et protéctor factus est mihi in salútem,\n℣. Hic Deus meus, et honorificábo eum: Deus patris mei, et exaltábo eum.\n℣. Dóminus cónterens bella: Dóminus nomen est illi."
+          ],
+          [
+            "Módlmy się.\nBoże, który światłem Nowego Testamentu wyjaśniłeś cuda czasów poprzednich, abyśmy w Morzu Czerwonym widzieli figurę świętej wody chrzcielnej, a w ludzie wyzwolonym z niewoli egipskiej figurę ludu chrześcijańskiego, przyjmującego święte Sakramenty, daj, niech wszystkie narody przez wiarę zasłużą na dostąpienie przywileju Izraela i przez udzielenie Ducha Świętego zostaną odrodzone.\nPrzez Pana… w jedności tegoż Ducha Świętego…",
+            "Orémus.\nDeus, qui primis tempóribus impléta mirácula novi Testaménti luce reserásti, ut et Mare Rubrum forma sacri fontis exsísteret, et liberáta plebs ab Ægyptíaca servitúte christiáni pópuli sacraménta præférret: da, ut omnes gentes, Israélis privilégium mérito fídei consecútæ, Spíritus tui participatióne regeneréntur.\nPer Dóminum… in unitáte ejusdem…"
+          ]
+        ]
+      },
+      {
+        "id": "Prophetia III",
+        "label": "Proroctwo III",
+        "body": [
+          [
+            "Trzecie proroctwo to pouczenie, jakie Mojżesz skierował do Izraelitów. Kościół kieruje je do wszystkich przygotowujących się do Chrztu świętego oraz do wszystkich ochrzczonych. Wzywaono lud, aby zachował wierność swojemu Bogu."
+          ],
+          [
+            "*Pwt 31:22-30*\nMojżesz napisał tę pieśń w owym dniu i nauczył jej Izraelitów. Pan dał taki rozkaz Jozuemu, synowi Nuna: «Bądź mężny i mocny, gdyż ty zaprowadzisz Izraelitów do ziemi, którą im poprzysiągłem, a Ja będę z tobą». Gdy Mojżesz zakończył całkowicie pisanie tego Prawa w księdze, rozkazał lewitom noszącym Arkę Przymierza Pańskiego: «Weźcie tę Księgę Prawa i połóżcie ją obok Arki Przymierza Pana, Boga waszego, a niech tam będzie przeciwko wam jako świadek. Ja bowiem znam wasz upór i twardy kark. Oto jak długo żyję z wami, opornie postępowaliście względem Pana. Cóż dopiero po mojej śmierci?»\n«Zbierzcie u mnie wszystkich starszych z waszych pokoleń i zwierzchników, abym powiedział do ich uszu te słowa i wezwał przeciw nim niebo i ziemię na świadków. Ponieważ wiem, że po mojej śmierci na pewno w przyszłości sprzeniewierzycie się i odstąpicie od drogi, którą wam przykazałem. Dosięgnie was nieszczęście, gdy czynić będziecie to, co jest złe w oczach Pana, gniewając Go czynami rąk waszych». Potem wygłosił Mojżesz do uszu całej społeczności Izraela wszystkie słowa tej pieśni:",
+            "*Deut 31:22-30*\nIn diébus illis: Scripsit Móyses canticum, et dócuit fílios Israël. Præcepítque Dóminus Josue, fílio Nun, et ait: Confortáre, et esto robústus: tu enim introdúces fílios Israël in terram, quam pollícitus sum, et ego ero tecum. Postquam ergo scripsit Móyses verba legis hujus in volúmine, atque complévit: præcépit Levítis, qui portábant arcam fœderis Dómini, dicens: Tóllite librum istum, et pónite eum in látere arcæ fœderis Dómini, Dei vestri: ut sit ibi contra te in testimónium. Ego enim scio contentiónem tuam et cérvicem tuam duríssimam. Adhuc vivénte me et ingrediénte vobíscum, semper contentióse egístis contra Dóminum: quanto magis, cum mórtuus fúero? Congregáte ad me omnes majóres natu per tribus vestras, atque doctóres, et loquar audiéntibus eis sermónes istos, et invocábo contra eos cœlum et terram. Novi enim, quod post mortem meam iníque agétis et declinábitis cito de via, quam præcépi vobis: et occúrrent vobis mala in extrémo témpore, quando fecéritis malum in conspéctu Dómini, ut irritétis eum per ópera mánuum vestrárum. Locútus est ergo Móyses, audiénte univérso cœtu Israël, verba cárminis hujus, et ad finem usque complévit."
+          ],
+          [
+            "Traktus\n*Pwt 32:1-4*\nSłuchajcie, niebiosa, a będę mówił, niech słucha ziemia mowy ust moich.\n℣. Niech spływa jak deszcz nauka moja i niech zstąpią jak rosa słowa moje.\n℣. Jak ulewa na trawę i jak krople dżdżu na zioła, gdyż imię Pańskie opiewać będę.\n℣. Oddajcie chwałę Bogu naszemu. Dzieła Boże są doskonałe, a wszystkie drogi Jego sprawiedliwe.\n℣. Bóg wierny i bez skazy, Pan sprawiedliwy i święty.",
+            "Tractus\n*Deut 32:1-4*\nAtténde, cœlum, et loquar: et áudiat terra verba ex ore meo.\n℣. Exspectétur sicut plúvia elóquium meum: et descéndant sicut ros verba mea.\n℣. Sicut imber super gramen et sicut nix super fænum: quia nomen Dómini invocábo,\n℣. Date magnitúdinem Deo nostro: Deus, vera ópera ejus, et omnes viæ ejus judícia,\n℣. Deus fidélis, in quo non est iníquitas: justus et sanctus Dóminus."
+          ],
+          [
+            "Módlmy się.\nBoże, chwało wiernych i życie sprawiedliwych, któryś przez sługę swojego, Mojżesza,\npouczył nas śpiewem świętego hymnu, dokonaj nad wszystkimi narodami dzieła Miłosierdzia swego, darząc szczęśliwością, oddalając trwogę, aby to, co było zapowiedzią kary, stało się lekarstwem na wieczność.\nPrzez Pana…",
+            "Orémus.\nDeus, glorificátio fidélium et vita justórum, qui\nper Móysen, fámulum tuum, nos quoque modulatióne sacri cárminis erudísti: univérsis géntibus misericórdiæ tuæ munus operáre, tribuéndo beatitúdinem, auferéndo terrórem; ut, quod pronuntiátum est ad supplícium, in remédium transferátur ætérnum.\nPer Dóminum…"
+          ]
+        ]
+      },
+      {
+        "id": "Prophetia IV",
+        "label": "Proroctwo IV",
+        "body": [
+          [
+            "Czwarte proroctwo Wigilii Pięć dziesiątnicy to fragment Księgi Proroka Izajasza. Ocalona z pogromu cząstka Izraela stała się wybraną winnicą Bożą. Przez cierpienia Bóg oczyścił winy narodu i otoczył go troskliwą opieką. Podobnie spośród ludzkości Pan Bóg wybiera członków swojego Kościoła, który jest dzisiaj wybraną winnicą Bożą."
+          ],
+          [
+            "*Iz 4:1-6*\nSiedem niewiast uchwyci się jednego mężczyzny w ów dzień, mówiąc: «Swój chleb będziemy jadły i we własną odzież się ubierały. Dozwól nam tylko nosić twoje imię. Odejmij nam hańbę». W owym dniu Odrośl Pana stanie się ozdobą i chwałą, a owoc ziemi przepychem i krasą dla ocalałych z Izraela. I będzie tak: Ten, kto pozostał żywy na Syjonie, i który się ostał w Jeruzalem, każdy będzie nazwany świętym i wpisany do Księgi Życia w Jeruzalem. Gdy Pan obmyje brud Córy Syjońskiej i krew rozlaną oczyści wewnątrz Jeruzalem tchnieniem sądu i tchnieniem pożogi, wtedy Pan przyjdzie spocząć na całej przestrzeni góry Syjonu i na tych, którzy się tam zgromadzą, we dnie jak obłok z dymu, w nocy jako olśniewający płomień ognia Albowiem nad wszystkim Chwała Pańska będzie osłoną i namiotem, by za dnia dać cień przed skwarem, ucieczkę zaś i schronienie przed nawałnicą i ulewą.",
+            "*Isa 4:1-6*\nApprehéndent septem mulíeres virum unum in die illa, dicéntes: Panem nostrum comedémus et vestiméntis nostris operiémur: tantúmmodo invocétur nomen tuum super nos, aufer oppróbrium nostrum. In die illa erit germen Dómini in magnificéntia et glória, et fructus terræ súblimis, et exsultátio his, qui salváti fúerint de Israël. Et erit: Omnis, qui relíctus fúerit in Sion et resíduus in Jerúsalem, sanctus vocábitur, omnis, qui scriptus est in vita in Jerúsalem. Si ablúerit Dóminus sordes filiárum Sion, et sánguinem Jerúsalem láverit de médio ejus, in spíritu judícii et spíritu ardóris. Et creábit Dóminus super omnem locum montis Sion, et ubi invocátus est, nubem per diem, et fumum et splendórem ignis flammántis in nocte: super omnem enim glóriam protéctio. Et tabernáculum erit in umbráculum diéi ab æstu, et in securitátem et absconsiónem a túrbine et a plúvia."
+          ],
+          [
+            "Traktus\n*Iz 5:1-2*\nWinnicę miał mój przyjaciel na urodzajnym wzgórzu.\n℣. I skopał ją, i oczyścił z kamieni, i zasadził w niej winorośl wyborną, i pośrodku wieżę zbudował. \n℣. I wykuł tam także tłocznię. Winnicą Pana Zastępów jest dom Izraela.",
+            "Tractus\n*Isa 5:1-2*\nVínea facta est dilécto in cornu, in loco úberi.\n℣. Et macériam circúmdedit, et circumfódit: et plantávit víneam Sorec, et ædificávit turrim in médio ejus.\n℣. Et tórcular fodit in ea: vínea enim Dómini Sábaoth domus Israël est."
+          ],
+          [
+            "Módlmy się.\nWszechmogący, wieczny Boże, który przez Jednorodzonego Syna Swego okazałeś się tym, który uprawia rolę Kościoła, gdyż z miłością pielęgnujesz wszelką gałązkę przynoszącą owoc w Chrystusie, który jest prawdziwą winną latoroślą, aby wydała owoc najobfitszy: spraw, niech ciernie grzechu nie wzrastają wśród Twych wiernych, których jak winnicę z Egiptu przeniosłeś przez wodę Chrztu, aby, umocnieni Duchem Uświęcicielem, obfitowali w dobra wieczne.\nPrzez Pana… w jedności tegoż Ducha Świętego…",
+            "Orémus.\nOmnípotens sempitérne Deus, qui, per únicum Fílium tuum, Ecclésiæ tuæ demonstrásti te esse cultórem, omnem pálmitem, fructum in eodem Christo tuo, qui vera vitis est, afferéntem, cleménter éxcolens, ut fructus áfferat amplióres: fidélibus tuis, quos velut víneam ex Ægýpto per fontem baptísmi transtulísti, nullæ peccatórum spinæ præváleant; ut, Spíritus tui sanctificatióne muníti, perpetua fruge diténtur.\nPer eúndem Dóminum… in unitáte ejusdem…"
+          ]
+        ]
+      },
+      {
+        "id": "Prophetia V",
+        "label": "Proroctwo V",
+        "body": [
+          [
+            "Piąte proroctwo to mowa Proroka Barucha do przerażonych Izraelitów. Prorok poucza ich, co powinni czynić , by żyć w Bożym pokoju. Kościół uczy nas, że również nasze dusze - dusze ochrzczonych będą się cieszyć posiadaniem nieustannego pokoju, o ile zastosują się do życiodajnych i pełnych mądrości nauk, których nam Bóg przez swój Święty Kościół udziela."
+          ],
+          [
+            "*Ba 3:9-38*\nBądź posłuszny, Izraelu, przykazaniom życiodajnym, nakłoń ucha, by poznać mądrość. Cóż się to stało, Izraelu, że jesteś w kraju nieprzyjaciół, wynędzniały w ziemi obcej, uważany za nieczystego na równi z umarłymi, zaliczony do tych, co schodzą do Szeolu? Opuściłeś źródło mądrości. Gdybyś chodził po drodze Bożej, mieszkałbyś w pokoju na wieki. Naucz się, gdzie jest mądrość, gdzie jest siła i rozum, a poznasz równocześnie, gdzie jest długie i szczęśliwe życie, gdzie jest światłość dla oczu i pokój. Lecz któż znalazł jej miejsce lub kto wszedł do jej skarbców? Gdzież są zwierzchnicy narodów i panujący nad zwierzętami ziemi, ci, co igrają z ptakami powietrznymi, ci, co gromadzą srebro i złoto, w których ludzie złożyli ufność, a nie ma końca nabywaniu tych rzeczy, którzy obrabiają srebro, trudzą się, tak że prawie nie kończy się ich praca? Zniknęli i do Szeolu zstąpili, a inni stanęli na ich miejsce. Młodsi ujrzeli światło i zamieszkali na ziemi, ale drogi mądrości nie pojęli, nie poznali jej ścieżek ani jej nie uchwycili, a synowie ich od drogi swej daleko odeszli. Nie słyszano o niej w Kanaanie ani w Temanie jej nie widziano. Synowie Hagar ubiegają się o mądrość tej ziemi, kupcy Merranu i Temanu, opowiadający baśnie i poszukiwacze wiedzy, drogi mądrości nie znają ani nie pamiętają o jej ścieżkach. O Izraelu, jakże wielki jest dom Boga, jakże obszerne miejsce posiadłości Jego! Wielki i nie mający końca, wysoki i niezmierzony. Tam urodzili się olbrzymi, sławni od początku, wielcy, biegli w walce. Ale nie tych wybrał Bóg ani im nie dał drogi do mądrości. Zginęli dlatego, że mądrości nie mieli, zginęli z powodu swej nierozwagi. Któż wstąpił do nieba, aby ją wziąć, któż ją z obłoków sprowadził? Któż przeprawił się przez morze, a znalazł ją i przywiózł ją w zamian za najlepsze złoto? Nie ma nikogo, kto by znał jej drogę i kto by rozpoznał jej ścieżkę. Lecz zna ją Wszechwiedzący i wynajdzie ją swoją mądrością. Ten, który na czas bezkresny urządził ziemię i napełnił ją stworzeniami czworonożnymi, wysłał światło i poszło, wezwał je, a ono posłuchało Go ze drżeniem. Gwiazdy radośnie świecą na swoich strażnicach. Wezwał je. Odpowiedziały: «Jesteśmy». Z radością świecą swemu Stwórcy. On jest Bogiem naszym. I żaden inny nie może z Nim się równać. Zbadał wszystkie drogi mądrości i dał ją słudze swemu, Jakubowi, i Izraelowi, umiłowanemu swojemu. Potem ukazała się ona na ziemi i zaczęła przebywać wśród ludzi.",
+            "*Bar 3:9-38*\nAudi, Israël, mandata vitæ: áuribus pércipe, ut scias prudéntiam. Quid est, Israël, quod in terra inimicórum es? Inveterásti in terra aliéna, coinquinátus es cum mórtuis: deputátus es cum descendéntibus in inférnum. Dereliquísti fontem sapiéntiæ. Nam si in via Dei ambulásses, habitásses útique in pace sempitérna. Disce, ubi sit prudéntia, ubi sit virtus, ubi sit intelléctus: ut scias simul, ubi sit longitúrnitas vitæ et victus, ubi sit lumen oculórum et pax. Quis invénit locum ejus? et quis intrávit in thesáuros ejus? Ubi sunt príncipes géntium, et qui dominántur super béstias, quæ sunt super terram? qui in ávibus cœli ludunt, qui argéntum thesaurízant et aurum, in quo confídunt hómines, et non est finis acquisitiónis eórum? Qui argéntum fábricant, et sollíciti sunt, nec est invéntio óperum illórum? Extermináti sunt, et ad ínferos descendérunt, et álii loco eórum surrexérunt. Júvenes vidérunt lumen, et habitavérunt super terram: viam autem disciplínæ ignoravérunt, neque intellexérunt sémitas ejus, neque fílii eórum suscepérunt eam, a fácie ipsórum longe facta est: non est audíta in terra Chánaan, neque visa est in Theman. Fílii quoque Agar, qui exquírunt prudéntiam, quæ de terra est, negotiatóres Merrhæ et Theman, et fabulatóres, et exquisitóres prudéntiæ et intellegéntias: viam autem sapiéntiæ nesciérunt, neque commemoráti sunt sémitas ejus. O Israël, quam magna est domus Dei et ingens locus possessiónis ejus! Magnus est et non habet finem: excélsus et imménsus. Ibi fuérunt gigántes nomináti illi, qui ab inítio fuérunt, statúra magna, sciéntes bellum. Non hos elegit Dóminus, neque viam disciplínæ invenérunt: proptérea periérunt. Et quóniam non habuérunt sapiéntiam, interiérunt propter suam insipiéntiam. Quis ascéndit in cœlum, et accépit eam et edúxit eam de núbibus? Quis transfretávit mare, et invénit illam? Et áttulit illam super aurum eléctum? Non est, qui possit scire vias ejus neque qui exquírat sémitas ejus: sed qui scit univérsa, novit eam et adinvénit eam prudéntia sua: qui præparávit terram in ætérno témpore, et replévit eam pecúdibus et quadrupédibus: qui emíttit lumen, et vadit: et vocávit illud, et obædit illi in tremore. Stellæ autem dedérunt lumen in custódiis suis, et lætátæ sunt: vocátæ sunt, et dixérunt: Adsumus: et luxérunt ei cum jucunditáte, qui fecit illas. Hic est Deus noster, et non æstimábitur álius advérsus eum. Hic adinvénit omnem viam disciplínæ, et trádidit illam Jacob púero suo et Israël dilécto suo. Post hæc in terris visus est, et cum homínibus conversátus est."
+          ],
+          [
+            "Módlmy się.\n Boże, któryś nam przez usta proroków nakazał opuszczać dobra ziemskie, a kwapić się ku wiecznym, daj sługom Twoim, abyśmy, znając Twe przykazania, wypełniali je z pomocą łaski Twojej świętej.\nPrzez Pana…",
+            "Orémus.\nDeus, qui nobis per Prophetárum ora præcepísti temporália relínquere atque ad ætérna festináre: da fámulis tuis; ut, quæ a te jussa cognóvimus, implére coelésti inspiratióne valeámus.\nPer Dóminum…"
+          ]
+        ]
+      },
+      {
+        "id": "Prophetia VI",
+        "label": "Proroctwo VI",
+        "body": [
+          [
+            "Szóste - ostatnie - proroctwo Wigilii Pięćdziesiątnicy opisuje ożywienie wysuszonych kości. Podobnie jak w widzeniu Ezechiela, na rozkaz proroka kości zeschłe przyoblekają się w ciało i stają się wojskiem potężnym, tak dusze nasze przez Chrzest święty otrzymują życie nowe."
+          ],
+          [
+            "*Ez 37:1-14*\nW one dni: Spoczęła na mnie ręka Pana, i wyprowadził mnie On w duchu na zewnątrz, i postawił mnie pośród doliny. Była ona pełna kości. I polecił mi, abym przeszedł dokoła nich, i oto było ich na obszarze doliny bardzo wiele. Były one zupełnie wyschłe. I rzekł do mnie: «Synu człowieczy, czy kości te powrócą znowu do życia?» Odpowiedziałem: «Panie Boże, Ty to wiesz». Wtedy rzekł On do mnie: «Prorokuj nad tymi kośćmi i mów do nich: „Wyschłe kości, słuchajcie słowa Pana: Tak mówi Pan Bóg: Oto Ja wam daję ducha po to, abyście się stały żywe. Chcę was otoczyć ścięgnami i sprawić, byście obrosły ciałem, i przybrać was w skórę, i dać wam ducha po to, abyście ożyły i poznały, że Ja jestem Panem”». I prorokowałem, jak mi było polecone, a gdym prorokował, oto powstał szum i trzask i kości jedna po drugiej zbliżały się do siebie. I patrzyłem, a oto powróciły ścięgna i wyrosło ciało, a skóra na nie się naciągnęła, ale jeszcze nie było w nich ducha. I powiedział do mnie: «Prorokuj do ducha, prorokuj, o synu człowieczy, i mów do ducha: Tak powiada Pan Bóg: „Z czterech wiatrów przybądź duchu i powiej po tych pobitych, aby ożyli”». Wtedy prorokowałem tak, jak mi nakazał, i duch wstąpił w nich, a ożyli i stanęli na nogach – wojsko bardzo wielkie. I rzekł do mnie: «Synu człowieczy, kości te to cały dom Izraela. Oto mówią oni: „Wyschły kości nasze, minęła nadzieja nasza, już po nas”. Dlatego prorokuj i mów do nich: Tak mówi Pan Bóg: „Oto otwieram wasze groby i wydobywam was z grobów, ludu mój, i wiodę was do kraju Izraela, i poznacie, że Ja jestem Panem, gdy wasze groby otworzę i z grobów was wydobędę, ludu mój. Udzielę wam mego ducha po to, byście ożyli, i powiodę was do kraju waszego, i poznacie, że Ja, Pan, to powiedziałem i wykonam”, mówi Pan Bóg».",
+            "*Ez 37:1-14*\nIn diébus illis: Facta est super me manus Dómini, et edúxit me in spíritu Dómini: et dimísit me in médio campi, qui erat plenus óssibus: et circumdúxit me per ea in gyro: erant autem multa valde super fáciem campi síccaque veheménter. Et dixit ad me: Fili hóminis, putásne vivent ossa ista? Et dixi: Dómine Deus, tu nosti. Et dixit ad me: Vaticináre de óssibus istis: et dices eis: Ossa árida, audíte verbum Dómini. Hæc dicit Dóminus Deus óssibus his: Ecce, ego intromíttam in vos spíritum, et vivétis. Et dabo super vos nervos, et succréscere fáciam super vos carnes, et superexténdam in vobis cutem: et dabo vobis spíritum, et vivétis, et sciétis, quia ego Dóminus. Et prophetávi, sicut præcéperat mihi: factus est autem sónitus prophetánte me, et ecce commótio: et accessérunt ossa ad ossa, unumquódque ad junctúram suam. Et vidi, et ecce, super ea nervi et carnes ascendérunt: et exténta est in eis cutis désuper, et spíritum non habébant. Et dixit ad me: Vaticináre ad spíritum, vaticináre, fili hóminis, et dices ad spíritum: Hæc dicit Dóminus Deus: A quátuor ventis veni, spíritus, et insúffla super interféctos istos, et revivíscant. Et prophetávi, sicut præcéperat mihi: et ingréssus est in ea spíritus, et vixérunt: steterúntque super pedes suos exércitus grandis nimis valde. Et dixit ad me: Fili hóminis, ossa hæc univérsa, domus Israël est: ipsi dicunt: Aruérunt ossa nostra, et périit spes nostra, et abscíssi sumus. Proptérea vaticináre, et dices ad eos: Hæc dicit Dóminus Deus: Ecce, ego apériam túmulos vestros, et edúcam vos de sepúlcris vestris, pópulus meus: et indúcam vos in terram Israël. Et sciétis, quia ego Dóminus, cum aperúero sepúlcra vestra et edúxero vos de túmulis vestris, pópule meus: et dédero spíritum meum in vobis, et vixéritis, et requiéscere vos fáciam super humum vestram: dicit Dóminus omnípotens."
+          ],
+          [
+            "Módlmy się.\nPanie Boże Zastępów, który to, co było upadłe, naprawiasz, a naprawione zachowujesz, pomnóż ludy odrodzone wyznawaniem Imienia Twego, aby wszyscy, których obmyła woda Chrztu świętego, kierowali się zawsze Twym natchnieniem.\nPrzez Pana…",
+            "Orémus.\nDómine, Deus virtútum, qui collápsa réparas et reparáta consérvas: auge pópulos in tui nóminis sanctificatióne renovándos; ut omnes, qui sacro baptísmate diluúntur, tua semper inspiratióne dirigántur.\nPer Dóminum…"
+          ]
+        ]
+      },
+      {
+        "id": "De Processione",
+        "label": "Procesja",
+        "body": [
+          [
+            "Kapłan przebiera się w fioletową kapę. Formuje się procesja, która, przy śpiewie Sicut cervus, wyrusza do chrzcielnicy."
+          ],
+          [
+            "Traktus\n*Ps 41:2-4*\nJak łania pragnie wody ze strumieni, tak dusza moja pragnie Ciebie, Boże!\n℣. Dusza moja pragnie Boga, Boga żywego: kiedyż więc przyjdę i ujrzę oblicze Boże?\n℣. Łzy stały się dla mnie chlebem we dnie i w nocy, gdy mówią mi co dzień: «Gdzie jest twój Bóg?»",
+            "Tractus\n*Ps 41: 2-4*\nSicut cervus desíderat ad fontes aquárum: ita desíderat ánima mea ad te, Deus. \n℣. Sitívit ánima mea ad Deum vivum: quando véniam, et apparébo ante fáciem Dei?\n℣. Fuérunt mihi lácrimæ meæ panes die ac nocte, dum dícitur mihi per síngulos dies: Ubi est Deus tuus?"
+          ]
+        ]
+      },
+      {
+        "id": "",
+        "label": "Poświęcenie Wody Chrzcielnej",
+        "body": [
+          [
+            "℣. Pan z wami.\n℟. I z duchem twoim.\nMódlmy się. Daj, prosimy Cię, wszechmogący Boże, abyśmy obchodząc uroczystość Zesłania Ducha Świętego, niebieską żądzą zapaleni, pragnęli zdroju żywota.\nPrzez Pana… w jedności tegoż Ducha Świętego…\n℟. Amen.",
+            "℣. Dóminus vobíscum.\n℟. Et cum spíritu tuo.\nOrémus. Concéde, quǽsumus, omnípotens Deus: ut, qui solemnitatem doni Sancti Spíritus cólimus, coeléstibus desidériis accénsi, fontem vitæ sitiámus.\nPer Dóminum… in unitáte ejúsdem…\n℟. Amen."
+          ],
+          [
+            "℣. Pan z wami.\n℟. I z duchem twoim.\nMódlmy się. Wszechmogący, wiekuisty Boże, bądź obecny w tych tajemnicach Twej wielkiej dobroci, bądź obecny w sakramentach i ześlij ducha przybrania, aby dać nowe życie ludowi, który rodzi się w źródle chrzcielnym. Spraw, aby poświęcenie, które ma się dokonać przez naszą niegodną posługę, otrzymało skuteczność dzięki Twojej mocy.\nPrzez Pana…\n℟. Amen.",
+            "℣. Dóminus vobíscum.\n℟. Et cum spíritu tuo.\nOrémus. Omnípotens sempitérne Deus, adésto magnæ pietátis tuæ mystériis, adésto sacraméntis: et ad recreándos novos pópulos, quos tibi fons baptismátis párturit, spíritum adoptiónis emítte; ut, quod nostræ humilitátis geréndum est ministério, virtútis tuæ impleátur efféctu.\nPer Dóminum…\n℟. Amen."
+          ],
+          [
+            "℣. Pan z wami.\n ℟. I z duchem twoim.\n ℣. W górę serca.\n ℟. Wznosimy je do Pana.\n ℣. Dzięki składajmy Panu Bogu naszemu.\n ℟. Godne to i sprawiedliwe.",
+            "℣. Dóminus vobíscum.\n ℟. Et cum spíritu tuo.\n ℣. Sursum corda.\n ℟. Habémus ad Dóminum.\n ℣. Grátias agámus Dómino Deo nostro.\n ℟. Dignum et iustum est."
+          ],
+          [
+            "Zaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący wieczny Boże! Twoja niewidzialna moc nadaje sakramentom cudowną skuteczność i chociaż jesteśmy niegodni sprawować tak wielkie tajemnice, Ty nie zapominasz o darach Twej łaski i skłaniasz miłościwie ucho nawet ku naszym prośbom. Duch Twój, o Boże, unosił się nad wodami w samym zaraniu świata, aby już wtedy żywioł wody otrzymał zaczątek mocy uświęcania. Boże, Ty obmywając wodą zbrodnie występnego świata, potop uczyniłeś obrazem mającego nadejść odrodzenia przez Chrzest, ten sam bowiem żywioł wody w tajemniczy sposób kładzie kres występkom i stanowi początek cnót. Wejrzyj, Panie, na oblicze Kościoła Twojego i pomnóż w nim zastęp Twych dzieci. Ty rozweselasz królestwo Twoje obfitym strumieniem Swoich łask i otwierasz źródło chrzcielna do odrodzenia ludów pogańskich na całej kuli ziemskiej. Niech z woli Twego majestatu woda ta otrzyma łaskę Twego Jednorodzonego Syna z Ducha Świętego.",
+            "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere, Dómine sancte, Pater omnípotens, ætérne Deus: Qui invisíbili poténtia sacramentórum tuórum mirabíliter operáris efféctum: Et licet nos tantis mystériis exsequéndis simus indígni: Tu tamen grátiæ tuæ dona non déserens, etiam ad nostras preces aures tuæ pietátis inclínas. Deus, cujus Spíritus super aquas inter ipsa mundi primórdia ferebátur: ut jam tunc virtútem sanctificatiónis aquárum natúra concíperet. Deus, qui, nocéntis mundi crímina per aquas ábluens, regeneratiónis spéciem in ipsa dilúvii effusióne signásti: ut, uníus ejusdémque eleménti mystério, et finis esset vítiis et orígo virtútibus. Réspice, Dómine, in fáciem Ecclésiæ tuæ, et multíplica in ea regeneratiónes tuas, qui grátiæ tuæ affluéntis ímpetu lætíficas civitátem tuam: fontémque baptísmatis áperis toto orbe terrárum géntibus innovándis: ut, tuæ majestátis império, sumat Unigéniti tui grátiam deSpíritu Sancto."
+          ],
+          [
+            "Kapłan czyni na wodzie znak krzyża."
+          ],
+          [
+            "Niech Duch Święty przez tajemnicze działanie swej mocy uczyni płodną tę wodę przygotowaną do odrodzenia ludzi, aby z czystego łona tego Bożego źródła wynurzyło się niebiańskie pokolenie poczęte w świętości i zrodzone do nowego życia. Niech łaska jak matka zrodzi ich do jednego dziecięctwa, mimo różnic płci i wieku. Niech więc, o Panie, na Twój rozkaz precz stąd uchodzi wszelki duch nieczysty, niech precz odstąpi cała przewrotność zdradzieckiego szatana. Niech nie znajdzie tu przystępu wpływ wrażej mocy, niech nie krąży ona gotując zasadzki, niech się nie wkrada po kryjomu, niech się nie waży psuć i zarażać.",
+            "Qui hanc aquam, regenerándis homínibus præparátam, arcána sui núminis admixtióne fecúndet: ut, sanctificatióne concépta, ab immaculáto divíni fontis útero, in novam renáta creatúram, progénies cœléstis emérgat: Et quos aut sexus in córpore aut ætas discérnit in témpore, omnes in unam páriat grátia mater infántiam. Procul ergo hinc, jubénte te, Dómine, omnis spíritus immundus abscédat: procul tota nequítia diabólicæ fraudis absístat. Nihil hic loci hábeat contráriæ virtútis admíxtio: non insidiándo circúmvolet: non laténdo subrépat: non inficiéndo corrúmpat."
+          ],
+          [
+            "Kapłan dotyka wody ręką."
+          ],
+          [
+            "Niech to święte i niewinne stworzenie będzie wolne od wszelkiej napaści przeciwnika i oczyszczone przez usunięcie wszelkiej nieprawości. Niech będzie źródłem życia, wodą odradzającą, falą oczyszczającą, aby wszyscy, którzy zostaną obmyci w tej zbawiennej kąpieli, otrzymali łaskę doskonałego oczyszczenia za sprawą Ducha Świętego.",
+            "Sit hæc sancta et ínnocens creatúra libera ab omni impugnatóris incúrsu, et totíus nequítiæ purgáta discéssu. Sit fons vivus, aqua regénerans, unda puríficans: ut omnes hoc lavácro salutífero diluéndi, operánte in eis Spíritu Sancto, perféctæ purgatiónis indulgéntiam consequántur."
+          ],
+          [
+            "Tutaj czyni trzy znaki krzyża nad wodą, mówiąc:"
+          ],
+          [
+            "Przeto błogosławię cię, wodo, w imię Boga ☩ żywego, w imię Boga ☩ prawdziwego, w imię Boga ☩ świętego, w imię Boga, który na początku słowem oddzielił cię od suchej ziem, którego Duch unosił się nad tobą.",
+            "Unde benedíco te, creatúra aquæ, per Deum ☩ vivum, per Deum ☩ verum, per Deum ☩ sanctum: per Deum, qui te in princípio verbo separávit ab árida: cujus Spíritus super te ferebátur."
+          ],
+          [
+            "Rozdziela wodę ręką i wylewa ją na cztery strony świata."
+          ],
+          [
+            "On to sprawił, żeś wytrysnęła z rajskiego źródła i czterema strumieniami zrosiła całą ziemię; On to na puszczy, gdyś była gorzką, przemienił cię w słodką i zdatną do picia oraz wyprowadził cię ze skały dla napojenia spragnionego ludu. Błogo ☩ sławię cię w imię Jezusa Chrystusa, Jego Jedynego Syna a Pana naszego, który w Kanie Galilejskiej przemienił cię w wino przedziwnym cudem swej potęgi. On to własnymi stopami chodził po tobie i w twoich falach został ochrzczony przez Jana w Jordanie. On cię wytoczył ze Swego boku razem z krwią, uczniom swoim kazał tobą chrzcić wierzących, mówiąc : «Idźcie i nauczajcie wszystkie narody, chrzcząc je w imię Ojca i Syna, i Ducha Świętego.",
+            "Qui te de paradisi fonte manáre fecit, et in quátuor flumínibus totam terram rigáre præcépit. Qui te in desérto amáram, suavitáte indita, fecit esse potábilem, et sitiénti pópulo de petra prodúxit. Be ☩ nedíco te et per Jesum Christum, Fílium ejus únicum, Dominum nostrum: qui te in Cana Galilæ signo admirábili sua poténtia convértit in vinum. Qui pédibus super te ambulávit: et a Joánne in Jordáne in te baptizátus est. Qui te una cum sánguine de látere suo prodúxit: et discípulis suis jussit, ut credéntes baptizaréntur in te, dicens: Ite, docéte omnes gentes, baptizántes eos in nómine Patris, et Fílii, et Spíritus Sancti."
+          ],
+          [
+            "Kapłan zmienia ton i mówi czytając:"
+          ],
+          [
+            "Gdy będziemy spełniać to przykazanie, Ty, Boże wszechmogący, przybądź nam łaskawie z pomocą i w dobroci Twojej ześlij tchnienie Twego Ducha.",
+            "Hæc nobis præcépta servantibus, tu, Deus omnípotens, clemens adésto: tu benignus aspíra."
+          ],
+          [
+            "Dmucha trzy razy na wodę w formie krzyża."
+          ],
+          [
+            "Pobłogosław tę czystą wodę tchnieniem Twoich ust, aby oprócz naturalnej właściwości oczyszczania ciał tych, którzy się nią myją, otrzymała moc oczyszczania dusz.",
+            "Tu has simplices aquas tuo ore benedicito: ut præter naturálem emundatiónem, quam lavándis possunt adhibere corpóribus, sint etiam purificándis méntibus efficáces."
+          ],
+          [
+            "Zanurza paschał trzy razy w wodzie, za każdym razem śpiewając:"
+          ],
+          [
+            "Niech moc Ducha Świętego zstąpi w wodę wypełniającą to źródło chrzcielne.",
+            "Descéndat in hanc plenitúdinem fontis virtus Spíritus Sancti."
+          ],
+          [
+            "Dmucha trzy razy na wodę w formie greckiej litery Ψ, od której zaczyna się wyraz Ψυχή – Psyché, czyli Dusza."
+          ],
+          [
+            "Niech zapłodni całą tę wodę dając jej moc odradzania.",
+            "Totamque hujus aquæ substántiam regenerándi fecúndet efféctu."
+          ],
+          [
+            "Wyjmuje paschał z wody."
+          ],
+          [
+            "Niech tutaj zostaną obmyte zmazy grzechów. Niech tutaj natura stworzona na Twój obraz i przywrócona do pierwotnej godności zostanie oczyszczona od wszelkich zastarzałych brudów, aby każdy człowiek, który przystąpi do tego sakramentu odrodzenia, odżył jako nowe dziecko w prawdziwej niewinności.",
+            "Hic ómnium peccatórum máculæ deleántur: hic natúra ad imáginem tuam cóndita, et ad honórem sua reformáta princípii, cunctis vetustátis squalóribus emundétur: ut omnis homo, sacraméntum hoc regeneratiónis ingréssus, in veræ innocéntiæ novam infánti am renascátur."
+          ],
+          [
+            "Kończy modlitwę czytając:"
+          ],
+          [
+            "Przez Pana naszego Jezusa Chrystusa, Syna Twego, który przyjdzie sądzić żywych i umarłych i świat przez ogień.\n℟. Amen.",
+            "Per Dominum nostrum Jesum Christum, Fílium tuum: Qui ventúrus est judicáre vivos et mórtuos, et sæculum per ignem. \n℟. Amen."
+          ],
+          [
+            "Ministrant nabiera wody chrzcielnej do naczynia. Kapłan kropi tą wodą wszystkich zgromadzonych. Potem wlewa do wody Olej Katechumenów czyniąc nim znak krzyża i mówiąc głośno:"
+          ],
+          [
+            "Niech Olej zbawienia uświęci tę wodę ☩ i da jej moc odradzania na życie wieczne.\n℟. Amen.",
+            "Sanctificétur ☩ et fecundétur fons iste Oleo salútis renascéntibus ex eo, in vitam ætérnam.\n℟. Amen."
+          ],
+          [
+            "Wlewa Krzyżmo Święte w taki sam sposób, mówiąc:"
+          ],
+          [
+            "Wlanie Krzyżma Pana naszego Jezusa Chrystusa i Ducha Świętego Pocieszyciela niech się dokona w imię Trójcy Świętej.\n℟. Amen.",
+            "Infúsio Chrísmatis Dómini nostri Jesu Christi, et Spíritus Sancti Parácliti, fiat in nómine sanctæ Trinitátis.\n℟. Amen."
+          ],
+          [
+            "Bierze ampułki z Krzyżmem oraz Olejem Katechumenów i wlewa je jednocześnie, czyniąc nimi znak krzyża i mówiąc:"
+          ],
+          [
+            "Zmieszanie Krzyżma uświęcającego, Oleju namaszczenia i wody chrzcielnej niechaj się dokona w imię Oj ☩ ca, i Sy ☩ na, i Ducha ☩ Świętego.\n℟. Amen.",
+            "Commíxtio Chrísmatis sanctificatiónis, et Olei unctiónis, et Aquæ baptísmatis, páriter fiat in nómine Pa ☩ tris, et Fí ☩ lii, et Spíritus ☩ Sancti.\n. Amen."
+          ],
+          [
+            "Kapłan miesza ręką oleje z wodą i rozprowadza je po całej powierzchni wody. Gdy asysta wraca do prezbiterium, chór zaczyna śpiewać Litanię do Wszystkich Świętych, podwajając każde wezwanie. Lewici zdejmują kapę oraz ornaty i padają na twarz przed ołtarzem. Na wezwanie Peccatores wracają do zakrystii, gdzie przebierają się w czerwone szaty mszalne."
+          ],
+          [
+            "℣. Kyrie, eleison.\n℟. Kyrie, eleison.\n℣. Christe, eleison.\n℟. Christe, eleison.\n℣. Kyrie, eleison.\n℟. Kyrie, eleison.\n℣. Ojcze z nieba, Boże. ℟. Zmiłuj się nad nami.\n℣. Synu, Odkupicielu świata, Boże. ℟. Zmiłuj się nad nami.\n℣. Duchu Święty, Boże. ℟. Zmiłuj się nad nami.\n℣. Święta Trójco, jedyny Boże. ℟. Zmiłuj się nad nami.\n℣. Święta Maryjo. ℟. Módl się za nami.\n℣. Święta Boża Rodzicielko. ℟. Módl się za nami.\n℣. Święta Panno nad pannami. ℟. Módl się za nami.\n",
+            "℣. Kýrie eléison.\n℟. Kýrie eléison.\n℣. Christe eléison.\n℟. Christe eléison.\n℣. Kýrie eléison.\n℟. Kýrie eléison.\n℣. Pater de cǽ lis, Deus. ℟. Miserére nobis.\n℣. Fili Redémptor mundi, Deus. ℟. Miserére nobis.\n℣. Spíritus Sancte, Deus. ℟. Miserére nobis.\n℣. Sancta Trínitas, unus Deus. ℟. Miserére nobis.\n℣. Sancta María. ℟. Ora pro nobis.\n℣. Sancta Dei Génetrix. ℟. Ora pro nobis.\n℣. Sancta Virgo vírginum. ℟. Ora pro nobis.\n"
+          ],
+          [
+            "℣. Święty Michale. ℟. Módl się za nami.\n℣. Święty Gabrielu. ℟. Módl się za nami.\n℣. Święty Rafale. ℟. Módl się za nami.\n℣. Wszyscy święci Aniołowie i Archaniołowie. ℟. Módlcie się za nami.\n℣. Wszystkie święte niebieskie Duchy. ℟. Módlcie się za nami.\n℣. Święty Janie Chrzcicielu. ℟. Módl się za nami.\n℣. Święty Józefie. ℟. Módl się za nami.\n℣. Wszyscy święci Patriarchowie i Prorocy. ℟. Módlcie się za nami.\n℣. Święty Piotrze. ℟. Módl się za nami.\n℣. Święty Pawle. ℟. Módl się za nami.\n℣. Święty Andrzeju. ℟. Módl się za nami.\n℣. Święty Janie. ℟. Módl się za nami.\n℣. Wszyscy święci Apostołowie i Ewangeliści. ℟. Módlcie się za nami.\n℣. Wszyscy święci Uczniowie Pańscy. ℟. Módlcie się za nami.\n℣. Święty Szczepanie. ℟. Módl się ...\n℣. Święty Wawrzyńcze. ℟. Módl się ...\n℣. Święty Wincenty. ℟. Módl się za nami.\n℣. Wszyscy święci Męczennicy. ℟. Módlcie się...\n℣. Święty Sylwestrze. ℟. Módl się ...\n℣. Święty Grzegorzu. ℟. Módl się za nami.\n℣. Święty Augustynie. ℟. Módl się ...\n℣. Wszyscy święci Biskupi i Wyznawcy. ℟. Módlcie się za nami\n℣. Wszyscy święci Doktorowie. ℟. Módlcie się za nami.\n℣. Święty Antoni. ℟. Módl się za nami.\n℣. Święty Benedykcie. ℟. Módl się za nami.\n℣. Święty Dominiku. ℟. Módl się za nami.\n℣. Święty Franciszku. ℟. Módl się za nami.\n℣. Wszyscy święci Kapłani i Lewici. ℟. Módlcie się za nami.\n℣. Wszyscy święci Zakonnicy i Pustelnicy. ℟. Módlcie się za nami.\n℣. Święta Mario Magdaleno. ℟. Módl się za nami.\n℣. Święta Agnieszko. ℟. Módl się za nami.\n℣. Święta Cecylio. ℟. Módl się za nami.\n℣. Święta Agato. ℟. Módl się za nami.\n℣. Święta Anastazjo. ℟. Módl się za nami.\n℣. Wszystkie święte Dziewice i Wdowy. ℟. Módlcie się za nami.\n℣. Wszyscy Święci i Święte Boże. ℟. Przyczyń cie się za nami.\n",
+            "℣. Sancte Míchaël. ℟. Ora pro nobis.\n℣. Sancte Gábriel. ℟. Ora pro nobis.\n℣. Sancte Ráphaël. ℟. Ora pro nobis.\n℣. Omnes sancti Angeli et Archángeli. ℟. Oráte pro nobis.\n℣. Omnes sancti beatórum Spirítuum órdines. ℟. Oráte pro nobis.\n℣. Sancte Ioánnes Baptísta. ℟. Ora pro nobis.\n℣. Sancte Ioseph. ℟. Ora pro nobis.\n℣. Omnes sancte Patriárchæ et Prophétæ. ℟. Oráte pro nobis.\n℣. Sancte Petre. ℟. Ora pro nobis.\n℣. Sancte Paule. ℟. Ora pro nobis.\n℣. Sancte Andréa. ℟. Ora pro nobis.\n℣. Sancte Ioánnes. ℟. Ora pro nobis.\n℣. Omnes sancti Apóstoli et Evangelístæ. ℟. Oráte pro nobis.\n℣. Omnes sancti Discípuli Dómini. ℟. Oráte pro nobis.\n℣. Sancte Stéphane. ℟. Ora pro nobis.\n℣. Sancte Laurénti. ℟. Ora pro nobis.\n℣. Sancte Vincénti. ℟. Ora pro nobis.\n℣. Omnes sancti Mártyres. ℟. Oráte pro nobis.\n℣. Sancte Silvéste℟. ℟. Ora pro nobis.\n℣. Sancte Gregóri. ℟. Ora pro nobis.\n℣. Sancte Augustíne. ℟. Ora pro nobis.\n℣. Omnes sancti Pontífices et Confessóres. ℟. Oráte pro nobis.\n℣. Omnes sancti Doctóres. ℟. Oráte pro nobis.\n℣. Sancte Antóni. ℟. Ora pro nobis.\n℣. Sancte Benedícte. ℟. Ora pro nobis.\n℣. Sancte Domínice. ℟. Ora pro nobis.\n℣. Sancte Francísce. ℟. Ora pro nobis.\n℣. Omnes sancti Sacerdótes et Levítæ. ℟. Oráte pro nobis.\n℣. Omnes sancti Mónachi et Eremítæ. ℟. Oráte pro nobis.\n℣. Sancta María Magdaléna. ℟. Ora pro nobis.\n℣. Sancta Agnes. ℟. Ora pro nobis.\n℣. Sancta Cæcília. ℟. Ora pro nobis.\n℣. Sancta Agatha. ℟. Ora pro nobis.\n℣. Sancta Anastásia. ℟. Ora pro nobis.\n℣. Omnes sanctæ Vírgines et Víduæ. ℟. Oráte pro nobis.\n℣. Omnes Sancti et Sanctæ Dei. ℟. Intercédite pro nobis.\n"
+          ],
+          [
+            "℣. Bądż nam miłościw. ℟. Przepuść nam, Panie.\n℣. Bądż nam miłościw. ℟. Wysłuchaj nas, Panie.\n℣. Od zła wszelkiego. ℟. Wybaw nas, Panie.\n℣. Od grzechu każdego. ℟. Wybaw nas, Panie.\n℣. Od śmierci wiecznej. ℟. Wybaw nas, Panie.\n℣. Przez tajemnicę świętego Wcielenia Twego. ℟. Wybaw nas, Panie.\n℣. Przez przyjście Twoje. ℟. Wybaw nas, Panie.\n℣. Przez narodzenie Twoje. ℟. Wybaw nas, Panie.\n℣. Przez Chrzest i święty Post Twój. ℟. Wybaw nas, Panie.\n℣. Przez Krzyż i Mękę Twoją. ℟. Wybaw nas, Panie.\n℣. Przez Śmierć i Pogrzeb Twój. ℟. Wybaw nas, Panie.\n℣. Przez święte Zmartwychwstanie Twoje. ℟. Wybaw nas, Panie.\n℣. Przez cudowne Wniebowstąpienie Twoje. ℟. Wybaw nas, Panie.\n℣. Przez Przyjście Ducha Świętego Pocieszyciela. ℟. Wybaw nas, Panie.\n℣. W dzień sądu. ℟. Wybaw nas, Panie.\n",
+            "℣. Propítius esto. ℟. Parce nobis, Dómine.\n℣. Propítius esto. ℟. Exaudi nos, Dómine.\n℣. Ab omni malo. ℟. Líbera nos, Dómine.\n℣. Ab omni peccáto. ℟. Líbera nos, Dómine.\n℣. A morte perpétua. ℟. Líbera nos, Dómine.\n℣. Per mystérium sanctæ Incarnatiónis tuæ. ℟. Líbera nos, Dómine.\n℣. Per advéntum tuum. ℟. Líbera nos, Dómine.\n℣. Per nativitátem tuum. ℟. Líbera nos, Dómine.\n℣. Per baptísmum et sanctum ieiúnium tuum. ℟. Líbera nos, Dómine.\n℣. Per crucem et passiónem tuam. ℟. Líbera nos, Dómine.\n℣. Per mortem et sepultúram tuam. ℟. Líbera nos, Dómine.\n℣. Per sanctam resurrectiónem tuam. ℟. Líbera nos, Dómine.\n℣. Per admirábilem ascensiónem tuam. ℟. Líbera nos, Dómine.\n℣. Per advéntum Spíritus Sancti Parácliti. ℟. Líbera nos, Dómine.\n℣. In die iudícii. ℟. Líbera nos, Dómine.\n"
+          ],
+          [
+            "℣. My grzeszni. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś nam grzechy odpuścić raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś Kościołem Swym świętym rządził i zachować go raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś Namiestnika Apostolskiego i wszystkie duchowne stany w świętej pobożności zachować raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś nieprzyjaciół Kościoła świętego upokorzyć raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś panującym i rządom chrześ cijańskim pokój i zgodę prawdziwą dać raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś nas samych w służbie Swej świętej utwierdzić i zachować raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś wszystkim dobrodziejom naszym uczynność ich wiekuistą zapłatą nagrodzić raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś urodzaje ziemskie dać i zachować raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś wszystkim wiernym zmarłym wieczny odpoczynek dać raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Abyś nas wysłuchać raczył. ℟. Ciebie prosimy, wysłuchaj nas, Panie.\n℣. Baranku Boży, który gładzisz grzechy świata. ℟. Przepuść nam, Panie.\n℣. Baranku Boży, który gładzisz grzechy świata. ℟. Wysłuchaj nas, Panie.\n℣. Baranku Boży, który gładzisz grzechy świata. ℟. Zmiłuj się nad nami.\n",
+            "℣. Peccatóres. ℟. Te rogámus, audi nos.\n℣. Ut nobis parcas. ℟. Te rogámus, audi nos.\n℣. Ut Ecclésiam tuam sanctam régere et conserváre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut domnum apostólicum et omnes ecclesiásticos órdines in sancta religióne conserváre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut inimícos sanctæ Ecclésiæ humiliáre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut régibus et princípibus christiánis, pacem et veram concórdiam donáre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut nosmetípsos in tuo sancto servítio confortáre et conserváre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut ómnibus benefactóribus nostris sempitérna bona retríbuas. ℟. Te rogámus, audi nos\n℣. Ut fructus terræ dare et conserváre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris. ℟. Te rogámus, audi nos.\n℣. Ut nos exaudíre dignéris. ℟. Te rogámus, audi nos.\n℣. Agnus Dei, qui tollis peccáta mundi. ℟. Parce nobis, Dómine.\n℣. Agnus Dei, qui tollis peccáta mundi. ℟. Exaudi nos, Dómine.\n℣. Agnus Dei, qui tollis peccáta mundi. ℟. Miserére nobis.\n"
+          ]
+        ]
+      },
+      {
+        "id": "",
+        "label": "Msza Święta",
+        "body": [
+          [
+            "Bezpośrednio po Litanii, chór zaczyna śpiewać uroczyste mszalne Kyrie. Msza rozpoczyna się, jak zwykle, modlitwami u stopni ołtarza. Nie ma introitu. Na hymn Gloria in Excelsis Deo rozbrzmiewają organy i kościelne dzwony, podobnie jak w Wielki Czwartek i Wielką Sobotę."
+          ]
+        ]
+      },
+      {
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": [
+          [
+            "Wszechmogący Boże, spraw, niech zabłyśnie nad nami blask Twojej chwały, a światło Twej jasności niechaj umocni oświeceniem Ducha Świętego tych, którzy odrodzili się przez łaskę.\nPrzez Pana… w jedności tegoż Ducha Świętego…",
+            "Præsta, quǽsumus, omnípotens Deus: ut claritatis tuæ super nos splendor effúlgeat; et lux tuæ lucis corda eórum, qui per grátiam tuam renáti sunt, Sancti Spíritus illustratióne confírmet.\nPer Dóminum… in unitáte ejúsdem…"
+          ]
+        ]
+      },
+      {
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": [
+          [
+            "Czytanie z Dziejów Apostolskich\n *Dz 19:1-8*\n Kiedy Apollos znajdował się w Koryncie, Paweł przeszedł okolice wyżej położone, przybył do Efezu i znalazł jakichś uczniów. Zapytał ich: «Czy otrzymaliście Ducha Świętego, gdy przyjęliście wiarę?» A oni do niego: «Nawet nie słyszeliśmy, że istnieje Duch Świę-ty». «Jaki więc chrzest przyjęliście?» – zapytał. A oni odpowiedzieli: «Chrzest Janowy». «Jan udzielał chrztu nawrócenia, przemawiając do ludu, aby uwierzyli w Tego, który za nim idzie, to jest Jezusa» – powiedział Paweł. Gdy to usłyszeli, przyjęli chrzest w imię Pana Jezusa. A kiedy Paweł włożył na nich ręce, Duch Święty zstąpił na nich. Mówili też językami i prorokowali. Wszystkich ich było około dwunastu mężczyzn. Następnie wszedł do synagogi i odważnie przemawiał przez trzy miesiące rozprawiając i przekonując o królestwie Bożym.",
+            "Léctio Actuum Apostolórum\n *Act 19: 1-8*\n In diébus illis: Factum est, cum Apóllo esset Corínthi, ut Paulus, peragrátis superióribus pártibus, veníret Ephesum et inveníret quosdam discípulos: dixítque ad eos: Si Spíritum Sanctum accepístis credéntes? At illi dixérunt ad eum: Sed neque, si Spíritus Sanctus est, audívimus. Ille vero ait: In quo ergo baptizáti estis? Qui dixérunt: In Joannis baptísmate. Dixit autem Paulus: Joánnes baptizávit baptísmo pœniténtiæ pópulum, dicens: In eum, qui ventúrus esset post ipsum, ut créderent, hoc est in Jesum. His audítis, baptizáti sunt in nómine Dómini Jesu. Et cum imposuísset illis manus Paulus, venit Spíritus Sanctus super eos, et loquebántur linguis, et prophetábant. Erant autem omnes viri fere duódecim. Introgréssus autem synagógam, cum fidúcia loquebátur per tres menses, dísputans et suádens de regno Dei."
+          ]
+        ]
+      },
+      {
+        "id": "Allelúia.",
+        "label": "Alleluja",
+        "body": [
+          [
+            "*Ps 106:1*\n℣. Wysławiajcie Pana, bo jest dobry, bo na wieki Jego łaskawość.",
+            "*Ps 106:1*\n℣. Confitémini Dómino, quóniam bonus: quóniam in sæculum misericordia ejus."
+          ]
+        ]
+      },
+      {
+        "id": "Tractus",
+        "label": "Traktus",
+        "body": [
+          [
+            "*Ps 116*\nChwalcie Pana, wszystkie narody, wysławiajcie Go, wszystkie ludy.\n℣. Bo Jego łaskawość nad nami potężna, a wierność Pańska trwa na wieki.",
+            "*Ps 116*\nLaudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli,\n℣. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum."
+          ]
+        ]
+      },
+      {
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": [
+          [
+            "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n *J 14:15-21*\n Onego czasu: Rzekł Jezus uczniom swoim: Jeżeli Mnie miłujecie, będziecie zachowywać moje przykazania. Ja zaś będę prosił Ojca, a innego Pocieszyciela da wam, aby z wami był na zawsze – Ducha Prawdy, którego świat przyjąć nie może, ponieważ Go nie widzi ani nie zna. Ale wy Go znacie, ponieważ u was przebywa i w was będzie. Nie zostawię was sierotami: Przyjdę do was. Jeszcze chwila, a świat nie będzie już Mnie oglądał. Ale wy Mnie widzicie, ponieważ Ja żyję i wy żyć będziecie. W owym dniu poznacie, że Ja jestem w Ojcu moim, a wy we Mnie i Ja w was. Kto ma przykazania moje i zachowuje je, ten Mnie miłuje. Kto zaś Mnie miłuje, ten będzie umiłowany przez Ojca mego, a również Ja będę go miłował i objawię mu siebie».",
+            "Sequentia ☩ sancti Evangelii secundum Joánnem\n *Joann 14:15-21*\n In illo témpore: Dixit Jesus discípulis suis: Si dilígitis me, mandáta mea serváte. Et ego rogábo Patrem, et alium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum, Spíritum veritátis, quem mundus non potest accípere, quia non videt eum nec scit eum. Vos autem cognoscétis eum: quia apud vos manébit et in vobis erit. Non relínquam vos órphanos: véniam ad vos. Adhuc módicum: et mundus me jam non videt. Vos autem vidétis me, quia ego vivo, et vos vivétis, In illo die vos cognoscétis, quia ego sum in Patre meo, et vos in me, et ego in vobis. Qui habet mandáta mea et servat ea: ille est, qui díligit me. Qui autem díligit me, diligétur a Patre meo: et ego díligam eum, et manifestábo ei meípsum."
+          ],
+          [
+            "Nie odmawia się Credo."
+          ]
+        ]
+      },
+      {
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": [
+          [
+            "*Prefacja o Duchu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże: przez Chrystusa, Pana naszego. On to wstąpiwszy ponad wszystkie niebiosa i siedząc na prawicy Twojej zesłał w dniu dzisiejszym obiecanego Ducha Świętego na przybrane dzieci. Dlatego cały okrąg ziemi tonie w nadmiarze radości. Lecz i Moce niebieskie, i anielskie Potęgi śpiewają hymn ku Twojej chwale, wołając bez końca:",
+            "*de Spiritu Sancto*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Qui, ascéndens super omnes coelos sedénsque ad déxteram tuam, promíssum Spíritum Sanctum hodierna die in fílios adoptiónis effúdit. Quaprópter profúsis gáudiis totus in orbe terrárum mundus exsúltat. Sed et supérnæ Virtútes atque angélicæ Potestátes hymnum glóriæ tuæ cóncinunt, sine fine dicéntes:"
+          ],
+          [
+            "Kanon Mszy odmawia się z poniższymi zmianami"
+          ],
+          [
+            "Zjednoczeni w Świętych Obcowaniu, obchodzimy prześwięty dzień Pięćdziesiątnicy, w którym Duch Święty ukazał się Apostołom pod postacią niezliczonych języków, i ze czcią wspominamy najpierw chwalebną zawsze Dziewicę Maryję…",
+            "Communicántes, et diem sacratíssimum Pentecóstes celebrántes, quo Spíritus Sanctus Apóstolis innúmeris linguis appáruit: sed et memóriam venerántes, in primis gloriósæ semper Vírginis Maríæ…"
+          ],
+          [
+            "Prosimy Cię przeto, Panie, abyś łaskawie przyjął tę ofiarę od nas, sług Twoich, jak również od całego ludu Twego; składamy Ci ją za tych także, których raczyłeś odrodzić z wody i Ducha Świętego udzielając im odpuszczenia grzechów; racz dni nasze pokojem Swym napełnić, od potępienia wiecznego nas uchronić i do grona wybranych swoich zaliczyć. Przez Chrystusa, Pana naszego. Amen.",
+            "Hanc ígitur oblatiónem servitútis nostræ, sed et cunctæ famíliæ tuæ, quam tibi offérimus pro his quoque, quos regeneráre dignátus es ex aqua et Spíritu Sancto, tríbuens eis remissiónem ómnium peccatórum, quǽsumus, Dómine, ut placátus accípias: diésque nostros in tua pace dispónas, atque ab ætérna damnatióne nos éripi, et in electórum tuórum júbeas grege numerári. Jungit manus. Per Christum, Dóminum nostrum. Amen."
+          ]
+        ]
+      },
+      {
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": [
+          [
+            "*J 7:37-39*\nW ostatnim dniu święta mówił Jezus: Kto wierzy we mnie, rzeki wody żywej popłyną z jego wnętrza. A to mówił o Duchu, którego otrzymać mieli wierzący weń, alleluja.",
+            "*Joann 7:37-39*\nUltimo festivitátis die dicébat Jesus: Qui in me credit, flúmina de ventre ejus fluent aquæ vivæ: hoc autem dixit de Spíritu, quem acceptúri erant credéntes in eum, allelúja, allelúja."
+          ]
+        ]
+      },
+      {
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": [
+          [
+            "Panie, niech tchnienie Ducha Świętego oczyści nasze serca i użyźni je rosą Jego łaski. Przez Pana… w jedności tegoż Ducha Świętego…",
+            "Sancti Spíritus, Dómine, corda nostra mundet infúsio: et sui roris íntima aspersióne fecúndet. Per Dóminum… in unitáte ejúsdem…"
+          ]
+        ]
+      }
+    ]
+  }
+]
