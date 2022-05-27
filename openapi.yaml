@@ -131,6 +131,63 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/OrdoResponse"
+  /{lang}/api/v3/supplement/{id}:
+    get:
+      tags:
+      - "Supplement"
+      summary: "Get supplement's content"
+      description: "Get supplement's content"
+      operationId: "getSupplement"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "id"
+        description: "ID of the supplement."
+        required: true
+        schema:
+          type: "string"
+          example: "3-boze-narodzenie"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SupplementResponse"
+  /{lang}/api/v3/supplement/{path}/{id}:
+    get:
+      tags:
+      - "Supplement"
+      summary: "Get supplement's content from subdir"
+      description: "Get supplement's content from subdir"
+      operationId: "getSupplementFromSubdir"
+      parameters:
+      - $ref: '#/components/parameters/langParam'
+      - in: "path"
+        name: "path"
+        description: "Name of the subdir"
+        required: true
+        schema:
+          type: "string"
+          example: "canticum"
+      - in: "path"
+        name: "id"
+        description: "ID of the supplement."
+        required: true
+        schema:
+          type: "string"
+          example: "adoro-te"
+      responses:
+        "404":
+          description: "Not Found"
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SupplementResponse"
   /{lang}/api/v3/version:
     get:
       tags:
@@ -328,7 +385,27 @@ components:
               description: Each subsection is represented by an array, which can contain either one or two strings. One string is treated as a rubric. When there are two strings, the first one is vernacular text and the second one is the Latin one.
               items:
                type: string
-
+    SupplementResponse:
+      type: object
+      required:
+        - title
+        - body
+      properties:
+        title:
+          type: string
+          description: Title of the supplement
+          example: Adoro te
+        body:
+          type: string
+          description: Supplement's content in HTML format.
+          example: "<p>ADORO TE, devote, latens Deitas</p>"
+        tags:
+          type: array
+          description: List of plain text tags
+          items:
+            type: string
+          example:
+            - Eucharystyczne
     IdField:
       type: "string"
       description: "ID's structure reflects the files' structure in DivinumOfficium. It contains four components split by a colon. First two parts of the ID are parsed into the path of the source file, for example id tempora:Quadp3-3:1:v leads to the file divinum-officium/web/www/missa/English/Tempora/Quadp3-3.txt. Remaining components indicate rank and color. In this case 1 - first class and color v - violet."
