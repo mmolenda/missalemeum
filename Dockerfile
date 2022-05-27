@@ -1,7 +1,7 @@
 FROM python:3.9-slim-buster
 
 RUN apt-get update
-RUN apt-get upgrade
+RUN apt-get -y upgrade
 
 ENV PYTHONPATH=/app/missalemeum
 WORKDIR /app
