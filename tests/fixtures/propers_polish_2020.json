@@ -7379,7 +7379,7 @@
       "id": "LectioL1"
     },
     {
-      "body": "Alleluja\n*J 6:64*\nDuch jest tym, który ożywia, ciało nic nie pomoże.",
+      "body": "Alleluja.\n*J 6:64*\nDuch jest tym, który ożywia, ciało nic nie pomoże.",
       "id": "GradualeL1"
     },
     {
@@ -7427,7 +7427,7 @@
       "id": "LectioL5"
     },
     {
-      "body": "Alleluja\n*Dn 3:52*\nBłogosławiony jesteś Panie, Boże ojców naszych, i chwalebny na wieki.",
+      "body": "Alleluja.\n*Dn 3:52*\nBłogosławiony jesteś Panie, Boże ojców naszych, i chwalebny na wieki.",
       "id": "GradualeL5"
     },
     {
@@ -7481,10 +7481,6 @@
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie 1 Niedzieli po Zesłaniu Ducha Świętego*\nBoże, mocy ufających Tobie, wysłuchaj łaskawie błagania nasze, a że",
-      "id": "Commemoratio Oratio"
-    },
-    {
       "body": "Czytanie z Listu świętego Pawła Apostoła do Rzymian.\n*Rz 11:33-36*\n*Tajemnica Trójcy Przenajświętszej, podobnie jak wszy",
       "id": "Lectio"
     },
@@ -7505,10 +7501,6 @@
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie 1 Niedzieli po Zesłaniu Ducha Świętego*\nProsimy Cię, Panie, przyjmij łaskawie ofiarowane Ci dary i spraw, b",
-      "id": "Commemoratio Secreta"
-    },
-    {
       "body": "*Prefacja o Trójcy Przenajświętszej*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tob",
       "id": "Prefatio"
     },
@@ -7519,10 +7511,6 @@
     {
       "body": "Panie, Boże nasz, niech przyjęcie tego sakramentu oraz wyznanie Przedwiecznej i Świętej Trójcy oraz Jej nierozdzielnej j",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Wspomnienie 1 Niedzieli po Zesłaniu Ducha Świętego*\nNasyceni tak wielkim darem, prosimy Cię, Panie: daj, byśmy czerpali",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-06-08": [
