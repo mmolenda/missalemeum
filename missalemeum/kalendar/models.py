@@ -190,6 +190,10 @@ class Day:
         if self.celebration:
             return self.celebration[0].title
 
+    def get_celebration_colors(self) -> Union[None, List[str]]:
+        if self.celebration:
+            return self.celebration[0].colors
+
     def get_proper(self) -> List[Tuple['Proper', 'Proper']]:
         """
         Get proper that is used in today Mass. If given day does not have a dedicated proper,

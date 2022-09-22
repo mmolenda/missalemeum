@@ -8,6 +8,7 @@ trans~=2.1.0
 mistune~=2.0.2
 PyYAML~=6.0
 Flask-Babel~=2.0.0
+Flask-Cors==3.0.10
 Babel~=2.9.1
 Markupsafe~=2.0.1
 # dev

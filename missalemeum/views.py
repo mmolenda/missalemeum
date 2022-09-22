@@ -1,5 +1,4 @@
 import json
-from collections import defaultdict
 from functools import wraps
 
 import os
@@ -15,10 +14,10 @@ from jinja2 import TemplateNotFound
 
 import controller
 from constants import TRANSLATION, BLOCKS
-from constants.common import LANGUAGES, LANGUAGE_ENGLISH, SUPPLEMENT_DIR, ORDO_DIR
+from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
-from utils import format_day_propers, get_supplement, format_propers
+from utils import get_supplement, format_propers, supplement_index
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -64,10 +63,10 @@ def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
                 return render_template('404.html', lang=lang), 404
             proper = controller.get_proper_by_id(date_or_id, lang)
             date_or_id = None
-            fmt_propers = format_propers(proper)
+            fmt_propers = format_propers([proper])
         else:
             day: Day = controller.get_day(date_object, lang)
-            fmt_propers = format_day_propers(day)
+            fmt_propers = format_propers(day.get_proper(), day)
         title = fmt_propers[0]['info']['title']
     else:
         title = None
@@ -82,51 +81,6 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
     with open(os.path.join(ORDO_DIR, lang, 'ordo.json')) as fh:
         data = json.load(fh)
     return render_template("ordo.html", data=data, lang=lang)
-
-
-class SupplementIndex:
-    CANTICUM = "canticum"
-    ORATIO = "oratio"
-    index = defaultdict(list)
-
-    def get_canticum_index(self, lang):
-        return self._get_index(lang, self.CANTICUM)
-
-    def get_canticum_title(self, lang, proper_id):
-        return self._get_title(lang, self.CANTICUM, proper_id)
-
-    def get_oratio_index(self, lang):
-        return self._get_index(lang, self.ORATIO)
-
-    def get_oratio_title(self, lang, proper_id):
-        return self._get_title(lang, self.ORATIO, proper_id)
-
-    def _get_index(self, lang, subdir):
-        key = f"{lang}-{subdir}"
-        if key not in self.index:
-            try:
-                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR, lang, subdir))
-            except FileNotFoundError:
-                filenames = []
-            finally:
-                for filename in sorted(filenames):
-                    if filename.endswith(".yaml"):
-                        resource_id = filename.rsplit('.', 1)[0]
-                        index_item = get_supplement(lang, resource_id, subdir)
-                        self.index[key].append(
-                            {"title": index_item["title"],
-                             "ref": f"{subdir}/{resource_id}",
-                             "tags": index_item["tags"]
-                             })
-        return self.index[key]
-
-    def _get_title(self, lang, subdir, proper_id):
-        for i in self._get_index(lang, subdir):
-            if proper_id is not None and i["ref"].endswith(proper_id):
-                return i["title"]
-
-
-supplement_index = SupplementIndex()
 
 
 @views.route("/canticum")

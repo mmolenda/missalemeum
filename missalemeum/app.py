@@ -3,10 +3,12 @@ import sys
 import logging
 from flask import Flask, request
 from flask_babel import Babel
+from flask_cors import CORS
 from werkzeug.routing import BaseConverter, ValidationError
 
 from __version__ import __version__
 from apiv3 import api as apiv3
+from apiv4 import api as apiv4
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
 from views import views
@@ -26,12 +28,15 @@ class LangConverter(BaseConverter):
 
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 app.jinja_env.filters['slugify'] = slugify
 app.jinja_env.filters['asterisks2em'] = asterisks2em
 app.jinja_env.filters['newline2br'] = newline2br
 app.url_map.converters['lang'] = LangConverter
 app.register_blueprint(views)
 app.register_blueprint(apiv3)
+app.register_blueprint(apiv4)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
 babel = Babel(app)
@@ -54,4 +59,4 @@ def get_locale():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0", debug=False, port=8000)

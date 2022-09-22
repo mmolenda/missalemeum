@@ -9,6 +9,7 @@ CUSTOM_DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium-custom')
 PROPERS_DIR = os.path.join(RESOURCES_DIR, 'propers')
 ORDO_DIR = os.path.join(RESOURCES_DIR, 'ordo')
 SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
+SUPPLEMENT_DIR_V4 = os.path.join(RESOURCES_DIR, 'supplement_v4')
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
@@ -1031,6 +1032,7 @@ EXCLUDE_SECTIONS = (
     (TEMPORA_PASC5_3, COMMEMORATION_SECTIONS),
     (TEMPORA_PASC6_0, COMMEMORATION_SECTIONS),
     (TEMPORA_PENT02_0, ['Sequentia']),
+    (TEMPORA_PENT01_0, COMMEMORATION_SECTIONS)
 )
 
 # EXCLUDE_SECTIONS organized by section ID

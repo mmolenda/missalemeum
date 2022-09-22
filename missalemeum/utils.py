@@ -2,13 +2,14 @@ import json
 import logging
 import os
 import re
+from collections import defaultdict
 from typing import List, Union, Pattern
 
 import mistune
 import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
-    SANCTI_02_02, GRADUALE
+    SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V4
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -34,17 +35,13 @@ def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) 
     return None
 
 
-def format_day_propers(day: 'Day'):  # noqa: F821
-    propers = day.get_proper()
+def format_propers(propers, day=None):
     retvals = []
     for propers_vernacular, propers_latin in propers:
-        # In most of the cases calculate the celebration title from the Observance object falling on
-        # a given day; in case of days with multiple masses (02 Nov, 25 Dec) get the title from
-        # proper's comment directly
-        title = day.get_celebration_name() if len(propers) < 2 else propers_vernacular.title
-        tempora_name: str = day.get_tempora_name()
+        title = propers_vernacular.title
+        tempora_name: str = day.get_tempora_name() if day else None
         info = {
-            "id": day.get_celebration_id(),
+            "id": propers_vernacular.id,
             "title": title,
             "description": propers_vernacular.description,
             "additional_info": propers_vernacular.additional_info,
@@ -52,30 +49,13 @@ def format_day_propers(day: 'Day'):  # noqa: F821
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
-            "date": day.date.strftime("%Y-%m-%d")
+            "date": day.date.strftime("%Y-%m-%d") if day else None
         }
         retvals.append({
             "info": info,
             "sections": format_proper_sections(propers_vernacular, propers_latin)
         })
     return retvals
-
-
-def format_propers(propers):
-    propers_vernacular, propers_latin = propers
-    title = propers_vernacular.title
-    info = {
-        "title": title,
-        "description": propers_vernacular.description,
-        "additional_info": propers_vernacular.additional_info,
-        "rank": propers_vernacular.rank,
-        "colors": propers_vernacular.colors,
-        "supplements": propers_vernacular.supplements,
-    }
-    return [{
-        "info": info,
-        "sections": format_proper_sections(propers_vernacular, propers_latin)
-    }]
 
 
 def format_proper_sections(propers_vernacular, propers_latin):
@@ -120,3 +100,87 @@ def get_supplement(lang, resource, subdir=None):
             return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")
+
+
+def get_supplement_v4(lang, resource, subdir=None):
+    try:
+        path_args = [SUPPLEMENT_DIR_V4, lang]
+        if subdir:
+            path_args.append(subdir)
+        path_args.append(f"{resource}.json")
+        with open(os.path.join(*path_args)) as fh:
+            content = json.load(fh)
+            return content
+    except IOError:
+        raise SupplementNotFound(f"{subdir}/{resource}")
+
+
+class SupplementIndex:
+    CANTICUM = "canticum"
+    ORATIO = "oratio"
+
+    def __init__(self):
+        self.index = defaultdict(list)
+
+    def get_canticum_index(self, lang):
+        return self._get_index(lang, self.CANTICUM)
+
+    def get_canticum_title(self, lang, proper_id):
+        return self._get_title(lang, self.CANTICUM, proper_id)
+
+    def get_oratio_index(self, lang):
+        return self._get_index(lang, self.ORATIO)
+
+    def get_oratio_title(self, lang, proper_id):
+        return self._get_title(lang, self.ORATIO, proper_id)
+
+    def _get_index(self, lang, subdir):
+        key = f"{lang}-{subdir}"
+        if key not in self.index:
+            try:
+                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR, lang, subdir))
+            except FileNotFoundError:
+                filenames = []
+            finally:
+                for filename in sorted(filenames):
+                    if filename.endswith(".yaml"):
+                        resource_id = filename.rsplit('.', 1)[0]
+                        index_item = get_supplement(lang, resource_id, subdir)
+                        self.index[key].append(
+                            {"title": index_item["title"],
+                             "ref": f"{subdir}/{resource_id}",
+                             "tags": index_item["tags"]
+                             })
+        return self.index[key]
+
+    def _get_title(self, lang, subdir, proper_id):
+        for i in self._get_index(lang, subdir):
+            if proper_id is not None and i["ref"].endswith(proper_id):
+                return i["title"]
+
+
+supplement_index = SupplementIndex()
+
+
+class SupplementIndexV4(SupplementIndex):
+    def _get_index(self, lang, subdir):
+        key = f"{lang}-{subdir}"
+        if key not in self.index:
+            try:
+                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR_V4, lang, subdir))
+            except FileNotFoundError:
+                filenames = []
+            finally:
+                for filename in sorted(filenames):
+                    if filename.endswith(".json"):
+                        resource_id = filename.rsplit('.', 1)[0]
+                        index_item = get_supplement_v4(lang, resource_id, subdir)
+                        self.index[key].append(
+                            {"title": index_item[0]["info"]["title"],
+                             "id": resource_id,
+                             "tags": index_item[0]["info"]["additional_info"]
+                             })
+        return self.index[key]
+
+
+supplement_index_v4 = SupplementIndexV4()
