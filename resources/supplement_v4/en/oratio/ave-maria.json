@@ -1,0 +1,27 @@
+[
+  {
+    "info": {
+      "additional_info": [
+        "Latin"
+      ],
+      "title": "Ave Maris"
+    },
+    "sections": [
+      {
+        "body": [
+          [
+            "AVE MARIA, gratia plena, Dominus Tecum, benedicta Tu in mulieribus et benedictus fructus ventris Tui, Jesus."
+          ],
+          [
+            "Sancta Maria, Mater Dei ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen."
+          ]
+        ],
+        "id": "my-id",
+        "label": "my-label"
+      }
+    ]
+  }
+]
+
+
+

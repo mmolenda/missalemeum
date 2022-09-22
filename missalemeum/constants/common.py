@@ -9,6 +9,7 @@ CUSTOM_DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium-custom')
 PROPERS_DIR = os.path.join(RESOURCES_DIR, 'propers')
 ORDO_DIR = os.path.join(RESOURCES_DIR, 'ordo')
 SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
+SUPPLEMENT_DIR_V4 = os.path.join(RESOURCES_DIR, 'supplement_v4')
 
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
