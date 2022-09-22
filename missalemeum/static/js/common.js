@@ -8,6 +8,7 @@ const $buttonSidebarCollapse = $("button#sidebar-collapse");
 const langSwithVernacular = "lang-switch-vernacular";
 const $sidebar = $("nav#sidebar");
 const $sidebarTools = $("div#sidebar-tools");
+const $metaThemeColor = $('meta[name="theme-color"]');
 
 const $templateSidebarCalendarItem = $("#template-sidebar-item").text();
 const $templateSidebarCalendarItemYear = $("#template-sidebar-item-year").text();
@@ -102,6 +103,7 @@ function setDarkTheme() {
     localStorage.setItem("theme", "dark");
     document.body.classList.add("dark-theme");
     document.body.classList.remove("light-theme");
+    $metaThemeColor.attr("content", "#262626");
 }
 
 function setLightTheme() {
@@ -109,6 +111,7 @@ function setLightTheme() {
     localStorage.setItem("theme", "light");
     document.body.classList.remove("dark-theme");
     document.body.classList.add("light-theme");
+    $metaThemeColor.attr("content", "#fffdf1");
 }
 
 function setAutoTheme() {
@@ -116,6 +119,9 @@ function setAutoTheme() {
     localStorage.removeItem("theme");
     document.body.classList.remove("dark-theme");
     document.body.classList.remove("light-theme");
+    if ( window.matchMedia('(prefers-color-scheme: dark)').matches){
+        $metaThemeColor.attr("content", "#262626");
+    }
 }
 
 function navbarIsCollapsed() {
