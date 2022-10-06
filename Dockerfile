@@ -19,6 +19,7 @@ COPY resources/divinum-officium/web/www/missa/Polski ./resources/divinum-officiu
 COPY resources/ordo ./resources/ordo
 COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
+COPY resources/supplement_v4 ./resources/supplement_v4
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
 COPY missalemeum ./missalemeum
 COPY tests ./tests
