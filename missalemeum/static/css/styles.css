@@ -248,6 +248,7 @@ div#lang-dropdown-menu, div#theme-dropdown-menu {
     position: relative;
     z-index: 5;
     margin: 2px;
+    color: #212529;
 }
 
 #loader {

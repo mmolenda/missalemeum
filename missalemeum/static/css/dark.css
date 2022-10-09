@@ -95,6 +95,10 @@
     footer, .version  {
         color: #888888;
     }
+
+    #content-tools a {
+        color: #e5e5e5;
+    }
 }
 
 
@@ -195,3 +199,6 @@
     color: #888888;
 }
 
+.dark-theme #content-tools a {
+    color: #e5e5e5;
+}
