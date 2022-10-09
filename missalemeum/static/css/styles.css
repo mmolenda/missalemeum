@@ -240,7 +240,7 @@ div#lang-dropdown-menu, div#theme-dropdown-menu {
 }
 
 #content-tools {
-    display: none;
+    display: block;
 }
 
 #content-tools a {
@@ -383,12 +383,6 @@ p.supplement {
     }
     #content.active {
         width: calc(100% - 250px);
-    }
-}
-
-@media (min-width: 768px) {
-    #content-tools {
-        display: block;
     }
 }
 
