@@ -22,6 +22,9 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+a:hover i.fa {
+    cursor: pointer;
+}
 
 a.dashed {
     border-bottom: 1px dashed;
