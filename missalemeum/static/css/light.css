@@ -93,3 +93,7 @@
 .light-theme footer, .version  {
     color: #393939;
 }
+
+.light-theme #content-tools a {
+    color: #212529;
+}
