@@ -19,7 +19,7 @@
         </div>
         <ul class="list-unstyled with-sidebar-tools">
             {% for item in index %}
-            <li id="sidebar-item-{{ item['ref'] }}" class="sidebar-item"><a href="{{ item['ref'] }}">
+            <li id="sidebar-item-{{ item['ref'] }}" class="sidebar-item"><a href="/{{ lang }}/votive/{{ item['ref'] }}" data-ref="{{ item['ref'] }}">
                 <div>{{ item['title'] }}</div>
                 <div class="tempora rubric">
                     {% for tag in item['tags'] %}
@@ -38,6 +38,9 @@
         <main class="col-md-9">
             <div id="loaded-content">
                 <h1 class="display-8">{% if title %} {{ title }} {% else %} {{ _('Votive') }} {% endif %}</h1>
+                {% if propers %}
+                    {% include 'partials/proprium_content.html' %}
+                {% endif %}
             </div>
             {% include 'partials/footer.html' %}
         </main>

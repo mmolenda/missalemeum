@@ -17,7 +17,7 @@ from constants import TRANSLATION, BLOCKS
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
 from exceptions import SupplementNotFound
 from kalendar.models import Day
-from utils import get_supplement, format_propers, supplement_index
+from utils import get_supplement, format_propers, supplement_index, get_pregenerated_proper
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -91,7 +91,13 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
 def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     index = supplement_index.get_canticum_index(lang)
     title = supplement_index.get_canticum_title(lang, proper_id) or _("Songs")
-    return render_template("supplement_nested.html", title=title, index=index, lang=lang)
+    try:
+        supplement_yaml = get_supplement(lang, proper_id, "canticum")
+    except SupplementNotFound:
+        body = None
+    else:
+        body = supplement_yaml["body"]
+    return render_template("supplement_nested.html", title=title, index=index, body=body, lang=lang)
 
 
 @views.route("/oratio")
@@ -102,7 +108,13 @@ def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     index = supplement_index.get_oratio_index(lang)
     title = supplement_index.get_oratio_title(lang, proper_id) or _("Prayers")
-    return render_template("supplement_nested.html", title=title, index=index, lang=lang)
+    try:
+        supplement_yaml = get_supplement(lang, proper_id, "oratio")
+    except SupplementNotFound:
+        body = None
+    else:
+        body = supplement_yaml["body"]
+    return render_template("supplement_nested.html", title=title, index=index, body=body, lang=lang)
 
 
 @views.route("/votive")
@@ -112,13 +124,16 @@ def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @infer_locale
 def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     index = TRANSLATION[lang].VOTIVE_MASSES
+    proper_id = {i['ref']: i['id'] for i in index}.get(proper_id, proper_id)
     title = None
+    fmt_propers = None
     if proper_id is not None:
-        for i in index:
-            if i["ref"] == proper_id:
-                title = i["title"]
-                break
-    return render_template("votive.html", title=title, index=index, lang=lang)
+        fmt_propers = get_pregenerated_proper(lang, proper_id)
+        if not fmt_propers:
+            proper = controller.get_proper_by_id(proper_id, lang)
+            fmt_propers = format_propers([proper])
+        title = fmt_propers[0]['info']['title']
+    return render_template("votive.html", title=title, propers=fmt_propers, index=index, lang=lang)
 
 
 @views.route("/supplement")
