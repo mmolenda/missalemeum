@@ -26,7 +26,7 @@ $window.on("load", function () {
     function init() {
         let resourceId = getResourceId();
         if (resourceId === undefined) {
-            resourceId = $("li.sidebar-item").first().find("a").attr("href");
+            resourceId = $("li.sidebar-item").first().find("a").attr("data-ref");
             setResourceId()
         }
         ploader.load(resourceId);

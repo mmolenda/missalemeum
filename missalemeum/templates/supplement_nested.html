@@ -19,7 +19,7 @@
         </div>
         <ul class="list-unstyled with-sidebar-tools">
             {% for item in index %}
-            <li id="sidebar-item-{{ item['ref'].replace('/', '-') }}" class="sidebar-item"><a href="{{ item['ref'] }}">
+            <li id="sidebar-item-{{ item['ref'].replace('/', '-') }}" class="sidebar-item"><a href="/{{ lang }}/{{ item['ref'] }}" data-ref="{{ item['ref'] }}">
                 <div>{{ item['title'] }}</div>
                 <div class="tempora rubric">
                     {% for tag in item['tags'] %}
@@ -38,6 +38,7 @@
         <main class="col-md-9">
             <div id="loaded-content">
                 <h1 class="display-8">{{ title }}</h1>
+                {{ body | safe }}
             </div>
             {% include 'partials/footer.html' %}
         </main>

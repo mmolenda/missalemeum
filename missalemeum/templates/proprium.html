@@ -26,6 +26,14 @@
             </div>
         </div>
         <ul class="list-unstyled with-sidebar-tools">
+            {% if propers %}
+            <li id="sidebar-item-${date}" class="sidebar-item sidebar-color-marker sidebar-color-marker-${color}">
+                <a href="{{ propers[0].info.date }}">
+                    <div>{{ title }}</div>
+                    <div class="tempora rubric">{{ propers[0].info.date }} | {{ propers[0].info.rank }} klasy</div>
+                </a>
+            </li>
+            {% endif %}
         </ul>
     </nav>
     <div id="content" role="main" class="container-fluid">
@@ -36,40 +44,7 @@
             <div id="loaded-content">
                 <h1 class="display-8">{% if title %}{{ title }}{% else %}Missale Meum{% endif %}</h1>
                 {% if propers %}
-                    <p>{{ propers[0].info.description }}</p>
-                    {% if propers[0].info.supplements %}
-                        <p class="supplement">
-                            Suplement:
-                            {% for supplement in propers[0].info.supplements %}
-                                <a class="dashed" href="{{ supplement.path }}">{{ supplement.label }}</a>
-                            {% endfor %}
-                        </p>
-                    {% endif %}
-
-                    {% for section in propers[0].sections %}
-                        <div class="row">
-                            <div class="col-sm-6 section-vernacular">
-                                <h2>{{ section.label }}</h2>
-                            </div>
-                            <div class="col-sm-6 section-latin">
-                                <h2>{{ section.id }}</h2>
-                            </div>
-                        </div>
-                        {% for paragraph in section.body %}
-                            {% if paragraph|length == 2 %}
-                                <div class="row">
-                                    <div class="col-sm-6 section-vernacular">
-                                        <p>{{ paragraph[0]|asterisks2em|newline2br|safe }}</p>
-                                    </div>
-                                    <div class="col-sm-6 section-latin">
-                                        <p>{{ paragraph[1]|asterisks2em|newline2br|safe }}</p>
-                                    </div>
-                                </div>
-                            {% else %}
-                                <p><span class="rubric">{{ paragraph[0] }}</span></p>
-                            {% endif %}
-                        {% endfor %}
-                    {% endfor %}
+                    {% include 'partials/proprium_content.html' %}
                 {% else %}
                     <p>{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}</p>
                 {% endif %}
