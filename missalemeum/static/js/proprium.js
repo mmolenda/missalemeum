@@ -223,4 +223,8 @@ $window.on("load", function () {
     $("#print").on("click", function () {
         printContent($templateContentPrint, $loadedContent.html());
     });
+
+    $("#copy-url").on("click", function () {
+        copyURLToClipboard();
+    });
 });

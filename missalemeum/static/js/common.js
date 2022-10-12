@@ -160,6 +160,14 @@ function printContent(template, content) {
     return true;
 }
 
+function copyURLToClipboard() {
+    navigator.clipboard.writeText(window.location.href).then(function() {
+      alert("Address copied");
+    }, function(err) {
+      console.error('Async: Could not copy text: ', err);
+    });
+}
+
 function markSidebarItemActive(resourceId) {
     resourceId = resourceId.replace("/", "-");
     $sidebar.find("li.sidebar-item").removeClass("active");
