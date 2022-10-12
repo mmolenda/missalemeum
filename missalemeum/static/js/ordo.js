@@ -67,4 +67,7 @@ $window.on("load", function () {
         printContent($templateContentPrint, $loadedContent.html());
     });
 
+    $("#copy-url").on("click", function () {
+        copyURLToClipboard();
+    });
 });
