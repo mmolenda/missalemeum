@@ -107,9 +107,9 @@ def get_supplement_v4(lang, resource, subdir=None):
         path_args = [SUPPLEMENT_DIR_V4, lang]
         if subdir:
             path_args.append(subdir)
-        path_args.append(f"{resource}.json")
+        path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
-            content = json.load(fh)
+            content = yaml.full_load(fh)
             return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")
@@ -172,13 +172,13 @@ class SupplementIndexV4(SupplementIndex):
                 filenames = []
             finally:
                 for filename in sorted(filenames):
-                    if filename.endswith(".json"):
+                    if filename.endswith(".yaml"):
                         resource_id = filename.rsplit('.', 1)[0]
                         index_item = get_supplement_v4(lang, resource_id, subdir)
                         self.index[key].append(
-                            {"title": index_item[0]["info"]["title"],
+                            {"title": index_item["info"]["title"],
                              "id": resource_id,
-                             "tags": index_item[0]["info"]["additional_info"]
+                             "tags": index_item["info"]["additional_info"]
                              })
         return self.index[key]
 
