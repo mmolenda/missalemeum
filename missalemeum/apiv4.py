@@ -80,7 +80,7 @@ def supplement_response(lang, id_, subdir):
     except SupplementNotFound:
         return jsonify({'error': "Not found"}), 404
     else:
-        return jsonify(supplement_yaml)
+        return jsonify([supplement_yaml])
 
 
 @api.route("/<string:lang>/api/v4/supplement/<string:id_>")
