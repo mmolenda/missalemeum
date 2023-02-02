@@ -15,9 +15,10 @@ import __version__
 import controller
 from constants import TRANSLATION
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
+from constants.pl.translation import SUPPLEMENTS_V4
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
 from kalendar.models import Day, Calendar
-from utils import get_pregenerated_proper, format_propers, get_supplement_v4, supplement_index_v4 as supplement_index
+from utils import get_pregenerated_proper, format_propers_v4, get_supplement_v4, supplement_index_v4 as supplement_index
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -48,9 +49,10 @@ def v4_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
         try:
             pregenerated_proper = get_pregenerated_proper(lang, proper_id)
             if pregenerated_proper is not None:
+                pregenerated_proper[0]['info']['supplements'] = SUPPLEMENTS_V4.get(pregenerated_proper[0]['info']['id']) or []
                 return jsonify(pregenerated_proper)
             proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-            return jsonify(format_propers([[proper_vernacular, proper_latin]]))
+            return jsonify(format_propers_v4([[proper_vernacular, proper_latin]]))
         except InvalidInput as e:
             return jsonify({'error': str(e)}), 400
         except ProperNotFound as e:
@@ -62,8 +64,9 @@ def v4_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
         day: Day = controller.get_day(date_object, lang)
         pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id())
         if pregenerated_proper:
+            pregenerated_proper[0]['info']['supplements'] = SUPPLEMENTS_V4.get(pregenerated_proper[0]['info']['id']) or []
             return jsonify(pregenerated_proper)
-        return jsonify(format_propers(day.get_proper(), day))
+        return jsonify(format_propers_v4(day.get_proper(), day))
 
 
 @api.route('/<string:lang>/api/v4/ordo')

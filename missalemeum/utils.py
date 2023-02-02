@@ -10,6 +10,7 @@ import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
     SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V4
+from constants.pl.translation import SUPPLEMENTS_V4
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -49,6 +50,29 @@ def format_propers(propers, day=None):
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
+            "date": day.date.strftime("%Y-%m-%d") if day else None
+        }
+        retvals.append({
+            "info": info,
+            "sections": format_proper_sections(propers_vernacular, propers_latin)
+        })
+    return retvals
+
+
+def format_propers_v4(propers, day=None):
+    retvals = []
+    for propers_vernacular, propers_latin in propers:
+        title = propers_vernacular.title
+        tempora_name: str = day.get_tempora_name() if day else None
+        info = {
+            "id": propers_vernacular.id,
+            "title": title,
+            "description": propers_vernacular.description,
+            "additional_info": propers_vernacular.additional_info,
+            "tempora": tempora_name if tempora_name != title else None,
+            "rank": propers_vernacular.rank,
+            "colors": propers_vernacular.colors,
+            "supplements": SUPPLEMENTS_V4.get(propers_vernacular.id) or [],
             "date": day.date.strftime("%Y-%m-%d") if day else None
         }
         retvals.append({

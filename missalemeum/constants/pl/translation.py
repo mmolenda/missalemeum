@@ -1100,3 +1100,230 @@ SUPPLEMENTS = {
         {"label": f"{KDE} na uroczystość Wszystkich Świętych", "path": "http://vetusordo.pl/2019oenuws/"}
     ]
 }
+
+
+OE = "Objaśnienia Ewangelii"
+SUPPLEMENTS_V4 = {
+    constants.TEMPORA_ADV1_0: [
+        {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-Adv1-0"}
+    ],
+    constants.TEMPORA_ADV2_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Adv2-0"}
+    ],
+    constants.TEMPORA_ADV3_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Adv3-0"}
+    ],
+    constants.TEMPORA_ADV4_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Adv4-0"}
+    ],
+    constants.SANCTI_12_24: [
+        {"label": "Boże Narodzenie", "path": "/pl/supplement/3-boze-narodzenie"}
+        ],
+    constants.SANCTI_12_25_1: [
+        {"label": "Boże Narodzenie", "path": "/pl/supplement/3-boze-narodzenie"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-25m1"}
+    ],
+    constants.SANCTI_12_25_2: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-25m2"}
+    ],
+    constants.SANCTI_12_25_3: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-"}
+    ],
+    constants.SANCTI_12_26: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-25m3"}
+    ],
+    constants.TEMPORA_NAT1_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Nat1-0"}
+    ],
+    constants.SANCTI_01_01: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-01-01"}
+    ],
+    constants.SANCTI_01_06: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-01-06"}
+    ],
+    constants.TEMPORA_EPI1_0: [
+        {"label": "Okres po Objawieniu", "path": "/pl/supplement/4-okres-po-objawieniu"}
+    ],
+    constants.TEMPORA_EPI2_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Epi2-0"}
+    ],
+    constants.TEMPORA_EPI3_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Epi3-0"}
+    ],
+    constants.TEMPORA_EPI4_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Epi4-0"}
+    ],
+    constants.TEMPORA_EPI5_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Epi5-0"}
+    ],
+    constants.TEMPORA_QUADP1_0: [
+        {"label": "Przedpoście", "path": "/pl/supplement/5-przedposcie"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quadp1-0"}
+    ],
+    constants.TEMPORA_QUADP2_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quadp2-0"}
+    ],
+    constants.TEMPORA_QUADP3_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quadp3-0"}
+    ],
+    constants.TEMPORA_QUADP3_3: [
+        {"label": "Wielki Post", "path": "/pl/supplement/6-wielki-post"}
+    ],
+    constants.TEMPORA_QUAD1_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad1-0"}
+    ],
+    constants.TEMPORA_QUAD2_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad2-0"}
+    ],
+    constants.TEMPORA_QUAD3_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad3-0"}
+    ],
+    constants.TEMPORA_QUAD4_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad4-0"}
+    ],
+    constants.TEMPORA_QUAD5_0: [
+        {"label": "Okres Męki Pańskiej", "path": "/pl/supplement/8-okres-meki-panskiej"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad5-0"}
+    ],
+    constants.TEMPORA_QUAD6_0: [
+        {"label": "Wielki Tydzień", "path": "/pl/supplement/7-wielki-tydzien"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad6-0"}
+    ],
+    constants.TEMPORA_QUAD6_6: [
+        {"label": "Okres Wielkanocny", "path": "/pl/supplement/9-okres-wielkanocny"}
+    ],
+    constants.TEMPORA_PASC0_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc0-0"}
+    ],
+    constants.TEMPORA_PASC0_1: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc0-1"}
+    ],
+    constants.TEMPORA_PASC1_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc1-0"}
+    ],
+    constants.TEMPORA_PASC2_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc2-0"}
+    ],
+    constants.TEMPORA_PASC3_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc3-0r"}
+    ],
+    constants.TEMPORA_PASC4_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc4-0"}
+    ],
+    constants.TEMPORA_PASC5_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc5-0"}
+    ],
+    constants.TEMPORA_PASC5_4: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc5-4"}
+    ],
+    constants.TEMPORA_PASC6_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc6-0"}
+    ],
+    constants.TEMPORA_PASC6_6: [
+        {"label": "Zesłanie Ducha św.", "path": "/pl/supplement/10-zeslanie-ducha-sw"}
+    ],
+    constants.TEMPORA_PASC7_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc7-0"}
+    ],
+    constants.TEMPORA_PASC7_1: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pasc7-1"}
+    ],
+    constants.TEMPORA_PENT01_0: [
+        {"label": "Okres po Zesłaniu Ducha św.", "path": "/pl/supplement/11-okres-po-zeslaniu-ducha-sw"},
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent01-0r"}
+    ],
+    constants.TEMPORA_PENT01_4: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent01-4"}
+    ],
+    constants.TEMPORA_PENT02_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent02-0r"}
+    ],
+    constants.TEMPORA_PENT03_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent03-0r"}
+    ],
+    constants.TEMPORA_PENT04_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent04-0"}
+    ],
+    constants.TEMPORA_PENT05_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent05-0"}
+    ],
+    constants.TEMPORA_PENT06_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent06-0"}
+    ],
+    constants.TEMPORA_PENT07_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent07-0"}
+    ],
+    constants.TEMPORA_PENT08_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent08-0"}
+    ],
+    constants.TEMPORA_PENT09_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent09-0"}
+    ],
+    constants.TEMPORA_PENT10_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent10-0"}
+    ],
+    constants.TEMPORA_PENT11_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent11-0"}
+    ],
+    constants.TEMPORA_PENT12_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent12-0"}
+    ],
+    constants.TEMPORA_PENT13_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent13-0"}
+    ],
+    constants.TEMPORA_PENT14_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent14-0"}
+    ],
+    constants.TEMPORA_PENT15_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent15-0"}
+    ],
+    constants.TEMPORA_PENT16_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent16-0"}
+    ],
+    constants.TEMPORA_PENT17_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent17-0"}
+    ],
+    constants.TEMPORA_PENT18_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent18-0"}
+    ],
+    constants.TEMPORA_PENT19_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent19-0"}
+    ],
+    constants.TEMPORA_PENT20_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent20-0"}
+    ],
+    constants.TEMPORA_PENT21_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent21-0"}
+    ],
+    constants.TEMPORA_PENT22_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent22-0"}
+    ],
+    constants.TEMPORA_PENT23_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent23-0"}
+    ],
+    constants.TEMPORA_PENT24_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Pent24-0"}
+    ],
+    constants.SANCTI_12_08: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-08"}
+    ],
+    constants.SANCTI_02_02: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-02-02"}
+    ],
+    constants.SANCTI_03_25: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-03-25"}
+    ],
+    constants.SANCTI_06_29: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-06-29"}
+    ],
+    constants.SANCTI_08_15: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-08-15r"}
+    ],
+    constants.SANCTI_09_08: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-09-08"}
+    ],
+    constants.SANCTI_11_01: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-11-01"}
+    ]
+}
