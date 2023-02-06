@@ -351,7 +351,7 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        {!getCookieConsentValue() && <CookieConsent buttonText="OK">{MSG_COOKIES[lang]}</CookieConsent>}
+        {!getCookieConsentValue() && <CookieConsent buttonStyle={{ background: "#e49086" }} buttonText="OK">{MSG_COOKIES[lang]}</CookieConsent>}
       </Container>
     </ThemeProvider>
   );
