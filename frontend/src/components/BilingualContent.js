@@ -12,7 +12,7 @@ import {
   useMediaQuery,
   IconButton,
   Select,
-  MenuItem, Link, Popover
+  MenuItem, Link, Popover, useTheme
 } from "@mui/material";
 import moment from "moment";
 import 'moment/locale/pl';
@@ -67,6 +67,7 @@ export default function BilingualContent(props) {
 }
 
 const ArticleTags = (props) => {
+  const theme = useTheme()
 
   let rankNames = {
     1: CLASS_1[props.lang],
@@ -103,8 +104,8 @@ const ArticleTags = (props) => {
     for (let colorCode of props.info.colors) {
       let tag
       label = colorNames[colorCode]
-      if (colorCode === "w") {
-        tag = <Tag key={label} icon={props.showIcon &&<ShieldOutlinedIcon />} label={label} />
+      if (colorCode === "w" && theme.palette.mode === "light") {
+        tag = <Tag key={label} icon={props.showIcon && <ShieldOutlinedIcon/>} label={label}/>
       } else {
         tag = <Tag key={label} color={`vestment${colorCode}`} icon={props.showIcon &&<ShieldIcon />} label={label} />
       }

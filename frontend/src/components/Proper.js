@@ -13,7 +13,6 @@ import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ListItemText from "@mui/material/ListItemText";
-import {grey} from "@mui/material/colors";
 import SkeletonSidenav from "./SkeletonSidenav";
 
 registerLocale("pl", pl)

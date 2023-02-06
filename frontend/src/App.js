@@ -97,9 +97,9 @@ const getDesignTokens = (mode) => ({
             dark: yellowish,
           },
           secondary: {
-            main: '#b76d6d',
-            light: '#eb9c9b',
-            dark: '#854042',
+            main: '#e49086',
+            light: '#ffc1b6',
+            dark: '#b06159',
           },
           text: {
             primary: yellowish,
@@ -107,7 +107,7 @@ const getDesignTokens = (mode) => ({
             disabled: grey[800]
           },
           vestmentw: {
-            main: '#8d8d8d',
+            main: yellowish,
             contrastText: '#fff',
           },
         }),
@@ -120,15 +120,15 @@ const getDesignTokens = (mode) => ({
           contrastText: '#fff',
         },
         vestmentr: {
-          main: '#b76d6d',
+          main: '#e49086',
           contrastText: '#fff',
         },
         vestmentv: {
-          main: '#92689f',
+          main: '#ad7cbe',
           contrastText: '#fff',
         },
         vestmentg: {
-          main: '#6c8d4d',
+          main: '#91b965',
           contrastText: '#fff',
         },
         vestmentb: {

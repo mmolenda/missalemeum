@@ -19,7 +19,7 @@ export default function SkeletonSidenav() {
 							}}
 					>
 						<Skeleton variant="text" key={`${x}1`} animation="wave" width="70%" height={30} />
-						<Skeleton variant="text" key={`${x}2`} animation="wave" width="40%" height={30} sx={{backgroundColor: "secondary.light"}}/>
+						<Skeleton variant="text" key={`${x}2`} animation="wave" width="40%" height={30} sx={{backgroundColor: "secondary.main"}}/>
 					</SidenavListItem>)
 			}
 			)}
