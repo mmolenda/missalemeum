@@ -1103,7 +1103,7 @@ SUPPLEMENTS = {
 
 
 OE = "Objaśnienia Ewangelii"
-SUPPLEMENTS_V4 = {
+SUPPLEMENTS_V5 = {
     constants.TEMPORA_ADV1_0: [
         {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
         {"label": OE, "path": "/pl/supplement/objasnienia-Adv1-0"}

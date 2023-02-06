@@ -4,7 +4,7 @@ import sys
 import logging
 from flask import render_template, Blueprint, request, send_from_directory, Response
 from jinja2 import TemplateNotFound
-import apiv4
+import apiv5
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH
 
 logging.basicConfig(
@@ -40,7 +40,7 @@ def infer_locale(f):
 def get_body(method, required_kwarg, **kwargs):
     body = None
     if not required_kwarg or kwargs.get(required_kwarg):
-        resp = getattr(apiv4, method)(**kwargs)
+        resp = getattr(apiv5, method)(**kwargs)
         # for failed request response will be a tuple[Response, int]
         if isinstance(resp, Response) and resp.status_code == 200:
             body = resp.json
@@ -54,14 +54,14 @@ def get_body(method, required_kwarg, **kwargs):
 @views.route("/<string:lang>/<string:date_or_id>")
 @infer_locale
 def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
-    body = get_body('v4_proper', 'date_or_id', date_or_id=date_or_id, lang=lang)
+    body = get_body('v5_proper', 'date_or_id', date_or_id=date_or_id, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 
 @views.route("/<string:lang>/ordo")
 @infer_locale
 def ordo(lang: str = LANGUAGE_ENGLISH):
-    body = get_body('v4_ordo', None, lang=lang)
+    body = get_body('v5_ordo', None, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 
@@ -70,7 +70,7 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
 @infer_locale
 def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     print(request.args.get("format"))
-    body = get_body('v4_canticum_by_id', "id_", id_=proper_id, lang=lang)
+    body = get_body('v5_canticum_by_id', "id_", id_=proper_id, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 
@@ -78,7 +78,7 @@ def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @views.route("/<string:lang>/oratio/<string:proper_id>")
 @infer_locale
 def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
-    body = get_body('v4_oratio_by_id', "id_", id_=proper_id, lang=lang)
+    body = get_body('v5_oratio_by_id', "id_", id_=proper_id, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 
@@ -86,7 +86,7 @@ def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @views.route("/<string:lang>/votive/<string:proper_id>")
 @infer_locale
 def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
-    body = get_body('v4_proper', 'date_or_id', date_or_id=proper_id, lang=lang)
+    body = get_body('v5_proper', 'date_or_id', date_or_id=proper_id, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 
@@ -94,7 +94,7 @@ def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @views.route("/<string:lang>/supplement/<string:resource>")
 @infer_locale
 def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
-    body = get_body('v4_supplement', "id_", id_=resource, lang=lang)
+    body = get_body('v5_supplement', "id_", id_=resource, lang=lang)
     return render_template("index.html", body=body, lang=lang)
 
 

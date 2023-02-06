@@ -8,7 +8,7 @@ from werkzeug.routing import BaseConverter, ValidationError
 
 from __version__ import __version__
 from apiv3 import api as apiv3
-from apiv4 import api as apiv4
+from apiv5 import api as apiv5
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
 from views import views
@@ -36,7 +36,7 @@ app.jinja_env.filters['newline2br'] = newline2br
 app.url_map.converters['lang'] = LangConverter
 app.register_blueprint(views)
 app.register_blueprint(apiv3)
-app.register_blueprint(apiv4)
+app.register_blueprint(apiv5)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
 babel = Babel(app)
