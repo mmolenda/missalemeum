@@ -11,6 +11,7 @@ import {SidenavListItem} from "./styledComponents/SidenavListItem";
 import {SEARCH_PLACEHOLDER} from "../intl";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
+import { getCookieConsentValue } from "react-cookie-consent";
 
 export default function ContainerWithSidenav(props) {
   const navigate = useNavigate()
@@ -34,6 +35,7 @@ export default function ContainerWithSidenav(props) {
   const contentComponentRef = createRef()
 
   useEffect(() => {
+    console.log(getCookieConsentValue() )
     props.init(id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
     if (contentComponentRef.current) {
       contentComponentRef.current.scrollTo(0, 0)

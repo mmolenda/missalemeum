@@ -11,6 +11,7 @@ import {
   useNavigate,
   Link as RouterLink
 } from "react-router-dom";
+import { CookieConsent, getCookieConsentValue } from "react-cookie-consent";
 import Info from "./components/Info";
 import Proper from "./components/Proper";
 import Votive from "./components/Votive";
@@ -42,7 +43,7 @@ import {
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER, MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE
+  MENUITEM_VOTIVE, MSG_COOKIES
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -350,6 +351,7 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
+        {!getCookieConsentValue() && <CookieConsent buttonText="OK">{MSG_COOKIES[lang]}</CookieConsent>}
       </Container>
     </ThemeProvider>
   );
