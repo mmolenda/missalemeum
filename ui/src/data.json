@@ -1,0 +1,109 @@
+{
+  "names": [
+    {
+      "date": "2022-05-26",
+      "name": "Wniebowstąpienie"
+    },
+    {
+      "date": "2022-05-27",
+      "name": "Bedy czcigodnego"
+    },
+    {
+      "date": "2022-05-28",
+      "name": "Niedziela po wniebowstąpieniu"
+    }
+  ],
+  "dates": {
+    "2022-05-26": [
+      {
+        "info": {
+          "description": "Wniebowst\u0105pienie jest ukoronowaniem Zmartwychwstania.",
+          "title": "Wniebowst\u0105pienie Pa\u0144skie"
+        },
+        "sections": [
+          {
+            "body": [
+              [
+                "*Dz 1:11*\nM\u0119\u017cowie Galilejscy, czemu stoicie zapatrzeni w niebo? Alleluja.",
+                "*Acta 1:11*\nViri Galil\u01fdi, quid admir\u00e1mini aspici\u00e9ntes in c\u0153lum? allel\u00faja:"
+              ]
+            ],
+            "id": "Introitus",
+            "label": "Introit"
+          },
+          {
+            "body": [
+              [
+                "Wszechmog\u0105cy Bo\u017ce, wierzymy, \u017ce Tw\u00f3j Syn Jednorodzony, nasz Zbawiciel",
+                "Conc\u00e9de, qu\u01fdsumus, omn\u00edpotens Deus: ut, qui hodi\u00e9rna die Unig\u00e9nitum tuum"
+              ]
+            ],
+            "id": "Oratio",
+            "label": "Kolekta"
+          }
+        ]
+      }
+    ],
+    "2022-05-27": [
+      {
+        "info": {
+          "description": "Św. Beda, już za życia nazywany «Czcigodnym»",
+          "title": "Św. Bedy Czcigodnego"
+        },
+        "sections": [
+          {
+            "body": [
+              [
+                "W pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości",
+                "In médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu"
+              ]
+            ],
+            "id": "Introitus",
+            "label": "Introit"
+          },
+          {
+            "body": [
+              [
+                "Boże, który wsławiłeś Swój Kościół nauką św. Bedy, Twego Wyznawcy",
+                "Deus, qui Ecclésiam tuam beáti Bedæ Confessóris tui atque Doctóris"
+              ]
+            ],
+            "id": "Oratio",
+            "label": "Kolekta"
+          }
+        ]
+      }
+    ],
+    "2022-05-28": [
+      {
+        "info": {
+          "description": "Od chwili Wniebowstąpienia Chrystusa cechą charakterystyczną",
+          "title": "Niedziela po Wniebowstąpieniu"
+        },
+        "sections": [
+          {
+            "body": [
+              [
+                "Usłysz, Panie, głos mój, którym wołam, alleluja, do Ciebie mówi serce moje",
+                "Exáudi, Dómine, vocem meam, qua clamávi ad te, allelúja"
+              ]
+            ],
+            "id": "Introitus",
+            "label": "Introit"
+          },
+          {
+            "body": [
+              [
+                "Wszechmogący, wieczny Boże, spraw, aby nasza wola zawsze była Ci oddana",
+                "Omnípotens sempitérne Deus: fac nos tibi semper et devótam"
+              ]
+            ],
+            "id": "Oratio",
+            "label": "Kolekta"
+          }
+        ]
+      }
+    ]
+  }
+}
+
