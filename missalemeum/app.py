@@ -27,7 +27,7 @@ class LangConverter(BaseConverter):
         raise ValidationError()
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='build/static', template_folder='build')
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.jinja_env.filters['slugify'] = slugify
