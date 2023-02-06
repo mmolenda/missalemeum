@@ -82,7 +82,7 @@ const getDesignTokens = (mode) => ({
           },
           vestmentw: {
             main: '#d3d3d3',
-            contrastText: '#fff',
+            contrastText: '#fff'
           },
         }
       : {
@@ -108,7 +108,7 @@ const getDesignTokens = (mode) => ({
           },
           vestmentw: {
             main: yellowish,
-            contrastText: '#fff',
+            contrastText: '#fff'
           },
         }),
         yellowish: {

@@ -104,7 +104,7 @@ const ArticleTags = (props) => {
     for (let colorCode of props.info.colors) {
       let tag
       label = colorNames[colorCode]
-      if (colorCode === "w" && theme.palette.mode === "light") {
+      if ((colorCode === "w" && theme.palette.mode === "light") || !props.showIcon) {
         tag = <Tag key={label} icon={props.showIcon && <ShieldOutlinedIcon/>} label={label}/>
       } else {
         tag = <Tag key={label} color={`vestment${colorCode}`} icon={props.showIcon &&<ShieldIcon />} label={label} />
