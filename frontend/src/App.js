@@ -11,7 +11,7 @@ import {
   useNavigate,
   Link as RouterLink
 } from "react-router-dom";
-import { CookieConsent, getCookieConsentValue } from "react-cookie-consent";
+import { CookieConsent } from "react-cookie-consent";
 import Info from "./components/Info";
 import Proper from "./components/Proper";
 import Votive from "./components/Votive";
@@ -43,7 +43,7 @@ import {
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER, MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE, MSG_COOKIES
+  MENUITEM_VOTIVE, MSG_COOKIES, MSG_POLICY_LINK
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -351,7 +351,13 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        {!getCookieConsentValue() && <CookieConsent buttonStyle={{ background: "#e49086" }} buttonText="OK">{MSG_COOKIES[lang]}</CookieConsent>}
+        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: "#424242" }}
+                       buttonStyle={{ background: "#e49086" }} buttonText="OK">
+          {MSG_COOKIES[lang]}
+          <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
+            {MSG_POLICY_LINK[lang]}
+          </Link>
+        </CookieConsent>
       </Container>
     </ThemeProvider>
   );

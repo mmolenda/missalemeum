@@ -1,0 +1,62 @@
+info:
+  additional_info: []
+  title: Privacy Policy
+
+sections:
+- body:
+  -
+    - |
+        1. By using the Missale Meum website, you accept the Privacy Policy.
+        
+        2. The collected data is sent in two ways:
+        
+            a) information provided directly and voluntarily by the User in the contact form
+            
+            b) information obtained during the use of the website by Users. The servers automatically collect the following User data:
+            
+            - time of sending the response by the server,
+            - the IP address of the User's device,
+            - the User's request (address of the page the User entered),
+            - "referrer link" address if the website was accessed via a link,
+            - information about the version of the User's web browser,
+            - information about the version of the User's operating system.
+        
+        3. As part of the operation of the Missale Meum website, cookies are also used, which are saved in the Users' 
+        end devices. Cookie files are small text files sent by the visited website to the User's device.
+
+        4. The Missale Meum website uses two types of cookies:
+        
+            a) "session" (session cookies, session storage) - temporary files that are stored on the User's end device 
+            until the session expires (e.g. leaving the website, deleting them by the User or turning off the browser).
+            
+            b) "permanent" (persistent cookies, local storage) - stored on the User's end device for the time specified 
+            in the cookie file parameters or until they are deleted by the User.
+        
+        5. Each User can individualize their cookie settings in the browser. If you do not change these settings, 
+        this means that you accept the cookies used by the Missale Meum service.
+        
+        6. Most often, web browsers allow cookies to be stored on the User's computer by default. Internet users can 
+        change these settings by themselves at any time, including blocking cookies. It should be remembered, however, 
+        that changes to cookie settings consisting in limiting their use may cause that some functions of the 
+        Missale Meum website may not work properly.
+        
+        7. The Missale Meum website uses cookies to:
+        
+            - support statistics scripts,
+            - saving website settings between subsequent visits
+          
+        8. For the above purposes, Missale Meum uses Internet tracking technologies that are common on the market for 
+        traffic monitoring. The Missale Meum website collects anonymous data about the websites you visit, such as:
+        
+            - number of unique visits/views,
+            - country,
+            - browser,
+            - visit time.
+            - Data is collected using third-party solutions. We currently use Google Analytics. Please read 
+            the details of the [Google Analytics privacy policy](https://support.google.com/analytics/answer/6004245).
+        
+        9. We reserve the right to change the Privacy Policy by publishing its new content on the website www.missalemeum.com.
+        
+        10. You can contact us at any time at contact@missalemeum.com or via the contact form on the [Information](/en/info) page.
+  id: ''
+  label: ''

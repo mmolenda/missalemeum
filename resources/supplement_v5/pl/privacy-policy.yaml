@@ -1,0 +1,67 @@
+info:
+  additional_info: []
+  title: Polityka Prywatności
+
+sections:
+- body:
+  -
+    - |
+        1. Korzystając z serwisu Missale Meum, akceptujesz zasady Polityki Prywatności.
+        
+        2. Gromadzone dane przesyłane są na dwa sposoby:
+        
+            a) informacje podawane bezpośrednio i dobrowolnie przez Użytkownika w formularzu kontaktowym
+            
+            b) informacje pozyskiwane w trakcie korzystania z serwisu przez Użytkowników. Serwery automatycznie zapisują
+            następujące dane Użytkownika:
+        
+            - czas wysłania odpowiedzi przez serwer,
+            - adres IP urządzenia Użytkownika, 
+            - żądanie Użytkownika (adres strony, na którą wszedł Użytkownik), 
+            - adres „referer link” w przypadku, gdy przejście na stronę nastąpiło przez odnośnik, 
+            - informacje o wersji przeglądarki internetowej (stron www) Użytkownika,
+            - informacje o wersji systemu operacyjnego Użytkownika.
+        
+        3. W ramach działalności serwisu Missale Meum wykorzystywane są również pliki cookies zapisywane w urządzeniach 
+        końcowych Użytkowników. Pliki cookies (tzw. ciasteczka) to niewielkie pliki tekstowe wysyłane przez odwiedzany 
+        serwis internetowy do urządzenia Użytkownika.
+        
+        4. Serwis Missale Meum stosuje dwa rodzaje plików cookies:
+        
+            a) „sesyjne” (session cookies, session storage) - pliki tymczasowe, które przechowywane są w urządzeniu 
+        końcowym Użytkownika do czasu wygaśnięcia sesji (np. opuszczenia strony internetowej, usunięcia ich przez 
+        Użytkownika lub wyłączenia przeglądarki).
+            
+            b) „stałe” (persistent cookies, local storage) - przechowywane w urządzeniu końcowym Użytkownika przez czas 
+        określony w parametrach plików cookies lub do czasu ich usunięcia przez Użytkownika.
+        
+        5. Każdy Użytkownik może zindywidualizować swoje ustawienia dotyczące plików cookies w przeglądarce. 
+        Brak zmiany tych ustawień oznacza akceptację dla plików cookies stosowanych w serwisie Missale Meum.
+        
+        6. Najczęściej przeglądarki internetowe domyślnie dopuszczają przechowywanie plików cookies na komputerze 
+        Użytkownika. Internauci mogą samodzielnie w każdym momencie zmienić te ustawienia, w tym zablokować pliki 
+        cookies. Pamiętać trzeba jednak, że zmiany ustawień plików cookies polegające na ograniczeniu ich stosowania 
+        mogą spowodować, iż niektóre funkcje serwisu Missale Meum mogą nie działać poprawnie.
+        
+        7. Serwis Missale Meum używa plików cookies w celu:
+        
+            - obsługi skryptów statystyk,
+            - zapisywania ustawień serwisu pomiędzy kolejnymi wizytami
+        
+        8. W powyższych celach stosowane są przez Missale Meum powszechne na rynku internetowe technologie obserwowania 
+        służące monitoringowi ruchu. Serwis Missale Meum gromadzi anonimowe dane dotyczące odwiedzanych stron, takie jak: 
+        
+            - liczba wejść unikalnych/odsłon,
+            - kraj, 
+            - przeglądarka,
+            - czas wizyty.
+        
+            Dane są gromadzone za pomocą rozwiązań zewnętrznych dostawców. Obecnie używamy Google Analytics.
+            Prosimy o zapoznanie się ze szczegółami 
+            [polityki prywatności Google Analytics](https://support.google.com/analytics/answer/6004245).
+        
+        9. Zastrzegamy prawo zmiany Polityki Prywatności poprzez opublikowanie jej nowej treści w serwisie www.missalemeum.com.
+        10. W każdej chwili można skontaktować się z nami pod adresem kontakt@missalemeum.com lub poprzez formularz 
+        kontaktowy na stronie [Informacje](/pl/info).
+  id: ''
+  label: ''
