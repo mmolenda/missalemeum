@@ -35,7 +35,6 @@ export default function ContainerWithSidenav(props) {
   const contentComponentRef = createRef()
 
   useEffect(() => {
-    console.log(getCookieConsentValue() )
     props.init(id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
     if (contentComponentRef.current) {
       contentComponentRef.current.scrollTo(0, 0)

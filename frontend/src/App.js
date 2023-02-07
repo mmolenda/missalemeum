@@ -11,7 +11,7 @@ import {
   useNavigate,
   Link as RouterLink
 } from "react-router-dom";
-import { CookieConsent } from "react-cookie-consent";
+import { CookieConsent, getCookieConsentValue } from "react-cookie-consent";
 import Info from "./components/Info";
 import Proper from "./components/Proper";
 import Votive from "./components/Votive";
@@ -284,6 +284,7 @@ const App = () => {
 const Layout = () => {
   const {lang} = useParams()
   const navigate = useNavigate()
+  const location = useLocation();
   const [drawerOpened, setDrawerOpened] = useState(false)
   const [darkMode, setDarkMode] = useState(undefined)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
@@ -295,7 +296,17 @@ const Layout = () => {
     if (lang !== undefined && !supportedLanguages.includes(lang)) {
       navigate(`/${defaultLanguage}/404`)
     }
-  }, [])
+  })
+
+  useEffect(() => {
+    if (getCookieConsentValue()) {
+      window.gtag("event", "page_view", {
+        page_path: location.pathname + location.search + location.hash,
+        page_search: location.search,
+        page_hash: location.hash,
+      })
+    }
+  }, [location])
 
   const getThemeMode = () => {
     return ((darkMode === undefined && prefersDark) || darkMode) ? "dark" : "light"
@@ -363,7 +374,7 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        <CookieConsent enableDeclineButton debug={true} declineButtonStyle={{ background: "#424242" }}
+        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: "#424242" }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
           {MSG_COOKIES[lang]}
           <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
