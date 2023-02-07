@@ -33,9 +33,8 @@ import {
   VESTMENTS_WHITE
 } from "../intl";
 import Tag from "./styledComponents/Tag";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import SkeletonContent from "./SkeletonContent";
+import Md from "./styledComponents/Md";
 
 
 const xVernacular = 'x-vernacular'
@@ -167,21 +166,20 @@ const Article = (props) => {
   }
 
   const print = () => {
-    let fmt = (text) => (props.markdownNewlines) ? text : text.replace(/\\n/g, '\n').replace(/\n/g, '  \n')
     let newWindow = window.open('','', "width=650, height=750");
     let newContent = (
       <html>
       <body style={{margin: "4%", minWidth: "300px"}}>
       <h1>{content.info.title}</h1>
       <ArticleTags info={content.info} lang={props.lang} showIcon={false} />
-      {content.info.description && <p>{content.info.description}</p>}
+      {content.info.description && <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />}
       {content.sections.map((section) => {
         return <div>
           {section.label && <h2>{section.label}</h2>}
           {section.body.map((paragraph) => {
             return (paragraph.length === 1) ?
-              <div><div>{<ReactMarkdown children={fmt(paragraph[0])} remarkPlugins={[remarkGfm]} />}</div></div> :
-              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}><div style={{marginRight: "5%"}}>{<ReactMarkdown children={fmt(paragraph[0])} remarkPlugins={[remarkGfm]} />}</div><div>{<ReactMarkdown children={fmt(paragraph[1])} remarkPlugins={[remarkGfm]} />}</div></div>
+              <div><div><Md text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div></div> :
+              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}><div style={{marginRight: "5%"}}><Md text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div><div><Md text={paragraph[1]} markdownNewlines={props.markdownNewlines} /></div></div>
           })}
         </div>
       })}
@@ -248,9 +246,9 @@ const Article = (props) => {
           <Box sx={{ padding: "0.5rem" }}>
             <ArticleTags info={content.info} lang={props.lang} showIcon={true} />
           </Box>
-          <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
-            {content.info.description}
-          </Typography>
+          {content.info.description && <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
+            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />
+          </Typography>}
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
               {`Suplement: `}
@@ -361,7 +359,6 @@ const BilingualSection = (props) => {
 
 const BilingualSectionParagraph = (props) => {
   let show = (!(useMediaQuery((theme) => theme.breakpoints.down('sm')) && props.bilingualLangClass !== props.bilingualLang) || props.singleColumn);
-  let text = (props.markdownNewlines) ? props.text : props.text.replace(/\\n/g, '\n').replace(/\n/g, '  \n')
   return (
     <Typography
       component="div"
@@ -375,11 +372,7 @@ const BilingualSectionParagraph = (props) => {
         padding: "0.5rem"
       }}
     >
-      <ReactMarkdown children={text} remarkPlugins={[remarkGfm]} components={{
-        "h3": (props) => <Typography variant="h3">{props.children[0]}</Typography>,
-        "h4": (props) => <Typography variant="h4">{props.children[0]}</Typography>,
-        "a": (props) => <Link component={RouterLink} to={{pathname: props.href}} target='_blank' href='#'>{props.children[0]}</Link>
-      }}/>
+      <Md text={props.text} markdownNewlines={props.markdownNewlines} />
     </Typography>
   )
 }
