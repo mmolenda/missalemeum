@@ -85,6 +85,18 @@ const getDesignTokens = (mode) => ({
             main: '#d3d3d3',
             contrastText: '#fff'
           },
+          vestmentr: {
+            main: '#b76d6d',
+            contrastText: '#fff',
+          },
+          vestmentv: {
+            main: '#92689f',
+            contrastText: '#fff',
+          },
+          vestmentg: {
+            main: '#6c8d4d',
+            contrastText: '#fff',
+          }
         }
       : {
           // palette values for dark mode
@@ -111,6 +123,18 @@ const getDesignTokens = (mode) => ({
             main: yellowish,
             contrastText: '#fff'
           },
+          vestmentr: {
+            main: '#e49086',
+            contrastText: '#fff',
+          },
+          vestmentv: {
+            main: '#ad7cbe',
+            contrastText: '#fff',
+          },
+          vestmentg: {
+            main: '#91b965',
+            contrastText: '#fff',
+          },
         }),
         yellowish: {
           main: yellowish,
@@ -118,18 +142,6 @@ const getDesignTokens = (mode) => ({
         },
         appbarDarkGrey: {
           main: appbarDarkGrey,
-          contrastText: '#fff',
-        },
-        vestmentr: {
-          main: '#e49086',
-          contrastText: '#fff',
-        },
-        vestmentv: {
-          main: '#ad7cbe',
-          contrastText: '#fff',
-        },
-        vestmentg: {
-          main: '#91b965',
           contrastText: '#fff',
         },
         vestmentb: {
