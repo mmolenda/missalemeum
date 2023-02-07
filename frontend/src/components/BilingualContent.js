@@ -213,7 +213,7 @@ const Article = (props) => {
                 horizontal: 'left',
               }}
             >
-              <Typography sx={{ p: 1 }}>{MSG_ADDRESS_COPIED[props.lang]}</Typography>
+              <Typography sx={{ p: 2 }}>{MSG_ADDRESS_COPIED[props.lang]}</Typography>
             </Popover>
           </IconButton>
           <IconButton onClick={() => print()}>

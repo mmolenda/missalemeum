@@ -21,3 +21,5 @@ export const MSG_COOKIES = {"en": "This website uses cookies. ",
 														"pl": "Ta strona wykorzystuje ciasteczka (cookies). "}
 export const MSG_POLICY_LINK = {"en": "Private Policy.",
 														    "pl": "Polityka Prywatności"}
+export const MSG_POLICY_DECLINE_BUTTON = {"en": "No, thanks",
+														    "pl": "Nie, dziękuję"}

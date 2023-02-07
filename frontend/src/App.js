@@ -43,7 +43,7 @@ import {
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER, MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE, MSG_COOKIES, MSG_POLICY_LINK
+  MENUITEM_VOTIVE, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -363,8 +363,8 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: "#424242" }}
-                       buttonStyle={{ background: "#e49086" }} buttonText="OK">
+        <CookieConsent enableDeclineButton debug={true} declineButtonStyle={{ background: "#424242" }}
+                       buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
           {MSG_COOKIES[lang]}
           <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
             {MSG_POLICY_LINK[lang]}
