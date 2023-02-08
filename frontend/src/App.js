@@ -297,7 +297,7 @@ const Layout = () => {
   })
 
   useEffect(() => {
-    if (getCookieConsentValue() === "true") {
+    if (getCookieConsentValue() === "true" && window.location.hostname.endsWith("missalemeum.com")) {
       window.gtag("event", "page_view", {
         page_path: location.pathname + location.search + location.hash,
         page_search: location.search,
