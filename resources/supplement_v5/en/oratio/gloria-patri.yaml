@@ -1,0 +1,20 @@
+info:
+  additional_info:
+  - Glory Be
+  title: Gloria Patri
+sections:
+- body:
+  -
+    - |
+        Glory be to the Father, and to the Son:
+        and to the Holy Ghost;
+        As it was in the beginning, is now, and ever shall be:
+        world without end. Amen.
+
+    - |
+        Gloria Patri, et Filio, et Spiritui Sancto.   
+        Sicut erat in principio, et nunc, et semper,   
+        et in saecula  saeculorum. Amen.
+  id: ''
+  label: ''
+
