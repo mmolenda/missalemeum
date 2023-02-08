@@ -12,7 +12,6 @@ import {
   Link as RouterLink
 } from "react-router-dom";
 import { CookieConsent, getCookieConsentValue } from "react-cookie-consent";
-import Info from "./components/Info";
 import Proper from "./components/Proper";
 import Votive from "./components/Votive";
 import Oratio from "./components/Oratio";
@@ -47,7 +46,6 @@ import {
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
-import SupplementIndex from "./components/SupplementIndex";
 import Supplement from "./components/Supplement";
 import Logo from "./components/Logo";
 
@@ -262,7 +260,6 @@ const App = () => {
         <Route exact path="/" element={<Proper/>}/>
         <Route path=":lang" element={<Proper/>}/>
         <Route path=":lang/:id" element={<Proper/>}/>
-        <Route path=":lang/info" element={<Info/>}/>
         <Route path=":lang/ordo" element={<Ordo/>}/>
         <Route path=":lang/votive" element={<Votive/>}/>
         <Route path=":lang/votive/:id" element={<Votive/>}/>
@@ -270,7 +267,6 @@ const App = () => {
         <Route path=":lang/oratio/:id" element={<Oratio/>}/>
         <Route path=":lang/canticum" element={<Canticum/>}/>
         <Route path=":lang/canticum/:id" element={<Canticum/>}/>
-        <Route path=":lang/supplement" element={<SupplementIndex/>}/>
         <Route path=":lang/supplement/:id" element={<Supplement/>}/>
         <Route path=":lang/error" element={<Error/>}/>
         <Route path=":lang/404" element={<NotFound/>}/>
@@ -404,7 +400,11 @@ const LeftHandMenu = (props) => {
     let pathSplit = location.pathname.split("/")
     let datePattern = /^[\d-]+$/
     if (routeSplit.length < 3) {
+      // /pl or /pl/2022-02-02
       return route === location.pathname || datePattern.test(pathSplit[pathSplit.length - 1])
+    }
+    if (["info", "index"].includes(pathSplit[pathSplit.length - 1])) {
+      return location.pathname === route
     }
     return location.pathname.startsWith(route)
   }
@@ -426,8 +426,8 @@ const LeftHandMenu = (props) => {
           [MENUITEM_VOTIVE[props.lang]]: `/${props.lang}/votive`,
           [MENUITEM_ORATIO[props.lang]]: `/${props.lang}/oratio`,
           [MENUITEM_CANTICUM[props.lang]]: `/${props.lang}/canticum`,
-          [MENUITEM_SUPPLEMENT[props.lang]]: `/${props.lang}/supplement`,
-          [MENUITEM_INFO[props.lang]]: `/${props.lang}/info`
+          [MENUITEM_SUPPLEMENT[props.lang]]: `/${props.lang}/supplement/index`,
+          [MENUITEM_INFO[props.lang]]: `/${props.lang}/supplement/info`
         }).map(([label, route]) => (
           <ListItem key={label}>
             <ListItemButton
@@ -453,13 +453,13 @@ const LeftHandMenu = (props) => {
             <ToggleButton onClick={() => props.toggleDarkMode(true)} value="dark" selected={props.darkMode === true}><DarkModeIcon /></ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
-        <ListItem key="font">
-          <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="small"> A </ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="normal" selected={true}>A</ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="large">A</ToggleButton>
-          </ToggleButtonGroup>
-        </ListItem>
+        {/*<ListItem key="font">*/}
+        {/*  <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">*/}
+        {/*    <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="small"> A </ToggleButton>*/}
+        {/*    <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="normal" selected={true}>A</ToggleButton>*/}
+        {/*    <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="large">A</ToggleButton>*/}
+        {/*  </ToggleButtonGroup>*/}
+        {/*</ListItem>*/}
       </List>
     </Box>
 )}

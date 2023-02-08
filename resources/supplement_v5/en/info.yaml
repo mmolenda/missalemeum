@@ -1,0 +1,33 @@
+info:
+  additional_info: []
+  title: About
+
+sections:
+- body:
+  -
+    - |
+        Website **Missale Meum** has been established for God's greater glory and for people's avail. The site incorporates 
+        a complete liturgical calendar with propers and other texts used in the Tridentine Mass and presents them in a 
+        comprehensible manner.
+
+        English and Latin texts come from the venerable website [Divinum Officium](https://www.divinumofficium.com/).
+        Some parts of Ordo have been borrowed from [Fish Eaters](https://www.fisheaters.com/). The project's codebase 
+        is available in [github repository](https://github.com/mmolenda/missalemeum). This website is a private project 
+        and does not represent any official organization or group.
+
+        ### Support
+
+        *«The harvest indeed is great, but the labourers are few.»* – says our Lord Jesus Christ.
+
+        If you appreciate Missale Meum project, you can help improve it:
+
+        - by offering prayers for the project and its authors,
+        - by providing your feedback – every opinion, suggestion, idea, error report is invaluable and motivates further work,
+        - by disseminating the project,
+        - by providing content, such as missing texts, bible commentaries, etc.,
+
+        ### Contact
+
+        All opinions, suggestions, ideas, error reports, etc., can be directed through the email address marcin@missalemeum.com.
+  id: ''
+  label: ''

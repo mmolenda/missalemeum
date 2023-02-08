@@ -3,6 +3,8 @@ import ReactMarkdown from "react-markdown";
 import {Link, Typography} from "@mui/material";
 import {Link as RouterLink} from "react-router-dom";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+
 
 export default function Md(props) {
   let text = (props.markdownNewlines) ? props.text : props.text.replace(/\\n/g, '\n').replace(/\n/g, '  \n')
@@ -10,6 +12,7 @@ export default function Md(props) {
     <ReactMarkdown
       children={text}
       remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeRaw]}
       components={{
         "h3": (props) => <Typography variant="h3">{props.children[0]}</Typography>,
         "h4": (props) => <Typography variant="h4">{props.children[0]}</Typography>,
