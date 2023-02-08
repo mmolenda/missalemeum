@@ -11,11 +11,10 @@ import {SidenavListItem} from "./styledComponents/SidenavListItem";
 import {SEARCH_PLACEHOLDER} from "../intl";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
-import { getCookieConsentValue } from "react-cookie-consent";
 
 export default function ContainerWithSidenav(props) {
   const navigate = useNavigate()
-  const apiUrlBase = "http://localhost:8000"
+  const apiUrlBase = process.env.REACT_APP_API_URL || ""
   const {lang} = useParams()
   const {id} = useParams()
   const queryParameters = new URLSearchParams(window.location.search)
