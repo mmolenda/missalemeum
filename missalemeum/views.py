@@ -3,7 +3,7 @@ import os
 import sys
 import logging
 from flask import render_template, Blueprint, request, send_from_directory, Response
-from jinja2 import TemplateNotFound
+import __version__
 import apiv5
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH
 
@@ -17,12 +17,8 @@ views = Blueprint("views", __name__)
 body_404 = [{"info": {"title": "404"}, "sections": [{"label": "", "body": [["Page not found"]]}]}]
 
 
-
-def render_template_or_404(template, lang, **context):
-    try:
-        return render_template(template, lang=lang, **context)
-    except TemplateNotFound:
-        return render_template('index.html', body=body_404, lang=lang), 404
+def render_index(lang, body=None):
+    return render_template("index.html", lang=lang, body=body, version=__version__.__version__)
 
 
 def infer_locale(f):
@@ -30,7 +26,7 @@ def infer_locale(f):
     def decorated_function(*args, **kwargs):
         if 'lang' in kwargs:
             if kwargs['lang'] not in LANGUAGES.keys():
-                return render_template('index.html', body=body_404, lang=LANGUAGE_ENGLISH), 404
+                return render_index(LANGUAGE_ENGLISH, body_404), 404
         else:
             kwargs['lang'] = request.accept_languages.best_match(LANGUAGES.keys())
         return f(*args, **kwargs)
@@ -55,14 +51,14 @@ def get_body(method, required_kwarg, **kwargs):
 @infer_locale
 def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
     body = get_body('v5_proper', 'date_or_id', date_or_id=date_or_id, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/ordo")
 @infer_locale
 def ordo(lang: str = LANGUAGE_ENGLISH):
     body = get_body('v5_ordo', None, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/canticum")
@@ -71,7 +67,7 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
 def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     print(request.args.get("format"))
     body = get_body('v5_canticum_by_id', "id_", id_=proper_id, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/oratio")
@@ -79,7 +75,7 @@ def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @infer_locale
 def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     body = get_body('v5_oratio_by_id', "id_", id_=proper_id, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/votive")
@@ -87,7 +83,7 @@ def oratio(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @infer_locale
 def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     body = get_body('v5_proper', 'date_or_id', date_or_id=proper_id, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/supplement")
@@ -95,13 +91,13 @@ def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 @infer_locale
 def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
     body = get_body('v5_supplement', "id_", id_=resource, lang=lang)
-    return render_template("index.html", body=body, lang=lang)
+    return render_index(lang, body)
 
 
 @views.route("/<string:lang>/info")
 @infer_locale
 def info(lang: str = LANGUAGE_ENGLISH):
-    return render_template("index.html", body=None, lang=lang)
+    return render_index(lang)
 
 
 @views.route("/service-worker.js")

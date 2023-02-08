@@ -106,8 +106,8 @@ const getDesignTokens = (mode) => ({
           },
           primary: {
             main: yellowish,
-            light: yellowish,
-            dark: yellowish,
+            light: '#fff',
+            dark: '#c9c8c6',
           },
           secondary: {
             main: '#e49086',
@@ -282,6 +282,7 @@ const App = () => {
 
 
 const Layout = () => {
+  const version = document.querySelector('meta[name="version"]').content
   const {lang} = useParams()
   const navigate = useNavigate()
   const location = useLocation();
@@ -378,7 +379,11 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: "#424242" }}
+        <Container sx={{width: {"md": "900px", display: "flex", justifyContent: "space-between"}}}>
+          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
+          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
+        </Container>
+        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: appbarDarkGrey }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
           {MSG_COOKIES[lang]}
           <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
