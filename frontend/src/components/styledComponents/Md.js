@@ -16,7 +16,11 @@ export default function Md(props) {
       components={{
         "h3": (props) => <Typography variant="h3">{props.children[0]}</Typography>,
         "h4": (props) => <Typography variant="h4">{props.children[0]}</Typography>,
-        "a": (props) => <Link component={RouterLink} to={{pathname: props.href}} target='_blank' href='#'>{props.children[0]}</Link>
+        "a": (props) => <Link
+                              component={RouterLink}
+                              to={{pathname: props.href}}
+                              target={(props.href.startsWith("http") ? "_blank" : "")}
+                              href='#'>{props.children[0]}</Link>
       }}
     />
   )
