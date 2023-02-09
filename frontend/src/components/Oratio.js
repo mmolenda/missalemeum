@@ -20,7 +20,7 @@ export default function Oratio() {
       getContentUrl={getContentUrl}
       getSidenavItemsUrl={getSidenavItemsUrl}
       sidenavPath={path}
-      markdownNewlines={true}
+      markdownNewlines
     />
   )
 }

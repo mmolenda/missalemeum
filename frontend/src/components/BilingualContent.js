@@ -35,6 +35,7 @@ import {
 import Tag from "./styledComponents/Tag";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
+import MdPrintable from "./styledComponents/MdPrintable";
 
 
 const xVernacular = 'x-vernacular'
@@ -172,14 +173,14 @@ const Article = (props) => {
       <body style={{margin: "4%", minWidth: "300px"}}>
       <h1>{content.info.title}</h1>
       <ArticleTags info={content.info} lang={props.lang} showIcon={false} />
-      {content.info.description && <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />}
+      {content.info.description && <MdPrintable text={content.info.description} markdownNewlines={props.markdownNewlines} />}
       {content.sections.map((section) => {
         return <div>
           {section.label && <h2>{section.label}</h2>}
           {section.body.map((paragraph) => {
             return (paragraph.length === 1) ?
-              <div><div><Md text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div></div> :
-              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}><div style={{marginRight: "5%"}}><Md text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div><div><Md text={paragraph[1]} markdownNewlines={props.markdownNewlines} /></div></div>
+              <div><div><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div></div> :
+              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}><div style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div><div><MdPrintable text={paragraph[1]} markdownNewlines={props.markdownNewlines} /></div></div>
           })}
         </div>
       })}
@@ -244,7 +245,7 @@ const Article = (props) => {
             </Typography>
           }
           <Box sx={{ padding: "0.5rem" }}>
-            <ArticleTags info={content.info} lang={props.lang} showIcon={true} />
+            <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
           {content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
             <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />

@@ -20,7 +20,7 @@ export default function Canticum() {
       getContentUrl={getContentUrl}
       getSidenavItemsUrl={getSidenavItemsUrl}
       sidenavPath={path}
-      markdownNewlines={true}
+      markdownNewlines
     />
   )
 }

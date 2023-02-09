@@ -42,7 +42,7 @@ export default function Proper() {
       sidenav={<Sidenav/>}
       extraTools={<MyDatePicker/>}
       sidenavPath={path}
-      singleColumnAsRubric={true}
+      singleColumnAsRubric
     />
   )
 }
@@ -101,7 +101,7 @@ const Sidenav = (props) => {
         {prevYear &&
           <SidenavListItem
             key={prevYear}
-            disableGutters={true}
+            disableGutters
           >
             <ListItemButton
               component={RouterLink}
@@ -140,7 +140,7 @@ const Sidenav = (props) => {
             <SidenavListItem
               key={indexItem.id}
               ref={listItemRef}
-              disableGutters={true}
+              disableGutters
               sx={{
                   boxShadow: (isLastDayOfMonth) ? 1 : 0,
                   borderTop: (isSunday) ? "2px solid" : "",
@@ -169,7 +169,7 @@ const Sidenav = (props) => {
         {nextYear &&
           <SidenavListItem
             key={nextYear}
-            disableGutters={true}
+            disableGutters
           >
             <ListItemButton
               component={RouterLink}

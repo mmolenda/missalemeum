@@ -23,12 +23,12 @@ export default function Ordo() {
       getSidenavItemsUrl={getSidenavItemsUrl}
       sidenav={<Sidenav/>}
       sidenavPath={path}
-      singleColumnAsRubric={true}
+      singleColumnAsRubric
       // We need container height fixed to 100vh in order to make react-scroll spy/hash/etc.
       // working in this setup. On the other hand height: 100% is preferable so the address bar
       // hides nicely on mobile. This workaround makes it looking 100% correct on mobile for all but Ordo,
       // where scroll works good at the cost of address bar not hiding on mobile. Refactor in further releases.
-      fixedContainerHeight={true}
+      fixedContainerHeight
     />
   )
 }
@@ -52,15 +52,15 @@ const Sidenav = (props) => {
           return <SidenavListItem
             key={indexItem.id}
             ref={myRef}
-            disableGutters={true}
+            disableGutters
           >
             <ScrollLink
               href="#"
               activeClass="sidenavItemActive"
               to={indexItem.id}
               containerId="content"
-              spy={true}
-              hashSpy={true}
+              spy
+              hashSpy
               onSetActive={(sidenavItemId) => {
                 props.setSidenavHidden(true)
                 scrollToListItem(sidenavItemId)

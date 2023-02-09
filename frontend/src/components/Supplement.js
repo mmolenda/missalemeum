@@ -12,8 +12,8 @@ export default function Supplement() {
     <ContainerWithSidenav
       init={init}
       getContentUrl={getContentUrl}
-      sidenavDisabled={true}
-      markdownNewlines={true}
+      sidenavDisabled
+      markdownNewlines
     />
   )
 }

@@ -345,7 +345,7 @@ const Layout = () => {
         })}
       />
       <NewReleaseDialog lang={lang} version={version} debug={debug} />
-      <Container disableGutters={true} sx={{backgroundColor: "background.default"}}>
+      <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
             <>

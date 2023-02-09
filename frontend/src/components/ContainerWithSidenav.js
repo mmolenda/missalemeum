@@ -132,7 +132,7 @@ export default function ContainerWithSidenav(props) {
   </Box>
 
   return (
-    <Container disableGutters={true} sx={{width: {"md": "900px"}, display: 'flex', overflow: 'hidden', height: (props.fixedContainerHeight) ? "100vh" : "100%"}}>
+    <Container disableGutters sx={{width: {"md": "900px"}, display: 'flex', overflow: 'hidden', height: (props.fixedContainerHeight) ? "100vh" : "100%"}}>
       {!sidenavDisabled ? <><Slide in={!sidenavHidden} direction="right" appear={false}>
         <Box sx={{overflowY: 'scroll', width: '100%', pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`, height: (!sidenavHidden) ? "100%" : "80vh"}}>
           <SidenavToolbox
@@ -196,7 +196,7 @@ const Sidenav = (props) => {
             <SidenavListItem
               key={indexItem.id}
               ref={listItemRef}
-              disableGutters={true}
+              disableGutters
             >
               <ListItemButton
                 component={RouterLink}

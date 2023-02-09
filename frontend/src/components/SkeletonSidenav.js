@@ -10,7 +10,7 @@ export default function SkeletonSidenav() {
 				return (
 					<SidenavListItem
 							key={x}
-							disableGutters={true}
+							disableGutters
 							sx={{
 								display: "flex",
 								flexDirection: "column",
