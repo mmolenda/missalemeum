@@ -48,7 +48,8 @@ import NotFound from "./components/NotFound";
 import Error from "./components/Error";
 import Supplement from "./components/Supplement";
 import Logo from "./components/Logo";
-import NewReleaseDialog from "./components/NewReleaseDialog";
+import ReleaseNotes from "./components/ReleaseNotes";
+import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
@@ -344,7 +345,7 @@ const Layout = () => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      <NewReleaseDialog lang={lang} version={version} debug={debug} />
+      <ReleaseNotes lang={lang} version={version} debug={debug} />
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -378,10 +379,10 @@ const Layout = () => {
           </Toolbar>
         </AppBar>
         <Outlet/>
-        <Container sx={{width: {"md": "900px", display: "flex", justifyContent: "space-between"}}}>
+        <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
-        </Container>
+        </ContainerMedium>
         <CookieConsent enableDeclineButton debug={debug} declineButtonStyle={{ background: appbarDarkGrey }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
           {MSG_COOKIES[lang]}

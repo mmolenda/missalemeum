@@ -3,7 +3,7 @@ import {useParams, Link as RouterLink, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
-import {Box, Container, IconButton, InputAdornment, ListItemButton, OutlinedInput, Slide} from "@mui/material";
+import {Box, IconButton, InputAdornment, ListItemButton, OutlinedInput, Slide} from "@mui/material";
 import List from "@mui/material/List";
 import CancelIcon from '@mui/icons-material/Cancel';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -11,6 +11,7 @@ import {SidenavListItem} from "./styledComponents/SidenavListItem";
 import {SEARCH_PLACEHOLDER} from "../intl";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
+import {ContainerMedium} from "./styledComponents/ContainerMedium";
 
 export default function ContainerWithSidenav(props) {
   const navigate = useNavigate()
@@ -133,7 +134,7 @@ export default function ContainerWithSidenav(props) {
   </Box>
 
   return (
-    <Container disableGutters sx={{width: {"md": "900px"}, display: 'flex', overflow: 'hidden', height: (props.fixedContainerHeight) ? "100vh" : "100%"}}>
+    <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: (props.fixedContainerHeight) ? "100vh" : "100%"}}>
       {!sidenavDisabled ? <><Slide in={!sidenavHidden} direction="right" appear={false}>
         <Box sx={{overflowY: 'scroll', width: '100%', pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`, height: (!sidenavHidden) ? "100%" : "80vh"}}>
           <SidenavToolbox
@@ -166,7 +167,7 @@ export default function ContainerWithSidenav(props) {
       <Slide in={sidenavHidden} direction="left" appear={false}>
         {contentBox}
       </Slide></> : <>{contentBox}</>}
-    </Container>
+    </ContainerMedium>
   )
 }
 
