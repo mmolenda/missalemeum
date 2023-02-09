@@ -7,9 +7,10 @@ import {IconButton} from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
 
 export default function NewReleaseDialog(props) {
-  const [open, setOpen] = React.useState(localStorage.getItem("releaseDialogSeen") !== props.version || props.debug === true)
+  const storageKey = `releaseDialogSeen-${props.lang}`
+  const [open, setOpen] = React.useState(localStorage.getItem(storageKey) !== props.version || props.debug === true)
   const handleClose = () => {
-    localStorage.setItem("releaseDialogSeen", props.version)
+    localStorage.setItem(storageKey, props.version)
     setOpen(false);
   };
 
