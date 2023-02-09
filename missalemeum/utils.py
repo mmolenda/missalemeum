@@ -10,7 +10,6 @@ import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
     SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V5
-from constants.pl.translation import SUPPLEMENTS_V5
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -72,7 +71,7 @@ def format_propers_v5(propers, day=None):
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
-            "supplements": SUPPLEMENTS_V5.get(propers_vernacular.id) or [],
+            "supplements": propers_vernacular.supplements,
             "date": day.date.strftime("%Y-%m-%d") if day else None
         }
         retvals.append({

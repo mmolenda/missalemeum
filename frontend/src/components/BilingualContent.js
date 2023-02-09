@@ -26,7 +26,7 @@ import {
   CLASS_1,
   CLASS_2,
   CLASS_3,
-  CLASS_4, MSG_ADDRESS_COPIED, VESTMENTS_BLACK,
+  CLASS_4, MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, VESTMENTS_BLACK,
   VESTMENTS_GREEN, VESTMENTS_PINK,
   VESTMENTS_RED,
   VESTMENTS_VIOLET,
@@ -251,7 +251,7 @@ const Article = (props) => {
           </Typography>}
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
-              {`Suplement: `}
+              {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<React.Fragment key={index}>
                   <Link component={RouterLink} to={{pathname: supplement.path, search: `?ref=${props.id}`}} href='#'>{supplement.label}</Link>
