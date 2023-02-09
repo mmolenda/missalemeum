@@ -246,7 +246,7 @@ const Article = (props) => {
           <Box sx={{ padding: "0.5rem" }}>
             <ArticleTags info={content.info} lang={props.lang} showIcon={true} />
           </Box>
-          {content.info.description && <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
+          {content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
             <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />
           </Typography>}
           {content.info.supplements && content.info.supplements.length > 0 &&
