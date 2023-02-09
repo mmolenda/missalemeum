@@ -326,7 +326,9 @@ const Layout = () => {
     }
   }
 
-  const theme = createTheme(getDesignTokens(getThemeMode()))
+  const mode = getThemeMode()
+  const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
+
 
   return (
     <ThemeProvider theme={theme}>
