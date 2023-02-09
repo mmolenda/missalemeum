@@ -38,6 +38,7 @@ export default function ContainerWithSidenav(props) {
     if (contentComponentRef.current) {
       contentComponentRef.current.scrollTo(0, 0)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, lang])
 
 

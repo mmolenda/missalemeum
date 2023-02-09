@@ -296,7 +296,7 @@ const Layout = () => {
       navigate(`/${defaultLanguage}/404`)
     }
     setDarkMode({"true": true, "false": false, null: undefined}[localStorage.getItem("darkMode")])
-  })
+  }, [lang, navigate])
 
   useEffect(() => {
     if (getCookieConsentValue() === "true" && window.location.hostname.endsWith("missalemeum.com")) {

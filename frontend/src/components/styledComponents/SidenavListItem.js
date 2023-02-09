@@ -1,6 +1,5 @@
 import { styled } from '@mui/system';
 import {ListItem} from "@mui/material";
-import {grey} from "@mui/material/colors";
 
 export const SidenavListItem = styled(ListItem)(({ theme }) => ({
 	borderBottom: "1px solid",
