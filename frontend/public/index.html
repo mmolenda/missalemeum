@@ -2,31 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+    <title>
+        {% if body %}
+            {{ body[0].info.title }} |
+            {% if body[0].info.date %}
+                {{ body[0].info.date }} |
+            {% endif %}
+        {% endif %}
+        Missale Meum
+    </title>
+    <meta
+        name="description"
+        content="{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}"
+    />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
-    <meta
-            name="description"
-            content="{{ _('The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)') }}"
-    />
     <meta name="version" content="{{ version }}" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Missale Meum</title>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DN1K2MJ8TX"></script>
 <script>
@@ -36,10 +31,6 @@
   gtag('config', 'G-DN1K2MJ8TX');
 </script>
 <style>
- body {
-    background-color: #fcfbf9;
- }
-
 header.placeholder {
     position: fixed;
     background-color: #525252;
@@ -196,7 +187,7 @@ p.placeholder {
                     <rect y="60" width="90" height="10"></rect>
                 </g>
             </svg>
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="28.0pt" height="28.0pt" viewBox="0 0 512 512"
+            <svg xmlns="http://www.w3.org/2000/svg" width="28.0pt" height="28.0pt" viewBox="0 0 512 512"
                  preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fcfbf9" stroke="none">
                     <path d="M963 4775c-102 -31 -185 -104 -232 -204l-26 -56 0 -1955 0 -1955 27 -57c37 -79 98 -142 177 -181l66 -32
