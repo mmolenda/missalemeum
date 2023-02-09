@@ -9,7 +9,7 @@ export const VESTMENTS_WHITE = {"en": "White vestments", "pl": "Szaty białe"}
 export const VESTMENTS_VIOLET = {"en": "Violet vestments", "pl": "Szaty fioletowe"}
 export const VESTMENTS_BLACK = {"en": "Black vestments", "pl": "Szaty czarne"}
 export const VESTMENTS_PINK = {"en": "Pink vestments", "pl": "Szaty różowe"}
-export const MENUITEM_PROPER = {"en": "Proper", "pl": "Proper"}
+export const MENUITEM_PROPER = {"en": "Proprium", "pl": "Proprium"}
 export const MENUITEM_ORDO = {"en": "Ordo", "pl": "Ordo"}
 export const MENUITEM_VOTIVE = {"en": "Votive Masses", "pl": "Msze wotywne"}
 export const MENUITEM_ORATIO = {"en": "Prayers", "pl": "Modlitwy"}
@@ -19,7 +19,7 @@ export const MENUITEM_INFO = {"en": "About", "pl": "Informacje"}
 export const MSG_ADDRESS_COPIED = {"en": "Address copied to clipboard", "pl": "Adres skopiowany do schowka"}
 export const MSG_COOKIES = {"en": "This website uses cookies. ",
 														"pl": "Ta strona wykorzystuje ciasteczka (cookies). "}
-export const MSG_POLICY_LINK = {"en": "Private Policy.",
+export const MSG_POLICY_LINK = {"en": "Privacy Policy.",
 														    "pl": "Polityka Prywatności"}
 export const MSG_POLICY_DECLINE_BUTTON = {"en": "No, thanks",
 														    "pl": "Nie, dziękuję"}
