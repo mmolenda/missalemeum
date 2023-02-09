@@ -48,7 +48,9 @@ import NotFound from "./components/NotFound";
 import Error from "./components/Error";
 import Supplement from "./components/Supplement";
 import Logo from "./components/Logo";
+import NewReleaseDialog from "./components/NewReleaseDialog";
 
+const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
 const defaultLanguage = localStorage.getItem("lang") || (navigator.language === "pl") ? "pl" : "en"
 const yellowish = '#fcfbf9'
@@ -342,6 +344,7 @@ const Layout = () => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
+      <NewReleaseDialog lang={lang} version={version} debug={debug} />
       <Container disableGutters={true} sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -379,7 +382,7 @@ const Layout = () => {
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
         </Container>
-        <CookieConsent enableDeclineButton debug={false} declineButtonStyle={{ background: appbarDarkGrey }}
+        <CookieConsent enableDeclineButton debug={debug} declineButtonStyle={{ background: appbarDarkGrey }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
           {MSG_COOKIES[lang]}
           <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
