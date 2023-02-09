@@ -3,6 +3,8 @@ import os
 import sys
 import logging
 from flask import render_template, Blueprint, request, send_from_directory, Response
+from werkzeug.exceptions import NotFound
+
 import __version__
 import apiv5
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH
@@ -26,7 +28,10 @@ def infer_locale(f):
     def decorated_function(*args, **kwargs):
         if 'lang' in kwargs:
             if kwargs['lang'] not in LANGUAGES.keys():
-                return render_index(LANGUAGE_ENGLISH, body_404), 404
+                try:
+                    return send_from_directory(os.path.join(views.root_path, "..", "build"), kwargs['lang'])
+                except NotFound:
+                    return render_index(LANGUAGE_ENGLISH, body_404), 404
         else:
             kwargs['lang'] = request.accept_languages.best_match(LANGUAGES.keys())
         return f(*args, **kwargs)
@@ -49,7 +54,7 @@ def get_body(method, required_kwarg, **kwargs):
 @views.route("/<string:lang>")
 @views.route("/<string:lang>/<string:date_or_id>")
 @infer_locale
-def proprium(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
+def index(lang: str = LANGUAGE_ENGLISH, date_or_id: str = None):
     body = get_body('v5_proper', 'date_or_id', date_or_id=date_or_id, lang=lang)
     return render_index(lang, body)
 
@@ -65,7 +70,6 @@ def ordo(lang: str = LANGUAGE_ENGLISH):
 @views.route("/<string:lang>/canticum/<string:proper_id>")
 @infer_locale
 def canticum(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
-    print(request.args.get("format"))
     body = get_body('v5_canticum_by_id', "id_", id_=proper_id, lang=lang)
     return render_index(lang, body)
 
@@ -86,25 +90,8 @@ def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
     return render_index(lang, body)
 
 
-@views.route("/<string:lang>/supplement")
 @views.route("/<string:lang>/supplement/<string:resource>")
 @infer_locale
 def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
     body = get_body('v5_supplement', "id_", id_=resource, lang=lang)
     return render_index(lang, body)
-
-
-@views.route("/<string:lang>/info")
-@infer_locale
-def info(lang: str = LANGUAGE_ENGLISH):
-    return render_index(lang)
-
-
-@views.route("/service-worker.js")
-def service_worker():
-    return send_from_directory(os.path.join(views.root_path, "build"), "service-worker.js")
-
-
-@views.route("/robots.txt")
-def robots():
-    return send_from_directory(os.path.join(views.root_path, "build"), "robots.txt")
