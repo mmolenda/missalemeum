@@ -50,6 +50,13 @@ def inject_globals():
     }
 
 
+# @app.after_request
+# def add_header(response):
+#     response.cache_control.max_age = 60 * 60 * 12
+#     response.cache_control.public = True
+#     return response
+
+
 @babel.localeselector
 def get_locale():
     for lang in LANGUAGES.keys():
