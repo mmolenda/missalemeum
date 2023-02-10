@@ -380,7 +380,7 @@ const Layout = () => {
             </Link>
           </Toolbar>
         </AppBar>
-        <Outlet/>
+        <Outlet context={[version]}/>
         <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>

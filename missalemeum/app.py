@@ -1,3 +1,4 @@
+import os
 import sys
 
 import logging
@@ -12,6 +13,8 @@ from apiv5 import api as apiv5
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
 from views import views
+
+no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -52,8 +55,9 @@ def inject_globals():
 
 @app.after_request
 def add_header(response):
-    response.cache_control.max_age = 60
-    response.cache_control.public = True
+    if not no_cache:
+        response.cache_control.max_age = 60 * 60 * 24 * 7
+        response.cache_control.public = True
     return response
 
 

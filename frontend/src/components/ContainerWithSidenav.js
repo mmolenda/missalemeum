@@ -1,5 +1,5 @@
 import React, {cloneElement, createRef, useEffect, useState} from 'react';
-import {useParams, Link as RouterLink, useNavigate} from "react-router-dom";
+import {useParams, Link as RouterLink, useNavigate, useOutletContext} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
@@ -18,6 +18,7 @@ export default function ContainerWithSidenav(props) {
   const apiUrlBase = process.env.REACT_APP_API_URL || ""
   const {lang} = useParams()
   const {id} = useParams()
+  const [version] = useOutletContext()
   const queryParameters = new URLSearchParams(window.location.search)
   const backButtonRef = queryParameters.get("ref")
   const apiContentUrl = `${apiUrlBase}/${lang}/${props.getContentUrl}`
@@ -47,6 +48,7 @@ export default function ContainerWithSidenav(props) {
     setInternalId(null)
     if (id || sidenavItemsFromContent) {
       let url = id ? `${apiContentUrl}/${id}` : apiContentUrl
+      url += `?v=${version}`
       fetch(url, {mode: "cors"})
         .then(response => {
           if (response.status === 404) {
@@ -74,6 +76,7 @@ export default function ContainerWithSidenav(props) {
 
   const getSidenavItems = (year) => {
     let url = year ? `${apiSidenavItemsUrl}/${year}` : apiSidenavItemsUrl
+    url += `?v=${version}`
     fetch(url, {mode: "cors"})
       .then(response => {
           if (response.status === 404) {

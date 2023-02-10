@@ -18,6 +18,7 @@
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.1.0",
     "react-markdown": "^8.0.5",
+    "react-router-dom": "^6.3.0",
     "react-scroll": "^1.8.7",
     "rehype-raw": "^6.1.1",
     "remark-gfm": "^3.0.1",
@@ -49,7 +50,6 @@
   },
   "devDependencies": {
     "json-loader": "^0.5.7",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1"
   }
 }
