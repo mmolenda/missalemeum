@@ -5,11 +5,12 @@ import MdPrintable from "./MdPrintable";
 
 export default function Md(props) {
 	return <MdPrintable {...props} extraComponents={{
-		"a": (props) => <Link
-			component={RouterLink}
-			to={{pathname: props.href}}
-			target={(props.href.startsWith("http") ? "_blank" : "")}
-			href='#'>{props.children[0]}</Link>
+		"a": (props) => {
+			let [pathname, search] = props.href.split("?")
+			return pathname.startsWith("http")
+				? <Link target="_blank" href={pathname}>{props.children[0]}</Link>
+				: <Link component={RouterLink} to={{pathname: pathname, search: search}} href={pathname}>{props.children[0]}</Link>
+		}
 	}}
 	/>
 }
