@@ -9,7 +9,6 @@ import sys
 import logging
 
 from flask import jsonify, Blueprint
-from flask_cors import cross_origin
 
 import __version__
 import controller
@@ -92,7 +91,6 @@ def v5_supplement(id_: str, subdir: str = None, lang: str = LANGUAGE_ENGLISH):
 
 @api.route('/<string:lang>/api/v5/calendar')
 @api.route('/<string:lang>/api/v5/calendar/<int:year>')
-@cross_origin()
 @validate_locale
 def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
     if year is None:
@@ -115,7 +113,6 @@ def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
 
 
 @api.route('/<string:lang>/api/v5/votive')
-@cross_origin()
 @validate_locale
 def v5_votive(lang: str = LANGUAGE_ENGLISH):
     index = TRANSLATION[lang].VOTIVE_MASSES
@@ -127,28 +124,24 @@ def v5_votive(lang: str = LANGUAGE_ENGLISH):
 
 
 @api.route('/<string:lang>/api/v5/oratio')
-@cross_origin()
 @validate_locale
 def v5_oratio(lang: str = LANGUAGE_ENGLISH):
     return jsonify(supplement_index.get_oratio_index(lang))
 
 
 @api.route('/<string:lang>/api/v5/oratio/<string:id_>')
-@cross_origin()
 @validate_locale
 def v5_oratio_by_id(id_, lang: str = LANGUAGE_ENGLISH):
     return supplement_response(lang, id_, 'oratio')
 
 
 @api.route('/<string:lang>/api/v5/canticum')
-@cross_origin()
 @validate_locale
 def v5_canticum(lang: str = LANGUAGE_ENGLISH):
     return jsonify(supplement_index.get_canticum_index(lang))
 
 
 @api.route('/<string:lang>/api/v5/canticum/<string:id_>')
-@cross_origin()
 @validate_locale
 def v5_canticum_by_id(id_, lang: str = LANGUAGE_ENGLISH):
     return supplement_response(lang, id_, 'canticum')

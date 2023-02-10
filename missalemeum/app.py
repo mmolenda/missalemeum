@@ -31,7 +31,7 @@ class LangConverter(BaseConverter):
 
 
 app = Flask(__name__, static_folder='../build/static', template_folder='../build')
-cors = CORS(app)
+CORS(app, origins=["http://localhost:3000"])
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.jinja_env.filters['slugify'] = slugify
 app.jinja_env.filters['asterisks2em'] = asterisks2em
