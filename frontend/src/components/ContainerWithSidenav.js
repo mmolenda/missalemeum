@@ -47,7 +47,7 @@ export default function ContainerWithSidenav(props) {
     setInternalId(null)
     if (id || sidenavItemsFromContent) {
       let url = id ? `${apiContentUrl}/${id}` : apiContentUrl
-      fetch(url, {mode: "cors", cache: "force-cache"})
+      fetch(url, {mode: "cors"})
         .then(response => {
           if (response.status === 404) {
             navigate(`/${lang}/404`)
@@ -74,7 +74,7 @@ export default function ContainerWithSidenav(props) {
 
   const getSidenavItems = (year) => {
     let url = year ? `${apiSidenavItemsUrl}/${year}` : apiSidenavItemsUrl
-    fetch(url, {mode: "cors", cache: "force-cache"})
+    fetch(url, {mode: "cors"})
       .then(response => {
           if (response.status === 404) {
             navigate(`/${lang}/404`)
