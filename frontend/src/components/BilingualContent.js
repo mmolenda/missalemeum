@@ -36,6 +36,7 @@ import Tag from "./styledComponents/Tag";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
+import MyLink from "./MyLink";
 
 
 const xVernacular = 'x-vernacular'
@@ -255,7 +256,7 @@ const Article = (props) => {
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<React.Fragment key={index}>
-                  <Link component={RouterLink} to={{pathname: supplement.path, search: `?ref=${props.id}`}} href='#'>{supplement.label}</Link>
+                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} />
                   {index + 1 < content.info.supplements.length && ", "}
                 </React.Fragment>)
               })}
