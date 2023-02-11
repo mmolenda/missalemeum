@@ -44,7 +44,7 @@ def format_propers(propers, day=None):
             "id": propers_vernacular.id,
             "title": title,
             "description": propers_vernacular.description,
-            "additional_info": propers_vernacular.additional_info,
+            "tags": propers_vernacular.tags,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
@@ -67,7 +67,7 @@ def format_propers_v5(propers, day=None):
             "id": propers_vernacular.id,
             "title": title,
             "description": propers_vernacular.description,
-            "additional_info": propers_vernacular.additional_info,
+            "tags": propers_vernacular.tags,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
@@ -201,7 +201,7 @@ class SupplementIndexV5(SupplementIndex):
                         self.index[key].append(
                             {"title": index_item["info"]["title"],
                              "id": resource_id,
-                             "tags": index_item["info"]["additional_info"]
+                             "tags": index_item["info"]["tags"]
                              })
         return self.index[key]
 

@@ -76,7 +76,7 @@ def v3_proper(proper_id: str, lang: str = LANGUAGE_ENGLISH):
                 "colors": proper_vernacular.colors,
                 "title": proper_vernacular.title,
                 "description": proper_vernacular.description,
-                "additional_info": proper_vernacular.additional_info
+                "tags": proper_vernacular.tags
             },
             "sections": format_proper_sections(proper_vernacular, proper_latin)
         }])

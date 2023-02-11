@@ -113,8 +113,8 @@ const ArticleTags = (props) => {
       tags.push(tag);
     }
   }
-  if (props.info.additional_info != null) {
-    for (let infoItem of props.info.additional_info.filter((i) => ! i.includes("Szaty"))) {
+  if (props.info.tags != null) {
+    for (let infoItem of props.info.tags.filter((i) => ! i.includes("Szaty"))) {
       tags.push(<Tag key={infoItem} label={infoItem} />)
     }
   }

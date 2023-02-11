@@ -20,7 +20,7 @@ def test_api_calendar(client):
 def test_api_date(client):
     resp = client.get('/pl/api/v3/date/2020-11-11').json
     info = resp[0]["info"]
-    assert ["Szaty białe"] == info["additional_info"]
+    assert ["Szaty białe"] == info["tags"]
     assert ["w"] == info["colors"]
     assert "2020-11-11" == info["date"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
@@ -101,7 +101,7 @@ def test_api_date_invalid_input(client):
 def test_api_proper(client):
     resp = client.get('/pl/api/v3/proper/sancti:11-11:3:w').json
     info = resp[0]["info"]
-    assert ["Szaty białe"] == info["additional_info"]
+    assert ["Szaty białe"] == info["tags"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
@@ -114,7 +114,7 @@ def test_api_proper(client):
 def test_api_proper_slug(client):
     resp = client.get('/pl/api/v3/proper/rorate').json
     info = resp[0]["info"]
-    assert ['Szaty białe', 'Adwent'] == info["additional_info"]
+    assert ['Szaty białe', 'Adwent'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "commune:C10a:0:w" == info["id"]
     assert '1 Msza o N. M. P. – Rorate' == info["title"]

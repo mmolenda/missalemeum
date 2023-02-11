@@ -22,8 +22,8 @@ def test_parse_proper_no_refs():
     assert 'Objawienie' in proper_vernacular.title
     assert 1 == proper_vernacular.rank
     assert '«Obchodzimy dzień święty' in proper_vernacular.description
-    assert 'Stacja u Św. Piotra' in proper_vernacular.additional_info
-    assert 'Szaty białe' in proper_vernacular.additional_info
+    assert 'Stacja u Św. Piotra' in proper_vernacular.tags
+    assert 'Szaty białe' in proper_vernacular.tags
     assert 'Ml 3:1' in proper_vernacular.get_section(INTROIT).body[0]
     assert 'Boże, w dniu dzisiejszym' in proper_vernacular.get_section(ORATIO).body[0]
     assert '*Iz 60:1-6*' in proper_vernacular.get_section(LECTIO).body[1]
