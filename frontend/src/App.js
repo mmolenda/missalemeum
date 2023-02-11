@@ -53,7 +53,7 @@ import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
-const defaultLanguage = localStorage.getItem("lang") || (navigator.language === "pl") ? "pl" : "en"
+const defaultLanguage = localStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
 const yellowish = '#fcfbf9'
 const appbarDarkGrey = '#424242'
 const defaultTheme = createTheme()
