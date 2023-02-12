@@ -300,6 +300,11 @@ const Layout = () => {
   }, [lang, navigate])
 
   useEffect(() => {
+    registerPageView()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location])
+
+  const registerPageView = () => {
     if (getCookieConsentValue() === "true" && window.location.hostname.endsWith("missalemeum.com")) {
       window.gtag("event", "page_view", {
         page_path: location.pathname + location.search + location.hash,
@@ -307,7 +312,7 @@ const Layout = () => {
         page_hash: location.hash,
       })
     }
-  }, [location])
+  }
 
   const getThemeMode = () => {
     return ((darkMode === undefined && prefersDark) || darkMode) ? "dark" : "light"
@@ -386,7 +391,8 @@ const Layout = () => {
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
         </ContainerMedium>
         <CookieConsent enableDeclineButton debug={debug} declineButtonStyle={{ background: appbarDarkGrey }}
-                       buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK">
+                       buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK"
+                       onAccept={() => registerPageView()}>
           {MSG_COOKIES[lang]}
           <Link component={RouterLink} to={{pathname: `/${lang}/supplement/privacy-policy`}} target="_blank" >
             {MSG_POLICY_LINK[lang]}
