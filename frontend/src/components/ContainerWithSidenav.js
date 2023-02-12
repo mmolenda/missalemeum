@@ -33,13 +33,10 @@ export default function ContainerWithSidenav(props) {
   const sidenavDisabled = Boolean(props.sidenavDisabled)
   // if it has sidenav, controls if it is shown or hidden at the moment
   const [sidenavHidden, setSidenavHidden] = useState(false)
-  const contentComponentRef = createRef()
 
   useEffect(() => {
     props.init(id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
-    if (contentComponentRef.current) {
-      contentComponentRef.current.scrollTo(0, 0)
-    }
+    window.scrollTo(0, 0)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, lang])
 
@@ -123,7 +120,6 @@ export default function ContainerWithSidenav(props) {
 
   let contentBox = <Box
     id="content"
-    ref={contentComponentRef}
     sx={{
       overflowY: 'scroll',
       width: '100%',
