@@ -1,3 +1,12 @@
+FROM node:alpine as build
+WORKDIR .
+COPY ./frontend/package.json ./
+COPY ./frontend/package-lock.json ./
+RUN npm install
+COPY ./frontend/public ./public
+COPY ./frontend/src ./src
+RUN npm run build
+
 FROM python:3.9-slim-buster
 
 RUN apt-get update
@@ -19,9 +28,10 @@ COPY resources/divinum-officium/web/www/missa/Polski ./resources/divinum-officiu
 COPY resources/ordo ./resources/ordo
 COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
-COPY resources/supplement_v4 ./resources/supplement_v4
+COPY resources/supplement_v5 ./resources/supplement_v5
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
 COPY missalemeum ./missalemeum
+COPY --from=build ./build/ ./build
 COPY tests ./tests
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "-w", "4", "wsgi"]

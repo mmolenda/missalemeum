@@ -1,0 +1,37 @@
+info:
+  tags: []
+  title: Informacje
+
+sections:
+- body:
+  -
+    - |
+        Strona **Missale Meum** powstała na chwałę Boską i pożytek ludzki, aby w jednym miejscu 
+        zebrać i w przystępnej formie udostępnić cyfrową wersję kalendarza liturgicznego i wszystkich czytań mszalnych 
+        wg układu z 1962 r. dla Mszy Trydenckiej.
+
+        Teksty polskie pochodzą z “Mszału Rzymskiego” Wydawnictwa Pallotinum 1965 r. – za zgodą Wydawnictwa. Teksty 
+        łacińskie pochodzą w większości z czcigodnej strony [Divinum Officium](https://www.divinumofficium.com/) oraz częściowo z w/w Mszału. Kod strony 
+        dostępny jest w [repozytorium github](https://github.com/mmolenda/missalemeum). Strona została zbudowana jako prywatny projekt i nie reprezentuje ona 
+        żadnej oficjalnej organizacji ani grupy.
+
+        ### Wsparcie
+
+        *«Żniwo wprawdzie wielkie, ale robotników mało.»* – mówi Pan Jezus.
+
+        Jeśli podoba Ci się strona Missale Meum, możesz pomóc ją rozwijać:
+
+        - ofiarowując modlitwę w intencji projektu i jego twórców,
+        - dobrym słowem, pomysłem, uwagą, zgłoszeniem błędu – każdy odzew motywuje nas do dalszej pracy,
+        - rozpowszechniając stronę.
+
+        ### Kontakt
+
+        Wszelkie uwagi, pomysły, zapytania, zgłoszenia błędów można kierować na adres email marcin@missalemeum.com.
+      
+        ### Polityka prywatności
+      
+        [Polityka prywatności](/pl/supplement/privacy-policy?ref=supplement/info)
+
+  id: ''
+  label: ''

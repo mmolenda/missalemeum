@@ -876,7 +876,7 @@ COMMEMORATIONS = {
 }
 
 KDE = "Komentarz do Ewangelii"
-SUPPLEMENTS = {
+SUPPLEMENTS_V4 = {
     constants.TEMPORA_ADV1_0: [
         {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
         {"label": f"{KDE} na 1 Niedzielę Adwentu", "path": "http://vetusordo.pl/objasnienia1na/"}
@@ -1103,7 +1103,7 @@ SUPPLEMENTS = {
 
 
 OE = "Objaśnienia Ewangelii"
-SUPPLEMENTS_V4 = {
+SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
         {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
         {"label": OE, "path": "/pl/supplement/objasnienia-Adv1-0"}

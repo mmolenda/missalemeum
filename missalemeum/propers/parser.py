@@ -86,7 +86,7 @@ class ProperParser:
             # Handling very rare case when proper's source exists but rank or color in the ID is invalid
             raise ProperNotFound(f"Proper {self.proper_id} not found")
         proper.description = parsed_comment['description']
-        proper.additional_info = parsed_comment['additional_info']
+        proper.tags = parsed_comment['tags']
         proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
         proper = self._add_prefaces(proper, lang)
         proper = self._filter_sections(proper)
@@ -184,7 +184,7 @@ class ProperParser:
             "title": None,
             "description": "",
             "rank": None,
-            "additional_info": []
+            "tags": []
         }
         if comment is None:
             return parsed_comment
@@ -199,7 +199,7 @@ class ProperParser:
                     if PATTERN_COMMEMORATION in info_item.lower():
                         parsed_comment['rank'] = 4
                     else:
-                        parsed_comment['additional_info'].append(info_item)
+                        parsed_comment['tags'].append(info_item)
             else:
                 parsed_comment['description'] += ln + '\n'
         return parsed_comment

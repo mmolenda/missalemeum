@@ -9,8 +9,7 @@ import mistune
 import yaml
 
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
-    SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V4
-from constants.pl.translation import SUPPLEMENTS_V4
+    SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V5
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -45,7 +44,7 @@ def format_propers(propers, day=None):
             "id": propers_vernacular.id,
             "title": title,
             "description": propers_vernacular.description,
-            "additional_info": propers_vernacular.additional_info,
+            "tags": propers_vernacular.tags,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
@@ -59,7 +58,7 @@ def format_propers(propers, day=None):
     return retvals
 
 
-def format_propers_v4(propers, day=None):
+def format_propers_v5(propers, day=None):
     retvals = []
     for propers_vernacular, propers_latin in propers:
         title = propers_vernacular.title
@@ -68,11 +67,11 @@ def format_propers_v4(propers, day=None):
             "id": propers_vernacular.id,
             "title": title,
             "description": propers_vernacular.description,
-            "additional_info": propers_vernacular.additional_info,
+            "tags": propers_vernacular.tags,
             "tempora": tempora_name if tempora_name != title else None,
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
-            "supplements": SUPPLEMENTS_V4.get(propers_vernacular.id) or [],
+            "supplements": propers_vernacular.supplements,
             "date": day.date.strftime("%Y-%m-%d") if day else None
         }
         retvals.append({
@@ -126,9 +125,9 @@ def get_supplement(lang, resource, subdir=None):
         raise SupplementNotFound(f"{subdir}/{resource}")
 
 
-def get_supplement_v4(lang, resource, subdir=None):
+def get_supplement_v5(lang, resource, subdir=None):
     try:
-        path_args = [SUPPLEMENT_DIR_V4, lang]
+        path_args = [SUPPLEMENT_DIR_V5, lang]
         if subdir:
             path_args.append(subdir)
         path_args.append(f"{resource}.yaml")
@@ -186,25 +185,25 @@ class SupplementIndex:
 supplement_index = SupplementIndex()
 
 
-class SupplementIndexV4(SupplementIndex):
+class SupplementIndexV5(SupplementIndex):
     def _get_index(self, lang, subdir):
         key = f"{lang}-{subdir}"
         if key not in self.index:
             try:
-                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR_V4, lang, subdir))
+                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR_V5, lang, subdir))
             except FileNotFoundError:
                 filenames = []
             finally:
                 for filename in sorted(filenames):
                     if filename.endswith(".yaml"):
                         resource_id = filename.rsplit('.', 1)[0]
-                        index_item = get_supplement_v4(lang, resource_id, subdir)
+                        index_item = get_supplement_v5(lang, resource_id, subdir)
                         self.index[key].append(
                             {"title": index_item["info"]["title"],
                              "id": resource_id,
-                             "tags": index_item["info"]["additional_info"]
+                             "tags": index_item["info"]["tags"]
                              })
         return self.index[key]
 
 
-supplement_index_v4 = SupplementIndexV4()
+supplement_index_v5 = SupplementIndexV5()

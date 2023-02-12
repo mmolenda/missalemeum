@@ -1,3 +1,4 @@
+import os
 import sys
 
 import logging
@@ -8,10 +9,12 @@ from werkzeug.routing import BaseConverter, ValidationError
 
 from __version__ import __version__
 from apiv3 import api as apiv3
-from apiv4 import api as apiv4
+from apiv5 import api as apiv5
 from filters import slugify, asterisks2em, newline2br
 from constants.common import LANGUAGES
 from views import views
+
+no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -27,8 +30,8 @@ class LangConverter(BaseConverter):
         raise ValidationError()
 
 
-app = Flask(__name__)
-cors = CORS(app)
+app = Flask(__name__, static_folder='../build/static', template_folder='../build')
+CORS(app, origins=["http://localhost:3000"])
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.jinja_env.filters['slugify'] = slugify
 app.jinja_env.filters['asterisks2em'] = asterisks2em
@@ -36,7 +39,7 @@ app.jinja_env.filters['newline2br'] = newline2br
 app.url_map.converters['lang'] = LangConverter
 app.register_blueprint(views)
 app.register_blueprint(apiv3)
-app.register_blueprint(apiv4)
+app.register_blueprint(apiv5)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.INFO)
 babel = Babel(app)
@@ -48,6 +51,14 @@ def inject_globals():
         "version": __version__,
         "langs": LANGUAGES
     }
+
+
+@app.after_request
+def add_header(response):
+    if not no_cache:
+        response.cache_control.max_age = 60 * 60 * 24 * 7
+        response.cache_control.public = True
+    return response
 
 
 @babel.localeselector

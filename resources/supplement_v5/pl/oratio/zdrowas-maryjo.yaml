@@ -1,0 +1,29 @@
+info:
+  tags:
+  - Pozdrowienie Anielskie
+  - Ave Maria
+  title: Zdrowaś Maryjo
+
+sections:
+- body:
+  -
+    - |
+        Zdrowaś Maryjo,   
+        Łaski pełna,  
+        Pan z Tobą,   
+        Błogosławionaś Ty między niewiastami   
+        I błogosławiony owoc żywota Twojego, Jezus.   
+        Święta Maryjo, Matko Boża,   
+        Módl się za nami grzesznymi   
+        Teraz i w godzinę śmierci naszej. Amen.
+    - |
+        Ave Maria,  
+        Gratia plena,  
+        Dominus Tecum,   
+        Benedicta Tu in mulieribus  
+        Et benedictus fructus ventris Tui, Jesus.   
+        Sancta Maria, Mater Dei  
+        Ora pro nobis peccatoribus,   
+        Nunc et in hora mortis nostrae. Amen.
+  id: ''
+  label: ''

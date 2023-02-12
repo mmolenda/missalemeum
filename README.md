@@ -2,7 +2,7 @@
 
 1962 Roman Catholic Missal for the Traditional Latin Mass.
 
-The application consists of Python/Flask API, serving calendar and propers for a given day, and Bootstrap UI consuming 
+The application consists of Python/Flask API, serving calendar and propers for a given day, and React UI consuming 
 and presenting the data. The application utilizes data files from
  [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
  [git submodule](./resources).
@@ -23,6 +23,7 @@ is available in Divinum Officium, it is relatively easy to support them. Volunte
 ### Prerequisites
 
 * Python >=3.6
+* node
 
 ### Installation
 
@@ -44,7 +45,22 @@ To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `Tr
 $ python missalemeum/app.py
 ```
 
-and navigate to http://0.0.0.0:5000/.
+and navigate to http://0.0.0.0:8000/en/api/v3/version.
+
+### Run the development UI
+
+Provide local dev API URL in variable `REACT_APP_API_URL`:
+
+```bash
+export REACT_APP_API_URL=http://localhost:8000
+```
+
+Navigate to `./frontend`
+
+```
+npm install
+npm run start
+```
 
 ## API specficiation
 
@@ -52,7 +68,8 @@ See [openapi.yaml](openapi.yaml) or [auto-generated swagger API documentation](h
 
 ## Docker
 
-Docker setup copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
+Docker setup for this project runs multi stage build. In the first stage an optimised production build of React UI is created. 
+In the second step Docker setup copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
 
 ```bash
 $ docker build -t missalemeum .
