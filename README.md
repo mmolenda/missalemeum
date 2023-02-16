@@ -45,7 +45,7 @@ To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `Tr
 $ python missalemeum/app.py
 ```
 
-and navigate to http://0.0.0.0:8000/en/api/v3/version.
+and navigate to http://0.0.0.0:8000/en/api/v5/version.
 
 ### Run the development UI
 
@@ -61,6 +61,8 @@ Navigate to `./frontend`
 npm install
 npm run start
 ```
+
+and navigate to http://0.0.0.0:3000.
 
 ## API specficiation
 
