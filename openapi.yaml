@@ -106,7 +106,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/ContentItem"
+                $ref: "#/components/schemas/ContentItems"
               examples:
                 'default':
                   $ref: "#/components/examples/OrdoExample"
@@ -169,7 +169,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/ContentItem"
+                $ref: "#/components/schemas/ContentItems"
               examples:
                 'default':
                   $ref: "#/components/examples/SupplementExample"
@@ -594,9 +594,12 @@ components:
 
     Propers:
       type: "array"
-      description: ""
       items:
         $ref: "#/components/schemas/Proper"
+    ContentItems:
+      type: "array"
+      items:
+        $ref: "#/components/schemas/ContentItem"
 
 
     IdField:
@@ -617,7 +620,7 @@ components:
       description: "Feast's color b - black, g - green, etc. One observation can have multiple colors. For instance Palm Sunday in post-55 has red (r) and violet (v) as the procession has different color than the Mass itself."
       items:
         type: "string"
-        enum: ["b", "g", "r", "v", "w"]
+        enum: ["b", "g", "r", "v", "w", "p"]
         example: g
     TagsField:
       description: "List of additional informations such as liturgical color, station church, name of the season, etc."
@@ -641,12 +644,14 @@ components:
             example: Collect
           body:
             type: array
-            description: Body of the section can contain either one or two strings. One string is treated as a rubric. When there are two strings, the first one represents the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences TODO explain markdown in different endpoints.
+            description: Body of the section contains one ore more arrays representing subsections. Each subsection can contain either one or two strings. One string is treated as a rubric. When there are two strings, the first one represents the text in vernacular and the second one - in Latin. Text is formatted using DivinumOfficium format, which is similar to Markdown, but with some differences.
             items:
-              type: string
-              example:
-                - "Almighty and everlasting God..."
-                - "Omnípotens sempitérne Deus..."
+              type: array
+              items:
+                type: string
+                example:
+                  - "Almighty and everlasting God..."
+                  - "Omnípotens sempitérne Deus..."
     ProperByDateApiResponse:
       type: "array"
       description: ""
