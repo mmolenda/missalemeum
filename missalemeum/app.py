@@ -61,12 +61,14 @@ def add_header(response):
     return response
 
 
-@babel.localeselector
 def get_locale():
     for lang in LANGUAGES.keys():
         if request.path.strip("/").startswith(lang):
             return lang
     return request.accept_languages.best_match(LANGUAGES.keys())
+
+
+babel.init_app(app, locale_selector=get_locale)
 
 
 if __name__ == '__main__':
