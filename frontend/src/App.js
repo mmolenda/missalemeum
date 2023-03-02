@@ -352,7 +352,7 @@ const Layout = () => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      <ReleaseNotes lang={lang} version={version} debug={debug} />
+      {/*<ReleaseNotes lang={lang} version={version} debug={debug} />*/}
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
