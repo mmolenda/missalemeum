@@ -75,7 +75,7 @@ const App = () => {
         <Route path=":lang/404" element={<NotFound/>}/>
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
-      <Route path=":lang/widget/propers" element={<WidgetPropers/>}/>
+      <Route path=":lang/widgets/propers" element={<WidgetPropers/>}/>
     </Routes>
   );
 };

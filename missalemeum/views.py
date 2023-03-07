@@ -95,3 +95,9 @@ def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
     body = get_body('v5_supplement', "id_", id_=resource, lang=lang)
     return render_index(lang, body)
+
+
+@views.route("/<string:lang>/widgets/propers")
+@infer_locale
+def widget_propers(lang: str = LANGUAGE_ENGLISH):
+    return render_index(lang)
