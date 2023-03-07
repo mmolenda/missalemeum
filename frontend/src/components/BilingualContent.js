@@ -63,6 +63,7 @@ export default function BilingualContent(props) {
       singleColumnAsRubric={props.singleColumnAsRubric}
       backButton={props.backButton}
       markdownNewlines={props.markdownNewlines}
+      contentToolbarDisabled={props.contentToolbarDisabled}
     />
   )
 }
@@ -192,7 +193,6 @@ const Article = (props) => {
     newWindow.document.close();
     newWindow.focus();
   }
-
   if (props.id === null) {
     return <SkeletonContent />
   } else {
@@ -204,7 +204,7 @@ const Article = (props) => {
         >
           {props.backButton}
         </Box>
-        <Box sx={{display: "flex", justifyContent: "flex-end"}}>
+        {!props.contentToolbarDisabled && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
           <IconButton ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
@@ -221,7 +221,7 @@ const Article = (props) => {
           <IconButton onClick={() => print()}>
             <PrintIcon/>
           </IconButton>
-        </Box>
+        </Box>}
         <Box sx={{px: "0.75rem"}}>
           {props.content.length > 1 ?
             <Select

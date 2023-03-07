@@ -31,7 +31,6 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import {grey} from "@mui/material/colors";
 import CloseIcon from '@mui/icons-material/Close';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
@@ -48,212 +47,13 @@ import NotFound from "./components/NotFound";
 import Error from "./components/Error";
 import Supplement from "./components/Supplement";
 import Logo from "./components/Logo";
-import ReleaseNotes from "./components/ReleaseNotes";
 import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
+import WidgetPropers from "./components/WidgetPropers";
+import {appbarDarkGrey, getDesignTokens} from "./designTokens";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
 const defaultLanguage = localStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
-const yellowish = '#fcfbf9'
-const appbarDarkGrey = '#424242'
-const defaultTheme = createTheme()
-
-const getDesignTokens = (mode) => ({
-  palette: {
-    mode,
-    ...(mode === 'light'
-      ? {
-          // palette values for light mode
-          background: {
-            paper: yellowish,
-            default: yellowish
-          },
-          primary: {
-            main: appbarDarkGrey,
-            light: '#6d6d6d',
-            dark: '#1b1b1b',
-          },
-          secondary: {
-            main: '#b76d6d',
-            light: '#eb9c9b',
-            dark: '#854042',
-          },
-          text: {
-            primary: grey[900],
-            disabled: grey[300]
-          },
-          vestmentw: {
-            main: '#d3d3d3',
-            contrastText: '#fff'
-          },
-          vestmentr: {
-            main: '#b76d6d',
-            contrastText: '#fff',
-          },
-          vestmentv: {
-            main: '#92689f',
-            contrastText: '#fff',
-          },
-          vestmentg: {
-            main: '#6c8d4d',
-            contrastText: '#fff',
-          }
-        }
-      : {
-          // palette values for dark mode
-          background: {
-            paper: '#262626',
-            default: '#262626'
-          },
-          primary: {
-            main: yellowish,
-            light: '#fff',
-            dark: '#c9c8c6',
-          },
-          secondary: {
-            main: '#e49086',
-            light: '#ffc1b6',
-            dark: '#b06159',
-          },
-          text: {
-            primary: yellowish,
-            secondary: yellowish,
-            disabled: grey[800]
-          },
-          vestmentw: {
-            main: yellowish,
-            contrastText: '#fff'
-          },
-          vestmentr: {
-            main: '#e49086',
-            contrastText: '#fff',
-          },
-          vestmentv: {
-            main: '#ad7cbe',
-            contrastText: '#fff',
-          },
-          vestmentg: {
-            main: '#91b965',
-            contrastText: '#fff',
-          },
-        }),
-        yellowish: {
-          main: yellowish,
-          contrastText: '#fff',
-        },
-        appbarDarkGrey: {
-          main: appbarDarkGrey,
-          contrastText: '#fff',
-        },
-        vestmentb: {
-          main: '#565656',
-          contrastText: '#fff',
-        },
-        vestmentp: {
-          main: '#e1a5ba',
-          contrastText: '#fff',
-        }
-  },
-  typography: {
-
-    ...(mode === 'light'
-    ? {
-        // palette values for light mode
-        h1: {
-          fontSize: "1.1rem",
-          fontFamily: "Merriweather",
-          fontWeight: 700,
-          color: yellowish
-        },
-        h2: {
-          fontSize: "1.25rem",
-          fontFamily: "Merriweather",
-          fontWeight: 800,
-          color: grey[900]
-        },
-        h3: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 800,
-          color: grey[900]
-        },
-        h4: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 400,
-          color: grey[900]
-        },
-        body1: {
-          fontFamily: "Merriweather",
-        },
-      }
-    : {
-        // palette values for dark mode
-        h1: {
-          fontSize: "1.1rem",
-          fontFamily: "Merriweather",
-          fontWeight: 700,
-          color: yellowish
-        },
-        h2: {
-          fontSize: "1.25rem",
-          fontFamily: "Merriweather",
-          fontWeight: 800,
-          color: yellowish
-        },
-        h3: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 800,
-          color: yellowish
-        },
-        h4: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 400,
-          color: yellowish
-        },
-        body1: {
-          fontFamily: "Merriweather",
-          color: yellowish
-        },
-    }),
-    subtitle1: {
-      fontWeight: 400,
-    },
-    subtitle2: {
-      fontWeight: 400,
-      color: '#b76d6d'
-    },
-  },
-  components: {
-    MuiAppBar: {
-      styleOverrides: {
-        root: {
-          [defaultTheme.breakpoints.up("sm")]: {
-            flexDirection: "row",
-            justifyContent: "center"
-          },
-          height: "56px"
-        },
-      },
-    },
-    MuiToolbar: {
-      styleOverrides: {
-        root: {
-          [defaultTheme.breakpoints.up("sm")]: {
-            minHeight: "56px",
-            width: "900px"
-          },
-        },
-      },
-    }
-  }
-});
 
 const App = () => {
   return (
@@ -275,6 +75,7 @@ const App = () => {
         <Route path=":lang/404" element={<NotFound/>}/>
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
+      <Route path=":lang/widget/propers" element={<WidgetPropers/>}/>
     </Routes>
   );
 };
@@ -380,12 +181,12 @@ const Layout = () => {
               </Drawer>
             </>
             <Link sx={{display: "flex", textDecoration: "none"}} component={RouterLink} to={{pathname: `/${lang}`}} >
-                <Logo />
+                <Logo width={28} height={28} />
                 <Typography variant="h1" component="div">Missale<br/>Meum</Typography>
             </Link>
           </Toolbar>
         </AppBar>
-        <Outlet context={[version]}/>
+        <Outlet />
         <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>

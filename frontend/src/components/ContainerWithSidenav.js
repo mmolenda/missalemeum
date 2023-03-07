@@ -1,5 +1,5 @@
 import React, {cloneElement, createRef, useEffect, useState} from 'react';
-import {useParams, Link as RouterLink, useNavigate, useOutletContext} from "react-router-dom";
+import {useParams, Link as RouterLink, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
@@ -18,7 +18,7 @@ export default function ContainerWithSidenav(props) {
   const apiUrlBase = process.env.REACT_APP_API_URL || ""
   const {lang} = useParams()
   const {id} = useParams()
-  const [version] = useOutletContext()
+  const version = document.querySelector('meta[name="version"]').content
   const queryParameters = new URLSearchParams(window.location.search)
   const backButtonRef = queryParameters.get("ref")
   const apiContentUrl = `${apiUrlBase}/${lang}/${props.getContentUrl}`
@@ -129,7 +129,7 @@ export default function ContainerWithSidenav(props) {
     >
       <BilingualContent id={internalId} lang={lang} contents={content}
                         singleColumnAsRubric={props.singleColumnAsRubric} backButton={backButton}
-                        markdownNewlines={props.markdownNewlines}/>
+                        markdownNewlines={props.markdownNewlines} contentToolbarDisabled={props.contentToolbarDisabled}/>
   </Box>
 
   return (
