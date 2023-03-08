@@ -50,10 +50,11 @@ import Logo from "./components/Logo";
 import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
 import WidgetPropers from "./components/WidgetPropers";
 import {appbarDarkGrey, getDesignTokens} from "./designTokens";
+import {myLocalStorage} from "./myLocalStorage";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
-const defaultLanguage = localStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
+const defaultLanguage = myLocalStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
 
 const App = () => {
   return (
@@ -97,7 +98,7 @@ const Layout = () => {
     if (lang !== undefined && !supportedLanguages.includes(lang)) {
       navigate(`/${defaultLanguage}/404`)
     }
-    setDarkMode({"true": true, "false": false, null: undefined}[localStorage.getItem("darkMode")])
+    setDarkMode({"true": true, "false": false, null: undefined}[myLocalStorage.getItem("darkMode")])
   }, [lang, navigate])
 
   useEffect(() => {
@@ -122,13 +123,13 @@ const Layout = () => {
   const toggleDarkMode = (darkModeNew) => {
     if (darkModeNew === false && darkMode !== false) {
       setDarkMode(false)
-      localStorage.setItem("darkMode", "false")
+      myLocalStorage.setItem("darkMode", "false")
     } else if (darkModeNew === true && darkMode !== true) {
       setDarkMode(true)
-      localStorage.setItem("darkMode", "true")
+      myLocalStorage.setItem("darkMode", "true")
     } else {
       setDarkMode(undefined)
-      localStorage.removeItem("darkMode")
+      myLocalStorage.removeItem("darkMode")
     }
   }
 
@@ -256,8 +257,8 @@ const LeftHandMenu = (props) => {
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => localStorage.setItem("lang", "en")} component={RouterLink} to={{pathname: "/en"}} value="en" selected={props.lang === "en"}>English</ToggleButton>
-            <ToggleButton onClick={() => localStorage.setItem("lang", "pl")} component={RouterLink} to={{pathname: "/pl"}} value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} component={RouterLink} to={{pathname: "/en"}} value="en" selected={props.lang === "en"}>English</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} component={RouterLink} to={{pathname: "/pl"}} value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">
