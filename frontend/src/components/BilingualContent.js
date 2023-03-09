@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import ReactDOMServer from 'react-dom/server';
-import {Link as RouterLink, useLocation, useNavigate} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
 import {Element} from 'react-scroll'
@@ -12,7 +12,7 @@ import {
   useMediaQuery,
   IconButton,
   Select,
-  MenuItem, Link, Popover, useTheme
+  MenuItem, Popover, useTheme
 } from "@mui/material";
 import moment from "moment";
 import 'moment/locale/pl';
@@ -70,6 +70,7 @@ export default function BilingualContent(props) {
 
 const ArticleTags = (props) => {
   const theme = useTheme()
+  const [paperPage, setPaperPage] = useState(0)
 
   let rankNames = {
     1: CLASS_1[props.lang],
@@ -119,9 +120,38 @@ const ArticleTags = (props) => {
       tags.push(<Tag key={infoItem} label={infoItem} />)
     }
   }
+  let pages = ["Angelus Press p. 345", "Father Lasance p. 279", "Baronius Press p. 360"]
   return (
     <>
       {tags}
+      {props.showIcon && pages.length > 1
+        ? <Select
+            value={paperPage}
+            defaultValue={paperPage}
+            variant="outlined"
+            onChange={(e) => {
+              setPaperPage(e.target.value)
+            }}
+            sx={{
+              borderRadius: 10,
+              fontFamily: "Arial",
+              fontSize: "0.85rem",
+              color: (theme) => theme.palette.secondary.main,
+              "& .MuiSvgIcon-root": {
+                  color: (theme) => theme.palette.secondary.main,
+              },
+              "& .MuiOutlinedInput-input": {
+                  padding: "0.4rem 1rem",
+              },
+              "& .MuiOutlinedInput-notchedOutline": {
+                borderColor: (theme) => theme.palette.secondary.main,
+              }
+            }}
+          >
+            {pages.map((content, xindex) => <MenuItem value={xindex}>{content}</MenuItem>)}
+          </Select>
+        : pages.map((content) => <Tag key={content} label={content} />)
+      }
     </>
   )
 }
