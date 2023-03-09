@@ -77,6 +77,7 @@ const App = () => {
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
       <Route path=":lang/widgets/propers" element={<WidgetPropers/>}/>
+      <Route path=":lang/widgets/propers/:id" element={<WidgetPropers/>}/>
     </Routes>
   );
 };
