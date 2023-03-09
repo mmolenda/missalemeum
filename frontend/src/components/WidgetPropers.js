@@ -13,8 +13,8 @@ export default function WidgetPropers() {
   const {id} = useParams()
   let date = (id === undefined) ? moment() : moment(id)
   const queryParameters = new URLSearchParams(window.location.search)
-  const themeMode = {"light": "light", "dark": "dark"}[queryParameters.get("theme")] || "light"
-  console.log(themeMode)
+  const settingsThemeMode = {"light": "light", "dark": "dark"}[queryParameters.get("theme")] || "light"
+  const settingsShowNav = (queryParameters.get("navigation") + "").toLowerCase() === "true"
   const getContentUrl = 'api/v5/proper'
   const init = ((id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden) => {
     if (id === undefined) {
@@ -23,7 +23,7 @@ export default function WidgetPropers() {
     getContent(id)
   })
 
-  let designTokens = getDesignTokens(themeMode)
+  let designTokens = getDesignTokens(settingsThemeMode)
   designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"
   const theme = createTheme(designTokens)
   return (
@@ -35,11 +35,11 @@ export default function WidgetPropers() {
           "div#root": { backgroundColor: theme.palette.background.default }
         })}
       />
-      <Box sx={{marginTop: "1rem"}}>
+      {settingsShowNav && <Box sx={{marginTop: "1rem"}}>
         <IconButton variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}`, search: window.location.search}} ><ArrowBackIcon /></IconButton>&nbsp;
         <IconButton variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}`, search: window.location.search}} ><ArrowForwardIcon /></IconButton>
         <Button variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`, search: window.location.search}} >Today</Button>&nbsp;
-      </Box>
+      </Box>}
       <ContainerWithSidenav
         init={init}
         getContentUrl={getContentUrl}
