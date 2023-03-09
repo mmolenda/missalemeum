@@ -1,17 +1,20 @@
 import React from "react";
-import {Box, createTheme, GlobalStyles, Link, ThemeProvider} from "@mui/material";
+import {Box, Button, createTheme, GlobalStyles, IconButton, Link, ThemeProvider} from "@mui/material";
 import ContainerWithSidenav from "./ContainerWithSidenav";
 import moment from "moment";
 import {appbarDarkGrey, getDesignTokens, yellowish} from "../designTokens";
 import Logo from "./Logo";
 import {Link as RouterLink, useParams} from "react-router-dom";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function WidgetPropers() {
   const {lang} = useParams()
   const {id} = useParams()
   let date = (id === undefined) ? moment() : moment(id)
   const queryParameters = new URLSearchParams(window.location.search)
-  const themeMode = queryParameters.get("theme")
+  const themeMode = {"light": "light", "dark": "dark"}[queryParameters.get("theme")] || "light"
+  console.log(themeMode)
   const getContentUrl = 'api/v5/proper'
   const init = ((id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden) => {
     if (id === undefined) {
@@ -20,7 +23,7 @@ export default function WidgetPropers() {
     getContent(id)
   })
 
-  let designTokens = getDesignTokens(themeMode ? themeMode : "light")
+  let designTokens = getDesignTokens(themeMode)
   designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"
   const theme = createTheme(designTokens)
   return (
@@ -32,10 +35,10 @@ export default function WidgetPropers() {
           "div#root": { backgroundColor: theme.palette.background.default }
         })}
       />
-      <Box>
-        <Link component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}`}} >&larr;Yesterday</Link>&nbsp;
-        <Link component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`}} >Today</Link>&nbsp;
-        <Link component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}`}} >Tomorrow &rarr;</Link>
+      <Box sx={{marginTop: "1rem"}}>
+        <IconButton variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}`, search: window.location.search}} ><ArrowBackIcon /></IconButton>&nbsp;
+        <IconButton variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}`, search: window.location.search}} ><ArrowForwardIcon /></IconButton>
+        <Button variant="outlined" component={RouterLink} to={{pathname: `/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`, search: window.location.search}} >Today</Button>&nbsp;
       </Box>
       <ContainerWithSidenav
         init={init}
@@ -47,6 +50,7 @@ export default function WidgetPropers() {
         position: "fixed",
         bottom: 0,
         width: "100%",
+        textAlign: "right",
         backgroundColor: appbarDarkGrey,
         color: yellowish
       }}><span>Powered by&nbsp;

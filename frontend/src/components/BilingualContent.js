@@ -148,7 +148,7 @@ const ArticleTags = (props) => {
               }
             }}
           >
-            {pages.map((content, xindex) => <MenuItem value={xindex}>{content}</MenuItem>)}
+            {pages.map((content, xindex) => <MenuItem key={xindex} value={xindex}>{content}</MenuItem>)}
           </Select>
         : pages.map((content) => <Tag key={content} label={content} />)
       }
