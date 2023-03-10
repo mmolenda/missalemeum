@@ -1,4 +1,5 @@
 import React, {createRef} from 'react';
+import {useParams} from "react-router-dom";
 import ContainerWithSidenav from "./ContainerWithSidenav";
 import {Link as ScrollLink} from "react-scroll";
 import List from "@mui/material/List";
@@ -7,7 +8,7 @@ import {grey} from "@mui/material/colors";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 
 export default function Ordo() {
-
+  const {lang} = useParams()
   const getContentUrl = 'api/v5/ordo'
   const getSidenavItemsUrl = null
   const path = null
@@ -18,6 +19,7 @@ export default function Ordo() {
 
   return (
     <ContainerWithSidenav
+      lang={lang}
       init={init}
       getContentUrl={getContentUrl}
       getSidenavItemsUrl={getSidenavItemsUrl}

@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import WidgetPropers from "./components/WidgetPropers";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const anchor = document.getElementById('missalemeum')
+const root = ReactDOM.createRoot(anchor);
 root.render(
       <BrowserRouter>
-        <App />
+        {
+          anchor.dataset.widget === undefined
+          ? <App {...anchor.dataset} />
+          : <WidgetPropers {...anchor.dataset} />
+        }
       </BrowserRouter>
 );
 // If you want to start measuring performance in your app, pass a function

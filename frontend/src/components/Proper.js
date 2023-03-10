@@ -21,6 +21,7 @@ const yearFormat = 'YYYY'
 
 export default function Proper() {
   const {lang} = useParams()
+  const {id} = useParams()
   const getContentUrl = 'api/v5/proper'
   const getSidenavItemsUrl = 'api/v5/calendar'
   const path = '/'
@@ -36,6 +37,8 @@ export default function Proper() {
 
   return (
     <ContainerWithSidenav
+      lang={lang}
+      id={id}
       init={init}
       getContentUrl={getContentUrl}
       getSidenavItemsUrl={getSidenavItemsUrl}

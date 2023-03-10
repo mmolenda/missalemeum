@@ -56,10 +56,10 @@ const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
 const defaultLanguage = myLocalStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
 
-const App = () => {
+const App = (props) => {
   return (
     <Routes>
-      <Route element={<Layout/>}>
+      <Route element={<Layout version={props.version}/>}>
         <Route index element={ <Navigate replace to={`/${defaultLanguage}`} /> }/>
         <Route exact path="/" element={<Proper/>}/>
         <Route path=":lang" element={<Proper/>}/>
@@ -77,14 +77,12 @@ const App = () => {
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
       <Route path=":lang/widgets/propers" element={<WidgetPropers/>}/>
-      <Route path=":lang/widgets/propers/:id" element={<WidgetPropers/>}/>
     </Routes>
   );
 };
 
 
-const Layout = () => {
-  const version = document.querySelector('meta[name="version"]').content
+const Layout = (props) => {
   const {lang} = useParams()
   const navigate = useNavigate()
   const location = useLocation();
@@ -155,7 +153,7 @@ const Layout = () => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      {/*<ReleaseNotes lang={lang} version={version} debug={debug} />*/}
+      {/*<ReleaseNotes lang={lang} version={props.version} debug={debug} />*/}
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -191,7 +189,7 @@ const Layout = () => {
         <Outlet />
         <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
-          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
+          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{props.version}</Typography>
         </ContainerMedium>
         <CookieConsent enableDeclineButton debug={debug} declineButtonStyle={{ background: appbarDarkGrey }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK"

@@ -1,5 +1,5 @@
 import React, {cloneElement, createRef, useEffect, useState} from 'react';
-import {useParams, Link as RouterLink, useNavigate} from "react-router-dom";
+import {Link as RouterLink, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
@@ -14,15 +14,14 @@ import SkeletonSidenav from "./SkeletonSidenav";
 import {ContainerMedium} from "./styledComponents/ContainerMedium";
 
 export default function ContainerWithSidenav(props) {
+  const anchor = document.getElementById('missalemeum')
   const navigate = useNavigate()
-  const apiUrlBase = process.env.REACT_APP_API_URL || ""
-  const {lang} = useParams()
-  const {id} = useParams()
-  const version = document.querySelector('meta[name="version"]').content
+  const apiUrlBase = process.env.REACT_APP_API_URL || anchor.dataset.apiurl || ""
+  const version = anchor.dataset.version
   const queryParameters = new URLSearchParams(window.location.search)
   const backButtonRef = queryParameters.get("ref")
-  const apiContentUrl = `${apiUrlBase}/${lang}/${props.getContentUrl}`
-  const apiSidenavItemsUrl = `${apiUrlBase}/${lang}/${props.getSidenavItemsUrl}`
+  const apiContentUrl = `${apiUrlBase}/${props.lang}/${props.getContentUrl}`
+  const apiSidenavItemsUrl = `${apiUrlBase}/${props.lang}/${props.getSidenavItemsUrl}`
   const [internalId, setInternalId] = useState(null)
   const [internalYear, setInternalYear] = useState(null)
   const [internalLang, setInternalLang] = useState(null)
@@ -35,23 +34,25 @@ export default function ContainerWithSidenav(props) {
   const [sidenavHidden, setSidenavHidden] = useState(false)
 
   useEffect(() => {
-    props.init(id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
+    props.init(props.id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
     window.scrollTo(0, 0)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, lang])
+  }, [props.id, props.lang])
 
 
   const getContent = (id, sidenavItemsFromContent = false) => {
     setInternalId(null)
     if (id || sidenavItemsFromContent) {
       let url = id ? `${apiContentUrl}/${id}` : apiContentUrl
-      url += `?v=${version}`
+      if (version) {
+        url += `?v=${version}`
+      }
       fetch(url, {mode: "cors"})
         .then(response => {
           if (response.status === 404) {
-            navigate(`/${lang}/404`)
+            navigate(`/${props.lang}/404`)
           } else if (response.status !== 200) {
-            navigate(`/${lang}/error`)
+            navigate(`/${props.lang}/error`)
           } else {
             return response.json()
           }
@@ -67,19 +68,21 @@ export default function ContainerWithSidenav(props) {
             setSidenavItemsFiltered(sidenavItems)
           }
         })
-        .catch(error => navigate(`/${lang}/404`))
+        .catch(error => navigate(`/${props.lang}/404`))
     }
   }
 
   const getSidenavItems = (year) => {
     let url = year ? `${apiSidenavItemsUrl}/${year}` : apiSidenavItemsUrl
-    url += `?v=${version}`
+    if (version) {
+      url += `?v=${version}`
+    }
     fetch(url, {mode: "cors"})
       .then(response => {
           if (response.status === 404) {
-            navigate(`/${lang}/404`)
+            navigate(`/${props.lang}/404`)
           } else if (response.status !== 200) {
-            navigate(`/${lang}/error`)
+            navigate(`/${props.lang}/error`)
           } else {
             return response.json()
           }
@@ -87,7 +90,7 @@ export default function ContainerWithSidenav(props) {
       .then(json => {
         setSidenavItems(json)
         setInternalYear(year)
-        setInternalLang(lang)
+        setInternalLang(props.lang)
         setSidenavItemsFiltered(json)
       })
       .catch(error => console.log(error))
@@ -111,7 +114,7 @@ export default function ContainerWithSidenav(props) {
 
   let backButton = ((Boolean(backButtonRef) || !sidenavDisabled) && <IconButton
     component={RouterLink}
-    to={{pathname: backButtonRef ? `/${lang}/${backButtonRef}` : ""}}
+    to={{pathname: backButtonRef ? `/${props.lang}/${backButtonRef}` : ""}}
     onClick={() => {setSidenavHidden(false)}}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
   >
@@ -127,7 +130,7 @@ export default function ContainerWithSidenav(props) {
       pt: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
       height: (sidenavHidden || sidenavDisabled) ? "100%" : "80vh"}}
     >
-      <BilingualContent id={internalId} lang={lang} contents={content}
+      <BilingualContent id={internalId} lang={props.lang} contents={content}
                         singleColumnAsRubric={props.singleColumnAsRubric} backButton={backButton}
                         markdownNewlines={props.markdownNewlines} contentToolbarDisabled={props.contentToolbarDisabled}/>
   </Box>
@@ -138,7 +141,7 @@ export default function ContainerWithSidenav(props) {
         <Box sx={{overflowY: 'scroll', width: '100%', pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`, height: (!sidenavHidden) ? "100%" : "80vh"}}>
           <SidenavToolbox
             internalId={internalId}
-            lang={lang}
+            lang={props.lang}
             filterSidenavItems={(d) => {
               filterSidenavItems(d)
             }}
@@ -148,15 +151,15 @@ export default function ContainerWithSidenav(props) {
             {props.sidenav ?
               cloneElement(props.sidenav, {
                 internalId: internalId,
-                lang: lang,
+                lang: props.lang,
                 items: sidenavItemsFiltered,
                 setSidenavHidden: setSidenavHidden
             }) :
               <Sidenav
                 internalId={internalId}
-                lang={lang}
+                lang={props.lang}
                 items={sidenavItemsFiltered}
-                sidenavPath={`/${lang}${props.sidenavPath}`}
+                sidenavPath={`/${props.lang}${props.sidenavPath}`}
                 setSidenavHidden={setSidenavHidden}
               />
             }
