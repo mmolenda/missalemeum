@@ -21,6 +21,6 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && anchor.dataset.widget === undefined) {
     navigator.serviceWorker.register('/service-worker.js');
 }
