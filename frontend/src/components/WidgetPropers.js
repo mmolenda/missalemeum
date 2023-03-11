@@ -32,7 +32,7 @@ export default function WidgetPropers() {
       />
       {settingsShowNav && <Box sx={{marginTop: "1rem", textAlign: "center"}}>
         <IconButton variant="outlined" onClick={() => setMyId(date.subtract(1, 'days').format('YYYY-MM-DD'))}><ArrowBackIcon /></IconButton>&nbsp;
-        <IconButton variant="outlined" onClick={() => setMyId(date.add(2, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
+        <IconButton variant="outlined" onClick={() => setMyId(date.add(1, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
         <Button variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >Today</Button>&nbsp;
       </Box>}
       <ContainerWithSidenav
