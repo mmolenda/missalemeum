@@ -115,16 +115,21 @@ const ArticleTags = (props) => {
       tags.push(tag);
     }
   }
+  let paperPages = []
   if (props.info.tags != null) {
     for (let infoItem of props.info.tags.filter((i) => ! i.includes("Szaty"))) {
-      tags.push(<Tag key={infoItem} label={infoItem} />)
+      if (infoItem.match(/ \w\. \d+/)) {
+        // Paper pages references such as "Pallotinum s. 207" or "Angelus Press p. 359" are handled separately
+        paperPages.push(infoItem)
+      } else {
+        tags.push(<Tag key={infoItem} label={infoItem} />)
+      }
     }
   }
-  let pages = ["Angelus Press p. 345", "Father Lasance p. 279", "Baronius Press p. 360"]
   return (
     <>
       {tags}
-      {props.showIcon && pages.length > 1
+      {props.showIcon && paperPages.length > 1
         ? <Select
             value={paperPage}
             defaultValue={paperPage}
@@ -148,9 +153,9 @@ const ArticleTags = (props) => {
               }
             }}
           >
-            {pages.map((content, xindex) => <MenuItem key={xindex} value={xindex}>{content}</MenuItem>)}
+            {paperPages.map((content, xindex) => <MenuItem key={xindex} value={xindex}>{content}</MenuItem>)}
           </Select>
-        : pages.map((content) => <Tag key={content} label={content} />)
+        : paperPages.map((content) => <Tag key={content} label={content} />)
       }
     </>
   )

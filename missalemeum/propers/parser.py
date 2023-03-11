@@ -87,6 +87,7 @@ class ProperParser:
             raise ProperNotFound(f"Proper {self.proper_id} not found")
         proper.description = parsed_comment['description']
         proper.tags = parsed_comment['tags']
+        proper.tags.extend(self.translations[lang].PAGES.get(self.proper_id, []))
         proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
         proper = self._add_prefaces(proper, lang)
         proper = self._filter_sections(proper)
