@@ -23,3 +23,5 @@ export const MSG_POLICY_LINK = {"en": "Privacy Policy.",
 														    "pl": "Polityka Prywatności"}
 export const MSG_POLICY_DECLINE_BUTTON = {"en": "No, thanks",
 														    "pl": "Nie, dziękuję"}
+export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
+export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}

@@ -6,10 +6,13 @@ import {appbarDarkGrey, getDesignTokens, yellowish} from "../designTokens";
 import Logo from "./Logo";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {POWERED_BY, TODAY} from "../intl";
+import {useParams} from "react-router-dom";
 
 export default function WidgetPropers() {
+  const {lang} = useParams()
   const queryParameters = new URLSearchParams(window.location.search)
-  const settingsLang = {"pl": "pl", "en": "en"}[queryParameters.get("lang")] || "en"
+  const settingsLang = {"pl": "pl", "en": "en"}[lang] || "en"
   const settingsThemeMode = {"light": "light", "dark": "dark"}[queryParameters.get("theme")] || "light"
   const settingsShowNav = (queryParameters.get("navigation") + "").toLowerCase() !== "false"
   const getContentUrl = 'api/v5/proper'
@@ -33,7 +36,7 @@ export default function WidgetPropers() {
       {settingsShowNav && <Box sx={{marginTop: "1rem", textAlign: "center"}}>
         <IconButton variant="outlined" onClick={() => setMyId(date.subtract(1, 'days').format('YYYY-MM-DD'))}><ArrowBackIcon /></IconButton>&nbsp;
         <IconButton variant="outlined" onClick={() => setMyId(date.add(1, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
-        <Button variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >Today</Button>&nbsp;
+        <Button variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >{TODAY[settingsLang]}</Button>&nbsp;
       </Box>}
       <ContainerWithSidenav
         id={myId}
@@ -47,12 +50,14 @@ export default function WidgetPropers() {
         position: "fixed",
         bottom: 0,
         width: "100%",
-        textAlign: "right",
+        paddingY: "0.05rem",
+        textAlign: "center",
         backgroundColor: appbarDarkGrey,
         color: yellowish
-      }}><span>Powered by&nbsp;
-        <Logo width={12} height={12} /><Link target="_blank" href="https://www.missalemeum.com" sx={{color: yellowish}}>Missale Meum
-        </Link></span></Box>
+      }}>{POWERED_BY[settingsLang]}{' '}
+        <Link target="_blank" href="https://www.missalemeum.com" sx={{color: yellowish}}>
+          <Logo width={10} height={10} />Missale Meum
+        </Link></Box>
     </ThemeProvider>
   )
 }
