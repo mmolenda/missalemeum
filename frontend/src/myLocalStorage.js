@@ -1,7 +1,7 @@
 export const myLocalStorage = {
 	getItem: (key) => {
     try {
-			localStorage.getItem(key)
+			return localStorage.getItem(key)
     } catch(e) {
 			return undefined;
     }
