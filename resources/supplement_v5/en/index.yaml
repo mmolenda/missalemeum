@@ -35,6 +35,19 @@ sections:
         
         https://www.missalemeum.com/en/api/v5/icalendar/4
       
-        <iframe style="width: 100%;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=OWZzajQxcTE4MDQ1NWFpcmw4NnZuYzlib2p2MXAybzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;hl=en&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+        <iframe height=300 style="width: 80%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=OWZzajQxcTE4MDQ1NWFpcmw4NnZuYzlib2p2MXAybzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;hl=en&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+      
+        ### Integration 
+      
+        You can embed daily readings from Missale Meum on your website using iframe widget.
+      
+        Simply paste the following tag into your website's source:
+      
+        `<iframe height=300 style="width: 80%; border:none;" src="https://www.missalemeum.com/en/widgets/propers"></iframe>`
+      
+        You can control the theme of the widget by passing either `?theme=light` for light mode (default) or `?theme=dark` URL param for dark mode.
+      
+        <iframe height=300 style="width: 80%; border:none;" src="https://akapittemu.bieda.it/en/widgets/propers"></iframe>
+
   id: ''
   label: ''
