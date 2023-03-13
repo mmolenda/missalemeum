@@ -63,7 +63,7 @@ export default function BilingualContent(props) {
       singleColumnAsRubric={props.singleColumnAsRubric}
       backButton={props.backButton}
       markdownNewlines={props.markdownNewlines}
-      contentToolbarDisabled={props.contentToolbarDisabled}
+      widgetMode={props.widgetMode}
     />
   )
 }
@@ -239,7 +239,7 @@ const Article = (props) => {
         >
           {props.backButton}
         </Box>
-        {!props.contentToolbarDisabled && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
+        {!props.widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
           <IconButton ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
@@ -284,14 +284,14 @@ const Article = (props) => {
             <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
           {content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem", hyphens: "auto" }}>
-            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />
+            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
           </Typography>}
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<React.Fragment key={index}>
-                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} />
+                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} widgetMode={props.widgetMode} />
                   {index + 1 < content.info.supplements.length && ", "}
                 </React.Fragment>)
               })}
@@ -308,6 +308,7 @@ const Article = (props) => {
               singleColumnAsRubric={props.singleColumnAsRubric}
               bilingualLang={bilingualLang}
               markdownNewlines={props.markdownNewlines}
+              widgetMode={props.widgetMode}
             />
           })}
           </Box>
@@ -387,6 +388,7 @@ const BilingualSection = (props) => {
             bilingualLang={props.bilingualLang}
             bilingualLangClass={paragraph.bilingualLangClass}
             markdownNewlines={props.markdownNewlines}
+            widgetMode={props.widgetMode}
           />
         ))}
       </Box>
@@ -410,7 +412,7 @@ const BilingualSectionParagraph = (props) => {
         hyphens: "auto"
       }}
     >
-      <Md text={props.text} markdownNewlines={props.markdownNewlines} />
+      <Md text={props.text} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
     </Typography>
   )
 }

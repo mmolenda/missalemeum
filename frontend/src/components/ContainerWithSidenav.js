@@ -132,7 +132,7 @@ export default function ContainerWithSidenav(props) {
     >
       <BilingualContent id={internalId} lang={props.lang} contents={content}
                         singleColumnAsRubric={props.singleColumnAsRubric} backButton={backButton}
-                        markdownNewlines={props.markdownNewlines} contentToolbarDisabled={props.contentToolbarDisabled}/>
+                        markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode}/>
   </Box>
 
   return (

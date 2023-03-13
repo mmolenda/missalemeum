@@ -41,7 +41,7 @@ export default function WidgetPropers() {
         init={init}
         getContentUrl={getContentUrl}
         sidenavDisabled
-        contentToolbarDisabled
+        widgetMode
       />
       <Box sx={{
         position: "fixed",
