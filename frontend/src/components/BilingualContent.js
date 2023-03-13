@@ -12,31 +12,19 @@ import {
   useMediaQuery,
   IconButton,
   Select,
-  MenuItem, Popover, useTheme
+  MenuItem, Popover
 } from "@mui/material";
-import moment from "moment";
 import 'moment/locale/pl';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
-import ShieldIcon from '@mui/icons-material/Shield';
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
-import EventIcon from '@mui/icons-material/Event';
-import TimelapseIcon from '@mui/icons-material/Timelapse';
 import {
-  CLASS_1,
-  CLASS_2,
-  CLASS_3,
-  CLASS_4, MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, VESTMENTS_BLACK,
-  VESTMENTS_GREEN, VESTMENTS_PINK,
-  VESTMENTS_RED,
-  VESTMENTS_VIOLET,
-  VESTMENTS_WHITE
+  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED
 } from "../intl";
-import Tag from "./styledComponents/Tag";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
+import ArticleTags from "./ArticleTags";
 
 
 const xVernacular = 'x-vernacular'
@@ -65,99 +53,6 @@ export default function BilingualContent(props) {
       markdownNewlines={props.markdownNewlines}
       widgetMode={props.widgetMode}
     />
-  )
-}
-
-const ArticleTags = (props) => {
-  const theme = useTheme()
-  const [paperPage, setPaperPage] = useState(0)
-
-  let rankNames = {
-    1: CLASS_1[props.lang],
-    2: CLASS_2[props.lang],
-    3: CLASS_3[props.lang],
-    4: CLASS_4[props.lang]}
-
-  let colorNames = {
-    r: VESTMENTS_RED[props.lang],
-    g: VESTMENTS_GREEN[props.lang],
-    w: VESTMENTS_WHITE[props.lang],
-    v: VESTMENTS_VIOLET[props.lang],
-    b: VESTMENTS_BLACK[props.lang],
-    p: VESTMENTS_PINK[props.lang]}
-
-  let tags = [];
-  let date = props.info.date;
-  let label
-  if (date) {
-      moment.locale(props.lang)
-      let parsedDate = moment(date, "YYYY-MM-DD");
-      label = parsedDate.format("DD MMMM YY, dddd")
-      tags.push(<Tag key={label} icon={props.showIcon &&<EventIcon />} label={label} />);
-  }
-  if (props.info.tempora != null) {
-      label = props.info.tempora
-      tags.push(<Tag key={label} icon={props.showIcon &&<TimelapseIcon />} label={label} />);
-  }
-  if (props.info.rank) {
-      label = rankNames[props.info.rank]
-      tags.push(<Tag key={label} label={label} />);
-  }
-  if (props.info.colors) {
-    for (let colorCode of props.info.colors) {
-      let tag
-      label = colorNames[colorCode]
-      if ((colorCode === "w" && theme.palette.mode === "light") || (colorCode === "b" && theme.palette.mode === "dark")) {
-        tag = <Tag key={label} icon={props.showIcon && <ShieldOutlinedIcon/>} label={label}/>
-      } else {
-        tag = <Tag key={label} color={`vestment${colorCode}`} icon={props.showIcon &&<ShieldIcon />} label={label} />
-      }
-      tags.push(tag);
-    }
-  }
-  let paperPages = []
-  if (props.info.tags != null) {
-    for (let infoItem of props.info.tags.filter((i) => ! i.includes("Szaty"))) {
-      if (infoItem.match(/ \w\. \d+/)) {
-        // Paper pages references such as "Pallotinum s. 207" or "Angelus Press p. 359" are handled separately
-        paperPages.push(infoItem)
-      } else {
-        tags.push(<Tag key={infoItem} label={infoItem} />)
-      }
-    }
-  }
-  return (
-    <>
-      {tags}
-      {props.showIcon && paperPages.length > 1
-        ? <Select
-            value={paperPage}
-            defaultValue={paperPage}
-            variant="outlined"
-            onChange={(e) => {
-              setPaperPage(e.target.value)
-            }}
-            sx={{
-              borderRadius: 10,
-              fontFamily: "Arial",
-              fontSize: "0.85rem",
-              color: (theme) => theme.palette.secondary.main,
-              "& .MuiSvgIcon-root": {
-                  color: (theme) => theme.palette.secondary.main,
-              },
-              "& .MuiOutlinedInput-input": {
-                  padding: "0.4rem 1rem",
-              },
-              "& .MuiOutlinedInput-notchedOutline": {
-                borderColor: (theme) => theme.palette.secondary.main,
-              }
-            }}
-          >
-            {paperPages.map((content, xindex) => <MenuItem key={xindex} value={xindex}>{content}</MenuItem>)}
-          </Select>
-        : paperPages.map((content) => <Tag key={content} label={content} />)
-      }
-    </>
   )
 }
 
