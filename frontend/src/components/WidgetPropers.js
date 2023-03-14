@@ -35,7 +35,7 @@ export default function WidgetPropers(props) {
         })}
       />
 
-      {settingsShowNav && <ContainerMedium sx={{textAlign: "right"}}>
+      {settingsShowNav && <ContainerMedium sx={{mt: "0.5rem", textAlign: "right"}}>
         <IconButton size="small" variant="outlined" onClick={() => setMyId(date.subtract(1, 'days').format('YYYY-MM-DD'))}><ArrowBackIcon /></IconButton>&nbsp;
         <IconButton size="small" variant="outlined" onClick={() => setMyId(date.add(1, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
         <Button size="small" variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >{TODAY[settingsLang]}</Button>&nbsp;
