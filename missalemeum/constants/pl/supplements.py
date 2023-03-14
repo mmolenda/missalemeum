@@ -313,7 +313,7 @@ SUPPLEMENTS = {
     ],
     constants.TEMPORA_QUAD6_0: [
         {"label": "Wielki Tydzień", "path": "/pl/supplement/7-wielki-tydzien"},
-        {"label": OE, "path": "/pl/supplement/objasnienia-Quad6-0"}
+        {"label": OE, "path": "/pl/supplement/objasnienia-Quad6-0r"}
     ],
     constants.TEMPORA_QUAD6_6: [
         {"label": "Okres Wielkanocny", "path": "/pl/supplement/9-okres-wielkanocny"}
@@ -450,5 +450,8 @@ SUPPLEMENTS = {
     ],
     constants.SANCTI_11_01: [
         {"label": OE, "path": "/pl/supplement/objasnienia-11-01"}
+    ],
+    constants.VOTIVE_MATRIMONIUM: [
+        {"label": "Obrzędy sakramentu małżeństwa", "path": "/pl/supplement/22-malzenstwo"}
     ]
 }

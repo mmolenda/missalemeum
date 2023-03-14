@@ -11,12 +11,7 @@
       "description": "W noc poprzedzającą uroczystość Zesłania Ducha Świętego odprawiano Wigilię. Podczas niej udzielano Chrztu św. i Bierzmowania katechumenom, którzy nie mogli przyjąć tych sakramentów na Wielkanoc. Na zakończenie Wigilii odprawiano Mszę św. o świcie. Jest to zatem Msza świąteczna, podobnie jak Msza Wigilii Wielkanocnej. Charakter świąteczny zachowała ona mimo przesunięcia na ranek soboty poprzedzającej święto. Teksty mszalne wysławiają działanie Ducha Świętego w duszy ochrzczonego i bierzmowanego. Działanie Ducha Świętego podobne jest do światła rozpraszającego ciemności (kolekta, sekreta) i wody podtrzymującej życie na ziemi (antyfona na wejście i na komunię oraz pokomunia).\n",
       "id": "tempora:Pasc6-6:1:r",
       "rank": 1,
-      "supplements": [
-        {
-          "label": "Zesłanie Ducha św.",
-          "path": "/pl/supplement/10-zeslanie-ducha-sw"
-        }
-      ],
+      "supplements": [],
       "tempora": null,
       "title": "Wigilia Zesłania Ducha Świętego"
     },
@@ -135,12 +130,7 @@
       "description": "Msza święta w Zielone Świątki odprawiała się niegdyś w nocy, potem tak jak i Msza Wielkanocna została przeniesiona na sobotę, w dniu tym więc zaczyna się to wielkie święto. W dzień Zesłania Ducha Świętego odbywał się chrzest tych, którzy nie mogli być ochrzczeni w Wielkanoc, dlatego też Msza w Wigilię Zielonych Świątek ma wiele wspólnego z Mszą Wielkosobotnią. Poprzedza nią część\npokutna – czytanie 6 Proroctw i poświęcenie wody chrzcielnej. Stacja miała miejsce w Bazylice Św.\nJana na Lateranie. Kapłan i lewici są odziani w fioletowe ornaty. Przy czytaniu Proroctw świece\nna ołtarzu są zgaszone, zapala się je dopiero na początku Mszy, tak jak w Wielką Sobotę.",
       "id": "tempora:Pasc6-6:1:r",
       "rank": 1,
-      "supplements": [
-        {
-          "label": "Zesłanie Ducha św.",
-          "path": "/pl/supplement/10-zeslanie-ducha-sw"
-        }
-      ],
+      "supplements": [],
       "tempora": null,
       "title": "Wigilia Zesłania Ducha Świętego (pre 1955)"
     },
