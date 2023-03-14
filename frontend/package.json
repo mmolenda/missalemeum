@@ -1,6 +1,6 @@
 {
   "name": "missalemeum",
-  "version": "5.0.0",
+  "version": "5.0.3",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",

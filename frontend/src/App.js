@@ -106,7 +106,7 @@ const Layout = (props) => {
   }, [location])
 
   const registerPageView = () => {
-    if (getCookieConsentValue() === "true" && window.location.hostname.endsWith("missalemeum.com")) {
+    if (getCookieConsentValue() === "true" && window.gtag) {
       window.gtag("event", "page_view", {
         page_path: location.pathname + location.search + location.hash,
         page_search: location.search,

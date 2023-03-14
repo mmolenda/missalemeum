@@ -46,13 +46,16 @@ sections:
         ### iCalendar
         Widok roku liturgicznego wg Mszału z 1962 r. w formacie iCalendar.
         
-        https://www.missalemeum.com/pl/api/v5/icalendar
+        ```
+        https://www.missalemeum.com/pl/
+         api/v5/icalendar
+        ```
         
         Można go wyświetlić w dowolnej aplikacji prezentującej kalendarz, np. Google Calendar ([instrukcja](https://support.google.com/calendar/answer/37100)), czy 
         Microsoft Outlook. Link zawiera wszystkie niedziele i święta. W opisie każdego wydarzenia kalendarza znajduje 
         się odnośnik do odpowiedniego formularza na stronie internetowej.
         
-        <iframe height=300 style="width: 80%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=djZtY3ZlNW5oaGRrb2xndmFyYTdwYW1yMTRuZmpwdjJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+        <iframe height=300 style="width: 100%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=djZtY3ZlNW5oaGRrb2xndmFyYTdwYW1yMTRuZmpwdjJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
         
         ### Integracja
         
@@ -60,11 +63,18 @@ sections:
       
         Aby osadzić widget wystarczy umieścić poniższy tag w kodzie źródłowym strony:
       
-        `<iframe height=300 style="width: 80%; border:none;" src="https://www.missalemeum.com/pl/widgets/propers"></iframe>`
+        ```
+        <iframe 
+         height=300
+         style="width: 100%; border:none;" 
+         src="https://www.missalemeum.com/
+              pl/widgets/propers">
+        </iframe>
+        ```
       
         Motyw kolorystyczny widgetu może być kontrolowany poprzez dodanie do adresu parametru `?theme=light` dla motywu jasnego (domyślny) lub `?theme=dark` dla motywu ciemnego.
       
-        <iframe height=300 style="width: 80%; border:none;" src="https://akapittemu.bieda.it/pl/widgets/propers?lang=pl"></iframe>
+        <iframe height=300 style="width: 100%; border:none;" src="https://akapittemu.bieda.it/pl/widgets/propers?lang=pl"></iframe>
   id: ''
   label: ''
 
