@@ -173,6 +173,7 @@ p.placeholder {
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="missalemeum" data-version="{{ version }}">
+    {% if not widget %}
     <header class="placeholder">
         <div>
             <svg viewBox="0 0 100 80" width="20" height="20">
@@ -195,6 +196,7 @@ p.placeholder {
             </svg>
             <h1 class="placeholder">Missale<br/>Meum</h1></div>
     </header>
+    {%  endif %}
     <article class="placeholder">
         {% if body %}
             <h2 class="placeholder">{{ body[0].info.title }}</h2>

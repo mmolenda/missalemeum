@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Box, Button, createTheme, GlobalStyles, IconButton, Link, ThemeProvider} from "@mui/material";
+import {Box, Button, createTheme, GlobalStyles, IconButton, Link, ThemeProvider, Typography} from "@mui/material";
 import ContainerWithSidenav from "./ContainerWithSidenav";
 import moment from "moment";
 import {appbarDarkGrey, getDesignTokens, yellowish} from "../designTokens";
@@ -8,8 +8,9 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {POWERED_BY, TODAY} from "../intl";
 import {useParams} from "react-router-dom";
+import {ContainerMedium} from "./styledComponents/ContainerMedium";
 
-export default function WidgetPropers() {
+export default function WidgetPropers(props) {
   const {lang} = useParams()
   const queryParameters = new URLSearchParams(window.location.search)
   const settingsLang = {"pl": "pl", "en": "en"}[lang] || "en"
@@ -33,11 +34,12 @@ export default function WidgetPropers() {
           "div#root": { backgroundColor: theme.palette.background.default }
         })}
       />
-      {settingsShowNav && <Box sx={{marginTop: "1rem", textAlign: "center"}}>
-        <IconButton variant="outlined" onClick={() => setMyId(date.subtract(1, 'days').format('YYYY-MM-DD'))}><ArrowBackIcon /></IconButton>&nbsp;
-        <IconButton variant="outlined" onClick={() => setMyId(date.add(1, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
-        <Button variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >{TODAY[settingsLang]}</Button>&nbsp;
-      </Box>}
+
+      {settingsShowNav && <ContainerMedium sx={{textAlign: "right"}}>
+        <IconButton size="small" variant="outlined" onClick={() => setMyId(date.subtract(1, 'days').format('YYYY-MM-DD'))}><ArrowBackIcon /></IconButton>&nbsp;
+        <IconButton size="small" variant="outlined" onClick={() => setMyId(date.add(1, 'days').format('YYYY-MM-DD'))}><ArrowForwardIcon /></IconButton>
+        <Button size="small" variant="outlined" onClick={() => setMyId(moment().format('YYYY-MM-DD'))} >{TODAY[settingsLang]}</Button>&nbsp;
+      </ContainerMedium>}
       <ContainerWithSidenav
         id={myId}
         lang={settingsLang}
@@ -46,6 +48,9 @@ export default function WidgetPropers() {
         sidenavDisabled
         widgetMode
       />
+      {props.version && <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
+        <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{props.version}</Typography>
+      </ContainerMedium>}
       <Box sx={{
         position: "fixed",
         bottom: 0,

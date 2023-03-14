@@ -100,4 +100,4 @@ def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
 @views.route("/<string:lang>/widgets/propers")
 @infer_locale
 def widget_propers(lang: str = LANGUAGE_ENGLISH):
-    return render_template("index.html", lang=lang, body=None, version=__version__.__version__)
+    return render_template("index.html", lang=lang, body=None, widget=True)

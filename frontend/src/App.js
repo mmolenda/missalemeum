@@ -76,7 +76,7 @@ const App = (props) => {
         <Route path=":lang/404" element={<NotFound/>}/>
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
-      <Route path=":lang/widgets/propers" element={<WidgetPropers/>}/>
+      <Route path=":lang/widgets/propers" element={<WidgetPropers version={props.version}/>}/>
     </Routes>
   );
 };
