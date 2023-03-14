@@ -46,10 +46,7 @@ sections:
         ### iCalendar
         Widok roku liturgicznego wg Mszału z 1962 r. w formacie iCalendar.
         
-        ```
-        https://www.missalemeum.com/pl/
-         api/v5/icalendar
-        ```
+        https://www.missalemeum.com/<wbr>en/api/v3/icalendar
         
         Można go wyświetlić w dowolnej aplikacji prezentującej kalendarz, np. Google Calendar ([instrukcja](https://support.google.com/calendar/answer/37100)), czy 
         Microsoft Outlook. Link zawiera wszystkie niedziele i święta. W opisie każdego wydarzenia kalendarza znajduje 
@@ -63,14 +60,7 @@ sections:
       
         Aby osadzić widget wystarczy umieścić poniższy tag w kodzie źródłowym strony:
       
-        ```
-        <iframe 
-         height=300
-         style="width: 100%; border:none;" 
-         src="https://www.missalemeum.com/
-              pl/widgets/propers">
-        </iframe>
-        ```
+        &lt;iframe height=300 style="width: 100%; border:none;" src="https://www.missalemeum.com/<wbr>pl/widgets/propers">&lt;/iframe>
       
         Motyw kolorystyczny widgetu może być kontrolowany poprzez dodanie do adresu parametru `?theme=light` dla motywu jasnego (domyślny) lub `?theme=dark` dla motywu ciemnego.
       
