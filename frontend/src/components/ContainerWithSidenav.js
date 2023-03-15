@@ -244,7 +244,7 @@ const SidenavToolbox = (props) => {
       zIndex: 100}}>
       <Autocomplete
         size="small"
-        sx={{width: "50%"}}
+        sx={{width: "30%"}}
         freeSolo
         value={filter}
         onInputChange={(event, newValue) => {
