@@ -14,6 +14,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ListItemText from "@mui/material/ListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
+import {SEARCH_SUGGESTIONS_PROPER} from "../intl";
 
 registerLocale("pl", pl)
 const dateFormat = 'YYYY-MM-DD'
@@ -46,6 +47,7 @@ export default function Proper() {
       extraTools={<MyDatePicker/>}
       sidenavPath={path}
       singleColumnAsRubric
+      searchSuggestions={SEARCH_SUGGESTIONS_PROPER[lang]}
     />
   )
 }

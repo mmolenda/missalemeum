@@ -1,6 +1,7 @@
 import React from 'react';
 import ContainerWithSidenav from "./ContainerWithSidenav";
 import {useParams} from "react-router-dom";
+import {SEARCH_SUGGESTIONS_ORATIO} from "../intl";
 
 export default function Oratio() {
   const {lang} = useParams()
@@ -25,6 +26,7 @@ export default function Oratio() {
       getSidenavItemsUrl={getSidenavItemsUrl}
       sidenavPath={path}
       markdownNewlines
+      searchSuggestions={SEARCH_SUGGESTIONS_ORATIO[lang]}
     />
   )
 }

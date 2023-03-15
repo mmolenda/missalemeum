@@ -3,12 +3,18 @@ import {Link as RouterLink, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
-import {Box, IconButton, InputAdornment, ListItemButton, OutlinedInput, Slide} from "@mui/material";
+import {
+  Autocomplete,
+  Box,
+  IconButton,
+  ListItemButton,
+  Slide,
+  TextField
+} from "@mui/material";
 import List from "@mui/material/List";
-import CancelIcon from '@mui/icons-material/Cancel';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import {SidenavListItem} from "./styledComponents/SidenavListItem";
-import {SEARCH_PLACEHOLDER} from "../intl";
+import {IN, SEARCH_PLACEHOLDER} from "../intl";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
 import {ContainerMedium} from "./styledComponents/ContainerMedium";
@@ -145,6 +151,8 @@ export default function ContainerWithSidenav(props) {
             filterSidenavItems={(d) => {
               filterSidenavItems(d)
             }}
+            searchSuggestions={props.searchSuggestions}
+            year={internalYear}
             extraTools={props.extraTools}
           />
           <Box>
@@ -183,8 +191,10 @@ const Sidenav = (props) => {
       }
     }
     if (props.internalId) {
-      listItemRefs[props.internalId].current.scrollIntoView({block: "center"})
-      listItemRefs[props.internalId].current.classList.add("sidenavItemActive")
+      try {
+        listItemRefs[props.internalId].current.scrollIntoView({block: "center"})
+        listItemRefs[props.internalId].current.classList.add("sidenavItemActive")
+      } catch (e) {}
     }
   })
 
@@ -221,6 +231,7 @@ const Sidenav = (props) => {
 
 const SidenavToolbox = (props) => {
   const [filter, setFilter] = useState("")
+  let searchLabel = props.year ? `${SEARCH_PLACEHOLDER[props.lang]} ${IN[props.lang]} ${props.year}` : SEARCH_PLACEHOLDER[props.lang]
   return (
     <Box sx={{
       position: "fixed",
@@ -231,25 +242,25 @@ const SidenavToolbox = (props) => {
       boxShadow: 2,
       backgroundColor: "background.default",
       zIndex: 100}}>
-      <OutlinedInput
+      <Autocomplete
         size="small"
-        type="text"
-        placeholder={SEARCH_PLACEHOLDER[props.lang]}
+        sx={{width: "50%"}}
+        freeSolo
         value={filter}
-        onChange={e => {
-          setFilter(e.target.value)
-          props.filterSidenavItems(e.target.value)
+        onInputChange={(event, newValue) => {
+          setFilter(newValue)
+          props.filterSidenavItems(newValue)
         }}
-        endAdornment={
-          <InputAdornment position="end">
-            <IconButton onClick={e => {
-              e.preventDefault()
-              setFilter("")
-              props.filterSidenavItems("")
-            }}>
-              <CancelIcon />
-            </IconButton>
-          </InputAdornment>}
+        options={props.searchSuggestions || []}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            label={searchLabel}
+            InputProps={{
+              ...params.InputProps,
+            }}
+          />
+        )}
       />
       {props.extraTools && cloneElement(props.extraTools, {internalId: props.internalId, lang: props.lang})}
     </Box>
