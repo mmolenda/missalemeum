@@ -8,6 +8,7 @@ from typing import List, Union, Pattern
 import mistune
 import yaml
 
+from constants import TRANSLATION
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
     SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V5
 from exceptions import SupplementNotFound
@@ -102,6 +103,8 @@ def get_pregenerated_proper(lang, proper_id, tempora_id=None):
     if os.path.exists(path):
         with open(path) as fh:
             proper = json.load(fh)
+            proper[0]['info']['tags'].extend(TRANSLATION[lang].PAGES.get(proper_id, []))
+            proper[0]['info']['supplements'] = TRANSLATION[lang].SUPPLEMENTS.get(proper_id, [])
             if proper_id == SANCTI_02_02 and tempora_id is not None:
                 # Candlemass is the only pre-generated proper for which the gradual/tract differs
                 # depending on liturgical period, hence this hack

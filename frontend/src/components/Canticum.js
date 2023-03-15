@@ -1,8 +1,11 @@
 import React from 'react';
 import ContainerWithSidenav from "./ContainerWithSidenav";
+import {useParams} from "react-router-dom";
+import {SEARCH_SUGGESTIONS_CANTICUM} from "../intl";
 
 export default function Canticum() {
-
+  const {lang} = useParams()
+  const {id} = useParams()
   const getContentUrl = 'api/v5/canticum'
   const getSidenavItemsUrl = 'api/v5/canticum'
   const path = '/canticum/'
@@ -16,11 +19,14 @@ export default function Canticum() {
 
   return (
     <ContainerWithSidenav
+      lang={lang}
+      id={id}
       init={init}
       getContentUrl={getContentUrl}
       getSidenavItemsUrl={getSidenavItemsUrl}
       sidenavPath={path}
       markdownNewlines
+      searchSuggestions={SEARCH_SUGGESTIONS_CANTICUM[lang]}
     />
   )
 }

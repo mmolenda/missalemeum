@@ -31,7 +31,6 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
-import {grey} from "@mui/material/colors";
 import CloseIcon from '@mui/icons-material/Close';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
@@ -48,217 +47,19 @@ import NotFound from "./components/NotFound";
 import Error from "./components/Error";
 import Supplement from "./components/Supplement";
 import Logo from "./components/Logo";
-import ReleaseNotes from "./components/ReleaseNotes";
 import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
+import WidgetPropers from "./components/WidgetPropers";
+import {appbarDarkGrey, getDesignTokens} from "./designTokens";
+import {myLocalStorage} from "./myLocalStorage";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
-const defaultLanguage = localStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
-const yellowish = '#fcfbf9'
-const appbarDarkGrey = '#424242'
-const defaultTheme = createTheme()
+const defaultLanguage = myLocalStorage.getItem("lang") || (navigator.languages.includes("pl")) ? "pl" : "en"
 
-const getDesignTokens = (mode) => ({
-  palette: {
-    mode,
-    ...(mode === 'light'
-      ? {
-          // palette values for light mode
-          background: {
-            paper: yellowish,
-            default: yellowish
-          },
-          primary: {
-            main: appbarDarkGrey,
-            light: '#6d6d6d',
-            dark: '#1b1b1b',
-          },
-          secondary: {
-            main: '#b76d6d',
-            light: '#eb9c9b',
-            dark: '#854042',
-          },
-          text: {
-            primary: grey[900],
-            disabled: grey[300]
-          },
-          vestmentw: {
-            main: '#d3d3d3',
-            contrastText: '#fff'
-          },
-          vestmentr: {
-            main: '#b76d6d',
-            contrastText: '#fff',
-          },
-          vestmentv: {
-            main: '#92689f',
-            contrastText: '#fff',
-          },
-          vestmentg: {
-            main: '#6c8d4d',
-            contrastText: '#fff',
-          }
-        }
-      : {
-          // palette values for dark mode
-          background: {
-            paper: '#262626',
-            default: '#262626'
-          },
-          primary: {
-            main: yellowish,
-            light: '#fff',
-            dark: '#c9c8c6',
-          },
-          secondary: {
-            main: '#e49086',
-            light: '#ffc1b6',
-            dark: '#b06159',
-          },
-          text: {
-            primary: yellowish,
-            secondary: yellowish,
-            disabled: grey[800]
-          },
-          vestmentw: {
-            main: yellowish,
-            contrastText: '#fff'
-          },
-          vestmentr: {
-            main: '#e49086',
-            contrastText: '#fff',
-          },
-          vestmentv: {
-            main: '#ad7cbe',
-            contrastText: '#fff',
-          },
-          vestmentg: {
-            main: '#91b965',
-            contrastText: '#fff',
-          },
-        }),
-        yellowish: {
-          main: yellowish,
-          contrastText: '#fff',
-        },
-        appbarDarkGrey: {
-          main: appbarDarkGrey,
-          contrastText: '#fff',
-        },
-        vestmentb: {
-          main: '#565656',
-          contrastText: '#fff',
-        },
-        vestmentp: {
-          main: '#e1a5ba',
-          contrastText: '#fff',
-        }
-  },
-  typography: {
-
-    ...(mode === 'light'
-    ? {
-        // palette values for light mode
-        h1: {
-          fontSize: "1.1rem",
-          fontFamily: "Merriweather",
-          fontWeight: 700,
-          color: yellowish
-        },
-        h2: {
-          fontSize: "1.25rem",
-          fontFamily: "Merriweather",
-          fontWeight: 800,
-          color: grey[900]
-        },
-        h3: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 800,
-          color: grey[900]
-        },
-        h4: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 400,
-          color: grey[900]
-        },
-        body1: {
-          fontFamily: "Merriweather",
-        },
-      }
-    : {
-        // palette values for dark mode
-        h1: {
-          fontSize: "1.1rem",
-          fontFamily: "Merriweather",
-          fontWeight: 700,
-          color: yellowish
-        },
-        h2: {
-          fontSize: "1.25rem",
-          fontFamily: "Merriweather",
-          fontWeight: 800,
-          color: yellowish
-        },
-        h3: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 800,
-          color: yellowish
-        },
-        h4: {
-          fontSize: "1rem",
-          fontFamily: "Merriweather",
-          textTransform: "uppercase",
-          fontWeight: 400,
-          color: yellowish
-        },
-        body1: {
-          fontFamily: "Merriweather",
-          color: yellowish
-        },
-    }),
-    subtitle1: {
-      fontWeight: 400,
-    },
-    subtitle2: {
-      fontWeight: 400,
-      color: '#b76d6d'
-    },
-  },
-  components: {
-    MuiAppBar: {
-      styleOverrides: {
-        root: {
-          [defaultTheme.breakpoints.up("sm")]: {
-            flexDirection: "row",
-            justifyContent: "center"
-          },
-          height: "56px"
-        },
-      },
-    },
-    MuiToolbar: {
-      styleOverrides: {
-        root: {
-          [defaultTheme.breakpoints.up("sm")]: {
-            minHeight: "56px",
-            width: "900px"
-          },
-        },
-      },
-    }
-  }
-});
-
-const App = () => {
+const App = (props) => {
   return (
     <Routes>
-      <Route element={<Layout/>}>
+      <Route element={<Layout version={props.version}/>}>
         <Route index element={ <Navigate replace to={`/${defaultLanguage}`} /> }/>
         <Route exact path="/" element={<Proper/>}/>
         <Route path=":lang" element={<Proper/>}/>
@@ -275,13 +76,13 @@ const App = () => {
         <Route path=":lang/404" element={<NotFound/>}/>
         <Route path=":lang/*" element={<NotFound/>}/>
       </Route>
+      <Route path=":lang/widgets/propers" element={<WidgetPropers version={props.version}/>}/>
     </Routes>
   );
 };
 
 
-const Layout = () => {
-  const version = document.querySelector('meta[name="version"]').content
+const Layout = (props) => {
   const {lang} = useParams()
   const navigate = useNavigate()
   const location = useLocation();
@@ -296,7 +97,7 @@ const Layout = () => {
     if (lang !== undefined && !supportedLanguages.includes(lang)) {
       navigate(`/${defaultLanguage}/404`)
     }
-    setDarkMode({"true": true, "false": false, null: undefined}[localStorage.getItem("darkMode")])
+    setDarkMode({"true": true, "false": false, null: undefined}[myLocalStorage.getItem("darkMode")])
   }, [lang, navigate])
 
   useEffect(() => {
@@ -305,7 +106,7 @@ const Layout = () => {
   }, [location])
 
   const registerPageView = () => {
-    if (getCookieConsentValue() === "true" && window.location.hostname.endsWith("missalemeum.com")) {
+    if (getCookieConsentValue() === "true" && window.gtag) {
       window.gtag("event", "page_view", {
         page_path: location.pathname + location.search + location.hash,
         page_search: location.search,
@@ -321,13 +122,13 @@ const Layout = () => {
   const toggleDarkMode = (darkModeNew) => {
     if (darkModeNew === false && darkMode !== false) {
       setDarkMode(false)
-      localStorage.setItem("darkMode", "false")
+      myLocalStorage.setItem("darkMode", "false")
     } else if (darkModeNew === true && darkMode !== true) {
       setDarkMode(true)
-      localStorage.setItem("darkMode", "true")
+      myLocalStorage.setItem("darkMode", "true")
     } else {
       setDarkMode(undefined)
-      localStorage.removeItem("darkMode")
+      myLocalStorage.removeItem("darkMode")
     }
   }
 
@@ -352,7 +153,7 @@ const Layout = () => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      {/*<ReleaseNotes lang={lang} version={version} debug={debug} />*/}
+      {/*<ReleaseNotes lang={lang} version={props.version} debug={debug} />*/}
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -380,15 +181,15 @@ const Layout = () => {
               </Drawer>
             </>
             <Link sx={{display: "flex", textDecoration: "none"}} component={RouterLink} to={{pathname: `/${lang}`}} >
-                <Logo />
+                <Logo width={28} height={28} />
                 <Typography variant="h1" component="div">Missale<br/>Meum</Typography>
             </Link>
           </Toolbar>
         </AppBar>
-        <Outlet context={[version]}/>
+        <Outlet />
         <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
           <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩ A. M. D. G. ☩</Typography>
-          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{version}</Typography>
+          <Typography sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{props.version}</Typography>
         </ContainerMedium>
         <CookieConsent enableDeclineButton debug={debug} declineButtonStyle={{ background: appbarDarkGrey }}
                        buttonStyle={{ background: "#e49086" }} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]} buttonText="OK"
@@ -455,8 +256,8 @@ const LeftHandMenu = (props) => {
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => localStorage.setItem("lang", "en")} component={RouterLink} to={{pathname: "/en"}} value="en" selected={props.lang === "en"}>English</ToggleButton>
-            <ToggleButton onClick={() => localStorage.setItem("lang", "pl")} component={RouterLink} to={{pathname: "/pl"}} value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} component={RouterLink} to={{pathname: "/en"}} value="en" selected={props.lang === "en"}>English</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} component={RouterLink} to={{pathname: "/pl"}} value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">

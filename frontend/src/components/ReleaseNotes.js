@@ -5,12 +5,13 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import {IconButton} from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
+import {myLocalStorage} from "../myLocalStorage";
 
 export default function ReleaseNotes(props) {
   const storageKey = `releaseDialogSeen-${props.lang}`
-  const [open, setOpen] = React.useState(localStorage.getItem(storageKey) !== props.version || props.debug === true)
+  const [open, setOpen] = React.useState(myLocalStorage.getItem(storageKey) !== props.version || props.debug === true)
   const handleClose = () => {
-    localStorage.setItem(storageKey, props.version)
+    myLocalStorage.setItem(storageKey, props.version)
     setOpen(false);
   };
 

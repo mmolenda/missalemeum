@@ -9,12 +9,7 @@
       "id": "commune:C10a:0:w",
       "rank": 0,
       "title": "Msza za Nowożeńców",
-      "supplements": [
-        {
-          "label": "Obrzędy sakramentu małżeństwa",
-          "path": "/pl/supplement/22-malzenstwo?ref=_"
-        }
-      ]
+      "supplements": []
     },
     "sections": [
       {

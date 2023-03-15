@@ -11,12 +11,7 @@
       "description": "W Niedzielę Wielkanocną zachował się pierwotny zwyczaj odprawiania dwu Mszy świętych: jednej na zakończenie nocnej Wigilii i drugiej przed południem. W tej drugiej Mszy triumfalna radość wielkanocna dochodzi do szczytu. Czterokrotnie powtarza się zdanie: «na Paschę naszą został ofiarowany Chrystus». Zbawiciel, przeszedłszy zwycięsko przez śmierć, wyzwolił nas spod władzy śmierci, szatana i grzechu i umożliwił nam przejście do nowego życia. Zjednoczeni z Jezusem cieszymy się Jego zwycięstwem.\n",
       "id": "tempora:Pasc0-0:1:w",
       "rank": 1,
-      "supplements": [
-        {
-          "label": "Komentarz do Ewangelii na Wielkanoc",
-          "path": "http://vetusordo.pl/objasnieniaenw/"
-        }
-      ],
+      "supplements": [],
       "tempora": null,
       "title": "Niedziela Zmartwychwstania"
     },

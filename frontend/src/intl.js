@@ -1,4 +1,5 @@
 export const SEARCH_PLACEHOLDER = {"en": "Search", "pl": "Szukaj"}
+export const IN = {"en": "in", "pl": "w"}
 export const CLASS_1 = {"en": "1st class", "pl": "1 klasy"}
 export const CLASS_2 = {"en": "2nd class", "pl": "2 klasy"}
 export const CLASS_3 = {"en": "3rd class", "pl": "3 klasy"}
@@ -23,3 +24,22 @@ export const MSG_POLICY_LINK = {"en": "Privacy Policy.",
 														    "pl": "Polityka Prywatności"}
 export const MSG_POLICY_DECLINE_BUTTON = {"en": "No, thanks",
 														    "pl": "Nie, dziękuję"}
+export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
+export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
+export const SEARCH_SUGGESTIONS_PROPER = {
+	"pl": ["Niedziela", "Niedziela Adwentu", "Boże Narodzenie", "Objawienie Pańskie", "Środa Popielcowa",
+				 "Niedziela Palmowa", "Niedziela Zmartwychwstania", "Wniebowstąpienie Pańskie",
+		     "Niedziela Zesłania Ducha Świętego", "Uroczystość Bożego Ciała", "Wniebowzięcie N. M. P.",
+		     "Wszystkich Świętych", "Suchych Dni"],
+	"en": ["Sunday of Advent", "The Nativity of Our Lord", "Epiphany of the Lord", "Ash Wednesday", "Palm Sunday",
+				 "Easter Sunday", "Ascension of the Lord", "Pentecost Sunday", "Corpus Christi",
+		     "Assumption of the Blessed Virgin Mary", "All Saints", "Ember"]
+}
+export const SEARCH_SUGGESTIONS_CANTICUM = {
+	"pl": ["Adwent", "Boże Narodzenie", "Wielki Post", "Wielkanoc", "Przygodne", "Eucharystyczne", "Jezus", "Maryja"],
+	"en": [],
+}
+export const SEARCH_SUGGESTIONS_ORATIO = {
+	"pl": ["Eucharystyczne", "Wielki Post", "Maryja", "Poranne", "Wieczorne"],
+	"en": []
+}

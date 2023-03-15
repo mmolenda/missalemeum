@@ -19,17 +19,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
-    <meta name="version" content="{{ version }}" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DN1K2MJ8TX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-DN1K2MJ8TX', { send_page_view: false });
-</script>
+{% if gtag_id  %}
+    {% include "ga4.html" %}
+{% endif %}
 <style>
 header.placeholder {
     position: fixed;
@@ -177,7 +172,8 @@ p.placeholder {
 }</style>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root">
+<div id="missalemeum" data-version="{{ version }}">
+    {% if not widget %}
     <header class="placeholder">
         <div>
             <svg viewBox="0 0 100 80" width="20" height="20">
@@ -200,6 +196,7 @@ p.placeholder {
             </svg>
             <h1 class="placeholder">Missale<br/>Meum</h1></div>
     </header>
+    {%  endif %}
     <article class="placeholder">
         {% if body %}
             <h2 class="placeholder">{{ body[0].info.title }}</h2>

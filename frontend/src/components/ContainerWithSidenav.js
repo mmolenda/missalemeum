@@ -1,28 +1,33 @@
 import React, {cloneElement, createRef, useEffect, useState} from 'react';
-import {useParams, Link as RouterLink, useNavigate, useOutletContext} from "react-router-dom";
+import {Link as RouterLink, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import BilingualContent from "./BilingualContent";
 import slugify from "slugify";
-import {Box, IconButton, InputAdornment, ListItemButton, OutlinedInput, Slide} from "@mui/material";
+import {
+  Autocomplete,
+  Box,
+  IconButton,
+  ListItemButton,
+  Slide,
+  TextField
+} from "@mui/material";
 import List from "@mui/material/List";
-import CancelIcon from '@mui/icons-material/Cancel';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import {SidenavListItem} from "./styledComponents/SidenavListItem";
-import {SEARCH_PLACEHOLDER} from "../intl";
+import {IN, SEARCH_PLACEHOLDER} from "../intl";
 import SidenavListItemText from "./styledComponents/SidenavListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
 import {ContainerMedium} from "./styledComponents/ContainerMedium";
 
 export default function ContainerWithSidenav(props) {
+  const anchor = document.getElementById('missalemeum')
   const navigate = useNavigate()
-  const apiUrlBase = process.env.REACT_APP_API_URL || ""
-  const {lang} = useParams()
-  const {id} = useParams()
-  const [version] = useOutletContext()
+  const apiUrlBase = process.env.REACT_APP_API_URL || anchor.dataset.apiurl || ""
+  const version = anchor.dataset.version
   const queryParameters = new URLSearchParams(window.location.search)
   const backButtonRef = queryParameters.get("ref")
-  const apiContentUrl = `${apiUrlBase}/${lang}/${props.getContentUrl}`
-  const apiSidenavItemsUrl = `${apiUrlBase}/${lang}/${props.getSidenavItemsUrl}`
+  const apiContentUrl = `${apiUrlBase}/${props.lang}/${props.getContentUrl}`
+  const apiSidenavItemsUrl = `${apiUrlBase}/${props.lang}/${props.getSidenavItemsUrl}`
   const [internalId, setInternalId] = useState(null)
   const [internalYear, setInternalYear] = useState(null)
   const [internalLang, setInternalLang] = useState(null)
@@ -35,23 +40,25 @@ export default function ContainerWithSidenav(props) {
   const [sidenavHidden, setSidenavHidden] = useState(false)
 
   useEffect(() => {
-    props.init(id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
+    props.init(props.id, internalLang, internalYear, sidenavItems, getSidenavItems, getContent, setSidenavHidden)
     window.scrollTo(0, 0)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, lang])
+  }, [props.id, props.lang])
 
 
   const getContent = (id, sidenavItemsFromContent = false) => {
     setInternalId(null)
     if (id || sidenavItemsFromContent) {
       let url = id ? `${apiContentUrl}/${id}` : apiContentUrl
-      url += `?v=${version}`
+      if (version) {
+        url += `?v=${version}`
+      }
       fetch(url, {mode: "cors"})
         .then(response => {
           if (response.status === 404) {
-            navigate(`/${lang}/404`)
+            navigate(`/${props.lang}/404`)
           } else if (response.status !== 200) {
-            navigate(`/${lang}/error`)
+            navigate(`/${props.lang}/error`)
           } else {
             return response.json()
           }
@@ -67,19 +74,21 @@ export default function ContainerWithSidenav(props) {
             setSidenavItemsFiltered(sidenavItems)
           }
         })
-        .catch(error => navigate(`/${lang}/404`))
+        .catch(error => navigate(`/${props.lang}/404`))
     }
   }
 
   const getSidenavItems = (year) => {
     let url = year ? `${apiSidenavItemsUrl}/${year}` : apiSidenavItemsUrl
-    url += `?v=${version}`
+    if (version) {
+      url += `?v=${version}`
+    }
     fetch(url, {mode: "cors"})
       .then(response => {
           if (response.status === 404) {
-            navigate(`/${lang}/404`)
+            navigate(`/${props.lang}/404`)
           } else if (response.status !== 200) {
-            navigate(`/${lang}/error`)
+            navigate(`/${props.lang}/error`)
           } else {
             return response.json()
           }
@@ -87,7 +96,7 @@ export default function ContainerWithSidenav(props) {
       .then(json => {
         setSidenavItems(json)
         setInternalYear(year)
-        setInternalLang(lang)
+        setInternalLang(props.lang)
         setSidenavItemsFiltered(json)
       })
       .catch(error => console.log(error))
@@ -111,7 +120,7 @@ export default function ContainerWithSidenav(props) {
 
   let backButton = ((Boolean(backButtonRef) || !sidenavDisabled) && <IconButton
     component={RouterLink}
-    to={{pathname: backButtonRef ? `/${lang}/${backButtonRef}` : ""}}
+    to={{pathname: backButtonRef ? `/${props.lang}/${backButtonRef}` : ""}}
     onClick={() => {setSidenavHidden(false)}}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
   >
@@ -127,9 +136,9 @@ export default function ContainerWithSidenav(props) {
       pt: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
       height: (sidenavHidden || sidenavDisabled) ? "100%" : "80vh"}}
     >
-      <BilingualContent id={internalId} lang={lang} contents={content}
+      <BilingualContent id={internalId} lang={props.lang} contents={content}
                         singleColumnAsRubric={props.singleColumnAsRubric} backButton={backButton}
-                        markdownNewlines={props.markdownNewlines}/>
+                        markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode}/>
   </Box>
 
   return (
@@ -138,25 +147,27 @@ export default function ContainerWithSidenav(props) {
         <Box sx={{overflowY: 'scroll', width: '100%', pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`, height: (!sidenavHidden) ? "100%" : "80vh"}}>
           <SidenavToolbox
             internalId={internalId}
-            lang={lang}
+            lang={props.lang}
             filterSidenavItems={(d) => {
               filterSidenavItems(d)
             }}
+            searchSuggestions={props.searchSuggestions}
+            year={internalYear}
             extraTools={props.extraTools}
           />
           <Box>
             {props.sidenav ?
               cloneElement(props.sidenav, {
                 internalId: internalId,
-                lang: lang,
+                lang: props.lang,
                 items: sidenavItemsFiltered,
                 setSidenavHidden: setSidenavHidden
             }) :
               <Sidenav
                 internalId={internalId}
-                lang={lang}
+                lang={props.lang}
                 items={sidenavItemsFiltered}
-                sidenavPath={`/${lang}${props.sidenavPath}`}
+                sidenavPath={`/${props.lang}${props.sidenavPath}`}
                 setSidenavHidden={setSidenavHidden}
               />
             }
@@ -180,8 +191,10 @@ const Sidenav = (props) => {
       }
     }
     if (props.internalId) {
-      listItemRefs[props.internalId].current.scrollIntoView({block: "center"})
-      listItemRefs[props.internalId].current.classList.add("sidenavItemActive")
+      try {
+        listItemRefs[props.internalId].current.scrollIntoView({block: "center"})
+        listItemRefs[props.internalId].current.classList.add("sidenavItemActive")
+      } catch (e) {}
     }
   })
 
@@ -218,6 +231,7 @@ const Sidenav = (props) => {
 
 const SidenavToolbox = (props) => {
   const [filter, setFilter] = useState("")
+  let searchLabel = props.year ? `${SEARCH_PLACEHOLDER[props.lang]} ${IN[props.lang]} ${props.year}` : SEARCH_PLACEHOLDER[props.lang]
   return (
     <Box sx={{
       position: "fixed",
@@ -228,25 +242,25 @@ const SidenavToolbox = (props) => {
       boxShadow: 2,
       backgroundColor: "background.default",
       zIndex: 100}}>
-      <OutlinedInput
+      <Autocomplete
         size="small"
-        type="text"
-        placeholder={SEARCH_PLACEHOLDER[props.lang]}
+        sx={{width: "30%"}}
+        freeSolo
         value={filter}
-        onChange={e => {
-          setFilter(e.target.value)
-          props.filterSidenavItems(e.target.value)
+        onInputChange={(event, newValue) => {
+          setFilter(newValue)
+          props.filterSidenavItems(newValue)
         }}
-        endAdornment={
-          <InputAdornment position="end">
-            <IconButton onClick={e => {
-              e.preventDefault()
-              setFilter("")
-              props.filterSidenavItems("")
-            }}>
-              <CancelIcon />
-            </IconButton>
-          </InputAdornment>}
+        options={props.searchSuggestions || []}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            label={searchLabel}
+            InputProps={{
+              ...params.InputProps,
+            }}
+          />
+        )}
       />
       {props.extraTools && cloneElement(props.extraTools, {internalId: props.internalId, lang: props.lang})}
     </Box>

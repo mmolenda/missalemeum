@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import ReactDOMServer from 'react-dom/server';
-import {Link as RouterLink, useLocation, useNavigate} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
 import {Element} from 'react-scroll'
@@ -12,31 +12,19 @@ import {
   useMediaQuery,
   IconButton,
   Select,
-  MenuItem, Link, Popover, useTheme
+  MenuItem, Popover
 } from "@mui/material";
-import moment from "moment";
 import 'moment/locale/pl';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
-import ShieldIcon from '@mui/icons-material/Shield';
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
-import EventIcon from '@mui/icons-material/Event';
-import TimelapseIcon from '@mui/icons-material/Timelapse';
 import {
-  CLASS_1,
-  CLASS_2,
-  CLASS_3,
-  CLASS_4, MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, VESTMENTS_BLACK,
-  VESTMENTS_GREEN, VESTMENTS_PINK,
-  VESTMENTS_RED,
-  VESTMENTS_VIOLET,
-  VESTMENTS_WHITE
+  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED
 } from "../intl";
-import Tag from "./styledComponents/Tag";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
+import ArticleTags from "./ArticleTags";
 
 
 const xVernacular = 'x-vernacular'
@@ -63,65 +51,8 @@ export default function BilingualContent(props) {
       singleColumnAsRubric={props.singleColumnAsRubric}
       backButton={props.backButton}
       markdownNewlines={props.markdownNewlines}
+      widgetMode={props.widgetMode}
     />
-  )
-}
-
-const ArticleTags = (props) => {
-  const theme = useTheme()
-
-  let rankNames = {
-    1: CLASS_1[props.lang],
-    2: CLASS_2[props.lang],
-    3: CLASS_3[props.lang],
-    4: CLASS_4[props.lang]}
-
-  let colorNames = {
-    r: VESTMENTS_RED[props.lang],
-    g: VESTMENTS_GREEN[props.lang],
-    w: VESTMENTS_WHITE[props.lang],
-    v: VESTMENTS_VIOLET[props.lang],
-    b: VESTMENTS_BLACK[props.lang],
-    p: VESTMENTS_PINK[props.lang]}
-
-  let tags = [];
-  let date = props.info.date;
-  let label
-  if (date) {
-      moment.locale(props.lang)
-      let parsedDate = moment(date, "YYYY-MM-DD");
-      label = parsedDate.format("DD MMMM YY, dddd")
-      tags.push(<Tag key={label} icon={props.showIcon &&<EventIcon />} label={label} />);
-  }
-  if (props.info.tempora != null) {
-      label = props.info.tempora
-      tags.push(<Tag key={label} icon={props.showIcon &&<TimelapseIcon />} label={label} />);
-  }
-  if (props.info.rank) {
-      label = rankNames[props.info.rank]
-      tags.push(<Tag key={label} label={label} />);
-  }
-  if (props.info.colors) {
-    for (let colorCode of props.info.colors) {
-      let tag
-      label = colorNames[colorCode]
-      if ((colorCode === "w" && theme.palette.mode === "light") || !props.showIcon) {
-        tag = <Tag key={label} icon={props.showIcon && <ShieldOutlinedIcon/>} label={label}/>
-      } else {
-        tag = <Tag key={label} color={`vestment${colorCode}`} icon={props.showIcon &&<ShieldIcon />} label={label} />
-      }
-      tags.push(tag);
-    }
-  }
-  if (props.info.tags != null) {
-    for (let infoItem of props.info.tags.filter((i) => ! i.includes("Szaty"))) {
-      tags.push(<Tag key={infoItem} label={infoItem} />)
-    }
-  }
-  return (
-    <>
-      {tags}
-    </>
   )
 }
 
@@ -192,7 +123,6 @@ const Article = (props) => {
     newWindow.document.close();
     newWindow.focus();
   }
-
   if (props.id === null) {
     return <SkeletonContent />
   } else {
@@ -204,7 +134,7 @@ const Article = (props) => {
         >
           {props.backButton}
         </Box>
-        <Box sx={{display: "flex", justifyContent: "flex-end"}}>
+        {!props.widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
           <IconButton ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
@@ -221,7 +151,7 @@ const Article = (props) => {
           <IconButton onClick={() => print()}>
             <PrintIcon/>
           </IconButton>
-        </Box>
+        </Box>}
         <Box sx={{px: "0.75rem"}}>
           {props.content.length > 1 ?
             <Select
@@ -249,14 +179,14 @@ const Article = (props) => {
             <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
           {content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem", hyphens: "auto" }}>
-            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} />
+            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
           </Typography>}
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<React.Fragment key={index}>
-                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} />
+                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} widgetMode={props.widgetMode} />
                   {index + 1 < content.info.supplements.length && ", "}
                 </React.Fragment>)
               })}
@@ -273,6 +203,7 @@ const Article = (props) => {
               singleColumnAsRubric={props.singleColumnAsRubric}
               bilingualLang={bilingualLang}
               markdownNewlines={props.markdownNewlines}
+              widgetMode={props.widgetMode}
             />
           })}
           </Box>
@@ -352,6 +283,7 @@ const BilingualSection = (props) => {
             bilingualLang={props.bilingualLang}
             bilingualLangClass={paragraph.bilingualLangClass}
             markdownNewlines={props.markdownNewlines}
+            widgetMode={props.widgetMode}
           />
         ))}
       </Box>
@@ -375,7 +307,7 @@ const BilingualSectionParagraph = (props) => {
         hyphens: "auto"
       }}
     >
-      <Md text={props.text} markdownNewlines={props.markdownNewlines} />
+      <Md text={props.text} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
     </Typography>
   )
 }

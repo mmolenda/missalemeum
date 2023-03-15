@@ -20,7 +20,7 @@ body_404 = [{"info": {"title": "404"}, "sections": [{"label": "", "body": [["Pag
 
 
 def render_index(lang, body=None):
-    return render_template("index.html", lang=lang, body=body, version=__version__.__version__)
+    return render_template("index.html", lang=lang, body=body, version=__version__.__version__, gtag_id=os.environ.get("GTAG_ID"))
 
 
 def infer_locale(f):
@@ -95,3 +95,9 @@ def votive(lang: str = LANGUAGE_ENGLISH, proper_id: str = None):
 def supplement(lang: str = LANGUAGE_ENGLISH, resource: str = None):
     body = get_body('v5_supplement', "id_", id_=resource, lang=lang)
     return render_index(lang, body)
+
+
+@views.route("/<string:lang>/widgets/propers")
+@infer_locale
+def widget_propers(lang: str = LANGUAGE_ENGLISH):
+    return render_template("index.html", lang=lang, body=None, widget=True)
