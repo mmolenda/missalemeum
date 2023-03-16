@@ -161,6 +161,7 @@ const Sidenav = (props) => {
               >
                 { indexItem.id === todayFmt && <ListItemIcon sx={{minWidth: "2.5rem", display: "flex", alignItems: "center"}}><EventIcon sx={{color: "secondary.main"}}/></ListItemIcon> }
                 <SidenavListItemText
+                  rank={indexItem.rank}
                   primary={indexItem.title}
                   secondary={formatDateAndTempora(dateParsed, indexItem.tags)}
                 />
