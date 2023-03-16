@@ -1,10 +1,7 @@
 import {MenuItem, Select, useTheme} from "@mui/material";
 import React, {useState} from "react";
 import {
-	CLASS_1,
-	CLASS_2,
-	CLASS_3,
-	CLASS_4, VESTMENTS_BLACK,
+	RANK_NAMES, VESTMENTS_BLACK,
 	VESTMENTS_GREEN, VESTMENTS_PINK,
 	VESTMENTS_RED,
 	VESTMENTS_VIOLET,
@@ -20,12 +17,6 @@ import ShieldIcon from "@mui/icons-material/Shield";
 export default function ArticleTags(props) {
   const theme = useTheme()
   const [paperPage, setPaperPage] = useState(0)
-
-  let rankNames = {
-    1: CLASS_1[props.lang],
-    2: CLASS_2[props.lang],
-    3: CLASS_3[props.lang],
-    4: CLASS_4[props.lang]}
 
   let colorNames = {
     r: VESTMENTS_RED[props.lang],
@@ -49,7 +40,7 @@ export default function ArticleTags(props) {
       tags.push(<Tag key={label} icon={props.showIcon &&<TimelapseIcon />} label={label} />);
   }
   if (props.info.rank) {
-      label = rankNames[props.info.rank]
+      label = RANK_NAMES[props.lang][props.info.rank]
       tags.push(<Tag key={label} label={label} />);
   }
   if (props.info.colors) {

@@ -14,7 +14,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ListItemText from "@mui/material/ListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
-import {SEARCH_SUGGESTIONS_PROPER} from "../intl";
+import {RANK_NAMES, SEARCH_SUGGESTIONS_PROPER} from "../intl";
 
 registerLocale("pl", pl)
 const dateFormat = 'YYYY-MM-DD'
@@ -163,7 +163,7 @@ const Sidenav = (props) => {
                 <SidenavListItemText
                   rank={indexItem.rank}
                   primary={indexItem.title}
-                  secondary={formatDateAndTempora(dateParsed, indexItem.tags)}
+                  secondary={`${RANK_NAMES[props.lang][indexItem.rank]}, ${formatDateAndTempora(dateParsed, indexItem.tags)}`}
                 />
               </ListItemButton>
             </SidenavListItem>
