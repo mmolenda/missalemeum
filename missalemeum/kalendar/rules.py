@@ -33,7 +33,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
-                              PATTERN_TEMPORA_CLASS_4)
+                              PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL)
 from kalendar.models import Calendar, Observance
 from utils import match
 
@@ -177,7 +177,9 @@ def rule_lord_feast2(
 def rule_first_class_feast_with_sunday_commemoration(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # In case of some 1st class feasts the Sunday is commemorated, e.g. St. Michael the Archangel on Sunday 2019-09-29
-    if match(observances, SANCTI_09_29) and match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2):
+    # TODO: investigate if this should be a more general rule. Perhaps only Lord's feasts of 1/2 class cancel
+    # TODO: commemorations of Sundays
+    if match(observances, [SANCTI_09_29, SANCTI_04_23PL]) and match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2):
         return [match(observances, PATTERN_CLASS_1)], [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], []
 
 
