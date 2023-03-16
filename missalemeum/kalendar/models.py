@@ -193,6 +193,9 @@ class Day:
     def get_celebration_colors(self) -> Union[None, List[str]]:
         if self.celebration:
             return self.celebration[0].colors
+    def get_celebration_rank(self) -> Union[None, int]:
+        if self.celebration:
+            return self.celebration[0].rank
 
     def get_proper(self) -> List[Tuple['Proper', 'Proper']]:
         """

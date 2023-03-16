@@ -530,6 +530,8 @@ components:
           properties:
             colors:
               $ref: '#/components/schemas/ColorsField'
+            rank:
+              $ref: '#/components/schemas/RankField'
 
     ListItems:
       type: "array"

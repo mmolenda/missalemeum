@@ -107,6 +107,7 @@ def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
             "title": title,
             "tags": tags,
             "colors": day.get_celebration_colors(),
+            "rank": day.get_celebration_rank(),
             "id": date_.strftime("%Y-%m-%d")
         })
     return jsonify(container)

@@ -615,7 +615,6 @@ SANCTI_03_10 = 'sancti:03-10:3:r'
 SANCTI_03_12 = 'sancti:03-12:3:w'
 SANCTI_03_15PL = 'sancti:03-15pl:3:w'
 SANCTI_03_17 = 'sancti:03-17:3:w'
-SANCTI_03_17PL = 'sancti:03-17pl:3:w'
 SANCTI_03_18 = 'sancti:03-18:3:w'
 SANCTI_03_19 = 'sancti:03-19:1:w'  # Saint Joseph's Day
 SANCTI_03_21 = 'sancti:03-21:3:w'
