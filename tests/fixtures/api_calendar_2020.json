@@ -3957,12 +3957,21 @@
         "colors": [
           "w"
         ],
-        "id": "sancti:06-15:3:w",
+        "id": "sancti:06-15pl:3:w",
+        "rank": 3,
+        "title": "Bł. Jolanty, Wdowy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": "sancti:06-15:4:w",
         "rank": 3,
         "title": "Śś. Wita, Modesta i Krescencji, Męczenników"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [

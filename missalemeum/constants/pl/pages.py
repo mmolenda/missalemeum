@@ -261,6 +261,7 @@ PAGES = {
     constants.SANCTI_06_13: get_pages(927),  # 'Św. Antoniego z Padwy, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_06_14: get_pages(928),  # 'Św. Bazylego Wielkiego, Wyznawcy, Biskupa i Doktora Kościoła',
     constants.SANCTI_06_15: get_pages(931),  # 'Śś. Wita, Modesta i Krescencji, Męczenników',
+    constants.SANCTI_06_15PL: get_pages(930),  # 'Bł. Jolanty',
     constants.SANCTI_06_17: get_pages(933),  # 'Św. Grzegorza Barbarigo, Biskupa i Wyznawcy',
     constants.SANCTI_06_18: get_pages(934),  # 'Św. Efrema, Diakona, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_06_19: get_pages(936),  # 'Św. Juliany Falconieri, Dziewicy',

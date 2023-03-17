@@ -7849,44 +7849,56 @@
   ],
   "2020-06-15": [
     {
-      "body": "*Ps 33:20-21*\nMultæ tribulationes justórum, et de his ómnibus liberávit eos Dóminus: Dóminus custodit ómnia ossa eórum: ",
+      "body": "*Ps 118:75; 118:120*\nCognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua humiliásti me: confíge timóre tuo car",
       "id": "Introitus"
     },
     {
-      "body": "Da Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vito, Modésto atque Crescéntia intercedéntibus, supérbe non s",
+      "body": "Omnípotens sempitérne Deus, qui beátam Jolántam ab honóribus divitiísque misericórditer abstraxísti, et húmilem Fílii tu",
       "id": "Oratio"
     },
     {
-      "body": "Léctio libri Sapiéntiæ.\n*Sap 3:1-8*\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum mortis. Visi sunt ócu",
+      "body": "*Commemoratio Ss. Viti, Modesti atque Crescentiæ Martyrum*\nDa Ecclésiæ tuæ, quǽsumus, Dómine, sanctis Martýribus tuis Vi",
+      "id": "Commemoratio Oratio"
+    },
+    {
+      "body": "Léctio libri Sapiéntiæ\n*Prov 31:10-31*\nMulíerem fortem quis invéniet? Procul et de últimis fínibus prétium ejus. Confídi",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 149:5; 149:1*\nExsultábunt Sancti in glória: lætabúntur in cubílibus suis.\n℣. Cantáte Dómino cánticum novum: laus eju",
+      "body": "*Ps 44:3; 44:5*\nDiffúsa est grátia in labiis tuis: proptérea benedíxit te Deus in ætérnum.\n℣. Propter veritátem et mansu",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam.\n*Luc 10:16-20*\nIn illo témpore: Dixit Jesus discípulis suis: Qui vos audit,",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 13:44-52*\nIn illo témpore: Dixit Jesus discípulis suis parábolam ha",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 67:36*\nMirábilis Deus in Sanctis suis: Deus Israël, ipse dabit virtútem et fortitúdinem plebi suæ: benedíctus Deus.",
+      "body": "*Ps 44:3*\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi, allelúja.",
       "id": "Offertorium"
     },
     {
-      "body": "Sicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testántur: sic nobis efféctum, Dómine, tuæ salvatiónis impéndant",
+      "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepís",
       "id": "Secreta"
+    },
+    {
+      "body": "*Commemoratio Ss. Viti, Modesti atque Crescentiæ Martyrum*\nSicut glóriam divínæ poténtiæ múnera pro Sanctis obláta testá",
+      "id": "Commemoratio Secreta"
     },
     {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
     {
-      "body": "*Sap 3:1-2; 3:3*\nJustórum ánimæ in manu Dei sunt, et non tanget illos torméntum malítiæ: visi sunt óculis insipiéntium m",
+      "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
       "id": "Communio"
     },
     {
-      "body": "Repléti, Dómine, benedictióne sollémni: quǽsumus; ut, per intercessiónem sanctórum Mártyrum tuórum Viti, Modésti et Cres",
+      "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celeb",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio Ss. Viti, Modesti atque Crescentiæ Martyrum*\nRepléti, Dómine, benedictióne sollémni: quǽsumus; ut, per int",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-06-16": [

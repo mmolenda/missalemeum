@@ -7849,44 +7849,56 @@
   ],
   "2020-06-15": [
     {
-      "body": "*Ps 33:20-21*\nWiele ucisków spotyka sprawiedliwych, lecz Pan ich wyzwala ze wszystkich; strzeże wszystkich ich kości: ni",
+      "body": "*Ps 118:75; 118:120*\nWiem, Panie, że słuszne są Twoje wyroki, żeś sprawiedliwie mnie trapił: drży moje ciało z bojaźni p",
       "id": "Introitus"
     },
     {
-      "body": "Za przyczyną świętych Męczenników Twoich Wita, Modesta i Krescencji prosimy Cię, Panie: daj Kościołowi Twemu nie unosić ",
+      "body": "Wszechmogący, wieczny Boże, Ty w miłosierdziu swoim oderwałeś błogosławioną Jolantę od zaszczytów i bogactw, a sprawiłeś",
       "id": "Oratio"
     },
     {
-      "body": "Czytanie z Księgi Mądrości.\n*Mdr 3:1-8*\nDusze sprawiedliwych są w ręku Boga i nie dosięgnie ich męka. Zdało się oczom gł",
+      "body": "*Wspomnienie Śś. Wita, Modesta i Krescencji, Męczenników*\nZa przyczyną świętych Męczenników Twoich Wita, Modesta i Kresc",
+      "id": "Commemoratio Oratio"
+    },
+    {
+      "body": "Czytania z Księgi Przysłów.\n*Prz 31:10-31*\n*Na kartach Starego Testamentu znajdujemy obraz idealnej matki całkowicie odd",
       "id": "Lectio"
     },
     {
-      "body": "Niech Święci cieszą się wśród chwały, niech się radują w miejscu odpocznienia.\n℣. Śpiewajcie Panu pieśń nową, chwała Jeg",
+      "body": "*Ps 44:3; 44:5*\nWdzięk rozlał się na Twoich wargach, przeto Bóg pobłogosławił Cię na wieki.\n℣. W obronie wiary i sprawie",
       "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 10:16-20*\nOnego czasu: Rzekł jezus uczniom swoim: «Kto was słucha, m",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieś",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 67:36*\nPrzedziwny jest Bóg w Swoich Świętych: Bóg Izraela, sam daję Swojego ludowi potęgę i siłę: błogosławiony Bóg.",
+      "body": "*Ps 44:3*\nWdzięk rozlał się na Twoich wargach, przeto Bóg pobłogosławił Cię na wieki.",
       "id": "Offertorium"
     },
     {
-      "body": "Niech dary złożone ku czci Świętych wyjednają nam, Panie, owoc Twojego zbawienia, tak jak świadczą o Twej chwale i potęd",
+      "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał p",
       "id": "Secreta"
+    },
+    {
+      "body": "*Wspomnienie Śś. Wita, Modesta i Krescencji, Męczenników*\nNiech dary złożone ku czci Świętych wyjednają nam, Panie, owoc",
+      "id": "Commemoratio Secreta"
     },
     {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
     {
-      "body": "Dusze sprawiedliwych są w ręku Boga i nie dosięgnie ich męka. Zdało się oczom głupich, że pomarli, a oni trwają w pokoju",
+      "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
       "id": "Communio"
     },
     {
-      "body": "Napełnieni wzniosłym błogosławieństwem, prosimy Cię, Panie, aby Sakrament ten za wstawiennictwem świętych Męczenników Tw",
+      "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzi",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Śś. Wita, Modesta i Krescencji, Męczenników*\nNapełnieni wzniosłym błogosławieństwem, prosimy Cię, Panie, ab",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-06-16": [

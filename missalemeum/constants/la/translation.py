@@ -497,6 +497,7 @@ TITLES = {
     constants.SANCTI_06_13: 'S. Antonii de Padua Confessoris',
     constants.SANCTI_06_14: 'S. Basilii Magni Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_06_15: 'Ss. Viti, Modesti atque Crescentiæ Martyrum',
+    constants.SANCTI_06_15PL: 'b. Jolantae Viduae',
     constants.SANCTI_06_17: 'S. Gregorii Barbadici Episcopi Confessoris',
     constants.SANCTI_06_18: 'S. Ephræm Syri Confessoris et Ecclesiæ Doctorem',
     constants.SANCTI_06_19: 'S. Julianæ de Falconeriis Virginis',
