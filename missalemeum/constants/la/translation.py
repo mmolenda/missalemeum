@@ -636,6 +636,7 @@ TITLES = {
     constants.SANCTI_11_10: 'S. Andreæ Avellini Confessoris',
     constants.SANCTI_11_11: 'S. Martini Episcopi et Confessoris',
     constants.SANCTI_11_12: 'S. Martini Papæ et Martyris',
+    constants.SANCTI_11_12PL: 'Ss. Protomartyrum Poloniae',
     constants.SANCTI_11_13: 'S. Didaci Confessoris',
     constants.SANCTI_11_13PL: 'S. Stanislai Confessoris',
     constants.SANCTI_11_14: 'S. Josaphat Episcopi et Martyris',

@@ -399,6 +399,7 @@ PAGES = {
     constants.SANCTI_11_10: get_pages(1184),  # 'Św. Andrzeja z Avellino, Wyznawcy',
     constants.SANCTI_11_11: get_pages(1186),  # 'Św. Marcina, Biskupa i Wyznawcy',
     constants.SANCTI_11_12: get_pages(1190),  # 'Św. Marcina I, Papieża i Męczennika',
+    constants.SANCTI_11_12PL: get_pages(1188),  # 'Śś. Benedykta, Jana, Mateusza, Izaaka i Krystyna, Męczenników',
     constants.SANCTI_11_13: get_pages(1193),  # 'Św. Dydaka, Wyznawcy',
     constants.SANCTI_11_13PL: get_pages(1190),  # 'Św. Stanisława Kostki, Wyznawcy',
     constants.SANCTI_11_14: get_pages(1194),  # 'Św. Jozafata, Biskupa i Męczennika',

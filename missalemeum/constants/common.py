@@ -831,6 +831,7 @@ SANCTI_11_09 = 'sancti:11-09:2:w'  # Dedication of the Lateran Basilica in Rome
 SANCTI_11_10 = 'sancti:11-10:3:w'
 SANCTI_11_11 = 'sancti:11-11:3:w'
 SANCTI_11_12 = 'sancti:11-12:3:r'
+SANCTI_11_12PL = 'sancti:11-12pl:3:r'
 SANCTI_11_13 = 'sancti:11-13:4:w'
 SANCTI_11_13PL = 'sancti:11-13pl:2:w'
 SANCTI_11_14 = 'sancti:11-14:3:w'

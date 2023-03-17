@@ -638,6 +638,7 @@ TITLES = {
     constants.SANCTI_11_10: 'Św. Andrzeja z Avellino, Wyznawcy',
     constants.SANCTI_11_11: 'Św. Marcina, Biskupa i Wyznawcy',
     constants.SANCTI_11_12: 'Św. Marcina I, Papieża i Męczennika',
+    constants.SANCTI_11_12PL: 'Śś. Benedykta, Jana, Mateusza, Izaaka i Krystyna, Męczenników',
     constants.SANCTI_11_13: 'Św. Dydaka, Wyznawcy',
     constants.SANCTI_11_13PL: 'Św. Stanisława Kostki, Wyznawcy',
     constants.SANCTI_11_14: 'Św. Jozafata, Biskupa i Męczennika',
