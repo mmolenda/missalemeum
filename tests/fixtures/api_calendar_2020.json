@@ -3968,7 +3968,7 @@
           "w"
         ],
         "id": "sancti:06-15:4:w",
-        "rank": 3,
+        "rank": 4,
         "title": "Śś. Wita, Modesta i Krescencji, Męczenników"
       }
     ],
@@ -7115,11 +7115,11 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": ":feria:4:w",
-        "rank": 4,
-        "title": "Feria"
+        "id": "sancti:10-21pl:3:w",
+        "rank": 3,
+        "title": "Bł. Jakuba Strzemię, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [

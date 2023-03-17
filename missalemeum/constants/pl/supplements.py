@@ -455,5 +455,6 @@ SUPPLEMENTS = {
     constants.VOTIVE_MATRIMONIUM: [
         {"label": "Obrzędy sakramentu małżeństwa", "path": "/pl/supplement/22-malzenstwo"}
     ],
-    constants.SANCTI_05_04PL: [DIOECESIUM_POLONIAE_1964]
+    constants.SANCTI_05_04PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_10_21PL: [DIOECESIUM_POLONIAE_1964]
 }

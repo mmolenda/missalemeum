@@ -5,7 +5,7 @@ from collections import defaultdict
 from conftest import get_missal
 
 year = 2020
-lang = "en"
+lang = "la"
 
 
 def generate_propers_fixtures(year: int, language: str):

@@ -675,7 +675,6 @@ SANCTI_05_30 = 'sancti:05-30:4:r'
 SANCTI_05_31 = 'sancti:05-31:2:w'  # Mary the Queen
 
 SANCTI_06_01 = 'sancti:06-01:3:w'
-SANCTI_06_01PL = 'sancti:06-01pl:3:w'
 SANCTI_06_02 = 'sancti:06-02:4:r'
 SANCTI_06_04 = 'sancti:06-04:3:w'
 SANCTI_06_05 = 'sancti:06-05:3:r'
@@ -816,6 +815,7 @@ SANCTI_10_18 = 'sancti:10-18:2:r'  # St. Luke, Evangelist
 SANCTI_10_19 = 'sancti:10-19:3:w'
 SANCTI_10_20 = 'sancti:10-20:3:w'
 SANCTI_10_21 = 'sancti:10-21:4:w'
+SANCTI_10_21PL = 'sancti:10-21pl:3:w'
 SANCTI_10_23 = 'sancti:10-23r:3:w'
 SANCTI_10_24 = 'sancti:10-24:3:w'
 SANCTI_10_25 = 'sancti:10-25:4:r'
