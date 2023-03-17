@@ -853,8 +853,10 @@ SANCTI_11_29 = 'sancti:11-29r:4:r'
 SANCTI_11_30 = 'sancti:11-30:2:r'  # St. Andrew, Apostle
 
 SANCTI_12_02 = 'sancti:12-02:3:r'
+SANCTI_12_02PL = 'sancti:12-02pl:3:w'
 SANCTI_12_03 = 'sancti:12-03:3:w'
 SANCTI_12_04 = 'sancti:12-04:3:w'
+SANCTI_12_04PL = 'sancti:12-04pl:3:r'
 SANCTI_12_05 = 'sancti:12-05:4:w'
 SANCTI_12_06 = 'sancti:12-06:3:w'
 SANCTI_12_07 = 'sancti:12-07:3:w'

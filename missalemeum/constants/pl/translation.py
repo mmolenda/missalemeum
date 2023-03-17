@@ -659,8 +659,10 @@ TITLES = {
     constants.SANCTI_11_29: 'Św. Saturnina, Męczennika',
     constants.SANCTI_11_30: 'Św. Andrzeja, Apostoła',
     constants.SANCTI_12_02: 'Św. Bibiany, Dziewicy i Męczennicy',
+    constants.SANCTI_12_02PL: 'Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła',  # w PL przeniesione z 12.04 w 1964
     constants.SANCTI_12_03: 'Św. Franciszka Ksawerego, Wyznawcy',
     constants.SANCTI_12_04: 'Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_12_04PL: 'Św. Barbary, Dziewicy i Męczennicy',
     constants.SANCTI_12_05: 'Św. Saby, Opata',
     constants.SANCTI_12_06: 'Św. Mikołaja, Biskupa i Wyznawcy',
     constants.SANCTI_12_07: 'Św. Ambrożego, Biskupa, Wyznawcy i Doktora Kościoła',
