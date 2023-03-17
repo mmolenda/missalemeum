@@ -643,6 +643,7 @@ TITLES = {
     constants.SANCTI_11_15: 'S. Alberti Magni Episcopi Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_11_16: 'S. Gertrudis Virginis',
     constants.SANCTI_11_17: 'S. Gregorii Thaumaturgi Episcopi et Confessoris',
+    constants.SANCTI_11_17PL: 'B. Salomea Virginis',
     constants.SANCTI_11_18: 'In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli',
     constants.SANCTI_11_19: 'S. Elisabeth Viduæ',
     constants.SANCTI_11_20: 'S. Felicis de Valois Confessoris',

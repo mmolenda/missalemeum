@@ -406,6 +406,7 @@ PAGES = {
     constants.SANCTI_11_15: get_pages(1196),  # 'Św. Alberta Wielkiego, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_11_16: get_pages(1197),  # 'Św. Gertrudy, Dziewicy',
     constants.SANCTI_11_17: get_pages(1200),  # 'Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy',
+    constants.SANCTI_11_17PL: get_pages(1199),  # 'Bł. Salomea',
     constants.SANCTI_11_18: get_pages(1200),  # 'Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów',
     constants.SANCTI_11_19: get_pages(1201),  # 'Św. Elżbiety, Wdowy',
     constants.SANCTI_11_20: get_pages(1201),  # 'Św. Feliksa Walezego, Wyznawcy',

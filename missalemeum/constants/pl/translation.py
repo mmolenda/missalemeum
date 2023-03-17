@@ -645,6 +645,7 @@ TITLES = {
     constants.SANCTI_11_15: 'Św. Alberta Wielkiego, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_11_16: 'Św. Gertrudy, Dziewicy',
     constants.SANCTI_11_17: 'Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy',
+    constants.SANCTI_11_17PL: 'Bł. Salomei, Dziewicy',
     constants.SANCTI_11_18: 'Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów',
     constants.SANCTI_11_19: 'Św. Elżbiety, Wdowy',
     constants.SANCTI_11_20: 'Św. Feliksa Walezego, Wyznawcy',
