@@ -611,6 +611,7 @@ TITLES = {
     constants.SANCTI_10_07: 'N. M. P. Różańcowej',
     constants.SANCTI_10_08: 'Św. Brygidy, Wdowy',
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
+    constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
     constants.SANCTI_10_11: 'Macierzyństwa N. M. P.',
     constants.SANCTI_10_13: 'Św. Edwarda, króla i wyznawcy',

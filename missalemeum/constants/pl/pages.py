@@ -372,6 +372,7 @@ PAGES = {
     constants.SANCTI_10_07: get_pages(1131),  # 'N. M. P. Różańcowej',
     constants.SANCTI_10_08: get_pages(1133),  # 'Św. Brygidy, Wdowy',
     constants.SANCTI_10_09: get_pages(1135),  # 'Św. Jana Leonardi, Wyznawcy',
+    constants.SANCTI_10_09PL: get_pages(808),  # 'Bł. Wincentego Kadłubka',
     constants.SANCTI_10_10: get_pages(1142),  # 'Św. Franciszka Borgiasza, Wyznawcy',
     constants.SANCTI_10_11: get_pages(1143),  # 'Macierzyństwa N. M. P.',
     constants.SANCTI_10_13: get_pages(1146),  # 'Św. Edwarda, króla i wyznawcy',

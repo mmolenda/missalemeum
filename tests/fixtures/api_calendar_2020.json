@@ -6823,12 +6823,21 @@
         "colors": [
           "w"
         ],
+        "id": "sancti:10-09pl:3:w",
+        "rank": 3,
+        "title": "Bł. Wincentego Kadłubka, Biskupa i Wyznawcy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
         "id": "sancti:10-09:3:w",
         "rank": 3,
         "title": "Św. Jana Leonardi, Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [

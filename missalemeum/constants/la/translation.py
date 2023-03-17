@@ -609,6 +609,7 @@ TITLES = {
     constants.SANCTI_10_07: 'Festum Beatæ Mariæ Virginis a Rosario',
     constants.SANCTI_10_08: 'S. Birgittæ Viduæ',
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
+    constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
     constants.SANCTI_10_10: 'S. Francisci Borgiæ Confessoris',
     constants.SANCTI_10_11: 'Maternitatis Beatæ Mariæ Virginis',
     constants.SANCTI_10_13: 'S. Eduardi Regis Confessoris',
