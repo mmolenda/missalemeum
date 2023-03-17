@@ -7655,11 +7655,11 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "r"
         ],
-        "id": ":feria:4:w",
-        "rank": 4,
-        "title": "Feria"
+        "id": "sancti:11-12pl:3:r",
+        "rank": 3,
+        "title": "Śś. Benedykta, Jana, Mateusza, Izaaka i Krystyna, Męczenników"
       }
     ],
     "commemoration": [],
@@ -7772,12 +7772,21 @@
         "colors": [
           "w"
         ],
+        "id": "sancti:11-17pl:3:w",
+        "rank": 3,
+        "title": "Bł. Salomei, Dziewicy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
         "id": "sancti:11-17:3:w",
         "rank": 3,
         "title": "Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -8132,11 +8141,11 @@
     "celebration": [
       {
         "colors": [
-          "r"
+          "w"
         ],
-        "id": "sancti:12-02:3:r",
+        "id": "sancti:12-02pl:3:w",
         "rank": 3,
-        "title": "Św. Bibiany, Dziewicy i Męczennicy"
+        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [
@@ -8196,11 +8205,11 @@
     "celebration": [
       {
         "colors": [
-          "w"
+          "r"
         ],
-        "id": "sancti:12-04:3:w",
+        "id": "sancti:12-04pl:3:r",
         "rank": 3,
-        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
+        "title": "Św. Barbary, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [
