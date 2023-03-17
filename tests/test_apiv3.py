@@ -14,7 +14,7 @@ def test_api_calendar(client):
     resp = client.get('/pl/api/v3/calendar/2020').json
     assert expected.keys() == resp.keys()
     for date_, data in expected.items():
-        assert data == resp[date_]
+        assert resp[date_] == data
 
 
 def test_api_date(client):

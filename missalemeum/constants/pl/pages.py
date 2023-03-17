@@ -222,6 +222,7 @@ PAGES = {
     constants.SANCTI_05_02: get_pages(863),  # 'Św. Atanazego, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_03PL: get_pages(867),  # 'N. M. P., Królowej Polski, Głównej Patronki Polski',
     constants.SANCTI_05_04: get_pages(872),  # 'Św. Moniki, Wdowy',
+    constants.SANCTI_05_04PL: get_pages(873),  # 'Św. Floriana, Męczennika',
     constants.SANCTI_05_05: get_pages(872),  # 'Św. Piusa V, Papieża i Wyznawcy',
     constants.SANCTI_05_07: get_pages(876),  # 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_08PL: get_pages(876),  # 'Św. Stanisława, Biskupa i Męczennika',

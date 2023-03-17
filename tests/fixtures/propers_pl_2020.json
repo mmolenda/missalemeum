@@ -3569,6 +3569,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nBoże, który raczyłeś posłać świętego Patryka, Twego Wyznawcę i Biskupa, by",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Księgi Królewskiej.\n*4 Krl 4:1-7*\nW one dni: Niewiasta jedna wołała do Elizeusza mówiąc: «Sługa twój, mąż mój",
       "id": "Lectio"
     },
@@ -3589,6 +3593,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
       "id": "Prefatio"
     },
@@ -3599,6 +3607,10 @@
     {
       "body": "Oczyszczeni przez święte tajemnice, prosimy Cię, Panie, racz nam udzielić przebaczenia i obdarzyć nas Swoją łaską.\nPrzez",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dar",
+      "id": "Commemoratio Postcommunio"
     },
     {
       "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nOchraniaj nas, Panie, Swoją opieką i strzeż zawsze od wszelkiej niepraw",
@@ -4419,10 +4431,6 @@
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie Siedmiu Boleści N. M. P.*\nMódlmy się.\nBoże, podczas Twej męki, według przepowiedni Symeona, miecz boleści p",
-      "id": "Commemoratio Oratio"
-    },
-    {
       "body": "Czytanie z Księgi Proroka Jeremiasza.\n*Jer 17:13-18*\nW one dni rzekł Jeremiasz: Panie, wszyscy, co zapominają o Tobie, b",
       "id": "Lectio"
     },
@@ -4443,10 +4451,6 @@
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie Siedmiu Boleści N. M. P.*\nPrzedkładamy Ci, Panie Jezu Chryste, modlitwy i ofiary i pokornie błagamy, abyśmy",
-      "id": "Commemoratio Secreta"
-    },
-    {
       "body": "*Prefacja o Krzyżu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składa",
       "id": "Prefatio"
     },
@@ -4457,10 +4461,6 @@
     {
       "body": "Panie, niech nas nie opuszcza stała opieka spożytej ofiary i niech zawsze oddala od nas wszelkie niebezpieczeństwa.\nPrze",
       "id": "Postcommunio"
-    },
-    {
-      "body": "Módlmy się.\nPanie Jezu Chryste, niech ofiara, z której pożywaliśmy czcząc z oddaniem przebicie serca Twojej Matki - Dzie",
-      "id": "Commemoratio Postcommunio"
     },
     {
       "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nWszechmogący Boże, dozwól, abyśmy zabiegając o Twoją łaskawą opiekę, zo",
@@ -5847,7 +5847,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
+      "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
       "id": "Prefatio"
     },
     {
@@ -5861,44 +5861,56 @@
   ],
   "2020-05-04": [
     {
-      "body": "*Ps 118:75; 118:120*\nWiem, Panie, że słuszne są Twoje wyroki, żeś sprawiedliwie mnie trapił: drży moje ciało z bojaźni p",
+      "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps",
       "id": "Introitus"
     },
     {
-      "body": "Boże, pocieszycielu zasmuconych i nadziejo ufających Tobie, któryś miłosiernie przyjął rzewne łzy św. Moniki, udzielając",
+      "body": "Boże, który sprawiasz nam radość z uroczystości św. Floriana, Twego Męczennika, daj łaskawie, byśmy czcząc chwalebne jeg",
       "id": "Oratio"
     },
     {
-      "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*1 Tm 5:3-10*\nNajmilszy: Szanuj wdowy, które prawdziwie są wdowa",
+      "body": "*Wspomnienie Św. Moniki, Wdowy*\nBoże, pocieszycielu zasmuconych i nadziejo ufających Tobie, któryś miłosiernie przyjął r",
+      "id": "Commemoratio Oratio"
+    },
+    {
+      "body": "Czytanie z Księgi Mądrości.\n*Mdr 5:1-5*\nSprawiedliwi staną z wielką stanowczością naprzeciw tych, którzy ich uciskali i ",
       "id": "Lectio"
     },
     {
-      "body": "Alleluja, alleluja.\n*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj. Alleluja.\n℣. W obronie wiary",
-      "id": "GradualeP"
+      "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 2",
+      "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 7:11-16*\nOnego czasu: Jezus szedł do miasta, które zowią Naim, a z n",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:1-7*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jam jest prawdziwy krze",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 44:3*\nWdzięk rozlał się na Twoich wargach, przeto Bóg pobłogosławił Cię na wieki.",
+      "body": "*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych, alleluja, alleluja.",
       "id": "Offertorium"
     },
     {
-      "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał p",
+      "body": "Prosimy Cię, Boże, niech zaleci Tobie ten dar ofiarny dostojna modlitwa św. Floriana, Twego Męczennika, który, zniewolon",
       "id": "Secreta"
+    },
+    {
+      "body": "*Wspomnienie Św. Moniki, Wdowy*\nPrzyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając,",
+      "id": "Commemoratio Secreta"
     },
     {
       "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
       "id": "Prefatio"
     },
     {
-      "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
+      "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią, alleluja, alleluja",
       "id": "Communio"
     },
     {
-      "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzi",
+      "body": "Prosimy Cię, Panie, niech uczestnictwo w niebieskim Sakramencie chroni nas od podstępnej napaści wroga i za przyczyną św",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Moniki, Wdowy*\nNasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-05-05": [

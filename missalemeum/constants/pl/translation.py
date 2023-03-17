@@ -460,6 +460,7 @@ TITLES = {
     constants.SANCTI_05_03: 'Śś. Aleksandra, Ewencjusza i Teodula, Męczenników',
     constants.SANCTI_05_03PL: 'N. M. P., Królowej Polski, Głównej Patronki Polski',
     constants.SANCTI_05_04: 'Św. Moniki, Wdowy',
+    constants.SANCTI_05_04PL: 'Św. Floriana, Męczennika',
     constants.SANCTI_05_05: 'Św. Piusa V, Papieża i Wyznawcy',
     constants.SANCTI_05_07: 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_08PL: 'Św. Stanisława, Biskupa i Męczennika',

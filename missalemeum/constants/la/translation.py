@@ -458,6 +458,7 @@ TITLES = {
     constants.SANCTI_05_03: 'Ss. Alexandri et Sociorum Martyrum',
     constants.SANCTI_05_03PL: 'Beatæ Mariæ Virginis Reginæ Poloniæ',
     constants.SANCTI_05_04: 'S. Monicæ Viduæ',
+    constants.SANCTI_05_04PL: 'S. Floriani Martyris',
     constants.SANCTI_05_05: 'S. Pii V Papæ Confessoris',
     constants.SANCTI_05_07: 'S. Stanislai Episcopi et Martyris',
     constants.SANCTI_05_08PL: 'S. Stanislai Episcopi et Martyris',

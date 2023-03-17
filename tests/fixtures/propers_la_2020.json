@@ -3569,6 +3569,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nDeus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium Confessórem",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio libri Regum.\n*4 Reg 4:1-7*\nIn diébus illis: Múlier quædam clamábat ad Eliséum Prophétam, dicens: Servus tuus vir ",
       "id": "Lectio"
     },
@@ -3589,6 +3593,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nSancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita r",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
       "id": "Prefatio"
     },
@@ -3599,6 +3607,10 @@
     {
       "body": "Sacris, Dómine, mystériis expiáti: et véniam, quǽsumus, consequámur et grátiam.\nPer Dominum…",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nPræsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhib",
+      "id": "Commemoratio Postcommunio"
     },
     {
       "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nTua nos, Dómine, protectióne defénde: et ab omni semper iniq",
@@ -5835,7 +5847,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine s",
       "id": "Prefatio"
     },
     {
@@ -5849,44 +5861,56 @@
   ],
   "2020-05-04": [
     {
-      "body": "*Ps 118:75; 118:120*\nCognóvi, Dómine, quia ǽquitas judícia tua, et in veritáte tua humiliásti me: confíge timóre tuo car",
+      "body": "*Ps 63:3*\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelú",
       "id": "Introitus"
     },
     {
-      "body": "Deus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni ",
+      "body": "Deus, qui nos beáti Floriáni Mártyris solemnitáte lætíficas: concéde propítius; ut, cuius gloriósum triúmphum venerámur ",
       "id": "Oratio"
     },
     {
-      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n*1 Tim 5:3-10.*\nCaríssime: Víduas honóra, quæ vere víduæ sunt. Si qua ",
+      "body": "*Commemoratio S. Monicæ Viduæ*\nDeus, mæréntium consolátor et in te sperántium salus, qui beátæ Mónicæ pias lácrimas in c",
+      "id": "Commemoratio Oratio"
+    },
+    {
+      "body": "Léctio libri Sapiéntiæ\n*Sap 5:1-5*\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulér",
       "id": "Lectio"
     },
     {
-      "body": "Allelúja, allelúja.\n*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja.\n℣. Propter v",
-      "id": "GradualeP"
+      "body": "Allelúja, allelúja.\n*Ps 88:6.*\nConfitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Al",
+      "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 7:11-16*\nIn illo témpore: Ibat Jesus in civitátem, quæ vocátur Naim: et",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joannes 15:1-7*\nIn illo témpore: Dixit Jesus discípulis suis: Ego sum vi",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 44:3*\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in ætérnum, et in sǽculum sǽculi, allelúja.",
+      "body": "*Ps 88:6*\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja.",
       "id": "Offertorium"
     },
     {
-      "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepís",
+      "body": "Hanc oblatiónis hóstiam, quǽsumus, omnípotens Deus, beáti Floriáni Mártyris tui digna comméndet orátio: qui sancto carit",
       "id": "Secreta"
+    },
+    {
+      "body": "*Commemoratio S. Monicæ Viduæ*\nAccépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se m",
+      "id": "Commemoratio Secreta"
     },
     {
       "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
       "id": "Prefatio"
     },
     {
-      "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
+      "body": "*Ps 63:11.*\nLætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja.",
       "id": "Communio"
     },
     {
-      "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celeb",
+      "body": "Sancta nos, quǽsumus, Dómine, sacraménti cæléstis participátio: et ab hóstium cállido tueátur incúrsu; et sancto Florián",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Monicæ Viduæ*\nSatiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne no",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-05-05": [

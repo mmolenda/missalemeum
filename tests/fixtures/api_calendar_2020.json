@@ -1767,7 +1767,16 @@
         "title": "Wtorek po 3 Niedzieli Wielkiego Postu"
       }
     ],
-    "commemoration": [],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": "sancti:03-17:3:w",
+        "rank": 3,
+        "title": "Św. Patryka, Biskupa i Wyznawcy"
+      }
+    ],
     "tempora": [
       {
         "colors": [
@@ -2935,6 +2944,16 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:05-04pl:3:r",
+        "rank": 3,
+        "title": "Św. Floriana, Męczennika"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
           "w"
         ],
         "id": "sancti:05-04:3:w",
@@ -2942,7 +2961,6 @@
         "title": "Św. Moniki, Wdowy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [

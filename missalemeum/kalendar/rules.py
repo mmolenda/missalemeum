@@ -33,9 +33,17 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_QUAD6_4, TEMPORA_QUAD6_5,
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
-                              PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL)
+                              PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
+                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, LANGUAGES)
 from kalendar.models import Calendar, Observance
 from utils import match
+
+
+def rule_nativity_vigil(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # Nativity Vigil takes place of 4th Advent Sunday.
+    if match(observances, SANCTI_12_24) and date_.weekday() == 6:
+        return [match(observances, SANCTI_12_24)], [], []
 
 
 def rule_nativity_has_multiple_masses(
@@ -53,20 +61,6 @@ def rule_all_souls(
         if date_.weekday() == 6:
             return [match(observances, PATTERN_TEMPORA_SUNDAY)], [], [[date(date_.year, 11, 3), all_souls]]
         return all_souls, [], []
-
-
-def rule_nativity(
-        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    # Nativity Vigil takes place of 4th Advent Sunday.
-    if match(observances, SANCTI_12_25_1):
-        return [ld for ld in observances if ld.id.startswith('sancti:12-25m')], [], []
-
-
-def rule_nativity_vigil(
-        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    # Nativity Vigil takes place of 4th Advent Sunday.
-    if match(observances, SANCTI_12_24) and date_.weekday() == 6:
-        return [match(observances, SANCTI_12_24)], [], []
 
 
 def rule_st_matthias(
@@ -107,7 +101,7 @@ def rule_bmv_office_on_saturday(
         ranks = set([i.rank for i in observances])
         if len(ranks) == 0 or (len(ranks) == 1 and ranks.pop() == 4):
             bmv_office = Observance(_calc_proper_for_given_period(), date_, lang)
-            return [bmv_office], [i for i in observances if i.flexibility == 'sancti'][:1], []
+            return [bmv_office], [i for i in observances if i.flexibility == TYPE_SANCTI][:1], []
 
 
 def rule_same_class_feasts_take_over_advent_feria_and_ember_days(
@@ -213,6 +207,14 @@ def rule_1st_class_feria(
                         TEMPORA_QUADP3_3]):
         return [match(observances, PATTERN_TEMPORA)], [], []
 
+def rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated(
+    calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    third_class_local_sancti = [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
+    if third_class_local_sancti:
+        third_class_sancti = [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3) and not match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
+        if third_class_sancti:
+            return third_class_local_sancti, third_class_sancti, []
+
 
 def rule_4th_class_feria_are_removed_from_celebration(
     calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
@@ -247,9 +249,9 @@ def rule_general(
 
 
 rules = (
+    rule_nativity_vigil,
     rule_nativity_has_multiple_masses,
     rule_all_souls,
-    rule_nativity_vigil,
     rule_st_matthias,
     rule_feb27,
     rule_same_class_feasts_take_over_advent_feria_and_ember_days,
@@ -262,6 +264,7 @@ rules = (
     rule_2nd_class_sunday,
     rule_1st_class_feria,
     rule_bmv_office_on_saturday,
+    rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated,
     rule_4th_class_feria_are_removed_from_celebration,
     rule_4th_class_commemorations_are_only_commemorated,
     rule_general
