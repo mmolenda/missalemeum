@@ -14813,31 +14813,31 @@
   ],
   "2020-11-12": [
     {
-      "body": "*Joannes 21:15-17*\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExaltábo te, Dómine, quóniam",
+      "body": "*Jer 29:11; 29:12; 29:14*\nDicit Dóminus: Ego cógito cogitatiónes pacis, et non afflictiónis: invocábitis me, et ego exáu",
       "id": "Introitus"
     },
     {
-      "body": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. (Mártyrem tuum atque) Summum Pontíficem, perpétua protec",
+      "body": "Absólve, quǽsumus, Dómine, tuórum delícta populórum: ut a peccatórum néxibus, quæ pro nostra fraglitáte contráximus, tua",
       "id": "Oratio"
     },
     {
-      "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 5:1-4; 5:10-11*\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et",
+      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n*Phil 3:17-21; 4:1-3*\nFratres: Imitatóres mei estóte, et observáte ",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 106:32; 106:31*\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\n℣. Confiteántur Dómino miseric",
+      "body": "*Ps 43:8-9*\nLiberásti nos, Dómine, ex affligéntibus nos: et eos, qui nos odérunt, confudísti.\n℣. In Deo laudábimur tota ",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:13-19*\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, ",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 9:18-26*\nIn illo témpore: Loquénte Jesu ad turbas, ecce, princeps u",
       "id": "Evangelium"
     },
     {
-      "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et destruas, et",
+      "body": "*Ps 129:1-2*\nDe profúndis clamávi ad te, Dómine: Dómine, exáudi oratiónem meam: de profúndis clamávi ad te, Dómine.",
       "id": "Offertorium"
     },
     {
-      "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubique succéssus, et ",
+      "body": "Pro nostræ servitútis augménto sacrifícium tibi, Dómine, laudis offérimus: ut, quod imméritis contulísti, propítius exse",
       "id": "Secreta"
     },
     {
@@ -14845,11 +14845,11 @@
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam.",
+      "body": "*Marc 11:24*\nAmen, dico vobis, quidquid orántes pétitis, crédite, quia accipiétis, et fiet vobis.",
       "id": "Communio"
     },
     {
-      "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incr",
+      "body": "Quǽsumus, omnípotens Deus: ut, quos divína tríbuis participatióne gaudére, humánis non sinas subjacére perículis.\nPer Do",
       "id": "Postcommunio"
     }
   ],
@@ -15161,44 +15161,56 @@
   ],
   "2020-11-20": [
     {
-      "body": "*Ps 91:13-14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus D",
+      "body": "*Joannes 21:15-17*\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas.\n*Ps 29:2*\nExaltábo te, Dómine, quóniam",
       "id": "Introitus"
     },
     {
-      "body": "Deus, qui beátum Felícem Confessórem tuum ex erémo ad munus rediméndi captívos cǽlitus vocáre dignátus es: præsta, quǽsu",
+      "body": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. (Mártyrem tuum atque) Summum Pontíficem, perpétua protec",
       "id": "Oratio"
     },
     {
-      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et h",
+      "body": "*Commemoratio S. Felicis de Valois Confessoris*\nDeus, qui beátum Felícem Confessórem tuum ex erémo ad munus rediméndi ca",
+      "id": "Commemoratio Oratio"
+    },
+    {
+      "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 5:1-4; 5:10-11*\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non",
+      "body": "*Ps 106:32; 106:31*\nExáltent eum in Ecclésia plebis: et in cáthedra seniórum laudent eum.\n℣. Confiteántur Dómino miseric",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam.\n*Luc 12:32-34*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére,",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:13-19*\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, ",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ eju",
+      "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et destruas, et",
       "id": "Offertorium"
     },
     {
-      "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio et pro tuórum tibi grata sit honóre Sanctórum, et",
+      "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubique succéssus, et ",
       "id": "Secreta"
+    },
+    {
+      "body": "*Commemoratio S. Felicis de Valois Confessoris*\nPræsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio e",
+      "id": "Commemoratio Secreta"
     },
     {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 19:28 et 29.*\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam",
+      "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam.",
       "id": "Communio"
     },
     {
-      "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto Félice Confessóre tuo, per hæc contr",
+      "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incr",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Felicis de Valois Confessoris*\nQuǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, interce",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-11-21": [

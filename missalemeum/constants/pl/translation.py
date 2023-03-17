@@ -647,6 +647,7 @@ TITLES = {
     constants.SANCTI_11_18: 'Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów',
     constants.SANCTI_11_19: 'Św. Elżbiety, Wdowy',
     constants.SANCTI_11_20: 'Św. Feliksa Walezego, Wyznawcy',
+    constants.SANCTI_11_20PL: 'Św. Marcina I, Papieża i Męczennika',  # w PL przeniesione z 11.12 w 1964
     constants.SANCTI_11_21: 'Ofiarowanie N. M. P.',
     constants.SANCTI_11_22: 'Św. Cecylii, Dziewicy i Męczennicy',
     constants.SANCTI_11_23: 'Św. Klemensa I, Papieża i Męczennika',

@@ -408,6 +408,7 @@ PAGES = {
     constants.SANCTI_11_18: get_pages(1200),  # 'Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów',
     constants.SANCTI_11_19: get_pages(1201),  # 'Św. Elżbiety, Wdowy',
     constants.SANCTI_11_20: get_pages(1201),  # 'Św. Feliksa Walezego, Wyznawcy',
+    constants.SANCTI_11_20PL: get_pages(1190),  # 'Św. Marcina I, Papieża i Męczennika',
     constants.SANCTI_11_21: get_pages(1202),  # 'Ofiarowanie N. M. P.',
     constants.SANCTI_11_22: get_pages(1202),  # 'Św. Cecylii, Dziewicy i Męczennicy',
     constants.SANCTI_11_23: get_pages(1204),  # 'Św. Klemensa I, Papieża i Męczennika',

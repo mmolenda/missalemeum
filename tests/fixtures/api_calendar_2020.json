@@ -7655,11 +7655,11 @@
     "celebration": [
       {
         "colors": [
-          "r"
+          "g"
         ],
-        "id": "sancti:11-12:3:r",
-        "rank": 3,
-        "title": "Św. Marcina I, Papieża i Męczennika"
+        "id": ":feria:4:w",
+        "rank": 4,
+        "title": "Feria"
       }
     ],
     "commemoration": [],
@@ -7839,6 +7839,15 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:11-20pl:3:r",
+        "rank": 3,
+        "title": "Św. Marcina I, Papieża i Męczennika"
+      }
+    ],
+    "commemoration": [
+      {"colors": [
           "w"
         ],
         "id": "sancti:11-20:3:w",
@@ -7846,7 +7855,6 @@
         "title": "Św. Feliksa Walezego, Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [

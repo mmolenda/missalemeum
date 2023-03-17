@@ -645,6 +645,7 @@ TITLES = {
     constants.SANCTI_11_18: 'In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli',
     constants.SANCTI_11_19: 'S. Elisabeth Viduæ',
     constants.SANCTI_11_20: 'S. Felicis de Valois Confessoris',
+    constants.SANCTI_11_20PL: 'S. Martini Papæ et Martyris',  # in PL moved from 11.12 w 1964
     constants.SANCTI_11_21: 'In Presentatione Beatæ Mariæ Virginis',
     constants.SANCTI_11_22: 'S. Cæciliæ Virginis et Martyris',
     constants.SANCTI_11_23: 'S. Clementis Papæ et Martyris',
