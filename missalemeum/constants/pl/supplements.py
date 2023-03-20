@@ -461,4 +461,14 @@ SUPPLEMENTS = {
     constants.SANCTI_11_20PL: [DIOECESIUM_POLONIAE_1964],
     constants.SANCTI_12_02PL: [DIOECESIUM_POLONIAE_1964],
     constants.SANCTI_12_04PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_07_13PL: [
+        DIOECESIUM_POLONIAE_1964,
+        {"label": "1 Msza o Wyznawcy – Os iusti", "path": "/pl/commune:C5:0:w"},
+        {"label": "2 Msza o Wyznawcy – Iustus ut palma", "path": "/pl/commune:C5b:0:w"}
+    ],
+    constants.SANCTI_07_15PL: [
+        DIOECESIUM_POLONIAE_1964,
+        {"label": "1 Msza o Męczenniku Biskupie – Statuit", "path": "/pl/commune:C2c:0:r"},
+        {"label": "2 Msza o Męczenniku Biskupie – Sacerdotes Dei", "path": "/pl/commune:C2b:0:r"}
+    ]
 }

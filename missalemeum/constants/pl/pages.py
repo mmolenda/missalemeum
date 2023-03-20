@@ -144,6 +144,10 @@ PAGES = {
     constants.COMMUNE_C_10PASC: get_pages(654),
     constants.TEMPORA_C_10T: get_pages(655),
     constants.COMMUNE_C_10T: get_pages(655),
+    constants.COMMUNE_C5: get_pages(693),  # 21 os iusti
+    constants.COMMUNE_C5B: get_pages(696),  # 22 iustus ut palma
+    constants.COMMUNE_C2C: get_pages(659),  # statuit
+    constants.COMMUNE_C2B: get_pages(662),  # Sacerdotes Dei
     constants.SANCTI_01_01: get_pages(100),  # 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_06: get_pages(107),  # 'Objawienie Pańskie',
     constants.SANCTI_01_13: get_pages(116),  # 'Wspomnienie Chrztu Pańskiego',

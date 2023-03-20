@@ -10,10 +10,25 @@ sections:
         zebrać i w przystępnej formie udostępnić cyfrową wersję kalendarza liturgicznego i wszystkich czytań mszalnych 
         wg układu z 1962 r. dla Mszy Trydenckiej.
 
-        Teksty polskie pochodzą z “Mszału Rzymskiego” Wydawnictwa Pallotinum 1965 r. – za zgodą Wydawnictwa. Teksty 
-        łacińskie pochodzą w większości z czcigodnej strony [Divinum Officium](https://www.divinumofficium.com/) oraz częściowo z w/w Mszału. Kod strony 
-        dostępny jest w [repozytorium github](https://github.com/mmolenda/missalemeum). Strona została zbudowana jako prywatny projekt i nie reprezentuje ona 
-        żadnej oficjalnej organizacji ani grupy.
+        Teksty polskie pochodzą z “Mszału Rzymskiego” Wydawnictwa Pallotinum 1963 r. – za zgodą Wydawnictwa. Teksty 
+        łacińskie pochodzą w większości z czcigodnej strony [Divinum Officium](https://www.divinumofficium.com/) oraz częściowo z w/w Mszału.
+      
+        Msze własne dla diecezji polskich podano zgodnie z *Calendarium Perpetuum pro Diœcesium Poloniæ* z 1964 roku. 
+        Choć kalendarz ten został opublikowany po 1962 roku, jego wydanie było realizacją postanowień motu proprio 
+        *Rubricarum instructum* św. Jana XXIII z 25 lipca 1960 roku i dotyczy on Missale Romanum z 1962 roku 
+        (Za: [Bartłomiej Zglinicki, Rubrycela mszalna dla diecezji polskich na rok Pański 2023](https://drive.google.com/file/d/1p7eAbkNJNXyXBeVtX9MV59PgQvASxl3x/view)). 
+        
+        Zostały dodane dwa nowe formualarze (13 i 15 lipca), a część istniejących formularzy dla diecezji polskich
+        została rozszerzona. Ze względu na utrudniony dostęp do zaktualizowanych formularzy dla ogółu wiernych 
+        (np. Mszał Rzymski łacińsko–polski, Paryż 1968 lub Mszał Rzymski Pallotinum, Poznań 1965), 
+        w Missale Meum prezentowane są dawniejsze formularze – jak w Mszale rzymskim (mszaliku codziennym) w 
+        opracowaniu benedyktynów tynieckich, Pallottinum, Poznań 1963. Wyjątkiem są dwa nowe formularze, które, w 
+        związku z ich brakiem w dawniejszym mszaliku, zostały podane w oparciu o Mszał Rzymski Pallotinum, Poznań 1965.
+      
+        W przyszłości rozważane jest dodanie formularzy z 1964 r. jako opcji do wyboru.
+      
+        Kod strony dostępny jest w [repozytorium github](https://github.com/mmolenda/missalemeum). Strona została zbudowana 
+        jako prywatny projekt i nie reprezentuje ona żadnej oficjalnej organizacji ani grupy.
 
         ### Wsparcie
 

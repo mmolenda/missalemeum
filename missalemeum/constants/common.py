@@ -710,8 +710,10 @@ SANCTI_07_08 = 'sancti:07-08:3:w'
 SANCTI_07_10 = 'sancti:07-10:3:r'
 SANCTI_07_11 = 'sancti:07-11:4:r'
 SANCTI_07_12 = 'sancti:07-12:3:r'
+SANCTI_07_13PL = 'sancti:07-13pl:3:w'
 SANCTI_07_14 = 'sancti:07-14:3:w'
 SANCTI_07_15 = 'sancti:07-15:3:w'
+SANCTI_07_15PL = 'sancti:07-15pl:3:r'
 SANCTI_07_16 = 'sancti:07-16:4:w'
 SANCTI_07_17 = 'sancti:07-17:4:w'
 SANCTI_07_18 = 'sancti:07-18:3:r'
@@ -877,6 +879,10 @@ SANCTI_12_29 = 'sancti:12-29r:4:r'
 SANCTI_12_31 = 'sancti:12-31r:4:w'
 
 # COMMUNE / VOTIVE
+COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
+COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
+COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit
+COMMUNE_C2B = 'commune:C2b:0:r'  # Sacerdotes Dei
 COMMUNE_C_10A = 'commune:C10a:0:w'  # B. V. M. Saturdays in Advent
 COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Purification
 COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week

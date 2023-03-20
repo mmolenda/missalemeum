@@ -4635,11 +4635,11 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": ":feria:4:w",
-        "rank": 4,
-        "title": "Feria"
+        "id": "sancti:07-13pl:3:w",
+        "rank": 3,
+        "title": "Śś. Andrzeja Świerada i Benedykta, Wyznawców"
       }
     ],
     "commemoration": [],
@@ -4681,6 +4681,16 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:07-15pl:3:r",
+        "rank": 3,
+        "title": "Św. Brunona Bonifacego z Kwerfurtu, Biskupa i Męczennika"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
           "w"
         ],
         "id": "sancti:07-15:3:w",
@@ -4688,7 +4698,6 @@
         "title": "Św. Henryka, Cesarza i Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -4910,7 +4919,7 @@
         ],
         "id": "sancti:07-24pl:3:w",
         "rank": 3,
-        "title": "Bł. Kingi, Dziewicy"
+        "title": "Św. Kingi, Dziewicy"
       }
     ],
     "commemoration": [],
