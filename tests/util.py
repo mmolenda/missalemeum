@@ -5,7 +5,7 @@ from collections import defaultdict
 from conftest import get_missal
 
 year = 2020
-lang = "en"
+lang = "pl"
 
 
 def generate_propers_fixtures(year: int, language: str):
@@ -24,7 +24,7 @@ def generate_propers_fixtures(year: int, language: str):
         for section in srlzd:
             coll[strdt].append({"id": section["id"], "body": section["body"][:120]})
         dt += datetime.timedelta(days=1)
-    with open('/tmp/propers_fixtures.json', 'w') as fh:
+    with open(f'fixtures/propers_{lang}_{year}.json', 'w') as fh:
         json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
 
 

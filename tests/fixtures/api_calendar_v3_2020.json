@@ -1767,7 +1767,16 @@
         "title": "Wtorek po 3 Niedzieli Wielkiego Postu"
       }
     ],
-    "commemoration": [],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": "sancti:03-17:3:w",
+        "rank": 3,
+        "title": "Św. Patryka, Biskupa i Wyznawcy"
+      }
+    ],
     "tempora": [
       {
         "colors": [
@@ -2935,6 +2944,16 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:05-04pl:3:r",
+        "rank": 3,
+        "title": "Św. Floriana, Męczennika"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
           "w"
         ],
         "id": "sancti:05-04:3:w",
@@ -2942,7 +2961,6 @@
         "title": "Św. Moniki, Wdowy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -3939,12 +3957,21 @@
         "colors": [
           "w"
         ],
-        "id": "sancti:06-15:3:w",
+        "id": "sancti:06-15pl:3:w",
         "rank": 3,
+        "title": "Bł. Jolanty, Wdowy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
+        "id": "sancti:06-15:4:w",
+        "rank": 4,
         "title": "Śś. Wita, Modesta i Krescencji, Męczenników"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -4608,11 +4635,11 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": ":feria:4:w",
-        "rank": 4,
-        "title": "Feria"
+        "id": "sancti:07-13pl:3:w",
+        "rank": 3,
+        "title": "Śś. Andrzeja Świerada i Benedykta, Wyznawców"
       }
     ],
     "commemoration": [],
@@ -4654,6 +4681,16 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:07-15pl:3:r",
+        "rank": 3,
+        "title": "Św. Brunona Bonifacego z Kwerfurtu, Biskupa i Męczennika"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
           "w"
         ],
         "id": "sancti:07-15:3:w",
@@ -4661,7 +4698,6 @@
         "title": "Św. Henryka, Cesarza i Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -4883,7 +4919,7 @@
         ],
         "id": "sancti:07-24pl:3:w",
         "rank": 3,
-        "title": "Bł. Kingi, Dziewicy"
+        "title": "Św. Kingi, Dziewicy"
       }
     ],
     "commemoration": [],
@@ -6796,12 +6832,21 @@
         "colors": [
           "w"
         ],
+        "id": "sancti:10-09pl:3:w",
+        "rank": 3,
+        "title": "Bł. Wincentego Kadłubka, Biskupa i Wyznawcy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
         "id": "sancti:10-09:3:w",
         "rank": 3,
         "title": "Św. Jana Leonardi, Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -7088,11 +7133,11 @@
     "celebration": [
       {
         "colors": [
-          "g"
+          "w"
         ],
-        "id": ":feria:4:w",
-        "rank": 4,
-        "title": "Feria"
+        "id": "sancti:10-21pl:3:w",
+        "rank": 3,
+        "title": "Bł. Jakuba Strzemię, Biskupa i Wyznawcy"
       }
     ],
     "commemoration": [
@@ -7621,9 +7666,9 @@
         "colors": [
           "r"
         ],
-        "id": "sancti:11-12:3:r",
+        "id": "sancti:11-12pl:3:r",
         "rank": 3,
-        "title": "Św. Marcina I, Papieża i Męczennika"
+        "title": "Śś. Benedykta, Jana, Mateusza, Izaaka i Krystyna, Męczenników"
       }
     ],
     "commemoration": [],
@@ -7736,12 +7781,21 @@
         "colors": [
           "w"
         ],
+        "id": "sancti:11-17pl:3:w",
+        "rank": 3,
+        "title": "Bł. Salomei, Dziewicy"
+      }
+    ],
+    "commemoration": [
+      {
+        "colors": [
+          "w"
+        ],
         "id": "sancti:11-17:3:w",
         "rank": 3,
         "title": "Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -7803,6 +7857,15 @@
     "celebration": [
       {
         "colors": [
+          "r"
+        ],
+        "id": "sancti:11-20pl:3:r",
+        "rank": 3,
+        "title": "Św. Marcina I, Papieża i Męczennika"
+      }
+    ],
+    "commemoration": [
+      {"colors": [
           "w"
         ],
         "id": "sancti:11-20:3:w",
@@ -7810,7 +7873,6 @@
         "title": "Św. Feliksa Walezego, Wyznawcy"
       }
     ],
-    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -8088,11 +8150,11 @@
     "celebration": [
       {
         "colors": [
-          "r"
+          "w"
         ],
-        "id": "sancti:12-02:3:r",
+        "id": "sancti:12-02pl:3:w",
         "rank": 3,
-        "title": "Św. Bibiany, Dziewicy i Męczennicy"
+        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
       }
     ],
     "commemoration": [
@@ -8152,11 +8214,11 @@
     "celebration": [
       {
         "colors": [
-          "w"
+          "r"
         ],
-        "id": "sancti:12-04:3:w",
+        "id": "sancti:12-04pl:3:r",
         "rank": 3,
-        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
+        "title": "Św. Barbary, Dziewicy i Męczennicy"
       }
     ],
     "commemoration": [

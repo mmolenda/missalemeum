@@ -228,6 +228,7 @@ SUPPLEMENTS_V4 = {
 
 
 OE = "Objaśnienia Ewangelii"
+DIOECESIUM_POLONIAE_1964 = {"label": "Msze dla diecezji polskich wg kalendarza z 1964 r.", "path": "/pl/supplement/dioecesium-poloniae-1964"}
 SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
         {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
@@ -453,5 +454,21 @@ SUPPLEMENTS = {
     ],
     constants.VOTIVE_MATRIMONIUM: [
         {"label": "Obrzędy sakramentu małżeństwa", "path": "/pl/supplement/22-malzenstwo"}
+    ],
+    constants.SANCTI_05_04PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_10_09PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_10_21PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_11_20PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_12_02PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_12_04PL: [DIOECESIUM_POLONIAE_1964],
+    constants.SANCTI_07_13PL: [
+        DIOECESIUM_POLONIAE_1964,
+        {"label": "1 Msza o Wyznawcy – Os iusti", "path": "/pl/commune:C5:0:w"},
+        {"label": "2 Msza o Wyznawcy – Iustus ut palma", "path": "/pl/commune:C5b:0:w"}
+    ],
+    constants.SANCTI_07_15PL: [
+        DIOECESIUM_POLONIAE_1964,
+        {"label": "1 Msza o Męczenniku Biskupie – Statuit", "path": "/pl/commune:C2c:0:r"},
+        {"label": "2 Msza o Męczenniku Biskupie – Sacerdotes Dei", "path": "/pl/commune:C2b:0:r"}
     ]
 }

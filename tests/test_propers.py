@@ -334,7 +334,7 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_polish_2020.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl_2020.json"))
 def test_all_propers_polish(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -348,7 +348,7 @@ def test_all_propers_polish(strdate, expected_sections):
             f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_latin_2020.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la_2020.json"))
 def test_all_propers_latin(strdate, expected_sections):
     missal = get_missal(2020, 'pl')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
@@ -362,7 +362,7 @@ def test_all_propers_latin(strdate, expected_sections):
             f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_english_2020.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en_2020.json"))
 def test_all_propers_english(strdate, expected_sections):
     missal = get_missal(2020, 'en')
     day = missal.get_day(date(*[int(i) for i in strdate.split('-')]))
