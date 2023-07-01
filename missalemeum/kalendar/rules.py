@@ -106,7 +106,7 @@ def rule_bmv_office_on_saturday(
 
 def rule_same_class_feasts_take_over_advent_feria_and_ember_days(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    adv_or_ember = match(observances, EMBER_DAYS + (PATTERN_ADVENT, ))
+    adv_or_ember = date_.weekday() != SUNDAY and match(observances, EMBER_DAYS + (PATTERN_ADVENT, ))
     if adv_or_ember:
         sancti = match(observances, [PATTERN_SANCTI])
         if not sancti:
@@ -137,6 +137,11 @@ def rule_shift_conflicting_1st_class_feasts(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # If there are two feasts with 1st class, the one with lower priority on Precedence Table is shifted to the first
     # day where there is no 1st and 2nd class feast.
+
+    # The feast of the Immaculate Conception of the Blessed Virgin Mary, however,
+    # is preferred to the Sunday of Advent on which it may occur. (General Rubrics, 15)
+    if date_ == date(date_.year, 12, 8) and date_.weekday() == SUNDAY:
+        return [match(observances, PATTERN_SANCTI)], [match(observances, PATTERN_TEMPORA)], []
 
     def _calc_target_date():
         target_date = copy(date_)

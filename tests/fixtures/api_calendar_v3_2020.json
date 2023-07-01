@@ -8079,16 +8079,7 @@
         "title": "1 Niedziela Adwentu"
       }
     ],
-    "commemoration": [
-      {
-        "colors": [
-          "r"
-        ],
-        "id": "sancti:11-29r:4:r",
-        "rank": 4,
-        "title": "Św. Saturnina, Męczennika"
-      }
-    ],
+    "commemoration": [],
     "tempora": [
       {
         "colors": [
@@ -8285,16 +8276,7 @@
         "title": "2 Niedziela Adwentu"
       }
     ],
-    "commemoration": [
-      {
-        "colors": [
-          "w"
-        ],
-        "id": "sancti:12-06:3:w",
-        "rank": 3,
-        "title": "Św. Mikołaja, Biskupa i Wyznawcy"
-      }
-    ],
+    "commemoration": [],
     "tempora": [
       {
         "colors": [
