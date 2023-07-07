@@ -218,7 +218,7 @@ def rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated(
     if third_class_local_sancti:
         third_class_sancti = [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3) and not match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
         if third_class_sancti:
-            return [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3)], third_class_sancti, []
+            return third_class_local_sancti, third_class_sancti, []
 
 
 def rule_4th_class_feria_are_removed_from_celebration(
