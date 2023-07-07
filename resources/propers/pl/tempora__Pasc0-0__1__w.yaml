@@ -1,0 +1,875 @@
+- info:
+    tags:
+      - Stacja u Najświętszej Maryi Panny Większej
+      - Szaty białe
+    colors:
+      - w
+    description: >
+      W Niedzielę Wielkanocną zachował się pierwotny zwyczaj odprawiania dwu
+      Mszy świętych: jednej na zakończenie nocnej Wigilii i drugiej przed
+      południem. W tej drugiej Mszy triumfalna radość wielkanocna dochodzi do
+      szczytu. Czterokrotnie powtarza się zdanie: «na Paschę naszą został
+      ofiarowany Chrystus». Zbawiciel, przeszedłszy zwycięsko przez śmierć,
+      wyzwolił nas spod władzy śmierci, szatana i grzechu i umożliwił nam
+      przejście do nowego życia. Zjednoczeni z Jezusem cieszymy się Jego
+      zwycięstwem.
+    id: 'tempora:Pasc0-0:1:w'
+    rank: 1
+    supplements: []
+    tempora: null
+    title: Niedziela Zmartwychwstania
+  sections:
+    - body:
+        - - >-
+            *Ps 138:18,5-6*
+
+            *Zmartwychwstały Chrystus zwraca się do Ojca Niebieskiego w akcie
+            adoracji i miłości:*
+
+            Zmartwychwstałem i wciąż jestem z Tobą, alleluja; położyłeś na mnie
+            rękę Swoją, alleluja. Przedziwna jest wiedza Twoja, alleluja,
+            alleluja.
+
+            *Ps 138:1-2*
+
+            Panie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym
+            powstaniu.
+
+            Chwała Ojcu…
+
+            Zmartwychwstałem i wciąż jestem z Tobą, alleluja; położyłeś na mnie
+            rękę Swoją, alleluja. Przedziwna jest wiedza Twoja, alleluja,
+            alleluja.
+          - >-
+            *Ps 138:18; 138:5-6.*
+
+            Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum
+            tuam, allelúja: mirábilis facta est sciéntia tua, allelúja,
+            allelúja.
+
+            *Ps 138:1-2.*
+
+            Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam
+            et resurrectiónem meam.
+
+            Glória Patri…
+
+            Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum
+            tuam, allelúja: mirábilis facta est sciéntia tua, allelúja,
+            allelúja.
+      id: Introitus
+      label: Introit
+    - body:
+        - - >-
+            Boże, Ty w dniu dzisiejszym pokonałeś śmierć i otworzyłeś nam bramy
+            wieczności przez Jednorodzonego Syna Twego; racz wspomagać nasze
+            pragnienia, które uprzedzającą łaską Swoją sam obudziłeś.
+
+            Przez tegoż Pana…
+          - >-
+            Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum,
+            devícta morte, reserásti: vota nostra, quæ præveniéndo aspíras,
+            étiam adjuvándo proséquere.
+
+            Per eúndem…
+      id: Oratio
+      label: Kolekta
+    - body:
+        - - >-
+            Czytanie z Listu świętego Pawła Apostoła do Koryntian.
+
+            *1 Kor 5:7-8*
+
+            *W Starym Testamencie przed Wielkanocą usuwano z domów chleb
+            kwaszony. Baranka paschalnego wolno było spożywać tylko z chlebem
+            przaśnym – niekwaszonym. Chrystus, nasz Baranek paschalny, został na
+            krzyżu ofiarowany za wszystkich. Ofiara Jego trwa. Aby brać w niej
+            pełny udział, trzeba usunąć ze swojego życia kwas grzechu.*
+
+            Bracia: Uprzątnijcie stary kwas, abyście się stali nowym zaczynem,
+            jako też przaśni jesteście. Albowiem na Paschę naszą został
+            ofiarowany Chrystus. Świętujmy tedy nie w starym kwasie ani też w
+            kwasie złości i przewrotności, ale w przaśnikach szczerości i
+            prawdy.
+          - >-
+            Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
+
+            *1 Cor 5:7-8*
+
+            Fratres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut
+            estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque
+            epulémur: non in ferménto véteri, neque in ferménto malítiæ et
+            nequitiæ: sed in ázymis sinceritátis et veritátis.
+      id: Lectio
+      label: Lekcja
+    - body:
+        - - >-
+            Alleluja, alleluja
+
+            *Ps 117:24; 117:1*
+
+            Oto dzień, który Pan uczynił; radujmy się zeń i weselmy.
+
+            ℣. Dziękujcie Panu, bo jest dobry, bo miłosierdzie Jego na wieki.
+            Alleluja, alleluja.
+
+            *1 Kor 5:7*
+
+            ℣. Na Paschę naszą został ofiarowany Chrystus.
+          - >-
+            Allelúja, allelúja.
+
+            *Ps. 117:24; 117:1*
+
+            Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
+
+            ℣. Confitémini Dómino, quóniam bonus: quóniam in sǽculum
+            misericórdia ejus. Allelúja, allelúja.
+
+            *1 Cor 5:7*
+
+            ℣. Pascha nostrum immolátus est Christus.
+      id: Graduale
+      label: Graduał
+    - body:
+        - - >-
+            Hołd Ofierze Wielkanocnej składajcie chrześcijanie.
+
+            Jagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas,
+            grzeszniki.
+
+            Śmierć i życie stoczyły z sobą walki dziwne: Umarły życia wódz –
+            rządzi żywy.
+
+            Na drodze, Maryja, coś widziała, wyjaw!
+
+            Grobowiec Chrystusa żywego i chwałę znów zmartwychwstałego.
+
+            Anielskie też świadki, i całun, i szatki.
+
+            Wskrzesł Chrystus, cel mej nadzei: Poprzedzi swoich do Galilei.
+
+            Wiemy: oto zmartwychwstał Chrystus prawdziwy: Zwycięski Królu, bądź
+            miłościwy.
+
+            Amen. Alleluja.
+
+            *Powyższą sekwencję odmawia się do Soboty Białej włącznie.*
+          - >-
+            Víctimæ pascháli laudes ímmolent Christiáni.
+
+            Agnus rédemit oves: Christus ínnocens Patri reconciliávit
+            peccatóres.
+
+            Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat
+            vivus.
+
+            Dic nobis, María, quid vidísti in via?
+
+            Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis.
+
+            Angélicos testes, sudárium et vestes.
+
+            Surréxit Christus, spes mea: præcédet vos in Galilǽam.
+
+            Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex,
+            miserére. Amen. Allelúja.
+
+            *Sequentia dicitur usque ad Sabbatum in Albis inclusive.*
+      id: Sequentia
+      label: Sekwencja
+    - body:
+        - - >-
+            Ciąg dalszy ☩ Ewangelii świętej według Marka.
+
+            *Mk 16:1-7*
+
+            Onego czasu: Maria Magdalena i Maria Jakubowa, i Salome nakupiły
+            wonności, aby pójść i namaścić Jezusa. I bardzo rano w pierwszy
+            dzień tygodnia przyszły do grobu, gdy już wzeszło słońce. A mówiły
+            do siebie: «Któż nam odsunie kamień od drzwi grobowca?» I
+            spojrzawszy, ujrzały kamień odsunięty. Był bowiem bardzo wielki.
+
+            A wszedłszy do grobowca, ujrzały młodzieńca siedzącego po prawej
+            stronie, ubranego w szatę białą, i zdumiały się. Ale on rzekł im:
+            «Nie lękajcie się, szukacie Jezusa Nazareńskiego, ukrzyżowanego:
+            powstał, nie masz Go tu, oto miejsce, gdzie Go złożono. Ale idźcie,
+            powiedzcie uczniom Jego i Piotrowi, że was uprzedza do Galilei: tam
+            Go ujrzycie, jako wam powiedział».
+          - >-
+            Sequéntia ☩ sancti Evangélii secúndum Marcum.
+
+            *Marc 16:1-7.*
+
+            In illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt
+            arómata, ut veniéntes úngerent Jesum. Et valde mane una sabbatórum,
+            veniunt ad monuméntum, orto jam sole. Et dicébant ad ínvicem: Quis
+            revólvet nobis lápidem ab óstio monuménti? Et respiciéntes vidérunt
+            revolútum lápidem. Erat quippe magnus valde. Et introëúntes in
+            monuméntum vidérunt júvenem sedéntem in dextris, coopértum stola
+            cándida, et obstupuérunt. Qui dicit illis: Nolíte expavéscere: Jesum
+            quǽritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus,
+            ubi posuérunt eum. Sed ite, dícite discípulis ejus et Petro, quia
+            præcédit vos in Galilǽam: ibi eum vidébitis, sicut dixit vobis.
+      id: Evangelium
+      label: Ewangelia
+    - body:
+        - - >-
+            *Ps 75:9-10*
+
+            *Wspominamy trzęsienie ziemi, które towarzyszyło Zmartwychwstaniu
+            Chrystusa.*
+
+            Przelękła się ziemia i zamilkła, kiedy Bóg podniósł się na sądy,
+            alleluja.
+          - |-
+            *Ps. 75:9-10.*
+            Terra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.
+      id: Offertorium
+      label: Antyfona na Ofiarowanie
+    - body:
+        - - >-
+            Prosimy Cię, Panie, przyjmij modlitwy wiernych wraz z darami
+            ofiarnymi: aby ofiara, która wzięła początek w misterium paschalnym,
+            za łaską Twoją stała się dla nas lekarstwem na wieczność.
+
+            Przez Pana…
+          - >-
+            Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus
+            hostiárum: ut, Paschálibus initiáta mystériis, ad æternitátis nobis
+            medélam, te operánte, profíciant.
+
+            Per Dominum…
+      id: Secreta
+      label: Sekreta
+    - body:
+        - - >-
+            *Prefacja Wielkanocna*
+
+            Zaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy
+            Ciebie, Panie, zawsze, a zwłaszcza w tym dniu uroczyściej sławili,
+            gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest
+            prawdziwym Barankiem, który zgładził grzechy świata; On umierając
+            zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.
+
+            Przeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze
+            wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale,
+            wołając bez końca:
+          - >-
+            *Paschalis*
+
+            Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine,
+            omni témpore, sed in hac potíssimum die gloriósius prædicáre, cum
+            Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus,
+            qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et
+            vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum
+            Thronis et Dominatiónibus cumque omni milítia coeléstis exércitus
+            hymnum glóriæ tuæ cánimus, sine fine dicéntes:
+      id: Prefatio
+      label: Prefacja
+    - body:
+        - - >-
+            *1 Kor 5:7-8*
+
+            Na Paschę naszą został ofiarowany Chrystus, alleluja; świętujmy tedy
+            w przaśnikach szczerości i prawdy, alleluja, alleluja, alleluja.
+          - >-
+            *1 Cor 5:7-8*
+
+            Pascha nostrum immolátus est Christus, allelúja: itaque epulémur in
+            ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.
+      id: Communio
+      label: Antyfona na Komunię
+    - body:
+        - - >-
+            Tchnij w nas, o Panie, Twojego Ducha miłości i w dobroci Swojej
+            zjednocz tych, których nasyciłeś wielkanocnym Sakramentem.
+
+            Przez Pana…
+          - >-
+            Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis
+            paschálibus satiásti, tua fácias pietáte concordes.
+
+            Per Dominum…
+      id: Postcommunio
+      label: Pokomunia
+- info:
+    tags:
+      - Stacja u Najświętszej Maryi Panny Większej
+      - Szaty białe
+    colors:
+      - w
+    description: ''
+    id: 'tempora:Pasc0-0:1:w'
+    rank: 1
+    supplements: []
+    tempora: null
+    title: Niedziela Zmartwychwstania (pre 1955)
+  sections:
+    - body:
+        - - >-
+            Wczesnym rankiem w Wielką Niedzielę, kapłan ubrany w kapę koloru
+            białego, w otoczeniu duchowieństwa, służby liturgicznej i
+            chórzystów, udaje się do grobu i modli się w milczeniu. Następnie
+            śpiewa się antyfonę z psalmami.
+        - - >-
+            Ant. Chwała Ci równa o Trójco, Jedynym będąca Bogiem, chwałą przed
+            wszystkimi wiekami, teraz i przez nieskończone wieki wieków.
+
+            *Ps 116*
+
+            Chwalcie Pana wszystkie narody, chwalcie go wszystkie ludy, bo możne
+            jest nad nami miłosierdzie jego, a prawda Pańska trwa na wieki! 
+
+            Chwała Ojcu…
+
+            *Ps 3*
+
+            Panie, czemu się rozmnożyli trapiący mię? Wielu ich powstaje
+            przeciwko mnie.
+
+            Wielu ich mówi duszy mojej: Nie ma ten zbawienia w Bogu swoim!
+
+            Ale ty, Panie, jesteś obrońcą moim, chwałą moją i ty podnosisz głowę
+            moją.
+
+            Głosem moim wołałem do Pana, i wysłuchał mię z góry świętej swojej.
+
+            Jam spał i twardo zasnąłem, i wstałem, bo Pan mię obronił.
+
+            Nie będę się bał tysięcy ludu wokoło mnie leżącego. Powstań, Panie,
+            wybaw mię,
+
+            Boże mój! Boś ty pobił wszystkich sprzeciwiających mi się bez
+            przyczyny, pokruszyłeś zęby grzeszników.
+
+            Pańskie jest wybawienie, a nad ludem twoim błogosławieństwo twoje.
+            Chwała Ojcu…
+
+            Ant. Chwała Ci równa o Trójco, Jedynym będąca Bogiem, chwałą przed
+            wszystkimi wiekami, teraz i przez nieskończone wieki wieków.
+          - >-
+            Ant. Gloria tibi Trinitas  aequalis, una Deitas, et ante omnia
+            saecula, et nunc et in perpetuum.
+
+            *Ps 116*
+
+            Laudate Dominum omnes gentes:* Laudate eum, omnes populi.
+
+            Quoniam confirmata est super nos misericordia eius*, Et veritas
+            Domini manet in aeternum.  
+
+            Gloria Patri…
+
+            *Ps 3*
+
+            Domine, quid multiplicati sunt qui tribulant me? &#42; Multi
+            insurgunt adversum me;
+
+            multi dicunt animae meae: &#42;  Non est salus ipsi in Deo ejus.
+
+            Tu autem Domine, susceptor meus es, &#42; gloria mea, et exaltans
+            caput meum.
+
+            Voce mea ad Dominum clamavi; &#42; et exaudivit me de monte sancto
+            suo.
+
+            Ego dormivi, et soporatus sum; &#42; et exsurrexi, quia Dominus
+            suscepit me.
+
+            Non timebo millia populi circumdantis me. &#42; Exsurge, Domine;
+            salvum me fac, Deus meus.
+
+            Quoniam tu percussisti omnes adversantes mihi sine causa &#42;;
+            dentes peccatorum contrivisti.
+
+            Domini est salus; &#42;  et super populum tuum benedictio tua. 
+
+            Gloria Patri…
+
+            Ant. Gloria tibi Trinitas  aequalis, una Deitas, et ante omnia
+            saecula, et nunc et in perpetuum.
+        - - |-
+            ℣. Panie, zmiłuj się.
+            ℟. Chryste, zmiłuj się,
+            Panie, zmiłuj się.
+            Ojcze nasz.
+            ℣. I nie wódź nas w pokuszenie.
+            ℟. Ale nas zbaw ode złego.
+            ℣. W Zmartwychwstaniu Twoim, Chryste, Alleluja.
+            ℟. Niebo i ziemia się radują. Alleluja.
+            ℣. Panie, wysłuchaj modlitwę moją.
+            ℟. A wołanie moje niech do Ciebie przyjdzie.
+            ℣. Pan z wami.
+            ℟. I z duchem twoim.
+          - |-
+            ℣. Kyrie eleison
+            ℟. Christe eleison
+            Kyrie eleison
+            Pater noster
+            ℣. Et ne nos inducas in tentationem.
+            ℟. Sed libera nos a malo.
+            ℣. In Resurrectione tua Christe. Alleluja
+            ℟. Caelum et terra laetantur. Alleluja.
+            ℣. Domine exaudi oratione meam.
+            ℟. Et clamor meus ad te veniat.
+            ℣. Dominus vobiscum.
+            ℟. Et cum spiritu tuo.
+        - - >-
+            Módlmy się.
+
+            Panie Jezu Chryste, Królu chwały, pokorny w Męce, potężny w
+            Zmartwychwstaniu: Zwycięzco śmierci i piekła! Wszystko to, coś
+            niegdyś przez Proroków w Piśmie św. obiecał, dziś, po zwyciężeniu
+            śmierci, zmartwychwstając spełniłeś. Przeto więc wszelki duch
+            niebieskich zastępów i cały świata okrąg, wylewając radości duszy, z
+            uczuciem radości Tobie zmartwychwstającemu czołem bije i Ciebie
+            wysławia: nawet piekielne drżą potęgi, przejęte bojaźnią. My zaś
+            Twego dostojeństwa pokorni słudzy, jednomyślnym uczuciem
+            najpobożniej odbywając pamiątkę chwały Twego Zmartwychwstania,
+            gromadnie przybyliśmy, a pomni na zbytnią ku nam miłość Twoją, łez
+            pobożnej wdzięczności wstrzymać nie możemy. Wejrzyj, prosimy Cię, na
+            hołdy pokory naszej i spraw, iżbyśmy, zgładziwszy grzechów naszych
+            zmazy, Tobie podczas tych wielkanocnych uroczystości ożyli, a
+            najświętszej Męki i Zmartwychwstania Twego skutków godnymi
+            uczestnikami być zasłużyli. Który żyjesz…
+          - >-
+            Oremus
+
+            Domine Jesu Christe, Rex gloriae humilis in Passione, potens in
+            Resurrectione, mortis infernique Destructor, quod olim per Prophetas
+            in scripturis promisisti, hodie devicta morte resurgendo implevisti:
+            propter quod omnis caelestis militiae Spiritus, et totus terrarum
+            orbis profuso mentis gaudio, exultando te resurgentem adorant et
+            glorificant: tartareae quoque nimium formidant, ac tremunt
+            potestates. Nos autem, tuae dignationis humiles servuli, gloriosae
+            Resurrectionis tuae memoriam unanimi voto devotissime celebrantes,
+            ecce frequentes adsumus, et exuberantis tuae in nos caritatis
+            memores, pias non continemus lacrimas. Respice quaesumus,
+            humilitatis nostrae obsequia: et praesta, ut detersis peccatorum
+            nostrorum sordibus, in his Paschalibus solemniis tibi resurgere, ac
+            sanctissimae Passionis ac Resurrectionis tuae, fructus capaces esse
+            mereamur. Qui vivis…
+        - - >-
+            Celebrujący kropi Grób Pański wodą święconą i okadza: następnie
+            bierze krzyż z czerwoną stułą, figurę Zmartwychwstałego Pana Jezusa
+            i podaje tym, którzy je w procesji mają nieść przed Najświętszym
+            Sakramentem. Po okadzeniu Najśw. Sakramentu celebrans bierze
+            monstrancję i następuje procesja. Podczas procesji śpiewa się
+            najepierw responsorium, później pieśń WESOŁY NAM DZIEŃ
+        - - >-
+            Ant. Kiedy Chrystus, Król wiecznej chwały szedł, by pokonać piekieł
+            moce, Anieli przed Obliczem Jego bramy podziemne otworzyli. Lud
+            Świętych, jęcząc w więzach śmierci wołał błagalnie głosem łzawym:
+            Przybyłeś wreszcie, Upragniony, któregośmy w mroku czekali, byś
+            wyprowadził nas z tej nocy, tych, co w ciemnicy powiązani.
+            Westchnienia nasze Cię wzywały, szukaliśmy Ciebie wśród jęków, Tyś
+            jest nadzieją tych, co sami nadzieję wszelką już stracili, wielkąś
+            pociechą wśród męczarni.
+          - >-
+            Ant. Cum Rex gloriae Christus infernum debellaturus intraret: et
+            chorus Angelicus ante faciem ejus portas principium tolli
+            praeciperet. Sanctorum populus, qui tenebatur in morte captivus,
+            voce lacrimabili clamaverunt: Advenisti desiderabilis, quem
+            expectabamus in tenebris, ut educeres hac nocte vinculatos de
+            claustris. Te nostra vocabant suspiria: Te larga requirebant
+            lamenta: Tu factus es spes desperatis, magna consolatio in
+            tormentis.
+        - - |-
+            1. Wesoły nam dzień dziś nastał, którego z nas każdy żądał,
+            tego dnia Chrystus zmartwychwstał. Alleluja, Alleluja.
+            2. Król niebieski k'nam zawitał, jako śliczny kwiat zakwitał,
+            po śmierci się nam pokazał. Alleluja, Alleluja.
+            3. Piekielne moce zwojował, nieprzyjaciele podeptał,
+            nad nędznymi się zmiłował. Alleluja, Alleluja.
+            4. Do trzeciego dnia tam mieszkał, ojce święte tam pocieszał,
+            potem iść za sobą kazał. Alleluja, Alleluja.
+            5. Którzy w otchłaniach mieszkali, płaczliwie tam zawołali,
+            gdy Zbawiciela ujrzeli. Alleluja, Alleluja.
+            6. Zawitaj przybywający! Boży Synu Wszechmogący,
+            wybaw nas z piekielnej mocy. Alleluja, Alleluja.
+            7. Wielkie tam wesele mieli, gdy Zbawiciela ujrzeli,
+            którego z dawna żądali. Alleluja, Alleluja.
+            8. Potem swą mocą zmartwychwstał, pieczęci z grobu nie ruszał,
+            na stróże wielki strach powstał. Alleluja, Alleluja.
+            9. A gdy Chrystus Pan zmartwychwstał, miłośnikom się pokazał,
+            Anioły do Matki posłał. Alleluja, Alleluja.
+            10. O Anieli najmilejsi, idźcież do Panny Najświętszej,
+            do Matki mej najmilejszej. Alleluja, Alleluja.
+            11. Ode mnie Ją pozdrawiajcie, i wesoło zaśpiewajcie:
+            Królowo Rajska wesel się. Alleluja, Alleluja.
+            12. Potem z swą wielką światłością, do Matki Swej przystąpiwszy,
+            pocieszył Ją pozdrowiwszy. Alleluja, Alleluja.
+            13. Napełniona bądź słodkości, Matko moja i radości,
+            po onej wielkiej żałości. Alleluja, Alleluja.
+            14. Witajże, Jezu najsłodszy, Synaczku mój najmilejszy,
+            pocieszenie wszelkiej duszy. Alleluja, Alleluja.
+            15. Jestem już bardzo wesoła, gdym Cię żywego ujrzała,
+            jakobym się narodziła. Alleluja, Alleluja.
+            16. Łaskawie z Nim rozmawiała, usta Jego całowała,
+            w radości się z Nim rozstała. Alleluja, Alleluja.
+          - >-
+            1. Wesoły nam dzień dziś nastał, którego z nas każdy żądał,
+
+            tego dnia Chrystus zmartwychwstał. Alleluja, Alleluja.
+
+            2. Król niebieski k'nam zawitał, jako śliczny kwiat zakwitał,
+
+            po śmierci się nam pokazał. Alleluja, Alleluja.
+
+            3. Piekielne moce zwojował, nieprzyjaciele podeptał,
+
+            nad nędznymi się zmiłował. Alleluja, Alleluja.
+
+            4. Do trzeciego dnia tam mieszkał, ojce święte tam pocieszał,
+
+            potem iść za sobą kazał. Alleluja, Alleluja.
+
+            5. Którzy w otchłaniach mieszkali, płaczliwie tam zawołali,
+
+            gdy Zbawiciela ujrzeli. Alleluja, Alleluja.
+
+            6. Zawitaj przybywający! Boży Synu Wszechmogący,
+
+            wybaw nas z piekielnej mocy. Alleluja, Alleluja.
+
+            7. Wielkie tam wesele mieli, gdy Zbawiciela ujrzeli,
+
+            którego z dawna żądali. Alleluja, Alleluja.
+
+            8. Potem swą mocą zmartwychwstał, pieczęci z grobu nie ruszał,
+
+            na stróże wielki strach powstał. Alleluja, Alleluja.
+
+            9. A gdy Chrystus Pan zmartwychwstał, miłośnikom się pokazał,
+
+            Anioły do Matki posłał. Alleluja, Alleluja.
+
+            10. O Anieli najmilejsi, idźcież do Panny Najświętszej,
+
+            do Matki mej najmilejszej. Alleluja, Alleluja.
+
+            11. Ode mnie Ją pozdrawiajcie, i wesoło zaśpiewajcie:
+
+            Królowo Rajska wesel się. Alleluja, Alleluja.
+
+            12. Potem z swą wielką światłością, do Matki Swej przystąpiwszy,
+
+            pocieszył Ją pozdrowiwszy. Alleluja, Alleluja.
+
+            13. Napełniona bądź słodkości, Matko moja i radości,
+
+            po onej wielkiej żałości. Alleluja, Alleluja.
+
+            14. Witajże, Jezu najsłodszy, Synaczku mój najmilejszy,
+
+            pocieszenie wszelkiej duszy. Alleluja, Alleluja.
+
+            15. Jestem już bardzo wesoła, gdym Cię żywego ujrzała,
+
+            jakobym się narodziła. Alleluja, Alleluja.
+
+            16. Łaskawie z Nim rozmawiała, usta Jego całowała,
+
+            w radości się z Nim rozstała. Alleluja, Alleluja.
+
+            17. Przez Twe święte zmartwychwstanie, daj nam grzechów
+            odpuszczenie,
+
+            a potem duszne zbawienie. Alleluja, Alleluja.
+        - - >-
+            Gdy procesja, powróci do wielkiego ołtarza, Celebrans stawia Najśw.
+            Sakrament na ołtarzu i okadza. Następnie uklęknąwszy na najwyższym
+            stopniu, bierze w swe ręce krzyż, owinięty stułą, i śpiewa
+            trzykrotnie na przemian z chórem, podnosząc stopniowo krzyż i głos:
+        - - |-
+            ℣. Zmartwychwstał Pan z grobu.
+            ℟. Który za nas wisiał na drzewie krzyża. Alleluja.
+          - |-
+            ℣. Surrexit Dominus de sepulcro.
+            ℟. Qui pro nobis pependit in ligno, Alleluja.
+        - - 'Celebrujący oddaje krzyż, schodzi ze stopni ołtarza i dalej śpiewa:'
+        - - >-
+            ℣.W Zmartwychwstaniu Twoim Chryste, Alleluja.
+
+            ℟. Niebo i ziemia się cieszą, Alleluja.
+
+            Módlmy się.
+
+            Boże, który nas corocznie uroczystością Zmartwychwstania Pańskiego
+            uweselasz: pozwól łaskawie, iżbyśmy przez obchodzenie świat
+            doczesnych, wieczne radości osiągnąć zasłużyli. Przez tegoż…
+          - >-
+            ℣. In resurrectione tua Christe, Alleluja.
+
+            ℟. Coelum et terra laetantur, Alleluja.
+
+            Oremus.
+
+            Deus, qui nos Resurrectionis Dominicae annua solemnitate laetificas:
+            concede propitius, ut per temporalia festa, quae agimus, pervenire
+            ad gaudia aeterna mereamur. Per eumdem…
+      id: ''
+      label: ''
+    - body:
+        - - >-
+            *Ps 138:18,5-6*
+
+            Zmartwychwstałem i wciąż jestem z Tobą, alleluja; położyłeś na mnie
+            rękę Swoją, alleluja. Przedziwna jest wiedza Twoja, alleluja,
+            alleluja.
+
+            *Ps 138:1-2*
+
+            Panie, Ty mnie przenikasz i znasz, Ty wiesz o moim spoczynku i o mym
+            powstaniu.
+
+            Chwała Ojcu…
+
+            Zmartwychwstałem i wciąż jestem z Tobą, alleluja; położyłeś na mnie
+            rękę Swoją, alleluja. Przedziwna jest wiedza Twoja, alleluja,
+            alleluja.
+          - >-
+            *Ps 138:18; 138:5-6.*
+
+            Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum
+            tuam, allelúja: mirábilis facta est sciéntia tua, allelúja,
+            allelúja.
+
+            *Ps 138:1-2.*
+
+            Dómine, probásti me et cognovísti me: tu cognovísti sessiónem meam
+            et resurrectiónem meam.
+
+            Glória Patri…
+
+            Resurréxi, et adhuc tecum sum, allelúja: posuísti super me manum
+            tuam, allelúja: mirábilis facta est sciéntia tua, allelúja,
+            allelúja.
+      id: Introitus
+      label: Introit
+    - body:
+        - - >-
+            Boże, Ty w dniu dzisiejszym pokonałeś śmierć i otworzyłeś nam bramy
+            wieczności przez Jednorodzonego Syna Twego; racz wspomagać nasze
+            pragnienia, które uprzedzającą łaską Swoją sam obudziłeś.
+
+            Przez tegoż Pana…
+          - >-
+            Deus, qui hodiérna die per Unigénitum tuum æternitátis nobis áditum,
+            devícta morte, reserásti: vota nostra, quæ præveniéndo aspíras,
+            étiam adjuvándo proséquere.
+
+            Per eúndem…
+      id: Oratio
+      label: Kolekta
+    - body:
+        - - >-
+            Czytanie z Listu świętego Pawła Apostoła do Koryntian.
+
+            *1 Kor 5:7-8*
+
+            Bracia: Uprzątnijcie stary kwas, abyście się stali nowym zaczynem,
+            jako też przaśni jesteście. Albowiem na Paschę naszą został
+            ofiarowany Chrystus. Świętujmy tedy nie w starym kwasie ani też w
+            kwasie złości i przewrotności, ale w przaśnikach szczerości i
+            prawdy.
+          - >-
+            Léctio Epístolæ beáti Pauli Apóstoli ad Corinthios.
+
+            *1 Cor 5:7-8*
+
+            Fratres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut
+            estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque
+            epulémur: non in ferménto véteri, neque in ferménto malítiæ et
+            nequitiæ: sed in ázymis sinceritátis et veritátis.
+      id: Lectio
+      label: Lekcja
+    - body:
+        - - >-
+            Alleluja, alleluja
+
+            *Ps 117:24; 117:1*
+
+            Oto dzień, który Pan uczynił; radujmy się zeń i weselmy.
+
+            ℣. Dziękujcie Panu, bo jest dobry, bo miłosierdzie Jego na wieki.
+            Alleluja, alleluja.
+
+            *1 Kor 5:7*
+
+            ℣. Na Paschę naszą został ofiarowany Chrystus.
+          - >-
+            Allelúja, allelúja.
+
+            *Ps. 117:24; 117:1*
+
+            Hæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.
+
+            ℣. Confitémini Dómino, quóniam bonus: quóniam in sǽculum
+            misericórdia ejus. Allelúja, allelúja.
+
+            *1 Cor 5:7*
+
+            ℣. Pascha nostrum immolátus est Christus.
+      id: Graduale
+      label: Graduał
+    - body:
+        - - >-
+            Hołd Ofierze Wielkanocnej składajcie chrześcijanie.
+
+            Jagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas,
+            grzeszniki.
+
+            Śmierć i życie stoczyły z sobą walki dziwne: Umarły życia wódz –
+            rządzi żywy.
+
+            Na drodze, Maryja, coś widziała, wyjaw!
+
+            Grobowiec Chrystusa żywego i chwałę znów zmartwychwstałego.
+
+            Anielskie też świadki, i całun, i szatki.
+
+            Wskrzesł Chrystus, cel mej nadzei: Poprzedzi swoich do Galilei.
+
+            Wiemy: oto zmartwychwstał Chrystus prawdziwy: Zwycięski Królu, bądź
+            miłościwy.
+
+            Amen. Alleluja.
+
+            *Powyższą sekwencję odmawia się do Soboty Białej włącznie.*
+          - >-
+            Víctimæ pascháli laudes ímmolent Christiáni.
+
+            Agnus rédemit oves: Christus ínnocens Patri reconciliávit
+            peccatóres.
+
+            Mors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat
+            vivus.
+
+            Dic nobis, María, quid vidísti in via?
+
+            Sepúlcrum Christi vivéntis et glóriam vidi resurgéntis.
+
+            Angélicos testes, sudárium et vestes.
+
+            Surréxit Christus, spes mea: præcédet vos in Galilǽam.
+
+            Scimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex,
+            miserére. Amen. Allelúja.
+
+            *Sequentia dicitur usque ad Sabbatum in Albis inclusive.*
+      id: Sequentia
+      label: Sekwencja
+    - body:
+        - - >-
+            Ciąg dalszy ☩ Ewangelii świętej według Marka.
+
+            *Mk 16:1-7*
+
+            Onego czasu: Maria Magdalena i Maria Jakubowa, i Salome nakupiły
+            wonności, aby pójść i namaścić Jezusa. I bardzo rano w pierwszy
+            dzień tygodnia przyszły do grobu, gdy już wzeszło słońce. A mówiły
+            do siebie: «Któż nam odsunie kamień od drzwi grobowca?» I
+            spojrzawszy, ujrzały kamień odsunięty. Był bowiem bardzo wielki.
+
+            A wszedłszy do grobowca, ujrzały młodzieńca siedzącego po prawej
+            stronie, ubranego w szatę białą, i zdumiały się. Ale on rzekł im:
+            «Nie lękajcie się, szukacie Jezusa Nazareńskiego, ukrzyżowanego:
+            powstał, nie masz Go tu, oto miejsce, gdzie Go złożono. Ale idźcie,
+            powiedzcie uczniom Jego i Piotrowi, że was uprzedza do Galilei: tam
+            Go ujrzycie, jako wam powiedział».
+          - >-
+            Sequéntia ☩ sancti Evangélii secúndum Marcum.
+
+            *Marc 16:1-7.*
+
+            In illo témpore: María Magdaléne et María Jacóbi et Salóme emérunt
+            arómata, ut veniéntes úngerent Jesum. Et valde mane una sabbatórum,
+            veniunt ad monuméntum, orto jam sole. Et dicébant ad ínvicem: Quis
+            revólvet nobis lápidem ab óstio monuménti? Et respiciéntes vidérunt
+            revolútum lápidem. Erat quippe magnus valde. Et introëúntes in
+            monuméntum vidérunt júvenem sedéntem in dextris, coopértum stola
+            cándida, et obstupuérunt. Qui dicit illis: Nolíte expavéscere: Jesum
+            quǽritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus,
+            ubi posuérunt eum. Sed ite, dícite discípulis ejus et Petro, quia
+            præcédit vos in Galilǽam: ibi eum vidébitis, sicut dixit vobis.
+      id: Evangelium
+      label: Ewangelia
+    - body:
+        - - >-
+            *Ps 75:9-10*
+
+            Przelękła się ziemia i zamilkła, kiedy Bóg podniósł się na sądy,
+            alleluja.
+          - |-
+            *Ps. 75:9-10.*
+            Terra trémuit, et quiévit, dum resúrgeret in judício Deus, allelúja.
+      id: Offertorium
+      label: Antyfona na Ofiarowanie
+    - body:
+        - - >-
+            Prosimy Cię, Panie, przyjmij modlitwy wiernych wraz z darami
+            ofiarnymi: aby ofiara, która wzięła początek w misterium paschalnym,
+            za łaską Twoją stała się dla nas lekarstwem na wieczność.
+
+            Przez Pana…
+          - >-
+            Súscipe, quǽsumus, Dómine, preces pópuli tui cum oblatiónibus
+            hostiárum: ut, Paschálibus initiáta mystériis, ad æternitátis nobis
+            medélam, te operánte, profíciant.
+
+            Per Dominum…
+      id: Secreta
+      label: Sekreta
+    - body:
+        - - >-
+            *Prefacja Wielkanocna*
+
+            Zaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy
+            Ciebie, Panie, zawsze, a zwłaszcza w tym dniu uroczyściej sławili,
+            gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest
+            prawdziwym Barankiem, który zgładził grzechy świata; On umierając
+            zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.
+
+            Przeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze
+            wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale,
+            wołając bez końca:
+          - >-
+            *Paschalis*
+
+            Vere dignum et justum est, æquum et salutáre: Te quidem, Dómine,
+            omni témpore, sed in hac potíssimum die gloriósius prædicáre, cum
+            Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus,
+            qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et
+            vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum
+            Thronis et Dominatiónibus cumque omni milítia coeléstis exércitus
+            hymnum glóriæ tuæ cánimus, sine fine dicéntes:
+      id: Prefatio
+      label: Prefacja
+    - body:
+        - - >-
+            *1 Kor 5:7-8*
+
+            Na Paschę naszą został ofiarowany Chrystus, alleluja; świętujmy tedy
+            w przaśnikach szczerości i prawdy, alleluja, alleluja, alleluja.
+          - >-
+            *1 Cor 5:7-8*
+
+            Pascha nostrum immolátus est Christus, allelúja: itaque epulémur in
+            ázymis sinceritátis et veritátis, allelúja, allelúja, allelúja.
+      id: Communio
+      label: Antyfona na Komunię
+    - body:
+        - - >-
+            Tchnij w nas, o Panie, Twojego Ducha miłości i w dobroci Swojej
+            zjednocz tych, których nasyciłeś wielkanocnym Sakramentem.
+
+            Przez Pana…
+          - >-
+            Spíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis
+            paschálibus satiásti, tua fácias pietáte concordes.
+
+            Per Dominum…
+      id: Postcommunio
+      label: Pokomunia

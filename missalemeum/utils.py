@@ -1,11 +1,9 @@
-import json
 import logging
 import os
 import re
 from collections import defaultdict
 from typing import List, Union, Pattern
 
-import mistune
 import yaml
 
 from constants import TRANSLATION
@@ -76,10 +74,10 @@ def format_proper_sections(propers_vernacular, propers_latin):
 def get_pregenerated_proper(lang, proper_id, tempora_id=None):
     if not proper_id:
         return
-    path = os.path.join(PROPERS_DIR, lang, f"{proper_id.replace(':', '__')}.json")
+    path = os.path.join(PROPERS_DIR, lang, f"{proper_id.replace(':', '__')}.yaml")
     if os.path.exists(path):
         with open(path) as fh:
-            proper = json.load(fh)
+            proper = yaml.full_load(fh)
             proper[0]['info']['tags'].extend(TRANSLATION[lang].PAGES.get(proper_id, []))
             proper[0]['info']['supplements'] = TRANSLATION[lang].SUPPLEMENTS.get(proper_id, [])
             if proper_id == SANCTI_02_02 and tempora_id is not None:

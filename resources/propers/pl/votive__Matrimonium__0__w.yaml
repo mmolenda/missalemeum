@@ -1,0 +1,408 @@
+- info:
+    tags:
+      - Wotywna
+    colors:
+      - w
+    description: "W niedziele, święta 1 i 2 klasy oraz w wigilie i oktawy uprzywilejowane odprawia się Mszę z dnia, lecz dołącza się modlitwy ze Mszy dla nowożeńców i udziela się\_uroczystego błogosławieństwa wplecionego w tę\_Mszę. W inne dni odprawia się poniższą Mszę wotywną."
+    id: 'commune:C10a:0:w'
+    rank: 0
+    title: Msza za Nowożeńców
+    supplements: []
+  sections:
+    - body:
+        - - >-
+            *Tb 7:15; 8:18*
+
+            Bóg Izraela niech was połączy, a który nad dwojgiem oblubieńców się
+            zmiłował nich będzie także z wami. A teraz  dozwól Panie, aby
+            jeszcze gorliwiej Cię wielbili. (O. W. Alleluja, alleluja)
+
+            *Ps 127:1*
+
+            Błogosławieni wszyscy, którzy się boją Pana, którzy chodzą Jego
+            drogami.
+
+            Chwała Ojcu…
+
+            Bóg Izraela niech was połączy, a który nad dwojgiem oblubieńców się
+            zmiłował nich będzie także z wami. A teraz  dozwól Panie, aby
+            jeszcze gorliwiej Cię wielbili. (O. W. Alleluja, alleluja)
+          - >-
+            *Tob 7:15; 8:18*
+
+            Deus Israël coniugat vos: et ipse sit vobiscum, qui misertus est duo
+            bus unicis: et nunc, Domine, fac eos plenius benedicere te (T.P.
+            alleluia, alleluia).
+
+            *Ps 127:1*
+
+            Beati omnes, qui timent Dominum: qui ambulant  in viis  eius.
+
+            Glória Patri…
+
+            Deus Israël coniugat vos: et ipse sit vobiscum, qui misertus est duo
+            bus unicis: et nunc, Domine, fac eos plenius benedicere te (T.P.
+            alleluia, alleluia).
+      id: Introitus
+      label: Introit
+    - body:
+        - - >-
+            Wysłuchaj nas  wszechmogący i miłosierny Boże, racz jak najobficiej
+            pobłogosławić ten związek małżeński przy posługiwaniu naszym
+            zawarty.
+
+            Przez Pana…
+          - >-
+            Exaudi nos, omnipotens et misericors Deus: ut quod nostro
+            ministratur officio, tua benedictione potius impleatur.
+
+            Per Dominum…
+      id: Oratio
+      label: Kolekta
+    - body:
+        - - >-
+            Czytanie z Listu świętego Pawła Apostoła do Efezjan.
+
+            *Ef 5:22-23*
+
+            Bracia: Żony niech będą poddane swoim mężom jak Panu, ponieważ mąż
+            jest głową żony, jak Chrystus jest głową Kościoła: On, Zbawiciel
+            ciała jego. Lecz jak Kościół poddany jest Chrystusowi, tak i żony
+            swoim mężom we wszystkim.
+
+            Mężowie, miłujcie żony wasze, jak i Chrystus umiłował Kościół i
+            wydał samego siebie za niego, aby go uświęcić, oczyściwszy go
+            obmyciem wody w słowie życia, aby sam sobie przysposobił Kościół
+            chwalebny, nie mający zmazy ani zmarszczki, albo czegoś podobnego,
+            ale żeby był święty i niepokalany. Tak i mężowie powinni miłować
+            żony swoje jak swoje ciało. Kto miłuje żonę swoją, miłuje samego
+            siebie. Nikt bowiem nigdy nie miał w nienawiści ciała swego, ale
+            żywi i pielęgnuje je, jak i Chrystus Kościół; gdyż jesteśmy
+            członkami ciała jego, z ciała jego i z kości jego. «Dlatego opuści
+            człowiek ojca i matkę swoją i złączy się z żoną swoją i będą dwoje w
+            jednym ciele.» Jest to wielka tajemnica, a ja mówię w Chrystusie i w
+            Kościele. Wszakże i każdy z was z osobna niech miłuje żonę swoją jak
+            samego siebie, a żona niech się boi męża swego.
+          - >-
+            Léctio Epístolæ beáti Pauli Apóstoli ad Ephésios.
+
+            *Ephes 5:22-23*
+
+            Fratres: Mulieres viris suis subditæ sint, sicut Domino: quoniam vir
+            caput est mulieris, sicut Christus caput est Ecclesiæ: ipse,
+            salvator corporis ejus. Sed sicut Ecclesia subjecta est Christo, ita
+            et mulieres viris suis in omnibus.
+
+            Viri, diligite uxores vestras, sicut et Christus dilexit Ecclesiam,
+            etse ipsum tradidit pro ea, ut illam sanctificaret, mundans lavacro
+            aquæ in verbo vitæ, ut exhiberet ipse sibi gloriosam Ecclesiam, non
+            habentem maculam, aut rugam, aut aliquid huiusmodi, sed ut sit
+            sancta et immaculata. Ita et viri debent diligere uxores suas ut
+            corpora sua. Qui suam uxorem diligit, seipsum diligit. Nemo enim
+            umquam carnem suam odio habuit: sed nutrit et fovet eam, sicut et
+            Christus Ecclesiam: quia membra sumus corporis ejus, de carne ejus
+            et de ossibus ejus. Propter hocrelinquet homo patrem et matrem suam,
+            et adhærebit uxori suæ, et erunt duo in carne una. Sacramentum hoc
+            magnum est, ego autem dico in Christo et in Ecclesia. Verumtamen et
+            vos singuli, unusquisque uxorem suam sicut seipsum diligat: uxor
+            autem timeat virum suum.
+      id: Lectio
+      label: Lekcja
+    - body:
+        - - >-
+            *Ps 127:3*
+
+            Żona twoja jak płodny szczep winny w zaciszu twojego domu.
+
+            ℣. Synowie twoi jak pędy oliwne dokoła twojego stołu. Alleluja,
+            alleluja.
+
+            *Ps 19:3*
+
+            ℣. Niech Bóg ześle wam pomoc z przybytku swego i ze Syjonu niech was
+            broni. Alleluja.
+          - >-
+            *Ps 127:3*
+
+            Uxor tua sicut vitis abundans in lateribus domus tuae.
+
+            ℣. Filii tui sicut novellae olivarum in circuitu mensae tuae.
+            Alleluia, alleluia.
+
+            *Ps 19:3*
+
+            ℣. Mittat vobis Dominus auxulium de sancto: et de Sion tueatur vos.
+            Alleluia.
+      id: Graduale
+      label: Graduał
+    - body:
+        - - >-
+            *W Okresie Wielkanocnym*
+
+            *Ps 19:3*
+
+            Alleluja, alleluja.
+
+            ℣. Niech Bóg ześle wam pomoc z przybytku swego i ze Syjonu niech was
+            broni. Alleluja.
+
+            *Ps 133:3*
+
+            ℣. Niech błogosławi wam ze Syjonu Pan, który stworzył niego i
+            ziemię.
+          - >-
+            *Tempore paschali*
+
+            *Ps 19:3*
+
+            Alleluia, alleluia.
+
+            ℣. Mittat vobis Dominus auxulium de sancto: et de Sion tueatur vos.
+            Alleluia.
+
+            *Ps 133:3*
+
+            ℣. Benedicat vobis Dominus ex Sion: qui fecit caelum et terram.
+            Alleluia.
+      id: Graduale
+      label: Graduał
+    - body:
+        - - >-
+            *W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy*
+
+            *Ps 127:3*
+
+            Żona twoja jak płodny szczep winny w zaciszu twojego domu.
+
+            ℣. Synowie twoi jak pędy oliwne dokoła twojego stołu.
+
+            *Ps 127:4-6*
+
+            ℣. Takie błogosławieństwo dla męża, który boi się Pana.
+
+            ℣. Niechaj z Syjonu Pan cię błogosławi, byś widział pomyślność
+            Jeruzalem po wszystkie dni twego życia.
+
+            ℣. Abyś oglądał dzieci swoich synów: pokój nad Izraelem.
+          - >-
+            *Post Septuagesimam*
+
+            *Ps 127:3*
+
+            Uxor tua sicut vitis abundans in lateribus domus tuae.
+
+            ℣. Filii tui sicut novellae olivarum in circuitu mensae tuae.
+
+            *Ps 127:4-6*
+
+            ℣. Ecce sit benedicetur omnis homo, qui timet Dominum.
+
+            ℣. Benedicat tibi Dominus ex Sion: et videas bona Ierusalem omnibus
+            diebus vitae tuae.
+             ℣. Et videas filios fililiorum tuorum: pax super Israël.
+      id: Tractus
+      label: Graduał
+    - body:
+        - - >-
+            Ciąg dalszy ☩ Ewangelii świętej według Mateusza.
+
+            *Mt 19:3-6*
+
+            Onego czasu: Przystąpili do Jezusa faryzeusze, kusząc Go i mówiąc:
+            «Czy godzi się człowiekowi opuścić żonę swoją z jakiejkolwiek
+            przyczyny?» A On odpowiadając rzekł im: «Czyż nie czytaliście, że
+            Ten, który stworzył człowieka na początku, „mężczyznę i niewiastę
+            stworzył ich i rzekł: Dlatego opuści człowiek ojca i matkę i złączy
+            się z żoną swoją, i będą dwoje w jednym ciele. A tak już nie są
+            dwoje, ale jedno ciało”. Co tedy Bóg złączył, człowiek niech nie
+            rozłącza».
+          - >-
+            Sequéntia ☩ sancti Evangélii secúndum Matthǽum.
+
+            *Matt 19:3-6*
+
+            In illo témpore: Accessérunt ad Jesum pharisǽi, tentántes eum et
+            dicéntes: Si licet hómini dimíttere uxórem suam quacúmque ex causa?
+            Qui respóndens, ait eis: Non legístis, quia, qui fecit hóminem ab
+            inítio, másculum et féminam fecit eos? et dixit: Propter hoc
+            dimíttet homo patrem, et matrem, et adhærébit uxóri suæ, et erunt
+            duo in carne una. Itaque jam non sunt duo, sed una caro. Quod ergo
+            Deus conjúnxit, homo non séparet.
+      id: Evangelium
+      label: Ewangelia
+    - body:
+        - - >-
+            *Ps 30:15-16*
+
+            Tobie ufam, o Panie, mówię, Ty jesteś mym Bogiem, w Twoim ręku losy
+            moje. (O. W. Alleluja.)
+          - >-
+            *Ps 30:15-16*
+
+            In te speravi, Domine: dixi: Tu es Deus meus: in manibus tuis
+            tempora mea. (T. P. Alleluia.)
+      id: Offertorium
+      label: Antyfona na Ofiarowanie
+    - body:
+        - - >-
+            Prosimy Cię, Panie, przyjmij tę ofiarę złożoną z okazji zawarcia
+            świętego związku małżeńskiego i skoro powstał z Twej woli, racz nim
+            kierować.
+
+            Przez Pana…
+          - >-
+            Suscipe, quaesumus, Domine, pro sacra connubii lege munus oblatum:
+            et, cuius largitor es operis, esto dispositor.
+
+            Per Dominum…
+      id: Secreta
+      label: Sekreta
+    - body:
+        - - >-
+            Po *Pater noster* nowożeńcy wstępują na stopnie ołtarza i klękają.
+            Kapłan odmawia nad nimi następujące modlitwy:
+        - - >-
+            Przychyl się, Panie, ku naszym prośbom i wspieraj miłościwie
+            związek, który ustanowiłeś dla rozkrzewienia rodzaju ludzkiego, aby
+            za sprawą Twoją zawarty, trwał dzięki Twojej pomocy.
+
+            Przez Pana…
+          - >-
+            Propitiáre, Dómine, supplicatiónibus nostris, et institútis tuis,
+            quibus propagatiónem humáni géneris ordinásti, benígnus assíste: ut,
+            quod te auctóre iúngitur, te auxiliánte servétur.
+
+            Per Dominum…
+        - - >-
+            Boże, Ty mocą swojej potęgi stworzyłeś wszystko z niczego, Ty,
+            wprowadziwszy ład na początku wszechświata, człowiekowi, stworzonemu
+            na obraz Boży, jako nieodłączną pomoc dałeś niewiastę, kształtując
+            jej ciało z ciała mężczyzny, by nas pouczyć, że nigdy nie wolno
+            rozłączać tego, co postanowiłeś uczynić z jednego bytu.
+
+            Boże, Ty uświęciłeś związek małżeński przez tak podniosłą tajemnicę,
+            że stał się on obrazem mistycznego związku Chrystusa z Kościołem.
+
+            Boże, z Twojej woli niewiasta łączy się z mężem, a związek ten
+            ustanowiony na początku, otrzymuje tak szczególne błogosławieństwo,
+            iż go nie unicestwia ani kara za grzech pierworodny, ani wyrok
+            potopu.
+
+            Wejrzyj łaskawie na tę służebnicę swoją, która u progu życia
+            małżeńskiego błaga o Twoją opiekę i obronę.
+
+            Niech znajdzie w tym związku słodkie jarzmo miłości i pokoju. Niech
+            pełna wiary i czystości wchodzi w związek małżeński w Chrystusie i
+            niech trwa w naśladowaniu świętych niewiast. Niech będzie miła swemu
+            mężowi jak Rachel, mądra jak Rebeka, niech długo żyje i będzie
+            wierna jak Sara.
+
+            Niech sprawca przeniewierstwa nie przypisze sobie żadnego z jej
+            czynów.
+
+            Niech będzie wytrwała w wierze i pełnieniu przykazań. Z jednym mężem
+            złączona, niech unika niegodziwych znajomości. Niech umacnia swą
+            słabość siłą karności.
+
+            Niech skromność nadaje jej powagę, a wstydliwość budzi cześć, niech
+            będzie biegła w nauce objawionej. Niech się doczeka licznego
+            potomstwa. Wypróbowana w cnocie, niech żyje bez skazy, a kiedyś
+            niechaj osiągnie pokój Błogosławionych i królestwo niebios.
+
+            Oboje niech oglądają potomstwo swych dzieci aż do trzeciego i
+            czwartego pokolenia i doczekają się pogodnej starości.
+
+            Przez tegoż Pana…
+
+            ℟. Amen.
+          - >-
+            Deus, qui potestáte virtútis tuæ de níhilo cuncta fecísti: qui,
+            dispósitis universitátis exórdiis, hómini, ad imáginem Dei facto,
+            ídeo inseparábile mulíeris adiutórium condidísti, ut femíneo córpori
+            de viríli dares carne princípium, docens, quod ex uno placuísset
+            instítui, numquam licére disiúngi: Deus, qui tam excellénti mystério
+            coniugálem cópulam consecrásti, ut Christi et Ecclésiæ sacraméntum
+            præsignáres in fœdere nuptiárum: Deus, per quem múlier iúngitur
+            viro, et socíetas principáliter ordináta ea benedictióne donátur,
+            quæ sola nec per originális peccáti pœnam nec per dilúvii est ablata
+            senténtiam: Réspice propítius super hanc fámulam tuam, quæ, maritáli
+            iungénda consórtio, tua se éxpetit protectióne muníri:Sit in ea
+            iugum dilectiónis et pacis: fidélis et casta nubat in Christo,
+            imitatríxque sanctárum permáneat feminárum: sit amábilis viro suo,
+            ut Rachel: sápiens, ut Rebécca: longǽva et fidélis, ut Sara: Nihil
+            in ea ex áctibus suis ille auctor prævaricatiónis usúrpet: nexa
+            fídei mandatísque permáneat: uni thoro iuncta, contáctus illícitos
+            fúgiat: múniat infirmitátem suam róbore disciplínæ: Sit verecúndia
+            gravis, pudóre venerábilis, doctrínis cæléstibus erudíta: sit
+            fecúnda in súbole, sit probáta et ínnocens: et ad beatórum réquiem
+            atque ad cæléstia regna pervéniat: Et vídeant ambo fílios filiórum
+            suórum usque in tértiam et quartam generatiónem, et ad optátam
+            pervéniant senectútem.
+
+            Per eúndem  Dóminum…
+
+            ℟. Amen.
+        - - >-
+            Następnie nowożeńcy wracają na swoje miejsca. Kapłan zwraca się do
+            ołtarza i odprawia nadal Mszę świętą.
+      id: ''
+      label: Błogosławieństwo ślubne
+    - body:
+        - - >-
+            *Ps 127:4;6*
+
+            Takie błogosławieństwo dla męża, który boi się Pana. Abyś oglądał
+            dzieci twoich synów: pokój nad Izraelem. (O. W. Alleluja.)
+          - >-
+            *Ps 127:4;6*
+
+            Ecce, sic benedicetur omnis homo, qui timet Dominum: et videas
+            filios filiorum tuorum: pax super Israël. (T. P. Alleluia.)
+      id: Communio
+      label: Antyfona na Komunię
+    - body:
+        - - >-
+            Prosimy Cię, wszechmogący Boże, racz darzyć ojcowską opieką związek
+            przez Ciebie ustanowiony i przez długie lata strzeż w pokoju tych,
+            których złączyłeś w prawowitym małżeństwie.
+
+            Przez Pana…
+          - >-
+            Quaesumus, omnipotens Deus: instituta providentiae tuae pio favore
+            comitare; ut, quos legitima societate connectis, longaeva pace
+            custodias.
+
+            Per Dominum…
+        - - >-
+            Po *Ite missa est* nowożeńcy ponownie podchodzą do ołtarza, a kapłan
+            odmawia nad nimi następującą modlitwę:
+        - - >-
+            Bóg Abrahama, Izaaka i Jakuba niech będzie z wami, a
+            błogosławieństwo Jego niech to sprawi, abyście oglądali potomstwo
+            dzieci waszych aż do trzeciego i czwartego pokolenia, a w końcu
+            osiągnęli życie wieczne bez kresu: z pomocą Pana naszego Jezusa
+            Chrystusa, który z Ojcem i Duchem Świętym żyje i króluje, Bóg, na
+            wieki wieków.
+
+            ℟. Amen.
+          - >-
+            Deus Abraham, Deus Isaac, et Deus Iacob sit vobíscum: et ipse
+            adímpleat benedictiónem suam in vobis: ut videátis fílios filiórum
+            vestrórum usque ad tértiam et quartam generatiónem, et póstea vitam
+            ætérnam habeátis sine fine: adiuvánte Dómino nostro Iesu Christo,
+            qui cum Patre et Spíritu Sancto vivit et regnat, Deus, per ómnia
+            sǽcula sæculórum.
+
+            ℟. Amen.
+        - - 'Kapłan kropi nowożeńców wodą święconą, po czym kończy Mszę świętą.'
+      id: Postcommunio
+      label: Pokomunia
+    - body:
+        - - >-
+            Ojciec św. Jan XXIII udzielił odpustu 300 dni małżonkom, którzy w
+            dniu ślubu ucałują obrączkę ślubną żony i odmówią wspólnie modlitwę:
+        - - >-
+            *Daj nam, Panie, abyśmy miłując Ciebie kochali się wzajemnie i żyli
+            według Twojego świętego prawa.*
+      id: ''
+      label: Odpust dla nowożeńców

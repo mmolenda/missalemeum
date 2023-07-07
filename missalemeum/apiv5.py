@@ -1,5 +1,4 @@
 import datetime
-import json
 import os
 from functools import wraps
 
@@ -8,6 +7,7 @@ import sys
 
 import logging
 
+import yaml
 from flask import jsonify, Blueprint
 
 import __version__
@@ -68,8 +68,8 @@ def v5_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
 @api.route('/<string:lang>/api/v5/ordo')
 @validate_locale
 def v5_ordo(lang: str = LANGUAGE_ENGLISH):
-    with open(os.path.join(ORDO_DIR, lang, 'ordo.json')) as fh:
-        content = json.load(fh)
+    with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
+        content = yaml.full_load(fh)
         return jsonify(content)
 
 
