@@ -1,13 +1,28 @@
-title: Chrystus zmartwychwstał jest
-tags:
+info:
+  tags:
   - Wielkanoc
-body: |
-  CHRYSTUS ZMARTWYCHWSTAŁ JEST, \* Nam na przykład dan jest, \* Iż mamy zmartwychpowstać, \* Z Panem Bogiem królować. \* Alleluja.   
-  2\. Leżał trzy dni w grobie, \* Dał bok przebić sobie, \* Bok, ręce, nogi obie, \* Na zbawienie tobie. \* Alleluja!   
-  3\. Trzy Maryje poszły, \* Drogie maści niosły, \* Chciały Chrysta pomazać, \* Jemu cześć i chwałę dać. Alleluja!   
-  4\. Gdy na drodze były, \* Tak sobie mówiły: \* Jest tam kamień niemały, \* A któż nam go odwali? \* Alleluja! .   
-  5\. Powiedz nam Maryja, \* Gdzieś Pana widziała? \* Widziałam Go po męce, \* Trzymał chorągiew w ręce. \* Alleluja!   
-  6\. Gdy nad grobem stały, \* Rzekł im anioł biały: Nie bójcie, się Maryje, \* Zmartwychwstał Pan i żyje! Alleluja!   
-  7\. Jezusa szukacie? \* Tu Go nie znajdziecie, \* Wstał ci z martwych, grób pusty. \* Oto złożone chusty. Alleluja!   
-  8\. Łukasz z Leofasem, \* Obaj jednym czasem \* Szli do miasteczka Emaus, \* Spotkał ci ich Pan Jezus... Alleluja!   
-  9\. Bądźmy więc weseli \* Jak w niebie anieli, \* Czegośmy pożądali, \* Tegośmy doczekali, Alleluja!   
+  title: Chrystus zmartwychwstał jest
+
+sections:
+- body:
+  -
+    - |
+        CHRYSTUS ZMARTWYCHWSTAŁ JEST, \* Nam na przykład dan jest, \* Iż mamy zmartwychpowstać, \* Z Panem Bogiem królować. \* Alleluja.   
+
+        2\. Leżał trzy dni w grobie, \* Dał bok przebić sobie, \* Bok, ręce, nogi obie, \* Na zbawienie tobie. \* Alleluja!   
+
+        3\. Trzy Maryje poszły, \* Drogie maści niosły, \* Chciały Chrysta pomazać, \* Jemu cześć i chwałę dać. Alleluja!   
+
+        4\. Gdy na drodze były, \* Tak sobie mówiły: \* Jest tam kamień niemały, \* A któż nam go odwali? \* Alleluja! .   
+
+        5\. Powiedz nam Maryja, \* Gdzieś Pana widziała? \* Widziałam Go po męce, \* Trzymał chorągiew w ręce. \* Alleluja!   
+
+        6\. Gdy nad grobem stały, \* Rzekł im anioł biały: Nie bójcie, się Maryje, \* Zmartwychwstał Pan i żyje! Alleluja!   
+
+        7\. Jezusa szukacie? \* Tu Go nie znajdziecie, \* Wstał ci z martwych, grób pusty. \* Oto złożone chusty. Alleluja!   
+
+        8\. Łukasz z Leofasem, \* Obaj jednym czasem \* Szli do miasteczka Emaus, \* Spotkał ci ich Pan Jezus... Alleluja!   
+
+        9\. Bądźmy więc weseli \* Jak w niebie anieli, \* Czegośmy pożądali, \* Tegośmy doczekali, Alleluja!
+  id: ''
+  label: ''

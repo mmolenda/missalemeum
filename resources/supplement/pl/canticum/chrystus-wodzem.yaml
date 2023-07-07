@@ -1,7 +1,16 @@
-title: Chrystus Wodzem
-tags:
+info:
+  tags:
   - Ku czci NSPJ
-body: |
-  CHRYSTUS WODZEM, Chrystus Królem, \* Chrystus, Chrystus, Władcą nam!   
-  1\. Boga naszego chwalcie wszystkie ziemie, \* Daj Mu cześć winną całe ludzkie plemię, \* Bo litość Jego nad nami stwierdzona, \* A prawda Pańska wiecznie uiszczona. Chrystus...   
-  2\. Chwała bądź Bogu w Trójcy Jedynemu, \* Ojcu, Synowi, Duchowi Świętemu. \* Jak od początku była tak i ninie \* I na wiek wieków niechaj zawsze słynie. Chrystus...   
+  title: Chrystus Wodzem
+
+sections:
+- body:
+  -
+    - |
+        CHRYSTUS WODZEM, Chrystus Królem, \* Chrystus, Chrystus, Władcą nam!   
+
+        1\. Boga naszego chwalcie wszystkie ziemie, \* Daj Mu cześć winną całe ludzkie plemię, \* Bo litość Jego nad nami stwierdzona, \* A prawda Pańska wiecznie uiszczona. Chrystus...   
+
+        2\. Chwała bądź Bogu w Trójcy Jedynemu, \* Ojcu, Synowi, Duchowi Świętemu. \* Jak od początku była tak i ninie \* I na wiek wieków niechaj zawsze słynie. Chrystus...
+  id: ''
+  label: ''

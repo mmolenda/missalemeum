@@ -1,7 +1,16 @@
-title: O Krwi najdroższa
-tags:
+info:
+  tags:
   - Wielki Post
-body: |
-  O KRWI NAJDROŻSZA, o Krwi odkupienia, \* Napoju życia, z nieba dla nas dany! \* O zdroju łaski, o ceno zbawienia, \* Ty grzechowe leczysz rany!   
-  2\. Tyś w Jezusowym kielichu zamknięta, \* Abyś nas wszystkich życiem napawała, \* Abyś dla świata. Krwi Boska prześwięta, \* Miłosierdzie wybłagała!   
-  3\. O Krwi najdroższa, przez serce przeczyste, \* Gdzie Twoje źródło miałaś na tej ziemi, \* Cześć Tobie niesiem, dzięki wiekuiste, \* Z aniołami, ze świętymi.   
+  title: O Krwi najdroższa
+
+sections:
+- body:
+  -
+    - |
+        O KRWI NAJDROŻSZA, o Krwi odkupienia, \* Napoju życia, z nieba dla nas dany! \* O zdroju łaski, o ceno zbawienia, \* Ty grzechowe leczysz rany!   
+
+        2\. Tyś w Jezusowym kielichu zamknięta, \* Abyś nas wszystkich życiem napawała, \* Abyś dla świata. Krwi Boska prześwięta, \* Miłosierdzie wybłagała!   
+
+        3\. O Krwi najdroższa, przez serce przeczyste, \* Gdzie Twoje źródło miałaś na tej ziemi, \* Cześć Tobie niesiem, dzięki wiekuiste, \* Z aniołami, ze świętymi.   
+  id: ''
+  label: ''

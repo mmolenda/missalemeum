@@ -9,7 +9,7 @@ from constants.common import LANGUAGES
 
 
 def test_api_calendar(client):
-    with open(os.path.join(HERE, 'fixtures/api_calendar_v5_2023.json')) as fh:
+    with open(os.path.join(HERE, 'fixtures/api_calendar_2023.json')) as fh:
         expected = json.load(fh)
     resp = client.get('/pl/api/v5/calendar/2023').json
     for i, item in enumerate(resp):

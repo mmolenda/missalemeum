@@ -1,5 +1,12 @@
-title: Chwała i dziękczynienie
-tags:
+info:
+  tags:
   - Eucharystyczne
-body: |
-  CHWAŁA I DZIĘKCZYNIENIE, bądź w każdym momencie, Jezusowi w Najświętszym Boskim Sakramencie. \* Ile minut w godzinie, a godzin wieczności: Tylekroć bądź pochwalon, Jezu, ma miłości.   
+  title: Chwała i dziękczynienie
+
+sections:
+- body:
+  -
+    - |
+        CHWAŁA I DZIĘKCZYNIENIE, bądź w każdym momencie, Jezusowi w Najświętszym Boskim Sakramencie. \* Ile minut w godzinie, a godzin wieczności: Tylekroć bądź pochwalon, Jezu, ma miłości.   
+  id: ''
+  label: ''

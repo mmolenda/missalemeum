@@ -1,5 +1,4 @@
 import datetime
-import json
 import os
 from functools import wraps
 
@@ -8,6 +7,7 @@ import sys
 
 import logging
 
+import yaml
 from flask import jsonify, Blueprint
 
 import __version__
@@ -16,7 +16,7 @@ from constants import TRANSLATION
 from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
 from exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
 from kalendar.models import Day, Calendar
-from utils import get_pregenerated_proper, format_propers_v5, get_supplement_v5, supplement_index_v5 as supplement_index
+from utils import get_pregenerated_proper, format_propers, get_supplement, supplement_index
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -49,7 +49,7 @@ def v5_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
             if pregenerated_proper is not None:
                 return jsonify(pregenerated_proper)
             proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-            return jsonify(format_propers_v5([[proper_vernacular, proper_latin]]))
+            return jsonify(format_propers([[proper_vernacular, proper_latin]]))
         except InvalidInput as e:
             return jsonify({'error': str(e)}), 400
         except ProperNotFound as e:
@@ -62,20 +62,20 @@ def v5_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
         pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id())
         if pregenerated_proper:
             return jsonify(pregenerated_proper)
-        return jsonify(format_propers_v5(day.get_proper(), day))
+        return jsonify(format_propers(day.get_proper(), day))
 
 
 @api.route('/<string:lang>/api/v5/ordo')
 @validate_locale
 def v5_ordo(lang: str = LANGUAGE_ENGLISH):
-    with open(os.path.join(ORDO_DIR, lang, 'ordo_v5.json')) as fh:
-        content = json.load(fh)
+    with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
+        content = yaml.full_load(fh)
         return jsonify(content)
 
 
 def supplement_response(lang, id_, subdir):
     try:
-        supplement_yaml = get_supplement_v5(lang, id_, subdir)
+        supplement_yaml = get_supplement(lang, id_, subdir)
     except SupplementNotFound:
         return jsonify({'error': "Not found"}), 404
     else:

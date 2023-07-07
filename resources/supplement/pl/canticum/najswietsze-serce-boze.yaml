@@ -1,5 +1,12 @@
-title: Najświętsze Serce Boże
-tags:
+info:
+  tags:
   - Ku czci NSPJ
-body: |
-  NAJŚWIĘTSZE SERCE BOŻE, poświęcamy Ci, \* Naszą Ojczyznę, miasta i wioski, \* Nasze rodziny i nas samych. \* Serce Boże, przyjdź Królestwo Twoje.   
+  title: Najświętsze Serce Boże
+
+sections:
+- body:
+  -
+    - |
+        NAJŚWIĘTSZE SERCE BOŻE, poświęcamy Ci, \* Naszą Ojczyznę, miasta i wioski, \* Nasze rodziny i nas samych. \* Serce Boże, przyjdź Królestwo Twoje.   
+  id: ''
+  label: ''

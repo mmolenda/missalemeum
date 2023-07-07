@@ -1,8 +1,18 @@
-title: Będę Cię wielbił
-tags:
+info:
+  tags:
   - Przygodne
-body: |
-  BĘDĘ CIĘ WIELBIŁ, mój Panie, \* Póki mnie na świecie stanie, \* Boś mnie w przygodzie ratował \* I śmiechów ludzkich uchował.   
-  2\. Panie, wołałem ku Tobie, \* A Tyś mnie wsparł w mej chorobie; \* Dodałeś mi swej pomocy, \* Żem wiecznej nie ujrzał nocy.   
-  3\. Użyłeś zwykłej litości, \* Płacz obróciłeś w radości; \* Wór ze mnie zdjąłeś żałobny, \* A płaszcz włożyłeś ozdobny.   
-  4\. Przeto Cię wesoła wszędzie \* Lutnia ma uwielbiać będzie. \* Twa chwała, o wieczny Panie, \* W mych ustach już nie ustanie.   
+  title: Będę Cię wielbił
+
+sections:
+- body:
+  -
+    - |
+        BĘDĘ CIĘ WIELBIŁ, mój Panie, \* Póki mnie na świecie stanie, \* Boś mnie w przygodzie ratował \* I śmiechów ludzkich uchował.   
+
+        2\. Panie, wołałem ku Tobie, \* A Tyś mnie wsparł w mej chorobie; \* Dodałeś mi swej pomocy, \* Żem wiecznej nie ujrzał nocy.   
+
+        3\. Użyłeś zwykłej litości, \* Płacz obróciłeś w radości; \* Wór ze mnie zdjąłeś żałobny, \* A płaszcz włożyłeś ozdobny.   
+
+        4\. Przeto Cię wesoła wszędzie \* Lutnia ma uwielbiać będzie. \* Twa chwała, o wieczny Panie, \* W mych ustach już nie ustanie.
+  id: ''
+  label: ''

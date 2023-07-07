@@ -1,12 +1,26 @@
-title: Ogrodzie oliwny
-tags:
+info:
+  tags:
   - Wielki Post
-body: |
-  OGRODZIE OLIWNY, widok w tobie dziwny! \* Widzę Pana mego na twarz upadłego. \* Tęskność, smutek, strach Go ściska, \* Krwawy pot z Niego wyciska. \* Ach, Jezu mdlejący, prawieś konający!   
-  2\. Kielich gorzkiej męki z Ojca Twego ręki \* Ochotnie przyjmujesz, za nas ofiarujesz; \* Anioł Ci się z nieba zjawia, \* O męce z Tobą rozmawia. \* Ach, Jezu strwożony, przed męką zmęczony!   
-  3\. Uczniowie posnęli, Ciebie zapomnieli, \* Judasz zbrojne roty stawia przede wroty. \* I wnet do Ogrojca wpada \* Z wodzem swym zbirów gromada. \* Ach, Jezusa truje zdrajca, gdy całuje!   
-  4\. Chociaż ze swym ludem obalony cudem, \* Judasz z ziemi wstaje, Jezusa wydaje. \* Dopiero się nań rzucają, \* Więzy, łańcuchy wkładają. \* Ach, Jezu pojmany, za złoczyńcę miany!   
-  5\. W domu Annaszowym, arcykapłanowym \* W twarz pięścią trącony, upada zemdlony! \* Kaifasz Go w zdradzie pyta, \* A za bluźniercę poczyta. \* Ach, Jezu zelżony, od czci odsądzony!   
-  6\. Wnet, jak niegodnego prawa ojczystego \* Wiodą Marii Syna przed sąd poganina; \* Tam Nań potwarze rzucają, \* O stracenie nalegają. \* Ach, Jezu zhańbiony, jak łotr obwiniony!   
-  7\. Piłat bojaźliwy i niesprawiedliwy \* Żydom ustępuje, Jezusa skazuje \* Najpierw na ubiczowanie, \* Potem na ukrzyżowanie. \* Ach, Jezu wzgardzony, na śmierć zasądzony!   
-  8\. Nie wyrok Piłata skazał zbawcę świata \* Na śmierć tak hańbiącą, upokarzającą. \* Grzechy moje to sprawiły, \* Że do krzyża Go przybiły. \* Ach, Jezu, ma wina Męki Twej przyczyna!   
+  title: Ogrodzie oliwny
+
+sections:
+- body:
+  -
+    - |
+        OGRODZIE OLIWNY, widok w tobie dziwny! \* Widzę Pana mego na twarz upadłego. \* Tęskność, smutek, strach Go ściska, \* Krwawy pot z Niego wyciska. \* Ach, Jezu mdlejący, prawieś konający!   
+
+        2\. Kielich gorzkiej męki z Ojca Twego ręki \* Ochotnie przyjmujesz, za nas ofiarujesz; \* Anioł Ci się z nieba zjawia, \* O męce z Tobą rozmawia. \* Ach, Jezu strwożony, przed męką zmęczony!   
+
+        3\. Uczniowie posnęli, Ciebie zapomnieli, \* Judasz zbrojne roty stawia przede wroty. \* I wnet do Ogrojca wpada \* Z wodzem swym zbirów gromada. \* Ach, Jezusa truje zdrajca, gdy całuje!   
+
+        4\. Chociaż ze swym ludem obalony cudem, \* Judasz z ziemi wstaje, Jezusa wydaje. \* Dopiero się nań rzucają, \* Więzy, łańcuchy wkładają. \* Ach, Jezu pojmany, za złoczyńcę miany!   
+
+        5\. W domu Annaszowym, arcykapłanowym \* W twarz pięścią trącony, upada zemdlony! \* Kaifasz Go w zdradzie pyta, \* A za bluźniercę poczyta. \* Ach, Jezu zelżony, od czci odsądzony!   
+
+        6\. Wnet, jak niegodnego prawa ojczystego \* Wiodą Marii Syna przed sąd poganina; \* Tam Nań potwarze rzucają, \* O stracenie nalegają. \* Ach, Jezu zhańbiony, jak łotr obwiniony!   
+
+        7\. Piłat bojaźliwy i niesprawiedliwy \* Żydom ustępuje, Jezusa skazuje \* Najpierw na ubiczowanie, \* Potem na ukrzyżowanie. \* Ach, Jezu wzgardzony, na śmierć zasądzony!   
+
+        8\. Nie wyrok Piłata skazał zbawcę świata \* Na śmierć tak hańbiącą, upokarzającą. \* Grzechy moje to sprawiły, \* Że do krzyża Go przybiły. \* Ach, Jezu, ma wina Męki Twej przyczyna!
+  id: ''
+  label: ''

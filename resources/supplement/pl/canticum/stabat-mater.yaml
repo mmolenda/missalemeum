@@ -1,25 +1,51 @@
-title: Stabat Mater
-tags:
+info:
+  tags:
   - Maryja
   - Łacińskie
-body: |
-  STABAT MATER dolorosa \* Iuxta crucem lacrimosa, \* Dum pendebat Filius.   
-  2\. Cuius animam gementem, \* Contristatam et dolentem \* Pertransivit gladius.   
-  3\. O quam tristis et afflicta \* Fuit illa benedicta \* Mater unigeniti!   
-  4\. Quas maerebat et dolebat, \* Pia Mater, dum videbat \* Nati poenas inclyti.   
-  5\. Quis est homo qui non fleret, \* Matrem Christi si videret \* In tanto supplicio?   
-  6\. Quis non posset contristari, \* Christi Matrem contemplari \* Dolentem cum Filio?   
-  7\. Pro peccatis suae gentis, \* Vidit Iesum in tormentis, \* Et flagellis subditum.   
-  8\. Vidit suum dulcem natum \* Moriendo desolatum, \* Dum emisit spiritum.   
-  9\. Eia Mater, fons amoris, \* Me sentire vim doloris \* Fac, ut tecum lugeam.   
-  10\. Fac ut ardeat cor meum \* In amando Christum Deum, \* Ut sibi complaceam.   
-  11\. Sancta Mater, istud agas, \* Crucifixi fige plagas \* Cordi meo valide.   
-  12\. Tui nati vulnerati, \* Tam dignati pro me pati, \* Pcenas mecum divide.   
-  13\. Fac me tecum pie flere, \* Crucifixo condolere, \* Donec ego vixero.   
-  14\. Iuxta crucem tecum stare, \* Et me tibi sociare \* In planetu desidero.   
-  15\. Virgo virginum praeclara, \* Mihi iam non sis amara: \* Fac me tecum plangere.   
-  16\. Fac ut portem Christi mortem, \* Passionis fac consortem, \* Et plagas recolere.   
-  17\. Fac me plagis vulnerari, \* Fac me cruce inebriari, \* Et cruore Filii.   
-  18\. Flammis ne urar succensus, \* Per te, Virgo, sim defensus \* In die iudicii.   
-  19\. Christe, cum sit hinc exire, \* Da per Matrem me venire \* Ad palmam yictoriae.   
-  20\. Quando corpus morietur, \* Fac ut animae donetur \* Paradisi gloria. Amen.   
+  title: Stabat Mater
+
+sections:
+- body:
+  -
+    - |
+        STABAT MATER dolorosa \* Iuxta crucem lacrimosa, \* Dum pendebat Filius.   
+
+        2\. Cuius animam gementem, \* Contristatam et dolentem \* Pertransivit gladius.   
+
+        3\. O quam tristis et afflicta \* Fuit illa benedicta \* Mater unigeniti!   
+
+        4\. Quas maerebat et dolebat, \* Pia Mater, dum videbat \* Nati poenas inclyti.   
+
+        5\. Quis est homo qui non fleret, \* Matrem Christi si videret \* In tanto supplicio?   
+
+        6\. Quis non posset contristari, \* Christi Matrem contemplari \* Dolentem cum Filio?   
+
+        7\. Pro peccatis suae gentis, \* Vidit Iesum in tormentis, \* Et flagellis subditum.   
+
+        8\. Vidit suum dulcem natum \* Moriendo desolatum, \* Dum emisit spiritum.   
+
+        9\. Eia Mater, fons amoris, \* Me sentire vim doloris \* Fac, ut tecum lugeam.   
+
+        10\. Fac ut ardeat cor meum \* In amando Christum Deum, \* Ut sibi complaceam.   
+
+        11\. Sancta Mater, istud agas, \* Crucifixi fige plagas \* Cordi meo valide.   
+
+        12\. Tui nati vulnerati, \* Tam dignati pro me pati, \* Pcenas mecum divide.   
+
+        13\. Fac me tecum pie flere, \* Crucifixo condolere, \* Donec ego vixero.   
+
+        14\. Iuxta crucem tecum stare, \* Et me tibi sociare \* In planetu desidero.   
+
+        15\. Virgo virginum praeclara, \* Mihi iam non sis amara: \* Fac me tecum plangere.   
+
+        16\. Fac ut portem Christi mortem, \* Passionis fac consortem, \* Et plagas recolere.   
+
+        17\. Fac me plagis vulnerari, \* Fac me cruce inebriari, \* Et cruore Filii.   
+
+        18\. Flammis ne urar succensus, \* Per te, Virgo, sim defensus \* In die iudicii.   
+
+        19\. Christe, cum sit hinc exire, \* Da per Matrem me venire \* Ad palmam yictoriae.   
+
+        20\. Quando corpus morietur, \* Fac ut animae donetur \* Paradisi gloria. Amen.
+  id: ''
+  label: ''

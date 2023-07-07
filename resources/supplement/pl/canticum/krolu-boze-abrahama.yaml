@@ -1,10 +1,22 @@
-title: Królu Boże Abrahama
-tags:
+info:
+  tags:
   - Suplikacje
-body: |
-  KRÓLU, BOŻE ABRAHAMA, \* Tyś jest moc i dobroć sama!   
-  2\. Wejrzyj na to ludzkie plemię, \* A pogodę (deszcz żyzny, urodzaj) daj na ziemię,   
-  3\. Niechaj zna lud prawowierny, \* Żeś jest Pan Bóg miłosierny,   
-  4\. A my Cię za ten dar wielki \* Wielbić będziem na czas wszelki.   
-  5\. Zlitujże się nad strapionym, \* Drogą Krwią Twą odkupionym;   
-  6\. Zlitujże się, zlituj, Panie! \* Niech się łaska Twoja stanie.   
+  title: Królu Boże Abrahama
+
+sections:
+- body:
+  -
+    - |
+        KRÓLU, BOŻE ABRAHAMA, \* Tyś jest moc i dobroć sama!   
+
+        2\. Wejrzyj na to ludzkie plemię, \* A pogodę (deszcz żyzny, urodzaj) daj na ziemię,   
+
+        3\. Niechaj zna lud prawowierny, \* Żeś jest Pan Bóg miłosierny,   
+
+        4\. A my Cię za ten dar wielki \* Wielbić będziem na czas wszelki.   
+
+        5\. Zlitujże się nad strapionym, \* Drogą Krwią Twą odkupionym;   
+
+        6\. Zlitujże się, zlituj, Panie! \* Niech się łaska Twoja stanie.
+  id: ''
+  label: ''

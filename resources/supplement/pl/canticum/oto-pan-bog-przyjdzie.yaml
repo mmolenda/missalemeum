@@ -1,5 +1,12 @@
-title: Oto Pan Bóg przyjdzie
-tags:
+info:
+  tags:
   - Adwent
-body: |
-  OTO PAN BÓG PRZYJDZIE, \* z rzeszą Świętych nam przybędzie; \* Wielka światłość w dzień ów będzie. \* Alleluja, alleluja.   
+  title: Oto Pan Bóg przyjdzie
+
+sections:
+- body:
+  -
+    - |
+        OTO PAN BÓG PRZYJDZIE, \* z rzeszą Świętych nam przybędzie; \* Wielka światłość w dzień ów będzie. \* Alleluja, alleluja.   
+  id: ''
+  label: ''

@@ -1,9 +1,20 @@
-title: Z Narodzenia Pana
-tags:
+info:
+  tags:
   - Boże Narodzenie
-body: |
-  Z NARODZENIA PANA dzień dziś wesoły. \* Wyśpiewują chwałę Bogu żywioły. \* Radość ludzi wszędzie słynie. \* Anioł budzi przy dolinie \* Pasterzów, co paśli pod borem woły.   
-  2\. Wypada wśród nocy ogień z obłoku, \* Dumają pasterze w takim widoku. \* Każdy pyta: „Co się dzieje? \* Czy nie świta? Czy nie dnieje? \* Skąd ta łuna bije, tak miła oku!"   
-  3\. Ale gdy anielskie głosy słyszeli, \* Zaraz do Betlejem prosto bieżeli. \* Tam witali w żłobie Pana, \* Poklękali na kolana \* I oddali dary, co z sobą wzięli.   
-  4\. Odchodzą z Betlejem pełni wesela, \* Że już Bóg wysłuchał próśb Izraela, \* Gdy tej nocy to widzieli, \* Co Prorocy widzieć chcieli, \* W ciele ludzkim Boga i Zbawiciela.   
-  5\. I my z pastuszkami dziś się radujmy, \* Chwałę z Aniołami wraz wyśpiewujmy, \* Bo ten Jezus, z nieba dany, \* Weźmie nas między niebiany, \* Tylko Go z całego serca miłujmy!   
+  title: Z Narodzenia Pana
+
+sections:
+- body:
+  -
+    - |
+        Z NARODZENIA PANA dzień dziś wesoły. \* Wyśpiewują chwałę Bogu żywioły. \* Radość ludzi wszędzie słynie. \* Anioł budzi przy dolinie \* Pasterzów, co paśli pod borem woły.   
+
+        2\. Wypada wśród nocy ogień z obłoku, \* Dumają pasterze w takim widoku. \* Każdy pyta: „Co się dzieje? \* Czy nie świta? Czy nie dnieje? \* Skąd ta łuna bije, tak miła oku!"   
+
+        3\. Ale gdy anielskie głosy słyszeli, \* Zaraz do Betlejem prosto bieżeli. \* Tam witali w żłobie Pana, \* Poklękali na kolana \* I oddali dary, co z sobą wzięli.   
+
+        4\. Odchodzą z Betlejem pełni wesela, \* Że już Bóg wysłuchał próśb Izraela, \* Gdy tej nocy to widzieli, \* Co Prorocy widzieć chcieli, \* W ciele ludzkim Boga i Zbawiciela.   
+
+        5\. I my z pastuszkami dziś się radujmy, \* Chwałę z Aniołami wraz wyśpiewujmy, \* Bo ten Jezus, z nieba dany, \* Weźmie nas między niebiany, \* Tylko Go z całego serca miłujmy!
+  id: ''
+  label: ''

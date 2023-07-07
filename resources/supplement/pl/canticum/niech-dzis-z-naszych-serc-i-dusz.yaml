@@ -1,8 +1,18 @@
-title: Niech dziś z naszych serc i dusz
-tags:
+info:
+  tags:
   - Ku czci NSPJ
-body: |
-  NIECH DZIŚ Z NASZYCH SERC I DUSZ \* Wzniesie się do wiecznych wzgórz, \* Przed Jezusa Serca tron, \* Naszych pień potężny ton: Jezu, chcemy, choć przebojem, wiecznie stać przy Sercu Twoim!   
-  2\. Choć uderza na nas wróg, \* Naszą tarczą wiara, Bóg! \* Z walk nas wyrwie, leczy z ran \* Najłaskawszy Jezus, Pan. Jezu, chcemy...   
-  3\. Co za wielki, Boży cud: \* Jezus swój ukochał lud! \* Dziś nam daje, Serce swe, \* Chce ukoić ból i łzę. Jezu, chcemy...   
-  4\. Więc wśród życia walk i burz \* Do Jezusa śpieszmy już! \* On do Serca swego nas \* Przyjmie chętnie w każdy czas. Jezu, chcemy...   
+  title: Niech dziś z naszych serc i dusz
+
+sections:
+- body:
+  -
+    - |
+        NIECH DZIŚ Z NASZYCH SERC I DUSZ \* Wzniesie się do wiecznych wzgórz, \* Przed Jezusa Serca tron, \* Naszych pień potężny ton: Jezu, chcemy, choć przebojem, wiecznie stać przy Sercu Twoim!   
+
+        2\. Choć uderza na nas wróg, \* Naszą tarczą wiara, Bóg! \* Z walk nas wyrwie, leczy z ran \* Najłaskawszy Jezus, Pan. Jezu, chcemy...   
+
+        3\. Co za wielki, Boży cud: \* Jezus swój ukochał lud! \* Dziś nam daje, Serce swe, \* Chce ukoić ból i łzę. Jezu, chcemy...   
+
+        4\. Więc wśród życia walk i burz \* Do Jezusa śpieszmy już! \* On do Serca swego nas \* Przyjmie chętnie w każdy czas. Jezu, chcemy...
+  id: ''
+  label: ''

@@ -1,10 +1,21 @@
-title: Rorate caeli
-tags:
+info:
+  tags:
   - Adwent
   - Łacińskie
-body: |
-  RORATE CAELI desuper, et nubes pluant iustum.   
-  2\. Ne irascaris Domine, ne ultra memineris iniquitatis; \* ecce civitas Sancti facta est deserta, Sion deserta facta est; \* Ierusalem desolata est; \* Domus sanctificationis tuae et gloriae tuas, \* ubi laudaverunt te patres nostri. Rorate...   
-  3\. Peccavimus, et facti sumus tamquam immundus nos, et cecidimus \* quasi folium universi; \* et iniquitates nostrae quasi ventus abstulerunt nos; \* abscondisti faciem tuam a nobis, \* et allisisti nos in manu iniquitatis nostrae. Rorate...   
-  4\. Vide Domine afflictionem populi tui, \* et mitte quem missurus es; \* emitte Agnum dominatorem terrae, \* de Petra deserti ad montem filiae Sion; \* ut auferat ipse iugum captivitatis nostrae. Rorate...   
-  5\. Consolamini, consolamini, popule meus; \* cito veniet salus tua; \* quare maerore consumeris, quia innovavit te dolor? \* Salvabo te, noli timere, \* ego enim sum Dominus Deus tuus, Sanctus Israel, Redemptor tuus. Rorate...   
+  title: Rorate caeli
+
+sections:
+- body:
+  -
+    - |
+        RORATE CAELI desuper, et nubes pluant iustum.   
+
+        2\. Ne irascaris Domine, ne ultra memineris iniquitatis; \* ecce civitas Sancti facta est deserta, Sion deserta facta est; \* Ierusalem desolata est; \* Domus sanctificationis tuae et gloriae tuas, \* ubi laudaverunt te patres nostri. Rorate...   
+
+        3\. Peccavimus, et facti sumus tamquam immundus nos, et cecidimus \* quasi folium universi; \* et iniquitates nostrae quasi ventus abstulerunt nos; \* abscondisti faciem tuam a nobis, \* et allisisti nos in manu iniquitatis nostrae. Rorate...   
+
+        4\. Vide Domine afflictionem populi tui, \* et mitte quem missurus es; \* emitte Agnum dominatorem terrae, \* de Petra deserti ad montem filiae Sion; \* ut auferat ipse iugum captivitatis nostrae. Rorate...   
+
+        5\. Consolamini, consolamini, popule meus; \* cito veniet salus tua; \* quare maerore consumeris, quia innovavit te dolor? \* Salvabo te, noli timere, \* ego enim sum Dominus Deus tuus, Sanctus Israel, Redemptor tuus. Rorate...   
+  id: ''
+  label: ''
