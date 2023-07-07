@@ -34,7 +34,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
                               PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
-                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, LANGUAGES)
+                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI)
 from kalendar.models import Calendar, Observance
 from utils import match
 
@@ -218,7 +218,7 @@ def rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated(
     if third_class_local_sancti:
         third_class_sancti = [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3) and not match(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
         if third_class_sancti:
-            return third_class_local_sancti, third_class_sancti, []
+            return [i for i in observances if match(i.id, PATTERN_SANCTI_CLASS_3)], third_class_sancti, []
 
 
 def rule_4th_class_feria_are_removed_from_celebration(
