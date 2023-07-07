@@ -1,8 +1,17 @@
-title: Boże, coś Polskę
-tags:
+info:
+  tags:
   - Hymny
   - Polska
-body: |
-  BOŻE, COŚ POLSKĘ przez tak liczne wieki \* Otaczał blaskiem potęgi i chwały, \* Coś ją otaczał tarczą swej opieki \* Od nieszczęść, które przygnębić ją miały. Przed Twe ołtarze zanosim błaganie: \* Ojczyznę wolną racz nam wrócić (pobłogosław), Panie.   
-  2\. Ty, któryś potem tknięty jej upadkiem \* Wspierał walczących za najświętszą sprawę \* I chcąc świat cały mieć jej męstwa świadkiem, \* W nieszczęściach samych pomnażał jej sławę. Przed Twe ołtarze...   
-  3\. Powstała z grobu na Twe władne słowo \* Polska, wolności narodów chorąży, \* Pierzchnęły straże, a ponad jej głową \* Znowu swobodnie Orzeł Biały krąży! Przed Twe ołtarze...   
+  title: Boże, coś Polskę
+
+sections:
+- body:
+  -
+    - |
+        BOŻE, COŚ POLSKĘ przez tak liczne wieki \* Otaczał blaskiem potęgi i chwały, \* Coś ją otaczał tarczą swej opieki \* Od nieszczęść, które przygnębić ją miały. Przed Twe ołtarze zanosim błaganie: \* Ojczyznę wolną racz nam wrócić (pobłogosław), Panie.   
+
+        2\. Ty, któryś potem tknięty jej upadkiem \* Wspierał walczących za najświętszą sprawę \* I chcąc świat cały mieć jej męstwa świadkiem, \* W nieszczęściach samych pomnażał jej sławę. Przed Twe ołtarze...   
+
+        3\. Powstała z grobu na Twe władne słowo \* Polska, wolności narodów chorąży, \* Pierzchnęły straże, a ponad jej głową \* Znowu swobodnie Orzeł Biały krąży! Przed Twe ołtarze...
+  id: ''
+  label: ''

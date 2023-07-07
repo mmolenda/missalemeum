@@ -10,7 +10,7 @@ import yaml
 
 from constants import TRANSLATION
 from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
-    SANCTI_02_02, GRADUALE, SUPPLEMENT_DIR_V5
+    SANCTI_02_02, GRADUALE
 from exceptions import SupplementNotFound
 
 log = logging.getLogger(__name__)
@@ -37,29 +37,6 @@ def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) 
 
 
 def format_propers(propers, day=None):
-    retvals = []
-    for propers_vernacular, propers_latin in propers:
-        title = propers_vernacular.title
-        tempora_name: str = day.get_tempora_name() if day else None
-        info = {
-            "id": propers_vernacular.id,
-            "title": title,
-            "description": propers_vernacular.description,
-            "tags": propers_vernacular.tags,
-            "tempora": tempora_name if tempora_name != title else None,
-            "rank": propers_vernacular.rank,
-            "colors": propers_vernacular.colors,
-            "supplements": propers_vernacular.supplements,
-            "date": day.date.strftime("%Y-%m-%d") if day else None
-        }
-        retvals.append({
-            "info": info,
-            "sections": format_proper_sections(propers_vernacular, propers_latin)
-        })
-    return retvals
-
-
-def format_propers_v5(propers, day=None):
     retvals = []
     for propers_vernacular, propers_latin in propers:
         title = propers_vernacular.title
@@ -122,23 +99,10 @@ def get_supplement(lang, resource, subdir=None):
         path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
             content = yaml.full_load(fh)
-            content["body"] = mistune.markdown(content["body"], escape=False, plugins=['table'])
             return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")
 
-
-def get_supplement_v5(lang, resource, subdir=None):
-    try:
-        path_args = [SUPPLEMENT_DIR_V5, lang]
-        if subdir:
-            path_args.append(subdir)
-        path_args.append(f"{resource}.yaml")
-        with open(os.path.join(*path_args)) as fh:
-            content = yaml.full_load(fh)
-            return content
-    except IOError:
-        raise SupplementNotFound(f"{subdir}/{resource}")
 
 
 class SupplementIndex:
@@ -173,35 +137,6 @@ class SupplementIndex:
                         resource_id = filename.rsplit('.', 1)[0]
                         index_item = get_supplement(lang, resource_id, subdir)
                         self.index[key].append(
-                            {"title": index_item["title"],
-                             "ref": f"{subdir}/{resource_id}",
-                             "tags": index_item["tags"]
-                             })
-        return self.index[key]
-
-    def _get_title(self, lang, subdir, proper_id):
-        for i in self._get_index(lang, subdir):
-            if proper_id is not None and i["ref"].endswith(proper_id):
-                return i["title"]
-
-
-supplement_index = SupplementIndex()
-
-
-class SupplementIndexV5(SupplementIndex):
-    def _get_index(self, lang, subdir):
-        key = f"{lang}-{subdir}"
-        if key not in self.index:
-            try:
-                filenames = os.listdir(os.path.join(SUPPLEMENT_DIR_V5, lang, subdir))
-            except FileNotFoundError:
-                filenames = []
-            finally:
-                for filename in sorted(filenames):
-                    if filename.endswith(".yaml"):
-                        resource_id = filename.rsplit('.', 1)[0]
-                        index_item = get_supplement_v5(lang, resource_id, subdir)
-                        self.index[key].append(
                             {"title": index_item["info"]["title"],
                              "id": resource_id,
                              "tags": index_item["info"]["tags"]
@@ -209,4 +144,4 @@ class SupplementIndexV5(SupplementIndex):
         return self.index[key]
 
 
-supplement_index_v5 = SupplementIndexV5()
+supplement_index = SupplementIndex()

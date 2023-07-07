@@ -1,7 +1,15 @@
-title: Boże mocny, Boże cudów
-tags:
+info:
+  tags:
   - Przygodne
-body: |
-  BOŻE MOCNY, BOŻE CUDÓW, \* Przenajświętszy Ojcze nasz,   
-  \* Co dla szczęścia wszystkich ludów \* Dobroć, moc i łaskę masz, \* Który widzisz serca drgnienie \* I najskrytsze myśli znasz, \* Racz wysłuchać me westchnienie, \* Przenajświętszy Ojcze nasz.   
-  2\. Spraw, abyśmy korzystali \* Z darów udzielonych nam, \* Byśmy przez nie uzyskali \* Wstęp do Twych niebieskich bram. \* Udziel w pracy wytrwałości, \* Łaska Twa niech wzmacnia nas, \* Byśmy mężnie ku wieczności \* Szli z weselem, a bez zmaz.   
+  title: Boże mocny, Boże cudów
+
+sections:
+- body:
+  -
+    - |
+        BOŻE MOCNY, BOŻE CUDÓW, \* Przenajświętszy Ojcze nasz,   
+        \* Co dla szczęścia wszystkich ludów \* Dobroć, moc i łaskę masz, \* Który widzisz serca drgnienie \* I najskrytsze myśli znasz, \* Racz wysłuchać me westchnienie, \* Przenajświętszy Ojcze nasz.   
+
+        2\. Spraw, abyśmy korzystali \* Z darów udzielonych nam, \* Byśmy przez nie uzyskali \* Wstęp do Twych niebieskich bram. \* Udziel w pracy wytrwałości, \* Łaska Twa niech wzmacnia nas, \* Byśmy mężnie ku wieczności \* Szli z weselem, a bez zmaz.   
+  id: ''
+  label: ''

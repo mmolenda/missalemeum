@@ -1,5 +1,12 @@
-title: Hosanna Synowi Dawida
-tags:
+info:
+  tags:
   - Wielki Post
-body: |
-  HOSANNA SYNOWI DAWIDA! \* Błogosławiony, który idzie w imię Pańskie! \* O Królu izraelski! \* Hosanna na wysokości!   
+  title: Hosanna Synowi Dawida
+
+sections:
+- body:
+  -
+    - |
+        HOSANNA SYNOWI DAWIDA! \* Błogosławiony, który idzie w imię Pańskie! \* O Królu izraelski! \* Hosanna na wysokości!   
+  id: ''
+  label: ''

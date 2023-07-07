@@ -1,10 +1,16 @@
-title: Wieczny odpoczynek
-tags:
+info:
+  tags:
   - Requiem Aeternam
-body: |
-  WIECZNY ODPOCZYNEK racz mu/jej (im) im dać Panie, a światłość wiekuista niechaj mu/jej (im) świeci.   
-  Niech odpoczywa (-ją) w pokoju. Amen.   
+  title: Wieczny odpoczynek
 
-  ## Requiem Aeternam   
-  REQUIEM AETERNAM dona ei (eis), Domine, et lux perpetua luceat ei (eis).   
-  Requiescat (-ant) in pace. Amen.   
+sections:
+- body:
+  -
+    - |
+        Wieczny odpoczynek racz mu/jej (im) dać Panie, a światłość wiekuista niechaj mu/jej (im) świeci.   
+        Niech odpoczywa (-ją) w pokoju. Amen.   
+    - |
+        Requiem aeternam dona ei (eis), Domine, et lux perpetua luceat ei (eis).   
+        Requiescat (-ant) in pace. Amen.   
+  id: ''
+  label: ''

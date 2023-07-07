@@ -1,18 +1,25 @@
-title: Suplikacje
-tags:
+info:
+  tags:
   - Epidemia
-body: |
-  Święty Boże, Święty mocny, Święty a Nieśmiertelny, zmiłuj się nad nami.   
+  title: Suplikacje
 
-  ℣. Od powietrza, głodu, ognia i wojny.   
-  ℟. Wybaw nas Panie!   
-
-  Święty Boże…   
-
-  ℣. Od nagłej i niespodzianej śmierci,   
-  ℟. Zachowaj nas Panie!   
-
-  Święty Boże…   
-
-  ℣. My grzeszni Ciebie Boga prosimy.   
-  ℟. Wysłuchaj nas Panie!   
+sections:
+- body:
+  -
+    - |
+        Święty Boże, Święty mocny, Święty a Nieśmiertelny, zmiłuj się nad nami.   
+      
+        ℣. Od powietrza, głodu, ognia i wojny.   
+        ℟. Wybaw nas Panie!   
+      
+        Święty Boże…   
+      
+        ℣. Od nagłej i niespodzianej śmierci,   
+        ℟. Zachowaj nas Panie!   
+      
+        Święty Boże…   
+      
+        ℣. My grzeszni Ciebie Boga prosimy.   
+        ℟. Wysłuchaj nas Panie!   
+  id: ''
+  label: ''

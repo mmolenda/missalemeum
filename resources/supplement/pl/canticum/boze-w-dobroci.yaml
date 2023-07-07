@@ -1,10 +1,22 @@
-title: Boże, w dobroci
-tags:
+info:
+  tags:
   - Przygodne
-body: |
-  BOŻE, W DOBROCI nigdy nie przebrany, \* Żadnym językiem niewypowiedziany! \* Ty jesteś godzien \* Wszelakiej miłości, \* Poszanowania, \* Chwały, uczciwości.   
-  2\. Ciebie czczę, pragnę i ważę samego \* Nad wszystkie dobra, Tyś u serca mego. \* Najwyższe dobro, \* Tyś w najwyższej cenie, \* Sam jeden u mnie \* Nad wszystko stworzenie.   
-  3\. Choćbyś za grzechy nie karał mnie, Panie, \* Przecież skruszony żałowałbym za nie, \* A żałowałbym \* Dla tego samego, \* Żem Cię obraził, \* Pana tak dobrego.   
-  4\. Więc, o mój Boże, i teraz żałuję \* Dlatego, że Cię nad wszystko miłuję \* I to u siebie \* Statecznie stanowię, \* Że grzechów moich \* Nigdy nie ponowię.   
-  5\. Mam mocną wolę spowiadać się szczerze \* I zawsze trzymać z Tobą to przymierze; \* Co, gdy uczynię, \* Spodziewam się, Panie, \* Mieć w niebie z Tobą \* Wieczne królowanie.   
-  6\. O Boże dobry, Boże litościwy, \* Mej duszy nędznej racz być miłościwy, \* Jakeś ją stworzył, \* Pomóż do zbawienia, \* Użycz swej łaski, \* Broń od potępienia.   
+  title: Boże, w dobroci
+
+sections:
+- body:
+  -
+    - |
+        BOŻE, W DOBROCI nigdy nie przebrany, \* Żadnym językiem niewypowiedziany! \* Ty jesteś godzien \* Wszelakiej miłości, \* Poszanowania, \* Chwały, uczciwości.   
+
+        2\. Ciebie czczę, pragnę i ważę samego \* Nad wszystkie dobra, Tyś u serca mego. \* Najwyższe dobro, \* Tyś w najwyższej cenie, \* Sam jeden u mnie \* Nad wszystko stworzenie.   
+
+        3\. Choćbyś za grzechy nie karał mnie, Panie, \* Przecież skruszony żałowałbym za nie, \* A żałowałbym \* Dla tego samego, \* Żem Cię obraził, \* Pana tak dobrego.   
+
+        4\. Więc, o mój Boże, i teraz żałuję \* Dlatego, że Cię nad wszystko miłuję \* I to u siebie \* Statecznie stanowię, \* Że grzechów moich \* Nigdy nie ponowię.   
+
+        5\. Mam mocną wolę spowiadać się szczerze \* I zawsze trzymać z Tobą to przymierze; \* Co, gdy uczynię, \* Spodziewam się, Panie, \* Mieć w niebie z Tobą \* Wieczne królowanie.   
+
+        6\. O Boże dobry, Boże litościwy, \* Mej duszy nędznej racz być miłościwy, \* Jakeś ją stworzył, \* Pomóż do zbawienia, \* Użycz swej łaski, \* Broń od potępienia.
+  id: ''
+  label: ''

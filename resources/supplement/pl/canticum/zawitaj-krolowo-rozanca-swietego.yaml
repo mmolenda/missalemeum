@@ -1,9 +1,20 @@
-title: Zawitaj, Królowo Różańca świętego
-tags:
+info:
+  tags:
   - Maryja
-body: |
-  ZAWITAJ, KRÓLOWO RÓŻAŃCA ŚWIĘTEGO, \* Jedyna nadziejo człowieka grzesznego! \* Zawitaj bez zmazy, lilijo, \* Matko Różańcowa, Maryjo!   
-  2\. Panno nad pannami, Święta nad świętymi, \* Najświętsza Królowo, Pani nieba, ziemi, \* Najśliczniejszy kwiecie, lilijo, \* Matko Różańcowa, Maryjo!   
-  3\. Matko Różańcowa, jasna Gwiazdo morska, \* Nielska Królowo, sliczna Matko Boska, \* Raju rozkosznego lilijo, \* Matko Różańcowa, Maryjo!   
-  4\. Tyś jest najśliczniejsza, Różo ogrodowa, \* Tys najprzyjemniejsza, Różdżko Aronowa, \* Najwdzięczniejszy kwiecie, lilijo, \* Matko Różańcowa, Maryjo!   
-  5\. Chwała bądź Maryi na niebieskim tronie, \* Która w różańcowej królujesz koronie, \* Święta nad świętymi, lilijo, \* Matko Różańcowa, Maryjo!   
+  title: Zawitaj, Królowo Różańca świętego
+
+sections:
+- body:
+  -
+    - |
+        ZAWITAJ, KRÓLOWO RÓŻAŃCA ŚWIĘTEGO, \* Jedyna nadziejo człowieka grzesznego! \* Zawitaj bez zmazy, lilijo, \* Matko Różańcowa, Maryjo!   
+
+        2\. Panno nad pannami, Święta nad świętymi, \* Najświętsza Królowo, Pani nieba, ziemi, \* Najśliczniejszy kwiecie, lilijo, \* Matko Różańcowa, Maryjo!   
+
+        3\. Matko Różańcowa, jasna Gwiazdo morska, \* Nielska Królowo, sliczna Matko Boska, \* Raju rozkosznego lilijo, \* Matko Różańcowa, Maryjo!   
+
+        4\. Tyś jest najśliczniejsza, Różo ogrodowa, \* Tys najprzyjemniejsza, Różdżko Aronowa, \* Najwdzięczniejszy kwiecie, lilijo, \* Matko Różańcowa, Maryjo!   
+
+        5\. Chwała bądź Maryi na niebieskim tronie, \* Która w różańcowej królujesz koronie, \* Święta nad świętymi, lilijo, \* Matko Różańcowa, Maryjo!   
+  id: ''
+  label: ''

@@ -1,7 +1,16 @@
-title: Cóż Ci, Jezu, damy
-tags:
+info:
+  tags:
   - Ku czci NSPJ
-body: |
-  CÓŻ CI, JEZU, DAMY za Twych łask strumienie? \* Z serca Ci składamy korne dziękczynienie. Panie nasz, króluj nam! Boże nasz, króluj nam! Poprzez wieczny czas króluj, Jezu, nam!   
-  2\. W Serca Twego ranie, o serc naszych Królu, \* Pokój i wytrwanie, ukojenie w bólu. Panie nasz...   
-  3\. Ty nas wspieraj w znoju, strzeż przez życie całe \* Byśmy w serc pokoju Twą wielbili chwałę. Panie nasz..   
+  title: Cóż Ci, Jezu, damy
+
+sections:
+- body:
+  -
+    - |
+        CÓŻ CI, JEZU, DAMY za Twych łask strumienie? \* Z serca Ci składamy korne dziękczynienie. Panie nasz, króluj nam! Boże nasz, króluj nam! Poprzez wieczny czas króluj, Jezu, nam!   
+
+        2\. W Serca Twego ranie, o serc naszych Królu, \* Pokój i wytrwanie, ukojenie w bólu. Panie nasz...   
+
+        3\. Ty nas wspieraj w znoju, strzeż przez życie całe \* Byśmy w serc pokoju Twą wielbili chwałę. Panie nasz..   
+  id: ''
+  label: ''

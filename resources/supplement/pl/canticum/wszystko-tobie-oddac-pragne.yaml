@@ -1,6 +1,14 @@
-title: Wszystko Tobie oddać pragnę
-tags:
+info:
+  tags:
   - Przygodne
-body: |
-  WSZYSTKO TOBIE ODDAĆ PRAGNĘ i dla Ciebie tylko żyć. \* Chcę Cię, Jezu, kochać wiernie, dzieckiem Twoim zawsze być. Serce moje weź, niech Twą śpiewa cześć, serce moje, duszę moją, Panie Jezu, weź!   
-  2\. Wszystko Tobie oddać pragnę od najmłodszych moich lat. \* Pomóż, Jezu, by mnie nie zwiódł pokusami swymi świat. Serce moje...   
+  title: Wszystko Tobie oddać pragnę
+
+sections:
+- body:
+  -
+    - |
+        WSZYSTKO TOBIE ODDAĆ PRAGNĘ i dla Ciebie tylko żyć. \* Chcę Cię, Jezu, kochać wiernie, dzieckiem Twoim zawsze być. Serce moje weź, niech Twą śpiewa cześć, serce moje, duszę moją, Panie Jezu, weź!   
+
+        2\. Wszystko Tobie oddać pragnę od najmłodszych moich lat. \* Pomóż, Jezu, by mnie nie zwiódł pokusami swymi świat. Serce moje...
+  id: ''
+  label: ''

@@ -1,5 +1,13 @@
-title: Avwent
-body: |
-  # Advent
+info:
+  tags: []
+  title: Advent
 
-  This is a description of Advent season.
+sections:
+- body:
+  -
+    - |
+        # Advent
+      
+        This is a description of Advent season.
+  id: ''
+  label: ''

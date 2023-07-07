@@ -1,10 +1,21 @@
-title: Gaudete
-tags:
+info:
+  tags:
   - Boże Narodzenie
   - Łacińskie
-body: |
-  GAUDETE, gaudete! Christus est natus Ex Maria virgine, gaudete!   
-  2\. Tempus adest gratiæ Hoc quod optabamus, \* Carmina lætitiæ Devote reddamus. Gaudete...   
-  3\. Deus homo factus est Natura mirante, \* Mundus renovatus est A Christo regnante.  Gaudete...   
-  4\. Ezechielis porta Clausa pertransitur, \* Unde lux est orta Salus invenitur. Gaudete...   
-  5\. Ergo nostra cantio Psallat iam in lustro; \* Benedicat Domino: Salus Regi nostro. Gaudete...   
+  title: Gaudete
+
+sections:
+- body:
+  -
+    - |
+        GAUDETE, gaudete! Christus est natus Ex Maria virgine, gaudete!   
+
+        2\. Tempus adest gratiæ Hoc quod optabamus, \* Carmina lætitiæ Devote reddamus. Gaudete...   
+
+        3\. Deus homo factus est Natura mirante, \* Mundus renovatus est A Christo regnante.  Gaudete...   
+
+        4\. Ezechielis porta Clausa pertransitur, \* Unde lux est orta Salus invenitur. Gaudete...   
+
+        5\. Ergo nostra cantio Psallat iam in lustro; \* Benedicat Domino: Salus Regi nostro. Gaudete...
+  id: ''
+  label: ''

@@ -1,6 +1,14 @@
-title: Czekam na Ciebie
-tags:
+info:
+  tags:
   - Adwent
-body: |
-  CZEKAM NA CIEBIE, Jezu mój mały \* Ciche błagania ku niebu się. Twojego przyjścia czeka świat cały, \* Sercem gorącym przyzywa Cię. Spójrz, tęskniony na tej ziemi, \* Przybądź, Jezu, pociesz nas, \* Szczerze kochać Cię będziemy, \* Przyjdź, o Jezu, bo już czas,   
-  2\. Usłysz, Maryjo, głos Twoich dzieci, \* Tyś naszą Matką na każdy dzień, \* O, daj nam słońce, które rozświeci \* Grzechu i błędu straszliwy cień. Spójrz tęskniony na tej ziemi, \* Daj nam Zbawcę Dziecię Twe. \* My dla Niego żyć pragniemy, \* Jemu damy serca swe.   
+  title: Czekam na Ciebie
+
+sections:
+- body:
+  -
+    - |
+        CZEKAM NA CIEBIE, Jezu mój mały \* Ciche błagania ku niebu się. Twojego przyjścia czeka świat cały, \* Sercem gorącym przyzywa Cię. Spójrz, tęskniony na tej ziemi, \* Przybądź, Jezu, pociesz nas, \* Szczerze kochać Cię będziemy, \* Przyjdź, o Jezu, bo już czas,   
+
+        2\. Usłysz, Maryjo, głos Twoich dzieci, \* Tyś naszą Matką na każdy dzień, \* O, daj nam słońce, które rozświeci \* Grzechu i błędu straszliwy cień. Spójrz tęskniony na tej ziemi, \* Daj nam Zbawcę Dziecię Twe. \* My dla Niego żyć pragniemy, \* Jemu damy serca swe.
+  id: ''
+  label: ''
