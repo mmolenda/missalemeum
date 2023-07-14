@@ -243,262 +243,6 @@ paths:
               examples:
                 default:
                   $ref: "#/components/examples/IcalendarApiReponseExample"
-  /{lang}/api/v3/calendar:
-    get:
-      deprecated: true
-      tags:
-      - "Calendar"
-      summary: "Get current calendar"
-      description: "Get liturgical calendar according to the 1962 missal for the current year. It contains all the feasts, commemorations, etc."
-      operationId: "getCalendarCurrentV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/CalendarApiResponse"
-              examples:
-                'default':
-                  $ref: "#/components/examples/CalendarApiResponseExample"
-  /{lang}/api/v3/calendar/{year}:
-    get:
-      deprecated: true
-      tags:
-      - "Calendar"
-      summary: "Get calendar for given year"
-      description: "Get liturgical calendar according to the 1962 missal for the selected year. It contains all the feasts, commemorations, etc."
-      operationId: "getCalendarV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "year"
-        description: "Year of the calendar. If not provided calendar for current year will be displayed."
-        required: true
-        schema:
-          type: "number"
-          example: 2022
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/CalendarApiResponse"
-              examples:
-                'default':
-                  $ref: "#/components/examples/CalendarApiResponseExample"
-  /{lang}/api/v3/date/{date}:
-    get:
-      deprecated: true
-      tags:
-      - "Propers"
-      summary: "Get proper by date"
-      description: "Get proper for a given calendar day."
-      operationId: "getProperByDate"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "date"
-        description: "Calendar day to get the propers for."
-        required: true
-        schema:
-          type: "string"
-          example: "2022-01-21"
-      responses:
-        "400":
-          description: "Incorrect date format"
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ProperByDateApiResponse"
-  /{lang}/api/v3/proper/{id}:
-    get:
-      deprecated: true
-      tags:
-      - "Propers"
-      summary: "Get proper by ID"
-      description: "Get proper for given observance by ID, regardless of its place in the calendar. ID can be found in the response from `/calendar` endpoint, e.g. `sancti:12-24:1:v` for Nativity Vigil or `tempora:Adv4-0:1:v` for fourth Sunday of Advent."
-      operationId: "getProperByIdV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "id"
-        description: "ID of the proper. For more details see the response body schema."
-        required: true
-        schema:
-          type: "string"
-          example: "tempora:Adv4-0:1:v"
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ProperByIdApiResponse"
-  /{lang}/api/v3/ordo:
-    get:
-      deprecated: true
-      tags:
-      - "Ordo"
-      summary: "Get ordinary"
-      description: "Get invariable texts, or ordinary of the Mass"
-      operationId: "getOrdoV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/OrdoResponse"
-  /{lang}/api/v3/supplement/{id}:
-    get:
-      deprecated: true
-      tags:
-      - "Supplement"
-      summary: "Get supplement's content"
-      description: "Get supplement's content"
-      operationId: "getSupplementV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "id"
-        description: "ID of the supplement."
-        required: true
-        schema:
-          type: "string"
-          example: "3-boze-narodzenie"
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/SupplementResponse"
-  /{lang}/api/v3/supplement/{path}/{id}:
-    get:
-      deprecated: true
-      tags:
-      - "Supplement"
-      summary: "Get supplement's content from subdir"
-      description: "Get supplement's content from subdir"
-      operationId: "getSupplementFromSubdir"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "path"
-        description: "Name of the subdir"
-        required: true
-        schema:
-          type: "string"
-          example: "canticum"
-      - in: "path"
-        name: "id"
-        description: "ID of the supplement."
-        required: true
-        schema:
-          type: "string"
-          example: "adoro-te"
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/SupplementResponse"
-  /{lang}/api/v3/version:
-    get:
-      deprecated: true
-      tags:
-      - Miscellaneous
-      summary: Get API version
-      operationId: "getVersionV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  version:
-                    type: string
-                    example: v4.3.21
-  /{lang}/api/v3/icalendar:
-    get:
-      deprecated: true
-      tags:
-      - Miscellaneous
-      summary: Get calendar in iCalendar format
-      description: Get the calendar in iCalendar format, which can be imported to any calendar software such as Google Calendar. This endpoint returns only feast with rank 1 and 2. For other ranks see `/{lang}/api/v3/icalendar/{rank}`.
-      operationId: "getIcalendarV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            text/calendar:
-              schema:
-                type: string
-              examples:
-                'default':
-                  $ref: "#/components/examples/IcalendarApiReponseExample"
-  /{lang}/api/v3/icalendar/{rank}:
-    get:
-      deprecated: true
-      tags:
-      - Miscellaneous
-      summary: Get calendar in iCalendar format
-      description: Get the calendar in iCalendar format, which can be imported to any calendar software such as Google Calendar.
-      operationId: "getIcalendarForRankV3"
-      parameters:
-      - $ref: '#/components/parameters/langParam'
-      - in: "path"
-        name: "rank"
-        description: "Only show the feasts of this rank and higher (e.g. rank 2 will show feast with rank 1 and 2)."
-        required: true
-        schema:
-          type: "string"
-          example: "2"
-      responses:
-        "404":
-          description: "Not Found"
-        "200":
-          description: "OK"
-          content:
-            text/calendar:
-              schema:
-                type: string
-              examples:
-                'default':
-                  $ref: "#/components/examples/IcalendarApiReponseExample"
 components:
   parameters:
     langParam:
@@ -512,7 +256,6 @@ components:
   schemas:
     Info:
       type: "object"
-      description: "TODO"
       required:
         - title
       properties:
@@ -541,13 +284,11 @@ components:
 
     CalendarItems:
       type: "array"
-      description: "TODO"
       items:
         $ref: "#/components/schemas/CalendarItem"
 
     ContentItem:
       type: "object"
-      description: "TODO"
       properties:
         info:
           $ref: "#/components/schemas/Info"
@@ -555,7 +296,6 @@ components:
           $ref: '#/components/schemas/Sections'
     Proper:
       type: "object"
-      description: "TODO"
       required:
         - colors
         - id
