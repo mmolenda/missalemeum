@@ -54,7 +54,7 @@ jobs:
           command: |
             docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
             docker stop $(docker ps | grep ${{ env.IMAGE_NAME }} | cut -d' ' -f1) || true
-            docker run -d -p ${{ vars.DOCKER_EXPOSED_PORT }}:8000 ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
+            docker run -d -e GTAG_ID=${{ secrets.GTAG_ID }} -p ${{ vars.DOCKER_EXPOSED_PORT }}:8000 ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
           host: ${{ vars.DEPLOY_HOST }}
           port: ${{ vars.DEPLOY_PORT }}
           user: ${{ vars.DEPLOY_USER }}
