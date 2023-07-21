@@ -17,6 +17,7 @@ export const MENUITEM_ORATIO = {"en": "Prayers", "pl": "Modlitwy"}
 export const MENUITEM_CANTICUM = {"en": "Chants", "pl": "Pieśni"}
 export const MENUITEM_SUPPLEMENT = {"en": "Supplement", "pl": "Suplement"}
 export const MENUITEM_INFO = {"en": "About", "pl": "Informacje"}
+export const MENUITEM_WHATSNEW = {"en": "What's new", "pl": "Co nowego?"}
 export const MSG_ADDRESS_COPIED = {"en": "Address copied to clipboard", "pl": "Adres skopiowany do schowka"}
 export const MSG_COOKIES = {"en": "This website uses cookies. ",
 														"pl": "Ta strona wykorzystuje ciasteczka (cookies). "}

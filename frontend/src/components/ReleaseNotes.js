@@ -6,18 +6,30 @@ import DialogTitle from '@mui/material/DialogTitle';
 import {IconButton} from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
 import {myLocalStorage} from "../myLocalStorage";
+import MyLink from "./MyLink";
+import moment from "moment";
+import {useEffect} from "react";
 
 export default function ReleaseNotes(props) {
   const storageKey = `releaseDialogSeen-${props.lang}`
-  const [open, setOpen] = React.useState(myLocalStorage.getItem(storageKey) !== props.version || props.debug === true)
+  const expirationDate = "2023-08-11 12:00:00"
+  useEffect(() => {
+    // must be before the date AND storage says its not seen  OR
+    // debug always opens
+    let isNotSeen= myLocalStorage.getItem(storageKey) !== props.version
+    let isNotExpired = moment(expirationDate) > moment()
+    // if open state is provided from the outside - open; otherwise evaluate if it should be opened
+    props.open || props.setOpen((isNotSeen && isNotExpired) || props.debug === true)
+  }, [])
+
   const handleClose = () => {
     myLocalStorage.setItem(storageKey, props.version)
-    setOpen(false);
+    props.setOpen(false);
   };
 
   return (
       <Dialog
-        open={open}
+        open={props.open}
         onClose={handleClose}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
@@ -34,35 +46,32 @@ export default function ReleaseNotes(props) {
         >
           <CloseIcon />
         </IconButton>
-        <DialogTitle id="alert-dialog-title">{(props.lang === "pl") ? "Missale Meum w nowej odsłonie" : "Missale Meum in a new version"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">{(props.lang === "pl") ? "Missale Meum 5.4.0" : "Missale Meum 5.4.0"}</DialogTitle>
         <DialogContent>
           {(props.lang === "en")
             ? <DialogContentText id="alert-dialog-description">
             Laudetur Iesus Christus!<br/>
-            We are happy to present you with the next edition of the online missal.<br/><br />
+            We are happy to announce the next release of the online missal.<br/><br />
 
             <strong>What's new</strong><br />
-            - Refreshed design<br/>
-            - Added several popular songs and prayers in English and in Latin, with the same language switch as in masses<br/><br/>
+            - You can now adjust the font size in the application! Take a look at the bottom of the main menu.<br/>
+            - Missale Meum widget with daily propers that can be embedded on your website as an iframe. More details on <MyLink href="/en/supplement/index" text="Supplement" /> page.<br/>
+            - We have fixed several errors and typos reported by the users.<br/><br/>
 
-            Although the list of new features is not spectacular, over the last few months we have made thorough changes
-              to the application that will facilitate further development and work on new functionalities that we hope
-              will start to appear soon.<br /><br />
-            Any comments on the operation of the new website, suggestions, etc. are welcome at   marcin@missalemeum.com.
+            More details can be found on the project's <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="GitHub page" />.<br />
+            Any comments on the operation of the website, suggestions, etc. are welcome at marcin@missalemeum.com.
           </DialogContentText>
           : <DialogContentText id="alert-dialog-description">
             Laudetur Iesus Christus!<br/>
             Prezentujemy Państwu kolejne wydanie mszalika online.<br/><br />
 
             <strong>Co nowego</strong><br />
-            - Odświeżony wygląd<br/>
-            - Pieśni i modlitwy polsko-łacińskie mają przełącznik języka, tak jak msze<br/>
-            - Komentarze do ewanelii przeniesione do aplikacji (zamiast linku do zewnętrznego źródła)<br/><br />
+            - Rozmiar tekstu w aplikacji można dostosować za pomocą przełącznika w głównym menu.<br/>
+            - Widget Missale Meum z tekstami na dziś, który można umieścić na własnej stronie internetowej jako iframe. Więcej szczegółów w zakładce <MyLink href="/pl/supplement/index" text="Suplement" />.<br/>
+            - Poprawiliśmy kilka błędów i literówek zgłoszonych przez użytkowników.<br/><br/>
 
-            Chociaż lista nowości nie jest spektakularna, przez ostatnich kilka miesięcy przeprowadziliśmy
-            gruntowne zmiany w aplikaci, które ułatwią dalszy rozwój i prace nad nowymi funkcjonalnościami,
-            które, mamy nadzieję, wkrótce zaczną się pojawiać.<br /><br />
-            Wszelkie uwagi na temat działania nowego serwisu, sugestie, etc. są mile widziane pod adresem marcin@missalemeum.com.
+            Po więcej szczegółów odsyłamy do <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="strony projektu na GitHubie" />.<br />
+            Wszelkie uwagi na temat działania serwisu, sugestie, etc. są mile widziane pod adresem marcin@missalemeum.com.
           </DialogContentText>}
         </DialogContent>
       </Dialog>

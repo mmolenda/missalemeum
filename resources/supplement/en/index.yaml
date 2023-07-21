@@ -36,5 +36,22 @@ sections:
         https://www.missalemeum.com/<wbr>en/api/v3/icalendar/4
       
         <iframe height=300 style="width: 100%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=OWZzajQxcTE4MDQ1NWFpcmw4NnZuYzlib2p2MXAybzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;hl=en&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+      
+      
+        ### Widget
+        
+        Missale Meum widget that can be embedded on your website as an iframe. You can set up the theme using `theme` parameter - `light` for light mode and `dark` for dark mode.
+        
+        ```
+        <iframe 
+            src="https://www.missalemeum.com/en/widgets/propers?theme=light"
+            height=300 
+            style="width: 80%;">
+        </iframe>
+        ```
+        
+        <iframe style="height: 500px;" src="https://www.missalemeum.com/en/widgets/propers?theme=light" width="80%"></iframe>
+      
+
   id: ''
   label: ''

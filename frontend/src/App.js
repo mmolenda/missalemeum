@@ -41,7 +41,7 @@ import {
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER, MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK
+  MENUITEM_VOTIVE, MENUITEM_WHATSNEW, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -90,6 +90,7 @@ const Layout = (props) => {
   const [drawerOpened, setDrawerOpened] = useState(false)
   const [darkMode, setDarkMode] = useState(undefined)
   const [fontSize, setFontSize] = useState()
+  const [releaseNotesOpened, setReleaseNotesOpened] = useState(false)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
   const toggleDrawer = (open) => () => {
     setDrawerOpened(open)
@@ -161,7 +162,7 @@ const Layout = (props) => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      <ReleaseNotes lang={lang} version={props.version} debug={debug} />
+      <ReleaseNotes lang={lang} version={props.version} debug={debug} open={releaseNotesOpened} setOpen={setReleaseNotesOpened} />
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -188,6 +189,7 @@ const Layout = (props) => {
                   toggleDarkMode={toggleDarkMode}
                   fontSize={fontSize}
                   switchFontSize={switchFontSize}
+                  setReleaseNotesOpened={setReleaseNotesOpened}
                 />
               </Drawer>
             </>
@@ -263,7 +265,11 @@ const LeftHandMenu = (props) => {
             </ListItemButton>
           </ListItem>
         ))}
-
+        <ListItem key="whatsnew">
+          <ListItemButton onClick={() => props.setReleaseNotesOpened(true)}>
+            <DrawerListItemText primary={MENUITEM_WHATSNEW[props.lang]}/>
+          </ListItemButton>
+        </ListItem>
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
