@@ -41,7 +41,7 @@ import {
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER, MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK
+  MENUITEM_VOTIVE, MENUITEM_WHATSNEW, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK
 } from "./intl";
 import NotFound from "./components/NotFound";
 import Error from "./components/Error";
@@ -51,6 +51,7 @@ import {ContainerMedium} from "./components/styledComponents/ContainerMedium";
 import WidgetPropers from "./components/WidgetPropers";
 import {appbarDarkGrey, getDesignTokens} from "./designTokens";
 import {myLocalStorage} from "./myLocalStorage";
+import ReleaseNotes from "./components/ReleaseNotes";
 
 const debug = process.env.REACT_APP_DEBUG === "true"
 const supportedLanguages = ["en", "pl"]
@@ -88,6 +89,8 @@ const Layout = (props) => {
   const location = useLocation();
   const [drawerOpened, setDrawerOpened] = useState(false)
   const [darkMode, setDarkMode] = useState(undefined)
+  const [fontSize, setFontSize] = useState()
+  const [releaseNotesOpened, setReleaseNotesOpened] = useState(false)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
   const toggleDrawer = (open) => () => {
     setDrawerOpened(open)
@@ -98,6 +101,7 @@ const Layout = (props) => {
       navigate(`/${defaultLanguage}/404`)
     }
     setDarkMode({"true": true, "false": false, null: undefined}[myLocalStorage.getItem("darkMode")])
+    setFontSize(myLocalStorage.getItem("fontSize"))
   }, [lang, navigate])
 
   useEffect(() => {
@@ -115,10 +119,6 @@ const Layout = (props) => {
     }
   }
 
-  const getThemeMode = () => {
-    return ((darkMode === undefined && prefersDark) || darkMode) ? "dark" : "light"
-  }
-
   const toggleDarkMode = (darkModeNew) => {
     if (darkModeNew === false && darkMode !== false) {
       setDarkMode(false)
@@ -132,8 +132,17 @@ const Layout = (props) => {
     }
   }
 
+  const switchFontSize = (fontSizeNew) => {
+    setFontSize(fontSizeNew)
+    myLocalStorage.setItem("fontSize", fontSizeNew)
+  }
+
+  const getThemeMode = () => {
+    return ((darkMode === undefined && prefersDark) || darkMode) ? "dark" : "light"
+  }
+
   const mode = getThemeMode()
-  const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
+  const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
 
 
   return (
@@ -153,7 +162,7 @@ const Layout = (props) => {
           ".react-datepicker__current-month": {color: theme.palette.text.primary},
         })}
       />
-      {/*<ReleaseNotes lang={lang} version={props.version} debug={debug} />*/}
+      <ReleaseNotes lang={lang} version={props.version} debug={debug} open={releaseNotesOpened} setOpen={setReleaseNotesOpened} />
       <Container disableGutters sx={{backgroundColor: "background.default"}}>
         <AppBar sx={{backgroundColor: appbarDarkGrey}}>
           <Toolbar>
@@ -165,7 +174,8 @@ const Layout = (props) => {
                 sx={{color: "yellowish.main"}}
                 onClick={toggleDrawer(true)}
               >
-                <MenuIcon/>
+                {/* fixed fontSize to prevent resizing when switching font size from the menu */}
+                <MenuIcon sx={{ fontSize: 24 }}/>
               </IconButton>
               <Drawer
                 variant="temporary"
@@ -177,6 +187,9 @@ const Layout = (props) => {
                   toggleDrawer={toggleDrawer}
                   darkMode={darkMode}
                   toggleDarkMode={toggleDarkMode}
+                  fontSize={fontSize}
+                  switchFontSize={switchFontSize}
+                  setReleaseNotesOpened={setReleaseNotesOpened}
                 />
               </Drawer>
             </>
@@ -252,7 +265,11 @@ const LeftHandMenu = (props) => {
             </ListItemButton>
           </ListItem>
         ))}
-
+        <ListItem key="whatsnew">
+          <ListItemButton onClick={() => props.setReleaseNotesOpened(true)}>
+            <DrawerListItemText primary={MENUITEM_WHATSNEW[props.lang]}/>
+          </ListItemButton>
+        </ListItem>
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
@@ -266,13 +283,13 @@ const LeftHandMenu = (props) => {
             <ToggleButton onClick={() => props.toggleDarkMode(true)} value="dark" selected={props.darkMode === true}><DarkModeIcon /></ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
-        {/*<ListItem key="font">*/}
-        {/*  <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">*/}
-        {/*    <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="small"> A </ToggleButton>*/}
-        {/*    <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="normal" selected={true}>A</ToggleButton>*/}
-        {/*    <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => alert("Not implemented")} value="large">A</ToggleButton>*/}
-        {/*  </ToggleButtonGroup>*/}
-        {/*</ListItem>*/}
+        <ListItem key="font">
+          <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
+            <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => props.switchFontSize("small")} value="small" selected={props.fontSize === "small"}>A</ToggleButton>
+            <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => props.switchFontSize("medium")} value="medium" selected={["medium", undefined, null].includes(props.fontSize)}>A</ToggleButton>
+            <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => props.switchFontSize("large")} value="large" selected={props.fontSize === "large"}>A</ToggleButton>
+          </ToggleButtonGroup>
+        </ListItem>
       </List>
     </Box>
 )}
