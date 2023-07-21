@@ -2,7 +2,7 @@ FROM node:alpine as build
 WORKDIR .
 COPY ./frontend/package.json ./
 COPY ./frontend/package-lock.json ./
-RUN npm install
+RUN npm install --omit=optional
 COPY ./frontend/public ./public
 COPY ./frontend/src ./src
 RUN npm run build
