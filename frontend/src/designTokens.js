@@ -3,8 +3,14 @@ import {createTheme} from "@mui/material";
 
 const defaultTheme = createTheme()
 export const yellowish = '#fcfbf9'
+const darkRedLightMode = '#b76d6d'
+const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
-export const getDesignTokens = (mode) => ({
+
+const translateFontSize = (fontSizeName) => {
+  return {"small": 12, "medium": 14, "large": 18}[fontSizeName] || 14
+}
+export const getDesignTokens = (mode, fontSizeName) => ({
   palette: {
     mode,
     ...(mode === 'light'
@@ -20,7 +26,7 @@ export const getDesignTokens = (mode) => ({
             dark: '#1b1b1b',
           },
           secondary: {
-            main: '#b76d6d',
+            main: darkRedLightMode,
             light: '#eb9c9b',
             dark: '#854042',
           },
@@ -33,7 +39,7 @@ export const getDesignTokens = (mode) => ({
             contrastText: '#fff'
           },
           vestmentr: {
-            main: '#b76d6d',
+            main: darkRedLightMode,
             contrastText: '#fff',
           },
           vestmentv: {
@@ -57,7 +63,7 @@ export const getDesignTokens = (mode) => ({
             dark: '#c9c8c6',
           },
           secondary: {
-            main: '#e49086',
+            main: darkRedDarkMode,
             light: '#ffc1b6',
             dark: '#b06159',
           },
@@ -71,7 +77,7 @@ export const getDesignTokens = (mode) => ({
             contrastText: '#fff'
           },
           vestmentr: {
-            main: '#e49086',
+            main: darkRedDarkMode,
             contrastText: '#fff',
           },
           vestmentv: {
@@ -112,24 +118,24 @@ export const getDesignTokens = (mode) => ({
           color: yellowish
         },
         h2: {
-          fontSize: "1.25rem",
+          fontSize: translateFontSize(fontSizeName) * 1.5,
           fontFamily: "Merriweather",
           fontWeight: 800,
           color: grey[900]
         },
         h3: {
-          fontSize: "1rem",
+          fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
           textTransform: "uppercase",
           fontWeight: 800,
-          color: grey[900]
+          color: darkRedLightMode
         },
         h4: {
-          fontSize: "1rem",
+          fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
           textTransform: "uppercase",
           fontWeight: 400,
-          color: grey[900]
+          color: darkRedLightMode
         },
         body1: {
           fontFamily: "Merriweather",
@@ -144,36 +150,37 @@ export const getDesignTokens = (mode) => ({
           color: yellowish
         },
         h2: {
-          fontSize: "1.25rem",
+          fontSize: translateFontSize(fontSizeName) * 1.5,
           fontFamily: "Merriweather",
           fontWeight: 800,
           color: yellowish
         },
         h3: {
-          fontSize: "1rem",
+          fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
           textTransform: "uppercase",
           fontWeight: 800,
-          color: yellowish
+          color: darkRedDarkMode
         },
         h4: {
-          fontSize: "1rem",
+          fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
           textTransform: "uppercase",
           fontWeight: 400,
-          color: yellowish
+          color: darkRedDarkMode
         },
         body1: {
           fontFamily: "Merriweather",
           color: yellowish
         },
     }),
+    fontSize: translateFontSize(fontSizeName),
     subtitle1: {
       fontWeight: 400,
     },
     subtitle2: {
       fontWeight: 400,
-      color: '#b76d6d'
+      color: darkRedLightMode
     },
   },
   components: {

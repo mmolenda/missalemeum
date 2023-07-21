@@ -83,7 +83,8 @@ export default function ArticleTags(props) {
             sx={{
               borderRadius: 10,
               fontFamily: "Arial",
-              fontSize: "0.85rem",
+              fontSize: theme.typography.fontSize / 18 + "rem",
+              height: (theme) => theme.typography.fontSize / 7 + "rem",
               color: (theme) => theme.palette.secondary.main,
               "& .MuiSvgIcon-root": {
                   color: (theme) => theme.palette.secondary.main,
