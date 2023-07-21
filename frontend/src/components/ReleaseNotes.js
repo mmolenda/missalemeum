@@ -12,7 +12,7 @@ import {useEffect} from "react";
 
 export default function ReleaseNotes(props) {
   const storageKey = `releaseDialogSeen-${props.lang}`
-  const expirationDate = "2023-08-11 12:00:00"
+  const expirationDate = "2023-07-29 00:00:00"
   useEffect(() => {
     // must be before the date AND storage says its not seen  OR
     // debug always opens
