@@ -12,6 +12,7 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/react-router-dom": "^5.3.3",
+    "fsevents": "^2.3.2",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-cookie-consent": "^8.0.1",
