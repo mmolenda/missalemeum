@@ -42,16 +42,8 @@ sections:
         
         Missale Meum widget that can be embedded on your website as an iframe. You can set up the theme using `theme` parameter - `light` for light mode and `dark` for dark mode.
         
-        ```
-        <iframe 
-            src="https://www.missalemeum.com/en/widgets/propers?theme=light"
-            height=300 
-            style="width: 80%;">
-        </iframe>
-        ```
+        &lt;iframe src="https://www.missalemeum.com/<wbr>pl/widgets/propers?theme=light" height=300 style="width: 100%;"&gt; &lt;/iframe&gt;
         
-        <iframe style="height: 500px;" src="https://www.missalemeum.com/en/widgets/propers?theme=light" width="80%"></iframe>
-      
-
+        <iframe style="height: 300px;" src="https://www.missalemeum.com/pl/widgets/propers?theme=light" width="100%"></iframe>
   id: ''
   label: ''

@@ -43,31 +43,26 @@ sections:
 
         [Msza-dla-początkujących.pdf](https://www.dropbox.com/s/a94bingl33xlirx/msza-dla-pocz%C4%85tkuj%C4%85cych.pdf?dl=0)
 
+
         ### iCalendar
         Widok roku liturgicznego wg Mszału z 1962 r. w formacie iCalendar.
         
-        https://www.missalemeum.com/<wbr>en/api/v3/icalendar
+        https://www.missalemeum.com/<wbr>pl/api/v3/icalendar
         
         Można go wyświetlić w dowolnej aplikacji prezentującej kalendarz, np. Google Calendar ([instrukcja](https://support.google.com/calendar/answer/37100)), czy 
         Microsoft Outlook. Link zawiera wszystkie niedziele i święta. W opisie każdego wydarzenia kalendarza znajduje 
         się odnośnik do odpowiedniego formularza na stronie internetowej.
         
-        <iframe height=300 style="width: 80%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=djZtY3ZlNW5oaGRrb2xndmFyYTdwYW1yMTRuZmpwdjJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+        <iframe height=300 style="width: 100%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=djZtY3ZlNW5oaGRrb2xndmFyYTdwYW1yMTRuZmpwdjJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
         
         
         ### Widget
         
         Widget Missale Meum do umieszczenia na swojej stronie jako iframe. Motyw można ustawić za pomocą parametru `theme`, `light` dla jasnego i `dark` dla ciemnego.
         
-        ```
-        <iframe 
-            src="https://www.missalemeum.com/pl/widgets/propers?theme=light"
-            height=300 
-            style="width: 80%;">
-        </iframe>
-        ```
+        &lt;iframe src="https://www.missalemeum.com/<wbr>pl/widgets/propers?theme=light" height=300 style="width: 100%;"&gt; &lt;/iframe&gt;
         
-        <iframe style="height: 500px;" src="https://www.missalemeum.com/pl/widgets/propers?theme=light" width="80%"></iframe>
+        <iframe style="height: 300px;" src="https://www.missalemeum.com/pl/widgets/propers?theme=light" width="100%"></iframe>
   id: ''
   label: ''
 
