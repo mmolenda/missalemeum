@@ -26,5 +26,5 @@ miesiąca w łączności z nabożeństwem wynagradzającym.
 @Tempora/Pent02-5:GradualeP
 
 [Tractus]
-! W Mszach wotywnych od siedemdziesiątnicy do Wielkanocy
+! W Mszach wotywnych od Siedemdziesiątnicy do Wielkanocy
 @Tempora/Pent02-5:Tractus
