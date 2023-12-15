@@ -1024,13 +1024,14 @@ COMMEMORATION_SECTIONS = [
 
 # This list contains tuples consisting of a proper ID and a list of sections that should be excluded from given proper.
 # E.g. some propers contain commemorations in their source, but they should never be exposed as they are not part of
-# 1962 issue of the  Missal. Asterisk (*) means that given section should always be be excluded.
+# 1962 issue of the  Missal. Asterisk (*) means that given section should always be excluded.
 EXCLUDE_SECTIONS = (
     (SANCTI_06_25, COMMEMORATION_SECTIONS),
     (SANCTI_06_26, COMMEMORATION_SECTIONS),
     (SANCTI_06_30, COMMEMORATION_SECTIONS),
     (SANCTI_07_01, COMMEMORATION_SECTIONS),
     (SANCTI_07_05, COMMEMORATION_SECTIONS),
+    (SANCTI_08_06, COMMEMORATION_SECTIONS),
     (SANCTI_08_17, COMMEMORATION_SECTIONS),
     (SANCTI_08_19, COMMEMORATION_SECTIONS),
     (SANCTI_08_20, COMMEMORATION_SECTIONS),
