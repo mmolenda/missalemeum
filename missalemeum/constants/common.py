@@ -643,7 +643,7 @@ SANCTI_04_30 = 'sancti:04-30:3:w'
 
 SANCTI_05_01 = 'sancti:05-01r:1:w'  # St. Joseph the Worker
 SANCTI_05_02 = 'sancti:05-02:3:w'
-SANCTI_05_03 = 'sancti:05-03:4:r'
+SANCTI_05_03 = 'sancti:05-03r:4:r'
 SANCTI_05_03PL = 'sancti:05-03pl:1:w'
 SANCTI_05_04 = 'sancti:05-04:3:w'
 SANCTI_05_04PL = 'sancti:05-04pl:3:r'  # St. Florian / PL
