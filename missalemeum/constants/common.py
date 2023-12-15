@@ -601,7 +601,7 @@ SANCTI_02_14 = 'sancti:02-14:4:r'
 SANCTI_02_15 = 'sancti:02-15:4:r'
 SANCTI_02_18 = 'sancti:02-18:4:r'
 SANCTI_02_22 = 'sancti:02-22:2:w'  # Feast of the Chair of Saint Peter
-SANCTI_02_23 = 'sancti:02-23:3:w'
+SANCTI_02_23 = 'sancti:02-23r:3:w'
 SANCTI_02_24 = 'sancti:02-24:2:r'  # St. Matthias, Apostle
 SANCTI_02_27 = 'sancti:02-27:3:w'
 
@@ -643,7 +643,7 @@ SANCTI_04_30 = 'sancti:04-30:3:w'
 
 SANCTI_05_01 = 'sancti:05-01r:1:w'  # St. Joseph the Worker
 SANCTI_05_02 = 'sancti:05-02:3:w'
-SANCTI_05_03 = 'sancti:05-03:4:r'
+SANCTI_05_03 = 'sancti:05-03r:4:r'
 SANCTI_05_03PL = 'sancti:05-03pl:1:w'
 SANCTI_05_04 = 'sancti:05-04:3:w'
 SANCTI_05_04PL = 'sancti:05-04pl:3:r'  # St. Florian / PL
@@ -1024,13 +1024,14 @@ COMMEMORATION_SECTIONS = [
 
 # This list contains tuples consisting of a proper ID and a list of sections that should be excluded from given proper.
 # E.g. some propers contain commemorations in their source, but they should never be exposed as they are not part of
-# 1962 issue of the  Missal. Asterisk (*) means that given section should always be be excluded.
+# 1962 issue of the  Missal. Asterisk (*) means that given section should always be excluded.
 EXCLUDE_SECTIONS = (
     (SANCTI_06_25, COMMEMORATION_SECTIONS),
     (SANCTI_06_26, COMMEMORATION_SECTIONS),
     (SANCTI_06_30, COMMEMORATION_SECTIONS),
     (SANCTI_07_01, COMMEMORATION_SECTIONS),
     (SANCTI_07_05, COMMEMORATION_SECTIONS),
+    (SANCTI_08_06, COMMEMORATION_SECTIONS),
     (SANCTI_08_17, COMMEMORATION_SECTIONS),
     (SANCTI_08_19, COMMEMORATION_SECTIONS),
     (SANCTI_08_20, COMMEMORATION_SECTIONS),
