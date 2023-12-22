@@ -705,7 +705,8 @@ TITLES = {
     constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
-    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców'
+    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców',
+    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę'
 }
 
 VOTIVE_MASSES = [
@@ -749,6 +750,8 @@ VOTIVE_MASSES = [
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
      'tags': ['Wotywna', 'Pierwsza sobota']},
+    {'ref': 'terribilis', 'id': constants.VOTIVE_TERRIBILIS, 'title': TITLES[constants.VOTIVE_TERRIBILIS],
+     'tags': ['Terribilis']},
     {'ref': 'fidei-propagatione', 'id': constants.VOTIVE_FIDEI_PROPAGATIONE, 'title': TITLES[constants.VOTIVE_FIDEI_PROPAGATIONE],
      'tags': ['Wotywna', 'W różnych potrzebach']},
     {'ref': 'matrimonium', 'id': constants.VOTIVE_MATRIMONIUM, 'title': TITLES[constants.VOTIVE_MATRIMONIUM],

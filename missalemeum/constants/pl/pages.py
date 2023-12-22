@@ -464,4 +464,5 @@ PAGES = {
     constants.VOTIVE_DEFUNCTORUM: get_pages(1301),  # 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_FIDEI_PROPAGATIONE: get_pages(1252),  # 'Msza o Rozkrzewienie Wiary',
     constants.VOTIVE_MATRIMONIUM: get_pages(1396),  # 'Msza za Nowożeńców',
+    constants.VOTIVE_TERRIBILIS: get_pages(642),  # 'Na konsekrację kościoła i jej rocznicę',
 }

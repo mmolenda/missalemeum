@@ -906,6 +906,7 @@ VOTIVE_DEFUNCTORUM = 'votive:Defunctorum:0:b'
 VOTIVE_MORTALITATIS = 'votive:TemporeMortalitatis:0:v'
 VOTIVE_FIDEI_PROPAGATIONE = 'votive:FideiPropagatione:0:v'
 VOTIVE_MATRIMONIUM = 'votive:Matrimonium:0:w'
+VOTIVE_TERRIBILIS = 'votive:Terribilis:0:w'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
@@ -1070,7 +1071,8 @@ CUSTOM_PREFACES = (
     (PATTERN_EASTER_PREFATIO, PREFATIO_PASCHAL),
     (TEMPORA_QUAD6_5, PREFATIO_OMIT),
     (PATTERN_LENT_PREFATIO, PREFATIO_LENT),  # Lent until Saturday before Passion Sunday
-    (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION)  # From Ascension Sunday till Friday before Pentecost Vigil
+    (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION),  # From Ascension Sunday till Friday before Pentecost Vigil,
+    (VOTIVE_TERRIBILIS, PREFATIO_COMMUNIS),
 )
 
 CUSTOM_INTER_READING_SECTIONS = {
