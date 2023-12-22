@@ -619,6 +619,7 @@ TITLES = {
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
     constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
+    constants.SANCTI_10_10PL: 'Dziękczynienie za zwycięstwo chocimskie z roku 1621',
     constants.SANCTI_10_11: 'Macierzyństwa N. M. P.',
     constants.SANCTI_10_13: 'Św. Edwarda, króla i wyznawcy',
     constants.SANCTI_10_14: 'Św. Kaliksta, papieża i męczennika',
