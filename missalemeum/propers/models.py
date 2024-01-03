@@ -1,3 +1,5 @@
+import dataclasses
+import re
 from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
@@ -71,6 +73,12 @@ class ParsedSource:
                 self._container[k] = v
 
 
+@dataclasses.dataclass
+class Rules:
+    vide = None
+    preface = None
+    preface_mod = None
+
 class Proper(ParsedSource):
     """
     Class representing a Proper for given observance.
@@ -78,6 +86,7 @@ class Proper(ParsedSource):
     title: str = None
     description: str = None
     rank: int = None
+    rules: Rules = None
     tags: List[str] = []
     supplements = []
     commemorations_names_translations = {
@@ -99,25 +108,29 @@ class Proper(ParsedSource):
         self.colors = list(color)
         if parsed_source is not None:
             self._container = copy(parsed_source._container)
+        self.rules = self._get_rules()
 
     def serialize(self) -> List[dict]:
         list_ = [v.serialize() for k, v in self._container.items()]
         return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
 
-    def get_rule(self, rule_name: str) -> Union[None, str]:
+    def _get_rules(self) -> Rules:
         """
         Extract certain rules from sections [Rank] and [Rule]:
-            * `Prefatio=.*` -> ID of preface for given observance
+            * `Prefatio=.*=.*` -> ID of preface for given observance and optional modifier
             * `vide .*`, `ex .*` -> global reference to other observance
 
         e.g.
         [Rank]
         Prefatio=Maria=veneratione;
 
-        translates into `{'preface': 'Maria', 'vide': None}`
+        translates into:
+          vide=None
+          prefatio=Maria
+          prefatio_mod=veneratione
 
         """
-        rules = {'preface': None, 'vide': None}
+        rules = Rules()
 
         rules_src = []
         for s in ('Rank', 'Rule'):
@@ -127,15 +140,18 @@ class Proper(ParsedSource):
                     rules_src.extend([i.strip() for i in line.split(';')])
 
         if rules_src:
-            preface = [i for i in rules_src if i.startswith('Prefatio') and '=' in i]
+            preface = [i.strip(';') for i in rules_src if i.startswith('Prefatio=')]
             if preface:
-                rules['preface'] = preface[-1].split('=')[1]
+                _, name, *mod = preface[-1].split('=')
+                rules.preface = name
+                if mod:
+                    rules.preface_mod = mod[0]
 
             vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
             if vide:
-                rules['vide'] = vide[0].split(' ')[-1].split(';')[0]
+                rules.vide = vide[0].split(' ')[-1].split(';')[0]
 
-        return rules.get(rule_name)
+        return rules
 
     def add_commemorations(self, commemorations: List['Proper']):
         for commemoration in commemorations:
@@ -179,6 +195,21 @@ class Section:
 
     def append_to_body(self, body_part: str) -> None:
         self.body.append(body_part)
+
+    def substitute_in_preface(self, from_: re.Pattern, to_: str):
+        """
+        As prefaces after the normalisation have both the title and a string
+        that can be potentially substituted (depending on feast) marked in the same way,
+        we explicitly omit the first line.
+
+        [Maria]
+        *de Beata Maria Virgine*
+        v. Vere dignum et justum est (...) Et te in *Festivitáte* beátæ Maríæ
+                                                    ^^^^^^^^^^^^^
+                                                    only do substitution here
+        """
+        for i, line in enumerate(self.body[1:], start=1):
+            self.body[i] = re.sub(from_, to_, line)
 
     def serialize(self) -> dict:
         return {'id': self.id, 'label': self.label, 'body': '\n'.join(self.body)}

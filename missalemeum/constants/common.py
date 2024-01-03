@@ -63,6 +63,7 @@ PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3:\w$')
 PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile(r'allel[uú][ij]a.*', re.IGNORECASE)
 PATTERN_TRACT = re.compile(r'.*tra[ck]t.*', re.IGNORECASE)
+PATTERN_PREFATIO_SUBSTITUTION = re.compile(r'\*(.*)\*')
 INTROIT = 'Introitus'
 ORATIO = 'Oratio'
 LECTIO = 'Lectio'
