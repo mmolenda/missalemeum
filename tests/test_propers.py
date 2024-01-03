@@ -179,18 +179,19 @@ def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, prefac
     assert preface_body == proper_latin.get_section(PREFATIO).get_body()[0]
 
 
-@pytest.mark.skip(reason="enable after pulling divinumofficium changes")
-@pytest.mark.parametrize("proper_id,preface_body_fragment", [
-    (SANCTI_05_31, 'obchodząc święto Najświętszej'),  # BVM the Queen
-    (SANCTI_12_08, 'obchodząc Niepokalane Poczęcie Najświętszej'),  # immaculate conception
-    (COMMUNE_C_10A, 'wysławiali czcząc Najświętszą Maryję'),  # rorate
+@pytest.mark.parametrize("proper_id,preface_body_fragment_v,preface_body_fragment_lat", [
+    (SANCTI_05_31, 'obchodząc święto Najświętszej', 'Et te in festivitate beátæ'),  # BVM the Queen
+    (SANCTI_08_15, 'obchodząc Wniebowzięcie Najświętszej', 'Et te in Assumptione beátæ'),
+    (SANCTI_12_08, 'obchodząc Niepokalane Poczęcie Najświętszej', 'Et te in Conceptióne immaculáta beátæ'),
+    (COMMUNE_C_10A, 'wysławiali czcząc Najświętszą Maryję', 'Et te in veneratione beátæ'),  # rorate
 ])
-def test_preface_modifications(proper_id, preface_body_fragment):
+def test_preface_modifications(proper_id, preface_body_fragment_v, preface_body_fragment_lat):
     """
     For example for feasts of BVM the name of the feast changes depending on the current feast
     """
     proper_vernacular, proper_latin = ProperParser(proper_id, language).parse()
-    assert preface_body_fragment in proper_vernacular.get_section(PREFATIO).serialize()['body']
+    assert preface_body_fragment_v in proper_vernacular.get_section(PREFATIO).serialize()['body']
+    assert preface_body_fragment_lat in proper_latin.get_section(PREFATIO).serialize()['body']
 
 
 @pytest.mark.parametrize("date_,title_part,sections_present,sections_absent", [

@@ -4431,6 +4431,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio Septem Dolorum B. M. ℣.*\nDeus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriós",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Jeremíæ Prophétæ\n*Jer 17:13-18*\nIn diébus illis: Dixit Jeremías: Dómine, omnes, qui te derelínquunt, confundéntur",
       "id": "Lectio"
     },
@@ -4451,6 +4455,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio Septem Dolorum B. M. ℣.*\nOfférimus tibi preces et hóstias, Dómine Jesu Christe, humíliter supplicántes: ut",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*de Sancta Cruce*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, ",
       "id": "Prefatio"
     },
@@ -4459,8 +4467,12 @@
       "id": "Communio"
     },
     {
-      "body": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\nPer Dóminum nos",
+      "body": "Sumpti sacrifícii, Dómine, perpetua nos tuítio non derelínquat: et nóxia semper a nobis cuncta depéllat.\nPer Dominum…",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio Septem Dolorum B. M. ℣.*\nSacrifícia, quæ súmpsimus, Dómine Jesu Christe, Transfixiónem Matris tuæ et Vírgi",
+      "id": "Commemoratio Postcommunio"
     },
     {
       "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nConcéde, quǽsumus, omnípotens Deus: ut, qui protectiónis tuæ",
@@ -13323,6 +13335,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio Victoriae Chocimensis*\nDeus, qui in summis regni nostri periculis, antiqua bracchii tui miracula renovasti",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lectio libri Sapientiæ\n*Eccli 45:1-6*\nDiléctus Deo et homínibus, cujus memória in benedictióne est. Símilem illum fecit ",
       "id": "Lectio"
     },
@@ -13343,6 +13359,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio Victoriae Chocimensis*\nOdorem, Domine, sacrificii huius cum gratiarum actionibus suscipe: et praesta; ut, ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -13353,6 +13373,10 @@
     {
       "body": "Prótegat nos, Dómine, cum tui perceptióne sacraménti beátus Francíscus, pro nobis intercedéndo: ut et conversatiónis eju",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio Victoriae Chocimensis*\nDeus, qui neminem in te sperantem, nimium affligi permittis, sed pium precibus prae",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-10-11": [
@@ -16905,11 +16929,11 @@
       "id": "Oratio"
     },
     {
-      "body": "*Pro Octava Nativitatis*\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigénititui nova per carnem Natívitas líberet; quos",
+      "body": "*Pro Octava Nativitatis*\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quo",
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Lectio Actuum Apostolorum.\n*Act 6:8-10; 7:54-59*\nIn diebus illis: Stéphanus plenus grátia et fortitúdine, faciébat prodí",
+      "body": "Lectio Actuum Apostolorum\n*Act 6:8-10; 7:54-59*\nIn diebus illis: Stéphanus, plenus grátia et fortitúdine, faciébat prodí",
       "id": "Lectio"
     },
     {
@@ -16917,7 +16941,7 @@
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secundum Matthǽum.\n*Matt 23:34-39*\nIn illo témpore: Dicébat Jesus scribis et pharisæis: Ecc",
+      "body": "Sequéntia ☩ sancti Evangélii secundum Matthǽum\n*Matt 23:34-39*\nIn illo témpore: Dicébat Jesus scribis et pharisæis: Ecce",
       "id": "Evangelium"
     },
     {
@@ -16937,7 +16961,7 @@
       "id": "Prefatio"
     },
     {
-      "body": "*Act 7:56; 7:59; 7:60*\nVídeo cœlos apértos, et Jesum stantem a dextris virtútis Dei: Dómine Jesu, accipe spíritum meum, ",
+      "body": "*Act 7:56; 7:59; 7:60*\nVídeo cælos apértos, et Jesum stantem a dextris virtútis Dei: Dómine Jesu, accipe spíritum meum, ",
       "id": "Communio"
     },
     {
