@@ -63,6 +63,7 @@ PATTERN_CLASS_3 = re.compile(r'^[a-z]+:.*:3:\w$')
 PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile(r'allel[uú][ij]a.*', re.IGNORECASE)
 PATTERN_TRACT = re.compile(r'.*tra[ck]t.*', re.IGNORECASE)
+PATTERN_PREFATIO_SUBSTITUTION = re.compile(r'\*(.*)\*')
 INTROIT = 'Introitus'
 ORATIO = 'Oratio'
 LECTIO = 'Lectio'
@@ -806,6 +807,7 @@ SANCTI_10_08 = 'sancti:10-08r:3:w'
 SANCTI_10_09 = 'sancti:10-09:3:w'
 SANCTI_10_09PL = 'sancti:10-09pl:3:w'
 SANCTI_10_10 = 'sancti:10-10:3:w'
+SANCTI_10_10PL = 'sancti:10-10pl:4:w'
 SANCTI_10_11 = 'sancti:10-11:2:w'  # Maternity of the Blessed Virgin Mary
 SANCTI_10_13 = 'sancti:10-13:3:w'
 SANCTI_10_14 = 'sancti:10-14:3:r'
@@ -906,6 +908,7 @@ VOTIVE_DEFUNCTORUM = 'votive:Defunctorum:0:b'
 VOTIVE_MORTALITATIS = 'votive:TemporeMortalitatis:0:v'
 VOTIVE_FIDEI_PROPAGATIONE = 'votive:FideiPropagatione:0:v'
 VOTIVE_MATRIMONIUM = 'votive:Matrimonium:0:w'
+VOTIVE_TERRIBILIS = 'votive:Terribilis:0:w'
 
 EMBER_DAYS = (
     TEMPORA_QUAD1_3,  # Ember Wednesday of Lent
@@ -1070,7 +1073,8 @@ CUSTOM_PREFACES = (
     (PATTERN_EASTER_PREFATIO, PREFATIO_PASCHAL),
     (TEMPORA_QUAD6_5, PREFATIO_OMIT),
     (PATTERN_LENT_PREFATIO, PREFATIO_LENT),  # Lent until Saturday before Passion Sunday
-    (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION)  # From Ascension Sunday till Friday before Pentecost Vigil
+    (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION),  # From Ascension Sunday till Friday before Pentecost Vigil,
+    (VOTIVE_TERRIBILIS, PREFATIO_COMMUNIS),
 )
 
 CUSTOM_INTER_READING_SECTIONS = {

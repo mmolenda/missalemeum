@@ -617,6 +617,7 @@ TITLES = {
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
     constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
     constants.SANCTI_10_10: 'S. Francisci Borgiæ Confessoris',
+    constants.SANCTI_10_10PL: 'Victoriae Chocimensis',
     constants.SANCTI_10_11: 'Maternitatis Beatæ Mariæ Virginis',
     constants.SANCTI_10_13: 'S. Eduardi Regis Confessoris',
     constants.SANCTI_10_14: 'S. Callisti Papæ et Martyris',
@@ -702,7 +703,8 @@ TITLES = {
     constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
     constants.VOTIVE_DEFUNCTORUM: 'Missa Defunctorum Quotidianis',
     constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis',
-    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione'
+    constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione',
+    constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.'
 }
 
 VOTIVE_MASSES = []
@@ -814,8 +816,8 @@ TRANSFORMATIONS = (
         (re.compile(r'^.*`.*$'), ''),
         (re.compile(r'^[&$]Gloria\.*'), 'Glória Patri…'),
         (re.compile(r'^\$Oremus\.*'), 'Oremus.'),
-        (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Per Dominum…'),
-        (re.compile(r'^\$Per Dominum\.*'), 'Per Dominum…'),
+        (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Per Dominum…'),
+        (re.compile(r'^\$Per D[oó]minum\.*'), 'Per Dominum…'),
         (re.compile(r'^\$Per eu[mn]dem\.*'), 'Per eúndem…'),
         (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Qui tecum…'),
         (re.compile(r'^\$Qui tecum\.*'), 'Qui tecum…'),

@@ -619,6 +619,7 @@ TITLES = {
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
     constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
+    constants.SANCTI_10_10PL: 'Dziękczynienie za zwycięstwo chocimskie z roku 1621',
     constants.SANCTI_10_11: 'Macierzyństwa N. M. P.',
     constants.SANCTI_10_13: 'Św. Edwarda, króla i wyznawcy',
     constants.SANCTI_10_14: 'Św. Kaliksta, papieża i męczennika',
@@ -705,7 +706,8 @@ TITLES = {
     constants.VOTIVE_DEFUNCTORUM: 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
-    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców'
+    constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców',
+    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę'
 }
 
 VOTIVE_MASSES = [
@@ -749,6 +751,8 @@ VOTIVE_MASSES = [
      'tags': ['Wotywna', 'Piątek']},
     {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
      'tags': ['Wotywna', 'Pierwsza sobota']},
+    {'ref': 'terribilis', 'id': constants.VOTIVE_TERRIBILIS, 'title': TITLES[constants.VOTIVE_TERRIBILIS],
+     'tags': ['Terribilis']},
     {'ref': 'fidei-propagatione', 'id': constants.VOTIVE_FIDEI_PROPAGATIONE, 'title': TITLES[constants.VOTIVE_FIDEI_PROPAGATIONE],
      'tags': ['Wotywna', 'W różnych potrzebach']},
     {'ref': 'matrimonium', 'id': constants.VOTIVE_MATRIMONIUM, 'title': TITLES[constants.VOTIVE_MATRIMONIUM],
@@ -870,8 +874,8 @@ TRANSFORMATIONS = (
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu…'),
     (re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
-    (re.compile(r'^\$Per Dominum eiusdem\.*'), 'Przez Pana…'),
-    (re.compile(r'^\$Per Dominum\.*'), 'Przez Pana…'),
+    (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Przez Pana…'),
+    (re.compile(r'^\$Per D[oó]minum\.*'), 'Przez Pana…'),
     (re.compile(r'^\$Per eu[mn]dem\.*'), 'Przez tegoż Pana…'),
     (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Który z Tobą…'),
     (re.compile(r'^\$Qui tecum\.*'), 'Który z Tobą…'),

@@ -4427,8 +4427,12 @@
       "id": "Introitus"
     },
     {
-      "body": "Prosimy Cię, Panie, wiej w serca nasze Twą łaskę, abyśmy poskramiając nasze wady dobrowolną pokutą, raczej za życia się ",
+      "body": "Prosimy Cię, Panie, wlej w serca nasze Twą łaskę, abyśmy poskramiając nasze wady dobrowolną pokutą, raczej za życia się ",
       "id": "Oratio"
+    },
+    {
+      "body": "*Wspomnienie Siedmiu Boleści N. M. P.*\nBoże, podczas Twej męki, według przepowiedni Symeona, miecz boleści przeszył najs",
+      "id": "Commemoratio Oratio"
     },
     {
       "body": "Czytanie z Księgi Proroka Jeremiasza.\n*Jer 17:13-18*\nW one dni rzekł Jeremiasz: Panie, wszyscy, co zapominają o Tobie, b",
@@ -4451,6 +4455,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Siedmiu Boleści N. M. P.*\nPrzedkładamy Ci, Panie Jezu Chryste, modlitwy i ofiary i pokornie błagamy, abyśmy",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja o Krzyżu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składa",
       "id": "Prefatio"
     },
@@ -4461,6 +4469,10 @@
     {
       "body": "Panie, niech nas nie opuszcza stała opieka spożytej ofiary i niech zawsze oddala od nas wszelkie niebezpieczeństwa.\nPrze",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Siedmiu Boleści N. M. P.*\nPanie Jezu Chryste, niech ofiara, z której pożywaliśmy czcząc z oddaniem przebici",
+      "id": "Commemoratio Postcommunio"
     },
     {
       "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nWszechmogący Boże, dozwól, abyśmy zabiegając o Twoją łaskawą opiekę, zo",
@@ -13335,6 +13347,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Dziękczynienie za zwycięstwo chocimskie z roku 1621*\nBoże, który w największych niebezpieczeństwach naszego",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Księgi Syracydesa.\n*Syr 45:1-6*\nUmiłowany przez Boga i ludzi, którego pamięć jest błogosławiona. Pan dał mu c",
       "id": "Lectio"
     },
@@ -13355,6 +13371,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Dziękczynienie za zwycięstwo chocimskie z roku 1621*\nPrzyjmij, Panie, wonność tej dziękczynnej ofiary, i st",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
@@ -13365,6 +13385,10 @@
     {
       "body": "Gdy przyjęliśmy Twój Sakrament, o Panie, niech nas wspomaga orędownictwo świętego Franciszka, Wyznawcy, abyśmy naśladowa",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Dziękczynienie za zwycięstwo chocimskie z roku 1621*\nBoże, Ty nie dopuszczasz, aby ktokolwiek z ufających T",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-10-11": [

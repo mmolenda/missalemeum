@@ -13,7 +13,8 @@ from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIV
                               PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
                               PREFATIO_OMIT,
-                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES)
+                              OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES, PREFATIO,
+                              PATTERN_PREFATIO_SUBSTITUTION)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -65,8 +66,7 @@ class ProperParser:
 
         # Reference in Rule section in 'vide' or 'ex' clause - load all sections
         # from the referenced file and get sections that are not explicitly defined in the current proper.
-        vide = proper.get_rule('vide')
-        if vide:
+        if vide := proper.rules.vide:
             if '/' in vide:
                 nested_path = self._get_full_path(f'{vide}.txt', lang)
             else:
@@ -89,7 +89,7 @@ class ProperParser:
         proper.tags = parsed_comment['tags']
         proper.tags.extend(self.translations[lang].PAGES.get(self.proper_id, []))
         proper.supplements = self.translations[lang].SUPPLEMENTS.get(self.proper_id, [])
-        proper = self._add_prefaces(proper, lang)
+        proper = self._add_preface(proper, lang)
         proper = self._filter_sections(proper)
         proper = self._amend_sections_contents(proper)
         proper = self._translate_section_titles(proper, lang)
@@ -278,14 +278,20 @@ class ProperParser:
             section.set_label(section_labels.get(section.id, section.id))
         return proper
 
-    def _add_prefaces(self, proper, lang):
-        preface_name = self.config.preface or proper.get_rule('preface') or None
-        if preface_name == PREFATIO_OMIT or (preface_name is None and 'Prefatio' in proper.keys()):
+    def _add_preface(self, proper, lang):
+        preface_name = self.config.preface or proper.rules.preface
+        if preface_name == PREFATIO_OMIT or (preface_name is None and PREFATIO in proper.keys()):
             return proper
-        preface_item = self.prefaces[lang].get_section(preface_name)
+        preface_item: Section = self.prefaces[lang].get_section(preface_name)
         if preface_item is None:
             preface_item = self.prefaces[lang].get_section(PREFATIO_COMMUNIS)
-        proper.set_section('Prefatio', Section('Prefatio', body=preface_item.body))
+
+        if preface_mod := proper.rules.preface_mod:
+            repl = preface_mod
+        else:
+            repl = '\\1'
+        preface_item.substitute_in_preface(PATTERN_PREFATIO_SUBSTITUTION, repl)
+        proper.set_section(PREFATIO, Section(PREFATIO, body=preface_item.body))
         return proper
 
     @staticmethod
