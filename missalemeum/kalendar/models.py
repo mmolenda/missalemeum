@@ -206,8 +206,10 @@ class Day:
         if self.commemoration:
             commemoration_propers = self._calculate_proper(self.commemoration)
             for celebration_proper in celebration_propers:
-                for i in (0, 1):
-                    celebration_proper[i].add_commemorations([j[i] for j in commemoration_propers])
+                for i in {0: "vernacular", 1: "latin"}.keys():
+                    proper = celebration_proper[i]
+                    commemorations = [cp[i] for cp in commemoration_propers if proper.id != cp[i].id]
+                    proper.add_commemorations(commemorations)
         return celebration_propers
 
     def _calculate_proper(self, observances: List[Observance]) -> List[Tuple['Proper', 'Proper']]:
