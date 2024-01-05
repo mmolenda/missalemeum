@@ -343,6 +343,22 @@ def test_excluded_commemorations(date_):
         assert None is proper_vernacular.get_section(stripped_section)
         assert None is proper_latin.get_section(stripped_section)
 
+@pytest.mark.parametrize("date_,prop1_commemoration,prop2_commemoration", [
+    ((2024, 3, 7), "Wspomnienie Św. Tomasza z Akwinu", "Wspomnienie Czwartek po 3 Niedzieli Wielkiego Postu"),
+    ((2024, 3, 21), "Wspomnienie Św. Benedykta, Opata", "Wspomnienie Czwartek po Niedzieli Męki Pańskiej")
+])
+def test_multiple_celebrations_with_multiple_commemorations(date_, prop1_commemoration, prop2_commemoration):
+    """
+    On Lent feria days either feria proper with saint's commemoration can be used
+    or vice versa - saint's proper with feria day's commemoration
+    """
+    missal = get_missal(date_[0], language)
+    proper = missal.get_day(date(*date_)).get_proper()
+    vern1, _ = proper[0]
+    vern2, _ = proper[1]
+    assert prop1_commemoration in vern1.get_section(COMMEMORATED_ORATIO).body[0]
+    assert prop2_commemoration in vern2.get_section(COMMEMORATED_ORATIO).body[0]
+
 
 def _get_proper_fixtures(fixture):
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:

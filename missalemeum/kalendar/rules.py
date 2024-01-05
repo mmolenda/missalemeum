@@ -128,7 +128,7 @@ def rule_lent_commemoration(
             if sancti.rank == 1:
                 # will be shifted to a different day by the other rule
                 return
-            return [lent_observance], [sancti], []
+            return [lent_observance, sancti], [lent_observance, sancti], []
         if lent_observance.rank > sancti.rank:
             return [sancti], [lent_observance], []
 
