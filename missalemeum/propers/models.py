@@ -75,9 +75,18 @@ class ParsedSource:
 
 @dataclasses.dataclass
 class Rules:
-    vide = None
-    preface = None
-    preface_mod = None
+    # global reference to other source file
+    vide: str = None
+    # name of the preface
+    preface: str = None
+    # optional substitute string for the preface that will be put instead of
+    # the string between two asterisks in the preface body.
+    # For example prefaces about B.V.M. have variable part depending on the feast.
+    preface_mod: str = None
+    # if present, no data will be taken from the source;
+    # used for compatibility in case of commemorations that are already included in
+    # main observance's source
+    ignore: bool = False
 
 class Proper(ParsedSource):
     """
@@ -140,21 +149,23 @@ class Proper(ParsedSource):
                     rules_src.extend([i.strip() for i in line.split(';')])
 
         if rules_src:
-            preface = [i.strip(';') for i in rules_src if i.startswith('Prefatio=')]
-            if preface:
+            if preface := [i.strip(';') for i in rules_src if i.startswith('Prefatio=')]:
                 _, name, *mod = preface[-1].split('=')
                 rules.preface = name
                 if mod:
                     rules.preface_mod = mod[0]
 
-            vide = [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]
-            if vide:
+            if vide := [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]:
                 rules.vide = vide[0].split(' ')[-1].split(';')[0]
+            if [i for i in rules_src if i.startswith('ignore')]:
+                rules.ignore = True
 
         return rules
 
     def add_commemorations(self, commemorations: List['Proper']):
         for commemoration in commemorations:
+            if commemoration.rules.ignore:
+                continue
             self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
             if commemoration.description:
                 self.description += f"\n\n{commemoration.description}"

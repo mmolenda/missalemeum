@@ -429,6 +429,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoration St. Hyginus Pope and Martyr*\nLook forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lesson from the letter of St Paul the Apostle to Titus\n*Titus 3:4-7*\nBeloved: When the goodness and kindness of God our ",
       "id": "Lectio"
     },
@@ -449,6 +453,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoration St. Hyginus Pope and Martyr*\nBy the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places,",
       "id": "Prefatio"
     },
@@ -459,6 +467,10 @@
     {
       "body": "May this Communion, O Lord, cleanse us from sin and, through the intercession of the Blessed Virgin Mary, Mother of God,",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoration St. Hyginus Pope and Martyr*\nBeing appeased, O Lord, guide thy Church, which has been nourished by holy r",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-01-12": [

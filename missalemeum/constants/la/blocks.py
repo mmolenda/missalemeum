@@ -399,9 +399,12 @@ SUNDAY_IN_CHRISTMAS_OCTAVE = (
 
 SANCTI = (
     constants.SANCTI_01_01,
+    constants.SANCTI_01_05,
     constants.SANCTI_01_06,
+    constants.SANCTI_01_11,
     constants.SANCTI_01_13,
     constants.SANCTI_01_14,
+    constants.SANCTI_01_14C,
     constants.SANCTI_01_15,
     constants.SANCTI_01_16,
     constants.SANCTI_01_17,

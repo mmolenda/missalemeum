@@ -429,6 +429,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Hygina, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustann",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Listu świętego Pawła Apostoła do Tytusa.\n*Tt 3:4-7*\nNajmilszy: Okazała się dobroć i łaskawość Boga, Zbawiciel",
       "id": "Lectio"
     },
@@ -449,6 +453,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Hygina, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzo",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
       "id": "Prefatio"
     },
@@ -459,6 +467,10 @@
     {
       "body": "Niech ta Komunia, o Panie, oczyści nas z grzechów i za przyczyną Najświętszej Dziewicy Bogarodzicy Maryi stanie się dla ",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Hygina, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez św",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-01-12": [

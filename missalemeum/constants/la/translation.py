@@ -2,6 +2,7 @@ import re
 
 from constants import common as constants
 
+
 TITLES = {
     constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'Sanctæ Familiæ Jesu Mariæ Joseph',
@@ -385,8 +386,11 @@ TITLES = {
     constants.COMMUNE_C2B: 'Commune Unius Martyris Pontificis, Sacerdotes Dei',
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',
+    constants.SANCTI_01_05: 'S. Telesphori Papæ et Mart.',
     constants.SANCTI_01_13: 'In Commemoratione Baptismatis Domini Nostri Jesu Christi',
+    constants.SANCTI_01_11: 'S. Hyginus Papæ et Mart.',
     constants.SANCTI_01_14: 'S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris',
+    constants.SANCTI_01_14C: 'S. Felicis Mart.',
     constants.SANCTI_01_15: 'S. Pauli Primi Eremitæ et Confessoris',
     constants.SANCTI_01_16: 'S. Marcelli Papæ et Martyris',
     constants.SANCTI_01_17: 'S. S. Antonii Abbatis',
@@ -706,7 +710,6 @@ TITLES = {
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione',
     constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.'
 }
-
 VOTIVE_MASSES = []
 
 SECTION_LABELS = {

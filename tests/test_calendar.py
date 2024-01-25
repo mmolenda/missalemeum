@@ -94,6 +94,9 @@ def test_sancti_shifted(day_id, expected_date):
     ((1950, 12, 24), [], [c.SANCTI_12_24], []),
     ((2000, 12, 24), [], [c.SANCTI_12_24], []),
     # Commemorations
+    ((2023, 1, 5), [], [c.FERIA], [c.SANCTI_01_05]),
+    ((2023, 1, 11), [c.TEMPORA_EPI1_3], [c.FERIA], [c.SANCTI_01_11]),
+    ((2023, 1, 14), [c.TEMPORA_EPI1_6], [c.SANCTI_01_14], [c.SANCTI_01_14C]),
     ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
     ((2018, 4, 22), [c.TEMPORA_PASC3_0], [c.TEMPORA_PASC3_0], []),
     ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], []),  # St. Mark, Evangelist
@@ -114,7 +117,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
     ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
     # Sanctae Mariae Sabbato
-    ((2019, 1, 5), [], [c.TEMPORA_C_10B], []),
+    ((2019, 1, 5), [], [c.TEMPORA_C_10B], [c.SANCTI_01_05]),
     ((2019, 1, 12), [], [c.TEMPORA_C_10B], []),
     ((2019, 1, 19), [c.TEMPORA_EPI1_6], [c.TEMPORA_C_10B], [c.SANCTI_01_19]),
     ((2019, 2, 16), [c.TEMPORA_EPI5_6], [c.TEMPORA_C_10C], []),

@@ -429,6 +429,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Hyginus Papæ et Mart.*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. (Mártyrem tuum a",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Titum\n*Tit 3:4-7*\nCaríssime: Appáruit benígnitas et humánitas Salvatóris nostri ",
       "id": "Lectio"
     },
@@ -449,6 +453,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Hyginus Papæ et Mart.*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gr",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*de Beata Maria Virgine*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine s",
       "id": "Prefatio"
     },
@@ -459,6 +467,10 @@
     {
       "body": "Hæc nos commúnio, Dómine, purget a crímine: et, intercedénte beáta Vírgine Dei Genetríce María, cœléstis remédii fáciat ",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Hyginus Papæ et Mart.*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-01-12": [

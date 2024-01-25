@@ -565,9 +565,12 @@ TEMPORA_C_10T = 'commune:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday 
 # SANCTI - days which have fixed date
 SANCTI_10_DU = 'sancti:10-DU:1:w'  # Feast of Christ the King; last Sunday of October
 SANCTI_01_01 = 'sancti:01-01:1:w'  # Octave of the Nativity
+SANCTI_01_05 = 'sancti:01-05:4:r'  # commemoratio S. Telesphori
 SANCTI_01_06 = 'sancti:01-06:1:w'  # Epiphany
+SANCTI_01_11 = 'sancti:01-11:4:r'  # commemoratio S. Hyginus
 SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
-SANCTI_01_14 = 'sancti:01-14:3:w'
+SANCTI_01_14 = 'sancti:01-14:3:w'  # S. Hilarii
+SANCTI_01_14C = 'sancti:01-14c:4:r'  # commemoratio S. Felicis
 SANCTI_01_15 = 'sancti:01-15:3:w'
 SANCTI_01_16 = 'sancti:01-16:3:r'
 SANCTI_01_17 = 'sancti:01-17:3:w'
