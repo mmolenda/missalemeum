@@ -423,6 +423,7 @@ TITLES = {
     constants.SANCTI_02_07: 'S. Romualdi Abbatis',
     constants.SANCTI_02_08: 'S. Joannis de Matha Confessoris',
     constants.SANCTI_02_09: 'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiæ Doctoris',
+    constants.SANCTI_02_09C: 'S. Appolloniæ Virginis et Martyris',
     constants.SANCTI_02_10: 'S. Scholasticæ Virginis',
     constants.SANCTI_02_11: 'In Apparitione Beatæ Mariæ Virginis',
     constants.SANCTI_02_12: 'Ss. Septem Fundat. Ord. Servorum B. M. V.',

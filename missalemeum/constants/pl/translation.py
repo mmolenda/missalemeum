@@ -424,6 +424,7 @@ TITLES = {
     constants.SANCTI_02_07: 'Św. Romualda, Opata',
     constants.SANCTI_02_08: 'Św. Jana z Maty, Wyznawcy',
     constants.SANCTI_02_09: 'Św. Cyryla Aleksandryjskiego, Biskupa, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_02_09C: 'Św. Apolonii, Dziewicy i Męczennicy',
     constants.SANCTI_02_10: 'Św. Scholastyki',
     constants.SANCTI_02_11: 'Objawienie się N. M. P. Niepokalanie Poczętej w Lourdes',
     constants.SANCTI_02_12: 'Siedmiu Założycieli Zakonu Serwitów N. M. P., Wyznawców',

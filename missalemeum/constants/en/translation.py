@@ -418,6 +418,7 @@ TITLES = {
     constants.SANCTI_02_07: 'St. Romuald ',
     constants.SANCTI_02_08: 'St. John of Matha',
     constants.SANCTI_02_09: 'St. Cyril of Alexandria',
+    constants.SANCTI_02_09C: 'St. Appollonia',
     constants.SANCTI_02_10: 'St. Scholastica',
     constants.SANCTI_02_11: 'Our Lady of Lourdes',
     constants.SANCTI_02_12: 'Seven Holy Servite Founders',
