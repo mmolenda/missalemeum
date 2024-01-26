@@ -163,23 +163,26 @@ class Proper(ParsedSource):
         return rules
 
     def add_commemorations(self, commemorations: List['Proper']):
-        for commemoration in commemorations:
+        for i, commemoration in enumerate(commemorations):
             if commemoration.rules.ignore:
                 continue
             self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
             if commemoration.description:
                 self.description += f"\n\n{commemoration.description}"
-            for commemorated_section_name, source_section_name in (
-                    (COMMEMORATED_ORATIO, ORATIO),
-                    (COMMEMORATED_SECRETA, SECRETA),
-                    (COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO)
+            for source_section_name, target_section_name, in (
+                    (ORATIO, COMMEMORATED_ORATIO),
+                    (SECRETA, COMMEMORATED_SECRETA),
+                    (POSTCOMMUNIO, COMMEMORATED_POSTCOMMUNIO)
             ):
-                commemorated_section = commemoration.get_section(source_section_name)
-                commemorated_section.body.insert(0, f"*{self.commemorations_names_translations[COMMEMORATION]} "
-                                                    f"{commemoration.title}*")
-                commemorated_section.id = commemorated_section_name
-                commemorated_section.label = self.commemorations_names_translations[commemorated_section_name]
-                self.set_section(commemorated_section_name, commemorated_section)
+                target_section = self.get_section(target_section_name) or Section(
+                    id_=target_section_name,
+                    label=self.commemorations_names_translations[target_section_name]
+                )
+                source_section = commemoration.get_section(source_section_name)
+                source_section.body.insert(0, f"*{self.commemorations_names_translations[COMMEMORATION]} "
+                                              f"{commemoration.title}*")
+                target_section.extend_body(source_section.body)
+                self.set_section(target_section_name, target_section)
 
     def __repr__(self):
         return f'Proper<{self.id}>'

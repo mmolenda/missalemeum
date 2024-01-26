@@ -289,19 +289,22 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
     # S. Thomæ Apostoli, commemoration of Ember Saturday of Advent
     ((2019, 12, 21), "Da nobis, quǽsumus, Dómine,", "Débitum tibi, Dómine, nostræ", "Adésto nobis, miséricors Deus",
                      "Commemoratio Sabbato", "Deus, qui cónspicis, quia", "Sacrifíciis præséntibus, quǽsumus", "Quǽsumus, Dómine, Deus"),
+    # Double commemoration
+    ((2023, 1, 19), "Omnípotens sempitérne Deus", "Oblata, Dómine, múnera", "Augeátur in nobis",
+                    "S. Marii et Soc. Mart.", "Exáudi, Dómine, pópulum tuum", "S. Canuto Regi Mart.", "S. Marii et Soc. Mart."),
 ])
 def test_calculated_commemorations(date_, collect_contains,secreta_contains,postcommunio_contains,
                                    comm_collect_sub, comm_collect_contains, comm_secreta_contains,
                                    comm_postcommunio_contains):
     missal = get_missal(date_[0], language)
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
-    assert collect_contains in proper_latin.get_section(ORATIO).body[0]
-    assert comm_collect_contains in proper_latin.get_section(COMMEMORATED_ORATIO).body[1]
-    assert comm_collect_sub in proper_latin.get_section(COMMEMORATED_ORATIO).body[0]
-    assert secreta_contains in proper_latin.get_section(SECRETA).body[0]
-    assert comm_secreta_contains in proper_latin.get_section(COMMEMORATED_SECRETA).body[1]
-    assert postcommunio_contains in proper_latin.get_section(POSTCOMMUNIO).body[0]
-    assert comm_postcommunio_contains in proper_latin.get_section(COMMEMORATED_POSTCOMMUNIO).body[1]
+    assert collect_contains in proper_latin.get_section(ORATIO).serialize()["body"]
+    assert comm_collect_contains in proper_latin.get_section(COMMEMORATED_ORATIO).serialize()["body"]
+    assert comm_collect_sub in proper_latin.get_section(COMMEMORATED_ORATIO).serialize()["body"]
+    assert secreta_contains in proper_latin.get_section(SECRETA).serialize()["body"]
+    assert comm_secreta_contains in proper_latin.get_section(COMMEMORATED_SECRETA).serialize()["body"]
+    assert postcommunio_contains in proper_latin.get_section(POSTCOMMUNIO).serialize()["body"]
+    assert comm_postcommunio_contains in proper_latin.get_section(COMMEMORATED_POSTCOMMUNIO).serialize()["body"]
 
 
 @pytest.mark.parametrize("date_,introit,collect,lectio,gradual,evangelium,offertorium,secreta,communio,postcommunio", [

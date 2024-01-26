@@ -97,6 +97,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2023, 1, 5), [], [c.FERIA], [c.SANCTI_01_05]),
     ((2023, 1, 11), [c.TEMPORA_EPI1_3], [c.FERIA], [c.SANCTI_01_11]),
     ((2023, 1, 14), [c.TEMPORA_EPI1_6], [c.SANCTI_01_14], [c.SANCTI_01_14C]),
+    ((2023, 1, 19), [c.TEMPORA_EPI2_4], [c.FERIA], [c.SANCTI_01_19, c.SANCTI_01_19C]),  # double commemoration
     ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
     ((2018, 4, 22), [c.TEMPORA_PASC3_0], [c.TEMPORA_PASC3_0], []),
     ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], []),  # St. Mark, Evangelist
