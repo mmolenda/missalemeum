@@ -7,7 +7,7 @@ import pytest
 
 from constants import common as c
 from kalendar.models import Observance
-from utils import match
+from utils import match_first
 from tests.conftest import get_missal, HERE
 
 language = 'pl'
@@ -168,7 +168,7 @@ def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemo
     ((2016, 2, 28), [c.SANCTI_02_27]),  # leap year
 ])
 def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
-    assert not match(get_missal(date_[0]).get_day(date(*date_)).all, not_expected_day_ids)
+    assert not match_first(get_missal(date_[0]).get_day(date(*date_)).all, not_expected_day_ids)
 
 
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [

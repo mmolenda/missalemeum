@@ -14,8 +14,9 @@ from exceptions import SupplementNotFound
 log = logging.getLogger(__name__)
 
 
-def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821
-          patterns: Union[List[str], str, List[Pattern], Pattern]):
+def match_all(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821
+                patterns: Union[List[str], str, List[Pattern], Pattern]):
+    matches = []
     if not isinstance(observances, (list, tuple)):
         observances = [observances]
     if not isinstance(patterns, (list, tuple)):
@@ -24,7 +25,14 @@ def match(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],
         observance_id = observance if isinstance(observance, str) else observance.id
         for pattern in patterns:
             if re.match(pattern, observance_id):
-                return observance
+                matches.append(observance)
+    return matches
+
+
+def match_first(observances: Union[str, 'Observance', List[Union[str, 'Observance']]],  # noqa: F821
+                patterns: Union[List[str], str, List[Pattern], Pattern]):
+    if matches := match_all(observances, patterns):
+        return matches[0]
 
 
 def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) -> Union[str, None]:  # noqa: F821
@@ -83,7 +91,7 @@ def get_pregenerated_proper(lang, proper_id, tempora_id=None):
             if proper_id == SANCTI_02_02 and tempora_id is not None:
                 # Candlemass is the only pre-generated proper for which the gradual/tract differs
                 # depending on liturgical period, hence this hack
-                section_to_del = GRADUALE if match(tempora_id, [PATTERN_PRE_LENTEN, PATTERN_LENT]) else TRACTUS
+                section_to_del = GRADUALE if match_first(tempora_id, [PATTERN_PRE_LENTEN, PATTERN_LENT]) else TRACTUS
                 idx_to_del = [i for i, j in enumerate(proper[0]['sections']) if j['id'] == section_to_del][0]
                 del proper[0]['sections'][idx_to_del]
             return proper

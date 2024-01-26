@@ -21,7 +21,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_PENT01_0A, FERIA)
 from propers.models import Proper, ProperConfig
 from propers.parser import ProperParser
-from utils import get_custom_preface, match
+from utils import get_custom_preface, match_first
 
 log = logging.getLogger(__name__)
 
@@ -234,7 +234,7 @@ class Day:
         else:
             # It's a feria day without its own proper for which the last Sunday's proper is used
             inferred_observances = self._infer_observance()
-            if observances and not match(observances, FERIA):
+            if observances and not match_first(observances, FERIA):
                 rank: int = observances[0].rank
                 preface: str = get_custom_preface(observances[0])
             else:
@@ -277,9 +277,9 @@ class Day:
     def _infer_inter_reading_section(self, observance):
         if observance.id in CUSTOM_INTER_READING_SECTIONS:
             return CUSTOM_INTER_READING_SECTIONS[observance.id]
-        elif match(self.tempora, PATTERN_EASTER):
+        elif match_first(self.tempora, PATTERN_EASTER):
             return GRADUALE_PASCHAL
-        elif match(self.tempora, [PATTERN_PRE_LENTEN, PATTERN_LENT]):
+        elif match_first(self.tempora, [PATTERN_PRE_LENTEN, PATTERN_LENT]):
             return TRACTUS
         return GRADUALE
 
