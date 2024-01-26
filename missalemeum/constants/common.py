@@ -612,6 +612,7 @@ SANCTI_02_14 = 'sancti:02-14:4:r'
 SANCTI_02_15 = 'sancti:02-15:4:r'
 SANCTI_02_18 = 'sancti:02-18:4:r'
 SANCTI_02_22 = 'sancti:02-22:2:w'  # Feast of the Chair of Saint Peter
+SANCTI_02_22C = 'sancti:02-22c:4:r'  # St. Paul
 SANCTI_02_23 = 'sancti:02-23r:3:w'
 SANCTI_02_24 = 'sancti:02-24:2:r'  # St. Matthias, Apostle
 SANCTI_02_27 = 'sancti:02-27:3:w'

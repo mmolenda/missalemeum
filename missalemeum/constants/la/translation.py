@@ -431,6 +431,7 @@ TITLES = {
     constants.SANCTI_02_15: 'SS. Faustini et Jovitæ',
     constants.SANCTI_02_18: 'S. Simeonis Faustini Episcopi et Martyris',
     constants.SANCTI_02_22: 'In Cathedra S. Petri Ap.',
+    constants.SANCTI_02_22C: 'S. Pauli',
     constants.SANCTI_02_23: 'S. Petri Damiani',
     constants.SANCTI_02_24: 'S. Matthiæ Apostoli',
     constants.SANCTI_02_27: 'S. Gabrielis a Virgine Perdolente Confessoris',

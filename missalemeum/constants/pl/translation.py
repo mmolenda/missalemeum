@@ -432,6 +432,7 @@ TITLES = {
     constants.SANCTI_02_15: 'Śś. Faustyna i Jowity, Męczenników',
     constants.SANCTI_02_18: 'Św. Symeona, Biskupa i Męczennika',
     constants.SANCTI_02_22: 'Katedry św. Piotra Apostoła',
+    constants.SANCTI_02_22C: 'Św. Pawła',
     constants.SANCTI_02_23: 'Św. Piotra Damiana, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_02_24: 'Św. Macieja Apostoła',
     constants.SANCTI_02_27: 'Św. Gabriela od Matki Bożej Bolesnej',

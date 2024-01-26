@@ -426,6 +426,7 @@ TITLES = {
     constants.SANCTI_02_15: 'Sts. Faustinus & Jovita',
     constants.SANCTI_02_18: 'St. Simeon',
     constants.SANCTI_02_22: 'Chair of St. Peter ',
+    constants.SANCTI_02_22C: 'St. Paul',
     constants.SANCTI_02_23: 'St. Peter Damien',
     constants.SANCTI_02_24: 'St. Matthias',
     constants.SANCTI_02_27: 'St. Gabriel of Our Lady of Sorrows',

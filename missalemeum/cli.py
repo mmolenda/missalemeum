@@ -45,8 +45,12 @@ def calendar(year, language):
 
             collect = []
             padding = 40
-            for i in ('tempora', 'celebration', 'commemoration'):
-                items = getattr(day, i, None)
+            tempora = day.tempora
+            celebration = day.celebration
+            commemoration = day.commemoration
+            if celebration and commemoration:
+                commemoration = [i for i in commemoration if i.id != celebration[0].id]
+            for items in (tempora, celebration, commemoration):
                 if not items:
                     collect.append('-')
                 else:
