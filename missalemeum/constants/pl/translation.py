@@ -420,6 +420,7 @@ TITLES = {
     constants.SANCTI_02_04: 'Św. Andrzeja Corsini, Biskupa i Wyznawcy',
     constants.SANCTI_02_05: 'Św. Agaty, Dziewicy i Męczennicy',
     constants.SANCTI_02_06: 'Św. Tytusa, Biskupa i Wyznawcy',
+    constants.SANCTI_02_06C: 'Św. Doroty, Dziewicy i Męczennicy',
     constants.SANCTI_02_07: 'Św. Romualda, Opata',
     constants.SANCTI_02_08: 'Św. Jana z Maty, Wyznawcy',
     constants.SANCTI_02_09: 'Św. Cyryla Aleksandryjskiego, Biskupa, Wyznawcy i Doktora Kościoła',

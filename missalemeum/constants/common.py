@@ -600,6 +600,7 @@ SANCTI_02_03 = 'sancti:02-03:4:r'
 SANCTI_02_04 = 'sancti:02-04:3:w'
 SANCTI_02_05 = 'sancti:02-05:3:r'
 SANCTI_02_06 = 'sancti:02-06:3:w'
+SANCTI_02_06C = 'sancti:02-06c:4:r'  # św. Doroty
 SANCTI_02_07 = 'sancti:02-07:3:w'
 SANCTI_02_08 = 'sancti:02-08:3:w'
 SANCTI_02_09 = 'sancti:02-09:3:w'

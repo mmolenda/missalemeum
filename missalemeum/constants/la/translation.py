@@ -419,6 +419,7 @@ TITLES = {
     constants.SANCTI_02_04: 'S. Andreæ Corsini Episcopi et Confessoris',
     constants.SANCTI_02_05: 'S. Agathæ Virginis et Martyris',
     constants.SANCTI_02_06: 'S. Titi Episc. et Confessoris',
+    constants.SANCTI_02_06C: 'S. Dorotheæ Virg. et Mart.',
     constants.SANCTI_02_07: 'S. Romualdi Abbatis',
     constants.SANCTI_02_08: 'S. Joannis de Matha Confessoris',
     constants.SANCTI_02_09: 'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiæ Doctoris',

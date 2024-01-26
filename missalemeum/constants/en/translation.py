@@ -414,6 +414,7 @@ TITLES = {
     constants.SANCTI_02_04: 'St. Andrew Corsini',
     constants.SANCTI_02_05: 'St. Agatha',
     constants.SANCTI_02_06: 'St. Titus',
+    constants.SANCTI_02_06C: 'St. Dorothy',
     constants.SANCTI_02_07: 'St. Romuald ',
     constants.SANCTI_02_08: 'St. John of Matha',
     constants.SANCTI_02_09: 'St. Cyril of Alexandria',
