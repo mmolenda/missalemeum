@@ -1,0 +1,8 @@
+[Oratio]
+@Sancti/01-19:Commemoratio Oratio
+
+[Secreta]
+@Sancti/01-19:Commemoratio Secreta
+
+[Postcommunio]
+@Sancti/01-19:Commemoratio Postcommunio
