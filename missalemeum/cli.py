@@ -34,33 +34,40 @@ def _print_proper(language, proper):
 
 @click.command()
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
+@click.option('--month', default=None, type=int)
 @click.option('--language', default=LANGUAGE_ENGLISH)
-def calendar(year, language):
+def calendar(year, language, month):
     def _print_all(missal):
         for date_, day in missal.items():
+            if month and date_.month != month:
+                continue
             if date_.weekday() == 6:
                 click.echo("---")
             if date_.day == 1:
                 click.echo(f"\n\n# {date_.month}\n")
 
-            collect = []
+
             padding = 40
             tempora = day.tempora
             celebration = day.celebration
             commemoration = day.commemoration
-            if celebration and commemoration:
-                commemoration = [i for i in commemoration if i.id != celebration[0].id]
-            for items in (tempora, celebration, commemoration):
-                if not items:
-                    collect.append('-')
-                else:
-                    repr_ = f"[{items[0].name}:{items[0].rank}] {items[0].title}"
-                    if len(repr_) > padding:
-                        repr_ = repr_[:padding - 3] + '…'
-                    collect.append(repr_)
-            te, ce, co = collect
-            click.echo(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
-                       f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
+            rows_count = max([len(tempora), len(celebration), len(commemoration)])
+            for row_number in range(0, rows_count):
+                collect = []
+                for items in (tempora, celebration, commemoration):
+                    if not items:
+                        collect.append('-')
+                    elif len(items) - 1 < row_number:
+                        collect.append("")
+                    else:
+                        repr_ = f"[{items[row_number].name}:{items[row_number].rank}] {items[row_number].title}"
+                        if len(repr_) > padding:
+                            repr_ = repr_[:padding - 3] + '…'
+                        collect.append(repr_)
+                te, ce, co = collect
+                datestr = date_.strftime('%A %Y-%m-%d') if row_number == 0 else ""
+                click.echo(f"{datestr.ljust(padding)} "
+                           f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
     missal: Calendar = controller.get_calendar(year, language)
     _print_all(missal)

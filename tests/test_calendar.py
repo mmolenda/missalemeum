@@ -199,11 +199,11 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
     # Lent days win with feasts < 2 class
     # 2019-03-07 Comm: S. Thomæ de Aquino
-    ((2019, 3, 7), [c.TEMPORA_QUADP3_4, c.SANCTI_03_07], [c.TEMPORA_QUADP3_4, c.SANCTI_03_07]),
+    ((2019, 3, 7), [c.TEMPORA_QUADP3_4, c.SANCTI_03_07], [c.SANCTI_03_07, c.TEMPORA_QUADP3_4]),
     # 2019-03-08 Comm: S. Joannis de Deo
-    ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.TEMPORA_QUADP3_5, c.SANCTI_03_08]),
+    ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.SANCTI_03_08, c.TEMPORA_QUADP3_5]),
     # 2019-03-09 Comm: S. Franciscæ Viduæ
-    ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.TEMPORA_QUADP3_6, c.SANCTI_03_09]),
+    ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.SANCTI_03_09, c.TEMPORA_QUADP3_6]),
     # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
     ((2019, 1, 18), [c.FERIA], [c.SANCTI_01_18]),
     ((2019, 2, 14), [c.FERIA], [c.SANCTI_02_14]),
