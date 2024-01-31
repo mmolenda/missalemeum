@@ -15757,7 +15757,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie 1 Niedziela Adwentu*\nWzbudź potęgę Twoją, prosimy Cię, Panie, i przybądź: Niech Twoja opieka wyzwoli nas od",
+      "body": "*Wspomnienie św. Barbary*\nPanie, niech nas broni od wszelkich przeciwności wstawiennictwo św. Barbary, Dziewicy i Męczen",
       "id": "Commemoratio Oratio"
     },
     {
@@ -15781,7 +15781,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie 1 Niedziela Adwentu*\nPanie, niech te święte tajemnice oczyszczą nas swoją potężną mocą i pozwolą w większej",
+      "body": "*Wspomnienie św. Barbary*\nPrzyjmij, Panie, dary, które Ci składamy w uroczystość świętej Barbary, Dziewicy i Męczennicy ",
       "id": "Commemoratio Secreta"
     },
     {
@@ -15797,7 +15797,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*Wspomnienie 1 Niedziela Adwentu*\nObdarz nas, Panie, miłosierdziem Swoim w pośrodku Twojej świątyni, abyśmy poprzedzali ",
+      "body": "*Wspomnienie św. Barbary*\nPanie, niech nas wspomaga przyjęty Sakrament, i za wstawiennictwem świętej Barbary, Twojej Dzi",
       "id": "Commemoratio Postcommunio"
     }
   ],
@@ -16303,10 +16303,6 @@
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie Św. Łucji, Dziewicy i Męczennicy*\nWysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z urocz",
-      "id": "Commemoratio Oratio"
-    },
-    {
       "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 4:4-7*\nBracia: Weselcie się w Panu zawsze, mówię powtórnie: w",
       "id": "Lectio"
     },
@@ -16327,10 +16323,6 @@
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie Św. Łucji, Dziewicy i Męczennicy*\nPrzyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świ",
-      "id": "Commemoratio Secreta"
-    },
-    {
       "body": "*Prefacja o Trójcy Przenajświętszej*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tob",
       "id": "Prefatio"
     },
@@ -16341,10 +16333,6 @@
     {
       "body": "Błagamy, Panie, łaskawość Twoją: aby ten Boski posiłek oczyścił nas z grzechów i przygotował na zbliżające się święta.\nP",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Wspomnienie Św. Łucji, Dziewicy i Męczennicy*\nNasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas za wstawie",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-12-14": [
@@ -17007,7 +16995,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie Św. Jana, Apostoła i Ewangelisty*\nOświecaj łaskawie Twój Kościół, o Panie, aby dzięki naukom św. Jana, Twoj",
+      "body": "*W Oktawie Narodzenia*\nDozwól, prosimy Cię, wszechmogący Boże, aby nowe narodzenie się w ciele Jednorodzonego Syna Twego",
       "id": "Commemoratio Oratio"
     },
     {
@@ -17031,7 +17019,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie Św. Jana, Apostoła i Ewangelisty*\nPrzyjmij, Panie, dary, które Ci składamy w uroczystość św. Jana. Ufamy, ż",
+      "body": "*W Oktawie Narodzenia*\nUświęć, Panie, złożone dary przez nowe narodzenie Jedynego Syna Twojego i oczyść nas ze zmazy nas",
       "id": "Commemoratio Secreta"
     },
     {
@@ -17047,7 +17035,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*Wspomnienie Św. Jana, Apostoła i Ewangelisty*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nas",
+      "body": "*W Oktawie Narodzenia*\nWszechmogący Boże, narodzony dzisiaj Zbawiciel świata przywrócił nam synostwo Boże; spraw, prosim",
       "id": "Commemoratio Postcommunio"
     }
   ],

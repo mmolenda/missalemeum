@@ -15745,7 +15745,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*Commemoratio Dominica I Adventus*\nExcita, quǽsumus, Dómine, poténtiam tuam, et veni: ut ab imminéntibus peccatórum nost",
+      "body": "*Commemoratio S. Barbaræ Virginis et Martyris*\nDeus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victór",
       "id": "Commemoratio Oratio"
     },
     {
@@ -15769,7 +15769,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Commemoratio Dominica I Adventus*\nHæc sacra nos, Dómine, poténti virtúte mundátos ad suum fáciant purióres veníre princ",
+      "body": "*Commemoratio S. Barbaræ Virginis et Martyris*\nSúscipe, Dómine, múnera, quæ in beátæ Bárbaræ Vírginis et Mártyris tuæ so",
       "id": "Commemoratio Secreta"
     },
     {
@@ -15785,7 +15785,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*Commemoratio Dominica I Adventus*\nSuscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut reparatiónis nostræ v",
+      "body": "*Commemoratio S. Barbaræ Virginis et Martyris*\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta Bárbar",
       "id": "Commemoratio Postcommunio"
     }
   ],
@@ -16291,10 +16291,6 @@
       "id": "Oratio"
     },
     {
-      "body": "*Commemoratio S. Luciæ Virginis et Martyris*\nExáudi nos, Deus, salutáris noster: ut, sicut de beátæ Luciæ Vírginis tuæ f",
-      "id": "Commemoratio Oratio"
-    },
-    {
       "body": "Lectio Epístolæ beáti Pauli Apóstoli ad Philippénses\n*Philipp 4:4-7*\nFratres: Gaudéte in Dómino semper: íterum dico, gau",
       "id": "Lectio"
     },
@@ -16315,10 +16311,6 @@
       "id": "Secreta"
     },
     {
-      "body": "*Commemoratio S. Luciæ Virginis et Martyris*\nAccépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuorum honore Sanctóru",
-      "id": "Commemoratio Secreta"
-    },
-    {
       "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
       "id": "Prefatio"
     },
@@ -16329,10 +16321,6 @@
     {
       "body": "Implorámus, Dómine, cleméntiam tuam: ut hæc divína subsídia, a vítiis expiátos, ad festa ventúra nos prǽparent.\nPer Domi",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Commemoratio S. Luciæ Virginis et Martyris*\nSatiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper in",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-12-14": [
@@ -16995,7 +16983,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*Commemoratio S. Joannis Apostoli et Evangelistæ*\nEcclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis Apóstoli ",
+      "body": "*Pro Octava Nativitatis:*\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; qu",
       "id": "Commemoratio Oratio"
     },
     {
@@ -17019,7 +17007,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Commemoratio S. Joannis Apostoli et Evangelistæ*\nSúscipe, Dómine, múnera, quæ in ejus tibi sollemnitáte deférimus, cuju",
+      "body": "*Pro Octava Nativitatis:*\nObláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostróru",
       "id": "Commemoratio Secreta"
     },
     {
@@ -17035,7 +17023,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*Commemoratio S. Joannis Apostoli et Evangelistæ*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices deprecámur: ut",
+      "body": "*Pro Octava Nativitatis:*\nPræsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatió",
       "id": "Commemoratio Postcommunio"
     }
   ],
