@@ -7667,6 +7667,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Margaritæ Reginæ viduæ*\nDeus, qui beátam Margarítam regínam exímia in páuperes caritáte mirábilem effec",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lectio libri Sapientiæ\n*Eccli 45:1-6*\nDiléctus Deo et homínibus, cujus memória in benedictióne est. Símilem illum fecit ",
       "id": "Lectio"
     },
@@ -7687,6 +7691,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Margaritæ Reginæ viduæ*\nAccépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: q",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -7697,6 +7705,10 @@
     {
       "body": "Præsta, quǽsumus, omnípotens Deus, ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto Bogumilo, Confessór",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Margaritæ Reginæ viduæ*\nSatiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interv",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-06-11": [

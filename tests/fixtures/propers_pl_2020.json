@@ -7667,6 +7667,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Małgorzaty, Królowej Szkockiej, Wdowy*\nBoże, któryś świętą królową Małgorzatę uczynił godną podziwu dla",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Księgi Syracydesa.\n*Syr 45:1-6*\nUmiłowany przez Boga i ludzi, którego pamięć jest błogosławiona. Pan dał mu c",
       "id": "Lectio"
     },
@@ -7687,6 +7691,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Małgorzaty, Królowej Szkockiej, Wdowy*\nPrzyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci T",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
@@ -7697,6 +7705,10 @@
     {
       "body": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną błogosławionego Bogumiła, Tweg",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Małgorzaty, Królowej Szkockiej, Wdowy*\nNasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas s",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-06-11": [
