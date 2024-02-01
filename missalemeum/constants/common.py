@@ -283,6 +283,7 @@ TEMPORA_QUAD5_2 = 'tempora:Quad5-2:3:v'
 TEMPORA_QUAD5_3 = 'tempora:Quad5-3:3:v'
 TEMPORA_QUAD5_4 = 'tempora:Quad5-4:3:v'
 TEMPORA_QUAD5_5 = 'tempora:Quad5-5Feria:3:v'
+TEMPORA_QUAD5_5C = 'tempora:Quad5-5Feriac:4:w'
 TEMPORA_QUAD5_6 = 'tempora:Quad5-6:3:v'
 TEMPORA_QUAD6_0 = 'tempora:Quad6-0r:1:rv'  # 2nd Passion Sunday (Palm Sunday)
 TEMPORA_QUAD6_1 = 'tempora:Quad6-1:1:v'

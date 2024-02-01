@@ -102,6 +102,7 @@ TITLES = {
     constants.TEMPORA_QUAD5_3: 'Feria IV infra Hebd Passionis',
     constants.TEMPORA_QUAD5_4: 'Feria V infra Hebd Passionis',
     constants.TEMPORA_QUAD5_5: 'Feria VI infra Hebd Passionis',
+    constants.TEMPORA_QUAD5_5C: 'Commemoratio Septem Dolorum B. M. V.',
     constants.TEMPORA_QUAD5_6: 'Sabbato infra Hebd Passionis',
     constants.TEMPORA_QUAD6_0: 'Dominica II Passionis seu in Palmis',
     constants.TEMPORA_QUAD6_1: 'Feria II Hebdomadæ Sanctæ',

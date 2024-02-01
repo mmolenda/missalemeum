@@ -101,6 +101,7 @@ TITLES = {
     constants.TEMPORA_QUAD5_3: 'Feria IV of Passion Week',
     constants.TEMPORA_QUAD5_4: 'Feria V of Passion Week',
     constants.TEMPORA_QUAD5_5: 'Feria VI of Passion Week',
+    constants.TEMPORA_QUAD5_5C: 'For Our Lady of the Seven Sorrows',
     constants.TEMPORA_QUAD5_6: 'Saturday of Passion Week',
     constants.TEMPORA_QUAD6_0: 'Palm Sunday',
     constants.TEMPORA_QUAD6_1: 'Feria II of Holy Week',

@@ -103,6 +103,7 @@ TITLES = {
     constants.TEMPORA_QUAD5_3: 'Środa po Niedzieli Męki Pańskiej',
     constants.TEMPORA_QUAD5_4: 'Czwartek po Niedzieli Męki Pańskiej',
     constants.TEMPORA_QUAD5_5: 'Piątek po Niedzieli Męki Pańskiej',
+    constants.TEMPORA_QUAD5_5C: 'Wspomnienie Siedmiu Boleści N. M. P.',
     constants.TEMPORA_QUAD5_6: 'Sobota po Niedzieli Męki Pańskiej',
     constants.TEMPORA_QUAD6_0: 'Niedziela Palmowa',
     constants.TEMPORA_QUAD6_1: 'Wielki Poniedziałek',

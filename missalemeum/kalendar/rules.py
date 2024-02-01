@@ -34,7 +34,7 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
                               PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
-                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI)
+                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, TEMPORA_QUAD5_5, TEMPORA_QUAD5_5C)
 from kalendar.models import Calendar, Observance
 from utils import match_first, match_all
 
@@ -75,6 +75,14 @@ def rule_feb27(
     # Feb 27, normally on Feb 27 but in leap year on Feb 28
     if match_first(observances, SANCTI_02_27) and isleap(date_.year) and date_.day == 27:
         return [match_first(observances, PATTERN_TEMPORA)], [], [[date(date_.year, 2, 28), [match_first(observances, SANCTI_02_27)]]]
+
+
+def rule_seven_sorrows_on_friday_after_passion_sunday(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    friday_after_passion = match_first(observances, TEMPORA_QUAD5_5)
+    seven_sorrows = match_first(observances, TEMPORA_QUAD5_5C)
+    if friday_after_passion and seven_sorrows:
+        return [friday_after_passion], [seven_sorrows], []
 
 
 def rule_bmv_office_on_saturday(
@@ -259,6 +267,7 @@ rules = (
     rule_all_souls,
     rule_st_matthias,
     rule_feb27,
+    rule_seven_sorrows_on_friday_after_passion_sunday,
     rule_same_class_feasts_take_over_advent_feria_and_ember_days,
     rule_lent_commemoration,
     rule_shift_conflicting_1st_class_feasts,

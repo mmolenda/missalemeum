@@ -102,7 +102,7 @@ FROM_PRE_LENT_TO_POST_PENTECOST = (
     (constants.TEMPORA_QUAD5_2,),
     (constants.TEMPORA_QUAD5_3,),
     (constants.TEMPORA_QUAD5_4,),
-    (constants.TEMPORA_QUAD5_5,),
+    (constants.TEMPORA_QUAD5_5, constants.TEMPORA_QUAD5_5C),
     (constants.TEMPORA_QUAD5_6,),
     (constants.TEMPORA_QUAD6_0,),
     (constants.TEMPORA_QUAD6_1,),
