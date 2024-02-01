@@ -100,7 +100,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2023, 1, 19), [c.TEMPORA_EPI2_4], [c.FERIA], [c.SANCTI_01_19, c.SANCTI_01_19C]),  # double commemoration
     ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
     ((2018, 4, 22), [c.TEMPORA_PASC3_0], [c.TEMPORA_PASC3_0], []),
-    ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], []),  # St. Mark, Evangelist
+    ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], [c.SANCTI_04_25C]),  # St. Mark, Evangelist
     ((2018, 5, 10), [c.TEMPORA_PASC5_4], [c.TEMPORA_PASC5_4], []),  # Ascension, no comm.
     ((2018, 5, 19), [c.TEMPORA_PASC6_6], [c.TEMPORA_PASC6_6], []),  # Vigil of Pentecost, no comm.
     ((2018, 5, 21), [c.TEMPORA_PASC7_1], [c.TEMPORA_PASC7_1], []),  # Pentecost Octave, no comm.

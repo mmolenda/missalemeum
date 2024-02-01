@@ -648,6 +648,7 @@ SANCTI_04_23 = 'sancti:04-23:4:r'
 SANCTI_04_23PL = 'sancti:04-23pl:1:r'
 SANCTI_04_24 = 'sancti:04-24:3:r'
 SANCTI_04_25 = 'sancti:04-25:2:r'  # St. Mark, Evangelist
+SANCTI_04_25C = 'sancti:04-25c:4:r'  #
 SANCTI_04_26 = 'sancti:04-26:3:r'
 SANCTI_04_27 = 'sancti:04-27:3:w'
 SANCTI_04_28 = 'sancti:04-28:3:w'

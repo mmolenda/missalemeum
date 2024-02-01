@@ -465,6 +465,7 @@ TITLES = {
     constants.SANCTI_04_23PL: 'S. Adalberti, Episcopi et Martyris',
     constants.SANCTI_04_24: 'S. Fidelis de Sigmaringa Martyris',
     constants.SANCTI_04_25: 'S. Marci Evangelistæ',
+    constants.SANCTI_04_25C: 'Pro rogationibus',
     constants.SANCTI_04_26: 'SS. Cleti et Marcellini Summorum Pontificum et Martyrum',
     constants.SANCTI_04_27: 'S. Petri Canisii Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_04_28: 'S. Pauli a Cruce Confessoris',

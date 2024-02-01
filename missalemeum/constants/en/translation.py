@@ -458,6 +458,7 @@ TITLES = {
     constants.SANCTI_04_23: 'St. George',
     constants.SANCTI_04_24: 'St. Fidelis of Sigmaringen',
     constants.SANCTI_04_25: 'St. Mark',
+    constants.SANCTI_04_25C: 'Pro rogationibus',
     constants.SANCTI_04_26: 'Sts. Cletus & Marcellinus',
     constants.SANCTI_04_27: 'St. Peter Canisius',
     constants.SANCTI_04_28: 'St. Paul of the Cross',

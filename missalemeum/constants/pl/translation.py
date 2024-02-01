@@ -466,6 +466,7 @@ TITLES = {
     constants.SANCTI_04_23PL: 'Św. Wojciecha, Biskupa i Męczennika',
     constants.SANCTI_04_24: 'Św. Fidelisa z Sigmaringen, Męczennika',
     constants.SANCTI_04_25: 'Św. Marka Ewangelisty',
+    constants.SANCTI_04_25C: 'Litania Większa',
     constants.SANCTI_04_26: 'Śś. Kleta i Marcelina, Papieży i Męczenników',
     constants.SANCTI_04_27: 'Św. Piotra Kanizjusza, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_04_28: 'Św. Pawła od Krzyża, Wyznawcy',
