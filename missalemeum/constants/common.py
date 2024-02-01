@@ -682,6 +682,7 @@ SANCTI_05_24PL = 'sancti:05-24pl:2:w'
 SANCTI_05_25 = 'sancti:05-25:3:w'
 SANCTI_05_26 = 'sancti:05-26:3:w'
 SANCTI_05_27 = 'sancti:05-27:3:w'
+SANCTI_05_27C = 'sancti:05-27c:4:r'  #
 SANCTI_05_28 = 'sancti:05-28:3:w'
 SANCTI_05_29 = 'sancti:05-29:3:w'
 SANCTI_05_30 = 'sancti:05-30:4:r'

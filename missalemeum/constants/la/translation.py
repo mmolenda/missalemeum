@@ -498,6 +498,7 @@ TITLES = {
     constants.SANCTI_05_25: 'S. Gregorii VII Papæ Confessoris',
     constants.SANCTI_05_26: 'S. Philippi Neri Confessoris',
     constants.SANCTI_05_27: 'S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris',
+    constants.SANCTI_05_27C: 'S. Joanne',
     constants.SANCTI_05_28: 'S. Augustini Episcopi Confessoris',
     constants.SANCTI_05_29: 'S. Mariæ Magdalenæ de Pazzis Virginis',
     constants.SANCTI_05_30: 'S. Felicis Papæ et Martyris',

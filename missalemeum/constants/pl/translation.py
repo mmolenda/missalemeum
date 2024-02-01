@@ -499,6 +499,7 @@ TITLES = {
     constants.SANCTI_05_25: 'Św. Grzegorza VII, Papieża i Wyznawcy',
     constants.SANCTI_05_26: 'Św. Filipa Nereusza, Wyznawcy',
     constants.SANCTI_05_27: 'Św. Bedy Czcigodnego, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_05_27C: 'św. Jana I, Papieża i Męczennika',
     constants.SANCTI_05_28: 'Św. Augustyna z Canterbury, Biskupa i Wyznawcy',
     constants.SANCTI_05_29: 'Św. Marii Magdaleny Pazzi, Dziewicy',
     constants.SANCTI_05_30: 'Św. Feliksa I, Papieża i Męczennika',

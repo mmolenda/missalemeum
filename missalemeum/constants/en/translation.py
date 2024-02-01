@@ -486,6 +486,7 @@ TITLES = {
     constants.SANCTI_05_25: 'St. Gregory VII',
     constants.SANCTI_05_26: 'St. Philip Neri',
     constants.SANCTI_05_27: 'St. Bede the Venerable ',
+    constants.SANCTI_05_27C: 'St. John I',
     constants.SANCTI_05_28: 'St. Augustine of Canterbury',
     constants.SANCTI_05_29: 'St. Mary Magdalene de Pazzi',
     constants.SANCTI_05_30: 'St. Felix I',
