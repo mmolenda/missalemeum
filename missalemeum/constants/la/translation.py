@@ -482,6 +482,7 @@ TITLES = {
     constants.SANCTI_05_08PL: 'S. Stanislai Episcopi et Martyris',
     constants.SANCTI_05_09: 'S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiæ Doctoris',
     constants.SANCTI_05_10: 'S. Antonii Episcopi Confessoris',
+    constants.SANCTI_05_10C: 'Ss. Gordiano et Epimacho Martyribus',
     constants.SANCTI_05_11: 'Ss. Philippi et Jacobi Apostolorum',
     constants.SANCTI_05_12: 'Ss. Nerei, Achillei et Domitillæ Virginis atque Pancratii Martyrum',
     constants.SANCTI_05_13: 'S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris',

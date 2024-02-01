@@ -472,6 +472,7 @@ TITLES = {
     constants.SANCTI_05_07: 'St. Stanislaus',
     constants.SANCTI_05_09: 'St. Gregory of Nazianzen',
     constants.SANCTI_05_10: 'St. Antoninus',
+    constants.SANCTI_05_10C: 'St. Gordiano and Epimacho',
     constants.SANCTI_05_11: 'Sts. Philip & James',
     constants.SANCTI_05_12: 'Sts. Nereus, Achilleus, Domitilla, & Pancras',
     constants.SANCTI_05_13: 'St. Robert Bellarmine',

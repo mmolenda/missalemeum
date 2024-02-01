@@ -666,6 +666,7 @@ SANCTI_05_07 = 'sancti:05-07:3:r'
 SANCTI_05_08PL = 'sancti:05-08pl:1:r'
 SANCTI_05_09 = 'sancti:05-09:3:w'
 SANCTI_05_10 = 'sancti:05-10:3:w'
+SANCTI_05_10C = 'sancti:05-10c:4:r'  #
 SANCTI_05_11 = 'sancti:05-11r:2:r'  # SS. Philip and James, Apostles
 SANCTI_05_12 = 'sancti:05-12:3:r'
 SANCTI_05_13 = 'sancti:05-13:3:w'

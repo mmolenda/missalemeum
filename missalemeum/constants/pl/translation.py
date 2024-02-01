@@ -483,6 +483,7 @@ TITLES = {
     constants.SANCTI_05_08PL: 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_10: 'Św. Antonina, Biskupa i Wyznawcy',
+    constants.SANCTI_05_10C: 'Śś. Gordiana i Epimacha, Męczenników',
     constants.SANCTI_05_11: 'Świętych Filipa i Jakuba, Apostołów',
     constants.SANCTI_05_12: 'Świętych Nereusza, Achillesa, Domicylli i Pankracego, Męczenników',
     constants.SANCTI_05_13: 'Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła',
