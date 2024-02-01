@@ -6421,6 +6421,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Ubalda, Biskupa i Wyznawcy*\nPanie, udziel nam łaskawie Twej pomocy i za wstawiennictwem św. Wyznawcy Tw",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pamiętaj, że Pan Jezus Chrystu",
       "id": "Lectio"
     },
@@ -6441,6 +6445,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Ubalda, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
       "id": "Prefatio"
     },
@@ -6451,6 +6459,10 @@
     {
       "body": "Panie, gdyśmy spożyli te święte dary z ołtarza ku czci św. Męczennika Twego Andrzeja, udziel nam łaskawie, abyśmy poucze",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Ubalda, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-05-17": [

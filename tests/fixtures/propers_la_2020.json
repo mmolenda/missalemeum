@@ -6421,6 +6421,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Ubaldi Episcopi Confessoris*\nAuxílium tuum nobis, Dómine, quǽsumus, placátus impénde: et, intercessióne",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timotheum\n*2 Tim 2:8-10; 3:10-12.*\nCaríssime: Memor esto, Dóminum Jesum Christum",
       "id": "Lectio"
     },
@@ -6441,6 +6445,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Ubaldi Episcopi Confessoris*\nSancti tui, quǽsumus, Dómine, nos ubíque lætíficent: ut, dum eórum mérita ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
       "id": "Prefatio"
     },
@@ -6451,6 +6459,10 @@
     {
       "body": "Deam, hæc sancta, Dómine, in honórem beáti Andréæ Mártyris tui de altári libávimus: concéde propítius; ut, cuius exémpli",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Ubaldi Episcopi Confessoris*\nPræsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhi",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-05-17": [

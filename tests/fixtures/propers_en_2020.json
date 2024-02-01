@@ -6421,6 +6421,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoration St. Ubaldus*\nMercifully give us Your help, we beseech You, O Lord, and by the intercession of blessed Uba",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lesson from the book of Ecclesiasticus\n*Sir 24:14-16*\nFrom the beginning, and before the world, was I created, and unto ",
       "id": "Lectio"
     },
@@ -6441,6 +6445,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoration St. Ubaldus*\nMay Your Saints, we beseech You, O Lord, everywhere make us joyful: so that, while we reflec",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Easter*\nIt is truly meet and just, right and for our salvation, at all times to praise Thee, O Lord, but more gloriousl",
       "id": "Prefatio"
     },
@@ -6451,6 +6459,10 @@
     {
       "body": "Grant, O Lord, that we who have partaken of aids of salvation, may be everywhere defended by the intercession of Blessed",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoration St. Ubaldus*\nGrant, we beseech You, almighty God, that as we thank You for the favors we have received, w",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-05-17": [
