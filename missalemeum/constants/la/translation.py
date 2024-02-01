@@ -503,6 +503,7 @@ TITLES = {
     constants.SANCTI_05_29: 'S. Mariæ Magdalenæ de Pazzis Virginis',
     constants.SANCTI_05_30: 'S. Felicis Papæ et Martyris',
     constants.SANCTI_05_31: 'Beatæ Mariæ Virginis Reginæ',
+    constants.SANCTI_05_31C: 'S. Petronilla',
     constants.SANCTI_06_01: 'S. Angelæ Mericiæ Virginis',
     constants.SANCTI_06_02: 'Ss. Marcellini, Petri, atque Erasmi Martyrum',
     constants.SANCTI_06_04: 'S. Francisci Caracciolo Confessoris',

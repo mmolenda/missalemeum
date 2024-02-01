@@ -687,6 +687,7 @@ SANCTI_05_28 = 'sancti:05-28:3:w'
 SANCTI_05_29 = 'sancti:05-29:3:w'
 SANCTI_05_30 = 'sancti:05-30:4:r'
 SANCTI_05_31 = 'sancti:05-31:2:w'  # Mary the Queen
+SANCTI_05_31C = 'sancti:05-31c:4:w'  # Petronela
 
 SANCTI_06_01 = 'sancti:06-01:3:w'
 SANCTI_06_02 = 'sancti:06-02:4:r'

@@ -504,6 +504,7 @@ TITLES = {
     constants.SANCTI_05_29: 'Św. Marii Magdaleny Pazzi, Dziewicy',
     constants.SANCTI_05_30: 'Św. Feliksa I, Papieża i Męczennika',
     constants.SANCTI_05_31: 'N. M. P. Królowej',
+    constants.SANCTI_05_31C: 'Św. Petroneli, Dziewicy',
     constants.SANCTI_06_01: 'Św. Anieli Merici, Dziewicy',
     constants.SANCTI_06_02: 'Śś. Marcelina i Piotra, Męczenników oraz Erazma, Biskupa',
     constants.SANCTI_06_04: 'Św. Franciszka Caracciolo, Wyznawcy',

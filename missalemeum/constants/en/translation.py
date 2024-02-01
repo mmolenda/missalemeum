@@ -491,6 +491,7 @@ TITLES = {
     constants.SANCTI_05_29: 'St. Mary Magdalene de Pazzi',
     constants.SANCTI_05_30: 'St. Felix I',
     constants.SANCTI_05_31: 'Queenship of the Blessed Virgin Mary',
+    constants.SANCTI_05_31C: 'St. Petronilla',
     constants.SANCTI_06_01: 'St. Angela Merici ',
     constants.SANCTI_06_02: 'Sts. Marcellinus, Peter, & Erasmus ',
     constants.SANCTI_06_04: 'St. Francis Caracciolo',
