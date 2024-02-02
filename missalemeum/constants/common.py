@@ -722,6 +722,7 @@ SANCTI_06_30 = 'sancti:06-30:3:r'
 
 SANCTI_07_01 = 'sancti:07-01:1:r'  # Feast of the Most Precious Blood
 SANCTI_07_02 = 'sancti:07-02:2:w'  # Feast of the Visitation of the Blessed Virgin Mary
+SANCTI_07_02C = 'sancti:07-02cc:4:r'  # Ss. Processi et Martiniani
 SANCTI_07_03 = 'sancti:07-03r:3:r'
 SANCTI_07_05 = 'sancti:07-05:3:w'
 SANCTI_07_07 = 'sancti:07-07:3:w'
@@ -729,6 +730,7 @@ SANCTI_07_08 = 'sancti:07-08:3:w'
 SANCTI_07_10 = 'sancti:07-10:3:r'
 SANCTI_07_11 = 'sancti:07-11:4:r'
 SANCTI_07_12 = 'sancti:07-12:3:r'
+SANCTI_07_12C = 'sancti:07-12c:4:r'  # Ss. Naboris et Felicis
 SANCTI_07_13PL = 'sancti:07-13pl:3:w'
 SANCTI_07_14 = 'sancti:07-14:3:w'
 SANCTI_07_15 = 'sancti:07-15:3:w'
