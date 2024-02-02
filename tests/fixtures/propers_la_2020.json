@@ -981,7 +981,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*Pro S. Emerentianæ Virg. et Mart.*\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Emerentiána Virgo et Martyr implóret: qu",
+      "body": "*Pro S. Emerentiana Virg. et Mart.*\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Emerentiána Virgo et Martyr implóret: qu",
       "id": "Commemoratio Oratio"
     },
     {
@@ -1349,7 +1349,7 @@
       "id": "Introitus"
     },
     {
-      "body": "Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et magístrum excitásti, ac per eum, auxiliatríce Vírgine",
+      "body": "Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et magístrum\nexcitásti, ac per eum, auxiliatríce Vírgine",
       "id": "Oratio"
     },
     {
@@ -2745,7 +2745,7 @@
       "id": "Communio"
     },
     {
-      "body": "Qui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte purgátos, in mystérii salutáris fáciat transíre con",
+      "body": "Tuis nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte purgátos, in mystérii salutáris fáciat transíre co",
       "id": "Postcommunio"
     }
   ],
@@ -4229,7 +4229,7 @@
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 118:17, 107*\nConfitébor tibi, Dómine, in toto corde meo: retríbue servo tuo: vivam, et custódiam sermónes tuos: viví",
+      "body": "*Ps 9:1, 118:17, 107*\nConfitébor tibi, Dómine, in toto corde meo: retríbue servo tuo: vivam, et custódiam sermónes tuos:",
       "id": "Offertorium"
     },
     {
@@ -7883,7 +7883,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
+      "body": "*de Nativitate Domini*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine san",
       "id": "Prefatio"
     },
     {
@@ -8213,7 +8213,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
+      "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
     {
@@ -8667,6 +8667,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio Ss. Processi et Martiniani*\nDeus, qui nos sanctórum Mártyrum tuórum Procéssi et Martiniáni gloriósis confe",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio libri Sapiéntiæ.\n*Cant 2:8-14*\nEcce, iste venit sáliens in móntibus, transíliens colles; símilis est diléctus meu",
       "id": "Lectio"
     },
@@ -8687,6 +8691,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio Ss. Processi et Martiniani*\nSúscipe, Dómine, preces et múnera: quæ ut tuo sint digna conspéctu. Sanctórum ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*de Beata Maria Virgine*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine s",
       "id": "Prefatio"
     },
@@ -8697,6 +8705,10 @@
     {
       "body": "Súmpsimus, Dómine, celebritátis ánnuæ votíva sacraménta: præsta, quǽsumus; ut et temporális vitæ nobis remédia prǽbeant ",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio Ss. Processi et Martiniani*\nCórporis sacri et pretiósi Sánguinis repléti libámine, quǽsumus, Dómine, Deus ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-03": [

@@ -7859,7 +7859,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Holy Trinity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
+      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give ",
       "id": "Prefatio"
     },
     {
@@ -8189,7 +8189,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Holy Trinity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
+      "body": "*Sacred Heart*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
       "id": "Prefatio"
     },
     {
@@ -8643,6 +8643,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoration SS. Processus and Martinian*\nO God, Who surround and protect us with the glorious profession of faith of ",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lesson from the book of Canticles\n*Song 2:8-14*\nHark! here He comes springing across the mountains, leaping across the h",
       "id": "Lectio"
     },
@@ -8663,6 +8667,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoration SS. Processus and Martinian*\nAccept our prayers and gifts, O Lord, and, that they may be made worthy in Y",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places,",
       "id": "Prefatio"
     },
@@ -8673,6 +8681,10 @@
     {
       "body": "O Lord, in celebration of this yearly feast, we have partaken of the sacrament: grant, we beseech You, that it may give ",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoration SS. Processus and Martinian*\nFilled with the offering of Your sacred Body and Your precious Blood, we bes",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-03": [

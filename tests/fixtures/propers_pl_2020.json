@@ -7883,7 +7883,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Prefacja o Trójcy Przenajświętszej*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tob",
+      "body": "*Prefacja o Bożym Narodzeniu*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie skła",
       "id": "Prefatio"
     },
     {
@@ -8667,6 +8667,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Śś. Procesa i Martyniana, Męczenników*\nBoże, który ze względu na chwalebne wyznanie wiary przez świętych Mę",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Pieśni nad Pieśniami.\n*Pnp 2:8-14*\n*Kościół odnosi do Matki Bożej słowa Pieśni nad pieśniami. W drodze do Heb",
       "id": "Lectio"
     },
@@ -8687,6 +8691,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Śś. Procesa i Martyniana, Męczenników*\nPrzyjmij, Panie, prośby i ofiary, a modlitwa Twoich Świętych niech n",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
       "id": "Prefatio"
     },
@@ -8697,6 +8705,10 @@
     {
       "body": "Panie, przyjęliśmy Sakrament obchodząc doroczną uroczystość: spraw, prosimy, niech on udzieli nam pomocy na życie doczes",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Śś. Procesa i Martyniana, Męczenników*\nPosileni w czasie uczty ofiarnej Najświętszym Ciałem i Najdroższą Kr",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-03": [
