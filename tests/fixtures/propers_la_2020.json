@@ -9399,6 +9399,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nDeus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subs",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et h",
       "id": "Lectio"
     },
@@ -9419,6 +9423,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nHóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ caritáti",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -9429,6 +9437,10 @@
     {
       "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra óm",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nPer hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui sollémnia",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-19": [
@@ -9483,6 +9495,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Hieronymi Emiliani Confessoris*\nDeus, misericordiárum pater, per mérita et intercessiónem beáti Hierony",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11.*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperá",
       "id": "Lectio"
     },
@@ -9503,6 +9519,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Hieronymi Emiliani Confessoris*\nClementíssime Deus, qui, véteri homine consúmpto, novum secúndum te in ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -9513,6 +9533,10 @@
     {
       "body": "Refécti cibo potúque coelésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muni",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Hieronymi Emiliani Confessoris*\nAngelórum pane refécti te, Dómine, supplíciter deprecámur: ut, qui ánnu",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-21": [
@@ -9675,6 +9699,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Christinæ Virginis et Martyris*\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Christína Virgo et Martyr i",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
       "id": "Lectio"
     },
@@ -9695,6 +9723,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Christinæ Virginis et Martyris*\nHóstias tibi, Dómine, beátæ Christínæ Vírginis et Mártyris tuæ dicátas ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -9705,6 +9737,10 @@
     {
       "body": "Sumpta mystéria, quǽsumus, Dómine, suffragántibus beáte Cunegúndis Vírginis tuæ méritis, íncitent nos iúgiter, et illúst",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Christinæ Virginis et Martyris*\nDivíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut, in",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-07-25": [
