@@ -745,6 +745,7 @@ SANCTI_07_20PL = 'sancti:07-20pl:3:w'
 SANCTI_07_21 = 'sancti:07-21r:3:w'
 SANCTI_07_22 = 'sancti:07-22:3:w'
 SANCTI_07_23 = 'sancti:07-23:3:w'
+SANCTI_07_23C = 'sancti:07-23c:4:r'  #
 SANCTI_07_24 = 'sancti:07-24r:4:r'
 SANCTI_07_24PL = 'sancti:07-24pl:3:w'
 SANCTI_07_25 = 'sancti:07-25:2:r'  # St. James, Apostle

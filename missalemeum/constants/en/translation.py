@@ -541,6 +541,7 @@ TITLES = {
     constants.SANCTI_07_21: 'St. Laurence of Brindisi',
     constants.SANCTI_07_22: 'St. Mary Magdalene',
     constants.SANCTI_07_23: 'St. Apollinaris',
+    constants.SANCTI_07_23C: 'S. Liborii',
     constants.SANCTI_07_24: 'St. Christina',
     constants.SANCTI_07_25: 'St. James the Greater',
     constants.SANCTI_07_26: 'St. Anne, Mother of the Blessed Virgin',

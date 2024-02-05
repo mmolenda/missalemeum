@@ -560,6 +560,7 @@ TITLES = {
     constants.SANCTI_07_21: 'Św. Wawrzyńca z Brindisi, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_07_22: 'Św. Marii Magdaleny, Pokutnicy',
     constants.SANCTI_07_23: 'Św. Apolinarego, Biskupa i Męczennika',
+    constants.SANCTI_07_23C: 'Św. Liboriusza, Biskupa i Wyznawcy',
     constants.SANCTI_07_24: 'Św. Krystyny, Dziewicy i Męczennicy',
     constants.SANCTI_07_24PL: 'Św. Kingi, Dziewicy',
     constants.SANCTI_07_25: 'Św. Jakuba, Apostoła',

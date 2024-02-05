@@ -559,6 +559,7 @@ TITLES = {
     constants.SANCTI_07_21: 'S. Laurentii a Brundusio Confessoris',
     constants.SANCTI_07_22: 'S. Mariæ Magdalenæ Poenitentis',
     constants.SANCTI_07_23: 'S. Apollinaris Episcopi et Martyris',
+    constants.SANCTI_07_23C: 'S. Liborii ',
     constants.SANCTI_07_24: 'S. Christinæ Virginis et Martyris',
     constants.SANCTI_07_24PL: 'S. Kingæ Virginis',
     constants.SANCTI_07_25: 'S. Jacobi Apostoli',
