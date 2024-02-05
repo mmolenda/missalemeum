@@ -749,10 +749,12 @@ SANCTI_07_23C = 'sancti:07-23c:4:r'  #
 SANCTI_07_24 = 'sancti:07-24r:4:r'
 SANCTI_07_24PL = 'sancti:07-24pl:3:w'
 SANCTI_07_25 = 'sancti:07-25:2:r'  # St. James, Apostle
+SANCTI_07_25C = 'sancti:07-25c:4:r'  # St. Christopher
 SANCTI_07_26 = 'sancti:07-26:2:w'  # St. Anna, Mary's Mother
 SANCTI_07_27 = 'sancti:07-27:4:r'
 SANCTI_07_28 = 'sancti:07-28:3:r'
 SANCTI_07_29 = 'sancti:07-29:3:r'
+SANCTI_07_29C = 'sancti:07-29c:4:r'  # śś. Feliksa, Symplicjusza, Faustyna i Beatryczy
 SANCTI_07_30 = 'sancti:07-30:4:r'
 SANCTI_07_31 = 'sancti:07-31:3:w'
 
