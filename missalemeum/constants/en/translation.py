@@ -558,6 +558,7 @@ TITLES = {
     constants.SANCTI_08_04: 'St. Dominic',
     constants.SANCTI_08_05: 'Dedication of the Basilica of St. Mary Major',
     constants.SANCTI_08_06: 'Transfiguration of Our Lord',
+    constants.SANCTI_08_06C: 'Pope Sixtus II, Felicissimus and Agapitus, Martyrs',
     constants.SANCTI_08_07: 'St. Cajetan',
     constants.SANCTI_08_07C: 'St. Donatus',
     constants.SANCTI_08_08: 'St. John Mary Vianney',

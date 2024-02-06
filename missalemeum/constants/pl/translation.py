@@ -578,6 +578,7 @@ TITLES = {
     constants.SANCTI_08_04: 'Św. Dominika, Wyznawcy',
     constants.SANCTI_08_05: 'Rocznica Konsekracji N. M. P. Śnieżnej',
     constants.SANCTI_08_06: 'Przemienienie Pańskie',
+    constants.SANCTI_08_06C: 'Śś. Sykstusa II, Papieża, Felicysyma i Agapita, Męczenników',
     constants.SANCTI_08_07: 'Św. Kajetana, Wyznawcy',
     constants.SANCTI_08_07C: 'Św. Donata, Biskupa i Męczennika',
     constants.SANCTI_08_08: 'Św. Jana Marii Vianney, Wyznawcy',

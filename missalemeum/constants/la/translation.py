@@ -577,6 +577,7 @@ TITLES = {
     constants.SANCTI_08_04: 'S. Dominici Confessoris',
     constants.SANCTI_08_05: 'S. Mariæ ad Nives ',
     constants.SANCTI_08_06: 'In Transfiguratione Domini Nostri Jesu Christi',
+    constants.SANCTI_08_06C: 'Ss. Xysti II Papæ, Felicissimi et Agapiti Martyrum',
     constants.SANCTI_08_07: 'S. Cajetani Confessoris',
     constants.SANCTI_08_07C: 'S. Donati, Episcopi et Martyris',
     constants.SANCTI_08_08: 'S. Joannis Mariæ Vianney Confessoris',

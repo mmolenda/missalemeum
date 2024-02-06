@@ -10329,6 +10329,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie śś. Sykstusa II oraz Felicysyma i Agapita*\nBoże, który nam pozwalasz obchodzić narodziny dla nieba świętych",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Listu świętego Piotra Apostoła.\n*2 P 1:16-19*\n*Św. Piotr, naoczny świadek Przemienienia, powołuje się na świa",
       "id": "Lectio"
     },
@@ -10349,6 +10353,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie śś. Sykstusa II oraz Felicysyma i Agapita*\nOfiarujemy Ci, Panie, te dary jako wyraz naszego oddania; przyjm",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja o Bożym Narodzeniu*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie skła",
       "id": "Prefatio"
     },
@@ -10359,6 +10367,10 @@
     {
       "body": "Spraw, prosimy, wszechmogący Boże, abyśmy czystym i jasnym umysłem pojęli najświętszą tajemnicą Przemienienia Syna Twego",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie śś. Sykstusa II oraz Felicysyma i Agapita*\nProsimy Cię, Panie, za wstawiennictwem Twoich Męczenników Sykstu",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-08-07": [
