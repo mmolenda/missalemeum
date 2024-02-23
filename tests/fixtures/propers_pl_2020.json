@@ -13017,6 +13017,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Remigiusza, Biskupa i Wyznawcy*\nSpraw, Prosimy Cię, wszechmogący Boże, aby chwalebna uroczystość święte",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla A",
       "id": "Lectio"
     },
@@ -13037,6 +13041,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Remigiusza, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspomina",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
@@ -13047,6 +13055,10 @@
     {
       "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawi",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Remigiusza, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-10-02": [

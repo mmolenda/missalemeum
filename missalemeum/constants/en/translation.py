@@ -626,6 +626,7 @@ TITLES = {
     constants.SANCTI_10_05: 'St. Placid & Companions ',
     constants.SANCTI_10_06: 'St. Bruno',
     constants.SANCTI_10_07: 'Our Lady of the Rosary',
+    constants.SANCTI_10_07C: 'St. Mark I',
     constants.SANCTI_10_08: 'St. Bridget of Sweden',
     constants.SANCTI_10_09: 'St. John Leonardi',
     constants.SANCTI_10_10: 'St. Francis Borgia',

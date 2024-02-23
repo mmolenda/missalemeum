@@ -839,6 +839,7 @@ SANCTI_10_04 = 'sancti:10-04:3:w'
 SANCTI_10_05 = 'sancti:10-05:4:r'
 SANCTI_10_06 = 'sancti:10-06:3:w'
 SANCTI_10_07 = 'sancti:10-07r:2:w'  # Our Lady of the Rosary
+SANCTI_10_07C = 'sancti:10-07c:4:r'  # St. Mark I
 SANCTI_10_08 = 'sancti:10-08r:3:w'
 SANCTI_10_09 = 'sancti:10-09:3:w'
 SANCTI_10_09PL = 'sancti:10-09pl:3:w'

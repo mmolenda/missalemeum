@@ -651,6 +651,7 @@ TITLES = {
     constants.SANCTI_10_05: 'Śś. Placyda i Towarzyszy, Męczenników',
     constants.SANCTI_10_06: 'Św. Brunona, Wyznawcy',
     constants.SANCTI_10_07: 'N. M. P. Różańcowej',
+    constants.SANCTI_10_07C: 'Św. Marka I, Papieża i Wyznawcy',
     constants.SANCTI_10_08: 'Św. Brygidy, Wdowy',
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
     constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',

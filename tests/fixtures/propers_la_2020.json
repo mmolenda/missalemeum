@@ -13005,6 +13005,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio S. Remigii Episcopi Confessoris*\nDa, quǽsumus omnípotens Deus: ut beáti Remígii Confessóris tui atque Pont",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et h",
       "id": "Lectio"
     },
@@ -13025,6 +13029,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio S. Remigii Episcopi Confessoris*\nSancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
@@ -13035,6 +13043,10 @@
     {
       "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra óm",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio S. Remigii Episcopi Confessoris*\nPræsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exh",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2020-10-02": [

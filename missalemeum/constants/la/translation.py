@@ -650,6 +650,7 @@ TITLES = {
     constants.SANCTI_10_05: 'Ss. Placidi et Sociorum Martyrum',
     constants.SANCTI_10_06: 'S. Brunonis Confessoris',
     constants.SANCTI_10_07: 'Festum Beatæ Mariæ Virginis a Rosario',
+    constants.SANCTI_10_07C: 'S. Marco Papa et Conf.',
     constants.SANCTI_10_08: 'S. Birgittæ Viduæ',
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
     constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
