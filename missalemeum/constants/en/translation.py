@@ -628,6 +628,7 @@ TITLES = {
     constants.SANCTI_10_07: 'Our Lady of the Rosary',
     constants.SANCTI_10_07C: 'St. Mark I',
     constants.SANCTI_10_08: 'St. Bridget of Sweden',
+    constants.SANCTI_10_08C: 'Ss. Sergio, Baccho, Marcello and Apulejo Martyrs',
     constants.SANCTI_10_09: 'St. John Leonardi',
     constants.SANCTI_10_10: 'St. Francis Borgia',
     constants.SANCTI_10_11: 'Maternity of the Blessed Virgin Mary',
