@@ -124,6 +124,7 @@ $ python missalemeum/cli.py proper sancti:09-15:2:w
     - Compile babel files: `pybabel compile -d translations`
 4. Copy folder `missalemeum/templates/en` into `missalemeum/templates/<your-lang-ISO-639-1>` and translate the files
 5. Add source files for non-regular propers, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
+6. Add tests in [test_propers.py](tests/test_propers.py)
 
 ### Frontend
 
