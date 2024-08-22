@@ -114,6 +114,8 @@ $ python missalemeum/cli.py proper sancti:09-15:2:w
 
 ## Localization
 
+### Backend
+
 1. Copy folder `missalemeum/constants/en` into `missalemeum/constants/<your-lang-ISO-639-1>` and translate the files
 2. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `missalemeum/constants/common.py`
 3. Generate Babel language files:
@@ -121,11 +123,18 @@ $ python missalemeum/cli.py proper sancti:09-15:2:w
     - Provide translations in file generated in `missalemeum/translations/<your-lang>/LC_MESSAGES/messages.po`
     - Compile babel files: `pybabel compile -d translations`
 4. Copy folder `missalemeum/templates/en` into `missalemeum/templates/<your-lang-ISO-639-1>` and translate the files
-5. Copy folder `missalemeum/static/data/en` into `missalemeum/static/data/<your-lang-ISO-639-1>` and translate the files
-6. Copy folder `missalemeum/static/js/en` into `missalemeum/static/js/<your-lang-ISO-639-1>` and translate the files
-7. Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter some issues with Divinum Officium source files. In such case correct them in Divinum Officium project and update the submodule. 
-8. Add source files for non-regular Masses, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
+5. Add source files for non-regular propers, like Ash Wednesday or Maundy Thursday in `resources/divinum-officium-custom/web/www/missa/<your-lang>`
+6. Add tests in [test_propers.py](tests/test_propers.py)
 
+### Frontend
+
+1. Add your language to `supportedLanguages` array in [App.js](frontend/src/App.js)
+2. Provide translation of fronted elements in [intl.js](frontend/src/intl.js)
+
+### Verification
+
+Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter 
+some issues with Divinum Officium source files. In such case correct them in Divinum Officium project and update the submodule.
 
 ## Dev info
 

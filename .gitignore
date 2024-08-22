@@ -55,3 +55,4 @@ missalemeum/__version__
 node_modules
 deploy
 *.tar.gz
+.DS_Store

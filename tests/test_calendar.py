@@ -7,7 +7,7 @@ import pytest
 
 from constants import common as c
 from kalendar.models import Observance
-from utils import match
+from utils import match_first
 from tests.conftest import get_missal, HERE
 
 language = 'pl'
@@ -94,9 +94,13 @@ def test_sancti_shifted(day_id, expected_date):
     ((1950, 12, 24), [], [c.SANCTI_12_24], []),
     ((2000, 12, 24), [], [c.SANCTI_12_24], []),
     # Commemorations
+    ((2023, 1, 5), [], [c.FERIA], [c.SANCTI_01_05]),
+    ((2023, 1, 11), [c.TEMPORA_EPI1_3], [c.FERIA], [c.SANCTI_01_11]),
+    ((2023, 1, 14), [c.TEMPORA_EPI1_6], [c.SANCTI_01_14], [c.SANCTI_01_14C]),
+    ((2023, 1, 19), [c.TEMPORA_EPI2_4], [c.FERIA], [c.SANCTI_01_19, c.SANCTI_01_19C]),  # double commemoration
     ((2018, 2, 15), [c.TEMPORA_QUADP3_4], [c.TEMPORA_QUADP3_4], [c.SANCTI_02_15]),
     ((2018, 4, 22), [c.TEMPORA_PASC3_0], [c.TEMPORA_PASC3_0], []),
-    ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], []),  # St. Mark, Evangelist
+    ((2018, 4, 25), [c.TEMPORA_PASC3_3], [c.SANCTI_04_25], [c.SANCTI_04_25C]),  # St. Mark, Evangelist
     ((2018, 5, 10), [c.TEMPORA_PASC5_4], [c.TEMPORA_PASC5_4], []),  # Ascension, no comm.
     ((2018, 5, 19), [c.TEMPORA_PASC6_6], [c.TEMPORA_PASC6_6], []),  # Vigil of Pentecost, no comm.
     ((2018, 5, 21), [c.TEMPORA_PASC7_1], [c.TEMPORA_PASC7_1], []),  # Pentecost Octave, no comm.
@@ -114,7 +118,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
     ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
     # Sanctae Mariae Sabbato
-    ((2019, 1, 5), [], [c.TEMPORA_C_10B], []),
+    ((2019, 1, 5), [], [c.TEMPORA_C_10B], [c.SANCTI_01_05]),
     ((2019, 1, 12), [], [c.TEMPORA_C_10B], []),
     ((2019, 1, 19), [c.TEMPORA_EPI1_6], [c.TEMPORA_C_10B], [c.SANCTI_01_19]),
     ((2019, 2, 16), [c.TEMPORA_EPI5_6], [c.TEMPORA_C_10C], []),
@@ -165,7 +169,7 @@ def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemo
     ((2016, 2, 28), [c.SANCTI_02_27]),  # leap year
 ])
 def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
-    assert not match(get_missal(date_[0]).get_day(date(*date_)).all, not_expected_day_ids)
+    assert not match_first(get_missal(date_[0]).get_day(date(*date_)).all, not_expected_day_ids)
 
 
 @pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
@@ -195,11 +199,11 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
     # Lent days win with feasts < 2 class
     # 2019-03-07 Comm: S. Thomæ de Aquino
-    ((2019, 3, 7), [c.TEMPORA_QUADP3_4, c.SANCTI_03_07], [c.TEMPORA_QUADP3_4, c.SANCTI_03_07]),
+    ((2019, 3, 7), [c.TEMPORA_QUADP3_4, c.SANCTI_03_07], [c.SANCTI_03_07, c.TEMPORA_QUADP3_4]),
     # 2019-03-08 Comm: S. Joannis de Deo
-    ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.TEMPORA_QUADP3_5, c.SANCTI_03_08]),
+    ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.SANCTI_03_08, c.TEMPORA_QUADP3_5]),
     # 2019-03-09 Comm: S. Franciscæ Viduæ
-    ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.TEMPORA_QUADP3_6, c.SANCTI_03_09]),
+    ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.SANCTI_03_09, c.TEMPORA_QUADP3_6]),
     # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
     ((2019, 1, 18), [c.FERIA], [c.SANCTI_01_18]),
     ((2019, 2, 14), [c.FERIA], [c.SANCTI_02_14]),

@@ -40,7 +40,7 @@ class ProperParser:
         self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
 
     def proper_exists(self) -> bool:
-        return not utils.match(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
+        return not utils.match_first(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
                and self._get_full_path(self._get_partial_path(), self.lang) is not None
 
     def parse(self) -> Tuple[Proper, Proper]:

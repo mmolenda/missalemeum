@@ -34,29 +34,40 @@ def _print_proper(language, proper):
 
 @click.command()
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
+@click.option('--month', default=None, type=int)
 @click.option('--language', default=LANGUAGE_ENGLISH)
-def calendar(year, language):
+def calendar(year, language, month):
     def _print_all(missal):
         for date_, day in missal.items():
+            if month and date_.month != month:
+                continue
             if date_.weekday() == 6:
                 click.echo("---")
             if date_.day == 1:
                 click.echo(f"\n\n# {date_.month}\n")
 
-            collect = []
+
             padding = 40
-            for i in ('tempora', 'celebration', 'commemoration'):
-                items = getattr(day, i, None)
-                if not items:
-                    collect.append('-')
-                else:
-                    repr_ = f"[{items[0].name}:{items[0].rank}] {items[0].title}"
-                    if len(repr_) > padding:
-                        repr_ = repr_[:padding - 3] + '…'
-                    collect.append(repr_)
-            te, ce, co = collect
-            click.echo(f"{date_.strftime('%A %Y-%m-%d').ljust(padding)} "
-                       f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
+            tempora = day.tempora
+            celebration = day.celebration
+            commemoration = day.commemoration
+            rows_count = max([len(tempora), len(celebration), len(commemoration)])
+            for row_number in range(0, rows_count):
+                collect = []
+                for items in (tempora, celebration, commemoration):
+                    if not items:
+                        collect.append('-')
+                    elif len(items) - 1 < row_number:
+                        collect.append("")
+                    else:
+                        repr_ = f"[{items[row_number].name}:{items[row_number].rank}] {items[row_number].title}"
+                        if len(repr_) > padding:
+                            repr_ = repr_[:padding - 3] + '…'
+                        collect.append(repr_)
+                te, ce, co = collect
+                datestr = date_.strftime('%A %Y-%m-%d') if row_number == 0 else ""
+                click.echo(f"{datestr.ljust(22)} class:{str(day.get_celebration_rank()).ljust(6)}"
+                           f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
     missal: Calendar = controller.get_calendar(year, language)
     _print_all(missal)
@@ -68,6 +79,9 @@ def calendar(year, language):
 def proper(proper_id: str, language: str):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, language)
+        click.echo('# title Latin: {}'.format(proper_latin.title))
+        click.echo('# title vernacular: {}'.format(proper_vernacular.title))
+        click.echo('class: {}'.format(proper_latin.rank))
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
     except (InvalidInput, ProperNotFound) as e:
@@ -86,6 +100,7 @@ def date(date: str, language: str):
     click.echo(f'# {date}')
     click.echo('- tempora: {}'.format(day.get_tempora_name()))
     click.echo('- celebration: {}'.format(day.get_celebration_name()))
+    click.echo('- class: {}'.format(day.get_celebration_rank()))
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
