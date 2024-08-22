@@ -4,63 +4,63 @@ from .pages import PAGES
 
 TITLES = {
     constants.FERIA: "Feria",
-    constants.TEMPORA_EPI1_0: "Sagrada Familia de Jesús, María y José",  # Sanctæ Familiæ Jesu Mariæ Joseph
-    constants.TEMPORA_EPI1_1: "Lunes dentro de la Semana I después de la Epifanía",  # Feria II infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI1_2: "Martes dentro de la Semana I después de la Epifanía",  # Feria III infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI1_3: "Miércoles dentro de la Semana I después de la Epifanía",  # Feria IV infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI1_4: "Jueves dentro de la Semana I después de la Epifanía",  # Feria V infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI1_5: "Viernes dentro de la Semana I después de la Epifanía",  # Feria VI infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI1_6: "Sábado dentro de la Semana I después de la Epifanía",  # Sabbato infra Hebd I post Epiphaniam
-    constants.TEMPORA_EPI2_0: "Domingo II después de la Epifanía",  # Dominica II post Epiphaniam
-    constants.TEMPORA_EPI2_1: "Lunes dentro de la Semana II después de la Epifanía",  # Feria II infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI2_2: "Martes dentro de la Semana II después de la Epifanía",  # Feria III infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI2_3: "Miércoles dentro de la Semana II después de la Epifanía",  # Feria IV infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI2_4: "Jueves dentro de la Semana II después de la Epifanía",  # Feria V infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI2_5: "Viernes dentro de la Semana II después de la Epifanía",  # Feria VI infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI2_6: "Sábado dentro de la Semana II después de la Epifanía",  # Sabbato infra Hebd II post Epiphaniam
-    constants.TEMPORA_EPI3_0: "Domingo III después de la Epifanía",  # Dominica III post Epiphaniam
-    constants.TEMPORA_EPI3_1: "Lunes dentro de la Semana III después de la Epifanía",  # Feria II infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI3_2: "Martes dentro de la Semana III después de la Epifanía",  # Feria III infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI3_3: "Miércoles dentro de la Semana III después de la Epifanía",  # Feria IV infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI3_4: "Jueves dentro de la Semana III después de la Epifanía",  # Feria V infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI3_5: "Viernes dentro de la Semana III después de la Epifanía",  # Feria VI infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI3_6: "Sábado dentro de la Semana III después de la Epifanía",  # Sabbato infra Hebd III post Epiphaniam
-    constants.TEMPORA_EPI4_0: "Domingo IV después de la Epifanía",  # Dominica IV post Epiphaniam
-    constants.TEMPORA_EPI4_1: "Lunes dentro de la Semana IV después de la Epifanía",  # Feria II infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI4_2: "Martes dentro de la Semana IV después de la Epifanía",  # Feria III infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI4_3: "Miércoles dentro de la Semana IV después de la Epifanía",  # Feria IV infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI4_4: "Jueves dentro de la Semana IV después de la Epifanía",  # Feria V infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI4_5: "Viernes dentro de la Semana IV después de la Epifanía",  # Feria VI infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI4_6: "Sábado dentro de la Semana IV después de la Epifanía",  # Sabbato infra Hebd IV post Epiphaniam
-    constants.TEMPORA_EPI5_0: "Domingo V después de la Epifanía",  # Dominica V post Epiphaniam
-    constants.TEMPORA_EPI5_1: "Lunes dentro de la Semana V después de la Epifanía",  # Feria II infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI5_2: "Martes dentro de la Semana V después de la Epifanía",  # Feria III infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI5_3: "Miércoles dentro de la Semana V después de la Epifanía",  # Feria IV infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI5_4: "Jueves dentro de la Semana V después de la Epifanía",  # Feria V infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI5_5: "Viernes dentro de la Semana V después de la Epifanía",  # Feria VI infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI5_6: "Sábado dentro de la Semana V después de la Epifanía",  # Sabbato infra Hebd V post Epiphaniam
-    constants.TEMPORA_EPI6_0: "Domingo VI después de la Epifanía",  # Dominica VI post Epiphaniam
-    constants.TEMPORA_EPI6_1: "Lunes dentro de la Semana VI después de la Epifanía",  # Feria II infra Hebd VI post Epiphaniam
-    constants.TEMPORA_EPI6_2: "Martes dentro de la Semana VI después de la Epifanía",  # Feria III infra Hebd VI post Epiphaniam
-    constants.TEMPORA_EPI6_3: "Miércoles dentro de la Semana VI después de la Epifanía",  # Feria IV infra Hebd VI post Epiphaniam
-    constants.TEMPORA_EPI6_4: "Jueves dentro de la Semana VI después de la Epifanía",  # Feria V infra Hebd VI post Epiphaniam
-    constants.TEMPORA_EPI6_5: "Viernes dentro de la Semana VI después de la Epifanía",  # Feria VI infra Hebd VI post Epiphaniam
-    constants.TEMPORA_EPI6_6: "Sábado dentro de la Semana VI después de la Epifanía",  # Sabbato infra Hebd VI post Epiphaniam
-    constants.TEMPORA_QUADP1_0: "Domingo en Septuagésima",  # Dominica in Septuagesima
+    constants.TEMPORA_EPI1_0: "Fiesta de la Sagrada Familia",  # Sanctæ Familiæ Jesu Mariæ Joseph, p. 236
+    constants.TEMPORA_EPI1_1: "Lunes dentro de la Primera Semana después de la Epifanía",  # Feria II infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI1_2: "Martes dentro de la Primera Semana después de la Epifanía",  # Feria III infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI1_3: "Miércoles dentro de la Primera Semana después de la Epifanía",  # Feria IV infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI1_4: "Jueves dentro de la Primera Semana después de la Epifanía",  # Feria V infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI1_5: "Viernes dentro de la Primera Semana después de la Epifanía",  # Feria VI infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI1_6: "Sábado dentro de la Primera Semana después de la Epifanía",  # Sabbato infra Hebd I post Epiphaniam
+    constants.TEMPORA_EPI2_0: "Segúndo Domingo después de Epifanía",  # Dominica II post Epiphaniam, p. 248
+    constants.TEMPORA_EPI2_1: "Lunes dentro de la Segunda Semana después de la Epifanía",  # Feria II infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI2_2: "Martes dentro de la Segunda Semana después de la Epifanía",  # Feria III infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI2_3: "Miércoles dentro de la Segunda Semana después de la Epifanía",  # Feria IV infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI2_4: "Jueves dentro de la Segunda Semana después de la Epifanía",  # Feria V infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI2_5: "Viernes dentro de la Segunda Semana después de la Epifanía",  # Feria VI infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI2_6: "Sábado dentro de la Segunda Semana después de la Epifanía",  # Sabbato infra Hebd II post Epiphaniam
+    constants.TEMPORA_EPI3_0: "Tercer Domingo después de Epifanía",  # Dominica III post Epiphaniam, p. 251
+    constants.TEMPORA_EPI3_1: "Lunes dentro de la Tercera Semana después de la Epifanía",  # Feria II infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI3_2: "Martes dentro de la Tercera Semana después de la Epifanía",  # Feria III infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI3_3: "Miércoles dentro de la Tercera Semana después de la Epifanía",  # Feria IV infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI3_4: "Jueves dentro de la Tercera Semana después de la Epifanía",  # Feria V infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI3_5: "Viernes dentro de la Tercera Semana después de la Epifanía",  # Feria VI infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI3_6: "Sábado dentro de la Tercera Semana después de la Epifanía",  # Sabbato infra Hebd III post Epiphaniam
+    constants.TEMPORA_EPI4_0: "Cuarto Domingo después de Epifanía",  # Dominica IV post Epiphaniam, p. 255
+    constants.TEMPORA_EPI4_1: "Lunes dentro de la Cuarta Semana después de la Epifanía",  # Feria II infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI4_2: "Martes dentro de la Cuarta Semana después de la Epifanía",  # Feria III infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI4_3: "Miércoles dentro de la Cuarta Semana después de la Epifanía",  # Feria IV infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI4_4: "Jueves dentro de la Cuarta Semana después de la Epifanía",  # Feria V infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI4_5: "Viernes dentro de la Cuarta Semana después de la Epifanía",  # Feria VI infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI4_6: "Sábado dentro de la Cuarta Semana después de la Epifanía",  # Sabbato infra Hebd IV post Epiphaniam
+    constants.TEMPORA_EPI5_0: "Quinto Domingo después de Epifanía",  # Dominica V post Epiphaniam, p. 257
+    constants.TEMPORA_EPI5_1: "Lunes dentro de la Quinta Semana después de la Epifanía",  # Feria II infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI5_2: "Martes dentro de la Quinta Semana después de la Epifanía",  # Feria III infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI5_3: "Miércoles dentro de la Quinta Semana después de la Epifanía",  # Feria IV infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI5_4: "Jueves dentro de la Quinta Semana después de la Epifanía",  # Feria V infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI5_5: "Viernes dentro de la Quinta Semana después de la Epifanía",  # Feria VI infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI5_6: "Sábado dentro de la Quinta Semana después de la Epifanía",  # Sabbato infra Hebd V post Epiphaniam
+    constants.TEMPORA_EPI6_0: "Sexto Domingo después de Epifanía",  # Dominica VI post Epiphaniam, p. 260
+    constants.TEMPORA_EPI6_1: "Lunes dentro de la Sexta Semana después de la Epifanía",  # Feria II infra Hebd VI post Epiphaniam
+    constants.TEMPORA_EPI6_2: "Martes dentro de la Sexta Semana después de la Epifanía",  # Feria III infra Hebd VI post Epiphaniam
+    constants.TEMPORA_EPI6_3: "Miércoles dentro de la Sexta Semana después de la Epifanía",  # Feria IV infra Hebd VI post Epiphaniam
+    constants.TEMPORA_EPI6_4: "Jueves dentro de la Sexta Semana después de la Epifanía",  # Feria V infra Hebd VI post Epiphaniam
+    constants.TEMPORA_EPI6_5: "Viernes dentro de la Sexta Semana después de la Epifanía",  # Feria VI infra Hebd VI post Epiphaniam
+    constants.TEMPORA_EPI6_6: "Sábado dentro de la Sexta Semana después de la Epifanía",  # Sabbato infra Hebd VI post Epiphaniam
+    constants.TEMPORA_QUADP1_0: "Domingo de Septuagésima",  # Dominica in Septuagesima, p. 265
     constants.TEMPORA_QUADP1_1: "Lunes dentro de la Semana de Septuagésima",  # Feria II infra Hebd Septuagesimæ
     constants.TEMPORA_QUADP1_2: "Martes dentro de la Semana de Septuagésima",  # Feria III infra Hebd Septuagesimæ
     constants.TEMPORA_QUADP1_3: "Miércoles dentro de la Semana de Septuagésima",  # Feria IV infra Hebd Septuagesimæ
     constants.TEMPORA_QUADP1_4: "Jueves dentro de la Semana de Septuagésima",  # Feria V infra Hebd Septuagesimæ
     constants.TEMPORA_QUADP1_5: "Viernes dentro de la Semana de Septuagésima",  # Feria VI infra Hebd Septuagesimæ
     constants.TEMPORA_QUADP1_6: "Sábado dentro de la Semana de Septuagésima",  # Sabbato infra Hebd Septuagesimæ
-    constants.TEMPORA_QUADP2_0: "Domingo en Sexagésima",  # Dominica in Sexagesima
+    constants.TEMPORA_QUADP2_0: "Domingo de Sexagésima",  # Dominica in Sexagesima, p. 269
     constants.TEMPORA_QUADP2_1: "Lunes dentro de la Semana de Sexagésima",  # Feria II infra Hebd Sexagesimæ
     constants.TEMPORA_QUADP2_2: "Martes dentro de la Semana de Sexagésima",  # Feria III infra Hebd Sexagesimæ
     constants.TEMPORA_QUADP2_3: "Miércoles dentro de la Semana de Sexagésima",  # Feria IV infra Hebd Sexagesimæ
     constants.TEMPORA_QUADP2_4: "Jueves dentro de la Semana de Sexagésima",  # Feria V infra Hebd Sexagesimæ
     constants.TEMPORA_QUADP2_5: "Viernes dentro de la Semana de Sexagésima",  # Feria VI infra Hebd Sexagesimæ
     constants.TEMPORA_QUADP2_6: "Sábado dentro de la Semana de Sexagésima",  # Sabbato infra Hebd Sexagesimæ
-    constants.TEMPORA_QUADP3_0: "Domingo en Quincuagésima",  # Dominica in Quinquagesima
+    constants.TEMPORA_QUADP3_0: "Domingo de Quincuagésima",  # Dominica in Quinquagesima, p. 274
     constants.TEMPORA_QUADP3_1: "Lunes dentro de la Semana de Quincuagésima",  # Feria II infra Hebd Quinquagesimæ
     constants.TEMPORA_QUADP3_2: "Martes dentro de la Semana de Quincuagésima",  # Feria III infra Hebd Quinquagesimæ
     constants.TEMPORA_QUADP3_3: "Miércoles de Ceniza",  # Feria IV Cinerum
@@ -68,33 +68,33 @@ TITLES = {
     constants.TEMPORA_QUADP3_5: "Viernes después de las Cenizas",  # Feria VI post Cineres
     constants.TEMPORA_QUADP3_6: "Sábado después de las Cenizas",  # Sabbato post Cineres
     constants.TEMPORA_QUAD1_0: "Domingo I de Cuaresma",  # Dominica I in Quadragesimæ
-    constants.TEMPORA_QUAD1_1: "Lunes dentro de la Semana I de Cuaresma",  # Feria II infra Hebd I Quadragesimæ
-    constants.TEMPORA_QUAD1_2: "Martes dentro de la Semana I de Cuaresma",  # Feria III infra Hebd I Quadragesimæ
+    constants.TEMPORA_QUAD1_1: "Lunes dentro de la Primera Semana de Cuaresma",  # Feria II infra Hebd I Quadragesimæ
+    constants.TEMPORA_QUAD1_2: "Martes dentro de la Primera Semana de Cuaresma",  # Feria III infra Hebd I Quadragesimæ
     constants.TEMPORA_QUAD1_3: "Miércoles de las Témporas de Cuaresma",  # Feria IV Quatuor Temporum Quadragesimæ
-    constants.TEMPORA_QUAD1_4: "Jueves dentro de la Semana I de Cuaresma",  # Feria V infra Hebd I Quadragesimæ
+    constants.TEMPORA_QUAD1_4: "Jueves dentro de la Primera Semana de Cuaresma",  # Feria V infra Hebd I Quadragesimæ
     constants.TEMPORA_QUAD1_5: "Viernes de las Témporas de Cuaresma",  # Feria VI Quattuor Temporum Quadragesimæ
     constants.TEMPORA_QUAD1_6: "Sábado de las Témporas de Cuaresma",  # Sabbato Quattuor Temporum Quadragesimæ
     constants.TEMPORA_QUAD2_0: "Domingo II de Cuaresma",  # Dominica II in Quadragesimæ
-    constants.TEMPORA_QUAD2_1: "Lunes dentro de la Semana II de Cuaresma",  # Feria II infra Hebd II Quadragesimæ
-    constants.TEMPORA_QUAD2_2: "Martes dentro de la Semana II de Cuaresma",  # Feria III infra Hebd II Quadragesimæ
-    constants.TEMPORA_QUAD2_3: "Miércoles dentro de la Semana II de Cuaresma",  # Feria IV infra Hebd II Quadragesimæ
-    constants.TEMPORA_QUAD2_4: "Jueves dentro de la Semana II de Cuaresma",  # Feria V infra Hebd II Quadragesimæ
-    constants.TEMPORA_QUAD2_5: "Viernes dentro de la Semana II de Cuaresma",  # Feria VI infra Hebd II Quadragesimæ
-    constants.TEMPORA_QUAD2_6: "Sábado dentro de la Semana II de Cuaresma",  # Sabbato infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_1: "Lunes dentro de la Segunda Semana de Cuaresma",  # Feria II infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_2: "Martes dentro de la Segunda Semana de Cuaresma",  # Feria III infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_3: "Miércoles dentro de la Segunda Semana de Cuaresma",  # Feria IV infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_4: "Jueves dentro de la Segunda Semana de Cuaresma",  # Feria V infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_5: "Viernes dentro de la Segunda Semana de Cuaresma",  # Feria VI infra Hebd II Quadragesimæ
+    constants.TEMPORA_QUAD2_6: "Sábado dentro de la Segunda Semana de Cuaresma",  # Sabbato infra Hebd II Quadragesimæ
     constants.TEMPORA_QUAD3_0: "Domingo III de Cuaresma",  # Dominica III in Quadragesimæ
-    constants.TEMPORA_QUAD3_1: "Lunes dentro de la Semana III de Cuaresma",  # Feria II infra Hebd III Quadragesimæ
-    constants.TEMPORA_QUAD3_2: "Martes dentro de la Semana III de Cuaresma",  # Feria III infra Hebd III Quadragesimæ
-    constants.TEMPORA_QUAD3_3: "Miércoles dentro de la Semana III de Cuaresma",  # Feria IV infra Hebd III Quadragesimæ
-    constants.TEMPORA_QUAD3_4: "Jueves dentro de la Semana III de Cuaresma",  # Feria V infra Hebd III Quadragesimæ
-    constants.TEMPORA_QUAD3_5: "Viernes dentro de la Semana III de Cuaresma",  # Feria VI infra Hebd III Quadragesimæ
-    constants.TEMPORA_QUAD3_6: "Sábado dentro de la Semana III de Cuaresma",  # Sabbato infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_1: "Lunes dentro de la Tercera Semana de Cuaresma",  # Feria II infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_2: "Martes dentro de la Tercera Semana de Cuaresma",  # Feria III infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_3: "Miércoles dentro de la Tercera Semana de Cuaresma",  # Feria IV infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_4: "Jueves dentro de la Tercera Semana de Cuaresma",  # Feria V infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_5: "Viernes dentro de la Tercera Semana de Cuaresma",  # Feria VI infra Hebd III Quadragesimæ
+    constants.TEMPORA_QUAD3_6: "Sábado dentro de la Tercera Semana de Cuaresma",  # Sabbato infra Hebd III Quadragesimæ
     constants.TEMPORA_QUAD4_0: "Domingo IV de Cuaresma",  # Dominica IV in Quadragesimæ
-    constants.TEMPORA_QUAD4_1: "Lunes dentro de la Semana IV de Cuaresma",  # Feria II infra Hebd IV Quadragesimæ
-    constants.TEMPORA_QUAD4_2: "Martes dentro de la Semana IV de Cuaresma",  # Feria III infra Hebd IV Quadragesimæ
-    constants.TEMPORA_QUAD4_3: "Miércoles dentro de la Semana IV de Cuaresma",  # Feria IV infra Hebd IV Quadragesimæ
-    constants.TEMPORA_QUAD4_4: "Jueves dentro de la Semana IV de Cuaresma",  # Feria V infra Hebd IV Quadragesimæ
-    constants.TEMPORA_QUAD4_5: "Viernes dentro de la Semana IV de Cuaresma",  # Feria VI infra Hebd IV Quadragesimæ
-    constants.TEMPORA_QUAD4_6: "Sábado dentro de la Semana IV de Cuaresma",  # Sabbato infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_1: "Lunes dentro de la Cuarta Semana de Cuaresma",  # Feria II infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_2: "Martes dentro de la Cuarta Semana de Cuaresma",  # Feria III infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_3: "Miércoles dentro de la Cuarta Semana de Cuaresma",  # Feria IV infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_4: "Jueves dentro de la Cuarta Semana de Cuaresma",  # Feria V infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_5: "Viernes dentro de la Cuarta Semana de Cuaresma",  # Feria VI infra Hebd IV Quadragesimæ
+    constants.TEMPORA_QUAD4_6: "Sábado dentro de la Cuarta Semana de Cuaresma",  # Sabbato infra Hebd IV Quadragesimæ
     constants.TEMPORA_QUAD5_0: "Domingo I de la Pasión",  # Dominica I Passionis
     constants.TEMPORA_QUAD5_1: "Lunes dentro de la Semana de la Pasión",  # Feria II infra Hebd Passionis
     constants.TEMPORA_QUAD5_2: "Martes dentro de la Semana de la Pasión",  # Feria III infra Hebd Passionis
@@ -117,33 +117,33 @@ TITLES = {
     constants.TEMPORA_PASC0_5: "Viernes dentro de la octava de Pascua",  # Die VI infra octavam Paschæ
     constants.TEMPORA_PASC0_6: "Sábado en Albis",  # Sabbato in Albis
     constants.TEMPORA_PASC1_0: "Domingo en Albis en la Octava de Pascua",  # Dominica in Albis in Octava Paschæ
-    constants.TEMPORA_PASC1_1: "Lunes dentro de la Semana I después de la Octava de Pascua",  # Feria II infra Hebd I post Octavam Paschæ
-    constants.TEMPORA_PASC1_2: "Martes dentro de la Semana I después de la Octava de Pascua",  # Feria III infra Hebd I post Octavam Paschæ
-    constants.TEMPORA_PASC1_3: "Miércoles dentro de la Semana I después de la Octava de Pascua",  # Feria IV infra Hebd I post Octavam Paschæ
-    constants.TEMPORA_PASC1_4: "Jueves dentro de la Semana I después de la Octava de Pascua",  # Feria V infra Hebd I post Octavam Paschæ
-    constants.TEMPORA_PASC1_5: "Viernes dentro de la Semana I después de la Octava de Pascua",  # Feria VI infra Hebd I post Octavam Paschæ
-    constants.TEMPORA_PASC1_6: "Sábado dentro de la Semana I después de la Octava de Pascua",  # Sabbato infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_1: "Lunes dentro de la Primera Semana después de la Octava de Pascua",  # Feria II infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_2: "Martes dentro de la Primera Semana después de la Octava de Pascua",  # Feria III infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_3: "Miércoles dentro de la Primera Semana después de la Octava de Pascua",  # Feria IV infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_4: "Jueves dentro de la Primera Semana después de la Octava de Pascua",  # Feria V infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_5: "Viernes dentro de la Primera Semana después de la Octava de Pascua",  # Feria VI infra Hebd I post Octavam Paschæ
+    constants.TEMPORA_PASC1_6: "Sábado dentro de la Primera Semana después de la Octava de Pascua",  # Sabbato infra Hebd I post Octavam Paschæ
     constants.TEMPORA_PASC2_0: "Domingo II después de Pascua",  # Dominica II Post Pascha
-    constants.TEMPORA_PASC2_1: "Lunes dentro de la Semana II después de la Octava de Pascua",  # Feria II infra Hebd II post Octavam Paschæ
-    constants.TEMPORA_PASC2_2: "Martes dentro de la Semana II después de la Octava de Pascua",  # Feria III infra Hebd II post Octavam Paschæ
-    constants.TEMPORA_PASC2_3: "Miércoles dentro de la Semana II después de la Octava de Pascua",  # Feria IV infra Hebd II post Octavam Paschæ
-    constants.TEMPORA_PASC2_4: "Jueves dentro de la Semana II después de la Octava de Pascua",  # Feria V infra Hebd II post Octavam Paschæ
-    constants.TEMPORA_PASC2_5: "Viernes dentro de la Semana II después de la Octava de Pascua",  # Feria VI infra Hebd II post Octavam Paschæ
-    constants.TEMPORA_PASC2_6: "Sábado dentro de la Semana II después de la Octava de Pascua",  # Sabbato infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_1: "Lunes dentro de la Segunda Semana después de la Octava de Pascua",  # Feria II infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_2: "Martes dentro de la Segunda Semana después de la Octava de Pascua",  # Feria III infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_3: "Miércoles dentro de la Segunda Semana después de la Octava de Pascua",  # Feria IV infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_4: "Jueves dentro de la Segunda Semana después de la Octava de Pascua",  # Feria V infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_5: "Viernes dentro de la Segunda Semana después de la Octava de Pascua",  # Feria VI infra Hebd II post Octavam Paschæ
+    constants.TEMPORA_PASC2_6: "Sábado dentro de la Segunda Semana después de la Octava de Pascua",  # Sabbato infra Hebd II post Octavam Paschæ
     constants.TEMPORA_PASC3_0: "Domingo III después de Pascua",  # Dominica III Post Pascha
-    constants.TEMPORA_PASC3_1: "Lunes dentro de la Semana III después de la Octava de Pascua",  # Feria II infra Hebd III post Octavam Paschæ
-    constants.TEMPORA_PASC3_2: "Martes dentro de la Semana III después de la Octava de Pascua",  # Feria III infra Hebd III post Octavam Paschæ
-    constants.TEMPORA_PASC3_3: "Miércoles dentro de la Semana III después de la Octava de Pascua",  # Feria IV infra Hebd III post Octavam Paschæ
-    constants.TEMPORA_PASC3_4: "Jueves dentro de la Semana III después de la Octava de Pascua",  # Feria V infra Hebd III post Octavam Paschæ
-    constants.TEMPORA_PASC3_5: "Viernes dentro de la Semana III después de la Octava de Pascua",  # Feria VI infra Hebd III post Octavam Paschæ
-    constants.TEMPORA_PASC3_6: "Sábado dentro de la Semana III después de la Octava de Pascua",  # Sabbato infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_1: "Lunes dentro de la Tercera Semana después de la Octava de Pascua",  # Feria II infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_2: "Martes dentro de la Tercera Semana después de la Octava de Pascua",  # Feria III infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_3: "Miércoles dentro de la Tercera Semana después de la Octava de Pascua",  # Feria IV infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_4: "Jueves dentro de la Tercera Semana después de la Octava de Pascua",  # Feria V infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_5: "Viernes dentro de la Tercera Semana después de la Octava de Pascua",  # Feria VI infra Hebd III post Octavam Paschæ
+    constants.TEMPORA_PASC3_6: "Sábado dentro de la Tercera Semana después de la Octava de Pascua",  # Sabbato infra Hebd III post Octavam Paschæ
     constants.TEMPORA_PASC4_0: "Domingo IV después de Pascua",  # Dominica IV Post Pascha
-    constants.TEMPORA_PASC4_1: "Lunes dentro de la Semana IV después de la Octava de Pascua",  # Feria II infra Hebd IV post Octavam Paschæ
-    constants.TEMPORA_PASC4_2: "Martes dentro de la Semana IV después de la Octava de Pascua",  # Feria III infra Hebd IV post Octavam Paschæ
-    constants.TEMPORA_PASC4_3: "Miércoles dentro de la Semana IV después de la Octava de Pascua",  # Feria IV infra Hebd IV post Octavam Paschæ
-    constants.TEMPORA_PASC4_4: "Jueves dentro de la Semana IV después de la Octava de Pascua",  # Feria V infra Hebd IV post Octavam Paschæ
-    constants.TEMPORA_PASC4_5: "Viernes dentro de la Semana IV después de la Octava de Pascua",  # Feria VI infra Hebd IV post Octavam Paschæ
-    constants.TEMPORA_PASC4_6: "Sábado dentro de la Semana IV después de la Octava de Pascua",  # Sabbato infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_1: "Lunes dentro de la Cuarta Semana después de la Octava de Pascua",  # Feria II infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_2: "Martes dentro de la Cuarta Semana después de la Octava de Pascua",  # Feria III infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_3: "Miércoles dentro de la Cuarta Semana después de la Octava de Pascua",  # Feria IV infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_4: "Jueves dentro de la Cuarta Semana después de la Octava de Pascua",  # Feria V infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_5: "Viernes dentro de la Cuarta Semana después de la Octava de Pascua",  # Feria VI infra Hebd IV post Octavam Paschæ
+    constants.TEMPORA_PASC4_6: "Sábado dentro de la Cuarta Semana después de la Octava de Pascua",  # Sabbato infra Hebd IV post Octavam Paschæ
     constants.TEMPORA_PASC5_0: "Domingo V después de Pascua",  # Dominica V Post Pascha
     constants.TEMPORA_PASC5_1: "Lunes de Rogaciones",  # Feria II in Rogationibus
     constants.TEMPORA_PASC5_2: "Martes de Rogaciones",  # Feria III in Rogationibus
@@ -166,89 +166,89 @@ TITLES = {
     constants.TEMPORA_PASC7_5: "Viernes de las Témporas de Pentecostés",  # Feria VI Quattuor temporum Pentecostes
     constants.TEMPORA_PASC7_6: "Sábado de las Témporas de Pentecostés",  # Sabbato Quattuor Temporum Pentecostes
     constants.TEMPORA_PENT01_0: "Domingo de la Santísima Trinidad",  # Dominica Sanctissimæ Trinitatis
-    constants.TEMPORA_PENT01_1: "Lunes dentro de la Semana I después de la Octava de Pentecostés",  # Feria II infra Hebd I post Octavam Pentecostes
-    constants.TEMPORA_PENT01_2: "Martes dentro de la Semana I después de la Octava de Pentecostés",  # Feria III infra Hebd I post Octavam Pentecostes
-    constants.TEMPORA_PENT01_3: "Miércoles dentro de la Semana I después de la Octava de Pentecostés",  # Feria IV infra Hebd I post Octavam Pentecostes
+    constants.TEMPORA_PENT01_1: "Lunes dentro de la Primera Semana después de la Octava de Pentecostés",  # Feria II infra Hebd I post Octavam Pentecostes
+    constants.TEMPORA_PENT01_2: "Martes dentro de la Primera Semana después de la Octava de Pentecostés",  # Feria III infra Hebd I post Octavam Pentecostes
+    constants.TEMPORA_PENT01_3: "Miércoles dentro de la Primera Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd I post Octavam Pentecostes
     constants.TEMPORA_PENT01_4: "Fiesta del Santísimo Cuerpo de Cristo",  # Festum Sanctissimi Corporis Christi
-    constants.TEMPORA_PENT01_5: "Jueves dentro de la Semana I después de la Octava de Pentecostés",  # Feria V infra Hebd I post Octavam Pentecostes
-    constants.TEMPORA_PENT01_6: "Sábado dentro de la Semana I después de la Octava de Pentecostés",  # Sabbato infra Hebd I post Octavam Pentecostes
+    constants.TEMPORA_PENT01_5: "Jueves dentro de la Primera Semana después de la Octava de Pentecostés",  # Feria V infra Hebd I post Octavam Pentecostes
+    constants.TEMPORA_PENT01_6: "Sábado dentro de la Primera Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd I post Octavam Pentecostes
     constants.TEMPORA_PENT02_0: "Domingo II después de Pentecostés",  # Dominica II Post Pentecosten
-    constants.TEMPORA_PENT02_1: "Lunes dentro de la Semana II después de la Octava de Pentecostés",  # Feria II infra Hebd II post Octavam Pentecostes
-    constants.TEMPORA_PENT02_2: "Martes dentro de la Semana II después de la Octava de Pentecostés",  # Feria III infra Hebd II post Octavam Pentecostes
-    constants.TEMPORA_PENT02_3: "Miércoles dentro de la Semana II después de la Octava de Pentecostés",  # Feria IV infra Hebd II post Octavam Pentecostes
-    constants.TEMPORA_PENT02_4: "Jueves dentro de la Semana II después de la Octava de Pentecostés",  # Feria V infra Hebd II post Octavam Pentecostes
+    constants.TEMPORA_PENT02_1: "Lunes dentro de la Segunda Semana después de la Octava de Pentecostés",  # Feria II infra Hebd II post Octavam Pentecostes
+    constants.TEMPORA_PENT02_2: "Martes dentro de la Segunda Semana después de la Octava de Pentecostés",  # Feria III infra Hebd II post Octavam Pentecostes
+    constants.TEMPORA_PENT02_3: "Miércoles dentro de la Segunda Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd II post Octavam Pentecostes
+    constants.TEMPORA_PENT02_4: "Jueves dentro de la Segunda Semana después de la Octava de Pentecostés",  # Feria V infra Hebd II post Octavam Pentecostes
     constants.TEMPORA_PENT02_5: "Santísimo Corazón de Nuestro Señor Jesucristo",  # Sanctissimi Cordis Domini Nostri Jesu Christi
-    constants.TEMPORA_PENT02_6: "Sábado dentro de la Semana II después de la Octava de Pentecostés",  # Sabbato infra Hebd II post Octavam Pentecostes
+    constants.TEMPORA_PENT02_6: "Sábado dentro de la Segunda Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd II post Octavam Pentecostes
     constants.TEMPORA_PENT03_0: "Domingo III después de Pentecostés",  # Dominica III Post Pentecosten
-    constants.TEMPORA_PENT03_1: "Lunes dentro de la Semana III después de la Octava de Pentecostés",  # Feria II infra Hebd III post Octavam Pentecostes
-    constants.TEMPORA_PENT03_2: "Martes dentro de la Semana III después de la Octava de Pentecostés",  # Feria III infra Hebd III post Octavam Pentecostes
-    constants.TEMPORA_PENT03_3: "Miércoles dentro de la Semana III después de la Octava de Pentecostés",  # Feria IV infra Hebd III post Octavam Pentecostes
-    constants.TEMPORA_PENT03_4: "Jueves dentro de la Semana III después de la Octava de Pentecostés",  # Feria V infra Hebd III post Octavam Pentecostes
-    constants.TEMPORA_PENT03_5: "Viernes dentro de la Semana III después de la Octava de Pentecostés",  # Feria VI infra Hebd III post Octavam Pentecostes
-    constants.TEMPORA_PENT03_6: "Sábado dentro de la Semana III después de la Octava de Pentecostés",  # Sabbato infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_1: "Lunes dentro de la Tercera Semana después de la Octava de Pentecostés",  # Feria II infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_2: "Martes dentro de la Tercera Semana después de la Octava de Pentecostés",  # Feria III infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_3: "Miércoles dentro de la Tercera Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_4: "Jueves dentro de la Tercera Semana después de la Octava de Pentecostés",  # Feria V infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_5: "Viernes dentro de la Tercera Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd III post Octavam Pentecostes
+    constants.TEMPORA_PENT03_6: "Sábado dentro de la Tercera Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd III post Octavam Pentecostes
     constants.TEMPORA_PENT04_0: "Domingo IV después de Pentecostés",  # Dominica IV Post Pentecosten
-    constants.TEMPORA_PENT04_1: "Lunes dentro de la Semana IV después de la Octava de Pentecostés",  # Feria II infra Hebd IV post Octavam Pentecostes
-    constants.TEMPORA_PENT04_2: "Martes dentro de la Semana IV después de la Octava de Pentecostés",  # Feria III infra Hebd IV post Octavam Pentecostes
-    constants.TEMPORA_PENT04_3: "Miércoles dentro de la Semana IV después de la Octava de Pentecostés",  # Feria IV infra Hebd IV post Octavam Pentecostes
-    constants.TEMPORA_PENT04_4: "Jueves dentro de la Semana IV después de la Octava de Pentecostés",  # Feria V infra Hebd IV post Octavam Pentecostes
-    constants.TEMPORA_PENT04_5: "Viernes dentro de la Semana IV después de la Octava de Pentecostés",  # Feria VI infra Hebd IV post Octavam Pentecostes
-    constants.TEMPORA_PENT04_6: "Sábado dentro de la Semana IV después de la Octava de Pentecostés",  # Sabbato infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_1: "Lunes dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Feria II infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_2: "Martes dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Feria III infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_3: "Miércoles dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_4: "Jueves dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Feria V infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_5: "Viernes dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd IV post Octavam Pentecostes
+    constants.TEMPORA_PENT04_6: "Sábado dentro de la Cuarta Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd IV post Octavam Pentecostes
     constants.TEMPORA_PENT05_0: "Domingo V después de Pentecostés",  # Dominica V Post Pentecosten
-    constants.TEMPORA_PENT05_1: "Lunes dentro de la Semana V después de la Octava de Pentecostés",  # Feria II infra Hebd V post Octavam Pentecostes
-    constants.TEMPORA_PENT05_2: "Martes dentro de la Semana V después de la Octava de Pentecostés",  # Feria III infra Hebd V post Octavam Pentecostes
-    constants.TEMPORA_PENT05_3: "Miércoles dentro de la Semana V después de la Octava de Pentecostés",  # Feria IV infra Hebd V post Octavam Pentecostes
-    constants.TEMPORA_PENT05_4: "Jueves dentro de la Semana V después de la Octava de Pentecostés",  # Feria V infra Hebd V post Octavam Pentecostes
-    constants.TEMPORA_PENT05_5: "Viernes dentro de la Semana V después de la Octava de Pentecostés",  # Feria VI infra Hebd V post Octavam Pentecostes
-    constants.TEMPORA_PENT05_6: "Sábado dentro de la Semana V después de la Octava de Pentecostés",  # Sabbato infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_1: "Lunes dentro de la Quinta Semana después de la Octava de Pentecostés",  # Feria II infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_2: "Martes dentro de la Quinta Semana después de la Octava de Pentecostés",  # Feria III infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_3: "Miércoles dentro de la Quinta Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_4: "Jueves dentro de la Quinta Semana después de la Octava de Pentecostés",  # Feria V infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_5: "Viernes dentro de la Quinta Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd V post Octavam Pentecostes
+    constants.TEMPORA_PENT05_6: "Sábado dentro de la Quinta Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd V post Octavam Pentecostes
     constants.TEMPORA_PENT06_0: "Domingo VI después de Pentecostés",  # Dominica VI Post Pentecosten
-    constants.TEMPORA_PENT06_1: "Lunes dentro de la Semana VI después de la Octava de Pentecostés",  # Feria II infra Hebd VI post Octavam Pentecostes
-    constants.TEMPORA_PENT06_2: "Martes dentro de la Semana VI después de la Octava de Pentecostés",  # Feria III infra Hebd VI post Octavam Pentecostes
-    constants.TEMPORA_PENT06_3: "Miércoles dentro de la Semana VI después de la Octava de Pentecostés",  # Feria IV infra Hebd VI post Octavam Pentecostes
-    constants.TEMPORA_PENT06_4: "Jueves dentro de la Semana VI después de la Octava de Pentecostés",  # Feria V infra Hebd VI post Octavam Pentecostes
-    constants.TEMPORA_PENT06_5: "Viernes dentro de la Semana VI después de la Octava de Pentecostés",  # Feria VI infra Hebd VI post Octavam Pentecostes
-    constants.TEMPORA_PENT06_6: "Sábado dentro de la Semana VI después de la Octava de Pentecostés",  # Sabbato infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_1: "Lunes dentro de la Sexta Semana después de la Octava de Pentecostés",  # Feria II infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_2: "Martes dentro de la Sexta Semana después de la Octava de Pentecostés",  # Feria III infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_3: "Miércoles dentro de la Sexta Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_4: "Jueves dentro de la Sexta Semana después de la Octava de Pentecostés",  # Feria V infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_5: "Viernes dentro de la Sexta Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd VI post Octavam Pentecostes
+    constants.TEMPORA_PENT06_6: "Sábado dentro de la Sexta Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd VI post Octavam Pentecostes
     constants.TEMPORA_PENT07_0: "Domingo VII después de Pentecostés",  # Dominica VII Post Pentecosten
-    constants.TEMPORA_PENT07_1: "Lunes dentro de la Semana VII después de la Octava de Pentecostés",  # Feria II infra Hebd VII post Octavam Pentecostes
-    constants.TEMPORA_PENT07_2: "Martes dentro de la Semana VII después de la Octava de Pentecostés",  # Feria III infra Hebd VII post Octavam Pentecostes
-    constants.TEMPORA_PENT07_3: "Miércoles dentro de la Semana VII después de la Octava de Pentecostés",  # Feria IV infra Hebd VII post Octavam Pentecostes
-    constants.TEMPORA_PENT07_4: "Jueves dentro de la Semana VII después de la Octava de Pentecostés",  # Feria V infra Hebd VII post Octavam Pentecostes
-    constants.TEMPORA_PENT07_5: "Viernes dentro de la Semana VII después de la Octava de Pentecostés",  # Feria VI infra Hebd VII post Octavam Pentecostes
-    constants.TEMPORA_PENT07_6: "Sábado dentro de la Semana VII después de la Octava de Pentecostés",  # Sabbato infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_1: "Lunes dentro de la Septima Semana después de la Octava de Pentecostés",  # Feria II infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_2: "Martes dentro de la Septima Semana después de la Octava de Pentecostés",  # Feria III infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_3: "Miércoles dentro de la Septima Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_4: "Jueves dentro de la Septima Semana después de la Octava de Pentecostés",  # Feria V infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_5: "Viernes dentro de la Septima Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd VII post Octavam Pentecostes
+    constants.TEMPORA_PENT07_6: "Sábado dentro de la Septima Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd VII post Octavam Pentecostes
     constants.TEMPORA_PENT08_0: "Domingo VIII después de Pentecostés",  # Dominica VIII Post Pentecosten
-    constants.TEMPORA_PENT08_1: "Lunes dentro de la Semana VIII después de la Octava de Pentecostés",  # Feria II infra Hebd VIII post Octavam Pentecostes
-    constants.TEMPORA_PENT08_2: "Martes dentro de la Semana VIII después de la Octava de Pentecostés",  # Feria III infra Hebd VIII post Octavam Pentecostes
-    constants.TEMPORA_PENT08_3: "Miércoles dentro de la Semana VIII después de la Octava de Pentecostés",  # Feria IV infra Hebd VIII post Octavam Pentecostes
-    constants.TEMPORA_PENT08_4: "Jueves dentro de la Semana VIII después de la Octava de Pentecostés",  # Feria V infra Hebd VIII post Octavam Pentecostes
-    constants.TEMPORA_PENT08_5: "Viernes dentro de la Semana VIII después de la Octava de Pentecostés",  # Feria VI infra Hebd VIII post Octavam Pentecostes
-    constants.TEMPORA_PENT08_6: "Sábado dentro de la Semana VIII después de la Octava de Pentecostés",  # Sabbato infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_1: "Lunes dentro de la Octava Semana después de la Octava de Pentecostés",  # Feria II infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_2: "Martes dentro de la Octava Semana después de la Octava de Pentecostés",  # Feria III infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_3: "Miércoles dentro de la Octava Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_4: "Jueves dentro de la Octava Semana después de la Octava de Pentecostés",  # Feria V infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_5: "Viernes dentro de la Octava Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd VIII post Octavam Pentecostes
+    constants.TEMPORA_PENT08_6: "Sábado dentro de la Octava Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd VIII post Octavam Pentecostes
     constants.TEMPORA_PENT09_0: "Domingo IX después de Pentecostés",  # Dominica IX Post Pentecosten
-    constants.TEMPORA_PENT09_1: "Lunes dentro de la Semana IX después de la Octava de Pentecostés",  # Feria II infra Hebd IX post Octavam Pentecostes
-    constants.TEMPORA_PENT09_2: "Martes dentro de la Semana IX después de la Octava de Pentecostés",  # Feria III infra Hebd IX post Octavam Pentecostes
-    constants.TEMPORA_PENT09_3: "Miércoles dentro de la Semana IX después de la Octava de Pentecostés",  # Feria IV infra Hebd IX post Octavam Pentecostes
-    constants.TEMPORA_PENT09_4: "Jueves dentro de la Semana IX después de la Octava de Pentecostés",  # Feria V infra Hebd IX post Octavam Pentecostes
-    constants.TEMPORA_PENT09_5: "Viernes dentro de la Semana IX después de la Octava de Pentecostés",  # Feria VI infra Hebd IX post Octavam Pentecostes
-    constants.TEMPORA_PENT09_6: "Sábado dentro de la Semana IX después de la Octava de Pentecostés",  # Sabbato infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_1: "Lunes dentro de la Novena Semana después de la Octava de Pentecostés",  # Feria II infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_2: "Martes dentro de la Novena Semana después de la Octava de Pentecostés",  # Feria III infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_3: "Miércoles dentro de la Novena Semana después de la Octava de Pentecostés",  # Feria IV infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_4: "Jueves dentro de la Novena Semana después de la Octava de Pentecostés",  # Feria V infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_5: "Viernes dentro de la Novena Semana después de la Octava de Pentecostés",  # Feria VI infra Hebd IX post Octavam Pentecostes
+    constants.TEMPORA_PENT09_6: "Sábado dentro de la Novena Semana después de la Octava de Pentecostés",  # Sabbato infra Hebd IX post Octavam Pentecostes
     constants.TEMPORA_PENT10_0: "Domingo X después de Pentecostés",  # Dominica X Post Pentecosten
-    constants.TEMPORA_PENT10_1: "Lunes dentro de la Semana X después de la Octava de Pentecostés",  # Feria II infra Hebd X post Octavam Pentecostes
-    constants.TEMPORA_PENT10_2: "Martes dentro de la Semana X después de la Octava de Pentecostés",  # Feria III infra Hebd X post Octavam Pentecostes
-    constants.TEMPORA_PENT10_3: "Miércoles dentro de la Semana X después de la Octava de Pentecostés",  # Feria IV infra Hebd X post Octavam Pentecostes
-    constants.TEMPORA_PENT10_4: "Jueves dentro de la Semana X después de la Octava de Pentecostés",  # Feria V infra Hebd X post Octavam Pentecostes
-    constants.TEMPORA_PENT10_5: "Viernes dentro de la Semana X después de la Octava de Pentecostés",  # Feria VI infra Hebd X post Octavam Pentecostes
-    constants.TEMPORA_PENT10_6: "Sábado dentro de la Semana X después de la Octava de Pentecostés",  # Sabbato infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_1: "Lunes dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Feria II infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_2: "Martes dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Feria III infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_3: "Miércoles dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Feria IV infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_4: "Jueves dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Feria V infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_5: "Viernes dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Feria VI infra Hebd X post Octavam Pentecostes
+    constants.TEMPORA_PENT10_6: "Sábado dentro de la Decima Semanadespués de la Octava de Pentecostés",  # Sabbato infra Hebd X post Octavam Pentecostes
     constants.TEMPORA_PENT11_0: "Domingo XI después de Pentecostés",  # Dominica XI Post Pentecosten
-    constants.TEMPORA_PENT11_1: "Lunes dentro de la Semana XI después de la Octava de Pentecostés",  # Feria II infra Hebd XI post Octavam Pentecostes
-    constants.TEMPORA_PENT11_2: "Martes dentro de la Semana XI después de la Octava de Pentecostés",  # Feria III infra Hebd XI post Octavam Pentecostes
-    constants.TEMPORA_PENT11_3: "Miércoles dentro de la Semana XI después de la Octava de Pentecostés",  # Feria IV infra Hebd XI post Octavam Pentecostes
-    constants.TEMPORA_PENT11_4: "Jueves dentro de la Semana XI después de la Octava de Pentecostés",  # Feria V infra Hebd XI post Octavam Pentecostes
-    constants.TEMPORA_PENT11_5: "Viernes dentro de la Semana XI después de la Octava de Pentecostés",  # Feria VI infra Hebd XI post Octavam Pentecostes
-    constants.TEMPORA_PENT11_6: "Sábado dentro de la Semana XI después de la Octava de Pentecostés",  # Sabbato infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_1: "Lunes dentro de la Semana 11º después de la Octava de Pentecostés",  # Feria II infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_2: "Martes dentro de la Semana 11º después de la Octava de Pentecostés",  # Feria III infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_3: "Miércoles dentro de la Semana 11º después de la Octava de Pentecostés",  # Feria IV infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_4: "Jueves dentro de la Semana 11º después de la Octava de Pentecostés",  # Feria V infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_5: "Viernes dentro de la Semana 11º después de la Octava de Pentecostés",  # Feria VI infra Hebd XI post Octavam Pentecostes
+    constants.TEMPORA_PENT11_6: "Sábado dentro de la Semana 11º después de la Octava de Pentecostés",  # Sabbato infra Hebd XI post Octavam Pentecostes
     constants.TEMPORA_PENT12_0: "Domingo XII después de Pentecostés",  # Dominica XII Post Pentecosten
-    constants.TEMPORA_PENT12_1: "Lunes dentro de la Semana XII después de la Octava de Pentecostés",  # Feria II infra Hebd XII post Octavam Pentecostes
-    constants.TEMPORA_PENT12_2: "Martes dentro de la Semana XII después de la Octava de Pentecostés",  # Feria III infra Hebd XII post Octavam Pentecostes
-    constants.TEMPORA_PENT12_3: "Miércoles dentro de la Semana XII después de la Octava de Pentecostés",  # Feria IV infra Hebd XII post Octavam Pentecostes
-    constants.TEMPORA_PENT12_4: "Jueves dentro de la Semana XII después de la Octava de Pentecostés",  # Feria V infra Hebd XII post Octavam Pentecostes
-    constants.TEMPORA_PENT12_5: "Viernes dentro de la Semana XII después de la Octava de Pentecostés",  # Feria VI infra Hebd XII post Octavam Pentecostes
-    constants.TEMPORA_PENT12_6: "Sábado dentro de la Semana XII después de la Octava de Pentecostés",  # Sabbato infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_1: "Lunes dentro de la Semana 12º después de la Octava de Pentecostés",  # Feria II infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_2: "Martes dentro de la Semana 12º después de la Octava de Pentecostés",  # Feria III infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_3: "Miércoles dentro de la Semana 12º después de la Octava de Pentecostés",  # Feria IV infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_4: "Jueves dentro de la Semana 12º después de la Octava de Pentecostés",  # Feria V infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_5: "Viernes dentro de la Semana 12º después de la Octava de Pentecostés",  # Feria VI infra Hebd XII post Octavam Pentecostes
+    constants.TEMPORA_PENT12_6: "Sábado dentro de la Semana 12º después de la Octava de Pentecostés",  # Sabbato infra Hebd XII post Octavam Pentecostes
     constants.TEMPORA_PENT13_0: "Domingo XIII después de Pentecostés",  # Dominica XIII Post Pentecosten
     constants.TEMPORA_PENT13_1: "Lunes dentro de la Semana XIII después de la Octava de Pentecostés",  # Feria II infra Hebd XIII post Octavam Pentecostes
     constants.TEMPORA_PENT13_2: "Martes dentro de la Semana XIII después de la Octava de Pentecostés",  # Feria III infra Hebd XIII post Octavam Pentecostes
@@ -337,32 +337,32 @@ TITLES = {
     constants.TEMPORA_PENT24_5: "Viernes dentro de la Semana XXIV después de la Octava de Pentecostés",  # Feria VI infra Hebd XXIV post Octavam Pentecostes
     constants.TEMPORA_PENT24_6: "Sábado dentro de la Semana XXIV después de la Octava de Pentecostés",  # Sabbato infra Hebd XXIV post Octavam Pentecostes
     constants.TEMPORA_ADV1_0: "Domingo I de Adviento",  # Dominica I Adventus
-    constants.TEMPORA_ADV1_1: "Lunes dentro de la Semana I de Adviento",  # Feria II infra Hebd I Adventus
-    constants.TEMPORA_ADV1_2: "Martes dentro de la Semana I de Adviento",  # Feria III infra Hebd I Adventus
-    constants.TEMPORA_ADV1_3: "Miércoles dentro de la Semana I de Adviento",  # Feria IV infra Hebd I Adventus
-    constants.TEMPORA_ADV1_4: "Jueves dentro de la Semana I de Adviento",  # Feria V infra Hebd I Adventus
-    constants.TEMPORA_ADV1_5: "Viernes dentro de la Semana I de Adviento",  # Feria VI infra Hebd I Adventus
-    constants.TEMPORA_ADV1_6: "Sábado dentro de la Semana I de Adviento",  # Sabbato infra Hebd I Adventus
+    constants.TEMPORA_ADV1_1: "Lunes dentro de la Primera Semana de Adviento",  # Feria II infra Hebd I Adventus
+    constants.TEMPORA_ADV1_2: "Martes dentro de la Primera Semana de Adviento",  # Feria III infra Hebd I Adventus
+    constants.TEMPORA_ADV1_3: "Miércoles dentro de la Primera Semana de Adviento",  # Feria IV infra Hebd I Adventus
+    constants.TEMPORA_ADV1_4: "Jueves dentro de la Primera Semana de Adviento",  # Feria V infra Hebd I Adventus
+    constants.TEMPORA_ADV1_5: "Viernes dentro de la Primera Semana de Adviento",  # Feria VI infra Hebd I Adventus
+    constants.TEMPORA_ADV1_6: "Sábado dentro de la Primera Semana de Adviento",  # Sabbato infra Hebd I Adventus
     constants.TEMPORA_ADV2_0: "Domingo II de Adviento",  # Dominica II Adventus
-    constants.TEMPORA_ADV2_1: "Lunes dentro de la Semana II de Adviento",  # Feria II infra Hebd II Adventus
-    constants.TEMPORA_ADV2_2: "Martes dentro de la Semana II de Adviento",  # Feria III infra Hebd II Adventus
-    constants.TEMPORA_ADV2_3: "Miércoles dentro de la Semana II de Adviento",  # Feria IV infra Hebd II Adventus
-    constants.TEMPORA_ADV2_4: "Jueves dentro de la Semana II de Adviento",  # Feria V infra Hebd II Adventus
-    constants.TEMPORA_ADV2_5: "Viernes dentro de la Semana II de Adviento",  # Feria VI infra Hebd II Adventus
-    constants.TEMPORA_ADV2_6: "Sábado dentro de la Semana II de Adviento",  # Sabbato infra Hebd II Adventus
+    constants.TEMPORA_ADV2_1: "Lunes dentro de la Segunda Semana de Adviento",  # Feria II infra Hebd II Adventus
+    constants.TEMPORA_ADV2_2: "Martes dentro de la Segunda Semana de Adviento",  # Feria III infra Hebd II Adventus
+    constants.TEMPORA_ADV2_3: "Miércoles dentro de la Segunda Semana de Adviento",  # Feria IV infra Hebd II Adventus
+    constants.TEMPORA_ADV2_4: "Jueves dentro de la Segunda Semana de Adviento",  # Feria V infra Hebd II Adventus
+    constants.TEMPORA_ADV2_5: "Viernes dentro de la Segunda Semana de Adviento",  # Feria VI infra Hebd II Adventus
+    constants.TEMPORA_ADV2_6: "Sábado dentro de la Segunda Semana de Adviento",  # Sabbato infra Hebd II Adventus
     constants.TEMPORA_ADV3_0: "Domingo III de Adviento",  # Dominica III Adventus
-    constants.TEMPORA_ADV3_1: "Lunes dentro de la Semana IV de Adviento",  # Feria II infra Hebd IV Adventus
-    constants.TEMPORA_ADV3_2: "Martes dentro de la Semana IV de Adviento",  # Feria III infra Hebd IV Adventus
+    constants.TEMPORA_ADV3_1: "Lunes dentro de la Cuarta Semana de Adviento",  # Feria II infra Hebd IV Adventus
+    constants.TEMPORA_ADV3_2: "Martes dentro de la Cuarta Semana de Adviento",  # Feria III infra Hebd IV Adventus
     constants.TEMPORA_ADV3_3: "Miércoles de las Témporas de Adviento",  # Feria IV Quattuor Temporum Adventus
-    constants.TEMPORA_ADV3_4: "Jueves dentro de la Semana IV de Adviento",  # Feria V infra Hebd IV Adventus
+    constants.TEMPORA_ADV3_4: "Jueves dentro de la Cuarta Semana de Adviento",  # Feria V infra Hebd IV Adventus
     constants.TEMPORA_ADV3_5: "Viernes de las Témporas de Adviento",  # Feria VI Quattuor Temporum Adventus
     constants.TEMPORA_ADV3_6: "Sábado de las Témporas de Adviento",  # Sabbato Temporum Adventus
     constants.TEMPORA_ADV4_0: "Domingo IV de Adviento",  # Dominica IV Adventus
-    constants.TEMPORA_ADV4_1: "Lunes dentro de la Semana IV de Adviento",  # Feria II infra Hebd IV Adventus
-    constants.TEMPORA_ADV4_2: "Martes dentro de la Semana IV de Adviento",  # Feria III infra Hebd IV Adventus
-    constants.TEMPORA_ADV4_3: "Miércoles dentro de la Semana IV de Adviento",  # Feria IV infra Hebd IV Adventus
-    constants.TEMPORA_ADV4_4: "Jueves dentro de la Semana IV de Adviento",  # Feria V infra Hebd IV Adventus
-    constants.TEMPORA_ADV4_5: "Viernes dentro de la Semana IV de Adviento",  # Feria VI infra Hebd IV Adventus
+    constants.TEMPORA_ADV4_1: "Lunes dentro de la Cuarta Semana de Adviento",  # Feria II infra Hebd IV Adventus
+    constants.TEMPORA_ADV4_2: "Martes dentro de la Cuarta Semana de Adviento",  # Feria III infra Hebd IV Adventus
+    constants.TEMPORA_ADV4_3: "Miércoles dentro de la Cuarta Semana de Adviento",  # Feria IV infra Hebd IV Adventus
+    constants.TEMPORA_ADV4_4: "Jueves dentro de la Cuarta Semana de Adviento",  # Feria V infra Hebd IV Adventus
+    constants.TEMPORA_ADV4_5: "Viernes dentro de la Cuarta Semana de Adviento",  # Feria VI infra Hebd IV Adventus
     constants.TEMPORA_NAT1_0: "Domingo dentro de la Octava de Navidad",  # Dominica Infra Octavam Nativitatis
     constants.TEMPORA_NAT1_1: "Día dentro de la Octava de Navidad",  # Feria Infra Octavam Nativitatis
     constants.TEMPORA_NAT2_0: "Santísimo Nombre de Jesús",  # Sanctissimi Nominis Jesu
