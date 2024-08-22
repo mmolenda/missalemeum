@@ -66,7 +66,7 @@ def calendar(year, language, month):
                         collect.append(repr_)
                 te, ce, co = collect
                 datestr = date_.strftime('%A %Y-%m-%d') if row_number == 0 else ""
-                click.echo(f"{datestr.ljust(padding)} "
+                click.echo(f"{datestr.ljust(22)} class:{str(day.get_celebration_rank()).ljust(6)}"
                            f"{te.ljust(padding)} {ce.ljust(padding)} {co.ljust(padding)}")
 
     missal: Calendar = controller.get_calendar(year, language)
@@ -79,6 +79,9 @@ def calendar(year, language, month):
 def proper(proper_id: str, language: str):
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, language)
+        click.echo('# title Latin: {}'.format(proper_latin.title))
+        click.echo('# title vernacular: {}'.format(proper_vernacular.title))
+        click.echo('class: {}'.format(proper_latin.rank))
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
     except (InvalidInput, ProperNotFound) as e:
@@ -97,6 +100,7 @@ def date(date: str, language: str):
     click.echo(f'# {date}')
     click.echo('- tempora: {}'.format(day.get_tempora_name()))
     click.echo('- celebration: {}'.format(day.get_celebration_name()))
+    click.echo('- class: {}'.format(day.get_celebration_rank()))
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
