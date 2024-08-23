@@ -3,10 +3,18 @@ import os
 import pytest
 from unittest.mock import patch
 
+from propers.models import Proper
 from propers.parser_latin_ref import ProperParserLatinRef
 language = 'en'
 
 HERE = os.path.abspath(os.path.dirname(__file__))
+
+
+def print_proper(proper: Proper):
+    print(f"\n#### {proper.lang.upper()}")
+    for k, v in proper.items():
+        print(f"# {v}")
+
 
 @patch("propers.parser.cc")
 @pytest.mark.parametrize("id_,introit_lat,oratio_lat,introit_vern,oratio_vern", [
@@ -23,3 +31,8 @@ def test_parser1(constants_common, id_: str, introit_lat: str, oratio_lat, intro
     assert proper_vern.id == id_
     # assert proper_vern.get_section("Introitus").body[0] == introit_vern
     # assert proper_vern.get_section("Oratio").body[0] == oratio_vern
+
+    print_proper(proper_lat)
+    print_proper(proper_vern)
+
+
