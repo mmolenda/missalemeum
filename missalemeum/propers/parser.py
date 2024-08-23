@@ -7,7 +7,8 @@ import utils as utils
 from exceptions import InvalidInput, ProperNotFound
 
 from constants import TRANSLATION
-from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
+from constants import common as cc
+from constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
                               REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION,
                               PREFATIO_COMMUNIS,
@@ -327,7 +328,7 @@ class ProperParser:
 
     @staticmethod
     def _get_full_path(partial_path, lang):
-        full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+        full_path = os.path.join(cc.CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
         if not os.path.exists(full_path):
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
             if not os.path.exists(full_path):
