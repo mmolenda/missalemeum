@@ -8,6 +8,22 @@ from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCH
 from exceptions import ProperNotFound
 
 
+@dataclasses.dataclass
+class Rules:
+    # global reference to other source file
+    vide: str = None
+    # name of the preface
+    preface: str = None
+    # optional substitute string for the preface that will be put instead of
+    # the string between two asterisks in the preface body.
+    # For example prefaces about B.V.M. have variable part depending on the feast.
+    preface_mod: str = None
+    # if present, no data will be taken from the source;
+    # used for compatibility in case of commemorations that are already included in
+    # main observance's source
+    ignore: bool = False
+
+
 class ParsedSource:
     """
     Class representing parsed plain data file in Divinum Officium format, such as
@@ -42,6 +58,7 @@ class ParsedSource:
 
     def __init__(self) -> None:
         self._container = {}
+        self.rules: Union[Rules, None] = None
 
     def get_section(self, section_id: str) -> Union[None, 'Section']:
         return self._container.get(section_id)
@@ -72,58 +89,7 @@ class ParsedSource:
             if k not in self._container.keys():
                 self._container[k] = v
 
-
-@dataclasses.dataclass
-class Rules:
-    # global reference to other source file
-    vide: str = None
-    # name of the preface
-    preface: str = None
-    # optional substitute string for the preface that will be put instead of
-    # the string between two asterisks in the preface body.
-    # For example prefaces about B.V.M. have variable part depending on the feast.
-    preface_mod: str = None
-    # if present, no data will be taken from the source;
-    # used for compatibility in case of commemorations that are already included in
-    # main observance's source
-    ignore: bool = False
-
-class Proper(ParsedSource):
-    """
-    Class representing a Proper for given observance.
-    """
-    title: str = None
-    description: str = None
-    rank: int = None
-    rules: Rules = None
-    tags: List[str] = []
-    supplements = []
-    commemorations_names_translations = {
-        COMMEMORATION: None,
-        COMMEMORATED_ORATIO: None,
-        COMMEMORATED_SECRETA: None,
-        COMMEMORATED_POSTCOMMUNIO: None,
-    }
-
-    def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
-        super(Proper, self).__init__()
-        self.id = id_
-        self.lang = lang
-        try:
-            _, _, rank, color = id_.split(':')
-            self.rank = int(rank)
-        except ValueError:
-            raise ProperNotFound(f"Proper {id_} not found")
-        self.colors = list(color)
-        if parsed_source is not None:
-            self._container = copy(parsed_source._container)
-        self.rules = self._get_rules()
-
-    def serialize(self) -> List[dict]:
-        list_ = [v.serialize() for k, v in self._container.items()]
-        return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
-
-    def _get_rules(self) -> Rules:
+    def parse_rules(self) -> Rules:
         """
         Extract certain rules from sections [Rank] and [Rule]:
             * `Prefatio=.*=.*` -> ID of preface for given observance and optional modifier
@@ -161,6 +127,41 @@ class Proper(ParsedSource):
                 rules.ignore = True
 
         return rules
+
+
+class Proper(ParsedSource):
+    """
+    Class representing a Proper for given observance.
+    """
+    title: str = None
+    description: str = None
+    rank: int = None
+    tags: List[str] = []
+    supplements = []
+    commemorations_names_translations = {
+        COMMEMORATION: None,
+        COMMEMORATED_ORATIO: None,
+        COMMEMORATED_SECRETA: None,
+        COMMEMORATED_POSTCOMMUNIO: None,
+    }
+
+    def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
+        super(Proper, self).__init__()
+        self.id = id_
+        self.lang = lang
+        try:
+            _, _, rank, color = id_.split(':')
+            self.rank = int(rank)
+        except ValueError:
+            raise ProperNotFound(f"Proper {id_} not found")
+        self.colors = list(color)
+        if parsed_source is not None:
+            self._container = copy(parsed_source._container)
+            self.rules = parsed_source.rules
+
+    def serialize(self) -> List[dict]:
+        list_ = [v.serialize() for k, v in self._container.items()]
+        return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
 
     def add_commemorations(self, commemorations: List['Proper']):
         for i, commemoration in enumerate(commemorations):
