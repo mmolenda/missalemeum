@@ -15,7 +15,7 @@ from constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
                               PREFATIO_OMIT,
                               OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES, PREFATIO,
-                              PATTERN_PREFATIO_SUBSTITUTION)
+                              PATTERN_PREFATIO_SUBSTITUTION, RULE)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -65,20 +65,6 @@ class ProperParser:
         parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
         proper = Proper(self.proper_id, lang, parsed_source)
 
-        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
-        # from the referenced file and get sections that are not explicitly defined in the current proper.
-        if vide := proper.rules.vide:
-            if '/' in vide:
-                nested_path = self._get_full_path(f'{vide}.txt', lang)
-            else:
-                for subdir in ('Commune', 'Tempora'):
-                    nested_path = self._get_full_path(f'{subdir}/{vide}.txt', lang)
-                    if nested_path:
-                        break
-            if not nested_path:
-                raise ProperNotFound(f'Proper from vide not found {vide}.')
-            proper.merge(self._parse_source(nested_path, lang=lang))
-
         # Moving data from "Comment" section up as direct properties of a Proper object
         parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
         try:
@@ -101,69 +87,41 @@ class ProperParser:
         """
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
-        Resolve references like `@Sancti/02-02:Evangelium`.
         """
-        parsed_source: ParsedSource = ParsedSource()
-        section_name: str = None
-        concat_line: bool = False
-        full_path: str = self._get_full_path(partial_path, lang)
-        if not full_path:
-            raise ProperNotFound(f'Proper `{partial_path}` not found.')
-        with open(full_path) as fh:
-            for itr, ln in enumerate(fh):
-                ln = ln.strip()
 
-                if section_name is None and ln == '':
-                    # Skipping empty lines in the beginning of the file
-                    continue
+        def read_source(partial_path: str, lang) -> ParsedSource:
+            parsed_source: ParsedSource = ParsedSource()
+            section_name: Union[str, None] = None
+            concat_line: bool = False
+            full_path: str = self._get_full_path(partial_path, lang)
+            if not full_path:
+                raise ProperNotFound(f'Proper `{partial_path}` not found.')
+            with open(full_path) as fh:
+                for itr, ln in enumerate(fh):
+                    ln = ln.strip()
 
-                if ln.strip() == '!':
-                    # Skipping lines containing exclamation mark only
-                    continue
+                    if section_name is None and ln == '':
+                        # Skipping empty lines in the beginning of the file
+                        continue
 
-                if section_name is None and REFERENCE_REGEX.match(ln):
-                    # reference outside any section as a first non-empty line - load all sections
-                    # from the referenced file and continue with the sections from the current one.
-                    path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
-                    # Recursively read referenced file
-                    nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
-                    if not nested_path:
-                        raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
-                    parsed_source.merge(self._parse_source(nested_path, lang=lang))
-                    continue
+                    if ln.strip() == '!':
+                        # Skipping lines containing exclamation mark only
+                        continue
 
-                ln = self._normalize(ln, lang)
+                    if section_name is None and REFERENCE_REGEX.match(ln):
+                        if RULE not in parsed_source.keys():
+                            parsed_source.set_section(RULE, Section(RULE))
+                        parsed_source.get_section(RULE).append_to_body(f"vide {ln.lstrip('@')}")
+                        continue
 
-                if re.search(SECTION_REGEX, ln):
-                    section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
+                    ln = self._normalize(ln, lang)
 
-                if not lookup_section or lookup_section == section_name:
-                    if re.match(SECTION_REGEX, ln):
-                        parsed_source.set_section(section_name, Section(section_name))
-                    else:
-                        if REFERENCE_REGEX.match(ln):
-                            path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(ln)[0]
-                            if path_bit:
-                                # Reference to external file - parse it recursively
-                                nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) \
-                                    if path_bit else partial_path
-                                if not nested_path:
-                                    raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
-                                nested_proper: ParsedSource = self._parse_source(
-                                    nested_path, lang=lang, lookup_section=nested_section_name)
-                                nested_section = nested_proper.get_section(nested_section_name)
-                                if nested_section is not None:
-                                    parsed_source.get_section(section_name).extend_body(nested_section.body)
-                                elif nested_section_name in IGNORED_REFERENCES:
-                                    pass
-                                else:
-                                    log.warning("Section `%s` referenced from `%s` is missing in `%s`",
-                                                nested_section_name, full_path, nested_path)
-                            else:
-                                # Reference to the other section in current file
-                                nested_section_body = parsed_source.get_section(nested_section_name).body
-                                parsed_source.get_section(section_name).extend_body(nested_section_body)
+                    if re.search(SECTION_REGEX, ln):
+                        section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
 
+                    if not lookup_section or lookup_section == section_name:
+                        if re.match(SECTION_REGEX, ln):
+                            parsed_source.set_section(section_name, Section(section_name))
                         else:
                             # Finally, a regular line...
                             # Line ending with `~` indicates that the next line should be treated as its continuation
@@ -175,6 +133,58 @@ class ProperParser:
                             else:
                                 parsed_source.get_section(section_name).append_to_body(appendln)
                             concat_line = True if ln.endswith('~') else False
+            return parsed_source
+
+        parsed_source = read_source(partial_path, lang)
+        if lang != LANGUAGE_LATIN:
+            parsed_source_latin = read_source(partial_path, LANGUAGE_LATIN)
+            parsed_source.merge(parsed_source_latin)
+
+        # Rules need to be parsed after the whole source is read
+        parsed_source.rules = parsed_source.parse_rules()
+
+        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
+        # from the referenced file and get sections that are not explicitly defined in the current proper.
+
+        if vide := parsed_source.rules.vide:
+            if not f'/{vide}.txt' in partial_path:
+                # Except when there's self reference, for example Commune/C10.txt has 'vide C10', then skip.
+                if '/' in vide:
+                    nested_path = self._get_full_path(f'{vide}.txt', lang)
+                else:
+                    for subdir in ('Commune', 'Tempora'):
+                        nested_path = self._get_full_path(f'{subdir}/{vide}.txt', lang)
+                        if nested_path:
+                            break
+                if not nested_path:
+                    raise ProperNotFound(f'Proper from vide not found {vide}.')
+                parsed_source.merge(self._parse_source(nested_path, lang=lang))
+
+        for section_name, section in parsed_source.items():
+            section_body = section.get_body()
+            for i, section_body_ln in enumerate(section_body):
+                if REFERENCE_REGEX.match(section_body_ln):
+                    try:
+                        path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
+                    except IndexError:
+                        raise
+                    if path_bit:
+                        # Reference to external file - parse it recursively
+                        nested_path: str = f"{path_bit}.txt"
+                        nested_proper: ParsedSource = self._parse_source(
+                            nested_path, lang=lang, lookup_section=nested_section_name)
+                        nested_section = nested_proper.get_section(nested_section_name)
+                        if nested_section is not None:
+                            section.substitute_reference(section_body_ln, nested_section.body)
+                        elif nested_section_name in IGNORED_REFERENCES:
+                            pass
+                        else:
+                            log.warning("Section `%s` referenced from `%s` is missing in `%s`",
+                                        nested_section_name, self._get_full_path(partial_path, lang), nested_path)
+                    else:
+                        # Reference to the other section in current file
+                        nested_section_body = parsed_source.get_section(nested_section_name).body
+                        section.substitute_reference(section_body_ln, nested_section_body)
 
         parsed_source = self._strip_newlines(parsed_source)
         parsed_source = self._resolve_conditionals(parsed_source)

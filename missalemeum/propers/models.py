@@ -211,6 +211,11 @@ class Section:
     def append_to_body(self, body_part: str) -> None:
         self.body.append(body_part)
 
+    def substitute_reference(self, reference: str, body_part: list[str]) -> None:
+        for i, ln in enumerate(self.body):
+            if ln == reference:
+                self.body = self.body[:i] + body_part + self.body[i + 1:]
+
     def substitute_in_preface(self, from_: re.Pattern, to_: str):
         """
         As prefaces after the normalisation have both the title and a string

@@ -2,3 +2,20 @@
 
 [Introitus]
 EN 11-14 Introit
+
+[Secreta]
+Pre
+@:Secreta1
+Mid
+@:Secreta2
+Post
+
+[Secreta1]
+EN 11-14 Secreta1
+EN 11-14 Secreta1.1
+EN 11-14 Secreta1.2
+
+[Secreta2]
+EN 11-14 Secreta2
+EN 11-14 Secreta2.1
+EN 11-14 Secreta2.2
