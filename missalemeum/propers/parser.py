@@ -83,7 +83,7 @@ class ProperParser:
 
         return proper
 
-    def _parse_source(self, partial_path: str, lang, lookup_section=None) -> ParsedSource:
+    def _parse_source(self, partial_path: str, lang, coming_from: str = None, lookup_section=None) -> ParsedSource:
         """
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
@@ -147,18 +147,19 @@ class ProperParser:
         # from the referenced file and get sections that are not explicitly defined in the current proper.
 
         if vide := parsed_source.rules.vide:
-            if not f'/{vide}.txt' in partial_path:
-                # Except when there's self reference, for example Commune/C10.txt has 'vide C10', then skip.
-                if '/' in vide:
-                    nested_path = self._get_full_path(f'{vide}.txt', lang)
+            # Avoiding infinite loops when:
+            # 1. There's self reference, for example Commune/C10.txt has 'vide C10'
+            # 2. Source proper points to target proper which again points to the source proper,
+            #    for example: C7a points to Graduale in C7ap and C7ap has vide C7a
+            vide_partial_path = f'{vide}.txt'
+            if not vide_partial_path in partial_path and not vide_partial_path in (coming_from or ''):
+                for nested_path in (vide_partial_path, f'Commune/{vide_partial_path}', f'Tempora/{vide_partial_path}'):
+                    nested_path_full = self._get_full_path(nested_path, lang)
+                    if nested_path_full:
+                        break
                 else:
-                    for subdir in ('Commune', 'Tempora'):
-                        nested_path = self._get_full_path(f'{subdir}/{vide}.txt', lang)
-                        if nested_path:
-                            break
-                if not nested_path:
-                    raise ProperNotFound(f'Proper from vide not found {vide}.')
-                parsed_source.merge(self._parse_source(nested_path, lang=lang))
+                    raise ProperNotFound(f'Proper from vide not found {lang}/{vide}.')
+                parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
 
         for section_name, section in parsed_source.items():
             section_body = section.get_body()
@@ -166,13 +167,15 @@ class ProperParser:
                 if REFERENCE_REGEX.match(section_body_ln):
                     try:
                         path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
+                        if not nested_section_name:
+                            nested_section_name = section_name
                     except IndexError:
                         raise
                     if path_bit:
                         # Reference to external file - parse it recursively
                         nested_path: str = f"{path_bit}.txt"
                         nested_proper: ParsedSource = self._parse_source(
-                            nested_path, lang=lang, lookup_section=nested_section_name)
+                            nested_path, lang=lang, coming_from=partial_path, lookup_section=nested_section_name)
                         nested_section = nested_proper.get_section(nested_section_name)
                         if nested_section is not None:
                             section.substitute_reference(section_body_ln, nested_section.body)

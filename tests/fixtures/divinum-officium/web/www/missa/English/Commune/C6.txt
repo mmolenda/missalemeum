@@ -1,0 +1,38 @@
+[Name]
+Commune Virgine et martyre=Loquebar
+
+[Rule]
+Gloria
+
+[Introitus]
+EN C6 Introitus
+
+[Oratio]
+EN C6 Oratio
+
+[Lectio]
+EN C6 Lectio
+
+[Graduale]
+EN C6 Graduale
+
+[Tractus]
+EN C6 Tractus
+
+[GradualeP]
+EN C6 GradualeP
+
+[Evangelium]
+EN C6 Evangelium
+
+[Offertorium]
+EN C6 Offertorium
+
+[Secreta]
+EN C6 Secreta
+
+[Communio]
+EN C6 Communio
+
+[Postcommunio]
+EN C6 Postcommunio

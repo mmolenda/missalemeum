@@ -1,0 +1,9 @@
+[Rank]
+S. Elisabeth Reg. Portugaliae Viduae;;Semiduplex;;2;;vide C7a
+
+[Rule]
+vide C7a;
+Gloria
+
+[Oratio]
+EN 07-08 Oratio

@@ -1,0 +1,40 @@
+[Name]
+Commune non Virginum non Martyrum: Cognovi
+
+[Rule]
+
+[Introitus]
+LA C7a Introitus
+
+[Oratio]
+@Commune/C6b
+
+[Lectio]
+LA C7a Lectio
+
+[Graduale]
+LA C7a Graduale
+
+[Tractus]
+LA C7a Tractus
+
+[GradualeP]
+LA C7a GradualeP
+
+[Evangelium]
+@Commune/C6a
+
+[Offertorium]
+@Commune/C6a
+
+[Secreta]
+@Commune/C6b
+
+[Communio]
+LA C7a Communio
+
+[Postcommunio]
+@Commune/C6b
+
+[Lectio1]
+LA C7a Lectio1

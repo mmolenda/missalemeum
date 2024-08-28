@@ -1,0 +1,50 @@
+[Name]
+Commune Virginum plurimorum: Me exspectaverunt
+
+[Rule]
+Gloria
+
+[Introitus]
+LA C6a Introitus
+
+[Oratio1]
+LA C6a Oratio1
+
+[Lectio]
+LA C6a Lectio
+
+[Graduale]
+LA C6a Graduale
+
+[Tractus]
+LA C6a Tractus
+
+[GradualeP]
+LA C6a GradualeP
+
+[Evangelium]
+LA C6a Evangelium
+
+[Offertorium]
+LA C6a Offertorium
+
+[Secreta1]
+LA C6a Secreta1
+
+[Communio]
+LA C6a Communio
+
+[Postcommunio1]
+LA C6a Postcommunio1
+
+[Evangelium1]
+LA C6a Evangelium1
+
+[Oratio]
+LA C6a Oratio
+
+[Secreta]
+LA C6a Secreta
+
+[Postcommunio]
+LA C6a Postcommunio

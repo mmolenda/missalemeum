@@ -1,0 +1,32 @@
+[Name]
+Commune Virginum tantum; Dilexisti
+
+[Rule]
+Prefatio=Virginis
+
+[Introitus]
+EN C6b Introitus
+
+[Oratio]
+EN C6b Oratio
+
+[Lectio]
+EN C6b Lectio
+
+[Graduale]
+EN C6b Graduale
+
+[Tractus]
+EN C6b Tractus
+
+[Offertorium]
+EN C6b Offertorium
+
+[Secreta]
+EN C6b Secreta
+
+[Communio]
+EN C6b Communio
+
+[Postcommunio]
+EN C6b Postcommunio
