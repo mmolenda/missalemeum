@@ -95,7 +95,7 @@ class ProperParser:
             concat_line: bool = False
             full_path: str = self._get_full_path(partial_path, lang)
             if not full_path:
-                raise ProperNotFound(f'Proper `{partial_path}` not found.')
+                raise ProperNotFound(f'Proper `{lang}/{partial_path}` not found.')
             with open(full_path) as fh:
                 for itr, ln in enumerate(fh):
                     ln = ln.strip()
@@ -158,7 +158,7 @@ class ProperParser:
                     if nested_path_full:
                         break
                 else:
-                    raise ProperNotFound(f'Proper from vide not found {lang}/{vide}.')
+                    raise ProperNotFound(f'Proper from vide not found: ({lang}) {coming_from} -> {vide}.')
                 parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
 
         for section_name, section in parsed_source.items():
@@ -178,7 +178,17 @@ class ProperParser:
                             nested_path, lang=lang, coming_from=partial_path, lookup_section=nested_section_name)
                         nested_section = nested_proper.get_section(nested_section_name)
                         if nested_section is not None:
-                            section.substitute_reference(section_body_ln, nested_section.body)
+                            nested_section_body = nested_section.body
+                            if substitution:
+                                try:
+                                    _, sub_from, sub_to, _ = substitution.split("/")
+                                    for i, line in enumerate(nested_section_body):
+                                        nested_section_body[i] = re.sub(sub_from, sub_to, line)
+                                except Exception:
+                                    log.warning("Can't make substitution for pattern `%s` in `%s:%s`. "
+                                                "Referenced from `%s`",
+                                                substitution, nested_path, nested_section_name, coming_from)
+                            section.substitute_reference(section_body_ln, nested_section_body)
                         elif nested_section_name in IGNORED_REFERENCES:
                             pass
                         else:
