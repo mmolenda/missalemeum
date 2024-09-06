@@ -42,7 +42,8 @@ class ProperParser:
 
     def proper_exists(self) -> bool:
         return not utils.match_first(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
-               and self._get_full_path(self._get_partial_path(), self.lang) is not None
+               and ((self._get_full_path(self._get_partial_path(), self.lang) is not None) or
+                    (self._get_full_path(self._get_partial_path(), LANGUAGE_LATIN) is not None))
 
     def parse(self) -> Tuple[Proper, Proper]:
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
@@ -135,10 +136,15 @@ class ProperParser:
                             concat_line = True if ln.endswith('~') else False
             return parsed_source
 
-        parsed_source = read_source(partial_path, lang)
-        if lang != LANGUAGE_LATIN:
-            parsed_source_latin = read_source(partial_path, LANGUAGE_LATIN)
-            parsed_source.merge(parsed_source_latin)
+        if lang == LANGUAGE_LATIN:
+            parsed_source = read_source(partial_path, LANGUAGE_LATIN)
+        else:
+            try:
+                parsed_source = read_source(partial_path, lang)
+                parsed_source_latin = read_source(partial_path, LANGUAGE_LATIN)
+                parsed_source.merge(parsed_source_latin)
+            except ProperNotFound:
+                parsed_source = read_source(partial_path, LANGUAGE_LATIN)
 
         # Rules need to be parsed after the whole source is read
         parsed_source.rules = parsed_source.parse_rules()
