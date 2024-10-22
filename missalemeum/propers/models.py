@@ -4,7 +4,8 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION, RULE, RANK, \
+    TOP_LEVEL_REF
 from exceptions import ProperNotFound
 
 
@@ -108,7 +109,7 @@ class ParsedSource:
         rules = Rules()
 
         rules_src = []
-        for s in ('Rank', 'Rule'):
+        for s in (TOP_LEVEL_REF, RANK, RULE):
             section = self.get_section(s)
             if section is not None:
                 for line in section.get_body():

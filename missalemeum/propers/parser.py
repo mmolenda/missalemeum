@@ -15,7 +15,7 @@ from constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
                               PREFATIO_OMIT,
                               OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES, PREFATIO,
-                              PATTERN_PREFATIO_SUBSTITUTION, RULE)
+                              PATTERN_PREFATIO_SUBSTITUTION, RULE, TOP_LEVEL_REF)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -110,9 +110,8 @@ class ProperParser:
                         continue
 
                     if section_name is None and REFERENCE_REGEX.match(ln):
-                        if RULE not in parsed_source.keys():
-                            parsed_source.set_section(RULE, Section(RULE))
-                        parsed_source.get_section(RULE).append_to_body(f"vide {ln.lstrip('@')}")
+                        top_level_ref_section = Section(TOP_LEVEL_REF, [f"vide {ln.lstrip('@')}"])
+                        parsed_source.set_section(TOP_LEVEL_REF, top_level_ref_section)
                         continue
 
                     ln = self._normalize(ln, lang)
