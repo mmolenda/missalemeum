@@ -364,7 +364,9 @@ class ProperParser:
     @staticmethod
     def _get_full_path(partial_path, lang):
         full_path = os.path.join(cc.CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
-        if not os.path.exists(full_path):
+        if os.path.exists(full_path):
+            log.debug("%s/%s comes from custom DivinumOfficium dir", lang, partial_path)
+        else:
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
             if not os.path.exists(full_path):
                 return None
