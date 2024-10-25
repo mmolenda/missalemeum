@@ -135,6 +135,13 @@ class ProperParser:
                             concat_line = True if ln.endswith('~') else False
             return parsed_source
 
+        log.debug("Parsing source %s%s/%s %s",
+                  f"{lang}/{coming_from} -> " if coming_from else "",
+                  lang,
+                  partial_path,
+                  f"lookup={lookup_section}" if lookup_section else ""
+                  )
+
         if lang == LANGUAGE_LATIN:
             parsed_source = read_source(partial_path, LANGUAGE_LATIN)
         else:
@@ -195,17 +202,17 @@ class ProperParser:
                                                 substitution, nested_path, nested_section_name, coming_from)
                             section.substitute_reference(section_body_ln, nested_section_body)
                         elif nested_section_name in IGNORED_REFERENCES:
-                            pass
+                            section.substitute_reference(section_body_ln, [""])
                         else:
-                            log.warning("Section `%s` referenced from `%s` is missing in `%s`",
-                                        nested_section_name, self._get_full_path(partial_path, lang), nested_path)
+                            log.warning("Section `%s` referenced from `%s/%s` is missing in `%s`",
+                                        nested_section_name, lang, partial_path, nested_path)
                     else:
                         # Reference to the other section in current file
                         nested_section_body = parsed_source.get_section(nested_section_name).body
                         section.substitute_reference(section_body_ln, nested_section_body)
 
-        parsed_source = self._strip_newlines(parsed_source)
         parsed_source = self._resolve_conditionals(parsed_source)
+        parsed_source = self._strip_newlines(parsed_source)
         return parsed_source
 
     @staticmethod
@@ -237,7 +244,7 @@ class ProperParser:
     def _normalize(self, ln, lang):
         for from_, to_ in self.translations[lang].TRANSFORMATIONS:
             ln = re.sub(from_, to_, ln)
-        return ln
+        return ln.strip()
 
     @staticmethod
     def _strip_newlines(proper):

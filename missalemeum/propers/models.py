@@ -24,6 +24,11 @@ class Rules:
     # main observance's source
     ignore: bool = False
 
+    def merge(self, other_rules: Union[None, 'Rules']) -> None:
+        if other_rules:
+            self.preface = self.preface or other_rules.preface
+            self.preface_mod = self.preface_mod or other_rules.preface_mod
+
 
 class ParsedSource:
     """
@@ -61,6 +66,14 @@ class ParsedSource:
         self._container = {}
         self.rules: Union[Rules, None] = None
 
+    def has_section(self, section_id: str):
+        try:
+            body = self._container[section_id].body
+        except KeyError:
+            return False
+        else:
+            return any([i.strip() for i in body])
+
     def get_section(self, section_id: str) -> Union[None, 'Section']:
         return self._container.get(section_id)
 
@@ -85,9 +98,11 @@ class ParsedSource:
     def items(self) -> ItemsView[str, 'Section']:
         return self._container.items()
 
-    def merge(self, proper: 'ParsedSource') -> None:
-        for k, v in proper.items():
-            if k not in self._container.keys():
+    def merge(self, other_proper: 'ParsedSource') -> None:
+        if self.rules:
+            self.rules.merge(other_proper.rules)
+        for k, v in other_proper.items():
+            if not self.has_section(k):
                 self._container[k] = v
 
     def parse_rules(self) -> Rules:

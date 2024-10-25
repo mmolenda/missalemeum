@@ -67,5 +67,5 @@ def compare_years(y1, y2, lang):
 
 if __name__ == "__main__":
     # compare_years(2024, 2025, "en")
-    for l in ['en']:
+    for l in ['pl', 'la']:
         generate_propers_fixtures(dates, l)
