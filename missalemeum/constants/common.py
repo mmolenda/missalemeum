@@ -745,6 +745,7 @@ SANCTI_07_18 = 'sancti:07-18:3:r'
 SANCTI_07_18PL = 'sancti:07-18pl:3:r'
 SANCTI_07_19 = 'sancti:07-19:3:w'
 SANCTI_07_20 = 'sancti:07-20:3:r'
+SANCTI_07_20C = 'sancti:07-20o:4:w'  #
 SANCTI_07_20PL = 'sancti:07-20pl:3:w'
 SANCTI_07_21 = 'sancti:07-21r:3:w'
 SANCTI_07_21C = 'sancti:07-21:4:w'  # Praxeda

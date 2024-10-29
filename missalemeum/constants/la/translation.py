@@ -556,6 +556,7 @@ TITLES = {
     constants.SANCTI_07_18PL: 'B. Simonis Confessoris',
     constants.SANCTI_07_19: 'S. Vincentii a Paulo Confessoris',
     constants.SANCTI_07_20: 'S. Hieronymi Emiliani Confessoris',
+    constants.SANCTI_07_20C: 'S. Margaritæ, Virg. et Mart.',
     constants.SANCTI_07_20PL: 'B. Ceslai Confessoris',
     constants.SANCTI_07_21: 'S. Laurentii a Brundusio Confessoris',
     constants.SANCTI_07_21C: 'S. Praxedis Virginis',

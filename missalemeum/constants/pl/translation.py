@@ -557,6 +557,7 @@ TITLES = {
     constants.SANCTI_07_18PL: 'Bł. Szymona z Lipnicy, Wyznawcy',
     constants.SANCTI_07_19: 'Św. Wincentego a Paulo, Wyznawcy',
     constants.SANCTI_07_20: 'Św. Hieronima Emiliani, Wyznawcy',
+    constants.SANCTI_07_20C: 'Św. Małgorzaty, Dziewicy i Męczennicy',
     constants.SANCTI_07_20PL: 'Bł. Czesława, Wyznawcy',
     constants.SANCTI_07_21: 'Św. Wawrzyńca z Brindisi, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_07_21C: 'Św. Praksedy, Dziewicy',

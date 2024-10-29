@@ -539,6 +539,7 @@ TITLES = {
     constants.SANCTI_07_18: 'Camillus de Lellis',
     constants.SANCTI_07_19: 'St. Vincent de Paul',
     constants.SANCTI_07_20: 'St. Jerome Emiliani',
+    constants.SANCTI_07_20C: 'St. Margaret',
     constants.SANCTI_07_21: 'St. Laurence of Brindisi',
     constants.SANCTI_07_21C: 'St. Praxedis Virginis',
     constants.SANCTI_07_22: 'St. Mary Magdalene',
