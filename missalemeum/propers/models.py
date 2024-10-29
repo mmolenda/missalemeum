@@ -131,7 +131,9 @@ class ParsedSource:
                     rules_src.extend([i.strip() for i in line.split(';')])
 
         if rules_src:
-            if preface := [i.strip(';') for i in rules_src if i.startswith('Prefatio=')]:
+            # There might be a different preface for 1960 and earlier issue of the missal, for example:
+            # Pent02-0 has `Prefatio=Nat` and `Prefatio1960=Trinitate`, that's why we sort to get 1960 last
+            if preface := sorted([i.strip(';') for i in rules_src if i.startswith('Prefatio')], reverse=True):
                 _, name, *mod = preface[-1].split('=')
                 rules.preface = name
                 if mod:
