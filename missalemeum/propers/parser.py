@@ -27,16 +27,12 @@ class ProperParser:
     and represents them as a hierarchy of `propers.models.Proper` and `propers.model.Section` objects.
     """
 
-    proper_id: str = None
-    lang: str = None
-    config: ProperConfig = None
-    translations: dict = {}
-    prefaces: dict = {}
-
     def __init__(self, proper_id: str, lang: str, config: ProperConfig = None):
         self.proper_id: str = proper_id
         self.lang = lang
         self.config = config or ProperConfig()
+        self.translations: dict = {}
+        self.prefaces: dict = {}
         self.translations[self.lang] = TRANSLATION[self.lang]
         self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
 
@@ -62,7 +58,6 @@ class ProperParser:
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         Resolve references like `@Sancti/02-02:Evangelium`.
         """
-
         parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
         proper = Proper(self.proper_id, lang, parsed_source)
 
@@ -81,7 +76,6 @@ class ProperParser:
         proper = self._filter_sections(proper)
         proper = self._amend_sections_contents(proper)
         proper = self._translate_section_titles(proper, lang)
-
         return proper
 
     def _parse_source(self, partial_path: str, lang, coming_from: str = None, lookup_section=None) -> ParsedSource:
@@ -89,52 +83,6 @@ class ProperParser:
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         """
-
-        def read_source(partial_path: str, lang) -> ParsedSource:
-            parsed_source: ParsedSource = ParsedSource()
-            section_name: Union[str, None] = None
-            concat_line: bool = False
-            full_path: str = self._get_full_path(partial_path, lang)
-            if not full_path:
-                raise ProperNotFound(f'Proper `{lang}/{partial_path}` not found.')
-            with open(full_path) as fh:
-                for itr, ln in enumerate(fh):
-                    ln = ln.strip()
-
-                    if section_name is None and ln == '':
-                        # Skipping empty lines in the beginning of the file
-                        continue
-
-                    if ln.strip() == '!':
-                        # Skipping lines containing exclamation mark only
-                        continue
-
-                    if section_name is None and REFERENCE_REGEX.match(ln):
-                        top_level_ref_section = Section(TOP_LEVEL_REF, [f"vide {ln.lstrip('@')}"])
-                        parsed_source.set_section(TOP_LEVEL_REF, top_level_ref_section)
-                        continue
-
-                    ln = self._normalize(ln, lang)
-
-                    if re.search(SECTION_REGEX, ln):
-                        section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
-
-                    if not lookup_section or lookup_section == section_name:
-                        if re.match(SECTION_REGEX, ln):
-                            parsed_source.set_section(section_name, Section(section_name))
-                        else:
-                            # Finally, a regular line...
-                            # Line ending with `~` indicates that the next line should be treated as its continuation
-                            appendln: str = ln.replace('~', ' ')
-                            if section_name not in parsed_source.keys():
-                                parsed_source.set_section(section_name, Section(section_name))
-                            if concat_line:
-                                parsed_source.get_section(section_name).body[-1] += appendln
-                            else:
-                                parsed_source.get_section(section_name).append_to_body(appendln)
-                            concat_line = True if ln.endswith('~') else False
-            return parsed_source
-
         log.debug("Parsing source %s%s/%s %s",
                   f"{lang}/{coming_from} -> " if coming_from else "",
                   lang,
@@ -143,21 +91,18 @@ class ProperParser:
                   )
 
         if lang == LANGUAGE_LATIN:
-            parsed_source = read_source(partial_path, LANGUAGE_LATIN)
+            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
         else:
             try:
-                parsed_source = read_source(partial_path, lang)
-                parsed_source_latin = read_source(partial_path, LANGUAGE_LATIN)
+                parsed_source = self._read_source(partial_path, lang, lookup_section)
+                parsed_source_latin = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
                 parsed_source.merge(parsed_source_latin)
             except ProperNotFound:
-                parsed_source = read_source(partial_path, LANGUAGE_LATIN)
+                parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
-        # Rules need to be parsed after the whole source is read
         parsed_source.rules = parsed_source.parse_rules()
-
         # Reference in Rule section in 'vide' or 'ex' clause - load all sections
         # from the referenced file and get sections that are not explicitly defined in the current proper.
-
         if vide := parsed_source.rules.vide:
             # Avoiding infinite loops when:
             # 1. There's self reference, for example Commune/C10.txt has 'vide C10'
@@ -173,16 +118,64 @@ class ProperParser:
                     raise ProperNotFound(f'Proper from vide not found: ({lang}) {coming_from} -> {vide}.')
                 parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
 
+        parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
+        parsed_source = self._resolve_conditionals(parsed_source)
+        parsed_source = self._strip_newlines(parsed_source)
+        return parsed_source
+
+    def _read_source(self, partial_path: str, lang: str, lookup_section: Union[str, None] = None) -> ParsedSource:
+        parsed_source: ParsedSource = ParsedSource()
+        section_name: Union[str, None] = None
+        concat_line: bool = False
+        full_path: str = self._get_full_path(partial_path, lang)
+        if not full_path:
+            raise ProperNotFound(f'Proper `{lang}/{partial_path}` not found.')
+        with open(full_path) as fh:
+            for itr, ln in enumerate(fh):
+                ln = ln.strip()
+
+                if section_name is None and ln == '':
+                    # Skipping empty lines in the beginning of the file
+                    continue
+
+                if ln.strip() == '!':
+                    # Skipping lines containing exclamation mark only
+                    continue
+
+                if section_name is None and REFERENCE_REGEX.match(ln):
+                    top_level_ref_section = Section(TOP_LEVEL_REF, [f"vide {ln.lstrip('@')}"])
+                    parsed_source.set_section(TOP_LEVEL_REF, top_level_ref_section)
+                    continue
+
+                ln = self._normalize(ln, lang)
+
+                if re.search(SECTION_REGEX, ln):
+                    section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
+
+                if not lookup_section or lookup_section == section_name:
+                    if re.match(SECTION_REGEX, ln):
+                        parsed_source.set_section(section_name, Section(section_name))
+                    else:
+                        # Finally, a regular line...
+                        # Line ending with `~` indicates that the next line should be treated as its continuation
+                        appendln: str = ln.replace('~', ' ')
+                        if section_name not in parsed_source.keys():
+                            parsed_source.set_section(section_name, Section(section_name))
+                        if concat_line:
+                            parsed_source.get_section(section_name).body[-1] += appendln
+                        else:
+                            parsed_source.get_section(section_name).append_to_body(appendln)
+                        concat_line = True if ln.endswith('~') else False
+        return parsed_source
+
+    def _resolve_references(self, parsed_source: ParsedSource, partial_path: str, lang, coming_from: str = None) -> ParsedSource:
         for section_name, section in parsed_source.items():
             section_body = section.get_body()
             for i, section_body_ln in enumerate(section_body):
                 if REFERENCE_REGEX.match(section_body_ln):
-                    try:
-                        path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
-                        if not nested_section_name:
-                            nested_section_name = section_name
-                    except IndexError:
-                        raise
+                    path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
+                    if not nested_section_name:
+                        nested_section_name = section_name
                     if path_bit:
                         # Reference to external file - parse it recursively
                         nested_path: str = f"{path_bit}.txt"
@@ -210,9 +203,6 @@ class ProperParser:
                         # Reference to the other section in current file
                         nested_section_body = parsed_source.get_section(nested_section_name).body
                         section.substitute_reference(section_body_ln, nested_section_body)
-
-        parsed_source = self._resolve_conditionals(parsed_source)
-        parsed_source = self._strip_newlines(parsed_source)
         return parsed_source
 
     @staticmethod
