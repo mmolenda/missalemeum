@@ -22739,10 +22739,6 @@
       "id": "Oratio"
     },
     {
-      "body": "*For St. Vitalis, Martyr*\nGrant we beseech the almighty God, that we who celebrate the martyrdom of blessed Vitalis, thr",
-      "id": "Commemoratio Oratio"
-    },
-    {
       "body": "Lesson from the first letter of St. Paul the Apostle to the Corinthians\n*1 Cor 1:17-25.*\nBrothers: Christ sent me not to",
       "id": "Lectio"
     },
@@ -22763,10 +22759,6 @@
       "id": "Secreta"
     },
     {
-      "body": "*For St. Vitalis, Martyr*\nAs thou hast received our gifts and prayers, O Lord, cleanse us, we ask by thy heavenly myster",
-      "id": "Commemoratio Secreta"
-    },
-    {
       "body": "*Easter*\nIt is truly meet and just, right and for our salvation, at all times to praise Thee, O Lord, but more gloriousl",
       "id": "Prefatio"
     },
@@ -22777,10 +22769,6 @@
     {
       "body": "We have received, O Lord, the divine sacrament, which is a perpetual memorial, of thy boundless love; grant we pray, tha",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*For St. Vitalis, Martyr*\nGrant, we pray, O Lord our God, that we who in time render joyful service in memory of thy sai",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-04-29": [
@@ -28537,7 +28525,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*Pro S. Sabina Martyre*\nGraciously accept the sacrificial gifts offered You, O Lord, through the merits of blessed Dorót",
+      "body": "*For St. Sabina*\nGraciously accept the sacrificial gifts offered You, O Lord, through the merits of blessed Sabina, Your",
       "id": "Commemoratio Secreta"
     },
     {
@@ -28553,7 +28541,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*Pro S. Sabina Martyre*\nWe who have been refreshed by the richness of Your divine sacrament beseech You, O Lord our God,",
+      "body": "*For St. Sabina*\nWe who have been refreshed by the richness of Your divine sacrament, beseech You, O Lord our God, that ",
       "id": "Commemoratio Postcommunio"
     }
   ],
@@ -29703,7 +29691,7 @@
   ],
   "2025-09-23": [
     {
-      "body": "*John 21:15-17*\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. Allelúja, allelúja.\n*Ps 29:2*\nI will extol",
+      "body": "*John 21:15-17*\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. (Allelúja, allelúja.)\n*Ps 29:2*\nI will ext",
       "id": "Introitus"
     },
     {
@@ -33071,7 +33059,7 @@
       "id": "Oratio"
     },
     {
-      "body": "*For St. Barbara,*\nO God, Who among the other miracles of Your power have bestowed the victory of martyrdom even upon th",
+      "body": "*Commemoration I Sunday of Advent*\nPut forth Your power, O Lord, we beseech You, and come, that with You as our protecto",
       "id": "Commemoratio Oratio"
     },
     {
@@ -33095,7 +33083,7 @@
       "id": "Secreta"
     },
     {
-      "body": "*For St. Barbara, ℣. M.*\nAccept, O Lord, the gifts we bring on the festival of blessed Barbara, Your Virgin and Martyr, ",
+      "body": "*Commemoration I Sunday of Advent*\nMay these offerings, O Lord, cleanse us by their mighty power and thus make us come p",
       "id": "Commemoratio Secreta"
     },
     {
@@ -33111,7 +33099,7 @@
       "id": "Postcommunio"
     },
     {
-      "body": "*For St. Barbara, ℣. M.*\nMay the sacrament we have received, aid us, O Lord, and by the intercession of blessed Barbara,",
+      "body": "*Commemoration I Sunday of Advent*\nMay we receive Your mercy, O Lord, in the midst of Your temple, and thus prepare with",
       "id": "Commemoratio Postcommunio"
     }
   ],
@@ -34301,163 +34289,151 @@
   ],
   "2025-12-29": [
     {
-      "body": "*Wis 18:14-15*\nWhen a profound stillness compassed everything and the night in its swift course was half spent, Your all",
+      "body": "*Isa 9:6*\nA Child is born to us, a Son is given to us; upon His shoulder dominion rests; and His name shall be called th",
       "id": "Introitus"
     },
     {
-      "body": "O Almighty and eternal God, direct our actions in conformity with Your will, that in the name of Your beloved Son we may",
+      "body": "Grant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten Son may deliver us whom the",
       "id": "Oratio"
     },
     {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten So",
+      "body": "*Commemoration St. Thomas Becket*\nGrant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-be",
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Lesson from the letter of St. Paul the Apostle to the Galatians\n*Gal 4:1-7*\nBrethren: As long as the heir is a child, he",
+      "body": "Lesson from the letter of St. Paul the Apostle to Titus\n*Titus 3:4-7*\nDearly beloved: When the goodness and kindness of ",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 44:3, 2*\nFairer in beauty are You than the sons of men; grace is poured out upon Your lips.\n℣. My heart overflows wi",
+      "body": "*Ps 97: 3, 4, 2*\nAll the ends of the earth have seen the salvation by our God. Sing joyfully to God, all you lands.\n℣. T",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:33-40*\nAt that time, Joseph and Mary, the mother of Jesus we",
+      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:15-20*\nAt that time, the shepherds were saying to one anothe",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 92:1-2*\nGod has made the world firm, not to be moved. Your throne, O God, stands firm from of old; from everlasting ",
+      "body": "*Ps 88:12, 15*\nYours are the heavens, and Yours is the earth; the world and its fullness You have founded. Justice and j",
       "id": "Offertorium"
     },
     {
-      "body": "Grant, we beseech You, almighty God, that the gift offered in the sight of Your majesty may obtain for us the grace of r",
+      "body": "Make holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten Son cleanse us from the sta",
       "id": "Secreta"
     },
     {
-      "body": "*For Octave of Nativity*\nMake holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten So",
+      "body": "*Commemoration St. Thomas Becket*\nMake holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-be",
       "id": "Commemoratio Secreta"
     },
     {
-      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
+      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give ",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 2:20*\nTake the Child and His mother, and go into the land of Israel, for those who sought the Child’s life are dea",
+      "body": "*Ps 97:3*\nAll the ends of the earth have seen the salvation by our God.",
       "id": "Communio"
     },
     {
-      "body": "By the working of this sacrament, O Lord, may our sins be erased and our just desires fulfilled.\nThrough our Lord…",
+      "body": "Grant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the author of our birth in god",
       "id": "Postcommunio"
     },
     {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the a",
+      "body": "*Commemoration St. Thomas Becket*\nGrant, we beseech You, almighty God, that the Saviour of the world, born this day, Who",
       "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-12-30": [
     {
-      "body": "*Wis 18:14-15*\nWhen a profound stillness compassed everything and the night in its swift course was half spent, Your all",
+      "body": "*Isa 9:6*\nA Child is born to us, a Son is given to us; upon His shoulder dominion rests; and His name shall be called th",
       "id": "Introitus"
     },
     {
-      "body": "O Almighty and eternal God, direct our actions in conformity with Your will, that in the name of Your beloved Son we may",
+      "body": "Grant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten Son may deliver us whom the",
       "id": "Oratio"
     },
     {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten So",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Lesson from the letter of St. Paul the Apostle to the Galatians\n*Gal 4:1-7*\nBrethren: As long as the heir is a child, he",
+      "body": "Lesson from the letter of St. Paul the Apostle to Titus\n*Titus 3:4-7*\nDearly beloved: When the goodness and kindness of ",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 44:3, 2*\nFairer in beauty are You than the sons of men; grace is poured out upon Your lips.\n℣. My heart overflows wi",
+      "body": "*Ps 97: 3, 4, 2*\nAll the ends of the earth have seen the salvation by our God. Sing joyfully to God, all you lands.\n℣. T",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:33-40*\nAt that time, Joseph and Mary, the mother of Jesus we",
+      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:15-20*\nAt that time, the shepherds were saying to one anothe",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 92:1-2*\nGod has made the world firm, not to be moved. Your throne, O God, stands firm from of old; from everlasting ",
+      "body": "*Ps 88:12, 15*\nYours are the heavens, and Yours is the earth; the world and its fullness You have founded. Justice and j",
       "id": "Offertorium"
     },
     {
-      "body": "Grant, we beseech You, almighty God, that the gift offered in the sight of Your majesty may obtain for us the grace of r",
+      "body": "Make holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten Son cleanse us from the sta",
       "id": "Secreta"
     },
     {
-      "body": "*For Octave of Nativity*\nMake holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten So",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
+      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give ",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 2:20*\nTake the Child and His mother, and go into the land of Israel, for those who sought the Child’s life are dea",
+      "body": "*Ps 97:3*\nAll the ends of the earth have seen the salvation by our God.",
       "id": "Communio"
     },
     {
-      "body": "By the working of this sacrament, O Lord, may our sins be erased and our just desires fulfilled.\nThrough our Lord…",
+      "body": "Grant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the author of our birth in god",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the a",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-12-31": [
     {
-      "body": "*Wis 18:14-15*\nWhen a profound stillness compassed everything and the night in its swift course was half spent, Your all",
+      "body": "*Isa 9:6*\nA Child is born to us, a Son is given to us; upon His shoulder dominion rests; and His name shall be called th",
       "id": "Introitus"
     },
     {
-      "body": "O Almighty and eternal God, direct our actions in conformity with Your will, that in the name of Your beloved Son we may",
+      "body": "Grant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten Son may deliver us whom the",
       "id": "Oratio"
     },
     {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begotten So",
+      "body": "*Commemoration St. Silvester*\nGrant, we beseech You, almighty God, that the new birth, in the flesh, of Your only-begott",
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Lesson from the letter of St. Paul the Apostle to the Galatians\n*Gal 4:1-7*\nBrethren: As long as the heir is a child, he",
+      "body": "Lesson from the letter of St. Paul the Apostle to Titus\n*Titus 3:4-7*\nDearly beloved: When the goodness and kindness of ",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 44:3, 2*\nFairer in beauty are You than the sons of men; grace is poured out upon Your lips.\n℣. My heart overflows wi",
+      "body": "*Ps 97: 3, 4, 2*\nAll the ends of the earth have seen the salvation by our God. Sing joyfully to God, all you lands.\n℣. T",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:33-40*\nAt that time, Joseph and Mary, the mother of Jesus we",
+      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 2:15-20*\nAt that time, the shepherds were saying to one anothe",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 92:1-2*\nGod has made the world firm, not to be moved. Your throne, O God, stands firm from of old; from everlasting ",
+      "body": "*Ps 88:12, 15*\nYours are the heavens, and Yours is the earth; the world and its fullness You have founded. Justice and j",
       "id": "Offertorium"
     },
     {
-      "body": "Grant, we beseech You, almighty God, that the gift offered in the sight of Your majesty may obtain for us the grace of r",
+      "body": "Make holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten Son cleanse us from the sta",
       "id": "Secreta"
     },
     {
-      "body": "*For Octave of Nativity*\nMake holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begotten So",
+      "body": "*Commemoration St. Silvester*\nMake holy the sacrificial gifts we offer, O Lord, and by the new birth of Your only-begott",
       "id": "Commemoratio Secreta"
     },
     {
-      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
+      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give ",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 2:20*\nTake the Child and His mother, and go into the land of Israel, for those who sought the Child’s life are dea",
+      "body": "*Ps 97:3*\nAll the ends of the earth have seen the salvation by our God.",
       "id": "Communio"
     },
     {
-      "body": "By the working of this sacrament, O Lord, may our sins be erased and our just desires fulfilled.\nThrough our Lord…",
+      "body": "Grant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the author of our birth in god",
       "id": "Postcommunio"
     },
     {
-      "body": "*For Octave of Nativity*\nGrant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is the a",
+      "body": "*Commemoration St. Silvester*\nGrant, we beseech You, almighty God, that the Saviour of the world, born this day, Who is ",
       "id": "Commemoratio Postcommunio"
     }
   ]
