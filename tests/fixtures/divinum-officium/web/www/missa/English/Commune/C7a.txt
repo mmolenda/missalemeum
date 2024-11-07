@@ -1,0 +1,25 @@
+[Name]
+Commune non Virginum non Martyrum
+
+[Rule]
+
+[Introitus]
+EN C7a Introitus
+
+[Lectio]
+EN C7a Lectio
+
+[Graduale]
+EN C7a Graduale
+
+[Tractus]
+EN C7a Tractus
+
+[GradualeP]
+@Commune/C7ap:Graduale
+
+[Communio]
+EN C7a Communio
+
+[Lectio1]
+EN C7a Lectio1

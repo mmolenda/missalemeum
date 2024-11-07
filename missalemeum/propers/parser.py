@@ -7,14 +7,15 @@ import utils as utils
 from exceptions import InvalidInput, ProperNotFound
 
 from constants import TRANSLATION
-from constants.common import (CUSTOM_DIVOFF_DIR, DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
+from constants import common as cc
+from constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
                               REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION,
                               PREFATIO_COMMUNIS,
                               VISIBLE_SECTIONS, TRACTUS, GRADUALE, GRADUALE_PASCHAL, PATTERN_ALLELUIA,
                               PREFATIO_OMIT,
                               OBSERVANCES_WITHOUT_OWN_PROPER, PATTERN_TRACT, IGNORED_REFERENCES, PREFATIO,
-                              PATTERN_PREFATIO_SUBSTITUTION)
+                              PATTERN_PREFATIO_SUBSTITUTION, RULE, TOP_LEVEL_REF)
 from propers.models import Proper, Section, ProperConfig, ParsedSource
 
 log = logging.getLogger(__name__)
@@ -26,22 +27,19 @@ class ProperParser:
     and represents them as a hierarchy of `propers.models.Proper` and `propers.model.Section` objects.
     """
 
-    proper_id: str = None
-    lang: str = None
-    config: ProperConfig = None
-    translations: dict = {}
-    prefaces: dict = {}
-
     def __init__(self, proper_id: str, lang: str, config: ProperConfig = None):
         self.proper_id: str = proper_id
         self.lang = lang
         self.config = config or ProperConfig()
+        self.translations: dict = {}
+        self.prefaces: dict = {}
         self.translations[self.lang] = TRANSLATION[self.lang]
         self.translations[LANGUAGE_LATIN] = TRANSLATION[LANGUAGE_LATIN]
 
     def proper_exists(self) -> bool:
         return not utils.match_first(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
-               and self._get_full_path(self._get_partial_path(), self.lang) is not None
+               and ((self._get_full_path(self._get_partial_path(), self.lang) is not None) or
+                    (self._get_full_path(self._get_partial_path(), LANGUAGE_LATIN) is not None))
 
     def parse(self) -> Tuple[Proper, Proper]:
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
@@ -60,23 +58,8 @@ class ProperParser:
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         Resolve references like `@Sancti/02-02:Evangelium`.
         """
-
         parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
         proper = Proper(self.proper_id, lang, parsed_source)
-
-        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
-        # from the referenced file and get sections that are not explicitly defined in the current proper.
-        if vide := proper.rules.vide:
-            if '/' in vide:
-                nested_path = self._get_full_path(f'{vide}.txt', lang)
-            else:
-                for subdir in ('Commune', 'Tempora'):
-                    nested_path = self._get_full_path(f'{subdir}/{vide}.txt', lang)
-                    if nested_path:
-                        break
-            if not nested_path:
-                raise ProperNotFound(f'Proper from vide not found {vide}.')
-            proper.merge(self._parse_source(nested_path, lang=lang))
 
         # Moving data from "Comment" section up as direct properties of a Proper object
         parsed_comment: dict = self._parse_comment(proper.pop_section('Comment'))
@@ -93,21 +76,60 @@ class ProperParser:
         proper = self._filter_sections(proper)
         proper = self._amend_sections_contents(proper)
         proper = self._translate_section_titles(proper, lang)
-
         return proper
 
-    def _parse_source(self, partial_path: str, lang, lookup_section=None) -> ParsedSource:
+    def _parse_source(self, partial_path: str, lang, coming_from: str = None, lookup_section=None) -> ParsedSource:
         """
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
-        Resolve references like `@Sancti/02-02:Evangelium`.
         """
+        log.debug("Parsing source %s%s/%s %s",
+                  f"{lang}/{coming_from} -> " if coming_from else "",
+                  lang,
+                  partial_path,
+                  f"lookup={lookup_section}" if lookup_section else ""
+                  )
+
+        if lang == LANGUAGE_LATIN:
+            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+        else:
+            try:
+                parsed_source = self._read_source(partial_path, lang, lookup_section)
+                parsed_source_latin = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+                parsed_source.merge(parsed_source_latin)
+            except ProperNotFound:
+                parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+
+        parsed_source.rules = parsed_source.parse_rules()
+        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
+        # from the referenced file and get sections that are not explicitly defined in the current proper.
+        if vide := parsed_source.rules.vide:
+            # Avoiding infinite loops when:
+            # 1. There's self reference, for example Commune/C10.txt has 'vide C10'
+            # 2. Source proper points to target proper which again points to the source proper,
+            #    for example: C7a points to Graduale in C7ap and C7ap has vide C7a
+            vide_partial_path = f'{vide}.txt'
+            if not vide_partial_path in partial_path and not vide_partial_path in (coming_from or ''):
+                for nested_path in (vide_partial_path, f'Commune/{vide_partial_path}', f'Tempora/{vide_partial_path}'):
+                    nested_path_full = self._get_full_path(nested_path, lang)
+                    if nested_path_full:
+                        break
+                else:
+                    raise ProperNotFound(f'Proper from vide not found: ({lang}) {coming_from} -> {vide}.')
+                parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
+
+        parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
+        parsed_source = self._resolve_conditionals(parsed_source)
+        parsed_source = self._strip_newlines(parsed_source)
+        return parsed_source
+
+    def _read_source(self, partial_path: str, lang: str, lookup_section: Union[str, None] = None) -> ParsedSource:
         parsed_source: ParsedSource = ParsedSource()
-        section_name: str = None
+        section_name: Union[str, None] = None
         concat_line: bool = False
         full_path: str = self._get_full_path(partial_path, lang)
         if not full_path:
-            raise ProperNotFound(f'Proper `{partial_path}` not found.')
+            raise ProperNotFound(f'Proper `{lang}/{partial_path}` not found.')
         with open(full_path) as fh:
             for itr, ln in enumerate(fh):
                 ln = ln.strip()
@@ -121,14 +143,8 @@ class ProperParser:
                     continue
 
                 if section_name is None and REFERENCE_REGEX.match(ln):
-                    # reference outside any section as a first non-empty line - load all sections
-                    # from the referenced file and continue with the sections from the current one.
-                    path_bit, _, _ = REFERENCE_REGEX.findall(ln)[0]
-                    # Recursively read referenced file
-                    nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) if path_bit else partial_path
-                    if not nested_path:
-                        raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
-                    parsed_source.merge(self._parse_source(nested_path, lang=lang))
+                    top_level_ref_section = Section(TOP_LEVEL_REF, [f"vide {ln.lstrip('@')}"])
+                    parsed_source.set_section(TOP_LEVEL_REF, top_level_ref_section)
                     continue
 
                 ln = self._normalize(ln, lang)
@@ -140,43 +156,53 @@ class ProperParser:
                     if re.match(SECTION_REGEX, ln):
                         parsed_source.set_section(section_name, Section(section_name))
                     else:
-                        if REFERENCE_REGEX.match(ln):
-                            path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(ln)[0]
-                            if path_bit:
-                                # Reference to external file - parse it recursively
-                                nested_path: str = self._get_full_path(f'{path_bit}.txt', lang) \
-                                    if path_bit else partial_path
-                                if not nested_path:
-                                    raise ProperNotFound(f'Proper `{path_bit}.txt` not found.')
-                                nested_proper: ParsedSource = self._parse_source(
-                                    nested_path, lang=lang, lookup_section=nested_section_name)
-                                nested_section = nested_proper.get_section(nested_section_name)
-                                if nested_section is not None:
-                                    parsed_source.get_section(section_name).extend_body(nested_section.body)
-                                elif nested_section_name in IGNORED_REFERENCES:
-                                    pass
-                                else:
-                                    log.warning("Section `%s` referenced from `%s` is missing in `%s`",
-                                                nested_section_name, full_path, nested_path)
-                            else:
-                                # Reference to the other section in current file
-                                nested_section_body = parsed_source.get_section(nested_section_name).body
-                                parsed_source.get_section(section_name).extend_body(nested_section_body)
-
+                        # Finally, a regular line...
+                        # Line ending with `~` indicates that the next line should be treated as its continuation
+                        appendln: str = ln.replace('~', ' ')
+                        if section_name not in parsed_source.keys():
+                            parsed_source.set_section(section_name, Section(section_name))
+                        if concat_line:
+                            parsed_source.get_section(section_name).body[-1] += appendln
                         else:
-                            # Finally, a regular line...
-                            # Line ending with `~` indicates that the next line should be treated as its continuation
-                            appendln: str = ln.replace('~', ' ')
-                            if section_name not in parsed_source.keys():
-                                parsed_source.set_section(section_name, Section(section_name))
-                            if concat_line:
-                                parsed_source.get_section(section_name).body[-1] += appendln
-                            else:
-                                parsed_source.get_section(section_name).append_to_body(appendln)
-                            concat_line = True if ln.endswith('~') else False
+                            parsed_source.get_section(section_name).append_to_body(appendln)
+                        concat_line = True if ln.endswith('~') else False
+        return parsed_source
 
-        parsed_source = self._strip_newlines(parsed_source)
-        parsed_source = self._resolve_conditionals(parsed_source)
+    def _resolve_references(self, parsed_source: ParsedSource, partial_path: str, lang, coming_from: str = None) -> ParsedSource:
+        for section_name, section in parsed_source.items():
+            section_body = section.get_body()
+            for i, section_body_ln in enumerate(section_body):
+                if REFERENCE_REGEX.match(section_body_ln):
+                    path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
+                    if not nested_section_name:
+                        nested_section_name = section_name
+                    if path_bit:
+                        # Reference to external file - parse it recursively
+                        nested_path: str = f"{path_bit}.txt"
+                        nested_proper: ParsedSource = self._parse_source(
+                            nested_path, lang=lang, coming_from=partial_path, lookup_section=nested_section_name)
+                        nested_section = nested_proper.get_section(nested_section_name)
+                        if nested_section is not None:
+                            nested_section_body = nested_section.body
+                            if substitution:
+                                try:
+                                    _, sub_from, sub_to, _ = substitution.split("/")
+                                    for i, line in enumerate(nested_section_body):
+                                        nested_section_body[i] = re.sub(sub_from, sub_to, line)
+                                except Exception:
+                                    log.warning("Can't make substitution for pattern `%s` in `%s:%s`. "
+                                                "Referenced from `%s`",
+                                                substitution, nested_path, nested_section_name, coming_from)
+                            section.substitute_reference(section_body_ln, nested_section_body)
+                        elif nested_section_name in IGNORED_REFERENCES:
+                            section.substitute_reference(section_body_ln, [""])
+                        else:
+                            log.warning("Section `%s` referenced from `%s/%s` is missing in `%s`",
+                                        nested_section_name, lang, partial_path, nested_path)
+                    else:
+                        # Reference to the other section in current file
+                        nested_section_body = parsed_source.get_section(nested_section_name).body
+                        section.substitute_reference(section_body_ln, nested_section_body)
         return parsed_source
 
     @staticmethod
@@ -208,7 +234,7 @@ class ProperParser:
     def _normalize(self, ln, lang):
         for from_, to_ in self.translations[lang].TRANSFORMATIONS:
             ln = re.sub(from_, to_, ln)
-        return ln
+        return ln.strip()
 
     @staticmethod
     def _strip_newlines(proper):
@@ -327,8 +353,10 @@ class ProperParser:
 
     @staticmethod
     def _get_full_path(partial_path, lang):
-        full_path = os.path.join(CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
-        if not os.path.exists(full_path):
+        full_path = os.path.join(cc.CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+        if os.path.exists(full_path):
+            log.debug("%s/%s comes from custom DivinumOfficium dir", lang, partial_path)
+        else:
             full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
             if not os.path.exists(full_path):
                 return None

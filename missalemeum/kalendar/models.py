@@ -202,6 +202,7 @@ class Day:
         Get proper that is used in today Mass. If given day does not have a dedicated proper,
         use the one from the latest Sunday.
         """
+        log.debug("Getting proper for day %s", self)
         celebration_propers = self._calculate_proper(self.celebration)
         if self.commemoration:
             commemoration_propers = self._calculate_proper(self.commemoration)

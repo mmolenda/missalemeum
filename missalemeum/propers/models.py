@@ -4,8 +4,30 @@ from copy import copy
 from typing import ItemsView, KeysView, List, Union, ValuesView
 
 from constants.common import VISIBLE_SECTIONS, GRADUALE, TRACTUS, GRADUALE_PASCHAL, COMMEMORATED_ORATIO, \
-    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION
+    COMMEMORATED_SECRETA, COMMEMORATED_POSTCOMMUNIO, POSTCOMMUNIO, SECRETA, ORATIO, COMMEMORATION, RULE, RANK, \
+    TOP_LEVEL_REF
 from exceptions import ProperNotFound
+
+
+@dataclasses.dataclass
+class Rules:
+    # global reference to other source file
+    vide: str = None
+    # name of the preface
+    preface: str = None
+    # optional substitute string for the preface that will be put instead of
+    # the string between two asterisks in the preface body.
+    # For example prefaces about B.V.M. have variable part depending on the feast.
+    preface_mod: str = None
+    # if present, no data will be taken from the source;
+    # used for compatibility in case of commemorations that are already included in
+    # main observance's source
+    ignore: bool = False
+
+    def merge(self, other_rules: Union[None, 'Rules']) -> None:
+        if other_rules:
+            self.preface = self.preface or other_rules.preface
+            self.preface_mod = self.preface_mod or other_rules.preface_mod
 
 
 class ParsedSource:
@@ -42,6 +64,15 @@ class ParsedSource:
 
     def __init__(self) -> None:
         self._container = {}
+        self.rules: Union[Rules, None] = None
+
+    def has_section(self, section_id: str):
+        try:
+            body = self._container[section_id].body
+        except KeyError:
+            return False
+        else:
+            return any([i.strip() for i in body])
 
     def get_section(self, section_id: str) -> Union[None, 'Section']:
         return self._container.get(section_id)
@@ -67,26 +98,54 @@ class ParsedSource:
     def items(self) -> ItemsView[str, 'Section']:
         return self._container.items()
 
-    def merge(self, proper: 'ParsedSource') -> None:
-        for k, v in proper.items():
-            if k not in self._container.keys():
+    def merge(self, other_proper: 'ParsedSource') -> None:
+        if self.rules:
+            self.rules.merge(other_proper.rules)
+        for k, v in other_proper.items():
+            if not self.has_section(k):
                 self._container[k] = v
 
+    def parse_rules(self) -> Rules:
+        """
+        Extract certain rules from sections [Rank] and [Rule]:
+            * `Prefatio=.*=.*` -> ID of preface for given observance and optional modifier
+            * `vide .*`, `ex .*` -> global reference to other observance
 
-@dataclasses.dataclass
-class Rules:
-    # global reference to other source file
-    vide: str = None
-    # name of the preface
-    preface: str = None
-    # optional substitute string for the preface that will be put instead of
-    # the string between two asterisks in the preface body.
-    # For example prefaces about B.V.M. have variable part depending on the feast.
-    preface_mod: str = None
-    # if present, no data will be taken from the source;
-    # used for compatibility in case of commemorations that are already included in
-    # main observance's source
-    ignore: bool = False
+        e.g.
+        [Rank]
+        Prefatio=Maria=veneratione;
+
+        translates into:
+          vide=None
+          prefatio=Maria
+          prefatio_mod=veneratione
+
+        """
+        rules = Rules()
+
+        rules_src = []
+        for s in (TOP_LEVEL_REF, RANK, RULE):
+            section = self.get_section(s)
+            if section is not None:
+                for line in section.get_body():
+                    rules_src.extend([i.strip() for i in line.split(';')])
+
+        if rules_src:
+            # There might be a different preface for 1960 and earlier issue of the missal, for example:
+            # Pent02-0 has `Prefatio=Nat` and `Prefatio1960=Trinitate`, that's why we sort to get 1960 last
+            if preface := sorted([i.strip(';') for i in rules_src if i.startswith('Prefatio')], reverse=True):
+                _, name, *mod = preface[-1].split('=')
+                rules.preface = name
+                if mod:
+                    rules.preface_mod = mod[0]
+
+            if vide := [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]:
+                rules.vide = vide[0].split(' ')[-1].split(';')[0]
+            if [i for i in rules_src if i.startswith('ignore')]:
+                rules.ignore = True
+
+        return rules
+
 
 class Proper(ParsedSource):
     """
@@ -95,7 +154,6 @@ class Proper(ParsedSource):
     title: str = None
     description: str = None
     rank: int = None
-    rules: Rules = None
     tags: List[str] = []
     supplements = []
     commemorations_names_translations = {
@@ -117,50 +175,11 @@ class Proper(ParsedSource):
         self.colors = list(color)
         if parsed_source is not None:
             self._container = copy(parsed_source._container)
-        self.rules = self._get_rules()
+            self.rules = parsed_source.rules
 
     def serialize(self) -> List[dict]:
         list_ = [v.serialize() for k, v in self._container.items()]
         return sorted(list_, key=lambda x: VISIBLE_SECTIONS.index(x['id']))
-
-    def _get_rules(self) -> Rules:
-        """
-        Extract certain rules from sections [Rank] and [Rule]:
-            * `Prefatio=.*=.*` -> ID of preface for given observance and optional modifier
-            * `vide .*`, `ex .*` -> global reference to other observance
-
-        e.g.
-        [Rank]
-        Prefatio=Maria=veneratione;
-
-        translates into:
-          vide=None
-          prefatio=Maria
-          prefatio_mod=veneratione
-
-        """
-        rules = Rules()
-
-        rules_src = []
-        for s in ('Rank', 'Rule'):
-            section = self.get_section(s)
-            if section is not None:
-                for line in section.get_body():
-                    rules_src.extend([i.strip() for i in line.split(';')])
-
-        if rules_src:
-            if preface := [i.strip(';') for i in rules_src if i.startswith('Prefatio=')]:
-                _, name, *mod = preface[-1].split('=')
-                rules.preface = name
-                if mod:
-                    rules.preface_mod = mod[0]
-
-            if vide := [i for i in rules_src if i.startswith('vide ') or i.startswith('ex ')]:
-                rules.vide = vide[0].split(' ')[-1].split(';')[0]
-            if [i for i in rules_src if i.startswith('ignore')]:
-                rules.ignore = True
-
-        return rules
 
     def add_commemorations(self, commemorations: List['Proper']):
         for i, commemoration in enumerate(commemorations):
@@ -209,6 +228,11 @@ class Section:
 
     def append_to_body(self, body_part: str) -> None:
         self.body.append(body_part)
+
+    def substitute_reference(self, reference: str, body_part: list[str]) -> None:
+        for i, ln in enumerate(self.body):
+            if ln == reference:
+                self.body = self.body[:i] + body_part + self.body[i + 1:]
 
     def substitute_in_preface(self, from_: re.Pattern, to_: str):
         """

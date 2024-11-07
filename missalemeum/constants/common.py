@@ -64,6 +64,9 @@ PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile(r'allel[uú][ij]a.*', re.IGNORECASE)
 PATTERN_TRACT = re.compile(r'.*tra[ck]t.*', re.IGNORECASE)
 PATTERN_PREFATIO_SUBSTITUTION = re.compile(r'\*(.*)\*')
+RANK = 'Rank'
+RULE = 'Rule'
+TOP_LEVEL_REF = 'TopLevelRef'
 INTROIT = 'Introitus'
 ORATIO = 'Oratio'
 LECTIO = 'Lectio'
@@ -573,7 +576,7 @@ SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
 SANCTI_01_14 = 'sancti:01-14:3:w'  # S. Hilarii
 SANCTI_01_14C = 'sancti:01-14c:4:r'  # commemoratio S. Felicis
 SANCTI_01_15 = 'sancti:01-15:3:w'
-SANCTI_01_15C = 'sancti:01-15c:4:w'  # Pro S. Mauro Abbate
+SANCTI_01_15C = 'sancti:01-15cc:4:w'  # Pro S. Mauro Abbate
 SANCTI_01_16 = 'sancti:01-16:3:r'
 SANCTI_01_17 = 'sancti:01-17:3:w'
 SANCTI_01_18 = 'sancti:01-18r:4:w'
@@ -583,7 +586,7 @@ SANCTI_01_20 = 'sancti:01-20:3:r'
 SANCTI_01_21 = 'sancti:01-21:3:r'
 SANCTI_01_22 = 'sancti:01-22:3:r'
 SANCTI_01_23 = 'sancti:01-23:3:w'
-SANCTI_01_23C = 'sancti:01-23c:4:r'  # Pro S. Emerentianæ Virg. et Mart.
+SANCTI_01_23C = 'sancti:01-23o:4:r'  # Pro S. Emerentianæ Virg. et Mart.
 SANCTI_01_24 = 'sancti:01-24:3:r'
 SANCTI_01_25 = 'sancti:01-25r:3:w'
 SANCTI_01_25C = 'sancti:01-25c:4:w'  # Pro S. Petro
@@ -601,11 +604,11 @@ SANCTI_02_03 = 'sancti:02-03:4:r'
 SANCTI_02_04 = 'sancti:02-04:3:w'
 SANCTI_02_05 = 'sancti:02-05:3:r'
 SANCTI_02_06 = 'sancti:02-06:3:w'
-SANCTI_02_06C = 'sancti:02-06c:4:r'  # św. Doroty
+SANCTI_02_06C = 'sancti:02-06o:4:r'  # św. Doroty
 SANCTI_02_07 = 'sancti:02-07:3:w'
 SANCTI_02_08 = 'sancti:02-08:3:w'
 SANCTI_02_09 = 'sancti:02-09:3:w'
-SANCTI_02_09C = 'sancti:02-09c:4:r'  # św Apolonii
+SANCTI_02_09C = 'sancti:02-09o:4:r'  # św Apolonii
 SANCTI_02_10 = 'sancti:02-10:3:w'
 SANCTI_02_11 = 'sancti:02-11:3:w'
 SANCTI_02_12 = 'sancti:02-12:3:w'
@@ -677,6 +680,7 @@ SANCTI_05_16PL = 'sancti:05-16pl:3:w'
 SANCTI_05_17 = 'sancti:05-17:3:w'
 SANCTI_05_18 = 'sancti:05-18:3:r'
 SANCTI_05_19 = 'sancti:05-19:3:w'
+SANCTI_05_19C = 'sancti:05-19o:4:w'  # Św. Pudencjany
 SANCTI_05_20 = 'sancti:05-20:3:w'
 SANCTI_05_24PL = 'sancti:05-24pl:2:w'
 SANCTI_05_25 = 'sancti:05-25:3:w'
@@ -708,7 +712,7 @@ SANCTI_06_17 = 'sancti:06-17r:3:w'
 SANCTI_06_18 = 'sancti:06-18:3:r'
 SANCTI_06_18C = 'sancti:06-18c:4:r'  #
 SANCTI_06_19 = 'sancti:06-19:3:r'
-SANCTI_06_19C = 'sancti:06-19c:4:r'  #
+SANCTI_06_19C = 'sancti:06-19o:4:r'  #
 SANCTI_06_20 = 'sancti:06-20:4:r'
 SANCTI_06_21 = 'sancti:06-21:3:w'
 SANCTI_06_22 = 'sancti:06-22:3:w'
@@ -741,8 +745,10 @@ SANCTI_07_18 = 'sancti:07-18:3:r'
 SANCTI_07_18PL = 'sancti:07-18pl:3:r'
 SANCTI_07_19 = 'sancti:07-19:3:w'
 SANCTI_07_20 = 'sancti:07-20:3:r'
+SANCTI_07_20C = 'sancti:07-20o:4:w'  #
 SANCTI_07_20PL = 'sancti:07-20pl:3:w'
 SANCTI_07_21 = 'sancti:07-21r:3:w'
+SANCTI_07_21C = 'sancti:07-21:4:w'  # Praxeda
 SANCTI_07_22 = 'sancti:07-22:3:w'
 SANCTI_07_23 = 'sancti:07-23:3:w'
 SANCTI_07_23C = 'sancti:07-23c:4:r'  #
@@ -754,7 +760,7 @@ SANCTI_07_26 = 'sancti:07-26:2:w'  # St. Anna, Mary's Mother
 SANCTI_07_27 = 'sancti:07-27:4:r'
 SANCTI_07_28 = 'sancti:07-28:3:r'
 SANCTI_07_29 = 'sancti:07-29:3:r'
-SANCTI_07_29C = 'sancti:07-29c:4:r'  # śś. Feliksa, Symplicjusza, Faustyna i Beatryczy
+SANCTI_07_29C = 'sancti:07-29cc:4:r'  # śś. Feliksa, Symplicjusza, Faustyna i Beatryczy
 SANCTI_07_30 = 'sancti:07-30:4:r'
 SANCTI_07_31 = 'sancti:07-31:3:w'
 
@@ -776,7 +782,7 @@ SANCTI_08_11 = 'sancti:08-11:4:r'
 SANCTI_08_12 = 'sancti:08-12:3:w'
 SANCTI_08_13 = 'sancti:08-13:4:r'
 SANCTI_08_14 = 'sancti:08-14:2:w'  # Vigil of Assumption of Mary
-SANCTI_08_14C = 'sancti:08-14c:4:r'  #
+SANCTI_08_14C = 'sancti:08-14cc:4:r'  #
 SANCTI_08_15 = 'sancti:08-15r:1:w'  # Assumption of Mary
 SANCTI_08_16 = 'sancti:08-16:2:w'  # St. Joachim
 SANCTI_08_17 = 'sancti:08-17:3:w'
@@ -797,7 +803,7 @@ SANCTI_08_28C = 'sancti:08-28c:4:r'  #
 SANCTI_08_29 = 'sancti:08-29:3:r'
 SANCTI_08_29C = 'sancti:08-29c:4:r'  #
 SANCTI_08_30 = 'sancti:08-30:3:r'
-SANCTI_08_30C = 'sancti:08-30c:4:r'  #
+SANCTI_08_30C = 'sancti:08-30o:4:r'  #
 SANCTI_08_31 = 'sancti:08-31:3:w'
 
 SANCTI_09_01 = 'sancti:09-01:4:w'
@@ -866,7 +872,8 @@ SANCTI_11_01 = 'sancti:11-01:1:w'  # All Saints
 SANCTI_11_02_1 = 'sancti:11-02m1:1:b'  # All Souls' Day
 SANCTI_11_02_2 = 'sancti:11-02m2:1:b'
 SANCTI_11_02_3 = 'sancti:11-02m3:1:b'
-SANCTI_11_04 = 'sancti:11-04r:3:w'
+SANCTI_11_04 = 'sancti:11-04:3:w'
+SANCTI_11_04C = 'sancti:11-04cc:4:r'
 SANCTI_11_08 = 'sancti:11-08r:4:r'
 SANCTI_11_09 = 'sancti:11-09:2:w'  # Dedication of the Lateran Basilica in Rome
 SANCTI_11_10 = 'sancti:11-10:3:w'
@@ -918,6 +925,7 @@ SANCTI_12_29 = 'sancti:12-29r:4:r'
 SANCTI_12_31 = 'sancti:12-31r:4:w'
 
 # COMMUNE / VOTIVE
+COMMUNE_C4B = 'commune:C4b:0:w'  # Si díligis
 COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
 COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
 COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit
@@ -1080,6 +1088,7 @@ EXCLUDE_SECTIONS = (
     (SANCTI_12_07, COMMEMORATION_SECTIONS),
     (SANCTI_12_11, COMMEMORATION_SECTIONS),
     (TEMPORA_EPI1_0, COMMEMORATION_SECTIONS),
+    (TEMPORA_EPI1_0A, COMMEMORATION_SECTIONS),
     (TEMPORA_PENT02_0, COMMEMORATION_SECTIONS),
     (TEMPORA_PENT03_0, COMMEMORATION_SECTIONS),
     (TEMPORA_PASC5_3, COMMEMORATION_SECTIONS),
@@ -1105,6 +1114,14 @@ CUSTOM_PREFACES = (
     (SANCTI_12_21, PREFATIO_APOSTOLIS),  # st. Thomas, the Apostle
     (SANCTI_05_11, PREFATIO_APOSTOLIS),  # Sts. Philip and James
     (SANCTI_06_24, PREFATIO_COMMUNIS),  # St. John the Baptist
+
+    (SANCTI_09_03, PREFATIO_COMMUNIS),  # St. Pius X
+    (SANCTI_09_23, PREFATIO_COMMUNIS),  # St. Linus
+    (SANCTI_10_14, PREFATIO_COMMUNIS),  # St. Calixt
+    (SANCTI_11_12, PREFATIO_COMMUNIS),  # St. Martin
+    (SANCTI_11_20PL, PREFATIO_COMMUNIS),  # St. Martin PL calendar
+    (SANCTI_11_23, PREFATIO_COMMUNIS),  # St. Clement
+
     (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
     (PATTERN_EASTER_PREFATIO, PREFATIO_PASCHAL),
@@ -1112,6 +1129,7 @@ CUSTOM_PREFACES = (
     (PATTERN_LENT_PREFATIO, PREFATIO_LENT),  # Lent until Saturday before Passion Sunday
     (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION),  # From Ascension Sunday till Friday before Pentecost Vigil,
     (VOTIVE_TERRIBILIS, PREFATIO_COMMUNIS),
+    (COMMUNE_C4B, PREFATIO_COMMUNIS),
 )
 
 CUSTOM_INTER_READING_SECTIONS = {

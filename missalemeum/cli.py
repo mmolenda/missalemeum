@@ -14,10 +14,12 @@ from kalendar.models import Calendar, Day
 from propers.models import Proper
 
 
-logging.basicConfig(
-    stream=sys.stdout,
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s: %(message)s')
+def _log_setup(verbosity: int):
+    level = {0: logging.WARN, 1: logging.INFO}.get(verbosity, logging.DEBUG)
+    logging.basicConfig(
+        stream=sys.stdout,
+        level=level,
+        format='%(asctime)s %(levelname)s: %(message)s')
 
 
 @click.group()
@@ -36,7 +38,9 @@ def _print_proper(language, proper):
 @click.argument('year', default=datetime.datetime.utcnow().year, type=int)
 @click.option('--month', default=None, type=int)
 @click.option('--language', default=LANGUAGE_ENGLISH)
-def calendar(year, language, month):
+@click.option('-v', '--verbosity', count=True)
+def calendar(year, language, month, verbosity: int):
+    _log_setup(verbosity)
     def _print_all(missal):
         for date_, day in missal.items():
             if month and date_.month != month:
@@ -76,7 +80,9 @@ def calendar(year, language, month):
 @click.command()
 @click.argument('proper_id')
 @click.option('--language', default=LANGUAGE_ENGLISH)
-def proper(proper_id: str, language: str):
+@click.option('-v', '--verbosity', count=True)
+def proper(proper_id: str, language: str, verbosity: int):
+    _log_setup(verbosity)
     try:
         proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, language)
         click.echo('# title Latin: {}'.format(proper_latin.title))
@@ -91,7 +97,9 @@ def proper(proper_id: str, language: str):
 @click.command()
 @click.argument('date')
 @click.option('--language', default=LANGUAGE_ENGLISH)
-def date(date: str, language: str):
+@click.option('-v', '--verbosity', count=True)
+def date(date: str, language: str, verbosity: int):
+    _log_setup(verbosity)
     yy, mm, dd = date.split('-')
     date_object = datetime.date(int(yy), int(mm), int(dd))
     missal: Calendar = controller.get_calendar(date_object.year, language)

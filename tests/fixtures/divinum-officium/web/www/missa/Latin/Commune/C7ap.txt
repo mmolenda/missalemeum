@@ -1,0 +1,9 @@
+@Commune/C7a
+
+[Name]
+Commune non Virginum non Martyrum Tempore Paschali: Cognovi
+
+[Rule]
+
+[Graduale]
+LA C7ap Graduale

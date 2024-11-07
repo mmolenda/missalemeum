@@ -181,7 +181,7 @@ def test_correct_preface_calculated_by_proper_id(proper_id, preface_name, prefac
 
 @pytest.mark.parametrize("proper_id,preface_body_fragment_v,preface_body_fragment_lat", [
     (SANCTI_05_31, 'obchodząc święto Najświętszej', 'Et te in festivitate beátæ'),  # BVM the Queen
-    (SANCTI_08_15, 'obchodząc Wniebowzięcie Najświętszej', 'Et te in Assumptione beátæ'),
+    (SANCTI_08_15, 'obchodząc Wniebowzięcie Najświętszej', 'Et te in Assumptióne beátæ'),
     (SANCTI_12_08, 'obchodząc Niepokalane Poczęcie Najświętszej', 'Et te in Conceptióne immaculáta beátæ'),
     (COMMUNE_C_10A, 'wysławiali czcząc Najświętszą Maryję', 'Et te in veneratione beátæ'),  # rorate
 ])
@@ -257,11 +257,11 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"
                          "comm_collect_sub,comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
     # St. Matthias, Apostle, commemoration of Ember Saturday of Lent
-    ((2018, 2, 24), "Deus, qui beátum Matthíam", "Hóstias tibi, Dómine", "Præsta, quǽsumus, omnípotens",
+    ((2018, 2, 24), "Deus qui beátum Matthíam", "Hóstias tibi, Dómine", "Præsta, quǽsumus, omnípotens",
                     "Commemoratio Sabbato Quattuor Temporum Quadragesimæ", "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 3, 7), "Deus, qui culpa offénderis", "Sacrifíciis præséntibus, Dómine", "Cœléstis doni benedictióne",
-                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Sancti N. Confessóris tui", "Ut nobis, Dómine, tua sacrifícia"),
+                    "Thomæ de Aquino", "Deus, qui Ecclésiam tuam", "Sancti Thomæ Confessóris tui", "Ut nobis, Dómine, tua sacrifícia"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 9, 15), "Custódi, Dómine, quǽsumus", "Concéde nobis, Dómine", "Puríficent semper et múniant",
                     "Septem Dolorum", "Deus, in cujus passióne", "Offérimus tibi preces et", "Sacrifícia, quæ súmpsimus"),
@@ -272,14 +272,14 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
     ((2019, 9, 21), "Beáti Apóstoli et Evangelístæ", "Supplicatiónibus beáti Matthæi", "Percéptis, Dómine, sacraméntis",
                     "Sabbato Quattuor Temporum Septembris", "Omnípotens sempitérne Deus", "Concéde, quǽsumus, omnípotens", "Perfíciant in nobis, Dómine"),
     # S. Michælis Archangelis, commemoration of Sunday
-    ((2019, 9, 29), "Deus, qui, miro órdine", "Hóstias tibi, Dómine, laudis", "Beáti Archángeli tui Michælis",
+    ((2019, 9, 29), "Deus, qui, miro ordine", "Hóstias tibi, Dómine, laudis", "Beáti Archángeli tui Michaélis",
                     "Dominica XVI", "Tua nos, quǽsumus, Dómine", "Munda nos, quǽsumus", "Purífica, quǽsumus, Dómine"),
     # Sanctae Mariae Sabbato, commemoration of Ss. Placidi et Sociorum Martyrum
     ((2019, 10, 5), "Concéde nos fámulos tuos", "Tua, Dómine, propitiatióne", "Sumptis, Dómine, salútis",
                     "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
-                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua. Dómine, larga", "Cœléstibus refécti sacraméntis"),
+                    "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua, Dómine, larga", "Cœléstibus refécti sacraméntis"),
     # S. Francisci Xaverii Confessoris, commemoration of Advent day
     ((2019, 12, 3), "Deus, qui Indiárum", "Præsta nobis, quǽsumus", "Quǽsumus, omnípotens Deus:",
                     "Dominica I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
