@@ -7213,43 +7213,43 @@
   ],
   "2024-06-01": [
     {
-      "body": "*Seduliusz*\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków.\n*Ps 44:2*",
+      "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
       "id": "Introitus"
     },
     {
-      "body": "Prosimy Cię, Panie, Boże, dozwól nam, sługom Swoim, cieszyć się trwałym zdrowiem duszy i ciała, a za przyczyną Najświęts",
+      "body": "Boże, Tyś chciał, by dzięki św. Anieli zakwitł w Kościele Twoim nowy zakon dziewic Tobie poświęconych; daj nam za jej pr",
       "id": "Oratio"
     },
     {
-      "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dzie",
+      "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
       "id": "Lectio"
     },
     {
-      "body": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela.\n℣. Bogarod",
+      "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów",
       "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 11:27-28*\nOnego czasu: Gdy Jezus mówił do rzesz, pewna niewiasta z t",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
       "id": "Evangelium"
     },
     {
-      "body": "*Łk 1:28 1:42*\nZdrowaś, Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
+      "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
       "id": "Offertorium"
     },
     {
-      "body": "Panie, niech z Twego zmiłowania, a za przyczyną błogosławionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i do",
+      "body": "Ofiara, którą Tobie, Panie, składamy czcząc pamięć świętej Anieli, niech nam wybłaga przebaczenie naszych nieprawości i ",
       "id": "Secreta"
     },
     {
-      "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
+      "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
     {
-      "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
+      "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
       "id": "Communio"
     },
     {
-      "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi z",
+      "body": "Niebieskim pokarmem posileni, pokornie prosimy Cię, Panie, abyśmy za przykładem i przez modlitwy św. Anieli oczyszczeni ",
       "id": "Postcommunio"
     }
   ],
@@ -14863,6 +14863,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nWszechmogący, wiekuisty Boże, Ty przedziwnym zrządzeniem Twej Opatrzności wybierasz t",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Księgi Mądrości.\n*Mdr 4:7-18*\nSprawiedliwy, jeśli umrze przedwcześnie, dozna ochłody. Czcigodna bowiem staroś",
       "id": "Lectio"
     },
@@ -14883,6 +14887,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nProsimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
@@ -14893,6 +14901,10 @@
     {
       "body": "Prosimy Cię, Panie, za wstawiennictwem św. Stanisława, Twojego Wyznawcy, aby Pokarm niebieski, któryśmy przyjęli, przyni",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nProsimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2024-11-14": [
@@ -32129,6 +32141,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nWszechmogący, wiekuisty Boże, Ty przedziwnym zrządzeniem Twej Opatrzności wybierasz t",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Księgi Mądrości.\n*Mdr 4:7-18*\nSprawiedliwy, jeśli umrze przedwcześnie, dozna ochłody. Czcigodna bowiem staroś",
       "id": "Lectio"
     },
@@ -32149,6 +32165,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nProsimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
@@ -32159,6 +32179,10 @@
     {
       "body": "Prosimy Cię, Panie, za wstawiennictwem św. Stanisława, Twojego Wyznawcy, aby Pokarm niebieski, któryśmy przyjęli, przyni",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie Św. Dydaka, Wyznawcy*\nProsimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas ",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-11-14": [
