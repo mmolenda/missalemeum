@@ -114,7 +114,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 6, 10), [c.TEMPORA_PENT03_0], [c.TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
     ((2018, 10, 28), [c.TEMPORA_PENT23_0], [c.SANCTI_10_DU], []),  # Feast of Christ the King; no comm
     ((2018, 11, 14), [c.TEMPORA_EPI5_3], [c.SANCTI_11_14], []),
-    ((2018, 11, 26), [c.TEMPORA_PENT24_1], [c.SANCTI_11_26], []),
+    ((2018, 11, 26), [c.TEMPORA_PENT24_1], [c.SANCTI_11_26], [c.SANCTI_11_26C]),
     ((2018, 12, 5), [c.TEMPORA_ADV1_3], [c.TEMPORA_ADV1_3], [c.SANCTI_12_05]),
     ((2018, 12, 10), [c.TEMPORA_ADV2_1], [c.TEMPORA_ADV2_1], [c.SANCTI_12_10]),
     # Sanctae Mariae Sabbato

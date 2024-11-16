@@ -56,3 +56,4 @@ node_modules
 deploy
 *.tar.gz
 .DS_Store
+.vscode
