@@ -1149,4 +1149,4 @@ OBSERVANCES_WITHOUT_OWN_PROPER = (
 )
 
 REFERENCE_REGEX = re.compile(r'^@([\w/\-]*):?([^:]*)[: ]*(.*)')
-SECTION_REGEX = re.compile(r'^### *([\w\d ]*).*')
+SECTION_REGEX = re.compile(r'^### *([\w\d -]*)(.*)')
