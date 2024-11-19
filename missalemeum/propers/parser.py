@@ -173,7 +173,7 @@ class ProperParser:
             section_body = section.get_body()
             for i, section_body_ln in enumerate(section_body):
                 if REFERENCE_REGEX.match(section_body_ln):
-                    path_bit, nested_section_name, substitution = REFERENCE_REGEX.findall(section_body_ln)[0]
+                    path_bit, nested_section_name, substitutions = REFERENCE_REGEX.findall(section_body_ln)[0]
                     if not nested_section_name:
                         nested_section_name = section_name
                     if path_bit:
@@ -184,15 +184,18 @@ class ProperParser:
                         nested_section = nested_proper.get_section(nested_section_name)
                         if nested_section is not None:
                             nested_section_body = nested_section.body
-                            if substitution:
-                                try:
-                                    _, sub_from, sub_to, _ = substitution.split("/")
-                                    for i, line in enumerate(nested_section_body):
-                                        nested_section_body[i] = re.sub(sub_from, sub_to, line)
-                                except Exception:
-                                    log.warning("Can't make substitution for pattern `%s` in `%s:%s`. "
-                                                "Referenced from `%s`",
-                                                substitution, nested_path, nested_section_name, coming_from)
+                            if substitutions:
+                                for substitution in re.split(r"\bs/", substitutions):
+                                    if not substitution:
+                                        continue
+                                    try:
+                                        sub_from, sub_to, _ = substitution.split("/")
+                                        for i, line in enumerate(nested_section_body):
+                                            nested_section_body[i] = re.sub(sub_from, sub_to, line)
+                                    except Exception as e:
+                                        log.warning("Can't make substitution for pattern `%s` in `%s:%s`. "
+                                                    "Referenced from `%s`. %s",
+                                                    substitutions, nested_path, nested_section_name, coming_from, e)
                             section.substitute_reference(section_body_ln, nested_section_body)
                         elif nested_section_name in IGNORED_REFERENCES:
                             section.substitute_reference(section_body_ln, [""])
