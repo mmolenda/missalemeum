@@ -150,7 +150,7 @@ class ProperParser:
                 ln = self._normalize(ln, lang)
 
                 if re.search(SECTION_REGEX, ln):
-                    section_name: str = re.sub(SECTION_REGEX, '\\1', ln)
+                    section_name: str = self._parse_section_name(ln)
 
                 if not lookup_section or lookup_section == section_name:
                     if re.match(SECTION_REGEX, ln):
@@ -238,6 +238,27 @@ class ProperParser:
         for from_, to_ in self.translations[lang].TRANSFORMATIONS:
             ln = re.sub(from_, to_, ln)
         return ln.strip()
+
+    @staticmethod
+    def _parse_section_name(ln: str) -> str:
+        """
+        In most cases section name looks like `[Rank]`, but sometimes in one proper there can
+        be several sections with the same name, but related to different issues of the missal, e.g.
+        `[Rank] (rubrica 1960)`
+        `[Ultima Evangelium](sed non rubrica 1960)`
+        Sections proper to 1962 issue are parsed as normal ones, e.g. `[Rank] (rubrica 1960)` -> `[Rank]`.
+        Sections from other issues or ones explicitly excluded from 1962 are parsed like
+          `[Rank] (rubrica 1570)` -> `[Rank (rubrica 1570)]` so they will be excluded later.
+        """
+        #
+        #
+        #
+        name, modifier = re.findall(SECTION_REGEX, ln)[0]
+        if "sed non rubrica 196" in modifier:
+            return f"{name} {modifier}"
+        if not modifier or "(" not in modifier or "rubrica 196" in modifier:
+            return name
+        return f"{name} {modifier}"
 
     @staticmethod
     def _strip_newlines(proper):
