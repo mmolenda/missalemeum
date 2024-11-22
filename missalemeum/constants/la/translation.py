@@ -553,6 +553,7 @@ TITLES = {
     constants.SANCTI_07_16: 'In Commemoratione Beatæ Mariæ Virgine de Monte Carmelo.',
     constants.SANCTI_07_17: 'S. Alexii Confessoris',
     constants.SANCTI_07_18: 'S. Camilli de Lellis Confessoris',
+    constants.SANCTI_07_18C: 'Ss. Symphorosae et septem Filiorum ejus',
     constants.SANCTI_07_18PL: 'B. Simonis Confessoris',
     constants.SANCTI_07_19: 'S. Vincentii a Paulo Confessoris',
     constants.SANCTI_07_20: 'S. Hieronymi Emiliani Confessoris',

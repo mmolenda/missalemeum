@@ -224,9 +224,9 @@ def rule_3rd_class_local_saint_celebrated_3rd_class_general_saint_commemorated(
     calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     third_class_local_sancti = [i for i in observances if match_first(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
     if third_class_local_sancti:
-        third_class_sancti = [i for i in observances if match_first(i.id, PATTERN_SANCTI_CLASS_3) and not match_first(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
-        if third_class_sancti:
-            return third_class_local_sancti, third_class_sancti, []
+        third_and_fourth_class_sancti = [i for i in observances if match_first(i.id, [PATTERN_SANCTI_CLASS_3, PATTERN_SANCTI_CLASS_4]) and not match_first(i.id, PATTERN_SANCTI_CLASS_3_LOCAL)]
+        if third_and_fourth_class_sancti:
+            return third_class_local_sancti, third_and_fourth_class_sancti, []
 
 
 def rule_4th_class_feria_are_removed_from_celebration(

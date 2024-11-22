@@ -554,6 +554,7 @@ TITLES = {
     constants.SANCTI_07_16: 'Wspomnienie N. M. P. z Góry Karmelu',
     constants.SANCTI_07_17: 'Św. Aleksego, Wyznawcy',
     constants.SANCTI_07_18: 'Św. Kamila de Lellis',
+    constants.SANCTI_07_18C: 'Śś. Symforozy i Siedmiu Jej Synów',
     constants.SANCTI_07_18PL: 'Bł. Szymona z Lipnicy, Wyznawcy',
     constants.SANCTI_07_19: 'Św. Wincentego a Paulo, Wyznawcy',
     constants.SANCTI_07_20: 'Św. Hieronima Emiliani, Wyznawcy',

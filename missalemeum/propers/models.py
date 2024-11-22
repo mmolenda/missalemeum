@@ -188,20 +188,27 @@ class Proper(ParsedSource):
             self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
             if commemoration.description:
                 self.description += f"\n\n{commemoration.description}"
-            for source_section_name, target_section_name, in (
-                    (ORATIO, COMMEMORATED_ORATIO),
-                    (SECRETA, COMMEMORATED_SECRETA),
-                    (POSTCOMMUNIO, COMMEMORATED_POSTCOMMUNIO)
+            for source_section_name, target_section_name, add_comm_title in (
+                    (ORATIO, COMMEMORATED_ORATIO, True),
+                    (SECRETA, COMMEMORATED_SECRETA, True),
+                    (POSTCOMMUNIO, COMMEMORATED_POSTCOMMUNIO, True),
+                    (COMMEMORATED_ORATIO, COMMEMORATED_ORATIO, False),
+                    (COMMEMORATED_SECRETA, COMMEMORATED_SECRETA, False),
+                    (COMMEMORATED_POSTCOMMUNIO, COMMEMORATED_POSTCOMMUNIO, False)
             ):
-                target_section = self.get_section(target_section_name) or Section(
-                    id_=target_section_name,
-                    label=self.commemorations_names_translations[target_section_name]
-                )
-                source_section = commemoration.get_section(source_section_name)
-                source_section.body.insert(0, f"*{self.commemorations_names_translations[COMMEMORATION]} "
-                                              f"{commemoration.title}*")
-                target_section.extend_body(source_section.body)
-                self.set_section(target_section_name, target_section)
+                if source_section := commemoration.get_section(source_section_name):
+                    target_section = self.get_section(target_section_name) or Section(
+                        id_=target_section_name,
+                        label=self.commemorations_names_translations[target_section_name]
+                    )
+                    if add_comm_title:
+                        target_section.append_to_body(f"*{self.commemorations_names_translations[COMMEMORATION]} "
+                                                      f"{commemoration.title}*")
+                    try:
+                        target_section.extend_body(source_section.body)
+                    except AttributeError:
+                        raise
+                    self.set_section(target_section_name, target_section)
 
     def __repr__(self):
         return f'Proper<{self.id}>'

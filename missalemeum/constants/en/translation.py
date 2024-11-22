@@ -537,6 +537,7 @@ TITLES = {
     constants.SANCTI_07_16: 'Our Lady of Mt. Carmel',
     constants.SANCTI_07_17: 'St. Alexis',
     constants.SANCTI_07_18: 'Camillus de Lellis',
+    constants.SANCTI_07_18C: 'Ss. Symphorosa and sons',
     constants.SANCTI_07_19: 'St. Vincent de Paul',
     constants.SANCTI_07_20: 'St. Jerome Emiliani',
     constants.SANCTI_07_20C: 'St. Margaret',
