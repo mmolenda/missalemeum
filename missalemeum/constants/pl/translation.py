@@ -660,6 +660,7 @@ TITLES = {
     constants.SANCTI_10_08C: 'Śś. Sergiusza, Bachusa, Marcelego i Apulejusza',
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
     constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
+    constants.SANCTI_10_09C: 'Śś. Dionizego, Rustyka i Eleuteriusza',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
     constants.SANCTI_10_10PL: 'Dziękczynienie za zwycięstwo chocimskie z roku 1621',
     constants.SANCTI_10_11: 'Macierzyństwa N. M. P.',

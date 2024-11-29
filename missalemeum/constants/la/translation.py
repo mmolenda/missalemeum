@@ -659,6 +659,7 @@ TITLES = {
     constants.SANCTI_10_08C: 'Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus',
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
     constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
+    constants.SANCTI_10_09C: 'Ss. Dionysii Ep., Rustici et Eleutherii, Mm',
     constants.SANCTI_10_10: 'S. Francisci Borgiæ Confessoris',
     constants.SANCTI_10_10PL: 'Victoriae Chocimensis',
     constants.SANCTI_10_11: 'Maternitatis Beatæ Mariæ Virginis',

@@ -851,6 +851,7 @@ SANCTI_10_08 = 'sancti:10-08r:3:w'
 SANCTI_10_08C = 'sancti:10-08c:4:r'  # Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus
 SANCTI_10_09 = 'sancti:10-09:3:w'
 SANCTI_10_09PL = 'sancti:10-09pl:3:w'
+SANCTI_10_09C = 'sancti:10-09c:4:r'  #
 SANCTI_10_10 = 'sancti:10-10:3:w'
 SANCTI_10_10PL = 'sancti:10-10pl:4:w'
 SANCTI_10_11 = 'sancti:10-11:2:w'  # Maternity of the Blessed Virgin Mary
