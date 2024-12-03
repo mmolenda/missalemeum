@@ -646,6 +646,7 @@ TITLES = {
     constants.SANCTI_10_19: 'St. Peter of Alcantara',
     constants.SANCTI_10_20: 'St. John Cantius',
     constants.SANCTI_10_21: 'St. Hilarion ',
+    constants.SANCTI_10_21C: 'St. Ursula and Companions',
     constants.SANCTI_10_23: 'St. Anthony Mary Claret',
     constants.SANCTI_10_24: 'St. Raphael the Archangel',
     constants.SANCTI_10_25: 'Sts. Chrysanthus & Daria',

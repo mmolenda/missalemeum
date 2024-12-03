@@ -673,6 +673,7 @@ TITLES = {
     constants.SANCTI_10_19: 'Św. Piotra z Alkantary, Wyznawcy',
     constants.SANCTI_10_20: 'Św. Jana Kantego, Wyznawcy',
     constants.SANCTI_10_21: 'Św. Hilariona, Opata',
+    constants.SANCTI_10_21C: 'Śś. Urszuli i Towarzyszek, Dziewic i Męczennic',
     constants.SANCTI_10_21PL: 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy',
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',

@@ -672,6 +672,7 @@ TITLES = {
     constants.SANCTI_10_19: 'S. Petri de Alcantara Confessoris',
     constants.SANCTI_10_20: 'S. Joannis Cantii Confessoris',
     constants.SANCTI_10_21: 'S. Hilarionis Abbatis',
+    constants.SANCTI_10_21C: 'Ss. Ursulæ et Sociarum',
     constants.SANCTI_10_21PL: 'B. Jacobi Episcopi et Confessoris',
     constants.SANCTI_10_23: 'S. Antonii Mariæ Claret Episcopi Confessoris',
     constants.SANCTI_10_24: 'S. Raphælis Archangeli',

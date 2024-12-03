@@ -864,6 +864,7 @@ SANCTI_10_18 = 'sancti:10-18:2:r'  # St. Luke, Evangelist
 SANCTI_10_19 = 'sancti:10-19:3:w'
 SANCTI_10_20 = 'sancti:10-20:3:w'
 SANCTI_10_21 = 'sancti:10-21:4:w'
+SANCTI_10_21C = 'sancti:10-21cc:4:r'  # St. Ursula
 SANCTI_10_21PL = 'sancti:10-21pl:3:w'
 SANCTI_10_23 = 'sancti:10-23r:3:w'
 SANCTI_10_24 = 'sancti:10-24:3:w'
