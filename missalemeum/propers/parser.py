@@ -359,7 +359,7 @@ class ProperParser:
                     # skip next line; do not append current one
                     next(iter_body)
                     continue
-                if '(deinde dicuntur)' in ln or '(sed communi Summorum Pontificum dicitur)' in ln:
+                if '(deinde dicuntur)' in ln:
                     # start skipping lines from now on
                     omit = True
                     continue
@@ -367,9 +367,17 @@ class ProperParser:
                     # stop skipping lines from now on
                     omit = False
                     continue
+                if 'communi Summorum Pontificum' in ln:
+                    # From this line on we want only what follows this line, and possibly the header
+                    first_line = new_content[0] if new_content and new_content[0].startswith("*") else None
+                    if first_line:
+                        new_content = [first_line]
+                    else:
+                        new_content = []
+                    continue
                 if omit:
                     continue
-                if '(dicitur)' in ln or '(communi Summorum Pontificum loco huius versus dicitur)' in ln:
+                if '(dicitur)' in ln:
                     continue
                 new_content.append(ln)
             proper.get_section(section_name).body = new_content

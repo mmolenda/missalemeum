@@ -1175,5 +1175,6 @@ TRANSFORMATIONS_COMMON = [
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-    (re.compile(r'\(deinde dicuntur semper\)'), '')
+    (re.compile(r'\(deinde dicuntur semper\)'), ''),
+    (re.compile(r'^(@.*) Gregem'), '\\1')
 ]
