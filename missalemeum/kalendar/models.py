@@ -268,9 +268,6 @@ class Day:
         if day.celebration[0].id == TEMPORA_NAT2_0:
             # When the last Sunday is the feast of Holy Name, use proper from Octave of the Nativity
             return Observance(SANCTI_01_01, date_, self.calendar.lang)
-        if day.celebration[0].id == TEMPORA_PASC5_0 and day.date.weekday() == 6:
-            # Friday after the Ascension - calculated last Sunday is 5th Easter Sunday, changing to Ascension
-            return Observance(TEMPORA_PASC5_4, date_, self.calendar.lang)
         if day.tempora:
             return day.tempora[0]
         return day.celebration[0]
