@@ -3,6 +3,7 @@ import re
 from constants import common as constants
 from .supplements import SUPPLEMENTS, SUPPLEMENTS_V4
 from .pages import PAGES
+from ..common import TRANSFORMATIONS_COMMON
 
 TITLES = {
     constants.FERIA: 'Feria',
@@ -902,25 +903,7 @@ PATERNOSTER = \
     "Ale nas zbaw ode złego. Amen."
 
 
-TRANSFORMATIONS = (
-    (re.compile(r'\+\+'), '☩'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'V\.'), '℣.'),
-    (re.compile(r'R\.'), '℟.'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'^#'), '##'),
-    (re.compile(r'^!x!'), '!'),
-    (re.compile(r'^!! *(.*)'), '### \\1'),
-    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
-    (re.compile(r'^! *(.*)'), '*\\1*'),
-    (re.compile(r'^v\. *'), ''),
-    (re.compile(r'^_'), ''),
-    (re.compile(r'\(\('), '('),
-    (re.compile(r'\)\)'), ')'),
-    (re.compile(r'\['), '('),
-    (re.compile(r'\]'), ')'),
-    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
-    (re.compile(r'^.*`.*$'), ''),
+TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
     (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu…'),
     (re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
     (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Przez Pana…'),
@@ -931,11 +914,8 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz…'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
     (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Pan z wami.    \n\r℟. I z duchem twoim.'),
-    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
-    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-    (re.compile(r'\(deinde dicuntur semper\)'), ''),
-)
+]
 
 COMMEMORATIONS = {
     constants.COMMEMORATION: "Wspomnienie",

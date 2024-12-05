@@ -828,24 +828,7 @@ PATERNOSTER = \
     "And lead us not into temptation.\n" \
     "But deliver us from evil. Amen."
 
-TRANSFORMATIONS = (
-    (re.compile(r'\+\+'), '☩'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'V\.'), '℣.'),
-    (re.compile(r'R\.'), '℟.'),
-    (re.compile(r'^#'), '##'),
-    (re.compile(r'^!x!'), '!'),
-    (re.compile(r'^!! *(.*)'), '### \\1'),
-    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
-    (re.compile(r'^! *(.*)'), '*\\1*'),
-    (re.compile(r'^v\. *'), ''),
-    (re.compile(r'^_'), ''),
-    (re.compile(r'\(\('), '('),
-    (re.compile(r'\)\)'), ')'),
-    (re.compile(r'\['), '('),
-    (re.compile(r'\]'), ')'),
-    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
-    (re.compile(r'^.*`.*$'), ''),
+TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
     (re.compile(r'^[&$]Gloria\.*'), 'Glory Be to the Father…'),
     (re.compile(r'^\$Oremus\.*'), 'Let us pray.'),
     (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Through our Lord…'),
@@ -856,11 +839,8 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui vivis\.*'), 'Who livest…'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Thanks be to God.'),
     (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. The Lord be with you. \n\r℟. And with thy spirit.'),
-    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
-    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-    (re.compile(r'\(deinde dicuntur semper\)'), ''),
-)
+]
 
 COMMEMORATIONS = {
     constants.COMMEMORATION: "Commemoration",
