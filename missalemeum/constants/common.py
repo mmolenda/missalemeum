@@ -926,10 +926,15 @@ SANCTI_12_25_1 = 'sancti:12-25m1:1:w'  # Nativity of the Lord
 SANCTI_12_25_2 = 'sancti:12-25m2:1:w'
 SANCTI_12_25_3 = 'sancti:12-25m3:1:w'
 SANCTI_12_26 = 'sancti:12-26:2:r'  # St. Stephen, Protomartyr
+SANCTI_12_26C = 'sancti:12-26c:4:w'  #
 SANCTI_12_27 = 'sancti:12-27:2:w'  # St. John, Apostle and Evangelist
+SANCTI_12_27C = 'sancti:12-27c:4:w'  #
 SANCTI_12_28 = 'sancti:12-28:2:r'  # Holy Innocents
+SANCTI_12_28C = 'sancti:12-28c:4:w'  #
 SANCTI_12_29 = 'sancti:12-29r:4:r'
+SANCTI_12_29C = 'sancti:12-29c:4:w'  #
 SANCTI_12_31 = 'sancti:12-31r:4:w'
+SANCTI_12_31C = 'sancti:12-31c:4:w'  #
 
 # COMMUNE / VOTIVE
 COMMUNE_C4B = 'commune:C4b:0:w'  # Si díligis
