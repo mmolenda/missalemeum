@@ -151,6 +151,8 @@ def test_sancti_shifted(day_id, expected_date):
     ((2020, 11, 29), [c.TEMPORA_ADV1_0], [c.TEMPORA_ADV1_0], []),  # no comm. of St. Saturninus
     ((2020, 12, 6), [c.TEMPORA_ADV2_0], [c.TEMPORA_ADV2_0], []),   # no comm. of St. Nicholas
     ((2023, 12, 3), [c.TEMPORA_ADV1_0], [c.TEMPORA_ADV1_0], []),   # no comm. of St. Francis Xavier
+    # Double commemoration in lent
+    ((2024, 2, 22), [c.TEMPORA_QUAD1_4], [c.SANCTI_02_22], [c.SANCTI_02_22C, c.TEMPORA_QUAD1_4]),
 ])
 def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemoration):
     assert tempora == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).tempora]

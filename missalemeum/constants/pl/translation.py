@@ -3,6 +3,7 @@ import re
 from constants import common as constants
 from .supplements import SUPPLEMENTS, SUPPLEMENTS_V4
 from .pages import PAGES
+from ..common import TRANSFORMATIONS_COMMON
 
 TITLES = {
     constants.FERIA: 'Feria',
@@ -660,6 +661,7 @@ TITLES = {
     constants.SANCTI_10_08C: 'Śś. Sergiusza, Bachusa, Marcelego i Apulejusza',
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
     constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
+    constants.SANCTI_10_09C: 'Śś. Dionizego, Rustyka i Eleuteriusza',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
     constants.SANCTI_10_10PL: 'Dziękczynienie za zwycięstwo chocimskie z roku 1621',
     constants.SANCTI_10_11: 'Macierzyństwa N. M. P.',
@@ -672,6 +674,7 @@ TITLES = {
     constants.SANCTI_10_19: 'Św. Piotra z Alkantary, Wyznawcy',
     constants.SANCTI_10_20: 'Św. Jana Kantego, Wyznawcy',
     constants.SANCTI_10_21: 'Św. Hilariona, Opata',
+    constants.SANCTI_10_21C: 'Śś. Urszuli i Towarzyszek, Dziewic i Męczennic',
     constants.SANCTI_10_21PL: 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy',
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',
@@ -731,10 +734,15 @@ TITLES = {
     constants.SANCTI_12_25_2: 'Boże Narodzenie — Msza o świcie',
     constants.SANCTI_12_25_3: 'Boże Narodzenie — Msza w dzień',
     constants.SANCTI_12_26: 'Św. Szczepana, Pierwszego Męczennika',
+    constants.SANCTI_12_26C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_27: 'Św. Jana, Apostoła i Ewangelisty',
+    constants.SANCTI_12_27C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_28: 'Świętych Młodzianków',
+    constants.SANCTI_12_28C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_29: 'Św. Tomasza z Canterbury, Biskupa i Męczennika',
+    constants.SANCTI_12_29C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy',
+    constants.SANCTI_12_31C: 'Oktawa Bożego Narodzenia',
     constants.VOTIVE_ANGELS: 'Msza o Aniołach',
     constants.VOTIVE_JOSEPH: 'Msza o św. Józefie',
     constants.VOTIVE_PETERPAUL: 'Msza o śś. Piotrze i Pawle Apostołach',
@@ -900,25 +908,7 @@ PATERNOSTER = \
     "Ale nas zbaw ode złego. Amen."
 
 
-TRANSFORMATIONS = (
-    (re.compile(r'\+\+'), '☩'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'V\.'), '℣.'),
-    (re.compile(r'R\.'), '℟.'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'^#'), '##'),
-    (re.compile(r'^!x!'), '!'),
-    (re.compile(r'^!! *(.*)'), '### \\1'),
-    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
-    (re.compile(r'^! *(.*)'), '*\\1*'),
-    (re.compile(r'^v\. *'), ''),
-    (re.compile(r'^_'), ''),
-    (re.compile(r'\(\('), '('),
-    (re.compile(r'\)\)'), ')'),
-    (re.compile(r'\['), '('),
-    (re.compile(r'\]'), ')'),
-    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
-    (re.compile(r'^.*`.*$'), ''),
+TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
     (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu…'),
     (re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
     (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Przez Pana…'),
@@ -929,11 +919,8 @@ TRANSFORMATIONS = (
     (re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz…'),
     (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
     (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Pan z wami.    \n\r℟. I z duchem twoim.'),
-    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
     (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
-    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-    (re.compile(r'\(deinde dicuntur semper\)'), ''),
-)
+]
 
 COMMEMORATIONS = {
     constants.COMMEMORATION: "Wspomnienie",
