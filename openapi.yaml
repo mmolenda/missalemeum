@@ -275,6 +275,8 @@ components:
               $ref: '#/components/schemas/ColorsField'
             rank:
               $ref: '#/components/schemas/RankField'
+            commemorations:
+              $ref: '#/components/schemas/CommemorationsField'
 
     ListItems:
       type: "array"
@@ -331,6 +333,8 @@ components:
                   description: If fetched by date and the title does not already imply that, this field contains textual description of current day in liturgical calendar context.
                   example: Feria IV after Septuagesima
                   type: string
+                commemorations:
+                  $ref: '#/components/schemas/CommemorationsField'
         sections:
           $ref: '#/components/schemas/Sections'
 
@@ -352,6 +356,13 @@ components:
       type: "string"
       description: "Human readable title of the resource."
       example: "III Sunday after Epiphany"
+    CommemorationsField:
+      type: "array"
+      description: "List of commemorations falling in given day"
+      items:
+        type: "string"
+        example:
+          - St. Saturninus
     RankField:
       type: "integer"
       description: "Feast's class or rank."
@@ -363,13 +374,15 @@ components:
       items:
         type: "string"
         enum: ["b", "g", "r", "v", "w", "p"]
-        example: g
+        example:
+          - g
     TagsField:
       description: "List of additional informations such as liturgical color, station church, name of the season, etc."
       type: array
       items:
         type: string
-        example: Feria VI after Sexagesimæ
+        example:
+          - Feria VI after Sexagesimæ
     Sections:
       type: array
       items:
@@ -540,10 +553,13 @@ components:
   examples:
     CalendarItemsExample:
       value:
-        - id: "2023-01-21"
-          title: "St. Agnes"
-          tags: ["Saturday after II Sunday after Epiphany"]
-          colors: ["r"]
+        - id: "2023-11-11"
+          title: "St. Martin of Tours"
+          rank: 3
+          tags: ["Saturday after XXIII Sunday after Pentecost"]
+          colors: ["w"]
+          commemorations:
+            - St. Menna
     ProperExample:
       value:
         info:
@@ -560,6 +576,8 @@ components:
             - White vestments
           tempora: "Saturday after the IV Sunday of Lent"
           title: "Annunciation of the Blessed Virgin Mary"
+          commemorations:
+            - "Saturday after the IV Sunday of Lent"
         sections:
           - id: Introitus
             label: Introit

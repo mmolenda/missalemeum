@@ -851,6 +851,7 @@ SANCTI_10_08 = 'sancti:10-08r:3:w'
 SANCTI_10_08C = 'sancti:10-08c:4:r'  # Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus
 SANCTI_10_09 = 'sancti:10-09:3:w'
 SANCTI_10_09PL = 'sancti:10-09pl:3:w'
+SANCTI_10_09C = 'sancti:10-09c:4:r'  #
 SANCTI_10_10 = 'sancti:10-10:3:w'
 SANCTI_10_10PL = 'sancti:10-10pl:4:w'
 SANCTI_10_11 = 'sancti:10-11:2:w'  # Maternity of the Blessed Virgin Mary
@@ -863,6 +864,7 @@ SANCTI_10_18 = 'sancti:10-18:2:r'  # St. Luke, Evangelist
 SANCTI_10_19 = 'sancti:10-19:3:w'
 SANCTI_10_20 = 'sancti:10-20:3:w'
 SANCTI_10_21 = 'sancti:10-21:4:w'
+SANCTI_10_21C = 'sancti:10-21cc:4:r'  # St. Ursula
 SANCTI_10_21PL = 'sancti:10-21pl:3:w'
 SANCTI_10_23 = 'sancti:10-23r:3:w'
 SANCTI_10_24 = 'sancti:10-24:3:w'
@@ -924,10 +926,15 @@ SANCTI_12_25_1 = 'sancti:12-25m1:1:w'  # Nativity of the Lord
 SANCTI_12_25_2 = 'sancti:12-25m2:1:w'
 SANCTI_12_25_3 = 'sancti:12-25m3:1:w'
 SANCTI_12_26 = 'sancti:12-26:2:r'  # St. Stephen, Protomartyr
+SANCTI_12_26C = 'sancti:12-26c:4:w'  #
 SANCTI_12_27 = 'sancti:12-27:2:w'  # St. John, Apostle and Evangelist
+SANCTI_12_27C = 'sancti:12-27c:4:w'  #
 SANCTI_12_28 = 'sancti:12-28:2:r'  # Holy Innocents
+SANCTI_12_28C = 'sancti:12-28c:4:w'  #
 SANCTI_12_29 = 'sancti:12-29r:4:r'
+SANCTI_12_29C = 'sancti:12-29c:4:w'  #
 SANCTI_12_31 = 'sancti:12-31r:4:w'
+SANCTI_12_31C = 'sancti:12-31c:4:w'  #
 
 # COMMUNE / VOTIVE
 COMMUNE_C4B = 'commune:C4b:0:w'  # Si díligis
@@ -1151,3 +1158,28 @@ OBSERVANCES_WITHOUT_OWN_PROPER = (
 
 REFERENCE_REGEX = re.compile(r'^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *([\w\d -]*)(.*)')
+
+TRANSFORMATIONS_COMMON = [
+    (re.compile(r'\+\+'), '☩'),
+    (re.compile(r'\+'), '☩'),
+    (re.compile(r'V\.'), '℣.'),
+    (re.compile(r'R\.'), '℟.'),
+    (re.compile(r'\+'), '☩'),
+    (re.compile(r'^#'), '##'),
+    (re.compile(r'^!x!'), '!'),
+    (re.compile(r'^!! *(.*)'), '### \\1'),
+    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
+    (re.compile(r'^! *(.*)'), '*\\1*'),
+    (re.compile(r'^v\. *'), ''),
+    (re.compile(r'^_'), ''),
+    (re.compile(r'\(\('), '('),
+    (re.compile(r'\)\)'), ')'),
+    (re.compile(r'\['), '('),
+    (re.compile(r'\]'), ')'),
+    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
+    (re.compile(r'^.*`.*$'), ''),
+    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
+    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
+    (re.compile(r'\(deinde dicuntur semper\)'), ''),
+    (re.compile(r'^(@.*) Gregem'), '\\1')
+]

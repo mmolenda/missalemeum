@@ -651,6 +651,7 @@ SANCTI = (
     constants.SANCTI_10_08,
     constants.SANCTI_10_08C,
     constants.SANCTI_10_09,
+    constants.SANCTI_10_09C,
     constants.SANCTI_10_10,
     constants.SANCTI_10_11,
     constants.SANCTI_10_13,
@@ -662,6 +663,7 @@ SANCTI = (
     constants.SANCTI_10_19,
     constants.SANCTI_10_20,
     constants.SANCTI_10_21,
+    constants.SANCTI_10_21C,
     constants.SANCTI_10_23,
     constants.SANCTI_10_24,
     constants.SANCTI_10_25,
@@ -714,10 +716,15 @@ SANCTI = (
     constants.SANCTI_12_25_2,
     constants.SANCTI_12_25_3,
     constants.SANCTI_12_26,
+    constants.SANCTI_12_26C,
     constants.SANCTI_12_27,
+    constants.SANCTI_12_27C,
     constants.SANCTI_12_28,
+    constants.SANCTI_12_28C,
     constants.SANCTI_12_29,
+    constants.SANCTI_12_29C,
     constants.SANCTI_12_31,
+    constants.SANCTI_12_31C,
 )
 
 TEMPORA_IDS = list(itertools.chain.from_iterable(POST_EPIPHANY +

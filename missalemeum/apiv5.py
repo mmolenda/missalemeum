@@ -108,7 +108,8 @@ def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
             "tags": tags,
             "colors": day.get_celebration_colors(),
             "rank": day.get_celebration_rank(),
-            "id": date_.strftime("%Y-%m-%d")
+            "id": date_.strftime("%Y-%m-%d"),
+            "commemorations": day.get_commemorations_names()
         })
     return jsonify(container)
 

@@ -56,7 +56,8 @@ def format_propers(propers, day=None):
             "rank": propers_vernacular.rank,
             "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
-            "date": day.date.strftime("%Y-%m-%d") if day else None
+            "date": day.date.strftime("%Y-%m-%d") if day else None,
+            "commemorations": day.get_commemorations_names() if day else []
         }
         retvals.append({
             "info": info,
