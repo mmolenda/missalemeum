@@ -3,24 +3,27 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-01",
         "rank": 1,
         "tags": [],
-        "title": "Oktawa Bo\u017cego Narodzenia"
+        "title": "Oktawa Bożego Narodzenia"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-02",
         "rank": 2,
         "tags": [],
-        "title": "Naj\u015bwi\u0119tszego Imienia Jezus"
+        "title": "Najświętszego Imienia Jezus"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-03",
         "rank": 4,
         "tags": [],
@@ -30,6 +33,7 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-04",
         "rank": 4,
         "tags": [],
@@ -38,6 +42,9 @@
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Telesfora, Papieża i Męczennika"
         ],
         "id": "2023-01-05",
         "rank": 4,
@@ -48,37 +55,41 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-06",
         "rank": 1,
         "tags": [],
-        "title": "Objawienie Pa\u0144skie"
+        "title": "Objawienie Pańskie"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-07",
         "rank": 4,
         "tags": [],
-        "title": "2 Msza o N. M. P. \u2013 Vultum Tuum"
+        "title": "2 Msza o N. M. P. – Vultum Tuum"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-08",
         "rank": 2,
         "tags": [],
-        "title": "Uroczysto\u015b\u0107 \u015awi\u0119tej Rodziny Jezusa, Maryi i J\u00f3zefa"
+        "title": "Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-09",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 1 Niedzieli po Objawieniu"
+            "Poniedziałek po 1 Niedzieli po Objawieniu"
         ],
         "title": "Feria"
     },
@@ -86,6 +97,7 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-10",
         "rank": 4,
         "tags": [
@@ -97,10 +109,13 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Hygina, Papieża i Męczennika"
+        ],
         "id": "2023-01-11",
         "rank": 4,
         "tags": [
-            "\u015aroda po 1 Niedzieli po Objawieniu"
+            "Środa po 1 Niedzieli po Objawieniu"
         ],
         "title": "Feria"
     },
@@ -108,6 +123,7 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-12",
         "rank": 4,
         "tags": [
@@ -119,28 +135,33 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-13",
         "rank": 2,
         "tags": [
-            "Pi\u0105tek po 1 Niedzieli po Objawieniu"
+            "Piątek po 1 Niedzieli po Objawieniu"
         ],
-        "title": "Wspomnienie Chrztu Pa\u0144skiego"
+        "title": "Wspomnienie Chrztu Pańskiego"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Feliksa, Kapłana i Męczennika"
         ],
         "id": "2023-01-14",
         "rank": 3,
         "tags": [
             "Sobota po 1 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Hilarego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Hilarego, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-01-15",
         "rank": 2,
         "tags": [],
@@ -150,38 +171,47 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-16",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 2 Niedzieli po Objawieniu"
+            "Poniedziałek po 2 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Marcelego I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Marcelego I, Papieża i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-17",
         "rank": 3,
         "tags": [
             "Wtorek po 2 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Antoniego, Opata"
+        "title": "Św. Antoniego, Opata"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [
+            "Św. Pryski, Dziewicy"
+        ],
         "id": "2023-01-18",
         "rank": 4,
         "tags": [
-            "\u015aroda po 2 Niedzieli po Objawieniu"
+            "Środa po 2 Niedzieli po Objawieniu"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Mariusza, Marty, Audifaksa i Abachuma",
+            "św. Kanuta, Króla i Męczennika"
         ],
         "id": "2023-01-19",
         "rank": 4,
@@ -194,28 +224,31 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-20",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 2 Niedzieli po Objawieniu"
+            "Piątek po 2 Niedzieli po Objawieniu"
         ],
-        "title": "\u015a\u015b. Fabiana, Papie\u017ca i Sebastiana, M\u0119czennik\u00f3w"
+        "title": "Śś. Fabiana, Papieża i Sebastiana, Męczenników"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-21",
         "rank": 3,
         "tags": [
             "Sobota po 2 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Agnieszki, Dziewicy i M\u0119czennicy"
+        "title": "Św. Agnieszki, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-01-22",
         "rank": 2,
         "tags": [],
@@ -225,72 +258,85 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Emercjanny, Dziewicy i Męczennicy"
+        ],
         "id": "2023-01-23",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 3 Niedzieli po Objawieniu"
+            "Poniedziałek po 3 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Rajmunda z Pennafort, Wyznawcy"
+        "title": "Św. Rajmunda z Pennafort, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-24",
         "rank": 3,
         "tags": [
             "Wtorek po 3 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Tymoteusza, Biskupa i M\u0119czennika"
+        "title": "Św. Tymoteusza, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Piotra, Apostoła"
+        ],
         "id": "2023-01-25",
         "rank": 3,
         "tags": [
-            "\u015aroda po 3 Niedzieli po Objawieniu"
+            "Środa po 3 Niedzieli po Objawieniu"
         ],
-        "title": "Nawr\u00f3cenie \u015bw. Paw\u0142a, Aposto\u0142a"
+        "title": "Nawrócenie św. Pawła, Apostoła"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-26",
         "rank": 3,
         "tags": [
             "Czwartek po 3 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Polikarpa, Biskupa i M\u0119czennika"
+        "title": "Św. Polikarpa, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-27",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 3 Niedzieli po Objawieniu"
+            "Piątek po 3 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Jana Chryzostoma, Wyznawcy, Biskupa i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Jana Chryzostoma, Wyznawcy, Biskupa i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Agnieszki"
         ],
         "id": "2023-01-28",
         "rank": 3,
         "tags": [
             "Sobota po 3 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Piotra Nolasco, Wyznawcy"
+        "title": "Św. Piotra Nolasco, Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-01-29",
         "rank": 2,
         "tags": [],
@@ -300,39 +346,43 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-01-30",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 4 Niedzieli po Objawieniu"
+            "Poniedziałek po 4 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Martyny, Dziewicy i M\u0119czennicy"
+        "title": "Św. Martyny, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-01-31",
         "rank": 3,
         "tags": [
             "Wtorek po 4 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Jana Bosco, Wyznawcy"
+        "title": "Św. Jana Bosco, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-02-01",
         "rank": 3,
         "tags": [
-            "\u015aroda po 4 Niedzieli po Objawieniu"
+            "Środa po 4 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Ignacego, Biskupa i M\u0119czennika"
+        "title": "Św. Ignacego, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-02",
         "rank": 2,
         "tags": [
@@ -344,10 +394,13 @@
         "colors": [
             "g"
         ],
+        "commemorations": [
+            "Św. Błażeja, Biskupa i Męczennika"
+        ],
         "id": "2023-02-03",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 4 Niedzieli po Objawieniu"
+            "Piątek po 4 Niedzieli po Objawieniu"
         ],
         "title": "Feria"
     },
@@ -355,127 +408,147 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-04",
         "rank": 3,
         "tags": [
             "Sobota po 4 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Andrzeja Corsini, Biskupa i Wyznawcy"
+        "title": "Św. Andrzeja Corsini, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-05",
         "rank": 2,
         "tags": [],
-        "title": "Niedziela Siedemdziesi\u0105tnicy"
+        "title": "Niedziela Siedemdziesiątnicy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Doroty, Dziewicy i Męczennicy"
         ],
         "id": "2023-02-06",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli Siedemdziesi\u0105tnicy"
+            "Poniedziałek po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "\u015aw. Tytusa, Biskupa i Wyznawcy"
+        "title": "Św. Tytusa, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-07",
         "rank": 3,
         "tags": [
-            "Wtorek po Niedzieli Siedemdziesi\u0105tnicy"
+            "Wtorek po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "\u015aw. Romualda, Opata"
+        "title": "Św. Romualda, Opata"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-08",
         "rank": 3,
         "tags": [
-            "\u015aroda po Niedzieli Siedemdziesi\u0105tnicy"
+            "Środa po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "\u015aw. Jana z Maty, Wyznawcy"
+        "title": "Św. Jana z Maty, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Apolonii, Dziewicy i Męczennicy"
         ],
         "id": "2023-02-09",
         "rank": 3,
         "tags": [
-            "Czwartek po Niedzieli Siedemdziesi\u0105tnicy"
+            "Czwartek po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "\u015aw. Cyryla Aleksandryjskiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Cyryla Aleksandryjskiego, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-10",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po Niedzieli Siedemdziesi\u0105tnicy"
+            "Piątek po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "\u015aw. Scholastyki"
+        "title": "Św. Scholastyki"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-02-11",
         "rank": 3,
         "tags": [
-            "Sobota po Niedzieli Siedemdziesi\u0105tnicy"
+            "Sobota po Niedzieli Siedemdziesiątnicy"
         ],
-        "title": "Objawienie si\u0119 N. M. P. Niepokalanie Pocz\u0119tej w Lourdes"
+        "title": "Objawienie się N. M. P. Niepokalanie Poczętej w Lourdes"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-12",
         "rank": 2,
         "tags": [],
-        "title": "Niedziela Sze\u015b\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Sześćdziesiątnicy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-13",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Poniedziałek po Niedzieli Sześćdziesiątnicy"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Walentego, Kapłana i Męczennika"
         ],
         "id": "2023-02-14",
         "rank": 4,
         "tags": [
-            "Wtorek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Wtorek po Niedzieli Sześćdziesiątnicy"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Śś. Faustyna i Jowity, Męczenników"
         ],
         "id": "2023-02-15",
         "rank": 4,
         "tags": [
-            "\u015aroda po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Środa po Niedzieli Sześćdziesiątnicy"
         ],
         "title": "Feria"
     },
@@ -483,10 +556,11 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-16",
         "rank": 4,
         "tags": [
-            "Czwartek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Czwartek po Niedzieli Sześćdziesiątnicy"
         ],
         "title": "Feria"
     },
@@ -494,10 +568,11 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-17",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Piątek po Niedzieli Sześćdziesiątnicy"
         ],
         "title": "Feria"
     },
@@ -505,30 +580,35 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Symeona, Biskupa i Męczennika"
+        ],
         "id": "2023-02-18",
         "rank": 4,
         "tags": [
-            "Sobota po Niedzieli Sze\u015b\u0107dziesi\u0105tnicy"
+            "Sobota po Niedzieli Sześćdziesiątnicy"
         ],
-        "title": "3 Msza o N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "3 Msza o N. M. P. – Salve, Sancta Parens"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-19",
         "rank": 2,
         "tags": [],
-        "title": "Niedziela Pi\u0119\u0107dziesi\u0105tnicy"
+        "title": "Niedziela Pięćdziesiątnicy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-20",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+            "Poniedziałek po Niedzieli Pięćdziesiątnicy"
         ],
         "title": "Feria"
     },
@@ -536,10 +616,11 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-21",
         "rank": 4,
         "tags": [
-            "Wtorek po Niedzieli Pi\u0119\u0107dziesi\u0105tnicy"
+            "Wtorek po Niedzieli Pięćdziesiątnicy"
         ],
         "title": "Feria"
     },
@@ -547,14 +628,19 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-22",
         "rank": 1,
         "tags": [],
-        "title": "\u015aroda Popielcowa"
+        "title": "Środa Popielcowa"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Piotra Damiana, Biskupa, Wyznawcy i Doktora Kościoła",
+            "Czwartek po Popielcu"
         ],
         "id": "2023-02-23",
         "rank": 3,
@@ -565,17 +651,21 @@
         "colors": [
             "r"
         ],
+        "commemorations": [
+            "Piątek po Popielcu"
+        ],
         "id": "2023-02-24",
         "rank": 2,
         "tags": [
-            "Pi\u0105tek po Popielcu"
+            "Piątek po Popielcu"
         ],
-        "title": "\u015aw. Macieja Aposto\u0142a"
+        "title": "Św. Macieja Apostoła"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-25",
         "rank": 3,
         "tags": [],
@@ -585,6 +675,7 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-26",
         "rank": 1,
         "tags": [],
@@ -594,15 +685,20 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Gabriela od Matki Bożej Bolesnej",
+            "Poniedziałek po 1 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-02-27",
         "rank": 3,
         "tags": [],
-        "title": "Poniedzia\u0142ek po 1 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 1 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-02-28",
         "rank": 3,
         "tags": [],
@@ -612,15 +708,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-01",
         "rank": 2,
         "tags": [],
-        "title": "\u015aroda Suchych Dni Wielkiego Postu"
+        "title": "Środa Suchych Dni Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-02",
         "rank": 3,
         "tags": [],
@@ -630,14 +728,18 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-03",
         "rank": 2,
         "tags": [],
-        "title": "Pi\u0105tek Suchych Dni Wielkiego Postu"
+        "title": "Piątek Suchych Dni Wielkiego Postu"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Kazimierza, Wyznawcy"
         ],
         "id": "2023-03-04",
         "rank": 2,
@@ -648,6 +750,7 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-05",
         "rank": 1,
         "tags": [],
@@ -657,14 +760,22 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Śś. Perpetui i Felicyty, Męczennic",
+            "Poniedziałek po 2 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-06",
         "rank": 3,
         "tags": [],
-        "title": "Poniedzia\u0142ek po 2 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 2 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Tomasza z Akwinu, Wyznawcy i Doktora Kościoła",
+            "Wtorek po 2 Niedzieli Wielkiego Postu"
         ],
         "id": "2023-03-07",
         "rank": 3,
@@ -675,14 +786,22 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Jana Bożego, Wyznawcy",
+            "Środa po 2 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-08",
         "rank": 3,
         "tags": [],
-        "title": "\u015aroda po 2 Niedzieli Wielkiego Postu"
+        "title": "Środa po 2 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Franciszki Rzymianki, Wdowy",
+            "Czwartek po 2 Niedzieli Wielkiego Postu"
         ],
         "id": "2023-03-09",
         "rank": 3,
@@ -693,15 +812,20 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Śś. Czterdziestu Męczenników",
+            "Piątek po 2 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-10",
         "rank": 3,
         "tags": [],
-        "title": "Pi\u0105tek po 2 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 2 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-11",
         "rank": 3,
         "tags": [],
@@ -711,6 +835,7 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-12",
         "rank": 1,
         "tags": [],
@@ -720,15 +845,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-13",
         "rank": 3,
         "tags": [],
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Wielkiego Postu"
+        "title": "Poniedziałek po 3 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-14",
         "rank": 3,
         "tags": [],
@@ -738,15 +865,20 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Klemensa Marii Dworzaka (Hofbauera)",
+            "Środa po 3 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-15",
         "rank": 3,
         "tags": [],
-        "title": "\u015aroda po 3 Niedzieli Wielkiego Postu"
+        "title": "Środa po 3 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-16",
         "rank": 3,
         "tags": [],
@@ -756,14 +888,22 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Patryka, Biskupa i Wyznawcy",
+            "Piątek po 3 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-17",
         "rank": 3,
         "tags": [],
-        "title": "Pi\u0105tek po 3 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 3 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Kościoła",
+            "Sobota po 3 Niedzieli Wielkiego Postu"
         ],
         "id": "2023-03-18",
         "rank": 3,
@@ -775,6 +915,7 @@
             "p",
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-19",
         "rank": 1,
         "tags": [],
@@ -784,16 +925,23 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Poniedziałek po 4 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-20",
         "rank": 1,
         "tags": [
-            "Poniedzia\u0142ek po 4 Niedzieli Wielkiego Postu"
+            "Poniedziałek po 4 Niedzieli Wielkiego Postu"
         ],
-        "title": "\u015aw. J\u00f3zefa, Oblubie\u0144ca N. M. P."
+        "title": "Św. Józefa, Oblubieńca N. M. P."
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Benedykta, Opata",
+            "Wtorek po 4 Niedzieli Wielkiego Postu"
         ],
         "id": "2023-03-21",
         "rank": 3,
@@ -804,15 +952,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-22",
         "rank": 3,
         "tags": [],
-        "title": "\u015aroda po 4 Niedzieli Wielkiego Postu"
+        "title": "Środa po 4 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-23",
         "rank": 3,
         "tags": [],
@@ -822,14 +972,21 @@
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Gabriela Archanioła",
+            "Piątek po 4 Niedzieli Wielkiego Postu"
+        ],
         "id": "2023-03-24",
         "rank": 3,
         "tags": [],
-        "title": "Pi\u0105tek po 4 Niedzieli Wielkiego Postu"
+        "title": "Piątek po 4 Niedzieli Wielkiego Postu"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Sobota po 4 Niedzieli Wielkiego Postu"
         ],
         "id": "2023-03-25",
         "rank": 1,
@@ -842,70 +999,86 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-26",
         "rank": 1,
         "tags": [],
-        "title": "1 Niedziela M\u0119ki Pa\u0144skiej"
+        "title": "1 Niedziela Męki Pańskiej"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Jana Damasceńskiego, Wyznawcy i Doktora Kościoła",
+            "Poniedziałek po Niedzieli Męki Pańskiej"
         ],
         "id": "2023-03-27",
         "rank": 3,
         "tags": [],
-        "title": "Poniedzia\u0142ek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Poniedziałek po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Jana Kapistrana, Wyznawcy",
+            "Wtorek po Niedzieli Męki Pańskiej"
         ],
         "id": "2023-03-28",
         "rank": 3,
         "tags": [],
-        "title": "Wtorek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Wtorek po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-29",
         "rank": 3,
         "tags": [],
-        "title": "\u015aroda po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Środa po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-03-30",
         "rank": 3,
         "tags": [],
-        "title": "Czwartek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Czwartek po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Wspomnienie Siedmiu Boleści N. M. P."
         ],
         "id": "2023-03-31",
         "rank": 3,
         "tags": [],
-        "title": "Pi\u0105tek po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Piątek po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-01",
         "rank": 3,
         "tags": [],
-        "title": "Sobota po Niedzieli M\u0119ki Pa\u0144skiej"
+        "title": "Sobota po Niedzieli Męki Pańskiej"
     },
     {
         "colors": [
             "r",
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-02",
         "rank": 1,
         "tags": [],
@@ -915,15 +1088,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-03",
         "rank": 1,
         "tags": [],
-        "title": "Wielki Poniedzia\u0142ek"
+        "title": "Wielki Poniedziałek"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-04",
         "rank": 1,
         "tags": [],
@@ -933,15 +1108,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-05",
         "rank": 1,
         "tags": [],
-        "title": "Wielka \u015aroda"
+        "title": "Wielka Środa"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-06",
         "rank": 1,
         "tags": [],
@@ -952,16 +1129,18 @@
             "b",
             "v"
         ],
+        "commemorations": [],
         "id": "2023-04-07",
         "rank": 1,
         "tags": [],
-        "title": "Wielki Pi\u0105tek"
+        "title": "Wielki Piątek"
     },
     {
         "colors": [
             "v",
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-08",
         "rank": 1,
         "tags": [],
@@ -971,6 +1150,7 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-09",
         "rank": 1,
         "tags": [],
@@ -980,15 +1160,17 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-10",
         "rank": 1,
         "tags": [],
-        "title": "Poniedzia\u0142ek Wielkanocny"
+        "title": "Poniedziałek Wielkanocny"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-11",
         "rank": 1,
         "tags": [],
@@ -998,15 +1180,17 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-12",
         "rank": 1,
         "tags": [],
-        "title": "\u015aroda Wielkanocna"
+        "title": "Środa Wielkanocna"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-13",
         "rank": 1,
         "tags": [],
@@ -1016,37 +1200,43 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-14",
         "rank": 1,
         "tags": [],
-        "title": "Pi\u0105tek Wielkanocny"
+        "title": "Piątek Wielkanocny"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-15",
         "rank": 1,
         "tags": [],
-        "title": "Sobota Bia\u0142a"
+        "title": "Sobota Biała"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-16",
         "rank": 1,
         "tags": [],
-        "title": "Niedziela Bia\u0142a"
+        "title": "Niedziela Biała"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Aniceta, Papieża i Męczennika"
         ],
         "id": "2023-04-17",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli Bia\u0142ej"
+            "Poniedziałek po Niedzieli Białej"
         ],
         "title": "Feria"
     },
@@ -1054,10 +1244,11 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-18",
         "rank": 4,
         "tags": [
-            "Wtorek po Niedzieli Bia\u0142ej"
+            "Wtorek po Niedzieli Białej"
         ],
         "title": "Feria"
     },
@@ -1065,10 +1256,11 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-19",
         "rank": 4,
         "tags": [
-            "\u015aroda po Niedzieli Bia\u0142ej"
+            "Środa po Niedzieli Białej"
         ],
         "title": "Feria"
     },
@@ -1076,10 +1268,11 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-20",
         "rank": 4,
         "tags": [
-            "Czwartek po Niedzieli Bia\u0142ej"
+            "Czwartek po Niedzieli Białej"
         ],
         "title": "Feria"
     },
@@ -1087,105 +1280,119 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-21",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po Niedzieli Bia\u0142ej"
+            "Piątek po Niedzieli Białej"
         ],
-        "title": "\u015aw. Anzelma, Biskupa, Wyznawcy i Dokotra Ko\u015bcio\u0142a"
+        "title": "Św. Anzelma, Biskupa, Wyznawcy i Dokotra Kościoła"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-04-22",
         "rank": 3,
         "tags": [
-            "Sobota po Niedzieli Bia\u0142ej"
+            "Sobota po Niedzieli Białej"
         ],
-        "title": "\u015a\u015b. Sotera i Kajusa, Papie\u017cy i M\u0119czennik\u00f3w"
+        "title": "Śś. Sotera i Kajusa, Papieży i Męczenników"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "2 Niedziela po Wielkanocy"
         ],
         "id": "2023-04-23",
         "rank": 1,
         "tags": [
             "2 Niedziela po Wielkanocy"
         ],
-        "title": "\u015aw. Wojciecha, Biskupa i M\u0119czennika"
+        "title": "Św. Wojciecha, Biskupa i Męczennika"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-04-24",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 2 Niedzieli po Wielkanocy"
+            "Poniedziałek po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Fidelisa z Sigmaringen, M\u0119czennika"
+        "title": "Św. Fidelisa z Sigmaringen, Męczennika"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Litania Większa"
         ],
         "id": "2023-04-25",
         "rank": 2,
         "tags": [
             "Wtorek po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Marka Ewangelisty"
+        "title": "Św. Marka Ewangelisty"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-04-26",
         "rank": 3,
         "tags": [
-            "\u015aroda po 2 Niedzieli po Wielkanocy"
+            "Środa po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015a\u015b. Kleta i Marcelina, Papie\u017cy i M\u0119czennik\u00f3w"
+        "title": "Śś. Kleta i Marcelina, Papieży i Męczenników"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-27",
         "rank": 3,
         "tags": [
             "Czwartek po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Piotra Kanizjusza, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Piotra Kanizjusza, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-28",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 2 Niedzieli po Wielkanocy"
+            "Piątek po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Paw\u0142a od Krzy\u017ca, Wyznawcy"
+        "title": "Św. Pawła od Krzyża, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-04-29",
         "rank": 3,
         "tags": [
             "Sobota po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "Piotra z Werony, M\u0119czenika"
+        "title": "Piotra z Werony, Męczenika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-04-30",
         "rank": 2,
         "tags": [],
@@ -1195,72 +1402,81 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-01",
         "rank": 1,
         "tags": [
-            "Poniedzia\u0142ek po 3 Niedzieli po Wielkanocy"
+            "Poniedziałek po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. J\u00f3zefa Robotnika, Oblubie\u0144ca N. M. P"
+        "title": "Św. Józefa Robotnika, Oblubieńca N. M. P"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-02",
         "rank": 3,
         "tags": [
             "Wtorek po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Atanazego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Atanazego, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-03",
         "rank": 1,
         "tags": [
-            "\u015aroda po 3 Niedzieli po Wielkanocy"
+            "Środa po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "N. M. P., Kr\u00f3lowej Polski, G\u0142\u00f3wnej Patronki Polski"
+        "title": "N. M. P., Królowej Polski, Głównej Patronki Polski"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Moniki, Wdowy"
         ],
         "id": "2023-05-04",
         "rank": 3,
         "tags": [
             "Czwartek po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Floriana, M\u0119czennika"
+        "title": "Św. Floriana, Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-05",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 3 Niedzieli po Wielkanocy"
+            "Piątek po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Piusa V, Papie\u017ca i Wyznawcy"
+        "title": "Św. Piusa V, Papieża i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-06",
         "rank": 4,
         "tags": [
             "Sobota po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "4 Msza o N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "4 Msza o N. M. P. – Salve, Sancta Parens"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-07",
         "rank": 2,
         "tags": [],
@@ -1270,72 +1486,81 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-08",
         "rank": 1,
         "tags": [
-            "Poniedzia\u0142ek po 4 Niedzieli po Wielkanocy"
+            "Poniedziałek po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Stanis\u0142awa, Biskupa i M\u0119czennika"
+        "title": "Św. Stanisława, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-09",
         "rank": 3,
         "tags": [
             "Wtorek po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Śś. Gordiana i Epimacha, Męczenników"
+        ],
         "id": "2023-05-10",
         "rank": 3,
         "tags": [
-            "\u015aroda po 4 Niedzieli po Wielkanocy"
+            "Środa po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Antonina, Biskupa i Wyznawcy"
+        "title": "Św. Antonina, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-11",
         "rank": 2,
         "tags": [
             "Czwartek po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015awi\u0119tych Filipa i Jakuba, Aposto\u0142\u00f3w"
+        "title": "Świętych Filipa i Jakuba, Apostołów"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-12",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 4 Niedzieli po Wielkanocy"
+            "Piątek po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015awi\u0119tych Nereusza, Achillesa, Domicylli i Pankracego, M\u0119czennik\u00f3w"
+        "title": "Świętych Nereusza, Achillesa, Domicylli i Pankracego, Męczenników"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-13",
         "rank": 3,
         "tags": [
             "Sobota po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "\u015aw. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-14",
         "rank": 2,
         "tags": [],
@@ -1345,81 +1570,95 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-15",
         "rank": 3,
         "tags": [
             "Litanie mniejsze"
         ],
-        "title": "\u015aw. Jana Chrzciciela de la Salle, Wyznawcy"
+        "title": "Św. Jana Chrzciciela de la Salle, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Ubalda, Biskupa i Wyznawcy"
         ],
         "id": "2023-05-16",
         "rank": 3,
         "tags": [
             "Litanie mniejsze"
         ],
-        "title": "\u015aw. Andrzeja Boboli, M\u0119czennika"
+        "title": "Św. Andrzeja Boboli, Męczennika"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Paschalisa Baylon, Wyznawcy"
         ],
         "id": "2023-05-17",
         "rank": 2,
         "tags": [],
-        "title": "Wigilia Wniebowst\u0105pienia Pa\u0144skiego"
+        "title": "Wigilia Wniebowstąpienia Pańskiego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-18",
         "rank": 1,
         "tags": [],
-        "title": "Wniebowst\u0105pienie Pa\u0144skie"
+        "title": "Wniebowstąpienie Pańskie"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Pudencjany, Dziewicy"
         ],
         "id": "2023-05-19",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po Wniebowst\u0105pieniu"
+            "Piątek po Wniebowstąpieniu"
         ],
-        "title": "\u015aw. Piotra Celestyna, Papie\u017ca i Wyznawcy"
+        "title": "Św. Piotra Celestyna, Papieża i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-20",
         "rank": 3,
         "tags": [
-            "Sobota po Wniebowst\u0105pieniu"
+            "Sobota po Wniebowstąpieniu"
         ],
-        "title": "\u015aw. Bernardyna ze Sieny, Wyznawcy"
+        "title": "Św. Bernardyna ze Sieny, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-21",
         "rank": 2,
         "tags": [],
-        "title": "Niedziela po Wniebowst\u0105pieniu"
+        "title": "Niedziela po Wniebowstąpieniu"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-22",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli po Wniebowst\u0105pieniu"
+            "Poniedziałek po Niedzieli po Wniebowstąpieniu"
         ],
         "title": "Feria"
     },
@@ -1427,10 +1666,11 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-23",
         "rank": 4,
         "tags": [
-            "Wtorek po Niedzieli po Wniebowst\u0105pieniu"
+            "Wtorek po Niedzieli po Wniebowstąpieniu"
         ],
         "title": "Feria"
     },
@@ -1438,146 +1678,161 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-24",
         "rank": 2,
         "tags": [
-            "\u015aroda po Niedzieli po Wniebowst\u0105pieniu"
+            "Środa po Niedzieli po Wniebowstąpieniu"
         ],
-        "title": "N. M. P. Wspomo\u017cycielki Wiernych"
+        "title": "N. M. P. Wspomożycielki Wiernych"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-25",
         "rank": 3,
         "tags": [
-            "Czwartek po Niedzieli po Wniebowst\u0105pieniu"
+            "Czwartek po Niedzieli po Wniebowstąpieniu"
         ],
-        "title": "\u015aw. Grzegorza VII, Papie\u017ca i Wyznawcy"
+        "title": "Św. Grzegorza VII, Papieża i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-05-26",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po Niedzieli po Wniebowst\u0105pieniu"
+            "Piątek po Niedzieli po Wniebowstąpieniu"
         ],
-        "title": "\u015aw. Filipa Nereusza, Wyznawcy"
+        "title": "Św. Filipa Nereusza, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-27",
         "rank": 1,
         "tags": [],
-        "title": "Wigilia Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wigilia Zesłania Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-28",
         "rank": 1,
         "tags": [],
-        "title": "Niedziela Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Niedziela Zesłania Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-29",
         "rank": 1,
         "tags": [],
-        "title": "Poniedzia\u0142ek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Poniedziałek w Oktawie Zesłania Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-30",
         "rank": 1,
         "tags": [],
-        "title": "Wtorek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Wtorek w Oktawie Zesłania Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-05-31",
         "rank": 1,
         "tags": [],
-        "title": "\u015aroda Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Środa Suchych Dni po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-01",
         "rank": 1,
         "tags": [],
-        "title": "Czwartek w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+        "title": "Czwartek w Oktawie Zesłania Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-02",
         "rank": 1,
         "tags": [],
-        "title": "Pi\u0105tek Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Piątek Suchych Dni po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-03",
         "rank": 1,
         "tags": [],
-        "title": "Sobota Suchych Dni po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "Sobota Suchych Dni po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-04",
         "rank": 1,
         "tags": [],
-        "title": "Uroczysto\u015b\u0107 Tr\u00f3jcy Przenaj\u015bwi\u0119tszej"
+        "title": "Uroczystość Trójcy Przenajświętszej"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-05",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+            "Poniedziałek po Niedzieli w Oktawie Zesłania Ducha Świętego"
         ],
-        "title": "\u015aw. Bonifacego, Biskupa i M\u0119czennika"
+        "title": "Św. Bonifacego, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-06",
         "rank": 3,
         "tags": [
-            "Wtorek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+            "Wtorek po Niedzieli w Oktawie Zesłania Ducha Świętego"
         ],
-        "title": "\u015aw. Norberta, Biskupa i Wyznawcy"
+        "title": "Św. Norberta, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-06-07",
         "rank": 4,
         "tags": [
-            "\u015aroda po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+            "Środa po Niedzieli w Oktawie Zesłania Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -1585,134 +1840,159 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-08",
         "rank": 1,
         "tags": [],
-        "title": "Uroczysto\u015b\u0107 Bo\u017cego Cia\u0142a"
+        "title": "Uroczystość Bożego Ciała"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Pryma i Felicjana, Męczenników"
         ],
         "id": "2023-06-09",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+            "Piątek po Niedzieli w Oktawie Zesłania Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Małgorzaty, Królowej Szkockiej, Wdowy"
         ],
         "id": "2023-06-10",
         "rank": 3,
         "tags": [
-            "Sobota po Niedzieli w Oktawie Zes\u0142ania Ducha \u015awi\u0119tego"
+            "Sobota po Niedzieli w Oktawie Zesłania Ducha Świętego"
         ],
-        "title": "B\u0142. Bogumi\u0142a, Biskupa i Wyznawcy"
+        "title": "Bł. Bogumiła, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-06-11",
         "rank": 2,
         "tags": [],
-        "title": "2 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "2 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Bazylidesa, Cyryna, Nabora i Nazariusza, Męczenników"
         ],
         "id": "2023-06-12",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 2 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jana z Facundo, Wyznawcy"
+        "title": "Św. Jana z Facundo, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-13",
         "rank": 3,
         "tags": [
-            "Wtorek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 2 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Antoniego z Padwy, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Antoniego z Padwy, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-14",
         "rank": 3,
         "tags": [
-            "\u015aroda po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 2 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Bazylego Wielkiego, Wyznawcy, Biskupa i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Bazylego Wielkiego, Wyznawcy, Biskupa i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Śś. Wita, Modesta i Krescencji, Męczenników"
         ],
         "id": "2023-06-15",
         "rank": 3,
         "tags": [
-            "Czwartek po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 2 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Jolanty, Wdowy"
+        "title": "Bł. Jolanty, Wdowy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-16",
         "rank": 1,
         "tags": [],
-        "title": "Uroczysto\u015b\u0107 Naj\u015bwi\u0119tszego Serca Pana Jezusa"
+        "title": "Uroczystość Najświętszego Serca Pana Jezusa"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-17",
         "rank": 3,
         "tags": [
-            "Sobota po 2 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 2 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Grzegorza Barbarigo, Biskupa i Wyznawcy"
+        "title": "Św. Grzegorza Barbarigo, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-06-18",
         "rank": 2,
         "tags": [],
-        "title": "3 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "3 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Gerwazego i Protazego, Męczenników"
         ],
         "id": "2023-06-19",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Juliany Falconieri, Dziewicy"
+        "title": "Św. Juliany Falconieri, Dziewicy"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Sylweriusza, Papieża i Męczennika"
         ],
         "id": "2023-06-20",
         "rank": 4,
         "tags": [
-            "Wtorek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -1720,74 +2000,81 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-21",
         "rank": 3,
         "tags": [
-            "\u015aroda po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Alojzego Gonzagi, Wyznawcy"
+        "title": "Św. Alojzego Gonzagi, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-22",
         "rank": 3,
         "tags": [
-            "Czwartek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Paulina, Biskupa i Wyznawcy"
+        "title": "Św. Paulina, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-06-23",
         "rank": 2,
         "tags": [
-            "Pi\u0105tek po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wigilia Narodzenia \u015aw. Jana Chrzciciela"
+        "title": "Wigilia Narodzenia Św. Jana Chrzciciela"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-06-24",
         "rank": 1,
         "tags": [
-            "Sobota po 3 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 3 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Narodzenie \u015aw. Jana Chrzciciela"
+        "title": "Narodzenie Św. Jana Chrzciciela"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-06-25",
         "rank": 2,
         "tags": [],
-        "title": "4 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "4 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-26",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015a\u015b. Jana i Paw\u0142a, M\u0119czennik\u00f3w"
+        "title": "Śś. Jana i Pawła, Męczenników"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-06-27",
         "rank": 4,
         "tags": [
-            "Wtorek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -1795,74 +2082,83 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-06-28",
         "rank": 2,
         "tags": [
-            "\u015aroda po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wigilia \u015b\u015b. Aposto\u0142\u00f3w Piotra i Paw\u0142a"
+        "title": "Wigilia śś. Apostołów Piotra i Pawła"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-29",
         "rank": 1,
         "tags": [
-            "Czwartek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015awi\u0119tych Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+        "title": "Świętych Piotra i Pawła, Apostołów"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-06-30",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wspomnienie \u015bw. Paw\u0142a, Aposto\u0142a"
+        "title": "Wspomnienie św. Pawła, Apostoła"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-07-01",
         "rank": 1,
         "tags": [
-            "Sobota po 4 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 4 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Uroczysto\u015b\u0107 Najdro\u017cszej Krwi Pana Naszego Jezusa Chrystusa"
+        "title": "Uroczystość Najdroższej Krwi Pana Naszego Jezusa Chrystusa"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Nawiedzenia N. M. P."
         ],
         "id": "2023-07-02",
         "rank": 2,
         "tags": [],
-        "title": "5 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "5 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-07-03",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Ireneusza, Biskupa i M\u0119czennika"
+        "title": "Św. Ireneusza, Biskupa i Męczennika"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-04",
         "rank": 4,
         "tags": [
-            "Wtorek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -1870,21 +2166,23 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-05",
         "rank": 3,
         "tags": [
-            "\u015aroda po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Antoniego Marii Zaccaria, Wyznawcy"
+        "title": "Św. Antoniego Marii Zaccaria, Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-06",
         "rank": 4,
         "tags": [
-            "Czwartek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -1892,224 +2190,267 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-07",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015a\u015b. Cyryla i Metodego, Biskup\u00f3w i Wyznawc\u00f3w"
+        "title": "Śś. Cyryla i Metodego, Biskupów i Wyznawców"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-08",
         "rank": 3,
         "tags": [
-            "Sobota po 5 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 5 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. El\u017cbiety, Kr\u00f3lowej i Wdowy"
+        "title": "Św. Elżbiety, Królowej i Wdowy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-09",
         "rank": 2,
         "tags": [],
-        "title": "6 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "6 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-07-10",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Siedmiu Braci M\u0119czennik\u00f3w oraz \u015a\u015b. Rufiny i Sekundy, Dziewic i M\u0119czennic"
+        "title": "Siedmiu Braci Męczenników oraz Śś. Rufiny i Sekundy, Dziewic i Męczennic"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Piusa I, Papieża i Męczennika"
         ],
         "id": "2023-07-11",
         "rank": 4,
         "tags": [
-            "Wtorek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Nabora i Feliksa, Męczenników"
         ],
         "id": "2023-07-12",
         "rank": 3,
         "tags": [
-            "\u015aroda po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jana Gwalberta, Opata"
+        "title": "Św. Jana Gwalberta, Opata"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-13",
         "rank": 3,
         "tags": [
-            "Czwartek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015a\u015b. Andrzeja \u015awierada i Benedykta, Wyznawc\u00f3w"
+        "title": "Śś. Andrzeja Świerada i Benedykta, Wyznawców"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-14",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Bonawentury, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Bonawentury, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Henryka, Cesarza i Wyznawcy"
         ],
         "id": "2023-07-15",
         "rank": 3,
         "tags": [
-            "Sobota po 6 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Brunona Bonifacego z Kwerfurtu, Biskupa i M\u0119czennika"
+        "title": "Św. Brunona Bonifacego z Kwerfurtu, Biskupa i Męczennika"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-16",
         "rank": 2,
         "tags": [],
-        "title": "7 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "7 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Aleksego, Wyznawcy"
         ],
         "id": "2023-07-17",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Kamila de Lellis",
+            "Śś. Symforozy i Siedmiu Jej Synów"
         ],
         "id": "2023-07-18",
         "rank": 3,
         "tags": [
-            "Wtorek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Szymona z Lipnicy, Wyznawcy"
+        "title": "Bł. Szymona z Lipnicy, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-19",
         "rank": 3,
         "tags": [
-            "\u015aroda po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Wincentego a Paulo, Wyznawcy"
+        "title": "Św. Wincentego a Paulo, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Hieronima Emiliani, Wyznawcy",
+            "Św. Małgorzaty, Dziewicy i Męczennicy"
         ],
         "id": "2023-07-20",
         "rank": 3,
         "tags": [
-            "Czwartek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Czes\u0142awa, Wyznawcy"
+        "title": "Bł. Czesława, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Praksedy, Dziewicy"
         ],
         "id": "2023-07-21",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Wawrzy\u0144ca z Brindisi, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Wawrzyńca z Brindisi, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-22",
         "rank": 3,
         "tags": [
-            "Sobota po 7 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 7 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Marii Magdaleny, Pokutnicy"
+        "title": "Św. Marii Magdaleny, Pokutnicy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-23",
         "rank": 2,
         "tags": [],
-        "title": "8 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "8 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Krystyny, Dziewicy i Męczennicy"
         ],
         "id": "2023-07-24",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Kingi, Dziewicy"
+        "title": "Św. Kingi, Dziewicy"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Krzysztofa, Męczennika"
         ],
         "id": "2023-07-25",
         "rank": 2,
         "tags": [
-            "Wtorek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jakuba, Aposto\u0142a"
+        "title": "Św. Jakuba, Apostoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-26",
         "rank": 2,
         "tags": [
-            "\u015aroda po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Anny, Matki N. M. P."
+        "title": "Św. Anny, Matki N. M. P."
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Pantaleona, Męczennika"
         ],
         "id": "2023-07-27",
         "rank": 4,
         "tags": [
-            "Czwartek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2117,74 +2458,87 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-07-28",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015a\u015b. Nazariusza i Celsa, M\u0119czennik\u00f3w, Wiktora I, Papie\u017ca i M\u0119czennika, oraz Innocentego I, Papie\u017ca i Wyznawcy"
+        "title": "Śś. Nazariusza i Celsa, Męczenników, Wiktora I, Papieża i Męczennika, oraz Innocentego I, Papieża i Wyznawcy"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Feliksa, Symplicjusza, Faustyna i Beatryczy, Męczenników"
         ],
         "id": "2023-07-29",
         "rank": 3,
         "tags": [
-            "Sobota po 8 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 8 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Marty, Dziewicy"
+        "title": "Św. Marty, Dziewicy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-07-30",
         "rank": 2,
         "tags": [],
-        "title": "9 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "9 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-07-31",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Ignacego Loyoli, Wyznawcy"
+        "title": "Św. Ignacego Loyoli, Wyznawcy"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Siedmiu Braci Machabejskich, Męczenników"
         ],
         "id": "2023-08-01",
         "rank": 4,
         "tags": [
-            "Wtorek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Stefana I, Papieża i Męczennika"
         ],
         "id": "2023-08-02",
         "rank": 3,
         "tags": [
-            "\u015aroda po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Alfonsa Marii Liguori, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Alfonsa Marii Liguori, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-08-03",
         "rank": 4,
         "tags": [
-            "Czwartek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2192,87 +2546,103 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-04",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Dominika, Wyznawcy"
+        "title": "Św. Dominika, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-05",
         "rank": 3,
         "tags": [
-            "Sobota po 9 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 9 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Rocznica Konsekracji N. M. P. \u015anie\u017cnej"
+        "title": "Rocznica Konsekracji N. M. P. Śnieżnej"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-06",
         "rank": 2,
         "tags": [
-            "10 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "10 Niedziela po Zesłaniu Ducha Świętego"
         ],
-        "title": "Przemienienie Pa\u0144skie"
+        "title": "Przemienienie Pańskie"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Donata, Biskupa i Męczennika"
         ],
         "id": "2023-08-07",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Kajetana, Wyznawcy"
+        "title": "Św. Kajetana, Wyznawcy"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Cyriaka, Larga i Szmaragda, Męczenników"
         ],
         "id": "2023-08-08",
         "rank": 3,
         "tags": [
-            "Wtorek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jana Marii Vianney, Wyznawcy"
+        "title": "Św. Jana Marii Vianney, Wyznawcy"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Romana, Męczennika"
         ],
         "id": "2023-08-09",
         "rank": 3,
         "tags": [
-            "\u015aroda po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wigilia \u015bw. Wawrzy\u0144ca, M\u0119czennika"
+        "title": "Wigilia św. Wawrzyńca, Męczennika"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-08-10",
         "rank": 2,
         "tags": [
-            "Czwartek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Wawrzy\u0144ca"
+        "title": "Św. Wawrzyńca"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Tyburcjusza i Zuzanny, Męczenników"
         ],
         "id": "2023-08-11",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2280,74 +2650,85 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-12",
         "rank": 3,
         "tags": [
-            "Sobota po 10 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 10 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Klary, Dziewicy"
+        "title": "Św. Klary, Dziewicy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-08-13",
         "rank": 2,
         "tags": [],
-        "title": "11 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "11 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Euzebiusza, Wyznawcy"
         ],
         "id": "2023-08-14",
         "rank": 2,
         "tags": [
-            "Poniedzia\u0142ek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wigilia Wniebowzi\u0119cia N. M. P."
+        "title": "Wigilia Wniebowzięcia N. M. P."
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-15",
         "rank": 1,
         "tags": [
-            "Wtorek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Wniebowzi\u0119cie N. M. P."
+        "title": "Wniebowzięcie N. M. P."
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-16",
         "rank": 2,
         "tags": [
-            "\u015aroda po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Joachima, Ojca N. M. P."
+        "title": "Św. Joachima, Ojca N. M. P."
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-17",
         "rank": 3,
         "tags": [
-            "Czwartek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jacka, Wyznawcy"
+        "title": "Św. Jacka, Wyznawcy"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Agapita, Męczennika"
         ],
         "id": "2023-08-18",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2355,180 +2736,205 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-19",
         "rank": 3,
         "tags": [
-            "Sobota po 11 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 11 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jana Eudes, Wyznawcy"
+        "title": "Św. Jana Eudes, Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-08-20",
         "rank": 2,
         "tags": [],
-        "title": "12 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "12 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-21",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Joanny Franciszki Fr\u00e9miot de Chantal, Wdowy"
+        "title": "Św. Joanny Franciszki Frémiot de Chantal, Wdowy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Śś. Tymoteusza, Hipolita i Symforiana, Męczenników"
         ],
         "id": "2023-08-22",
         "rank": 2,
         "tags": [
-            "Wtorek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Uroczysto\u015b\u0107 Niepokalanego Serca N. M. P."
+        "title": "Uroczystość Niepokalanego Serca N. M. P."
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-23",
         "rank": 3,
         "tags": [
-            "\u015aroda po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Filipa Benicjusza, Wyznawcy"
+        "title": "Św. Filipa Benicjusza, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-08-24",
         "rank": 2,
         "tags": [
-            "Czwartek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Bart\u0142omieja, Aposto\u0142a"
+        "title": "Św. Bartłomieja, Apostoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-25",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Ludwika, Kr\u00f3la i Wyznawcy"
+        "title": "Św. Ludwika, Króla i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-26",
         "rank": 1,
         "tags": [
-            "Sobota po 12 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 12 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "N. M. P. Jasnog\u00f3rskiej czyli Cz\u0119stochowskiej"
+        "title": "N. M. P. Jasnogórskiej czyli Częstochowskiej"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-08-27",
         "rank": 2,
         "tags": [],
-        "title": "13 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "13 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Hermesa, Męczennika"
         ],
         "id": "2023-08-28",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Augustyna, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Augustyna, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Sabiny, Męczennicy"
         ],
         "id": "2023-08-29",
         "rank": 3,
         "tags": [
-            "Wtorek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aci\u0119cie \u015aw. Jana Chrzciciela"
+        "title": "Ścięcie Św. Jana Chrzciciela"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Feliksa i Adaukta, Męczenników"
         ],
         "id": "2023-08-30",
         "rank": 3,
         "tags": [
-            "\u015aroda po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. R\u00f3\u017cy z Limy, Dziewicy"
+        "title": "Św. Róży z Limy, Dziewicy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-08-31",
         "rank": 3,
         "tags": [
-            "Czwartek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Rajmunda Nonnata, Wyznawcy"
+        "title": "Św. Rajmunda Nonnata, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-01",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Bronis\u0142awy, Dziewicy"
+        "title": "Bł. Bronisławy, Dziewicy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-02",
         "rank": 3,
         "tags": [
-            "Sobota po 13 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 13 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Stefana, Kr\u00f3la i Wyznawcy"
+        "title": "Św. Stefana, Króla i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-03",
         "rank": 2,
         "tags": [],
-        "title": "14 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "14 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-04",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2536,21 +2942,23 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-05",
         "rank": 3,
         "tags": [
-            "Wtorek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Wawrzy\u0144ca Justiniani, Biskupa i Wyznawcy"
+        "title": "Św. Wawrzyńca Justiniani, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-06",
         "rank": 4,
         "tags": [
-            "\u015aroda po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2558,21 +2966,23 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-07",
         "rank": 3,
         "tags": [
-            "Czwartek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Melchiora Grodzieckiego, M\u0119czennika"
+        "title": "Bł. Melchiora Grodzieckiego, Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-08",
         "rank": 2,
         "tags": [
-            "Pi\u0105tek po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Narodzenie N. M. P."
     },
@@ -2580,30 +2990,37 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Gorgoniusza, Męczennika"
+        ],
         "id": "2023-09-09",
         "rank": 4,
         "tags": [
-            "Sobota po 14 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 14 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "5 Msza o N. M. P. \u2013 Salve, Sancta Parens"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-10",
         "rank": 2,
         "tags": [],
-        "title": "15 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "15 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Prota i Jacka, Męczenników"
         ],
         "id": "2023-09-11",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2611,21 +3028,23 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-12",
         "rank": 3,
         "tags": [
-            "Wtorek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Naj\u015bwi\u0119tszego Imienia Maryi"
+        "title": "Najświętszego Imienia Maryi"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-13",
         "rank": 4,
         "tags": [
-            "\u015aroda po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2633,132 +3052,155 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-14",
         "rank": 2,
         "tags": [
-            "Czwartek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Podwy\u017cszenia \u015awi\u0119tego Krzy\u017ca"
+        "title": "Podwyższenia Świętego Krzyża"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-15",
         "rank": 2,
         "tags": [
-            "Pi\u0105tek po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Siedmiu Bole\u015bci N. M. P."
+        "title": "Siedmiu Boleści N. M. P."
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Śś. Eufemii, Łucji i Geminiana, Męczenników"
         ],
         "id": "2023-09-16",
         "rank": 3,
         "tags": [
-            "Sobota po 15 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 15 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Korneliusza, Papie\u017ca i Cypriana, M\u0119czennik\u00f3w"
+        "title": "Św. Korneliusza, Papieża i Cypriana, Męczenników"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-17",
         "rank": 2,
         "tags": [],
-        "title": "16 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "16 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-18",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 16 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. J\u00f3zefa z Kupertynu, Wyznawcy"
+        "title": "Św. Józefa z Kupertynu, Wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-19",
         "rank": 3,
         "tags": [
-            "Wtorek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 16 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Januarego i Towarzyszy, M\u0119czennik\u00f3w"
+        "title": "Św. Januarego i Towarzyszy, Męczenników"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Eustachego i Towarzyszy, Męczenników"
         ],
         "id": "2023-09-20",
         "rank": 2,
         "tags": [],
-        "title": "\u015aroda Suchych Dni Wrze\u015bniowych"
+        "title": "Środa Suchych Dni Wrześniowych"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-21",
         "rank": 2,
         "tags": [
-            "Czwartek po 16 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 16 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Mateusza, Aposto\u0142a i Ewangelisty"
+        "title": "Św. Mateusza, Apostoła i Ewangelisty"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Tomasza z Villanueva, Biskupa i Wyznawcy"
         ],
         "id": "2023-09-22",
         "rank": 2,
         "tags": [],
-        "title": "Pi\u0105tek Suchych Dni Wrze\u015bniowych"
+        "title": "Piątek Suchych Dni Wrześniowych"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [
+            "Św. Linusa, Papieża i Męczennika"
+        ],
         "id": "2023-09-23",
         "rank": 2,
         "tags": [],
-        "title": "Sobota Suchych Dni Wrze\u015bniowych"
+        "title": "Sobota Suchych Dni Wrześniowych"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-09-24",
         "rank": 2,
         "tags": [],
-        "title": "17 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "17 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-25",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. W\u0142adys\u0142awa z Gielniowa, Wyznawcy"
+        "title": "Bł. Władysława z Gielniowa, Wyznawcy"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Cypriana i Justyny, Męczenników"
         ],
         "id": "2023-09-26",
         "rank": 4,
         "tags": [
-            "Wtorek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2766,96 +3208,107 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-27",
         "rank": 3,
         "tags": [
-            "\u015aroda po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Kosmy i Damiana, M\u0119czennik\u00f3w"
+        "title": "Św. Kosmy i Damiana, Męczenników"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-09-28",
         "rank": 3,
         "tags": [
-            "Czwartek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Wac\u0142awa, Ksi\u0119cia i M\u0119czennika"
+        "title": "Św. Wacława, Księcia i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-29",
         "rank": 1,
         "tags": [
-            "Pi\u0105tek po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015awi\u0119tego Micha\u0142a Archanio\u0142a"
+        "title": "Świętego Michała Archanioła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-09-30",
         "rank": 3,
         "tags": [
-            "Sobota po 17 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 17 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Hieronima, Kap\u0142ana, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Hieronima, Kapłana, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-01",
         "rank": 2,
         "tags": [],
-        "title": "18 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "18 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-02",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015awi\u0119tych Anio\u0142\u00f3w Str\u00f3\u017c\u00f3w"
+        "title": "Świętych Aniołów Stróżów"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-03",
         "rank": 3,
         "tags": [
-            "Wtorek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Teresy od Dzieci\u0105tka Jezus, Dziewicy"
+        "title": "Św. Teresy od Dzieciątka Jezus, Dziewicy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-04",
         "rank": 3,
         "tags": [
-            "\u015aroda po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Franciszka, Wyznawcy"
+        "title": "Św. Franciszka, Wyznawcy"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Placyda i Towarzyszy, Męczenników"
         ],
         "id": "2023-10-05",
         "rank": 4,
         "tags": [
-            "Czwartek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2863,74 +3316,88 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-06",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Brunona, Wyznawcy"
+        "title": "Św. Brunona, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Marka I, Papieża i Wyznawcy"
         ],
         "id": "2023-10-07",
         "rank": 2,
         "tags": [
-            "Sobota po 18 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 18 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "N. M. P. R\u00f3\u017ca\u0144cowej"
+        "title": "N. M. P. Różańcowej"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-08",
         "rank": 2,
         "tags": [],
-        "title": "19 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "19 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Jana Leonardi, Wyznawcy",
+            "Śś. Dionizego, Rustyka i Eleuteriusza"
         ],
         "id": "2023-10-09",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Wincentego Kad\u0142ubka, Biskupa i Wyznawcy"
+        "title": "Bł. Wincentego Kadłubka, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Dziękczynienie za zwycięstwo chocimskie z roku 1621"
         ],
         "id": "2023-10-10",
         "rank": 3,
         "tags": [
-            "Wtorek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Franciszka Borgiasza, Wyznawcy"
+        "title": "Św. Franciszka Borgiasza, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-11",
         "rank": 2,
         "tags": [
-            "\u015aroda po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Macierzy\u0144stwa N. M. P."
+        "title": "Macierzyństwa N. M. P."
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-12",
         "rank": 4,
         "tags": [
-            "Czwartek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -2938,138 +3405,156 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-13",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Edwarda, kr\u00f3la i wyznawcy"
+        "title": "Św. Edwarda, króla i wyznawcy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-10-14",
         "rank": 3,
         "tags": [
-            "Sobota po 19 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Kaliksta, papie\u017ca i m\u0119czennika"
+        "title": "Św. Kaliksta, papieża i męczennika"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-15",
         "rank": 2,
         "tags": [],
-        "title": "20 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "20 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-16",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jadwigi, Wdowy"
+        "title": "Św. Jadwigi, Wdowy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-17",
         "rank": 3,
         "tags": [
-            "Wtorek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Ma\u0142gorzaty Marii Alacoque, Dziewicy"
+        "title": "Św. Małgorzaty Marii Alacoque, Dziewicy"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-10-18",
         "rank": 2,
         "tags": [
-            "\u015aroda po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. \u0141ukasza, Ewangelisty"
+        "title": "Św. Łukasza, Ewangelisty"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-19",
         "rank": 3,
         "tags": [
-            "Czwartek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Piotra z Alkantary, Wyznawcy"
+        "title": "Św. Piotra z Alkantary, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-20",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Jana Kantego, Wyznawcy"
+        "title": "Św. Jana Kantego, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Śś. Urszuli i Towarzyszek, Dziewic i Męczennic",
+            "Św. Hilariona, Opata"
         ],
         "id": "2023-10-21",
         "rank": 3,
         "tags": [
-            "Sobota po 20 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "B\u0142. Jakuba Strzemi\u0119, Biskupa i Wyznawcy"
+        "title": "Bł. Jakuba Strzemię, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-22",
         "rank": 2,
         "tags": [],
-        "title": "21 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "21 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-23",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Antoniego Marii Claret, Biskupa i Wyznawcy"
+        "title": "Św. Antoniego Marii Claret, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-24",
         "rank": 3,
         "tags": [
-            "Wtorek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Rafa\u0142a Archanio\u0142a"
+        "title": "Św. Rafała Archanioła"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Śś. Chryzanta i Darii, Męczenników"
         ],
         "id": "2023-10-25",
         "rank": 4,
         "tags": [
-            "\u015aroda po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3077,10 +3562,11 @@
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-26",
         "rank": 4,
         "tags": [
-            "Czwartek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3088,10 +3574,11 @@
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-27",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3099,32 +3586,35 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-10-28",
         "rank": 2,
         "tags": [
-            "Sobota po 21 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 21 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015awi\u0119tych Szymona i Judy Tadeusza, Aposto\u0142ow"
+        "title": "Świętych Szymona i Judy Tadeusza, Apostołow"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-10-29",
         "rank": 1,
         "tags": [
-            "22 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "22 Niedziela po Zesłaniu Ducha Świętego"
         ],
-        "title": "Chrystusa Kr\u00f3la"
+        "title": "Chrystusa Króla"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-30",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3132,10 +3622,11 @@
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-10-31",
         "rank": 4,
         "tags": [
-            "Wtorek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3143,63 +3634,71 @@
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-01",
         "rank": 1,
         "tags": [
-            "\u015aroda po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Uroczysto\u015b\u0107 Wszystkich \u015awi\u0119tych"
+        "title": "Uroczystość Wszystkich Świętych"
     },
     {
         "colors": [
             "b"
         ],
+        "commemorations": [],
         "id": "2023-11-02",
         "rank": 1,
         "tags": [
-            "Czwartek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Dzie\u0144 Zaduszny"
+        "title": "Dzień Zaduszny"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-03",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Śś. Witalisa i Agrykoli, Męczenników"
         ],
         "id": "2023-11-04",
         "rank": 3,
         "tags": [
-            "Sobota po 22 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 22 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Karola Boromeusza, Biskupa i Wyznawcy"
+        "title": "Św. Karola Boromeusza, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-05",
         "rank": 2,
         "tags": [],
-        "title": "23 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "23 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-06",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3207,21 +3706,25 @@
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-07",
         "rank": 4,
         "tags": [
-            "Wtorek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Świętych Czterech Ukoronowanych Męczenników"
         ],
         "id": "2023-11-08",
         "rank": 4,
         "tags": [
-            "\u015aroda po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3229,39 +3732,47 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Teodora, Męczennika"
+        ],
         "id": "2023-11-09",
         "rank": 2,
         "tags": [
-            "Czwartek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Rocznica Konsekracji Bazyliki Naj\u015bwi\u0119tszego Zbawiciela na Lateranie"
+        "title": "Rocznica Konsekracji Bazyliki Najświętszego Zbawiciela na Lateranie"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-10",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Andrzeja z Avellino, Wyznawcy"
+        "title": "Św. Andrzeja z Avellino, Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Mennasa, Męczennika"
         ],
         "id": "2023-11-11",
         "rank": 3,
         "tags": [
-            "Sobota po 23 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 23 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Marcina, Biskupa i Wyznawcy"
+        "title": "Św. Marcina, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-12",
         "rank": 2,
         "tags": [],
@@ -3271,72 +3782,83 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Dydaka, Wyznawcy"
+        ],
         "id": "2023-11-13",
         "rank": 2,
         "tags": [
-            "Poniedzia\u0142ek po 5 Niedzieli po Objawieniu"
+            "Poniedziałek po 5 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Stanis\u0142awa Kostki, Wyznawcy"
+        "title": "Św. Stanisława Kostki, Wyznawcy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-14",
         "rank": 3,
         "tags": [
             "Wtorek po 5 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Jozafata, Biskupa i M\u0119czennika"
+        "title": "Św. Jozafata, Biskupa i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-15",
         "rank": 3,
         "tags": [
-            "\u015aroda po 5 Niedzieli po Objawieniu"
+            "Środa po 5 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Alberta Wielkiego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Alberta Wielkiego, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-16",
         "rank": 3,
         "tags": [
             "Czwartek po 5 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Gertrudy, Dziewicy"
+        "title": "Św. Gertrudy, Dziewicy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Grzegorza Cudotwórcy, Biskupa i Wyznawcy"
         ],
         "id": "2023-11-17",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 5 Niedzieli po Objawieniu"
+            "Piątek po 5 Niedzieli po Objawieniu"
         ],
-        "title": "B\u0142. Salomei, Dziewicy"
+        "title": "Bł. Salomei, Dziewicy"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-18",
         "rank": 3,
         "tags": [
             "Sobota po 5 Niedzieli po Objawieniu"
         ],
-        "title": "Rocznica Konsekracji Bazylik \u015awi\u0119tych Aposto\u0142\u00f3w Piotra i Paw\u0142a, Aposto\u0142\u00f3w"
+        "title": "Rocznica Konsekracji Bazylik Świętych Apostołów Piotra i Pawła, Apostołów"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-19",
         "rank": 2,
         "tags": [],
@@ -3346,17 +3868,21 @@
         "colors": [
             "r"
         ],
+        "commemorations": [
+            "Św. Feliksa Walezego, Wyznawcy"
+        ],
         "id": "2023-11-20",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 6 Niedzieli po Objawieniu"
+            "Poniedziałek po 6 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Marcina I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Marcina I, Papieża i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-21",
         "rank": 3,
         "tags": [
@@ -3368,63 +3894,71 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-11-22",
         "rank": 3,
         "tags": [
-            "\u015aroda po 6 Niedzieli po Objawieniu"
+            "Środa po 6 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Cecylii, Dziewicy i M\u0119czennicy"
+        "title": "Św. Cecylii, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Św. Felicyty, Męczennicy"
         ],
         "id": "2023-11-23",
         "rank": 3,
         "tags": [
             "Czwartek po 6 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Klemensa I, Papie\u017ca i M\u0119czennika"
+        "title": "Św. Klemensa I, Papieża i Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-11-24",
         "rank": 3,
         "tags": [
-            "Pi\u0105tek po 6 Niedzieli po Objawieniu"
+            "Piątek po 6 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Jana od Krzy\u017ca, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Jana od Krzyża, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-11-25",
         "rank": 3,
         "tags": [
             "Sobota po 6 Niedzieli po Objawieniu"
         ],
-        "title": "\u015aw. Katarzyny, Dziewicy i M\u0119czennicy"
+        "title": "Św. Katarzyny, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-26",
         "rank": 2,
         "tags": [],
-        "title": "24 Niedziela po Zes\u0142aniu Ducha \u015awi\u0119tego"
+        "title": "24 Niedziela po Zesłaniu Ducha Świętego"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-27",
         "rank": 4,
         "tags": [
-            "Poniedzia\u0142ek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Poniedziałek po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3432,21 +3966,25 @@
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-11-28",
         "rank": 4,
         "tags": [
-            "Wtorek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Wtorek po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
     {
         "colors": [
             "g"
+        ],
+        "commemorations": [
+            "Św. Saturnina, Męczennika"
         ],
         "id": "2023-11-29",
         "rank": 4,
         "tags": [
-            "\u015aroda po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Środa po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3454,21 +3992,23 @@
         "colors": [
             "r"
         ],
+        "commemorations": [],
         "id": "2023-11-30",
         "rank": 2,
         "tags": [
-            "Czwartek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Czwartek po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Andrzeja, Aposto\u0142a"
+        "title": "Św. Andrzeja, Apostoła"
     },
     {
         "colors": [
             "g"
         ],
+        "commemorations": [],
         "id": "2023-12-01",
         "rank": 4,
         "tags": [
-            "Pi\u0105tek po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Piątek po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
         "title": "Feria"
     },
@@ -3476,17 +4016,21 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Św. Bibiany, Dziewicy i Męczennicy"
+        ],
         "id": "2023-12-02",
         "rank": 3,
         "tags": [
-            "Sobota po 24 Niedzieli po Zes\u0142aniu Ducha \u015awi\u0119tego"
+            "Sobota po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "\u015aw. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-03",
         "rank": 1,
         "tags": [],
@@ -3496,16 +4040,22 @@
         "colors": [
             "r"
         ],
+        "commemorations": [
+            "Poniedziałek po 1 Niedzieli Adwentu"
+        ],
         "id": "2023-12-04",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 1 Niedzieli Adwentu"
+            "Poniedziałek po 1 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Barbary, Dziewicy i M\u0119czennicy"
+        "title": "Św. Barbary, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "v"
+        ],
+        "commemorations": [
+            "Św. Saby, Opata"
         ],
         "id": "2023-12-05",
         "rank": 3,
@@ -3516,39 +4066,47 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Środa po 1 Niedzieli Adwentu"
+        ],
         "id": "2023-12-06",
         "rank": 3,
         "tags": [
-            "\u015aroda po 1 Niedzieli Adwentu"
+            "Środa po 1 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Miko\u0142aja, Biskupa i Wyznawcy"
+        "title": "Św. Mikołaja, Biskupa i Wyznawcy"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Czwartek po 1 Niedzieli Adwentu"
         ],
         "id": "2023-12-07",
         "rank": 3,
         "tags": [
             "Czwartek po 1 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Ambro\u017cego, Biskupa, Wyznawcy i Doktora Ko\u015bcio\u0142a"
+        "title": "Św. Ambrożego, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-12-08",
         "rank": 1,
         "tags": [
-            "Pi\u0105tek po 1 Niedzieli Adwentu"
+            "Piątek po 1 Niedzieli Adwentu"
         ],
-        "title": "Niepokalane Pocz\u0119cie N. M. P."
+        "title": "Niepokalane Poczęcie N. M. P."
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-09",
         "rank": 3,
         "tags": [],
@@ -3558,6 +4116,7 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-10",
         "rank": 1,
         "tags": [],
@@ -3567,17 +4126,21 @@
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Poniedziałek po 2 Niedzieli Adwentu"
+        ],
         "id": "2023-12-11",
         "rank": 3,
         "tags": [
-            "Poniedzia\u0142ek po 2 Niedzieli Adwentu"
+            "Poniedziałek po 2 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Damazego, Papie\u017ca i Wyznawcy"
+        "title": "Św. Damazego, Papieża i Wyznawcy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-12",
         "rank": 3,
         "tags": [],
@@ -3587,17 +4150,21 @@
         "colors": [
             "r"
         ],
+        "commemorations": [
+            "Środa po 2 Niedzieli Adwentu"
+        ],
         "id": "2023-12-13",
         "rank": 3,
         "tags": [
-            "\u015aroda po 2 Niedzieli Adwentu"
+            "Środa po 2 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. \u0141ucji, Dziewicy i M\u0119czennicy"
+        "title": "Św. Łucji, Dziewicy i Męczennicy"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-14",
         "rank": 3,
         "tags": [],
@@ -3607,27 +4174,32 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-15",
         "rank": 3,
         "tags": [],
-        "title": "Pi\u0105tek po 2 Niedzieli Adwentu"
+        "title": "Piątek po 2 Niedzieli Adwentu"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Sobota po 2 Niedzieli Adwentu"
         ],
         "id": "2023-12-16",
         "rank": 3,
         "tags": [
             "Sobota po 2 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Euzebiusza, Biskupa i M\u0119czennika"
+        "title": "Św. Euzebiusza, Biskupa i Męczennika"
     },
     {
         "colors": [
             "p",
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-17",
         "rank": 1,
         "tags": [],
@@ -3637,15 +4209,17 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-18",
         "rank": 2,
         "tags": [],
-        "title": "Poniedzia\u0142ek po 3 Niedzieli Adwentu"
+        "title": "Poniedziałek po 3 Niedzieli Adwentu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-19",
         "rank": 2,
         "tags": [],
@@ -3655,35 +4229,41 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-20",
         "rank": 2,
         "tags": [],
-        "title": "\u015aroda Suchych Dni Adwentu"
+        "title": "Środa Suchych Dni Adwentu"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Czwartek po 3 Niedzieli Adwentu"
         ],
         "id": "2023-12-21",
         "rank": 2,
         "tags": [
             "Czwartek po 3 Niedzieli Adwentu"
         ],
-        "title": "\u015aw. Tomasza, Aposto\u0142a"
+        "title": "Św. Tomasza, Apostoła"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-22",
         "rank": 2,
         "tags": [],
-        "title": "Pi\u0105tek Suchych Dni Adwentu"
+        "title": "Piątek Suchych Dni Adwentu"
     },
     {
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-23",
         "rank": 2,
         "tags": [],
@@ -3693,72 +4273,88 @@
         "colors": [
             "v"
         ],
+        "commemorations": [],
         "id": "2023-12-24",
         "rank": 1,
         "tags": [],
-        "title": "Wigilia Bo\u017cego Narodzenia"
+        "title": "Wigilia Bożego Narodzenia"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-12-25",
         "rank": 1,
         "tags": [],
-        "title": "Bo\u017ce Narodzenie"
+        "title": "Boże Narodzenie"
     },
     {
         "colors": [
             "r"
+        ],
+        "commemorations": [
+            "Oktawa Bożego Narodzenia"
         ],
         "id": "2023-12-26",
         "rank": 2,
         "tags": [],
-        "title": "\u015aw. Szczepana, Pierwszego M\u0119czennika"
+        "title": "Św. Szczepana, Pierwszego Męczennika"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [
+            "Oktawa Bożego Narodzenia"
+        ],
         "id": "2023-12-27",
         "rank": 2,
         "tags": [],
-        "title": "\u015aw. Jana, Aposto\u0142a i Ewangelisty"
+        "title": "Św. Jana, Apostoła i Ewangelisty"
     },
     {
         "colors": [
             "r"
         ],
+        "commemorations": [
+            "Oktawa Bożego Narodzenia"
+        ],
         "id": "2023-12-28",
         "rank": 2,
         "tags": [],
-        "title": "\u015awi\u0119tych M\u0142odziank\u00f3w"
+        "title": "Świętych Młodzianków"
     },
     {
         "colors": [
             "w"
+        ],
+        "commemorations": [
+            "Św. Tomasza z Canterbury, Biskupa i Męczennika"
         ],
         "id": "2023-12-29",
         "rank": 2,
         "tags": [],
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-12-30",
         "rank": 2,
         "tags": [],
-        "title": "Dzie\u0144 w Oktawie Bo\u017cego Narodzenia"
+        "title": "Dzień w Oktawie Bożego Narodzenia"
     },
     {
         "colors": [
             "w"
         ],
+        "commemorations": [],
         "id": "2023-12-31",
         "rank": 2,
         "tags": [],
-        "title": "Niedziela w Oktawie Bo\u017cego Narodzenia"
+        "title": "Niedziela w Oktawie Bożego Narodzenia"
     }
 ]

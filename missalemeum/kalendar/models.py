@@ -190,6 +190,9 @@ class Day:
         if self.celebration:
             return self.celebration[0].title
 
+    def get_commemorations_names(self) -> List[str]:
+        return [i.title for i in self.commemoration]
+
     def get_celebration_colors(self) -> Union[None, List[str]]:
         if self.celebration:
             return self.celebration[0].colors
