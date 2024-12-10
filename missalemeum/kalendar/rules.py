@@ -129,17 +129,18 @@ def rule_lent_commemoration(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     lent_observance = match_first(observances, PATTERN_LENT)
     if lent_observance:
-        sancti = match_first(observances, [PATTERN_SANCTI])
+        sancti = sorted(match_all(observances, [PATTERN_SANCTI]), key=lambda x: x.rank)
         if not sancti:
             return [lent_observance], [], []
-        if lent_observance.rank == sancti.rank:
-            if sancti.rank == 1:
+        sancti_ranks = [i.rank for i in sancti]
+        min_sancti_rank = min(sancti_ranks)
+        if lent_observance.rank == min_sancti_rank:
+            if min_sancti_rank == 1:
                 # will be shifted to a different day by the other rule
                 return
-            return [lent_observance, sancti], [sancti, lent_observance], []
-        if lent_observance.rank > sancti.rank:
-            return [sancti], [lent_observance], []
-
+            return [lent_observance] + sancti, sancti + [lent_observance], []
+        if lent_observance.rank > min_sancti_rank:
+            return sancti[:1], sancti[1:] + [lent_observance], []
 
 def rule_shift_conflicting_1st_class_feasts(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):

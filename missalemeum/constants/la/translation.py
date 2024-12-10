@@ -1,7 +1,7 @@
 import re
 
 from constants import common as constants
-
+from constants.common import TRANSFORMATIONS_COMMON
 
 TITLES = {
     constants.FERIA: 'Feria',
@@ -659,6 +659,7 @@ TITLES = {
     constants.SANCTI_10_08C: 'Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus',
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
     constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
+    constants.SANCTI_10_09C: 'Ss. Dionysii Ep., Rustici et Eleutherii, Mm',
     constants.SANCTI_10_10: 'S. Francisci Borgiæ Confessoris',
     constants.SANCTI_10_10PL: 'Victoriae Chocimensis',
     constants.SANCTI_10_11: 'Maternitatis Beatæ Mariæ Virginis',
@@ -671,6 +672,7 @@ TITLES = {
     constants.SANCTI_10_19: 'S. Petri de Alcantara Confessoris',
     constants.SANCTI_10_20: 'S. Joannis Cantii Confessoris',
     constants.SANCTI_10_21: 'S. Hilarionis Abbatis',
+    constants.SANCTI_10_21C: 'Ss. Ursulæ et Sociarum',
     constants.SANCTI_10_21PL: 'B. Jacobi Episcopi et Confessoris',
     constants.SANCTI_10_23: 'S. Antonii Mariæ Claret Episcopi Confessoris',
     constants.SANCTI_10_24: 'S. Raphælis Archangeli',
@@ -730,10 +732,15 @@ TITLES = {
     constants.SANCTI_12_25_2: 'In Nativitatis Domini in aurora',
     constants.SANCTI_12_25_3: 'In die Nativitatis Domini',
     constants.SANCTI_12_26: 'S. Stephani Protomartyris',
+    constants.SANCTI_12_26C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_27: 'S. Joannis Apostoli et Evangelistæ',
+    constants.SANCTI_12_27C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_28: 'Ss. Innocentium',
+    constants.SANCTI_12_28C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_29: 'S. Thomæ M.',
+    constants.SANCTI_12_29C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_31: 'S. Silvestri',
+    constants.SANCTI_12_31C: 'Pro Octava Nativitatis',
     constants.VOTIVE_ANGELS: 'Missa de Angelis',
     constants.VOTIVE_JOSEPH: 'Missa de S. Ioseph',
     constants.VOTIVE_PETERPAUL: 'Missa de Ss. Petro et Paulo App.',
@@ -843,24 +850,7 @@ PATERNOSTER = \
     "Sed libera nos a malo. Amen."
 
 
-TRANSFORMATIONS = (
-        (re.compile(r'\+\+'), '☩'),
-        (re.compile(r'\+'), '☩'),
-        (re.compile(r'V\.'), '℣.'),
-        (re.compile(r'R\.'), '℟.'),
-        (re.compile(r'^#'), '##'),
-        (re.compile(r'^!x!'), '!'),
-        (re.compile(r'^!! *(.*)'), '### \\1'),
-        (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
-        (re.compile(r'^! *(.*)'), '*\\1*'),
-        (re.compile(r'^v\. *'), ''),
-        (re.compile(r'^_'), ''),
-        (re.compile(r'\(\('), '('),
-        (re.compile(r'\)\)'), ')'),
-        (re.compile(r'\['), '('),
-        (re.compile(r'\]'), ')'),
-        (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
-        (re.compile(r'^.*`.*$'), ''),
+TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
         (re.compile(r'^[&$]Gloria\.*'), 'Glória Patri…'),
         (re.compile(r'^\$Oremus\.*'), 'Oremus.'),
         (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Per Dominum…'),
@@ -871,11 +861,8 @@ TRANSFORMATIONS = (
         (re.compile(r'^\$Qui vivis\.*'), 'Qui vivis…'),
         (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Deo gratias.'),
         (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Dóminus vobíscum.    \n\r℟. Et cum spíritu tuo.'),
-        (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
         (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
-        (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-        (re.compile(r'\(deinde dicuntur semper\)'), ''),
-    )
+]
 
 COMMEMORATIONS = {
     constants.COMMEMORATION: "Commemoratio",
