@@ -185,9 +185,9 @@ class Proper(ParsedSource):
         for i, commemoration in enumerate(commemorations):
             if commemoration.rules.ignore:
                 continue
-            self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
             if commemoration.description:
-                self.description += f"\n\n{commemoration.description}"
+                self.description += (f"\n{self.commemorations_names_translations[COMMEMORATION]} "
+                                     f"{commemoration.title}.\n\n{commemoration.description}")
             for source_section_name, target_section_name, add_comm_title in (
                     (ORATIO, COMMEMORATED_ORATIO, True),
                     (SECRETA, COMMEMORATED_SECRETA, True),

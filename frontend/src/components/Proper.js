@@ -14,7 +14,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ListItemText from "@mui/material/ListItemText";
 import SkeletonSidenav from "./SkeletonSidenav";
-import {RANK_NAMES, SEARCH_SUGGESTIONS_PROPER} from "../intl";
+import {RANK_NAMES, SEARCH_SUGGESTIONS_PROPER, COMMEMORATION} from "../intl";
 
 registerLocale("pl", pl)
 const dateFormat = 'YYYY-MM-DD'
@@ -74,20 +74,11 @@ const Sidenav = (props) => {
     scrollToListItem(props.internalId)
   })
 
-  const formatDateAndTempora = (dateParsed, tags) => {
-    let bits = []
+  const formatDate = (dateParsed) => {
     if (props.lang === "pl") {
-      if (tags.length > 0) {
-        bits.push(dateParsed.format("DD MMMM,"))
-        bits.push(tags[0][0].toLowerCase() + tags[0].substring(1))
-      } else {
-        bits.push(dateParsed.format("DD MMMM, dddd"))
-      }
-      return bits.join(" ")
-    } else {
-      bits = [dateParsed.format("dd, DD MMM"), ...tags]
-      return bits.join(" / ")
+      return dateParsed.format("dd DD.MM")
     }
+    return dateParsed.format("dd DD.MM")
   }
 
   if (props.items === null) {
@@ -163,7 +154,9 @@ const Sidenav = (props) => {
                 <SidenavListItemText
                   rank={indexItem.rank}
                   primary={indexItem.title}
-                  secondary={`${RANK_NAMES[props.lang][indexItem.rank]}, ${formatDateAndTempora(dateParsed, indexItem.tags)}`}
+                  secondary={`${formatDate(dateParsed)} / 
+                  ${RANK_NAMES[props.lang][indexItem.rank]}
+                  ${indexItem.commemorations.length > 0 ? " / " + COMMEMORATION[props.lang] + " " + indexItem.commemorations.join(", ") : ""}`}
                 />
               </ListItemButton>
             </SidenavListItem>

@@ -10,8 +10,8 @@ import rehypeRaw from "rehype-raw";
 export default function MdPrintable(props) {
 	let text = (props.markdownNewlines) ? props.text : props.text.replace(/\\n/g, '\n').replace(/\n/g, '  \n')
 	let baseComponents = {
-		"h3": (props) => <Typography variant="h3">{props.children[0]}</Typography>,
 		"h4": (props) => <Typography variant="h4">{props.children[0]}</Typography>,
+		"h5": (props) => <Typography variant="h5">{props.children[0]}</Typography>,
 		"a": (props) => props.children[0]
 	}
 	let extraComponents = props.extraComponents || {}
