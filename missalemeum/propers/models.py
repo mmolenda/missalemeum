@@ -60,8 +60,6 @@ class ParsedSource:
     Internally it keeps the data in a dict of sections where each key is a section's ID and the value
     is a `Section` object keeping actual content of the section.
     """
-    _container: dict = None
-
     def __init__(self) -> None:
         self._container = {}
         self.rules: Union[Rules, None] = None
@@ -151,11 +149,6 @@ class Proper(ParsedSource):
     """
     Class representing a Proper for given observance.
     """
-    title: str = None
-    description: str = None
-    rank: int = None
-    tags: List[str] = []
-    supplements = []
     commemorations_names_translations = {
         COMMEMORATION: None,
         COMMEMORATED_ORATIO: None,
@@ -165,6 +158,12 @@ class Proper(ParsedSource):
 
     def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
         super(Proper, self).__init__()
+        self.title: str = None
+        self.description: str = None
+        self.rank: int = None
+        self.tags: List[str] = []
+        self.supplements = []
+        self.commemorations_titles = []
         self.id = id_
         self.lang = lang
         try:
@@ -183,6 +182,7 @@ class Proper(ParsedSource):
 
     def add_commemorations(self, commemorations: List['Proper']):
         for i, commemoration in enumerate(commemorations):
+            self.commemorations_titles.append(commemoration.title)
             if commemoration.rules.ignore:
                 continue
             if commemoration.description:
@@ -215,14 +215,10 @@ class Proper(ParsedSource):
 
 
 class Section:
-    id: str = None
-    label: str = None
-    body: List[str] = None
-
     def __init__(self, id_: str, body: list=None, label: str=None) -> None:
-        self.id = id_
-        self.body = body if body is not None else []
-        self.label = label if label is not None else id_
+        self.id: str = id_
+        self.body: List[str] = body if body is not None else []
+        self.label: str = label if label is not None else id_
 
     def get_body(self) -> List[str]:
         return self.body
@@ -271,11 +267,6 @@ class ProperConfig:
     """
     This class is used to override certain aspects of the proper existing in the proper's source file
     """
-    preface = None
-    inter_readings_section = None
-    strip_alleluia = False
-    strip_tract = False
-
     def __init__(self, preface: str = None,
                  inter_readings_section: str = None,
                  strip_alleluia: bool = False,
