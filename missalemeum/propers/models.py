@@ -263,17 +263,17 @@ class Section:
         return f'Section<{self.label}>'
 
 
+@dataclasses.dataclass
 class ProperConfig:
     """
     This class is used to override certain aspects of the proper existing in the proper's source file
     """
-    def __init__(self, preface: str = None,
-                 inter_readings_section: str = None,
-                 strip_alleluia: bool = False,
-                 strip_tract: bool = False):
-        # inter_readings_section == None - show all sections defined in the source
-        assert inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
-        self.preface = preface
-        self.inter_readings_section = inter_readings_section
-        self.strip_alleluia = strip_alleluia
-        self.strip_tract = strip_tract
+    title_id: str = None
+    preface: str = None
+    inter_readings_section: str = None
+    strip_alleluia: bool = False
+    strip_tract: bool = False
+
+    def __post_init__(self):
+        assert self.inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
+

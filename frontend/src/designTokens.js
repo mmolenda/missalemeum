@@ -128,7 +128,7 @@ export const getDesignTokens = (mode, fontSizeName) => ({
           fontFamily: "Merriweather",
           fontWeight: 800,
           color: grey[700],
-          lineHeight: 2
+          lineHeight: 2.2
         },
         h4: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
@@ -167,7 +167,7 @@ export const getDesignTokens = (mode, fontSizeName) => ({
           fontFamily: "Merriweather",
           fontWeight: 800,
           color: grey[400],
-          lineHeight: 2
+          lineHeight: 2.2
         },
         h4: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
