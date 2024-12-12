@@ -154,7 +154,7 @@ def test_ignored_sections(date_, sections):
 @pytest.mark.parametrize("date_,title_part,preface_body", [
     ((2018, 10, 28), 'Chrystusa Króla', '*de D.N. Jesu Christi Rege*'),
     ((2018, 12, 16), '3 Niedziela Adwentu', '*de sanctissima Trinitate*'),
-    ((2018, 12, 17), '3 Niedziela Adwentu', '*Communis*'),
+    ((2018, 12, 17), 'Poniedziałek po 3 Niedzieli Adwentu', '*Communis*'),
     ((2019, 6, 24), 'Narodzenie Św. Jana Chrzciciela', '*Communis*'),
     ((2019, 4, 27), 'Sobota Biała', '*Paschalis*'),
     ((2019, 4, 30), 'Katarzyny Sieneńskiej', '*Paschalis*'),
@@ -282,7 +282,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                     "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua, Dómine, larga", "Cœléstibus refécti sacraméntis"),
     # S. Francisci Xaverii Confessoris, commemoration of Advent day
     ((2019, 12, 3), "Deus, qui Indiárum", "Præsta nobis, quǽsumus", "Quǽsumus, omnípotens Deus:",
-                    "Dominica I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
+                    "Feria III infra Hebd I Adventus", "Excita, quǽsumus, Dómine", "Hæc sacra nos, Dómine", "Suscipiámus, Dómine, misericórdiam"),
     # In Conceptione Immaculata Beatæ Mariæ Virginis, commemoration of the Sunday
     ((2019, 12, 8), "Deus, qui per immaculátam Vírginis", "Salutárem hóstiam, quam", "Sacraménta quæ súmpsimus",
                     "Dominica II Adventus", "Excita, Dómine, corda nostra", "Placáre, quǽsumus, Dómine", "Repléti cibo spirituális alimóniæ"),

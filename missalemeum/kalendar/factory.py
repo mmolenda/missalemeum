@@ -17,9 +17,10 @@ class MissalFactory:
     MissalFactory instantiates `kalendar.models.Calendar` and fills it in with `kalendar.models.Day`
     objects for given year.
     """
-    calendar: Calendar = None
-    lang: str = None
-    blocks = None
+    def __init__(self):
+        self.lang: str = None
+        self.blocks = None
+        self.calendar: Calendar = None
 
     def create(self, year: int, lang: str = LANGUAGE_ENGLISH) -> Calendar:
         self.lang = lang

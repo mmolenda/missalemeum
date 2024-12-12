@@ -60,8 +60,6 @@ class ParsedSource:
     Internally it keeps the data in a dict of sections where each key is a section's ID and the value
     is a `Section` object keeping actual content of the section.
     """
-    _container: dict = None
-
     def __init__(self) -> None:
         self._container = {}
         self.rules: Union[Rules, None] = None
@@ -151,11 +149,6 @@ class Proper(ParsedSource):
     """
     Class representing a Proper for given observance.
     """
-    title: str = None
-    description: str = None
-    rank: int = None
-    tags: List[str] = []
-    supplements = []
     commemorations_names_translations = {
         COMMEMORATION: None,
         COMMEMORATED_ORATIO: None,
@@ -165,6 +158,12 @@ class Proper(ParsedSource):
 
     def __init__(self, id_: str, lang: str, parsed_source: ParsedSource = None) -> None:
         super(Proper, self).__init__()
+        self.title: str = None
+        self.description: str = None
+        self.rank: int = None
+        self.tags: List[str] = []
+        self.supplements = []
+        self.commemorations_titles = []
         self.id = id_
         self.lang = lang
         try:
@@ -183,11 +182,12 @@ class Proper(ParsedSource):
 
     def add_commemorations(self, commemorations: List['Proper']):
         for i, commemoration in enumerate(commemorations):
+            self.commemorations_titles.append(commemoration.title)
             if commemoration.rules.ignore:
                 continue
-            self.description += f"\n{self.commemorations_names_translations[COMMEMORATION]} {commemoration.title}."
             if commemoration.description:
-                self.description += f"\n\n{commemoration.description}"
+                self.description += (f"\n{self.commemorations_names_translations[COMMEMORATION]} "
+                                     f"{commemoration.title}.\n\n{commemoration.description}")
             for source_section_name, target_section_name, add_comm_title in (
                     (ORATIO, COMMEMORATED_ORATIO, True),
                     (SECRETA, COMMEMORATED_SECRETA, True),
@@ -215,14 +215,10 @@ class Proper(ParsedSource):
 
 
 class Section:
-    id: str = None
-    label: str = None
-    body: List[str] = None
-
     def __init__(self, id_: str, body: list=None, label: str=None) -> None:
-        self.id = id_
-        self.body = body if body is not None else []
-        self.label = label if label is not None else id_
+        self.id: str = id_
+        self.body: List[str] = body if body is not None else []
+        self.label: str = label if label is not None else id_
 
     def get_body(self) -> List[str]:
         return self.body
@@ -267,22 +263,17 @@ class Section:
         return f'Section<{self.label}>'
 
 
+@dataclasses.dataclass
 class ProperConfig:
     """
     This class is used to override certain aspects of the proper existing in the proper's source file
     """
-    preface = None
-    inter_readings_section = None
-    strip_alleluia = False
-    strip_tract = False
+    title_id: str = None
+    preface: str = None
+    inter_readings_section: str = None
+    strip_alleluia: bool = False
+    strip_tract: bool = False
 
-    def __init__(self, preface: str = None,
-                 inter_readings_section: str = None,
-                 strip_alleluia: bool = False,
-                 strip_tract: bool = False):
-        # inter_readings_section == None - show all sections defined in the source
-        assert inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
-        self.preface = preface
-        self.inter_readings_section = inter_readings_section
-        self.strip_alleluia = strip_alleluia
-        self.strip_tract = strip_tract
+    def __post_init__(self):
+        assert self.inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
+

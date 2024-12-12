@@ -51,9 +51,6 @@ class Observance:
         which is third feria day (Wednesday) in second week after Epiphany, vestment color is green
       'sancti:11-19:4:w' - means a fixed day of fourth class falling on 19 Nov, color is white
     """
-
-    lang = None
-
     def __init__(self, observance_id: str, date_: date, lang: str):
         """ Build an Observance out of identifier and calendar date
 
@@ -158,17 +155,12 @@ class Day:
     given variable day, `celebration` contains an `Observance`s to be celebrated in this day and
     `commemoration` contains zero or more `Observance`s that should be commemorated with the main celebration.
     """
-    calendar: 'Calendar' = None
-    tempora: List['Observance'] = None
-    celebration: List['Observance'] = None
-    commemoration: List['Observance'] = None
-
     def __init__(self, date_: date, calendar: 'Calendar') -> None:
         self.date = date_
-        self.calendar = calendar
-        self.tempora = []
-        self.celebration = []
-        self.commemoration = []
+        self.calendar: 'Calendar' = calendar
+        self.tempora: List['Observance'] = []
+        self.celebration: List['Observance'] = []
+        self.commemoration: List['Observance'] = []
 
     @property
     def all(self) -> List['Observance']:
@@ -190,8 +182,8 @@ class Day:
         if self.celebration:
             return self.celebration[0].title
 
-    def get_commemorations_names(self) -> List[str]:
-        return [i.title for i in self.commemoration]
+    def get_commemorations_titles(self) -> List[str]:
+        return [i.title for i in self.commemoration if i.id != self.get_celebration_id()]
 
     def get_celebration_colors(self) -> Union[None, List[str]]:
         if self.celebration:
@@ -245,7 +237,9 @@ class Day:
                 rank: int = 4
                 preface: str = get_custom_preface(inferred_observances)
             preface = preface if preface is not None else PREFATIO_COMMUNIS
-            config: ProperConfig = ProperConfig(preface=preface, strip_alleluia=True, strip_tract=True)
+            title_id = observances[0].id if observances else None
+            config: ProperConfig = ProperConfig(title_id=title_id, preface=preface,
+                                                strip_alleluia=True, strip_tract=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
                 proper.rank = rank
@@ -318,9 +312,6 @@ class Calendar:
       ...
     }
     """
-    lang = None
-    _container = None
-
     def __init__(self, year: int, lang: str) -> None:
         """ Build a calendar and fill it in with empty `Day` objects
         """

@@ -46,7 +46,7 @@ export default function ReleaseNotes(props) {
         >
           <CloseIcon />
         </IconButton>
-        <DialogTitle id="alert-dialog-title">{(props.lang === "pl") ? "Missale Meum 5.4.0" : "Missale Meum 5.4.0"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">{(props.lang === "pl") ? "Missale Meum 5.10 (grudzień 2024)" : "Missale Meum 5.10 (December 2024)"}</DialogTitle>
         <DialogContent>
           {(props.lang === "en")
             ? <DialogContentText id="alert-dialog-description">
@@ -54,9 +54,7 @@ export default function ReleaseNotes(props) {
             We are happy to announce the next release of the online missal.<br/><br />
 
             <strong>What's new</strong><br />
-            - You can now adjust the font size in the application! Take a look at the bottom of the main menu.<br/>
-            - Missale Meum widget with daily propers that can be embedded on your website as an iframe. More details on <MyLink href="/en/supplement/index" text="Supplement" /> page.<br/>
-            - We have fixed several errors and typos reported by the users.<br/><br/>
+            - Commemorations are now displayed in the calendar.<br/><br/>
 
             More details can be found on the project's <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="GitHub page" />.<br />
             Any comments on the operation of the website, suggestions, etc. are welcome at marcin@missalemeum.com.
@@ -66,9 +64,7 @@ export default function ReleaseNotes(props) {
             Prezentujemy Państwu kolejne wydanie mszalika online.<br/><br />
 
             <strong>Co nowego</strong><br />
-            - Rozmiar tekstu w aplikacji można dostosować za pomocą przełącznika w głównym menu.<br/>
-            - Widget Missale Meum z tekstami na dziś, który można umieścić na własnej stronie internetowej jako iframe. Więcej szczegółów w zakładce <MyLink href="/pl/supplement/index" text="Suplement" />.<br/>
-            - Poprawiliśmy kilka błędów i literówek zgłoszonych przez użytkowników.<br/><br/>
+            - Wspomnienia są widoczne w kalendarzu i bezpośrednio pod nagłówkiem na stronie propriów.<br/><br/>
 
             Po więcej szczegółów odsyłamy do <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="strony projektu na GitHubie" />.<br />
             Wszelkie uwagi na temat działania serwisu, sugestie, etc. są mile widziane pod adresem marcin@missalemeum.com.

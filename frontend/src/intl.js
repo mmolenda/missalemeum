@@ -2,8 +2,9 @@ export const SEARCH_PLACEHOLDER = {"en": "Search", "pl": "Szukaj"}
 export const IN = {"en": "in", "pl": "w"}
 export const RANK_NAMES = {
 	"en": [null, "1st class", "2nd class", "3rd class", "4th class"],
-	"pl": [null, "1 klasy", "2 klasy", "3 klasy", "4 klasy"]
+	"pl": [null, "1 kl.", "2 kl.", "3 kl.", "4 kl."]
 }
+export const COMMEMORATION = {"en": "Commemoration", "pl": "Wsp."}
 export const VESTMENTS_RED = {"en": "Red vestments", "pl": "Szaty czerwone"}
 export const VESTMENTS_GREEN = {"en": "Green vestments", "pl": "Szaty zielone"}
 export const VESTMENTS_WHITE = {"en": "White vestments", "pl": "Szaty białe"}

@@ -18,7 +18,7 @@ import 'moment/locale/pl';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import {
-  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED
+  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, COMMEMORATION
 } from "../intl";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
@@ -175,6 +175,7 @@ const Article = (props) => {
               {content.info.title}
             </Typography>
           }
+          { content.info.commemorations.length > 0 && <Typography variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography> }
           <Box sx={{ padding: "0.5rem" }}>
             <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
@@ -253,7 +254,7 @@ const BilingualSection = (props) => {
         gridTemplateColumns: isSmallScreen ? "unset" : "repeat(2, 1fr)"
       }}>
         <Typography
-          variant="h3"
+          variant="h4"
           className={xVernacular}
           sx={{
             display: (showHeading(xVernacular)) ? "block" : "none",
@@ -264,7 +265,7 @@ const BilingualSection = (props) => {
           {props.titleVernacular}
         </Typography>
         <Typography
-          variant="h3"
+          variant="h4"
           className={xLatin}
           sx={{
             display: (showHeading(xLatin)) ? "block" : "none",
