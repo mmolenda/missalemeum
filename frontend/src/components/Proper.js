@@ -156,7 +156,7 @@ const Sidenav = (props) => {
                   primary={indexItem.title}
                   secondary={`${formatDate(dateParsed)} / 
                   ${RANK_NAMES[props.lang][indexItem.rank]}
-                  ${indexItem.commemorations.length > 0 ? " / " + COMMEMORATION[props.lang] + " " + indexItem.commemorations.join(", ") : ""}`}
+                  ${(indexItem.commemorations && indexItem.commemorations.length > 0) ? " / " + COMMEMORATION[props.lang] + " " + indexItem.commemorations.join(", ") : ""}`}
                 />
               </ListItemButton>
             </SidenavListItem>
