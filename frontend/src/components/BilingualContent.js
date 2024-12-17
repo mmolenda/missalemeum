@@ -175,7 +175,7 @@ const Article = (props) => {
               {content.info.title}
             </Typography>
           }
-          { content.info.commemorations.length > 0 && <Typography variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography> }
+          { content.info.commemorations && content.info.commemorations.length > 0 && <Typography variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography> }
           <Box sx={{ padding: "0.5rem" }}>
             <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
