@@ -291,7 +291,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                      "Commemoratio Sabbato", "Deus, qui cónspicis, quia", "Sacrifíciis præséntibus, quǽsumus", "Quǽsumus, Dómine, Deus"),
     # Double commemoration
     ((2023, 1, 19), "Omnípotens sempitérne Deus", "Oblata, Dómine, múnera", "Augeátur in nobis",
-                    "S. Marii et Soc. Mart.", "Exáudi, Dómine, pópulum tuum", "S. Canuto Rege Mart.", "S. Marii et Soc. Mart."),
+                    "S. Marii et Soc. Mart.", "Exáudi, Dómine, pópulum tuum", "S. Canuto Regi Mart.", "S. Marii et Soc. Mart."),
 ])
 def test_calculated_commemorations(date_, collect_contains,secreta_contains,postcommunio_contains,
                                    comm_collect_sub, comm_collect_contains, comm_secreta_contains,
