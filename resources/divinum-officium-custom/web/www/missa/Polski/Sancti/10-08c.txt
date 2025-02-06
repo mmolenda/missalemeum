@@ -1,2 +1,15 @@
-[Rule]
-ignore
+[Comment]
+Sergiusz i Bachus zajmowali stanowiska przełożonych gwardii cesarskiej. Przyjaźń cesarska zamieniła się w gniew i prześladowanie, gdy cesarz Maksymin dowiedział się, że Sergiusz i Bachus są chrześcijanami.
+Marceli i Apulejusz, początkowo uczniowie Szymona Maga, nawróciwszy się przypieczętowali również krwią swą przynależność do Chrystusa.
+
+[Oratio]
+Niech nas wspierają, Panie, błogosławione zasługi świętych Twoich Męczenników Sergiusza, Bachusa, Marcelego i Apuliusza i niech nas zapalają Twoją miłością.
+$Per Dominum
+
+[Secreta]
+Prosimy Cię, Panie, aby ta hostia, którą składamy w ofierze, za wstawiennictwem Twoich Świętych przebłagała Twój majestat.
+$Per Dominum
+
+[Postcommunio]
+Przyjęte Sakramenty niech nas uzbroją, Panie, a pomoc z nieba niech nas wesprze za przyczyną świętych Twoich Męczenników Sergiusza, Bachusa, Marcelego i Apuliusza przeciw wszelkim grożącym nam niebezpieczeństwom.
+$Per Dominum

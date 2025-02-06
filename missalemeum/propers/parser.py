@@ -100,6 +100,7 @@ class ProperParser:
             except ProperNotFound:
                 parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
+        parsed_source = self._resolve_conditionals(parsed_source)
         parsed_source.rules = parsed_source.parse_rules()
         # Reference in Rule section in 'vide' or 'ex' clause - load all sections
         # from the referenced file and get sections that are not explicitly defined in the current proper.
@@ -119,7 +120,6 @@ class ProperParser:
                 parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
 
         parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
-        parsed_source = self._resolve_conditionals(parsed_source)
         parsed_source = self._strip_newlines(parsed_source)
         return parsed_source
 
@@ -254,6 +254,7 @@ class ProperParser:
         #
         #
         name, modifier = re.findall(SECTION_REGEX, ln)[0]
+        name = name.strip()
         if "sed non rubrica 196" in modifier:
             return f"{name} {modifier}"
         if not modifier or "(" not in modifier or "rubrica 196" in modifier:
@@ -367,7 +368,7 @@ class ProperParser:
                     # stop skipping lines from now on
                     omit = False
                     continue
-                if 'communi Summorum Pontificum' in ln:
+                if 'communi summorum pontificum' in ln.lower() or '(sed rubrica 195 aut rubrica 196)' in ln.lower():
                     # From this line on we want only what follows this line, and possibly the header
                     first_line = new_content[0] if new_content and new_content[0].startswith("*") else None
                     if first_line:

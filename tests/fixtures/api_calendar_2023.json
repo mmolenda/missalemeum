@@ -1372,7 +1372,7 @@
         "tags": [
             "Sobota po 2 Niedzieli po Wielkanocy"
         ],
-        "title": "Piotra z Werony, Męczenika"
+        "title": "Św. Piotra z Werony, Męczenika"
     },
     {
         "colors": [
@@ -1688,7 +1688,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Eleuteriusza, Papieża i Męczennika"
+        ],
         "id": "2023-05-26",
         "rank": 3,
         "tags": [
@@ -2580,7 +2582,7 @@
     },
     {
         "colors": [
-            "r"
+            "w"
         ],
         "commemorations": [
             "Śś. Cyriaka, Larga i Szmaragda, Męczenników"
@@ -2964,7 +2966,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Hadriana, Męczennika"
+        ],
         "id": "2023-09-08",
         "rank": 2,
         "tags": [
@@ -3050,7 +3054,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Nikomedesa, Męczennika"
+        ],
         "id": "2023-09-15",
         "rank": 2,
         "tags": [
@@ -3732,7 +3738,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Śś. Tryfona, Respicjusza i Nimfy, Męczenników"
+        ],
         "id": "2023-11-10",
         "rank": 3,
         "tags": [
@@ -3906,7 +3914,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Chryzogona, Męczennika"
+        ],
         "id": "2023-11-24",
         "rank": 3,
         "tags": [
