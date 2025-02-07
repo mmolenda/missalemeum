@@ -10,6 +10,7 @@ PROPERS_DIR = os.path.join(RESOURCES_DIR, 'propers')
 ORDO_DIR = os.path.join(RESOURCES_DIR, 'ordo')
 SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
 
+SATURDAY = 5
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
 LANGUAGE_ENGLISH = 'en'

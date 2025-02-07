@@ -25615,6 +25615,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoration III Sunday after Pentecost*\nO God, protector of all who hope in You, without Whom nothing is strong, noth",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Lesson from the Acts of Apostles\n*Acts 12:1-11*\nIn those days, Herod the king set hands on certain members of the Church",
       "id": "Lectio"
     },
@@ -25635,6 +25639,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoration III Sunday after Pentecost*\nLook favorably, O Lord, upon the offerings of Your prayerful Church and grant",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*of Apostles*\nIt is truly meet and just, right and for our salvation, to entreat Thee humbly, O Lord, that Thou wouldst ",
       "id": "Prefatio"
     },
@@ -25645,6 +25653,10 @@
     {
       "body": "O Lord, by the intercession of Your Apostles, defend from all harm those whom You have filled with heavenly food.\nThroug",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoration III Sunday after Pentecost*\nMay the holy things of which we have partaken bring us to life and prepare fo",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-06-30": [
@@ -27533,11 +27545,11 @@
   ],
   "2025-08-09": [
     {
-      "body": "*Ps 111:9*\nLavishly he gives to the poor; his generosity shall endure forever; his horn shall be exalted in glory.\n*Ps 1",
+      "body": "Hail, holy Mother, who in childbirth brought forth the King Who rules heaven and earth world without end.\n*Ps 44:2*\nMy h",
       "id": "Introitus"
     },
     {
-      "body": "Heed our prayers, O Lord, and by the intercession of Your blessed Martyr Lawrence, whose feast we anticipate, graciously",
+      "body": "Grant us, Your servants, O Lord God, we beseech You, to enjoy lasting health of mind and body; and by the intercession o",
       "id": "Oratio"
     },
     {
@@ -27545,23 +27557,23 @@
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Lesson from the book of Ecclesiasticus\n*Ecclus 51:1-8, 12*\nI will give You thanks, O Lord, O King; I will praise You, O ",
+      "body": "Lesson from the book of Ecclesiasticus\n*Ecclus 24:14-16*\nBefore all ages, in the beginning, He created me, and through a",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 111:9, 2*\nLavishly he gives to the poor; his generosity shall endure forever.\n℣. His posterity shall be mighty upon ",
+      "body": "Blessed and venerable are you, O Virgin Mary, who, with unsullied virginity, were found to be the Mother of the Saviour.",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 16:24-27*\nAt that time, Jesus said to His disciples, If any",
+      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 11:27-28*\nAt that time, as Jesus was speaking to the multitude",
       "id": "Evangelium"
     },
     {
-      "body": "*Job 16:20*\nMy prayer is pure, and therefore I ask that a place may be given to my voice in heaven; for there is my judg",
+      "body": "*Lk 1:28; 1:42*\nHail, Mary, full of grace, the Lord is with you. Blessed are you among women and blessed is the fruit of",
       "id": "Offertorium"
     },
     {
-      "body": "As thou hast received our gifts and prayers, O Lord, cleanse us, we ask by thy heavenly mysteries, and graciously hear u",
+      "body": "Through Your mercy, O Lord, and by the intercession of blessed Mary, ever Virgin, the Mother of Your only-begotten Son, ",
       "id": "Secreta"
     },
     {
@@ -27569,15 +27581,15 @@
       "id": "Commemoratio Secreta"
     },
     {
-      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
+      "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places,",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 16:24*\nHe who wishes to come after Me, let him deny himself, and take up his cross, and follow Me.",
+      "body": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father.",
       "id": "Communio"
     },
     {
-      "body": "Grant, we beseech You, O Lord, our God, that as we joyfully commemorate St. Lawrence, Your Martyr, in this life, so may ",
+      "body": "Having received the aids conducive to our salvation, O Lord, we beseech You, grant that we may everywhere be protected b",
       "id": "Postcommunio"
     },
     {
@@ -29237,56 +29249,44 @@
   ],
   "2025-09-14": [
     {
-      "body": "*Ps 83:10-11*\nBehold, O God, our Protector, and look upon the face of Your Anointed. Better is one day in Your courts th",
+      "body": "*Gal 6:14*\nBut it behooves us to glory in the Cross of our Lord Jesus Christ: in Whom is our salvation, life, and resurr",
       "id": "Introitus"
     },
     {
-      "body": "Protect Your Church by Your abiding mercy, we beseech You, O Lord, and since all mortals fall without You, may Your help",
+      "body": "O God, Who gladden us this day by the yearly feast of the Exaltation of the Holy Cross, grant, we beseech You, that we w",
       "id": "Oratio"
     },
     {
-      "body": "*Commemoration Exaltation of the Holy Cross*\nO God, Who gladden us this day by the yearly feast of the Exaltation of the",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Lesson from the letter of St. Paul the Apostle to the Galatians\n*Gal 5:16-24*\nBrethren: Walk in the Spirit, and you will",
+      "body": "Lesson from the letter of St. Paul the Apostle to the Philippians\n*Phil 2:5-11*\nBrethren: Have this mind in you which wa",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 117:8-9*\nIt is better to take refuge in the Lord than to trust in man.\n℣. It is better to take refuge in the Lord th",
+      "body": "*Phil 2:8-9*\nChrist became obedient for us to death, even to death on a cross.\n℣. Therefore God also has exalted Him, an",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 6:24-33*\nAt that time, Jesus said to His disciples: No man ",
+      "body": "Continuation ☩ of the Holy Gospel according to John\n*John 12:31-36*\nAt that time, Jesus said to the multitudes of the Je",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 33:8-9*\nThe Angel of the Lord encamps around those who fear Him, and delivers them. Taste and see how good the Lord ",
+      "body": "Through the sign of the Holy Cross protect Your people, O Lord, from the snares of all their enemies, that we may pay Yo",
       "id": "Offertorium"
     },
     {
-      "body": "Grant us, Lord, we beseech You, that this salutary sacrifice may be not only a cleansing from our sins but also a propit",
+      "body": "We who are about to take as nourishment the Body and Blood of Jesus Christ our Lord, through Whom the Cross became a hol",
       "id": "Secreta"
     },
     {
-      "body": "*Commemoration Exaltation of the Holy Cross*\nWe who are about to take as nourishment the Body and Blood of Jesus Christ ",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*Holy Trinity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
+      "body": "*Holy Cross*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, giv",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 6:33*\nSeek first the Kingdom of God; and all things shall be given you besides, says the Lord.",
+      "body": "Through the sign of the Cross, deliver us from our enemies, O our God.",
       "id": "Communio"
     },
     {
-      "body": "May Your sacrament, O God, ever cleanse and strengthen us, and bring us to everlasting salvation.\nThrough our Lord…",
+      "body": "Stand by us, O Lord our God, and protect by Your everlasting help those to whom You have given strength through Your sac",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Commemoration Exaltation of the Holy Cross*\nStand by us, O Lord our God, and protect by Your everlasting help those to ",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-09-15": [
@@ -31893,56 +31893,44 @@
   ],
   "2025-11-09": [
     {
-      "body": "*Ps 129:3-4*\nIf You, O Lord, mark iniquities, Lord, who can stand? But with You is forgiveness, O God of Israel.\n*Ps 129",
+      "body": "*Gen. 28:17*\nHow awesome is this place! This is none other than the house of God; this is the gate of heaven; and it sha",
       "id": "Introitus"
     },
     {
-      "body": "O God, our refuge and our strength, the very source of holiness, heed the devout prayers of Your Church, and grant that ",
+      "body": "*Prayer on the anniversary of the dedication:*\nO God, Who for us bring each year the recurrence of the consecration day ",
       "id": "Oratio"
     },
     {
-      "body": "*Commemoration Dedication of the Archbasilica of Our Holy Savior*\n*Prayer on the anniversary of the dedication:*\nO God, ",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Lesson from the letter of St. Paul the Apostle to the Philippians\n*Phil 1:6-11*\nBrethren: We are confident in the Lord J",
+      "body": "Lesson from the book of Revelation\n*Rev 21:2-5*\nIn those days, I saw the holy city, New Jerusalem, coming down out of he",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 132:1-2*\nBehold how good it is, and how pleasant where brethren dwell as one!\n℣. It is as when the precious ointment",
+      "body": "This place was made by God, a priceless mystery; it is without reproof.\n℣. O God, before Whom stands the choir of angels",
       "id": "Graduale"
     },
     {
-      "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 22:15-21*\nAt that time, the Pharisees went and took counsel",
+      "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 19:1-10*\nAt that time, Jesus entered and was passing through J",
       "id": "Evangelium"
     },
     {
-      "body": "*Esther 14:12-13*\nRemember me, O Lord, You Who rule above all power: and give a well-ordered speech in my mouth, that my",
+      "body": "*1 Par 29:17-18*\nO Lord God, in the simplicity of my heart I have joyfully offered all these things; and I have seen wit",
       "id": "Offertorium"
     },
     {
-      "body": "Grant, O merciful God, that this saving sacrifice may always free us from sin, and protect us from all that works agains",
+      "body": "Look with favor upon our prayers, we beseech You, O Lord, that as we offer our prayers before You, we may, with Your hel",
       "id": "Secreta"
     },
     {
-      "body": "*Commemoration Dedication of the Archbasilica of Our Holy Savior*\nLook with favor upon our prayers, we beseech You, O Lo",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*Holy Trinity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
+      "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
       "id": "Prefatio"
     },
     {
-      "body": "*Ps 16:6*\nI call upon You, for You will answer me, O God; incline Your ear to me; hear my word.",
+      "body": "*Matt 21:13*\nMy house shall be called a house of prayer, says the Lord; in it everyone who asks receives: and he who see",
       "id": "Communio"
     },
     {
-      "body": "We who have received the gift of Your blessed sacrament, O Lord, humbly pray that what You have taught us to do in comme",
+      "body": "*On the day of dedication*\nWe beseech You, almighty God, that in this place which we, all unworthy, have dedicated to Yo",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Commemoration Dedication of the Archbasilica of Our Holy Savior*\n*On the day of dedication*\nWe beseech You, almighty Go",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-11-10": [

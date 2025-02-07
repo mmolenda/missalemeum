@@ -19629,7 +19629,7 @@
       "id": "Introitus"
     },
     {
-      "body": "Deus qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue quǽsumus; ut eius interventióne, tua circa nos píetas",
+      "body": "Deus qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue quǽsumus; ut eius interventióne, tua circa nos píe",
       "id": "Oratio"
     },
     {
@@ -25651,6 +25651,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Commemoratio Dominica III Post Pentecosten§*\nProtéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctu",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Léctio Actuum Apostolórum\n*Act 12:1-11*\nIn diébus illis: Misit Heródes rex manus, ut afflígeret quosdam de ecclésia. Occ",
       "id": "Lectio"
     },
@@ -25671,6 +25675,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Commemoratio Dominica III Post Pentecosten§*\nRéspice, Dómine, múnera supplicántis Ecclésiæ: et salúti credéntium perpét",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*de Apostolis*\nVere dignum et justum est, æquum et salutáre: Te, Dómine, supplíciter exoráre, ut gregem tuum, Pastor æté",
       "id": "Prefatio"
     },
@@ -25681,6 +25689,10 @@
     {
       "body": "Quos cœlésti, Dómine, aliménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi.\nPer Dominum…",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Commemoratio Dominica III Post Pentecosten§*\nSancta tua nos, Dómine, sumpta vivíficent: et misericórdiæ sempitérnæ prǽp",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-06-30": [
@@ -27581,11 +27593,11 @@
   ],
   "2025-08-09": [
     {
-      "body": "*Ps 111:9*\nDispérsit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi: cornu ejus exaltábitur in glória.\n*Ps 111",
+      "body": "*Sedulius*\nSalve, sancta parens, eníxa puérpera Regem: qui cælum terrámque regit in sǽcula sæculórum.\n*Ps 44:2*\nEructávi",
       "id": "Introitus"
     },
     {
-      "body": "Adésto, Dómine, supplicatiónibus nostris: et intercessióne beáti Lauréntii Mártyris tui, cujus prævénimus festivitátem; ",
+      "body": "Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et, gloriósa beátæ Maríæ ",
       "id": "Oratio"
     },
     {
@@ -27593,23 +27605,23 @@
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Léctio libri Sapiéntiæ\n*Eccli 51:1-8; 51:12*\nConfitébor tibi, Dómine, Rex, et collaudábo te Deum, Salvatórem meum. Confi",
+      "body": "Léctio libri Sapiéntiæ\n*Eccli 24:14-16*\nAb inítio et ante sǽcula creáta sum, et usque ad futúrum sǽculum non désinam, et",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 111:9; 111:2*\nDispersit, dedit paupéribus: justítia ejus manet in sǽculum sǽculi.\n℣. Potens in terra erit semen ejus",
+      "body": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris.\n℣. Virgo, Dei Génetrix, qu",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:24-27*\nIn illo témpore: Dixit Jesus discípulis suis: Si quis vul",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 11:27-28*\nIn illo témpore: Loquénte Jesu ad turbas, extóllens vocem quæ",
       "id": "Evangelium"
     },
     {
-      "body": "*Job 16:20*\nOrátio mea munda est: et ídeo peto, ut detur locus voci meæ in cœlo: quia ibi est judex meus, et cónscius me",
+      "body": "*Luc 1:28 1:42*\nAve, María, grátia plena; Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.",
       "id": "Offertorium"
     },
     {
-      "body": "Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi.\nPer ",
+      "body": "Tua, Dómine, propitiatióne, et beátæ Maríæ semper Vírginis intercessióne, ad perpétuam atque præséntem hæc oblátio nobis",
       "id": "Secreta"
     },
     {
@@ -27617,15 +27629,15 @@
       "id": "Commemoratio Secreta"
     },
     {
-      "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
+      "body": "*de Beata Maria Virgine*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine s",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 16:24*\nQui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et sequátur me.",
+      "body": "Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.",
       "id": "Communio"
     },
     {
-      "body": "Da, quǽsumus, Dómine, Deus noster: ut, sicut beáti Lauréntii Mártyris tui commemoratióne, temporáli gratulámur offício; ",
+      "body": "Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in ",
       "id": "Postcommunio"
     },
     {
@@ -29261,56 +29273,44 @@
   ],
   "2025-09-14": [
     {
-      "body": "*Ps 83:10-11*\nProtéctor noster, áspice, Deus, et réspice in fáciem Christi tui: quia mélior est dies una in átriis tuis ",
+      "body": "*Gal 6:14*\nNos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra:",
       "id": "Introitus"
     },
     {
-      "body": "Custódi, Dómine, quǽsumus, Ecclésiam tuam propitiatióne perpétua: et quia sine te lábitur humána mortálitas; tuis semper",
+      "body": "Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystériu",
       "id": "Oratio"
     },
     {
-      "body": "*Commemoratio In Exaltatione Sanctæ crucis*\nDeus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte læt",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas.\n*Gal 5:16-24*\nFratres: Spíritu ambuláte, et desidéria carnis non perfic",
+      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n*Philipp 2:5-11*\nFratres: Hoc enim sentíte in vobis, quod et in Chr",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 117:8-9*\nBonum est confidére in Dómino, quam confidére in hómine.\n℣. Bonum est speráre in Dómino, quam speráre in pr",
+      "body": "*Phil 2:8-9*\nChristus factus est pro nobis obœ́diens usque ad mortem, mortem autem crucis.\n℣. Propter quod et Deus exalt",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 6:24-33*\nIn illo témpore: Dixit Jesus discípulis suis: Nemo potest ",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joann 12:31-36*\nIn illo témpore: Dixit Jesus turbis Judæórum: Nunc judíci",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 33:8-9*\nImmíttet Angelus Dómini in circúitu timéntium eum, et erípiet eos: gustáte et vidéte, quóniam suávis est Dóm",
+      "body": "Prótege, Dómine, plebem tuam per signum sanctæ Crucis ab ómnibus insídiis inimicórum ómnium: ut tibi gratam exhibeámus s",
       "id": "Offertorium"
     },
     {
-      "body": "Concéde nobis, Dómine, quǽsumus, ut hæc hóstia salutáris et nostrórum fiat purgátio delictórum, et tuæ propitiátio potes",
+      "body": "Jesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per quem Crucis est sanctificátum vexíllum: quǽsumus, Dómine",
       "id": "Secreta"
     },
     {
-      "body": "*Commemoratio In Exaltatione Sanctæ crucis*\nJesu Christi, Dómini nostri, Córpore et Sánguine saginándi, per quem Crucis ",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
+      "body": "*de Sancta Cruce*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, ",
       "id": "Prefatio"
     },
     {
-      "body": "*Matt 6:33*\nPrimum quǽrite regnum Dei, et ómnia adjiciéntur vobis, dicit Dóminus.",
+      "body": "Per signum Crucis de inimícis nostris líbera nos, Deus noster.",
       "id": "Communio"
     },
     {
-      "body": "Puríficent semper et múniant tua sacraménta nos, Deus: et ad perpétuæ ducant salvatiónis efféctum.\nPer Dominum…",
+      "body": "Adésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári facis honóre, ejus quoque perpétuis defénde subsídiis.\n",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Commemoratio In Exaltatione Sanctæ crucis*\nAdésto nobis, Dómine, Deus noster: et, quos sanctæ Crucis lætári facis honór",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-09-15": [
@@ -31929,56 +31929,44 @@
   ],
   "2025-11-09": [
     {
-      "body": "*Ps 129:3-4*\nSi iniquitátes observáveris, Dómine: Dómine, quis sustinébit? quia apud te propitiátio est, Deus Israël.\n*P",
+      "body": "*Gen 28:17*\nTerríbilis est locus iste: hic domus Dei est et porta cœli: et vocábitur aula Dei. (Allelúja, allelúja.)\n*Ps",
       "id": "Introitus"
     },
     {
-      "body": "Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter",
+      "body": "Deus, qui nobis per síngulos annos hujus sancti templi tui consecratiónis réparas diem, et sacris semper mystériis repæs",
       "id": "Oratio"
     },
     {
-      "body": "*Commemoratio In Dedicatione Basilicæ Ss. Salvatoris*\nDeus, qui nobis per síngulos annos hujus sancti templi tui consecr",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses\n*Phil 1:6-11*\nFratres: Confídimus in Dómino Jesu, quia, qui cœpit i",
+      "body": "Léctio libri Apocalýpsis beáti Joánnis Apóstoli\n*Apoc 21:2-5*\nIn diébus illis: Vidi sanctam civitátem Jerúsalem novam de",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 132:1-2*\nEcce, quam bonum et quam jucúndum, habitáre fratres in unum!\n℣. Sicut unguéntum in cápite, quod descéndit i",
+      "body": "Locus iste a Deo factus est, inæstimábile sacraméntum, irreprehensíbilis est.\n℣. Deus, cui astat Angelórum chorus, exáud",
       "id": "Graduale"
     },
     {
-      "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 22:15-21*\nIn illo témpore: Abeúntes pharisǽi consílium iniérunt, ut",
+      "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 19:1-10*\nIn illo témpore: Ingréssus Jesus perambulábat Jéricho. Et ecce",
       "id": "Evangelium"
     },
     {
-      "body": "*Esth 14:12; 14:13*\nRecordáre mei, Dómine, omni potentátui dóminans: et da sermónem rectum in os meum, ut pláceant verba",
+      "body": "*1 Par 29:17-18*\nDómine Deus, in simplicitáte cordis mei lætus óbtuli univérsa; et pópulum tuum, qui repértus est, vidi ",
       "id": "Offertorium"
     },
     {
-      "body": "Da, miséricors Deus: ut hæc salutáris oblátio et a própriis nos reátibus indesinénter expédiat, et ab ómnibus tueátur ad",
+      "body": "Annue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præséntia réddimus, ad ætérna præmia, te adjuvánte, pervenír",
       "id": "Secreta"
     },
     {
-      "body": "*Commemoratio In Dedicatione Basilicæ Ss. Salvatoris*\nAnnue, quǽsumus, Dómine, précibus nostris: ut, dum hæc vota præsén",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
+      "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
       "id": "Prefatio"
     },
     {
-      "body": "*Ps 16:6*\nEgo clamávi, quóniam exaudísti me, Deus: inclína aurem tuam et exáudi verba mea.",
+      "body": "*Matt 21:13*\nDomus mea domus oratiónis vocábitur, dicit Dóminus: in ea omnis, qui petit, áccipit; et qui quærit, invénit",
       "id": "Communio"
     },
     {
-      "body": "Súmpsimus, Dómine, sacri dona mystérii, humíliter deprecántes: ut, quæ in tui commemoratiónem nos fácere præcepísti, in ",
+      "body": "Deus, qui de vivis et electis lapídibus ætérnum majestáti tuæ prǽparas habitáculum: auxiliáre pópulo tuo supplicánti; ut",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Commemoratio In Dedicatione Basilicæ Ss. Salvatoris*\nDeus, qui de vivis et electis lapídibus ætérnum majestáti tuæ prǽp",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-11-10": [
