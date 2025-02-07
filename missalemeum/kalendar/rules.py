@@ -34,7 +34,8 @@ from constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPO
                               TEMPORA_QUAD6_6, TEMPORA_QUADP3_3,
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
                               PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
-                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, TEMPORA_QUAD5_5, TEMPORA_QUAD5_5C)
+                              PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, TEMPORA_QUAD5_5, TEMPORA_QUAD5_5C, SANCTI_06_29,
+                              SANCTI_08_09, SATURDAY, SANCTI_08_09C, SANCTI_09_14, SANCTI_11_09, PATTERN_CLASS_2)
 from kalendar.models import Calendar, Observance
 from utils import match_first, match_all
 
@@ -42,7 +43,7 @@ from utils import match_first, match_all
 def rule_nativity_vigil(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # Nativity Vigil takes place of 4th Advent Sunday.
-    if match_first(observances, SANCTI_12_24) and date_.weekday() == 6:
+    if match_first(observances, SANCTI_12_24) and date_.weekday() == SUNDAY:
         return [match_first(observances, SANCTI_12_24)], [], []
 
 
@@ -58,7 +59,7 @@ def rule_all_souls(
     # All Souls Day; if not Sunday - Nov 2, else Nov 3; additionally it has three masses
     if match_first(observances, SANCTI_11_02_1):
         all_souls = [ld for ld in observances if ld.id.startswith('sancti:11-02m')]
-        if date_.weekday() == 6:
+        if date_.weekday() == SUNDAY:
             return [match_first(observances, PATTERN_TEMPORA_SUNDAY)], [], [[date(date_.year, 11, 3), all_souls]]
         return all_souls, [], []
 
@@ -75,6 +76,15 @@ def rule_feb27(
     # Feb 27, normally on Feb 27 but in leap year on Feb 28
     if match_first(observances, SANCTI_02_27) and isleap(date_.year) and date_.day == 27:
         return [match_first(observances, PATTERN_TEMPORA)], [], [[date(date_.year, 2, 28), [match_first(observances, SANCTI_02_27)]]]
+
+
+def rule_st_lawrence_vigil(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # When the feast of st. Lawrence (August 10) falls on Sunday, the Sunday takes over, so there is no vigil on August 9
+    if match_first(observances, SANCTI_08_09):
+        if date_.weekday() == SATURDAY:
+            return [Observance(TEMPORA_C_10T, date_, lang)], [match_first(observances, SANCTI_08_09C)], []
+        return [match_first(observances, SANCTI_08_09)], [match_first(observances, SANCTI_08_09C)], []
 
 
 def rule_seven_sorrows_on_friday_after_passion_sunday(
@@ -105,7 +115,7 @@ def rule_bmv_office_on_saturday(
 
         return TEMPORA_C_10T  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
-    if date_.weekday() == 5:
+    if date_.weekday() == SATURDAY:
         ranks = set([i.rank for i in observances])
         if len(ranks) == 0 or (len(ranks) == 1 and ranks.pop() == 4):
             bmv_office = Observance(_calc_proper_for_given_period(), date_, lang)
@@ -187,7 +197,7 @@ def rule_first_class_feast_with_sunday_commemoration(
     # In case of some 1st class feasts the Sunday is commemorated, e.g. St. Michael the Archangel on Sunday 2019-09-29
     # TODO: investigate if this should be a more general rule. Perhaps only Lord's feasts of 1/2 class cancel
     # TODO: commemorations of Sundays
-    if match_first(observances, [SANCTI_09_29, SANCTI_04_23PL]) and match_first(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2):
+    if match_first(observances, [SANCTI_09_29, SANCTI_04_23PL, SANCTI_06_29]) and match_first(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2):
         return [match_first(observances, PATTERN_CLASS_1)], [match_first(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], []
 
 
@@ -195,6 +205,13 @@ def rule_first_class_feast_no_commemoration(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     if match_first(observances, PATTERN_CLASS_1):
         return [match_first(sorted(observances, key=lambda x: x.priority), PATTERN_CLASS_1)], [], []
+
+
+def second_class_feast_no_sunday_commemoration(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # Some selected 2nd class feasts take over 2nd class sunday, with no commemoration
+    if match_first(observances, [SANCTI_09_14, SANCTI_11_09]) and date_.weekday() == SUNDAY:
+        return [match_first(observances, PATTERN_SANCTI_CLASS_2)], [], []
 
 
 def rule_2nd_class_sunday(
@@ -268,6 +285,7 @@ rules = (
     rule_all_souls,
     rule_st_matthias,
     rule_feb27,
+    rule_st_lawrence_vigil,
     rule_seven_sorrows_on_friday_after_passion_sunday,
     rule_same_class_feasts_take_over_advent_feria_and_ember_days,
     rule_lent_commemoration,
@@ -276,6 +294,7 @@ rules = (
     rule_lord_feast2,
     rule_first_class_feast_with_sunday_commemoration,
     rule_first_class_feast_no_commemoration,
+    second_class_feast_no_sunday_commemoration,
     rule_2nd_class_sunday,
     rule_1st_class_feria,
     rule_bmv_office_on_saturday,

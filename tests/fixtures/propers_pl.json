@@ -25651,6 +25651,10 @@
       "id": "Oratio"
     },
     {
+      "body": "*Wspomnienie 3 Niedziela po Zesłaniu Ducha Świętego*\nObrońco ufających w Tobie, Boże, bez którego nic mocnym, nic święty",
+      "id": "Commemoratio Oratio"
+    },
+    {
       "body": "Czytanie z Dziejów Apostolskich.\n*Dz 12:1-11*\nW one dni: Król Herod postanowił wszcząć prześladowanie przeciw niektórym ",
       "id": "Lectio"
     },
@@ -25671,6 +25675,10 @@
       "id": "Secreta"
     },
     {
+      "body": "*Wspomnienie 3 Niedziela po Zesłaniu Ducha Świętego*\nWejrzyj Panie na błagania i ofiary Kościoła Twego, nieustannie je u",
+      "id": "Commemoratio Secreta"
+    },
+    {
       "body": "*Prefacja o Apostołach*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne błagać Cię pokornie, Panie, Pasterzu wieku",
       "id": "Prefatio"
     },
@@ -25681,6 +25689,10 @@
     {
       "body": "Panie, za przyczyną świętych Apostołów strzeż od wszelkich przeciwności tych, których posiliłeś niebieskim pokarmem.\nPrz",
       "id": "Postcommunio"
+    },
+    {
+      "body": "*Wspomnienie 3 Niedziela po Zesłaniu Ducha Świętego*\nNiechaj nas ożywi spożycie Tych darów świętych, i oczyszczonych nie",
+      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-06-30": [
@@ -27581,11 +27593,11 @@
   ],
   "2025-08-09": [
     {
-      "body": "*Ps 111:9*\nRozdziela, daje ubogim: hojność jego będzie trwała zawsze, Potęga jego wzmoże się z chwałą.\n*Ps 111:1*\nBłogos",
+      "body": "*Seduliusz*\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków.\n*Ps 44:2*",
       "id": "Introitus"
     },
     {
-      "body": "Usłysz, Panie, błagania nasze i za przyczyną św. Wawrzyńca, Twego Męczennika, którego uroczystość uprzedzamy, okazuj nam",
+      "body": "Prosimy Cię, Panie, Boże, dozwól nam, sługom Swoim, cieszyć się trwałym zdrowiem duszy i ciała, a za przyczyną Najświęts",
       "id": "Oratio"
     },
     {
@@ -27593,23 +27605,23 @@
       "id": "Commemoratio Oratio"
     },
     {
-      "body": "Czytanie z Księgi Syracydesa.\n*Syr 51:1-8; 51:12*\nWyznawać Ci będę, Panie i Królu, i wychwalać Cię będę, Boga, Zbawcę me",
+      "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dzie",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 111:9; 111:2*\nRozdziela, daje ubogim: hojność jego będzie trwała zawsze.\n℣. Potomstwo jego będzie potężne na ziemi, ",
+      "body": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela.\n℣. Bogarod",
       "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:24-27*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jeśli kto chce z",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 11:27-28*\nOnego czasu: Gdy Jezus mówił do rzesz, pewna niewiasta z t",
       "id": "Evangelium"
     },
     {
-      "body": "*Job 16:20*\nModlitwa moja jest czysta, przeto błagam, by dano miejsce wołaniu memu w niebie; bo tam jest sędzia mój i św",
+      "body": "*Łk 1:28 1:42*\nZdrowaś, Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
       "id": "Offertorium"
     },
     {
-      "body": "Przyjmij, prosimy Cię, Panie, nasze dary i modlitwy, oczyść nas przez niebieskie tajemnice i łaskawie wysłuchaj.\nPrzez P",
+      "body": "Panie, niech z Twego zmiłowania, a za przyczyną błogosławionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i do",
       "id": "Secreta"
     },
     {
@@ -27617,15 +27629,15 @@
       "id": "Commemoratio Secreta"
     },
     {
-      "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
+      "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
       "id": "Prefatio"
     },
     {
-      "body": "*Mt 16:24*\nJeśli kto chce za mną iść, niech się zaprze samego siebie i weźmie krzyż swój, i naśladuje mię.",
+      "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
       "id": "Communio"
     },
     {
-      "body": "Daj, prosimy Cię, Panie Boże nasz, abyśmy się tak cieszyli widokiem św. Wawrzyńca, Twego Męczennika, w wieczności, jak z",
+      "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi z",
       "id": "Postcommunio"
     },
     {
@@ -29261,56 +29273,44 @@
   ],
   "2025-09-14": [
     {
-      "body": "*Ps 83:10-11*\nObrońco nasz, spojrzyj, Boże, i wejrzyj na oblicze Pomazańca swego. Zaiste, lepszy dzień jeden w przedsion",
+      "body": "*Ga 6:14*\nA myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie i zmartwychwsta",
       "id": "Introitus"
     },
     {
-      "body": "Strzeż Twój Kościół, prosimy Cię Panie, w nieustannym miłosierdziu swoim, a że bez Twej pomocy nie ostoi się człowiek śm",
+      "body": "Boże, który w dniu dzisiejszym uweselasz nas doroczną uroczystością Podwyższenia Krzyża świętego, spraw prosimy, abyśmy ",
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie Podwyższenia Świętego Krzyża*\nBoże, który w dniu dzisiejszym uweselasz nas doroczną uroczystością Podwyższe",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Czytanie z Listu świętego Pawła Apostoła do Galatów.\n*Ga 5:16-24*\n*Wyrazem «duch» św. Paweł określa całe życie nadprzyro",
+      "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 2:5-11*\nBracia: To bowiem rozumiejcie, co i w Chrystusie Jezu",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 117:8-9*\nLepiej zawierzyć Panu, niż zawierzyć człowiekowi.\n℣. Lepiej zaufać Bogu, niż zaufać możnym świata. Alleluja",
+      "body": "*Flp 2:8-9*\nChrystus stał się dla nas posłuszny aż do śmierci, a była to śmierć krzyżowa.\n℣. Dlatego i Bóg wywyższył Go:",
       "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 6:24-33*\n*Chrystus nie zaleca lenistwa, lecz gani zbytnią troskę o ",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 12:31-36*\nOnego czasu: Rzekł Jezus rzeszom żydowskim: «Teraz jest sąd św",
       "id": "Evangelium"
     },
     {
-      "body": "*Ps 33:8-9*\nAnioł Pański czuwa nad bogobojnymi i chroni ich od złego. Skosztujcie i zobaczcie, jak dobry jest Pan!",
+      "body": "Osłaniaj, Panie, lud swój znakiem Krzyża świętego od wszelkich zasadzek wszystkich nieprzyjaciół, abyśmy miłe Tobie hołd",
       "id": "Offertorium"
     },
     {
-      "body": "Spraw, prosimy Cię Panie, aby ta Hostia zbawienna z grzechów nas oczyściła i wyjednała nam przychylność Twej potęgi.\nPrz",
+      "body": "Gdy posilać się mamy Ciałem i Krwią Jezusa Chrystusa, Pana naszego, który uświęcił sztandar Krzyża, błagamy Cię, Panie B",
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie Podwyższenia Świętego Krzyża*\nGdy posilać się mamy Ciałem i Krwią Jezusa Chrystusa, Pana naszego, który uśw",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*Prefacja o Trójcy Przenajświętszej*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tob",
+      "body": "*Prefacja o Krzyżu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składa",
       "id": "Prefatio"
     },
     {
-      "body": "*Mt 6:33*\nSzukajcie naprzód Królestwa Bożego, a wszystko będzie wam przydane, tak Pan powiada.",
+      "body": "Boże nasz, przez znak świętego Krzyża wyzwól nas od naszych nieprzyjaciół.",
       "id": "Communio"
     },
     {
-      "body": "Boże, niechaj Twój Sakrament nas oczyści, wzmocni i doprowadzi do wiecznego zbawienia.\nPrzez Pana…",
+      "body": "Przybądź nam z pomocą, Panie Boże nasz, i otaczaj nieustanną opieką tych, którym dajesz się cieszyć z oddawania czci Krz",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Wspomnienie Podwyższenia Świętego Krzyża*\nPrzybądź nam z pomocą, Panie Boże nasz, i otaczaj nieustanną opieką tych, któ",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-09-15": [
@@ -31929,56 +31929,44 @@
   ],
   "2025-11-09": [
     {
-      "body": "*Ps 129:3-4*\nJeśli zachowasz pamięć o występkach, Panie, Panie, któż się ostoi? Ale u Ciebie, Boże Izraela, jest przebac",
+      "body": "*Rdz 28:17*\nBojaźnią przejmuje to miejsce: tu jest dom Boży i brama niebios, i zwać się będzie mieszkaniem Boga.\n*Ps 83:",
       "id": "Introitus"
     },
     {
-      "body": "Boże, ucieczko nasza i mocy, wysłuchaj pokornych modłów Twojego Kościoła, skoro pobożność, która je zrodziła, Twoim jest",
+      "body": "Boże, który co roku pozwalasz nam obchodzić dzień konsekracji Twojej świątyni i uczestniczyć w świętych obrzędach, wysłu",
       "id": "Oratio"
     },
     {
-      "body": "*Wspomnienie Rocznica Konsekracji Bazyliki Najświętszego Zbawiciela na Lateranie*\nBoże, który co roku pozwalasz nam obch",
-      "id": "Commemoratio Oratio"
-    },
-    {
-      "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 1:6-11*\nBracia: Ufamy, w Panu Jezusie, że Ten, który rozpoczą",
+      "body": "Czytanie z Księgi Apokalipsy świętego Jana Apostoła.\n*Ap 21:2-5*\n*Kościół materialny jest obrazem «Jeruzalem niebieskieg",
       "id": "Lectio"
     },
     {
-      "body": "*Ps 132:1-2*\n*Życie w społeczności Kościoła przygotowuje nas do życia wiecznego, w którym miłość usunie wszelkie różnice",
+      "body": "Bóg uczynił z tego miejsca bez skazy bezcenny znak swojej obecności.\n℣. Boże, którego otacza chór aniołów, wysłuchaj pro",
       "id": "Graduale"
     },
     {
-      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 22:15-21*\nOnego czasu: Faryzeusze odszedłszy naradzali się, jakby G",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 19:1-10*\nOnego czasu: Jezus przechodził przez Jerycho. I oto mąż imi",
       "id": "Evangelium"
     },
     {
-      "body": "*Est 14:12; 14:13*\nWspomnij na mnie, o Panie, któremu wszelka zwierzchność podlega. Włóż w moje usta mowę właściwą, aby ",
+      "body": "*1 Krn 29:17-18*\n*Modlitwa Dawida, który przygotował budowę pierwszej świątyni w Jerozolimie.*\nPanie Boże, w szczerości ",
       "id": "Offertorium"
     },
     {
-      "body": "Daj, miłosierny Boże, aby ta zbawienna ofiara zawsze nas wyzwalała z naszych grzechów i broniła od wszelkich przeciwnośc",
+      "body": "Prosimy Cię Panie, wysłuchaj modlitwy nasze (abyśmy wszyscy zebrani w tej świątyni, której rocznicę konsekracji obchodzi",
       "id": "Secreta"
     },
     {
-      "body": "*Wspomnienie Rocznica Konsekracji Bazyliki Najświętszego Zbawiciela na Lateranie*\nProsimy Cię Panie, wysłuchaj modlitwy ",
-      "id": "Commemoratio Secreta"
-    },
-    {
-      "body": "*Prefacja o Trójcy Przenajświętszej*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tob",
+      "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
       "id": "Prefatio"
     },
     {
-      "body": "*Ps 16:6*\nWzywam Cię, Boże, bo Ty mnie wysłuchasz. Nakłoń ku mnie Twe ucho, usłysz moje słowa.",
+      "body": "*Mt 21:13*\nDom mój będzie nazwany domem modlitwy, mówi Pan. Każdy, kto w nim prosi otrzymuje; a kto szuka, znajduje; a k",
       "id": "Communio"
     },
     {
-      "body": "Przyjęliśmy, Panie, dary świętego misterium, pokornie błagając, aby to, co kazałeś nam czynić na Twoją pamiątkę, przynio",
+      "body": "Boże, Ty z żywych i wybranych kamieni przygotowujesz Swemu majestatowi wiekuisty przybytek; wspomóż lud Twój, który korn",
       "id": "Postcommunio"
-    },
-    {
-      "body": "*Wspomnienie Rocznica Konsekracji Bazyliki Najświętszego Zbawiciela na Lateranie*\nBoże, Ty z żywych i wybranych kamieni ",
-      "id": "Commemoratio Postcommunio"
     }
   ],
   "2025-11-10": [
