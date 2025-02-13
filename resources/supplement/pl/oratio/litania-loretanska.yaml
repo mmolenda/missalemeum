@@ -1,5 +1,6 @@
 info:
-  tags: []
+  tags:
+  - Litaniae Lauretanae
   title: Litania Loretańska
 
 sections:
@@ -9,11 +10,11 @@ sections:
         Kyrie elejson. Chryste elejson. Kyrie elejson.   
         Chryste, usłysz nas. Chryste, wysłuchaj nas.   
         Ojcze z nieba, Boże, zmiłuj się nad nami.   
-        Synu, Odkupicielu świata, Boże, zmiłuj się nad nami,   
-        Duchu Święty, Boże, zmiłuj się nad nami,   
-        Święta Trójco, Jedyny Boże, zmiłuj się nad nami,   
+        Synu, Odkupicielu świata, Boże, zmiłuj się nad nami.   
+        Duchu Święty, Boże, zmiłuj się nad nami.   
+        Święta Trójco, Jedyny Boże, zmiłuj się nad nami.   
         
-        Święta Maryjo, módl się za nami,   
+        Święta Maryjo, módl się za nami.   
         Święta Boża Rodzicielko,   
         Święta Panno nad Pannami,   
         Matko Chrystusowa,   
@@ -100,5 +101,70 @@ sections:
       
         ### Antyfona   
         Pod Twoją obronę uciekamy się, święta Boża Rodzicielko! Naszymi prośbami racz nie gardzić w potrzebach naszych, ale od wszelakich złych przygód racz nas zawsze wybawiać, Panno chwalebna i błogosławiona. O Pani nasza, Orędowniczko nasza, Pośredniczko nasza Pocieszycielko nasza. Z Synem Swoim nas pojednaj, Synowi Swojemu nas polecaj, Swojemu Synowi nas oddawaj.   
+    - |
+        Kyrie eleison. Christe eleison. Kyrie eleison.  
+        Christe audi nos. Christe exaudi nos.  
+        Pater de caelis, Deus, miserere nobis.  
+        Fili, Redemptor mundi, Deus, miserere nobis.  
+        Spiritus Sancte, Deus, miserere nobis.  
+        Sancta Trinitas, unus Deus, miserere nobis.  
+
+        Sancta Maria, ora pro nobis.  
+        Sancta Dei Genetrix,  
+        Sancta Virgo virginum,  
+        Mater Christi,  
+        Mater Ecclesiae,  
+        Mater divinae gratiae,  
+        Mater spei,  
+        Mater purissima,  
+        Mater castissima,  
+        Mater inviolata,  
+        Mater intemerata,  
+        Mater amabilis,  
+        Mater boni Consilii,  
+        Mater Creatoris,  
+        Mater Salvatoris,  
+        Virgo prudentissima,  
+        Virgo veneranda,  
+        Virgo praedicanda,  
+        Virgo potens,  
+        Virgo clemens,  
+        Virgo fidelis,  
+        Speculum iustitiae,  
+        Sedes sapientiae,  
+        Cause nostra laetitiae,  
+        Vas spirituale,  
+        Vas honorabile,  
+        Vas insigne devotionis,  
+        Rosa mystica,  
+        Turris Davidica,  
+        Turris eburnea,  
+        Domus aurea,  
+        Foederis arca,  
+        Ianua caeli,  
+        Stella matutina,  
+        Salus infirmorum,  
+        Refugium peccatorum,  
+        Solacium migrantium,  
+        Consolatrix afflictorum,  
+        Auxilium Christianorum,  
+        Regina Angelorum,  
+        Regina Patriarcharum,  
+        Regina Prophetarum,  
+        Regina Apostolorum,  
+        Regina Martyrum,  
+        Regina Confessorum,  
+        Regina Virginum,  
+        Regina Sanctorum omnium,  
+        Regina sine labe originali concepta,  
+        Regina in caelum assumpta,  
+        Regina sanctissimi Rosarii,  
+        Regina familiae,  
+        Regina pacis,  
+        Regina Poloniae,  
+
+        Agnus Dei, qui tollis peccata mundi, parce nobis Domine.  
+        Agnus Dei, qui tollis peccata mundi, exaudi nobis Domine.  
+        Agnus Dei, qui tollis peccata mundi, miserere nobis.  
   id: ''
   label: ''
