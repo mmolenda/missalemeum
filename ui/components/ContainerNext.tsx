@@ -11,11 +11,11 @@ import {usePathname} from "next/navigation";
 
 
 export default function ContainerNext({lang, content, backButtonRef}) {
-  const theme = useTheme()
   const singleColumnAsRubric = false
   const markdownNewlines = false
   const pathname = usePathname()
   const widgetMode = false
+
   let backButton = (<IconButton
     component={Link}
     href={backButtonRef ? backButtonRef : pathname.substring(0, pathname.lastIndexOf('/'))}
@@ -33,7 +33,7 @@ export default function ContainerNext({lang, content, backButtonRef}) {
           overflowY: 'scroll',
           width: '100%',
           ml: 0,
-          pt: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
+          pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
           height: "100%"
         }}
       >

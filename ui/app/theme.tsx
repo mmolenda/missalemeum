@@ -234,6 +234,6 @@ const getDesignTokens = (mode, fontSizeName) => ({
   }
 });
 
-const theme = createTheme(getDesignTokens("light", "medium"))
+const theme = createTheme(getDesignTokens("dark", "medium"))
 
 export default theme;
