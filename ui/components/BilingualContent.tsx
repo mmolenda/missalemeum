@@ -1,4 +1,3 @@
-import React, {useEffect, useRef, useState} from 'react';
 import ReactDOMServer from 'react-dom/server';
 // import {useLocation, useNavigate} from "react-router-dom";  // MIGRATION
 import "react-datepicker/dist/react-datepicker.css";
@@ -25,21 +24,16 @@ import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
+import {Fragment, useState} from "react";
 
 
 const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
 
 export default function BilingualContent(props) {
+  const index = 0
   // const location = useLocation();  // MIGRATION
-  const [index, setIndex] = useState(0)
 
-  useEffect(() => {
-    // TODO: regex to check if the index contains number only
-    let hashValue = location.hash.replace("#", "")
-    let indexValue = parseInt(hashValue) || 0
-    setIndex(indexValue)
-  }, [location.hash])
 
   return (
     <Article
@@ -47,7 +41,6 @@ export default function BilingualContent(props) {
       lang={props.lang}
       content={props.contents}
       index={index}
-      setIndex={setIndex}
       singleColumnAsRubric={props.singleColumnAsRubric}
       backButton={props.backButton}
       markdownNewlines={props.markdownNewlines}
@@ -58,14 +51,9 @@ export default function BilingualContent(props) {
 
 const Article = (props) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
-  const [sharePopoverOpen, setSharePopoverOpen] = useState(false)
-  // const navigate = useNavigate() // MIGRATION
   let content = props.content[props.index]
-  let shareButtonRef = useRef()
 
-  useEffect(() => {
-    content && (document.title = [content.info.title, content.info.date, "Missale Meum"].filter((i) => Boolean(i)).join(" | "))
-  })
+
 
   const isBilingual = () => {
     for (let section of content.sections) {
@@ -88,10 +76,6 @@ const Article = (props) => {
       })
     } catch (err) {
       navigator.clipboard.writeText(url).then(function() {
-        setSharePopoverOpen(true)
-        setInterval(() => {
-           setSharePopoverOpen(false)
-        }, 1000)
       }, function(err) {
         alert(`Couldn't copy address: ${err}`);
       });
@@ -135,11 +119,9 @@ const Article = (props) => {
           {props.backButton}
         </Box>
         {!props.widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
-          <IconButton ref={shareButtonRef} onClick={() => share()}>
+          <IconButton >
             <ShareIcon/>
             <Popover
-              open={sharePopoverOpen}
-              anchorEl={shareButtonRef.current}
               anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'left',
@@ -158,8 +140,6 @@ const Article = (props) => {
               value={props.index}
               defaultValue={props.index}
               onChange={(e) => {
-                props.setIndex(e.target.value)
-                navigate(`#${e.target.value}`)
               }}
               sx={{
                 fontSize: (theme) => theme.typography.h2.fontSize,
@@ -168,7 +148,7 @@ const Article = (props) => {
               }}
             >
               {props.content.map((content, xindex) => {
-                return <MenuItem value={xindex}>{content.info.title}</MenuItem>
+                return <MenuItem key={xindex} value={xindex}>{content.info.title}</MenuItem>
               })}
             </Select> :
             <Typography variant="h2">
@@ -186,10 +166,10 @@ const Article = (props) => {
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
-                return (<React.Fragment key={index}>
+                return (<Fragment key={index}>
                   <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} widgetMode={props.widgetMode} />
                   {index + 1 < content.info.supplements.length && ", "}
-                </React.Fragment>)
+                </Fragment>)
               })}
             </Typography>}
 
