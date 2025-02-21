@@ -1,8 +1,7 @@
 "use client";
 
-import {Box, Container, IconButton, ListItem, Typography} from "@mui/material";
+import {Box, IconButton} from "@mui/material";
 import Link from "next/link";
-import List from "@mui/material/List";
 import React from "react";
 import {useTheme} from "@mui/material/styles";
 import BilingualContent from "@/components/BilingualContent";
@@ -11,7 +10,7 @@ import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {usePathname} from "next/navigation";
 
 
-export default function ContainerNext({lang, content}) {
+export default function ContainerNext({lang, content, backButtonRef}) {
   const theme = useTheme()
   const singleColumnAsRubric = false
   const markdownNewlines = false
@@ -19,7 +18,7 @@ export default function ContainerNext({lang, content}) {
   const widgetMode = false
   let backButton = (<IconButton
     component={Link}
-    href={pathname.substring(0, pathname.lastIndexOf('/'))}
+    href={backButtonRef ? backButtonRef : pathname.substring(0, pathname.lastIndexOf('/'))}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
   >
     <ArrowBackIcon/>

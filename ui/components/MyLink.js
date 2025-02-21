@@ -1,13 +1,13 @@
 import React from 'react';
-import {Link} from "@mui/material";
-// import {Link as RouterLink} from "react-router-dom";  // MIGRATION
+import { Link as MUILink } from "@mui/material";
+import Link from "next/link";
 
 export default function MyLink(props) {
 	let [pathname, search] = props.href.split("?")
 	return pathname.startsWith("http") || props.widgetMode === true
-		? <Link target="_blank" href={(search && !search.startsWith("ref")) ? props.href : pathname}>{props.text}</Link>
-		: <Link
-			// component={RouterLink} // MIGRATION
-			to={{pathname: pathname, search: search}} href={pathname}>{props.text}</Link>
+		? <MUILink target="_blank" href={(search && !search.startsWith("ref")) ? props.href : pathname}>{props.text}</MUILink>
+		: <MUILink
+			component={Link}
+			href={pathname}>{props.text}</MUILink>
 }
 

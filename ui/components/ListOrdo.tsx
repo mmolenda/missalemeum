@@ -7,23 +7,22 @@ import {ListItemButton} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 
-export default function ListCommon({sidenavPath, items}) {
+export default function ListOrdo({lang, items}) {
   return (
     <ContainerMedium disableGutters>
       <List>
         {items.map((indexItem) => {
           return (
             <SidenavListItem
-              key={indexItem.id}
+              key={indexItem.label}
               disableGutters
             >
               <ListItemButton
                 component={Link}
-                to={{pathname: sidenavPath + indexItem.id, hash: ""}}
+                to={{pathname: `/${lang}/ordo`, hash: indexItem.label}}
               >
                 <SidenavListItemText
-                  primary={indexItem.title}
-                  secondary={indexItem.tags.length > 0 && indexItem.tags.join(", ")}
+                  primary={indexItem.label}
                 />
               </ListItemButton>
             </SidenavListItem>)

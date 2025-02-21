@@ -1,5 +1,4 @@
 import ReactDOMServer from 'react-dom/server';
-// import {useLocation, useNavigate} from "react-router-dom";  // MIGRATION
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
 import {Element} from 'react-scroll'

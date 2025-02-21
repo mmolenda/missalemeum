@@ -1,7 +1,7 @@
 'use client';
 import {grey} from "@mui/material/colors";
 import {createTheme} from "@mui/material";
-import { Merriweather } from "next/font/google";
+import {Merriweather} from "next/font/google";
 
 
 const defaultTheme = createTheme()
@@ -15,101 +15,184 @@ const translateFontSize = (fontSizeName) => {
 }
 
 
-let fontSizeName = "medium"
-
-
-const theme = createTheme({
+const getDesignTokens = (mode, fontSizeName) => ({
   palette: {
-    background: {
-      paper: yellowish,
-      default: yellowish
-    },
-    primary: {
-      main: appbarDarkGrey,
-      light: '#6d6d6d',
-      dark: '#1b1b1b',
-    },
-    secondary: {
-      main: darkRedLightMode,
-      light: '#eb9c9b',
-      dark: '#854042',
-    },
-    text: {
-      primary: grey[900],
-      disabled: grey[300]
-    },
-    vestmentw: {
-      main: '#d3d3d3',
-      contrastText: '#fff'
-    },
-    vestmentr: {
-      main: darkRedLightMode,
-      contrastText: '#fff',
-    },
-    vestmentv: {
-      main: '#92689f',
-      contrastText: '#fff',
-    },
-    vestmentg: {
-      main: '#6c8d4d',
-      contrastText: '#fff',
-    },
-    // For all modes:
-    yellowish: {
-      main: yellowish,
-      contrastText: '#fff',
-    },
-    appbarDarkGrey: {
-      main: appbarDarkGrey,
-      contrastText: '#fff',
-    },
-    vestmentb: {
-      main: '#565656',
-      contrastText: '#fff',
-    },
-    vestmentp: {
-      main: '#e1a5ba',
-      contrastText: '#fff',
-    }
+    mode,
+    ...(mode === 'light'
+      ? {
+          // palette values for light mode
+          background: {
+            paper: yellowish,
+            default: yellowish
+          },
+          primary: {
+            main: appbarDarkGrey,
+            light: '#6d6d6d',
+            dark: '#1b1b1b',
+          },
+          secondary: {
+            main: darkRedLightMode,
+            light: '#eb9c9b',
+            dark: '#854042',
+          },
+          text: {
+            primary: grey[900],
+            disabled: grey[300]
+          },
+          vestmentw: {
+            main: '#d3d3d3',
+            contrastText: '#fff'
+          },
+          vestmentr: {
+            main: darkRedLightMode,
+            contrastText: '#fff',
+          },
+          vestmentv: {
+            main: '#92689f',
+            contrastText: '#fff',
+          },
+          vestmentg: {
+            main: '#6c8d4d',
+            contrastText: '#fff',
+          }
+        }
+      : {
+          // palette values for dark mode
+          background: {
+            paper: '#262626',
+            default: '#262626'
+          },
+          primary: {
+            main: yellowish,
+            light: '#fff',
+            dark: '#c9c8c6',
+          },
+          secondary: {
+            main: darkRedDarkMode,
+            light: '#ffc1b6',
+            dark: '#b06159',
+          },
+          text: {
+            primary: yellowish,
+            secondary: yellowish,
+            disabled: grey[800]
+          },
+          vestmentw: {
+            main: yellowish,
+            contrastText: '#fff'
+          },
+          vestmentr: {
+            main: darkRedDarkMode,
+            contrastText: '#fff',
+          },
+          vestmentv: {
+            main: '#ad7cbe',
+            contrastText: '#fff',
+          },
+          vestmentg: {
+            main: '#91b965',
+            contrastText: '#fff',
+          },
+        }),
+        yellowish: {
+          main: yellowish,
+          contrastText: '#fff',
+        },
+        appbarDarkGrey: {
+          main: appbarDarkGrey,
+          contrastText: '#fff',
+        },
+        vestmentb: {
+          main: '#565656',
+          contrastText: '#fff',
+        },
+        vestmentp: {
+          main: '#e1a5ba',
+          contrastText: '#fff',
+        }
   },
   typography: {
-    h1: {
-      fontSize: "1.1rem",
-      fontFamily: "Merriweather",
-      fontWeight: 700,
-      color: yellowish
-    },
-    h2: {
-      fontSize: translateFontSize(fontSizeName) * 1.5,
-      fontFamily: "Merriweather",
-      fontWeight: 800,
-      color: grey[900]
-    },
-    h3: {
-      fontSize: translateFontSize(fontSizeName) * 1.2,
-      fontFamily: "Merriweather",
-      fontWeight: 800,
-      color: grey[700],
-      lineHeight: 2.2
-    },
-    h4: {
-      fontSize: translateFontSize(fontSizeName) * 1.2,
-      fontFamily: "Merriweather",
-      textTransform: "uppercase",
-      fontWeight: 800,
-      color: darkRedLightMode
-    },
-    h5: {
-      fontSize: translateFontSize(fontSizeName) * 1.2,
-      fontFamily: "Merriweather",
-      textTransform: "uppercase",
-      fontWeight: 400,
-      color: darkRedLightMode
-    },
-    body1: {
-      fontFamily: "Merriweather",
-    },
-    // For all light modes:
+
+    ...(mode === 'light'
+    ? {
+        // palette values for light mode
+        h1: {
+          fontSize: "1.1rem",
+          fontFamily: "Merriweather",
+          fontWeight: 700,
+          color: yellowish
+        },
+        h2: {
+          fontSize: translateFontSize(fontSizeName) * 1.5,
+          fontFamily: "Merriweather",
+          fontWeight: 800,
+          color: grey[900]
+        },
+        h3: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          fontWeight: 800,
+          color: grey[700],
+          lineHeight: 2.2
+        },
+        h4: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          textTransform: "uppercase",
+          fontWeight: 800,
+          color: darkRedLightMode
+        },
+        h5: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          textTransform: "uppercase",
+          fontWeight: 400,
+          color: darkRedLightMode
+        },
+        body1: {
+          fontFamily: "Merriweather",
+        },
+      }
+    : {
+        // palette values for dark mode
+        h1: {
+          fontSize: "1.1rem",
+          fontFamily: "Merriweather",
+          fontWeight: 700,
+          color: yellowish
+        },
+        h2: {
+          fontSize: translateFontSize(fontSizeName) * 1.5,
+          fontFamily: "Merriweather",
+          fontWeight: 800,
+          color: yellowish
+        },
+        h3: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          fontWeight: 800,
+          color: grey[400],
+          lineHeight: 2.2
+        },
+        h4: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          textTransform: "uppercase",
+          fontWeight: 800,
+          color: darkRedDarkMode
+        },
+        h5: {
+          fontSize: translateFontSize(fontSizeName) * 1.2,
+          fontFamily: "Merriweather",
+          textTransform: "uppercase",
+          fontWeight: 400,
+          color: darkRedDarkMode
+        },
+        body1: {
+          fontFamily: "Merriweather",
+          color: yellowish
+        },
+    }),
     fontSize: translateFontSize(fontSizeName),
     subtitle1: {
       fontWeight: 400,
@@ -140,9 +223,17 @@ const theme = createTheme({
           },
         },
       },
+    },
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          backgroundColor: "background.default" // TODO: dark theme
+        }
+      }
     }
   }
-
 });
+
+const theme = createTheme(getDesignTokens("light", "medium"))
 
 export default theme;

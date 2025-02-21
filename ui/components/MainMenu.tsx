@@ -8,7 +8,7 @@ import {
     ListItem,
     ListItemButton,
     ToggleButton,
-    ToggleButtonGroup, Typography
+    ToggleButtonGroup
 } from "@mui/material";
 import {
     MENUITEM_CANTICUM, MENUITEM_INFO,
@@ -91,7 +91,7 @@ const LeftHandMenu = (props) => {
 
 
 
-export default function MMDrawer(props) {
+export default function MainMenu(props) {
     const params = useParams()
     const lang = params.lang
     const darkMode = false

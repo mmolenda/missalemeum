@@ -2,11 +2,11 @@ import React from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
 import theme, {appbarDarkGrey} from './theme';
-import {AppBar, Container, GlobalStyles, IconButton, Toolbar, Typography} from "@mui/material";
+import {AppBar, Container, CssBaseline, Toolbar, Typography} from "@mui/material";
 
 import { Link as MUILink } from "@mui/material";
-import Logo from "../components/Logo";
-import MMDrawer from "@/app/mmdrawer";
+import Logo from "@/components/Logo";
+import MainMenu from "@/components/MainMenu";
 import { Merriweather } from 'next/font/google'
 import Link from "next/link";
 
@@ -23,13 +23,14 @@ export default async function RootLayout({
 }>) {
 
   return (<html lang="en">
-    <body>
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <body>
         <Container disableGutters sx={{backgroundColor: "background.default"}}>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
-              <MMDrawer/>
+              <MainMenu/>
               <MUILink component={Link} href="/pl" sx={{display: "flex", textDecoration: "none"}} >
                 <Logo width={28} height={28}/>
                 <Typography variant="h1" component="div">Missale<br/>Meum</Typography>
@@ -38,9 +39,9 @@ export default async function RootLayout({
           </AppBar>
           {children}
         </Container>
+        </body>
       </ThemeProvider>
     </AppRouterCacheProvider>
-    </body>
     </html>
   );
 }
