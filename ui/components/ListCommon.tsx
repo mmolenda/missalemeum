@@ -9,7 +9,7 @@ import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {createRef, useEffect, useState} from "react";
 
 export default function ListCommon({sidenavPath, items}) {
-  let [selectedItem, setSelectedItem] = useState(null)
+  let [selectedItem, setSelectedItem] = useState("")
   let listItemRefs = {}
 
   useEffect(() => {

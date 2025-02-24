@@ -3,26 +3,24 @@
 import {Box, IconButton} from "@mui/material";
 import Link from "next/link";
 import React from "react";
-import {useTheme} from "@mui/material/styles";
 import BilingualContent from "@/components/BilingualContent";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
-import {usePathname} from "next/navigation";
 
 
-export default function ContainerNext({lang, content, backButtonRef}) {
+export default function ContainerNext({lang, id, content, backButtonRef}) {
   const singleColumnAsRubric = false
   const markdownNewlines = false
-  const pathname = usePathname()
   const widgetMode = false
 
-  let backButton = (<IconButton
+  let backButton = (backButtonRef && <IconButton
     component={Link}
-    href={backButtonRef ? backButtonRef : pathname.substring(0, pathname.lastIndexOf('/'))}
+    href={backButtonRef}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
   >
     <ArrowBackIcon/>
   </IconButton>)
+
 
   return (
     <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
@@ -37,7 +35,7 @@ export default function ContainerNext({lang, content, backButtonRef}) {
           height: "100%"
         }}
       >
-        <BilingualContent id={"2022-11-11"} lang={lang} contents={content}
+        <BilingualContent id={id} lang={lang} contents={content}
                           singleColumnAsRubric={singleColumnAsRubric} backButton={backButton}
                           markdownNewlines={markdownNewlines} widgetMode={widgetMode}/>
     </Box>
