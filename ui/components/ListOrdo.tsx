@@ -6,6 +6,7 @@ import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {ListItemButton} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
+import slugify from "slugify";
 
 export default function ListOrdo({lang, items}) {
   return (
@@ -19,7 +20,7 @@ export default function ListOrdo({lang, items}) {
             >
               <ListItemButton
                 component={Link}
-                to={{pathname: `/${lang}/ordo`, hash: indexItem.label}}
+                to={{pathname: `/${lang}/ordo`, hash: slugify(indexItem.label)}}
               >
                 <SidenavListItemText
                   primary={indexItem.label}

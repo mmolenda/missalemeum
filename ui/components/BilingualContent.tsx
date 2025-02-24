@@ -1,7 +1,6 @@
 import ReactDOMServer from 'react-dom/server';
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
-import {Element} from 'react-scroll'
 import {
   Box,
   Typography,
@@ -23,7 +22,7 @@ import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import {Fragment, useState} from "react";
+import {createRef, Fragment, useEffect, useState} from "react";
 
 
 const xVernacular = 'x-vernacular'
@@ -51,8 +50,17 @@ export default function BilingualContent(props) {
 const Article = (props) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
   let content = props.content[props.index]
+  let itemRefs = {}
+  useEffect(() => {
+    scrollToListItem(window.location.hash.substring(1))
+  })
 
-
+  const scrollToListItem = (itemId) => {
+    let itemRef = itemRefs[itemId]
+    if (itemRef && itemRef.current) {
+      itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
+    }
+  }
 
   const isBilingual = () => {
     for (let section of content.sections) {
@@ -172,7 +180,7 @@ const Article = (props) => {
               })}
             </Typography>}
 
-          <Box sx={{ display: "grid" }}>
+          <Box className="qpa" sx={{ display: "grid" }}>
           {content.sections.map((section, index) => {
             return <BilingualSection
               key={"section-" + index}
@@ -184,6 +192,7 @@ const Article = (props) => {
               bilingualLang={bilingualLang}
               markdownNewlines={props.markdownNewlines}
               widgetMode={props.widgetMode}
+              itemRefs={itemRefs}
             />
           })}
           </Box>
@@ -226,9 +235,12 @@ const BilingualSection = (props) => {
     return true
   }
 
+  let itemRef = createRef()
+  let titleVernacularSlug = slugify(props.titleVernacular)
+  props.itemRefs[titleVernacularSlug] = itemRef
+
   return (
-    <Element name={slugify(props.titleVernacular)}>
-      <Box sx={{
+      <Box ref={itemRef} sx={{
         display: isSmallScreen ? "block" : "inline-grid",
         gridTemplateColumns: isSmallScreen ? "unset" : "repeat(2, 1fr)"
       }}>
@@ -267,7 +279,6 @@ const BilingualSection = (props) => {
           />
         ))}
       </Box>
-    </Element>
   )
 }
 

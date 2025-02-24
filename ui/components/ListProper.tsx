@@ -5,7 +5,7 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
-import {Fragment, useEffect, useRef, useState} from "react";
+import {createRef, Fragment, useEffect, useState} from "react";
 import {COMMEMORATION, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 import moment from "moment";
 import {Autocomplete, Box, ListItemButton, ListItemIcon, TextField, IconButton, Button} from "@mui/material";
@@ -34,6 +34,21 @@ export default function ListProper({lang, items}) {
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
   const router = useRouter()
+  let listItemRefs = {}
+  let [selectedItem, setSelectedItem] = useState(null)
+
+  useEffect(() => {
+    setSelectedItem(window.location.hash.substring(1) || todayFmt)
+    scrollToListItem(selectedItem)
+  })
+
+  const scrollToListItem = (itemId) => {
+    let listItemRef = listItemRefs[itemId]
+    if (listItemRef && listItemRef.current) {
+      listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
+      listItemRef.current.classList.add("sidenavItemActive")
+    }
+  }
 
   const formatDate = (dateParsed) => {
     if (lang === "pl") {
@@ -69,26 +84,23 @@ export default function ListProper({lang, items}) {
     } = props;
 
     return (
-
       <IconButton
         onClick={() => setOpen?.((prev) => !prev)}
       >
         <CalendarMonthIcon/>
       </IconButton>
-    )
-
-  }
+    )}
 
   const MyDatePicker = (props) => {
+    const [open, setOpen] = useState(false);
+    let locale = {"en": "", "pl": "pl"}[props.lang]
+
     const handleDateChange = (newValue) => {
       if (newValue) {
         const formattedDate = newValue.format("YYYY-MM-DD");
         router.push(`${lang}/${formattedDate}`);
       }
     };
-
-    const [open, setOpen] = useState(false);
-    let locale = {"en": "", "pl": "pl"}[props.lang]
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="pl">
         <MobileDatePicker
@@ -103,7 +115,6 @@ export default function ListProper({lang, items}) {
       </LocalizationProvider>
     )
   }
-
 
   return (
     <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
@@ -175,7 +186,9 @@ export default function ListProper({lang, items}) {
                 let dateParsed = moment(indexItem.id, "YYYY-MM-DD")
                 let isFirstDayOfMonth = dateParsed.date() === 1
                 let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
-                let isSunday = dateParsed.isoWeekday() === 7;
+                let isSunday = dateParsed.isoWeekday() === 7
+                let myRef = createRef()
+                listItemRefs[indexItem.id] = myRef
                 return <Fragment key={indexItem.id + "1"}>
                   {/* Optional heading with the name of month and year */}
                   {(isFirstDayOfMonth) &&
@@ -193,6 +206,7 @@ export default function ListProper({lang, items}) {
 
                   {/* Regular calendar day */}
                   <SidenavListItem
+                    ref={myRef}
                     key={indexItem.id}
                     disableGutters
                     sx={{
@@ -201,9 +215,10 @@ export default function ListProper({lang, items}) {
                       borderTopColor: (isSunday) ? "text.disabled" : "",
                       borderLeftWidth: "5px",
                       borderLeftStyle: "solid",
-                      borderLeftColor: `vestment${colorCode}.main`,
+                      borderLeftColor: `vestment${colorCode}.main`
                     }}>
                     <ListItemButton
+                      selected={ indexItem.id == selectedItem }
                       component={Link}
                       to={{pathname: `/${lang}/${indexItem.id}`, hash: ""}}
                     >
