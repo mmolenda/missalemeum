@@ -29,9 +29,12 @@ const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
 
 export default function BilingualContent(props) {
-  const index = 0
-  // const location = useLocation();  // MIGRATION
+  const [index, setIndex] = useState(0)
 
+  useEffect(() => {
+    let hashValue = window.location.hash.substring(1)
+    setIndex(parseInt(hashValue) || 0)
+  }, [location.hash])
 
   return (
     <Article
@@ -39,6 +42,7 @@ export default function BilingualContent(props) {
       lang={props.lang}
       content={props.contents}
       index={index}
+      setIndex={setIndex}
       singleColumnAsRubric={props.singleColumnAsRubric}
       backButton={props.backButton}
       markdownNewlines={props.markdownNewlines}
@@ -142,11 +146,13 @@ const Article = (props) => {
           </IconButton>
         </Box>}
         <Box sx={{px: "0.75rem"}}>
-          {props.content.length > 1 ?
+          <>{props.content.length > 1 ?
             <Select
               value={props.index}
               defaultValue={props.index}
               onChange={(e) => {
+                props.setIndex(e.target.value)
+                window.location.hash = `#${e.target.value}`;
               }}
               sx={{
                 fontSize: (theme) => theme.typography.h2.fontSize,
@@ -161,14 +167,14 @@ const Article = (props) => {
             <Typography variant="h2">
               {content.info.title}
             </Typography>
-          }
+          }</>
           { content.info.commemorations && content.info.commemorations.length > 0 && <Typography variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography> }
           <Box sx={{ padding: "0.5rem" }}>
             <ArticleTags info={content.info} lang={props.lang} showIcon />
           </Box>
-          {content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem", hyphens: "auto" }}>
+          <>{content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem", hyphens: "auto" }}>
             <Md text={content.info.description} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
-          </Typography>}
+          </Typography>}</>
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
