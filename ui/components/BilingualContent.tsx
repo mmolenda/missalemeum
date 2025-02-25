@@ -237,7 +237,9 @@ const BilingualSection = (props) => {
 
   let itemRef = createRef()
   let titleVernacularSlug = slugify(props.titleVernacular)
-  props.itemRefs[titleVernacularSlug] = itemRef
+  if (titleVernacularSlug) {
+    props.itemRefs[titleVernacularSlug] = itemRef
+  }
 
   return (
       <Box ref={itemRef} sx={{
