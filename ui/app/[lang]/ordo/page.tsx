@@ -7,5 +7,5 @@ export default async function Page({params}) {
   const id = (await params).id
   const response = await fetch(`${process.env.MISSALEMEUM_API_URL}/${lang}/api/v5/ordo`, {mode: "cors"});
   const proper = await response.json();
-  return <ContainerNext lang={lang} id={id} content={proper} backButtonRef={`/${lang}/ordo/index`}/>
+  return <ContainerNext lang={lang} id={id} content={proper} backButtonRef={`/${lang}/ordo/index`} singleColumnAsRubric={true} />
 }

@@ -3,14 +3,17 @@
 import Link from "next/link";
 import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
-import {ListItemButton} from "@mui/material";
+import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
-import {createRef, useEffect, useState} from "react";
+import React, {createRef, useEffect, useState} from "react";
+import {SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 
-export default function ListCommon({sidenavPath, items}) {
+export default function ListCommon({lang, sidenavPath, items}) {
   let [selectedItem, setSelectedItem] = useState("")
   let listItemRefs = {}
+  const [itemsFiltered, setItemsFiltered] = useState(items)
+  const [filterString, setFilterString] = useState("")
 
   useEffect(() => {
     setSelectedItem(window.location.hash.substring(1))
@@ -25,31 +28,89 @@ export default function ListCommon({sidenavPath, items}) {
     }
   }
 
+  const filterItems = (filterString) => {
+    if (filterString.length === 0) {
+      setItemsFiltered(items)
+    } else if (filterString.length > 2) {
+      filterString = filterString.toLowerCase()
+      let collectedItems = []
+      for (let item of items) {
+        let searchBody = JSON.stringify(item).toLowerCase()
+        if (searchBody.includes(filterString)) {
+          collectedItems.push(item)
+        }
+      }
+      setItemsFiltered(collectedItems)
+    }
+  }
+
+
   return (
-    <ContainerMedium disableGutters>
-      <List>
-        {items.map((indexItem) => {
-          let myRef = createRef()
-          listItemRefs[indexItem.id] = myRef
-          return (
-            <SidenavListItem
-              key={indexItem.id}
-              ref={myRef}
-              disableGutters
-            >
-              <ListItemButton
-                selected={ indexItem.id == selectedItem }
-                component={Link}
-                to={{pathname: sidenavPath + indexItem.id, hash: ""}}
+    <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
+      <Box
+
+        id="content"
+        sx={{
+          overflowY: 'scroll',
+          width: '100%',
+          ml: 0,
+          pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
+          height: "100%"
+        }}>
+
+
+        <Box sx={{
+          position: "fixed",
+          display: "flex",
+          top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
+          width: "875px",
+          p: "0.75rem",
+          boxShadow: 2,
+          backgroundColor: "background.default",
+          zIndex: 100
+        }}>
+          <Autocomplete
+            size="small"
+            sx={{width: "30%"}}
+            freeSolo
+            value={filterString}
+            onInputChange={(event, newValue) => {
+              setFilterString(newValue)
+              filterItems(newValue)
+            }}
+            options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
+            renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
+              return (<TextField
+                {...params}
+                label={SEARCH_PLACEHOLDER[lang]}
+              />)
+            }}
+          />
+        </Box>
+        <List>
+          {itemsFiltered.map((indexItem) => {
+            let myRef = createRef()
+            listItemRefs[indexItem.id] = myRef
+            return (
+              <SidenavListItem
+                key={indexItem.id}
+                ref={myRef}
+                disableGutters
               >
-                <SidenavListItemText
-                  primary={indexItem.title}
-                  secondary={indexItem.tags.length > 0 && indexItem.tags.join(", ")}
-                />
-              </ListItemButton>
-            </SidenavListItem>)
-        })}
-      </List>
+                <ListItemButton
+                  selected={indexItem.id == selectedItem}
+                  component={Link}
+                  to={{pathname: sidenavPath + indexItem.id, hash: ""}}
+                >
+                  <SidenavListItemText
+                    primary={indexItem.title}
+                    secondary={indexItem.tags.length > 0 && indexItem.tags.join(", ")}
+                  />
+                </ListItemButton>
+              </SidenavListItem>)
+          })}
+        </List>
+      </Box>
     </ContainerMedium>
 
   )

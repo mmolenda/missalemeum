@@ -135,7 +135,7 @@ export default function ListProper({lang, year, items}) {
             value={filterString}
             onInputChange={(event, newValue) => {
               setFilterString(newValue)
-              filterItems(newValue)
+              filterItems(filterString)
             }}
             options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
             renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {

@@ -8,8 +8,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 
 
-export default function ContainerNext({lang, id, content, backButtonRef}) {
-  const singleColumnAsRubric = false
+export default function ContainerNext({lang, id, content, backButtonRef, singleColumnAsRubric}) {
   const markdownNewlines = false
   const widgetMode = false
 
