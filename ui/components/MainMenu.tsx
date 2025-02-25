@@ -30,7 +30,6 @@ import { useParams } from 'next/navigation'
 import {myLocalStorage} from "./myLocalStorage";
 
 
-
 const LeftHandMenu = (props) => {
   return (
     <Box
@@ -95,7 +94,7 @@ const LeftHandMenu = (props) => {
 export default function MainMenu(props) {
     const params = useParams()
     const lang = params.lang
-    const fontSize = "medium"
+    const fontSize = props.fontSize
     const [drawerOpened, setDrawerOpened] = useState(false)
   const toggleDrawer = (open) => () => {
     setDrawerOpened(open)
@@ -103,7 +102,6 @@ export default function MainMenu(props) {
 
   const toggleDarkMode = (darkModeNew) => {
     console.log(darkModeNew)
-    // https://medium.com/@aashekmahmud/implementing-dark-and-light-mode-themes-in-next-js-a-comprehensive-guide-bf2c34ecd50d
     if (darkModeNew === false && props.darkMode !== false) {
       props.setDarkMode(false)
       myLocalStorage.setItem("darkMode", "false")
@@ -112,12 +110,15 @@ export default function MainMenu(props) {
       myLocalStorage.setItem("darkMode", "true")
     } else {
       props.setDarkMode(undefined)
+      myLocalStorage.removeItem("darkMode")
     }
   }
 
-  const switchFontSize = (open) => () => {
-    return false
-  };
+  const switchFontSize = (fontSizeNew) => {
+    props.setFontSize(fontSizeNew)
+    myLocalStorage.setItem("fontSize", fontSizeNew)
+  }
+
   const setReleaseNotesOpened = (open) => () => {
     return false
   };
