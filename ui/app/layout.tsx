@@ -1,8 +1,10 @@
-import React from "react";
+"use client"
+
+import React, {useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
-import theme, {appbarDarkGrey} from './theme';
-import {AppBar, Container, CssBaseline, Toolbar, Typography} from "@mui/material";
+import {appbarDarkGrey, getDesignTokens} from './theme';
+import {AppBar, Container, createTheme, CssBaseline, Toolbar, Typography} from "@mui/material";
 
 import { Link as MUILink } from "@mui/material";
 import Logo from "@/components/Logo";
@@ -16,13 +18,18 @@ const merriweather = Merriweather({
 })
 
 
-export default async function RootLayout({
+export default function RootLayout({
                                            children
                                          }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [darkMode, setDarkMode] = useState("light")
+  const getThemeMode = () => {
+    return ((darkMode == undefined) || darkMode) ? "dark" : "light"
+  }
+  const theme = createTheme(getDesignTokens(getThemeMode(), "medium"))
 
-  return (<html lang="en">
+  return (<html lang="en" className={merriweather.className}>
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -30,7 +37,7 @@ export default async function RootLayout({
         <Container disableGutters sx={{backgroundColor: "background.default"}}>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
-              <MainMenu/>
+              <MainMenu darkMode={darkMode} setDarkMode={setDarkMode} />
               <MUILink component={Link} href="/pl" sx={{display: "flex", textDecoration: "none"}} >
                 <Logo width={28} height={28}/>
                 <Typography variant="h1" component="div">Missale<br/>Meum</Typography>

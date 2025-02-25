@@ -15,7 +15,7 @@ const translateFontSize = (fontSizeName) => {
 }
 
 
-const getDesignTokens = (mode, fontSizeName) => ({
+export const getDesignTokens = (mode, fontSizeName) => ({
   palette: {
     mode,
     ...(mode === 'light'
@@ -234,6 +234,3 @@ const getDesignTokens = (mode, fontSizeName) => ({
   }
 });
 
-const theme = createTheme(getDesignTokens("dark", "medium"))
-
-export default theme;

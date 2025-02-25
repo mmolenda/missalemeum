@@ -27,6 +27,7 @@ import DrawerListItemText from "@/components/styledComponents/DrawerListItemText
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useParams } from 'next/navigation'
+import {myLocalStorage} from "./myLocalStorage";
 
 
 
@@ -94,16 +95,26 @@ const LeftHandMenu = (props) => {
 export default function MainMenu(props) {
     const params = useParams()
     const lang = params.lang
-    const darkMode = false
     const fontSize = "medium"
     const [drawerOpened, setDrawerOpened] = useState(false)
   const toggleDrawer = (open) => () => {
     setDrawerOpened(open)
   };
-  const toggleDarkMode = (open) => () => {
-      // https://medium.com/@aashekmahmud/implementing-dark-and-light-mode-themes-in-next-js-a-comprehensive-guide-bf2c34ecd50d
-    return false
-  };
+
+  const toggleDarkMode = (darkModeNew) => {
+    console.log(darkModeNew)
+    // https://medium.com/@aashekmahmud/implementing-dark-and-light-mode-themes-in-next-js-a-comprehensive-guide-bf2c34ecd50d
+    if (darkModeNew === false && props.darkMode !== false) {
+      props.setDarkMode(false)
+      myLocalStorage.setItem("darkMode", "false")
+    } else if (darkModeNew === true && props.darkMode !== true) {
+      props.setDarkMode(true)
+      myLocalStorage.setItem("darkMode", "true")
+    } else {
+      props.setDarkMode(undefined)
+    }
+  }
+
   const switchFontSize = (open) => () => {
     return false
   };
@@ -133,7 +144,7 @@ export default function MainMenu(props) {
             <LeftHandMenu
                 lang={lang}
                 toggleDrawer={toggleDrawer}
-                darkMode={darkMode}
+                darkMode={props.darkMode}
                 toggleDarkMode={toggleDarkMode}
                 fontSize={fontSize}
                 switchFontSize={switchFontSize}

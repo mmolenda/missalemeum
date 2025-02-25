@@ -34,7 +34,7 @@ export default function BilingualContent(props) {
   useEffect(() => {
     let hashValue = window.location.hash.substring(1)
     setIndex(parseInt(hashValue) || 0)
-  }, [location.hash])
+  })
 
   return (
     <Article
