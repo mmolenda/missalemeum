@@ -72,8 +72,8 @@ const LeftHandMenu = (props) => {
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton href="/en" value="en" selected={props.lang === "en"}>English</ToggleButton>
-            <ToggleButton href="/pl" value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} href="/en" value="en" selected={props.lang === "en"}>English</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} href="/pl" value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">
@@ -96,8 +96,7 @@ const LeftHandMenu = (props) => {
 
 
 export default function MainMenu(props) {
-    const params = useParams()
-    const lang = params.lang
+    const lang = props.lang
     const fontSize = props.fontSize
     const [drawerOpened, setDrawerOpened] = useState(false)
   const toggleDrawer = (open) => () => {

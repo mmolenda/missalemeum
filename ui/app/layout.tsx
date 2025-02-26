@@ -15,6 +15,7 @@ import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
 import {MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
+import {useParams} from "next/navigation";
 
 
 const merriweather = Merriweather({
@@ -24,7 +25,9 @@ const merriweather = Merriweather({
 
 
 export default function RootLayout({children}) {
-  const lang = "pl"
+  const params = useParams()
+  const lang = params.locale
+  // const lang = "pl"
   const [darkMode, setDarkMode] = useState("light")
   const [fontSize, setFontSize] = useState("medium")
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
@@ -49,6 +52,7 @@ export default function RootLayout({children}) {
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
+                lang={lang}
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
                 fontSize={fontSize}
