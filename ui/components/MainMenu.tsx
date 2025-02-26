@@ -61,7 +61,11 @@ const LeftHandMenu = (props) => {
           </ListItem>
         ))}
         <ListItem key="whatsnew">
-          <ListItemButton onClick={() => props.setReleaseNotesOpened(true)}>
+          <ListItemButton
+            component={Link}
+            to={"https://github.com/mmolenda/missalemeum/releases"}
+            target={"_blank"}
+          >
             <DrawerListItemText primary={MENUITEM_WHATSNEW[props.lang]}/>
           </ListItemButton>
         </ListItem>
@@ -119,11 +123,6 @@ export default function MainMenu(props) {
     myLocalStorage.setItem("fontSize", fontSizeNew)
   }
 
-  const setReleaseNotesOpened = (open) => () => {
-    return false
-  };
-
-
     return(<>
         <IconButton
             size="large"
@@ -149,7 +148,6 @@ export default function MainMenu(props) {
                 toggleDarkMode={toggleDarkMode}
                 fontSize={fontSize}
                 switchFontSize={switchFontSize}
-                setReleaseNotesOpened={setReleaseNotesOpened}
             />
         </Drawer>
     </>)

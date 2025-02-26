@@ -13,7 +13,7 @@ import {Merriweather} from 'next/font/google'
 import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
-import {CookieConsent, getCookieConsentValue} from "react-cookie-consent";
+import {CookieConsent} from "react-cookie-consent";
 import {MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
 
 
@@ -33,9 +33,6 @@ export default function RootLayout({children}) {
     setDarkMode({"true": true, "false": false, null: undefined}[myLocalStorage.getItem("darkMode")])
     setFontSize(myLocalStorage.getItem("fontSize"))
   }, []);
-
-  const registerPageView = () => {
-  }
 
   const getThemeMode = () => {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
@@ -73,8 +70,7 @@ export default function RootLayout({children}) {
           </ContainerMedium>
           <CookieConsent enableDeclineButton debug={true} declineButtonStyle={{background: appbarDarkGrey}}
                          buttonStyle={{background: "#e49086"}} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
-                         buttonText="OK"
-                         onAccept={() => registerPageView()}>
+                         buttonText="OK">
             {MSG_COOKIES[lang]}
             <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
               {MSG_POLICY_LINK[lang]}
