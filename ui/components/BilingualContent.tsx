@@ -65,6 +65,8 @@ const Article = (props) => {
     let itemRef = itemRefs[itemId]
     if (itemRef && itemRef.current) {
       itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
+    } else {
+      window.scrollTo({ top: 0 });
     }
   }
 
