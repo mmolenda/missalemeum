@@ -59,7 +59,7 @@ const Article = (props) => {
   let itemRefs = {}
   useEffect(() => {
     scrollToListItem(window.location.hash.substring(1))
-  })
+  }, [])
 
   const scrollToListItem = (itemId) => {
     let itemRef = itemRefs[itemId]
