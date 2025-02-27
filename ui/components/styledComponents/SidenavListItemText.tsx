@@ -12,7 +12,9 @@ export default function SidenavListItemText(props) {
 	return <ListItemText
 		primary={props.primary}
 		secondary={props.secondary}
-		primaryTypographyProps={{...{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: (theme) => theme.typography.fontFamily}, ...rankStyles}}
-		secondaryTypographyProps={{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", color: "secondary.main"}}
+		slotProps={{
+			primary: {sx: {...{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: (theme) => theme.typography.fontFamily}, ...rankStyles}},
+			secondary: {sx:  {overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", color: "secondary.main"}}
+		}}
 	/>
 }

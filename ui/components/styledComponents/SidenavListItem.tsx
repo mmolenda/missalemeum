@@ -1,3 +1,5 @@
+"use client"
+
 import { styled } from '@mui/system';
 import {ListItem} from "@mui/material";
 

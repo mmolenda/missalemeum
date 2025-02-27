@@ -5,11 +5,11 @@ export default function DrawerListItemText(props) {
 	return <ListItemText
 		primary={props.primary}
 		secondary={props.secondary}
-		primaryTypographyProps={{
+		slotProps={{primary: {
 			fontFamily: (theme) => theme.typography.fontFamily,
 			color: "primary.main",
 			fontWeight: 500,
 			textTransform: "uppercase"
-		}}
+		}}}
 	/>
 }

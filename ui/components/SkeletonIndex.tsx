@@ -1,11 +1,11 @@
 import React from 'react';
 import List from "@mui/material/List";
 import {SidenavListItem} from "./styledComponents/SidenavListItem";
-import {Box, Skeleton} from "@mui/material";
+import {Skeleton} from "@mui/material";
 
 export default function SkeletonIndex() {
   return (
-    <Box sx={{ml: "2rem", pt: "100px"}}>
+    <>
       <List>
         {[...Array(30).keys()].map((x) => {
             return (
@@ -26,7 +26,7 @@ export default function SkeletonIndex() {
           }
         )}
       </List>
-    </Box>
+    </>
   )
 }
 
