@@ -8,7 +8,7 @@ export default async function Page({params, searchParams}) {
   const ref = (await searchParams).ref
   let backButtonRef = `/${locale}/${ref}`
     //id != "index" ? "index" : null
-  const response = await fetch(`${process.env.MISSALEMEUM_API_URL}/${locale}/api/v5/supplement/${id}`, {mode: "cors"});
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/supplement/${id}`, {mode: "cors"});
   const proper = await response.json();
   return <ContainerNext lang={locale} id={id} content={proper} backButtonRef={backButtonRef} />
 }

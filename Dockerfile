@@ -34,5 +34,6 @@ COPY missalemeum ./missalemeum
 COPY --from=build ./build/ ./build
 COPY tests ./tests
 RUN echo $VERSION > ./missalemeum/__version__
+# TODO update BUILD_VERSION in ./ui/.env
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "-w", "4", "wsgi", "--access-logfile",  "-"]

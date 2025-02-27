@@ -70,7 +70,7 @@ export default function RootLayout({children}) {
               sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩
               A. M. D. G. ☩</Typography>
             <Typography
-              sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{"1.1.1"}</Typography>
+              sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
           </ContainerMedium>
           <CookieConsent
             cookieName="MMCookieConsent"
