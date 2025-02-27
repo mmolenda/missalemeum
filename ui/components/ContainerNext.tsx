@@ -8,9 +8,8 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 
 
-export default function ContainerNext({lang, id, content, backButtonRef, singleColumnAsRubric}) {
+export default function ContainerNext({lang, id, content, backButtonRef, singleColumnAsRubric, widgetMode}) {
   const markdownNewlines = false
-  const widgetMode = false
 
   let backButton = (backButtonRef && <IconButton
     component={Link}

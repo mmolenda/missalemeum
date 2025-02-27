@@ -1,7 +1,5 @@
-'use client';
 import {grey} from "@mui/material/colors";
 import {createTheme} from "@mui/material";
-import {Merriweather} from "next/font/google";
 
 
 const defaultTheme = createTheme()
@@ -13,7 +11,6 @@ export const appbarDarkGrey = '#424242'
 const translateFontSize = (fontSizeName) => {
   return {"small": 12, "medium": 14, "large": 18}[fontSizeName] || 14
 }
-
 
 export const getDesignTokens = (mode, fontSizeName) => ({
   palette: {
@@ -233,4 +230,3 @@ export const getDesignTokens = (mode, fontSizeName) => ({
     }
   }
 });
-

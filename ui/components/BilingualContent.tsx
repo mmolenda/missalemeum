@@ -22,7 +22,7 @@ import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import {createRef, Fragment, useEffect, useState} from "react";
+import {createRef, Fragment, useEffect, useRef, useState} from "react";
 
 
 const xVernacular = 'x-vernacular'
@@ -53,6 +53,8 @@ export default function BilingualContent(props) {
 
 const Article = (props) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
+  const [sharePopoverOpen, setSharePopoverOpen] = useState(false)
+  let shareButtonRef = useRef()
   let content = props.content[props.index]
   let itemRefs = {}
   useEffect(() => {
@@ -130,9 +132,11 @@ const Article = (props) => {
           {props.backButton}
         </Box>
         {!props.widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
-          <IconButton >
+          <IconButton ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
+              open={sharePopoverOpen}
+              anchorEl={shareButtonRef.current}
               anchorOrigin={{
                 vertical: 'bottom',
                 horizontal: 'left',
@@ -274,7 +278,7 @@ const BilingualSection = (props) => {
         >
           {props.titleLatin}
         </Typography>
-        {formatBody().map((paragraph, index) => (
+        <>{formatBody().map((paragraph, index) => (
           <BilingualSectionParagraph
             key={props.key_ + "-" + index}
             text={paragraph.text}
@@ -285,7 +289,7 @@ const BilingualSection = (props) => {
             markdownNewlines={props.markdownNewlines}
             widgetMode={props.widgetMode}
           />
-        ))}
+        ))}</>
       </Box>
   )
 }

@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
-import {appbarDarkGrey, getDesignTokens} from './theme';
+import {appbarDarkGrey, getDesignTokens} from '@/components/designTokens';
 import {AppBar, Container, createTheme, CssBaseline, Toolbar, Typography, useMediaQuery} from "@mui/material";
 
 import {Link as MUILink} from "@mui/material";
@@ -72,9 +72,14 @@ export default function RootLayout({children}) {
             <Typography
               sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{"1.1.1"}</Typography>
           </ContainerMedium>
-          <CookieConsent enableDeclineButton debug={true} declineButtonStyle={{background: appbarDarkGrey}}
-                         buttonStyle={{background: "#e49086"}} declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
-                         buttonText="OK">
+          <CookieConsent
+            cookieName="MMCookieConsent"
+            cookiePath="/"
+            enableDeclineButton
+            declineButtonStyle={{background: appbarDarkGrey}}
+            buttonStyle={{background: "#e49086"}}
+            declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
+            buttonText="OK">
             {MSG_COOKIES[lang]}
             <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
               {MSG_POLICY_LINK[lang]}

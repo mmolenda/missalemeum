@@ -164,12 +164,12 @@ export default function ListProper({lang, year, items}) {
                   <SidenavListItem key={dateParsed.format("MMYYYY")} sx={{borderLeft: 0, borderRight: 0}}>
                     <ListItemText
                       primary={dateParsed.format("MMMM YYYY")}
-                      primaryTypographyProps={{
+                      slotProps={{primary: {
                         py: "1.5rem",
                         textTransform: "uppercase",
                         fontWeight: 600,
                         fontFamily: (theme) => theme.typography.fontFamily
-                      }}
+                      }}}
                     />
                   </SidenavListItem>}</>
 
