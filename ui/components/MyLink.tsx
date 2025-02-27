@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function MyLink(props) {
 	let [pathname, search] = props.href.split("?")
-	console.log(pathname, search)
 	return pathname.startsWith("http") || props.widgetMode === true
 		? <MUILink target="_blank" href={(search && !search.startsWith("ref")) ? props.href : pathname}>{props.text}</MUILink>
 		: <MUILink

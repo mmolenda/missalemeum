@@ -104,7 +104,6 @@ export default function MainMenu(props) {
   };
 
   const toggleDarkMode = (darkModeNew) => {
-    console.log(darkModeNew)
     if (darkModeNew === false && props.darkMode !== false) {
       props.setDarkMode(false)
       myLocalStorage.setItem("darkMode", "false")

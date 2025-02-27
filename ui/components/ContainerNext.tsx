@@ -9,6 +9,8 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 export default function ContainerNext({lang, id, content, backButtonRef, singleColumnAsRubric, widgetMode}) {
   const markdownNewlines = false
+  console.log("###x", content)
+
 
   let backButton = (backButtonRef && <IconButton
     component={Link}
