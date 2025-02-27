@@ -4,7 +4,6 @@ import Link from "next/link";
 import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import React, {createRef, Fragment, useEffect, useState} from "react";
 import {COMMEMORATION, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 import moment from "moment";
@@ -105,113 +104,99 @@ export default function ListProper({lang, year, items}) {
   }
 
   return (
-    <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
-      <Box
-
-        id="content"
-        sx={{
-          overflowY: 'scroll',
-          width: '100%',
-          ml: 0,
-          pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
-          height: "100%"
-        }}>
-
-
-        <Box sx={{
-          position: "fixed",
-          display: "flex",
-          top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
-          width: "875px",
-          p: "0.75rem",
-          boxShadow: 2,
-          backgroundColor: "background.default",
-          zIndex: 100
-        }}>
-          <Autocomplete
-            size="small"
-            sx={{width: "30%"}}
-            freeSolo
-            value={filterString}
-            onInputChange={(event, newValue) => {
-              setFilterString(newValue)
-              filterItems(filterString)
-            }}
-            options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
-            renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
-              return (<TextField
-                {...params}
-                label={SEARCH_PLACEHOLDER[lang]}
-              />)
-            }}
-          />
-          <MyDatePicker lang={lang}/>
-        </Box>
-        <List>
-          <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
-
-          {itemsFiltered.map((indexItem) => {
-              let colorCode = indexItem.colors[0]
-              let dateParsed = moment(indexItem.id, "YYYY-MM-DD")
-              let isFirstDayOfMonth = dateParsed.date() === 1
-              let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
-              let isSunday = dateParsed.isoWeekday() === 7
-              let myRef = createRef()
-              listItemRefs[indexItem.id] = myRef
-              return <Fragment key={indexItem.id + "1"}>
-                {/* Optional heading with the name of month and year */}
-                <>{(isFirstDayOfMonth) &&
-                  <SidenavListItem key={dateParsed.format("MMYYYY")} sx={{borderLeft: 0, borderRight: 0}}>
-                    <ListItemText
-                      primary={dateParsed.format("MMMM YYYY")}
-                      slotProps={{primary: {
+    <>
+      <Box sx={{
+        position: "fixed",
+        display: "flex",
+        top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
+        width: "875px",
+        p: "0.75rem",
+        boxShadow: 2,
+        backgroundColor: "background.default",
+        zIndex: 100
+      }}>
+        <Autocomplete
+          size="small"
+          sx={{width: "30%"}}
+          freeSolo
+          value={filterString}
+          onInputChange={(event, newValue) => {
+            setFilterString(newValue)
+            filterItems(filterString)
+          }}
+          options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
+          renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
+            return (<TextField
+              {...params}
+              label={SEARCH_PLACEHOLDER[lang]}
+            />)
+          }}
+        />
+        <MyDatePicker lang={lang}/>
+      </Box>
+      <List>
+        <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
+        {itemsFiltered.map((indexItem) => {
+            let colorCode = indexItem.colors[0]
+            let dateParsed = moment(indexItem.id, "YYYY-MM-DD")
+            let isFirstDayOfMonth = dateParsed.date() === 1
+            let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
+            let isSunday = dateParsed.isoWeekday() === 7
+            let myRef = createRef()
+            listItemRefs[indexItem.id] = myRef
+            return <Fragment key={indexItem.id + "1"}>
+              {/* Optional heading with the name of month and year */}
+              <>{(isFirstDayOfMonth) &&
+                <SidenavListItem key={dateParsed.format("MMYYYY")} sx={{borderLeft: 0, borderRight: 0}}>
+                  <ListItemText
+                    primary={dateParsed.format("MMMM YYYY")}
+                    slotProps={{
+                      primary: {
                         py: "1.5rem",
                         textTransform: "uppercase",
                         fontWeight: 600,
                         fontFamily: (theme) => theme.typography.fontFamily
-                      }}}
-                    />
-                  </SidenavListItem>}</>
+                      }
+                    }}
+                  />
+                </SidenavListItem>}</>
 
-                {/* Regular calendar day */}
-                <SidenavListItem
-                  ref={myRef}
-                  key={indexItem.id}
-                  disableGutters
-                  sx={{
-                    boxShadow: (isLastDayOfMonth) ? 1 : 0,
-                    borderTop: (isSunday) ? "2px solid" : "",
-                    borderTopColor: (isSunday) ? "text.disabled" : "",
-                    borderLeftWidth: "5px",
-                    borderLeftStyle: "solid",
-                    borderLeftColor: `vestment${colorCode}.main`
-                  }}>
-                  <ListItemButton
-                    selected={indexItem.id == selectedItem}
-                    component={Link}
-                    to={{pathname: `/${lang}/${indexItem.id}`, hash: ""}}
-                  >
-                    <>{indexItem.id === todayFmt &&
-                      <ListItemIcon sx={{minWidth: "2.5rem", display: "flex", alignItems: "center"}}><EventIcon
-                        sx={{color: "secondary.main"}}/></ListItemIcon>}</>
-                    <SidenavListItemText
-                      rank={indexItem.rank}
-                      primary={indexItem.title}
-                      secondary={`${dateParsed.format("dd DD.MM")} / 
+              {/* Regular calendar day */}
+              <SidenavListItem
+                ref={myRef}
+                key={indexItem.id}
+                disableGutters
+                sx={{
+                  boxShadow: (isLastDayOfMonth) ? 1 : 0,
+                  borderTop: (isSunday) ? "2px solid" : "",
+                  borderTopColor: (isSunday) ? "text.disabled" : "",
+                  borderLeftWidth: "5px",
+                  borderLeftStyle: "solid",
+                  borderLeftColor: `vestment${colorCode}.main`
+                }}>
+                <ListItemButton
+                  selected={indexItem.id == selectedItem}
+                  component={Link}
+                  to={{pathname: `/${lang}/${indexItem.id}`, hash: ""}}
+                >
+                  <>{indexItem.id === todayFmt &&
+                    <ListItemIcon sx={{minWidth: "2.5rem", display: "flex", alignItems: "center"}}><EventIcon
+                      sx={{color: "secondary.main"}}/></ListItemIcon>}</>
+                  <SidenavListItemText
+                    rank={indexItem.rank}
+                    primary={indexItem.title}
+                    secondary={`${dateParsed.format("dd DD.MM")} / 
                   ${RANK_NAMES[lang][indexItem.rank]}
                   ${(indexItem.commemorations && indexItem.commemorations.length > 0) ? " / " + COMMEMORATION[lang] + " " + indexItem.commemorations.join(", ") : ""}`}
-                    />
-                  </ListItemButton>
-                </SidenavListItem>
-              </Fragment>
-            }
-          )}
-
-          <PrevOrNextYearListItem lang={lang} year={year} isNext={true}/>
-        </List>
-      </Box>
-    </ContainerMedium>
-
+                  />
+                </ListItemButton>
+              </SidenavListItem>
+            </Fragment>
+          }
+        )}
+        <PrevOrNextYearListItem lang={lang} year={year} isNext={true}/>
+      </List>
+    </>
   )
 }
 
@@ -231,7 +216,7 @@ function PrevOrNextYearListItem({lang, year, isNext}) {
       >
         <>{!isNext ? <ListItemIcon><ArrowBackIcon sx={{color: "secondary.main"}}/></ListItemIcon> : null}</>
         <SidenavListItemText primary={isNext ? nextYear : prevYear}/>
-        <>{ isNext && <ListItemIcon><ArrowForwardIcon sx={{color: "secondary.main"}}/></ListItemIcon>}</>
+        <>{isNext && <ListItemIcon><ArrowForwardIcon sx={{color: "secondary.main"}}/></ListItemIcon>}</>
       </ListItemButton>
     </SidenavListItem>)
 }

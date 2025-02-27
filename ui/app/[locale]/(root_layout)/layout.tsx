@@ -4,7 +4,7 @@ import React, {useEffect, useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
 import {appbarDarkGrey, getDesignTokens} from '@/components/designTokens';
-import {AppBar, Container, createTheme, CssBaseline, Toolbar, Typography, useMediaQuery} from "@mui/material";
+import {AppBar, Box, Container, createTheme, CssBaseline, Toolbar, Typography, useMediaQuery} from "@mui/material";
 
 import {Link as MUILink} from "@mui/material";
 import Logo from "@/components/Logo";
@@ -64,7 +64,26 @@ export default function RootLayout({children}) {
               </MUILink>
             </Toolbar>
           </AppBar>
+
+    <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
+
+      <Box
+        id="content"
+        sx={{
+          overflowY: 'scroll',
+          width: '100%',
+          ml: 0,
+          pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
+          height: "100%"
+        }}
+      >
+
           {children}
+
+    </Box>
+
+
+</ContainerMedium>
           <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
             <Typography
               sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩
