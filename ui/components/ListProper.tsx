@@ -5,7 +5,7 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import React, {createRef, Fragment, useEffect, useState} from "react";
-import {COMMEMORATION, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
+import {COMMEMORATION, IN, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 import moment from "moment";
 import {
   Autocomplete,
@@ -122,13 +122,13 @@ export default function ListProper({lang, year, items}) {
           value={filterString}
           onInputChange={(event, newValue) => {
             setFilterString(newValue)
-            filterItems(filterString)
+            filterItems(newValue)
           }}
           options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
             return (<TextField
               {...params}
-              label={SEARCH_PLACEHOLDER[lang]}
+              label={`${SEARCH_PLACEHOLDER[lang]} ${IN[lang]} ${year}`}
             />)
           }}
         />

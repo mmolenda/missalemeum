@@ -6,9 +6,9 @@ import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import React, {createRef, useEffect, useState} from "react";
-import {SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
+import {SEARCH_PLACEHOLDER} from "@/components/intl";
 
-export default function ListCommon({lang, sidenavPath, items}) {
+export default function ListCommon({lang, sidenavPath, items, searchSuggestions}) {
   let [selectedItem, setSelectedItem] = useState("")
   let listItemRefs = {}
   const [itemsFiltered, setItemsFiltered] = useState(items)
@@ -66,7 +66,7 @@ export default function ListCommon({lang, sidenavPath, items}) {
             setFilterString(newValue)
             filterItems(newValue)
           }}
-          options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
+          options={searchSuggestions || []}
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
             return (<TextField
               {...params}

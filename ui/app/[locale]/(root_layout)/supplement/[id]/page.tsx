@@ -11,5 +11,5 @@ export default async function Page({params, searchParams}) {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/supplement/${id}`, {mode: "cors"});
   response.status !== 200 && notFound()
   const proper = await response.json();
-  return <ContainerNext lang={locale} id={id} content={proper} backButtonRef={backButtonRef} />
+  return <ContainerNext lang={locale} id={id} content={proper} backButtonRef={backButtonRef} markdownNewlines={true} />
 }
