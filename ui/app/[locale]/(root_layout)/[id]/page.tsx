@@ -5,9 +5,8 @@ import { notFound } from "next/navigation";
 import BilingualContent from "@/components/BilingualContent";
 
 
-export default async function Page({params}) {
-  const locale = (await params).locale
-  const id = (await params).id
+export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
+  const { id, locale } = await params
 
   if (/^\d{4}$/.test(id)) {
     // we will render either Proper's content or calendar for given year here

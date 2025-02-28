@@ -9,9 +9,9 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {POWERED_BY, TODAY} from "./intl";
 import {ContainerMedium} from "./styledComponents/ContainerMedium";
-import ContainerNext from "@/components/ContainerNext";
 import Link from "next/link";
 import { Link as MUILink } from "@mui/material";
+import BilingualContent from "@/components/BilingualContent";
 
 export default function WidgetPropers({lang, id, content, version}) {
   let date = moment(id)
@@ -25,7 +25,7 @@ export default function WidgetPropers({lang, id, content, version}) {
       <Button component={Link}  size="small" variant="outlined"
               href={`/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`}>{TODAY[lang]}</Button>&nbsp;
     </ContainerMedium>
-      <ContainerNext
+      <BilingualContent
         lang={lang}
         id={id}
         content={content}
