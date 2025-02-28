@@ -1,8 +1,8 @@
 import React from "react";
-import ContainerNext from "@/components/ContainerNext";
 import ListProper from "@/components/ListProper";
 import moment from "moment/moment";
 import { notFound } from "next/navigation";
+import BilingualContent from "@/components/BilingualContent";
 
 
 export default async function Page({params}) {
@@ -23,6 +23,6 @@ export default async function Page({params}) {
     const providedYear = id.split("-")[0]
     let currentYear = moment().format("YYYY")
     let yearBit = providedYear != currentYear ? `/${providedYear}` : ""
-    return <ContainerNext lang={locale} id={id} content={await response.json()} backButtonRef={`/${locale}${yearBit}#${id}`}/>
+    return <BilingualContent lang={locale} id={id} content={await response.json()} backButtonRef={`/${locale}${yearBit}#${id}`}/>
   }
 }

@@ -1,3 +1,5 @@
+"use client"
+
 import ReactDOMServer from 'react-dom/server';
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
@@ -22,13 +24,15 @@ import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import {createRef, Fragment, useEffect, useRef, useState} from "react";
+import React, {createRef, Fragment, useEffect, useRef, useState} from "react";
+import Link from "next/link";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 
 const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
 
-export default function BilingualContent(props) {
+export default function BilingualContent({lang, id, content, singleColumnAsRubric, backButtonRef, markdownNewlines = false, widgetMode = false}) {
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -36,17 +40,25 @@ export default function BilingualContent(props) {
     setIndex(parseInt(hashValue) || 0)
   })
 
+  let backButton = (backButtonRef && <IconButton
+    component={Link}
+    href={backButtonRef}
+    sx={{backgroundColor: "background.default", opacity: 0.9}}
+  >
+    <ArrowBackIcon/>
+  </IconButton>)
+
   return (
     <Article
-      id={props.id}
-      lang={props.lang}
-      content={props.contents}
+      id={id}
+      lang={lang}
+      content={content}
       index={index}
       setIndex={setIndex}
-      singleColumnAsRubric={props.singleColumnAsRubric}
-      backButton={props.backButton}
-      markdownNewlines={props.markdownNewlines}
-      widgetMode={props.widgetMode}
+      singleColumnAsRubric={singleColumnAsRubric}
+      backButton={backButton}
+      markdownNewlines={markdownNewlines}
+      widgetMode={widgetMode}
     />
   )
 }
