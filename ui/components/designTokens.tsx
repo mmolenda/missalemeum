@@ -1,5 +1,5 @@
 import {grey} from "@mui/material/colors";
-import {createTheme} from "@mui/material";
+import {createTheme, PaletteMode} from "@mui/material";
 
 
 const defaultTheme = createTheme()
@@ -8,11 +8,11 @@ const darkRedLightMode = '#b76d6d'
 const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
 
-const translateFontSize = (fontSizeName) => {
+const translateFontSize = (fontSizeName: string) => {
   return {"small": 12, "medium": 14, "large": 18}[fontSizeName] || 14
 }
 
-export const getDesignTokens = (mode, fontSizeName) => ({
+export const getDesignTokens = (mode: PaletteMode, fontSizeName: string) => ({
   palette: {
     mode,
     ...(mode === 'light'

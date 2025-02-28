@@ -13,7 +13,7 @@ export default async function Page({params}: { params: Promise<{locale: string, 
     // depending on passed ID. This is a subject to change when new URL layout
     // is done.
     const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/calendar/${id}`, {mode: "cors"});
-    return <ListProper lang={locale} year={id} items={await response.json()}/>
+    return <ListProper lang={locale} year={parseInt(id)} items={await response.json()}/>
   } else {
     let parsedDate = moment(id)
     !parsedDate.isValid() && notFound()

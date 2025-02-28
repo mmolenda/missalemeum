@@ -11,82 +11,96 @@ import {
     ToggleButtonGroup
 } from "@mui/material";
 import {
-    MENUITEM_CANTICUM, MENUITEM_INFO,
-    MENUITEM_ORATIO,
-    MENUITEM_ORDO,
-    MENUITEM_PROPER,
-    MENUITEM_SUPPLEMENT,
-    MENUITEM_VOTIVE, MENUITEM_WHATSNEW
+  Locale,
+  MENUITEM_CANTICUM, MENUITEM_INFO,
+  MENUITEM_ORATIO,
+  MENUITEM_ORDO,
+  MENUITEM_PROPER,
+  MENUITEM_SUPPLEMENT,
+  MENUITEM_VOTIVE, MENUITEM_WHATSNEW
 } from "@/components/intl";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, {Dispatch, SetStateAction, useState} from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from "@mui/icons-material/Close";
 import List from "@mui/material/List";
 import DrawerListItemText from "@/components/styledComponents/DrawerListItemText";
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import { useParams } from 'next/navigation'
 import {myLocalStorage} from "./myLocalStorage";
 
 
-const LeftHandMenu = (props) => {
+const LeftHandMenu = ({
+  lang,
+  toggleDrawer,
+  toggleDarkMode,
+  darkMode,
+  switchFontSize,
+  fontSize
+                      }: {
+  lang: string
+  toggleDrawer: any
+  toggleDarkMode: any
+  darkMode: boolean | undefined
+  switchFontSize: any
+  fontSize: string
+}) => {
   return (
     <Box
       sx={{width: 300}}
       role="presentation"
-      onClick={props.toggleDrawer(false)}
-      onKeyDown={props.toggleDrawer(false)}
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
     >
-      <IconButton onClick={props.toggleDrawer(false)}>
+      <IconButton onClick={toggleDrawer(false)}>
         <CloseIcon />
       </IconButton>
       <List>
         {Object.entries({
-          [MENUITEM_PROPER[props.lang]]: `/${props.lang}`,
-          [MENUITEM_ORDO[props.lang]]: `/${props.lang}/ordo`,
-          [MENUITEM_VOTIVE[props.lang]]: `/${props.lang}/votive`,
-          [MENUITEM_ORATIO[props.lang]]: `/${props.lang}/oratio`,
-          [MENUITEM_CANTICUM[props.lang]]: `/${props.lang}/canticum`,
-          [MENUITEM_SUPPLEMENT[props.lang]]: `/${props.lang}/supplement/index`,
-          [MENUITEM_INFO[props.lang]]: `/${props.lang}/supplement/info`
+          [MENUITEM_PROPER[lang as Locale]]: `/${lang}`,
+          [MENUITEM_ORDO[lang as Locale]]: `/${lang}/ordo`,
+          [MENUITEM_VOTIVE[lang as Locale]]: `/${lang}/votive`,
+          [MENUITEM_ORATIO[lang as Locale]]: `/${lang}/oratio`,
+          [MENUITEM_CANTICUM[lang as Locale]]: `/${lang}/canticum`,
+          [MENUITEM_SUPPLEMENT[lang as Locale]]: `/${lang}/supplement/index`,
+          [MENUITEM_INFO[lang as Locale]]: `/${lang}/supplement/info`
         }).map(([label, route]) => (
           <ListItem key={label}>
             <ListItemButton
               component={Link}
-              to={route}
+              href={route}
             >
-              <DrawerListItemText primary={label}/>
+              <DrawerListItemText prim={label}/>
             </ListItemButton>
           </ListItem>
         ))}
         <ListItem key="whatsnew">
           <ListItemButton
             component={Link}
-            to={"https://github.com/mmolenda/missalemeum/releases"}
+            href={"https://github.com/mmolenda/missalemeum/releases"}
             target={"_blank"}
           >
-            <DrawerListItemText primary={MENUITEM_WHATSNEW[props.lang]}/>
+            <DrawerListItemText prim={MENUITEM_WHATSNEW[lang as Locale]}/>
           </ListItemButton>
         </ListItem>
         <Divider/>
         <ListItem key="lang">
-          <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} href="/en" value="en" selected={props.lang === "en"}>English</ToggleButton>
-            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} href="/pl" value="pl" selected={props.lang === "pl"}>Polski</ToggleButton>
+          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} href="/en" value="en" selected={lang === "en"}>English</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} href="/pl" value="pl" selected={lang === "pl"}>Polski</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">
-          <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => props.toggleDarkMode(false)} value="light" selected={props.darkMode === false}><LightModeIcon /></ToggleButton>
-            <ToggleButton onClick={() => props.toggleDarkMode(true)} value="dark" selected={props.darkMode === true}><DarkModeIcon /></ToggleButton>
+          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
+            <ToggleButton onClick={() => toggleDarkMode(false)} value="light" selected={!darkMode}><LightModeIcon /></ToggleButton>
+            <ToggleButton onClick={() => toggleDarkMode(true)} value="dark" selected={darkMode}><DarkModeIcon /></ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="font">
-          <ToggleButtonGroup color="secondary" variant="outlined" aria-label="outlined secondary button group">
-            <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => props.switchFontSize("small")} value="small" selected={props.fontSize === "small"}>A</ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => props.switchFontSize("medium")} value="medium" selected={["medium", undefined, null].includes(props.fontSize)}>A</ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => props.switchFontSize("large")} value="large" selected={props.fontSize === "large"}>A</ToggleButton>
+          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
+            <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => switchFontSize("small")} value="small" selected={fontSize === "small"}>A</ToggleButton>
+            <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => switchFontSize("medium")} value="medium" selected={["medium", undefined, null].includes(fontSize)}>A</ToggleButton>
+            <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => switchFontSize("large")} value="large" selected={fontSize === "large"}>A</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
       </List>
@@ -95,29 +109,39 @@ const LeftHandMenu = (props) => {
 
 
 
-export default function MainMenu(props) {
-    const lang = props.lang
-    const fontSize = props.fontSize
+export default function MainMenu({
+  lang,
+  fontSize,
+  darkMode,
+  setDarkMode,
+  setFontSize
+                                 }: {
+  lang: string
+  fontSize: string
+  darkMode: boolean | undefined
+  setDarkMode: Dispatch<SetStateAction<boolean | undefined>>
+  setFontSize: Dispatch<SetStateAction<string>>
+}) {
     const [drawerOpened, setDrawerOpened] = useState(false)
-  const toggleDrawer = (open) => () => {
+  const toggleDrawer = (open: boolean) => () => {
     setDrawerOpened(open)
   };
 
-  const toggleDarkMode = (darkModeNew) => {
-    if (darkModeNew === false && props.darkMode !== false) {
-      props.setDarkMode(false)
+  const toggleDarkMode = (darkModeNew: boolean) => {
+    if (darkModeNew === false && darkMode !== false) {
+      setDarkMode(false)
       myLocalStorage.setItem("darkMode", "false")
-    } else if (darkModeNew === true && props.darkMode !== true) {
-      props.setDarkMode(true)
+    } else if (darkModeNew === true && darkMode !== true) {
+      setDarkMode(true)
       myLocalStorage.setItem("darkMode", "true")
     } else {
-      props.setDarkMode(undefined)
+      setDarkMode(undefined)
       myLocalStorage.removeItem("darkMode")
     }
   }
 
-  const switchFontSize = (fontSizeNew) => {
-    props.setFontSize(fontSizeNew)
+  const switchFontSize = (fontSizeNew: string) => {
+    setFontSize(fontSizeNew)
     myLocalStorage.setItem("fontSize", fontSizeNew)
   }
 
@@ -142,7 +166,7 @@ export default function MainMenu(props) {
             <LeftHandMenu
                 lang={lang}
                 toggleDrawer={toggleDrawer}
-                darkMode={props.darkMode}
+                darkMode={darkMode}
                 toggleDarkMode={toggleDarkMode}
                 fontSize={fontSize}
                 switchFontSize={switchFontSize}

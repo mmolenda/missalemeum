@@ -245,8 +245,8 @@ const Article = ({
           </Box>
           <>{content.info.description &&
             <Typography component="div" variant="body1" align="justify" sx={{padding: "0.5rem", hyphens: "auto"}}>
-              <Md text={content.info.description} markdownNewlines={markdownNewlines}
-                  widgetMode={widgetMode}/>
+              {/*<Md text={content.info.description} markdownNewlines={markdownNewlines}*/}
+              {/*    widgetMode={widgetMode}/>*/}
             </Typography>}</>
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
@@ -418,7 +418,7 @@ const BilingualSectionParagraph = ({
         hyphens: "auto"
       }}
     >
-      <Md text={text} markdownNewlines={markdownNewlines} widgetMode={widgetMode}/>
+      {/*<Md text={text} markdownNewlines={markdownNewlines} widgetMode={widgetMode}/>*/}
     </Typography>
   )
 }

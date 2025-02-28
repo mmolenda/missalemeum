@@ -32,3 +32,13 @@ export type Content = {
   info: Info
   sections: Section[]
 }
+
+export type ListItemType = {
+  id: string
+  title: string
+  tags: string[]
+  label: string
+  colors: string[]
+  rank: number
+  commemorations: string[]
+}

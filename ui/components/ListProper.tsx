@@ -4,7 +4,7 @@ import Link from "next/link";
 import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import React, {createRef, Fragment, useEffect, useState} from "react";
+import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useState} from "react";
 import {COMMEMORATION, IN, Locale, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 import moment from "moment";
 import {
@@ -26,15 +26,24 @@ import {LocalizationProvider, MobileDatePicker} from "@mui/x-date-pickers";
 import {AdapterDayjs} from "@mui/x-date-pickers/AdapterDayjs";
 import "dayjs/locale/pl";
 import {useRouter} from "next/navigation";
+import {ListItemType} from "@/components/types";
+import {Dayjs} from "dayjs";
 
-export default function ListProper({lang, year, items}) {
+export default function ListProper({
+                                     lang,
+                                     year,
+                                     items}: {
+  lang: string
+  year: number
+  items: ListItemType[]
+}) {
   const dateFormat = 'YYYY-MM-DD'
   const todayFmt = moment().format(dateFormat)
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
   const [selectedItem, setSelectedItem] = useState("")
   const router = useRouter()
-  let listItemRefs = {}
+  const listItemRefs: Record<string, RefObject<any>> = {}
 
   useEffect(() => {
     setSelectedItem(window.location.hash.substring(1) || todayFmt)
@@ -44,7 +53,7 @@ export default function ListProper({lang, year, items}) {
     }
   })
 
-  const filterItems = (filterString) => {
+  const filterItems = (filterString: string) => {
     if (filterString.length === 0) {
       setItemsFiltered(items)
     } else if (filterString.length > 2) {
@@ -60,16 +69,11 @@ export default function ListProper({lang, year, items}) {
     }
   }
 
-  function ButtonField(props) {
-    const {
-      setOpen,
-      label,
-      id,
-      disabled,
-      InputProps: {ref} = {},
-      inputProps: {'aria-label': ariaLabel} = {},
-    } = props;
+  interface ButtonFieldProps {
+    setOpen?: Dispatch<SetStateAction<boolean>>;
+  }
 
+  function ButtonField({ setOpen }: ButtonFieldProps) {
     return (
       <IconButton
         onClick={() => setOpen?.((prev) => !prev)}
@@ -79,11 +83,9 @@ export default function ListProper({lang, year, items}) {
     )
   }
 
-  const MyDatePicker = (props) => {
+  const MyDatePicker = () => {
     const [open, setOpen] = useState(false);
-    let locale = {"en": "", "pl": "pl"}[props.lang]
-
-    const handleDateChange = (newValue) => {
+    const handleDateChange = (newValue: Dayjs | null) => {
       if (newValue) {
         router.push(`${lang}/${newValue.format(dateFormat)}`);
       }
@@ -91,9 +93,8 @@ export default function ListProper({lang, year, items}) {
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="pl">
         <MobileDatePicker
-          slots={{...props.slots, field: ButtonField}}
-          slotProps={{...props.slotProps, field: {setOpen} as any}}
-          {...props}
+          slots={{field: ButtonField}}
+          slotProps={{field: {setOpen} as any}}
           open={open}
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}
@@ -108,7 +109,13 @@ export default function ListProper({lang, year, items}) {
       <Box sx={{
         position: "fixed",
         display: "flex",
-        top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height,
+        top: (theme) => {
+            // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
+            // all the code below is to appease typescript linter
+            const root = theme.components?.MuiAppBar?.styleOverrides?.root;
+            const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
+            return height as string;
+          },
         width: "875px",
         p: "0.75rem",
         boxShadow: 2,
@@ -132,7 +139,7 @@ export default function ListProper({lang, year, items}) {
             />)
           }}
         />
-        <MyDatePicker lang={lang}/>
+        <MyDatePicker />
       </Box>
       <List>
         <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
@@ -142,7 +149,7 @@ export default function ListProper({lang, year, items}) {
             let isFirstDayOfMonth = dateParsed.date() === 1
             let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
             let isSunday = dateParsed.isoWeekday() === 7
-            let myRef = createRef()
+            let myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
             listItemRefs[indexItem.id] = myRef
             return <Fragment key={indexItem.id + "1"}>
               {/* Optional heading with the name of month and year */}
@@ -177,15 +184,15 @@ export default function ListProper({lang, year, items}) {
                 <ListItemButton
                   selected={indexItem.id == selectedItem}
                   component={Link}
-                  to={{pathname: `/${lang}/${indexItem.id}`, hash: ""}}
+                  href={`/${lang}/${indexItem.id}`}
                 >
                   <>{indexItem.id === todayFmt &&
                     <ListItemIcon sx={{minWidth: "2.5rem", display: "flex", alignItems: "center"}}><EventIcon
                       sx={{color: "secondary.main"}}/></ListItemIcon>}</>
                   <SidenavListItemText
                     rank={indexItem.rank}
-                    primary={indexItem.title}
-                    secondary={`${dateParsed.format("dd DD.MM")} / 
+                    prim={indexItem.title}
+                    sec={`${dateParsed.format("dd DD.MM")} / 
                   ${RANK_NAMES[lang as Locale][indexItem.rank]}
                   ${(indexItem.commemorations && indexItem.commemorations.length > 0) ? " / " + COMMEMORATION[lang as Locale] + " " + indexItem.commemorations.join(", ") : ""}`}
                   />
@@ -200,10 +207,10 @@ export default function ListProper({lang, year, items}) {
   )
 }
 
-function PrevOrNextYearListItem({lang, year, isNext}) {
-  const prevYear = parseInt(year) - 1
+function PrevOrNextYearListItem({lang, year, isNext}: {lang: string, year: number, isNext: boolean}) {
+  const prevYear = year - 1
   const prevYearLastDay = prevYear + "-12-31"
-  const nextYear = parseInt(year) + 1
+  const nextYear = year + 1
   const nextYearFirstDay = nextYear + "-01-01"
   return (
     <SidenavListItem
@@ -212,10 +219,10 @@ function PrevOrNextYearListItem({lang, year, isNext}) {
     >
       <ListItemButton
         component={Link}
-        to={{pathname: `/${lang}/${isNext ? nextYearFirstDay : prevYearLastDay}`, hash: ""}}
+        href={`/${lang}/${isNext ? nextYearFirstDay : prevYearLastDay}`}
       >
         <>{!isNext ? <ListItemIcon><ArrowBackIcon sx={{color: "secondary.main"}}/></ListItemIcon> : null}</>
-        <SidenavListItemText primary={isNext ? nextYear : prevYear}/>
+        <SidenavListItemText prim={(isNext ? nextYear : prevYear).toString()}/>
         <>{isNext && <ListItemIcon><ArrowForwardIcon sx={{color: "secondary.main"}}/></ListItemIcon>}</>
       </ListItemButton>
     </SidenavListItem>)

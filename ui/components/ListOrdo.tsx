@@ -6,11 +6,18 @@ import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {ListItemButton} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import slugify from "slugify";
+import {ListItemType} from "@/components/types";
 
-export default function ListOrdo({lang, items}) {
+export default function ListOrdo({
+                                   lang,
+                                   items
+}: {
+  lang: string
+  items: ListItemType[]
+}) {
   return (
     <List>
-      {items.map((indexItem) => {
+      <>{items.map((indexItem) => {
         return (
           <SidenavListItem
             key={indexItem.label}
@@ -18,14 +25,14 @@ export default function ListOrdo({lang, items}) {
           >
             <ListItemButton
               component={Link}
-              to={{pathname: `/${lang}/ordo`, hash: slugify(indexItem.label)}}
+              href={`/${lang}/ordo#${slugify(indexItem.label)}`}
             >
               <SidenavListItemText
-                primary={indexItem.label}
+                prim={indexItem.label}
               />
             </ListItemButton>
           </SidenavListItem>)
-      })}
+      })}</>
     </List>
   )
 }

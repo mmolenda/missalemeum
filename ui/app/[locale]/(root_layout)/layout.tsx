@@ -38,10 +38,10 @@ export default function RootLayout({
                                    }: {
   children: React.ReactNode;
 }) {
-  const params = useParams()
-  const locale = params.locale
+  const { locale } = useParams<{ locale?: string }>()
+  const lang = typeof locale === "string" ? locale : "en"
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
-  const [fontSize, setFontSize] = useState<string | undefined>("medium")
+  const [fontSize, setFontSize] = useState<string>("medium")
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
 
   useEffect(() => {
@@ -58,8 +58,6 @@ export default function RootLayout({
   }
   const mode = getThemeMode()
   // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
-
-
   const theme = createTheme(getDesignTokens(mode, fontSize));
 
   return (<html lang="en" className={merriweather.className}>
@@ -71,7 +69,7 @@ export default function RootLayout({
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
-                lang={locale}
+                lang={lang}
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
                 fontSize={fontSize}

@@ -4,7 +4,7 @@ import React from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
 import {getDesignTokens} from '@/components/designTokens';
-import {Box, createTheme, CssBaseline} from "@mui/material";
+import {Box, createTheme, CssBaseline, PaletteMode} from "@mui/material";
 
 import {Merriweather} from 'next/font/google'
 
@@ -22,7 +22,10 @@ export default function RootLayout({
 }) {
   const queryParameters = new URLSearchParams(window.location.search)
   const fontSize = "medium"
-  const lightOrDark = {"light": "light", "dark": "dark", "undefined": null}[queryParameters.get("theme") ?? "undefined"] || "light"
+  const lightOrDark: PaletteMode =
+  (["light", "dark"].includes(queryParameters.get("theme") ?? "")
+    ? (queryParameters.get("theme") as PaletteMode)
+    : "light")
   let designTokens = getDesignTokens(lightOrDark, fontSize)
   designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"
   const theme = React.useMemo(() => createTheme(designTokens), [lightOrDark, fontSize]);
