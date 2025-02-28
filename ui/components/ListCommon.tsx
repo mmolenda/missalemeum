@@ -6,7 +6,7 @@ import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import React, {createRef, useEffect, useState} from "react";
-import {SEARCH_PLACEHOLDER} from "@/components/intl";
+import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 
 export default function ListCommon({
                                      lang,
@@ -81,7 +81,7 @@ export default function ListCommon({
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
             return (<TextField
               {...params}
-              label={SEARCH_PLACEHOLDER[lang]}
+              label={SEARCH_PLACEHOLDER[lang as Locale]}
             />)
           }}
         />

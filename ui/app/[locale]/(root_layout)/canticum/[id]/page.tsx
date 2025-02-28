@@ -8,5 +8,5 @@ export default async function Page({params}: { params: Promise<{locale: string, 
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/canticum/${id}`, {mode: "cors"});
   response.status !== 200 && notFound()
   const item = await response.json();
-  return <BilingualContent lang={locale} id={id} content={item} backButtonRef={`/${locale}/canticum#${id}`} />
+  return <BilingualContent lang={locale} id={id} contents={item} backButtonRef={`/${locale}/canticum#${id}`} />
 }

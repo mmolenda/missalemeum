@@ -5,7 +5,7 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import React, {createRef, Fragment, useEffect, useState} from "react";
-import {COMMEMORATION, IN, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
+import {COMMEMORATION, IN, Locale, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
 import moment from "moment";
 import {
   Autocomplete,
@@ -124,11 +124,11 @@ export default function ListProper({lang, year, items}) {
             setFilterString(newValue)
             filterItems(newValue)
           }}
-          options={SEARCH_SUGGESTIONS_PROPER[lang] || []}
+          options={SEARCH_SUGGESTIONS_PROPER[lang as Locale] || []}
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
             return (<TextField
               {...params}
-              label={`${SEARCH_PLACEHOLDER[lang]} ${IN[lang]} ${year}`}
+              label={`${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${year}`}
             />)
           }}
         />
@@ -186,8 +186,8 @@ export default function ListProper({lang, year, items}) {
                     rank={indexItem.rank}
                     primary={indexItem.title}
                     secondary={`${dateParsed.format("dd DD.MM")} / 
-                  ${RANK_NAMES[lang][indexItem.rank]}
-                  ${(indexItem.commemorations && indexItem.commemorations.length > 0) ? " / " + COMMEMORATION[lang] + " " + indexItem.commemorations.join(", ") : ""}`}
+                  ${RANK_NAMES[lang as Locale][indexItem.rank]}
+                  ${(indexItem.commemorations && indexItem.commemorations.length > 0) ? " / " + COMMEMORATION[lang as Locale] + " " + indexItem.commemorations.join(", ") : ""}`}
                   />
                 </ListItemButton>
               </SidenavListItem>

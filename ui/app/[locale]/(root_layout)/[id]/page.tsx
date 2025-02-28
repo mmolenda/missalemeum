@@ -22,6 +22,6 @@ export default async function Page({params}: { params: Promise<{locale: string, 
     const providedYear = id.split("-")[0]
     let currentYear = moment().format("YYYY")
     let yearBit = providedYear != currentYear ? `/${providedYear}` : ""
-    return <BilingualContent lang={locale} id={id} content={await response.json()} backButtonRef={`/${locale}${yearBit}#${id}`}/>
+    return <BilingualContent lang={locale} id={id} contents={await response.json()} backButtonRef={`/${locale}${yearBit}#${id}`}/>
   }
 }

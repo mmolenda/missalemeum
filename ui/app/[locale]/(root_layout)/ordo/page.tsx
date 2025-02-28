@@ -8,5 +8,5 @@ export default async function Page({params}: { params: Promise<{locale: string, 
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/ordo`, {mode: "cors"});
   response.status !== 200 && notFound()
   const proper = await response.json();
-  return <BilingualContent lang={locale} id={id} content={proper} backButtonRef={`/${locale}/ordo/index`} singleColumnAsRubric={true} />
+  return <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={`/${locale}/ordo/index`} singleColumnAsRubric={true} />
 }

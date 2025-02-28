@@ -13,17 +13,7 @@ import EventIcon from "@mui/icons-material/Event";
 import TimelapseIcon from "@mui/icons-material/Timelapse";
 import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
 import ShieldIcon from "@mui/icons-material/Shield";
-
-
-interface Info {
-  date: string
-  tempora: string
-  rank: number
-  colors: string[]
-  tags: string[]
-}
-
-type ColorCode = 'r' | 'g' | 'w' | 'v' | 'b' | 'p';
+import {ColorCode, Info} from "@/components/types";
 
 
 export default function ArticleTags({lang, info, showIcon}: { lang: string, info: Info, showIcon: boolean }) {

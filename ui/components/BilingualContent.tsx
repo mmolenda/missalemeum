@@ -17,16 +17,17 @@ import 'moment/locale/pl';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import {
-  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, COMMEMORATION
+  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, COMMEMORATION, Locale
 } from "./intl";
 import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import React, {createRef, Fragment, useEffect, useRef, useState} from "react";
+import React, {createRef, Dispatch, Fragment, SetStateAction, useEffect, useRef, useState} from "react";
 import Link from "next/link";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import {Body, Content} from "@/components/types";
 
 
 const xVernacular = 'x-vernacular'
@@ -35,7 +36,7 @@ const xLatin = 'x-latin'
 export default function BilingualContent({
                                            lang,
                                            id,
-                                           content,
+                                           contents,
                                            backButtonRef = "",
                                            singleColumnAsRubric = false,
                                            markdownNewlines = false,
@@ -44,7 +45,7 @@ export default function BilingualContent({
                                            {
                                              lang: string,
                                              id: string,
-                                             content: object,
+                                             contents: Content[],
                                              backButtonRef?: string,
                                              singleColumnAsRubric?: boolean,
                                              markdownNewlines?: boolean,
@@ -69,7 +70,7 @@ export default function BilingualContent({
     <Article
       id={id}
       lang={lang}
-      content={content}
+      contents={contents}
       index={index}
       setIndex={setIndex}
       singleColumnAsRubric={singleColumnAsRubric}
@@ -80,17 +81,37 @@ export default function BilingualContent({
   )
 }
 
-const Article = (props) => {
+const Article = ({
+                   lang,
+                   id,
+                   contents,
+                   index,
+                   setIndex,
+                   markdownNewlines,
+                   backButton,
+                   widgetMode,
+                   singleColumnAsRubric
+                 }: {
+  lang: string
+  id: string
+  contents: Content[]
+  index: number
+  setIndex: Dispatch<SetStateAction<number>>
+  backButton: React.ReactNode
+  markdownNewlines: boolean
+  widgetMode: boolean
+  singleColumnAsRubric: boolean
+}) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
   const [sharePopoverOpen, setSharePopoverOpen] = useState(false)
-  let shareButtonRef = useRef()
-  let content = props.content[props.index]
-  let itemRefs = {}
+  let shareButtonRef = useRef(null)
+  let content: Content = contents[index]
+  const itemRefs: Record<string, React.RefObject<HTMLElement>> = {};
   useEffect(() => {
     scrollToListItem(window.location.hash.substring(1))
   }, [])
 
-  const scrollToListItem = (itemId) => {
+  const scrollToListItem = (itemId: string) => {
     let itemRef = itemRefs[itemId]
     if (itemRef && itemRef.current) {
       itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
@@ -132,21 +153,21 @@ const Article = (props) => {
       <html>
       <body style={{margin: "4%", minWidth: "300px"}}>
       <h1>{content.info.title}</h1>
-      <ArticleTags info={content.info} lang={props.lang} showIcon={false}/>
+      <ArticleTags info={content.info} lang={lang} showIcon={false}/>
       {content.info.description &&
-        <MdPrintable text={content.info.description} markdownNewlines={props.markdownNewlines}/>}
+        <MdPrintable text={content.info.description} markdownNewlines={markdownNewlines}/>}
       {content.sections.map((section) => {
         return <div>
           {section.label && <h2>{section.label}</h2>}
           {section.body.map((paragraph) => {
             return (paragraph.length === 1) ?
               <div>
-                <div><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines}/></div>
+                <div><MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/></div>
               </div> :
               <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}>
                 <div style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]}
-                                                              markdownNewlines={props.markdownNewlines}/></div>
-                <div><MdPrintable text={paragraph[1]} markdownNewlines={props.markdownNewlines}/></div>
+                                                              markdownNewlines={markdownNewlines}/></div>
+                <div><MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/></div>
               </div>
           })}
         </div>
@@ -154,23 +175,29 @@ const Article = (props) => {
       <p><em>https://www.missalemeum.com</em></p>
       </body>
       </html>)
-    newWindow.document.write(ReactDOMServer.renderToStaticMarkup(newContent));
-    newWindow.document.close();
-    newWindow.focus();
+    newWindow && newWindow.document.write(ReactDOMServer.renderToStaticMarkup(newContent));
+    newWindow && newWindow.document.close();
+    newWindow && newWindow.focus();
   }
-  if (props.id === null) {
+  if (id === null) {
     return <SkeletonContent/>
   } else {
     return (
       <>
         <Box sx={{
           position: "fixed",
-          top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height
+          top: (theme) => {
+            // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
+            // all the code below is to appease typescript linter
+            const root = theme.components?.MuiAppBar?.styleOverrides?.root;
+            const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
+            return height as string;
+          }
         }}
         >
-          {props.backButton}
+          {backButton}
         </Box>
-        {!props.widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
+        {!widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
           <IconButton ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
@@ -181,7 +208,7 @@ const Article = (props) => {
                 horizontal: 'left',
               }}
             >
-              <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[props.lang]}</Typography>
+              <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
             </Popover>
           </IconButton>
           <IconButton onClick={() => print()}>
@@ -189,12 +216,12 @@ const Article = (props) => {
           </IconButton>
         </Box>}
         <Box sx={{px: "0.75rem"}}>
-          <>{props.content.length > 1 ?
+          <>{contents.length > 1 ?
             <Select
-              value={props.index}
-              defaultValue={props.index}
+              value={index}
+              defaultValue={index}
               onChange={(e) => {
-                props.setIndex(e.target.value)
+                setIndex(Number(e.target.value))
                 window.location.hash = `#${e.target.value}`;
               }}
               sx={{
@@ -203,7 +230,7 @@ const Article = (props) => {
                 color: (theme) => theme.typography.h2.color
               }}
             >
-              {props.content.map((content, xindex) => {
+              {contents.map((content, xindex) => {
                 return <MenuItem key={xindex} value={xindex}>{content.info.title}</MenuItem>
               })}
             </Select> :
@@ -212,22 +239,22 @@ const Article = (props) => {
             </Typography>
           }</>
           {content.info.commemorations && content.info.commemorations.length > 0 && <Typography
-            variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography>}
+            variant="h3">{COMMEMORATION[lang as Locale]}{" "}{content.info.commemorations.join(", ")}</Typography>}
           <Box sx={{padding: "0.5rem"}}>
-            <ArticleTags info={content.info} lang={props.lang} showIcon/>
+            <ArticleTags info={content.info} lang={lang} showIcon/>
           </Box>
           <>{content.info.description &&
             <Typography component="div" variant="body1" align="justify" sx={{padding: "0.5rem", hyphens: "auto"}}>
-              <Md text={content.info.description} markdownNewlines={props.markdownNewlines}
-                  widgetMode={props.widgetMode}/>
+              <Md text={content.info.description} markdownNewlines={markdownNewlines}
+                  widgetMode={widgetMode}/>
             </Typography>}</>
           {content.info.supplements && content.info.supplements.length > 0 &&
             <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
-              {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
+              {`${MENUITEM_SUPPLEMENT[lang as Locale]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<Fragment key={index}>
-                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label}
-                          widgetMode={props.widgetMode}/>
+                  <MyLink href={`${supplement.path}?ref=${id}`} text={supplement.label}
+                          widgetMode={widgetMode}/>
                   {index + 1 < content.info.supplements.length && ", "}
                 </Fragment>)
               })}
@@ -241,27 +268,48 @@ const Article = (props) => {
                 titleVernacular={section.label}
                 titleLatin={section.id}
                 body={section.body}
-                singleColumnAsRubric={props.singleColumnAsRubric}
+                singleColumnAsRubric={singleColumnAsRubric}
                 bilingualLang={bilingualLang}
-                markdownNewlines={props.markdownNewlines}
-                widgetMode={props.widgetMode}
+                markdownNewlines={markdownNewlines}
+                widgetMode={widgetMode}
                 itemRefs={itemRefs}
               />
             })}
           </Box>
         </Box>
-        {isBilingual() && <BilingualSelector lang={props.lang} bilingualLang={bilingualLang}
-                                             setBilingualLang={(l) => setBilingualLang(l)}/>}
+        {isBilingual() && <BilingualSelector lang={lang} bilingualLang={bilingualLang}
+                                             setBilingualLang={setBilingualLang}/>}
       </>
     )
   }
 }
 
-const BilingualSection = (props) => {
+
+const BilingualSection = ({
+                            key_,
+                            titleVernacular,
+                            titleLatin,
+                            body,
+                            singleColumnAsRubric,
+                            bilingualLang,
+                            markdownNewlines,
+                            widgetMode,
+                            itemRefs
+                          }: {
+  key_: string
+  titleVernacular: string
+  titleLatin: string
+  body: Body
+  singleColumnAsRubric: boolean
+  bilingualLang: string
+  markdownNewlines: boolean
+  widgetMode: boolean
+  itemRefs: any
+}) => {
   let isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
   const formatBody = () => {
     let paragraphs = [];
-    for (let row of props.body) {
+    for (let row of body) {
       let singleColumn = row.length === 1
       for (let [index, col] of row.entries()) {
         let bilingualLangClass = ""
@@ -274,15 +322,15 @@ const BilingualSection = (props) => {
     return paragraphs;
   }
 
-  const showHeading = (bilingualLang) => {
+  const showHeading = (bilingualLang: string) => {
     if (isSmallScreen) {
-      if (bilingualLang === xLatin && !props.titleLatin) {
+      if (bilingualLang === xLatin && !titleLatin) {
         return false
       }
-      if (bilingualLang === xVernacular && !props.titleLatin) {
+      if (bilingualLang === xVernacular && !titleLatin) {
         return true
       }
-      if (bilingualLang !== props.bilingualLang) {
+      if (bilingualLang !== bilingualLang) {
         return false;
       }
     }
@@ -290,9 +338,9 @@ const BilingualSection = (props) => {
   }
 
   let itemRef = createRef()
-  let titleVernacularSlug = slugify(props.titleVernacular)
+  let titleVernacularSlug = slugify(titleVernacular)
   if (titleVernacularSlug) {
-    props.itemRefs[titleVernacularSlug] = itemRef
+    itemRefs[titleVernacularSlug] = itemRef
   }
 
   return (
@@ -309,7 +357,7 @@ const BilingualSection = (props) => {
           pt: "1rem"
         }}
       >
-        {props.titleVernacular}
+        {titleVernacular}
       </Typography>
       <Typography
         variant="h4"
@@ -320,49 +368,72 @@ const BilingualSection = (props) => {
           pt: "1rem"
         }}
       >
-        {props.titleLatin}
+        {titleLatin}
       </Typography>
       <>{formatBody().map((paragraph, index) => (
         <BilingualSectionParagraph
-          key={props.key_ + "-" + index}
+          key={key_ + "-" + index}
           text={paragraph.text}
           singleColumn={paragraph.singleColumn}
-          singleColumnAsRubric={props.singleColumnAsRubric}
-          bilingualLang={props.bilingualLang}
+          singleColumnAsRubric={singleColumnAsRubric}
+          bilingualLang={bilingualLang}
           bilingualLangClass={paragraph.bilingualLangClass}
-          markdownNewlines={props.markdownNewlines}
-          widgetMode={props.widgetMode}
+          markdownNewlines={markdownNewlines}
+          widgetMode={widgetMode}
         />
       ))}</>
     </Box>
   )
 }
 
-const BilingualSectionParagraph = (props) => {
-  let show = (!(useMediaQuery((theme) => theme.breakpoints.down('sm')) && props.bilingualLangClass !== props.bilingualLang) || props.singleColumn);
+const BilingualSectionParagraph = ({
+                                     text,
+                                     singleColumn,
+                                     singleColumnAsRubric,
+                                     bilingualLang,
+                                     bilingualLangClass,
+                                     markdownNewlines,
+                                     widgetMode
+                                   }: {
+  text: string
+  singleColumn: boolean
+  singleColumnAsRubric: boolean
+  bilingualLang: string
+  bilingualLangClass: string
+  markdownNewlines: boolean
+  widgetMode: boolean
+}) => {
+  let show = (!(useMediaQuery((theme) => theme.breakpoints.down('sm')) && bilingualLangClass !== bilingualLang) || singleColumn);
   return (
     <Typography
       component="div"
       variant="body1"
-      className={props.bilingualLangClass}
+      className={bilingualLangClass}
       align="justify"
       sx={{
         display: (show) ? "block" : "none",
-        gridColumn: (props.singleColumn) ? "1 / span 2" : "unset",
-        color: (props.singleColumn && props.singleColumnAsRubric) ? "secondary.main" : "text.primary",
+        gridColumn: (singleColumn) ? "1 / span 2" : "unset",
+        color: (singleColumn && singleColumnAsRubric) ? "secondary.main" : "text.primary",
         padding: "0.5rem",
         hyphens: "auto"
       }}
     >
-      <Md text={props.text} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode}/>
+      <Md text={text} markdownNewlines={markdownNewlines} widgetMode={widgetMode}/>
     </Typography>
   )
 }
 
-const BilingualSelector = (props) => {
-  const handleChange = (event, newBilingualLang) => {
+const BilingualSelector = ({lang, bilingualLang, setBilingualLang}: {
+  lang: string
+  bilingualLang: string,
+  setBilingualLang: Dispatch<SetStateAction<string>>
+}) => {
+  const handleChange = (
+    event: React.MouseEvent<HTMLElement>,
+    newBilingualLang: string | null
+  ) => {
     if (newBilingualLang !== null) {
-      props.setBilingualLang(newBilingualLang)
+      setBilingualLang(newBilingualLang);
     }
   }
   return (
@@ -376,11 +447,11 @@ const BilingualSelector = (props) => {
         backgroundColor: "background.default"
       }}
       color="secondary"
-      value={props.bilingualLang}
+      value={bilingualLang}
       exclusive
       onChange={handleChange}
     >
-      <ToggleButton value={xVernacular}>{props.lang.toUpperCase()}</ToggleButton>
+      <ToggleButton value={xVernacular}>{lang.toUpperCase()}</ToggleButton>
       <ToggleButton value={xLatin}>LAT</ToggleButton>
     </ToggleButtonGroup>
   )
