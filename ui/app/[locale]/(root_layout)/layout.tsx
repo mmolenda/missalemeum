@@ -26,8 +26,7 @@ const merriweather = Merriweather({
 
 export default function RootLayout({children}) {
   const params = useParams()
-  const lang = params.locale
-  // const lang = "pl"
+  const locale = params.locale
   const [darkMode, setDarkMode] = useState("light")
   const [fontSize, setFontSize] = useState("medium")
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
@@ -52,7 +51,7 @@ export default function RootLayout({children}) {
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
-                lang={lang}
+                lang={locale}
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
                 fontSize={fontSize}
@@ -97,11 +96,11 @@ export default function RootLayout({children}) {
             enableDeclineButton
             declineButtonStyle={{background: appbarDarkGrey}}
             buttonStyle={{background: "#e49086"}}
-            declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
+            declineButtonText={MSG_POLICY_DECLINE_BUTTON[locale]}
             buttonText="OK">
-            {MSG_COOKIES[lang]}
-            <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
-              {MSG_POLICY_LINK[lang]}
+            {MSG_COOKIES[locale]}
+            <MUILink component={Link} href={`/${locale}/supplement/privacy-policy`} target="_blank">
+              {MSG_POLICY_LINK[locale]}
             </MUILink>
           </CookieConsent>
         </Container>
