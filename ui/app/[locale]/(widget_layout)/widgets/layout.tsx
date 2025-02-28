@@ -9,17 +9,20 @@ import {Box, createTheme, CssBaseline} from "@mui/material";
 import {Merriweather} from 'next/font/google'
 
 
-
 const merriweather = Merriweather({
   subsets: ['latin'],
   weight: ["300", "400"]
 })
 
 
-export default function RootLayout({children}) {
+export default function RootLayout({
+                                     children,
+                                   }: {
+  children: React.ReactNode;
+}) {
   const queryParameters = new URLSearchParams(window.location.search)
   const fontSize = "medium"
-  const lightOrDark = {"light": "light", "dark": "dark"}[queryParameters.get("theme")] || "light"
+  const lightOrDark = {"light": "light", "dark": "dark", "undefined": null}[queryParameters.get("theme") ?? "undefined"] || "light"
   let designTokens = getDesignTokens(lightOrDark, fontSize)
   designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"
   const theme = React.useMemo(() => createTheme(designTokens), [lightOrDark, fontSize]);
@@ -29,9 +32,9 @@ export default function RootLayout({children}) {
       <ThemeProvider theme={theme}>
         <CssBaseline/>
         <body>
-          <Box sx={{pt: "12px"}}>
-            {children}
-          </Box>
+        <Box sx={{pt: "12px"}}>
+          {children}
+        </Box>
         </body>
       </ThemeProvider>
     </AppRouterCacheProvider>

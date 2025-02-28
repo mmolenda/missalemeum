@@ -1,7 +1,7 @@
 import React from "react";
 import ListCommon from "@/components/ListCommon";
 import {notFound} from "next/navigation";
-import {SEARCH_SUGGESTIONS_ORATIO} from "@/components/intl";
+import {Locale, SEARCH_SUGGESTIONS_ORATIO} from "@/components/intl";
 
 
 export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
@@ -10,5 +10,5 @@ export default async function Page({params}: { params: Promise<{locale: string, 
   response.status !== 200 && notFound()
   const items = await response.json();
   return <ListCommon lang={locale} sidenavPath="oratio/" items={items}
-                     searchSuggestions={SEARCH_SUGGESTIONS_ORATIO[locale]}/>
+                     searchSuggestions={SEARCH_SUGGESTIONS_ORATIO[locale as Locale]}/>
 }

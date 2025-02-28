@@ -8,7 +8,18 @@ import SidenavListItemText from "@/components/styledComponents/SidenavListItemTe
 import React, {createRef, useEffect, useState} from "react";
 import {SEARCH_PLACEHOLDER} from "@/components/intl";
 
-export default function ListCommon({lang, sidenavPath, items, searchSuggestions}) {
+export default function ListCommon({
+                                     lang,
+                                     sidenavPath,
+                                     items,
+                                     searchSuggestions = []
+                                   }:
+                                     {
+                                       lang: string,
+                                       sidenavPath: string,
+                                       items: object[],
+                                       searchSuggestions?: string[]
+                                     }) {
   let [selectedItem, setSelectedItem] = useState("")
   let listItemRefs = {}
   const [itemsFiltered, setItemsFiltered] = useState(items)

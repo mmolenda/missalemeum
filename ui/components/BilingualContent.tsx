@@ -32,7 +32,24 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
 
-export default function BilingualContent({lang, id, content, singleColumnAsRubric, backButtonRef, markdownNewlines = false, widgetMode = false}) {
+export default function BilingualContent({
+                                           lang,
+                                           id,
+                                           content,
+                                           backButtonRef = "",
+                                           singleColumnAsRubric = false,
+                                           markdownNewlines = false,
+                                           widgetMode = false
+                                         }:
+                                           {
+                                             lang: string,
+                                             id: string,
+                                             content: object,
+                                             backButtonRef?: string,
+                                             singleColumnAsRubric?: boolean,
+                                             markdownNewlines?: boolean,
+                                             widgetMode?: boolean
+                                           }) {
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -78,7 +95,7 @@ const Article = (props) => {
     if (itemRef && itemRef.current) {
       itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
     } else {
-      window.scrollTo({ top: 0 });
+      window.scrollTo({top: 0});
     }
   }
 
@@ -102,28 +119,35 @@ const Article = (props) => {
         url
       })
     } catch (err) {
-      navigator.clipboard.writeText(url).then(function() {
-      }, function(err) {
+      navigator.clipboard.writeText(url).then(function () {
+      }, function (err) {
         alert(`Couldn't copy address: ${err}`);
       });
     }
   }
 
   const print = () => {
-    let newWindow = window.open('','', "width=650, height=750");
+    let newWindow = window.open('', '', "width=650, height=750");
     let newContent = (
       <html>
       <body style={{margin: "4%", minWidth: "300px"}}>
       <h1>{content.info.title}</h1>
-      <ArticleTags info={content.info} lang={props.lang} showIcon={false} />
-      {content.info.description && <MdPrintable text={content.info.description} markdownNewlines={props.markdownNewlines} />}
+      <ArticleTags info={content.info} lang={props.lang} showIcon={false}/>
+      {content.info.description &&
+        <MdPrintable text={content.info.description} markdownNewlines={props.markdownNewlines}/>}
       {content.sections.map((section) => {
         return <div>
           {section.label && <h2>{section.label}</h2>}
           {section.body.map((paragraph) => {
             return (paragraph.length === 1) ?
-              <div><div><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div></div> :
-              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}><div style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines} /></div><div><MdPrintable text={paragraph[1]} markdownNewlines={props.markdownNewlines} /></div></div>
+              <div>
+                <div><MdPrintable text={paragraph[0]} markdownNewlines={props.markdownNewlines}/></div>
+              </div> :
+              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}>
+                <div style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]}
+                                                              markdownNewlines={props.markdownNewlines}/></div>
+                <div><MdPrintable text={paragraph[1]} markdownNewlines={props.markdownNewlines}/></div>
+              </div>
           })}
         </div>
       })}
@@ -135,13 +159,14 @@ const Article = (props) => {
     newWindow.focus();
   }
   if (props.id === null) {
-    return <SkeletonContent />
+    return <SkeletonContent/>
   } else {
     return (
       <>
         <Box sx={{
           position: "fixed",
-          top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height}}
+          top: (theme) => theme.components.MuiAppBar.styleOverrides.root.height
+        }}
         >
           {props.backButton}
         </Box>
@@ -156,7 +181,7 @@ const Article = (props) => {
                 horizontal: 'left',
               }}
             >
-              <Typography sx={{ p: 2 }}>{MSG_ADDRESS_COPIED[props.lang]}</Typography>
+              <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[props.lang]}</Typography>
             </Popover>
           </IconButton>
           <IconButton onClick={() => print()}>
@@ -186,42 +211,47 @@ const Article = (props) => {
               {content.info.title}
             </Typography>
           }</>
-          { content.info.commemorations && content.info.commemorations.length > 0 && <Typography variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography> }
-          <Box sx={{ padding: "0.5rem" }}>
-            <ArticleTags info={content.info} lang={props.lang} showIcon />
+          {content.info.commemorations && content.info.commemorations.length > 0 && <Typography
+            variant="h3">{COMMEMORATION[props.lang]}{" "}{content.info.commemorations.join(", ")}</Typography>}
+          <Box sx={{padding: "0.5rem"}}>
+            <ArticleTags info={content.info} lang={props.lang} showIcon/>
           </Box>
-          <>{content.info.description && <Typography component="div" variant="body1" align="justify" sx={{ padding: "0.5rem", hyphens: "auto" }}>
-            <Md text={content.info.description} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
-          </Typography>}</>
+          <>{content.info.description &&
+            <Typography component="div" variant="body1" align="justify" sx={{padding: "0.5rem", hyphens: "auto"}}>
+              <Md text={content.info.description} markdownNewlines={props.markdownNewlines}
+                  widgetMode={props.widgetMode}/>
+            </Typography>}</>
           {content.info.supplements && content.info.supplements.length > 0 &&
-            <Typography variant="body1" align="justify" sx={{ padding: "0.5rem" }}>
+            <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
               {`${MENUITEM_SUPPLEMENT[props.lang]}: `}
               {content.info.supplements.map((supplement, index) => {
                 return (<Fragment key={index}>
-                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label} widgetMode={props.widgetMode} />
+                  <MyLink href={`${supplement.path}?ref=${props.id}`} text={supplement.label}
+                          widgetMode={props.widgetMode}/>
                   {index + 1 < content.info.supplements.length && ", "}
                 </Fragment>)
               })}
             </Typography>}
 
-          <Box className="qpa" sx={{ display: "grid" }}>
-          {content.sections.map((section, index) => {
-            return <BilingualSection
-              key={"section-" + index}
-              key_={"section-" + index}
-              titleVernacular={section.label}
-              titleLatin={section.id}
-              body={section.body}
-              singleColumnAsRubric={props.singleColumnAsRubric}
-              bilingualLang={bilingualLang}
-              markdownNewlines={props.markdownNewlines}
-              widgetMode={props.widgetMode}
-              itemRefs={itemRefs}
-            />
-          })}
+          <Box className="qpa" sx={{display: "grid"}}>
+            {content.sections.map((section, index) => {
+              return <BilingualSection
+                key={"section-" + index}
+                key_={"section-" + index}
+                titleVernacular={section.label}
+                titleLatin={section.id}
+                body={section.body}
+                singleColumnAsRubric={props.singleColumnAsRubric}
+                bilingualLang={bilingualLang}
+                markdownNewlines={props.markdownNewlines}
+                widgetMode={props.widgetMode}
+                itemRefs={itemRefs}
+              />
+            })}
           </Box>
         </Box>
-        {isBilingual() && <BilingualSelector lang={props.lang} bilingualLang={bilingualLang} setBilingualLang={(l) => setBilingualLang(l)}/>}
+        {isBilingual() && <BilingualSelector lang={props.lang} bilingualLang={bilingualLang}
+                                             setBilingualLang={(l) => setBilingualLang(l)}/>}
       </>
     )
   }
@@ -266,45 +296,45 @@ const BilingualSection = (props) => {
   }
 
   return (
-      <Box ref={itemRef} sx={{
-        display: isSmallScreen ? "block" : "inline-grid",
-        gridTemplateColumns: isSmallScreen ? "unset" : "repeat(2, 1fr)"
-      }}>
-        <Typography
-          variant="h4"
-          className={xVernacular}
-          sx={{
-            display: (showHeading(xVernacular)) ? "block" : "none",
-            px: "0.5rem",
-            pt: "1rem"
-          }}
-        >
-          {props.titleVernacular}
-        </Typography>
-        <Typography
-          variant="h4"
-          className={xLatin}
-          sx={{
-            display: (showHeading(xLatin)) ? "block" : "none",
-            px: "0.5rem",
-            pt: "1rem"
-          }}
-        >
-          {props.titleLatin}
-        </Typography>
-        <>{formatBody().map((paragraph, index) => (
-          <BilingualSectionParagraph
-            key={props.key_ + "-" + index}
-            text={paragraph.text}
-            singleColumn={paragraph.singleColumn}
-            singleColumnAsRubric={props.singleColumnAsRubric}
-            bilingualLang={props.bilingualLang}
-            bilingualLangClass={paragraph.bilingualLangClass}
-            markdownNewlines={props.markdownNewlines}
-            widgetMode={props.widgetMode}
-          />
-        ))}</>
-      </Box>
+    <Box ref={itemRef} sx={{
+      display: isSmallScreen ? "block" : "inline-grid",
+      gridTemplateColumns: isSmallScreen ? "unset" : "repeat(2, 1fr)"
+    }}>
+      <Typography
+        variant="h4"
+        className={xVernacular}
+        sx={{
+          display: (showHeading(xVernacular)) ? "block" : "none",
+          px: "0.5rem",
+          pt: "1rem"
+        }}
+      >
+        {props.titleVernacular}
+      </Typography>
+      <Typography
+        variant="h4"
+        className={xLatin}
+        sx={{
+          display: (showHeading(xLatin)) ? "block" : "none",
+          px: "0.5rem",
+          pt: "1rem"
+        }}
+      >
+        {props.titleLatin}
+      </Typography>
+      <>{formatBody().map((paragraph, index) => (
+        <BilingualSectionParagraph
+          key={props.key_ + "-" + index}
+          text={paragraph.text}
+          singleColumn={paragraph.singleColumn}
+          singleColumnAsRubric={props.singleColumnAsRubric}
+          bilingualLang={props.bilingualLang}
+          bilingualLangClass={paragraph.bilingualLangClass}
+          markdownNewlines={props.markdownNewlines}
+          widgetMode={props.widgetMode}
+        />
+      ))}</>
+    </Box>
   )
 }
 
@@ -324,7 +354,7 @@ const BilingualSectionParagraph = (props) => {
         hyphens: "auto"
       }}
     >
-      <Md text={props.text} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode} />
+      <Md text={props.text} markdownNewlines={props.markdownNewlines} widgetMode={props.widgetMode}/>
     </Typography>
   )
 }
@@ -338,7 +368,7 @@ const BilingualSelector = (props) => {
   return (
     <ToggleButtonGroup
       sx={{
-        display: { xs: 'block', sm: 'none' },
+        display: {xs: 'block', sm: 'none'},
         position: "fixed",
         right: "20px",
         bottom: "20px",

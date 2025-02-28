@@ -4,7 +4,16 @@ import React, {useEffect, useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider} from '@mui/material/styles';
 import {appbarDarkGrey, getDesignTokens} from '@/components/designTokens';
-import {AppBar, Box, Container, createTheme, CssBaseline, Toolbar, Typography, useMediaQuery} from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Container,
+  createTheme,
+  CssBaseline,
+  Toolbar,
+  Typography,
+  useMediaQuery
+} from "@mui/material";
 
 import {Link as MUILink} from "@mui/material";
 import Logo from "@/components/Logo";
@@ -14,7 +23,7 @@ import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
-import {MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
+import {Locale, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
 import {useParams} from "next/navigation";
 
 
@@ -24,23 +33,34 @@ const merriweather = Merriweather({
 })
 
 
-export default function RootLayout({children}) {
+export default function RootLayout({
+                                     children,
+                                   }: {
+  children: React.ReactNode;
+}) {
   const params = useParams()
   const locale = params.locale
-  const [darkMode, setDarkMode] = useState("light")
-  const [fontSize, setFontSize] = useState("medium")
+  const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
+  const [fontSize, setFontSize] = useState<string | undefined>("medium")
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
 
   useEffect(() => {
-    setDarkMode({"true": true, "false": false, null: undefined}[myLocalStorage.getItem("darkMode")])
-    setFontSize(myLocalStorage.getItem("fontSize"))
+    setDarkMode({
+      "true": true,
+      "false": false,
+      "undefined": undefined
+    }[myLocalStorage.getItem("darkMode") ?? "undefined"])
+    setFontSize(myLocalStorage.getItem("fontSize") ?? "medium")
   }, []);
 
   const getThemeMode = () => {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
   }
   const mode = getThemeMode()
-  const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
+  // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
+
+
+  const theme = createTheme(getDesignTokens(mode, fontSize));
 
   return (<html lang="en" className={merriweather.className}>
     <AppRouterCacheProvider>
@@ -72,7 +92,18 @@ export default function RootLayout({children}) {
                 overflowY: 'scroll',
                 width: '100%',
                 ml: 0,
-                pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
+                pt: (theme) => {
+                  // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
+                  // all the code below is to appease typescript linter
+                  const root = theme.components?.MuiAppBar?.styleOverrides?.root;
+                  // Check if root is an object and has a height property
+                  const height = root && typeof root === 'object' && 'height' in root ? root.height : 0;
+                  // Ensure height is a valid number
+                  const parsedHeight = typeof height === 'string' ? parseInt(height) : height;
+                  // Check if parsedHeight is a valid number
+                  const finalHeight: number = isNaN(parsedHeight as number) ? 0 : parsedHeight as number;
+                  return `${finalHeight * 2}px`;
+                },
                 height: "100%"
               }}
             >
@@ -83,28 +114,27 @@ export default function RootLayout({children}) {
             <Typography
               sx={{
                 py: "2rem",
-                color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
+                color: theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
                 fontSize: "0.9rem"
               }}>☩
               A. M. D. G. ☩</Typography>
             <Typography
               sx={{
                 py: "2rem",
-                color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
+                color: theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
                 fontSize: "0.75rem"
               }}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
           </ContainerMedium>
           <CookieConsent
             cookieName="MMCookieConsent"
-            cookiePath="/"
             enableDeclineButton
             declineButtonStyle={{background: appbarDarkGrey}}
             buttonStyle={{background: "#e49086"}}
-            declineButtonText={MSG_POLICY_DECLINE_BUTTON[locale]}
+            declineButtonText={MSG_POLICY_DECLINE_BUTTON[locale as Locale]}
             buttonText="OK">
-            {MSG_COOKIES[locale]}
+            {MSG_COOKIES[locale as Locale]}
             <MUILink component={Link} href={`/${locale}/supplement/privacy-policy`} target="_blank">
-              {MSG_POLICY_LINK[locale]}
+              {MSG_POLICY_LINK[locale as Locale]}
             </MUILink>
           </CookieConsent>
         </Container>

@@ -135,14 +135,14 @@ export const getDesignTokens = (mode, fontSizeName) => ({
         h4: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
-          textTransform: "uppercase",
+          textTransform: "uppercase" as "uppercase" | "capitalize" | "none" | "lowercase",
           fontWeight: 800,
           color: darkRedLightMode
         },
         h5: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
-          textTransform: "uppercase",
+          textTransform: "uppercase" as "uppercase" | "capitalize" | "none" | "lowercase",
           fontWeight: 400,
           color: darkRedLightMode
         },
@@ -174,14 +174,14 @@ export const getDesignTokens = (mode, fontSizeName) => ({
         h4: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
-          textTransform: "uppercase",
+          textTransform: "uppercase" as "uppercase" | "capitalize" | "none" | "lowercase",
           fontWeight: 800,
           color: darkRedDarkMode
         },
         h5: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
-          textTransform: "uppercase",
+          textTransform: "uppercase" as "uppercase" | "capitalize" | "none" | "lowercase",
           fontWeight: 400,
           color: darkRedDarkMode
         },

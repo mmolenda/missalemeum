@@ -35,6 +35,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "9.21.0",
+    "eslint-config-next": "15.2.0",
     "typescript": "^5"
   }
 }
