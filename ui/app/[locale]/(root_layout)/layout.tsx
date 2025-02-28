@@ -64,31 +64,35 @@ export default function RootLayout({children}) {
             </Toolbar>
           </AppBar>
 
-    <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
+          <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
 
-      <Box
-        id="content"
-        sx={{
-          overflowY: 'scroll',
-          width: '100%',
-          ml: 0,
-          pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
-          height: "100%"
-        }}
-      >
-
-          {children}
-
-    </Box>
-
-
-</ContainerMedium>
+            <Box
+              id="content"
+              sx={{
+                overflowY: 'scroll',
+                width: '100%',
+                ml: 0,
+                pt: (theme) => `${parseInt(theme.components.MuiAppBar.styleOverrides.root.height) * 2}px`,
+                height: "100%"
+              }}
+            >
+              {children}
+            </Box>
+          </ContainerMedium>
           <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
             <Typography
-              sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.9rem"}}>☩
+              sx={{
+                py: "2rem",
+                color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
+                fontSize: "0.9rem"
+              }}>☩
               A. M. D. G. ☩</Typography>
             <Typography
-              sx={{py: "2rem", color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light", fontSize: "0.75rem"}}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
+              sx={{
+                py: "2rem",
+                color: (theme) => theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
+                fontSize: "0.75rem"
+              }}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
           </ContainerMedium>
           <CookieConsent
             cookieName="MMCookieConsent"
