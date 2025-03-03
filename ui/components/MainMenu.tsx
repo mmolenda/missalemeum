@@ -28,6 +28,7 @@ import DrawerListItemText from "@/components/styledComponents/DrawerListItemText
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import {myLocalStorage} from "./myLocalStorage";
+import {usePathname} from "next/navigation";
 
 
 const LeftHandMenu = ({
@@ -45,6 +46,19 @@ const LeftHandMenu = ({
   switchFontSize: any
   fontSize: string
 }) => {
+  const pathname = usePathname()
+  const isMenuitemSelected = (route) => {
+    let routeSplit = route.split("/")
+    let pathSplit = pathname.split("/")
+    let datePattern = /^[\d-]+$/
+    console.log(pathname, route, routeSplit, pathname.startsWith(route))
+    if (routeSplit.length < 3) {
+      // /pl or /pl/2022-02-02
+      return route === pathname || datePattern.test(pathSplit[pathSplit.length - 1])
+    }
+    return pathname.startsWith(route)
+  }
+
   return (
     <Box
       sx={{width: 300}}
@@ -69,6 +83,7 @@ const LeftHandMenu = ({
             <ListItemButton
               component={Link}
               href={route}
+              selected={isMenuitemSelected(route)}
             >
               <DrawerListItemText prim={label}/>
             </ListItemButton>
