@@ -259,7 +259,7 @@ const Article = ({
               })}
             </Typography>}
 
-          <Box className="qpa" sx={{display: "grid"}}>
+          <Box sx={{display: "grid"}}>
             {content.sections.map((section, index) => {
               return <BilingualSection
                 key={"section-" + index}
@@ -321,15 +321,15 @@ const BilingualSection = ({
     return paragraphs;
   }
 
-  const showHeading = (bilingualLang: string) => {
+  const showHeading = (headingLang) => {
     if (isSmallScreen) {
-      if (bilingualLang === xLatin && !titleLatin) {
+      if (headingLang === xLatin && !titleLatin) {
         return false
       }
-      if (bilingualLang === xVernacular && !titleLatin) {
+      if (headingLang === xVernacular && !titleLatin) {
         return true
       }
-      if (bilingualLang !== bilingualLang) {
+      if (headingLang !== bilingualLang) {
         return false;
       }
     }
