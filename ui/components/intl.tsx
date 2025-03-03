@@ -1,3 +1,6 @@
+import { plPL } from '@mui/x-date-pickers/locales';
+import { enUS } from '@mui/x-date-pickers/locales';
+
 
 export type Locale = "pl" | "en";
 export const SEARCH_PLACEHOLDER = {"en": "Search", "pl": "Szukaj"}
@@ -55,4 +58,12 @@ export const SEARCH_SUGGESTIONS_ORATIO: {
 } = {
 	"pl": ["Eucharystyczne", "Wielki Post", "Maryja", "Poranne", "Wieczorne"],
 	"en": []
+}
+
+export const MUI_DATEPICKER_LOCALE_TEXT: {
+  pl: any;
+  en: any;
+} = {
+	"pl": plPL.components.MuiLocalizationProvider.defaultProps.localeText,
+	"en": enUS.components.MuiLocalizationProvider.defaultProps.localeText
 }

@@ -13,7 +13,6 @@ import {
   Select,
   MenuItem, Popover
 } from "@mui/material";
-import 'moment/locale/pl';
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import {

@@ -25,6 +25,8 @@ import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
 import {Locale, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
 import {useParams} from "next/navigation";
+import moment from "moment";
+import 'moment/locale/pl';
 
 
 const merriweather = Merriweather({
@@ -33,12 +35,9 @@ const merriweather = Merriweather({
 })
 
 
-export default function RootLayout({
-                                     children,
-                                   }: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}: { children: React.ReactNode}) {
   const { locale } = useParams<{ locale?: string }>()
+  moment.locale(locale)
   const lang = typeof locale === "string" ? locale : "en"
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
   const [fontSize, setFontSize] = useState<string>("medium")

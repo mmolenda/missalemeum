@@ -5,7 +5,15 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
 import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useState} from "react";
-import {COMMEMORATION, IN, Locale, RANK_NAMES, SEARCH_PLACEHOLDER, SEARCH_SUGGESTIONS_PROPER} from "@/components/intl";
+import {
+  COMMEMORATION,
+  IN,
+  Locale,
+  MUI_DATEPICKER_LOCALE_TEXT,
+  RANK_NAMES,
+  SEARCH_PLACEHOLDER,
+  SEARCH_SUGGESTIONS_PROPER
+} from "@/components/intl";
 import moment from "moment";
 import {
   Autocomplete,
@@ -91,7 +99,7 @@ export default function ListProper({
       }
     };
     return (
-      <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="pl">
+      <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang} localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]} >
         <MobileDatePicker
           slots={{field: ButtonField}}
           slotProps={{field: {setOpen} as any}}
@@ -99,6 +107,7 @@ export default function ListProper({
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}
           onChange={handleDateChange}
+
         />
       </LocalizationProvider>
     )
