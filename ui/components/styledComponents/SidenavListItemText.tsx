@@ -12,9 +12,9 @@ export default function SidenavListItemText({prim, sec, rank = 0}: {prim: string
 	return <ListItemText
 		primary={prim}
 		secondary={sec}
-		// slotProps={{
-		// 	primary: {sx: {...{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: (theme) => theme.typography.fontFamily}, ...rankStyles}},
-		// 	secondary: {sx:  {overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", color: "secondary.main"}}
-		// }}
+		slotProps={{
+			primary: {sx: {...{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", fontFamily: (theme) => theme.typography.fontFamily}, ...rankStyles}},
+			secondary: {sx:  {overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", color: "secondary.main"}}
+		}}
 	/>
 }
