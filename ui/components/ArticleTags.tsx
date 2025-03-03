@@ -43,7 +43,7 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
     tags.push(<Tag key={label} icon={showIcon && <TimelapseIcon/>} label={label}/>);
   }
   if (info.rank) {
-    label = RANK_NAMES[lang as Locale][info.rank]
+    label = RANK_NAMES[lang as Locale][info.rank] || ""
     tags.push(<Tag key={label} label={label}/>);
   }
   if (info.colors) {
@@ -56,7 +56,8 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
         || !showIcon) {
         tag = <Tag key={label} icon={showIcon && <ShieldOutlinedIcon/>} label={label}/>
       } else {
-        tag = <Tag key={label} color={`vestment${colorCode}`} icon={showIcon && <ShieldIcon/>} label={label}/>
+        const color = `vestment${colorCode}` as "vestmentr" | "vestmentw" | "vestmentv" | "vestmentg"
+        tag = <Tag key={label} color={color} icon={showIcon && <ShieldIcon/>} label={label}/>
       }
       tags.push(tag);
     }

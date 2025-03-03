@@ -8,6 +8,31 @@ const darkRedLightMode = '#b76d6d'
 const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
 
+declare module "@mui/material/styles" {
+  interface Palette {
+    vestmentw: Palette["primary"];
+    vestmentr: Palette["primary"];
+    vestmentv: Palette["primary"];
+    vestmentg: Palette["primary"];
+  }
+
+  interface PaletteOptions {
+    vestmentw?: PaletteOptions["primary"];
+    vestmentr?: PaletteOptions["primary"];
+    vestmentv?: PaletteOptions["primary"];
+    vestmentg?: PaletteOptions["primary"];
+  }
+}
+
+declare module "@mui/material/Chip" {
+  interface ChipPropsColorOverrides {
+    vestmentw: true;
+    vestmentr: true;
+    vestmentv: true;
+    vestmentg: true;
+  }
+}
+
 const translateFontSize = (fontSizeName: string) => {
   return {"small": 12, "medium": 14, "large": 18}[fontSizeName] || 14
 }
