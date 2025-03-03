@@ -40,7 +40,8 @@ import {Dayjs} from "dayjs";
 export default function ListProper({
                                      lang,
                                      year,
-                                     items}: {
+                                     items
+                                   }: {
   lang: string
   year: number
   items: ListItemType[]
@@ -81,7 +82,7 @@ export default function ListProper({
     setOpen?: Dispatch<SetStateAction<boolean>>;
   }
 
-  function ButtonField({ setOpen }: ButtonFieldProps) {
+  function ButtonField({setOpen}: ButtonFieldProps) {
     return (
       <IconButton
         onClick={() => setOpen?.((prev) => !prev)}
@@ -97,12 +98,15 @@ export default function ListProper({
       if (newValue) {
         router.push(`${lang}/${newValue.format(dateFormat)}`);
       }
-    };
+    }
     return (
-      <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang} localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]} >
+      <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
+                            localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]}>
         <MobileDatePicker
           slots={{field: ButtonField}}
-          slotProps={{field: {setOpen} as any}}
+          slotProps={
+            {field: {setOpen} as any}
+          }
           open={open}
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}
@@ -119,12 +123,12 @@ export default function ListProper({
         position: "fixed",
         display: "flex",
         top: (theme) => {
-            // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
-            // all the code below is to appease typescript linter
-            const root = theme.components?.MuiAppBar?.styleOverrides?.root;
-            const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
-            return height as string;
-          },
+          // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
+          // all the code below is to appease typescript linter
+          const root = theme.components?.MuiAppBar?.styleOverrides?.root;
+          const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
+          return height as string;
+        },
         width: "875px",
         p: "0.75rem",
         boxShadow: 2,
@@ -148,7 +152,7 @@ export default function ListProper({
             />)
           }}
         />
-        <MyDatePicker />
+        <MyDatePicker/>
       </Box>
       <List>
         <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
@@ -216,7 +220,7 @@ export default function ListProper({
   )
 }
 
-function PrevOrNextYearListItem({lang, year, isNext}: {lang: string, year: number, isNext: boolean}) {
+function PrevOrNextYearListItem({lang, year, isNext}: { lang: string, year: number, isNext: boolean }) {
   const prevYear = year - 1
   const prevYearLastDay = prevYear + "-12-31"
   const nextYear = year + 1

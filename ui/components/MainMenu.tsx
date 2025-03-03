@@ -47,11 +47,10 @@ const LeftHandMenu = ({
   fontSize: string
 }) => {
   const pathname = usePathname()
-  const isMenuitemSelected = (route) => {
+  const isMenuitemSelected = (route: string) => {
     let routeSplit = route.split("/")
     let pathSplit = pathname.split("/")
     let datePattern = /^[\d-]+$/
-    console.log(pathname, route, routeSplit, pathname.startsWith(route))
     if (routeSplit.length < 3) {
       // /pl or /pl/2022-02-02
       return route === pathname || datePattern.test(pathSplit[pathSplit.length - 1])
