@@ -1,10 +1,11 @@
 import React from 'react';
 import {Chip} from "@mui/material";
+import {vestmentColor} from "@/components/designTokens";
 
-export default function Tag({label, color, icon}: {label: string, color?: "secondary" | "vestmentw" | "vestmentr" | "vestmentv" | "vestmentg", icon?: any}) {
+export default function Tag({label, color = "secondary", icon}: {label: string, color?: "secondary" | vestmentColor, icon?: any}) {
   return (
     <Chip
-      color={color ? color : "secondary"}
+      color={color}
       icon={icon ? icon : null}
       variant="outlined"
       sx={{

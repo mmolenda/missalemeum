@@ -14,6 +14,7 @@ import TimelapseIcon from "@mui/icons-material/Timelapse";
 import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
 import ShieldIcon from "@mui/icons-material/Shield";
 import {ColorCode, Info} from "@/components/types";
+import {vestmentColor} from "@/components/designTokens";
 
 
 export default function ArticleTags({lang, info, showIcon}: { lang: string, info: Info, showIcon: boolean }) {
@@ -56,8 +57,7 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
         || !showIcon) {
         tag = <Tag key={label} icon={showIcon && <ShieldOutlinedIcon/>} label={label}/>
       } else {
-        const color = `vestment${colorCode}` as "vestmentr" | "vestmentw" | "vestmentv" | "vestmentg"
-        tag = <Tag key={label} color={color} icon={showIcon && <ShieldIcon/>} label={label}/>
+        tag = <Tag key={label} color={`vestment${colorCode}` as vestmentColor} icon={showIcon && <ShieldIcon/>} label={label}/>
       }
       tags.push(tag);
     }

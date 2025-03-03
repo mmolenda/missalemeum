@@ -8,6 +8,8 @@ const darkRedLightMode = '#b76d6d'
 const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
 
+export type vestmentColor = "vestmentr" | "vestmentw" | "vestmentv" | "vestmentg"
+
 declare module "@mui/material/styles" {
   interface Palette {
     vestmentw: Palette["primary"];
