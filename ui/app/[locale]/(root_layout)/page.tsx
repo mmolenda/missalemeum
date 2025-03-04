@@ -2,6 +2,12 @@ import React from "react";
 import ListProper from "@/components/ListProper";
 import moment from "moment";
 import {notFound} from "next/navigation";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Missale Meum",
+  description: "The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM",
+}
 
 export default async function Page({params}: { params: Promise<{locale: string}> }) {
   const { locale } = await params
