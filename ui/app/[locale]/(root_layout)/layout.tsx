@@ -59,7 +59,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
   const theme = createTheme(getDesignTokens(mode, fontSize));
 
-  return (<html lang="en" className={merriweather.className}>
+  return (<html lang="en" className={merriweather.className} translate="no">
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
         <CssBaseline/>
