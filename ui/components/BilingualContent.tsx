@@ -321,7 +321,7 @@ const BilingualSection = ({
     return paragraphs;
   }
 
-  const showHeading = (headingLang) => {
+  const showHeading = (headingLang: string) => {
     if (isSmallScreen) {
       if (headingLang === xLatin && !titleLatin) {
         return false

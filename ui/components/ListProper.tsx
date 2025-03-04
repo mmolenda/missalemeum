@@ -22,7 +22,7 @@ import {
   ListItemIcon,
   TextField,
   IconButton,
-  AutocompleteRenderInputParams
+  AutocompleteRenderInputParams, lighten, darken, Palette, PaletteColor
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ListItemText from "@mui/material/ListItemText";
@@ -30,12 +30,12 @@ import EventIcon from '@mui/icons-material/Event';
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import "react-datepicker/dist/react-datepicker.css";
-import {LocalizationProvider, MobileDatePicker} from "@mui/x-date-pickers";
+import {LocalizationProvider, MobileDatePicker, PickersDay} from "@mui/x-date-pickers";
 import {AdapterDayjs} from "@mui/x-date-pickers/AdapterDayjs";
 import "dayjs/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
-import {Dayjs} from "dayjs";
+import dayjs, {Dayjs} from "dayjs";
 
 export default function ListProper({
                                      lang,
@@ -94,16 +94,47 @@ export default function ListProper({
 
   const MyDatePicker = () => {
     const [open, setOpen] = useState(false);
+    type DatesPropertiesFormat = Record<string, { color: string; rank: number }>;
+    const datesProperties: DatesPropertiesFormat = items.reduce((acc, item) => {
+      acc[item.id] = {color: item.colors[0], rank: item.rank};
+      return acc;
+    }, {} as DatesPropertiesFormat);
+
     const handleDateChange = (newValue: Dayjs | null) => {
       if (newValue) {
-        router.push(`${lang}/${newValue.format(dateFormat)}`);
+        router.push(`/${lang}/${newValue.format(dateFormat)}`);
       }
     }
+
+    const CustomDay = (props: any) => {
+        const { day } = props;
+        const dateProperties = datesProperties[day.format(dateFormat)]
+        const color = dateProperties ? `vestment${dateProperties["color"]}` : "vestmentw"
+        const rank = dateProperties ? dateProperties["rank"] : 4
+        return (
+            <PickersDay {...props}
+                        day={day}
+                        sx={{
+                          fontWeight: rank < 2 ? 800 : 400,
+                          backgroundColor: (theme) => {
+                            const paletteColor = theme.palette[color as keyof typeof theme.palette] as PaletteColor
+                            return theme.palette.mode == "light"
+                              ? lighten(paletteColor.main, 0.5)
+                              : darken(paletteColor.main, 0.65)}}
+                          }
+            />
+        );
+      };
+
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
                             localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]}>
         <MobileDatePicker
-          slots={{field: ButtonField}}
+          value={dayjs(selectedItem)}
+          slots={{
+            field: ButtonField,
+            day: CustomDay
+          }}
           slotProps={
             {field: {setOpen} as any}
           }
@@ -111,7 +142,6 @@ export default function ListProper({
           onClose={() => setOpen(false)}
           onOpen={() => setOpen(true)}
           onChange={handleDateChange}
-
         />
       </LocalizationProvider>
     )
