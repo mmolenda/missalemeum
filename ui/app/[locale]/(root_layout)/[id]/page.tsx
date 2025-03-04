@@ -3,7 +3,19 @@ import ListProper from "@/components/ListProper";
 import moment from "moment/moment";
 import { notFound } from "next/navigation";
 import BilingualContent from "@/components/BilingualContent";
+import {generateLocalisedMetadata} from "@/components/utils";
+import {Content} from "@/components/types";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }) {
+  const { locale, id } = await params
+  if (id && /^\d{4}-\d{2}-\d{2}$/.test(id) && moment(id).isValid()) {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/proper/${id}`, {mode: "cors", cache: "force-cache"});
+    const contents: Content[] = await response.json()
+    const titleFragment = `${contents[0].info.title} | ${id}`
+    return generateLocalisedMetadata(locale, titleFragment);
+  }
+  return generateLocalisedMetadata(locale);
+}
 
 export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
   const { id, locale } = await params
@@ -13,6 +25,7 @@ export default async function Page({params}: { params: Promise<{locale: string, 
     // depending on passed ID. This is a subject to change when new URL layout
     // is done.
     const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/calendar/${id}`, {mode: "cors"});
+    response.status !== 200 && notFound()
     return <ListProper lang={locale} year={parseInt(id)} items={await response.json()}/>
   } else {
     let parsedDate = moment(id)

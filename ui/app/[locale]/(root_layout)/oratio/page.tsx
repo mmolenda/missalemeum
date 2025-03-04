@@ -1,8 +1,13 @@
 import React from "react";
 import ListCommon from "@/components/ListCommon";
 import {notFound} from "next/navigation";
-import {Locale, SEARCH_SUGGESTIONS_ORATIO} from "@/components/intl";
+import {Locale, MENUITEM_ORATIO, SEARCH_SUGGESTIONS_ORATIO} from "@/components/intl";
+import {generateLocalisedMetadata} from "@/components/utils";
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }){
+  const { locale, id } = await params
+  return generateLocalisedMetadata(locale, MENUITEM_ORATIO[locale as Locale]);
+}
 
 export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
   const { locale } = await params

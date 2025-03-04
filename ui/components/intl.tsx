@@ -3,6 +3,15 @@ import { enUS } from '@mui/x-date-pickers/locales';
 
 
 export type Locale = "pl" | "en";
+
+export const META_DESCRIPTION: {
+  pl: string;
+  en: string;
+} = {
+	"pl": "Mszał Rzymski zawierający kalendarz liturgiczny i czytania wg układu z 1962 r. dla Mszy św. w nadzwyczajnej formie rytu rzymskiego (Msza Trydencka, NFRR).",
+	"en": "The 1962 Roman Missal containing the liturgical calendar and the readings for Traditional Latin Mass (Extraordinary form of the Roman Rite, Tridentine Mass, TLM)"
+}
+
 export const SEARCH_PLACEHOLDER = {"en": "Search", "pl": "Szukaj"}
 export const IN = {"en": "in", "pl": "w"}
 export const RANK_NAMES = {
