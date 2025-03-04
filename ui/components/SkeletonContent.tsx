@@ -1,9 +1,9 @@
 import React from 'react';
-import {Skeleton} from "@mui/material";
+import {Box, Skeleton} from "@mui/material";
 
 export default function SkeletonContent() {
   return (
-    <>
+    <Box sx={{padding: "5%"}}>
       <Skeleton key="0" variant="text" animation="wave" width="70%" height={50}/>
       <Skeleton key="1" variant="text" animation="wave" width="50%" height={50}
                 sx={{backgroundColor: "secondary.main"}}/>
@@ -19,7 +19,7 @@ export default function SkeletonContent() {
             </React.Fragment>)
         }
       )}
-    </>
+    </Box>
   )
 }
 
