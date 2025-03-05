@@ -8,11 +8,7 @@ sections:
     - |
         1. By using the Missale Meum website, you accept the Privacy Policy.
         
-        2. The collected data is sent in two ways:
-        
-            a) information provided directly and voluntarily by the User in the contact form
-            
-            b) information obtained during the use of the website by Users. The servers automatically collect the following User data:
+        2. The servers automatically collect the following User data:
             
             - time of sending the response by the server,
             - the IP address of the User's device,
@@ -41,11 +37,11 @@ sections:
             - country,
             - browser,
             - visit time.
-            - Data is collected using third-party solutions. We currently use Google Analytics. Please read 
-            the details of the [Google Analytics privacy policy](https://support.google.com/analytics/answer/6004245).
+            - Data is collected using third-party solutions. We currently use Cloudflare. Please read 
+            the details of the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
         
         8. We reserve the right to change the Privacy Policy by publishing its new content on the website www.missalemeum.com.
         
-        9. You can contact us at any time at contact@missalemeum.com or via the contact form on the [Information](/en/info) page.
+        9. You can contact us at any time at contact@missalemeum.com.
   id: ''
   label: ''
