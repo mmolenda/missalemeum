@@ -5,6 +5,9 @@ on:
     branches:
       - 'nextjs'
 
+env:
+  REGISTRY: ghcr.io
+
 jobs:
   push-images:
     runs-on: ubuntu-latest
