@@ -1,0 +1,46 @@
+name: Deploy Docker image
+
+on:
+  push:
+    branches:
+      - 'nextjs'
+
+jobs:
+  push-images:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - image: "missalemeum-frontend"
+            dockerfile: "frontend/Dockerfile"
+          - image: "missalemeum-backend"
+            dockerfile: "frontend/Dockerfile"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ matrix.image }}
+
+      - name: Build and push Docker images
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ${{ matrix.dockerfile }}
+          push: true
+          build-args: |
+            VERSION=${{ github.ref_name }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
