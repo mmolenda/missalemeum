@@ -106,7 +106,7 @@ const LeftHandMenu = ({
         </ListItem>
         <ListItem key="theme">
           <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => toggleDarkMode(false)} value="light" selected={!darkMode}><LightModeIcon /></ToggleButton>
+            <ToggleButton onClick={() => toggleDarkMode(false)} value="light" selected={darkMode==false}><LightModeIcon /></ToggleButton>
             <ToggleButton onClick={() => toggleDarkMode(true)} value="dark" selected={darkMode}><DarkModeIcon /></ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
