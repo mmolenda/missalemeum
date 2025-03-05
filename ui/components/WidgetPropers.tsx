@@ -13,6 +13,7 @@ import Link from "next/link";
 import {Link as MUILink} from "@mui/material";
 import BilingualContent from "@/components/BilingualContent";
 import {Content} from "@/components/types";
+import {useSearchParams} from "next/navigation";
 
 export default function WidgetPropers({lang, id, contents, version}: {
   lang: string,
@@ -20,16 +21,18 @@ export default function WidgetPropers({lang, id, contents, version}: {
   contents: Content[],
   version: string | undefined
 }) {
-  let date = moment(id)
+  const searchParams = useSearchParams()
+  const themeUrlParam = searchParams.get("theme") ? `?theme=${searchParams.get("theme")}` : ""
+  const date = moment(id)
 
   return (
     <><ContainerMedium sx={{mt: "0.5rem", textAlign: "right"}}>
       <IconButton component={Link} aria-label="back" size="small"
-                  href={`/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}`}><ArrowBackIcon/></IconButton>&nbsp;
+                  href={`/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}${themeUrlParam}`}><ArrowBackIcon/></IconButton>&nbsp;
       <Button component={Link} aria-label="today" size="small" variant="outlined"
-              href={`/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`}>{TODAY[lang as Locale]}</Button>&nbsp;
+              href={`/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}${themeUrlParam}`}>{TODAY[lang as Locale]}</Button>&nbsp;
       <IconButton component={Link} aria-label="forward" size="small"
-                  href={`/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}`}><ArrowForwardIcon/></IconButton>
+                  href={`/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}${themeUrlParam}`}><ArrowForwardIcon/></IconButton>
     </ContainerMedium>
       <BilingualContent
         lang={lang}
