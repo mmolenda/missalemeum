@@ -10,7 +10,9 @@ export async function callApi(locale: string, endpoint: string, id?: string) {
   return await fetch(url, {
     mode: "cors",
     cache: "force-cache",
-    "User-Agent": userAgentString
+    headers: {
+      "User-Agent": userAgentString
+    }
   });
 }
 
