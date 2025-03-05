@@ -14,8 +14,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: "frontend"
-            dockerfile: "frontend/Dockerfile"
           - image: "backend"
             dockerfile: "backend/Dockerfile"
     steps:
@@ -35,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/${{ matrix.image }}
+          images: ${{ env.REGISTRY }}/${{ github.repository }}/${{ matrix.image }}
 
       - name: Build and push Docker images
         uses: docker/build-push-action@v6
