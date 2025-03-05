@@ -1,7 +1,5 @@
 import {Locale, META_DESCRIPTION} from "@/components/intl";
 
-export const userAgentString = `MissaleMeumUI ${process.env.NEXT_PUBLIC_BUILD_VERSION}`
-
 export async function callApi(locale: string, endpoint: string, id?: string) {
   let url = `${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/${endpoint}`
   if (id) {
@@ -11,7 +9,7 @@ export async function callApi(locale: string, endpoint: string, id?: string) {
     mode: "cors",
     cache: "force-cache",
     headers: {
-      "User-Agent": userAgentString
+      "User-Agent": `MissaleMeumUI/${process.env.NEXT_PUBLIC_BUILD_VERSION}`
     }
   });
 }
