@@ -58,6 +58,7 @@ export default function BilingualContent({
   })
 
   let backButton = (backButtonRef && <IconButton
+    aria-label="back"
     component={Link}
     href={backButtonRef}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
@@ -197,7 +198,7 @@ const Article = ({
           {backButton}
         </Box>
         {!widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
-          <IconButton ref={shareButtonRef} onClick={() => share()}>
+          <IconButton aria-label="share" ref={shareButtonRef} onClick={() => share()}>
             <ShareIcon/>
             <Popover
               open={sharePopoverOpen}
@@ -210,7 +211,7 @@ const Article = ({
               <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
             </Popover>
           </IconButton>
-          <IconButton onClick={() => print()}>
+          <IconButton aria-label="print" onClick={() => print()}>
             <PrintIcon/>
           </IconButton>
         </Box>}
