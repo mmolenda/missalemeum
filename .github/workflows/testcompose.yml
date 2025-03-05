@@ -16,6 +16,8 @@ jobs:
         include:
           - image: "backend"
             dockerfile: "backend/Dockerfile"
+          - image: "frontend"
+            dockerfile: "frontend/Dockerfile"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
