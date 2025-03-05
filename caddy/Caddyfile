@@ -1,0 +1,16 @@
+{
+    auto_https off
+    email marcin@missalemeum.com
+}
+
+http://0.0.0.0:8080 {
+    reverse_proxy frontend:8081
+}
+
+http://0.0.0.0:8080/pl/api* {
+    reverse_proxy backend:8000
+}
+
+http://0.0.0.0:8080/en/api* {
+    reverse_proxy backend:8000
+}%

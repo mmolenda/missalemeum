@@ -2,7 +2,7 @@ import React from "react";
 import ListCommon from "@/components/ListCommon";
 import {notFound} from "next/navigation";
 import {Locale, MENUITEM_ORATIO, SEARCH_SUGGESTIONS_ORATIO} from "@/components/intl";
-import {callApi, generateLocalisedMetadata, userAgentString} from "@/components/utils";
+import {callApi, generateLocalisedMetadata} from "@/components/utils";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }){
   const { locale, id } = await params

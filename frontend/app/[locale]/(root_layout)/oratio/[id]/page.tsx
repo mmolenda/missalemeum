@@ -2,7 +2,7 @@ import React from "react";
 import {notFound} from "next/navigation";
 import BilingualContent from "@/components/BilingualContent";
 import {Content} from "@/components/types";
-import {callApi, generateLocalisedMetadata, userAgentString} from "@/components/utils";
+import {callApi, generateLocalisedMetadata} from "@/components/utils";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }) {
   const { locale, id } = await params
