@@ -14,9 +14,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: "missalemeum-frontend"
+          - image: "frontend"
             dockerfile: "frontend/Dockerfile"
-          - image: "missalemeum-backend"
+          - image: "backend"
             dockerfile: "frontend/Dockerfile"
     steps:
       - name: Checkout repository
@@ -40,7 +40,7 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ${{ matrix.image }}
           file: ${{ matrix.dockerfile }}
           push: true
           build-args: |
