@@ -7,6 +7,7 @@ import {getDesignTokens} from '@/components/designTokens';
 import {Box, createTheme, CssBaseline, PaletteMode} from "@mui/material";
 
 import {Merriweather} from 'next/font/google'
+import {useSearchParams} from "next/navigation";
 
 
 const merriweather = Merriweather({
@@ -20,11 +21,11 @@ export default function RootLayout({
                                    }: {
   children: React.ReactNode;
 }) {
-  const queryParameters = new URLSearchParams(window.location.search)
+  const searchParams = useSearchParams()
   const fontSize = "medium"
   const lightOrDark: PaletteMode =
-  (["light", "dark"].includes(queryParameters.get("theme") ?? "")
-    ? (queryParameters.get("theme") as PaletteMode)
+  (["light", "dark"].includes(searchParams.get("theme") ?? "")
+    ? (searchParams.get("theme") as PaletteMode)
     : "light")
   let designTokens = getDesignTokens(lightOrDark, fontSize)
   designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"

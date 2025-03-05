@@ -24,11 +24,11 @@ export default function WidgetPropers({lang, id, contents, version}: {
 
   return (
     <><ContainerMedium sx={{mt: "0.5rem", textAlign: "right"}}>
-      <IconButton component={Link} size="small"
+      <IconButton component={Link} aria-label="back" size="small"
                   href={`/${lang}/widgets/propers/${date.subtract(1, 'days').format('YYYY-MM-DD')}`}><ArrowBackIcon/></IconButton>&nbsp;
-      <Button component={Link} size="small" variant="outlined"
+      <Button component={Link} aria-label="today" size="small" variant="outlined"
               href={`/${lang}/widgets/propers/${moment().format('YYYY-MM-DD')}`}>{TODAY[lang as Locale]}</Button>&nbsp;
-      <IconButton component={Link} size="small"
+      <IconButton component={Link} aria-label="forward" size="small"
                   href={`/${lang}/widgets/propers/${date.add(2, 'days').format('YYYY-MM-DD')}`}><ArrowForwardIcon/></IconButton>
     </ContainerMedium>
       <BilingualContent
