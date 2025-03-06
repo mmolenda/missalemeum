@@ -1,13 +1,12 @@
 name: Deploy Docker image
 
 on:
-  push:
-    tags:
-      - '*'
-
   release:
     types:
       - published
+  push:
+    tags:
+      - '*'
 
 env:
   REGISTRY: ghcr.io
@@ -52,7 +51,9 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
+      # Steps that only run on release published
       - name: Install and run Docker image on the server
+        if: github.event_name == 'release'
         uses: fifsky/ssh-action@master
         with:
           command: |
@@ -66,8 +67,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY}}
 
       - name: Purge Cloudflare cache
+        if: github.event_name == 'release'
         uses: fjogeleit/http-request-action@v1
-        if: ${{ github.event_name == 'release' }}
         with:
           url: https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE }}/purge_cache
           method: POST
