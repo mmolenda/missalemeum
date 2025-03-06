@@ -2,10 +2,10 @@
 
 1962 Roman Catholic Missal for the Traditional Latin Mass.
 
-The application consists of Python/Flask API, serving calendar and propers for a given day, and React UI consuming 
+The application consists of Python/Flask API, serving calendar and propers for a given day, and Nextjs/React frontend consuming 
 and presenting the data. The application utilizes data files from
  [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
- [git submodule](./resources).
+ [git submodule](./backend/resources).
 
 ## Features 
 
@@ -30,7 +30,7 @@ is available in Divinum Officium, it is relatively easy to support them. Volunte
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
 
-Create a virtualenv and install dependencies `pip install -r requirements.txt`.
+Create a virtualenv and install dependencies `pip install -r backend/requirements.txt`.
 
 ### Configuration
 
@@ -39,27 +39,28 @@ used by `missalemeum.api` to fetch the data).
 
 To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
 
-### Run the development API
+### Run the python development API
 
 ```bash
-$ python missalemeum/app.py
+$ export PYTHONPATH=$PYTHONPATH:backend
+$ python backend/api/app.py
 ```
 
 and navigate to http://0.0.0.0:8000/en/api/v5/version.
 
-### Run the development UI
+### Run the nextjs development UI
 
-Provide local dev API URL in variable `REACT_APP_API_URL`:
+Provide local dev API URL in variable `API_URL`:
 
 ```bash
-export REACT_APP_API_URL=http://localhost:8000
+export API_URL=http://localhost:8000
 ```
 
 Navigate to `./frontend`
 
 ```
-npm install
-npm run start
+npm ci
+npm run dev
 ```
 
 and navigate to http://0.0.0.0:3000.
@@ -70,20 +71,13 @@ See [openapi.yaml](openapi.yaml) or [auto-generated swagger API documentation](h
 
 ## Docker
 
-Docker setup for this project runs multi stage build. In the first stage an optimised production build of React UI is created. 
-In the second step Docker setup copies only the necessary files from Divinum Officium to keep the image light and serves the application using Gunicorn.
+Docker compose setup for this project runs three containers - backend, frontend and caddy server as a reverse proxy.
 
 ```bash
-$ docker build -t missalemeum .
-$ docker run -d -p 8000:8000 missalemeum
+$ docker compose up --build
 ```
 
 and navigate to http://0.0.0.0:8000/.
-
-### Running tests in Docker
-
-Build the image.
-Run `docker run missalemeum sh -c "pytest tests"`
 
 ## Command line (CLI)
 
@@ -157,6 +151,6 @@ of its place in the calendar).
 
 ## Tests
 
-Add `missalemeum` and `tests` directories to the `PYTHONPATH` environment variable and use `pytest`.
+Add `backend` directory to the `PYTHONPATH` environment variable and use `pytest`.
 
-Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/missalemeum:$(pwd)/tests pytest"`
+Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/backend:$(pwd)/tests pytest"`
