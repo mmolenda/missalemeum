@@ -1,9 +1,6 @@
 name: Deploy Docker image
 
 on:
-  release:
-    types:
-      - published
   push:
     tags:
       - '*'
@@ -51,9 +48,12 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
+  deploy-images:
+    runs-on: ubuntu-latest
+    steps:
       # Steps that only run on release published
       - name: Install and run Docker image on the server
-        if: github.event_name == 'release'
+        # if: github.event_name == 'release'
         uses: fifsky/ssh-action@master
         with:
           command: |
@@ -68,7 +68,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY}}
 
       - name: Purge Cloudflare cache
-        if: github.event_name == 'release'
+        # if: github.event_name == 'release'
         uses: fjogeleit/http-request-action@v1
         with:
           url: https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE }}/purge_cache
