@@ -52,18 +52,31 @@ jobs:
     needs: push-images
     runs-on: ubuntu-latest
     steps:
-      # Steps that only run on release published
-      - name: Install and run Docker image on the server
-        # if: github.event_name == 'release'
-        uses: fifsky/ssh-action@master
-        with:
-          command: |
-            cd /root/missalemeum && docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
-          host: ${{ vars.DEPLOY_HOST }}
-          port: ${{ vars.DEPLOY_PORT }}
-          user: ${{ vars.DEPLOY_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY}}
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/prod.key
+          chmod 600 ~/.ssh/prod.key
+          cat >>~/.ssh/config <<END
+          Host prod
+            HostName $SSH_HOST
+            User $SSH_USER
+            Port $SSH_PORT
+            IdentityFile ~/.ssh/prod.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ vars.DEPLOY_USER }}
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ vars.DEPLOY_HOST }}
+          SSH_PORT: ${{ vars.DEPLOY_PORT }}
+      - name: pull and start new containers
+        run: ssh prod 'cd missalemeum && docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d'
 
+  purge-cache:
+    needs: deploy-images
+    runs-on: ubuntu-latest
+    steps:
       - name: Purge Cloudflare cache
         # if: github.event_name == 'release'
         uses: fjogeleit/http-request-action@v1
