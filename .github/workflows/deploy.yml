@@ -51,6 +51,7 @@ jobs:
   deploy-images:
 #    needs: push-images
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Configure SSH
         run: |
@@ -61,7 +62,7 @@ jobs:
           Host prod
             HostName ${{ vars.DEPLOY_HOST }}
             User ${{ vars.DEPLOY_USER }}
-            Port 1077
+            Port ${{ vars.DEPLOY_PORT }}
             IdentityFile ~/.ssh/prod.key
             StrictHostKeyChecking no
           END
@@ -71,6 +72,7 @@ jobs:
   purge-cache:
     needs: deploy-images
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Purge Cloudflare cache
         # if: github.event_name == 'release'
