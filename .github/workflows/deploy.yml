@@ -9,62 +9,60 @@ env:
   REGISTRY: ghcr.io
 
 jobs:
-  push-images:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - image: "backend"
-            dockerfile: "backend/Dockerfile"
-          - image: "frontend"
-            dockerfile: "frontend/Dockerfile"
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-
-      - name: Log in to the Container registry
-        uses: docker/login-action@v2
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@v4
-        with:
-          images: ${{ env.REGISTRY }}/${{ github.repository }}/${{ matrix.image }}
-
-      - name: Build and push Docker images
-        uses: docker/build-push-action@v6
-        with:
-          context: ${{ matrix.image }}
-          file: ${{ matrix.dockerfile }}
-          push: true
-          build-args: |
-            NEXT_PUBLIC_BUILD_VERSION=${{ github.ref_name }}
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+#  push-images:
+#    runs-on: ubuntu-latest
+#    strategy:
+#      matrix:
+#        include:
+#          - image: "backend"
+#            dockerfile: "backend/Dockerfile"
+#          - image: "frontend"
+#            dockerfile: "frontend/Dockerfile"
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v3
+#        with:
+#          submodules: recursive
+#
+#      - name: Log in to the Container registry
+#        uses: docker/login-action@v2
+#        with:
+#          registry: ${{ env.REGISTRY }}
+#          username: ${{ github.actor }}
+#          password: ${{ secrets.GITHUB_TOKEN }}
+#
+#      - name: Extract metadata (tags, labels) for Docker
+#        id: meta
+#        uses: docker/metadata-action@v4
+#        with:
+#          images: ${{ env.REGISTRY }}/${{ github.repository }}/${{ matrix.image }}
+#
+#      - name: Build and push Docker images
+#        uses: docker/build-push-action@v6
+#        with:
+#          context: ${{ matrix.image }}
+#          file: ${{ matrix.dockerfile }}
+#          push: true
+#          build-args: |
+#            NEXT_PUBLIC_BUILD_VERSION=${{ github.ref_name }}
+#          tags: ${{ steps.meta.outputs.tags }}
+#          labels: ${{ steps.meta.outputs.labels }}
 
   deploy-images:
-    needs: push-images
+#    needs: push-images
     runs-on: ubuntu-latest
     steps:
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh/
-          echo "$SSH_KEY" > ~/.ssh/prod.key
+          echo "${SSH_KEY}" > ~/.ssh/prod.key
           chmod 600 ~/.ssh/prod.key
-          cat >>~/.ssh/config <<END
-          Host prod
-            HostName $SSH_HOST
-            User $SSH_USER
-            Port $SSH_PORT
-            IdentityFile ~/.ssh/prod.key
-            StrictHostKeyChecking no
-          END
+          echo "Host prod" >> ~/.ssh/config
+          echo "  HostName ${SSH_HOST}" >> ~/.ssh/config
+          echo "  User ${SSH_USER}" >> ~/.ssh/config
+          echo "  Port ${SSH_PORT}" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/prod.key" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
         env:
           SSH_USER: ${{ vars.DEPLOY_USER }}
           SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
