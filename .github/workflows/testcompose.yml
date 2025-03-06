@@ -44,6 +44,6 @@ jobs:
           file: ${{ matrix.dockerfile }}
           push: true
           build-args: |
-            VERSION=${{ github.ref_name }}
+            NEXT_PUBLIC_BUILD_VERSION=${{ github.ref_name }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

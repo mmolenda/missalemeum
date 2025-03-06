@@ -3,7 +3,7 @@ FROM python:3.13-slim-bookworm
 RUN apt-get update
 RUN apt-get -y upgrade
 
-ARG VERSION
+ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
 ENV PYTHONPATH=/app/api
 WORKDIR /app
 
@@ -23,6 +23,6 @@ COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-custom ./resources/divinum-officium-custom
 COPY api ./api
 COPY tests ./tests
-RUN echo $VERSION > ./api/__version__
+RUN echo $NEXT_PUBLIC_BUILD_VERSION > ./api/__version__
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8080", "-w", "4", "wsgi", "--access-logfile",  "-"]

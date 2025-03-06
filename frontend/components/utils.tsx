@@ -1,7 +1,7 @@
 import {Locale, META_DESCRIPTION} from "@/components/intl";
 
 export async function callApi(locale: string, endpoint: string, id?: string) {
-  let url = `${process.env.NEXT_PUBLIC_API_URL}/${locale}/api/v5/${endpoint}`
+  let url = `${process.env.API_URL}/${locale}/api/v5/${endpoint}`
   if (id) {
     url += `/${id}`
   }

@@ -19,6 +19,7 @@ RUN \
 # Rebuild the source code only when needed
 FROM base AS builder
 WORKDIR /app
+ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
