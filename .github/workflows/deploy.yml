@@ -55,19 +55,16 @@ jobs:
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh/
-          echo "${SSH_KEY}" > ~/.ssh/prod.key
+          echo ${{ secrets.SSH_PRIVATE_KEY }} > ~/.ssh/prod.key
           chmod 600 ~/.ssh/prod.key
-          echo "Host prod" >> ~/.ssh/config
-          echo "  HostName ${SSH_HOST}" >> ~/.ssh/config
-          echo "  User ${SSH_USER}" >> ~/.ssh/config
-          echo "  Port ${SSH_PORT}" >> ~/.ssh/config
-          echo "  IdentityFile ~/.ssh/prod.key" >> ~/.ssh/config
-          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
-        env:
-          SSH_USER: ${{ vars.DEPLOY_USER }}
-          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_HOST: ${{ vars.DEPLOY_HOST }}
-          SSH_PORT: ${{ vars.DEPLOY_PORT }}
+          cat >>~/.ssh/config <<END
+          Host prod
+            HostName ${{ vars.DEPLOY_HOST }}
+            User ${{ vars.DEPLOY_USER }}
+            Port ${{ vars.DEPLOY_PORT }}
+            IdentityFile ~/.ssh/prod.key
+            StrictHostKeyChecking no
+          END
       - name: pull and start new containers
         run: ssh prod 'cd missalemeum && docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d'
 
