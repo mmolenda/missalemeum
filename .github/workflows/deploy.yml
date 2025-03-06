@@ -3,7 +3,7 @@ name: Deploy Docker image
 on:
   push:
     tags:
-      - '*'
+      - v*-alpha*
   release:
     types:
       - published
