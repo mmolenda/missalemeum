@@ -2,8 +2,8 @@ name: Deploy Docker image
 
 on:
   push:
-    branches:
-      - 'nextjs'
+    tags:
+      - '*'
 
 env:
   REGISTRY: ghcr.io
