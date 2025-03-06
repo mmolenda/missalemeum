@@ -1,3 +1,5 @@
+version: '3.7'
+
 services:
   backend:
     image: ghcr.io/mmolenda/missalemeum/backend:latest
@@ -8,12 +10,12 @@ services:
       - app-network
 
   frontend:
-    image: ghcr.io/mmolenda/missalemeum/frontend:nextjs
+    image: ghcr.io/mmolenda/missalemeum/frontend:latest
     container_name: frontend
     ports:
       - "8081:8081"
     environment:
-      - API_URL="http://backend:8080"
+      - API_URL=http://backend:8080
     networks:
       - app-network
     depends_on:

@@ -3,7 +3,11 @@ name: Deploy Docker image
 on:
   push:
     tags:
-      - 'xx'
+      - v*-alpha*
+
+  release:
+    types:
+      - published
 
 env:
   REGISTRY: ghcr.io
@@ -47,3 +51,23 @@ jobs:
             NEXT_PUBLIC_BUILD_VERSION=${{ github.ref_name }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Install and run Docker image on the server
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd /root/missalemeum && docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
+          host: ${{ vars.DEPLOY_HOST }}
+          port: ${{ vars.DEPLOY_PORT }}
+          user: ${{ vars.DEPLOY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY}}
+
+      - name: Purge Cloudflare cache
+        uses: fjogeleit/http-request-action@v1
+        if: ${{ github.event_name == 'release' }}
+        with:
+          url: https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE }}/purge_cache
+          method: POST
+          customHeaders: '{"Content-Type": "application/json"}'
+          bearerToken: ${{ secrets.CLOUDFLARE_TOKEN }}
+          data: '{"purge_everything": true}'
