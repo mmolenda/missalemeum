@@ -58,13 +58,9 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: |
-            mkdir -p /root/missalemeum/caddy
-            cd /root/missalemeum
-            curl https://raw.githubusercontent.com/mmolenda/missalemeum/refs/heads/master/caddy/Caddyfile -o caddy/Caddyfile
-            curl https://raw.githubusercontent.com/mmolenda/missalemeum/refs/heads/master/docker-compose.prod.yaml -o docker-compose.prod.yaml
-            docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
+            cd /root/missalemeum && docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
           host: ${{ vars.DEPLOY_HOST }}
-          port: 10157
+          port: ${{ vars.DEPLOY_PORT }}
           user: ${{ vars.DEPLOY_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY}}
 
