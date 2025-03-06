@@ -17,6 +17,7 @@
     "@mui/material-nextjs": "^6.4.3",
     "@mui/system": "^6.4.3",
     "@mui/x-date-pickers": "^7.27.0",
+    "accept-language-parser": "^1.5.0",
     "dayjs": "^1.11.13",
     "material-icons": "^1.13.13",
     "moment": "^2.30.1",
