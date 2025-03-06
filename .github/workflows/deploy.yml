@@ -64,7 +64,7 @@ jobs:
             curl https://raw.githubusercontent.com/mmolenda/missalemeum/refs/heads/master/docker-compose.prod.yaml -o docker-compose.prod.yaml
             docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
           host: ${{ vars.DEPLOY_HOST }}
-          port: ${{ vars.DEPLOY_PORT }}
+          port: 10157
           user: ${{ vars.DEPLOY_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY}}
 
