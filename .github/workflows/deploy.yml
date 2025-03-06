@@ -49,6 +49,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
   deploy-images:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       # Steps that only run on release published
