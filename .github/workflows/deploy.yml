@@ -61,7 +61,7 @@ jobs:
           Host prod
             HostName ${{ vars.DEPLOY_HOST }}
             User ${{ vars.DEPLOY_USER }}
-            Port ${{ vars.DEPLOY_PORT }}
+            Port 1077
             IdentityFile ~/.ssh/prod.key
             StrictHostKeyChecking no
           END
