@@ -1,6 +1,6 @@
 services:
   backend:
-    image: ghcr.io/mmolenda/missalemeum/backend:nextjs
+    image: ghcr.io/mmolenda/missalemeum/backend:latest
     container_name: backend
     ports:
       - "8080:8080"

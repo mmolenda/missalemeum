@@ -3,7 +3,7 @@ name: Deploy Docker image
 on:
   push:
     tags:
-      - '*'
+      - 'xx'
 
 env:
   REGISTRY: ghcr.io
