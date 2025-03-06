@@ -8,7 +8,7 @@ services:
       - app-network
 
   frontend:
-    build: ghcr.io/mmolenda/missalemeum/frontend:nextjs
+    image: ghcr.io/mmolenda/missalemeum/frontend:nextjs
     container_name: frontend
     ports:
       - "8081:8081"

@@ -1,16 +1,21 @@
 {
-    auto_https off
-    email marcin@missalemeum.com
+	auto_https off
+	email marcin@missalemeum.com
 }
 
-http://localhost:8000 {
-    handle_path /pl/api/* {
-        reverse_proxy backend:8080
-    }
+http://localhost:8000, http://0.0.0.0:8000 {
 
-    handle_path /en/api/* {
-        reverse_proxy backend:8080
-    }
+	log {
+		output stdout
+		level INFO
+	}
+	handle /pl/api/* {
+		reverse_proxy backend:8080
+	}
+
+	handle /en/api/* {
+		reverse_proxy backend:8080
+	}
 
     reverse_proxy frontend:8081
 }
