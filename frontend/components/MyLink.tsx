@@ -8,6 +8,6 @@ export default function MyLink({href, text, widgetMode}: {href: string | undefin
 		? <MUILink target="_blank" href={(search && !search.startsWith("ref")) ? href : pathname}>{text}</MUILink>
 		: <MUILink
 			component={Link}
-			href={href}>{text}</MUILink>
+			href={href ?? "/"}>{text}</MUILink>
 }
 
