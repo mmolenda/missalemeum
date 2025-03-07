@@ -7,12 +7,35 @@ sections:
   -
     - |
         Strona **Missale Meum** powstała na chwałę Boską i pożytek ludzki, aby w jednym miejscu 
-        zebrać i w przystępnej formie udostępnić cyfrową wersję kalendarza liturgicznego i wszystkich czytań mszalnych 
+        zebrać i w przystępnej formie udostępnić cyfrową wersję kalendarza liturgicznego i wszystkich tekstów mszalnych 
         wg układu z 1962 r. dla Mszy Trydenckiej.
 
         Teksty polskie pochodzą z “Mszału Rzymskiego” Wydawnictwa Pallottinum 1963 r. – za zgodą Wydawnictwa. Teksty 
         łacińskie pochodzą w większości z czcigodnej strony [Divinum Officium](https://www.divinumofficium.com/) oraz częściowo z w/w Mszału.
       
+        Kod strony jest otwarty i dostępny w [repozytorium github](https://github.com/mmolenda/missalemeum). Strona została zbudowana 
+        jako prywatny projekt i nie reprezentuje ona żadnej oficjalnej organizacji ani grupy.
+
+        ### Kontakt
+
+        Wszelkie uwagi, pomysły, zapytania, zgłoszenia błędów można kierować na adres email:  
+        marcin@missalemeum.com  
+        
+        Zapraszamy również na nasz profil w serwisie Facebook:  
+        [facebook.com/missalemeum](https://www.facebook.com/missalemeum)  
+
+        ### Wsparcie
+
+        *«Żniwo wprawdzie wielkie, ale robotników mało.»* – mówi Pan Jezus.
+
+        Jeśli podoba Ci się strona Missale Meum, możesz pomóc ją rozwijać:
+
+        - ofiarowując modlitwę w intencji projektu i jego twórców,
+        - dobrym słowem, pomysłem, uwagą, zgłoszeniem błędu – każdy odzew motywuje nas do dalszej pracy,
+        - rozpowszechniając stronę.
+      
+        ### Msze własne dla diecezji polskich
+        
         Msze własne dla diecezji polskich podano zgodnie z *Calendarium Perpetuum pro Diœcesium Poloniæ* z 1964 roku. 
         Choć kalendarz ten został opublikowany po 1962 roku, jego wydanie było realizacją postanowień motu proprio 
         *Rubricarum instructum* św. Jana XXIII z 25 lipca 1960 roku i dotyczy on Missale Romanum z 1962 roku 
@@ -26,23 +49,6 @@ sections:
         związku z ich brakiem w dawniejszym mszaliku, zostały podane w oparciu o Mszał Rzymski Pallottinum, Poznań 1965.
       
         W przyszłości rozważane jest dodanie formularzy z 1964 r. jako opcji do wyboru.
-      
-        Kod strony dostępny jest w [repozytorium github](https://github.com/mmolenda/missalemeum). Strona została zbudowana 
-        jako prywatny projekt i nie reprezentuje ona żadnej oficjalnej organizacji ani grupy.
-
-        ### Wsparcie
-
-        *«Żniwo wprawdzie wielkie, ale robotników mało.»* – mówi Pan Jezus.
-
-        Jeśli podoba Ci się strona Missale Meum, możesz pomóc ją rozwijać:
-
-        - ofiarowując modlitwę w intencji projektu i jego twórców,
-        - dobrym słowem, pomysłem, uwagą, zgłoszeniem błędu – każdy odzew motywuje nas do dalszej pracy,
-        - rozpowszechniając stronę.
-
-        ### Kontakt
-
-        Wszelkie uwagi, pomysły, zapytania, zgłoszenia błędów można kierować na adres email marcin@missalemeum.com.
       
         ### Polityka prywatności
       
