@@ -34,7 +34,6 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
   let date = info.date;
   let label
   if (date) {
-    moment.locale(lang)
     let parsedDate = moment(date, "YYYY-MM-DD");
     label = parsedDate.format("DD MMMM YY, dddd")
     tags.push(<Tag key={label} icon={showIcon && <EventIcon/>} label={label}/>);

@@ -29,6 +29,15 @@ sections:
           - [Pokuta](/pl/supplement/21-pokuta?ref=supplement/index)
           - [Małżeństwo](/pl/supplement/22-malzenstwo?ref=supplement/index)
       
+        ### Aplikacja na iPhone i Android
+        
+        Na chwilę obecną nie ma dedykowanej aplikacji Missale Meum w Google Play ani w App Store.
+        Jednak strona jest napisana jako aplikacja [PWA (Progressive Web App)](https://gsd.pl/blog/aplikacje-pwa/co-to-jest-aplikacja-PWA), 
+        którą można zainstalować, aby zachowywała się jak zwykła aplikacja na iPhonie lub Androidzie.
+
+        - Na Androidzie należy otworzyć stronę w przeglądarce Chrome i z menu wybrać "Dodaj do ekranu startowego"
+        - Na iPhonie należy otworzyć stronę w przeglądarce Safari, kliknąć udostępnij, a następnie dodać do ekranu głównego
+        
         ### Ebook
       
         Mszalik z czytaniami na niedziele i święta i z komentarzem do Ewangelii na czytniki w 
