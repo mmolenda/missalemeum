@@ -18,7 +18,6 @@ import ShareIcon from '@mui/icons-material/Share';
 import {
   MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, COMMEMORATION, Locale
 } from "./intl";
-import SkeletonContent from "./SkeletonContent";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
@@ -179,109 +178,105 @@ const Article = ({
     newWindow && newWindow.document.close();
     newWindow && newWindow.focus();
   }
-  if (id === null) {
-    return <SkeletonContent/>
-  } else {
-    return (
-      <>
-        <Box sx={{
-          position: "fixed",
-          top: (theme) => {
-            // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
-            // all the code below is to appease typescript linter
-            const root = theme.components?.MuiAppBar?.styleOverrides?.root;
-            const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
-            return height as string;
-          }
-        }}
-        >
-          {backButton}
-        </Box>
-        {!widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
-          <IconButton aria-label="share" ref={shareButtonRef} onClick={() => share()}>
-            <ShareIcon/>
-            <Popover
-              open={sharePopoverOpen}
-              anchorEl={shareButtonRef.current}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-            >
-              <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
-            </Popover>
-          </IconButton>
-          <IconButton aria-label="print" onClick={() => print()}>
-            <PrintIcon/>
-          </IconButton>
-        </Box>}
-        <Box sx={{px: "0.75rem"}}>
-          <>{contents.length > 1 ?
-            <Select
-              value={index}
-              defaultValue={index}
-              onChange={(e) => {
-                setIndex(Number(e.target.value))
-                window.location.hash = `#${e.target.value}`;
-              }}
-              sx={{
-                fontSize: (theme) => theme.typography.h2.fontSize,
-                fontWeight: (theme) => theme.typography.h2.fontWeight,
-                color: (theme) => theme.typography.h2.color
-              }}
-            >
-              {contents.map((content, xindex) => {
-                return <MenuItem key={xindex} value={xindex}>{content.info.title}</MenuItem>
-              })}
-            </Select> :
-            <Typography variant="h2">
-              {content.info.title}
-            </Typography>
-          }</>
-          {content.info.commemorations && content.info.commemorations.length > 0 && <Typography
-            variant="h3">{COMMEMORATION[lang as Locale]}{" "}{content.info.commemorations.join(", ")}</Typography>}
-          <Box sx={{padding: "0.5rem"}}>
-            <ArticleTags info={content.info} lang={lang} showIcon/>
-          </Box>
-          <>{content.info.description &&
-            <Typography component="div" variant="body1" align="justify" sx={{padding: "0.5rem", hyphens: "auto"}}>
-              <Md text={content.info.description} markdownNewlines={markdownNewlines}
-                  widgetMode={widgetMode}/>
-            </Typography>}</>
-          {content.info.supplements && content.info.supplements.length > 0 &&
-            <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
-              {`${MENUITEM_SUPPLEMENT[lang as Locale]}: `}
-              {content.info.supplements.map((supplement, index) => {
-                return (<Fragment key={index}>
-                  <MyLink href={`${supplement.path}?ref=${id}`} text={supplement.label}
-                          widgetMode={widgetMode}/>
-                  {index + 1 < content.info.supplements.length && ", "}
-                </Fragment>)
-              })}
-            </Typography>}
-
-          <Box sx={{display: "grid"}}>
-            {content.sections.map((section, index) => {
-              return <BilingualSection
-                key={"section-" + index}
-                key_={"section-" + index}
-                titleVernacular={section.label}
-                titleLatin={section.id}
-                body={section.body}
-                singleColumnAsRubric={singleColumnAsRubric}
-                bilingualLang={bilingualLang}
-                markdownNewlines={markdownNewlines}
-                widgetMode={widgetMode}
-                itemRefs={itemRefs}
-              />
+  return (
+    <>
+      <Box sx={{
+        position: "fixed",
+        top: (theme) => {
+          // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
+          // all the code below is to appease typescript linter
+          const root = theme.components?.MuiAppBar?.styleOverrides?.root;
+          const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
+          return height as string;
+        }
+      }}
+      >
+        {backButton}
+      </Box>
+      {!widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
+        <IconButton aria-label="share" ref={shareButtonRef} onClick={() => share()}>
+          <ShareIcon/>
+          <Popover
+            open={sharePopoverOpen}
+            anchorEl={shareButtonRef.current}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'left',
+            }}
+          >
+            <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
+          </Popover>
+        </IconButton>
+        <IconButton aria-label="print" onClick={() => print()}>
+          <PrintIcon/>
+        </IconButton>
+      </Box>}
+      <Box sx={{px: "0.75rem"}}>
+        <>{contents.length > 1 ?
+          <Select
+            value={index}
+            defaultValue={index}
+            onChange={(e) => {
+              setIndex(Number(e.target.value))
+              window.location.hash = `#${e.target.value}`;
+            }}
+            sx={{
+              fontSize: (theme) => theme.typography.h2.fontSize,
+              fontWeight: (theme) => theme.typography.h2.fontWeight,
+              color: (theme) => theme.typography.h2.color
+            }}
+          >
+            {contents.map((content, xindex) => {
+              return <MenuItem key={xindex} value={xindex}>{content.info.title}</MenuItem>
             })}
-          </Box>
+          </Select> :
+          <Typography variant="h2">
+            {content.info.title}
+          </Typography>
+        }</>
+        {content.info.commemorations && content.info.commemorations.length > 0 && <Typography
+          variant="h3">{COMMEMORATION[lang as Locale]}{" "}{content.info.commemorations.join(", ")}</Typography>}
+        <Box sx={{padding: "0.5rem"}}>
+          <ArticleTags info={content.info} lang={lang} showIcon/>
         </Box>
-        {isBilingual() && <BilingualSelector lang={lang} bilingualLang={bilingualLang}
-                                             setBilingualLang={setBilingualLang}/>}
-      </>
-    )
-  }
+        <>{content.info.description &&
+          <Typography component="div" variant="body1" align="justify" sx={{padding: "0.5rem", hyphens: "auto"}}>
+            <Md text={content.info.description} markdownNewlines={markdownNewlines}
+                widgetMode={widgetMode}/>
+          </Typography>}</>
+        {content.info.supplements && content.info.supplements.length > 0 &&
+          <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
+            {`${MENUITEM_SUPPLEMENT[lang as Locale]}: `}
+            {content.info.supplements.map((supplement, index) => {
+              return (<Fragment key={index}>
+                <MyLink href={`${supplement.path}?ref=${id}`} text={supplement.label}
+                        widgetMode={widgetMode}/>
+                {index + 1 < content.info.supplements.length && ", "}
+              </Fragment>)
+            })}
+          </Typography>}
+
+        <Box sx={{display: "grid"}}>
+          {content.sections.map((section, index) => {
+            return <BilingualSection
+              key={"section-" + index}
+              key_={"section-" + index}
+              titleVernacular={section.label}
+              titleLatin={section.id}
+              body={section.body}
+              singleColumnAsRubric={singleColumnAsRubric}
+              bilingualLang={bilingualLang}
+              markdownNewlines={markdownNewlines}
+              widgetMode={widgetMode}
+              itemRefs={itemRefs}
+            />
+          })}
+        </Box>
+      </Box>
+      {isBilingual() && <BilingualSelector lang={lang} bilingualLang={bilingualLang}
+                                           setBilingualLang={setBilingualLang}/>}
+    </>
+  )
 }
 
 

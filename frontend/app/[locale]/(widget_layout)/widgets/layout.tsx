@@ -7,7 +7,9 @@ import {getDesignTokens} from '@/components/designTokens';
 import {Box, createTheme, CssBaseline, PaletteMode} from "@mui/material";
 
 import {Merriweather} from 'next/font/google'
-import {useSearchParams} from "next/navigation";
+import {useParams, useSearchParams} from "next/navigation";
+import 'moment/locale/pl';
+import moment from "moment/moment";
 
 
 const merriweather = Merriweather({
@@ -21,6 +23,8 @@ export default function RootLayout({
                                    }: {
   children: React.ReactNode;
 }) {
+  const { locale } = useParams<{ locale?: string }>()
+  moment.locale(locale)
   const searchParams = useSearchParams()
   const fontSize = "medium"
   const lightOrDark: PaletteMode =
