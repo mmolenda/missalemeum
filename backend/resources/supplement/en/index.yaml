@@ -6,6 +6,15 @@ sections:
 - body:
   -
     - |
+        ### iPhone and Android App
+        
+        At the moment, there is no dedicated Missale Meum app available on Google Play or the App Store.
+        However, the website is designed as a [PWA (Progressive Web App)](https://topflightapps.com/ideas/native-vs-progressive-web-app/),
+        which can be installed to function like a regular app on iPhone or Android.
+        
+        - On Android, open the website in the Chrome browser and select "Add to Home screen" from the menu.
+        - On iPhone, open the website in the Safari browser, tap the share button, and then select "Add to Home Screen."
+      
         ### iCalendar
         
         1962 liturgical calendar is available in iCalendar format.
