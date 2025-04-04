@@ -31,9 +31,11 @@ export default function RootLayout({
   (["light", "dark"].includes(searchParams.get("theme") ?? "")
     ? (searchParams.get("theme") as PaletteMode)
     : "light")
-  let designTokens = getDesignTokens(lightOrDark, fontSize)
-  designTokens.components.MuiAppBar.styleOverrides.root.height = "12px"
-  const theme = React.useMemo(() => createTheme(designTokens), [lightOrDark, fontSize]);
+  const theme = React.useMemo(() => {
+    const designTokens = getDesignTokens(lightOrDark, fontSize);
+    designTokens.components.MuiAppBar.styleOverrides.root.height = "12px";
+    return createTheme(designTokens);
+  }, [lightOrDark, fontSize]);
 
   return (<html lang="en" className={merriweather.className}>
     <AppRouterCacheProvider>

@@ -24,9 +24,11 @@ export default async function Page({
 }) {
   const { locale, id } = await params
   const { ref } = await searchParams
-  let backButtonRef = ref && `/${locale}/${ref}`
+  const backButtonRef = ref && `/${locale}/${ref}`
   const response = await callApi(locale, "supplement", id)
-  response.status !== 200 && notFound()
+  if (response.status !== 200) {
+    notFound();
+  }
   const proper = await response.json();
   return <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={backButtonRef} markdownNewlines={true} />
 }

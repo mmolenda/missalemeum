@@ -39,6 +39,10 @@ used by `missalemeum.api` to fetch the data).
 
 To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
 
+Backend API URL needs to be provided in `API_URL` env variable.
+
+Application build version is provided in `NEXT_PUBLIC_BUILD_VERSION` env variable.
+
 ### Run the python development API
 
 ```bash

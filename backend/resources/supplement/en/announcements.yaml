@@ -1,0 +1,31 @@
+info:
+  tags: []
+  title: Announcements
+
+sections:
+- body:
+  -
+    - |
+        ### March 6, 2025
+        
+        Release [5.11.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.11.0)
+
+        - Adding new calendar datepicker with colored days
+        - Migrating frontend to nextjs
+
+        ### December 12, 2024
+        
+        Release [5.10.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.10.0)
+
+        - Fixes in commemorations
+        - Showing commemorations in the calendar and on propers page
+        - Showing actual names of Feria days (instead of Sunday)
+
+        ### January 5, 2024
+        
+        Release [5.6.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.6.0)
+
+        - Adding alternative saint's propers on Lent feria days
+
+  id: ''
+  label: ''

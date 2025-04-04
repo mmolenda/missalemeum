@@ -4,7 +4,7 @@ import moment from "moment";
 import {callApi, generateLocalisedMetadata} from "@/components/utils";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }){
-  const { locale, id } = await params
+  const { locale } = await params
   return generateLocalisedMetadata(locale);
 }
 

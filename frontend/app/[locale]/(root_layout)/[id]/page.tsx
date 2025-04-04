@@ -25,16 +25,22 @@ export default async function Page({params}: { params: Promise<{locale: string, 
     // depending on passed ID. This is a subject to change when new URL layout
     // is done.
     const response = await callApi(locale, "calendar", id)
-    response.status !== 200 && notFound()
+    if (response.status !== 200) {
+      notFound();
+    }
     return <ListProper lang={locale} year={parseInt(id)} items={await response.json()}/>
   } else {
-    let parsedDate = moment(id)
-    !parsedDate.isValid() && notFound()
+    const parsedDate = moment(id)
+    if (!parsedDate.isValid()) {
+      notFound();
+    }
     const response = await callApi(locale, "proper", id)
-    response.status !== 200 && notFound()
+    if (response.status !== 200) {
+      notFound();
+    }
     const providedYear = id.split("-")[0]
-    let currentYear = moment().format("YYYY")
-    let yearBit = providedYear != currentYear ? `/${providedYear}` : ""
+    const currentYear = moment().format("YYYY")
+    const yearBit = providedYear != currentYear ? `/${providedYear}` : ""
     return <BilingualContent lang={locale} id={id} contents={await response.json()} backButtonRef={`/${locale}${yearBit}#${id}`}/>
   }
 }

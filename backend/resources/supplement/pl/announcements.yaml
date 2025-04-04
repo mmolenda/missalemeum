@@ -1,0 +1,31 @@
+info:
+  tags: []
+  title: Ogłoszenia
+
+sections:
+- body:
+  -
+    - |
+        ### 6 marca 2025
+        
+        Wydanie [5.11.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.11.0)
+
+        - Nowy kalendarz z dniami w kolorach liturgicznych
+        - Migracja frontendu do nextjs
+
+        ### 12 grudnia 2024
+        
+        Wydanie [5.10.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.10.0)
+
+        - Poprawki wspomnień
+        - Wspomnienia wyświetlane w kalendarzu i pod nagłówkiem na stronie dnia
+        - W przypadku formularza z ostatniej niedzieli poprawiono tytuł na "Feria", zamiast nazwy tej niedzieli
+
+        ### 5 stycznia 2024
+        
+        Wydanie [5.6.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.6.0)
+
+        - Możliwość wyświetlenia formularzy świętych w dni ferialne Wielkego Postu 
+
+  id: ''
+  label: ''
