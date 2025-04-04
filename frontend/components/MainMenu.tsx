@@ -11,13 +11,13 @@ import {
     ToggleButtonGroup
 } from "@mui/material";
 import {
-  Locale,
+  Locale, MENUITEM_ANNOUNCEMENTS,
   MENUITEM_CANTICUM, MENUITEM_INFO,
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER,
   MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE, MENUITEM_WHATSNEW
+  MENUITEM_VOTIVE
 } from "@/components/intl";
 import Link from "next/link";
 import React, {Dispatch, SetStateAction, useState} from "react";
@@ -76,7 +76,8 @@ const LeftHandMenu = ({
           [MENUITEM_ORATIO[lang as Locale]]: `/${lang}/oratio`,
           [MENUITEM_CANTICUM[lang as Locale]]: `/${lang}/canticum`,
           [MENUITEM_SUPPLEMENT[lang as Locale]]: `/${lang}/supplement/index`,
-          [MENUITEM_INFO[lang as Locale]]: `/${lang}/supplement/info`
+          [MENUITEM_INFO[lang as Locale]]: `/${lang}/supplement/info`,
+          [MENUITEM_ANNOUNCEMENTS[lang as Locale]]: `/${lang}/supplement/announcements`
         }).map(([label, route]) => (
           <ListItem key={label}>
             <ListItemButton
@@ -88,15 +89,6 @@ const LeftHandMenu = ({
             </ListItemButton>
           </ListItem>
         ))}
-        <ListItem key="whatsnew">
-          <ListItemButton
-            component={Link}
-            href={"https://github.com/mmolenda/missalemeum/releases"}
-            target={"_blank"}
-          >
-            <DrawerListItemText prim={MENUITEM_WHATSNEW[lang as Locale]}/>
-          </ListItemButton>
-        </ListItem>
         <Divider/>
         <ListItem key="lang">
           <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">

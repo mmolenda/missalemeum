@@ -27,6 +27,7 @@ import {Locale, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@
 import {useParams} from "next/navigation";
 import moment from "moment";
 import 'moment/locale/pl';
+import Announcement from "@/components/Announcement";
 
 
 const merriweather = Merriweather({
@@ -41,6 +42,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const lang = typeof locale === "string" ? locale : "en"
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
   const [fontSize, setFontSize] = useState<string>("medium")
+  const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
 
   useEffect(() => {
@@ -64,6 +66,12 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
       <ThemeProvider theme={theme}>
         <CssBaseline/>
         <body>
+        <Announcement
+          lang={lang}
+          version={process.env.NEXT_PUBLIC_BUILD_VERSION || "noversion"}
+          debug={false}
+          open={announcementOpened}
+          setOpen={setAnnouncementOpened} />
         <Container disableGutters sx={{backgroundColor: "background.default"}}>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
