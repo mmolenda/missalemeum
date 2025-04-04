@@ -52,11 +52,11 @@ export default function BilingualContent({
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
-    let hashValue = window.location.hash.substring(1)
+    const hashValue = window.location.hash.substring(1)
     setIndex(parseInt(hashValue) || 0)
   })
 
-  let backButton = (backButtonRef && <IconButton
+  const backButton = (backButtonRef && <IconButton
     aria-label="back"
     component={Link}
     href={backButtonRef}
@@ -102,16 +102,16 @@ const Article = ({
   singleColumnAsRubric: boolean
 }) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
-  const [sharePopoverOpen, setSharePopoverOpen] = useState(false)
-  let shareButtonRef = useRef(null)
-  let content: Content = contents[index]
+  const sharePopoverOpen = false
+  const shareButtonRef = useRef(null)
+  const content: Content = contents[index]
   const itemRefs: Record<string, React.RefObject<HTMLElement>> = {};
   useEffect(() => {
     scrollToListItem(window.location.hash.substring(1))
   }, [])
 
   const scrollToListItem = (itemId: string) => {
-    let itemRef = itemRefs[itemId]
+    const itemRef = itemRefs[itemId]
     if (itemRef && itemRef.current) {
       itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
     } else {
@@ -120,8 +120,8 @@ const Article = ({
   }
 
   const isBilingual = () => {
-    for (let section of content.sections) {
-      for (let bodyItem of section.body) {
+    for (const section of content.sections) {
+      for (const bodyItem of section.body) {
         if (bodyItem.length > 1) {
           return true
         }
@@ -138,7 +138,7 @@ const Article = ({
         title,
         url
       })
-    } catch (err) {
+    } catch {
       navigator.clipboard.writeText(url).then(function () {
       }, function (err) {
         alert(`Couldn't copy address: ${err}`);
@@ -147,8 +147,8 @@ const Article = ({
   }
 
   const print = () => {
-    let newWindow = window.open('', '', "width=650, height=750");
-    let newContent = (
+    const newWindow = window.open('', '', "width=650, height=750");
+    const newContent = (
       <html>
       <body style={{margin: "4%", minWidth: "300px"}}>
       <h1>{content.info.title}</h1>
@@ -301,12 +301,12 @@ const BilingualSection = ({
   widgetMode: boolean
   itemRefs: any
 }) => {
-  let isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
+  const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
   const formatBody = () => {
-    let paragraphs = [];
-    for (let row of body) {
-      let singleColumn = row.length === 1
-      for (let [index, col] of row.entries()) {
+    const paragraphs = [];
+    for (const row of body) {
+      const singleColumn = row.length === 1
+      for (const [index, col] of row.entries()) {
         let bilingualLangClass = ""
         if (!singleColumn) {
           bilingualLangClass = (index === 0) ? xVernacular : xLatin
@@ -332,8 +332,8 @@ const BilingualSection = ({
     return true
   }
 
-  let itemRef = createRef()
-  let titleVernacularSlug = slugify(titleVernacular)
+  const itemRef = createRef()
+  const titleVernacularSlug = slugify(titleVernacular)
   if (titleVernacularSlug) {
     itemRefs[titleVernacularSlug] = itemRef
   }
@@ -398,7 +398,7 @@ const BilingualSectionParagraph = ({
   markdownNewlines: boolean
   widgetMode: boolean
 }) => {
-  let show = (!(useMediaQuery((theme) => theme.breakpoints.down('sm')) && bilingualLangClass !== bilingualLang) || singleColumn);
+  const show = (!(useMediaQuery((theme) => theme.breakpoints.down('sm')) && bilingualLangClass !== bilingualLang) || singleColumn);
   return (
     <Typography
       component="div"

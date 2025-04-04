@@ -21,7 +21,7 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
   const theme = useTheme()
   const [paperPage, setPaperPage] = useState(0)
 
-  let colorNames: {[key in ColorCode]: string} = {
+  const colorNames: {[key in ColorCode]: string} = {
     r: VESTMENTS_RED[lang as Locale],
     g: VESTMENTS_GREEN[lang as Locale],
     w: VESTMENTS_WHITE[lang as Locale],
@@ -30,11 +30,11 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
     p: VESTMENTS_PINK[lang as Locale]
   }
 
-  let tags = [];
-  let date = info.date;
+  const tags = [];
+  const date = info.date;
   let label
   if (date) {
-    let parsedDate = moment(date, "YYYY-MM-DD");
+    const parsedDate = moment(date, "YYYY-MM-DD");
     label = parsedDate.format("DD MMMM YY, dddd")
     tags.push(<Tag key={label} icon={showIcon && <EventIcon/>} label={label}/>);
   }
@@ -47,7 +47,7 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
     tags.push(<Tag key={label} label={label}/>);
   }
   if (info.colors) {
-    for (let colorCode of info.colors) {
+    for (const colorCode of info.colors) {
       let tag
       label = colorNames[colorCode as ColorCode]
       if (
@@ -61,9 +61,9 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
       tags.push(tag);
     }
   }
-  let paperPages = []
+  const paperPages = []
   if (info.tags) {
-    for (let infoItem of info.tags.filter((i) => !i.includes("Szaty"))) {
+    for (const infoItem of info.tags.filter((i) => !i.includes("Szaty"))) {
       if (infoItem.match(/ \w\. \d+/)) {
         // Paper pages references such as "Pallotinum s. 207" or "Angelus Press p. 359" are handled separately
         paperPages.push(infoItem)

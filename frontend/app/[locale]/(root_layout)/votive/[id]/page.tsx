@@ -18,7 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
   const { id, locale } = await params
   const response = await callApi(locale, "proper", id)
-  response.status !== 200 && notFound()
+  if (response.status !== 200) {
+    notFound();
+  }
   const proper = await response.json();
   return <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={`/${locale}/votive#${id}`}/>
 }

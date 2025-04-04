@@ -29,8 +29,8 @@ export default function Announcement({
   useEffect(() => {
     // must be before the date AND storage says its not seen  OR
     // debug always opens
-    let isNotSeen= myLocalStorage.getItem(storageKey) !== version
-    let isNotExpired = moment(expirationDate) > moment()
+    const isNotSeen= myLocalStorage.getItem(storageKey) !== version
+    const isNotExpired = moment(expirationDate) > moment()
     // if open state is provided from the outside - open; otherwise evaluate if it should be opened
     open || setOpen((isNotSeen && isNotExpired) || debug)
   }, [])
@@ -66,10 +66,10 @@ export default function Announcement({
             Laudetur Iesus Christus!<br/>
             We are happy to announce the next release of the online missal.<br/><br />
 
-            <strong>What's new</strong><br />
+            <strong>What is new</strong><br />
             - Commemorations are now displayed in the calendar.<br/><br/>
 
-            More details can be found on the project's <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="GitHub page" widgetMode={false} />.<br />
+            More details can be found on the project <MyLink href="https://github.com/mmolenda/missalemeum/releases" text="GitHub page" widgetMode={false} />.<br />
             Any comments on the operation of the website, suggestions, etc. are welcome at marcin@missalemeum.com.
           </DialogContentText>
           : <DialogContentText id="alert-dialog-description">
