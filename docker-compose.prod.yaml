@@ -2,6 +2,7 @@ services:
   backend:
     image: ghcr.io/mmolenda/missalemeum/backend:latest
     container_name: backend
+    restart: always
     ports:
       - "8080:8080"
     networks:
@@ -10,6 +11,7 @@ services:
   frontend:
     image: ghcr.io/mmolenda/missalemeum/frontend:latest
     container_name: frontend
+    restart: always
     ports:
       - "8081:8081"
     environment:
