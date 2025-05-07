@@ -30,6 +30,12 @@ class Rules:
             self.preface_mod = self.preface_mod or other_rules.preface_mod
 
 
+@dataclasses.dataclass
+class Substitution:
+    string: str = None
+    section: Union[str, None] = None
+
+
 class ParsedSource:
     """
     Class representing parsed plain data file in Divinum Officium format, such as
@@ -63,6 +69,7 @@ class ParsedSource:
     def __init__(self) -> None:
         self._container = {}
         self.rules: Union[Rules, None] = None
+        self.substitutions: Union[list[Substitution], None] = None
 
     def has_section(self, section_id: str):
         try:
@@ -143,6 +150,27 @@ class ParsedSource:
                 rules.ignore = True
 
         return rules
+
+    def parse_substitutions(self) -> list[Substitution]:
+        section = self.get_section("Name")
+        if section is not None:
+            collect = {
+                ORATIO: None,
+                SECRETA: None,
+                POSTCOMMUNIO: None
+            }
+            for line in section.get_body():
+                line=line.strip()
+                if not line:
+                    continue
+                try:
+                    section, string = line.split("=")
+                    collect[section] = string
+                except ValueError:
+                    for k, v in collect.items():
+                        if v is None:
+                            collect[k] = line
+            return [Substitution(section=k, string=v) for k, v in collect.items()]
 
 
 class Proper(ParsedSource):

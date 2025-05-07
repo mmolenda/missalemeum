@@ -119,6 +119,8 @@ class ProperParser:
                     raise ProperNotFound(f'Proper from vide not found: ({lang}) {coming_from} -> {vide}.')
                 parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
 
+        parsed_source.substitutions = parsed_source.parse_substitutions()
+        parsed_source = self._apply_global_substitutions(parsed_source)
         parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
         parsed_source = self._strip_newlines(parsed_source)
         return parsed_source
@@ -166,6 +168,14 @@ class ProperParser:
                         else:
                             parsed_source.get_section(section_name).append_to_body(appendln)
                         concat_line = True if ln.endswith('~') else False
+        return parsed_source
+
+    def _apply_global_substitutions(self, parsed_source: ParsedSource):
+        for substitution in parsed_source.substitutions or []:
+            section = parsed_source.get_section(substitution.section)
+            body = section.get_body()
+            for i, line in enumerate(body):
+                body[i] = re.sub(r"N\.", substitution.string, line)
         return parsed_source
 
     def _resolve_references(self, parsed_source: ParsedSource, partial_path: str, lang, coming_from: str = None) -> ParsedSource:
