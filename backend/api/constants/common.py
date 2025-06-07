@@ -14,7 +14,8 @@ SATURDAY = 5
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
 LANGUAGE_ENGLISH = 'en'
-LANGUAGES = {'en': 'English', 'pl': 'Polski'}
+LANGUAGE_SPANISH = 'es'
+LANGUAGES = {'en': 'English', 'pl': 'Polski', 'es': 'Espanol'}
 DIVOFF_LANG_MAP = {'la': 'Latin'}
 DIVOFF_LANG_MAP.update(LANGUAGES)
 TYPE_TEMPORA = 'tempora'
