@@ -1,5 +1,7 @@
 from api.constants import common as constants
 
+# TODO(shackra): Start something like this but in spanish?
+
 SERMONRY_LABEL = "Commentary on the propers of the Mass from Sermonry"
 SERMONRY_URL = "https://sermonry.com/propers/"
 
