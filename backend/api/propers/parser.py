@@ -101,15 +101,12 @@ class ProperParser:
                 parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
         parsed_source = self._resolve_conditionals(parsed_source)
-        parsed_source.rules = parsed_source.parse_rules()
-        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
-        # from the referenced file and get sections that are not explicitly defined in the current proper.
-
         parsed_source.substitutions = parsed_source.parse_substitutions()
         parsed_source = self._apply_global_substitutions(parsed_source)
         if is_local:
             parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
         parsed_source = self._strip_newlines(parsed_source)
+        parsed_source.rules = parsed_source.parse_rules()
         return parsed_source
 
     def _read_source(self, partial_path: str, lang: str, lookup_section: Union[str, None] = None, is_local=False) -> ParsedSource:
