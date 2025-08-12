@@ -1,11 +1,6 @@
-[Rule]
-vide C4b
-
 [Comment]
 # 11 I – Św. Hygina, Papieża i Męczennika
 ! Wspomnienie
 ! Szaty czerwone
 Św. Hygin, następca św. Telesfora, w ciągu czteroletniego pontyfikatu (138-142)~
 zwalczał błędy gnostyckie, które zagrażały czystości wiary rzymskiej.
-
-Msza wspólna nr 8 Si diligis.

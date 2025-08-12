@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/01-11cc
+
+[Oratio]
+@Commune/C4b
+
+[Secreta]
+@Commune/C4b
+
+[Postcommunio]
+@Commune/C4b

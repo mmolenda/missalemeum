@@ -2,7 +2,7 @@
 @Sancti/01-01
 
 [Introitus]
-@Sancti/12-25m3
+@Tempora/Nat30
 
 [Oratio]
 @Commune/C10b
@@ -17,13 +17,13 @@
 @Tempora/Nat2-0
 
 [Offertorium]
-@Sancti/12-25m3
+@Tempora/Nat30
 
 [Secreta]
 @Commune/C2
 
 [Communio]
-@Sancti/01-01
+@Tempora/Nat30
 
 [Postcommunio]
 @Commune/C10b

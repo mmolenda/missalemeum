@@ -11,13 +11,24 @@ language = 'pl'
 
 
 def _get_proper_fixtures(fixture):
-    dates = (
-        # '2025-01-01',
-        # '2025-01-02',
-        # '2025-01-03',
-        '2025-01-04',
-        # '2025-01-05',
+    years = (
+        # '2024',
+        '2025',
     )
+    days = (
+        '01-01',
+        '01-02',
+        '01-03',
+        '01-04',
+        '01-05',
+        '01-06',
+        '01-07',
+        '01-08',
+        '01-09',
+        '01-10',
+        '01-11',
+    )
+    dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
         return [i for i in x.items() if i[0] in dates]

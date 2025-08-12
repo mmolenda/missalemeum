@@ -91,7 +91,7 @@ class ProperParser:
                   )
 
         if lang == LANGUAGE_LATIN:
-            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section, is_local=is_local)
         else:
             try:
                 parsed_source = self._read_source(partial_path, lang, lookup_section, is_local=is_local)
