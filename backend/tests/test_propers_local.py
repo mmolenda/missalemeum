@@ -11,11 +11,16 @@ language = 'pl'
 
 
 def _get_proper_fixtures(fixture):
+    dates = (
+        # '2025-01-01',
+        # '2025-01-02',
+        # '2025-01-03',
+        '2025-01-04',
+        # '2025-01-05',
+    )
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
-        from_ = 5
-        to_ = 6
-        return list(x.items())[365 + from_:365 + to_]
+        return [i for i in x.items() if i[0] in dates]
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
