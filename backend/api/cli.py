@@ -137,6 +137,7 @@ def date_cols(date: str, language: str, verbosity: int):
     click.echo(f'# {date}')
     click.echo('- tempora: {}'.format(day.get_tempora_name()))
     click.echo('- celebration: {}'.format(day.get_celebration_name()))
+    click.echo('- commemorations: {}'.format(day.get_commemorations_titles()))
     click.echo('- class: {}'.format(day.get_celebration_rank()))
     click.echo()
 

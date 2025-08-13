@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-14
+
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Hilarego/
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Hilarego/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Hilary/
