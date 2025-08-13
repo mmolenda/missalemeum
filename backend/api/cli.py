@@ -119,12 +119,72 @@ def date(date: str, language: str, verbosity: int):
 
 
 @click.command()
+@click.argument('date')
+@click.option('--language', default=LANGUAGE_ENGLISH)
+@click.option('-v', '--verbosity', count=True)
+def date_cols(date: str, language: str, verbosity: int):
+    """
+    Print propers in two columns: vernacular (left) and Latin (right).
+    Each displayed line is truncated to 50 characters to keep output compact.
+    """
+    _log_setup(verbosity)
+    yy, mm, dd = date.split('-')
+    date_object = datetime.date(int(yy), int(mm), int(dd))
+    missal: Calendar = controller.get_calendar(date_object.year, language)
+    day: Day = missal.get_day(date_object)
+    propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
+
+    click.echo(f'# {date}')
+    click.echo('- tempora: {}'.format(day.get_tempora_name()))
+    click.echo('- celebration: {}'.format(day.get_celebration_name()))
+    click.echo('- class: {}'.format(day.get_celebration_rank()))
+    click.echo()
+
+    vern, lat = propers[0]
+    sections_all = list(lat.keys())
+    for k in vern.keys():
+        # not a simple set to maintain order
+        if k not in sections_all:
+            sections_all.append(k)
+    for section_id in sections_all:
+        body_len = 60
+        padding = body_len + 5
+        section_vern = vern.get_section(section_id)
+        section_lat = lat.get_section(section_id)
+
+        if section_vern is not None:
+            section_vern_label = section_vern.label
+            body_vern = section_vern.get_body()
+            if section_vern.id.startswith("Evangelium") or section_vern.id.startswith("Lectio"):
+                body_vern.pop(0)
+        else:
+            body_vern = ["-- missing --"]
+            section_vern_label = f"({section_id})"
+        
+        if section_lat is not None:
+            section_lat_label = section_lat.label
+            body_lat = section_lat.get_body()
+            if section_lat.id.startswith("Evangelium") or section_lat.id.startswith("Lectio"):
+                body_lat.pop(0)
+        else:
+            body_lat = ["-- missing --"]
+            section_lat_label = f"({section_id})"
+
+        body_short_vern = ' '.join(body_vern)[:body_len]
+        body_short_lat = ' '.join(body_lat)[:body_len]
+        click.echo(f'# {section_vern_label.ljust(padding - 2)} # {section_lat_label.ljust(padding)}')
+        click.echo(f'{body_short_vern.ljust(padding)} {body_short_lat.ljust(padding)}')
+        click.echo()
+
+
+@click.command()
 def ical():
     click.echo(controller.get_ical(LANGUAGE_ENGLISH))
 
 
 cli.add_command(calendar)
 cli.add_command(date)
+cli.add_command(date_cols)
 cli.add_command(proper)
 cli.add_command(ical)
 
