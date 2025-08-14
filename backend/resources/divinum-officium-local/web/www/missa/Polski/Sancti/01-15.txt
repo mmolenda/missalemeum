@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-15
+
+[Oratio]
+@Commune/C5:Oratio:s/N\./Pawła/
+
+[Lectio]
+@Sancti/10-19:Lectio
+
+[Evangelium]
+@Sancti/02-24:Evangelium

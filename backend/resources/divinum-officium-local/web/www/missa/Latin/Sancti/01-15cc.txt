@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/01-15cc
+
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Mauri/
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Maurus/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Maurus/
