@@ -214,7 +214,7 @@ class ProperParser:
             return parsed_comment
         for ln in comment.get_body():
             if ln.startswith('#'):
-                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), 1)[-1].strip()
+                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), maxsplit=1)[-1].strip()
             elif ln.strip().startswith('*') and ln.endswith('*'):
                 info_item = ln.replace('*', '')
                 try:
