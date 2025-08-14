@@ -11,14 +11,19 @@ language = 'pl'
 
 
 def _get_proper_fixtures(fixture):
+
+    # in custom:
+    # 01-16
+    # 01-25
+
     years = [
-        '2024',
         '2025',
     ]
     days = [
-        '01-15',
-        '01-14',
-        '01-13',
+        '01-26',
+        # '01-15',
+        # '01-14',
+        # '01-13',
     ]
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
