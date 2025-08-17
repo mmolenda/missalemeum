@@ -134,14 +134,23 @@ def date_cols(date: str, language: str, verbosity: int):
     day: Day = missal.get_day(date_object)
     propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
 
+    click.echo()
     click.echo(f'# {date}')
     click.echo('- tempora: {}'.format(day.get_tempora_name()))
     click.echo('- celebration: {}'.format(day.get_celebration_name()))
-    click.echo('- commemorations: {}'.format(day.get_commemorations_titles()))
+    comms = day.get_commemorations_titles()
+    if comms:
+        click.echo('- commemorations:')
+        for c in comms:
+            click.echo('  - {}'.format(c))
     click.echo('- class: {}'.format(day.get_celebration_rank()))
     click.echo()
-
     vern, lat = propers[0]
+    if vern.description:
+        click.echo(f"\n{vern.description}")
+    click.echo()
+
+    
     sections_all = list(lat.keys())
     for k in vern.keys():
         # not a simple set to maintain order
