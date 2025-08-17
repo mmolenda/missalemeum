@@ -1,0 +1,14 @@
+[Comment]
+@Sancti/01-17
+
+[Introitus]
+@Commune/C5
+
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Antoniego/
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Antoni/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Antoniego/

@@ -22,7 +22,7 @@ def _get_proper_fixtures(fixture):
     ]
     days = [
         # '01-26',
-        '01-16',
+        '01-17',
         # '01-14',
         # '01-13',
     ]
