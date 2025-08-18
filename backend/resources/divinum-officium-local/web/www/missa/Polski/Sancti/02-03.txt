@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/02-03
+
+[Oratio]
+@Commune/C2b::s/N\./Błażeja/
+
+[Secreta]
+@Commune/C2b::s/N\./Błażeja/

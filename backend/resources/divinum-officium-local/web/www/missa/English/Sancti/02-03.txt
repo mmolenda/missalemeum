@@ -1,0 +1,5 @@
+[Oratio]
+@Commune/C2b::s/N\./Blaise/
+
+[Postcommunio]
+@Commune/C2b::s/N\./Blaise/
