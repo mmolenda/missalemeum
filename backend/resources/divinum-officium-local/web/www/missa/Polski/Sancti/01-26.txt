@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-26
+
+[Oratio]
+@Commune/C2b:Oratio:s/N\./Polikarpa/
+
+[Secreta]
+@Commune/C2b:Secreta:s/N\./Polikarpa/
+
+[Postcommunio]
+@Commune/C2b:Postcommunio:s/N\./Polikarpa/

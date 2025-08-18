@@ -103,7 +103,7 @@ if __name__ == "__main__":
     lang = "en"
     
     update_propers_for_dates(
-        [datetime.date(2024, 1, 25), datetime.date(2025, 1, 25)],
+        [datetime.date(2024, 1, 26), datetime.date(2025, 1, 26)],
         lang,
         os.path.join(HERE, "fixtures", f"propers_{lang}.json")
     )

@@ -1,0 +1,9 @@
+
+[Oratio]
+@Commune/C2b:Oratio:s/N\./Polycarp/
+
+[Secreta]
+@Commune/C2b:Secreta:s/N\./Polycarp/
+
+[Postcommunio]
+@Commune/C2b:Postcommunio:s/N\./Polycarp/
