@@ -21,6 +21,7 @@ def _get_proper_fixtures(fixture):
         '2024',
     ]
     days = [
+        '01-24',
         '01-23',
         '01-22',
         '01-21',

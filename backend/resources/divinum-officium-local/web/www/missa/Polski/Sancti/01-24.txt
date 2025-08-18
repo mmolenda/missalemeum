@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-24
+
+[Oratio]
+@Commune/C2c:Oratio:s/N\./Tymoteusza/
+
+[Secreta]
+@Commune/C2c:Secreta:s/N\./Tymoteusza/
+
+[Postcommunio]
+@Commune/C2a:Postcommunio:s/N\./Tymoteusza/
