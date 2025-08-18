@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/01-27
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Jana Złotoustego/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Jan Złotousty/
