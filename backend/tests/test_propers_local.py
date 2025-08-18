@@ -13,7 +13,6 @@ language = 'pl'
 def _get_proper_fixtures(fixture):
 
     # in custom:
-    # 01-16
     # 01-25
 
     years = [
@@ -21,6 +20,7 @@ def _get_proper_fixtures(fixture):
         '2024',
     ]
     days = [
+        '01-25',
         '01-24',
         '01-23',
         '01-22',

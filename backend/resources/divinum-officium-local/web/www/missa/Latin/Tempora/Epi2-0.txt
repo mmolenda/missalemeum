@@ -27,6 +27,3 @@
 
 [Postcommunio]
 @Tempora/Epi2-0
-
-[Comment]
-@Tempora/Epi2-0
