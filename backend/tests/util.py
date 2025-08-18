@@ -1,9 +1,11 @@
+import os
 import datetime
 import json
 from collections import defaultdict
 
 from conftest import get_missal
 
+HERE = os.path.abspath(os.path.dirname(__file__))
 year_early_easter = 2024  # March 31
 year_late_easter = 2025  # April 20
 
@@ -37,6 +39,34 @@ def generate_propers_fixtures(dates: list[datetime.date], language: str):
         json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
 
 
+def update_propers_for_dates(dates: list[datetime.date], language: str, fixture_path: str):
+    # Load existing fixtures (if the file exists)
+    if os.path.exists(fixture_path):
+        with open(fixture_path, "r", encoding="utf-8") as fh:
+            try:
+                coll = json.load(fh)
+            except json.JSONDecodeError:
+                coll = {}
+    else:
+        coll = {}
+
+    for dt in dates:
+        strdt = dt.strftime("%Y-%m-%d")
+        print(f"{language}/{strdt}")
+        missal = get_missal(dt.year, language if language != "la" else "pl")
+        day = missal.get_day(dt)
+        if language == "la":
+            _, proper = day.get_proper()[0]
+        else:
+            proper, _ = day.get_proper()[0]
+        srlzd = proper.serialize()
+        coll[strdt] = [{"id": section["id"], "body": section["body"][:120]} for section in srlzd]
+
+    # Write updated data back to file
+    with open(fixture_path, "w", encoding="utf-8") as fh:
+        json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
+
+
 def compare_years(y1, y2, lang):
     """
     Prints out nice comparison of two years in tabular format
@@ -67,5 +97,13 @@ def compare_years(y1, y2, lang):
 
 if __name__ == "__main__":
     # compare_years(2024, 2025, "en")
-    for l in ['la', 'pl', 'en']:
-        generate_propers_fixtures(dates, l)
+    # for l in ['la', 'pl', 'en']:
+        # generate_propers_fixtures(dates, l)
+
+    lang = "en"
+    
+    update_propers_for_dates(
+        [datetime.date(2024, 1, 20), datetime.date(2025, 1, 20)],
+        lang,
+        os.path.join(HERE, "fixtures", f"propers_{lang}.json")
+    )
