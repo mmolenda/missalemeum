@@ -20,14 +20,10 @@
 @Commune/C3:Offertorium
 
 [Secreta]
-@Sancti/01-22:Secreta
+@Commune/C3a
 
 [Communio]
 @Commune/C3:Communio
 
 [Postcommunio]
 @Sancti/01-22:Postcommunio
-
-[Comment]
-@Sancti/01-22:Comment
-

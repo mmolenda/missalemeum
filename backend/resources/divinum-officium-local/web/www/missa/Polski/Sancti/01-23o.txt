@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/01-23o
+
+[Oratio]
+@Commune/C6a:Oratio1:s/N\./Emerencjanna/
+
+[Postcommunio]
+@Commune/C6a:Postcommunio1:s/N\./Emerencjanny/

@@ -100,10 +100,10 @@ if __name__ == "__main__":
     # for l in ['la', 'pl', 'en']:
         # generate_propers_fixtures(dates, l)
 
-    lang = "pl"
+    lang = "en"
     
     update_propers_for_dates(
-        [datetime.date(2024, 1, 21), datetime.date(2025, 1, 21)],
+        [datetime.date(2024, 1, 22), datetime.date(2025, 1, 22)],
         lang,
         os.path.join(HERE, "fixtures", f"propers_{lang}.json")
     )

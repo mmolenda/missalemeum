@@ -23,7 +23,7 @@
 @Commune/C4c:Secreta:s/N\./Antónii/
 
 [Communio]
-@Commune/C4c:Communio
+@Commune/C4
 
 [Postcommunio]
 @Commune/C4c:Postcommunio:s/N\./Antónii/
