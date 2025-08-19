@@ -20,7 +20,7 @@ def _get_proper_fixtures(fixture):
         '2025',
     ]
     days = [
-        '02-06'
+        '02-07'
     ]
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:

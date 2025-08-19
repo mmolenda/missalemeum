@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Romuald/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Romuald/

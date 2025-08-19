@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/02-07
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Romuald/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Romualda/
