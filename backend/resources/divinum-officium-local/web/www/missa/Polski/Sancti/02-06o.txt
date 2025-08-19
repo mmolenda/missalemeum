@@ -1,0 +1,12 @@
+[Comment]
+@Sancti/02-06o
+
+[Oratio]
+@Commune/C6a:Oratio1:s/N\./Dorota/
+
+[Secreta]
+@Commune/C6a:Secreta1:s/N\./Doroty/
+
+[Postcommunio]
+@Commune/C6a:Postcommunio1:s/N\./Doroty/
+
