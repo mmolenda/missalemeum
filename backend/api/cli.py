@@ -28,7 +28,7 @@ def cli():
 
 
 def _print_proper(language, proper):
-    click.echo(f'\n## {language}\n')
+    click.echo(f'\n\n============ {language} ============\n\n')
     for section in proper.serialize():
         click.echo(f'\n### {section["label"]}')
         click.echo(section["body"])

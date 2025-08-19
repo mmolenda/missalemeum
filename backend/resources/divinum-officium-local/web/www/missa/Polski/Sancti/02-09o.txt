@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/02-09o
+
+[Oratio]
+@Commune/C6::s/N\./Apolonii/
+
+[Secreta]
+@Commune/C6::s/N\./Apolonii/
+
+[Postcommunio]
+@Commune/C6::s/N\./Apolonii/
