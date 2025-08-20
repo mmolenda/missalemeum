@@ -1,0 +1,8 @@
+[Comment]
+@Tempora/Quad1-6
+
+[OratioL5]
+@Tempora/Adv3-6:OratioL5
+
+[LectioL5]
+@Tempora/Adv3-6:LectioL5

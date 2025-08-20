@@ -363,8 +363,8 @@ def test_multiple_celebrations_with_multiple_commemorations(date_, prop1_commemo
 
 def _get_proper_fixtures(fixture):
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
-        return [i for i in json.load(fh).items() if i[0][5:] >= '01-01' and i[0][5:] <= '02-23']
-        # return list(json.load(fh).items())
+        # return [i for i in json.load(fh).items() if i[0][5:] >= '01-01' and i[0][5:] <= '02-23']
+        return list(json.load(fh).items())
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
