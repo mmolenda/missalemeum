@@ -124,7 +124,7 @@ class ProperParser:
                     # Skipping empty lines in the beginning of the file
                     continue
 
-                if ln.strip() == '!':
+                if ln == '!':
                     # Skipping lines containing exclamation mark only
                     continue
 
