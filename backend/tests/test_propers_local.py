@@ -17,7 +17,7 @@ years = [
     '2024',
     '2025',
 ]
-days = ['02-18']
+days = ['02-19']
 
 
 def _get_proper_fixtures(fixture):

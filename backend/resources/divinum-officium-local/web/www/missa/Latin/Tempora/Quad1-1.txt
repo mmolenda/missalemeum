@@ -1,0 +1,33 @@
+[Rule]
+@Tempora/Quad1-1
+
+[Introitus]
+@Tempora/Quad1-1:Introitus
+
+[Oratio]
+@Tempora/Quad1-1:Oratio
+
+[Lectio]
+@Tempora/Quad1-1:Lectio
+
+[Graduale]
+@Tempora/Quad1-1:Graduale
+
+[Evangelium]
+@Tempora/Quad1-1:Evangelium
+
+[Offertorium]
+@Tempora/Quad1-1:Offertorium
+
+[Secreta]
+@Tempora/Quad1-1:Secreta
+
+[Communio]
+@Tempora/Quad1-1:Communio
+
+[Postcommunio]
+@Tempora/Quad1-1:Postcommunio
+
+[Super populum]
+@Tempora/Quad1-1:Super populum
+
