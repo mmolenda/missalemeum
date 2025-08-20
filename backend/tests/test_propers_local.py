@@ -15,9 +15,9 @@ languages = [
     ]
 years = [
     '2024',
-    # '2025',
+    '2025',
 ]
-days = ['02-29']
+days = ['03-01', '03-02', '03-03']
 
 
 def _get_proper_fixtures(fixture):
