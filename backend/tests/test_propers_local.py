@@ -1,27 +1,26 @@
+import datetime
 import json
 import pytest
 from datetime import date
 
 from api.constants.common import *
+from .util import update_propers_for_dates
 
 from .conftest import get_missal, HERE
 
-language = 'pl'
-
+languages = [
+    'pl',
+    'en',
+    # 'la'
+    ]
+years = [
+    '2024',
+    '2025',
+]
+days = ['02-18']
 
 
 def _get_proper_fixtures(fixture):
-
-    # in custom:
-    # 01-25
-
-    years = [
-        # '2024',
-        '2025',
-    ]
-    days = [
-        '02-18'
-    ]
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
@@ -77,3 +76,15 @@ def test_all_propers_english(strdate, expected_sections):
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
         assert expected_section['body'] in proper_serialized[i]['body'], \
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+
+
+@pytest.mark.skip
+def test_update_fixtures():
+    for language in languages:
+        dates_strs = [f"{y}-{d}" for y in years for d in days]
+        datetimes = [datetime.date(*[int(j) for j in i.split('-')]) for i in dates_strs]
+        update_propers_for_dates(
+            datetimes,
+            language,
+            os.path.join(HERE, "fixtures", f"propers_{language}.json")
+        )

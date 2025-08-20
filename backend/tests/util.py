@@ -3,7 +3,7 @@ import datetime
 import json
 from collections import defaultdict
 
-from conftest import get_missal
+from .conftest import get_missal
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 year_early_easter = 2024  # March 31
