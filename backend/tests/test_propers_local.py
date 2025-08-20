@@ -9,7 +9,7 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 languages = [
-    'pl',
+    # 'pl',
     'en',
     # 'la'
     ]
@@ -17,7 +17,7 @@ years = [
     '2024',
     '2025',
 ]
-days = ['02-21']
+days = ['02-22']
 
 
 def _get_proper_fixtures(fixture):

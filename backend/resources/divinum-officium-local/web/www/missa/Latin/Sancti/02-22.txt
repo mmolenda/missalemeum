@@ -1,0 +1,48 @@
+[Rule]
+@Sancti/02-22
+
+[Introitus]
+@Commune/C2c
+
+[Oratio]
+@Sancti/01-18
+_
+!Commemoratio S. Pauli
+Deus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus, ejus apud te patrocínia sentiámus.
+$Per Dominum
+
+[Lectio]
+@Commune/Coronatio
+
+[Graduale]
+@Commune/C4b
+
+[Evangelium]
+@Commune/C4b
+
+[Offertorium]
+@Commune/Coronatio
+
+[Secreta]
+@Sancti/01-18
+_
+!Pro S. Paulo
+Apóstoli tui Pauli précibus, Dómine, plebis tuæ dona sanctífica: ut, quæ tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis.
+$Per Dominum
+
+[Communio]
+@Commune/C4b
+
+[Postcommunio]
+@Sancti/01-18
+_
+!Pro S. Paulo
+Sanctificáti, Dómine, salutári mystério: quǽsumus; ut nobis ejus non desit orátio, cujus nos donásti patrocínio gubernari.
+$Per Dominum
+
+[GradualeP]
+@Commune/Coronatio
+
+[Tractus]
+@Sancti/02-22:Tractus
+
