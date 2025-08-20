@@ -1,0 +1,5 @@
+[Comment]
+@Sancti/02-23r
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Piotr/

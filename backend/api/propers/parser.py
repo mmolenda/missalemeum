@@ -183,7 +183,7 @@ class ProperParser:
                                     if not substitution:
                                         continue
                                     try:
-                                        sub_from, sub_to, _ = substitution.split("/")
+                                        sub_from, sub_to, _ = re.split(r'(?<!\\)/', substitution)
                                         for i, line in enumerate(nested_section_body):
                                             nested_section_body[i] = re.sub(sub_from, sub_to, line)
                                     except Exception as e:
