@@ -9,15 +9,15 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 languages = [
-    # 'pl',
-    'en',
+    'pl',
+    # 'en',
     # 'la'
     ]
 years = [
-    # '2024',
+    '2024',
     '2025',
 ]
-days = ['02-23']
+days = ['02-02']
 
 
 def _get_proper_fixtures(fixture):
@@ -78,7 +78,7 @@ def test_all_propers_english(strdate, expected_sections):
             f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
-# @pytest.mark.skip
+@pytest.mark.skip
 def test_update_fixtures():
     for language in languages:
         dates_strs = [f"{y}-{d}" for y in years for d in days]
