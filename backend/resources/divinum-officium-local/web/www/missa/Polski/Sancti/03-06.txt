@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/03-06
+
+[Oratio]
+@Commune/C6a:Oratio:s/N\. i N\./Perpetui i Felicyty/
+
+[Secreta]
+@Commune/C6a:Secreta:s/N\. i N\./Perpetui i Felicyty/

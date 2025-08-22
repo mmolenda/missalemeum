@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/03-06
+
+[Introitus]
+@Commune/C6a:Introitus
+
+[Oratio]
+@Commune/C6a:Oratio:s/N\. et N\./Perpétuæ et Felicitátis/
+
+[Lectio]
+@Commune/C6a:Lectio
+
+[Graduale]
+@Commune/C6a:Graduale
+
+[Evangelium]
+@Commune/C6a:Evangelium
+
+[Offertorium]
+@Commune/C6a:Offertorium
+
+[Secreta]
+@Commune/C6a:Secreta:s/N\. et N\./Perpétuæ et Felicitátis/
+
+[Communio]
+@Commune/C6a:Communio
+
+[Postcommunio]
+@Sancti/03-06:Postcommunio
+
