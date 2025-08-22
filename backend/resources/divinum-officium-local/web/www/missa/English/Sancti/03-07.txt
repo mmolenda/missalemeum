@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C4ap:Secreta1:s/N\./Thomas/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Thomas/

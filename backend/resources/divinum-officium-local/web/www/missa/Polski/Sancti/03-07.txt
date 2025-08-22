@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/03-07
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Thomasza/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Tomasz/
