@@ -14,17 +14,17 @@
 @Commune/C7a:Graduale
 
 [Evangelium]
-@Commune/C7a:Evangelium
+@Commune/C6a
 
 [Offertorium]
-@Commune/C7a:Offertorium
+@Commune/C6a
 
 [Secreta]
-@Commune/C7a:Secreta
+@Commune/C6b
 
 [Communio]
 @Commune/C7a:Communio
 
 [Postcommunio]
-@Commune/C7a:Postcommunio
+@Commune/C6b
 
