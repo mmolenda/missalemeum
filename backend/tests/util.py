@@ -63,12 +63,13 @@ def update_propers_for_dates(dates: list[datetime.date], language: str, fixture_
         print(f"{language}/{strdt}")
         missal = get_missal(dt.year, language if language != "la" else "pl")
         day = missal.get_day(dt)
-        if language == "la":
-            _, proper = day.get_proper()[0]
-        else:
-            proper, _ = day.get_proper()[0]
-        srlzd = proper.serialize()
-        coll[strdt] = [{"id": section["id"], "body": section["body"][:120]} for section in srlzd]
+        for i, propers in enumerate(day.get_proper()):
+            if language == "la":
+                _, proper = propers
+            else:
+                proper, _ = propers
+            srlzd = proper.serialize()
+            coll[strdt][i] = [{"id": section["id"], "body": section["body"][:120]} for section in srlzd]
 
     # Write updated data back to file
     with open(fixture_path, "w", encoding="utf-8") as fh:
