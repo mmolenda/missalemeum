@@ -2,10 +2,11 @@ import os
 import datetime
 import json
 from collections import defaultdict
+import os
 
 from .conftest import get_missal
 
-HERE = os.path.abspath(os.path.dirname(__file__))
+here = os.path.abspath(os.path.dirname(__file__))
 year_early_easter = 2024  # March 31
 year_late_easter = 2025  # April 20
 
@@ -22,20 +23,27 @@ dates.extend(get_dates(year_late_easter))
 
 
 def generate_propers_fixtures(dates: list[datetime.date], language: str):
-    coll = defaultdict(list)
+    coll = {}
     for dt in dates:
         strdt = dt.strftime("%Y-%m-%d")
         print(f"{language}/{strdt}")
         missal = get_missal(dt.year, language if language != "la" else "pl")
         day = missal.get_day(dt)
-        if language == "la":
-            _, proper = day.get_proper()[0]
-        else:
-            proper, _ = day.get_proper()[0]
-        srlzd = proper.serialize()
-        for section in srlzd:
-            coll[strdt].append({"id": section["id"], "body": section["body"][:120]})
-    with open(f'fixtures/propers_{language}.json', 'w') as fh:
+        for i, propers in enumerate(day.get_proper()):
+            if strdt not in coll:
+                coll[strdt] = []
+            if len(coll[strdt]) < (i + 1):
+                coll[strdt].append([])
+                
+            # one `propers` object per one mass in a day
+            if language == "la":
+                _, proper = propers
+            else:
+                proper, _ = propers
+            srlzd = proper.serialize()
+            for section in srlzd:
+                coll[strdt][i].append({"id": section["id"], "body": section["body"][:120]})
+    with open(os.path.join(here, f'fixtures/propers_{language}.json'), 'w') as fh:
         json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
 
 
@@ -108,5 +116,5 @@ if __name__ == "__main__":
          datetime.date(2025, 2, 15)
         ],
         lang,
-        os.path.join(HERE, "fixtures", f"propers_{lang}.json")
+        os.path.join(here, "fixtures", f"propers_{lang}.json")
     )
