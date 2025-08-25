@@ -1,11 +1,32 @@
 [Rule]
 @Sancti/03-04cc
 
+[Introitus]
+@Commune/C2b
+
 [Oratio]
 @Commune/C4b
 
+[Lectio]
+@Commune/C2b
+
+[Graduale]
+@Commune/C2b
+
+[Tractus]
+@Commune/C2b
+
+[Evangelium]
+@Commune/C2b
+
+[Offertorium]
+@Commune/C2b
+
 [Secreta]
 @Commune/C4b
+
+[Communio]
+@Commune/C2b
 
 [Postcommunio]
 @Commune/C4b
