@@ -2,7 +2,7 @@
 @Sancti/03-08
 
 [Introitus]
-@Commune/C5:Introitus
+@Commune/C4c
 
 [Oratio]
 @Sancti/03-08:Oratio
@@ -13,17 +13,20 @@
 [Graduale]
 @Commune/C5:Graduale
 
+[Tractus]
+@Commune/C5
+
 [Evangelium]
 @Tempora/Pent17-0
 
 [Offertorium]
-@Commune/C5:Offertorium
+@Commune/C2c
 
 [Secreta]
 @Commune/C5:Secreta
 
 [Communio]
-@Commune/C5:Communio
+@Commune/C4d
 
 [Postcommunio]
 @Commune/C5:Postcommunio
