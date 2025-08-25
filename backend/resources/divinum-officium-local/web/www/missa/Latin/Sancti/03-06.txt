@@ -13,6 +13,9 @@
 [Graduale]
 @Commune/C6a:Graduale
 
+[Tractus]
+@Commune/C6a
+
 [Evangelium]
 @Commune/C6a:Evangelium
 
