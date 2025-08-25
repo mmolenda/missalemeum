@@ -13,6 +13,9 @@
 [Graduale]
 @Sancti/03-10:Graduale
 
+[Tractus]
+@Commune/C3
+
 [Evangelium]
 @Commune/C3a
 
