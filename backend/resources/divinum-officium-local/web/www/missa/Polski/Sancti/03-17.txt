@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/03-17
+
+[Oratio]
+@Sancti/03-17:Oratio:s/N\./Patryka/
+
+[Postcommunio]
+@Commune/C4:Postcommunio:s/N\./Patryka/
