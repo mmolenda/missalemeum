@@ -13,6 +13,9 @@
 [Graduale]
 @Commune/C4c:Graduale
 
+[Tractus]
+@Commune/C4c
+
 [Evangelium]
 @Commune/C4c:Evangelium
 
@@ -23,7 +26,7 @@
 @Commune/C4c:Secreta:s/N\./Benedicti/
 
 [Communio]
-@Commune/C4c:Communio
+@Commune/C4
 
 [Postcommunio]
 @Commune/C4c:Postcommunio:s/N\./Benedicti/

@@ -1,2 +1,14 @@
 [Comment]
 @Sancti/03-21
+
+[Introitus]
+@Commune/C5
+
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Benedykta/
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Benedykt/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Benedykta/
