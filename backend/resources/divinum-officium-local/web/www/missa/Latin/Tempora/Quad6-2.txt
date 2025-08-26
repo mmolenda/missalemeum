@@ -1,0 +1,33 @@
+[Rule]
+@Tempora/Quad6-2
+
+[Introitus]
+@Tempora/Quad6-2:Introitus
+
+[Oratio]
+@Tempora/Quad6-2:Oratio
+
+[Lectio]
+@Tempora/Quad6-2:Lectio
+
+[Graduale]
+@Tempora/Quad6-2:Graduale
+
+[Evangelium]
+@Tempora/Quad6-2:Evangelium:s/@Tempora\/Quad6-0r:Munda Cor Passionis//
+
+[Offertorium]
+@Tempora/Quad6-2:Offertorium
+
+[Secreta]
+@Tempora/Quad6-2:Secreta
+
+[Communio]
+@Tempora/Quad6-2:Communio
+
+[Postcommunio]
+@Tempora/Quad6-2:Postcommunio
+
+[Super populum]
+@Tempora/Quad6-2:Super populum
+

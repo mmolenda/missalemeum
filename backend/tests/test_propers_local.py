@@ -14,11 +14,12 @@ languages = [
     # 'la'
     ]
 years = [
-    # '2024',
-    '2025',
+    '2024',
+    # '2025',
 ]
 days = [
-    '03-25',
+    
+    '03-26',
     ]
 
 
@@ -26,7 +27,7 @@ def _get_proper_fixtures(fixture):
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
-        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '03-11']
+        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '03-25']
         return [i for i in x.items() if i[0] in dates]
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
@@ -48,7 +49,7 @@ def test_all_propers_latin(strdate, expected_sections):
         for i, expected_section in enumerate(expected_sections[j]):
             assert expected_section['id'] == proper_serialized[i]['id'],\
                 f'latin/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'],\
+            assert proper_serialized[i]['body'].startswith(expected_section['body']),\
                 f'latin/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
@@ -65,7 +66,7 @@ def test_all_propers_polish(strdate, expected_sections):
         for i, expected_section in enumerate(expected_sections[j]):
             assert expected_section['id'] == proper_serialized[i]['id'],\
                 f'polish/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'],\
+            assert proper_serialized[i]['body'].startswith(expected_section['body']),\
                 f'polish/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
@@ -82,7 +83,7 @@ def test_all_propers_english(strdate, expected_sections):
         for i, expected_section in enumerate(expected_sections[j]):
             assert expected_section['id'] == proper_serialized[i]['id'], \
                 f'english/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'], \
+            assert proper_serialized[i]['body'].startswith(expected_section['body']), \
                 f'english/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
