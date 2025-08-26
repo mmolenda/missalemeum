@@ -182,41 +182,16 @@ R. Amen.
 ! Rami non tenentur manibus, dum in Missa historia Passionis Domini cantatur vel legitur.
 
 [Introitus]
-!Ps 21:20 et 22.
-v. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leonis, et a córnibus unicórnium humilitátem meam.
-!Ps 21:2
-Deus, Deus meus, réspice in me: quare me dereliquísti? longe a salúte mea verba delictórum meórum.
-v. Dómine, ne longe fácias auxílium tuum a me, ad defensiónem meam áspice: líbera me de ore leonis, et a córnibus unicórnium humilitátem meam.
+@Tempora/Quad6-0:Introitus
 
 [Oratio]
-Omnípotens sempitérne Deus, qui humáno generi, ad imitandum humilitátis exémplum, Salvatórem nostrum carnem súmere et crucem subíre fecísti: concéde propítius; ut et patiéntiæ ipsíus habére documénta et resurrectiónis consórtia mereámur.
-$Per eundem
+@Tempora/Quad6-0:Oratio
 
 [Lectio]
-Léctio Epístolæ beáti Pauli Apóstoli ad Philippénses.
-!Phil 2:5-11
-Fratres: Hoc enim sentíte in vobis, quod et in Christo Jesu: qui, cum in forma Dei esset, non rapínam arbitrátus est esse se æqualem Deo: sed semetípsum exinanívit, formam servi accípiens, in similitúdinem hóminum factus, et hábitu invéntus ut homo. Humiliávit semetípsum, factus oboediens usque ad mortem, mortem autem crucis. Propter quod et Deus exaltávit illum: ei donávit illi nomen, quod est super omne nomen: (hic genuflectitur) ut in nómine Jesu omne genu flectátur coeléstium, terréstrium et inférno rum: et omnis lingua confiteátur, quia Dóminus Jesus Christus in glória est Dei Patris.
+@Tempora/Quad6-0:Lectio
 
 [Graduale]
-!Ps 72:24 et 1-3
-Tenuísti manum déxteram meam: et in voluntáte tua deduxísti me: et cum glória assumpsísti me.
-V. Quam bonus Israël Deus rectis corde! mei autem pæne moti sunt pedes: pæne effúsi sunt gressus mei: quia zelávi in peccatóribus, pacem peccatórum videns.
-_
-!Tractus 21:2-9, 18, 19, 22, 24, 32
-Deus, Deus meus, réspice in me: quare me dereliquísti?
-V. Longe a salúte mea verba delictórum meórum.
-V. Deus meus, clamábo per diem, nec exáudies: in nocte, et non ad insipiéntiam mihi.
-V. Tu autem in sancto hábitas, laus Israël.
-V. In te speravérunt patres nostri: speravérunt, et liberásti eos.
-V. Ad te clamavérunt, et salvi facti sunt: in te speravérunt, et non sunt confusi.
-V. Ego autem sum vermis, et non homo: oppróbrium hóminum et abjéctio plebis.
-V. Omnes, qui vidébant me, aspernabántur me: locúti sunt lábiis et movérunt caput.
-V. Sperávit in Dómino, erípiat eum: salvum fáciat eum, quóniam vult eum.
-V. Ipsi vero consideravérunt et conspexérunt me: divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.
-V. Líbera me de ore leónis: et a córnibus unicórnium humilitátem meam.
-V. Qui timétis Dóminum, laudáte eum: univérsum semen Jacob, magnificáte eum.
-V. Annuntiábitur Dómino generátio ventúra: et annuntiábunt coeli justítiam ejus.
-V. Pópulo, qui nascétur, quem fecit Dóminus.
+@Tempora/Quad6-0:Graduale
 
 [Evangelium]
 Pássio Dómini nostri Jesu Christi secúndum Matthǽum.
@@ -224,17 +199,13 @@ Pássio Dómini nostri Jesu Christi secúndum Matthǽum.
 @Tempora/Quad6-0:Evangelium3
 
 [Offertorium]
-!Ps 68:21-22.
-Impropérium exspectávit cor meum et misériam: et sustínui, qui simul mecum contristarétur, et non fuit: consolántem me quæsívi, et non invéni: et dedérunt in escam meam fel, et in siti mea potavérunt me acéto.
+@Tempora/Quad6-0:Offertorium
 
 [Secreta]
-Concéde, quǽsumus, Dómine: ut oculis tuæ majestátis munus oblátum, et grátiam nobis devotionis obtineat, et efféctum beátæ perennitátis acquírat.
-$Per Dominum
+@Tempora/Quad6-0:Secreta
 
 [Communio]
-!Matt 26:42.
-Pater, si non potest hic calix transíre, nisi bibam illum: fiat volúntas tua.
+@Tempora/Quad6-0:Communio
 
 [Postcommunio]
-Per hujus, Dómine, operatiónem mystérii: et vitia nostra purgéntur, et justa desidéria compleántur.
-$Per Dominum
+@Tempora/Quad6-0:Postcommunio
