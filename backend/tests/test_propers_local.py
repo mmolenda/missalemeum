@@ -9,8 +9,8 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 languages = [
-    # 'pl',
-    'en',
+    'pl',
+    # 'en',
     # 'la'
     ]
 years = [
@@ -18,7 +18,7 @@ years = [
     '2025',
 ]
 days = [
-    '04-03',
+    '04-04',
     ]
 
 
