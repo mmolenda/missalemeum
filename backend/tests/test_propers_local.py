@@ -10,7 +10,7 @@ from .conftest import get_missal, HERE
 
 languages = [
     'pl',
-    # 'en',
+    'en',
     # 'la'
     ]
 years = [
@@ -18,7 +18,7 @@ years = [
     '2025',
 ]
 days = [
-    '04-07',
+    '04-08',
     ]
 
 
