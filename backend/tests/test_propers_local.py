@@ -9,7 +9,7 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 languages = [
-    'pl',
+    # 'pl',
     'en',
     # 'la'
     ]
@@ -18,15 +18,11 @@ years = [
     '2025',
 ]
 
-# FAILED backend/tests/test_propers_local.py::test_all_propers_polish[2025-03-27-expected_sections237]
 # FAILED backend/tests/test_propers_local.py::test_all_propers_english[2024-05-14-expected_sections134]
-# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-03-27-expected_sections237]
-# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-03-28-expected_sections238]
 # FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-05-14-expected_sections285]
 
 days = [
-    '03-27',
-    # '05-25',
+    '05-14',
     # '05-24',
     # '05-23',
     # '05-22',
