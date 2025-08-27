@@ -9,7 +9,7 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 languages = [
-    # 'pl',
+    'pl',
     'en',
     # 'la'
     ]
@@ -18,7 +18,7 @@ years = [
     '2025',
 ]
 days = [
-    '05-07',
+    '05-08',
     # '05-02',
     # '05-01',
     ]
@@ -59,7 +59,7 @@ def test_all_propers_latin(strdate, expected_sections):
                 pytest.fail(
                     f"\n+ # CONTEXT: {' - '.join(context2)}"
                     f"\n+ # EXPECTED = {expected_body!r}"
-                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}"
                     f"{fix}",
                     pytrace=False,
                 )
@@ -87,7 +87,7 @@ def test_all_propers_polish(strdate, expected_sections):
                 pytest.fail(
                     f"\n+ # CONTEXT: {' - '.join(context2)}"
                     f"\n+ # EXPECTED = {expected_body!r}"
-                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}"
                     f"{fix}",
                     pytrace=False,
                 )
@@ -115,7 +115,7 @@ def test_all_propers_english(strdate, expected_sections):
                 pytest.fail(
                     f"\n+ # CONTEXT: {' - '.join(context2)}"
                     f"\n+ # EXPECTED = {expected_body!r}"
-                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}"
                     f"{fix}",
                     pytrace=False,
                 )
