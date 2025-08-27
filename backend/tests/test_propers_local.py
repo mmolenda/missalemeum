@@ -17,8 +17,17 @@ years = [
     '2024',
     '2025',
 ]
+
+# FAILED backend/tests/test_propers_local.py::test_all_propers_latin[2025-03-28-expected_sections238]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_polish[2025-03-27-expected_sections237]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_polish[2025-03-28-expected_sections238]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2024-05-14-expected_sections134]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-03-27-expected_sections237]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-03-28-expected_sections238]
+# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-05-14-expected_sections285]
+
 days = [
-    '05-31',
+    '03-28',
     # '05-25',
     # '05-24',
     # '05-23',
@@ -33,7 +42,7 @@ def _get_proper_fixtures(fixture):
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
-        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '03-25']
+        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '05-31']
         return [i for i in x.items() if i[0] in dates]
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
