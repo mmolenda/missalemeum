@@ -1,0 +1,36 @@
+[Rule]
+@Sancti/05-26o
+
+[Introitus]
+@Commune/C2:Introitus
+
+[Oratio]
+@Commune/C2c:Oratio:s/N\./Eleuthérii/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b
+
+[Lectio]
+@Commune/C2:Lectio
+
+[Graduale]
+@Commune/C2:Graduale
+
+[Evangelium]
+@Commune/C2:Evangelium
+
+[Offertorium]
+@Commune/C2:Offertorium
+
+[Secreta]
+@Commune/C2c:Secreta:s/N\./Eleuthérii/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b
+
+[Communio]
+@Commune/C2:Communio
+
+[Postcommunio]
+@Commune/C2a:Postcommunio:s/N\./Eleuthério/
+(sed communi Summorum Pontificum dicitur)
+@Commune/C4b
+
