@@ -15,10 +15,10 @@ languages = [
     ]
 years = [
     '2024',
-    '2025',
+    # '2025',
 ]
 days = [
-    '04-30',
+    '05-01',
     ]
 
 
@@ -45,11 +45,16 @@ def test_all_propers_latin(strdate, expected_sections):
     for j, propers in enumerate(day.get_proper()):
         _, proper = propers
         proper_serialized = proper.serialize()
+        context = f'Context: latin/{j}/{tempora_name or proper.title}/{strdate}'
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
         for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'],\
-                f'latin/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert proper_serialized[i]['body'].startswith(expected_section['body']),\
-                f'latin/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+            expected_body = expected_section['body']
+            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
+            assert ok, (
+                f"{context}/{expected_section["id"]}"
+                f"\n+ # EXPECTED = {expected_body!r}"
+                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
+            )
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl.json"))
@@ -62,11 +67,16 @@ def test_all_propers_polish(strdate, expected_sections):
     for j, propers in enumerate(day.get_proper()):
         proper, _ = propers
         proper_serialized = proper.serialize()
+        context = f'Context: polski/{j}/{tempora_name or proper.title}/{strdate}'
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
         for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'],\
-                f'polish/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert proper_serialized[i]['body'].startswith(expected_section['body']),\
-                f'polish/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+            expected_body = expected_section['body']
+            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
+            assert ok, (
+                f"{context}/{expected_section["id"]}"
+                f"\n+ # EXPECTED = {expected_body!r}"
+                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
+            )
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en.json"))
@@ -79,11 +89,16 @@ def test_all_propers_english(strdate, expected_sections):
     for j, propers in enumerate(day.get_proper()):
         proper, _ = propers
         proper_serialized = proper.serialize()
+        context = f'Context: english/{j}/{tempora_name or proper.title}/{strdate}'
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
         for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'], \
-                f'english/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert proper_serialized[i]['body'].startswith(expected_section['body']), \
-                f'english/{j}/{tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+            expected_body = expected_section['body']
+            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
+            assert ok, (
+                f"{context}/{expected_section["id"]}"
+                f"\n+ # EXPECTED = {expected_body!r}"
+                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
+            )
 
 
 @pytest.mark.skip
