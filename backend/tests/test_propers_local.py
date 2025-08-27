@@ -18,8 +18,9 @@ years = [
     '2025',
 ]
 days = [
-    '05-02',
-    '05-01',
+    '05-03',
+    # '05-02',
+    # '05-01',
     ]
 
 
@@ -41,21 +42,27 @@ def test_all_propers_latin(strdate, expected_sections):
     strdate_bits = [int(i) for i in strdate.split('-')]
     missal = get_missal(strdate_bits[0], 'pl')
     day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
     propers = day.get_proper()
     for j, propers in enumerate(day.get_proper()):
         _, proper = propers
         proper_serialized = proper.serialize()
-        context = f'Context: latin/{j}/{tempora_name or proper.title}/{strdate}'
-        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
+        context = ['Latin', strdate, f'mass{j}', proper.id, proper.title]
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], ' - '.join(context)
         for i, expected_section in enumerate(expected_sections[j]):
             expected_body = expected_section['body']
-            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
-            assert ok, (
-                f"{context}/{expected_section["id"]}"
-                f"\n+ # EXPECTED = {expected_body!r}"
-                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
-            )
+            actual_body = proper_serialized[i]['body']
+            ok = actual_body.startswith(expected_body)
+            if not ok:
+                fix = f"\n+ # FIX =\n\n[{expected_section["id"]}]\n{actual_body}" if actual_body.startswith('@') else ""
+                context2 = context.copy()
+                context2.insert(4, f'[{expected_section["id"]}]')
+                pytest.fail(
+                    f"\n+ # CONTEXT: {' - '.join(context2)}"
+                    f"\n+ # EXPECTED = {expected_body!r}"
+                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"{fix}",
+                    pytrace=False,
+                )
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl.json"))
@@ -63,21 +70,27 @@ def test_all_propers_polish(strdate, expected_sections):
     strdate_bits = [int(i) for i in strdate.split('-')]
     missal = get_missal(strdate_bits[0], 'pl')
     day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
     propers = day.get_proper()
     for j, propers in enumerate(day.get_proper()):
         proper, _ = propers
         proper_serialized = proper.serialize()
-        context = f'Context: polski/{j}/{tempora_name or proper.title}/{strdate}'
-        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
+        context = ['Polski', strdate, f'mass{j}', proper.id, proper.title]
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], ' - '.join(context)
         for i, expected_section in enumerate(expected_sections[j]):
             expected_body = expected_section['body']
-            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
-            assert ok, (
-                f"{context}/{expected_section["id"]}"
-                f"\n+ # EXPECTED = {expected_body!r}"
-                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
-            )
+            actual_body = proper_serialized[i]['body']
+            ok = actual_body.startswith(expected_body)
+            if not ok:
+                fix = f"\n+ # FIX =\n\n[{expected_section["id"]}]\n{actual_body}" if actual_body.startswith('@') else ""
+                context2 = context.copy()
+                context2.insert(4, f'[{expected_section["id"]}]')
+                pytest.fail(
+                    f"\n+ # CONTEXT: {' - '.join(context2)}"
+                    f"\n+ # EXPECTED = {expected_body!r}"
+                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"{fix}",
+                    pytrace=False,
+                )
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en.json"))
@@ -85,21 +98,27 @@ def test_all_propers_english(strdate, expected_sections):
     strdate_bits = [int(i) for i in strdate.split('-')]
     missal = get_missal(strdate_bits[0], 'en')
     day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
     propers = day.get_proper()
     for j, propers in enumerate(day.get_proper()):
         proper, _ = propers
         proper_serialized = proper.serialize()
-        context = f'Context: english/{j}/{tempora_name or proper.title}/{strdate}'
-        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], context
+        context = ['English', strdate, f'mass{j}', proper.id, proper.title]
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], ' - '.join(context)
         for i, expected_section in enumerate(expected_sections[j]):
             expected_body = expected_section['body']
-            ok = proper_serialized[i]['body'].startswith(expected_section['body'])
-            assert ok, (
-                f"{context}/{expected_section["id"]}"
-                f"\n+ # EXPECTED = {expected_body!r}"
-                f"\n+ # ACTUAL = {proper_serialized[i]['body'][:len(expected_body)]!r}"
-            )
+            actual_body = proper_serialized[i]['body']
+            ok = actual_body.startswith(expected_body)
+            if not ok:
+                fix = f"\n+ # FIX =\n\n[{expected_section["id"]}]\n{actual_body}" if actual_body.startswith('@') else ""
+                context2 = context.copy()
+                context2.insert(4, f'[{expected_section["id"]}]')
+                pytest.fail(
+                    f"\n+ # CONTEXT: {' - '.join(context2)}"
+                    f"\n+ # EXPECTED = {expected_body!r}"
+                    f"\n+ # ACTUAL = {actual_body[:len(expected_body)]!r}"
+                    f"{fix}",
+                    pytrace=False,
+                )
 
 
 @pytest.mark.skip
