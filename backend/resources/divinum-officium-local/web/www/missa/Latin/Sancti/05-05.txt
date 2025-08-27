@@ -1,0 +1,37 @@
+[Rule]
+@Sancti/05-05
+
+[Introitus]
+@Commune/C4b
+
+[Oratio]
+@Sancti/05-05:Oratio
+
+[Lectio]
+@Commune/C4b
+
+[Graduale]
+@Commune/C4b
+
+[GradualeP]
+@Commune/C4b
+
+[Evangelium]
+@Commune/C4b
+
+[Offertorium]
+@Commune/C4b
+
+[Secreta]
+@Commune/C4
+[Secreta] (rubrica 196)
+@Commune/C4b
+
+[Communio]
+@Commune/C4b
+
+[Postcommunio]
+@Commune/C4::s/N\./Pio/
+[Postcommunio] (rubrica 196)
+@Commune/C4b
+
