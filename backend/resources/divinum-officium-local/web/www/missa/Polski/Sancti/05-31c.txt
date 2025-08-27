@@ -1,5 +1,3 @@
-[Rule]
-vide C6b
 
 [Comment]
 # Św. Petroneli, Dziewicy
