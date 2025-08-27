@@ -1,0 +1,39 @@
+[Rule]
+@Sancti/04-25
+
+[Introitus]
+@Sancti/04-25:Introitus
+
+[Oratio]
+@Sancti/04-25:Oratio
+
+[Lectio]
+@Sancti/04-25:Lectio
+
+[Graduale]
+@Sancti/04-25:Graduale
+
+[Evangelium]
+@Sancti/02-06
+
+[Offertorium]
+@Sancti/04-25:Offertorium
+
+[Secreta]
+@Sancti/04-25:Secreta
+
+[Communio]
+@Sancti/04-25:Communio
+
+[Postcommunio]
+@Sancti/04-25:Postcommunio
+
+[Commemoratio Oratio]
+@Sancti/04-25:Commemoratio Oratio
+
+[Commemoratio Secreta]
+@Sancti/04-25:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Sancti/04-25:Commemoratio Postcommunio
+
