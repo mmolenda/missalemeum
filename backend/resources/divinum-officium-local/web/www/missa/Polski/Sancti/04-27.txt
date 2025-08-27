@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/04-27
+
+[Lectio]
+@Commune/C4a
+
+[GradualeP]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
