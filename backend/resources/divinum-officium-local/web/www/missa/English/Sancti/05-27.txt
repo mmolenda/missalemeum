@@ -1,0 +1,8 @@
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a
