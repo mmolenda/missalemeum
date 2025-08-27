@@ -1,0 +1,39 @@
+[Rule]
+@Tempora/Pasc6-0
+
+[Introitus]
+@Tempora/Pasc6-0:Introitus
+
+[Oratio]
+@Tempora/Pasc6-0:Oratio
+
+[Lectio]
+@Tempora/Pasc6-0:Lectio
+
+[Graduale]
+@Tempora/Pasc6-0:Graduale
+
+[Evangelium]
+@Tempora/Pasc6-0:Evangelium
+
+[Offertorium]
+@Tempora/Pasc6-0:Offertorium
+
+[Secreta]
+@Tempora/Pasc6-0:Secreta
+
+[Communio]
+@Tempora/Pasc6-0:Communio
+
+[Postcommunio]
+@Tempora/Pasc6-0:Postcommunio
+
+[Commemoratio Oratio]
+@Tempora/Pasc6-0:Commemoratio Oratio
+
+[Commemoratio Secreta]
+@Tempora/Pasc6-0:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Tempora/Pasc6-0:Commemoratio Postcommunio
+
