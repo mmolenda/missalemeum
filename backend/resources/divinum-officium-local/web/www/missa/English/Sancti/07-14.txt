@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Bonaventura/
+
+[Secreta]
+@Commune/C4d:Secreta:s/N\./Bonaventura/
+
+[Postcommunio]
+@Commune/C4d:Postcommunio:s/N\./Bonaventura/
