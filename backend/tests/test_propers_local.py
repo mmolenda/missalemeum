@@ -22,13 +22,7 @@ years = [
 # FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-05-14-expected_sections285]
 
 days = [
-    '05-14',
-    # '05-24',
-    # '05-23',
-    # '05-22',
-    # '05-21',
-    # '05-20',
-    # '05-19',
+    '06-01',
     ]
 
 
