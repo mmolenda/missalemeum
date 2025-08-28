@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/06-14
+
+[Secreta]
+@Commune/C4d:Secreta:s/N\./Bazylego/
+
+[Postcommunio]
+@Commune/C4d:Postcommunio:s/N\./Bazylego/
