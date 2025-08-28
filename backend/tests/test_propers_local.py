@@ -14,7 +14,7 @@ years = [
 ]
 
 days = [
-    '06-07',
+    '06-08',
     ]
 
 
@@ -119,7 +119,7 @@ def test_all_propers_english(strdate, expected_sections):
 @pytest.mark.parametrize("language", (
     # 'la',
     'pl',
-    # 'en'
+    'en'
     ))
 def test_update_fixtures(language):
     dates_strs = [f"{y}-{d}" for y in years for d in days]

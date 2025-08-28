@@ -13,6 +13,9 @@
 [Graduale]
 @Commune/C4:Graduale
 
+[GradualeP]
+@Commune/C4
+
 [Evangelium]
 @Commune/C4:Evangelium
 
