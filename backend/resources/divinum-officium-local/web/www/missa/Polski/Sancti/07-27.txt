@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/07-27
+
+[Oratio]
+@Commune/C2a::s/N\./Pantaleona/
+
+[Postcommunio]
+@Commune/C2a::s/N\./Pantaleóne/
