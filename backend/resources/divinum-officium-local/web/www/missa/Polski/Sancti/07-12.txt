@@ -1,0 +1,14 @@
+[Comment]
+@Sancti/07-12
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Jana/
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Jan/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Jana/

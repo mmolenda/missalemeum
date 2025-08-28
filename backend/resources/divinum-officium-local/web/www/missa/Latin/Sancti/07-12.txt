@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/07-12
+
+[Introitus]
+@Commune/C4c
+
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Joánnis Gualbérti/
+
+[Lectio]
+@Commune/C4c
+
+[Graduale]
+@Commune/C4c
+
+[Evangelium]
+@Sancti/07-12:Evangelium
+
+[Offertorium]
+@Commune/C4c
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Joánnis Gualbérti/
+
+[Communio]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Joánnis Gualbérti/
+
