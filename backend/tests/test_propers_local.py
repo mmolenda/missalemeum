@@ -8,21 +8,13 @@ from .util import update_propers_for_dates
 
 from .conftest import get_missal, HERE
 
-languages = [
-    'pl',
-    'en',
-    # 'la'
-    ]
 years = [
     '2024',
     # '2025',
 ]
 
-# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2024-05-14-expected_sections134]
-# FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-05-14-expected_sections285]
-
 days = [
-    '06-04',
+    '06-05',
     ]
 
 
@@ -124,12 +116,16 @@ def test_all_propers_english(strdate, expected_sections):
 
 
 @pytest.mark.skip
-def test_update_fixtures():
-    for language in languages:
-        dates_strs = [f"{y}-{d}" for y in years for d in days]
-        datetimes = [datetime.date(*[int(j) for j in i.split('-')]) for i in dates_strs]
-        update_propers_for_dates(
-            datetimes,
-            language,
-            os.path.join(HERE, "fixtures", f"propers_{language}.json")
-        )
+@pytest.mark.parametrize("language", (
+    'la',
+    'pl',
+    'en'
+    ))
+def test_update_fixtures(language):
+    dates_strs = [f"{y}-{d}" for y in years for d in days]
+    datetimes = [datetime.date(*[int(j) for j in i.split('-')]) for i in dates_strs]
+    update_propers_for_dates(
+        datetimes,
+        language,
+        os.path.join(HERE, "fixtures", f"propers_{language}.json")
+    )
