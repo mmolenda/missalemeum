@@ -1,0 +1,5 @@
+[Evangelium]
+@Commune/C6a
+
+[Offertorium]
+@Commune/C6a
