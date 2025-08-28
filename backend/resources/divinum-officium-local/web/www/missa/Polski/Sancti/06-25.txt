@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/06-25
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Wilhelm/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Wilhelma/
