@@ -1,0 +1,17 @@
+[Comment]
+@Sancti/07-21r
+
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Wawrzyńca/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Wawrzyniec/
