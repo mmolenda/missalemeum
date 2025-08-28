@@ -1,0 +1,5 @@
+[Comment]
+@Sancti/07-25cc
+
+[Oratio]
+@Commune/C2:Oratio:s/N\./Krzysztofa/

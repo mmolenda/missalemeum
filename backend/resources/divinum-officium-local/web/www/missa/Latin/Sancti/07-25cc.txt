@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/07-25cc
+
+[Oratio]
+@Commune/C2:Oratio:s/N\./Christóphori/
+
+[Secreta]
+@Commune/C2:Secreta
+
+[Postcommunio]
+@Commune/C2:Postcommunio
+
