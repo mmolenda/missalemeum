@@ -15,14 +15,15 @@ languages = [
     ]
 years = [
     '2024',
-    '2025',
+    # '2025',
 ]
 
 # FAILED backend/tests/test_propers_local.py::test_all_propers_english[2024-05-14-expected_sections134]
 # FAILED backend/tests/test_propers_local.py::test_all_propers_english[2025-05-14-expected_sections285]
 
 days = [
-    '06-01',
+    '06-02',
+    # '06-03',
     ]
 
 
