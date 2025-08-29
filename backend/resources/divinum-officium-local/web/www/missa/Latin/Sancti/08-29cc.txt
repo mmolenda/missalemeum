@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/08-29cc
+
+[Oratio]
+@Commune/C6:Oratio:s/N\./Sabinæ/
+
+[Secreta]
+@Sancti/08-29cc:Secreta
+
+[Postcommunio]
+@Sancti/08-29cc:Postcommunio
+
