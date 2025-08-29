@@ -14,7 +14,7 @@ years = [
 ]
 
 days = [
-    '07-31',
+    '08-01',
     ]
 
 
@@ -22,7 +22,7 @@ def _get_proper_fixtures(fixture):
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         x = json.load(fh)
-        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '05-31']
+        # return [i for i in x.items() if i[0][5:] >= '01-01' and i[0][5:] <= '07-31']
         return [i for i in x.items() if i[0] in dates]
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
