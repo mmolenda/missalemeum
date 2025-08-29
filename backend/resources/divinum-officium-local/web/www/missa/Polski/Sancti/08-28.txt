@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/08-28
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Augustyna/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Augustyn/

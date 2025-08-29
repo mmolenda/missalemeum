@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Augustine/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Augustine/
