@@ -35,7 +35,7 @@ def _print_proper(language, proper):
 
 
 @click.command()
-@click.argument('year', default=datetime.datetime.utcnow().year, type=int)
+@click.argument('year', default=datetime.datetime.now(datetime.timezone.utc).year, type=int)
 @click.option('--month', default=None, type=int)
 @click.option('--language', default=LANGUAGE_ENGLISH)
 @click.option('-v', '--verbosity', count=True)
