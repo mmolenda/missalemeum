@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/08-17
+
+[Introitus]
+@Commune/C5:Introitus
+
+[Oratio]
+@Commune/C5:Oratio:s/N\./Jacka/
+
+[Communio]
+@Commune/C5:Communio
