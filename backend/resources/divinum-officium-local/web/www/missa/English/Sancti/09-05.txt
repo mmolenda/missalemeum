@@ -1,0 +1,8 @@
+[Evangelium]
+@Commune/C4
+
+[Oratio]
+@Commune/C4::s/N\./Lawrence/
+
+[Postcommunio]
+@Commune/C4::s/N\./Lawrence/

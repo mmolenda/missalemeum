@@ -1,0 +1,17 @@
+[Comment]
+@Sancti/09-05
+
+[Oratio]
+@Commune/C4::s/N\./Wawrzyńca/
+
+[Postcommunio]
+@Commune/C4::s/N\./Wawrzyńca/
+
+[Evangelium]
+@Commune/C4
+
+[Offertorium]
+@Commune/C4
+
+[Secreta]
+@Commune/C4
