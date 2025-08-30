@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4c:Oratio:s/N\./Aegidius/
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\./Aegidius/
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\./Aegidius/
