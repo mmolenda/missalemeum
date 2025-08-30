@@ -13096,7 +13096,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Łk 1:28; 1:42*\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
+        "body": "*Łk 1:28 1:42*\nZdrowaś, Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
         "id": "Offertorium"
       },
       {
@@ -13108,7 +13108,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
+        "body": "Błogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca Przedwiecznego.",
         "id": "Communio"
       },
       {
@@ -13172,7 +13172,7 @@
         "id": "Oratio"
       },
       {
-        "body": "@Tempora/Quad6-0:Lectio",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 2:5-11*\nBracia: To bowiem rozumiejcie, co i w Chrystusie Jezu",
         "id": "Lectio"
       },
       {
@@ -13328,7 +13328,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Oratio",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nBoże, który za pośrednictwem św. Franciszka wzbogacasz Kościół swój now",
         "id": "Commemoratio Oratio"
       },
       {
@@ -13352,7 +13352,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Secreta",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nPoświęć, Panie, złożone Ci dary i za przyczyną świętego Franciszka oczy",
         "id": "Commemoratio Secreta"
       },
       {
@@ -13368,7 +13368,7 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Postcommunio",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nProsimy Cię, Panie, niech łaska niebieska daje wzrost Twojemu Kościołow",
         "id": "Commemoratio Postcommunio"
       }
     ]
@@ -13504,11 +13504,11 @@
         "id": "Lectio"
       },
       {
-        "body": "*Ps 89:13; 89:1*\nZwróć się ku nam, Panie, na chwilę i daj się ubłagać sługom Swoim.\n℣. Panie, Tyś był ucieczką naszą z p",
+        "body": "*Ps 89:13; 89:1*\nZwróć się ku nam, Panie, na chwilę i daj się ubłagać Swoim sługom.\n℣. Panie, Tyś był ucieczką naszą z p",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 7:36-50*\nOnego czasu: Pewien faryzeusz zaprosił Jezusa na posiłek ze",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 7:36-50*\nOnego czasu: Pewien faryzeusz zaprosił Jezusa na posiłek do",
         "id": "Evangelium"
       },
       {
@@ -31772,7 +31772,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Łk 1:28; 1:42*\nZdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
+        "body": "*Łk 1:28 1:42*\nZdrowaś, Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
         "id": "Offertorium"
       },
       {
@@ -31784,7 +31784,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
+        "body": "Błogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca Przedwiecznego.",
         "id": "Communio"
       },
       {
@@ -31848,7 +31848,7 @@
         "id": "Oratio"
       },
       {
-        "body": "@Tempora/Quad6-0:Lectio",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 2:5-11*\nBracia: To bowiem rozumiejcie, co i w Chrystusie Jezu",
         "id": "Lectio"
       },
       {
@@ -32008,7 +32008,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Oratio",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nBoże, który za pośrednictwem św. Franciszka wzbogacasz Kościół swój now",
         "id": "Commemoratio Oratio"
       },
       {
@@ -32032,7 +32032,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Secreta",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nPoświęć, Panie, złożone Ci dary i za przyczyną świętego Franciszka oczy",
         "id": "Commemoratio Secreta"
       },
       {
@@ -32048,7 +32048,7 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\n@Sancti/10-04:Postcommunio",
+        "body": "*Wspomnienie Stygmatów św. Franciszka, Wyznawcy*\nProsimy Cię, Panie, niech łaska niebieska daje wzrost Twojemu Kościołow",
         "id": "Commemoratio Postcommunio"
       }
     ]
