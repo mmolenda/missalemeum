@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/09-20
+
+[Introitus]
+@Commune/C3a:Introitus
+
+[Oratio]
+@Commune/C3a:Oratio:s/N\. et N\./Eustáchii et Sociórum ejus/
+
+[Lectio]
+@Commune/C3a:Lectio
+
+[Graduale]
+@Commune/C3a:Graduale
+
+[Evangelium]
+@Commune/C3a:Evangelium
+
+[Offertorium]
+@Commune/C3a:Offertorium
+
+[Secreta]
+@Commune/C3a:Secreta
+
+[Communio]
+@Commune/C3a:Communio
+
+[Postcommunio]
+@Commune/C3a:Postcommunio:s/N\. et N\./Eustáchio et Sóciis ejus/
+
