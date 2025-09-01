@@ -2,25 +2,25 @@
 @Sancti/10-04
 
 [Introitus]
-@Sancti/10-04
+@Sancti/09-17
 
 [Oratio]
 @Sancti/10-04:Oratio
 
 [Lectio]
-@Sancti/10-04
+@Sancti/09-17
 
 [Graduale]
-@Sancti/10-04
+@Sancti/09-17
 
 [Evangelium]
-@Sancti/02-24
+@Sancti/01-15
 
 [Offertorium]
 @Commune/C2c
 
 [Secreta]
-@Sancti/10-04
+@Sancti/09-17
 
 [Communio]
 @Commune/C4

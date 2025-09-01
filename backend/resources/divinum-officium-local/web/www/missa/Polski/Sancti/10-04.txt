@@ -1,2 +1,17 @@
 [Comment]
 @Sancti/10-04
+
+[Introitus]
+@Sancti/10-04
+
+[Lectio]
+@Sancti/10-04
+
+[Graduale]
+@Sancti/10-04
+
+[Evangelium]
+@Sancti/02-24
+
+[Secreta]
+@Sancti/10-04
