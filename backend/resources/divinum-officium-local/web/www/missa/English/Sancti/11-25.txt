@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C6:Secreta:s/N\./Catherine/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Catherine/

@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/11-25
+
+[Secreta]
+@Commune/C6:Secreta:s/N\./Katarzyny/
+
+[Communio]
+@Commune/C6:Communio
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Katarzyny/
