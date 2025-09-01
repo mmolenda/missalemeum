@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/11-11cc
+
+[Oratio]
+@Commune/C2::s/N\./Mennæ/
+
+[Secreta]
+@Commune/C2:Secreta
+
+[Postcommunio]
+@Commune/C2:Postcommunio
+
