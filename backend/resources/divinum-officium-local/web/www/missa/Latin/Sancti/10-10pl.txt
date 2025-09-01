@@ -1,0 +1,10 @@
+
+[Oratio]
+@Sancti/10-10pl:Oratio
+
+[Secreta]
+@Sancti/10-10pl:Secreta
+
+[Postcommunio]
+@Sancti/10-10pl:Postcommunio
+

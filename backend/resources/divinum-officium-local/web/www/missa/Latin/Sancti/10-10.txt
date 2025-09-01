@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/10-10
+
+[Introitus]
+@Commune/C4c:Introitus
+
+[Oratio]
+@Sancti/10-10:Oratio
+
+[Lectio]
+@Commune/C4c:Lectio
+
+[Graduale]
+@Commune/C4c:Graduale
+
+[Evangelium]
+@Commune/C4c:Evangelium
+
+[Offertorium]
+@Commune/C4c:Offertorium
+
+[Secreta]
+@Commune/C4c:Secreta:s/N\. Abbas/Francíscus/
+
+[Communio]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4c:Postcommunio:s/N\. Abbas/Francíscus/
+
