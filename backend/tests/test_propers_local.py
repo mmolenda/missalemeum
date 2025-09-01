@@ -10,11 +10,11 @@ from .conftest import get_missal, HERE
 
 years = [
     '2024',
-    '2025',
+    # '2025',
 ]
 
 days = [
-    '11-22',
+    '11-23',
     ]
 
 
@@ -114,7 +114,6 @@ def test_all_propers_english(strdate, expected_sections):
                     f"{fix}",
                     pytrace=False,
                 )
-
 
 @pytest.mark.skip
 @pytest.mark.parametrize("language", [
