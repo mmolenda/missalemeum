@@ -1,0 +1,14 @@
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Sancti/11-24
+
+[Postcommunio]
+@Sancti/11-24
