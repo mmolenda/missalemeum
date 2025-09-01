@@ -1,30 +1,15 @@
-[Rule]
-@Sancti/10-08c
-
-[Introitus]
-@Sancti/10-08c:Introitus
-
 [Oratio]
-@Sancti/10-08c:Oratio
-
-[Lectio]
-@Sancti/10-08c:Lectio
-
-[Graduale]
-@Sancti/10-08c:Graduale
-
-[Evangelium]
-@Sancti/10-08c:Evangelium
-
-[Offertorium]
-@Sancti/10-08c:Offertorium
+Sanctórum Martyrum tuórum nos, Dómine, Sérgii, Bacchi, Marcélli et Apuléji beáta~
+mérita prosequántur: et tuo semper fáciant amóre fervéntes.
+$Per Dominum
 
 [Secreta]
-@Sancti/10-08c:Secreta
-
-[Communio]
-@Sancti/10-08c:Communio
+Majestátem tuam nobis, Dómine, quǽsumus, hæc hóstia reddat immolánda placátam,~
+tuórum digna postulatióne Sanctórum.
+$Per Dominum
 
 [Postcommunio]
-@Sancti/10-08c:Postcommunio
-
+Sacraméntis, Dómine, muniámur accéptis: et sanctórum Mártyrum tuórum Sérgii,~
+Bacchi, Marcélli et Apuléji intercessióne, contra omnes nequítias irruéntes,~
+annis cœléstibus protegámur.
+$Per Dominum
