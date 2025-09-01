@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/10-23r
+
+[Introitus]
+@Sancti/10-23r:Introitus
+
+[Oratio]
+@Sancti/10-23r:Oratio
+
+[Lectio]
+@Sancti/10-23r:Lectio
+
+[Graduale]
+@Sancti/10-23r:Graduale
+
+[Evangelium]
+@Sancti/10-23r:Evangelium
+
+[Offertorium]
+@Commune/C2c
+
+[Secreta]
+@Commune/C4d:Secreta:s/N\./Antónii Maríæ/
+
+[Communio]
+@Commune/C4d
+
+[Postcommunio]
+@Commune/C4d:Postcommunio:s/N\./Antónii Maríæ/
+
