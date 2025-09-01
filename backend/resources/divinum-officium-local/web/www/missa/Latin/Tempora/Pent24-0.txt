@@ -2,7 +2,7 @@
 @Tempora/Pent24-0
 
 [Introitus]
-@Tempora/Pent24-0:Introitus
+@Tempora/Pent23-0:Introitus
 
 [Oratio]
 @Tempora/Pent24-0:Oratio
@@ -11,19 +11,19 @@
 @Tempora/Pent24-0:Lectio
 
 [Graduale]
-@Tempora/Pent24-0:Graduale
+@Tempora/Pent23-0:Graduale
 
 [Evangelium]
 @Tempora/Pent24-0:Evangelium
 
 [Offertorium]
-@Tempora/Pent24-0:Offertorium
+@Tempora/Pent23-0:Offertorium
 
 [Secreta]
 @Tempora/Pent24-0:Secreta
 
 [Communio]
-@Tempora/Pent24-0:Communio
+@Tempora/Pent23-0:Communio
 
 [Postcommunio]
 @Tempora/Pent24-0:Postcommunio
