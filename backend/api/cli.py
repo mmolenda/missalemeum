@@ -187,6 +187,7 @@ def date_cols(date: str, language: str, verbosity: int):
             click.echo(f'# {section_vern_label.ljust(padding - 2)} # {section_lat_label.ljust(padding)}')
             click.echo(f'{body_short_vern.ljust(padding)} {body_short_lat.ljust(padding)}')
             click.echo()
+        click.echo("---")
 
 
 @click.command()
