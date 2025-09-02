@@ -1,0 +1,44 @@
+[Comment]
+@Sancti/12-26
+
+[Introitus]
+@Sancti/12-26
+
+[Oratio]
+@Sancti/12-26
+
+[Commemoratio Oratio]
+@Sancti/12-26
+
+[Lectio]
+@Sancti/12-26
+
+[Graduale]
+@Sancti/12-26
+
+[GradualeP]
+@Sancti/12-26
+
+[Tractus]
+@Sancti/12-26
+
+[Evangelium]
+@Sancti/12-26
+
+[Offertorium]
+@Sancti/12-26
+
+[Secreta]
+@Sancti/12-26
+
+[Commemoratio Secreta]
+@Sancti/12-26
+
+[Communio]
+@Sancti/12-26
+
+[Postcommunio]
+@Sancti/12-26
+
+[Commemoratio Postcommunio]
+@Sancti/12-26
