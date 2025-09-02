@@ -756,7 +756,6 @@ TITLES = {
     constants.SANCTI_12_28: 'Świętych Młodzianków',
     constants.SANCTI_12_28C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_29: 'Św. Tomasza z Canterbury, Biskupa i Męczennika',
-    constants.SANCTI_12_29C: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_12_31: 'Św. Sylwestra I, papieża i wyznawcy',
     constants.SANCTI_12_31C: 'Oktawa Bożego Narodzenia',
     constants.VOTIVE_ANGELS: 'Msza o Aniołach',

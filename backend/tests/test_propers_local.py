@@ -9,8 +9,8 @@ from .util import update_propers_for_dates
 from .conftest import get_missal, HERE
 
 years = [
-    '2024',
-    # '2025',
+    # '2024',
+    '2025',
 ]
 
 days = [    
@@ -120,7 +120,7 @@ def test_all_propers_english(strdate, expected_sections):
 @pytest.mark.skip
 @pytest.mark.parametrize("language", [
     # 'la',
-    'pl',
+    # 'pl',
     'en'
     ])
 def test_update_fixtures(language):

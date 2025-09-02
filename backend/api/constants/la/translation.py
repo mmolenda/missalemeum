@@ -754,7 +754,6 @@ TITLES = {
     constants.SANCTI_12_28: 'Ss. Innocentium',
     constants.SANCTI_12_28C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_29: 'S. Thomæ M.',
-    constants.SANCTI_12_29C: 'Pro Octava Nativitatis',
     constants.SANCTI_12_31: 'S. Silvestri',
     constants.SANCTI_12_31C: 'Pro Octava Nativitatis',
     constants.VOTIVE_ANGELS: 'Missa de Angelis',

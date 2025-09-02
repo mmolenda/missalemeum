@@ -8,22 +8,22 @@ Prefatio=Nat
 @Sancti/12-25m3:Oratio
 
 [Lectio]
-@Sancti/12-25m2:Lectio
+@Commune/C10b
 
 [Graduale]
 @Sancti/12-25m3:Graduale
 
 [Evangelium]
-@Sancti/12-25m2:Evangelium
+@Commune/C10b
 
 [Offertorium]
-@Sancti/12-25m3:Offertorium
+@Tempora/Nat30
 
 [Secreta]
 @Sancti/12-25m3:Secreta
 
 [Communio]
-@Sancti/12-25m3:Communio
+@Tempora/Nat30
 
 [Postcommunio]
 @Sancti/12-25m3:Postcommunio

@@ -721,7 +721,6 @@ TITLES = {
     constants.SANCTI_12_28: 'Holy Innocents',
     constants.SANCTI_12_28C: 'For Octave of the Nativity',
     constants.SANCTI_12_29: 'St. Thomas Becket',
-    constants.SANCTI_12_29C: 'For Octave of the Nativity',
     constants.SANCTI_12_31: 'St. Silvester',
     constants.SANCTI_12_31C: 'For Octave of the Nativity',
     constants.VOTIVE_ANGELS: 'Holy Angels',
