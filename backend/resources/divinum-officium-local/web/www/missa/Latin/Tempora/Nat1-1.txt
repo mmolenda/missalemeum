@@ -2,7 +2,7 @@
 Prefatio=Nat
 
 [Introitus]
-@Sancti/12-25m3:Introitus
+@Tempora/Nat30
 
 [Oratio]
 @Sancti/12-25m3:Oratio

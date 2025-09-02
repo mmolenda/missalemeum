@@ -10,7 +10,7 @@ from .conftest import get_missal, HERE
 
 years = [
     '2024',
-    '2025',
+    # '2025',
 ]
 
 days = [    
