@@ -722,7 +722,6 @@ TITLES = {
     constants.SANCTI_12_28C: 'For Octave of the Nativity',
     constants.SANCTI_12_29: 'St. Thomas Becket',
     constants.SANCTI_12_31: 'St. Silvester',
-    constants.SANCTI_12_31C: 'For Octave of the Nativity',
     constants.VOTIVE_ANGELS: 'Holy Angels',
     constants.VOTIVE_JOSEPH: 'St. Joseph',
     constants.VOTIVE_JESUSETERNALPRIEST: 'Our Lord Jesus Christ, Supreme and Eternal Priest',
