@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/12-13r
+
+[Oratio]
+@Commune/C6b::s/N\./Łucji/
+
+[Secreta]
+@Commune/C6b::s/N\./Łucja/
+
+[Postcommunio]
+@Commune/C6b::s/N\./Łucja/
