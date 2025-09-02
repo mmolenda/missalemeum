@@ -1,0 +1,5 @@
+[Comment]
+@Tempora/Adv3-3
+
+[Lectio]
+@Commune/C10a
