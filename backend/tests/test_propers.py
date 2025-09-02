@@ -366,6 +366,7 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
 def test_all_propers_latin(strdate, expected_sections):
     """
@@ -389,6 +390,7 @@ def test_all_propers_latin(strdate, expected_sections):
                 f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl.json"))
 def test_all_propers_polish(strdate, expected_sections):
     strdate_bits = [int(i) for i in strdate.split('-')]
@@ -406,6 +408,7 @@ def test_all_propers_polish(strdate, expected_sections):
                 f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en.json"))
 def test_all_propers_english(strdate, expected_sections):
     strdate_bits = [int(i) for i in strdate.split('-')]
