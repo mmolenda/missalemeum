@@ -1,0 +1,28 @@
+
+[Introitus]
+@Commune/C4a
+
+[Oratio]
+@Sancti/12-04
+
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Sancti/12-04
+
+[Evangelium]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Petri Chrysólogi/
+
+[Communio]
+@Sancti/07-23
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Petrus Chrysólogus/
+
