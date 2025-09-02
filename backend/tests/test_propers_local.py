@@ -14,8 +14,7 @@ years = [
 ]
 
 days = [    
-    '12-26',
-    # '12-27',
+    '12-27',
     # '12-28',
     # '12-29',
     # '12-30',
@@ -123,7 +122,7 @@ def test_all_propers_english(strdate, expected_sections):
 @pytest.mark.skip
 @pytest.mark.parametrize("language", [
     # 'la',
-    # 'pl',
+    'pl',
     'en'
     ])
 def test_update_fixtures(language):
