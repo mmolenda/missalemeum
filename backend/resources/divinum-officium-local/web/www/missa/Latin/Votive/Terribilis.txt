@@ -1,5 +1,35 @@
 [Name]
 Missa Terríbilis, de Communi Dedicationis Ecclesiae.
 
-[Rank]
-vide Commune/C8
+[Introitus]
+@Commune/C8
+
+[Oratio]
+@Commune/C8
+
+[Lectio]
+@Commune/C8
+
+[Graduale]
+@Commune/C8
+
+[GradualeP]
+@Commune/C8
+
+[Tractus]
+@Commune/C8
+
+[Evangelium]
+@Commune/C8
+
+[Offertorium]
+@Commune/C8
+
+[Secreta]
+@Commune/C8
+
+[Communio]
+@Commune/C8
+
+[Postcommunio]
+@Commune/C8

@@ -14,7 +14,7 @@ celebráre, et celebrándo profícere.
 $Per Dominum
 
 [Lectio]
-@Sancti/10-28:Lectio
+@Tempora/Pasc5-3
 
 [Graduale]
 Alleluia, alleluia.

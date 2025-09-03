@@ -5,7 +5,7 @@ Missa de omnibus Ss. Apostolis
 Prefatio=Apostolis
 
 [Introitus]
-@Sancti/10-28:Introitus
+@Sancti/02-24
 
 [Oratio]
 Deus, qui nos per beatos Apóstolos tuos ad agnitiónem tui~
@@ -14,7 +14,7 @@ celebráre, et celebrándo profícere.
 $Per Dominum
 
 [Lectio]
-@Sancti/10-28:Lectio
+@Tempora/Pasc5-3
 
 [Graduale]
 @Sancti/10-28:Graduale

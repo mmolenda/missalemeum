@@ -189,7 +189,7 @@ def proper_cols(date_or_id: str, language: str, verbosity: int):
 
             body_short_vern = ' '.join(body_vern)[:body_len]
             body_short_lat = ' '.join(body_lat)[:body_len]
-            click.echo(f'# {section_vern_label.ljust(padding - 2)} # {section_lat_label.ljust(padding)}')
+            click.echo(f'# {section_id.ljust(padding - 2)} # {section_id.ljust(padding)}')
             click.echo(f'{body_short_vern.ljust(padding)} {body_short_lat.ljust(padding)}')
             click.echo()
         click.echo("---")

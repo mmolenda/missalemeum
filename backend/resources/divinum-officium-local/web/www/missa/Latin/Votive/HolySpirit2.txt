@@ -1,11 +1,11 @@
 [Name]
 Missa ad postulandam gratiam Spiritus Sancti
 
-[Rank]
-vide Votive/HolySpirit
-
 [Rule]
 Prefatio=Spiritu;
+
+[Introitus]
+@Tempora/Pasc7-0:Introitus
 
 [Oratio]
 Deus, cui omne cor patet, et omnis voluntas loquitur, et quem nullum~
@@ -13,10 +13,37 @@ latet secretum: purifica per infusionem Sancti Spiritus cogitationes~
 cordis nostri; ut te perfecte diligere et digne laudare mereamur,
 $Per Dominum eiusdem
 
+[Lectio]
+@Tempora/Pasc7-2:Lectio
+
+[Graduale]
+!Ps 32:12, 6
+Beáta gens, cujus est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi.
+V. Verbo Dómini cœli firmáti sunt: et spíritu oris ejus omnis virtus eórum. Alleluia, alleluia.
+! Hic genuflectitur
+V. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde. Alleluia.
+
+[Tractus]
+! Post Septuagesimam
+! Ps 103:30; Sap 12:1
+Emítte Spíritum tuum, et creabúntur: et renovábis fáciem terræ.
+V. O quam bonus et suávis est, Dómine, Spíritus tuus in nobis!
+! Hic genuflectitur
+V. Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.
+
+[Evangelium]
+@Tempora/Pasc7-0:Evangelium
+
+[Offertorium]
+@Tempora/Pasc7-0:Offertorium
+
 [Secreta]
 Haec oblatio, quaesumus, Domine, cordis nostri maculas emundet: ut~
 Sancti Spiritus digna efficiatur habitatio.
 $Per Dominum eiusdem
+
+[Communio]
+@Tempora/Pasc7-0:Communio
 
 [Postcommunio]
 Concede, quaesumus, omnipotens Deus, Sanctum nos Spiritum votis promereri
