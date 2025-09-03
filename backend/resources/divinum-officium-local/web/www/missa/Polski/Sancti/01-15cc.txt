@@ -2,10 +2,10 @@
 @Sancti/01-15cc
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Maura/
+@Commune/C5b:Oratio:s/N\./Maura/
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Maur/
+@Commune/C5b:Secreta:s/N\./Maur/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Maura/
+@Commune/C5b:Postcommunio:s/N\./Maura/
