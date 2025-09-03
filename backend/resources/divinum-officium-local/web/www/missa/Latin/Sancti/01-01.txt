@@ -5,7 +5,7 @@
 @Tempora/Nat30
 
 [Oratio]
-@Commune/C10b
+@Sancti/01-01
 
 [Lectio]
 @Sancti/01-01
@@ -20,7 +20,7 @@
 @Tempora/Nat30
 
 [Secreta]
-@Commune/C2
+@Commune/C2a
 
 [Communio]
 @Tempora/Nat30

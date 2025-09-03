@@ -251,7 +251,12 @@ class ProperParser:
         name = name.strip()
         if "sed non rubrica 196" in modifier:
             return f"{name} {modifier}"
-        if not modifier or "(" not in modifier or "rubrica 196" in modifier:
+        if any([
+            not modifier,
+            "(" not in modifier,
+            "rubrica 196" in modifier,
+            'communi Summorum Pontificum' in modifier
+            ]):
             return name
         return f"{name} {modifier}"
 
@@ -385,13 +390,15 @@ class ProperParser:
             if not os.path.exists(full_path):
                 return None
             return full_path
-        full_path = os.path.join(cc.CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
-        if os.path.exists(full_path):
-            log.debug("%s/%s comes from custom DivinumOfficium dir", lang, partial_path)
-        else:
-            full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
-            if not os.path.exists(full_path):
-                return None
+        full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+        if not os.path.exists(full_path):
+            # If it's commune, try in horas
+            if partial_path.startswith('Commune'):
+                full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'horas', DIVOFF_LANG_MAP[lang], partial_path)
+                if not os.path.exists(full_path):
+                    return None
+                return full_path
+            return None
         return full_path
 
     def _get_partial_path(self):

@@ -3,7 +3,7 @@
 @Sancti/01-05
 
 [Oratio]
-@Commune/C4b
+@Commune/C2b
 
 [Secreta]
 @Commune/C4b

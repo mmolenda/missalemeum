@@ -2,7 +2,7 @@
 @Sancti/01-15
 
 [Introitus]
-@Commune/C5b
+@Commune/C5-1
 
 [Oratio]
 @Commune/C5:Oratio:s/N\./Pauli/
