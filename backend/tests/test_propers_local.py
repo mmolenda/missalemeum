@@ -1,11 +1,8 @@
-import datetime
 import json
 import pytest
-from datetime import date
 
 from api.constants.common import *
-from backend.tests.test_propers import _tests_propers
-from .util import update_propers_for_dates
+from .test_propers import _tests_propers
 
 from .conftest import get_missal, HERE
 
@@ -15,8 +12,7 @@ years = [
 ]
 
 days = [    
-    '01-21',
-    # '01-22',
+    '01-22',
     # '01-23',
     # '01-24',
     # '01-25',
@@ -50,19 +46,3 @@ def test_all_propers_polish(strdate, expected_sections):
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_ENGLISH}.json"))
 def test_all_propers_english(strdate, expected_sections):
     _tests_propers(LANGUAGE_ENGLISH, strdate=strdate, expected_sections=expected_sections)
-
-
-@pytest.mark.skip
-@pytest.mark.parametrize("language", [
-    # 'la',
-    # 'pl',
-    'en'
-    ])
-def test_update_fixtures(language):
-    dates_strs = [f"{y}-{d}" for y in years for d in days]
-    datetimes = [datetime.date(*[int(j) for j in i.split('-')]) for i in dates_strs]
-    update_propers_for_dates(
-        datetimes,
-        language,
-        os.path.join(HERE, "fixtures", f"propers_{language}.json")
-    )

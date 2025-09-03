@@ -6,7 +6,8 @@ import os
 from api import controller
 from api.constants import common as const
 
-from tests.conftest import get_missal
+from tests.conftest import get_missal, HERE
+from tests.test_propers_local import days, years
 
 here = os.path.abspath(os.path.dirname(__file__))
 year_early_easter = 2024  # March 31
@@ -64,35 +65,6 @@ def generate_fixtures_for_propers_by_ids(ids: list[str], language: str):
         json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
 
 
-def update_propers_for_dates(dates: list[datetime.date], language: str, fixture_path: str):
-    # Load existing fixtures (if the file exists)
-    if os.path.exists(fixture_path):
-        with open(fixture_path, "r", encoding="utf-8") as fh:
-            try:
-                coll = json.load(fh)
-            except json.JSONDecodeError:
-                coll = {}
-    else:
-        coll = {}
-
-    for dt in dates:
-        strdt = dt.strftime("%Y-%m-%d")
-        print(f"{language}/{strdt}")
-        missal = get_missal(dt.year, language if language != const.LANGUAGE_LATIN else const.LANGUAGE_POLSKI)
-        day = missal.get_day(dt)
-        for i, propers in enumerate(day.get_proper()):
-            if language == const.LANGUAGE_LATIN:
-                _, proper = propers
-            else:
-                proper, _ = propers
-            srlzd = proper.serialize()
-            coll[strdt][i] = [{"id": section["id"], "body": section["body"][:120]} for section in srlzd]
-
-    # Write updated data back to file
-    with open(fixture_path, "w", encoding="utf-8") as fh:
-        json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
-
-
 def compare_years(y1, y2, lang):
     """
     Prints out nice comparison of two years in tabular format
@@ -122,57 +94,27 @@ def compare_years(y1, y2, lang):
 
 
 if __name__ == "__main__":
+    pass
     # compare_years(2024, 2025, LANGUAGE_ENGLISH)
     # for l in ['la', 'pl', 'en']:
         # generate_propers_fixtures(dates, l)
 
-
-    generate_fixtures_for_propers_by_ids(
-        [
-            const.COMMUNE_C_10A,
-            const.COMMUNE_C_10B,
-            const.COMMUNE_C_10C,
-            const.COMMUNE_C_10PASC,
-            const.COMMUNE_C_10T,
-            const.VOTIVE_PENT01_0,
-            const.VOTIVE_ANGELS,
-            const.VOTIVE_JOSEPH,
-            const.VOTIVE_PETERPAUL,
-            const.VOTIVE_PETERPAULP,
-            const.VOTIVE_APOSTLES,
-            const.VOTIVE_APOSTLESP,
-            const.VOTIVE_HOLYSPIRIT,
-            const.VOTIVE_HOLYSPIRIT2,
-            const.VOTIVE_BLESSEDSACRAMENT,
-            const.VOTIVE_JESUSETERNALPRIEST,
-            const.VOTIVE_CROSS,
-            const.VOTIVE_PASSION,
-            const.VOTIVE_PENT02_5,
-            const.VOTIVE_08_22,
-            const.VOTIVE_TERRIBILIS,
-            const.VOTIVE_FIDEI_PROPAGATIONE,
-            const.VOTIVE_DEFUNCTORUM,
-            const.VOTIVE_MORTALITATIS,
-        ]
-        , const.LANGUAGE_POLSKI)
-    
-
-    generate_fixtures_for_propers_by_ids(
-        [
-            const.COMMUNE_C_10A,
-            const.COMMUNE_C_10B,
-            const.COMMUNE_C_10C,
-            const.COMMUNE_C_10PASC,
-            const.COMMUNE_C_10T,
-            const.VOTIVE_PENT01_0,
-            const.VOTIVE_ANGELS,
-            const.VOTIVE_JOSEPH,
-            const.VOTIVE_JESUSETERNALPRIEST,
-            const.VOTIVE_PENT02_5,
-            const.VOTIVE_08_22,
-            const.VOTIVE_MORTALITATIS,
-        ]
-        , const.LANGUAGE_POLSKI)
+    # generate_fixtures_for_propers_by_ids(
+    #     [
+    #         const.COMMUNE_C_10A,
+    #         const.COMMUNE_C_10B,
+    #         const.COMMUNE_C_10C,
+    #         const.COMMUNE_C_10PASC,
+    #         const.COMMUNE_C_10T,
+    #         const.VOTIVE_PENT01_0,
+    #         const.VOTIVE_ANGELS,
+    #         const.VOTIVE_JOSEPH,
+    #         const.VOTIVE_JESUSETERNALPRIEST,
+    #         const.VOTIVE_PENT02_5,
+    #         const.VOTIVE_08_22,
+    #         const.VOTIVE_MORTALITATIS,
+    #     ]
+    #     , const.LANGUAGE_POLSKI)
 
 
     
@@ -184,3 +126,5 @@ if __name__ == "__main__":
     #     lang,
     #     os.path.join(here, "fixtures", f"propers_{lang}.json")
     # )
+
+

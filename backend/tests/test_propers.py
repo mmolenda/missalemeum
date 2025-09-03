@@ -9,7 +9,7 @@ from api.constants import common as c
 from api.kalendar.models import Observance
 from api.propers.models import ProperConfig
 from api.propers.parser import ProperParser
-from backend.api import controller
+from api import controller
 from .conftest import get_missal, HERE
 
 language = 'pl'
