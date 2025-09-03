@@ -78,7 +78,7 @@ def update_propers_for_dates(dates: list[datetime.date], language: str, fixture_
     for dt in dates:
         strdt = dt.strftime("%Y-%m-%d")
         print(f"{language}/{strdt}")
-        missal = get_missal(dt.year, language if language != LANGUAGE_LATIN else LANGUAGE_POLSKI)
+        missal = get_missal(dt.year, language if language != const.LANGUAGE_LATIN else const.LANGUAGE_POLSKI)
         day = missal.get_day(dt)
         for i, propers in enumerate(day.get_proper()):
             if language == const.LANGUAGE_LATIN:
