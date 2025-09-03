@@ -2,28 +2,28 @@
 @Sancti/01-28
 
 [Introitus]
-@Commune/C5b:Introitus
+@Commune/C5-1
 
 [Oratio]
 @Sancti/01-28:Oratio
 
 [Lectio]
-@Commune/C5b:Lectio
+@Commune/C5-1
 
 [Graduale]
-@Commune/C5b:Graduale
+@Commune/C5-1
 
 [Evangelium]
-@Commune/C5b:Evangelium
+@Commune/C5-1
 
 [Offertorium]
-@Commune/C5b:Offertorium
+@Commune/C5-1
 
 [Secreta]
 @Sancti/01-28:Secreta
 
 [Communio]
-@Commune/C5b:Communio
+@Commune/C5-1
 
 [Postcommunio]
 @Commune/C5
