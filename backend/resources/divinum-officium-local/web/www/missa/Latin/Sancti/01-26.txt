@@ -2,29 +2,29 @@
 @Sancti/01-26
 
 [Introitus]
-@Commune/C2b:Introitus
+@Commune/C2-1
 
 [Oratio]
-@Commune/C2b:Oratio:s/N\./Polycárpi/
+@Commune/C2-1:Oratio:s/N\./Polycárpi/
 
 [Lectio]
 @Sancti/01-26:Lectio
 
 [Graduale]
-@Commune/C2b:Graduale
+@Commune/C2-1
 
 [Evangelium]
-@Commune/C2a:Evangelium
+@Commune/C2a-1:Evangelium
 
 [Offertorium]
-@Commune/C2b:Offertorium
+@Commune/C2-1
 
 [Secreta]
-@Commune/C2b:Secreta:s/N\\./Polycárpo/
+@Commune/C2-1::s/N\./Polycárpo/
 
 [Communio]
-@Commune/C2b:Communio
+@Commune/C2-1::s/N\./Polycárpo/
 
 [Postcommunio]
-@Sancti/01-26:Postcommunio
+@Commune/C2::s/N\./Polycárpo/
 
