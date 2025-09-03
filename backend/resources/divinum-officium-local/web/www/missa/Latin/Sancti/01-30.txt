@@ -5,7 +5,7 @@
 @Commune/C6:Introitus
 
 [Oratio]
-@Sancti/01-30:Oratio
+@Commune/C6
 
 [Lectio]
 @Commune/C6:Lectio
