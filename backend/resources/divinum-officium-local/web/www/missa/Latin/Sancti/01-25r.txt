@@ -17,7 +17,7 @@
 @Sancti/01-25
 
 [Evangelium]
-@Commune/C4c:Evangelium
+@Commune/C5b
 
 [Offertorium]
 @Sancti/01-25
@@ -29,7 +29,7 @@
 @Sancti/01-25
 
 [Communio]
-@Commune/C5b
+@Commune/C5-1
 
 [Postcommunio]
 @Sancti/01-25
