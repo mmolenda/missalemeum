@@ -15,6 +15,7 @@ SATURDAY = 5
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
 LANGUAGE_ENGLISH = 'en'
+LANGUAGE_POLSKI = 'pl'
 LANGUAGES = {'en': 'English', 'pl': 'Polski'}
 DIVOFF_LANG_MAP = {'la': 'Latin'}
 DIVOFF_LANG_MAP.update(LANGUAGES)

@@ -131,7 +131,7 @@ def proper_cols(date_or_id: str, language: str, verbosity: int):
     _log_setup(verbosity)
     try: 
         yy, mm, dd = date_or_id.split('-')
-        date_object = datetime.date_or_id(int(yy), int(mm), int(dd))
+        date_object = datetime.date(int(yy), int(mm), int(dd))
     except Exception:
         proper_id = {i['ref']: i['id'] for i in TRANSLATION[language].VOTIVE_MASSES}.get(date_or_id, date_or_id)
         propers_all = [controller.get_proper_by_id(proper_id, language)]

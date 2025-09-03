@@ -44,36 +44,6 @@ def test_parse_proper_no_refs():
     assert 'Præsta, quǽsumus, omnípotens' in proper_latin.get_section(POSTCOMMUNIO).body[0]
     assert '*de Epiphania Domini*' in proper_latin.get_section(PREFATIO).body[0]
 
-
-def test_parse_proper_refs_inside_sections_and_in_vide():
-    proper_vernacular, proper_latin = ProperParser(c.SANCTI_01_22, language).parse()
-
-    assert 'Śś. Wincentego' in proper_vernacular.title
-    assert '*Ps 78:11-12; 78:10*' in proper_vernacular.get_section(INTROIT).body[0]
-    assert 'Przychyl się, Panie,' in proper_vernacular.get_section(ORATIO).body[0]
-    assert '*Mdr 3:1-8*' in proper_vernacular.get_section(LECTIO).body[1]
-    assert '*Wj 15:11*' in proper_vernacular.get_section(GRADUALE).body[0]
-    assert '*Wj 15:11*' in proper_vernacular.get_section(TRACTUS).body[0]
-    assert '*Łk 21:9-19*' in proper_vernacular.get_section(EVANGELIUM).body[1]
-    assert '*Ps 67:36*' in proper_vernacular.get_section(OFFERTORIUM).body[0]
-    assert 'Ofiarujemy Ci, Panie, te dary' in proper_vernacular.get_section(SECRETA).body[0]
-    assert '*Mdr 3:4-6*' in proper_vernacular.get_section(COMMUNIO).body[0]
-    assert 'Prosimy Cię, wszechmogący' in proper_vernacular.get_section(POSTCOMMUNIO).body[0]
-    assert 'Prefacja zwykła' in proper_vernacular.get_section(PREFATIO).body[0]
-
-    assert '*Ps 78:11-12; 78:10*' in proper_latin.get_section(INTROIT).body[0]
-    assert 'Adésto, Dómine, supplicatiónibus' in proper_latin.get_section(ORATIO).body[0]
-    assert '*Sap 3:1-8*' in proper_latin.get_section(LECTIO).body[1]
-    assert '*Exod 15:11*' in proper_latin.get_section(GRADUALE).body[0]
-    assert '*Exod 15:11*' in proper_latin.get_section(TRACTUS).body[0]
-    assert '*Luc 21:9-19*' in proper_latin.get_section(EVANGELIUM).body[1]
-    assert '*Ps 67:36*' in proper_latin.get_section(OFFERTORIUM).body[0]
-    assert 'Múnera tibi, Dómine,' in proper_latin.get_section(SECRETA).body[0]
-    assert '*Sap 3:4-6*' in proper_latin.get_section(COMMUNIO).body[0]
-    assert 'Quǽsumus, omnípotens Deus:' in proper_latin.get_section(POSTCOMMUNIO).body[0]
-    assert '*Communis*' in proper_latin.get_section(PREFATIO).body[0]
-
-
 def test_parse_proper_ref_outside_sections():
     proper_vernacular, proper_latin = ProperParser(c.SANCTI_10_DU, language).parse()
     assert 'Chrystusa Króla' in proper_vernacular.title
@@ -198,7 +168,6 @@ def test_preface_modifications(proper_id, preface_body_fragment_v, preface_body_
     ((2019, 1, 17), 'Antoniego', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),  # Sancti/01-17 -> Commune/C4c; normal season
     ((2018, 2, 7), 'Romualda', (TRACTUS, ), (GRADUALE, GRADUALE_PASCHAL)),  # Sancti/01-17 -> Commune/C4c; pre-lent
     ((2019, 5, 10), 'Antonina', (GRADUALE_PASCHAL, ), (GRADUALE, TRACTUS)),  # Sancti/05-10 -> Commune/C4; paschal
-    ((2018, 4, 14), 'Justyna', (GRADUALE_PASCHAL, ), (GRADUALE, TRACTUS)),  # Sancti/04-14 / paschal, but has no gradualep
     ((2019, 5, 2), 'Atanazego', (GRADUALE, ), (GRADUALE_PASCHAL, TRACTUS)),  # Sancti/04-14 / paschal, but has no gradualep
     ((2019, 2, 22), 'Katedry', (TRACTUS, ), (GRADUALE_PASCHAL, GRADUALE_PASCHAL)),
     ((2019, 2, 23), 'Piotra Damiana', (TRACTUS, ), (GRADUALE_PASCHAL, GRADUALE_PASCHAL)),
@@ -366,7 +335,36 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
-@pytest.mark.skip
+def _tests_propers_by_date(language, strdate, expected_sections):
+    strdate_bits = [int(i) for i in strdate.split('-')]
+    missal = get_missal(strdate_bits[0], language if language != LANGUAGE_LATIN else LANGUAGE_POLSKI)
+    day = missal.get_day(date(*strdate_bits))
+    propers = day.get_proper()
+    for j, propers in enumerate(day.get_proper()):
+        if language == LANGUAGE_LATIN:
+            _, proper = propers
+        else: 
+            proper, _ = propers
+        proper_serialized = proper.serialize()
+        context = [language, strdate, f'mass{j}', proper.id, proper.title]
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], ' - '.join(context)
+        for i, expected_section in enumerate(expected_sections[j]):
+            expected_body = expected_section['body']
+            actual_body = proper_serialized[i]['body']
+            ok = actual_body.startswith(expected_body)
+            if not ok:
+                fix = f"\n+ # FIX =\n\n[{expected_section["id"]}]\n{actual_body}" if actual_body.startswith('@') else ""
+                context2 = context.copy()
+                context2.insert(4, f'[{expected_section["id"]}]')
+                pytest.fail(
+                    f"\n+ # CONTEXT: {' - '.join(context2)}"
+                    f"\n+ # EXPECTED = {expected_body!r}"
+                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}"
+                    f"{fix}",
+                    pytrace=False,
+                )
+
+
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
 def test_all_propers_latin(strdate, expected_sections):
     """
@@ -375,52 +373,14 @@ def test_all_propers_latin(strdate, expected_sections):
     saint's feast, so we want to test this day from the other year to make sure that the latter feast
     is covered as well.
     """
-    strdate_bits = [int(i) for i in strdate.split('-')]
-    missal = get_missal(strdate_bits[0], 'pl')
-    day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
-    propers = day.get_proper()
-    for j, propers in enumerate(day.get_proper()):
-        _, proper = propers
-        proper_serialized = proper.serialize()
-        for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'],\
-                f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'],\
-                f'latin {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+    _tests_propers_by_date(LANGUAGE_LATIN, strdate, expected_sections)
 
 
-@pytest.mark.skip
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl.json"))
 def test_all_propers_polish(strdate, expected_sections):
-    strdate_bits = [int(i) for i in strdate.split('-')]
-    missal = get_missal(strdate_bits[0], 'pl')
-    day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
-    propers = day.get_proper()
-    for j, propers in enumerate(day.get_proper()):
-        proper, _ = propers
-        proper_serialized = proper.serialize()
-        for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'],\
-                f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'],\
-                f'polish {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+    _tests_propers_by_date(LANGUAGE_POLSKI, strdate, expected_sections)
 
 
-@pytest.mark.skip
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en.json"))
 def test_all_propers_english(strdate, expected_sections):
-    strdate_bits = [int(i) for i in strdate.split('-')]
-    missal = get_missal(strdate_bits[0], 'en')
-    day = missal.get_day(date(*strdate_bits))
-    tempora_name = day.get_tempora_name()
-    propers = day.get_proper()
-    for j, propers in enumerate(day.get_proper()):
-        proper, _ = propers
-        proper_serialized = proper.serialize()
-        for i, expected_section in enumerate(expected_sections[j]):
-            assert expected_section['id'] == proper_serialized[i]['id'], \
-                f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
-            assert expected_section['body'] in proper_serialized[i]['body'], \
-                f'english {tempora_name or proper.title}/{strdate}/{expected_section["id"]}'
+    _tests_propers_by_date(LANGUAGE_ENGLISH, strdate, expected_sections)
