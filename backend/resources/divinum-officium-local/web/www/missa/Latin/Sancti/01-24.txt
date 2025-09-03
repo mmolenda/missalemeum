@@ -2,28 +2,28 @@
 @Sancti/01-24
 
 [Introitus]
-@Commune/C2c:Introitus
+@Commune/C2:Introitus
 
 [Oratio]
-@Commune/C2c:Oratio:s/N\./Timothei/
+@Commune/C2:Oratio:s/N\./Timothei/
 
 [Lectio]
 @Sancti/01-24:Lectio
 
 [Graduale]
-@Commune/C2c:Graduale
+@Commune/C2:Graduale
 
 [Evangelium]
-@Commune/C2c:Evangelium
+@Commune/C2:Evangelium
 
 [Offertorium]
-@Commune/C2c:Offertorium
+@Commune/C2:Offertorium
 
 [Secreta]
-@Commune/C2c:Secreta:s/N\./Timothei/
+@Commune/C2:Secreta:s/N\./Timothei/
 
 [Communio]
-@Commune/C2c:Communio
+@Commune/C2:Communio
 
 [Postcommunio]
-@Commune/C2a:Postcommunio:s/N\./Timotheo/
+@Commune/C2:Postcommunio:s/N\./Timotheo/
