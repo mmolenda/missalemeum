@@ -21,7 +21,10 @@ $Per Dominum
 
 [Tractus]
 ! Post Septuagesimam
-@Votive/PeterPaul:Tractus
+!Ps 125:5-6
+Qui séminant in lácrimis, in gáudio metent.
+V. Eúntes ibant et flebant, mitténtes sémina sua.
+V. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
 
 [Evangelium]
 @Sancti/10-28:Evangelium
