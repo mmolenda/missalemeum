@@ -5,10 +5,10 @@
 @Commune/C5
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Antoniego/
+@Commune/C5b:Oratio:s/N\./Antoniego/
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Antoni/
+@Commune/C5b:Secreta:s/N\./Antoni/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Antoniego/
+@Commune/C5b:Postcommunio:s/N\./Antoniego/
