@@ -5,3 +5,10 @@ Sanctissimi Cordis Domini Nostri Jesu Christi
 ! Votive
 ! Friday
 
+[GradualeP]
+!In Eastertide
+@Tempora/Pent02-5
+
+[Tractus]
+!In Votive Masses from Septuagesima to Easter
+@Tempora/Pent02-5

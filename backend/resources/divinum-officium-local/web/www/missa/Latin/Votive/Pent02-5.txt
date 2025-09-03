@@ -1,6 +1,9 @@
 [Name]
 Sanctissimi Cordis Domini Nostri Jesu Christi
 
+[Rule]
+@Tempora/Pent02-5
+
 [Introitus]
 @Tempora/Pent02-5
 

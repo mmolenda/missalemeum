@@ -9,6 +9,7 @@ from api.constants import common as c
 from api.kalendar.models import Observance
 from api.propers.models import ProperConfig
 from api.propers.parser import ProperParser
+from backend.api import controller
 from .conftest import get_missal, HERE
 
 language = 'pl'
@@ -335,25 +336,52 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
-def _tests_propers_by_date(language, strdate, expected_sections):
-    strdate_bits = [int(i) for i in strdate.split('-')]
-    missal = get_missal(strdate_bits[0], language if language != LANGUAGE_LATIN else LANGUAGE_POLSKI)
-    day = missal.get_day(date(*strdate_bits))
-    propers = day.get_proper()
-    for j, propers in enumerate(day.get_proper()):
+def _tests_propers(language, *, strdate=None, proper_id=None, expected_sections=None):
+    if (strdate is None) == (proper_id is None):
+        raise ValueError("Provide exactly one of strdate or proper_id")
+
+    # --- Fetch proper(s) ---
+    if strdate:
+        strdate_bits = [int(i) for i in strdate.split('-')]
+        missal = get_missal(
+            strdate_bits[0],
+            language if language != LANGUAGE_LATIN else LANGUAGE_POLSKI,
+        )
+        day = missal.get_day(date(*strdate_bits))
+        propers_all = list(day.get_proper())
+    else:
+        propers_all = [controller.get_proper_by_id(proper_id, language)]
+
+    # --- Validate each proper ---
+    for j, propers in enumerate(propers_all):
         if language == LANGUAGE_LATIN:
             _, proper = propers
-        else: 
+        else:
             proper, _ = propers
+
         proper_serialized = proper.serialize()
-        context = [language, strdate, f'mass{j}', proper.id, proper.title]
-        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected_sections[j]], ' - '.join(context)
-        for i, expected_section in enumerate(expected_sections[j]):
+
+        # Context for debugging
+        if strdate:
+            context = [language, strdate, f'mass{j}', proper.id, proper.title]
+            expected = expected_sections[j]
+        else:
+            context = [language, proper.id, proper.title]
+            expected = expected_sections
+
+        # IDs must match
+        assert [i['id'] for i in proper_serialized] == [i['id'] for i in expected], ' - '.join(context)
+
+        # Bodies must start with expected
+        for i, expected_section in enumerate(expected):
             expected_body = expected_section['body']
             actual_body = proper_serialized[i]['body']
             ok = actual_body.startswith(expected_body)
             if not ok:
-                fix = f"\n+ # FIX =\n\n[{expected_section["id"]}]\n{actual_body}" if actual_body.startswith('@') else ""
+                fix = (
+                    f"\n+ # FIX =\n\n[{expected_section['id']}]\n{actual_body}"
+                    if actual_body.startswith('@') else ""
+                )
                 context2 = context.copy()
                 context2.insert(4, f'[{expected_section["id"]}]')
                 pytest.fail(
@@ -365,7 +393,7 @@ def _tests_propers_by_date(language, strdate, expected_sections):
                 )
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_la.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_LATIN}.json"))
 def test_all_propers_latin(strdate, expected_sections):
     """
     We test propers for two years (one with early Easter and one with late Easter) to make sure most
@@ -373,14 +401,29 @@ def test_all_propers_latin(strdate, expected_sections):
     saint's feast, so we want to test this day from the other year to make sure that the latter feast
     is covered as well.
     """
-    _tests_propers_by_date(LANGUAGE_LATIN, strdate, expected_sections)
+    _tests_propers(LANGUAGE_LATIN, strdate=strdate, expected_sections=expected_sections)
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_pl.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_POLSKI}.json"))
 def test_all_propers_polish(strdate, expected_sections):
-    _tests_propers_by_date(LANGUAGE_POLSKI, strdate, expected_sections)
+    _tests_propers(LANGUAGE_POLSKI, strdate=strdate, expected_sections=expected_sections)
 
 
-@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures("propers_en.json"))
+@pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_ENGLISH}.json"))
 def test_all_propers_english(strdate, expected_sections):
-    _tests_propers_by_date(LANGUAGE_ENGLISH, strdate, expected_sections)
+    _tests_propers(LANGUAGE_ENGLISH, strdate=strdate, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_votive_{LANGUAGE_LATIN}.json"))
+def test_all_propers_votive_latin(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
+    
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_votive_{LANGUAGE_POLSKI}.json"))
+def test_all_propers_votive_polish(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
+
+    
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_votive_{LANGUAGE_ENGLISH}.json"))
+def test_all_propers_votive_english(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
