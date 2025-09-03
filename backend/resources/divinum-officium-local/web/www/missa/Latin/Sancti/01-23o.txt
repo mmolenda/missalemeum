@@ -5,7 +5,7 @@
 @Commune/C6:Introitus
 
 [Oratio]
-@Commune/C6a:Oratio1:s/N\./Emerentiána/
+@Commune/C6-1:Oratio:s/N\./Emerentiána/
 
 [Lectio]
 @Commune/C6:Lectio
@@ -20,10 +20,10 @@
 @Commune/C6:Offertorium
 
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Emerentiánæ/
+@Commune/C6-1:Secreta:s/N\./Emerentiánæ/
 
 [Communio]
 @Commune/C6:Communio
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Emerentiánæ/
+@Commune/C6-1:Postcommunio:s/N\./Emerentiánæ/
