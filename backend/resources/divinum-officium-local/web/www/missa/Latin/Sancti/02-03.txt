@@ -5,7 +5,7 @@
 @Commune/C2b:Introitus
 
 [Oratio]
-@Commune/C2b::s/N\./Blásii/
+@Commune/C2-1::s/N\./Blásii/
 
 [Lectio]
 @Commune/C2b:Lectio
@@ -20,11 +20,11 @@
 @Commune/C2b:Offertorium
 
 [Secreta]
-@Commune/C2b::s/N\./Blásio/
+@Commune/C2-1::s/N\./Blásio/
 
 [Communio]
 @Commune/C2b:Communio
 
 [Postcommunio]
-@Commune/C2b::s/N\./Blásio/
+@Commune/C2-1::s/N\./Blásio/
 

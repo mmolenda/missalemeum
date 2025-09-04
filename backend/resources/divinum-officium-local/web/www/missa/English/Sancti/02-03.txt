@@ -1,5 +1,8 @@
 [Oratio]
-@Commune/C2b::s/N\./Blaise/
+@Commune/C2-1::s/N\./Blaise/
+
+[Secreta]
+@Commune/C2-1::s/N\./Blaise/
 
 [Postcommunio]
-@Commune/C2b::s/N\./Blaise/
+@Commune/C2-1::s/N\./Blaise/

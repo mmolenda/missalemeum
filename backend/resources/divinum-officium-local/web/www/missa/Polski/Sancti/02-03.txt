@@ -2,7 +2,10 @@
 @Sancti/02-03
 
 [Oratio]
-@Commune/C2b::s/N\./Błażeja/
+@Commune/C2-1::s/N\./Błażeja/
 
 [Secreta]
-@Commune/C2b::s/N\./Błażeja/
+@Commune/C2-1::s/N\./Błażeja/
+
+[Postcommunio]
+@Commune/C2-1::s/N\./Błażeja/

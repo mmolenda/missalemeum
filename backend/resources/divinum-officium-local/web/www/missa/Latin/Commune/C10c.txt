@@ -2,35 +2,33 @@
 @Commune/C10
 
 [Introitus]
-@Commune/C10:Introitus
+@Commune/C11
 
 [Oratio]
-@Commune/C10:Oratio
+@Commune/C11
 
 [Lectio]
-@Commune/C10:Lectio
+@Commune/C11
 
 [Graduale]
 @Commune/C10:Graduale
 
 [Tractus]
-@Commune/C10c
+@Commune/C11
 
 [Evangelium]
-@Commune/C10:Evangelium
+@Commune/C11
 
 [Offertorium]
-@Commune/C10c:Offertorium
+@Commune/C10b
 
 [Secreta]
-@Commune/C10:Secreta
+@Commune/C11
 
 [Communio]
-@Commune/C10:Communio
+@Commune/C11
 
 [Postcommunio]
-@Commune/C10:Postcommunio
+@Commune/C11
 
-[Officium]
-@Commune/C10:Officium
 
