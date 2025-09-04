@@ -17,7 +17,7 @@
 @Commune/C2
 
 [Evangelium]
-@Commune/C2c
+@Commune/C2
 
 [Offertorium]
 @Commune/C2:Offertorium

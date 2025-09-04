@@ -20,7 +20,7 @@
 @Commune/C4c
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Commune/C5

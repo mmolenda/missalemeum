@@ -1,2 +1,2 @@
 [Introitus]
-@Commune/C2c
+@Commune/C2

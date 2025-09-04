@@ -17,7 +17,7 @@
 @Tempora/Pent14-0
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Commune/C5b

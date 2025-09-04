@@ -1,5 +1,5 @@
 [Introitus]
-@Commune/C2c
+@Commune/C2
 
 [Oratio]
 @Sancti/10-09pl:Oratio

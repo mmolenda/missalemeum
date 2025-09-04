@@ -5,7 +5,7 @@
 @Sancti/02-01:Introitus
 
 [Oratio]
-@Commune/C2c:Oratio:s/N\./Ignátii/
+@Commune/C2::s/N\./Ignátii/
 
 [Lectio]
 @Sancti/02-01:Lectio
@@ -20,13 +20,13 @@
 @Commune/C1v
 
 [Secreta]
-@Commune/C2c:Secreta:s/N\./Ignátii/
+@Commune/C2:Secreta:s/N\./Ignátii/
 
 [Communio]
 @Sancti/02-01:Communio
 
 [Postcommunio]
-@Commune/C2a:Postcommunio:s/N\./Ignátio/
+@Commune/C2:Postcommunio:s/N\./Ignátio/
 
 [GradualeP]
 @Sancti/02-01:GradualeP

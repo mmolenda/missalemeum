@@ -5,7 +5,7 @@
 @Commune/C2:Introitus
 
 [Oratio]
-@Commune/C2c:Oratio:s/N\./Petri/
+@Commune/C2:Oratio:s/N\./Petri/
 
 [Lectio]
 @Commune/C2:Lectio
@@ -20,7 +20,7 @@
 @Commune/C2:Offertorium
 
 [Secreta]
-@Commune/C2c:Secreta:s/N\./Petri/
+@Commune/C2:Secreta:s/N\./Petri/
 
 [Communio]
 @Commune/C2:Communio

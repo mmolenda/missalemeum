@@ -20,7 +20,7 @@
 @Tempora/Pent17-0
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Commune/C5:Secreta

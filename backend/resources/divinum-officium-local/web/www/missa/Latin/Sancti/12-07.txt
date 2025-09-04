@@ -17,13 +17,13 @@
 @Commune/C4a:Evangelium
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/12-07:Secreta
 
 [Communio]
-@Commune/C2c
+@Commune/C2
 
 [Postcommunio]
 @Sancti/12-07:Postcommunio

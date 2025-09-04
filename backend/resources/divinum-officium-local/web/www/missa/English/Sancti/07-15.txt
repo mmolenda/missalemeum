@@ -2,4 +2,4 @@
 @Commune/C4c
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2

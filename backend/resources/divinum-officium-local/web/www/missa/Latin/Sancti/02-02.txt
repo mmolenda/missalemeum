@@ -85,7 +85,7 @@ R. Sicut scriptum est in lege Dómini.
 @Sancti/02-02:Evangelium
 
 [Offertorium]
-@Commune/C6a
+@Commune/C6-1
 
 [Secreta]
 @Sancti/02-02:Secreta

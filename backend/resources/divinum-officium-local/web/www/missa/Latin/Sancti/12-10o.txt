@@ -5,7 +5,7 @@
 @Commune/C2:Introitus
 
 [Oratio]
-@Commune/C2c::s/N\./Melchíadis/
+@Commune/C2::s/N\./Melchíadis/
 
 [Lectio]
 @Commune/C2:Lectio
@@ -20,11 +20,11 @@
 @Commune/C2:Offertorium
 
 [Secreta]
-@Commune/C2c::s/N\./Melchíadis/
+@Commune/C2::s/N\./Melchíadis/
 
 [Communio]
 @Commune/C2:Communio
 
 [Postcommunio]
-@Commune/C2c::s/N\./Melchíadis/
+@Commune/C2::s/N\./Melchíadis/
 

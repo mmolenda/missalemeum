@@ -17,7 +17,7 @@
 @Sancti/02-06
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/05-28:Secreta

@@ -2,7 +2,7 @@
 @Sancti/12-06
 
 [Introitus]
-@Commune/C2c
+@Commune/C2
 
 [Oratio]
 @Sancti/12-06:Oratio
@@ -17,13 +17,13 @@
 @Commune/C4:Evangelium
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/12-06:Secreta
 
 [Communio]
-@Commune/C2c
+@Commune/C2
 
 [Postcommunio]
 @Sancti/12-06:Postcommunio

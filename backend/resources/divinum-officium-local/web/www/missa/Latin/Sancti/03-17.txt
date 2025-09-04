@@ -2,7 +2,7 @@
 @Sancti/03-17
 
 [Introitus]
-@Commune/C2c
+@Commune/C2
 
 [Oratio]
 @Sancti/03-17:Oratio

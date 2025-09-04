@@ -2,13 +2,13 @@
 @Sancti/02-01
 
 [Oratio]
-@Sancti/02-01
+@Commune/C2::s/N\./Ignacego/
 
 [Offertorium]
 @Sancti/02-01
 
 [Secreta]
-@Sancti/02-01
+@Commune/C2::s/N\./Ignacego/
 
 [Postcommunio]
-@Sancti/02-01
+@Commune/C2::s/N\./Ignacego/

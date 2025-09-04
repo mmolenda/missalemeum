@@ -20,7 +20,7 @@
 @Sancti/05-15:Evangelium
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/05-15:Secreta

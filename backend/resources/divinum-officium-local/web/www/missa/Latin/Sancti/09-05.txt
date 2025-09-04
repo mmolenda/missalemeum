@@ -2,7 +2,7 @@
 @Sancti/09-05
 
 [Introitus]
-@Commune/C2c
+@Commune/C2
 
 [Oratio]
 @Commune/C4::s/N\./Lauréntii/

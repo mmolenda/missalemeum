@@ -17,7 +17,7 @@
 @Sancti/09-02:Evangelium
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/09-02:Secreta

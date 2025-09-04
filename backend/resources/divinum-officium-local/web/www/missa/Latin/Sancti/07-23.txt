@@ -11,13 +11,13 @@
 @Sancti/07-23:Lectio
 
 [Graduale]
-@Commune/C2c
+@Commune/C2
 
 [Evangelium]
 @Sancti/07-23:Evangelium
 
 [Offertorium]
-@Commune/C2c
+@Commune/C2
 
 [Secreta]
 @Sancti/07-23:Secreta

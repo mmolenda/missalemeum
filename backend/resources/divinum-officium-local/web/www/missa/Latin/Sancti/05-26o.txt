@@ -5,7 +5,7 @@
 @Commune/C2:Introitus
 
 [Oratio]
-@Commune/C2c:Oratio:s/N\./Eleuthérii/
+@Commune/C2:Oratio:s/N\./Eleuthérii/
 (sed communi Summorum Pontificum dicitur)
 @Commune/C4b
 
@@ -22,7 +22,7 @@
 @Commune/C2:Offertorium
 
 [Secreta]
-@Commune/C2c:Secreta:s/N\./Eleuthérii/
+@Commune/C2:Secreta:s/N\./Eleuthérii/
 (sed communi Summorum Pontificum dicitur)
 @Commune/C4b
 

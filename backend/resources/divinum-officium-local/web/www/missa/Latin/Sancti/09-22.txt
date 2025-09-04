@@ -2,7 +2,7 @@
 @Sancti/09-22
 
 [Introitus]
-@Commune/C2c
+@Commune/C2
 
 [Oratio]
 @Sancti/09-22:Oratio

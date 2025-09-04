@@ -1,8 +1,8 @@
 [Oratio]
-@Commune/C2c:Oratio:s/N\./Simeon/
+@Commune/C2:Oratio:s/N\./Simeon/
 
 [Secreta]
-@Commune/C2c:Secreta:s/N\./Simeon/
+@Commune/C2:Secreta:s/N\./Simeon/
 
 [Postcommunio]
 @Commune/C2a:Postcommunio:s/N\./Simeon/
