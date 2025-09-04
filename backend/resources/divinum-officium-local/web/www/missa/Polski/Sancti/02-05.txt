@@ -5,7 +5,7 @@
 @Commune/C6:Oratio:s/N\./Agaty/
 
 [Evangelium]
-@Sancti/02-05
+@Commune/C6-1:Evangelium in 2 loco
 
 [Secreta]
 @Commune/C6:Secreta:s/N\./Agaty/
