@@ -4,8 +4,11 @@
 [Introitus]
 @Commune/C5:Introitus
 
+[Oratio]
+@Commune/C5b::s/N\./Romualda/
+
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Romuald/
+@Commune/C5b::s/N\./Romuald/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Romualda/
+@Commune/C5b::s/N\./Romualda/
