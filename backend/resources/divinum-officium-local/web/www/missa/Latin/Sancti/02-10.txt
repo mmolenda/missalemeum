@@ -2,32 +2,32 @@
 @Sancti/02-10
 
 [Introitus]
-@Commune/C6b:Introitus
+@Commune/C6a:Introitus
 
 [Oratio]
 @Sancti/02-10:Oratio
 
 [Lectio]
-@Commune/C6b:Lectio
+@Commune/C6a:Lectio
 
 [Graduale]
-@Commune/C6b
+@Commune/C6a
 
 [Tractus]
-@Commune/C6b
+@Commune/C6a
 
 [Evangelium]
 @Commune/C6
 
 [Offertorium]
-@Commune/C6b:Offertorium
+@Commune/C6a:Offertorium
 
 [Secreta]
-@Commune/C6b
+@Commune/C6a
 
 [Communio]
-@Commune/C6b:Communio
+@Commune/C6a:Communio
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
