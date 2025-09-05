@@ -1,2 +1,2 @@
 [Postcommunio]
-@Commune/C4a:Postcommunio:s/N\./Peter/
+@Commune/C4a::s/N\./Peter/

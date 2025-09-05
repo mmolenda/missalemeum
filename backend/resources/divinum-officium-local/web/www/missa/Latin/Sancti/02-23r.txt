@@ -23,10 +23,10 @@
 @Commune/C4a:Offertorium
 
 [Secreta]
-@Sancti/02-23r:Secreta
+@Commune/C4a::s/N\./Petri/
 
 [Communio]
-@Commune/C4a:Communio
+@Commune/C4a
 
 [Postcommunio]
 @Commune/C4a:Postcommunio:s/N\./Petrus/
