@@ -5,4 +5,4 @@
 @Commune/C2:Secreta:s/N\./Simeon/
 
 [Postcommunio]
-@Commune/C2a:Postcommunio:s/N\./Simeon/
+@Commune/C2a-1::s/N\./Simeon/

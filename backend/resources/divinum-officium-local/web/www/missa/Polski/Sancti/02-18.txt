@@ -5,4 +5,4 @@
 @Commune/C2:Secreta:s/N\./Symeona/
 
 [Postcommunio]
-@Commune/C2a:Postcommunio:s/N\./Symeona/
+@Commune/C2::s/N\./Symeona/

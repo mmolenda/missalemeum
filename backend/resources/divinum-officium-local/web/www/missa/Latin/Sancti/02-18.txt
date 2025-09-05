@@ -26,5 +26,5 @@
 @Commune/C2:Communio
 
 [Postcommunio]
-@Commune/C2a:Postcommunio:s/N\./Simeóne/
+@Commune/C2::s/N\./Simeóne/
 
