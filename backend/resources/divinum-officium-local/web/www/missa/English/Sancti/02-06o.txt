@@ -1,9 +1,9 @@
 [Oratio]
-@Commune/C6a:Oratio1:s/N\./Dorothy/
+@Commune/C6-1:Oratio:s/N\./Dorothy/
 
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Dorothy/
+@Commune/C6-1:Secreta:s/N\./Dorothy/
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Dorothy/
+@Commune/C6-1:Postcommunio:s/N\./Dorothy/
 
