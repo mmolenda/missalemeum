@@ -255,7 +255,8 @@ class ProperParser:
             not modifier,
             "(" not in modifier,
             "rubrica 196" in modifier,
-            'communi Summorum Pontificum' in modifier
+            'communi Summorum Pontificum' in modifier,
+            '(ad missam)' in modifier
             ]):
             return name
         return f"{name} {modifier}"

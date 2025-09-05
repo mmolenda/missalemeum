@@ -11,7 +11,7 @@
 @Commune/C11
 
 [Graduale]
-@Commune/C10:Graduale
+@Commune/C10c:Graduale
 
 [Tractus]
 @Commune/C11

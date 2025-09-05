@@ -5,13 +5,13 @@
 @Commune/C3b:Introitus
 
 [Oratio]
-@Commune/C3b:Oratio:s/N\. et N\./Faustíni et Jovítæ/
+@Commune/C3a-1:Oratio:s/N\. et N\./Faustíni et Jovítæ/
 
 [Lectio]
 @Commune/C3b:Lectio
 
 [Graduale]
-@Commune/C3b:Graduale
+@Commune/C10c:Graduale
 
 [Evangelium]
 @Commune/C3b:Evangelium
