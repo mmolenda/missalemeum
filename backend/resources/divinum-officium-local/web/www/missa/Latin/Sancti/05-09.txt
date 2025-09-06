@@ -8,7 +8,7 @@
 @Commune/C4a:Oratio:s/N\./Gregorii/
 
 [Lectio]
-@Commune/C4a:Lectio1
+@Commune/C4a:Lectio in 2 loco
 
 [Graduale]
 @Commune/C4a:Graduale

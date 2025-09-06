@@ -1,9 +1,6 @@
 [Oratio]
 @Commune/C4a:Oratio:s/N\./Gregory/
 
-[Lectio]
-@Commune/C4ap:Lectio1
-
 [Secreta]
 @Commune/C4a:Secreta:s/N\./Gregory/
 
