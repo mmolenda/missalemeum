@@ -2,4 +2,10 @@
 @Commune/C7a
 
 [Offertorium]
-@Commune/C6a
+@Commune/C6-1
+
+[Lectio]
+@Commune/C7a:Lectio in 2 loco
+
+[GradualeP]
+@Commune/C7

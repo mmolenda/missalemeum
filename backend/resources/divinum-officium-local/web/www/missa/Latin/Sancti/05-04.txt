@@ -2,29 +2,29 @@
 @Sancti/05-04
 
 [Introitus]
-@Commune/C7a:Introitus
+@Commune/C7a
 
 [Oratio]
-@Sancti/05-04:Oratio
+@Sancti/05-04
 
 [Lectio]
 @Commune/C7a:Lectio1
 
 [Graduale]
-@Commune/C7a:Graduale
+@Commune/C7a
 
 [Evangelium]
-@Tempora/Quad4-4:Evangelium
+@Tempora/Quad4-4
 
 [Offertorium]
-@Commune/C7a:Offertorium
+@Commune/C7a
 
 [Secreta]
-@Commune/C6b
+@Commune/C6a
 
 [Communio]
-@Commune/C7a:Communio
+@Commune/C7a
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
