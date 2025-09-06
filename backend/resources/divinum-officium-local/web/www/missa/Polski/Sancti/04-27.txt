@@ -9,3 +9,9 @@
 
 [Offertorium]
 @Commune/C4a
+
+[Secreta]
+@Commune/C5a::s/N\. Kanizjusza, Twego i/Piotra, Twego/
+
+[Postcommunio]
+@Commune/C5a::s/N\. Kanizjusz, Twój i/Piotr, Twój/

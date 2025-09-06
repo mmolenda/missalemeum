@@ -5,29 +5,29 @@
 @Commune/C4a
 
 [Oratio]
-@Sancti/04-27:Oratio
+@Sancti/04-27
 
 [Lectio]
-@Commune/C5a:Lectio
+@Commune/C4a
 
 [Graduale]
-@Commune/C5a:Graduale
+@Commune/C5a
 
 [GradualeP]
-@Commune/C5a
+@Commune/C4a
 
 [Evangelium]
 @Commune/C4a
 
 [Offertorium]
-@Commune/C5a:Offertorium
+@Commune/C4a
 
 [Secreta]
-@Sancti/04-27:Secreta
+@Commune/C5a::s/N\./Petri/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Sancti/04-27:Postcommunio
+@Commune/C5a::s/N\./Petrus/
 
