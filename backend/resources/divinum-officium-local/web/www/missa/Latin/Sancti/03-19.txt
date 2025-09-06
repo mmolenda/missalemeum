@@ -2,13 +2,13 @@
 @Sancti/03-19
 
 [Introitus]
-@Commune/C5b
+@Commune/C5-1
 
 [Oratio]
 @Sancti/03-19:Oratio
 
 [Lectio]
-@Commune/C4c
+@Commune/C5b
 
 [Graduale]
 @Sancti/03-19:Graduale
