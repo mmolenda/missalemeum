@@ -2,16 +2,16 @@
 @Sancti/04-30
 
 [Introitus]
-@Commune/C6b:Introitus
+@Commune/C6a
 
 [Oratio]
 @Sancti/04-30:Oratio
 
 [Lectio]
-@Commune/C6b:Lectio
+@Commune/C6a
 
 [Graduale]
-@Commune/C6b:Graduale
+@Commune/C6b
 
 [GradualeP]
 @Commune/C6
@@ -20,14 +20,14 @@
 @Commune/C6
 
 [Offertorium]
-@Commune/C6b:Offertorium
+@Commune/C6a
 
 [Secreta]
-@Sancti/04-30:Secreta
+@Sancti/04-30
 
 [Communio]
-@Commune/C6b:Communio
+@Commune/C6a
 
 [Postcommunio]
-@Sancti/04-30:Postcommunio
+@Sancti/04-30
 
