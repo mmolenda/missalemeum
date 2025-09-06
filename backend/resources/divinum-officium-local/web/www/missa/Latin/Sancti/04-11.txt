@@ -5,7 +5,7 @@
 @Commune/C4b
 
 [Oratio]
-@Commune/C4b
+@Commune/C4b::s/N\./Leónem/
 
 [Lectio]
 @Commune/C4b
@@ -14,7 +14,7 @@
 @Commune/C4b
 
 [Evangelium]
-@Commune/C4b
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b
@@ -23,7 +23,7 @@
 @Commune/C4b
 
 [Communio]
-@Commune/C4b
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
