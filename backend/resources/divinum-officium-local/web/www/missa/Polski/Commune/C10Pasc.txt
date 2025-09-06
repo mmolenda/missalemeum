@@ -1,5 +1,8 @@
 [Comment]
 @Commune/C10Pasc
 
-[GradualeP]
+[Introitus]
 @Commune/C10
+
+[GradualeP]
+@Commune/C11:GradualeP

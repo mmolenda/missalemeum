@@ -1,17 +1,17 @@
 [Rule]
-@Commune/C10Pasc
+@Commune/C10
 
 [Introitus]
-@Commune/C10
+@Commune/C11
 
 [Oratio]
-@Commune/C10
+@Commune/C11
 
 [Lectio]
-@Commune/C10
+@Commune/C11
 
 [Graduale]
-@Commune/C10Pasc:Graduale
+@Commune/C11:GradualeP
 
 [Evangelium]
 @Commune/C10Pasc:Evangelium
@@ -20,14 +20,14 @@
 @Commune/C10Pasc:Offertorium
 
 [Secreta]
-@Commune/C10
+@Commune/C11
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
-@Commune/C10
+@Commune/C11
 
 [Officium]
-@Commune/C10
+@Commune/C11
 
