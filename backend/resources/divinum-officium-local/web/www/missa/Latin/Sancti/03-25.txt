@@ -8,7 +8,7 @@
 @Sancti/03-25:Oratio
 
 [Lectio]
-@Commune/C10a
+@Tempora/Adv3-3
 
 [Graduale]
 @Commune/C10:Graduale
@@ -17,10 +17,10 @@
 @Commune/C11
 
 [Evangelium]
-@Commune/C10a
+@Tempora/Adv3-3
 
 [Offertorium]
-@Commune/C10
+@Commune/C11
 
 [Secreta]
 @Sancti/03-25:Secreta
