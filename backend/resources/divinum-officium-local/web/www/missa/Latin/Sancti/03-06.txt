@@ -2,31 +2,31 @@
 @Sancti/03-06
 
 [Introitus]
-@Commune/C6a:Introitus
+@Commune/C6-1:Introitus
 
 [Oratio]
-@Commune/C6a:Oratio:s/N\. et N\./Perpétuæ et Felicitátis/
+@Commune/C6b:Oratio:s/N\. et N\./Perpétuæ et Felicitátis/
 
 [Lectio]
-@Commune/C6a:Lectio
+@Commune/C6-1:Lectio
 
 [Graduale]
-@Commune/C6a:Graduale
+@Commune/C6-1:Graduale
 
 [Tractus]
-@Commune/C6a
+@Commune/C6-1
 
 [Evangelium]
-@Commune/C6a:Evangelium
+@Commune/C6-1:Evangelium
 
 [Offertorium]
-@Commune/C6a:Offertorium
+@Commune/C6-1:Offertorium
 
 [Secreta]
-@Commune/C6a:Secreta:s/N\. et N\./Perpétuæ et Felicitátis/
+@Commune/C6b:Secreta:s/N\. et N\./Perpétuæ et Felicitátis/
 
 [Communio]
-@Commune/C6a:Communio
+@Commune/C6-1:Communio
 
 [Postcommunio]
 @Sancti/03-06:Postcommunio
