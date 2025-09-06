@@ -5,7 +5,7 @@
 @Commune/C4b:Introitus
 
 [Oratio]
-@Commune/C4b:Oratio
+@Commune/C2b::s/N\./Anicétum/
 
 [Lectio]
 @Commune/C4b:Lectio
