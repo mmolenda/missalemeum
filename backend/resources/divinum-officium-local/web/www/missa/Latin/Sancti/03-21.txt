@@ -2,32 +2,32 @@
 @Sancti/03-21
 
 [Introitus]
-@Commune/C4c:Introitus
+@Commune/C5
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Benedicti/
+@Commune/C5b:Oratio:s/N\./Benedicti/
 
 [Lectio]
-@Commune/C4c:Lectio
+@Commune/C5b
 
 [Graduale]
 @Commune/C4c:Graduale
 
 [Tractus]
-@Commune/C4c
+@Commune/C5b
 
 [Evangelium]
-@Commune/C4c:Evangelium
+@Commune/C5b
 
 [Offertorium]
-@Commune/C4c:Offertorium
+@Commune/C5b
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Benedicti/
+@Commune/C5b:Secreta:s/N\./Benedicti/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Benedicti/
+@Commune/C5b:Postcommunio:s/N\./Benedicti/
 
