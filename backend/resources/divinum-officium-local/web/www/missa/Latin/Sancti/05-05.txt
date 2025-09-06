@@ -5,7 +5,7 @@
 @Commune/C4b
 
 [Oratio]
-@Sancti/05-05:Oratio
+@Sancti/05-05
 
 [Lectio]
 @Commune/C4b
@@ -17,7 +17,7 @@
 @Commune/C4b
 
 [Evangelium]
-@Commune/C4b
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b
@@ -28,10 +28,11 @@
 @Commune/C4b
 
 [Communio]
-@Commune/C4b
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4::s/N\./Pio/
+
 [Postcommunio] (rubrica 196)
 @Commune/C4b
 
