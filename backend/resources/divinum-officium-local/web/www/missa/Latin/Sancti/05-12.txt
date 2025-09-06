@@ -23,7 +23,7 @@
 @Sancti/05-12:Secreta
 
 [Communio]
-@Commune/C3pp
+@Commune/C3p
 
 [Postcommunio]
 @Sancti/05-12:Postcommunio

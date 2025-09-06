@@ -17,7 +17,7 @@
 @Commune/C3
 
 [Offertorium]
-@Commune/C3pp
+@Commune/C3p
 
 [Secreta]
 @Sancti/06-02:Secreta
