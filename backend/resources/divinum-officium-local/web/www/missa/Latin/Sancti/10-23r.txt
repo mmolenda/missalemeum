@@ -20,11 +20,11 @@
 @Commune/C2
 
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Antónii Maríæ/
+@Commune/C4-1:Secreta:s/N\./Antónii Maríæ/
 
 [Communio]
-@Commune/C4d
+@Commune/C4-1
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Antónii Maríæ/
+@Commune/C4-1:Postcommunio:s/N\./Antónii Maríæ/
 

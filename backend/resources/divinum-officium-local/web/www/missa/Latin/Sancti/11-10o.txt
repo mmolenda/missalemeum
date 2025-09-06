@@ -23,7 +23,7 @@
 @Commune/C3a:Secreta
 
 [Communio]
-@Commune/C4d
+@Commune/C4-1
 
 [Postcommunio]
 @Commune/C3a::s/N\. et N\./Tryphóne, Respício et Nympha/

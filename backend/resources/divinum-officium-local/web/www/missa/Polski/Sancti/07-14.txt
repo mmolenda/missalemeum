@@ -5,7 +5,7 @@
 @Commune/C4a:Oratio:s/N\./Bonawenturę/
 
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Bonawentury/
+@Commune/C4-1:Secreta:s/N\./Bonawentury/
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Bonawentury/
+@Commune/C4-1:Postcommunio:s/N\./Bonawentury/

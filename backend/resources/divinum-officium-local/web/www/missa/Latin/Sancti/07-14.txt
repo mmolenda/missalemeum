@@ -20,11 +20,11 @@
 @Commune/C2
 
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Bonaventúræ/
+@Commune/C4-1:Secreta:s/N\./Bonaventúræ/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Bonaventúræ/
+@Commune/C4-1:Postcommunio:s/N\./Bonaventúræ/
 

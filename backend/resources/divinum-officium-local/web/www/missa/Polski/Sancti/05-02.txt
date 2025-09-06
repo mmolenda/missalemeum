@@ -4,8 +4,11 @@
 [Introitus]
 @Commune/C4a
 
+[Oratio]
+@Commune/C4-1::s/N\./Atanazego/
+
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Atanazego/
+@Commune/C4-1::s/N\./Atanazego/
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Atanazego/
+@Commune/C4-1::s/N\./Atanazego/

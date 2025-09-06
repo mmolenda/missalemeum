@@ -1,5 +1,5 @@
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Thomas/
+@Commune/C4-1:Secreta:s/N\./Thomas/
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Thomas/
+@Commune/C4-1:Postcommunio:s/N\./Thomas/

@@ -23,7 +23,7 @@
 @Sancti/11-11:Secreta
 
 [Communio]
-@Commune/C4d
+@Commune/C4-1
 
 [Postcommunio]
 @Sancti/11-11:Postcommunio

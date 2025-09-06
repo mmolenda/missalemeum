@@ -2,22 +2,22 @@
 @Sancti/10-23r
 
 [Introitus]
-@Commune/C4d
+@Commune/C4-1
 
 [Lectio]
-@Commune/C4d
+@Commune/C4-1
 
 [Graduale]
-@Commune/C4d
+@Commune/C4-1
 
 [Evangelium]
-@Commune/C4d
+@Commune/C4-1
 
 [Communio]
 @Commune/C5
 
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Antoniego Marii/
+@Commune/C4-1:Secreta:s/N\./Antoniego Marii/
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Antoniego Marii/
+@Commune/C4-1:Postcommunio:s/N\./Antoniego Marii/

@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4-1::s/N\./Athanasius/
+
+[Secreta]
+@Commune/C4-1::s/N\./Athanasius/
+
+[Postcommunio]
+@Commune/C4-1::s/N\./Athanasius/

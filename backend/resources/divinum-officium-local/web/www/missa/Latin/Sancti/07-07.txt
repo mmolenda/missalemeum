@@ -2,16 +2,16 @@
 @Sancti/07-07
 
 [Introitus]
-@Commune/C4d
+@Commune/C4-1
 
 [Oratio]
 @Sancti/07-07:Oratio
 
 [Lectio]
-@Commune/C4d
+@Commune/C4-1
 
 [Graduale]
-@Commune/C4d
+@Commune/C4-1
 
 [Evangelium]
 @Sancti/02-06
@@ -29,7 +29,7 @@
 @Sancti/07-07:Postcommunio
 
 [GradualeP]
-@Commune/C4d
+@Commune/C4-1
 
 [Tractus]
 @Sancti/07-07:Tractus

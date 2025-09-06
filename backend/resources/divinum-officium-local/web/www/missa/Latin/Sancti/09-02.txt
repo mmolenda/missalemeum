@@ -23,7 +23,7 @@
 @Sancti/09-02:Secreta
 
 [Communio]
-@Commune/C4d
+@Commune/C4-1
 
 [Postcommunio]
 @Sancti/09-02:Postcommunio

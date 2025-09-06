@@ -2,32 +2,32 @@
 @Sancti/05-02
 
 [Introitus]
-@Sancti/05-02:Introitus
+@Sancti/05-02
 
 [Oratio]
-@Sancti/05-02:Oratio
+@Commune/C4-1::s/N\./Athanásii/
 
 [Lectio]
-@Sancti/05-02:Lectio
+@Sancti/05-02
 
 [Graduale]
-@Sancti/05-02:Graduale
+@Sancti/05-02
 
 [Evangelium]
-@Sancti/05-02:Evangelium
+@Sancti/05-02
 
 [Offertorium]
-@Sancti/05-02:Offertorium
+@Sancti/05-02
 
 [Secreta]
-@Commune/C4d:Secreta:s/N\./Athanásii/
+@Commune/C4-1::s/N\./Athanásii/
 
 [Communio]
-@Sancti/05-02:Communio
+@Sancti/05-02
 
 [Postcommunio]
-@Commune/C4d:Postcommunio:s/N\./Athanásii/
+@Commune/C4-1::s/N\./Athanásii/
 
 [Graduale1]
-@Sancti/05-02:Graduale1
+@Sancti/05-02
 

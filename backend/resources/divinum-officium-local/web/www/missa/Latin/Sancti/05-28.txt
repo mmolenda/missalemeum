@@ -2,7 +2,7 @@
 @Sancti/05-28
 
 [Introitus]
-@Commune/C4d
+@Commune/C4-1
 
 [Oratio]
 @Sancti/05-28:Oratio
@@ -11,7 +11,7 @@
 @Sancti/05-28:Lectio
 
 [Graduale]
-@Commune/C4d
+@Commune/C4-1
 
 [Evangelium]
 @Sancti/02-06
@@ -23,11 +23,11 @@
 @Sancti/05-28:Secreta
 
 [Communio]
-@Commune/C4d
+@Commune/C4-1
 
 [Postcommunio]
 @Sancti/05-28:Postcommunio
 
 [GradualeP]
-@Commune/C4d
+@Commune/C4-1
 
