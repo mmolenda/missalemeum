@@ -2,4 +2,4 @@
 @Sancti/05-08pl
 
 [Secreta]
-@Commune/C2b::s/N\./Stanisława/
+@Commune/C2-1::s/N\./Stanisława/
