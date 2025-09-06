@@ -14,20 +14,20 @@
 @Commune/C5a:Graduale
 
 [Tractus]
-@Commune/C5a
+@Commune/C4a
 
 [Evangelium]
 @Commune/C4a
 
 [Offertorium]
-@Commune/C5a:Offertorium
+@Commune/C4a
 
 [Secreta]
-@Commune/C4a:Secreta1:s/N\./Thomæ/
+@Commune/C5a:Secreta:s/N\./Thomæ/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4a:Postcommunio1:s/N\./Thomas/
+@Commune/C5a:Postcommunio:s/N\./Thomas/
 
