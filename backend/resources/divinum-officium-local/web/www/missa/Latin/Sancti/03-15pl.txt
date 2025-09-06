@@ -2,31 +2,31 @@
 @Sancti/03-15pl
 
 [Introitus]
-@Commune/C5b:Introitus
+@Commune/C5-1
 
 [Oratio]
 @Sancti/03-15pl:Oratio
 
 [Lectio]
-@Commune/C5b:Lectio
+@Commune/C5-1
 
 [Graduale]
 @Commune/C5b:Graduale
 
 [Tractus]
-@Commune/C5b
+@Commune/C5-1
 
 [Evangelium]
-@Commune/C5b:Evangelium
+@Commune/C5-1
 
 [Offertorium]
-@Commune/C5b:Offertorium
+@Commune/C5-1
 
 [Secreta]
 @Sancti/03-15pl:Secreta
 
 [Communio]
-@Commune/C5b:Communio
+@Commune/C5-1
 
 [Postcommunio]
 @Sancti/03-15pl:Postcommunio
