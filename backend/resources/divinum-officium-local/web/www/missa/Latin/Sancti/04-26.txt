@@ -5,7 +5,7 @@
 @Commune/C4b
 
 [Oratio]
-@Sancti/04-26t:Oratio
+@Commune/C3b::s/N\. et N\./Cletum et Marcellínum/
 
 [Lectio]
 @Commune/C4b
@@ -17,7 +17,7 @@
 @Commune/C4b
 
 [Evangelium]
-@Commune/C4b
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b
@@ -26,7 +26,7 @@
 @Commune/C4b
 
 [Communio]
-@Commune/C4b
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
