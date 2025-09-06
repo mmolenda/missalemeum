@@ -17,7 +17,7 @@
 @Tempora/Pasc2-0
 
 [Offertorium]
-@Commune/C2a
+@Commune/C2a-1
 
 [Secreta]
 @Sancti/04-23pl:Secreta
