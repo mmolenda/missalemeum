@@ -1,0 +1,2 @@
+[Lectio]
+@Commune/C2a

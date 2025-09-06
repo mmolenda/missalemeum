@@ -8,7 +8,7 @@
 @Sancti/03-27:Oratio
 
 [Lectio]
-@Commune/C2:Lectio
+@Commune/C2
 
 [Graduale]
 @Sancti/03-27:Graduale

@@ -6,13 +6,15 @@ from .test_propers import _tests_propers
 
 from .conftest import get_missal, HERE
 
+# 2024-03-27 W. Środa dicuntur ommituntur etc.
+
 years = [
     '2024',
     '2025',
 ]
 
 days = [
-    '03-26'
+    '03-28'
 ]
 
 
