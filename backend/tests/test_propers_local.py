@@ -11,7 +11,7 @@ from .conftest import get_missal, HERE
 # 2025-04-16 W. Sroda dicuntur ommituntur etc.
 
 years = [
-    # "2024",
+    "2024",
     "2025",
 ]
 

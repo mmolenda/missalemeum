@@ -1,5 +1,5 @@
 [Rule]
-Prefatio=Sacramento
+Prefatio=Communis
 
 [Introitus]
 @Tempora/Pent01-4:Introitus
