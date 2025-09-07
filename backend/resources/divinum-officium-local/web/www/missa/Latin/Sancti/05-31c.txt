@@ -5,7 +5,7 @@
 @Commune/C6b
 
 [Oratio]
-@Commune/C6b
+@Commune/C7a::s/N\./Petroníllæ Vírginis tuæ/
 
 [Lectio]
 @Commune/C6b
@@ -20,11 +20,11 @@
 @Commune/C6b
 
 [Secreta]
-@Commune/C6b
+@Commune/C6a
 
 [Communio]
 @Commune/C6b
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
