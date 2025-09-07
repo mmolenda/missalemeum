@@ -2,7 +2,7 @@
 @Sancti/05-20
 
 [Introitus]
-@Commune/C4c
+@Commune/C5
 
 [Oratio]
 @Sancti/05-20:Oratio
@@ -17,7 +17,7 @@
 @Commune/C5
 
 [Evangelium]
-@Commune/C4c
+@Commune/C5b
 
 [Offertorium]
 @Commune/C2

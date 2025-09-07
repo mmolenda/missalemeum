@@ -1,2 +1,2 @@
 [GradualeP]
-@Commune/C5p:Graduale
+@Commune/C5:GradualeP
