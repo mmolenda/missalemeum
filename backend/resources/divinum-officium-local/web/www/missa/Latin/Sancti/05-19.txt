@@ -17,7 +17,7 @@
 @Commune/C4b
 
 [Evangelium]
-@Commune/C4b:Evangelium
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b:Offertorium
@@ -28,7 +28,7 @@
 @Commune/C4b
 
 [Communio]
-@Commune/C4b:Communio
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4::s/N\./Petro Cœlestíno/

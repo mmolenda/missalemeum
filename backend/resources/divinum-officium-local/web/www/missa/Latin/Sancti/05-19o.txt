@@ -5,7 +5,7 @@
 @Commune/C6b:Introitus
 
 [Oratio]
-@Commune/C6b::s/N\./Pudentiánæ/
+@Commune/C7a::s/N\./Pudentiánæ Vírginis tuæ/
 
 [Lectio]
 @Commune/C6b:Lectio
@@ -20,11 +20,11 @@
 @Commune/C6b:Offertorium
 
 [Secreta]
-@Commune/C6b:Secreta
+@Commune/C6a
 
 [Communio]
 @Commune/C6b:Communio
 
 [Postcommunio]
-@Commune/C6b:Postcommunio
+@Commune/C6a
 

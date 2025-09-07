@@ -1,30 +1,30 @@
 [Rule]
-@Tempora/Pasc6-6
+@Tempora/Pasc6-6r
 
 [Introitus]
-@Tempora/Pasc6-6:Introitus
+@Tempora/Pasc6-6r:Introitus
 
 [Oratio]
-@Tempora/Pasc6-6:Oratio
+@Tempora/Pasc6-6r:Oratio
 
 [Lectio]
-@Tempora/Pasc6-6:Lectio
+@Tempora/Pasc6-6r:Lectio
 
 [Graduale]
-@Tempora/Pasc6-6:Graduale
+@Tempora/Pasc6-6r:Graduale
 
 [Evangelium]
-@Tempora/Pasc6-6:Evangelium
+@Tempora/Pasc6-6r:Evangelium
 
 [Offertorium]
-@Tempora/Pasc6-6:Offertorium
+@Tempora/Pasc6-6r:Offertorium
 
 [Secreta]
-@Tempora/Pasc6-6:Secreta
+@Tempora/Pasc6-6r:Secreta
 
 [Communio]
-@Tempora/Pasc6-6:Communio
+@Tempora/Pasc6-6r:Communio
 
 [Postcommunio]
-@Tempora/Pasc6-6:Postcommunio
+@Tempora/Pasc6-6r:Postcommunio
 
