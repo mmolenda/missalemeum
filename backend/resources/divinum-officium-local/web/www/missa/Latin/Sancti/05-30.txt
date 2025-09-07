@@ -5,7 +5,7 @@
 @Commune/C2:Introitus
 
 [Oratio]
-@Commune/C2:Oratio
+@Commune/C2a::s/N\./Felícem/
 
 [Lectio]
 @Commune/C2:Lectio

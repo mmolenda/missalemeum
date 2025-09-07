@@ -1,5 +1,5 @@
 [Rule]
-@Tempora/Pent01-4
+Prefatio=Sacramento
 
 [Introitus]
 @Tempora/Pent01-4:Introitus
