@@ -1,8 +1,11 @@
 [Comment]
 @Sancti/05-24pl
 
+[Introitus]
+@Commune/C10
+
 [Evangelium]
 @Sancti/08-14:Evangelium
 
 [GradualeP]
-@Commune/C10
+@Commune/C11

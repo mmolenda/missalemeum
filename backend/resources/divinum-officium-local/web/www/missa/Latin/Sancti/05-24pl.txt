@@ -1,17 +1,17 @@
 [Introitus]
-@Commune/C10
+@Commune/C11
 
 [Oratio]
 @Sancti/05-24pl:Oratio
 
 [Lectio]
-@Commune/C10
+@Commune/C11
 
 [Graduale]
-@Commune/C10
+@Commune/C11
 
 [Evangelium]
-@Commune/C10
+@Commune/C11
 
 [Offertorium]
 @Tempora/Adv4-0
@@ -20,7 +20,7 @@
 @Sancti/05-24pl:Secreta
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
 @Sancti/05-24pl:Postcommunio
