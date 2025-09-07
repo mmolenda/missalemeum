@@ -5,7 +5,7 @@
 @Sancti/05-16pl:Oratio
 
 [Lectio]
-@Commune/C2a:Lectio
+@Commune/C2a-1
 
 [Graduale]
 @Commune/C2p:Graduale

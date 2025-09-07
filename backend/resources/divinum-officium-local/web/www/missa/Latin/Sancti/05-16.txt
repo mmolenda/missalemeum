@@ -20,10 +20,10 @@
 @Commune/C4:Offertorium
 
 [Secreta]
-@Sancti/05-16:Secreta
+@Commune/C4
 
 [Communio]
-@Commune/C4:Communio
+@Commune/C4
 
 [Postcommunio]
 @Commune/C4::s/N\./Ubáldo/
