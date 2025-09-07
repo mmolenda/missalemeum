@@ -11,23 +11,23 @@
 @Commune/C4a
 
 [Graduale]
-@Commune/C5a
+@Commune/C4a
 
 [GradualeP]
-@Commune/C5a
+@Commune/C4a
 
 [Evangelium]
 @Commune/C4a
 
 [Offertorium]
-@Commune/C5a:Offertorium
+@Commune/C4a
 
 [Secreta]
-@Commune/C4a:Secreta1:s/N\./Bedæ/
+@Commune/C4a:Secreta:s/N\./Bedæ/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4a:Postcommunio1:s/N\./Beda/
+@Commune/C4a:Postcommunio:s/N\./Beda/
 

@@ -5,7 +5,7 @@
 @Commune/C2:Introitus
 
 [Oratio]
-@Commune/C4b:Oratio
+@Commune/C4b::s/N\./Ioánnem/
 
 [Lectio]
 @Commune/C2:Lectio
