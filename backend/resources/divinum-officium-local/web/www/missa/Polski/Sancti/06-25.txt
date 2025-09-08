@@ -2,10 +2,10 @@
 @Sancti/06-25
 
 [Introitus]
-@Commune/C5:Introitus
+@Commune/C5
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Wilhelm/
+@Commune/C5b::s/N\./Wilhelm/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Wilhelma/
+@Commune/C5b::s/N\./Wilhelma/
