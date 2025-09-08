@@ -2,7 +2,7 @@
 @Sancti/07-27
 
 [Oratio]
-@Commune/C2a::s/N\./Pantaleona/
+@Commune/C2a-1:Oratio ad missam:s/N\./Pantaleona/
 
 [Postcommunio]
-@Commune/C2a::s/N\./Pantaleóne/
+@Commune/C2a-1::s/N\./Pantaleóne/

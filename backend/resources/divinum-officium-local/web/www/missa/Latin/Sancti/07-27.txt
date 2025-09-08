@@ -5,7 +5,7 @@
 @Commune/C2a:Introitus
 
 [Oratio]
-@Commune/C2a::s/N\./Pantaleóne/
+@Commune/C2a-1:Oratio:s/N\./Pantaleóne/
 
 [Lectio]
 @Commune/C2a:Lectio
@@ -20,11 +20,11 @@
 @Commune/C2a:Offertorium
 
 [Secreta]
-@Commune/C2a:Secreta
+@Commune/C2a-1
 
 [Communio]
-@Commune/C2a:Communio
+@Commune/C2a
 
 [Postcommunio]
-@Commune/C2a::s/N\./Pantaleóne/
+@Commune/C2a-1::s/N\./Pantaleóne/
 

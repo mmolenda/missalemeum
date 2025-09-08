@@ -2,4 +2,4 @@
 @Sancti/07-29
 
 [Oratio]
-@Commune/C6b::s/N\./Marty/
+@Commune/C6a:Oratio ad missam:s/N\./Marty/
