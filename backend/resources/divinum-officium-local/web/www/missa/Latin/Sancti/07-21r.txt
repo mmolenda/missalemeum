@@ -8,23 +8,23 @@
 @Sancti/07-21r:Oratio
 
 [Lectio]
-@Commune/C5a:Lectio
+@Commune/C4a
 
 [Graduale]
-@Commune/C5a:Graduale
+@Commune/C4a
 
 [Evangelium]
 @Commune/C4a
 
 [Offertorium]
-@Commune/C5a:Offertorium
+@Commune/C4a
 
 [Secreta]
-@Commune/C4a:Secreta1:s/N\./Lauréntii/
+@Commune/C5a:Secreta:s/N\./Lauréntii/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4a:Postcommunio1:s/N\./Lauréntii/
+@Commune/C5a:Postcommunio:s/N\./Lauréntii/
 

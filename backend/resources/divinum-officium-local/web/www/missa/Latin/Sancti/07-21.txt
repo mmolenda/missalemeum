@@ -5,7 +5,7 @@
 @Commune/C6
 
 [Oratio]
-@Commune/C6b::s/N\./Praxédis/
+@Commune/C7a::s/N\./Praxédis Vírginis tuæ/
 
 [Lectio]
 @Sancti/07-21:Lectio
@@ -20,11 +20,11 @@
 @Commune/C7a:Offertorium
 
 [Secreta]
-@Commune/C6b
+@Commune/C6a
 
 [Communio]
 @Sancti/01-28t
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
