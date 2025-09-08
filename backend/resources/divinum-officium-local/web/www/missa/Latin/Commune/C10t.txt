@@ -2,32 +2,32 @@
 Prefatio=Maria=veneratióne;
 
 [Introitus]
-@Commune/C10:Introitus
+@Commune/C11:Introitus
 
 [Oratio]
-@Commune/C10:Oratio
+@Commune/C11:Oratio
 
 [Lectio]
-@Commune/C10:Lectio
+@Commune/C11:Lectio
 
 [Graduale]
-@Commune/C10:Graduale
+@Commune/C11:Graduale
 
 [Evangelium]
-@Commune/C10:Evangelium
+@Commune/C11:Evangelium
 
 [Offertorium]
-@Commune/C10:Offertorium
+@Commune/C11:Offertorium
 
 [Secreta]
-@Commune/C10:Secreta
+@Commune/C11:Secreta
 
 [Communio]
-@Commune/C10:Communio
+@Commune/C11:Communio
 
 [Postcommunio]
-@Commune/C10:Postcommunio
+@Commune/C11:Postcommunio
 
 [Officium]
-@Commune/C10t:Officium
+@Commune/C10:Officium
 

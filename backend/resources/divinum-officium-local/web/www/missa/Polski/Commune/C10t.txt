@@ -1,5 +1,5 @@
-[Comment]
-@Commune/C10t
+[Introitus]
+@Commune/C10
 
 [Evangelium]
 @Sancti/08-14:Evangelium
