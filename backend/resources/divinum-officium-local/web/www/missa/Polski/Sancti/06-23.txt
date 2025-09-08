@@ -2,7 +2,7 @@
 @Sancti/06-23
 
 [Offertorium]
-@Commune/C2
+@Commune/C2a
 
 [Communio]
 @Sancti/06-23
