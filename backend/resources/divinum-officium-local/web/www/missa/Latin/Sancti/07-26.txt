@@ -14,16 +14,16 @@
 @Sancti/07-22
 
 [Evangelium]
-@Commune/C6a
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C6b
+@Commune/C6a
 
 [Secreta]
 @Sancti/07-26:Secreta
 
 [Communio]
-@Commune/C6a:Offertorium
+@Commune/C6-1:Offertorium
 
 [Postcommunio]
 @Sancti/07-26:Postcommunio
