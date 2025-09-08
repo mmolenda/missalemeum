@@ -68,7 +68,7 @@
 @Tempora/Pasc7-6:LectioL5
 
 [GradualeL5]
-@Tempora/Pasc7-6:GradualeL5
+@Tempora/Pasc7-6:GradualeL5:s/##Gloria//:s/^Gl.*//g
 
 [OratioL5]
 @Tempora/Pasc7-6:OratioL5
