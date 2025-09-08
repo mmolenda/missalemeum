@@ -1,5 +1,2 @@
 [Comment]
 @Sancti/06-30
-
-[Offertorium]
-@Sancti/06-30
