@@ -2,7 +2,7 @@
 @Sancti/07-02
 
 [Introitus]
-@Commune/C10
+@Commune/C11
 
 [Oratio]
 @Sancti/07-02:Oratio
@@ -23,7 +23,7 @@
 @Sancti/07-02:Secreta
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
 @Sancti/07-02:Postcommunio
