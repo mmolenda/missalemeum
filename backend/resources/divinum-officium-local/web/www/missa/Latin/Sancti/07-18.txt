@@ -11,13 +11,13 @@
 @Tempora/Pent02-0
 
 [Graduale]
-@Commune/C5b
+@Commune/C5-1
 
 [Evangelium]
 @Commune/C1v
 
 [Offertorium]
-@Commune/C5b
+@Commune/C5-1
 
 [Secreta]
 @Sancti/07-18:Secreta
