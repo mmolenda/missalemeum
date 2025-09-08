@@ -5,7 +5,7 @@
 @Commune/C6:Introitus
 
 [Oratio]
-@Commune/C6a:Oratio1:s/N\./Christína/
+@Commune/C6-1::s/N\./Christína/
 
 [Lectio]
 @Commune/C6:Lectio
@@ -20,11 +20,11 @@
 @Commune/C6:Offertorium
 
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Christína/
+@Commune/C6-1::s/N\./Christína/
 
 [Communio]
 @Commune/C6:Communio
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Christína/
+@Commune/C6-1::s/N\./Christína/
 

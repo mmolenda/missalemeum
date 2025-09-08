@@ -2,10 +2,10 @@
 @Sancti/07-24r
 
 [Oratio]
-@Commune/C6a:Oratio1:s/N\./Krystyna/
+@Commune/C6-1::s/N\./Krystyna/
 
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Krystyna/
+@Commune/C6-1::s/N\./Krystyna/
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Krystyna/
+@Commune/C6-1::s/N\./Krystyna/

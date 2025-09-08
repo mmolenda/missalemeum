@@ -1,8 +1,11 @@
 [Oratio]
 @Sancti/07-24r
 
+[Oratio]
+@Commune/C6-1::s/N\./Christina/
+
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Christina/
+@Commune/C6-1::s/N\./Christina/
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Christina/
+@Commune/C6-1::s/N\./Christina/
