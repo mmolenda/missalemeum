@@ -2,29 +2,29 @@
 @Sancti/07-19
 
 [Introitus]
-@Commune/C5b
+@Commune/C5-1
 
 [Oratio]
 @Sancti/07-19:Oratio
 
 [Lectio]
-@Commune/C5b
+@Commune/C5-1
 
 [Graduale]
-@Commune/C5b
+@Commune/C5-1
 
 [Evangelium]
 @Sancti/02-06
 
 [Offertorium]
-@Commune/C5b
+@Commune/C5-1
 
 [Secreta]
-@Commune/C5b
+@Commune/C5-1
 
 [Communio]
-@Commune/C5b
+@Commune/C5-1
 
 [Postcommunio]
-@Commune/C5b::s/N\./Vincéntio/
+@Commune/C5-1::s/N\./Vincéntio/
 
