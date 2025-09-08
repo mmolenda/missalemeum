@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C4-1::s/N\./Athanasius/
+@Commune/C4-1:Oratio ad missam:s/N\./Athanasius/
 
 [Secreta]
 @Commune/C4-1::s/N\./Athanasius/

@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/01-30
+
+[Oratio]
+@Commune/C6:Oratio ad missam

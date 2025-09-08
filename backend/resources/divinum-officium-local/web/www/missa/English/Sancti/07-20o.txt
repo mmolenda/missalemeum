@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C6-1:Oratio:s/N\./Margaret/
+@Commune/C6-1:Oratio ad missam:s/N\./Margaret/
 
 [Secreta]
 @Commune/C6-1::s/N\./Margaret/

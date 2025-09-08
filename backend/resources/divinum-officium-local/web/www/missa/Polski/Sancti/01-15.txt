@@ -2,7 +2,7 @@
 @Sancti/01-15
 
 [Oratio]
-@Commune/C5:Oratio:s/N\./Pawła/
+@Commune/C5:Oratio ad missam:s/N\./Pawła/
 
 [Lectio]
 @Sancti/10-19:Lectio

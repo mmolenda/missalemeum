@@ -2,7 +2,7 @@
 @Sancti/07-12
 
 [Oratio]
-@Commune/C5b:Oratio:s/N\./Jana/
+@Commune/C5b:Oratio ad missam:s/N\./Jana/
 
 [Secreta]
 @Commune/C5b:Secreta:s/N\./Jan/

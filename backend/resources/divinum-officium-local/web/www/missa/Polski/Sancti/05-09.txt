@@ -2,7 +2,7 @@
 @Sancti/05-09
 
 [Oratio]
-@Commune/C4a:Oratio:s/N\./Grzegorza/
+@Commune/C4a:Oratio ad missam:s/N\./Grzegorza/
 
 [Secreta]
 @Commune/C4a:Secreta:s/N\./Grzegorza/

@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C4:Oratio:s/N\./Liboriusz/
+@Commune/C4:Oratio ad missam:s/N\./Liboriusz/
 
 [Secreta]
 @Commune/C4

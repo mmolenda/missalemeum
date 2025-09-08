@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/05-19o
+
+[Oratio]
+@Commune/C7a:Oratio ad missam:s/N\./Pudentiánæ Vírginis tuæ/

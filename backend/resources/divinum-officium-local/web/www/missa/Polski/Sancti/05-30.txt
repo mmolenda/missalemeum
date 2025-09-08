@@ -2,4 +2,4 @@
 @Sancti/05-30
 
 [Oratio]
-@Commune/C2a::s/N\./Feliksa/
+@Commune/C2a:Oratio ad missam:s/N\./Feliksa/

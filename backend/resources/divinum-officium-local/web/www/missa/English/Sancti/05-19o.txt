@@ -1,2 +1,2 @@
 [Oratio]
-@Commune/C6a::s/N\./Pudentiana/
+@Commune/C6a:Oratio ad missam:s/N\./Pudentiana/

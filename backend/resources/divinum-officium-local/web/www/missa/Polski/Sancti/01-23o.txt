@@ -2,7 +2,7 @@
 @Sancti/01-23o
 
 [Oratio]
-@Commune/C6-1:Oratio:s/N\./Emerencjanna/
+@Commune/C6-1:Oratio ad missam:s/N\./Emerencjanna/
 
 [Postcommunio]
 @Commune/C6-1:Postcommunio:s/N\./Emerencjanny/

@@ -2,4 +2,4 @@
 @Sancti/07-17
 
 [Oratio]
-@Commune/C5:Oratio:s/N\./Aleksego/
+@Commune/C5:Oratio ad missam:s/N\./Aleksego/

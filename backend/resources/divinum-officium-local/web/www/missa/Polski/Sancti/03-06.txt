@@ -2,7 +2,7 @@
 @Sancti/03-06
 
 [Oratio]
-@Commune/C6b:Oratio:s/N\. i N\./Perpetui i Felicyty/
+@Commune/C6b:Oratio ad missam:s/N\. i N\./Perpetui i Felicyty/
 
 [Secreta]
 @Commune/C6b:Secreta:s/N\. i N\./Perpetui i Felicyty/

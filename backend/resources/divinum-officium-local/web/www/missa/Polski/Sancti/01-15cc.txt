@@ -2,7 +2,7 @@
 @Sancti/01-15cc
 
 [Oratio]
-@Commune/C5b:Oratio:s/N\./Maura/
+@Commune/C5b:Oratio ad missam:s/N\./Maura/
 
 [Secreta]
 @Commune/C5b:Secreta:s/N\./Maur/

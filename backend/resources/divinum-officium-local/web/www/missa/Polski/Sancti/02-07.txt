@@ -5,7 +5,7 @@
 @Commune/C5:Introitus
 
 [Oratio]
-@Commune/C5b::s/N\./Romualda/
+@Commune/C5b:Oratio ad missam:s/N\./Romualda/
 
 [Secreta]
 @Commune/C5b::s/N\./Romuald/

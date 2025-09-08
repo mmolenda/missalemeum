@@ -2,7 +2,7 @@
 @Sancti/07-14
 
 [Oratio]
-@Commune/C4a:Oratio:s/N\./Bonawenturę/
+@Commune/C4a:Oratio ad missam:s/N\./Bonawenturę/
 
 [Secreta]
 @Commune/C4-1:Secreta:s/N\./Bonawentury/

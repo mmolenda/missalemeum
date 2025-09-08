@@ -1,5 +1,8 @@
 [Introitus]
 @Commune/C10
 
+[Oratio]
+@Commune/C11:Oratio ad missam
+
 [Evangelium]
 @Sancti/08-14:Evangelium

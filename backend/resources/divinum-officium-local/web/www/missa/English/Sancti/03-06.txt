@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C6b:Oratio:s/N\. and N\./Perpetua and Felicitas/
+@Commune/C6b:Oratio ad missam:s/N\. and N\./Perpetua and Felicitas/
 
 [Secreta]
 @Commune/C6b:Secreta:s/N\. and N\./Perpetua and Felicitas/

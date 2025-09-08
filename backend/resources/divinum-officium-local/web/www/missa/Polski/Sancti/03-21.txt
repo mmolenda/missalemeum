@@ -2,7 +2,7 @@
 @Sancti/03-21
 
 [Oratio]
-@Commune/C5b:Oratio:s/N\./Benedykta/
+@Commune/C5b:Oratio ad missam:s/N\./Benedykta/
 
 [Secreta]
 @Commune/C5b:Secreta:s/N\./Benedykt/

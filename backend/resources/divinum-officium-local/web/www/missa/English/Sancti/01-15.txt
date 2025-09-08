@@ -1,2 +1,2 @@
 [Oratio]
-@Commune/C5:Oratio:s/N\./Paul/
+@Commune/C5:Oratio ad missam:s/N\./Paul/

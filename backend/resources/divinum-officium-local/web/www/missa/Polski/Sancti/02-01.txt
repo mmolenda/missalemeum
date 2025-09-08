@@ -2,7 +2,7 @@
 @Sancti/02-01
 
 [Oratio]
-@Commune/C2::s/N\./Ignacego/
+@Commune/C2:Oratio ad missam:s/N\./Ignacego/
 
 [Offertorium]
 @Sancti/02-01

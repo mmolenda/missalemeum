@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C5b::s/N\./Romuald/
+@Commune/C5b:Oratio ad missam:s/N\./Romuald/
 
 [Secreta]
 @Commune/C5b::s/N\./Romuald/

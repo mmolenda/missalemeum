@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C6-1:Oratio:s/N\./Dorothy/
+@Commune/C6-1:Oratio ad missam:s/N\./Dorothy/
 
 [Secreta]
 @Commune/C6-1:Secreta:s/N\./Dorothy/

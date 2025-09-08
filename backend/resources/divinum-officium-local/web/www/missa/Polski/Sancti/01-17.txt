@@ -5,7 +5,7 @@
 @Commune/C5
 
 [Oratio]
-@Commune/C5b:Oratio:s/N\./Antoniego/
+@Commune/C5b:Oratio ad missam:s/N\./Antoniego/
 
 [Secreta]
 @Commune/C5b:Secreta:s/N\./Antoni/

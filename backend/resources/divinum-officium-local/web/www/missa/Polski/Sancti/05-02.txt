@@ -5,7 +5,7 @@
 @Commune/C4a
 
 [Oratio]
-@Commune/C4-1::s/N\./Atanazego/
+@Commune/C4-1:Oratio ad missam:s/N\./Atanazego/
 
 [Secreta]
 @Commune/C4-1::s/N\./Atanazego/

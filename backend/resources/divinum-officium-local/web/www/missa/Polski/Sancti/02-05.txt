@@ -2,7 +2,7 @@
 @Sancti/02-05
 
 [Oratio]
-@Commune/C6:Oratio:s/N\./Agaty/
+@Commune/C6:Oratio ad missam:s/N\./Agaty/
 
 [Evangelium]
 @Commune/C6-1:Evangelium in 2 loco
