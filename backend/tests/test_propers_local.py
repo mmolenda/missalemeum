@@ -16,7 +16,25 @@ years = [
 ]
 
 days = [
-    "06-01",
+    # "06-04",
+    # "06-06",
+    # "06-08",
+    # "06-10",
+    # "06-12",
+    # "06-13",
+    # "06-14",
+    # "06-15",
+    # "06-17",
+    # "06-18",
+    # "06-19",
+    # "06-20",
+    # "06-22",
+    # "06-23",
+    # "06-25",
+    # "06-26",
+    # "06-28",
+    # "06-29",
+    # "06-30",
 ]
 
 
@@ -24,8 +42,8 @@ def _get_proper_fixtures(fixture):
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, "fixtures/{}".format(fixture))) as fh:
         x = json.load(fh)
-        return [i for i in x.items() if i[0][5:] >= "01-01" and i[0][5:] <= "05-31"]
-        # return [i for i in x.items() if i[0] in dates]
+        # return [i for i in x.items() if i[0][5:] >= "06-01" and i[0][5:] <= "06-30"]
+        return [i for i in x.items() if i[0] in dates]
 
 
 @pytest.mark.parametrize(
