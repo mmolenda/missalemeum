@@ -14,4 +14,4 @@
 @Commune/C4a:Secreta
 
 [Postcommunio]
-@Commune/C4a:Postcommunio:s/N\./Efrem/
+@Commune/C5a:Postcommunio:s/N\. Kanizjusz, Twój i/Efrem, Twój/
