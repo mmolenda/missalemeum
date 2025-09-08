@@ -26,5 +26,5 @@
 @Sancti/06-28r:Communio
 
 [Postcommunio]
-@Sancti/06-28r:Postcommunio
+@Sancti/06-29
 
