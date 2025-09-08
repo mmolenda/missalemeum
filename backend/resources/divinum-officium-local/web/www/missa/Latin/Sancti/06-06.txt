@@ -20,13 +20,13 @@
 @Commune/C4:Evangelium
 
 [Offertorium]
-@Commune/C4:Offertorium
+@Commune/C2-1
 
 [Secreta]
-@Sancti/06-06:Secreta
+@Commune/C4
 
 [Communio]
-@Commune/C4:Communio
+@Commune/C4
 
 [Postcommunio]
 @Commune/C4::s/N\./Norbérto/
