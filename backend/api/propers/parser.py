@@ -251,6 +251,8 @@ class ProperParser:
         name = name.strip()
         if "sed non rubrica 196" in modifier:
             return f"{name} {modifier}"
+        if "ad missam" in modifier:
+            return f"{name} ad missam"
         if any([
             not modifier,
             "(" not in modifier,
