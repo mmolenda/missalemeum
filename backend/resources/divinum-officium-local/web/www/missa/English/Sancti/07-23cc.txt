@@ -1,5 +1,5 @@
 [Oratio]
-@Commune/C1v:Oratio:s/N\./Liborius/
+@Commune/C1v:Oratio 1 loco:s/N\./Liborius/
 
 [Secreta]
 @Commune/C4

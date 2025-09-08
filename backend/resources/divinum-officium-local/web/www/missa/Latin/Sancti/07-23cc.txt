@@ -2,7 +2,7 @@
 @Commune/C4
 
 [Oratio]
-@Commune/C1v:Oratio:s/N\./Libórii/
+@Commune/C1v:Oratio 1 loco:s/N\./Libórii/
 
 [Secreta]
 @Commune/C4
