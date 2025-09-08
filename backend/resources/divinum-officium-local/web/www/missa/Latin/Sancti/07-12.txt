@@ -2,29 +2,29 @@
 @Sancti/07-12
 
 [Introitus]
-@Commune/C4c
+@Commune/C5
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Joánnis Gualbérti/
+@Commune/C5b::s/N\./Joánnis Gualbérti/
 
 [Lectio]
-@Commune/C4c
+@Commune/C5b
 
 [Graduale]
-@Commune/C4c
+@Commune/C5b
 
 [Evangelium]
 @Sancti/07-12:Evangelium
 
 [Offertorium]
-@Commune/C4c
+@Commune/C5b
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Joánnis Gualbérti/
+@Commune/C5b::s/N\./Joánnis Gualbérti/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Joánnis Gualbérti/
+@Commune/C5b::s/N\./Joánnis Gualbérti/
 
