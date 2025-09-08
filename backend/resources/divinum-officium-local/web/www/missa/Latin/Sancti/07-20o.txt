@@ -5,7 +5,7 @@
 @Commune/C6:Introitus
 
 [Oratio]
-@Commune/C6a:Oratio1:s/N\./Margaríta/
+@Commune/C6-1:Oratio:s/N\./Margaríta/
 
 [Lectio]
 @Commune/C6:Lectio
@@ -20,11 +20,11 @@
 @Commune/C6:Offertorium
 
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Margarítæ/
+@Commune/C6-1::s/N\./Margarítæ/
 
 [Communio]
 @Commune/C6:Communio
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Margarítæ/
+@Commune/C6-1::s/N\./Margarítæ/
 
