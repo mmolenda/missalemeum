@@ -23,7 +23,7 @@
 @Sancti/07-07:Secreta
 
 [Communio]
-@Sancti/07-07:Communio
+@Commune/C3a-1
 
 [Postcommunio]
 @Sancti/07-07:Postcommunio
