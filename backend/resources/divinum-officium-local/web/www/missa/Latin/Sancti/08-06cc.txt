@@ -2,11 +2,11 @@
 @Commune/C3a
 
 [Oratio]
-@Sancti/08-06cc:Oratio
+@Commune/C3a::s/N\. et N\./Xysti Felicíssimi et Agapíti/
 
 [Secreta]
 @Commune/C3a
 
 [Postcommunio]
-@Sancti/08-06cc:Postcommunio
+@Commune/C3a::s/N\. et N\./Xysto, Felicíssimo et Agapíto/
 
