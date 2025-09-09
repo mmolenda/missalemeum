@@ -1,5 +1,2 @@
-[Comment]
-@Sancti/08-02o
-
 [Oratio]
 @Commune/C4b:Oratio:s/N\./Stefana/
