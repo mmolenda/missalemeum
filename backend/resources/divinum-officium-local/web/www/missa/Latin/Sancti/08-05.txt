@@ -2,29 +2,29 @@
 @Sancti/08-05
 
 [Introitus]
-@Commune/C10:Introitus
+@Commune/C11
 
 [Oratio]
-@Commune/C10:Oratio
+@Commune/C11
 
 [Lectio]
-@Commune/C10:Lectio
+@Commune/C11
 
 [Graduale]
-@Commune/C10:Graduale
+@Commune/C11
 
 [Evangelium]
-@Commune/C10:Evangelium
+@Commune/C11
 
 [Offertorium]
-@Commune/C10:Offertorium
+@Commune/C11
 
 [Secreta]
-@Commune/C10:Secreta
+@Commune/C11
 
 [Communio]
-@Commune/C10:Communio
+@Commune/C11
 
 [Postcommunio]
-@Commune/C10:Postcommunio
+@Commune/C11
 
