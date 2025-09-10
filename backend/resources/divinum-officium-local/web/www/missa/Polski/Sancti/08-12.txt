@@ -2,4 +2,4 @@
 @Sancti/08-12
 
 [Oratio]
-@Commune/C6b:Oratio:s/N\./Klary/
+@Commune/C7a::s/błogosławionej N\./świętej Twojej Dziewicy Klary/
