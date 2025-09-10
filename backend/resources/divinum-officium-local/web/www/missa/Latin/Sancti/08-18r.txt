@@ -26,5 +26,5 @@
 @Commune/C2:Communio
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
