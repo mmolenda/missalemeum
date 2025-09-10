@@ -5,7 +5,7 @@
 @Sancti/08-22cc:Oratio
 
 [Secreta]
-@Commune/C6b
+@Commune/C6a
 
 [Postcommunio]
 @Sancti/08-22cc:Postcommunio
