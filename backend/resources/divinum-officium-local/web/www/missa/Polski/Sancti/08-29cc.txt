@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/08-29cc
+
+[Oratio]
+@Commune/C6:Oratio:s/N\./Sabiny/
+
+[Secreta]
+@Commune/C6-1::s/N\./Sabiny/
+
+[Postcommunio]
+@Commune/C6-1::s/N\./Sabiny/
