@@ -14,10 +14,10 @@
 @Commune/C7a:Graduale
 
 [Evangelium]
-@Commune/C6a
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C6a
+@Commune/C6-1
 
 [Secreta]
 @Sancti/08-21:Secreta
