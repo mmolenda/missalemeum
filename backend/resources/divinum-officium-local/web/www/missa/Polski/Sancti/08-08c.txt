@@ -1,11 +1,8 @@
-[Comment]
-@Sancti/08-08
-
 [Oratio]
-@Sancti/08-08
+@Commune/C3a-1::s/N\. i N\./Cyriaka, Larga i Szmaragda/
 
 [Secreta]
 @Commune/C2a
 
 [Postcommunio]
-@Commune/C2a
+@Commune/C2a-1::s/świętego N\., Męczennika Twego/świętych męczenników Twoich Cyriaka, Larga i Szmaragda/

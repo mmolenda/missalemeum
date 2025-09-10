@@ -1,8 +1,0 @@
-[Oratio]
-@Sancti/08-08
-
-[Secreta]
-@Commune/C2a
-
-[Postcommunio]
-@Commune/C2a
