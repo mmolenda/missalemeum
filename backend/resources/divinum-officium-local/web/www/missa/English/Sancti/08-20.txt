@@ -1,0 +1,9 @@
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Bernard/
+
+[Secreta]
+@Commune/C4a::s/N\./Bernard/
+
+[Postcommunio]
+@Commune/C4a::s/N\./Bernard/
+

@@ -2,29 +2,29 @@
 @Sancti/08-20
 
 [Introitus]
-@Sancti/08-20:Introitus
+@Commune/C4a
 
 [Oratio]
 @Commune/C4a:Oratio:s/N\./Bernárdi/
 
 [Lectio]
-@Sancti/08-20:Lectio
+@Commune/C4a:Lectio in 2 loco
 
 [Graduale]
-@Sancti/08-20:Graduale
+@Commune/C4a
 
 [Evangelium]
-@Sancti/08-20:Evangelium
+@Commune/C4a
 
 [Offertorium]
-@Sancti/08-20:Offertorium
+@Commune/C4a
 
 [Secreta]
-@Sancti/08-20:Secreta
+@Commune/C4a::s/N\. Pontíficis/Bernárdi Confessóris/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Sancti/08-20:Postcommunio
+@Commune/C4a::s/N\. Póntifex/Bernárdus Conféssor/
 
