@@ -2,13 +2,13 @@
 @Sancti/08-25
 
 [Introitus]
-@Commune/C4c
+@Commune/C5
 
 [Oratio]
 @Sancti/08-25:Oratio
 
 [Lectio]
-@Commune/C2:Lectio
+@Commune/C2a
 
 [Graduale]
 @Commune/C5:Graduale
