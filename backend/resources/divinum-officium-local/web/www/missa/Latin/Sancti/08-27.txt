@@ -8,7 +8,7 @@
 @Sancti/08-27:Oratio
 
 [Lectio]
-@Commune/C2:Lectio
+@Commune/C2a
 
 [Graduale]
 @Sancti/08-27:Graduale
