@@ -2,10 +2,10 @@
 @Sancti/08-09cc
 
 [Oratio]
-@Commune/C2a:Oratio:s/N\./Romano/
+@Commune/C2a-1:Oratio:s/N\./Romano/
 
 [Secreta]
-@Sancti/08-09cc:Secreta
+@Commune/C2a
 
 [Postcommunio]
 @Sancti/08-09cc:Postcommunio

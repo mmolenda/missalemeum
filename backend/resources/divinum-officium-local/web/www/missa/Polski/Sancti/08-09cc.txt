@@ -1,8 +1,5 @@
-[Comment]
-@Sancti/08-09cc
-
 [Oratio]
-@Commune/C2a:Oratio:s/N\./Romana/
+@Commune/C2a-1:Oratio:s/N\./Romana/
 
 [Secreta]
-@Commune/C2:Secreta
+@Commune/C2a

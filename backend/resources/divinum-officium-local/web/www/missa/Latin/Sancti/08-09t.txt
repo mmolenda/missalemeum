@@ -20,7 +20,7 @@
 @Sancti/08-09t:Offertorium
 
 [Secreta]
-@Commune/C2:Secreta
+@Commune/C2a
 
 [Communio]
 @Sancti/08-09t:Communio
