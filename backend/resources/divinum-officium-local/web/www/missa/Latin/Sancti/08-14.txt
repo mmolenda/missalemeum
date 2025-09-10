@@ -14,7 +14,7 @@
 @Sancti/08-14:Graduale
 
 [Evangelium]
-@Commune/C10
+@Commune/C11
 
 [Offertorium]
 @Commune/C10Pasc
@@ -23,7 +23,7 @@
 @Sancti/08-14:Secreta
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
 @Sancti/08-14:Postcommunio
