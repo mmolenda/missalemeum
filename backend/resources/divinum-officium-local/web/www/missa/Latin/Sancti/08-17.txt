@@ -2,7 +2,7 @@
 @Sancti/08-17
 
 [Introitus]
-@Commune/C4c
+@Commune/C5
 
 [Oratio]
 @Commune/C5:Oratio:s/N\./Hyacínthi/
