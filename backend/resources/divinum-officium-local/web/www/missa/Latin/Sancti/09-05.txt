@@ -17,10 +17,10 @@
 @Sancti/09-05:Evangelium
 
 [Offertorium]
-@Sancti/09-05:Offertorium
+@Commune/C2-1
 
 [Secreta]
-@Sancti/09-05:Secreta
+@Commune/C4
 
 [Communio]
 @Commune/C4:Communio

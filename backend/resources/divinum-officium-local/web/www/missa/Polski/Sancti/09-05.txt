@@ -11,7 +11,7 @@
 @Commune/C4
 
 [Offertorium]
-@Commune/C4
+@Commune/C2-1
 
 [Secreta]
 @Commune/C4
