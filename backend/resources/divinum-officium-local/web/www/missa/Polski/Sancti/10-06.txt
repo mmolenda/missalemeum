@@ -1,8 +1,2 @@
 [Comment]
 @Sancti/10-06
-
-[Introitus]
-@Commune/C5
-
-[Communio]
-@Commune/C5

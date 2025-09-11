@@ -2,7 +2,7 @@
 @Sancti/10-06
 
 [Introitus]
-@Commune/C4c
+@Commune/C5
 
 [Oratio]
 @Sancti/10-06:Oratio
@@ -26,5 +26,5 @@
 @Commune/C4-1
 
 [Postcommunio]
-@Commune/C5b:Postcommunio:s/N\./Brunóne/
+@Commune/C5-1:Postcommunio:s/N\./Brunóne/
 
