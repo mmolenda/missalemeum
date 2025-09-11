@@ -14,7 +14,7 @@
 @Commune/C4:Evangelium
 
 [Offertorium]
-@Commune/C4:Offertorium
+@Commune/C2-1
 
 [Secreta]
 @Commune/C4:Secreta
