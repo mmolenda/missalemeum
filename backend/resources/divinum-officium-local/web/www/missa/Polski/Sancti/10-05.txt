@@ -2,7 +2,7 @@
 @Sancti/10-05
 
 [Secreta]
-@Sancti/10-05
+@Commune/C3a
 
 [Postcommunio]
-@Sancti/10-05
+@Commune/C3a::s/N\. i N\./Placyda i towarzyszy/
