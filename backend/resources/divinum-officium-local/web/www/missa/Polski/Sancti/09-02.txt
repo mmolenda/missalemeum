@@ -6,6 +6,3 @@
 
 [Evangelium]
 @Sancti/08-25
-
-[Communio]
-@Commune/C5
