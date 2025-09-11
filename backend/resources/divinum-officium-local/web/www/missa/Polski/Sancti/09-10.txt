@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/09-10
+
+[Oratio]
+@Commune/C5-1::s/N\./Mikołaja/
