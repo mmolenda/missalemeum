@@ -4,8 +4,5 @@
 [Oratio]
 @Sancti/10-04
 
-[Secreta]
-@Sancti/10-04
-
 [Postcommunio]
 @Sancti/10-04
