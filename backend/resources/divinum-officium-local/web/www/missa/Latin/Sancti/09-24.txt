@@ -20,11 +20,11 @@
 @Commune/C11:Offertorium
 
 [Secreta]
-@Commune/C10
+@Commune/C11
 
 [Communio]
 @Commune/C11:Communio
 
 [Postcommunio]
-@Commune/C10
+@Commune/C11
 
