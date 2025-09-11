@@ -17,14 +17,14 @@
 @Sancti/09-12:Evangelium
 
 [Offertorium]
-@Commune/C10a
+@Commune/C11
 
 [Secreta]
-@Commune/C10
+@Commune/C11
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
-@Commune/C10
+@Commune/C11
 
