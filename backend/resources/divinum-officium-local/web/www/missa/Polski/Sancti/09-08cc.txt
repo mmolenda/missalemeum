@@ -2,4 +2,4 @@
 @Sancti/09-08cc
 
 [Oratio]
-@Commune/C2:Oratio:s/N\./Hadriana/
+@Commune/C2a:Oratio ad missam:s/N\./Hadriana/
