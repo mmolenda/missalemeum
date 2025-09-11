@@ -1,26 +1,26 @@
 [Introitus]
-@Commune/C5b
+@Commune/C5-1
 
 [Oratio]
 @Sancti/09-25pl:Oratio
 
 [Lectio]
-@Commune/C5b
+@Commune/C5-1
 
 [Graduale]
-@Commune/C5b
+@Commune/C5-1
 
 [Evangelium]
-@Commune/C5b
+@Commune/C5-1
 
 [Offertorium]
-@Commune/C5b
+@Commune/C5-1
 
 [Secreta]
 @Sancti/09-25pl:Secreta
 
 [Communio]
-@Commune/C5b
+@Commune/C5-1
 
 [Postcommunio]
 @Sancti/09-25pl:Postcommunio
