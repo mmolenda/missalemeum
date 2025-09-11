@@ -5,7 +5,7 @@
 @Commune/C4:Introitus
 
 [Oratio]
-@Sancti/10-01:Oratio
+@Commune/C4::s/N\./Remígii/
 
 [Lectio]
 @Commune/C4:Lectio
