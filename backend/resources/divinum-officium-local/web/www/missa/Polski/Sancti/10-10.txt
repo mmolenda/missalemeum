@@ -5,7 +5,7 @@
 @Commune/C5
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Franciszek/
+@Commune/C5b:Secreta:s/N\./Franciszek/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Franciszka/
+@Commune/C5b:Postcommunio:s/N\./Franciszka/

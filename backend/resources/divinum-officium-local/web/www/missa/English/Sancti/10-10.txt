@@ -1,5 +1,5 @@
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Francis/
+@Commune/C5b:Secreta:s/N\./Francis/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Francis/
+@Commune/C5b:Postcommunio:s/N\./Francis/
