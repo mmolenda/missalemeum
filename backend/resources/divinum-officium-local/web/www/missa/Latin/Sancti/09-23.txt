@@ -5,16 +5,16 @@
 @Commune/C4b
 
 [Oratio]
-@Commune/C4b
+@Commune/C4b::s/N\./Linum, Mártyrem tuum atque/
 
 [Lectio]
 @Commune/C4b
 
 [Graduale]
-@Commune/C4b
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C4b
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b
@@ -23,7 +23,7 @@
 @Commune/C4b
 
 [Communio]
-@Commune/C4b
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
