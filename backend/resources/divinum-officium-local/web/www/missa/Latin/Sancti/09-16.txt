@@ -5,7 +5,7 @@
 @Commune/C3:Introitus
 
 [Oratio]
-@Sancti/09-16:Oratio
+@Commune/C3::s/N\. et N\./Cornélii et Cypriáni/
 
 [Lectio]
 @Commune/C3:Lectio
