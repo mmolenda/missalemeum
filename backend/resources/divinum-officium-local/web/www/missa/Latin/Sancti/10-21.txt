@@ -5,7 +5,7 @@
 @Commune/C4c:Introitus
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Hilariónis/
+@Commune/C5b:Oratio:s/N\./Hilariónis/
 
 [Lectio]
 @Commune/C4c:Lectio
@@ -20,11 +20,11 @@
 @Commune/C4c:Offertorium
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Hilariónis/
+@Commune/C5b:Secreta:s/N\./Hilariónis/
 
 [Communio]
 @Commune/C4c:Communio
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Hilariónis/
+@Commune/C5b:Postcommunio:s/N\./Hilariónis/
 

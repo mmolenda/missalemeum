@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/10-21cc
+
+[Oratio]
+@Commune/C6b::s/N\. i N\./Urszuli i Towarzyszek/
+
+[Secreta]
+@Commune/C6b::s/N\. i N\./Urszuli i Towarzyszek/
+
+[Postcommunio]
+@Commune/C6b:Postcommunio:s/N\. i N\./Urszuli i Towarzyszek/

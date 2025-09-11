@@ -2,7 +2,7 @@
 @Sancti/10-19
 
 [Introitus]
-@Commune/C5b
+@Commune/C5-1
 
 [Oratio]
 @Sancti/10-19:Oratio
@@ -11,20 +11,20 @@
 @Sancti/01-15
 
 [Graduale]
-@Commune/C5b
+@Commune/C5-1
 
 [Evangelium]
 @Sancti/10-19:Evangelium
 
 [Offertorium]
-@Commune/C5b
+@Commune/C5-1
 
 [Secreta]
-@Commune/C5b
+@Commune/C5-1
 
 [Communio]
-@Commune/C5b
+@Commune/C5-1
 
 [Postcommunio]
-@Commune/C5b:Postcommunio:s/N\./Petro/
+@Commune/C5-1:Postcommunio:s/N\./Petro/
 

@@ -1,8 +1,5 @@
 [Comment]
 @Sancti/10-19
 
-[Lectio]
-@Sancti/10-19
-
 [Evangelium]
-@Commune/C5b
+@Commune/C5-1

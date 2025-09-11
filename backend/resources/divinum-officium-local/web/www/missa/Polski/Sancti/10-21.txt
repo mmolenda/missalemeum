@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/10-21
+
+[Oratio]
+@Commune/C5b:Oratio:s/N\./Hilariona/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Hilarion/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Hilariona/
