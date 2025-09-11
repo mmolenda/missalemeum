@@ -8,16 +8,16 @@
 @Sancti/09-30:Oratio
 
 [Lectio]
-@Commune/C5a:Lectio
+@Commune/C4a
 
 [Graduale]
-@Commune/C5a:Graduale
+@Commune/C4a
 
 [Evangelium]
 @Commune/C4a
 
 [Offertorium]
-@Commune/C5a:Offertorium
+@Commune/C4a
 
 [Secreta]
 @Sancti/09-30:Secreta
