@@ -20,10 +20,10 @@
 @Sancti/10-11:Offertorium
 
 [Secreta]
-@Commune/C10
+@Commune/C11
 
 [Communio]
-@Commune/C10
+@Commune/C11
 
 [Postcommunio]
 @Commune/C10b
