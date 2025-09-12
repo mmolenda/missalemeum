@@ -28,10 +28,11 @@ export default function MdPrintable({ text, markdownNewlines, extraComponents}: 
 
 	return (
 		<ReactMarkdown
-			children={textFormatted}
 			remarkPlugins={[remarkGfm]}
 			rehypePlugins={[rehypeRaw]}
 			components={components}
-		/>
+		>
+			{textFormatted}
+		</ReactMarkdown>
 	)
 }
