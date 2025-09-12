@@ -20,11 +20,11 @@
 @Commune/C5b:Offertorium
 
 [Secreta]
-@Commune/C5b
+@Commune/C5-1
 
 [Communio]
 @Commune/C5b:Communio
 
 [Postcommunio]
-@Commune/C5b::s/N\./Dídaco/
+@Commune/C5-1::s/N\./Dídaco/
 
