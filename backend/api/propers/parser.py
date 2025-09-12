@@ -100,7 +100,7 @@ class ProperParser:
             except ProperNotFound:
                 parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
-        parsed_source = self._resolve_conditionals(parsed_source)
+        # parsed_source = self._resolve_conditionals(parsed_source)
         parsed_source.substitutions = parsed_source.parse_substitutions()
         parsed_source = self._apply_global_substitutions(parsed_source)
         if is_local:
