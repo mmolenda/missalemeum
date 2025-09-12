@@ -785,7 +785,7 @@ SANCTI_08_04 = 'sancti:08-04:3:w'
 SANCTI_08_05 = 'sancti:08-05:3:w'
 SANCTI_08_06 = 'sancti:08-06:2:w'  # Transfiguration
 SANCTI_08_06C = 'sancti:08-06cc:4:r'  #
-SANCTI_08_07 = 'sancti:08-07:3:r'
+SANCTI_08_07 = 'sancti:08-07:3:w'
 SANCTI_08_07C = 'sancti:08-07o:4:r'  #
 SANCTI_08_08 = 'sancti:08-08:3:w'
 SANCTI_08_08C = 'sancti:08-08c:4:r'  #
@@ -1179,7 +1179,7 @@ SECTION_REGEX = re.compile(r'^### *([\w\d -]*)(.*)')
 TRANSFORMATIONS_COMMON = [
     (re.compile(r'\+\+'), '☩'),
     (re.compile(r'\+'), '☩'),
-    (re.compile(r'V\.'), '℣.'),
+    (re.compile(r'^V\.'), '℣.'),
     (re.compile(r'R\.'), '℟.'),
     (re.compile(r'\+'), '☩'),
     (re.compile(r'^#'), '##'),
