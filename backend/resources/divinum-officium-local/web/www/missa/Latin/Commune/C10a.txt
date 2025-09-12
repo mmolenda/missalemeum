@@ -1,23 +1,23 @@
 [Rule]
-@Commune/C10a
+@Commune/C11
 
 [Introitus]
 @Commune/C10a:Introitus
 
 [Oratio]
-@Commune/C10a:Oratio
+@Commune/C12:Oratio 2
 
 [Lectio]
-@Commune/C10a:Lectio
+@Tempora/Adv3-3
 
 [Graduale]
 @Commune/C10a:Graduale
 
 [Evangelium]
-@Commune/C10a:Evangelium
+@Tempora/Adv3-3
 
 [Offertorium]
-@Commune/C10a:Offertorium
+@Commune/C11
 
 [Secreta]
 @Commune/C10a:Secreta

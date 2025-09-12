@@ -14,7 +14,9 @@
 @Commune/C10b
 
 [Tractus]
-@Commune/C10b
+@Commune/C10b:Graduale:s/\s+Al.*//s
+_
+@Commune/C11::s/^.*?\s(\!)//s
 
 [Evangelium]
 @Sancti/12-25m2
