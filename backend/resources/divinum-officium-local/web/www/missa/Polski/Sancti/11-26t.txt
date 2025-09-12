@@ -1,2 +1,12 @@
 [Comment]
 @Sancti/11-26t
+
+[Oratio]
+@Commune/C2:Oratio:s/N\./Piotra/
+
+[Secreta]
+@Commune/C2:Secreta:s/N\./Piotra/
+
+[Postcommunio]
+@Commune/C2:Postcommunio:s/N\./Piotra/
+
