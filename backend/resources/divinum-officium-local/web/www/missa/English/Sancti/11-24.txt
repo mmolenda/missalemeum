@@ -1,14 +1,5 @@
-[Lectio]
-@Commune/C4a
-
-[Graduale]
-@Commune/C4a
-
-[Offertorium]
-@Commune/C4a
-
 [Secreta]
-@Sancti/11-24
+@Commune/C5a:Secreta:s/N\./John/
 
 [Postcommunio]
-@Sancti/11-24
+@Commune/C5a:Postcommunio:s/N\./John/
