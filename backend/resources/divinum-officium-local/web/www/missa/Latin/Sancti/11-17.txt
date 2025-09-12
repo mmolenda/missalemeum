@@ -5,7 +5,7 @@
 @Commune/C4:Introitus
 
 [Oratio]
-@Sancti/11-17:Oratio
+@Commune/C4::s/N\./Gregórii/
 
 [Lectio]
 @Commune/C4:Lectio

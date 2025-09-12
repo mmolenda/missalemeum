@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/11-17
+
+[Oratio]
+@Commune/C4::s/N\./Grzegorz/
