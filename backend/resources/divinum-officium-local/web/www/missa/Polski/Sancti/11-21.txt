@@ -1,5 +1,8 @@
 [Comment]
 @Sancti/11-21
 
+[Introitus]
+@Commune/C10
+
 [Evangelium]
 @Sancti/08-14
