@@ -2,10 +2,10 @@
 @Sancti/12-29r
 
 [Oratio]
-@Sancti/12-29r:Commemoratio Oratio:s/\*Wspomnienie św\. Tomasza z Canterbury\*//
+@Sancti/12-29:Oratio
 
 [Secreta]
-@Commune/C2b:Secreta:s/N\./Tomasza/
+@Commune/C2-1::s/N\./Tomasza/
 
 [Postcommunio]
-@Commune/C2b:Postcommunio:s/N\./Tomasza/
+@Commune/C2-1::s/N\./Tomasza/
