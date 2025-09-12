@@ -8,13 +8,13 @@
 @Sancti/12-25m2:Oratio
 
 [Lectio]
-@Commune/C10b
+@Sancti/12-25m2
 
 [Graduale]
 @Sancti/12-25m2:Graduale
 
 [Evangelium]
-@Commune/C10b
+@Sancti/12-25m2
 
 [Offertorium]
 @Tempora/Nat1-0
@@ -35,5 +35,5 @@
 @Sancti/12-25m2:Commemoratio Secreta
 
 [Commemoratio Postcommunio]
-@Commune/C6b:Postcommunio
+@Commune/C6a:Postcommunio
 
