@@ -5,8 +5,8 @@
 @Sancti/11-04cc:Oratio
 
 [Secreta]
-@Commune/C3b:Secreta:s/N\. et N\./Vitále et Agrícola/
+@Commune/C3a-1:Secreta:s/N\. et N\./Vitále et Agrícola/
 
 [Postcommunio]
-@Commune/C3b:Postcommunio:s/N\. et N\./Vitále et Agrícola/
+@Commune/C3a-1:Postcommunio:s/N\. et N\./Vitále et Agrícola/
 
