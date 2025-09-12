@@ -2,29 +2,29 @@
 @Sancti/11-20
 
 [Introitus]
-@Commune/C5b:Introitus
+@Commune/C5-1
 
 [Oratio]
 @Sancti/11-20:Oratio
 
 [Lectio]
-@Commune/C5b:Lectio
+@Commune/C5-1
 
 [Graduale]
-@Commune/C5b:Graduale
+@Commune/C5-1
 
 [Evangelium]
-@Commune/C5b:Evangelium
+@Commune/C5-1
 
 [Offertorium]
-@Commune/C5b:Offertorium
+@Commune/C5-1
 
 [Secreta]
-@Commune/C5b:Secreta
+@Commune/C5-1
 
 [Communio]
-@Commune/C5b:Communio
+@Commune/C5-1
 
 [Postcommunio]
-@Commune/C5b::s/N\./Félice/
+@Commune/C5-1::s/N\./Félice/
 
