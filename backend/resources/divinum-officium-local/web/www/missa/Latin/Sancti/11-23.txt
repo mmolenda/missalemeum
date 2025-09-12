@@ -5,16 +5,16 @@
 @Sancti/11-23:Introitus
 
 [Oratio]
-@Commune/C4b
+@Commune/C2b::s/N\./Clementem/
 
 [Lectio]
 @Tempora/Pent23-0
 
 [Graduale]
-@Commune/C4b
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C4b
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b
@@ -23,7 +23,7 @@
 @Sancti/11-23:Secreta
 
 [Communio]
-@Commune/C4b
+@Commune/Coronatio
 
 [Postcommunio]
 @Sancti/11-23:Postcommunio
