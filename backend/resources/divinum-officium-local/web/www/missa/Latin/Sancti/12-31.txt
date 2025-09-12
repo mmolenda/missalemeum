@@ -2,7 +2,7 @@
 @Sancti/12-31r
 
 [Oratio]
-@Commune/C4b:Oratio:s/N. \(Mártyrem tuum atque\)/Silvestrum,/
+@Commune/C4b:Oratio:s/N./Silvestrum/
 
 [Secreta]
 @Commune/C4b
