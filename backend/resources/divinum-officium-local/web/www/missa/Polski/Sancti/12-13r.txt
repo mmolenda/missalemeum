@@ -2,10 +2,10 @@
 @Sancti/12-13r
 
 [Oratio]
-@Commune/C6b::s/N\./Łucji/
+@Commune/C6a:Oratio ad missam:s/N\./Łucji/
 
 [Secreta]
-@Commune/C6b::s/N\./Łucja/
+@Commune/C6a::s/N\./Łucja/
 
 [Postcommunio]
-@Commune/C6b::s/N\./Łucja/
+@Commune/C6a::s/N\./Łucja/
