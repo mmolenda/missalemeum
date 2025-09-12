@@ -20,7 +20,7 @@
 @Tempora/Adv3-5:Offertorium
 
 [Secreta]
-@Commune/C2
+@Commune/C2a
 
 [Communio]
 @Tempora/Adv3-5:Communio
