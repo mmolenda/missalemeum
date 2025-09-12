@@ -14,7 +14,7 @@
 @Tempora/Quad6-2:Graduale
 
 [Evangelium]
-@Tempora/Quad6-2:Evangelium:s/@Tempora\/Quad6-0r:Munda Cor Passionis//
+@Tempora/Quad6-2:Evangelium:s/^\(.*//:s/^@.*//:s/.*Marc 14:1.*//:s/In illo témpore.*//:s/Munda.*//:s/D\. Jube.*//:s/S\. Dóminus.*//:s/\(deinde dicuntur\)//
 
 [Offertorium]
 @Tempora/Quad6-2:Offertorium
