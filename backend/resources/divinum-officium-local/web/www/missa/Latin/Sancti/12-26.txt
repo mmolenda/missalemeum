@@ -1,0 +1,48 @@
+[Rule]
+@Sancti/12-26
+
+[Introitus]
+@Sancti/08-03
+
+[Oratio]
+@Sancti/08-03
+
+[Lectio]
+@Sancti/08-03
+
+[Graduale]
+@Sancti/12-26:Graduale
+
+[Evangelium]
+@Sancti/08-03
+
+[Offertorium]
+@Sancti/08-03
+
+[Secreta]
+@Sancti/08-03
+
+[Communio]
+@Sancti/08-03
+
+[Postcommunio]
+@Sancti/08-03
+
+[Oratio1]
+@Sancti/12-26:Oratio1
+
+[Commemoratio Oratio]
+@Sancti/12-26:Commemoratio Oratio
+
+[GradualeP]
+@Sancti/12-26:GradualeP
+
+[Tractus]
+@Sancti/12-26:Tractus
+
+[Commemoratio Secreta]
+@Sancti/12-26:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Sancti/12-26:Commemoratio Postcommunio
+

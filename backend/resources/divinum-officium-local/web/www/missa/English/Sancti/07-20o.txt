@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C6-1:Oratio ad missam:s/N\./Margaret/
+
+[Secreta]
+@Commune/C6-1::s/N\./Margaret/
+
+[Postcommunio]
+@Commune/C6-1::s/N\./Margaret/

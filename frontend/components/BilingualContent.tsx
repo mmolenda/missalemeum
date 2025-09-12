@@ -155,18 +155,18 @@ const Article = ({
       <ArticleTags info={content.info} lang={lang} showIcon={false}/>
       {content.info.description &&
         <MdPrintable text={content.info.description} markdownNewlines={markdownNewlines}/>}
-      {content.sections.map((section) => {
-        return <div>
+      {content.sections.map((section, index) => {
+        return <div key={index}>
           {section.label && <h2>{section.label}</h2>}
-          {section.body.map((paragraph) => {
+          {section.body.map((paragraph, pIndex) => {
             return (paragraph.length === 1) ?
-              <div>
-                <div><MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/></div>
+              <div key={pIndex}>
+                <div key="content"><MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/></div>
               </div> :
-              <div style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}>
-                <div style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]}
+              <div key={pIndex} style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}>
+                <div key="left" style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]}
                                                               markdownNewlines={markdownNewlines}/></div>
-                <div><MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/></div>
+                <div key="right"><MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/></div>
               </div>
           })}
         </div>
@@ -260,7 +260,6 @@ const Article = ({
           {content.sections.map((section, index) => {
             return <BilingualSection
               key={"section-" + index}
-              key_={"section-" + index}
               titleVernacular={section.label}
               titleLatin={section.id}
               body={section.body}
@@ -281,7 +280,6 @@ const Article = ({
 
 
 const BilingualSection = ({
-                            key_,
                             titleVernacular,
                             titleLatin,
                             body,
@@ -291,7 +289,6 @@ const BilingualSection = ({
                             widgetMode,
                             itemRefs
                           }: {
-  key_: string
   titleVernacular: string
   titleLatin: string
   body: Body
@@ -367,7 +364,7 @@ const BilingualSection = ({
       </Typography>
       <>{formatBody().map((paragraph, index) => (
         <BilingualSectionParagraph
-          key={key_ + "-" + index}
+          key={index}
           text={paragraph.text}
           singleColumn={paragraph.singleColumn}
           singleColumnAsRubric={singleColumnAsRubric}

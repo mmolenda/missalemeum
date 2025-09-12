@@ -1,0 +1,2 @@
+[Oratio]
+@Commune/C2a:Oratio:s/N\./Romanus/

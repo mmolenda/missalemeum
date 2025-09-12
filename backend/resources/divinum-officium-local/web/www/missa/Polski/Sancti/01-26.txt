@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-26
+
+[Oratio]
+@Commune/C2-1:Oratio ad missam:s/N\./Polikarpa/
+
+[Secreta]
+@Commune/C2-1:Secreta:s/N\./Polikarpa/
+
+[Postcommunio]
+@Commune/C2-1:Postcommunio:s/N\./Polikarpa/

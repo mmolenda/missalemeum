@@ -1,0 +1,8 @@
+[Comment]
+@Commune/C10b
+
+[Lectio]
+@Sancti/12-25m2:Lectio
+
+[Evangelium]
+@Sancti/12-25m2:Evangelium

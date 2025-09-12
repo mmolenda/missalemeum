@@ -1,0 +1,29 @@
+[Rule]
+@Sancti/01-27
+
+[Introitus]
+@Commune/C4a:Introitus
+
+[Oratio]
+@Sancti/01-27:Oratio
+
+[Lectio]
+@Commune/C4a:Lectio
+
+[Graduale]
+@Sancti/01-27:Graduale
+
+[Evangelium]
+@Commune/C4a:Evangelium
+
+[Offertorium]
+@Commune/C4a:Offertorium
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Joánnis Chrysóstomi/
+
+[Communio]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Joánnes Chrysóstomus/

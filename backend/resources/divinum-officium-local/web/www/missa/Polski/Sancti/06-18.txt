@@ -1,0 +1,17 @@
+[Comment]
+@Sancti/06-18
+
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a:Secreta
+
+[Postcommunio]
+@Commune/C5a:Postcommunio:s/N\. Kanizjusz, Twój i/Efrem, Twój/

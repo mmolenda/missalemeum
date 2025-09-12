@@ -1,0 +1,5 @@
+[Oratio]
+@Commune/C5b:Oratio ad missam:s/N\./Antónii/
+
+[Communio]
+@Commune/C4

@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/09-08cc
+
+[Oratio]
+@Commune/C2a:Oratio:s/N\./Adriani/
+
+[Secreta]
+@Commune/C2a
+
+[Postcommunio]
+@Commune/C2a
+

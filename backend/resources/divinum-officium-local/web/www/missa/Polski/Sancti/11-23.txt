@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/11-23
+
+[Oratio]
+@Commune/C2b::s/N\./Klemensa/
+
+[Secreta]
+@Commune/C4b
+
+[Postcommunio]
+@Commune/C4b

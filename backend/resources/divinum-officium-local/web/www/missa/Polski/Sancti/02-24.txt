@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/02-24
+
+[Oratio]
+@Sancti/02-24
+
+[Evangelium]
+@Sancti/02-24:Evangelium

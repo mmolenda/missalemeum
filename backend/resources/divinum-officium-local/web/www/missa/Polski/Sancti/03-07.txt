@@ -1,0 +1,14 @@
+[Comment]
+@Sancti/03-07
+
+[Tractus]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Tomasza/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Tomasz/

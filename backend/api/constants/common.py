@@ -6,6 +6,7 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 RESOURCES_DIR = os.path.join(THIS_DIR, '..', '..', 'resources')
 DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium')
 CUSTOM_DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium-custom')
+LOCAL_DIVOFF_DIR = os.path.join(RESOURCES_DIR, 'divinum-officium-local')
 PROPERS_DIR = os.path.join(RESOURCES_DIR, 'propers')
 ORDO_DIR = os.path.join(RESOURCES_DIR, 'ordo')
 SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
@@ -14,6 +15,7 @@ SATURDAY = 5
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
 LANGUAGE_ENGLISH = 'en'
+LANGUAGE_POLSKI = 'pl'
 LANGUAGES = {'en': 'English', 'pl': 'Polski'}
 DIVOFF_LANG_MAP = {'la': 'Latin'}
 DIVOFF_LANG_MAP.update(LANGUAGES)
@@ -580,7 +582,7 @@ SANCTI_10_DU = 'sancti:10-DU:1:w'  # Feast of Christ the King; last Sunday of Oc
 SANCTI_01_01 = 'sancti:01-01:1:w'  # Octave of the Nativity
 SANCTI_01_05 = 'sancti:01-05:4:r'  # commemoratio S. Telesphori
 SANCTI_01_06 = 'sancti:01-06:1:w'  # Epiphany
-SANCTI_01_11 = 'sancti:01-11:4:r'  # commemoratio S. Hyginus
+SANCTI_01_11 = 'sancti:01-11cc:4:r'  # commemoratio S. Hyginus
 SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
 SANCTI_01_14 = 'sancti:01-14:3:w'  # S. Hilarii
 SANCTI_01_14C = 'sancti:01-14cc:4:r'  # commemoratio S. Felicis
@@ -783,7 +785,7 @@ SANCTI_08_04 = 'sancti:08-04:3:w'
 SANCTI_08_05 = 'sancti:08-05:3:w'
 SANCTI_08_06 = 'sancti:08-06:2:w'  # Transfiguration
 SANCTI_08_06C = 'sancti:08-06cc:4:r'  #
-SANCTI_08_07 = 'sancti:08-07:3:r'
+SANCTI_08_07 = 'sancti:08-07:3:w'
 SANCTI_08_07C = 'sancti:08-07o:4:r'  #
 SANCTI_08_08 = 'sancti:08-08:3:w'
 SANCTI_08_08C = 'sancti:08-08c:4:r'  #
@@ -948,10 +950,8 @@ SANCTI_12_27 = 'sancti:12-27:2:w'  # St. John, Apostle and Evangelist
 SANCTI_12_27C = 'sancti:12-27c:4:w'  #
 SANCTI_12_28 = 'sancti:12-28:2:r'  # Holy Innocents
 SANCTI_12_28C = 'sancti:12-28c:4:w'  #
-SANCTI_12_29 = 'sancti:12-29r:4:r'
-SANCTI_12_29C = 'sancti:12-29c:4:w'  #
-SANCTI_12_31 = 'sancti:12-31r:4:w'
-SANCTI_12_31C = 'sancti:12-31c:4:w'  #
+SANCTI_12_29 = 'sancti:12-29:4:r'
+SANCTI_12_31 = 'sancti:12-31:4:w'
 
 # COMMUNE / VOTIVE
 COMMUNE_C4B = 'commune:C4b:0:w'  # Si díligis
@@ -1116,7 +1116,6 @@ EXCLUDE_SECTIONS = (
     (SANCTI_09_14, COMMEMORATION_SECTIONS),
     (SANCTI_12_07, COMMEMORATION_SECTIONS),
     (SANCTI_12_11, COMMEMORATION_SECTIONS),
-    (SANCTI_12_31, [ORATIO, SECRETA, POSTCOMMUNIO]),
     (TEMPORA_EPI1_0, COMMEMORATION_SECTIONS),
     (TEMPORA_EPI1_0A, COMMEMORATION_SECTIONS),
     (TEMPORA_PENT02_0, COMMEMORATION_SECTIONS),
@@ -1180,7 +1179,7 @@ SECTION_REGEX = re.compile(r'^### *([\w\d -]*)(.*)')
 TRANSFORMATIONS_COMMON = [
     (re.compile(r'\+\+'), '☩'),
     (re.compile(r'\+'), '☩'),
-    (re.compile(r'V\.'), '℣.'),
+    (re.compile(r'^V\.'), '℣.'),
     (re.compile(r'R\.'), '℟.'),
     (re.compile(r'\+'), '☩'),
     (re.compile(r'^#'), '##'),
@@ -1197,7 +1196,6 @@ TRANSFORMATIONS_COMMON = [
     (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
     (re.compile(r'^.*`.*$'), ''),
     (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
-    (re.compile(r'\(rubrica 1955 aut rubrica 1960 dicitur\)'), ''),
-    (re.compile(r'\(deinde dicuntur semper\)'), ''),
+    (re.compile(r'\(nisi rubrica cisterciensis\)'), ''),
     (re.compile(r'^(@.*) Gregem'), '\\1')
 ]

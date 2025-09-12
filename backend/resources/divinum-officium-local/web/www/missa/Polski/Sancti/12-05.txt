@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/12-05
+
+[Oratio]
+@Commune/C5b::s/N\./Saby/
+
+[Secreta]
+@Commune/C5b::s/N\./Saba/
+
+[Postcommunio]
+@Commune/C5b::s/N\./Saby/

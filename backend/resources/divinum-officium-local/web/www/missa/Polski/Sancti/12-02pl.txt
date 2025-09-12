@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/12-02pl
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Piotra Chryzologa/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Piotr Chryzolog/

@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/06-14
+
+[Oratio]
+@Commune/C4-1:Oratio ad missam:s/N\./Bazylego/
+
+[Secreta]
+@Commune/C4-1:Secreta:s/N\./Bazylego/
+
+[Postcommunio]
+@Commune/C4-1:Postcommunio:s/N\./Bazylego/

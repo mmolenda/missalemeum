@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/01-14cc
+
+[Oratio]
+@Sancti/01-14cc
+
+[Secreta]
+@Sancti/01-14cc
+
+[Postcommunio]
+@Sancti/01-14cc

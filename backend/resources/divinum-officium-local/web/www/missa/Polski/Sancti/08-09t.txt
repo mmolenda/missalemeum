@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/08-09t
+
+[Lectio]
+@Commune/C6
+
+[Evangelium]
+@Commune/C2-1

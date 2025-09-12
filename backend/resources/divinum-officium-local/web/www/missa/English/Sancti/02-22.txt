@@ -1,0 +1,8 @@
+[Oratio]
+@Sancti/02-22
+
+[Secreta]
+@Sancti/02-22
+
+[Postcommunio]
+@Sancti/02-22

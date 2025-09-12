@@ -1,0 +1,15 @@
+[Comment]
+@Sancti/09-19
+
+[Oratio]
+@Commune/C3a-1::s/N\. i N\./Januarego i Towarzyszy/
+
+[Communio]
+@Commune/C3a-1
+
+[Secreta]
+@Commune/C3a-1::s/N\. i N\./Januarego i Towarzyszy/
+
+[Postcommunio]
+@Commune/C3a-1::s/N\. i N\./Januarego i Towarzyszy/
+

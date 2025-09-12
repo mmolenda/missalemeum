@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/07-24r
+
+[Oratio]
+@Commune/C6-1::s/N\./Krystyna/
+
+[Secreta]
+@Commune/C6-1::s/N\./Krystyna/
+
+[Postcommunio]
+@Commune/C6-1::s/N\./Krystyna/

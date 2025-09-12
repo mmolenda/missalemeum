@@ -1,0 +1,39 @@
+[Rule]
+@Sancti/12-07
+
+[Introitus]
+@Commune/C4a
+
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Ambrósii/
+
+[Lectio]
+@Commune/C4a:Lectio
+
+[Graduale]
+@Sancti/12-07:Graduale
+
+[Evangelium]
+@Commune/C4a:Evangelium
+
+[Offertorium]
+@Commune/C2
+
+[Secreta]
+@Sancti/12-07:Secreta
+
+[Communio]
+@Commune/C2
+
+[Postcommunio]
+@Sancti/12-07:Postcommunio
+
+[Commemoratio Oratio]
+@Sancti/12-07:Commemoratio Oratio
+
+[Commemoratio Secreta]
+@Sancti/12-07:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Sancti/12-07:Commemoratio Postcommunio
+

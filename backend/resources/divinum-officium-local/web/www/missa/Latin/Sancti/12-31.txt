@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/12-31r
+
+[Oratio]
+@Commune/C4b:Oratio:s/N./Silvestrum/
+
+[Secreta]
+@Commune/C4b
+
+[Postcommunio]
+@Commune/C4b

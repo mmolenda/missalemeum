@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/08-28cc
+
+[Oratio]
+@Sancti/08-28cc:Oratio
+
+[Secreta]
+@Sancti/08-28cc:Secreta
+
+[Postcommunio]
+@Sancti/08-28cc:Postcommunio
+

@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/09-23cc
+
+[Oratio]
+@Sancti/09-23cc:Oratio
+
+[Secreta]
+@Commune/C6:Secreta:s/N\./Theclæ/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Theclæ/
+

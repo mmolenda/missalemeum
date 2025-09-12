@@ -1,0 +1,42 @@
+[Rule]
+@Tempora/Quad6-3
+
+[Introitus]
+@Tempora/Quad6-3:Introitus
+
+[Oratio]
+@Tempora/Quad6-3:Oratio
+
+[Lectio]
+@Tempora/Quad6-3:Lectio
+
+[Graduale]
+@Tempora/Quad6-3:Graduale
+
+[Evangelium]
+@Tempora/Quad6-3::s/^@.*//:s/.*Luc 22:1.*//:s/\(rubrica 1955 aut rubrica 1960 dicitur\) //:s/\(.*//:s/In illo témpore: Appropinquábat.*//:s/Munda.*//:s/D\. Jube.*//:s/S\. Dóminus.*//
+
+[Offertorium]
+@Tempora/Quad6-3:Offertorium
+
+[Secreta]
+@Tempora/Quad6-3:Secreta
+
+[Communio]
+@Tempora/Quad6-3:Communio
+
+[Postcommunio]
+@Tempora/Quad6-3:Postcommunio
+
+[LectioL1]
+@Tempora/Quad6-3:LectioL1
+
+[GradualeL1]
+@Tempora/Quad6-3:GradualeL1
+
+[OratioL1]
+@Tempora/Quad6-3:OratioL1
+
+[Super populum]
+@Tempora/Quad6-3:Super populum
+

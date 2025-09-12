@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/12-05
+
+[Oratio]
+@Commune/C5b::s/N\./Sabbas/
+
+[Secreta]
+@Commune/C5b::s/N\./Sabbas/
+
+[Postcommunio]
+@Commune/C5b::s/N\./Sabbas/

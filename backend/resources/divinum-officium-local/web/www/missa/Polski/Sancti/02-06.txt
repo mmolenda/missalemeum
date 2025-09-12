@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/02-06
+
+[Evangelium]
+@Sancti/04-25
+
+[Postcommunio]
+@Commune/C4::s/N\./Tytusa/

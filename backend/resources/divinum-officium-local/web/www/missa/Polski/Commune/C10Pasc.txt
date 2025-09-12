@@ -1,0 +1,8 @@
+[Comment]
+@Commune/C10Pasc
+
+[Introitus]
+@Commune/C10
+
+[Oratio]
+@Commune/C11:Oratio ad missam

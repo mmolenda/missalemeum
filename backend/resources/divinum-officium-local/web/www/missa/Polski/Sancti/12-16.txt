@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/12-16
+
+[Oratio]
+@Commune/C2-1:Oratio:s/N\./Euzebiusza/
+
+[Secreta]
+@Commune/C2-1:Secreta:s/N\./Euzebiusza/
+
+[Postcommunio]
+@Commune/C2-1:Postcommunio:s/N\./Euzebiusza/

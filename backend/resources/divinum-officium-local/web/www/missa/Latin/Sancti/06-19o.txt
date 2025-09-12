@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/06-19o
+
+[Introitus]
+@Sancti/06-19o:Introitus
+
+[Oratio]
+@Commune/C3a-1::s/N\. et N\./Gervásii et Protásii/
+
+[Lectio]
+@Sancti/06-19o:Lectio
+
+[Graduale]
+@Sancti/06-19o:Graduale
+
+[Evangelium]
+@Commune/C3a
+
+[Offertorium]
+@Sancti/06-19o:Offertorium
+
+[Secreta]
+@Commune/C3a-1::s/N\. et N\./Gervásii et Protásii/
+
+[Communio]
+@Sancti/06-19o:Communio
+
+[Postcommunio]
+@Commune/C3a-1::s/N\. et N\./Gervásii et Protásii/
+

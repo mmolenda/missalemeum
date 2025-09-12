@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/10-05
+
+[Secreta]
+@Commune/C3a
+
+[Postcommunio]
+@Commune/C3a::s/N\. i N\./Placyda i towarzyszy/

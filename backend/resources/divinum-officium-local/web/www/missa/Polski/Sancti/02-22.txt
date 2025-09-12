@@ -1,0 +1,17 @@
+[Comment]
+@Sancti/02-22
+
+[Oratio]
+@Sancti/01-18
+
+[Lectio]
+@Sancti/02-22
+
+[Secreta]
+@Sancti/02-22
+
+[Offertorium]
+@Sancti/02-22
+
+[Postcommunio]
+@Sancti/02-22

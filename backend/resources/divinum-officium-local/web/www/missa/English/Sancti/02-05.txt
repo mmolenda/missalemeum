@@ -1,0 +1,10 @@
+
+[Oratio]
+@Commune/C6:Oratio:s/N\./Agatha/
+
+
+[Secreta]
+@Commune/C6:Secreta:s/N\./Agatha/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Agatha/

@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/08-14cc
+
+[Oratio]
+@Commune/C5:Oratio:s/N\./Eusébii/
+
+[Secreta]
+@Commune/C5:Secreta
+
+[Postcommunio]
+@Commune/C5:Postcommunio
+

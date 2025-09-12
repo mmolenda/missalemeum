@@ -1,0 +1,45 @@
+[Name]
+Missa ad postulandam gratiam Spiritus Sancti
+
+[Rank]
+vide Votive/HolySpirit
+
+[Comment]
+# Msza dla uproszenia łask Ducha Świętego
+! Wotywna
+! Czwartek
+
+[Rule]
+Prefatio=Spiritu;
+
+[Oratio]
+Boże, przed Tobą każde serce stoi otworem, każde pragnienie jest Ci znane i~
+żadna tajemnica nie jest przed Tobą zakryta. Oczyść przez wylanie Ducha Św.~
+myśli naszych serc, abyśmy mogli doskonale Cię kochać i godnie chwalić.
+$Per Dominum eiusdem
+
+[Graduale]
+!Ps 32:12, 6
+Błogosławiony lud, którego Bogiem jest Pan: naród, który On sobie wybrał na dziedzictwo.
+V. Przez słowo Pana powstały niebiosa i wszystkie ich zastępy przez tchnienie ust Jego. Alleluja, alleluja.
+! Tu się przyklęka
+V. Przyjdź, Duchu Święty, napełnij serca Twych wiernych i zapal w nich ogień Twojej miłości. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od Siedemdziesiątnicy do Wielkanocy
+! Ps 103:30; Mdr 12:1
+Ześlij Ducha Twojego, a powstanie życie i odnowisz oblicze ziemi.
+V. 0, jak dobry i słodki jest, Panie, Duch Twój w nas!
+! Tu się przyklęka
+V. Przyjdź, Duchu Święty, napełnij serca Twoich wiernych i zapal w nich ogień Twojej miłości.
+
+[Secreta]
+Prosimy Cię, Panie, niech ta ofiara oczyści od zmaz nasze serca, aby stały się~
+godnym mieszkaniem Ducha Świętego.
+$Per Dominum eiusdem
+
+[Postcommunio]
+Prosimy Cię, wszechmogący Boże, spraw, abyśmy wytrwałą modlitwą zasłużyli na
+~otrzymanie Ducha Świętego; Jego łaska niech nas uwolni od wszelkich pokus~
+i udzieli nam odpuszczenia grzechów.
+$Per Dominum eiusdem

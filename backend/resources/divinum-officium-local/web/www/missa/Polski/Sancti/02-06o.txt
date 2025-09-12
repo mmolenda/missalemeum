@@ -1,0 +1,12 @@
+[Comment]
+@Sancti/02-06
+
+[Oratio]
+@Commune/C6-1:Oratio ad missam:s/N\./Dorota/
+
+[Secreta]
+@Commune/C6-1:Secreta:s/N\./Doroty/
+
+[Postcommunio]
+@Commune/C6-1:Postcommunio:s/N\./Doroty/
+

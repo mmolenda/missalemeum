@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/03-21
+
+[Oratio]
+@Commune/C5b:Oratio ad missam:s/N\./Benedykta/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Benedykt/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Benedykta/

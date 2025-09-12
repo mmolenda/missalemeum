@@ -353,9 +353,7 @@ SANCTI = (
     constants.SANCTI_12_28,
     constants.SANCTI_12_28C,
     constants.SANCTI_12_29,
-    constants.SANCTI_12_29C,
     constants.SANCTI_12_31,
-    constants.SANCTI_12_31C,
 )
 
 ALL_IDS = TEMPORA_IDS + list(SANCTI)

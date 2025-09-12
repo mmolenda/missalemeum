@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-15cc
+
+[Oratio]
+@Commune/C5b:Oratio ad missam:s/N\./Maura/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Maur/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Maura/

@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/11-24
+
+[Secreta]
+@Commune/C5a:Secreta:s/N\./Jana/
+
+[Postcommunio]
+@Commune/C5a:Postcommunio:s/N\./Jana/

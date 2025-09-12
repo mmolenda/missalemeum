@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/10-10
+
+[Introitus]
+@Commune/C5
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Franciszek/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Franciszka/

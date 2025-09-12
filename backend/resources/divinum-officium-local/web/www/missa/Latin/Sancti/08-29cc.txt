@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/08-29cc
+
+[Oratio]
+@Commune/C6:Oratio:s/N\./Sabinæ/
+
+[Secreta]
+@Commune/C6-1::s/N\. Vírginis et/Sabínæ/
+
+[Postcommunio]
+@Commune/C6-1::s/N\. Vírgine et/Sabínæ/
+

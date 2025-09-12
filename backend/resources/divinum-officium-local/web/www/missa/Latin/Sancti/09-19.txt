@@ -1,0 +1,30 @@
+    [Rule]
+@Sancti/09-19
+
+[Introitus]
+@Commune/C3a-1
+
+[Oratio]
+@Commune/C3a-1::s/N\. et N\./Januárii et Sociórum ejus/
+
+[Lectio]
+@Commune/C3a-1
+
+[Graduale]
+@Commune/C3a-1
+
+[Evangelium]
+@Sancti/01-19
+
+[Offertorium]
+@Commune/C3a-1::s/\(sed.*//:s/pace.*// 
+
+[Secreta]
+@Commune/C3a-1::s/N\. et N\./Januário et Sóciis ejus/
+
+[Communio]
+@Sancti/09-19:Communio
+
+[Postcommunio]
+@Commune/C3a-1::s/N\. et N\./Januário et Sóciis ejus/
+

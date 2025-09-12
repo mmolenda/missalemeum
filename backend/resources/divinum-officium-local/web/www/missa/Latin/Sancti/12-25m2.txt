@@ -1,0 +1,39 @@
+[Rule]
+@Sancti/12-25m2
+
+[Introitus]
+@Sancti/12-25m2:Introitus
+
+[Oratio]
+@Sancti/12-25m2:Oratio
+
+[Lectio]
+@Sancti/12-25m2
+
+[Graduale]
+@Sancti/12-25m2:Graduale
+
+[Evangelium]
+@Sancti/12-25m2
+
+[Offertorium]
+@Tempora/Nat1-0
+
+[Secreta]
+@Sancti/12-25m2:Secreta
+
+[Communio]
+@Sancti/12-25m2:Communio
+
+[Postcommunio]
+@Sancti/12-25m2:Postcommunio
+
+[Commemoratio Oratio]
+@Sancti/12-25m2:Commemoratio Oratio
+
+[Commemoratio Secreta]
+@Sancti/12-25m2:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Commune/C6a:Postcommunio
+

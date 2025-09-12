@@ -1,0 +1,12 @@
+[Rule]
+@Commune/C3a
+
+[Oratio]
+@Commune/C3a::s/N\. et N\./Xysti Felicíssimi et Agapíti/
+
+[Secreta]
+@Commune/C3a
+
+[Postcommunio]
+@Commune/C3a::s/N\. et N\./Xysto, Felicíssimo et Agapíto/
+

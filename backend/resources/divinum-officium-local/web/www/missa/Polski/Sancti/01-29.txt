@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/01-29
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Franciszka/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Franciszek/

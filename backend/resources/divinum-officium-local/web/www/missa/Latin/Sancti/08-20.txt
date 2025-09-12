@@ -1,0 +1,30 @@
+[Rule]
+@Sancti/08-20
+
+[Introitus]
+@Commune/C4a
+
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Bernárdi/
+
+[Lectio]
+@Commune/C4a:Lectio in 2 loco
+
+[Graduale]
+@Commune/C4a
+
+[Evangelium]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a::s/N\. Pontíficis/Bernárdi Confessóris/
+
+[Communio]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4a::s/N\. Póntifex/Bernárdus Conféssor/
+

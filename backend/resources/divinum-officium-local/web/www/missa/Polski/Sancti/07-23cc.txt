@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4:Oratio ad missam:s/N\./Liboriusz/
+
+[Secreta]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4:Postcommunio:s/N\./Liboriusza/

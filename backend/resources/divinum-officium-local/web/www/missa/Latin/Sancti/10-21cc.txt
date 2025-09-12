@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/10-21cc
+
+[Oratio]
+@Commune/C6b::s/N\. et N\./Ursulæ et Sociárum/
+
+[Secreta]
+@Commune/C6b::s/N\. et N\./Ursulæ et Sociárum/
+
+[Postcommunio]
+@Commune/C6b:Postcommunio:s/N\. et N\./Ursula et Sociábus/
+

@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C3a-1::s/N\. et N\./Cyriáci, Largi et Smarágdi/
+
+[Secreta]
+@Commune/C2a-1
+
+[Postcommunio]
+@Commune/C2a-1::s/intercedénte beáto N\. Mártyre tuo/intercedéntibus sanctis Martýribus tuis Cyríaco, Largo et Smarágdo/

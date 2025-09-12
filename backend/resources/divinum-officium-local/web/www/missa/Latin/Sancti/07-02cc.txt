@@ -1,0 +1,12 @@
+[Rule]
+@Commune/C3
+
+[Oratio]
+@Sancti/07-02cc:Oratio
+
+[Secreta]
+@Sancti/07-02cc:Secreta
+
+[Postcommunio]
+@Sancti/07-02cc:Postcommunio
+

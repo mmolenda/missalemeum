@@ -1,0 +1,13 @@
+
+[Comment]
+# Św. Petroneli, Dziewicy
+! Szaty białe
+! Wspomnienie
+
+Św. Petronela była Dziewicą i Męczennicą pierwszych wieków Kościoła. Pochowano ją w katakumbach Domicylli. ~
+Jej cześć rozszerzyła się zwłaszcza we Francji za sprawą Karolingów.
+
+Msza wspólna nr 27 Vultum tuum.
+
+[Oratio]
+@Commune/C7a:Oratio ad missam:s/N\./Petroníllæ Vírginis tuæ/

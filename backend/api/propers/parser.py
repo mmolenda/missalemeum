@@ -38,8 +38,8 @@ class ProperParser:
 
     def proper_exists(self) -> bool:
         return not utils.match_first(self.proper_id, OBSERVANCES_WITHOUT_OWN_PROPER) \
-               and ((self._get_full_path(self._get_partial_path(), self.lang) is not None) or
-                    (self._get_full_path(self._get_partial_path(), LANGUAGE_LATIN) is not None))
+               and ((self._get_full_path(self._get_partial_path(), self.lang, is_local=True) is not None) or
+                    (self._get_full_path(self._get_partial_path(), LANGUAGE_LATIN, is_local=True) is not None))
 
     def parse(self) -> Tuple[Proper, Proper]:
         self.prefaces[self.lang] = self._parse_source('Ordo/Prefationes.txt', self.lang)
@@ -58,7 +58,7 @@ class ProperParser:
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
         Resolve references like `@Sancti/02-02:Evangelium`.
         """
-        parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section)
+        parsed_source: ParsedSource = self._parse_source(partial_path, lang, lookup_section, is_local=True)
         proper = Proper(self.proper_id, lang, parsed_source)
 
         # Moving data from "Comment" section up as direct properties of a Proper object
@@ -78,7 +78,7 @@ class ProperParser:
         proper = self._translate_section_titles(proper, lang)
         return proper
 
-    def _parse_source(self, partial_path: str, lang, coming_from: str = None, lookup_section=None) -> ParsedSource:
+    def _parse_source(self, partial_path: str, lang, coming_from: str = None, lookup_section=None, is_local=False) -> ParsedSource:
         """
         Read the file and organize the content as a list of dictionaries
         where `[Section]` becomes an `id` key and each line below - an item of a `body` list.
@@ -91,45 +91,29 @@ class ProperParser:
                   )
 
         if lang == LANGUAGE_LATIN:
-            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+            parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section, is_local=is_local)
         else:
             try:
-                parsed_source = self._read_source(partial_path, lang, lookup_section)
-                parsed_source_latin = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
+                parsed_source = self._read_source(partial_path, lang, lookup_section, is_local=is_local)
+                parsed_source_latin = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section, is_local=is_local)
                 parsed_source.merge(parsed_source_latin)
             except ProperNotFound:
                 parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
-        parsed_source = self._resolve_conditionals(parsed_source)
-        parsed_source.rules = parsed_source.parse_rules()
-        # Reference in Rule section in 'vide' or 'ex' clause - load all sections
-        # from the referenced file and get sections that are not explicitly defined in the current proper.
-        if vide := parsed_source.rules.vide:
-            # Avoiding infinite loops when:
-            # 1. There's self reference, for example Commune/C10.txt has 'vide C10'
-            # 2. Source proper points to target proper which again points to the source proper,
-            #    for example: C7a points to Graduale in C7ap and C7ap has vide C7a
-            vide_partial_path = f'{vide}.txt'
-            if not vide_partial_path in partial_path and not vide_partial_path in (coming_from or ''):
-                for nested_path in (vide_partial_path, f'Commune/{vide_partial_path}', f'Tempora/{vide_partial_path}'):
-                    nested_path_full = self._get_full_path(nested_path, lang)
-                    if nested_path_full:
-                        break
-                else:
-                    raise ProperNotFound(f'Proper from vide not found: ({lang}) {coming_from} -> {vide}.')
-                parsed_source.merge(self._parse_source(nested_path, lang=lang, coming_from=partial_path))
-
+        # parsed_source = self._resolve_conditionals(parsed_source)
         parsed_source.substitutions = parsed_source.parse_substitutions()
         parsed_source = self._apply_global_substitutions(parsed_source)
-        parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
+        if is_local:
+            parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
         parsed_source = self._strip_newlines(parsed_source)
+        parsed_source.rules = parsed_source.parse_rules()
         return parsed_source
 
-    def _read_source(self, partial_path: str, lang: str, lookup_section: Union[str, None] = None) -> ParsedSource:
+    def _read_source(self, partial_path: str, lang: str, lookup_section: Union[str, None] = None, is_local=False) -> ParsedSource:
         parsed_source: ParsedSource = ParsedSource()
         section_name: Union[str, None] = None
         concat_line: bool = False
-        full_path: str = self._get_full_path(partial_path, lang)
+        full_path: str = self._get_full_path(partial_path, lang, is_local=is_local)
         if not full_path:
             raise ProperNotFound(f'Proper `{lang}/{partial_path}` not found.')
         with open(full_path) as fh:
@@ -140,7 +124,7 @@ class ProperParser:
                     # Skipping empty lines in the beginning of the file
                     continue
 
-                if ln.strip() == '!':
+                if ln == '!':
                     # Skipping lines containing exclamation mark only
                     continue
 
@@ -199,7 +183,7 @@ class ProperParser:
                                     if not substitution:
                                         continue
                                     try:
-                                        sub_from, sub_to, _ = substitution.split("/")
+                                        sub_from, sub_to, _ = re.split(r'(?<!\\)/', substitution)
                                         for i, line in enumerate(nested_section_body):
                                             nested_section_body[i] = re.sub(sub_from, sub_to, line)
                                     except Exception as e:
@@ -230,7 +214,7 @@ class ProperParser:
             return parsed_comment
         for ln in comment.get_body():
             if ln.startswith('#'):
-                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), 1)[-1].strip()
+                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), maxsplit=1)[-1].strip()
             elif ln.strip().startswith('*') and ln.endswith('*'):
                 info_item = ln.replace('*', '')
                 try:
@@ -267,7 +251,15 @@ class ProperParser:
         name = name.strip()
         if "sed non rubrica 196" in modifier:
             return f"{name} {modifier}"
-        if not modifier or "(" not in modifier or "rubrica 196" in modifier:
+        if "ad missam" in modifier:
+            return f"{name} ad missam"
+        if any([
+            not modifier,
+            "(" not in modifier,
+            "rubrica 196" in modifier,
+            'communi Summorum Pontificum' in modifier,
+            '(ad missam)' in modifier
+            ]):
             return name
         return f"{name} {modifier}"
 
@@ -395,14 +387,21 @@ class ProperParser:
         return proper
 
     @staticmethod
-    def _get_full_path(partial_path, lang):
-        full_path = os.path.join(cc.CUSTOM_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
-        if os.path.exists(full_path):
-            log.debug("%s/%s comes from custom DivinumOfficium dir", lang, partial_path)
-        else:
-            full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+    def _get_full_path(partial_path, lang, is_local=False):
+        if is_local:
+            full_path = os.path.join(cc.LOCAL_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)    
             if not os.path.exists(full_path):
                 return None
+            return full_path
+        full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
+        if not os.path.exists(full_path):
+            # If it's commune, try in horas
+            if partial_path.startswith('Commune'):
+                full_path = os.path.join(DIVOFF_DIR, 'web', 'www', 'horas', DIVOFF_LANG_MAP[lang], partial_path)
+                if not os.path.exists(full_path):
+                    return None
+                return full_path
+            return None
         return full_path
 
     def _get_partial_path(self):

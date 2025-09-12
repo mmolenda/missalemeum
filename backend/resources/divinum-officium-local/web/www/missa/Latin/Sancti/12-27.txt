@@ -1,0 +1,45 @@
+[Rule]
+@Sancti/12-27
+
+[Introitus]
+@Commune/C4a
+
+[Oratio]
+@Sancti/12-27:Oratio
+
+[Lectio]
+@Sancti/12-27:Lectio
+
+[Graduale]
+@Sancti/12-27:Graduale
+
+[Evangelium]
+@Sancti/12-27:Evangelium
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Sancti/12-27:Secreta
+
+[Communio]
+@Sancti/12-27:Communio
+
+[Postcommunio]
+@Commune/C5
+
+[Commemoratio Oratio]
+@Sancti/12-27:Commemoratio Oratio
+
+[GradualeP]
+@Sancti/12-27:GradualeP
+
+[Tractus]
+@Sancti/12-27:Tractus
+
+[Commemoratio Secreta]
+@Sancti/12-27:Commemoratio Secreta
+
+[Commemoratio Postcommunio]
+@Sancti/12-27:Commemoratio Postcommunio
+

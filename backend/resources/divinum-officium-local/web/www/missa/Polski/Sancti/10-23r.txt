@@ -1,0 +1,23 @@
+[Comment]
+@Sancti/10-23r
+
+[Introitus]
+@Commune/C4-1
+
+[Lectio]
+@Commune/C4-1
+
+[Graduale]
+@Commune/C4-1
+
+[Evangelium]
+@Commune/C4-1
+
+[Communio]
+@Commune/C4-1
+
+[Secreta]
+@Commune/C4-1:Secreta:s/N\./Antoniego Marii/
+
+[Postcommunio]
+@Commune/C4-1:Postcommunio:s/N\./Antoniego Marii/

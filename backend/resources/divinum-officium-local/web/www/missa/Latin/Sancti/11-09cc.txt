@@ -1,0 +1,12 @@
+[Rule]
+@Sancti/11-09cc
+
+[Oratio]
+@Sancti/11-09cc:Oratio
+
+[Secreta]
+@Sancti/11-09cc:Secreta
+
+[Postcommunio]
+@Sancti/11-09cc:Postcommunio
+

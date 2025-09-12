@@ -1,0 +1,11 @@
+[Rule]
+@Sancti/12-29r
+
+[Oratio]
+@Sancti/12-29:Oratio
+
+[Secreta]
+@Commune/C2-1::s/N\./Thoma/
+
+[Postcommunio]
+@Commune/C2-1::s/N\./Thoma/

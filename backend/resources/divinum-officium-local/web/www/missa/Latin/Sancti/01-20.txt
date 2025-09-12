@@ -1,0 +1,33 @@
+[Rule]
+@Sancti/01-20
+
+[Introitus]
+@Commune/C3:Introitus
+
+[Oratio]
+@Commune/C2::s/beáti N\. Mártyris tui atque Pontíficis/beatórum Mártyrum tuórum Fabiáni et Sebastiáni/
+
+[Lectio]
+@Sancti/01-20:Lectio
+
+[Graduale]
+@Sancti/01-20:Graduale
+
+[Evangelium]
+@Commune/C3a
+
+[Offertorium]
+@Sancti/01-20:Offertorium
+
+[Secreta]
+@Commune/C2::s/beáti N\. Mártyris tui atque Pontíficis/beatórum Mártyrum tuórum Fabiáni et Sebastiáni/
+
+[Communio]
+@Sancti/01-20:Communio
+
+[Postcommunio]
+@Commune/C2::s/intercedénte beáto N\. Mártyre tuo atque Pontífice/intercedéntibus sanctis Martýribus tuis Fabiáno et Sebastiáno/
+
+[Tractus]
+@Sancti/01-20:Tractus
+

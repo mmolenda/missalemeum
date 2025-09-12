@@ -1,0 +1,97 @@
+[Rule]
+@Tempora/Quadp3-3
+
+[Benedictio cinerum]
+!Antiphona.
+!Ps 68:17
+v. Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum multitúdinem miseratiónum tuárum réspice nos, Dómine.
+!Ps 68:2
+Salvum me fac, Deus: quóniam intravérunt aquæ usque ad ánimam meam.
+&Gloria
+v. Exáudi nos, Dómine, quóniam benígna est misericórdia tua: secúndum multitúdinem miseratiónum tuárum réspice nos, Dómine.
+_
+_
+!Deinde Sacerdos in cornu Epistolæ, non vertens se ad populum, manibus junctis (quod servatur etiam in orationibus omnium benedictionum quoad manus junctas) dicit:
+V. Dóminus vobíscum.
+R. Et cum spíritu tuo.
+v. Orémus.
+Omnípotens sempitérne Deus, parce pæniténtibus, propitiáre supplicántibus: et míttere dignéris sanctum Angelum tuum de coelis, qui bene + dícat et sanctí + ficet hos cíneres, ut sint remédium salúbre ómnibus nomen sanctum tuum humilíter implorántibus, ac semetípsos pro consciéntia delictórum suórum accusántibus, ante conspéctum divínæ cleméntiæ tuæ facínora sua deplorántibus, vel sereníssimam pietátem tuam supplíciter obnixéque flagitántibus: et præsta per invocatiónem sanctíssimi nóminis tui; ut, quicúmque per eos aspérsi fúerint, pro redemptióne peccatórum suórum, córporis sanitátem et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum.
+R. Amen.
+_
+_
+v. Orémus.
+Deus, qui non mortem, sed pæniténtiam desíderas peccatórum: fragilitátem condiciónis humánæ benigníssime réspice; et hos cíneres, quos, causa proferéndæ humilitátis atque promeréndæ véniæ, capítibus nostris impóni decérnimus, bene + dícere pro tua pietáte dignáre: ut, qui nos cínerem esse, et ob pravitátis nostræ deméritum in púlverem reversúros cognóscimus; peccatórum ómnium véniam, et praemia pæniténtibus repromíssa, misericórditer cónsequi mereámur. Per Christum, Dóminum nostrum.
+R. Amen.
+_
+_
+v. Orémus.
+Deus, qui humiliatióne flécteris, et satisfactióne placáris: aurem tuæ pietátis inclína précibus nostris; et capítibus servórum tuórum, horum cínerum aspersióne contáctis, effúnde propítius grátiam tuæ benedictiónis: ut eos et spíritu compunctiónis répleas et, quæ juste postuláverint, efficáciter tríbuas; et concéssa perpétuo stabilíta et intácta manére decérnas. Per Christum, Dóminum nostrum.
+R. Amen.
+_
+_
+v. Orémus.
+Omnípotens sempitérne Deus, qui Ninivítis, in cínere et cilício pæniténtibus, indulgéntiæ tuæ remédia præstitísti: concéde propítius; ut sic eos imitémur hábitu, quaténus véniæ prosequámur obténtu.
+$Per Dominum
+(sed rubrica 1960 dicuntur)
+Per Christum, Dóminum nostrum.
+R. Amen.
+_
+_
+!Postea Celebrans, imposito incenso in thuribulo, ter aspergit cineres aqua benedícta, dicendo Antiphonam Aspérges, sine cantu et sine Psalmo, et ter adolet incenso. Deinde dignior Sacerdos ex Clero accedens ad Altare, imponit cineres Celebranti non genuflexo. Si vero non adsit alius Sacerdos, ipsemet Celebrans, genibus flexis coram Altari, sibi ipsi cineres imponit in capite, nihil dicens, et cantatur statim a choro:
+!Antiphona.
+!Joel 2:13
+Immutémur habitu, in cínere et cilício: jejunémus, et plorémus ante Dóminum: quia multum miséricors est dimíttere peccáta nostra Deus noster.
+_
+_
+!Alia Antiph.
+!Joel 2:17
+Inter vestíbulum et altáre plorábunt sacerdótes minístri Dómini, et dicent: Parce, Dómine, parce pópulo tuo: et ne claudas ora canéntium te, Dómine.
+_
+_
+!Responsorium
+!Esther 13; Joel 2
+Emendémus in mélius, quæ ignoránter peccávimus: ne, subito præoccupáti die mortis, quærámus spátium pæniténtiæ, et inveníre non póssimus. Atténde, Dómine, et miserére: quia peccávimus tibi,
+!Ps 78:9
+Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos. Atténde, Dómine,
+V. Glória Patri, et Fílio, et Spirítui Sancto. Atténde, Dómine.
+!Sacerdos vero, dum cantantur Antiphonæ et Responsorium, detecto capite, primo imponit cineres digniori Sacerdoti, a quo ipse accepit, deinde Ministris paratis, genibus flexis coram Altari, dicens:
+!Genesis 3:19
+Memento, homo, quia pulvis es, et in púlverem revertéris.
+_
+_
+!Postea veniunt alii, primo Clerus per ordinem, deinde populus: et genibus flexis ante Altare, singulatim recipiunt cinerem a Sacerdote, ut dictum est de Ministris. Completa cinerum impositione, Sacerdos dicit:
+V. Dóminus vobíscum.
+R. Et cum spíritu tuo.
+v. Orémus.
+Concéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis. Per Christum, Dóminum nostrum. R. Amen.
+
+[Introitus]
+@Tempora/Quadp3-3:Introitus
+
+[Oratio]
+@Tempora/Quadp3-3:Oratio
+
+[Lectio]
+@Tempora/Quadp3-3:Lectio
+
+[Graduale]
+@Tempora/Quadp3-3:Graduale
+
+[Evangelium]
+@Tempora/Quadp3-3:Evangelium
+
+[Offertorium]
+@Tempora/Quadp3-3:Offertorium
+
+[Secreta]
+@Tempora/Quadp3-3:Secreta
+
+[Communio]
+@Tempora/Quadp3-3:Communio
+
+[Postcommunio]
+@Tempora/Quadp3-3:Postcommunio
+
+[Super populum]
+@Tempora/Quadp3-3:Super populum
+

@@ -1,0 +1,14 @@
+[Comment]
+@Sancti/05-02
+
+[Introitus]
+@Commune/C4a
+
+[Oratio]
+@Commune/C4-1:Oratio ad missam:s/N\./Atanazego/
+
+[Secreta]
+@Commune/C4-1::s/N\./Atanazego/
+
+[Postcommunio]
+@Commune/C4-1::s/N\./Atanazego/

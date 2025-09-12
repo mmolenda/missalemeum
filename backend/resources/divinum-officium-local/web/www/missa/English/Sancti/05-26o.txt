@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4b:Oratio:s/N\./Eleutherius/
+
+[Secreta]
+@Commune/C4b:Secreta:s/N\./Eleutherius/
+
+[Postcommunio]
+@Commune/C4b:Postcommunio:s/N\./Eleutherius/

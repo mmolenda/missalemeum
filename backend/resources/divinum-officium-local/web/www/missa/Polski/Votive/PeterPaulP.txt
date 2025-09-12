@@ -1,0 +1,44 @@
+[Name]
+Missa de Ss. Petro et Paulo App. Tempore paschali
+
+[Rule]
+Prefatio=Apostolis
+
+[Comment]
+# Msza o śś. Piotrze i Pawle Apostołach
+! Wotywna
+! Środa
+! W Okresie Wielkanocnym
+
+[Introitus]
+@Sancti/04-25:Introitus
+
+[Oratio]
+Boże, Twoja prawica podtrzymywała św. Piotra idącego po falach, by nie zatonął, a współapostoła jego~
+Pawła trzykrotnie wybawiła z toni morskiej, gdy się rozbił z okrętem: wysłuchaj nas łaskawie i spraw,~
+byśmy przez zasługi ich obu osiągnęli chwałę wiekuistą.
+$Qui vivis
+
+[Lectio]
+@Tempora/Pasc7-3:Lectio
+
+[Graduale]
+@Sancti/04-25:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Sancti/04-25:Offertorium
+
+[Secreta]
+Składamy Ci, Panie, prośby i ofiary: niech modlitwa świętych Apostołów Twoich Piotra i Pawła nas wspomoże,~
+by godne były Twojego wejrzenia.
+$Per Dominum
+
+[Communio]
+@Sancti/04-25:Communio
+
+[Postcommunio]
+Osłaniaj, Panie, lud Swój ufający opiece Apostołów Twoich Piotra i Pawła i strzeż go nieustanną obroną.
+$Per Dominum

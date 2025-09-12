@@ -1,9 +1,15 @@
+from collections import defaultdict
+import os
 import datetime
 import json
-from collections import defaultdict
+import os
+from api import controller
+from api.constants import common as const
 
-from conftest import get_missal
+from tests.conftest import get_missal, HERE
+from tests.test_propers_local import days, years
 
+here = os.path.abspath(os.path.dirname(__file__))
 year_early_easter = 2024  # March 31
 year_late_easter = 2025  # April 20
 
@@ -19,21 +25,43 @@ dates = get_dates(year_early_easter)
 dates.extend(get_dates(year_late_easter))
 
 
-def generate_propers_fixtures(dates: list[datetime.date], language: str):
-    coll = defaultdict(list)
+def generate_fixtures_for_propers_by_dates(dates: list[datetime.date], language: str):
+    coll = {}
     for dt in dates:
         strdt = dt.strftime("%Y-%m-%d")
         print(f"{language}/{strdt}")
-        missal = get_missal(dt.year, language if language != "la" else "pl")
+        missal = get_missal(dt.year, language if language != const.LANGUAGE_LATIN else const.LANGUAGE_POLSKI)
         day = missal.get_day(dt)
-        if language == "la":
-            _, proper = day.get_proper()[0]
+        for i, propers in enumerate(day.get_proper()):
+            if strdt not in coll:
+                coll[strdt] = []
+            if len(coll[strdt]) < (i + 1):
+                coll[strdt].append([])
+                
+            # one `propers` object per one mass in a day
+            if language == const.LANGUAGE_LATIN:
+                _, proper = propers
+            else:
+                proper, _ = propers
+            srlzd = proper.serialize()
+            for section in srlzd:
+                coll[strdt][i].append({"id": section["id"], "body": section["body"][:120]})
+    with open(os.path.join(here, f'fixtures/propers_{language}.json'), 'w') as fh:
+        json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
+
+
+def generate_fixtures_for_propers_by_ids(ids: list[str], language: str):
+    coll = defaultdict(list)
+    for proper_id in ids:
+        propers_all: list[tuple] = [controller.get_proper_by_id(proper_id, language)]
+        if language == const.LANGUAGE_LATIN:
+            _, proper = propers_all[0]
         else:
-            proper, _ = day.get_proper()[0]
+            proper, _ = propers_all[0]
         srlzd = proper.serialize()
         for section in srlzd:
-            coll[strdt].append({"id": section["id"], "body": section["body"][:120]})
-    with open(f'fixtures/propers_{language}.json', 'w') as fh:
+            coll[proper_id].append({"id": section["id"], "body": section["body"][:120]})
+    with open(os.path.join(here, f'fixtures/propers_votive_{language}.json'), 'w') as fh:
         json.dump(coll, fh, indent=2, sort_keys=True, ensure_ascii=False)
 
 
@@ -66,6 +94,37 @@ def compare_years(y1, y2, lang):
 
 
 if __name__ == "__main__":
-    # compare_years(2024, 2025, "en")
-    for l in ['la', 'pl', 'en']:
-        generate_propers_fixtures(dates, l)
+    pass
+    # compare_years(2024, 2025, LANGUAGE_ENGLISH)
+    # for l in ['la', 'pl', 'en']:
+        # generate_propers_fixtures(dates, l)
+
+    # generate_fixtures_for_propers_by_ids(
+    #     [
+    #         const.COMMUNE_C_10A,
+    #         const.COMMUNE_C_10B,
+    #         const.COMMUNE_C_10C,
+    #         const.COMMUNE_C_10PASC,
+    #         const.COMMUNE_C_10T,
+    #         const.VOTIVE_PENT01_0,
+    #         const.VOTIVE_ANGELS,
+    #         const.VOTIVE_JOSEPH,
+    #         const.VOTIVE_JESUSETERNALPRIEST,
+    #         const.VOTIVE_PENT02_5,
+    #         const.VOTIVE_08_22,
+    #         const.VOTIVE_MORTALITATIS,
+    #     ]
+    #     , const.LANGUAGE_POLSKI)
+
+
+    
+    # update_propers_for_dates(
+    #     [
+    #     # datetime.date(2024, 2, 15),
+    #      datetime.date(2025, 2, 15)
+    #     ],
+    #     lang,
+    #     os.path.join(here, "fixtures", f"propers_{lang}.json")
+    # )
+
+

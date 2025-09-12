@@ -1,0 +1,50 @@
+[Name]
+Missa de omnibus Ss. Apostolis
+
+[Rule]
+Prefatio=Apostolis
+
+[Introitus]
+@Sancti/02-24
+
+[Oratio]
+Deus, qui nos per beatos Apóstolos tuos ad agnitiónem tui~
+nóminis veníre tribuísti: da nobis eórum glóriam sempitérnam et proficiéndo~
+celebráre, et celebrándo profícere.
+$Per Dominum
+
+[Lectio]
+@Tempora/Pasc5-3
+
+[Graduale]
+@Sancti/10-28:Graduale
+
+[Tractus]
+! Post Septuagesimam
+!Ps 125:5-6
+Qui séminant in lácrimis, in gáudio metent.
+V. Eúntes ibant et flebant, mitténtes sémina sua.
+V. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.
+
+[Evangelium]
+@Sancti/10-28:Evangelium
+
+[Offertorium]
+!Ps 44:17-18
+Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine,~
+in omni progenie et generatione, alleluia, alleluia.
+
+[Secreta]
+Glóriam, Dómine, sanctórum Apostolórum tuórum perpétuam~
+venerántes: quǽsumus; ut eam, sacris mystériis expiati, dígnius celebrémus.
+$Per Dominum
+
+[Communio]
+!Ps 18:5
+In omnem terram exívit sonus eórum: et in fines orbis terræ verba eórum, alleluia, alleluia.
+
+[Postcommunio]
+Percéptis, Dómine, sacraméntis, supplíciter exorámus: ut, intercedéntibus beátis~
+Apóstolis tuis, quæ pro illórum veneránda gérimus passióne, nobis~
+profíciant ad medélam.
+$Per Dominum

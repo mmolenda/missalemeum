@@ -1,0 +1,5 @@
+[Comment]
+@Tempora/Quad6-2
+
+[Evangelium]
+@Tempora/Quad6-2:Evangelium:s/^\(.*//:s/^@.*//:s/.*Mk 14:1.*//:s/A było Pascha.*//

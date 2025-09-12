@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C2:Oratio ad missam:s/N\./Simeon/
+
+[Secreta]
+@Commune/C2:Secreta:s/N\./Simeon/
+
+[Postcommunio]
+@Commune/C2a-1::s/N\./Simeon/

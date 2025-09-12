@@ -1,0 +1,9 @@
+[Comment]
+@Sancti/09-20
+
+
+[Oratio]
+@Commune/C3a:Oratio:s/N\. i N\./Eustachego i Towarzyszy/
+
+[Postcommunio]
+@Commune/C3a:Postcommunio:s/N\. i N\./Eustachego i Towarzyszy/

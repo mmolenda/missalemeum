@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C6:Secreta:s/N\./Tekli/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Tekli/

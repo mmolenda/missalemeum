@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/12-25m2
+
+[Lectio]
+@Sancti/12-25m2
+
+[Evangelium]
+@Sancti/12-25m2

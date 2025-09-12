@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C6:Secreta:s/N\./Thecla/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Thecla/

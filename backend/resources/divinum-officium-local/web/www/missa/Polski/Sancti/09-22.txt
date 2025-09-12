@@ -1,0 +1,8 @@
+[Comment]
+@Sancti/09-22
+
+[Secreta]
+@Commune/C4-1:Secreta:s/N\./Tomasza/
+
+[Postcommunio]
+@Commune/C4-1:Postcommunio:s/N\./Tomasza/

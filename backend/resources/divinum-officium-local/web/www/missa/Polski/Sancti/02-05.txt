@@ -1,0 +1,14 @@
+[Comment]
+@Sancti/02-05
+
+[Oratio]
+@Commune/C6:Oratio ad missam:s/N\./Agaty/
+
+[Evangelium]
+@Commune/C6-1:Evangelium in 2 loco
+
+[Secreta]
+@Commune/C6:Secreta:s/N\./Agaty/
+
+[Postcommunio]
+@Commune/C6:Postcommunio:s/N\./Agaty/

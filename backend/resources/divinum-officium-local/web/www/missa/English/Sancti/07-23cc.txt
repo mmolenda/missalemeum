@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C1v:Oratio 1 loco:s/N\./Liborius/
+
+[Secreta]
+@Commune/C4
+
+[Postcommunio]
+@Commune/C4:Postcommunio:s/N\./Liborius/

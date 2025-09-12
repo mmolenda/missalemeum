@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/05-09
+
+[Oratio]
+@Commune/C4a:Oratio ad missam:s/N\./Grzegorza/
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Grzegorza/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Grzegorz/

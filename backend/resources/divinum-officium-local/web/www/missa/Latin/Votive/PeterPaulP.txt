@@ -1,0 +1,39 @@
+[Name]
+Missa de Ss. Petro et Paulo App. Tempore paschali
+
+[Rule]
+Prefatio=Apostolis
+
+[Introitus]
+@Sancti/04-25:Introitus
+
+[Oratio]
+Deus, cuius dextera beatum Petrum ambulantem in fluctibus, ne mergeretur, erexit, et~
+coapostolum eius Paulum, tertio naufragantem, de profundo pelagi liberavit: exaudi~
+nos propitius, et concede; ut, amborum meritis, aeternitatis gloriam consequamur:
+$Qui vivis
+
+[Lectio]
+@Tempora/Pasc7-3:Lectio
+
+[Graduale]
+@Sancti/04-25:Graduale
+
+[Evangelium]
+@Commune/C5:Evangelium
+
+[Offertorium]
+@Sancti/04-25:Offertorium
+
+[Secreta]
+Offerimus tibi, Domine, preces et munera; quae ut tuo sint digna conspectu, Apostolorum tuorum Petri~
+et Pauli precibus adiuvemur.
+$Per Dominum
+
+[Communio]
+@Sancti/04-25:Communio
+
+[Postcommunio]
+Protege. Domine, populum tuum: et Apostolorum tuorum Petri et Pauli patrocino confidentem,~
+perpetua defensione conserva.
+$Per Dominum

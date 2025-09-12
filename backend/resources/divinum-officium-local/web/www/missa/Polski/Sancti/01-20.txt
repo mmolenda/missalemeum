@@ -1,0 +1,11 @@
+[Comment]
+@Sancti/01-20
+
+[Oratio]
+@Sancti/01-20
+
+[Secreta]
+@Sancti/01-20
+
+[Postcommunio]
+@Sancti/01-20
