@@ -2,29 +2,29 @@
 @Sancti/12-02
 
 [Introitus]
-@Commune/C6a:Introitus
+@Commune/C6-1
+
+[Lectio]
+@Commune/C6-1
+
+[Graduale]
+@Commune/C6-1
+
+[Evangelium]
+@Commune/C6-1
+
+[Offertorium]
+@Commune/C6-1
 
 [Oratio]
 @Sancti/12-02:Oratio
 
-[Lectio]
-@Commune/C6a:Lectio
-
-[Graduale]
-@Commune/C6a:Graduale
-
-[Evangelium]
-@Commune/C6a:Evangelium
-
-[Offertorium]
-@Commune/C6a:Offertorium
-
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Bibiánæ/
+@Commune/C6-1:Secreta:s/N\./Bibiánæ/
 
 [Communio]
-@Commune/C6a:Communio
+@Commune/C6-1:Communio
 
 [Postcommunio]
-@Commune/C6a:Postcommunio1:s/N\./Bibiánæ/
+@Commune/C6-1:Postcommunio:s/N\./Bibiánæ/
 

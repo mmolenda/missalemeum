@@ -1,2 +1,5 @@
 [Secreta]
-@Commune/C6a:Secreta1:s/N\./Bibiana/
+@Commune/C6-1::s/N\./Bibiana/
+
+[Postcommunio]
+@Commune/C6-1::s/N\./Bibiana/
