@@ -1,5 +1,8 @@
 [Comment]
 @Commune/C10a
 
+[Rule]
+Prefatio=MariaV
+
 [Evangelium]
 @Tempora/Adv3-3

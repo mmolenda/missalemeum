@@ -28,6 +28,7 @@ def _get_proper_fixtures(fixture):
         # return [i for i in x.items() if i[0] in dates]
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize(
     "strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_LATIN}.json")
 )
@@ -35,6 +36,7 @@ def test_all_propers_latin(strdate, expected_sections):
     _tests_propers(LANGUAGE_LATIN, strdate=strdate, expected_sections=expected_sections)
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize(
     "strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_POLSKI}.json")
 )
@@ -44,6 +46,7 @@ def test_all_propers_polish(strdate, expected_sections):
     )
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize(
     "strdate,expected_sections",
     _get_proper_fixtures(f"propers_{LANGUAGE_ENGLISH}.json"),

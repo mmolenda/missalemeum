@@ -225,7 +225,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"
                          "comm_collect_sub,comm_collect_contains,comm_secreta_contains,comm_postcommunio_contains", [
     # St. Matthias, Apostle, commemoration of Ember Saturday of Lent
-    ((2018, 2, 24), "Deus qui beátum Matthíam", "Hóstias tibi, Dómine", "Præsta, quǽsumus, omnípotens",
+    ((2018, 2, 24), "Deus, qui beatum Matthiam", "Hóstias tibi, Dómine", "Præsta, quǽsumus, omnípotens",
                     "Commemoratio Sabbato Quattuor Temporum Quadragesimæ", "Pópulum tuum", "Præséntibus sacrifíciis", "Sanctificatiónibus tuis"),
     # Advent feria, commemoration of S. Thomæ de Aquino
     ((2019, 3, 7), "Deus, qui culpa offénderis", "Sacrifíciis præséntibus, Dómine", "Cœléstis doni benedictióne",

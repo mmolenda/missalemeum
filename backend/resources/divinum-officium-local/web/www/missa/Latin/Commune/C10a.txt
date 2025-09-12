@@ -1,5 +1,5 @@
 [Rule]
-@Commune/C11
+Prefatio=Maria=veneratione
 
 [Introitus]
 @Commune/C10a:Introitus
