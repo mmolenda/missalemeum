@@ -17,7 +17,7 @@
 @Commune/C3:Evangelium
 
 [Offertorium]
-@Commune/C3:Offertorium
+@Commune/C3:Offertorium:s/\(sed.*//:s/^Deus.*//
 
 [Secreta]
 @Commune/C3:Secreta

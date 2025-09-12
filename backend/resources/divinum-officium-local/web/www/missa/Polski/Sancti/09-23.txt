@@ -2,4 +2,4 @@
 @Sancti/09-23
 
 [Oratio]
-@Commune/C4b::s/N\.,/Linusa, Twojego Męczennika i/
+@Commune/C2b::s/N\./Linusa/

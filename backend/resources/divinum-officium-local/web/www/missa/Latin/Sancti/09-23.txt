@@ -5,7 +5,7 @@
 @Commune/C4b
 
 [Oratio]
-@Commune/C4b::s/N\./Linum, Mártyrem tuum atque/
+@Commune/C2b::s/N\./Linum/
 
 [Lectio]
 @Commune/C4b
