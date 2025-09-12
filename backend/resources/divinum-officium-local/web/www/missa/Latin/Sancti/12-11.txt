@@ -5,16 +5,16 @@
 @Commune/C4b:Introitus
 
 [Oratio]
-@Commune/C4b:Oratio
+@Commune/C2b::s/N\./Damasum/
 
 [Lectio]
 @Commune/C4b:Lectio
 
 [Graduale]
-@Commune/C4b:Graduale
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C4b:Evangelium
+@Commune/Coronatio
 
 [Offertorium]
 @Commune/C4b:Offertorium
@@ -23,7 +23,7 @@
 @Commune/C4b:Secreta
 
 [Communio]
-@Commune/C4b:Communio
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b:Postcommunio

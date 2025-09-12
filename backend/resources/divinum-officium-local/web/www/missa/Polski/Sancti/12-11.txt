@@ -2,11 +2,4 @@
 @Sancti/12-11
 
 [Oratio]
-@Sancti/12-11
-
-[Secreta]
-@Commune/C4b
-
-[Postcommunio]
-@Commune/C4b
-
+@Commune/C2b::s/N\./Damazego/
