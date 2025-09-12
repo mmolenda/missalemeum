@@ -14,7 +14,7 @@
 @Tempora/Quad6-3:Graduale
 
 [Evangelium]
-@Tempora/Quad6-3:Evangelium:s/@Tempora\/Quad6-0r:Munda Cor Passionis//
+@Tempora/Quad6-3::s/^@.*//:s/.*Luc 22:1.*//:s/\(rubrica 1955 aut rubrica 1960 dicitur\) //:s/\(.*//:s/In illo témpore: Appropinquábat.*//:s/Munda.*//:s/D\. Jube.*//:s/S\. Dóminus.*//
 
 [Offertorium]
 @Tempora/Quad6-3:Offertorium

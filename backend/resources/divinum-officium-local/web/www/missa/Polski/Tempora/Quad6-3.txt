@@ -1,2 +1,5 @@
 [Comment]
 @Tempora/Quad6-3
+
+[Evangelium]
+@Tempora/Quad6-3:Evangelium:s/^@.*//:s/.*Łk 22:1.*//:s/\(.*//):s/C\. I przybliżał.*//:s/Oczyść serce.*//:s/D\. Racz.*//:s/S\. Pan.*//
