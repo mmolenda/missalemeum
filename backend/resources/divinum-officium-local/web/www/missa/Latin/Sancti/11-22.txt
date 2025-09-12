@@ -5,13 +5,13 @@
 @Commune/C6
 
 [Oratio]
-@Sancti/11-22:Oratio
+@Sancti/11-22
 
 [Lectio]
-@Commune/C6a
+@Commune/C6-1
 
 [Graduale]
-@Sancti/11-22:Graduale
+@Sancti/11-22
 
 [Evangelium]
 @Commune/C6
@@ -20,11 +20,11 @@
 @Commune/C6
 
 [Secreta]
-@Sancti/11-22:Secreta
+@Sancti/11-22
 
 [Communio]
 @Commune/C6
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6a
 
