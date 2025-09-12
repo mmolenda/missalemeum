@@ -1,4 +1,4 @@
-[Rule]
+    [Rule]
 @Sancti/09-19
 
 [Introitus]
@@ -17,7 +17,7 @@
 @Sancti/01-19
 
 [Offertorium]
-@Commune/C3a-1
+@Commune/C3a-1::s/\(sed.*//:s/pace.*// 
 
 [Secreta]
 @Commune/C3a-1::s/N\. et N\./Januário et Sóciis ejus/

@@ -1,6 +1,3 @@
-[Comment]
-@Sancti/09-23cc
-
 [Secreta]
 @Commune/C6:Secreta:s/N\./Tekli/
 
