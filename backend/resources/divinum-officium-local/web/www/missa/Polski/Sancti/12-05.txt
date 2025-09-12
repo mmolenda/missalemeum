@@ -2,10 +2,10 @@
 @Sancti/12-05
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Saby/
+@Commune/C5b::s/N\./Saby/
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Saba/
+@Commune/C5b::s/N\./Saba/
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Saby/
+@Commune/C5b::s/N\./Saby/
