@@ -16,7 +16,26 @@ years = [
 ]
 
 days = [
-    "10-26",
+    "11-01",
+    # "11-04",
+    # "11-08",
+    # "11-09",
+    # "11-10",
+    # "11-11",
+    # "11-12",
+    # "11-13",
+    # "11-16",
+    # "11-17",
+    # "11-18",
+    # "11-19",
+    # "11-20",
+    # "11-21",
+    # "11-22",
+    # "11-23",
+    # "11-24",
+    # "11-25",
+    # "11-26",
+    # "11-29",
 ]
 
 
@@ -24,7 +43,7 @@ def _get_proper_fixtures(fixture):
     dates = [f"{y}-{d}" for y in years for d in days]
     with open(os.path.join(HERE, "fixtures/{}".format(fixture))) as fh:
         x = json.load(fh)
-        # return [i for i in x.items() if i[0][5:] >= "10-01" and i[0][5:] <= "10-31"]
+        # return [i for i in x.items() if i[0][5:] >= "11-01" and i[0][5:] <= "11-30"]
         return [i for i in x.items() if i[0] in dates]
 
 
