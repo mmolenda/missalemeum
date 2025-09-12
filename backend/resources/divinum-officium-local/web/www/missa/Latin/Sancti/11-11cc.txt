@@ -2,11 +2,11 @@
 @Sancti/11-11cc
 
 [Oratio]
-@Commune/C2::s/N\./Mennæ/
+@Commune/C2a::s/N\./Mennæ/
 
 [Secreta]
-@Commune/C2:Secreta
+@Commune/C2a:Secreta
 
 [Postcommunio]
-@Commune/C2:Postcommunio
+@Commune/C2a:Postcommunio
 
