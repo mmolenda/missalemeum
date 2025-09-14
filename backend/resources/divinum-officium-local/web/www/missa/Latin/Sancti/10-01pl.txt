@@ -23,5 +23,5 @@
 @Commune/C5-1
 
 [Postcommunio]
-@Commune/C5-1
+@Commune/C5-1::s/N\./Ioánne/
 
