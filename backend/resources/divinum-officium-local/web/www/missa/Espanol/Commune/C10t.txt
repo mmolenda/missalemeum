@@ -1,0 +1,2 @@
+[Oratio]
+@Commune/C11:Oratio ad missam

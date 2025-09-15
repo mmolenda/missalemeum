@@ -1,0 +1,2 @@
+[Oratio]
+@Commune/C4-1:Oratio ad missam:s/N\./Basilíi/

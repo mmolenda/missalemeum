@@ -1,0 +1,99 @@
+[Name]
+Missa de Angelis
+
+[Comment]
+# Holy Angels
+! Votive
+! Tuesday
+
+[Introitus]
+!Ps 102:20
+Bless the Lord, all ye His Angels: you that are mighty in strength, and~
+execute His word, hearkening to the voice of His orders. (P. T. Alleluia,~
+alleluia.)
+!Ps 102:1
+Bless the Lord, O my soul: and let all that is within me bless His holy Name.
+$Gloria
+Bless the Lord, all ye His Angels: you that are mighty in strength, and~
+execute His word, hearkening to the voice of His orders. (P. T. Alleluia,~
+alleluia.)
+
+[Oratio]
+O God, who hast constituted the services of Angels and of men in a wonderful~
+order, mercifully grant, that they who ever stand before Thy face to do Thee~
+service in heaven, may also defend our life upon earth.
+$Per Dominum
+
+[Lectio]
+Lesson from the book of Revelation
+! Apoc 5:11-14
+In those days: I heard the voice of many Angels round about the throne, and~
+the living creatures and the ancients; and the number of them was thousands~
+of thousands, saying with a loud voice: The Lamb that was slain is worthy~
+to receive power, and divinity, and wisdom, and strength, and honor, and~
+glory, and benediction. And every creature which is in heaven and on the~
+earth, and under the earth, and such as are in the sea, and all that are~
+in them, I heard all saying: To Him that sitteth on the throne, and to the~
+Lamb, benediction, and honor, and glory, and power, for ever and ever. And~
+the four living creatures said: Amen. And the four and twenty ancients fell~
+down on their faces, and adored Him that liveth for ever and ever.
+
+[Graduale]
+! Ps 148:1-2
+Praise ye the Lord from the heavens.
+V. Praise Him, in the high places. Praise ye Him, all His angels: praise ye Him, all His hosts. Alleluia, alleluia.
+! Ps 137:1-2
+V. I will sing praise to Thee in the sight of the Angels: I~
+will worship towards Thy holy temple, and I will give glory to Thy name. Alleluia.
+
+[GradualeP]
+! In Eastertide
+! Ps 137:1-2
+Alleluia, alleluia..
+V. I will sing praise to Thee in the sight of the Angels: I will worship towards Thy holy temple,~
+and I will give glory to Thy name. Alleluia.
+! Matt 28:2
+V. An Angel of the Lord descended from heaven: and coming rolled back the stone, and sat upon it. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+! Ps 102:20-22
+Bless the Lord all ye His Angels: ye that are mighty in strength, and execute His word.
+V. Bless the Lord, all ye His hosts: ye ministers of His that do His will.
+V. Bless the Lord, all His works: in every place of His dominion, O my soul, bless thou the Lord.
+
+[Evangelium]
+Continuation of the Holy Gospel according to St. John.
+!John 1:47-51
+At that time: Jesus saw Nathanael coming to Him: and He saith of him: Behold~
+an Israelite indeed, in whom there is no guile. Nathanael saith to Him: Whence~
+knowest Thou me? Jesus answered, and said to him: Before that Philip called~
+thee, when thou wast under the fig-tree, I saw thee. Nathanael answered Him,~
+and said: Rabbi, Thou art the Son of God, Thou art the King of Israel. Jesus~
+answered, and said to him: Because I said unto thee, I saw thee under the~
+fig-tree, thou believest: greater things than these shalt thou see. And He~
+said to him: Amen, amen I say to you, you shall see the heavens opened, and~
+the Angels of God ascending and descending upon the Son of Man.
+
+[Offertorium]
+! Apoc 8:3-4
+An angel stood near the altar of the temple, having a golden censer in his~
+hand: and there was given to him much incense, and the smoke of the perfumes~
+ascended before God. (P. T. Alleluia.)
+
+[Secreta]
+We offer unto Thee, O Lord, the Sacrifice of praise and humbly beseech Thee,~
+that through the prayers of the Angels who plead for us, Thou wouldst~
+graciously accept it and make it of avail to us for salvation.
+$Per Dominum
+
+[Communio]
+Angels, Archangels, Thrones and Dominions, Principalities, and Powers,~
+the Virtues of the heavens, Cherubim and Seraphim, bless ye the Lord for~
+ever. (P. T. Alleluia.)
+
+[Postcommunio]
+We who are filled with the heavenly blessing, humbly beseech Thee, O Lord,~
+that the Mysteries which we celebrate with this imperfect worship of ours~
+may be profitable to us by the help of Thy holy Angels and Archangels.
+$Per Dominum

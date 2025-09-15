@@ -33,6 +33,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import {LocalizationProvider, MobileDatePicker, PickersDay} from "@mui/x-date-pickers";
 import {AdapterDayjs} from "@mui/x-date-pickers/AdapterDayjs";
 import "dayjs/locale/pl";
+import 'moment/locale/es';
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
 import dayjs, {Dayjs} from "dayjs";
@@ -53,6 +54,10 @@ export default function ListProper({
   const [selectedItem, setSelectedItem] = useState("")
   const router = useRouter()
   const listItemRefs: Record<string, RefObject<any>> = {}
+
+  useEffect(() => {
+    moment.locale(lang);
+  }, [lang]);
 
   useEffect(() => {
     setSelectedItem(window.location.hash.substring(1) || todayFmt)

@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C6::s/N\./Apollonia/
+
+[Secreta]
+@Commune/C6::s/N\./Apollonia/
+
+[Postcommunio]
+@Commune/C6::s/N\./Apollonia/

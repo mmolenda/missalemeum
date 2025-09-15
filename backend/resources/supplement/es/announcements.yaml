@@ -1,0 +1,31 @@
+info:
+  tags: []
+  title: Anuncios
+
+sections:
+- body:
+  -
+    - |
+        ### 6 de marzo de 2025
+        
+        Publicación [5.11.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.11.0)
+
+        - Añadido nuevo selector de fechas en el calendario con días coloreados  
+        - Migración del frontend a Next.js  
+
+        ### 12 de diciembre de 2024
+        
+        Publicación [5.10.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.10.0)
+
+        - Correcciones en las conmemoraciones  
+        - Visualización de las conmemoraciones en el calendario y en la página de propios  
+        - Mostrar los nombres reales de los días de Feria (en lugar de “domingo”)  
+
+        ### 5 de enero de 2024
+        
+        Publicación [5.6.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.6.0)
+
+        - Añadidos propios alternativos de santos en los días de feria de Cuaresma  
+
+  id: ''
+  label: ''

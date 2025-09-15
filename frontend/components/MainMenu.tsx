@@ -94,6 +94,7 @@ const LeftHandMenu = ({
           <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
             <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} href="/en" value="en" selected={lang === "en"}>English</ToggleButton>
             <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} href="/pl" value="pl" selected={lang === "pl"}>Polski</ToggleButton>
+            <ToggleButton onClick={() => myLocalStorage.setItem("lang", "es")} href="/es" value="es" selected={lang === "es"}>Español</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">

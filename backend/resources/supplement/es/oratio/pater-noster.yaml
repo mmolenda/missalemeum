@@ -1,0 +1,32 @@
+info:
+  tags:
+    - Padre Nuestro
+  title: Pater Noster
+
+sections:
+- body:
+  -
+    - |
+        PADRE NUESTRO, que estás en el cielo,  
+        santificado sea tu Nombre.  
+        Venga a nosotros tu Reino.  
+        Hágase tu voluntad,  
+        en la tierra como en el cielo.  
+
+        Danos hoy nuestro pan de cada día.  
+        Perdona nuestras ofensas,  
+        como también nosotros perdonamos a los que nos ofenden.  
+        No nos dejes caer en la tentación,  
+        y líbranos del mal. Amén.
+    - |
+        Pater noster, qui es in cælis,
+        sanctificetur nomen Tuum;
+        adveniat regnum Tuum;
+        fiat voluntas Tua, sicut in cælo et in terra.
+      
+        Panem nostrum quotidianum da nobis hodie
+        et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris.
+        Et ne nos inducas in tentationem,
+        sed libera nos a malo. Amen.
+  id: ''
+  label: ''

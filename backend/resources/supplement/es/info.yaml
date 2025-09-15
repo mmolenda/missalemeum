@@ -1,0 +1,41 @@
+info:
+  tags: []
+  title: Acerca de
+
+sections:
+- body:
+  -
+    - |
+        El sitio web **Missale Meum** ha sido creado para la mayor gloria de Dios y para el beneficio de las personas. 
+        El sitio incorpora un calendario litúrgico completo con los propios y otros textos utilizados en la Misa Tridentina, 
+        y los presenta de manera comprensible.
+
+        Los textos en inglés y latín provienen del venerable sitio web [Divinum Officium](https://www.divinumofficium.com/).  
+        Algunas partes del Ordo han sido tomadas de [Fish Eaters](https://www.fisheaters.com/).  
+        El código del proyecto está disponible en el [repositorio de GitHub](https://github.com/mmolenda/missalemeum).  
+        Este sitio web es un proyecto privado y no representa a ninguna organización o grupo oficial.
+
+        ### Contacto
+
+        Todas las opiniones, sugerencias, ideas, informes de errores, etc., pueden enviarse a la dirección de correo electrónico:  
+        marcin@missalemeum.com  
+
+        También te invitamos a visitar nuestro perfil en Facebook:  
+        [facebook.com/missalemeum](https://www.facebook.com/missalemeum)  
+
+        ### Apoyo
+
+        *«La mies es mucha, pero los obreros pocos.»* – dice nuestro Señor Jesucristo.
+
+        Si aprecias el proyecto Missale Meum, puedes ayudar a mejorarlo:
+
+        - ofreciendo oraciones por el proyecto y sus autores,  
+        - proporcionando tus comentarios – toda opinión, sugerencia, idea o informe de error es invaluable y motiva el trabajo continuo,  
+        - difundiendo el proyecto,  
+        - aportando contenido, como textos faltantes, comentarios bíblicos, etc.,  
+      
+        ### Política de Privacidad
+      
+        [Política de Privacidad](/es/supplement/privacy-policy?ref=supplement/index)
+  id: ''
+  label: ''

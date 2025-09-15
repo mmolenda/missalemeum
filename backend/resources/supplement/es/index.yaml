@@ -1,0 +1,56 @@
+info:
+  tags: []
+  title: Suplemento
+
+sections:
+- body:
+  -
+    - |
+        ### Aplicación para iPhone y Android
+        
+        Por el momento, no existe una aplicación dedicada de Missale Meum disponible en Google Play o en la App Store.  
+        Sin embargo, el sitio web está diseñado como una [PWA (Aplicación Web Progresiva)](https://topflightapps.com/ideas/native-vs-progressive-web-app/),  
+        que puede instalarse para funcionar como una aplicación normal en iPhone o Android.
+        
+        - En Android, abre el sitio web en el navegador Chrome y selecciona "Añadir a la pantalla de inicio" en el menú.  
+        - En iPhone, abre el sitio web en el navegador Safari, toca el botón de compartir y luego selecciona "Añadir a la pantalla de inicio."  
+      
+        ### iCalendar
+        
+        El calendario litúrgico de 1962 está disponible en formato iCalendar.  
+        
+        https://www.missalemeum.com/<wbr>es/api/v3/icalendar  
+        
+        Puede cargarse en cualquier aplicación de calendario, como Google Calendar ([documentación](https://support.google.com/calendar/answer/37100?hl=es)) o Microsoft Outlook.  
+        El enlace contiene todos los domingos y las principales fiestas. En la descripción de cada evento de calendario hay un enlace al propio correspondiente en el sitio web.  
+        
+        Además, puedes especificar qué rango de fiestas se incluye en el feed ical añadiendo el parámetro opcional a la URL en el último campo.  
+        
+        Feed de fiestas de primera clase:  
+        
+        https://www.missalemeum.com/<wbr>es/api/v3/icalendar/1  
+      
+        Feed de fiestas de primera y segunda clase:  
+        
+        https://www.missalemeum.com/<wbr>es/api/v3/icalendar/2  
+      
+        Feed de fiestas de primera, segunda y tercera clase:  
+        
+        https://www.missalemeum.com/<wbr>es/api/v3/icalendar/3  
+      
+        Feed con todas las fiestas:  
+        
+        https://www.missalemeum.com/<wbr>es/api/v3/icalendar/4  
+      
+        <iframe height=300 style="width: 100%; border:none;" id="google-cal" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FWarsaw&amp;src=OWZzajQxcTE4MDQ1NWFpcmw4NnZuYzlib2p2MXAybzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23515151&amp;hl=es&amp;showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;mode=AGENDA"></iframe>
+      
+        ### Widget
+        
+        Widget de Missale Meum que puede integrarse en tu sitio web como un iframe.  
+        Puedes configurar el tema usando el parámetro `theme` – `light` para modo claro y `dark` para modo oscuro.  
+        
+        &lt;iframe src="https://www.missalemeum.com/<wbr>es/widgets/propers?theme=light" height=300 style="width: 100%;"&gt; &lt;/iframe&gt;  
+        
+        <iframe style="height: 300px;" src="https://www.missalemeum.com/es/widgets/propers?theme=light" width="100%"></iframe>
+  id: ''
+  label: ''

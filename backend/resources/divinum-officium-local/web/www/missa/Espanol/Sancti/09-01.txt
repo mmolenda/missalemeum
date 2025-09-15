@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C5b:Oratio:s/N\./Aegidius/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Aegidius/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Aegidius/

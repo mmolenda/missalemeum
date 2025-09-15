@@ -1,0 +1,14 @@
+[Lectio]
+@Commune/C4a
+
+[GradualeP]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C5a::s/N\./Peter/
+
+[Postcommunio]
+@Commune/C5a::s/N\./Peter/

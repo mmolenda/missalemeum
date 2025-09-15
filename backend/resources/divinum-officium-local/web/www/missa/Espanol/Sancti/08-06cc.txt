@@ -1,0 +1,6 @@
+
+[Oratio]
+@Commune/C3a::s/N\. and N\./Sixtus, Felicissimus and Agapitus/
+
+[Postcommunio]
+@Commune/C3a::s/N\. et N\./Sixtus, Felicissimus and Agapitus/

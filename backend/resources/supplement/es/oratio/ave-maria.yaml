@@ -1,0 +1,26 @@
+info:
+  tags:
+    - Ave María
+  title: Ave Maria
+
+sections:
+- body:
+  -
+    - |
+        DIOS TE SALVE, María, llena eres de gracia,  
+        el Señor es contigo.  
+        Bendita tú eres entre todas las mujeres,  
+        y bendito es el fruto de tu vientre, Jesús.  
+        Santa María, Madre de Dios,  
+        ruega por nosotros, pecadores,  
+        ahora y en la hora de nuestra muerte. Amén.
+    - |
+        Ave Maria, gratia plena,  
+        Dominus Tecum,  
+        Benedicta Tu in mulieribus   
+        Et benedictus fructus ventris Tui, Jesus.  
+        Sancta Maria, Mater Dei  
+        ora pro nobis peccatoribus,
+        nunc et in hora mortis nostrae. Amen.
+  id: ''
+  label: ''
