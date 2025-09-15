@@ -88,26 +88,31 @@ and navigate to http://0.0.0.0:8000/.
 Calculate the calendar
 ```bash
 # current year
-$ python missalemeum/cli.py calendar
+$ python backend/api/cli.py calendar
 
 # selected year
-$ python missalemeum/cli.py calendar 2020
+$ python backend/api/cli.py calendar 2020
 ```
 
-Show Proprium Missae for given date
+Show Proprium Missae for a given date
 ```bash
-$ python missalemeum/cli.py date 2018-05-03
+$ python backend/api/cli.py date 2018-05-03
 ```
 
-Show Proprium Missae for given observance
+Show Proprium Missae for a given observance
 
 *Observance ID can be obtained from calendar's output*
 ```bash
 # Second Sunday of Advent
-$ python missalemeum/cli.py proper tempora:Adv2-0:1:v
+$ python backend/api/cli.py proper tempora:Adv2-0:1:v
 
 # The Seven Dolors of the Blessed Virgin Mary
-$ python missalemeum/cli.py proper sancti:09-15:2:w
+$ python backend/api/cli.py proper sancti:09-15:2:w
+```
+
+Show Proprium Missae for a given date or ID in columns format
+```bash
+$ python backend/api/cli.py proper-cols 2018-05-03
 ```
 
 ## Localization
