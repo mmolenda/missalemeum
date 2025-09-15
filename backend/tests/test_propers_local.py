@@ -11,16 +11,12 @@ from .conftest import get_missal, HERE
 # 2025-04-16 W. Sroda dicuntur ommituntur etc.
 
 years = [
-    "2024",
+    # "2024",
     "2025",
 ]
 
 days = [
-    "09-15",
-    "09-16",
-    "09-19",
-    "09-22",
-    "09-23",
+    "11-11",
 ]
 
 

@@ -923,17 +923,17 @@ PATERNOSTER = \
 
 
 TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
-    (re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu…'),
-    (re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
-    (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Przez Pana…'),
-    (re.compile(r'^\$Per D[oó]minum\.*'), 'Przez Pana…'),
-    (re.compile(r'^\$Per eu[mn]dem\.*'), 'Przez tegoż Pana…'),
-    (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Który z Tobą…'),
-    (re.compile(r'^\$Qui tecum\.*'), 'Który z Tobą…'),
-    (re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz…'),
-    (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
-    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Pan z wami.    \n\r℟. I z duchem twoim.'),
-    (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
+    (lambda x: 'Gloria' in x, re.compile(r'^[&$]Gloria\.*'), 'Chwała Ojcu…'),
+    (lambda x: 'Oremus' in x, re.compile(r'^\$Oremus\.*'), 'Módlmy się.'),
+    (lambda x: 'Per' in x and 'eiusdem' in x, re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Przez Pana…'),
+    (lambda x: 'Per' in x and 'minum' in x, re.compile(r'^\$Per D[oó]minum\.*'), 'Przez Pana…'),
+    (lambda x: 'Per' in x and 'dem' in x, re.compile(r'^\$Per eu[mn]dem\.*'), 'Przez tegoż Pana…'),
+    (lambda x: 'Qui tecum' in x, re.compile(r'^\$Qui tecum eiusdem\.*'), 'Który z Tobą…'),
+    (lambda x: 'Qui tecum' in x, re.compile(r'^\$Qui tecum\.*'), 'Który z Tobą…'),
+    (lambda x: 'Qui vivis' in x, re.compile(r'^\$Qui vivis\.*'), 'Który żyjesz…'),
+    (lambda x: 'Deo' in x and 'ratias' in x, re.compile(r'^\$Deo [Gg]ratias\.*'), 'Bogu dzięki.'),
+    (lambda x: 'Dominus' in x and 'obiscum' in x, re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. Pan z wami.    \n\r℟. I z duchem twoim.'),
+    (lambda x: 'Pater noster' in x, re.compile(r'^\$Pater noster.*'), PATERNOSTER),
 ]
 
 COMMEMORATIONS = {

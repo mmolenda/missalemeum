@@ -1,13 +1,15 @@
 import re
 from trans import trans
 
+from constants.common import PATTERN_MARKDOWN_BOLD
+
 
 def newline2br(text):
     return text.replace('\n', '<br>')
 
 
 def asterisks2em(text):
-    return re.sub(r'\*([^\*]+)\*', '<em>\\1</em>', text)
+    return re.sub(PATTERN_MARKDOWN_BOLD, '<em>\\1</em>', text)
 
 
 def slugify(text):

@@ -7,7 +7,7 @@ from copy import copy
 from datetime import date, timedelta
 from typing import ItemsView, List, Tuple, Union
 
-from api.constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T,
+from api.constants.common import (PATTERN_WEEKDAY_IN_ID, TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
                               TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER,
@@ -73,7 +73,7 @@ class Observance:
         self.id: str = ':'.join((self.flexibility, self.name, str(self.rank), color))
         self.title: str = translation.TITLES.get(observance_id)
         if flexibility == TYPE_TEMPORA and observance_id not in (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T):
-            self.weekday = WEEKDAY_MAPPING[re.sub(r'^.*-(\d+).*$', '\\1', name)]
+            self.weekday = WEEKDAY_MAPPING[re.sub(PATTERN_WEEKDAY_IN_ID, '\\1', name)]
         else:
             self.weekday = self.date.weekday()
         self.priority = self._calc_priority()

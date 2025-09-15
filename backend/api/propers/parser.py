@@ -8,7 +8,7 @@ from api.exceptions import InvalidInput, ProperNotFound
 
 from api.constants import TRANSLATION
 from api.constants import common as cc
-from api.constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP,
+from api.constants.common import (DIVOFF_DIR, LANGUAGE_LATIN, DIVOFF_LANG_MAP, PATTERN_COMMENT_SPLIT, PATTERN_REF_SUBSTITUTION_DELIM, PATTERN_REF_SUBSTITUTION_SPLIT,
                               REFERENCE_REGEX,
                               SECTION_REGEX, EXCLUDE_SECTIONS_IDX, ASTERISK, PATTERN_COMMEMORATION,
                               PREFATIO_COMMUNIS,
@@ -100,9 +100,6 @@ class ProperParser:
             except ProperNotFound:
                 parsed_source = self._read_source(partial_path, LANGUAGE_LATIN, lookup_section)
 
-        # parsed_source = self._resolve_conditionals(parsed_source)
-        parsed_source.substitutions = parsed_source.parse_substitutions()
-        parsed_source = self._apply_global_substitutions(parsed_source)
         if is_local:
             parsed_source = self._resolve_references(parsed_source, partial_path, lang, coming_from)
         parsed_source = self._strip_newlines(parsed_source)
@@ -154,14 +151,6 @@ class ProperParser:
                         concat_line = True if ln.endswith('~') else False
         return parsed_source
 
-    def _apply_global_substitutions(self, parsed_source: ParsedSource):
-        for substitution in parsed_source.substitutions or []:
-            section = parsed_source.get_section(substitution.section)
-            body = section.get_body()
-            for i, line in enumerate(body):
-                body[i] = re.sub(r"N\.", substitution.string, line)
-        return parsed_source
-
     def _resolve_references(self, parsed_source: ParsedSource, partial_path: str, lang, coming_from: str = None) -> ParsedSource:
         for section_name, section in parsed_source.items():
             section_body = section.get_body()
@@ -179,11 +168,11 @@ class ProperParser:
                         if nested_section is not None:
                             nested_section_body = nested_section.body
                             if substitutions:
-                                for substitution in re.split(r"\bs/", substitutions):
+                                for substitution in re.split(PATTERN_REF_SUBSTITUTION_DELIM, substitutions):
                                     if not substitution:
                                         continue
                                     try:
-                                        sub_from, sub_to, _ = re.split(r'(?<!\\)/', substitution)
+                                        sub_from, sub_to, _ = re.split(PATTERN_REF_SUBSTITUTION_SPLIT, substitution)
                                         for i, line in enumerate(nested_section_body):
                                             nested_section_body[i] = re.sub(sub_from, sub_to, line)
                                     except Exception as e:
@@ -214,7 +203,7 @@ class ProperParser:
             return parsed_comment
         for ln in comment.get_body():
             if ln.startswith('#'):
-                parsed_comment['title'] = re.split("[–—-]", ln.strip("#"), maxsplit=1)[-1].strip()
+                parsed_comment['title'] = re.split(PATTERN_COMMENT_SPLIT, ln.strip("#"), maxsplit=1)[-1].strip()
             elif ln.strip().startswith('*') and ln.endswith('*'):
                 info_item = ln.replace('*', '')
                 try:
@@ -229,8 +218,9 @@ class ProperParser:
         return parsed_comment
 
     def _normalize(self, ln, lang):
-        for from_, to_ in self.translations[lang].TRANSFORMATIONS:
-            ln = re.sub(from_, to_, ln)
+        for condition, from_, to_ in self.translations[lang].TRANSFORMATIONS:
+            if condition(ln):
+                ln = re.sub(from_, to_, ln)
         return ln.strip()
 
     @staticmethod

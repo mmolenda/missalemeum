@@ -1,5 +1,6 @@
 import json
 import pytest
+import re
 from datetime import date
 
 from api.constants.common import *
@@ -219,7 +220,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
     proper_vernacular, proper_latin = missal.get_day(date(*date_)).get_proper()[0]
     gradual_vernacular = proper_vernacular.get_section(GRADUALE).body
     gradual_latin = proper_latin.get_section(GRADUALE).body
-    assert any([re.search(re.compile(PATTERN_TRACT), i) for i in gradual_vernacular + gradual_latin]) is not stripped
+    assert any([re.search(PATTERN_TRACT, i) for i in gradual_vernacular + gradual_latin]) is not stripped
 
 
 @pytest.mark.parametrize("date_,collect_contains,secreta_contains,postcommunio_contains,"

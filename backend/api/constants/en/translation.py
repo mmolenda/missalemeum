@@ -848,17 +848,17 @@ PATERNOSTER = \
     "But deliver us from evil. Amen."
 
 TRANSFORMATIONS = TRANSFORMATIONS_COMMON + [
-    (re.compile(r'^[&$]Gloria\.*'), 'Glory Be to the Father…'),
-    (re.compile(r'^\$Oremus\.*'), 'Let us pray.'),
-    (re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Through our Lord…'),
-    (re.compile(r'^\$Per D[oó]minum\.*'), 'Through our Lord…'),
-    (re.compile(r'^\$Per eu[mn]dem\.*'), 'Through the same Christ our Lord…'),
-    (re.compile(r'^\$Qui tecum eiusdem\.*'), 'Who livest and reignest with God the Father…'),
-    (re.compile(r'^\$Qui tecum\.*'), 'Who livest and reignest with God the Father…'),
-    (re.compile(r'^\$Qui vivis\.*'), 'Who livest…'),
-    (re.compile(r'^\$Deo [Gg]ratias\.*'), 'Thanks be to God.'),
-    (re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. The Lord be with you. \n\r℟. And with thy spirit.'),
-    (re.compile(r'^\$Pater noster.*'), PATERNOSTER),
+    (lambda x: 'Gloria' in x, re.compile(r'^[&$]Gloria\.*'), 'Glory Be to the Father…'),
+    (lambda x: 'Oremus' in x, re.compile(r'^\$Oremus\.*'), 'Let us pray.'),
+    (lambda x: 'eiusde,' in x, re.compile(r'^\$Per D[oó]minum eiusdem\.*'), 'Through our Lord…'),
+    (lambda x: 'Per' in x and 'minum' in x, re.compile(r'^\$Per D[oó]minum\.*'), 'Through our Lord…'),
+    (lambda x: 'Per' in x and 'de' in x, re.compile(r'^\$Per eu[mn]dem\.*'), 'Through the same Christ our Lord…'),
+    (lambda x: 'Qui tecum' in x, re.compile(r'^\$Qui tecum eiusdem\.*'), 'Who livest and reignest with God the Father…'),
+    (lambda x: 'Qui tecum' in x, re.compile(r'^\$Qui tecum\.*'), 'Who livest and reignest with God the Father…'),
+    (lambda x: 'Qui vivis' in x, re.compile(r'^\$Qui vivis\.*'), 'Who livest…'),
+    (lambda x: 'Deo' in x and 'ratias' in x, re.compile(r'^\$Deo [Gg]ratias\.*'), 'Thanks be to God.'),
+    (lambda x: 'Dominus' in x and 'obiscum' in x, re.compile(r'^[&$]Dominus *[Vv]obiscum\.*'), '℣. The Lord be with you. \n\r℟. And with thy spirit.'),
+    (lambda x: 'Pater noster' in x, re.compile(r'^\$Pater noster.*'), PATERNOSTER),
 ]
 
 COMMEMORATIONS = {

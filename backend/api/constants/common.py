@@ -67,6 +67,11 @@ PATTERN_COMMEMORATION = 'wspomnienie'
 PATTERN_ALLELUIA = re.compile(r'allel[uú][ij]a.*', re.IGNORECASE)
 PATTERN_TRACT = re.compile(r'.*tra[ck]t.*', re.IGNORECASE)
 PATTERN_PREFATIO_SUBSTITUTION = re.compile(r'\*(.*)\*')
+PATTERN_MARKDOWN_BOLD = re.compile(r'\*([^\*]+)\*')
+PATTERN_WEEKDAY_IN_ID = re.compile(r'^.*-(\d+).*$')
+PATTERN_REF_SUBSTITUTION_DELIM = re.compile(r"\bs/")
+PATTERN_REF_SUBSTITUTION_SPLIT = re.compile(r'(?<!\\)/')
+PATTERN_COMMENT_SPLIT = re.compile(r"[–—-]")
 RANK = 'Rank'
 RULE = 'Rule'
 TOP_LEVEL_REF = 'TopLevelRef'
@@ -1177,25 +1182,27 @@ REFERENCE_REGEX = re.compile(r'^@([\w/\-]*):?([^:]*)[: ]*(.*)')
 SECTION_REGEX = re.compile(r'^### *([\w\d -]*)(.*)')
 
 TRANSFORMATIONS_COMMON = [
-    (re.compile(r'\+\+'), '☩'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'^V\.'), '℣.'),
-    (re.compile(r'R\.'), '℟.'),
-    (re.compile(r'\+'), '☩'),
-    (re.compile(r'^#'), '##'),
-    (re.compile(r'^!x!'), '!'),
-    (re.compile(r'^!! *(.*)'), '### \\1'),
-    (re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
-    (re.compile(r'^! *(.*)'), '*\\1*'),
-    (re.compile(r'^v\. *'), ''),
-    (re.compile(r'^_'), ''),
-    (re.compile(r'\(\('), '('),
-    (re.compile(r'\)\)'), ')'),
-    (re.compile(r'\['), '('),
-    (re.compile(r'\]'), ')'),
-    (re.compile(r'\((\^\d+)\)'), '[\\1]'),  # preserving footnotes, like [^1], [^1]:
-    (re.compile(r'^.*`.*$'), ''),
-    (re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
-    (re.compile(r'\(nisi rubrica cisterciensis\)'), ''),
-    (re.compile(r'^(@.*) Gregem'), '\\1')
+    # `entry condition`, `regex`, `target string`
+    # As these transformations are called on each line in the source file,
+    # there is extra cheap condition to avoid expensive regex matching if not necessary
+    (lambda x: '++' in x, re.compile(r'\+\+'), '☩'),
+    (lambda x: '+' in x, re.compile(r'\+'), '☩'),
+    (lambda x: x.startswith('V.'), re.compile(r'^V\.'), '℣.'),
+    (lambda x: x.startswith('R.'), re.compile(r'^R\.'), '℟.'),
+    (lambda x: x.startswith('#'), re.compile(r'^#'), '##'),
+    (lambda x: x.startswith('!x!'), re.compile(r'^!x!'), '!'),
+    (lambda x: x.startswith('!!'), re.compile(r'^!! *(.*)'), '### \\1'),
+    (lambda x: x.startswith('['), re.compile(r'^\[([^\]^]*)\]'), '### \\1'),
+    (lambda x: x.startswith('!'), re.compile(r'^! *(.*)'), '*\\1*'),
+    (lambda x: x.startswith('v.'), re.compile(r'^v\. *'), ''),
+    (lambda x: x.startswith('_'), re.compile(r'^_'), ''),
+    (lambda x: '((' in x, re.compile(r'\(\('), '('),
+    (lambda x: '))' in x, re.compile(r'\)\)'), ')'),
+    (lambda x: '[' in x, re.compile(r'\['), '('),
+    (lambda x: ']' in x,re.compile(r'\]'), ')'),
+    (lambda x: '^' in x and '(' in x and ')' in x, re.compile(r'\((\^\d+)\)'), r'[\1]'),   # preserving footnotes, like [^1], [^1]:
+    (lambda x: '`' in x, re.compile(r'^.*`.*$'), ''),
+    (lambda x: 'Modlitwa nad ludem' in x, re.compile(r'^\*Modlitwa nad ludem\*.*'), ''),
+    (lambda x: 'nisi rubrica cisterciensis' in x, re.compile(r'\(nisi rubrica cisterciensis\)'), ''),
+    (lambda x: 'Gregem' in x, re.compile(r'^(@.*) Gregem'), '\\1')
 ]

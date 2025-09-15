@@ -151,27 +151,6 @@ class ParsedSource:
 
         return rules
 
-    def parse_substitutions(self) -> list[Substitution]:
-        section = self.get_section("Name")
-        if section is not None:
-            collect = {
-                ORATIO: None,
-                SECRETA: None,
-                POSTCOMMUNIO: None
-            }
-            for line in section.get_body():
-                line=line.strip()
-                if not line:
-                    continue
-                try:
-                    section, string = line.split("=")
-                    collect[section] = string
-                except ValueError:
-                    for k, v in collect.items():
-                        if v is None:
-                            collect[k] = line
-            return [Substitution(section=k, string=v) for k, v in collect.items()]
-
 
 class Proper(ParsedSource):
     """
