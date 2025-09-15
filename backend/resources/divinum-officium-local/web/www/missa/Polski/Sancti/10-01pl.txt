@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/10-01pl
+
+[Postcommunio]
+@Commune/C5-1::s/N\./Jana/

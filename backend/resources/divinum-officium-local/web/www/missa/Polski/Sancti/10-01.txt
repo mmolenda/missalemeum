@@ -3,3 +3,6 @@
 
 [Oratio]
 @Commune/C4::s/N\./Remigiusza/
+
+[Postcommunio]
+@Commune/C4::s/N\./Remigiusza/
