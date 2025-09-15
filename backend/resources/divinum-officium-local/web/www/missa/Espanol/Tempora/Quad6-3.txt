@@ -1,0 +1,2 @@
+[Evangelium]
+@Tempora/Quad6-3::s/^@.*//:s/.*Luc 22:1.*//:s/\(rubrica 1955 aut rubrica 1960 dicitur\)//:s/\(.*//):s/Now the feast.*//:s/Cleanse my.*//:s/D\. Sir.*//:s/S\. The.*//

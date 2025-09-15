@@ -1,0 +1,5 @@
+[Oratio]
+@Commune/C3a:Oratio:s/N\. and N\./Eustace and Companions/
+
+[Postcommunio]
+@Commune/C3a:Postcommunio:s/N\. et N\./Eustace and Companions/

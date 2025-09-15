@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C5a:Secreta:s/N\./John/
+
+[Postcommunio]
+@Commune/C5a:Postcommunio:s/N\./John/

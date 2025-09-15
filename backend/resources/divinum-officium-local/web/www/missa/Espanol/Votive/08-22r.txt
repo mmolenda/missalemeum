@@ -1,0 +1,44 @@
+[Name]
+Immaculati Cordis Beatæ Mariæ Virginis
+
+[Rule]
+Prefatio=Maria=Festivitate;
+
+[Comment]
+! Votive
+! First Saturday
+
+[Introitus]
+@Sancti/08-22:Introitus
+
+[Oratio]
+@Sancti/08-22:Oratio
+
+[Lectio]
+@Sancti/07-16:Lectio
+
+[Graduale]
+@Sancti/08-22:Graduale
+
+[GradualeP]
+! In Eastertide
+@Sancti/08-22:GradualeP
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+@Sancti/08-22:Tractus
+
+[Evangelium]
+@Commune/C10Pasc:Evangelium
+
+[Offertorium]
+@Sancti/08-22:Offertorium
+
+[Secreta]
+@Sancti/08-22:Secreta
+
+[Communio]
+@Sancti/08-22:Communio
+
+[Postcommunio]
+@Sancti/08-22:Postcommunio

@@ -1,0 +1,2 @@
+[Evangelium]
+@Tempora/Quad6-2:Evangelium:s/^\(.*//:s/^@.*//:s/.*Mark 14:1.*//:s/Now the feast.*//:s/Cleanse.*//:s/D\. Sir.*//:s/S\. The.*//:s/\(deinde dicuntur\)//

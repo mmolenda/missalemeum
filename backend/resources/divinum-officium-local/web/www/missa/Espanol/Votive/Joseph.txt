@@ -1,0 +1,92 @@
+[Name]
+Missa de S. Ioseph
+
+[Rule]
+Prefatio=Joseph
+
+[Comment]
+# Saint Joseph
+! Votive
+! Wednesday
+
+[Introitus]
+!Ps 32:20-21
+The lord is our helper and protector: in Him our heart shall rejoice, and in~
+His holy name we have trusted. (P.T. Alleluia.)
+!Ps 79:2
+Give ear, O Thou that rulest Israel: Thou that leadest Joseph like a sheep.
+$Gloria
+The lord is our helper and protector: in Him our heart shall rejoice, and in~
+His holy name we have trusted. (P.T. Alleluia.)
+
+[Oratio]
+O God, who in Thine unspeakable providence didst vouchsafe to choose blessed~
+Joseph for Thy most holy Mother’s spouse: grant, we beseech Thee, that we who~
+revere him as our protector upon earth, may become worthy to have him for our~
+intercessor in heaven. Who livest
+$Qui vivis
+
+[Lectio]
+Lesson from the book of Genesis
+! Gen 49:22-26
+Joseph was a growing son, a growing son, and comely to behold: the daughters~
+run to and fro upon the wall. But they that held darts provoked him, and~
+quarreled with him, and envied him. His bow rested upon the strong, and~
+the bands of his arms and his hands were loosed, by the hands of the~
+mighty one of Jacob: thence he came forth a pastor, the stone of Israel.~
+The God of thy father shall be thy helper, and the Almighty shall bless~
+thee with the blessings of heaven above, with the blessings of the deep~
+that lieth beneath, with the blessings of the breasts and of the womb.~
+The blessings of thy father are strengthened with the blessings of his~
+fathers: until the desire of the everlasting hills shall come; may~
+they be upon the head of Joseph, and upon the crown of the Nazarite~
+among his brethren.
+
+[Graduale]
+! Ps 20:4-5
+O lord, Thou hast prevented him with blessings of sweetness; Thou hast set on his head a crown of precious stones.
+V. He asked life of Thee, and Thou hast given him length of days for ever and ever. Alleluia, alleluia.
+V. Obtain for us, Joseph, grace to lead an innocent life; and may our life ever be shielded by thy patronage. Alleluia.
+
+[GradualeP]
+! In Eastertide
+Alleluia, alleluia.
+V. In whatever tribulation they shall cry to Me, I will hear them, and be their protection always. Alleluia.
+V. Obtain for us, Joseph, grace to lead an innocent life; and may it ever be shielded by thy patronage. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+! Ps 111:1-3
+Blessed is the man that feareth the Lord: he shall delight exceedingly in His command-ments.
+V. His seed shall be mighty upon earth: the generation of the righteous shall be blessed.
+V. Glory and wealth shall be in his house: and His justice remaineth for ever and ever.
+
+[Evangelium]
+Continuation + of the Holy Gospel according to Luke
+!Luke 3:21-23
+At that time: It came to pass, when all the people were baptized, that Jesus~
+also being baptized and praying, heaven was opened: and the Holy Ghost descended~
+in a bodily shape as a dove upon Him: and a voice came from heaven: Thou art My~
+beloved Son, in Thee I am well pleased. And Jesus Himself was beginning about~
+the age of thirty years, being (as it was supposed) the son of Joseph.
+
+[Offertorium]
+! Ps 147:12-13
+Praise the Lord, O Jerusalem, because He hath strengthened the bolts of thy gates:~
+He hath blessed thy children within thee. (P.T.Alleluia.)
+
+[Secreta]
+Supported by the patronage of the spouse of Thy most holy Mother, we beseech~
+Thy clemency, O Lord: that Thou wouldst make our hearts despise all earthly~
+things, and love Thee, the true God, with perfect charity:
+$Qui vivis
+
+[Communio]
+! Matt 1:16
+But jacob begot Joseph, the husband of Mary, of whom was born Jesus, who is called Christ (P. T. Alleluia.)
+
+[Postcommunio]
+We who have been refreshed at the fountain of divine blessing, beseech Thee,~
+O Lord our God: that as Thou dost gladden us by the protection of blessed Joseph,~
+so by his merits and intercession Thou wouldst make us partakers of everlasting glory.
+$Per Dominum

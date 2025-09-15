@@ -1,0 +1,14 @@
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Lawrence/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Lawrence/

@@ -1,0 +1,9 @@
+[Oratio]
+@Commune/C6-1:Oratio ad missam:s/N\./Dorothy/
+
+[Secreta]
+@Commune/C6-1:Secreta:s/N\./Dorothy/
+
+[Postcommunio]
+@Commune/C6-1:Postcommunio:s/N\./Dorothy/
+

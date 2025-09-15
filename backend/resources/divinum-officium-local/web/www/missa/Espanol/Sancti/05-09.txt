@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Gregory/
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Gregory/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Gregory/

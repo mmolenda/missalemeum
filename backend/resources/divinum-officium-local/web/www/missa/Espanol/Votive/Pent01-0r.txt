@@ -1,0 +1,66 @@
+[Name]
+Sanctissimæ Trinitatis
+
+[Rule]
+Prefatio=Trinitate
+
+[Comment]
+! Votive
+! Monday
+
+[Introitus]
+@Tempora/Pent01-0r:Introitus
+
+[Oratio]
+@Tempora/Pent01-0r:Oratio
+
+[Lectio]
+Lesson from the second letter of St. Paul the Apostle to the Corinthians
+!2 Cor 13:11-13
+Brethren: Rejoice, and be perfect, take exhortation, be of one mind, have~
+peace; and the God of peace and of love be with you. The grace of our Lord~
+Jesus Christ, and the charity of God, and the com-munion of the Holy Ghost~
+be with you all. Amen.
+
+[Graduale]
+@Tempora/Pent01-0r:Graduale
+
+[GradualeP]
+! In Eastertide
+! Dan 3:52
+Alleluia, Alleluia.
+V. Blessed art Thou, O Lord God of our fathers, and worthy of praise for ever. Alleluia.
+V. Let us bless the Father and the Son with the Holy Ghost. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+With our whole heart and voice we confess Thee, we praise Thee, we bless~
+Thee, God the Father unbegotten, Thee, the only-begotten Son, Thee the Holy~
+Ghost, the Paraclete, the holy and undivided Trinity.
+V. For Thou art great and dost wonderful things: Thou alone art God.
+V. To Thee be praise, to Thee glory, to Thee thanksgiving, for ever and ever, O blessed Trinity!
+
+[Evangelium]
+Continuation of the Holy Gospel according to St. John.
+!John 15:26, 16:1-4
+At that time Jesus said to His disciples: When the Paraclete cometh, whom~
+I will send you from the Father, the Spirit of truth, who proceedeth from~
+the Father, He shall give testimony to Me: and you shall give testimony~
+because you are with Me from the beginning. These things I have spoken to~
+you, that you may not be scandalized. They will put you out of the synagogues:~
+yea, the hour cometh, that whosoever killeth you will think that he doth a~
+service to God. And these things will they do to you, because they have not~
+known the Father, nor Me. But these things I have told you, that, when the~
+hour shall come, you may remember that I told you of them.
+
+[Offertorium]
+@Tempora/Pent01-0r:Offertorium
+
+[Secreta]
+@Tempora/Pent01-0r:Secreta
+
+[Communio]
+@Tempora/Pent01-0r:Communio
+
+[Postcommunio]
+@Tempora/Pent01-0r:Postcommunio

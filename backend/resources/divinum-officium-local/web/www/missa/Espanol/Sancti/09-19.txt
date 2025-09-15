@@ -1,0 +1,9 @@
+[Oratio]
+@Commune/C3a-1::s/N\. and N\./Januarius and Companions/
+
+[Secreta]
+@Commune/C3a-1::s/N\. and N\./Januarius and Companions/
+
+[Postcommunio]
+@Commune/C3a-1::s/N\. and N\./Januarius and Companions/
+

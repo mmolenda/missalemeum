@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Hilari/
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Hilari/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Hilari/

@@ -1,0 +1,98 @@
+[Name]
+Missa de D. N. Iesu Christo summo et aeterno Sacerdote
+
+[Comment]
+# Our Lord Jesus Christ, Supreme and Eternal Priest
+! Votive
+! Thursday
+
+[Introitus]
+!Ps 109:4
+The lord hath sworn, and He will not repent: Thou art a priest for ever according to the order of Melchisedech. (T. P. Alleluia, alleluia.)
+!Ps 109:1
+The Lord saith to my Lord: Sit thou at my right hand.
+$Gloria
+The lord hath sworn, and He will not repent: Thou art a priest for ever according to the order of Melchisedech. (T. P. Alleluia, alleluia.)
+
+[Oratio]
+O God, who for the glory of Thy Majesty and the salvation of the human race,~
+didst establish Thine only begotten Son as the supreme and eternal Priest:~
+grant that those He has chosen to dispense His mysteries may prove loyal in~
+carrying out the ministry they have received.
+$Per eundem
+
+[Lectio]
+Lesson from the letter of St. Paul the Apostle to the Hebrews
+!Heb 5:11-1
+Brethren: Every high priest taken from among men, is ordained for men in the~
+things that appertain to God, that he may offer up gifts and sacrifices for~
+sins: who can have compassion on them that are ignorant and that err: because~
+he himself also is compassed with infirmity. And there-fore he ought, as for~
+the people, so also for himself, to offer for sins. Neither doth any man take~
+the honor to himself, but he that is called by God, as Aaron was. So Christ~
+also did not glorify himself, that He might be made a high priest: but He that~
+said unto Him: Thou art my Son, this day have I begotten Thee. As He saith also~
+in another place: Thou art a priest for ever, according to the order of~
+Melchisedech. Who in the days of his flesh, with a strong cry and tears,~
+offering up prayers and supplications to Him that was able to save Him from~
+death, was heard for His reverence. And whereas in-deed He was the Son of God,~
+He learned obedience by the things which He suffered: and being consummated,~
+He became, to all that obey Him, the cause of eternal salva-tion. Called by~
+God a high priest according to the order of Melchisedech. Of whom we have much~
+to say, and hard to be intelligibly uttered.
+
+[Graduale]
+! Luke 4:18
+The spirit of the Lord is upon me, wherefore He hath anointed me:
+V. He hath sent me to preach the Gospel to the poor, to heal the contrite of heart. Alleluia, alleluia.
+! Hebr 7:24
+V. But Christ, for that He continueth for ever, hath an everlasting priesthood. Alleluia.
+
+[GradualeP]
+! In Eastertide
+! Heb 7:24
+Alleluia, alleluia.
+V. But Christ for that He continueth for ever, hath an everlasting priesthood. Alleluia.
+! Luke 4:18
+V. The Spirit of the Lord is upon me, wherefore He hath anointed me, to preach the Gospel to the poor, to heal the contrite of heart. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+! Ps 9:34-36
+Arise, o Lord God, let Thy hand be exalted: forget not the poor.
+V. See, for Thou considerest labor and sorrow:
+V. To Thee is the poor man left: thou wilt be a helper to the orphan.
+
+[Evangelium]
+Continuation of the Holy Gospel according to Luke
+!Luke 22:14-20
+At that time: Jesus sat down, and the twelve Apostles with Him. And He said~
+to them: With desire I have desired to eat this pasch with you, before I~
+suffer. For I say to you that from this time I will not eat it, till it be~
+fulfilled in the kingdom of God. And having taken the chalice, He gave thanks~
+and said: Take and divide among you. For I say to you that I will not drink of~
+the fruit of the vine, till the kingdom of God come. And taking bread, He gave~
+thanks and broke and gave to them, saying: This is My Body, which is given for~
+you. Do this for a commemoration of Me. In like manner, the chalice also, after~
+He had supped, saying: This is the chalice the new testament in My Blood, which~
+shall be shed for you.
+
+[Offertorium]
+! Heb 10:12, 10:14
+Christ offering one sacrifice for sins, for ever sitteth on the right hand of God:~
+For by one oblation He hath perfected for ever them that are sanctified. (T.P. Alleluia.)
+
+[Secreta]
+O Lord, may our Mediator Jesus Christ make these offerings agreeable to Thee: and~
+along with Himself may He offer us to Thee as a thank-offering:
+$Qui tecum
+
+[Communio]
+! 1 Cor 11:24-25
+This body, which shall be delivered for you; this chalice is the new testament in my~
+blood, saith the Lord: this do for the commemoration of me.  (T. P. Allelúia.)
+
+[Postcommunio]
+We beseech Thee, O Lord, may the divine host which we have offered up and received,~
+quicken us; that, bound to Thee by an eternal love, we may bear fruit that will abide for ever.
+$Per Dominum

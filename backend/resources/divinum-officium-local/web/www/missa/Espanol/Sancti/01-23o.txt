@@ -1,0 +1,5 @@
+[Oratio]
+@Commune/C6-1:Oratio ad missam:s/N\./Emerentiana/
+
+[Postcommunio]
+@Commune/C6-1:Postcommunio:s/N\./Emerentiana/

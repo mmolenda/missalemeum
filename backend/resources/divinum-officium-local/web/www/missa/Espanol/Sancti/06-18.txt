@@ -1,0 +1,11 @@
+[Lectio]
+@Commune/C4a
+
+[Graduale]
+@Commune/C4a
+
+[Offertorium]
+@Commune/C4a
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Ephrem/

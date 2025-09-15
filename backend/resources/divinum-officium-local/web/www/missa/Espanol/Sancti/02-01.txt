@@ -1,0 +1,5 @@
+[Offertorium]
+@Sancti/02-01
+
+[Oratio]
+@Commune/C2:Oratio ad missam:s/N\./Ignátii/

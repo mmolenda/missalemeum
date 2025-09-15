@@ -15,6 +15,8 @@ import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
 import ShieldIcon from "@mui/icons-material/Shield";
 import {ColorCode, Info} from "@/components/types";
 import {vestmentColor} from "@/components/designTokens";
+import 'moment/locale/es';
+import 'moment/locale/pl';
 
 
 export default function ArticleTags({lang, info, showIcon}: { lang: string, info: Info, showIcon: boolean }) {

@@ -1,0 +1,48 @@
+info:
+  tags: []
+  title: Política de Privacidad
+
+sections:
+- body:
+  -
+    - |
+        1. Al utilizar el sitio web Missale Meum, aceptas la Política de Privacidad.
+        
+        2. Los servidores recopilan automáticamente los siguientes datos del Usuario:
+            
+            - hora en que el servidor envía la respuesta,  
+            - dirección IP del dispositivo del Usuario,  
+            - la solicitud del Usuario (dirección de la página a la que accedió),  
+            - dirección del "enlace de referencia" si el sitio fue accedido a través de un enlace,  
+            - información sobre la versión del navegador web del Usuario,  
+            - información sobre la versión del sistema operativo del Usuario.  
+        
+        3. Como parte del funcionamiento del sitio web Missale Meum, también se utilizan cookies, que se guardan en los 
+        dispositivos finales de los Usuarios. Los archivos cookie son pequeños archivos de texto enviados por el sitio web 
+        visitado al dispositivo del Usuario.
+        
+        4. Cada Usuario puede personalizar la configuración de cookies en su navegador. Si no cambias esta configuración, 
+        significa que aceptas las cookies utilizadas por el servicio Missale Meum.
+        
+        5. La mayoría de los navegadores web permiten almacenar cookies en el ordenador del Usuario de forma predeterminada. 
+        Los usuarios de Internet pueden cambiar esta configuración en cualquier momento por sí mismos, incluso bloqueando las 
+        cookies. Sin embargo, debe tenerse en cuenta que los cambios en la configuración de cookies que limiten su uso 
+        pueden causar que algunas funciones del sitio web Missale Meum no funcionen correctamente.
+        
+        6. El sitio web Missale Meum utiliza cookies únicamente para soportar scripts de estadísticas.
+          
+        7. Para los fines anteriores, Missale Meum utiliza tecnologías de seguimiento en Internet comunes en el mercado para 
+        el monitoreo del tráfico. El sitio web Missale Meum recopila datos anónimos sobre las páginas que visitas, tales como:
+        
+            - número de visitas/vistas únicas,  
+            - país,  
+            - navegador,  
+            - tiempo de visita.  
+            - Los datos se recopilan mediante soluciones de terceros. Actualmente utilizamos Cloudflare. 
+              Consulta los detalles de la [política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/).  
+        
+        8. Nos reservamos el derecho de cambiar la Política de Privacidad publicando su nuevo contenido en el sitio web www.missalemeum.com.
+        
+        9. Puedes contactarnos en cualquier momento en contact@missalemeum.com.
+  id: ''
+  label: ''
