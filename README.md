@@ -121,8 +121,10 @@ $ python backend/api/cli.py proper-cols 2018-05-03
 
 1. Copy folder [backend/api/constants/en](backend/api/constants/en) into `backend/api/constants/<your-lang-ISO-639-1>` and translate the files
 2. Copy folder [backend/resources/divinum-officium-local/web/www/missa/English](backend/resources/divinum-officium-local/web/www/missa/English) into `backend/resources/divinum-officium-local/web/www/missa/<Your-language>` and translate the files if needed
-3. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `backend/api/constants/common.py`
-4. Add tests to your language version in [test_propers.py](backend/tests/test_propers.py). You can use  `generate_fixtures_for_propers_by_dates` from [backend/tests/util.py](backend/tests/util.py) to generate fixtures
+3. Copy folder [backend/resources/ordo/en](backend/resources/ordo/en) into `backend/resources/ordo/<Your-language>` and translate the files
+4. Copy folder [backend/resources/supplement/en](backend/resources/supplement/en) into `backend/resources/supplement/<Your-language>` and translate the files
+5. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `backend/api/constants/common.py`
+6. Add tests to your language version in [test_propers.py](backend/tests/test_propers.py). You can use  `generate_fixtures_for_propers_by_dates` from [backend/tests/util.py](backend/tests/util.py) to generate fixtures
 
 ### Frontend
 
