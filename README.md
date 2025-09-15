@@ -114,33 +114,33 @@ $ python missalemeum/cli.py proper sancti:09-15:2:w
 
 ### Backend
 
-1. Copy folder `backend/api/constants/en` into `backend/api/constants/<your-lang-ISO-639-1>` and translate the files
-2. Copy folder `backend/resources/divinum-officium-local/web/www/missa/English` into `backend/resources/divinum-officium-local/web/www/missa/<Your-language>` and translate the files if needed
+1. Copy folder [backend/api/constants/en](backend/api/constants/en) into `backend/api/constants/<your-lang-ISO-639-1>` and translate the files
+2. Copy folder [backend/resources/divinum-officium-local/web/www/missa/English](backend/resources/divinum-officium-local/web/www/missa/English) into `backend/resources/divinum-officium-local/web/www/missa/<Your-language>` and translate the files if needed
 3. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `backend/api/constants/common.py`
-4. Add tests to your language version in [test_propers.py](backend/tests/test_propers.py). You can use  `generate_fixtures_for_propers_by_dates` from backend/tests/util.py to generate fixtures
+4. Add tests to your language version in [test_propers.py](backend/tests/test_propers.py). You can use  `generate_fixtures_for_propers_by_dates` from [backend/tests/util.py](backend/tests/util.py) to generate fixtures
 
 ### Frontend
 
-1. Add languages and translations in frontend/components/intl.tsx
+1. Add languages and translations in [frontend/components/intl.tsx](frontend/components/intl.tsx)
 
 ### Verification
 
 Run the application and verify everything is being displayed properly. Check at least one full year from now. Most likely you'll encounter 
-some issues with Divinum Officium source files. In such case correct them in `backend/resources/divinum-officium-local`.
+some issues with Divinum Officium source files. In such case correct them in [backend/resources/divinum-officium-local](backend/resources/divinum-officium-local).
 
-`backend/resources/divinum-officium-local` serves as an intermediary data layer between Missale Meum and Divinum Officium to 
+[backend/resources/divinum-officium-local](backend/resources/divinum-officium-local) serves as an intermediary data layer between Missale Meum and Divinum Officium to 
 separate MM from DF complexities (stemming from multiple missal versions, not too clean code and hectic changes). For 
 simplicity and easier management (at cost of higher redundancy), "local" layer resolves ONLY first level references defined
 inside sections. 
 
-For example if Sancti/11-11.txt has
+For example if `Sancti/11-11.txt` has
 
 ```
 [Lectio]
 @Commune/C4
 ```
 
-It will resolve only to `Commune/C4:Lectio` and it is expected that `Commune/C4:Lectio` will contain the final text, not reference, as it won't be resolved further. Also global referneces in target files, like for example
+It will resolve only to `Commune/C4:Lectio` and it is expected that `Commune/C4:Lectio` will contain the final text, not another reference, as it won't be resolved further. Also global referneces in target files, like for example
 
 ```
 [Rule]
@@ -148,7 +148,7 @@ ex C11;
 ```
 
 will not be resolved either. So each file in "local" data folder must implement all sections explicitly, except if it is a vernacular 
-language, it will inherit from corresponding Latin file from "local", so for instance if English version of Sancti/12-24.txt has exactly 
+language, it will inherit from corresponding Latin file from "local", so for instance if English version of `Sancti/12-24.txt` has exactly 
 same references as its Latin counterpart, it can and should be left empty.
 
 ## Dev info
