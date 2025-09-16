@@ -105,7 +105,7 @@ const Article = ({
   const sharePopoverOpen = false
   const shareButtonRef = useRef(null)
   const content: Content = contents[index]
-  const itemRefs: Record<string, React.RefObject<HTMLElement>> = {};
+  const itemRefs: Record<string, React.RefObject<HTMLElement | null>> = {};
   useEffect(() => {
     scrollToListItem(window.location.hash.substring(1))
   }, [])
@@ -296,7 +296,7 @@ const BilingualSection = ({
   bilingualLang: string
   markdownNewlines: boolean
   widgetMode: boolean
-  itemRefs: any
+  itemRefs: Record<string, React.RefObject<HTMLElement | null>>
 }) => {
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
   const formatBody = () => {
@@ -329,7 +329,7 @@ const BilingualSection = ({
     return true
   }
 
-  const itemRef = createRef()
+  const itemRef = createRef<HTMLElement>()
   const titleVernacularSlug = slugify(titleVernacular)
   if (titleVernacularSlug) {
     itemRefs[titleVernacularSlug] = itemRef
