@@ -22,7 +22,7 @@ export default function ListCommon({
                                        searchSuggestions?: string[]
                                      }) {
   const [selectedItem, setSelectedItem] = useState("")
-  const listItemRefs: Record<string, RefObject<any>> = {}
+  const listItemRefs: Record<string, RefObject<HTMLLIElement | null>> = {}
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
 
@@ -95,7 +95,7 @@ export default function ListCommon({
       </Box>
       <List>
         {itemsFiltered.map((indexItem) => {
-          const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
+          const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement | null>()
           listItemRefs[indexItem.id] = myRef
           return (
             <SidenavListItem
