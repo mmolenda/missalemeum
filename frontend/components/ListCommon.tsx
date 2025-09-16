@@ -21,7 +21,7 @@ export default function ListCommon({
                                        items: ListItemType[],
                                        searchSuggestions?: string[]
                                      }) {
-  let [selectedItem, setSelectedItem] = useState("")
+  const [selectedItem, setSelectedItem] = useState("")
   const listItemRefs: Record<string, RefObject<any>> = {}
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
@@ -32,7 +32,7 @@ export default function ListCommon({
   })
 
   const scrollToListItem = (itemId: string) => {
-    let listItemRef = listItemRefs[itemId]
+    const listItemRef = listItemRefs[itemId]
     if (listItemRef && listItemRef.current) {
       listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
       listItemRef.current.classList.add("sidenavItemActive")
@@ -44,9 +44,9 @@ export default function ListCommon({
       setItemsFiltered(items)
     } else if (filterString.length > 2) {
       filterString = filterString.toLowerCase()
-      let collectedItems = []
-      for (let item of items) {
-        let searchBody = JSON.stringify(item).toLowerCase()
+      const collectedItems = []
+      for (const item of items) {
+        const searchBody = JSON.stringify(item).toLowerCase()
         if (searchBody.includes(filterString)) {
           collectedItems.push(item)
         }
@@ -95,7 +95,7 @@ export default function ListCommon({
       </Box>
       <List>
         {itemsFiltered.map((indexItem) => {
-          let myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
+          const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
           listItemRefs[indexItem.id] = myRef
           return (
             <SidenavListItem

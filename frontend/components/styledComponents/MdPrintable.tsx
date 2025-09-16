@@ -21,7 +21,7 @@ export default function MdPrintable({ text, markdownNewlines, extraComponents}: 
     a: (props: React.AnchorHTMLAttributes<HTMLAnchorElement>) => props.children
   }
 
-	let components = {
+	const components = {
 		...baseComponents,
 		...extraComponents
 	}

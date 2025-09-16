@@ -5,7 +5,7 @@ import { resolveAcceptLanguage } from 'resolve-accept-language'
 
 
 export async function middleware(request: NextRequest) {
-  let defaultLocale = "en-US"
+  const defaultLocale = "en-US"
   const headersList = await headers()
   const acceptLanguageHeader = headersList.get('accept-language') || defaultLocale
   const locale = resolveAcceptLanguage(

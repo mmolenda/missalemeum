@@ -56,7 +56,7 @@ export default function ListProper({
 
   useEffect(() => {
     setSelectedItem(window.location.hash.substring(1) || todayFmt)
-    let listItemRef = listItemRefs[selectedItem]
+    const listItemRef = listItemRefs[selectedItem]
     if (listItemRef && listItemRef.current) {
       listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
     }
@@ -67,9 +67,9 @@ export default function ListProper({
       setItemsFiltered(items)
     } else if (filterString.length > 2) {
       filterString = filterString.toLowerCase()
-      let collectedItems = []
-      for (let item of items) {
-        let searchBody = JSON.stringify(item).toLowerCase()
+      const collectedItems = []
+      for (const item of items) {
+        const searchBody = JSON.stringify(item).toLowerCase()
         if (searchBody.includes(filterString)) {
           collectedItems.push(item)
         }
@@ -188,12 +188,12 @@ export default function ListProper({
       <List>
         <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
         {itemsFiltered.map((indexItem) => {
-            let colorCode = indexItem.colors[0]
-            let dateParsed = moment(indexItem.id, "YYYY-MM-DD")
-            let isFirstDayOfMonth = dateParsed.date() === 1
-            let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
-            let isSunday = dateParsed.isoWeekday() === 7
-            let myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
+            const colorCode = indexItem.colors[0]
+            const dateParsed = moment(indexItem.id, "YYYY-MM-DD")
+            const isFirstDayOfMonth = dateParsed.date() === 1
+            const isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
+            const isSunday = dateParsed.isoWeekday() === 7
+            const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
             listItemRefs[indexItem.id] = myRef
             return <Fragment key={indexItem.id + "1"}>
               {/* Optional heading with the name of month and year */}
