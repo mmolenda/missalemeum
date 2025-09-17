@@ -30,6 +30,17 @@ import 'moment/locale/pl';
 import Announcement from "@/components/Announcement";
 
 
+const DEFAULT_LOCALE: Locale = "en";
+const SUPPORTED_LOCALES: Locale[] = ["pl", "en"];
+
+const toLocale = (value?: string): Locale => {
+  if (value && SUPPORTED_LOCALES.includes(value as Locale)) {
+    return value as Locale;
+  }
+  return DEFAULT_LOCALE;
+};
+
+
 const merriweather = Merriweather({
   subsets: ['latin'],
   weight: ["300", "400"]
@@ -38,8 +49,8 @@ const merriweather = Merriweather({
 
 export default function RootLayout({children}: { children: React.ReactNode}) {
   const { locale } = useParams<{ locale?: string }>()
-  moment.locale(locale)
-  const lang = typeof locale === "string" ? locale : "en"
+  const lang = toLocale(locale)
+  moment.locale(lang)
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
   const [fontSize, setFontSize] = useState<string>("medium")
   const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
@@ -135,11 +146,11 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
             enableDeclineButton
             declineButtonStyle={{background: appbarDarkGrey}}
             buttonStyle={{background: "#e49086"}}
-            declineButtonText={MSG_POLICY_DECLINE_BUTTON[locale as Locale]}
+            declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
             buttonText="OK">
-            {MSG_COOKIES[locale as Locale]}
-            <MUILink component={Link} href={`/${locale}/supplement/privacy-policy`} target="_blank">
-              {MSG_POLICY_LINK[locale as Locale]}
+            {MSG_COOKIES[lang]}
+            <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
+              {MSG_POLICY_LINK[lang]}
             </MUILink>
           </CookieConsent>
         </Container>
