@@ -4,8 +4,8 @@ import {createTheme, PaletteMode} from "@mui/material";
 
 const defaultTheme = createTheme()
 export const yellowish = '#fcfbf9'
-const darkRedLightMode = '#b76d6d'
-const darkRedDarkMode = '#e49086'
+export const darkRedLightMode = '#b76d6d'
+export const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
 
 export type vestmentColor = "vestmentr" | "vestmentw" | "vestmentv" | "vestmentg"

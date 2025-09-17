@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
 import {ThemeProvider, type Theme} from '@mui/material/styles';
-import {appbarDarkGrey, getDesignTokens} from '@/components/designTokens';
+import {appbarDarkGrey, darkRedDarkMode, darkRedLightMode, getDesignTokens} from '@/components/designTokens';
 import {
   AppBar,
   Box,
@@ -24,7 +24,14 @@ import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
-import {Locale, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
+import {
+  Locale,
+  MSG_COOKIES,
+  MSG_POLICY_DECLINE_BUTTON,
+  MSG_POLICY_LINK,
+  SURVEY_BANNER_COPY,
+  SURVEY_LINK
+} from "@/components/intl";
 import {useParams} from "next/navigation";
 import moment from "moment";
 import 'moment/locale/pl';
@@ -94,6 +101,8 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
   const theme = createTheme(getDesignTokens(mode, fontSize));
   const appBarHeight = getAppBarHeightFromTheme(theme);
+  const bannerCopy = SURVEY_BANNER_COPY[lang];
+  const surveyLink = SURVEY_LINK[lang];
   const bannerVisible = bannerOpen && !bannerExpired;
   const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
 
@@ -165,7 +174,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 right: 0,
                 backgroundColor: theme.palette.mode === 'dark' ? theme.palette.background.paper : theme.palette.background.default,
                 borderBottom: `1px solid ${theme.palette.divider}`,
-                zIndex: theme.zIndex.appBar,
+                zIndex: Math.max(0, theme.zIndex.appBar - 1),
               })}
             >
               <ContainerMedium
@@ -175,9 +184,9 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                   alignItems: 'center',
                   justifyContent: 'space-between',
                   gap: 2,
-                  px: {xs: 2, sm: 0},
+                  px: {xs: 2, sm: 3},
                   minHeight: `${BANNER_HEIGHT}px`,
-                  color: theme.palette.mode === 'dark' ? theme.palette.primary.light : theme.palette.primary.dark,
+                  color: theme.palette.mode === 'dark' ? theme.palette.common.white : theme.palette.common.black,
                 })}
               >
                 <Typography
@@ -186,7 +195,18 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                     fontWeight: 500,
                   }}
                 >
-                  Prosimy o udział w ankiecie
+                  <MUILink
+                    href={surveyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="always"
+                    sx={(theme: Theme) => ({
+                      color: theme.palette.mode === 'dark' ? darkRedDarkMode : darkRedLightMode,
+                    })}
+                  >
+                    {bannerCopy.linkText}
+                  </MUILink>
+                  {bannerCopy.suffix}
                 </Typography>
                 <IconButton
                   aria-label="Zamknij baner ankiety"
