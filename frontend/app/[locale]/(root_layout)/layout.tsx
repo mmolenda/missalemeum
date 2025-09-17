@@ -2,14 +2,15 @@
 
 import React, {useEffect, useState} from "react";
 import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
-import {ThemeProvider} from '@mui/material/styles';
-import {appbarDarkGrey, getDesignTokens} from '@/components/designTokens';
+import {ThemeProvider, type Theme} from '@mui/material/styles';
+import {appbarDarkGrey, darkRedDarkMode, darkRedLightMode, getDesignTokens} from '@/components/designTokens';
 import {
   AppBar,
   Box,
   Container,
   createTheme,
   CssBaseline,
+  IconButton,
   Toolbar,
   Typography,
   useMediaQuery
@@ -23,11 +24,26 @@ import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
-import {Locale, MSG_COOKIES, MSG_POLICY_DECLINE_BUTTON, MSG_POLICY_LINK} from "@/components/intl";
+import {
+  Locale,
+  MSG_COOKIES,
+  MSG_POLICY_DECLINE_BUTTON,
+  MSG_POLICY_LINK,
+  SURVEY_BANNER_COPY,
+  SURVEY_LINK
+} from "@/components/intl";
 import {useParams} from "next/navigation";
 import moment from "moment";
 import 'moment/locale/pl';
 import Announcement from "@/components/Announcement";
+import CloseIcon from "@mui/icons-material/Close";
+import {
+  BANNER_HEIGHT,
+  BANNER_STORAGE_KEY,
+  isBannerExpired,
+  getAppBarHeightFromTheme,
+  getBannerExpiryDate
+} from "@/components/layoutMetrics";
 
 
 const DEFAULT_LOCALE: Locale = "en";
@@ -54,7 +70,9 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
   const [fontSize, setFontSize] = useState<string>("medium")
   const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
+  const [bannerOpen, setBannerOpen] = useState<boolean>(false)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
+  const bannerExpired = isBannerExpired()
 
   useEffect(() => {
     setDarkMode({
@@ -65,12 +83,59 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
     setFontSize(myLocalStorage.getItem("fontSize") ?? "medium")
   }, []);
 
+  useEffect(() => {
+    if (bannerExpired) {
+      setBannerOpen(false)
+      return
+    }
+
+    const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
+
+    setBannerOpen(!bannerDismissed);
+  }, [bannerExpired]);
+
   const getThemeMode = () => {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
   }
   const mode = getThemeMode()
   // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
   const theme = createTheme(getDesignTokens(mode, fontSize));
+  const appBarHeight = getAppBarHeightFromTheme(theme);
+  const bannerCopy = SURVEY_BANNER_COPY[lang];
+  const surveyLink = SURVEY_LINK[lang];
+  const bannerVisible = bannerOpen && !bannerExpired;
+  const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
+
+  const handleBannerClose = () => {
+    if (bannerExpired) {
+      return
+    }
+    myLocalStorage.setItem(BANNER_STORAGE_KEY, "true")
+    setBannerOpen(false)
+  }
+
+  useEffect(() => {
+    if (!bannerVisible) {
+      return
+    }
+
+    const expiryDate = getBannerExpiryDate()
+    if (!expiryDate) {
+      return
+    }
+
+    const now = new Date()
+    if (expiryDate <= now) {
+      setBannerOpen(false)
+      return
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      setBannerOpen(false)
+    }, expiryDate.getTime() - now.getTime())
+
+    return () => window.clearTimeout(timeoutId)
+  }, [bannerVisible])
 
   return (<html lang="en" className={merriweather.className} translate="no">
     <AppRouterCacheProvider>
@@ -100,6 +165,61 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
             </Toolbar>
           </AppBar>
 
+          {bannerVisible && (
+            <Box
+              sx={(theme: Theme) => ({
+                position: 'fixed',
+                top: `${appBarHeight}px`,
+                left: 0,
+                right: 0,
+                backgroundColor: theme.palette.mode === 'dark' ? theme.palette.background.paper : theme.palette.background.default,
+                borderBottom: `1px solid ${theme.palette.divider}`,
+                zIndex: Math.max(0, theme.zIndex.appBar - 1),
+              })}
+            >
+              <ContainerMedium
+                disableGutters
+                sx={(theme: Theme) => ({
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  gap: 2,
+                  px: {xs: 2, sm: 3},
+                  minHeight: `${BANNER_HEIGHT}px`,
+                  color: theme.palette.mode === 'dark' ? theme.palette.common.white : theme.palette.common.black,
+                })}
+              >
+                <Typography
+                  variant="body2"
+                  sx={{
+                    fontWeight: 500,
+                  }}
+                >
+                  <MUILink
+                    href={surveyLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="always"
+                    sx={(theme: Theme) => ({
+                      color: theme.palette.mode === 'dark' ? darkRedDarkMode : darkRedLightMode,
+                    })}
+                  >
+                    {bannerCopy.linkText}
+                  </MUILink>
+                  {bannerCopy.suffix}
+                </Typography>
+                <IconButton
+                  aria-label="Zamknij baner ankiety"
+                  size="small"
+                  color="inherit"
+                  onClick={handleBannerClose}
+                >
+                  <CloseIcon fontSize="small" />
+                </IconButton>
+              </ContainerMedium>
+            </Box>
+          )}
+
           <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
 
             <Box
@@ -108,18 +228,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 overflowY: 'scroll',
                 width: '100%',
                 ml: 0,
-                pt: (theme) => {
-                  // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
-                  // all the code below is to appease typescript linter
-                  const root = theme.components?.MuiAppBar?.styleOverrides?.root;
-                  // Check if root is an object and has a height property
-                  const height = root && typeof root === 'object' && 'height' in root ? root.height : 0;
-                  // Ensure height is a valid number
-                  const parsedHeight = typeof height === 'string' ? parseInt(height) : height;
-                  // Check if parsedHeight is a valid number
-                  const finalHeight: number = isNaN(parsedHeight as number) ? 0 : parsedHeight as number;
-                  return `${finalHeight * 2}px`;
-                },
+                pt: `${contentTopPadding}px`,
                 height: "100%"
               }}
             >

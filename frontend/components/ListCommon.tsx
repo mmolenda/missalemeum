@@ -8,6 +8,13 @@ import SidenavListItemText from "@/components/styledComponents/SidenavListItemTe
 import React, {createRef, RefObject, useCallback, useEffect, useRef, useState} from "react";
 import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 import {ListItemType} from "@/components/types";
+import {myLocalStorage} from "@/components/myLocalStorage";
+import {
+  BANNER_HEIGHT,
+  BANNER_STORAGE_KEY,
+  getAppBarHeightFromTheme,
+  isBannerExpired
+} from "@/components/layoutMetrics";
 
 export default function ListCommon({
                                      lang,
@@ -71,12 +78,12 @@ export default function ListCommon({
         position: "fixed",
         display: "flex",
         top: (theme) => {
-            // we just need the value of theme.components?.MuiAppBar?.styleOverrides?.root.height
-            // all the code below is to appease typescript linter
-            const root = theme.components?.MuiAppBar?.styleOverrides?.root;
-            const height = root && typeof root === 'object' && 'height' in root ? root.height : "0px";
-            return height as string;
-          },
+          const appBarHeight = getAppBarHeightFromTheme(theme);
+          const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
+          const bannerExpired = isBannerExpired();
+          const offset = (bannerDismissed || bannerExpired) ? 0 : BANNER_HEIGHT;
+          return `${appBarHeight + offset}px`;
+        },
         width: "875px",
         p: "0.75rem",
         boxShadow: 2,

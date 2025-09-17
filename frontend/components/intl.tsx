@@ -33,6 +33,7 @@ export const MENUITEM_CANTICUM = {"en": "Chants", "pl": "Pieśni"}
 export const MENUITEM_SUPPLEMENT = {"en": "Supplement", "pl": "Suplement"}
 export const MENUITEM_INFO = {"en": "About", "pl": "Informacje"}
 export const MENUITEM_ANNOUNCEMENTS = {"en": "Announcements", "pl": "Ogłoszenia"}
+export const MENUITEM_SURVEY = {"en": "Survey", "pl": "Ankieta"}
 export const MSG_ADDRESS_COPIED = {"en": "Address copied to clipboard", "pl": "Adres skopiowany do schowka"}
 export const MSG_COOKIES = {"en": "This website uses cookies. ",
 														"pl": "Ta strona wykorzystuje ciasteczka (cookies). "}
@@ -42,6 +43,13 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 	"pl": "Nie, dziękuję"}
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
+export const SURVEY_LINK: Record<Locale, string> = {
+	"en": "https://docs.google.com/forms/d/e/1FAIpQLSf3gab8J6PwEvj5XzgrMRT7ssRLRdAci1VBZH2Y3_Fhm1Vj-g/viewform?usp=header",
+	"pl": "https://docs.google.com/forms/d/e/1FAIpQLSeabCOjxYsfz3CVvrgxpSfT7Zg3htkRYzz8iC291MPuyMWG7g/viewform?usp=header"}
+export const SURVEY_BANNER_COPY: Record<Locale, { linkText: string; suffix: string }> = {
+  en: {linkText: "Survey", suffix: " Help improve Missale Meum."},
+  pl: {linkText: "Ankieta", suffix: " Pomóż ulepszyć Missale Meum."}
+}
 export const SEARCH_SUGGESTIONS_PROPER: {
   pl: string[];
   en: string[];

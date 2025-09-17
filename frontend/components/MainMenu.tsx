@@ -11,16 +11,20 @@ import {
     ToggleButtonGroup
 } from "@mui/material";
 import {
-  Locale, MENUITEM_ANNOUNCEMENTS,
-  MENUITEM_CANTICUM, MENUITEM_INFO,
+  Locale,
+  MENUITEM_ANNOUNCEMENTS,
+  MENUITEM_CANTICUM,
+  MENUITEM_INFO,
   MENUITEM_ORATIO,
   MENUITEM_ORDO,
   MENUITEM_PROPER,
   MENUITEM_SUPPLEMENT,
-  MENUITEM_VOTIVE
+  MENUITEM_SURVEY,
+  MENUITEM_VOTIVE,
+  SURVEY_LINK
 } from "@/components/intl";
 import Link from "next/link";
-import React, {Dispatch, SetStateAction, useState} from "react";
+import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from "@mui/icons-material/Close";
 import List from "@mui/material/List";
@@ -28,6 +32,7 @@ import DrawerListItemText from "@/components/styledComponents/DrawerListItemText
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import {myLocalStorage} from "./myLocalStorage";
+import {getBannerExpiryDate, isBannerExpired} from "@/components/layoutMetrics";
 import {usePathname} from "next/navigation";
 
 
@@ -38,6 +43,7 @@ type LeftHandMenuProps = {
   darkMode: boolean | undefined
   switchFontSize: (fontSizeNew: string) => void
   fontSize: string
+  surveyAvailable: boolean
 }
 
 const LeftHandMenu = ({
@@ -46,7 +52,8 @@ const LeftHandMenu = ({
   toggleDarkMode,
   darkMode,
   switchFontSize,
-  fontSize
+  fontSize,
+  surveyAvailable
 }: LeftHandMenuProps) => {
   const pathname = usePathname()
   const isMenuitemSelected = (route: string) => {
@@ -60,6 +67,21 @@ const LeftHandMenu = ({
     return pathname.startsWith(route)
   }
 
+  const menuItems: Array<{label: string; route: string; external?: boolean}> = [
+    {label: MENUITEM_PROPER[lang], route: `/${lang}`},
+    {label: MENUITEM_ORDO[lang], route: `/${lang}/ordo`},
+    {label: MENUITEM_VOTIVE[lang], route: `/${lang}/votive`},
+    {label: MENUITEM_ORATIO[lang], route: `/${lang}/oratio`},
+    {label: MENUITEM_CANTICUM[lang], route: `/${lang}/canticum`},
+    {label: MENUITEM_SUPPLEMENT[lang], route: `/${lang}/supplement/index`},
+    {label: MENUITEM_INFO[lang], route: `/${lang}/supplement/info`},
+    {label: MENUITEM_ANNOUNCEMENTS[lang], route: `/${lang}/supplement/announcements`}
+  ]
+
+  if (surveyAvailable) {
+    menuItems.splice(7, 0, {label: MENUITEM_SURVEY[lang], route: SURVEY_LINK[lang], external: true})
+  }
+
   return (
     <Box
       sx={{width: 300}}
@@ -71,21 +93,19 @@ const LeftHandMenu = ({
         <CloseIcon />
       </IconButton>
       <List>
-        {Object.entries({
-          [MENUITEM_PROPER[lang]]: `/${lang}`,
-          [MENUITEM_ORDO[lang]]: `/${lang}/ordo`,
-          [MENUITEM_VOTIVE[lang]]: `/${lang}/votive`,
-          [MENUITEM_ORATIO[lang]]: `/${lang}/oratio`,
-          [MENUITEM_CANTICUM[lang]]: `/${lang}/canticum`,
-          [MENUITEM_SUPPLEMENT[lang]]: `/${lang}/supplement/index`,
-          [MENUITEM_INFO[lang]]: `/${lang}/supplement/info`,
-          [MENUITEM_ANNOUNCEMENTS[lang]]: `/${lang}/supplement/announcements`
-        }).map(([label, route]) => (
+        {menuItems.map(({label, route, external}) => (
           <ListItem key={label}>
             <ListItemButton
-              component={Link}
-              href={route}
-              selected={isMenuitemSelected(route)}
+              {...(external ? {
+                component: "a",
+                href: route,
+                target: "_blank",
+                rel: "noopener noreferrer"
+              } : {
+                component: Link,
+                href: route
+              })}
+              selected={!external && isMenuitemSelected(route)}
             >
               <DrawerListItemText prim={label}/>
             </ListItemButton>
@@ -130,7 +150,34 @@ export default function MainMenu({
   setDarkMode: Dispatch<SetStateAction<boolean | undefined>>
   setFontSize: Dispatch<SetStateAction<string>>
 }) {
-    const [drawerOpened, setDrawerOpened] = useState(false)
+  const [drawerOpened, setDrawerOpened] = useState(false)
+  const [surveyAvailable, setSurveyAvailable] = useState(!isBannerExpired())
+  useEffect(() => {
+    const expired = isBannerExpired()
+    if (expired) {
+      setSurveyAvailable(false)
+      return
+    }
+
+    setSurveyAvailable(true)
+
+    const expiryDate = getBannerExpiryDate()
+    if (!expiryDate) {
+      return
+    }
+
+    const now = new Date()
+    if (expiryDate <= now) {
+      setSurveyAvailable(false)
+      return
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      setSurveyAvailable(false)
+    }, expiryDate.getTime() - now.getTime())
+
+    return () => window.clearTimeout(timeoutId)
+  }, [])
   const toggleDrawer = (open: boolean) => () => {
     setDrawerOpened(open)
   };
@@ -178,6 +225,7 @@ export default function MainMenu({
                 toggleDarkMode={toggleDarkMode}
                 fontSize={fontSize}
                 switchFontSize={switchFontSize}
+                surveyAvailable={surveyAvailable}
             />
         </Drawer>
     </>)
