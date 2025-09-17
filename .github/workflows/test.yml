@@ -12,7 +12,7 @@ on:
     branches: [ master ]
 
 jobs:
-  test:
+  backend-pytest:
 
     runs-on: ubuntu-latest
 
