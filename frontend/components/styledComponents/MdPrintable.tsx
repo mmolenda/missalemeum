@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import type { Components } from "react-markdown";
 import { Typography } from "@mui/material";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
@@ -9,21 +10,21 @@ import rehypeRaw from "rehype-raw";
 interface MdPrintableProps {
   text: string
   markdownNewlines: boolean
-  extraComponents?: any
+  extraComponents?: Components
 }
 
 export default function MdPrintable({ text, markdownNewlines, extraComponents}: MdPrintableProps) {
   const textFormatted = markdownNewlines ? text : text.replace(/\\n/g, "\n").replace(/\n/g, "  \n");
 
-  const baseComponents = {
-    h4: (props: { children?: React.ReactNode }) => <Typography variant="h4">{props.children}</Typography>,
-    h5: (props: { children?: React.ReactNode }) => <Typography variant="h5">{props.children}</Typography>,
-    a: (props: React.AnchorHTMLAttributes<HTMLAnchorElement>) => props.children
+  const baseComponents: Components = {
+    h4: ({ children }) => <Typography variant="h4">{children}</Typography>,
+    h5: ({ children }) => <Typography variant="h5">{children}</Typography>,
+    a: ({ children }) => <>{children}</>
   }
 
-	let components = {
+	const components: Components = {
 		...baseComponents,
-		...extraComponents
+		...(extraComponents ?? {})
 	}
 
 	return (

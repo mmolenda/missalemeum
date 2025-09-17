@@ -1,12 +1,18 @@
 import React from 'react';
-import {Chip} from "@mui/material";
+import {Chip, type ChipProps} from "@mui/material";
 import {vestmentColor} from "@/components/designTokens";
 
-export default function Tag({label, color = "secondary", icon}: {label: string, color?: "secondary" | vestmentColor, icon?: any}) {
+type TagProps = {
+  label: string,
+  color?: "secondary" | vestmentColor,
+  icon?: ChipProps['icon']
+};
+
+export default function Tag({label, color = "secondary", icon}: TagProps) {
   return (
     <Chip
       color={color}
-      icon={icon ? icon : null}
+      icon={icon ?? undefined}
       variant="outlined"
       sx={{
         margin: "0.15rem",

@@ -22,7 +22,16 @@ import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import React, {createRef, Dispatch, Fragment, SetStateAction, useEffect, useRef, useState} from "react";
+import React, {
+  Dispatch,
+  Fragment,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState
+} from "react";
 import Link from "next/link";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {Body, Content} from "@/components/types";
@@ -54,7 +63,7 @@ export default function BilingualContent({
   useEffect(() => {
     const hashValue = window.location.hash.substring(1)
     setIndex(parseInt(hashValue) || 0)
-  })
+  }, [])
 
   const backButton = (backButtonRef && <IconButton
     aria-label="back"
@@ -105,19 +114,37 @@ const Article = ({
   const sharePopoverOpen = false
   const shareButtonRef = useRef(null)
   const content: Content = contents[index]
-  const itemRefs: Record<string, React.RefObject<HTMLElement>> = {};
-  useEffect(() => {
-    scrollToListItem(window.location.hash.substring(1))
+  const itemRefs = useRef<Record<string, HTMLElement | null>>({})
+
+  const registerItemRef = useCallback((slug: string | null) => (element: HTMLElement | null) => {
+    if (!slug) {
+      return
+    }
+
+    if (element) {
+      itemRefs.current[slug] = element
+    } else {
+      delete itemRefs.current[slug]
+    }
   }, [])
 
-  const scrollToListItem = (itemId: string) => {
-    const itemRef = itemRefs[itemId]
-    if (itemRef && itemRef.current) {
-      itemRef.current.scrollIntoView({block: "center", behavior: "auto"})
-    } else {
-      window.scrollTo({top: 0});
+  const scrollToListItem = useCallback((itemId: string) => {
+    if (!itemId) {
+      window.scrollTo({top: 0})
+      return
     }
-  }
+
+    const itemElement = itemRefs.current[itemId]
+    if (itemElement) {
+      itemElement.scrollIntoView({block: "center", behavior: "auto"})
+    } else {
+      window.scrollTo({top: 0})
+    }
+  }, [])
+
+  useEffect(() => {
+    scrollToListItem(window.location.hash.substring(1))
+  }, [scrollToListItem])
 
   const isBilingual = () => {
     for (const section of content.sections) {
@@ -174,9 +201,11 @@ const Article = ({
       <p><em>https://www.missalemeum.com</em></p>
       </body>
       </html>)
-    newWindow && newWindow.document.write(ReactDOMServer.renderToStaticMarkup(newContent));
-    newWindow && newWindow.document.close();
-    newWindow && newWindow.focus();
+    if (newWindow) {
+      newWindow.document.write(ReactDOMServer.renderToStaticMarkup(newContent))
+      newWindow.document.close()
+      newWindow.focus()
+    }
   }
   return (
     <>
@@ -267,7 +296,7 @@ const Article = ({
               bilingualLang={bilingualLang}
               markdownNewlines={markdownNewlines}
               widgetMode={widgetMode}
-              itemRefs={itemRefs}
+              registerItemRef={registerItemRef}
             />
           })}
         </Box>
@@ -287,7 +316,7 @@ const BilingualSection = ({
                             bilingualLang,
                             markdownNewlines,
                             widgetMode,
-                            itemRefs
+                            registerItemRef
                           }: {
   titleVernacular: string
   titleLatin: string
@@ -296,7 +325,7 @@ const BilingualSection = ({
   bilingualLang: string
   markdownNewlines: boolean
   widgetMode: boolean
-  itemRefs: any
+  registerItemRef: (slug: string | null) => (element: HTMLElement | null) => void
 }) => {
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
   const formatBody = () => {
@@ -329,11 +358,8 @@ const BilingualSection = ({
     return true
   }
 
-  const itemRef = createRef()
-  const titleVernacularSlug = slugify(titleVernacular)
-  if (titleVernacularSlug) {
-    itemRefs[titleVernacularSlug] = itemRef
-  }
+  const titleVernacularSlug = slugify(titleVernacular) || null
+  const itemRef = useMemo(() => registerItemRef(titleVernacularSlug), [registerItemRef, titleVernacularSlug])
 
   return (
     <Box ref={itemRef} sx={{

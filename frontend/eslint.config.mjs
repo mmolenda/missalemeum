@@ -1,18 +1,30 @@
-import { FlatCompat } from '@eslint/eslintrc'
- 
-const compat = new FlatCompat({
-  // import.meta.dirname is available after Node.js v20.11.0
-  baseDirectory: import.meta.dirname,
-})
- 
-const eslintConfig = [
-  ...compat.config({
-    extends: ['next'],
+// eslint.config.mjs
+import { FlatCompat } from '@eslint/eslintrc';
+
+const compat = new FlatCompat({ baseDirectory: import.meta.dirname });
+
+const config = [
+  // Ignore build artifacts
+  {
+    ignores: [
+      '**/node_modules/**',
+      '**/.next/**',
+      '**/out/**',
+      '**/build/**',
+      'next-env.d.ts',
+    ],
+  },
+
+  // Next.js recommended + Core Web Vitals + TypeScript rules
+  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+
+  // Your tweaks
+  {
     rules: {
       'react/no-unescaped-entities': 'off',
       '@next/next/no-page-custom-font': 'off',
     },
-  }),
-]
- 
-export default eslintConfig
+  },
+];
+
+export default config;

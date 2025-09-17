@@ -36,11 +36,11 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
   if (date) {
     const parsedDate = moment(date, "YYYY-MM-DD");
     label = parsedDate.format("DD MMMM YY, dddd")
-    tags.push(<Tag key={label} icon={showIcon && <EventIcon/>} label={label}/>);
+    tags.push(<Tag key={label} icon={showIcon ? <EventIcon /> : undefined} label={label}/>);
   }
   if (info["tempora"] != null) {
     label = info["tempora"]
-    tags.push(<Tag key={label} icon={showIcon && <TimelapseIcon/>} label={label}/>);
+    tags.push(<Tag key={label} icon={showIcon ? <TimelapseIcon /> : undefined} label={label}/>);
   }
   if (info.rank) {
     label = RANK_NAMES[lang as Locale][info.rank] || ""
@@ -54,9 +54,9 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
         (colorCode === "w" && theme.palette.mode === "light")
         || (colorCode === "b" && theme.palette.mode === "dark")
         || !showIcon) {
-        tag = <Tag key={label} icon={showIcon && <ShieldOutlinedIcon/>} label={label}/>
+        tag = <Tag key={label} icon={showIcon ? <ShieldOutlinedIcon /> : undefined} label={label}/>
       } else {
-        tag = <Tag key={label} color={`vestment${colorCode}` as vestmentColor} icon={showIcon && <ShieldIcon/>} label={label}/>
+        tag = <Tag key={label} color={`vestment${colorCode}` as vestmentColor} icon={showIcon ? <ShieldIcon /> : undefined} label={label}/>
       }
       tags.push(tag);
     }

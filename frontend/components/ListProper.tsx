@@ -4,7 +4,7 @@ import Link from "next/link";
 import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useState} from "react";
+import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useRef, useState} from "react";
 import {
   COMMEMORATION,
   IN,
@@ -22,7 +22,7 @@ import {
   ListItemIcon,
   TextField,
   IconButton,
-  AutocompleteRenderInputParams, lighten, darken, Palette, PaletteColor
+  AutocompleteRenderInputParams, lighten, darken, PaletteColor
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ListItemText from "@mui/material/ListItemText";
@@ -52,24 +52,30 @@ export default function ListProper({
   const [filterString, setFilterString] = useState("")
   const [selectedItem, setSelectedItem] = useState("")
   const router = useRouter()
-  const listItemRefs: Record<string, RefObject<any>> = {}
+  const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({})
 
   useEffect(() => {
-    setSelectedItem(window.location.hash.substring(1) || todayFmt)
-    let listItemRef = listItemRefs[selectedItem]
+    const hashValue = window.location.hash.substring(1)
+    setSelectedItem(hashValue || todayFmt)
+  }, [todayFmt])
+
+  useEffect(() => {
+    const listItemRef = listItemRefs.current[selectedItem]
     if (listItemRef && listItemRef.current) {
       listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
     }
-  })
+  }, [itemsFiltered, listItemRefs, selectedItem])
+
+  listItemRefs.current = {}
 
   const filterItems = (filterString: string) => {
     if (filterString.length === 0) {
       setItemsFiltered(items)
     } else if (filterString.length > 2) {
       filterString = filterString.toLowerCase()
-      let collectedItems = []
-      for (let item of items) {
-        let searchBody = JSON.stringify(item).toLowerCase()
+      const collectedItems = []
+      for (const item of items) {
+        const searchBody = JSON.stringify(item).toLowerCase()
         if (searchBody.includes(filterString)) {
           collectedItems.push(item)
         }
@@ -107,25 +113,37 @@ export default function ListProper({
       }
     }
 
-    const CustomDay = (props: any) => {
-        const { day } = props;
-        const dateProperties = datesProperties[day.format(dateFormat)]
-        const color = dateProperties ? `vestment${dateProperties["color"]}` : "vestmentw"
-        const rank = dateProperties ? dateProperties["rank"] : 4
-        return (
-            <PickersDay {...props}
-                        day={day}
-                        sx={{
-                          fontWeight: rank < 2 ? 800 : 400,
-                          backgroundColor: (theme) => {
-                            const paletteColor = theme.palette[color as keyof typeof theme.palette] as PaletteColor
-                            return theme.palette.mode == "light"
-                              ? lighten(paletteColor.main, 0.5)
-                              : darken(paletteColor.main, 0.65)}}
-                          }
-            />
-        );
-      };
+    // Grab the real prop type from the component…
+    type PickersDayAllProps = React.ComponentProps<typeof PickersDay>;
+
+    // …then override `day` to be Dayjs (or whatever you're using)
+    type CustomDayProps = Omit<PickersDayAllProps, "day"> & { day: Dayjs };
+
+    const CustomDay = ({ day, ...rest }: CustomDayProps) => {
+      const dateProperties = datesProperties[day.format(dateFormat)];
+      const color = dateProperties ? `vestment${dateProperties.color}` : "vestmentw";
+      const rank = dateProperties ? dateProperties.rank : 4;
+
+      return (
+        <PickersDay
+          {...rest}
+          day={day}
+          sx={{
+            fontWeight: rank < 2 ? 800 : 400,
+            backgroundColor: (theme) => {
+              const paletteColor =
+                theme.palette[color as keyof typeof theme.palette] as PaletteColor;
+              return theme.palette.mode === "light"
+                ? lighten(paletteColor.main, 0.5)
+                : darken(paletteColor.main, 0.65);
+            },
+          }}
+        />
+      );
+    };
+    
+    type MDPProps = React.ComponentProps<typeof MobileDatePicker>;
+    type FieldSlotProps = NonNullable<MDPProps["slotProps"]> extends { field?: infer F } ? F : never;
 
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
@@ -137,7 +155,7 @@ export default function ListProper({
             day: CustomDay
           }}
           slotProps={
-            {field: {setOpen} as any}
+            {field: (({ setOpen } as ButtonFieldProps) as unknown as FieldSlotProps)}
           }
           open={open}
           onClose={() => setOpen(false)}
@@ -188,13 +206,13 @@ export default function ListProper({
       <List>
         <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
         {itemsFiltered.map((indexItem) => {
-            let colorCode = indexItem.colors[0]
-            let dateParsed = moment(indexItem.id, "YYYY-MM-DD")
-            let isFirstDayOfMonth = dateParsed.date() === 1
-            let isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
-            let isSunday = dateParsed.isoWeekday() === 7
-            let myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
-            listItemRefs[indexItem.id] = myRef
+            const colorCode = indexItem.colors[0]
+            const dateParsed = moment(indexItem.id, "YYYY-MM-DD")
+            const isFirstDayOfMonth = dateParsed.date() === 1
+            const isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
+            const isSunday = dateParsed.isoWeekday() === 7
+            const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
+            listItemRefs.current[indexItem.id] = myRef
             return <Fragment key={indexItem.id + "1"}>
               {/* Optional heading with the name of month and year */}
               <>{(isFirstDayOfMonth) &&

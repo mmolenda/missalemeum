@@ -31,6 +31,15 @@ import {myLocalStorage} from "./myLocalStorage";
 import {usePathname} from "next/navigation";
 
 
+type LeftHandMenuProps = {
+  lang: Locale
+  toggleDrawer: (open: boolean) => () => void
+  toggleDarkMode: (darkModeNew: boolean) => void
+  darkMode: boolean | undefined
+  switchFontSize: (fontSizeNew: string) => void
+  fontSize: string
+}
+
 const LeftHandMenu = ({
   lang,
   toggleDrawer,
@@ -38,19 +47,12 @@ const LeftHandMenu = ({
   darkMode,
   switchFontSize,
   fontSize
-                      }: {
-  lang: string
-  toggleDrawer: any
-  toggleDarkMode: any
-  darkMode: boolean | undefined
-  switchFontSize: any
-  fontSize: string
-}) => {
+}: LeftHandMenuProps) => {
   const pathname = usePathname()
   const isMenuitemSelected = (route: string) => {
-    let routeSplit = route.split("/")
-    let pathSplit = pathname.split("/")
-    let datePattern = /^[\d-]+$/
+    const routeSplit = route.split("/")
+    const pathSplit = pathname.split("/")
+    const datePattern = /^[\d-]+$/
     if (routeSplit.length < 3) {
       // /pl or /pl/2022-02-02
       return route === pathname || datePattern.test(pathSplit[pathSplit.length - 1])
@@ -70,14 +72,14 @@ const LeftHandMenu = ({
       </IconButton>
       <List>
         {Object.entries({
-          [MENUITEM_PROPER[lang as Locale]]: `/${lang}`,
-          [MENUITEM_ORDO[lang as Locale]]: `/${lang}/ordo`,
-          [MENUITEM_VOTIVE[lang as Locale]]: `/${lang}/votive`,
-          [MENUITEM_ORATIO[lang as Locale]]: `/${lang}/oratio`,
-          [MENUITEM_CANTICUM[lang as Locale]]: `/${lang}/canticum`,
-          [MENUITEM_SUPPLEMENT[lang as Locale]]: `/${lang}/supplement/index`,
-          [MENUITEM_INFO[lang as Locale]]: `/${lang}/supplement/info`,
-          [MENUITEM_ANNOUNCEMENTS[lang as Locale]]: `/${lang}/supplement/announcements`
+          [MENUITEM_PROPER[lang]]: `/${lang}`,
+          [MENUITEM_ORDO[lang]]: `/${lang}/ordo`,
+          [MENUITEM_VOTIVE[lang]]: `/${lang}/votive`,
+          [MENUITEM_ORATIO[lang]]: `/${lang}/oratio`,
+          [MENUITEM_CANTICUM[lang]]: `/${lang}/canticum`,
+          [MENUITEM_SUPPLEMENT[lang]]: `/${lang}/supplement/index`,
+          [MENUITEM_INFO[lang]]: `/${lang}/supplement/info`,
+          [MENUITEM_ANNOUNCEMENTS[lang]]: `/${lang}/supplement/announcements`
         }).map(([label, route]) => (
           <ListItem key={label}>
             <ListItemButton
@@ -122,7 +124,7 @@ export default function MainMenu({
   setDarkMode,
   setFontSize
                                  }: {
-  lang: string
+  lang: Locale
   fontSize: string
   darkMode: boolean | undefined
   setDarkMode: Dispatch<SetStateAction<boolean | undefined>>

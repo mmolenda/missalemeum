@@ -69,10 +69,9 @@ export const SEARCH_SUGGESTIONS_ORATIO: {
 	"en": []
 }
 
-export const MUI_DATEPICKER_LOCALE_TEXT: {
-  pl: any;
-  en: any;
-} = {
+type PickerLocaleText = typeof plPL.components.MuiLocalizationProvider.defaultProps.localeText
+
+export const MUI_DATEPICKER_LOCALE_TEXT: Record<Locale, PickerLocaleText> = {
 	"pl": plPL.components.MuiLocalizationProvider.defaultProps.localeText,
 	"en": enUS.components.MuiLocalizationProvider.defaultProps.localeText
 }
