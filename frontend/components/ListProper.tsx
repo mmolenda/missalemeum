@@ -136,6 +136,9 @@ export default function ListProper({
       );
     };
     
+    type MDPProps = React.ComponentProps<typeof MobileDatePicker>;
+    type FieldSlotProps = NonNullable<MDPProps["slotProps"]> extends { field?: infer F } ? F : never;
+
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
                             localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]}>
@@ -146,7 +149,7 @@ export default function ListProper({
             day: CustomDay
           }}
           slotProps={
-            {field: {setOpen} as any}
+            {field: (({ setOpen } as ButtonFieldProps) as unknown as FieldSlotProps)}
           }
           open={open}
           onClose={() => setOpen(false)}
