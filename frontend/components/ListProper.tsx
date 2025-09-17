@@ -22,7 +22,7 @@ import {
   ListItemIcon,
   TextField,
   IconButton,
-  AutocompleteRenderInputParams, lighten, darken, Palette, PaletteColor
+  AutocompleteRenderInputParams, lighten, darken, PaletteColor
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ListItemText from "@mui/material/ListItemText";
