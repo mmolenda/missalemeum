@@ -27,13 +27,16 @@ export default function Announcement({
   const storageKey = `releaseDialogSeen-${lang}`
   const expirationDate = "2020-01-01 00:00:00"
   useEffect(() => {
-    // must be before the date AND storage says its not seen  OR
-    // debug always opens
-    const isNotSeen= myLocalStorage.getItem(storageKey) !== version
-    const isNotExpired = moment(expirationDate) > moment()
+    if (open) {
+      return
+    }
+
+    // must be before the date AND storage says it's not seen OR debug always opens
+    const isNotSeen = myLocalStorage.getItem(storageKey) !== version
+    const isNotExpired = moment(expirationDate).isAfter(moment())
     // if open state is provided from the outside - open; otherwise evaluate if it should be opened
-    open || setOpen((isNotSeen && isNotExpired) || debug)
-  }, [])
+    setOpen((isNotSeen && isNotExpired) || debug)
+  }, [debug, open, setOpen, storageKey, version])
 
   const handleClose = () => {
     myLocalStorage.setItem(storageKey, version)

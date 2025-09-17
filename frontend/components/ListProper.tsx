@@ -4,7 +4,7 @@ import Link from "next/link";
 import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useState} from "react";
+import React, {createRef, Dispatch, Fragment, RefObject, SetStateAction, useEffect, useRef, useState} from "react";
 import {
   COMMEMORATION,
   IN,
@@ -52,15 +52,21 @@ export default function ListProper({
   const [filterString, setFilterString] = useState("")
   const [selectedItem, setSelectedItem] = useState("")
   const router = useRouter()
-  const listItemRefs: Record<string, RefObject<HTMLLIElement | null>> = {}
+  const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({})
 
   useEffect(() => {
-    setSelectedItem(window.location.hash.substring(1) || todayFmt)
-    const listItemRef = listItemRefs[selectedItem]
+    const hashValue = window.location.hash.substring(1)
+    setSelectedItem(hashValue || todayFmt)
+  }, [todayFmt])
+
+  useEffect(() => {
+    const listItemRef = listItemRefs.current[selectedItem]
     if (listItemRef && listItemRef.current) {
       listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
     }
-  })
+  }, [itemsFiltered, listItemRefs, selectedItem])
+
+  listItemRefs.current = {}
 
   const filterItems = (filterString: string) => {
     if (filterString.length === 0) {
@@ -206,7 +212,7 @@ export default function ListProper({
             const isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth()
             const isSunday = dateParsed.isoWeekday() === 7
             const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>()
-            listItemRefs[indexItem.id] = myRef
+            listItemRefs.current[indexItem.id] = myRef
             return <Fragment key={indexItem.id + "1"}>
               {/* Optional heading with the name of month and year */}
               <>{(isFirstDayOfMonth) &&
