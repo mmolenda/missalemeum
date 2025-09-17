@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run lint && next build",
     "start": "next start",
     "lint": "eslint ."
+  },
+  "engines": {
+    "node": "^18.20.0"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
