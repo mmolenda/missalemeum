@@ -5,7 +5,7 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import React, {createRef, RefObject, useEffect, useState} from "react";
+import React, {createRef, RefObject, useCallback, useEffect, useRef, useState} from "react";
 import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 import {ListItemType} from "@/components/types";
 
@@ -22,22 +22,30 @@ export default function ListCommon({
                                        searchSuggestions?: string[]
                                      }) {
   const [selectedItem, setSelectedItem] = useState("")
-  const listItemRefs: Record<string, RefObject<HTMLLIElement | null>> = {}
+  const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({})
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
 
-  useEffect(() => {
-    setSelectedItem(window.location.hash.substring(1))
-    scrollToListItem(selectedItem)
-  })
-
-  const scrollToListItem = (itemId: string) => {
-    const listItemRef = listItemRefs[itemId]
+  const scrollToListItem = useCallback((itemId: string) => {
+    const listItemRef = listItemRefs.current[itemId]
     if (listItemRef && listItemRef.current) {
       listItemRef.current.scrollIntoView({block: "center", behavior: "auto"})
       listItemRef.current.classList.add("sidenavItemActive")
     }
-  }
+  }, [listItemRefs])
+
+  useEffect(() => {
+    const hash = window.location.hash.substring(1)
+    if (hash) {
+      setSelectedItem(hash)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (selectedItem) {
+      scrollToListItem(selectedItem)
+    }
+  }, [scrollToListItem, selectedItem])
 
   const filterItems = (filterString: string) => {
     if (filterString.length === 0) {
@@ -95,8 +103,8 @@ export default function ListCommon({
       </Box>
       <List>
         {itemsFiltered.map((indexItem) => {
-          const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement | null>()
-          listItemRefs[indexItem.id] = myRef
+          const myRef: RefObject<HTMLLIElement | null> = listItemRefs.current[indexItem.id] ?? createRef<HTMLLIElement | null>()
+          listItemRefs.current[indexItem.id] = myRef
           return (
             <SidenavListItem
               key={indexItem.id}
