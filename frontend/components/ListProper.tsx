@@ -52,7 +52,7 @@ export default function ListProper({
   const [filterString, setFilterString] = useState("")
   const [selectedItem, setSelectedItem] = useState("")
   const router = useRouter()
-  const listItemRefs: Record<string, RefObject<any>> = {}
+  const listItemRefs: Record<string, RefObject<HTMLLIElement | null>> = {}
 
   useEffect(() => {
     setSelectedItem(window.location.hash.substring(1) || todayFmt)
@@ -107,26 +107,35 @@ export default function ListProper({
       }
     }
 
-    const CustomDay = (props: any) => {
-        const { day } = props;
-        const dateProperties = datesProperties[day.format(dateFormat)]
-        const color = dateProperties ? `vestment${dateProperties["color"]}` : "vestmentw"
-        const rank = dateProperties ? dateProperties["rank"] : 4
-        return (
-            <PickersDay {...props}
-                        day={day}
-                        sx={{
-                          fontWeight: rank < 2 ? 800 : 400,
-                          backgroundColor: (theme) => {
-                            const paletteColor = theme.palette[color as keyof typeof theme.palette] as PaletteColor
-                            return theme.palette.mode == "light"
-                              ? lighten(paletteColor.main, 0.5)
-                              : darken(paletteColor.main, 0.65)}}
-                          }
-            />
-        );
-      };
+    // Grab the real prop type from the component…
+    type PickersDayAllProps = React.ComponentProps<typeof PickersDay>;
 
+    // …then override `day` to be Dayjs (or whatever you're using)
+    type CustomDayProps = Omit<PickersDayAllProps, "day"> & { day: Dayjs };
+
+    const CustomDay = ({ day, ...rest }: CustomDayProps) => {
+      const dateProperties = datesProperties[day.format(dateFormat)];
+      const color = dateProperties ? `vestment${dateProperties.color}` : "vestmentw";
+      const rank = dateProperties ? dateProperties.rank : 4;
+
+      return (
+        <PickersDay
+          {...rest}
+          day={day}
+          sx={{
+            fontWeight: rank < 2 ? 800 : 400,
+            backgroundColor: (theme) => {
+              const paletteColor =
+                theme.palette[color as keyof typeof theme.palette] as PaletteColor;
+              return theme.palette.mode === "light"
+                ? lighten(paletteColor.main, 0.5)
+                : darken(paletteColor.main, 0.65);
+            },
+          }}
+        />
+      );
+    };
+    
     return (
       <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
                             localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]}>
