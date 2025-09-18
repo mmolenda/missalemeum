@@ -1,9 +1,14 @@
 "use client"
 
 import React, {useEffect, useState} from "react";
-import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
-import {ThemeProvider, type Theme} from '@mui/material/styles';
-import {appbarDarkGrey, darkRedDarkMode, darkRedLightMode, getDesignTokens} from '@/components/designTokens';
+import {AppRouterCacheProvider} from "@mui/material-nextjs/v15-appRouter";
+import {ThemeProvider, type Theme} from "@mui/material/styles";
+import {
+  appbarDarkGrey,
+  darkRedDarkMode,
+  darkRedLightMode,
+  getDesignTokens,
+} from "@/components/designTokens";
 import {
   AppBar,
   Box,
@@ -13,13 +18,12 @@ import {
   IconButton,
   Toolbar,
   Typography,
-  useMediaQuery
+  useMediaQuery,
 } from "@mui/material";
 
 import {Link as MUILink} from "@mui/material";
 import Logo from "@/components/Logo";
 import MainMenu from "@/components/MainMenu";
-import {Merriweather} from 'next/font/google'
 import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
@@ -30,11 +34,11 @@ import {
   MSG_POLICY_DECLINE_BUTTON,
   MSG_POLICY_LINK,
   SURVEY_BANNER_COPY,
-  SURVEY_LINK
+  SURVEY_LINK,
 } from "@/components/intl";
 import {useParams} from "next/navigation";
 import moment from "moment";
-import 'moment/locale/pl';
+import "moment/locale/pl";
 import Announcement from "@/components/Announcement";
 import CloseIcon from "@mui/icons-material/Close";
 import {
@@ -42,7 +46,7 @@ import {
   BANNER_STORAGE_KEY,
   isBannerExpired,
   getAppBarHeightFromTheme,
-  getBannerExpiryDate
+  getBannerExpiryDate,
 } from "@/components/layoutMetrics";
 
 
@@ -55,12 +59,6 @@ const toLocale = (value?: string): Locale => {
   }
   return DEFAULT_LOCALE;
 };
-
-
-const merriweather = Merriweather({
-  subsets: ['latin'],
-  weight: ["300", "400"]
-})
 
 
 export default function RootLayout({children}: { children: React.ReactNode}) {
@@ -137,18 +135,18 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
     return () => window.clearTimeout(timeoutId)
   }, [bannerVisible])
 
-  return (<html lang={lang} className={merriweather.className} translate="no">
+  return (
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
-        <CssBaseline/>
-        <body>
+        <CssBaseline />
         <Announcement
           lang={lang}
           version={process.env.NEXT_PUBLIC_BUILD_VERSION || "noversion"}
           debug={false}
           open={announcementOpened}
-          setOpen={setAnnouncementOpened} />
-        <Container disableGutters sx={{backgroundColor: "background.default"}}>
+          setOpen={setAnnouncementOpened}
+        />
+        <Container disableGutters sx={{backgroundColor: "background.default", minHeight: "100vh"}}>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
@@ -159,8 +157,12 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 setFontSize={setFontSize}
               />
               <MUILink component={Link} href={`/${lang}`} sx={{display: "flex", textDecoration: "none"}}>
-                <Logo width={28} height={28}/>
-                <Typography variant="h1" component="div">Missale<br/>Meum</Typography>
+                <Logo width={28} height={28} />
+                <Typography variant="h1" component="div">
+                  Missale
+                  <br />
+                  Meum
+                </Typography>
               </MUILink>
             </Toolbar>
           </AppBar>
@@ -168,11 +170,14 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           {bannerVisible && (
             <Box
               sx={(theme: Theme) => ({
-                position: 'fixed',
+                position: "fixed",
                 top: `${appBarHeight}px`,
                 left: 0,
                 right: 0,
-                backgroundColor: theme.palette.mode === 'dark' ? theme.palette.background.paper : theme.palette.background.default,
+                backgroundColor:
+                  theme.palette.mode === "dark"
+                    ? theme.palette.background.paper
+                    : theme.palette.background.default,
                 borderBottom: `1px solid ${theme.palette.divider}`,
                 zIndex: Math.max(0, theme.zIndex.appBar - 1),
               })}
@@ -180,28 +185,27 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
               <ContainerMedium
                 disableGutters
                 sx={(theme: Theme) => ({
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
                   gap: 2,
                   px: {xs: 2, sm: 3},
                   minHeight: `${BANNER_HEIGHT}px`,
-                  color: theme.palette.mode === 'dark' ? theme.palette.common.white : theme.palette.common.black,
+                  color:
+                    theme.palette.mode === "dark"
+                      ? theme.palette.common.white
+                      : theme.palette.common.black,
                 })}
               >
-                <Typography
-                  variant="body2"
-                  sx={{
-                    fontWeight: 500,
-                  }}
-                >
+                <Typography variant="body2" sx={{fontWeight: 500}}>
                   <MUILink
                     href={surveyLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     underline="always"
                     sx={(theme: Theme) => ({
-                      color: theme.palette.mode === 'dark' ? darkRedDarkMode : darkRedLightMode,
+                      color:
+                        theme.palette.mode === "dark" ? darkRedDarkMode : darkRedLightMode,
                     })}
                   >
                     {bannerCopy.linkText}
@@ -220,16 +224,15 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
             </Box>
           )}
 
-          <ContainerMedium disableGutters sx={{display: 'flex', overflow: 'hidden', height: "100%"}}>
-
+          <ContainerMedium disableGutters sx={{display: "flex", overflow: "hidden", height: "100%"}}>
             <Box
               id="content"
               sx={{
-                overflowY: 'scroll',
-                width: '100%',
+                overflowY: "scroll",
+                width: "100%",
                 ml: 0,
                 pt: `${contentTopPadding}px`,
-                height: "100%"
+                height: "100%",
               }}
             >
               {children}
@@ -240,15 +243,20 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
               sx={{
                 py: "2rem",
                 color: theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
-                fontSize: "0.9rem"
-              }}>☩
-              A. M. D. G. ☩</Typography>
+                fontSize: "0.9rem",
+              }}
+            >
+              ☩ A. M. D. G. ☩
+            </Typography>
             <Typography
               sx={{
                 py: "2rem",
                 color: theme.palette.mode === "dark" ? "primary.dark" : "primary.light",
-                fontSize: "0.75rem"
-              }}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
+                fontSize: "0.75rem",
+              }}
+            >
+              {process.env.NEXT_PUBLIC_BUILD_VERSION}
+            </Typography>
           </ContainerMedium>
           <CookieConsent
             cookieName="MMCookieConsent"
@@ -256,16 +264,15 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
             declineButtonStyle={{background: appbarDarkGrey}}
             buttonStyle={{background: "#e49086"}}
             declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
-            buttonText="OK">
+            buttonText="OK"
+          >
             {MSG_COOKIES[lang]}
             <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
               {MSG_POLICY_LINK[lang]}
             </MUILink>
           </CookieConsent>
         </Container>
-        </body>
       </ThemeProvider>
     </AppRouterCacheProvider>
-    </html>
   );
 }

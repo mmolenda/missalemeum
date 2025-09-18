@@ -14,21 +14,22 @@ const toLocale = (value?: string): "en" | "pl" => {
   return FALLBACK;
 };
 
-const resolveLocale = () => {
-  const cookieStore = cookies();
+const resolveLocale = async () => {
+  const cookieStore = await cookies();
   const preferredFromCookie = cookieStore.get("mm-last-locale")?.value;
   if (preferredFromCookie) {
     return toLocale(preferredFromCookie);
   }
 
-  const accept = headers().get("accept-language") ?? DEFAULT_LOCALE;
+  const headerStore = await headers();
+  const accept = headerStore.get("accept-language") ?? DEFAULT_LOCALE;
   const resolved = resolveAcceptLanguage(accept, SUPPORTED, DEFAULT_LOCALE);
   return toLocale(resolved.split("-")[0]);
 };
 
 export const dynamic = "force-dynamic";
 
-export default function CalendarLaunchPage() {
-  const targetLocale = resolveLocale();
+export default async function CalendarLaunchPage() {
+  const targetLocale = await resolveLocale();
   redirect(`/${targetLocale}/calendar`);
 }
