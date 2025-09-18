@@ -1,0 +1,296 @@
+.landingBody {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #faf4ef 0%, #ffffff 65%, #fdfaf7 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .landingBody {
+    background: radial-gradient(circle at top, rgba(80, 0, 0, 0.45), rgba(10, 10, 10, 0.92));
+    color: rgba(255, 255, 255, 0.92);
+  }
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.heroTag {
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(139, 0, 0, 0.09);
+  color: #6b0404;
+}
+
+.heroHeading {
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.heroIntro {
+  font-size: clamp(1.05rem, 2.3vw, 1.3rem);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.todayBlurb {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-weight: 600;
+  color: #7a0c0c;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.primaryCta {
+  background: linear-gradient(135deg, #7a0c0c, #b61d1d);
+  color: #fff;
+  box-shadow: 0 14px 30px rgba(122, 12, 12, 0.2);
+}
+
+.primaryCta:hover,
+.primaryCta:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 32px rgba(122, 12, 12, 0.28);
+}
+
+.secondaryCta {
+  background: rgba(0, 0, 0, 0.05);
+  color: inherit;
+}
+
+.secondaryCta:hover,
+.secondaryCta:focus-visible {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.section {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.sectionHeading {
+  font-size: clamp(1.75rem, 3vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.textBlock {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.featureGrid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  padding: 1.6rem;
+  border-radius: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.cardText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.inlineLink {
+  color: #7a0c0c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.inlineLink:hover,
+.inlineLink:focus-visible {
+  text-decoration: underline;
+}
+
+.faqList {
+  display: grid;
+  gap: 1rem;
+}
+
+.faqList details {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.9rem;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.faqList details[open] {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.faqList summary {
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.faqList summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqList summary::after {
+  content: "+";
+  float: right;
+  font-weight: 700;
+}
+
+.faqList details[open] summary::after {
+  content: "−";
+}
+
+.faqList summary span {
+  display: inline-block;
+  margin-right: 0.75rem;
+}
+
+.articleList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.articleList li {
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+.articleList li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #b61d1d;
+  font-size: 1.1rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .heroIntro,
+  .textBlock,
+  .cardText,
+  .meta {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .todayBlurb {
+    color: rgba(255, 200, 200, 0.9);
+  }
+
+  .secondaryCta {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .secondaryCta:hover,
+  .secondaryCta:focus-visible {
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  .card {
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(30, 30, 30, 0.65);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.4);
+  }
+
+  .faqList details {
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgba(30, 30, 30, 0.65);
+  }
+
+  .heroTag {
+    background: rgba(182, 29, 29, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .inlineLink {
+    color: #ffa5a5;
+  }
+}
+
+@media (max-width: 720px) {
+  .landingBody {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #faf4ef 0%, #ffffff 65%, #fdfaf7 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .landingBody {
+    background: radial-gradient(circle at top, rgba(80, 0, 0, 0.45), rgba(10, 10, 10, 0.92));
+    color: rgba(255, 255, 255, 0.92);
+  }
+}
+
+.page {
+    padding: 3rem 1.25rem 4rem;
+    gap: 3rem;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ctaButton {
+    width: 100%;
+  }
+}

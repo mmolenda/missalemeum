@@ -57,18 +57,23 @@ const LeftHandMenu = ({
 }: LeftHandMenuProps) => {
   const pathname = usePathname()
   const isMenuitemSelected = (route: string) => {
-    const routeSplit = route.split("/")
-    const pathSplit = pathname.split("/")
-    const datePattern = /^[\d-]+$/
-    if (routeSplit.length < 3) {
-      // /pl or /pl/2022-02-02
-      return route === pathname || datePattern.test(pathSplit[pathSplit.length - 1])
+    const normalisedRoute = route.replace(/\/$/, "");
+    const normalisedPath = pathname.replace(/\/$/, "");
+    if (normalisedPath === normalisedRoute) {
+      return true;
     }
-    return pathname.startsWith(route)
+    if (normalisedRoute.endsWith('/calendar')) {
+      if (!normalisedPath.startsWith(`${normalisedRoute}/`)) {
+        return false;
+      }
+      const remainder = normalisedPath.slice(normalisedRoute.length + 1);
+      return remainder.length > 0 && /^[\\d-]+$/.test(remainder);
+    }
+    return normalisedPath.startsWith(`${normalisedRoute}/`);
   }
 
   const menuItems: Array<{label: string; route: string; external?: boolean}> = [
-    {label: MENUITEM_PROPER[lang], route: `/${lang}`},
+    {label: MENUITEM_PROPER[lang], route: `/${lang}/calendar`},
     {label: MENUITEM_ORDO[lang], route: `/${lang}/ordo`},
     {label: MENUITEM_VOTIVE[lang], route: `/${lang}/votive`},
     {label: MENUITEM_ORATIO[lang], route: `/${lang}/oratio`},

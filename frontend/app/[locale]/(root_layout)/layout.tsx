@@ -137,7 +137,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
     return () => window.clearTimeout(timeoutId)
   }, [bannerVisible])
 
-  return (<html lang="en" className={merriweather.className} translate="no">
+  return (<html lang={lang} className={merriweather.className} translate="no">
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
         <CssBaseline/>
@@ -158,7 +158,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 fontSize={fontSize}
                 setFontSize={setFontSize}
               />
-              <MUILink component={Link} href="/pl" sx={{display: "flex", textDecoration: "none"}}>
+              <MUILink component={Link} href={`/${lang}`} sx={{display: "flex", textDecoration: "none"}}>
                 <Logo width={28} height={28}/>
                 <Typography variant="h1" component="div">Missale<br/>Meum</Typography>
               </MUILink>
