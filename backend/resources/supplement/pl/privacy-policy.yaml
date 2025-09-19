@@ -6,45 +6,45 @@ sections:
 - body:
   -
     - |
-        1. Korzystając z serwisu Missale Meum, akceptujesz zasady Polityki Prywatności.
-        
-        2. Następujące informacje pozyskiwane są w trakcie korzystania z serwisu przez Użytkowników:
-        
-            - czas wysłania odpowiedzi przez serwer,
-            - adres IP urządzenia Użytkownika, 
-            - żądanie Użytkownika (adres strony, na którą wszedł Użytkownik), 
-            - adres „referer link” w przypadku, gdy przejście na stronę nastąpiło przez odnośnik, 
-            - informacje o wersji przeglądarki internetowej (stron www) Użytkownika,
-            - informacje o wersji systemu operacyjnego Użytkownika.
-        
-        3. W ramach działalności serwisu Missale Meum wykorzystywane są również pliki cookies zapisywane w urządzeniach 
-        końcowych Użytkowników. Pliki cookies (tzw. ciasteczka) to niewielkie pliki tekstowe wysyłane przez odwiedzany 
-        serwis internetowy do urządzenia Użytkownika.
-        
-        4. Każdy Użytkownik może zindywidualizować swoje ustawienia dotyczące plików cookies w przeglądarce. 
-        Brak zmiany tych ustawień oznacza akceptację dla plików cookies stosowanych w serwisie Missale Meum.
-        
-        5. Najczęściej przeglądarki internetowe domyślnie dopuszczają przechowywanie plików cookies na komputerze 
-        Użytkownika. Internauci mogą samodzielnie w każdym momencie zmienić te ustawienia, w tym zablokować pliki 
-        cookies. Pamiętać trzeba jednak, że zmiany ustawień plików cookies polegające na ograniczeniu ich stosowania 
-        mogą spowodować, iż niektóre funkcje serwisu Missale Meum mogą nie działać poprawnie.
-        
-        6. Serwis Missale Meum używa plików cookies jedynie w celu obsługi skryptów statystyk.
-        
-        7. W powyższych celach stosowane są przez Missale Meum powszechne na rynku internetowe technologie obserwowania 
-        służące monitoringowi ruchu. Serwis Missale Meum gromadzi anonimowe dane dotyczące odwiedzanych stron, takie jak: 
-        
-            - liczba wejść unikalnych/odsłon,
-            - kraj, 
-            - przeglądarka,
-            - czas wizyty.
-        
-            Dane są gromadzone za pomocą rozwiązań zewnętrznych dostawców. Obecnie używamy Cloudflare.
-            Prosimy o zapoznanie się ze szczegółami 
-            [polityki prywatności Cloudflare](https://www.cloudflare.com/privacypolicy/).
-        
-        
-        8. Zastrzegamy prawo zmiany Polityki Prywatności poprzez opublikowanie jej nowej treści w serwisie www.missalemeum.com.
-        9. W każdej chwili można skontaktować się z nami pod adresem kontakt@missalemeum.com.
+        Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych. Niniejsza polityka wyjaśnia, 
+        jakie informacje zbieramy, w jaki sposób je wykorzystujemy oraz jakie prawa Ci przysługują.
+
+        ### Hosting i lokalizacja danych
+        Nasz serwer znajduje się w Unii Europejskiej. Wszelkie dane przetwarzane za pośrednictwem naszej strony 
+        są obsługiwane w UE lub przez usługi zewnętrzne zgodne z RODO oraz innymi obowiązującymi przepisami o ochronie prywatności.  
+
+        ### Analityka i logi
+        Aby utrzymywać i ulepszać naszą stronę, korzystamy z następujących usług:  
+
+        - **Simple Analytics** – Używamy [Simple Analytics](https://simpleanalytics.com/), aby zrozumieć, w jaki 
+        sposób odwiedzający korzystają z naszej strony. Usługa ta nie używa plików cookie i nie gromadzi danych 
+        osobowych. Dostarcza nam wyłącznie zagregowane, anonimowe statystyki (na przykład, które strony są najczęściej 
+        odwiedzane).  
+
+        - **Cloudflare Analytics** – Ruch na naszej stronie jest obsługiwany przez Cloudflare. Cloudflare zapewnia nam 
+        podstawowe statystyki ruchu i może ustawiać pliki cookie w celu zapewnienia bezpieczeństwa i wydajności sieci.  
+
+        - **Grafana Cloud Logs** – Korzystamy z Grafana Cloud do gromadzenia logów serwera. Logi te mogą zawierać adresy 
+        IP oraz informacje techniczne (takie jak typ przeglądarki, czas dostępu czy komunikaty o błędach). Informacje te 
+        są wykorzystywane wyłącznie do rozwiązywania problemów oraz zapewnienia stabilności i bezpieczeństwa strony.  
+
+        ### Pliki cookie i pamięć przeglądarki
+        Nie ustawiamy własnych plików cookie. Jednak niektóre z usług zewnętrznych wymienionych powyżej (takie jak 
+        Cloudflare) mogą ustawiać pliki cookie w ramach swojego działania.  
+
+        Przechowujemy również niektóre ustawienia użytkownika (na przykład dotyczące interfejsu lub wyświetlania) 
+        w **local storage** przeglądarki. Informacje te nigdy nie opuszczają Twojego urządzenia i nie są udostępniane 
+        nam ani podmiotom trzecim.  
+
+        ### Twoje prawa
+        Jeśli znajdujesz się na terenie Unii Europejskiej, masz prawo do:  
+        - uzyskania dostępu do danych, które o Tobie przetwarzamy,  
+        - żądania sprostowania lub usunięcia swoich danych osobowych,  
+        - ograniczenia lub wniesienia sprzeciwu wobec określonego przetwarzania,  
+        - złożenia skargi do lokalnego organu nadzorczego ds. ochrony danych.  
+
+        ### Kontakt
+        W przypadku pytań dotyczących niniejszej polityki prosimy o kontakt pod adresem [info@missalemeum.com](mailto:info@missalemeum.com).
+
   id: ''
   label: ''
