@@ -273,7 +273,6 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
         </CookieConsent>
         </Container>
         <Script async src="https://scripts.simpleanalyticscdn.com/latest.js" />
-        </body>
       </ThemeProvider>
     </AppRouterCacheProvider>
   );

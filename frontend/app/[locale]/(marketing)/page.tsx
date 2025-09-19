@@ -184,6 +184,11 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
   },
 };
 
+const PHOTO_CREDIT: Record<Locale, string> = {
+  en: 'Photography courtesy of "Jerzy Szałaciński | key4"',
+  pl: 'Fotografie dzięki uprzejmości „Jerzego Szałacińskiego | key4”',
+};
+
 const renderIntro = (lang: Locale) => {
   if (lang === "pl") {
     return (
@@ -512,6 +517,7 @@ export default async function LandingPage({
   const { locale } = await params;
   const lang = (locale === "pl" ? "pl" : "en") as Locale;
   const copy = LANDING_COPY[lang];
+  const photoCredit = PHOTO_CREDIT[lang];
 
   const calendarUrl = `/${lang}/calendar`;
   const today = new Date();
@@ -680,6 +686,10 @@ export default async function LandingPage({
           <p className={styles.meta}>{copy.metaNote}</p>
         </section>
       </main>
+
+      <footer className={styles.footer}>
+        <p className={styles.photoCredit}>{photoCredit}</p>
+      </footer>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }} />
     </>

@@ -50,6 +50,21 @@
   gap: 1.5rem;
 }
 
+.photoCredit {
+  font-size: 0.78rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 0 1.5rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
 .heroIdentity {
   display: flex;
   align-items: center;
@@ -439,6 +454,10 @@
   .faqList details {
     border-color: rgba(255, 255, 255, 0.14);
     background: rgba(30, 30, 30, 0.7);
+  }
+
+  .photoCredit {
+    color: rgba(255, 255, 255, 0.68);
   }
 }
 
