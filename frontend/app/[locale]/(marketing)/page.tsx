@@ -58,7 +58,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     heroIntro:
       "A bilingual edition of the 1962 Roman Missal. Follow the liturgical year, study the daily propers, and keep trusted devotions close—wherever you pray.",
     primaryCtaLabel: "Learn more about Missale Meum",
-    secondaryCtaLabel: "Browse the liturgical readings",
+    secondaryCtaLabel: "Browse the calendar",
     todayCtaLabel: "Open today's proper",
     internalNav: [
       { label: "Overview", targetId: ABOUT_SECTION_ID },
@@ -123,12 +123,12 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       "Missale Meum udostępnia codzienne teksty i czytania do mszy trydenckiej, wraz z kalendarzem liturgicznym i proprium – wszystko w prosty i przejrzysty sposób.",
     heroTag: "Msza Trydencka",
     heroHeading: "Missale Meum",
-    heroSubheading: "Teksty i czytania do Mszy trydenckiej (Mszał 1962)",
+    heroSubheading: "Teksty i czytania do Mszy trydenckiej",
     heroIntro:
       "Dwujęzyczne wydanie Mszału Rzymskiego z 1962 roku. Śledź rok liturgiczny, czytaj codzienne proprium i miej sprawdzone modlitwy zawsze pod ręką.",
     primaryCtaLabel: "Poznaj Missale Meum",
-    secondaryCtaLabel: "Przeglądaj czytania liturgiczne",
-    todayCtaLabel: "Przejdź do dzisiejszego proprium",
+    secondaryCtaLabel: "Kalendarz liturgiczny",
+    todayCtaLabel: "Dzisiejsze proprium",
     internalNav: [
       { label: "Wprowadzenie", targetId: ABOUT_SECTION_ID },
       { label: "Struktura mszału", targetId: STRUCTURE_SECTION_ID },
@@ -582,14 +582,14 @@ export default async function LandingPage({
           {copy.heroSubheading ? <h2 className={styles.heroSubheading}>{copy.heroSubheading}</h2> : null}
           <p className={styles.heroIntro}>{copy.heroIntro}</p>
           <div className={styles.ctaGroup}>
-            <Link href={`#${ABOUT_SECTION_ID}`} className={`${styles.ctaButton} ${styles.primaryCta}`}>
-              {copy.primaryCtaLabel}
+            <Link href={todayUrl} className={`${styles.ctaButton} ${styles.secondaryCta}`}>
+              {copy.todayCtaLabel}
             </Link>
-            <Link href={calendarUrl} className={`${styles.ctaButton} ${styles.secondaryCta}`}>
+            <Link href={calendarUrl} className={`${styles.ctaButton} ${styles.primaryCta}`}>
               {copy.secondaryCtaLabel}
             </Link>
-            <Link href={todayUrl} className={`${styles.ctaButton} ${styles.tertiaryCta}`}>
-              {copy.todayCtaLabel}
+            <Link href={`#${ABOUT_SECTION_ID}`} className={`${styles.ctaButton} ${styles.tertiaryCta}`}>
+              {copy.primaryCtaLabel}
             </Link>
           </div>
         </div>

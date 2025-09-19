@@ -155,15 +155,16 @@
 }
 
 .tertiaryCta {
-  background: rgba(59, 26, 16, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   color: #ffffff;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(4px);
 }
 
 .tertiaryCta:hover,
 .tertiaryCta:focus-visible {
-  background: rgba(75, 33, 20, 0.95);
+  background: rgba(255, 255, 255, 0.22);
   transform: translateY(-1px);
 }
 
