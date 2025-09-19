@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { generateLocalisedMetadata } from "@/components/utils";
 import { Locale } from "@/components/intl";
@@ -446,12 +447,16 @@ const renderTrustSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Missale Meum jest projektem społecznym rozwijanym przez tradycyjnych katolików w Polsce. Bazuje na wydaniu typicznym z 1962 r. i konsultacjach z kapłanami celebrującymi w
-          nadzwyczajnej formie rytu rzymskiego. Każda aktualizacja jest publicznie dokumentowana, a użytkownicy mogą zgłaszać sugestie poprzez repozytorium GitHub.
+          Missale Meum to osobisty projekt Marcina Molendy — męża i ojca, który z pasją łączy liturgię i technologię. Serwis działa w sieci od 2018 roku, a przez lata rozwinął się dzięki
+          wiernym korzystającym z tradycyjnej liturgii w Polsce i na świecie.
         </p>
         <p>
-          Dbamy o przejrzystość źródeł, korekt i tłumaczeń. Teksty są przygotowywane z zachowaniem ortografii kościelnej, a przypisy wyjaśniają różnice wobec starszych wydań mszału
-          lub zwyczajów lokalnych. Dzięki temu Missale Meum pozostaje wiarygodnym narzędziem, które można polecić wspólnotom parafialnym i kapłanom.
+          Marcin współpracuje z kapłanami celebrującymi w nadzwyczajnej formie rytu rzymskiego oraz z redaktorami świeckimi. Każda aktualizacja jest publicznie dokumentowana, a
+          zgłoszenia użytkowników trafiają do repozytorium GitHub, gdzie przechodzą weryfikację przed publikacją.
+        </p>
+        <p>
+          Teksty zachowują ortografię kościelną, a przypisy wyjaśniają różnice wobec starszych wydań mszału i zwyczajów lokalnych. Dzięki przejrzystości źródeł i korekt Missale Meum
+          pozostaje wiarygodnym narzędziem do modlitwy i studium.
         </p>
       </>
     );
@@ -460,12 +465,16 @@ const renderTrustSection = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum is maintained by traditional Catholics in Poland who collaborate with clergy experienced in the Extraordinary Form. Every update is recorded publicly, and the
-        community can propose corrections through the project’s GitHub repository.
+        Missale Meum is the personal project of Marcin Molenda—a husband, father, and developer who loves bringing liturgy and technology together. Online since 2018, it has grown
+        alongside the faithful who rely on the Traditional Latin Mass across the world.
       </p>
       <p>
-        Sources, translations, and editorial decisions are documented with care. Texts respect liturgical orthography, and notes flag divergences found in older hand missals or
-        local customs. This transparency helps parishes, choirs, and priests trust Missale Meum as a reliable study and prayer companion.
+        Marcin collaborates with clergy experienced in the Extraordinary Form and with lay editors. Updates are logged publicly and community suggestions flow through the GitHub
+        repository, where they are reviewed before publication.
+      </p>
+      <p>
+        Sources, translations, and editorial choices are carefully documented. Rubrical notes highlight differences from earlier hand missals or local customs so Missale Meum remains
+        a trustworthy companion for prayer, study, and parish life.
       </p>
     </>
   );
@@ -518,6 +527,7 @@ export default async function LandingPage({
   const lang = (locale === "pl" ? "pl" : "en") as Locale;
   const copy = LANDING_COPY[lang];
   const photoCredit = PHOTO_CREDIT[lang];
+  const authorAlt = lang === "pl" ? "Portret Marcina Molendy" : "Portrait of Marcin Molenda";
 
   const calendarUrl = `/${lang}/calendar`;
   const today = new Date();
@@ -662,7 +672,17 @@ export default async function LandingPage({
         <section id={TRUST_SECTION_ID} className={styles.section}>
           <h2 className={styles.sectionHeading}>{copy.trustHeading}</h2>
           <div className={styles.trustCard}>
-            <div className={styles.longForm}>{renderTrustSection(lang)}</div>
+            <div className={styles.trustBody}>
+              <Image
+                src="/images/author.webp"
+                alt={authorAlt}
+                width={112}
+                height={112}
+                className={styles.trustAvatar}
+                sizes="112px"
+              />
+              <div className={styles.longForm}>{renderTrustSection(lang)}</div>
+            </div>
             <p className={styles.trustSignature}>{copy.trustSignature}</p>
           </div>
         </section>

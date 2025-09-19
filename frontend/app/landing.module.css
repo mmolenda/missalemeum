@@ -328,6 +328,24 @@
   gap: 1rem;
 }
 
+.trustBody {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.trustAvatar {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
+  background: #ffffff;
+}
+
+.trustBody .longForm {
+  gap: 1.25rem;
+}
+
 .trustSignature {
   font-weight: 600;
   color: #6b0404;
@@ -407,6 +425,12 @@
   .trustSignature {
     color: rgba(255, 200, 200, 0.9);
   }
+
+  .trustAvatar {
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 20px 34px rgba(0, 0, 0, 0.55);
+    background: rgba(40, 40, 40, 0.8);
+  }
 }
 
 .faqList {
@@ -485,5 +509,17 @@
   .ctaButton {
     width: 100%;
     justify-content: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .trustBody {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .trustBody .longForm {
+    text-align: center;
   }
 }
