@@ -6,42 +6,42 @@ sections:
 - body:
   -
     - |
-        1. By using the Missale Meum website, you accept the Privacy Policy.
-        
-        2. The servers automatically collect the following User data:
-            
-            - time of sending the response by the server,
-            - the IP address of the User's device,
-            - the User's request (address of the page the User entered),
-            - "referrer link" address if the website was accessed via a link,
-            - information about the version of the User's web browser,
-            - information about the version of the User's operating system.
-        
-        3. As part of the operation of the Missale Meum website, cookies are also used, which are saved in the Users' 
-        end devices. Cookie files are small text files sent by the visited website to the User's device.
-        
-        4. Each User can individualize their cookie settings in the browser. If you do not change these settings, 
-        this means that you accept the cookies used by the Missale Meum service.
-        
-        5. Most often, web browsers allow cookies to be stored on the User's computer by default. Internet users can 
-        change these settings by themselves at any time, including blocking cookies. It should be remembered, however, 
-        that changes to cookie settings consisting in limiting their use may cause that some functions of the 
-        Missale Meum website may not work properly.
-        
-        6. The Missale Meum website uses cookies to only support statistics scripts.
-          
-        7. For the above purposes, Missale Meum uses Internet tracking technologies that are common on the market for 
-        traffic monitoring. The Missale Meum website collects anonymous data about the websites you visit, such as:
-        
-            - number of unique visits/views,
-            - country,
-            - browser,
-            - visit time.
-            - Data is collected using third-party solutions. We currently use Cloudflare. Please read 
-            the details of the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
-        
-        8. We reserve the right to change the Privacy Policy by publishing its new content on the website www.missalemeum.com.
-        
-        9. You can contact us at any time at contact@missalemeum.com.
+        We respect your privacy and are committed to protecting your personal data. This policy explains what information 
+        we collect, how we use it, and what rights you have.  
+
+        ### Hosting and Data Location
+        Our server is located in the European Union. Any data processed through our website is handled within the EU or 
+        y third-party services that comply with GDPR and other applicable privacy regulations.  
+
+        ### Analytics and Logging
+        To operate and improve our website, we use the following services:  
+
+        - **Simple Analytics** – We use [Simple Analytics](https://simpleanalytics.com/) to understand how visitors use 
+        our website. This service does not use cookies and does not collect any personal data. It only provides us with 
+        aggregated, anonymous statistics (for example, which pages are most visited).  
+
+        - **Cloudflare Analytics** – Our website traffic is routed through Cloudflare. Cloudflare provides us with basic 
+        traffic analytics and may set cookies to ensure security and network performance.  
+
+        - **Grafana Cloud Logs** – We use Grafana Cloud to collect server logs. These logs may contain IP addresses and 
+        technical information (such as browser type, time of access, or error messages). This information is used solely 
+        for troubleshooting and ensuring the stability and security of the website.  
+
+        ### Cookies and Browser Storage
+        We do not set cookies of our own. However, some of the third-party services listed above (such as Cloudflare) may 
+        set cookies as part of their operation.  
+
+        We also store certain user preferences (for example, interface or display settings) in your browser’s **local storage**. 
+        This information never leaves your device and is not shared with us or third parties.  
+
+        ### Your Rights
+        If you are located in the European Union, you have the right to:  
+        - Access the data we process about you,  
+        - Request correction or deletion of your personal data,  
+        - Restrict or object to certain processing,  
+        - File a complaint with your local data protection authority.  
+
+        ### Contact
+        If you have any questions about this policy, please contact us at [info@missalemeum.com](mailto:info@missalemeum.com).  
   id: ''
   label: ''

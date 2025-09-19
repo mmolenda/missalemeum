@@ -21,6 +21,7 @@ import Logo from "@/components/Logo";
 import MainMenu from "@/components/MainMenu";
 import {Merriweather} from 'next/font/google'
 import Link from "next/link";
+import Script from "next/script";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
@@ -250,19 +251,20 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 fontSize: "0.75rem"
               }}>{process.env.NEXT_PUBLIC_BUILD_VERSION}</Typography>
           </ContainerMedium>
-          <CookieConsent
-            cookieName="MMCookieConsent"
-            enableDeclineButton
-            declineButtonStyle={{background: appbarDarkGrey}}
-            buttonStyle={{background: "#e49086"}}
-            declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
-            buttonText="OK">
-            {MSG_COOKIES[lang]}
-            <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
-              {MSG_POLICY_LINK[lang]}
-            </MUILink>
-          </CookieConsent>
+        <CookieConsent
+          cookieName="MMCookieConsent"
+          enableDeclineButton
+          declineButtonStyle={{background: appbarDarkGrey}}
+          buttonStyle={{background: "#e49086"}}
+          declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
+          buttonText="OK">
+          {MSG_COOKIES[lang]}
+          <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
+            {MSG_POLICY_LINK[lang]}
+          </MUILink>
+        </CookieConsent>
         </Container>
+        <Script async src="https://scripts.simpleanalyticscdn.com/latest.js" />
         </body>
       </ThemeProvider>
     </AppRouterCacheProvider>
