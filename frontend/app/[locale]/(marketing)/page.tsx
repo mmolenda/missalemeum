@@ -26,6 +26,7 @@ type LandingCopy = {
   metaDescription: string;
   heroTag: string;
   heroHeading: string;
+  heroSubheading?: string;
   heroIntro: string;
   primaryCtaLabel: string;
   secondaryCtaLabel: string;
@@ -48,13 +49,14 @@ type LandingCopy = {
 
 const LANDING_COPY: Record<Locale, LandingCopy> = {
   en: {
-    metaTitle: "Traditional Latin Mass Missal online",
+    metaTitle: "Missale Meum – Latin Mass readings and resources made simple",
     metaDescription:
-      "Missale Meum offers the full 1962 Roman Missal with daily propers, calendar, votive Masses, prayers, chants, and supplements prepared by traditional Catholics.",
+      "Missale Meum provides complete daily Latin Mass readings and resources, accessible and simple to use.",
     heroTag: "1962 Roman Missal",
-    heroHeading: "Pray the Traditional Latin Mass with confidence",
+    heroHeading: "Missale Meum",
+    heroSubheading: "Complete resources for the Latin Mass (1962 Missal)",
     heroIntro:
-      "Missale Meum is a carefully edited, bilingual edition of the 1962 Roman Missal. Explore the liturgical year, study the daily propers, and keep trusted devotions close—wherever you pray.",
+      "A bilingual edition of the 1962 Roman Missal. Follow the liturgical year, study the daily propers, and keep trusted devotions close—wherever you pray.",
     primaryCtaLabel: "Learn more about Missale Meum",
     secondaryCtaLabel: "Browse the liturgical readings",
     todayCtaLabel: "Open today's proper",
@@ -116,13 +118,14 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     metaNote: "Content sourced from the 1962 Roman Missal and traditional liturgical books.",
   },
   pl: {
-    metaTitle: "Mszał Rzymski 1962 online",
+    metaTitle: "Missale Meum – Teksty i czytania do mszy trydenckiej",
     metaDescription:
-      "Missale Meum udostępnia kompletny Mszał Rzymski z 1962 r. wraz z proprium dnia, kalendarzem, mszami wotywnymi, modlitwami, śpiewami i suplementem przygotowanym przez tradycyjnych katolików.",
+      "Missale Meum udostępnia codzienne teksty i czytania do mszy trydenckiej, wraz z kalendarzem liturgicznym i proprium – wszystko w prosty i przejrzysty sposób.",
     heroTag: "Msza Trydencka",
-    heroHeading: "Z Missale Meum modlisz się według klasycznego Mszału",
+    heroHeading: "Missale Meum",
+    heroSubheading: "Teksty i czytania do Mszy trydenckiej (Mszał 1962)",
     heroIntro:
-      "Missale Meum to starannie opracowana, dwujęzyczna wersja Mszału Rzymskiego z 1962 r. Pozwala śledzić rok liturgiczny, czytać proprium dnia i zawsze mieć pod ręką sprawdzone modlitwy.",
+      "Dwujęzyczne wydanie Mszału Rzymskiego z 1962 roku. Śledź rok liturgiczny, czytaj codzienne proprium i miej sprawdzone modlitwy zawsze pod ręką.",
     primaryCtaLabel: "Poznaj Missale Meum",
     secondaryCtaLabel: "Przeglądaj czytania liturgiczne",
     todayCtaLabel: "Przejdź do dzisiejszego proprium",
@@ -576,6 +579,7 @@ export default async function LandingPage({
             <span className={styles.heroTag}>{copy.heroTag}</span>
           </div>
           <h1 className={styles.heroHeading}>{copy.heroHeading}</h1>
+          {copy.heroSubheading ? <h2 className={styles.heroSubheading}>{copy.heroSubheading}</h2> : null}
           <p className={styles.heroIntro}>{copy.heroIntro}</p>
           <div className={styles.ctaGroup}>
             <Link href={`#${ABOUT_SECTION_ID}`} className={`${styles.ctaButton} ${styles.primaryCta}`}>

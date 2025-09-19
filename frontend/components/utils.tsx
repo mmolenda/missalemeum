@@ -54,8 +54,11 @@ export function generateLocalisedMetadata(
   const alternateEn = new URL(`/en${pathSuffix}`, SITE_BASE_URL).toString();
   const alternatePl = new URL(`/pl${pathSuffix}`, SITE_BASE_URL).toString();
 
-  const title = options.titleFragment
-    ? `${options.titleFragment} | Missale Meum`
+  const titleFragment = options.titleFragment;
+  const title = titleFragment
+    ? titleFragment.toLowerCase().includes("missale meum")
+      ? titleFragment
+      : `${titleFragment} | Missale Meum`
     : resolvedLocale === 'pl'
       ? 'Missale Meum – Mszał Rzymski online'
       : 'Missale Meum – 1962 Roman Missal online';
