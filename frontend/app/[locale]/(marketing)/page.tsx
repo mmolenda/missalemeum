@@ -351,7 +351,7 @@ const renderUsageSection = (lang: Locale) => {
           przygotowanie do Mszy i medytację nad Ewangelią.
         </p>
         <p>
-          Dla jednych staje się częścią lectio divina i modlitwy osobistej, dla innych najwygodniejszym sposobem, by sprawdzić jaki formularz 
+          Dla jednych staje się częścią <em>lectio divina</em> i modlitwy osobistej, dla innych najwygodniejszym sposobem, by sprawdzić jaki formularz 
           przypada danego dnia. Strona jest dobrze dostosowana do urządzeń mobilnych i często określana jako najłatwiejszy sposób dostępu do Mszału 
           Rzymskiego — darmowy, intuicyjny i zawsze dostępny. Ułatwia przygotowanie zanim wyjdzie się do kościoła i stanowi pewne oparcie zawsze wtedy, 
           gdy tradycyjny mszalik nie jest pod ręką.
@@ -368,7 +368,7 @@ const renderUsageSection = (lang: Locale) => {
         preparation for Mass and Gospel meditation easier.
       </p>
       <p>
-        For some it becomes part of lectio divina and private prayer, for others the most convenient 
+        For some it becomes part of <em>lectio divina</em> and private prayer, for others the most convenient 
         way to check which Mass is celebrated today. Designed to work smoothly on mobile devices, it is often described as the easiest way to access the 
         Roman Missal — free, intuitive, and always available. It keeps you informed before you leave for church and offers a trustworthy fallback whenever 
         a printed hand missal is out of reach.
