@@ -3,7 +3,7 @@
 
 ! The sacred ministers, wearing black stoles, come to the altar, lie prostrate before it, and pray silently for a few moments. A signal is given; whereupon all kneel upright except the celebrant who stands facing the altar steps and sings in the ferial tone:
 
-v. O God who, by the Passion of Thy Christ, our Lord, hast loosened the bonds of death, that heritage of the first sin to which all men of later times did succeed: make us so conformed to Him that, as we must needs have bourne the likeness of earthly nature, so we may by santification bear the likeness of heavenly grace.  Through the same Christ our Lord.
+v. O God who, by the Passion of Thy Christ, our Lord, hast loosened the bonds of death, that heritage of the first sin to which all men of later times did succeed: make us so conformed to Him that, as we must needs have bourne the likeness of earthly nature, so we may by sanctification bear the likeness of heavenly grace.  Through the same Christ our Lord.
 R. Amen.
 _
 ! The Sacred Ministers sit while a lector reads the first lesson without title.
@@ -24,7 +24,7 @@ V. When my soul shall be in trouble, Thou wilt remember mercy, even in Thy wrath
 V. God will come from Libanus, and the Holy One from the shady and thickly covered mountain.
 V. His majesty covered the heavens: and the earth is full of His praise.
 _
-! After responosrium everybody stand up. Celebrant sings:
+! After responsorium everybody stand up. Celebrant sings:
 
 v. Let us pray.
 D. Let us kneel.
@@ -39,7 +39,7 @@ _
 
 ! Second Lesson
 !Exod 12:1-11
-In those days the Lord said to Moses and Aaron in the land of Egypt: This month shall be to you the beginning of months: it shall be the first in the months of the year.  Speak ye to the whole assembly of the children of Israel, and say to them: On the tenth day fo this month let every man take a lamb by their families and houses.  But if the number be less than may suffice to eat the lamb, he shall take unto him his neighbor that joineth to his house, according to the number of souls which may be enough to eat the lamb.  And it shall be a lamb without blemish, a male, of one year: according to which rite also you shall take a kid.  And you shall keep it until the fourteenth day of this month: and the whole multitude of the children of Israel shall sacrifice it in the evening.  And they shall take of blood thereof, and put it upon both the side posts, and on the upper door posts of the houses, wherein they shall eat it.  And they shall eat the flesh that night roasted at the fire: and unleavened bread with wild lettuce.  You shall not eat thereof any thing raw, nor boiled in water, but only roasted at the fire.  You shall eat the head with the feet and entrails thereof.  Neither shall there remain any thing of it until morning.  If there be an thing left, you shall burn it with fire.  And thus you shall eat it: You shall gird your reins, and you shall have shoes on your feet, holding staves in your hands, and you shall eat in haste; for it is the Phase that is the Passage of the Lord.
+In those days the Lord said to Moses and Aaron in the land of Egypt: This month shall be to you the beginning of months: it shall be the first in the months of the year.  Speak ye to the whole assembly of the children of Israel, and say to them: On the tenth day of this month let every man take a lamb by their families and houses.  But if the number be less than may suffice to eat the lamb, he shall take unto him his neighbor that joineth to his house, according to the number of souls which may be enough to eat the lamb.  And it shall be a lamb without blemish, a male, of one year: according to which rite also you shall take a kid.  And you shall keep it until the fourteenth day of this month: and the whole multitude of the children of Israel shall sacrifice it in the evening.  And they shall take of blood thereof, and put it upon both the side posts, and on the upper door posts of the houses, wherein they shall eat it.  And they shall eat the flesh that night roasted at the fire: and unleavened bread with wild lettuce.  You shall not eat thereof any thing raw, nor boiled in water, but only roasted at the fire.  You shall eat the head with the feet and entrails thereof.  Neither shall there remain any thing of it until morning.  If there be an thing left, you shall burn it with fire.  And thus you shall eat it: You shall gird your reins, and you shall have shoes on your feet, holding staves in your hands, and you shall eat in haste; for it is the Phase that is the Passage of the Lord.
 _
 !Responsorium
 !Ps 139:2-10, 14
@@ -173,7 +173,7 @@ when they had crucified Him, took His garments and they made four parts, to~
 every soldier a part and also His coat.  Now the coat was without seam, woven~
 from the top throughout.  They said then one to another: S. Let us not cut it,~
 but let us cast lots for it, whose it shall be: that the Scripture might be~
-fulfilled which saith: They have parted My garemnts among them, and upon My~
+fulfilled which saith: They have parted My garments among them, and upon My~
 vesture they have cast lots.  And the soldiers indeed did these things.  Now~
 there stood by the cross of Jesus His Mother, and His Mother's sister, Mary of~
 Cleophas, and Mary Magdalen.  When Jesus therefore had seen His Mother and the~
@@ -221,7 +221,7 @@ v.  Let us pray, dearly beloved, for the holy Church of God: that our Lord and G
 P. Let us pray.
 D. Let us kneel.
 S. Arise.
-v.  Almighty and everlasting God, Who in Christ hast revealed Thy glory too all nations: guard the works of Thy mercy; that Thy Church, spread over the whole world, may with steadfast faith persevere in the confession of Thy Name.  Through the same Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end.
+v.  Almighty and everlasting God, Who in Christ hast revealed Thy glory to all nations: guard the works of Thy mercy; that Thy Church, spread over the whole world, may with steadfast faith persevere in the confession of Thy Name.  Through the same Jesus Christ, Thy Son, our Lord, who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end.
 R. Amen. 
 _
 _
@@ -259,7 +259,7 @@ v. Let us pray also for our Catechumens: that our Lord and God would open the ea
 P. Let us pray.
 D. Let us kneel.
 R. Arise.
-v. Almighty and everlasting God, who dost ever make Thy Church fruitful with new offspring: increase the faith and understanding of our Catechumens; that being born again in the font of  Baptism, they may be associated wiht the children of Thine adoption.  Through our Lord Jesus Christ, Thy Son, who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end.
+v. Almighty and everlasting God, who dost ever make Thy Church fruitful with new offspring: increase the faith and understanding of our Catechumens; that being born again in the font of  Baptism, they may be associated with the children of Thine adoption.  Through our Lord Jesus Christ, Thy Son, who liveth and reigneth with Thee in the unity of the Holy Ghost, God, world without end.
 R. Amen.
 _
 _
@@ -400,7 +400,7 @@ _
 Ant. Faithful Cross! above all other, One and only noble Tree! None in foliage, none in blossom, None in fruit thy peer may be; Sweetest wood and sweetest iron, Sweetest weight is hung on thee.
 V. Sing, my tongue, the glorious battle! With completed victory rife! And above the Cross's trophy Tell the triumph of the strife: How the world's Redeemer conquer'd By the offering of His life.
 Ant. Faithful Cross! above all other, One and only noble Tree! None in foliage, none in blossom, None in fruit thy peer may be.
-V. God, his Maker, sorely grieving, That the first-made Adam fell, When he ate the fruit of sorow, Whose reward was death and hell, Noted then this Wood the ruin, Of the ancient wood to quell.
+V. God, his Maker, sorely grieving, That the first-made Adam fell, When he ate the fruit of sorrow, Whose reward was death and hell, Noted then this Wood the ruin, Of the ancient wood to quell.
 Ant. Sweetest wood and sweetest iron, Sweetest weight is hung on thee.
 V. For this work of our salvation Needs must have its order so, And the manifold deceiver's Art by art would overthrow, And from thence would bring the healing, Whence the insult of the foe.
 Ant. Faithful Cross!
@@ -482,9 +482,9 @@ Behold the Lamb of God, behold Him who takes away the sins of the world.
 
 ! People
 
-Lord, I am not worthythat Thou should enter under my roof; but only say the word and my soul shallbe healed.
-Lord, I am not worthythat
-Lord, I am not worthythat
+Lord, I am not worthy that Thou should enter under my roof; but only say the word and my soul shallbe healed.
+Lord, I am not worthy that
+Lord, I am not worthy that
 
 ! Holy Communion is now distributed as on Maundy Thursday, except that priests wear a purple stole, not white. When all have communicated, the Celebrant purifies his fingers and places the Ciborium in the tabernacle in silence.  All stand, in order to join him in his thanksgiving, which he recites in ferial tone:
 _ `
