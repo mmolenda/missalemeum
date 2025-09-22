@@ -14,6 +14,7 @@ const FEATURES_SECTION_ID = "missal-features";
 const USAGE_SECTION_ID = "living-tradition";
 const PROJECT_SECTION_ID = "project-info";
 const RESOURCES_SECTION_ID = "resources";
+const SUPPORT_SECTION_ID = "support";
 const TRUST_SECTION_ID = "credibility";
 const FAQ_SECTION_ID = "faq";
 
@@ -52,6 +53,7 @@ type LandingCopy = {
   usageHeading: string;
   projectInfoHeading: string;
   resourcesHeading: string;
+  supportHeading: string;
   trustHeading: string;
   trustSignature: string;
   faqHeading: string;
@@ -79,6 +81,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "How the faithful use it", targetId: USAGE_SECTION_ID },
       { label: "Text sources", targetId: PROJECT_SECTION_ID },
       { label: "Tools & resources", targetId: RESOURCES_SECTION_ID },
+      { label: "How you can help", targetId: SUPPORT_SECTION_ID },
       { label: "Trust & provenance", targetId: TRUST_SECTION_ID },
       { label: "FAQ", targetId: FAQ_SECTION_ID },
     ],
@@ -107,6 +110,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     usageHeading: "How the faithful live with the missal",
     projectInfoHeading: "Where the texts come from",
     resourcesHeading: "Tools, feeds, and embeds",
+    supportHeading: "How you can help",
     trustHeading: "Prepared with reverence and scholarship",
     trustSignature: "The Missale Meum team — traditional Catholics in Poland",
     faqHeading: "Frequently asked questions",
@@ -114,7 +118,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         question: "Is Missale Meum free to use?",
         answer:
-          "Yes. Missale Meum is a volunteer-maintained project and is free for personal use. You can install it as a web app or use it from any modern browser without payment or registration.",
+          "Yes. Missale Meum is a volunteer-maintained project and will always remain free for personal use. You can install it as a web app or use it from any modern browser without payment or registration. If you wish, optional donations help cover hosting and support Catholic education in Poland.",
       },
       {
         question: "Which edition of the Missal does it follow?",
@@ -148,6 +152,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "Jak korzystają wierni", targetId: USAGE_SECTION_ID },
       { label: "Źródła tekstów", targetId: PROJECT_SECTION_ID },
       { label: "Narzędzia", targetId: RESOURCES_SECTION_ID },
+      { label: "Wsparcie projektu", targetId: SUPPORT_SECTION_ID },
       { label: "Wiarygodność", targetId: TRUST_SECTION_ID },
       { label: "FAQ", targetId: FAQ_SECTION_ID },
     ],
@@ -176,6 +181,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     usageHeading: "Jak wierni żyją z mszałem",
     projectInfoHeading: "Skąd pochodzą teksty",
     resourcesHeading: "Narzędzia i materiały dodatkowe",
+    supportHeading: "Wsparcie projektu",
     trustHeading: "Przygotowane z pietyzmem i wiedzą",
     trustSignature: "Zespół Missale Meum — tradycyjni katolicy z Polski",
     faqHeading: "Najczęstsze pytania",
@@ -183,7 +189,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         question: "Czy Missale Meum jest płatne?",
         answer:
-          "Nie. Missale Meum to projekt społeczny i pozostaje bezpłatny do prywatnego użytku. Można z niego korzystać w przeglądarce lub dodać jako aplikację webową na telefonie.",
+          "Nie. Missale Meum to projekt społeczny i pozostaje bezpłatny do prywatnego użytku. Można z niego korzystać w przeglądarce lub dodać jako aplikację webową na telefonie. Dobrowolne darowizny pomagają pokryć koszty utrzymania i wspierają edukację katolicką w Polsce.",
       },
       {
         question: "Na jakim wydaniu mszału bazuje serwis?",
@@ -368,17 +374,6 @@ const renderProjectInfoSection = (lang: Locale) => {
         <p>
           Msze własne dla diecezji polskich zachowują układ z <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964). W serwisie pozostają jednak formularze z wcześniejszych wydań mszalika, z dodaniem nowych formularzy z 1965 roku w miejscach, gdzie brakowało odpowiednich tekstów.
         </p>
-        <ul className={styles.articleList}>
-          <li><strong>Wsparcie projektu:</strong></li>
-          <li>
-            <ul>
-              <li>modlitwa w intencji autorów i użytkowników,</li>
-              <li>przekazywanie sugestii i poprawek,</li>
-              <li>udostępnianie projektu innym,</li>
-              <li>dostarczanie brakujących tekstów oraz komentarzy biblijnych.</li>
-            </ul>
-          </li>
-        </ul>
         <p>
           <Link href={`/${lang}/supplement/privacy-policy?ref=landing`}>Polityka prywatności</Link>.
         </p>
@@ -400,20 +395,64 @@ const renderProjectInfoSection = (lang: Locale) => {
       <p>
         Polish diocesan propers follow the <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964); for older formularies we reference the Pallottinum 1963 hand missal, adding the newer formularies where they were absent.
       </p>
-      <ul className={styles.articleList}>
-        <li><strong>How you can help:</strong></li>
-        <li>
-          <ul>
-            <li>remember Missale Meum in your prayers,</li>
-            <li>send feedback and corrections—it helps us improve,</li>
-            <li>share the project with friends and parish groups,</li>
-            <li>contribute missing texts or commentaries.</li>
-          </ul>
-        </li>
-      </ul>
       <p>
         <Link href={`/${lang}/supplement/privacy-policy?ref=landing`}>Privacy policy</Link>.
       </p>
+    </>
+  );
+};
+
+const renderSupportSection = (lang: Locale) => {
+  const donationDetails = DONATION_CONFIG[lang];
+
+  if (lang === "pl") {
+    return (
+      <>
+        <p>
+          Missale Meum pozostaje i pozostanie bezpłatne do osobistego użytku. Jeśli chcesz wesprzeć rozwój projektu, rozważ następujące formy pomocy:
+        </p>
+        <ul className={styles.articleList}>
+          <li>modlitwa w intencji autorów i użytkowników;</li>
+          <li>przekazywanie sugestii oraz poprawek merytorycznych;</li>
+          <li>dzielenie się serwisem z rodziną, przyjaciółmi i wspólnotą parafialną;</li>
+          <li>udostępnianie brakujących tekstów i komentarzy biblijnych;</li>
+          <li>
+            dobrowolna darowizna jednorazowa lub cykliczna — Missale Meum pozostaje i pozostanie bezpłatne.
+            Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania Missale Meum – domenę, serwer i usługi pomocnicze.
+            Pozostałe środki kierujemy na wsparcie edukacji katolickiej w Polsce.
+          </li>
+        </ul>
+        <div className={styles.donateCta}>
+          <stripe-buy-button
+            buy-button-id={donationDetails.buyButtonId}
+            publishable-key={donationDetails.publishableKey}
+          />
+        </div>
+      </>
+    );
+  }
+
+  return (
+    <>
+      <p>
+        Missale Meum will always remain free to use. If you would like to help sustain the project, you can:
+      </p>
+      <ul className={styles.articleList}>
+        <li>remember Missale Meum in your prayers;</li>
+        <li>send feedback and corrections—it helps us improve;</li>
+        <li>share the project with friends, families, and parish groups;</li>
+        <li>contribute missing texts or trusted commentaries;</li>
+        <li>
+          make a one-time or recurring donation — Missale Meum remains free to use. Your donation is used first to cover the essential costs of running Missale Meum – the domain, server, and auxiliary services.
+          Any remainder is directed to supporting Catholic education in Poland.
+        </li>
+      </ul>
+      <div className={styles.donateCta}>
+        <stripe-buy-button
+          buy-button-id={donationDetails.buyButtonId}
+          publishable-key={donationDetails.publishableKey}
+        />
+      </div>
     </>
   );
 };
@@ -543,7 +582,6 @@ export default async function LandingPage({
   const copy = LANDING_COPY[lang];
   const photoCredit = PHOTO_CREDIT[lang];
   const authorAlt = lang === "pl" ? "Portret Marcina Molendy" : "Portrait of Marcin Molenda";
-  const donationConfig = DONATION_CONFIG[lang];
 
   const calendarUrl = `/${lang}/calendar`;
   const today = new Date();
@@ -605,12 +643,6 @@ export default async function LandingPage({
             <Link href={`#${ABOUT_SECTION_ID}`} className={`${styles.ctaButton} ${styles.tertiaryCta}`}>
               {copy.primaryCtaLabel}
             </Link>
-          </div>
-          <div className={styles.donateCta}>
-            <stripe-buy-button
-              buy-button-id={donationConfig.buyButtonId}
-              publishable-key={donationConfig.publishableKey}
-            />
           </div>
         </div>
       </section>
@@ -692,6 +724,11 @@ export default async function LandingPage({
         <section id={RESOURCES_SECTION_ID} className={styles.section}>
           <h2 className={styles.sectionHeading}>{copy.resourcesHeading}</h2>
           <div className={styles.longForm}>{renderResourcesSection(lang)}</div>
+        </section>
+
+        <section id={SUPPORT_SECTION_ID} className={styles.section}>
+          <h2 className={styles.sectionHeading}>{copy.supportHeading}</h2>
+          <div className={styles.longForm}>{renderSupportSection(lang)}</div>
         </section>
 
         <section id={TRUST_SECTION_ID} className={styles.section}>
