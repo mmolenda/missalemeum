@@ -19,7 +19,7 @@ const SITE_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.missaleme
 const ABOUT_SECTION_ID = "about-missal";
 const STRUCTURE_SECTION_ID = "missal-structure";
 const FEATURES_SECTION_ID = "missal-features";
-const USAGE_SECTION_ID = "living-tradition";
+const USAGE_SECTION_ID = "usage";
 const RESOURCES_SECTION_ID = "resources";
 const SUPPORT_SECTION_ID = "support";
 const TRUST_SECTION_ID = "credibility";
@@ -81,7 +81,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       "Missale Meum provides complete daily Latin Mass readings and resources, accessible and simple to use.",
     heroTag: "1962 Roman Missal",
     heroHeading: "Missale Meum",
-    heroSubheading: "Complete resources for the Latin Mass (1962 Missal)",
+    heroSubheading: "Complete resources for the Latin Mass",
     heroIntro:
       "A bilingual edition of the 1962 Roman Missal. Follow the liturgical year, study the daily propers, and keep trusted devotions close—wherever you pray.",
     primaryCtaLabel: "Learn more about Missale Meum",
@@ -94,7 +94,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "How the faithful use it", targetId: USAGE_SECTION_ID },
       { label: "Tools & resources", targetId: RESOURCES_SECTION_ID },
       { label: "How you can help", targetId: SUPPORT_SECTION_ID },
-      { label: "Trust & provenance", targetId: TRUST_SECTION_ID },
+      { label: "About the author", targetId: TRUST_SECTION_ID },
       { label: "FAQ", targetId: FAQ_SECTION_ID },
     ],
     featuresHeading: "Everything you need for the Extraordinary Form",
@@ -122,8 +122,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     usageHeading: "How the faithful live with the missal",
     resourcesHeading: "Tools, feeds, and embeds",
     supportHeading: "How you can help",
-    trustHeading: "Prepared with reverence and scholarship",
-    trustSignature: "The Missale Meum team — traditional Catholics in Poland",
+    trustHeading: "About the author",
     faqHeading: "Frequently asked questions",
     faq: [
       {
@@ -165,14 +164,14 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     internalNav: [
       { label: "Wprowadzenie", targetId: ABOUT_SECTION_ID },
       { label: "Struktura mszału", targetId: STRUCTURE_SECTION_ID },
-      { label: "Funkcje cyfrowe", targetId: FEATURES_SECTION_ID },
+      { label: "Funkcje mszalika", targetId: FEATURES_SECTION_ID },
       { label: "Jak korzystają wierni", targetId: USAGE_SECTION_ID },
-      { label: "Narzędzia", targetId: RESOURCES_SECTION_ID },
+      { label: "Suplement", targetId: RESOURCES_SECTION_ID },
       { label: "Wsparcie projektu", targetId: SUPPORT_SECTION_ID },
-      { label: "Wiarygodność", targetId: TRUST_SECTION_ID },
+      { label: "O autorze", targetId: TRUST_SECTION_ID },
       { label: "FAQ", targetId: FAQ_SECTION_ID },
     ],
-    featuresHeading: "Wszystko dla Mszy w nadzwyczajnej formie",
+    featuresHeading: "Funkcje mszalika",
     featuresIntro:
       "Missale Meum to coś więcej niż kalendarz — to narzędzie do modlitwy, nauki i przygotowania do liturgii w klasycznym rycie rzymskim.",
     features: [
@@ -194,27 +193,27 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     ],
     calendarCaption: "Tradycyjny kalendarz liturgiczny z obchodami i wspomnieniami.",
     properCaption: "Pełne proprium dnia w łacinie i przekładzie.",
-    usageHeading: "Jak wierni żyją z mszałem",
+    usageHeading: "Jak wierni korzystają z mszalika",
     resourcesHeading: "Narzędzia i materiały dodatkowe",
     supportHeading: "Wsparcie projektu",
-    trustHeading: "Przygotowane z pietyzmem i wiedzą",
+    trustHeading: "O autorze",
     trustSignature: "Zespół Missale Meum — tradycyjni katolicy z Polski",
     faqHeading: "Najczęstsze pytania",
     faq: [
       {
         question: "Czy Missale Meum jest płatne?",
         answer:
-          "Nie. Missale Meum to projekt społeczny i pozostaje bezpłatny do prywatnego użytku. Można z niego korzystać w przeglądarce lub dodać jako aplikację webową na telefonie. Dobrowolne darowizny pomagają pokryć koszty utrzymania i wspierają edukację katolicką w Polsce.",
+          "Nie. Missale Meum to projekt społeczny, bezpłatny do prywatnego użytku. Nie pobieramy opłat ani nie wyświetlamy reklam. Można z niego korzystać w przeglądarce lub dodać jako aplikację webową na telefonie. Dobrowolne darowizny pomagają pokryć koszty utrzymania i wspierają edukację katolicką w Polsce.",
       },
       {
         question: "Na jakim wydaniu mszału bazuje serwis?",
         answer:
-          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1960 r. oraz wspomnienia właściwe temu kalendarzowi.",
+          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1964 r. oraz wspomnienia właściwe temu kalendarzowi. Wielki tydzień jest również dostępny w wersji pre-55.",
       },
       {
         question: "Skąd pochodzą teksty Missale Meum?",
         renderAnswer: renderProjectInfoSection,
-        schemaAnswer:
+        answer:
           "Łacińskie teksty pochodzą z serwisu Divinum Officium, tłumaczenia z Mszału Rzymskiego Pallottinum 1963, a projekt jest prywatną inicjatywą z otwartym kodem na GitHubie.",
       },
       {
@@ -256,19 +255,16 @@ const renderIntro = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum was created so Catholics devoted to the classical Roman Rite can pray with the 1962 Missal without compromise. Each Mass formulary is faithfully transcribed,
-        pairing the authoritative Latin with a carefully checked vernacular translation so families, choirs, and servers can meditate on every proper together.
+        Missale Meum was created to give the faithful attached to the classical liturgy convenient access to the 1962 Roman Missal. Each formulary has been faithfully transcribed,
+        with the Latin texts set alongside their Polish translation so both versions can always be used in parallel.
       </p>
       <p>
-        The site spans the entire liturgical year—from the purple of Advent to the final green Sundays after Pentecost. Rubrical notes explain ember weeks, octaves, and commemorations,
-        while the calendar for the <Link href="/en/calendar">Proper of Time</Link> and the <Link href="/en/calendar#sanctorale">Proper of Saints</Link> keeps both cycles within reach.
-        A focused search helps you find major feasts, votives, and commemorations in seconds.
+        The site covers the entire liturgical year: from Advent through the last Sunday after Pentecost, including Ember Days, octaves, and vigils. Additional notes help 
+        explain rubrics and liturgical seasons. The search function leads directly to specific feasts, while the <Link href="/en/calendar">calendar</Link> makes it easy to move between cycles without losing context.
       </p>
       <p>
-        Missale Meum supports personal prayer throughout the week. Within a single resource you can open <Link href="/en/votive">votive Mass formularies</Link>,
-        <Link href="/en/oratio">beloved prayers</Link>, <Link href="/en/canticum">seasonal chants</Link>, and an extensive <Link href="/en/supplement/index">supplement</Link> of rubrics and devotions.
-        Many readers consult the propers at home before Mass, review them during study, or revisit them afterwards; the project is not meant to replace the printed hand missal in church,
-        but it remains a dependable fallback while travelling or away from a liturgical library.
+        Missale Meum supports daily prayer. In one place you can open <Link href="/en/votive">votive Masses</Link>, <Link href="/en/oratio">daily prayers</Link>, <Link href="/en/canticum">seasonal chants</Link>, and a detailed <Link href="/en/supplement/index">supplement</Link> of rubrics and commentary.
+        The faithful turn to Missale Meum as a simple and clear online missal, helpful for preparing for Mass, for personal prayer, and always at hand when a printed copy is out of reach.
       </p>
     </>
   );
@@ -391,16 +387,7 @@ function renderProjectInfoSection(lang: Locale): ReactNode {
           "Mszału Rzymskiego" (Pallottinum 1963) udostępnionego za zgodą wydawnictwa. Wybrane fragmenty Ordo pochodzą z serwisu <a href="https://www.fisheaters.com/" target="_blank" rel="noopener noreferrer">Fish Eaters</a>.
         </p>
         <p>
-          Projekt Missale Meum jest otwarty: kod źródłowy znajduje się w <a href="https://github.com/mmolenda/missalemeum" target="_blank" rel="noopener noreferrer">repozytorium GitHub</a>, a strona ma charakter prywatny i nie reprezentuje żadnej instytucji.
-        </p>
-        <p>
-          Kontakt: <a href="mailto:marcin@missalemeum.com">marcin@missalemeum.com</a>. Aktualności publikujemy także na Facebooku: <a href="https://www.facebook.com/missalemeum" target="_blank" rel="noopener noreferrer">facebook.com/missalemeum</a>.
-        </p>
-        <p>
-          Msze własne dla diecezji polskich zachowują układ z <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964). W serwisie pozostają jednak formularze z wcześniejszych wydań mszalika, z dodaniem nowych formularzy z 1965 roku w miejscach, gdzie brakowało odpowiednich tekstów.
-        </p>
-        <p>
-          <Link href={`/${lang}/supplement/privacy-policy?ref=landing`}>Polityka prywatności</Link>.
+          Msze własne dla diecezji polskich zachowują układ z <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964). W serwisie pozostają jednak formularze z wcześniejszych wydań mszalika, z dodaniem nowych formularzy z 1964 roku w miejscach, gdzie brakowało odpowiednich tekstów.
         </p>
       </>
     );
@@ -410,18 +397,6 @@ function renderProjectInfoSection(lang: Locale): ReactNode {
     <>
       <p>
         Latin texts largely come from the venerable <a href="https://www.divinumofficium.com/" target="_blank" rel="noopener noreferrer">Divinum Officium</a>, while parallel English passages draw on carefully reviewed translations of the same sources. Elements of the Ordo borrow from <a href="https://www.fisheaters.com/" target="_blank" rel="noopener noreferrer">Fish Eaters</a>.
-      </p>
-      <p>
-        Missale Meum is an open project; the code is available on <a href="https://github.com/mmolenda/missalemeum" target="_blank" rel="noopener noreferrer">GitHub</a>. It remains a private initiative and speaks only for its maintainers.
-      </p>
-      <p>
-        Contact us at <a href="mailto:marcin@missalemeum.com">marcin@missalemeum.com</a> or follow updates on <a href="https://www.facebook.com/missalemeum" target="_blank" rel="noopener noreferrer">facebook.com/missalemeum</a>.
-      </p>
-      <p>
-        Polish diocesan propers follow the <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964); for older formularies we reference the Pallottinum 1963 hand missal, adding the newer formularies where they were absent.
-      </p>
-      <p>
-        <Link href={`/${lang}/supplement/privacy-policy?ref=landing`}>Privacy policy</Link>.
       </p>
     </>
   );
@@ -442,7 +417,7 @@ const renderSupportSection = (lang: Locale) => {
           <li>dzielenie się serwisem z rodziną, przyjaciółmi i wspólnotą parafialną;</li>
           <li>udostępnianie brakujących tekstów i komentarzy biblijnych;</li>
           <li>
-            dobrowolna darowizna — Missale Meum jest i pozostanie bezpłatne.
+            dobrowolna darowizna — Missale Meum jest i pozostanie bezpłatne. Nie pobieramy opłat ani nie wyświelamy reklam.
             Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania serwisu – domenę, serwer i usługi pomocnicze.
             Pozostałe środki kierujemy na wsparcie edukacji katolickiej w Polsce.
           </li>
@@ -487,23 +462,20 @@ const renderResourcesSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Suplement Missale Meum zawiera rozbudowane opracowania okresów liturgicznych, sakramentów oraz materiały pomocnicze dla wiernych i katechistów.
+          <Link href="/pl/supplement/index?ref=/">Suplement</Link> Missale Meum zawiera rozbudowane opracowania okresów liturgicznych, sakramentów oraz materiały pomocnicze dla wiernych.
         </p>
         <ul className={styles.articleList}>
-          <li><strong>Okresy liturgiczne</strong> – komentarze i przepisy: <Link href="/pl/supplement/1-wprowadzenie?ref=landing">Wprowadzenie</Link>, <Link href="/pl/supplement/2-adwent?ref=landing">Adwent</Link>, <Link href="/pl/supplement/3-boze-narodzenie?ref=landing">Boże Narodzenie</Link>, <Link href="/pl/supplement/6-wielki-post?ref=landing">Wielki Post</Link> i kolejne aż po okres po Zesłaniu Ducha Świętego.</li>
-          <li><strong>Sakramenty</strong> – praktyczne przewodniki: <Link href="/pl/supplement/20-chrzest?ref=landing">Chrzest</Link>, <Link href="/pl/supplement/21-pokuta?ref=landing">Pokuta</Link>, <Link href="/pl/supplement/22-malzenstwo?ref=landing">Małżeństwo</Link>.</li>
+          <li><strong>Okresy liturgiczne</strong> – komentarze i przepisy: <Link href="/pl/supplement/1-wprowadzenie?ref=/">Wprowadzenie</Link>, <Link href="/pl/supplement/2-adwent?ref=/">Adwent</Link>, <Link href="/pl/supplement/3-boze-narodzenie?ref=/">Boże Narodzenie</Link>, <Link href="/pl/supplement/6-wielki-post?ref=/">Wielki Post</Link> i kolejne aż po okres po Zesłaniu Ducha Świętego.</li>
+          <li><strong>Sakramenty</strong> – praktyczne przewodniki: <Link href="/pl/supplement/20-chrzest?ref=/">Chrzest</Link>, <Link href="/pl/supplement/21-pokuta?ref=/">Pokuta</Link>, <Link href="/pl/supplement/22-malzenstwo?ref=/">Małżeństwo</Link>.</li>
           <li><strong>Ebook</strong> – mszalik na czytniki: <a href="https://www.dropbox.com/s/88z242hgr0q6e2e/mszalik.epub?dl=0" target="_blank" rel="noopener noreferrer">pobierz epuba</a>.</li>
           <li><strong>Msza dla początkujących</strong> – przewodnik PDF: <a href="https://www.dropbox.com/s/a94bingl33xlirx/msza-dla-pocz%C4%85tkuj%C4%85cych.pdf?dl=0" target="_blank" rel="noopener noreferrer">msza-dla-początkujących.pdf</a>.</li>
         </ul>
-        <p>
-          Strona działa jako aplikacja <abbr title="Progressive Web App">PWA</abbr>. Dodaj ją do ekranu startowego na Androidzie (Chrome → „Dodaj do ekranu startowego”) lub na iPhonie (Safari → Udostępnij → „Dodaj do ekranu głównego”).
-        </p>
-        <p>
-          Kalendarz liturgiczny dostępny jest w formacie iCalendar: <a href="https://www.missalemeum.com/pl/api/v3/icalendar" target="_blank" rel="noopener noreferrer">pełny feed</a>. Możesz wczytać go w Google Calendar lub Outlooku.
-        </p>
-        <p>
-          Udostępniamy również widżet propriów do osadzenia na stronie: <code>&lt;iframe src="https://www.missalemeum.com/pl/widgets/propers?theme=light" height=300 style="width: 100%;"&gt;&lt;/iframe&gt;</code> (parametr <code>theme</code> przyjmuje wartości <code>light</code> lub <code>dark</code>).
-        </p>
+        <p>Missale Meum oferuje praktyczne narzędzia, które wykraczają poza samą stronę internetową.</p>
+        <ul className={styles.articleList}>
+          <li><strong>Instalacja jako aplikacja <abbr title="Progressive Web App">PWA</abbr>:</strong> dodaj do ekranu głównego na Androidzie lub iPhonie, aby uzyskać wrażenie korzystania z prawdziwej aplikacji.</li>
+          <li><strong>Kalendarz liturgiczny:</strong> zasubskrybuj przez iCalendar i używaj w Google Calendar, Outlooku itp.</li>
+          <li><strong>Osadzany widget:</strong> umieść proprium Missale Meum na swojej stronie internetowej.</li>
+        </ul>
       </>
     );
   }
@@ -512,11 +484,11 @@ const renderResourcesSection = (lang: Locale) => {
     <>
       <p>Missale Meum provides practical tools that extend beyond the website itself.</p>
       <ul className={styles.articleList}>
-        <li><strong>Install as a PWA:</strong> on Android open the site in Chrome and choose “Add to Home screen”; on iPhone use Safari → Share → “Add to Home Screen”.</li>
-        <li><strong>Liturgical calendar feeds:</strong> subscribe via iCalendar – <a href="https://www.missalemeum.com/en/api/v3/icalendar" target="_blank" rel="noopener noreferrer">all feasts</a>, or limit to <a href="https://www.missalemeum.com/en/api/v3/icalendar/1" target="_blank" rel="noopener noreferrer">first class</a>, <a href="https://www.missalemeum.com/en/api/v3/icalendar/2" target="_blank" rel="noopener noreferrer">first &amp; second class</a>, and <a href="https://www.missalemeum.com/en/api/v3/icalendar/3" target="_blank" rel="noopener noreferrer">through third class</a>.</li>
-        <li><strong>Embeddable widget:</strong> place Missale Meum propers on your site with <code>&lt;iframe src="https://www.missalemeum.com/en/widgets/propers?theme=light" height=300 style="width: 100%;"&gt;&lt;/iframe&gt;</code> (use <code>theme=dark</code> for the dark variant).</li>
+        <li><strong>Install as a PWA:</strong> add to your Home Screen on Android or iPhone for a real app-like experience.</li>
+        <li><strong>Liturgical calendar feeds:</strong> subscribe via iCalendar and use in Google Calendar, Outlook, etc.</li>
+        <li><strong>Embeddable widget:</strong> place Missale Meum propers on your website.</li>
       </ul>
-      <p>Browse the full supplement for chants, seasonal meditations, and more: <Link href="/en/supplement/index?ref=landing">Supplement index</Link>.</p>
+      <p>Browse the full supplement for chants, seasonal meditations, and more: <Link href="/en/supplement/index?ref=/">Supplement index</Link>.</p>
     </>
   );
 };
@@ -526,16 +498,16 @@ const renderTrustSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Missale Meum to osobisty projekt Marcina Molendy — męża i ojca, który z pasją łączy liturgię i technologię. Serwis działa w sieci od 2018 roku, a przez lata rozwinął się dzięki
+          Missale Meum zbudował i utrzymuje Marcin Molenda — mąż i ojciec, który z pasją łączy liturgię i technologię. Serwis działa w sieci od 2018 roku, a przez lata rozwinął się dzięki
           wiernym korzystającym z tradycyjnej liturgii w Polsce i na świecie.
         </p>
         <p>
-          Marcin współpracuje z kapłanami celebrującymi w nadzwyczajnej formie rytu rzymskiego oraz z redaktorami świeckimi. Każda aktualizacja jest publicznie dokumentowana, a
-          zgłoszenia użytkowników trafiają do repozytorium GitHub, gdzie przechodzą weryfikację przed publikacją.
+          Marcin współpracuje z kapłanami celebrującymi Mszę trydencką i z redaktorami świeckimi. Każda aktualizacja jest publicznie dokumentowana, a
+          zgłoszenia użytkowników trafiają do repozytorium <Link href="https://github.com/mmolenda/missalemeum">GitHub</Link>, gdzie przechodzą weryfikację przed publikacją.
+          Dzięki przejrzystości źródeł i korekt Missale Meum pozostaje wiarygodnym narzędziem do modlitwy i studium.
         </p>
         <p>
-          Teksty zachowują ortografię kościelną, a przypisy wyjaśniają różnice wobec starszych wydań mszału i zwyczajów lokalnych. Dzięki przejrzystości źródeł i korekt Missale Meum
-          pozostaje wiarygodnym narzędziem do modlitwy i studium.
+          Zapraszam do kontaktu pod adresem <a href="mailto:marcin@missalemeum.com">marcin@missalemeum.com</a> lub do śledzenia aktualności na <a href="https://www.facebook.com/missalemeum" target="_blank" rel="noopener noreferrer">facebook.com/missalemeum</a>.
         </p>
       </>
     );
@@ -776,7 +748,6 @@ export default async function LandingPage({
               />
               <div className={styles.longForm}>{renderTrustSection(lang)}</div>
             </div>
-            <p className={styles.trustSignature}>{copy.trustSignature}</p>
           </div>
         </section>
 
