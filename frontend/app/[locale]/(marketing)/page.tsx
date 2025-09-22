@@ -69,7 +69,7 @@ type LandingCopy = {
   resourcesHeading: string;
   supportHeading: string;
   trustHeading: string;
-  trustSignature: string;
+
   faqHeading: string;
   faq: FaqItem[];
   metaNote: string;
@@ -198,7 +198,6 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     resourcesHeading: "Narzędzia i materiały dodatkowe",
     supportHeading: "Wsparcie projektu",
     trustHeading: "O autorze",
-    trustSignature: "Zespół Missale Meum — tradycyjni katolicy z Polski",
     faqHeading: "Najczęstsze pytania",
     faq: [
       {

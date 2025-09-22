@@ -433,10 +433,6 @@
   gap: 1.25rem;
 }
 
-.trustSignature {
-  font-weight: 600;
-  color: #6b0404;
-}
 
 .articleList {
   list-style: none;
@@ -539,9 +535,6 @@
     border-left-color: rgba(255, 173, 138, 0.8);
   }
 
-  .trustSignature {
-    color: rgba(255, 200, 200, 0.9);
-  }
 
   .trustAvatar {
     border-color: rgba(255, 255, 255, 0.6);
