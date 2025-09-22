@@ -165,26 +165,26 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     ],
     featuresHeading: "Wszystko dla Mszy w nadzwyczajnej formie",
     featuresIntro:
-      "Missale Meum to nie tylko kalendarz. To towarzysz modlitwy, narzędzie do nauki i zaufane kompendium dla duchowieństwa oraz wiernych świeckich.",
+      "Missale Meum to coś więcej niż kalendarz — to narzędzie do modlitwy, nauki i przygotowania do liturgii w klasycznym rycie rzymskim.",
     features: [
       {
         title: "Pełne proprium w kontekście",
         description:
-          "Kompletne formularze Mszy św. z łacińskim i polskim tekstem równolegle. Introity, kolekty, lekcje, graduały i uwagi rubrycystyczne są pod ręką, bez sięgania po kilka ksiąg.",
+          "Kompletne formularze Mszy świętej z tekstem łacińskim i polskim obok siebie. Modlitwy, czytania, antyfony i wskazówki rubrycystyczne są zawsze w jednym miejscu.",
       },
       {
         title: "Inteligentny kalendarz tradycyjny",
         description:
-          "Klasy obchodu, kolory szat, wspomnienia, dni suchych dni i oktawy widoczne są od razu. Możesz szybko przeskakiwać między latami i obserwować jak współgrają temporale i sanctorale.",
+          "Od razu widać klasę obchodu, kolor szat i wspomnienia. Można łatwo przeskakiwać między latami i śledzić układ temporale i sanctorale.",
       },
       {
         title: "Biblioteka odniesień",
         description:
-          "Msze wotywne i wspólne, śpiewy sezonowe, modlitwy codzienne — Missale Meum gromadzi teksty najczęściej używane przez rodziny, scholę i ministrantów.",
+          "Wotywy i formularze wspólne, śpiewy sezonowe, modlitwy codzienne — Missale Meum gromadzi teksty najczęściej potrzebne rodzinom, scholii i ministrantom.",
       },
     ],
     calendarCaption: "Tradycyjny kalendarz liturgiczny z obchodami i wspomnieniami.",
-    properCaption: "Pełne proprium dnia w łacinie i przekładzie.",
+    properCaption: "Pełne proprium dnia po łacinie z przełącznikiem języka.",
     usageHeading: "Jak wierni żyją z mszałem",
     projectInfoHeading: "Skąd pochodzą teksty",
     resourcesHeading: "Narzędzia i materiały dodatkowe",
@@ -223,19 +223,17 @@ const renderIntro = (lang: Locale) => {
     return (
       <>
         <p>
-          Missale Meum powstało, aby wierni przywiązani do klasycznej liturgii mogli modlić się zgodnie z Mszałem Rzymskim z 1962 r. bez kompromisów. Każdy formularz został wiernie
-          przepisany, a łacińskie teksty zestawiono z przekładem polskim, aby lektorzy, scholanki i rodziny mogły wspólnie rozważać modlitwy własne danego dnia.
+          Missale Meum powstało, aby wiernym przywiązanym do klasycznej liturgii dać wygodny dostęp do Mszału Rzymskiego z 1962 r. Każdy formularz został wiernie przepisany,
+          a łacińskie teksty zestawiono z przekładem polskim, aby zawsze można było korzystać z obu wersji równolegle.
         </p>
         <p>
-          Serwis obejmuje rok liturgiczny w całości: od Adwentu aż po ostatnią niedzielę po Zesłaniu Ducha Świętego. Dodatkowe komentarze pomagają zrozumieć rubryki, wskazują dni
-          suche oraz obchodzenie oktaw. Wyszukiwarka prowadzi do konkretnych świąt, a kalendarz <Link href="/pl/calendar">Temporale</Link> i <Link href="/pl/calendar#sanctorale">Sanctorale</Link>
-          pozwalają przechodzić pomiędzy cyklami bez utraty kontekstu.
+          Serwis obejmuje rok liturgiczny w całości: od Adwentu aż po ostatnią niedzielę po Zesłaniu Ducha Świętego, z uwzględnieniem Suchych Dni, oktaw i wigilii. Dodatkowe komentarze pomagają 
+          zrozumieć rubryki i okresy liturgiczne. Wyszukiwarka prowadzi do konkretnych świąt, a <Link href="/pl/calendar">kalendarz</Link> pozwala przechodzić pomiędzy cyklami bez utraty kontekstu.
         </p>
         <p>
-          Missale Meum wspiera codzienną modlitwę. W jednym miejscu otworzysz <Link href="/pl/votive">msze wotywne</Link>, <Link href="/pl/oratio">modlitwy codzienne</Link>,
-          <Link href="/pl/canticum">śpiewy sezonowe</Link> oraz obszerny <Link href="/pl/supplement/index">suplement</Link> rubryk i komentarzy.
-          Wierni sięgają po teksty w domu przed Mszą świętą, podczas nauki lub po powrocie; projekt nie ma zastępować papierowego mszalika w kościele,
-          lecz pozostaje pewną pomocą w podróży czy poza domową biblioteką.
+          Missale Meum wspiera codzienną modlitwę. W jednym miejscu otworzysz <Link href="/pl/votive">msze wotywne</Link>, <Link href="/pl/oratio">modlitwy codzienne</Link>, <Link href="/pl/canticum">śpiewy na dany okres</Link> oraz obszerny <Link href="/pl/supplement/index">suplement</Link> rubryk i komentarzy.
+          Wierni sięgają po Missale Meum jako prosty i przejrzysty mszalik online, pomocny w przygotowaniu do Mszy, modlitwie osobistej i zawsze pod
+          ręką, gdy papierowy egzemplarz jest poza zasięgiem.
         </p>
       </>
     );
@@ -277,12 +275,12 @@ const renderStructureSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Struktura Missale Meum odpowiada drukowanej księdze. Każdy dzień roku liturgicznego łączy części stałe i własne: modlitwę u stopni ołtarza, czytania, offertorium,
-          prefację oraz antyfony komunijne. Dzięki temu celebrans, ministrant i wierny mogą śledzić całość obrzędu bez przełączania kart.
+          Missale Meum wiernie odzwierciedla układ drukowanego mszału z 1962 roku. W serwisie znajdują się zarówno części stałe (Ordo Missae), jak i proprium każdego dnia roku
+          liturgicznego – czytania, modlitwy i antyfony.
         </p>
         <p>
-          Wersje równoległe ułatwiają naukę łaciny liturgicznej. Tłumaczenie uwzględnia idiom modlitw i zwraca uwagę na odmienność form gramatycznych, co pomaga w przygotowaniu
-          homilii lub katechezy. Dodatkowe metadane — klasa obchodu, kolory, wspomnienia, odnośniki do suplementu — tworzą spójny przewodnik po każdym formularzu.
+          Tekst łaciński został zestawiony z polskim tłumaczeniem, co ułatwia śledzenie liturgii, naukę łaciny oraz przygotowanie do katechezy czy homilii. Dodatkowe 
+          informacje – jak klasa obchodu, kolor szat liturgicznych czy wspomnienia świętych – tworzą spójny przewodnik po formularzach i całym roku kościelnym.
         </p>
         <ul className={styles.articleList}>
           {internalLinks.map(({ href, label }) => (
@@ -320,8 +318,8 @@ const renderFeaturesIntro = (lang: Locale) => {
   if (lang === "pl") {
     return (
       <p>
-        Missale Meum rozwija się wraz z potrzebami wspólnot celebrujących Mszę w klasycznym rycie rzymskim. Zrzuty ekranu pokazują najczęściej używane widoki: kalendarz z rankingami
-        oraz pełne proprium dnia. Oba dostępne są zarówno na komputerach, jak i na urządzeniach mobilnych.
+        Serwis rozwija się zgodnie z potrzebami wspólnot korzystających z Mszału Rzymskiego z 1962 r. Najczęściej używane widoki to kalendarz liturgiczny oraz
+        pełne proprium dnia, dostępne zarówno na komputerach, jak i na telefonach.
       </p>
     );
   }
@@ -339,12 +337,15 @@ const renderUsageSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Missale Meum pomaga rodzinom nadążać za rokiem liturgicznym. Wierni czytają teksty w domu, planują wspomnienia na dany tydzień i uczą dzieci modlitw rytu rzymskiego –
-          bez sięgania po telefon już w świątyni.
+          Missale Meum pomaga rodzinom żyć rytmem roku liturgicznego. Rodziny czytają proprium prywatnie w domu i uczą dzieci modlitw rytu rzymskiego. 
+          Wielu użytkowników podkreśla prostotę i przejrzystość strony—codzienne teksty są zawsze pod ręką, a łacina i polski obok siebie ułatwiają 
+          przygotowanie do Mszy i medytację nad Ewangelią.
         </p>
         <p>
-          Dyrygenci schol, katechiści i kapłani sprawdzają proprium przed przygotowaniem śpiewnika lub katechezy, a podróżujący potwierdzają klasę, kolor i czytania jeszcze przed
-          wyjazdem. Serwis pozwala przygotować się do Mszy świętej zanim wyjdziesz z domu i stanowi rezerwę, gdy w pobliżu brakuje papierowego mszalika.
+          Dla jednych staje się częścią lectio divina i modlitwy osobistej, dla innych najwygodniejszym sposobem, by sprawdzić jaki formularz 
+          przypada danego dnia. Strona jest dobrze dostosowana do urządzeń mobilnych i często określana jako najłatwiejszy sposób dostępu do Mszału 
+          Rzymskiego — darmowy, intuicyjny i zawsze dostępny. Ułatwia przygotowanie zanim wyjdzie się do kościoła i stanowi pewne oparcie zawsze wtedy, 
+          gdy tradycyjny mszalik nie jest pod ręką.
         </p>
       </>
     );
@@ -353,12 +354,15 @@ const renderUsageSection = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum helps households keep pace with the liturgical year. Families read the propers privately at home, plan upcoming commemorations, and teach children the prayers
-        of the Roman Rite—without relying on a phone once they are inside the church.
+        Missale Meum helps households keep pace with the liturgical year. Families read the propers privately at home and teach children the prayers of the 
+        Roman Rite. Many users appreciate the simplicity and clarity of the site — daily texts are always at hand, with Latin and English side by side, making 
+        preparation for Mass and Gospel meditation easier.
       </p>
       <p>
-        Choir directors, catechists, and clergy double-check propers before preparing music booklets or lesson plans, and travellers confirm the rank, colour, and readings of the
-        upcoming Mass while packing. It keeps you informed before you leave for church and offers a trustworthy fallback whenever a printed hand missal is out of reach.
+        For some it becomes part of lectio divina and private prayer, for others the most convenient 
+        way to check which Mass is celebrated today. Designed to work smoothly on mobile devices, it is often described as the easiest way to access the 
+        Roman Missal — free, intuitive, and always available. It keeps you informed before you leave for church and offers a trustworthy fallback whenever 
+        a printed hand missal is out of reach.
       </p>
     </>
   );
@@ -666,7 +670,7 @@ export default async function LandingPage({
         </nav>
 
         <section id={ABOUT_SECTION_ID} className={styles.section}>
-          <h2 className={styles.sectionHeading}>{lang === "pl" ? "Żywe wydanie Mszału Rzymskiego" : "A living edition of the Roman Missal"}</h2>
+          <h2 className={styles.sectionHeading}>{lang === "pl" ? "Mszalik online" : "Roman Missal Online"}</h2>
           <div className={styles.longForm}>{renderIntro(lang)}</div>
         </section>
 
