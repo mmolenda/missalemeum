@@ -23,6 +23,7 @@ export function DonationWidget({ lang, className }: { lang: Locale; className?: 
 
   return (
     <div className={wrapperClass} style={wrapperStyle}>
+      {/* @ts-expect-error: custom element provided by Stripe */}
       <stripe-buy-button
         buy-button-id={donationConfig.buyButtonId}
         publishable-key={donationConfig.publishableKey}

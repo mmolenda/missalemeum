@@ -105,7 +105,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         title: "Full propers in context",
         description:
-          "Complete Mass formularies with Latin and Polish side by side. Prayers, readings, antiphons, and rubrical notes are always in one place.",
+          "Complete Mass propers with Latin and English side by side. Prayers, readings, antiphons, and rubrical notes are always in one place.",
       },
       {
         title: "Intelligent traditional calendar",
@@ -255,8 +255,8 @@ const renderIntro = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum was created to give the faithful attached to the classical liturgy convenient access to the 1962 Roman Missal. Each formulary has been faithfully transcribed,
-        with the Latin texts set alongside their Polish translation so both versions can always be used in parallel.
+        Missale Meum was created to give the faithful attached to the classical liturgy convenient access to the 1962 Roman Missal. Each proper has been faithfully transcribed,
+        with the Latin texts set alongside their Enlish translation so both versions can always be used in parallel.
       </p>
       <p>
         The site covers the entire liturgical year: from Advent through the last Sunday after Pentecost, including Ember Days, octaves, and vigils. Additional notes help 
@@ -316,7 +316,7 @@ const renderStructureSection = (lang: Locale) => {
         Missale Meum faithfully reflects the layout of the 1962 printed missal. The site includes both the fixed parts (Ordo Missae) and the proper of each day of the liturgical year—readings, prayers, and antiphons.
       </p>
       <p>
-        The Latin text is presented alongside the Polish translation, which makes it easier to follow the liturgy, learn Latin, and prepare for catechesis or homilies. Additional information—such as feast rank, vestment colour, and saints’ commemorations—creates a coherent guide to the formularies and the entire church year.
+        The Latin text is presented alongside the English translation, which makes it easier to follow the liturgy, learn Latin, and prepare for catechesis or homilies. Additional information—such as feast rank, vestment colour, and saints’ commemorations—creates a coherent guide to the propers and the entire church year.
       </p>
       {tileGrid}
     </>
@@ -507,8 +507,8 @@ const renderTrustSection = (lang: Locale) => {
           thanks to the faithful who use the traditional liturgy in Poland and around the world.
         </p>
         <p>
-          Marcin collaborates with priests who celebrate the Traditional Latin Mass and with lay editors. Every update is documented publicly, and user contributions are submitted to the
-          <Link href="https://github.com/mmolenda/missalemeum">GitHub</Link> repository, where they are reviewed before publication. Thanks to the transparency of its sources and corrections,
+          Marcin collaborates with priests who celebrate the Traditional Latin Mass and with lay editors. Every update is documented publicly, and user contributions are submitted to the <Link href="https://github.com/mmolenda/missalemeum">GitHub</Link> repository,
+          where they are reviewed before publication. Thanks to the transparency of its sources and corrections,
           Missale Meum remains a reliable tool for prayer and study.
         </p>
         <p>
