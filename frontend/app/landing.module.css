@@ -336,6 +336,67 @@
   align-items: center;
 }
 
+.structureTiles {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.structureTile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+  color: rgba(60, 30, 20, 0.88);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.structureTile:hover,
+.structureTile:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.12);
+}
+
+.structureTileIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: rgba(107, 4, 4, 0.12);
+  color: #6b0404;
+}
+
+.structureTileLabel {
+  line-height: 1.25;
+}
+
+@media (prefers-color-scheme: dark) {
+  .structureTile {
+    border-color: rgba(255, 255, 255, 0.14);
+    background: rgba(20, 20, 20, 0.72);
+    color: rgba(255, 245, 245, 0.92);
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.45);
+  }
+
+  .structureTile:hover,
+  .structureTile:focus-visible {
+    box-shadow: 0 22px 38px rgba(0, 0, 0, 0.55);
+  }
+
+  .structureTileIcon {
+    background: rgba(255, 235, 235, 0.18);
+    color: rgba(255, 215, 215, 0.94);
+  }
+}
+
 .twoColumnMedia picture,
 .twoColumnMedia img {
   width: 100%;
@@ -404,6 +465,31 @@
   text-align: center;
 }
 
+.backToTop {
+  position: fixed;
+  right: clamp(1.25rem, 4vw, 2.5rem);
+  bottom: clamp(1.25rem, 4vw, 2.5rem);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(135deg, #6b0404, #a2403b);
+  color: #ffffff;
+  box-shadow: 0 18px 34px rgba(107, 4, 4, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+}
+
+.backToTop:hover,
+.backToTop:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 38px rgba(107, 4, 4, 0.38);
+}
+
 @media (prefers-color-scheme: dark) {
   .secondaryCta {
     background: linear-gradient(135deg, rgba(214, 72, 72, 0.92), rgba(188, 36, 36, 0.94));
@@ -441,6 +527,11 @@
 
   .meta {
     color: rgba(255, 255, 255, 0.65);
+  }
+
+  .backToTop {
+    background: linear-gradient(135deg, rgba(214, 72, 72, 0.92), rgba(162, 64, 59, 0.88));
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.55);
   }
 
   .trustCard {

@@ -2,9 +2,20 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import { Icon } from "@iconify/react";
 import { Roboto } from "next/font/google";
+import BackToTopButton from "@/components/BackToTopButton";
+import {
+  Locale,
+  MENUITEM_PROPER,
+  MENUITEM_ORDO,
+  MENUITEM_VOTIVE,
+  MENUITEM_ORATIO,
+  MENUITEM_CANTICUM,
+  MENUITEM_INFO,
+  MENUITEM_SUPPLEMENT,
+} from "@/components/intl";
 import { generateLocalisedMetadata } from "@/components/utils";
-import { Locale } from "@/components/intl";
 import Logo from "@/components/Logo";
 import styles from "@/app/landing.module.css";
 
@@ -271,15 +282,28 @@ const renderIntro = (lang: Locale) => {
 };
 
 const renderStructureSection = (lang: Locale) => {
-  const internalLinks = [
-    { href: `/${lang}/calendar#temporale`, label: lang === "pl" ? "Proprium de Tempore (Temporale)" : "Proper of Time (Temporale)" },
-    { href: `/${lang}/calendar#sanctorale`, label: lang === "pl" ? "Proprium Sanctorum (Sanctorale)" : "Proper of Saints (Sanctorale)" },
-    { href: `/${lang}/votive`, label: lang === "pl" ? "Msze wotywne" : "Votive Masses" },
-    { href: `/${lang}/supplement/index`, label: lang === "pl" ? "Commons i rytuały" : "Commons and Rituals" },
-    { href: `/${lang}/oratio`, label: lang === "pl" ? "Modlitwy i nabożeństwa" : "Prayers and Devotions" },
-    { href: `/${lang}/canticum`, label: lang === "pl" ? "Śpiewy i hymnaria" : "Chants and hymnody" },
-    { href: `/${lang}/supplement/info`, label: lang === "pl" ? "Informacje o projekcie" : "Project notes" },
+  const tiles = [
+    { href: `/${lang}/calendar`, label: MENUITEM_PROPER[lang], icon: "mdi:calendar-month" },
+    { href: `/${lang}/ordo`, label: MENUITEM_ORDO[lang], icon: "mdi:text-box-outline" },
+    { href: `/${lang}/votive`, label: MENUITEM_VOTIVE[lang], icon: "mdi:alpha-v-box-outline" },
+    { href: `/${lang}/canticum`, label: MENUITEM_CANTICUM[lang], icon: "mdi:music-note-sixteenth" },
+    { href: `/${lang}/oratio`, label: MENUITEM_ORATIO[lang], icon: "mdi:hands-pray" },
+    { href: `/${lang}/supplement/info`, label: MENUITEM_INFO[lang], icon: "mdi:information-slab-box-outline" },
+    { href: `/${lang}/supplement/index`, label: MENUITEM_SUPPLEMENT[lang], icon: "mdi:book-plus" },
   ];
+
+  const tileGrid = (
+    <div className={styles.structureTiles}>
+      {tiles.map(({ href, label, icon }) => (
+        <Link key={href} href={href} className={styles.structureTile}>
+          <span className={styles.structureTileIcon}>
+            <Icon icon={icon} width={22} height={22} />
+          </span>
+          <span className={styles.structureTileLabel}>{label}</span>
+        </Link>
+      ))}
+    </div>
+  );
 
   if (lang === "pl") {
     return (
@@ -292,13 +316,7 @@ const renderStructureSection = (lang: Locale) => {
           Tekst łaciński został zestawiony z polskim tłumaczeniem, co ułatwia śledzenie liturgii, naukę łaciny oraz przygotowanie do katechezy czy homilii. Dodatkowe 
           informacje – jak klasa obchodu, kolor szat liturgicznych czy wspomnienia świętych – tworzą spójny przewodnik po formularzach i całym roku kościelnym.
         </p>
-        <ul className={styles.articleList}>
-          {internalLinks.map(({ href, label }) => (
-            <li key={href}>
-              <Link href={href}>{label}</Link>
-            </li>
-          ))}
-        </ul>
+        {tileGrid}
       </>
     );
   }
@@ -311,13 +329,7 @@ const renderStructureSection = (lang: Locale) => {
       <p>
         The Latin text is presented alongside the Polish translation, which makes it easier to follow the liturgy, learn Latin, and prepare for catechesis or homilies. Additional information—such as feast rank, vestment colour, and saints’ commemorations—creates a coherent guide to the formularies and the entire church year.
       </p>
-      <ul className={styles.articleList}>
-        {internalLinks.map(({ href, label }) => (
-          <li key={href}>
-            <Link href={href}>{label}</Link>
-          </li>
-        ))}
-      </ul>
+      {tileGrid}
     </>
   );
 };
@@ -778,6 +790,7 @@ export default async function LandingPage({
         <footer className={styles.footer}>
           <p className={styles.photoCredit}>{photoCredit}</p>
         </footer>
+        <BackToTopButton />
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }} />
