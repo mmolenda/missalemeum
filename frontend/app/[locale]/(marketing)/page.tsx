@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
@@ -19,7 +20,6 @@ const ABOUT_SECTION_ID = "about-missal";
 const STRUCTURE_SECTION_ID = "missal-structure";
 const FEATURES_SECTION_ID = "missal-features";
 const USAGE_SECTION_ID = "living-tradition";
-const PROJECT_SECTION_ID = "project-info";
 const RESOURCES_SECTION_ID = "resources";
 const SUPPORT_SECTION_ID = "support";
 const TRUST_SECTION_ID = "credibility";
@@ -41,6 +41,13 @@ type InternalNavItem = {
   targetId: string;
 };
 
+type FaqItem = {
+  question: string;
+  answer?: ReactNode;
+  renderAnswer?: (lang: Locale) => ReactNode;
+  schemaAnswer?: string;
+};
+
 type LandingCopy = {
   metaTitle: string;
   metaDescription: string;
@@ -58,13 +65,12 @@ type LandingCopy = {
   calendarCaption: string;
   properCaption: string;
   usageHeading: string;
-  projectInfoHeading: string;
   resourcesHeading: string;
   supportHeading: string;
   trustHeading: string;
   trustSignature: string;
   faqHeading: string;
-  faq: Array<{ question: string; answer: string }>;
+  faq: FaqItem[];
   metaNote: string;
 };
 
@@ -86,7 +92,6 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "Missal structure", targetId: STRUCTURE_SECTION_ID },
       { label: "Digital features", targetId: FEATURES_SECTION_ID },
       { label: "How the faithful use it", targetId: USAGE_SECTION_ID },
-      { label: "Text sources", targetId: PROJECT_SECTION_ID },
       { label: "Tools & resources", targetId: RESOURCES_SECTION_ID },
       { label: "How you can help", targetId: SUPPORT_SECTION_ID },
       { label: "Trust & provenance", targetId: TRUST_SECTION_ID },
@@ -115,7 +120,6 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     calendarCaption: "Traditional liturgical calendar with feasts and commemorations.",
     properCaption: "Full daily propers in Latin and vernacular.",
     usageHeading: "How the faithful live with the missal",
-    projectInfoHeading: "Where the texts come from",
     resourcesHeading: "Tools, feeds, and embeds",
     supportHeading: "How you can help",
     trustHeading: "Prepared with reverence and scholarship",
@@ -131,6 +135,12 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
         question: "Which edition of the Missal does it follow?",
         answer:
           "The texts follow the 1962 editio typica of the Roman Missal (Extraordinary Form). Propers, commemorations, and rubrics reflect the legislation issued after the 1960 code of rubrics.",
+      },
+      {
+        question: "Where do Missale Meum's texts come from?",
+        renderAnswer: renderProjectInfoSection,
+        schemaAnswer:
+          "Latin texts come from Divinum Officium, English translations are checked against the same sources, and the project remains a private open initiative with code on GitHub.",
       },
       {
         question: "How often are texts reviewed and updated?",
@@ -157,7 +167,6 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "Struktura mszału", targetId: STRUCTURE_SECTION_ID },
       { label: "Funkcje cyfrowe", targetId: FEATURES_SECTION_ID },
       { label: "Jak korzystają wierni", targetId: USAGE_SECTION_ID },
-      { label: "Źródła tekstów", targetId: PROJECT_SECTION_ID },
       { label: "Narzędzia", targetId: RESOURCES_SECTION_ID },
       { label: "Wsparcie projektu", targetId: SUPPORT_SECTION_ID },
       { label: "Wiarygodność", targetId: TRUST_SECTION_ID },
@@ -184,9 +193,8 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       },
     ],
     calendarCaption: "Tradycyjny kalendarz liturgiczny z obchodami i wspomnieniami.",
-    properCaption: "Pełne proprium dnia po łacinie z przełącznikiem języka.",
+    properCaption: "Pełne proprium dnia w łacinie i przekładzie.",
     usageHeading: "Jak wierni żyją z mszałem",
-    projectInfoHeading: "Skąd pochodzą teksty",
     resourcesHeading: "Narzędzia i materiały dodatkowe",
     supportHeading: "Wsparcie projektu",
     trustHeading: "Przygotowane z pietyzmem i wiedzą",
@@ -202,6 +210,12 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
         question: "Na jakim wydaniu mszału bazuje serwis?",
         answer:
           "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1960 r. oraz wspomnienia właściwe temu kalendarzowi.",
+      },
+      {
+        question: "Skąd pochodzą teksty Missale Meum?",
+        renderAnswer: renderProjectInfoSection,
+        schemaAnswer:
+          "Łacińskie teksty pochodzą z serwisu Divinum Officium, tłumaczenia z Mszału Rzymskiego Pallottinum 1963, a projekt jest prywatną inicjatywą z otwartym kodem na GitHubie.",
       },
       {
         question: "Jak często wprowadzane są poprawki?",
@@ -368,7 +382,7 @@ const renderUsageSection = (lang: Locale) => {
   );
 };
 
-const renderProjectInfoSection = (lang: Locale) => {
+function renderProjectInfoSection(lang: Locale): ReactNode {
   if (lang === "pl") {
     return (
       <>
@@ -411,7 +425,7 @@ const renderProjectInfoSection = (lang: Locale) => {
       </p>
     </>
   );
-};
+}
 
 const renderSupportSection = (lang: Locale) => {
   const donationDetails = DONATION_CONFIG[lang];
@@ -420,7 +434,7 @@ const renderSupportSection = (lang: Locale) => {
     return (
       <>
         <p>
-          Missale Meum pozostaje i pozostanie bezpłatne do osobistego użytku. Jeśli chcesz wesprzeć rozwój projektu, rozważ następujące formy pomocy:
+          Missale Meum jest i pozostanie bezpłatne do osobistego użytku. Jeśli chcesz wesprzeć rozwój projektu, rozważ następujące formy pomocy:
         </p>
         <ul className={styles.articleList}>
           <li>modlitwa w intencji autorów i użytkowników;</li>
@@ -428,8 +442,8 @@ const renderSupportSection = (lang: Locale) => {
           <li>dzielenie się serwisem z rodziną, przyjaciółmi i wspólnotą parafialną;</li>
           <li>udostępnianie brakujących tekstów i komentarzy biblijnych;</li>
           <li>
-            dobrowolna darowizna jednorazowa lub cykliczna — Missale Meum pozostaje i pozostanie bezpłatne.
-            Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania Missale Meum – domenę, serwer i usługi pomocnicze.
+            dobrowolna darowizna — Missale Meum jest i pozostanie bezpłatne.
+            Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania serwisu – domenę, serwer i usługi pomocnicze.
             Pozostałe środki kierujemy na wsparcie edukacji katolickiej w Polsce.
           </li>
         </ul>
@@ -614,14 +628,24 @@ export default async function LandingPage({
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: copy.faq.map((item) => ({
-      "@type": "Question",
-      name: item.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.answer,
-      },
-    })),
+    mainEntity: copy.faq.reduce((entities, item) => {
+      const schemaText = item.schemaAnswer ?? (typeof item.answer === "string" ? item.answer : undefined);
+
+      if (!schemaText) {
+        return entities;
+      }
+
+      entities.push({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: schemaText,
+        },
+      });
+
+      return entities;
+    }, [] as Array<{ "@type": string; name: string; acceptedAnswer: { "@type": string; text: string } }>),
   };
 
   const structuredData = JSON.stringify([websiteSchema, faqSchema]);
@@ -728,11 +752,6 @@ export default async function LandingPage({
           </div>
         </section>
 
-        <section id={PROJECT_SECTION_ID} className={styles.section}>
-          <h2 className={styles.sectionHeading}>{copy.projectInfoHeading}</h2>
-          <div className={styles.longForm}>{renderProjectInfoSection(lang)}</div>
-        </section>
-
         <section id={RESOURCES_SECTION_ID} className={styles.section}>
           <h2 className={styles.sectionHeading}>{copy.resourcesHeading}</h2>
           <div className={styles.longForm}>{renderResourcesSection(lang)}</div>
@@ -764,14 +783,20 @@ export default async function LandingPage({
         <section id={FAQ_SECTION_ID} className={styles.section}>
           <h2 className={styles.sectionHeading}>{copy.faqHeading}</h2>
           <div className={styles.faqList}>
-            {copy.faq.map((item) => (
-              <details key={item.question}>
-                <summary>
-                  <span>{item.question}</span>
-                </summary>
-                <p className={styles.cardText}>{item.answer}</p>
-              </details>
-            ))}
+            {copy.faq.map((item) => {
+              const answerContent = item.renderAnswer
+                ? <div className={styles.longForm}>{item.renderAnswer(lang)}</div>
+                : <p className={styles.cardText}>{item.answer}</p>;
+
+              return (
+                <details key={item.question}>
+                  <summary>
+                    <span>{item.question}</span>
+                  </summary>
+                  {answerContent}
+                </details>
+              );
+            })}
           </div>
         </section>
 
