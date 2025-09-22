@@ -7,6 +7,7 @@ import {
     IconButton,
     ListItem,
     ListItemButton,
+    ListItemIcon,
     ToggleButton,
     ToggleButtonGroup
 } from "@mui/material";
@@ -31,6 +32,7 @@ import List from "@mui/material/List";
 import DrawerListItemText from "@/components/styledComponents/DrawerListItemText";
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { Icon } from "@iconify/react";
 import {myLocalStorage} from "./myLocalStorage";
 import {getBannerExpiryDate, isBannerExpired} from "@/components/layoutMetrics";
 import {usePathname} from "next/navigation";
@@ -72,14 +74,14 @@ const LeftHandMenu = ({
     return normalisedPath.startsWith(`${normalisedRoute}/`);
   }
 
-  const menuItems: Array<{label: string; route: string; external?: boolean}> = [
-    {label: MENUITEM_PROPER[lang], route: `/${lang}/calendar`},
-    {label: MENUITEM_ORDO[lang], route: `/${lang}/ordo`},
-    {label: MENUITEM_VOTIVE[lang], route: `/${lang}/votive`},
-    {label: MENUITEM_ORATIO[lang], route: `/${lang}/oratio`},
-    {label: MENUITEM_CANTICUM[lang], route: `/${lang}/canticum`},
-    {label: MENUITEM_SUPPLEMENT[lang], route: `/${lang}/supplement/index`},
-    {label: MENUITEM_INFO[lang], route: `/${lang}/supplement/info`},
+  const menuItems: Array<{label: string; route: string; icon?: string; external?: boolean}> = [
+    {label: MENUITEM_PROPER[lang], route: `/${lang}/calendar`, icon: "mdi:calendar-month"},
+    {label: MENUITEM_ORDO[lang], route: `/${lang}/ordo`, icon: "mdi:text-box-outline"},
+    {label: MENUITEM_VOTIVE[lang], route: `/${lang}/votive`, icon: "mdi:alpha-v-box-outline"},
+    {label: MENUITEM_ORATIO[lang], route: `/${lang}/oratio`, icon: "mdi:hands-pray"},
+    {label: MENUITEM_CANTICUM[lang], route: `/${lang}/canticum`, icon: "mdi:music-note-sixteenth"},
+    {label: MENUITEM_SUPPLEMENT[lang], route: `/${lang}/supplement/index`, icon: "mdi:book-plus"},
+    {label: MENUITEM_INFO[lang], route: `/${lang}/supplement/info`, icon: "mdi:information-slab-box-outline"},
     {label: MENUITEM_ANNOUNCEMENTS[lang], route: `/${lang}/supplement/announcements`}
   ]
 
@@ -98,7 +100,7 @@ const LeftHandMenu = ({
         <CloseIcon />
       </IconButton>
       <List>
-        {menuItems.map(({label, route, external}) => (
+        {menuItems.map(({label, route, external, icon}) => (
           <ListItem key={label}>
             <ListItemButton
               {...(external ? {
@@ -112,6 +114,11 @@ const LeftHandMenu = ({
               })}
               selected={!external && isMenuitemSelected(route)}
             >
+              {icon ? (
+                <ListItemIcon sx={{color: "primary.main", minWidth: 44}}>
+                  <Icon icon={icon} width={22} height={22} />
+                </ListItemIcon>
+              ) : null}
               <DrawerListItemText prim={label}/>
             </ListItemButton>
           </ListItem>
