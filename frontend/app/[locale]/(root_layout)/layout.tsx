@@ -25,10 +25,10 @@ import {Link as MUILink} from "@mui/material";
 import Logo from "@/components/Logo";
 import MainMenu from "@/components/MainMenu";
 import Link from "next/link";
-import Script from "next/script";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
+import SimpleAnalyticsScript from "@/components/SimpleAnalyticsScript";
 import {
   Locale,
   MSG_COOKIES,
@@ -272,7 +272,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           </MUILink>
         </CookieConsent>
         </Container>
-        <Script async src="https://scripts.simpleanalyticscdn.com/latest.js" />
+        <SimpleAnalyticsScript />
       </ThemeProvider>
     </AppRouterCacheProvider>
   );
