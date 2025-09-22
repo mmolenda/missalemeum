@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Missale Meum',
     short_name: 'MissaleMeum',
-    start_url: '/',
+    start_url: '/calendar',
     display: 'standalone',
     background_color: '#fcfbf9',
     theme_color: '#000000',

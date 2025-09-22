@@ -1,21 +1,14 @@
 "use client"
 
 import React from "react";
-import {AppRouterCacheProvider} from '@mui/material-nextjs/v15-appRouter';
-import {ThemeProvider} from '@mui/material/styles';
-import {getDesignTokens} from '@/components/designTokens';
+import {AppRouterCacheProvider} from "@mui/material-nextjs/v15-appRouter";
+import {ThemeProvider} from "@mui/material/styles";
+import {getDesignTokens} from "@/components/designTokens";
 import {Box, createTheme, CssBaseline, PaletteMode} from "@mui/material";
 
-import {Merriweather} from 'next/font/google'
 import {useParams, useSearchParams} from "next/navigation";
-import 'moment/locale/pl';
+import "moment/locale/pl";
 import moment from "moment/moment";
-
-
-const merriweather = Merriweather({
-  subsets: ['latin'],
-  weight: ["300", "400"]
-})
 
 
 export default function RootLayout({
@@ -37,17 +30,12 @@ export default function RootLayout({
     return createTheme(designTokens);
   }, [lightOrDark, fontSize]);
 
-  return (<html lang="en" className={merriweather.className}>
+  return (
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
-        <CssBaseline/>
-        <body>
-        <Box sx={{pt: "12px"}}>
-          {children}
-        </Box>
-        </body>
+        <CssBaseline />
+        <Box sx={{pt: "12px"}}>{children}</Box>
       </ThemeProvider>
     </AppRouterCacheProvider>
-    </html>
   );
 }

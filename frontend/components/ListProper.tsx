@@ -47,23 +47,28 @@ import {
 export default function ListProper({
                                      lang,
                                      year,
-                                     items
+                                     items,
+                                     basePath,
                                    }: {
   lang: string
   year: number
   items: ListItemType[]
+  basePath?: string
 }) {
+  const resolvedBasePath = basePath ?? `/${lang}/calendar`;
   const dateFormat = 'YYYY-MM-DD'
   const todayFmt = moment().format(dateFormat)
   const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
   const [selectedItem, setSelectedItem] = useState("")
+  const [hasMounted, setHasMounted] = useState(false)
   const router = useRouter()
   const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({})
 
   useEffect(() => {
     const hashValue = window.location.hash.substring(1)
     setSelectedItem(hashValue || todayFmt)
+    setHasMounted(true)
   }, [todayFmt])
 
   useEffect(() => {
@@ -116,7 +121,7 @@ export default function ListProper({
 
     const handleDateChange = (newValue: Dayjs | null) => {
       if (newValue) {
-        router.push(`/${lang}/${newValue.format(dateFormat)}`);
+        router.push(`${resolvedBasePath}/${newValue.format(dateFormat)}`);
       }
     }
 
@@ -173,6 +178,9 @@ export default function ListProper({
     )
   }
 
+  const bannerDismissed = hasMounted && myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
+  const bannerExpired = isBannerExpired();
+
   return (
     <>
       <Box sx={{
@@ -180,8 +188,6 @@ export default function ListProper({
         display: "flex",
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
-          const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-          const bannerExpired = isBannerExpired();
           const offset = (bannerDismissed || bannerExpired) ? 0 : BANNER_HEIGHT;
           return `${appBarHeight + offset}px`;
         },
@@ -211,7 +217,7 @@ export default function ListProper({
         <MyDatePicker/>
       </Box>
       <List>
-        <PrevOrNextYearListItem lang={lang} year={year} isNext={false}/>
+        <PrevOrNextYearListItem basePath={resolvedBasePath} year={year} isNext={false}/>
         {itemsFiltered.map((indexItem) => {
             const colorCode = indexItem.colors[0]
             const dateParsed = moment(indexItem.id, "YYYY-MM-DD")
@@ -253,7 +259,7 @@ export default function ListProper({
                 <ListItemButton
                   selected={indexItem.id == selectedItem}
                   component={Link}
-                  href={`/${lang}/${indexItem.id}`}
+                  href={`${resolvedBasePath}/${indexItem.id}`}
                 >
                   <>{indexItem.id === todayFmt &&
                     <ListItemIcon sx={{minWidth: "2.5rem", display: "flex", alignItems: "center"}}><EventIcon
@@ -270,13 +276,13 @@ export default function ListProper({
             </Fragment>
           }
         )}
-        <PrevOrNextYearListItem lang={lang} year={year} isNext={true}/>
+        <PrevOrNextYearListItem basePath={resolvedBasePath} year={year} isNext={true}/>
       </List>
     </>
   )
 }
 
-function PrevOrNextYearListItem({lang, year, isNext}: { lang: string, year: number, isNext: boolean }) {
+function PrevOrNextYearListItem({basePath, year, isNext}: { basePath: string, year: number, isNext: boolean }) {
   const prevYear = year - 1
   const prevYearLastDay = prevYear + "-12-31"
   const nextYear = year + 1
@@ -288,7 +294,7 @@ function PrevOrNextYearListItem({lang, year, isNext}: { lang: string, year: numb
     >
       <ListItemButton
         component={Link}
-        href={`/${lang}/${isNext ? nextYearFirstDay : prevYearLastDay}`}
+        href={`${basePath}/${isNext ? nextYearFirstDay : prevYearLastDay}`}
       >
         <>{!isNext ? <ListItemIcon><ArrowBackIcon sx={{color: "secondary.main"}}/></ListItemIcon> : null}</>
         <SidenavListItemText prim={(isNext ? nextYear : prevYear).toString()}/>

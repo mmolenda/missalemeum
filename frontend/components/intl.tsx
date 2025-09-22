@@ -4,6 +4,22 @@ import { enUS } from '@mui/x-date-pickers/locales';
 
 export type Locale = "pl" | "en";
 
+export const CALENDAR_PAGE_TITLE: {
+  pl: string;
+  en: string;
+} = {
+  pl: "Kalendarz liturgiczny Mszy trydenckiej",
+  en: "Traditional Latin Mass liturgical calendar",
+};
+
+export const CALENDAR_PAGE_DESCRIPTION: {
+  pl: string;
+  en: string;
+} = {
+  pl: "Przeglądaj kalendarz liturgiczny Mszy trydenckiej z czytaniami, proprium i wspomnieniami według Mszału Rzymskiego z 1962 r.",
+  en: "Browse the 1962 Roman Missal calendar with propers, readings, and commemorations for the Traditional Latin Mass.",
+};
+
 export const META_DESCRIPTION: {
   pl: string;
   en: string;
