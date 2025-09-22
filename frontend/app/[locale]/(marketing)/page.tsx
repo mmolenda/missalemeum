@@ -1,10 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import { Roboto } from "next/font/google";
 import { generateLocalisedMetadata } from "@/components/utils";
 import { Locale } from "@/components/intl";
 import Logo from "@/components/Logo";
 import styles from "@/app/landing.module.css";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-landing-roboto",
+});
 
 const SITE_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.missalemeum.com";
 
@@ -618,14 +625,15 @@ export default async function LandingPage({
   return (
     <>
       <Script strategy="afterInteractive" src="https://js.stripe.com/v3/buy-button.js" />
-      <section className={styles.heroSection}>
-        <div className={styles.heroMedia}>
-          <picture>
-            <source srcSet="/images/hero.webp" type="image/webp" />
-            <img src="/images/hero.jpg" alt="Open Roman Missal on altar during Traditional Latin Mass (1962 Missal)" />
-          </picture>
-        </div>
-        <div className={styles.heroContent}>
+      <div className={roboto.variable}>
+        <section className={styles.heroSection}>
+          <div className={styles.heroMedia}>
+            <picture>
+              <source srcSet="/images/hero.webp" type="image/webp" />
+              <img src="/images/hero.jpg" alt="Open Roman Missal on altar during Traditional Latin Mass (1962 Missal)" />
+            </picture>
+          </div>
+          <div className={styles.heroContent}>
           <div className={styles.heroIdentity}>
             <Logo width={64} height={64} />
             <span className={styles.heroTag}>{copy.heroTag}</span>
@@ -645,10 +653,10 @@ export default async function LandingPage({
             </Link>
           </div>
         </div>
-      </section>
+        </section>
 
 
-      <main className={styles.page}>
+        <main className={styles.page}>
         <nav className={styles.internalNav}>
           {copy.internalNav.map((item) => (
             <Link key={item.targetId} href={`#${item.targetId}`}>
@@ -767,11 +775,12 @@ export default async function LandingPage({
           <div className={styles.longForm}>{renderClosing(lang)}</div>
           <p className={styles.meta}>{copy.metaNote}</p>
         </section>
-      </main>
+        </main>
 
-      <footer className={styles.footer}>
-        <p className={styles.photoCredit}>{photoCredit}</p>
-      </footer>
+        <footer className={styles.footer}>
+          <p className={styles.photoCredit}>{photoCredit}</p>
+        </footer>
+      </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }} />
     </>

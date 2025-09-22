@@ -133,6 +133,7 @@
   font-weight: 600;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  font-family: var(--font-landing-roboto), "Merriweather", Georgia, serif;
 }
 
 .primaryCta {
@@ -189,10 +190,20 @@
 
 .longForm {
   display: grid;
-  gap: 1.4rem;
-  font-size: 1.05rem;
-  line-height: 1.85;
+  gap: 1rem;
+  font-size: 1rem;
+  line-height: 1.65;
   color: rgba(0, 0, 0, 0.78);
+}
+
+.longForm ul li,
+.longForm ol li {
+  margin-block-end: 0.5rem;
+}
+
+.longForm ul li:last-child,
+.longForm ol li:last-child {
+  margin-block-end: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -229,6 +240,7 @@
   transition: background 0.2s ease, box-shadow 0.2s ease;
   border: 1px solid rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 18px rgba(107, 4, 4, 0.25);
+  font-family: var(--font-landing-roboto), "Merriweather", Georgia, serif;
 }
 
 .internalNav a:hover,
@@ -259,8 +271,8 @@
 }
 
 .cardText {
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 0.98rem;
+  line-height: 1.6;
   color: rgba(0, 0, 0, 0.75);
 }
 
