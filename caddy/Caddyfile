@@ -16,5 +16,8 @@ http://:8000 {
 		reverse_proxy backend:8080
 	}
 
+	@legacyCalendar path_regexp legacyCalendar ^/([a-z]{2})/(\d{4}-\d{2}-\d{2})$
+	redir @legacyCalendar /{re.legacyCalendar.1}/calendar/{re.legacyCalendar.2} 301
+
 	reverse_proxy frontend:8081
 }
