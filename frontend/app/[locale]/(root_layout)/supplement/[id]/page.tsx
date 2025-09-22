@@ -1,8 +1,11 @@
 import React from "react";
-import {notFound} from "next/navigation";
+import { notFound } from "next/navigation";
+import Script from "next/script";
 import BilingualContent from "@/components/BilingualContent";
-import {Content} from "@/components/types";
-import {callApi, generateLocalisedMetadata} from "@/components/utils";
+import { Content } from "@/components/types";
+import { callApi, generateLocalisedMetadata } from "@/components/utils";
+import { DonationWidget } from "@/components/donations";
+import { Locale } from "@/components/intl";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id?: string }> }) {
   const { locale, id } = await params
@@ -30,5 +33,24 @@ export default async function Page({
     notFound();
   }
   const proper = await response.json();
-  return <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={backButtonRef} markdownNewlines={true} />
+  const showDonation = id === "info";
+  const lang = (locale === "pl" ? "pl" : "en") as Locale;
+
+  return (
+    <>
+      {showDonation ? <Script strategy="afterInteractive" src="https://js.stripe.com/v3/buy-button.js" /> : null}
+      <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={backButtonRef} markdownNewlines={true} />
+      {showDonation ? (
+        <div
+          style={{
+            marginTop: "1.5rem",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <DonationWidget lang={lang} />
+        </div>
+      ) : null}
+    </>
+  )
 }

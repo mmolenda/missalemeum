@@ -5,6 +5,7 @@ import Script from "next/script";
 import { Icon } from "@iconify/react";
 import { Roboto } from "next/font/google";
 import BackToTopButton from "@/components/BackToTopButton";
+import { DonationWidget } from "@/components/donations";
 import {
   Locale,
   MENUITEM_PROPER,
@@ -35,17 +36,6 @@ const RESOURCES_SECTION_ID = "resources";
 const SUPPORT_SECTION_ID = "support";
 const TRUST_SECTION_ID = "credibility";
 const FAQ_SECTION_ID = "faq";
-
-const DONATION_CONFIG: Record<Locale, { buyButtonId: string; publishableKey: string }> = {
-  en: {
-    buyButtonId: "buy_btn_1SA6zyASmawTdJcy077G1ZOj",
-    publishableKey: "pk_live_51S9B6GASmawTdJcyQ1lrfyFvuGfciQ7Kci0Sw11AGBGjg7dbH0KlbFUOjpcD96LtyWT3JGhpS4oWfIjtHAoCFbo500O7bzQ4Nr",
-  },
-  pl: {
-    buyButtonId: "buy_btn_1SA6NzASmawTdJcyyd6YboOh",
-    publishableKey: "pk_live_51S9B6GASmawTdJcyQ1lrfyFvuGfciQ7Kci0Sw11AGBGjg7dbH0KlbFUOjpcD96LtyWT3JGhpS4oWfIjtHAoCFbo500O7bzQ4Nr",
-  },
-};
 
 type InternalNavItem = {
   label: string;
@@ -413,8 +403,6 @@ function renderProjectInfoSection(lang: Locale): ReactNode {
 }
 
 const renderSupportSection = (lang: Locale) => {
-  const donationDetails = DONATION_CONFIG[lang];
-
   if (lang === "pl") {
     return (
       <>
@@ -432,12 +420,7 @@ const renderSupportSection = (lang: Locale) => {
             Pozostałe środki kierujemy na wsparcie edukacji katolickiej w Polsce.
           </li>
         </ul>
-        <div className={styles.donateCta}>
-          <stripe-buy-button
-            buy-button-id={donationDetails.buyButtonId}
-            publishable-key={donationDetails.publishableKey}
-          />
-        </div>
+        <DonationWidget lang={lang} className={styles.donateCta} />
       </>
     );
   }
@@ -453,16 +436,11 @@ const renderSupportSection = (lang: Locale) => {
         <li>share the project with friends, families, and parish groups;</li>
         <li>contribute missing texts or trusted commentaries;</li>
         <li>
-          make a one-time or recurring donation — Missale Meum remains free to use. Your donation is used first to cover the essential costs of running Missale Meum – the domain, server, and auxiliary services.
+          make a donation — Missale Meum remains free to use. Your donation is used first to cover the essential costs of running Missale Meum – the domain, server, and auxiliary services.
           Any remainder is directed to supporting Catholic education in Poland.
         </li>
       </ul>
-      <div className={styles.donateCta}>
-        <stripe-buy-button
-          buy-button-id={donationDetails.buyButtonId}
-          publishable-key={donationDetails.publishableKey}
-        />
-      </div>
+      <DonationWidget lang={lang} className={styles.donateCta} />
     </>
   );
 };
