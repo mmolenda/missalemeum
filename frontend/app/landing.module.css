@@ -118,6 +118,11 @@
   flex-wrap: wrap;
 }
 
+.donateCta {
+  margin-top: 1rem;
+  display: flex;
+}
+
 .ctaButton {
   display: inline-flex;
   align-items: center;

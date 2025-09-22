@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { generateLocalisedMetadata } from "@/components/utils";
 import { Locale } from "@/components/intl";
 import Logo from "@/components/Logo";
@@ -15,6 +16,17 @@ const PROJECT_SECTION_ID = "project-info";
 const RESOURCES_SECTION_ID = "resources";
 const TRUST_SECTION_ID = "credibility";
 const FAQ_SECTION_ID = "faq";
+
+const DONATION_CONFIG: Record<Locale, { buyButtonId: string; publishableKey: string }> = {
+  en: {
+    buyButtonId: "buy_btn_1SA6zyASmawTdJcy077G1ZOj",
+    publishableKey: "pk_live_51S9B6GASmawTdJcyQ1lrfyFvuGfciQ7Kci0Sw11AGBGjg7dbH0KlbFUOjpcD96LtyWT3JGhpS4oWfIjtHAoCFbo500O7bzQ4Nr",
+  },
+  pl: {
+    buyButtonId: "buy_btn_1SA6NzASmawTdJcyyd6YboOh",
+    publishableKey: "pk_live_51S9B6GASmawTdJcyQ1lrfyFvuGfciQ7Kci0Sw11AGBGjg7dbH0KlbFUOjpcD96LtyWT3JGhpS4oWfIjtHAoCFbo500O7bzQ4Nr",
+  },
+};
 
 type InternalNavItem = {
   label: string;
@@ -531,6 +543,7 @@ export default async function LandingPage({
   const copy = LANDING_COPY[lang];
   const photoCredit = PHOTO_CREDIT[lang];
   const authorAlt = lang === "pl" ? "Portret Marcina Molendy" : "Portrait of Marcin Molenda";
+  const donationConfig = DONATION_CONFIG[lang];
 
   const calendarUrl = `/${lang}/calendar`;
   const today = new Date();
@@ -566,6 +579,7 @@ export default async function LandingPage({
 
   return (
     <>
+      <Script strategy="afterInteractive" src="https://js.stripe.com/v3/buy-button.js" />
       <section className={styles.heroSection}>
         <div className={styles.heroMedia}>
           <picture>
@@ -592,8 +606,15 @@ export default async function LandingPage({
               {copy.primaryCtaLabel}
             </Link>
           </div>
+          <div className={styles.donateCta}>
+            <stripe-buy-button
+              buy-button-id={donationConfig.buyButtonId}
+              publishable-key={donationConfig.publishableKey}
+            />
+          </div>
         </div>
       </section>
+
 
       <main className={styles.page}>
         <nav className={styles.internalNav}>
