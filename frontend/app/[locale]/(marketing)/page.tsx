@@ -99,22 +99,22 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     ],
     featuresHeading: "Everything you need for the Extraordinary Form",
     featuresIntro:
-      "Missale Meum is more than a calendar. It is a study companion, a travel missal, and a reliable reference for clergy and laity alike.",
+      "Missale Meum is more than a calendar — it is a tool for prayer, study, and preparation for the liturgy in the classical Roman Rite.",
     features: [
       {
-        title: "Daily propers in context",
+        title: "Full propers in context",
         description:
-          "View complete Mass formularies in Latin with a parallel vernacular translation. Introits, collects, lessons, graduals, and rubrical notes appear together so nothing is lost between books.",
+          "Complete Mass formularies with Latin and Polish side by side. Prayers, readings, antiphons, and rubrical notes are always in one place.",
       },
       {
-        title: "Traditional calendar intelligence",
+        title: "Intelligent traditional calendar",
         description:
-          "Ranks, vestment colours, commemorations, ember days, and octaves are displayed at a glance. Quickly move through years to study how the temporale and sanctorale intersect.",
+          "See the feast rank, vestment colour, and commemorations at a glance. Easily move between years and follow the structure of the temporale and sanctorale.",
       },
       {
-        title: "Reference library included",
+        title: "Reference library",
         description:
-          "From votive Masses and Commons to seasonal chants and devotional prayers, Missale Meum gathers the texts most often needed by families, choirs, and altar servers.",
+          "Votives and Commons, seasonal chants, daily prayers — Missale Meum gathers the texts most often needed by families, choirs, and altar servers.",
       },
     ],
     calendarCaption: "Traditional liturgical calendar with feasts and commemorations.",
@@ -128,12 +128,12 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         question: "Is Missale Meum free to use?",
         answer:
-          "Yes. Missale Meum is a volunteer-maintained project and will always remain free for personal use. You can install it as a web app or use it from any modern browser without payment or registration. If you wish, optional donations help cover hosting and support Catholic education in Poland.",
+          "Yes. Missale Meum is a volunteer-maintained project and will always remain free for personal use, with no fees or ads. You can install it as a web app or use it from any modern browser without payment or registration. If you wish, optional donations help cover hosting and support Catholic education in Poland.",
       },
       {
         question: "Which edition of the Missal does it follow?",
         answer:
-          "The texts follow the 1962 editio typica of the Roman Missal (Extraordinary Form). Propers, commemorations, and rubrics reflect the legislation issued after the 1960 code of rubrics.",
+          "The texts follow the 1962 editio typica of the Roman Missal (Extraordinary Form).",
       },
       {
         question: "Where do Missale Meum's texts come from?",
@@ -208,7 +208,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         question: "Na jakim wydaniu mszału bazuje serwis?",
         answer:
-          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1964 r. oraz wspomnienia właściwe temu kalendarzowi. Wielki tydzień jest również dostępny w wersji pre-55.",
+          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1964 r. oraz wspomnienia właściwe temu kalendarzowi. Wielki Tydzień jest również dostępny w wersji pre-55.",
       },
       {
         question: "Skąd pochodzą teksty Missale Meum?",
@@ -306,12 +306,10 @@ const renderStructureSection = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum mirrors the structure of a printed hand missal. Each liturgical day gathers the variable propers with the fixed Ordinary so readers can move seamlessly from
-        preparation at the foot of the altar to the Last Gospel without juggling multiple books.
+        Missale Meum faithfully reflects the layout of the 1962 printed missal. The site includes both the fixed parts (Ordo Missae) and the proper of each day of the liturgical year—readings, prayers, and antiphons.
       </p>
       <p>
-        Parallel translations make it easier to teach newcomers the language of the Roman Rite. Commentary notes draw attention to rank, commemorations, and vesture, while links to
-        supplements and chants place every rubric in its wider context.
+        The Latin text is presented alongside the Polish translation, which makes it easier to follow the liturgy, learn Latin, and prepare for catechesis or homilies. Additional information—such as feast rank, vestment colour, and saints’ commemorations—creates a coherent guide to the formularies and the entire church year.
       </p>
       <ul className={styles.articleList}>
         {internalLinks.map(({ href, label }) => (
@@ -435,7 +433,7 @@ const renderSupportSection = (lang: Locale) => {
   return (
     <>
       <p>
-        Missale Meum will always remain free to use. If you would like to help sustain the project, you can:
+        Missale Meum will always remain free to use. We do not charge fees or display ads. If you would like to help sustain the project, you can:
       </p>
       <ul className={styles.articleList}>
         <li>remember Missale Meum in your prayers;</li>
@@ -514,20 +512,20 @@ const renderTrustSection = (lang: Locale) => {
   }
 
   return (
-    <>
-      <p>
-        Missale Meum is the personal project of Marcin Molenda—a husband, father, and developer who loves bringing liturgy and technology together. Online since 2018, it has grown
-        alongside the faithful who rely on the Traditional Latin Mass across the world.
-      </p>
-      <p>
-        Marcin collaborates with clergy experienced in the Extraordinary Form and with lay editors. Updates are logged publicly and community suggestions flow through the GitHub
-        repository, where they are reviewed before publication.
-      </p>
-      <p>
-        Sources, translations, and editorial choices are carefully documented. Rubrical notes highlight differences from earlier hand missals or local customs so Missale Meum remains
-        a trustworthy companion for prayer, study, and parish life.
-      </p>
-    </>
+      <>
+        <p>
+          Missale Meum was built and is maintained by Marcin Molenda — a husband and father who combines a passion for liturgy with technology. Online since 2018, the project has grown
+          thanks to the faithful who use the traditional liturgy in Poland and around the world.
+        </p>
+        <p>
+          Marcin collaborates with priests who celebrate the Traditional Latin Mass and with lay editors. Every update is documented publicly, and user contributions are submitted to the
+          <Link href="https://github.com/mmolenda/missalemeum">GitHub</Link> repository, where they are reviewed before publication. Thanks to the transparency of its sources and corrections,
+          Missale Meum remains a reliable tool for prayer and study.
+        </p>
+        <p>
+          Feel free to reach out at <a href="mailto:marcin@missalemeum.com">marcin@missalemeum.com</a> or follow updates at <a href="https://www.facebook.com/missalemeum" target="_blank" rel="noopener noreferrer">facebook.com/missalemeum</a>.
+        </p>
+      </>
   );
 };
 
