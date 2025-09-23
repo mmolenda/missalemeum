@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/10-06
+
+[Postcommunio]
+@Commune/C5-1::s/N\./Brunona/

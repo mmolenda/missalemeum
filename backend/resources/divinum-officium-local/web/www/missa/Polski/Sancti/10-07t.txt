@@ -1,2 +1,5 @@
 [Comment]
 @Sancti/10-07t
+
+[Oratio]
+@Commune/C4b::s/N\./Marka/

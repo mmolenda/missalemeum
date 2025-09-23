@@ -1,5 +1,5 @@
 [Oratio]
-@Sancti/10-07t
+@Commune/C4b::s/N\./Mark/
 
 [Postcommunio]
 @Sancti/10-07t

@@ -26,5 +26,5 @@
 @Commune/C4-1
 
 [Postcommunio]
-@Commune/C5-1:Postcommunio:s/N\./Brunóne/
+@Commune/C5-1::s/N\./Brunóne/
 
