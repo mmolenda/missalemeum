@@ -16,6 +16,14 @@ from constants import TRANSLATION
 from constants.common import LANGUAGES, ORDO_DIR
 from kalendar.models import Calendar, Day
 from utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
+from examples import (
+    CALENDAR_ITEMS_EXAMPLE,
+    ICALENDAR_EXAMPLE,
+    ORDO_EXAMPLE,
+    PROPER_EXAMPLE,
+    SUPPLEMENT_CONTENT_EXAMPLE,
+    SUPPLEMENT_LIST_EXAMPLE,
+)
 from schemas import CalendarItem, ContentItem, Info, Proper
 
 
@@ -59,6 +67,15 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
         "Get proper for a given observance by ID. ID can be either date in format "
         "`YYYY-MM-DD` or one that can be found in `/votive` endpoint."
     ),
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": PROPER_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_proper(
     date_or_id: str = Path(
@@ -98,6 +115,15 @@ def v5_proper(
     response_model=list[ContentItem],
     summary="Get ordinary",
     description="Get invariable texts, or ordinary of the Mass",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": ORDO_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
     """Return the invariable texts (Ordo Missae) for the selected language."""
@@ -128,6 +154,15 @@ def supplement_response(
     response_model=list[ContentItem],
     summary="Get resource's content",
     description="Get resource's content",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_CONTENT_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_supplement(
     id_: str = Path(..., description="ID of the resource.", example="regina-caeli"),
@@ -142,6 +177,15 @@ def v5_supplement(
     response_model=list[ContentItem],
     summary="Get resource's content",
     description="Get resource's content",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_CONTENT_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_supplement_resource(
     subdir: SupplementCategory = Path(
@@ -179,6 +223,15 @@ def _build_calendar(lang: str, year: int) -> list[CalendarItem]:
     response_model=list[CalendarItem],
     summary="Get current calendar",
     description="Get liturgical calendar according to the 1962 missal for the current year.",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": CALENDAR_ITEMS_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
     """Return calendar entries for the current year."""
@@ -191,6 +244,15 @@ def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarIt
     response_model=list[CalendarItem],
     summary="Get calendar for a given year",
     description="Get liturgical calendar according to the 1962 missal for the selected year.",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": CALENDAR_ITEMS_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_calendar(
     year: int = Path(
@@ -228,6 +290,15 @@ def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     response_model=list[Info],
     summary="Get list of resources of given type",
     description="Get list of resources of given type",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_LIST_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
     """Return the supplement index for prayers (`oratio`)."""
@@ -239,6 +310,15 @@ def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
     response_model=list[ContentItem],
     summary="Get resource's content",
     description="Get resource's content",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_CONTENT_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_oratio_by_id(
     id_: str = Path(..., description="ID of the resource.", example="aniele-bozy"),
@@ -253,6 +333,15 @@ def v5_oratio_by_id(
     response_model=list[Info],
     summary="Get list of resources of given type",
     description="Get list of resources of given type",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_LIST_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
     """Return the supplement index for canticles (`canticum`)."""
@@ -264,6 +353,15 @@ def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
     response_model=list[ContentItem],
     summary="Get resource's content",
     description="Get resource's content",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": SUPPLEMENT_CONTENT_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_canticum_by_id(
     id_: str = Path(..., description="ID of the resource.", example="adoro-te"),
@@ -289,6 +387,15 @@ def _ical_response(lang: str, rank: int) -> PlainTextResponse:
         "software such as Google Calendar. This endpoint returns only feast with rank 1 "
         "and 2. For other ranks see `/{lang}/api/v5/icalendar/{rank}`."
     ),
+    responses={
+        200: {
+            "content": {
+                "text/calendar": {
+                    "example": ICALENDAR_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_ical(lang: str = Depends(validate_locale)) -> PlainTextResponse:
     """Return the calendar feed for ranks 1 and 2 as an iCalendar (ICS) document."""
@@ -302,6 +409,15 @@ def v5_ical(lang: str = Depends(validate_locale)) -> PlainTextResponse:
         "Get the calendar in iCalendar format, which can be imported to any calendar "
         "software such as Google Calendar."
     ),
+    responses={
+        200: {
+            "content": {
+                "text/calendar": {
+                    "example": ICALENDAR_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_ical_for_rank(
     rank: int = Path(
