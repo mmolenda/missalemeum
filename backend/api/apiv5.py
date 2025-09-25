@@ -1,22 +1,20 @@
 import datetime
-import os
-from functools import wraps
-
-import flask
-import sys
-
 import logging
+import os
+import sys
+from typing import Any
 
 import yaml
-from flask import jsonify, Blueprint
+from fastapi import APIRouter, Depends, HTTPException, Path, status
+from fastapi.responses import PlainTextResponse
 
 import __version__
 import controller
+from api.exceptions import InvalidInput, ProperNotFound, SectionNotFound, SupplementNotFound
 from constants import TRANSLATION
-from constants.common import LANGUAGES, LANGUAGE_ENGLISH, ORDO_DIR
-from api.exceptions import InvalidInput, ProperNotFound, SupplementNotFound, SectionNotFound
-from kalendar.models import Day, Calendar
-from utils import get_pregenerated_proper, format_propers, get_supplement, supplement_index
+from constants.common import LANGUAGES, ORDO_DIR
+from kalendar.models import Calendar, Day
+from utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -24,21 +22,17 @@ logging.basicConfig(
     format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
 
 
-api = Blueprint('apiv5', __name__)
+router = APIRouter()
 
 
-def validate_locale(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if kwargs['lang'] not in LANGUAGES.keys():
-            return jsonify({'error': "Not found"}), 404
-        return f(*args, **kwargs)
-    return decorated_function
+def validate_locale(lang: str = Path(...)) -> str:
+    if lang not in LANGUAGES:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Not found")
+    return lang
 
 
-@api.route('/<string:lang>/api/v5/proper/<string:date_or_id>')
-@validate_locale
-def v5_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/proper/{date_or_id}')
+def v5_proper(date_or_id: str, lang: str = Depends(validate_locale)) -> Any:
     try:
         date_object = datetime.datetime.strptime(date_or_id, "%Y-%m-%d").date()
     except ValueError:
@@ -47,52 +41,63 @@ def v5_proper(date_or_id: str, lang: str = LANGUAGE_ENGLISH):
         try:
             pregenerated_proper = get_pregenerated_proper(lang, proper_id)
             if pregenerated_proper is not None:
-                return jsonify(pregenerated_proper)
+                return pregenerated_proper
             proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-            return jsonify(format_propers([[proper_vernacular, proper_latin]]))
+            return format_propers([[proper_vernacular, proper_latin]])
         except InvalidInput as e:
-            return jsonify({'error': str(e)}), 400
+            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e)) from e
         except ProperNotFound as e:
-            return jsonify({'error': str(e)}), 404
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(e)) from e
         except SectionNotFound as e:
-            return jsonify({'error': str(e)}), 500
+            raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e)) from e
     else:
         # Valid date, getting day's proper
         day: Day = controller.get_day(date_object, lang)
         pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id())
         if pregenerated_proper:
-            return jsonify(pregenerated_proper)
-        return jsonify(format_propers(day.get_proper(), day))
+            return pregenerated_proper
+        return format_propers(day.get_proper(), day)
 
 
-@api.route('/<string:lang>/api/v5/ordo')
-@validate_locale
-def v5_ordo(lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/ordo')
+def v5_ordo(lang: str = Depends(validate_locale)) -> Any:
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
         content = yaml.full_load(fh)
-        return jsonify(content)
+        return content
 
 
-def supplement_response(lang, id_, subdir):
+def supplement_response(lang: str, id_: str, subdir: str | None) -> list[Any]:
     try:
         supplement_yaml = get_supplement(lang, id_, subdir)
     except SupplementNotFound:
-        return jsonify({'error': "Not found"}), 404
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Not found")
     else:
-        return jsonify([supplement_yaml])
+        return [supplement_yaml]
 
 
-@api.route("/<string:lang>/api/v5/supplement/<string:id_>")
-@api.route("/<string:lang>/api/v5/supplement/<subdir>/<string:resource>")
-@validate_locale
-def v5_supplement(id_: str, subdir: str = None, lang: str = LANGUAGE_ENGLISH):
-    return supplement_response(lang, id_, subdir)
+@router.get('/{lang}/api/v5/supplement/{id_}')
+def v5_supplement(
+    id_: str,
+    lang: str = Depends(validate_locale),
+) -> list[Any]:
+    return supplement_response(lang, id_, None)
 
 
-@api.route('/<string:lang>/api/v5/calendar')
-@api.route('/<string:lang>/api/v5/calendar/<int:year>')
-@validate_locale
-def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/supplement/{subdir}/{resource}')
+def v5_supplement_resource(
+    subdir: str,
+    resource: str,
+    lang: str = Depends(validate_locale),
+) -> list[Any]:
+    return supplement_response(lang, resource, subdir)
+
+
+@router.get('/{lang}/api/v5/calendar')
+@router.get('/{lang}/api/v5/calendar/{year}')
+def v5_calendar(
+    year: int | None = None,
+    lang: str = Depends(validate_locale),
+) -> list[dict[str, Any]]:
     if year is None:
         year = datetime.datetime.now().date().year
     missal: Calendar = controller.get_calendar(year, lang)
@@ -111,61 +116,56 @@ def v5_calendar(year: int = None, lang: str = LANGUAGE_ENGLISH):
             "id": date_.strftime("%Y-%m-%d"),
             "commemorations": day.get_commemorations_titles()
         })
-    return jsonify(container)
+    return container
 
 
-@api.route('/<string:lang>/api/v5/votive')
-@validate_locale
-def v5_votive(lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/votive')
+def v5_votive(lang: str = Depends(validate_locale)) -> list[dict[str, Any]]:
     index = TRANSLATION[lang].VOTIVE_MASSES
-    return jsonify([{
+    return [{
         "id": i['ref'],
         "title": i["title"],
         "tags": i["tags"]
-    } for i in index])
+    } for i in index]
 
 
-@api.route('/<string:lang>/api/v5/oratio')
-@validate_locale
-def v5_oratio(lang: str = LANGUAGE_ENGLISH):
-    return jsonify(supplement_index.get_oratio_index(lang))
+@router.get('/{lang}/api/v5/oratio')
+def v5_oratio(lang: str = Depends(validate_locale)) -> Any:
+    return supplement_index.get_oratio_index(lang)
 
 
-@api.route('/<string:lang>/api/v5/oratio/<string:id_>')
-@validate_locale
-def v5_oratio_by_id(id_, lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/oratio/{id_}')
+def v5_oratio_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[Any]:
     return supplement_response(lang, id_, 'oratio')
 
 
-@api.route('/<string:lang>/api/v5/canticum')
-@validate_locale
-def v5_canticum(lang: str = LANGUAGE_ENGLISH):
-    return jsonify(supplement_index.get_canticum_index(lang))
+@router.get('/{lang}/api/v5/canticum')
+def v5_canticum(lang: str = Depends(validate_locale)) -> Any:
+    return supplement_index.get_canticum_index(lang)
 
 
-@api.route('/<string:lang>/api/v5/canticum/<string:id_>')
-@validate_locale
-def v5_canticum_by_id(id_, lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v5/canticum/{id_}')
+def v5_canticum_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[Any]:
     return supplement_response(lang, id_, 'canticum')
 
 
-@api.route('/<string:lang>/api/v5/icalendar')
-@api.route('/<string:lang>/api/v5/icalendar/<int:rank>')
-@validate_locale
-def v5_ical(rank: int = 2, lang: str = LANGUAGE_ENGLISH):
-    try:
-        rank = int(rank)
-        assert rank in range(1, 5)
-    except (ValueError, AssertionError):
+@router.get('/{lang}/api/v5/icalendar')
+@router.get('/{lang}/api/v5/icalendar/{rank}')
+def v5_ical(
+    rank: int = 2,
+    lang: str = Depends(validate_locale),
+) -> PlainTextResponse:
+    if rank not in range(1, 5):
         rank = 2
 
-    response = flask.Response(controller.get_ical(lang, rank))
-    response.headers['Content-Type'] = 'text/calendar; charset=utf-8'
-    return response
+    content = controller.get_ical(lang, rank)
+    return PlainTextResponse(content, media_type='text/calendar; charset=utf-8')
 
 
-@api.route('/<string:lang>/api/v5/version')
-@api.route('/<string:lang>/api/v5/version')
-@validate_locale
-def v5_version(lang: str = LANGUAGE_ENGLISH):
-    return jsonify({"version": __version__.__version__})
+@router.get('/{lang}/api/v5/version')
+def v5_version(lang: str = Depends(validate_locale)) -> dict[str, str]:
+    return {"version": __version__.__version__}
+
+
+# Backwards compatibility for modules that still import `api`.
+api = router

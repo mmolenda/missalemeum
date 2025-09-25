@@ -1,12 +1,10 @@
-
+import logging
 import sys
 
-import logging
-
-from flask import Blueprint, redirect
+from fastapi import APIRouter, Depends
+from fastapi.responses import RedirectResponse
 
 from apiv5 import validate_locale
-from constants.common import LANGUAGE_ENGLISH
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -14,14 +12,17 @@ logging.basicConfig(
     format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
 
 
-api = Blueprint('apiv3', __name__)
+router = APIRouter()
 
 
-@api.route('/<string:lang>/api/v3/icalendar')
-@api.route('/<string:lang>/api/v3/icalendar/<int:rank>')
-@validate_locale
-def v3_ical(rank: int = 2, lang: str = LANGUAGE_ENGLISH):
+@router.get('/{lang}/api/v3/icalendar')
+@router.get('/{lang}/api/v3/icalendar/{rank}')
+def v3_ical(rank: int = 2, lang: str = Depends(validate_locale)) -> RedirectResponse:
     location = f"/{lang}/api/v5/icalendar"
     if rank:
         location += f"/{rank}"
-    return redirect(location, code=302)
+    return RedirectResponse(url=location, status_code=302)
+
+
+# Backwards compatibility for modules that still import `api`.
+api = router
