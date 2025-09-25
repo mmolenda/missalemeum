@@ -15,7 +15,7 @@ from constants import TRANSLATION
 from constants.common import LANGUAGES, ORDO_DIR
 from kalendar.models import Calendar, Day
 from utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
-from schemas import ContentItem
+from schemas import CalendarItem, ContentItem, Info, Proper
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -32,8 +32,12 @@ def validate_locale(lang: str = Path(...)) -> str:
     return lang
 
 
-@router.get('/{lang}/api/v5/proper/{date_or_id}')
-def v5_proper(date_or_id: str, lang: str = Depends(validate_locale)) -> Any:
+def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
+    return [Proper.model_validate(item) for item in payload]
+
+
+@router.get('/{lang}/api/v5/proper/{date_or_id}', response_model=list[Proper])
+def v5_proper(date_or_id: str, lang: str = Depends(validate_locale)) -> list[Proper]:
     try:
         date_object = datetime.datetime.strptime(date_or_id, "%Y-%m-%d").date()
     except ValueError:
@@ -42,9 +46,9 @@ def v5_proper(date_or_id: str, lang: str = Depends(validate_locale)) -> Any:
         try:
             pregenerated_proper = get_pregenerated_proper(lang, proper_id)
             if pregenerated_proper is not None:
-                return pregenerated_proper
+                return _parse_propers(pregenerated_proper)
             proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-            return format_propers([[proper_vernacular, proper_latin]])
+            return _parse_propers(format_propers([[proper_vernacular, proper_latin]]))
         except InvalidInput as e:
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e)) from e
         except ProperNotFound as e:
@@ -56,15 +60,17 @@ def v5_proper(date_or_id: str, lang: str = Depends(validate_locale)) -> Any:
         day: Day = controller.get_day(date_object, lang)
         pregenerated_proper = get_pregenerated_proper(lang, day.get_celebration_id(), day.get_tempora_id())
         if pregenerated_proper:
-            return pregenerated_proper
-        return format_propers(day.get_proper(), day)
+            return _parse_propers(pregenerated_proper)
+        return _parse_propers(format_propers(day.get_proper(), day))
 
 
-@router.get('/{lang}/api/v5/ordo')
-def v5_ordo(lang: str = Depends(validate_locale)) -> Any:
+@router.get('/{lang}/api/v5/ordo', response_model=list[ContentItem])
+def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
-        content = yaml.full_load(fh)
-        return content
+        raw_content = yaml.full_load(fh) or []
+        if isinstance(raw_content, dict):
+            raw_content = [raw_content]
+        return [ContentItem.model_validate(item) for item in raw_content]
 
 
 def supplement_response(lang: str, id_: str, subdir: str | None) -> list[ContentItem]:
@@ -94,12 +100,12 @@ def v5_supplement_resource(
     return supplement_response(lang, resource, subdir)
 
 
-@router.get('/{lang}/api/v5/calendar')
-@router.get('/{lang}/api/v5/calendar/{year}')
+@router.get('/{lang}/api/v5/calendar', response_model=list[CalendarItem])
+@router.get('/{lang}/api/v5/calendar/{year}', response_model=list[CalendarItem])
 def v5_calendar(
     year: int | None = None,
     lang: str = Depends(validate_locale),
-) -> list[dict[str, Any]]:
+) -> list[CalendarItem]:
     if year is None:
         year = datetime.datetime.now().date().year
     missal: Calendar = controller.get_calendar(year, lang)
@@ -118,22 +124,25 @@ def v5_calendar(
             "id": date_.strftime("%Y-%m-%d"),
             "commemorations": day.get_commemorations_titles()
         })
-    return container
+    return [CalendarItem.model_validate(item) for item in container]
 
 
-@router.get('/{lang}/api/v5/votive')
-def v5_votive(lang: str = Depends(validate_locale)) -> list[dict[str, Any]]:
+@router.get('/{lang}/api/v5/votive', response_model=list[Info])
+def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     index = TRANSLATION[lang].VOTIVE_MASSES
-    return [{
-        "id": i['ref'],
-        "title": i["title"],
-        "tags": i["tags"]
-    } for i in index]
+    return [
+        Info.model_validate({
+            "id": i['ref'],
+            "title": i['title'],
+            "tags": i['tags'],
+        })
+        for i in index
+    ]
 
 
-@router.get('/{lang}/api/v5/oratio')
-def v5_oratio(lang: str = Depends(validate_locale)) -> Any:
-    return supplement_index.get_oratio_index(lang)
+@router.get('/{lang}/api/v5/oratio', response_model=list[Info])
+def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
+    return [Info.model_validate(item) for item in supplement_index.get_oratio_index(lang)]
 
 
 @router.get('/{lang}/api/v5/oratio/{id_}', response_model=list[ContentItem])
@@ -141,9 +150,9 @@ def v5_oratio_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[Cont
     return supplement_response(lang, id_, 'oratio')
 
 
-@router.get('/{lang}/api/v5/canticum')
-def v5_canticum(lang: str = Depends(validate_locale)) -> Any:
-    return supplement_index.get_canticum_index(lang)
+@router.get('/{lang}/api/v5/canticum', response_model=list[Info])
+def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
+    return [Info.model_validate(item) for item in supplement_index.get_canticum_index(lang)]
 
 
 @router.get('/{lang}/api/v5/canticum/{id_}', response_model=list[ContentItem])
