@@ -11,14 +11,16 @@ from api.constants.common import LANGUAGES
 def test_api_calendar(client):
     with open(os.path.join(HERE, 'fixtures/api_calendar_2023.json')) as fh:
         expected = json.load(fh)
-    resp = client.get('/pl/api/v5/calendar/2023').json
-    for i, item in enumerate(resp):
+    resp = client.get('/pl/api/v5/calendar/2023')
+    data = resp.json()
+    for i, item in enumerate(data):
         assert item == expected[i]
 
 
 def test_api_date(client):
-    resp = client.get('/pl/api/v5/proper/2020-11-11').json
-    info = resp[0]["info"]
+    resp = client.get('/pl/api/v5/proper/2020-11-11')
+    data = resp.json()
+    info = data[0]["info"]
     assert ['Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "2020-11-11" == info["date"]
@@ -28,8 +30,8 @@ def test_api_date(client):
     assert [] == info["supplements"]
     assert "Środa po 23 Niedzieli po Zesłaniu Ducha Świętego" == info["tempora"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
-    assert "*Syr 45:30" in resp[0]["sections"][0]["body"][0][0]
-    assert "*Eccli 45:30" in resp[0]["sections"][0]["body"][0][1]
+    assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
+    assert "*Eccli 45:30" in data[0]["sections"][0]["body"][0][1]
 
 
 def _get_dates():
@@ -97,21 +99,23 @@ def test_api_date_invalid_input(client):
 
 
 def test_api_proper(client):
-    resp = client.get('/pl/api/v5/proper/sancti:11-11:3:w').json
-    info = resp[0]["info"]
+    resp = client.get('/pl/api/v5/proper/sancti:11-11:3:w')
+    data = resp.json()
+    info = data[0]["info"]
     assert ['Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
-    assert "*Syr 45:30" in resp[0]["sections"][0]["body"][0][0]
-    assert "*Eccli 45:30" in resp[0]["sections"][0]["body"][0][1]
+    assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
+    assert "*Eccli 45:30" in data[0]["sections"][0]["body"][0][1]
 
 
 def test_api_proper_slug(client):
-    resp = client.get('/pl/api/v5/proper/rorate').json
-    info = resp[0]["info"]
+    resp = client.get('/pl/api/v5/proper/rorate')
+    data = resp.json()
+    info = data[0]["info"]
     assert ['Szaty białe', 'Adwent', 'Pallotinum s. 649'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "commune:C10a:0:w" == info["id"]
@@ -121,30 +125,32 @@ def test_api_proper_slug(client):
 def test_api_proper_invalid_input(client):
     resp = client.get('/pl/api/v5/proper/sancti:11-11')
     assert 404 == resp.status_code
-    assert {"error": "Proper sancti:11-11 not found"} == resp.json
+    assert {"detail": "Proper sancti:11-11 not found"} == resp.json()
 
 
 def test_api_supplement(client):
-    resp = client.get('/pl/api/v5/supplement/2-adwent').json
-    assert "Adwent" == resp[0]['info']['title']
-    assert resp[0]['sections'][0]['body'][0][0].startswith("Rok kościelny dzieli się na")
+    resp = client.get('/pl/api/v5/supplement/2-adwent')
+    data = resp.json()
+    assert "Adwent" == data[0]['info']['title']
+    assert data[0]['sections'][0]['body'][0][0].startswith("Rok kościelny dzieli się na")
 
 
 def test_api_supplement_subdir(client):
-    resp = client.get('/pl/api/v5/canticum/adoro-te').json
-    assert "Adoro Te" == resp[0]['info']['title']
-    assert ["Eucharystyczne", "Łacińskie"] == resp[0]['info']['tags']
-    assert "ADORO TE, devote, latens Deitas" in resp[0]['sections'][0]['body'][0][0]
+    resp = client.get('/pl/api/v5/canticum/adoro-te')
+    data = resp.json()
+    assert "Adoro Te" == data[0]['info']['title']
+    assert ["Eucharystyczne", "Łacińskie"] == data[0]['info']['tags']
+    assert "ADORO TE, devote, latens Deitas" in data[0]['sections'][0]['body'][0][0]
 
 
 def test_api_supplement_missing(client):
     resp = client.get('/pl/api/v5/supplement/bla')
     assert 404 == resp.status_code
-    assert {"error": "Not found"} == resp.json
+    assert {"detail": "Not found"} == resp.json()
 
 
 def test_api_icalendar(client):
     resp = client.get('/pl/api/v5/icalendar')
     assert 200 == resp.status_code
-    assert "text/calendar; charset=utf-8" == resp.content_type
-    assert b"BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Missale Meum - Calendar//missalemeum.com//\r\n" in resp.data
+    assert "text/calendar; charset=utf-8" == resp.headers.get("content-type")
+    assert b"BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Missale Meum - Calendar//missalemeum.com//\r\n" in resp.content

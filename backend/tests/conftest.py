@@ -1,8 +1,9 @@
 import os
 
 import pytest
+from fastapi.testclient import TestClient
 
-from api import app
+from api.app import app
 from api.constants.common import LANGUAGE_LATIN
 from api.kalendar.factory import MissalFactory
 
@@ -20,6 +21,5 @@ def get_missal(year, lang=LANGUAGE_LATIN):
 
 @pytest.fixture
 def client():
-    app.app.config['TESTING'] = True
-    with app.app.test_client() as client:
+    with TestClient(app) as client:
         yield client
