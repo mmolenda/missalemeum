@@ -15,6 +15,7 @@ from constants import TRANSLATION
 from constants.common import LANGUAGES, ORDO_DIR
 from kalendar.models import Calendar, Day
 from utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
+from schemas import ContentItem
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -66,29 +67,30 @@ def v5_ordo(lang: str = Depends(validate_locale)) -> Any:
         return content
 
 
-def supplement_response(lang: str, id_: str, subdir: str | None) -> list[Any]:
+def supplement_response(lang: str, id_: str, subdir: str | None) -> list[ContentItem]:
     try:
         supplement_yaml = get_supplement(lang, id_, subdir)
     except SupplementNotFound:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Not found")
     else:
-        return [supplement_yaml]
+        content = ContentItem.model_validate(supplement_yaml)
+        return [content]
 
 
-@router.get('/{lang}/api/v5/supplement/{id_}')
+@router.get('/{lang}/api/v5/supplement/{id_}', response_model=list[ContentItem])
 def v5_supplement(
     id_: str,
     lang: str = Depends(validate_locale),
-) -> list[Any]:
+) -> list[ContentItem]:
     return supplement_response(lang, id_, None)
 
 
-@router.get('/{lang}/api/v5/supplement/{subdir}/{resource}')
+@router.get('/{lang}/api/v5/supplement/{subdir}/{resource}', response_model=list[ContentItem])
 def v5_supplement_resource(
     subdir: str,
     resource: str,
     lang: str = Depends(validate_locale),
-) -> list[Any]:
+) -> list[ContentItem]:
     return supplement_response(lang, resource, subdir)
 
 
@@ -134,8 +136,8 @@ def v5_oratio(lang: str = Depends(validate_locale)) -> Any:
     return supplement_index.get_oratio_index(lang)
 
 
-@router.get('/{lang}/api/v5/oratio/{id_}')
-def v5_oratio_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[Any]:
+@router.get('/{lang}/api/v5/oratio/{id_}', response_model=list[ContentItem])
+def v5_oratio_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[ContentItem]:
     return supplement_response(lang, id_, 'oratio')
 
 
@@ -144,8 +146,8 @@ def v5_canticum(lang: str = Depends(validate_locale)) -> Any:
     return supplement_index.get_canticum_index(lang)
 
 
-@router.get('/{lang}/api/v5/canticum/{id_}')
-def v5_canticum_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[Any]:
+@router.get('/{lang}/api/v5/canticum/{id_}', response_model=list[ContentItem])
+def v5_canticum_by_id(id_: str, lang: str = Depends(validate_locale)) -> list[ContentItem]:
     return supplement_response(lang, id_, 'canticum')
 
 
