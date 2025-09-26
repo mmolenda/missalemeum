@@ -137,16 +137,15 @@ def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
 def supplement_response(
     lang: str,
     id_: str,
-    subdir: SupplementCategory | None,
+    subdir: SupplementCategory | str | None,
 ) -> list[ContentItem]:
+    directory = subdir.value if isinstance(subdir, SupplementCategory) else subdir
     try:
-        directory = subdir.value if isinstance(subdir, SupplementCategory) else subdir
         supplement_yaml = get_supplement(lang, id_, directory)
     except SupplementNotFound:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Not found")
-    else:
-        content = ContentItem.model_validate(supplement_yaml)
-        return [content]
+    content = ContentItem.model_validate(supplement_yaml)
+    return [content]
 
 
 @router.get(
@@ -169,31 +168,6 @@ def v5_supplement(
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, None)
-
-
-@router.get(
-    '/{lang}/api/v5/supplement/{subdir}/{id_}',
-    response_model=list[ContentItem],
-    summary="Get Supplement Content",
-    description="Get supplement content from a specific subdirectory.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_CONTENT_EXAMPLE
-                }
-            }
-        }
-    },
-)
-def v5_supplement_resource(
-    subdir: str = Path(
-        ..., description="Type of supplement resource.", example="canticum"
-    ),
-    id_: str = Path(..., description="ID of the resource.", example="regina-caeli"),
-    lang: str = Depends(validate_locale),
-) -> list[ContentItem]:
-    return supplement_response(lang, id_, subdir)
 
 
 @router.get(
