@@ -62,10 +62,11 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
 @router.get(
     '/{lang}/api/v5/proper/{date_or_id}',
     response_model=list[Proper],
-    summary="Get proper by ID",
+    summary="Get Proper by ID",
     description=(
-        "Get proper for a given observance by ID. ID can be either date in format "
-        "`YYYY-MM-DD` or one that can be found in `/votive` endpoint."
+        "Retrieve the proper for a given observance by ID. The ID can be either a date in "
+        "the `YYYY-MM-DD` format (e.g., `2025-11-11`), or a votive ID obtained from the "
+        "`/votive` endpoint (e.g., `cordis-mariae`)."
     ),
     responses={
         200: {
@@ -83,7 +84,6 @@ def v5_proper(
     ),
     lang: str = Depends(validate_locale),
 ) -> list[Proper]:
-    """Get proper texts for the requested date or identifier."""
     try:
         date_object = datetime.datetime.strptime(date_or_id, "%Y-%m-%d").date()
     except ValueError:
@@ -113,8 +113,8 @@ def v5_proper(
 @router.get(
     '/{lang}/api/v5/ordo',
     response_model=list[ContentItem],
-    summary="Get ordinary",
-    description="Get invariable texts, or ordinary of the Mass",
+    summary="Get Ordinary",
+    description="Get the Ordinary of the Mass — the invariable texts",
     responses={
         200: {
             "content": {
@@ -126,7 +126,6 @@ def v5_proper(
     },
 )
 def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
-    """Return the invariable texts (Ordo Missae) for the selected language."""
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
         raw_content = yaml.full_load(fh) or []
         if isinstance(raw_content, dict):
@@ -152,8 +151,8 @@ def supplement_response(
 @router.get(
     '/{lang}/api/v5/supplement/{id_}',
     response_model=list[ContentItem],
-    summary="Get resource's content",
-    description="Get resource's content",
+    summary="Get supplement content - default",
+    description="Get supplement content from the default directory.",
     responses={
         200: {
             "content": {
@@ -165,18 +164,17 @@ def supplement_response(
     },
 )
 def v5_supplement(
-    id_: str = Path(..., description="ID of the resource.", example="regina-caeli"),
+    id_: str = Path(..., description="ID of the resource.", example="info"),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
-    """Return supplement content from the default supplement directory."""
     return supplement_response(lang, id_, None)
 
 
 @router.get(
     '/{lang}/api/v5/supplement/{subdir}/{resource}',
     response_model=list[ContentItem],
-    summary="Get resource's content",
-    description="Get resource's content",
+    summary="Get supplement content",
+    description="Get a specific supplement resource from a chosen subdirectory.",
     responses={
         200: {
             "content": {
