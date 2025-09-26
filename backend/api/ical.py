@@ -16,7 +16,7 @@ class IcalBuilder:
             celebration = day.celebration[0] if day.celebration else day.tempora[0] if day.tempora else None
             if celebration is None or celebration.rank > rank:
                 continue
-            now = datetime.datetime.utcnow()
+            now = datetime.datetime.now(datetime.UTC)
             event = Event()
             event.add("summary", celebration.title)
             event.add("dtstart", datetime_)

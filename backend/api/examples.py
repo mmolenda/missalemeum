@@ -114,3 +114,29 @@ ICALENDAR_EXAMPLE = (
     "END:VEVENT"
 )
 
+
+def get_json_response(example):
+    return {
+        200: {
+            "content": {
+                "application/json": {
+                    "example": example
+                }
+            }
+        }
+    }
+
+
+def get_text_response(example: str, media_type: str = "text/plain"):
+    return {
+        200: {
+            "content": {
+                media_type: {
+                    "schema": {
+                        "type": "string",
+                        "example": example
+                    }
+                }
+            }
+        }
+    }

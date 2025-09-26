@@ -23,7 +23,9 @@ from examples import (
     PROPER_EXAMPLE,
     SUPPLEMENT_CONTENT_EXAMPLE,
     SUPPLEMENT_LIST_EXAMPLE,
-    VOTIVE_LIST_EXAMPLE
+    VOTIVE_LIST_EXAMPLE,
+    get_json_response,
+    get_text_response,
 )
 from schemas import CalendarItem, ContentItem, Info, Proper
 
@@ -81,7 +83,18 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
 )
 def v5_proper(
     date_or_id: str = Path(
-        ..., description="ID of the proper.", example="cordis-mariae"
+        ...,
+        description="ID of the proper.",
+        examples={
+            "by_id": {
+                "summary": "Votive ID",
+                "value": "cordis-mariae",
+            },
+            "by_date": {
+                "summary": "Date",
+                "value": "2025-11-11",
+            },
+        },
     ),
     lang: str = Depends(validate_locale),
 ) -> list[Proper]:
@@ -153,53 +166,30 @@ def supplement_response(
     response_model=list[ContentItem],
     summary="Get Supplement Content (Default)",
     description="Get supplement content from the default directory.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_CONTENT_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
 def v5_supplement(
-    id_: str = Path(..., description="ID of the resource.", example="info"),
+    id_: str = Path(
+        ...,
+        description="ID of the resource.",
+        examples={
+            "default": {
+                "summary": "Supplement name",
+                "value": "info",
+            }
+        },
+    ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, None)
 
 
-@router.get(
-    '/{lang}/api/v5/calendar',
-    response_model=list[CalendarItem],
-    summary="Get Calendar",
-    description=(
-        "Get the liturgical calendar according to the 1962 Missal for a selected year. "
-        "If `year` is omitted, the current year is returned."
-    ),
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": CALENDAR_ITEMS_EXAMPLE
-                }
-            }
-        }
-    },
-)
-def v5_calendar(
-    lang: str = Depends(validate_locale),
-    year: int | None = Query(
-        default=None,
-        description="Year of the calendar. Leave empty to use the current year.",
-        example=2022,
-    ),
-) -> list[CalendarItem]:
-    target_year = year or datetime.datetime.now().date().year
-    missal: Calendar = controller.get_calendar(target_year, lang)
+def _build_calendar_response(lang: str, year: int, month: int | None = None) -> list[CalendarItem]:
+    missal: Calendar = controller.get_calendar(year, lang)
     container = []
     for date_, day in missal.items():
+        if month is not None and date_.month != month:
+            continue
         title = day.get_celebration_name()
         tempora = day.get_tempora_name()
         tags: list[str] = []
@@ -217,14 +207,73 @@ def v5_calendar(
 
 
 @router.get(
-    '/{lang}/api/v5/calendar/{year}',
-    include_in_schema=False,
+    '/{lang}/api/v5/calendar',
+    response_model=list[CalendarItem],
+    summary="Get Calendar (current)",
+    description="Get the liturgical calendar for the current year.",
+    responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
 )
-def v5_calendar_path(
-    year: int = Path(..., description="Year of the calendar.", example=2022),
+def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
+    target_year = datetime.datetime.now().date().year
+    return _build_calendar_response(lang, target_year)
+
+
+@router.get(
+    '/{lang}/api/v5/calendar/{year}',
+    response_model=list[CalendarItem],
+    summary="Get Calendar (year)",
+    description="Get the liturgical calendar for a given year.",
+    responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
+)
+def v5_calendar_year(
+    year: int = Path(
+        ...,
+        description="Year of the calendar.",
+        examples={
+            "default": {
+                "summary": "Year",
+                "value": 2025,
+            }
+        },
+    ),
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
-    return v5_calendar(lang=lang, year=year)
+    return _build_calendar_response(lang, year)
+
+
+@router.get(
+    '/{lang}/api/v5/calendar/{year}/{month}',
+    response_model=list[CalendarItem],
+    summary="Get Calendar (month)",
+    description="Get the liturgical calendar for a given year and month.",
+    responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
+)
+def v5_calendar_year_month(
+    year: int = Path(
+        ...,
+        description="Year of the calendar.",
+        examples={
+            "default": {
+                "summary": "Year",
+                "value": 2025,
+            }
+        },
+    ),
+    month: int = Path(
+        ...,
+        ge=1,
+        le=12,
+        description="Month of the calendar (1-12).",
+        examples={
+            "default": {
+                "summary": "Month",
+                "value": 6,
+            }
+        },
+    ),
+    lang: str = Depends(validate_locale),
+) -> list[CalendarItem]:
+    return _build_calendar_response(lang, year, month)
 
 
 @router.get(
@@ -232,15 +281,7 @@ def v5_calendar_path(
     response_model=list[Info],
     summary="List Votive Masses",
     description="List available votive Masses.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": VOTIVE_LIST_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(VOTIVE_LIST_EXAMPLE),
 )
 def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     index = TRANSLATION[lang].VOTIVE_MASSES
@@ -259,15 +300,7 @@ def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     response_model=list[Info],
     summary="List Prayers",
     description="List available prayers.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_LIST_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(SUPPLEMENT_LIST_EXAMPLE),
 )
 def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
     return [Info.model_validate(item) for item in supplement_index.get_oratio_index(lang)]
@@ -281,18 +314,19 @@ def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
         "Get a specific prayer’s content. This endpoint is a shortcut to "
         "`/{lang}/api/v5/supplement/{subdir}/{id_}`."
     ),
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_CONTENT_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
 def v5_oratio_by_id(
-    id_: str = Path(..., description="ID of the resource.", example="aniele-bozy"),
+    id_: str = Path(
+        ...,
+        description="ID of the resource.",
+        examples={
+            "default": {
+                "summary": "Prayer ID",
+                "value": "aniele-bozy",
+            }
+        },
+    ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, SupplementCategory.ORATIO)
@@ -303,15 +337,7 @@ def v5_oratio_by_id(
     response_model=list[Info],
     summary="List Chants",
     description="List available chants.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_LIST_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(SUPPLEMENT_LIST_EXAMPLE),
 )
 def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
     return [Info.model_validate(item) for item in supplement_index.get_canticum_index(lang)]
@@ -325,21 +351,31 @@ def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
         "Get a specific chant’s content. This endpoint is a shortcut to "
         "`/{lang}/api/v5/supplement/{subdir}/{id_}`."
     ),
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": SUPPLEMENT_CONTENT_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
 def v5_canticum_by_id(
-    id_: str = Path(..., description="ID of the resource.", example="adoro-te"),
+    id_: str = Path(
+        ...,
+        description="ID of the resource.",
+        examples={
+            "default": {
+                "summary": "Chant ID",
+                "value": "adoro-te",
+            }
+        },
+    ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, SupplementCategory.CANTICUM)
+
+
+def _ical_response(lang: str, rank: int | None = None) -> PlainTextResponse:
+    target_rank = rank if rank is not None else 2
+    if target_rank not in range(1, 5):
+        target_rank = 2
+
+    content = controller.get_ical(lang, target_rank)
+    return PlainTextResponse(content, media_type='text/calendar; charset=utf-8')
 
 
 @router.get(
@@ -350,41 +386,34 @@ def v5_canticum_by_id(
         "software such as Google Calendar. By default, only feasts with ranks 1 and 2 "
         "are included; set `rank` to include lower ranks."
     ),
-    responses={
-        200: {
-            "content": {
-                "text/calendar": {
-                    "example": ICALENDAR_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_text_response(ICALENDAR_EXAMPLE, media_type='text/calendar'),
 )
-def v5_ical(
-    lang: str = Depends(validate_locale),
-    rank: int | None = Query(
-        default=None,
-        description="Only show feasts of this rank and higher (e.g., 2 includes ranks 1 and 2).",
-        example=2,
-    ),
-) -> PlainTextResponse:
-    target_year_rank_note = rank if rank is not None else 2
-    if target_year_rank_note not in range(1, 5):
-        target_year_rank_note = 2
-
-    content = controller.get_ical(lang, target_year_rank_note)
-    return PlainTextResponse(content, media_type='text/calendar; charset=utf-8')
+def v5_ical_current(lang: str = Depends(validate_locale)) -> PlainTextResponse:
+    return _ical_response(lang)
 
 
 @router.get(
     '/{lang}/api/v5/icalendar/{rank}',
-    include_in_schema=False,
+    summary="Get Calendar (iCalendar Format)",
+    description="Get the calendar in iCalendar format for a specific rank.",
+    responses=get_text_response(ICALENDAR_EXAMPLE, media_type='text/calendar'),
 )
-def v5_ical_path(
-    rank: int = Path(..., description="Only show the feasts of this rank and higher.", example=2),
+def v5_ical(
+    rank: int = Path(
+        ...,
+        ge=1,
+        le=4,
+        description="Only show the feasts of this rank and higher (1-4).",
+        examples={
+            "default": {
+                "summary": "Rank",
+                "value": 2,
+            }
+        },
+    ),
     lang: str = Depends(validate_locale),
 ) -> PlainTextResponse:
-    return v5_ical(lang=lang, rank=rank)
+    return _ical_response(lang, rank)
 
 
 @router.get(
