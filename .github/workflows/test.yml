@@ -6,10 +6,10 @@ name: Run backend tests
 on:
   push:
     branches:
-      - master
+      - main
       - release/*
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   backend-pytest:
