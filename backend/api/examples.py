@@ -74,6 +74,16 @@ SUPPLEMENT_LIST_EXAMPLE = [
     }
 ]
 
+VOTIVE_LIST_EXAMPLE = [
+    {
+        "id": "salve-sancta-parens-3",
+        "title": "III Mass of the B. V. M. – Salve, Sancta Parens",
+        "tags": [
+            "From Feb 3 until Holy Wednesday"
+        ]
+    }
+]
+
 SUPPLEMENT_CONTENT_EXAMPLE = [
     {
         "info": {

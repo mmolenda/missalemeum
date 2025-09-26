@@ -1,13 +1,10 @@
 from typing import List, Optional
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, Field
 
 
 class Info(BaseModel):
     """Shared metadata block used by multiple endpoints."""
-
-    model_config = ConfigDict(extra="allow")
-
     id: Optional[str] = Field(
         default=None,
         description=(
@@ -26,9 +23,6 @@ class Info(BaseModel):
 
 class Section(BaseModel):
     """Represents a single section within propers or supplements."""
-
-    model_config = ConfigDict(extra="allow")
-
     id: Optional[str] = Field(
         default=None,
         description="Identifier of the section. Unique within the scope of one resource.",
@@ -48,9 +42,6 @@ class Section(BaseModel):
 
 class SupplementLink(BaseModel):
     """Reference to an additional resource related to a proper."""
-
-    model_config = ConfigDict(extra="allow")
-
     path: Optional[str] = Field(
         default=None,
         description="Either path to a resource inside the app or an external URL",
@@ -96,9 +87,6 @@ class ProperInfo(Info):
 
 class ContentItem(BaseModel):
     """Structured content resource (supplement/ordo)."""
-
-    model_config = ConfigDict(extra="allow")
-
     info: Info = Field(
         ..., description="Metadata describing the resource."
     )
@@ -110,9 +98,6 @@ class ContentItem(BaseModel):
 
 class Proper(BaseModel):
     """Proper returned by the API."""
-
-    model_config = ConfigDict(extra="allow")
-
     info: ProperInfo = Field(
         ..., description="Metadata describing the proper."
     )
@@ -124,9 +109,6 @@ class Proper(BaseModel):
 
 class CalendarItem(BaseModel):
     """Entry in the liturgical calendar."""
-
-    model_config = ConfigDict(extra="allow")
-
     title: str = Field(
         ..., description="Title of the observance."
     )

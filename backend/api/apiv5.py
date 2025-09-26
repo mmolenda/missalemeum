@@ -23,6 +23,7 @@ from examples import (
     PROPER_EXAMPLE,
     SUPPLEMENT_CONTENT_EXAMPLE,
     SUPPLEMENT_LIST_EXAMPLE,
+    VOTIVE_LIST_EXAMPLE
 )
 from schemas import CalendarItem, ContentItem, Info, Proper
 
@@ -257,6 +258,15 @@ def v5_calendar_path(
     response_model=list[Info],
     summary="List Votive Masses",
     description="List available votive Masses.",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": VOTIVE_LIST_EXAMPLE
+                }
+            }
+        }
+    },
 )
 def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     index = TRANSLATION[lang].VOTIVE_MASSES
