@@ -6,7 +6,7 @@ from enum import Enum
 from typing import Any
 
 import yaml
-from fastapi import APIRouter, Depends, HTTPException, Path, status
+from fastapi import APIRouter, Depends, HTTPException, Path, Query, status
 from fastapi.responses import PlainTextResponse
 
 import __version__
@@ -195,8 +195,31 @@ def v5_supplement_resource(
     return supplement_response(lang, id_, subdir)
 
 
-def _build_calendar(lang: str, year: int) -> list[CalendarItem]:
-    missal: Calendar = controller.get_calendar(year, lang)
+@router.get(
+    '/{lang}/api/v5/calendar',
+    response_model=list[CalendarItem],
+    summary="Get calendar",
+    description="Get liturgical calendar according to the 1962 missal for the selected year. When `year` is omitted the current year is returned.",
+    responses={
+        200: {
+            "content": {
+                "application/json": {
+                    "example": CALENDAR_ITEMS_EXAMPLE
+                }
+            }
+        }
+    },
+)
+def v5_calendar(
+    lang: str = Depends(validate_locale),
+    year: int | None = Query(
+        default=None,
+        description="Year of the calendar. Leave empty to use the current year.",
+        example=2022,
+    ),
+) -> list[CalendarItem]:
+    target_year = year or datetime.datetime.now().date().year
+    missal: Calendar = controller.get_calendar(target_year, lang)
     container = []
     for date_, day in missal.items():
         title = day.get_celebration_name()
@@ -216,49 +239,14 @@ def _build_calendar(lang: str, year: int) -> list[CalendarItem]:
 
 
 @router.get(
-    '/{lang}/api/v5/calendar',
-    response_model=list[CalendarItem],
-    summary="Get current calendar",
-    description="Get liturgical calendar according to the 1962 missal for the current year.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": CALENDAR_ITEMS_EXAMPLE
-                }
-            }
-        }
-    },
-)
-def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
-    year = datetime.datetime.now().date().year
-    return _build_calendar(lang, year)
-
-
-@router.get(
     '/{lang}/api/v5/calendar/{year}',
-    response_model=list[CalendarItem],
-    summary="Get calendar for a given year",
-    description="Get liturgical calendar according to the 1962 missal for the selected year.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": CALENDAR_ITEMS_EXAMPLE
-                }
-            }
-        }
-    },
+    include_in_schema=False,
 )
-def v5_calendar(
-    year: int = Path(
-        ...,
-        description="Year of the calendar.",
-        example=2022,
-    ),
+def v5_calendar_path(
+    year: int = Path(..., description="Year of the calendar.", example=2022),
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
-    return _build_calendar(lang, year)
+    return v5_calendar(lang=lang, year=year)
 
 
 @router.get(
@@ -361,21 +349,13 @@ def v5_canticum_by_id(
     return supplement_response(lang, id_, SupplementCategory.CANTICUM)
 
 
-def _ical_response(lang: str, rank: int) -> PlainTextResponse:
-    if rank not in range(1, 5):
-        rank = 2
-
-    content = controller.get_ical(lang, rank)
-    return PlainTextResponse(content, media_type='text/calendar; charset=utf-8')
-
-
 @router.get(
     '/{lang}/api/v5/icalendar',
     summary="Get calendar in iCalendar format",
     description=(
         "Get the calendar in iCalendar format, which can be imported to any calendar "
-        "software such as Google Calendar. This endpoint returns only feast with rank 1 "
-        "and 2. For other ranks see `/{lang}/api/v5/icalendar/{rank}`."
+        "software such as Google Calendar. By default only feasts with rank 1 and 2 "
+        "are included; set `rank` to include lower ranks."
     ),
     responses={
         200: {
@@ -387,39 +367,31 @@ def _ical_response(lang: str, rank: int) -> PlainTextResponse:
         }
     },
 )
-def v5_ical(lang: str = Depends(validate_locale)) -> PlainTextResponse:
-    return _ical_response(lang, rank=2)
+def v5_ical(
+    lang: str = Depends(validate_locale),
+    rank: int | None = Query(
+        default=None,
+        description="Only show feasts of this rank and higher (e.g. 2 includes ranks 1 and 2).",
+        example=2,
+    ),
+) -> PlainTextResponse:
+    target_rank = rank if rank is not None else 2
+    if target_rank not in range(1, 5):
+        target_rank = 2
+
+    content = controller.get_ical(lang, target_rank)
+    return PlainTextResponse(content, media_type='text/calendar; charset=utf-8')
 
 
 @router.get(
     '/{lang}/api/v5/icalendar/{rank}',
-    summary="Get calendar in iCalendar format",
-    description=(
-        "Get the calendar in iCalendar format, which can be imported to any calendar "
-        "software such as Google Calendar."
-    ),
-    responses={
-        200: {
-            "content": {
-                "text/calendar": {
-                    "example": ICALENDAR_EXAMPLE
-                }
-            }
-        }
-    },
+    include_in_schema=False,
 )
-def v5_ical_for_rank(
-    rank: int = Path(
-        ...,
-        description=(
-            "Only show the feasts of this rank and higher (e.g. rank 2 will show feast "
-            "with rank 1 and 2)."
-        ),
-        example=2,
-    ),
+def v5_ical_path(
+    rank: int = Path(..., description="Only show the feasts of this rank and higher.", example=2),
     lang: str = Depends(validate_locale),
 ) -> PlainTextResponse:
-    return _ical_response(lang, rank)
+    return v5_ical(lang=lang, rank=rank)
 
 
 @router.get(
