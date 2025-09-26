@@ -64,7 +64,7 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
     response_model=list[Proper],
     summary="Get Proper by ID",
     description=(
-        "Retrieve the proper for a given observance by ID. The ID can be either a date in "
+        "Get the proper for a given observance by ID. The ID can be either a date in "
         "the `YYYY-MM-DD` format (e.g., `2025-11-11`), or a votive ID obtained from the "
         "`/votive` endpoint (e.g., `cordis-mariae`)."
     ),
@@ -171,7 +171,7 @@ def v5_supplement(
 
 
 @router.get(
-    '/{lang}/api/v5/supplement/{subdir}/{resource}',
+    '/{lang}/api/v5/supplement/{subdir}/{id_}',
     response_model=list[ContentItem],
     summary="Get supplement content",
     description="Get a specific supplement resource from a chosen subdirectory.",
@@ -186,14 +186,13 @@ def v5_supplement(
     },
 )
 def v5_supplement_resource(
-    subdir: SupplementCategory = Path(
-        ..., description="Type of supplement resource.", example="oratio"
+    subdir: str = Path(
+        ..., description="Type of supplement resource.", example="canticum"
     ),
-    resource: str = Path(..., description="ID of the resource.", example="regina-caeli"),
+    id_: str = Path(..., description="ID of the resource.", example="regina-caeli"),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
-    """Return supplement content for the requested subdirectory."""
-    return supplement_response(lang, resource, subdir)
+    return supplement_response(lang, id_, subdir)
 
 
 def _build_calendar(lang: str, year: int) -> list[CalendarItem]:
@@ -232,7 +231,6 @@ def _build_calendar(lang: str, year: int) -> list[CalendarItem]:
     },
 )
 def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
-    """Return calendar entries for the current year."""
     year = datetime.datetime.now().date().year
     return _build_calendar(lang, year)
 
@@ -255,12 +253,11 @@ def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarIt
 def v5_calendar(
     year: int = Path(
         ...,
-        description="Year of the calendar. If not provided calendar for current year will be displayed.",
+        description="Year of the calendar.",
         example=2022,
     ),
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
-    """Return calendar entries for the selected year."""
     return _build_calendar(lang, year)
 
 
@@ -268,10 +265,9 @@ def v5_calendar(
     '/{lang}/api/v5/votive',
     response_model=list[Info],
     summary="List votive Masses",
-    description="Retrieve the index of available votive Masses.",
+    description="Get the index of available votive Masses.",
 )
 def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
-    """Return metadata for all available votive Masses."""
     index = TRANSLATION[lang].VOTIVE_MASSES
     return [
         Info.model_validate({
@@ -286,8 +282,8 @@ def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
 @router.get(
     '/{lang}/api/v5/oratio',
     response_model=list[Info],
-    summary="Get list of resources of given type",
-    description="Get list of resources of given type",
+    summary="List prayers",
+    description="Get the index of available prayers",
     responses={
         200: {
             "content": {
@@ -299,15 +295,14 @@ def v5_votive(lang: str = Depends(validate_locale)) -> list[Info]:
     },
 )
 def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
-    """Return the supplement index for prayers (`oratio`)."""
     return [Info.model_validate(item) for item in supplement_index.get_oratio_index(lang)]
 
 
 @router.get(
     '/{lang}/api/v5/oratio/{id_}',
     response_model=list[ContentItem],
-    summary="Get resource's content",
-    description="Get resource's content",
+    summary="Get prayer",
+    description="Get specific prayer's content. This endpoint is a shortcut to `/{lang}/api/v5/supplement/{subdir}/{resource}` and can be used instead.",
     responses={
         200: {
             "content": {
@@ -322,15 +317,14 @@ def v5_oratio_by_id(
     id_: str = Path(..., description="ID of the resource.", example="aniele-bozy"),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
-    """Return the content of a prayer (`oratio`) resource."""
     return supplement_response(lang, id_, SupplementCategory.ORATIO)
 
 
 @router.get(
     '/{lang}/api/v5/canticum',
     response_model=list[Info],
-    summary="Get list of resources of given type",
-    description="Get list of resources of given type",
+    summary="Get chants",
+    description="Get the index of available chants",
     responses={
         200: {
             "content": {
@@ -342,15 +336,14 @@ def v5_oratio_by_id(
     },
 )
 def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
-    """Return the supplement index for canticles (`canticum`)."""
     return [Info.model_validate(item) for item in supplement_index.get_canticum_index(lang)]
 
 
 @router.get(
     '/{lang}/api/v5/canticum/{id_}',
     response_model=list[ContentItem],
-    summary="Get resource's content",
-    description="Get resource's content",
+    summary="Get chant",
+    description="Get specific chants's content. This endpoint is a shortcut to `/{lang}/api/v5/supplement/{subdir}/{resource}` and can be used instead.",
     responses={
         200: {
             "content": {
@@ -365,7 +358,6 @@ def v5_canticum_by_id(
     id_: str = Path(..., description="ID of the resource.", example="adoro-te"),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
-    """Return the content of a canticle (`canticum`) resource."""
     return supplement_response(lang, id_, SupplementCategory.CANTICUM)
 
 
@@ -396,7 +388,6 @@ def _ical_response(lang: str, rank: int) -> PlainTextResponse:
     },
 )
 def v5_ical(lang: str = Depends(validate_locale)) -> PlainTextResponse:
-    """Return the calendar feed for ranks 1 and 2 as an iCalendar (ICS) document."""
     return _ical_response(lang, rank=2)
 
 
@@ -428,7 +419,6 @@ def v5_ical_for_rank(
     ),
     lang: str = Depends(validate_locale),
 ) -> PlainTextResponse:
-    """Return the calendar feed for the requested ranks as an iCalendar (ICS) document."""
     return _ical_response(lang, rank)
 
 
@@ -437,7 +427,6 @@ def v5_ical_for_rank(
     summary="Get API version",
 )
 def v5_version(lang: str = Depends(validate_locale)) -> dict[str, str]:
-    """Return the deployed API version string."""
     return {"version": __version__.__version__}
 
 

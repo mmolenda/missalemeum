@@ -15,8 +15,8 @@ logging.basicConfig(
 router = APIRouter()
 
 
-@router.get('/{lang}/api/v3/icalendar')
-@router.get('/{lang}/api/v3/icalendar/{rank}')
+@router.get('/{lang}/api/v3/icalendar', deprecated=True)
+@router.get('/{lang}/api/v3/icalendar/{rank}', deprecated=True)
 def v3_ical(rank: int = 2, lang: str = Depends(validate_locale)) -> RedirectResponse:
     location = f"/{lang}/api/v5/icalendar"
     if rank:
