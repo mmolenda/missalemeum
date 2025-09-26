@@ -130,3 +130,13 @@ class CalendarItem(BaseModel):
         default_factory=list,
         description="Commemorations falling on the given day.",
     )
+
+
+class VersionInfo(BaseModel):
+    """API version response."""
+
+    version: str = Field(
+        ...,
+        description="Semantic version of the running API.",
+        json_schema_extra={"example": "v5.0.1"},
+    )

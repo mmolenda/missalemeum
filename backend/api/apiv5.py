@@ -27,7 +27,7 @@ from examples import (
     get_json_response,
     get_text_response,
 )
-from schemas import CalendarItem, ContentItem, Info, Proper
+from schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
 
 
 class LanguageCode(str, Enum):
@@ -71,29 +71,14 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
         "`YYYY-MM-DD` format (e.g., `2025-11-11`) or a votive ID from the `/votive` "
         "endpoint (e.g., `cordis-mariae`)."
     ),
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": PROPER_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(PROPER_EXAMPLE)
 )
 def v5_proper(
     date_or_id: str = Path(
         ...,
         description="ID of the proper.",
-        examples={
-            "by_id": {
-                "summary": "Votive ID",
-                "value": "cordis-mariae",
-            },
-            "by_date": {
-                "summary": "Date",
-                "value": "2025-11-11",
-            },
+        json_schema_extra={
+            "example": "2025-11-11"
         },
     ),
     lang: str = Depends(validate_locale),
@@ -129,15 +114,7 @@ def v5_proper(
     response_model=list[ContentItem],
     summary="Get Ordinary",
     description="Get the Ordinary of the Mass — the invariable texts.",
-    responses={
-        200: {
-            "content": {
-                "application/json": {
-                    "example": ORDO_EXAMPLE
-                }
-            }
-        }
-    },
+    responses=get_json_response(ORDO_EXAMPLE)
 )
 def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
@@ -172,12 +149,7 @@ def v5_supplement(
     id_: str = Path(
         ...,
         description="ID of the resource.",
-        examples={
-            "default": {
-                "summary": "Supplement name",
-                "value": "info",
-            }
-        },
+        json_schema_extra={"example": "info"},
     ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
@@ -229,12 +201,7 @@ def v5_calendar_year(
     year: int = Path(
         ...,
         description="Year of the calendar.",
-        examples={
-            "default": {
-                "summary": "Year",
-                "value": 2025,
-            }
-        },
+        json_schema_extra={"example": 2025},
     ),
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
@@ -252,24 +219,14 @@ def v5_calendar_year_month(
     year: int = Path(
         ...,
         description="Year of the calendar.",
-        examples={
-            "default": {
-                "summary": "Year",
-                "value": 2025,
-            }
-        },
+        json_schema_extra={"example": 2025},
     ),
     month: int = Path(
         ...,
         ge=1,
         le=12,
         description="Month of the calendar (1-12).",
-        examples={
-            "default": {
-                "summary": "Month",
-                "value": 6,
-            }
-        },
+        json_schema_extra={"example": 6},
     ),
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
@@ -320,12 +277,7 @@ def v5_oratio_by_id(
     id_: str = Path(
         ...,
         description="ID of the resource.",
-        examples={
-            "default": {
-                "summary": "Prayer ID",
-                "value": "aniele-bozy",
-            }
-        },
+        json_schema_extra={"example": "magnificat"},
     ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
@@ -357,12 +309,7 @@ def v5_canticum_by_id(
     id_: str = Path(
         ...,
         description="ID of the resource.",
-        examples={
-            "default": {
-                "summary": "Chant ID",
-                "value": "adoro-te",
-            }
-        },
+        json_schema_extra={"example": "salve-regina"},
     ),
     lang: str = Depends(validate_locale),
 ) -> list[ContentItem]:
@@ -404,12 +351,7 @@ def v5_ical(
         ge=1,
         le=4,
         description="Only show the feasts of this rank and higher (1-4).",
-        examples={
-            "default": {
-                "summary": "Rank",
-                "value": 2,
-            }
-        },
+        json_schema_extra={"example": 2},
     ),
     lang: str = Depends(validate_locale),
 ) -> PlainTextResponse:
@@ -418,10 +360,11 @@ def v5_ical(
 
 @router.get(
     '/{lang}/api/v5/version',
+    response_model=VersionInfo,
     summary="Get API Version",
 )
-def v5_version(lang: str = Depends(validate_locale)) -> dict[str, str]:
-    return {"version": __version__.__version__}
+def v5_version(lang: str = Depends(validate_locale)) -> VersionInfo:
+    return VersionInfo(version=__version__.__version__)
 
 
 # Backwards compatibility for modules that still import `api`.
