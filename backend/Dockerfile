@@ -32,4 +32,4 @@ COPY api ./api
 COPY tests ./tests
 RUN echo $NEXT_PUBLIC_BUILD_VERSION > ./api/__version__
 
-CMD [ "gunicorn", "--bind", "0.0.0.0:8080", "-w", "4", "wsgi", "--access-logfile",  "-"]
+CMD [ "gunicorn", "--bind", "0.0.0.0:8080", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "api.app:app", "--access-logfile", "-" ]

@@ -71,7 +71,10 @@ and navigate to http://0.0.0.0:3000.
 
 ## API specficiation
 
-See [openapi.yaml](openapi.yaml) or [auto-generated swagger API documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/mmolenda/missalemeum/master/openapi.yaml) based on the latter.     
+The Missale Meum API is available free to use. You can access every aspect of the app, such as the calendar, propers, prayers, and more, programmatically.
+
+For the OpenAPI specification, check out either [Swagger UI](https://www.missalemeum.com/docs) or [ReDoc](https://www.missalemeum.com/redoc).
+
 
 ## Docker
 

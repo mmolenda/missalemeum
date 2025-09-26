@@ -1,15 +1,12 @@
 python-dateutil~=2.9.0
 click~=8.1.7
-Flask~=3.1.0
+fastapi~=0.115.0
+uvicorn[standard]~=0.30.5
 gunicorn~=23.0.0
-Jinja2~=3.1.4
 icalendar~=6.0.1
 trans~=2.1.0
 mistune~=3.0.2
 PyYAML~=6.0.2
-flask-babel~=4.0.0
-Flask-Cors~=5.0.0
-Babel~=2.16.0
-Markupsafe~=3.0.2
 # dev
 pytest~=8.3.3
+httpx~=0.28.1

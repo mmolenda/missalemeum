@@ -21,5 +21,17 @@ http://:8000 {
 		reverse_proxy backend:8080
 	}
 
+	handle /docs* {
+		reverse_proxy backend:8080
+	}
+
+	handle /redoc* {
+		reverse_proxy backend:8080
+	}
+
+	handle /openapi.json {
+		reverse_proxy backend:8080
+	}
+
 	reverse_proxy frontend:8081
 }
