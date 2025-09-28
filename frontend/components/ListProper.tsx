@@ -14,7 +14,7 @@ import {
   SEARCH_PLACEHOLDER,
   SEARCH_SUGGESTIONS_PROPER
 } from "@/components/intl";
-import moment from "moment";
+import moment, {Moment} from "moment";
 import {
   Autocomplete,
   Box,
@@ -31,11 +31,10 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import "react-datepicker/dist/react-datepicker.css";
 import {LocalizationProvider, MobileDatePicker, PickersDay} from "@mui/x-date-pickers";
-import {AdapterDayjs} from "@mui/x-date-pickers/AdapterDayjs";
-import "dayjs/locale/pl";
+import {AdapterMoment} from "@mui/x-date-pickers/AdapterMoment";
+import "moment/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
-import dayjs, {Dayjs} from "dayjs";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {
   BANNER_HEIGHT,
@@ -119,7 +118,7 @@ export default function ListProper({
       return acc;
     }, {} as DatesPropertiesFormat);
 
-    const handleDateChange = (newValue: Dayjs | null) => {
+    const handleDateChange = (newValue: Moment | null) => {
       if (newValue) {
         router.push(`${resolvedBasePath}/${newValue.format(dateFormat)}`);
       }
@@ -128,8 +127,8 @@ export default function ListProper({
     // Grab the real prop type from the component…
     type PickersDayAllProps = React.ComponentProps<typeof PickersDay>;
 
-    // …then override `day` to be Dayjs (or whatever you're using)
-    type CustomDayProps = Omit<PickersDayAllProps, "day"> & { day: Dayjs };
+    // …then override `day` to be a Moment instance (adapter must match this)
+    type CustomDayProps = Omit<PickersDayAllProps, "day"> & { day: Moment };
 
     const CustomDay = ({ day, ...rest }: CustomDayProps) => {
       const dateProperties = datesProperties[day.format(dateFormat)];
@@ -158,10 +157,10 @@ export default function ListProper({
     type FieldSlotProps = NonNullable<MDPProps["slotProps"]> extends { field?: infer F } ? F : never;
 
     return (
-      <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale={lang}
+      <LocalizationProvider dateAdapter={AdapterMoment} adapterLocale={lang}
                             localeText={MUI_DATEPICKER_LOCALE_TEXT[lang as Locale]}>
         <MobileDatePicker
-          value={dayjs(selectedItem)}
+          value={moment(selectedItem || todayFmt, dateFormat)}
           slots={{
             field: ButtonField,
             day: CustomDay
