@@ -164,22 +164,6 @@ export default async function Page({
   params: Promise<{ locale: string; id: string }>;
 }) {
   const { id, locale } = await params;
-
-  if (/^\d{4}$/.test(id)) {
-    const response = await callApi(locale, "calendar", id);
-    if (response.status !== 200) {
-      notFound();
-    }
-    return (
-      <ListProper
-        lang={locale}
-        year={parseInt(id, 10)}
-        items={await response.json()}
-        basePath={`/${locale}/calendar`}
-      />
-    );
-  }
-
   const parsedDate = moment(id);
   if (!parsedDate.isValid()) {
     notFound();
@@ -188,15 +172,12 @@ export default async function Page({
   if (response.status !== 200) {
     notFound();
   }
-  const providedYear = id.split("-")[0];
-  const currentYear = moment().format("YYYY");
-  const yearBit = providedYear !== currentYear ? `/${providedYear}` : "";
   return (
     <BilingualContent
       lang={locale}
       id={id}
       contents={await response.json()}
-      backButtonRef={`/${locale}/calendar${yearBit}#${id}`}
+      backButtonRef={`/${locale}/calendar?fromDate=${id}#${id}`}
     />
   );
 }
