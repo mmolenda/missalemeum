@@ -531,11 +531,13 @@ export default function ListProper({
       <IconButton
         aria-label="calendar"
         onClick={() => {
-          setIsDatePickerOpen((prev) => {
-            const next = !prev;
-            setOpen?.(next);
-            return next;
-          });
+          if (isDatePickerOpen) {
+            setIsDatePickerOpen(false);
+            setOpen?.(false);
+            return;
+          }
+          handleDatePickerOpen();
+          setOpen?.(true);
         }}
       >
         <CalendarMonthIcon/>
@@ -550,6 +552,17 @@ export default function ListProper({
       return acc;
     }, {} as DatesPropertiesFormat);
   }, [itemsById]);
+
+  const ensureCurrentYearLoaded = useCallback(() => {
+    if (yearStatus[currentYear] !== "full") {
+      void fetchYear(currentYear);
+    }
+  }, [currentYear, fetchYear, yearStatus]);
+
+  const handleDatePickerOpen = useCallback(() => {
+    setIsDatePickerOpen(true);
+    ensureCurrentYearLoaded();
+  }, [ensureCurrentYearLoaded]);
 
   const handleDateChange = useCallback((newValue: Moment | null) => {
     if (newValue) {
@@ -691,7 +704,7 @@ export default function ListProper({
           <MobileDatePicker
             value={moment(selectedItem || todayFmt, DATE_FORMAT)}
             open={isDatePickerOpen}
-            onOpen={() => setIsDatePickerOpen(true)}
+            onOpen={handleDatePickerOpen}
             onClose={() => setIsDatePickerOpen(false)}
             onChange={handleDateChange}
             slots={{
