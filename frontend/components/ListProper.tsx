@@ -17,6 +17,7 @@ import React, {
   useState,
 } from "react";
 import {
+  CALENDAR_BUTTON_TOOLTIP,
   COMMEMORATION,
   IN,
   Locale,
@@ -24,6 +25,7 @@ import {
   RANK_NAMES,
   SEARCH_PLACEHOLDER,
   SEARCH_SUGGESTIONS_PROPER,
+  TODAY_BUTTON_TOOLTIP,
 } from "@/components/intl";
 import moment, {Moment} from "moment";
 import {
@@ -35,6 +37,7 @@ import {
   ListItemIcon,
   PaletteColor,
   TextField,
+  Tooltip,
   darken,
   lighten,
 } from "@mui/material";
@@ -85,6 +88,8 @@ export default function ListProper({
 }) {
   const resolvedBasePath = basePath ?? `/${lang}/calendar`;
   const todayFmt = moment().format(DATE_FORMAT);
+  const calendarTooltipLabel = CALENDAR_BUTTON_TOOLTIP[lang as Locale];
+  const todayTooltipLabel = TODAY_BUTTON_TOOLTIP[lang as Locale];
 
   const sortedInitialItems = useMemo(() => sortItemsByDate(items), [items]);
   const initialItemsMap = useMemo(() => buildItemsMap(sortedInitialItems), [sortedInitialItems]);
@@ -528,20 +533,22 @@ export default function ListProper({
 
   function ButtonField({ setOpen }: ButtonFieldProps) {
     return (
-      <IconButton
-        aria-label="calendar"
-        onClick={() => {
-          if (isDatePickerOpen) {
-            setIsDatePickerOpen(false);
-            setOpen?.(false);
-            return;
-          }
-          handleDatePickerOpen();
-          setOpen?.(true);
-        }}
-      >
-        <CalendarMonthIcon/>
-      </IconButton>
+      <Tooltip title={calendarTooltipLabel}>
+        <IconButton
+          aria-label={calendarTooltipLabel}
+          onClick={() => {
+            if (isDatePickerOpen) {
+              setIsDatePickerOpen(false);
+              setOpen?.(false);
+              return;
+            }
+            handleDatePickerOpen();
+            setOpen?.(true);
+          }}
+        >
+          <CalendarMonthIcon/>
+        </IconButton>
+      </Tooltip>
     );
   }
 
@@ -570,6 +577,16 @@ export default function ListProper({
       router.push(`${resolvedBasePath}/${newValue.format(DATE_FORMAT)}`);
     }
   }, [resolvedBasePath, router]);
+
+  const handleTodayClick = useCallback(async () => {
+    const todayMoment = moment(todayFmt, DATE_FORMAT);
+    await ensureDateAvailable(todayMoment);
+    ensureItemVisible(todayFmt);
+    shouldScrollToSelectedRef.current = true;
+    setSelectedItem(todayFmt);
+    setIsDatePickerOpen(false);
+    setIsSearchOpen(false);
+  }, [ensureDateAvailable, ensureItemVisible, todayFmt]);
 
   type PickersDayAllProps = React.ComponentProps<typeof PickersDay>;
   type CustomDayProps = Omit<PickersDayAllProps, "day"> & { day: Moment };
@@ -713,6 +730,16 @@ export default function ListProper({
             }}
           />
         </LocalizationProvider>
+        <Tooltip title={todayTooltipLabel}>
+          <IconButton
+            aria-label={todayTooltipLabel}
+            onClick={() => {
+              void handleTodayClick();
+            }}
+          >
+            <EventIcon sx={{ color: "common.white" }}/>
+          </IconButton>
+        </Tooltip>
       </Box>
       <List>
         <Box component="li" ref={topSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>
