@@ -162,20 +162,33 @@ def _build_calendar_response(lang: str, year: int, month: int | None = None) -> 
     for date_, day in missal.items():
         if month is not None and date_.month != month:
             continue
-        title = day.get_celebration_name()
-        tempora = day.get_tempora_name()
-        tags: list[str] = []
-        if tempora and title != tempora:
-            tags.append(tempora)
-        container.append({
-            "title": title,
-            "tags": tags,
-            "colors": day.get_celebration_colors(),
-            "rank": day.get_celebration_rank(),
-            "id": date_.strftime("%Y-%m-%d"),
-            "commemorations": day.get_commemorations_titles()
-        })
-    return [CalendarItem.model_validate(item) for item in container]
+        container.append(_calendar_item_from_day(date_, day))
+    return container
+
+
+def _calendar_item_from_day(date_: datetime.date, day: Day) -> CalendarItem:
+    title = day.get_celebration_name()
+    tempora = day.get_tempora_name()
+    tags: list[str] = []
+    if tempora and title != tempora:
+        tags.append(tempora)
+    payload = {
+        "title": title,
+        "tags": tags,
+        "colors": day.get_celebration_colors(),
+        "rank": day.get_celebration_rank(),
+        "id": date_.strftime("%Y-%m-%d"),
+        "commemorations": day.get_commemorations_titles(),
+    }
+    return CalendarItem.model_validate(payload)
+
+
+def _parse_query_date(value: str, field_name: str) -> datetime.date:
+    try:
+        return datetime.datetime.strptime(value, "%Y-%m-%d").date()
+    except ValueError as exc:
+        message = f"Invalid {field_name} date format. Use YYYY-MM-DD."
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=message) from exc
 
 
 @router.get(
@@ -188,6 +201,55 @@ def _build_calendar_response(lang: str, year: int, month: int | None = None) -> 
 def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
     target_year = datetime.datetime.now().date().year
     return _build_calendar_response(lang, target_year)
+
+
+@router.get(
+    '/{lang}/api/v5/calendar/range',
+    response_model=list[CalendarItem],
+    summary="Get Calendar (range)",
+    description="Get the liturgical calendar between two dates (inclusive).",
+    responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
+)
+def v5_calendar_range(
+    from_: str = Query(
+        ...,
+        alias="from",
+        description="Start date in YYYY-MM-DD format.",
+        json_schema_extra={"example": "2025-01-01"},
+    ),
+    until: str = Query(
+        ...,
+        description="End date in YYYY-MM-DD format.",
+        json_schema_extra={"example": "2025-03-01"},
+    ),
+    lang: str = Depends(validate_locale),
+) -> list[CalendarItem]:
+    start_date = _parse_query_date(from_, "from")
+    end_date = _parse_query_date(until, "until")
+
+    if start_date >= end_date:
+        detail = "`from` must be earlier than `until`."
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=detail)
+
+    if (end_date - start_date).days > 120:
+        detail = "The range cannot exceed 120 days."
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=detail)
+
+    years = {start_date.year, end_date.year}
+    calendars = {year: controller.get_calendar(year, lang) for year in years}
+
+    items: list[CalendarItem] = []
+    current = start_date
+    while current <= end_date:
+        calendar = calendars[current.year]
+        day = calendar.get_day(current)
+        if day is None:
+            detail = f"Calendar data not found for {current.isoformat()}."
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=detail)
+        items.append(_calendar_item_from_day(current, day))
+        current += datetime.timedelta(days=1)
+
+    return items
 
 
 @router.get(
@@ -206,32 +268,6 @@ def v5_calendar_year(
     lang: str = Depends(validate_locale),
 ) -> list[CalendarItem]:
     return _build_calendar_response(lang, year)
-
-
-@router.get(
-    '/{lang}/api/v5/calendar/{year}/{month}',
-    response_model=list[CalendarItem],
-    summary="Get Calendar (month)",
-    description="Get the liturgical calendar for a given year and month.",
-    responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
-)
-def v5_calendar_year_month(
-    year: int = Path(
-        ...,
-        description="Year of the calendar.",
-        json_schema_extra={"example": 2025},
-    ),
-    month: int = Path(
-        ...,
-        ge=1,
-        le=12,
-        description="Month of the calendar (1-12).",
-        json_schema_extra={"example": 6},
-    ),
-    lang: str = Depends(validate_locale),
-) -> list[CalendarItem]:
-    return _build_calendar_response(lang, year, month)
-
 
 @router.get(
     '/{lang}/api/v5/votive',

@@ -23,13 +23,17 @@ export default async function Page({
   params: Promise<{ locale: string }>;
   searchParams?: Promise<{ fromDate?: string }>;
 }) {
+  const RANGE_RADIUS_DAYS = 10;
   const { locale } = await params;
   const { fromDate } = (await searchParams) ?? {};
   const anchorDate = moment(fromDate, "YYYY-MM-DD", true).isValid()
     ? fromDate!
     : moment().format("YYYY-MM-DD");
-  const month = moment(anchorDate).format("YYYY/MM"); 
-  const response = await callApi(locale, "calendar", month);
+  const anchorMoment = moment(anchorDate, "YYYY-MM-DD");
+  const rangeStart = anchorMoment.clone().subtract(RANGE_RADIUS_DAYS, "days").format("YYYY-MM-DD");
+  const rangeEnd = anchorMoment.clone().add(RANGE_RADIUS_DAYS, "days").format("YYYY-MM-DD");
+  const query = new URLSearchParams({ from: rangeStart, until: rangeEnd }).toString();
+  const response = await callApi(locale, `calendar/range?${query}`);
   if (response.status !== 200) {
     notFound();
   }
