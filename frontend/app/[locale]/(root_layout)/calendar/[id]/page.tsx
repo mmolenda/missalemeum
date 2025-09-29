@@ -1,5 +1,4 @@
 import React from "react";
-import ListProper from "@/components/ListProper";
 import moment from "moment/moment";
 import { notFound } from "next/navigation";
 import BilingualContent from "@/components/BilingualContent";

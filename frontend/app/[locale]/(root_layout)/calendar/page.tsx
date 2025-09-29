@@ -15,20 +15,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
+
 export default async function Page({
   params,
   searchParams,
 }: {
-  params: { locale: string };
-  searchParams: { fromDate?: string };
+  params: Promise<{ locale: string }>;
+  searchParams?: Promise<{ fromDate?: string }>;
 }) {
   const { locale } = await params;
-  const { fromDate } = await searchParams;
+  const { fromDate } = (await searchParams) ?? {};
   const anchorDate = moment(fromDate, "YYYY-MM-DD", true).isValid()
     ? fromDate!
     : moment().format("YYYY-MM-DD");
   const month = moment(anchorDate).format("YYYY/MM"); 
-  console.log("#MM#", anchorDate, month)
   const response = await callApi(locale, "calendar", month);
   if (response.status !== 200) {
     notFound();
