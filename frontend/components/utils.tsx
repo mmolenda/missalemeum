@@ -1,17 +1,38 @@
 import {Locale, META_DESCRIPTION} from "@/components/intl";
 
+const trimTrailingSlash = (value: string) => value.endsWith("/") ? value.slice(0, -1) : value;
+
 export async function callApi(locale: string, endpoint: string, id?: string) {
-  let url = `${process.env.API_URL}/${locale}/api/v5/${endpoint}`
-  if (id) {
-    url += `/${id}`
-  }
-  return await fetch(url, {
-    mode: "cors",
-    cache: "force-cache",
-    headers: {
-      "User-Agent": `MissaleMeumUI/${process.env.NEXT_PUBLIC_BUILD_VERSION}`
+  const isServer = typeof window === "undefined";
+
+  const resolvedBase = (() => {
+    if (isServer) {
+      return trimTrailingSlash(process.env.API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "");
     }
-  });
+    return trimTrailingSlash(process.env.NEXT_PUBLIC_API_URL ?? "");
+  })();
+
+  let url = resolvedBase
+    ? `${resolvedBase}/${locale}/api/v5/${endpoint}`
+    : `/${locale}/api/v5/${endpoint}`;
+
+  if (id) {
+    url += `/${id}`;
+  }
+
+  const init: RequestInit = {
+    mode: "cors",
+    cache: isServer ? "force-cache" : "no-store",
+  };
+
+  if (isServer) {
+    const headers: Record<string, string> = {};
+    const buildVersion = process.env.NEXT_PUBLIC_BUILD_VERSION ?? "dev";
+    headers["User-Agent"] = `MissaleMeumUI/${buildVersion}`;
+    init.headers = headers;
+  }
+
+  return await fetch(url, init);
 }
 
 export type MetadataOptions = {

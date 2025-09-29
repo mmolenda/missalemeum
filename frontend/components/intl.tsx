@@ -30,6 +30,8 @@ export const META_DESCRIPTION: {
 
 export const SEARCH_PLACEHOLDER = {"en": "Search", "pl": "Szukaj"}
 export const IN = {"en": "in", "pl": "w"}
+export const CALENDAR_BUTTON_TOOLTIP = {"en": "Calendar", "pl": "Kalendarz"}
+export const TODAY_BUTTON_TOOLTIP = {"en": "Today", "pl": "Dzisiejszy dzień"}
 export const RANK_NAMES = {
 	"en": [null, "1st class", "2nd class", "3rd class", "4th class"],
 	"pl": [null, "1 kl.", "2 kl.", "3 kl.", "4 kl."]
