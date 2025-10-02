@@ -1,0 +1,5 @@
+[Secreta]
+@Commune/C3a-1:Secreta:s/N\. and N\./Vitalis and Agricola/
+
+[Postcommunio]
+@Commune/C3a-1:Postcommunio:s/N\. and N\./Vitalis and Agricola/

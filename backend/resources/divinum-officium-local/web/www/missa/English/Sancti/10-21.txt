@@ -1,0 +1,9 @@
+
+[Oratio]
+@Commune/C5b:Oratio:s/N\./Hilarion/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Hilarion/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Hilarion/

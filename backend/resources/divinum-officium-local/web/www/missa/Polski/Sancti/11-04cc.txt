@@ -1,2 +1,8 @@
 [Comment]
 @Sancti/11-04cc
+
+[Secreta]
+@Commune/C3a-1:Secreta:s/N\. i N\./Witalisa i Agrykoli/
+
+[Postcommunio]
+@Commune/C3a-1:Postcommunio:s/N\. i N\./Witalisa i Agrykoli/

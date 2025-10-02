@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C6b::s/N. and N./Ursula and Companions/
+
+[Secreta]
+@Commune/C6b::s/N. and N./Ursula and Companions/
+
+[Postcommunio]
+@Commune/C6b:Postcommunio:s/N. and N./Ursula and Companions/
