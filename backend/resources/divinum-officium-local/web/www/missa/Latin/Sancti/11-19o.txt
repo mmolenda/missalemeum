@@ -20,11 +20,11 @@
 @Commune/C2
 
 [Secreta]
-@Commune/C4b::s/N\./Pontiáni/
+@Commune/C4b
 
 [Communio]
 @Commune/C2
 
 [Postcommunio]
-@Commune/C4b::s/N\./Pontiáno/
+@Commune/C4b
 

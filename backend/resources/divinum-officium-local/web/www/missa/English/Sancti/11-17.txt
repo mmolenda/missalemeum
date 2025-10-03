@@ -6,3 +6,6 @@
 
 [Offertorium]
 @Commune/C2-1
+
+[Postcommunio]
+@Commune/C4::s/N\./Gregory/
