@@ -20,6 +20,7 @@ import {
 } from "./intl";
 import Md from "./styledComponents/Md";
 import MdPrintable from "./styledComponents/MdPrintable";
+import { BILINGUAL_PRINT_STYLES } from "./styledComponents/printStyles";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
 import React, {
@@ -176,29 +177,47 @@ const Article = ({
   const print = () => {
     const newWindow = window.open('', '', "width=650, height=750");
     const newContent = (
-      <html>
-      <body style={{margin: "4%", minWidth: "300px"}}>
-      <h1>{content.info.title}</h1>
-      <ArticleTags info={content.info} lang={lang} showIcon={false}/>
-      {content.info.description &&
-        <MdPrintable text={content.info.description} markdownNewlines={markdownNewlines}/>}
-      {content.sections.map((section, index) => {
-        return <div key={index}>
-          {section.label && <h2>{section.label}</h2>}
-          {section.body.map((paragraph, pIndex) => {
-            return (paragraph.length === 1) ?
-              <div key={pIndex}>
-                <div key="content"><MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/></div>
-              </div> :
-              <div key={pIndex} style={{display: "inline-grid", gridTemplateColumns: "50% 50%"}}>
-                <div key="left" style={{marginRight: "5%"}}><MdPrintable text={paragraph[0]}
-                                                              markdownNewlines={markdownNewlines}/></div>
-                <div key="right"><MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/></div>
-              </div>
-          })}
+      <html lang={lang}>
+      <head>
+        <meta charSet="utf-8"/>
+        <title>{content.info.title}</title>
+        <style dangerouslySetInnerHTML={{ __html: BILINGUAL_PRINT_STYLES }}/>
+      </head>
+      <body className="print-body">
+      <div className="print-container">
+        <h1>{content.info.title}</h1>
+        <div className="print-meta">
+          <ArticleTags info={content.info} lang={lang} showIcon={false}/>
         </div>
-      })}
-      <p><em>https://www.missalemeum.com</em></p>
+        {content.info.description &&
+          <div className="print-paragraph">
+            <MdPrintable text={content.info.description} markdownNewlines={markdownNewlines}/>
+          </div>}
+        {content.sections.map((section, index) => {
+          return <section className="print-section" key={index}>
+            {section.label && <h2>{section.label}</h2>}
+            {section.body.map((paragraph, pIndex) => {
+              return (paragraph.length === 1) ?
+                <div className="print-paragraph" key={pIndex}>
+                  <MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/>
+                </div> :
+                <div className="print-dual-column" key={pIndex}>
+                  <div className="print-column" key="left">
+                    <div className="print-column-content">
+                      <MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/>
+                    </div>
+                  </div>
+                  <div className="print-column" key="right">
+                    <div className="print-column-content">
+                      <MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/>
+                    </div>
+                  </div>
+                </div>
+            })}
+          </section>
+        })}
+        <p className="print-footer"><em>https://www.missalemeum.com</em></p>
+      </div>
       </body>
       </html>)
     if (newWindow) {
