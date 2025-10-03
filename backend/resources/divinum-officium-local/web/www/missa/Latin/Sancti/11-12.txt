@@ -5,7 +5,7 @@
 @Commune/C4b
 
 [Oratio]
-@Commune/C4b
+@Commune/C4b::s/N\./Martinum/
 
 [Lectio]
 @Commune/C4b

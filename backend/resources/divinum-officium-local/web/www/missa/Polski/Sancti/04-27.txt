@@ -11,7 +11,7 @@
 @Commune/C4a
 
 [Secreta]
-@Commune/C5a::s/N\. Kanizjusza, Twego i/Piotra, Twego/
+@Commune/C5a::s/N\./Piotra/
 
 [Postcommunio]
-@Commune/C5a::s/N\. Kanizjusz, Twój i/Piotr, Twój/
+@Commune/C5a::s/N\./Piotr/

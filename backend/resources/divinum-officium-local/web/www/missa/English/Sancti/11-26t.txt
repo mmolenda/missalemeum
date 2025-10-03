@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C2:Oratio:s/N\./Peter/
+
+[Secreta]
+@Commune/C2:Secreta:s/N\./Peter/
+
+[Postcommunio]
+@Commune/C2:Postcommunio:s/N\./Peter/
