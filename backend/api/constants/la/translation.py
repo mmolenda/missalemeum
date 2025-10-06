@@ -9,6 +9,22 @@ PDF_LABELS = {
     "page": "Pagina",
 }
 
+PDF_RANK_LABELS = {
+    1: "I classis",
+    2: "II classis",
+    3: "III classis",
+    4: "IV classis",
+}
+
+PDF_COLOR_LABELS = {
+    "g": "Paramenta viridia",
+    "r": "Paramenta rubra",
+    "w": "Paramenta alba",
+    "v": "Paramenta violacea",
+    "p": "Paramenta rosacea",
+    "b": "Paramenta nigra",
+}
+
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
 PDF_DATE_MONTHS = (
     "",

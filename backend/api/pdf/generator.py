@@ -8,7 +8,7 @@ to PDF, allowing API clients to request ready-to-download documents.
 """
 from __future__ import annotations
 
-from collections.abc import Iterable, Sequence
+from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass
 from datetime import datetime
 from html import escape
@@ -174,21 +174,45 @@ def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[st
     if not isinstance(labels, dict):
         labels = {}
     rank_label = labels.get("rank", "Rank")
-    if info.get("rank") is not None:
-        tags.append(f"{rank_label} {info['rank']}")
+    rank_value = info.get("rank")
+    if rank_value is not None:
+        mapped_rank = None
+        rank_map = getattr(translation, "PDF_RANK_LABELS", {})
+        if isinstance(rank_map, Mapping):
+            mapped_rank = rank_map.get(rank_value)
+            if mapped_rank is None:
+                try:
+                    mapped_rank = rank_map[int(rank_value)]
+                except (TypeError, ValueError, KeyError):
+                    mapped_rank = None
+        if mapped_rank:
+            tags.append(str(mapped_rank))
+        else:
+            tags.append(f"{rank_label} {rank_value}")
 
     colors = info.get("colors")
     if isinstance(colors, Sequence) and not isinstance(colors, (str, bytes)):
         if colors:
             colors_label = labels.get("colors", "Colors")
-            joined = ", ".join(str(c) for c in colors)
-            tags.append(f"{colors_label}: {joined}")
+            color_map = getattr(translation, "PDF_COLOR_LABELS", {})
+            if not isinstance(color_map, Mapping):
+                color_map = {}
+            for raw_color in colors:
+                display = color_map.get(raw_color)
+                if display is None:
+                    try:
+                        display = color_map.get(str(raw_color).lower())
+                    except AttributeError:
+                        display = None
+                if display is None:
+                    display = f"{colors_label}: {raw_color}"
+                tags.append(str(display))
 
     extra_tags = info.get("tags")
     if isinstance(extra_tags, Sequence) and not isinstance(extra_tags, (str, bytes)):
         for raw in extra_tags:
             tag = str(raw)
-            if tag:
+            if all([tag, not tag.startswith("Szaty"), not tag.startswith("Pallotinum")]):
                 tags.append(tag)
 
     return tags

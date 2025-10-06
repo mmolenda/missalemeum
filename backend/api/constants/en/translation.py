@@ -8,6 +8,22 @@ PDF_LABELS = {
     "page": "Page",
 }
 
+PDF_RANK_LABELS = {
+    1: "1st class",
+    2: "2nd class",
+    3: "3rd class",
+    4: "4th class",
+}
+
+PDF_COLOR_LABELS = {
+    "g": "Green vestments",
+    "r": "Red vestments",
+    "w": "White vestments",
+    "v": "Violet vestments",
+    "p": "Pink vestments",
+    "b": "Black vestments",
+}
+
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
 PDF_DATE_MONTHS = (
     "",

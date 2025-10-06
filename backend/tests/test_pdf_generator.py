@@ -92,8 +92,9 @@ def test_build_content_uses_localised_labels_for_polish():
 
     assert content.lang == "pl"
     assert "01 czerwca 2024 (sobota)" in content.meta_tags
-    assert "Ranga 2" in content.meta_tags
-    assert "Kolory: w, g" in content.meta_tags
+    assert "2 klasy" in content.meta_tags
+    assert "Szaty białe" in content.meta_tags
+    assert "Szaty zielone" in content.meta_tags
 
 
 def test_collect_meta_tags_falls_back_to_english_labels():
@@ -105,8 +106,8 @@ def test_collect_meta_tags_falls_back_to_english_labels():
 
     tags = generator._collect_meta_tags(info, TRANSLATION["en"])
 
-    assert "Rank 2" in tags
-    assert "Colors: w" in tags
+    assert "2nd class" in tags
+    assert "White vestments" in tags
     assert "01 June 2024 (Saturday)" in tags
 
 

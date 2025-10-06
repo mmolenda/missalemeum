@@ -11,6 +11,22 @@ PDF_LABELS = {
     "page": "Strona",
 }
 
+PDF_RANK_LABELS = {
+    1: "1 klasy",
+    2: "2 klasy",
+    3: "3 klasy",
+    4: "4 klasy",
+}
+
+PDF_COLOR_LABELS = {
+    "g": "Szaty zielone",
+    "r": "Szaty czerwone",
+    "w": "Szaty białe",
+    "v": "Szaty fioletowe",
+    "p": "Szaty różowe",
+    "b": "Szaty czarne",
+}
+
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
 PDF_DATE_MONTHS = (
     "",

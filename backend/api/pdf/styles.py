@@ -187,8 +187,8 @@ def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float, page
     def _pt(value: float) -> str:
         return f"{value * font_scale:.2f}pt"
 
-    safe_page_label = page_label.replace('"', '\\"')
-    safe_site_label = site_label.replace('"', '\\"')
+    safe_page_label = str(page_label).replace('"', '\\"')
+    safe_site_label = str(site_label).replace('"', '\\"')
 
     return _BASE_STYLES_TEMPLATE.format(
         page_size_rule=page_size_rule,
