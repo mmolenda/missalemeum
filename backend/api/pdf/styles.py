@@ -10,7 +10,12 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     {page_size_rule}
     margin: 15mm;
     @bottom-center {{
-      content: "Page " counter(page) " / " counter(pages);
+      content: "{page_label} " counter(page) " / " counter(pages);
+      font-size: {page_number_font_size};
+      color: #555;
+    }}
+    @bottom-right {{
+      content: "{site_label}";
       font-size: {page_number_font_size};
       color: #555;
     }}
@@ -124,12 +129,6 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     padding-left: 0.45rem;
   }}
 
-  .print-footer {{
-    text-align: center;
-    margin-top: 1.2rem;
-    font-size: {footer_font_size};
-  }}
-
   .print-page-break {{
     page-break-before: always;
     break-before: page;
@@ -182,11 +181,14 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 """
 
 
-def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float) -> str:
+def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float, page_label: str, site_label: str) -> str:
     """Return the bilingual print stylesheet scaled for the requested variant."""
 
     def _pt(value: float) -> str:
         return f"{value * font_scale:.2f}pt"
+
+    safe_page_label = page_label.replace('"', '\\"')
+    safe_site_label = site_label.replace('"', '\\"')
 
     return _BASE_STYLES_TEMPLATE.format(
         page_size_rule=page_size_rule,
@@ -195,7 +197,6 @@ def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float) -> s
         h2_font_size=_pt(16),
         h3_font_size=_pt(14),
         meta_font_size=_pt(10),
-        footer_font_size=_pt(10),
         page_number_font_size=_pt(9),
         media_180_body_font_size=_pt(11),
         media_180_h1_font_size=_pt(19),
@@ -209,6 +210,8 @@ def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float) -> s
         media_110_h1_font_size=_pt(15),
         media_110_h2_font_size=_pt(12),
         media_110_h3_font_size=_pt(11),
+        page_label=safe_page_label,
+        site_label=safe_site_label,
     )
 
 

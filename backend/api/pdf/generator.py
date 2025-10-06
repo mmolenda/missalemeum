@@ -13,6 +13,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from html import escape
 from io import BytesIO
+from types import ModuleType
 from typing import Any
 from unicodedata import normalize as _normalize
 
@@ -20,6 +21,8 @@ import mistune
 from fastapi.responses import Response
 from pypdf import PageObject, PdfReader, PdfWriter, Transformation
 from weasyprint import HTML
+
+from api.constants import TRANSLATION
 
 from .styles import build_bilingual_print_styles
 
@@ -49,6 +52,8 @@ VARIANT_SPECS: dict[str, VariantSpec] = {
     "a4-booklet": VariantSpec(page_size="A5", font_scale=0.8, mode="booklet", sheet_size="A4"),
 }
 DEFAULT_VARIANT = VARIANT_SPECS["a4"]
+DEFAULT_LANGUAGE = "en"
+SITE_LABEL = "www.missalemeum.com"
 
 
 _MARKDOWN = mistune.create_markdown(
@@ -65,19 +70,44 @@ class PrintableContent:
     description: str | None
     sections: Sequence[dict[str, Any]]
     meta_tags: Sequence[str]
+    lang: str = DEFAULT_LANGUAGE
 
 
-def generate_pdf(*, payload: Any, variant: str, format_hint: str) -> Response:
+def _resolve_language(*candidates: Any) -> str:
+    for candidate in candidates:
+        if candidate is None:
+            continue
+        value = str(candidate).strip().lower()
+        if not value:
+            continue
+        if value in TRANSLATION:
+            return value
+    return DEFAULT_LANGUAGE
+
+
+def _get_translation_module(lang: str) -> tuple[ModuleType, str]:
+    if lang in TRANSLATION:
+        return TRANSLATION[lang], lang
+    if DEFAULT_LANGUAGE in TRANSLATION:
+        return TRANSLATION[DEFAULT_LANGUAGE], DEFAULT_LANGUAGE
+    # Fallback to any available translation module
+    fallback_lang, module = next(iter(TRANSLATION.items()))
+    return module, fallback_lang
+
+
+def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | None = None) -> Response:
     """Render incoming bilingual content into a styled PDF document."""
 
     _ = format_hint  # reserved for future content negotiation tweaks
-    contents = _normalise_payload(payload)
+    contents = _normalise_payload(payload, lang=lang)
     spec = VARIANT_SPECS.get(variant.lower(), DEFAULT_VARIANT)
 
+    document_lang = contents[0].lang if contents else (lang or DEFAULT_LANGUAGE)
     html_document = _render_html_document(
         contents=contents,
         page_size=spec.page_size,
         font_scale=spec.font_scale,
+        lang=document_lang,
     )
 
     base_pdf_bytes = HTML(string=html_document).write_pdf()
@@ -99,46 +129,60 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str) -> Response:
     return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
 
 
-def _normalise_payload(payload: Any) -> list[PrintableContent]:
+def _normalise_payload(payload: Any, lang: str | None = None) -> list[PrintableContent]:
     if payload is None:
         return []
 
     if isinstance(payload, dict) and "info" in payload and "sections" in payload:
-        return [_build_content(payload)]
+        return [_build_content(payload, lang)]
 
     if isinstance(payload, Iterable) and not isinstance(payload, (str, bytes)):
         contents: list[PrintableContent] = []
         for item in payload:
             if isinstance(item, dict) and "info" in item and "sections" in item:
-                contents.append(_build_content(item))
+                contents.append(_build_content(item, lang))
         return contents
 
     return []
 
 
-def _build_content(item: dict[str, Any]) -> PrintableContent:
+def _build_content(item: dict[str, Any], lang: str | None) -> PrintableContent:
     info = item.get("info", {}) or {}
     title = str(info.get("title", "")) or "Missale Meum"
     description = info.get("description")
     sections = item.get("sections") or []
-    meta_tags = _collect_meta_tags(info)
-    return PrintableContent(title=title, description=description, sections=sections, meta_tags=meta_tags)
+    content_lang = _resolve_language(lang)
+    translation, resolved_lang = _get_translation_module(content_lang)
+    meta_tags = _collect_meta_tags(info, translation)
+    return PrintableContent(
+        title=title,
+        description=description,
+        sections=sections,
+        meta_tags=meta_tags,
+        lang=resolved_lang,
+    )
 
 
-def _collect_meta_tags(info: dict[str, Any]) -> list[str]:
+def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[str]:
     tags: list[str] = []
 
     date_value = info.get("date")
     if isinstance(date_value, str):
-        tags.append(_format_date_label(date_value))
+        tags.append(_format_date_label(date_value, translation))
 
+    labels = getattr(translation, "PDF_LABELS", {})
+    if not isinstance(labels, dict):
+        labels = {}
+    rank_label = labels.get("rank", "Rank")
     if info.get("rank") is not None:
-        tags.append(f"Rank {info['rank']}")
+        tags.append(f"{rank_label} {info['rank']}")
 
     colors = info.get("colors")
     if isinstance(colors, Sequence) and not isinstance(colors, (str, bytes)):
         if colors:
-            tags.append("Colors: " + ", ".join(str(c) for c in colors))
+            colors_label = labels.get("colors", "Colors")
+            joined = ", ".join(str(c) for c in colors)
+            tags.append(f"{colors_label}: {joined}")
 
     extra_tags = info.get("tags")
     if isinstance(extra_tags, Sequence) and not isinstance(extra_tags, (str, bytes)):
@@ -150,15 +194,32 @@ def _collect_meta_tags(info: dict[str, Any]) -> list[str]:
     return tags
 
 
-def _format_date_label(value: str) -> str:
+def _format_date_label(value: str, translation: ModuleType) -> str:
     try:
         parsed = datetime.strptime(value, "%Y-%m-%d")
     except ValueError:
         return value
-    return parsed.strftime("%d %B %Y (%A)")
+    format_pattern = getattr(translation, "PDF_DATE_FORMAT", "{weekday}, {day} {month} {year}")
+    months = getattr(translation, "PDF_DATE_MONTHS", ())
+    weekdays = getattr(translation, "PDF_DATE_WEEKDAYS", ())
+
+    day = f"{parsed.day:02d}"
+
+    if isinstance(months, Sequence) and len(months) > parsed.month:
+        month_label = months[parsed.month]
+    else:
+        month_label = parsed.strftime("%B")
+
+    weekday_index = parsed.weekday()
+    if isinstance(weekdays, Sequence) and len(weekdays) > weekday_index:
+        weekday_label = weekdays[weekday_index]
+    else:
+        weekday_label = parsed.strftime("%A")
+
+    return format_pattern.format(day=day, month=month_label, year=parsed.year, weekday=weekday_label)
 
 
-def _render_html_document(*, contents: Sequence[PrintableContent], page_size: str, font_scale: float) -> str:
+def _render_html_document(*, contents: Sequence[PrintableContent], page_size: str, font_scale: float, lang: str) -> str:
     if not contents:
         empty_body = """
         <div class=\"print-container\">
@@ -166,7 +227,7 @@ def _render_html_document(*, contents: Sequence[PrintableContent], page_size: st
           <p class=\"print-paragraph\">No printable content was found for this request.</p>
         </div>
         """
-        return _wrap_html(empty_body, page_size=page_size, font_scale=font_scale, title="Missale Meum")
+        return _wrap_html(empty_body, page_size=page_size, font_scale=font_scale, title="Missale Meum", lang=lang)
 
     body_fragments: list[str] = []
     for index, content in enumerate(contents):
@@ -176,14 +237,25 @@ def _render_html_document(*, contents: Sequence[PrintableContent], page_size: st
 
     document_title = contents[0].title
     body_html = "".join(body_fragments)
-    return _wrap_html(body_html, page_size=page_size, font_scale=font_scale, title=document_title)
+    return _wrap_html(body_html, page_size=page_size, font_scale=font_scale, title=document_title, lang=lang)
 
 
-def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str) -> str:
-    css = build_bilingual_print_styles(page_size_rule=f"size: {page_size};", font_scale=font_scale)
+def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str, lang: str) -> str:
+    translation, resolved_lang = _get_translation_module(lang)
+    labels = getattr(translation, "PDF_LABELS", {})
+    if not isinstance(labels, dict):
+        labels = {}
+    page_label = labels.get("page", "Page")
+    css = build_bilingual_print_styles(
+        page_size_rule=f"size: {page_size};",
+        font_scale=font_scale,
+        page_label=page_label,
+        site_label=SITE_LABEL,
+    )
+    lang_attr = escape(resolved_lang or DEFAULT_LANGUAGE)
     return (
         "<!DOCTYPE html>"
-        "<html lang=\"en\">"
+        f"<html lang=\"{lang_attr}\">"
         "<head>"
         "<meta charset=\"utf-8\"/>"
         f"<title>{escape(title)}</title>"
@@ -225,7 +297,6 @@ def _render_content_block(content: PrintableContent) -> str:
                 fragments.append(_render_paragraph(paragraph))
         fragments.append("</section>")
 
-    fragments.append('<p class="print-footer"><em>https://www.missalemeum.com</em></p>')
     fragments.append("</div>")
     return "".join(fragments)
 

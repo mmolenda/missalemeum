@@ -3,6 +3,38 @@ import re
 from api.constants import common as constants
 from api.constants.common import TRANSFORMATIONS_COMMON
 
+PDF_LABELS = {
+    "rank": "Ritus",
+    "colors": "Color",
+    "page": "Pagina",
+}
+
+PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
+PDF_DATE_MONTHS = (
+    "",
+    "Ianuarii",
+    "Februarii",
+    "Martii",
+    "Aprilis",
+    "Maii",
+    "Iunii",
+    "Iulii",
+    "Augusti",
+    "Septembris",
+    "Octobris",
+    "Novembris",
+    "Decembris",
+)
+PDF_DATE_WEEKDAYS = (
+    "Feria II",
+    "Feria III",
+    "Feria IV",
+    "Feria V",
+    "Feria VI",
+    "Sabbato",
+    "Dominica",
+)
+
 TITLES = {
     constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'Sanctæ Familiæ Jesu Mariæ Joseph',

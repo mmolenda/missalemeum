@@ -4,6 +4,8 @@ from io import BytesIO
 
 from pypdf import PdfReader
 
+from api.constants import TRANSLATION
+from api.pdf import generator
 from api.pdf.generator import generate_pdf
 
 
@@ -73,3 +75,49 @@ def test_generate_pdf_booklet_produces_even_page_count():
     assert len(reader.pages) % 2 == 0
     first_page = reader.pages[0]
     assert float(first_page.mediabox.width) > float(first_page.mediabox.height)
+
+
+def test_build_content_uses_localised_labels_for_polish():
+    item = {
+        "info": {
+            "title": "Test",
+            "date": "2024-06-01",
+            "rank": 2,
+            "colors": ["w", "g"],
+        },
+        "sections": [],
+    }
+
+    content = generator._build_content(item, "pl")
+
+    assert content.lang == "pl"
+    assert "01 czerwca 2024 (sobota)" in content.meta_tags
+    assert "Ranga 2" in content.meta_tags
+    assert "Kolory: w, g" in content.meta_tags
+
+
+def test_collect_meta_tags_falls_back_to_english_labels():
+    info = {
+        "date": "2024-06-01",
+        "rank": 2,
+        "colors": ["w"],
+    }
+
+    tags = generator._collect_meta_tags(info, TRANSLATION["en"])
+
+    assert "Rank 2" in tags
+    assert "Colors: w" in tags
+    assert "01 June 2024 (Saturday)" in tags
+
+
+def test_wrap_html_uses_localised_page_label_and_site_url():
+    html = generator._wrap_html(
+        "<div></div>",
+        page_size="A4",
+        font_scale=1.0,
+        title="Test",
+        lang="pl",
+    )
+
+    assert "Strona " in html
+    assert "www.missalemeum.com" in html

@@ -36,7 +36,12 @@ class PDFDownloadMiddleware(BaseHTTPMiddleware):
         payload = await self._extract_payload(response)
         await self._run_background(response)
 
-        return generate_pdf(payload=payload, variant=variant_or_response, format_hint=PDF_FORMAT)
+        return generate_pdf(
+            payload=payload,
+            variant=variant_or_response,
+            format_hint=PDF_FORMAT,
+            lang=request.path_params.get("lang"),
+        )
 
     def _resolve_request_variant(self, request: Request) -> tuple[bool, Any]:
         format_param = request.query_params.get("format")
