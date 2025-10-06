@@ -4,6 +4,8 @@ from __future__ import annotations
 from typing import Final
 
 _BASE_STYLES_TEMPLATE: Final[str] = """
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
   @page {{
     {page_size_rule}
     margin: 15mm;
@@ -20,14 +22,14 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
   body {{
     margin: 0;
-    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-family: 'Merriweather', 'Noto Serif', 'Times New Roman', serif;
     font-size: {body_font_size};
     line-height: 1.5;
     color: #000;
   }}
 
   h1, h2, h3, h4, h5, h6 {{
-    font-weight: 600;
+    font-weight: 700;
     page-break-after: avoid;
     page-break-inside: avoid;
     break-after: avoid;
