@@ -12,33 +12,48 @@ from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from datetime import datetime
 from html import escape
+from io import BytesIO
 from typing import Any
 from unicodedata import normalize as _normalize
 
 import mistune
 from fastapi.responses import Response
+from pypdf import PageObject, PdfReader, PdfWriter, Transformation
 from weasyprint import HTML
 
-from .styles import BILINGUAL_PRINT_STYLES
+from .styles import build_bilingual_print_styles
 
-PAGE_SIZE_MAP: dict[str, str] = {
-    "a4": "A4",
-    "a5": "A5",
-    "a6": "A6",
+MM_TO_PT = 72 / 25.4
+PAGE_DIMENSIONS_MM: dict[str, tuple[float, float]] = {
+    "A4": (210.0, 297.0),
+    "A5": (148.0, 210.0),
+    "A6": (105.0, 148.0),
 }
 
-# NOTE: CSS rules live in :mod:`api.pdf.styles` so this module can focus on
-# payload transformation and PDF rendering.
+
+@dataclass(frozen=True)
+class VariantSpec:
+    """Rendering configuration for the supported PDF variants."""
+
+    page_size: str
+    font_scale: float
+    mode: str = "normal"  # normal | two_up | booklet
+    sheet_size: str | None = None
+
+
+VARIANT_SPECS: dict[str, VariantSpec] = {
+    "a4": VariantSpec(page_size="A4", font_scale=1.0),
+    "a5": VariantSpec(page_size="A5", font_scale=0.8),
+    "a6": VariantSpec(page_size="A6", font_scale=0.6),
+    "a4-2pages": VariantSpec(page_size="A5", font_scale=0.8, mode="two_up", sheet_size="A4"),
+    "a4-booklet": VariantSpec(page_size="A5", font_scale=0.8, mode="booklet", sheet_size="A4"),
+}
+DEFAULT_VARIANT = VARIANT_SPECS["a4"]
+
 
 _MARKDOWN = mistune.create_markdown(
     escape=False,
-    plugins=(
-        "strikethrough",
-        "table",
-        "task_lists",
-        "footnotes",
-        "abbr",
-    ),
+    plugins=("strikethrough", "table", "task_lists", "footnotes", "abbr"),
 )
 
 
@@ -57,9 +72,24 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str) -> Response:
 
     _ = format_hint  # reserved for future content negotiation tweaks
     contents = _normalise_payload(payload)
-    page_size = PAGE_SIZE_MAP.get(variant.lower(), PAGE_SIZE_MAP["a4"])
-    html_document = _render_html_document(contents, page_size)
-    pdf_bytes = HTML(string=html_document).write_pdf()
+    spec = VARIANT_SPECS.get(variant.lower(), DEFAULT_VARIANT)
+
+    html_document = _render_html_document(
+        contents=contents,
+        page_size=spec.page_size,
+        font_scale=spec.font_scale,
+    )
+
+    base_pdf_bytes = HTML(string=html_document).write_pdf()
+
+    if spec.mode == "two_up":
+        sheet_size = spec.sheet_size or "A4"
+        pdf_bytes = _impose_two_up(base_pdf_bytes, sheet_size)
+    elif spec.mode == "booklet":
+        sheet_size = spec.sheet_size or "A4"
+        pdf_bytes = _impose_booklet(base_pdf_bytes, sheet_size)
+    else:
+        pdf_bytes = base_pdf_bytes
 
     filename = _resolve_filename(contents)
     headers = {
@@ -145,7 +175,7 @@ def _format_date_label(value: str) -> str:
     return parsed.strftime("%d %B %Y (%A)")
 
 
-def _render_html_document(contents: Sequence[PrintableContent], page_size: str) -> str:
+def _render_html_document(*, contents: Sequence[PrintableContent], page_size: str, font_scale: float) -> str:
     if not contents:
         empty_body = """
         <div class=\"print-container\">
@@ -153,7 +183,7 @@ def _render_html_document(contents: Sequence[PrintableContent], page_size: str) 
           <p class=\"print-paragraph\">No printable content was found for this request.</p>
         </div>
         """
-        return _wrap_html(empty_body, page_size, title="Missale Meum")
+        return _wrap_html(empty_body, page_size=page_size, font_scale=font_scale, title="Missale Meum")
 
     body_fragments: list[str] = []
     for index, content in enumerate(contents):
@@ -163,11 +193,11 @@ def _render_html_document(contents: Sequence[PrintableContent], page_size: str) 
 
     document_title = contents[0].title
     body_html = "".join(body_fragments)
-    return _wrap_html(body_html, page_size, title=document_title)
+    return _wrap_html(body_html, page_size=page_size, font_scale=font_scale, title=document_title)
 
 
-def _wrap_html(body_html: str, page_size: str, *, title: str) -> str:
-    css = BILINGUAL_PRINT_STYLES.format(page_size_rule=f"size: {page_size};")
+def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str) -> str:
+    css = build_bilingual_print_styles(page_size_rule=f"size: {page_size};", font_scale=font_scale)
     return (
         "<!DOCTYPE html>"
         "<html lang=\"en\">"
@@ -250,6 +280,94 @@ def _render_markdown(text: str, *, markdown_newlines: bool | None = None) -> str
         text = text.replace("\n", "  \n")
 
     return _MARKDOWN(text)
+
+
+def _impose_two_up(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
+    reader = PdfReader(BytesIO(base_pdf_bytes))
+    writer = PdfWriter()
+
+    sheet_width, sheet_height = _page_dimensions(sheet_size, orientation="landscape")
+    slot_width = sheet_width / 2
+
+    pages = list(reader.pages)
+    for index in range(0, len(pages), 2):
+        dst = writer.add_blank_page(width=sheet_width, height=sheet_height)
+        _merge_page_into_slot(dst, pages[index], slot_width, sheet_height, offset_x=0)
+        if index + 1 < len(pages):
+            _merge_page_into_slot(dst, pages[index + 1], slot_width, sheet_height, offset_x=slot_width)
+
+    output = BytesIO()
+    writer.write(output)
+    return output.getvalue()
+
+
+def _impose_booklet(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
+    reader = PdfReader(BytesIO(base_pdf_bytes))
+    pages = list(reader.pages)
+    if not pages:
+        return base_pdf_bytes
+
+    writer = PdfWriter()
+    sheet_width, sheet_height = _page_dimensions(sheet_size, orientation="landscape")
+    slot_width = sheet_width / 2
+
+    base_width = float(pages[0].mediabox.width)
+    base_height = float(pages[0].mediabox.height)
+
+    while len(pages) % 4 != 0:
+        pages.append(PageObject.create_blank_page(width=base_width, height=base_height))
+
+    left_index = len(pages) - 1
+    right_index = 0
+
+    while right_index < left_index:
+        front_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
+        _merge_page_into_slot(front_page, pages[left_index], slot_width, sheet_height, offset_x=0)
+        _merge_page_into_slot(front_page, pages[right_index], slot_width, sheet_height, offset_x=slot_width)
+        right_index += 1
+        left_index -= 1
+
+        if right_index > left_index:
+            break
+
+        back_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
+        _merge_page_into_slot(back_page, pages[right_index], slot_width, sheet_height, offset_x=0)
+        _merge_page_into_slot(back_page, pages[left_index], slot_width, sheet_height, offset_x=slot_width)
+        right_index += 1
+        left_index -= 1
+
+    output = BytesIO()
+    writer.write(output)
+    return output.getvalue()
+
+
+def _merge_page_into_slot(
+    destination: PageObject,
+    source: PageObject,
+    slot_width: float,
+    slot_height: float,
+    *,
+    offset_x: float,
+) -> None:
+    src_width = float(source.mediabox.width)
+    src_height = float(source.mediabox.height)
+
+    scale = min(slot_width / src_width, slot_height / src_height)
+    scaled_width = src_width * scale
+    scaled_height = src_height * scale
+
+    translate_x = offset_x + (slot_width - scaled_width) / 2
+    translate_y = (slot_height - scaled_height) / 2
+
+    transformation = Transformation().scale(scale).translate(translate_x, translate_y)
+    destination.merge_transformed_page(source, transformation, expand=False)
+
+
+def _page_dimensions(size: str, *, orientation: str = "portrait") -> tuple[float, float]:
+    width_mm, height_mm = PAGE_DIMENSIONS_MM.get(size.upper(), PAGE_DIMENSIONS_MM["A4"])
+    if orientation == "landscape":
+        width_mm, height_mm = height_mm, width_mm
+    return width_mm * MM_TO_PT, height_mm * MM_TO_PT
 
 
 def _resolve_filename(contents: Sequence[PrintableContent]) -> str:

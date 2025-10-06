@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+from io import BytesIO
+
+from pypdf import PdfReader
+
 from api.pdf.generator import generate_pdf
 
 
@@ -49,3 +53,23 @@ def test_generate_pdf_handles_unknown_variant():
 
     assert response.media_type == "application/pdf"
     assert response.body.startswith(b"%PDF")
+
+
+def test_generate_pdf_two_up_variant_landscape_pages():
+    response = generate_pdf(payload=_build_payload(), variant="a4-2pages", format_hint="pdf")
+
+    reader = PdfReader(BytesIO(response.body))
+    assert len(reader.pages) >= 1
+    first_page = reader.pages[0]
+    width = float(first_page.mediabox.width)
+    height = float(first_page.mediabox.height)
+    assert width > height  # landscape orientation expected for 2-up sheets
+
+
+def test_generate_pdf_booklet_produces_even_page_count():
+    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf")
+
+    reader = PdfReader(BytesIO(response.body))
+    assert len(reader.pages) % 2 == 0
+    first_page = reader.pages[0]
+    assert float(first_page.mediabox.width) > float(first_page.mediabox.height)

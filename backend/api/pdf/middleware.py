@@ -12,7 +12,7 @@ from starlette.responses import Response
 from .decorators import is_pdf_downloadable
 from .generator import generate_pdf
 
-PDF_VARIANTS = {"a4", "a5", "a6"}
+PDF_VARIANTS = {"a4", "a5", "a6", "a4-2pages", "a4-booklet"}
 PDF_FORMAT = "pdf"
 
 
