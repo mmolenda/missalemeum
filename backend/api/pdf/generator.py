@@ -261,13 +261,10 @@ def _render_paragraph(paragraph: Any) -> str:
     right = _render_markdown(str(paragraph[1]))
 
     return (
-        '<div class="print-dual-column">'
-        '<div class="print-column"><div class="print-column-content">'
-        f"{left}"
-        "</div></div>"
-        '<div class="print-column"><div class="print-column-content">'
-        f"{right}"
-        "</div></div></div>"
+        '<table class="print-dual-column"><tbody><tr>'
+        f'<td>{left}</td>'
+        f'<td>{right}</td>'
+        '</tr></tbody></table>'
     )
 
 

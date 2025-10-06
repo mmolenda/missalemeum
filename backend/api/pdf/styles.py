@@ -81,13 +81,13 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   }}
 
   .print-section {{
-    page-break-inside: avoid;
-    break-inside: avoid;
+    page-break-inside: auto;
+    break-inside: auto;
   }}
 
   .print-paragraph {{
-    page-break-inside: avoid;
-    break-inside: avoid;
+    page-break-inside: auto;
+    break-inside: auto;
     margin-bottom: 0.8rem;
   }}
 
@@ -96,35 +96,31 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   }}
 
   .print-dual-column {{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.9rem;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    align-items: stretch;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    border-collapse: separate;
+    border-spacing: 0;
   }}
 
-  .print-column {{
-    display: flex;
-    flex-direction: column;
+  .print-dual-column tbody,
+  .print-dual-column tr,
+  .print-dual-column td {{
+    page-break-inside: auto;
+    break-inside: auto;
   }}
 
-  .print-column-content {{
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
+  .print-dual-column td {{
+    width: 50%;
+    vertical-align: top;
+    padding: 0;
   }}
 
-  .print-column-content > * {{
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
+  .print-dual-column td:first-child {{
+    padding-right: 0.45rem;
   }}
 
-  .print-column-content p {{
-    flex: 1 1 auto;
-    display: flex;
-    align-items: flex-start;
+  .print-dual-column td:last-child {{
+    padding-left: 0.45rem;
   }}
 
   .print-footer {{
