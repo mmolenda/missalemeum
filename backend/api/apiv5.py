@@ -27,6 +27,7 @@ from examples import (
     get_json_response,
     get_text_response,
 )
+from pdf import pdf_downloadable
 from schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
 
 
@@ -73,6 +74,7 @@ def _parse_propers(payload: list[dict[str, Any]]) -> list[Proper]:
     ),
     responses=get_json_response(PROPER_EXAMPLE)
 )
+@pdf_downloadable
 def v5_proper(
     date_or_id: str = Path(
         ...,
