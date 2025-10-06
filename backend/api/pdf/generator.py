@@ -132,9 +132,6 @@ def _collect_meta_tags(info: dict[str, Any]) -> list[str]:
     if isinstance(date_value, str):
         tags.append(_format_date_label(date_value))
 
-    if info.get("tempora"):
-        tags.append(str(info["tempora"]))
-
     if info.get("rank") is not None:
         tags.append(f"Rank {info['rank']}")
 
@@ -149,20 +146,6 @@ def _collect_meta_tags(info: dict[str, Any]) -> list[str]:
             tag = str(raw)
             if tag:
                 tags.append(tag)
-
-    commemorations = info.get("commemorations")
-    if isinstance(commemorations, Sequence) and not isinstance(commemorations, (str, bytes)):
-        for commemor in commemorations:
-            label = str(commemor)
-            if label:
-                tags.append(label)
-
-    supplements = info.get("supplements")
-    if isinstance(supplements, Sequence) and not isinstance(supplements, (str, bytes)):
-        for supplement in supplements:
-            label = (supplement or {}).get("label") if isinstance(supplement, dict) else None
-            if label:
-                tags.append(str(label))
 
     return tags
 
@@ -217,8 +200,12 @@ def _render_content_block(content: PrintableContent) -> str:
     fragments.append(f"<h1>{escape(content.title)}</h1>")
 
     if content.meta_tags:
-        meta_html = "".join(f'<span class="print-tag">{escape(tag)}</span>' for tag in content.meta_tags)
-        fragments.append(f'<div class="print-meta">{meta_html}</div>')
+        meta_parts: list[str] = []
+        for index, tag in enumerate(content.meta_tags):
+            if index > 0:
+                meta_parts.append('<span class="print-meta-separator">|</span>')
+            meta_parts.append(f'<span>{escape(tag)}</span>')
+        fragments.append(f'<div class="print-meta">{"".join(meta_parts)}</div>')
 
     if content.description:
         fragments.append(

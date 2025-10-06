@@ -67,17 +67,16 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   }}
 
   .print-meta {{
+    font-size: {meta_font_size};
+    font-style: italic;
+    color: #333;
     margin-bottom: 0.8rem;
   }}
 
-  .print-tag {{
-    display: inline-block;
-    border: 1px solid #444;
-    border-radius: 12px;
-    padding: 0.1rem 0.6rem;
-    margin: 0.1rem 0.2rem;
-    font-size: {tag_font_size};
-    background: #f8f8f8;
+  .print-meta .print-meta-separator {{
+    font-style: normal;
+    color: #777;
+    padding: 0 0.4rem;
   }}
 
   .print-section {{
@@ -193,7 +192,7 @@ def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float) -> s
         h1_font_size=_pt(22),
         h2_font_size=_pt(16),
         h3_font_size=_pt(14),
-        tag_font_size=_pt(9.5),
+        meta_font_size=_pt(10),
         footer_font_size=_pt(10),
         page_number_font_size=_pt(9),
         media_180_body_font_size=_pt(11),
