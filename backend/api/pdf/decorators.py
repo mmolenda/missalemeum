@@ -1,4 +1,4 @@
-"""Utilities for PDF-enabled endpoints."""
+"""Helpers for marking endpoints as PDF-downloadable."""
 from __future__ import annotations
 
 from typing import Any, Callable, TypeVar

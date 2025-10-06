@@ -8,18 +8,16 @@ from pathlib import Path
 from typing import Any
 
 from fastapi.responses import FileResponse
-from weasyprint import HTML
 
-RESOURCES_DIR = Path(__file__).resolve().parent.parent / "resources"
+RESOURCES_DIR = Path(__file__).resolve().parents[2] / "resources"
 STATIC_PDF_NAME = "proper.pdf"
 
 
 def generate_pdf(*, payload: Any, variant: str, format_hint: str) -> FileResponse:
     """Return a static PDF placeholder for endpoints requesting PDF output."""
-    filename = "/tmp/document.pdf"
-    HTML(string=f"<h1>{payload[0]['info']['title']}</h1><p>{payload[0]['info']['description']}</p><h2>{payload[0]['sections'][1]['label']}</h2><p>{[payload[0]['sections'][1]['body'][0][0]]}</p>").write_pdf(filename, pdf_variant="pdf/a-3u")
+    pdf_path = RESOURCES_DIR / STATIC_PDF_NAME
     return FileResponse(
-        path=filename,
+        path=pdf_path,
         media_type="application/pdf",
         filename=STATIC_PDF_NAME,
     )

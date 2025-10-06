@@ -9,8 +9,8 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
 from starlette.responses import Response
 
-from pdf import is_pdf_downloadable
-from pdfgen import generate_pdf
+from .decorators import is_pdf_downloadable
+from .generator import generate_pdf
 
 PDF_VARIANTS = {"a4", "a5", "a6"}
 PDF_FORMAT = "pdf"
