@@ -5,9 +5,20 @@
     <meta charset="utf-8" />
     <title>Our Lady of the Rosary</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
         @page {
             size: A5;
             margin: 15mm;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Merriweather', 'Noto Serif', 'Times New Roman', serif;
+            font-size: 12pt;
+            /* use pt for print, not bare 12 */
+            line-height: 1.5;
+            color: #000;
         }
 
         h2 {
@@ -15,25 +26,20 @@
             page-break-after: avoid;
         }
 
+        /* two-column bilingual layout */
         .print-dual-column {
-            width: 100%;
-            margin-bottom: 0.8rem;
-            page-break-inside: auto;
-            break-inside: auto;
-        }
-
-        .print-dual-column::after {
-            content: "";
             display: table;
-            clear: both;
+            table-layout: fixed;
+            width: 100%;
+            border-spacing: 0;
+            margin-bottom: 0.8rem;
         }
 
         .print-column {
-            float: left;
+            display: table-cell;
             width: 50%;
+            vertical-align: top;
             box-sizing: border-box;
-            page-break-inside: auto;
-            break-inside: auto;
         }
 
         .print-column:first-of-type {

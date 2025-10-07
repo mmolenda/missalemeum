@@ -1,4 +1,5 @@
 """Shared CSS snippets for backend PDF rendering."""
+
 from __future__ import annotations
 
 from typing import Final
@@ -33,105 +34,33 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     color: #000;
   }}
 
-  h1, h2, h3, h4, h5, h6 {{
-    font-weight: 700;
-    page-break-after: avoid;
-    page-break-inside: avoid;
-    break-after: avoid;
-    break-inside: avoid;
-  }}
-
-  h1 {{
-    font-size: {h1_font_size};
-    margin: 0 0 0.75rem;
-  }}
-
   h2 {{
-    font-size: {h2_font_size};
-    margin: 1.4rem 0 0.6rem;
+      break-after: avoid;
+      page-break-after: avoid;
   }}
 
-  h3, h4, h5, h6 {{
-    font-size: {h3_font_size};
-    margin: 1rem 0 0.5rem;
-  }}
-
-  p {{
-    text-align: justify;
-    margin: 0 0 0.6rem;
-  }}
-
-  em {{
-    font-style: italic;
-  }}
-
-  .print-body {{
-    padding: 0;
-  }}
-
-  .print-container {{
-    min-width: 300px;
-  }}
-
-  .print-meta {{
-    font-size: {meta_font_size};
-    font-style: italic;
-    color: #333;
-    margin-bottom: 0.8rem;
-  }}
-
-  .print-meta .print-meta-separator {{
-    font-style: normal;
-    color: #777;
-    padding: 0 0.4rem;
-  }}
-
-  .print-section {{
-    page-break-inside: auto;
-    break-inside: auto;
-  }}
-
-  .print-paragraph {{
-    page-break-inside: auto;
-    break-inside: auto;
-    margin-bottom: 0.8rem;
-  }}
-
-  .print-paragraph:last-child {{
-    margin-bottom: 0;
-  }}
-
+  /* two-column bilingual layout */
   .print-dual-column {{
-    width: 100%;
-    margin-bottom: 0.8rem;
-    border-collapse: separate;
-    border-spacing: 0;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      border-spacing: 0;
+      margin-bottom: 0.8rem;
   }}
 
-  .print-dual-column tbody,
-  .print-dual-column tr,
-  .print-dual-column td {{
-    page-break-inside: auto;
-    break-inside: auto;
+  .print-column {{
+      display: table-cell;
+      width: 50%;
+      vertical-align: top;
+      box-sizing: border-box;
   }}
 
-  .print-dual-column td {{
-    width: 50%;
-    vertical-align: top;
-    padding: 0;
+  .print-column:first-of-type {{
+      padding-right: 0.45rem;
   }}
 
-  .print-dual-column td:first-child {{
-    padding-right: 0.45rem;
-  }}
-
-  .print-dual-column td:last-child {{
-    padding-left: 0.45rem;
-  }}
-
-  .print-page-break {{
-    page-break-before: always;
-    break-before: page;
+  .print-column:last-of-type {{
+      padding-left: 0.45rem;
   }}
 
   @media print and (max-width: 180mm) {{
@@ -181,7 +110,9 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 """
 
 
-def build_bilingual_print_styles(*, page_size_rule: str, font_scale: float, page_label: str, site_label: str) -> str:
+def build_bilingual_print_styles(
+    *, page_size_rule: str, font_scale: float, page_label: str, site_label: str
+) -> str:
     """Return the bilingual print stylesheet scaled for the requested variant."""
 
     def _pt(value: float) -> str:
