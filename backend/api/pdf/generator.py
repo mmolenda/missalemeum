@@ -46,12 +46,12 @@ class VariantSpec:
 
 VARIANT_SPECS: dict[str, VariantSpec] = {
     "a4": VariantSpec(page_size="A4", font_scale=1.0),
-    "a5": VariantSpec(page_size="A5", font_scale=0.8),
-    "a6": VariantSpec(page_size="A6", font_scale=0.6),
-    "a4-2pages": VariantSpec(page_size="A5", font_scale=0.8, mode="two_up", sheet_size="A4"),
-    "a4-booklet": VariantSpec(page_size="A5", font_scale=0.8, mode="booklet", sheet_size="A4"),
-    "a5-2pages": VariantSpec(page_size="A6", font_scale=0.6, mode="two_up", sheet_size="A5"),
-    "a5-booklet": VariantSpec(page_size="A6", font_scale=0.6, mode="booklet", sheet_size="A5"),
+    "a5": VariantSpec(page_size="A5", font_scale=0.9),
+    "a6": VariantSpec(page_size="A6", font_scale=0.8),
+    "a4-2pages": VariantSpec(page_size="A5", font_scale=0.9, mode="two_up", sheet_size="A4"),
+    "a4-booklet": VariantSpec(page_size="A5", font_scale=0.9, mode="booklet", sheet_size="A4"),
+    "a5-2pages": VariantSpec(page_size="A6", font_scale=0.8, mode="two_up", sheet_size="A5"),
+    "a5-booklet": VariantSpec(page_size="A6", font_scale=0.8, mode="booklet", sheet_size="A5"),
 }
 DEFAULT_VARIANT = VARIANT_SPECS["a4"]
 DEFAULT_LANGUAGE = "en"
@@ -104,14 +104,14 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | No
     contents = _normalise_payload(payload, lang=lang)
     spec = VARIANT_SPECS.get(variant.lower(), DEFAULT_VARIANT)
 
-    document_lang = contents[0].lang if contents else (lang or DEFAULT_LANGUAGE)
+    document_lang = lang or DEFAULT_LANGUAGE
     html_document = _render_html_document(
         contents=contents,
         page_size=spec.page_size,
         font_scale=spec.font_scale,
         lang=document_lang,
     )
-    with open("/tmp/t1.html", "w") as fh: fh.write(html_document)
+
     base_pdf_bytes = HTML(string=html_document).write_pdf()
 
     if spec.mode == "two_up":

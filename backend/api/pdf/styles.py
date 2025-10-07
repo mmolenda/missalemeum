@@ -112,11 +112,11 @@ def build_bilingual_print_styles(
 
     return _BASE_STYLES_TEMPLATE.format(
         page_size_rule=f"size: {page_size};",
-        body_font_size=_pt(12 if page_size == "A6" else 10),
-        h1_font_size=_pt(24 if page_size == "A6" else 18),
-        h2_font_size=_pt(14 if page_size == "A6" else 12),
+        body_font_size=_pt(10),
+        h1_font_size=_pt(18),
+        h2_font_size=_pt(12),
         meta_font_size=_pt(10),
-        page_number_font_size=_pt(9),
+        page_number_font_size=_pt(10),
         page_label=safe_page_label,
         site_label=safe_site_label,
     )
