@@ -10,9 +10,8 @@ from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoin
 from starlette.responses import Response
 
 from .decorators import is_pdf_downloadable
-from .generator import generate_pdf
+from .generator import VARIANT_SPECS, generate_pdf
 
-PDF_VARIANTS = {"a4", "a5", "a6", "a4-2pages", "a4-booklet"}
 PDF_FORMAT = "pdf"
 
 
@@ -54,7 +53,7 @@ class PDFDownloadMiddleware(BaseHTTPMiddleware):
             return False, ""
 
         variant_param = request.query_params.get("variant", "a4").lower()
-        if variant_param not in PDF_VARIANTS:
+        if variant_param not in VARIANT_SPECS.keys():
             message = {"detail": f"Unsupported PDF variant '{variant_param}'."}
             return True, JSONResponse(status_code=400, content=message)
 

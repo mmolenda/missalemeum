@@ -9,7 +9,7 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
   @page {{
     {page_size_rule}
-    margin: 15mm;
+    margin: 10mm;
     @bottom-center {{
       content: "{page_label} " counter(page) " / " counter(pages);
       font-size: {page_number_font_size};
@@ -36,12 +36,14 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
   h1 {{
     font-size: {h1_font_size};
+    text-align: center;
   }}
 
   h2 {{
       font-size: {h2_font_size};
-      margin-block: 6pt 4pt;
-      line-height: 1.2;
+      text-align: center;
+      margin-block: 3pt 2pt;
+      line-height: 0.5;
       break-after: avoid;
       page-break-after: avoid;
       text-transform: uppercase;
@@ -80,52 +82,25 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
       padding-left: 0.45rem;
   }}
 
-  @media print and (max-width: 180mm) {{
-    body {{
-      font-size: {media_180_body_font_size};
-      line-height: 1.45;
-    }}
-
-    h1 {{
-      font-size: {media_180_h1_font_size};
-    }}
-
-    h2 {{ font-size: {media_180_h2_font_size}; margin: 1.2rem 0 0.55rem; }}
-
+  .print-paragraph {{
+    padding-bottom: 0.5rem;
   }}
 
-  @media print and (max-width: 130mm) {{
-    body {{
-      font-size: {media_130_body_font_size};
-      line-height: 1.4;
-    }}
-
-    h1 {{
-      font-size: {media_130_h1_font_size};
-    }}
-
-    h2 {{ font-size: {media_130_h2_font_size}; margin: 1.1rem 0 0.5rem; }}
-
+  .print-meta {{
+    text-align: center;
+    padding-bottom: 0.5rem;
   }}
 
-  @media print and (max-width: 110mm) {{
-    body {{
-      font-size: {media_110_body_font_size};
-      line-height: 1.35;
-    }}
-
-    h1 {{
-      font-size: {media_110_h1_font_size};
-    }}
-
-    h2 {{ font-size: {media_110_h2_font_size}; margin: 1rem 0 0.45rem; }}
-
+  .print-meta > span {{
+    font-style: italic;
+    padding-right: 0.25rem;
   }}
+
 """
 
 
 def build_bilingual_print_styles(
-    *, page_size_rule: str, font_scale: float, page_label: str, site_label: str
+    *, page_size: str, font_scale: float, page_label: str, site_label: str
 ) -> str:
     """Return the bilingual print stylesheet scaled for the requested variant."""
 
@@ -136,21 +111,12 @@ def build_bilingual_print_styles(
     safe_site_label = str(site_label).replace('"', '\\"')
 
     return _BASE_STYLES_TEMPLATE.format(
-        page_size_rule=page_size_rule,
-        body_font_size=_pt(12),
-        h1_font_size=_pt(16),
-        h2_font_size=_pt(14),
+        page_size_rule=f"size: {page_size};",
+        body_font_size=_pt(12 if page_size == "A6" else 10),
+        h1_font_size=_pt(24 if page_size == "A6" else 18),
+        h2_font_size=_pt(14 if page_size == "A6" else 12),
         meta_font_size=_pt(10),
         page_number_font_size=_pt(9),
-        media_180_body_font_size=_pt(11),
-        media_180_h1_font_size=_pt(19),
-        media_180_h2_font_size=_pt(15),
-        media_130_body_font_size=_pt(10),
-        media_130_h1_font_size=_pt(17),
-        media_130_h2_font_size=_pt(13),
-        media_110_body_font_size=_pt(9),
-        media_110_h1_font_size=_pt(15),
-        media_110_h2_font_size=_pt(12),
         page_label=safe_page_label,
         site_label=safe_site_label,
     )

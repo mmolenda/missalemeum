@@ -50,6 +50,8 @@ VARIANT_SPECS: dict[str, VariantSpec] = {
     "a6": VariantSpec(page_size="A6", font_scale=0.6),
     "a4-2pages": VariantSpec(page_size="A5", font_scale=0.8, mode="two_up", sheet_size="A4"),
     "a4-booklet": VariantSpec(page_size="A5", font_scale=0.8, mode="booklet", sheet_size="A4"),
+    "a5-2pages": VariantSpec(page_size="A6", font_scale=0.6, mode="two_up", sheet_size="A5"),
+    "a5-booklet": VariantSpec(page_size="A6", font_scale=0.6, mode="booklet", sheet_size="A5"),
 }
 DEFAULT_VARIANT = VARIANT_SPECS["a4"]
 DEFAULT_LANGUAGE = "en"
@@ -109,7 +111,7 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | No
         font_scale=spec.font_scale,
         lang=document_lang,
     )
-
+    with open("/tmp/t1.html", "w") as fh: fh.write(html_document)
     base_pdf_bytes = HTML(string=html_document).write_pdf()
 
     if spec.mode == "two_up":
@@ -227,8 +229,6 @@ def _format_date_label(value: str, translation: ModuleType) -> str:
     months = getattr(translation, "PDF_DATE_MONTHS", ())
     weekdays = getattr(translation, "PDF_DATE_WEEKDAYS", ())
 
-    day = f"{parsed.day:02d}"
-
     if isinstance(months, Sequence) and len(months) > parsed.month:
         month_label = months[parsed.month]
     else:
@@ -240,7 +240,7 @@ def _format_date_label(value: str, translation: ModuleType) -> str:
     else:
         weekday_label = parsed.strftime("%A")
 
-    return format_pattern.format(day=day, month=month_label, year=parsed.year, weekday=weekday_label)
+    return format_pattern.format(day=parsed.day, month=month_label, year=parsed.year, weekday=weekday_label)
 
 
 def _render_html_document(*, contents: Sequence[PrintableContent], page_size: str, font_scale: float, lang: str) -> str:
@@ -271,7 +271,7 @@ def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str,
         labels = {}
     page_label = labels.get("page", "Page")
     css = build_bilingual_print_styles(
-        page_size_rule=f"size: {page_size};",
+        page_size=page_size,
         font_scale=font_scale,
         page_label=page_label,
         site_label=SITE_LABEL,
@@ -443,7 +443,7 @@ def _merge_page_into_slot(
 
 
 def _page_dimensions(size: str, *, orientation: str = "portrait") -> tuple[float, float]:
-    width_mm, height_mm = PAGE_DIMENSIONS_MM.get(size.upper(), PAGE_DIMENSIONS_MM["A4"])
+    width_mm, height_mm = PAGE_DIMENSIONS_MM.get(size.upper(), PAGE_DIMENSIONS_MM[size])
     if orientation == "landscape":
         width_mm, height_mm = height_mm, width_mm
     return width_mm * MM_TO_PT, height_mm * MM_TO_PT
