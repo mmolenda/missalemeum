@@ -11,22 +11,38 @@
              margin: 15mm;            
         }
 
+         h2 {
+             break-after: avoid;
+             page-break-after: avoid;
+        }
+
          .print-dual-column {
-             display: grid;
-             grid-template-columns: repeat(2, minmax(0, 1fr));
-             gap: 0.9rem;
-             margin-bottom: 0.8rem;
              width: 100%;
+             margin-bottom: 0.8rem;
              page-break-inside: auto;
              break-inside: auto;
-             align-items: stretch;
-            
+        }
+
+         .print-dual-column::after {
+             content: "";
+             display: table;
+             clear: both;
         }
 
          .print-column {
-             display: flex;
-             flex-direction: column;
-            
+             float: left;
+             width: 50%;
+             box-sizing: border-box;
+             page-break-inside: auto;
+             break-inside: auto;
+        }
+
+         .print-column:first-of-type {
+             padding-right: 0.45rem;
+        }
+
+         .print-column:last-of-type {
+             padding-left: 0.45rem;
         }
         
     </style>
