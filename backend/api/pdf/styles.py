@@ -37,6 +37,8 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   h2 {{
       break-after: avoid;
       page-break-after: avoid;
+      text-transform: uppercase;
+
   }}
 
   /* two-column bilingual layout */
