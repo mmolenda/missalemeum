@@ -34,11 +34,26 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     color: #000;
   }}
 
+  h1 {{
+    font-size: {h1_font_size};
+  }}
+
   h2 {{
+      font-size: {h2_font_size};
+      margin-block: 6pt 4pt;
+      line-height: 1.2;
       break-after: avoid;
       page-break-after: avoid;
       text-transform: uppercase;
 
+  }}
+
+  p {{
+    widows: 2;
+    orphans: 2;
+    hyphens: auto;           /* enable hyphenation */
+    overflow-wrap: anywhere; /* allow emergency breaks */
+    text-align: justify;     /* lets the line breaker work better */
   }}
 
   /* two-column bilingual layout */
@@ -77,7 +92,6 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
     h2 {{ font-size: {media_180_h2_font_size}; margin: 1.2rem 0 0.55rem; }}
 
-    h3, h4, h5, h6 {{ font-size: {media_180_h3_font_size}; margin: 0.9rem 0 0.45rem; }}
   }}
 
   @media print and (max-width: 130mm) {{
@@ -92,7 +106,6 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
     h2 {{ font-size: {media_130_h2_font_size}; margin: 1.1rem 0 0.5rem; }}
 
-    h3, h4, h5, h6 {{ font-size: {media_130_h3_font_size}; margin: 0.8rem 0 0.4rem; }}
   }}
 
   @media print and (max-width: 110mm) {{
@@ -107,7 +120,6 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
     h2 {{ font-size: {media_110_h2_font_size}; margin: 1rem 0 0.45rem; }}
 
-    h3, h4, h5, h6 {{ font-size: {media_110_h3_font_size}; margin: 0.75rem 0 0.35rem; }}
   }}
 """
 
@@ -126,23 +138,19 @@ def build_bilingual_print_styles(
     return _BASE_STYLES_TEMPLATE.format(
         page_size_rule=page_size_rule,
         body_font_size=_pt(12),
-        h1_font_size=_pt(22),
-        h2_font_size=_pt(16),
-        h3_font_size=_pt(14),
+        h1_font_size=_pt(16),
+        h2_font_size=_pt(14),
         meta_font_size=_pt(10),
         page_number_font_size=_pt(9),
         media_180_body_font_size=_pt(11),
         media_180_h1_font_size=_pt(19),
         media_180_h2_font_size=_pt(15),
-        media_180_h3_font_size=_pt(13),
         media_130_body_font_size=_pt(10),
         media_130_h1_font_size=_pt(17),
         media_130_h2_font_size=_pt(13),
-        media_130_h3_font_size=_pt(12),
         media_110_body_font_size=_pt(9),
         media_110_h1_font_size=_pt(15),
         media_110_h2_font_size=_pt(12),
-        media_110_h3_font_size=_pt(11),
         page_label=safe_page_label,
         site_label=safe_site_label,
     )
