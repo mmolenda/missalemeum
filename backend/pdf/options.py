@@ -21,9 +21,9 @@ class PDFVariant(str, Enum):
     A4 = "a4"
     A5 = "a5"
     A6 = "a6"
-    A4_2PAGES = "a4-2pages"
+    A4_2UP = "a4-2up"
     A4_BOOKLET = "a4-booklet"
-    A5_2PAGES = "a5-2pages"
+    A5_2UP = "a5-2up"
     A5_BOOKLET = "a5-booklet"
 
 

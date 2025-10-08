@@ -59,7 +59,7 @@ def test_generate_pdf_handles_unknown_variant():
 
 
 def test_generate_pdf_two_up_variant_landscape_pages():
-    response = generate_pdf(payload=_build_payload(), variant="a4-2pages", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="a4-2up", format_hint="pdf")
 
     reader = PdfReader(BytesIO(response.body))
     assert len(reader.pages) >= 1

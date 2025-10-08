@@ -52,9 +52,9 @@ VARIANT_SPECS: dict[str, VariantSpec] = {
     "a4": VariantSpec(page_size="A4", font_scale=1.0),
     "a5": VariantSpec(page_size="A5", font_scale=0.9),
     "a6": VariantSpec(page_size="A6", font_scale=0.8),
-    "a4-2pages": VariantSpec(page_size="A5", font_scale=0.9, mode="two_up", sheet_size="A4"),
+    "a4-2up": VariantSpec(page_size="A5", font_scale=0.9, mode="two_up", sheet_size="A4"),
     "a4-booklet": VariantSpec(page_size="A5", font_scale=0.9, mode="booklet", sheet_size="A4"),
-    "a5-2pages": VariantSpec(page_size="A6", font_scale=0.8, mode="two_up", sheet_size="A5"),
+    "a5-2up": VariantSpec(page_size="A6", font_scale=0.8, mode="two_up", sheet_size="A5"),
     "a5-booklet": VariantSpec(page_size="A6", font_scale=0.8, mode="booklet", sheet_size="A5"),
 }
 DEFAULT_VARIANT = VARIANT_SPECS["a4"]
