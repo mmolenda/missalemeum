@@ -40,6 +40,7 @@ class PDFDownloadMiddleware(BaseHTTPMiddleware):
             variant=variant_or_response,
             format_hint=PDF_FORMAT,
             lang=request.path_params.get("lang"),
+            index=self._resolve_content_index(request),
         )
 
     def _resolve_request_variant(self, request: Request) -> tuple[bool, Any]:
@@ -91,3 +92,16 @@ class PDFDownloadMiddleware(BaseHTTPMiddleware):
     async def _run_background(response: Response) -> None:
         if response.background is not None:
             await response.background()
+
+    @staticmethod
+    def _resolve_content_index(request: Request) -> int:
+        raw_index = request.query_params.get("index")
+        if raw_index is None:
+            return 0
+        try:
+            value = int(raw_index)
+        except (TypeError, ValueError):
+            return 0
+        if 0 > value or value > 2:
+            return 0
+        return value

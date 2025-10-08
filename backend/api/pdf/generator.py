@@ -102,7 +102,14 @@ def _get_translation_module(lang: str) -> tuple[ModuleType, str]:
     return module, fallback_lang
 
 
-def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | None = None) -> Response:
+def generate_pdf(
+    *,
+    payload: Any,
+    variant: str,
+    format_hint: str,
+    lang: str | None = None,
+    index: int = 0,
+) -> Response:
     """Render incoming bilingual content into a styled PDF document."""
 
     _ = format_hint  # reserved for future content negotiation tweaks
@@ -110,11 +117,13 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | No
     spec = VARIANT_SPECS.get(variant.lower(), DEFAULT_VARIANT)
 
     document_lang = lang or DEFAULT_LANGUAGE
+    selected_index = _clamp_index(index, len(contents))
     html_document = _render_html_document(
         contents=contents,
         page_size=spec.page_size,
         font_scale=spec.font_scale,
         lang=document_lang,
+        index=selected_index,
     )
 
     base_pdf_bytes = HTML(string=html_document).write_pdf()
@@ -139,6 +148,19 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | No
 def _normalise_payload(payload: Any, lang: str | None = None) -> list[PrintableContent]:
     wrapped_items = _wrap_payload(payload)
     return [_build_content(item, lang) for item in wrapped_items]
+
+
+def _clamp_index(index: int, length: int) -> int:
+    if length <= 0:
+        return 0
+    try:
+        value = int(index)
+    except (TypeError, ValueError):
+        value = 0
+    upper_bound = min(length - 1, 2)
+    if value < 0 or value > upper_bound:
+        value = 0
+    return value
 
 
 def _wrap_payload(payload: Any) -> list[PrintableSource]:
@@ -285,7 +307,14 @@ def _format_date_label(value: str, translation: ModuleType) -> str:
     return format_pattern.format(day=parsed.day, month=month_label, year=parsed.year, weekday=weekday_label)
 
 
-def _render_html_document(*, contents: Sequence[PrintableContent], page_size: str, font_scale: float, lang: str) -> str:
+def _render_html_document(
+    *,
+    contents: Sequence[PrintableContent],
+    page_size: str,
+    font_scale: float,
+    lang: str,
+    index: int,
+) -> str:
     if not contents:
         empty_body = """
         <div class=\"print-container\">
@@ -295,14 +324,9 @@ def _render_html_document(*, contents: Sequence[PrintableContent], page_size: st
         """
         return _wrap_html(empty_body, page_size=page_size, font_scale=font_scale, title="Missale Meum", lang=lang)
 
-    body_fragments: list[str] = []
-    for index, content in enumerate(contents):
-        body_fragments.append(_render_content_block(content))
-        if index < len(contents) - 1:
-            body_fragments.append('<div class="print-page-break"></div>')
-
-    document_title = contents[0].title
-    body_html = "".join(body_fragments)
+    content = contents[index]
+    body_html = _render_content_block(content)
+    document_title = content.title
     return _wrap_html(body_html, page_size=page_size, font_scale=font_scale, title=document_title, lang=lang)
 
 

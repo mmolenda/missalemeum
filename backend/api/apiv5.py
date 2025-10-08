@@ -118,6 +118,7 @@ def v5_proper(
     description="Get the Ordinary of the Mass — the invariable texts.",
     responses=get_json_response(ORDO_EXAMPLE)
 )
+@pdf_downloadable
 def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
         raw_content = yaml.full_load(fh) or []
@@ -147,6 +148,7 @@ def supplement_response(
     description="Get supplement content from the default directory.",
     responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
+@pdf_downloadable
 def v5_supplement(
     id_: str = Path(
         ...,
@@ -311,6 +313,7 @@ def v5_oratio(lang: str = Depends(validate_locale)) -> list[Info]:
     ),
     responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
+@pdf_downloadable
 def v5_oratio_by_id(
     id_: str = Path(
         ...,
@@ -343,6 +346,7 @@ def v5_canticum(lang: str = Depends(validate_locale)) -> list[Info]:
     ),
     responses=get_json_response(SUPPLEMENT_CONTENT_EXAMPLE),
 )
+@pdf_downloadable
 def v5_canticum_by_id(
     id_: str = Path(
         ...,
