@@ -22,5 +22,13 @@ def test_invalid_pdf_variant_returns_422(client: TestClient):
     response = client.get("/en/api/v5/ordo?format=pdf&variant=unknown-size")
 
     assert response.status_code == 422
-    detail = response.json().get("detail", [])
-    assert "value is not a valid enumeration member" in str(detail)
+    payload = response.json()
+    detail = payload.get("detail", [])
+    assert isinstance(detail, list), f"Unexpected validation payload shape: {payload}"
+    variant_errors = [
+        item for item in detail
+        if isinstance(item, dict) and item.get("loc", []) and item["loc"][-1] == "variant"
+    ]
+    assert variant_errors, f"No variant validation errors reported: {payload}"
+    error_type = variant_errors[0].get("type", "")
+    assert "enum" in error_type or "enum" in str(variant_errors[0].get("msg", "")).lower()

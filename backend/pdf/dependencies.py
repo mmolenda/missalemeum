@@ -7,6 +7,7 @@ from .options import (
     DEFAULT_VARIANT_CHOICE,
     MAX_CONTENT_INDEX,
     OutputFormat,
+    PDF_STATE_KEY,
     PDFVariant,
     PdfOptions,
 )
@@ -67,5 +68,8 @@ async def get_pdf_options(
         index=clamped_index,
         custom_label=custom_label,
     )
+
+    setattr(request.state, PDF_STATE_KEY, options)
+    return options
 
 __all__ = ["get_pdf_options"]

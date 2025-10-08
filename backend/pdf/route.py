@@ -9,15 +9,7 @@ from fastapi.routing import APIRoute
 from starlette.responses import Response as StarletteResponse
 
 from .dependencies import get_pdf_options
-from .options import (
-    DEFAULT_VARIANT_CHOICE,
-    MAX_CONTENT_INDEX,
-    OutputFormat,
-    PDF_FORMAT,
-    PDF_STATE_KEY,
-    PDFVariant,
-    PdfOptions,
-)
+from .options import DEFAULT_VARIANT_CHOICE, PDF_FORMAT, PDF_STATE_KEY, PdfOptions
 from .render import generate_pdf
 
 
@@ -26,16 +18,14 @@ class PDFAwareRoute(APIRoute):
 
     def get_route_handler(self) -> Callable[[Request], Any]:
         original_route_handler = super().get_route_handler()
-        pdf_dependency_declared = self._is_pdf_enabled()
+        pdf_enabled = self._is_pdf_enabled()
 
         async def pdf_route_handler(request: Request) -> StarletteResponse:
             response: StarletteResponse = await original_route_handler(request)
-            if not pdf_dependency_declared:
+            if not pdf_enabled:
                 return response
 
             options = getattr(request.state, PDF_STATE_KEY, None)
-            if options is None:
-                options = self._fallback_options(request)
             if not isinstance(options, PdfOptions) or not options.is_requested():
                 return response
 
@@ -102,54 +92,5 @@ class PDFAwareRoute(APIRoute):
     async def _run_background(response: StarletteResponse) -> None:
         if response.background is not None:
             await response.background()
-
-    @staticmethod
-    def _fallback_options(request: Request) -> PdfOptions:
-        query = request.query_params
-
-        format_choice: OutputFormat | None
-        format_param = query.get("format")
-        try:
-            format_choice = OutputFormat(format_param) if format_param else None
-        except ValueError:
-            format_choice = None
-
-        variant_param = query.get("variant")
-        try:
-            variant_choice = PDFVariant(variant_param) if variant_param else DEFAULT_VARIANT_CHOICE
-        except ValueError:
-            variant_choice = DEFAULT_VARIANT_CHOICE
-
-        index_param = query.get("index")
-        index_value = 0
-        if index_param is not None:
-            try:
-                index_value = int(index_param)
-            except (TypeError, ValueError):
-                index_value = 0
-        if index_value < 0 or index_value > MAX_CONTENT_INDEX:
-            index_value = 0
-
-        custom_label = query.get("custom_label")
-        requested = False
-        if format_choice is not None:
-            requested = format_choice is OutputFormat.PDF
-        else:
-            accept_header = request.headers.get("accept", "")
-            if "application/pdf" in accept_header.lower():
-                requested = True
-                format_choice = OutputFormat.PDF
-
-        options = PdfOptions(
-            requested=requested,
-            format_hint=format_choice,
-            variant=variant_choice,
-            index=index_value,
-            custom_label=custom_label,
-        )
-
-        setattr(request.state, PDF_STATE_KEY, options)
-        return options
-
 
 __all__ = ["PDFAwareRoute"]
