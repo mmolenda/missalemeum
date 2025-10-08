@@ -5,9 +5,9 @@ from io import BytesIO
 from pypdf import PdfReader
 
 from api.constants import TRANSLATION
-from api.pdf import generator
-from api.pdf.generator import generate_pdf
 from api.schemas import Proper, ProperInfo
+from backend.pdf import render as generator
+from backend.pdf.render import generate_pdf
 
 
 def _build_payload() -> list[dict[str, object]]:

@@ -8,7 +8,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from __version__ import __version__
 from apiv3 import router as apiv3_router
 from apiv5 import router as apiv5_router
-from pdf import PDFDownloadMiddleware
 
 no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 
@@ -29,8 +28,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"]
 )
-
-app.add_middleware(PDFDownloadMiddleware)
 
 
 @app.middleware("http")
