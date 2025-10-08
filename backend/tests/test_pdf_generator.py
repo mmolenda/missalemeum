@@ -7,6 +7,7 @@ from pypdf import PdfReader
 from api.constants import TRANSLATION
 from api.pdf import generator
 from api.pdf.generator import generate_pdf
+from api.schemas import Proper, ProperInfo
 
 
 def _build_payload() -> list[dict[str, object]]:
@@ -77,8 +78,17 @@ def test_generate_pdf_booklet_produces_even_page_count():
     assert float(first_page.mediabox.width) > float(first_page.mediabox.height)
 
 
+def test_generate_pdf_accepts_schema_objects():
+    payload = [Proper.model_validate(item) for item in _build_payload()]
+
+    response = generate_pdf(payload=payload, variant="a4", format_hint="pdf")
+
+    assert response.media_type == "application/pdf"
+    assert response.body.startswith(b"%PDF")
+
+
 def test_build_content_uses_localised_labels_for_polish():
-    item = {
+    item = Proper.model_validate({
         "info": {
             "title": "Test",
             "date": "2024-06-01",
@@ -86,29 +96,30 @@ def test_build_content_uses_localised_labels_for_polish():
             "colors": ["w", "g"],
         },
         "sections": [],
-    }
+    })
 
     content = generator._build_content(item, "pl")
 
     assert content.lang == "pl"
-    assert "01 czerwca 2024 (sobota)" in content.meta_tags
+    assert "sobota, 1 czerwca 2024" in content.meta_tags
     assert "2 klasy" in content.meta_tags
     assert "Szaty białe" in content.meta_tags
     assert "Szaty zielone" in content.meta_tags
 
 
 def test_collect_meta_tags_falls_back_to_english_labels():
-    info = {
+    info = ProperInfo.model_validate({
+        "title": "Example",
         "date": "2024-06-01",
         "rank": 2,
         "colors": ["w"],
-    }
+    })
 
     tags = generator._collect_meta_tags(info, TRANSLATION["en"])
 
     assert "2nd class" in tags
     assert "White vestments" in tags
-    assert "01 June 2024 (Saturday)" in tags
+    assert "Saturday, 1 June 2024" in tags
 
 
 def test_wrap_html_uses_localised_page_label_and_site_url():

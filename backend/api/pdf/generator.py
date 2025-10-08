@@ -19,10 +19,12 @@ from unicodedata import normalize as _normalize
 
 import mistune
 from fastapi.responses import Response
+from pydantic import BaseModel, ValidationError
 from pypdf import PageObject, PdfReader, PdfWriter, Transformation
 from weasyprint import HTML
 
 from api.constants import TRANSLATION
+from api.schemas import ContentItem, Info, Proper, ProperInfo, Section
 
 from .styles import build_bilingual_print_styles
 
@@ -70,9 +72,12 @@ class PrintableContent:
 
     title: str
     description: str | None
-    sections: Sequence[dict[str, Any]]
+    sections: Sequence[Section]
     meta_tags: Sequence[str]
     lang: str = DEFAULT_LANGUAGE
+
+
+PrintableSource = Proper | ContentItem
 
 
 def _resolve_language(*candidates: Any) -> str:
@@ -132,27 +137,64 @@ def generate_pdf(*, payload: Any, variant: str, format_hint: str, lang: str | No
 
 
 def _normalise_payload(payload: Any, lang: str | None = None) -> list[PrintableContent]:
+    wrapped_items = _wrap_payload(payload)
+    return [_build_content(item, lang) for item in wrapped_items]
+
+
+def _wrap_payload(payload: Any) -> list[PrintableSource]:
     if payload is None:
         return []
 
-    if isinstance(payload, dict) and "info" in payload and "sections" in payload:
-        return [_build_content(payload, lang)]
+    if isinstance(payload, (str, bytes)):
+        return []
 
-    if isinstance(payload, Iterable) and not isinstance(payload, (str, bytes)):
-        contents: list[PrintableContent] = []
-        for item in payload:
-            if isinstance(item, dict) and "info" in item and "sections" in item:
-                contents.append(_build_content(item, lang))
-        return contents
+    candidates: list[Any]
+    if isinstance(payload, (Proper, ContentItem)):
+        candidates = [payload]
+    elif isinstance(payload, BaseModel):
+        candidates = [payload]
+    elif isinstance(payload, Mapping):
+        candidates = [payload]
+    elif isinstance(payload, Iterable):
+        candidates = list(payload)
+    else:
+        candidates = [payload]
 
-    return []
+    wrapped: list[PrintableSource] = []
+    for candidate in candidates:
+        parsed = _parse_payload_item(candidate)
+        if parsed is not None:
+            wrapped.append(parsed)
+    return wrapped
 
 
-def _build_content(item: dict[str, Any], lang: str | None) -> PrintableContent:
-    info = item.get("info", {}) or {}
-    title = str(info.get("title", "")) or "Missale Meum"
-    description = info.get("description")
-    sections = item.get("sections") or []
+def _parse_payload_item(candidate: Any) -> PrintableSource | None:
+    if candidate is None:
+        return None
+
+    if isinstance(candidate, (Proper, ContentItem)):
+        return candidate
+
+    if isinstance(candidate, BaseModel):
+        if isinstance(candidate, (Proper, ContentItem)):
+            return candidate
+        candidate = candidate.model_dump(mode="python")
+
+    if isinstance(candidate, Mapping):
+        for schema in (Proper, ContentItem):
+            try:
+                return schema.model_validate(candidate)
+            except ValidationError:
+                continue
+
+    return None
+
+
+def _build_content(item: PrintableSource, lang: str | None) -> PrintableContent:
+    info = item.info
+    title = str(info.title or "").strip() or "Missale Meum"
+    description = getattr(info, "description", None)
+    sections = item.sections or []
     content_lang = _resolve_language(lang)
     translation, resolved_lang = _get_translation_module(content_lang)
     meta_tags = _collect_meta_tags(info, translation)
@@ -165,10 +207,10 @@ def _build_content(item: dict[str, Any], lang: str | None) -> PrintableContent:
     )
 
 
-def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[str]:
+def _collect_meta_tags(info: Info | ProperInfo, translation: ModuleType) -> list[str]:
     tags: list[str] = []
 
-    date_value = info.get("date")
+    date_value = getattr(info, "date", None)
     if isinstance(date_value, str):
         tags.append(_format_date_label(date_value, translation))
 
@@ -176,7 +218,7 @@ def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[st
     if not isinstance(labels, dict):
         labels = {}
     rank_label = labels.get("rank", "Rank")
-    rank_value = info.get("rank")
+    rank_value = getattr(info, "rank", None)
     if rank_value is not None:
         mapped_rank = None
         rank_map = getattr(translation, "PDF_RANK_LABELS", {})
@@ -192,7 +234,7 @@ def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[st
         else:
             tags.append(f"{rank_label} {rank_value}")
 
-    colors = info.get("colors")
+    colors = getattr(info, "colors", None)
     if isinstance(colors, Sequence) and not isinstance(colors, (str, bytes)):
         if colors:
             colors_label = labels.get("colors", "Colors")
@@ -210,7 +252,7 @@ def _collect_meta_tags(info: dict[str, Any], translation: ModuleType) -> list[st
                     display = f"{colors_label}: {raw_color}"
                 tags.append(str(display))
 
-    extra_tags = info.get("tags")
+    extra_tags = info.tags or []
     if isinstance(extra_tags, Sequence) and not isinstance(extra_tags, (str, bytes)):
         for raw in extra_tags:
             tag = str(raw)
@@ -312,10 +354,10 @@ def _render_content_block(content: PrintableContent) -> str:
 
     for section in content.sections:
         fragments.append('<section class="print-section">')
-        label = section.get("label") if isinstance(section, dict) else None
+        label = section.label
         if label:
             fragments.append(f"<h2>{escape(str(label))}</h2>")
-        bodies = section.get("body") if isinstance(section, dict) else None
+        bodies = section.body
         if isinstance(bodies, Sequence):
             for paragraph in bodies:
                 fragments.append(_render_paragraph(paragraph))
