@@ -21,6 +21,7 @@ import mistune
 from fastapi.responses import Response
 from pydantic import BaseModel, ValidationError
 from pypdf import PageObject, PdfReader, PdfWriter, Transformation
+from pypdf.generic import DecodedStreamObject, NameObject
 from weasyprint import HTML
 
 from api.constants import TRANSLATION
@@ -469,6 +470,7 @@ def _impose_booklet(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
         front_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
         _merge_page_into_slot(front_page, pages[left_index], slot_width, sheet_height, offset_x=0)
         _merge_page_into_slot(front_page, pages[right_index], slot_width, sheet_height, offset_x=slot_width)
+        _add_fold_markers(front_page, sheet_width, sheet_height)
         right_index += 1
         left_index -= 1
 
@@ -478,6 +480,7 @@ def _impose_booklet(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
         back_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
         _merge_page_into_slot(back_page, pages[right_index], slot_width, sheet_height, offset_x=0)
         _merge_page_into_slot(back_page, pages[left_index], slot_width, sheet_height, offset_x=slot_width)
+        _add_fold_markers(back_page, sheet_width, sheet_height)
         right_index += 1
         left_index -= 1
 
@@ -513,6 +516,51 @@ def _page_dimensions(size: str, *, orientation: str = "portrait") -> tuple[float
     if orientation == "landscape":
         width_mm, height_mm = height_mm, width_mm
     return width_mm * MM_TO_PT, height_mm * MM_TO_PT
+
+
+def _add_fold_markers(page: PageObject, sheet_width: float, sheet_height: float) -> None:
+    """Draw subtle folding markers down the centre of imposed booklet sheets."""
+
+    center_x = sheet_width / 2
+    center_y = sheet_height / 2
+
+    cross_half = min(sheet_width, sheet_height) * 0.03
+    cross_half = max(12.0, min(cross_half, 24.0))
+
+    gutter_extension = 10.0
+    edge_offset = 18.0
+    edge_half = 6.0
+
+    target_length = min(gutter_extension, edge_half * 2)
+    if target_length <= 0:
+        target_length = 8.0
+    cross_half = target_length / 2
+    gutter_extension = target_length
+    edge_half = target_length / 2
+
+    instructions = (
+        "q\n"
+        "0.8 0.8 0.8 RG\n"
+        "1 w\n"
+        f"{center_x:.2f} {center_y - cross_half:.2f} m {center_x:.2f} {center_y + cross_half:.2f} l S\n"
+        f"{center_x - cross_half:.2f} {center_y:.2f} m {center_x + cross_half:.2f} {center_y:.2f} l S\n"
+        f"{center_x:.2f} {sheet_height - edge_offset:.2f} m {center_x:.2f} {sheet_height - edge_offset - gutter_extension:.2f} l S\n"
+        f"{center_x - edge_half:.2f} {sheet_height - edge_offset:.2f} m {center_x + edge_half:.2f} {sheet_height - edge_offset:.2f} l S\n"
+        f"{center_x:.2f} {edge_offset:.2f} m {center_x:.2f} {edge_offset + gutter_extension:.2f} l S\n"
+        f"{center_x - edge_half:.2f} {edge_offset:.2f} m {center_x + edge_half:.2f} {edge_offset:.2f} l S\n"
+        "Q\n"
+    )
+    overlay_writer = PdfWriter()
+    overlay_page = overlay_writer.add_blank_page(width=sheet_width, height=sheet_height)
+    stream = DecodedStreamObject()
+    stream.set_data(instructions.encode("ascii"))
+    overlay_page[NameObject("/Contents")] = overlay_writer._add_object(stream)
+
+    buffer = BytesIO()
+    overlay_writer.write(buffer)
+    buffer.seek(0)
+    overlay_reader = PdfReader(buffer)
+    page.merge_page(overlay_reader.pages[0])
 
 
 def _resolve_filename(contents: Sequence[PrintableContent]) -> str:

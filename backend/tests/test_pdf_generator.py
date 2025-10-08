@@ -78,6 +78,23 @@ def test_generate_pdf_booklet_produces_even_page_count():
     assert float(first_page.mediabox.width) > float(first_page.mediabox.height)
 
 
+def test_booklet_variant_contains_fold_markers():
+    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf")
+
+    reader = PdfReader(BytesIO(response.body))
+    first_page = reader.pages[0]
+    contents = first_page.get_contents()
+    if contents is None:
+        stream = b""
+    else:
+        try:
+            stream = contents.get_data()
+        except AttributeError:
+            stream = b"".join(part.get_data() for part in contents)
+
+    assert b"0.8 0.8 0.8 RG" in stream
+
+
 def test_generate_pdf_accepts_schema_objects():
     payload = [Proper.model_validate(item) for item in _build_payload()]
 

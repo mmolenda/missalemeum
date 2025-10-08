@@ -42,7 +42,6 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   h2 {{
       font-size: {h2_font_size};
       text-align: center;
-      margin-block: 3pt 2pt;
       line-height: 0.5;
       break-after: avoid;
       page-break-after: avoid;
