@@ -131,6 +131,7 @@ def generate_pdf(
         font_scale=spec.font_scale,
         lang=document_lang,
         index=selected_index,
+        is_booklet=spec.mode == "booklet",
     )
 
     base_pdf_bytes = HTML(string=html_document).write_pdf()
@@ -342,6 +343,7 @@ def _render_html_document(
     font_scale: float,
     lang: str,
     index: int,
+    is_booklet: bool,
 ) -> str:
     if not contents:
         empty_body = """
@@ -353,7 +355,7 @@ def _render_html_document(
         return _wrap_html(empty_body, page_size=page_size, font_scale=font_scale, title="Missale Meum", lang=lang)
 
     content = contents[index]
-    body_html = _render_content_block(content)
+    body_html = _render_content_block(content, is_booklet=is_booklet)
     document_title = content.title
     return _wrap_html(body_html, page_size=page_size, font_scale=font_scale, title=document_title, lang=lang)
 
@@ -385,7 +387,7 @@ def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str,
     )
 
 
-def _render_content_block(content: PrintableContent) -> str:
+def _render_content_block(content: PrintableContent, *, is_booklet: bool) -> str:
     fragments: list[str] = ["<div class=\"print-container\">"]
     fragments.append(f"<h1>{escape(content.title)}</h1>")
 
@@ -415,7 +417,34 @@ def _render_content_block(content: PrintableContent) -> str:
                 fragments.append(_render_paragraph(paragraph))
         fragments.append("</section>")
 
+    if _should_append_przeorat_table(content, is_booklet=is_booklet):
+        fragments.append(_build_przeorat_table_html())
+
     fragments.append("</div>")
+    return "".join(fragments)
+
+
+def _should_append_przeorat_table(content: PrintableContent, *, is_booklet: bool) -> bool:
+    if not is_booklet:
+        return False
+    if str(content.lang).strip().lower() != "pl":
+        return False
+    for raw_tag in content.meta_tags:
+        tag = str(raw_tag).strip().lower()
+        if "przeorat" in tag and "gdynia" in tag:
+            return True
+    return False
+
+
+def _build_przeorat_table_html() -> str:
+    rows = ["żałuję", "postanawiam", "adoruję", "dziękuję", "proszę"]
+    fragments = ['<table class="przeorat-table"><tbody>']
+    for row in rows:
+        fragments.append("<tr>")
+        fragments.append(f"<td>{escape(row)}</td>")
+        fragments.append("<td></td>")
+        fragments.append("</tr>")
+    fragments.append("</tbody></table>")
     return "".join(fragments)
 
 

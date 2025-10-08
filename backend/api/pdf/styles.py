@@ -95,6 +95,26 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     padding-right: 0.25rem;
   }}
 
+  .przeorat-table {{
+    width: 100%;
+    margin-top: 1.2rem;
+    border-collapse: collapse;
+  }}
+
+  .przeorat-table td {{
+    border: 1px solid #444;
+    padding: 0.4rem 0.5rem;
+    vertical-align: middle;
+  }}
+
+  .przeorat-table td:first-of-type {{
+    width: 33.333%;
+  }}
+
+  .przeorat-table td:last-of-type {{
+    width: 66.667%;
+  }}
+
 """
 
 
