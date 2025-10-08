@@ -9,10 +9,11 @@ to PDF, allowing API clients to request ready-to-download documents.
 from __future__ import annotations
 
 from collections.abc import Iterable, Mapping, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime
 from html import escape
 from io import BytesIO
+import re
 from types import ModuleType
 from typing import Any
 from unicodedata import normalize as _normalize
@@ -60,6 +61,7 @@ DEFAULT_VARIANT = VARIANT_SPECS["a4"]
 DEFAULT_LANGUAGE = "en"
 SITE_LABEL = "www.missalemeum.com"
 
+_CUSTOM_LABEL_PATTERN = re.compile(r"^[A-Za-z0-9ĄĆĘŁŃÓŚŹŻąćęłńóśźż.,\- ]+$")
 
 _MARKDOWN = mistune.create_markdown(
     escape=False,
@@ -110,11 +112,15 @@ def generate_pdf(
     format_hint: str,
     lang: str | None = None,
     index: int = 0,
+    custom_label: str | None = None,
 ) -> Response:
     """Render incoming bilingual content into a styled PDF document."""
 
     _ = format_hint  # reserved for future content negotiation tweaks
     contents = _normalise_payload(payload, lang=lang)
+    sanitized_label = _sanitize_custom_label(custom_label)
+    if sanitized_label:
+        contents = _inject_custom_label(contents, sanitized_label)
     spec = VARIANT_SPECS.get(variant.lower(), DEFAULT_VARIANT)
 
     document_lang = lang or DEFAULT_LANGUAGE
@@ -149,6 +155,27 @@ def generate_pdf(
 def _normalise_payload(payload: Any, lang: str | None = None) -> list[PrintableContent]:
     wrapped_items = _wrap_payload(payload)
     return [_build_content(item, lang) for item in wrapped_items]
+
+
+def _sanitize_custom_label(raw_label: str | None) -> str | None:
+    if raw_label is None:
+        return None
+
+    candidate = _normalize("NFKC", str(raw_label)).strip()
+    if not candidate:
+        return None
+    if not 4 <= len(candidate) <= 64:
+        return None
+    if not _CUSTOM_LABEL_PATTERN.fullmatch(candidate):
+        return None
+    return candidate
+
+
+def _inject_custom_label(contents: Sequence[PrintableContent], label: str) -> list[PrintableContent]:
+    return [
+        replace(content, meta_tags=[label, *list(content.meta_tags)])
+        for content in contents
+    ]
 
 
 def _clamp_index(index: int, length: int) -> int:

@@ -41,6 +41,7 @@ class PDFDownloadMiddleware(BaseHTTPMiddleware):
             format_hint=PDF_FORMAT,
             lang=request.path_params.get("lang"),
             index=self._resolve_content_index(request),
+            custom_label=request.query_params.get("custom_label"),
         )
 
     def _resolve_request_variant(self, request: Request) -> tuple[bool, Any]:

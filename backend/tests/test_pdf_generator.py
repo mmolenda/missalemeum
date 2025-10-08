@@ -150,3 +150,23 @@ def test_wrap_html_uses_localised_page_label_and_site_url():
 
     assert "Strona " in html
     assert "www.missalemeum.com" in html
+
+
+def test_sanitize_custom_label_accepts_polish_letters():
+    sanitized = generator._sanitize_custom_label(" Święto Pańskie-2024 ")
+
+    assert sanitized == "Święto Pańskie-2024"
+
+
+def test_sanitize_custom_label_rejects_invalid_values():
+    assert generator._sanitize_custom_label("bad!") is None
+    assert generator._sanitize_custom_label("abc") is None  # too short
+    assert generator._sanitize_custom_label("x" * 70) is None  # too long
+
+
+def test_inject_custom_label_inserts_label_first():
+    contents = generator._normalise_payload(_build_payload(), lang="en")
+    updated = generator._inject_custom_label(contents, "Custom Label")
+
+    assert updated[0].meta_tags[0] == "Custom Label"
+    assert list(updated[0].meta_tags)[1:] == list(contents[0].meta_tags)
