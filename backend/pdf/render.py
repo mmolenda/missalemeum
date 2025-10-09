@@ -35,6 +35,22 @@ from diskcache import Cache
 
 log = logging.getLogger(__name__)
 
+DEFAULT_CACHE_SIZE_BYTES = int(1e9)
+
+
+def _resolve_cache_size(raw_value: str | None) -> int:
+    if raw_value is None:
+        return DEFAULT_CACHE_SIZE_BYTES
+    try:
+        return int(raw_value)
+    except ValueError:
+        log.warning(
+            "Invalid PDF_CACHE_SIZE_BYTES=%r; falling back to default %d",
+            raw_value,
+            DEFAULT_CACHE_SIZE_BYTES,
+        )
+        return DEFAULT_CACHE_SIZE_BYTES
+
 
 class NoCache:
     def __contains__(self, key): return False
@@ -42,8 +58,13 @@ class NoCache:
     def set(self, key, value, expire=None): pass
 
 if cache_dir := os.getenv("PDF_CACHE_DIR"):
-    cache = Cache(cache_dir, size_limit=1e9)
-    log.info("PDF cache enabled at %s", cache_dir)
+    cache_size_limit = _resolve_cache_size(os.getenv("PDF_CACHE_SIZE_BYTES"))
+    cache = Cache(cache_dir, size_limit=cache_size_limit)
+    log.info(
+        "PDF cache enabled at %s with size limit %d bytes",
+        cache_dir,
+        cache_size_limit,
+    )
 else:
     cache = NoCache()
     log.info("PDF cache disabled (PDF_CACHE_DIR not set)")
