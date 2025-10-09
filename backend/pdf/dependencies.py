@@ -35,13 +35,13 @@ async def get_pdf_options(
     ),
     variant: PDFVariant = Query(
         default=DEFAULT_VARIANT_CHOICE,
-        description="Page layout variant to use when rendering the PDF.",
+        description="Page layout variant to use when rendering the PDF. 2up - 2 pages on one sheet. Booklet - pages on one sheet, foldable.",
     ),
     index: int = Query(
         default=0,
         ge=0,
         le=MAX_CONTENT_INDEX,
-        description="Select which content item to render if the response returns a list.",
+        description="Select the Mass from the day, if there's more than one (for example All Souls).",
     ),
     custom_label: str | None = Query(
         default=None,
