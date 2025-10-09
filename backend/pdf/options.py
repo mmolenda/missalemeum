@@ -25,6 +25,9 @@ class PDFVariant(str, Enum):
     A4_BOOKLET = "a4-booklet"
     A5_2UP = "a5-2up"
     A5_BOOKLET = "a5-booklet"
+    LETTER = "letter"
+    LETTER_2UP = "letter-2up"
+    LETTER_BOOKLET = "letter-booklet"
 
 
 DEFAULT_VARIANT_CHOICE = PDFVariant.A4

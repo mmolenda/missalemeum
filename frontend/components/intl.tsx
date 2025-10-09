@@ -62,8 +62,8 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
 export const BANNER_COPY: Record<Locale, { highlight: string; message: string }> = {
-  en: {highlight: "New:", message: "download texts for printing as PDF."},
-  pl: {highlight: "Nowość:", message: "pobierz teksty do wydruku jako PDF."},
+  en: {highlight: "New:", message: "printable texts available for download as PDF."},
+  pl: {highlight: "Nowość:", message: "teksty do wydruku do pobrania jako PDF."},
 }
 export type PdfVariantOption = {
   label: string;
@@ -72,6 +72,9 @@ export type PdfVariantOption = {
 
 export const PDF_VARIANTS: Record<Locale, PdfVariantOption[]> = {
   en: [
+    {label: "PDF Letter format", variant: "letter"},
+    {label: "PDF Letter 2 on 1", variant: "letter-2up"},
+    {label: "PDF Letter booklet", variant: "letter-booklet"},
     {label: "PDF A4 format", variant: "a4"},
     {label: "PDF A4 2 on 1", variant: "a4-2up"},
     {label: "PDF A4 booklet", variant: "a4-booklet"},

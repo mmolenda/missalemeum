@@ -363,7 +363,7 @@ const renderPdfSection = (lang: Locale) => {
           </p>
           <ul className={styles.articleList}>
             <li><strong>Wiele formatów:</strong> A4, A5 i inne.</li>
-            <li><strong>Wersja składana (booklet):</strong> do druku dwustronnego i złożenia w zeszyt.</li>
+            <li><strong>Wersja składana (broszura):</strong> do druku dwustronnego i złożenia w zeszyt.</li>
             <li><strong>Spójna typografia:</strong> klasyczne kroje, wyraźna hierarchia nagłówków, właściwe łamanie łaciny i polskiego.</li>
             <li><strong>Praktyczne zastosowanie:</strong> idealne do <strong>użytku podczas Mszy</strong>, prób scholi lub modlitwy w domu.</li>
           </ul>
@@ -376,9 +376,9 @@ const renderPdfSection = (lang: Locale) => {
         </div>
         <div className={styles.twoColumnMedia}>
           <picture>
-            <source srcSet="/images/printed-booklet.jpg" type="image/jpeg" />
+            <source srcSet="/images/printed-booklet.webp" type="image/jpeg" />
             <img
-              src="/images/printed-booklet.jpg"
+              src="/images/printed-booklet.webp"
               alt="Wydrukowana broszura Missale Meum przygotowana z wariantu PDF booklet"
               loading="lazy"
             />
@@ -395,7 +395,7 @@ const renderPdfSection = (lang: Locale) => {
           Beyond the online views, we provide <strong>high-quality printable PDFs</strong>. They are <strong>well crafted</strong>, <strong>nicely styled</strong>, and easy to read.
         </p>
         <ul className={styles.articleList}>
-          <li><strong>Multiple formats:</strong> A4, A5, and more.</li>
+          <li><strong>Multiple formats:</strong> A4, Letter, and more.</li>
           <li><strong>Foldable booklet:</strong> designed for two-sided printing and simple saddle folding.</li>
           <li><strong>Consistent typography:</strong> classic faces, clear heading hierarchy, proper Latin/English line breaking.</li>
           <li><strong>Real-world use:</strong> perfect to <strong>use at Mass</strong>, choir practice, or family prayer at home.</li>
@@ -409,9 +409,9 @@ const renderPdfSection = (lang: Locale) => {
       </div>
       <div className={styles.twoColumnMedia}>
         <picture>
-          <source srcSet="/images/printed-booklet.jpg" type="image/jpeg" />
+          <source srcSet="/images/printed-booklet.webp" type="image/jpeg" />
           <img
-            src="/images/printed-booklet.jpg"
+            src="/images/printed-booklet.webp"
             alt="Printed Missale Meum booklet produced from the PDF download"
             loading="lazy"
           />

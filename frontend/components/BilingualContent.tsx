@@ -161,7 +161,13 @@ const Article = ({
   const pdfMenuOpen = Boolean(pdfMenuAnchor)
   const content: Content = contents[index]
   const itemRefs = useRef<Record<string, HTMLElement | null>>({})
-  const pdfVariantOptions = PDF_VARIANTS[lang as Locale] ?? PDF_VARIANTS.en
+  const pdfVariantOptions = useMemo(() => {
+    const options = PDF_VARIANTS[lang as Locale] ?? PDF_VARIANTS.en
+    if (lang === "en") {
+      return options
+    }
+    return options.filter((option) => !option.variant.startsWith("letter"))
+  }, [lang])
   const hasPdfDownload = Boolean(apiEndpoint)
 
   const buildPdfUrl = useCallback((variant: string) => {

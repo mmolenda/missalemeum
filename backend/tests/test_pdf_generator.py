@@ -3,6 +3,7 @@ from __future__ import annotations
 from io import BytesIO
 
 from pypdf import PdfReader
+import pytest
 
 from api.constants import TRANSLATION
 from api.schemas import Proper, ProperInfo
@@ -56,8 +57,9 @@ def test_generate_pdf_handles_unknown_variant():
     assert response.pdf_bytes.startswith(b"%PDF")
 
 
-def test_generate_pdf_two_up_variant_landscape_pages():
-    response = generate_pdf(payload=_build_payload(), variant="a4-2up", format_hint="pdf", request_path="/tests")
+@pytest.mark.parametrize("variant", ["a4-2up", "letter-2up"])
+def test_generate_pdf_two_up_variant_landscape_pages(variant):
+    response = generate_pdf(payload=_build_payload(), variant=variant, format_hint="pdf", request_path="/tests")
 
     reader = PdfReader(BytesIO(response.pdf_bytes))
     assert len(reader.pages) >= 1
@@ -67,8 +69,9 @@ def test_generate_pdf_two_up_variant_landscape_pages():
     assert width > height  # landscape orientation expected for 2-up sheets
 
 
-def test_generate_pdf_booklet_produces_even_page_count():
-    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf", request_path="/tests")
+@pytest.mark.parametrize("variant", ["a4-booklet", "letter-booklet"])
+def test_generate_pdf_booklet_produces_even_page_count(variant):
+    response = generate_pdf(payload=_build_payload(), variant=variant, format_hint="pdf", request_path="/tests")
 
     reader = PdfReader(BytesIO(response.pdf_bytes))
     assert len(reader.pages) % 2 == 0
@@ -100,6 +103,18 @@ def test_generate_pdf_accepts_schema_objects():
 
     assert response.filename == "test-proper.pdf"
     assert response.pdf_bytes.startswith(b"%PDF")
+
+
+def test_generate_pdf_letter_variant_uses_letter_page_size():
+    response = generate_pdf(payload=_build_payload(), variant="letter", format_hint="pdf", request_path="/tests")
+
+    reader = PdfReader(BytesIO(response.pdf_bytes))
+    first_page = reader.pages[0]
+    width = float(first_page.mediabox.width)
+    height = float(first_page.mediabox.height)
+    assert height > width  # portrait orientation
+    assert width == pytest.approx(612, rel=0.02)
+    assert height == pytest.approx(792, rel=0.02)
 
 
 def test_build_content_uses_localised_labels_for_polish():

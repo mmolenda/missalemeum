@@ -75,6 +75,8 @@ PAGE_DIMENSIONS_MM: dict[str, tuple[float, float]] = {
     "A4": (210.0, 297.0),
     "A5": (148.0, 210.0),
     "A6": (105.0, 148.0),
+    "HALF_LETTER": (139.7, 215.9),
+    "LETTER": (215.9, 279.4),
 }
 
 
@@ -96,6 +98,9 @@ VARIANT_SPECS: dict[str, VariantSpec] = {
     "a4-booklet": VariantSpec(page_size="A5", font_scale=0.9, mode="booklet", sheet_size="A4"),
     "a5-2up": VariantSpec(page_size="A6", font_scale=0.8, mode="two_up", sheet_size="A5"),
     "a5-booklet": VariantSpec(page_size="A6", font_scale=0.8, mode="booklet", sheet_size="A5"),
+    "letter": VariantSpec(page_size="LETTER", font_scale=1.0),
+    "letter-2up": VariantSpec(page_size="HALF_LETTER", font_scale=0.9, mode="two_up", sheet_size="LETTER"),
+    "letter-booklet": VariantSpec(page_size="HALF_LETTER", font_scale=0.9, mode="booklet", sheet_size="LETTER"),
 }
 DEFAULT_VARIANT = VARIANT_SPECS["a4"]
 DEFAULT_LANGUAGE = "en"

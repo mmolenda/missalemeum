@@ -9,7 +9,7 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
   @page {{
     {page_size_rule}
-    margin: 10mm;
+    margin: 12mm 10mm;
     @bottom-center {{
       content: "{page_label} " counter(page) " / " counter(pages);
       font-size: {page_number_font_size};
