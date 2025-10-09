@@ -23,7 +23,7 @@ import {
   MENUITEM_VOTIVE,
 } from "@/components/intl";
 import Link from "next/link";
-import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
+import React, {Dispatch, SetStateAction, useState} from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from "@mui/icons-material/Close";
 import List from "@mui/material/List";
