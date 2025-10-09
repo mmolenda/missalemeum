@@ -18,7 +18,7 @@ import os
 import re
 from types import ModuleType
 from typing import Any
-from unicodedata import normalize as _normalize
+import unicodedata
 
 import mistune
 from pydantic import BaseModel, ValidationError
@@ -211,7 +211,7 @@ def _sanitize_custom_label(raw_label: str | None) -> str | None:
     if raw_label is None:
         return None
 
-    candidate = _normalize("NFKC", str(raw_label)).strip()
+    candidate = unicodedata.normalize("NFKC", str(raw_label)).strip()
     if not candidate:
         return None
     if not 4 <= len(candidate) <= 64:
@@ -684,10 +684,19 @@ def _resolve_filename(contents: Sequence[PrintableContent]) -> str:
 
 
 def _slugify_for_filename(value: str) -> str:
-    normalised = _normalize("NFKD", value)
-    ascii_value = normalised.encode("ascii", "ignore").decode("ascii")
-    cleaned = [char.lower() if char.isalnum() else "-" for char in ascii_value]
-    slug = "".join(cleaned)
-    while "--" in slug:
-        slug = slug.replace("--", "-")
-    return slug.strip("-") or "missale-meum"
+    if not value:
+        return "missale-meum"
+    # Normalize and strip accents
+    normalized = unicodedata.normalize("NFKD", value)
+    stripped = "".join(
+        c for c in normalized if not unicodedata.combining(c)
+    )
+    # Polish special case (ł isn’t decomposed by NFKD)
+    stripped = stripped.replace("ł", "l").replace("Ł", "L")
+    # Encode to ASCII safely
+    ascii_value = stripped.encode("ascii", "ignore").decode("ascii")
+    # Replace non-alphanumeric with dashes
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_value).lower()
+    # Collapse multiple dashes and trim
+    slug = re.sub(r"-{2,}", "-", slug).strip("-")
+    return slug or "missale-meum"
