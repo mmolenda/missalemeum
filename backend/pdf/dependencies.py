@@ -35,7 +35,7 @@ async def get_pdf_options(
     ),
     variant: PDFVariant = Query(
         default=DEFAULT_VARIANT_CHOICE,
-        description="Page layout variant to use when rendering the PDF. 2up - 2 pages on one sheet. Booklet - pages on one sheet, foldable.",
+        description="Page layout variant to use when rendering the PDF. 2up - 2 pages on one sheet. Booklet - 2 pages on one sheet, foldable.",
     ),
     index: int = Query(
         default=0,
@@ -46,6 +46,7 @@ async def get_pdf_options(
     custom_label: str | None = Query(
         default=None,
         description="Optional custom label added to the PDF metadata and header.",
+        include_in_schema=False,
     ),
 ) -> PdfOptions:
     """Resolve PDF rendering options for endpoints that opt into PDF support."""
