@@ -12,11 +12,20 @@ and presenting the data. The application utilizes data files from
 * Calculates the 1962 calendar for given liturgical year
 * Shows Proprium Missae (variable parts of the Mass) for a given date
 * Provides Ordo Missae (fixed parts of the Mass)
+* Provides votive Masses, prayers, chants and other supplements
 * Exposes calendar in iCal format
+* Generates high-quality, well-styled PDF documents
 * Shows everything in a slick, responsive UI
 
 At the moment the application supports English and Polish vernacular languages. As the data for many other languages
 is available in Divinum Officium, it is relatively easy to support them. Volunteers are welcome to contribute (see below). 
+
+## API specficiation
+
+The Missale Meum API is available free to use. You can access every aspect of the app, such as the calendar, propers, prayers, PDFs and more, programmatically.
+
+For the OpenAPI specification, check out either [Swagger UI](https://www.missalemeum.com/docs) or [ReDoc](https://www.missalemeum.com/redoc).
+
 
 ## Running the application
 
@@ -34,14 +43,14 @@ Create a virtualenv and install dependencies `pip install -r backend/requirement
 
 ### Configuration
 
-By default the application is using `lru_cache` to cache responses from `missalemeum.controller` functions (which are
-used by `missalemeum.api` to fetch the data).
-
-To disable caching one need to set environment variable `MISSAL_NO_CACHE` to `True`
-
-Backend API URL needs to be provided in `API_URL` env variable.
-
-Application build version is provided in `NEXT_PUBLIC_BUILD_VERSION` env variable.
+| Environment variable | Description |
+|-----------------------|-------------|
+| `MISSAL_NO_CACHE` | When set to `True`, disables in-memory `lru_cache` for `missalemeum.controller.get_calendar` and `missalemeum.controller.get_day`. |
+| `API_URL` | Backend API base URL used by the application. |
+| `NEXT_PUBLIC_API_URL` | Public-facing API URL exposed to the frontend build. |
+| `NEXT_PUBLIC_BUILD_VERSION` | Build or commit identifier embedded in the application (used for version reporting). |
+| `PDF_CACHE_DIR` | Filesystem path where rendered PDFs are cached. If unset, PDF caching is disabled. |
+| `PDF_CACHE_SIZE_BYTES` | Maximum total size of the on-disk PDF cache (default: **1 GiB**). Old entries are evicted automatically when the limit is reached. |
 
 ### Run the python development API
 
@@ -68,13 +77,6 @@ npm run dev
 ```
 
 and navigate to http://0.0.0.0:3000.
-
-## API specficiation
-
-The Missale Meum API is available free to use. You can access every aspect of the app, such as the calendar, propers, prayers, and more, programmatically.
-
-For the OpenAPI specification, check out either [Swagger UI](https://www.missalemeum.com/docs) or [ReDoc](https://www.missalemeum.com/redoc).
-
 
 ## Docker
 

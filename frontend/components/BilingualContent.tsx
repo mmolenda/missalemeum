@@ -1,6 +1,5 @@
 "use client"
 
-import ReactDOMServer from 'react-dom/server';
 import "react-datepicker/dist/react-datepicker.css";
 import slugify from "slugify";
 import {
@@ -11,18 +10,23 @@ import {
   useMediaQuery,
   IconButton,
   Select,
-  MenuItem, Popover
+  MenuItem,
+  Popover,
+  Menu
 } from "@mui/material";
 import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import {
-  MENUITEM_SUPPLEMENT, MSG_ADDRESS_COPIED, COMMEMORATION, Locale
+  MENUITEM_SUPPLEMENT,
+  MSG_ADDRESS_COPIED,
+  COMMEMORATION,
+  Locale,
+  PDF_VARIANTS
 } from "./intl";
 import Md from "./styledComponents/Md";
-import MdPrintable from "./styledComponents/MdPrintable";
-import { BILINGUAL_PRINT_STYLES } from "./styledComponents/printStyles";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
+import { buildApiUrl } from "./utils";
 import React, {
   Dispatch,
   Fragment,
@@ -41,6 +45,17 @@ import {Body, Content} from "@/components/types";
 const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
 
+export type BilingualContentProps = {
+  lang: string
+  id: string
+  contents: Content[]
+  backButtonRef?: string
+  singleColumnAsRubric?: boolean
+  markdownNewlines?: boolean
+  widgetMode?: boolean
+  apiEndpoint?: string
+}
+
 export default function BilingualContent({
                                            lang,
                                            id,
@@ -48,23 +63,42 @@ export default function BilingualContent({
                                            backButtonRef = "",
                                            singleColumnAsRubric = false,
                                            markdownNewlines = false,
-                                           widgetMode = false
-                                         }:
-                                           {
-                                             lang: string,
-                                             id: string,
-                                             contents: Content[],
-                                             backButtonRef?: string,
-                                             singleColumnAsRubric?: boolean,
-                                             markdownNewlines?: boolean,
-                                             widgetMode?: boolean
-                                           }) {
+                                           widgetMode = false,
+                                           apiEndpoint
+                                         }: BilingualContentProps) {
   const [index, setIndex] = useState(0)
+  const [hashIndex, setHashIndex] = useState<number | null>(null)
 
   useEffect(() => {
-    const hashValue = window.location.hash.substring(1)
-    setIndex(parseInt(hashValue) || 0)
-  }, [])
+    if (typeof window === "undefined") {
+      return
+    }
+
+    const updateFromHash = () => {
+      const hashValue = window.location.hash.substring(1)
+      const parsed = Number.parseInt(hashValue, 10)
+      const hasValidIndex = !Number.isNaN(parsed) && parsed >= 0 && parsed < contents.length
+
+      if (hasValidIndex) {
+        setIndex(parsed)
+        if (parsed <= 2) {
+          setHashIndex(parsed)
+        } else {
+          setHashIndex(null)
+        }
+      } else {
+        setIndex(0)
+        setHashIndex(null)
+      }
+    }
+
+    updateFromHash()
+    window.addEventListener("hashchange", updateFromHash)
+
+    return () => {
+      window.removeEventListener("hashchange", updateFromHash)
+    }
+  }, [contents.length])
 
   const backButton = (backButtonRef && <IconButton
     aria-label="back"
@@ -86,6 +120,9 @@ export default function BilingualContent({
       backButton={backButton}
       markdownNewlines={markdownNewlines}
       widgetMode={widgetMode}
+      hashIndex={hashIndex}
+      setHashIndex={setHashIndex}
+      apiEndpoint={apiEndpoint}
     />
   )
 }
@@ -99,23 +136,70 @@ const Article = ({
                    markdownNewlines,
                    backButton,
                    widgetMode,
-                   singleColumnAsRubric
+                   singleColumnAsRubric,
+                   hashIndex,
+                   setHashIndex,
+                   apiEndpoint
                  }: {
   lang: string
   id: string
   contents: Content[]
   index: number
   setIndex: Dispatch<SetStateAction<number>>
+  setHashIndex: Dispatch<SetStateAction<number | null>>
   backButton: React.ReactNode
   markdownNewlines: boolean
   widgetMode: boolean
   singleColumnAsRubric: boolean
+  hashIndex: number | null
+  apiEndpoint?: string
 }) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
   const sharePopoverOpen = false
   const shareButtonRef = useRef(null)
+  const [pdfMenuAnchor, setPdfMenuAnchor] = useState<null | HTMLElement>(null)
+  const pdfMenuOpen = Boolean(pdfMenuAnchor)
   const content: Content = contents[index]
   const itemRefs = useRef<Record<string, HTMLElement | null>>({})
+  const pdfVariantOptions = useMemo(() => {
+    const options = PDF_VARIANTS[lang as Locale] ?? PDF_VARIANTS.en
+    if (lang === "en") {
+      return options
+    }
+    return options.filter((option) => !option.variant.startsWith("letter"))
+  }, [lang])
+  const hasPdfDownload = Boolean(apiEndpoint)
+
+  const buildPdfUrl = useCallback((variant: string) => {
+    if (!apiEndpoint) {
+      return null
+    }
+    const apiUrl = buildApiUrl(lang, apiEndpoint, id)
+    const questionMarkIndex = apiUrl.indexOf("?")
+    const path = questionMarkIndex === -1 ? apiUrl : apiUrl.slice(0, questionMarkIndex)
+    const existingQuery = questionMarkIndex === -1 ? "" : apiUrl.slice(questionMarkIndex + 1)
+
+    const cleanedVariant = variant.startsWith("?") ? variant.slice(1) : variant
+    const params = new URLSearchParams(existingQuery)
+    params.set("format", "pdf")
+    params.set("variant", cleanedVariant)
+    if (hashIndex !== null) {
+      params.set("index", String(hashIndex))
+    } else {
+      params.delete("index")
+    }
+
+    const query = params.toString()
+    return query ? `${path}?${query}` : path
+  }, [apiEndpoint, hashIndex, lang, id])
+
+  const handlePdfMenuOpen = useCallback((event: React.MouseEvent<HTMLElement>) => {
+    setPdfMenuAnchor(event.currentTarget)
+  }, [])
+
+  const handlePdfMenuClose = useCallback(() => {
+    setPdfMenuAnchor(null)
+  }, [])
 
   const registerItemRef = useCallback((slug: string | null) => (element: HTMLElement | null) => {
     if (!slug) {
@@ -173,59 +257,6 @@ const Article = ({
       });
     }
   }
-
-  const print = () => {
-    const newWindow = window.open('', '', "width=650, height=750");
-    const newContent = (
-      <html lang={lang}>
-      <head>
-        <meta charSet="utf-8"/>
-        <title>{content.info.title}</title>
-        <style dangerouslySetInnerHTML={{ __html: BILINGUAL_PRINT_STYLES }}/>
-      </head>
-      <body className="print-body">
-      <div className="print-container">
-        <h1>{content.info.title}</h1>
-        <div className="print-meta">
-          <ArticleTags info={content.info} lang={lang} showIcon={false}/>
-        </div>
-        {content.info.description &&
-          <div className="print-paragraph">
-            <MdPrintable text={content.info.description} markdownNewlines={markdownNewlines}/>
-          </div>}
-        {content.sections.map((section, index) => {
-          return <section className="print-section" key={index}>
-            {section.label && <h2>{section.label}</h2>}
-            {section.body.map((paragraph, pIndex) => {
-              return (paragraph.length === 1) ?
-                <div className="print-paragraph" key={pIndex}>
-                  <MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/>
-                </div> :
-                <div className="print-dual-column" key={pIndex}>
-                  <div className="print-column" key="left">
-                    <div className="print-column-content">
-                      <MdPrintable text={paragraph[0]} markdownNewlines={markdownNewlines}/>
-                    </div>
-                  </div>
-                  <div className="print-column" key="right">
-                    <div className="print-column-content">
-                      <MdPrintable text={paragraph[1]} markdownNewlines={markdownNewlines}/>
-                    </div>
-                  </div>
-                </div>
-            })}
-          </section>
-        })}
-        <p className="print-footer"><em>https://www.missalemeum.com</em></p>
-      </div>
-      </body>
-      </html>)
-    if (newWindow) {
-      newWindow.document.write(ReactDOMServer.renderToStaticMarkup(newContent))
-      newWindow.document.close()
-      newWindow.focus()
-    }
-  }
   return (
     <>
       <Box sx={{
@@ -255,9 +286,49 @@ const Article = ({
             <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
           </Popover>
         </IconButton>
-        <IconButton aria-label="print" onClick={() => print()}>
-          <PrintIcon/>
-        </IconButton>
+        {hasPdfDownload && (
+          <>
+            <IconButton
+              aria-label="download pdf"
+              aria-controls={pdfMenuOpen ? "pdf-variant-menu" : undefined}
+              aria-haspopup="true"
+              aria-expanded={pdfMenuOpen ? "true" : undefined}
+              onClick={handlePdfMenuOpen}
+            >
+              <PrintIcon/>
+            </IconButton>
+            <Menu
+              id="pdf-variant-menu"
+              anchorEl={pdfMenuAnchor}
+              open={pdfMenuOpen}
+              onClose={handlePdfMenuClose}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "right",
+              }}
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "right",
+              }}
+            >
+              {pdfVariantOptions.map(({label, variant}) => {
+                const downloadHref = buildPdfUrl(variant)
+                return (
+                  <MenuItem
+                    key={variant}
+                    component="a"
+                    href={downloadHref ?? "#"}
+                    onClick={handlePdfMenuClose}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {label}
+                  </MenuItem>
+                )
+              })}
+            </Menu>
+          </>
+        )}
       </Box>}
       <Box sx={{px: "0.75rem"}}>
         <>{contents.length > 1 ?
@@ -265,8 +336,14 @@ const Article = ({
             value={index}
             defaultValue={index}
             onChange={(e) => {
-              setIndex(Number(e.target.value))
-              window.location.hash = `#${e.target.value}`;
+              const nextIndex = Number(e.target.value)
+              setIndex(nextIndex)
+              if (nextIndex >= 0 && nextIndex <= 2) {
+                setHashIndex(nextIndex)
+              } else {
+                setHashIndex(null)
+              }
+              window.location.hash = `#${nextIndex}`;
             }}
             sx={{
               fontSize: (theme) => theme.typography.h2.fontSize,

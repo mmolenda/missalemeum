@@ -34,20 +34,18 @@ import {
   MSG_COOKIES,
   MSG_POLICY_DECLINE_BUTTON,
   MSG_POLICY_LINK,
-  SURVEY_BANNER_COPY,
-  SURVEY_LINK,
+  BANNER_COPY,
 } from "@/components/intl";
 import {useParams} from "next/navigation";
 import moment from "moment";
 import "moment/locale/pl";
 import Announcement from "@/components/Announcement";
 import CloseIcon from "@mui/icons-material/Close";
+import PrintIcon from "@mui/icons-material/Print";
 import {
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
-  isBannerExpired,
   getAppBarHeightFromTheme,
-  getBannerExpiryDate,
 } from "@/components/layoutMetrics";
 
 
@@ -71,7 +69,6 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
   const [bannerOpen, setBannerOpen] = useState<boolean>(false)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
-  const bannerExpired = isBannerExpired()
 
   useEffect(() => {
     setDarkMode({
@@ -83,15 +80,10 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   }, []);
 
   useEffect(() => {
-    if (bannerExpired) {
-      setBannerOpen(false)
-      return
-    }
-
     const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
 
     setBannerOpen(!bannerDismissed);
-  }, [bannerExpired]);
+  }, []);
 
   const getThemeMode = () => {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
@@ -100,41 +92,15 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
   const theme = createTheme(getDesignTokens(mode, fontSize));
   const appBarHeight = getAppBarHeightFromTheme(theme);
-  const bannerCopy = SURVEY_BANNER_COPY[lang];
-  const surveyLink = SURVEY_LINK[lang];
-  const bannerVisible = bannerOpen && !bannerExpired;
+  const bannerCopy = BANNER_COPY[lang];
+  const bannerVisible = bannerOpen;
   const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
+  const closeBannerLabel = lang === "pl" ? "Zamknij baner PDF" : "Dismiss PDF banner";
 
   const handleBannerClose = () => {
-    if (bannerExpired) {
-      return
-    }
     myLocalStorage.setItem(BANNER_STORAGE_KEY, "true")
     setBannerOpen(false)
   }
-
-  useEffect(() => {
-    if (!bannerVisible) {
-      return
-    }
-
-    const expiryDate = getBannerExpiryDate()
-    if (!expiryDate) {
-      return
-    }
-
-    const now = new Date()
-    if (expiryDate <= now) {
-      setBannerOpen(false)
-      return
-    }
-
-    const timeoutId = window.setTimeout(() => {
-      setBannerOpen(false)
-    }, expiryDate.getTime() - now.getTime())
-
-    return () => window.clearTimeout(timeoutId)
-  }, [bannerVisible])
 
   return (
     <AppRouterCacheProvider>
@@ -198,23 +164,30 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                       : theme.palette.common.black,
                 })}
               >
-                <Typography variant="body2" sx={{fontWeight: 500}}>
-                  <MUILink
-                    href={surveyLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    underline="always"
+                <Typography
+                  variant="body2"
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontWeight: 500,
+                    gap: 1,
+                  }}
+                >
+                  <Box
+                    component="span"
                     sx={(theme: Theme) => ({
                       color:
                         theme.palette.mode === "dark" ? darkRedDarkMode : darkRedLightMode,
+                      fontWeight: 700,
                     })}
                   >
-                    {bannerCopy.linkText}
-                  </MUILink>
-                  {bannerCopy.suffix}
+                    {bannerCopy.highlight}
+                  </Box>
+                  <Box component="span">{bannerCopy.message}</Box>
+                  <PrintIcon fontSize="small" sx={{ml: 0.5}} />
                 </Typography>
                 <IconButton
-                  aria-label="Zamknij baner ankiety"
+                  aria-label={closeBannerLabel}
                   size="small"
                   color="inherit"
                   onClick={handleBannerClose}

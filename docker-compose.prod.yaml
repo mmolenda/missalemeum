@@ -9,6 +9,11 @@ services:
       - "8080:8080"
     networks:
       - app-network
+    environment:
+      - PDF_CACHE_DIR=/app/.cache/pdf
+      - PDF_CACHE_SIZE_BYTES=1000000000
+    volumes:
+      - missalemeum-pdf-cache:/app/.cache/pdf
 
   frontend:
     image: ghcr.io/mmolenda/missalemeum/frontend:latest
@@ -18,6 +23,7 @@ services:
       - "8081:8081"
     environment:
       - API_URL=http://backend:8080
+      - NEXT_PUBLIC_API_URL=https://www.missalemeum.com
     networks:
       - app-network
     depends_on:
@@ -40,3 +46,6 @@ services:
 networks:
   app-network:
     driver: bridge
+
+volumes:
+  missalemeum-pdf-cache:

@@ -20,8 +20,6 @@ RUN \
 FROM base AS builder
 WORKDIR /app
 ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
-ARG NEXT_PUBLIC_BANNER_END_DATE
-ENV NEXT_PUBLIC_BANNER_END_DATE=${NEXT_PUBLIC_BANNER_END_DATE}
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 

@@ -5,6 +5,54 @@ from .supplements import SUPPLEMENTS, SUPPLEMENTS_V4
 from .pages import PAGES
 from ..common import TRANSFORMATIONS_COMMON
 
+PDF_LABELS = {
+    "rank": "Ranga",
+    "colors": "Kolory",
+    "page": "Strona",
+}
+
+PDF_RANK_LABELS = {
+    1: "1 klasy",
+    2: "2 klasy",
+    3: "3 klasy",
+    4: "4 klasy",
+}
+
+PDF_COLOR_LABELS = {
+    "g": "Szaty zielone",
+    "r": "Szaty czerwone",
+    "w": "Szaty białe",
+    "v": "Szaty fioletowe",
+    "p": "Szaty różowe",
+    "b": "Szaty czarne",
+}
+
+PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
+PDF_DATE_MONTHS = (
+    "",
+    "stycznia",
+    "lutego",
+    "marca",
+    "kwietnia",
+    "maja",
+    "czerwca",
+    "lipca",
+    "sierpnia",
+    "września",
+    "października",
+    "listopada",
+    "grudnia",
+)
+PDF_DATE_WEEKDAYS = (
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek",
+    "sobota",
+    "niedziela",
+)
+
 TITLES = {
     constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'Uroczystość Świętej Rodziny Jezusa, Maryi i Józefa',

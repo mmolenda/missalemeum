@@ -6,6 +6,14 @@ sections:
 - body:
   -
     - |
+        ### October 10, 2025
+        
+        Wydanie [5.14.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.14.0)
+
+        Every text in Missale Meum can now be downloaded for printing as a high-quality PDF
+        in one of several available formats — A4, letter, or as a foldable booklet. Classic typography,
+        clear layout, and practical use.
+
         ### March 6, 2025
         
         Release [5.11.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.11.0)

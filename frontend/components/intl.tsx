@@ -61,12 +61,35 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 	"pl": "Nie, dziękuję"}
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
-export const SURVEY_LINK: Record<Locale, string> = {
-	"en": "https://docs.google.com/forms/d/e/1FAIpQLSf3gab8J6PwEvj5XzgrMRT7ssRLRdAci1VBZH2Y3_Fhm1Vj-g/viewform?usp=header",
-	"pl": "https://docs.google.com/forms/d/e/1FAIpQLSeabCOjxYsfz3CVvrgxpSfT7Zg3htkRYzz8iC291MPuyMWG7g/viewform?usp=header"}
-export const SURVEY_BANNER_COPY: Record<Locale, { linkText: string; suffix: string }> = {
-  en: {linkText: "Survey", suffix: " Help improve Missale Meum."},
-  pl: {linkText: "Ankieta", suffix: " Pomóż ulepszyć Missale Meum."}
+export const BANNER_COPY: Record<Locale, { highlight: string; message: string }> = {
+  en: {highlight: "New:", message: "printable texts available for download as PDF."},
+  pl: {highlight: "Nowość:", message: "teksty do wydruku do pobrania jako PDF."},
+}
+export type PdfVariantOption = {
+  label: string;
+  variant: string;
+}
+
+export const PDF_VARIANTS: Record<Locale, PdfVariantOption[]> = {
+  en: [
+    {label: "PDF Letter format", variant: "letter"},
+    {label: "PDF Letter 2 on 1", variant: "letter-2up"},
+    {label: "PDF Letter booklet", variant: "letter-booklet"},
+    {label: "PDF A4 format", variant: "a4"},
+    {label: "PDF A4 2 on 1", variant: "a4-2up"},
+    {label: "PDF A4 booklet", variant: "a4-booklet"},
+    {label: "PDF A5 format", variant: "a5"},
+    {label: "PDF A5 2 on 1", variant: "a5-2up"},
+    {label: "PDF A5 booklet", variant: "a5-booklet"},
+  ],
+  pl: [
+    {label: "PDF format A4", variant: "a4"},
+    {label: "PDF A4 2 na 1", variant: "a4-2up"},
+    {label: "PDF A4 broszura", variant: "a4-booklet"},
+    {label: "PDF format A5", variant: "a5"},
+    {label: "PDF A5 2 na 1", variant: "a5-2up"},
+    {label: "PDF A5 broszura", variant: "a5-booklet"},
+  ],
 }
 export const SEARCH_SUGGESTIONS_PROPER: {
   pl: string[];

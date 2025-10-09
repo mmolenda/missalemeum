@@ -57,3 +57,5 @@ deploy
 *.tar.gz
 .DS_Store
 .vscode
+
+pdfgen/document.pdf

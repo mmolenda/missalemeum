@@ -177,6 +177,7 @@ export default async function Page({
       id={id}
       contents={await response.json()}
       backButtonRef={`/${locale}/calendar?fromDate=${id}#${id}`}
+      apiEndpoint="proper"
     />
   );
 }

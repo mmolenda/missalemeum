@@ -2,9 +2,23 @@ FROM python:3.13-slim-bookworm
 
 RUN apt-get update
 RUN apt-get -y upgrade
+RUN apt-get install -y --no-install-recommends \
+    libcairo2 \
+    pango1.0-tools \
+    libpango-1.0-0 \
+    libpangocairo-1.0-0 \
+    libgdk-pixbuf2.0-0 \
+    libffi8 \
+    libxml2 \
+    libxslt1.1 \
+    libjpeg62-turbo \
+    fonts-liberation \
+    fonts-dejavu-core \
+    shared-mime-info \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
-ENV PYTHONPATH=/app/api
+ENV PYTHONPATH=/app/api:/app/pdf
 WORKDIR /app
 
 COPY requirements.txt ./
@@ -29,6 +43,7 @@ COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-local ./resources/divinum-officium-local
 COPY api ./api
+COPY pdf ./pdf
 COPY tests ./tests
 RUN echo $NEXT_PUBLIC_BUILD_VERSION > ./api/__version__
 

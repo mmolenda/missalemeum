@@ -20,12 +20,10 @@ import {
   MENUITEM_ORDO,
   MENUITEM_PROPER,
   MENUITEM_SUPPLEMENT,
-  MENUITEM_SURVEY,
   MENUITEM_VOTIVE,
-  SURVEY_LINK
 } from "@/components/intl";
 import Link from "next/link";
-import React, {Dispatch, SetStateAction, useEffect, useState} from "react";
+import React, {Dispatch, SetStateAction, useState} from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from "@mui/icons-material/Close";
 import List from "@mui/material/List";
@@ -34,7 +32,6 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { Icon } from "@iconify/react";
 import {myLocalStorage} from "./myLocalStorage";
-import {getBannerExpiryDate, isBannerExpired} from "@/components/layoutMetrics";
 import {usePathname} from "next/navigation";
 
 
@@ -45,7 +42,6 @@ type LeftHandMenuProps = {
   darkMode: boolean | undefined
   switchFontSize: (fontSizeNew: string) => void
   fontSize: string
-  surveyAvailable: boolean
 }
 
 const LeftHandMenu = ({
@@ -55,7 +51,6 @@ const LeftHandMenu = ({
   darkMode,
   switchFontSize,
   fontSize,
-  surveyAvailable
 }: LeftHandMenuProps) => {
   const pathname = usePathname()
   const isMenuitemSelected = (route: string) => {
@@ -84,10 +79,6 @@ const LeftHandMenu = ({
     {label: MENUITEM_INFO[lang], route: `/${lang}/supplement/info`, icon: "mdi:information-slab-box-outline"},
     {label: MENUITEM_ANNOUNCEMENTS[lang], route: `/${lang}/supplement/announcements`}
   ]
-
-  if (surveyAvailable) {
-    menuItems.splice(7, 0, {label: MENUITEM_SURVEY[lang], route: SURVEY_LINK[lang], external: true})
-  }
 
   return (
     <Box
@@ -163,33 +154,6 @@ export default function MainMenu({
   setFontSize: Dispatch<SetStateAction<string>>
 }) {
   const [drawerOpened, setDrawerOpened] = useState(false)
-  const [surveyAvailable, setSurveyAvailable] = useState(!isBannerExpired())
-  useEffect(() => {
-    const expired = isBannerExpired()
-    if (expired) {
-      setSurveyAvailable(false)
-      return
-    }
-
-    setSurveyAvailable(true)
-
-    const expiryDate = getBannerExpiryDate()
-    if (!expiryDate) {
-      return
-    }
-
-    const now = new Date()
-    if (expiryDate <= now) {
-      setSurveyAvailable(false)
-      return
-    }
-
-    const timeoutId = window.setTimeout(() => {
-      setSurveyAvailable(false)
-    }, expiryDate.getTime() - now.getTime())
-
-    return () => window.clearTimeout(timeoutId)
-  }, [])
   const toggleDrawer = (open: boolean) => () => {
     setDrawerOpened(open)
   };
@@ -237,7 +201,6 @@ export default function MainMenu({
                 toggleDarkMode={toggleDarkMode}
                 fontSize={fontSize}
                 switchFontSize={switchFontSize}
-                surveyAvailable={surveyAvailable}
             />
         </Drawer>
     </>)

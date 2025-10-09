@@ -2,23 +2,34 @@ import {Locale, META_DESCRIPTION} from "@/components/intl";
 
 const trimTrailingSlash = (value: string) => value.endsWith("/") ? value.slice(0, -1) : value;
 
-export async function callApi(locale: string, endpoint: string, id?: string) {
-  const isServer = typeof window === "undefined";
+const resolveApiBase = (isServer: boolean) => {
+  if (isServer) {
+    return trimTrailingSlash(process.env.API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "");
+  }
+  return trimTrailingSlash(process.env.NEXT_PUBLIC_API_URL ?? "");
+};
 
-  const resolvedBase = (() => {
-    if (isServer) {
-      return trimTrailingSlash(process.env.API_URL ?? process.env.NEXT_PUBLIC_API_URL ?? "");
-    }
-    return trimTrailingSlash(process.env.NEXT_PUBLIC_API_URL ?? "");
-  })();
+const normaliseEndpoint = (endpoint: string) => endpoint.startsWith("/") ? endpoint.slice(1) : endpoint;
+
+export const buildApiUrl = (locale: string, endpoint: string, id?: string) => {
+  const isServer = typeof window === "undefined";
+  const resolvedBase = resolveApiBase(isServer);
+  const cleanEndpoint = normaliseEndpoint(endpoint);
 
   let url = resolvedBase
-    ? `${resolvedBase}/${locale}/api/v5/${endpoint}`
-    : `/${locale}/api/v5/${endpoint}`;
+    ? `${resolvedBase}/${locale}/api/v5/${cleanEndpoint}`
+    : `/${locale}/api/v5/${cleanEndpoint}`;
 
   if (id) {
     url += `/${id}`;
   }
+
+  return url;
+};
+
+export async function callApi(locale: string, endpoint: string, id?: string) {
+  const isServer = typeof window === "undefined";
+  const url = buildApiUrl(locale, endpoint, id);
 
   const init: RequestInit = {
     mode: "cors",

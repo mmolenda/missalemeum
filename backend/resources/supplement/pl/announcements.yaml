@@ -6,6 +6,14 @@ sections:
 - body:
   -
     - |
+        ### 10 października 2025
+        
+        Wydanie [5.14.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.14.0)
+
+        Każdy tekst w Missale Meum można teraz pobrać do wydruku jako wysokiej jakości
+        plik PDF w jednym z wielu dostępnych formatów - A4, A5 i jako składana broszura.
+        Klasyczna typografia, czytelny układ i praktyczne zastosowanie.
+
         ### 6 marca 2025
         
         Wydanie [5.11.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.11.0)

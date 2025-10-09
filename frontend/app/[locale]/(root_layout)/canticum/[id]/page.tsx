@@ -22,5 +22,5 @@ export default async function Page({params}: { params: Promise<{locale: string, 
     notFound();
   }
   const item = await response.json();
-  return <BilingualContent lang={locale} id={id} contents={item} backButtonRef={`/${locale}/canticum#${id}`} />
+  return <BilingualContent lang={locale} id={id} contents={item} backButtonRef={`/${locale}/canticum#${id}`} apiEndpoint="canticum"/>
 }

@@ -27,6 +27,7 @@ from examples import (
     get_json_response,
     get_text_response,
 )
+from pdf import PDFAwareRoute, PdfOptions, get_pdf_options
 from schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
 
 
@@ -46,7 +47,7 @@ logging.basicConfig(
     format='[%(asctime)s ] %(levelname)s in %(module)s: %(message)s')
 
 
-router = APIRouter()
+router = APIRouter(route_class=PDFAwareRoute)
 
 
 def validate_locale(
@@ -82,6 +83,7 @@ def v5_proper(
         },
     ),
     lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[Proper]:
     try:
         date_object = datetime.datetime.strptime(date_or_id, "%Y-%m-%d").date()
@@ -116,7 +118,10 @@ def v5_proper(
     description="Get the Ordinary of the Mass — the invariable texts.",
     responses=get_json_response(ORDO_EXAMPLE)
 )
-def v5_ordo(lang: str = Depends(validate_locale)) -> list[ContentItem]:
+def v5_ordo(
+    lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
+) -> list[ContentItem]:
     with open(os.path.join(ORDO_DIR, lang, 'ordo.yaml')) as fh:
         raw_content = yaml.full_load(fh) or []
         if isinstance(raw_content, dict):
@@ -152,6 +157,7 @@ def v5_supplement(
         json_schema_extra={"example": "info"},
     ),
     lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, None)
 
@@ -316,6 +322,7 @@ def v5_oratio_by_id(
         json_schema_extra={"example": "magnificat"},
     ),
     lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, SupplementCategory.ORATIO)
 
@@ -348,6 +355,7 @@ def v5_canticum_by_id(
         json_schema_extra={"example": "salve-regina"},
     ),
     lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, SupplementCategory.CANTICUM)
 

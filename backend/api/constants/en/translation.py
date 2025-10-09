@@ -2,6 +2,54 @@ from ..la.translation import *
 from .supplements import SUPPLEMENTS
 from .pages import PAGES
 
+PDF_LABELS = {
+    "rank": "Rank",
+    "colors": "Colors",
+    "page": "Page",
+}
+
+PDF_RANK_LABELS = {
+    1: "1st class",
+    2: "2nd class",
+    3: "3rd class",
+    4: "4th class",
+}
+
+PDF_COLOR_LABELS = {
+    "g": "Green vestments",
+    "r": "Red vestments",
+    "w": "White vestments",
+    "v": "Violet vestments",
+    "p": "Pink vestments",
+    "b": "Black vestments",
+}
+
+PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
+PDF_DATE_MONTHS = (
+    "",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+)
+PDF_DATE_WEEKDAYS = (
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+)
+
 TITLES = {
     constants.FERIA: 'Feria',
     constants.TEMPORA_EPI1_0: 'The Holy Family: Jesus, Mary & Joseph',

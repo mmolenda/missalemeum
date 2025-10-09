@@ -39,6 +39,7 @@ export default function WidgetPropers({lang, id, contents, version}: {
         id={id}
         contents={contents}
         widgetMode={true}
+        apiEndpoint="proper"
       />
       {version && <ContainerMedium sx={{display: "flex", justifyContent: "space-between"}}>
         <Typography

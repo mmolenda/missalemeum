@@ -13,7 +13,6 @@ import {
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
-  isBannerExpired
 } from "@/components/layoutMetrics";
 
 export default function ListCommon({
@@ -80,8 +79,7 @@ export default function ListCommon({
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
           const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-          const bannerExpired = isBannerExpired();
-          const offset = (bannerDismissed || bannerExpired) ? 0 : BANNER_HEIGHT;
+          const offset = bannerDismissed ? 0 : BANNER_HEIGHT;
           return `${appBarHeight + offset}px`;
         },
         width: "875px",
