@@ -31,6 +31,7 @@ const SITE_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.missaleme
 const ABOUT_SECTION_ID = "about-missal";
 const STRUCTURE_SECTION_ID = "missal-structure";
 const FEATURES_SECTION_ID = "missal-features";
+const PDF_SECTION_ID = "pdfs";
 const USAGE_SECTION_ID = "usage";
 const RESOURCES_SECTION_ID = "resources";
 const SUPPORT_SECTION_ID = "support";
@@ -63,6 +64,7 @@ type LandingCopy = {
   featuresHeading: string;
   featuresIntro: string;
   features: Array<{ title: string; description: string }>;
+  pdfHeading: string;
   calendarCaption: string;
   properCaption: string;
   usageHeading: string;
@@ -92,6 +94,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "Overview", targetId: ABOUT_SECTION_ID },
       { label: "Missal structure", targetId: STRUCTURE_SECTION_ID },
       { label: "Digital features", targetId: FEATURES_SECTION_ID },
+      { label: "Printable PDFs", targetId: PDF_SECTION_ID },
       { label: "How the faithful use it", targetId: USAGE_SECTION_ID },
       { label: "Tools & resources", targetId: RESOURCES_SECTION_ID },
       { label: "How you can help", targetId: SUPPORT_SECTION_ID },
@@ -118,6 +121,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
           "Votives and Commons, seasonal chants, daily prayers — Missale Meum gathers the texts most often needed by families, choirs, and altar servers.",
       },
     ],
+    pdfHeading: "Printable PDFs",
     calendarCaption: "Traditional liturgical calendar with feasts and commemorations.",
     properCaption: "Full daily propers in Latin and vernacular.",
     usageHeading: "How the faithful live with the missal",
@@ -166,6 +170,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       { label: "Wprowadzenie", targetId: ABOUT_SECTION_ID },
       { label: "Struktura mszału", targetId: STRUCTURE_SECTION_ID },
       { label: "Funkcje mszalika", targetId: FEATURES_SECTION_ID },
+      { label: "Pliki PDF do druku", targetId: PDF_SECTION_ID },
       { label: "Jak korzystają wierni", targetId: USAGE_SECTION_ID },
       { label: "Suplement", targetId: RESOURCES_SECTION_ID },
       { label: "Wsparcie projektu", targetId: SUPPORT_SECTION_ID },
@@ -192,6 +197,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
           "Wotywy i formularze wspólne, śpiewy sezonowe, modlitwy codzienne — Missale Meum gromadzi teksty najczęściej potrzebne rodzinom, scholii i ministrantom.",
       },
     ],
+    pdfHeading: "Pliki PDF do druku",
     calendarCaption: "Tradycyjny kalendarz liturgiczny z obchodami i wspomnieniami.",
     properCaption: "Pełne proprium dnia w łacinie i przekładzie.",
     usageHeading: "Jak wierni korzystają z mszalika",
@@ -248,6 +254,9 @@ const renderIntro = (lang: Locale) => {
           Wierni sięgają po Missale Meum jako prosty i przejrzysty mszalik online, pomocny w przygotowaniu do Mszy, modlitwie osobistej i zawsze pod
           ręką, gdy papierowy egzemplarz jest poza zasięgiem.
         </p>
+        <p>
+          Nowością są <strong>starannie opracowane pliki PDF</strong> — solidnie złożone, czytelnie wystylizowane i dostępne w wielu formatach, w tym <strong>składanych zeszytowo (booklet)</strong>. To praktyczne uzupełnienie serwisu: można je wydrukować i <strong>korzystać podczas Mszy</strong> albo w domowej modlitwie.
+        </p>
       </>
     );
   }
@@ -256,7 +265,7 @@ const renderIntro = (lang: Locale) => {
     <>
       <p>
         Missale Meum was created to give the faithful attached to the classical liturgy convenient access to the 1962 Roman Missal. Each proper has been faithfully transcribed,
-        with the Latin texts set alongside their Enlish translation so both versions can always be used in parallel.
+        with the Latin texts set alongside their English translation so both versions can always be used in parallel.
       </p>
       <p>
         The site covers the entire liturgical year: from Advent through the last Sunday after Pentecost, including Ember Days, octaves, and vigils. Additional notes help 
@@ -265,6 +274,9 @@ const renderIntro = (lang: Locale) => {
       <p>
         Missale Meum supports daily prayer. In one place you can open <Link href="/en/votive">votive Masses</Link>, <Link href="/en/oratio">daily prayers</Link>, <Link href="/en/canticum">seasonal chants</Link>, and a detailed <Link href="/en/supplement/index">supplement</Link> of rubrics and commentary.
         The faithful turn to Missale Meum as a simple and clear online missal, helpful for preparing for Mass, for personal prayer, and always at hand when a printed copy is out of reach.
+      </p>
+      <p>
+        A recent addition is our <strong>well-crafted PDF collection</strong> — robustly typeset, cleanly styled, and available in multiple formats, including <strong>foldable booklet</strong> layouts. They are a practical complement to the site: print them and <strong>use them at Mass</strong> or for prayer at home.
       </p>
     </>
   );
@@ -338,6 +350,74 @@ const renderFeaturesIntro = (lang: Locale) => {
       Missale Meum grows with the communities that celebrate the Extraordinary Form. The screenshots below present the views most people keep open: the liturgical calendar with its
       feast ranks and the full proper text. Both layouts adapt gracefully to desktop and mobile screens.
     </p>
+  );
+};
+
+const renderPdfSection = (lang: Locale) => {
+  if (lang === "pl") {
+    return (
+      <div className={styles.twoColumn}>
+        <div className={styles.longForm}>
+          <p>
+            Oprócz widoków online udostępniamy <strong>wysokiej jakości pliki PDF</strong>, zaprojektowane do druku. Są <strong>solidnie złożone</strong>, <strong>estetycznie wystylizowane</strong> i łatwe w czytaniu.
+          </p>
+          <ul className={styles.articleList}>
+            <li><strong>Wiele formatów:</strong> A4, A5 i inne.</li>
+            <li><strong>Wersja składana (booklet):</strong> do druku dwustronnego i złożenia w zeszyt.</li>
+            <li><strong>Spójna typografia:</strong> klasyczne kroje, wyraźna hierarchia nagłówków, właściwe łamanie łaciny i polskiego.</li>
+            <li><strong>Praktyczne zastosowanie:</strong> idealne do <strong>użytku podczas Mszy</strong>, prób scholi lub modlitwy w domu.</li>
+          </ul>
+          <p>
+            Te materiały są <strong>świetnym uzupełnieniem</strong> mszalika online — możesz je zabrać do kościoła, rozdać rodzinie lub wydrukować dla wspólnoty.
+          </p>
+          <p>
+            Poniżej zobaczysz <strong>fotografię gotowego wydruku</strong> w formie broszury — to dokładnie ten efekt, który można osiągnąć dzięki naszym wariantom PDF.
+          </p>
+        </div>
+        <div className={styles.twoColumnMedia}>
+          <picture>
+            <source srcSet="/images/printed-booklet.jpg" type="image/jpeg" />
+            <img
+              src="/images/printed-booklet.jpg"
+              alt="Wydrukowana broszura Missale Meum przygotowana z wariantu PDF booklet"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.twoColumn}>
+      <div className={styles.longForm}>
+        <p>
+          Beyond the online views, we provide <strong>high-quality printable PDFs</strong>. They are <strong>well crafted</strong>, <strong>nicely styled</strong>, and easy to read.
+        </p>
+        <ul className={styles.articleList}>
+          <li><strong>Multiple formats:</strong> A4, A5, and more.</li>
+          <li><strong>Foldable booklet:</strong> designed for two-sided printing and simple saddle folding.</li>
+          <li><strong>Consistent typography:</strong> classic faces, clear heading hierarchy, proper Latin/English line breaking.</li>
+          <li><strong>Real-world use:</strong> perfect to <strong>use at Mass</strong>, choir practice, or family prayer at home.</li>
+        </ul>
+        <p>
+          These PDFs are a <strong>great addition</strong> to the digital missal — print them for church, share with family, or prepare sets for your community.
+        </p>
+        <p>
+          Below you can see a <strong>photo of a finished printed booklet</strong> — the result you can achieve with the booklet variant of our PDFs.
+        </p>
+      </div>
+      <div className={styles.twoColumnMedia}>
+        <picture>
+          <source srcSet="/images/printed-booklet.jpg" type="image/jpeg" />
+          <img
+            src="/images/printed-booklet.jpg"
+            alt="Printed Missale Meum booklet produced from the PDF download"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
   );
 };
 
@@ -692,6 +772,11 @@ export default async function LandingPage({
               </article>
             ))}
           </div>
+        </section>
+
+        <section id={PDF_SECTION_ID} className={styles.section}>
+          <h2 className={styles.sectionHeading}>{copy.pdfHeading}</h2>
+          {renderPdfSection(lang)}
         </section>
 
         <section id={USAGE_SECTION_ID} className={styles.section}>

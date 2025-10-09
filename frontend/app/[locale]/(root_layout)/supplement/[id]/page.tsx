@@ -39,7 +39,7 @@ export default async function Page({
   return (
     <>
       {showDonation ? <Script strategy="afterInteractive" src="https://js.stripe.com/v3/buy-button.js" /> : null}
-      <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={backButtonRef} markdownNewlines={true} />
+      <BilingualContent lang={locale} id={id} contents={proper} backButtonRef={backButtonRef} markdownNewlines={true} apiEndpoint="supplement"/>
       {showDonation ? (
         <div
           style={{

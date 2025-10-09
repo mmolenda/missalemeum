@@ -68,6 +68,29 @@ export const SURVEY_BANNER_COPY: Record<Locale, { linkText: string; suffix: stri
   en: {linkText: "Survey", suffix: " Help improve Missale Meum."},
   pl: {linkText: "Ankieta", suffix: " Pomóż ulepszyć Missale Meum."}
 }
+export type PdfVariantOption = {
+  label: string;
+  variant: string;
+}
+
+export const PDF_VARIANTS: Record<Locale, PdfVariantOption[]> = {
+  en: [
+    {label: "PDF A4 format", variant: "a4"},
+    {label: "PDF A4 2 on 1", variant: "a4-2up"},
+    {label: "PDF A4 booklet", variant: "a4-booklet"},
+    {label: "PDF A5 format", variant: "a5"},
+    {label: "PDF A5 2 on 1", variant: "a5-2up"},
+    {label: "PDF A5 booklet", variant: "a5-booklet"},
+  ],
+  pl: [
+    {label: "PDF format A4", variant: "a4"},
+    {label: "PDF A4 2 na 1", variant: "a4-2up"},
+    {label: "PDF A4 broszura", variant: "a4-booklet"},
+    {label: "PDF format A5", variant: "a5"},
+    {label: "PDF A5 2 na 1", variant: "a5-2up"},
+    {label: "PDF A5 broszura", variant: "a5-booklet"},
+  ],
+}
 export const SEARCH_SUGGESTIONS_PROPER: {
   pl: string[];
   en: string[];
