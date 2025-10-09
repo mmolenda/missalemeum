@@ -10,14 +10,11 @@ services:
   frontend:
     build:
       context: ./frontend
-      args:
-        NEXT_PUBLIC_BANNER_END_DATE: "2025-10-01"
     container_name: frontend
     ports:
       - "8081:8081"
     environment:
       - API_URL=http://backend:8080
-      - NEXT_PUBLIC_BANNER_END_DATE=2025-10-01
     networks:
       - app-network
     depends_on:

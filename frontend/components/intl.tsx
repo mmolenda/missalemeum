@@ -62,8 +62,8 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
 export const SURVEY_LINK: Record<Locale, string> = {
-	"en": "https://docs.google.com/forms/d/e/1FAIpQLSf3gab8J6PwEvj5XzgrMRT7ssRLRdAci1VBZH2Y3_Fhm1Vj-g/viewform?usp=header",
-	"pl": "https://docs.google.com/forms/d/e/1FAIpQLSeabCOjxYsfz3CVvrgxpSfT7Zg3htkRYzz8iC291MPuyMWG7g/viewform?usp=header"}
+	"en": "",
+	"pl": ""}
 export const SURVEY_BANNER_COPY: Record<Locale, { linkText: string; suffix: string }> = {
   en: {linkText: "Survey", suffix: " Help improve Missale Meum."},
   pl: {linkText: "Ankieta", suffix: " Pomóż ulepszyć Missale Meum."}

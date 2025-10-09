@@ -23,6 +23,7 @@ services:
       - "8081:8081"
     environment:
       - API_URL=http://backend:8080
+      - NEXT_PUBLIC_API_URL=https://www.missalemeum.com
     networks:
       - app-network
     depends_on:

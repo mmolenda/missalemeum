@@ -102,7 +102,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const appBarHeight = getAppBarHeightFromTheme(theme);
   const bannerCopy = SURVEY_BANNER_COPY[lang];
   const surveyLink = SURVEY_LINK[lang];
-  const bannerVisible = bannerOpen && !bannerExpired;
+  const bannerVisible = false;  // bannerOpen && !bannerExpired;
   const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
 
   const handleBannerClose = () => {
