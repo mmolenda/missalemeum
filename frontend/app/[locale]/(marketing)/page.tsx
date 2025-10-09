@@ -255,7 +255,7 @@ const renderIntro = (lang: Locale) => {
           ręką, gdy papierowy egzemplarz jest poza zasięgiem.
         </p>
         <p>
-          Nowością są <strong>starannie opracowane pliki PDF</strong> — solidnie złożone, czytelnie wystylizowane i dostępne w wielu formatach, w tym <strong>składanych zeszytowo (booklet)</strong>. To praktyczne uzupełnienie serwisu: można je wydrukować i <strong>korzystać podczas Mszy</strong> albo w domowej modlitwie.
+          Nowością są <strong>starannie opracowane pliki PDF</strong> — solidnie złożone, czytelnie wystylizowane i dostępne w wielu formatach, w tym <strong>składanych zeszytowo (broszura)</strong>. To praktyczne uzupełnienie serwisu: można je wydrukować i <strong>korzystać podczas Mszy</strong> albo w domowej modlitwie.
         </p>
       </>
     );
