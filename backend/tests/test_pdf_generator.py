@@ -42,26 +42,24 @@ def _build_payload() -> list[dict[str, object]]:
 
 
 def test_generate_pdf_produces_document():
-    response = generate_pdf(payload=_build_payload(), variant="a4", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="a4", format_hint="pdf", request_path="/tests")
 
-    assert response.media_type == "application/pdf"
-    disposition = response.headers.get("Content-Disposition", "")
-    assert disposition.startswith("attachment; filename=\"test-proper.pdf\"")
-    assert response.body.startswith(b"%PDF")
-    assert len(response.body) > 500
+    assert response.filename == "test-proper.pdf"
+    assert response.pdf_bytes.startswith(b"%PDF")
+    assert len(response.pdf_bytes) > 500
 
 
 def test_generate_pdf_handles_unknown_variant():
-    response = generate_pdf(payload=_build_payload(), variant="unknown", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="unknown", format_hint="pdf", request_path="/tests")
 
-    assert response.media_type == "application/pdf"
-    assert response.body.startswith(b"%PDF")
+    assert response.filename.endswith(".pdf")
+    assert response.pdf_bytes.startswith(b"%PDF")
 
 
 def test_generate_pdf_two_up_variant_landscape_pages():
-    response = generate_pdf(payload=_build_payload(), variant="a4-2up", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="a4-2up", format_hint="pdf", request_path="/tests")
 
-    reader = PdfReader(BytesIO(response.body))
+    reader = PdfReader(BytesIO(response.pdf_bytes))
     assert len(reader.pages) >= 1
     first_page = reader.pages[0]
     width = float(first_page.mediabox.width)
@@ -70,18 +68,18 @@ def test_generate_pdf_two_up_variant_landscape_pages():
 
 
 def test_generate_pdf_booklet_produces_even_page_count():
-    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf", request_path="/tests")
 
-    reader = PdfReader(BytesIO(response.body))
+    reader = PdfReader(BytesIO(response.pdf_bytes))
     assert len(reader.pages) % 2 == 0
     first_page = reader.pages[0]
     assert float(first_page.mediabox.width) > float(first_page.mediabox.height)
 
 
 def test_booklet_variant_contains_fold_markers():
-    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf")
+    response = generate_pdf(payload=_build_payload(), variant="a4-booklet", format_hint="pdf", request_path="/tests")
 
-    reader = PdfReader(BytesIO(response.body))
+    reader = PdfReader(BytesIO(response.pdf_bytes))
     first_page = reader.pages[0]
     contents = first_page.get_contents()
     if contents is None:
@@ -98,10 +96,10 @@ def test_booklet_variant_contains_fold_markers():
 def test_generate_pdf_accepts_schema_objects():
     payload = [Proper.model_validate(item) for item in _build_payload()]
 
-    response = generate_pdf(payload=payload, variant="a4", format_hint="pdf")
+    response = generate_pdf(payload=payload, variant="a4", format_hint="pdf", request_path="/tests")
 
-    assert response.media_type == "application/pdf"
-    assert response.body.startswith(b"%PDF")
+    assert response.filename == "test-proper.pdf"
+    assert response.pdf_bytes.startswith(b"%PDF")
 
 
 def test_build_content_uses_localised_labels_for_polish():
