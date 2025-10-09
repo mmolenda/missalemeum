@@ -61,12 +61,9 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 	"pl": "Nie, dziękuję"}
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
-export const SURVEY_LINK: Record<Locale, string> = {
-	"en": "",
-	"pl": ""}
-export const SURVEY_BANNER_COPY: Record<Locale, { linkText: string; suffix: string }> = {
-  en: {linkText: "Survey", suffix: " Help improve Missale Meum."},
-  pl: {linkText: "Ankieta", suffix: " Pomóż ulepszyć Missale Meum."}
+export const BANNER_COPY: Record<Locale, { highlight: string; message: string }> = {
+  en: {highlight: "New:", message: "download texts for printing as PDF."},
+  pl: {highlight: "Nowość:", message: "pobierz teksty do wydruku jako PDF."},
 }
 export type PdfVariantOption = {
   label: string;
