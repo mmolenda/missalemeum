@@ -542,10 +542,12 @@ def _impose_two_up(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
 
     pages = list(reader.pages)
     for index in range(0, len(pages), 2):
-        dst = writer.add_blank_page(width=sheet_width, height=sheet_height)
-        _merge_page_into_slot(dst, pages[index], slot_width, sheet_height, offset_x=0)
+        sheet = PageObject.create_blank_page(None, width=sheet_width, height=sheet_height)
+        _merge_page_into_slot(sheet, pages[index], slot_width, sheet_height, offset_x=0)
         if index + 1 < len(pages):
-            _merge_page_into_slot(dst, pages[index + 1], slot_width, sheet_height, offset_x=slot_width)
+            _merge_page_into_slot(sheet, pages[index + 1], slot_width, sheet_height, offset_x=slot_width)
+        added_page = writer.add_page(sheet)
+        added_page.compress_content_streams()
 
     output = BytesIO()
     writer.write(output)
@@ -572,20 +574,24 @@ def _impose_booklet(base_pdf_bytes: bytes, sheet_size: str) -> bytes:
     right_index = 0
 
     while right_index < left_index:
-        front_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
+        front_page = PageObject.create_blank_page(None, width=sheet_width, height=sheet_height)
         _merge_page_into_slot(front_page, pages[left_index], slot_width, sheet_height, offset_x=0)
         _merge_page_into_slot(front_page, pages[right_index], slot_width, sheet_height, offset_x=slot_width)
         _add_fold_markers(front_page, sheet_width, sheet_height)
+        added_front = writer.add_page(front_page)
+        added_front.compress_content_streams()
         right_index += 1
         left_index -= 1
 
         if right_index > left_index:
             break
 
-        back_page = writer.add_blank_page(width=sheet_width, height=sheet_height)
+        back_page = PageObject.create_blank_page(None, width=sheet_width, height=sheet_height)
         _merge_page_into_slot(back_page, pages[right_index], slot_width, sheet_height, offset_x=0)
         _merge_page_into_slot(back_page, pages[left_index], slot_width, sheet_height, offset_x=slot_width)
         _add_fold_markers(back_page, sheet_width, sheet_height)
+        added_back = writer.add_page(back_page)
+        added_back.compress_content_streams()
         right_index += 1
         left_index -= 1
 
