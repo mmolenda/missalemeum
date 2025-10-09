@@ -6,11 +6,13 @@ from typing import Any, Callable
 
 from fastapi import Request
 from fastapi.routing import APIRoute
+from fastapi.responses import Response
 from starlette.responses import Response as StarletteResponse
+
 
 from .dependencies import get_pdf_options
 from .options import DEFAULT_VARIANT_CHOICE, PDF_FORMAT, PDF_STATE_KEY, PdfOptions
-from .render import generate_pdf
+from .render import RenderedContent, generate_pdf
 
 
 class PDFAwareRoute(APIRoute):
@@ -35,14 +37,19 @@ class PDFAwareRoute(APIRoute):
             variant_key = options.variant.value if options.variant is not None else None
             format_hint = options.format_hint.value if options.format_hint is not None else PDF_FORMAT
 
-            return generate_pdf(
+            rendered_content: RenderedContent = generate_pdf(
                 payload=payload,
                 variant=variant_key or DEFAULT_VARIANT_CHOICE.value,
                 format_hint=format_hint,
+                request_path=request.url.path,
                 lang=request.path_params.get("lang"),
                 index=options.index,
                 custom_label=options.custom_label,
             )
+            headers = {
+                "Content-Disposition": f"attachment; filename=\"{rendered_content.filename}\"",
+            }
+            return Response(content=rendered_content.pdf_bytes, media_type="application/pdf", headers=headers)
 
         return pdf_route_handler
 

@@ -13,13 +13,14 @@ from dataclasses import dataclass, replace
 from datetime import datetime
 from html import escape
 from io import BytesIO
+import logging
+import os
 import re
 from types import ModuleType
 from typing import Any
 from unicodedata import normalize as _normalize
 
 import mistune
-from fastapi.responses import Response
 from pydantic import BaseModel, ValidationError
 from pypdf import PageObject, PdfReader, PdfWriter, Transformation
 from pypdf.generic import DecodedStreamObject, NameObject
@@ -29,6 +30,24 @@ from api.constants import TRANSLATION
 from api.schemas import ContentItem, Info, Proper, ProperInfo, Section
 
 from .styles import build_bilingual_print_styles
+from diskcache import Cache
+
+
+log = logging.getLogger(__name__)
+
+
+class NoCache:
+    def __contains__(self, key): return False
+    def get(self, key, default=None): return default
+    def set(self, key, value, expire=None): pass
+
+if cache_dir := os.getenv("PDF_CACHE_DIR"):
+    cache = Cache(cache_dir, size_limit=1e9)
+    log.info("PDF cache enabled at %s", cache_dir)
+else:
+    cache = NoCache()
+    log.info("PDF cache disabled (PDF_CACHE_DIR not set)")
+
 
 MM_TO_PT = 72 / 25.4
 PAGE_DIMENSIONS_MM: dict[str, tuple[float, float]] = {
@@ -80,6 +99,12 @@ class PrintableContent:
     lang: str = DEFAULT_LANGUAGE
 
 
+@dataclass
+class RenderedContent:
+    filename: str
+    pdf_bytes: bytes
+
+
 PrintableSource = Proper | ContentItem
 
 
@@ -110,12 +135,18 @@ def generate_pdf(
     payload: Any,
     variant: str,
     format_hint: str,
+    request_path: str,
     lang: str | None = None,
     index: int = 0,
     custom_label: str | None = None,
-) -> Response:
+) -> RenderedContent:
     """Render incoming bilingual content into a styled PDF document."""
-
+    cache_key = f"{request_path}/{index}/{format_hint}/{variant}/{custom_label}"
+    if cache_key in cache:
+        rendered_content: RenderedContent = cache[cache_key]
+        return RenderedContent(filename=rendered_content.filename,
+                               pdf_bytes=rendered_content.pdf_bytes)
+    
     _ = format_hint  # reserved for future content negotiation tweaks
     contents = _normalise_payload(payload, lang=lang)
     sanitized_label = _sanitize_custom_label(custom_label)
@@ -146,12 +177,9 @@ def generate_pdf(
         pdf_bytes = base_pdf_bytes
 
     filename = _resolve_filename(contents)
-    headers = {
-        "Content-Disposition": f"attachment; filename=\"{filename}\"",
-    }
-
-    return Response(content=pdf_bytes, media_type="application/pdf", headers=headers)
-
+    rendered_content = RenderedContent(filename=filename, pdf_bytes=pdf_bytes)
+    cache.set(cache_key, rendered_content, expire=None)
+    return rendered_content
 
 def _normalise_payload(payload: Any, lang: str | None = None) -> list[PrintableContent]:
     wrapped_items = _wrap_payload(payload)
