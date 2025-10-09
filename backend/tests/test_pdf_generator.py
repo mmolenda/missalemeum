@@ -6,8 +6,8 @@ from pypdf import PdfReader
 
 from api.constants import TRANSLATION
 from api.schemas import Proper, ProperInfo
-from backend.pdf import render as generator
-from backend.pdf.render import generate_pdf
+from pdf import render as generator
+from pdf.render import generate_pdf
 
 
 def _build_payload() -> list[dict[str, object]]:
