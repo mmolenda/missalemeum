@@ -11,7 +11,7 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     {page_size_rule}
     margin: 12mm 10mm;
     @bottom-center {{
-      content: "{page_label} " counter(page) " / " counter(pages);
+      content: counter(page) " / " counter(pages);
       font-size: {page_number_font_size};
       color: #555;
     }}
@@ -92,51 +92,59 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
 
   .print-meta > span {{
     font-style: italic;
+    font-size: {meta_font_size};
     padding-right: 0.25rem;
   }}
 
-  .przeorat-table {{
-    width: 100%;
-    margin-top: 1.2rem;
-    border-collapse: collapse;
+  .print-meta span.print-meta-separator {{
+    color: #CCC;  /* same as fold_markers */
   }}
 
-  .przeorat-table td {{
-    border: 1px solid #444;
-    padding: 0.4rem 0.5rem;
-    vertical-align: middle;
+  .przeorat-block {{
+    page-break-before: always;
+    position: relative;
+    bottom: 0;
   }}
 
-  .przeorat-table td:first-of-type {{
-    width: 33.333%;
+  .przeorat-block > ul {{
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }}
 
-  .przeorat-table td:last-of-type {{
-    width: 66.667%;
+  .przeorat-block > ul > li {{
+    display: flex;
+    align-items: center;  
+    padding-bottom: 0.3em;
+  }}
+
+  .przeorat-block > ul > li::after {{
+    content: "";
+    flex: 1 1 auto;  
+    border-bottom: 2px dotted #999;
+    margin-left: 10px;
   }}
 
 """
 
 
 def build_bilingual_print_styles(
-    *, page_size: str, font_scale: float, page_label: str, site_label: str
+    *, page_size: str, font_scale: float, site_label: str
 ) -> str:
     """Return the bilingual print stylesheet scaled for the requested variant."""
 
     def _pt(value: float) -> str:
         return f"{value * font_scale:.2f}pt"
 
-    safe_page_label = str(page_label).replace('"', '\\"')
     safe_site_label = str(site_label).replace('"', '\\"')
 
     return _BASE_STYLES_TEMPLATE.format(
         page_size_rule=f"size: {page_size};",
         body_font_size=_pt(10),
-        h1_font_size=_pt(18),
+        h1_font_size=_pt(16),
         h2_font_size=_pt(12),
-        meta_font_size=_pt(10),
+        meta_font_size=_pt(11),
         page_number_font_size=_pt(10),
-        page_label=safe_page_label,
         site_label=safe_site_label,
     )
 

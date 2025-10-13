@@ -6,9 +6,8 @@ from .pages import PAGES
 from ..common import TRANSFORMATIONS_COMMON
 
 PDF_LABELS = {
-    "rank": "Ranga",
-    "colors": "Kolory",
-    "page": "Strona",
+    "rank": "Klasa",
+    "colors": "Kolory"
 }
 
 PDF_RANK_LABELS = {

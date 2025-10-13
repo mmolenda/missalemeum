@@ -93,7 +93,7 @@ def test_booklet_variant_contains_fold_markers():
         except AttributeError:
             stream = b"".join(part.get_data() for part in contents)
 
-    assert b"0.8 0.8 0.8 RG" in stream
+    assert b"0.9 0.9 0.9 RG" in stream
 
 
 def test_generate_pdf_accepts_schema_objects():
@@ -161,7 +161,6 @@ def test_wrap_html_uses_localised_page_label_and_site_url():
         lang="pl",
     )
 
-    assert "Strona " in html
     assert "www.missalemeum.com" in html
 
 

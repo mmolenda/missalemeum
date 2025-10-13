@@ -4,8 +4,7 @@ from .pages import PAGES
 
 PDF_LABELS = {
     "rank": "Rank",
-    "colors": "Colors",
-    "page": "Page",
+    "colors": "Colors"
 }
 
 PDF_RANK_LABELS = {

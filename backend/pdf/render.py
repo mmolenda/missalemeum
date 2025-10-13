@@ -419,11 +419,9 @@ def _wrap_html(body_html: str, *, page_size: str, font_scale: float, title: str,
     labels = getattr(translation, "PDF_LABELS", {})
     if not isinstance(labels, dict):
         labels = {}
-    page_label = labels.get("page", "Page")
     css = build_bilingual_print_styles(
         page_size=page_size,
         font_scale=font_scale,
-        page_label=page_label,
         site_label=SITE_LABEL,
     )
     lang_attr = escape(resolved_lang or DEFAULT_LANGUAGE)
@@ -471,14 +469,14 @@ def _render_content_block(content: PrintableContent, *, is_booklet: bool) -> str
                 fragments.append(_render_paragraph(paragraph))
         fragments.append("</section>")
 
-    if _should_append_przeorat_table(content, is_booklet=is_booklet):
-        fragments.append(_build_przeorat_table_html())
+    if _should_append_przeorat_block(content, is_booklet=is_booklet):
+        fragments.append(_build_przeorat_block_html())
 
     fragments.append("</div>")
     return "".join(fragments)
 
 
-def _should_append_przeorat_table(content: PrintableContent, *, is_booklet: bool) -> bool:
+def _should_append_przeorat_block(content: PrintableContent, *, is_booklet: bool) -> bool:
     if not is_booklet:
         return False
     if str(content.lang).strip().lower() != "pl":
@@ -490,15 +488,12 @@ def _should_append_przeorat_table(content: PrintableContent, *, is_booklet: bool
     return False
 
 
-def _build_przeorat_table_html() -> str:
+def _build_przeorat_block_html() -> str:
     rows = ["żałuję", "postanawiam", "adoruję", "dziękuję", "proszę"]
-    fragments = ['<table class="przeorat-table"><tbody>']
+    fragments = ['<div class="przeorat-block"><ul>']
     for row in rows:
-        fragments.append("<tr>")
-        fragments.append(f"<td>{escape(row)}</td>")
-        fragments.append("<td></td>")
-        fragments.append("</tr>")
-    fragments.append("</tbody></table>")
+        fragments.append(f"<li>{escape(row)}</li>")
+    fragments.append("</ul></div>")
     return "".join(fragments)
 
 
@@ -656,7 +651,7 @@ def _add_fold_markers(page: PageObject, sheet_width: float, sheet_height: float)
 
     instructions = (
         "q\n"
-        "0.8 0.8 0.8 RG\n"
+        "0.9 0.9 0.9 RG\n"
         "1 w\n"
         f"{center_x:.2f} {center_y - cross_half:.2f} m {center_x:.2f} {center_y + cross_half:.2f} l S\n"
         f"{center_x - cross_half:.2f} {center_y:.2f} m {center_x + cross_half:.2f} {center_y:.2f} l S\n"

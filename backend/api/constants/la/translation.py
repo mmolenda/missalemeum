@@ -5,8 +5,7 @@ from api.constants.common import TRANSFORMATIONS_COMMON
 
 PDF_LABELS = {
     "rank": "Ritus",
-    "colors": "Color",
-    "page": "Pagina",
+    "colors": "Color"
 }
 
 PDF_RANK_LABELS = {
