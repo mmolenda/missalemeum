@@ -211,8 +211,12 @@ def _format_date_label(value: str, translation: Any) -> str:
         parsed = datetime.strptime(value, "%Y-%m-%d")
     except ValueError:
         return value
-    format_pattern = getattr(translation, "PDF_DATE_FORMAT", "{weekday}, {day} {month} {year}")
-    months = getattr(translation, "PDF_DATE_MONTHS", ())
+    format_pattern = getattr(
+        translation, "PDF_DATE_FORMAT", "{weekday}, {day} {month} {year}"
+    )
+    months = getattr(translation, "MONTHS_GENITIVE", None)
+    if not isinstance(months, Sequence):
+        months = getattr(translation, "MONTHS_NOMINATIVE", ())
     weekdays = getattr(translation, "PDF_DATE_WEEKDAYS", ())
 
     if isinstance(months, Sequence) and len(months) > parsed.month:

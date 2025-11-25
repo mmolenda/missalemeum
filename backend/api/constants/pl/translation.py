@@ -27,7 +27,22 @@ PDF_COLOR_LABELS = {
 }
 
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
-PDF_DATE_MONTHS = (
+MONTHS_NOMINATIVE = (
+    "",
+    "Styczeń",
+    "Luty",
+    "Marzec",
+    "Kwiecień",
+    "Maj",
+    "Czerwiec",
+    "Lipiec",
+    "Sierpień",
+    "Wrzesień",
+    "Październik",
+    "Listopad",
+    "Grudzień",
+)
+MONTHS_GENITIVE = (
     "",
     "stycznia",
     "lutego",
@@ -51,6 +66,25 @@ PDF_DATE_WEEKDAYS = (
     "sobota",
     "niedziela",
 )
+CALENDAR_COVER_LINES = [
+    "RUBRYCELA MSZALNA",
+    "DLA DIECEZJI POLSKICH",
+    "NA ROK PAŃSKI",
+    "{year}",
+    "WEDŁUG MISSALE ROMANUM Z 1962 ROKU",
+]
+CALENDAR_COVER_PARAGRAPHS = [
+    (
+        "Niniejsza rubrycela dotyczy wyłącznie Mszy celebrowanych "
+        "w rycie rzymskim sprzed reformy z 1970 roku"
+    ),
+    (
+        "Niniejsza rubrycela nie została zatwierdzona przez odpowiednią "
+        "władzę kościelną. Dlatego też, w przypadku ewentualnego błędu, "
+        "należy zachować rubryki."
+    ),
+]
+CALENDAR_COVER_FOOTER = "Opracowanie: missalemeum.com"
 
 TITLES = {
     constants.FERIA: 'Feria',

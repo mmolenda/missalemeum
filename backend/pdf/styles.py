@@ -125,25 +125,127 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     margin-left: 10px;
   }}
 
+  .calendar-year {{
+    margin-bottom: 1.4rem;
+  }}
+
+  .calendar-year-heading {{
+    margin: 0 0 0.4rem;
+    text-align: center;
+    page-break-after: avoid;
+    page-break-before: avoid;
+  }}
+
   .calendar-month {{
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
+    break-inside: avoid;
   }}
 
   .calendar-month-heading {{
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    break-before: page;
-    page-break-before: always;
+    margin: 0 0 0.55rem;
+    text-align: left;
+    text-transform: none;
+    line-height: 1.1;
+  }}
+  
+  .calendar-cover {{
+    page-break-after: always;
+    text-align: center;
+    padding: 40mm 1rem 18mm;
   }}
 
-  .calendar-month-heading-first {{
-    break-before: auto;
-    page-break-before: auto;
+  .calendar-cover-inner {{
+    margin: 0 auto;
+    max-width: 85%;
   }}
 
-  .calendar-month-list {{
+  .calendar-cover-headline {{
+    font-weight: 700;
+    font-size: {h1_font_size};
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+  }}
+
+  .calendar-cover-headline:nth-child(3) {{
+    margin-top: 0.5rem;
+  }}
+
+  .calendar-cover-headline:nth-child(4) {{
+    font-size: {h1_font_size};
+    letter-spacing: 0.08em;
+    margin-bottom: 0.35rem;
+  }}
+
+  .calendar-cover-text {{
+    font-size: {meta_font_size};
+    margin: 0.4rem 0;
+  }}
+
+  .calendar-cover-footer {{
+    font-size: {meta_font_size};
+    margin-top: 0.8rem;
+  }}
+
+  .calendar-cover-subheadline {{
+    font-size: {h2_font_size};
+    font-weight: 600;
+    margin-top: 0.35rem;
+  }}
+
+  .calendar-cover-body {{
+    margin-top: 30mm;
+  }}
+
+  .calendar-day-list {{
+    list-style: none;
     margin: 0;
-    padding-left: 1.2rem;
+    padding: 0;
+  }}
+
+  .calendar-day {{
+    margin-bottom: 0.5rem;
+  }}
+
+  .calendar-day-line {{
+    display: block;
+  }}
+
+  .calendar-day-number {{
+    font-weight: 700;
+    min-width: 1.6rem;
+    display: inline-block;
+    margin-right: 0.35rem;
+  }}
+
+  .calendar-day-details {{
+    display: inline;
+  }}
+
+  .calendar-separator {{
+    color: #666;
+    padding: 0 0.1rem;
+  }}
+
+  .calendar-day-title {{
+    font-weight: 500;
+  }}
+
+  .calendar-commemorations {{
+    margin-left: 1.6rem;
+    font-style: italic;
+    line-height: 1.4;
+  }}
+
+  .calendar-day-title-strong {{
+    font-weight: 700;
+  }}
+
+  .calendar-day-title-upper {{
+    text-transform: uppercase;
+  }}
+
+  .calendar-day-colors {{
+    white-space: normal;
   }}
 
 """

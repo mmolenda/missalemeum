@@ -25,7 +25,22 @@ PDF_COLOR_LABELS = {
 }
 
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
-PDF_DATE_MONTHS = (
+MONTHS_NOMINATIVE = (
+    "",
+    "Ianuarius",
+    "Februarius",
+    "Martius",
+    "Aprilis",
+    "Maius",
+    "Iunius",
+    "Iulius",
+    "Augustus",
+    "September",
+    "October",
+    "November",
+    "December",
+)
+MONTHS_GENITIVE = (
     "",
     "Ianuarii",
     "Februarii",
@@ -49,6 +64,24 @@ PDF_DATE_WEEKDAYS = (
     "Sabbato",
     "Dominica",
 )
+CALENDAR_COVER_LINES = [
+    "MISSAL RUBRICAL GUIDE",
+    "FOR THE POLISH DIOCESES",
+    "FOR THE YEAR OF OUR LORD",
+    "{year}",
+    "ACCORDING TO THE 1962 ROMAN MISSAL",
+]
+CALENDAR_COVER_PARAGRAPHS = [
+    (
+        "This rubrical guide applies only to Masses celebrated in the "
+        "Roman Rite prior to the 1970 reform."
+    ),
+    (
+        "This guide has not been approved by the competent ecclesiastical "
+        "authority. Therefore, in case of any error, the rubrics must be observed."
+    ),
+]
+CALENDAR_COVER_FOOTER = "Prepared by: missalemeum.com"
 
 TITLES = {
     constants.FERIA: 'Feria',
