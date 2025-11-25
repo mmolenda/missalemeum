@@ -125,6 +125,27 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
     margin-left: 10px;
   }}
 
+  .calendar-month {{
+    margin-bottom: 1.2rem;
+  }}
+
+  .calendar-month-heading {{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    break-before: page;
+    page-break-before: always;
+  }}
+
+  .calendar-month-heading-first {{
+    break-before: auto;
+    page-break-before: auto;
+  }}
+
+  .calendar-month-list {{
+    margin: 0;
+    padding-left: 1.2rem;
+  }}
+
 """
 
 
@@ -150,4 +171,3 @@ def build_bilingual_print_styles(
 
 
 __all__ = ["build_bilingual_print_styles"]
-

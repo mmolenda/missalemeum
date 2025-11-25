@@ -1,13 +1,16 @@
 """Calendar-style PDF rendering."""
 from __future__ import annotations
 
-from collections.abc import Iterable, Mapping
+import calendar as _calendar
+from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass
+from datetime import date, datetime
 from html import escape
 from typing import Any
 
 from pydantic import BaseModel, ValidationError
 
+from api.constants import TRANSLATION
 from api.schemas import CalendarItem
 
 from .common import DEFAULT_LANGUAGE, _resolve_filename, _wrap_html
@@ -17,6 +20,9 @@ from .common import DEFAULT_LANGUAGE, _resolve_filename, _wrap_html
 class NormalisedCalendarItem:
     identifier: str
     title: str
+    date: date | None
+
+FALLBACK_HEADING = "Other / Inne"
 
 
 def _normalise_calendar_payload(payload: Any) -> list[NormalisedCalendarItem]:
@@ -26,8 +32,21 @@ def _normalise_calendar_payload(payload: Any) -> list[NormalisedCalendarItem]:
         identifier = str(item.id or "").strip()
         title = str(item.title or "").strip()
         if identifier and title:
-            normalised.append(NormalisedCalendarItem(identifier=identifier, title=title))
+            normalised.append(
+                NormalisedCalendarItem(
+                    identifier=identifier,
+                    title=title,
+                    date=_parse_calendar_date(identifier),
+                )
+            )
     return normalised
+
+
+def _parse_calendar_date(identifier: str) -> date | None:
+    try:
+        return datetime.fromisoformat(identifier[:10]).date()
+    except ValueError:
+        return None
 
 
 def _extract_candidates(payload: Any) -> list[CalendarItem]:
@@ -80,6 +99,29 @@ def is_calendar_payload(payload: Any) -> bool:
     return bool(_normalise_calendar_payload(payload))
 
 
+def _resolve_month_label(month_index: int, lang: str) -> str:
+    translation = TRANSLATION.get(lang)
+    if translation is not None:
+        months = getattr(translation, "PDF_DATE_MONTHS", ())
+        if isinstance(months, Sequence) and 0 < month_index < len(months):
+            candidate = months[month_index]
+            if candidate:
+                return str(candidate)
+
+    month_names = _calendar.month_name
+    if 0 < month_index < len(month_names):
+        return month_names[month_index]
+    return str(month_index)
+
+
+def _format_month_heading(month_index: int | None) -> str:
+    if month_index is None:
+        return FALLBACK_HEADING
+    english = _resolve_month_label(month_index, "en")
+    polish = _resolve_month_label(month_index, "pl")
+    return f"{english} / {polish}"
+
+
 def build_calendar_html(
     payload: Any,
     *,
@@ -105,15 +147,40 @@ def build_calendar_html(
         )
         return html_document, _resolve_filename("calendar")
 
-    list_items = "".join(
-        f"<li><span class=\"calendar-id\">{escape(item.identifier)}</span> "
-        f"<span class=\"calendar-title\">{escape(item.title)}</span></li>"
-        for item in items
-    )
+    items = sorted(items, key=lambda item: item.identifier)
+    grouped: list[tuple[tuple[int, int] | None, list[NormalisedCalendarItem]]] = []
+    for item in items:
+        key: tuple[int, int] | None
+        if item.date is None:
+            key = None
+        else:
+            key = (item.date.year, item.date.month)
+        if not grouped or grouped[-1][0] != key:
+            grouped.append((key, []))
+        grouped[-1][1].append(item)
+
+    month_sections: list[str] = []
+    for index, (group_key, month_items) in enumerate(grouped):
+        classes = ["calendar-month-heading"]
+        if index == 0:
+            classes.append("calendar-month-heading-first")
+        month_index = group_key[1] if group_key is not None else None
+        heading = _format_month_heading(month_index)
+        list_items = "".join(
+            f"<li>{escape(item.title)}</li>"
+            for item in month_items
+        )
+        month_sections.append(
+            "<section class=\"calendar-month\">"
+            f"<h2 class=\"{' '.join(classes)}\">{escape(heading)}</h2>"
+            f"<ol class=\"calendar-list calendar-month-list\">{list_items}</ol>"
+            "</section>"
+        )
+
     body = (
         '<div class="print-container">'
         "<h1>Missale Meum Calendar</h1>"
-        f"<ul class=\"calendar-list\">{list_items}</ul>"
+        f"{''.join(month_sections)}"
         "</div>"
     )
     html_document = _wrap_html(
