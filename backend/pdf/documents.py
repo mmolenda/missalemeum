@@ -319,7 +319,7 @@ def _should_append_przeorat_block(content: PrintableContent, *, is_booklet: bool
 
 
 def _build_przeorat_block_html() -> str:
-    rows = ["żałuję", "postanawiam", "adoruję", "dziękuję", "proszę"]
+    rows = ["oddaję", "żałuję", "postanawiam", "adoruję", "dziękuję", "proszę"]
     fragments = ['<div class="przeorat-block"><ul>']
     for row in rows:
         fragments.append(f"<li>{escape(row)}</li>")

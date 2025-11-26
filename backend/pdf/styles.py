@@ -115,7 +115,7 @@ _BASE_STYLES_TEMPLATE: Final[str] = """
   .przeorat-block > ul > li {{
     display: flex;
     align-items: center;  
-    padding-bottom: 0.3em;
+    padding-bottom: 0.45em;
   }}
 
   .przeorat-block > ul > li::after {{
