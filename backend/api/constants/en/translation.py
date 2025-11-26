@@ -24,7 +24,7 @@ PDF_COLOR_LABELS = {
 }
 
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
-PDF_DATE_MONTHS = (
+MONTHS_NOMINATIVE = (
     "",
     "January",
     "February",
@@ -39,6 +39,7 @@ PDF_DATE_MONTHS = (
     "November",
     "December",
 )
+MONTHS_GENITIVE = MONTHS_NOMINATIVE
 PDF_DATE_WEEKDAYS = (
     "Monday",
     "Tuesday",
@@ -48,6 +49,26 @@ PDF_DATE_WEEKDAYS = (
     "Saturday",
     "Sunday",
 )
+CALENDAR_COVER_LINES = [
+    "LITURGICAL CALENDAR",
+    "FOR THE YEAR OF OUR LORD",
+    "{year}",
+    "ACCORDING TO THE 1962 ROMAN MISSAL",
+]
+
+CALENDAR_COVER_PARAGRAPHS = [
+    (
+        "This calendar applies only to Masses celebrated according to the "
+        "Roman Rite prior to the 1970 reform."
+    ),
+    (
+        "This calendar has not been approved by the competent ecclesiastical "
+        "authority. Therefore, in the event of any discrepancy, the rubrics take precedence."
+    ),
+]
+
+CALENDAR_COVER_FOOTER = "Prepared by: missalemeum.com"
+CALENDAR_COMMEMORATION_LABEL = "Commemoration"
 
 TITLES = {
     constants.FERIA: 'Feria',

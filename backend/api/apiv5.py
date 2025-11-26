@@ -204,7 +204,10 @@ def _parse_query_date(value: str, field_name: str) -> datetime.date:
     description="Get the liturgical calendar for the current year.",
     responses=get_json_response(CALENDAR_ITEMS_EXAMPLE),
 )
-def v5_calendar_current(lang: str = Depends(validate_locale)) -> list[CalendarItem]:
+def v5_calendar_current(
+    lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
+) -> list[CalendarItem]:
     target_year = datetime.datetime.now().date().year
     return _build_calendar_response(lang, target_year)
 
@@ -272,6 +275,7 @@ def v5_calendar_year(
         json_schema_extra={"example": 2025},
     ),
     lang: str = Depends(validate_locale),
+    _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[CalendarItem]:
     return _build_calendar_response(lang, year)
 

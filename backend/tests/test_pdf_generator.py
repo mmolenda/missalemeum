@@ -105,6 +105,37 @@ def test_generate_pdf_accepts_schema_objects():
     assert response.pdf_bytes.startswith(b"%PDF")
 
 
+def test_generate_calendar_pdf():
+    calendar_payload = [
+        {
+            "id": "2024-01-01",
+            "title": "Octave of Christmas",
+            "rank": 1,
+            "tags": [],
+            "colors": ["w"],
+            "commemorations": [],
+        },
+        {
+            "id": "2024-01-02",
+            "title": "Holy Name of Jesus",
+            "rank": 2,
+            "tags": [],
+            "colors": ["w"],
+            "commemorations": [],
+        },
+    ]
+
+    response = generate_pdf(
+        payload=calendar_payload,
+        variant="a4",
+        format_hint="pdf",
+        request_path="/calendar",
+    )
+
+    assert response.filename == "calendar-2024-01-01.pdf"
+    assert response.pdf_bytes.startswith(b"%PDF")
+
+
 def test_generate_pdf_letter_variant_uses_letter_page_size():
     response = generate_pdf(payload=_build_payload(), variant="letter", format_hint="pdf", request_path="/tests")
 

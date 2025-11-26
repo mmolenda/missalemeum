@@ -10,6 +10,7 @@ import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 import {ListItemType} from "@/components/types";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {
+  BANNER_ENABLED,
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
@@ -79,7 +80,7 @@ export default function ListCommon({
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
           const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-          const offset = bannerDismissed ? 0 : BANNER_HEIGHT;
+          const offset = BANNER_ENABLED && !bannerDismissed ? BANNER_HEIGHT : 0;
           return `${appBarHeight + offset}px`;
         },
         width: "875px",

@@ -783,7 +783,8 @@
             "v"
         ],
         "commemorations": [
-            "Św. Jana Bożego, Wyznawcy"
+            "Św. Jana Bożego, Wyznawcy",
+            "Bł. Wincentego Kadłubka, Biskupa i Wyznawcy"
         ],
         "id": "2023-03-08",
         "rank": 3,
@@ -1422,17 +1423,15 @@
     },
     {
         "colors": [
-            "r"
+            "w"
         ],
-        "commemorations": [
-            "Św. Moniki, Wdowy"
-        ],
+        "commemorations": [],
         "id": "2023-05-04",
         "rank": 3,
         "tags": [
             "Czwartek po 3 Niedzieli po Wielkanocy"
         ],
-        "title": "Św. Floriana, Męczennika"
+        "title": "Św. Moniki, Wdowy"
     },
     {
         "colors": [
@@ -2250,15 +2249,15 @@
     },
     {
         "colors": [
-            "w"
+            "g"
         ],
         "commemorations": [],
         "id": "2023-07-13",
-        "rank": 3,
+        "rank": 4,
         "tags": [
             "Czwartek po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Śś. Andrzeja Świerada i Benedykta, Wyznawców"
+        "title": "Feria"
     },
     {
         "colors": [
@@ -2274,17 +2273,15 @@
     },
     {
         "colors": [
-            "r"
+            "w"
         ],
-        "commemorations": [
-            "Św. Henryka, Cesarza i Wyznawcy"
-        ],
+        "commemorations": [],
         "id": "2023-07-15",
         "rank": 3,
         "tags": [
             "Sobota po 6 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Św. Brunona Bonifacego z Kwerfurtu, Biskupa i Męczennika"
+        "title": "Św. Henryka, Cesarza i Wyznawcy"
     },
     {
         "colors": [
@@ -3345,7 +3342,6 @@
             "w"
         ],
         "commemorations": [
-            "Św. Jana Leonardi, Wyznawcy",
             "Śś. Dionizego, Rustyka i Eleuteriusza"
         ],
         "id": "2023-10-09",
@@ -3353,7 +3349,7 @@
         "tags": [
             "Poniedziałek po 19 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Bł. Wincentego Kadłubka, Biskupa i Wyznawcy"
+        "title": "Św. Jana Leonardi, Wyznawcy"
     },
     {
         "colors": [
@@ -3492,15 +3488,14 @@
             "w"
         ],
         "commemorations": [
-            "Śś. Urszuli i Towarzyszek, Dziewic i Męczennic",
-            "Św. Hilariona, Opata"
+            "Śś. Urszuli i Towarzyszek, Dziewic i Męczennic"
         ],
         "id": "2023-10-21",
-        "rank": 3,
+        "rank": 4,
         "tags": [
             "Sobota po 20 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Bł. Jakuba Strzemię, Biskupa i Wyznawcy"
+        "title": "5 Msza o N. M. P. – Salve, Sancta Parens"
     },
     {
         "colors": [
@@ -3860,17 +3855,15 @@
     },
     {
         "colors": [
-            "r"
+            "w"
         ],
-        "commemorations": [
-            "Św. Feliksa Walezego, Wyznawcy"
-        ],
+        "commemorations": [],
         "id": "2023-11-20",
         "rank": 3,
         "tags": [
             "Poniedziałek po 6 Niedzieli po Objawieniu"
         ],
-        "title": "Św. Marcina I, Papieża i Męczennika"
+        "title": "Św. Feliksa Walezego, Wyznawcy"
     },
     {
         "colors": [
@@ -4010,17 +4003,15 @@
     },
     {
         "colors": [
-            "w"
+            "r"
         ],
-        "commemorations": [
-            "Św. Bibiany, Dziewicy i Męczennicy"
-        ],
+        "commemorations": [],
         "id": "2023-12-02",
         "rank": 3,
         "tags": [
             "Sobota po 24 Niedzieli po Zesłaniu Ducha Świętego"
         ],
-        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
+        "title": "Św. Bibiany, Dziewicy i Męczennicy"
     },
     {
         "colors": [
@@ -4034,7 +4025,7 @@
     },
     {
         "colors": [
-            "r"
+            "w"
         ],
         "commemorations": [
             "Poniedziałek po 1 Niedzieli Adwentu"
@@ -4044,7 +4035,7 @@
         "tags": [
             "Poniedziałek po 1 Niedzieli Adwentu"
         ],
-        "title": "Św. Barbary, Dziewicy i Męczennicy"
+        "title": "Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [

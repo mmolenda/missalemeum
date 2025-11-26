@@ -3438,7 +3438,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -3650,7 +3650,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Piątek po 3 Niedzieli Wielkiego Postu*\nNiech łaska Twoja, Panie, towarzyszy naszym postom, abyśmy odmawiają",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nBoże, za pogardę zaszczytów ziemskich błogosławionego Wincente",
         "id": "Commemoratio Oratio"
       },
       {
@@ -3666,7 +3666,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -3674,7 +3674,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Piątek po 3 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, wejrzyj łaskawie na dary, które Ci składamy w of",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy",
         "id": "Commemoratio Secreta"
       },
       {
@@ -3690,7 +3690,61 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Piątek po 3 Niedzieli Wielkiego Postu*\nPanie, niechaj przyjęcie tego Sakramentu oczyści nas z grzechu i dop",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za ",
+        "id": "Commemoratio Postcommunio"
+      }
+    ],
+    [
+      {
+        "body": "*Syr 45:30*\nPan zawarł z nim przymierze pokoju i ustanowił go przełożonym, aby godność kapłańska została przy nim na wie",
+        "id": "Introitus"
+      },
+      {
+        "body": "Boże, za pogardę zaszczytów ziemskich błogosławionego Wincentego, Twego Wyznawcę i Biskupa, okryłeś chwałą pokory: prosi",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nBoże, Ty świętego Jana, gorejącego miłością Twoją, przeprowadziłeś bez szkody wś",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu i okazał s",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\n℣. Nie znalazł się jemu podobny, który ",
+        "id": "Graduale"
+      },
+      {
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzekł Jezus uczniom swoim tę przypowieść: «C",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 88:21-22*\nZnalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię ",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Panie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ich zasługi doznali również ich opieki.\nPrzez",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wy",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
+        "id": "Communio"
+      },
+      {
+        "body": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną świętego N., Wyznawcy Twego i ",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niec",
         "id": "Commemoratio Postcommunio"
       }
     ]
@@ -3780,7 +3834,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -4414,7 +4468,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -4470,7 +4524,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -6420,7 +6474,7 @@
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Piotra, Twego Wyznawcy i Doktora, która zaleci Tobie naszą ofiarę i wyj",
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Piotra, Twego Wyznawcy i Doktora, która zaleci Tobie naszą o",
         "id": "Secreta"
       },
       {
@@ -6432,7 +6486,7 @@
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Piotr, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja dała nam ",
+        "body": "Prosimy Cię, Panie, niech święty Piotr, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoj",
         "id": "Postcommunio"
       }
     ]
@@ -6548,7 +6602,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -6704,56 +6758,44 @@
   "2024-05-04": [
     [
       {
-        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps",
+        "body": "*Ps 118:75; 118:120*\nWiem, Panie, że słuszne są Twoje wyroki, żeś sprawiedliwie mnie trapił: drży moje ciało z bojaźni p",
         "id": "Introitus"
       },
       {
-        "body": "Boże, który sprawiasz nam radość z uroczystości św. Floriana, Twego Męczennika, daj łaskawie, byśmy czcząc chwalebne jeg",
+        "body": "Boże, pocieszycielu zasmuconych i nadziejo ufających Tobie, któryś miłosiernie przyjął rzewne łzy św. Moniki, udzielając",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Moniki, Wdowy*\nBoże, pocieszycielu zasmuconych i nadziejo ufających Tobie, któryś miłosiernie przyjął r",
-        "id": "Commemoratio Oratio"
-      },
-      {
-        "body": "Czytanie z Księgi Mądrości.\n*Mdr 5:1-5*\nSprawiedliwi staną z wielką stanowczością naprzeciw tych, którzy ich uciskali i ",
+        "body": "Z Księgi Przysłów Salomona.\n*Prz 31:10-17*\n10 Niewiastę mężną któż znajdzie? daleko i od ostatecznych granic cena jéj.\n1",
         "id": "Lectio"
       },
       {
-        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 2",
+        "body": "*Ps 44:3; 44:5*\nWdzięk rozlał się na Twoich wargach, przeto Bóg pobłogosławił Cię na wieki.\n℣. W obronie wiary i sprawie",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:1-7*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jam jest prawdziwy krze",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 7:11-16*\n*Boleść Matki-Kościoła, który opłakuje swe dzieci pogrążone",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych, alleluja, alleluja.",
+        "body": "@Commune/C7a",
         "id": "Offertorium"
       },
       {
-        "body": "Prosimy Cię, Boże, niech zaleci Tobie ten dar ofiarny dostojna modlitwa św. Floriana, Twego Męczennika, który, zniewolon",
+        "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał p",
         "id": "Secreta"
-      },
-      {
-        "body": "*Wspomnienie Św. Moniki, Wdowy*\nPrzyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając,",
-        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią, alleluja, alleluja",
+        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech uczestnictwo w niebieskim Sakramencie chroni nas od podstępnej napaści wroga i za przyczyną św",
+        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzi",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Wspomnienie Św. Moniki, Wdowy*\nNasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem ",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -6848,31 +6890,31 @@
   "2024-05-07": [
     [
       {
-        "body": "*Iz 48:20*\nRadosną nowinę głoście, niech będzie słyszana, alleluja, po krańce ziemi rozpowiadajcie, iż Pan swój naród wy",
+        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps",
         "id": "Introitus"
       },
       {
-        "body": "Boże, od Ciebie pochodzi wszystko, co dobre; pokornie Cię prosimy, aby z Twojego natchnienia myśli nasze były prawe i po",
+        "body": "Boże, który sprawiasz nam radość z uroczystości św. Floriana, Twego Męczennika, daj łaskawie, byśmy czcząc chwalebne jeg",
         "id": "Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Jakuba Apostoła.\n*Jk 1:22-27*\nNajmilsi: Bądźcie wykonawcami słowa, a nie tylko słuchaczami, os",
+        "body": "Czytanie z Księgi Mądrości.\n*Mdr 5:1-5*\nSprawiedliwi staną z wielką stanowczością naprzeciw tych, którzy ich uciskali i ",
         "id": "Lectio"
       },
       {
-        "body": "\n℣. Powstał Chrystus z martwych i zajaśniał nam, których Krwią swoją odkupił. \n*J 16:28*\nWyszedłem od Ojca i przyszedłem",
+        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 2",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 16:23-30*\n*Związek chrześcijan z Chrystusem jest tak ścisły, że ich modl",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:1-7*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jam jest prawdziwy krze",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 65:8-9; 65:20*\n*Przez Chrzest święty zostaliśmy przeznaczeni do życia.*\nBłogosławcie, ludy, naszemu Bogu i sławę Jeg",
+        "body": "*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych, alleluja, alleluja.",
         "id": "Offertorium"
       },
       {
-        "body": "Prosimy Cię, Panie, przyjmij modlitwy wiernych i ofiary przez nich złożone, a nabożne sprawowanie służby Twojej niech na",
+        "body": "Prosimy Cię, Boże, niech zaleci Tobie ten dar ofiarny dostojna modlitwa św. Floriana, Twego Męczennika, który, zniewolon",
         "id": "Secreta"
       },
       {
@@ -6880,11 +6922,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 95:2*\nŚpiewajcie Panu, alleluja; śpiewajcie Panu i błogosławcie Jego imieniu; z dnia na dzień zwiastujcie zbawienie ",
+        "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią, alleluja, alleluja",
         "id": "Communio"
       },
       {
-        "body": "Spraw, Panie, abyśmy posileni niebieskim pokarmem, pragnęli tego, co prawe i osiągnęli to, czego pragniemy.\nPrzez Pana…",
+        "body": "Prosimy Cię, Panie, niech uczestnictwo w niebieskim Sakramencie chroni nas od podstępnej napaści wroga i za przyczyną św",
         "id": "Postcommunio"
       }
     ]
@@ -7244,7 +7286,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -7344,7 +7386,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -7772,7 +7814,7 @@
         "id": "LectioL5"
       },
       {
-        "body": "Alleluja.\n*Dn 3:52*\nBłogosławiony jesteś Panie, Boże ojców naszych, i chwalebny na wieki.",
+        "body": "Alleluja.\n*Dn 3:52*\nBłogosławiony jesteś Panie, Boże ojców naszych, i chwalebny na wieki.\n\n\nChwała na wysokości Bogu, a ",
         "id": "GradualeL5"
       },
       {
@@ -7888,7 +7930,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -7940,7 +7982,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -7984,7 +8026,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -8112,44 +8154,56 @@
   "2024-06-01": [
     [
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
+        "body": "*Iz 61:1*\nDuch Pański nade mną, dlatego mnie namaścił i posłał mnie, abym głosił dobrą nowinę cichym. (O. W. Alleluja, a",
         "id": "Introitus"
       },
       {
-        "body": "Boże, Tyś chciał, by dzięki św. Anieli zakwitł w Kościele Twoim nowy zakon dziewic Tobie poświęconych; daj nam za jej pr",
+        "body": "Boże, Ty w błogosławionym Jakubie, Twoim Wyznawcy i Biskupie, przedziwnie wznowiłeś apostolskiego ducha głoszenia Ewange",
         "id": "Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
+        "body": "*Wspomnienie Św. Anieli Merici, Dziewicy*\nBoże, Tyś chciał, by dzięki św. Anieli zakwitł w Kościele Twoim nowy zakon dzi",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "*Flp 1:3-11*\nDzięki czynię Bogu mojemu, ilekroć was wspominam, zawsze, we wszystkich modlitwach moich modląc się za was ",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów",
+        "body": "*Syr 44:16-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n℣. Nie znalazł się jemu podobny, który  by zacho",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "Wybrał go sobie Pan na kapłana, aby Mu składał ofiarę pochwalną. (O. W. Alleluja.)",
         "id": "Offertorium"
       },
       {
-        "body": "Ofiara, którą Tobie, Panie, składamy czcząc pamięć świętej Anieli, niech nam wybłaga przebaczenie naszych nieprawości i ",
+        "body": "Prosimy Cię, Panie, aby Twoja ofiara wznieciła w nas taki płomień najczystszej miłości, jakim pałał błogosławiony Jakub ",
         "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Św. Anieli Merici, Dziewicy*\nOfiara, którą Tobie, Panie, składamy czcząc pamięć świętej Anieli, niech nam w",
+        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
+        "body": "*Mt 10:27*\nCo wam mówię w ciemności, opowiadajcie na świetle: i co usłyszycie na ucho, głoście na dachach. (O. W. Allelu",
         "id": "Communio"
       },
       {
-        "body": "Niebieskim pokarmem posileni, pokornie prosimy Cię, Panie, abyśmy za przykładem i przez modlitwy św. Anieli oczyszczeni ",
+        "body": "Najmiłościwszy Boże, niech łaska tego Sakramentu, który przyjęliśmy, trwa w sercach naszych: abyśmy nią umocnieni, za pr",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Anieli Merici, Dziewicy*\nNiebieskim pokarmem posileni, pokornie prosimy Cię, Panie, abyśmy za przykłade",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -8264,7 +8318,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -8632,7 +8686,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -8684,7 +8738,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -8776,7 +8830,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -8940,7 +8994,7 @@
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Efrem, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja dała nam ",
+        "body": "Prosimy Cię, Panie, niech święty Efrem, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoj",
         "id": "Postcommunio"
       },
       {
@@ -8976,7 +9030,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -9228,7 +9282,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -9460,7 +9514,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -9856,7 +9910,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -10080,43 +10134,43 @@
   "2024-07-13": [
     [
       {
-        "body": "*Ps 104:3-4*\nNiech się weseli serce szukających Pana, szukajcie Pana i umacniajcie się, szukajcie zawsze Jego oblicza. (",
+        "body": "*Seduliusz*\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków.\n*Ps 44:2*",
         "id": "Introitus"
       },
       {
-        "body": "Najłaskawszy Boże, który sprawiłeś, że święci Andrzej i Benedykt wyłącznie Tobie się oddali przez podziwu godną wstrzemi",
+        "body": "Prosimy Cię, Panie, Boże, dozwól nam, sługom Swoim, cieszyć się trwałym zdrowiem duszy i ciała, a za przyczyną Najświęts",
         "id": "Oratio"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 2:7-13*\nKtórzy się Pana boicie, czekajcie Jego miłosierdzia, a nie odstępujcie od Nie",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dzie",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 30:24-25*\nMiłujcie Pana, wszyscy Święci Jego! Pan wiernych zachowuje, ale odpłaca z nawiązką tym, którzy postępują w",
+        "body": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela.\n℣. Bogarod",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 11:27-28*\nOnego czasu: Gdy Jezus mówił do rzesz, pewna niewiasta z t",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 67:4*\nSprawiedliwi się cieszą i weselą przed Bożym obliczem, i rozkoszują się pośród radości. (O. W. Alleluja.)",
+        "body": "*Łk 1:28 1:42*\nZdrowaś, Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywot",
         "id": "Offertorium"
       },
       {
-        "body": "Gdy składamy ofiary na Twoim ołtarzu, Panie, daj nam takie uczucie pobożności, jakim obdarzyłeś świętych Wyznawców Twoic",
+        "body": "Panie, niech z Twego zmiłowania, a za przyczyną błogosławionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i do",
         "id": "Secreta"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
+        "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
         "id": "Prefatio"
       },
       {
-        "body": "*Łk 12:37*\nBłogosławieni słudzy owi, których Pan, gdy nadejdzie, zastanie czuwającymi. Zaprawdę powiadam wam, że przepas",
+        "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
         "id": "Communio"
       },
       {
-        "body": "Wszechmogący Boże, niech za wstawiennictwem świętych Wyznawców Twoich Andrzeja i Benedykta święta uczta udzieli nam pomo",
+        "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi z",
         "id": "Postcommunio"
       }
     ]
@@ -10168,56 +10222,44 @@
   "2024-07-15": [
     [
       {
-        "body": "*Iz 42:6*\nJa, Pan, wezwałem cię sprawiedliwie i ująłem cię za rękę i dałem cię na przymierze dla ludu, na światłość naro",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
         "id": "Introitus"
       },
       {
-        "body": "Najmiłosierniejszy Boże, za szerzenie wiary w Ciebie święty Brunon, Biskup i Męczennik wielkodusznie przelał krew na tyc",
+        "body": "Boże, który w dniu dzisiejszym przeniosłeś św. Henryka, Twego Wyznawcę, ze szczytu władzy ziemskiej do królestwa wieczne",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nBoże, który w dniu dzisiejszym przeniosłeś św. Henryka, Twego Wyznawcę, ze",
-        "id": "Commemoratio Oratio"
-      },
-      {
-        "body": "Czytanie z Księgi Mądrości.\n*Mdr 6:10-22*\n*Św. Brunon znał osobiście wielu władców i udzielał im rad oraz napomnień.*\nDo",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 118:46-47*\nŚwiadczyłem o Twej prawdzie wobec królów, a nie wstydziłem się.\n℣. I rozważałem Twoją naukę, bo bardzo ją",
+        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosi",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:12-16*\nOnego czasu: Rzekł Jezus uczniom swoim: «To jest przykazanie m",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
         "id": "Evangelium"
       },
       {
-        "body": "*Kol 1:24-25*\nRaduję się w cierpieniach i dopełniam na ciele własnym tego, czego nie dostaje cierpieniom Chrystusa; za c",
+        "body": "@Commune/C2",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech ta ofiara uwolni nas od więzów naszych grzechów i za wstawiennictwem świętego Brunona, Twego Męczennika i B",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
         "id": "Secreta"
-      },
-      {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ",
-        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
       {
-        "body": "*Flp 1:20-21*\nUwielbiony będzie Chrystus w moim ciele czy to przez życie, czy też przez śmierć; bo dla mnie życiem jest ",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
         "id": "Communio"
       },
       {
-        "body": "Posileni ucztą niebieską, błagamy Cię, Panie, byś łaskawie rozpalił w nas ogień Twego Ducha, który świętego Brunona, Męc",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -10460,7 +10502,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -10556,7 +10598,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -10604,7 +10646,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -10768,7 +10810,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -10780,7 +10822,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -10916,7 +10958,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -11024,7 +11066,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -11372,7 +11414,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -11956,7 +11998,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -12000,7 +12042,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -12044,7 +12086,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -12368,7 +12410,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -12480,7 +12522,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -12532,7 +12574,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -13684,7 +13726,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -14020,7 +14062,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -14208,7 +14250,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -14412,7 +14454,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -14444,39 +14486,39 @@
   "2024-10-09": [
     [
       {
-        "body": "*Syr 45:30*\nPan zawarł z nim przymierze pokoju i ustanowił go przełożonym, aby godność kapłańska została przy nim na wie",
+        "body": "*Syr 42:15-16*\n*Gorliwa działalność św. Jana przyczyniała się do rozszerzenia świata wiary.*\nW słowach Pańskich jego dzi",
         "id": "Introitus"
       },
       {
-        "body": "Boże, za pogardę zaszczytów ziemskich błogosławionego Wincentego, Twego Wyznawcę i Biskupa, okryłeś chwałą pokory: prosi",
+        "body": "Boże, który raczyłeś przedziwnie powołać św. Jana, Twego Wyznawcę, do krzewienia wiary wśród pogan, i przez niego zgroma",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\nBoże, który raczyłeś przedziwnie powołać św. Jana, Twego Wyznawcę, do krzewien",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nBoże, który świętego Dionizego, Twego Męczennika i Biskupa, w dniu d",
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu i okazał s",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 4:1-6; 15-18*\nBracia: Mając z miłosierdzia okazanego nam t",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\n℣. Nie znalazł się jemu podobny, który ",
+        "body": "*Ps 72:21; 68:10*\nRozpaliło się serce moje, a sumienie moje się wzruszyło: gorliwość o dom Twój pożera mnie.\n*Iz 49:2*\nU",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzekł Jezus uczniom swoim tę przypowieść: «C",
+        "body": "@Sancti/04-25:Evangelium",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:21-22*\nZnalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię ",
+        "body": "*Kol 1:25*\nStałem się sługą Chrystusa w zleconym mi włodarstwie, abym wypełniał słowo Pańskie.",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ich zasługi doznali również ich opieki.\nPrzez",
+        "body": "*Dzięki misjonarzom wychowanym w Kolegium Rozkrzewiania Wiary, założonym przez św. Jana, Msza święta jest odprawiana we ",
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\n*Dzięki misjonarzom wychowanym w Kolegium Rozkrzewiania Wiary, założonym przez",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nProsimy Cię, Panie, przyjmij łaskawie dary, które Ci składa Twój lud",
         "id": "Commemoratio Secreta"
       },
       {
@@ -14484,15 +14526,15 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
+        "body": "*Flp 3:7*\nCo było mi zyskiem, ze względu na Chrystusa poczytałem za szkodę.",
         "id": "Communio"
       },
       {
-        "body": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną świętego N., Wyznawcy Twego i ",
+        "body": "Pokrzepieni świętymi tajemnicami drogocennego Ciała i Krwi Twojej, prosimy Cię, Panie, abyśmy starali się naśladować prz",
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\nPokrzepieni świętymi tajemnicami drogocennego Ciała i Krwi Twojej, prosimy Cię",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nPrzyjąwszy Sakrament, prosimy Cię, Panie, aby za wstawiennictwem świ",
         "id": "Commemoratio Postcommunio"
       }
     ]
@@ -14752,7 +14794,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -14796,7 +14838,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -14996,11 +15038,11 @@
   "2024-10-21": [
     [
       {
-        "body": "*Iz 61:1*\nDuch Pański nade mną, dlatego mnie namaścił i posłał mnie, abym głosił dobrą nowinę cichym. (O. W. Alleluja, a",
+        "body": "*Ps 129:3-4*\nJeśli zachowasz pamięć o występkach, Panie, Panie, któż się ostoi? Ale u Ciebie, Boże Izraela, jest przebac",
         "id": "Introitus"
       },
       {
-        "body": "Boże, Ty w błogosławionym Jakubie, Twoim Wyznawcy i Biskupie, przedziwnie wznowiłeś apostolskiego ducha głoszenia Ewange",
+        "body": "Boże, ucieczko nasza i mocy, wysłuchaj pokornych modłów Twojego Kościoła, skoro pobożność, która je zrodziła, Twoim jest",
         "id": "Oratio"
       },
       {
@@ -15008,23 +15050,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "*Flp 1:3-11*\nDzięki czynię Bogu mojemu, ilekroć was wspominam, zawsze, we wszystkich modlitwach moich modląc się za was ",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Filipian.\n*Flp 1:6-11*\nBracia: Ufamy, w Panu Jezusie, że Ten, który rozpoczą",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n℣. Nie znalazł się jemu podobny, który  by zacho",
+        "body": "*Ps 132:1-2*\n*Życie w społeczności Kościoła przygotowuje nas do życia wiecznego, w którym miłość usunie wszelkie różnice",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 22:15-21*\nOnego czasu: Faryzeusze odszedłszy naradzali się, jakby G",
         "id": "Evangelium"
       },
       {
-        "body": "Wybrał go sobie Pan na kapłana, aby Mu składał ofiarę pochwalną. (O. W. Alleluja.)",
+        "body": "*Est 14:12; 14:13*\nWspomnij na mnie, o Panie, któremu wszelka zwierzchność podlega. Włóż w moje usta mowę właściwą, aby ",
         "id": "Offertorium"
       },
       {
-        "body": "Prosimy Cię, Panie, aby Twoja ofiara wznieciła w nas taki płomień najczystszej miłości, jakim pałał błogosławiony Jakub ",
+        "body": "Daj, miłosierny Boże, aby ta zbawienna ofiara zawsze nas wyzwalała z naszych grzechów i broniła od wszelkich przeciwnośc",
         "id": "Secreta"
       },
       {
@@ -15036,11 +15078,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 10:27*\nCo wam mówię w ciemności, opowiadajcie na świetle: i co usłyszycie na ucho, głoście na dachach. (O. W. Allelu",
+        "body": "*Ps 16:6*\nWzywam Cię, Boże, bo Ty mnie wysłuchasz. Nakłoń ku mnie Twe ucho, usłysz moje słowa.",
         "id": "Communio"
       },
       {
-        "body": "Najmiłościwszy Boże, niech łaska tego Sakramentu, który przyjęliśmy, trwa w sercach naszych: abyśmy nią umocnieni, za pr",
+        "body": "Przyjęliśmy, Panie, dary świętego misterium, pokornie błagając, aby to, co kazałeś nam czynić na Twoją pamiątkę, przynio",
         "id": "Postcommunio"
       },
       {
@@ -15116,7 +15158,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -16140,6 +16182,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieust",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Księgi Mądrości.\n*Syr 44:10-15*\nCi są mężami pełnymi miłosierdzia, których dobre czyny nie poszły w niepamięć",
         "id": "Lectio"
       },
@@ -16160,6 +16206,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by t",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
@@ -16170,6 +16220,10 @@
       {
         "body": "Przyjęliśmy, Panie, niebieski Sakrament, obchodząc uroczystość świętych Twoich Męczenników Benedykta, Jana, Mateusza, Iz",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -16296,7 +16350,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -16340,7 +16394,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -16476,7 +16530,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -16508,56 +16562,44 @@
   "2024-11-20": [
     [
       {
-        "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSła",
+        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsion",
         "id": "Introitus"
       },
       {
-        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego Marcina, Twojego",
+        "body": "Boże, który świętego Feliksa, Twego Wyznawcę, przez natchnienie niebieskie raczyłeś wezwać z pustelni do dzieła wykupu n",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nBoże, który świętego Feliksa, Twego Wyznawcę, przez natchnienie niebieskie ",
-        "id": "Commemoratio Oratio"
-      },
-      {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra,",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla A",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 106:32; 106:31*\nNiechaj Go sławią ludy w zgromadzeniu, i na zebraniu starców niechaj Go chwalą.\n℣. Niech dzięki czyn",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego ser",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej ",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, tr",
         "id": "Evangelium"
       },
       {
-        "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i bur",
+        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie je",
         "id": "Offertorium"
       },
       {
-        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
+        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie",
         "id": "Secreta"
-      },
-      {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nProsimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze sk",
-        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie ",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
+        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawi",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nProsimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, ch",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -16628,7 +16670,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -16692,7 +16734,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -16772,7 +16814,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -17084,11 +17126,11 @@
   "2024-12-02": [
     [
       {
-        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
+        "body": "*Ps 118:95-96*\nCzekali na mnie grzesznicy, ażeby mię zgubić, a ja pojęłam Twoje nakazy: widziałam, że ma granice wszelka",
         "id": "Introitus"
       },
       {
-        "body": "Boże, Tyś cudownie objawił Swoją wolą, by na rządcę i nauczyciela Twego Kościoła wybrano św. Piotra Chryzologa, spraw, p",
+        "body": "Boże, dawco wszelkich dóbr, który połączyłeś w służebnicy Twojej Bibianie palmę męczeństwa z kwiatem dziewictwa, za jej ",
         "id": "Oratio"
       },
       {
@@ -17096,23 +17138,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 51:13-17*\nPanie Boże mój, ku Tobie wzniosłam prośbę moją i błagałam, gdy śmierć mi gr",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\nNie znalazł się jemu podobny, który by ",
+        "body": "*Ps 45:6; 45:5*\nBóg ją wspomaga swoim wejrzeniem: Bóg jest w jej wnętrzu, będzie niewzruszona.\n℣. Prąd rzeki cieszy mias",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieś",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Piotra Chryzologa, Twego Biskupa i Doktora, która zaleci Tob",
+        "body": "Prosimy Cię, Panie, przyjmij łaskawie ofiarę, którą Ci składamy przez zasługi świętej Bibiánæ, Twojej Dziewicy i Męczenn",
         "id": "Secreta"
       },
       {
@@ -17124,11 +17166,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 25:20-21*\nPanie, dałeś mi pięć talentów, otom drugie pięć zyskał. Dobrze, sługo prawy i wierny, żeś w małym był wier",
+        "body": "*Ps 118:121; 118:122;118:128*\nPrzestrzegałam prawa i sprawiedliwości, niech nie ciemiężą mnie pyszni, stosowałam się do ",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Piotr Chryzolog, Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ofi",
+        "body": "Darem Bożym szczodrze nasyceni, prosimy Cię, Panie Boże nasz, abyśmy za wstawiennictwem świętej Bibiánæ, Twojej Dziewicy",
         "id": "Postcommunio"
       },
       {
@@ -17164,7 +17206,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -17196,11 +17238,11 @@
   "2024-12-04": [
     [
       {
-        "body": "*Ps 118:46-47*\nŚwiadczyłam o Twej prawdzie wobec królów, a nie wstydziłam się, i rozważałam Twoją naukę, bo bardzo ją po",
+        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
         "id": "Introitus"
       },
       {
-        "body": "Panie, niech nas broni od wszelkich przeciwności wstawiennictwo św. Barbary, Dziewicy i Męczennicy Twojej. Obyśmy za jej",
+        "body": "Boże, Tyś cudownie objawił Swoją wolą, by na rządcę i nauczyciela Twego Kościoła wybrano św. Piotra Chryzologa, spraw, p",
         "id": "Oratio"
       },
       {
@@ -17208,23 +17250,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 51:1-8; 51:12*\nWyznawać Ci będę, Panie i Królu, i wychwalać Cię będę, Boga, Zbawcę me",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości.\n℣. Dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela. A",
+        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\nNie znalazł się jemu podobny, który by ",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
-        "body": "Przyjmij, Panie, dary, które Ci składamy w uroczystość świętej N., Dziewicy i Męczennicy Twojej: ufamy, że jej wstawienn",
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Petri Chrysólogi, Twego Biskupa i Doktora, która zaleci Tobi",
         "id": "Secreta"
       },
       {
@@ -17236,11 +17278,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 118:78; 118:80*\nNiech zawstydzą się pyszni, bo niewinnie mnie dręczą, ja będę rozmyślać o Twych przykazaniach, o pra",
+        "body": "*Mt 25:20-21*\nPanie, dałeś mi pięć talentów, otom drugie pięć zyskał. Dobrze, sługo prawy i wierny, żeś w małym był wier",
         "id": "Communio"
       },
       {
-        "body": "Panie, niech nas wspomaga przyjęty Sakrament, i za wstawiennictwem świętej N., Twojej Dziewicy i Męczennicy, niech spraw",
+        "body": "Prosimy Cię, Panie, niech święty Petrus Chrysólogus, Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ",
         "id": "Postcommunio"
       },
       {
@@ -17332,7 +17374,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -17700,7 +17742,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -18472,7 +18514,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -21790,7 +21832,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -22002,7 +22044,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Sobota po Popielcu*\nPrzychyl się, Panie, ku prośbom naszym i spraw, abyśmy w posłusznym oddaniu się Tobie o",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nBoże, za pogardę zaszczytów ziemskich błogosławionego Wincente",
         "id": "Commemoratio Oratio"
       },
       {
@@ -22018,7 +22060,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -22026,7 +22068,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Sobota po Popielcu*\nPrzyjmij, Panie, tę ofiarę, którą uznałeś za godną, aby Cię przebłagać, i spraw, abyśmy",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy",
         "id": "Commemoratio Secreta"
       },
       {
@@ -22042,7 +22084,61 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Sobota po Popielcu*\nPokrzepieni życiodajnym darem z nieba, prosimy Cię, Panie, aby to, co w obecnym życiu j",
+        "body": "*Wspomnienie Bł. Wincentego Kadłubka, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za ",
+        "id": "Commemoratio Postcommunio"
+      }
+    ],
+    [
+      {
+        "body": "*Syr 45:30*\nPan zawarł z nim przymierze pokoju i ustanowił go przełożonym, aby godność kapłańska została przy nim na wie",
+        "id": "Introitus"
+      },
+      {
+        "body": "Boże, za pogardę zaszczytów ziemskich błogosławionego Wincentego, Twego Wyznawcę i Biskupa, okryłeś chwałą pokory: prosi",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nBoże, Ty świętego Jana, gorejącego miłością Twoją, przeprowadziłeś bez szkody wś",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu i okazał s",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\n℣. Nie znalazł się jemu podobny, który ",
+        "id": "Graduale"
+      },
+      {
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzekł Jezus uczniom swoim tę przypowieść: «C",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 88:21-22*\nZnalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię ",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Panie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ich zasługi doznali również ich opieki.\nPrzez",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wy",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
+        "id": "Communio"
+      },
+      {
+        "body": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną świętego N., Wyznawcy Twego i ",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Jana Bożego, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niec",
         "id": "Commemoratio Postcommunio"
       }
     ]
@@ -22780,7 +22876,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -22836,7 +22932,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -25176,7 +25272,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -25464,31 +25560,31 @@
   "2025-05-07": [
     [
       {
-        "body": "*Ps 32:5-6*\nPełna jest ziemia łaskawości Pana, alleluja, przez słowo Pana stały się niebiosa, alleluja, alleluja.\n*Ps 32",
+        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps",
         "id": "Introitus"
       },
       {
-        "body": "Boże, któryś przez uniżenie się Syna Twojego podźwignął upadły świat, napełnij wiernych Twoich nieustannym weselem, aby ",
+        "body": "Boże, który sprawiasz nam radość z uroczystości św. Floriana, Twego Męczennika, daj łaskawie, byśmy czcząc chwalebne jeg",
         "id": "Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 2:21-25*\nNajmilsi: Chrystus cierpiał zostawiając wam przykład, abyście w",
+        "body": "Czytanie z Księgi Mądrości.\n*Mdr 5:1-5*\nSprawiedliwi staną z wielką stanowczością naprzeciw tych, którzy ich uciskali i ",
         "id": "Lectio"
       },
       {
-        "body": "\n*Łk 24:35*\nPoznali uczniowie Pana Jezusa przy łamaniu chleba. \n*J 10:14*\nJam jest Pasterz dobry. Znam owce swoje i znaj",
+        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 2",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:1-7*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jam jest prawdziwy krze",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 62:2; 62:5*\nBoże, moim jesteś Bogiem, pilnie Ciebie szukam; i w imię Twoje będę wznosił me ręce, alleluja.",
+        "body": "*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych, alleluja, alleluja.",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech święta ofiara zawsze sprowadza na nas zbawienne błogosławieństwo, i swoją mocą urzeczywistnia to, co się do",
+        "body": "Prosimy Cię, Boże, niech zaleci Tobie ten dar ofiarny dostojna modlitwa św. Floriana, Twego Męczennika, który, zniewolon",
         "id": "Secreta"
       },
       {
@@ -25496,11 +25592,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*J 10:14*\nJam jest Pasterz dobry, alleluja: znam owce moje i znają mnie moje, alleluja, alleluja.",
+        "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią, alleluja, alleluja",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię wszechmogący Boże, spraw, abyśmy otrzymawszy Twoją życiodajną łaskę, zawsze szczycili się z Twojego daru.\nPr",
+        "body": "Prosimy Cię, Panie, niech uczestnictwo w niebieskim Sakramencie chroni nas od podstępnej napaści wroga i za przyczyną św",
         "id": "Postcommunio"
       }
     ]
@@ -25572,7 +25668,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -25872,7 +25968,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -25972,7 +26068,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -26080,7 +26176,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -26116,7 +26212,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -26440,7 +26536,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -26848,7 +26944,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -27588,7 +27684,7 @@
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Efrem, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja dała nam ",
+        "body": "Prosimy Cię, Panie, niech święty Efrem, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoj",
         "id": "Postcommunio"
       },
       {
@@ -27856,7 +27952,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -28096,7 +28192,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -28496,7 +28592,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -28784,7 +28880,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -28808,56 +28904,44 @@
   "2025-07-15": [
     [
       {
-        "body": "*Iz 42:6*\nJa, Pan, wezwałem cię sprawiedliwie i ująłem cię za rękę i dałem cię na przymierze dla ludu, na światłość naro",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
         "id": "Introitus"
       },
       {
-        "body": "Najmiłosierniejszy Boże, za szerzenie wiary w Ciebie święty Brunon, Biskup i Męczennik wielkodusznie przelał krew na tyc",
+        "body": "Boże, który w dniu dzisiejszym przeniosłeś św. Henryka, Twego Wyznawcę, ze szczytu władzy ziemskiej do królestwa wieczne",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nBoże, który w dniu dzisiejszym przeniosłeś św. Henryka, Twego Wyznawcę, ze",
-        "id": "Commemoratio Oratio"
-      },
-      {
-        "body": "Czytanie z Księgi Mądrości.\n*Mdr 6:10-22*\n*Św. Brunon znał osobiście wielu władców i udzielał im rad oraz napomnień.*\nDo",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 118:46-47*\nŚwiadczyłem o Twej prawdzie wobec królów, a nie wstydziłem się.\n℣. I rozważałem Twoją naukę, bo bardzo ją",
+        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosi",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:12-16*\nOnego czasu: Rzekł Jezus uczniom swoim: «To jest przykazanie m",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
         "id": "Evangelium"
       },
       {
-        "body": "*Kol 1:24-25*\nRaduję się w cierpieniach i dopełniam na ciele własnym tego, czego nie dostaje cierpieniom Chrystusa; za c",
+        "body": "@Commune/C2",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech ta ofiara uwolni nas od więzów naszych grzechów i za wstawiennictwem świętego Brunona, Twego Męczennika i B",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
         "id": "Secreta"
-      },
-      {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ",
-        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
       {
-        "body": "*Flp 1:20-21*\nUwielbiony będzie Chrystus w moim ciele czy to przez życie, czy też przez śmierć; bo dla mnie życiem jest ",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
         "id": "Communio"
       },
       {
-        "body": "Posileni ucztą niebieską, błagamy Cię, Panie, byś łaskawie rozpalił w nas ogień Twego Ducha, który świętego Brunona, Męc",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Wspomnienie Św. Henryka, Cesarza i Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -29144,7 +29228,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -29196,7 +29280,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -29244,7 +29328,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -29408,7 +29492,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -29420,7 +29504,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -29544,7 +29628,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -29652,7 +29736,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -29852,7 +29936,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -30000,7 +30084,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -30620,7 +30704,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -30664,7 +30748,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -30708,7 +30792,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -30908,7 +30992,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -31044,7 +31128,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -31156,7 +31240,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -31252,7 +31336,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -32352,7 +32436,7 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
         "id": "Communio"
       },
       {
@@ -32756,7 +32840,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -32944,7 +33028,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -33032,7 +33116,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -33136,7 +33220,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -33168,39 +33252,39 @@
   "2025-10-09": [
     [
       {
-        "body": "*Syr 45:30*\nPan zawarł z nim przymierze pokoju i ustanowił go przełożonym, aby godność kapłańska została przy nim na wie",
+        "body": "*Syr 42:15-16*\n*Gorliwa działalność św. Jana przyczyniała się do rozszerzenia świata wiary.*\nW słowach Pańskich jego dzi",
         "id": "Introitus"
       },
       {
-        "body": "Boże, za pogardę zaszczytów ziemskich błogosławionego Wincentego, Twego Wyznawcę i Biskupa, okryłeś chwałą pokory: prosi",
+        "body": "Boże, który raczyłeś przedziwnie powołać św. Jana, Twego Wyznawcę, do krzewienia wiary wśród pogan, i przez niego zgroma",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\nBoże, który raczyłeś przedziwnie powołać św. Jana, Twego Wyznawcę, do krzewien",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nBoże, który świętego Dionizego, Twego Męczennika i Biskupa, w dniu d",
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 44:16-27; 45:3-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu i okazał s",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 4:1-6; 15-18*\nBracia: Mając z miłosierdzia okazanego nam t",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\n℣. Nie znalazł się jemu podobny, który ",
+        "body": "*Ps 72:21; 68:10*\nRozpaliło się serce moje, a sumienie moje się wzruszyło: gorliwość o dom Twój pożera mnie.\n*Iz 49:2*\nU",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:14-23*\nOnego czasu: Rzekł Jezus uczniom swoim tę przypowieść: «C",
+        "body": "@Sancti/04-25:Evangelium",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:21-22*\nZnalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię ",
+        "body": "*Kol 1:25*\nStałem się sługą Chrystusa w zleconym mi włodarstwie, abym wypełniał słowo Pańskie.",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając ich zasługi doznali również ich opieki.\nPrzez",
+        "body": "*Dzięki misjonarzom wychowanym w Kolegium Rozkrzewiania Wiary, założonym przez św. Jana, Msza święta jest odprawiana we ",
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\n*Dzięki misjonarzom wychowanym w Kolegium Rozkrzewiania Wiary, założonym przez",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nProsimy Cię, Panie, przyjmij łaskawie dary, które Ci składa Twój lud",
         "id": "Commemoratio Secreta"
       },
       {
@@ -33208,15 +33292,15 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
+        "body": "*Flp 3:7*\nCo było mi zyskiem, ze względu na Chrystusa poczytałem za szkodę.",
         "id": "Communio"
       },
       {
-        "body": "Wszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dary, za przyczyną świętego N., Wyznawcy Twego i ",
+        "body": "Pokrzepieni świętymi tajemnicami drogocennego Ciała i Krwi Twojej, prosimy Cię, Panie, abyśmy starali się naśladować prz",
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Św. Jana Leonardi, Wyznawcy*\nPokrzepieni świętymi tajemnicami drogocennego Ciała i Krwi Twojej, prosimy Cię",
+        "body": "*Wspomnienie Śś. Dionizego, Rustyka i Eleuteriusza*\nPrzyjąwszy Sakrament, prosimy Cię, Panie, aby za wstawiennictwem świ",
         "id": "Commemoratio Postcommunio"
       }
     ]
@@ -33388,7 +33472,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -33476,7 +33560,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą.",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
         "id": "Offertorium"
       },
       {
@@ -33520,7 +33604,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -33720,11 +33804,11 @@
   "2025-10-21": [
     [
       {
-        "body": "*Iz 61:1*\nDuch Pański nade mną, dlatego mnie namaścił i posłał mnie, abym głosił dobrą nowinę cichym. (O. W. Alleluja, a",
+        "body": "Ja jestem zbawieniem ludu, mówi Pan: w jakimkolwiek ucisku wołać będą do mnie, wysłucham ich i będę ich Panem na wieki.\n",
         "id": "Introitus"
       },
       {
-        "body": "Boże, Ty w błogosławionym Jakubie, Twoim Wyznawcy i Biskupie, przedziwnie wznowiłeś apostolskiego ducha głoszenia Ewange",
+        "body": "Wszechmogący i miłosierny Boże, usuń łaskawie wszystko, co nam się sprzeciwia, abyśmy wolni od niebezpieczeństw duszy i ",
         "id": "Oratio"
       },
       {
@@ -33732,23 +33816,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "*Flp 1:3-11*\nDzięki czynię Bogu mojemu, ilekroć was wspominam, zawsze, we wszystkich modlitwach moich modląc się za was ",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Efezjan.\n*Ef 4:23-28*\n*Szata jest znakiem godności. Oblec się w nowego człow",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16-20*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n℣. Nie znalazł się jemu podobny, który  by zacho",
+        "body": "*Ps 140:2*\nNiech się wzbija ku Tobie modlitwa ma, Panie, niby kadzidło.\n℣. Wznoszenie rąk moich jak ofiara wieczorna. \n*",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 22:1-14*\nOnego czasu: Jezus mówił do przedniejszych kapłanów i fary",
         "id": "Evangelium"
       },
       {
-        "body": "Wybrał go sobie Pan na kapłana, aby Mu składał ofiarę pochwalną. (O. W. Alleluja.)",
+        "body": "*Ps 137:7*\nGdy chodzę wśród utrapienia, Ty mnie trzymasz przy życiu, o Panie; Swą rękę wyciągasz na przekór gniewowi myc",
         "id": "Offertorium"
       },
       {
-        "body": "Prosimy Cię, Panie, aby Twoja ofiara wznieciła w nas taki płomień najczystszej miłości, jakim pałał błogosławiony Jakub ",
+        "body": "Prosimy Cię, Panie, spraw, niech te dary zaniesione przed oblicze Twojego majestatu, wyjednają nam zbawienie.\nPrzez Pana",
         "id": "Secreta"
       },
       {
@@ -33760,11 +33844,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 10:27*\nCo wam mówię w ciemności, opowiadajcie na świetle: i co usłyszycie na ucho, głoście na dachach. (O. W. Allelu",
+        "body": "*Ps 118:4-5*\nTy wydałeś Swoje przykazania, by pilnie ich przestrzegano. Oby me drogi były niezawodne ku przestrzeganiu T",
         "id": "Communio"
       },
       {
-        "body": "Najmiłościwszy Boże, niech łaska tego Sakramentu, który przyjęliśmy, trwa w sercach naszych: abyśmy nią umocnieni, za pr",
+        "body": "Panie, niech Twoje uzdrawiające działanie uwolni nas łaskawie od naszych złych skłonności i przywiąże do Twoich przykaza",
         "id": "Postcommunio"
       },
       {
@@ -33840,7 +33924,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -34768,7 +34852,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -34864,6 +34948,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieust",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Księgi Mądrości.\n*Syr 44:10-15*\nCi są mężami pełnymi miłosierdzia, których dobre czyny nie poszły w niepamięć",
         "id": "Lectio"
       },
@@ -34884,6 +34972,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by t",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
@@ -34894,6 +34986,10 @@
       {
         "body": "Przyjęliśmy, Panie, niebieski Sakrament, obchodząc uroczystość świętych Twoich Męczenników Benedykta, Jana, Mateusza, Iz",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Marcina I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -35020,7 +35116,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
@@ -35212,7 +35308,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -35244,56 +35340,44 @@
   "2025-11-20": [
     [
       {
-        "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSła",
+        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsion",
         "id": "Introitus"
       },
       {
-        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego Marcina, Twojego",
+        "body": "Boże, który świętego Feliksa, Twego Wyznawcę, przez natchnienie niebieskie raczyłeś wezwać z pustelni do dzieła wykupu n",
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nBoże, który świętego Feliksa, Twego Wyznawcę, przez natchnienie niebieskie ",
-        "id": "Commemoratio Oratio"
-      },
-      {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra,",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla A",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 106:32; 106:31*\nNiechaj Go sławią ludy w zgromadzeniu, i na zebraniu starców niechaj Go chwalą.\n℣. Niech dzięki czyn",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego ser",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej ",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, tr",
         "id": "Evangelium"
       },
       {
-        "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i bur",
+        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie je",
         "id": "Offertorium"
       },
       {
-        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
+        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie",
         "id": "Secreta"
-      },
-      {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nProsimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze sk",
-        "id": "Commemoratio Secreta"
       },
       {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój.",
+        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie ",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
+        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawi",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Wspomnienie Św. Feliksa Walezego, Wyznawcy*\nProsimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, ch",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -35364,7 +35448,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -35456,11 +35540,11 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Jana, Twego Wyznawcy i Doktora, która zaleci Tobie naszą o",
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Jana, Twego Wyznawcy i Doktora, która zaleci Tobie naszą ofi",
         "id": "Secreta"
       },
       {
@@ -35476,7 +35560,7 @@
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Jan, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoj",
+        "body": "Prosimy Cię, Panie, niech święty Jan, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja ",
         "id": "Postcommunio"
       },
       {
@@ -35508,7 +35592,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -35820,11 +35904,11 @@
   "2025-12-02": [
     [
       {
-        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
+        "body": "*Ps 118:95-96*\nCzekali na mnie grzesznicy, ażeby mię zgubić, a ja pojęłam Twoje nakazy: widziałam, że ma granice wszelka",
         "id": "Introitus"
       },
       {
-        "body": "Boże, Tyś cudownie objawił Swoją wolą, by na rządcę i nauczyciela Twego Kościoła wybrano św. Piotra Chryzologa, spraw, p",
+        "body": "Boże, dawco wszelkich dóbr, który połączyłeś w służebnicy Twojej Bibianie palmę męczeństwa z kwiatem dziewictwa, za jej ",
         "id": "Oratio"
       },
       {
@@ -35832,23 +35916,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 51:13-17*\nPanie Boże mój, ku Tobie wzniosłam prośbę moją i błagałam, gdy śmierć mi gr",
         "id": "Lectio"
       },
       {
-        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\nNie znalazł się jemu podobny, który by ",
+        "body": "*Ps 45:6; 45:5*\nBóg ją wspomaga swoim wejrzeniem: Bóg jest w jej wnętrzu, będzie niewzruszona.\n℣. Prąd rzeki cieszy mias",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 13:44-52*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieś",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 44:3*\nWdzięk rozlał się na twoich wargach, przeto Bóg pobłogosławił cię na wieki. (Alleluia.)",
         "id": "Offertorium"
       },
       {
-        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Piotra Chryzologa, Twego Biskupa i Doktora, która zaleci Tob",
+        "body": "Prosimy Cię, Panie, przyjmij łaskawie ofiarę, którą Ci składamy przez zasługi świętej Bibiánæ, Twojej Dziewicy i Męczenn",
         "id": "Secreta"
       },
       {
@@ -35860,11 +35944,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Mt 25:20-21*\nPanie, dałeś mi pięć talentów, otom drugie pięć zyskał. Dobrze, sługo prawy i wierny, żeś w małym był wier",
+        "body": "*Ps 118:121; 118:122;118:128*\nPrzestrzegałam prawa i sprawiedliwości, niech nie ciemiężą mnie pyszni, stosowałam się do ",
         "id": "Communio"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Piotr Chryzolog, Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ofi",
+        "body": "Darem Bożym szczodrze nasyceni, prosimy Cię, Panie Boże nasz, abyśmy za wstawiennictwem świętej Bibiánæ, Twojej Dziewicy",
         "id": "Postcommunio"
       },
       {
@@ -35900,7 +35984,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -35932,11 +36016,11 @@
   "2025-12-04": [
     [
       {
-        "body": "*Ps 118:46-47*\nŚwiadczyłam o Twej prawdzie wobec królów, a nie wstydziłam się, i rozważałam Twoją naukę, bo bardzo ją po",
+        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
         "id": "Introitus"
       },
       {
-        "body": "Panie, niech nas broni od wszelkich przeciwności wstawiennictwo św. Barbary, Dziewicy i Męczennicy Twojej. Obyśmy za jej",
+        "body": "Boże, Tyś cudownie objawił Swoją wolą, by na rządcę i nauczyciela Twego Kościoła wybrano św. Piotra Chryzologa, spraw, p",
         "id": "Oratio"
       },
       {
@@ -35944,23 +36028,23 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 51:1-8; 51:12*\nWyznawać Ci będę, Panie i Królu, i wychwalać Cię będę, Boga, Zbawcę me",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
         "id": "Lectio"
       },
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości.\n℣. Dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela. A",
+        "body": "*Syr 44:16*\nOto wielki kapłan, który za dni swoich podobał się Bogu.\n*Syr 44:20*\nNie znalazł się jemu podobny, który by ",
         "id": "Graduale"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {
-        "body": "Przyjmij, Panie, dary, które Ci składamy w uroczystość świętej N., Dziewicy i Męczennicy Twojej: ufamy, że jej wstawienn",
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Petri Chrysólogi, Twego Biskupa i Doktora, która zaleci Tobi",
         "id": "Secreta"
       },
       {
@@ -35972,11 +36056,11 @@
         "id": "Prefatio"
       },
       {
-        "body": "*Ps 118:78; 118:80*\nNiech zawstydzą się pyszni, bo niewinnie mnie dręczą, ja będę rozmyślać o Twych przykazaniach, o pra",
+        "body": "*Mt 25:20-21*\nPanie, dałeś mi pięć talentów, otom drugie pięć zyskał. Dobrze, sługo prawy i wierny, żeś w małym był wier",
         "id": "Communio"
       },
       {
-        "body": "Panie, niech nas wspomaga przyjęty Sakrament, i za wstawiennictwem świętej N., Twojej Dziewicy i Męczennicy, niech spraw",
+        "body": "Prosimy Cię, Panie, niech święty Petrus Chrysólogus, Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ",
         "id": "Postcommunio"
       },
       {
@@ -36068,7 +36152,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie.",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
         "id": "Offertorium"
       },
       {
@@ -36412,7 +36496,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana.",
+        "body": "*Ps 44:15; 44:16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą z radością i weselem do pałacu Króla i Pana. (Alle",
         "id": "Offertorium"
       },
       {
@@ -37228,7 +37312,7 @@
         "id": "Evangelium"
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie.",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
         "id": "Offertorium"
       },
       {

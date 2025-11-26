@@ -214,7 +214,7 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
       {
         question: "Na jakim wydaniu mszału bazuje serwis?",
         answer:
-          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Uwzględniono rubryki wprowadzone reformą z 1964 r. oraz wspomnienia właściwe temu kalendarzowi. Wielki Tydzień jest również dostępny w wersji pre-55.",
+          "Teksty pochodzą z wydania typicznego z 1962 r. (forma nadzwyczajna). Wielki Tydzień jest również dostępny w wersji pre-55.",
       },
       {
         question: "Skąd pochodzą teksty Missale Meum?",
@@ -464,9 +464,6 @@ function renderProjectInfoSection(lang: Locale): ReactNode {
         <p>
           Teksty łacińskie zaczerpnięto głównie z czcigodnej strony <a href="https://www.divinumofficium.com/" target="_blank" rel="noopener noreferrer">Divinum Officium</a>, a przekłady polskie z
           "Mszału Rzymskiego" (Pallottinum 1963) udostępnionego za zgodą wydawnictwa. Wybrane fragmenty Ordo pochodzą z serwisu <a href="https://www.fisheaters.com/" target="_blank" rel="noopener noreferrer">Fish Eaters</a>.
-        </p>
-        <p>
-          Msze własne dla diecezji polskich zachowują układ z <em>Calendarium Perpetuum pro Diœcesium Poloniæ</em> (1964). W serwisie pozostają jednak formularze z wcześniejszych wydań mszalika, z dodaniem nowych formularzy z 1964 roku w miejscach, gdzie brakowało odpowiednich tekstów.
         </p>
       </>
     );

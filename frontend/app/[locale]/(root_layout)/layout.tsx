@@ -43,6 +43,7 @@ import Announcement from "@/components/Announcement";
 import CloseIcon from "@mui/icons-material/Close";
 import PrintIcon from "@mui/icons-material/Print";
 import {
+  BANNER_ENABLED,
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
@@ -80,8 +81,11 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   }, []);
 
   useEffect(() => {
+    if (!BANNER_ENABLED) {
+      setBannerOpen(false);
+      return;
+    }
     const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-
     setBannerOpen(!bannerDismissed);
   }, []);
 
@@ -93,7 +97,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const theme = createTheme(getDesignTokens(mode, fontSize));
   const appBarHeight = getAppBarHeightFromTheme(theme);
   const bannerCopy = BANNER_COPY[lang];
-  const bannerVisible = bannerOpen;
+  const bannerVisible = BANNER_ENABLED && bannerOpen;
   const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
   const closeBannerLabel = lang === "pl" ? "Zamknij baner PDF" : "Dismiss PDF banner";
 

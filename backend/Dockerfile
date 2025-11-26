@@ -18,7 +18,7 @@ RUN apt-get install -y --no-install-recommends \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
-ENV PYTHONPATH=/app/api:/app/pdf
+ENV PYTHONPATH=/app/api:/app
 WORKDIR /app
 
 COPY requirements.txt ./

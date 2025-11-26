@@ -27,7 +27,22 @@ PDF_COLOR_LABELS = {
 }
 
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
-PDF_DATE_MONTHS = (
+MONTHS_NOMINATIVE = (
+    "",
+    "Styczeń",
+    "Luty",
+    "Marzec",
+    "Kwiecień",
+    "Maj",
+    "Czerwiec",
+    "Lipiec",
+    "Sierpień",
+    "Wrzesień",
+    "Październik",
+    "Listopad",
+    "Grudzień",
+)
+MONTHS_GENITIVE = (
     "",
     "stycznia",
     "lutego",
@@ -51,6 +66,26 @@ PDF_DATE_WEEKDAYS = (
     "sobota",
     "niedziela",
 )
+CALENDAR_COVER_LINES = [
+    "RUBRYCELA MSZALNA",
+    "DLA DIECEZJI POLSKICH",
+    "NA ROK PAŃSKI",
+    "{year}",
+    "WEDŁUG MISSALE ROMANUM Z 1962 ROKU",
+]
+CALENDAR_COVER_PARAGRAPHS = [
+    (
+        "Niniejsza rubrycela dotyczy wyłącznie Mszy celebrowanych "
+        "w rycie rzymskim sprzed reformy z 1970 roku"
+    ),
+    (
+        "Niniejsza rubrycela nie została zatwierdzona przez odpowiednią "
+        "władzę kościelną. Dlatego też, w przypadku ewentualnego błędu, "
+        "należy zachować rubryki."
+    ),
+]
+CALENDAR_COVER_FOOTER = "Opracowanie: missalemeum.com"
+CALENDAR_COMMEMORATION_LABEL = "Wsp."
 
 TITLES = {
     constants.FERIA: 'Feria',
@@ -498,6 +533,7 @@ TITLES = {
     constants.SANCTI_03_06: 'Śś. Perpetui i Felicyty, Męczennic',
     constants.SANCTI_03_07: 'Św. Tomasza z Akwinu, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_03_08: 'Św. Jana Bożego, Wyznawcy',
+    constants.SANCTI_03_08PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
     constants.SANCTI_03_09: 'Św. Franciszki Rzymianki, Wdowy',
     constants.SANCTI_03_10: 'Śś. Czterdziestu Męczenników',
     constants.SANCTI_03_12: 'Św. Grzegorza Wielkiego, Papieża, Wyznawcy i Doktora Kościoła',
@@ -534,9 +570,9 @@ TITLES = {
     constants.SANCTI_05_03: 'Śś. Aleksandra, Ewencjusza i Teodula, Męczenników',
     constants.SANCTI_05_03PL: 'N. M. P., Królowej Polski, Głównej Patronki Polski',
     constants.SANCTI_05_04: 'Św. Moniki, Wdowy',
-    constants.SANCTI_05_04PL: 'Św. Floriana, Męczennika',
     constants.SANCTI_05_05: 'Św. Piusa V, Papieża i Wyznawcy',
     constants.SANCTI_05_07: 'Św. Stanisława, Biskupa i Męczennika',
+    constants.SANCTI_05_07PL: 'Św. Floriana, Męczennika',
     constants.SANCTI_05_08PL: 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_10: 'Św. Antonina, Biskupa i Wyznawcy',
@@ -565,6 +601,7 @@ TITLES = {
     constants.SANCTI_05_31: 'N. M. P. Królowej',
     constants.SANCTI_05_31C: 'Św. Petroneli, Dziewicy',
     constants.SANCTI_06_01: 'Św. Anieli Merici, Dziewicy',
+    constants.SANCTI_06_01PL: 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy',
     constants.SANCTI_06_02: 'Śś. Marcelina i Piotra, Męczenników oraz Erazma, Biskupa',
     constants.SANCTI_06_04: 'Św. Franciszka Caracciolo, Wyznawcy',
     constants.SANCTI_06_05: 'Św. Bonifacego, Biskupa i Męczennika',
@@ -720,7 +757,6 @@ TITLES = {
     constants.SANCTI_10_08: 'Św. Brygidy, Wdowy',
     constants.SANCTI_10_08C: 'Śś. Sergiusza, Bachusa, Marcelego i Apulejusza',
     constants.SANCTI_10_09: 'Św. Jana Leonardi, Wyznawcy',
-    constants.SANCTI_10_09PL: 'Bł. Wincentego Kadłubka, Biskupa i Wyznawcy',
     constants.SANCTI_10_09C: 'Śś. Dionizego, Rustyka i Eleuteriusza',
     constants.SANCTI_10_10: 'Św. Franciszka Borgiasza, Wyznawcy',
     constants.SANCTI_10_10PL: 'Dziękczynienie za zwycięstwo chocimskie z roku 1621',
@@ -735,7 +771,6 @@ TITLES = {
     constants.SANCTI_10_20: 'Św. Jana Kantego, Wyznawcy',
     constants.SANCTI_10_21: 'Św. Hilariona, Opata',
     constants.SANCTI_10_21C: 'Śś. Urszuli i Towarzyszek, Dziewic i Męczennic',
-    constants.SANCTI_10_21PL: 'Bł. Jakuba Strzemię, Biskupa i Wyznawcy',
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',
     constants.SANCTI_10_25: 'Śś. Chryzanta i Darii, Męczenników',
@@ -766,7 +801,6 @@ TITLES = {
     constants.SANCTI_11_19: 'Św. Elżbiety, Wdowy',
     constants.SANCTI_11_19C: 'Św. Poncjana, Papieża i Męczennika',
     constants.SANCTI_11_20: 'Św. Feliksa Walezego, Wyznawcy',
-    constants.SANCTI_11_20PL: 'Św. Marcina I, Papieża i Męczennika',  # w PL przeniesione z 11.12 w 1964
     constants.SANCTI_11_21: 'Ofiarowanie N. M. P.',
     constants.SANCTI_11_22: 'Św. Cecylii, Dziewicy i Męczennicy',
     constants.SANCTI_11_23: 'Św. Klemensa I, Papieża i Męczennika',
@@ -779,7 +813,6 @@ TITLES = {
     constants.SANCTI_11_29: 'Św. Saturnina, Męczennika',
     constants.SANCTI_11_30: 'Św. Andrzeja, Apostoła',
     constants.SANCTI_12_02: 'Św. Bibiany, Dziewicy i Męczennicy',
-    constants.SANCTI_12_02PL: 'Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła',  # w PL przeniesione z 12.04 w 1964
     constants.SANCTI_12_03: 'Św. Franciszka Ksawerego, Wyznawcy',
     constants.SANCTI_12_04: 'Św. Piotra Chryzologa, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_12_04PL: 'Św. Barbary, Dziewicy i Męczennicy',

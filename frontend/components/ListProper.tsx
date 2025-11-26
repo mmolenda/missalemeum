@@ -53,10 +53,12 @@ import {ListItemType} from "@/components/types";
 import {callApi} from "@/components/utils";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {
+  BANNER_ENABLED,
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
 } from "@/components/layoutMetrics";
+import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 const DATE_FORMAT = "YYYY-MM-DD";
 const CHUNK_SIZE = 10;
@@ -105,6 +107,7 @@ export default function ListProper({
   const [currentYear, setCurrentYear] = useState(year);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
+  const pdfResourceId = useMemo(() => String(currentYear), [currentYear]);
 
   const router = useRouter();
 
@@ -522,6 +525,7 @@ export default function ListProper({
       : autocompleteSuggestions;
 
   const bannerDismissed = hasMounted && myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
+  const bannerOffset = BANNER_ENABLED && !bannerDismissed ? BANNER_HEIGHT : 0;
 
   listItemRefs.current = {};
 
@@ -622,8 +626,7 @@ export default function ListProper({
         display: "flex",
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
-          const offset = bannerDismissed ? 0 : BANNER_HEIGHT;
-          return `${appBarHeight + offset}px`;
+          return `${appBarHeight + bannerOffset}px`;
         },
         width: "875px",
         p: "0.75rem",
@@ -634,7 +637,7 @@ export default function ListProper({
       }}>
         <Autocomplete<SearchOption, false, false, true>
           size="small"
-          sx={{ width: "30%" }}
+          sx={{ width: "22%" }}
           freeSolo
           value={null}
           options={autocompleteOptions}
@@ -738,6 +741,11 @@ export default function ListProper({
             <EventIcon sx={{ color: "common.white" }}/>
           </IconButton>
         </Tooltip>
+        <PdfDownloadMenu
+          lang={lang}
+          apiEndpoint="calendar"
+          resourceId={pdfResourceId}
+        />
       </Box>
       <List>
         <Box component="li" ref={topSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>

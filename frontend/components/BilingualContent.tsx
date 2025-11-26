@@ -11,22 +11,18 @@ import {
   IconButton,
   Select,
   MenuItem,
-  Popover,
-  Menu
+  Popover
 } from "@mui/material";
-import PrintIcon from '@mui/icons-material/Print';
 import ShareIcon from '@mui/icons-material/Share';
 import {
   MENUITEM_SUPPLEMENT,
   MSG_ADDRESS_COPIED,
   COMMEMORATION,
-  Locale,
-  PDF_VARIANTS
+  Locale
 } from "./intl";
 import Md from "./styledComponents/Md";
 import MyLink from "./MyLink";
 import ArticleTags from "./ArticleTags";
-import { buildApiUrl } from "./utils";
 import React, {
   Dispatch,
   Fragment,
@@ -40,6 +36,7 @@ import React, {
 import Link from "next/link";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {Body, Content} from "@/components/types";
+import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 
 const xVernacular = 'x-vernacular'
@@ -157,49 +154,9 @@ const Article = ({
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
   const sharePopoverOpen = false
   const shareButtonRef = useRef(null)
-  const [pdfMenuAnchor, setPdfMenuAnchor] = useState<null | HTMLElement>(null)
-  const pdfMenuOpen = Boolean(pdfMenuAnchor)
   const content: Content = contents[index]
   const itemRefs = useRef<Record<string, HTMLElement | null>>({})
-  const pdfVariantOptions = useMemo(() => {
-    const options = PDF_VARIANTS[lang as Locale] ?? PDF_VARIANTS.en
-    if (lang === "en") {
-      return options
-    }
-    return options.filter((option) => !option.variant.startsWith("letter"))
-  }, [lang])
-  const hasPdfDownload = Boolean(apiEndpoint)
-
-  const buildPdfUrl = useCallback((variant: string) => {
-    if (!apiEndpoint) {
-      return null
-    }
-    const apiUrl = buildApiUrl(lang, apiEndpoint, id)
-    const questionMarkIndex = apiUrl.indexOf("?")
-    const path = questionMarkIndex === -1 ? apiUrl : apiUrl.slice(0, questionMarkIndex)
-    const existingQuery = questionMarkIndex === -1 ? "" : apiUrl.slice(questionMarkIndex + 1)
-
-    const cleanedVariant = variant.startsWith("?") ? variant.slice(1) : variant
-    const params = new URLSearchParams(existingQuery)
-    params.set("format", "pdf")
-    params.set("variant", cleanedVariant)
-    if (hashIndex !== null) {
-      params.set("index", String(hashIndex))
-    } else {
-      params.delete("index")
-    }
-
-    const query = params.toString()
-    return query ? `${path}?${query}` : path
-  }, [apiEndpoint, hashIndex, lang, id])
-
-  const handlePdfMenuOpen = useCallback((event: React.MouseEvent<HTMLElement>) => {
-    setPdfMenuAnchor(event.currentTarget)
-  }, [])
-
-  const handlePdfMenuClose = useCallback(() => {
-    setPdfMenuAnchor(null)
-  }, [])
+  const pdfResourceId = useMemo(() => apiEndpoint ? id : null, [apiEndpoint, id])
 
   const registerItemRef = useCallback((slug: string | null) => (element: HTMLElement | null) => {
     if (!slug) {
@@ -286,49 +243,12 @@ const Article = ({
             <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
           </Popover>
         </IconButton>
-        {hasPdfDownload && (
-          <>
-            <IconButton
-              aria-label="download pdf"
-              aria-controls={pdfMenuOpen ? "pdf-variant-menu" : undefined}
-              aria-haspopup="true"
-              aria-expanded={pdfMenuOpen ? "true" : undefined}
-              onClick={handlePdfMenuOpen}
-            >
-              <PrintIcon/>
-            </IconButton>
-            <Menu
-              id="pdf-variant-menu"
-              anchorEl={pdfMenuAnchor}
-              open={pdfMenuOpen}
-              onClose={handlePdfMenuClose}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-            >
-              {pdfVariantOptions.map(({label, variant}) => {
-                const downloadHref = buildPdfUrl(variant)
-                return (
-                  <MenuItem
-                    key={variant}
-                    component="a"
-                    href={downloadHref ?? "#"}
-                    onClick={handlePdfMenuClose}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {label}
-                  </MenuItem>
-                )
-              })}
-            </Menu>
-          </>
-        )}
+        <PdfDownloadMenu
+          lang={lang}
+          apiEndpoint={apiEndpoint}
+          resourceId={pdfResourceId}
+          indexParam={hashIndex}
+        />
       </Box>}
       <Box sx={{px: "0.75rem"}}>
         <>{contents.length > 1 ?

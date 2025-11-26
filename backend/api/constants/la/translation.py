@@ -25,7 +25,22 @@ PDF_COLOR_LABELS = {
 }
 
 PDF_DATE_FORMAT = "{weekday}, {day} {month} {year}"
-PDF_DATE_MONTHS = (
+MONTHS_NOMINATIVE = (
+    "",
+    "Ianuarius",
+    "Februarius",
+    "Martius",
+    "Aprilis",
+    "Maius",
+    "Iunius",
+    "Iulius",
+    "Augustus",
+    "September",
+    "October",
+    "November",
+    "December",
+)
+MONTHS_GENITIVE = (
     "",
     "Ianuarii",
     "Februarii",
@@ -49,6 +64,25 @@ PDF_DATE_WEEKDAYS = (
     "Sabbato",
     "Dominica",
 )
+CALENDAR_COVER_LINES = [
+    "MISSAL RUBRICAL GUIDE",
+    "FOR THE POLISH DIOCESES",
+    "FOR THE YEAR OF OUR LORD",
+    "{year}",
+    "ACCORDING TO THE 1962 ROMAN MISSAL",
+]
+CALENDAR_COVER_PARAGRAPHS = [
+    (
+        "This rubrical guide applies only to Masses celebrated in the "
+        "Roman Rite prior to the 1970 reform."
+    ),
+    (
+        "This guide has not been approved by the competent ecclesiastical "
+        "authority. Therefore, in case of any error, the rubrics must be observed."
+    ),
+]
+CALENDAR_COVER_FOOTER = "Prepared by: missalemeum.com"
+CALENDAR_COMMEMORATION_LABEL = "Commemoratio"
 
 TITLES = {
     constants.FERIA: 'Feria',
@@ -496,6 +530,7 @@ TITLES = {
     constants.SANCTI_03_06: 'Ss. Perpetuæ et Felicitatis Martyrum',
     constants.SANCTI_03_07: 'S. Thomæ de Aquino Confessoris Ecclesiæ Doctoris',
     constants.SANCTI_03_08: 'S. Joannis de Deo Confessoris',
+    constants.SANCTI_03_08PL: 'b. Vincenti Episcopi et Confessoris',
     constants.SANCTI_03_09: 'S. Franciscæ Viduæ Romanæ',
     constants.SANCTI_03_10: 'Ss. Quadraginta Martyrum',
     constants.SANCTI_03_12: 'S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris',
@@ -532,9 +567,9 @@ TITLES = {
     constants.SANCTI_05_03: 'Ss. Alexandri et Sociorum Martyrum',
     constants.SANCTI_05_03PL: 'Beatæ Mariæ Virginis Reginæ Poloniæ',
     constants.SANCTI_05_04: 'S. Monicæ Viduæ',
-    constants.SANCTI_05_04PL: 'S. Floriani Martyris',
     constants.SANCTI_05_05: 'S. Pii V Papæ Confessoris',
     constants.SANCTI_05_07: 'S. Stanislai Episcopi et Martyris',
+    constants.SANCTI_05_07PL: 'S. Floriani Martyris',
     constants.SANCTI_05_08PL: 'S. Stanislai Episcopi et Martyris',
     constants.SANCTI_05_09: 'S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiæ Doctoris',
     constants.SANCTI_05_10: 'S. Antonii Episcopi Confessoris',
@@ -563,6 +598,7 @@ TITLES = {
     constants.SANCTI_05_31: 'Beatæ Mariæ Virginis Reginæ',
     constants.SANCTI_05_31C: 'S. Petronilla',
     constants.SANCTI_06_01: 'S. Angelæ Mericiæ Virginis',
+    constants.SANCTI_06_01PL: 'B. Jacobi Episcopi et Confessoris',
     constants.SANCTI_06_02: 'Ss. Marcellini, Petri, atque Erasmi Martyrum',
     constants.SANCTI_06_04: 'S. Francisci Caracciolo Confessoris',
     constants.SANCTI_06_05: 'S. Bonifatii Episc. et Mart.',
@@ -718,7 +754,6 @@ TITLES = {
     constants.SANCTI_10_08: 'S. Birgittæ Viduæ',
     constants.SANCTI_10_08C: 'Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus',
     constants.SANCTI_10_09: 'S. Joannis Leonardi Confessoris',
-    constants.SANCTI_10_09PL: 'b. Vincenti Episcopi et Confessoris',
     constants.SANCTI_10_09C: 'Ss. Dionysii Ep., Rustici et Eleutherii, Mm',
     constants.SANCTI_10_10: 'S. Francisci Borgiæ Confessoris',
     constants.SANCTI_10_10PL: 'Victoriae Chocimensis',
@@ -733,7 +768,6 @@ TITLES = {
     constants.SANCTI_10_20: 'S. Joannis Cantii Confessoris',
     constants.SANCTI_10_21: 'S. Hilarionis Abbatis',
     constants.SANCTI_10_21C: 'Ss. Ursulæ et Sociarum',
-    constants.SANCTI_10_21PL: 'B. Jacobi Episcopi et Confessoris',
     constants.SANCTI_10_23: 'S. Antonii Mariæ Claret Episcopi Confessoris',
     constants.SANCTI_10_24: 'S. Raphælis Archangeli',
     constants.SANCTI_10_25: 'Ss. Chrysanthi et Dariæ Martyrum',
@@ -764,7 +798,6 @@ TITLES = {
     constants.SANCTI_11_19: 'S. Elisabeth Viduæ',
     constants.SANCTI_11_19C: 'S. Pontiani',
     constants.SANCTI_11_20: 'S. Felicis de Valois Confessoris',
-    constants.SANCTI_11_20PL: 'S. Martini Papæ et Martyris',  # in PL moved from 11.12 w 1964
     constants.SANCTI_11_21: 'In Presentatione Beatæ Mariæ Virginis',
     constants.SANCTI_11_22: 'S. Cæciliæ Virginis et Martyris',
     constants.SANCTI_11_23: 'S. Clementis Papæ et Martyris',
@@ -777,7 +810,6 @@ TITLES = {
     constants.SANCTI_11_29: 'S. Saturnini Martyris',
     constants.SANCTI_11_30: 'S. Andreæ Apostoli',
     constants.SANCTI_12_02: 'S. Bibianæ Virginis et Martyris',
-    constants.SANCTI_12_02PL: 'S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_12_03: 'S. Francisci Xaverii Confessoris',
     constants.SANCTI_12_04: 'S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_12_04PL: 'S. Barbaræ Virginis et Martyris',

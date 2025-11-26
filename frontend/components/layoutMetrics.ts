@@ -1,5 +1,6 @@
 import type {Theme} from "@mui/material/styles";
 
+export const BANNER_ENABLED = false;
 export const BANNER_STORAGE_KEY = "pdfBannerDismissed";
 export const BANNER_HEIGHT = 48;
 
