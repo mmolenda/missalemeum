@@ -57,6 +57,7 @@ import {
   BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
 } from "@/components/layoutMetrics";
+import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 const DATE_FORMAT = "YYYY-MM-DD";
 const CHUNK_SIZE = 10;
@@ -105,6 +106,7 @@ export default function ListProper({
   const [currentYear, setCurrentYear] = useState(year);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
+  const pdfResourceId = useMemo(() => String(currentYear), [currentYear]);
 
   const router = useRouter();
 
@@ -738,6 +740,11 @@ export default function ListProper({
             <EventIcon sx={{ color: "common.white" }}/>
           </IconButton>
         </Tooltip>
+        <PdfDownloadMenu
+          lang={lang}
+          apiEndpoint="calendar"
+          resourceId={pdfResourceId}
+        />
       </Box>
       <List>
         <Box component="li" ref={topSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>
