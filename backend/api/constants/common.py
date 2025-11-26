@@ -642,6 +642,7 @@ SANCTI_03_04C = 'sancti:03-04cc:4:r'  #
 SANCTI_03_06 = 'sancti:03-06:3:r'
 SANCTI_03_07 = 'sancti:03-07:3:w'
 SANCTI_03_08 = 'sancti:03-08:3:w'
+SANCTI_03_08PL = 'sancti:03-08pl:3:w'
 SANCTI_03_09 = 'sancti:03-09:3:w'
 SANCTI_03_10 = 'sancti:03-10:3:r'
 SANCTI_03_12 = 'sancti:03-12:3:w'
@@ -680,9 +681,9 @@ SANCTI_05_02 = 'sancti:05-02:3:w'
 SANCTI_05_03 = 'sancti:05-03r:4:r'
 SANCTI_05_03PL = 'sancti:05-03pl:1:w'
 SANCTI_05_04 = 'sancti:05-04:3:w'
-SANCTI_05_04PL = 'sancti:05-04pl:3:r'  # St. Florian / PL
 SANCTI_05_05 = 'sancti:05-05:3:w'
 SANCTI_05_07 = 'sancti:05-07:3:r'
+SANCTI_05_07PL = 'sancti:05-07pl:3:r'  # St. Florian / PL
 SANCTI_05_08PL = 'sancti:05-08pl:1:r'
 SANCTI_05_09 = 'sancti:05-09:3:w'
 SANCTI_05_10 = 'sancti:05-10:3:w'
@@ -712,6 +713,7 @@ SANCTI_05_31 = 'sancti:05-31:2:w'  # Mary the Queen
 SANCTI_05_31C = 'sancti:05-31c:4:w'  # Petronela
 
 SANCTI_06_01 = 'sancti:06-01:3:w'
+SANCTI_06_01PL = 'sancti:06-01pl:3:w'
 SANCTI_06_02 = 'sancti:06-02:4:r'
 SANCTI_06_04 = 'sancti:06-04:3:w'
 SANCTI_06_05 = 'sancti:06-05:3:r'
@@ -871,7 +873,6 @@ SANCTI_10_07C = 'sancti:10-07t:4:r'  # St. Mark I
 SANCTI_10_08 = 'sancti:10-08:3:w'
 SANCTI_10_08C = 'sancti:10-08c:4:r'  # Pro Ss. Sergio, Baccho, Marcello et Apulejo Martyribus
 SANCTI_10_09 = 'sancti:10-09:3:w'
-SANCTI_10_09PL = 'sancti:10-09pl:3:w'
 SANCTI_10_09C = 'sancti:10-09t:4:r'  #
 SANCTI_10_10 = 'sancti:10-10:3:w'
 SANCTI_10_10PL = 'sancti:10-10pl:4:w'
@@ -886,7 +887,6 @@ SANCTI_10_19 = 'sancti:10-19:3:w'
 SANCTI_10_20 = 'sancti:10-20:3:w'
 SANCTI_10_21 = 'sancti:10-21:4:w'
 SANCTI_10_21C = 'sancti:10-21cc:4:r'  # St. Ursula
-SANCTI_10_21PL = 'sancti:10-21pl:3:w'
 SANCTI_10_23 = 'sancti:10-23r:3:w'
 SANCTI_10_24 = 'sancti:10-24:3:w'
 SANCTI_10_25 = 'sancti:10-25:4:r'
@@ -918,7 +918,6 @@ SANCTI_11_18 = 'sancti:11-18r:3:w'
 SANCTI_11_19 = 'sancti:11-19:3:w'
 SANCTI_11_19C = 'sancti:11-19o:4:r'
 SANCTI_11_20 = 'sancti:11-20:3:w'
-SANCTI_11_20PL = 'sancti:11-20pl:3:r'
 SANCTI_11_21 = 'sancti:11-21:3:w'
 SANCTI_11_22 = 'sancti:11-22:3:r'
 SANCTI_11_23 = 'sancti:11-23:3:r'
@@ -932,7 +931,6 @@ SANCTI_11_29 = 'sancti:11-29r:4:r'
 SANCTI_11_30 = 'sancti:11-30:2:r'  # St. Andrew, Apostle
 
 SANCTI_12_02 = 'sancti:12-02:3:r'
-SANCTI_12_02PL = 'sancti:12-02pl:3:w'
 SANCTI_12_03 = 'sancti:12-03:3:w'
 SANCTI_12_04 = 'sancti:12-04:3:w'
 SANCTI_12_04PL = 'sancti:12-04pl:3:r'
@@ -1153,7 +1151,6 @@ CUSTOM_PREFACES = (
     (SANCTI_09_23, PREFATIO_COMMUNIS),  # St. Linus
     (SANCTI_10_14, PREFATIO_COMMUNIS),  # St. Calixt
     (SANCTI_11_12, PREFATIO_COMMUNIS),  # St. Martin
-    (SANCTI_11_20PL, PREFATIO_COMMUNIS),  # St. Martin PL calendar
     (SANCTI_11_23, PREFATIO_COMMUNIS),  # St. Clement
 
     (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
