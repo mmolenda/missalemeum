@@ -636,7 +636,7 @@ export default function ListProper({
       }}>
         <Autocomplete<SearchOption, false, false, true>
           size="small"
-          sx={{ width: "30%" }}
+          sx={{ width: "22%" }}
           freeSolo
           value={null}
           options={autocompleteOptions}
