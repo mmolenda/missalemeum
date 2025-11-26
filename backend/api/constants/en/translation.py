@@ -68,6 +68,7 @@ CALENDAR_COVER_PARAGRAPHS = [
 ]
 
 CALENDAR_COVER_FOOTER = "Prepared by: missalemeum.com"
+CALENDAR_COMMEMORATION_LABEL = "Commemoration"
 
 TITLES = {
     constants.FERIA: 'Feria',

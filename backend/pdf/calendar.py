@@ -234,6 +234,13 @@ def _format_colors_label(colors: Sequence[str], translation: Any) -> str | None:
     return ", ".join(formatted)
 
 
+def _commemoration_label(translation: Any) -> str:
+    label = getattr(translation, "CALENDAR_COMMEMORATION_LABEL", None)
+    if isinstance(label, str) and label.strip():
+        return label
+    return "Commemoration"
+
+
 def _render_calendar_day(
     item: NormalisedCalendarItem,
     *,
@@ -274,6 +281,9 @@ def _render_calendar_day(
         for commemoration in item.commemorations
         if commemoration
     ]
+    if commem_lines:
+        commem_label = _commemoration_label(translation)
+        commem_lines[0] = f"{escape(commem_label)} {commem_lines[0]}"
     commemorations_html = ""
     if commem_lines:
         commemorations_html = (
