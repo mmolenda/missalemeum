@@ -228,7 +228,6 @@ SUPPLEMENTS_V4 = {
 
 
 OE = "Objaśnienia Ewangelii"
-DIOECESIUM_POLONIAE_1964 = {"label": "Msze dla diecezji polskich wg kalendarza z 1964 r.", "path": "/pl/supplement/dioecesium-poloniae-1964"}
 SUPPLEMENTS = {
     constants.TEMPORA_ADV1_0: [
         {"label": "Adwent", "path": "/pl/supplement/2-adwent"},
