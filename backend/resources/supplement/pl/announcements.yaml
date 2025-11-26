@@ -6,6 +6,13 @@ sections:
 - body:
   -
     - |
+        ### 27 listopada 2025
+        
+        Wydanie [5.15.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.15.0)
+
+        Kalendarz na aktualnie wyświetlany rok można teraz pobrać do wydruku jako 
+        plik PDF w jednym z formatów dostępnych w aplikacji.
+
         ### 10 października 2025
         
         Wydanie [5.14.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.14.0)

@@ -6,9 +6,16 @@ sections:
 - body:
   -
     - |
+        ### November 27, 2025
+        
+        Release [5.15.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.15.0)
+
+        The calendar for the currently displayed year can now be downloaded for printing
+        as a PDF file in one of the formats available in the application.
+
         ### October 10, 2025
         
-        Wydanie [5.14.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.14.0)
+        Release [5.14.0](https://github.com/mmolenda/missalemeum/releases/tag/v5.14.0)
 
         Every text in Missale Meum can now be downloaded for printing as a high-quality PDF
         in one of several available formats — A4, letter, or as a foldable booklet. Classic typography,
