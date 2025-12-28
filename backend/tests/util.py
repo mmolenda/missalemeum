@@ -94,7 +94,8 @@ def compare_years(y1, y2, lang):
 
 
 if __name__ == "__main__":
-    generate_fixtures_for_propers_by_dates(dates, "la")
+    generate_fixtures_for_propers_by_dates(dates, "pl")
+    generate_fixtures_for_propers_by_dates(dates, "en")
 
     # compare_years(2024, 2025, LANGUAGE_ENGLISH)
     # for l in ['la', 'pl', 'en']:
