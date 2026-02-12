@@ -20,10 +20,10 @@
 @Tempora/Adv4-0:Offertorium
 
 [Secreta]
-@Tempora/Adv4-0:Secreta
+@Tempora/Adv3-6
 
 [Communio]
-@Tempora/Adv4-0:Communio
+@Commune/C10a
 
 [Postcommunio]
 @Tempora/Adv4-0:Postcommunio

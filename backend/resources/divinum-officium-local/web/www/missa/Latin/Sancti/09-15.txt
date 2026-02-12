@@ -5,7 +5,7 @@
 @Sancti/09-15:Introitus
 
 [Oratio]
-@Sancti/09-15:Oratio
+@Tempora/Quad5-5
 
 [Lectio]
 @Sancti/09-15:Lectio
@@ -26,7 +26,7 @@
 @Sancti/09-15:Communio
 
 [Postcommunio]
-@Sancti/09-15:Postcommunio
+@Tempora/Quad5-5
 
 [Sequentia]
 @Sancti/09-15:Sequentia

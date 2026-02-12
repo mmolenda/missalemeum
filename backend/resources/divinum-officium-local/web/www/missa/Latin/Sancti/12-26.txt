@@ -32,7 +32,8 @@
 @Sancti/12-26:Oratio1
 
 [Commemoratio Oratio]
-@Sancti/12-26:Commemoratio Oratio
+*Pro Octava Nativitatis*
+@Sancti/12-25m3:Oratio
 
 [GradualeP]
 @Sancti/12-26:GradualeP
@@ -41,8 +42,10 @@
 @Sancti/12-26:Tractus
 
 [Commemoratio Secreta]
-@Sancti/12-26:Commemoratio Secreta
+*Pro Octava Nativitatis*
+@Sancti/12-25m3:Secreta
 
 [Commemoratio Postcommunio]
-@Sancti/12-26:Commemoratio Postcommunio
+*Pro Octava Nativitatis*
+@Sancti/12-25m3:Postcommunio
 

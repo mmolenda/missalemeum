@@ -14,7 +14,7 @@
 @Sancti/10-07:Graduale
 
 [Evangelium]
-@Sancti/10-07:Evangelium
+@Sancti/09-12
 
 [Offertorium]
 @Sancti/10-07:Offertorium

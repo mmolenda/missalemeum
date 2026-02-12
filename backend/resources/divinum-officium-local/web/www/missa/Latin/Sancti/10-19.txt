@@ -14,7 +14,7 @@
 @Commune/C5-1
 
 [Evangelium]
-@Sancti/10-19:Evangelium
+@Commune/C5-1
 
 [Offertorium]
 @Commune/C5-1

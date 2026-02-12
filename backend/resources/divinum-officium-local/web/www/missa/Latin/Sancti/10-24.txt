@@ -23,7 +23,7 @@
 @Sancti/10-24:Secreta
 
 [Communio]
-@Sancti/10-24:Communio
+@Sancti/10-02
 
 [Postcommunio]
 @Sancti/10-24:Postcommunio

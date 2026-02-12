@@ -23,7 +23,7 @@
 @Tempora/Pent20-0:Secreta
 
 [Communio]
-@Tempora/Pent20-0:Communio
+@Tempora/Quad5-4
 
 [Postcommunio]
 @Tempora/Pent20-0:Postcommunio

@@ -3,7 +3,7 @@
 @Tempora/093-5:Introitus
 
 [Oratio]
-@Tempora/093-5:Oratio
+@Tempora/Quad4-1
 
 [Lectio]
 @Tempora/093-5:Lectio

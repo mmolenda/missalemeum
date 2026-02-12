@@ -23,7 +23,7 @@
 @Tempora/Adv3-3:Secreta
 
 [Communio]
-@Tempora/Adv3-3:Communio
+@Commune/C10a
 
 [Postcommunio]
 @Tempora/Adv3-3:Postcommunio
