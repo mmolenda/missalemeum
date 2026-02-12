@@ -2,7 +2,7 @@
 @Tempora/Epi4-0
 
 [Introitus]
-@Tempora/Epi4-0:Introitus
+@Tempora/Epi3-0
 
 [Oratio]
 @Tempora/Epi4-0:Oratio
@@ -11,19 +11,19 @@
 @Tempora/Epi4-0:Lectio
 
 [Graduale]
-@Tempora/Epi4-0:Graduale
+@Tempora/Epi3-0
 
 [Evangelium]
 @Tempora/Epi4-0:Evangelium
 
 [Offertorium]
-@Tempora/Epi4-0:Offertorium
+@Tempora/Epi3-0
 
 [Secreta]
 @Tempora/Epi4-0:Secreta
 
 [Communio]
-@Tempora/Epi4-0:Communio
+@Tempora/Epi3-0
 
 [Postcommunio]
 @Tempora/Epi4-0:Postcommunio

@@ -23,11 +23,11 @@
 @Sancti/03-10:Offertorium
 
 [Secreta]
-@Sancti/03-10:Secreta
+@Sancti/01-19
 
 [Communio]
 @Sancti/03-10:Communio
 
 [Postcommunio]
-@Sancti/03-10:Postcommunio
+@Sancti/01-19
 
