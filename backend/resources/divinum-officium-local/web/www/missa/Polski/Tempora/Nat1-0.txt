@@ -1,2 +1,14 @@
 [Comment]
 @Tempora/Nat1-0
+
+[Commemoratio Oratio]
+! W Oktawie Narodzenia
+@Sancti/12-25m3:Oratio
+
+[Commemoratio Secreta]
+! W Oktawie Narodzenia
+@Sancti/12-25m3:Secreta
+
+[Commemoratio Postcommunio]
+! W Oktawie Narodzenia
+@Sancti/12-25m3:Postcommunio

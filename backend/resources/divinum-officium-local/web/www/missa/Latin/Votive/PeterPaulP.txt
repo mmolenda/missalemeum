@@ -31,7 +31,7 @@ et Pauli precibus adiuvemur.
 $Per Dominum
 
 [Communio]
-@Sancti/04-25:Communio
+@Commune/C2p
 
 [Postcommunio]
 Protege. Domine, populum tuum: et Apostolorum tuorum Petri et Pauli patrocino confidentem,~
