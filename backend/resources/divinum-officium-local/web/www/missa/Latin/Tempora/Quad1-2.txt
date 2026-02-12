@@ -26,7 +26,7 @@
 @Tempora/Quad1-2:Communio
 
 [Postcommunio]
-@Tempora/Quad1-2:Postcommunio
+@Tempora/Epi5-0
 
 [Super populum]
 @Tempora/Quad1-2:Super populum
