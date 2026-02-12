@@ -2,7 +2,7 @@
 @Tempora/Pasc3-0r
 
 [Introitus]
-@Tempora/Pasc3-0r:Introitus
+@Tempora/Pasc3-0
 
 [Oratio]
 @Tempora/Pasc3-0r:Oratio

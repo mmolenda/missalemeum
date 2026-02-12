@@ -20,10 +20,10 @@
 @Tempora/Quad2-0:Offertorium
 
 [Secreta]
-@Tempora/Quad2-0:Secreta
+@Tempora/Quadp3-4
 
 [Communio]
-@Tempora/Quad2-0:Communio
+@Tempora/Quad1-3
 
 [Postcommunio]
 @Tempora/Quad2-0:Postcommunio

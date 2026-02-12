@@ -20,7 +20,7 @@
 @Tempora/Quad4-2:Offertorium
 
 [Secreta]
-@Tempora/Quad4-2:Secreta
+@Tempora/Epi3-0
 
 [Communio]
 @Tempora/Quad4-2:Communio

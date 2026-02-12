@@ -23,7 +23,7 @@
 @Commune/C11
 
 [Secreta]
-@Sancti/03-25:Secreta
+@Commune/C10a
 
 [Communio]
 @Commune/C10a
