@@ -21,3 +21,15 @@
 
 [Communio]
 @Sancti/01-25r
+
+[Commemoratio Oratio]
+!Wspomnienie św. Piotra
+@Sancti/02-22:Oratio Petri
+
+[Commemoratio Secreta]
+!Wspomnienie św. Piotra
+@Sancti/02-22:Secreta Petri
+
+[Commemoratio Postcommunio]
+!Wspomnienie św. Piotra
+@Sancti/02-22:Postcommunio Petri
