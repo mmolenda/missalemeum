@@ -27,4 +27,4 @@
 @Sancti/05-01
 
 [Postcommunio]
-@Sancti/05-01
+@Commune/C3
