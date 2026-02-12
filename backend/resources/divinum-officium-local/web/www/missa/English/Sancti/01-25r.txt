@@ -1,0 +1,11 @@
+[Commemoratio Oratio]
+!For St. Peter
+@Sancti/02-22:Oratio Petri
+
+[Commemoratio Secreta]
+!For St. Peter
+@Sancti/02-22:Secreta Petri
+
+[Commemoratio Postcommunio]
+!For St. Peter
+@Sancti/02-22:Postcommunio Petri
