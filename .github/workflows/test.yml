@@ -44,10 +44,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Node.js 18.20
+    - name: Set up Node.js from .nvmrc
       uses: actions/setup-node@v4
       with:
-        node-version: 18.20.4
+        node-version-file: frontend/.nvmrc
         cache: npm
         cache-dependency-path: frontend/package-lock.json
     - name: Install dependencies
