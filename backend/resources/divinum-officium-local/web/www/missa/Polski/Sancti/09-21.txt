@@ -3,3 +3,7 @@
 
 [Introitus]
 @Commune/C5
+
+[Lectio]
+@Sancti/04-25:Lectio:s/@.*//
+@Sancti/04-25:Lectio1

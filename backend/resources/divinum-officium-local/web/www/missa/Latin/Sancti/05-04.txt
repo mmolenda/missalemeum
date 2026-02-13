@@ -17,7 +17,7 @@
 @Tempora/Quad4-4
 
 [Offertorium]
-@Commune/C7a
+@Commune/C6-1
 
 [Secreta]
 @Commune/C6a

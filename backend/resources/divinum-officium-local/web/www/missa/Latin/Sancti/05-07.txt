@@ -2,32 +2,32 @@
 @Commune/C2
 
 [Introitus]
-@Commune/C2
+@Commune/C2p
 
 [Oratio]
 @Sancti/05-07
 
 [Lectio]
-@Commune/C2
+@Commune/C2p
 
 [Graduale]
-@Commune/C2
+@Commune/C2p
 
 [GradualeP]
-@Commune/C2
+@Commune/C2p:Graduale
 
 [Evangelium]
-@Commune/C2
+@Commune/C2p
 
 [Offertorium]
-@Commune/C2
+@Commune/C2p
 
 [Secreta]
-@Commune/C2b::s/N\./Stanisláo/
+@Commune/C2-1::s/N\./Stanisláo/
 
 [Communio]
-@Commune/C2:Communio
+@Commune/C2p
 
 [Postcommunio]
-@Sancti/05-07:Postcommunio
+@Commune/C2-1::s/N\./Stanisláo/
 

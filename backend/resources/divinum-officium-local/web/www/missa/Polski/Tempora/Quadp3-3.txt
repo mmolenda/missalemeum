@@ -64,3 +64,6 @@ V. Pan z wami.
 R. I z duchem twoim.
 v. Módlmy się.
 Dozwól nam, Panie, przez post zająć stanowisko w chrześcijańskim boju, abyśmy zostali umocnieni wstrzemięźliwością do walki ze złym duchem. Przez Chrystusa, Pana naszego.
+
+[Graduale]
+@Tempora/Quadp3-3:Graduale:s/@.*//
