@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=69", "setuptools-scm[toml]>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "missalemeum-backend"
+dynamic = ["version"]
+description = "Missale Meum backend API"
+requires-python = ">=3.13"
+dependencies = [
+  "python-dateutil~=2.9.0",
+  "click~=8.1.7",
+  "fastapi~=0.115.0",
+  "uvicorn[standard]~=0.30.5",
+  "gunicorn~=23.0.0",
+  "icalendar~=6.0.1",
+  "trans~=2.1.0",
+  "mistune~=3.0.2",
+  "PyYAML~=6.0.2",
+  "weasyprint~=63.0",
+  "pypdf~=4.0.2",
+  "diskcache==5.6.3",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest~=8.3.3",
+  "httpx~=0.28.1",
+]
+lint = [
+  "flake8~=7.1.1",
+]
+dev = [
+  "pytest~=8.3.3",
+  "httpx~=0.28.1",
+  "flake8~=7.1.1",
+]
+
+[project.scripts]
+missale-cli = "api.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*", "pdf*"]
+exclude = ["tests*", "resources*"]
+
+[tool.setuptools_scm]
+tag_regex = "^v(?P<version>.*)$"
+fallback_version = "0.0.0"
+write_to = "api/_version.py"

@@ -52,6 +52,7 @@ target/
 *.iml
 
 missalemeum/__version__
+backend/api/_version.py
 node_modules
 deploy
 *.tar.gz

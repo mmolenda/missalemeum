@@ -36,8 +36,8 @@ from api.constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, T
                               PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
                               PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, TEMPORA_QUAD5_5, TEMPORA_QUAD5_5C, SANCTI_06_29,
                               SANCTI_08_09, SATURDAY, SANCTI_08_09C, SANCTI_09_14, SANCTI_11_09, PATTERN_CLASS_2)
-from kalendar.models import Calendar, Observance
-from utils import match_first, match_all
+from api.kalendar.models import Calendar, Observance
+from api.utils import match_first, match_all
 
 
 def rule_nativity_vigil(

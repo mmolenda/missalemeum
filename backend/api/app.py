@@ -5,9 +5,9 @@ import sys
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-from __version__ import __version__
-from apiv3 import router as apiv3_router
-from apiv5 import router as apiv5_router
+from api.version import __version__
+from api.apiv3 import router as apiv3_router
+from api.apiv5 import router as apiv5_router
 
 no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 

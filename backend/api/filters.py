@@ -1,7 +1,7 @@
 import re
 from trans import trans
 
-from constants.common import PATTERN_MARKDOWN_BOLD
+from api.constants.common import PATTERN_MARKDOWN_BOLD
 
 
 def newline2br(text):

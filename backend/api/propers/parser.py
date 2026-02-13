@@ -3,7 +3,7 @@ import os
 import re
 from typing import Tuple, Union
 
-import utils as utils
+from api import utils as utils
 from api.exceptions import InvalidInput, ProperNotFound
 
 from api.constants import TRANSLATION

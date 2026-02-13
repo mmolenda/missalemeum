@@ -3,16 +3,16 @@ import datetime
 import logging
 import sys
 
-from constants.common import LANGUAGE_ENGLISH
-from constants import TRANSLATION
-from exceptions import InvalidInput, ProperNotFound
+from api.constants.common import LANGUAGE_ENGLISH
+from api.constants import TRANSLATION
+from api.exceptions import InvalidInput, ProperNotFound
 from typing import List, Tuple
 
 import click
 
-import controller
-from kalendar.models import Calendar, Day
-from propers.models import Proper
+from api import controller
+from api.kalendar.models import Calendar, Day
+from api.propers.models import Proper
 
 
 def _log_setup(verbosity: int):

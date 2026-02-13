@@ -9,14 +9,14 @@ import yaml
 from fastapi import APIRouter, Depends, HTTPException, Path, Query, status
 from fastapi.responses import PlainTextResponse
 
-import __version__
-import controller
+from api.version import __version__
+from api import controller
 from api.exceptions import InvalidInput, ProperNotFound, SectionNotFound, SupplementNotFound
-from constants import TRANSLATION
-from constants.common import LANGUAGES, ORDO_DIR
-from kalendar.models import Calendar, Day
-from utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
-from examples import (
+from api.constants import TRANSLATION
+from api.constants.common import LANGUAGES, ORDO_DIR
+from api.kalendar.models import Calendar, Day
+from api.utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
+from api.examples import (
     CALENDAR_ITEMS_EXAMPLE,
     ICALENDAR_EXAMPLE,
     ORDO_EXAMPLE,
@@ -28,7 +28,7 @@ from examples import (
     get_text_response,
 )
 from pdf import PDFAwareRoute, PdfOptions, get_pdf_options
-from schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
+from api.schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
 
 
 class LanguageCode(str, Enum):
@@ -412,7 +412,7 @@ def v5_ical(
     summary="Get API Version",
 )
 def v5_version(lang: str = Depends(validate_locale)) -> VersionInfo:
-    return VersionInfo(version=__version__.__version__)
+    return VersionInfo(version=__version__)
 
 
 # Backwards compatibility for modules that still import `api`.

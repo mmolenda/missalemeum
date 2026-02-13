@@ -8,8 +8,8 @@ from dateutil.easter import easter
 
 from api.constants import BLOCKS
 from api.constants.common import TEMPORA_NAT2_0, SANCTI_10_DU, LANGUAGE_ENGLISH, FERIA
-from kalendar.models import Calendar, Observance
-from kalendar.rules import rules
+from api.kalendar.models import Calendar, Observance
+from api.kalendar.rules import rules
 
 
 class MissalFactory:

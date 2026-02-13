@@ -1,8 +1,8 @@
 FROM python:3.13-slim-bookworm
 
-RUN apt-get update
-RUN apt-get -y upgrade
-RUN apt-get install -y --no-install-recommends \
+RUN apt-get update \
+    && apt-get -y upgrade \
+    && apt-get install -y --no-install-recommends \
     libcairo2 \
     pango1.0-tools \
     libpango-1.0-0 \
@@ -15,14 +15,18 @@ RUN apt-get install -y --no-install-recommends \
     fonts-liberation \
     fonts-dejavu-core \
     shared-mime-info \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-ARG NEXT_PUBLIC_BUILD_VERSION="undefined"
-ENV PYTHONPATH=/app/api:/app
+ARG APP_VERSION="0.0.0"
+ENV SETUPTOOLS_SCM_PRETEND_VERSION=${APP_VERSION}
 WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
+COPY pyproject.toml ./
+COPY api ./api
+COPY pdf ./pdf
+RUN pip install --upgrade pip \
+    && pip install --no-cache-dir -e .
 
 RUN mkdir -pv \
              resources/divinum-officium/web/www/missa/Latin \
@@ -42,9 +46,5 @@ COPY resources/ordo ./resources/ordo
 COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-local ./resources/divinum-officium-local
-COPY api ./api
-COPY pdf ./pdf
-COPY tests ./tests
-RUN echo $NEXT_PUBLIC_BUILD_VERSION > ./api/__version__
 
 CMD [ "gunicorn", "--bind", "0.0.0.0:8080", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "api.app:app", "--access-logfile", "-" ]
