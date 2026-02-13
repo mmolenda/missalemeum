@@ -1,0 +1,43 @@
+name: Update divinum-officium submodule
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Update backend submodule to latest upstream
+        run: |
+          git submodule update --remote backend/resources/divinum-officium
+          git submodule status backend/resources/divinum-officium
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/update-divinum-officium-submodule
+          delete-branch: true
+          commit-message: "chore(submodule): update divinum-officium"
+          title: "chore: update divinum-officium submodule"
+          body: |
+            Automated weekly submodule refresh.
+
+            This PR updates `backend/resources/divinum-officium` to the latest upstream commit.
+            Merge manually after CI passes.
+          add-paths: |
+            backend/resources/divinum-officium
+          labels: |
+            dependencies
+            automated

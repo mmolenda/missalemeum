@@ -1,5 +1,3 @@
-version: "3.7"
-
 services:
   backend:
     image: ghcr.io/mmolenda/missalemeum/backend:latest
