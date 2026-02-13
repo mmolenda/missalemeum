@@ -65,7 +65,7 @@ jobs:
             cd /root/missalemeum
             curl https://raw.githubusercontent.com/mmolenda/missalemeum/refs/heads/main/caddy/Caddyfile -o caddy/Caddyfile
             curl https://raw.githubusercontent.com/mmolenda/missalemeum/refs/heads/main/docker-compose.prod.yaml -o docker-compose.prod.yaml
-            docker-compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
+            docker compose -f docker-compose.prod.yaml pull && docker-compose -f docker-compose.prod.yaml up -d
           host: ${{ vars.DEPLOY_HOST }}
           port: ${{ vars.DEPLOY_PORT }}
           user: ${{ vars.DEPLOY_USER }}
