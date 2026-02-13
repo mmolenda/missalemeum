@@ -2,7 +2,7 @@
 @Tempora/Quadp3-6
 
 [Introitus]
-@Tempora/Quadp3-6:Introitus
+@Tempora/Quadp3-5
 
 [Oratio]
 @Tempora/Quadp3-6:Oratio
@@ -17,13 +17,13 @@
 @Tempora/Quadp3-6:Evangelium
 
 [Offertorium]
-@Tempora/Quadp3-6:Offertorium
+@Tempora/Quadp3-5
 
 [Secreta]
 @Tempora/Quadp3-6:Secreta
 
 [Communio]
-@Tempora/Quadp3-6:Communio
+@Tempora/Quadp3-5
 
 [Postcommunio]
 @Tempora/Quadp3-6:Postcommunio

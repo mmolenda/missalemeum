@@ -23,7 +23,7 @@
 @Commune/C3a-1::s/N\. et N\./Januário et Sóciis ejus/
 
 [Communio]
-@Sancti/09-19:Communio
+@Commune/C3a-1
 
 [Postcommunio]
 @Commune/C3a-1::s/N\. et N\./Januário et Sóciis ejus/

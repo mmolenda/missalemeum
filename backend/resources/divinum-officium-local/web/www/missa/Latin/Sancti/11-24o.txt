@@ -26,5 +26,5 @@
 @Commune/C2:Communio
 
 [Postcommunio]
-@Sancti/11-24o:Postcommunio
+@Tempora/Quad1-3
 

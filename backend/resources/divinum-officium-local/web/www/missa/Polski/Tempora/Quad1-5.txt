@@ -2,5 +2,8 @@
 @Tempora/Quad1-5
 
 [Graduale]
-@Tempora/Quad1-5:Graduale:s/@Tempora\/Quadp3-3:Tractus1//
+@Tempora/Quad1-5:Graduale:s/@.*//
 @Tempora/Quadp3-3:Tractus1
+
+[Postcommunio]
+@Tempora/Quad1-5

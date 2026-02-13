@@ -23,7 +23,7 @@
 @Sancti/04-25:Secreta
 
 [Communio]
-@Sancti/04-25:Communio
+@Commune/C2p
 
 [Postcommunio]
 @Sancti/04-25:Postcommunio

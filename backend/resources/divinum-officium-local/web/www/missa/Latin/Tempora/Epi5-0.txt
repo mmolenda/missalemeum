@@ -2,7 +2,7 @@
 @Tempora/Epi5-0
 
 [Introitus]
-@Tempora/Epi5-0:Introitus
+@Tempora/Epi3-0
 
 [Oratio]
 @Tempora/Epi5-0:Oratio
@@ -23,7 +23,7 @@
 @Tempora/Epi5-0:Secreta
 
 [Communio]
-@Tempora/Epi5-0:Communio
+@Tempora/Epi3-0
 
 [Postcommunio]
 @Tempora/Epi5-0:Postcommunio

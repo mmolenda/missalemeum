@@ -2,16 +2,27 @@
 @Sancti/02-22
 
 [Oratio]
-@Sancti/01-18
+@Sancti/02-22:Oratio Petri
+_
+@Sancti/02-22:Oratio Pauli
 
 [Lectio]
 @Sancti/02-22
 
-[Secreta]
+[Tractus]
 @Sancti/02-22
+
+[Secreta]
+@Sancti/02-22:Secreta Petri
+_
+!Pro S. Paulo
+@Sancti/01-25:Secreta Pauli
 
 [Offertorium]
 @Sancti/02-22
 
 [Postcommunio]
-@Sancti/02-22
+@Sancti/02-22:Postcommunio Petri
+_
+!Pro S. Paulo
+@Sancti/01-25:Postcommunio Pauli

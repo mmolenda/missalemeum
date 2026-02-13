@@ -353,6 +353,7 @@ def _tests_propers(language, *, strdate=None, proper_id=None, expected_sections=
     else:
         propers_all = [controller.get_proper_by_id(proper_id, language)]
 
+    language_dir = c.DIVOFF_LANG_MAP[language]
     # --- Validate each proper ---
     for j, propers in enumerate(propers_all):
         if language == LANGUAGE_LATIN:
@@ -377,21 +378,18 @@ def _tests_propers(language, *, strdate=None, proper_id=None, expected_sections=
         for i, expected_section in enumerate(expected):
             expected_body = expected_section['body']
             actual_body = proper_serialized[i]['body']
+            context2 = context.copy()
+            context2.insert(4, f'[{expected_section["id"]}]')
             ok = actual_body.startswith(expected_body)
             if not ok:
-                fix = (
-                    f"\n+ # FIX =\n\n[{expected_section['id']}]\n{actual_body}"
-                    if actual_body.startswith('@') else ""
-                )
-                context2 = context.copy()
-                context2.insert(4, f'[{expected_section["id"]}]')
                 pytest.fail(
+                    f"\nlocal {language_dir} {proper.id.split(':')[1]}"
                     f"\n+ # CONTEXT: {' - '.join(context2)}"
                     f"\n+ # EXPECTED = {expected_body!r}"
-                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}"
-                    f"{fix}",
+                    f"\n+ # ACTUAL   = {actual_body[:len(expected_body)]!r}",
                     pytrace=False,
                 )
+            assert "@" not in actual_body, ' - '.join(context2)
 
 
 @pytest.mark.parametrize("strdate,expected_sections", _get_proper_fixtures(f"propers_{LANGUAGE_LATIN}.json"))

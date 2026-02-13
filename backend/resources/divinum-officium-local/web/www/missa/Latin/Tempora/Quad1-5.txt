@@ -26,7 +26,7 @@
 @Tempora/Quad1-5:Communio
 
 [Postcommunio]
-@Tempora/Quad1-5:Postcommunio
+@Sancti/01-05
 
 [Super populum]
 @Tempora/Quad1-5:Super populum

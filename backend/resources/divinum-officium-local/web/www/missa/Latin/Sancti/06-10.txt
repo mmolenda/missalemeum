@@ -14,10 +14,10 @@
 @Commune/C7a:Graduale
 
 [Evangelium]
-@Commune/C7a:Evangelium
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C7a:Offertorium
+@Commune/C6-1
 
 [Secreta]
 @Commune/C6a

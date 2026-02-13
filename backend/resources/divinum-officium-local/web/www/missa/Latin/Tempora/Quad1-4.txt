@@ -5,7 +5,7 @@
 @Tempora/Quad1-4:Introitus
 
 [Oratio]
-@Tempora/Quad1-4:Oratio
+@Tempora/Quad1-3:OratioL1
 
 [Lectio]
 @Tempora/Quad1-4:Lectio

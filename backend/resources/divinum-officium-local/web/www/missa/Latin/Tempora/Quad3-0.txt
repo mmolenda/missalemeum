@@ -20,7 +20,7 @@
 @Tempora/Pent09-0
 
 [Secreta]
-@Tempora/Quad3-0:Secreta
+@Tempora/Epi3-0
 
 [Communio]
 @Tempora/Quad3-0:Communio

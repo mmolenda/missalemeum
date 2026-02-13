@@ -3,3 +3,7 @@
 
 [Evangelium]
 @Sancti/04-25
+
+[Lectio]
+@Sancti/04-25::s/@:Lectio1//
+@Sancti/04-25:Lectio1

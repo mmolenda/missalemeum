@@ -26,5 +26,5 @@
 @Tempora/Pent17-0:Communio
 
 [Postcommunio]
-@Tempora/Pent17-0:Postcommunio
+@Tempora/Quad1-6
 

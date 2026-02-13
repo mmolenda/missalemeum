@@ -5,7 +5,7 @@
 @Commune/C5:Introitus
 
 [Oratio]
-@Commune/C4c:Oratio:s/N\./Ægidii/
+@Commune/C5:Oratio:s/N\./Ægidii/
 
 [Lectio]
 @Commune/C5:Lectio
@@ -20,11 +20,11 @@
 @Commune/C5:Offertorium
 
 [Secreta]
-@Commune/C4c:Secreta:s/N\./Ægidii/
+@Commune/C5
 
 [Communio]
 @Commune/C5:Communio
 
 [Postcommunio]
-@Commune/C4c:Postcommunio:s/N\./Ægidii/
+@Commune/C5
 

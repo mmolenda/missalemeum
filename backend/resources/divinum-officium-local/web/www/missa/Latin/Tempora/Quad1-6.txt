@@ -14,7 +14,7 @@
 @Tempora/Quad1-6:Graduale
 
 [Evangelium]
-@Tempora/Quad1-6:Evangelium
+@Tempora/Quad2-0
 
 [Offertorium]
 @Tempora/Quad1-6:Offertorium

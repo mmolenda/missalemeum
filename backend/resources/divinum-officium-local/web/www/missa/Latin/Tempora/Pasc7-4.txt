@@ -5,7 +5,7 @@
 @Tempora/Pasc7-4:Introitus
 
 [Oratio]
-@Tempora/Pasc7-4:Oratio
+@Tempora/Pasc7-0
 
 [Lectio]
 @Tempora/Pasc7-4:Lectio
@@ -26,7 +26,7 @@
 @Tempora/Pasc7-4:Communio
 
 [Postcommunio]
-@Tempora/Pasc7-4:Postcommunio
+@Tempora/Pasc7-0
 
 [Sequentia]
 @Tempora/Pasc7-0:Sequentia

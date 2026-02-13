@@ -1,8 +1,14 @@
 [Comment]
 @Sancti/09-15
 
+[Oratio]
+@Sancti/09-15
+
 [Evangelium]
 @Commune/C10Pasc
 
 [Offertorium]
+@Sancti/09-15
+
+[Postcommunio]
 @Sancti/09-15

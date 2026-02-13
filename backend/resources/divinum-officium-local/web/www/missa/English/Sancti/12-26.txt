@@ -1,0 +1,11 @@
+[Commemoratio Oratio]
+! For Octave of the Nativity
+@Sancti/12-25m3:Oratio
+
+[Commemoratio Secreta]
+! For Octave of the Nativity
+@Sancti/12-25m3:Secreta
+
+[Commemoratio Postcommunio]
+! For Octave of the Nativity
+@Sancti/12-25m3:Postcommunio

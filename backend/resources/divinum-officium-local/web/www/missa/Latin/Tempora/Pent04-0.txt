@@ -20,7 +20,7 @@
 @Tempora/Pent04-0:Offertorium
 
 [Secreta]
-@Tempora/Pent04-0:Secreta
+@Tempora/Quad4-6
 
 [Communio]
 @Tempora/Pent04-0:Communio

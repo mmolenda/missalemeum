@@ -20,7 +20,7 @@
 @Tempora/Pasc5-3:Offertorium
 
 [Secreta]
-@Tempora/Pasc5-3:Secreta
+@Tempora/Pasc0-2
 
 [Communio]
 @Tempora/Pasc5-3:Communio

@@ -29,7 +29,8 @@
 @Commune/C5
 
 [Commemoratio Oratio]
-@Sancti/12-27:Commemoratio Oratio
+*Pro Octava Nativitatis.*
+@Sancti/12-25m3:Oratio
 
 [GradualeP]
 @Sancti/12-27:GradualeP
@@ -38,8 +39,10 @@
 @Sancti/12-27:Tractus
 
 [Commemoratio Secreta]
-@Sancti/12-27:Commemoratio Secreta
+*Pro Octava Nativitatis.*
+@Sancti/12-25m3:Secreta
 
 [Commemoratio Postcommunio]
-@Sancti/12-27:Commemoratio Postcommunio
+*Pro Octava Nativitatis.*
+@Sancti/12-25m3:Postcommunio
 

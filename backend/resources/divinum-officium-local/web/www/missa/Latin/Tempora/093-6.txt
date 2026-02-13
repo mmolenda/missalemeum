@@ -11,7 +11,7 @@
 @Tempora/093-6:Lectio
 
 [Graduale]
-@Tempora/093-6:Graduale
+@Tempora/Quad1-6
 
 [Evangelium]
 @Tempora/093-6:Evangelium
