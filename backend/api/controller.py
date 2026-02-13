@@ -4,12 +4,12 @@ import datetime
 from functools import lru_cache
 from typing import List, Tuple
 
-import ical
-from kalendar.factory import MissalFactory
-from kalendar.models import Calendar, Day
-from propers.models import Proper, ProperConfig
-from propers.parser import ProperParser
-from utils import get_custom_preface
+from api import ical
+from api.kalendar.factory import MissalFactory
+from api.kalendar.models import Calendar, Day
+from api.propers.models import Proper, ProperConfig
+from api.propers.parser import ProperParser
+from api.utils import get_custom_preface
 
 no_cache = bool(os.environ.get('MISSAL_NO_CACHE'))
 

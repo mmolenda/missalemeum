@@ -6,8 +6,8 @@ from typing import List, Union, Pattern
 
 import yaml
 
-from constants import TRANSLATION
-from constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
+from api.constants import TRANSLATION
+from api.constants.common import CUSTOM_PREFACES, PROPERS_DIR, SUPPLEMENT_DIR, PATTERN_PRE_LENTEN, PATTERN_LENT, TRACTUS, \
     SANCTI_02_02, GRADUALE
 from api.exceptions import SupplementNotFound
 

@@ -2,7 +2,7 @@
 
 1962 Roman Catholic Missal for the Traditional Latin Mass.
 
-The application consists of Python/Flask API, serving calendar and propers for a given day, and Nextjs/React frontend consuming 
+The application consists of a Python/FastAPI backend, serving calendar and propers for a given day, and a Nextjs/React frontend consuming 
 and presenting the data. The application utilizes data files from
  [Divinum Officium](https://github.com/DivinumOfficium/divinum-officium), which is linked through a
  [git submodule](./backend/resources).
@@ -31,7 +31,7 @@ For the OpenAPI specification, check out either [Swagger UI](https://www.missale
 
 ### Prerequisites
 
-* Python >=3.6
+* Python >=3.13
 * node
 
 ### Installation
@@ -39,7 +39,11 @@ For the OpenAPI specification, check out either [Swagger UI](https://www.missale
 Clone the repository using `--recursive` switch to also fetch [divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
 as a submodule - it's used to display propers.
 
-Create a virtualenv and install dependencies `pip install -r backend/requirements.txt`.
+Create a virtualenv and install backend dependencies:
+
+```bash
+pip install -e "./backend[dev]"
+```
 
 ### Configuration
 
@@ -55,8 +59,7 @@ Create a virtualenv and install dependencies `pip install -r backend/requirement
 ### Run the python development API
 
 ```bash
-$ export PYTHONPATH=$PYTHONPATH:backend
-$ python backend/api/app.py
+$ python -m api.app
 ```
 
 and navigate to http://0.0.0.0:8000/en/api/v5/version.
@@ -93,15 +96,15 @@ and navigate to http://0.0.0.0:8000/.
 Calculate the calendar
 ```bash
 # current year
-$ python backend/api/cli.py calendar
+$ python -m api.cli calendar
 
 # selected year
-$ python backend/api/cli.py calendar 2020
+$ python -m api.cli calendar 2020
 ```
 
 Show Proprium Missae for a given date
 ```bash
-$ python backend/api/cli.py date 2018-05-03
+$ python -m api.cli date 2018-05-03
 ```
 
 Show Proprium Missae for a given observance
@@ -109,15 +112,15 @@ Show Proprium Missae for a given observance
 *Observance ID can be obtained from calendar's output*
 ```bash
 # Second Sunday of Advent
-$ python backend/api/cli.py proper tempora:Adv2-0:1:v
+$ python -m api.cli proper tempora:Adv2-0:1:v
 
 # The Seven Dolors of the Blessed Virgin Mary
-$ python backend/api/cli.py proper sancti:09-15:2:w
+$ python -m api.cli proper sancti:09-15:2:w
 ```
 
 Show Proprium Missae for a given date or ID in columns format
 ```bash
-$ python backend/api/cli.py proper-cols 2018-05-03
+$ python -m api.cli proper-cols 2018-05-03
 ```
 
 ## Localization
@@ -184,6 +187,8 @@ of its place in the calendar).
 
 ## Tests
 
-Add `backend` directory to the `PYTHONPATH` environment variable and use `pytest`.
+Install backend dependencies first (`pip install -e "./backend[test]"`) and run:
 
-Or in the root directory set an alias for `pytest`: `alias pytest="PYTHONPATH=$(pwd)/backend:$(pwd)/tests pytest"`
+```bash
+pytest backend
+```

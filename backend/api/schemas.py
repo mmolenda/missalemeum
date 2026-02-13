@@ -138,5 +138,5 @@ class VersionInfo(BaseModel):
     version: str = Field(
         ...,
         description="Semantic version of the running API.",
-        json_schema_extra={"example": "v5.0.1"},
+        json_schema_extra={"example": "5.0.1"},
     )

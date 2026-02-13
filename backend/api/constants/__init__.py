@@ -9,5 +9,5 @@ TRANSLATION = {}
 BLOCKS = {}
 
 for lang in langs:
-    TRANSLATION[lang] = importlib.import_module(f'constants.{lang}.translation')
-    BLOCKS[lang] = importlib.import_module(f'constants.{lang}.blocks')
+    TRANSLATION[lang] = importlib.import_module(f'api.constants.{lang}.translation')
+    BLOCKS[lang] = importlib.import_module(f'api.constants.{lang}.blocks')

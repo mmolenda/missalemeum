@@ -4,7 +4,7 @@ import sys
 from fastapi import APIRouter, Depends
 from fastapi.responses import RedirectResponse
 
-from apiv5 import validate_locale
+from api.apiv5 import validate_locale
 
 logging.basicConfig(
     stream=sys.stdout,
