@@ -15,7 +15,7 @@ const toSupportedLocale = (value?: string): 'en' | 'pl' => {
   return 'en'
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
   const cookies = request.cookies
   const storedLocale = cookies.get('mm-last-locale')?.value
