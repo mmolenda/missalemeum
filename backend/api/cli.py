@@ -107,9 +107,9 @@ def date(date: str, language: str, verbosity: int):
     day: Day = missal.get_day(date_object)
     propers: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
     click.echo(f'# {date}')
-    click.echo('- tempora: {}'.format(day.get_tempora_name()))
-    click.echo('- celebration: {}'.format(day.get_celebration_name()))
-    click.echo('- class: {}'.format(day.get_celebration_rank()))
+    click.echo(f'- tempora: {day.get_tempora_name()} ({day.get_tempora_id()})')
+    click.echo(f'- celebration: {day.get_celebration_name()} ({day.get_celebration_id()})')
+    click.echo(f'- class: {day.get_celebration_rank()}')
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
@@ -141,14 +141,14 @@ def proper_cols(date_or_id: str, language: str, verbosity: int):
         propers_all: List[Tuple[Proper, Proper]] = controller.get_proper_by_date(date_object, language)
         click.echo()
         click.echo(f'# {date_or_id}')
-        click.echo('- tempora: {}'.format(day.get_tempora_name()))
-        click.echo('- celebration: {}'.format(day.get_celebration_name()))
+        click.echo(f'- tempora: {day.get_tempora_name()} ({day.get_tempora_id()})')
+        click.echo(f'- celebration: {day.get_celebration_name()} ({day.get_celebration_id()})')
         comms = day.get_commemorations_titles()
         if comms:
             click.echo('- commemorations:')
             for c in comms:
                 click.echo('  - {}'.format(c))
-        click.echo('- class: {}'.format(day.get_celebration_rank()))
+        click.echo(f'- class: {day.get_celebration_rank()}')
         click.echo()
 
     for propers in propers_all:

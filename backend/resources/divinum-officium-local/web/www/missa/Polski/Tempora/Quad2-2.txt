@@ -1,2 +1,5 @@
 [Comment]
 @Tempora/Quad2-2
+
+[Graduale]
+@Tempora/Quad2-2:Graduale:s/@.*//

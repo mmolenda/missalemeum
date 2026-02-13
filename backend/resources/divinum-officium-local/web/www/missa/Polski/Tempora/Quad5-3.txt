@@ -1,2 +1,6 @@
 [Comment]
 @Tempora/Quad5-3
+
+[Graduale]
+@Tempora/Quad5-3:Graduale:s/@.*//
+@Tempora/Quadp3-3:Tractus1
