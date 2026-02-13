@@ -63,6 +63,7 @@ def test_api_date_whole_year(client, lang, strdate):
     ('en', 'aeterno-sacerdote'),
     ('en', 'cordis-jesu'),
     ('en', 'cordis-mariae'),
+    ('en', 'ad-vocationes'),
     ('pl', 'tempore-mortalitatis'),
     ('pl', 'rorate'),
     ('pl', 'vultum-tuum'),

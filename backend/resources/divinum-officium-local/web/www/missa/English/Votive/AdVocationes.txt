@@ -1,0 +1,111 @@
+[Name]
+Ad Vocationes
+
+[Comment]
+# Ad Vocationes
+! For vocations
+
+[Introitus]
+!Mat 4:18-19
+By the sea of Galilee the Lord saw two brethren, Peter and Andrew, and He called them: Come ye after me, and~
+I will make you to be fishers of men. (P. T. Alleluia, alleluia.)
+!Ps 18:2
+The heavens shew forth the glory of God, and the firmament declareth the work of His hands.
+$Gloria
+By the sea of Galilee the Lord saw two brethren, Peter and Andrew, and He called them: Come ye after me, and~
+I will make you to be fishers of men. (P. T. Alleluia, alleluia.)
+
+[Oratio]
+Send, we beseech Thee, O Lord, labourers into Thy harvest: so that the precepts of Thine only-begotten Son~
+may always be observed and His sacrifice everywhere renewed:
+$Qui tecum
+
+[Lectio]
+Lesson from the first book of Kings
+! 1 Kgs 3:1-10
+In those days: The child Samuel ministered to the Lord before Heli, and the~
+word of the Lord was precious in those days; there was no manifest vision. And~
+it came to pass one day when Heli lay in his place, and his eyes were grown~
+dim, that he could not see: before the lamp of God went out, Samuel slept in~
+the temple of the Lord, where the ark of God was. And the Lord called Samuel.~
+And he answered: Here am I. And he ran to Heli and said: Here am I: for thou~
+didst call me. He said: I did not call: go back and sleep. And he went and~
+slept. And the Lord called Samuel again. And Samuel arose and went to Heli, and~
+said: Here am I: for thou calledst me. He answered: I did not call thee, my~
+son: return and sleep. Now Samuel did not yet know the Lord, neither had the~
+word of the Lord been revealed to him. And the Lord called Samuel again the~
+third time. And he arose up and went to Heli, and said: Here am I: for thou~
+didst call me. Then Heli understood that the Lord called the child, and he said~
+to Samuel: Go, and sleep: and if He shall call thee any more, thou shalt say:~
+Speak, Lord, for Thy servant heareth. So Samuel went and slept in his place.~
+And the Lord came and stood: and He called, as He had called the other times:~
+Samuel, Samuel. And Samuel said: Speak, Lord, for Thy servant heareth.
+
+[Graduale]
+! Ps 26:4
+One thing I have asked of the Lord, this will I seek after; that I may dwell in the house of the Lord all the days of my life.
+V. That I may see the delight of the Lord, and may visit His temple. Alleluia, alleluia.
+! Ps 83:5
+V. Blessed are they that dwell in Thy house, O Lord: they shall praise Thee for ever and ever. Alleluia.
+
+[GradualeP]
+! In Eastertide
+! Ps 83:5
+Alleluia, alleluia.
+V. Blessed are they that dwell in Thy house, O Lord: they shall praise Thee for ever and ever. Alleluia.
+! Eccli 39:19
+V. Send forth flowers, as the lily, and yield a smell, and bring forth leaves in grace, and praise with canticles, and bless the Lord in his works. Alleluia.
+
+[Tractus]
+! In Votive Masses from Septuagesima to Easter
+! Ps 83:2-4
+How lovely are Thy tabernacles, O Lord of hosts! My soul longeth and fainteth for the courts of the Lord.
+V. My heart and my flesh have rejoiced in the living God.
+V. For the sparrow hath found herself a house, and the turtle a nest for herself where she may lay her young ones: Thy altars, O Lord of hosts, my King and my God.
+
+[Evangelium]
+Continuation of the Holy Gospel according to St. John.
+!John 1:35-51
+At that time: John stood, and two of his disciples. And beholding Jesus walking,~
+he saith: Behold the Lamb of God. And the two disciples heard him speak, and~
+they followed Jesus. And Jesus turning, and seeing them following him, saith to~
+them: What seek you? Who said to Him, Rabbi (which is to say, being interpreted,~
+Master), where dwellest Thou? He saith to them: Come and see. They came, and saw~
+where He abode, and they stayed with Him that day: now it was about the tenth~
+hour. And Andrew, the brother of Simon Peter, was one of the two who had heard~
+of John, and followed Him. He findeth first his brother Simon, and saith to him:~
+We have found the Messias, which is, being interpreted, the Christ. And he~
+brought him to Jesus. And Jesus looking upon him, said: Thou art Simon the son~
+of Jona: thou shalt be called Cephas, which is interpreted Peter. On the~
+following day, He would go forth into Galilee, and He findeth Philip. And Jesus~
+saith to him: Follow me. Now Philip was of Bethsaida, the city of Andrew and~
+Peter. Philip findeth Nathanael, and saith to him: We have found Him of whom~
+Moses in the law, and the prophets did write, Jesus the son of Joseph of~
+Nazareth. And Nathanael said to him: Can any thing of good come from Nazareth?~
+Philip saith to him: Come and see. Jesus saw Nathanael coming to Him: and He~
+saith of him: Behold an Israelite indeed, in whom there is no guile. Nathanael~
+saith to Him: Whence knowest Thou me? Jesus answered, and said to him: Before~
+that Philip called thee, when thou wast under the fig tree, I saw thee. Nathanael~
+answered Him, and said: Rabbi, Thou art the Son of God, Thou art the King of~
+Israel. Jesus answered, and said to him: Because I said unto thee, I saw thee~
+under the fig tree, thou believest: greater things than these shalt thou see.~
+And He saith to him: Amen, amen I say to you, you shall see the heaven opened,~
+and the Angels of God ascending and descending upon the Son of man.
+
+[Offertorium]
+! Ps 15:5
+The Lord is the portion of my inheritance and of my cup: it is Thou that wilt restore my inheritance to me. (P. T. Alleluia.)
+
+[Secreta]
+Grant, O Lord, that this gift which we offer may be made to Thy people a life-giving Sacrament: so that around~
+Thy table an increased number of ministers may offer prayers and sacrifices to Thee.
+$Per Dominum
+
+[Communio]
+! Ps 65:16
+Come and hear, all ye that fear God, and I will tell you what great things He hath done for my soul. (P. T. Alleluia.)
+
+[Postcommunio]
+Replete with heavenly mysteries, we beseech Thee Almighty God: that Thou mayest both increase Thy ministers in~
+number and sanctify them by charity.
+$Per Dominum

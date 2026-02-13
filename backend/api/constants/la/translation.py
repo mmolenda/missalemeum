@@ -851,6 +851,7 @@ TITLES = {
     constants.VOTIVE_08_22: 'Immaculati Cordis Beatæ Mariæ Virginis',
     constants.VOTIVE_DEFUNCTORUM: 'Missa Defunctorum Quotidianis',
     constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis',
+    constants.VOTIVE_AD_VOCATIONES: 'Missa ad Vocationes',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione',
     constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.'
 }
