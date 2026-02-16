@@ -1,10 +1,12 @@
 name: Update divinum-officium submodule
 
+
 on:
   schedule:
     # GitHub Actions schedules are evaluated in UTC.
-    # 09:10 CET == 08:10 UTC (winter time).
-    - cron: "*/5 * * * *"
+    # 05:00 CET == 04:00 UTC (winter time).
+    # During CEST (summer), this fires at 06:00 local.
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 jobs:
