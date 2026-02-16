@@ -2,7 +2,9 @@ name: Update divinum-officium submodule
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    # GitHub Actions schedules are evaluated in UTC.
+    # 09:10 CET == 08:10 UTC (winter time).
+    - cron: "10 8 * * 1"
   workflow_dispatch:
 
 jobs:
@@ -23,10 +25,20 @@ jobs:
           git submodule update --remote backend/resources/divinum-officium
           git submodule status backend/resources/divinum-officium
 
+      - name: Verify SUBMODULE_PR_TOKEN is set
+        env:
+          SUBMODULE_PR_TOKEN: ${{ secrets.SUBMODULE_PR_TOKEN }}
+        run: |
+          if [ -z "${SUBMODULE_PR_TOKEN}" ]; then
+            echo "Missing required secret SUBMODULE_PR_TOKEN."
+            echo "Without it, the created PR may not trigger pull_request workflows."
+            exit 1
+          fi
+
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SUBMODULE_PR_TOKEN }}
           branch: chore/update-divinum-officium-submodule
           delete-branch: true
           commit-message: "chore(submodule): update divinum-officium"
