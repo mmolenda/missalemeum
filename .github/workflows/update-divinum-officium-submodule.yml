@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub Actions schedules are evaluated in UTC.
     # 09:10 CET == 08:10 UTC (winter time).
-    - cron: "10 8 * * 1"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
