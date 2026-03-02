@@ -18610,10 +18610,6 @@
         "id": "Oratio"
       },
       {
-        "body": "*Pro Octava Nativitatis.*\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; qu",
-        "id": "Commemoratio Oratio"
-      },
-      {
         "body": "Lectio Epístolæ beati Pauli Apóstoli ad Gálatas.\n*Gal 4:1-7*\nFratres: Quanto témpore heres párvulus est, nihil differt a",
         "id": "Lectio"
       },
@@ -18634,10 +18630,6 @@
         "id": "Secreta"
       },
       {
-        "body": "*Pro Octava Nativitatis.*\nObláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostróru",
-        "id": "Commemoratio Secreta"
-      },
-      {
         "body": "*de Nativitate Domini*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine san",
         "id": "Prefatio"
       },
@@ -18648,10 +18640,6 @@
       {
         "body": "Per hujus, Dómine, operatiónem mystérii, et vitia nostra purgéntur, et justa desidéria compleántur.\nPer Dominum…",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Pro Octava Nativitatis.*\nPræsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatió",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -37352,7 +37340,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Pro Octava Nativitatis.*\nConcéde, quǽsumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; qu",
+        "body": "*Commemoratio Ss. Innocentium*\nDeus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféss",
         "id": "Commemoratio Oratio"
       },
       {
@@ -37376,7 +37364,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Pro Octava Nativitatis.*\nObláta, Dómine, múnera, nova Unigéniti tui Nativitáte sanctífica: nosque a peccatórum nostróru",
+        "body": "*Commemoratio Ss. Innocentium*\nSanctórum tuórum, Dómine, nobis pia non desit orátio: quæ et múnera nostra concíliet, et ",
         "id": "Commemoratio Secreta"
       },
       {
@@ -37392,7 +37380,7 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Pro Octava Nativitatis.*\nPræsta, quǽsumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínæ nobis generatió",
+        "body": "*Commemoratio Ss. Innocentium*\nVotíva, Dómine, dona percépimus: quæ Sanctórum nobis précibus, et præséntis, quǽsumus, vi",
         "id": "Commemoratio Postcommunio"
       }
     ]
