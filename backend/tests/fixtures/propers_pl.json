@@ -18610,10 +18610,6 @@
         "id": "Oratio"
       },
       {
-        "body": "*W Oktawie Narodzenia*\nDozwól, prosimy Cię, wszechmogący Boże, aby nowe narodzenie się w ciele Jednorodzonego Syna Twego",
-        "id": "Commemoratio Oratio"
-      },
-      {
         "body": "Czytanie z Listu świętego Pawła Apostoła do Galatów.\n*Ga 4:1-7*\n*Św. Paweł poucza nas, że Wcielenie Syna Bożego przynios",
         "id": "Lectio"
       },
@@ -18634,10 +18630,6 @@
         "id": "Secreta"
       },
       {
-        "body": "*W Oktawie Narodzenia*\nUświęć, Panie, złożone dary przez nowe narodzenie Jedynego Syna Twojego i oczyść nas ze zmazy nas",
-        "id": "Commemoratio Secreta"
-      },
-      {
         "body": "*Prefacja o Bożym Narodzeniu*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie skła",
         "id": "Prefatio"
       },
@@ -18648,10 +18640,6 @@
       {
         "body": "Panie, niech działanie tego Sakramentu oczyści nas ze złych skłonności i spełni nasze godziwe pragnienia.\nPrzez Pana…",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*W Oktawie Narodzenia*\nWszechmogący Boże, narodzony dzisiaj Zbawiciel świata przywrócił nam synostwo Boże; spraw, prosim",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
@@ -37352,7 +37340,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*W Oktawie Narodzenia*\nDozwól, prosimy Cię, wszechmogący Boże, aby nowe narodzenie się w ciele Jednorodzonego Syna Twego",
+        "body": "*Wspomnienie Świętych Młodzianków*\nBoże, święci Młodziankowie obwieścili Twą chwałę nie słowami, lecz śmiercią; racz wyn",
         "id": "Commemoratio Oratio"
       },
       {
@@ -37376,7 +37364,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*W Oktawie Narodzenia*\nUświęć, Panie, złożone dary przez nowe narodzenie Jedynego Syna Twojego i oczyść nas ze zmazy nas",
+        "body": "*Wspomnienie Świętych Młodzianków*\nNiechaj nie braknie nam, Panie, pobożnej modlitwy Świętych Twoich: niech ona uczyni m",
         "id": "Commemoratio Secreta"
       },
       {
@@ -37392,7 +37380,7 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*W Oktawie Narodzenia*\nWszechmogący Boże, narodzony dzisiaj Zbawiciel świata przywrócił nam synostwo Boże; spraw, prosim",
+        "body": "*Wspomnienie Świętych Młodzianków*\nSpożyliśmy, Panie, poświęcone Tobie dary. Spraw, prosimy, aby dzięki modlitwom Twoich",
         "id": "Commemoratio Postcommunio"
       }
     ]

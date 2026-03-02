@@ -27,16 +27,3 @@
 
 [Postcommunio]
 @Tempora/Nat1-0:Postcommunio
-
-[Commemoratio Oratio]
-*Pro Octava Nativitatis.*
-@Sancti/12-25m3:Oratio
-
-[Commemoratio Secreta]
-*Pro Octava Nativitatis.*
-@Sancti/12-25m3:Secreta
-
-[Commemoratio Postcommunio]
-*Pro Octava Nativitatis.*
-@Sancti/12-25m3:Postcommunio
-
