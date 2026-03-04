@@ -47,4 +47,4 @@ COPY resources/propers ./resources/propers
 COPY resources/supplement ./resources/supplement
 COPY resources/divinum-officium-local ./resources/divinum-officium-local
 
-CMD [ "gunicorn", "--bind", "0.0.0.0:8080", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "api.app:app", "--access-logfile", "-" ]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "-w", "2", "-k", "uvicorn.workers.UvicornWorker", "api.app:app", "--access-logfile", "-"]
