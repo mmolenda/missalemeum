@@ -322,7 +322,7 @@ class ProperParser:
         return proper
 
     def _add_preface(self, proper, lang):
-        preface_name = self.config.preface or proper.rules.preface
+        preface_name = self.config.preface or proper.rules.preface or self.config.default_preface
         if preface_name == PREFATIO_OMIT or (preface_name is None and PREFATIO in proper.keys()):
             return proper
         preface_item: Section = self.prefaces[lang].get_section(preface_name)
