@@ -277,10 +277,10 @@ class ProperConfig:
     """
     title_id: str = None
     preface: str = None
+    default_preface: str = None
     inter_readings_section: str = None
     strip_alleluia: bool = False
     strip_tract: bool = False
 
     def __post_init__(self):
         assert self.inter_readings_section in (None, GRADUALE, TRACTUS, GRADUALE_PASCHAL)
-

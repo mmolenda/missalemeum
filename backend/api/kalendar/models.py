@@ -16,7 +16,7 @@ from api.constants.common import (PATTERN_WEEKDAY_IN_ID, TEMPORA_C_10A, TEMPORA_
                               CUSTOM_INTER_READING_SECTIONS,
                               SUNDAY, PATTERN_POST_EPIPHANY_SUNDAY, TEMPORA_PENT23_0, INTROIT, OFFERTORIUM,
                               COMMUNIO,
-                              TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, TEMPORA_PASC5_0,
+                              TEMPORA_NAT2_0, SANCTI_01_01, PREFATIO_COMMUNIS, PREFATIO_TRINITATE, TEMPORA_PASC5_0,
                               TEMPORA_PASC5_4,
                               TEMPORA_PENT01_0A, FERIA)
 from api.propers.models import Proper, ProperConfig
@@ -223,8 +223,10 @@ class Day:
             retval: List[Tuple[Proper, Proper]] = []
             for observance in observances:
                 inter_readings_section = self._infer_inter_reading_section(observance)
-                preface = get_custom_preface(observance, next(iter(self.tempora), None))
-                proper_config = ProperConfig(preface=preface, inter_readings_section=inter_readings_section)
+                preface = self._infer_preface(observance)
+                default_preface = self._infer_default_preface()
+                proper_config = ProperConfig(preface=preface, default_preface=default_preface,
+                                             inter_readings_section=inter_readings_section)
                 retval.append(observance.get_proper(proper_config))
             return retval
         else:
@@ -232,13 +234,14 @@ class Day:
             inferred_observances = self._infer_observance()
             if observances and not match_first(observances, FERIA):
                 rank: int = observances[0].rank
-                preface: str = get_custom_preface(observances[0])
+                preface: str = self._infer_preface(observances[0])
             else:
                 rank: int = 4
-                preface: str = get_custom_preface(inferred_observances)
+                preface: str = self._infer_preface(inferred_observances)
+            default_preface = self._infer_default_preface()
             preface = preface if preface is not None else PREFATIO_COMMUNIS
             title_id = observances[0].id if observances else None
-            config: ProperConfig = ProperConfig(title_id=title_id, preface=preface,
+            config: ProperConfig = ProperConfig(title_id=title_id, preface=preface, default_preface=default_preface,
                                                 strip_alleluia=True, strip_tract=True)
             propers: Tuple[Proper, Proper] = inferred_observances.get_proper(config)
             for proper in propers:
@@ -268,6 +271,20 @@ class Day:
         if day.tempora:
             return day.tempora[0]
         return day.celebration[0]
+
+    def _infer_preface(self, observance: Observance) -> str:
+        tempora = next(iter(self.tempora), None)
+        return get_custom_preface(observance, tempora)
+
+    def _infer_default_preface(self) -> str:
+        tempora = next(iter(self.tempora), None)
+        if not tempora:
+            return
+        preface = get_custom_preface(tempora)
+        if preface is not None:
+            return preface
+        if tempora.weekday == SUNDAY:
+            return PREFATIO_TRINITATE
 
     def _infer_inter_reading_section(self, observance):
         if observance.id in CUSTOM_INTER_READING_SECTIONS:
