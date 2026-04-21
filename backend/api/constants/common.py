@@ -1143,6 +1143,7 @@ CUSTOM_PREFACES = (
     (SANCTI_01_06, PREFATIO_EPI),
     (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
     (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul
+    (SANCTI_04_25, PREFATIO_APOSTOLIS),  # St. Mark, Evangelist
     (SANCTI_07_25, PREFATIO_APOSTOLIS),  # st. James, the Apostle
     (SANCTI_12_21, PREFATIO_APOSTOLIS),  # st. Thomas, the Apostle
     (SANCTI_05_11, PREFATIO_APOSTOLIS),  # Sts. Philip and James
