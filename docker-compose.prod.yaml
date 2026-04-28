@@ -3,6 +3,11 @@ services:
     image: ghcr.io/mmolenda/missalemeum/backend:latest
     container_name: backend
     restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
     ports:
       - "8080:8080"
     networks:
@@ -17,6 +22,11 @@ services:
     image: ghcr.io/mmolenda/missalemeum/frontend:latest
     container_name: frontend
     restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
     ports:
       - "8081:8081"
     environment:
@@ -31,6 +41,11 @@ services:
     image: caddy:2
     container_name: caddy
     restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
     ports:
       - "8000:8000"
     networks:
