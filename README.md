@@ -91,6 +91,11 @@ $ docker compose up --build
 
 and navigate to http://0.0.0.0:8000/.
 
+Production notes:
+- `docker-compose.prod.yaml` configures Docker log rotation for all services.
+- The backend PDF cache is persisted in a named volume and capped by `PDF_CACHE_SIZE_BYTES`.
+- Production deploys prune unused Docker images older than 7 days to keep `overlay2` from growing without bound across releases.
+
 ## Command line (CLI)
 
 Calculate the calendar
