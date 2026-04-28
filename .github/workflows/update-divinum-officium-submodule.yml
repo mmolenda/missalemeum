@@ -46,8 +46,6 @@ jobs:
           delete-branch: true
           commit-message: "chore(submodule): update divinum-officium"
           title: "chore: update divinum-officium submodule"
-          reviewers: |
-            mmolenda
           body: |
             Automated weekly submodule refresh.
 
