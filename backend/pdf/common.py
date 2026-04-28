@@ -4,6 +4,7 @@ from __future__ import annotations
 import logging
 import os
 import re
+import stat
 import unicodedata
 from dataclasses import dataclass
 from html import escape
@@ -45,17 +46,56 @@ class NoCache:
     def set(self, key, value, expire=None): pass
 
 
-if cache_dir := os.getenv("PDF_CACHE_DIR"):
+def _cache_dir_is_trusted(cache_dir: str) -> bool:
+    try:
+        os.makedirs(cache_dir, mode=0o700, exist_ok=True)
+        cache_stat = os.stat(cache_dir)
+    except OSError as exc:
+        log.warning("PDF cache disabled; unable to prepare cache dir %s: %s", cache_dir, exc)
+        return False
+
+    if not stat.S_ISDIR(cache_stat.st_mode):
+        log.warning("PDF cache disabled; cache path is not a directory: %s", cache_dir)
+        return False
+
+    if cache_stat.st_uid != os.getuid():
+        log.warning(
+            "PDF cache disabled; cache dir %s is owned by uid %s instead of %s",
+            cache_dir,
+            cache_stat.st_uid,
+            os.getuid(),
+        )
+        return False
+
+    if cache_stat.st_mode & (stat.S_IWGRP | stat.S_IWOTH):
+        log.warning(
+            "PDF cache disabled; cache dir %s must not be writable by group or others",
+            cache_dir,
+        )
+        return False
+
+    return True
+
+
+def _build_cache() -> Cache | NoCache:
+    cache_dir = os.getenv("PDF_CACHE_DIR")
+    if not cache_dir:
+        log.info("PDF cache disabled (PDF_CACHE_DIR not set)")
+        return NoCache()
+
+    if not _cache_dir_is_trusted(cache_dir):
+        return NoCache()
+
     cache_size_limit = _resolve_cache_size(os.getenv("PDF_CACHE_SIZE_BYTES"))
-    cache = Cache(cache_dir, size_limit=cache_size_limit)
     log.info(
         "PDF cache enabled at %s with size limit %d bytes",
         cache_dir,
         cache_size_limit,
     )
-else:
-    cache = NoCache()
-    log.info("PDF cache disabled (PDF_CACHE_DIR not set)")
+    return Cache(cache_dir, size_limit=cache_size_limit)
+
+
+cache = _build_cache()
 
 
 MM_TO_PT = 72 / 25.4
