@@ -491,9 +491,10 @@ const renderSupportSection = (lang: Locale) => {
           <li>dzielenie się serwisem z rodziną, przyjaciółmi i wspólnotą parafialną;</li>
           <li>udostępnianie brakujących tekstów i komentarzy biblijnych;</li>
           <li>
-            dobrowolna darowizna — Missale Meum jest i pozostanie bezpłatne. Nie pobieramy opłat ani nie wyświelamy reklam.
-            Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania serwisu – domenę, serwer i usługi pomocnicze.
-            Pozostałe środki kierujemy na wsparcie edukacji katolickiej w Polsce.
+            dobrowolna darowizna — Missale Meum jest i pozostanie bezpłatne. Nie pobieramy opłat ani nie wyświetlamy reklam. 
+            Twoja darowizna w pierwszej kolejności pokrywa podstawowe koszty działania serwisu – domenę, serwer i usługi pomocnicze. 
+            Następnie część środków przeznaczamy na wsparcie edukacji katolickiej w Polsce. 
+            Pozostała część stanowi wynagrodzenie za rozwój i utrzymanie projektu Missale Meum.
           </li>
         </ul>
         <DonationWidget lang={lang} className={styles.donateCta} />
@@ -507,13 +508,15 @@ const renderSupportSection = (lang: Locale) => {
         Missale Meum will always remain free to use. We do not charge fees or display ads. If you would like to help sustain the project, you can:
       </p>
       <ul className={styles.articleList}>
-        <li>remember Missale Meum in your prayers;</li>
+        <li>remember Missale Meum and its authors in your prayers;</li>
         <li>send feedback and corrections—it helps us improve;</li>
         <li>share the project with friends, families, and parish groups;</li>
         <li>contribute missing texts or trusted commentaries;</li>
         <li>
-          make a donation — Missale Meum remains free to use. Your donation is used first to cover the essential costs of running Missale Meum – the domain, server, and auxiliary services.
-          Any remainder is directed to supporting Catholic education in Poland.
+          make a donation — Missale Meum remains free to use. We do not charge any fees or display ads. Your donation 
+          is first used to cover the essential costs of running Missale Meum – the domain, server, and auxiliary 
+          services. A portion is then allocated to supporting Catholic education in Poland. The remaining part serves 
+          as compensation for the ongoing development and maintenance of the Missale Meum project.
         </li>
       </ul>
       <DonationWidget lang={lang} className={styles.donateCta} />
