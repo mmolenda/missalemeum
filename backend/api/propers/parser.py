@@ -379,7 +379,7 @@ class ProperParser:
     @staticmethod
     def _get_full_path(partial_path, lang, is_local=False):
         if is_local:
-            full_path = os.path.join(cc.LOCAL_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)    
+            full_path = os.path.join(cc.LOCAL_DIVOFF_DIR, 'web', 'www', 'missa', DIVOFF_LANG_MAP[lang], partial_path)
             if not os.path.exists(full_path):
                 return None
             return full_path

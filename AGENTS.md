@@ -30,6 +30,25 @@
 
 - `pytest` correctly picks up `backend/pytest.ini` when invoked from the repo root.
 - If `pytest ...` or `python ...` fails, do not keep guessing; fall back to the command pattern above.
+- `backend/resources/divinum-officium-local` is authoritative over the base Divinum Officium tree for local proper loading.
+- If a proper is missing in `divinum-officium-local`, treat it as absent in local overrides. Do not change parser logic to fall back to the base tree for local lookups; add or update the needed file in `divinum-officium-local` instead.
+
+## Divinum Officium Local Overrides
+
+- Keep `backend/resources/divinum-officium-local` authoritative.
+- When fixing a missing proper that should exist in local behavior, create or update the corresponding file under `divinum-officium-local` rather than relaxing lookup rules.
+- When creating new files in `backend/resources/divinum-officium-local`, prefer references to existing Divinum Officium sections instead of copying literal text.
+- Follow the existing local override style: keep local files as thin as possible and reference upstream sections wherever possible.
+- Latin local files act as the blueprint for vernacular local files during parsing.
+- If a section in a vernacular local file would be identical to the Latin local version, omit it from the vernacular file.
+- In vernacular local files, keep only sections that differ from Latin or are language-specific, such as `Comment`.
+- Some referenced sections in the target Divinum Officium proper may themselves only contain another reference.
+- In that case, follow the chain until you reach the file and section containing the actual text, and make the local file reference that final text-bearing source rather than an intermediate redirect when possible.
+- If a target Divinum Officium proper has `vide C5-1` or `ex C5-1` in `[Rank]`, or `vide C5-1` in `[Rule]`, treat that as meaning that any sections not defined in that proper come from `@Commune/C5-1`.
+- When creating the local override file for such a proper, add explicit references for those inherited sections to the matching `@Commune/...` source, and keep direct references to the proper itself only for sections actually defined in that proper.
+- Example:
+  - if `Sancti/04-02.txt` has `vide C5-1` and defines `[Oratio]` but not `[Introitus]` or `[Lectio]`
+  - then the local file should reference `[Introitus] -> @Commune/C5-1`, `[Oratio] -> @Sancti/04-02:Oratio`, `[Lectio] -> @Commune/C5-1`
 
 ## Fixture Drift After Divinum Officium Updates
 

@@ -206,6 +206,8 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.SANCTI_03_08, c.TEMPORA_QUADP3_5]),
     # 2019-03-09 Comm: S. Franciscæ Viduæ
     ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.SANCTI_03_09, c.TEMPORA_QUADP3_6]),
+    # 2025-04-02 Comm: S. Francisci de Paula
+    ((2025, 4, 2), [c.TEMPORA_QUAD4_3, c.SANCTI_04_02], [c.SANCTI_04_02, c.TEMPORA_QUAD4_3]),
     # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
     ((2019, 1, 18), [c.FERIA], [c.SANCTI_01_18]),
     ((2019, 2, 14), [c.FERIA], [c.SANCTI_02_14]),
