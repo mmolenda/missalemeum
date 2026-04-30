@@ -24022,6 +24022,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoratio S. Isidori Episc. Confessoris et Ecclesiæ Doctoris*\nDeus, qui pópulo tuo ætérnæ salútis beátum Isidóri min",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Léctio libri Regum.\n*3 Reg 17:17-24*\nIn diébus illis: Ægrotávit fílius mulíeris matris famílias, et erat languor fortíss",
         "id": "Lectio"
       },
@@ -24042,6 +24046,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoratio S. Isidori Episc. Confessoris et Ecclesiæ Doctoris*\nSancti Isidóri Pontíficis tui atque Doctóris nobis, Dó",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
         "id": "Prefatio"
       },
@@ -24054,8 +24062,66 @@
         "id": "Postcommunio"
       },
       {
+        "body": "*Commemoratio S. Isidori Episc. Confessoris et Ecclesiæ Doctoris*\nUt nobis, Dómine, tua sacrifícia dent salútem: beátus ",
+        "id": "Commemoratio Postcommunio"
+      },
+      {
         "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nDa nobis, quǽsumus, omnípotens Deus: ut, qui infirmitátis no",
         "id": "Super populum"
+      }
+    ],
+    [
+      {
+        "body": "*Eccli 15:5*\nIn médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ ",
+        "id": "Introitus"
+      },
+      {
+        "body": "Deus, qui pópulo tuo ætérnæ salútis beátum Isidóri minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimu",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Commemoratio Feria VI infra Hebd IV Quadragesimæ*\nDeus, qui ineffabílibus mundum rénovas sacraméntis: præsta, quǽsumus;",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n*2 Tim 4:1-8*\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui ju",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non",
+        "id": "Tractus"
+      },
+      {
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 5:13-19*\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sa",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 91:13*\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Sancti Isidóri Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tua",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Commemoratio Feria VI infra Hebd IV Quadragesimæ*\nMúnera nos, Dómine, quǽsumus, obláta puríficent: et te nobis jugiter ",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Luc 12:42*\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mens",
+        "id": "Communio"
+      },
+      {
+        "body": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus Isidórus Póntifex tuus et Doctor egrégius, quǽsumus, precátor accé",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoratio Feria VI infra Hebd IV Quadragesimæ*\nHæc nos, quǽsumus, Dómine, participátio sacraménti: et a propriis reá",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

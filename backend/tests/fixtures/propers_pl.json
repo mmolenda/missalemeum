@@ -24022,6 +24022,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Izydora, Biskupa, Wyznawcy i Dokotra Kościoła*\nBoże, któryś ludowi swemu na drodze do zbawienia błogosł",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Księgi Królewskiej.\n*3 Krl 17:17-24*\nW one dni: Zachorował syn owej kobiety, pani domu, a choroba była tak si",
         "id": "Lectio"
       },
@@ -24042,6 +24046,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Izydora, Biskupa, Wyznawcy i Dokotra Kościoła*\nPanie, niech nam nie zabraknie serdecznej modlitwy święt",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
         "id": "Prefatio"
       },
@@ -24054,8 +24062,66 @@
         "id": "Postcommunio"
       },
       {
+        "body": "*Wspomnienie Św. Izydora, Biskupa, Wyznawcy i Dokotra Kościoła*\nProsimy Cię, Panie, niech święty Izydor, Twój Biskup i z",
+        "id": "Commemoratio Postcommunio"
+      },
+      {
         "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nDaj nam, prosimy Cię, wszechmogący Boże, abyśmy będąc świadomi własnej ",
         "id": "Super populum"
+      }
+    ],
+    [
+      {
+        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
+        "id": "Introitus"
+      },
+      {
+        "body": "Boże, któryś ludowi swemu na drodze do zbawienia błogosławionego Izydora, dał za pomocnika, spraw, prosimy, abyśmy tego,",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Wspomnienie Piątek po 4 Niedzieli Wielkiego Postu*\nBoże, który odnawiasz świat przez niewysłowione tajemnice, spraw, pr",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w sercu je",
+        "id": "Tractus"
+      },
+      {
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Izydora, Twego Biskupa i Doktora, która zaleci Tobie naszą o",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Piątek po 4 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, niech nas oczyszczą złożone Ci dary i wyjednają ",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
+        "id": "Communio"
+      },
+      {
+        "body": "Prosimy Cię, Panie, niech święty Izydor, Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Piątek po 4 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, niech uczestnictwo w tym Sakramencie zawsze nas ",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
