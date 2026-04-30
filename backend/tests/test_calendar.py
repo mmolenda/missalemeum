@@ -241,6 +241,11 @@ def test_conflicts(date_, expected_celebration, expected_commemoration):
     assert expected_commemoration == [i.id for i in missal.get_day(date(*date_)).commemoration]
 
 
+def test_english_may_27_has_single_st_john_i_commemoration():
+    day = get_missal(2025, lang='en').get_day(date(2025, 5, 27))
+    assert [i.id for i in day.commemoration] == [c.SANCTI_05_27C]
+
+
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
     (c.TEMPORA_EPI2_3, (2002, 1, 23), 2),
     (c.TEMPORA_QUADP1_0, (2002, 1, 27), 6),
