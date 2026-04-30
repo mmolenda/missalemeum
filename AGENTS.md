@@ -71,3 +71,9 @@ Get texts for a given calendar day:
 ```
 ./.venv/bin/python3 backend/api/cli.py date 2025-02-03 --language en
 ```
+
+Get calendar for a given year:
+
+```
+./.venv/bin/python3 backend/api/cli.py calendar 2026 --language en
+```
