@@ -208,7 +208,7 @@ PAGES = {
     constants.SANCTI_04_13: get_pages(1167, 979, 1231),  # 'St. Hermenegild',
     constants.SANCTI_04_14: [],  # 'St. Justin',
     constants.SANCTI_04_17: [],  # 'St. Anicetus',
-    constants.SANCTI_04_21: ["Angelus Press p. 1173; 979", "Father Lasance p. 985", "Baronius Press p. 1236"],  # 'St. Anselm',
+    constants.SANCTI_04_21: ["Angelus Press p. 1173", "Father Lasance p. 985", "Baronius Press p. 1236"],  # 'St. Anselm',
     constants.SANCTI_04_22: [],  # 'Sts. Soter & Caius',
     constants.SANCTI_04_23: ["Angelus Press p. 1173"],  # 'St. George',
     constants.SANCTI_04_24: [],  # 'St. Fidelis of Sigmaringen',
