@@ -27,6 +27,7 @@ PREFATIO_PASCHAL = 'Pasch'
 PREFATIO_APOSTOLIS = 'Apostolis'
 PREFATIO_NAT = 'Nat'
 PREFATIO_EPI = 'Epi'
+PREFATIO_HOLY_SPIRIT = 'Spiritu'
 PREFATIO_OMIT = 'prefatio_omit'
 PREFATIO_LENT = 'Quad'
 PREFATIO_ASCENSION = 'Asc'
@@ -44,6 +45,7 @@ PATTERN_LENT = re.compile(r'^tempora:Quad(p3-[3-6]|\d)')
 PATTERN_LENT_PREFATIO = re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)')
 PATTERN_EASTER = re.compile(r'^tempora:Pasc\d')
 PATTERN_EASTER_PREFATIO = re.compile(r'^tempora:Pasc([0-4]|5-0|5-1|5-2|5-3)')
+PATTERN_PENTECOST_OCTAVE_PREFATIO = re.compile(r'^tempora:Pasc7')
 PATTERN_ASCENSION_PREFATIO = re.compile(r'^tempora:Pasc(5-4|5-5|5-6|6-0|6-1|6-2|6-3|6-4|6-5)')
 PATTERN_LENT_SUNDAY = re.compile(r'^tempora:Quad\d-0.*')
 PATTERN_TEMPORA_SUNDAY = re.compile(r'^tempora:.*-0r*:\d:\w{1,2}$')
@@ -1158,6 +1160,7 @@ CUSTOM_PREFACES = (
     (PATTERN_ADVENT_FERIA, PREFATIO_COMMUNIS),
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
     (PATTERN_EASTER_PREFATIO, PREFATIO_PASCHAL),
+    (PATTERN_PENTECOST_OCTAVE_PREFATIO, PREFATIO_HOLY_SPIRIT),
     (TEMPORA_QUAD6_5, PREFATIO_OMIT),
     (PATTERN_LENT_PREFATIO, PREFATIO_LENT),  # Lent until Saturday before Passion Sunday
     (PATTERN_ASCENSION_PREFATIO, PREFATIO_ASCENSION),  # From Ascension Sunday till Friday before Pentecost Vigil,

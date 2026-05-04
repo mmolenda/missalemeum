@@ -130,6 +130,7 @@ def test_ignored_sections(date_, sections):
     ((2019, 4, 27), 'Sobota Biała', '*Paschalis*'),
     ((2019, 4, 30), 'Katarzyny Sieneńskiej', '*Paschalis*'),
     ((2019, 5, 1), 'Józefa Robotnika', '*de S. Joseph*'),
+    ((2024, 5, 21), 'Wtorek w Oktawie Zesłania Ducha Świętego', '*de Spiritu Sancto*'),
     ((2019, 1, 25), 'Nawrócenie św. Pawła, Apostoła', '*de Apostolis*'),
     ((2026, 4, 25), 'Św. Marka Ewangelisty', '*de Apostolis*'),
     ((2019, 7, 25), 'Św. Jakuba, Apostoła', '*de Apostolis*'),
