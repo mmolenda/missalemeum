@@ -7,7 +7,12 @@ CALENDAR_ITEMS_EXAMPLE = [
         "rank": 3,
         "tags": ["Saturday after XXIII Sunday after Pentecost"],
         "colors": ["w"],
-        "commemorations": ["St. Menna"],
+        "commemorations": [
+            {"id": "sancti:11-11c:4:r", "title": "St. Menna"}
+        ],
+        "displaced": [
+            {"id": "sancti:11-11:4:r", "title": "St. Menna"}
+        ],
     }
 ]
 
@@ -28,7 +33,12 @@ PROPER_EXAMPLE = [
             "tags": ["White vestments"],
             "tempora": "Saturday after the IV Sunday of Lent",
             "title": "Annunciation of the Blessed Virgin Mary",
-            "commemorations": ["Saturday after the IV Sunday of Lent"],
+            "commemorations": [
+                {"id": "tempora:Quad4-6:3:v", "title": "Saturday after the IV Sunday of Lent"}
+            ],
+            "displaced": [
+                {"id": "tempora:Quad4-6:3:v", "title": "Saturday after the IV Sunday of Lent"}
+            ],
         },
         "sections": [
             {

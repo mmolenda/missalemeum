@@ -63,6 +63,9 @@ import { PdfDownloadMenu } from "@/components/pdfDownload";
 const DATE_FORMAT = "YYYY-MM-DD";
 const CHUNK_SIZE = 10;
 
+const getObservanceTitle = (observance: string | { title?: string }) =>
+  typeof observance === "string" ? observance : (observance.title ?? "");
+
 type SearchOption =
   | { kind: "suggestion"; label: string }
   | { kind: "day"; item: ListItemType };
@@ -808,7 +811,7 @@ export default function ListProper({
                   ${RANK_NAMES[lang as Locale][indexItem.rank]}
                   ${
                     indexItem.commemorations && indexItem.commemorations.length > 0
-                      ? " / " + COMMEMORATION[lang as Locale] + " " + indexItem.commemorations.join(", ")
+                      ? " / " + COMMEMORATION[lang as Locale] + " " + indexItem.commemorations.map((observance) => getObservanceTitle(observance)).join(", ")
                       : ""
                   }`}
                   />

@@ -160,6 +160,17 @@ def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemo
     assert commemoration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration]
 
 
+@pytest.mark.parametrize("date_,expected_displaced", [
+    ((2020, 12, 6), [c.SANCTI_12_06]),
+    ((2019, 1, 18), [c.SANCTI_01_18]),
+    ((2023, 12, 3), [c.SANCTI_12_03]),
+    ((2018, 12, 5), [c.SANCTI_12_05]),
+])
+def test_given_date_contains_displaced_day_ids(date_, expected_displaced):
+    day = get_missal(date_[0]).get_day(date(*date_))
+    assert expected_displaced == [i.id for i in day.displaced]
+
+
 @pytest.mark.parametrize("date_,not_expected_day_ids", [
     ((2018, 12, 24), [c.PATTERN_ADVENT]),
     ((2018, 12, 25), [c.PATTERN_ADVENT]),

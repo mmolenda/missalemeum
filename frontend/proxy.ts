@@ -5,7 +5,7 @@ import { resolveAcceptLanguage } from 'resolve-accept-language'
 const DEFAULT_LOCALE = 'en-US'
 const SUPPORTED = ['en-US', 'pl-PL'] as const
 const SUPPORTED_LOCALES = new Set(['en', 'pl'])
-const APP_SECTIONS = new Set(['calendar', 'ordo', 'oratio', 'canticum', 'supplement', 'votive', 'widgets'])
+const APP_SECTIONS = new Set(['calendar', 'mass', 'ordo', 'oratio', 'canticum', 'supplement', 'votive', 'widgets'])
 const COOKIE_OPTIONS = { path: '/', maxAge: 60 * 60 * 24 * 365 }
 
 const toSupportedLocale = (value?: string): 'en' | 'pl' => {

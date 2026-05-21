@@ -184,7 +184,8 @@ def _calendar_item_from_day(date_: datetime.date, day: Day) -> CalendarItem:
         "colors": day.get_celebration_colors(),
         "rank": day.get_celebration_rank(),
         "id": date_.strftime("%Y-%m-%d"),
-        "commemorations": day.get_commemorations_titles(),
+        "commemorations": [{"id": observance.id, "title": observance.title} for observance in day.get_commemorations()],
+        "displaced": [{"id": observance.id, "title": observance.title} for observance in day.get_displaced()],
     }
     return CalendarItem.model_validate(payload)
 

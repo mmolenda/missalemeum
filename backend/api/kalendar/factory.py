@@ -7,7 +7,7 @@ from typing import List, Tuple, Union
 from dateutil.easter import easter
 
 from api.constants import BLOCKS
-from api.constants.common import TEMPORA_NAT2_0, SANCTI_10_DU, LANGUAGE_ENGLISH, FERIA
+from api.constants.common import TEMPORA_NAT2_0, SANCTI_10_DU, LANGUAGE_ENGLISH, FERIA, TYPE_SANCTI
 from api.kalendar.models import Calendar, Observance
 from api.kalendar.rules import rules
 
@@ -139,7 +139,7 @@ class MissalFactory:
         """
         shifted_all = defaultdict(list)
         for date_, day in self.calendar.items():
-            celebration, commemoration, shifted = self._apply_rules(date_, shifted_all.pop(date_, []))
+            celebration, commemoration, shifted, displaced = self._apply_rules(date_, shifted_all.pop(date_, []))
             if not celebration:
                 feria = Observance(FERIA, date_, self.lang)
                 if day.tempora:
@@ -147,21 +147,33 @@ class MissalFactory:
                 celebration = [feria]
             self.calendar.get_day(date_).celebration = celebration
             self.calendar.get_day(date_).commemoration = commemoration
+            self.calendar.get_day(date_).displaced = displaced
             for k, v in shifted:
                 shifted_all[k].extend(v)
 
     def _apply_rules(self, date_: date, shifted: List[Observance]) \
-            -> Tuple[List[Observance], List[Observance], List[Observance]]:
+            -> Tuple[List[Observance], List[Observance], List[Observance], List[Observance]]:
+        observances = self.calendar.get_day(date_).celebration + shifted
         for rule in rules:
             results = rule(self.calendar,
                            date_,
                            self.calendar.get_day(date_).tempora,
-                           self.calendar.get_day(date_).celebration + shifted,
+                           observances,
                            self.lang)
             if results is None:
                 continue
-            return results
-        return self.calendar.get_day(date_).celebration, [], []
+            if len(results) == 4:
+                celebration, commemoration, shift_results, displaced = results
+            else:
+                celebration, commemoration, shift_results = results
+                celebration_ids = {observance.id for observance in celebration}
+                displaced = [
+                    observance
+                    for observance in observances
+                    if observance.flexibility == TYPE_SANCTI and observance.id not in celebration_ids
+                ]
+            return celebration, commemoration, shift_results, displaced
+        return observances, [], [], []
 
     @staticmethod
     def calc_easter_sunday(year: int) -> date:

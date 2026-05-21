@@ -18,6 +18,7 @@ import {
   MENUITEM_SUPPLEMENT,
   MSG_ADDRESS_COPIED,
   COMMEMORATION,
+  DISPLACED,
   Locale
 } from "./intl";
 import Md from "./styledComponents/Md";
@@ -41,6 +42,9 @@ import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 const xVernacular = 'x-vernacular'
 const xLatin = 'x-latin'
+
+const getObservanceTitle = (observance: string | { title?: string }) =>
+  typeof observance === "string" ? observance : (observance.title ?? "");
 
 export type BilingualContentProps = {
   lang: string
@@ -279,8 +283,26 @@ const Article = ({
             {content.info.title}
           </Typography>
         }</>
-        {content.info.commemorations && content.info.commemorations.length > 0 && <Typography
-          variant="h3">{COMMEMORATION[lang as Locale]}{" "}{content.info.commemorations.join(", ")}</Typography>}
+        {content.info.commemorations && content.info.commemorations.length > 0 &&
+          <Typography variant="h3">
+            {`${COMMEMORATION[lang as Locale]} `}
+            {content.info.commemorations.map((observance, index) => {
+              const title = getObservanceTitle(observance)
+              const observanceId = typeof observance === "string" ? null : observance.id
+              return (
+                <Fragment key={observanceId ?? `${title}-${index}`}>
+                  {observanceId ? (
+                    <MyLink
+                      href={`/${lang}/mass/${observanceId}${/^\d{4}-\d{2}-\d{2}$/.test(id) ? `?ref=calendar/${id}` : ""}`}
+                      text={title}
+                      widgetMode={widgetMode}
+                    />
+                  ) : title}
+                  {index + 1 < content.info.commemorations.length && ", "}
+                </Fragment>
+              )
+            })}
+          </Typography>}
         <Box sx={{padding: "0.5rem"}}>
           <ArticleTags info={content.info} lang={lang} showIcon/>
         </Box>
@@ -297,6 +319,21 @@ const Article = ({
                 <MyLink href={`${supplement.path}?ref=${id}`} text={supplement.label}
                         widgetMode={widgetMode}/>
                 {index + 1 < content.info.supplements.length && ", "}
+              </Fragment>)
+            })}
+          </Typography>}
+        {content.info.displaced && content.info.displaced.length > 0 &&
+          <Typography variant="body1" align="justify" sx={{padding: "0.5rem"}}>
+            {`${content.info.displaced.length === 1
+              ? DISPLACED[lang as Locale].singular
+              : DISPLACED[lang as Locale].plural}: `}
+            {content.info.displaced.map((observance, index) => {
+              return (<Fragment key={observance.id}>
+                <MyLink
+                  href={`/${lang}/mass/${observance.id}${/^\d{4}-\d{2}-\d{2}$/.test(id) ? `?ref=calendar/${id}` : ""}`}
+                  text={observance.title}
+                  widgetMode={widgetMode}/>
+                {index + 1 < content.info.displaced.length && ", "}
               </Fragment>)
             })}
           </Typography>}

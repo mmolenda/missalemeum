@@ -14,7 +14,13 @@ def test_api_calendar(client):
     resp = client.get('/pl/api/v5/calendar/2023')
     data = resp.json()
     for i, item in enumerate(data):
-        assert item == expected[i]
+        for key, value in expected[i].items():
+            if key == "commemorations":
+                assert [observance["title"] for observance in item[key]] == value
+            else:
+                assert item[key] == value
+        assert "displaced" in item
+        assert isinstance(item["displaced"], list)
 
 
 def test_api_date(client):
@@ -28,6 +34,10 @@ def test_api_date(client):
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert [] == info["supplements"]
+    assert "commemorations" in info
+    assert isinstance(info["commemorations"], list)
+    assert "displaced" in info
+    assert isinstance(info["displaced"], list)
     assert "Środa po 23 Niedzieli po Zesłaniu Ducha Świętego" == info["tempora"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
     assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
@@ -109,8 +119,46 @@ def test_api_proper(client):
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
+    assert [] == info["displaced"]
     assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
     assert "*Eccli 45:30" in data[0]["sections"][0]["body"][0][1]
+
+
+def test_api_date_exposes_displaced_observances(client):
+    resp = client.get('/en/api/v5/proper/2020-12-06')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["displaced"] == [
+        {
+            "id": "sancti:12-06:3:w",
+            "title": "St. Nicholas",
+        }
+    ]
+
+
+def test_api_date_exposes_commemorations_as_objects(client):
+    resp = client.get('/en/api/v5/proper/2019-03-19')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "tempora:Quad2-2:3:v",
+            "title": "Feria III after the II Sunday of Lent",
+        }
+    ]
+
+
+def test_api_date_does_not_repeat_commemorated_feast_in_displaced(client):
+    resp = client.get('/pl/api/v5/proper/2026-05-13')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "sancti:05-13:3:w",
+            "title": "Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła",
+        }
+    ]
+    assert info["displaced"] == []
 
 
 def test_api_proper_slug(client):

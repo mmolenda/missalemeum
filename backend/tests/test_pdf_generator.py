@@ -21,7 +21,7 @@ def _build_payload() -> list[dict[str, object]]:
                 "rank": 2,
                 "colors": ["w", "g"],
                 "tags": ["Tag One", "Tag Two"],
-                "commemorations": ["St. Justin"],
+                "commemorations": [{"id": "sancti:06-01c:4:r", "title": "St. Justin"}],
                 "description": "*Introductory* description",
             },
             "sections": [
