@@ -738,7 +738,7 @@ export default function ListProper({
               void handleTodayClick();
             }}
           >
-            <EventIcon sx={{ color: "common.white" }}/>
+            <EventIcon/>
           </IconButton>
         </Tooltip>
         <PdfDownloadMenu
