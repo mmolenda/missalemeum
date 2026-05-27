@@ -340,6 +340,17 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
+STARTER_SANCTI_IDS = [
+    SANCTI_10_DU,
+    SANCTI_01_01,
+    SANCTI_01_05,
+    SANCTI_01_06,
+    SANCTI_01_11,
+    SANCTI_01_13,
+    SANCTI_01_14,
+]
+
+
 def _tests_propers(language, *, strdate=None, proper_id=None, expected_sections=None):
     if (strdate is None) == (proper_id is None):
         raise ValueError("Provide exactly one of strdate or proper_id")
@@ -428,4 +439,28 @@ def test_all_propers_votive_polish(proper_id, expected_sections):
     
 @pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_votive_{LANGUAGE_ENGLISH}.json"))
 def test_all_propers_votive_english(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", [
+    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_LATIN}.json")
+    if case[0] in STARTER_SANCTI_IDS
+])
+def test_all_propers_sancti_latin(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", [
+    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_POLSKI}.json")
+    if case[0] in STARTER_SANCTI_IDS
+])
+def test_all_propers_sancti_polish(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", [
+    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_ENGLISH}.json")
+    if case[0] in STARTER_SANCTI_IDS
+])
+def test_all_propers_sancti_english(proper_id, expected_sections):
     _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
