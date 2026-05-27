@@ -856,7 +856,8 @@ TITLES = {
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
     constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców',
-    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę'
+    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę',
+    constants.COMMUNE_C4B: 'Si Diligis'
 }
 
 VOTIVE_MASSES = [

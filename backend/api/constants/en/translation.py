@@ -797,7 +797,8 @@ TITLES = {
     constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
     constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
-    constants.VOTIVE_AD_VOCATIONES: 'Ad Vocationes'
+    constants.VOTIVE_AD_VOCATIONES: 'Ad Vocationes',
+    constants.COMMUNE_C4B: 'Si Diligis'
 }
 
 VOTIVE_MASSES = [
