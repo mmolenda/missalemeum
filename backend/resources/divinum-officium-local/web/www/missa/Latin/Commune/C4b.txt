@@ -11,6 +11,12 @@
 [Graduale]
 @Commune/Coronatio
 
+[GradualeP]
+@Commune/Coronatio
+
+[Tractus]
+@Commune/Coronatio
+
 [Evangelium]
 @Commune/Coronatio
 
