@@ -463,6 +463,8 @@ TITLES = {
     constants.SANCTI_10_DU: 'Chrystusa Króla',
     constants.TEMPORA_EPI1_0A: '1 Niedziela po Objawieniu',
     constants.TEMPORA_PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
+    constants.TEMPORA_C_10: 'Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10: 'Msza o N. M. P. – Salve, Sancta Parens',
     constants.TEMPORA_C_10A: '1 Msza o N. M. P. – Rorate',
     constants.COMMUNE_C_10A: '1 Msza o N. M. P. – Rorate',
     constants.TEMPORA_C_10B: '2 Msza o N. M. P. – Vultum Tuum',

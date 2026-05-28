@@ -578,6 +578,7 @@ TEMPORA_NAT1_0 = 'tempora:Nat1-0:2:w'  # Sunday in the Octave of Nativity
 TEMPORA_NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
 TEMPORA_NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
 
+TEMPORA_C_10 = 'commune:C10:0:w'  # B. V. M. Saturdays 
 TEMPORA_C_10A = 'commune:C10a:4:v'  # B. M. V. Saturdays in Advent
 TEMPORA_C_10B = 'commune:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
 TEMPORA_C_10C = 'commune:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
@@ -964,6 +965,7 @@ COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
 COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
 COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit
 COMMUNE_C2B = 'commune:C2b:0:r'  # Sacerdotes Dei
+COMMUNE_C_10 = 'commune:C10:0:w'  # B. V. M. Saturdays 
 COMMUNE_C_10A = 'commune:C10a:0:w'  # B. V. M. Saturdays in Advent
 COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Purification
 COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week

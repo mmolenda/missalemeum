@@ -1,0 +1,11 @@
+[Comment]
+@Commune/C10
+
+[Introitus]
+@Commune/C10
+
+[Graduale]
+@Commune/C11
+
+[Offertorium]
+@Commune/C11
