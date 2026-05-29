@@ -460,7 +460,8 @@ TITLES = {
     constants.COMMUNE_C_10T: 'V Mass of the B. V. M. – Salve, Sancta Parens',
     
     constants.COMMUNE_C4B: 'Mass of One or More Popes – Si Diligis',
-    constants.COMMUNE_C2: 'I Mass of a Martyr Bishop outside Paschaltide – Statuit',
+    constants.COMMUNE_C2: 'I Mass of a Martyr Bishop – Statuit',
+    constants.COMMUNE_C2_1: 'II Mass of a Martyr Bishop – Statuit',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',

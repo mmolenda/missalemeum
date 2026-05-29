@@ -1,16 +1,16 @@
-[Rule]
-@Sancti/02-03
-
 [Introitus]
 @Commune/C2-1
 
 [Oratio]
-@Commune/C2-1::s/N\./Blásii/
+@Commune/C2-1
 
 [Lectio]
 @Commune/C2-1
 
 [Graduale]
+@Commune/C2-1
+
+[Tractus]
 @Commune/C2-1
 
 [Evangelium]
@@ -20,11 +20,10 @@
 @Commune/C2-1
 
 [Secreta]
-@Commune/C2-1::s/N\./Blásio/
+@Commune/C2-1
 
 [Communio]
 @Commune/C2-1
 
 [Postcommunio]
-@Commune/C2-1::s/N\./Blásio/
-
+@Commune/C2-1
