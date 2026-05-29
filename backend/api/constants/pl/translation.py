@@ -475,10 +475,14 @@ TITLES = {
     constants.COMMUNE_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
     constants.TEMPORA_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
     constants.COMMUNE_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
+
+    constants.COMMUNE_C4B: 'Msza o jednym lub kilku papieżach – Si Diligis',
+    constants.COMMUNE_C2: '1 Msza o Męczenniku Biskupie poza O. W. – Statuit',
     constants.COMMUNE_C5: '1 Msza o Wyznawcy – Os iusti',
     constants.COMMUNE_C5B: '2 Msza o Wyznawcy – Iustus ut palma',
     constants.COMMUNE_C2C: '1 Msza o Męczenniku Biskupie – Statuit',
     constants.COMMUNE_C2B: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
+    
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',
     constants.SANCTI_01_06: 'Objawienie Pańskie',
@@ -859,7 +863,6 @@ TITLES = {
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
     constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców',
     constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę',
-    constants.COMMUNE_C4B: 'Si Diligis'
 }
 
 VOTIVE_MASSES = [

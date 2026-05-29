@@ -472,10 +472,14 @@ TITLES = {
     constants.COMMUNE_C_10PASC: '4 Missa B. V. M. – Salve, Sancta Parens',
     constants.TEMPORA_C_10T: '5 Missa B. V. M. – Salve, Sancta Parens',
     constants.COMMUNE_C_10T: '5 Missa B. V. M. – Salve, Sancta Parens',
-    constants.COMMUNE_C5: 'Commune Confessoris non pontificis; Os justi',
+    
+    constants.COMMUNE_C4B: 'Communi unius aut plurium Summorum Pontificum, Si Diligis',
+    constants.COMMUNE_C5: 'Commune Confessoris non pontificis, Os justi',
+    constants.COMMUNE_C2: 'Commune Unius Martyris Pontificis, Statuit',
     constants.COMMUNE_C5B: 'Commune Confessoris non pontificis; Iustus ut palma',
     constants.COMMUNE_C2C: 'Commune Unius Martyris Pontificis, Statuit',
     constants.COMMUNE_C2B: 'Commune Unius Martyris Pontificis, Sacerdotes Dei',
+
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',
     constants.SANCTI_01_05: 'S. Telesphori Papæ et Mart.',
@@ -855,8 +859,7 @@ TITLES = {
     constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis',
     constants.VOTIVE_AD_VOCATIONES: 'Missa ad Vocationes',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione',
-    constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.',
-    constants.COMMUNE_C4B: 'Si Diligis'
+    constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.'
 }
 VOTIVE_MASSES = []
 

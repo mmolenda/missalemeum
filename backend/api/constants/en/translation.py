@@ -458,6 +458,10 @@ TITLES = {
     constants.COMMUNE_C_10C: 'III Mass of the B. V. M. – Salve, Sancta Parens',
     constants.COMMUNE_C_10PASC: 'IV Mass of the B. V. M. – Salve, Sancta Parens',
     constants.COMMUNE_C_10T: 'V Mass of the B. V. M. – Salve, Sancta Parens',
+    
+    constants.COMMUNE_C4B: 'Mass of One or More Popes – Si Diligis',
+    constants.COMMUNE_C2: 'I Mass of a Martyr Bishop outside Paschaltide – Statuit',
+
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',
     constants.SANCTI_01_06: 'Epiphany of the Lord',
@@ -799,8 +803,7 @@ TITLES = {
     constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
     constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
-    constants.VOTIVE_AD_VOCATIONES: 'Ad Vocationes',
-    constants.COMMUNE_C4B: 'Si Diligis'
+    constants.VOTIVE_AD_VOCATIONES: 'Ad Vocationes'
 }
 
 VOTIVE_MASSES = [
