@@ -486,6 +486,7 @@ TITLES = {
     constants.COMMUNE_C2A: '1 Msza o Męczenniku – In virtute',
     constants.COMMUNE_C2A_1: '2 Msza o Męczenniku – Laetabitur',
     constants.COMMUNE_C3: '1 Msza o Wielu Męczennikach – Intret',
+    constants.COMMUNE_C3A: '2 Msza o Wielu Męczennikach – Sapientiam',
     
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',
