@@ -484,6 +484,7 @@ TITLES = {
     constants.COMMUNE_C2A_1: 'Commune Unius Martyris, Laetabitur',
     constants.COMMUNE_C3: 'Commune Plurimorum Martyrum, Intret',
     constants.COMMUNE_C3A: 'Commune Plurimorum Martyrum, Sapientiam',
+    constants.COMMUNE_C3A_1: 'Commune Plurimorum Martyrum, Salus autem',
 
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',

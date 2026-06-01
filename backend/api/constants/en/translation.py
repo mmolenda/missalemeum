@@ -466,6 +466,7 @@ TITLES = {
     constants.COMMUNE_C2A_1: 'II Mass of a Martyr – Laetabitur',
     constants.COMMUNE_C3: 'I Mass of Several Martyrs – Intret',
     constants.COMMUNE_C3A: 'II Mass of Several Martyrs – Sapientiam',
+    constants.COMMUNE_C3A_1: 'III Mass of Several Martyrs – Salus autem',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',
