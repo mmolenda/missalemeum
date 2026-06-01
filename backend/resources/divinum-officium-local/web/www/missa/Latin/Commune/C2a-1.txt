@@ -1,11 +1,8 @@
-[Rule]
-@Sancti/07-27
-
 [Introitus]
 @Commune/C2a-1
 
 [Oratio]
-@Commune/C2a-1::s/N\./Pantaleóne/
+@Commune/C2a-1
 
 [Lectio]
 @Commune/C2a-1
@@ -13,7 +10,7 @@
 [Graduale]
 @Commune/C2a-1
 
-[Evangelium]
+[Tractus]
 @Commune/C2a-1
 
 [Offertorium]
@@ -26,5 +23,5 @@
 @Commune/C2a-1
 
 [Postcommunio]
-@Commune/C2a-1::s/N\./Pantaleóne/
+@Commune/C2a-1
 
