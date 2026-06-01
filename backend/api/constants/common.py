@@ -963,6 +963,7 @@ SANCTI_12_31 = 'sancti:12-31:4:w'
 COMMUNE_C4B = 'commune:C4b:0:w'  # 8 - Si díligis
 COMMUNE_C2 = 'commune:C2:0:r'  # 9 - Statuit
 COMMUNE_C2_1 = 'commune:C2-1:0:r'  # 10 - Sacerdotes Dei
+COMMUNE_C2A = 'commune:C2a:0:r'  # 11 - In virtute
 COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
 COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
 COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit

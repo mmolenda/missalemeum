@@ -483,6 +483,7 @@ TITLES = {
     constants.COMMUNE_C5B: '2 Msza o Wyznawcy – Iustus ut palma',
     constants.COMMUNE_C2C: '1 Msza o Męczenniku Biskupie – Statuit',
     constants.COMMUNE_C2B: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
+    constants.COMMUNE_C2A: '1 Msza o Męczenniku – In virtute',
     
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',

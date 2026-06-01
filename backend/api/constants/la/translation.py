@@ -480,6 +480,7 @@ TITLES = {
     constants.COMMUNE_C5B: 'Commune Confessoris non pontificis; Iustus ut palma',
     constants.COMMUNE_C2C: 'Commune Unius Martyris Pontificis, Statuit',
     constants.COMMUNE_C2B: 'Commune Unius Martyris Pontificis, Sacerdotes Dei',
+    constants.COMMUNE_C2A: 'Commune Unius Martyris, In virtute',
 
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',
