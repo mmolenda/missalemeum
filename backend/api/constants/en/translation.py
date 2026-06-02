@@ -469,6 +469,7 @@ TITLES = {
     constants.COMMUNE_C3A_1: 'III Mass of Several Martyrs – Salus autem',
     constants.COMMUNE_C2P: 'Mass of a Martyr in Paschaltide – Protexisti',
     constants.COMMUNE_C3P: 'Mass of Several Martyrs in Paschaltide – Sancti Tui',
+    constants.COMMUNE_C4: 'Mass of a Confessor Bishop – Statuit',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',
