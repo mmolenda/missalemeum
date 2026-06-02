@@ -969,6 +969,7 @@ COMMUNE_C3 = 'commune:C3:0:r'  # 13 - Intret
 COMMUNE_C3A = 'commune:C3a:0:r'  # 14 - Sapientiam
 COMMUNE_C3A_1 = 'commune:C3a-1:0:r'  # 15 - Salus autem
 COMMUNE_C2P = 'commune:C2p:0:r'  # 16 - Protexisti
+COMMUNE_C3P = 'commune:C3p:0:r'  # 17 - Sancti Tui
 COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
 COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
 COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit
