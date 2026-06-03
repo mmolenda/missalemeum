@@ -972,6 +972,7 @@ COMMUNE_C2P = 'commune:C2p:0:r'  # 16 - Protexisti
 COMMUNE_C3P = 'commune:C3p:0:r'  # 17 - Sancti Tui
 COMMUNE_C4 = 'commune:C4:0:w'  # 18 - Statuit
 COMMUNE_C4_1 = 'commune:C4-1:0:w'  # 19 - Sacerdotes Tui
+COMMUNE_C4A = 'commune:C4a:0:w'  # 20 - In Medio
 COMMUNE_C5 = 'commune:C5:0:w'  # Os iusti
 COMMUNE_C5B = 'commune:C5b:0:w'  # Iustus ut palma
 COMMUNE_C2C = 'commune:C2c:0:r'  # Statuit

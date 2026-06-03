@@ -489,6 +489,7 @@ TITLES = {
     constants.COMMUNE_C3P: 'Commune Plurimorum Martyrum Tempore Paschali, Sancti Tui',
     constants.COMMUNE_C4: 'Commune Unius Confessoris Pontificis, Statuit',
     constants.COMMUNE_C4_1: 'Commune Unius Confessoris Pontificis, Sacerdotes Tui',
+    constants.COMMUNE_C4A: 'Commune Doctoris non Pontificis, In Medio',
 
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',

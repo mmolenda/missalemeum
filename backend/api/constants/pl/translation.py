@@ -492,6 +492,7 @@ TITLES = {
     constants.COMMUNE_C3P: 'Msza o wielu Męczennikach w Okresie Wielkanocnym – Santi Tui',
     constants.COMMUNE_C4: '1 Msza o Wyznawcy Biskupie – Statuit',
     constants.COMMUNE_C4_1: '2 Msza o Wyznawcy Biskupie – Sacerdotes Tui',
+    constants.COMMUNE_C4A: 'Msza o Doktorze Kościoła – In Medio',
     
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',
