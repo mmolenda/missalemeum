@@ -475,6 +475,12 @@ TITLES = {
     constants.COMMUNE_C5: 'I Mass of a Confessor not a Bishop – Os Iusti',
     constants.COMMUNE_C5_1: 'II Mass of a Confessor not a Bishop – Iustus ut Palma',
     constants.COMMUNE_C5B: 'Mass of an Abbot – Os Iusti',
+    constants.COMMUNE_C6: 'TODO 1 dziew mecz: Loquebar',
+    constants.COMMUNE_C6B: 'TODO 2 dziew mecz: Me exspectaverunt',
+    constants.COMMUNE_C6A: 'TODO 1 dziew: Dilexisti',
+    constants.COMMUNE_C6A_1: 'TODO 2 dziew: Vultum tuum',
+    constants.COMMUNE_C6_1: 'TODO niew mecz: Me exspectaverunt ',
+    constants.COMMUNE_C7A: 'TODO niew: Vultum tuum',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',

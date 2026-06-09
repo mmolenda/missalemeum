@@ -494,6 +494,12 @@ TITLES = {
     constants.COMMUNE_C4: '1 Msza o Wyznawcy Biskupie – Statuit',
     constants.COMMUNE_C4_1: '2 Msza o Wyznawcy Biskupie – Sacerdotes Tui',
     constants.COMMUNE_C4A: 'Msza o Doktorze Kościoła – In Medio',
+    constants.COMMUNE_C6: '1 Msza o Dziewicy Męczennicy – Loquebar',
+    constants.COMMUNE_C6B: '2 Msza o Dziewicy Męczennicy – Me exspectaverunt',
+    constants.COMMUNE_C6A: '1 Msza o Dziewicy – Dilexisti',
+    constants.COMMUNE_C6A_1: '2 Msza o Dziewicy – Vultum tuum',
+    constants.COMMUNE_C6_1: 'Msza o Niewieście Męczennicy – Me exspectaverunt',
+    constants.COMMUNE_C7A: 'Msza o Niewieście - Cognovi',
     
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',

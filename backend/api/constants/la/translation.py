@@ -492,6 +492,12 @@ TITLES = {
     constants.COMMUNE_C4: 'Commune Unius Confessoris Pontificis, Statuit',
     constants.COMMUNE_C4_1: 'Commune Unius Confessoris Pontificis, Sacerdotes Tui',
     constants.COMMUNE_C4A: 'Commune Doctoris non Pontificis, In Medio',
+    constants.COMMUNE_C6: 'TODO 1 dziew mecz: Loquebar',
+    constants.COMMUNE_C6B: 'TODO 2 dziew mecz: Me exspectaverunt',
+    constants.COMMUNE_C6A: 'TODO 1 dziew: Dilexisti',
+    constants.COMMUNE_C6A_1: 'TODO 2 dziew: Vultum tuum',
+    constants.COMMUNE_C6_1: 'TODO niew mecz: Me exspectaverunt ',
+    constants.COMMUNE_C7A: 'TODO niew: Vultum tuum',
 
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',

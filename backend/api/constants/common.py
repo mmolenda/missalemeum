@@ -976,6 +976,13 @@ COMMUNE_C4A = 'commune:C4a:0:w'  # 20 - In Medio
 COMMUNE_C5 = 'commune:C5:0:w'  # 21 - Os iusti
 COMMUNE_C5_1 = 'commune:C5-1:0:w'  # 22 - Iustus ut palma
 COMMUNE_C5B = 'commune:C5b:0:w'  # 23 - Os iusti
+COMMUNE_C6 = 'commune:C6:0:r'  # 24 - Loquebar
+COMMUNE_C6B = 'commune:C6b:0:r'  # 25 - Me exspectaverunt
+COMMUNE_C6A = 'commune:C6a:0:w'  # 26 - Dilexisti
+COMMUNE_C6A_1 = 'commune:C6a-1:0:w'  # 27 - Vultum tuum
+COMMUNE_C6_1 = 'commune:C6-1:0:r'  # 28 - Me exspectaverunt 
+COMMUNE_C7A = 'commune:C7a:0:w'  # 29 - Congnovi
+
 COMMUNE_C2C = 'commune:C2c:0:r'
 COMMUNE_C2B = 'commune:C2b:0:r'
 COMMUNE_C_10 = 'commune:C10:0:w'  # B. V. M. Saturdays 
