@@ -1,33 +1,33 @@
 [Introitus]
-@Commune/C6b
+@Commune/C6-1
 
 [Oratio]
-@Commune/C6b
+@Commune/C6-1
 
 [Lectio]
-@Commune/C6b
+@Commune/C6-1
 
 [Graduale]
-@Commune/C6b
+@Commune/C6-1
 
 [GradualeP]
-@Commune/C6b
+@Commune/C6-1
 
 [Tractus]
-@Commune/C6b
+@Commune/C6-1
 
 [Evangelium]
-@Commune/C6b
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C6b
+@Commune/C6-1
 
 [Secreta]
-@Commune/C6b
+@Commune/C6-1
 
 [Communio]
-@Commune/C6b
+@Commune/C6-1
 
 [Postcommunio]
-@Commune/C6b
+@Commune/C6-1
 
