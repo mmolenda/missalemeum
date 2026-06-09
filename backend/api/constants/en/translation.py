@@ -474,6 +474,7 @@ TITLES = {
     constants.COMMUNE_C4A: 'Mass of a Doctor not a Bishop – In Medio',
     constants.COMMUNE_C5: 'I Mass of a Confessor not a Bishop – Os Iusti',
     constants.COMMUNE_C5_1: 'II Mass of a Confessor not a Bishop – Iustus ut Palma',
+    constants.COMMUNE_C5B: 'Mass of an Abbot – Os Iusti',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',

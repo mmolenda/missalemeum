@@ -481,6 +481,7 @@ TITLES = {
     constants.COMMUNE_C2_1: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
     constants.COMMUNE_C5: '1 Msza o Wyznawcy – Os iusti',
     constants.COMMUNE_C5_1: '2 Msza o Wyznawcy – Iustus ut palma',
+    constants.COMMUNE_C5B: 'Msza o Opacie – Os Iusti',
     constants.COMMUNE_C2C: '1 Msza o Męczenniku Biskupie – Statuit',
     constants.COMMUNE_C2B: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
     constants.COMMUNE_C2A: '1 Msza o Męczenniku – In virtute',
