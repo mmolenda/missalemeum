@@ -480,7 +480,7 @@ TITLES = {
     constants.COMMUNE_C6A: 'TODO 1 dziew: Dilexisti',
     constants.COMMUNE_C6A_1: 'TODO 2 dziew: Vultum tuum',
     constants.COMMUNE_C6_1: 'TODO niew mecz: Me exspectaverunt ',
-    constants.COMMUNE_C7A: 'TODO niew: Vultum tuum',
+    constants.COMMUNE_C7A: 'TODO niew: cognovi',
 
     constants.SANCTI_01_01: 'Octave Day of Christmas',
     constants.SANCTI_01_05: 'St. Telesphorus Pope and Martyr',

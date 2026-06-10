@@ -11,23 +11,23 @@
 @Commune/C7a
 
 [GradualeP]
-@Commune/C7a
+@Commune/C7
 
 [Tractus]
 @Commune/C7a
 
 [Evangelium]
-@Commune/C7a
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C7a
+@Commune/C6-1
 
 [Secreta]
-@Commune/C7a
+@Commune/C6a
 
 [Communio]
 @Commune/C7a
 
 [Postcommunio]
-@Commune/C7a
+@Commune/C6a
 

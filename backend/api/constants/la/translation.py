@@ -497,7 +497,7 @@ TITLES = {
     constants.COMMUNE_C6A: 'TODO 1 dziew: Dilexisti',
     constants.COMMUNE_C6A_1: 'TODO 2 dziew: Vultum tuum',
     constants.COMMUNE_C6_1: 'TODO niew mecz: Me exspectaverunt ',
-    constants.COMMUNE_C7A: 'TODO niew: Vultum tuum',
+    constants.COMMUNE_C7A: 'TODO niew: Cognovi',
 
     constants.SANCTI_01_01: 'Die Octavæ Nativitatis Domini',
     constants.SANCTI_01_06: 'In Epiphania Domini',
