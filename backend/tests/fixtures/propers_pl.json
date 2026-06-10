@@ -10378,56 +10378,69 @@
   "2024-07-18": [
     [
       {
-        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsion",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)\n*Ps 91:2*\nDobrze jest wysławiać Pana i śpiewać imieniu Twemu, o Najwyższy.\nChwała Ojcu…\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)"
       },
       {
-        "body": "Wszechmogący, wieczny Boże, który wsławiłeś błogosławionego Szymona, Twego Wyznawcę, darem głoszenia Ewangelii, spraw ła",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wszechmogący, wieczny Boże, który wsławiłeś błogosławionego Szymona, Twego Wyznawcę, darem głoszenia Ewangelii, spraw łaskawie, abyśmy żywieni pokarmem jego zbawiennej nauki, wypełniając to, co się Tobie podoba, zdołali po ścieżkach sprawiedliwości dojść szczęśliwie do niebieskiej ojczyzny.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nUżycz nam łaskawie, prosimy Cię Panie, stałej prawości ducha w myśleniu i działaniu, ",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże, który wyróżniłeś świętego Kamila szczególnym darem miłości, by niósł pomoc duszom zmagającym się w przedśmiertnej walce, prosimy Cię, przez jego zasługi, napełnij nas duchem Twojej miłości, abyśmy w godzinę naszej śmierci zdołali pokonać wroga i dojść do korony niebieskiej.\nPrzez Pana…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nBoże, który nam pozwalasz obchodzić narodziny dla nieba świętych Męczenników Twoich N. i N.: daj nam w wiecznej szczęśliwości radować się ich towarzystwem.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla A",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla Aniołów i ludzi. My głupi dla Chrystusa, a wy mądrzy w Chrystusie; my słabi, a wy mocni, wy we czci, a my w pogardzie. Aż do tej chwili i łakniemy, i pragniemy, i nadzy jesteśmy, i policzkują nas, i tułamy się, i mozolimy się, pracując swymi rękoma. Złorzeczą nam, a my błogosławimy, prześladują, a my znosimy, potwarzają nas, a my się modlimy. Staliśmy się jako śmiecie świata tego, odrazą dla wszystkich aż do tej chwili. Nie żeby was zawstydzić to piszę, ale jako dzieci moje najdroższe upominam: w Chrystusie Jezusie, Panu naszym."
       },
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego ser",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego sercu, a kroki się jego nie chwieją. Alleluja, alleluja.\n*Ps 111:1*\nBłogosławiony mąż, który boi się Pana i wielką radość znajduje w jego nakazach. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, tr",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, trzódko mała, gdyż spodobało się Ojcu waszemu dać wam Królestwo. Sprzedajcie, co posiadacie i dajcie jałmużnę. Sprawcie sobie trzosy, które nie niszczeją, skarbiec niewyczerpany w niebiesiech, dokąd złodziej się nie zbliży i gdzie mól nie psuje. Albowiem gdzie jest skarb wasz, tam i serce wasze będzie»."
       },
       {
-        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie je",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie jego serca. (Allelúja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie miła i oczyściła nasze dusze i ciała.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże, Tyś w doskonałości jednej Hostii zebrał rozmaitość ofiar Starego Zakonu – przyj",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże Ojcze Wszechmogący, niech ta niepokalana ofiara, w której odnawiamy dzieło niezmierzonej miłości Pana naszego Jezusa Chrystusa, za Przyczyną św. Kamila stanie się zbawiennym lekarstwem na wszelkie słabości ciała i duszy, a przy konaniu pociechą i obroną.\nPrzez Pana…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nOfiarujemy Ci, Panie te dary jako wyraz naszego oddania; przyjmij je łaskawie ku chwale Twoich Świętych i spraw w Swoim miłosierdziu, aby przyczyniły się do naszego zbawienia.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie i posiądziecie życie wieczne. (Alleluja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawi",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawiennictwem świętego N., Twojego Wyznawcy.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nPanie, niech niebieski Sakrament odnowi nasze dusze i ciała, abyśmy doznali skutków t",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nPrzez ten pokarm niebieski, któryśmy z nabożeństwem przyjęli, obchodząc uroczystość św. Kamila, Twojego Wyznawcy, racz sprawić, o Panie, abyśmy w godzinie śmierci swojej opatrzeni Sakramentami i oczyszczeni z wszystkich grzechów, pełni radości zostali przyjęci na łono Twojego miłosierdzia:\nKtóry żyjesz…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nProsimy Cię, Panie, za wstawiennictwem Twoich Męczenników N. i N., daj nam przyjąć czystą duszą to, co spożyliśmy ustami.\nPrzez Pana…"
       }
     ]
   ],
@@ -29246,56 +29259,69 @@
   "2025-07-18": [
     [
       {
-        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsion",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 91:13-14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)\n*Ps 91:2*\nDobrze jest wysławiać Pana i śpiewać imieniu Twemu, o Najwyższy.\nChwała Ojcu…\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie, zasadzony w domu Pańskim, w przedsionkach Boga naszego. (O. W. Alleluja, alleluja.)"
       },
       {
-        "body": "Wszechmogący, wieczny Boże, który wsławiłeś błogosławionego Szymona, Twego Wyznawcę, darem głoszenia Ewangelii, spraw ła",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wszechmogący, wieczny Boże, który wsławiłeś błogosławionego Szymona, Twego Wyznawcę, darem głoszenia Ewangelii, spraw łaskawie, abyśmy żywieni pokarmem jego zbawiennej nauki, wypełniając to, co się Tobie podoba, zdołali po ścieżkach sprawiedliwości dojść szczęśliwie do niebieskiej ojczyzny.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże, Tyś miłującym Ciebie zgotował niewidzialne dobra; wlej w nasze serca gorącą mił",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże, który wyróżniłeś świętego Kamila szczególnym darem miłości, by niósł pomoc duszom zmagającym się w przedśmiertnej walce, prosimy Cię, przez jego zasługi, napełnij nas duchem Twojej miłości, abyśmy w godzinę naszej śmierci zdołali pokonać wroga i dojść do korony niebieskiej.\nPrzez Pana…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nBoże, który nam pozwalasz obchodzić narodziny dla nieba świętych Męczenników Twoich N. i N.: daj nam w wiecznej szczęśliwości radować się ich towarzystwem.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla A",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 4:9-14*\nBracia: Widowiskiem staliśmy się dla świata, dla Aniołów i ludzi. My głupi dla Chrystusa, a wy mądrzy w Chrystusie; my słabi, a wy mocni, wy we czci, a my w pogardzie. Aż do tej chwili i łakniemy, i pragniemy, i nadzy jesteśmy, i policzkują nas, i tułamy się, i mozolimy się, pracując swymi rękoma. Złorzeczą nam, a my błogosławimy, prześladują, a my znosimy, potwarzają nas, a my się modlimy. Staliśmy się jako śmiecie świata tego, odrazą dla wszystkich aż do tej chwili. Nie żeby was zawstydzić to piszę, ale jako dzieci moje najdroższe upominam: w Chrystusie Jezusie, Panu naszym."
       },
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego ser",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne.\n℣. Prawo jego Boga mieszka w jego sercu, a kroki się jego nie chwieją. Alleluja, alleluja.\n*Ps 111:1*\nBłogosławiony mąż, który boi się Pana i wielką radość znajduje w jego nakazach. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, tr",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:32-34*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie lękaj się, trzódko mała, gdyż spodobało się Ojcu waszemu dać wam Królestwo. Sprzedajcie, co posiadacie i dajcie jałmużnę. Sprawcie sobie trzosy, które nie niszczeją, skarbiec niewyczerpany w niebiesiech, dokąd złodziej się nie zbliży i gdzie mól nie psuje. Albowiem gdzie jest skarb wasz, tam i serce wasze będzie»."
       },
       {
-        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie je",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli, się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie jego serca. (Allelúja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Prosimy Cię, wszechmogący Boże, spraw, aby nasza ofiara, którą w pokorze składamy Ci ku czci Twoich Świętych, była Tobie miła i oczyściła nasze dusze i ciała.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nDaj się przebłagać Panie naszymi modłami i łaskawie przyjmij te ofiary sług i służebn",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nBoże Ojcze Wszechmogący, niech ta niepokalana ofiara, w której odnawiamy dzieło niezmierzonej miłości Pana naszego Jezusa Chrystusa, za Przyczyną św. Kamila stanie się zbawiennym lekarstwem na wszelkie słabości ciała i duszy, a przy konaniu pociechą i obroną.\nPrzez Pana…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nOfiarujemy Ci, Panie te dary jako wyraz naszego oddania; przyjmij je łaskawie ku chwale Twoich Świętych i spraw w Swoim miłosierdziu, aby przyczyniły się do naszego zbawienia.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 19:28-29*\nZaprawdę powiadam wam, że wy, którzyście opuścili wszystko i poszliście za mną, stokroć więcej otrzymacie i posiądziecie życie wieczne. (Alleluja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawi",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, wszechmogący Boże, aby pokarm niebieski, któryśmy przyjęli, chronił nas od wszelkich przeciwności za wstawiennictwem świętego N., Twojego Wyznawcy.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kamila de Lellis*\nNasyciwszy nas Panie, darem niebieskim, oczyść nas z ukrytych grzechów i wybaw od zas",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Kamila de Lellis*\nPrzez ten pokarm niebieski, któryśmy z nabożeństwem przyjęli, obchodząc uroczystość św. Kamila, Twojego Wyznawcy, racz sprawić, o Panie, abyśmy w godzinie śmierci swojej opatrzeni Sakramentami i oczyszczeni z wszystkich grzechów, pełni radości zostali przyjęci na łono Twojego miłosierdzia:\nKtóry żyjesz…\n*Wspomnienie Śś. Symforozy i Siedmiu Jej Synów*\nProsimy Cię, Panie, za wstawiennictwem Twoich Męczenników N. i N., daj nam przyjąć czystą duszą to, co spożyliśmy ustami.\nPrzez Pana…"
       }
     ]
   ],

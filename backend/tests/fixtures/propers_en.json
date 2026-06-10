@@ -10258,56 +10258,69 @@
   "2024-07-18": [
     [
       {
-        "body": "*John 15:13*\nGreater love than this no one has, that one lay down his life for his friends.\n*Ps 40:2*\nHappy is he who ha",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*John 15:13*\nGreater love than this no one has, that one lay down his life for his friends.\n*Ps 40:2*\nHappy is he who has regard for the lowly and the poor; in the day of misfortune the Lord will deliver him.\nGlory Be to the Father…\nGreater love than this no one has, that one lay down his life for his friends."
       },
       {
-        "body": "O God, Who endowed St. Camillus with a special gift of charity for the help of souls struggling in their final agony, po",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, Who endowed St. Camillus with a special gift of charity for the help of souls struggling in their final agony, pour upon us, we beseech You, by his merits, the spirit of Your love, so that in the hour of our death we may be found worthy to overcome the enemy and attain the heavenly crown.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nEver graciously bestow upon us, we beseech You, O Lord, the spirit of thinking a",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nO God, who dost permit us to keep the birthday of thy holy Martyrs N. and N., grant that we may enjoy their fellowship in everlasting happiness.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the first letter of St John the Apostle\n*1 John 3:13-18.*\nBeloved: Do not be surprised if the world hates yo",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the first letter of St John the Apostle\n*1 John 3:13-18.*\nBeloved: Do not be surprised if the world hates you. We know that we have passed from death to life, because we love the brethren. He who does not love abides in death. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. In this we have come to know His love, that He laid down His life for us; and we likewise ought to lay down our life for the brethren. He who has the goods of this world and sees his brother in need and closes his heart to him, how does the love of God abide in him? My dear children, let us not love in word, neither with the tongue, but in deed and in truth."
       },
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in hi",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 36:30-31*\nThe mouth of the just tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in his heart, and his steps do not falter. Alleluia, alleluia.\n*Ps 111:1*\nHappy the man who fears the Lord, who greatly delights in His commands. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to John\n*John 15:12-16*\nAt that time, Jesus said to His disciples, This is M",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to John\n*John 15:12-16*\nAt that time, Jesus said to His disciples, This is My commandment, that you love one another as I have loved you. Greater love than this no one has, that one lay down his life for his friends. You are My friends if you do the things I command you. No longer do I call you servants, because the servant does not know what his master does. But I have called you friends, because all things that I have heard from My Father I have made known to you. You have not chosen Me, but I have chosen you, and have appointed you that you should go and bear fruit, and that your fruit should remain; that whatever you ask the Father in My name He may give you."
       },
       {
-        "body": "*Ps 20:2-3*\nO Lord, in Your strength the just man is glad; in Your victory how greatly he rejoices! You have granted him",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 20:2-3*\nO Lord, in Your strength the just man is glad; in Your victory how greatly he rejoices! You have granted him his heart’s desire. (Alleluia.)"
       },
       {
-        "body": "Through the prayers of St. Camillus may this spotless sacrificial offering, by which we renew the work of our Lord Jesus",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Through the prayers of St. Camillus may this spotless sacrificial offering, by which we renew the work of our Lord Jesus Christ’s infinite charity, be a healing remedy against all infirmities of body and soul and a consolation and protection in our last agony.\nThrough the same Christ our Lord…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nAccept, we beseech You, O Lord, the gifts which we bring to You out of Your own ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nWe offer You, O Lord, the gifts of our service; may they be pleasing to You for the honor of Your just ones and, through Your mercy, bring us salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 25:36, 40*\nI was sick and you visited Me: Amen, amen, I say to you, as long as you did it for one of these the lea",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 25:36, 40*\nI was sick and you visited Me: Amen, amen, I say to you, as long as you did it for one of these the least of My brethren, you did it for Me."
       },
       {
-        "body": "Through this heavenly food which we have received with holy devotion as we celebrate the feast of St. Camillus, Your Con",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Through this heavenly food which we have received with holy devotion as we celebrate the feast of St. Camillus, Your Confessor, grant, we beseech You, O Lord, that in the hour of our death, strengthened by Your sacraments and absolved of all our sins, we may be found worthy to be taken up, rejoicing, into the bosom of Your mercy.\nWho livest…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nMay the heavenly sacrament, O Lord, renew our minds and bodies, so that we may f",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nGrant, we beseech You, O almighty and merciful God, that through the intercession of Your holy Martyrs, N. et N. what we take into our mouths we may eat with pure heart.\nThrough our Lord…"
       }
     ]
   ],
@@ -29060,56 +29073,69 @@
   "2025-07-18": [
     [
       {
-        "body": "*John 15:13*\nGreater love than this no one has, that one lay down his life for his friends.\n*Ps 40:2*\nHappy is he who ha",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*John 15:13*\nGreater love than this no one has, that one lay down his life for his friends.\n*Ps 40:2*\nHappy is he who has regard for the lowly and the poor; in the day of misfortune the Lord will deliver him.\nGlory Be to the Father…\nGreater love than this no one has, that one lay down his life for his friends."
       },
       {
-        "body": "O God, Who endowed St. Camillus with a special gift of charity for the help of souls struggling in their final agony, po",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, Who endowed St. Camillus with a special gift of charity for the help of souls struggling in their final agony, pour upon us, we beseech You, by his merits, the spirit of Your love, so that in the hour of our death we may be found worthy to overcome the enemy and attain the heavenly crown.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nO God, You Who have prepared good things as yet unseen for those who love You, p",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nO God, who dost permit us to keep the birthday of thy holy Martyrs N. and N., grant that we may enjoy their fellowship in everlasting happiness.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the first letter of St John the Apostle\n*1 John 3:13-18.*\nBeloved: Do not be surprised if the world hates yo",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the first letter of St John the Apostle\n*1 John 3:13-18.*\nBeloved: Do not be surprised if the world hates you. We know that we have passed from death to life, because we love the brethren. He who does not love abides in death. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. In this we have come to know His love, that He laid down His life for us; and we likewise ought to lay down our life for the brethren. He who has the goods of this world and sees his brother in need and closes his heart to him, how does the love of God abide in him? My dear children, let us not love in word, neither with the tongue, but in deed and in truth."
       },
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in hi",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 36:30-31*\nThe mouth of the just tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in his heart, and his steps do not falter. Alleluia, alleluia.\n*Ps 111:1*\nHappy the man who fears the Lord, who greatly delights in His commands. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to John\n*John 15:12-16*\nAt that time, Jesus said to His disciples, This is M",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to John\n*John 15:12-16*\nAt that time, Jesus said to His disciples, This is My commandment, that you love one another as I have loved you. Greater love than this no one has, that one lay down his life for his friends. You are My friends if you do the things I command you. No longer do I call you servants, because the servant does not know what his master does. But I have called you friends, because all things that I have heard from My Father I have made known to you. You have not chosen Me, but I have chosen you, and have appointed you that you should go and bear fruit, and that your fruit should remain; that whatever you ask the Father in My name He may give you."
       },
       {
-        "body": "*Ps 20:2-3*\nO Lord, in Your strength the just man is glad; in Your victory how greatly he rejoices! You have granted him",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 20:2-3*\nO Lord, in Your strength the just man is glad; in Your victory how greatly he rejoices! You have granted him his heart’s desire. (Alleluia.)"
       },
       {
-        "body": "Through the prayers of St. Camillus may this spotless sacrificial offering, by which we renew the work of our Lord Jesus",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Through the prayers of St. Camillus may this spotless sacrificial offering, by which we renew the work of our Lord Jesus Christ’s infinite charity, be a healing remedy against all infirmities of body and soul and a consolation and protection in our last agony.\nThrough the same Christ our Lord…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nBe propitious to our supplications, O Lord, and graciously receive these oblatio",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nWe offer You, O Lord, the gifts of our service; may they be pleasing to You for the honor of Your just ones and, through Your mercy, bring us salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 25:36, 40*\nI was sick and you visited Me: Amen, amen, I say to you, as long as you did it for one of these the lea",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 25:36, 40*\nI was sick and you visited Me: Amen, amen, I say to you, as long as you did it for one of these the least of My brethren, you did it for Me."
       },
       {
-        "body": "Through this heavenly food which we have received with holy devotion as we celebrate the feast of St. Camillus, Your Con",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Through this heavenly food which we have received with holy devotion as we celebrate the feast of St. Camillus, Your Confessor, grant, we beseech You, O Lord, that in the hour of our death, strengthened by Your sacraments and absolved of all our sins, we may be found worthy to be taken up, rejoicing, into the bosom of Your mercy.\nWho livest…"
       },
       {
-        "body": "*Commemoration Ss. Symphorosa and sons*\nGrant us, we beseech You, O Lord, that we whom You have filled with the heavenly",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration Ss. Symphorosa and sons*\nGrant, we beseech You, O almighty and merciful God, that through the intercession of Your holy Martyrs, N. et N. what we take into our mouths we may eat with pure heart.\nThrough our Lord…"
       }
     ]
   ],

@@ -10378,56 +10378,69 @@
   "2024-07-18": [
     [
       {
-        "body": "*Ps 91:13-14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus D",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 91:13-14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)\n*Ps 91:2*\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nGlória Patri…\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)"
       },
       {
-        "body": "Omnípotens sempitérne Deus: qui beátum Simónem Confessórem tuum evangélicæ prædicatiónis grátiam sublimásti: concéde pro",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Omnípotens sempitérne Deus: qui beátum Simónem Confessórem tuum evangélicæ prædicatiónis grátiam sublimásti: concéde propítius; ut eius salutáris doctrínæ pábulo nutríti, quæ tibi sunt plácita exsequéntes, per sémitas iustítiæ ad cæléstem pátriam felíciter perveníre valeámus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nLargíre nobis, quǽsumus, Dómine, semper spíritum cogitándi quæ recta sun",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nDeus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subsídium, singulári caritátis prærogatíva decorásti: ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde; ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur corónam perveníre.\nPer Dominum…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nDeus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et h",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cǽdimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndant vos, hæc scribo, sed ut fílios meos caríssimos móneo: in Christo Jesu, Dómino nostro."
       },
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus. Allelúja, allelúja.\n*Ps 111:1*\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:32-34*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:32-34*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit."
       },
       {
-        "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ eju",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (Allelúja.)"
       },
       {
-        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio et pro tuórum tibi grata sit honóre Sanctórum, et",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore páriter et mente puríficet.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nSúscipe, quǽsumus, Dómine, múnera, quæ tibi de tua largitáte deférimus: ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nHóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Gamíllo intercedénte, contra omnes córporis et animæ infirmitates salutáre remedium, et in extrémo agóne solátium et tutéla.\nPer eúndem…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nMúnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam æté",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (Allelúja.)"
       },
       {
-        "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra óm",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra ómnia advérsa muniámur.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nSit nobis, Dómine, reparátio mentis et córporis cæléste mystérium: ut, c",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nPer hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus. Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur:\nQui vivis…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nPræsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…"
       }
     ]
   ],
@@ -29246,56 +29259,69 @@
   "2025-07-18": [
     [
       {
-        "body": "*Ps 91:13-14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus D",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 91:13-14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)\n*Ps 91:2*\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nGlória Patri…\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur: plantátus in domo Dómini: in átriis domus Dei nostri. (Allelúja, allelúja.)"
       },
       {
-        "body": "Omnípotens sempitérne Deus: qui beátum Simónem Confessórem tuum evangélicæ prædicatiónis grátiam sublimásti: concéde pro",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Omnípotens sempitérne Deus: qui beátum Simónem Confessórem tuum evangélicæ prædicatiónis grátiam sublimásti: concéde propítius; ut eius salutáris doctrínæ pábulo nutríti, quæ tibi sunt plácita exsequéntes, per sémitas iustítiæ ad cæléstem pátriam felíciter perveníre valeámus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nDeus, qui diligéntibus te bona invisibília præparásti: infúnde córdibus ",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nDeus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subsídium, singulári caritátis prærogatíva decorásti: ejus, quǽsumus, méritis, spíritum nobis tuæ dilectiónis infúnde; ut in hora éxitus nostri hostem víncere, et ad cœléstem mereámur corónam perveníre.\nPer Dominum…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nDeus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et h",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*1 Cor 4:9-14*\nFratres: Spectáculum facti sumus mundo et Angelis et homínibus. Nos stulti propter Christum, vos autem prudéntes in Christo: nos infírmi, vos autem fortes: vos nóbiles, nos autem ignóbiles. Usque in hanc horam et esurímus, et sitímus, et nudi sumus, et cólaphis cǽdimur, et instábiles sumus, et laborámus operántes mánibus nostris: maledícimur, et benedícimus: persecutiónem pátimur, et sustinémus: blasphemámur, et obsecrámus: tamquam purgaménta hujus mundi facti sumus, ómnium peripséma usque adhuc. Non ut confúndant vos, hæc scribo, sed ut fílios meos caríssimos móneo: in Christo Jesu, Dómino nostro."
       },
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium.\n℣. Lex Dei ejus in corde ipsíus: et non supplantabúntur gressus ejus. Allelúja, allelúja.\n*Ps 111:1*\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:32-34*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:32-34*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte timére, pusíllus grex, quia complácuit Patri vestro dare vobis regnum. Véndite quæ possidétis, et date eleemósynam. Fácite vobis sácculos, qui non veteráscunt, thesáurum non deficiéntem in cœlis: quo fur non apprópiat, neque tínea corrúmpit. Ubi enim thesáurus vester est, ibi et cor vestrum erit."
       },
       {
-        "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ eju",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus, et super salutáre tuum exsultábit veheménter: desidérium ánimæ ejus tribuísti ei. (Allelúja.)"
       },
       {
-        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio et pro tuórum tibi grata sit honóre Sanctórum, et",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut nostræ humilitátis oblátio et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore páriter et mente puríficet.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nPropitiáre, Dómine, supplicatiónibus nostris: et has oblatiónes famulóru",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nHóstia immaculáta, qua illud Dómini nostri Jesu Christi imménsæ caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Gamíllo intercedénte, contra omnes córporis et animæ infirmitates salutáre remedium, et in extrémo agóne solátium et tutéla.\nPer eúndem…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nMúnera tibi, Dómine, nostra devotiónis offérimus: quæ et pro tuórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam æté",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 19:28-29*\nAmen, dico vobis: quod vos, qui reliquístis ómnia et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis. (Allelúja.)"
       },
       {
-        "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra óm",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Quǽsumus, omnípotens Deus: ut, qui cœléstia aliménta percépimus, intercedénte beáto N. Confessóre tuo, per hæc contra ómnia advérsa muniámur.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nQuos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris mund",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Camilli de Lellis Confessoris*\nPer hæc cœléstia aliménta, quæ, sancti Camílli Confessóris tui sollémnia celebrántes, pia devotióne suscépimus: da, quǽsumus. Dómine; ut, in hora mortis nostræ sacraméntis refécti et culpis ómnibus expiáti, in sinum misericórdiæ tuæ læti súscipi mereámur:\nQui vivis…\n*Commemoratio Ss. Symphorosae et septem Filiorum ejus*\nPræsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…"
       }
     ]
   ],
