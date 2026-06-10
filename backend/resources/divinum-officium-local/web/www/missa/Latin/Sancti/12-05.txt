@@ -1,11 +1,29 @@
 [Rule]
 @Sancti/12-05
 
+[Introitus]
+@Commune/C5
+
 [Oratio]
 @Commune/C5b::s/N\./Sabbas/
 
+[Lectio]
+@Commune/C5b
+
+[Graduale]
+@Commune/C5b
+
+[Evangelium]
+@Commune/C5b
+
+[Offertorium]
+@Commune/C5b
+
 [Secreta]
 @Commune/C5b::s/N\./Sabbas/
+
+[Communio]
+@Commune/C4
 
 [Postcommunio]
 @Commune/C5b::s/N\./Sabbas/

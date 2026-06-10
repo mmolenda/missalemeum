@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/08-29cc
 
+[Introitus]
+@Commune/C6-1
+
 [Oratio]
 @Commune/C6:Oratio:s/N\./Sabinæ/
+
+[Lectio]
+@Commune/C6
+
+[Graduale]
+@Commune/C7
+
+[Evangelium]
+@Commune/C6-1
+
+[Offertorium]
+@Commune/C6-1
 
 [Secreta]
 @Commune/C6-1::s/N\. Vírginis et/Sabínæ/
 
+[Communio]
+@Commune/C7
+
 [Postcommunio]
 @Commune/C6-1::s/N\. Vírgine et/Sabínæ/
-

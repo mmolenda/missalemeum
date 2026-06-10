@@ -43,20 +43,54 @@
   ],
   "sancti:01-05:4:r": [
     {
-      "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Twojego Męcz",
-      "id": "Oratio"
+      "id": "Introitus",
+      "label": "Introit",
+      "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSławić Cie będę, Panie, bo mnie wybawiłeś, i nie sprawiłeś ze mnie uciechy mym wrogom.\nChwała Ojcu…\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)"
     },
     {
-      "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
-      "id": "Secreta"
+      "id": "Oratio",
+      "label": "Kolekta",
+      "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Twojego Męczennika i Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
     },
     {
-      "body": "*Prefacja o Bożym Narodzeniu*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie skła",
-      "id": "Prefatio"
+      "id": "Lectio",
+      "label": "Lekcja",
+      "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra, pierwszego papieża, stał się wzorem dla owczarni Chrystusowej i zasłużył na niewiędnący wieniec chwały.*\nNajmilsi! Starszych, którzy są wśród was, proszę, jako równie starszy i świadek męki Chrystusowej oraz uczestnik tej chwały, która ma się objawić.\nPaście trzodę Bożą, która jest przy was, czuwając nad nią nie z musu, ale chętnie dla Boga, a nie dla szkaradnego zysku. Ani też jako panujący nad duchowieństwem, ale będąc świadomym wzorem dla owczarni. A gdy się zjawi książę pasterzy, otrzymacie niewiędnący wieniec chwały. A Bóg wszelkiej łaski, który wezwał nas do wiecznej chwały swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas, jemu chwała i panowanie na wieki wieków. Amen."
     },
     {
-      "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
-      "id": "Postcommunio"
+      "id": "Graduale",
+      "label": "Graduał",
+      "body": "*Ps 106:32; 106:31*\nNiechaj Go sławią ludy w zgromadzeniu, i na zebraniu starców niechaj Go chwalą.\n℣. Niech dzięki czynią Panu za Jego miłosierdzie, za jego cuda dla synów człowieczych. Alleluja, alleluja.\n*Mt 16:18*\nTy jesteś Opoką, a na tej Opoce zbuduję Kościół mój. Alleluja."
+    },
+    {
+      "id": "Evangelium",
+      "label": "Ewangelia",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej i pytał uczniów swoich mówiąc: «Za kogo mają ludzie Syna Człowieczego?» A oni powiedzieli: «Jedni za Jana Chrzciciela, drudzy za Eliasza, a inni za Jeremiasza albo jednego z proroków».\nRzekł im Jezus: «A wy za kogo mię macie?» Odpowiadając Szymon Piotr rzekł: «Tyś jest Chrystus, Syn Boga żywego». A odpowiadając Jezus rzekł mu: «Błogosławionyś Szymonie Bar Jona, bo ciało i krew nie objawiły tobie, jeno Ojciec mój, który jest w niebiesiech. A ja ci powiadam, że ty jesteś Opoką, i na tej Opoce zbuduję Kościół mój i bramy piekielne nie zwyciężą go. I tobie dam klucze Królestwa Niebieskiego: a cokolwiek zwiążesz na ziemi, będzie związane i w niebiesiech; a cokolwiek rozwiążesz na ziemi, będzie rozwiązane i w niebiesiech»."
+    },
+    {
+      "id": "Offertorium",
+      "label": "Antyfona na Ofiarowanie",
+      "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i burzył, i budował, i sadził."
+    },
+    {
+      "id": "Secreta",
+      "label": "Sekreta",
+      "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
+    },
+    {
+      "id": "Prefatio",
+      "label": "Prefacja",
+      "body": "*Prefacja o Bożym Narodzeniu*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nAlbowiem przez tajemnicę wcielonego Słowa zajaśniał oczom naszej duszy nowy blask Twojej światłości, abyśmy poznając Boga w widzialnej postaci, zostali przezeń porwani do umiłowania rzeczy niewidzialnych.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
+    },
+    {
+      "id": "Communio",
+      "label": "Antyfona na Komunię",
+      "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)"
+    },
+    {
+      "id": "Postcommunio",
+      "label": "Pokomunia",
+      "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
     }
   ],
   "sancti:01-06:1:w": [
@@ -103,20 +137,54 @@
   ],
   "sancti:01-11cc:4:r": [
     {
-      "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, któ",
-      "id": "Oratio"
+      "id": "Introitus",
+      "label": "Introit",
+      "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSławić Cie będę, Panie, bo mnie wybawiłeś, i nie sprawiłeś ze mnie uciechy mym wrogom.\nChwała Ojcu…\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)"
     },
     {
-      "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
-      "id": "Secreta"
+      "id": "Oratio",
+      "label": "Kolekta",
+      "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
     },
     {
-      "body": "*Prefacja o Objawieniu Pańskim*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie sk",
-      "id": "Prefatio"
+      "id": "Lectio",
+      "label": "Lekcja",
+      "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra, pierwszego papieża, stał się wzorem dla owczarni Chrystusowej i zasłużył na niewiędnący wieniec chwały.*\nNajmilsi! Starszych, którzy są wśród was, proszę, jako równie starszy i świadek męki Chrystusowej oraz uczestnik tej chwały, która ma się objawić.\nPaście trzodę Bożą, która jest przy was, czuwając nad nią nie z musu, ale chętnie dla Boga, a nie dla szkaradnego zysku. Ani też jako panujący nad duchowieństwem, ale będąc świadomym wzorem dla owczarni. A gdy się zjawi książę pasterzy, otrzymacie niewiędnący wieniec chwały. A Bóg wszelkiej łaski, który wezwał nas do wiecznej chwały swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas, jemu chwała i panowanie na wieki wieków. Amen."
     },
     {
-      "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
-      "id": "Postcommunio"
+      "id": "Graduale",
+      "label": "Graduał",
+      "body": "*Ps 106:32; 106:31*\nNiechaj Go sławią ludy w zgromadzeniu, i na zebraniu starców niechaj Go chwalą.\n℣. Niech dzięki czynią Panu za Jego miłosierdzie, za jego cuda dla synów człowieczych. Alleluja, alleluja.\n*Mt 16:18*\nTy jesteś Opoką, a na tej Opoce zbuduję Kościół mój. Alleluja."
+    },
+    {
+      "id": "Evangelium",
+      "label": "Ewangelia",
+      "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej i pytał uczniów swoich mówiąc: «Za kogo mają ludzie Syna Człowieczego?» A oni powiedzieli: «Jedni za Jana Chrzciciela, drudzy za Eliasza, a inni za Jeremiasza albo jednego z proroków».\nRzekł im Jezus: «A wy za kogo mię macie?» Odpowiadając Szymon Piotr rzekł: «Tyś jest Chrystus, Syn Boga żywego». A odpowiadając Jezus rzekł mu: «Błogosławionyś Szymonie Bar Jona, bo ciało i krew nie objawiły tobie, jeno Ojciec mój, który jest w niebiesiech. A ja ci powiadam, że ty jesteś Opoką, i na tej Opoce zbuduję Kościół mój i bramy piekielne nie zwyciężą go. I tobie dam klucze Królestwa Niebieskiego: a cokolwiek zwiążesz na ziemi, będzie związane i w niebiesiech; a cokolwiek rozwiążesz na ziemi, będzie rozwiązane i w niebiesiech»."
+    },
+    {
+      "id": "Offertorium",
+      "label": "Antyfona na Ofiarowanie",
+      "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i burzył, i budował, i sadził."
+    },
+    {
+      "id": "Secreta",
+      "label": "Sekreta",
+      "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
+    },
+    {
+      "id": "Prefatio",
+      "label": "Prefacja",
+      "body": "*Prefacja o Objawieniu Pańskim*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nAlbowiem kiedy Jednorodzony Syn Twój ukazał się w naszej śmiertelnej naturze, udzielił nam na nowo światła swej nieśmiertelności.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
+    },
+    {
+      "id": "Communio",
+      "label": "Antyfona na Komunię",
+      "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)"
+    },
+    {
+      "id": "Postcommunio",
+      "label": "Pokomunia",
+      "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
     }
   ],
   "sancti:01-13:2:w": [

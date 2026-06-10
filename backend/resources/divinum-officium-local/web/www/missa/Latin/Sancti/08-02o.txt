@@ -1,8 +1,26 @@
+[Introitus]
+@Commune/C4b
+
 [Oratio]
 @Commune/C4b:Oratio:s/N\./Stéphano/
 
+[Lectio]
+@Commune/C4b
+
+[Graduale]
+@Commune/Coronatio
+
+[Evangelium]
+@Commune/Coronatio
+
+[Offertorium]
+@Commune/C4b
+
 [Secreta]
 @Commune/C4b:Secreta
+
+[Communio]
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b:Postcommunio

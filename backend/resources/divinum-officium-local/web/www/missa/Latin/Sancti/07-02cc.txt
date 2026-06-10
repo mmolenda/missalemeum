@@ -1,12 +1,29 @@
 [Rule]
 @Commune/C3
 
+[Introitus]
+@Commune/C3a
+
 [Oratio]
 @Sancti/07-02cc:Oratio
+
+[Lectio]
+@Commune/C3a
+
+[Graduale]
+@Commune/C3a
+
+[Evangelium]
+@Commune/C3a
+
+[Offertorium]
+@Commune/C3a
 
 [Secreta]
 @Sancti/07-02cc:Secreta
 
+[Communio]
+@Commune/C3a
+
 [Postcommunio]
 @Sancti/07-02cc:Postcommunio
-

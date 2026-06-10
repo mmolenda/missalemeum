@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/09-08cc
 
+[Introitus]
+@Commune/C2a
+
 [Oratio]
 @Commune/C2a:Oratio:s/N\./Adriani/
+
+[Lectio]
+@Commune/C2a
+
+[Graduale]
+@Commune/C2a
+
+[Evangelium]
+@Commune/C2a
+
+[Offertorium]
+@Commune/C2a
 
 [Secreta]
 @Commune/C2a
 
-[Postcommunio]
+[Communio]
 @Commune/C2a
 
+[Postcommunio]
+@Commune/C2a

@@ -43,20 +43,54 @@
   ],
   "sancti:01-05:4:r": [
     {
-      "body": "Look forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed ",
-      "id": "Oratio"
+      "id": "Introitus",
+      "label": "Introit",
+      "body": "*John 21:15-17*\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. (Allelúja, allelúja.)\n*Ps 29:2*\nI will extol thee, O Lord, for thou hast upheld me: and hast not made my enemies to rejoice over me.\nGlory Be to the Father…\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. (Allelúja, allelúja.)"
     },
     {
-      "body": "By the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere pr",
-      "id": "Secreta"
+      "id": "Oratio",
+      "label": "Collect",
+      "body": "Look forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed N. thy Martyr and Sovereign Pontiff, whom thou didst constitute Shepherd of the whole Church.\nThrough our Lord…"
     },
     {
-      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give ",
-      "id": "Prefatio"
+      "id": "Lectio",
+      "label": "Epistle",
+      "body": "Lesson from the first letter of St Peter the Apostle\n*1 Pet 5:1-4; 5:10-11.*\nDearly beloved brethren: The ancients therefore that are among you, I beseech, who am myself also an ancient, and a witness of the sufferings of Christ: as also a partaker of that glory which is to be revealed in time to come: Feed the flock of God which is among you, taking care of it, not by constraint, but willingly, according to God: not for filthy lucre's sake, but voluntarily: Neither as lording it over the clergy, but being made a pattern of the flock from the heart. And when the prince of pastors shall appear, you shall receive a never fading crown of glory. But the God of all grace, who hath called us into his eternal glory in Christ Jesus, after you have suffered a little, will himself perfect you, and confirm you, and establish you. To him be glory and empire for ever and ever. Amen."
     },
     {
-      "body": "Being appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and pow",
-      "id": "Postcommunio"
+      "id": "Graduale",
+      "label": "Gradual",
+      "body": "*Ps 106:32; 106:31*\nAnd let them exalt him in the church of the people: and praise him in the chair of the ancients.\n℣. Let the mercies of the Lord give glory to him, and his wonderful works to the children of men. Allelúja, allelúja.\n*Matt 16:18*\nAnd I say to thee: That thou art Peter; and upon this rock I will build My Church. Allelúja."
+    },
+    {
+      "id": "Evangelium",
+      "label": "Gospel",
+      "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 16:13-19*\nIn that time: Jesus came into the quarters of Caesarea Philippi: and he asked his disciples, saying: Whom do men say that the Son of man is? But they said: Some John the Baptist, and other some Elias, and others Jeremias, or one of the prophets. Jesus saith to them: But whom do you say that I am? Simon Peter answered and said: Thou art Christ, the Son of the living God. And Jesus answering, said to him: Blessed art thou, Simon Bar-Jona: because flesh and blood hath not revealed it to thee, but my Father who is in heaven. And I say to thee: That thou art Peter; and upon this rock I will build My Church, and the gates of hell shall not prevail against it. And I will give to thee the keys of the kingdom of heaven. And whatsoever thou shalt bind upon earth, it shall be bound also in heaven: and whatsoever thou shalt loose upon earth, it shall be loosed also in heaven."
+    },
+    {
+      "id": "Offertorium",
+      "label": "Offertory",
+      "body": "*Jer 1:9-10*\nBehold I have given my words in thy mouth: Lo, I have set thee over the nations, and over the kingdoms, to root up, and pull down, and to waste, and to destroy, and to build, and to plant. (Allelúja.)"
+    },
+    {
+      "id": "Secreta",
+      "label": "Secret",
+      "body": "By the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere progress and prosper, and thy shepherds, under thy guidance may be pleasing to thy name.\nThrough our Lord…"
+    },
+    {
+      "id": "Prefatio",
+      "label": "Preface",
+      "body": "*Nativity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give thanks unto Thee, O holy Lord, Father almighty, everlasting God, for through the Mystery of the Word made flesh, the new light of Thy glory hath shone upon the eyes of our mind, so that while we acknowledge God in visible form, we may through Him be drawn to the love of things invisible. And therefore with Angels and Archangels, with Throne and Dominations, and with all the hosts of the heavenly army, we sing the hymn of Thy glory, evermore saying:"
+    },
+    {
+      "id": "Communio",
+      "label": "Communion",
+      "body": "*Matt 16:18*\nThou art Peter; and upon this rock I will build My Church, and the gates of hell shall not prevail against it. (Allelúja.)"
+    },
+    {
+      "id": "Postcommunio",
+      "label": "Postcommunion",
+      "body": "Being appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and powerful rule it may receive increase of liberty and may continue in religious integrity.\nThrough our Lord…"
     }
   ],
   "sancti:01-06:1:w": [
@@ -103,20 +137,54 @@
   ],
   "sancti:01-11cc:4:r": [
     {
-      "body": "Look forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed ",
-      "id": "Oratio"
+      "id": "Introitus",
+      "label": "Introit",
+      "body": "*John 21:15-17*\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. (Allelúja, allelúja.)\n*Ps 29:2*\nI will extol thee, O Lord, for thou hast upheld me: and hast not made my enemies to rejoice over me.\nGlory Be to the Father…\nIf thou lovest me, Simon Peter, feed my lambs, feed my sheep. (Allelúja, allelúja.)"
     },
     {
-      "body": "By the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere pr",
-      "id": "Secreta"
+      "id": "Oratio",
+      "label": "Collect",
+      "body": "Look forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed N. thy Sovereign Pontiff, whom thou didst constitute Shepherd of the whole Church.\nThrough our Lord…"
     },
     {
-      "body": "*Epiphany*\nIt is truly meet and just, right and availing unto salvation, that we should in all times and in all places g",
-      "id": "Prefatio"
+      "id": "Lectio",
+      "label": "Epistle",
+      "body": "Lesson from the first letter of St Peter the Apostle\n*1 Pet 5:1-4; 5:10-11.*\nDearly beloved brethren: The ancients therefore that are among you, I beseech, who am myself also an ancient, and a witness of the sufferings of Christ: as also a partaker of that glory which is to be revealed in time to come: Feed the flock of God which is among you, taking care of it, not by constraint, but willingly, according to God: not for filthy lucre's sake, but voluntarily: Neither as lording it over the clergy, but being made a pattern of the flock from the heart. And when the prince of pastors shall appear, you shall receive a never fading crown of glory. But the God of all grace, who hath called us into his eternal glory in Christ Jesus, after you have suffered a little, will himself perfect you, and confirm you, and establish you. To him be glory and empire for ever and ever. Amen."
     },
     {
-      "body": "Being appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and pow",
-      "id": "Postcommunio"
+      "id": "Graduale",
+      "label": "Gradual",
+      "body": "*Ps 106:32; 106:31*\nAnd let them exalt him in the church of the people: and praise him in the chair of the ancients.\n℣. Let the mercies of the Lord give glory to him, and his wonderful works to the children of men. Allelúja, allelúja.\n*Matt 16:18*\nAnd I say to thee: That thou art Peter; and upon this rock I will build My Church. Allelúja."
+    },
+    {
+      "id": "Evangelium",
+      "label": "Gospel",
+      "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 16:13-19*\nIn that time: Jesus came into the quarters of Caesarea Philippi: and he asked his disciples, saying: Whom do men say that the Son of man is? But they said: Some John the Baptist, and other some Elias, and others Jeremias, or one of the prophets. Jesus saith to them: But whom do you say that I am? Simon Peter answered and said: Thou art Christ, the Son of the living God. And Jesus answering, said to him: Blessed art thou, Simon Bar-Jona: because flesh and blood hath not revealed it to thee, but my Father who is in heaven. And I say to thee: That thou art Peter; and upon this rock I will build My Church, and the gates of hell shall not prevail against it. And I will give to thee the keys of the kingdom of heaven. And whatsoever thou shalt bind upon earth, it shall be bound also in heaven: and whatsoever thou shalt loose upon earth, it shall be loosed also in heaven."
+    },
+    {
+      "id": "Offertorium",
+      "label": "Offertory",
+      "body": "*Jer 1:9-10*\nBehold I have given my words in thy mouth: Lo, I have set thee over the nations, and over the kingdoms, to root up, and pull down, and to waste, and to destroy, and to build, and to plant. (Allelúja.)"
+    },
+    {
+      "id": "Secreta",
+      "label": "Secret",
+      "body": "By the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere progress and prosper, and thy shepherds, under thy guidance may be pleasing to thy name.\nThrough our Lord…"
+    },
+    {
+      "id": "Prefatio",
+      "label": "Preface",
+      "body": "*Epiphany*\nIt is truly meet and just, right and availing unto salvation, that we should in all times and in all places give thanks unto Thee, O holy Lord, Father almighty and everlasting God. For when Thine only begotten Son showed Himself in the substance of our mortal nature, He restored us by the new light of His own immortality. And therefore with angels and archangels, with thrones and dominions, and with all the heavenly hosts, we sing a hymn to Thy glory, saying without ceasing:"
+    },
+    {
+      "id": "Communio",
+      "label": "Communion",
+      "body": "*Matt 16:18*\nThou art Peter; and upon this rock I will build My Church, and the gates of hell shall not prevail against it. (Allelúja.)"
+    },
+    {
+      "id": "Postcommunio",
+      "label": "Postcommunion",
+      "body": "Being appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and powerful rule it may receive increase of liberty and may continue in religious integrity.\nThrough our Lord…"
     }
   ],
   "sancti:01-13:2:w": [

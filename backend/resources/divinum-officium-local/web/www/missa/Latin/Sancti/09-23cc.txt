@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/09-23cc
 
+[Introitus]
+@Commune/C6
+
 [Oratio]
 @Sancti/09-23cc:Oratio
+
+[Lectio]
+@Commune/C6
+
+[Graduale]
+@Commune/C6
+
+[Evangelium]
+@Commune/C6
+
+[Offertorium]
+@Commune/C6
 
 [Secreta]
 @Commune/C6:Secreta:s/N\./Theclæ/
 
+[Communio]
+@Commune/C6
+
 [Postcommunio]
 @Commune/C6:Postcommunio:s/N\./Theclæ/
-
