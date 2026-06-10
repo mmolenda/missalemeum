@@ -12291,56 +12291,69 @@
   "2024-08-28": [
     [
       {
-        "body": "*Sir 15:5*\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and under",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Sir 15:5*\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and understanding; He clothed him with a robe of glory. (Allelúja, allelúja.)\n*Ps 91:2*\nIt is good to give thanks to the Lord, to sing praise to Your name, Most High.\nGlory Be to the Father…\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and understanding; He clothed him with a robe of glory. (Allelúja, allelúja.)"
       },
       {
-        "body": "Give heed to our humble prayers, almighty God, and through the intercession of blessed Augustine, Your Confessor and Bis",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Give heed to our humble prayers, almighty God, and through the intercession of blessed Augustine, Your Confessor and Bishop, kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your forgiveness.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nO God, Who strengthened blessed Hermes, Your Martyr, with the virtue of steadfastness in his ",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Hermes*\nO God, Who strengthened blessed Hermes, Your Martyr, with the virtue of steadfastness in his suffering, grant that, emulating him, and out of love for You, we may look upon worldly success as nought and fear no earthly danger.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the second letter of St Paul the Apostle to Timothy\n*2 Tim 4:1-8*\nDearly beloved: I charge thee, before God ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the second letter of St Paul the Apostle to Timothy\n*2 Tim 4:1-8*\nDearly beloved: I charge thee, before God and Jesus Christ, who shall judge the living and the dead, by his coming, and his kingdom: Preach the word: be instant in season, out of season: reprove, entreat, rebuke in all patience and doctrine. For there shall be a time, when they will not endure sound doctrine; but, according to their own desires, they will heap to themselves teachers, having itching ears: And will indeed turn away their hearing from the truth, but will be turned unto fables. But be thou vigilant, labour in all things, do the work of an evangelist, fulfil thy ministry. Be sober. For I am even now ready to be sacrificed: and the time of my dissolution is at hand. I have fought a good fight, I have finished my course, I have kept the faith. As to the rest, there is laid up for me a crown of justice, which the Lord the just judge will render to me in that day: and not only to me, but to them also that love his coming."
       },
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just shall meditate wisdom and his tongue shall speak judgment.\n℣. The law of his God is ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in his heart, and his steps do not falter. Alleluia, alleluia.\n*Ps 88:21*\n℣. I have found David, My servant; with My holy oil I have anointed him. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 5:13-19*\nIn that time Jesus said to His disciples: You are ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 5:13-19*\nIn that time Jesus said to His disciples: You are the salt of the earth. But if the salt lose its savour, wherewith shall it be salted? It is good for nothing any more but to be cast out, and to be trodden on by men. You are the light of the world. A city seated on a mountain cannot be hid. Neither do men light a candle and put it under a bushel, but upon a candlestick, that it may shine to all that are in the house. So let your light shine before men, that they may see your good works, and glorify your Father who is in heaven. Do not think that I am come to destroy the law, or the prophets. I am not come to destroy, but to fulfill. For amen I say unto you, till heaven and earth pass, one jot, or one tittle shall not pass of the law, till all be fulfilled. He therefore that shall break one of these least commandments, and shall so teach men, shall be called the least in the kingdom of heaven. But he that shall do and teach, he shall be called great in the kingdom of heaven."
       },
       {
-        "body": "*Ps 91:13*\nThe just shall flourish like the palm tree: he shall grow up like the cedar of Libanus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 91:13*\nThe just shall flourish like the palm tree: he shall grow up like the cedar of Libanus. (Allelúja.)"
       },
       {
-        "body": "May the pious prayer of holy Augustine thy Bishop and illustrious Doctor be not wanting to us, O Lord, but make our offe",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "May the pious prayer of holy Augustine thy Bishop and illustrious Doctor be not wanting to us, O Lord, but make our offerings acceptable to thee and ever win for us thy mercy.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nWe offer You, O Lord, the sacrifice of praise in memory of Your Saints; grant, we beseech You",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Hermes*\nWe offer You, O Lord, the sacrifice of praise in memory of Your Saints; grant, we beseech You, that what has bestowed glory on them may profit us unto salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Luke 12:42*\nThe faithful and prudent servant whom the master will set over his household to give them their ration of g",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Luke 12:42*\nThe faithful and prudent servant whom the master will set over his household to give them their ration of grain in due time. (Allelúja.)"
       },
       {
-        "body": "May blessed Augustine thy Bishop and illustrious Doctor intercede for us, O Lord, that this thy sacrifice may obtain for",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "May blessed Augustine thy Bishop and illustrious Doctor intercede for us, O Lord, that this thy sacrifice may obtain for us salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nFilled with heavenly blessings, O Lord, we beseech Your mercy that, by the intercession of bl",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Hermes*\nFilled with heavenly blessings, O Lord, we beseech Your mercy that, by the intercession of blessed Hermes, Your Martyr, we may experience the saving effects of the rite we humbly perform.\nThrough our Lord…"
       }
     ]
   ],
@@ -31142,56 +31155,69 @@
   "2025-08-28": [
     [
       {
-        "body": "*Sir 15:5*\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and under",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Sir 15:5*\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and understanding; He clothed him with a robe of glory. (Allelúja, allelúja.)\n*Ps 91:2*\nIt is good to give thanks to the Lord, to sing praise to Your name, Most High.\nGlory Be to the Father…\nIn the midst of the assembly he opened his mouth; and the Lord filled him with the spirit of wisdom and understanding; He clothed him with a robe of glory. (Allelúja, allelúja.)"
       },
       {
-        "body": "Give heed to our humble prayers, almighty God, and through the intercession of blessed Augustine, Your Confessor and Bis",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Give heed to our humble prayers, almighty God, and through the intercession of blessed Augustine, Your Confessor and Bishop, kindly grant Your oft-given mercy to those upon whom You bestow great hope in Your forgiveness.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nO God, Who strengthened blessed Hermes, Your Martyr, with the virtue of steadfastness in his ",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Hermes*\nO God, Who strengthened blessed Hermes, Your Martyr, with the virtue of steadfastness in his suffering, grant that, emulating him, and out of love for You, we may look upon worldly success as nought and fear no earthly danger.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the second letter of St Paul the Apostle to Timothy\n*2 Tim 4:1-8*\nDearly beloved: I charge thee, before God ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the second letter of St Paul the Apostle to Timothy\n*2 Tim 4:1-8*\nDearly beloved: I charge thee, before God and Jesus Christ, who shall judge the living and the dead, by his coming, and his kingdom: Preach the word: be instant in season, out of season: reprove, entreat, rebuke in all patience and doctrine. For there shall be a time, when they will not endure sound doctrine; but, according to their own desires, they will heap to themselves teachers, having itching ears: And will indeed turn away their hearing from the truth, but will be turned unto fables. But be thou vigilant, labour in all things, do the work of an evangelist, fulfil thy ministry. Be sober. For I am even now ready to be sacrificed: and the time of my dissolution is at hand. I have fought a good fight, I have finished my course, I have kept the faith. As to the rest, there is laid up for me a crown of justice, which the Lord the just judge will render to me in that day: and not only to me, but to them also that love his coming."
       },
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just shall meditate wisdom and his tongue shall speak judgment.\n℣. The law of his God is ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right.\n℣. The law of his God is in his heart, and his steps do not falter. Alleluia, alleluia.\n*Ps 88:21*\n℣. I have found David, My servant; with My holy oil I have anointed him. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 5:13-19*\nIn that time Jesus said to His disciples: You are ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 5:13-19*\nIn that time Jesus said to His disciples: You are the salt of the earth. But if the salt lose its savour, wherewith shall it be salted? It is good for nothing any more but to be cast out, and to be trodden on by men. You are the light of the world. A city seated on a mountain cannot be hid. Neither do men light a candle and put it under a bushel, but upon a candlestick, that it may shine to all that are in the house. So let your light shine before men, that they may see your good works, and glorify your Father who is in heaven. Do not think that I am come to destroy the law, or the prophets. I am not come to destroy, but to fulfill. For amen I say unto you, till heaven and earth pass, one jot, or one tittle shall not pass of the law, till all be fulfilled. He therefore that shall break one of these least commandments, and shall so teach men, shall be called the least in the kingdom of heaven. But he that shall do and teach, he shall be called great in the kingdom of heaven."
       },
       {
-        "body": "*Ps 91:13*\nThe just shall flourish like the palm tree: he shall grow up like the cedar of Libanus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 91:13*\nThe just shall flourish like the palm tree: he shall grow up like the cedar of Libanus. (Allelúja.)"
       },
       {
-        "body": "May the pious prayer of holy Augustine thy Bishop and illustrious Doctor be not wanting to us, O Lord, but make our offe",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "May the pious prayer of holy Augustine thy Bishop and illustrious Doctor be not wanting to us, O Lord, but make our offerings acceptable to thee and ever win for us thy mercy.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nWe offer You, O Lord, the sacrifice of praise in memory of Your Saints; grant, we beseech You",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Hermes*\nWe offer You, O Lord, the sacrifice of praise in memory of Your Saints; grant, we beseech You, that what has bestowed glory on them may profit us unto salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Luke 12:42*\nThe faithful and prudent servant whom the master will set over his household to give them their ration of g",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Luke 12:42*\nThe faithful and prudent servant whom the master will set over his household to give them their ration of grain in due time. (Allelúja.)"
       },
       {
-        "body": "May blessed Augustine thy Bishop and illustrious Doctor intercede for us, O Lord, that this thy sacrifice may obtain for",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "May blessed Augustine thy Bishop and illustrious Doctor intercede for us, O Lord, that this thy sacrifice may obtain for us salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Hermes*\nFilled with heavenly blessings, O Lord, we beseech Your mercy that, by the intercession of bl",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Hermes*\nFilled with heavenly blessings, O Lord, we beseech Your mercy that, by the intercession of blessed Hermes, Your Martyr, we may experience the saving effects of the rite we humbly perform.\nThrough our Lord…"
       }
     ]
   ],
