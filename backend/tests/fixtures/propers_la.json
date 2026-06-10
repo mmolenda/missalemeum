@@ -14787,44 +14787,54 @@
   "2024-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n*Ps 44:2*\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\nGlória Patri…\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)"
       },
       {
-        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctr",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctrínæ pábulo nutriámur, et piæ devotiónis erudiámur afféctu.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo."
       },
       {
-        "body": "*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\n℣. Propter veritátem et mansuetúdinem et j",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\n℣. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam han",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile erit regnum coelórum decem virgínibus: quæ, accipiéntes lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex eis erant fátuæ, et quinque prudéntes: sed quinque fátuæ, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce, sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines íllæ, et ornavérunt lámpades suas. Fátuæ autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostræ exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quæ parátæ erant, intravérunt cum eo ad núptias, et clausa est jánua. Novíssime vero véniunt et réliquæ vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem neque horam."
       },
       {
-        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)"
       },
       {
-        "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepís",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctrínæ pábulo nutriámur, et piæ devotiónis erudiámur afféctu.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)"
       },
       {
-        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celeb",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\nPer Dominum…"
       }
     ]
   ],
@@ -33752,44 +33762,54 @@
   "2025-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n*Ps 44:2*\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\nGlória Patri…\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)"
       },
       {
-        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctr",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctrínæ pábulo nutriámur, et piæ devotiónis erudiámur afféctu.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo."
       },
       {
-        "body": "*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\n℣. Propter veritátem et mansuetúdinem et j",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna.\n℣. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua.\nAllelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam han",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile erit regnum coelórum decem virgínibus: quæ, accipiéntes lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex eis erant fátuæ, et quinque prudéntes: sed quinque fátuæ, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce, sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines íllæ, et ornavérunt lámpades suas. Fátuæ autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostræ exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quæ parátæ erant, intravérunt cum eo ad núptias, et clausa est jánua. Novíssime vero véniunt et réliquæ vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem neque horam."
       },
       {
-        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)"
       },
       {
-        "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepís",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Exáudi nos, Deus, salutáris noster: ut sicut de beátæ Terésiæ Vírginis tuæ festivitáte gaudémus; ita cæléstis ejus doctrínæ pábulo nutriámur, et piæ devotiónis erudiámur afféctu.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)"
       },
       {
-        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celeb",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\nPer Dominum…"
       }
     ]
   ],

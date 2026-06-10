@@ -14680,44 +14680,54 @@
   "2024-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladne",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. (Alleluja, alleluja.)\n*Ps 44:2*\nMy heart hath uttered a good word I speak my works to the king.\nGlory Be to the Father…\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. (Alleluja, alleluja.)"
       },
       {
-        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the fo",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the food of her heavenly teaching and be instructed in the affection of pious devotion.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the second letter of St. Paul the Apostle to the Corinthians\n*2 Cor 10:17-18; 11:1-2*\nBrothers: He that glor",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the second letter of St. Paul the Apostle to the Corinthians\n*2 Cor 10:17-18; 11:1-2*\nBrothers: He that glorieth, let him glory in the Lord. For not he who commendeth himself, is approved, but he, whom God commendeth. Would to God you could bear with some little of my folly: but do bear with me. For I am jealous of you with the jealousy of God. For I have espoused you to one husband that I may present you as a chaste virgin to Christ."
       },
       {
-        "body": "*Ps 44:5*\nWith thy comeliness and thy beauty set out, proceed prosperously, and reign.\n℣. Because of truth and meekness ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 44:5*\nWith thy comeliness and thy beauty set out, proceed prosperously, and reign.\n℣. Because of truth and meekness and justice: and thy right hand shall conduct thee wonderfully. Alleluja, alleluja.\n*Ps 44:15-16*\nAfter her shall virgins be brought to the king: They shall be brought with gladness and rejoicing. Alleluja."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 25:1-13.*\nAt that time Jesus spoke this parable to His disc",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 25:1-13.*\nAt that time Jesus spoke this parable to His disciples: “Then will the kingdom of heaven be like ten virgins who took their lamps and went forth to meet the bridegroom and the bride. Five of them were foolish and five wise. But the five foolish, when they took their lamps, took no oil with them, while the wise did take oil in their vessels with the lamps. Then as the bridegroom was long in coming, they all became drowsy and slept. And at midnight a cry arose, 'Behold, the bridegroom is coming, go forth to meet him!' Then all those virgins arose and trimmed their lamps. And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' The wise answered, saying, 'Lest there may not be enough for us and for you, go rather to those who sell it, and buy some for yourselves.' Now while they were gone to buy it, the bridegroom came; and those who were ready went in with him to the marriage feast, and the door was shut. Finally there came also the other virgins, who said, 'Sir, sir, open the door for us!' But he answered and said, 'Amen I say to you, I do not know you.' Watch therefore, for you know neither the day nor the hour.”"
       },
       {
-        "body": "*Ps 44:10*\nThe daughters of kings have delighted thee in thy glory. The queen stood on thy right hand, in gilded clothin",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 44:10*\nThe daughters of kings have delighted thee in thy glory. The queen stood on thy right hand, in gilded clothing; surrounded with variety. (Allelúja.)"
       },
       {
-        "body": "May the service of thy holy people be acceptable to Thee, O Lord, and honorable to thy saints, through whose merits we k",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the food of her heavenly teaching and be instructed in the affection of pious devotion.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 25:4; 25:6*\nThe five wise virgins took oil in their vessels with the lamps. And at midnight there was a cry made: ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 25:4; 25:6*\nThe five wise virgins took oil in their vessels with the lamps. And at midnight there was a cry made: Behold the bridegroom cometh, go ye forth to meet Christ the Lord. (Alleluja.)"
       },
       {
-        "body": "Thou hast fed thy servants, O Lord, with the holy gifts; comfort us ever we pray, by her intercession whose festival we ",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Thou hast fed thy servants, O Lord, with the holy gifts; comfort us ever we pray, by her intercession whose festival we celebrate.\nThrough our Lord…"
       }
     ]
   ],
@@ -33604,44 +33614,54 @@
   "2025-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladne",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. (Alleluja, alleluja.)\n*Ps 44:2*\nMy heart hath uttered a good word I speak my works to the king.\nGlory Be to the Father…\nThou hast loved justice, and hated iniquity: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. (Alleluja, alleluja.)"
       },
       {
-        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the fo",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the food of her heavenly teaching and be instructed in the affection of pious devotion.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the second letter of St. Paul the Apostle to the Corinthians\n*2 Cor 10:17-18; 11:1-2*\nBrothers: He that glor",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the second letter of St. Paul the Apostle to the Corinthians\n*2 Cor 10:17-18; 11:1-2*\nBrothers: He that glorieth, let him glory in the Lord. For not he who commendeth himself, is approved, but he, whom God commendeth. Would to God you could bear with some little of my folly: but do bear with me. For I am jealous of you with the jealousy of God. For I have espoused you to one husband that I may present you as a chaste virgin to Christ."
       },
       {
-        "body": "*Ps 44:5*\nWith thy comeliness and thy beauty set out, proceed prosperously, and reign.\n℣. Because of truth and meekness ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 44:5*\nWith thy comeliness and thy beauty set out, proceed prosperously, and reign.\n℣. Because of truth and meekness and justice: and thy right hand shall conduct thee wonderfully. Alleluja, alleluja.\n*Ps 44:15-16*\nAfter her shall virgins be brought to the king: They shall be brought with gladness and rejoicing. Alleluja."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 25:1-13.*\nAt that time Jesus spoke this parable to His disc",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 25:1-13.*\nAt that time Jesus spoke this parable to His disciples: “Then will the kingdom of heaven be like ten virgins who took their lamps and went forth to meet the bridegroom and the bride. Five of them were foolish and five wise. But the five foolish, when they took their lamps, took no oil with them, while the wise did take oil in their vessels with the lamps. Then as the bridegroom was long in coming, they all became drowsy and slept. And at midnight a cry arose, 'Behold, the bridegroom is coming, go forth to meet him!' Then all those virgins arose and trimmed their lamps. And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' The wise answered, saying, 'Lest there may not be enough for us and for you, go rather to those who sell it, and buy some for yourselves.' Now while they were gone to buy it, the bridegroom came; and those who were ready went in with him to the marriage feast, and the door was shut. Finally there came also the other virgins, who said, 'Sir, sir, open the door for us!' But he answered and said, 'Amen I say to you, I do not know you.' Watch therefore, for you know neither the day nor the hour.”"
       },
       {
-        "body": "*Ps 44:10*\nThe daughters of kings have delighted thee in thy glory. The queen stood on thy right hand, in gilded clothin",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 44:10*\nThe daughters of kings have delighted thee in thy glory. The queen stood on thy right hand, in gilded clothing; surrounded with variety. (Allelúja.)"
       },
       {
-        "body": "May the service of thy holy people be acceptable to Thee, O Lord, and honorable to thy saints, through whose merits we k",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Hear us, O God, our Savior, that as we rejoice in the feast of Blessed Teresa, Your Virgin, so we may be fed with the food of her heavenly teaching and be instructed in the affection of pious devotion.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 25:4; 25:6*\nThe five wise virgins took oil in their vessels with the lamps. And at midnight there was a cry made: ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 25:4; 25:6*\nThe five wise virgins took oil in their vessels with the lamps. And at midnight there was a cry made: Behold the bridegroom cometh, go ye forth to meet Christ the Lord. (Alleluja.)"
       },
       {
-        "body": "Thou hast fed thy servants, O Lord, with the holy gifts; comfort us ever we pray, by her intercession whose festival we ",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Thou hast fed thy servants, O Lord, with the holy gifts; comfort us ever we pray, by her intercession whose festival we celebrate.\nThrough our Lord…"
       }
     ]
   ],

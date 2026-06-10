@@ -20,11 +20,10 @@
 @Commune/C6a
 
 [Secreta]
-@Commune/C6a::s/N\./Terésiæ/
+@Sancti/10-15:Oratio
 
 [Communio]
 @Commune/C6a
 
 [Postcommunio]
 @Commune/C6a::s/N\./Terésiæ/
-

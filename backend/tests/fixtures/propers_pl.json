@@ -14787,44 +14787,54 @@
   "2024-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)\n*Ps 44:2*\nZ mego serca płynie piękne słowo, pieśń moją śpiewam dla Króla.\nChwała Ojcu…\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)"
       },
       {
-        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli uczucia synowskiego oddania.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi w Panu. Nie ten bowiem, kto zaleca samego siebie, wart jest uznania, ale ten, którego Bóg zaleca. Obyście znieść mogli nieco szaleństwa z mej strony. Zechciejcie znieść i mnie. Ubiegam się bowiem o was z gorliwością, która z Boga jest, bo poślubiłem was jednemu mężowi, aby was okazać czystą dziewicą Chrystusowi."
       },
       {
-        "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów dokona twoja prawica. Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść: «Podobne będzie Królestwo Niebieskie dziesięciu pannom, które wziąwszy lampy wyszły na spotkanie oblubieńca i oblubienicy. Pięć z nich było głupich, a pięć mądrych. Ale pięć głupich, wziąwszy lampy, nie zabrały ze sobą oliwy, mądre natomiast wzięły oliwy w naczynia swoje wraz z lampami. A gdy się oblubieniec opóźniał, zdrzemnęły się wszystkie i posnęły.\nWszakże o północy rozległo się wołanie: Oto oblubieniec nadchodzi, wynijdźcie mu na spotkanie. Wtedy powstały wszystkie owe panny i opatrzyły lampy swoje. Głupie zaś rzekły do mądrych: Dajcie nam waszej oliwy, bo gasną lampy nasze. Odpowiedziały mądre, mówiąc: Aby snadź nie zabrakło nam i wam, idźcie raczej do sprzedających i kupcie sobie. A gdy one poszły kupować, przybył oblubieniec i te, które były gotowe, weszły z nim na gody. A zamknięto drzwi. W końcu przyszły i pozostałe panny, mówiąc: Panie, panie, otwórz nam! A on, odpowiadając, rzekł: Zaprawdę mówię wam, że was nie znam.\nCzuwajcież tedy, bo nie wiecie dnia ani godziny»."
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Alleluia.)"
       },
       {
-        "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał p",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli uczucia synowskiego oddania.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblubieniec nadchodzi; wyjdźcie na spotkanie Chrystusa Pana. (Alleluja.)"
       },
       {
-        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzi",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzimy.\nPrzez Pana…"
       }
     ]
   ],
@@ -33752,44 +33762,54 @@
   "2025-10-15": [
     [
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)\n*Ps 44:2*\nZ mego serca płynie piękne słowo, pieśń moją śpiewam dla Króla.\nChwała Ojcu…\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)"
       },
       {
-        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli uczucia synowskiego oddania.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi w Panu. Nie ten bowiem, kto zaleca samego siebie, wart jest uznania, ale ten, którego Bóg zaleca. Obyście znieść mogli nieco szaleństwa z mej strony. Zechciejcie znieść i mnie. Ubiegam się bowiem o was z gorliwością, która z Boga jest, bo poślubiłem was jednemu mężowi, aby was okazać czystą dziewicą Chrystusowi."
       },
       {
-        "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj.\n℣. W obronie wiary i sprawiedliwości niech cudów dokona twoja prawica. Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść: «Podobne będzie Królestwo Niebieskie dziesięciu pannom, które wziąwszy lampy wyszły na spotkanie oblubieńca i oblubienicy. Pięć z nich było głupich, a pięć mądrych. Ale pięć głupich, wziąwszy lampy, nie zabrały ze sobą oliwy, mądre natomiast wzięły oliwy w naczynia swoje wraz z lampami. A gdy się oblubieniec opóźniał, zdrzemnęły się wszystkie i posnęły.\nWszakże o północy rozległo się wołanie: Oto oblubieniec nadchodzi, wynijdźcie mu na spotkanie. Wtedy powstały wszystkie owe panny i opatrzyły lampy swoje. Głupie zaś rzekły do mądrych: Dajcie nam waszej oliwy, bo gasną lampy nasze. Odpowiedziały mądre, mówiąc: Aby snadź nie zabrakło nam i wam, idźcie raczej do sprzedających i kupcie sobie. A gdy one poszły kupować, przybył oblubieniec i te, które były gotowe, weszły z nim na gody. A zamknięto drzwi. W końcu przyszły i pozostałe panny, mówiąc: Panie, panie, otwórz nam! A on, odpowiadając, rzekł: Zaprawdę mówię wam, że was nie znam.\nCzuwajcież tedy, bo nie wiecie dnia ani godziny»."
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Alleluia.)"
       },
       {
-        "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał p",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wysłuchaj nas, Boże, nasz Zbawicielu, i spraw, abyśmy radując się z uroczystości świętej Twojej Dziewicy Teresy, nabyli uczucia synowskiego oddania.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblubieniec nadchodzi; wyjdźcie na spotkanie Chrystusa Pana. (Alleluja.)"
       },
       {
-        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzi",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzimy.\nPrzez Pana…"
       }
     ]
   ],
