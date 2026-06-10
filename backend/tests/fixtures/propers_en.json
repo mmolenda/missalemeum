@@ -23938,6 +23938,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoration St. Vincent Ferrer*\nO God, Who graciously enlightened Your Church by the virtues and preaching of blessed",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Lesson from the Prophecy of Isaias\n*Isa 49:8-15*\nThus says the Lord: In a time of favor I answer you, on the day of salv",
         "id": "Lectio"
       },
@@ -23958,6 +23962,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoration St. Vincent Ferrer*\nWe offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Lent*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give than",
         "id": "Prefatio"
       },
@@ -23970,8 +23978,66 @@
         "id": "Postcommunio"
       },
       {
+        "body": "*Commemoration St. Vincent Ferrer*\nRefreshed with heavenly food and drink, we humbly pray You, our God, that we also may",
+        "id": "Commemoratio Postcommunio"
+      },
+      {
         "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nO God, Who would rather show mercy than anger toward those ",
         "id": "Super populum"
+      }
+    ],
+    [
+      {
+        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in h",
+        "id": "Introitus"
+      },
+      {
+        "body": "O God, Who graciously enlightened Your Church by the virtues and preaching of blessed Vincent, Your Confessor, grant tha",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Commemoration Saturday after the IV Sunday of Lent*\nMake fruitful, we beseech You, O Lord, the zeal of our fervent devo",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Lesson from the book of Ecclesiasticus\n*Sir 31:8-11*\nHappy the man found without fault, who turns not aside after gain, ",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 91:13; 91:14*\nThe just man shall flourish like the palm tree, like a cedar of Lebanon shall he grow in the house of ",
+        "id": "Tractus"
+      },
+      {
+        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 12:35-40*\nAt that time, Jesus said to His disciples, Let your ",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 88:25*\nMy faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)",
+        "id": "Offertorium"
+      },
+      {
+        "body": "We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by them we may be delivered from both",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Commemoration Saturday after the IV Sunday of Lent*\nGraciously accept our offerings, O Lord, we beseech You, and mercif",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Lent*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give than",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Matt 24:46-47*\nBlessed is that servant whom his master, when he comes, shall find watching. Amen I say to you, he will ",
+        "id": "Communio"
+      },
+      {
+        "body": "Refreshed with heavenly food and drink, we humbly pray You, our God, that we also may be helped by his prayers in memory",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoration Saturday after the IV Sunday of Lent*\nMay Your holy sacrament cleanse us, we beseech You, O Lord, and may",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

@@ -24136,6 +24136,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Wincentego Fereriusza, Wyznawcy*\nBoże, Tyś raczył wsławić Twój Kościół zasługami i kazaniami świętego W",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Księgi Proroka Izajasza.\n*Iz 49:8-15*\n*Izajasz zapowiada Izraelitom wybawienie z niewoli i powrót do Ziem Obi",
         "id": "Lectio"
       },
@@ -24156,6 +24160,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Wincentego Fereriusza, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy,",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
         "id": "Prefatio"
       },
@@ -24168,8 +24176,66 @@
         "id": "Postcommunio"
       },
       {
+        "body": "*Wspomnienie Św. Wincentego Fereriusza, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże ",
+        "id": "Commemoratio Postcommunio"
+      },
+      {
         "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nBoże, Ty okazujesz ufającym Tobie raczej miłosierdzie niż gniew; daj na",
         "id": "Super populum"
+      }
+    ],
+    [
+      {
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
+        "id": "Introitus"
+      },
+      {
+        "body": "Boże, Tyś raczył wsławić Twój Kościół zasługami i kazaniami świętego Wincentego, Twojego Wyznawcy; daj nam sługom Swoim,",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Wspomnienie Sobota po 4 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, niech nasze gorliwe oddanie przynosi owoce dzięk",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 91:13; 91:14*\n℣. Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\n℣. By",
+        "id": "Tractus"
+      },
+      {
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Sobota po 4 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, przyjmij nasze ofiary i przebłagany przez nie zw",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
+        "id": "Communio"
+      },
+      {
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Sobota po 4 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, niech nas oczyści Twój Sakrament i mocą swego dz",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

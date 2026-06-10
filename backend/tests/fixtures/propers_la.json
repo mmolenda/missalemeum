@@ -24136,6 +24136,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoratio S. Vincentii Ferrerii Confessoris*\nDeus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis et præ",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Léctio Isaíæ Prophétæ.\n*Isa 49:8-15*\nHæc dicit Dóminus: In témpore plácito exaudívi te, et in die salútis auxiliátus sum",
         "id": "Lectio"
       },
@@ -24156,6 +24160,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoratio S. Vincentii Ferrerii Confessoris*\nLaudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctór",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
         "id": "Prefatio"
       },
@@ -24168,8 +24176,66 @@
         "id": "Postcommunio"
       },
       {
+        "body": "*Commemoratio S. Vincentii Ferrerii Confessoris*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, i",
+        "id": "Commemoratio Postcommunio"
+      },
+      {
         "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nDeus, qui sperántibus in te miseréri pótius éligis quam irás",
         "id": "Super populum"
+      }
+    ],
+    [
+      {
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja",
+        "id": "Introitus"
+      },
+      {
+        "body": "Deus, qui Ecclésiam tuam beáti Vincéntii Confessóris tui méritis et prædicatióne illustráre dignátus es: concéde nobis f",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Commemoratio Sabbato infra Hebd IV Quadragesimæ*\nFiat, Dómine, quǽsumus, per grátiam tuam fructuósus nostræ devotiónis ",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec speráv",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándu",
+        "id": "Tractus"
+      },
+      {
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vest",
+        "id": "Evangelium"
+      },
+      {
+        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídim",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Commemoratio Sabbato infra Hebd IV Quadragesimæ*\nOblatiónibus nostris, quǽsumus, Dómine, placáre suscéptis: et ad te no",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua c",
+        "id": "Communio"
+      },
+      {
+        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniá",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoratio Sabbato infra Hebd IV Quadragesimæ*\nTua nos, quǽsumus, Dómine, sancta puríficent: et operatióne sua tibi p",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
