@@ -17466,56 +17466,69 @@
   "2024-12-10": [
     [
       {
-        "body": "*Isa 30:30*\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voi",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Isa 30:30*\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voice to be heard, in the joy of your heart.\n*Ps 79:2*\nO Shepherd of Israel, hearken, O Guide of the flock of Joseph!\nGlory Be to the Father…\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voice to be heard, in the joy of your heart."
       },
       {
-        "body": "Stir up our hearts, O Lord, to prepare the ways of Your only-begotten Son, so that through His coming we may be able to ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Stir up our hearts, O Lord, to prepare the ways of Your only-begotten Son, so that through His coming we may be able to serve You with purified minds.\nWho livest…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nMercifully consider our weakness, O Almighty God, and whereas by the burden of our sins w",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Melchiades*\nLook forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed N. thy Sovereign Pontiff, whom thou didst constitute Shepherd of the whole Church.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom 15:4-13*\nBrethren: Whatever things have been written h",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom 15:4-13*\nBrethren: Whatever things have been written have been written for our instruction, that through the patience and the consolation afforded by the Scriptures we may have hope. May then the God of patience and of comfort grant you to be of one mind towards one another according to Jesus Christ; that, one in spirit, you may with one mouth glorify the God and Father of our Lord Jesus Christ. Wherefore receive one another, even as Christ has received you to the honor of God. For I say that Christ Jesus has been a minister of the circumcision in order to show God’s fidelity in confirming the promises made to our fathers, but that the Gentiles glorify God because of His mercy, as it is written, Therefore will I praise You among the Gentiles, and will sing to Your name. And again He says, Rejoice, you Gentiles, with His people. And again, Praise the Lord, all you Gentiles; and sing His praises, all you peoples. And again Isaias says, There shall be the root of Jesse, and He Who shall arise to rule the Gentiles... in Him the Gentiles shall hope. Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope and in the power of the Holy Spirit."
       },
       {
-        "body": "*Ps 49:2-3, 5*\nFrom Sion, perfect in beauty, God shines forth.\n℣. Gather His faithful ones before Him, those who have ma",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 49:2-3, 5*\nFrom Sion, perfect in beauty, God shines forth.\n℣. Gather His faithful ones before Him, those who have made a covenant with Him by sacrifice. \n*Ps 121:1*\nI rejoiced because they said to me: We will go up to the house of the Lord. "
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 11:2-10*\nAt that time, when John had heard in prison of the",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 11:2-10*\nAt that time, when John had heard in prison of the works of Christ, he sent two of his disciples to say to Him, Are You He Who is to come, or shall we look for another? And Jesus answering said to them, Go and report to John what you have heard and seen: the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead rise, the poor have the gospel preached to them. And blessed is he who is not scandalized in Me. Then, as they went away, Jesus began to say to the crowds concerning John, What did you go out to the desert to see? A reed shaken by the wind? But what did you go out to see? A man clothed in soft garments? Behold, those who wear soft garments are in the houses of kings. But what did you go out to see? A prophet? Yes, I tell you, and more than a prophet. This is he of whom it is written, ‘Behold, I send my messenger before Your face, who shall make ready Your way before You.’"
       },
       {
-        "body": "*Ps 84:7-8*\nWill You not, O God, give us life; and shall not Your people rejoice in You? Show us, O Lord, Your kindness,",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 84:7-8*\nWill You not, O God, give us life; and shall not Your people rejoice in You? Show us, O Lord, Your kindness, and grant us Your salvation."
       },
       {
-        "body": "Be appeased, we beseech You, O Lord, by the prayers and offerings of our human frailty, and where the support of our own",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Be appeased, we beseech You, O Lord, by the prayers and offerings of our human frailty, and where the support of our own merits is lacking, come to our assistance with Your protection.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nO Lord, graciously accept, through the merits of Your blessed Martyr and Bishop Melchiade",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Melchiades*\nBy the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere progress and prosper, and thy shepherds, under thy guidance may be pleasing to thy name.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Bar 5:5; 4:36*\nUp, Jerusalem! stand upon the heights; and behold the joy that comes to you from your God.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Bar 5:5; 4:36*\nUp, Jerusalem! stand upon the heights; and behold the joy that comes to you from your God."
       },
       {
-        "body": "We who have been refreshed by the food of spiritual nourishment, humbly beseech You, O Lord, that through partaking of t",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "We who have been refreshed by the food of spiritual nourishment, humbly beseech You, O Lord, that through partaking of this sacrament You will teach us to disdain the things of earth and love those of heaven.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nRefreshed by partaking of the sacred gift, we beseech You, O Lord our God, that we may en",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Melchiades*\nBeing appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and powerful rule it may receive increase of liberty and may continue in religious integrity.\nThrough our Lord…"
       }
     ]
   ],
@@ -36376,56 +36389,69 @@
   "2025-12-10": [
     [
       {
-        "body": "*Isa 30:30*\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voi",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Isa 30:30*\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voice to be heard, in the joy of your heart.\n*Ps 79:2*\nO Shepherd of Israel, hearken, O Guide of the flock of Joseph!\nGlory Be to the Father…\nPeople of Sion, behold the Lord shall come to save the nations; and the Lord shall make the glory of His voice to be heard, in the joy of your heart."
       },
       {
-        "body": "Stir up our hearts, O Lord, to prepare the ways of Your only-begotten Son, so that through His coming we may be able to ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Stir up our hearts, O Lord, to prepare the ways of Your only-begotten Son, so that through His coming we may be able to serve You with purified minds.\nWho livest…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nMercifully consider our weakness, O Almighty God, and whereas by the burden of our sins w",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Melchiades*\nLook forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, by the intercession of blessed N. thy Sovereign Pontiff, whom thou didst constitute Shepherd of the whole Church.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom 15:4-13*\nBrethren: Whatever things have been written h",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the letter of St. Paul the Apostle to the Romans\n*Rom 15:4-13*\nBrethren: Whatever things have been written have been written for our instruction, that through the patience and the consolation afforded by the Scriptures we may have hope. May then the God of patience and of comfort grant you to be of one mind towards one another according to Jesus Christ; that, one in spirit, you may with one mouth glorify the God and Father of our Lord Jesus Christ. Wherefore receive one another, even as Christ has received you to the honor of God. For I say that Christ Jesus has been a minister of the circumcision in order to show God’s fidelity in confirming the promises made to our fathers, but that the Gentiles glorify God because of His mercy, as it is written, Therefore will I praise You among the Gentiles, and will sing to Your name. And again He says, Rejoice, you Gentiles, with His people. And again, Praise the Lord, all you Gentiles; and sing His praises, all you peoples. And again Isaias says, There shall be the root of Jesse, and He Who shall arise to rule the Gentiles... in Him the Gentiles shall hope. Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope and in the power of the Holy Spirit."
       },
       {
-        "body": "*Ps 49:2-3, 5*\nFrom Sion, perfect in beauty, God shines forth.\n℣. Gather His faithful ones before Him, those who have ma",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 49:2-3, 5*\nFrom Sion, perfect in beauty, God shines forth.\n℣. Gather His faithful ones before Him, those who have made a covenant with Him by sacrifice. \n*Ps 121:1*\nI rejoiced because they said to me: We will go up to the house of the Lord. "
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 11:2-10*\nAt that time, when John had heard in prison of the",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 11:2-10*\nAt that time, when John had heard in prison of the works of Christ, he sent two of his disciples to say to Him, Are You He Who is to come, or shall we look for another? And Jesus answering said to them, Go and report to John what you have heard and seen: the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead rise, the poor have the gospel preached to them. And blessed is he who is not scandalized in Me. Then, as they went away, Jesus began to say to the crowds concerning John, What did you go out to the desert to see? A reed shaken by the wind? But what did you go out to see? A man clothed in soft garments? Behold, those who wear soft garments are in the houses of kings. But what did you go out to see? A prophet? Yes, I tell you, and more than a prophet. This is he of whom it is written, ‘Behold, I send my messenger before Your face, who shall make ready Your way before You.’"
       },
       {
-        "body": "*Ps 84:7-8*\nWill You not, O God, give us life; and shall not Your people rejoice in You? Show us, O Lord, Your kindness,",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 84:7-8*\nWill You not, O God, give us life; and shall not Your people rejoice in You? Show us, O Lord, Your kindness, and grant us Your salvation."
       },
       {
-        "body": "Be appeased, we beseech You, O Lord, by the prayers and offerings of our human frailty, and where the support of our own",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Be appeased, we beseech You, O Lord, by the prayers and offerings of our human frailty, and where the support of our own merits is lacking, come to our assistance with Your protection.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nO Lord, graciously accept, through the merits of Your blessed Martyr and Bishop Melchiade",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Melchiades*\nBy the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so that thy flock may everywhere progress and prosper, and thy shepherds, under thy guidance may be pleasing to thy name.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Bar 5:5; 4:36*\nUp, Jerusalem! stand upon the heights; and behold the joy that comes to you from your God.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Bar 5:5; 4:36*\nUp, Jerusalem! stand upon the heights; and behold the joy that comes to you from your God."
       },
       {
-        "body": "We who have been refreshed by the food of spiritual nourishment, humbly beseech You, O Lord, that through partaking of t",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "We who have been refreshed by the food of spiritual nourishment, humbly beseech You, O Lord, that through partaking of this sacrament You will teach us to disdain the things of earth and love those of heaven.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Melchiades*\nRefreshed by partaking of the sacred gift, we beseech You, O Lord our God, that we may en",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Melchiades*\nBeing appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, that under thy direction and powerful rule it may receive increase of liberty and may continue in religious integrity.\nThrough our Lord…"
       }
     ]
   ],

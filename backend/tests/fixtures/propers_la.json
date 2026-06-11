@@ -17585,56 +17585,69 @@
   "2024-12-10": [
     [
       {
-        "body": "*Is 30:30*\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætíti",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Is 30:30*\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri.\n*Ps 79:2*\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\nGlória Patri…\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri."
       },
       {
-        "body": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:\nQui tecum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nInfirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actióni",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n*Rom 15:4-13.*\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scr",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n*Rom 15:4-13.*\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt: ut per patiéntiam et consolatiónem Scripturárum spem habeámus. Deus autem patiéntiæ et solácii det vobis idípsum sápere in altérutrum secúndum Jesum Christum: ut unánimes, uno ore honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter quod suscípite ínvicem, sicut et Christus suscépit vos in honórem Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis propter veritátem Dei, ad confirmándas promissiónes patrum: gentes autem super misericórdia honoráre Deum, sicut scriptum est: Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget régere gentes, in eum gentes sperábunt. Deus autem spei répleat vos omni gáudio et pace in credéndo: ut abundétis in spe et virtúte Spíritus Sancti."
       },
       {
-        "body": "*Ps 49:2-3; 49:5*\nEx Sion species decóris ejus: Deus maniféste véniet,\n℣. Congregáte illi sanctos ejus, qui ordinavérunt",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 49:2-3; 49:5*\nEx Sion species decóris ejus: Deus maniféste véniet,\n℣. Congregáte illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia. \n*Ps 121:1*\n℣. Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. "
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 11:2-10*\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Ch",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 11:2-10*\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es, an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt, páuperes evangelizántur: et beátus est, qui non fúerit scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento agitátam? Sed quid exístis vidére? hóminem móllibus vestitum? Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Etiam dico vobis, et plus quam Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te."
       },
       {
-        "body": "*Ps 84:7-8*\nDeus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam,",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 84:7-8*\nDeus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis."
       },
       {
-        "body": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nob",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre præsídiis.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nHóstias tibi, Dómine, beáti Melchíadis Mártyris tui atque Pontíficis dicátas m",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Bar 5:5; 4:36*\nJerúsalem, surge et sta in excélso, et vide jucunditátem, quæ véniet tibi a Deo tuo.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Bar 5:5; 4:36*\nJerúsalem, surge et sta in excélso, et vide jucunditátem, quæ véniet tibi a Deo tuo."
       },
       {
-        "body": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terré",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna despícere et amáre cœléstia.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nRefécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       }
     ]
   ],
@@ -36548,56 +36561,69 @@
   "2025-12-10": [
     [
       {
-        "body": "*Is 30:30*\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætíti",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Is 30:30*\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri.\n*Ps 79:2*\nQui regis Israël, inténde: qui dedúcis, velut ovem, Joseph.\nGlória Patri…\nPópulus Sion, ecce, Dóminus véniet ad salvándas gentes: et audítam fáciet Dóminus glóriam vocis suæ in lætítia cordis vestri."
       },
       {
-        "body": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Excita, Dómine, corda nostra ad præparándas Unigéniti tui vias: ut, per ejus advéntum, purificátis tibi méntibus servíre mereámur:\nQui tecum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nInfirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actióni",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n*Rom 15:4-13.*\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scr",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Lectio Epístolæ beáti Pauli Apostoli ad Romános\n*Rom 15:4-13.*\nFratres: Quæcúmque scripta sunt, ad nostram doctrínam scripta sunt: ut per patiéntiam et consolatiónem Scripturárum spem habeámus. Deus autem patiéntiæ et solácii det vobis idípsum sápere in altérutrum secúndum Jesum Christum: ut unánimes, uno ore honorificétis Deum et Patrem Dómini nostri Jesu Christi. Propter quod suscípite ínvicem, sicut et Christus suscépit vos in honórem Dei. Dico enim Christum Jesum minístrum fuísse circumcisiónis propter veritátem Dei, ad confirmándas promissiónes patrum: gentes autem super misericórdia honoráre Deum, sicut scriptum est: Proptérea confitébor tibi in géntibus, Dómine, et nómini tuo cantábo. Et íterum dicit: Lætámini, gentes, cum plebe ejus. Et iterum: Laudáte, omnes gentes, Dóminum: et magnificáte eum, omnes pópuli. Et rursus Isaías ait: Erit radix Jesse, et qui exsúrget régere gentes, in eum gentes sperábunt. Deus autem spei répleat vos omni gáudio et pace in credéndo: ut abundétis in spe et virtúte Spíritus Sancti."
       },
       {
-        "body": "*Ps 49:2-3; 49:5*\nEx Sion species decóris ejus: Deus maniféste véniet,\n℣. Congregáte illi sanctos ejus, qui ordinavérunt",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 49:2-3; 49:5*\nEx Sion species decóris ejus: Deus maniféste véniet,\n℣. Congregáte illi sanctos ejus, qui ordinavérunt testaméntum ejus super sacrifícia. \n*Ps 121:1*\n℣. Lætátus sum in his, quæ dicta sunt mihi: in domum Dómini íbimus. "
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 11:2-10*\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Ch",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 11:2-10*\nIn illo tempore: Cum audísset Joánnes in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es, qui ventúrus es, an alium exspectámus? Et respóndens Jesus, ait illis: Eúntes renuntiáte Joánni, quæ audístis et vidístis. Cæci vident, claudi ámbulant, leprósi mundántur, surdi áudiunt, mórtui resúrgunt, páuperes evangelizántur: et beátus est, qui non fúerit scandalizátus in me. Illis autem abeúntibus, cœpit Jesus dícere ad turbas de Joánne: Quid exístis in desértum vidére? arúndinem vento agitátam? Sed quid exístis vidére? hóminem móllibus vestitum? Ecce, qui móllibus vestiúntur, in dómibus regum sunt. Sed quid exístis vidére? Prophétam? Etiam dico vobis, et plus quam Prophétam. Hic est enim, de quo scriptum est: Ecce, ego mitto Angelum meum ante fáciem tuam, qui præparábit viam tuam ante te."
       },
       {
-        "body": "*Ps 84:7-8*\nDeus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam,",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 84:7-8*\nDeus, tu convérsus vivificábis nos, et plebs tua lætábitur in te: osténde nobis, Dómine, misericórdiam tuam, et salutáre tuum da nobis."
       },
       {
-        "body": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nob",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Placáre, quǽsumus, Dómine, humilitátis nostræ précibus et hóstiis: et, ubi nulla suppétunt suffrágia meritórum, tuis nobis succúrre præsídiis.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nHóstias tibi, Dómine, beáti Melchíadis Mártyris tui atque Pontíficis dicátas m",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Bar 5:5; 4:36*\nJerúsalem, surge et sta in excélso, et vide jucunditátem, quæ véniet tibi a Deo tuo.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Bar 5:5; 4:36*\nJerúsalem, surge et sta in excélso, et vide jucunditátem, quæ véniet tibi a Deo tuo."
       },
       {
-        "body": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terré",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Repléti cibo spirituális alimóniæ, súpplices te, Dómine, deprecámur: ut, hujus participatióne mystérii, dóceas nos terréna despícere et amáre cœléstia.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nRefécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Melchiadis Papæ et Mart*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       }
     ]
   ],
