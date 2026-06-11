@@ -11,9 +11,12 @@
 @Commune/C4a
 
 [Graduale]
-@Commune/C5a
+@Commune/C4a
 
 [GradualeP]
+@Commune/C4a
+
+[Tractus]
 @Commune/C4a
 
 [Evangelium]
@@ -23,11 +26,10 @@
 @Commune/C4a
 
 [Secreta]
-@Commune/C5a::s/N\./Petri/
+@Commune/C4a
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C5a::s/N\./Petrus/
-
+@Commune/C4a

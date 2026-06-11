@@ -3167,168 +3167,208 @@
   "2024-03-04": [
     [
       {
-        "body": "*Ps 55:5*\nBogu, którego słowem się chlubię, Panu, którego obietnicą się chlubię, Bogu ufam, nie będę się bał, cóż mi ucz",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 55:5*\nBogu, którego słowem się chlubię, Panu, którego obietnicą się chlubię, Bogu ufam, nie będę się bał, cóż mi uczyni człowiek.\n*Ps 55:2*\nZmiłuj się nade mną, Boże, bo depcze mnie człowiek, uciska mnie w nieustannej walce.\nChwała Ojcu…\nBogu, którego słowem się chlubię, Panu, którego obietnicą się chlubię, Bogu ufam, nie będę się bał, cóż mi uczyni człowiek."
       },
       {
-        "body": "Prosimy Cię, Panie, wiej miłościwie łaskę Twoją w nasze serca, abyśmy wstrzymując się od pokarmów mięsnych, powściągali ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Prosimy Cię, Panie, wiej miłościwie łaskę Twoją w nasze serca, abyśmy wstrzymując się od pokarmów mięsnych, powściągali nasze zmysły od szkodliwych nadużyć.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nBoże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu kró",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nBoże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię, aby za jego wstawiennictwem wierni Twoi pogardzali ziemskimi dobrami, a zawsze zdążali do niebieskich.\nPrzez Pana…\n*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Królewskiej.\n*4 Krl 5:1-15*\n*Oczyszczenie Naamana z trądu w wodach Jordanu to obraz oczyszczenia duszy",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Królewskiej.\n*4 Krl 5:1-15*\n*Oczyszczenie Naamana z trądu w wodach Jordanu to obraz oczyszczenia duszy w wodzie Chrztu świętego.*\nW one dni: Naaman, hetman króla syryjskiego, był mężem wielkim u pana swego i wysoko cenionym; przezeń bowiem dał Pan wybawienie Syrii; a był to mąż mężny i bogaty, ale trędowaty. A z Syrii wyszli byli łotrzyki i pojmali z ziemi izraelskiej dzieweczkę malutką; była ona na posłudze u żony Naamanowej, i rzekła do pani swojej: «Oby to pan mój był u proroka, który jest w Samarii! Pewnie by by go uzdrowił od trądu, który ma». Wszedł tedy Naaman do pana swego i powiedział mu mówiąc: «Tak a tak mówiła dzieweczka z ziemi izraelskiej». I rzekł mu król syryjski: «Jedźże, a poślę list do króla izraelskiego».\nA gdy pojechał i wziął z sobą dziesięć talentów srebra i sześć tysięcy złotych, i dziesięć szat na zmianę, przyniósł list do króla izraelskiego w te słowa: «Gdy otrzymasz ten list, wiedz, iżem posłał do ciebie Naamana, sługę mego, abyś go uzdrowił od trądu jego». A gdy król izraelski list przeczytał, rozdarł szaty swe i rzekł: «Czym to ja jest Bóg, żebym mógł zabić i ożywić, iż ten posłał do mnie, abym uzdrowił człowieka od trądu jego? Przypatrzcie się a obaczcie, że zaczepki szuka przeciw mnie».\nGdy to usłyszał Elizeusz, mąż Boży, że król izraelski rozdarł szaty swoje, posłał do niego mówiąc: «Czemużeś rozdarł szaty swe? Niech przyjdzie do mnie, a niech wie, że jest prorok w Izraelu». Przyjechał tedy Naaman z końmi i wozami i stanął u drzwi domu Elizeuszowego. I wysłał do niego Elizeusz posłańca mówiąc: «Idź i obmyj się siedemkroć w Jordanie, a wróci się zdrowie ciału twemu i będziesz oczyszczony». Naaman rozgniewany odchodził mówiąc: «Mniemałem, że wynijdzie do mnie i stojąc wzywać będzie imienia Pana, Boga swego, i dotknie ręką swą miejsca trądu, i uzdrowi mię. Czyż nie lepsze są Amana i Farfar, rzeki Damaszku, niźli wszystkie wody izraelskie, żebym się w nich obmył i był oczyszczony?» Gdy tedy się obrócił i odjeżdżał gniewny, przystąpili do niego słudzy jego i rzekli mu: «Ojcze, chociażby był wielką rzecz Prorok powiedział, zaiste musiałbyś uczynić; jako daleko więcej, że teraz rzekł: Obmyj się, a będziesz oczyszczony?» Poszedł i obmył się w Jordanie siedemkroć według mowy męża Bożego, i naprawiło się ciało jego jak ciało dziecięcia malutkiego, i był oczyszczony. A wróciwszy się do męża Bożego ze wszystkim swym pocztem, przyszedł i stanął przed nim, i rzekł: «Prawdziwiem poznał, że nie masz innego Boga na wszystkiej ziemi, jeno tylko w Izraelu»."
       },
       {
-        "body": "*Ps 55:9, 2*\nWyznałem Tobie, Boże, życie moje, położyłeś łzy moje przed sobą.\n℣. Zmiłuj się nade mną, Boże, bo depcze mn",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 55:9, 2*\nWyznałem Tobie, Boże, życie moje, położyłeś łzy moje przed sobą.\n℣. Zmiłuj się nade mną, Boże, bo depcze mnie człowiek, uciska mnie w nieustannej walce.\n\n*Ps 102:10*\nPanie, nie postępuj z nami według naszych grzechów ani nie odpłacaj nam według win naszych.\n*Ps 78:8-9*\nNie pamiętaj, Panie, dawnych nieprawości naszych. Niech rychło wyjdzie ku nam miłosierdzie Twoje, bo jesteśmy bardzo nieszczęśliwi. (Tu się przyklęka)\n℣. Wspomóż nas, Boże, nasz Zbawicielu, i dla chwały imienia Twego wybaw nas, Panie, i odpuść nam grzechy dla imienia Twego."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 4:23-30*\nOnego czasu rzekł Jezus do faryzeuszów: «Pewnie mi powiecie",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 4:23-30*\nOnego czasu rzekł Jezus do faryzeuszów: «Pewnie mi powiecie ową przypowieść: „Lekarzu, ulecz samego siebie”. Jako wielkie rzeczy, słyszeliśmy, żeś czynił w Kafarnaum, uczyńże też i tu, w ojczyźnie swojej».\nI rzekł: «Zaprawdę powiadam wam, że żaden prorok nie jest mile przyjęty w ojczyźnie swojej. Prawdziwie powiadam wam, że choć wiele wdów było w Izraelu za czasów Eliasza, gdy niebo się zamknęło na lat trzy i sześć miesięcy, i był głód wielki na całej ziemi, do żadnej z nich nie był posłany Eliasz, jeno do owdowiałej niewiasty w Sarepcie sydońskiej. I wielu było trędowatych w Izraelu za Elizeusza proroka, ale żaden z nich nie był oczyszczony, jeno Naaman Syryjczyk».\nA słysząc to, wszyscy w synagodze zapałali gniewem. I powstali, i wyrzucili Go poza miasto, i wywiedli Go na szczyt góry, na której miasto ich było wzniesione, aby Go strącić. A On przeszedłszy pośród nich, oddalił się."
       },
       {
-        "body": "*Ps 54:2-3*\nBoże, usłysz modlitwę moją i nie odsuwaj się od mojej prośby, zwróć się ku mnie i wysłuchaj mnie.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 54:2-3*\nBoże, usłysz modlitwę moją i nie odsuwaj się od mojej prośby, zwróć się ku mnie i wysłuchaj mnie."
       },
       {
-        "body": "Przemień, Panie, dar, który Ci składamy jako Twoi słudzy, w Sakrament niosący nam zbawienie.\nPrzez Pana…",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Przemień, Panie, dar, który Ci składamy jako Twoi słudzy, w Sakrament niosący nam zbawienie.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wyb",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…\n*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nTy przez post ciała uśmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesieniu sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Ps 13:7*\nNiech przyjdzie ze Syjonu zbawienie Izraela. Gdy Pan odmieni los swego narodu, Jakub się uraduje, Izrael ucies",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Ps 13:7*\nNiech przyjdzie ze Syjonu zbawienie Izraela. Gdy Pan odmieni los swego narodu, Jakub się uraduje, Izrael ucieszy."
       },
       {
-        "body": "Wszechmogący i miłosierny Boże, spraw, abyśmy czystą duszą przyjęli to, co spożyliśmy ustami.\nPrzez Pana…",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Wszechmogący i miłosierny Boże, spraw, abyśmy czystą duszą przyjęli to, co spożyliśmy ustami.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…\n*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
       },
       {
-        "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nNiechaj miłosierdzie Twoje, Panie, przyjdzie nam z pomocą i niech Twoja",
-        "id": "Super populum"
+        "id": "Super populum",
+        "label": "Modlitwa nad ludem",
+        "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nNiechaj miłosierdzie Twoje, Panie, przyjdzie nam z pomocą i niech Twoja opieka wyzwoli nas od niebezpieczeństw grożących nam wskutek naszych grzechów, a Twoja moc nas zbawi.\nPrzez Pana…"
       }
     ],
     [
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)\n*Ps 36:1*\nNie unoś się z powodu złoczyńców, ani nie zazdrość czyniącym nieprawość.\nChwała Ojcu…\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)"
       },
       {
-        "body": "Boże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię, aby za jego wstawiennictwem wierni Twoi pogardzali ziemskimi dobrami, a zawsze zdążali do niebieskich.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieus",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, wiej miłościwie łaskę Twoją w nasze serca, abyśmy wstrzymując się od pokarmów mięsnych, powściągali nasze zmysły od szkodliwych nadużyć.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za złotem, i nadziei nie pokładał w pieniądzach i skarbach. Któż to jest? – a chwalić go będziemy. Bo w życiu swym dziwów dokonał. Kto w tej sprawie jest doświadczony i doskonały, będzie miał wieczną chwałę: który mógł przestąpić, a nie przestąpił, źle czynić, a nie uczynił; przeto pewne są skarby jego u Pana, a jałmużny jego wysławiać będzie zgromadzenie świętych."
       },
       {
-        "body": "*Ps 91:13; 91:14*\n℣. Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\n℣. By",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduał",
+        "body": "*Ps 91:13; 91:14*\n℣. Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\n℣. By głosić z rana Twoje miłosierdzie, a wierność Twoją nocami. Alleluja, alleluja.\n*Ps 111:1-3*\nBłogosławiony mąż, który boi się Pana i wielką radość znajduje w Jego nakazach.\n℣. Potomstwo jego będzie potężne na ziemi, dozna błogosławieństwa pokolenie prawych.\n℣. Zasoby i bogactwa będą w jego domu, a hojność jego będzie trwała zawsze."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystusa.*\nOnego czasu: Rzekł Jezus uczniom swoim: «Niechaj biodra wasze będą przepasane i pochodnie gorejące w rękach waszych. A sami bądźcie podobni do ludzi oczekujących powrotu pana swego z godów weselnych; aby, gdy nadejdzie i zakołacze, natychmiast mu otworzyć. Błogosławieni słudzy owi, których pan, gdy nadejdzie, zastanie czuwającymi. Zaprawdę powiadam wam, że przepasze się i każe im zasiąść, a przechodząc usługiwać im będzie. I czy przyjdzie o drugiej straży, czy też o trzeciej straży nadejdzie, a tak zastanie: błogosławieni są słudzy owi. A to wiedzcie, że gdyby wiedział pan domu, o której godzinie nadejdzie złodziej, czuwałby zaiste i nie dopuściłby podkopać domu swego. I wy bądźcie gotowi, bo Syn Człowieczy nadejdzie w godzinie, w której się nie spodziewacie."
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)"
       },
       {
-        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nPrzemień, Panie, dar, który Ci składamy jako Twoi słudzy, w Sakrament niosący nam zbawienie.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nTy przez post ciała uśmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesieniu sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go nad wszystkimi dobrami swymi. (Alleluia.)"
       },
       {
-        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym prze",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nWszechmogący i miłosierny Boże, spraw, abyśmy czystą duszą przyjęli to, co spożyliśmy ustami.\nPrzez Pana…"
       }
     ],
     [
       {
-        "body": "*Dn 3:84; 3:87*\nKapłani Boży błogosławcie Pana: święci i pokornego serca, chwalcie Boga.\n*Dn 3:57*\nBłogosławcie Pana, ws",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSławić Cie będę, Panie, bo mnie wybawiłeś, i nie sprawiłeś ze mnie uciechy mym wrogom.\nChwała Ojcu…\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)"
       },
       {
-        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego Lucjusza, Papież",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nBoże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu kró",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nBoże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię, aby za jego wstawiennictwem wierni Twoi pogardzali ziemskimi dobrami, a zawsze zdążali do niebieskich.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nProsimy Cię, Panie, wiej miłościwie łaskę Twoją w nasze serca, abyśmy wstrzymując się od pokarmów mięsnych, powściągali nasze zmysły od szkodliwych nadużyć.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 1:3-7*\nBracia: Błogosławiony Bóg i Ojciec Pana naszego Jez",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra, pierwszego papieża, stał się wzorem dla owczarni Chrystusowej i zasłużył na niewiędnący wieniec chwały.*\nNajmilsi! Starszych, którzy są wśród was, proszę, jako równie starszy i świadek męki Chrystusowej oraz uczestnik tej chwały, która ma się objawić.\nPaście trzodę Bożą, która jest przy was, czuwając nad nią nie z musu, ale chętnie dla Boga, a nie dla szkaradnego zysku. Ani też jako panujący nad duchowieństwem, ale będąc świadomym wzorem dla owczarni. A gdy się zjawi książę pasterzy, otrzymacie niewiędnący wieniec chwały. A Bóg wszelkiej łaski, który wezwał nas do wiecznej chwały swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas, jemu chwała i panowanie na wieki wieków. Amen."
       },
       {
-        "body": "*Ps 8:6-7*\nUwieńczyłeś go chwałą i czcią.\n℣. Obdarzyłeś go władzą nad dziełami rąk Twoich, o Panie.\n*Ps 111:1-3*\nBłogosł",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduał",
+        "body": "*Matt 16:18-19*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam.\n℣. Et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.\n℣. Quodcúmque ligáveris super terram, erit ligátum et in cœlis.\n℣. Et quodcúmque sólveris super terram, erit solútum et in cœlis."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:24-27*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jeśli kto chce z",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej i pytał uczniów swoich mówiąc: «Za kogo mają ludzie Syna Człowieczego?» A oni powiedzieli: «Jedni za Jana Chrzciciela, drudzy za Eliasza, a inni za Jeremiasza albo jednego z proroków».\nRzekł im Jezus: «A wy za kogo mię macie?» Odpowiadając Szymon Piotr rzekł: «Tyś jest Chrystus, Syn Boga żywego». A odpowiadając Jezus rzekł mu: «Błogosławionyś Szymonie Bar Jona, bo ciało i krew nie objawiły tobie, jeno Ojciec mój, który jest w niebiesiech. A ja ci powiadam, że ty jesteś Opoką, i na tej Opoce zbuduję Kościół mój i bramy piekielne nie zwyciężą go. I tobie dam klucze Królestwa Niebieskiego: a cokolwiek zwiążesz na ziemi, będzie związane i w niebiesiech; a cokolwiek rozwiążesz na ziemi, będzie rozwiązane i w niebiesiech»."
       },
       {
-        "body": "*Ps 88:21-22*\nZnalazłem Dawida, mojego sługę, namaściłem go świętym olejem moim, by ręka moja zawsze z nim była i ramię ",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i burzył, i budował, i sadził."
       },
       {
-        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wyb",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nWspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nPrzemień, Panie, dar, który Ci składamy jako Twoi słudzy, w Sakrament niosący nam zbawienie.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nTy przez post ciała uśmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesieniu sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Ps 20:4*\nPanie, włożyłeś mu na głowę koronę z drogich kamieni.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)"
       },
       {
-        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Kazimierza, Wyznawcy*\nPokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…\n*Wspomnienie Poniedziałek po 3 Niedzieli Wielkiego Postu*\nWszechmogący i miłosierny Boże, spraw, abyśmy czystą duszą przyjęli to, co spożyliśmy ustami.\nPrzez Pana…"
       }
     ]
   ],
@@ -6013,56 +6053,69 @@
   "2024-04-17": [
     [
       {
-        "body": "*Ps 32:5-6*\nPełna jest ziemia łaskawości Pana, alleluja, przez słowo Pana stały się niebiosa, alleluja, alleluja.\n*Ps 32",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 32:5-6*\nPełna jest ziemia łaskawości Pana, alleluja, przez słowo Pana stały się niebiosa, alleluja, alleluja.\n*Ps 32:1*\nSprawiedliwi, weselcie się w Panu, prawym przystoi Go chwalić.\nChwała Ojcu…\nPełna jest ziemia łaskawości Pana, alleluja, przez słowo Pana stały się niebiosa, alleluja, alleluja."
       },
       {
-        "body": "Boże, któryś przez uniżenie się Syna Twojego podźwignął upadły świat, napełnij wiernych Twoich nieustannym weselem, aby ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, któryś przez uniżenie się Syna Twojego podźwignął upadły świat, napełnij wiernych Twoich nieustannym weselem, aby ci, których wybawiłeś od wiecznej śmierci, dostąpili wiekuistego szczęścia.\nPrzez tegoż Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustan",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 2:21-25*\nNajmilsi: Chrystus cierpiał zostawiając wam przykład, abyście w",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 2:21-25*\nNajmilsi: Chrystus cierpiał zostawiając wam przykład, abyście wstępowali w ślady Jego. A On grzechu się nie dopuścił ani też zdrada nie powstała w ustach Jego. Gdy Mu złorzeczono nie złorzeczył, gdy cierpiał, nie wygrażał się, ale poddawał się sądzącemu niesprawiedliwie. On sam w ciele swoim zaniósł grzechy nasze na krzyż, abyśmy umarłszy dla grzechów, żyli dla sprawiedliwości, gdyż przez mękę Jego zostaliście uleczeni. Byliście bowiem jako owce błądzące, ale teraz powróciliście do pasterza i biskupa dusz waszych."
       },
       {
-        "body": "\n*Łk 24:35*\nPoznali uczniowie Pana Jezusa przy łamaniu chleba. \n*J 10:14*\nJam jest Pasterz dobry. Znam owce swoje i znaj",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "\n*Łk 24:35*\nPoznali uczniowie Pana Jezusa przy łamaniu chleba. \n*J 10:14*\nJam jest Pasterz dobry. Znam owce swoje i znają mnie moje. "
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dobry. Dobry pasterz życie swoje daje za owce swoje. Lecz najemnik i ten, kto nie jest pasterzem, do którego nie należą owce, na widok zbliżającego się wilka porzuca owce i ucieka, a wilk porywa i rozprasza owce. Najemnik zaś ucieka, bo jest najemnikiem i nie troszczy się o owce.\nJam jest pasterz dobry; znam swoje i one mnie znają; jako mnie zna Ojciec, a ja znam Ojca. I życie swoje oddaję za owce moje. I inne owce mam, które nie są z tej owczarni. I te muszę przyprowadzić i słuchać będą głosu mego, i stanie się jedna owczarnia i jeden pasterz»."
       },
       {
-        "body": "*Ps 62:2; 62:5*\nBoże, moim jesteś Bogiem, pilnie Ciebie szukam; i w imię Twoje będę wznosił me ręce, alleluja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 62:2; 62:5*\nBoże, moim jesteś Bogiem, pilnie Ciebie szukam; i w imię Twoje będę wznosił me ręce, alleluja."
       },
       {
-        "body": "Panie, niech święta ofiara zawsze sprowadza na nas zbawienne błogosławieństwo, i swoją mocą urzeczywistnia to, co się do",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Panie, niech święta ofiara zawsze sprowadza na nas zbawienne błogosławieństwo, i swoją mocą urzeczywistnia to, co się dokonuje w tajemnicy ołtarza.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trz",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*J 10:14*\nJam jest Pasterz dobry, alleluja: znam owce moje i znają mnie moje, alleluja, alleluja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*J 10:14*\nJam jest Pasterz dobry, alleluja: znam owce moje i znają mnie moje, alleluja, alleluja."
       },
       {
-        "body": "Prosimy Cię wszechmogący Boże, spraw, abyśmy otrzymawszy Twoją życiodajną łaskę, zawsze szczycili się z Twojego daru.\nPr",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię wszechmogący Boże, spraw, abyśmy otrzymawszy Twoją życiodajną łaskę, zawsze szczycili się z Twojego daru.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez ś",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Aniceta, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
       }
     ]
   ],
@@ -6289,88 +6342,108 @@
   "2024-04-23": [
     [
       {
-        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps 63:2*\nSłuchaj, Boże, głosu mojego, gdy się żalę; od strachu przed wrogiem zachowaj me życie.\nChwała Ojcu…\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja."
       },
       {
-        "body": "Prosimy Cię, Panie, niech św. Wojciech, Biskup i Męczennik, wyjedna nam Twoje miłosierdzie, abyś łaskawie odpuścił nam g",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Prosimy Cię, Panie, niech św. Wojciech, Biskup i Męczennik, wyjedna nam Twoje miłosierdzie, abyś łaskawie odpuścił nam grzechy i użyczył upragnionych dobrodziejstw.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Hebrajczyków.\n*Hbr 5:1-6*\nBracia: Każdy arcykapłan, spośród ludzi wzięty, dl",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Hebrajczyków.\n*Hbr 5:1-6*\nBracia: Każdy arcykapłan, spośród ludzi wzięty, dla ludzi jest postanowiony w tym, co do Boga należy, aby składał dary i ofiary za grzechy. Aby też mógł współczuć z tymi, którzy są w nieświadomości i błędzie, ponieważ i on sam poddany jest słabości. I dlatego tak za lud, jak i za siebie składać winien ofiary za grzechy. A nikt niechaj się nie waży brać tej godności, chyba że jest powołany przez Boga, jak Aaron. Toteż i Chrystus nie sam siebie wywyższył, aby się stać najwyższym kapłanem, ale (wywyższył Go) Ten, który do Niego powiedział: Tyś Synem moim, jam dziś zrodził Ciebie. Jako też na innym miejscu mówi: Tyś jest kapłanem na wieki według porządku Melchizedeka."
       },
       {
-        "body": "*J 10:14*\nJam jest pasterz dobry: znam swoje owce i one mnie znają. Alleluja.\n*Ps 109:4*\n℣. Tyś kapłanem na wieki na wzó",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*J 10:14*\nJam jest pasterz dobry: znam swoje owce i one mnie znają. Alleluja.\n*Ps 109:4*\n℣. Tyś kapłanem na wieki na wzór Melchizedeka. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dob",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 10:11-16*\nOnego czasu: Rzekł Jezus do faryzeuszów: «Jam jest pasterz dobry. Dobry pasterz życie swoje daje za owce swoje. Lecz najemnik i ten, kto nie jest pasterzem, do którego nie należą owce, na widok zbliżającego się wilka porzuca owce i ucieka, a wilk porywa i rozprasza owce. Najemnik zaś ucieka, bo jest najemnikiem i nie troszczy się o owce.\nJam jest pasterz dobry; znam swoje i one mnie znają; jako mnie zna Ojciec, a ja znam Ojca. I życie swoje oddaję za owce moje. I inne owce mam, które nie są z tej owczarni. I te muszę przyprowadzić i słuchać będą głosu mego, i stanie się jedna owczarnia i jeden pasterz»."
       },
       {
-        "body": "*Ps 20:4-5*\nPanie, włożyłeś mu na głowę koronę z drogich kamieni; błagał Cię o życie, a Tyś go nim obdarzył, alleluja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 20:4-5*\nPanie, włożyłeś mu na głowę koronę z drogich kamieni; błagał Cię o życie, a Tyś go nim obdarzył, alleluja."
       },
       {
-        "body": "Racz, Panie, łaskawie przyjąć złożoną ofiarę: niech nam wyjedna odpuszczenie win, gdy składamy ją imieniu Twemu w uroczy",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Racz, Panie, łaskawie przyjąć złożoną ofiarę: niech nam wyjedna odpuszczenie win, gdy składamy ją imieniu Twemu w uroczystość św. Wojciecha, Twego Męczennika i Biskupa.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*J 10:14*\nJam jest pasterz dobry, alleluja; znam swoje owce i one mnie znają, alleluja, alleluja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*J 10:14*\nJam jest pasterz dobry, alleluja; znam swoje owce i one mnie znają, alleluja, alleluja."
       },
       {
-        "body": "Pokrzepieni świętymi darami, kornie błagamy Cię, Panie, aby orędownictwo św. Wojciecha, Męczennika Twego i Biskupa, zaws",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni świętymi darami, kornie błagamy Cię, Panie, aby orędownictwo św. Wojciecha, Męczennika Twego i Biskupa, zawsze nam wyjednywało Twoje zbawienie.\nPrzez Pana…"
       }
     ]
   ],
   "2024-04-24": [
     [
       {
-        "body": "*Ps 20:2-3*\nZ potęgi Twej, Panie, weseli się sprawiedliwy, i z pomocy Twojej bardzo się cieszy: spełniłeś pragnienie jeg",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 63:3*\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja.\n*Ps 63:2*\nSłuchaj, Boże, głosu mojego, gdy się żalę; od strachu przed wrogiem zachowaj me życie.\nChwała Ojcu…\nOcaliłeś mię, Boże, od zgrai złoczyńców, alleluja, i od gromady czyniących nieprawość, alleluja, alleluja."
       },
       {
-        "body": "Boże, Ty św. Fidelisa, gorejącego seraficzną żarliwością ducha, ozdobiłeś palmą męczeństwa i sławą cudów przy głoszeniu ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, Ty św. Fidelisa, gorejącego seraficzną żarliwością ducha, ozdobiłeś palmą męczeństwa i sławą cudów przy głoszeniu prawdziwej wiary; przez jego zasługi i przyczynę racz nas tak utwierdzić Swoją łaską w wierze i miłości, abyśmy wytrwali w służbie Twojej aż do śmierci.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Mądrości.\n*Mdr 10: 10-14*\n*Opatrzność Boża kierowała losami prześladowanego patriarchy Jakuba i Józefa",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Mądrości.\n*Mdr 5:1-5*\nSprawiedliwi staną z wielką stanowczością naprzeciw tych, którzy ich uciskali i zniweczyli ich trudy. Na ten widok zatrwożą się lękiem przeraźliwym i zadziwią z powodu prędkiego a niespodziewanego wybawienia, mówiąc do siebie z żalem i jęcząc w ucisku ducha: «Oto ci, których niegdyś wystawialiśmy na pośmiewisko i jakby na wzgardę. My nierozumni za szaleństwo poczytaliśmy ich życie a koniec ich za czci pozbawiony: a oto, jak zostali oni policzeni między synów Bożych, a udział ich ze Świętymi»."
       },
       {
-        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 2",
-        "id": "GradualeP"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja\n*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych. Alleluja.\n*Ps 20:4*\nPanie, włożyłeś mu na głowę koronę z drogich kamieni. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 10:34-42*\nOnego czasu: Rzekł Jezus uczniom swoim: «Nie mniemajcie, ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 15:1-7*\nOnego czasu: Rzekł Jezus uczniom swoim: «Jam jest prawdziwy krzew winny, a Ojciec mój jest rolnikiem. Wszelką latorośl, która we mnie nie przynosi owocu, odetnie, a tę, która przynosi owoc, oczyści, aby więcej owocu przynosiła. Wy już jesteście oczyszczeni dzięki nauce, którą wam oznajmiłem.\nTrwajcie we mnie, a ja w was. Jak latorośl nie może przynosić owocu sama z siebie, jeśli nie tkwi w winnym krzewie, tak i wy, jeśli we mnie pozostawać nie będziecie. Jam winnym krzewem, a wy latoroślami. Kto mieszka we mnie, a ja w nim, ten wiele owocu przynosi; bo beze mnie nic uczynić nie możecie. Kto nie będzie trwał we mnie, odrzucony będzie precz, niby latorośl, i uschnie; zbiorą ją, do ognia wrzucą i zgorzeje.\nJeśli trwać będziecie we mnie, a słowa moje w was, o cokolwiek zechcecie, prosić będziecie, a stanie się wam»."
       },
       {
-        "body": "*Ps 8:6-7*\nUwieńczyłeś go chwałą i czcią, obdarzyłeś go władzą nad dziełami rąk Twoich, o Panie.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 88:6*\nNiebiosa wielbią cuda Twoje, Panie, a wierność Twoją zgromadzenie świętych, alleluja, alleluja."
       },
       {
-        "body": "Przyjmij, prosimy Cię, Panie, nasze dary i modlitwy, oczyść nas przez niebieskie tajemnice i łaskawie wysłuchaj.\nPrzez P",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Panie, przyjmij łaskawie przez zasługi świętego N., Męczennika i Biskupa ofiarę, którą Ci składamy, i spraw, aby się stała dla nas nieustanną pomocą.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Mt 16:24*\nJeśli kto chce za mną iść, niech się zaprze samego siebie i weźmie krzyż swój, i naśladuje mnie.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią, alleluja, alleluja."
       },
       {
-        "body": "Daj, prosimy Cię, Panie Boże nasz, abyśmy się tak cieszyli widokiem Twoich Świętych w wieczności, jak z radością czcimy ",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni uczestnictwem w świętej uczcie prosimy Cię, Panie, Boże nasz, abyśmy za przyczyną świętego N., Twego Męczennika i Biskupa, doznali skutków tajemnic, które ze czcią sprawujemy.\nPrzez Pana…"
       }
     ]
   ],
@@ -6433,88 +6506,108 @@
   "2024-04-26": [
     [
       {
-        "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSła",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*J 21:15-17*\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)\n*Ps 29:2*\nSławić Cie będę, Panie, bo mnie wybawiłeś, i nie sprawiłeś ze mnie uciechy mym wrogom.\nChwała Ojcu…\nJeśli miłujesz mnie, Szymonie Piotrze, paś baranki moje, paś owce moje. (Alléluia, alléluia.)"
       },
       {
-        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętych Kleta i Marcelin",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Wiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra,",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 5:1-4; 5:10-11*\n*Święty Papież wiernie wypełniając zalecenia św. Piotra, pierwszego papieża, stał się wzorem dla owczarni Chrystusowej i zasłużył na niewiędnący wieniec chwały.*\nNajmilsi! Starszych, którzy są wśród was, proszę, jako równie starszy i świadek męki Chrystusowej oraz uczestnik tej chwały, która ma się objawić.\nPaście trzodę Bożą, która jest przy was, czuwając nad nią nie z musu, ale chętnie dla Boga, a nie dla szkaradnego zysku. Ani też jako panujący nad duchowieństwem, ale będąc świadomym wzorem dla owczarni. A gdy się zjawi książę pasterzy, otrzymacie niewiędnący wieniec chwały. A Bóg wszelkiej łaski, który wezwał nas do wiecznej chwały swojej w Chrystusie Jezusie, po niewielkim utrapieniu udoskonali, utwierdzi i ugruntuje nas, jemu chwała i panowanie na wieki wieków. Amen."
       },
       {
-        "body": "Alleluja, alleluja\n*Mt 16:18*\nTy jesteś Opoką, a na tej Opoce zbuduję Kościół mój.\n*Ps 44:17-18*\nUstanowisz ich książęta",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduał",
+        "body": "Allelúja, allelúja.\n*Ps 106:8*\nConfitéantur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum\n*Matt 6:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 16:13-19*\nOnego czasu: Przyszedł Jezus w okolice Cezarei Filipowej i pytał uczniów swoich mówiąc: «Za kogo mają ludzie Syna Człowieczego?» A oni powiedzieli: «Jedni za Jana Chrzciciela, drudzy za Eliasza, a inni za Jeremiasza albo jednego z proroków».\nRzekł im Jezus: «A wy za kogo mię macie?» Odpowiadając Szymon Piotr rzekł: «Tyś jest Chrystus, Syn Boga żywego». A odpowiadając Jezus rzekł mu: «Błogosławionyś Szymonie Bar Jona, bo ciało i krew nie objawiły tobie, jeno Ojciec mój, który jest w niebiesiech. A ja ci powiadam, że ty jesteś Opoką, i na tej Opoce zbuduję Kościół mój i bramy piekielne nie zwyciężą go. I tobie dam klucze Królestwa Niebieskiego: a cokolwiek zwiążesz na ziemi, będzie związane i w niebiesiech; a cokolwiek rozwiążesz na ziemi, będzie rozwiązane i w niebiesiech»."
       },
       {
-        "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i bur",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Jer 1:9-10*\nOtom dał moje słowa w usta twoje; otom cię dziś postawił nad narodami i nad królestwami, abyś wyrywał i burzył, i budował, i sadził."
       },
       {
-        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pa",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Złożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 16:18*\nTy jesteś Opoką, a na tej opoce zbuduję Kościół mój. (Alleluia.)"
       },
       {
-        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem ro",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
       }
     ]
   ],
   "2024-04-27": [
     [
       {
-        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Syr 15:5*\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały. (Allelúja, allelúja.)\n*Ps 91:2*\nDobrze jest wysławiać Pana i śpiewać imieniu Twemu, o Najwyższy.\nChwała Ojcu…\nW pośrodku Kościoła Pan otworzył jego usta, napełnił go duchem mądrości i rozumu i przyodział go szatą chwały. (Allelúja, allelúja.)"
       },
       {
-        "body": "Boże, który dla obrony prawdziwej wiary uzbroiłeś cnotą i nauką św. Piotra, Twego Wyznawcę, spraw łaskawie, niech błądzą",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który dla obrony prawdziwej wiary uzbroiłeś cnotą i nauką św. Piotra, Twego Wyznawcę, spraw łaskawie, niech błądzący pociągnięci jego przykładem i napomnieniami wrócą na drogę zbawienia, wierni zaś niech trwają w wyznawaniu prawdziwej wiary.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezuse",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 4:1-8*\nNajmilszy: Zaklinam cię przed Bogiem i przed Jezusem Chrystusem, który będzie sądził żywych i umarłych, przez przyjście Jego i przez Jego Królestwo – głoś naukę, nalegaj w porę czy nie w porę, przekonywaj, proś, karć ze wszelką cierpliwością i nauką. Bo nadejdzie czas, że zdrowej nauki nie ścierpią, ale według swych pragnień zgromadzą sobie nauczycieli, a żądni tego, co łechce ucho, odwrócą słuch od prawdy i obrócą się ku baśniom.\nAle ty czuwaj, znoś wszystkie trudy, pilnuj obowiązku głosiciela Ewangelii, posługę swoją wypełniaj. Bądź rozsądny. Bo ja już się gotuje do przelania krwi mojej w ofierze i czas rozwiązania mego nadchodzi. Toczyłem dobry bój, zawodu dokonałem, wiary dochowałem. Na ostatek odłożony mi jest wieniec sprawiedliwości, który mi wręczy Pan, sędzia sprawiedliwy, w on dzień; a nie tylko mnie, ale i tym, którzy miłują przyjście Jego."
       },
       {
-        "body": "Alleluja, alleluja.\n*Syr 45:9*\nUmiłował go Pan i przyozdobił, przyodział go szatą chwały. Alleluja.\n*Oz 14:6*\nSprawiedli",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja.\n*Syr 45:9*\nUmiłował go Pan i przyozdobił, przyodział go szatą chwały. Alleluja.\n*Oz 14:6*\nSprawiedliwy wyrośnie jak lilia i kwitnąć będzie przed Panem na wieki. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 5:13-19*\nOnego czasu: Rzekł Jezus uczniom swoim: «Wy jesteście solą ziemi. A jeśli sól zwietrzeje, czymże się solić będzie? Na nic się więcej nie przyda, jeno aby była precz wyrzucona i podeptana przez ludzi. Wy jesteście światłością świata. Nie może skryć się miasto na górze leżące. Ani też nie zapalają świecy i nie kładą jej pod korzec, ale na świeczniku, aby świeciła wszystkim, którzy są w domu. Tak niechaj świeci światłość wasza przed ludźmi, aby widzieli dobre czyny wasze i chwalili Ojca waszego, który jest w niebiesiech. Nie mniemajcie, żem przyszedł rozwiązywać Zakon i Proroków: nie przyszedłem rozwiązywać, ale wypełnić. Zaprawdę bowiem powiadam wam: Dopóki nie przeminą niebo i ziemia, ani jedna jota, ani jedna kreska nie zmieni się w Zakonie, aż się wszystko wypełni. Kto by tedy przestąpił jedno z tych przykazań najmniejszych i tak by ludzi nauczał, będzie zwany najmniejszym w Królestwie Niebieskim. A kto by wypełniał i nauczał, ten będzie zwany wielkim w Królestwie Niebieskim»."
       },
       {
-        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 91:13*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie. (Allelúja.)"
       },
       {
-        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego Piotra, Twego Wyznawcy i Doktora, która zaleci Tobie naszą o",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Panie, niech nam nie zabraknie serdecznej modlitwy świętego N., Twego Biskupa i Doktora, która zaleci Tobie naszą ofiarę i wyjedna nam Twoje przebaczenie.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpo",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Łk 12:42*\nOto wierny i roztropny sługa, którego Pan postanowił nad swoją czeladzią, by każdemu wydzielał żywność w odpowiednim czasie. (Alleluia.)"
       },
       {
-        "body": "Prosimy Cię, Panie, niech święty Piotr, Twój Wyznawca i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoj",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, Panie, niech święty N., Twój Biskup i znamienity Doktor, wstawi się jako orędownik, aby ta ofiara Twoja dała nam zbawienie.\nPrzez Pana…"
       }
     ]
   ],
@@ -6609,44 +6702,54 @@
   "2024-04-30": [
     [
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)\n*Ps 44:2*\nZ mego serca płynie piękne słowo, pieśń moją śpiewam dla Króla.\nChwała Ojcu…\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, abyśmy czcząc narodziny dla nieba świętej Dziewicy Twojej Katarzyny, radowali się każdeg",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Prosimy Cię, wszechmogący Boże, abyśmy czcząc narodziny dla nieba świętej Dziewicy Twojej Katarzyny, radowali się każdego roku z jej uroczystości i korzystali z przykładu tak wielkiej cnoty.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi w Panu. Nie ten bowiem, kto zaleca samego siebie, wart jest uznania, ale ten, którego Bóg zaleca. Obyście znieść mogli nieco szaleństwa z mej strony. Zechciejcie znieść i mnie. Ubiegam się bowiem o was z gorliwością, która z Boga jest, bo poślubiłem was jednemu mężowi, aby was okazać czystą dziewicą Chrystusowi."
       },
       {
-        "body": "Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja.\n*Ps",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja.\n*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść: «Podobne będzie Królestwo Niebieskie dziesięciu pannom, które wziąwszy lampy wyszły na spotkanie oblubieńca i oblubienicy. Pięć z nich było głupich, a pięć mądrych. Ale pięć głupich, wziąwszy lampy, nie zabrały ze sobą oliwy, mądre natomiast wzięły oliwy w naczynia swoje wraz z lampami. A gdy się oblubieniec opóźniał, zdrzemnęły się wszystkie i posnęły.\nWszakże o północy rozległo się wołanie: Oto oblubieniec nadchodzi, wynijdźcie mu na spotkanie. Wtedy powstały wszystkie owe panny i opatrzyły lampy swoje. Głupie zaś rzekły do mądrych: Dajcie nam waszej oliwy, bo gasną lampy nasze. Odpowiedziały mądre, mówiąc: Aby snadź nie zabrakło nam i wam, idźcie raczej do sprzedających i kupcie sobie. A gdy one poszły kupować, przybył oblubieniec i te, które były gotowe, weszły z nim na gody. A zamknięto drzwi. W końcu przyszły i pozostałe panny, mówiąc: Panie, panie, otwórz nam! A on, odpowiadając, rzekł: Zaprawdę mówię wam, że was nie znam.\nCzuwajcież tedy, bo nie wiecie dnia ani godziny»."
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Alleluia.)"
       },
       {
-        "body": "Niech dojdą do Ciebie, Panie, nasze modlitwy, które zanosimy w uroczystość świętej Katarzyny wraz ze zbawienną ofiarą, o",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał pomocy w ucisku.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblubieniec nadchodzi; wyjdźcie na spotkanie Chrystusa Pana. (Alleluja.)"
       },
       {
-        "body": "Niech nam udzieli wiecznego życia spożyty przez nas niebieski pokarm, który podtrzymywał nawet doczesne życie świętej Dz",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzimy.\nPrzez Pana…"
       }
     ]
   ],
@@ -21719,56 +21822,69 @@
   "2025-03-04": [
     [
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)\n*Ps 36:1*\nNie unoś się z powodu złoczyńców, ani nie zazdrość czyniącym nieprawość.\nChwała Ojcu…\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)"
       },
       {
-        "body": "Boże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który umocniłeś świętego Kazimierza cnotą stałości wśród rozkoszy dworu królewskiego i powabów świata: prosimy Cię, aby za jego wstawiennictwem wierni Twoi pogardzali ziemskimi dobrami, a zawsze zdążali do niebieskich.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieus",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieustanną opieką za przyczyną świętego N., Papieża, którego ustanowiłeś pasterzem całego Kościoła.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za złotem, i nadziei nie pokładał w pieniądzach i skarbach. Któż to jest? – a chwalić go będziemy. Bo w życiu swym dziwów dokonał. Kto w tej sprawie jest doświadczony i doskonały, będzie miał wieczną chwałę: który mógł przestąpić, a nie przestąpił, źle czynić, a nie uczynił; przeto pewne są skarby jego u Pana, a jałmużny jego wysławiać będzie zgromadzenie świętych."
       },
       {
-        "body": "*Ps 91:13; 91:14*\n℣. Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\n℣. By",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduał",
+        "body": "*Ps 91:13; 91:14*\n℣. Sprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\n℣. By głosić z rana Twoje miłosierdzie, a wierność Twoją nocami. Alleluja, alleluja.\n*Ps 111:1-3*\nBłogosławiony mąż, który boi się Pana i wielką radość znajduje w Jego nakazach.\n℣. Potomstwo jego będzie potężne na ziemi, dozna błogosławieństwa pokolenie prawych.\n℣. Zasoby i bogactwa będą w jego domu, a hojność jego będzie trwała zawsze."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystusa.*\nOnego czasu: Rzekł Jezus uczniom swoim: «Niechaj biodra wasze będą przepasane i pochodnie gorejące w rękach waszych. A sami bądźcie podobni do ludzi oczekujących powrotu pana swego z godów weselnych; aby, gdy nadejdzie i zakołacze, natychmiast mu otworzyć. Błogosławieni słudzy owi, których pan, gdy nadejdzie, zastanie czuwającymi. Zaprawdę powiadam wam, że przepasze się i każe im zasiąść, a przechodząc usługiwać im będzie. I czy przyjdzie o drugiej straży, czy też o trzeciej straży nadejdzie, a tak zastanie: błogosławieni są słudzy owi. A to wiedzcie, że gdyby wiedział pan domu, o której godzinie nadejdzie złodziej, czuwałby zaiste i nie dopuściłby podkopać domu swego. I wy bądźcie gotowi, bo Syn Człowieczy nadejdzie w godzinie, w której się nie spodziewacie."
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)"
       },
       {
-        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by trzodzie Twojej wszędzie sprzyjało powodzenie, a pasterze pod Twymi rządami starali się podobać Twojemu imieniu.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go nad wszystkimi dobrami swymi. (Alleluia.)"
       },
       {
-        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym prze",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Lucjusza I, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez święty pokarm, aby pod Twoim możnym panowaniem rosła wolność Kościoła, a związek jego z Tobą trwał niezachwiany.\nPrzez Pana…"
       }
     ]
   ],
@@ -24895,60 +25011,74 @@
   "2025-04-17": [
     [
       {
-        "body": "*Ga 6:14*\nA myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie i zmartwychwsta",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ga 6:14*\nA myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie i zmartwychwstanie nasze: przez Niego jesteśmy zbawieni i oswobodzeni.\n*Ps 66:2*\nNiech Bóg się zmiłuje nad nami i nam błogosławi: niech nam ukaże pogodne oblicze i zmiłuje się nad nami.\nA myśmy się chlubić powinni Krzyżem Pana naszego Jezusa Chrystusa; w Nim jest zbawienie, życie i zmartwychwstanie nasze: przez Niego jesteśmy zbawieni i oswobodzeni."
       },
       {
-        "body": "Boże, od Ciebie Judasz otrzymał karę za swoją zbrodnię, a łotr nagrodę za wyznanie winy; daj nam doznać skutków miłosier",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, od Ciebie Judasz otrzymał karę za swoją zbrodnię, a łotr nagrodę za wyznanie winy; daj nam doznać skutków miłosierdzia Twego, a jak w czasie swojej męki Pan nasz Jezus Chrystus obydwom oddał różną zapłatę, tak niech zgładzi w nas zastarzały błąd i udzieli nam łaski zmartwychwstania:\nKtóry z Tobą…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 11:20-32*\nBracia: Gdy się tedy wespół schodzicie, nie jest",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*1 Kor 11:20-32*\nBracia: Gdy się tedy wespół schodzicie, nie jest to już pożywanie wieczerzy Pańskiej. Każdy bowiem wieczerzę swoją już uprzednio spożywa i tak jeden jest głodny, a drugi nietrzeźwy. Czyż domów nie macie do jedzenia i picia? Albo okazujecie wzgardę Kościołowi Bożemu i poniewieracie tymi, którzy nic nie mają? Cóż wam powiem? Czy chwalę was? Za to nie chwale.\nJa bowiem otrzymałem od Pana, co też wam podałem, że Pan Jezus tej nocy, w której był wydany, wziął chleb i dzięki uczyniwszy, łamał i rzekł: «Bierzcie i jedzcie, to jest ciało moje, które za was będzie wydane: to czyńcie na moją pamiątkę». Także i kielich po wieczerzy mówiąc: «Ten kielich jest nowym testamentem we krwi mojej. To czyńcie, ilekroć pić będziecie, na pamiątkę moją».\nIlekroć bowiem ten chleb pożywać, a kielich pić będziecie, śmierć Pańską będziecie zwiastować, aż przybędzie. Tak więc ktokolwiek by pożywał ten chleb albo pił kielich Pański niegodnie, winien będzie ciała i krwi Pańskiej. Niechajże tedy doświadcza człowiek samego siebie, a tak niechaj pożywa chleba tego i z kielicha pije. Kto bowiem Pozywa i pije niegodnie, potępienie dla siebie pożywa i pije, nie bacząc na ciało Pańskie. Dlatego między wami wielu chorych i słabych i wielu pomarło. Bo gdybyśmy sami siebie sądzili, nie bylibyśmy sądzeni. Lecz gdy nas sądzą, karanie odbieramy od Pana, abyśmy z tym światem potępieni nie byli."
       },
       {
-        "body": "*Flp 2:8-9*\nChrystus stał się dla nas posłuszny aż do śmierci, a była to śmierć krzyżowa.\n℣. Dlatego i Bóg wywyższył Go:",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Flp 2:8-9*\nChrystus stał się dla nas posłuszny aż do śmierci, a była to śmierć krzyżowa.\n℣. Dlatego i Bóg wywyższył Go: i nadał Mu imię, przewyższające wszelkie imię."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 13:1-15*\nPrzed świętym dniem Paschy Jezus, wiedząc, że nadeszła godzina ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 13:1-15*\nPrzed świętym dniem Paschy Jezus, wiedząc, że nadeszła godzina Jego, aby odszedł z tego świata do Ojca, umiłowawszy swoich, którzy byli na świecie, aż do końca ich umiłował. I po skończeniu wieczerzy, gdy szatan skusił był serce Judasza Iszkarioty, syna Szymona, aby Go zdradził, (Jezus) wiedząc, że Ojciec oddał wszystko w Jego ręce, że od Boga wyszedł i do Boga zdąża, wstaje od wieczerzy, składa szaty swoje, a wziąwszy prześcieradło, przepasuje się. Potem nalewa wody do misy i poczyna umywać nogi uczniom i wycierać prześcieradłem, którym się był przepasał. Zbliża się tedy do Szymona Piotra. I rzecze Mu Piotr. «Panie, Ty mnie nogi umywasz?» Odpowiadając Jezus, rzekł mu: «Co ja czynię, ty jeszcze nie rozumiesz, ale zrozumiesz potem». Rzecze Mu Piotr: «Nigdy mi nóg nie będziesz umywał». Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną». Rzecze Mu Szymon Piotr: «Panie, nie tylko nogi moje, ale ręce i głowę». Rzecze mu Jezus: «Kto umyty jest, potrzebuje tylko nogi umyć, a cały jest czysty. Wy też jesteście czyści, ale nie wszyscy». Albowiem wiedział, który to Go miał wydać, dlatego powiedział: «Nie wszyscy jesteście czyści».\nGdy tedy umył nogi ich i przywdział szaty swoje, zasiadł do stołu i mówił do nich: «Czy wiecie, com wam uczynił? Wy Mnie nazywacie Mistrzem i Panem i dobrze mówicie, bo jestem nim. Jeśli tedy ja, Pan i Mistrz, umyłem nogi wasze i wy powinniście jeden drugiemu nogi umywać. Albowiem dałem wam przykład, abyście jakom ja wam uczynił, tak i wy czynili»."
       },
       {
-        "body": "*Po kazaniu odbywa się obrzęd umywania nóg, Celebrans zdejmuje ornat, przepasuje się ręcznikiem i umywa nogi dwunastu mę",
-        "id": "Maundi"
+        "id": "Maundi",
+        "label": "Mandatum, czyli Umywanie Nóg",
+        "body": "*Po kazaniu odbywa się obrzęd umywania nóg, Celebrans zdejmuje ornat, przepasuje się ręcznikiem i umywa nogi dwunastu mężczyznom duchownym lub świeckim, którzy siedzą na przygotowanych miejscach w prezbiterium lub w nawie kościoła. Celebrans przed każdym z nich przyklęka, umywa i ociera prawą stopę.*\n*W ten obrazowy sposób Kościół poucza swe dzieci o konieczności wiernego wypełnienia przykazania miłości bliźniego, które Pan Jezus w czasie Ostatniej Wieczerzy nazwał «swoim przykazaniem» i uczynił je znakiem rozpoznawczym swoich uczniów. Oddając za nas własne życie na krzyżu Chrystus wskazał, że musimy być gotowi na poświęcenie dla braci.*\n\n\n*Antyfona 1*\n*J 13:34*\nAnt. «Przykazanie nowe daję wam, abyście się wzajemnie miłowali, jakom ja was umiłował» – mówi Pan.\n*Ps 118:1*\nBłogosławieni, których droga jest niepokalana: którzy postępują zgodnie z prawem Pańskim.\nAnt. «Przykazanie nowe daję wam, abyście się wzajemnie miłowali, jakom ja was umiłował»\n\n*Antyfona 2*\n*J 13:4,5,15*\nAnt. Gdy Pan wstał od wieczerzy, nalał wody w miednicę i począł umywać nogi swoich uczniów. Ten przykład im zostawił.\n*Ps 47:2*\nWielki jest Pan i godny wszelkiej chwały w mieście Boga naszego, na świętej Jego górze.\nAnt. Gdy Pan wstał od wieczerzy, nalał wody w miednicę i począł umywać nogi swoich uczniów. Ten przykład im zostawił.\n\n*Antyfona 3*\n*J 13:12,13,15*\nAnt. Pan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił, ja, Pan i Mistrz? Przykład dałem wam, abyście i wy tak czynili».\n*Ps 84:2*\nŁaskawym okazałeś się, Panie, dla Twej ziemi; na dobre odmieniłeś los Jakuba.\nAnt. Pan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił, ja, Pan i Mistrz? Przykład dałem wam, abyście i wy tak czynili».\n\n*Antyfona 4*\n*J 13:6-7,8*\nAnt. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną».\n℣. Zbliża się tedy do Szymona Piotra i rzecze mu Piotr:\nAnt. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną».\n℣. «Co ja czynię, ty jeszcze nie rozumiesz, ale zrozumiesz potem».\nAnt. «Panie, Ty mnie nogi umywasz?» Odpowiedział mu Jezus: «Jeśli cię nie umyję, nie będziesz miał uczestnictwa ze mną».\n\n*Antyfona 5*\n*J 13:14*\nAnt. «Jeśli ja, Pan i Mistrz wasz, umyłem nogi wasze, o ileż bardziej wy powinniście jeden drugiemu nogi umywać?»\n*Ps 48:2*\nSłuchajcie tego, wszystkie narody, nakłońcie uszy, wszyscy mieszkańcy ziemi.\nAnt. «Jeśli ja, Pan i Mistrz wasz, umyłem nogi wasze, o ileż bardziej wy powinniście jeden drugiemu nogi umywać?»\n\n*Antyfona 6*\n*J 13:35*\nAnt. «Po tym poznają wszyscy, żeście uczniami moimi, jeśli miłość mieć będziecie jeden ku drugiemu».\n℣. Rzekł Jezus uczniom swoim.\nAnt. «Po tym poznają wszyscy, żeście uczniami moimi, jeśli miłość mieć będziecie jeden ku drugiemu».\n\n*Antyfona 7*\n*1 Kor 13:13*\nAnt. Niech trwają w was wiara, nadzieja i miłość: to troje, a z tych największa jest miłość.\n℣. Teraz tedy trwają wiara, nadzieja i miłość: to troje, a z tych największa jest miłość.\nAnt. Niech trwają w was wiara, nadzieja i miłość: to troje, a z tych największa jest miłość.\n\n*Antyfona 8*\n*Następująca 8 antyfonę z jej wersetami zawsze należy wykonać. Jeżeli brakuje czasu, można opuścić poprzednie.*\nTam, gdzie miłość, ukochanie, tam jest także Bóg.\n℣. W jedno nas tu zgromadziła Chrystusowa miłość.\n℣. W Nim się tedy cieszmy wszyscy i weselmy.\n℣. Boga bójmy się żywego i kochajmy.\n℣. I miłujmy się nawzajem sercem szczerym.\nTam, gdzie miłość, ukochanie, tam jest także Bóg.\n℣. Gdy się przeto gromadzimy wszyscy razem.\n℣. By się duchem nie rozdzielać, pilnie baczmy.\n℣. Niech ustaną złe niesnaski, niech ustaną spory.\n℣. A pośrodku nas niech stanie Chrystus Bóg.\nTam, gdzie miłość, ukochanie, tam jest także Bóg.\n℣. Razem także ze świętymi daj nam widzieć.\n℣. Pośród chwały Twe oblicze, Chryste Boże.\n℣. Radość, która nie zna miary i szlachetna jest.\n℣. Poprzez wszystkie nieskończone wieki wieków. Amen.\n\n*Skończywszy umywanie nóg celebrans wkłada ornat, staje przed środkiem ołtarza i śpiewa następujące modlitwy:*\n\nOjcze nasz… (po cichu).\n℣. I nie wódź nas na pokuszenie.\n℟. Ale nas zbaw ode złego.\n℣. Tyś rozkazał, Panie, przykazania Twoje.\n℟. Zachowywać pilnie.\n℣. Tyś umył nogi uczniom Twoim.\n℟. Nie wzgardzaj dziełem rąk Swoich.\n℣. Panie, wysłuchaj modlitwę moją.\n℟. A wołanie moje niech do Ciebie przyjdzie.\n℣. Pan z wami.\n℟. I z duchem twoim.\nMódlmy się.\nWspomóż, prosimy Cię, Panie, naszą posługę i ponieważ sam raczyłeś umyć nogi uczniom swoim, nie gardź czynnością Twoich rąk, którą poleciłeś nam naśladować; gdy sami obmywamy zewnętrzny brud, zmyj, Panie, w duszach naszych grzechowe zmazy. Racz tego dokonać Ty, który żyjesz i królujesz, Bóg przez wszystkie wieki wieków.\n℟. Amen."
       },
       {
-        "body": "*Ps 117:16-17*\nPrawica Pańska moc okazała, prawica Pańska mnie dźwignęła; nie umrę, lecz będę żył i głosił dzieła Pana.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 117:16-17*\nPrawica Pańska moc okazała, prawica Pańska mnie dźwignęła; nie umrę, lecz będę żył i głosił dzieła Pana."
       },
       {
-        "body": "Prosimy Cię, Panie, Ojcze święty, wszechmogący, wieczny Boże, niech ofiarę naszą uczyni Ci przyjemną Ten, który w dniu d",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Prosimy Cię, Panie, Ojcze święty, wszechmogący, wieczny Boże, niech ofiarę naszą uczyni Ci przyjemną Ten, który w dniu dzisiejszym ustanowił i nakazał swoim uczniom sprawować na swoją pamiątkę: Jezus Chrystus, Syn Twój, nasz Pan:\nKtóry z Tobą…"
       },
       {
-        "body": "*Prefacja o Krzyżu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składa",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja o Krzyżu Świętym*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nTyś postanowił dokonać zbawienia rodzaju ludzkiego na drzewie krzyża, aby skąd śmierć wzięła początek, stamtąd i życie zmartwychwstało, i aby ten, który na drzewie zwyciężył, na drzewie również został pokonany: przez Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesienie sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "Zjednoczeni w świętych obcowaniu obchodzimy uroczyście prześwięty dzień, w którym Pan nasz Jezus Chrystus został za nas ",
-        "id": "Communicantes"
+        "id": "Communicantes",
+        "label": "Communicantes",
+        "body": "Zjednoczeni w świętych obcowaniu obchodzimy uroczyście prześwięty dzień, w którym Pan nasz Jezus Chrystus został za nas wydany, i ze czcią wspominamy najpierw chwalebną zawsze Dziewicę Maryję, Matkę Boga i Pana naszego Jezusa Chrystusa a także Świętego Józefa, Oblubieńca Najświętszej Dziewicy, oraz świętych Apostołów i Męczenników Twoich: Piotra i Pawła, Andrzeja, Jakuba, Jana, Tomasza, Jakuba, Filipa, Bartłomieja, Mateusza, Szymona, Tadeusza, Linusa, Kleta, Klemensa, Sykstusa, Korneliusza, Cypriana, Wawrzyńca, Chryzogona, Jana i Pawła, Kosmę i Damiana, i wszystkich Świętych Twoich; dla ich zasług i modlitw racz nas we wszystkim otaczać Swą przemożną opieką. Przez tegoż Chrystusa Pana naszego. Amen.\n\nProsimy Cię przeto, Panie, abyś łaskawie przyjął tę ofiarę od nas, sług Twoich, jak również od całego ludu Twego. Składamy Ci ją na pamiątkę dnia, w którym Pan nasz Jezus Chrystus powierzył swoim uczniom sprawowanie misteriów Ciała i Krwi swojej. Racz dni nasze pokojem swym napełnić, od potępienia wiecznego nas uchronić i do grona wybranych Swoich zaliczyć. Przez tegoż Chrystusa, Pana naszego. Amen.\n\nRacz te dary ofiarne, prosimy Cię, Boże, w całej pełni pobłogosławić, przyjąć, zatwierdzić, uduchowić i miłymi sobie uczynić, aby się nam stały Ciałem i Krwią najmilszego Syna Twego, Pana naszego Jezusa Chrystusa.\n\nOn to w przeddzień męki, to jest dzisiaj, wziął chleb w swoje święte i czcigodne ręce, a podniósłszy oczy w niebo ku Tobie Bogu, Ojcu swemu wszechmogącemu, dzięki Ci składając pobłogosławił, połamał i rozdał uczniom swoim mówiąc: Bierzcie i jedzcie z tego wszyscy."
       },
       {
-        "body": "*J 13:12,13,15*\nPan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*J 13:12,13,15*\nPan Jezus, gdy skończył wieczerzę z uczniami swoimi, umył nogi ich i rzekł: «Czy wiecie, com wam uczynił, ja Pan i Mistrz? Przykład dałem wam, abyście i wy tak czynili»."
       },
       {
-        "body": "Posileni życiodajnym pokarmem prosimy Cię, Panie Boże nasz, aby najświętsza tajemnica, którą sprawujemy w doczesności, d",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Posileni życiodajnym pokarmem prosimy Cię, Panie Boże nasz, aby najświętsza tajemnica, którą sprawujemy w doczesności, dała nam udział w nieśmiertelnym Twym życiu.\nPrzez Pana…"
       },
       {
-        "body": "*Po skończeniu Mszy św. kapłan zmienia ornat na kapę i okadziwszy Najświętszy Sakrament przenosi Go w uroczystej procesj",
-        "id": "Post Missam"
+        "id": "Post Missam",
+        "label": "Po Mszy",
+        "body": "*Po skończeniu Mszy św. kapłan zmienia ornat na kapę i okadziwszy Najświętszy Sakrament przenosi Go w uroczystej procesji do przygotowanej specjalnie kaplicy. W czasie procesji śpiewa się hymn.*\n\n*Hymn Pange Lingua*\nSław, języku, tajemnicę\nCiała i najdroższej Krwi,\nKtórą, jako łask krynicę,\nWylał w czasie ziemskich dni\nTen, co Matkę miał Dziewicę,\nKról narodów, godzien czci.\n\nZ Panny czystej narodzony,\nPosłan zbawić ludzki ród,\nGdy po świecie, na wsze strony,\nZiarno słowa rzucił w lud,\nWtedy cudem niezgłębionym\nZamknął Swej pielgrzymki trud.\n\nW noc ostatnią przy wieczerzy\nZ tymi, których braćmi zwał,\nPełniąc wszystko, jak należy,\nCzego przepis prawny chciał,\nSam dwunastu się powierzył\nI za pokarm z rąk Swych dał.\n\nSłowem więc, wcielone Słowo,\nChleb zamienia w Ciało Swe,\nWino Krwią jest Chrystusową,\nDarmo wzrok to widzieć chce.\nTylko wiara Bożą mową,\nPewność o tym w serca śle.\n\nPrzed tak wielkim Sakramentem\nUpadajmy wszyscy wraz,\nNiech przed Nowym Testamentem\nStarych praw ustąpi czas.\nCo dla zmysłów niepojęte,\nNiech dopełni wiara w nas.\n\nBogu Ojcu i Synowi\nHołd po wszystkie nieśmy dni,\nNiech podaje wiek wiekowi\nHymn triumfu, dzięki, czci,\nA równemu Im Duchowi\nNiechaj wieczna chwała brzmi.\nAmen.\n\n*W kaplicy odbywa się powtórne okadzenie Najświętszego Sakramentu, po czym umieszcza się Go w tabernakulum i rozpoczyna się adoracja, która powinna trwać przynajmniej do północy. Wierni nawiedzający Najświętszy Sakrament w kaplicy uroczystego przechowania mogą uzyskać odpust zupełny pod zwykłymi warunkami.*"
       },
       {
-        "body": "\n*W pierwszych wiekach Kościoła zawsze po skończeniu Mszy św. zdejmowano z ołtarza obrusy. Dzisiaj jednak czynność ta ma",
-        "id": "Denudatione altaris"
+        "id": "Denudatione altaris",
+        "label": "Obnażenie Ołtarzy",
+        "body": "\n*W pierwszych wiekach Kościoła zawsze po skończeniu Mszy św. zdejmowano z ołtarza obrusy. Dzisiaj jednak czynność ta ma znaczenie symboliczne. Ołtarz, jak wiadomo, przedstawia samego Chrystusa Pana. Uroczyste obnażenie ołtarzy przypomina, że w czasie męki odarto Zbawiciela z szat usiłując zbezcześcić Jego ludzką godność. W czasie obnażania ołtarzy recytuje się psalm 21, który Pan Jezus odmawiał na krzyżu, stwierdzając w ten sposób, że jest on proroczą wizją Jego męki.*\n\n\n*Antyfona*\n*Ps 21:19*\nAnt. Dzielą między siebie moje szaty i o suknię moją los rzucają.\n (21:2) Boże mój, Boże mój, czemuś mnie opuścił? * Daleki jesteś od próśb, od słów mojego wołania.\n (21:3) Boże mój, wołam przez dzień, a nie słuchasz, * wołam i nocą, a nie zważasz na mnie.\n (21:4) A przecież Ty mieszkasz w świątyni, * Chwało Izraela!\n (21:5) Tobie zaufali ojcowie nasi, * zaufali, a Tyś ich uwolnił;\n (21:6) Do Ciebie wołali i zostali zbawieni, * Tobie ufali i nie doznali wstydu.\n (21:7) Ja zaś jestem robak a nie człowiek, * pośmiewisko ludzi i wzgarda pospólstwa.\n (21:8) Szydzą ze mnie wszyscy, którzy na mnie patrzą, * wargi rozwierają, potrząsają głową:\n (21:9) «Zaufał Panu: niechże Go wyzwoli, * niechże Go wyrwie, jeśli Go miłuje».\n (21:10) Tyś zaiste prowadził mnie od matczynego łona; * Tyś mnie czynił bezpiecznym u piersi mej matki.\n (21:11) Tobie od urodzenia zostałem oddany, * od łona matki mojej Tyś jest moim Bogiem.\n (21:12) Nie stój z dala ode mnie, bom jest trapiony, * bądź blisko: bo nie ma wspomożyciela.\n (21:13) Otoczyło mnie mnóstwo cielców, * Byki Baszanu mnie osaczają.\n (21:14) Rozwierają przeciwko mnie swoje paszcze, * jak lew drapieżny, ryczący.\n (21:15) Rozlałem się jak woda * i rozłączyły się wszystkie me kości:\n (21:15) Jak wosk się stała me serce * we wnętrzu moim topnieje.\n (21:16) Gardło me wyschło jak skorupa * język mój przywarł do podniebienia, w proch śmierci mnie obróciłeś.\n (21:17) Bo sfora psów mnie opadła, * osacza mnie zgraja złoczyńców.\n (21:18) Przebodli ręce i nogi moje, * policzyć mogę wszystkie moje kości.\n (21:19) A oni się wpatrują, sycą się mym widokiem; między siebie dzielą moje szaty * i los rzucają o moją suknię.\n (21:20) Ty zaś, o Panie, nie stój z daleka: * pomocy moja, śpiesz mi na ratunek.\n (21:21) Wyrwij spod miecza mą duszę * i życie me z psich pazurów.\n (21:22) Wybaw mnie z lwiej paszczęki * i mnie biednego od rogów bawolich.\n (21:23) Imię Twoje opowiem swym braciom * i chwalić Cię będę pośród zgromadzenia.\n (21:24) «Chwalcie Go wy, co się Pana boicie; sławcie Go, całe potomstwo Jakuba: * czcijcie Go, całe potomstwo Izraela.\n (21:25) Bo On nie wzgardził ani nie brzydził się nędzą biedaka.\n (21:25) Ani nie ukrył przed nim swojego oblicza * i wysłuchał go, kiedy zawołał do Niego».\n (21:26) Od Ciebie płynie ma pieśń pochwalna w wielkim zgromadzeniu, * śluby me wypełnię wobec bojących się Jego.\n (21:27) Ubodzy będę jedli i nasycą się, chwalić będą Pana, którzy Go szukają: * «serca wasze niech żyją na wieki».\n (21:28) Przypomną sobie i wrócą do Pana * wszystkie krańce ziemi;\n (21:28) I wszystkie szczepy pogańskie * padną na twarz przed Jego obliczem,\n (21:29) Bo królowanie należy do Pana, * i On panuje nad narodami.\n (21:30) Jego jedynego uwielbiają wszyscy, co śpią w ziemi, * przed Nim zegną się wszyscy, którzy w proch zstępują.\n (21:31) A dusza moja żyć będzie dla Niego, * potomstwo moje Jemu będzie służyć,\n (21:32) Przyszłemu pokoleniu o Panu opowie, * a sprawiedliwość Jego ogłoszą ludowi, co się narodzi: «Pan to uczynił».\nAnt. Dzielą między siebie moje szaty i o suknię moją los rzucają."
       }
     ]
   ],
@@ -25203,96 +25333,118 @@
   "2025-04-23": [
     [
       {
-        "body": "*Mt 25:34*\nPójdźcie, błogosławieni Ojca mego, i posiądźcie Królestwo, alleluja, zgotowane wam od założenia świata, allel",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Mt 25:34*\nPójdźcie, błogosławieni Ojca mego, i posiądźcie Królestwo, alleluja, zgotowane wam od założenia świata, alleluja, alleluja, alleluja.\n*Ps 95:1*\nŚpiewajcie Panu pieśń nową, śpiewajcie Panu, wszystkie krainy.\nChwała Ojcu…\nPójdźcie, błogosławieni Ojca mego, i posiądźcie Królestwo, alleluja, zgotowane wam od założenia świata, alleluja, alleluja, alleluja."
       },
       {
-        "body": "Boże, który co roku uweselasz nas obchodem Zmartwychwstania Pańskiego, spraw miłościwie, abyśmy obchodząc doczesne urocz",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który co roku uweselasz nas obchodem Zmartwychwstania Pańskiego, spraw miłościwie, abyśmy obchodząc doczesne uroczystości, stali się godnymi dostąpienia radości wiecznych.\nPrzez tegoż Pana…"
       },
       {
-        "body": "Czytanie z Dziejów Apostolskich.\n*Dz 3:13-15; 3:17-19*\nW one dni: Piotr otwierając swe usta rzekł: «Mężowie izraelscy i ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Dziejów Apostolskich.\n*Dz 3:13-15; 3:17-19*\nW one dni: Piotr otwierając swe usta rzekł: «Mężowie izraelscy i którzy lękacie się Boga, słuchajcie: Bóg Abrahama i Bóg Izaaka, i Bóg Jakuba, Bóg ojców naszych uwielbił Syna swego Jezusa, któregoście wy wydali i zaparli się przed Piłatem, choć ten sądził, że należy Go uwolnić. A wy zaparliście się świętego i sprawiedliwego prosiliście, aby wam ułaskawił morderce. Zabiliście tedy dawcę życia, którego Bóg wskrzesił z martwych, czego my świadkami jesteśmy. Ale teraz, bracia, wiem, żeście to z nieświadomości uczynili, jako i przełożeni wasi. Bóg zaś spełnił to, co był zapowiedział przez usta wszystkich Proroków, że Chrystus Jego miał cierpieć. Czyńcie przeto pokutę i nawróćcie się, aby zostały zgładzone grzechy wasze»."
       },
       {
-        "body": "Alleluja, alleluja\n*Ps 117:24; 117:16*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy.\n℣. Prawica Pańska moc ok",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja\n*Ps 117:24; 117:16*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy.\n℣. Prawica Pańska moc okazała, prawica Pańska dźwignęła mnie. Alleluja, alleluja.\n*Łk 24:34*\n℣. Prawdziwie powstał Pan z martwych i ukazał się Piotrowi."
       },
       {
-        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, g",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sekwencja",
+        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, grzeszniki.\nŚmierć i życie stoczyły z sobą walki dziwne: Umarły życia wódz – rządzi żywy.\nNa drodze, Maryja, coś widziała, wyjaw!\nGrobowiec Chrystusa żywego i chwałę znów zmartwychwstałego.\nAnielskie też świadki, i całun, i szatki.\nWskrzesł Chrystus, cel mej nadziei: Poprzedzi swoich do Galilei.\nWiemy: oto zmartwychwstał Chrystus prawdziwy: Zwycięski Królu, bądź miłościwy.\nAmen. Alleluja.\n*Powyższą sekwencję odmawia się do Soboty Białej włącznie.*"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 21:1-14*\nOnego czasu: Ukazał się znowu Jezus uczniom nad Morzem Tyberiad",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 21:1-14*\nOnego czasu: Ukazał się znowu Jezus uczniom nad Morzem Tyberiadzkim. A ukazał się tak oto: Byli razem Szymon Piotr i Tomasz, zwany Didymusem, Natanael z Kany Galilejskej, synowie Zebedeusza i dwaj inni z uczniów Jego. Rzekł do nich Szymon Piotr: Idę łowić ryby. Mówią mu: Pójdziemy i my z tobą. Poszli więc i wsiedli do łodzi, a nocy owej nic nie ułowili.\nA gdy nastał ranek, stanął Jezus na brzegu, ale uczniowie nie poznali, że to był Jezus. Rzekł im tedy Jezus: «Dzieci, a macie co jeść?» Odpowiedzieli Mu: «Nie». Rzekł im: «Zapuśćcie sieć po prawej stronie łodzi, a znajdziecie». Zapuścili tedy, a już nie mogli uciągnąć z powodu mnóstwa ryb. Tedy ów uczeń, którego miłował Jezus, rzekł do Piotra: «Pan to jest». A Szymon Piotr usłyszawszy, że to Pan jest, przywdział suknię (był bowiem nagi) i rzucił się w morze. Inni zaś uczniowie przypłynęli w łodzi (byli bowiem daleko od brzegu, jakoby na dwieście łokci) ciągnąc sieć z rybami.\nI gdy wyszli na ląd, ujrzeli węgle nałożone, rybę na nich leżącą i chleb. Rzecze im Jezus: «Przynieście z ryb, któreście teraz złowili». Poszedł Szymon Piotr i wyciągnął na ląd sieć napełnioną wielkimi rybami, których było sto pięćdziesiąt trzy. A chociaż było ich tyle, nie porwała się sieć. Mówi im Jezus: «Pójdźcie, jedzcie». I nikt z siedzących nie śmiał Go zapytać: Ktoś ty jest? bo wiedzieli, że to Pan jest. A Jezus zbliża się, bierze chleb i daje im, a podobnież i rybę. I tak już po raz trzeci ukazał się Jezus uczniom swoim, odkąd powstał z martwych."
       },
       {
-        "body": "*Ps 77:23-25*\nPan otworzył bramy nieba; jak deszcz im spuścił mannę na pokarm; obdarzył ich chlebem niebieskim; chleb An",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 77:23-25*\nPan otworzył bramy nieba; jak deszcz im spuścił mannę na pokarm; obdarzył ich chlebem niebieskim; chleb Aniołów pożywał człowiek, alleluja."
       },
       {
-        "body": "Wśród radości wielkanocnych składamy Ci, Panie, tę ofiarę, którą Kościół Twój cudownie karmi się i odżywia.\nPrzez Pana…",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wśród radości wielkanocnych składamy Ci, Panie, tę ofiarę, którą Kościół Twój cudownie karmi się i odżywia.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Rz 6:9*\n*W Komunii świętej przyjmujemy Ciało Chrystusa zmartwychwstałego, które jest zadatkiem naszego życia wiecznego.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Rz 6:9*\n*W Komunii świętej przyjmujemy Ciało Chrystusa zmartwychwstałego, które jest zadatkiem naszego życia wiecznego.*\nChrystus powstawszy z martwych więcej nie umiera, alleluja; śmierć więcej już nad Nim nie zapanuje, alleluja, alleluja."
       },
       {
-        "body": "Prosimy Cię, Panie, niechaj pełne czci przyjęcie Twojego Sakramentu oczyści nas z pozostałości starego człowieka i przem",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, Panie, niechaj pełne czci przyjęcie Twojego Sakramentu oczyści nas z pozostałości starego człowieka i przemieni w nowe stworzenie:\nKtóry żyjesz…"
       }
     ]
   ],
   "2025-04-24": [
     [
       {
-        "body": "*Mdr 10:20-21*\nZwycięską rękę Twą, Panie, jednomyślnie wychwalali, alleluja, bo mądrość otworzyła usta niemych, a języki",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Mdr 10:20-21*\nZwycięską rękę Twą, Panie, jednomyślnie wychwalali, alleluja, bo mądrość otworzyła usta niemych, a języki niemowląt uczyniła wymownymi, alleluja, alleluja, alleluja.\n*Ps 97:1*\nŚpiewajcie Panu pieśń nową, albowiem cuda uczynił.\nChwała Ojcu…\nZwycięską rękę Twą, Panie, jednomyślnie wychwalali, alleluja, bo mądrość otworzyła usta niemych, a języki niemowląt uczyniła wymownymi, alleluja, alleluja, alleluja."
       },
       {
-        "body": "Boże, który zjednoczyłeś różne narody w wyznawaniu Twojego imienia, daj, aby ci, co się odrodzili w wodzie Chrztu, zacho",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który zjednoczyłeś różne narody w wyznawaniu Twojego imienia, daj, aby ci, co się odrodzili w wodzie Chrztu, zachowali jedność wiary w duchu i miłość w uczynkach.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Dziejów Apostolskich.\n*Dz 8:26-40*\n*Bez pomocy diakona Filipa Etiopczyk nigdy by nie rozumiał proroctw Izajas",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Dziejów Apostolskich.\n*Dz 8:26-40*\n*Bez pomocy diakona Filipa Etiopczyk nigdy by nie rozumiał proroctw Izajasza. Po wytłumaczenie Pisma św. zawsze trzeba udawać się do Kościoła, który otrzymał posłannictwo nauczania.*\nW one dni: Anioł Pański rzekł do Filipa mówiąc: «Wstań, a idź ku południowi na drogę wiodącą z Jerozolimy do Gazy: jest ona pusta». I powstawszy poszedł. A oto Etiopczyk, rzezaniec, dostojnik królowej etiopskiej, Kandaki, który był jej podskarbim, przyjechał był do Jerozolimy, aby pokłonić się (Bogu). I wracał siedząc na wozie swoim i czytając Izajasza proroka.\nI rzekł Duch do Filipa: «Przystąp i przyłącz się do tego wozu». A Filip przybiegłszy usłyszał go czytającego Izajasza proroka i rzekł: «Czy sądzisz, że rozumiesz, co czytasz?» On zaś odpowiedział: «Jakże mogę, jeśli nikt nie wyjaśni?» I prosił Filipa, aby wszedł na wóz i siadł przy nim. A tekst Pisma, które czytał, był ten: Jako owca na zabicie był prowadzony i jako cichy baranek przed strzygącym go, tak on nie otworzył ust swoich. W uniżeniu jego wyrok mu zniesiono. Ród jego któż wypowiedzieć zdoła. Bo zgładzony będzie z ziemi żywot jego.\nA rzezaniec odpowiadając Filipowi rzekł: «Proszę cię, o kim to Prorok mówi? O sobie czy o kim innym?» A Filip otworzywszy usta swoje i zaczynając od tego Pisma opowiedział mu dobrą nowinę o Jezusie. A gdy jechali drogą, przybyli nad wodę. I rzekł rzezaniec: «Oto woda! Cóż przeszkadza, abym był ochrzczony?» I rzekł Filip: «Jeśli wierzysz z całego serca, wolno ci». A odpowiadając rzekł: «Wierzę, że Jezus Chrystus jest Synem Bożym». I kazał zatrzymać wóz, i wstąpili obydwaj, Filip i rzezaniec, do wody, i ochrzcił go.\nA gdy wyszli z wody, Duch Pański porwał Filipa i nie widział go więcej rzezaniec, ale jechał uradowany drogą swoją. A Filip znalazł się w Azocie i obchodząc wszystkie miasta (aż przyszedł do Cezarei) głosił imię Pana Jezusa Chrystusa."
       },
       {
-        "body": "Alleluja, alleluja\n*Ps 117:24; 117:22-23*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy.\n℣. Kamień, odrzucony ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja\n*Ps 117:24; 117:22-23*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy.\n℣. Kamień, odrzucony przez budujących, stał się kamieniem węgielnym. Stało się to przez Pana; cudem jest w oczach naszych. Alleluja, alleluja,\n℣. Powstał z martwych Chrystus, Stwórca wszechrzeczy, i zmiłował się nad rodzajem ludzkim."
       },
       {
-        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, g",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sekwencja",
+        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, grzeszniki.\nŚmierć i życie stoczyły z sobą walki dziwne: Umarły życia wódz – rządzi żywy.\nNa drodze, Maryja, coś widziała, wyjaw!\nGrobowiec Chrystusa żywego i chwałę znów zmartwychwstałego.\nAnielskie też świadki, i całun, i szatki.\nWskrzesł Chrystus, cel mej nadziei: Poprzedzi swoich do Galilei.\nWiemy: oto zmartwychwstał Chrystus prawdziwy: Zwycięski Królu, bądź miłościwy.\nAmen. Alleluja.\n*Powyższą sekwencję odmawia się do Soboty Białej włącznie.*"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:11-18*\nOnego czasu: Maria stała u grobu zewnątrz i płakała. płacząc n",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:11-18*\nOnego czasu: Maria stała u grobu zewnątrz i płakała. płacząc nachyliła się, i zajrzała do grobu. I spostrzegła dwóch Aniołów w bieli siedzących, jednego u głowy, a drugiego u nóg, gdzie było złożone ciało Jezusowe. Mówią jej oni: «Niewiasto, czemu płaczesz?» Rzecze im: «Wzięto Pana mego, a nie wiem, gdzie Go położono». To powiedziawszy. obróciła się za siebie i ujrzała Jezusa stojącego, a nie wiedziała, że był to Jezus. Rzecze jej Jezus: «Niewiasto, czemu płaczesz? Kogo szukasz?» A ona mniemając, że był to ogrodnik, rzecze mu: «Panie, jeśliś ty Go zabrał, powiedz mi, gdzieś Go złożył, a ja Go wezmę». Rzecze jej Jezus: «Mario». Ona zaś obróciwszy się rzecze Mu: «Rabboni (co znaczy: Mistrzu)». Rzecze jej Jezus: «Nie dotykaj mnie, jeszcze bowiem nie wstąpiłem do Ojca mego, ale idź do braci moich i powiedz im: wstępuję do Ojca mego, i Ojca waszego, Boga mego i Boga waszego». Przyszła więc Maria Magdalena oznajmiając uczniom: «Widziałam Pana i to mi powiedział»."
       },
       {
-        "body": "*Wj 13:5*\nW dniu uroczystości waszej, mówi Pan, wprowadzę was do ziemi opływającej mlekiem i miodem, alleluja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Wj 13:5*\nW dniu uroczystości waszej, mówi Pan, wprowadzę was do ziemi opływającej mlekiem i miodem, alleluja."
       },
       {
-        "body": "Prosimy Cię, Panie, przyjmij łaskawie dary Swoich ludów, aby odrodzone przez wyznanie Twojego imienia i Chrzest osiągnęł",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Prosimy Cię, Panie, przyjmij łaskawie dary Swoich ludów, aby odrodzone przez wyznanie Twojego imienia i Chrzest osiągnęły szczęście wiekuiste.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*1 P 2:9*\nLudu nabyty, opowiadaj wielkie sprawy Jego, alleluja: On ciebie wezwał z ciemności ku swojej przedziwnej świat",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*1 P 2:9*\nLudu nabyty, opowiadaj wielkie sprawy Jego, alleluja: On ciebie wezwał z ciemności ku swojej przedziwnej światłości, alleluja."
       },
       {
-        "body": "Wysłuchaj, Panie, modlitwy nasze, aby to święte i zbawienne zjednoczenie było nam pomocą w życiu doczesnym i wyjednało r",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Wysłuchaj, Panie, modlitwy nasze, aby to święte i zbawienne zjednoczenie było nam pomocą w życiu doczesnym i wyjednało radość wieczną.\nPrzez Pana…"
       }
     ]
   ],
@@ -25347,92 +25499,113 @@
   "2025-04-26": [
     [
       {
-        "body": "*Ps 4:43*\nPan wyprowadził lud swój z radością, alleluja, z weselem swoich wybranych, alleluja, alleluja.\n*Ps 4:1*\nChwalc",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 4:43*\nPan wyprowadził lud swój z radością, alleluja, z weselem swoich wybranych, alleluja, alleluja.\n*Ps 4:1*\nChwalcie Pana i wzywajcie Jego imienia: dzieła Jego głoście wśród narodów.\nChwała Ojcu…\nPan wyprowadził lud swój z radością, alleluja, z weselem swoich wybranych, alleluja, alleluja."
       },
       {
-        "body": "Spraw, prosimy Cię, wszechmogący Boże, abyśmy mocą uroczystości paschalnych, które ze czcią obchodziliśmy, mogli dojść d",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Spraw, prosimy Cię, wszechmogący Boże, abyśmy mocą uroczystości paschalnych, które ze czcią obchodziliśmy, mogli dojść do wiecznych radości.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 2:1-10*\nNajmilsi: Usunąwszy wszelką złość oraz wszelki podstęp, obłudę, ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Piotra Apostoła.\n*1 P 2:1-10*\nNajmilsi: Usunąwszy wszelką złość oraz wszelki podstęp, obłudę, zazdrość i wszystkie obmowy, jako dopiero narodzone niemowlęta pożądajcie czystego, duchowego mleka, abyście przez nie wzrastali ku zbawieniu. Jeśli tylko skosztowaliście, że słodki jest Pan.\nZbliżając się do Niego, będącego żywym kamieniem, odrzuconym wprawdzie przez ludzi, ale wybranym i cenionym przez Boga, i wy sami jako żywe kamienie wesprzecie się na Nim, wchodząc w skład domu duchowego, świętego kapłaństwa dla składania duchowych ofiar miłych Bogu przez Jezusa Chrystusa. Bo powiedziane jest w Piśmie: Oto kładę na Syjonie kamień węgielny, wybrany, kosztowny, a kto weń uwierzy, zawiedziony nie będzie. Wam tedy wierzącym cześć, a dla niewierzących kamień, który odrzucili budujący, ten stał się głównym węgłem. I kamieniem obrazy i opoką zgorszenia dla tych, którzy zrażają się słowem nie wierząc temu, do czego przeznaczeni zostali. Wy jednak jesteście rodzajem wybranym, królewskim kapłaństwem, narodem świętym, ludem nabytym, abyście głosili potęgę Tego, który z ciemności wezwał was do swego przedziwnego światła. Wy, coście niegdyś nie byli ludem, a teraz jesteście ludem Bożym, coście nie dostąpili byli miłosierdzia, a teraz miłosierdzia doznali."
       },
       {
-        "body": "Alleluja, alleluja\n*7:24*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy, alleluja.\n*Ps 112:1*\nChwalcie, o dzie",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja\n*7:24*\nOto dzień, który Pan uczynił; radujmy się zeń i weselmy, alleluja.\n*Ps 112:1*\nChwalcie, o dzieci, Pana, chwalcie imię Pańskie."
       },
       {
-        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, g",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sekwencja",
+        "body": "Hołd Ofierze Wielkanocnej składajcie chrześcijanie.\nJagnię zbawiło owce: Chrystus niewinny z Ojcem znowu pojednał nas, grzeszniki.\nŚmierć i życie stoczyły z sobą walki dziwne: Umarły życia wódz – rządzi żywy.\nNa drodze, Maryja, coś widziała, wyjaw!\nGrobowiec Chrystusa żywego i chwałę znów zmartwychwstałego.\nAnielskie też świadki, i całun, i szatki.\nWskrzesł Chrystus, cel mej nadziei: Poprzedzi swoich do Galilei.\nWiemy: oto zmartwychwstał Chrystus prawdziwy: Zwycięski Królu, bądź miłościwy.\nAmen. Alleluja.\n*Powyższą sekwencję odmawia się do Soboty Białej włącznie.*"
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:1-9*\nOnego czasu: Pierwszego dnia tygodnia rankiem, gdy jeszcze był m",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:1-9*\nOnego czasu: Pierwszego dnia tygodnia rankiem, gdy jeszcze był mrok, przyszła do grobowca Maria Magdalena i ujrzała kamień odsunięty od grobu. Pobiegła przeto i przyszła do Szymona Piotra i do drugiego ucznia, którego miłował Jezus, i rzekła im: «Zabrano Pana z grobu, a nie wiemy, gdzie Go położono».\nWyszedł tedy Piotr i ów drugi uczeń i przyszli do grobu. I biegli obaj razem, a ów drugi uczeń wyprzedził Piotra i pierwszy przybył do grobu. A nachyliwszy się ujrzał leżące prześcieradła, wszelako nie wszedł. Przyszedł tedy Szymon Piotr, idąc za nim wszedł do grobowca i ujrzał leżące prześcieradła oraz chustę, która była na głowie Jego, leżącą nie razem z prześcieradłami, ale zwiniętą osobno na jednym miejscu. Wtedy więc wszedł i ów uczeń, który pierwszy przybył do grobu – zobaczył i uwierzył. Nie rozumieli bowiem jeszcze Pisma, że trzeba było, aby On powstał z martwych."
       },
       {
-        "body": "*Ps 7:26-27*\nBłogosławiony, który przybywa w imię Pańskie; błogosławimy wam z Pańskiego domu. Pan jest Bogiem i zajaśnia",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 7:26-27*\nBłogosławiony, który przybywa w imię Pańskie; błogosławimy wam z Pańskiego domu. Pan jest Bogiem i zajaśniał nam, alleluja, alleluja, alleluja."
       },
       {
-        "body": "Dozwól nam, prosimy Cię, Panie, radować się zawsze tajemnicą paschalną, a trwałe działanie łaski Odkupienia niech nas pr",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Dozwól nam, prosimy Cię, Panie, radować się zawsze tajemnicą paschalną, a trwałe działanie łaski Odkupienia niech nas przejmuje nieustannym weselem.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Ga 3:27*\nWszyscy, którzyście zostali ochrzczeni w Chrystusie, przyoblekliście się w Chrystusa, alleluja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Ga 3:27*\nWszyscy, którzyście zostali ochrzczeni w Chrystusie, przyoblekliście się w Chrystusa, alleluja."
       },
       {
-        "body": "Umocnieni darem naszego Odkupienia prosimy Cię, Panie, aby dzięki temu Sakramentowi wiecznego zbawienia prawdziwa wiara ",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Umocnieni darem naszego Odkupienia prosimy Cię, Panie, aby dzięki temu Sakramentowi wiecznego zbawienia prawdziwa wiara czyniła nieustanne postępy.\nPrzez Pana…"
       }
     ]
   ],
   "2025-04-27": [
     [
       {
-        "body": "*1 P 2:2*\nJako dopiero narodzone niemowlęta, alleluja, pożądajcie duchowego, czystego mleka, alleluja, alleluja alleluja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*1 P 2:2*\nJako dopiero narodzone niemowlęta, alleluja, pożądajcie duchowego, czystego mleka, alleluja, alleluja alleluja.\n*Ps 80:2*\nRadośnie śpiewajcie Bogu, obrońcy naszemu, wykrzykujcie Bogu Jakuba.\nChwała Ojcu…\nJako dopiero narodzone niemowlęta, alleluja, pożądajcie duchowego, czystego mleka, alleluja, alleluja alleluja."
       },
       {
-        "body": "Spraw, prosimy Cię, wszechmogący Boże, abyśmy ukończywszy obchód świąt wielkanocnych, za łaską Twoją zachowali ich ducha",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Spraw, prosimy Cię, wszechmogący Boże, abyśmy ukończywszy obchód świąt wielkanocnych, za łaską Twoją zachowali ich ducha w życiu i postępowaniu.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Jana Apostoła.\n*1 J 5:4-10*\n*Chrystus żyje i działa w nas przez trzy elementy: wodę Chrztu, Kr",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Jana Apostoła.\n*1 J 5:4-10*\n*Chrystus żyje i działa w nas przez trzy elementy: wodę Chrztu, Krew obecną w Eucharystii i tchnienie Ducha Świętego w sakramencie Bierzmowania. Nasze życie przekształcone przez te trzy elementy staje się świadectwem wiary chrześcijańskiej. Sam Bóg jest sprawcą tego świadectwa.*\nNajmilsi: Wszystko, co się narodziło z Boga, zwycięża świat, a zwycięstwem, które odnosimy nad światem jest wiara nasza. Któż jest, który zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym? Jest to ten sam Jezus Chrystus, który przyszedł przez wodę i przez krew; nie w wodzie tylko, ale w wodzie i we krwi. A Duch świadczy, że Chrystus jest prawdą.\nAlbowiem Trójca wydaje świadectwo na niebie: Ojciec, Syn i Duch Święty, a Trójca ta jednym jest. Jeśli świadectwo ludzkie przyjmujemy, świadectwo Boże większe jest. Bo to jest świadectwo Boże, które większe jest, przez które zaświadczył o Synu swoim. Kto wierzy w Syna Bożego, nosi w sobie świadectwo Boże."
       },
       {
-        "body": "Alleluja, alleluja.\n*Mt 28:7*\nW dzień mojego Zmartwychwstania – mówi Pan – pójdę przed wami do Galilei. Alleluja.\n*J 20:",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja.\n*Mt 28:7*\nW dzień mojego Zmartwychwstania – mówi Pan – pójdę przed wami do Galilei. Alleluja.\n*J 20:26*\nPo ośmiu dniach, mimo drzwi zamkniętych, stanął Jezus pośrodku uczniów swoich i rzekł: Pokój wam. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:19-31*\nOnego czasu: Wieczorem dnia owego, pierwszego po szabacie, gdy",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Jana.\n*J 20:19-31*\nOnego czasu: Wieczorem dnia owego, pierwszego po szabacie, gdy drzwi były zamknięte tam, gdzie z bojaźni gromadzili się uczniowie, przyszedł Jezus, stanął między nimi i rzekł im: «Pokój wam». A to powiedziawszy ukazał im ręce i bok. Uradowali się tedy uczniowie, ujrzawszy Pana. Rzekł im przeto znowu: «Pokój wam. Jako mnie posłał Ojciec i ja was posyłam». To powiedziawszy tchnął na nich i rzekł im: «Weźmijcie Ducha Świętego. Którym odpuścicie grzechy, są im odpuszczone, a którym zatrzymacie, są im zatrzymane».\nA Tomasz, jeden z dwunastu, zwany Didymus, nie był razem z nimi, kiedy przyszedł Jezus. Powiedzieli mu tedy inni uczniowie: «Widzieliśmy Pana». A on im rzekł: «Jeśli nie ujrzę na rękach Jego przebicia gwoźdźmi i nie włożę palca mego w miejsce gwoździ, i nie włożę ręki mojej w bok Jego, nie uwierzę».\nA po ośmiu dniach byli znowu uczniowie Jego w domu i Tomasz z nimi. Wszedł Jezus, a drzwi były zamknięte, stanął między nimi i rzekł: «Pokój wam». Potem rzekł do Tomasza. «Włóż tu palec twój i oglądaj ręce moje, i wyciągnij rękę twoją, i włóż w bok mój, a nie bądź niewiernym, lecz wierzącym». A odpowiadając Tomasz rzekł Mu: «Pan mój i Bóg mój». Rzecze mu Jezus: «Uwierzyłeś dlatego żeś mię ujrzał. Tomaszu, błogosławieni, którzy nie widzieli, a uwierzyli».\nWiele też innych jeszcze cudów uczynił Jezus wobec uczniów swoich, które nie są w tej księdze spisane. Te zaś spisane są, abyście uwierzyli, że Jezus jest Chrystusem, Synem Bożym, i żebyście przez wiarę żywot mieli w imię Jego."
       },
       {
-        "body": "*Mt 28:2; 28:5-6*\nAnioł Pański zstąpił z nieba i rzekł niewiastom: Ten, którego szukacie zmartwychwstał jak zapowiedział",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Mt 28:2; 28:5-6*\nAnioł Pański zstąpił z nieba i rzekł niewiastom: Ten, którego szukacie zmartwychwstał jak zapowiedział, alleluja."
       },
       {
-        "body": "Przyjmij prosimy Cię, Panie, dary weselącego się Kościoła i skoro dałeś mu powód do tak wielkiej radości, udziel mu jako",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Przyjmij prosimy Cię, Panie, dary weselącego się Kościoła i skoro dałeś mu powód do tak wielkiej radości, udziel mu jako owocu pełni radości wiekuistej.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*J 20:27*\nWłóż rękę twoją i rozpoznaj miejsce gwoździ, alleluja i nie bądź niewiernym lecz wierzącym, alleluja, alleluja",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*J 20:27*\nWłóż rękę twoją i rozpoznaj miejsce gwoździ, alleluja i nie bądź niewiernym lecz wierzącym, alleluja, alleluja."
       },
       {
-        "body": "Prosimy Cię, Panie, Boże nasz, aby święte tajemnice, które ustanowiłeś dla zapewnienia naszego zbawienia, stały się leka",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Prosimy Cię, Panie, Boże nasz, aby święte tajemnice, które ustanowiłeś dla zapewnienia naszego zbawienia, stały się lekarstwem dla życia doczesnego i przyszłego.\nPrzez Pana…"
       }
     ]
   ],
@@ -25527,44 +25700,54 @@
   "2025-04-30": [
     [
       {
-        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obfic",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 44:8*\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)\n*Ps 44:2*\nZ mego serca płynie piękne słowo, pieśń moją śpiewam dla Króla.\nChwała Ojcu…\nMiłujesz sprawiedliwość, a nienawidzisz nieprawości, dlatego Bóg, twój Bóg, namaścił cię olejkiem wesela obficiej niż twe towarzyszki. (Alleluja, alleluja.)"
       },
       {
-        "body": "Prosimy Cię, wszechmogący Boże, abyśmy czcząc narodziny dla nieba świętej Dziewicy Twojej Katarzyny, radowali się każdeg",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Prosimy Cię, wszechmogący Boże, abyśmy czcząc narodziny dla nieba świętej Dziewicy Twojej Katarzyny, radowali się każdego roku z jej uroczystości i korzystali z przykładu tak wielkiej cnoty.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi w Panu. Nie ten bowiem, kto zaleca samego siebie, wart jest uznania, ale ten, którego Bóg zaleca. Obyście znieść mogli nieco szaleństwa z mej strony. Zechciejcie znieść i mnie. Ubiegam się bowiem o was z gorliwością, która z Boga jest, bo poślubiłem was jednemu mężowi, aby was okazać czystą dziewicą Chrystusowi."
       },
       {
-        "body": "Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja.\n*Ps",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduał",
+        "body": "Alleluja, alleluja.\n*Ps 44:15-16*\nZa nią prowadzą do Króla dziewice, jej druhny wiodą do niego z radością. Alleluja.\n*Ps 44:5*\nW chwale i piękności swojej wystąp, walcz zwycięsko i króluj. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 25:1-13*\nOnego czasu: Powiedział Jezus uczniom swoim tę przypowieść: «Podobne będzie Królestwo Niebieskie dziesięciu pannom, które wziąwszy lampy wyszły na spotkanie oblubieńca i oblubienicy. Pięć z nich było głupich, a pięć mądrych. Ale pięć głupich, wziąwszy lampy, nie zabrały ze sobą oliwy, mądre natomiast wzięły oliwy w naczynia swoje wraz z lampami. A gdy się oblubieniec opóźniał, zdrzemnęły się wszystkie i posnęły.\nWszakże o północy rozległo się wołanie: Oto oblubieniec nadchodzi, wynijdźcie mu na spotkanie. Wtedy powstały wszystkie owe panny i opatrzyły lampy swoje. Głupie zaś rzekły do mądrych: Dajcie nam waszej oliwy, bo gasną lampy nasze. Odpowiedziały mądre, mówiąc: Aby snadź nie zabrakło nam i wam, idźcie raczej do sprzedających i kupcie sobie. A gdy one poszły kupować, przybył oblubieniec i te, które były gotowe, weszły z nim na gody. A zamknięto drzwi. W końcu przyszły i pozostałe panny, mówiąc: Panie, panie, otwórz nam! A on, odpowiadając, rzekł: Zaprawdę mówię wam, że was nie znam.\nCzuwajcież tedy, bo nie wiecie dnia ani godziny»."
       },
       {
-        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Allelui",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 44:10*\nCórki królewskie idą ci naprzeciw, królowa stoi po prawicy Twojej strojna w złoto i szatę wzorzystą. (Alleluia.)"
       },
       {
-        "body": "Niech dojdą do Ciebie, Panie, nasze modlitwy, które zanosimy w uroczystość świętej Katarzyny wraz ze zbawienną ofiarą, o",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Przyjmij, Panie, ofiarę, którą lud Tobie oddany składa ku czci Twoich Świętych, uznając, że dzięki ich zasługom doznał pomocy w ucisku.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkanocna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy Ciebie, Panie, zawsze, a zwłaszcza w tym dniu (w tym czasie) uroczyściej sławili, gdy jako nasza Pascha został ofiarowany Chrystus. On bowiem jest prawdziwym Barankiem, który zgładził grzechy świata; On umierając zniweczył naszą śmierć i zmartwychwstając przywrócił nam życie.\nPrzeto z Aniołami i Archaniołami, z Tronami i Państwami oraz ze wszystkimi hufcami wojska niebieskiego śpiewamy hymn ku Twej chwale, wołając bez końca:"
       },
       {
-        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblub",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 25:4; 25:6*\nPięć panien mądrych wzięło oliwy w naczynia swoje z lampami. A o północy rozległo się wołanie: Oto oblubieniec nadchodzi; wyjdźcie na spotkanie Chrystusa Pana. (Alleluja.)"
       },
       {
-        "body": "Niech nam udzieli wiecznego życia spożyty przez nas niebieski pokarm, który podtrzymywał nawet doczesne życie świętej Dz",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Nasyciłeś, Panie, rodzinę Twoją świętymi darami: wzmacniaj nas stale za wstawiennictwem tej, której uroczystość obchodzimy.\nPrzez Pana…"
       }
     ]
   ],

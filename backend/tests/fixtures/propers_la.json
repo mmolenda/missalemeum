@@ -3167,168 +3167,208 @@
   "2024-03-04": [
     [
       {
-        "body": "*Ps 55:5.*\nIn Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo, non timebo, quid fáciat mihi homo.\n*Ps 55:",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 55:5.*\nIn Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo, non timebo, quid fáciat mihi homo.\n*Ps 55:2*\nMiserére mei, Deus, quóniam conculcávit me homo: tota die bellans tribulávit me.\nGlória Patri…\nIn Deo laudábo verbum, in Dómino laudábo sermónem: in Deo sperábo, non timebo, quid fáciat mihi homo."
       },
       {
-        "body": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut, sicut ab escis carnálibus abstinémus; ita sensus ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Córdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut, sicut ab escis carnálibus abstinémus; ita sensus quoque nostros a nóxiis retrahámus excéssibus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nDeus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte co",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nDeus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus intercessióne fidéles tui terréna despíciant, et ad cœléstia semper aspírent.\nPer Dominum…\n*Commemoratio S. Lucii*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Regum.\n*4 Reg 5:1-15*\nIn diébus illis: Náaman, princeps milítiæ regis Sýriæ, erat vir magnus apud dóminum s",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Regum.\n*4 Reg 5:1-15*\nIn diébus illis: Náaman, princeps milítiæ regis Sýriæ, erat vir magnus apud dóminum suum, et honorátus: per illum enim dedit Dóminus salútem Sýriæ: erat autem vir fortis et dives, sed leprósus. Porro de Sýria egréssi fúerant latrúnculi, et captívam dúxerant de terra Israël puéllam párvulam, quæ erat in obséquio uxóris Náaman, quæ ait ad dóminam suam: Utinam fuísset dóminus meus ad Prophétam, qui est in Samaría: profécto curásset eum a lepra, quam habet. Ingréssus est ítaque Náaman ad dóminum suum, et nuntiávit ei, dicens: Sic et sic locúta est puélla de terra Israël. Dixítque ei rex Sýriæ: Vade, et mittam lítteras ad regem Israël. Qui cum proféctus esset, et tulísset secum decem talénta argénti, et sex míllia áureos, et decem mutatória vestimentórum, détulit lítteras ad regem Israël in hæc verba: Cum accéperis epístolam hanc, scito, quod míserim ad te Náaman servum meum, ut cures eum a lepra sua. Cumque legísset rex Israël lítteras, scidit vestiménta sua, et ait: Numquid Deus ego sum, ut occídere possim et vivificáre, quia iste misit ad me, ut curem hóminem a lepra sua? animadvértite et vidéte, quod occasiónes quærat advérsum me. Quod cum audísset Eliséus vir Dei, scidísse vidélicet regem Israël vestiménta sua, misit ad eum, dicens: Quare scidísti vestiménta tua? véniat ad me, et sciat esse prophétam in Israël. Venit ergo Náaman cum equis et cúrribus, et stetit ad óstium domus Eliséi: misítque ad eum Eliséus núntium, dicens: Vade, et laváre sépties in Jordáne, et recípiet sanitátem caro tua, atque mundáberis. Irátus Náaman recedébat, dicens: Putábam, quod egrederétur ad me, et stans invocáret nomen Dómini, Dei sui, et tángeret manu sua locum lepræ, et curáret me. Numquid non melióres sunt Abana et Pharphar, flúvii Damásci, ómnibus aquis Israël, ut laver in eis, et munder? Cum ergo vertísset se, et abíret indígnans, accessérunt ad eum servi sui, et locúti sunt ei: Pater, et si rem grandem dixísset tibi Prophéta, certe fácere debúeras: quanto magis quia nunc dixit tibi: Laváre, et mundáberis? Descéndit, et lavit in Jordáne sépties, juxta sermónem viri Dei, et restitúta est caro ejus, sicut caro púeri párvuli, et mundátus est. Reversúsque ad virum Dei cum univérso comitátu suo, venit, et stetit coram eo, et ait: Vere scio, quod non sit álius Deus in univérsa terra, nisi tantum in Israël."
       },
       {
-        "body": "*Ps 55:9, 2*\nDeus, vitam meam annuntiávi tibi: posuísti lácrimas meas in conspéctu tuo.\n℣. Miserére mei, Dómine, quóniam",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 55:9, 2*\nDeus, vitam meam annuntiávi tibi: posuísti lácrimas meas in conspéctu tuo.\n℣. Miserére mei, Dómine, quóniam conculcávit me homo: tota die bellans tribulávit me.\n\n*Tractus*\n*Ps 102:10*\nDómine, non secúndum peccáta nostra, quæ fécimus nos: neque secúndum iniquitátes nostras retríbuas nobis.\n*Ps 78:8-9*\n℣. Dómine, ne memíneris iniquitátum nostrárum antiquárum: cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. (Hic genuflectitur)\n℣. Adjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: et propítius esto peccátis nostris, propter nomen tuum."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam.\n*Luc 4:23-30.*\nIn illo témpore: Dixit Jesus pharisǽis: Utique dicétis mihi ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam.\n*Luc 4:23-30.*\nIn illo témpore: Dixit Jesus pharisǽis: Utique dicétis mihi hanc similitúdinem: Médice, cura teípsum: quanta audívimus facta in Caphárnaum, fac et hic in pátria tua. Ait autem: Amen, dico vobis, quia nemo prophéta accéptus est in pátria sua. In veritáte dico vobis, multæ víduæ erant in diébus Elíæ in Israël, quando clausum est cœlum annis tribus et ménsibus sex, cum facta esset fames magna in omni terra: et ad nullam illárum missus est Elías, nisi in Sarépta Sidóniæ ad mulíerem víduam. Et multi leprósi erant in Israël sub Eliséo Prophéta: et nemo eórum mundátus est nisi Náaman Syrus. Et repléti sunt omnes in synagóga ira, hæc audiéntes. Et surrexérunt, et ejecérunt illum extra civitátem: et duxérunt illum usque ad supercílium montis, super quem cívitas illórum erat ædificáta, ut præcipitárent eum. Ipse autem tránsiens per médium illórum, ibat."
       },
       {
-        "body": "*Ps 54:2-3*\nExáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me, et exáudi me.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 54:2-3*\nExáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me, et exáudi me."
       },
       {
-        "body": "Munus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre nobis pérfice sacraméntum.\nPer Dominum…",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Munus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre nobis pérfice sacraméntum.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nLaudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nLaudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…\n*Commemoratio S. Lucii*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens ætérne Deus: Qui corporáli ieiúnio vítia cómprimis, mentem élevas, virtútem largíris et prǽmia: per Christum Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces, ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:"
       },
       {
-        "body": "*Ps 13:7*\nQuis dabit ex Sion salutáre Israël? cum avérterit Dóminus captivitátem plebis suæ, exsultábit Jacob, et lætábi",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Ps 13:7*\nQuis dabit ex Sion salutáre Israël? cum avérterit Dóminus captivitátem plebis suæ, exsultábit Jacob, et lætábitur Israël."
       },
       {
-        "body": "Præsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Præsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…\n*Commemoratio S. Lucii*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       },
       {
-        "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nSubvéniat nobis, Dómine, misericórdia tua: ut ab imminéntibu",
-        "id": "Super populum"
+        "id": "Super populum",
+        "label": "Super populum",
+        "body": "*Oratio super populum*\nOrémus.\nHumiliáte cápita vestra Deo.\nSubvéniat nobis, Dómine, misericórdia tua: ut ab imminéntibus peccatórum nostrórum perículis, te mereámur protegénte éripi, te liberánte salvári.\nPer Dominum…"
       }
     ],
     [
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n*Ps 36:1*\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\nGlória Patri…\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)"
       },
       {
-        "body": "Deus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus i",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus intercessióne fidéles tui terréna despíciant, et ad cœléstia semper aspírent.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua prot",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Lucii*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nCórdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut, sicut ab escis carnálibus abstinémus; ita sensus quoque nostros a nóxiis retrahámus excéssibus.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec speráv",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándu",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduale",
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n*Ps 111:1-3*\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n℣. Potens in terra erit semen ejus: generátio rectórum benedicétur.\n℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vest",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet."
       },
       {
-        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)"
       },
       {
-        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídim",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíci",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Lucii*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nMunus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre nobis pérfice sacraméntum.\nPer Dominum…"
       },
       {
-        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens ætérne Deus: Qui corporáli ieiúnio vítia cómprimis, mentem élevas, virtútem largíris et prǽmia: per Christum Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces, ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:"
       },
       {
-        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua c",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)"
       },
       {
-        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniá",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti mode",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Lucii*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nPræsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…"
       }
     ],
     [
       {
-        "body": "*Dan 3:84; 3:87*\nSacerdótes Dei, benedícite Dóminum: sancti et húmiles corde, laudáte Deum.\n*Dan 3:57*\nBenedícite, ómnia",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Joann 21:15-17*\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n*Ps 29:2*\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\nGlória Patri…\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)"
       },
       {
-        "body": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem to",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nDeus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte co",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nDeus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus intercessióne fidéles tui terréna despíciant, et ad cœléstia semper aspírent.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nCórdibus nostris, quǽsumus, Dómine, grátiam tuam benígnus infúnde: ut, sicut ab escis carnálibus abstinémus; ita sensus quoque nostros a nóxiis retrahámus excéssibus.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 1:3-7*\nFratres: Benedíctus Deus et Pater Dómini nostri Jesu Ch",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 5:1-4; 5:10-11*\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen."
       },
       {
-        "body": "*Ps 8:6-7*\nGlória et honóre coronásti eum.\n℣. Et constituísti eum super ópera mánuum tuárum, Dómine.\n*Ps 111:1-3*\nBeátus",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduale",
+        "body": "*Matt 16:18-19*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam.\n℣. Et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.\n℣. Quodcúmque ligáveris super terram, erit ligátum et in cœlis.\n℣. Et quodcúmque sólveris super terram, erit solútum et in cœlis."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:24-27*\nIn illo témpore: Dixit Jesus discípulis suis: Si quis vul",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:13-19*\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis."
       },
       {
-        "body": "*Ps 88:21-22*\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et bráchium meum confo",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)"
       },
       {
-        "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et ",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nLaudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nLaudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nMunus, quod tibi, Dómine, nostræ servitútis offérimus, tu salutáre nobis pérfice sacraméntum.\nPer Dominum…"
       },
       {
-        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens ætérne Deus: Qui corporáli ieiúnio vítia cómprimis, mentem élevas, virtútem largíris et prǽmia: per Christum Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces, ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:"
       },
       {
-        "body": "*Ps 20:4*\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso. (Allelúja.)",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)"
       },
       {
-        "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incr",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Casimiri Confessoris*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Casimiri Confessoris*\nRefécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…\n*Commemoratio Feria II infra Hebd III Quadragesimæ*\nPræsta, quǽsumus, omnípotens et miséricors Deus: ut, quod ore contíngimus, pura mente capiámus.\nPer Dominum…"
       }
     ]
   ],
@@ -6013,56 +6053,69 @@
   "2024-04-17": [
     [
       {
-        "body": "*Ps 32:5-6*\nMisericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.\n*Ps 32:1*",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 32:5-6*\nMisericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja.\n*Ps 32:1*\nExsultáte, justi, in Dómino: rectos decet collaudátio.\nGlória Patri…\nMisericórdia Dómini plena est terra, allelúja: verbo Dómini cœli firmáti sunt, allelúja, allelúja."
       },
       {
-        "body": "Deus, qui in Fílii tui humilitáte jacéntem mundum erexísti: fidélibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui in Fílii tui humilitáte jacéntem mundum erexísti: fidélibus tuis perpétuam concéde lætítiam; ut, quos perpétuæ mortis eripuísti cásibus, gáudiis fácias pérfrui sempitérnis.\nPer eúndem…"
       },
       {
-        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum Anicétum Mártyre",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Petri 2:21-25*\nCaríssimi: Christus passus est pro nobis, vobis relínquens exémpl",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Petri 2:21-25*\nCaríssimi: Christus passus est pro nobis, vobis relínquens exémplum, ut sequámini vestígia ejus. Qui peccátum non fecit, nec invéntus est dolus in ore ejus: qui cum maledicerétur, non maledicébat: cum paterétur, non comminabátur: tradébat autem judicánti se injúste: qui peccáta nostra ipse pértulit in córpore suo super lignum: ut, peccátis mórtui, justítiæ vivámus: cujus livóre sanáti estis. Erátis enim sicut oves errántes, sed convérsi estis nunc ad pastórem et epíscopum animárum vestrárum."
       },
       {
-        "body": "\n*Luc 24:35*\nCognovérunt discípuli Dóminum Jesum in fractióne panis. \n*Joannes 10:14*\nEgo sum pastor bonus: et cognósco ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "\n*Luc 24:35*\nCognovérunt discípuli Dóminum Jesum in fractióne panis. \n*Joannes 10:14*\nEgo sum pastor bonus: et cognósco oves meas, et cognóscunt me meæ. "
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joann 10:11-16*\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bo",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joann 10:11-16*\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercenárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercenárius autem fugit, quia mercenárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor. "
       },
       {
-        "body": "*Ps 62:2; 62:5*\nDeus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 62:2; 62:5*\nDeus, Deus meus, ad te de luce vígilo: et in nómine tuo levábo manus meas, allelúja."
       },
       {
-        "body": "Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio: ut, quod agit mystério, virtúte perfíciat.\nPer Dom",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Benedictiónem nobis, Dómine, cónferat salutárem sacra semper oblátio: ut, quod agit mystério, virtúte perfíciat.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Joannes 10:14*\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Joannes 10:14*\nEgo sum pastor bonus, allelúja: et cognósco oves meas, et cognóscunt me meæ, allelúja, allelúja."
       },
       {
-        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ grátiam consequéntes, in tuo semper múnere gloriémur.\nPe",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Præsta nobis, quǽsumus, omnípotens Deus: ut, vivificatiónis tuæ grátiam consequéntes, in tuo semper múnere gloriémur.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésia",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Aniceti Papæ et Martyris*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       }
     ]
   ],
@@ -6289,88 +6342,108 @@
   "2024-04-23": [
     [
       {
-        "body": "*Ps 63:3*\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelú",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 63:3*\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.\n*Ps. 63:2*\nExáudi, Deus, oratiónem meam cum déprecor: a timóre inimíci éripe ánimam meam.\nGlória Patri…\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja."
       },
       {
-        "body": "Tuam nobis indulgéntiam, quǽsumus, Dómine, beátus Adalbértus Epíscopus et Martyr implóret: ut et delícta nobis cleménter",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Tuam nobis indulgéntiam, quǽsumus, Dómine, beátus Adalbértus Epíscopus et Martyr implóret: ut et delícta nobis cleménter ignóscas, et benefícia desideráta concédas.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n*Hebr 5:1-6*\nFratres: Omnis póntifex ex homínibus assúmptus, pro homíni",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Hebræos.\n*Hebr 5:1-6*\nFratres: Omnis póntifex ex homínibus assúmptus, pro homínibus constitúitur in iis, quæ sunt ad Deum, ut ófferat dona, et sacrifícia pro peccátis: qui condolére possit iis, qui ígnorant et errant: quóniam et ipse circúmdatus est infirmitáte: et proptérea debet, quemádmodum pro pópulo, ita étiam et pro semetípso offérre pro peccátis. Nec quisquam sumit sibi honórem, sed qui vocátur a Deo, tamquam Aaron. Sic et Christus non semetípsum clarificávit, ut Póntifex fíeret: sed qui locútus est ad eum: Fílius meus es tu, ego hódie génui te. Quemádmodum et in álio loco dicit: Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech."
       },
       {
-        "body": "*Joann 10:14*\nEgo sum pastor bonus: et cognósco oves meas et cognóscunt me meæ. Alleluia.\n*Ps 109:4*\n℣. Tu es sacerdos i",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Joann 10:14*\nEgo sum pastor bonus: et cognósco oves meas et cognóscunt me meæ. Alleluia.\n*Ps 109:4*\n℣. Tu es sacerdos in æternum, secundum ordinem Melchisedech. Alleluia."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joann 10:11-16*\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bo",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joann 10:11-16*\nIn illo témpore: Dixit Jesus pharisǽis: Ego sum pastor bonus. Bonus pastor ánimam suam dat pro óvibus suis. Mercenárius autem et qui non est pastor, cujus non sunt oves própriæ, videt lupum veniéntem, et dimíttit oves et fugit: et lupus rapit et dispérgit oves: mercenárius autem fugit, quia mercenárius est et non pértinet ad eum de óvibus. Ego sum pastor bonus: et cognósco meas et cognóscunt me meæ. Sicut novit me Pater, et ego agnósco Patrem, et ánimam meam pono pro óvibus meis. Et álias oves hábeo, quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle et unus pastor. "
       },
       {
-        "body": "*Ps 20:4-5*\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam pétiit a te, et tribuísti ei, allelúja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 20:4-5*\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam pétiit a te, et tribuísti ei, allelúja."
       },
       {
-        "body": "Sacrifícium exhíbitum, quǽsumus, Dómine, benígnus assúme: ut, quod nómini tuo in solemnitáte beáti Adalbérti Mártyris tu",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Sacrifícium exhíbitum, quǽsumus, Dómine, benígnus assúme: ut, quod nómini tuo in solemnitáte beáti Adalbérti Mártyris tui atque Pontíficis deférimus, nobis prosit ad véniam.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Joann 10:14*\nEgo sum pastor bonus: et cognósco oves meas et cognóscunt me meæ, alleluia, alleluia.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Joann 10:14*\nEgo sum pastor bonus: et cognósco oves meas et cognóscunt me meæ, alleluia, alleluia."
       },
       {
-        "body": "Refécti, Dómine, munéribus sacris, súpplices te deprecámur: ut indulgéntiam tuam nobis intercéssio beáti Adalbérti Márty",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti, Dómine, munéribus sacris, súpplices te deprecámur: ut indulgéntiam tuam nobis intercéssio beáti Adalbérti Mártyris tui atque Pontíficis semper implóret.\nPer Dominum…"
       }
     ]
   ],
   "2024-04-24": [
     [
       {
-        "body": "*Ps 20:2-3*\nIn virtúte tua, Dómine, lætábitur justus: et super salutáre tuum exsultábit veheménter: desidérium ánimæ eju",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 63:3*\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja.\n*Ps. 63:2*\nExáudi, Deus, oratiónem meam cum déprecor: a timóre inimíci éripe ánimam meam.\nGlória Patri…\nProtexísti me, Deus, a convéntu malignántium, allelúja: a multitúdine operántium iniquitátem, allelúja, allelúja."
       },
       {
-        "body": "Deus, qui beátum Fidélem, seráphico spíritus ardóre succénsum, in veræ fídei propagatióne martýrii palma et gloriósis mi",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui beátum Fidélem, seráphico spíritus ardóre succénsum, in veræ fídei propagatióne martýrii palma et gloriósis miráculis decoráre dignátus es: ejus, quǽsumus, méritis et intercessióne, ita nos per grátiam tuam in fide et caritáte confírma; ut in servítio tuo fidéles usque ad mortem inveníri mereámur.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Sapiéntiæ\n*Sap 10:10-14*\nJustum dedúxit Dóminus per vias rectas, et ostendit illi regnum Dei, et dedit illi",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Sapiéntiæ\n*Sap 5:1-5*\nStabunt justi in magna constántia advérsus eos, qui se angustiavérunt et qui abstulérunt labóres eórum. Vidéntes turbabúntur timore horríbili, et mirabúntur in subitatióne insperátæ salútis, dicéntes intra se, poeniténtiam agéntes, et præ angústia spíritus geméntes: Hi sunt, quos habúimus aliquándo in derísum et in similitúdinem impropérii. Nos insensáti vitam illórum æstimabámus insániam, et finem illórum sine honóre: ecce, quómodo computáti sunt inter fílios Dei, et inter Sanctos sors illórum est."
       },
       {
-        "body": "Allelúja, allelúja.\n*Ps 88:6.*\nConfitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Al",
-        "id": "GradualeP"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Ps 88:6*\nConfitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúja.\n*Ps 20:4*\nPosuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 10:34-42*\nIn illo témpore: Dixit Jesus discípulis suis: Nolíte arbi",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 15:1-7*\nIn illo témpore: Dixit Jesus discípulis suis: Ego sum vitis vera: et Pater meus agrícola est. Omnem pálmitem in me non feréntem fructum, tollet eum: et omnem, qui fert fructum, purgábit eum, ut fructum plus áfferat. Jam vos mundi estis propter sermónem, quem locútus sum vobis. Manéte in me: et ego in vobis. Sicut palmes non potest ferre fructum a semetípso, nisi mánserit in vite: sic nec vos, nisi in me manséritis. Ego sum vitis, vos pálmites: qui manet in me, et ego in eo, hic fert fructum multum: quia sine me nihil potéstis fácere. Si quis in me non mánserit, mittétur foras sicut palmes, et aréscet, et cólligent eum, et in ignem mittent, et ardet. Si manséritis in me, et verba mea in vobis mánserint: quodcúmque voluéritis, petétis, et fiet vobis."
       },
       {
-        "body": "*Ps 8:6-7*\nGlória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 88:6*\nConfitebúntur cœli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúja, allelúja."
       },
       {
-        "body": "Munéribus nostris, quǽsumus, Dómine, precibúsque suscéptis: et cœléstibus nos munda mystériis, et cleménter exáudi.\nPer ",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Matt 16:24*\nQui vult veníre post me, ábneget semetípsum, et tollat crucem suam, et sequátur me.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Ps 63:11*\nLætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja."
       },
       {
-        "body": "Da, quǽsumus, Dómine, Deus noster: ut, sicut tuórum commemoratióne Sanctórum temporáli gratulámur offício; ita perpétuo ",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.\nPer Dominum…"
       }
     ]
   ],
@@ -6433,88 +6506,108 @@
   "2024-04-26": [
     [
       {
-        "body": "*Joann 21:15-17*\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n*Ps 29:2*\nExaltábo",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Joann 21:15-17*\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)\n*Ps 29:2*\nExaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me.\nGlória Patri…\nSi díligis me, Simon Petre, pasce agnos meos, pasce oves meas. (Allelúja, allelúja.)"
       },
       {
-        "body": "Gregem tuum, Pastor ætérne, placátus inténde: et per beátos Cletum et Marcellínum Mártyres tuos atque Summos Pontífices ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 5:1-4; 5:10-11*\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 5:1-4; 5:10-11*\nCaríssimi: Senióres, qui in vobis sunt, obsécro consénior et testis Christi passiónum, qui et ejus, quæ in futúro revelánda est, glóriæ communicátor: páscite qui in vobis est gregem Dei, providéntes non coácte, sed spontánee secúndum Deum, neque turpis lucri grátia, sed voluntárie; neque ut dominántes in cleris, sed forma facti gregis ex ánimo. Et, cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam. Deus autem omnis grátiæ, qui vocávit nos in ætérnam suam glóriam in Christo Jesu, módicum passos ipse perfíciet, confirmábit solidabítque. Ipsi glória et impérium in sǽcula sæculórum. Amen."
       },
       {
-        "body": "Allelúja, allelúja.\n*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja.\n*Ps 44:17-18.*\nC",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Ps 106:8*\nConfitéantur Dómino misericórdiæ ejus, et mirabília ejus fíliis hóminum\n*Matt 6:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:13-19*\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 16:13-19*\nIn illo témpore: Venit Jesus in partes Cæsaréæ Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis? At illi dixérunt: Alii Joánnem Baptístam, alii autem Elíam, álii vero Jeremíam, aut unum ex prophétis. Dicit illis Jesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus, Fílius Dei vivi. Respóndens autem Jesus, dixit ei: Beátus es, Simon Bar Jona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in cœlis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram ædificábo Ecclésiam meam, et portæ ínferi non prævalébunt advérsus eam. Et tibi dabo claves regni cœlórum. Et quodcúmque ligáveris super terram, erit ligátum et in cœlis: et quodcúmque sólveris super terram, erit solútum et in cœlis."
       },
       {
-        "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Jer 1:9-10*\nEcce, dedi verba mea in ore tuo: ecce, constítui te super gentes et super regna, ut evéllas et déstruas, et ædífices et plantes. (Allelúja.)"
       },
       {
-        "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et ",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Oblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 16:18*\nTu es Petrus, et super hanc petram ædificábo Ecclésiam meam. (Allelúja.)"
       },
       {
-        "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incr",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       }
     ]
   ],
   "2024-04-27": [
     [
       {
-        "body": "*Eccli 15:5*\nIn médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ ",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Eccli 15:5*\nIn médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)\n*Ps 91:2*\nBonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\nGlória Patri…\nIn médio Ecclésiæ apéruit os ejus: et implévit eum Dóminus spíritu sapiéntiæ et intelléctus: stolam glóriæ índuit eum. (Allelúja, allelúja.)"
       },
       {
-        "body": "Deus, qui ad tuéndam cathólicam fidem beátum Petrum Confessórem tuum virtúte et doctrína roborásti: concéde propítius; u",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui ad tuéndam cathólicam fidem beátum Petrum Confessórem tuum virtúte et doctrína roborásti: concéde propítius; ut ejus exémplis et mónitis errántes ad salútem resipíscant, et fidéles in veritátis confessióne persevérent.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n*2 Tim 4:1-8*\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui ju",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n*2 Tim 4:1-8*\nCaríssime: Testíficor coram Deo, et Jesu Christo, qui judicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum ejus: prǽdica verbum, insta opportúne, importune: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria, coacervábunt sibi magistros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac Evangelístæ, ministérium tuum imple. Sóbrius esto. Ego enim jam delíbor, et tempus resolutiónis meæ instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna justítiæ, quam reddet mihi Dóminus in illa die, justus judex: non solum autem mihi, sed et iis, qui díligunt advéntum ejus."
       },
       {
-        "body": "Allelúja, allelúja.\n*Eccli 45:9*\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum.\n*Osee 14:6*\nJustus germin",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Eccli 45:9*\nAmávit eum Dóminus, et ornávit eum: stolam glóriæ índuit eum.\n*Osee 14:6*\nJustus germinábit sicut lílium: et florébit in ætérnum ante Dóminum. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 5:13-19*\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sa",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 5:13-19*\nIn illo témpore: Dixit Jesus discípulis suis: Vos estis sal terræ. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus, qui in domo sunt. Sic luceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cœlis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen, quippe dico vobis, donec tránseat cœlum et terra, jota unum aut unus apex non præteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno cœlórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno cœlórum."
       },
       {
-        "body": "*Ps 91:13*\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 91:13*\nJustus ut palma florébit: sicut cedrus, quæ in Líbano est, multiplicábitur. (Allelúja.)"
       },
       {
-        "body": "Sancti Petri Confessóris tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Sancti N. Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quæ et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Luc 12:42*\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mens",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Luc 12:42*\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. (Allelúja.)"
       },
       {
-        "body": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus Petrus Conféssor tuus et Doctor egrégius, quǽsumus, precátor accéd",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Ut nobis, Dómine, tua sacrifícia dent salútem: beátus N. Póntifex tuus et Doctor egrégius, quǽsumus, precátor accédat.\nPer Dominum…"
       }
     ]
   ],
@@ -6609,44 +6702,54 @@
   "2024-04-30": [
     [
       {
-        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n*Ps 44:2*\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\nGlória Patri…\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)"
       },
       {
-        "body": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et tantæ virtútis proficiámus exémplo.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo."
       },
       {
-        "body": "Allelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.\n",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.\n*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam han",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile erit regnum coelórum decem virgínibus: quæ, accipiéntes lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex eis erant fátuæ, et quinque prudéntes: sed quinque fátuæ, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce, sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines íllæ, et ornavérunt lámpades suas. Fátuæ autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostræ exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quæ parátæ erant, intravérunt cum eo ad núptias, et clausa est jánua. Novíssime vero véniunt et réliquæ vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem neque horam."
       },
       {
-        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)"
       },
       {
-        "body": "Ascéndant ad te, Dómine, quas in beátæ Catharínæ solemnitáte offérimus, preces, et hóstia salutáris, virgíneo fragrans o",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)"
       },
       {
-        "body": "Æternitátem nobis, Dómine, cónferat, qua pasti sumus, mensa cœléstis: quæ beátæ Catharínæ Vírginis vitam étiam áluit tem",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\nPer Dominum…"
       }
     ]
   ],
@@ -21719,56 +21822,69 @@
   "2025-03-04": [
     [
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n*Ps 36:1*\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\nGlória Patri…\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)"
       },
       {
-        "body": "Deus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus i",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui inter regáles delícias et mundi illécebras sanctum Casimírum virtúte constántiæ roborásti: quǽsumus; ut ejus intercessióne fidéles tui terréna despíciant, et ad cœléstia semper aspírent.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua prot",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Lucii*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum N. Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec speráv",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándu",
-        "id": "Tractus"
+        "id": "Tractus",
+        "label": "Graduale",
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.\n*Ps 111:1-3*\nBeátus vir, qui timet Dóminum: in mandátis ejus cupit nimis.\n℣. Potens in terra erit semen ejus: generátio rectórum benedicétur.\n℣. Glória et divítiæ in domo ejus: et justítia ejus manet in sǽculum sǽculi."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vest",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet."
       },
       {
-        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)"
       },
       {
-        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídim",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíci",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Lucii*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua c",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)"
       },
       {
-        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniá",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Lucii*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti mode",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Lucii*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et increménta libertátis accípiat et in religiónis integritáte persístat.\nPer Dominum…"
       }
     ]
   ],
@@ -24895,60 +25011,74 @@
   "2025-04-17": [
     [
       {
-        "body": "*Gal 6:14.*\nNos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Gal 6:14.*\nNos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus\n*Ps 66:2*\nDeus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.\nNos autem gloriári opórtet in Cruce Dómini nostri Jesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus"
       },
       {
-        "body": "Deus, a quo et Judas reatus sui poenam, et confessiónis suæ latro praemium sumpsit, concéde nobis tuæ propitiatiónis eff",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, a quo et Judas reatus sui poenam, et confessiónis suæ latro praemium sumpsit, concéde nobis tuæ propitiatiónis efféctum: ut, sicut in passióne sua Jesus Christus, Dóminus noster, diversa utrísque íntulit stipéndia meritórum; ita nobis, abláto vetustátis erróre, resurrectiónis suæ grátiam largiátur:\nQui tecum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n*1 Cor 11:20-32.*\nFratres: Conveniéntibus vobis in unum, jam non est",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios.\n*1 Cor 11:20-32.*\nFratres: Conveniéntibus vobis in unum, jam non est Domínicam coenam manducáre. Unusquísque enim suam cenam præsúmit ad manducándum. Et alius quidem ésurit: álius autem ébrius est. Numquid domos non habétis ad manducándum et bibéndum? aut ecclésiam Dei contémnitis, et confúnditis eos, qui non habent? Quid dicam vobis? Laudo vos? In hoc non laudo. Ego enim accépi a Dómino quod et trádidi vobis, quóniam Dóminus Jesus, in qua nocte tradebátur, accépit panem, et grátias agens fregit, et dixit: Accípite, et manducáte: hoc est corpus meum, quod pro vobis tradétur: hoc fácite in meam commemoratiónem. Simíliter et cálicem, postquam coenávit, dicens: Hic calix novum Testaméntum est in meo sánguine: hoc fácite, quotiescúmque bibétis, in meam commemoratiónem. Quotiescúmque enim manducábitis panem hunc et cálicem bibétis: mortem Dómini annuntiábitis, donec véniat. Itaque quicúmque manducáverit panem hunc vel bíberit cálicem Dómini indígne, reus erit córporis et sánguinis Dómini. Probet autem seípsum homo: et sic de pane illo edat et de cálice bibat. Qui enim mandúcat et bibit indígne, judícium sibi mandúcat et bibit: non dijúdicans corpus Dómini. Ideo inter vos multi infirmi et imbecílles, et dórmiunt multi. Quod si nosmetípsos dijudicarémus, non útique judicarémur. Dum judicámur autem, a Dómino corrípimur,ut non cum hoc mundo damnémur."
       },
       {
-        "body": "*Phil 2:8-9*\nChristus factus est pro nobis oboediens usque ad mortem, mortem autem crucis\n℣. Propter quod et Deus exaltá",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Phil 2:8-9*\nChristus factus est pro nobis oboediens usque ad mortem, mortem autem crucis\n℣. Propter quod et Deus exaltávit illum: et dedit illi nomen, quod est super omne nomen."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joann 13:1-15*\nAnte diem festum Paschae, sciens Jesus, quia venit hora e",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joann 13:1-15*\nAnte diem festum Paschae, sciens Jesus, quia venit hora ejus, ut tránseat ex hoc mundo ad Patrem: cum dilexísset suos, qui erant in mundo, in finem diléxit eos. Et cena facta, cum diábolus jam misísset in cor, ut tráderet eum Judas Simónis Iscariótæ: sciens, quia ómnia dedit ei Pater in manus, et quia a Deo exivit, et ad Deum vadit: surgit a cena et ponit vestiménta sua: et cum accepísset línteum, præcínxit se. Deinde mittit aquam in pelvim, et coepit laváre pedes discipulórum, et extérgere línteo, quo erat præcínctus. Venit ergo ad Simónem Petrum. Et dicit ei Petrus: Dómine, tu mihi lavas pedes? Respóndit Jesus et dixit ei: Quod ego fácio, tu nescis modo, scies autem póstea. Dicit ei Petrus: Non lavábis mihi pedes in ætérnum. Respóndit ei Jesus: Si non lávero te, non habébis partem mecum. Dicit ei Simon Petrus: Dómine, non tantum pedes meos, sed et manus et caput. Dicit ei Jesus: Qui lotus est, non índiget nisi ut pedes lavet, sed est mundus totus. Et vos mundi estis, sed non omnes. Sciébat enim, quisnam esset, qui tráderet eum: proptérea dixit: Non estis mundi omnes. Postquam ergo lavit pedes eórum et accépit vestiménta sua: cum recubuísset íterum, dixit eis: Scitis, quid fécerim vobis? Vos vocátis me Magíster et Dómine: et bene dícitis: sum étenim. Si ergo ego lavi pedes vestros, Dóminus et Magíster: et vos debétis alter altérius laváre pedes. Exémplum enim dedi vobis, ut, quemádmodum ego feci vobis, ita et vos faciátis."
       },
       {
-        "body": "*Post homiliam proceditur, ad lotionem pedum. In medio presbyterii, vel in ipsa aula ecclesiæ, parata sint sedilia hinc ",
-        "id": "Maundi"
+        "id": "Maundi",
+        "label": "De lotione pedum",
+        "body": "*Post homiliam proceditur, ad lotionem pedum. In medio presbyterii, vel in ipsa aula ecclesiæ, parata sint sedilia hinc inde pro duodecim viris, quorum lavabuntur pedes; cetera quae occurrunt, tempore opportuno, in mensula parentur. Interim diaconus et subdiaconus, seu duo maiores ex ministrantibus, inducunt duodecim viros selectos, binos et binos, ad locum paratum, dum schola vel ipse clerus assistens incipit, cantando vel recitando, antiphonas, psalmos et versus infrascriptos. Duodecim autem viri selecti, facta reverentia altari ac celebranti, in presbyterio sedenti, disponuntur per sedilia; tunc ministri sacri, seu ministrantes, adibunt celebrantem. Omnes deponunt manipulum, celebrans vero etiam planetam.*\n\n*Antiphona 1*\n*Joann 13:34.*\nAnt. Mandátum novum do vobis: ut diligátis ínvicem, sicut diléxi vos, dicit Dóminus.\n*Ps 118:1.*\nBeáti immaculáti in via: qui ámbulant in lege Dómini.\nAnt. Mandátum novum do vobis: ut diligátis ínvicem, sicut diléxi vos, dicit Dóminus.\n\n*Antiphona 2*\n*Joann 13:4, 5 et 15.*\nAnt. Postquam surréxit Dóminus a cœna, misit aquam in pelvim, et cœpit laváre pedes discipulórum suórum: hoc exémplum réliquit eis.\n*Ps 47:2.*\nMagnus Dóminus, et laudábilis nimis: in civitáte Dei nostri, in monte sancto ejus.\nAnt. Postquam surréxit Dóminus a cœna, misit aquam in pelvim, et cœpit laváre pedes discipulórum suórum: hoc exémplum réliquit eis.\n\n*Antiphona 3*\n*Joann 13:12, 13 et 15.*\nAnt. Dóminus Jesus, postquam cenávit cum discípulis suis, lavit pedes eórum, et ait illis: «Scitis, quid fécerim vobis ego, Dóminus et Magíster? Exémplum dedi vobis, ut et vos ita faciátis».\n*Ps 84:2.*\nBenedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.\nAnt. Dóminus Jesus, postquam cenávit cum discípulis suis, lavit pedes eórum, et ait illis: «Scitis, quid fécerim vobis ego, Dóminus et Magíster? Exémplum dedi vobis, ut et vos ita faciátis».\n\n*Antiphona 4*\n*Joann 13:6-7 et 8.*\nAnt. «Dómine, tu mihi lavas pedes?» Respóndit Jesus et dixit ei: «Si non lávero tibi pedes, non habébis partem mecum».\n℣. Venit ergo ad Simónem Petrum, et dixit ei Petrus.\nAnt. «Dómine, tu mihi lavas pedes?» Respóndit Jesus et dixit ei: «Si non lávero tibi pedes, non habébis partem mecum».\n℣. «Quod ego fácio, tu nescis modo: scies autem póstea».\nAnt. «Dómine, tu mihi lavas pedes?» Respóndit Jesus et dixit ei: «Si non lávero tibi pedes, non habébis partem mecum».\n\n*Antiphona 5*\n*Joann 13:14.*\nAnt. «Si ego, Dóminus et Magíster vester, lavi vobis pedes: quanto magis debétis alter altérius laváre pedes?»\n*Ps 48:2*\nAudíte hæc, omnes gentes: áuribus percípite, qui habitátis orbem.\nAnt. «Si ego, Dóminus et Magíster vester, lavi vobis pedes: quanto magis debétis alter altérius laváre pedes?»\n\n*Antiphona 6*\n*Joann 13:35.*\nAnt. «In hoc cognóscent omnes, quia discípuli mei estis, si dilectiónem habuéritis ad ínvicem».\n℣. Dixit Jesus discípulis suis.\nAnt. «In hoc cognóscent omnes, quia discípuli mei estis, si dilectiónem habuéritis ad ínvicem».\n\n*Antiphona 7*\n*1 Cor 13:13.*\nAnt. Máneant in vobis fides, spes, cáritas, tria hæc: major autem horum est cáritas.\n℣. Nunc autem manent fides, spes, cáritas, tria hæc: major horum est cáritas.\nAnt. Máneant in vobis fides, spes, cáritas, tria hæc: major autem horum est cáritas.\n\n*Antiphona 8*\n*Sequens antiphona cum suis versibus *\n*numquam omittitur; incipitur autem, omissis, *\n*si opus sit, praecedentibus, lotione pedum *\n*ad finem vergente.*\nUbi cáritas et amor, Deus ibi est.\n℣. Congregávit nos in unum Christi amor.\n℣. Exsultémus et in ipso jucundémur.\n℣. Timeámus et amémus Deum vivum.\n℣. Et ex corde diligámus nos sincéro.\nUbi cáritas et amor, Deus ibi est.\n℣. Simul ergo cum in unum congregámur:\n℣. Ne nos mente dividámur, caveámus.\n℣. Cessent júrgia malígna, cessent lites.\n℣. Et in médio nostri sit Christus Deus.\nUbi cáritas et amor, Deus ibi est.\n℣. Simul quoque cum Beátis videámus\n℣. Gloriánter vultum tuum, Christe Deus:\n℣. Gáudium, quod est imménsum atque probum,\n℣. Sǽcula per infiníta sæculórum. Amen.\n\n*Post lotionem celebrans ante medium altaris versus populum, dicit:*\n\nPater noster…\n℣. Et ne nos inducas in tentationem:\n℟. Sed libera nos a malo.\n℣. Tu mandásti mandáta tua, Dómine.\n℟. Custodíri nimis.\n℣. Tu lavásti pedes discipulórum tuórum.\n℟. Opera mánuum tuárum ne despícias.\n℣. Dómine, exáudi oratiónem meam.\n℟. Et clamor meus ad te véniat.\n℣. Dóminus vobíscum.\n℟. Et cum spíritu tuo.\nOrémus.\nAdésto, Dómine, quǽsumus, offício servitútis nostræ: et quia tu discípulis tuis pedes laváre dignátus es, ne despícias ópera mánuum tuárum, quæ nobis retinénda mandásti: ut, sicut hic nobis, et a nobis exterióra abluúntur inquinaménta; sic a te ómnium nostrum interióra lavéntur peccáta. Quod ipse præstáre dignéris, qui vivis et regnas Deus: per ómnia sǽcula sæculórum.\n℟. Amen."
       },
       {
-        "body": "*Ps 117:16 et 17.*\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera D",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 117:16 et 17.*\nDéxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini."
       },
       {
-        "body": "Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus, sacrifícium nostrum reddat accéptum, qui discípulis s",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Ipse tibi, quǽsumus, Dómine sancte, Pater omnípotens, ætérne Deus, sacrifícium nostrum reddat accéptum, qui discípulis suis in sui commemoratiónem hoc fíeri hodiérna traditióne monstrávit, Jesus Christus, Fílius tuus, Dóminus noster:\nQui tecum…"
       },
       {
-        "body": "*de Sancta Cruce*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*de Sancta Cruce*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Qui salútem humáni géneris in ligno Crucis constituísti: ut, unde mors oriebátur, inde vita resúrgeret: et, qui in ligno vincébat, in ligno quoque vincerétur: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti júbeas, deprecámur, súpplici confessióne dicéntes:"
       },
       {
-        "body": "Communicántes et diem sacratíssimum celebrántes, quo Dóminus noster Jesus Christus pro nobis est tráditus: sed et memóri",
-        "id": "Communicantes"
+        "id": "Communicantes",
+        "label": "Communicantes",
+        "body": "Communicántes et diem sacratíssimum celebrántes, quo Dóminus noster Jesus Christus pro nobis est tráditus: sed et memóriam venerántes, in primis gloriósæ semper Vírginis Maríæ, Genetrícis ejúsdem Dei et Dómini nostri Jesu Christi: sed et beati Ioseph, eiusdem Virginis Sponsi, et beatórum Apostolórum ac Mártyrum tuórum, Petri et Pauli, Andréæ, Jacóbi, Joánnis, Thomæ, Jacóbi, Philíppi, Bartholomaei, Matthaei, Simónis et Thaddaei: Lini, Cleti, Cleméntis, Xysti, Cornélii, Cypriáni, Lauréntii, Chrysógoni, Joánnis et Pauli, Cosmæ et Damiáni: et ómnium Sanctórum tuórum; quorum méritis precibúsque concédas, ut in ómnibus protectiónis tuæ muniámur auxílio. Jungit manus. Per eúndem Christum, Dóminum nostrum. Amen.\n\nHanc ígitur oblatiónem servitútis nostræ, sed et cunctæ famíliæ tuæ, quam tibi offérimus ob diem, in qua Dóminus noster Jesus Christus trádidit discípulis suis Córporis et Sánguinis sui mystéria celebránda: quǽsumus, Dómine, ut placátus accípias: diésque nostros in tua pace dispónas, atque ab ætérna damnatióne nos éripi et in electórum tuórum júbeas grege numerári. Per eúndem Christum, Dóminum nostrum. Amen.\n\nQuam oblatiónem tu, Deus, in ómnibus, quǽsumus, Signat ter super Oblata, bene ☩ díctam, adscríp ☩ tam, ra ☩ tam, rationábilem acceptabilémque fácere dignéris: Signat semel super Hóstiam, ut nobis Cor ☩ pus, et semel super Cálicem, et San ☩ guis fiat dilectíssimi Fílii tui, Dómini nostri Jesu Christi.\n\nQui prídie, quam pro nostra omniúmque salúte paterétur, hoc est hódie, Accipit Hostiam, accépit panem in sanctas ac venerábiles manus suas, Elevat oculos ad coelum, et elevátis óculis in coelum ad te Deum, Patrem suum omnipoténtem, Caput inclinat, tibi grátias agens, Signat super Hostiam, bene ☩ dixit, fregit, dedítque discípulis suis, dicens: Accípite, et manducáte ex hoc omnes."
       },
       {
-        "body": "*Joann 13:12, 13 et 15.*\nDóminus Jesus, postquam coenávit cum discípulis suis, lavit pedes eórum, et ait illis: Scitis, ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Joann 13:12, 13 et 15.*\nDóminus Jesus, postquam coenávit cum discípulis suis, lavit pedes eórum, et ait illis: Scitis, quid fécerim vobis ego, Dóminus et Magíster? Exemplum dedi vobis, ut et vos ita faciátis."
       },
       {
-        "body": "Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod témpore nostræ mortalitátis exséquimur, immortalitá",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti vitálibus aliméntis, quǽsumus, Dómine, Deus noster: ut, quod témpore nostræ mortalitátis exséquimur, immortalitátis tuæ múnere consequámur.\nPer Dominum…"
       },
       {
-        "body": "*Missa expleta, statim proceditur ad solemnem translationem et repositionem Sacramenti. Dum fit processio, cantatur hymn",
-        "id": "Post Missam"
+        "id": "Post Missam",
+        "label": "Post Missam",
+        "body": "*Missa expleta, statim proceditur ad solemnem translationem et repositionem Sacramenti. Dum fit processio, cantatur hymnus.*\n\n*Hymnus Pange Lingua*\nPange língua, gloriósi\nCórporis mystérium,\nSanguinísque pretiósi,\nQuem in mundi prétium\nFructus ventris generósi\nRex effúdit géntium.\n\nNobis datus, nobis natus\nEx intácta Vírgine,\nEt in mundo conversátus,\nSparso verbi sémine.\nSui moras incolátus.\nMiro clausit órdine.\n\nIn suprémæ nocte cœnae\nRecúmbens cum frátribus,\nObserváta lege plene\nCibis in legálibus,\nCibum turbæ duodénæ\nSe dat suis mánibus.\n\nVerbum caro, panem verum\nVerbo carnem éfficit;\nFitque sanguis Christi merum:\nEt si sensus déficit,\nAd firmándum cor sincérum\nSola fides súfficit.\n\nTantum ergo Sacraméntum\nVenerémur cérnui:\nEt antíquum documéntum\nNovo cedat ritui:\nPræstet fides supplémentum\nSénsuum deféctui.\n\nGenitóri, Genitóque\nLaus et iubilátio:\nSalus, honor, virtus quoque\nSit et benedíctio\nProcedénti ab utróque\nCompar sit laudátio.\nAmen."
       },
       {
-        "body": "\n*Deinde celebrans et ministri, seu *\n*ministrantes, exeunt ante altare maius; facta *\n*eidem reverentia, stantes, incip",
-        "id": "Denudatione altaris"
+        "id": "Denudatione altaris",
+        "label": "Denudatione altaris",
+        "body": "\n*Deinde celebrans et ministri, seu *\n*ministrantes, exeunt ante altare maius; facta *\n*eidem reverentia, stantes, incipiunt *\n*denudationem altarium, hoc modo: *\n*Celebrans dicit clara voce sequentem *\n*antiphonam:*\n\n\n*Antiphona*\n*Ps 21:19*\nAnt. Divisérunt sibi vestiménta mea: et super vestem meam misérunt sortem.\n (21:2) Deus, Deus meus, réspice in me: quare me dereliquísti? * longe a salúte mea verba delictórum meórum.\n (21:3) Deus meus, clamábo per diem, et non exáudies: * et nocte, et non ad insipiéntiam mihi.\n (21:4) Tu autem in sancto hábitas, * laus Israël.\n (21:5) In te speravérunt patres nostri: * speravérunt, et liberásti eos.\n (21:6) Ad te clamavérunt, et salvi facti sunt: * in te speravérunt, et non sunt confúsi.\n (21:7) Ego autem sum vermis, et non homo: * oppróbrium hóminum, et abjéctio plebis.\n (21:8) Omnes vidéntes me, derisérunt me: * locúti sunt lábiis, et movérunt caput.\n (21:9) Sperávit in Dómino, erípiat eum: * salvum fáciat eum, quóniam vult eum.\n (21:10) Quóniam tu es, qui extraxísti me de ventre: * spes mea ab ubéribus matris meæ. In te projéctus sum ex útero:\n (21:11) De ventre matris meæ Deus meus es tu, * ne discésseris a me:\n (21:12) Quóniam tribulátio próxima est: * quóniam non est qui ádjuvet.\n (21:13) Circumdedérunt me vítuli multi: * tauri pingues obsedérunt me.\n (21:14) Aperuérunt super me os suum, * sicut leo rápiens et rúgiens.\n (21:15) Sicut aqua effúsus sum: * et dispérsa sunt ómnia ossa mea.\n (21:15) Factum est cor meum tamquam cera liquéscens * in médio ventris mei.\n (21:16) Aruit tamquam testa virtus mea, et lingua mea adhæsit fáucibus meis: * et in púlverem mortis deduxísti me.\n (21:17) Quóniam circumdedérunt me canes multi: * concílium malignántium obsédit me.\n (21:18) Fodérunt manus meas et pedes meos: * dinumeravérunt ómnia ossa mea.\n (21:19) Ipsi vero consideravérunt et inspexérunt me: * divisérunt sibi vestiménta mea, et super vestem meam misérunt sortem.\n (21:20) Tu autem, Dómine, ne elongáveris auxílium tuum a me: * ad defensiónem meam cónspice.\n (21:21) Erue a frámea, Deus, ánimam meam: * et de manu canis únicam meam:\n (21:22) Salva me ex ore leónis: * et a córnibus unicórnium humilitátem meam.\n (21:23) Narrábo nomen tuum frátribus meis: * in médio ecclésiæ laudábo te.\n (21:24) Qui timétis Dóminum, laudáte eum: * univérsum semen Jacob, glorificáte eum.\n (21:25) Tímeat eum omne semen Israël: * quóniam non sprevit, neque despéxit deprecatiónem páuperis:\n (21:25) Nec avértit fáciem suam a me: * et cum clamárem ad eum, exaudívit me.\n (21:26) Apud te laus mea in ecclésia magna: * vota mea reddam in conspéctu timéntium eum.\n (21:27) Edent páuperes, et saturabúntur: et laudábunt Dóminum qui requírunt eum: * vivent corda eórum in sǽculum sǽculi.\n (21:28) Reminiscéntur et converténtur ad Dóminum * univérsi fines terræ:\n (21:28) Et adorábunt in conspéctu ejus * univérsæ famíliæ géntium.\n (21:29) Quóniam Dómini est regnum: * et ipse dominábitur géntium.\n (21:30) Manducavérunt et adoravérunt omnes pingues terræ: * in conspéctu ejus cadent omnes qui descéndunt in terram.\n (21:31) Et ánima mea illi vivet: * et semen meum sérviet ipsi.\n (21:32) Annuntiábitur Dómino generátio ventúra: * et annuntiábunt cœli justítiam ejus pópulo qui nascétur, quem fecit Dóminus.\nAnt. Divisérunt sibi vestiménta mea: et super vestem meam misérunt sortem."
       }
     ]
   ],
@@ -25203,96 +25333,118 @@
   "2025-04-23": [
     [
       {
-        "body": "*Matt 25:34*\nVeníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis parátum est ab orígine mundi, allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Matt 25:34*\nVeníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis parátum est ab orígine mundi, allelúja, allelúja, allelúja.\n*Ps 95:1*\nCantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\nGlória Patri…\nVeníte, benedícti Patris mei, percípite regnum, allelúja: quod vobis parátum est ab orígine mundi, allelúja, allelúja, allelúja."
       },
       {
-        "body": "Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas: concéde propítius; ut per temporália festa, quæ ágimu",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui nos Resurrectiónis Domínicæ ánnua solemnitáte lætíficas: concéde propítius; ut per temporália festa, quæ ágimus, perveníre ad gáudia ætérna mereámur.\nPer eúndem…"
       },
       {
-        "body": "Léctio Actuum Apostolórum\n*Acts 3:13-15; 3:17-19*\nIn diébus illis: Apériens Petrus os suum, dixit: Viri Israëlítæ, et qu",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Actuum Apostolórum\n*Acts 3:13-15; 3:17-19*\nIn diébus illis: Apériens Petrus os suum, dixit: Viri Israëlítæ, et qui timétis Deum, audíte. Deus Abraham et Deus Isaac et Deus Jacob, Deus patrum nostrórum, glorificávit Fílium suum Jesum, quem vos quidem tradidístis et negástis ante fáciem Piláti, judicánte illo dimítti. Vos autem sanctum et justum negástis, et petístis virum homicídam donári vobis: auctórem vero vitæ interfecístis, quem Deus suscitávit a mórtuis, cujus nos testes sumus. Et nunc, fratres, scio, quia per ignorántiam fecístis, sicut et príncipes vestri. Deus autem, quæ prænuntiávit per os ómnium Prophetárum, pati Christum suum, sic implévit. Pœnitémini ígitur et convertímini, ut deleántur peccáta vestra."
       },
       {
-        "body": "*Ps 117:24; 117:16*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\n℣. Déxtera Dómini fecit virtútem, déxtera",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 117:24; 117:16*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\n℣. Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.\nAllelúja, allelúja.\n*Luc 24:34*\n℣. Surréxit Dóminus vere: et appáruit Petro."
       },
       {
-        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors ",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sequentia",
+        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus.\nDic nobis, María, quid vidísti in via?\nSepúlcrum Christi vivéntis et glóriam vidi resurgéntis.\nAngélicos testes, sudárium et vestes.\nSurréxit Christus, spes mea: præcédet vos in Galilǽam.\nScimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.\n*Sequentia dicitur usque ad Sabbatum in Albis inclusive.*"
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 21:1-14*\nIn illo témpore: Manifestávit se íterum Jesus discípulis",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 21:1-14*\nIn illo témpore: Manifestávit se íterum Jesus discípulis ad mare Tiberíadis. Manifestávit autem sic. Erant simul Simon Petrus et Thomas, qui dícitur Dídymus, et Nathánaël, qui erat a Cana Galilǽæ, et fílii Zebedǽi et álii ex discípulis ejus duo. Dicit eis Simon Petrus: Vado piscári. Dicunt ei: Venímus et nos tecum. Et exiérunt et ascendérunt in navim: et illa nocte nihil prendidérunt. Mane autem facto, stetit Jesus in lítore: non tamen cognovérunt discípuli, quia Jesus est. Dixit ergo eis Jesus: Púeri, numquid pulmentárium habétis? Respondérunt ei: Non. Dicit eis: Míttite in déxteram navígii rete, et inveniétis. Misérunt ergo: et jam non valébant illud tráhere præ multitúdine píscium. Dixit ergo discípulus ille, quem diligébat Jesus, Petro: Dóminus est. Simon Petrus cum audísset, quia Dóminus est, túnica succínxit se - erat enim nudus, - et misit se in mare. Alii autem discípuli navígio venérunt - non enim longe erant a terra, sed quasi cúbitis ducéntis, - trahéntes rete píscium. Ut ergo descendérunt in terram, vidérunt prunas pósitas, et piscem superpósitum, et panem. Dicit eis Jesus: Afférte de píscibus, quos prendidístis nunc. Ascéndit Simon Petrus, et traxit rete in terram, plenum magnis píscibus centum quinquagínta tribus. Et cum tanti essent, non est scissum rete. Dicit eis Jesus: Veníte, prandéte. Et nemo audébat discumbéntium interrogáre eum: Tu quis es? sciéntes, quia Dóminus est. Et venit Jesus, et áccipit panem, et dat eis, et piscem simíliter. Hoc jam tértio manifestátus est Jesus discípulis suis, cum resurrexísset a mórtuis."
       },
       {
-        "body": "*Ps 77:23-25*\nPortas cœli apéruit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis: panem Angelórum mandu",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 77:23-25*\nPortas cœli apéruit Dóminus: et pluit illis manna, ut éderent: panem cœli dedit eis: panem Angelórum manducávit homo, allelúja."
       },
       {
-        "body": "Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia tua mirabíliter et páscitur et nutrítur.\nPer Dominum…",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Sacrifícia, Dómine, paschálibus gáudiis immolámus: quibus Ecclésia tua mirabíliter et páscitur et nutrítur.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Rom 6:9*\nChristus resúrgens ex mórtuis jam non móritur, allelúja: mors illi ultra non dominábitur, allelúja, allelúja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Rom 6:9*\nChristus resúrgens ex mórtuis jam non móritur, allelúja: mors illi ultra non dominábitur, allelúja, allelúja."
       },
       {
-        "body": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui veneránda percéptio in novam tránsferat creatúram:\nQui",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Ab omni nos, quǽsumus, Dómine, vetustáte purgátos: sacraménti tui veneránda percéptio in novam tránsferat creatúram:\nQui vivis…"
       }
     ]
   ],
   "2025-04-24": [
     [
       {
-        "body": "*Sap 10:20-21*\nVictrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia sapiéntia apéruit os mutum, et linguas ",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Sap 10:20-21*\nVictrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia sapiéntia apéruit os mutum, et linguas infántium fecit disértas, allelúja, allelúja.\n*Ps 97:1*\nCantáte Dómino cánticum novum: quia mirabília fecit.\nGlória Patri…\nVictrícem manum tuam, Dómine, laudavérunt páriter, allelúja: quia sapiéntia apéruit os mutum, et linguas infántium fecit disértas, allelúja, allelúja."
       },
       {
-        "body": "Deus, qui diversitátem géntium in confessióne tui nóminis adunásti: da, ut renátis fonte baptísmatis una sit fides ménti",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui diversitátem géntium in confessióne tui nóminis adunásti: da, ut renátis fonte baptísmatis una sit fides méntium, et píetas actiónum.\nPer Dominum…"
       },
       {
-        "body": "Léctio Actuum Apostolorum\n*Act 8:26-40*\nIn diébus illis: Angelus Dómini locútus est ad Philíppum, dicens: Surge et vade ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Actuum Apostolorum\n*Act 8:26-40*\nIn diébus illis: Angelus Dómini locútus est ad Philíppum, dicens: Surge et vade contra meridiánum ad viam, quæ descéndit ab Jerúsalem in Gazam: hæc est desérta. Et surgens ábiit. Et ecce vir Æthiops eunúchus, potens Candácis regínæ Æthíopum, qui erat super omnes gazas ejus, vénerat adoráre in Jerúsalem: et revertebátur sedens super currum suum, legénsque Isaíam Prophétam. Dixit autem Spíritus Philíppo: Accéde et adjúnge te ad currum istum. Accúrrens autem Philíppus, audívit eum legéntem Isaíam Prophétam, et dixit: Putásne, intéllegis, quæ legis? Qui ait: Et quómodo possum, si non áliquis osténderit mihi? Rogavítque Philíppum, ut ascénderet et sedéret secum. Locus autem Scriptúræ, quam legébat, erat hic: Tamquam ovis ad occisiónem ductus est: et sicut agnus coram tondénte se, sine voce, sic non apéruit os suum. In humilitáte judícium ejus sublátum est. Generatiónem ejus quis enarrábit, quóniam tollétur de terra vita ejus? Respóndens autem eunúchus Philíppo, dixit: Obsecro te, de quo Prophéta dicit hoc? de se, an de álio áliquo? Apériens autem Philíppus os suum, et incípiens a Scriptúra ista, evangelizávit illi Jesum. Et dum irent per viam, venérunt ad quandam aquam: et ait eunúchus: Ecce aqua, quid próhibet me baptizári? Dixit autem Philíppus: Si credis ex toto corde, licet. Et respóndens, ait: Credo, Fílium Dei esse Jesum Christum. Et jussit stare currum: et descendérunt utérque in aquam, Philíppus et eunúchus, et baptizávit eum. Cum autem ascendíssent de aqua, Spíritus Dómini rápuit Philíppum, et ámplius non vidit eum eunúchus. Ibat autem per viam suam gaudens. Philíppus autem invéntus est in Azóto, et pertránsiens evangelizábat civitátibus cunctis - donec veníret Cæsaréam - nomen Dómini Jesu Christi."
       },
       {
-        "body": "*Ps 117:24; 117:22-23.*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\n℣. Lápidem, quem reprobavérunt ædific",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 117:24; 117:22-23.*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea.\n℣. Lápidem, quem reprobavérunt ædificántes, hic factus est in caput ánguli: a Dómino factum est istud, et est mirábile in óculis nostris.\nAllelúja, allelúja,\n℣. Surréxit Christus, qui creávit ómnia: et misértus est humáno géneri."
       },
       {
-        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors ",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sequentia",
+        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus.\nDic nobis, María, quid vidísti in via?\nSepúlcrum Christi vivéntis et glóriam vidi resurgéntis.\nAngélicos testes, sudárium et vestes.\nSurréxit Christus, spes mea: præcédet vos in Galilǽam.\nScimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.\n*Sequentia dicitur usque ad Sabbatum in Albis inclusive.*"
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 20:11-18*\nIn illo témpore: María stabat ad monuméntum foris, plor",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 20:11-18*\nIn illo témpore: María stabat ad monuméntum foris, plorans. Dum ergo fleret, inclinávit se et prospéxit in monuméntum: et vidit duos Angelos in albis, sedéntes, unum ad caput et unum ad pedes, ubi pósitum fúerat corpus Jesu. Dicunt ei illi: Múlier, quid ploras? Dicit eis: Quia tulérunt Dóminum meum: et néscio, ubi posuérunt eum. Hæc cum dixísset, convérsa est retrórsum, et vidit Jesum stantem: et non sciébat, quia Jesus est. Dicit ei Jesus: Múlier, quid ploras? quem quæris? Illa exístimans, quia hortulánus esset, dicit ei: Dómine, si tu sustulísti eum, dícito mihi, ubi posuísti eum: et ego eum tollam. Dicit ei Jesus: María. Convérsa illa, dicit ei: Rabbóni - quod dícitur Magíster. - Dicit ei Jesus: Noli me tángere, nondum enim ascéndi ad Patrem meum: vade autem ad fratres meos et dic eis: Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum. Venit María Magdaléne annúntians discípulis: Quia vidi Dóminum, et hæc dixit mihi."
       },
       {
-        "body": "*Exod 13:5*\nIn die solemnitátis vestræ, dicit Dóminus, indúcam vos in terram fluéntem lac et mel, allelúja.",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Exod 13:5*\nIn die solemnitátis vestræ, dicit Dóminus, indúcam vos in terram fluéntem lac et mel, allelúja."
       },
       {
-        "body": "Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut, confessióne tui nóminis et baptísmate renováti, sempit",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Súscipe, quǽsumus, Dómine, múnera populórum tuórum propítius: ut, confessióne tui nóminis et baptísmate renováti, sempitérnam beatitúdinem consequántur.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*1 Pet 2:9*\nPópulus acquisitiónis, annuntiáte virtútes ejus, allelúja: qui vos de ténebris vocávit in admirábile lumen s",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*1 Pet 2:9*\nPópulus acquisitiónis, annuntiáte virtútes ejus, allelúja: qui vos de ténebris vocávit in admirábile lumen suum, allelúja."
       },
       {
-        "body": "Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta commércia, et vitæ nobis cónferant præséntis auxílium",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Exáudi, Dómine, preces nostras: ut redemptiónis nostræ sacrosáncta commércia, et vitæ nobis cónferant præséntis auxílium, et gáudia sempitérna concílient.\nPer Dominum…"
       }
     ]
   ],
@@ -25347,92 +25499,113 @@
   "2025-04-26": [
     [
       {
-        "body": "*Ps 104:43.*\nEdúxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos suos in lætítia, allelúja, allelúja.\n*Ps ",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 104:43.*\nEdúxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos suos in lætítia, allelúja, allelúja.\n*Ps 104:1*\nConfitémini Dómino et invocáte nomen ejus: annuntiáte inter gentes ópera ejus.\nGlória Patri…\nEdúxit Dóminus pópulum suum in exsultatióne, allelúja: et eléctos suos in lætítia, allelúja, allelúja."
       },
       {
-        "body": "Concéde, quǽsumus, omnípotens Deus: ut, qui festa paschália venerándo égimus, per hæc contíngere ad gáudia ætérna mereám",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Concéde, quǽsumus, omnípotens Deus: ut, qui festa paschália venerándo égimus, per hæc contíngere ad gáudia ætérna mereámur.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 2:1-10*\nCaríssimi: Deponéntes ígitur omnem malítiam, et omnem dolum, et simu",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 2:1-10*\nCaríssimi: Deponéntes ígitur omnem malítiam, et omnem dolum, et simulatiónes, et invídias, et omnes detractiónes, sicut modo géniti infántes, rationábile, sine dolo lac concupíscite: ut in eo crescátis in salútem: si tamen gustástis, quóniam dulcis est Dóminus. Ad quem accedéntes lápidem vivum, ab homínibus quidem reprobátum, a Deo autem eléctum et honorificátum: et ipsi tamquam lápides vivi superædificámini, domus spirituális, sacerdótium sanctum, offérre spirituáles hóstias, acceptábiles Deo per Jesum Christum. Propter quod cóntinet Scriptúra: Ecce, pono in Sion lápidem summum angulárem, eléctum, pretiósum: et qui credíderit in eum, non confundátur. Vobis ígitur honor credéntibus: non credéntibus autem lapis, quem reprobavérunt ædificántes, hic factus est in caput ánguli, et lapis offensiónis, et petra scándali his, qui offéndunt verbo, nec credunt in quo et pósiti sunt. Vos autem genus eléctum, regále sacerdótium, gens sancta, pópulus acquisitiónis: ut virtútes annuntiétis ejus, qui de ténebris vos vocávit in admirábile lumen suum. Qui aliquándo non pópulus, nunc autem pópulus Dei: qui non consecúti misericórdiam, nunc autem misericórdiam consecúti."
       },
       {
-        "body": "Allelúja, allelúja.\n*Ps 117:24*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. Allelúja.\n*Ps 112:1*\nLaudáte,",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Ps 117:24*\nHæc dies, quam fecit Dóminus: exsultémus et lætémur in ea. Allelúja.\n*Ps 112:1*\nLaudáte, púeri, Dóminum, laudáte nomen Dómini.\n\n*Ab hoc die usque ad Sabbatum Quatuor Temporum Pentecostes inclusive, in omnibus Missis, non dicitur Graduale sed quatuor Allelúja cum duobus Versibus, ordine infrascripto; in Missa tamen Rogationum, in Vigilia Pentecostes et post quamlibet Lectionem in Sabbato Quatuor Temporum ejusdem, unum Allelúja dicitur cum unico Versu.*"
       },
       {
-        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors ",
-        "id": "Sequentia"
+        "id": "Sequentia",
+        "label": "Sequentia",
+        "body": "Víctimæ pascháli laudes ímmolent Christiáni.\nAgnus rédemit oves: Christus ínnocens Patri reconciliávit peccatóres.\nMors et vita duéllo conflixére mirándo: dux vitæ mórtuus regnat vivus.\nDic nobis, María, quid vidísti in via?\nSepúlcrum Christi vivéntis et glóriam vidi resurgéntis.\nAngélicos testes, sudárium et vestes.\nSurréxit Christus, spes mea: præcédet vos in Galilǽam.\nScimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére. Amen. Allelúja.\n*Sequentia dicitur usque ad Sabbatum in Albis inclusive.*"
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joannes 20:1-9*\nIn illo témpore: Una sábbati, María Magdaléne venit mane",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem.\n*Joannes 20:1-9*\nIn illo témpore: Una sábbati, María Magdaléne venit mane, cum adhuc ténebræ essent, ad monuméntum: et vidit lápidem sublátum a monuménto. Cucúrrit ergo, et venit ad Simónem Petrum, et ad álium discípulum, quem amábat Jesus, et dicit illis: Tulérunt Dóminum de monuménto, et nescímus, ubi posuérunt eum. Exiit ergo Petrus et ille álius discípulus, et venérunt ad monuméntum. Currébant autem duo simul, et ille álius discípulus præcucúrrit cítius Petro, et venit primus ad monuméntum. Et cum se inclinásset, vidit pósita linteámina, non tamen introívit. Venit ergo Simon Petrus sequens eum, et introívit in monuméntum, et vidit linteámina pósita, et sudárium, quod fúerat super caput ejus, non cum linteamínibus pósitum, sed separátim involútum in unum locum. Tunc ergo introívit et ille discípulus, qui vénerat primus ad monuméntum: et vidit et crédidit: nondum enim sciébant Scriptúram, quia oportébat eum a mórtuis resúrgere."
       },
       {
-        "body": "*Ps 7:26-27*\nBenedíctus, qui venit in nómine Dómini: benedíximus vobis de domo Dómini: Deus Dóminus, et illúxit nobis, a",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 7:26-27*\nBenedíctus, qui venit in nómine Dómini: benedíximus vobis de domo Dómini: Deus Dóminus, et illúxit nobis, allelúja, allelúja."
       },
       {
-        "body": "Concéde, quǽsumus, Dómine, semper nos per hæc mystéria paschália gratulári: ut contínua nostræ reparatiónis operátio per",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Concéde, quǽsumus, Dómine, semper nos per hæc mystéria paschália gratulári: ut contínua nostræ reparatiónis operátio perpétuæ nobis fiat causa lætítiæ.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Gal 3:27*\nOmnes, qui in Christo baptizáti estis, Christum induístis, allelúja.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Gal 3:27*\nOmnes, qui in Christo baptizáti estis, Christum induístis, allelúja."
       },
       {
-        "body": "Redemptiónis nostræ múnere vegetáti, quǽsumus, Dómine: ut, hoc perpétuæ salútis auxílio, fides semper vera profíciat.\nPe",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Redemptiónis nostræ múnere vegetáti, quǽsumus, Dómine: ut, hoc perpétuæ salútis auxílio, fides semper vera profíciat.\nPer Dominum…"
       }
     ]
   ],
   "2025-04-27": [
     [
       {
-        "body": "*1 Pet 2:2*\nQuasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*1 Pet 2:2*\nQuasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja.\n*Ps 80:2.*\nExsultáte Deo, adjutóri nostro: jubiláte Deo Jacob.\nGlória Patri…\nQuasi modo géniti infántes, allelúja: rationábiles, sine dolo lac concupíscite, allelúja, allelúja, allelúja."
       },
       {
-        "body": "Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.\nPer D",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Præsta, quǽsumus, omnípotens Deus: ut, qui paschália festa perégimus, hæc, te largiénte, móribus et vita teneámus.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Joánnis Apóstoli\n*1 Joannes 5:4-10*\nCaríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Joánnis Apóstoli\n*1 Joannes 5:4-10*\nCaríssimi: Omne, quod natum est ex Deo, vincit mundum: et hæc est victória, quæ vincit mundum, fides nostra. Quis est, qui vincit mundum, nisi qui credit, quóniam Jesus est Fílius Dei? Hic est, qui venit per aquam et sánguinem, Jesus Christus: non in aqua solum, sed in aqua et sánguine. Et Spíritus est, qui testificátur, quóniam Christus est véritas. Quóniam tres sunt, qui testimónium dant in cœlo: Pater, Verbum, et Spíritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testimónium dant in terra: Spíritus, et aqua, et sanguis: et hi tres unum sunt. Si testimónium hóminum accípimus, testimónium Dei majus est: quóniam hoc est testimónium Dei, quod majus est: quóniam testificátus est de Fílio suo. Qui credit in Fílium Dei, habet testimónium Dei in se."
       },
       {
-        "body": "Allelúja, allelúja.\n*Matt 28:7*\nIn die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.\n*Joannes 2",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Matt 28:7*\nIn die resurrectiónis meæ, dicit Dóminus, præcédam vos in Galilǽam. Allelúja.\n*Joannes 20:26*\nPost dies octo, jánuis clausis, stetit Jesus in médio discipulórum suórum, et dixit: Pax vobis. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 20:19-31*\nIn illo témpore: Cum sero esset die illo, una sabbatóru",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Joánnem\n*Joannes 20:19-31*\nIn illo témpore: Cum sero esset die illo, una sabbatórum, et fores essent clausæ, ubi erant discípuli congregáti propter metum Judæórum: venit Jesus, et stetit in médio, et dixit eis: Pax vobis. Et cum hoc dixísset, osténdit eis manus et latus. Gavísi sunt ergo discípuli, viso Dómino. Dixit ergo eis íterum: Pax vobis. Sicut misit me Pater, et ego mitto vos. Hæc cum dixísset, insufflávit, et dixit eis: Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis; et quorum retinuéritis, reténta sunt. Thomas autem unus ex duódecim, qui dícitur Dídymus, non erat cum eis, quando venit Jesus. Dixérunt ergo ei álii discípuli: Vídimus Dóminum. Ille autem dixit eis: Nisi vídero in mánibus ejus fixúram clavórum, et mittam dígitum meum in locum clavórum, et mittam manum meam in latus ejus, non credam. Et post dies octo, íterum erant discípuli ejus intus, et Thomas cum eis. Venit Jesus, jánuis clausis, et stetit in médio, et dixit: Pax vobis. Deínde dicit Thomæ: Infer dígitum tuum huc et vide manus meas, et affer manum tuam et mitte in latus meum: et noli esse incrédulus, sed fidélis. Respóndit Thomas et dixit ei: Dóminus meus et Deus meus. Dixit ei Jesus: Quia vidísti me, Thoma, credidísti: beáti, qui non vidérunt, et credidérunt. Multa quidem et ália signa fecit Jesus in conspéctu discipulórum suórum, quæ non sunt scripta in libro hoc. Hæc autem scripta sunt, ut credátis, quia Jesus est Christus, Fílius Dei: et ut credéntes vitam habeátis in nómine ejus."
       },
       {
-        "body": "*Matt 28:2; 28:5-6*\nAngelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúj",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Matt 28:2; 28:5-6*\nAngelus Dómini descéndit de cœlo, et dixit muliéribus: Quem quǽritis, surréxit, sicut dixit, allelúja."
       },
       {
-        "body": "Súscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam tanti gáudii præstitísti, perpétuæ fructum concéd",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Súscipe múnera, Dómine, quǽsumus, exsultántis Ecclésiæ: et, cui causam tanti gáudii præstitísti, perpétuæ fructum concéde lætítiæ.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Joannes 20:27*\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, a",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Joannes 20:27*\nMitte manum tuam, et cognósce loca clavórum, allelúja: et noli esse incrédulus, sed fidélis, allelúja, allelúja."
       },
       {
-        "body": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobi",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Quǽsumus, Dómine, Deus noster: ut sacrosáncta mystéria, quæ pro reparatiónis nostræ munímine contulísti; et præsens nobis remédium esse fácias et futúrum.\nPer Dominum…"
       }
     ]
   ],
@@ -25527,44 +25700,54 @@
   "2025-04-30": [
     [
       {
-        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus t",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 44:8*\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)\n*Ps 44:2*\nEructávit cor meum verbum bonum: dico ego ópera mea Regi.\nGlória Patri…\nDilexísti justítiam, et odísti iniquitátem: proptérea unxit te Deus, Deus tuus, óleo lætítiæ præ consórtibus tuis. (Allelúja, allelúja.)"
       },
       {
-        "body": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et ",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et tantæ virtútis proficiámus exémplo.\nPer Dominum…"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur. Non enim, qui seípsum comméndat, ille probátus est; sed quem Deus comméndat. Utinam sustinerétis módicum quid insipiéntiæ meæ, sed et supportáte me: æmulor enim vos Dei æmulatióne. Despóndi enim vos uni viro vírginem castam exhibére Christo."
       },
       {
-        "body": "Allelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.\n",
-        "id": "GradualeP"
+        "id": "GradualeP",
+        "label": "Graduale",
+        "body": "Allelúja, allelúja.\n*Ps 44:15-16*\nAdducéntur Regi Vírgines post eam: próximæ ejus afferéntur tibi in lætítia. Allelúja.\n*Ps 44:5*\nSpécie tua et pulchritúdine tua inténde, próspere procéde et regna. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam han",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Matthǽum\n*Matt 25:1-13*\nIn illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile erit regnum coelórum decem virgínibus: quæ, accipiéntes lámpades suas, exiérunt óbviam sponso et sponsæ. Quinque autem ex eis erant fátuæ, et quinque prudéntes: sed quinque fátuæ, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce, sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines íllæ, et ornavérunt lámpades suas. Fátuæ autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostræ exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quæ parátæ erant, intravérunt cum eo ad núptias, et clausa est jánua. Novíssime vero véniunt et réliquæ vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen, dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem neque horam."
       },
       {
-        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 44:10*\nFíliæ regum in honóre tuo, ástitit regína a dextris tuis in vestítu deauráto, circúmdata varietáte. (Allelúja.)"
       },
       {
-        "body": "Ascéndant ad te, Dómine, quas in beátæ Catharínæ solemnitáte offérimus, preces, et hóstia salutáris, virgíneo fragrans o",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\nPer Dominum…"
       },
       {
-        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed te",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia cœléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
       },
       {
-        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 25:4-6*\nQuinque prudéntes vírgines accepérunt óleum in vasis suis cum lampádibus: média autem nocte clamor factus est: Ecce, sponsus venit: exíte óbviam Christo Dómino. (Allelúja.)"
       },
       {
-        "body": "Æternitátem nobis, Dómine, cónferat, qua pasti sumus, mensa cœléstis: quæ beátæ Catharínæ Vírginis vitam étiam áluit tem",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Satiásti, Dómine, famíliam tuam munéribus sacris: ejus, quǽsumus, semper interventióne nos réfove, cujus sollémnia celebrámus.\nPer Dominum…"
       }
     ]
   ],
