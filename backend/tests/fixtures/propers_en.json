@@ -1030,56 +1030,69 @@
   "2024-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in h",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in his heart. (Alléluia, alléluia.)\n*Ps 36:1*\nBe not vexed over evildoers, nor jealous of those who do wrong.\nGlory Be to the Father…\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in his heart. (Alléluia, alléluia.)"
       },
       {
-        "body": "O God, You Who chose blessed Raymond to be a renowned minister of the sacrament of Penance, and miraculously brought him",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, You Who chose blessed Raymond to be a renowned minister of the sacrament of Penance, and miraculously brought him through the waves of the sea, grant that by his intercession we may produce good results from our penitence and reach the haven of eternal salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nMay blessed Emerentiana, Virgin and Martyr, who was ever pleasing to You by the merit of",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Emerentiana*\nO God, Who among the other miracles of thy power have bestowed the victory of martyrdom even upon the weaker sex, graciously grant that we who commemorate the anniversary of the death of blessed N., thy Virgin and Martyr, may come to thee by the path of her example.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the book of Ecclesiasticus\n*Sir 31:8-11*\nHappy the man found without fault, who turns not aside after gain, ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the book of Ecclesiasticus\n*Sir 31:8-11*\nHappy the man found without fault, who turns not aside after gain, nor puts his trust in money nor in treasures! Who is he, that we may praise him? For he has done wonders in his life. He has been tested by gold and come off safe, and this remains his glory forever; he could have sinned but did not, could have done evil but would not, so that his possessions are secure in the Lord, and the assembly of the Saints shall recount his alms."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nThe just man shall flourish like the palm tree, like a cedar of Lebanon shall he grow in the house of ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 91:13; 91:14*\nThe just man shall flourish like the palm tree, like a cedar of Lebanon shall he grow in the house of the Lord.\n*Ps 91:3*\n℣. To proclaim Your kindness at dawn and Your faithfulness throughout the night. Alleluia, alleluia.\n*Jas 1:12*\n℣. Blessed is the man who endures temptation; for when he has been tried, he will receive the crown of life. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 12:35-40*\nAt that time, Jesus said to His disciples, Let your ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 12:35-40*\nAt that time, Jesus said to His disciples, Let your loins be girt about and your lamps burning, and you yourselves like men waiting for their master’s return from the wedding; so that when he comes and knocks, they may straight-way open to him. Blessed are those servants whom the master, on his return, shall find watching. Amen I say to you, he will gird himself, and will make them recline at table, and will come and serve them. And if he comes in the second watch, and if in the third, and finds them so, blessed are those servants! But of this be assured, that if the householder had known at what hour the thief was coming, he would certainly have watched, and not have let his house be broken into. You also must be ready, because at an hour that you do not expect, the Son of Man is coming."
       },
       {
-        "body": "*Ps 88:25*\nMy faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 88:25*\nMy faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)"
       },
       {
-        "body": "We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by them we may be delivered from both",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by them we may be delivered from both present and future evils.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nGraciously accept the sacrificial gifts offered You, O Lord, through the merits of bless",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Emerentiana*\nAccept, O Lord, the gifts we bring on the festival of blessed N., Your Virgin and Martyr, through whose patronage we hope to be delivered.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 24:46-47*\nBlessed is that servant whom his master, when he comes, shall find watching. Amen I say to you, he will ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 24:46-47*\nBlessed is that servant whom his master, when he comes, shall find watching. Amen I say to you, he will set him over all his goods. (Alleluia.)"
       },
       {
-        "body": "Refreshed with heavenly food and drink, we humbly pray You, our God, that we also may be helped by his prayers in memory",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Refreshed with heavenly food and drink, we humbly pray You, our God, that we also may be helped by his prayers in memory of whom we have partaken of these gifts.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nWe who have been refreshed by the richness of Your divine sacrament beseech You, O Lord ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Emerentiana*\nMay the sacrament we have received, aid us, O Lord, and by the intercession of blessed N., Your Virgin and Martyr, may it keep us forevermore under Your everlasting protection.\nThrough our Lord…"
       }
     ]
   ],
@@ -19679,56 +19692,69 @@
   "2025-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in h",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in his heart. (Alléluia, alléluia.)\n*Ps 36:1*\nBe not vexed over evildoers, nor jealous of those who do wrong.\nGlory Be to the Father…\nThe mouth of the just man tells of wisdom, and his tongue utters what is right. The law of his God is in his heart. (Alléluia, alléluia.)"
       },
       {
-        "body": "O God, You Who chose blessed Raymond to be a renowned minister of the sacrament of Penance, and miraculously brought him",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, You Who chose blessed Raymond to be a renowned minister of the sacrament of Penance, and miraculously brought him through the waves of the sea, grant that by his intercession we may produce good results from our penitence and reach the haven of eternal salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nMay blessed Emerentiana, Virgin and Martyr, who was ever pleasing to You by the merit of",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration St. Emerentiana*\nO God, Who among the other miracles of thy power have bestowed the victory of martyrdom even upon the weaker sex, graciously grant that we who commemorate the anniversary of the death of blessed N., thy Virgin and Martyr, may come to thee by the path of her example.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the book of Ecclesiasticus\n*Sir 31:8-11*\nHappy the man found without fault, who turns not aside after gain, ",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the book of Ecclesiasticus\n*Sir 31:8-11*\nHappy the man found without fault, who turns not aside after gain, nor puts his trust in money nor in treasures! Who is he, that we may praise him? For he has done wonders in his life. He has been tested by gold and come off safe, and this remains his glory forever; he could have sinned but did not, could have done evil but would not, so that his possessions are secure in the Lord, and the assembly of the Saints shall recount his alms."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nThe just man shall flourish like the palm tree, like a cedar of Lebanon shall he grow in the house of ",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 91:13; 91:14*\nThe just man shall flourish like the palm tree, like a cedar of Lebanon shall he grow in the house of the Lord.\n*Ps 91:3*\n℣. To proclaim Your kindness at dawn and Your faithfulness throughout the night. Alleluia, alleluia.\n*Jas 1:12*\n℣. Blessed is the man who endures temptation; for when he has been tried, he will receive the crown of life. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 12:35-40*\nAt that time, Jesus said to His disciples, Let your ",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 12:35-40*\nAt that time, Jesus said to His disciples, Let your loins be girt about and your lamps burning, and you yourselves like men waiting for their master’s return from the wedding; so that when he comes and knocks, they may straight-way open to him. Blessed are those servants whom the master, on his return, shall find watching. Amen I say to you, he will gird himself, and will make them recline at table, and will come and serve them. And if he comes in the second watch, and if in the third, and finds them so, blessed are those servants! But of this be assured, that if the householder had known at what hour the thief was coming, he would certainly have watched, and not have let his house be broken into. You also must be ready, because at an hour that you do not expect, the Son of Man is coming."
       },
       {
-        "body": "*Ps 88:25*\nMy faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 88:25*\nMy faithfulness and My kindness shall be with him, and through My name shall his horn be exalted. (Alleluia.)"
       },
       {
-        "body": "We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by them we may be delivered from both",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "We offer You sacrifices of praise, O Lord, in memory of Your Saints; trusting that by them we may be delivered from both present and future evils.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nGraciously accept the sacrificial gifts offered You, O Lord, through the merits of bless",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration St. Emerentiana*\nAccept, O Lord, the gifts we bring on the festival of blessed N., Your Virgin and Martyr, through whose patronage we hope to be delivered.\nThrough our Lord…"
       },
       {
-        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Common*\nIt is truly meet and just, and profitable unto salvation, that we should at all times, and in all places, give thanks to Thee, O Holy Lord, Father Almighty, eternal God, through Christ, our Lord. Through whom the Angels praise Thy Majesty, the Dominions adore it, the Powers are in awe. Which the heavens and the hosts of heaven together with the blessed Seraphim joyfully do magnify. And do Thou command that it be permitted us to join with them in confessing Thee, while we say with lowly praise:"
       },
       {
-        "body": "*Matt 24:46-47*\nBlessed is that servant whom his master, when he comes, shall find watching. Amen I say to you, he will ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 24:46-47*\nBlessed is that servant whom his master, when he comes, shall find watching. Amen I say to you, he will set him over all his goods. (Alleluia.)"
       },
       {
-        "body": "Refreshed with heavenly food and drink, we humbly pray You, our God, that we also may be helped by his prayers in memory",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Refreshed with heavenly food and drink, we humbly pray You, our God, that we also may be helped by his prayers in memory of whom we have partaken of these gifts.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration St. Emerentiana*\nWe who have been refreshed by the richness of Your divine sacrament beseech You, O Lord ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration St. Emerentiana*\nMay the sacrament we have received, aid us, O Lord, and by the intercession of blessed N., Your Virgin and Martyr, may it keep us forevermore under Your everlasting protection.\nThrough our Lord…"
       }
     ]
   ],

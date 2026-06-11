@@ -1030,56 +1030,69 @@
   "2024-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)\n*Ps 36:1*\nNie unoś się z powodu złoczyńców, ani nie zazdrość czyniącym nieprawość.\nChwała Ojcu…\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)"
       },
       {
-        "body": "Boże, który powołałeś św. Rajmunda na wybitnego Szafarza sakramentu Pokuty i cudownie przeprowadziłeś go po falach morsk",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który powołałeś św. Rajmunda na wybitnego Szafarza sakramentu Pokuty i cudownie przeprowadziłeś go po falach morskich: spraw, abyśmy za jego wstawiennictwem czynili godne owoce i zdołali zawinąć do portu wiecznego zbawienia.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nProsimy Cię, Panie, aby święta Emerencjanna, Dziewica i Męczennica T",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nBoże, który między innemi potęgi Twojej cudami, słabe niewiasty chwałą męczeństwa ozdobiłeś, dozwól łaskawie, abyśmy, którzy błogosławionej N., Dziewicy i Męczenniczki narodziny wysławiamy, jej przykłady naśladując, do Ciebie się przybliżyli.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za złotem, i nadziei nie pokładał w pieniądzach i skarbach. Któż to jest? – a chwalić go będziemy. Bo w życiu swym dziwów dokonał. Kto w tej sprawie jest doświadczony i doskonały, będzie miał wieczną chwałę: który mógł przestąpić, a nie przestąpił, źle czynić, a nie uczynił; przeto pewne są skarby jego u Pana, a jałmużny jego wysławiać będzie zgromadzenie świętych."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosi",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosić z rana Twoje miłosierdzie, a wierność Twoją nocami. Alleluja, alleluja.\n*Jk 1:12*\nBłogosławiony człowiek, który zniesie pokusę, bo utwierdziwszy się, otrzyma wieniec żywota. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystusa.*\nOnego czasu: Rzekł Jezus uczniom swoim: «Niechaj biodra wasze będą przepasane i pochodnie gorejące w rękach waszych. A sami bądźcie podobni do ludzi oczekujących powrotu pana swego z godów weselnych; aby, gdy nadejdzie i zakołacze, natychmiast mu otworzyć. Błogosławieni słudzy owi, których pan, gdy nadejdzie, zastanie czuwającymi. Zaprawdę powiadam wam, że przepasze się i każe im zasiąść, a przechodząc usługiwać im będzie. I czy przyjdzie o drugiej straży, czy też o trzeciej straży nadejdzie, a tak zastanie: błogosławieni są słudzy owi. A to wiedzcie, że gdyby wiedział pan domu, o której godzinie nadejdzie złodziej, czuwałby zaiste i nie dopuściłby podkopać domu swego. I wy bądźcie gotowi, bo Syn Człowieczy nadejdzie w godzinie, w której się nie spodziewacie."
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)"
       },
       {
-        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nProsimy Cię, Panie, przyjmij łaskawie ofiarę, którą Ci składamy prze",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nPrzyjmij, Panie, dary, które Ci składamy w uroczystość świętej N., Dziewicy i Męczennicy Twojej: ufamy, że jej wstawiennictwo przyczyni się do naszego wyzwolenia.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go nad wszystkimi dobrami swymi. (Alleluia.)"
       },
       {
-        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nDarem Bożym szczodrze nasyceni, prosimy Cię, Panie Boże nasz, abyśmy",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nPanie, niech nas wspomaga przyjęty Sakrament, i za wstawiennictwem świętej N., Twojej Dziewicy i Męczennicy, niech sprawi, byśmy się radowali nieustanną opieką.\nPrzez Pana…"
       }
     ]
   ],
@@ -19798,56 +19811,69 @@
   "2025-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu.",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 36:30-31*\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)\n*Ps 36:1*\nNie unoś się z powodu złoczyńców, ani nie zazdrość czyniącym nieprawość.\nChwała Ojcu…\nUsta sprawiedliwego głoszą mądrość i język jego mówi to, co słuszne; prawo jego Boga mieszka w jego sercu. (Alléluia, alléluia.)"
       },
       {
-        "body": "Boże, który powołałeś św. Rajmunda na wybitnego Szafarza sakramentu Pokuty i cudownie przeprowadziłeś go po falach morsk",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, który powołałeś św. Rajmunda na wybitnego Szafarza sakramentu Pokuty i cudownie przeprowadziłeś go po falach morskich: spraw, abyśmy za jego wstawiennictwem czynili godne owoce i zdołali zawinąć do portu wiecznego zbawienia.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nProsimy Cię, Panie, aby święta Emerencjanna, Dziewica i Męczennica T",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nBoże, który między innemi potęgi Twojej cudami, słabe niewiasty chwałą męczeństwa ozdobiłeś, dozwól łaskawie, abyśmy, którzy błogosławionej N., Dziewicy i Męczenniczki narodziny wysławiamy, jej przykłady naśladując, do Ciebie się przybliżyli.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za zło",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 31:8-11*\nBłogosławiony mąż, który okazał się bez zmazy i który nie ubiegał się za złotem, i nadziei nie pokładał w pieniądzach i skarbach. Któż to jest? – a chwalić go będziemy. Bo w życiu swym dziwów dokonał. Kto w tej sprawie jest doświadczony i doskonały, będzie miał wieczną chwałę: który mógł przestąpić, a nie przestąpił, źle czynić, a nie uczynił; przeto pewne są skarby jego u Pana, a jałmużny jego wysławiać będzie zgromadzenie świętych."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosi",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 91:13; 91:14*\nSprawiedliwy zakwitnie jak palma, rozrośnie się jak cedr na Libanie w domu Pańskim.\n*Ps 91:3*\nBy głosić z rana Twoje miłosierdzie, a wierność Twoją nocami. Alleluja, alleluja.\n*Jk 1:12*\nBłogosławiony człowiek, który zniesie pokusę, bo utwierdziwszy się, otrzyma wieniec żywota. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystus",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 12:35-40*\n*Życie Świętych było czujnym oczekiwaniem powrotu Chrystusa.*\nOnego czasu: Rzekł Jezus uczniom swoim: «Niechaj biodra wasze będą przepasane i pochodnie gorejące w rękach waszych. A sami bądźcie podobni do ludzi oczekujących powrotu pana swego z godów weselnych; aby, gdy nadejdzie i zakołacze, natychmiast mu otworzyć. Błogosławieni słudzy owi, których pan, gdy nadejdzie, zastanie czuwającymi. Zaprawdę powiadam wam, że przepasze się i każe im zasiąść, a przechodząc usługiwać im będzie. I czy przyjdzie o drugiej straży, czy też o trzeciej straży nadejdzie, a tak zastanie: błogosławieni są słudzy owi. A to wiedzcie, że gdyby wiedział pan domu, o której godzinie nadejdzie złodziej, czuwałby zaiste i nie dopuściłby podkopać domu swego. I wy bądźcie gotowi, bo Syn Człowieczy nadejdzie w godzinie, w której się nie spodziewacie."
       },
       {
-        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 88:25*\nZ nim moja wierność i moja łaska; w moim imieniu moc jego wzrośnie. (Alleluia.)"
       },
       {
-        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Wspominając Twoich Świętych składamy Ci, Panie, ofiarę chwały i ufamy, że ona wybawi nas od złego teraz i w przyszłości.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nProsimy Cię, Panie, przyjmij łaskawie ofiarę, którą Ci składamy prze",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nPrzyjmij, Panie, dary, które Ci składamy w uroczystość świętej N., Dziewicy i Męczennicy Twojej: ufamy, że jej wstawiennictwo przyczyni się do naszego wyzwolenia.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze Święty, wszechmogący, wieczny Boże, przez Chrystusa, Pana naszego. Przez Niego Twój majestat chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi, Niebiosa i Moce niebios oraz błogosławieni Serafini we wspólnej wysławiają radości. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Mt 24:46-47*\nBłogosławiony sługa, którego Pan przyszedłszy znajdzie czuwającego. Zaprawdę, powiadam wam, że postawi go nad wszystkimi dobrami swymi. (Alleluia.)"
       },
       {
-        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego św",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Pokrzepieni niebieskim pokarmem i napojem, błagamy Cię pokornie, Boże nasz, niech nas bronią modlitwy tego, w którego święto przyjęliśmy te dary.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nDarem Bożym szczodrze nasyceni, prosimy Cię, Panie Boże nasz, abyśmy",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Św. Emercjanny, Dziewicy i Męczennicy*\nPanie, niech nas wspomaga przyjęty Sakrament, i za wstawiennictwem świętej N., Twojej Dziewicy i Męczennicy, niech sprawi, byśmy się radowali nieustanną opieką.\nPrzez Pana…"
       }
     ]
   ],

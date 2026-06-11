@@ -1030,56 +1030,69 @@
   "2024-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n*Ps 36:1*\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\nGlória Patri…\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)"
       },
       {
-        "body": "Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum elegísti, et per maris undas mirabíliter traduxísti:",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum elegísti, et per maris undas mirabíliter traduxísti: concéde; ut ejus intercessióne dignos pœniténtiæ fructus fácere, et ad ætérnæ salútis portum perveníre valeámus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Emerentiána Virgo et Martyr imp",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nDeus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ N. Vírginis et Mártyris tuæ natalícia cólimus, per ejus ad te exémpla gradiámur.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec speráv",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándu",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n*Ja 1:12*\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vest",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet."
       },
       {
-        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)"
       },
       {
-        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídim",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nHóstias tibi, Dómine, beátæ Emerentiánæ Vírginis et Mártyris tuæ dicátas mé",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nSúscipe, Dómine, múnera, quæ in beátæ N. Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua c",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)"
       },
       {
-        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniá",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nDivíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut, interc",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta N. Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\nPer Dominum…"
       }
     ]
   ],
@@ -19798,56 +19811,69 @@
   "2025-01-23": [
     [
       {
-        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introitus",
+        "body": "*Ps 36:30-31*\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)\n*Ps 36:1*\nNoli æmulári in malignántibus: neque zeláveris faciéntes iniquitátem.\nGlória Patri…\nOs justi meditábitur sapiéntiam, et lingua ejus loquétur judícium: lex Dei ejus in corde ipsíus. (Allelúja, allelúja.)"
       },
       {
-        "body": "Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum elegísti, et per maris undas mirabíliter traduxísti:",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Oratio",
+        "body": "Deus, qui beátum Raymúndum pœniténtiæ sacraménti insígnem minístrum elegísti, et per maris undas mirabíliter traduxísti: concéde; ut ejus intercessióne dignos pœniténtiæ fructus fácere, et ad ætérnæ salútis portum perveníre valeámus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nIndulgéntiam nobis, quǽsumus, Dómine, beáta Emerentiána Virgo et Martyr imp",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoratio Oratio",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nDeus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ N. Vírginis et Mártyris tuæ natalícia cólimus, per ejus ad te exémpla gradiámur.\nPer Dominum…"
       },
       {
-        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec speráv",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lectio",
+        "body": "Léctio libri Sapiéntiæ\n*Eccli 31:8-11*\nBeátus vir, qui invéntus est sine mácula, et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? fecit enim mirabília in vita sua. Qui probátus est in illo, et perféctus est, erit illi glória ætérna: qui potuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabilíta sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum."
       },
       {
-        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándu",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduale",
+        "body": "*Ps 91:13; 91:14*\nJustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini.\n*Ps 91:3*\nAd annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem. Allelúja, allelúja\n*Ja 1:12*\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ. Allelúja."
       },
       {
-        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vest",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Evangelium",
+        "body": "Sequéntia ☩ sancti Evangélii secúndum Lucam\n*Luc 12:35-40*\nIn illo témpore: Dixit Jesus discípulis suis: Sint lumbi vestri præcíncti, et lucernæ ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen, dico vobis, quod præcínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret pérfodi domum suam. Et vos estóte paráti, quia, qua hora non putátis, Fílius hóminis véniet."
       },
       {
-        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertorium",
+        "body": "*Ps 88:25*\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu ejus. (Allelúja.)"
       },
       {
-        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídim",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secreta",
+        "body": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et præséntibus éxui malis confídimus et futúris.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nHóstias tibi, Dómine, beátæ Emerentiánæ Vírginis et Mártyris tuæ dicátas mé",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoratio Secreta",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nSúscipe, Dómine, múnera, quæ in beátæ N. Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.\nPer Dominum…"
       },
       {
-        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefatio",
+        "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: per Christum, Dóminum nostrum. Per quem majestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti jubeas, deprecámur, súpplici confessione dicéntes:"
       },
       {
-        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua c",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communio",
+        "body": "*Matt 24:46-47*\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen, dico vobis, super ómnia bona sua constítuet eum. (Allelúja.)"
       },
       {
-        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniá",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunio",
+        "body": "Refécti cibo potúque cœlésti, Deus noster, te súpplices exorámus: ut, in cujus hæc commemoratióne percépimus, ejus muniámur et précibus.\nPer Dominum…"
       },
       {
-        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nDivíni múneris largitáte satiáti, quǽsumus, Dómine, Deus noster: ut, interc",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoratio Postcommunio",
+        "body": "*Commemoratio S. Emerentiana Virg. et Mart.*\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta N. Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\nPer Dominum…"
       }
     ]
   ],
