@@ -2135,60 +2135,74 @@
   "2024-02-15": [
     [
       {
-        "body": "*Ps 54:17-23*\nWhen I called upon the Lord, He heard my voice from those who war against me; and He humbled them, Who is ",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 54:17-23*\nWhen I called upon the Lord, He heard my voice from those who war against me; and He humbled them, Who is before all ages and remains forever. Cast your care upon the Lord, and He will support you.\n*Ps 54:2*\nHearken, O God, to my prayer; turn not away from my pleading; give heed to me, and answer me.\nGlory Be to the Father…\nWhen I called upon the Lord, He heard my voice from those who war against me; and He humbled them, Who is before all ages and remains forever. Cast your care upon the Lord, and He will support you."
       },
       {
-        "body": "O God, offended by sin, and appeased by penitence, graciously hear the prayers of Your people as they entreat You to tur",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, offended by sin, and appeased by penitence, graciously hear the prayers of Your people as they entreat You to turn away from us the scourges of anger that we have deserved because of our sins.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nO God, Who gladden us by the annual festival of Your Martyrs Faustinus and Jovit",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nO God, Who gladden us by the annual festival of Your Martyrs N. and N., grant that we may be inspired by the example of those in whose merits we rejoice.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the book of Isaias\n*Isa 38:1-6*\nIn those days, when Ezechia was mortally ill, the prophet Isaiah, son of Amo",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the book of Isaias\n*Isa 38:1-6*\nIn those days, when Ezechia was mortally ill, the prophet Isaiah, son of Amos, came and said to him; Thus says the Lord: ‘Put your house in order, for you are about to die; you shall not recover.’ Then Ezechia turned his face to the wall and prayed to the Lord: O Lord, remember how faithfully and wholeheartedly I conducted myself in Your presence, doing what was pleasing to You! And Ezechia wept bitterly. Then the word of the Lord came to Isaiah: Go, tell Ezechia: Thus says the Lord, the God of your father David: I have heard your prayer and seen your tears. I will add fifteen years to your life. I will rescue you and this city from the hand of the king of Assyria; I will be a shield to this city, says the Lord almighty."
       },
       {
-        "body": "*Ps 54:23, 17-19.*\nCast your care upon the Lord, and He will support you.\n℣. When I called upon the Lord, He heard my vo",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps 54:23, 17-19.*\nCast your care upon the Lord, and He will support you.\n℣. When I called upon the Lord, He heard my voice from those who war against me."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 8:5-13*\nAt that time, when Jesus had entered Capharnaum, th",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 8:5-13*\nAt that time, when Jesus had entered Capharnaum, there came to Him a centurion, who entreated Him, saying, Lord, my servant is lying sick in the house, paralyzed, and is grievously afflicted. Jesus said to him, I will come and cure him. But in answer the centurion said, Lord, I am not worthy that You should come under my roof; but only say the word, and my servant will be healed. For I too am a man subject to authority, and have soldiers subject to me; and I say to one, ‘Go,’ and he goes; and to another, ‘Come,’ and he comes; and to my servant, ‘Do this,’ and he does it. And when Jesus heard this, He marveled, and said to those who were following Him, Amen I say to you, I have not found such great faith in Israel. And I tell you that many will come from the east and from the west, and will feast with Abraham and Isaac and Jacob in the kingdom of heaven, but the children of the kingdom will be put forth into the darkness outside; there will be the weeping, and the gnashing of teeth. Then Jesus said to the centurion, Go your way; as you have believed, so be it done to you. And the servant was healed in that hour."
       },
       {
-        "body": "*Ps 24:1-3*\nTo You, O Lord, I lift up my soul: in You, O my God, I trust; let me not be put to shame, let not my enemies",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 24:1-3*\nTo You, O Lord, I lift up my soul: in You, O my God, I trust; let me not be put to shame, let not my enemies exult over me. No one who waits on You shall be put to shame."
       },
       {
-        "body": "O Lord, we beseech You to look with favor upon these offerings before You, and may they be profitable to our devotion as",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "O Lord, we beseech You to look with favor upon these offerings before You, and may they be profitable to our devotion as well as to our salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nBe mindful, O Lord, of our humble prayers in this commemoration of Your Saints, ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nBe mindful, O Lord, of our humble prayers in this commemoration of Your Saints, that we who have no confidence in our own righteousness may be aided by the merits of those who have been pleasing to You.\nThrough our Lord…"
       },
       {
-        "body": "*Lent*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give than",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Lent*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give thanks unto Thee, O holy Lord, Father almighty, everlasting God; Who by this bodily fast, dost curb our vices, dost lift up our minds and bestow on us strength and rewards; through Christ our Lord. Through whom the Angels praise Thy Majesty, the Dominations worship it, the Powers stand in awe. The Heavens and the heavenly hosts together with the blessed Seraphim in triumphant chorus unite to celebrate it. Together with these we entreat Thee that Thou mayest bid our voices also to be admitted while we say with lowly praise:"
       },
       {
-        "body": "*Ps 50:21*\nYou shall be pleased with due sacrifices, burnt offerings and holocausts on Your altar, O Lord.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Ps 50:21*\nYou shall be pleased with due sacrifices, burnt offerings and holocausts on Your altar, O Lord."
       },
       {
-        "body": "We humbly beseech You, almighty God, that, having received the blessing of Your heavenly gift, it may be for us the sour",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "We humbly beseech You, almighty God, that, having received the blessing of Your heavenly gift, it may be for us the source of sacramental grace and of salvation.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nRefreshed by the sacrament of salvation, we beseech You, O Lord, that we may be ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nRefreshed by the sacrament of salvation, we beseech You, O Lord, that we may be aided by the prayers of those whose festival we celebrate.\nThrough our Lord…"
       },
       {
-        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nSpare, O Lord, spare Your people, that, being chastened wit",
-        "id": "Super populum"
+        "id": "Super populum",
+        "label": "Prayer over the people",
+        "body": "*Prayer over the people*\nLet us pray.\nBow your heads to God.\nSpare, O Lord, spare Your people, that, being chastened with well-deserved scourging, they may find relief through Your compassion.\nThrough our Lord…"
       }
     ]
   ],
@@ -8511,44 +8525,54 @@
   "2024-06-11": [
     [
       {
-        "body": "*Ps 138:17*\nTo me, Your friends, O God, are made exceedingly honorable; their principality is exceedingly strengthened.\n",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 138:17*\nTo me, Your friends, O God, are made exceedingly honorable; their principality is exceedingly strengthened.\n*Ps 138:1-2*\nO Lord, You have probed me and You know me; You know when I sit and when I stand.\nGlory Be to the Father…\nTo me, Your friends, O God, are made exceedingly honorable; their principality is exceedingly strengthened."
       },
       {
-        "body": "O God, Who gladden us by the merits and intercession of blessed Barnabas, Your Apostle, mercifully grant that we, who as",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "O God, Who gladden us by the merits and intercession of blessed Barnabas, Your Apostle, mercifully grant that we, who ask Your favors through him, may obtain them by the gift of Your grace.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the Acts of Apostles\n*Acts 11:21-26; 13:1-3.*\nIn those days, a great number at Antioch believed and turned t",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the Acts of Apostles\n*Acts 11:21-26; 13:1-3*\nIn those days, a great number at Antioch believed and turned to the Lord. And news concerning them came to the ears of the church in Jerusalem, and they sent Barnabas as far as Antioch. Now when he came and saw the grace of God, he rejoiced and exhorted them all to continue in the Lord with steadfast heart; for he was a good man and full of the Holy Spirit and of faith. And a great multitude was added to the Lord. And he went forth to Tarsus to look for Saul, and on finding him he brought him to Antioch. And for a whole year they took part in the meetings of the church and taught a great multitude. And it was in Antioch that the disciples were first called Christians. Now in the church at Antioch there were prophets and teachers among whom were Barnabas and Simon, called Niger, and Lucius of Cyrene, and Manahen the foster-brother of Herod the Tetrarch, and Saul. And as they were ministering to the Lord and fasting, the Holy Spirit said, Set apart for Me Saul and Barnabas unto the work to which I have called them. Then, having fasted and prayed and laid their hands upon them, they let them go."
       },
       {
-        "body": "*Ps. 18:5; 18:2*\nThrough all the earth their voice resounds, and to the ends of the world, their message.\n℣. The heavens",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "*Ps. 18:5; 18:2*\nThrough all the earth their voice resounds, and to the ends of the world, their message.\n℣. The heavens declare the glory of God, and the firmament proclaims His handiwork. Alleluia, alleluia.\n*John 15:16*\n℣. I have chosen you out of the world, that you should go and bear fruit, and that your fruit should remain. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 10:16-22*\nAt that time, Jesus said to His disciples, Behold",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Matthew\n*Matt 10:16-22*\nAt that time, Jesus said to His disciples, Behold, I am sending you forth like sheep in the midst of wolves. Be therefore wise as serpents, and guileless as doves. But beware of men; for they will deliver you up to councils, and scourge you in their synagogues, and you will be brought before governors and kings for My sake, for a witness to them and to the Gentiles. But when they deliver you up, do not be anxious how or what you are to speak; for what you are to speak will be given you in that hour. For it is not you who are speaking, but the Spirit of your Father Who speaks through you. And brother will hand over brother to death, and the father his child; children will rise up against parents and put them to death. And you will be hated by all for My name’s sake; but he who has persevered to the end will be saved."
       },
       {
-        "body": "*Ps 44:17-18*\nYou shall make them princes through all the land; they shall remember Your name, O Lord, through all gener",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "*Ps 44:17-18*\nYou shall make them princes through all the land; they shall remember Your name, O Lord, through all generations."
       },
       {
-        "body": "Make holy the sacrificial gifts we offer, O Lord, and, through the intercession of blessed Barnabas, Your Apostle, clean",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Make holy the sacrificial gifts we offer, O Lord, and, through the intercession of blessed Barnabas, Your Apostle, cleanse us from the stains of our sins.\nThrough our Lord…"
       },
       {
-        "body": "*of Apostles*\nIt is truly meet and just, right and for our salvation, to entreat Thee humbly, O Lord, that Thou wouldst ",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*of Apostles*\nIt is truly meet and just, right and for our salvation, to entreat Thee humbly, O Lord, that Thou wouldst not desert Thy flock, O everlasting Shepherd, but, through Thy blessed Apostles, wouldst keep it under Thy constant protection; that it may be governed by those same rulers, whom as vicars of Thy work, Thou didst set over it to be its pastors. And therefore with Angels and Archangels, with Thrones and Dominations, and with all the hosts of the heavenly army, we sing the hymn of Thy glory, evermore saying:"
       },
       {
-        "body": "*Matt 19:28*\nYou who have followed Me shall sit on thrones judging the twelve tribes of Israel.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "*Matt 19:28*\nYou who have followed Me shall sit on thrones judging the twelve tribes of Israel."
       },
       {
-        "body": "We humbly beseech You, almighty God, that, through the intercession of blessed Barnabas Your Apostle, You will grant tho",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "We humbly beseech You, almighty God, that, through the intercession of blessed Barnabas Your Apostle, You will grant those whom You refresh with Your sacrament to fittingly serve You with lives pleasing unto You.\nThrough our Lord…"
       }
     ]
   ],
@@ -20801,56 +20825,69 @@
   "2025-02-15": [
     [
       {
-        "body": "*Sedulius*\nHail, holy Mother, who in childbirth brought forth the King Who rules heaven and earth world without end.\n*Ps",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Sedulius*\nHail, holy Mother, who in childbirth brought forth the King Who rules heaven and earth world without end.\n*Ps 44:2*\nMy heart overflows with a goodly theme; as I sing my ode to the King.\nGlory Be to the Father…\nHail, holy Mother, who in childbirth brought forth the King Who rules heaven and earth world without end."
       },
       {
-        "body": "Grant us, Your servants, O Lord God, we beseech You, to enjoy lasting health of mind and body; and by the intercession o",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Collect",
+        "body": "Grant us, Your servants, O Lord God, we beseech You, to enjoy lasting health of mind and body; and by the intercession of glorious and blessed Mary, ever Virgin, may we be delivered from present sorrow and partake to the full of eternal happiness.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nO God, Who gladden us by the annual festival of Your Martyrs Faustinus and Jovit",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Commemoration Collect",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nO God, Who gladden us by the annual festival of Your Martyrs N. and N., grant that we may be inspired by the example of those in whose merits we rejoice.\nThrough our Lord…"
       },
       {
-        "body": "Lesson from the book of Ecclesiasticus\n*Ecclus 24:14-16*\nBefore all ages, in the beginning, He created me, and through a",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Epistle",
+        "body": "Lesson from the book of Ecclesiasticus\n*Ecclus 24:14-16*\nBefore all ages, in the beginning, He created me, and through all ages I shall not cease to be. In the holy Tent I ministered before Him, and in Sion I fixed my abode. Thus in the chosen city He has given me rest, in Jerusalem is my domain. I have struck root among the glorious people, in the portion of my God, His heritage, and my abode is in the full assembly of Saints."
       },
       {
-        "body": "Blessed and venerable are you, O Virgin Mary, who, with unsullied virginity, were found to be the Mother of the Saviour.",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Gradual",
+        "body": "Blessed and venerable are you, O Virgin Mary, who, with unsullied virginity, were found to be the Mother of the Saviour.\n℣. O Virgin, Mother of God, He Whom the whole world does not contain, becoming man, shut Himself in your womb. Alleluia, alleluia.\n*Num 17:8*\nThe rod of Jesse has blossomed: a Virgin has brought forth God and man: God has given peace, reconciling in Himself the lowest with the highest. Alleluia."
       },
       {
-        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 11:27-28*\nAt that time, as Jesus was speaking to the multitude",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Gospel",
+        "body": "Continuation ☩ of the Holy Gospel according to Luke\n*Luke 11:27-28*\nAt that time, as Jesus was speaking to the multitudes, a certain woman from the crowd lifted up her voice and said to Him, Blessed is the womb that bore You, and the breasts that nursed You. But He said, Rather, blessed are they who hear the word of God and keep it."
       },
       {
-        "body": "You are happy, O holy Virgin Mary, and most worthy of all high praise; for out of you has risen the sun of justice, Chri",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Offertory",
+        "body": "You are happy, O holy Virgin Mary, and most worthy of all high praise; for out of you has risen the sun of justice, Christ our God."
       },
       {
-        "body": "Through Your mercy, O Lord, and by the intercession of blessed Mary, ever Virgin, the Mother of Your only-begotten Son, ",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Secret",
+        "body": "Through Your mercy, O Lord, and by the intercession of blessed Mary, ever Virgin, the Mother of Your only-begotten Son, may this offering profit us for prosperity and peace, now and forevermore.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nBe mindful, O Lord, of our humble prayers in this commemoration of Your Saints, ",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Commemoration Secret",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nBe mindful, O Lord, of our humble prayers in this commemoration of Your Saints, that we who have no confidence in our own righteousness may be aided by the merits of those who have been pleasing to You.\nThrough our Lord…"
       },
       {
-        "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places,",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Preface",
+        "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, give thanks unto Thee, O holy Lord, Father almighty, everlasting God: and that we should praise and bless, and proclaim Thee, in the veneration of the Blessed Mary, ever-Virgin: Who also conceived Thine only-begotten Son by the overshadowing of the Holy Ghost, and the glory of her virginity still abiding, gave forth to the world the everlasting Light, Jesus Christ our Lord. Through whom the Angels praise Thy Majesty, the Dominations worship it, and the Powers stand in awe. The Heavens and the heavenly hosts together with the blessed Seraphim in triumphant chorus unite to celebrate it. Together with these we entreat Thee that Thou mayest bid our voices also to be admitted while we say with lowly praise:"
       },
       {
-        "body": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father. (Alleluja.)",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Communion",
+        "body": "Blessed is the womb of the Virgin Mary, which bore the Son of the eternal Father. (Alleluja.)"
       },
       {
-        "body": "Having received the aids conducive to our salvation, O Lord, we beseech You, grant that we may everywhere be protected b",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Postcommunion",
+        "body": "Having received the aids conducive to our salvation, O Lord, we beseech You, grant that we may everywhere be protected by the patronage of blessed Mary, ever Virgin, in veneration of whom we have made these offerings to Your Majesty.\nThrough our Lord…"
       },
       {
-        "body": "*Commemoration Sts. Faustinus & Jovita*\nRefreshed by the sacrament of salvation, we beseech You, O Lord, that we may be ",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Commemoration Postcommunion",
+        "body": "*Commemoration Sts. Faustinus & Jovita*\nRefreshed by the sacrament of salvation, we beseech You, O Lord, that we may be aided by the prayers of those whose festival we celebrate.\nThrough our Lord…"
       }
     ]
   ],

@@ -2135,60 +2135,74 @@
   "2024-02-15": [
     [
       {
-        "body": "*Ps 54:17-23*\nKiedy wołałem do Pana, wysłuchał głosu mego przeciw tym, co na mnie nastają; i poniżył ich Ten, który król",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Ps 54:17-23*\nKiedy wołałem do Pana, wysłuchał głosu mego przeciw tym, co na mnie nastają; i poniżył ich Ten, który króluje od wieków. Złóż troskę swoją na Pana, On sam cię podtrzyma.\n*Ps 54:2-3*\nBoże, usłysz modlitwę moją i nie odsuwaj się od mojej prośby: zwróć się ku mnie i wysłuchaj mnie.\nChwała Ojcu…\nKiedy wołałem do Pana, wysłuchał głosu mego przeciw tym, co na mnie nastają; i poniżył ich Ten, który króluje od wieków. Złóż troskę swoją na Pana, On sam cię podtrzyma."
       },
       {
-        "body": "Boże, którego obraża występek, a przejednywa pokuta, wejrzyj miłościwie na błagania ludu Twojego i odwróć od nas chłostę",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Boże, którego obraża występek, a przejednywa pokuta, wejrzyj miłościwie na błagania ludu Twojego i odwróć od nas chłostę zagniewania Twego, na którą zasługujemy naszymi grzechami.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\n*Prawdziwymi czcicielami męczenników są ci, którzy naśladują ich przykł",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nBoże, który uroczystością świętych Męczenników Twoich N. i N. corocznie nas uweselasz, dozwól łaskawie, aby przykłady tych, których zasługami się radujemy, pobudziły nas do dobrego.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Proroka Izajasza.\n*Iz 38:1-6*\n*Gdy król Ezechiasz śmiertelnie zachorował, zwrócił się do Boga z gorącą",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Proroka Izajasza.\n*Iz 38:1-6*\n*Gdy król Ezechiasz śmiertelnie zachorował, zwrócił się do Boga z gorącą modlitwą. Pan Bóg oznajmił mu przez proroka Izajasza, że modlitwa jego została wysłuchana.*\nW one dni rozchorował się Ezechiasz na śmierć; i wszedł do niego Izajasz, syn Amosa, prorok, i rzekł mu: «To mówi Pan: Rozporządź o domu twoim, bo umrzesz, i nie zostaniesz przy życiu». I obrócił Ezechiasz oblicze swe do ściany, i modlił się do Pana, i rzekł: «Proszę, Panie, wspomnij, proszę, jak chodziłem przed Tobą w prawdzie i w sercu doskonałym, a czyniłem, co jest dobre przed oczyma Twymi». I zapłakał Ezechiasz płaczem wielkim. I stało się słowo Pańskie do Izajasza mówiąc: «Idź, a powiedz Ezechiaszowi: To mówi Pan, Bóg Dawida, ojca twego: Usłyszałem modlitwę twoją i ujrzałem łzy twoje; to ja dodam do dni twoich piętnaście lat i z ręki króla asyryjskiego wyrwę ciebie i to miasto, i obronię je». Mówi Pan wszechmogący."
       },
       {
-        "body": "*Ps 54:23, 17, 18, 19*\nZłóż troskę swoją na Pana, On sam cię podtrzyma.\n℣. Kiedy wołałem do Pana, wysłuchał głosu mego p",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "*Ps 54:23, 17, 18, 19*\nZłóż troskę swoją na Pana, On sam cię podtrzyma.\n℣. Kiedy wołałem do Pana, wysłuchał głosu mego przeciw tym, co na mnie nastają."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 8:5-13*\nOnego czasu, gdy Jezus wszedł do Kafarnaum, przystąpił do n",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Mateusza.\n*Mt 8:5-13*\nOnego czasu, gdy Jezus wszedł do Kafarnaum, przystąpił do niego setnik prosząc Go i mówiąc: «Panie, sługa mój leży w domu paraliżem tknięty i wielce się męczy». I rzekł mu Jezus: «Ja przyjdę i uzdrowię go». A odpowiadając setnik rzekł: «Panie, nie jestem godzien, abyś wszedł pod dach mój, ale powiedz tylko słowo, a będzie uzdrowiony sługa mój. I ja bowiem jestem człowiekiem pod władzą postawionym, a mającym pod sobą żołnierzy. I jednemu mówię: idź, a idzie, a drugiemu: przyjdź, i przychodzi, a słudze memu: czyń to, a czyni». A Jezus usłyszawszy to, zadziwił się i rzekł do tych, którzy szli za Nim: «Zaprawdę powiadam wam, nie znalazłem tak wielkiej wiary w Izraelu. A powiadam wam, że wielu przyjdzie ze Wschodu i z Zachodu i zasiądą z Abrahamem, Izaakiem i Jakubem w Królestwie Niebieskim. Synowie zaś Królestwa wyrzuceni będą do ciemności zewnętrznych: tam będzie płacz i zgrzytanie zębów». I rzekł Jezus setnikowi: «Idź, a jakoś uwierzył, niech ci się stanie». I uzdrowiony jest sługa onej godziny."
       },
       {
-        "body": "*Ps 24:1-3*\nKu Tobie wznoszę duszę moją, Panie, Boże, mój, Tobie ufam, niech nie doznam wstydu; niech się nie śmieją ze ",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "*Ps 24:1-3*\nKu Tobie wznoszę duszę moją, Panie, Boże, mój, Tobie ufam, niech nie doznam wstydu; niech się nie śmieją ze mnie wrogowie moi; wszyscy bowiem, co ufają Tobie, wstydu nie doznają."
       },
       {
-        "body": "Prosimy Cię, Panie, wejrzyj łaskawie na tę ofiarę, niech nas utwierdzi w Twojej służbie i wyjedna zbawienie.\nPrzez Pana…",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Prosimy Cię, Panie, wejrzyj łaskawie na tę ofiarę, niech nas utwierdzi w Twojej służbie i wyjedna zbawienie.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nWysłuchaj, Panie, naszych próśb, które zanosimy czcząc pamięć Twoich Św",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nWysłuchaj, Panie, naszych próśb, które zanosimy czcząc pamięć Twoich Świętych, a skoro nie ufamy własnej sprawiedliwości, niech nas wspierają zasługi tych, którzy Tobie się podobali.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nTy przez post ciała uśmierzasz wady, podnosisz ducha, udzielasz cnoty i nagrody, przez Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesieniu sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*Ps 50:21*\nPrzyjmiesz ofiary prawe, dary i całopalenia na ołtarzu Twoim, Panie.",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*Ps 50:21*\nPrzyjmiesz ofiary prawe, dary i całopalenia na ołtarzu Twoim, Panie."
       },
       {
-        "body": "Po przyjęciu błogosławionego daru niebieskiego, pokornie Cię prosimy, wszechmogący Boże, aby ten dar stał się źródłem ła",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Po przyjęciu błogosławionego daru niebieskiego, pokornie Cię prosimy, wszechmogący Boże, aby ten dar stał się źródłem łaski sakramentalnej i zbawienia.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nNasyceni zbawiennym Sakramentem prosimy Cię, Panie, aby wspierały nas m",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nNasyceni zbawiennym Sakramentem prosimy Cię, Panie, aby wspierały nas modły tych, których uroczystość obchodzimy.\nPrzez Pana…"
       },
       {
-        "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nPrzepuść, Panie, przepuść ludowi Twojemu, aby po odcierpieniu słusznej ",
-        "id": "Super populum"
+        "id": "Super populum",
+        "label": "Modlitwa nad ludem",
+        "body": "\nMódlmy się.\nPochylcie głowy wasze przed Bogiem.\nPrzepuść, Panie, przepuść ludowi Twojemu, aby po odcierpieniu słusznej kary znalazł wytchnienie w Twoim miłosierdziu.\nPrzez Pana…"
       }
     ]
   ],
@@ -20920,56 +20934,69 @@
   "2025-02-15": [
     [
       {
-        "body": "*Seduliusz*\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków.\n*Ps 44:2*",
-        "id": "Introitus"
+        "id": "Introitus",
+        "label": "Introit",
+        "body": "*Seduliusz*\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków.\n*Ps 44:2*\nZ mego serca płynie piękne słowo; pieśń moją śpiewam dla Króla.\nChwała Ojcu…\nWitaj, Święta Rodzicielko, któraś wydała na świat Króla, co niebem i ziemią włada na wieki wieków."
       },
       {
-        "body": "Prosimy Cię, Panie, Boże, dozwól nam, sługom Swoim, cieszyć się trwałym zdrowiem duszy i ciała, a za przyczyną Najświęts",
-        "id": "Oratio"
+        "id": "Oratio",
+        "label": "Kolekta",
+        "body": "Prosimy Cię, Panie, Boże, dozwól nam, sługom Swoim, cieszyć się trwałym zdrowiem duszy i ciała, a za przyczyną Najświętszej Maryi, zawsze Dziewicy, racz nas uwolnić od doczesnych utrapień i obdarzyć wieczną radością.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\n*Prawdziwymi czcicielami męczenników są ci, którzy naśladują ich przykł",
-        "id": "Commemoratio Oratio"
+        "id": "Commemoratio Oratio",
+        "label": "Kolekta wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nBoże, który uroczystością świętych Męczenników Twoich N. i N. corocznie nas uweselasz, dozwól łaskawie, aby przykłady tych, których zasługami się radujemy, pobudziły nas do dobrego.\nPrzez Pana…"
       },
       {
-        "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dzie",
-        "id": "Lectio"
+        "id": "Lectio",
+        "label": "Lekcja",
+        "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dziewicy. Maryja od wieków była obecna w myśli Boga i z Jego woli otrzymała wyjątkową rolę w Kościele.*\nOd początku i przed wiekami jestem stworzona i aż do przyszłego wieku istnieć nie przestanę, a w świętym mieszkaniu Mu posługiwałam. I tak na Syjonie jestem utwierdzona, i w świętym mieście podobnie spoczęłam, a w Jeruzalem moje panowanie. I w narodzie czcigodnym zapuściłam korzenie, i w dziale Boga mego dziedzictwo jego, a przebywanie moje w zgromadzeniu świętych."
       },
       {
-        "body": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela.\n℣. Bogarod",
-        "id": "Graduale"
+        "id": "Graduale",
+        "label": "Graduał",
+        "body": "Błogosławiona i godna czci jesteś, Panno Maryjo, któraś bez naruszenia dziewictwa stała się Matką Zbawiciela.\n℣. Bogarodzico Dziewico, Ten, którego cały świat nie zdoła ogarnąć, zamknął się w Twoim łonie, stawszy się człowiekiem. Alleluja, alleluja.\n*Lb 17:8*\nZakwitła różdżka Jessego: Dziewica zrodziła Boga-Człowieka. Bóg światu przywrócił pokój, jednocząc w sobie to co najniższe z najwyższym. Alleluja."
       },
       {
-        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 11:27-28*\nOnego czasu: Gdy Jezus mówił do rzesz, pewna niewiasta z t",
-        "id": "Evangelium"
+        "id": "Evangelium",
+        "label": "Ewangelia",
+        "body": "Ciąg dalszy ☩ Ewangelii świętej według Łukasza.\n*Łk 11:27-28*\nOnego czasu: Gdy Jezus mówił do rzesz, pewna niewiasta z tłumu donośnym głosem rzekła do Niego: «Błogosławione łono, które Cię nosiło, i piersi, któreś ssał». A On rzekł: «Raczej ci są błogosławieni, którzy słuchają słowa Bożego i strzegą go»."
       },
       {
-        "body": "Szczęśliwa jesteś, święta Dziewico Maryjo, i wszelkiej chwały najgodniejsza, z Ciebie bowiem narodziło się Słońce sprawi",
-        "id": "Offertorium"
+        "id": "Offertorium",
+        "label": "Antyfona na Ofiarowanie",
+        "body": "Szczęśliwa jesteś, święta Dziewico Maryjo, i wszelkiej chwały najgodniejsza, z Ciebie bowiem narodziło się Słońce sprawiedliwości, Chrystus, nasz Bóg."
       },
       {
-        "body": "Panie, niech z Twego zmiłowania, a za przyczyną błogosławionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i do",
-        "id": "Secreta"
+        "id": "Secreta",
+        "label": "Sekreta",
+        "body": "Panie, niech z Twego zmiłowania, a za przyczyną błogosławionej Maryi zawsze Dziewicy, ofiara ta wyjedna nam wieczne i doczesne szczęście oraz pokój.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nWysłuchaj, Panie, naszych próśb, które zanosimy czcząc pamięć Twoich Św",
-        "id": "Commemoratio Secreta"
+        "id": "Commemoratio Secreta",
+        "label": "Sekreta wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nWysłuchaj, Panie, naszych próśb, które zanosimy czcząc pamięć Twoich Świętych, a skoro nie ufamy własnej sprawiedliwości, niech nas wspierają zasługi tych, którzy Tobie się podobali.\nPrzez Pana…"
       },
       {
-        "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
-        "id": "Prefatio"
+        "id": "Prefatio",
+        "label": "Prefacja",
+        "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękczynienie, Panie, Ojcze święty, wszechmogący, wieczny Boże:\nI abyśmy Cię wielbili, błogosławili i wysławiali obchodząc veneratione Najświętszej Maryi zawsze Dziewicy. Ona to poczęła Jednorodzonego Syna Twojego za sprawą Ducha Świętego i zachowując chwałę dziewictwa wydała światu światłość przedwieczną, Jezusa Chrystusa, Pana naszego.\nPrzez Niego majestat Twój chwalą Aniołowie, uwielbiają Państwa, z lękiem czczą Potęgi. A wspólnie z nimi w radosnym uniesieniu sławią Niebiosa, Moce niebieskie i błogosławieni Serafini. Z nimi to, prosimy, dozwól i naszym głosom wołać w pokornym uwielbieniu:"
       },
       {
-        "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca ",
-        "id": "Communio"
+        "id": "Communio",
+        "label": "Antyfona na Komunię",
+        "body": "*W Komunii świętej przyjmujemy Syna Bożego i Syna Maryi.*\nBłogosławione wnętrzności Maryi Panny, które nosiły Syna Ojca Przedwiecznego. (Alleluja.)"
       },
       {
-        "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi z",
-        "id": "Postcommunio"
+        "id": "Postcommunio",
+        "label": "Pokomunia",
+        "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi zawsze Dziewicy, na której cześć złożyliśmy tę ofiarę.\nPrzez Pana…"
       },
       {
-        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nNasyceni zbawiennym Sakramentem prosimy Cię, Panie, aby wspierały nas m",
-        "id": "Commemoratio Postcommunio"
+        "id": "Commemoratio Postcommunio",
+        "label": "Pokomunia wspomnienia",
+        "body": "*Wspomnienie Śś. Faustyna i Jowity, Męczenników*\nNasyceni zbawiennym Sakramentem prosimy Cię, Panie, aby wspierały nas modły tych, których uroczystość obchodzimy.\nPrzez Pana…"
       }
     ]
   ],

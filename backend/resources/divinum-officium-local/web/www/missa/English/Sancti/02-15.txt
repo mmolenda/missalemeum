@@ -1,2 +1,0 @@
-[Oratio]
-@Commune/C3a-1:Oratio:s/N\. and N\./Faustinus and Jovita/
