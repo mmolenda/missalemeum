@@ -2,29 +2,34 @@
 @Sancti/10-07t
 
 [Introitus]
-@Commune/C4:Introitus
+@Commune/C4b
 
 [Oratio]
-@Commune/C4b::s/N\./Marcum/
+@Commune/C4b
 
 [Lectio]
-@Commune/C4:Lectio
+@Commune/C4b
 
 [Graduale]
-@Commune/C4:Graduale
+@Commune/Coronatio
+
+[GradualeP]
+@Commune/Coronatio
+
+[Tractus]
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C4:Evangelium
+@Commune/Coronatio
 
 [Offertorium]
-@Commune/C4:Offertorium
+@Commune/C4b
 
 [Secreta]
 @Commune/C4b
 
 [Communio]
-@Commune/C4:Communio
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
-

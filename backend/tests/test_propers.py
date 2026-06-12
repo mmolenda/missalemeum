@@ -248,7 +248,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                     "Dominica XVI", "Tua nos, quǽsumus, Dómine", "Munda nos, quǽsumus", "Purífica, quǽsumus, Dómine"),
     # Sanctae Mariae Sabbato, commemoration of Ss. Placidi et Sociorum Martyrum
     ((2019, 10, 5), "Concéde nos fámulos tuos", "Tua, Dómine, propitiatióne", "Sumptis, Dómine, salútis",
-                    "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
+                    "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Múnera tibi, Dómine", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
                     "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua, Dómine, larga", "Cœléstibus refécti sacraméntis"),
