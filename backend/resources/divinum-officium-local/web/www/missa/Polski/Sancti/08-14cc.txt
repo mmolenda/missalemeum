@@ -3,3 +3,6 @@
 
 [Oratio]
 @Commune/C5:Oratio:s/N\./Euzebiusza/
+
+[Evangelium]
+@Sancti/02-24

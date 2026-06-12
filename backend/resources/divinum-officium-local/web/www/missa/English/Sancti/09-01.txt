@@ -1,2 +1,0 @@
-[Oratio]
-@Commune/C5:Oratio:s/N\./Aegidius/

@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/08-14cc
 
+[Introitus]
+@Commune/C5-1
+
 [Oratio]
 @Commune/C5:Oratio:s/N\./Eusébii/
+
+[Lectio]
+@Sancti/01-15:Lectio
+
+[Graduale]
+@Sancti/01-15:Graduale
+
+[Evangelium]
+@Sancti/01-15:Evangelium
+
+[Offertorium]
+@Commune/C5-1
 
 [Secreta]
 @Commune/C5:Secreta
 
+[Communio]
+@Commune/C2p
+
 [Postcommunio]
 @Commune/C5:Postcommunio
-
