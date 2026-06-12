@@ -8,13 +8,13 @@
 @Sancti/07-02cc:Oratio
 
 [Lectio]
-@Commune/C3a
+@Commune/C3a-1
 
 [Graduale]
 @Commune/C3a
 
 [Evangelium]
-@Commune/C3a
+@Commune/C2-1
 
 [Offertorium]
 @Commune/C3a
