@@ -35,6 +35,11 @@ def _print_proper(language, proper):
         click.echo(section["body"])
 
 
+def _print_description(proper):
+    if proper.description:
+        click.echo(f"\n{proper.description}")
+
+
 @click.command()
 @click.argument('year', default=datetime.datetime.now(datetime.timezone.utc).year, type=int)
 @click.option('--month', default=None, type=int)
@@ -89,6 +94,7 @@ def proper(proper_id: str, language: str, verbosity: int):
         click.echo('# title Latin: {}'.format(proper_latin.title))
         click.echo('# title vernacular: {}'.format(proper_vernacular.title))
         click.echo('class: {}'.format(proper_latin.rank))
+        _print_description(proper_vernacular)
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
     except (InvalidInput, ProperNotFound) as e:
@@ -113,8 +119,7 @@ def date(date: str, language: str, verbosity: int):
     for itr, (proper_vernacular, proper_latin) in enumerate(propers, 1):
         if len(propers) > 1:
             click.echo(f'\n--- Missa {itr} ---')
-        if proper_vernacular.description:
-            click.echo(f"\n{proper_vernacular.description}")
+        _print_description(proper_vernacular)
         _print_proper(language, proper_vernacular)
         _print_proper('Latin', proper_latin)
 
@@ -153,8 +158,7 @@ def proper_cols(date_or_id: str, language: str, verbosity: int):
 
     for propers in propers_all:
         vern, lat = propers
-        if vern.description:
-            click.echo(f"\n{vern.description}")
+        _print_description(vern)
         click.echo()
 
         
