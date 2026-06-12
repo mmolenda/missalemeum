@@ -2,29 +2,28 @@
 @Sancti/09-09
 
 [Introitus]
-@Commune/C2:Introitus
+@Commune/C2a-1
 
 [Oratio]
-@Sancti/09-09:Oratio
+@Sancti/09-09
 
 [Lectio]
-@Commune/C2:Lectio
+@Commune/C2a-1
 
 [Graduale]
-@Commune/C2:Graduale
+@Commune/C2a-1
 
-[Evangelium]
-@Commune/C2:Evangelium
+[Tractus]
+@Commune/C2a-1
 
 [Offertorium]
-@Commune/C2:Offertorium
+@Commune/C2a-1
 
 [Secreta]
-@Sancti/09-09:Secreta
+@Sancti/09-09
 
 [Communio]
-@Commune/C2:Communio
+@Commune/C2a-1
 
 [Postcommunio]
-@Sancti/09-09:Postcommunio
-
+@Sancti/09-09
