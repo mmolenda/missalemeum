@@ -12653,7 +12653,7 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
+        "body": "Léctio libri Sapiéntiæ\n*Sap 10:17-20*\nRéddidit Deus justis mercédem labórum suorum, et deduxit illos in via mirábili: et",
         "id": "Lectio"
       },
       {
@@ -31761,7 +31761,7 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
+        "body": "Léctio libri Sapiéntiæ\n*Sap 10:17-20*\nRéddidit Deus justis mercédem labórum suorum, et deduxit illos in via mirábili: et",
         "id": "Lectio"
       },
       {
@@ -31857,6 +31857,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoratio S. Ægidii Abbatis*\nIntercéssio nos, quǽsumus, Dómine, beáti Ægídii Abbátis comméndet: ut, quod nostris mér",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Corínthios\n*2 Cor 10:17-18; 11:1-2*\nFratres: Qui gloriátur, in Dómino gloriétur.",
         "id": "Lectio"
       },
@@ -31877,6 +31881,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoratio S. Ægidii Abbatis*\nSacris altáribus, Dómine, hóstias superpósitas sanctus Ægídius Abbas, quǽsumus, in salú",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Communis*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater o",
         "id": "Prefatio"
       },
@@ -31887,6 +31895,10 @@
       {
         "body": "Corporis et Sanguinis tui sacra libatio, Domine, intercedente beata Virgine Bronislava, ab omnibus nos caducis rebus ave",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoratio S. Ægidii Abbatis*\nPrótegat nos, Dómine, cum tui perceptióne sacraménti beátus Ægídius Abbas, pro nobis in",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

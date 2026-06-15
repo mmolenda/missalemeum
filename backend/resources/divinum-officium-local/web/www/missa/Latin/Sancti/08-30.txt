@@ -8,7 +8,7 @@
 @Sancti/08-30:Oratio
 
 [Lectio]
-@Sancti/07-28
+@Commune/C6a
 
 [Graduale]
 @Commune/C6a

@@ -738,6 +738,7 @@ TITLES = {
     constants.SANCTI_08_30C: 'Ss. Felice et Adaucto',
     constants.SANCTI_08_31: 'S. Raymundi Nonnati Confessoris',
     constants.SANCTI_09_01: 'S. Ægidii Abbatis',
+    constants.SANCTI_09_01C: 'Ss. Duodecim Fratrum Mártyrum',
     constants.SANCTI_09_01PL: 'B. Bronislauæ Virginins',
     constants.SANCTI_09_02: 'S. Stephani Hungariæ Regis Confessoris',
     constants.SANCTI_09_03: 'S. Pii X Papæ Confessoris',

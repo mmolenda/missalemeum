@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C5b:Oratio:s/N\./Giles/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Giles/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Giles/

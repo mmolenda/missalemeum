@@ -5,7 +5,7 @@
 @Commune/C5
 
 [Oratio]
-@Commune/C5b
+@Commune/C5b:Oratio:s/N\./Ægídii/
 
 [Lectio]
 @Commune/C5b
@@ -26,10 +26,10 @@
 @Commune/C5b
 
 [Secreta]
-@Commune/C5b
+@Commune/C5b:Secreta:s/N\./Ægídius/
 
 [Communio]
 @Commune/C4
 
 [Postcommunio]
-@Commune/C5b
+@Commune/C5b:Postcommunio:s/N\./Ægídius/

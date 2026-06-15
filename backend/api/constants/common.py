@@ -834,6 +834,7 @@ SANCTI_08_30C = 'sancti:08-30o:4:r'  #
 SANCTI_08_31 = 'sancti:08-31:3:w'
 
 SANCTI_09_01 = 'sancti:09-01:4:w'
+SANCTI_09_01C = 'sancti:09-01cc:4:r'
 SANCTI_09_01PL = 'sancti:09-01pl:3:w'
 SANCTI_09_02 = 'sancti:09-02:3:w'
 SANCTI_09_03 = 'sancti:09-03:3:w'

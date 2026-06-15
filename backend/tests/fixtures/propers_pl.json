@@ -12653,7 +12653,7 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
+        "body": "*Mdr 10:17-20*\nBóg dał świętym nagrodę za ich pracę, prowadził ich drogą godną podziwu. Stał się dla nich osłoną za dnia",
         "id": "Lectio"
       },
       {
@@ -30101,7 +30101,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Mdr 10:17-29*\nBóg dał świętym nagrodę za ich pracę, prowadził ich drogą godną podziwu. Stał się dla nich osłoną za dnia",
+        "body": "*Mdr 10:17-20*\nBóg dał świętym nagrodę za ich pracę, prowadził ich drogą godną podziwu. Stał się dla nich osłoną za dnia",
         "id": "Lectio"
       },
       {
@@ -31761,7 +31761,7 @@
         "id": "Commemoratio Oratio"
       },
       {
-        "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
+        "body": "*Mdr 10:17-20*\nBóg dał świętym nagrodę za ich pracę, prowadził ich drogą godną podziwu. Stał się dla nich osłoną za dnia",
         "id": "Lectio"
       },
       {
@@ -31857,6 +31857,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Idziego, Opata*\nProsimy Cię, Panie, niechaj przyczyna błogosławionego Idziego Opata, poleci nas Twej op",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Listu świętego Pawła Apostoła do Koryntian.\n*2 Kor 10:17-18; 11:1-2*\nBracia: Kto się chlubi, niech się chlubi",
         "id": "Lectio"
       },
@@ -31877,6 +31881,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Idziego, Opata*\nProsimy Cię, Panie, niech święty Idzi, Opat, wybłaga, by dary ofiarne złożone na święty",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja zwykła*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali dziękcz",
         "id": "Prefatio"
       },
@@ -31887,6 +31895,10 @@
       {
         "body": "Święta uczta Ciała i Krwi Twojej, Panie, za wstawiennictwem błogosławionej Dziewicy Bronisławy niech nas odwróci od wsze",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Idziego, Opata*\nGdy przyjęliśmy Twój Sakrament, o Panie, niech nas wspomaga orędownictwo świętego Idzie",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

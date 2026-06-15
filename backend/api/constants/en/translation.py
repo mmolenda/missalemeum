@@ -703,6 +703,7 @@ TITLES = {
     constants.SANCTI_08_30C: 'Sts. Felix and Adauctus',
     constants.SANCTI_08_31: 'St. Raymond Nonnatus',
     constants.SANCTI_09_01: 'St. Giles',
+    constants.SANCTI_09_01C: 'Twelve Holy Brothers, Martyrs',
     constants.SANCTI_09_02: 'St. Stephen of Hungary',
     constants.SANCTI_09_03: 'St. Pius X',
     constants.SANCTI_09_05: 'St. Lawrence Justinian',
