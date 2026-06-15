@@ -707,6 +707,7 @@ SANCTI_05_19C = 'sancti:05-19o:4:w'  # Św. Pudencjany
 SANCTI_05_20 = 'sancti:05-20:3:w'
 SANCTI_05_24PL = 'sancti:05-24pl:2:w'
 SANCTI_05_25 = 'sancti:05-25:3:w'
+SANCTI_05_25C = 'sancti:05-25o:4:r'
 SANCTI_05_26 = 'sancti:05-26:3:w'
 SANCTI_05_26C = 'sancti:05-26o:4:r'  #
 SANCTI_05_27 = 'sancti:05-27:3:w'

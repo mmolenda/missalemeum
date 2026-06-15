@@ -505,6 +505,7 @@ SANCTI = (
     constants.SANCTI_05_19C,
     constants.SANCTI_05_20,
     constants.SANCTI_05_25,
+    constants.SANCTI_05_25C,
     constants.SANCTI_05_26,
     constants.SANCTI_05_26C,
     constants.SANCTI_05_27,

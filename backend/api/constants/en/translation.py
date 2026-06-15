@@ -589,6 +589,7 @@ TITLES = {
     constants.SANCTI_05_19C: 'St. Pudentiana Virginis',
     constants.SANCTI_05_20: 'St. Bernardine of Siena',
     constants.SANCTI_05_25: 'St. Gregory VII',
+    constants.SANCTI_05_25C: 'St. Urban, Pope and Martyr',
     constants.SANCTI_05_26: 'St. Philip Neri',
     constants.SANCTI_05_26C: 'S. Eleutherius',
     constants.SANCTI_05_27: 'St. Bede the Venerable',

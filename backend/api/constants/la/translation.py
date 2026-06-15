@@ -615,6 +615,7 @@ TITLES = {
     constants.SANCTI_05_20: 'S. Bernardini Senensis Confessoris',
     constants.SANCTI_05_24PL: 'Beatæ Mariæ Virginis Confessoris Auxiliatrix',
     constants.SANCTI_05_25: 'S. Gregorii VII Papæ Confessoris',
+    constants.SANCTI_05_25C: 'S. Urbanis Papæ et Martyris',
     constants.SANCTI_05_26: 'S. Philippi Neri Confessoris',
     constants.SANCTI_05_26C: 'S. Eleutherii',
     constants.SANCTI_05_27: 'S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris',

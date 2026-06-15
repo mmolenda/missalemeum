@@ -2,25 +2,22 @@
 @Sancti/06-09
 
 [Introitus]
-@Sancti/06-09
+@Commune/C3a
 
 [Oratio]
 @Sancti/06-09
 
 [Lectio]
-@Sancti/06-09
+@Commune/C3a
 
 [Graduale]
 @Sancti/06-09
 
-[GradualeP]
-@Sancti/06-09
-
 [Evangelium]
-@Sancti/06-09
+@Sancti/01-15
 
 [Offertorium]
-@Sancti/06-09
+@Commune/C3
 
 [Secreta]
 @Sancti/06-09

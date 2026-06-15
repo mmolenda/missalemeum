@@ -617,6 +617,7 @@ TITLES = {
     constants.SANCTI_05_20: 'Św. Bernardyna ze Sieny, Wyznawcy',
     constants.SANCTI_05_24PL: 'N. M. P. Wspomożycielki Wiernych',
     constants.SANCTI_05_25: 'Św. Grzegorza VII, Papieża i Wyznawcy',
+    constants.SANCTI_05_25C: 'Św. Urbana I, Papieża i Męczennika',
     constants.SANCTI_05_26: 'Św. Filipa Nereusza, Wyznawcy',
     constants.SANCTI_05_26C: 'Św. Eleuteriusza, Papieża i Męczennika',
     constants.SANCTI_05_27: 'Św. Bedy Czcigodnego, Wyznawcy i Doktora Kościoła',
