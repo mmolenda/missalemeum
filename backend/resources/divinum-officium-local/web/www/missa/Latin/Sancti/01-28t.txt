@@ -2,29 +2,31 @@
 @Sancti/01-28t
 
 [Introitus]
-@Sancti/01-28t:Introitus
+@Sancti/09-12:Introitus
 
 [Oratio]
 @Sancti/01-28t:Oratio
 
 [Lectio]
-@Commune/C6b:Lectio
+@Commune/C6a:Lectio
 
 [Graduale]
-@Commune/C6b:Graduale
+@Commune/C6a:Graduale
+
+[Tractus]
+@Commune/C6a:Tractus
 
 [Evangelium]
-@Commune/C6a
+@Commune/C6-1:Evangelium
 
 [Offertorium]
-@Commune/C6a
+@Commune/C6-1:Offertorium
 
 [Secreta]
 @Sancti/01-28t:Secreta
 
 [Communio]
-@Sancti/01-28t:Communio
+@Commune/C6a-1:Communio
 
 [Postcommunio]
 @Sancti/01-28t:Postcommunio
-
