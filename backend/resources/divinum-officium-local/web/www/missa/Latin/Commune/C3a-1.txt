@@ -13,6 +13,9 @@
 [Tractus]
 @Commune/C3a-1
 
+[Evangelium]
+@Commune/C3a-1
+
 [Offertorium]
 @Commune/C3a-1
 

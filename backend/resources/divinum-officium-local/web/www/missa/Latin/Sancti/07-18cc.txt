@@ -2,28 +2,28 @@
 @Sancti/07-18o
 
 [Introitus]
-@Sancti/07-18o
+@Sancti/03-10
 
 [Oratio]
 @Commune/C3a
 
 [Lectio]
-@Sancti/07-18o
+@Sancti/01-20
 
 [Graduale]
-@Sancti/07-18o
+@Sancti/06-26
 
 [Evangelium]
-@Sancti/07-18o
+@Commune/C3a-1
 
 [Offertorium]
-@Sancti/07-18o
+@Commune/C3p
 
 [Secreta]
 @Commune/C3a
 
 [Communio]
-@Sancti/07-18o
+@Sancti/03-10
 
 [Postcommunio]
 @Commune/C3a
