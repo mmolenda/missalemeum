@@ -1,2 +1,9 @@
-[Rule]
-ignore
+[Oratio]
+Deus, qui multitúdinem géntium beáti Pauli Apóstoli prædicatióne docuísti: da nobis, quǽsumus; ut, cujus commemoratiónem cólimus, ejus apud te patrocínia sentiámus.
+$Per Dominum
+
+[Secreta]
+@Sancti/01-25:Secreta Pauli
+
+[Postcommunio]
+@Sancti/01-25:Postcommunio Pauli

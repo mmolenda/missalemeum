@@ -1,2 +1,9 @@
-[Rule]
-ignore
+[Oratio]
+Boże, który oświeciłeś wiele narodów przez nauczanie św. Pawła Apostoła, spraw, abyśmy doznali wstawiennictwa tego, którego wspominamy.
+$Per Dominum
+
+[Secreta]
+@Sancti/01-25:Secreta Pauli
+
+[Postcommunio]
+@Sancti/01-25:Postcommunio Pauli

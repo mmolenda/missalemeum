@@ -6,8 +6,6 @@
 
 [Oratio]
 @Sancti/02-22:Oratio Petri
-_
-@Sancti/02-22:Oratio Pauli
 
 [Lectio]
 @Commune/Coronatio
@@ -23,18 +21,12 @@ _
 
 [Secreta]
 @Sancti/02-22:Secreta Petri
-_
-!Pro S. Paulo
-@Sancti/01-25:Secreta Pauli
 
 [Communio]
 @Commune/Coronatio
 
 [Postcommunio]
 @Sancti/02-22:Postcommunio Petri
-_
-!Pro S. Paulo
-@Sancti/01-25:Postcommunio Pauli
 
 [GradualeP]
 @Commune/Coronatio
@@ -46,4 +38,3 @@ V. Confiteántur Dómino misericórdiæ ejus; et mirabília ejus fíliis hóminu
 _
 !Tractus
 @Commune/Coronatio
-

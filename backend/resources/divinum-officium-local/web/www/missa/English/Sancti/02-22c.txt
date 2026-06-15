@@ -1,2 +1,9 @@
-[Rule]
-ignore
+[Oratio]
+O God, Who taught vast numbers of the Gentiles by the preaching of the blessed Apostle Paul, grant, we beseech You, that by honoring his memory, we may enjoy the benefit of his patronal intercession with You.
+$Per Dominum
+
+[Secreta]
+@Sancti/01-25:Secreta Pauli
+
+[Postcommunio]
+@Sancti/01-25:Postcommunio Pauli
