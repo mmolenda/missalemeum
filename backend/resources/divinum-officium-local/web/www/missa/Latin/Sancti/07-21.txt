@@ -8,22 +8,22 @@
 @Commune/C7a::s/N\./Praxédis Vírginis tuæ/
 
 [Lectio]
-@Sancti/07-21:Lectio
+@Commune/C6-1
 
 [Graduale]
-@Sancti/07-21:Graduale
+@Commune/C7
 
 [Evangelium]
-@Commune/C7a:Evangelium
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C7a:Offertorium
+@Commune/C6a
 
 [Secreta]
 @Commune/C6a
 
 [Communio]
-@Sancti/01-28t
+@Commune/C6a-1
 
 [Postcommunio]
 @Commune/C6a
