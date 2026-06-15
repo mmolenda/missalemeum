@@ -1,2 +1,8 @@
-[Rule]
-ignore
+[Oratio]
+@Sancti/02-22:Oratio Petri
+
+[Secreta]
+@Sancti/02-22:Secreta Petri
+
+[Postcommunio]
+@Sancti/02-22:Postcommunio Petri
