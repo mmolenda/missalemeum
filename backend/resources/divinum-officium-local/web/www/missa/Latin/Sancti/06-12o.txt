@@ -8,7 +8,7 @@
 @Sancti/06-12o:Oratio
 
 [Lectio]
-@Commune/C3b
+@Commune/C3a-1
 
 [Graduale]
 @Sancti/06-12o:Graduale
