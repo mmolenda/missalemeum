@@ -575,6 +575,7 @@ TITLES = {
     constants.SANCTI_04_11: 'S. Leonis I. Papæ Confessoris et Ecclesise Doctoris',
     constants.SANCTI_04_13: 'S. Hermenegildi Martyris',
     constants.SANCTI_04_14: 'S. Justini Martyris',
+    constants.SANCTI_04_14T: 'Ss. Tiburtii, Valeriani, et Maximi Martyrum',
     constants.SANCTI_04_17: 'S. Aniceti Papæ et Martyris',
     constants.SANCTI_04_21: 'S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_04_22: 'SS. Soteris et Caji Summorum Pontificum et Martyrum',

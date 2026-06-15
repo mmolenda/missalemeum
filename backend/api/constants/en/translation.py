@@ -555,6 +555,7 @@ TITLES = {
     constants.SANCTI_04_11: 'St. Leo the Great',
     constants.SANCTI_04_13: 'St. Hermenegild',
     constants.SANCTI_04_14: 'St. Justin',
+    constants.SANCTI_04_14T: 'Sts. Tiburtius, Valerian et Maximus, Martyrs',
     constants.SANCTI_04_17: 'St. Anicetus',
     constants.SANCTI_04_21: 'St. Anselm',
     constants.SANCTI_04_22: 'Sts. Soter & Caius',

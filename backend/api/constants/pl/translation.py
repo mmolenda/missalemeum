@@ -577,6 +577,7 @@ TITLES = {
     constants.SANCTI_04_11: 'Św. Leona Wielkiego, Papieża, Wyznawcy i Dokotra Kościoła',
     constants.SANCTI_04_13: 'Św. Hermenegilda, Męczennika',
     constants.SANCTI_04_14: 'Św. Justyna, Męczennika',
+    constants.SANCTI_04_14T: 'Śś. Tyburcjusza, Waleriana i Maksyma, Męczenników',
     constants.SANCTI_04_17: 'Św. Aniceta, Papieża i Męczennika',
     constants.SANCTI_04_21: 'Św. Anzelma, Biskupa, Wyznawcy i Dokotra Kościoła',
     constants.SANCTI_04_22: 'Śś. Sotera i Kajusa, Papieży i Męczenników',
