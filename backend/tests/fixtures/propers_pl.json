@@ -22951,7 +22951,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Wspomnienie Poniedziałek po 2 Niedzieli Wielkiego Postu*\nSpraw, prosimy Cię, wszechmogący Boże, niech rodzina Twoja, kt",
+        "body": "*Wspomnienie Św. Jana Sarkandra, Męczennika*\nBoże, który umocniłeś świętego Jana, Twojego Męczennika, cnotą stałości w w",
         "id": "Commemoratio Oratio"
       },
       {
@@ -22975,7 +22975,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Wspomnienie Poniedziałek po 2 Niedzieli Wielkiego Postu*\nPanie, niech ta ofiara przebłagalna i pochwalna uczyni nas god",
+        "body": "*Wspomnienie Św. Jana Sarkandra, Męczennika*\nPanie, niech nasza ofiara znajdzie przyjęcie u Ciebie i niech posłuży nam k",
         "id": "Commemoratio Secreta"
       },
       {
@@ -22991,7 +22991,57 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Wspomnienie Poniedziałek po 2 Niedzieli Wielkiego Postu*\nPanie, niech ta komunia oczyści nas z grzechów i udzieli nam n",
+        "body": "*Wspomnienie Św. Jana Sarkandra, Męczennika*\nPokrzepieni uczestnictwem w świętej uczcie, prosimy Cię, Panie, Boże nasz, ",
+        "id": "Commemoratio Postcommunio"
+      }
+    ],
+    [
+      {
+        "body": "*Ps 63:11*\nSprawiedliwy weseli się w Panu i do Niego się ucieka, a wszyscy prawego serca się chlubią.\n*Ps 63:2*\nSłuchaj,",
+        "id": "Introitus"
+      },
+      {
+        "body": "Boże, który umocniłeś świętego Jana, Twojego Męczennika, cnotą stałości w wyznawaniu prawdziwej wiary i dochowaniu tajem",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nBoże, który raczyłeś posłać świętego Patryka, Twego Wyznawcę i Biskupa, by",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Czytanie z Listu świętego Pawła Apostoła do Tymoteusza.\n*2 Tm 2:8-10; 3:10-12*\nNajmilszy: Pamiętaj, że Pan Jezus Chrystu",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 36:24*\nSprawiedliwy chociażby upadł, nie pozostanie na ziemi, bo rękę jego Pan podtrzymuje.\n*Ps 36:26*\nLituje się o ",
+        "id": "Tractus"
+      },
+      {
+        "body": "*Ps 20:4-5*\nPanie, włożyłeś mu na głowę koronę z drogich kamieni; błagał Cię o życie, a Tyś go nim obdarzył, alleluja.",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Panie, niech nasza ofiara znajdzie przyjęcie u Ciebie i niech posłuży nam ku zbawieniu przez modły tego, w którego urocz",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nPanie, niech nam wszędzie sprawiają radość Twoi Święci, abyśmy wspominając",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*Prefacja Wielkopostna*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie Tobie składali d",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*J 12:26*\nKto by chciał mi służyć, niech mnie naśladuje, a gdzie ja jestem, tam będzie i sługa mój.",
+        "id": "Communio"
+      },
+      {
+        "body": "Pokrzepieni uczestnictwem w świętej uczcie, prosimy Cię, Panie, Boże nasz, abyśmy za przyczyną świętego N., Męczennika T",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Patryka, Biskupa i Wyznawcy*\nWszechmogący Boże, spraw, prosimy, abyśmy składając dzięki za przyjęte dar",
         "id": "Commemoratio Postcommunio"
       }
     ]

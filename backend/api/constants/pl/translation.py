@@ -563,6 +563,7 @@ TITLES = {
     constants.SANCTI_03_12: 'Św. Grzegorza Wielkiego, Papieża, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_03_15PL: 'Św. Klemensa Marii Dworzaka (Hofbauera)',
     constants.SANCTI_03_17: 'Św. Patryka, Biskupa i Wyznawcy',
+    constants.SANCTI_03_17PL: 'Św. Jana Sarkandra, Męczennika',
     constants.SANCTI_03_18: 'Św. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_03_19: 'Św. Józefa, Oblubieńca N. M. P.',
     constants.SANCTI_03_21: 'Św. Benedykta, Opata',

@@ -561,6 +561,7 @@ TITLES = {
     constants.SANCTI_03_12: 'S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris',
     constants.SANCTI_03_15PL: 'S. Clementis Hofbauer',
     constants.SANCTI_03_17: 'S. Patricii Episcopi et Conf.',
+    constants.SANCTI_03_17PL: 'S. Joannis Sarkander Martyris',
     constants.SANCTI_03_18: 'S. Cyrilli Episcopi Hierosolymitani Ecclesiæ Doctoris',
     constants.SANCTI_03_19: 'S. Joseph Sponsi B.M.V. Confessoris',
     constants.SANCTI_03_21: 'S. Benedicti Abbatis',

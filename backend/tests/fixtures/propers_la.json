@@ -22951,7 +22951,7 @@
         "id": "Oratio"
       },
       {
-        "body": "*Commemoratio Feria II infra Hebd II Quadragesimæ*\nPræsta, quǽsumus, omnípotens Deus: ut família tua, quæ se, affligéndo",
+        "body": "*Commemoratio S. Joannis Sarkander Martyris*\nDeus, qui beátum Joánnem Mártyrem tuum, in confessióne veræ fídei et sacram",
         "id": "Commemoratio Oratio"
       },
       {
@@ -22975,7 +22975,7 @@
         "id": "Secreta"
       },
       {
-        "body": "*Commemoratio Feria II infra Hebd II Quadragesimæ*\nHæc hóstia, Dómine, placatiónis et laudis, tua nos protectióne dignos",
+        "body": "*Commemoratio S. Joannis Sarkander Martyris*\nAccépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus nobis fiat su",
         "id": "Commemoratio Secreta"
       },
       {
@@ -22991,7 +22991,57 @@
         "id": "Postcommunio"
       },
       {
-        "body": "*Commemoratio Feria II infra Hebd II Quadragesimæ*\nHæc nos commúnio, Dómine, purget a crímine: et cœléstis remédii fácia",
+        "body": "*Commemoratio S. Joannis Sarkander Martyris*\nRefécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cu",
+        "id": "Commemoratio Postcommunio"
+      }
+    ],
+    [
+      {
+        "body": "*Ps 63:11*\nLætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde. (Allelúja, allelúja.)\n*Ps 63",
+        "id": "Introitus"
+      },
+      {
+        "body": "Deus, qui beátum Joánnem Mártyrem tuum, in confessióne veræ fídei et sacramentális siléntii custódia virtúte constántiæ ",
+        "id": "Oratio"
+      },
+      {
+        "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nDeus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium Confessórem",
+        "id": "Commemoratio Oratio"
+      },
+      {
+        "body": "Léctio Epístolæ beáti Pauli Apóstoli ad Timótheum\n*2 Tim 2:8-10; 3:10-12.*\nCaríssime: Memor esto, Dóminum Jesum Christum",
+        "id": "Lectio"
+      },
+      {
+        "body": "*Ps 36:24*\nJustus cum cecíderit, non collidétur: quia Dóminus suppónit manum suam.\n*Ps 36:26*\nTota die miserétur, et cóm",
+        "id": "Tractus"
+      },
+      {
+        "body": "*Ps 20:4-5*\nPosuísti, Dómine, in cápite ejus corónam de lápide pretióso: vitam pétiit a te, et tribuísti ei, allelúja.",
+        "id": "Offertorium"
+      },
+      {
+        "body": "Accépta sit in conspéctu tuo, Dómine, nostra devótio: et ejus nobis fiat supplicatióne salutáris, pro cujus sollemnitáte",
+        "id": "Secreta"
+      },
+      {
+        "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nSancti tui, quǽsumus, Dómine, nos ubíque lætíficant: ut, dum eórum mérita r",
+        "id": "Commemoratio Secreta"
+      },
+      {
+        "body": "*de Quadragesima*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte ",
+        "id": "Prefatio"
+      },
+      {
+        "body": "*Joann 12:26*\nQui mihi mínistrat, me sequátur: et ubi sum ego, illic et miníster meus erit. (Allelúja.)",
+        "id": "Communio"
+      },
+      {
+        "body": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. ",
+        "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoratio S. Patricii Episcopi et Conf.*\nPræsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhib",
         "id": "Commemoratio Postcommunio"
       }
     ]
