@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/11-11cc
 
+[Introitus]
+@Commune/C2a-1
+
 [Oratio]
 @Commune/C2a::s/N\./Mennæ/
+
+[Lectio]
+@Commune/C2a-1
+
+[Graduale]
+@Commune/C2a-1
+
+[Tractus]
+@Commune/C2a-1
+
+[Offertorium]
+@Commune/C2a-1
 
 [Secreta]
 @Commune/C2a:Secreta
 
+[Communio]
+@Commune/C2a-1
+
 [Postcommunio]
 @Commune/C2a:Postcommunio
-

@@ -2,29 +2,28 @@
 @Sancti/11-29r
 
 [Introitus]
-@Commune/C2a:Introitus
+@Commune/C2a-1
 
 [Oratio]
-@Sancti/11-29r:Oratio
+@Sancti/11-29r
 
 [Lectio]
-@Commune/C2a:Lectio
+@Commune/C2a-1
 
 [Graduale]
-@Commune/C2a:Graduale
+@Commune/C2a-1
 
-[Evangelium]
-@Commune/C2a:Evangelium
+[Tractus]
+@Commune/C2a-1
 
 [Offertorium]
-@Commune/C2a:Offertorium
+@Commune/C2a-1
 
 [Secreta]
-@Sancti/11-29r:Secreta
+@Sancti/11-29r
 
 [Communio]
-@Commune/C2a:Communio
+@Commune/C2a-1
 
 [Postcommunio]
-@Sancti/11-29r:Postcommunio
-
+@Sancti/11-29r

@@ -1,5 +1,2 @@
 [Comment]
 @Sancti/11-19o
-
-[Oratio]
-@Commune/C2b::s/N\./Poncjana/
