@@ -14,16 +14,16 @@
 @Sancti/11-10o:Graduale
 
 [Evangelium]
-@Commune/C3b
+@Commune/C3a-1
 
 [Offertorium]
-@Sancti/11-10o:Offertorium
+@Commune/C3p
 
 [Secreta]
 @Commune/C3a:Secreta
 
 [Communio]
-@Commune/C4-1
+@Sancti/03-10
 
 [Postcommunio]
 @Commune/C3a::s/N\. et N\./Tryphóne, Respício et Nympha/
