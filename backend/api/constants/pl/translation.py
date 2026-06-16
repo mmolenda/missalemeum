@@ -67,7 +67,7 @@ PDF_DATE_WEEKDAYS = (
     "niedziela",
 )
 CALENDAR_COVER_LINES = [
-    "RUBRYCELA MSZALNA",
+    "KALENDARZ LITURGICZNY",
     "DLA DIECEZJI POLSKICH",
     "NA ROK PAŃSKI",
     "{year}",
@@ -75,11 +75,11 @@ CALENDAR_COVER_LINES = [
 ]
 CALENDAR_COVER_PARAGRAPHS = [
     (
-        "Niniejsza rubrycela dotyczy wyłącznie Mszy celebrowanych "
+        "Niniejszy kalendarz dotyczy wyłącznie Mszy celebrowanych "
         "w rycie rzymskim sprzed reformy z 1970 roku"
     ),
     (
-        "Niniejsza rubrycela nie została zatwierdzona przez odpowiednią "
+        "Niniejszy kalendarz nie został zatwierdzony przez odpowiednią "
         "władzę kościelną. Dlatego też, w przypadku ewentualnego błędu, "
         "należy zachować rubryki."
     ),
