@@ -149,7 +149,7 @@ def rule_lent_commemoration(
             if min_sancti_rank == 1:
                 # will be shifted to a different day by the other rule
                 return
-            return [lent_observance] + sancti, sancti + [lent_observance], []
+            return [lent_observance], sancti, []
         if lent_observance.rank > min_sancti_rank:
             return sancti[:1], sancti[1:] + [lent_observance], []
 

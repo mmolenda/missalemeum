@@ -148,6 +148,20 @@ def test_api_date_exposes_commemorations_as_objects(client):
     ]
 
 
+def test_api_date_lent_feria_with_saint_returns_single_proper(client):
+    resp = client.get('/en/api/v5/proper/2026-03-07')
+    data = resp.json()
+    assert 1 == len(data)
+    info = data[0]["info"]
+    assert "tempora:Quad2-6:3:v" == info["id"]
+    assert info["commemorations"] == [
+        {
+            "id": "sancti:03-07:3:w",
+            "title": "St. Thomas Aquinas",
+        }
+    ]
+
+
 def test_api_date_does_not_repeat_commemorated_feast_in_displaced(client):
     resp = client.get('/pl/api/v5/proper/2026-05-13')
     data = resp.json()
