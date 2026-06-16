@@ -339,14 +339,29 @@ def _get_proper_fixtures(fixture):
         return list(json.load(fh).items())
 
 
-STARTER_SANCTI_IDS = [
-    SANCTI_10_DU,
-    SANCTI_01_01,
-    SANCTI_01_05,
-    SANCTI_01_06,
-    SANCTI_01_11,
-    SANCTI_01_13,
-    SANCTI_01_14,
+COMMUNE_MASS_IDS = [
+    COMMUNE_C4B,
+    COMMUNE_C2,
+    COMMUNE_C2_1,
+    COMMUNE_C2A,
+    COMMUNE_C2A_1,
+    COMMUNE_C3,
+    COMMUNE_C3A,
+    COMMUNE_C3A_1,
+    COMMUNE_C2P,
+    COMMUNE_C3P,
+    COMMUNE_C4,
+    COMMUNE_C4_1,
+    COMMUNE_C4A,
+    COMMUNE_C5,
+    COMMUNE_C5_1,
+    COMMUNE_C5B,
+    COMMUNE_C6,
+    COMMUNE_C6B,
+    COMMUNE_C6A,
+    COMMUNE_C6A_1,
+    COMMUNE_C6_1,
+    COMMUNE_C7A,
 ]
 
 
@@ -441,25 +456,34 @@ def test_all_propers_votive_english(proper_id, expected_sections):
     _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
 
 
-@pytest.mark.parametrize("proper_id,expected_sections", [
-    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_LATIN}.json")
-    if case[0] in STARTER_SANCTI_IDS
-])
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_LATIN}.json"))
 def test_all_propers_sancti_latin(proper_id, expected_sections):
     _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
 
 
-@pytest.mark.parametrize("proper_id,expected_sections", [
-    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_POLSKI}.json")
-    if case[0] in STARTER_SANCTI_IDS
-])
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_POLSKI}.json"))
 def test_all_propers_sancti_polish(proper_id, expected_sections):
     _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
 
 
-@pytest.mark.parametrize("proper_id,expected_sections", [
-    case for case in _get_proper_fixtures(f"propers_sancti_{LANGUAGE_ENGLISH}.json")
-    if case[0] in STARTER_SANCTI_IDS
-])
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_ENGLISH}.json"))
 def test_all_propers_sancti_english(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_LATIN}.json"))
+def test_all_propers_commune_latin(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
+    _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_POLSKI}.json"))
+def test_all_propers_commune_polish(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
+    _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_ENGLISH}.json"))
+def test_all_propers_commune_english(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
     _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
