@@ -11,7 +11,7 @@
 @Commune/Coronatio
 
 [Graduale]
-@Commune/C4b
+@Commune/Coronatio
 
 [Evangelium]
 @Commune/Coronatio

@@ -2,7 +2,7 @@
 @Sancti/03-07
 
 [Introitus]
-@Commune/C4a
+@Commune/C4a:Introitus
 
 [Oratio]
 @Sancti/03-07:Oratio
@@ -11,16 +11,16 @@
 @Sancti/03-07:Lectio
 
 [Graduale]
-@Commune/C5a:Graduale
+@Commune/C4a:Graduale
 
 [Tractus]
-@Commune/C4a
+@Commune/C4a:Tractus
 
 [Evangelium]
-@Commune/C4a
+@Commune/C4a:Evangelium
 
 [Offertorium]
-@Commune/C4a
+@Commune/C4a:Offertorium
 
 [Secreta]
 @Commune/C5a:Secreta:s/N\./Thomæ/
@@ -30,4 +30,3 @@
 
 [Postcommunio]
 @Commune/C5a:Postcommunio:s/N\./Thomas/
-

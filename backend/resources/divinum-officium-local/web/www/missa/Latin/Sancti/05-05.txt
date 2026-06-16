@@ -11,13 +11,13 @@
 @Commune/C4b
 
 [Graduale]
-@Commune/C4b
+@Commune/Coronatio:Graduale
 
 [GradualeP]
 @Commune/C4b
 
 [Evangelium]
-@Commune/Coronatio
+@Commune/Coronatio:Evangelium
 
 [Offertorium]
 @Commune/C4b
@@ -28,11 +28,10 @@
 @Commune/C4b
 
 [Communio]
-@Commune/Coronatio
+@Commune/Coronatio:Communio
 
 [Postcommunio]
 @Commune/C4::s/N\./Pio/
 
 [Postcommunio] (rubrica 196)
 @Commune/C4b
-

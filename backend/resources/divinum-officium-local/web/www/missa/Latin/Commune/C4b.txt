@@ -9,16 +9,16 @@
 @Commune/C4b
 
 [Graduale]
-@Commune/Coronatio
+@Commune/Coronatio:Graduale
 
 [GradualeP]
-@Commune/Coronatio
+@Commune/Coronatio:GradualeP
 
 [Tractus]
-@Commune/Coronatio
+@Commune/Coronatio:Tractus
 
 [Evangelium]
-@Commune/Coronatio
+@Commune/Coronatio:Evangelium
 
 [Offertorium]
 @Commune/C4b
@@ -27,7 +27,7 @@
 @Commune/C4b
 
 [Communio]
-@Commune/Coronatio
+@Commune/Coronatio:Communio
 
 [Postcommunio]
 @Commune/C4b

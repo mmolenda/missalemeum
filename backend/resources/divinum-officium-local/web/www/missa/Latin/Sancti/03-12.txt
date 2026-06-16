@@ -11,13 +11,13 @@
 @Commune/C4b:Lectio
 
 [Graduale]
-@Commune/C4b:Graduale
+@Commune/Coronatio:Graduale
 
 [Tractus]
 @Commune/C4b
 
 [Evangelium]
-@Commune/Coronatio
+@Commune/Coronatio:Evangelium
 
 [Offertorium]
 @Commune/C4b:Offertorium
@@ -26,8 +26,7 @@
 @Sancti/03-12:Secreta
 
 [Communio]
-@Commune/Coronatio
+@Commune/Coronatio:Communio
 
 [Postcommunio]
 @Sancti/03-12:Postcommunio
-
