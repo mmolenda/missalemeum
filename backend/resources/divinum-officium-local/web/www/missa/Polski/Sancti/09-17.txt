@@ -1,8 +1,18 @@
 [Comment]
 @Sancti/09-17
 
+[Introitus]
+@Sancti/10-04
+
 [Oratio]
+@Sancti/09-17
+
+[Lectio]
+@Sancti/10-04
+
+[Graduale]
 @Sancti/10-04
 
 [Postcommunio]
-@Sancti/10-04
+Boże, który w błogosławionym Franciszku, Twoim Wyznawcy, wielorako ukazałeś przedziwne tajemnice Krzyża, spraw, prosimy, abyśmy zawsze naśladowali przykłady jego pobożności i umacniali się nieustannym rozważaniem tegoż Krzyża.
+$Per Dominum

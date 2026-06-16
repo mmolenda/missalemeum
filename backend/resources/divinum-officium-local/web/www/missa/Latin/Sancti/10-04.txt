@@ -28,9 +28,4 @@
 [Postcommunio]
 @Sancti/10-04:Postcommunio
 
-[GradualeP]
-@Sancti/10-04:GradualeP
-
-[Tractus]
-@Sancti/10-04:Tractus
 
