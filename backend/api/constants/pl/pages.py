@@ -231,7 +231,7 @@ PAGES = {
     constants.SANCTI_05_07: get_pages(876),  # 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_07PL: get_pages(873),  # 'Św. Floriana, Męczennika',
     constants.SANCTI_05_08PL: get_pages(876),  # 'Św. Stanisława, Biskupa i Męczennika',
-    constants.SANCTI_05_09: get_pages(877),  # 'Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_05_09: get_pages(877),  # 'Św. Grzegorza z Nazjanzu, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_10: get_pages(877),  # 'Św. Antonina, Biskupa i Wyznawcy',
     constants.SANCTI_05_11: get_pages(882),  # 'Świętych Filipa i Jakuba, Apostołów',
     constants.SANCTI_05_12: get_pages(884),  # 'Świętych Nereusza, Achillesa, Domicylli i Pankracego, Męczenników',

@@ -600,7 +600,7 @@ TITLES = {
     constants.SANCTI_05_07: 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_07PL: 'Św. Floriana, Męczennika',
     constants.SANCTI_05_08PL: 'Św. Stanisława, Biskupa i Męczennika',
-    constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanzu, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_10: 'Św. Antonina, Biskupa i Wyznawcy',
     constants.SANCTI_05_10C: 'Śś. Gordiana i Epimacha, Męczenników',
     constants.SANCTI_05_11: 'Świętych Filipa i Jakuba, Apostołów',
