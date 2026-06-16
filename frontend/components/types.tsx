@@ -17,6 +17,7 @@ export type Supplement = {
 export type ObservanceLink = {
   id?: string | null
   title: string
+  has_proper?: boolean | null
 }
 
 export type Info = {

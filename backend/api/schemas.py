@@ -61,6 +61,10 @@ class ObservanceLink(BaseModel):
     title: str = Field(
         ..., description="Human readable title of the observance."
     )
+    has_proper: Optional[bool] = Field(
+        default=None,
+        description="Whether the observance can be opened through the proper endpoint.",
+    )
 
 
 class ProperInfo(Info):

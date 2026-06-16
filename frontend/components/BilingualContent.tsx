@@ -289,9 +289,10 @@ const Article = ({
             {content.info.commemorations.map((observance, index) => {
               const title = getObservanceTitle(observance)
               const observanceId = typeof observance === "string" ? null : observance.id
+              const canOpenProper = typeof observance === "string" ? false : observance.has_proper !== false
               return (
                 <Fragment key={observanceId ?? `${title}-${index}`}>
-                  {observanceId ? (
+                  {observanceId && canOpenProper ? (
                     <MyLink
                       href={`/${lang}/mass/${observanceId}${/^\d{4}-\d{2}-\d{2}$/.test(id) ? `?ref=calendar/${id}` : ""}`}
                       text={title}
@@ -328,11 +329,14 @@ const Article = ({
               ? DISPLACED[lang as Locale].singular
               : DISPLACED[lang as Locale].plural}: `}
             {content.info.displaced.map((observance, index) => {
+              const canOpenProper = observance.has_proper !== false
               return (<Fragment key={observance.id}>
-                <MyLink
-                  href={`/${lang}/mass/${observance.id}${/^\d{4}-\d{2}-\d{2}$/.test(id) ? `?ref=calendar/${id}` : ""}`}
-                  text={observance.title}
-                  widgetMode={widgetMode}/>
+                {observance.id && canOpenProper ? (
+                  <MyLink
+                    href={`/${lang}/mass/${observance.id}${/^\d{4}-\d{2}-\d{2}$/.test(id) ? `?ref=calendar/${id}` : ""}`}
+                    text={observance.title}
+                    widgetMode={widgetMode}/>
+                ) : observance.title}
                 {index + 1 < content.info.displaced.length && ", "}
               </Fragment>)
             })}

@@ -151,6 +151,7 @@ def test_api_date_exposes_displaced_observances(client):
         {
             "id": "sancti:12-06:3:w",
             "title": "St. Nicholas",
+            "has_proper": True,
         }
     ]
 
@@ -163,6 +164,20 @@ def test_api_date_exposes_commemorations_as_objects(client):
         {
             "id": "tempora:Quad2-2:3:v",
             "title": "Feria III after the II Sunday of Lent",
+            "has_proper": True,
+        }
+    ]
+
+
+def test_api_date_marks_commemoration_without_own_proper(client):
+    resp = client.get('/pl/api/v5/proper/2026-12-03')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "tempora:Adv1-4:3:v",
+            "title": "Czwartek po 1 Niedzieli Adwentu",
+            "has_proper": False,
         }
     ]
 
@@ -177,6 +192,7 @@ def test_api_date_lent_feria_with_saint_returns_single_proper(client):
         {
             "id": "sancti:03-07:3:w",
             "title": "St. Thomas Aquinas",
+            "has_proper": True,
         }
     ]
 
@@ -189,6 +205,7 @@ def test_api_date_does_not_repeat_commemorated_feast_in_displaced(client):
         {
             "id": "sancti:05-13:3:w",
             "title": "Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła",
+            "has_proper": True,
         }
     ]
     assert info["displaced"] == []

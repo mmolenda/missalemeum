@@ -47,11 +47,19 @@ def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) 
 def format_propers(propers, day=None):
     retvals = []
     commemorations = [
-        {"id": observance.id, "title": observance.title}
+        {
+            "id": observance.id,
+            "title": observance.title,
+            "has_proper": observance.has_proper(),
+        }
         for observance in day.get_commemorations()
     ] if day else []
     displaced = [
-        {"id": observance.id, "title": observance.title}
+        {
+            "id": observance.id,
+            "title": observance.title,
+            "has_proper": observance.has_proper(),
+        }
         for observance in day.get_displaced()
     ] if day else []
     for propers_vernacular, propers_latin in propers:
