@@ -15,7 +15,13 @@ from api.exceptions import InvalidInput, ProperNotFound, SectionNotFound, Supple
 from api.constants import TRANSLATION
 from api.constants.common import LANGUAGES, ORDO_DIR
 from api.kalendar.models import Calendar, Day
-from api.utils import format_propers, get_pregenerated_proper, get_supplement, supplement_index
+from api.utils import (
+    add_proper_id_date_tag,
+    format_propers,
+    get_pregenerated_proper,
+    get_supplement,
+    supplement_index,
+)
 from api.examples import (
     CALENDAR_ITEMS_EXAMPLE,
     ICALENDAR_EXAMPLE,
@@ -93,9 +99,12 @@ def v5_proper(
         try:
             pregenerated_proper = get_pregenerated_proper(lang, proper_id)
             if pregenerated_proper is not None:
+                add_proper_id_date_tag(pregenerated_proper, lang, proper_id)
                 return _parse_propers(pregenerated_proper)
             proper_vernacular, proper_latin = controller.get_proper_by_id(proper_id, lang)
-            return _parse_propers(format_propers([[proper_vernacular, proper_latin]]))
+            formatted_propers = format_propers([[proper_vernacular, proper_latin]])
+            add_proper_id_date_tag(formatted_propers, lang, proper_id)
+            return _parse_propers(formatted_propers)
         except InvalidInput as e:
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(e)) from e
         except ProperNotFound as e:

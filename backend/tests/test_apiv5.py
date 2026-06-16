@@ -6,6 +6,7 @@ import pytest
 
 from .conftest import HERE
 from api.constants.common import LANGUAGES
+from api.utils import add_proper_id_date_tag
 
 
 def test_api_calendar(client):
@@ -113,7 +114,7 @@ def test_api_proper(client):
     resp = client.get('/pl/api/v5/proper/sancti:11-11:3:w')
     data = resp.json()
     info = data[0]["info"]
-    assert ['Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
+    assert ['11 listopada', 'Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
@@ -122,6 +123,24 @@ def test_api_proper(client):
     assert [] == info["displaced"]
     assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
     assert "*Eccli 45:30" in data[0]["sections"][0]["body"][0][1]
+
+
+def test_api_proper_id_date_tag_is_localized(client):
+    resp = client.get('/en/api/v5/proper/sancti:11-11:3:w')
+    data = resp.json()
+    assert data[0]["info"]["tags"][0] == "11 November"
+
+
+def test_api_pregenerated_proper_id_date_tag_is_localized(client):
+    resp = client.get('/pl/api/v5/proper/sancti:02-02:2:w')
+    data = resp.json()
+    assert data[0]["info"]["tags"][0] == "2 lutego"
+
+
+def test_api_proper_id_date_tag_is_not_duplicated():
+    payload = [{"info": {"tags": ["11 November", "White vestments"]}, "sections": []}]
+    add_proper_id_date_tag(payload, "en", "sancti:11-11:3:w")
+    assert payload[0]["info"]["tags"] == ["11 November", "White vestments"]
 
 
 def test_api_date_exposes_displaced_observances(client):
