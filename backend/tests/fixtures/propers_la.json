@@ -15443,6 +15443,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoratio S. Evaristi Papæ et Martyris*\nGregem tuum, Pastor ætérne, placátus inténde: et, per beátum Evarístum Summu",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Léctio libri Sapiéntiæ\n*Eccli 24:14-16*\nAb inítio et ante sǽcula creáta sum, et usque ad futúrum sǽculum non désinam, et",
         "id": "Lectio"
       },
@@ -15463,6 +15467,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoratio S. Evaristi Papæ et Martyris*\nOblátis munéribus, quǽsumus, Dómine, Ecclésiam tuam benígnus illúmina: ut, e",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*de Beata Maria Virgine*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine s",
         "id": "Prefatio"
       },
@@ -15473,6 +15481,10 @@
       {
         "body": "Sumptis, Dómine, salútis nostræ subsídiis: da, quǽsumus, beátæ Maríæ semper Vírginis patrocíniis nos ubíque prótegi; in ",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoratio S. Evaristi Papæ et Martyris*\nRefectióne sancta enutrítam gubérna, quǽsumus, Dómine, tuam placátus Ecclési",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

@@ -1,5 +1,8 @@
 [Comment]
 @Sancti/11-10o
 
+[Introitus]
+@Sancti/03-10
+
 [Postcommunio]
 @Commune/C3a::s/N\. i N\./Tryfona, Respicjusza i Nimfy/

@@ -15349,6 +15349,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Commemoration St. Evaristus*\nLook forgivingly on thy flock, Eternal Shepherd, and keep it in thy constant protection, b",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Lesson from the book of Ecclesiasticus\n*Ecclus 24:14-16*\nBefore all ages, in the beginning, He created me, and through a",
         "id": "Lectio"
       },
@@ -15369,6 +15373,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Commemoration St. Evaristus*\nBy the offered gifts we beseech thee, O Lord, that thou kindly enlighten thy Church, so th",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Blessed Virgin*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places,",
         "id": "Prefatio"
       },
@@ -15379,6 +15387,10 @@
       {
         "body": "Having received the aids conducive to our salvation, O Lord, we beseech You, grant that we may everywhere be protected b",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Commemoration St. Evaristus*\nBeing appeased, O Lord, guide thy Church, which has been nourished by holy refreshment, th",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

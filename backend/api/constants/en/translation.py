@@ -760,6 +760,7 @@ TITLES = {
     constants.SANCTI_10_23: 'St. Anthony Mary Claret',
     constants.SANCTI_10_24: 'St. Raphael the Archangel',
     constants.SANCTI_10_25: 'Sts. Chrysanthus & Daria',
+    constants.SANCTI_10_26: 'St. Evaristus',
     constants.SANCTI_10_28: 'Sts. Simon & Jude',
     constants.SANCTI_11_01: 'All Saints',
     constants.SANCTI_11_02_1: 'Commemoration of All Souls',

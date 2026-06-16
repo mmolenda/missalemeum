@@ -800,6 +800,7 @@ TITLES = {
     constants.SANCTI_10_23: 'S. Antonii Mariæ Claret Episcopi Confessoris',
     constants.SANCTI_10_24: 'S. Raphælis Archangeli',
     constants.SANCTI_10_25: 'Ss. Chrysanthi et Dariæ Martyrum',
+    constants.SANCTI_10_26: 'S. Evaristi Papæ et Martyris',
     constants.SANCTI_10_28: 'Ss. Simonis et Judæ Apostolorum.',
     constants.SANCTI_11_01: 'Omnium Sanctorum',
     constants.SANCTI_11_02_1: 'In Commemoratione Omnium Fidelium Defunctorum Ad primam Missam',

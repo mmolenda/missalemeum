@@ -802,6 +802,7 @@ TITLES = {
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',
     constants.SANCTI_10_25: 'Śś. Chryzanta i Darii, Męczenników',
+    constants.SANCTI_10_26: 'Św. Ewarysta, Papieża i Męczennika',
     constants.SANCTI_10_28: 'Świętych Szymona i Judy Tadeusza, Apostołow',
     constants.SANCTI_11_01: 'Uroczystość Wszystkich Świętych',
     constants.SANCTI_11_02_1: 'Dzień Zaduszny',

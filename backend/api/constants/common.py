@@ -897,6 +897,7 @@ SANCTI_10_21C = 'sancti:10-21cc:4:r'  # St. Ursula
 SANCTI_10_23 = 'sancti:10-23r:3:w'
 SANCTI_10_24 = 'sancti:10-24:3:w'
 SANCTI_10_25 = 'sancti:10-25:4:r'
+SANCTI_10_26 = 'sancti:10-26:4:r'
 SANCTI_10_28 = 'sancti:10-28:2:r'  # SS. Simon and Jude, Apostles
 
 SANCTI_11_01 = 'sancti:11-01:1:w'  # All Saints

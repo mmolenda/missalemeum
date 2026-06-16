@@ -15443,6 +15443,10 @@
         "id": "Oratio"
       },
       {
+        "body": "*Wspomnienie Św. Ewarysta, Papieża i Męczennika*\nWiekuisty Pasterzu, wejrzyj łaskawie na Swoją trzodę i otocz ją nieusta",
+        "id": "Commemoratio Oratio"
+      },
+      {
         "body": "Czytanie z Księgi Syracydesa.\n*Syr 24:14-16*\n*Słowa odnoszące się do Mądrości Bożej Kościół stosuje do Najświętszej Dzie",
         "id": "Lectio"
       },
@@ -15463,6 +15467,10 @@
         "id": "Secreta"
       },
       {
+        "body": "*Wspomnienie Św. Ewarysta, Papieża i Męczennika*\nZłożywszy dary, prosimy Cię, Panie, oświeć łaskawie Twój Kościół, by tr",
+        "id": "Commemoratio Secreta"
+      },
+      {
         "body": "*Prefacja o Najświętszej Maryi Pannie*\nZaprawdę godne to i sprawiedliwe, słuszne i zbawienne, abyśmy zawsze i wszędzie T",
         "id": "Prefatio"
       },
@@ -15473,6 +15481,10 @@
       {
         "body": "Przyjąwszy zasiłek naszego zbawienia, prosimy Cię, Panie, daj, by nas nieustannie chroniła opieka błogosławionej Maryi z",
         "id": "Postcommunio"
+      },
+      {
+        "body": "*Wspomnienie Św. Ewarysta, Papieża i Męczennika*\nProsimy Cię, Panie, rządź miłościwie Twoim Kościołem, krzepionym przez ",
+        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
