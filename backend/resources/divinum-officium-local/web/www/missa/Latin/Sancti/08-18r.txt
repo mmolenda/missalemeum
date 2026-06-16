@@ -2,29 +2,25 @@
 @Sancti/08-18r
 
 [Introitus]
-@Commune/C2:Introitus
+@Commune/C2a-1
 
 [Oratio]
 @Sancti/08-18r:Oratio
 
 [Lectio]
-@Commune/C2:Lectio
+@Commune/C2a-1
 
 [Graduale]
-@Commune/C2:Graduale
-
-[Evangelium]
-@Sancti/02-01
+@Commune/C2a-1
 
 [Offertorium]
-@Commune/C2:Offertorium
+@Commune/C2a-1
 
 [Secreta]
 @Sancti/08-18r:Secreta
 
 [Communio]
-@Commune/C2:Communio
+@Commune/C2a-1
 
 [Postcommunio]
 @Commune/C6a
-

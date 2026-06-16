@@ -2,29 +2,31 @@
 @Sancti/02-15
 
 [Introitus]
-@Commune/C3b:Introitus
+@Commune/C3a-1
 
 [Oratio]
-@Commune/C3a-1:Oratio:s/N\. et N\./Faustíni et Jovítæ/
+@Commune/C3a-1
 
 [Lectio]
-@Commune/C3b:Lectio
+@Commune/C3a-1
 
 [Graduale]
-@Commune/C10c:Graduale
+@Commune/C3a-1
+
+[Tractus]
+@Commune/C3a-1
 
 [Evangelium]
-@Commune/C3b:Evangelium
+@Commune/C3a-1
 
 [Offertorium]
-@Commune/C3b:Offertorium
+@Commune/C3a-1
 
 [Secreta]
 @Commune/C3
 
 [Communio]
-@Commune/C3b:Communio
+@Commune/C3a-1
 
 [Postcommunio]
 @Commune/C3
-

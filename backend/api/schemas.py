@@ -52,6 +52,21 @@ class SupplementLink(BaseModel):
     )
 
 
+class ObservanceLink(BaseModel):
+    """Reference to an observance inside the app."""
+    id: Optional[str] = Field(
+        default=None,
+        description="Observance ID used by the proper endpoint when available."
+    )
+    title: str = Field(
+        ..., description="Human readable title of the observance."
+    )
+    has_proper: Optional[bool] = Field(
+        default=None,
+        description="Whether the observance can be opened through the proper endpoint.",
+    )
+
+
 class ProperInfo(Info):
     """Information block returned alongside a proper."""
 
@@ -79,9 +94,13 @@ class ProperInfo(Info):
         default=None,
         description="Textual description of the current liturgical season.",
     )
-    commemorations: Optional[List[str]] = Field(
+    commemorations: Optional[List[ObservanceLink]] = Field(
         default=None,
         description="Commemorations falling on the given day.",
+    )
+    displaced: Optional[List[ObservanceLink]] = Field(
+        default=None,
+        description="Observances falling on the given day that lost precedence.",
     )
 
 
@@ -126,9 +145,13 @@ class CalendarItem(BaseModel):
     id: str = Field(
         ..., description="ID of the observance (YYYY-MM-DD)."
     )
-    commemorations: List[str] = Field(
+    commemorations: List[ObservanceLink] = Field(
         default_factory=list,
         description="Commemorations falling on the given day.",
+    )
+    displaced: List[ObservanceLink] = Field(
+        default_factory=list,
+        description="Observances falling on the given day that lost precedence.",
     )
 
 

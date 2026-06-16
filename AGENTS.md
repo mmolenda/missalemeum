@@ -50,6 +50,38 @@
   - if `Sancti/04-02.txt` has `vide C5-1` and defines `[Oratio]` but not `[Introitus]` or `[Lectio]`
   - then the local file should reference `[Introitus] -> @Commune/C5-1`, `[Oratio] -> @Sancti/04-02:Oratio`, `[Lectio] -> @Commune/C5-1`
 
+### Resolving Commune Inheritance
+
+- When a Divinum Officium proper inherits from a numbered Commune Mass, use the mapping below to resolve the Mass number to the local Commune ID.
+- The number is the Mass number used by Divinum Officium. The ID is the file ID under `backend/resources/divinum-officium-local/web/www/missa/<Language>/Commune`.
+- If a proper inherits from, for example, `C3`, that means the local override must expose the same section set as Commune `C3`. It does not automatically mean every section must point to `@Commune/C3`, although that may be correct when the corresponding local Commune file itself references the upstream Commune with the same ID.
+- Resolve each missing section individually. Prefer direct references to the actual text-bearing source section, following any reference chain when needed.
+
+| Mass | Commune ID | Proper ID | Description |
+| --- | --- | --- | --- |
+| 8 | C4b | `commune:C4b:0:w` | Si Diligis - Communi unius aut plurium Summorum Pontificum; Msza o jednym lub kilku papieżach |
+| 9 | C2 | `commune:C2:0:r` | Statuit - Commune Unius Martyris Pontificis; 1 Msza o Męczenniku Biskupie |
+| 10 | C2-1 | `commune:C2-1:0:r` | Sacerdotes Dei - Commune Unius Martyris Pontificis; 2 Msza o Męczenniku Biskupie |
+| 11 | C2a | `commune:C2a:0:r` | In virtute - Commune Unius Martyris; 1 Msza o Męczenniku |
+| 12 | C2a-1 | `commune:C2a-1:0:r` | Laetabitur - Commune Unius Martyris; 2 Msza o Męczenniku |
+| 13 | C3 | `commune:C3:0:r` | Intret - Commune Plurimorum Martyrum; 1 Msza o Wielu Męczennikach |
+| 14 | C3a | `commune:C3a:0:r` | Sapientiam - Commune Plurimorum Martyrum; 2 Msza o Wielu Męczennikach |
+| 15 | C3a-1 | `commune:C3a-1:0:r` | Salus autem - Commune Plurimorum Martyrum; 3 Msza o Wielu Męczennikach |
+| 16 | C2p | `commune:C2p:0:r` | Protexisti - Commune Unius Martyris Tempore Paschali; Msza o jednym Męczenniku w Okresie Wielkanocnym |
+| 17 | C3p | `commune:C3p:0:r` | Sancti Tui - Commune Plurimorum Martyrum Tempore Paschali; Msza o wielu Męczennikach w Okresie Wielkanocnym |
+| 18 | C4 | `commune:C4:0:w` | Statuit - Commune Unius Confessoris Pontificis; 1 Msza o Wyznawcy Biskupie |
+| 19 | C4-1 | `commune:C4-1:0:w` | Sacerdotes Tui - Commune Unius Confessoris Pontificis; 2 Msza o Wyznawcy Biskupie |
+| 20 | C4a | `commune:C4a:0:w` | In Medio - Commune Doctoris non Pontificis; Msza o Doktorze Kościoła |
+| 21 | C5 | `commune:C5:0:w` | Os iusti - Commune Confessoris non pontificis; 1 Msza o Wyznawcy |
+| 22 | C5-1 | `commune:C5-1:0:w` | Iustus ut palma - Commune Confessoris non Pontificis; 2 Msza o Wyznawcy |
+| 23 | C5b | `commune:C5b:0:w` | Os Iusti - Commune Abbatis; Msza o Opacie |
+| 24 | C6 | `commune:C6:0:r` | Loquebar - Commune Virginis et Martyris; 1 Msza o Dziewicy Męczennicy |
+| 25 | C6b | `commune:C6b:0:r` | Me exspectaverunt - Commune Virginis et Martyris; 2 Msza o Dziewicy Męczennicy |
+| 26 | C6a | `commune:C6a:0:w` | Dilexisti - Commune Virginis non Martyris; 1 Msza o Dziewicy |
+| 27 | C6a-1 | `commune:C6a-1:0:w` | Vultum tuum - Commune Virginis non Martyris; 2 Msza o Dziewicy |
+| 28 | C6-1 | `commune:C6-1:0:r` | Me exspectaverunt - Commune Mulieris Martyris; Msza o Niewieście Męczennicy |
+| 29 | C7a | `commune:C7a:0:w` | Cognovi - Commune Mulieris non Martyris; Msza o Niewieście |
+
 ## Fixture Drift After Divinum Officium Updates
 
 - For changes coming from the Divinum Officium submodule update branch `chore/update-divinum-officium-submodule`, most test failures are caused by fixtures no longer matching updated source texts.

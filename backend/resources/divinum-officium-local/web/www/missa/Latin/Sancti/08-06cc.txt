@@ -1,12 +1,29 @@
 [Rule]
 @Commune/C3a
 
+[Introitus]
+@Commune/C3a
+
 [Oratio]
 @Commune/C3a::s/N\. et N\./Xysti Felicíssimi et Agapíti/
+
+[Lectio]
+@Commune/C3a
+
+[Graduale]
+@Commune/C3a
+
+[Evangelium]
+@Commune/C3a
+
+[Offertorium]
+@Commune/C3a
 
 [Secreta]
 @Commune/C3a
 
+[Communio]
+@Commune/C3a
+
 [Postcommunio]
 @Commune/C3a::s/N\. et N\./Xysto, Felicíssimo et Agapíto/
-

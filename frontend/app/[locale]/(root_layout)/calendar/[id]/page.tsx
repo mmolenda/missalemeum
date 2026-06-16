@@ -32,6 +32,7 @@ const DAY_COPY: Record<Locale, {
   rankLabel: string;
   vestmentsLabel: string;
   commemorationsLabel: string;
+  displacedLabel: string;
 }> = {
   en: {
     titleSuffix: (date) => `${date} Traditional Latin Mass propers`,
@@ -39,6 +40,7 @@ const DAY_COPY: Record<Locale, {
     rankLabel: "Rank",
     vestmentsLabel: "Vestments",
     commemorationsLabel: "Commemorations",
+    displacedLabel: "Displaced",
   },
   pl: {
     titleSuffix: (date) => `${date} proprium Mszy trydenckiej`,
@@ -46,6 +48,7 @@ const DAY_COPY: Record<Locale, {
     rankLabel: "Klasa",
     vestmentsLabel: "Szaty",
     commemorationsLabel: "Wspomnienia",
+    displacedLabel: "Przesunięte",
   },
 };
 
@@ -62,6 +65,8 @@ const formatHumanDate = (isoDate: string, lang: Locale) => {
 };
 
 const cleanText = (value?: string) => value?.replace(/\s+/g, " ").trim() ?? "";
+const getObservanceTitle = (observance: string | { title?: string }) =>
+  typeof observance === "string" ? observance : (observance.title ?? "");
 
 const buildDayDescription = (info: Content["info"], humanDate: string, lang: Locale) => {
   const copy = DAY_COPY[lang];
@@ -85,7 +90,11 @@ const buildDayDescription = (info: Content["info"], humanDate: string, lang: Loc
   }
 
   if (info.commemorations && info.commemorations.length > 0) {
-    pieces.push(`${copy.commemorationsLabel}: ${info.commemorations.join(", ")}.`);
+    pieces.push(`${copy.commemorationsLabel}: ${info.commemorations.map((observance) => getObservanceTitle(observance)).join(", ")}.`);
+  }
+
+  if (info.displaced && info.displaced.length > 0) {
+    pieces.push(`${copy.displacedLabel}: ${info.displaced.map((observance) => observance.title).join(", ")}.`);
   }
 
   return pieces.join(" ");

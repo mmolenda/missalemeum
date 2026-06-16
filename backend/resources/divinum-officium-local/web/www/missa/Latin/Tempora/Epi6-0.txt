@@ -2,7 +2,7 @@
 @Tempora/Epi6-0
 
 [Introitus]
-@Tempora/Epi6-0:Introitus
+@Tempora/Epi3-0:Introitus
 
 [Oratio]
 @Tempora/Epi6-0:Oratio
@@ -11,7 +11,7 @@
 @Tempora/Epi6-0:Lectio
 
 [Graduale]
-@Tempora/Epi6-0:Graduale
+@Tempora/Epi3-0:Graduale
 
 [Evangelium]
 @Tempora/Epi6-0:Evangelium
@@ -23,8 +23,7 @@
 @Tempora/Epi6-0:Secreta
 
 [Communio]
-@Tempora/Epi6-0:Communio
+@Tempora/Epi3-0:Communio
 
 [Postcommunio]
 @Tempora/Epi6-0:Postcommunio
-

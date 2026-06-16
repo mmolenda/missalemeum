@@ -10,7 +10,7 @@ from typing import ItemsView, List, Tuple, Union
 from api.constants.common import (PATTERN_WEEKDAY_IN_ID, TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, TEMPORA_C_10PASC, TEMPORA_C_10T,
                               TABLE_OF_PRECEDENCE, TEMPORA_EPI1_0,
                               TEMPORA_EPI1_0A, TEMPORA_PENT01_0,
-                              TEMPORA_RANK_MAP, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER,
+                              TEMPORA_RANK_MAP, TYPE_SANCTI, TYPE_TEMPORA, WEEKDAY_MAPPING, PATTERN_EASTER,
                               PATTERN_PRE_LENTEN,
                               PATTERN_LENT, GRADUALE_PASCHAL, TRACTUS, GRADUALE,
                               CUSTOM_INTER_READING_SECTIONS,
@@ -150,10 +150,11 @@ class Observance:
 class Day:
     """ Class used to keep `Observance` objects for particular days of Missal.
 
-    It contains three lists: `tempora`, `celebration` and `commemoration`.
+    It contains four lists: `tempora`, `celebration`, `commemoration` and `displaced`.
     On Missal's creation the lists are filled in so that `tempora` always contains `Observance` representing
     given variable day, `celebration` contains an `Observance`s to be celebrated in this day and
-    `commemoration` contains zero or more `Observance`s that should be commemorated with the main celebration.
+    `commemoration` contains zero or more `Observance`s that should be commemorated with the main celebration,
+    while `displaced` contains observances falling on the day that lost precedence, whether commemorated or not.
     """
     def __init__(self, date_: date, calendar: 'Calendar') -> None:
         self.date = date_
@@ -161,6 +162,7 @@ class Day:
         self.tempora: List['Observance'] = []
         self.celebration: List['Observance'] = []
         self.commemoration: List['Observance'] = []
+        self.displaced: List['Observance'] = []
 
     @property
     def all(self) -> List['Observance']:
@@ -184,6 +186,19 @@ class Day:
 
     def get_commemorations_titles(self) -> List[str]:
         return [i.title for i in self.commemoration if i.id != self.get_celebration_id()]
+
+    def get_commemorations(self) -> List['Observance']:
+        return [observance for observance in self.commemoration if observance.id != self.get_celebration_id()]
+
+    def get_displaced(self) -> List['Observance']:
+        commemoration_ids = {observance.id for observance in self.get_commemorations()}
+        return [
+            observance
+            for observance in self.displaced
+            if observance.flexibility == TYPE_SANCTI
+            if observance.id != self.get_celebration_id()
+            if observance.id not in commemoration_ids
+        ]
 
     def get_celebration_colors(self) -> Union[None, List[str]]:
         if self.celebration:
@@ -297,12 +312,12 @@ class Day:
 
     def serialize(self) -> dict:
         serialized = {}
-        for container in ('tempora', 'celebration', 'commemoration'):
+        for container in ('tempora', 'celebration', 'commemoration', 'displaced'):
             serialized[container] = [i.serialize() for i in getattr(self, container)]
         return serialized
 
     def __str__(self):
-        return str(self.tempora) + str(self.celebration) + str(self.commemoration)
+        return str(self.tempora) + str(self.celebration) + str(self.commemoration) + str(self.displaced)
 
 
 class Calendar:

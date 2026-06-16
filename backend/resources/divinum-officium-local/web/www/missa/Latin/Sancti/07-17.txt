@@ -2,29 +2,28 @@
 @Sancti/07-17
 
 [Introitus]
-@Commune/C5:Introitus
+@Commune/C5
 
 [Oratio]
-@Commune/C5:Oratio:s/N\./Aléxii/
+@Commune/C5::s/N\./Aléxii/
 
 [Lectio]
-@Sancti/07-17:Lectio
+@Sancti/07-17
 
 [Graduale]
-@Commune/C5:Graduale
+@Commune/C5
 
 [Evangelium]
-@Commune/C4c
+@Commune/C5b
 
 [Offertorium]
-@Commune/C5:Offertorium
+@Commune/C2
 
 [Secreta]
-@Commune/C5:Secreta
+@Commune/C5
 
 [Communio]
-@Commune/C5:Communio
+@Commune/C4-1
 
 [Postcommunio]
-@Commune/C5:Postcommunio
-
+@Commune/C5

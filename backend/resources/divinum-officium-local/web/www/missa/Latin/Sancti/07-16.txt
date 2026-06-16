@@ -14,7 +14,7 @@
 @Sancti/07-16:Graduale
 
 [Evangelium]
-@Commune/C10
+@Commune/C11:Evangelium
 
 [Offertorium]
 @Sancti/07-16:Offertorium
@@ -27,4 +27,3 @@
 
 [Postcommunio]
 @Sancti/07-16:Postcommunio
-

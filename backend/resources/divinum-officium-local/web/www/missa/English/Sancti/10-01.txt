@@ -1,5 +1,0 @@
-[Oratio]
-@Commune/C4::s/N\./Remigius/
-
-[Postcommunio]
-@Commune/C4::s/N\./Remigius/

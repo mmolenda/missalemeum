@@ -1,5 +1,15 @@
 [Comment]
 @Sancti/11-10o
 
+[Introitus]
+@Sancti/03-10
+
+[Graduale]
+!Ps 78:10; 78:2
+Pomścij, o Panie, krew Twoich Świętych, którą wylano.
+v. Ciała sług Twoich wydali na pastwę ptakom niebieskim, zwierzętom ziemi ciała Twoich Świętych. Alleluja. Alleluja.
+!Ps 115:15
+Droga jest w oczach Pańskich śmierć Jego Świętych. Alleluja.
+
 [Postcommunio]
 @Commune/C3a::s/N\. i N\./Tryfona, Respicjusza i Nimfy/

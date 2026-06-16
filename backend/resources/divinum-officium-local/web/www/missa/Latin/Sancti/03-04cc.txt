@@ -2,32 +2,34 @@
 @Sancti/03-04cc
 
 [Introitus]
-@Commune/C2-1
+@Commune/C4b
 
 [Oratio]
 @Commune/C4b
 
 [Lectio]
-@Commune/C2-1
+@Commune/C4b
 
 [Graduale]
-@Commune/C2-1
+@Commune/Coronatio
+
+[GradualeP]
+@Commune/Coronatio
 
 [Tractus]
-@Commune/C2-1
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C2-1
+@Commune/Coronatio
 
 [Offertorium]
-@Commune/C2-1
+@Commune/C4b
 
 [Secreta]
 @Commune/C4b
 
 [Communio]
-@Commune/C2-1
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
-

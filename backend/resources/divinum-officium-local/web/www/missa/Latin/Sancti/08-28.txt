@@ -11,7 +11,7 @@
 @Commune/C4a
 
 [Graduale]
-@Commune/C4a
+@Sancti/08-28
 
 [Evangelium]
 @Commune/C4a
@@ -27,4 +27,3 @@
 
 [Postcommunio]
 @Commune/C4a:Postcommunio:s/N\./Augustínus/
-

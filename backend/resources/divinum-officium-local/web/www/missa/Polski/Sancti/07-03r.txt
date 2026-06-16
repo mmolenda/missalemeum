@@ -29,8 +29,7 @@
 @Sancti/07-03r
 
 [GradualeP]
-@Sancti/07-03r
+@Sancti/06-28:GradualeP
 
 [Tractus]
-@Sancti/07-03r
-
+@Sancti/06-28:Tractus

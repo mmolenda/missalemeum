@@ -2,29 +2,28 @@
 @Sancti/08-13
 
 [Introitus]
-@Commune/C3b:Introitus
+@Commune/C3a-1
 
 [Oratio]
-@Sancti/08-13:Oratio
+@Sancti/08-13
 
 [Lectio]
-@Commune/C3b:Lectio
+@Commune/C3a-1
 
 [Graduale]
-@Commune/C3b:Graduale
+@Commune/C3a-1
 
-[Evangelium]
-@Commune/C3b:Evangelium
+[Tractus]
+@Commune/C3a-1
 
 [Offertorium]
-@Commune/C3b:Offertorium
+@Commune/C3a-1
 
 [Secreta]
-@Sancti/08-13:Secreta
+@Sancti/08-13
 
 [Communio]
-@Commune/C3b:Communio
+@Commune/C3a-1
 
 [Postcommunio]
-@Sancti/08-13:Postcommunio
-
+@Sancti/08-13

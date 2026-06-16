@@ -1,7 +1,9 @@
+import datetime
 import logging
 import os
 import re
 from collections import defaultdict
+from collections.abc import MutableMapping, MutableSequence, Sequence
 from typing import List, Union, Pattern
 
 import yaml
@@ -44,6 +46,22 @@ def get_custom_preface(celebration: 'Observance', tempora: 'Observance' = None) 
 
 def format_propers(propers, day=None):
     retvals = []
+    commemorations = [
+        {
+            "id": observance.id,
+            "title": observance.title,
+            "has_proper": observance.has_proper(),
+        }
+        for observance in day.get_commemorations()
+    ] if day else []
+    displaced = [
+        {
+            "id": observance.id,
+            "title": observance.title,
+            "has_proper": observance.has_proper(),
+        }
+        for observance in day.get_displaced()
+    ] if day else []
     for propers_vernacular, propers_latin in propers:
         title = propers_vernacular.title
         tempora_name: str = day.get_tempora_name() if day else None
@@ -57,13 +75,62 @@ def format_propers(propers, day=None):
             "colors": propers_vernacular.colors,
             "supplements": propers_vernacular.supplements,
             "date": day.date.strftime("%Y-%m-%d") if day else None,
-            "commemorations": propers_vernacular.commemorations_titles
+            "commemorations": commemorations if day else [
+                {"id": None, "title": title} for title in propers_vernacular.commemorations_titles
+            ],
+            "displaced": displaced,
         }
         retvals.append({
             "info": info,
             "sections": format_proper_sections(propers_vernacular, propers_latin)
         })
     return retvals
+
+
+def add_proper_id_date_tag(propers, lang: str, proper_id: str):
+    label = _format_proper_id_date_tag(lang, proper_id)
+    if not label:
+        return propers
+
+    for proper in propers:
+        if not isinstance(proper, MutableMapping):
+            continue
+        info = proper.get("info")
+        if not isinstance(info, MutableMapping):
+            continue
+        tags = info.get("tags")
+        if tags is None:
+            tags = []
+            info["tags"] = tags
+        if not isinstance(tags, MutableSequence):
+            continue
+        if label not in tags:
+            tags.insert(0, label)
+    return propers
+
+
+def _format_proper_id_date_tag(lang: str, proper_id: str) -> str | None:
+    match = re.match(r"^sancti:(\d{2})-(\d{2})", proper_id)
+    if not match:
+        return None
+
+    month = int(match.group(1))
+    day = int(match.group(2))
+    try:
+        datetime.date(2000, month, day)
+    except ValueError:
+        return None
+
+    translation = TRANSLATION[lang]
+    months = getattr(translation, "MONTHS_GENITIVE", None)
+    if not isinstance(months, Sequence):
+        months = getattr(translation, "MONTHS_NOMINATIVE", ())
+    if isinstance(months, Sequence) and len(months) > month:
+        month_label = months[month]
+    else:
+        month_label = datetime.date(2000, month, day).strftime("%B")
+
+    return f"{day} {month_label}"
 
 
 def format_proper_sections(propers_vernacular, propers_latin):

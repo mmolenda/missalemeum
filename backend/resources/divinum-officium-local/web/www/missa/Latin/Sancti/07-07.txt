@@ -31,6 +31,3 @@
 [GradualeP]
 @Commune/C4-1
 
-[Tractus]
-@Sancti/07-07:Tractus
-

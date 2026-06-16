@@ -23,7 +23,7 @@
 @Commune/C6a::s/N\./Luciæ/
 
 [Communio]
-@Sancti/12-13
+@Commune/C7
 
 [Postcommunio]
 @Commune/C6a::s/N\./Luciæ/

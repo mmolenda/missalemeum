@@ -1,8 +1,26 @@
+[Introitus]
+@Sancti/08-08
+
 [Oratio]
 @Commune/C3a-1::s/N\. et N\./Cyriáci, Largi et Smarágdi/
 
+[Lectio]
+@Sancti/08-08
+
+[Graduale]
+@Sancti/08-08
+
+[Evangelium]
+@Sancti/08-08
+
+[Offertorium]
+@Sancti/08-08
+
 [Secreta]
 @Commune/C2a-1
+
+[Communio]
+@Sancti/08-08
 
 [Postcommunio]
 @Commune/C2a-1::s/intercedénte beáto N\. Mártyre tuo/intercedéntibus sanctis Martýribus tuis Cyríaco, Largo et Smarágdo/

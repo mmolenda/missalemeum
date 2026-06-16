@@ -8,7 +8,7 @@
 @Sancti/01-19:Oratio
 
 [Lectio]
-@Commune/C3b
+@Commune/C3a-1
 
 [Graduale]
 @Sancti/01-19:Graduale

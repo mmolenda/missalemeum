@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/09-01
+
+[Oratio]
+@Commune/C5b:Oratio:s/N\./Idziego/
+
+[Secreta]
+@Commune/C5b:Secreta:s/N\./Idzi/
+
+[Postcommunio]
+@Commune/C5b:Postcommunio:s/N\./Idziego/

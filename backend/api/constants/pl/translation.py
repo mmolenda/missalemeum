@@ -67,7 +67,7 @@ PDF_DATE_WEEKDAYS = (
     "niedziela",
 )
 CALENDAR_COVER_LINES = [
-    "RUBRYCELA MSZALNA",
+    "KALENDARZ LITURGICZNY",
     "DLA DIECEZJI POLSKICH",
     "NA ROK PAŃSKI",
     "{year}",
@@ -75,11 +75,11 @@ CALENDAR_COVER_LINES = [
 ]
 CALENDAR_COVER_PARAGRAPHS = [
     (
-        "Niniejsza rubrycela dotyczy wyłącznie Mszy celebrowanych "
+        "Niniejszy kalendarz dotyczy wyłącznie Mszy celebrowanych "
         "w rycie rzymskim sprzed reformy z 1970 roku"
     ),
     (
-        "Niniejsza rubrycela nie została zatwierdzona przez odpowiednią "
+        "Niniejszy kalendarz nie został zatwierdzony przez odpowiednią "
         "władzę kościelną. Dlatego też, w przypadku ewentualnego błędu, "
         "należy zachować rubryki."
     ),
@@ -463,6 +463,8 @@ TITLES = {
     constants.SANCTI_10_DU: 'Chrystusa Króla',
     constants.TEMPORA_EPI1_0A: '1 Niedziela po Objawieniu',
     constants.TEMPORA_PENT01_0A: '1 Niedziela po Zesłaniu Ducha Świętego',
+    constants.TEMPORA_C_10: 'Msza o N. M. P. – Salve, Sancta Parens',
+    constants.COMMUNE_C_10: 'Msza o N. M. P. – Salve, Sancta Parens',
     constants.TEMPORA_C_10A: '1 Msza o N. M. P. – Rorate',
     constants.COMMUNE_C_10A: '1 Msza o N. M. P. – Rorate',
     constants.TEMPORA_C_10B: '2 Msza o N. M. P. – Vultum Tuum',
@@ -473,10 +475,32 @@ TITLES = {
     constants.COMMUNE_C_10PASC: '4 Msza o N. M. P. – Salve, Sancta Parens',
     constants.TEMPORA_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
     constants.COMMUNE_C_10T: '5 Msza o N. M. P. – Salve, Sancta Parens',
+
+    constants.COMMUNE_C4B: 'Msza o jednym lub kilku papieżach – Si Diligis',
+    constants.COMMUNE_C2: '1 Msza o Męczenniku Biskupie – Statuit',
+    constants.COMMUNE_C2_1: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
     constants.COMMUNE_C5: '1 Msza o Wyznawcy – Os iusti',
-    constants.COMMUNE_C5B: '2 Msza o Wyznawcy – Iustus ut palma',
+    constants.COMMUNE_C5_1: '2 Msza o Wyznawcy – Iustus ut palma',
+    constants.COMMUNE_C5B: 'Msza o Opacie – Os Iusti',
     constants.COMMUNE_C2C: '1 Msza o Męczenniku Biskupie – Statuit',
     constants.COMMUNE_C2B: '2 Msza o Męczenniku Biskupie – Sacerdotes Dei',
+    constants.COMMUNE_C2A: '1 Msza o Męczenniku – In virtute',
+    constants.COMMUNE_C2A_1: '2 Msza o Męczenniku – Laetabitur',
+    constants.COMMUNE_C3: '1 Msza o Wielu Męczennikach – Intret',
+    constants.COMMUNE_C3A: '2 Msza o Wielu Męczennikach – Sapientiam',
+    constants.COMMUNE_C3A_1: '3 Msza o Wielu Męczennikach – Salus autem',
+    constants.COMMUNE_C2P: 'Msza o jednym Męczenniku w Okresie Wielkanocnym – Protexisti',
+    constants.COMMUNE_C3P: 'Msza o wielu Męczennikach w Okresie Wielkanocnym – Santi Tui',
+    constants.COMMUNE_C4: '1 Msza o Wyznawcy Biskupie – Statuit',
+    constants.COMMUNE_C4_1: '2 Msza o Wyznawcy Biskupie – Sacerdotes Tui',
+    constants.COMMUNE_C4A: 'Msza o Doktorze Kościoła – In Medio',
+    constants.COMMUNE_C6: '1 Msza o Dziewicy Męczennicy – Loquebar',
+    constants.COMMUNE_C6B: '2 Msza o Dziewicy Męczennicy – Me exspectaverunt',
+    constants.COMMUNE_C6A: '1 Msza o Dziewicy – Dilexisti',
+    constants.COMMUNE_C6A_1: '2 Msza o Dziewicy – Vultum tuum',
+    constants.COMMUNE_C6_1: 'Msza o Niewieście Męczennicy – Me exspectaverunt',
+    constants.COMMUNE_C7A: 'Msza o Niewieście - Cognovi',
+    
     constants.SANCTI_01_01: 'Oktawa Bożego Narodzenia',
     constants.SANCTI_01_05: 'Św. Telesfora, Papieża i Męczennika',
     constants.SANCTI_01_06: 'Objawienie Pańskie',
@@ -539,6 +563,7 @@ TITLES = {
     constants.SANCTI_03_12: 'Św. Grzegorza Wielkiego, Papieża, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_03_15PL: 'Św. Klemensa Marii Dworzaka (Hofbauera)',
     constants.SANCTI_03_17: 'Św. Patryka, Biskupa i Wyznawcy',
+    constants.SANCTI_03_17PL: 'Św. Jana Sarkandra, Męczennika',
     constants.SANCTI_03_18: 'Św. Cyryla Jerozolimskiego, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_03_19: 'Św. Józefa, Oblubieńca N. M. P.',
     constants.SANCTI_03_21: 'Św. Benedykta, Opata',
@@ -552,6 +577,7 @@ TITLES = {
     constants.SANCTI_04_11: 'Św. Leona Wielkiego, Papieża, Wyznawcy i Dokotra Kościoła',
     constants.SANCTI_04_13: 'Św. Hermenegilda, Męczennika',
     constants.SANCTI_04_14: 'Św. Justyna, Męczennika',
+    constants.SANCTI_04_14T: 'Śś. Tyburcjusza, Waleriana i Maksyma, Męczenników',
     constants.SANCTI_04_17: 'Św. Aniceta, Papieża i Męczennika',
     constants.SANCTI_04_21: 'Św. Anzelma, Biskupa, Wyznawcy i Dokotra Kościoła',
     constants.SANCTI_04_22: 'Śś. Sotera i Kajusa, Papieży i Męczenników',
@@ -574,7 +600,7 @@ TITLES = {
     constants.SANCTI_05_07: 'Św. Stanisława, Biskupa i Męczennika',
     constants.SANCTI_05_07PL: 'Św. Floriana, Męczennika',
     constants.SANCTI_05_08PL: 'Św. Stanisława, Biskupa i Męczennika',
-    constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła',
+    constants.SANCTI_05_09: 'Św. Grzegorza z Nazjanzu, Biskupa, Wyznawcy i Doktora Kościoła',
     constants.SANCTI_05_10: 'Św. Antonina, Biskupa i Wyznawcy',
     constants.SANCTI_05_10C: 'Śś. Gordiana i Epimacha, Męczenników',
     constants.SANCTI_05_11: 'Świętych Filipa i Jakuba, Apostołów',
@@ -591,6 +617,7 @@ TITLES = {
     constants.SANCTI_05_20: 'Św. Bernardyna ze Sieny, Wyznawcy',
     constants.SANCTI_05_24PL: 'N. M. P. Wspomożycielki Wiernych',
     constants.SANCTI_05_25: 'Św. Grzegorza VII, Papieża i Wyznawcy',
+    constants.SANCTI_05_25C: 'Św. Urbana I, Papieża i Męczennika',
     constants.SANCTI_05_26: 'Św. Filipa Nereusza, Wyznawcy',
     constants.SANCTI_05_26C: 'Św. Eleuteriusza, Papieża i Męczennika',
     constants.SANCTI_05_27: 'Św. Bedy Czcigodnego, Wyznawcy i Doktora Kościoła',
@@ -712,7 +739,8 @@ TITLES = {
     constants.SANCTI_08_30: 'Św. Róży z Limy, Dziewicy',
     constants.SANCTI_08_30C: 'Śś. Feliksa i Adaukta, Męczenników',
     constants.SANCTI_08_31: 'Św. Rajmunda Nonnata, Wyznawcy',
-    constants.SANCTI_09_01: 'Św. Idziego, Opata oraz Śś. Dwunastu Braci, Męczenników',
+    constants.SANCTI_09_01: 'Św. Idziego, Opata',
+    constants.SANCTI_09_01C: 'Śś. Dwunastu Braci, Męczenników',
     constants.SANCTI_09_01PL: 'Bł. Bronisławy, Dziewicy',
     constants.SANCTI_09_02: 'Św. Stefana, Króla i Wyznawcy',
     constants.SANCTI_09_03: 'Św. Piusa X, Papieża i Wyznawcy',
@@ -774,6 +802,7 @@ TITLES = {
     constants.SANCTI_10_23: 'Św. Antoniego Marii Claret, Biskupa i Wyznawcy',
     constants.SANCTI_10_24: 'Św. Rafała Archanioła',
     constants.SANCTI_10_25: 'Śś. Chryzanta i Darii, Męczenników',
+    constants.SANCTI_10_26: 'Św. Ewarysta, Papieża i Męczennika',
     constants.SANCTI_10_28: 'Świętych Szymona i Judy Tadeusza, Apostołow',
     constants.SANCTI_11_01: 'Uroczystość Wszystkich Świętych',
     constants.SANCTI_11_02_1: 'Dzień Zaduszny',
@@ -856,7 +885,7 @@ TITLES = {
     constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Msza o Rozkrzewienie Wiary',
     constants.VOTIVE_MATRIMONIUM: 'Msza za Nowożeńców',
-    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę'
+    constants.VOTIVE_TERRIBILIS: 'Msza na konsekrację kościoła i jej rocznicę',
 }
 
 VOTIVE_MASSES = [

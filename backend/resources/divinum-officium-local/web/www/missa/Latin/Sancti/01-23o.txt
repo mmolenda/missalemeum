@@ -1,29 +1,35 @@
 [Rule]
-@Commune/C6
+@Sancti/01-23o
 
 [Introitus]
-@Commune/C6:Introitus
+@Commune/C6-1
 
 [Oratio]
-@Commune/C6-1:Oratio:s/N\./Emerentiána/
+@Commune/C6
 
 [Lectio]
-@Commune/C6:Lectio
+@Commune/C6
 
 [Graduale]
-@Commune/C6:Graduale
+@Commune/C7
+
+[GradualeP]
+@Commune/C7
+
+[Tractus]
+@Commune/C6
 
 [Evangelium]
-@Commune/C6:Evangelium
+@Commune/C6-1
 
 [Offertorium]
-@Commune/C6:Offertorium
+@Commune/C6-1
 
 [Secreta]
-@Commune/C6-1:Secreta:s/N\./Emerentiánæ/
+@Commune/C6
 
 [Communio]
-@Commune/C6:Communio
+@Commune/C7
 
 [Postcommunio]
-@Commune/C6-1:Postcommunio:s/N\./Emerentiánæ/
+@Commune/C6

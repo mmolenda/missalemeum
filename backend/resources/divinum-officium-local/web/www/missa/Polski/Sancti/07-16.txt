@@ -1,2 +1,14 @@
 [Comment]
 @Sancti/07-16
+
+[Introitus]
+@Commune/C11
+
+[Graduale]
+@Commune/C11:Graduale (numquam)
+
+[Offertorium]
+@Sancti/09-15
+
+[Communio]
+@Sancti/05-03pl

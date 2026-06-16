@@ -882,7 +882,8 @@
             "v"
         ],
         "commemorations": [
-            "Św. Patryka, Biskupa i Wyznawcy"
+            "Św. Patryka, Biskupa i Wyznawcy",
+            "Św. Jana Sarkandra, Męczennika"
         ],
         "id": "2023-03-17",
         "rank": 3,
@@ -1489,7 +1490,7 @@
         "tags": [
             "Wtorek po 4 Niedzieli po Wielkanocy"
         ],
-        "title": "Św. Grzegorza z Nazjanu, Biskupa, Wyznawcy i Doktora Kościoła"
+        "title": "Św. Grzegorza z Nazjanzu, Biskupa, Wyznawcy i Doktora Kościoła"
     },
     {
         "colors": [
@@ -1675,7 +1676,9 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Urbana I, Papieża i Męczennika"
+        ],
         "id": "2023-05-25",
         "rank": 3,
         "tags": [
@@ -2881,7 +2884,10 @@
         "colors": [
             "w"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Idziego, Opata",
+            "Śś. Dwunastu Braci, Męczenników"
+        ],
         "id": "2023-09-01",
         "rank": 3,
         "tags": [
@@ -3549,7 +3555,9 @@
         "colors": [
             "g"
         ],
-        "commemorations": [],
+        "commemorations": [
+            "Św. Ewarysta, Papieża i Męczennika"
+        ],
         "id": "2023-10-26",
         "rank": 4,
         "tags": [

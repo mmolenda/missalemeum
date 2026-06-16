@@ -6,6 +6,7 @@ import pytest
 
 from .conftest import HERE
 from api.constants.common import LANGUAGES
+from api.utils import add_proper_id_date_tag
 
 
 def test_api_calendar(client):
@@ -14,7 +15,13 @@ def test_api_calendar(client):
     resp = client.get('/pl/api/v5/calendar/2023')
     data = resp.json()
     for i, item in enumerate(data):
-        assert item == expected[i]
+        for key, value in expected[i].items():
+            if key == "commemorations":
+                assert [observance["title"] for observance in item[key]] == value
+            else:
+                assert item[key] == value
+        assert "displaced" in item
+        assert isinstance(item["displaced"], list)
 
 
 def test_api_date(client):
@@ -28,6 +35,10 @@ def test_api_date(client):
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert [] == info["supplements"]
+    assert "commemorations" in info
+    assert isinstance(info["commemorations"], list)
+    assert "displaced" in info
+    assert isinstance(info["displaced"], list)
     assert "Środa po 23 Niedzieli po Zesłaniu Ducha Świętego" == info["tempora"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
     assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
@@ -103,14 +114,101 @@ def test_api_proper(client):
     resp = client.get('/pl/api/v5/proper/sancti:11-11:3:w')
     data = resp.json()
     info = data[0]["info"]
-    assert ['Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
+    assert ['11 listopada', 'Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
     assert 3 == info["rank"]
     assert "Św. Marcina, Biskupa i Wyznawcy" == info["title"]
+    assert [] == info["displaced"]
     assert "*Syr 45:30" in data[0]["sections"][0]["body"][0][0]
     assert "*Eccli 45:30" in data[0]["sections"][0]["body"][0][1]
+
+
+def test_api_proper_id_date_tag_is_localized(client):
+    resp = client.get('/en/api/v5/proper/sancti:11-11:3:w')
+    data = resp.json()
+    assert data[0]["info"]["tags"][0] == "11 November"
+
+
+def test_api_pregenerated_proper_id_date_tag_is_localized(client):
+    resp = client.get('/pl/api/v5/proper/sancti:02-02:2:w')
+    data = resp.json()
+    assert data[0]["info"]["tags"][0] == "2 lutego"
+
+
+def test_api_proper_id_date_tag_is_not_duplicated():
+    payload = [{"info": {"tags": ["11 November", "White vestments"]}, "sections": []}]
+    add_proper_id_date_tag(payload, "en", "sancti:11-11:3:w")
+    assert payload[0]["info"]["tags"] == ["11 November", "White vestments"]
+
+
+def test_api_date_exposes_displaced_observances(client):
+    resp = client.get('/en/api/v5/proper/2020-12-06')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["displaced"] == [
+        {
+            "id": "sancti:12-06:3:w",
+            "title": "St. Nicholas",
+            "has_proper": True,
+        }
+    ]
+
+
+def test_api_date_exposes_commemorations_as_objects(client):
+    resp = client.get('/en/api/v5/proper/2019-03-19')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "tempora:Quad2-2:3:v",
+            "title": "Feria III after the II Sunday of Lent",
+            "has_proper": True,
+        }
+    ]
+
+
+def test_api_date_marks_commemoration_without_own_proper(client):
+    resp = client.get('/pl/api/v5/proper/2026-12-03')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "tempora:Adv1-4:3:v",
+            "title": "Czwartek po 1 Niedzieli Adwentu",
+            "has_proper": False,
+        }
+    ]
+
+
+def test_api_date_lent_feria_with_saint_returns_single_proper(client):
+    resp = client.get('/en/api/v5/proper/2026-03-07')
+    data = resp.json()
+    assert 1 == len(data)
+    info = data[0]["info"]
+    assert "tempora:Quad2-6:3:v" == info["id"]
+    assert info["commemorations"] == [
+        {
+            "id": "sancti:03-07:3:w",
+            "title": "St. Thomas Aquinas",
+            "has_proper": True,
+        }
+    ]
+
+
+def test_api_date_does_not_repeat_commemorated_feast_in_displaced(client):
+    resp = client.get('/pl/api/v5/proper/2026-05-13')
+    data = resp.json()
+    info = data[0]["info"]
+    assert info["commemorations"] == [
+        {
+            "id": "sancti:05-13:3:w",
+            "title": "Św. Roberta Bellarmina, Biskupa, Wyznawcy i Doktora Kościoła",
+            "has_proper": True,
+        }
+    ]
+    assert info["displaced"] == []
 
 
 def test_api_proper_slug(client):

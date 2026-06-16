@@ -1,12 +1,29 @@
 [Rule]
 @Sancti/11-04cc
 
+[Introitus]
+@Commune/C3a
+
 [Oratio]
 @Sancti/11-04cc:Oratio
+
+[Lectio]
+@Commune/C2p
+
+[Graduale]
+@Commune/C3a
+
+[Evangelium]
+@Commune/C2-1
+
+[Offertorium]
+@Commune/C3a
 
 [Secreta]
 @Commune/C3a-1:Secreta:s/N\. et N\./Vitále et Agrícola/
 
+[Communio]
+@Commune/C3a
+
 [Postcommunio]
 @Commune/C3a-1:Postcommunio:s/N\. et N\./Vitále et Agrícola/
-

@@ -6,11 +6,12 @@ Rules for solving conflicts between observances occurring at the same date.
 Each rule accepts the date for which calculations are being made (`date`), a list containing `Observance`s
 representing this day's "tempora" and a list of `Observance`s falling on given date.
 
-Each rule returns a tuple consisting of three lists:
+Each rule returns a tuple consisting of four lists:
 1. Celebration - main `Observance` celebrated in given day
 2. Commemoration - a list of `Observance`s commemorated next to the main feast
 3. Shift - a list of two-element tuples, each consisting of a `date` pointing to a day to which given
    `Observance` should be moved and the `Observance` itself.
+4. Displaced - a list of `Observance`s falling on the day that lost precedence, whether commemorated or not.
 """
 
 from calendar import isleap
@@ -148,7 +149,7 @@ def rule_lent_commemoration(
             if min_sancti_rank == 1:
                 # will be shifted to a different day by the other rule
                 return
-            return [lent_observance] + sancti, sancti + [lent_observance], []
+            return [lent_observance], sancti, []
         if lent_observance.rank > min_sancti_rank:
             return sancti[:1], sancti[1:] + [lent_observance], []
 

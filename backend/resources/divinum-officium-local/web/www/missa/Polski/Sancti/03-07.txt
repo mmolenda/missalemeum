@@ -2,10 +2,10 @@
 @Sancti/03-07
 
 [Tractus]
-@Commune/C4a
+@Commune/C4a:Tractus
 
 [Offertorium]
-@Commune/C4a
+@Commune/C4a:Offertorium
 
 [Secreta]
 @Commune/C4a:Secreta:s/N\./Tomasza/

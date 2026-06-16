@@ -1,0 +1,8 @@
+[Oratio]
+@Commune/C4a:Oratio:s/N\./Anselm/
+
+[Secreta]
+@Commune/C4a:Secreta:s/N\./Anselm/
+
+[Postcommunio]
+@Commune/C4a:Postcommunio:s/N\./Anselm/

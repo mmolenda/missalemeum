@@ -37,6 +37,10 @@ export const RANK_NAMES = {
 	"pl": [null, "1 kl.", "2 kl.", "3 kl.", "4 kl."]
 }
 export const COMMEMORATION = {"en": "Commemoration", "pl": "Wsp."}
+export const DISPLACED = {
+  "en": { singular: "Displaced observance", plural: "Displaced observances" },
+  "pl": { singular: "Obchód pominięty", plural: "Obchody pominięte" }
+}
 export const VESTMENTS_RED = {"en": "Red vestments", "pl": "Szaty czerwone"}
 export const VESTMENTS_GREEN = {"en": "Green vestments", "pl": "Szaty zielone"}
 export const VESTMENTS_WHITE = {"en": "White vestments", "pl": "Szaty białe"}

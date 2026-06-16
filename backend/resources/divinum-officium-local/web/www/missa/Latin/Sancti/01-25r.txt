@@ -7,10 +7,6 @@
 [Oratio]
 @Sancti/01-25:Oratio Pauli
 
-[Commemoratio Oratio]
-!Pro S. Petro
-@Sancti/02-22:Oratio Petri
-
 [Lectio]
 @Sancti/01-25
 
@@ -26,16 +22,8 @@
 [Secreta]
 @Sancti/01-25:Secreta Pauli
 
-[Commemoratio Secreta]
-!Pro S. Petro
-@Sancti/02-22:Secreta Petri
-
 [Communio]
 @Commune/C5-1
 
 [Postcommunio]
 @Sancti/01-25:Postcommunio Pauli
-
-[Commemoratio Postcommunio]
-!Pro S. Petro
-@Sancti/02-22:Postcommunio Petri

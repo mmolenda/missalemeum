@@ -2,32 +2,28 @@
 @Sancti/04-24
 
 [Introitus]
-@Commune/C2a
+@Commune/C2p
 
 [Oratio]
-@Sancti/04-24:Oratio
+@Sancti/04-24
 
 [Lectio]
-@Commune/C2a
+@Commune/C2p
 
 [Graduale]
-@Commune/C2a
-
-[GradualeP]
-@Commune/C2a
+@Commune/C2p
 
 [Evangelium]
-@Commune/C2a
+@Commune/C2p
 
 [Offertorium]
-@Commune/C2a
+@Commune/C2p
 
 [Secreta]
-@Commune/C2a
+@Commune/C2
 
 [Communio]
-@Commune/C2a
+@Commune/C2p
 
 [Postcommunio]
-@Commune/C2a
-
+@Commune/C2

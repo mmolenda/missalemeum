@@ -2,29 +2,34 @@
 @Sancti/07-11
 
 [Introitus]
-@Commune/C4b:Introitus
+@Commune/C4b
 
 [Oratio]
-@Commune/C4b:Oratio
+@Commune/C4b
 
 [Lectio]
-@Commune/C4b:Lectio
+@Commune/C4b
 
 [Graduale]
-@Commune/C4b:Graduale
+@Commune/Coronatio
+
+[GradualeP]
+@Commune/Coronatio
+
+[Tractus]
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C4b:Evangelium
+@Commune/Coronatio
 
 [Offertorium]
-@Commune/C4b:Offertorium
+@Commune/C4b
 
 [Secreta]
-@Commune/C4b:Secreta
+@Commune/C4b
 
 [Communio]
-@Commune/C4b:Communio
+@Commune/Coronatio
 
 [Postcommunio]
-@Commune/C4b:Postcommunio
-
+@Commune/C4b

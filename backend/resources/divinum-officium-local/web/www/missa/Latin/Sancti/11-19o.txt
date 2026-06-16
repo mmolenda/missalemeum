@@ -2,29 +2,34 @@
 @Sancti/11-19o
 
 [Introitus]
-@Commune/C2
+@Commune/C4b
 
 [Oratio]
-@Commune/C2b::s/N\./Pontiáni/
+@Commune/C4b
 
 [Lectio]
-@Commune/C2
+@Commune/C4b
 
 [Graduale]
-@Commune/C2
+@Commune/Coronatio
+
+[GradualeP]
+@Commune/Coronatio
+
+[Tractus]
+@Commune/Coronatio
 
 [Evangelium]
-@Commune/C2
+@Commune/Coronatio
 
 [Offertorium]
-@Commune/C2
+@Commune/C4b
 
 [Secreta]
 @Commune/C4b
 
 [Communio]
-@Commune/C2
+@Commune/Coronatio
 
 [Postcommunio]
 @Commune/C4b
-

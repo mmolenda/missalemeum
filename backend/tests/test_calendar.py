@@ -160,6 +160,17 @@ def test_given_date_contains_proper_day_ids(date_, tempora, celebration, commemo
     assert commemoration == [i.id for i in get_missal(date_[0]).get_day(date(*date_)).commemoration]
 
 
+@pytest.mark.parametrize("date_,expected_displaced", [
+    ((2020, 12, 6), [c.SANCTI_12_06]),
+    ((2019, 1, 18), [c.SANCTI_01_18]),
+    ((2023, 12, 3), [c.SANCTI_12_03]),
+    ((2018, 12, 5), [c.SANCTI_12_05]),
+])
+def test_given_date_contains_displaced_day_ids(date_, expected_displaced):
+    day = get_missal(date_[0]).get_day(date(*date_))
+    assert expected_displaced == [i.id for i in day.displaced]
+
+
 @pytest.mark.parametrize("date_,not_expected_day_ids", [
     ((2018, 12, 24), [c.PATTERN_ADVENT]),
     ((2018, 12, 25), [c.PATTERN_ADVENT]),
@@ -201,13 +212,13 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
     # Lent days win with feasts < 2 class
     # 2019-03-07 Comm: S. Thomæ de Aquino
-    ((2019, 3, 7), [c.TEMPORA_QUADP3_4, c.SANCTI_03_07], [c.SANCTI_03_07, c.TEMPORA_QUADP3_4]),
+    ((2019, 3, 7), [c.TEMPORA_QUADP3_4], [c.SANCTI_03_07]),
     # 2019-03-08 Comm: S. Joannis de Deo
-    ((2019, 3, 8), [c.TEMPORA_QUADP3_5, c.SANCTI_03_08], [c.SANCTI_03_08, c.TEMPORA_QUADP3_5]),
+    ((2019, 3, 8), [c.TEMPORA_QUADP3_5], [c.SANCTI_03_08]),
     # 2019-03-09 Comm: S. Franciscæ Viduæ
-    ((2019, 3, 9), [c.TEMPORA_QUADP3_6, c.SANCTI_03_09], [c.SANCTI_03_09, c.TEMPORA_QUADP3_6]),
+    ((2019, 3, 9), [c.TEMPORA_QUADP3_6], [c.SANCTI_03_09]),
     # 2025-04-02 Comm: S. Francisci de Paula
-    ((2025, 4, 2), [c.TEMPORA_QUAD4_3, c.SANCTI_04_02], [c.SANCTI_04_02, c.TEMPORA_QUAD4_3]),
+    ((2025, 4, 2), [c.TEMPORA_QUAD4_3], [c.SANCTI_04_02]),
     # Commemorations (4 class) are only commemorated. In case of no other feast the main celebration is the last Sunday
     ((2019, 1, 18), [c.FERIA], [c.SANCTI_01_18]),
     ((2019, 2, 14), [c.FERIA], [c.SANCTI_02_14]),

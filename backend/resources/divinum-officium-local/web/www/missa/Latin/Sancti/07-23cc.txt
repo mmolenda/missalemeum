@@ -1,12 +1,35 @@
 [Rule]
 @Commune/C4
 
+[Introitus]
+@Commune/C2
+
 [Oratio]
-@Commune/C1v:Oratio 1 loco:s/N\./Libórii/
+@Commune/C4
+
+[Lectio]
+@Commune/C4
+
+[Graduale]
+@Commune/C4
+
+[GradualeP]
+@Commune/C4
+
+[Tractus]
+@Commune/C4
+
+[Evangelium]
+@Commune/C4
+
+[Offertorium]
+@Commune/C2-1
 
 [Secreta]
 @Commune/C4
 
-[Postcommunio]
-@Commune/C4:Postcommunio:s/N\./Libório/
+[Communio]
+@Commune/C4
 
+[Postcommunio]
+@Commune/C4

@@ -2,28 +2,28 @@
 @Sancti/02-03
 
 [Introitus]
-@Commune/C2b:Introitus
+@Commune/C2-1
 
 [Oratio]
 @Commune/C2-1::s/N\./Blásii/
 
 [Lectio]
-@Commune/C2b:Lectio
+@Commune/C2-1
 
 [Graduale]
-@Commune/C2b:Graduale
+@Commune/C2-1
 
 [Evangelium]
-@Commune/C2b:Evangelium
+@Commune/C2-1
 
 [Offertorium]
-@Commune/C2b:Offertorium
+@Commune/C2-1
 
 [Secreta]
 @Commune/C2-1::s/N\./Blásio/
 
 [Communio]
-@Commune/C2b:Communio
+@Commune/C2-1
 
 [Postcommunio]
 @Commune/C2-1::s/N\./Blásio/

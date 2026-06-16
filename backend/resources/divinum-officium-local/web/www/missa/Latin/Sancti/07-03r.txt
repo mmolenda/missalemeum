@@ -27,10 +27,3 @@
 
 [Postcommunio]
 @Sancti/06-28
-
-[GradualeP]
-@Sancti/06-28
-
-[Tractus]
-@Sancti/06-28
-

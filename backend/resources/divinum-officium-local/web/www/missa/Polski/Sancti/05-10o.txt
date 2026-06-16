@@ -1,5 +1,17 @@
 [Comment]
 @Sancti/05-10o
 
+[Lectio]
+Czytanie z Księgi Apokalipsy świętego Jana Apostoła.
+!Ap 19:1-9
+W one dni: Potem usłyszałem jakby głos wielki licznych rzesz w niebie, mówiących: Alleluja. Zbawienie i chwała, i moc Bogu naszemu, bo prawdziwe i sprawiedliwe są sądy Jego; osądził wielką nierządnicę, która zepsuła ziemię nierządem swoim, i pomścił krew sług swoich z rąk jej.
+I powtórnie rzekli: Alleluja. A dym jej wznosi się na wieki wieków.
+I upadło dwudziestu czterech Starców i cztery Zwierzęta, i oddali pokłon Bogu siedzącemu na tronie, mówiąc: Amen, Alleluja.
+I wyszedł głos od tronu, mówiący: Chwalcie Boga naszego wszyscy słudzy Jego i którzy się Go boicie, mali i wielcy.
+I usłyszałem jakby głos wielkiej rzeszy i jakby szum wielkich wód, i jakby huk potężnych gromów, mówiących: Alleluja, bo zakrólował Pan, Bóg nasz wszechmogący.
+Weselmy się i radujmy, i dajmy Mu chwałę, bo nadeszły gody Baranka, a Małżonka Jego przygotowała się.
+I dano jej przyoblec się w bisior lśniący i biały. Bisior bowiem oznacza sprawiedliwe uczynki Świętych.
+I rzekł mi: Napisz: Błogosławieni, którzy są wezwani na ucztę godów Baranka.
+
 [Secreta]
-@Sancti/05-10o:Secreta
+@Sancti/05-10o

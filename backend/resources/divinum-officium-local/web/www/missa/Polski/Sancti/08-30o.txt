@@ -1,2 +1,11 @@
 [Comment]
 @Sancti/08-30o
+
+[Evangelium]
+@Sancti/06-15 
+
+[Offertorium]
+@Commune/C3p
+
+[Communio]
+@Commune/C3a-1

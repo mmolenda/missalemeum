@@ -10,17 +10,17 @@
 [Lectio]
 @Tempora/Adv3-3
 
-[Graduale]
-@Commune/C10:Graduale
+[GradualeP]
+@Sancti/03-25:GradualeP
 
 [Tractus]
-@Commune/C11
+@Sancti/03-25:Tractus
 
 [Evangelium]
 @Tempora/Adv3-3
 
 [Offertorium]
-@Commune/C11
+@Commune/C11:Offertorium
 
 [Secreta]
 @Commune/C10a
@@ -30,10 +30,3 @@
 
 [Postcommunio]
 @Sancti/03-25:Postcommunio
-
-[GradualeP]
-@Sancti/03-25:GradualeP
-
-[Tractus]
-@Sancti/03-25:Tractus
-

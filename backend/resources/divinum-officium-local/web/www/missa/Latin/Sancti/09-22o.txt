@@ -2,29 +2,31 @@
 @Sancti/09-22o
 
 [Introitus]
-@Commune/C3:Introitus
+@Commune/C3
 
 [Oratio]
-@Sancti/09-22o:Oratio
+@Sancti/09-22o
 
 [Lectio]
-@Sancti/09-22o:Lectio
+@Sancti/09-22o
 
 [Graduale]
-@Commune/C3:Graduale
+@Commune/C3
+
+[Tractus]
+@Commune/C3
 
 [Evangelium]
-@Commune/C3:Evangelium
+@Commune/C3
 
 [Offertorium]
-@Commune/C3:Offertorium
+@Commune/C3
 
 [Secreta]
-@Sancti/09-22o:Secreta
+@Sancti/09-22o
 
 [Communio]
-@Commune/C4b
+@Commune/C3
 
 [Postcommunio]
-@Sancti/09-22o:Postcommunio
-
+@Sancti/09-22o

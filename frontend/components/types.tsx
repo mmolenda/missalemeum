@@ -14,6 +14,12 @@ export type Supplement = {
   path: string
 }
 
+export type ObservanceLink = {
+  id?: string | null
+  title: string
+  has_proper?: boolean | null
+}
+
 export type Info = {
   title: string
   description: string
@@ -22,7 +28,8 @@ export type Info = {
   rank: number
   colors: string[]
   tags: string[]
-  commemorations: string[]
+  commemorations: ObservanceLink[]
+  displaced: ObservanceLink[]
   supplements: Supplement[]
 }
 
@@ -40,5 +47,6 @@ export type ListItemType = {
   label: string
   colors: string[]
   rank: number
-  commemorations: string[]
+  commemorations: ObservanceLink[]
+  displaced: ObservanceLink[]
 }

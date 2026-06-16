@@ -2,29 +2,28 @@
 @Sancti/05-10o
 
 [Introitus]
-@Commune/C3:Introitus
+@Commune/C3p
 
 [Oratio]
-@Sancti/05-10o:Oratio
+@Sancti/05-10o
 
 [Lectio]
-@Sancti/05-10o:Lectio
+@Sancti/05-10o
 
 [Graduale]
-@Commune/C3:Graduale
+@Commune/C3p
 
 [Evangelium]
-@Commune/C3:Evangelium
+@Commune/C3p
 
 [Offertorium]
-@Commune/C3:Offertorium
+@Commune/C3p
 
 [Secreta]
-@Sancti/05-10o:Secreta
+@Sancti/05-10o
 
 [Communio]
-@Commune/C3:Communio
+@Commune/C3p
 
 [Postcommunio]
-@Sancti/05-10o:Postcommunio
-
+@Sancti/05-10o

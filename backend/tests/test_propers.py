@@ -107,7 +107,7 @@ def test_get_repr():
     container = missal.get_day(date(2018, 1, 13))
     assert 'Sobota po 1 Niedzieli po Objawieniu' in container.get_tempora_name()
     assert 'Wspomnienie Chrztu Pańskiego' in container.get_celebration_name()
-    assert str(container) == '[<tempora:Epi1-6:4:w>][<sancti:01-13:2:w>][]'
+    assert str(container) == '[<tempora:Epi1-6:4:w>][<sancti:01-13:2:w>][][]'
 
 
 @pytest.mark.parametrize("date_,sections", [
@@ -248,7 +248,7 @@ def test_tract_stripped_in_gradual_in_feria_day_using_sunday_proper(date_, strip
                     "Dominica XVI", "Tua nos, quǽsumus, Dómine", "Munda nos, quǽsumus", "Purífica, quǽsumus, Dómine"),
     # Sanctae Mariae Sabbato, commemoration of Ss. Placidi et Sociorum Martyrum
     ((2019, 10, 5), "Concéde nos fámulos tuos", "Tua, Dómine, propitiatióne", "Sumptis, Dómine, salútis",
-                    "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Adésto, Dómine, supplicatiónibus", "Præsta nobis, quǽsumus"),
+                    "Placidi et Sociorum", "Deus, qui nos concédis sanctórum", "Múnera tibi, Dómine", "Præsta nobis, quǽsumus"),
     # Friday in Octave of Pentecost, commemoration of Quatuor Coronatorum Martyrum
     ((2019, 11, 8), "Famíliam tuam, quǽsumus", "Suscipe, Dómine, propítius", "Immortalitátis alimóniam",
                     "", "Præsta, quǽsumus, omnípotens", "Benedíctio tua, Dómine, larga", "Cœléstibus refécti sacraméntis"),
@@ -318,26 +318,51 @@ def test_excluded_commemorations(date_):
         assert None is proper_vernacular.get_section(stripped_section)
         assert None is proper_latin.get_section(stripped_section)
 
-@pytest.mark.parametrize("date_,prop1_commemoration,prop2_commemoration", [
-    ((2024, 3, 7), "Wspomnienie Św. Tomasza z Akwinu", "Wspomnienie Czwartek po 3 Niedzieli Wielkiego Postu"),
-    ((2024, 3, 21), "Wspomnienie Św. Benedykta, Opata", "Wspomnienie Czwartek po Niedzieli Męki Pańskiej")
+@pytest.mark.parametrize("date_,commemoration", [
+    ((2024, 3, 7), "Wspomnienie Św. Tomasza z Akwinu"),
+    ((2024, 3, 21), "Wspomnienie Św. Benedykta, Opata"),
+    ((2026, 3, 7), "Wspomnienie Św. Tomasza z Akwinu")
 ])
-def test_multiple_celebrations_with_multiple_commemorations(date_, prop1_commemoration, prop2_commemoration):
+def test_lent_feria_with_saint_has_single_proper_and_saint_commemoration(date_, commemoration):
     """
-    On Lent feria days either feria proper with saint's commemoration can be used
-    or vice versa - saint's proper with feria day's commemoration
+    On Lent feria days the feria proper is used and the saint is commemorated.
     """
     missal = get_missal(date_[0], language)
     proper = missal.get_day(date(*date_)).get_proper()
-    vern1, _ = proper[0]
-    vern2, _ = proper[1]
-    assert prop1_commemoration in vern1.get_section(COMMEMORATED_ORATIO).body[0]
-    assert prop2_commemoration in vern2.get_section(COMMEMORATED_ORATIO).body[0]
+    assert 1 == len(proper)
+    vern, _ = proper[0]
+    assert commemoration in vern.get_section(COMMEMORATED_ORATIO).body[0]
 
 
 def _get_proper_fixtures(fixture):
     with open(os.path.join(HERE, 'fixtures/{}'.format(fixture))) as fh:
         return list(json.load(fh).items())
+
+
+COMMUNE_MASS_IDS = [
+    COMMUNE_C4B,
+    COMMUNE_C2,
+    COMMUNE_C2_1,
+    COMMUNE_C2A,
+    COMMUNE_C2A_1,
+    COMMUNE_C3,
+    COMMUNE_C3A,
+    COMMUNE_C3A_1,
+    COMMUNE_C2P,
+    COMMUNE_C3P,
+    COMMUNE_C4,
+    COMMUNE_C4_1,
+    COMMUNE_C4A,
+    COMMUNE_C5,
+    COMMUNE_C5_1,
+    COMMUNE_C5B,
+    COMMUNE_C6,
+    COMMUNE_C6B,
+    COMMUNE_C6A,
+    COMMUNE_C6A_1,
+    COMMUNE_C6_1,
+    COMMUNE_C7A,
+]
 
 
 def _tests_propers(language, *, strdate=None, proper_id=None, expected_sections=None):
@@ -428,4 +453,37 @@ def test_all_propers_votive_polish(proper_id, expected_sections):
     
 @pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_votive_{LANGUAGE_ENGLISH}.json"))
 def test_all_propers_votive_english(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_LATIN}.json"))
+def test_all_propers_sancti_latin(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_POLSKI}.json"))
+def test_all_propers_sancti_polish(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_sancti_{LANGUAGE_ENGLISH}.json"))
+def test_all_propers_sancti_english(proper_id, expected_sections):
+    _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_LATIN}.json"))
+def test_all_propers_commune_latin(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
+    _tests_propers(LANGUAGE_LATIN, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_POLSKI}.json"))
+def test_all_propers_commune_polish(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
+    _tests_propers(LANGUAGE_POLSKI, proper_id=proper_id, expected_sections=expected_sections)
+
+
+@pytest.mark.parametrize("proper_id,expected_sections", _get_proper_fixtures(f"propers_commune_{LANGUAGE_ENGLISH}.json"))
+def test_all_propers_commune_english(proper_id, expected_sections):
+    assert proper_id in COMMUNE_MASS_IDS
     _tests_propers(LANGUAGE_ENGLISH, proper_id=proper_id, expected_sections=expected_sections)

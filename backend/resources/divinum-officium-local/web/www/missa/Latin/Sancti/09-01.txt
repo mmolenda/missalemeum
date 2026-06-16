@@ -2,29 +2,34 @@
 @Sancti/09-01
 
 [Introitus]
-@Commune/C5:Introitus
+@Commune/C5
 
 [Oratio]
-@Commune/C5:Oratio:s/N\./Ægidii/
+@Commune/C5b:Oratio:s/N\./Ægídii/
 
 [Lectio]
-@Commune/C5:Lectio
+@Commune/C5b
 
 [Graduale]
-@Commune/C5:Graduale
+@Commune/C5b
+
+[GradualeP]
+@Commune/C5b
+
+[Tractus]
+@Commune/C5b
 
 [Evangelium]
-@Commune/C5:Evangelium
+@Commune/C5b
 
 [Offertorium]
-@Commune/C5:Offertorium
+@Commune/C5b
 
 [Secreta]
-@Commune/C5
+@Commune/C5b:Secreta:s/N\./Ægídius/
 
 [Communio]
-@Commune/C5:Communio
+@Commune/C4
 
 [Postcommunio]
-@Commune/C5
-
+@Commune/C5b:Postcommunio:s/N\./Ægídius/

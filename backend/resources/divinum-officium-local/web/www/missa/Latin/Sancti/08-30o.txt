@@ -8,7 +8,7 @@
 @Sancti/08-30o:Oratio
 
 [Lectio]
-@Sancti/08-30o:Lectio
+@Sancti/07-28
 
 [Graduale]
 @Sancti/08-30o:Graduale

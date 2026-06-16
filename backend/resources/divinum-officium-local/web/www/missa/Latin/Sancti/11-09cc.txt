@@ -1,12 +1,26 @@
 [Rule]
 @Sancti/11-09cc
 
+[Introitus]
+@Commune/C2a-1
+
 [Oratio]
 @Sancti/11-09cc:Oratio
+
+[Lectio]
+@Commune/C2a-1
+
+[Graduale]
+@Commune/C2a-1
+
+[Offertorium]
+@Commune/C2a-1
 
 [Secreta]
 @Sancti/11-09cc:Secreta
 
+[Communio]
+@Commune/C2a-1
+
 [Postcommunio]
 @Sancti/11-09cc:Postcommunio
-

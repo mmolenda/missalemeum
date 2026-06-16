@@ -1,12 +1,26 @@
 [Rule]
 @Sancti/08-09cc
 
+[Introitus]
+@Commune/C2a-1
+
 [Oratio]
 @Commune/C2a-1:Oratio:s/N\./Romano/
+
+[Lectio]
+@Commune/C2a-1
+
+[Graduale]
+@Commune/C2a-1
+
+[Offertorium]
+@Commune/C2a-1
 
 [Secreta]
 @Commune/C2a
 
+[Communio]
+@Commune/C2a-1
+
 [Postcommunio]
 @Sancti/08-09cc:Postcommunio
-
