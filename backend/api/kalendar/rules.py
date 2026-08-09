@@ -81,10 +81,11 @@ def rule_feb27(
 
 def rule_st_lawrence_vigil(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
-    # When the feast of st. Lawrence (August 10) falls on Sunday, the Sunday takes over, so there is no vigil on August 9
     if match_first(observances, SANCTI_08_09):
         if date_.weekday() == SATURDAY:
             return [Observance(TEMPORA_C_10T, date_, lang)], [match_first(observances, SANCTI_08_09C)], []
+        if date_.weekday() == SUNDAY:
+            return
         return [match_first(observances, SANCTI_08_09)], [match_first(observances, SANCTI_08_09C)], []
 
 
