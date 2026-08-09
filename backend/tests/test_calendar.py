@@ -112,6 +112,7 @@ def test_sancti_shifted(day_id, expected_date):
     ((2018, 5, 27), [c.TEMPORA_PENT01_0], [c.TEMPORA_PENT01_0], []),  # Trinity Sunday, no comm.
     ((2018, 5, 31), [c.TEMPORA_PENT01_4], [c.TEMPORA_PENT01_4], []),  # Corpus Christi, no comm.
     ((2018, 6, 10), [c.TEMPORA_PENT03_0], [c.TEMPORA_PENT03_0], []),  # Sunday, no low class comm.
+    ((2026, 8, 9), [c.TEMPORA_PENT11_0], [c.TEMPORA_PENT11_0], []),  # Sunday takes precedence over St. Lawrence vigil
     ((2018, 10, 28), [c.TEMPORA_PENT23_0], [c.SANCTI_10_DU], []),  # Feast of Christ the King; no comm
     ((2018, 11, 14), [c.TEMPORA_EPI5_3], [c.SANCTI_11_14], []),
     ((2018, 11, 26), [c.TEMPORA_PENT24_1], [c.SANCTI_11_26], [c.SANCTI_11_26C]),
