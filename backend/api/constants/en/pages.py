@@ -116,7 +116,7 @@ PAGES = {
     constants.TEMPORA_PENT09_0: Pages(746, 669, 793).tags(),  # 'IX Sunday after Pentecost',
     constants.TEMPORA_PENT10_0: Pages(749, 672, 797).tags(),  # 'X Sunday after Pentecost',
     constants.TEMPORA_PENT11_0: Pages(756, 675, 800).tags(),  # 'XI Sunday after Pentecost',
-    constants.TEMPORA_PENT12_0: Pages(756, 769, 804).tags(),  # 'XII Sunday after Pentecost',
+    constants.TEMPORA_PENT12_0: Pages(756, 679, 804).tags(),  # 'XII Sunday after Pentecost',
     constants.TEMPORA_PENT13_0: Pages(760, 682, 809).tags(),  # 'XIII Sunday after Pentecost',
     constants.TEMPORA_PENT14_0: Pages(764, 686, None).tags(),  # 'XIV Sunday after Pentecost',
     constants.TEMPORA_PENT15_0: Pages(767, 689, 816).tags(),  # 'XV Sunday after Pentecost',
