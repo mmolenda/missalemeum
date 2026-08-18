@@ -8,13 +8,13 @@
 @Sancti/08-09t:Oratio
 
 [Lectio]
-@Sancti/08-09t:Lectio
+@Commune/C6:Lectio
 
 [Graduale]
 @Sancti/08-09t:Graduale
 
 [Evangelium]
-@Sancti/08-09t:Evangelium
+@Commune/C2-1:Evangelium
 
 [Offertorium]
 @Sancti/08-09t:Offertorium
@@ -23,8 +23,7 @@
 @Commune/C2a
 
 [Communio]
-@Sancti/08-09t:Communio
+@Commune/C2a:Communio
 
 [Postcommunio]
 @Sancti/08-09t:Postcommunio
-
