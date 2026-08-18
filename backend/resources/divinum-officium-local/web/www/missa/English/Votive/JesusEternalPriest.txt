@@ -8,7 +8,7 @@ Missa de D. N. Iesu Christo summo et aeterno Sacerdote
 
 [Introitus]
 !Ps 109:4
-The lord hath sworn, and He will not repent: Thou art a priest for ever according to the order of Melchisedech. (T. P. Alleluia, alleluia.)
+The Lord hath sworn, and He will not repent: Thou art a priest for ever according to the order of Melchisedech. (T. P. Alleluia, alleluia.)
 !Ps 109:1
 The Lord saith to my Lord: Sit thou at my right hand.
 $Gloria
@@ -23,7 +23,7 @@ $Per eundem
 
 [Lectio]
 Lesson from the letter of St. Paul the Apostle to the Hebrews
-!Heb 5:11-1
+!Heb 5:1-11
 Brethren: Every high priest taken from among men, is ordained for men in the~
 things that appertain to God, that he may offer up gifts and sacrifices for~
 sins: who can have compassion on them that are ignorant and that err: because~
@@ -74,7 +74,7 @@ and said: Take and divide among you. For I say to you that I will not drink of~
 the fruit of the vine, till the kingdom of God come. And taking bread, He gave~
 thanks and broke and gave to them, saying: This is My Body, which is given for~
 you. Do this for a commemoration of Me. In like manner, the chalice also, after~
-He had supped, saying: This is the chalice the new testament in My Blood, which~
+He had supped, saying: This is the chalice of the new testament in My Blood, which~
 shall be shed for you.
 
 [Offertorium]
