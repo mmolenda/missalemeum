@@ -21,8 +21,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
+          token: ${{ secrets.SUBMODULE_PR_TOKEN }}
           submodules: recursive
-          persist-credentials: false
 
       - name: Update backend submodule to latest upstream
         run: |
