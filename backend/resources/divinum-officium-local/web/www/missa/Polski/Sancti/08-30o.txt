@@ -2,10 +2,10 @@
 @Sancti/08-30o
 
 [Evangelium]
-@Sancti/06-15 
+@Sancti/06-15:Evangelium
 
 [Offertorium]
-@Commune/C3p
+@Sancti/03-10:Offertorium
 
 [Communio]
-@Commune/C3a-1
+@Sancti/05-02:Communio:s/, alleluja/./

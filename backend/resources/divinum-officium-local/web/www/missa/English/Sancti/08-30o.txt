@@ -1,0 +1,2 @@
+[Communio]
+@Sancti/05-02:Communio:s/\. Alleluia/./

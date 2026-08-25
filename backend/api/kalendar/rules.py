@@ -36,7 +36,8 @@ from api.constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, T
                               SANCTI_09_29, PATTERN_SANCTI_CLASS_4, PATTERN_LENT, PATTERN_SANCTI, SUNDAY,
                               PATTERN_TEMPORA_CLASS_4, SANCTI_04_23PL, PATTERN_SANCTI_CLASS_3_LOCAL,
                               PATTERN_SANCTI_CLASS_3, TYPE_SANCTI, TEMPORA_QUAD5_5, TEMPORA_QUAD5_5C, SANCTI_06_29,
-                              SANCTI_08_09, SATURDAY, SANCTI_08_09C, SANCTI_09_14, SANCTI_11_09, PATTERN_CLASS_2)
+                              SANCTI_08_09, SATURDAY, SANCTI_08_09C, SANCTI_09_14, SANCTI_11_09, PATTERN_CLASS_2,
+                              FIXED_VIGILS_SUPPRESSED_ON_SUNDAY)
 from api.kalendar.models import Calendar, Observance
 from api.utils import match_first, match_all
 
@@ -216,6 +217,14 @@ def second_class_feast_no_sunday_commemoration(
         return [match_first(observances, PATTERN_SANCTI_CLASS_2)], [], []
 
 
+def rule_fixed_vigils_suppressed_on_sunday(
+        calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    if date_.weekday() == SUNDAY and match_first(observances, FIXED_VIGILS_SUPPRESSED_ON_SUNDAY):
+        sunday = match_first(observances, PATTERN_TEMPORA_SUNDAY)
+        if sunday:
+            return [sunday], [], []
+
+
 def rule_2nd_class_sunday(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     # When 2nd class Sunday occurs along with 2nd class feast, the Sunday takes precedence and the feast is commemorated
@@ -297,6 +306,7 @@ rules = (
     rule_first_class_feast_with_sunday_commemoration,
     rule_first_class_feast_no_commemoration,
     second_class_feast_no_sunday_commemoration,
+    rule_fixed_vigils_suppressed_on_sunday,
     rule_2nd_class_sunday,
     rule_1st_class_feria,
     rule_bmv_office_on_saturday,

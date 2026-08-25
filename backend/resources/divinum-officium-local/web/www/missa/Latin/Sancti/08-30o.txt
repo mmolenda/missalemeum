@@ -14,17 +14,16 @@
 @Sancti/08-30o:Graduale
 
 [Evangelium]
-@Sancti/08-30o:Evangelium
+@Sancti/06-15:Evangelium
 
 [Offertorium]
-@Sancti/08-30o:Offertorium
+@Sancti/03-10:Offertorium
 
 [Secreta]
 @Sancti/08-30o:Secreta
 
 [Communio]
-@Sancti/08-30o:Communio
+@Sancti/05-02:Communio:s/, allelúja/./
 
 [Postcommunio]
 @Sancti/08-30o:Postcommunio
-

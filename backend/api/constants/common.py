@@ -808,7 +808,7 @@ SANCTI_08_10 = 'sancti:08-10:2:r'  # St. Laurent
 SANCTI_08_11 = 'sancti:08-11:4:r'
 SANCTI_08_12 = 'sancti:08-12:3:w'
 SANCTI_08_13 = 'sancti:08-13:4:r'
-SANCTI_08_14 = 'sancti:08-14:2:w'  # Vigil of Assumption of Mary
+SANCTI_08_14 = 'sancti:08-14:2:v'  # Vigil of Assumption of Mary
 SANCTI_08_14C = 'sancti:08-14cc:4:r'  #
 SANCTI_08_15 = 'sancti:08-15:1:w'  # Assumption of Mary
 SANCTI_08_16 = 'sancti:08-16:2:w'  # St. Joachim
@@ -1028,6 +1028,12 @@ EMBER_DAYS = (
     TEMPORA_ADV3_3,  # Ember Wednesday in Advent
     TEMPORA_ADV3_5,  # Ember Friday in Advent
     TEMPORA_ADV3_6,  # Ember Saturday in Advent
+)
+FIXED_VIGILS_SUPPRESSED_ON_SUNDAY = (
+    SANCTI_06_23,
+    SANCTI_06_28,
+    SANCTI_08_09,
+    SANCTI_08_14,
 )
 TABLE_OF_PRECEDENCE = (
     # 1st class feasts

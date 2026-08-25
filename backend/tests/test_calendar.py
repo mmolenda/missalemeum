@@ -239,7 +239,7 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_6]),
     # Commemoration of class < 3 falls on Sunday, keep commemoration
     ((2019, 2, 24), [c.TEMPORA_QUADP2_0], [c.SANCTI_02_24]),
-    ((2019, 6, 23), [c.TEMPORA_PENT02_0], [c.SANCTI_06_23]),
+    ((2019, 6, 23), [c.TEMPORA_PENT02_0], []),
     ((2019, 9, 8), [c.TEMPORA_PENT13_0], [c.SANCTI_09_08]),
     ((2019, 9, 15), [c.TEMPORA_PENT14_0], [c.SANCTI_09_15]),
     # Commemoration of class > 2 falls on Sunday, skip commemoration
@@ -248,6 +248,8 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 8, 11), [c.TEMPORA_PENT09_0], []),
     ((2019, 8, 18), [c.TEMPORA_PENT10_0], []),
     ((2019, 12, 29), [c.TEMPORA_NAT1_0], []),
+    # Fixed vigils are not commemorated on Sundays.
+    ((2026, 6, 28), [c.TEMPORA_PENT05_0], []),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
@@ -258,6 +260,12 @@ def test_conflicts(date_, expected_celebration, expected_commemoration):
 def test_english_may_27_has_single_st_john_i_commemoration():
     day = get_missal(2025, lang='en').get_day(date(2025, 5, 27))
     assert [i.id for i in day.commemoration] == [c.SANCTI_05_27C]
+
+
+def test_assumption_vigil_has_violet_vestments():
+    day = get_missal(2026).get_day(date(2026, 8, 14))
+    assert day.get_celebration_id() == c.SANCTI_08_14
+    assert day.get_celebration_colors() == ['v']
 
 
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
