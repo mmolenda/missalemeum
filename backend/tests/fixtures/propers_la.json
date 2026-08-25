@@ -9344,10 +9344,6 @@
         "id": "Oratio"
       },
       {
-        "body": "*Commemoratio In Vigilia S. Joannis Baptistæ*\nPræsta, quǽsumus, omnípotens Deus: ut família tua per viam salútis incédat",
-        "id": "Commemoratio Oratio"
-      },
-      {
         "body": "Léctio Epístolæ beáti Petri Apóstoli\n*1 Pet 3:8-15*\nCaríssimi: Omnes unánimes in oratióne estóte, compatiéntes, fraterni",
         "id": "Lectio"
       },
@@ -9368,10 +9364,6 @@
         "id": "Secreta"
       },
       {
-        "body": "*Commemoratio In Vigilia S. Joannis Baptistæ*\nMúnera, Dómine, obláta sanctífica: et, intercedénte beáto Joánne Baptista,",
-        "id": "Commemoratio Secreta"
-      },
-      {
         "body": "*de sanctissima Trinitate*\nVere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine",
         "id": "Prefatio"
       },
@@ -9382,10 +9374,6 @@
       {
         "body": "Quos cœlésti, Dómine, dono satiásti: præsta, quǽsumus; ut a nostris mundémur occúltis et ab hóstium liberémur insídiis.\n",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Commemoratio In Vigilia S. Joannis Baptistæ*\nBeáti Joánnis Baptístæ nos, Dómine, præclára comitétur orátio: et, quem ve",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],

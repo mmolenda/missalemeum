@@ -9237,10 +9237,6 @@
         "id": "Oratio"
       },
       {
-        "body": "*Commemoration Vigil of the Nativity of St. John the Baptist*\nGrant, we beseech You, almighty God, that Your household m",
-        "id": "Commemoratio Oratio"
-      },
-      {
         "body": "Lesson from the first letter of St. Peter the Apostle\n*1 Pet 3:8-15.*\nBeloved: Be all like-minded in prayer, compassiona",
         "id": "Lectio"
       },
@@ -9261,10 +9257,6 @@
         "id": "Secreta"
       },
       {
-        "body": "*Commemoration Vigil of the Nativity of St. John the Baptist*\nSanctify, O Lord, the gifts offered to You, and, by the in",
-        "id": "Commemoratio Secreta"
-      },
-      {
         "body": "*Holy Trinity*\nIt is truly meet and just, right and for our salvation, that we should at all times, and in all places, g",
         "id": "Prefatio"
       },
@@ -9275,10 +9267,6 @@
       {
         "body": "Grant us, we beseech You, O Lord, that we whom You have filled with the heavenly gift may be cleansed of our hidden sins",
         "id": "Postcommunio"
-      },
-      {
-        "body": "*Commemoration Vigil of the Nativity of St. John the Baptist*\nMay the powerful prayer of blessed John the Baptist go wit",
-        "id": "Commemoratio Postcommunio"
       }
     ]
   ],
