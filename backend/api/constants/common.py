@@ -1029,6 +1029,12 @@ EMBER_DAYS = (
     TEMPORA_ADV3_5,  # Ember Friday in Advent
     TEMPORA_ADV3_6,  # Ember Saturday in Advent
 )
+FIXED_VIGILS_SUPPRESSED_ON_SUNDAY = (
+    SANCTI_06_23,
+    SANCTI_06_28,
+    SANCTI_08_09,
+    SANCTI_08_14,
+)
 TABLE_OF_PRECEDENCE = (
     # 1st class feasts
     SANCTI_12_25_1,  # Nativity
