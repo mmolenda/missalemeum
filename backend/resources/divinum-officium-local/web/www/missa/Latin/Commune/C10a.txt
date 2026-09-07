@@ -14,7 +14,7 @@ Prefatio=Maria=veneratione
 @Commune/C10a:Graduale
 
 [Evangelium]
-@Tempora/Adv3-3
+@Tempora/Adv3-3:Evangelium
 
 [Offertorium]
 @Commune/C11
@@ -30,4 +30,3 @@ Prefatio=Maria=veneratione
 
 [Officium]
 @Commune/C10a:Officium
-

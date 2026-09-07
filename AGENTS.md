@@ -44,6 +44,7 @@
 - In vernacular local files, keep only sections that differ from Latin or are language-specific, such as `Comment`.
 - Some referenced sections in the target Divinum Officium proper may themselves only contain another reference.
 - In that case, follow the chain until you reach the file and section containing the actual text, and make the local file reference that final text-bearing source rather than an intermediate redirect when possible.
+- For `@Commune/...` references, the parser first resolves the source in `web/www/missa/<Language>/Commune` and then falls back to `web/www/horas/<Language>/Commune`. When the Mass-tree file is absent but the horas-tree file supplies the text, keep a thin local `@Commune/...:<Section>` reference; do not copy the text into the local Mass override.
 - If a target Divinum Officium proper has `vide C5-1` or `ex C5-1` in `[Rank]`, or `vide C5-1` in `[Rule]`, treat that as meaning that any sections not defined in that proper come from `@Commune/C5-1`.
 - When creating the local override file for such a proper, add explicit references for those inherited sections to the matching `@Commune/...` source, and keep direct references to the proper itself only for sections actually defined in that proper.
 - Example:

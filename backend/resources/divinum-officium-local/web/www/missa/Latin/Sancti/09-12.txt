@@ -2,7 +2,7 @@
 @Sancti/09-12
 
 [Introitus]
-@Sancti/09-12:Introitus
+@Commune/C10b:Introitus
 
 [Oratio]
 @Sancti/09-12:Oratio
@@ -11,10 +11,10 @@
 @Sancti/07-16
 
 [Graduale]
-@Sancti/09-12:Graduale
+@Sancti/07-02:Graduale
 
 [Evangelium]
-@Sancti/09-12:Evangelium
+@Sancti/03-24:Evangelium
 
 [Offertorium]
 @Commune/C11
@@ -27,4 +27,3 @@
 
 [Postcommunio]
 @Commune/C11
-
