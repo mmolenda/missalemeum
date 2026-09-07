@@ -14,7 +14,7 @@
 @Sancti/10-07:Graduale
 
 [Evangelium]
-@Sancti/09-12
+@Sancti/03-24:Evangelium
 
 [Offertorium]
 @Sancti/10-07:Offertorium
@@ -30,4 +30,3 @@
 
 [Rank1960]
 @Sancti/10-07:Rank1960
-

@@ -2,7 +2,7 @@
 @Commune/C10
 
 [Introitus]
-@Commune/C10b
+@Commune/C10b:Introitus
 
 [Oratio]
 @Sancti/01-01

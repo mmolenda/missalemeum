@@ -2,7 +2,7 @@
 @Sancti/08-14
 
 [Introitus]
-@Sancti/09-12:Introitus
+@Commune/C10b:Introitus
 
 [Oratio]
 @Sancti/08-14:Oratio
