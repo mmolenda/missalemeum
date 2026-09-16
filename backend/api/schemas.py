@@ -21,6 +21,15 @@ class Info(BaseModel):
     )
 
 
+class SearchResult(Info):
+    """A searchable resource with its destination in the web application."""
+    type: str = Field(..., description="Resource category, such as mass, chant, or prayer.")
+    path: str = Field(..., description="Locale-relative destination path in the web application.")
+    source: str = Field(..., description="Presentation source, for example calendar or proper.")
+    date: Optional[str] = Field(default=None, description="Calendar date in YYYY-MM-DD format, when applicable.")
+    status: Optional[str] = Field(default=None, description="Calendar relationship, such as commemoration or displaced.")
+
+
 class Section(BaseModel):
     """Represents a single section within propers or supplements."""
     id: Optional[str] = Field(

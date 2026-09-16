@@ -24,6 +24,30 @@ def test_api_calendar(client):
         assert isinstance(item["displaced"], list)
 
 
+def test_api_search_returns_localized_title_matches(client):
+    response = client.get('/pl/api/v5/search/index')
+    assert response.status_code == 200
+    results = response.json()
+    assert any(item["title"] == "Bogurodzica" and item["source"] == "chant" for item in results)
+    assert response.headers["cache-control"] == "no-cache"
+    assert client.get('/pl/api/v5/search/index', headers={"If-None-Match": response.headers["etag"]}).status_code == 304
+
+
+def test_api_search_calendar_index_includes_observances(client):
+    response = client.get('/pl/api/v5/search/calendar-index/2026-09-14')
+    assert response.status_code == 200
+    results = response.json()
+    assert any(item["title"].startswith("Św. Marcina") and item["source"] == "calendar" for item in results)
+    assert {
+        "title": "Św. Eustachego i Towarzyszy, Męczenników",
+        "source": "proper",
+        "status": "displaced",
+        "path": "mass/sancti:09-20:4:r",
+        "date": "2026-09-20",
+    }.items() <= next(item.items() for item in results if item["title"].startswith("Św. Eustachego"))
+    assert response.headers["cache-control"] == "no-cache"
+
+
 def test_api_date(client):
     resp = client.get('/pl/api/v5/proper/2020-11-11')
     data = resp.json()

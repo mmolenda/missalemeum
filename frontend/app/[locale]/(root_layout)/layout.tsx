@@ -24,6 +24,7 @@ import {
 import {Link as MUILink} from "@mui/material";
 import Logo from "@/components/Logo";
 import MainMenu from "@/components/MainMenu";
+import GlobalSearch from "@/components/GlobalSearch";
 import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
@@ -135,6 +136,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                   Meum
                 </Typography>
               </MUILink>
+              <GlobalSearch lang={lang} />
             </Toolbar>
           </AppBar>
 
