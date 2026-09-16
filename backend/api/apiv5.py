@@ -1,4 +1,7 @@
+import calendar
 import datetime
+import hashlib
+import json
 import logging
 import os
 import sys
@@ -6,14 +9,14 @@ from enum import Enum
 from typing import Any
 
 import yaml
-from fastapi import APIRouter, Depends, HTTPException, Path, Query, status
-from fastapi.responses import PlainTextResponse
+from fastapi import APIRouter, Depends, HTTPException, Path, Query, Request, status
+from fastapi.responses import PlainTextResponse, Response
 
 from api.version import __version__
 from api import controller
 from api.exceptions import InvalidInput, ProperNotFound, SectionNotFound, SupplementNotFound
 from api.constants import TRANSLATION
-from api.constants.common import LANGUAGES, ORDO_DIR
+from api.constants.common import LANGUAGES, ORDO_DIR, SUPPLEMENT_DIR
 from api.kalendar.models import Calendar, Day
 from api.utils import (
     add_proper_id_date_tag,
@@ -34,7 +37,7 @@ from api.examples import (
     get_text_response,
 )
 from pdf import PDFAwareRoute, PdfOptions, get_pdf_options
-from api.schemas import CalendarItem, ContentItem, Info, Proper, VersionInfo
+from api.schemas import CalendarItem, ContentItem, Info, Proper, SearchResult, VersionInfo
 
 
 class LanguageCode(str, Enum):
@@ -372,6 +375,104 @@ def v5_canticum_by_id(
     _pdf_options: PdfOptions = Depends(get_pdf_options),
 ) -> list[ContentItem]:
     return supplement_response(lang, id_, SupplementCategory.CANTICUM)
+
+
+def _search_cached_response(payload: list[dict[str, Any]], request: Request, cache_control: str) -> Response:
+    body = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode()
+    etag = f'"{hashlib.sha256(body).hexdigest()}"'
+    headers = {"Cache-Control": cache_control, "ETag": etag}
+    if request.headers.get("if-none-match") == etag:
+        return Response(status_code=status.HTTP_304_NOT_MODIFIED, headers=headers)
+    return Response(content=body, media_type="application/json", headers=headers)
+
+
+def _content_search_index(lang: str) -> list[dict[str, Any]]:
+    items: list[dict[str, Any]] = [{
+        "id": item["ref"], "title": item["title"], "tags": item["tags"],
+        "type": "mass", "source": "proper", "path": f"mass/{item['ref']}",
+    } for item in TRANSLATION[lang].VOTIVE_MASSES]
+    items.extend({
+        **item, "type": "prayer", "source": "prayer", "path": f"oratio/{item['id']}",
+    } for item in supplement_index.get_oratio_index(lang))
+    items.extend({
+        **item, "type": "chant", "source": "chant", "path": f"canticum/{item['id']}",
+    } for item in supplement_index.get_canticum_index(lang))
+    for filename in sorted(os.listdir(os.path.join(SUPPLEMENT_DIR, lang))):
+        if not filename.endswith(".yaml"):
+            continue
+        resource_id = filename.rsplit(".", 1)[0]
+        content = get_supplement(lang, resource_id)
+        items.append({
+            "id": resource_id, "title": content["info"]["title"],
+            "tags": content["info"].get("tags", []), "type": "supplement",
+            "source": "supplement", "path": f"supplement/{resource_id}",
+        })
+    with open(os.path.join(ORDO_DIR, lang, "ordo.yaml")) as fh:
+        ordinary = yaml.full_load(fh) or []
+    for index, content in enumerate(ordinary if isinstance(ordinary, list) else [ordinary]):
+        items.append({
+            "id": f"ordo-{index}", "title": content["info"]["title"], "tags": [],
+            "type": "ordinary", "source": "ordinary", "path": "ordo",
+        })
+    return [SearchResult.model_validate(item).model_dump(exclude_none=True) for item in items]
+
+
+def _add_months(date_: datetime.date, months: int) -> datetime.date:
+    month_index = date_.month - 1 + months
+    year = date_.year + month_index // 12
+    month = month_index % 12 + 1
+    return datetime.date(year, month, min(date_.day, calendar.monthrange(year, month)[1]))
+
+
+def _calendar_search_index(lang: str, week_start: datetime.date) -> list[dict[str, Any]]:
+    start = _add_months(week_start, -1)
+    end = _add_months(week_start, 12) + datetime.timedelta(days=6)
+    items: list[dict[str, Any]] = []
+    for year in range(start.year, end.year + 1):
+        missal = controller.get_calendar(year, lang)
+        for date_, day in missal.items():
+            if not start <= date_ <= end:
+                continue
+            calendar_item = _calendar_item_from_day(date_, day)
+            base = {"date": calendar_item.id, "type": "mass", "source": "calendar"}
+            items.append({
+                **base, "id": calendar_item.id, "title": calendar_item.title,
+                "tags": calendar_item.tags, "path": f"calendar/{calendar_item.id}",
+            })
+            items.extend({
+                **base, "id": f"{calendar_item.id}-{observance.id or observance.title}",
+                "title": observance.title, "tags": calendar_item.tags,
+                "status": "commemoration", "path": f"calendar/{calendar_item.id}",
+            } for observance in calendar_item.commemorations)
+            items.extend({
+                **base, "id": f"{calendar_item.id}-{observance.id}",
+                "title": observance.title, "tags": calendar_item.tags,
+                "source": "proper", "status": "displaced",
+                "path": f"mass/{observance.id}",
+            } for observance in day.get_displaced() if observance.has_proper())
+    return [SearchResult.model_validate(item).model_dump(exclude_none=True) for item in items]
+
+
+@router.get('/{lang}/api/v5/search/index', response_model=list[SearchResult], summary="Search content index")
+def v5_search_index(request: Request, lang: str = Depends(validate_locale)) -> Response:
+    return _search_cached_response(_content_search_index(lang), request, "no-cache")
+
+
+@router.get(
+    '/{lang}/api/v5/search/calendar-index/{week_start}',
+    response_model=list[SearchResult], summary="Weekly calendar search index",
+)
+def v5_search_calendar_index(
+    week_start: datetime.date,
+    request: Request,
+    lang: str = Depends(validate_locale),
+) -> Response:
+    if week_start.weekday() != 0:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="week_start must be a Monday.")
+    return _search_cached_response(
+        _calendar_search_index(lang, week_start), request,
+        "no-cache",
+    )
 
 
 def _ical_response(lang: str, rank: int | None = None) -> PlainTextResponse:
