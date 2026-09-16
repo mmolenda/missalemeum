@@ -1,9 +1,8 @@
 "use client";
 
 import React, {useEffect, useMemo, useRef, useState} from "react";
-import {CircularProgress, Dialog, DialogContent, DialogTitle, IconButton, InputAdornment, List, ListItemButton, ListItemIcon, ListItemText, TextField, Tooltip, Typography} from "@mui/material";
+import {CircularProgress, Dialog, DialogContent, IconButton, InputAdornment, List, ListItemButton, ListItemIcon, ListItemText, TextField, Tooltip, Typography} from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import CloseIcon from "@mui/icons-material/Close";
 import {Icon} from "@iconify/react";
 import Link from "next/link";
 import {buildApiUrl} from "@/components/utils";
@@ -17,19 +16,19 @@ type SearchResult = {
 };
 
 const COPY: Record<Locale, {
-  open: string; close: string; title: string; placeholder: string; empty: string; noResults: string;
+  open: string; placeholder: string; empty: string; noResults: string;
   shortcut: string;
   types: Record<SearchType, string>; statuses: Record<NonNullable<SearchResult["status"]>, string>;
 }> = {
   pl: {
-    open: "Otwórz wyszukiwarkę", close: "Zamknij wyszukiwarkę", title: "Wyszukaj w Missale Meum",
+    open: "Otwórz wyszukiwarkę",
     placeholder: "Szukaj mszy, pieśni, modlitw…", empty: "Zacznij pisać, aby wyszukać treści.", noResults: "Brak pasujących wyników.",
     shortcut: "Szukaj (⌘K / Ctrl+K)",
     types: {mass: "Msza", prayer: "Modlitwa", chant: "Pieśń", supplement: "Suplement", ordinary: "Ordo"},
     statuses: {commemoration: "Wspomnienie", displaced: "Obchód pominięty"},
   },
   en: {
-    open: "Open search", close: "Close search", title: "Search Missale Meum",
+    open: "Open search",
     placeholder: "Search masses, chants, prayers…", empty: "Start typing to search.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
     types: {mass: "Mass", prayer: "Prayer", chant: "Chant", supplement: "Supplement", ordinary: "Ordinary"},
@@ -128,7 +127,6 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
       <IconButton aria-label={copy.open} color="inherit" onClick={() => setOpen(true)} sx={{ml: "auto", color: "yellowish.main"}}><SearchIcon /></IconButton>
     </Tooltip>
     <Dialog open={open} onClose={close} fullWidth maxWidth="sm" slotProps={{transition: {onEntered: () => inputRef.current?.focus()}}}>
-      <DialogTitle sx={{display: "flex", alignItems: "center", pr: 1}}>{copy.title}<IconButton aria-label={copy.close} onClick={close} sx={{ml: "auto"}}><CloseIcon /></IconButton></DialogTitle>
       <DialogContent>
         <TextField autoFocus fullWidth inputRef={inputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.placeholder} slotProps={{input: {startAdornment: <InputAdornment position="start"><SearchIcon /></InputAdornment>}}} />
         {loading ? <CircularProgress size={24} sx={{display: "block", mx: "auto", my: 3}} /> : null}
@@ -138,7 +136,7 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
           const details: string[] = [copy.types[result.type]];
           if (result.status) details.push(copy.statuses[result.status]);
           if (result.date) details.push(formatCalendarDate(result.date, lang));
-          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} key={`${result.source}-${result.id}`} onClick={close}>
+          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close}>
             <ListItemIcon sx={{color: "primary.main", minWidth: 40}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
             <ListItemText primary={result.title} secondary={details.join(" · ")} />
           </ListItemButton>;
