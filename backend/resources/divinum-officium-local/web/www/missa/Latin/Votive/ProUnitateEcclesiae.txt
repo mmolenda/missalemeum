@@ -1,0 +1,83 @@
+[Name]
+Missa pro unitate Ecclesiae
+
+[Introitus]
+!Ps 105:47
+Salvos nos fac, Domine, Deus noster, et congrega nos de nationibus: ut confiteamur nomini sancto tuo, et gloriemur in laude tua. (T. P. Alleluia, alleluia.)
+!Ps 105:1
+Confitemini Domino, quoniam bonus: quoniam in saeculum misericordia eius.
+$Gloria
+Salvos nos fac, Domine, Deus noster, et congrega nos de nationibus: ut confiteamur nomini sancto tuo, et gloriemur in laude tua. (T. P. Alleluia, alleluia.)
+
+[Oratio]
+Deus, qui errata corrigis, et dispersa congregas, et congregata conservas: quaesumus, super populum christianum~
+tuae unionis gratiam clementer infunde; ut, divisione reiecta, vero pastori Ecclesiae tuae se uniens, tibi digne~
+valeat famulari.
+$Per Dominum
+
+[Lectio]
+@Tempora/Pent17-0:Lectio:s/4:1-6/4:1-7, 13-21/:s/Obsecro vos ego vinctus in Dómino/Vos obsecro/:s/ Qui est benedíctus.*$//
+Unicuique autem nostrum data est gratia secundum mensuram doni et cognitionem Filii Dei, ut viri perfecti fiamus,~
+plenam mensuram staturae maturitatis Christi attingentes. Ita non iam erimus parvuli fluctuantes, omni vento~
+doctrinae agitati per malitiam hominum et astutiam ad errorem ducentem; quinimmo, veritatem in caritate sequentes,~
+per omnia crescamus in Illum qui est Caput—id est, Christum. Ex Eo totum corpus—omni vinculo adiuvante conexum~
+atque unitum, et secundum propriam cuiusque membri operationem fungens—incrementum suum promovet atque se ipsum in~
+caritate aedificat. Hoc igitur dico et testificor in Domino: ne amplius ambuletis sicut gentes ambulant in vanitate~
+sensus sui, tenebris obscuratis intellectu, alienati a vita Dei propter ignorantiam quae in illis est, propter~
+caecitatem cordis ipsorum; qui desperantes seipsos tradiderunt impudicitiae, in omnem immunditiam cum aviditate~
+insatiabili. Vos autem non ita didicistis Christum — si tamen illum audistis et in eo edocti estis, secundum~
+veritatem quae est in Christo Iesu, Domino nostro.
+
+[Graduale]
+!Ps 121:6-7
+Rogate quae ad pacem sunt Ierusalem: et abundantia diligentibus te.
+V. Fiat pax in virtute tua: et abundantia in turribus tuis. Alleluia, alleluia.
+!Ps 147:12
+V. Lauda, Ierusalem, Dominum: lauda Deum tuum, Sion. Alleluia.
+
+[GradualeP]
+! Tempore paschali
+!Ps 147:12,14
+Alleluia, alleluia.
+V. Lauda, Ierusalem, Dominum: lauda Deum tuum, Sion. Alleluia.
+V. Qui posuit fines tuos pacem, et adipe frumenti satiat te. Alleluia.
+
+[Tractus]
+! Post Septuagesimam
+!Ps 75:2-4
+Notus in Iudaea Deus, in Israël magnum nomen eius.
+V. Et factus est in pace locus eius, et habitatio eius in Sion.
+V. Ibi confregit potentias arcuum, scutum, gladium, et bellum.
+
+[Evangelium]
+Sequéntia ++ sancti Evangélii secúndum Joánnem.
+!Joann 17:1, 11-23
+Eo tempore, Iesus oculos suos in caelum sustulit et dixit: «Pater sancte, serva in nomine tuo eos quos dedisti~
+mihi, ut sint unum, sicut et nos unum sumus. Cum essem cum eis, ego servabam eos in nomine tuo. Custodivi eos quos~
+dedisti mihi, et nemo ex eis periit, nisi filius perditionis, ut Scriptura impleretur. Et nunc ad te venio, et haec~
+loquor in mundo, ut habeant gaudium meum impletum in semetipsis. Ego dedi eis sermonem tuum, sed mundus odio habuit~
+eos, quia non sunt de mundo, sicut ego non sum de mundo. Non rogo ut tollas eos de mundo, sed ut serves eos a Malo.~
+Non sunt de mundo, sicut ego non sum de mundo. Sanctifica eos in veritate; sermo tuus veritas est. Sicut tu me~
+misisti in mundum, ita et ego misi eos in mundum. Et pro eis sanctifico meipsum, ut et ipsi sint sanctificati in~
+veritate. Non pro eis solum rogo, sed etiam pro eis qui credituri sunt in me per verbum eorum, ut omnes unum sint,~
+sicut tu, Pater, in me es et ego in te, ut et ipsi in nobis unum sint, ut mundus credat quia tu me misisti. Et~
+gloriam quam dedisti mihi, dedi eis, ut sint unum, sicut nos unum sumus. Ego in eis et tu in me, ut sint consummati~
+in unitate.»
+
+[Offertorium]
+!Rom 15:5-6
+Det vobis Deus idipsum sapere in alterutrum: ut unanimes uno ore honorificetis Deum nostrum. (T. P. Alleluia.)
+
+[Secreta]
+Munera haec pro unione populi christiani tibi, Domine, oblata sanctifica: per quae unitatis et pacis in Ecclesia~
+tua nobis dona concedas.
+$Per Dominum
+
+[Communio]
+!1 Cor 10:17
+Unus panis, et unum corpus multi sumus, omnes, qui de uno pane et calice participamus. (T. P. Alleluia.)
+
+[Postcommunio]
+Haec tua, Domine, sumpta sacra communio: sicut fidelium in te unionem praesignat; sic in tua Ecclesia unitatis,~
+quaesumus, operetur effectum.
+$Per Dominum

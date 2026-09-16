@@ -883,6 +883,7 @@ TITLES = {
     constants.VOTIVE_MORTALITATIS: 'Missa Tempore Mortalitatis',
     constants.VOTIVE_AD_VOCATIONES: 'Missa ad Vocationes',
     constants.VOTIVE_FIDEI_PROPAGATIONE: 'Missa pro Fidei Propagatione',
+    constants.VOTIVE_PRO_UNITATE_ECCLESIAE: 'Missa pro Unitate Ecclesiae',
     constants.VOTIVE_TERRIBILIS: 'Missa de Communi Dedicationis Ecclesiae.'
 }
 VOTIVE_MASSES = []

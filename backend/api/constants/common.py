@@ -1015,6 +1015,7 @@ VOTIVE_DEFUNCTORUM = 'votive:Defunctorum:0:b'
 VOTIVE_MORTALITATIS = 'votive:TemporeMortalitatis:0:v'
 VOTIVE_AD_VOCATIONES = 'votive:AdVocationes:0:w'
 VOTIVE_FIDEI_PROPAGATIONE = 'votive:FideiPropagatione:0:v'
+VOTIVE_PRO_UNITATE_ECCLESIAE = 'votive:ProUnitateEcclesiae:0:v'
 VOTIVE_MATRIMONIUM = 'votive:Matrimonium:0:w'
 VOTIVE_TERRIBILIS = 'votive:Terribilis:0:w'
 

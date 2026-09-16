@@ -532,6 +532,7 @@ PAGES = {
     constants.VOTIVE_08_22: get_pages(1056),  # 'Msza o Niepokalanym Sercu N. M. P.',
     constants.VOTIVE_DEFUNCTORUM: get_pages(1301),  # 'Msza Codzienna za Zmarłych',
     constants.VOTIVE_FIDEI_PROPAGATIONE: get_pages(1252),  # 'Msza o Rozkrzewienie Wiary',
+    constants.VOTIVE_PRO_UNITATE_ECCLESIAE: get_pages(1255),  # 'Msza o Jedność Kościoła',
     constants.VOTIVE_MATRIMONIUM: get_pages(1396),  # 'Msza za Nowożeńców',
     constants.VOTIVE_TERRIBILIS: get_pages(642),  # 'Na konsekrację kościoła i jej rocznicę',
 }
