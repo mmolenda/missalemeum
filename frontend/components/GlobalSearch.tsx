@@ -3,6 +3,7 @@
 import React, {useEffect, useMemo, useRef, useState} from "react";
 import {CircularProgress, Dialog, DialogContent, IconButton, InputAdornment, List, ListItemButton, ListItemIcon, ListItemText, TextField, Tooltip, Typography} from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import ClearIcon from "@mui/icons-material/Clear";
 import {Icon} from "@iconify/react";
 import Link from "next/link";
 import {buildApiUrl} from "@/components/utils";
@@ -16,12 +17,13 @@ type SearchResult = {
 };
 
 const COPY: Record<Locale, {
-  open: string; placeholder: string; empty: string; noResults: string;
+  open: string; clear: string; placeholder: string; empty: string; noResults: string;
   shortcut: string;
   types: Record<SearchType, string>; statuses: Record<NonNullable<SearchResult["status"]>, string>;
 }> = {
   pl: {
     open: "Otwórz wyszukiwarkę",
+    clear: "Wyczyść wyszukiwanie",
     placeholder: "Szukaj mszy, pieśni, modlitw…", empty: "Zacznij pisać, aby wyszukać treści.", noResults: "Brak pasujących wyników.",
     shortcut: "Szukaj (⌘K / Ctrl+K)",
     types: {mass: "Msza", prayer: "Modlitwa", chant: "Pieśń", supplement: "Suplement", ordinary: "Ordo"},
@@ -29,6 +31,7 @@ const COPY: Record<Locale, {
   },
   en: {
     open: "Open search",
+    clear: "Clear search",
     placeholder: "Search masses, chants, prayers…", empty: "Start typing to search.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
     types: {mass: "Mass", prayer: "Prayer", chant: "Chant", supplement: "Supplement", ordinary: "Ordinary"},
@@ -126,19 +129,41 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     <Tooltip title={copy.shortcut}>
       <IconButton aria-label={copy.open} color="inherit" onClick={() => setOpen(true)} sx={{ml: "auto", color: "yellowish.main"}}><SearchIcon /></IconButton>
     </Tooltip>
-    <Dialog open={open} onClose={close} fullWidth maxWidth="sm" slotProps={{transition: {onEntered: () => inputRef.current?.focus()}}}>
-      <DialogContent>
-        <TextField autoFocus fullWidth inputRef={inputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.placeholder} slotProps={{input: {startAdornment: <InputAdornment position="start"><SearchIcon /></InputAdornment>}}} />
+    <Dialog open={open} onClose={close} fullWidth maxWidth="sm" slotProps={{
+      transition: {onEntered: () => inputRef.current?.focus()},
+      backdrop: {sx: {backgroundColor: "rgba(0, 0, 0, 0.46)"}},
+      paper: {
+        sx: {
+          border: "1px solid", borderColor: "divider", borderRadius: 2,
+          boxShadow: (theme) => theme.palette.mode === "dark"
+            ? "0 18px 48px rgba(0, 0, 0, 0.48)"
+            : "0 18px 48px rgba(0, 0, 0, 0.22)",
+        },
+      },
+    }}>
+      <DialogContent sx={{p: {xs: 2.5, sm: 3}}}>
+        <TextField autoFocus fullWidth inputRef={inputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.placeholder} sx={{
+          "& .MuiOutlinedInput-root": {
+            borderRadius: 1.5,
+            "& fieldset": {borderColor: "divider"},
+            "&:hover fieldset": {borderColor: "text.secondary"},
+            "&.Mui-focused fieldset": {borderColor: "primary.main", borderWidth: 2},
+          },
+          "& .MuiInputBase-input::placeholder": {color: "text.secondary", opacity: 0.72},
+        }} slotProps={{input: {
+          startAdornment: <InputAdornment position="start" sx={{color: "text.secondary"}}><SearchIcon /></InputAdornment>,
+          endAdornment: query ? <InputAdornment position="end"><IconButton aria-label={copy.clear} edge="end" onClick={() => setQuery("")}><ClearIcon /></IconButton></InputAdornment> : null,
+        }}} />
         {loading ? <CircularProgress size={24} sx={{display: "block", mx: "auto", my: 3}} /> : null}
-        {!loading && !query.trim() ? <Typography color="text.secondary" sx={{pt: 3}}>{copy.empty}</Typography> : null}
-        {!loading && query.trim() && !results.length ? <Typography color="text.secondary" sx={{pt: 3}}>{copy.noResults}</Typography> : null}
-        <List disablePadding sx={{pt: results.length ? 2 : 0}}>{results.map((result) => {
+        {!loading && !query.trim() ? <Typography color="text.secondary" sx={{pt: 2, pb: 0.25}}>{copy.empty}</Typography> : null}
+        {!loading && query.trim() && !results.length ? <Typography color="text.secondary" sx={{pt: 2, pb: 0.25}}>{copy.noResults}</Typography> : null}
+        <List disablePadding sx={{pt: results.length ? 1.25 : 0}}>{results.map((result) => {
           const details: string[] = [copy.types[result.type]];
           if (result.status) details.push(copy.statuses[result.status]);
           if (result.date) details.push(formatCalendarDate(result.date, lang));
-          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close}>
-            <ListItemIcon sx={{color: "primary.main", minWidth: 40}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
-            <ListItemText primary={result.title} secondary={details.join(" · ")} />
+          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
+            <ListItemIcon sx={{color: "text.secondary", minWidth: 44}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
+            <ListItemText primary={result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />
           </ListItemButton>;
         })}</List>
       </DialogContent>
