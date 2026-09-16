@@ -1,4 +1,4 @@
-.PHONY: help backend frontend dev run-backend run-frontend
+.PHONY: help backend frontend dev test run-backend run-frontend
 
 PYTHON := ./.venv/bin/python3
 API_URL := http://localhost:8000
@@ -9,6 +9,7 @@ help:
 		'  make backend       Run the backend API on port 8000' \
 		'  make frontend      Run the Next.js frontend dev server' \
 		'  make dev           Run backend and frontend together' \
+		'  make test          Run all tests' \
 		'  make run-backend   Alias for backend' \
 		'  make run-frontend  Alias for frontend'
 
@@ -20,6 +21,9 @@ frontend:
 
 dev:
 	$(MAKE) -j2 backend frontend
+
+test:
+	$(PYTHON) -m pytest backend
 
 run-backend: backend
 

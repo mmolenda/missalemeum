@@ -8,7 +8,7 @@
 @Sancti/09-14:Oratio
 
 [Lectio]
-@Sancti/09-14:Lectio
+@Sancti/05-03:Lectio
 
 [Graduale]
 @Sancti/09-14:Graduale
