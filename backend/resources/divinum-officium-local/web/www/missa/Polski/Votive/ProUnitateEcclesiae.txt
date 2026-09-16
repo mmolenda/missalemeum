@@ -1,0 +1,88 @@
+[Comment]
+# Msza o Jedność Kościoła
+! Szaty fioletowe
+! Wotywna
+! W różnych potrzebach
+
+[Introitus]
+!Ps 105:47
+Ratuj nas, Panie, nasz Boże, zgromadź nas z krajów pogańskich, abyśmy wielbili święte imię Twoje i dumni byli z Twej chwały. (O. W. Alleluja, alleluja.)
+!Ps 105:1
+Wysławiajcie Pana, bo dobry, bo na wieki miłosierdzie Jego.
+$Gloria
+Ratuj nas, Panie, nasz Boże, zgromadź nas z krajów pogańskich, abyśmy wielbili święte imię Twoje i dumni byli z Twej chwały. (O. W. Alleluja, alleluja.)
+
+[Oratio]
+Boże, Ty naprawiasz co błędne, gromadzisz co rozproszone, a zachowujesz co zgromadzone; prosimy Cię, wylej łaskawie~
+na lud chrześcijański Twoją łaskę jedności, by porzuciwszy podziały, jednocząc się z prawdziwym Pasterzem Twojego~
+Kościoła, zdołał godnie Ci służyć.
+$Per Dominum
+
+[Lectio]
+@Tempora/Pent17-0:Lectio:s/4:1-6/4:1-7, 13-21/:s/^\*List do Efezjan.*$//:s/, ja, więzień w Panu//:s/ Który jest błogosławiony.*$//
+A każdemu z nas dana jest łaska według miary daru i poznania Syna Bożego, stawszy się mężami doskonałymi na miarę~
+pełnego wzrostu dojrzałości Chrystusowej. Tak abyśmy już nie byli chwiejącymi się dziećmi, unoszonymi każdym~
+podmuchem wiatru nauki przez złość ludzką i przez podstęp wiodący do błędu, ale byśmy czyniąc prawdę w miłości~
+wzrastali we wszystko w Tym, który jest głową, tj. w Chrystusie. Z Niego całe ciało złączone i zjednoczone~
+wszystkimi spojeniami wzajemnych usług według sposobu działania właściwego każdemu członkowi, przyczynia sobie~
+wzrostu i buduje się w miłości. To tedy powiadam i oświadczam w Panu, abyście już nie postępowali, jako postępują i~
+poganie w próżności umysłu swego, mając rozum pogrążony w ciemnościach i będąc dalekimi od życia Bożego przez swą~
+nieświadomość i zaślepienie serca. Utraciwszy nadzieję oddali się rozpuście, dopuszczając się wszelkiej~
+nieczystości przez nienasycenie. Ale wy nie tak poznaliście Chrystusa. Jeśli jednak posłyszeliście Go i w Nim~
+pouczeni zostaliście według prawdy, która jest w Chrystusie Jezusie, Panu naszym.
+
+[Graduale]
+!Ps 121:6-7
+Proście o to, co niesie Jerozolimie pokój, niech będą bezpieczni ci, co ją miłują.
+V. Niech pokój będzie w murach twoich, a bezpieczeństwo w twych pałacach. Alleluja, alleluja.
+!Ps 147:12
+V. Chwal, Jerozolimo, Pana, chwal Boga twego, Syjonie. Alleluja.
+
+[GradualeP]
+! W Okresie Wielkanocnym
+Alleluja, alleluja.
+!Ps 147:12,14
+V. Chwal Jerozolimo, Pana, chwal Boga twego, Syjonie. Alleluja.
+V. Zapewnił pokój twoim granicom, najlepszą pszenicą cię syci. Alleluja.
+
+[Tractus]
+! W Mszach wotywnych od Siedemdziesiątnicy do Wielkanocy
+!Ps 75:2-4
+Bóg dał się poznać wśród Judy, wielkie jest imię Jego w Izraelu.
+V. W pokoju trwa Jego przybytek, i na Syjonie Jego mieszkanie.
+V. Tam złamał potęgę łuku, tarczę, miecz i zbroję.
+
+[Evangelium]
+Ciąg dalszy ++ Ewangelii świętej według Jana.
+!J 17:1, 11-23
+Onego czasu: Jezus podniósłszy oczy ku niebu rzekł: «Ojcze święty, zachowaj w imię Twoje tych, których mi dałeś,~
+aby byli jedno jako i my. Gdy byłem z nimi, strzegłem ich w imię Twoje. Czuwałem nad tymi, których mi dałeś, i nikt~
+z nich nie zginął, jeno syn zatracenia, aby się wypełniło Pismo. A teraz idę do Ciebie i mówię to na świecie, aby~
+tę radość moją wypełnioną mieli w sobie. Dałem im naukę Twoją, ale świat ich znienawidził, bo nie są ze świata,~
+jako i ja nie jestem ze świata. Nie proszę, abyś ich zabrał ze świata, ale żebyś ich zachował od złego. Nie są oni~
+ze świata, jak i ja nie jestem ze świata. Uświęć ich w prawdzie. Nauka Twoja prawdą jest. Jakoś Ty mnie posłał na~
+świat, i ja ich posłałem na świat. A za nich ja poświęcam siebie samego, aby i oni byli uświęceni w prawdzie. A nie~
+tylko za nimi proszę, ale i za tymi, którzy dla słowa ich uwierzą we mnie, aby wszyscy byli jedno, jako Ty, Ojcze,~
+we mnie, a ja w Tobie, aby i oni byli jedno w nas, aby świat uwierzył, żeś Ty mnie posłał. A chwałę, którą mi~
+dałeś, przekazałem im, aby byli jedno, jako i my jedno jesteśmy. Jam w nich, a Ty we mnie tak, by byli w jedności~
+doskonałymi».
+
+[Offertorium]
+!Rz 15:5-6
+Bóg niech skłoni was do jednomyślności wzajemnej według Jezusa Chrystusa, abyście jednomyślnie i jednymi usty~
+chwalili Boga i Ojca Pana naszego Jezusa Chrystusa. (O. W. Alleluja.)
+
+[Secreta]
+Uświęć, Panie, te dary złożone Ci za zjednoczenie ludu chrześcijańskiego i przez nie udziel Twojemu Kościołowi~
+łaski jedności i pokoju.
+$Per Dominum
+
+[Communio]
+!1 Kor 10:17
+Ponieważ jest jeden chleb, jednym ciałem jesteśmy wszyscy, którzy jednego chleba i jednego kielicha uczestnikami~
+jesteśmy. (O. W. Alleluja.)
+
+[Postcommunio]
+Prosimy Cię, Panie, niech przyjęta Komunia święta, która oznacza jedność wiernych w Tobie, dokona w Twoim Kościele~
+dzieła zjednoczenia.
+$Per Dominum

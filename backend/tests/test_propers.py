@@ -63,6 +63,38 @@ def test_proper_not_found():
         ProperParser('tempora:bla', language).parse()
 
 
+@pytest.mark.parametrize('inter_readings', [None, GRADUALE, GRADUALE_PASCHAL, TRACTUS])
+def test_votive_pro_unitate_ecclesiae(inter_readings):
+    from api.constants import TRANSLATION
+
+    proper_pl, proper_la = ProperParser(
+        VOTIVE_PRO_UNITATE_ECCLESIAE, LANGUAGE_POLSKI,
+        ProperConfig(inter_readings_section=inter_readings),
+    ).parse()
+    assert 'Pallotinum s. 1255' in proper_pl.tags
+    assert 'Szaty fioletowe' in proper_pl.tags
+    assert any(mass['id'] == VOTIVE_PRO_UNITATE_ECCLESIAE
+               and mass['ref'] == 'pro-unitate-ecclesiae'
+               for mass in TRANSLATION[LANGUAGE_POLSKI].VOTIVE_MASSES)
+    for proper, intro, reading_end, gospel_end in [
+        (proper_pl, 'Ratuj nas', 'Chrystusie Jezusie, Panu naszym.', 'w jedności doskonałymi».'),
+        (proper_la, 'Salvos nos fac', 'Christo Iesu, Domino nostro.', 'consummati in unitate.»'),
+    ]:
+        sections = {section['id']: section['body'] for section in proper.serialize()}
+        expected = {INTROIT, ORATIO, LECTIO, EVANGELIUM, OFFERTORIUM,
+                    SECRETA, PREFATIO, COMMUNIO, POSTCOMMUNIO}
+        expected.update([inter_readings] if inter_readings else [GRADUALE, GRADUALE_PASCHAL, TRACTUS])
+        assert sections.keys() == expected
+        assert sections[INTROIT].count(intro) == 2
+        assert '4:1-7, 13-21' in sections[LECTIO]
+        assert sections[LECTIO].endswith(reading_end)
+        assert sections[EVANGELIUM].endswith(gospel_end)
+        assert 'Qui est benedíctus' not in sections[LECTIO]
+        assert 'Który jest błogosławiony' not in sections[LECTIO]
+        assert 'więzienia w Rzymie' not in sections[LECTIO]
+        assert all(body and '@' not in body for body in sections.values())
+
+
 def test_get_proper_from_observance():
     proper_vernacular, proper_latin = Observance(c.SANCTI_01_06, date(2018, 1, 6), language).get_proper()
     assert 'Objawienie' in proper_vernacular.title
