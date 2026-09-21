@@ -1,6 +1,9 @@
 [Comment]
 @Sancti/05-03pl
 
+[Lectio]
+@Sancti/09-15:Lectio
+
 [Evangelium]
 @Commune/C10Pasc
 

@@ -12,3 +12,15 @@
 
 [Postcommunio]
 @Sancti/09-15
+
+[Introitus]
+@Sancti/09-15:Introitus
+
+[Lectio]
+@Sancti/09-15:Lectio
+
+[Secreta]
+@Sancti/09-15:Secreta
+
+[Communio]
+@Sancti/09-15:Communio

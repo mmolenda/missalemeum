@@ -1,0 +1,14 @@
+[Introitus]
+@Sancti/09-15:Introitus
+
+[Lectio]
+@Sancti/09-15:Lectio
+
+[Evangelium]
+@Sancti/09-15:Evangelium
+
+[Secreta]
+@Sancti/09-15:Secreta
+
+[Communio]
+@Sancti/09-15:Communio
