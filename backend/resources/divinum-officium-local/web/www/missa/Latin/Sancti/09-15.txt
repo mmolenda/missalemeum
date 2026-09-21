@@ -2,28 +2,28 @@
 @Sancti/09-15
 
 [Introitus]
-@Sancti/09-15:Introitus
+@Tempora/Quad5-5:Introitus
 
 [Oratio]
 @Tempora/Quad5-5
 
 [Lectio]
-@Sancti/09-15:Lectio
+@Tempora/Quad5-5:Lectio
 
 [Graduale]
 @Sancti/09-15:Graduale
 
 [Evangelium]
-@Sancti/09-15:Evangelium
+@Tempora/Quad5-5:Evangelium
 
 [Offertorium]
 @Sancti/07-16
 
 [Secreta]
-@Sancti/09-15:Secreta
+@Tempora/Quad5-5:Secreta
 
 [Communio]
-@Sancti/09-15:Communio
+@Tempora/Quad5-5:Communio
 
 [Postcommunio]
 @Tempora/Quad5-5

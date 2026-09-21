@@ -8,7 +8,7 @@
 @Sancti/05-03pl:Oratio
 
 [Lectio]
-@Sancti/09-15
+@Tempora/Quad5-5:Lectio
 
 [Graduale]
 @Sancti/05-03pl:Graduale
