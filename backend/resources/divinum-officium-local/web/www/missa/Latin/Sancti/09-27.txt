@@ -2,19 +2,19 @@
 @Sancti/09-27
 
 [Introitus]
-@Sancti/09-27:Introitus
+@Commune/C3a
 
 [Oratio]
 @Sancti/09-27:Oratio
 
 [Lectio]
-@Sancti/09-27:Lectio
+@Commune/C3a
 
 [Graduale]
 @Sancti/09-27:Graduale
 
 [Evangelium]
-@Sancti/09-27:Evangelium
+@Commune/C3a
 
 [Offertorium]
 @Sancti/06-26
@@ -23,7 +23,7 @@
 @Sancti/09-27:Secreta
 
 [Communio]
-@Sancti/09-27:Communio
+@Sancti/07-30:Communio
 
 [Postcommunio]
 @Sancti/09-27:Postcommunio
