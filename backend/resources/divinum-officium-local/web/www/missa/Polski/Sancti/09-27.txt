@@ -1,8 +1,8 @@
 [Comment]
 @Sancti/09-27
 
-[Lectio]
-@Commune/C3a
+[Introitus]
+@Sancti/09-27:Introitus
 
-[Evangelium]
-@Commune/C3a
+[Communio]
+@Sancti/09-27:Communio

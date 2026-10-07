@@ -1,0 +1,11 @@
+[Introitus]
+@Sancti/09-27:Introitus
+
+[Lectio]
+@Sancti/09-27:Lectio
+
+[Evangelium]
+@Sancti/09-27:Evangelium
+
+[Communio]
+@Sancti/09-27:Communio
