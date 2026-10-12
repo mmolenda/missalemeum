@@ -11,7 +11,7 @@
 @Commune/C4a:Lectio
 
 [Graduale]
-@Sancti/12-07:Graduale
+@Commune/C4:Graduale
 
 [Evangelium]
 @Commune/C4a:Evangelium

@@ -11,7 +11,7 @@
 @Commune/C4a
 
 [Graduale]
-@Sancti/12-04:Graduale
+@Commune/C4:Graduale
 
 [Evangelium]
 @Commune/C4a
