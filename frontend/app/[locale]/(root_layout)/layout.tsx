@@ -29,7 +29,6 @@ import Link from "next/link";
 import {myLocalStorage} from "@/components/myLocalStorage";
 import {ContainerMedium} from "@/components/styledComponents/ContainerMedium";
 import {CookieConsent} from "react-cookie-consent";
-import SimpleAnalyticsScript from "@/components/SimpleAnalyticsScript";
 import {
   Locale,
   MSG_COOKIES,
@@ -251,7 +250,6 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           </MUILink>
         </CookieConsent>
         </Container>
-        <SimpleAnalyticsScript />
       </ThemeProvider>
     </AppRouterCacheProvider>
   );

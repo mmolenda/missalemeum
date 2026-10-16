@@ -16,11 +16,7 @@ sections:
         ### Analytics and Logging
         To operate and improve our website, we use the following services:  
 
-        - **Simple Analytics** – We use [Simple Analytics](https://simpleanalytics.com/) to understand how visitors use 
-        our website. This service does not use cookies and does not collect any personal data. It only provides us with 
-        aggregated, anonymous statistics (for example, which pages are most visited).  
-
-        - **Cloudflare Analytics** – Our website traffic is routed through Cloudflare. Cloudflare provides us with basic 
+        - **Cloudflare Web Analytics** – Our website traffic is routed through Cloudflare. Cloudflare provides us with basic
         traffic analytics and may set cookies to ensure security and network performance.  
 
         - **Grafana Cloud Logs** – We use Grafana Cloud to collect server logs. These logs may contain IP addresses and 

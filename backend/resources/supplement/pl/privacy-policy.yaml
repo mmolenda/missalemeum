@@ -16,12 +16,7 @@ sections:
         ### Analityka i logi
         Aby utrzymywać i ulepszać naszą stronę, korzystamy z następujących usług:  
 
-        - **Simple Analytics** – Używamy [Simple Analytics](https://simpleanalytics.com/), aby zrozumieć, w jaki 
-        sposób odwiedzający korzystają z naszej strony. Usługa ta nie używa plików cookie i nie gromadzi danych 
-        osobowych. Dostarcza nam wyłącznie zagregowane, anonimowe statystyki (na przykład, które strony są najczęściej 
-        odwiedzane).  
-
-        - **Cloudflare Analytics** – Ruch na naszej stronie jest obsługiwany przez Cloudflare. Cloudflare zapewnia nam 
+        - **Cloudflare Web Analytics** – Ruch na naszej stronie jest obsługiwany przez Cloudflare. Cloudflare zapewnia nam
         podstawowe statystyki ruchu i może ustawiać pliki cookie w celu zapewnienia bezpieczeństwa i wydajności sieci.  
 
         - **Grafana Cloud Logs** – Korzystamy z Grafana Cloud do gromadzenia logów serwera. Logi te mogą zawierać adresy 
