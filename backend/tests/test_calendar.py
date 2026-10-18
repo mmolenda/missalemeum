@@ -211,6 +211,9 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2018, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_5]),
     # Lent day with 1st class feast
     ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
+    # 1st class feast on Friday after Passion Sunday; no Seven Sorrows commemoration
+    ((2027, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD5_5]),
+    ((1994, 3, 25), [c.SANCTI_03_25], [c.TEMPORA_QUAD5_5]),
     # Lent days win with feasts < 2 class
     # 2019-03-07 Comm: S. Thomæ de Aquino
     ((2019, 3, 7), [c.TEMPORA_QUADP3_4], [c.SANCTI_03_07]),
