@@ -268,6 +268,12 @@ def test_assumption_vigil_has_violet_vestments():
     assert day.get_celebration_colors() == ['v']
 
 
+def test_st_lawrence_vigil_has_violet_vestments():
+    day = get_missal(2023).get_day(date(2023, 8, 9))
+    assert day.get_celebration_id() == c.SANCTI_08_09
+    assert day.get_celebration_colors() == ['v']
+
+
 @pytest.mark.parametrize("day_id,date_,expected_weekday", [
     (c.TEMPORA_EPI2_3, (2002, 1, 23), 2),
     (c.TEMPORA_QUADP1_0, (2002, 1, 27), 6),
