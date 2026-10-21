@@ -47,7 +47,8 @@ const currentWeekStart = () => {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 };
 
-const CALENDAR_INDEX_SCHEMA_VERSION = "2";
+// Refresh cached search results when a release changes proper IDs or titles.
+const SEARCH_INDEX_VERSION = encodeURIComponent(process.env.NEXT_PUBLIC_BUILD_VERSION ?? "dev");
 
 const shiftMonths = (date: Date, months: number) => {
   const shifted = new Date(date);
@@ -93,8 +94,8 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     const load = async () => {
       try {
         const [content, calendar] = await Promise.all([
-          fetch(buildApiUrl(lang, "search/index"), {signal: controller.signal}),
-          fetch(`${buildApiUrl(lang, `search/calendar-index/${currentWeekStart()}`)}?schema=${CALENDAR_INDEX_SCHEMA_VERSION}`, {signal: controller.signal}),
+          fetch(`${buildApiUrl(lang, "search/index")}?version=${SEARCH_INDEX_VERSION}`, {signal: controller.signal, cache: "no-store"}),
+          fetch(`${buildApiUrl(lang, `search/calendar-index/${currentWeekStart()}`)}?version=${SEARCH_INDEX_VERSION}`, {signal: controller.signal, cache: "no-store"}),
         ]);
         setIndex(content.ok && calendar.ok ? [...(await content.json()), ...(await calendar.json())] : []);
       } catch (error) {
