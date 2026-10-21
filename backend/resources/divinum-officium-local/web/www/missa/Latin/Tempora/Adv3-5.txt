@@ -17,7 +17,7 @@
 @Tempora/Adv3-5:Evangelium
 
 [Offertorium]
-@Tempora/Adv3-5:Offertorium
+@Tempora/Adv2-0:Offertorium
 
 [Secreta]
 @Commune/C2a
