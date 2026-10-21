@@ -23,7 +23,7 @@ from api.constants.common import (TEMPORA_C_10A, TEMPORA_C_10B, TEMPORA_C_10C, T
                               EMBER_DAYS,
                               FEASTS_OF_JESUS_CLASS_1_AND_2, PATTERN_ADVENT,
                               PATTERN_CLASS_1, PATTERN_EASTER,
-                              PATTERN_SANCTI_CLASS_1_OR_2,
+                              PATTERN_SANCTI_CLASS_1, PATTERN_SANCTI_CLASS_1_OR_2,
                               PATTERN_SANCTI_CLASS_2, PATTERN_TEMPORA,
                               PATTERN_TEMPORA_SUNDAY,
                               PATTERN_TEMPORA_SUNDAY_CLASS_2, SANCTI_01_13,
@@ -92,6 +92,10 @@ def rule_st_lawrence_vigil(
 
 def rule_seven_sorrows_on_friday_after_passion_sunday(
         calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
+    # A 1st class feast, such as St. Joseph in 2027, takes precedence; rule_lent_commemoration
+    # then keeps the feria as a commemoration and the Seven Sorrows commemoration is omitted.
+    if match_first(observances, PATTERN_SANCTI_CLASS_1):
+        return
     friday_after_passion = match_first(observances, TEMPORA_QUAD5_5)
     seven_sorrows = match_first(observances, TEMPORA_QUAD5_5C)
     if friday_after_passion and seven_sorrows:
@@ -262,6 +266,10 @@ def rule_4th_class_feria_are_removed_from_celebration(
     calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     fourth_class_tempora = match_first(observances, PATTERN_TEMPORA_CLASS_4)
     if fourth_class_tempora:
+        # Two feasts above the 4th class, e.g. a proper 2nd class feast on the day of a 3rd class one,
+        # are left to rule_general so only one of them is celebrated.
+        if len([o for o in observances if o.rank < 4 and o != fourth_class_tempora]) > 1:
+            return
         commemoration = match_all(observances, PATTERN_SANCTI_CLASS_4)
         if commemoration:
             return [o for o in observances if o != fourth_class_tempora], commemoration, []

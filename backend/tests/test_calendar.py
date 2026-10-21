@@ -211,6 +211,9 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2018, 12, 21), [c.SANCTI_12_21], [c.TEMPORA_ADV3_5]),
     # Lent day with 1st class feast
     ((2019, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD2_2]),
+    # 1st class feast on Friday after Passion Sunday; no Seven Sorrows commemoration
+    ((2027, 3, 19), [c.SANCTI_03_19], [c.TEMPORA_QUAD5_5]),
+    ((1994, 3, 25), [c.SANCTI_03_25], [c.TEMPORA_QUAD5_5]),
     # Lent days win with feasts < 2 class
     # 2019-03-07 Comm: S. Thomæ de Aquino
     ((2019, 3, 7), [c.TEMPORA_QUADP3_4], [c.SANCTI_03_07]),
@@ -250,11 +253,26 @@ def test_given_date_does_not_contain_day_ids(date_, not_expected_day_ids):
     ((2019, 12, 29), [c.TEMPORA_NAT1_0], []),
     # Fixed vigils are not commemorated on Sundays.
     ((2026, 6, 28), [c.TEMPORA_PENT05_0], []),
+    # 3rd class feasts win over a feria and over the Saturday of Our Lady
+    ((2026, 11, 13), [c.SANCTI_11_13], []),
+    ((2026, 5, 16), [c.SANCTI_05_16], []),
 ])
 def test_conflicts(date_, expected_celebration, expected_commemoration):
     missal = get_missal(date_[0])
     assert expected_celebration == [i.id for i in missal.get_day(date(*date_)).celebration]
     assert expected_commemoration == [i.id for i in missal.get_day(date(*date_)).commemoration]
+
+
+@pytest.mark.parametrize("date_,expected_celebration,expected_commemoration", [
+    # A proper 2nd class feast is celebrated and the universal 3rd class feast commemorated
+    ((2026, 11, 13), [c.SANCTI_11_13PL], [c.SANCTI_11_13]),
+    # A proper 3rd class feast goes before a universal one
+    ((2026, 5, 16), [c.SANCTI_05_16PL], [c.SANCTI_05_16]),
+])
+def test_conflicts_polish(date_, expected_celebration, expected_commemoration):
+    day = get_missal(date_[0], lang='pl').get_day(date(*date_))
+    assert expected_celebration == [i.id for i in day.celebration]
+    assert expected_commemoration == [i.id for i in day.commemoration]
 
 
 def test_english_may_27_has_single_st_john_i_commemoration():
@@ -265,6 +283,12 @@ def test_english_may_27_has_single_st_john_i_commemoration():
 def test_assumption_vigil_has_violet_vestments():
     day = get_missal(2026).get_day(date(2026, 8, 14))
     assert day.get_celebration_id() == c.SANCTI_08_14
+    assert day.get_celebration_colors() == ['v']
+
+
+def test_st_lawrence_vigil_has_violet_vestments():
+    day = get_missal(2023).get_day(date(2023, 8, 9))
+    assert day.get_celebration_id() == c.SANCTI_08_09
     assert day.get_celebration_colors() == ['v']
 
 
