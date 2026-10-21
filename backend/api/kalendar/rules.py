@@ -266,6 +266,10 @@ def rule_4th_class_feria_are_removed_from_celebration(
     calendar: Calendar, date_: date, tempora: List[Observance], observances: List[Observance], lang: str):
     fourth_class_tempora = match_first(observances, PATTERN_TEMPORA_CLASS_4)
     if fourth_class_tempora:
+        # Two feasts above the 4th class, e.g. a proper 2nd class feast on the day of a 3rd class one,
+        # are left to rule_general so only one of them is celebrated.
+        if len([o for o in observances if o.rank < 4 and o != fourth_class_tempora]) > 1:
+            return
         commemoration = match_all(observances, PATTERN_SANCTI_CLASS_4)
         if commemoration:
             return [o for o in observances if o != fourth_class_tempora], commemoration, []
