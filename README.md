@@ -139,6 +139,10 @@ $ python -m api.cli proper-cols 2018-05-03
 5. Add mapping between your language ISO-639-1 code and [Divinum Officium language folder](https://github.com/DivinumOfficium/divinum-officium/tree/master/web/www/missa) in `LANGUAGES` in `backend/api/constants/common.py`
 6. Add tests to your language version in [test_propers.py](backend/tests/test_propers.py). You can use  `generate_fixtures_for_propers_by_dates` from [backend/tests/util.py](backend/tests/util.py) to generate fixtures
 
+English commentary links are maintained in [`backend/api/constants/en/supplements.py`](backend/api/constants/en/supplements.py).
+Its `SUPPLEMENTS` dictionary maps proper IDs to Sermonry URLs, so links follow a feast when its date is transferred.
+The Sermonry `all-souls` commentary matches the first Mass (`SANCTI_11_02_1`), not the second or third Mass.
+
 ### Frontend
 
 1. Add languages and translations in [frontend/components/intl.tsx](frontend/components/intl.tsx)
