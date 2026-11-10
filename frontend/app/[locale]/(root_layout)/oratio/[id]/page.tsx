@@ -15,12 +15,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return generateLocalisedMetadata(locale)
 }
 
-export default async function Page({params}: { params: Promise<{locale: string, id: string}> }) {
+export default async function Page({params, searchParams}: {
+  params: Promise<{locale: string, id: string}>
+  searchParams: Promise<{ref?: string}>
+}) {
   const { id, locale } = await params
+  const { ref } = await searchParams
+  const backButtonRef = ref ? `/${locale}/${ref}` : `/${locale}/oratio#${id}`
   const response = await callApi(locale, "oratio", id)
   if (response.status !== 200) {
     notFound();
   }
   const item = await response.json();
-  return <BilingualContent lang={locale} id={id} contents={item} backButtonRef={`/${locale}/oratio#${id}`} apiEndpoint="oratio"/>
+  return <BilingualContent lang={locale} id={id} contents={item} backButtonRef={backButtonRef} apiEndpoint="oratio"/>
 }
