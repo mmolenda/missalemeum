@@ -5,16 +5,11 @@ import List from "@mui/material/List";
 import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
 import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
 import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
-import React, {createRef, RefObject, useCallback, useEffect, useRef, useState} from "react";
+import React, {createRef, RefObject, useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 import {ListItemType} from "@/components/types";
-import {myLocalStorage} from "@/components/myLocalStorage";
-import {
-  BANNER_ENABLED,
-  BANNER_HEIGHT,
-  BANNER_STORAGE_KEY,
-  getAppBarHeightFromTheme,
-} from "@/components/layoutMetrics";
+import {getAppBarHeightFromTheme} from "@/components/layoutMetrics";
+import {useMeasuredHeight} from "@/components/useMeasuredHeight";
 
 export default function ListCommon({
                                      lang,
@@ -30,8 +25,15 @@ export default function ListCommon({
                                      }) {
   const [selectedItem, setSelectedItem] = useState("")
   const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({})
-  const [itemsFiltered, setItemsFiltered] = useState(items)
   const [filterString, setFilterString] = useState("")
+  const controlsRef = useRef<HTMLDivElement>(null);
+  useMeasuredHeight(controlsRef, "--list-controls-height");
+  const searchIndex = useMemo(() => items.map(item => ({
+    item, text: JSON.stringify(item).toLocaleLowerCase(lang),
+  })), [items, lang]);
+  const query = filterString.trim().toLocaleLowerCase(lang);
+  const itemsFiltered = useMemo(() => query.length < 3 ? items : searchIndex
+    .filter(({text}) => text.includes(query)).map(({item}) => item), [items, query, searchIndex]);
 
   const scrollToListItem = useCallback((itemId: string) => {
     const listItemRef = listItemRefs.current[itemId]
@@ -54,36 +56,21 @@ export default function ListCommon({
     }
   }, [scrollToListItem, selectedItem])
 
-  const filterItems = (filterString: string) => {
-    if (filterString.length === 0) {
-      setItemsFiltered(items)
-    } else if (filterString.length > 2) {
-      filterString = filterString.toLowerCase()
-      const collectedItems = []
-      for (const item of items) {
-        const searchBody = JSON.stringify(item).toLowerCase()
-        if (searchBody.includes(filterString)) {
-          collectedItems.push(item)
-        }
-      }
-      setItemsFiltered(collectedItems)
-    }
-  }
-
 
   return (
 
     <>
-      <Box sx={{
+      <Box ref={controlsRef} sx={{
         position: "fixed",
         display: "flex",
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
-          const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-          const offset = BANNER_ENABLED && !bannerDismissed ? BANNER_HEIGHT : 0;
-          return `${appBarHeight + offset}px`;
+          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
         },
-        width: "875px",
+        width: "100%",
+        maxWidth: "900px",
+        left: "50%",
+        transform: "translateX(-50%)",
         p: "0.75rem",
         boxShadow: 2,
         backgroundColor: "background.default",
@@ -91,12 +78,11 @@ export default function ListCommon({
       }}>
         <Autocomplete
           size="small"
-          sx={{width: "30%"}}
+          sx={{width: {xs: "100%", sm: "30%"}, minWidth: 0}}
           freeSolo
           value={filterString}
           onInputChange={(event, newValue) => {
             setFilterString(newValue)
-            filterItems(newValue)
           }}
           options={searchSuggestions || []}
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {

@@ -51,13 +51,8 @@ import "moment/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
 import {callApi} from "@/components/utils";
-import {myLocalStorage} from "@/components/myLocalStorage";
-import {
-  BANNER_ENABLED,
-  BANNER_HEIGHT,
-  BANNER_STORAGE_KEY,
-  getAppBarHeightFromTheme,
-} from "@/components/layoutMetrics";
+import {getAppBarHeightFromTheme} from "@/components/layoutMetrics";
+import {useMeasuredHeight} from "@/components/useMeasuredHeight";
 import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 const DATE_FORMAT = "YYYY-MM-DD";
@@ -113,6 +108,8 @@ export default function ListProper({
   const pdfResourceId = useMemo(() => String(currentYear), [currentYear]);
 
   const router = useRouter();
+  const controlsRef = useRef<HTMLDivElement>(null);
+  useMeasuredHeight(controlsRef, "--list-controls-height");
 
   const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({});
   const topSentinelRef = useRef<HTMLDivElement | null>(null);
@@ -527,9 +524,6 @@ export default function ListProper({
       ? searchResults.map((item) => ({ kind: "day", item }))
       : autocompleteSuggestions;
 
-  const bannerDismissed = hasMounted && myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-  const bannerOffset = BANNER_ENABLED && !bannerDismissed ? BANNER_HEIGHT : 0;
-
   listItemRefs.current = {};
 
   interface ButtonFieldProps {
@@ -624,23 +618,27 @@ export default function ListProper({
 
   return (
     <>
-      <Box sx={{
+      <Box ref={controlsRef} sx={{
         position: "fixed",
         display: "flex",
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
-          return `${appBarHeight + bannerOffset}px`;
+          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
         },
-        width: "875px",
-        p: "0.75rem",
+        width: "100%",
+        maxWidth: "900px",
+        left: "50%",
+        transform: "translateX(-50%)",
+        p: {xs: 1, sm: 1.5},
         boxShadow: 2,
         backgroundColor: "background.default",
         zIndex: 100,
-        gap: "0.5rem",
+        gap: {xs: 0.25, sm: 1},
+        alignItems: "center",
       }}>
         <Autocomplete<SearchOption, false, false, true>
           size="small"
-          sx={{ width: "22%" }}
+          sx={{flex: 1, minWidth: 0, maxWidth: {sm: 320}}}
           freeSolo
           value={null}
           options={autocompleteOptions}

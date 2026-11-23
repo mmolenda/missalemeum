@@ -11,7 +11,7 @@ import {
   IconButton,
   Select,
   MenuItem,
-  Popover
+  Snackbar
 } from "@mui/material";
 import ShareIcon from '@mui/icons-material/Share';
 import {
@@ -102,7 +102,7 @@ export default function BilingualContent({
   }, [contents.length])
 
   const backButton = (backButtonRef && <IconButton
-    aria-label="back"
+    aria-label={lang === "pl" ? "Wróć" : "Go back"}
     component={Link}
     href={backButtonRef}
     sx={{backgroundColor: "background.default", opacity: 0.9}}
@@ -156,8 +156,7 @@ const Article = ({
   apiEndpoint?: string
 }) => {
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
-  const sharePopoverOpen = false
-  const shareButtonRef = useRef(null)
+  const [shareMessage, setShareMessage] = useState("");
   const content: Content = contents[index]
   const itemRefs = useRef<Record<string, HTMLElement | null>>({})
   const pdfResourceId = useMemo(() => apiEndpoint ? id : null, [apiEndpoint, id])
@@ -203,19 +202,20 @@ const Article = ({
     return false
   }
 
-  const share = () => {
+  const share = async () => {
     const title = document.title
     const url = document.location.href
     try {
-      navigator.share({
-        title,
-        url
-      })
-    } catch {
-      navigator.clipboard.writeText(url).then(function () {
-      }, function (err) {
-        alert(`Couldn't copy address: ${err}`);
-      });
+      if (navigator.share) {
+        await navigator.share({title, url});
+      } else {
+        await navigator.clipboard.writeText(url);
+        setShareMessage(MSG_ADDRESS_COPIED[lang as Locale]);
+      }
+    } catch (error) {
+      if ((error as Error).name !== "AbortError") {
+        setShareMessage(lang === "pl" ? "Nie udało się udostępnić adresu. Spróbuj ponownie." : "Could not share the link. Please try again.");
+      }
     }
   }
   return (
@@ -234,19 +234,11 @@ const Article = ({
         {backButton}
       </Box>
       {!widgetMode && <Box sx={{display: "flex", justifyContent: "flex-end"}}>
-        <IconButton aria-label="share" ref={shareButtonRef} onClick={() => share()}>
+        <IconButton aria-label={lang === "pl" ? "Udostępnij" : "Share"} onClick={() => void share()}>
           <ShareIcon/>
-          <Popover
-            open={sharePopoverOpen}
-            anchorEl={shareButtonRef.current}
-            anchorOrigin={{
-              vertical: 'bottom',
-              horizontal: 'left',
-            }}
-          >
-            <Typography sx={{p: 2}}>{MSG_ADDRESS_COPIED[lang as Locale]}</Typography>
-          </Popover>
         </IconButton>
+        <Snackbar open={Boolean(shareMessage)} message={shareMessage} autoHideDuration={5000}
+          onClose={() => setShareMessage("")} />
         <PdfDownloadMenu
           lang={lang}
           apiEndpoint={apiEndpoint}
@@ -437,6 +429,7 @@ const BilingualSection = ({
       <Typography
         variant="h4"
         className={xLatin}
+        lang="la"
         sx={{
           display: (showHeading(xLatin)) ? "block" : "none",
           px: "0.5rem",
@@ -484,6 +477,7 @@ const BilingualSectionParagraph = ({
       component="div"
       variant="body1"
       className={bilingualLangClass}
+      lang={bilingualLangClass === xLatin ? "la" : undefined}
       align="justify"
       sx={{
         display: (show) ? "block" : "none",
@@ -517,11 +511,13 @@ const BilingualSelector = ({lang, bilingualLang, setBilingualLang}: {
         display: {xs: 'block', sm: 'none'},
         position: "fixed",
         right: "20px",
-        bottom: "20px",
+        bottom: "calc(var(--cookie-consent-height, 0px) + 20px + env(safe-area-inset-bottom, 0px))",
+        zIndex: (theme) => theme.zIndex.appBar - 1,
         opacity: 0.9,
         backgroundColor: "background.default"
       }}
       color="secondary"
+      aria-label={lang === "pl" ? "Język tekstu" : "Text language"}
       value={bilingualLang}
       exclusive
       onChange={handleChange}

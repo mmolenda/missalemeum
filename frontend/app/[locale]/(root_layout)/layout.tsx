@@ -1,6 +1,7 @@
 "use client"
 
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
+import {useMeasuredHeight} from "@/components/useMeasuredHeight";
 import {AppRouterCacheProvider} from "@mui/material-nextjs/v15-appRouter";
 import {ThemeProvider, type Theme} from "@mui/material/styles";
 import {
@@ -69,6 +70,8 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const [fontSize, setFontSize] = useState<string>("medium")
   const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
   const [bannerOpen, setBannerOpen] = useState<boolean>(false)
+  const bannerRef = useRef<HTMLDivElement>(null);
+  const cookieRef = useRef<HTMLDivElement>(null);
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
 
   useEffect(() => {
@@ -93,12 +96,13 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
   }
   const mode = getThemeMode()
-  // const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
-  const theme = createTheme(getDesignTokens(mode, fontSize));
+  const theme = React.useMemo(() => createTheme(getDesignTokens(mode, fontSize)), [mode, fontSize]);
   const appBarHeight = getAppBarHeightFromTheme(theme);
   const bannerCopy = BANNER_COPY[lang];
   const bannerVisible = BANNER_ENABLED && bannerOpen;
-  const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
+  useMeasuredHeight(bannerRef, "--announcement-banner-height", bannerVisible);
+  useMeasuredHeight(cookieRef, "--cookie-consent-height");
+  const contentTopPadding = `calc(${appBarHeight}px + var(--announcement-banner-height, 0px) + var(--list-controls-height, ${appBarHeight}px))`;
   const closeBannerLabel = lang === "pl" ? "Zamknij baner PDF" : "Dismiss PDF banner";
 
   const handleBannerClose = () => {
@@ -118,6 +122,13 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           setOpen={setAnnouncementOpened}
         />
         <Container disableGutters sx={{backgroundColor: "background.default", minHeight: "100vh"}}>
+          <Box component="a" href="#content" onClick={() => document.getElementById("content")?.focus()} sx={{
+            position: "fixed", top: 8, left: 8, transform: "translateY(-200%)",
+            zIndex: theme.zIndex.modal + 1, p: 1.5, bgcolor: "background.paper", color: "text.primary",
+            "&:focus": {transform: "none"},
+          }}>
+            {lang === "pl" ? "Przejdź do treści" : "Skip to content"}
+          </Box>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
@@ -141,6 +152,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
 
           {bannerVisible && (
             <Box
+              ref={bannerRef}
               sx={(theme: Theme) => ({
                 position: "fixed",
                 top: `${appBarHeight}px`,
@@ -172,8 +184,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 <Typography
                   variant="body2"
                   sx={{
-                    display: "flex",
-                    alignItems: "center",
+                    display: "block",
                     fontWeight: 500,
                     gap: 1,
                   }}
@@ -187,7 +198,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                     })}
                   >
                     {bannerCopy.highlight}
-                  </Box>
+                  </Box>{" "}
                   <Box component="span">{bannerCopy.message}</Box>
                   <PrintIcon fontSize="small" sx={{ml: 0.5}} />
                 </Typography>
@@ -206,11 +217,13 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           <ContainerMedium disableGutters sx={{display: "flex", overflow: "hidden", height: "100%"}}>
             <Box
               id="content"
+              component="main"
+              tabIndex={-1}
               sx={{
                 overflowY: "scroll",
                 width: "100%",
                 ml: 0,
-                pt: `${contentTopPadding}px`,
+                pt: contentTopPadding,
                 height: "100%",
               }}
             >
@@ -237,18 +250,24 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
               {process.env.NEXT_PUBLIC_BUILD_VERSION}
             </Typography>
           </ContainerMedium>
+        <Box ref={cookieRef} sx={{position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 999}}>
         <CookieConsent
+          style={{position: "static"}}
+          contentStyle={{flex: "1 1 240px", minWidth: 0}}
           cookieName="MMCookieConsent"
           enableDeclineButton
           declineButtonStyle={{background: appbarDarkGrey}}
           buttonStyle={{background: "#e49086"}}
           declineButtonText={MSG_POLICY_DECLINE_BUTTON[lang]}
+          ariaDeclineLabel={MSG_POLICY_DECLINE_BUTTON[lang]}
+          ariaAcceptLabel={lang === "pl" ? "Akceptuję ciasteczka" : "Accept cookies"}
           buttonText="OK">
           {MSG_COOKIES[lang]}
           <MUILink component={Link} href={`/${lang}/supplement/privacy-policy`} target="_blank">
             {MSG_POLICY_LINK[lang]}
           </MUILink>
         </CookieConsent>
+        </Box>
         </Container>
       </ThemeProvider>
     </AppRouterCacheProvider>

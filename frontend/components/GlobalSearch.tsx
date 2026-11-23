@@ -1,7 +1,7 @@
 "use client";
 
-import React, {useEffect, useMemo, useRef, useState} from "react";
-import {CircularProgress, Dialog, DialogContent, IconButton, InputAdornment, List, ListItemButton, ListItemIcon, ListItemText, TextField, Tooltip, Typography} from "@mui/material";
+import React, {useEffect, useId, useMemo, useRef, useState} from "react";
+import {Button, CircularProgress, Dialog, DialogContent, DialogTitle, IconButton, InputAdornment, List, ListItemButton, ListItemIcon, ListItemText, TextField, Tooltip, Typography} from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
 import {Icon} from "@iconify/react";
@@ -18,7 +18,8 @@ type SearchResult = {
 
 const COPY: Record<Locale, {
   open: string; clear: string; placeholder: string; empty: string; noResults: string;
-  shortcut: string;
+  shortcut: string; title: string; close: string; loading: string; error: string; retry: string;
+  resultCount: (count: number) => string;
   types: Record<SearchType, string>; statuses: Record<NonNullable<SearchResult["status"]>, string>;
 }> = {
   pl: {
@@ -26,6 +27,9 @@ const COPY: Record<Locale, {
     clear: "Wyczyść wyszukiwanie",
     placeholder: "Szukaj mszy, pieśni, modlitw…", empty: "Zacznij pisać, aby wyszukać treści.", noResults: "Brak pasujących wyników.",
     shortcut: "Szukaj (⌘K / Ctrl+K)",
+    title: "Szukaj", close: "Zamknij wyszukiwarkę", loading: "Wczytywanie wyszukiwarki…",
+    error: "Nie udało się wczytać wyszukiwarki. Sprawdź połączenie i spróbuj ponownie.", retry: "Spróbuj ponownie",
+    resultCount: (count) => `Liczba wyników: ${count}`,
     types: {mass: "Msza", prayer: "Modlitwa", chant: "Pieśń", supplement: "Suplement", ordinary: "Ordo"},
     statuses: {commemoration: "Wspomnienie", displaced: "Obchód pominięty"},
   },
@@ -34,6 +38,9 @@ const COPY: Record<Locale, {
     clear: "Clear search",
     placeholder: "Search masses, chants, prayers…", empty: "Start typing to search.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
+    title: "Search", close: "Close search", loading: "Loading search…",
+    error: "Could not load search. Check your connection and try again.", retry: "Try again",
+    resultCount: (count) => `Results: ${count}`,
     types: {mass: "Mass", prayer: "Prayer", chant: "Chant", supplement: "Supplement", ordinary: "Ordinary"},
     statuses: {commemoration: "Commemoration", displaced: "Displaced observance"},
   },
@@ -63,19 +70,20 @@ const iconFor = (result: SearchResult) => {
   return {proper: "mdi:text-box-outline", prayer: "mdi:hands-pray", chant: "mdi:music-note-sixteenth", supplement: "mdi:book-plus", ordinary: "mdi:text-box-outline"}[result.source];
 };
 
-const formatCalendarDate = (date: string, lang: Locale) => new Intl.DateTimeFormat(
-  lang, {day: "numeric", month: "long", year: "numeric"},
-).format(new Date(`${date}T12:00:00`));
-
 export default function GlobalSearch({lang}: {lang: Locale}) {
   const copy = COPY[lang];
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchResult[] | null>(null);
   const [loading, setLoading] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const titleId = useId();
+  const dateFormatter = useMemo(() => new Intl.DateTimeFormat(lang, {
+    day: "numeric", month: "long", year: "numeric",
+  }), [lang]);
 
-  useEffect(() => setIndex(null), [lang]);
+  useEffect(() => { setIndex(null); setLoadFailed(false); }, [lang]);
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
@@ -87,7 +95,7 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
   useEffect(() => {
-    if (!open || index) return;
+    if (!open || index || loadFailed) return;
     const controller = new AbortController();
     setLoading(true);
     const load = async () => {
@@ -96,16 +104,26 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
           fetch(buildApiUrl(lang, "search/index"), {signal: controller.signal}),
           fetch(`${buildApiUrl(lang, `search/calendar-index/${currentWeekStart()}`)}?schema=${CALENDAR_INDEX_SCHEMA_VERSION}`, {signal: controller.signal}),
         ]);
-        setIndex(content.ok && calendar.ok ? [...(await content.json()), ...(await calendar.json())] : []);
+        if (!content.ok || !calendar.ok) throw new Error("Search index request failed");
+        const entries = [...(await content.json()), ...(await calendar.json())];
+        if (!controller.signal.aborted) setIndex(entries);
       } catch (error) {
-        if ((error as Error).name !== "AbortError") setIndex([]);
+        if (!controller.signal.aborted && (error as Error).name !== "AbortError") setLoadFailed(true);
       } finally {
         if (!controller.signal.aborted) setLoading(false);
       }
     };
     void load();
     return () => controller.abort();
-  }, [index, lang, open]);
+  }, [index, lang, loadFailed, open]);
+
+  const searchIndex = useMemo(() => (index ?? []).map(result => {
+    const date = result.date ? new Date(`${result.date}T12:00:00`) : null;
+    const formattedDate = date ? dateFormatter.format(date) : "";
+    return {result, date, formattedDate, title: normalise(result.title),
+      tags: normalise((result.tags ?? []).join(" ")),
+      dateText: normalise(`${formattedDate} ${result.date ?? ""}`)};
+  }), [dateFormatter, index]);
 
   const results = useMemo(() => {
     const normalizedQuery = normalise(query.trim());
@@ -113,23 +131,19 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     const today = new Date();
     const windowStart = shiftMonths(today, -1);
     const windowEnd = shiftMonths(today, 12);
-    return index.map((result) => {
-      const resultDate = result.date ? new Date(`${result.date}T12:00:00`) : null;
-      const title = normalise(result.title);
-      const tags = normalise((result.tags ?? []).join(" "));
-      const dateText = result.date ? normalise(`${formatCalendarDate(result.date, lang)} ${result.date}`) : "";
+    return searchIndex.map(({result, date: resultDate, title, tags, dateText}) => {
       const score = title.startsWith(normalizedQuery) ? 0 : title.includes(normalizedQuery) ? 1 : tags.includes(normalizedQuery) ? 2 : dateText.includes(normalizedQuery) ? 3 : 4;
       const dateDistance = resultDate ? Math.abs(resultDate.getTime() - today.getTime()) : Number.MAX_SAFE_INTEGER;
       return {result, score, dateDistance, inDateWindow: !resultDate || (resultDate >= windowStart && resultDate <= windowEnd)};
     }).filter(({score, inDateWindow}) => score < 4 && inDateWindow).sort((a, b) => a.score - b.score || a.dateDistance - b.dateDistance || a.result.title.localeCompare(b.result.title, lang)).slice(0, 30).map(({result}) => result);
-  }, [index, lang, query]);
+  }, [index, lang, query, searchIndex]);
 
   const close = () => { setOpen(false); setQuery(""); };
   return <>
     <Tooltip title={copy.shortcut}>
       <IconButton aria-label={copy.open} color="inherit" onClick={() => setOpen(true)} sx={{ml: "auto", color: "yellowish.main"}}><SearchIcon /></IconButton>
     </Tooltip>
-    <Dialog open={open} onClose={close} fullWidth maxWidth="sm" slotProps={{
+    <Dialog open={open} onClose={close} aria-labelledby={titleId} fullWidth maxWidth="sm" slotProps={{
       transition: {onEntered: () => inputRef.current?.focus()},
       backdrop: {sx: {backgroundColor: "rgba(0, 0, 0, 0.46)"}},
       paper: {
@@ -141,6 +155,10 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
         },
       },
     }}>
+      <DialogTitle id={titleId} sx={{display: "flex", alignItems: "center", justifyContent: "space-between"}}>
+        {copy.title}
+        <IconButton aria-label={copy.close} onClick={close}><ClearIcon /></IconButton>
+      </DialogTitle>
       <DialogContent sx={{p: {xs: 2.5, sm: 3}}}>
         <TextField autoFocus fullWidth inputRef={inputRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.placeholder} sx={{
           "& .MuiOutlinedInput-root": {
@@ -150,17 +168,22 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
             "&.Mui-focused fieldset": {borderColor: "primary.main", borderWidth: 2},
           },
           "& .MuiInputBase-input::placeholder": {color: "text.secondary", opacity: 0.72},
-        }} slotProps={{input: {
+        }} slotProps={{htmlInput: {"aria-label": copy.placeholder}, input: {
           startAdornment: <InputAdornment position="start" sx={{color: "text.secondary"}}><SearchIcon /></InputAdornment>,
           endAdornment: query ? <InputAdornment position="end"><IconButton aria-label={copy.clear} edge="end" onClick={() => setQuery("")}><ClearIcon /></IconButton></InputAdornment> : null,
         }}} />
-        {loading ? <CircularProgress size={24} sx={{display: "block", mx: "auto", my: 3}} /> : null}
-        {!loading && !query.trim() ? <Typography color="text.secondary" sx={{pt: 2, pb: 0.25}}>{copy.empty}</Typography> : null}
-        {!loading && query.trim() && !results.length ? <Typography color="text.secondary" sx={{pt: 2, pb: 0.25}}>{copy.noResults}</Typography> : null}
+        {loading ? <CircularProgress aria-label={copy.loading} size={24} sx={{display: "block", mx: "auto", my: 3}} /> : null}
+        {loadFailed && <>
+          <Typography role="alert" color="error" sx={{pt: 2}}>{copy.error}</Typography>
+          <Button onClick={() => setLoadFailed(false)}>{copy.retry}</Button>
+        </>}
+        <Typography role="status" aria-live="polite" aria-atomic="true" color="text.secondary" sx={{pt: 2, pb: 0.25}}>
+          {loading ? copy.loading : loadFailed ? "" : !query.trim() ? copy.empty : results.length ? copy.resultCount(results.length) : copy.noResults}
+        </Typography>
         <List disablePadding sx={{pt: results.length ? 1.25 : 0}}>{results.map((result) => {
           const details: string[] = [copy.types[result.type]];
           if (result.status) details.push(copy.statuses[result.status]);
-          if (result.date) details.push(formatCalendarDate(result.date, lang));
+          if (result.date) details.push(dateFormatter.format(new Date(`${result.date}T12:00:00`)));
           return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
             <ListItemIcon sx={{color: "text.secondary", minWidth: 44}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
             <ListItemText primary={result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />

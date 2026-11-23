@@ -4,7 +4,7 @@ import {createTheme, PaletteMode} from "@mui/material";
 
 const defaultTheme = createTheme()
 export const yellowish = '#fcfbf9'
-export const darkRedLightMode = '#b76d6d'
+export const darkRedLightMode = '#9c5050'
 export const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
 
