@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {AppRouterCacheProvider} from "@mui/material-nextjs/v15-appRouter";
 import {ThemeProvider, type Theme} from "@mui/material/styles";
 import {
@@ -12,6 +12,7 @@ import {
 import {
   AppBar,
   Box,
+  Button,
   Container,
   createTheme,
   CssBaseline,
@@ -41,11 +42,11 @@ import moment from "moment";
 import "moment/locale/pl";
 import Announcement from "@/components/Announcement";
 import CloseIcon from "@mui/icons-material/Close";
-import PrintIcon from "@mui/icons-material/Print";
 import {
-  BANNER_ENABLED,
+  BANNER_EXPIRES_AT,
   BANNER_HEIGHT,
   BANNER_STORAGE_KEY,
+  isBannerActive,
   getAppBarHeightFromTheme,
 } from "@/components/layoutMetrics";
 
@@ -69,6 +70,9 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const [fontSize, setFontSize] = useState<string>("medium")
   const [announcementOpened, setAnnouncementOpened] = useState<boolean>(false)
   const [bannerOpen, setBannerOpen] = useState<boolean>(false)
+  const [searchOpened, setSearchOpened] = useState(false)
+  const [bannerHeight, setBannerHeight] = useState(BANNER_HEIGHT)
+  const bannerRef = useRef<HTMLDivElement>(null)
   const prefersDark = useMediaQuery('(prefers-color-scheme: dark)')
 
   useEffect(() => {
@@ -81,13 +85,26 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   }, []);
 
   useEffect(() => {
-    if (!BANNER_ENABLED) {
-      setBannerOpen(false);
-      return;
-    }
-    const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-    setBannerOpen(!bannerDismissed);
+    const updateBanner = () => {
+      const bannerDismissed = myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
+      setBannerOpen(isBannerActive() && !bannerDismissed);
+    };
+    updateBanner();
+    const remaining = Date.parse(BANNER_EXPIRES_AT) - Date.now();
+    if (remaining <= 0) return;
+    const timeout = window.setTimeout(updateBanner, Math.min(remaining, 2_147_483_647));
+    return () => window.clearTimeout(timeout);
   }, []);
+
+  useEffect(() => {
+    if (!bannerOpen || !bannerRef.current) return;
+    const banner = bannerRef.current;
+    const measure = () => setBannerHeight(banner.getBoundingClientRect().height);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(banner);
+    return () => observer.disconnect();
+  }, [bannerOpen]);
 
   const getThemeMode = () => {
     return ((darkMode == undefined && prefersDark) || darkMode) ? "dark" : "light"
@@ -97,9 +114,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const theme = createTheme(getDesignTokens(mode, fontSize));
   const appBarHeight = getAppBarHeightFromTheme(theme);
   const bannerCopy = BANNER_COPY[lang];
-  const bannerVisible = BANNER_ENABLED && bannerOpen;
-  const contentTopPadding = (appBarHeight * 2) + (bannerVisible ? BANNER_HEIGHT : 0);
-  const closeBannerLabel = lang === "pl" ? "Zamknij baner PDF" : "Dismiss PDF banner";
+  const bannerVisible = bannerOpen;
 
   const handleBannerClose = () => {
     myLocalStorage.setItem(BANNER_STORAGE_KEY, "true")
@@ -117,7 +132,10 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           open={announcementOpened}
           setOpen={setAnnouncementOpened}
         />
-        <Container disableGutters sx={{backgroundColor: "background.default", minHeight: "100vh"}}>
+        <Container disableGutters sx={{
+          backgroundColor: "background.default", minHeight: "100vh",
+          "--announcement-banner-height": `${bannerVisible ? bannerHeight : 0}px`,
+        }}>
           <AppBar sx={{backgroundColor: appbarDarkGrey}}>
             <Toolbar>
               <MainMenu
@@ -135,12 +153,15 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                   Meum
                 </Typography>
               </MUILink>
-              <GlobalSearch lang={lang} />
+              <GlobalSearch lang={lang} open={searchOpened} setOpen={setSearchOpened} />
             </Toolbar>
           </AppBar>
 
           {bannerVisible && (
             <Box
+              ref={bannerRef}
+              role="region"
+              aria-label={bannerCopy.highlight}
               sx={(theme: Theme) => ({
                 position: "fixed",
                 top: `${appBarHeight}px`,
@@ -160,8 +181,9 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
-                  gap: 2,
+                  gap: 1,
                   px: {xs: 2, sm: 3},
+                  py: 1,
                   minHeight: `${BANNER_HEIGHT}px`,
                   color:
                     theme.palette.mode === "dark"
@@ -172,10 +194,9 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 <Typography
                   variant="body2"
                   sx={{
-                    display: "flex",
-                    alignItems: "center",
+                    flex: 1,
+                    minWidth: 0,
                     fontWeight: 500,
-                    gap: 1,
                   }}
                 >
                   <Box
@@ -187,15 +208,16 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                     })}
                   >
                     {bannerCopy.highlight}
-                  </Box>
+                  </Box>{" "}
                   <Box component="span">{bannerCopy.message}</Box>
-                  <PrintIcon fontSize="small" sx={{ml: 0.5}} />
+                  {" "}<Button size="small" onClick={() => setSearchOpened(true)} sx={{p: 0, minWidth: 0, verticalAlign: "baseline"}}>{bannerCopy.action}</Button>
                 </Typography>
                 <IconButton
-                  aria-label={closeBannerLabel}
+                  aria-label={bannerCopy.dismiss}
                   size="small"
                   color="inherit"
                   onClick={handleBannerClose}
+                  sx={{flexShrink: 0, alignSelf: "flex-start"}}
                 >
                   <CloseIcon fontSize="small" />
                 </IconButton>
@@ -210,7 +232,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
                 overflowY: "scroll",
                 width: "100%",
                 ml: 0,
-                pt: `${contentTopPadding}px`,
+                pt: `calc(${appBarHeight * 2}px + var(--announcement-banner-height, 0px))`,
                 height: "100%",
               }}
             >

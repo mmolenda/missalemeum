@@ -35,7 +35,7 @@ const COPY: Record<Locale, {
   en: {
     open: "Open search",
     clear: "Clear search",
-    placeholder: "Search masses, chants, prayers or page numbers…", empty: "Enter a title or a page number from a missal or hymnal.", noResults: "No matching results.",
+    placeholder: "Search masses, chants, prayers or page numbers…", empty: "Enter a title or a page number from a missal.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
     types: {mass: "Mass", prayer: "Prayer", chant: "Chant", supplement: "Supplement", ordinary: "Ordinary"},
     statuses: {commemoration: "Commemoration", displaced: "Displaced observance"},
@@ -70,9 +70,10 @@ const formatCalendarDate = (date: string, lang: Locale) => new Intl.DateTimeForm
   lang, {day: "numeric", month: "long", year: "numeric"},
 ).format(new Date(`${date}T12:00:00`));
 
-export default function GlobalSearch({lang}: {lang: Locale}) {
+export default function GlobalSearch({lang, open, setOpen}: {
+  lang: Locale; open: boolean; setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) {
   const copy = COPY[lang];
-  const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchResult[] | null>(null);
   const [loading, setLoading] = useState(false);
@@ -88,7 +89,7 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [setOpen]);
   useEffect(() => {
     if (!open || index) return;
     const controller = new AbortController();

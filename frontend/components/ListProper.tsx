@@ -51,11 +51,7 @@ import "moment/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
 import {callApi} from "@/components/utils";
-import {myLocalStorage} from "@/components/myLocalStorage";
 import {
-  BANNER_ENABLED,
-  BANNER_HEIGHT,
-  BANNER_STORAGE_KEY,
   getAppBarHeightFromTheme,
 } from "@/components/layoutMetrics";
 import { PdfDownloadMenu } from "@/components/pdfDownload";
@@ -527,9 +523,6 @@ export default function ListProper({
       ? searchResults.map((item) => ({ kind: "day", item }))
       : autocompleteSuggestions;
 
-  const bannerDismissed = hasMounted && myLocalStorage.getItem(BANNER_STORAGE_KEY) === "true";
-  const bannerOffset = BANNER_ENABLED && !bannerDismissed ? BANNER_HEIGHT : 0;
-
   listItemRefs.current = {};
 
   interface ButtonFieldProps {
@@ -629,7 +622,7 @@ export default function ListProper({
         display: "flex",
         top: (theme) => {
           const appBarHeight = getAppBarHeightFromTheme(theme);
-          return `${appBarHeight + bannerOffset}px`;
+          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
         },
         width: "875px",
         p: "0.75rem",

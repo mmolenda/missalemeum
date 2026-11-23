@@ -1,5 +1,24 @@
 # AGENTS.md
 
+## Feature Announcements
+
+- Preserve both existing announcement mechanisms: the dismissible banner in
+  `frontend/app/[locale]/(root_layout)/layout.tsx` and the release dialog in
+  `frontend/components/Announcement.tsx`. Do not remove them simply because an
+  announcement is disabled or expired.
+- After adding a user-facing feature that users may otherwise miss, propose
+  enabling an announcement. Prefer the non-blocking banner for small features;
+  reserve the dialog for announcements that justify interrupting the user.
+- Banner configuration is in `frontend/components/layoutMetrics.ts`; localized
+  copy is `BANNER_COPY` in `frontend/components/intl.tsx`. Give each announcement
+  its own persistent dismissal key, independent of the build version, and an
+  explicit expiration date. Do not reuse the dismissal key of an older campaign.
+- Preserve dismissal across navigation and reloads. Keep the close button
+  accessible and provide Polish and English text.
+- Banner height may change when text wraps on phones or the font size changes.
+  Keep content and fixed list controls aligned using the measured banner height
+  (`--announcement-banner-height`), rather than assuming a fixed 48 px offset.
+
 ## Tests
 
 - In this repo, do not assume `python` or `pytest` are available globally.
