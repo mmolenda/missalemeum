@@ -28,6 +28,7 @@ class SearchResult(Info):
     source: str = Field(..., description="Presentation source, for example calendar or proper.")
     date: Optional[str] = Field(default=None, description="Calendar date in YYYY-MM-DD format, when applicable.")
     status: Optional[str] = Field(default=None, description="Calendar relationship, such as commemoration or displaced.")
+    page_only: Optional[bool] = Field(default=None, description="Include this entry only when searching by printed page number.")
 
 
 class Section(BaseModel):

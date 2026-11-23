@@ -173,6 +173,9 @@ def get_supplement(lang, resource, subdir=None):
         path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
             content = yaml.full_load(fh)
+            if subdir in ("canticum", "oratio"):
+                pages = getattr(TRANSLATION[lang], f"{subdir.upper()}_PAGES", {})
+                content["info"]["tags"].extend(pages.get(resource, []))
             return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")

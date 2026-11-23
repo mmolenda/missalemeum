@@ -387,10 +387,19 @@ def _search_cached_response(payload: list[dict[str, Any]], request: Request, cac
 
 
 def _content_search_index(lang: str) -> list[dict[str, Any]]:
+    translation = TRANSLATION[lang]
     items: list[dict[str, Any]] = [{
-        "id": item["ref"], "title": item["title"], "tags": item["tags"],
+        "id": item["ref"], "title": item["title"],
+        "tags": [*item["tags"], *translation.PAGES.get(item["id"], [])],
         "type": "mass", "source": "proper", "path": f"mass/{item['ref']}",
-    } for item in TRANSLATION[lang].VOTIVE_MASSES]
+    } for item in translation.VOTIVE_MASSES]
+    votive_ids = {item["id"] for item in translation.VOTIVE_MASSES}
+    items.extend({
+        "id": proper_id, "title": translation.TITLES[proper_id], "tags": pages,
+        "type": "mass", "source": "proper", "path": f"mass/{proper_id}",
+        "page_only": True,
+    } for proper_id, pages in translation.PAGES.items()
+        if pages and proper_id in translation.TITLES and proper_id not in votive_ids)
     items.extend({
         **item, "type": "prayer", "source": "prayer", "path": f"oratio/{item['id']}",
     } for item in supplement_index.get_oratio_index(lang))
