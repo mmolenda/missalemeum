@@ -9,7 +9,7 @@ def get_pages(pallotinum: Optional[int] = None) -> List[str]:
     if pallotinum is None:
         return []
     return [
-        f"Pallotinum s. {pallotinum}"
+        f"Mszalik - Pallotinum s. {pallotinum}"
     ]
 
 

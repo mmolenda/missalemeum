@@ -71,7 +71,7 @@ def test_votive_pro_unitate_ecclesiae(inter_readings):
         VOTIVE_PRO_UNITATE_ECCLESIAE, LANGUAGE_POLSKI,
         ProperConfig(inter_readings_section=inter_readings),
     ).parse()
-    assert 'Pallotinum s. 1255' in proper_pl.tags
+    assert 'Mszalik - Pallotinum s. 1255' in proper_pl.tags
     assert 'Szaty fioletowe' in proper_pl.tags
     assert any(mass['id'] == VOTIVE_PRO_UNITATE_ECCLESIAE
                and mass['ref'] == 'pro-unitate-ecclesiae'

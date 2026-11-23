@@ -65,7 +65,7 @@ export default function ArticleTags({lang, info, showIcon}: { lang: string, info
   if (info.tags) {
     for (const infoItem of info.tags.filter((i) => !i.includes("Szaty"))) {
       if (infoItem.match(/ \w\. \d+/)) {
-        // Paper pages references such as "Pallotinum s. 207" or "Angelus Press p. 359" are handled separately
+        // Paper page references, including missals and Te Deum songbooks, are handled separately
         paperPages.push(infoItem)
       } else {
         tags.push(<Tag key={infoItem} label={infoItem}/>)
