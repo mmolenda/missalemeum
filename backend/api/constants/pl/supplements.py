@@ -253,10 +253,10 @@ SUPPLEMENTS = {
         {"label": OE, "path": "/pl/supplement/objasnienia-12-25m2"}
     ],
     constants.SANCTI_12_25_3: [
-        {"label": OE, "path": "/pl/supplement/objasnienia-"}
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-25m3"}
     ],
     constants.SANCTI_12_26: [
-        {"label": OE, "path": "/pl/supplement/objasnienia-12-25m3"}
+        {"label": OE, "path": "/pl/supplement/objasnienia-12-26"}
     ],
     constants.TEMPORA_NAT1_0: [
         {"label": OE, "path": "/pl/supplement/objasnienia-Nat1-0"}
@@ -281,6 +281,9 @@ SUPPLEMENTS = {
     ],
     constants.TEMPORA_EPI5_0: [
         {"label": OE, "path": "/pl/supplement/objasnienia-Epi5-0"}
+    ],
+    constants.TEMPORA_EPI6_0: [
+        {"label": OE, "path": "/pl/supplement/objasnienia-Epi6-0"}
     ],
     constants.TEMPORA_QUADP1_0: [
         {"label": "Przedpoście", "path": "/pl/supplement/5-przedposcie"},
