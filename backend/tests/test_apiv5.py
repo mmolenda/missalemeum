@@ -80,6 +80,23 @@ def test_api_songbook_references_for_entries_in_prayer_catalogue(client, resourc
         assert all(tag in item['tags'] for tag in expected)
 
 
+@pytest.mark.parametrize('lang', ['pl', 'en'])
+def test_api_search_includes_printed_proper_pages_without_calendar_duplicates(client, lang):
+    from api.constants import TRANSLATION
+
+    translation = TRANSLATION[lang]
+    results = client.get(f'/{lang}/api/v5/search/index').json()
+    for proper_id, pages in translation.PAGES.items():
+        if not pages or proper_id not in translation.TITLES:
+            continue
+        votive = next((item for item in translation.VOTIVE_MASSES if item['id'] == proper_id), None)
+        target = f"mass/{votive['ref'] if votive else proper_id}"
+        matches = [item for item in results if item['path'] == target]
+        assert len(matches) == 1
+        assert all(page in matches[0]['tags'] for page in pages)
+        assert matches[0].get('page_only', False) == (votive is None)
+
+
 def test_api_search_calendar_index_includes_observances(client):
     response = client.get('/pl/api/v5/search/calendar-index/2026-09-14')
     assert response.status_code == 200

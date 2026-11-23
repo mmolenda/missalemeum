@@ -8,12 +8,15 @@ import {Icon} from "@iconify/react";
 import Link from "next/link";
 import {buildApiUrl} from "@/components/utils";
 import {Locale} from "@/components/intl";
+import {findPageResults, isPageQuery} from "@/components/pageSearch";
 
 type SearchType = "mass" | "prayer" | "chant" | "supplement" | "ordinary";
 type SearchResult = {
   id: string; title: string; tags?: string[]; type: SearchType;
   source: "calendar" | "proper" | "prayer" | "chant" | "supplement" | "ordinary";
   path: string; date?: string; status?: "commemoration" | "displaced";
+  page_only?: boolean;
+  publication?: string; pageReference?: string;
 };
 
 const COPY: Record<Locale, {
@@ -24,7 +27,7 @@ const COPY: Record<Locale, {
   pl: {
     open: "Otwórz wyszukiwarkę",
     clear: "Wyczyść wyszukiwanie",
-    placeholder: "Szukaj mszy, pieśni, modlitw…", empty: "Zacznij pisać, aby wyszukać treści.", noResults: "Brak pasujących wyników.",
+    placeholder: "Szukaj mszy, pieśni, modlitw lub numeru strony…", empty: "Wpisz tytuł lub numer strony mszalika albo śpiewnika.", noResults: "Brak pasujących wyników.",
     shortcut: "Szukaj (⌘K / Ctrl+K)",
     types: {mass: "Msza", prayer: "Modlitwa", chant: "Pieśń", supplement: "Suplement", ordinary: "Ordo"},
     statuses: {commemoration: "Wspomnienie", displaced: "Obchód pominięty"},
@@ -32,7 +35,7 @@ const COPY: Record<Locale, {
   en: {
     open: "Open search",
     clear: "Clear search",
-    placeholder: "Search masses, chants, prayers…", empty: "Start typing to search.", noResults: "No matching results.",
+    placeholder: "Search masses, chants, prayers or page numbers…", empty: "Enter a title or a page number from a missal or hymnal.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
     types: {mass: "Mass", prayer: "Prayer", chant: "Chant", supplement: "Supplement", ordinary: "Ordinary"},
     statuses: {commemoration: "Commemoration", displaced: "Displaced observance"},
@@ -107,13 +110,14 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     return () => controller.abort();
   }, [index, lang, open]);
 
-  const results = useMemo(() => {
+  const results = useMemo<SearchResult[]>(() => {
     const normalizedQuery = normalise(query.trim());
     if (!normalizedQuery || !index) return [];
+    if (isPageQuery(query)) return findPageResults(index, query, lang);
     const today = new Date();
     const windowStart = shiftMonths(today, -1);
     const windowEnd = shiftMonths(today, 12);
-    return index.map((result) => {
+    return index.filter((result) => !result.page_only).map((result) => {
       const resultDate = result.date ? new Date(`${result.date}T12:00:00`) : null;
       const title = normalise(result.title);
       const tags = normalise((result.tags ?? []).join(" "));
@@ -159,11 +163,12 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
         {!loading && query.trim() && !results.length ? <Typography color="text.secondary" sx={{pt: 2, pb: 0.25}}>{copy.noResults}</Typography> : null}
         <List disablePadding sx={{pt: results.length ? 1.25 : 0}}>{results.map((result) => {
           const details: string[] = [copy.types[result.type]];
+          if (result.pageReference) details.push(result.pageReference.replace(/^.*\s([sp]\.\s*\d+)$/, "$1"));
           if (result.status) details.push(copy.statuses[result.status]);
           if (result.date) details.push(formatCalendarDate(result.date, lang));
-          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
+          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}-${result.pageReference ?? ""}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
             <ListItemIcon sx={{color: "text.secondary", minWidth: 44}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
-            <ListItemText primary={result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />
+            <ListItemText primary={result.publication ? `${result.publication} — ${result.title}` : result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />
           </ListItemButton>;
         })}</List>
       </DialogContent>
