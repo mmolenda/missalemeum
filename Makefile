@@ -17,7 +17,7 @@ backend:
 	cd backend && MISSAL_NO_CACHE=True ../$(PYTHON) -m api.app
 
 frontend:
-	cd frontend && API_URL=$(API_URL) NEXT_PUBLIC_API_URL=$(API_URL) npm run dev
+	cd frontend && API_URL=$(API_URL) NEXT_PUBLIC_API_URL= npm run dev
 
 dev:
 	$(MAKE) -j2 backend frontend

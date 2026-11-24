@@ -1,32 +1,21 @@
-import React from 'react';
+import React from "react";
 import List from "@mui/material/List";
-import {SidenavListItem} from "./styledComponents/SidenavListItem";
-import {Box, Skeleton} from "@mui/material";
+import {Box, ListItem, Skeleton} from "@mui/material";
+import {ListSurface} from "@/components/listStyles";
 
 export default function SkeletonIndex() {
   return (
-    <Box sx={{padding: "5%"}}>
-      <List>
-        {[...Array(30).keys()].map((x) => {
-            return (
-              <SidenavListItem
-                key={x}
-                disableGutters
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "start",
-                  pl: "1.5rem"
-                }}
-              >
-                <Skeleton variant="text" key={`${x}1`} animation="wave" width="70%" height={30}/>
-                <Skeleton variant="text" key={`${x}2`} animation="wave" width="40%" height={30}
-                          sx={{backgroundColor: "secondary.main"}}/>
-              </SidenavListItem>)
-          }
-        )}
+    <ListSurface aria-hidden="true">
+      <List className="list-index">
+        {Array.from({length: 30}, (_, index) => (
+          <ListItem key={index} className="list-item" disableGutters>
+            <Box className="list-skeleton">
+              <Skeleton variant="text" animation="wave" width="70%" height={24} />
+              <Skeleton variant="text" animation="wave" width="40%" height={20} />
+            </Box>
+          </ListItem>
+        ))}
       </List>
-    </Box>
-  )
+    </ListSurface>
+  );
 }
-

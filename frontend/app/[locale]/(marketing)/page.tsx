@@ -131,6 +131,11 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     faqHeading: "Frequently asked questions",
     faq: [
       {
+        question: "Is there a Missale Meum mobile app?",
+        answer:
+          "There is no dedicated Missale Meum app in Google Play or the App Store. You can install the website as a Progressive Web App (PWA) to use it like a regular app on Android or iPhone. On Android, open the website in Chrome and choose ‘Add to Home screen’ from the menu. On iPhone, open it in Safari, tap Share, then choose ‘Add to Home Screen’.",
+      },
+      {
         question: "Is Missale Meum free to use?",
         answer:
           "Yes. Missale Meum is a volunteer-maintained project and will always remain free for personal use, with no fees or ads. You can install it as a web app or use it from any modern browser without payment or registration. If you wish, optional donations help cover hosting and support Catholic education in Poland.",
@@ -206,6 +211,11 @@ const LANDING_COPY: Record<Locale, LandingCopy> = {
     trustHeading: "O autorze",
     faqHeading: "Najczęstsze pytania",
     faq: [
+      {
+        question: "Czy Missale Meum ma aplikację mobilną?",
+        answer:
+          "Nie ma dedykowanej aplikacji Missale Meum w Google Play ani w App Store. Możesz jednak zainstalować stronę jako PWA (Progressive Web App), aby korzystać z niej jak ze zwykłej aplikacji na Androidzie lub iPhonie. Na Androidzie otwórz stronę w Chrome i z menu wybierz „Dodaj do ekranu startowego”. Na iPhonie otwórz ją w Safari, kliknij „Udostępnij”, a następnie „Dodaj do ekranu głównego”.",
+      },
       {
         question: "Czy Missale Meum jest płatne?",
         answer:

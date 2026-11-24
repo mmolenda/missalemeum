@@ -82,18 +82,18 @@ const LeftHandMenu = ({
 
   return (
     <Box
-      sx={{width: 300}}
-      role="presentation"
-      onClick={toggleDrawer(false)}
-      onKeyDown={toggleDrawer(false)}
+      sx={{width: "min(300px, 100vw)"}}
+      component="nav"
+      aria-label={lang === "pl" ? "Nawigacja główna" : "Main navigation"}
     >
-      <IconButton onClick={toggleDrawer(false)}>
+      <IconButton aria-label={lang === "pl" ? "Zamknij menu" : "Close menu"} onClick={toggleDrawer(false)}>
         <CloseIcon />
       </IconButton>
       <List>
         {menuItems.map(({label, route, external, icon}) => (
           <ListItem key={label}>
             <ListItemButton
+              onClick={toggleDrawer(false)}
               {...(external ? {
                 component: "a",
                 href: route,
@@ -116,22 +116,22 @@ const LeftHandMenu = ({
         ))}
         <Divider/>
         <ListItem key="lang">
-          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
+          <ToggleButtonGroup color="secondary" aria-label={lang === "pl" ? "Język" : "Language"}>
             <ToggleButton onClick={() => myLocalStorage.setItem("lang", "en")} href="/en" value="en" selected={lang === "en"}>English</ToggleButton>
             <ToggleButton onClick={() => myLocalStorage.setItem("lang", "pl")} href="/pl" value="pl" selected={lang === "pl"}>Polski</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="theme">
-          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
-            <ToggleButton onClick={() => toggleDarkMode(false)} value="light" selected={darkMode==false}><LightModeIcon /></ToggleButton>
-            <ToggleButton onClick={() => toggleDarkMode(true)} value="dark" selected={darkMode}><DarkModeIcon /></ToggleButton>
+          <ToggleButtonGroup color="secondary" aria-label={lang === "pl" ? "Motyw" : "Theme"}>
+            <ToggleButton aria-label={lang === "pl" ? "Jasny motyw" : "Light theme"} onClick={() => toggleDarkMode(false)} value="light" selected={darkMode==false}><LightModeIcon /></ToggleButton>
+            <ToggleButton aria-label={lang === "pl" ? "Ciemny motyw" : "Dark theme"} onClick={() => toggleDarkMode(true)} value="dark" selected={darkMode}><DarkModeIcon /></ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
         <ListItem key="font">
-          <ToggleButtonGroup color="secondary" aria-label="outlined secondary button group">
-            <ToggleButton sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => switchFontSize("small")} value="small" selected={fontSize === "small"}>A</ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontWeight: "600"}} onClick={() => switchFontSize("medium")} value="medium" selected={["medium", undefined, null].includes(fontSize)}>A</ToggleButton>
-            <ToggleButton sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => switchFontSize("large")} value="large" selected={fontSize === "large"}>A</ToggleButton>
+          <ToggleButtonGroup color="secondary" aria-label={lang === "pl" ? "Rozmiar tekstu" : "Text size"}>
+            <ToggleButton aria-label={lang === "pl" ? "Mały tekst" : "Small text"} sx={{px: "1rem", fontSize: "0.5rem", fontWeight: "600"}} onClick={() => switchFontSize("small")} value="small" selected={fontSize === "small"}>A</ToggleButton>
+            <ToggleButton aria-label={lang === "pl" ? "Średni tekst" : "Medium text"} sx={{px: "1rem", fontWeight: "600"}} onClick={() => switchFontSize("medium")} value="medium" selected={["medium", undefined, null].includes(fontSize)}>A</ToggleButton>
+            <ToggleButton aria-label={lang === "pl" ? "Duży tekst" : "Large text"} sx={{px: "1rem", fontSize: "1.25rem", fontWeight: "600"}} onClick={() => switchFontSize("large")} value="large" selected={fontSize === "large"}>A</ToggleButton>
           </ToggleButtonGroup>
         </ListItem>
       </List>
@@ -180,7 +180,9 @@ export default function MainMenu({
         <IconButton
             size="large"
             edge="start"
-            aria-label="menu"
+            aria-label={lang === "pl" ? "Otwórz menu" : "Open menu"}
+            aria-expanded={drawerOpened}
+            aria-controls="main-menu"
             sx={{color: "yellowish.main"}}
             onClick={toggleDrawer(true)}
         >
@@ -188,6 +190,8 @@ export default function MainMenu({
             <MenuIcon sx={{fontSize: 24}}/>
         </IconButton>
         <Drawer
+            id="main-menu"
+            slotProps={{paper: {"aria-label": lang === "pl" ? "Menu główne" : "Main menu"}}}
             variant="temporary"
             disablePortal={true}
             open={drawerOpened}

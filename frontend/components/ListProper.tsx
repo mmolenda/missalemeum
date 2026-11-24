@@ -2,16 +2,16 @@
 
 import Link from "next/link";
 import List from "@mui/material/List";
-import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
-import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
+import {CalendarSurface} from "@/components/calendarStyles";
+import {ListControls, ListSearchPaper} from "@/components/listStyles";
 import React, {
   createRef,
   Dispatch,
-  Fragment,
   RefObject,
   SetStateAction,
   useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -19,12 +19,15 @@ import React, {
 import {
   CALENDAR_BUTTON_TOOLTIP,
   COMMEMORATION,
+  FIRST_FRIDAY,
+  FIRST_SATURDAY,
   IN,
   Locale,
   MUI_DATEPICKER_LOCALE_TEXT,
   RANK_NAMES,
   SEARCH_PLACEHOLDER,
   SEARCH_SUGGESTIONS_PROPER,
+  TODAY,
   TODAY_BUTTON_TOOLTIP,
 } from "@/components/intl";
 import moment, {Moment} from "moment";
@@ -34,14 +37,15 @@ import {
   Box,
   IconButton,
   ListItemButton,
-  ListItemIcon,
   PaletteColor,
   TextField,
   Tooltip,
   darken,
   lighten,
 } from "@mui/material";
-import ListItemText from "@mui/material/ListItemText";
+import ListItem from "@mui/material/ListItem";
+import SearchIcon from "@mui/icons-material/Search";
+import InputAdornment from "@mui/material/InputAdornment";
 import EventIcon from "@mui/icons-material/Event";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import "react-datepicker/dist/react-datepicker.css";
@@ -51,9 +55,7 @@ import "moment/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
 import {callApi} from "@/components/utils";
-import {
-  getAppBarHeightFromTheme,
-} from "@/components/layoutMetrics";
+import {useMeasuredHeight} from "@/components/useMeasuredHeight";
 import { PdfDownloadMenu } from "@/components/pdfDownload";
 
 const DATE_FORMAT = "YYYY-MM-DD";
@@ -109,12 +111,15 @@ export default function ListProper({
   const pdfResourceId = useMemo(() => String(currentYear), [currentYear]);
 
   const router = useRouter();
+  const controlsRef = useRef<HTMLDivElement>(null);
+  useMeasuredHeight(controlsRef, "--list-controls-height");
 
   const listItemRefs = useRef<Record<string, RefObject<HTMLLIElement | null>>>({});
   const topSentinelRef = useRef<HTMLDivElement | null>(null);
   const bottomSentinelRef = useRef<HTMLDivElement | null>(null);
   const scrollFrameRef = useRef<number | null>(null);
   const shouldScrollToSelectedRef = useRef(false);
+  const prependAnchorRef = useRef<{id: string; top: number} | null>(null);
   const pendingExtendRef = useRef<"forward" | "backward" | null>(null);
   const loadingDirectionRef = useRef<{ forward: boolean; backward: boolean }>({ forward: false, backward: false });
   const fetchingYearsRef = useRef(new Set<number>());
@@ -176,6 +181,7 @@ export default function ListProper({
       visibleIdsRef.current = ids;
       fetchingYearsRef.current.clear();
       pendingExtendRef.current = null;
+      prependAnchorRef.current = null;
       loadingDirectionRef.current = { forward: false, backward: false };
       setItemsById(map);
       setSortedIds(ids);
@@ -286,6 +292,10 @@ export default function ListProper({
     if (!previousIds.length) {
       return false;
     }
+    const anchor = listItemRefs.current[firstId]?.current;
+    if (anchor) {
+      prependAnchorRef.current = {id: firstId, top: anchor.getBoundingClientRect().top};
+    }
     const updated = [...previousIds, ...currentVisible];
     visibleIdsRef.current = updated;
     setVisibleIds(updated);
@@ -302,6 +312,7 @@ export default function ListProper({
     const start = Math.max(0, index - halfWindow);
     const end = Math.min(sorted.length - 1, index + halfWindow);
     const nextIds = sorted.slice(start, end + 1);
+    prependAnchorRef.current = null;
     visibleIdsRef.current = nextIds;
     setVisibleIds(nextIds);
     return true;
@@ -353,6 +364,8 @@ export default function ListProper({
     }
   }, [sortedIds, extendVisible]);
 
+  // Re-observe after each batch: a short batch at a year boundary may leave
+  // the sentinel inside rootMargin, without another intersection transition.
   useEffect(() => {
     if (!hasMounted) {
       return;
@@ -394,7 +407,7 @@ export default function ListProper({
       }
       observer.disconnect();
     };
-  }, [handleLoadMore, hasMounted]);
+  }, [handleLoadMore, hasMounted, visibleIds]);
 
   const updateCurrentYear = useCallback(() => {
     const middle = window.innerHeight / 2;
@@ -456,7 +469,19 @@ export default function ListProper({
     setHasMounted(true);
   }, [todayFmt]);
 
-  useEffect(() => {
+  // Keep the same row at the same screen position when earlier dates are inserted.
+  // Measuring the row (rather than scrollHeight) also handles month labels and wrapping.
+  useLayoutEffect(() => {
+    const anchor = prependAnchorRef.current;
+    prependAnchorRef.current = null;
+    if (!anchor || shouldScrollToSelectedRef.current) return;
+    const element = listItemRefs.current[anchor.id]?.current;
+    if (element) {
+      window.scrollBy({top: element.getBoundingClientRect().top - anchor.top, behavior: "instant"});
+    }
+  }, [visibleItems]);
+
+  useLayoutEffect(() => {
     if (!selectedItem) {
       return;
     }
@@ -465,7 +490,10 @@ export default function ListProper({
     }
     const listItemRef = listItemRefs.current[selectedItem];
     if (listItemRef?.current) {
-      listItemRef.current.scrollIntoView({ block: "center", behavior: "auto" });
+      const rect = listItemRef.current.getBoundingClientRect();
+      const controlsBottom = controlsRef.current?.getBoundingClientRect().bottom ?? 0;
+      const targetTop = controlsBottom + Math.max(16, (window.innerHeight - controlsBottom - rect.height) / 2);
+      window.scrollBy({top: rect.top - targetTop, behavior: "instant"});
       shouldScrollToSelectedRef.current = false;
     }
   }, [visibleItems, selectedItem]);
@@ -522,8 +550,6 @@ export default function ListProper({
     searchInput.trim().length >= 2
       ? searchResults.map((item) => ({ kind: "day", item }))
       : autocompleteSuggestions;
-
-  listItemRefs.current = {};
 
   interface ButtonFieldProps {
     setOpen?: Dispatch<SetStateAction<boolean>>;
@@ -616,24 +642,12 @@ export default function ListProper({
   };
 
   return (
-    <>
-      <Box sx={{
-        position: "fixed",
-        display: "flex",
-        top: (theme) => {
-          const appBarHeight = getAppBarHeightFromTheme(theme);
-          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
-        },
-        width: "875px",
-        p: "0.75rem",
-        boxShadow: 2,
-        backgroundColor: "background.default",
-        zIndex: 100,
-        gap: "0.5rem",
-      }}>
+    <CalendarSurface>
+      <ListControls ref={controlsRef} className="list-controls calendar-controls">
         <Autocomplete<SearchOption, false, false, true>
+          slots={{paper: ListSearchPaper}}
           size="small"
-          sx={{ width: "22%" }}
+          sx={{flex: 1, minWidth: 0, mr: {xs: 0.5, sm: "auto"}, maxWidth: {sm: 400}}}
           freeSolo
           value={null}
           options={autocompleteOptions}
@@ -706,7 +720,11 @@ export default function ListProper({
               key={`search-input-${currentYear}`}
               {...params}
               onFocus={handleSearchFocus}
-              label={`${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${currentYear}`}
+              placeholder={`${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${currentYear}`}
+              slotProps={{
+                htmlInput: {...params.inputProps, "aria-label": `${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${currentYear}`},
+                input: {...params.InputProps, startAdornment: <InputAdornment position="start"><SearchIcon sx={{color: "var(--list-muted)"}} /></InputAdornment>},
+              }}
             />
           )}
         />
@@ -742,79 +760,68 @@ export default function ListProper({
           apiEndpoint="calendar"
           resourceId={pdfResourceId}
         />
-      </Box>
-      <List>
+      </ListControls>
+      <List className="list-index calendar-list" aria-label={lang === "pl" ? "Kalendarz liturgiczny" : "Liturgical calendar"}>
         <Box component="li" ref={topSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>
         {visibleItems.map((indexItem) => {
-          const colorCode = indexItem.colors[0];
-          const dateParsed = moment(indexItem.id, DATE_FORMAT);
-          const isFirstDayOfMonth = dateParsed.date() === 1;
-          const isLastDayOfMonth = dateParsed.date() === dateParsed.daysInMonth();
-          const isSunday = dateParsed.isoWeekday() === 7;
-          const myRef: RefObject<HTMLLIElement | null> = createRef<HTMLLIElement>();
+          const dateParsed = moment(indexItem.id, DATE_FORMAT).locale(lang);
+          const isMonthStart = dateParsed.date() === 1;
+          const weekday = dateParsed.isoWeekday();
+          const isSunday = weekday === 7;
+          const isFirstFriday = weekday === 5 && dateParsed.date() <= 7;
+          const isFirstSaturday = weekday === 6 && dateParsed.date() <= 7;
+          const isToday = indexItem.id === todayFmt;
+          const myRef = listItemRefs.current[indexItem.id] ?? createRef<HTMLLIElement>();
           listItemRefs.current[indexItem.id] = myRef;
           return (
-            <Fragment key={indexItem.id}>
-              <>
-                {isFirstDayOfMonth && (
-                  <SidenavListItem key={`${dateParsed.format("MMYYYY")}-heading`} sx={{ borderLeft: 0, borderRight: 0 }}>
-                    <ListItemText
-                      primary={dateParsed.format("MMMM YYYY")}
-                      slotProps={{
-                        primary: {
-                          py: "1.5rem",
-                          textTransform: "uppercase",
-                          fontWeight: 600,
-                          fontFamily: (theme) => theme.typography.fontFamily,
-                        },
-                      }}
-                    />
-                  </SidenavListItem>
-                )}
-              </>
-              <SidenavListItem
-                ref={myRef}
-                key={`${indexItem.id}-item`}
-                disableGutters
-                sx={{
-                  boxShadow: isLastDayOfMonth ? 1 : 0,
-                  borderTop: isSunday ? "2px solid" : "",
-                  borderTopColor: isSunday ? "text.disabled" : "",
-                  borderLeftWidth: "5px",
-                  borderLeftStyle: "solid",
-                  borderLeftColor: `vestment${colorCode}.main`,
-                }}
+            <ListItem
+              key={indexItem.id}
+              ref={myRef}
+              data-date={indexItem.id}
+              disableGutters
+              className={[
+                "list-item calendar-day",
+                isSunday || indexItem.rank === 1 ? "calendar-important" : "",
+                !isSunday && indexItem.rank === 4 ? "calendar-feria" : "",
+                isSunday ? "calendar-week-start" : "",
+              ].filter(Boolean).join(" ")}
+            >
+              {isMonthStart && (
+                <Box component="span" className="calendar-month">{dateParsed.format("MMMM YYYY")}</Box>
+              )}
+              <ListItemButton
+                className="list-link calendar-day-link"
+                selected={indexItem.id === selectedItem}
+                component={Link}
+                href={`${resolvedBasePath}/${indexItem.id}`}
+                aria-current={isToday ? "date" : undefined}
+                style={{"--day-color": `var(--vestment-${indexItem.colors[0]})`} as React.CSSProperties}
               >
-                <ListItemButton
-                  selected={indexItem.id === selectedItem}
-                  component={Link}
-                  href={`${resolvedBasePath}/${indexItem.id}`}
-                >
-                  <>
-                    {indexItem.id === todayFmt && (
-                      <ListItemIcon sx={{ minWidth: "2.5rem", display: "flex", alignItems: "center" }}>
-                        <EventIcon sx={{ color: "secondary.main" }}/>
-                      </ListItemIcon>
-                    )}
-                  </>
-                  <SidenavListItemText
-                    rank={indexItem.rank}
-                    prim={indexItem.title}
-                    sec={`${dateParsed.format("dd DD.MM")} / 
-                  ${RANK_NAMES[lang as Locale][indexItem.rank]}
-                  ${
-                    indexItem.commemorations && indexItem.commemorations.length > 0
-                      ? " / " + COMMEMORATION[lang as Locale] + " " + indexItem.commemorations.map((observance) => getObservanceTitle(observance)).join(", ")
-                      : ""
-                  }`}
-                  />
-                </ListItemButton>
-              </SidenavListItem>
-            </Fragment>
+                <Box component="h3" className="list-title calendar-title">{indexItem.title}</Box>
+                <Box className="calendar-meta">
+                  <Box component="time" dateTime={indexItem.id} className="calendar-date">
+                    {dateParsed.format("dddd, D MMMM")}
+                  </Box>
+                  <Box component="span" className="calendar-rank">{RANK_NAMES[lang as Locale][indexItem.rank]}</Box>
+                  {isToday && <Box component="span" className="calendar-today">{TODAY[lang as Locale]}</Box>}
+                  {(isFirstFriday || isFirstSaturday) && (
+                    <Box component="span" className="calendar-first-weekday">
+                      {isFirstFriday ? FIRST_FRIDAY[lang as Locale] : FIRST_SATURDAY[lang as Locale]}
+                    </Box>
+                  )}
+                </Box>
+                {indexItem.commemorations?.length > 0 && (
+                  <Box className="calendar-commemorations">
+                    <Box component="span" className="calendar-commemoration-label">{COMMEMORATION[lang as Locale]}</Box>{" "}
+                    {indexItem.commemorations.map(getObservanceTitle).join(", ")}
+                  </Box>
+                )}
+              </ListItemButton>
+            </ListItem>
           );
         })}
         <Box component="li" ref={bottomSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>
       </List>
-    </>
+    </CalendarSurface>
   );
 }

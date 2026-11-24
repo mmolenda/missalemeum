@@ -64,6 +64,8 @@ export const MSG_POLICY_LINK = {"en": "Privacy Policy.",
 export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No, thanks",
 	"pl": "Nie, dziękuję"}
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
+export const FIRST_FRIDAY = {"en": "First Friday", "pl": "I piątek"}
+export const FIRST_SATURDAY = {"en": "First Saturday", "pl": "I sobota"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
 export const BANNER_COPY: Record<Locale, { highlight: string; message: string; action: string; dismiss: string }> = {
   en: {highlight: "New: search by page.", message: "Enter a page number from a missal in search, e.g. 143.", action: "Try it", dismiss: "Dismiss page search announcement"},

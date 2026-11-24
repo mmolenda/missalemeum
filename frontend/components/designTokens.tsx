@@ -4,9 +4,19 @@ import {createTheme, PaletteMode} from "@mui/material";
 
 const defaultTheme = createTheme()
 export const yellowish = '#fcfbf9'
-export const darkRedLightMode = '#b76d6d'
+export const darkRedLightMode = '#9c5050'
 export const darkRedDarkMode = '#e49086'
 export const appbarDarkGrey = '#424242'
+
+// Shared dark neutrals for navigation and reading; light tokens stay independent.
+export const darkGraphite = {
+  background: '#202225',
+  surface: '#292c30',
+  text: '#f4f3f0',
+  muted: '#b2b5bb',
+  divider: '#35383e',
+  header: '#303338',
+} as const
 
 export type vestmentColor = "vestmentr" | "vestmentw" | "vestmentv" | "vestmentg"
 
@@ -83,13 +93,13 @@ export const getDesignTokens = (mode: PaletteMode, fontSizeName: string) => ({
       : {
           // palette values for dark mode
           background: {
-            paper: '#262626',
-            default: '#262626'
+            paper: darkGraphite.surface,
+            default: darkGraphite.background
           },
           primary: {
-            main: yellowish,
+            main: darkGraphite.text,
             light: '#fff',
-            dark: '#c9c8c6',
+            dark: darkGraphite.muted,
           },
           secondary: {
             main: darkRedDarkMode,
@@ -97,10 +107,11 @@ export const getDesignTokens = (mode: PaletteMode, fontSizeName: string) => ({
             dark: '#b06159',
           },
           text: {
-            primary: yellowish,
-            secondary: yellowish,
+            primary: darkGraphite.text,
+            secondary: darkGraphite.muted,
             disabled: grey[800]
           },
+          divider: darkGraphite.divider,
           vestmentw: {
             main: yellowish,
             contrastText: '#fff'
@@ -189,13 +200,13 @@ export const getDesignTokens = (mode: PaletteMode, fontSizeName: string) => ({
           fontSize: translateFontSize(fontSizeName) * 1.5,
           fontFamily: "Merriweather",
           fontWeight: 800,
-          color: yellowish
+          color: darkGraphite.text
         },
         h3: {
           fontSize: translateFontSize(fontSizeName) * 1.2,
           fontFamily: "Merriweather",
           fontWeight: 800,
-          color: grey[400],
+          color: darkGraphite.muted,
           lineHeight: 2.2
         },
         h4: {
@@ -214,7 +225,7 @@ export const getDesignTokens = (mode: PaletteMode, fontSizeName: string) => ({
         },
         body1: {
           fontFamily: "Merriweather",
-          color: yellowish
+          color: darkGraphite.text
         },
     }),
     fontSize: translateFontSize(fontSizeName),

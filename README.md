@@ -81,6 +81,12 @@ npm run dev
 
 and navigate to http://0.0.0.0:3000.
 
+For local network testing, use `make dev` from the repository root and open
+`http://<LAN-IP>:3000`. Browser API requests use the frontend's origin; Next.js
+forwards them to `API_URL` in development. `make dev` leaves `NEXT_PUBLIC_API_URL`
+empty so other devices do not try to connect to their own `localhost`. Production
+API routing remains handled by Caddy.
+
 ## Docker
 
 Docker compose setup for this project runs three containers - backend, frontend and caddy server as a reverse proxy.

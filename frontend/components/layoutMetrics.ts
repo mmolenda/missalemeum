@@ -1,6 +1,6 @@
 import type {Theme} from "@mui/material/styles";
 
-export const BANNER_ENABLED = false;
+export const BANNER_ENABLED = true;
 export const BANNER_STORAGE_KEY = "pageSearchAnnouncementDismissed";
 export const BANNER_EXPIRES_AT = "2026-12-14T00:00:00+01:00";
 export const BANNER_HEIGHT = 48;

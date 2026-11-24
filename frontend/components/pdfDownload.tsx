@@ -78,7 +78,7 @@ export const PdfDownloadMenu = ({
   resourceId,
   indexParam,
   extraParams,
-  ariaLabel = "download pdf",
+  ariaLabel,
 }: PdfDownloadMenuProps) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -99,7 +99,7 @@ export const PdfDownloadMenu = ({
   return (
     <>
       <IconButton
-        aria-label={ariaLabel}
+        aria-label={ariaLabel ?? (lang === "pl" ? "Pobierz PDF" : "Download PDF")}
         aria-controls={open ? "pdf-variant-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
