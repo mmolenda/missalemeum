@@ -18,12 +18,15 @@ import React, {
 import {
   CALENDAR_BUTTON_TOOLTIP,
   COMMEMORATION,
+  FIRST_FRIDAY,
+  FIRST_SATURDAY,
   IN,
   Locale,
   MUI_DATEPICKER_LOCALE_TEXT,
   RANK_NAMES,
   SEARCH_PLACEHOLDER,
   SEARCH_SUGGESTIONS_PROPER,
+  TODAY,
   TODAY_BUTTON_TOOLTIP,
 } from "@/components/intl";
 import moment, {Moment} from "moment";
@@ -775,7 +778,10 @@ export default function ListProper({
         {visibleItems.map((indexItem) => {
           const dateParsed = moment(indexItem.id, DATE_FORMAT).locale(lang);
           const isMonthStart = dateParsed.date() === 1;
-          const isSunday = dateParsed.isoWeekday() === 7;
+          const weekday = dateParsed.isoWeekday();
+          const isSunday = weekday === 7;
+          const isFirstFriday = weekday === 5 && dateParsed.date() <= 7;
+          const isFirstSaturday = weekday === 6 && dateParsed.date() <= 7;
           const isToday = indexItem.id === todayFmt;
           const myRef = listItemRefs.current[indexItem.id] ?? createRef<HTMLLIElement>();
           listItemRefs.current[indexItem.id] = myRef;
@@ -809,7 +815,12 @@ export default function ListProper({
                     {dateParsed.format("dddd, D MMMM")}
                   </Box>
                   <Box component="span" className="calendar-rank">{RANK_NAMES[lang as Locale][indexItem.rank]}</Box>
-                  {isToday && <Box component="span" className="calendar-today">{lang === "pl" ? "Dzisiaj" : "Today"}</Box>}
+                  {isToday && <Box component="span" className="calendar-today">{TODAY[lang as Locale]}</Box>}
+                  {(isFirstFriday || isFirstSaturday) && (
+                    <Box component="span" className="calendar-first-weekday">
+                      {isFirstFriday ? FIRST_FRIDAY[lang as Locale] : FIRST_SATURDAY[lang as Locale]}
+                    </Box>
+                  )}
                 </Box>
                 {indexItem.commemorations?.length > 0 && (
                   <Box className="calendar-commemorations">

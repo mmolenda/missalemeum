@@ -87,14 +87,19 @@ export const CalendarSurface = styled(Box)(({theme}) => {
       lineHeight: 1.5, fontWeight: 400, color: c.muted,
     },
     "& .calendar-date": {fontWeight: 400, fontVariantNumeric: "tabular-nums"},
-    "& .calendar-rank": {
-      display: "inline-flex", alignItems: "center", gap: theme.spacing(1.25),
-      "&::before": {content: '"·"', color: c.muted},
+    "& .calendar-meta > :not(:first-child)": {
+      display: "inline-flex", alignItems: "baseline", gap: theme.spacing(1.25),
+      "&::before": {
+        content: '"·"', color: c.muted, fontSize: theme.typography.pxToRem(14),
+        fontWeight: 400, letterSpacing: "normal", lineHeight: 1.5,
+      },
     },
-    "& .calendar-today": {
-      color: c.accent, fontWeight: 700, fontSize: theme.typography.pxToRem(12),
-      letterSpacing: "0.045em", textTransform: "uppercase",
+    "& .calendar-today, & .calendar-first-weekday": {
+      color: c.accent, fontSize: theme.typography.pxToRem(12),
+      letterSpacing: "0.045em", textTransform: "uppercase", whiteSpace: "nowrap",
     },
+    "& .calendar-today": {fontWeight: 700},
+    "& .calendar-first-weekday": {fontWeight: 400},
     "& .calendar-commemorations": {
       marginTop: theme.spacing(0.5), color: c.muted,
       fontSize: theme.typography.pxToRem(13), lineHeight: 1.55, overflowWrap: "anywhere",
