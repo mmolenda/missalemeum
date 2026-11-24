@@ -65,9 +65,9 @@ export const MSG_POLICY_DECLINE_BUTTON: { [key in Locale]: string } = {"en": "No
 	"pl": "Nie, dziękuję"}
 export const TODAY = {"en": "Today", "pl": "Dzisiaj"}
 export const POWERED_BY = {"en": "Powered by", "pl": "Treści dostarcza"}
-export const BANNER_COPY: Record<Locale, { highlight: string; message: string }> = {
-  en: {highlight: "New:", message: "printable texts available for download as PDF."},
-  pl: {highlight: "Nowość:", message: "teksty do wydruku do pobrania jako PDF."},
+export const BANNER_COPY: Record<Locale, { highlight: string; message: string; action: string; dismiss: string }> = {
+  en: {highlight: "New: search by page.", message: "Enter a page number from a missal in search, e.g. 143.", action: "Try it", dismiss: "Dismiss page search announcement"},
+  pl: {highlight: "Nowość: wyszukiwanie po stronach.", message: "Wpisz w wyszukiwarce numer strony mszalika lub śpiewnika, np. 224.", action: "Wypróbuj", dismiss: "Zamknij ogłoszenie o wyszukiwaniu po stronach"},
 }
 export type PdfVariantOption = {
   label: string;

@@ -8,12 +8,15 @@ import {Icon} from "@iconify/react";
 import Link from "next/link";
 import {buildApiUrl} from "@/components/utils";
 import {Locale} from "@/components/intl";
+import {findPageResults, isPageQuery} from "@/components/pageSearch";
 
 type SearchType = "mass" | "prayer" | "chant" | "supplement" | "ordinary";
 type SearchResult = {
   id: string; title: string; tags?: string[]; type: SearchType;
   source: "calendar" | "proper" | "prayer" | "chant" | "supplement" | "ordinary";
   path: string; date?: string; status?: "commemoration" | "displaced";
+  page_only?: boolean;
+  publication?: string; pageReference?: string;
 };
 
 const COPY: Record<Locale, {
@@ -25,7 +28,7 @@ const COPY: Record<Locale, {
   pl: {
     open: "Otwórz wyszukiwarkę",
     clear: "Wyczyść wyszukiwanie",
-    placeholder: "Szukaj mszy, pieśni, modlitw…", empty: "Zacznij pisać, aby wyszukać treści.", noResults: "Brak pasujących wyników.",
+    placeholder: "Szukaj mszy, pieśni, modlitw lub numeru strony…", empty: "Wpisz tytuł lub numer strony mszalika albo śpiewnika.", noResults: "Brak pasujących wyników.",
     shortcut: "Szukaj (⌘K / Ctrl+K)",
     title: "Szukaj", close: "Zamknij wyszukiwarkę", loading: "Wczytywanie wyszukiwarki…",
     error: "Nie udało się wczytać wyszukiwarki. Sprawdź połączenie i spróbuj ponownie.", retry: "Spróbuj ponownie",
@@ -36,7 +39,7 @@ const COPY: Record<Locale, {
   en: {
     open: "Open search",
     clear: "Clear search",
-    placeholder: "Search masses, chants, prayers…", empty: "Start typing to search.", noResults: "No matching results.",
+    placeholder: "Search masses, chants, prayers or page numbers…", empty: "Enter a title or a page number from a missal.", noResults: "No matching results.",
     shortcut: "Search (⌘K / Ctrl+K)",
     title: "Search", close: "Close search", loading: "Loading search…",
     error: "Could not load search. Check your connection and try again.", retry: "Try again",
@@ -70,9 +73,10 @@ const iconFor = (result: SearchResult) => {
   return {proper: "mdi:text-box-outline", prayer: "mdi:hands-pray", chant: "mdi:music-note-sixteenth", supplement: "mdi:book-plus", ordinary: "mdi:text-box-outline"}[result.source];
 };
 
-export default function GlobalSearch({lang}: {lang: Locale}) {
+export default function GlobalSearch({lang, open, setOpen}: {
+  lang: Locale; open: boolean; setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) {
   const copy = COPY[lang];
-  const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchResult[] | null>(null);
   const [loading, setLoading] = useState(false);
@@ -93,7 +97,7 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [setOpen]);
   useEffect(() => {
     if (!open || index || loadFailed) return;
     const controller = new AbortController();
@@ -125,13 +129,14 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
       dateText: normalise(`${formattedDate} ${result.date ?? ""}`)};
   }), [dateFormatter, index]);
 
-  const results = useMemo(() => {
+  const results = useMemo<SearchResult[]>(() => {
     const normalizedQuery = normalise(query.trim());
     if (!normalizedQuery || !index) return [];
+    if (isPageQuery(query)) return findPageResults(index, query, lang);
     const today = new Date();
     const windowStart = shiftMonths(today, -1);
     const windowEnd = shiftMonths(today, 12);
-    return searchIndex.map(({result, date: resultDate, title, tags, dateText}) => {
+    return searchIndex.filter(({result}) => !result.page_only).map(({result, date: resultDate, title, tags, dateText}) => {
       const score = title.startsWith(normalizedQuery) ? 0 : title.includes(normalizedQuery) ? 1 : tags.includes(normalizedQuery) ? 2 : dateText.includes(normalizedQuery) ? 3 : 4;
       const dateDistance = resultDate ? Math.abs(resultDate.getTime() - today.getTime()) : Number.MAX_SAFE_INTEGER;
       return {result, score, dateDistance, inDateWindow: !resultDate || (resultDate >= windowStart && resultDate <= windowEnd)};
@@ -182,11 +187,12 @@ export default function GlobalSearch({lang}: {lang: Locale}) {
         </Typography>
         <List disablePadding sx={{pt: results.length ? 1.25 : 0}}>{results.map((result) => {
           const details: string[] = [copy.types[result.type]];
+          if (result.pageReference) details.push(result.pageReference.replace(/^.*\s([sp]\.\s*\d+)$/, "$1"));
           if (result.status) details.push(copy.statuses[result.status]);
           if (result.date) details.push(dateFormatter.format(new Date(`${result.date}T12:00:00`)));
-          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
+          return <ListItemButton component={Link} href={`/${lang}/${result.path}`} prefetch={false} key={`${result.source}-${result.id}-${result.pageReference ?? ""}`} onClick={close} sx={{px: 1.25, py: 1.1, borderRadius: 1}}>
             <ListItemIcon sx={{color: "text.secondary", minWidth: 44}}><Icon icon={iconFor(result)} width={20} height={20} /></ListItemIcon>
-            <ListItemText primary={result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />
+            <ListItemText primary={result.publication ? `${result.publication} — ${result.title}` : result.title} secondary={details.join(" · ")} slotProps={{secondary: {sx: {color: "text.secondary", opacity: 0.82}}}} />
           </ListItemButton>;
         })}</List>
       </DialogContent>

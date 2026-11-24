@@ -33,6 +33,70 @@ def test_api_search_returns_localized_title_matches(client):
     assert client.get('/pl/api/v5/search/index', headers={"If-None-Match": response.headers["etag"]}).status_code == 304
 
 
+@pytest.mark.parametrize(('resource', 'expected'), [
+    ('przed-tak-wielkim-sakramentem', [
+        "Te Deum — modlitewnik, s. 219", "Te Deum — modlitewnik, s. 267",
+        "Te Deum — kancjonał, s. 157",
+    ]),
+    ('o-zbawcza-hostio', [
+        "Te Deum — modlitewnik, s. 218", "Te Deum — modlitewnik, s. 265",
+        "Te Deum — kancjonał, s. 155", "Te Deum — kancjonał, s. 156",
+    ]),
+])
+def test_api_chant_page_references_in_content_and_indexes(client, resource, expected):
+    indexes = [client.get('/pl/api/v5/canticum').json(),
+               client.get('/pl/api/v5/search/index').json()]
+    for index in indexes:
+        chant = next(item for item in index if item['id'] == resource)
+        assert all(page in chant['tags'] for page in expected)
+    for _ in range(2):
+        tags = client.get(f'/pl/api/v5/canticum/{resource}').json()[0]['info']['tags']
+        assert [tag for tag in tags if tag.startswith('Te Deum')] == expected
+
+
+def test_api_chant_pages_distinguish_similar_titles_and_languages(client):
+    for resource, page in [('nie-opuszczaj-nas', 792), ('pod-twa-obrone', 679),
+                           ('pod-twoja-obrone', 813)]:
+        tags = client.get(f'/pl/api/v5/canticum/{resource}').json()[0]['info']['tags']
+        assert [tag for tag in tags if 'kancjonał' in tag] == [f'Te Deum — kancjonał, s. {page}']
+    tags = client.get('/en/api/v5/canticum/salve-regina').json()[0]['info']['tags']
+    assert not any(tag.startswith('Te Deum') for tag in tags)
+    tags = client.get('/pl/api/v5/canticum/gaudete').json()[0]['info']['tags']
+    assert not any(tag.startswith('Te Deum') for tag in tags)
+
+
+@pytest.mark.parametrize(('resource', 'expected'), [
+    ('magnificat', ["Te Deum — modlitewnik, s. 173", "Te Deum — kancjonał, s. 669"]),
+    ('zdrowas-maryjo', ["Te Deum — modlitewnik, s. 18", "Te Deum — kancjonał, s. 754"]),
+    ('aniol-panski', ["Te Deum — kancjonał, s. 891"]),
+    ('wieczny-odpoczynek', ["Te Deum — kancjonał, s. 733"]),
+])
+def test_api_songbook_references_for_entries_in_prayer_catalogue(client, resource, expected):
+    content = client.get(f'/pl/api/v5/oratio/{resource}').json()[0]
+    assert [tag for tag in content['info']['tags'] if tag.startswith('Te Deum')] == expected
+    for path in ('oratio', 'search/index'):
+        index = client.get(f'/pl/api/v5/{path}').json()
+        item = next(item for item in index if item['id'] == resource)
+        assert all(tag in item['tags'] for tag in expected)
+
+
+@pytest.mark.parametrize('lang', ['pl', 'en'])
+def test_api_search_includes_printed_proper_pages_without_calendar_duplicates(client, lang):
+    from api.constants import TRANSLATION
+
+    translation = TRANSLATION[lang]
+    results = client.get(f'/{lang}/api/v5/search/index').json()
+    for proper_id, pages in translation.PAGES.items():
+        if not pages or proper_id not in translation.TITLES:
+            continue
+        votive = next((item for item in translation.VOTIVE_MASSES if item['id'] == proper_id), None)
+        target = f"mass/{votive['ref'] if votive else proper_id}"
+        matches = [item for item in results if item['path'] == target]
+        assert len(matches) == 1
+        assert all(page in matches[0]['tags'] for page in pages)
+        assert matches[0].get('page_only', False) == (votive is None)
+
+
 def test_api_search_calendar_index_includes_observances(client):
     response = client.get('/pl/api/v5/search/calendar-index/2026-09-14')
     assert response.status_code == 200
@@ -52,7 +116,7 @@ def test_api_date(client):
     resp = client.get('/pl/api/v5/proper/2020-11-11')
     data = resp.json()
     info = data[0]["info"]
-    assert ['Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
+    assert ['Szaty białe', 'Mszalik - Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "2020-11-11" == info["date"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
@@ -138,7 +202,7 @@ def test_api_proper(client):
     resp = client.get('/pl/api/v5/proper/sancti:11-11:3:w')
     data = resp.json()
     info = data[0]["info"]
-    assert ['11 listopada', 'Szaty białe', 'Pallotinum s. 1186'] == info["tags"]
+    assert ['11 listopada', 'Szaty białe', 'Mszalik - Pallotinum s. 1186'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "Św. Marcin urodził się około roku 316" in info["description"]
     assert "sancti:11-11:3:w" == info["id"]
@@ -239,7 +303,7 @@ def test_api_proper_slug(client):
     resp = client.get('/pl/api/v5/proper/rorate')
     data = resp.json()
     info = data[0]["info"]
-    assert ['Szaty białe', 'Adwent', 'Pallotinum s. 649'] == info["tags"]
+    assert ['Szaty białe', 'Adwent', 'Mszalik - Pallotinum s. 649'] == info["tags"]
     assert ["w"] == info["colors"]
     assert "commune:C10a:0:w" == info["id"]
     assert '1 Msza o N. M. P. – Rorate' == info["title"]
@@ -262,7 +326,8 @@ def test_api_supplement_subdir(client):
     resp = client.get('/pl/api/v5/canticum/adoro-te')
     data = resp.json()
     assert "Adoro Te" == data[0]['info']['title']
-    assert ["Eucharystyczne", "Łacińskie"] == data[0]['info']['tags']
+    assert ["Eucharystyczne", "Łacińskie", "Te Deum — modlitewnik, s. 218",
+            "Te Deum — kancjonał, s. 573"] == data[0]['info']['tags']
     assert "ADORO TE, devote, latens Deitas" in data[0]['sections'][0]['body'][0][0]
 
 

@@ -3,6 +3,7 @@ import re
 from api.constants import common as constants
 from .supplements import SUPPLEMENTS, SUPPLEMENTS_V4
 from .pages import PAGES
+from .chant_pages import CANTICUM_PAGES, ORATIO_PAGES
 from ..common import TRANSFORMATIONS_COMMON
 
 PDF_LABELS = {
