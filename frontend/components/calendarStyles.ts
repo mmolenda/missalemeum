@@ -1,4 +1,4 @@
-import {alpha, lighten, styled, type PaletteColor} from "@mui/material/styles";
+import {alpha, darken, lighten, styled, type PaletteColor} from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import {getAppBarHeightFromTheme} from "@/components/layoutMetrics";
 
@@ -9,14 +9,17 @@ export const CalendarSurface = styled(Box)(({theme}) => {
     surface: palette.background.default,
     text: palette.text.primary,
     muted: palette.mode === "dark" ? palette.text.secondary : palette.primary.light,
-    line: palette.mode === "dark" ? palette.divider : alpha(palette.text.primary, 0.1),
+    line: palette.mode === "dark" ? palette.divider : alpha(palette.text.primary, 0.15),
     accent: palette.secondary.main,
     hover: palette.mode === "dark" ? palette.background.paper : palette.action.hover,
   };
   const vestments = Object.fromEntries(["r", "g", "v", "w", "b", "p"].map((code) => {
     const color = (palette[`vestment${code}` as keyof typeof palette] as PaletteColor).main;
-    // Black needs a little lift against the shared dark background.
-    return [`--vestment-${code}`, code === "b" && palette.mode === "dark" ? lighten(color, 0.2) : color];
+    // Tune only the calendar markers; proprium keeps its existing liturgical colors.
+    const marker = palette.mode === "dark"
+      ? code === "w" ? "#d8d9d7" : code === "b" ? lighten(color, 0.2) : color
+      : darken(color, code === "w" ? 0.12 : 0.06);
+    return [`--vestment-${code}`, marker];
   }));
   return {
     "--calendar-surface": c.surface,
@@ -58,7 +61,7 @@ export const CalendarSurface = styled(Box)(({theme}) => {
     },
     "& .calendar-day": {
       display: "block", padding: 0, borderBottom: `1px solid ${c.line}`,
-      "&.calendar-week-start": {marginTop: theme.spacing(2.25)},
+      "&.calendar-week-start": {marginTop: theme.spacing(3)},
       scrollMarginTop: `calc(${getAppBarHeightFromTheme(theme)}px + var(--announcement-banner-height, 0px) + var(--list-controls-height, 68px) + 16px)`,
     },
     "& .calendar-day-link": {
@@ -74,16 +77,16 @@ export const CalendarSurface = styled(Box)(({theme}) => {
     },
     "& .calendar-title": {
       margin: 0, fontFamily: "inherit", fontSize: theme.typography.pxToRem(17),
-      fontWeight: 500, lineHeight: 1.4, letterSpacing: "-0.012em", overflowWrap: "anywhere",
+      fontWeight: 400, lineHeight: 1.4, letterSpacing: "-0.012em", overflowWrap: "anywhere",
     },
     "& .calendar-important .calendar-title": {fontWeight: 700},
     "& .calendar-feria .calendar-title": {fontWeight: 400},
     "& .calendar-meta": {
       display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: theme.spacing(0.5, 1.25),
       marginTop: theme.spacing(0.5), fontSize: theme.typography.pxToRem(14),
-      lineHeight: 1.5, color: c.muted,
+      lineHeight: 1.5, fontWeight: 400, color: c.muted,
     },
-    "& .calendar-date": {fontWeight: 500, fontVariantNumeric: "tabular-nums"},
+    "& .calendar-date": {fontWeight: 400, fontVariantNumeric: "tabular-nums"},
     "& .calendar-rank": {
       display: "inline-flex", alignItems: "center", gap: theme.spacing(1.25),
       "&::before": {content: '"·"', color: c.muted},

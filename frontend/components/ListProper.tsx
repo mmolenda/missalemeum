@@ -787,7 +787,7 @@ export default function ListProper({
               disableGutters
               className={[
                 "calendar-day",
-                isSunday || indexItem.rank <= 2 ? "calendar-important" : "",
+                isSunday || indexItem.rank === 1 ? "calendar-important" : "",
                 !isSunday && indexItem.rank === 4 ? "calendar-feria" : "",
                 isSunday ? "calendar-week-start" : "",
               ].filter(Boolean).join(" ")}

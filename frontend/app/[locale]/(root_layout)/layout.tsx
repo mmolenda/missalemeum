@@ -120,7 +120,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   return (
     <AppRouterCacheProvider>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
+        <CssBaseline enableColorScheme />
         <Announcement
           lang={lang}
           version={process.env.NEXT_PUBLIC_BUILD_VERSION || "noversion"}
@@ -245,7 +245,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
               component="main"
               tabIndex={-1}
               sx={{
-                overflowY: "scroll",
+                overflowY: "auto",
                 width: "100%",
                 ml: 0,
                 pt: contentTopPadding,
