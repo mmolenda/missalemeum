@@ -44,8 +44,8 @@ export const CalendarSurface = styled(ListSurface)(({theme}) => {
     "& .calendar-meta > :not(:first-child)": {
       display: "inline-flex", alignItems: "baseline", gap: theme.spacing(1.25),
       "&::before": {
-        content: '"·"', color: c.muted, fontSize: theme.typography.pxToRem(14),
-        fontWeight: 400, letterSpacing: "normal", lineHeight: 1.5,
+        content: '"·"', color: c.accent, fontSize: theme.typography.pxToRem(14),
+        fontWeight: 700, letterSpacing: "normal", lineHeight: 1.5,
       },
     },
     "& .calendar-today, & .calendar-first-weekday": {
