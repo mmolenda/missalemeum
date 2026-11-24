@@ -1,15 +1,16 @@
 "use client"
 
-import Link from "next/link";
 import List from "@mui/material/List";
-import {SidenavListItem} from "@/components/styledComponents/SidenavListItem";
-import {Autocomplete, AutocompleteRenderInputParams, Box, ListItemButton, TextField} from "@mui/material";
-import SidenavListItemText from "@/components/styledComponents/SidenavListItemText";
+import IndexListItem from "@/components/IndexListItem";
+import SearchIcon from "@mui/icons-material/Search";
+import InputAdornment from "@mui/material/InputAdornment";
+import {ListControls, ListSearchPaper, ListSurface} from "@/components/listStyles";
+import {Autocomplete, AutocompleteRenderInputParams, TextField} from "@mui/material";
 import React, {createRef, RefObject, useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {Locale, SEARCH_PLACEHOLDER} from "@/components/intl";
 import {ListItemType} from "@/components/types";
-import {getAppBarHeightFromTheme} from "@/components/layoutMetrics";
 import {useMeasuredHeight} from "@/components/useMeasuredHeight";
+import {isPageReference} from "@/components/pageSearch";
 
 export default function ListCommon({
                                      lang,
@@ -59,26 +60,12 @@ export default function ListCommon({
 
   return (
 
-    <>
-      <Box ref={controlsRef} sx={{
-        position: "fixed",
-        display: "flex",
-        top: (theme) => {
-          const appBarHeight = getAppBarHeightFromTheme(theme);
-          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
-        },
-        width: "100%",
-        maxWidth: "900px",
-        left: "50%",
-        transform: "translateX(-50%)",
-        p: "0.75rem",
-        boxShadow: 2,
-        backgroundColor: "background.default",
-        zIndex: 100
-      }}>
+    <ListSurface>
+      <ListControls ref={controlsRef} className="list-controls">
         <Autocomplete
+          slots={{paper: ListSearchPaper}}
           size="small"
-          sx={{width: {xs: "100%", sm: "30%"}, minWidth: 0}}
+          sx={{flex: 1, minWidth: 0, maxWidth: {sm: 400}}}
           freeSolo
           value={filterString}
           onInputChange={(event, newValue) => {
@@ -88,34 +75,30 @@ export default function ListCommon({
           renderInput={(params: AutocompleteRenderInputParams): React.ReactNode => {
             return (<TextField
               {...params}
-              label={SEARCH_PLACEHOLDER[lang as Locale]}
+              placeholder={SEARCH_PLACEHOLDER[lang as Locale]}
+              slotProps={{
+                htmlInput: {...params.inputProps, "aria-label": SEARCH_PLACEHOLDER[lang as Locale]},
+                input: {...params.InputProps, startAdornment: <InputAdornment position="start"><SearchIcon sx={{color: "var(--list-muted)"}} /></InputAdornment>},
+              }}
             />)
           }}
         />
-      </Box>
-      <List>
+      </ListControls>
+      <List className="list-index">
         {itemsFiltered.map((indexItem) => {
           const myRef: RefObject<HTMLLIElement | null> = listItemRefs.current[indexItem.id] ?? createRef<HTMLLIElement | null>()
           listItemRefs.current[indexItem.id] = myRef
           return (
-            <SidenavListItem
+            <IndexListItem
               key={indexItem.id}
               ref={myRef}
-              disableGutters
-            >
-              <ListItemButton
-                selected={indexItem.id == selectedItem}
-                component={Link}
-                href={sidenavPath + indexItem.id}
-              >
-                <SidenavListItemText
-                  prim={indexItem.title}
-                  sec={indexItem.tags.length > 0 ? indexItem.tags.join(", "): ""}
-                />
-              </ListItemButton>
-            </SidenavListItem>)
+              selected={indexItem.id == selectedItem}
+              href={sidenavPath + indexItem.id}
+              title={indexItem.title}
+              details={indexItem.tags.filter(tag => tag.trim() && !isPageReference(tag))}
+            />)
         })}
       </List>
-    </>
+    </ListSurface>
   )
 }

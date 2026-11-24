@@ -3,6 +3,7 @@
 import Link from "next/link";
 import List from "@mui/material/List";
 import {CalendarSurface} from "@/components/calendarStyles";
+import {ListControls, ListSearchPaper} from "@/components/listStyles";
 import React, {
   createRef,
   Dispatch,
@@ -54,7 +55,6 @@ import "moment/locale/pl";
 import {useRouter} from "next/navigation";
 import {ListItemType} from "@/components/types";
 import {callApi} from "@/components/utils";
-import {getAppBarHeightFromTheme} from "@/components/layoutMetrics";
 import {useMeasuredHeight} from "@/components/useMeasuredHeight";
 import { PdfDownloadMenu } from "@/components/pdfDownload";
 
@@ -643,21 +643,9 @@ export default function ListProper({
 
   return (
     <CalendarSurface>
-      <Box ref={controlsRef} className="calendar-controls" sx={{
-        position: "fixed",
-        display: "flex",
-        top: (theme) => {
-          const appBarHeight = getAppBarHeightFromTheme(theme);
-          return `calc(${appBarHeight}px + var(--announcement-banner-height, 0px))`;
-        },
-        width: "100%",
-        maxWidth: "900px",
-        left: "50%",
-        transform: "translateX(-50%)",
-        zIndex: 100,
-        alignItems: "center",
-      }}>
+      <ListControls ref={controlsRef} className="list-controls calendar-controls">
         <Autocomplete<SearchOption, false, false, true>
+          slots={{paper: ListSearchPaper}}
           size="small"
           sx={{flex: 1, minWidth: 0, mr: {xs: 0.5, sm: "auto"}, maxWidth: {sm: 400}}}
           freeSolo
@@ -735,7 +723,7 @@ export default function ListProper({
               placeholder={`${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${currentYear}`}
               slotProps={{
                 htmlInput: {...params.inputProps, "aria-label": `${SEARCH_PLACEHOLDER[lang as Locale]} ${IN[lang as Locale]} ${currentYear}`},
-                input: {...params.InputProps, startAdornment: <InputAdornment position="start"><SearchIcon sx={{color: "var(--calendar-muted)"}} /></InputAdornment>},
+                input: {...params.InputProps, startAdornment: <InputAdornment position="start"><SearchIcon sx={{color: "var(--list-muted)"}} /></InputAdornment>},
               }}
             />
           )}
@@ -772,8 +760,8 @@ export default function ListProper({
           apiEndpoint="calendar"
           resourceId={pdfResourceId}
         />
-      </Box>
-      <List className="calendar-list" aria-label={lang === "pl" ? "Kalendarz liturgiczny" : "Liturgical calendar"}>
+      </ListControls>
+      <List className="list-index calendar-list" aria-label={lang === "pl" ? "Kalendarz liturgiczny" : "Liturgical calendar"}>
         <Box component="li" ref={topSentinelRef} sx={{ listStyle: "none", height: "1px", p: 0, m: 0 }}/>
         {visibleItems.map((indexItem) => {
           const dateParsed = moment(indexItem.id, DATE_FORMAT).locale(lang);
@@ -792,7 +780,7 @@ export default function ListProper({
               data-date={indexItem.id}
               disableGutters
               className={[
-                "calendar-day",
+                "list-item calendar-day",
                 isSunday || indexItem.rank === 1 ? "calendar-important" : "",
                 !isSunday && indexItem.rank === 4 ? "calendar-feria" : "",
                 isSunday ? "calendar-week-start" : "",
@@ -802,14 +790,14 @@ export default function ListProper({
                 <Box component="span" className="calendar-month">{dateParsed.format("MMMM YYYY")}</Box>
               )}
               <ListItemButton
-                className="calendar-day-link"
+                className="list-link calendar-day-link"
                 selected={indexItem.id === selectedItem}
                 component={Link}
                 href={`${resolvedBasePath}/${indexItem.id}`}
                 aria-current={isToday ? "date" : undefined}
                 style={{"--day-color": `var(--vestment-${indexItem.colors[0]})`} as React.CSSProperties}
               >
-                <Box component="h3" className="calendar-title">{indexItem.title}</Box>
+                <Box component="h3" className="list-title calendar-title">{indexItem.title}</Box>
                 <Box className="calendar-meta">
                   <Box component="time" dateTime={indexItem.id} className="calendar-date">
                     {dateParsed.format("dddd, D MMMM")}

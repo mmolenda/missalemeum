@@ -66,7 +66,8 @@ const toLocale = (value?: string): Locale => {
 
 export default function RootLayout({children}: { children: React.ReactNode}) {
   const { locale } = useParams<{ locale?: string }>()
-  const isCalendar = /^\/(pl|en)\/calendar\/?$/.test(usePathname());
+  const pathname = usePathname();
+  const isIndex = /^\/(pl|en)\/(calendar|canticum|oratio|votive|ordo\/index)\/?$/.test(pathname);
   const lang = toLocale(locale)
   moment.locale(lang)
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
@@ -110,7 +111,8 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
   const bannerVisible = bannerOpen;
   useMeasuredHeight(bannerRef, "--announcement-banner-height", bannerVisible);
   useMeasuredHeight(cookieRef, "--cookie-consent-height");
-  const contentTopPadding = `calc(${appBarHeight}px + var(--announcement-banner-height, 0px) + var(--list-controls-height, ${appBarHeight}px))`;
+  const defaultControlsHeight = /^\/(pl|en)\/ordo\/index\/?$/.test(pathname) ? 0 : appBarHeight;
+  const contentTopPadding = `calc(${appBarHeight}px + var(--announcement-banner-height, 0px) + var(--list-controls-height, ${defaultControlsHeight}px))`;
 
   const handleBannerClose = () => {
     myLocalStorage.setItem(BANNER_STORAGE_KEY, "true")
@@ -139,7 +141,7 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           <AppBar sx={{
             backgroundColor: mode === "dark" ? darkGraphite.header : appbarDarkGrey,
             ...(mode === "dark" && {backgroundImage: "none"}),
-            ...(isCalendar && {
+            ...(isIndex && {
               boxShadow: "none",
               "& .MuiToolbar-root": {px: {xs: 2, sm: 2.5}},
               "& .MuiIconButton-root": {
