@@ -35,6 +35,7 @@ import React, {
   useState
 } from "react";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import {Body, Content} from "@/components/types";
 import { PdfDownloadMenu } from "@/components/pdfDownload";
@@ -158,6 +159,7 @@ const Article = ({
   const [bilingualLang, setBilingualLang] = useState(xVernacular)
   const [shareMessage, setShareMessage] = useState("");
   const content: Content = contents[index]
+  const supplementRef = usePathname().split("/").slice(2).join("/");
   const itemRefs = useRef<Record<string, HTMLElement | null>>({})
   const pdfResourceId = useMemo(() => apiEndpoint ? id : null, [apiEndpoint, id])
 
@@ -309,7 +311,7 @@ const Article = ({
             {`${MENUITEM_SUPPLEMENT[lang as Locale]}: `}
             {content.info.supplements.map((supplement, index) => {
               return (<Fragment key={index}>
-                <MyLink href={`${supplement.path}?ref=${id}`} text={supplement.label}
+                <MyLink href={`${supplement.path}?ref=${encodeURIComponent(supplementRef)}`} text={supplement.label}
                         widgetMode={widgetMode}/>
                 {index + 1 < content.info.supplements.length && ", "}
               </Fragment>)
