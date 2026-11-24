@@ -6,6 +6,7 @@ import {AppRouterCacheProvider} from "@mui/material-nextjs/v15-appRouter";
 import {ThemeProvider, type Theme} from "@mui/material/styles";
 import {
   appbarDarkGrey,
+  darkGraphite,
   darkRedDarkMode,
   darkRedLightMode,
   getDesignTokens,
@@ -37,7 +38,7 @@ import {
   MSG_POLICY_LINK,
   BANNER_COPY,
 } from "@/components/intl";
-import {useParams} from "next/navigation";
+import {useParams, usePathname} from "next/navigation";
 import moment from "moment";
 import "moment/locale/pl";
 import Announcement from "@/components/Announcement";
@@ -64,6 +65,7 @@ const toLocale = (value?: string): Locale => {
 
 export default function RootLayout({children}: { children: React.ReactNode}) {
   const { locale } = useParams<{ locale?: string }>()
+  const isCalendar = /^\/(pl|en)\/calendar\/?$/.test(usePathname());
   const lang = toLocale(locale)
   moment.locale(lang)
   const [darkMode, setDarkMode] = useState<boolean | undefined>(false)
@@ -129,7 +131,21 @@ export default function RootLayout({children}: { children: React.ReactNode}) {
           }}>
             {lang === "pl" ? "Przejdź do treści" : "Skip to content"}
           </Box>
-          <AppBar sx={{backgroundColor: appbarDarkGrey}}>
+          <AppBar sx={{
+            backgroundColor: mode === "dark" ? darkGraphite.header : appbarDarkGrey,
+            ...(mode === "dark" && {backgroundImage: "none"}),
+            ...(isCalendar && {
+              boxShadow: "none",
+              "& .MuiToolbar-root": {px: {xs: 2, sm: 2.5}},
+              "& .MuiIconButton-root": {
+                width: 44, height: 44, borderRadius: 1,
+                "&:hover": {backgroundColor: "rgba(255,255,255,0.08)"},
+              },
+              "& a:focus-visible, & button:focus-visible": {
+                outline: `2px solid ${darkRedDarkMode}`, outlineOffset: -2,
+              },
+            }),
+          }}>
             <Toolbar>
               <MainMenu
                 lang={lang}
